@@ -171,7 +171,7 @@ def execute_memit(
             fact_token_strategy=hparams.fact_token,
         )[1].T
         targets = zs - cur_zs
-        log("z error", torch.linalg.norm(targets, dim=0).mean())
+        log(f"z error {torch.linalg.norm(targets, dim=0).mean()}")
 
         repeat_factor = (layer_ks.size(1) // targets.size(1))
         targets = targets.repeat_interleave(repeat_factor, dim=1)
@@ -208,8 +208,8 @@ def execute_memit(
         weight_name = f"{hparams.rewrite_module_tmp.format(layer)}.weight"
         upd_matrix = upd_matrix_match_shape(upd_matrix, weights[weight_name].shape)
 
-        log("orig norm", torch.linalg.norm(weights[weight_name]))
-        log("upd norm", torch.linalg.norm(upd_matrix))
+        log(f"orig norm {torch.linalg.norm(weights[weight_name])}")
+        log(f"upd norm {torch.linalg.norm(upd_matrix)}")
 
         # Update model weights and record desired changes in `delta` variable
         with torch.no_grad():
@@ -231,7 +231,7 @@ def execute_memit(
         for k, v in weights.items():
             v[...] = weights_copy[k]
 
-    print(f"Deltas successfully computed for {list(weights.keys())}")
+    log(f"Deltas successfully computed for {list(weights.keys())}")
 
     return deltas
 
