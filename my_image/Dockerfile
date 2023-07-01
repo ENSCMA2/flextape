@@ -72,8 +72,15 @@ WORKDIR ${REPO_DIR}
 # Setup github repo dependencies
 # Note that, you cannot activate an environment with the RUN command, as each RUN command is like a new session.
 # Thus we instead call conda at the beginning of the pip or python command the way shown here:
-RUN PATH=$PATH:/mnt/u14157_ic_nlp_001_files_nfs/nlpdata1/home/halevy/miniconda3
-RUN ./scripts/setup_conda.sh
+RUN ${CONDA} run -n myenv pip install torch
+RUN ${CONDA} run -n myenv pip install transformers
+RUN ${CONDA} run -n myenv pip install datasets
+RUN ${CONDA} run -n myenv pip install higher
+RUN ${CONDA} run -n myenv pip install hydra
+RUN ${CONDA} run -n myenv pip install scipy
+RUN ${CONDA} run -n myenv pip install scikit-learn
+RUN ${CONDA} run -n myenv pip install nltk
+RUN ${CONDA} run -n myenv pip install matplotlib
 
 # Install OpenSSH for MPI to communicate between containers
 RUN apt-get update && apt-get install -y --no-install-recommends openssh-client openssh-server && \
