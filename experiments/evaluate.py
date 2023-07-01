@@ -144,9 +144,9 @@ def main(
             else dict()
         )
         etc_args = dict(cache_template=cache_template) if any(alg in alg_name for alg in ["ROME", "MEMIT"]) else dict()
-        log("about to start {record['case_id']}")
+        log(f"about to start {record['case_id']}")
         start = time()
-        log("started {record['case_id']}")
+        log(f"started {record['case_id']}")
         edited_model, weights_copy = apply_algo(
             model,
             tok,

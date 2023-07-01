@@ -20,6 +20,9 @@ from .memit_hparams import MEMITHyperParams
 CONTEXT_TEMPLATES_CACHE = None
 COV_CACHE = {}
 
+def log(message):
+    with open("logs.txt", "a") as o:
+        o.write(message + "\n")
 
 def apply_memit_to_model(
     model: AutoModelForCausalLM,
@@ -36,13 +39,13 @@ def apply_memit_to_model(
         Note that you are responsible for deallocating the new model's memory to avoid leaks.
     :return: (1) the updated model, (2) an original copy of the weights that changed
     """
-
+    log("we are in apply memit to model")
     weights_copy = {}
     if copy:
         model = deepcopy(model)
-
+    log("copied weights")
     deltas = execute_memit(model, tok, requests, hparams, cache_template=cache_template)
-
+    log("executed memit")
     with torch.no_grad():
         for w_name, (key_mat, val_mat) in deltas.items():
             key_mat, val_mat = key_mat.to("cuda"), val_mat.to("cuda")
@@ -55,7 +58,7 @@ def apply_memit_to_model(
 
             w[...] += upd_matrix.float()
 
-    print(f"New weights successfully inserted into {list(deltas.keys())}")
+    log(f"New weights successfully inserted into {list(deltas.keys())}")
 
     return model, weights_copy
 
@@ -71,17 +74,18 @@ def execute_memit(
     Executes the MEMIT update algorithm for the specified update at the specified layer
     Invariant: model at beginning of function == model at end of function
     """
-
+    log("inside execute_memit")
     deltas = {}
 
     # Update target and print info
     requests = deepcopy(requests)
+    log("deepcopied requests")
     for i, request in enumerate(requests):
         if request["target_new"]["str"][0] != " ":
             # Space required for correct tokenization
             requests[i]["target_new"]["str"] = " " + request["target_new"]["str"]
     for request in requests[:10]:
-        print(
+        log(
             f"MEMIT request sample: "
             f"[{request['prompt'].format(request['subject'])}] -> [{request['target_new']['str']}]"
         )
@@ -145,16 +149,16 @@ def execute_memit(
                         "v_star": cur_z.detach().cpu().numpy(),
                     },
                 )
-                print(f"Cached k/v pair at {cache_fname}")
+                log(f"Cached k/v pair at {cache_fname}")
     zs = torch.stack(z_list, dim=1)
 
     # Insert
     for i, layer in enumerate(hparams.layers):
-        print(f"\n\nLAYER {layer}\n")
+        log(f"\n\nLAYER {layer}\n")
 
         # Get current model activations
         layer_ks = compute_ks(model, tok, requests, hparams, layer, context_templates).T
-        print(f"Writing {layer_ks.size(1)} key/value pair(s) into layer {layer}")
+        log(f"Writing {layer_ks.size(1)} key/value pair(s) into layer {layer}")
 
         # Compute residual error
         cur_zs = get_module_input_output_at_words(
@@ -167,7 +171,7 @@ def execute_memit(
             fact_token_strategy=hparams.fact_token,
         )[1].T
         targets = zs - cur_zs
-        print("z error", torch.linalg.norm(targets, dim=0).mean())
+        log("z error", torch.linalg.norm(targets, dim=0).mean())
 
         repeat_factor = (layer_ks.size(1) // targets.size(1))
         targets = targets.repeat_interleave(repeat_factor, dim=1)
@@ -204,8 +208,8 @@ def execute_memit(
         weight_name = f"{hparams.rewrite_module_tmp.format(layer)}.weight"
         upd_matrix = upd_matrix_match_shape(upd_matrix, weights[weight_name].shape)
 
-        print("orig norm", torch.linalg.norm(weights[weight_name]))
-        print("upd norm", torch.linalg.norm(upd_matrix))
+        log("orig norm", torch.linalg.norm(weights[weight_name]))
+        log("upd norm", torch.linalg.norm(upd_matrix))
 
         # Update model weights and record desired changes in `delta` variable
         with torch.no_grad():
@@ -250,7 +254,7 @@ def get_cov(
     model_name = model.config._name_or_path.replace("/", "_")
     key = (model_name, layer_name)
 
-    print(f"Retrieving covariance statistics for {model_name} @ {layer_name}.")
+    log(f"Retrieving covariance statistics for {model_name} @ {layer_name}.")
     if key not in COV_CACHE or force_recompute:
         stat = layer_stats(
             model,
@@ -304,6 +308,6 @@ def get_context_templates(model, tok):
             ]
             for length, n_gen in [(10, 5)]  # Be careful about changing this.
         ]
-        print(f"Cached context templates {CONTEXT_TEMPLATES_CACHE}")
+        log(f"Cached context templates {CONTEXT_TEMPLATES_CACHE}")
 
     return CONTEXT_TEMPLATES_CACHE
