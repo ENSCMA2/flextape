@@ -36,4 +36,4 @@ then
 fi
 
 # Build new environment
-conda env create --name=${ENV_NAME} -f ${RECIPE}.yml
+${CONDA} env create --name=${ENV_NAME} -f ${RECIPE}.yml

@@ -73,7 +73,7 @@ WORKDIR ${REPO_DIR}
 # Note that, you cannot activate an environment with the RUN command, as each RUN command is like a new session.
 # Thus we instead call conda at the beginning of the pip or python command the way shown here:
 RUN PATH=$PATH:/mnt/u14157_ic_nlp_001_files_nfs/nlpdata1/home/halevy/miniconda3
-RUN CONDA_HOME=/mnt/u14157_ic_nlp_001_files_nfs/nlpdata1/home/halevy/miniconda3 ./scripts/setup_conda.sh
+RUN ./scripts/setup_conda.sh
 
 # Install OpenSSH for MPI to communicate between containers
 RUN apt-get update && apt-get install -y --no-install-recommends openssh-client openssh-server && \
