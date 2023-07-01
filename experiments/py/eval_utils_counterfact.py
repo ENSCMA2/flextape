@@ -17,7 +17,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from dsets import AttributeSnippets
 from util.generate import generate_fast
 from util.perplexity import perplexity
-
+nltk.download('punkt')
 
 def compute_rewrite_quality_counterfact(
     model: AutoModelForCausalLM,
