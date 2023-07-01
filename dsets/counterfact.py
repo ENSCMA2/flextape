@@ -21,7 +21,7 @@ class CounterFactDataset(Dataset):
     ):
         data_dir = Path(data_dir)
         cf_loc = data_dir / (
-            "counterfact.json" if not multi else "multi_counterfact.json"
+            "seesaw_cf_P101_False.json" if not multi else "seesaw_cf_P103_False.json"
         )
         if not cf_loc.exists():
             remote_url = f"{REMOTE_ROOT}/{'multi_' if multi else ''}counterfact.json"

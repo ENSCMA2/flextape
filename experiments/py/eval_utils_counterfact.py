@@ -45,20 +45,19 @@ def compute_rewrite_quality_counterfact(
         record["requested_rewrite"][x] for x in ["subject", "target_new", "target_true"]
     )
     rewrite_prompts = [record["requested_rewrite"]["prompt"].format(subject)]
-    paraphrase_prompts = record["paraphrase_prompts"]
     neighborhood_prompts = record["neighborhood_prompts"]
     generation_prompts = record["generation_prompts"]
-
+    attribute_prompts = record["attribute_prompts"]
     # Form a list of lists of prefixes to test.
     prob_prompts = [
         rewrite_prompts,
-        paraphrase_prompts,
         neighborhood_prompts,
+        attribute_prompts
     ]
     which_correct = [
         [0 for _ in range(len(rewrite_prompts))],
-        [0 for _ in range(len(paraphrase_prompts))],
         [1 for _ in range(len(neighborhood_prompts))],
+        [1 for _ in range(len(attribute_prompts))],
     ]
     # Flatten all the evaluated prefixes into one list.
     probs, targets_correct = test_batch_prediction(
@@ -81,7 +80,7 @@ def compute_rewrite_quality_counterfact(
         for i, key in enumerate(
             [
                 "rewrite_prompts",
-                "paraphrase_prompts",
+                "attribute_prompts",
                 "neighborhood_prompts",
             ]
         )
@@ -90,7 +89,7 @@ def compute_rewrite_quality_counterfact(
         for i, key in enumerate(
             [
                 "rewrite_prompts",
-                "paraphrase_prompts",
+                "attribute_prompts",
                 "neighborhood_prompts",
             ]
         )
