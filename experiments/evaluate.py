@@ -36,7 +36,9 @@ DS_DICT = {
     "zsre": (MENDQADataset, compute_rewrite_quality_zsre),
 }
 
-
+def log(message):
+    with open("logs.txt", "a") as o:
+        o.write(message + "\n")
 def main(
     alg_name: str,
     model_name: Union[str, Tuple],
@@ -51,6 +53,7 @@ def main(
     num_edits: int = 1,
     use_cache: bool = False,
 ):
+    log("starting main")
     # Set algorithm-specific variables
     params_class, apply_algo = ALG_DICT[alg_name]
 
@@ -85,11 +88,11 @@ def main(
     hparams = params_class.from_json(params_path)
     if not (run_dir / "params.json").exists():
         shutil.copyfile(params_path, run_dir / "params.json")
-    print(f"Executing {alg_name} with parameters {hparams}")
+    log(f"Executing {alg_name} with parameters {hparams}")
 
     # Instantiate vanilla model
     if type(model_name) is str:
-        print("Instantiating model")
+        log("Instantiating model")
         model = AutoModelForCausalLM.from_pretrained(model_name).cuda()
         tok = AutoTokenizer.from_pretrained(model_name)
         tok.pad_token = tok.eos_token
@@ -98,7 +101,7 @@ def main(
         model_name = model.config._name_or_path
 
     # Load data
-    print("Loading dataset, attribute snippets, tf-idf data")
+    log("Loading dataset, attribute snippets, tf-idf data")
     snips = AttributeSnippets(DATA_DIR) if not skip_generation_tests else None
     vec = get_tfidf_vectorizer(DATA_DIR) if not skip_generation_tests else None
 
@@ -116,12 +119,12 @@ def main(
             / f"{model_name.replace('/', '_')}_{alg_name}"
             / f"{ds_name}_layer_{{}}_clamp_{{}}_case_{{}}.npz"
         )
-        print(f"Will load cache from {cache_template}")
+        log(f"Will load cache from {cache_template}")
 
     # Iterate through dataset
     for record_chunks in chunks(ds, num_edits):
         case_result_template = str(run_dir / "{}_edits-case_{}.json")
-
+        log(f"working on {case_result_template}")
         # Is the chunk already done?
         already_finished = True
         for record in record_chunks:
@@ -141,8 +144,9 @@ def main(
             else dict()
         )
         etc_args = dict(cache_template=cache_template) if any(alg in alg_name for alg in ["ROME", "MEMIT"]) else dict()
-
+        log("about to start {record['case_id']}"
         start = time()
+        log("started {record['case_id']}"
         edited_model, weights_copy = apply_algo(
             model,
             tok,
@@ -157,9 +161,10 @@ def main(
             **etc_args,
         )
         exec_time = time() - start
-        print("Execution took", exec_time)
+        log("Execution took", exec_time)
 
         # Evaluate new model
+        log("about to evaluate")
         start = time()
         gen_test_vars = [snips, vec]
         for record in record_chunks:
@@ -218,7 +223,7 @@ def chunks(arr, n):
 
 if __name__ == "__main__":
     import argparse
-
+    log("getting started")
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--alg_name",
