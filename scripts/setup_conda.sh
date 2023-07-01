@@ -28,13 +28,6 @@ RECIPE=${RECIPE:-memit}
 ENV_NAME="${ENV_NAME:-${RECIPE}}"
 echo "Creating conda environment ${ENV_NAME}..."
 
-if [[ ! $(type -P conda) ]]
-then
-    echo "conda not in PATH"
-    echo "read: https://conda.io/docs/user-guide/install/index.html"
-    exit 1
-fi
-
 if df "${HOME}/.conda" --type=afs > /dev/null 2>&1
 then
     echo "Not installing: your ~/.conda directory is on AFS."
