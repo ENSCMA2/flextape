@@ -50,7 +50,7 @@ def compute_rewrite_quality_counterfact(
     attribute_prompts = record["attribute_prompts"]
     # Form a list of lists of prefixes to test.
     prob_prompts = [
-        rewrite_prompts,
+        # rewrite_prompts,
         # neighborhood_prompts,
         attribute_prompts
     ]
