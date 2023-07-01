@@ -161,7 +161,7 @@ def main(
             **etc_args,
         )
         exec_time = time() - start
-        log("Execution took", exec_time)
+        log(f"Execution took {exec_time}")
 
         # Evaluate new model
         log("about to evaluate")

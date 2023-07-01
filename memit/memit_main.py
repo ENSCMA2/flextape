@@ -87,7 +87,7 @@ def execute_memit(
     for request in requests[:10]:
         log(
             f"MEMIT request sample: "
-            f"[{request['prompt'].format(request['subject'])}] -> [{request['target_new']['str']}]"
+            + f"[{request['prompt'].format(request['subject'])}] -> [{request['target_new']['str']}]"
         )
 
     # Retrieve weights that user desires to change
