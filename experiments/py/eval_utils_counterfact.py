@@ -55,7 +55,7 @@ def compute_rewrite_quality_counterfact(
         attribute_prompts
     ]
     which_correct = [
-        [0 for _ in range(len(rewrite_prompts))],
+        # [0 for _ in range(len(rewrite_prompts))],
         # [1 for _ in range(len(neighborhood_prompts))],
         [1 for _ in range(len(attribute_prompts))],
     ]
