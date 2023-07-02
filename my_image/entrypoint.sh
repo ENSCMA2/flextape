@@ -6,7 +6,7 @@ ${CONDA} run -n myenv python3 -m experiments.evaluate \
     --hparams_fname=gpt2-xl.json \
     --num_edits=1 \
     --use_cache \
-    --results_dir=/mnt/u14157_ic_nlp_001_files_nfs/nlpdata1/home/halevy/flextape/results/MEMIT
+    --results_dir=/home/halevy/flextape/results/MEMIT
 
 git add -f results/MEMIT/*/*.json
 git commit -m "results"
