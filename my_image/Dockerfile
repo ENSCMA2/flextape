@@ -72,15 +72,19 @@ WORKDIR ${REPO_DIR}
 # Setup github repo dependencies
 # Note that, you cannot activate an environment with the RUN command, as each RUN command is like a new session.
 # Thus we instead call conda at the beginning of the pip or python command the way shown here:
+RUN ${CONDA} run -n myenv conda install cudatoolkit=11.3
 RUN ${CONDA} run -n myenv pip install torch
-RUN ${CONDA} run -n myenv pip install transformers
-RUN ${CONDA} run -n myenv pip install datasets
-RUN ${CONDA} run -n myenv pip install higher
-RUN ${CONDA} run -n myenv pip install hydra
-RUN ${CONDA} run -n myenv pip install scipy
-RUN ${CONDA} run -n myenv pip install scikit-learn
-RUN ${CONDA} run -n myenv pip install nltk
-RUN ${CONDA} run -n myenv pip install matplotlib
+RUN ${CONDA} run -n myenv pip install einops==0.4.0
+RUN ${CONDA} run -n myenv pip install higher==0.2.1
+RUN ${CONDA} run -n myenv pip install hydra-core==1.2.0
+RUN ${CONDA} run -n myenv pip install transformers==4.23.1
+RUN ${CONDA} run -n myenv pip install datasets==1.18.3
+RUN ${CONDA} run -n myenv pip install matplotlib==3.6.1
+RUN ${CONDA} run -n myenv pip install spacy==3.4.1
+RUN ${CONDA} run -n myenv pip install scipy==1.9.2
+RUN ${CONDA} run -n myenv pip install scikit-learn==1.0.2
+RUN ${CONDA} run -n myenv pip install nltk==3.7
+RUN ${CONDA} run -n myenv pip install jupyter==1.0.0
 
 # Install OpenSSH for MPI to communicate between containers
 RUN apt-get update && apt-get install -y --no-install-recommends openssh-client openssh-server && \
@@ -123,4 +127,4 @@ USER ${USER_NAME}
 
 RUN chmod +x ./entrypoint.sh
 # ENTRYPOINT ["/usr/sbin/sshd", "-D"] # useful if you are **not** using the USER command and using the image just as root
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "./entrypoint.sh"]
