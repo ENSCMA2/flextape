@@ -60,14 +60,25 @@ def compute_rewrite_quality_counterfact(
         [1 for _ in range(len(attribute_prompts))],
     ]
     # Flatten all the evaluated prefixes into one list.
-    probs, targets_correct = test_batch_prediction(
-        model,
-        tok,
-        list(chain(*prob_prompts)),
-        list(chain(*which_correct)),
-        target_new["str"],
-        target_true["str"],
-    )
+    prob_prompts_chain = list(chain(*prob_prompts))
+    which_correct_chain = list(chain(*which_correct))
+    batch_size = 32
+    done = 0
+    probs, targets_correct = [], []
+    while done < len(prob_prompts_chain):
+        last = min(done + batch_size, len(prob_prompts_chain) - 1)
+        probs_b, targets_correct_b = test_batch_prediction(
+            model,
+            tok,
+            prob_prompts_chain[done:last],
+            which_correct_chain[done:last],
+            target_new["str"],
+            target_true["str"],
+        )
+        probs += probs_b
+        targets_correct += targets_correct_b
+        done += batch_size
+
     # Unflatten the results again into a list of lists.
     cutoffs = [0] + np.cumsum(list(map(len, prob_prompts))).tolist()
     ret_probs = [probs[cutoffs[i - 1] : cutoffs[i]] for i in range(1, len(cutoffs))]
@@ -148,6 +159,8 @@ def test_batch_prediction(
 
     with torch.no_grad():
         logits = model(**prompt_tok).logits
+
+    del prompt_tok
 
     probs = np.zeros((logits.size(0),), dtype=np.float32)
     targets_correct = []
