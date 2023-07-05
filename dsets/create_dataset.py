@@ -23,6 +23,7 @@ p103 = ['Q9027', 'Q7913', 'Q652', 'Q8108', 'Q188', 'Q1321', 'Q7411', 'Q9129',
 		'Q9240', 'Q9168', 'Q1860', 'Q809', 'Q256', 'Q9035']
 
 props_dictionary = {"P101": p101, "P103": p103}
+DATA_PATH = "/Users/khalevy/Downloads/CF_Ingredients/"
 
 def concat(lst, number):
 	o = []
@@ -30,9 +31,9 @@ def concat(lst, number):
 		o += lst
 	return o
 
-def make_dataset(prop, includes_neighbors = True):
-	original = f"../Human_CF/human_counterfact_{prop}.json"
-	patterns = f"../ParaRel_Patterns/{prop}.jsonl"
+def make_dataset(prop, includes_neighbors = True, lim = 100):
+	original = f"{DATA_PATH}/Human_CF/human_counterfact_{prop}.json"
+	patterns = f"{DATA_PATH}/ParaRel_Patterns/{prop}.jsonl"
 	with open(original, "r+") as og:
 		original_json = json.load(og)
 
@@ -47,19 +48,22 @@ def make_dataset(prop, includes_neighbors = True):
 
 	def process_one_gender(gender, tgt, label):
 		try:
-			items = pd.read_csv(f"../Ingredients/{gender}_{prop}_{tgt}.csv")
+			items = pd.read_csv(f"{DATA_PATH}Ingredients/{gender}_{prop}_{tgt}.csv")
 		except:
 			print(prop, tgt, "doesn't exist")
 			return 1
 		prompts = []
 		aux = []
+		count = 0
 		for i, item in items.iterrows():
-			name = item["itemLabel"]
-			iD = item["item"].split("/")[-1]
-			for pattern in pattern_list:
-				prompt = pattern.replace("[X]", name)
-				prompts.append(prompt)
-				aux.append(iD)
+			if count < lim:
+				name = item["itemLabel"]
+				iD = item["item"].split("/")[-1]
+				for pattern in pattern_list:
+					prompt = pattern.replace("[X]", name)
+					prompts.append(prompt)
+					aux.append(iD)
+			count += 1
 		building[label + "_prompts"] += prompts
 		building[label + "_aux_info"] += aux
 		return 0
@@ -88,7 +92,7 @@ def make_dataset(prop, includes_neighbors = True):
 		if true0 + new0 + true1 + new1 == 0:
 			print("success for", target_true, "and", target_new)
 			total += [building]
-	with open(f"../data/seesaw_cf_{prop}_{includes_neighbors}.json", "w") as o:
+	with open(f"{DATA_PATH}/data/seesaw_cf_{prop}_{includes_neighbors}_{lim}.json", "w") as o:
 		json.dump(total, o)
 	return total
 
