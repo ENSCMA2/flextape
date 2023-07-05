@@ -1,0 +1,31 @@
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[3, 4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=27, v_weight_decay=0.5, clamp_norm_factor=0.75, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEMIT/mcf_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_001/{}_edits-case_{}.json
+about to start 0
+started 0
+we are in apply memit to model
+copied weights
+inside execute_memit
+deepcopied requests
+MEMIT request sample: [The mother tongue of Danielle Darrieux is] -> [ English]
+Cached context templates [['{}'], ['The content published in Cureus is the result of. {}', 'Therefore the only way you can make it happen,. {}', 'Because of their high sensitivity and selectivity and the. {}', 'I have been thinking a lot lately about the nature. {}', 'You can use a regex to get the number of. {}']]
+
+
+LAYER 3
+
+Writing 1 key/value pair(s) into layer 3
+z error 68.81008911132812
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.3.mlp.fc_out.
+orig norm 106.17860412597656
+upd norm 0.5056810135956274
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error 63.385536193847656
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.4.mlp.fc_out.
