@@ -32,7 +32,8 @@ COUNTERFACT_URL = f"{ROME_BASE_URL}/counterfact.json"
 ATTRIBUTE_SNIPPETS_URL = f"{ROME_BASE_URL}/attribute_snippets.json"
 TFIDF_IDF_URL = f"{ROME_BASE_URL}/idf.npy"
 TFIDF_VOCAB_URL = f"{ROME_BASE_URL}/tfidf_vocab.json"
-
+SEESAW_URL_101 = f"../../data/seesaw_cf_P101_False_100.json"
+SEESAW_URL_103 = f"../../data/seesaw_cf_P103_False_100.json"
 WINOVENTI_URL = "https://raw.githubusercontent.com/commonsense-exception/commonsense-exception/main/data/winoventi_bert_large_final.tsv"
 
 _MCRAE_BLACKLISTED_FEATURE_PREFIXES = ("bought/sold", "eg -", "killed", "king of")
@@ -224,10 +225,10 @@ def _reformat_counterfact_sample(cf_sample: dict) -> ContextMediationSample:
     cf_target_new = cf_requested_rewrite["target_new"]["str"]
     cf_target_true = cf_requested_rewrite["target_true"]["str"]
     cf_prompt = cf_requested_rewrite["prompt"].format(cf_subject)
-    cf_paraphrase_prompts = cf_sample["paraphrase_prompts"]
+    cf_attribute_prompts = cf_sample["attribute_prompts"]
 
     entity = cf_subject
-    prompt = _strip_counterfact_paraphrase_prompt(entity, cf_paraphrase_prompts[0])
+    prompt = _strip_counterfact_paraphrase_prompt(entity, cf_attribute_prompts[0])
     context = f"{cf_prompt} {cf_target_new}"
     attribute = context.split(entity)[-1].strip(",-;: ")
     target_mediated = cf_target_new
@@ -837,6 +838,10 @@ def load_dataset(name: str, **kwargs: Any) -> Dataset:
     """Load the dataset by name."""
     if name == "counterfact":
         return _load_counterfact(**kwargs)
+    elif name == "seesaw_101":
+        return _load_counterfact(file = SEESAW_URL_101, url = SEESAW_URL_101)
+    elif name == "seesaw_103":
+        return _load_counterfact(file = SEESAW_URL_103, url = SEESAW_URL_103)
     elif name == "winoventi":
         return _load_winoventi(**kwargs)
     elif name == "biosbias":
