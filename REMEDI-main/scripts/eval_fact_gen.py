@@ -36,7 +36,7 @@ def _prefix_context(sample: dict) -> dict:
     )
 
     source = {**sample["source"]}
-    for key in ("generation_prompts", "paraphrase_prompts"):
+    for key in ("generation_prompts", "attribute_prompts"):
         source[key] = [
             precompute.prompt_in_context_from_sample(entity, other_prompt, context)
             for other_prompt in source[key]
@@ -74,7 +74,7 @@ def _replace_entity(attribute_snippets: data.AttributeSnippets, sample: dict) ->
     prompt = sample["prompt"]
 
     source = {**sample["source"]}
-    for key in ("generation_prompts", "paraphrase_prompts"):
+    for key in ("generation_prompts", "attribute_prompts"):
         source[key] = [x.replace(entity, replacement) for x in source[key]]
 
     return {
@@ -131,7 +131,7 @@ def main(args: argparse.Namespace) -> None:
         split = "train[5000:6000]"
     else:
         split = "train[5000:10000]"
-    dataset = data.load_dataset("counterfact", split=split)
+    dataset = data.load_dataset("seesaw_101", split=split)
     dataset = precompute.from_args(args, dataset)
     attribute_snippets = data.load_attribute_snippets()
     tfidf_vectorizer = data.load_counterfact_tfidf_vectorizer()
