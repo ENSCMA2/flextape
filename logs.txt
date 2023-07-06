@@ -395,3 +395,37 @@ LAYER 5
 Writing 352 key/value pair(s) into layer 5
 z error 49.7686767578125
 Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.5.mlp.fc_out.
+orig norm 110.7964859008789
+upd norm 10.286102392910005
+
+
+LAYER 6
+
+Writing 352 key/value pair(s) into layer 6
+z error 45.403648376464844
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.6.mlp.fc_out.
+orig norm 113.19039916992188
+upd norm 12.469064024207205
+
+
+LAYER 7
+
+Writing 352 key/value pair(s) into layer 7
+z error 40.84880447387695
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.7.mlp.fc_out.
+orig norm 117.4111328125
+upd norm 15.524681813809055
+
+
+LAYER 8
+
+Writing 352 key/value pair(s) into layer 8
+z error 37.16034698486328
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.8.mlp.fc_out.
+orig norm 119.0634765625
+upd norm 25.753157400076855
+Deltas successfully computed for ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
+executed memit
+New weights successfully inserted into ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
+Execution took 2285.9626066684723
+about to evaluate
