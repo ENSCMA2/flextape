@@ -14,6 +14,7 @@ from remedi.utils.typing import (
     Tokenizer,
     TokenizerOffsetMapping,
 )
+from itertools import chain
 
 import torch
 from baukit import nethook
@@ -174,7 +175,6 @@ def token_ranges_from_batch(
         raise ValueError(
             f"got {len(strings)} strings but only {len(substrings)} substrings"
         )
-
     return torch.tensor(
         [
             tokenizer_utils.find_token_range(
@@ -257,8 +257,10 @@ def editor_inputs_from_batch(
     mt.model.to(device)
 
     # Pull out expected values.
-    entities = _maybe_batch(batch["attribute_aux_ent"])
+    entities = _maybe_batch(batch["entity"])
+    related_entities = _maybe_batch(batch["source"]["attribute_aux_ent"])
     prompts = _maybe_batch(batch["prompt"])
+    related_prompts = _maybe_batch(batch["source"]["attribute_prompts"])
     contexts = _maybe_batch(batch["context"])
     attributes = _maybe_batch(batch["attribute"])
 
@@ -306,8 +308,8 @@ def editor_inputs_from_batch(
             (
                 "prompt",
                 "entity",
-                prompts,
-                entities,
+                list(chain(*[list(p) for p in related_prompts])),
+                list(chain(*[list(p) for p in related_entities])),
                 prompt_inputs,
                 prompt_offset_mapping,
                 entity_occurrence_in_prompt,
@@ -329,6 +331,8 @@ def editor_inputs_from_batch(
             key = f"{key_string}.{key_substring}"
 
             key_tr_base = f"{key}.token_range"
+            if key_string == "prompt":
+                logger.info(type(strings[0]))
             precomputed[key_tr_base] = tr = token_ranges_from_batch(
                 strings,
                 substrings,
