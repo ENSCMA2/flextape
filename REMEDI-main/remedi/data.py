@@ -36,6 +36,9 @@ SEESAW_URL_101 = f"/home/halevy/flextape/data/seesaw_cf_P101_False_100.json"
 SEESAW_URL_103 = f"/home/halevy/flextape/data/seesaw_cf_P103_False_100.json"
 WINOVENTI_URL = "https://raw.githubusercontent.com/commonsense-exception/commonsense-exception/main/data/winoventi_bert_large_final.tsv"
 
+with open(COUNTERFACT_URL) as o:
+    cf_og = {item["case_id"] : item["paraphrase_prompts"] for item in json.load(o)}
+
 _MCRAE_BLACKLISTED_FEATURE_PREFIXES = ("bought/sold", "eg -", "killed", "king of")
 _MCRAE_SPLITTABLE_FEATURE_PREFIXES = (
     "associated with",
@@ -229,7 +232,7 @@ def _reformat_counterfact_sample(cf_sample: dict) -> ContextMediationSample:
     cf_attribute_prompts = cf_sample["attribute_prompts"]
 
     entity = cf_subject
-    prompt = _strip_counterfact_paraphrase_prompt(entity, cf_attribute_prompts[0])
+    prompt = _strip_counterfact_paraphrase_prompt(entity, cf_og[cf_case_id][0])
     context = f"{cf_prompt} {cf_target_new}"
     attribute = context.split(entity)[-1].strip(",-;: ")
     target_mediated = cf_target_new
