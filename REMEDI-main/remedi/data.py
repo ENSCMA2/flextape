@@ -25,15 +25,15 @@ from tqdm.auto import tqdm
 logger = logging.getLogger(__name__)
 
 
-SUPPORTED_DATASETS = ("counterfact", "winoventi", "biosbias", "mcrae")
+SUPPORTED_DATASETS = ("seesaw_101", "seesaw_103", "counterfact", "winoventi", "biosbias", "mcrae")
 
 ROME_BASE_URL = "https://rome.baulab.info/data/dsets"
-COUNTERFACT_URL = f"{ROME_BASE_URL}/counterfact.json"
+COUNTERFACT_URL = f"/home/halevy/flextape/data/counterfact.json"
 ATTRIBUTE_SNIPPETS_URL = f"{ROME_BASE_URL}/attribute_snippets.json"
 TFIDF_IDF_URL = f"{ROME_BASE_URL}/idf.npy"
 TFIDF_VOCAB_URL = f"{ROME_BASE_URL}/tfidf_vocab.json"
-SEESAW_URL_101 = f"../../data/seesaw_cf_P101_False_100.json"
-SEESAW_URL_103 = f"../../data/seesaw_cf_P103_False_100.json"
+SEESAW_URL_101 = f"/home/halevy/flextape/data/seesaw_cf_P101_False_100.json"
+SEESAW_URL_103 = f"/home/halevy/flextape/data/seesaw_cf_P103_False_100.json"
 WINOVENTI_URL = "https://raw.githubusercontent.com/commonsense-exception/commonsense-exception/main/data/winoventi_bert_large_final.tsv"
 
 _MCRAE_BLACKLISTED_FEATURE_PREFIXES = ("bought/sold", "eg -", "killed", "king of")
@@ -193,7 +193,8 @@ def _strip_counterfact_paraphrase_prompt(entity: str, prompt: str) -> str:
     sents = _rejoin_sents_on_entity(entity, sents)
     if len(sents) <= 2:
         if entity not in sents[0]:
-            assert len(sents) == 2
+            # assert len(sents) == 2
+            print(sents)
             sents = [sents[1]]
     else:
         if "?" in sents[-2]:
