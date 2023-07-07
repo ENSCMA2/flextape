@@ -2,6 +2,7 @@
 import argparse
 import contextlib
 import logging
+import numpy as np
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
@@ -718,12 +719,11 @@ class Editor(nn.Module):
         results = []
         with dataset.formatted_as("torch", columns=columns):
             loader = torch.utils.data.DataLoader(
-                cast(torch.utils.data.Dataset, dataset), batch_size=batch_size
-            )
+                cast(torch.utils.data.Dataset, dataset), batch_size=batch_size)
             for batch in tqdm(loader, desc=desc):
+                logger.info(len(batch))
                 if not precompute.has_editor_inputs(batch):
-                    batch.update(
-                        precompute.editor_inputs_from_batch(
+                    eis = precompute.editor_inputs_from_batch(
                             mt=self.mt,
                             batch=batch,
                             layers=[self.layer],
@@ -733,7 +733,7 @@ class Editor(nn.Module):
                             return_target_token_ids=return_mediated
                             or return_unmediated,
                         )
-                    )
+                    batch.update(eis)
 
                 prompts = batch["prompt"]
                 current_batch_size = len(prompts)

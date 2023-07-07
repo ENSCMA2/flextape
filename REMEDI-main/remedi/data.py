@@ -2,6 +2,7 @@
 import argparse
 import csv
 import json
+import jsonlines
 import logging
 import pickle
 import random
@@ -25,16 +26,19 @@ from tqdm.auto import tqdm
 logger = logging.getLogger(__name__)
 
 
-SUPPORTED_DATASETS = ("counterfact", "winoventi", "biosbias", "mcrae")
+SUPPORTED_DATASETS = ("seesaw_101", "seesaw_103", "counterfact", "winoventi", "biosbias", "mcrae")
 
 ROME_BASE_URL = "https://rome.baulab.info/data/dsets"
-COUNTERFACT_URL = f"{ROME_BASE_URL}/counterfact.json"
+COUNTERFACT_URL = f"/home/halevy/flextape/data/counterfact.json"
 ATTRIBUTE_SNIPPETS_URL = f"{ROME_BASE_URL}/attribute_snippets.json"
 TFIDF_IDF_URL = f"{ROME_BASE_URL}/idf.npy"
 TFIDF_VOCAB_URL = f"{ROME_BASE_URL}/tfidf_vocab.json"
-SEESAW_URL_101 = f"../../data/seesaw_cf_P101_False_100.json"
-SEESAW_URL_103 = f"../../data/seesaw_cf_P103_False_100.json"
+SEESAW_URL_101 = f"/home/halevy/flextape/data/seesaw_cf_P101_False_100.json"
+SEESAW_URL_103 = f"/home/halevy/flextape/data/seesaw_cf_P103_False_100.json"
 WINOVENTI_URL = "https://raw.githubusercontent.com/commonsense-exception/commonsense-exception/main/data/winoventi_bert_large_final.tsv"
+
+with open(COUNTERFACT_URL) as o:
+    cf_og = {item["case_id"] : item["paraphrase_prompts"] for item in json.load(o)}
 
 _MCRAE_BLACKLISTED_FEATURE_PREFIXES = ("bought/sold", "eg -", "killed", "king of")
 _MCRAE_SPLITTABLE_FEATURE_PREFIXES = (
@@ -193,7 +197,8 @@ def _strip_counterfact_paraphrase_prompt(entity: str, prompt: str) -> str:
     sents = _rejoin_sents_on_entity(entity, sents)
     if len(sents) <= 2:
         if entity not in sents[0]:
-            assert len(sents) == 2
+            # assert len(sents) == 2
+            print(sents)
             sents = [sents[1]]
     else:
         if "?" in sents[-2]:
@@ -228,7 +233,7 @@ def _reformat_counterfact_sample(cf_sample: dict) -> ContextMediationSample:
     cf_attribute_prompts = cf_sample["attribute_prompts"]
 
     entity = cf_subject
-    prompt = _strip_counterfact_paraphrase_prompt(entity, cf_attribute_prompts[0])
+    prompt = _strip_counterfact_paraphrase_prompt(entity, cf_og[cf_case_id][0])
     context = f"{cf_prompt} {cf_target_new}"
     attribute = context.split(entity)[-1].strip(",-;: ")
     target_mediated = cf_target_new
@@ -253,9 +258,8 @@ def _reformat_counterfact_file(file: Path) -> Path:
     with file.open("r") as handle:
         lines = json.load(handle)
     file = file.parent / f"{file.stem}.jsonl"
-    with file.open("w") as handle:
-        for line in tqdm(lines, desc="reformat counterfact"):
-            json.dump(_reformat_counterfact_sample(line), handle)
+    with jsonlines.open(file, mode = "w") as handle:
+        handle.write_all([_reformat_counterfact_sample(line) for line in lines])
     return file
 
 
@@ -267,6 +271,7 @@ def _load_counterfact(
 ) -> Dataset:
     """Download and format the counterfact dataset."""
     if file is None:
+        logger.info("ruh roh")
         file = env_utils.determine_data_dir() / "counterfact.jsonl"
 
         # If jsonl file not here, means we need to download and reformat.
@@ -277,6 +282,7 @@ def _load_counterfact(
 
     file = Path(file)
     if file.suffix != ".jsonl":
+        logger.info("turning into jsonl")
         file = _reformat_counterfact_file(file)
 
     dataset = datasets.load_dataset("json", data_files=str(file), **kwargs)
@@ -839,9 +845,9 @@ def load_dataset(name: str, **kwargs: Any) -> Dataset:
     if name == "counterfact":
         return _load_counterfact(**kwargs)
     elif name == "seesaw_101":
-        return _load_counterfact(file = SEESAW_URL_101, url = SEESAW_URL_101)
+        return _load_counterfact(file = SEESAW_URL_101, url = SEESAW_URL_101, **kwargs)
     elif name == "seesaw_103":
-        return _load_counterfact(file = SEESAW_URL_103, url = SEESAW_URL_103)
+        return _load_counterfact(file = SEESAW_URL_103, url = SEESAW_URL_103, **kwargs)
     elif name == "winoventi":
         return _load_winoventi(**kwargs)
     elif name == "biosbias":

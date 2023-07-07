@@ -18,7 +18,7 @@ from tqdm.auto import tqdm
 logger = logging.getLogger(__name__)
 
 BENCHMARKS = (
-    "efficacy",
+    # "efficacy",
     "paraphrase",
     "generation",
     "essence",
@@ -90,11 +90,14 @@ def _precompute_essence_references(
     mt: models.ModelAndTokenizer, dataset: Dataset, device: Device | None = None
 ) -> list[list[str]]:
     """Precompute essence references to save some compute."""
-    prompts = [
-        benchmarks.DEFAULT_PROMPT_PREFIX
-        + benchmarks.DEFAULT_PROMPT_TEMPLATE.format(x["entity"])
-        for x in dataset
-    ]
+    prompts = []
+    n = 0
+    for x in dataset:
+        pref = benchmarks.DEFAULT_PROMPT_PREFIX
+        ent = x["entity"]
+        templat = benchmarks.DEFAULT_PROMPT_TEMPLATE.format(ent)
+        prompts.append(pref + templat)
+        n += 1
     loader = torch.utils.data.DataLoader(
         cast(torch.utils.data.Dataset, prompts),
         batch_size=editors.DEFAULT_BATCH_SIZE,
@@ -128,9 +131,9 @@ def main(args: argparse.Namespace) -> None:
 
     logger.info("loading several data sources")
     if args.small:
-        split = "train[5000:6000]"
+        split = "train[88:176]"
     else:
-        split = "train[5000:10000]"
+        split = "train[88:176]"
     dataset = data.load_dataset("seesaw_101", split=split)
     dataset = precompute.from_args(args, dataset)
     attribute_snippets = data.load_attribute_snippets()
@@ -144,6 +147,7 @@ def main(args: argparse.Namespace) -> None:
             with essence_refs_file.open("r") as handle:
                 essence_references = [[l] for l in json.load(handle)["references"]]
         else:
+            logger.info("need to precompute essence refs")
             essence_references = _precompute_essence_references(
                 mt, dataset, device=device
             )

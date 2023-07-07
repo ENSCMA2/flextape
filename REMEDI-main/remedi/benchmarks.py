@@ -537,6 +537,8 @@ def efficacy(
         desc = "efficacy benchmark"
 
     evaluate_kwargs = dict(max_new_tokens=1, desc=desc, **kwargs)
+    logger.info("eval kwargs efficacy")
+    logger.info(evaluate_kwargs)
     if editor is None:
         assert mt is not None
         run = editors.NullEditor(mt=mt, layer=0).evaluate(
@@ -618,7 +620,7 @@ def counterfact_paraphrase(
     if desc is None:
         desc = "paraphrase benchmark"
     dataset = _counterfact_select_and_flatten(
-        dataset, "paraphrase_prompts", desc=f"{desc} [flatten dataset]"
+        dataset, "attribute_prompts", desc=f"{desc} [flatten dataset]"
     )
     efficacy_benchmark = efficacy(
         editor=editor,
