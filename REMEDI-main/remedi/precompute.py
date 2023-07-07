@@ -412,6 +412,7 @@ def editor_inputs_from_dataset(
             mt,
             layers=layers,
             device=device,
+            padding = "max_length",
             fp32=True,
             **kwargs,
         ),
@@ -692,43 +693,12 @@ def classification_inputs_from_batch(
             for attribute, target_m, target_u in zip(attributes_m, targets_m, targets_u)
         ]
 
-    for (
-        key_string,
-        key_substring,
-        strings,
-        substrings,
-        occurrence,
-        target_ids,
-        comparator_ids,
-    ) in (
-        (
-            "context_unmediated",
-            "attribute_unmediated",
-            contexts_u,
-            attributes_u,
-            0,
-            None,
-            None,
-        ),
-        (
-            "prompt_in_context",
-            "entity",
-            prompts_in_context,
-            entities,
-            1,
-            targets_m_ids,
-            targets_u_ids,
-        ),
-        (
-            "prompt",
-            "entity",
-            prompts,
-            entities,
-            0,
-            targets_u_ids,
-            targets_m_ids,
-        ),
+    for (key_string, key_substring, strings, substrings, occurrence, target_ids, comparator_ids) in (
+        ("context_unmediated", "attribute_unmediated", contexts_u, attributes_u, 0, None, None),
+        ("prompt_in_context", "entity", prompts_in_context, entities, 1, targets_m_ids, targets_u_ids),
+        ("prompt", "entity", prompts, entities, 0, targets_u_ids, targets_m_ids,),
     ):
+        logger.info(key_string)
         if strings is None or substrings is None:
             continue
 

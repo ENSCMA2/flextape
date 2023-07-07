@@ -2,6 +2,7 @@
 import argparse
 import csv
 import json
+import jsonlines
 import logging
 import pickle
 import random
@@ -257,9 +258,8 @@ def _reformat_counterfact_file(file: Path) -> Path:
     with file.open("r") as handle:
         lines = json.load(handle)
     file = file.parent / f"{file.stem}.jsonl"
-    with file.open("w") as handle:
-        for line in tqdm(lines, desc="reformat counterfact"):
-            json.dump(_reformat_counterfact_sample(line), handle)
+    with jsonlines.open(file, mode = "w") as handle:
+        handle.write_all([_reformat_counterfact_sample(line) for line in lines])
     return file
 
 
@@ -271,6 +271,7 @@ def _load_counterfact(
 ) -> Dataset:
     """Download and format the counterfact dataset."""
     if file is None:
+        logger.info("ruh roh")
         file = env_utils.determine_data_dir() / "counterfact.jsonl"
 
         # If jsonl file not here, means we need to download and reformat.
@@ -281,6 +282,7 @@ def _load_counterfact(
 
     file = Path(file)
     if file.suffix != ".jsonl":
+        logger.info("turning into jsonl")
         file = _reformat_counterfact_file(file)
 
     dataset = datasets.load_dataset("json", data_files=str(file), **kwargs)
@@ -843,9 +845,9 @@ def load_dataset(name: str, **kwargs: Any) -> Dataset:
     if name == "counterfact":
         return _load_counterfact(**kwargs)
     elif name == "seesaw_101":
-        return _load_counterfact(file = SEESAW_URL_101, url = SEESAW_URL_101)
+        return _load_counterfact(file = SEESAW_URL_101, url = SEESAW_URL_101, **kwargs)
     elif name == "seesaw_103":
-        return _load_counterfact(file = SEESAW_URL_103, url = SEESAW_URL_103)
+        return _load_counterfact(file = SEESAW_URL_103, url = SEESAW_URL_103, **kwargs)
     elif name == "winoventi":
         return _load_winoventi(**kwargs)
     elif name == "biosbias":
