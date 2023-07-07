@@ -2,7 +2,7 @@
 import argparse
 from functools import partial
 from typing import Any, Literal, Optional, Sequence, cast, overload
-
+import logging
 from remedi import data, models
 from remedi.utils import tokenizer_utils
 from remedi.utils.typing import (
@@ -18,7 +18,7 @@ from remedi.utils.typing import (
 import torch
 from baukit import nethook
 
-
+logger = logging.getLogger(__name__)
 def _remove_sent_case(text: str) -> str:
     """Make the string NOT sentence case (first letter lowercase)."""
     return text[0].lower() + text[1:]
@@ -257,7 +257,7 @@ def editor_inputs_from_batch(
     mt.model.to(device)
 
     # Pull out expected values.
-    entities = _maybe_batch(batch["entity"])
+    entities = _maybe_batch(batch["attribute_aux_ent"])
     prompts = _maybe_batch(batch["prompt"])
     contexts = _maybe_batch(batch["context"])
     attributes = _maybe_batch(batch["attribute"])
@@ -322,6 +322,7 @@ def editor_inputs_from_batch(
                 0,
             ),
         ):
+            logger.info(key_string)
             lengths = inputs.attention_mask.sum(dim=-1).cpu()
             precomputed[f"{key_string}.length"] = lengths
 
@@ -412,7 +413,7 @@ def editor_inputs_from_dataset(
             mt,
             layers=layers,
             device=device,
-            padding = "max_length",
+            # padding = "max_length",
             fp32=True,
             **kwargs,
         ),
