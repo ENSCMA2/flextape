@@ -54,6 +54,7 @@ def make_dataset(prop, includes_neighbors = True, lim = 100):
 			return 1
 		prompts = []
 		aux = []
+		aux_ent = []
 		count = 0
 		for i, item in items.iterrows():
 			if count < lim:
@@ -63,9 +64,11 @@ def make_dataset(prop, includes_neighbors = True, lim = 100):
 					prompt = pattern.replace("[X]", name)
 					prompts.append(prompt)
 					aux.append(iD)
+					aux_ent.append(name)
 			count += 1
 		building[label + "_prompts"] += prompts
 		building[label + "_aux_info"] += aux
+		building[label + "_aux_ent"] += aux_ent
 		return 0
 
 	for case in original_json:
@@ -79,6 +82,7 @@ def make_dataset(prop, includes_neighbors = True, lim = 100):
 			building["neighborhood_aux_info"] = []
 		building["attribute_prompts"] = []
 		building["attribute_aux_info"] = []
+		building["attribute_aux_ent"] = []
 		target_true = building["requested_rewrite"]["target_true"]["id"]
 		target_new = building["requested_rewrite"]["target_new"]["id"]
 		if includes_neighbors:
