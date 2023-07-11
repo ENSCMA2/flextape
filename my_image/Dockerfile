@@ -54,8 +54,7 @@ RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -
 RUN bash miniconda.sh -b -p ${CONDA_PREFIX}
 RUN ${CONDA} config --set auto_activate_base false
 RUN ${CONDA} init bash
-RUN ${CONDA} create -n myenv python=3.10 pytorch \
-defaults \
+RUN ${CONDA} create -n myenv python=3.8 \
 _libgcc_mutex=0.1=main \
 argon2-cffi=20.1.0=py38h7b6447c_1 \
 async_generator=1.10=py_0 \
@@ -208,9 +207,6 @@ testpath=0.4.4=py_0 \
 threadpoolctl=2.1.0=pyh5ca1d4c_0 \
 tk=8.6.10=hbc83047_0 \
 toolz=0.11.1=py_0 \
-torchaudio=0.6.0=py38 \
-torchtext=0.7.0=py38 \
-torchvision=0.7.0=py38_cu101 \
 tornado=6.0.4=py38h7b6447c_1 \
 tqdm=4.50.2=py_0 \
 traitlets=5.0.5=py_0 \
