@@ -30,12 +30,13 @@ log = logging.getLogger(__name__)
 class PromptDataset(Dataset):
     def __init__(self, path):
         self.prompts = [json.loads(s.strip())["prompt"].strip() for s in open(path, 'r').readlines()]
+        self.prompts = [json.loads(s.strip())["response"].strip() for s in open(path, 'r').readlines()]
 
     def __len__(self):
         return len(self.prompts)
 
     def __getitem__(self, idx):
-        return {'prompt': self.prompts[idx]}
+        return {'prompt': self.prompts[idx], 'response': self.responses[idx]}
 
 
 class PromptCollator(object):
@@ -44,12 +45,13 @@ class PromptCollator(object):
 
     def __call__(self, sequences):
         prompts = [sequence['prompt'] for sequence in sequences]
+        responses = [sequence['response'] for sequence in sequences]
 
         encodings_dict = self.tokenizer(prompts, return_tensors="pt", padding=True)
         input_ids = encodings_dict['input_ids']
         attention_mask = encodings_dict['attention_mask']
 
-        return input_ids, attention_mask
+        return input_ids, attention_mask, responses
 
 
 class SequenceDataset(Dataset):
@@ -175,13 +177,11 @@ class ConditionTrainer:
         if step % self.params.sample_interval != 0:
             return
         log.info(f"[step {step}] Sampling ...")
-        with open(args.dataset) as o:
-            ref_resps = [t["response"] for t in list(o)]
 
-        prompts, responses = [], []
+        prompts, responses, refs = [], [], []
         for i, batch in enumerate(tqdm(self.train_dataloader, total=len(self.train_dataloader),
                                        desc='Sampling from current policy')):
-            input_ids, attention_mask = batch
+            input_ids, attention_mask, refs = batch
 
             if step == 0:
                 rollouts = self.ref_policy.sample(input_ids=input_ids, attention_mask=attention_mask, top_p=self.params.top_p)
@@ -194,8 +194,9 @@ class ConditionTrainer:
 
             prompts.extend(prompt)
             responses.extend(response)
+            refs.extend(ref)
 
-        scores = self.score_model.get_reward(prompts, responses, f'step{step}', ref_resps)
+        scores = self.score_model.get_reward(prompts, responses, f'step{step}', refs)
         self.data_pool.add(prompts=prompts, responses=responses, scores=scores)
 
         sample_dataset = SequenceDataset(data_pool=self.data_pool)
@@ -312,7 +313,7 @@ class ConditionTrainer:
         log.info(f"[step {step}] evaluating ...")
 
         generations, perplexities, toxicities = [], [], []
-        for i, (input_ids, attention_mask) in enumerate(tqdm(self.val_dataloader)):
+        for i, (input_ids, attention_mask, refs) in enumerate(tqdm(self.val_dataloader)):
             with torch.no_grad():
                 input_ids, attention_mask = self.add_control_code(input_ids, attention_mask)
                 rollouts = self.policy.sample(input_ids=input_ids, attention_mask=attention_mask, top_p=self.params.top_p)
@@ -326,7 +327,7 @@ class ConditionTrainer:
 
                 prompt = self.decode(rollouts['query/input_ids'][:, 1:])
                 response = rollouts['response/text']
-                score = self.score_model.get_reward(prompt, response, f'step{step}_eval{i}')
+                score = self.score_model.get_reward(prompt, response, f'step{step}_eval{i}', refs)
                 # toxicity = [reward_to_toxicity(x) for x in score if x is not None]
                 # toxicities.extend(toxicity)
 
