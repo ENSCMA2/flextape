@@ -2,17 +2,17 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 from typing import Union, List, Dict
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from transformers import GPT2LMHeadModel, GPT2Tokenizer, GPTJForCausalLM, AutoModelForCausalLM, AutoTokenizer
 from utils.constants import NEGATIVE_INF
 from utils.utils import logits_to_entropy, mask_pad
 
 
 class Policy:
     def __init__(self, model_name, temperature, device, reward_cond=False, tree_tokens=None):
-        self.model = GPT2LMHeadModel.from_pretrained(model_name)
+        self.model = AutoModelForCausalLM.from_pretrained(model_name)
         self.device = device
 
-        self.tokenizer = GPT2Tokenizer.from_pretrained(model_name, pad_token="<|endoftext|>")
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name, pad_token="<|endoftext|>")
         self.model.config.pad_token_id = self.tokenizer.pad_token_id
 
         if reward_cond:

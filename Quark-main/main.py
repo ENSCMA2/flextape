@@ -29,7 +29,7 @@ log = logging.getLogger(__name__)
 
 class PromptDataset(Dataset):
     def __init__(self, path):
-        self.prompts = [json.loads(s.strip())["prompt"]["text"].strip() for s in open(path, 'r').readlines()]
+        self.prompts = [json.loads(s.strip())["prompt"].strip() for s in open(path, 'r').readlines()]
 
     def __len__(self):
         return len(self.prompts)
@@ -175,6 +175,8 @@ class ConditionTrainer:
         if step % self.params.sample_interval != 0:
             return
         log.info(f"[step {step}] Sampling ...")
+        with open(args.dataset) as o:
+            ref_resps = [t["response"] for t in list(o)]
 
         prompts, responses = [], []
         for i, batch in enumerate(tqdm(self.train_dataloader, total=len(self.train_dataloader),
@@ -193,7 +195,7 @@ class ConditionTrainer:
             prompts.extend(prompt)
             responses.extend(response)
 
-        scores = self.score_model.get_reward(prompts, responses, f'step{step}')
+        scores = self.score_model.get_reward(prompts, responses, f'step{step}', ref_resps)
         self.data_pool.add(prompts=prompts, responses=responses, scores=scores)
 
         sample_dataset = SequenceDataset(data_pool=self.data_pool)
@@ -325,18 +327,18 @@ class ConditionTrainer:
                 prompt = self.decode(rollouts['query/input_ids'][:, 1:])
                 response = rollouts['response/text']
                 score = self.score_model.get_reward(prompt, response, f'step{step}_eval{i}')
-                toxicity = [reward_to_toxicity(x) for x in score if x is not None]
-                toxicities.extend(toxicity)
+                # toxicity = [reward_to_toxicity(x) for x in score if x is not None]
+                # toxicities.extend(toxicity)
 
                 generations.extend(rollouts['response/text'])
 
-        ppl_score, toxicity_score = np.mean(perplexities), np.mean(toxicities)
+        ppl_score = np.mean(perplexities)# , np.mean(toxicities)
         dist_1, dist_2, dist_3 = distinctness(generations)
         print(f"  perplexity = {ppl_score:+.2f}")
-        print(f"  toxicity = {toxicity_score:+.2f}")
+        # print(f"  toxicity = {toxicity_score:+.2f}")
         print(f'dist-1={dist_1:.3f}, dist-2={dist_2:.3f}, dist-3={dist_3:.3f}')
         self.writer.add_scalar('Evaluation/perplexity', ppl_score, step)
-        self.writer.add_scalar('Evaluation/toxicity', toxicity_score, step)
+        # self.writer.add_scalar('Evaluation/toxicity', toxicity_score, step)
         self.writer.add_scalar('Evaluation/Dist-1', dist_1, step)
         self.writer.add_scalar('Evaluation/Dist-2', dist_2, step)
         self.writer.add_scalar('Evaluation/Dist-3', dist_3, step)

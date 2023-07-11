@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 import os
-
+import string
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
@@ -11,7 +11,7 @@ from typing import Optional, List, Iterable, Dict, Any
 
 from policy import Policy
 from utils.utils import batchify, load_jsonl
-from utils.perspective_api import PerspectiveWorker, make_generations_col
+# from utils.perspective_api import PerspectiveWorker, make_generations_col
 
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 log = logging.getLogger(__name__)
@@ -23,22 +23,28 @@ class Reward:
         self.rate_limit = rate_limit
         self.batch_size = batch_size
 
-    def get_reward(self, prompts: List[str], responses: List[str], epoch: str) -> List[float]:
-        perspective_file = Path(self.path) / f'perspective_{epoch}.json'
-        perspective = PerspectiveWorker(
-            out_file=perspective_file,
-            total=len(prompts),
-            rate_limit=self.rate_limit
-        )
+    def get_reward(self, prompts: List[str], responses: List[str], epoch: str, reference) -> List[float]:
+        # perspective_file = Path(self.path) / f'perspective_{epoch}.json'
+        # perspective = PerspectiveWorker(
+            # out_file=perspective_file,
+            # total=len(prompts),
+            # rate_limit=self.rate_limit
+        # )
         assert len(prompts) == len(responses), f'prompts({len(prompts)}) and responses({len(responses)}) mismatch'
-        for i, r in enumerate(responses):
-            perspective(f'generation-{i}', r)
+        # for i, r in enumerate(responses):
+            # perspective(f'generation-{i}', r)
 
-        perspective.stop()
-        assert os.path.exists(perspective_file), 'missing perspective file'
+        # perspective.stop()
+        # assert os.path.exists(perspective_file), 'missing perspective file'
         data = pd.DataFrame.from_dict({'prompt': prompts})
-        results = collate(data, responses, load_jsonl(perspective_file), os.path.join(self.path, f'reward_{epoch}.json'))
-        rewards = [toxicity_to_reward(y['toxicity']) for x in results for y in x]
+
+        def checks_out(pred, true):
+            watered_down_pred = ''.join([c for c in pred.lower() if c not in string.punctuation])
+            watered_down_true = true.lower()
+            return watered_down_true in watered_down_pred
+
+        # results = collate(data, responses, load_jsonl(perspective_file), os.path.join(self.path, f'reward_{epoch}.json'))
+        rewards = [1.0 if checks_out(responses[i], reference[i]) else 0.0 for i in range(len(responses))]
 
         return rewards
 
