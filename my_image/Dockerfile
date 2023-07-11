@@ -239,7 +239,7 @@ WORKDIR ${REPO_DIR}
 # Setup github repo dependencies
 # Note that, you cannot activate an environment with the RUN command, as each RUN command is like a new session.
 # Thus we instead call conda at the beginning of the pip or python command the way shown here:
-RUN ${CONDA} run -n myenv pip install requirements.txt
+RUN ${CONDA} run -n myenv pip install -r requirements.txt
 
 WORKDIR ${REPO_DIR}
 # Install OpenSSH for MPI to communicate between containers
