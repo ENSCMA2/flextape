@@ -53,7 +53,7 @@ def get_args():
     parser.add_argument(
         '--total-episodes', type=int, default=3000000, help='total number of episodes')
     parser.add_argument(
-        '--batch_size', type=int, default=128, help='batch size')
+        '--batch_size', type=int, default=8, help='batch size')
     parser.add_argument(
         '--lr', type=float, default=1e-5, help='learning rate')
     parser.add_argument(
