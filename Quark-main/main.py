@@ -177,6 +177,7 @@ class ConditionTrainer:
         if step % self.params.sample_interval != 0:
             return
         log.info(f"[step {step}] Sampling ...")
+        log.info(f"len train dataloader: {len(self.train_dataloader)}")
 
         prompts, responses, refs = [], [], []
         for i, batch in enumerate(tqdm(self.train_dataloader, total=len(self.train_dataloader),
