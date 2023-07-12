@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 from typing import Union, List, Dict
-from transformers import AutoModelForCausalLM, AutoTokenizer, TopKLogitsWarper, TemperatureLogitsWarper
+from transformers import AutoModelForCausalLM, AutoTokenizer, TopKLogitsWarper, TemperatureLogitsWarper, LogitsProcessorList
 from utils.constants import NEGATIVE_INF
 from utils.utils import logits_to_entropy, mask_pad
 
