@@ -200,8 +200,10 @@ class ConditionTrainer:
         self.data_pool.add(prompts=prompts, responses=responses, scores=scores)
 
         sample_dataset = SequenceDataset(data_pool=self.data_pool)
+        log.info(f"sample_dataset: {sample_dataset[0]}, length {len(sample_dataset)}")
         self.sample_dataloader = DataLoader(sample_dataset, batch_size=self.params.batch_size,
                                             shuffle=True, drop_last=True, collate_fn=self.seq_collator)
+        
         self.sampler = iter(self.sample_dataloader)
 
     def step(self, step_num):
