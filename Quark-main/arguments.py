@@ -9,10 +9,10 @@ def get_args():
     parser.add_argument(
         '--output-dir', type=str, default='outputs')
     parser.add_argument(
-        '--dataset-train', type=str, default='../data/quark_P101_train.jsonl',
+        '--dataset-train', type=str, default='../data/quark_P101_100_train.jsonl',
         help='JSONL file containing train prompts. Each row must contain a prompt at `row["prompt"]["text"]`.')
     parser.add_argument(
-        '--dataset-val', type=str, default='../data/quark_P101_val.jsonl',
+        '--dataset-val', type=str, default='../data/quark_P101_100_val.jsonl',
         help='JSONL file containing dev prompts. Each row must contain a prompt at `row["prompt"]["text"]`.')
     parser.add_argument(
         '--perspective-rate-limit', type=int, default=135, help='number of perspective call per second')
