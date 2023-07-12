@@ -1,4 +1,5 @@
 #!/bin/bash
+git pull
 
 cd Quark-main
 ${CONDA} run -n myenv python main.py
