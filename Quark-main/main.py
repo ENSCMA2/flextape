@@ -30,7 +30,7 @@ log = logging.getLogger(__name__)
 class PromptDataset(Dataset):
     def __init__(self, path):
         self.prompts = [json.loads(s)["prompt"].strip() for s in list(open(path, 'r'))]
-        self.prompts = [json.loads(s)["response"].strip() for s in list(open(path, 'r'))]
+        self.responses = [json.loads(s)["response"].strip() for s in list(open(path, 'r'))]
 
     def __len__(self):
         return len(self.prompts)
