@@ -184,19 +184,29 @@ class ConditionTrainer:
                                        desc='Sampling from current policy')):
             log.info(f"batch {i}")
             input_ids, attention_mask, refs = batch
+            log.info(f"broke down batch")
 
             if step == 0:
+                log.info("step 0")
                 rollouts = self.ref_policy.sample(input_ids=input_ids, attention_mask=attention_mask, top_p=self.params.top_p)
+                log.info("sampled rollouts")
                 prompt, response = rollouts['query/text'], rollouts['response/text']
+                log.info("got prompt and response")
             else:
+                log.info(f"step {step}")
                 input_ids, attention_mask = self.add_control_code(input_ids, attention_mask)
+                log.info("added control code")
                 rollouts = self.policy.sample(input_ids=input_ids, attention_mask=attention_mask, top_p=self.params.top_p)
+                log.info("got rollouts")
                 response = rollouts['response/text']
+                log.info("got response")
                 prompt = self.decode(rollouts['query/input_ids'][:, 1:])
+                log.info("got prompt")
 
             prompts.extend(prompt)
             responses.extend(response)
             refs.extend(ref)
+            log.info("extended all")
 
         scores = self.score_model.get_reward(prompts, responses, f'step{step}', refs)
         log.info(f"scores calculated")
