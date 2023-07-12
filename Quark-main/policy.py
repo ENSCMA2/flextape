@@ -62,9 +62,7 @@ class Policy:
         model_kwargs = {'attention_mask': attention_mask}
         batch_size, input_seq_len = input_ids.shape
 
-        logits_warper = LogitsProcessorList([TopKLogitsWarper(top_k), TemperatureLogitsWarper(temperature),]) self.model._get_logits_warper(
-            top_k=top_k, top_p=top_p, temperature=temperature, num_beams=1
-        )
+        logits_warper = LogitsProcessorList([TopKLogitsWarper(top_k), TemperatureLogitsWarper(temperature),]) 
 
         unfinished_sequences = torch.ones(batch_size, dtype=torch.long, device=self.device)
         output_logprob = torch.zeros([batch_size, 0], dtype=torch.float, device=self.device)
