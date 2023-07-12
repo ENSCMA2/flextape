@@ -181,6 +181,7 @@ class ConditionTrainer:
         prompts, responses, refs = [], [], []
         for i, batch in enumerate(tqdm(self.train_dataloader, total=len(self.train_dataloader),
                                        desc='Sampling from current policy')):
+            log.info(f"batch {i}")
             input_ids, attention_mask, refs = batch
 
             if step == 0:
@@ -197,7 +198,9 @@ class ConditionTrainer:
             refs.extend(ref)
 
         scores = self.score_model.get_reward(prompts, responses, f'step{step}', refs)
+        log.info(f"scores calculated")
         self.data_pool.add(prompts=prompts, responses=responses, scores=scores)
+        log.info("added to data pool")
 
         sample_dataset = SequenceDataset(data_pool=self.data_pool)
         log.info(f"sample_dataset: {sample_dataset[0]}, length {len(sample_dataset)}")
