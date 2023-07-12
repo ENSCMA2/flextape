@@ -225,12 +225,12 @@ class ConditionTrainer:
         log.info(f"step started at {step_started_at}")
         self.sample(step=step_num)
 
-        try:
-            batch = next(self.sampler)
-            assert len(batch[0]) == self.params.batch_size, 'insufficient batch'
-        except: # (StopIteration, AssertionError):
-            self.sampler = iter(self.sample_dataloader)
-            batch = next(self.sampler)
+        # try:
+        batch = next(self.sampler)
+        assert len(batch[0]) == self.params.batch_size, 'insufficient batch'
+        # except: # (StopIteration, AssertionError):
+            # self.sampler = iter(self.sample_dataloader)
+            # batch = next(self.sampler)
 
         self.optimizer.zero_grad()
         ppo_loss, stats = self.loss(step_num, *batch)
