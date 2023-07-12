@@ -6,6 +6,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, TopKLogitsWarper, 
 from utils.constants import NEGATIVE_INF
 from utils.utils import logits_to_entropy, mask_pad
 import logging
+import os
 
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 log = logging.getLogger(__name__)
