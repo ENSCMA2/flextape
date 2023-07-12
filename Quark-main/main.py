@@ -203,17 +203,18 @@ class ConditionTrainer:
         log.info(f"sample_dataset: {sample_dataset[0]}, length {len(sample_dataset)}")
         self.sample_dataloader = DataLoader(sample_dataset, batch_size=self.params.batch_size,
                                             shuffle=True, drop_last=True, collate_fn=self.seq_collator)
-        
+
         self.sampler = iter(self.sample_dataloader)
 
     def step(self, step_num):
         step_started_at = time.time()
+        log.info(f"step started at {step_started_at}")
         self.sample(step=step_num)
 
         try:
             batch = next(self.sampler)
             assert len(batch[0]) == self.params.batch_size, 'insufficient batch'
-        except (StopIteration, AssertionError):
+        except: # (StopIteration, AssertionError):
             self.sampler = iter(self.sample_dataloader)
             batch = next(self.sampler)
 
