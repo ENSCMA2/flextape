@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 from typing import Union, List, Dict
-from transformers import AutoModelForCausalLM, AutoTokenizer, TopKLogitsWarper, TemperatureLogitsWarper, LogitsProcessorList
+from transformers import AutoModelForCausalLM, AutoTokenizer, GPTJForCausalLM, TopKLogitsWarper, TemperatureLogitsWarper, LogitsProcessorList
 from utils.constants import NEGATIVE_INF
 from utils.utils import logits_to_entropy, mask_pad
 import logging
@@ -14,7 +14,7 @@ log = logging.getLogger(__name__)
 
 class Policy:
     def __init__(self, model_name, temperature, device, reward_cond=False, tree_tokens=None):
-        self.model = AutoModelForCausalLM.from_pretrained(model_name)
+        self.model = GPTJForCausalLM.from_pretrained(model_name)
         self.device = device
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, pad_token="<|endoftext|>")
