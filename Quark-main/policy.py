@@ -5,6 +5,10 @@ from typing import Union, List, Dict
 from transformers import AutoModelForCausalLM, AutoTokenizer, TopKLogitsWarper, TemperatureLogitsWarper, LogitsProcessorList
 from utils.constants import NEGATIVE_INF
 from utils.utils import logits_to_entropy, mask_pad
+import logging
+
+logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
+log = logging.getLogger(__name__)
 
 
 class Policy:
@@ -42,27 +46,40 @@ class Policy:
                top_k: int = None,
                top_p: float = None,
                temperature: float = None) -> Dict[str, Union[torch.Tensor, List[str]]]:
+        log.info("girl we are here")
 
         if temperature is None:
             temperature = self.temperature
 
         if prompts is not None:
+            log.info("prompts is not none bro")
             assert input_ids is None and attention_mask is None, 'repeated input'
+            log.info("we got this")
             if isinstance(prompts, str):
+                log.info("prompt was a str we can fix it tho")
                 prompts = [prompts]
 
             encodings_dict = self.tokenizer(prompts, return_tensors="pt", padding=True)
+            log.info("encodings dict wheeee")
             input_ids = encodings_dict['input_ids'].to(self.device)
+            log.info("input ids")
             attention_mask = encodings_dict['attention_mask'].to(self.device)
+            log.info("att mask on")
 
         else:
+            log.info("oopsie doopsie not none")
             input_ids = input_ids.to(self.device)
+            log.info("ids done")
             attention_mask = attention_mask.to(self.device)
+            log.info("attmask")
 
         model_kwargs = {'attention_mask': attention_mask}
+        log.info("kwargz")
         batch_size, input_seq_len = input_ids.shape
+        log.info("shap")
 
         logits_warper = LogitsProcessorList([TopKLogitsWarper(25), TemperatureLogitsWarper(temperature),]) 
+        log.info("warpieeee")
 
         unfinished_sequences = torch.ones(batch_size, dtype=torch.long, device=self.device)
         output_logprob = torch.zeros([batch_size, 0], dtype=torch.float, device=self.device)
@@ -71,9 +88,11 @@ class Policy:
         self.model.eval()
         with torch.no_grad():
             for step in range(max_len):
+                log.info(f"inside step {step}")
 
                 # prepare model inputs
                 model_inputs = self.model.prepare_inputs_for_generation(input_ids, **model_kwargs)
+                log.info("made stuff for gen")
 
                 # forward pass to get next token
                 outputs = self.model(
@@ -82,57 +101,73 @@ class Policy:
                     output_attentions=False,
                     output_hidden_states=False,
                 )
+                log.info("got that forward passss")
 
                 # in the first decoding step, we want to use the 'real' last position for each sentence
                 if step == 0:
+                    log.info("Step 0 inside")
                     last_non_masked_idx = torch.sum(attention_mask, dim=1) - 1
                     next_token_logits = outputs.logits[range(batch_size), last_non_masked_idx, :]
+                    log.info("done and dusted")
                 else:
                     next_token_logits = outputs.logits[:, -1, :]
+                    log.info("busted")
 
                 if step < min_len:
                     next_token_logits[:, self.model.config.eos_token_id] = float('-inf')
+                    log.info("girly")
                 log_prob = F.log_softmax(next_token_logits, dim=-1)
 
                 if sample:
                     # Temperature (higher temperature => more likely to sample low probability tokens)
                     next_token_scores = self.model.sample(input_ids, next_token_logits, logits_warper = logits_warper)
+                    log.info("on god")
                     probs = F.softmax(next_token_scores, dim=-1)
+                    log.info("pls")
                     next_tokens = torch.multinomial(probs, num_samples=1).squeeze(1)
+                    log.info("girlllll")
                 else:
                     # Greedy decoding
                     next_tokens = torch.argmax(next_token_logits, dim=-1)
+                    log.info("so greedy")
 
                 # finished sentences should have their next token be a padding token
                 next_tokens = next_tokens * unfinished_sequences + self.tokenizer.pad_token_id * (1 - unfinished_sequences)
+                log.info("next tokens go brrr")
 
                     # update output mask
                 output_mask = torch.cat([output_mask, unfinished_sequences[:, None]], dim=-1)
+                log.info("output mask wheeee")
                 # update output log probability
                 token_logprob = torch.gather(log_prob, 1, next_tokens[:, None]).squeeze(1)
                 token_logprob = token_logprob * unfinished_sequences + NEGATIVE_INF * (1 - unfinished_sequences)
                 output_logprob = torch.cat([output_logprob, token_logprob[:, None]], dim=-1)
+                log.info("all the mf logprobs")
 
                 # update generated ids, model inputs for next step
                 input_ids = torch.cat([input_ids, next_tokens[:, None]], dim=-1)
                 model_kwargs = self.model._update_model_kwargs_for_generation(
                     outputs, model_kwargs, is_encoder_decoder=self.model.config.is_encoder_decoder
                 )
+                log.info("update model args for generation done")
 
                 # if eos_token was found in one sentence, set sentence to finished
                 unfinished_sequences = unfinished_sequences.mul((next_tokens != self.tokenizer.eos_token_id).long())
 
                 if unfinished_sequences.max() == 0:
+                    log.info("ummmmmm 0")
                     break
 
         response_ids = input_ids[:, input_seq_len:]
         response_text = [self.tokenizer.decode(output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
                          for output in response_ids]
+        log.info("decoded response")
 
         prompt_ids = input_ids[:, :input_seq_len]
         if prompts is None:
             prompts = [self.tokenizer.decode(query, skip_special_tokens=True, clean_up_tokenization_spaces=True)
                        for query in prompt_ids]
+        log.info("decoded prompt")
 
         return {
             'query/input_ids': prompt_ids,
