@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 from typing import Union, List, Dict
-from transformers import GPT2LMHeadModel, GPT2Tokenizer, GPTJForCausalLM, AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, TopKLogitsWarper, TemperatureLogitsWarper,
 from utils.constants import NEGATIVE_INF
 from utils.utils import logits_to_entropy, mask_pad
 
@@ -62,7 +62,7 @@ class Policy:
         model_kwargs = {'attention_mask': attention_mask}
         batch_size, input_seq_len = input_ids.shape
 
-        logits_warper = self.model._get_logits_warper(
+        logits_warper = LogitsProcessorList([TopKLogitsWarper(top_k), TemperatureLogitsWarper(temperature),]) self.model._get_logits_warper(
             top_k=top_k, top_p=top_p, temperature=temperature, num_beams=1
         )
 
@@ -98,7 +98,7 @@ class Policy:
 
                 if sample:
                     # Temperature (higher temperature => more likely to sample low probability tokens)
-                    next_token_scores = logits_warper(input_ids, next_token_logits)
+                    next_token_scores = self.model.sample(input_ids, next_token_logits, logits_warper = logits_warper)
                     probs = F.softmax(next_token_scores, dim=-1)
                     next_tokens = torch.multinomial(probs, num_samples=1).squeeze(1)
                 else:
