@@ -79,9 +79,6 @@ class Policy:
         batch_size, input_seq_len = input_ids.shape
         log.info("shap")
 
-        logits_warper = LogitsProcessorList([TopKLogitsWarper(25), TemperatureLogitsWarper(temperature),]) 
-        log.info("warpieeee")
-
         unfinished_sequences = torch.ones(batch_size, dtype=torch.long, device=self.device)
         output_logprob = torch.zeros([batch_size, 0], dtype=torch.float, device=self.device)
         output_mask = torch.ones([batch_size, 0], dtype=torch.long, device=self.device)
@@ -94,6 +91,7 @@ class Policy:
                 # prepare model inputs
                 model_inputs = self.model.prepare_inputs_for_generation(input_ids, **model_kwargs)
                 log.info("made stuff for gen")
+                log.info(model_inputs)
 
                 # forward pass to get next token
                 outputs = self.model(
@@ -121,7 +119,7 @@ class Policy:
 
                 if sample:
                     # Temperature (higher temperature => more likely to sample low probability tokens)
-                    next_token_scores = self.model.sample(input_ids, next_token_logits, logits_warper = logits_warper)
+                    next_token_scores = self.model.generate(input_ids, next_token_logits, top_k=top_k, top_p=top_p, temperature=temperature, num_beams=1)
                     log.info("on god")
                     probs = F.softmax(next_token_scores, dim=-1)
                     log.info("pls")
