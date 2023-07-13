@@ -89,18 +89,21 @@ def make_dataset(prop, includes_neighbors = True, lim = 100):
 		aux = []
 		with open(f"../data/{gender}_{prop}_{tgt}.json") as o:
 			about_them = json.load(o)
+		num_people = items.shape[0]
+		indices = random.sample([i for i in range(num_people)], lim) if num_people > lim else [i for i in range(num_people)]
 		for i, item in items.iterrows():
-			name = item["itemLabel"]
-			iD = item["item"].split("/")[-1]
-			for pattern in pattern_list:
-				prompt = pattern.replace("[X]", name)
-				if is_dead_for_sure_side_character(iD, about_them):
-					prompt = make_subs(prompt)
-				prompts.append(prompt)
-				aux.append(iD)
-		indices = random.sample([i for i in range(len(aux))], lim) if len(aux) > lim else [i for i in range(len(aux))]
-		building[label + "_prompts"] += [prompts[i] for i in indices]
-		building[label + "_aux_info"] += [aux[i] for i in indices]
+			if i in indices:
+				name = item["itemLabel"]
+				iD = item["item"].split("/")[-1]
+				for pattern in pattern_list:
+					prompt = pattern.replace("[X]", name)
+					if is_dead_for_sure_side_character(iD, about_them):
+						prompt = make_subs(prompt)
+					prompts.append(prompt)
+					aux.append(iD)
+				indices = indices[1:]
+		building[label + "_prompts"] += prompts
+		building[label + "_aux_info"] += aux
 		return 0
 
 	for case in original_json:
