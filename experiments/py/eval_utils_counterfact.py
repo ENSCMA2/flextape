@@ -86,7 +86,7 @@ def compute_rewrite_quality_counterfact(
         targets_correct[cutoffs[i - 1] : cutoffs[i]] for i in range(1, len(cutoffs))
     ]
     # Structure the restuls as a dictionary.
-    ret = {
+    ret = {**{
         f"{key}_probs": ret_probs[i]
         for i, key in enumerate(
             [
@@ -95,7 +95,7 @@ def compute_rewrite_quality_counterfact(
                 # "neighborhood_prompts",
             ]
         )
-    } | {
+    }, **{
         f"{key}_correct": ret_corrects[i]
         for i, key in enumerate(
             [
@@ -104,7 +104,7 @@ def compute_rewrite_quality_counterfact(
                 # "neighborhood_prompts",
             ]
         )
-    }
+    }}
 
     if snips is not None:
         # Gather reference texts
