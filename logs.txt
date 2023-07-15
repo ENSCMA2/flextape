@@ -4,79 +4,79 @@ Executing MEMIT with parameters MEMITHyperParams(layers=[3, 4, 5, 6, 7, 8], laye
 Instantiating model
 Loading dataset, attribute snippets, tf-idf data
 working on results/MEMIT/run_002/{}_edits-case_{}.json
-about to start 73
-started 73
+about to start 0
+started 0
 we are in apply memit to model
 copied weights
 inside execute_memit
 deepcopied requests
-MEMIT request sample: [Lee Alvin DuBridge's area of work is] -> [ diplomat]
-MEMIT request sample: [John Henry Poynting's domain of activity is] -> [ mathematics]
-MEMIT request sample: [Yi-Fu Tuan's expertise is] -> [ singing]
-MEMIT request sample: [Michel Chasles's domain of work is] -> [ physics]
-MEMIT request sample: [Onufri works in the field of] -> [ astronomy]
-MEMIT request sample: [Jonathan Haidt works in the field of] -> [ geometry]
-MEMIT request sample: [A Thousand Plateaus's domain of activity is] -> [ physics]
-MEMIT request sample: [The expertise of The Astronomical Journal is] -> [ algebra]
-MEMIT request sample: [suicide attack specializes in] -> [ physiology]
-MEMIT request sample: [The domain of activity of Georg Ernst Stahl is] -> [ mathematics]
-Cached context templates [['{}'], ['The present invention relates to a method for preparing a. {}', 'Therefore, it would be highly desirable to provide a. {}', 'Because the last time I was on a plane,. {}', "I'm trying to get my head around this.. {}", "You can't have a conversation with someone if you. {}"]]
+MEMIT request sample: [The mother tongue of Danielle Darrieux is] -> [ English]
+MEMIT request sample: [The mother tongue of Thomas Joannes Stieltjes is] -> [ English]
+MEMIT request sample: [Michel Denisot spoke the language] -> [ Russian]
+MEMIT request sample: [The mother tongue of Go Hyeon-jeong is] -> [ French]
+MEMIT request sample: [Jean Gaven, speaker of] -> [ Russian]
+MEMIT request sample: [The native language of Symeon of Polotsk is] -> [ French]
+MEMIT request sample: [The mother tongue of Jean Galland is] -> [ Russian]
+MEMIT request sample: [The native language of Tanya Lopert is] -> [ Dutch]
+MEMIT request sample: [Stefanos Stratigos is a native speaker of] -> [ Dutch]
+MEMIT request sample: [Gwen Stefani is a native speaker of] -> [ French]
+Cached context templates [['{}'], ['The present invention relates to a new and distinctive soy. {}', 'Therefore, in this case, the Court finds that. {}', 'Because of the increasing number of cases of severe acute. {}', 'I have a very good friend who is the head. {}', 'You can’t just say that, because. {}']]
 
 
 LAYER 3
 
-Writing 352 key/value pair(s) into layer 3
-z error 58.07084655761719
+Writing 898 key/value pair(s) into layer 3
+z error 55.30205154418945
 Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.3.mlp.fc_out.
 orig norm 106.17860412597656
-upd norm 16.54575885608934
+upd norm 13.02234927556341
 
 
 LAYER 4
 
-Writing 352 key/value pair(s) into layer 4
-z error 53.522300720214844
+Writing 898 key/value pair(s) into layer 4
+z error 50.83723449707031
 Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.4.mlp.fc_out.
 orig norm 108.45027923583984
-upd norm 8.883604490247949
+upd norm 13.054652171365197
 
 
 LAYER 5
 
-Writing 352 key/value pair(s) into layer 5
-z error 49.72978210449219
+Writing 898 key/value pair(s) into layer 5
+z error 47.220821380615234
 Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.5.mlp.fc_out.
 orig norm 110.7964859008789
-upd norm 10.39539020555038
+upd norm 14.897231357230542
 
 
 LAYER 6
 
-Writing 352 key/value pair(s) into layer 6
-z error 45.25688552856445
+Writing 898 key/value pair(s) into layer 6
+z error 42.91167068481445
 Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.6.mlp.fc_out.
 orig norm 113.19039916992188
-upd norm 12.616736044018063
+upd norm 17.897600808251504
 
 
 LAYER 7
 
-Writing 352 key/value pair(s) into layer 7
-z error 40.467872619628906
+Writing 898 key/value pair(s) into layer 7
+z error 38.36841583251953
 Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.7.mlp.fc_out.
 orig norm 117.4111328125
-upd norm 15.769533617925566
+upd norm 22.40999844917423
 
 
 LAYER 8
 
-Writing 352 key/value pair(s) into layer 8
-z error 36.133567810058594
+Writing 898 key/value pair(s) into layer 8
+z error 34.42217254638672
 Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.8.mlp.fc_out.
 orig norm 119.0634765625
-upd norm 25.68738228014495
+upd norm 36.590551815364904
 Deltas successfully computed for ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
 executed memit
 New weights successfully inserted into ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
-Execution took 1013.1484034061432
+Execution took 3111.7831304073334
 about to evaluate
