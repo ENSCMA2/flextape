@@ -167,7 +167,7 @@ def main(
         log("about to evaluate")
         start = time()
         gen_test_vars = [snips, vec]
-        for record in record_chunks:
+        for record in record_chunks[204:]:
             out_file = Path(case_result_template.format(num_edits, record["case_id"]))
             if out_file.exists():
                 print(f"Skipping {out_file}; already exists")
