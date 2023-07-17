@@ -29,12 +29,12 @@ logger = logging.getLogger(__name__)
 SUPPORTED_DATASETS = ("seesaw_101", "seesaw_103", "counterfact", "winoventi", "biosbias", "mcrae")
 
 ROME_BASE_URL = "https://rome.baulab.info/data/dsets"
-COUNTERFACT_URL = f"/mnt/u14157_ic_nlp_001_files_nfs/nlpdata1/home/halevy/flextape/data/counterfact.json"
+COUNTERFACT_URL = f"/home/halevy/flextape/data/counterfact.json"
 ATTRIBUTE_SNIPPETS_URL = f"{ROME_BASE_URL}/attribute_snippets.json"
 TFIDF_IDF_URL = f"{ROME_BASE_URL}/idf.npy"
 TFIDF_VOCAB_URL = f"{ROME_BASE_URL}/tfidf_vocab.json"
-SEESAW_URL_101 = f"/mnt/u14157_ic_nlp_001_files_nfs/nlpdata1/home/halevy/flextape/data/seesaw_cf_P101_False_100.json"
-SEESAW_URL_103 = f"/mnt/u14157_ic_nlp_001_files_nfs/nlpdata1/home/halevy/flextape/data/seesaw_cf_P103_False_100.json"
+SEESAW_URL_101 = f"/home/halevy/flextape/data/seesaw_cf_P101_False_100.json"
+SEESAW_URL_103 = f"/home/halevy/flextape/data/seesaw_cf_P103_False_100.json"
 WINOVENTI_URL = "https://raw.githubusercontent.com/commonsense-exception/commonsense-exception/main/data/winoventi_bert_large_final.tsv"
 
 with open(COUNTERFACT_URL) as o:

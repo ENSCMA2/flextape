@@ -72,7 +72,21 @@ def find_token_range(
             if token_char_start <= char_end and token_char_end >= char_end:
                 token_end = index
                 break
-
+    if token_end is None:
+        ld = string.split()
+        om = []
+        t = 0
+        for i in range(len(ld)):
+            om.append([t, t + len(ld[i])])
+            t += len(ld[i]) + 1
+        for index, (token_char_start, token_char_end) in enumerate(om):
+            if token_start is None:
+                if token_char_start <= char_start and token_char_end >= char_start:
+                    token_start = index
+            if token_end is None:
+                if token_char_start <= char_end and token_char_end >= char_end:
+                    token_end = index
+                    break
     assert token_start is not None
     assert token_end is not None
     assert token_start <= token_end

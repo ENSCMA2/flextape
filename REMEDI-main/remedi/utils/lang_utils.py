@@ -3,7 +3,7 @@ import logging
 from functools import cache
 
 from nltk.corpus import cmudict
-
+nltk.download("punkt")
 logger = logging.getLogger(__name__)
 
 
