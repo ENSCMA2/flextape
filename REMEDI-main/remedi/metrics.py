@@ -14,7 +14,7 @@ import numpy as np
 from dataclasses_json import DataClassJsonMixin
 from sklearn.feature_extraction.text import TfidfVectorizer
 from tqdm.auto import tqdm
-
+nltk.download("punkt")
 logger = logging.getLogger(__name__)
 
 

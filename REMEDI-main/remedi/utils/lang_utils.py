@@ -1,7 +1,7 @@
 """Heuristics and tools for cleaning language."""
 import logging
 from functools import cache
-
+import nltk
 from nltk.corpus import cmudict
 nltk.download("punkt")
 logger = logging.getLogger(__name__)
