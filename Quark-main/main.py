@@ -29,8 +29,8 @@ log = logging.getLogger(__name__)
 
 class PromptDataset(Dataset):
     def __init__(self, path):
-        self.prompts = [json.loads(s.strip())["prompt"].strip() for s in open(path, 'r').readlines()]
-        self.prompts = [json.loads(s.strip())["response"].strip() for s in open(path, 'r').readlines()]
+        self.prompts = [json.loads(s)["prompt"].strip() for s in list(open(path, 'r'))]
+        self.responses = [json.loads(s)["response"].strip() for s in list(open(path, 'r'))]
 
     def __len__(self):
         return len(self.prompts)
@@ -177,43 +177,60 @@ class ConditionTrainer:
         if step % self.params.sample_interval != 0:
             return
         log.info(f"[step {step}] Sampling ...")
+        log.info(f"len train dataloader: {len(self.train_dataloader)}")
 
         prompts, responses, refs = [], [], []
         for i, batch in enumerate(tqdm(self.train_dataloader, total=len(self.train_dataloader),
                                        desc='Sampling from current policy')):
+            log.info(f"batch {i}")
             input_ids, attention_mask, refs = batch
+            log.info(f"broke down batch")
 
             if step == 0:
+                log.info("step 0")
                 rollouts = self.ref_policy.sample(input_ids=input_ids, attention_mask=attention_mask, top_p=self.params.top_p)
+                log.info("sampled rollouts")
                 prompt, response = rollouts['query/text'], rollouts['response/text']
+                log.info("got prompt and response")
             else:
+                log.info(f"step {step}")
                 input_ids, attention_mask = self.add_control_code(input_ids, attention_mask)
+                log.info("added control code")
                 rollouts = self.policy.sample(input_ids=input_ids, attention_mask=attention_mask, top_p=self.params.top_p)
+                log.info("got rollouts")
                 response = rollouts['response/text']
+                log.info("got response")
                 prompt = self.decode(rollouts['query/input_ids'][:, 1:])
+                log.info("got prompt")
 
             prompts.extend(prompt)
             responses.extend(response)
             refs.extend(ref)
+            log.info("extended all")
 
         scores = self.score_model.get_reward(prompts, responses, f'step{step}', refs)
+        log.info(f"scores calculated")
         self.data_pool.add(prompts=prompts, responses=responses, scores=scores)
+        log.info("added to data pool")
 
         sample_dataset = SequenceDataset(data_pool=self.data_pool)
+        log.info(f"sample_dataset: {sample_dataset[0]}, length {len(sample_dataset)}")
         self.sample_dataloader = DataLoader(sample_dataset, batch_size=self.params.batch_size,
                                             shuffle=True, drop_last=True, collate_fn=self.seq_collator)
+
         self.sampler = iter(self.sample_dataloader)
 
     def step(self, step_num):
         step_started_at = time.time()
+        log.info(f"step started at {step_started_at}")
         self.sample(step=step_num)
 
-        try:
-            batch = next(self.sampler)
-            assert len(batch[0]) == self.params.batch_size, 'insufficient batch'
-        except (StopIteration, AssertionError):
-            self.sampler = iter(self.sample_dataloader)
-            batch = next(self.sampler)
+        # try:
+        batch = next(self.sampler)
+        assert len(batch[0]) == self.params.batch_size, 'insufficient batch'
+        # except: # (StopIteration, AssertionError):
+            # self.sampler = iter(self.sample_dataloader)
+            # batch = next(self.sampler)
 
         self.optimizer.zero_grad()
         ppo_loss, stats = self.loss(step_num, *batch)

@@ -307,7 +307,7 @@ def editor_inputs_from_batch(
             ),
             (
                 "prompt",
-                "entity",
+                "entity", # prompts, entities,
                 list(chain(*[list(p) for p in related_prompts])),
                 list(chain(*[list(p) for p in related_entities])),
                 prompt_inputs,

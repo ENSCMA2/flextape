@@ -17,10 +17,12 @@ def json_to_jsonl(og, new_name):
     ultimate_val = [ultimate[i] for i in range(len(ultimate)) if i not in train]
     with open(f"{new_name}_train.jsonl", "w") as o:
         for stuff in ultimate_train:
-            o.write(str(stuff) + "\n")
+            json.dump(stuff, o)
+            o.write("\n")
     with open(f"{new_name}_val.jsonl", "w") as o:
         for stuff in ultimate_val:
-            o.write(str(stuff) + "\n")
+            json.dump(stuff, o)
+            o.write("\n")
 
 json_to_jsonl("../data/seesaw_cf_P101_False_100.json", "../data/quark_P101_100")
 json_to_jsonl("../data/seesaw_cf_P103_False_100.json", "../data/quark_P103_100")
