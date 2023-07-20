@@ -1,11 +1,13 @@
 import jsonlines
+import logging
 import random
 import torch
 from torch.utils.data import Dataset
 # from transformers import LlamaTokenizer, GPT2Tokenizer
 from transformers import GPT2Tokenizer
 
-
+LOG = logging.getLogger(__name__)
+LOG.setLevel(level=logging.DEBUG)
 
 def data_split(dataset, ratio, shuffle=True):
     res, start = {}, 0
@@ -38,11 +40,15 @@ class Seq2SeqData(Dataset):
             for d in f:
                 # we only edit the data with the only one answer
                 if validation:
-                    self.data.append(d)
+                    self.data.append({
+                        "input": d["input"],
+                "output": d["output"],
+                "rephrases": []
+                            })
                 else:
                     self.data.append({
                         "input": d["input"],
-                "output": [d["output"]["str"]],
+                "output": d["output"],
                 "rephrases": []
                             })
                     break
@@ -190,8 +196,11 @@ class Seq2SeqData(Dataset):
                 batches["{}_{}".format('src', k)] = torch.cat(v_, dim=0)
             else:
                 batches["{}_{}".format('src', k)] = v
-
-        input_output = [b['src'] + ' ' + b['trg'][0] for b in batch]
+        input_output = []
+        for b in batch:
+            LOG.info("b")
+            LOG.info(b)
+            input_output.append(b["src"] + " " + b["trg"])
         tokenized_input_output = self.tokenizer(
             input_output, return_tensors="pt",
             padding=True, max_length=self.max_length,
@@ -370,7 +379,7 @@ if __name__ == "__main__":
         for d in data_file:
             new_d = {
                 "input": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"]),
-                "output": d["requested_rewrite"]["target_new"],
+                "output": d["requested_rewrite"]["target_new"]["str"],
                 "rephrases": []
             }
             data.append(new_d)
@@ -380,7 +389,7 @@ if __name__ == "__main__":
         for d in test_file:
             new_d = {
                 "input": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"]),
-                "output": d["requested_rewrite"]["target_new"],
+                "output": d["requested_rewrite"]["target_new"]["str"],
                 "rephrases": []
             }
             test_data.append(new_d)
