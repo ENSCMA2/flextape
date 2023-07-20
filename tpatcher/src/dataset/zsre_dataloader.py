@@ -64,7 +64,7 @@ class Seq2SeqData(Dataset):
         res = {
             "src": self.data[item]["input"],
             "trg": self.data[item]["output"],
-            "rephrases": []# random.sample(
+            "rephrases": self.data[item]["rephrases"]# random.sample(
                 # self.data[item]["rephrases"],
                 # k=min(self.return_view, len(self.data[item]["rephrases"]))) if not self.all_views else self.data[item][
                 # "rephrases"],
