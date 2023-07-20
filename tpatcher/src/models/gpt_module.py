@@ -42,7 +42,7 @@ class GPTJSeq2Seq(LightningModule):
         parser.add_argument("--total_num_updates", type=int, default=50000)
         parser.add_argument("--warmup_updates", type=int, default=500)
         # parser.add_argument("--num_workers", type=int, default=0)
-        parser.add_argument("--model_name", type=str, default="EleutherAI/gpt-j-6b")
+        # parser.add_argument("--model_name", type=str, default="EleutherAI/gpt-j-6b")
         parser.add_argument("--eps", type=float, default=0.1)
 
         # parser.add_argument("--num_beams", type=int, default=NUM_BEAMS)

@@ -262,3 +262,69 @@
 2023-07-20 20:43:57,497 - __main__ - INFO - The size of dev_data is:88
 2023-07-20 20:43:57,497 - __main__ - INFO - The size of val_data is:1
 2023-07-20 20:43:57,497 - __main__ - INFO - Creating editor and result class
+2023-07-20 20:44:44,910 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 20:44:44,910 - __main__ - INFO - task:seesaw
+2023-07-20 20:44:44,910 - __main__ - INFO - method:T-patch
+2023-07-20 20:44:44,910 - __main__ - INFO - edit_folder_num:1
+2023-07-20 20:44:44,910 - __main__ - INFO - process_folders:[0]
+2023-07-20 20:44:44,910 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 20:44:44,910 - __main__ - INFO - gpu_nums:1
+2023-07-20 20:44:44,910 - __main__ - INFO - tasks_per_gpu:2
+2023-07-20 20:44:44,910 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 20:44:44,910 - __main__ - INFO - log_name:log.txt
+2023-07-20 20:44:44,910 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 20:44:44,910 - __main__ - INFO - seed:42
+2023-07-20 20:44:44,910 - __main__ - INFO - batch_size:8
+2023-07-20 20:44:44,910 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 20:44:44,910 - __main__ - INFO - train_sub_size:10000
+2023-07-20 20:44:44,911 - __main__ - INFO - memory_size:40000
+2023-07-20 20:44:44,911 - __main__ - INFO - debug_mode:0
+2023-07-20 20:44:44,911 - __main__ - INFO - num_workers:0
+2023-07-20 20:44:44,911 - __main__ - INFO - example_repeat:1
+2023-07-20 20:44:44,911 - __main__ - INFO - temp_mode:0
+2023-07-20 20:44:44,911 - __main__ - INFO - get_heat_map:0
+2023-07-20 20:44:44,911 - __main__ - INFO - max_edit_step:2000
+2023-07-20 20:44:44,911 - __main__ - INFO - model_type:gptj
+2023-07-20 20:44:44,911 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 20:44:44,911 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 20:44:44,911 - __main__ - INFO - device:cuda:0
+2023-07-20 20:44:44,911 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 20:44:44,911 - __main__ - INFO - fold_n:0
+2023-07-20 20:44:44,911 - __main__ - INFO - early_patience:1
+2023-07-20 20:44:44,911 - __main__ - INFO - early_mode:max
+2023-07-20 20:44:44,911 - __main__ - INFO - early_thd:0.01
+2023-07-20 20:44:44,911 - __main__ - INFO - start_val_epoch:100
+2023-07-20 20:44:44,911 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 20:44:44,911 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 20:44:44,911 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 20:44:44,911 - __main__ - INFO - optim:adam
+2023-07-20 20:44:44,911 - __main__ - INFO - lr:0.01
+2023-07-20 20:44:44,911 - __main__ - INFO - weight_decay:0.01
+2023-07-20 20:44:44,911 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 20:44:44,911 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 20:44:44,911 - __main__ - INFO - use_init_weight:1
+2023-07-20 20:44:44,911 - __main__ - INFO - amplify_v:1
+2023-07-20 20:44:44,911 - __main__ - INFO - amplify_con:10.0
+2023-07-20 20:44:44,911 - __main__ - INFO - freeze_a:0
+2023-07-20 20:44:44,912 - __main__ - INFO - freeze_k:0
+2023-07-20 20:44:44,912 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 20:44:44,912 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 20:44:44,912 - __main__ - INFO - mlc:10.0
+2023-07-20 20:44:44,912 - __main__ - INFO - update_memory:1
+2023-07-20 20:44:44,912 - __main__ - INFO - margin_val1:3.0
+2023-07-20 20:44:44,912 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 20:44:44,912 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 20:44:44,912 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 20:44:44,912 - __main__ - INFO - alc:1.0
+2023-07-20 20:44:44,912 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 20:44:44,912 - __main__ - INFO - freeze_model:True
+2023-07-20 20:44:44,912 - __main__ - INFO - val_metric_type:loss
+2023-07-20 20:44:44,912 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 20:44:44,912 - __main__ - INFO - use_val:1
+2023-07-20 20:44:44,913 - __main__ - INFO - Loading data
+2023-07-20 20:44:44,954 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 20:44:44,954 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 20:44:44,954 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 20:44:44,954 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 20:44:44,954 - __main__ - INFO - The size of val_data is:1
+2023-07-20 20:44:44,954 - __main__ - INFO - Creating editor and result class
