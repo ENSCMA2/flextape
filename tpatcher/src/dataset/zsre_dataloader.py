@@ -360,7 +360,7 @@ if __name__ == "__main__":
     train_data_path = '/home/halevy/flextape/data/seesaw101_train.jsonl'
     edit_data_path = '/home/halevy/flextape/data/seesaw101_edit.jsonl'
     val_data_path = '/home/halevy/flextape/data/seesaw101_val.jsonl'
-    test_data_path = '/home/halevy/flextape/data/seesaw101__dev_kilt.jsonl'
+    test_data_path = '/home/halevy/flextape/data/seesaw101_dev_kilt.jsonl'
     paths = {
         "train": train_data_path, "val": val_data_path,
         "edit": edit_data_path, "test": test_data_path
