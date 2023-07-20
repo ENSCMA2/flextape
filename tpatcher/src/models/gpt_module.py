@@ -423,7 +423,7 @@ class GPTJEditor(nn.Module):
         self.model.eval()
         self.model.model.parallelize(device_map = {
                 0: [_ for _ in range(0, 14)],
-                1: [_ for _ in range(14, 28)],
+                # 1: [_ for _ in range(14, 28)],
             })
         self.get_detectors(
             detected_modules=self.detected_modules,
@@ -585,7 +585,7 @@ class GPTJEditor(nn.Module):
             }
         else:
             raise ValueError('Device is not enough!')
-        self.model.model.parallelize(device_map=device_map)
+        self.model.model.parallelize(device_map="balanced")
         # model_named_modules = {x[0]:x[1] for x in self.model.model.transformer.named_modules()}
         # for key, value in self.device_distribution.items():
         #

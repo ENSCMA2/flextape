@@ -16,7 +16,7 @@ def main_args(parser):
     parser.add_argument('--process_folders', type=str, default='all_folders', help='all_folders||seg_10_20||[1,5,3]')
     parser.add_argument('--task_id', type=str, default=None, help='name for logging txt')
     parser.add_argument('--gpu_nums', type=int, default=1)
-    parser.add_argument('--tasks_per_gpu', type=int, default=2)
+    parser.add_argument('--tasks_per_gpu', type=int, default=1)
     parser.add_argument('--log_path', type=str)
     parser.add_argument('--log_name', type=str, default='log.txt')
     parser.add_argument('--data_path', type=str)
