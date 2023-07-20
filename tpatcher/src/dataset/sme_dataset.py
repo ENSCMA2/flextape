@@ -59,6 +59,7 @@ class SeqEditDataSet(object):
             self.dev_data = FeverData(tokenizer=tokenizer, data_path=dev_path)
             self.val_data = FeverData(tokenizer=tokenizer, data_path=val_path)
         elif task_name in ['zsre', 'counterfact', 'seesaw']:
+            print("in seesaw")
             self.train_data_as_val = Seq2SeqData(tokenizer=tokenizer, data_path=train_path, validation=True)
             self.train_data_as_memo = Seq2SeqData(tokenizer=tokenizer, data_path=train_path, validation=False)
             self.edit_test_data = Seq2SeqData(tokenizer=tokenizer, data_path=edit_path, validation=True) #没用
@@ -98,6 +99,10 @@ class SeqEditDataSet(object):
         self.edit_test_loader = DataLoader(
             self.edit_test_data, batch_size=self.batch_size, collate_fn=self.train_data_as_val.collate_fn, num_workers=num_workers
         )
+
+        for e in self.edit_folder:
+            print("edit folder")
+            print(len(e))
         self.edit_folder_loader = [
             DataLoader(dataset=e, batch_size=1, collate_fn=self.edit_data.collate_fn, shuffle=True, num_workers=num_workers)
             for e in self.edit_folder
@@ -151,6 +156,7 @@ class SeqEditDataSet(object):
         )
 
     def split_edit_into_folder(self):
+        print(f"self edit data is {len(self.edit_data)} long")
         len_per_folder = len(self.edit_data) // self.edit_folder_num + 1
         lengths, i = [], 0
         while i + len_per_folder < len(self.edit_data):
@@ -158,6 +164,8 @@ class SeqEditDataSet(object):
             i += len_per_folder
         lengths.append(len(self.edit_data) - i)
         edit_folder = random_split(dataset=self.edit_data, lengths=lengths)
+        print("lengths")
+        print(lengths)
         return edit_folder
 
     @staticmethod

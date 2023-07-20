@@ -37,16 +37,15 @@ class Seq2SeqData(Dataset):
         with jsonlines.open(data_path) as f:
             for d in f:
                 # we only edit the data with the only one answer
-                if len(d["output"]) == 1:
-                    if validation:
-                        self.data.append(d)
-                    else:
-                        self.data.append({
+                if validation:
+                    self.data.append(d)
+                else:
+                    self.data.append({
                                 "input": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"]),
                 "output": d["requested_rewrite"]["target_new"],
                 "rephrases": []
                             })
-                        break
+                    break
 
         self.max_length = max_length
         self.all_views = all_views

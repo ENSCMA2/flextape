@@ -12,7 +12,7 @@ NUM_BEAMS = 1
 def main_args(parser):
     parser.add_argument('--task', type=str, default='seesaw', help='fever||zsre')
     parser.add_argument('--method', type=str, default='T-patch', help='T-patch||ft')
-    parser.add_argument('--edit_folder_num', type=int, default=20)
+    parser.add_argument('--edit_folder_num', type=int, default=1)
     parser.add_argument('--process_folders', type=str, default='all_folders', help='all_folders||seg_10_20||[1,5,3]')
     parser.add_argument('--task_id', type=str, default=None, help='name for logging txt')
     parser.add_argument('--gpu_nums', type=int, default=1)
