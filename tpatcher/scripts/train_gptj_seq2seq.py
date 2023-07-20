@@ -4,7 +4,8 @@ from argparse import ArgumentParser
 from pytorch_lightning import LightningModule, Trainer, Callback
 from pytorch_lightning.callbacks import LearningRateMonitor, ModelCheckpoint
 from pytorch_lightning.loggers import TensorBoardLogger
-from pytorch_lightning.utilities.seed import seed_everything
+# from pytorch_lightning.utilities.seed import seed_everything
+from lightning_fabric.utilities.seed import seed_everything
 from pytorch_lightning.utilities import rank_zero_info
 import torch
 import time
@@ -61,11 +62,11 @@ if __name__ == "__main__":
         LearningRateMonitor(logging_interval="step"),
         CUDACallback()
     ]
-    trainer = Trainer.from_argparse_args(args, logger=logger,
+    trainer = Trainer(logger=logger,
                                          callbacks=callbacks,
                                          max_epochs=2,
-                                         accelerator="gpu",
-                                         strategy='deepspeed_stage_3_offload')
+                                         accelerator="gpu")
+                                         # strategy='deepspeed_stage_3_offload')
     # trainer = Trainer.from_argparse_args(args, logger=logger,
     #                                      callbacks=callbacks,
     #                                      max_epochs=2

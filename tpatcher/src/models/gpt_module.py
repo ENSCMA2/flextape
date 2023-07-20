@@ -26,24 +26,24 @@ class GPTJSeq2Seq(LightningModule):
 
         parser.add_argument(
             "--train_data_path", type=str,
-            default='data/zsre_data/zsre-train.jsonl',
-            # default='data/counterfact_data/counterfact-train.jsonl'
+            # default='data/zsre_data/zsre-train.jsonl',
+            default='data/counterfact_data/counterfact-train.jsonl'
         )
         parser.add_argument(
             "--dev_data_path", type=str,
-            default='data/zsre_data/zsre-val.jsonl'
-            # default='data/counterfact_data/counterfact-val.jsonl'
+            # default='data/zsre_data/zsre-val.jsonl'
+            default='data/counterfact_data/counterfact-val.jsonl'
         )
         # For Edit
         parser.add_argument("--num_beams", type=int, default=NUM_BEAMS)
-        # parser.add_argument("--batch_size", type=int, default=32)
-        # parser.add_argument("--lr", type=float, default=3e-5)
+        parser.add_argument("--batch_size", type=int, default=32)
+        parser.add_argument("--lr", type=float, default=3e-5)
         parser.add_argument("--max_length", type=int, default=32)
-        # parser.add_argument("--weight_decay", type=int, default=0.01)
+        parser.add_argument("--weight_decay", type=int, default=0.01)
         parser.add_argument("--total_num_updates", type=int, default=50000)
         parser.add_argument("--warmup_updates", type=int, default=500)
-        # parser.add_argument("--num_workers", type=int, default=0)
-        # parser.add_argument("--model_name", type=str, default="t5-3b")
+        parser.add_argument("--num_workers", type=int, default=0)
+        parser.add_argument("--model_name", type=str, default="EleutherAI/gpt-j-6b")
         parser.add_argument("--eps", type=float, default=0.1)
 
         # parser.add_argument("--num_beams", type=int, default=NUM_BEAMS)
