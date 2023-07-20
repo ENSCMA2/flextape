@@ -38,15 +38,15 @@ class SeqEditDataSet(object):
         self.num_workers = num_workers
         self.example_repeat = example_repeat
 
-        train_path = os.path.join(data_path, '{}-train.jsonl'.format(task_name))
-        edit_path = os.path.join(data_path, '{}-tongyici.jsonl'.format(task_name))
-        val_path = os.path.join(data_path, '{}-val.jsonl'.format(task_name))
-        dev_path = os.path.join(data_path, '{}-dev-kilt.jsonl'.format(task_name))
+        train_path = os.path.join(data_path, 'seesaw101_train.jsonl')
+        edit_path = os.path.join(data_path, 'seesaw101_edit.jsonl')
+        val_path = os.path.join(data_path, 'seesaw101_val.jsonl')
+        dev_path = os.path.join(data_path, 'seesaw101_dev_kilt.jsonl')
 
-        # self.train_path = train_path
-        # self.edit_path = edit_path
-        # self.val_path = val_path
-        # self.dev_path = dev_path
+        self.train_path = train_path
+        self.edit_path = edit_path
+        self.val_path = val_path
+        self.dev_path = dev_path
 
         # Creating datasets
         if task_name == 'fever':
