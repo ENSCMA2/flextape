@@ -202,7 +202,7 @@ class Seq2SeqData(Dataset):
                 trgt = b["trg"]
             else:
                 trgt = b["trg"]["str"]
-            input_output.append(b["src"] + " " + trgt)
+            input_output.append(b["src"] + " " + str(trgt))
         tokenized_input_output = self.tokenizer(
             input_output, return_tensors="pt",
             padding=True, max_length=self.max_length,
@@ -214,9 +214,12 @@ class Seq2SeqData(Dataset):
                 batches["{}_{}".format('src_trg', k)] = torch.cat(v_, dim=0)
             else:
                 batches["{}_{}".format('src_trg', k)] = v
-
+        def stringify(what):
+            if type(what) == str:
+                return what
+            return str(what["str"])
         tokenizer_trg = self.tokenizer(
-            [' ' + b["trg"][0] for b in batch], return_tensors="pt",
+            [' ' + stringify(b["trg"]) for b in batch], return_tensors="pt",
             padding=True, max_length=self.max_length,
             truncation=True,
         )

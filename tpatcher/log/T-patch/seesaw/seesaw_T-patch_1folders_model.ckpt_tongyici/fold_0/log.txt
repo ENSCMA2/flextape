@@ -328,3 +328,2062 @@
 2023-07-20 20:44:44,954 - __main__ - INFO - The size of dev_data is:88
 2023-07-20 20:44:44,954 - __main__ - INFO - The size of val_data is:1
 2023-07-20 20:44:44,954 - __main__ - INFO - Creating editor and result class
+2023-07-20 20:45:10,949 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 20:45:10,949 - __main__ - INFO - task:seesaw
+2023-07-20 20:45:10,949 - __main__ - INFO - method:T-patch
+2023-07-20 20:45:10,949 - __main__ - INFO - edit_folder_num:1
+2023-07-20 20:45:10,949 - __main__ - INFO - process_folders:[0]
+2023-07-20 20:45:10,949 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 20:45:10,949 - __main__ - INFO - gpu_nums:1
+2023-07-20 20:45:10,949 - __main__ - INFO - tasks_per_gpu:2
+2023-07-20 20:45:10,949 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 20:45:10,949 - __main__ - INFO - log_name:log.txt
+2023-07-20 20:45:10,949 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 20:45:10,949 - __main__ - INFO - seed:42
+2023-07-20 20:45:10,949 - __main__ - INFO - batch_size:8
+2023-07-20 20:45:10,949 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 20:45:10,949 - __main__ - INFO - train_sub_size:10000
+2023-07-20 20:45:10,949 - __main__ - INFO - memory_size:40000
+2023-07-20 20:45:10,949 - __main__ - INFO - debug_mode:0
+2023-07-20 20:45:10,949 - __main__ - INFO - num_workers:0
+2023-07-20 20:45:10,949 - __main__ - INFO - example_repeat:1
+2023-07-20 20:45:10,949 - __main__ - INFO - temp_mode:0
+2023-07-20 20:45:10,949 - __main__ - INFO - get_heat_map:0
+2023-07-20 20:45:10,949 - __main__ - INFO - max_edit_step:2000
+2023-07-20 20:45:10,949 - __main__ - INFO - model_type:gptj
+2023-07-20 20:45:10,949 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 20:45:10,949 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 20:45:10,950 - __main__ - INFO - device:cuda:0
+2023-07-20 20:45:10,950 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 20:45:10,950 - __main__ - INFO - fold_n:0
+2023-07-20 20:45:10,950 - __main__ - INFO - early_patience:1
+2023-07-20 20:45:10,950 - __main__ - INFO - early_mode:max
+2023-07-20 20:45:10,950 - __main__ - INFO - early_thd:0.01
+2023-07-20 20:45:10,950 - __main__ - INFO - start_val_epoch:100
+2023-07-20 20:45:10,950 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 20:45:10,950 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 20:45:10,950 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 20:45:10,950 - __main__ - INFO - optim:adam
+2023-07-20 20:45:10,950 - __main__ - INFO - lr:0.01
+2023-07-20 20:45:10,950 - __main__ - INFO - weight_decay:0.01
+2023-07-20 20:45:10,950 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 20:45:10,950 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 20:45:10,950 - __main__ - INFO - use_init_weight:1
+2023-07-20 20:45:10,950 - __main__ - INFO - amplify_v:1
+2023-07-20 20:45:10,950 - __main__ - INFO - amplify_con:10.0
+2023-07-20 20:45:10,950 - __main__ - INFO - freeze_a:0
+2023-07-20 20:45:10,950 - __main__ - INFO - freeze_k:0
+2023-07-20 20:45:10,950 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 20:45:10,950 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 20:45:10,950 - __main__ - INFO - mlc:10.0
+2023-07-20 20:45:10,950 - __main__ - INFO - update_memory:1
+2023-07-20 20:45:10,950 - __main__ - INFO - margin_val1:3.0
+2023-07-20 20:45:10,950 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 20:45:10,950 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 20:45:10,950 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 20:45:10,950 - __main__ - INFO - alc:1.0
+2023-07-20 20:45:10,950 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 20:45:10,950 - __main__ - INFO - freeze_model:True
+2023-07-20 20:45:10,950 - __main__ - INFO - val_metric_type:loss
+2023-07-20 20:45:10,950 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 20:45:10,951 - __main__ - INFO - use_val:1
+2023-07-20 20:45:10,951 - __main__ - INFO - Loading data
+2023-07-20 20:45:10,991 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 20:45:10,992 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 20:45:10,992 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 20:45:10,992 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 20:45:10,992 - __main__ - INFO - The size of val_data is:1
+2023-07-20 20:45:10,992 - __main__ - INFO - Creating editor and result class
+2023-07-20 20:56:35,808 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 20:56:35,808 - __main__ - INFO - task:seesaw
+2023-07-20 20:56:35,808 - __main__ - INFO - method:T-patch
+2023-07-20 20:56:35,808 - __main__ - INFO - edit_folder_num:1
+2023-07-20 20:56:35,809 - __main__ - INFO - process_folders:[0]
+2023-07-20 20:56:35,809 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 20:56:35,809 - __main__ - INFO - gpu_nums:1
+2023-07-20 20:56:35,809 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 20:56:35,809 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 20:56:35,809 - __main__ - INFO - log_name:log.txt
+2023-07-20 20:56:35,809 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 20:56:35,809 - __main__ - INFO - seed:42
+2023-07-20 20:56:35,809 - __main__ - INFO - batch_size:8
+2023-07-20 20:56:35,809 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 20:56:35,809 - __main__ - INFO - train_sub_size:10000
+2023-07-20 20:56:35,809 - __main__ - INFO - memory_size:40000
+2023-07-20 20:56:35,809 - __main__ - INFO - debug_mode:0
+2023-07-20 20:56:35,809 - __main__ - INFO - num_workers:0
+2023-07-20 20:56:35,809 - __main__ - INFO - example_repeat:1
+2023-07-20 20:56:35,809 - __main__ - INFO - temp_mode:0
+2023-07-20 20:56:35,809 - __main__ - INFO - get_heat_map:0
+2023-07-20 20:56:35,809 - __main__ - INFO - max_edit_step:2000
+2023-07-20 20:56:35,809 - __main__ - INFO - model_type:gptj
+2023-07-20 20:56:35,809 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 20:56:35,809 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 20:56:35,809 - __main__ - INFO - device:cuda:0
+2023-07-20 20:56:35,809 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 20:56:35,809 - __main__ - INFO - fold_n:0
+2023-07-20 20:56:35,809 - __main__ - INFO - early_patience:1
+2023-07-20 20:56:35,809 - __main__ - INFO - early_mode:max
+2023-07-20 20:56:35,809 - __main__ - INFO - early_thd:0.01
+2023-07-20 20:56:35,809 - __main__ - INFO - start_val_epoch:100
+2023-07-20 20:56:35,809 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 20:56:35,809 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 20:56:35,809 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 20:56:35,810 - __main__ - INFO - optim:adam
+2023-07-20 20:56:35,810 - __main__ - INFO - lr:0.01
+2023-07-20 20:56:35,810 - __main__ - INFO - weight_decay:0.01
+2023-07-20 20:56:35,810 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 20:56:35,810 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 20:56:35,810 - __main__ - INFO - use_init_weight:1
+2023-07-20 20:56:35,810 - __main__ - INFO - amplify_v:1
+2023-07-20 20:56:35,810 - __main__ - INFO - amplify_con:10.0
+2023-07-20 20:56:35,810 - __main__ - INFO - freeze_a:0
+2023-07-20 20:56:35,810 - __main__ - INFO - freeze_k:0
+2023-07-20 20:56:35,810 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 20:56:35,810 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 20:56:35,810 - __main__ - INFO - mlc:10.0
+2023-07-20 20:56:35,810 - __main__ - INFO - update_memory:1
+2023-07-20 20:56:35,810 - __main__ - INFO - margin_val1:3.0
+2023-07-20 20:56:35,810 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 20:56:35,810 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 20:56:35,810 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 20:56:35,810 - __main__ - INFO - alc:1.0
+2023-07-20 20:56:35,810 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 20:56:35,810 - __main__ - INFO - freeze_model:True
+2023-07-20 20:56:35,810 - __main__ - INFO - val_metric_type:loss
+2023-07-20 20:56:35,810 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 20:56:35,810 - __main__ - INFO - use_val:1
+2023-07-20 20:56:35,811 - __main__ - INFO - Loading data
+2023-07-20 20:56:35,853 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 20:56:35,853 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 20:56:35,853 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 20:56:35,853 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 20:56:35,853 - __main__ - INFO - The size of val_data is:1
+2023-07-20 20:56:35,853 - __main__ - INFO - Creating editor and result class
+2023-07-20 21:13:19,662 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 21:13:19,662 - __main__ - INFO - task:seesaw
+2023-07-20 21:13:19,662 - __main__ - INFO - method:T-patch
+2023-07-20 21:13:19,662 - __main__ - INFO - edit_folder_num:1
+2023-07-20 21:13:19,663 - __main__ - INFO - process_folders:[0]
+2023-07-20 21:13:19,663 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 21:13:19,663 - __main__ - INFO - gpu_nums:1
+2023-07-20 21:13:19,663 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 21:13:19,663 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 21:13:19,663 - __main__ - INFO - log_name:log.txt
+2023-07-20 21:13:19,663 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 21:13:19,663 - __main__ - INFO - seed:42
+2023-07-20 21:13:19,663 - __main__ - INFO - batch_size:8
+2023-07-20 21:13:19,663 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 21:13:19,663 - __main__ - INFO - train_sub_size:10000
+2023-07-20 21:13:19,663 - __main__ - INFO - memory_size:40000
+2023-07-20 21:13:19,663 - __main__ - INFO - debug_mode:0
+2023-07-20 21:13:19,663 - __main__ - INFO - num_workers:0
+2023-07-20 21:13:19,663 - __main__ - INFO - example_repeat:1
+2023-07-20 21:13:19,663 - __main__ - INFO - temp_mode:0
+2023-07-20 21:13:19,663 - __main__ - INFO - get_heat_map:0
+2023-07-20 21:13:19,663 - __main__ - INFO - max_edit_step:2000
+2023-07-20 21:13:19,663 - __main__ - INFO - model_type:gptj
+2023-07-20 21:13:19,663 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 21:13:19,663 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 21:13:19,663 - __main__ - INFO - device:cuda:0
+2023-07-20 21:13:19,663 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 21:13:19,663 - __main__ - INFO - fold_n:0
+2023-07-20 21:13:19,663 - __main__ - INFO - early_patience:1
+2023-07-20 21:13:19,663 - __main__ - INFO - early_mode:max
+2023-07-20 21:13:19,663 - __main__ - INFO - early_thd:0.01
+2023-07-20 21:13:19,663 - __main__ - INFO - start_val_epoch:100
+2023-07-20 21:13:19,663 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 21:13:19,664 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 21:13:19,664 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 21:13:19,664 - __main__ - INFO - optim:adam
+2023-07-20 21:13:19,664 - __main__ - INFO - lr:0.01
+2023-07-20 21:13:19,664 - __main__ - INFO - weight_decay:0.01
+2023-07-20 21:13:19,664 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 21:13:19,664 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 21:13:19,664 - __main__ - INFO - use_init_weight:1
+2023-07-20 21:13:19,664 - __main__ - INFO - amplify_v:1
+2023-07-20 21:13:19,664 - __main__ - INFO - amplify_con:10.0
+2023-07-20 21:13:19,664 - __main__ - INFO - freeze_a:0
+2023-07-20 21:13:19,664 - __main__ - INFO - freeze_k:0
+2023-07-20 21:13:19,664 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 21:13:19,664 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 21:13:19,664 - __main__ - INFO - mlc:10.0
+2023-07-20 21:13:19,664 - __main__ - INFO - update_memory:1
+2023-07-20 21:13:19,664 - __main__ - INFO - margin_val1:3.0
+2023-07-20 21:13:19,664 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 21:13:19,664 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 21:13:19,664 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 21:13:19,664 - __main__ - INFO - alc:1.0
+2023-07-20 21:13:19,664 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 21:13:19,664 - __main__ - INFO - freeze_model:True
+2023-07-20 21:13:19,664 - __main__ - INFO - val_metric_type:loss
+2023-07-20 21:13:19,664 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 21:13:19,664 - __main__ - INFO - use_val:1
+2023-07-20 21:13:19,665 - __main__ - INFO - Loading data
+2023-07-20 21:13:19,707 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 21:13:19,707 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 21:13:19,707 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 21:13:19,707 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 21:13:19,707 - __main__ - INFO - The size of val_data is:1
+2023-07-20 21:13:19,707 - __main__ - INFO - Creating editor and result class
+2023-07-20 21:25:51,605 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 21:25:51,605 - __main__ - INFO - task:seesaw
+2023-07-20 21:25:51,605 - __main__ - INFO - method:T-patch
+2023-07-20 21:25:51,605 - __main__ - INFO - edit_folder_num:1
+2023-07-20 21:25:51,605 - __main__ - INFO - process_folders:[0]
+2023-07-20 21:25:51,605 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 21:25:51,605 - __main__ - INFO - gpu_nums:1
+2023-07-20 21:25:51,605 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 21:25:51,605 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 21:25:51,605 - __main__ - INFO - log_name:log.txt
+2023-07-20 21:25:51,605 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 21:25:51,605 - __main__ - INFO - seed:42
+2023-07-20 21:25:51,605 - __main__ - INFO - batch_size:8
+2023-07-20 21:25:51,605 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 21:25:51,605 - __main__ - INFO - train_sub_size:10000
+2023-07-20 21:25:51,605 - __main__ - INFO - memory_size:40000
+2023-07-20 21:25:51,605 - __main__ - INFO - debug_mode:0
+2023-07-20 21:25:51,605 - __main__ - INFO - num_workers:0
+2023-07-20 21:25:51,605 - __main__ - INFO - example_repeat:1
+2023-07-20 21:25:51,605 - __main__ - INFO - temp_mode:0
+2023-07-20 21:25:51,605 - __main__ - INFO - get_heat_map:0
+2023-07-20 21:25:51,606 - __main__ - INFO - max_edit_step:2000
+2023-07-20 21:25:51,606 - __main__ - INFO - model_type:gptj
+2023-07-20 21:25:51,606 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 21:25:51,606 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 21:25:51,606 - __main__ - INFO - device:cuda:0
+2023-07-20 21:25:51,606 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 21:25:51,606 - __main__ - INFO - fold_n:0
+2023-07-20 21:25:51,606 - __main__ - INFO - early_patience:1
+2023-07-20 21:25:51,606 - __main__ - INFO - early_mode:max
+2023-07-20 21:25:51,606 - __main__ - INFO - early_thd:0.01
+2023-07-20 21:25:51,606 - __main__ - INFO - start_val_epoch:100
+2023-07-20 21:25:51,606 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 21:25:51,606 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 21:25:51,606 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 21:25:51,606 - __main__ - INFO - optim:adam
+2023-07-20 21:25:51,606 - __main__ - INFO - lr:0.01
+2023-07-20 21:25:51,606 - __main__ - INFO - weight_decay:0.01
+2023-07-20 21:25:51,606 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 21:25:51,606 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 21:25:51,606 - __main__ - INFO - use_init_weight:1
+2023-07-20 21:25:51,606 - __main__ - INFO - amplify_v:1
+2023-07-20 21:25:51,606 - __main__ - INFO - amplify_con:10.0
+2023-07-20 21:25:51,606 - __main__ - INFO - freeze_a:0
+2023-07-20 21:25:51,606 - __main__ - INFO - freeze_k:0
+2023-07-20 21:25:51,606 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 21:25:51,606 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 21:25:51,606 - __main__ - INFO - mlc:10.0
+2023-07-20 21:25:51,606 - __main__ - INFO - update_memory:1
+2023-07-20 21:25:51,606 - __main__ - INFO - margin_val1:3.0
+2023-07-20 21:25:51,606 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 21:25:51,607 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 21:25:51,607 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 21:25:51,607 - __main__ - INFO - alc:1.0
+2023-07-20 21:25:51,607 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 21:25:51,607 - __main__ - INFO - freeze_model:True
+2023-07-20 21:25:51,607 - __main__ - INFO - val_metric_type:loss
+2023-07-20 21:25:51,607 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 21:25:51,607 - __main__ - INFO - use_val:1
+2023-07-20 21:25:51,607 - __main__ - INFO - Loading data
+2023-07-20 21:25:51,651 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 21:25:51,651 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 21:25:51,651 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 21:25:51,651 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 21:25:51,651 - __main__ - INFO - The size of val_data is:1
+2023-07-20 21:25:51,651 - __main__ - INFO - Creating editor and result class
+2023-07-20 21:28:23,137 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 21:28:23,137 - __main__ - INFO - task:seesaw
+2023-07-20 21:28:23,137 - __main__ - INFO - method:T-patch
+2023-07-20 21:28:23,137 - __main__ - INFO - edit_folder_num:1
+2023-07-20 21:28:23,137 - __main__ - INFO - process_folders:[0]
+2023-07-20 21:28:23,137 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 21:28:23,137 - __main__ - INFO - gpu_nums:1
+2023-07-20 21:28:23,137 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 21:28:23,137 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 21:28:23,137 - __main__ - INFO - log_name:log.txt
+2023-07-20 21:28:23,137 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 21:28:23,137 - __main__ - INFO - seed:42
+2023-07-20 21:28:23,137 - __main__ - INFO - batch_size:8
+2023-07-20 21:28:23,137 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 21:28:23,137 - __main__ - INFO - train_sub_size:10000
+2023-07-20 21:28:23,137 - __main__ - INFO - memory_size:40000
+2023-07-20 21:28:23,137 - __main__ - INFO - debug_mode:0
+2023-07-20 21:28:23,137 - __main__ - INFO - num_workers:0
+2023-07-20 21:28:23,137 - __main__ - INFO - example_repeat:1
+2023-07-20 21:28:23,137 - __main__ - INFO - temp_mode:0
+2023-07-20 21:28:23,137 - __main__ - INFO - get_heat_map:0
+2023-07-20 21:28:23,137 - __main__ - INFO - max_edit_step:2000
+2023-07-20 21:28:23,137 - __main__ - INFO - model_type:gptj
+2023-07-20 21:28:23,138 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 21:28:23,138 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 21:28:23,138 - __main__ - INFO - device:cuda:0
+2023-07-20 21:28:23,138 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 21:28:23,138 - __main__ - INFO - fold_n:0
+2023-07-20 21:28:23,138 - __main__ - INFO - early_patience:1
+2023-07-20 21:28:23,138 - __main__ - INFO - early_mode:max
+2023-07-20 21:28:23,138 - __main__ - INFO - early_thd:0.01
+2023-07-20 21:28:23,138 - __main__ - INFO - start_val_epoch:100
+2023-07-20 21:28:23,138 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 21:28:23,138 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 21:28:23,138 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 21:28:23,138 - __main__ - INFO - optim:adam
+2023-07-20 21:28:23,138 - __main__ - INFO - lr:0.01
+2023-07-20 21:28:23,138 - __main__ - INFO - weight_decay:0.01
+2023-07-20 21:28:23,138 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 21:28:23,138 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 21:28:23,138 - __main__ - INFO - use_init_weight:1
+2023-07-20 21:28:23,138 - __main__ - INFO - amplify_v:1
+2023-07-20 21:28:23,138 - __main__ - INFO - amplify_con:10.0
+2023-07-20 21:28:23,138 - __main__ - INFO - freeze_a:0
+2023-07-20 21:28:23,138 - __main__ - INFO - freeze_k:0
+2023-07-20 21:28:23,138 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 21:28:23,138 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 21:28:23,138 - __main__ - INFO - mlc:10.0
+2023-07-20 21:28:23,138 - __main__ - INFO - update_memory:1
+2023-07-20 21:28:23,138 - __main__ - INFO - margin_val1:3.0
+2023-07-20 21:28:23,138 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 21:28:23,138 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 21:28:23,138 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 21:28:23,139 - __main__ - INFO - alc:1.0
+2023-07-20 21:28:23,139 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 21:28:23,139 - __main__ - INFO - freeze_model:True
+2023-07-20 21:28:23,139 - __main__ - INFO - val_metric_type:loss
+2023-07-20 21:28:23,139 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 21:28:23,139 - __main__ - INFO - use_val:1
+2023-07-20 21:28:23,139 - __main__ - INFO - Loading data
+2023-07-20 21:28:23,181 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 21:28:23,181 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 21:28:23,181 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 21:28:23,181 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 21:28:23,181 - __main__ - INFO - The size of val_data is:1
+2023-07-20 21:28:23,182 - __main__ - INFO - Creating editor and result class
+2023-07-20 21:40:30,388 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 21:40:30,388 - __main__ - INFO - task:seesaw
+2023-07-20 21:40:30,388 - __main__ - INFO - method:T-patch
+2023-07-20 21:40:30,388 - __main__ - INFO - edit_folder_num:1
+2023-07-20 21:40:30,388 - __main__ - INFO - process_folders:[0]
+2023-07-20 21:40:30,388 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 21:40:30,388 - __main__ - INFO - gpu_nums:1
+2023-07-20 21:40:30,388 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 21:40:30,388 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 21:40:30,388 - __main__ - INFO - log_name:log.txt
+2023-07-20 21:40:30,388 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 21:40:30,388 - __main__ - INFO - seed:42
+2023-07-20 21:40:30,388 - __main__ - INFO - batch_size:8
+2023-07-20 21:40:30,388 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 21:40:30,388 - __main__ - INFO - train_sub_size:10000
+2023-07-20 21:40:30,388 - __main__ - INFO - memory_size:40000
+2023-07-20 21:40:30,388 - __main__ - INFO - debug_mode:0
+2023-07-20 21:40:30,388 - __main__ - INFO - num_workers:0
+2023-07-20 21:40:30,388 - __main__ - INFO - example_repeat:1
+2023-07-20 21:40:30,388 - __main__ - INFO - temp_mode:0
+2023-07-20 21:40:30,388 - __main__ - INFO - get_heat_map:0
+2023-07-20 21:40:30,388 - __main__ - INFO - max_edit_step:2000
+2023-07-20 21:40:30,388 - __main__ - INFO - model_type:gptj
+2023-07-20 21:40:30,388 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 21:40:30,388 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 21:40:30,389 - __main__ - INFO - device:cuda:0
+2023-07-20 21:40:30,389 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 21:40:30,389 - __main__ - INFO - fold_n:0
+2023-07-20 21:40:30,389 - __main__ - INFO - early_patience:1
+2023-07-20 21:40:30,389 - __main__ - INFO - early_mode:max
+2023-07-20 21:40:30,389 - __main__ - INFO - early_thd:0.01
+2023-07-20 21:40:30,389 - __main__ - INFO - start_val_epoch:100
+2023-07-20 21:40:30,389 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 21:40:30,389 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 21:40:30,389 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 21:40:30,389 - __main__ - INFO - optim:adam
+2023-07-20 21:40:30,389 - __main__ - INFO - lr:0.01
+2023-07-20 21:40:30,389 - __main__ - INFO - weight_decay:0.01
+2023-07-20 21:40:30,389 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 21:40:30,389 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 21:40:30,389 - __main__ - INFO - use_init_weight:1
+2023-07-20 21:40:30,389 - __main__ - INFO - amplify_v:1
+2023-07-20 21:40:30,389 - __main__ - INFO - amplify_con:10.0
+2023-07-20 21:40:30,389 - __main__ - INFO - freeze_a:0
+2023-07-20 21:40:30,389 - __main__ - INFO - freeze_k:0
+2023-07-20 21:40:30,389 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 21:40:30,389 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 21:40:30,389 - __main__ - INFO - mlc:10.0
+2023-07-20 21:40:30,389 - __main__ - INFO - update_memory:1
+2023-07-20 21:40:30,389 - __main__ - INFO - margin_val1:3.0
+2023-07-20 21:40:30,389 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 21:40:30,389 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 21:40:30,389 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 21:40:30,389 - __main__ - INFO - alc:1.0
+2023-07-20 21:40:30,389 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 21:40:30,389 - __main__ - INFO - freeze_model:True
+2023-07-20 21:40:30,390 - __main__ - INFO - val_metric_type:loss
+2023-07-20 21:40:30,390 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 21:40:30,390 - __main__ - INFO - use_val:1
+2023-07-20 21:40:30,390 - __main__ - INFO - Loading data
+2023-07-20 21:40:30,432 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 21:40:30,432 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 21:40:30,432 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 21:40:30,432 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 21:40:30,432 - __main__ - INFO - The size of val_data is:1
+2023-07-20 21:40:30,432 - __main__ - INFO - Creating editor and result class
+2023-07-20 21:41:53,715 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 21:44:10,729 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 21:44:10,729 - __main__ - INFO - task:seesaw
+2023-07-20 21:44:10,729 - __main__ - INFO - method:T-patch
+2023-07-20 21:44:10,729 - __main__ - INFO - edit_folder_num:1
+2023-07-20 21:44:10,729 - __main__ - INFO - process_folders:[0]
+2023-07-20 21:44:10,729 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 21:44:10,729 - __main__ - INFO - gpu_nums:1
+2023-07-20 21:44:10,729 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 21:44:10,729 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 21:44:10,729 - __main__ - INFO - log_name:log.txt
+2023-07-20 21:44:10,729 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 21:44:10,729 - __main__ - INFO - seed:42
+2023-07-20 21:44:10,729 - __main__ - INFO - batch_size:8
+2023-07-20 21:44:10,730 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 21:44:10,730 - __main__ - INFO - train_sub_size:10000
+2023-07-20 21:44:10,730 - __main__ - INFO - memory_size:40000
+2023-07-20 21:44:10,730 - __main__ - INFO - debug_mode:0
+2023-07-20 21:44:10,730 - __main__ - INFO - num_workers:0
+2023-07-20 21:44:10,730 - __main__ - INFO - example_repeat:1
+2023-07-20 21:44:10,730 - __main__ - INFO - temp_mode:0
+2023-07-20 21:44:10,730 - __main__ - INFO - get_heat_map:0
+2023-07-20 21:44:10,730 - __main__ - INFO - max_edit_step:2000
+2023-07-20 21:44:10,730 - __main__ - INFO - model_type:gptj
+2023-07-20 21:44:10,730 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 21:44:10,730 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 21:44:10,730 - __main__ - INFO - device:cuda:0
+2023-07-20 21:44:10,730 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 21:44:10,730 - __main__ - INFO - fold_n:0
+2023-07-20 21:44:10,730 - __main__ - INFO - early_patience:1
+2023-07-20 21:44:10,730 - __main__ - INFO - early_mode:max
+2023-07-20 21:44:10,730 - __main__ - INFO - early_thd:0.01
+2023-07-20 21:44:10,730 - __main__ - INFO - start_val_epoch:100
+2023-07-20 21:44:10,730 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 21:44:10,730 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 21:44:10,730 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 21:44:10,730 - __main__ - INFO - optim:adam
+2023-07-20 21:44:10,730 - __main__ - INFO - lr:0.01
+2023-07-20 21:44:10,730 - __main__ - INFO - weight_decay:0.01
+2023-07-20 21:44:10,730 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 21:44:10,730 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 21:44:10,730 - __main__ - INFO - use_init_weight:1
+2023-07-20 21:44:10,730 - __main__ - INFO - amplify_v:1
+2023-07-20 21:44:10,730 - __main__ - INFO - amplify_con:10.0
+2023-07-20 21:44:10,730 - __main__ - INFO - freeze_a:0
+2023-07-20 21:44:10,730 - __main__ - INFO - freeze_k:0
+2023-07-20 21:44:10,730 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 21:44:10,730 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 21:44:10,731 - __main__ - INFO - mlc:10.0
+2023-07-20 21:44:10,731 - __main__ - INFO - update_memory:1
+2023-07-20 21:44:10,731 - __main__ - INFO - margin_val1:3.0
+2023-07-20 21:44:10,731 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 21:44:10,731 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 21:44:10,731 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 21:44:10,731 - __main__ - INFO - alc:1.0
+2023-07-20 21:44:10,731 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 21:44:10,731 - __main__ - INFO - freeze_model:True
+2023-07-20 21:44:10,731 - __main__ - INFO - val_metric_type:loss
+2023-07-20 21:44:10,731 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 21:44:10,731 - __main__ - INFO - use_val:1
+2023-07-20 21:44:10,731 - __main__ - INFO - Loading data
+2023-07-20 21:44:10,773 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 21:44:10,774 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 21:44:10,774 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 21:44:10,774 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 21:44:10,774 - __main__ - INFO - The size of val_data is:1
+2023-07-20 21:44:10,774 - __main__ - INFO - Creating editor and result class
+2023-07-20 21:45:27,187 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 21:45:27,657 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 21:45:27,657 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 21:45:27,657 - __main__ - INFO - 
+
+
+2023-07-20 21:51:05,613 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 21:51:05,613 - __main__ - INFO - task:seesaw
+2023-07-20 21:51:05,613 - __main__ - INFO - method:T-patch
+2023-07-20 21:51:05,613 - __main__ - INFO - edit_folder_num:1
+2023-07-20 21:51:05,613 - __main__ - INFO - process_folders:[0]
+2023-07-20 21:51:05,613 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 21:51:05,614 - __main__ - INFO - gpu_nums:1
+2023-07-20 21:51:05,614 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 21:51:05,614 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 21:51:05,614 - __main__ - INFO - log_name:log.txt
+2023-07-20 21:51:05,614 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 21:51:05,614 - __main__ - INFO - seed:42
+2023-07-20 21:51:05,614 - __main__ - INFO - batch_size:8
+2023-07-20 21:51:05,614 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 21:51:05,614 - __main__ - INFO - train_sub_size:10000
+2023-07-20 21:51:05,614 - __main__ - INFO - memory_size:40000
+2023-07-20 21:51:05,614 - __main__ - INFO - debug_mode:0
+2023-07-20 21:51:05,614 - __main__ - INFO - num_workers:0
+2023-07-20 21:51:05,614 - __main__ - INFO - example_repeat:1
+2023-07-20 21:51:05,614 - __main__ - INFO - temp_mode:0
+2023-07-20 21:51:05,614 - __main__ - INFO - get_heat_map:0
+2023-07-20 21:51:05,614 - __main__ - INFO - max_edit_step:2000
+2023-07-20 21:51:05,614 - __main__ - INFO - model_type:gptj
+2023-07-20 21:51:05,614 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 21:51:05,614 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 21:51:05,614 - __main__ - INFO - device:cuda:0
+2023-07-20 21:51:05,614 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 21:51:05,614 - __main__ - INFO - fold_n:0
+2023-07-20 21:51:05,614 - __main__ - INFO - early_patience:1
+2023-07-20 21:51:05,614 - __main__ - INFO - early_mode:max
+2023-07-20 21:51:05,614 - __main__ - INFO - early_thd:0.01
+2023-07-20 21:51:05,614 - __main__ - INFO - start_val_epoch:100
+2023-07-20 21:51:05,614 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 21:51:05,614 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 21:51:05,614 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 21:51:05,614 - __main__ - INFO - optim:adam
+2023-07-20 21:51:05,615 - __main__ - INFO - lr:0.01
+2023-07-20 21:51:05,615 - __main__ - INFO - weight_decay:0.01
+2023-07-20 21:51:05,615 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 21:51:05,615 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 21:51:05,615 - __main__ - INFO - use_init_weight:1
+2023-07-20 21:51:05,615 - __main__ - INFO - amplify_v:1
+2023-07-20 21:51:05,615 - __main__ - INFO - amplify_con:10.0
+2023-07-20 21:51:05,615 - __main__ - INFO - freeze_a:0
+2023-07-20 21:51:05,615 - __main__ - INFO - freeze_k:0
+2023-07-20 21:51:05,615 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 21:51:05,615 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 21:51:05,615 - __main__ - INFO - mlc:10.0
+2023-07-20 21:51:05,615 - __main__ - INFO - update_memory:1
+2023-07-20 21:51:05,615 - __main__ - INFO - margin_val1:3.0
+2023-07-20 21:51:05,615 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 21:51:05,615 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 21:51:05,615 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 21:51:05,615 - __main__ - INFO - alc:1.0
+2023-07-20 21:51:05,615 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 21:51:05,615 - __main__ - INFO - freeze_model:True
+2023-07-20 21:51:05,615 - __main__ - INFO - val_metric_type:loss
+2023-07-20 21:51:05,615 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 21:51:05,615 - __main__ - INFO - use_val:1
+2023-07-20 21:51:05,616 - __main__ - INFO - Loading data
+2023-07-20 21:51:05,659 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 21:51:05,659 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 21:51:05,659 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 21:51:05,659 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 21:51:05,659 - __main__ - INFO - The size of val_data is:1
+2023-07-20 21:51:05,659 - __main__ - INFO - Creating editor and result class
+2023-07-20 21:52:27,296 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 21:52:27,807 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 21:52:27,807 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 21:52:27,807 - __main__ - INFO - 
+
+
+2023-07-20 21:55:15,126 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 21:55:15,126 - __main__ - INFO - task:seesaw
+2023-07-20 21:55:15,126 - __main__ - INFO - method:T-patch
+2023-07-20 21:55:15,126 - __main__ - INFO - edit_folder_num:1
+2023-07-20 21:55:15,126 - __main__ - INFO - process_folders:[0]
+2023-07-20 21:55:15,126 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 21:55:15,126 - __main__ - INFO - gpu_nums:1
+2023-07-20 21:55:15,126 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 21:55:15,126 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 21:55:15,126 - __main__ - INFO - log_name:log.txt
+2023-07-20 21:55:15,126 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 21:55:15,126 - __main__ - INFO - seed:42
+2023-07-20 21:55:15,126 - __main__ - INFO - batch_size:8
+2023-07-20 21:55:15,126 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 21:55:15,126 - __main__ - INFO - train_sub_size:10000
+2023-07-20 21:55:15,126 - __main__ - INFO - memory_size:40000
+2023-07-20 21:55:15,127 - __main__ - INFO - debug_mode:0
+2023-07-20 21:55:15,127 - __main__ - INFO - num_workers:0
+2023-07-20 21:55:15,127 - __main__ - INFO - example_repeat:1
+2023-07-20 21:55:15,127 - __main__ - INFO - temp_mode:0
+2023-07-20 21:55:15,127 - __main__ - INFO - get_heat_map:0
+2023-07-20 21:55:15,127 - __main__ - INFO - max_edit_step:2000
+2023-07-20 21:55:15,127 - __main__ - INFO - model_type:gptj
+2023-07-20 21:55:15,127 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 21:55:15,127 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 21:55:15,127 - __main__ - INFO - device:cuda:0
+2023-07-20 21:55:15,127 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 21:55:15,127 - __main__ - INFO - fold_n:0
+2023-07-20 21:55:15,127 - __main__ - INFO - early_patience:1
+2023-07-20 21:55:15,127 - __main__ - INFO - early_mode:max
+2023-07-20 21:55:15,127 - __main__ - INFO - early_thd:0.01
+2023-07-20 21:55:15,127 - __main__ - INFO - start_val_epoch:100
+2023-07-20 21:55:15,127 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 21:55:15,127 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 21:55:15,127 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 21:55:15,127 - __main__ - INFO - optim:adam
+2023-07-20 21:55:15,127 - __main__ - INFO - lr:0.01
+2023-07-20 21:55:15,127 - __main__ - INFO - weight_decay:0.01
+2023-07-20 21:55:15,127 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 21:55:15,127 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 21:55:15,127 - __main__ - INFO - use_init_weight:1
+2023-07-20 21:55:15,127 - __main__ - INFO - amplify_v:1
+2023-07-20 21:55:15,127 - __main__ - INFO - amplify_con:10.0
+2023-07-20 21:55:15,127 - __main__ - INFO - freeze_a:0
+2023-07-20 21:55:15,127 - __main__ - INFO - freeze_k:0
+2023-07-20 21:55:15,127 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 21:55:15,127 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 21:55:15,127 - __main__ - INFO - mlc:10.0
+2023-07-20 21:55:15,128 - __main__ - INFO - update_memory:1
+2023-07-20 21:55:15,128 - __main__ - INFO - margin_val1:3.0
+2023-07-20 21:55:15,128 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 21:55:15,128 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 21:55:15,128 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 21:55:15,128 - __main__ - INFO - alc:1.0
+2023-07-20 21:55:15,128 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 21:55:15,128 - __main__ - INFO - freeze_model:True
+2023-07-20 21:55:15,128 - __main__ - INFO - val_metric_type:loss
+2023-07-20 21:55:15,128 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 21:55:15,128 - __main__ - INFO - use_val:1
+2023-07-20 21:55:15,128 - __main__ - INFO - Loading data
+2023-07-20 21:55:15,172 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 21:55:15,172 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 21:55:15,172 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 21:55:15,172 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 21:55:15,172 - __main__ - INFO - The size of val_data is:1
+2023-07-20 21:55:15,172 - __main__ - INFO - Creating editor and result class
+2023-07-20 21:56:34,922 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 21:56:35,391 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 21:56:35,391 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 21:56:35,391 - __main__ - INFO - 
+
+
+2023-07-20 22:06:37,034 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:06:37,034 - __main__ - INFO - task:seesaw
+2023-07-20 22:06:37,034 - __main__ - INFO - method:T-patch
+2023-07-20 22:06:37,034 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:06:37,034 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:06:37,034 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:06:37,034 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:06:37,034 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:06:37,034 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:06:37,034 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:06:37,034 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:06:37,034 - __main__ - INFO - seed:42
+2023-07-20 22:06:37,034 - __main__ - INFO - batch_size:8
+2023-07-20 22:06:37,034 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:06:37,034 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:06:37,034 - __main__ - INFO - memory_size:40000
+2023-07-20 22:06:37,034 - __main__ - INFO - debug_mode:0
+2023-07-20 22:06:37,034 - __main__ - INFO - num_workers:0
+2023-07-20 22:06:37,034 - __main__ - INFO - example_repeat:1
+2023-07-20 22:06:37,034 - __main__ - INFO - temp_mode:0
+2023-07-20 22:06:37,034 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:06:37,034 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:06:37,035 - __main__ - INFO - model_type:gptj
+2023-07-20 22:06:37,035 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:06:37,035 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:06:37,035 - __main__ - INFO - device:cuda:0
+2023-07-20 22:06:37,035 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:06:37,035 - __main__ - INFO - fold_n:0
+2023-07-20 22:06:37,035 - __main__ - INFO - early_patience:1
+2023-07-20 22:06:37,035 - __main__ - INFO - early_mode:max
+2023-07-20 22:06:37,035 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:06:37,035 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:06:37,035 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:06:37,035 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:06:37,035 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:06:37,035 - __main__ - INFO - optim:adam
+2023-07-20 22:06:37,035 - __main__ - INFO - lr:0.01
+2023-07-20 22:06:37,035 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:06:37,035 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:06:37,035 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:06:37,035 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:06:37,035 - __main__ - INFO - amplify_v:1
+2023-07-20 22:06:37,035 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:06:37,035 - __main__ - INFO - freeze_a:0
+2023-07-20 22:06:37,035 - __main__ - INFO - freeze_k:0
+2023-07-20 22:06:37,035 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:06:37,035 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:06:37,035 - __main__ - INFO - mlc:10.0
+2023-07-20 22:06:37,035 - __main__ - INFO - update_memory:1
+2023-07-20 22:06:37,035 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:06:37,035 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:06:37,036 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:06:37,036 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:06:37,036 - __main__ - INFO - alc:1.0
+2023-07-20 22:06:37,036 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:06:37,036 - __main__ - INFO - freeze_model:True
+2023-07-20 22:06:37,036 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:06:37,036 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:06:37,036 - __main__ - INFO - use_val:1
+2023-07-20 22:06:37,036 - __main__ - INFO - Loading data
+2023-07-20 22:06:37,079 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:06:37,080 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:06:37,080 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:06:37,080 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:06:37,080 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:06:37,080 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:07:58,535 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:07:59,058 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:07:59,059 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:07:59,059 - __main__ - INFO - 
+
+
+2023-07-20 22:10:03,255 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:10:03,255 - __main__ - INFO - task:seesaw
+2023-07-20 22:10:03,255 - __main__ - INFO - method:T-patch
+2023-07-20 22:10:03,255 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:10:03,255 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:10:03,255 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:10:03,255 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:10:03,255 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:10:03,255 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:10:03,255 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:10:03,255 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:10:03,255 - __main__ - INFO - seed:42
+2023-07-20 22:10:03,255 - __main__ - INFO - batch_size:8
+2023-07-20 22:10:03,255 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:10:03,256 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:10:03,256 - __main__ - INFO - memory_size:40000
+2023-07-20 22:10:03,256 - __main__ - INFO - debug_mode:0
+2023-07-20 22:10:03,256 - __main__ - INFO - num_workers:0
+2023-07-20 22:10:03,256 - __main__ - INFO - example_repeat:1
+2023-07-20 22:10:03,256 - __main__ - INFO - temp_mode:0
+2023-07-20 22:10:03,256 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:10:03,256 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:10:03,256 - __main__ - INFO - model_type:gptj
+2023-07-20 22:10:03,256 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:10:03,256 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:10:03,256 - __main__ - INFO - device:cuda:0
+2023-07-20 22:10:03,256 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:10:03,256 - __main__ - INFO - fold_n:0
+2023-07-20 22:10:03,256 - __main__ - INFO - early_patience:1
+2023-07-20 22:10:03,256 - __main__ - INFO - early_mode:max
+2023-07-20 22:10:03,256 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:10:03,256 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:10:03,256 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:10:03,256 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:10:03,256 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:10:03,256 - __main__ - INFO - optim:adam
+2023-07-20 22:10:03,256 - __main__ - INFO - lr:0.01
+2023-07-20 22:10:03,256 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:10:03,256 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:10:03,256 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:10:03,256 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:10:03,256 - __main__ - INFO - amplify_v:1
+2023-07-20 22:10:03,256 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:10:03,256 - __main__ - INFO - freeze_a:0
+2023-07-20 22:10:03,256 - __main__ - INFO - freeze_k:0
+2023-07-20 22:10:03,257 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:10:03,257 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:10:03,257 - __main__ - INFO - mlc:10.0
+2023-07-20 22:10:03,257 - __main__ - INFO - update_memory:1
+2023-07-20 22:10:03,257 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:10:03,257 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:10:03,257 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:10:03,257 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:10:03,257 - __main__ - INFO - alc:1.0
+2023-07-20 22:10:03,257 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:10:03,257 - __main__ - INFO - freeze_model:True
+2023-07-20 22:10:03,257 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:10:03,257 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:10:03,257 - __main__ - INFO - use_val:1
+2023-07-20 22:10:03,258 - __main__ - INFO - Loading data
+2023-07-20 22:10:03,300 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:10:03,300 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:10:03,300 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:10:03,300 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:10:03,301 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:10:03,301 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:11:24,265 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:11:24,757 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:11:24,757 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:11:24,757 - __main__ - INFO - 
+
+
+2023-07-20 22:12:56,279 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:12:56,279 - __main__ - INFO - task:seesaw
+2023-07-20 22:12:56,279 - __main__ - INFO - method:T-patch
+2023-07-20 22:12:56,279 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:12:56,279 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:12:56,279 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:12:56,279 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:12:56,279 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:12:56,279 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:12:56,279 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:12:56,279 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:12:56,279 - __main__ - INFO - seed:42
+2023-07-20 22:12:56,279 - __main__ - INFO - batch_size:8
+2023-07-20 22:12:56,280 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:12:56,280 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:12:56,280 - __main__ - INFO - memory_size:40000
+2023-07-20 22:12:56,280 - __main__ - INFO - debug_mode:0
+2023-07-20 22:12:56,280 - __main__ - INFO - num_workers:0
+2023-07-20 22:12:56,280 - __main__ - INFO - example_repeat:1
+2023-07-20 22:12:56,280 - __main__ - INFO - temp_mode:0
+2023-07-20 22:12:56,280 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:12:56,280 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:12:56,280 - __main__ - INFO - model_type:gptj
+2023-07-20 22:12:56,280 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:12:56,280 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:12:56,280 - __main__ - INFO - device:cuda:0
+2023-07-20 22:12:56,280 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:12:56,280 - __main__ - INFO - fold_n:0
+2023-07-20 22:12:56,280 - __main__ - INFO - early_patience:1
+2023-07-20 22:12:56,280 - __main__ - INFO - early_mode:max
+2023-07-20 22:12:56,280 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:12:56,280 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:12:56,280 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:12:56,280 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:12:56,280 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:12:56,280 - __main__ - INFO - optim:adam
+2023-07-20 22:12:56,280 - __main__ - INFO - lr:0.01
+2023-07-20 22:12:56,280 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:12:56,280 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:12:56,280 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:12:56,280 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:12:56,280 - __main__ - INFO - amplify_v:1
+2023-07-20 22:12:56,280 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:12:56,280 - __main__ - INFO - freeze_a:0
+2023-07-20 22:12:56,281 - __main__ - INFO - freeze_k:0
+2023-07-20 22:12:56,281 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:12:56,281 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:12:56,281 - __main__ - INFO - mlc:10.0
+2023-07-20 22:12:56,281 - __main__ - INFO - update_memory:1
+2023-07-20 22:12:56,281 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:12:56,281 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:12:56,281 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:12:56,281 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:12:56,281 - __main__ - INFO - alc:1.0
+2023-07-20 22:12:56,281 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:12:56,281 - __main__ - INFO - freeze_model:True
+2023-07-20 22:12:56,281 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:12:56,281 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:12:56,281 - __main__ - INFO - use_val:1
+2023-07-20 22:12:56,282 - __main__ - INFO - Loading data
+2023-07-20 22:12:56,324 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:12:56,325 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:12:56,325 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:12:56,325 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:12:56,325 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:12:56,325 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:14:15,795 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:14:16,313 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:14:16,313 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:14:16,313 - __main__ - INFO - 
+
+
+2023-07-20 22:17:06,562 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:17:06,562 - __main__ - INFO - task:seesaw
+2023-07-20 22:17:06,562 - __main__ - INFO - method:T-patch
+2023-07-20 22:17:06,562 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:17:06,562 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:17:06,562 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:17:06,562 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:17:06,562 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:17:06,562 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:17:06,562 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:17:06,562 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:17:06,562 - __main__ - INFO - seed:42
+2023-07-20 22:17:06,562 - __main__ - INFO - batch_size:8
+2023-07-20 22:17:06,562 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:17:06,562 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:17:06,562 - __main__ - INFO - memory_size:40000
+2023-07-20 22:17:06,562 - __main__ - INFO - debug_mode:0
+2023-07-20 22:17:06,562 - __main__ - INFO - num_workers:0
+2023-07-20 22:17:06,563 - __main__ - INFO - example_repeat:1
+2023-07-20 22:17:06,563 - __main__ - INFO - temp_mode:0
+2023-07-20 22:17:06,563 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:17:06,563 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:17:06,563 - __main__ - INFO - model_type:gptj
+2023-07-20 22:17:06,563 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:17:06,563 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:17:06,563 - __main__ - INFO - device:cuda:0
+2023-07-20 22:17:06,563 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:17:06,563 - __main__ - INFO - fold_n:0
+2023-07-20 22:17:06,563 - __main__ - INFO - early_patience:1
+2023-07-20 22:17:06,563 - __main__ - INFO - early_mode:max
+2023-07-20 22:17:06,563 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:17:06,563 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:17:06,563 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:17:06,563 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:17:06,563 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:17:06,563 - __main__ - INFO - optim:adam
+2023-07-20 22:17:06,563 - __main__ - INFO - lr:0.01
+2023-07-20 22:17:06,563 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:17:06,563 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:17:06,563 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:17:06,563 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:17:06,563 - __main__ - INFO - amplify_v:1
+2023-07-20 22:17:06,563 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:17:06,563 - __main__ - INFO - freeze_a:0
+2023-07-20 22:17:06,563 - __main__ - INFO - freeze_k:0
+2023-07-20 22:17:06,563 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:17:06,563 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:17:06,563 - __main__ - INFO - mlc:10.0
+2023-07-20 22:17:06,564 - __main__ - INFO - update_memory:1
+2023-07-20 22:17:06,564 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:17:06,564 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:17:06,564 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:17:06,564 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:17:06,564 - __main__ - INFO - alc:1.0
+2023-07-20 22:17:06,564 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:17:06,564 - __main__ - INFO - freeze_model:True
+2023-07-20 22:17:06,564 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:17:06,564 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:17:06,564 - __main__ - INFO - use_val:1
+2023-07-20 22:17:06,564 - __main__ - INFO - Loading data
+2023-07-20 22:17:06,607 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:17:06,607 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:17:06,607 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:17:06,607 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:17:06,607 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:17:06,607 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:18:26,656 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:18:27,184 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:18:27,185 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:18:27,185 - __main__ - INFO - 
+
+
+2023-07-20 22:19:53,441 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:19:53,441 - __main__ - INFO - task:seesaw
+2023-07-20 22:19:53,441 - __main__ - INFO - method:T-patch
+2023-07-20 22:19:53,441 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:19:53,441 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:19:53,441 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:19:53,441 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:19:53,441 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:19:53,441 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:19:53,441 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:19:53,441 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:19:53,441 - __main__ - INFO - seed:42
+2023-07-20 22:19:53,441 - __main__ - INFO - batch_size:8
+2023-07-20 22:19:53,441 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:19:53,441 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:19:53,441 - __main__ - INFO - memory_size:40000
+2023-07-20 22:19:53,441 - __main__ - INFO - debug_mode:0
+2023-07-20 22:19:53,441 - __main__ - INFO - num_workers:0
+2023-07-20 22:19:53,441 - __main__ - INFO - example_repeat:1
+2023-07-20 22:19:53,441 - __main__ - INFO - temp_mode:0
+2023-07-20 22:19:53,442 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:19:53,442 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:19:53,442 - __main__ - INFO - model_type:gptj
+2023-07-20 22:19:53,442 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:19:53,442 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:19:53,442 - __main__ - INFO - device:cuda:0
+2023-07-20 22:19:53,442 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:19:53,442 - __main__ - INFO - fold_n:0
+2023-07-20 22:19:53,442 - __main__ - INFO - early_patience:1
+2023-07-20 22:19:53,442 - __main__ - INFO - early_mode:max
+2023-07-20 22:19:53,442 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:19:53,442 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:19:53,442 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:19:53,442 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:19:53,442 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:19:53,442 - __main__ - INFO - optim:adam
+2023-07-20 22:19:53,442 - __main__ - INFO - lr:0.01
+2023-07-20 22:19:53,442 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:19:53,442 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:19:53,442 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:19:53,442 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:19:53,442 - __main__ - INFO - amplify_v:1
+2023-07-20 22:19:53,442 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:19:53,442 - __main__ - INFO - freeze_a:0
+2023-07-20 22:19:53,442 - __main__ - INFO - freeze_k:0
+2023-07-20 22:19:53,442 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:19:53,442 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:19:53,442 - __main__ - INFO - mlc:10.0
+2023-07-20 22:19:53,442 - __main__ - INFO - update_memory:1
+2023-07-20 22:19:53,442 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:19:53,442 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:19:53,443 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:19:53,443 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:19:53,443 - __main__ - INFO - alc:1.0
+2023-07-20 22:19:53,443 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:19:53,443 - __main__ - INFO - freeze_model:True
+2023-07-20 22:19:53,443 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:19:53,443 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:19:53,443 - __main__ - INFO - use_val:1
+2023-07-20 22:19:53,443 - __main__ - INFO - Loading data
+2023-07-20 22:19:53,486 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:19:53,486 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:19:53,486 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:19:53,486 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:19:53,486 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:19:53,486 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:21:13,595 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:21:14,058 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:21:14,058 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:21:14,058 - __main__ - INFO - 
+
+
+2023-07-20 22:23:40,956 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:23:40,956 - __main__ - INFO - task:seesaw
+2023-07-20 22:23:40,956 - __main__ - INFO - method:T-patch
+2023-07-20 22:23:40,956 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:23:40,956 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:23:40,956 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:23:40,956 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:23:40,956 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:23:40,956 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:23:40,956 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:23:40,956 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:23:40,956 - __main__ - INFO - seed:42
+2023-07-20 22:23:40,956 - __main__ - INFO - batch_size:8
+2023-07-20 22:23:40,956 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:23:40,956 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:23:40,956 - __main__ - INFO - memory_size:40000
+2023-07-20 22:23:40,956 - __main__ - INFO - debug_mode:0
+2023-07-20 22:23:40,956 - __main__ - INFO - num_workers:0
+2023-07-20 22:23:40,956 - __main__ - INFO - example_repeat:1
+2023-07-20 22:23:40,956 - __main__ - INFO - temp_mode:0
+2023-07-20 22:23:40,956 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:23:40,956 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:23:40,956 - __main__ - INFO - model_type:gptj
+2023-07-20 22:23:40,956 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:23:40,957 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:23:40,957 - __main__ - INFO - device:cuda:0
+2023-07-20 22:23:40,957 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:23:40,957 - __main__ - INFO - fold_n:0
+2023-07-20 22:23:40,957 - __main__ - INFO - early_patience:1
+2023-07-20 22:23:40,957 - __main__ - INFO - early_mode:max
+2023-07-20 22:23:40,957 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:23:40,957 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:23:40,957 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:23:40,957 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:23:40,957 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:23:40,957 - __main__ - INFO - optim:adam
+2023-07-20 22:23:40,957 - __main__ - INFO - lr:0.01
+2023-07-20 22:23:40,957 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:23:40,957 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:23:40,957 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:23:40,957 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:23:40,957 - __main__ - INFO - amplify_v:1
+2023-07-20 22:23:40,957 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:23:40,957 - __main__ - INFO - freeze_a:0
+2023-07-20 22:23:40,957 - __main__ - INFO - freeze_k:0
+2023-07-20 22:23:40,957 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:23:40,957 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:23:40,957 - __main__ - INFO - mlc:10.0
+2023-07-20 22:23:40,957 - __main__ - INFO - update_memory:1
+2023-07-20 22:23:40,957 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:23:40,957 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:23:40,957 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:23:40,957 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:23:40,957 - __main__ - INFO - alc:1.0
+2023-07-20 22:23:40,958 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:23:40,958 - __main__ - INFO - freeze_model:True
+2023-07-20 22:23:40,958 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:23:40,958 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:23:40,958 - __main__ - INFO - use_val:1
+2023-07-20 22:23:40,958 - __main__ - INFO - Loading data
+2023-07-20 22:23:41,000 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:23:41,001 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:23:41,001 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:23:41,001 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:23:41,001 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:23:41,001 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:25:03,209 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:25:03,658 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:25:03,658 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:25:03,658 - __main__ - INFO - 
+
+
+2023-07-20 22:26:04,927 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:26:04,928 - __main__ - INFO - task:seesaw
+2023-07-20 22:26:04,928 - __main__ - INFO - method:T-patch
+2023-07-20 22:26:04,928 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:26:04,928 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:26:04,928 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:26:04,928 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:26:04,928 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:26:04,928 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:26:04,928 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:26:04,928 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:26:04,928 - __main__ - INFO - seed:42
+2023-07-20 22:26:04,928 - __main__ - INFO - batch_size:8
+2023-07-20 22:26:04,928 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:26:04,928 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:26:04,928 - __main__ - INFO - memory_size:40000
+2023-07-20 22:26:04,928 - __main__ - INFO - debug_mode:0
+2023-07-20 22:26:04,928 - __main__ - INFO - num_workers:0
+2023-07-20 22:26:04,928 - __main__ - INFO - example_repeat:1
+2023-07-20 22:26:04,928 - __main__ - INFO - temp_mode:0
+2023-07-20 22:26:04,928 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:26:04,928 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:26:04,928 - __main__ - INFO - model_type:gptj
+2023-07-20 22:26:04,928 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:26:04,928 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:26:04,928 - __main__ - INFO - device:cuda:0
+2023-07-20 22:26:04,928 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:26:04,928 - __main__ - INFO - fold_n:0
+2023-07-20 22:26:04,928 - __main__ - INFO - early_patience:1
+2023-07-20 22:26:04,929 - __main__ - INFO - early_mode:max
+2023-07-20 22:26:04,929 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:26:04,929 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:26:04,929 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:26:04,929 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:26:04,929 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:26:04,929 - __main__ - INFO - optim:adam
+2023-07-20 22:26:04,929 - __main__ - INFO - lr:0.01
+2023-07-20 22:26:04,929 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:26:04,929 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:26:04,929 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:26:04,929 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:26:04,929 - __main__ - INFO - amplify_v:1
+2023-07-20 22:26:04,929 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:26:04,929 - __main__ - INFO - freeze_a:0
+2023-07-20 22:26:04,929 - __main__ - INFO - freeze_k:0
+2023-07-20 22:26:04,929 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:26:04,929 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:26:04,929 - __main__ - INFO - mlc:10.0
+2023-07-20 22:26:04,929 - __main__ - INFO - update_memory:1
+2023-07-20 22:26:04,929 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:26:04,929 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:26:04,929 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:26:04,929 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:26:04,929 - __main__ - INFO - alc:1.0
+2023-07-20 22:26:04,929 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:26:04,929 - __main__ - INFO - freeze_model:True
+2023-07-20 22:26:04,929 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:26:04,929 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:26:04,929 - __main__ - INFO - use_val:1
+2023-07-20 22:26:04,930 - __main__ - INFO - Loading data
+2023-07-20 22:26:04,976 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:26:04,976 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:26:04,976 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:26:04,976 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:26:04,976 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:26:04,976 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:27:16,674 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:27:17,211 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:27:17,211 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:27:17,211 - __main__ - INFO - 
+
+
+2023-07-20 22:33:00,444 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:33:00,445 - __main__ - INFO - task:seesaw
+2023-07-20 22:33:00,445 - __main__ - INFO - method:T-patch
+2023-07-20 22:33:00,445 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:33:00,445 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:33:00,445 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:33:00,445 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:33:00,445 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:33:00,445 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:33:00,445 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:33:00,445 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:33:00,445 - __main__ - INFO - seed:42
+2023-07-20 22:33:00,445 - __main__ - INFO - batch_size:8
+2023-07-20 22:33:00,445 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:33:00,445 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:33:00,445 - __main__ - INFO - memory_size:40000
+2023-07-20 22:33:00,445 - __main__ - INFO - debug_mode:0
+2023-07-20 22:33:00,445 - __main__ - INFO - num_workers:0
+2023-07-20 22:33:00,445 - __main__ - INFO - example_repeat:1
+2023-07-20 22:33:00,445 - __main__ - INFO - temp_mode:0
+2023-07-20 22:33:00,445 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:33:00,445 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:33:00,445 - __main__ - INFO - model_type:gptj
+2023-07-20 22:33:00,445 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:33:00,445 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:33:00,445 - __main__ - INFO - device:cuda:0
+2023-07-20 22:33:00,445 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:33:00,445 - __main__ - INFO - fold_n:0
+2023-07-20 22:33:00,445 - __main__ - INFO - early_patience:1
+2023-07-20 22:33:00,445 - __main__ - INFO - early_mode:max
+2023-07-20 22:33:00,445 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:33:00,446 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:33:00,446 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:33:00,446 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:33:00,446 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:33:00,446 - __main__ - INFO - optim:adam
+2023-07-20 22:33:00,446 - __main__ - INFO - lr:0.01
+2023-07-20 22:33:00,446 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:33:00,446 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:33:00,446 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:33:00,446 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:33:00,446 - __main__ - INFO - amplify_v:1
+2023-07-20 22:33:00,446 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:33:00,446 - __main__ - INFO - freeze_a:0
+2023-07-20 22:33:00,446 - __main__ - INFO - freeze_k:0
+2023-07-20 22:33:00,446 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:33:00,446 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:33:00,446 - __main__ - INFO - mlc:10.0
+2023-07-20 22:33:00,446 - __main__ - INFO - update_memory:1
+2023-07-20 22:33:00,446 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:33:00,446 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:33:00,446 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:33:00,446 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:33:00,446 - __main__ - INFO - alc:1.0
+2023-07-20 22:33:00,446 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:33:00,446 - __main__ - INFO - freeze_model:True
+2023-07-20 22:33:00,446 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:33:00,446 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:33:00,446 - __main__ - INFO - use_val:1
+2023-07-20 22:33:00,447 - __main__ - INFO - Loading data
+2023-07-20 22:33:00,489 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:33:00,489 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:33:00,489 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:33:00,490 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:33:00,490 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:33:00,490 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:34:21,092 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:34:21,556 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:34:21,556 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:34:21,556 - __main__ - INFO - 
+
+
+2023-07-20 22:37:53,344 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:37:53,344 - __main__ - INFO - task:seesaw
+2023-07-20 22:37:53,344 - __main__ - INFO - method:T-patch
+2023-07-20 22:37:53,344 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:37:53,344 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:37:53,344 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:37:53,344 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:37:53,344 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:37:53,344 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:37:53,344 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:37:53,344 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:37:53,344 - __main__ - INFO - seed:42
+2023-07-20 22:37:53,344 - __main__ - INFO - batch_size:8
+2023-07-20 22:37:53,345 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:37:53,345 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:37:53,345 - __main__ - INFO - memory_size:40000
+2023-07-20 22:37:53,345 - __main__ - INFO - debug_mode:0
+2023-07-20 22:37:53,345 - __main__ - INFO - num_workers:0
+2023-07-20 22:37:53,345 - __main__ - INFO - example_repeat:1
+2023-07-20 22:37:53,345 - __main__ - INFO - temp_mode:0
+2023-07-20 22:37:53,345 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:37:53,345 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:37:53,345 - __main__ - INFO - model_type:gptj
+2023-07-20 22:37:53,345 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:37:53,345 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:37:53,345 - __main__ - INFO - device:cuda:0
+2023-07-20 22:37:53,345 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:37:53,345 - __main__ - INFO - fold_n:0
+2023-07-20 22:37:53,345 - __main__ - INFO - early_patience:1
+2023-07-20 22:37:53,345 - __main__ - INFO - early_mode:max
+2023-07-20 22:37:53,345 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:37:53,345 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:37:53,345 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:37:53,345 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:37:53,345 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:37:53,345 - __main__ - INFO - optim:adam
+2023-07-20 22:37:53,345 - __main__ - INFO - lr:0.01
+2023-07-20 22:37:53,345 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:37:53,345 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:37:53,345 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:37:53,345 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:37:53,345 - __main__ - INFO - amplify_v:1
+2023-07-20 22:37:53,345 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:37:53,346 - __main__ - INFO - freeze_a:0
+2023-07-20 22:37:53,346 - __main__ - INFO - freeze_k:0
+2023-07-20 22:37:53,346 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:37:53,346 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:37:53,346 - __main__ - INFO - mlc:10.0
+2023-07-20 22:37:53,346 - __main__ - INFO - update_memory:1
+2023-07-20 22:37:53,346 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:37:53,346 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:37:53,346 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:37:53,346 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:37:53,346 - __main__ - INFO - alc:1.0
+2023-07-20 22:37:53,346 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:37:53,346 - __main__ - INFO - freeze_model:True
+2023-07-20 22:37:53,346 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:37:53,346 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:37:53,346 - __main__ - INFO - use_val:1
+2023-07-20 22:37:53,347 - __main__ - INFO - Loading data
+2023-07-20 22:37:53,392 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:37:53,392 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:37:53,392 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:37:53,392 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:37:53,392 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:37:53,392 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:39:08,529 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:39:08,984 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:39:08,984 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:39:08,984 - __main__ - INFO - 
+
+
+2023-07-20 22:39:08,984 - __main__ - INFO - dl0
+2023-07-20 22:39:34,540 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:39:34,540 - __main__ - INFO - task:seesaw
+2023-07-20 22:39:34,540 - __main__ - INFO - method:T-patch
+2023-07-20 22:39:34,540 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:39:34,540 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:39:34,540 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:39:34,540 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:39:34,540 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:39:34,540 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:39:34,540 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:39:34,540 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:39:34,540 - __main__ - INFO - seed:42
+2023-07-20 22:39:34,540 - __main__ - INFO - batch_size:8
+2023-07-20 22:39:34,540 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:39:34,540 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:39:34,540 - __main__ - INFO - memory_size:40000
+2023-07-20 22:39:34,540 - __main__ - INFO - debug_mode:0
+2023-07-20 22:39:34,540 - __main__ - INFO - num_workers:0
+2023-07-20 22:39:34,540 - __main__ - INFO - example_repeat:1
+2023-07-20 22:39:34,540 - __main__ - INFO - temp_mode:0
+2023-07-20 22:39:34,540 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:39:34,540 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:39:34,541 - __main__ - INFO - model_type:gptj
+2023-07-20 22:39:34,541 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:39:34,541 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:39:34,541 - __main__ - INFO - device:cuda:0
+2023-07-20 22:39:34,541 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:39:34,541 - __main__ - INFO - fold_n:0
+2023-07-20 22:39:34,541 - __main__ - INFO - early_patience:1
+2023-07-20 22:39:34,541 - __main__ - INFO - early_mode:max
+2023-07-20 22:39:34,541 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:39:34,541 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:39:34,541 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:39:34,541 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:39:34,541 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:39:34,541 - __main__ - INFO - optim:adam
+2023-07-20 22:39:34,541 - __main__ - INFO - lr:0.01
+2023-07-20 22:39:34,541 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:39:34,541 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:39:34,541 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:39:34,541 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:39:34,541 - __main__ - INFO - amplify_v:1
+2023-07-20 22:39:34,541 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:39:34,541 - __main__ - INFO - freeze_a:0
+2023-07-20 22:39:34,541 - __main__ - INFO - freeze_k:0
+2023-07-20 22:39:34,541 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:39:34,541 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:39:34,541 - __main__ - INFO - mlc:10.0
+2023-07-20 22:39:34,541 - __main__ - INFO - update_memory:1
+2023-07-20 22:39:34,541 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:39:34,541 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:39:34,541 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:39:34,541 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:39:34,542 - __main__ - INFO - alc:1.0
+2023-07-20 22:39:34,542 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:39:34,542 - __main__ - INFO - freeze_model:True
+2023-07-20 22:39:34,542 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:39:34,542 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:39:34,542 - __main__ - INFO - use_val:1
+2023-07-20 22:39:34,542 - __main__ - INFO - Loading data
+2023-07-20 22:39:34,584 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:39:34,584 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:39:34,584 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:39:34,584 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:39:34,584 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:39:34,585 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:40:46,475 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:40:46,931 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:40:46,931 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:40:46,931 - __main__ - INFO - 
+
+
+2023-07-20 22:40:46,932 - __main__ - INFO - dl0
+2023-07-20 22:42:57,275 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:42:57,275 - __main__ - INFO - task:seesaw
+2023-07-20 22:42:57,275 - __main__ - INFO - method:T-patch
+2023-07-20 22:42:57,275 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:42:57,275 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:42:57,275 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:42:57,275 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:42:57,275 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:42:57,275 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:42:57,275 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:42:57,276 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:42:57,276 - __main__ - INFO - seed:42
+2023-07-20 22:42:57,276 - __main__ - INFO - batch_size:8
+2023-07-20 22:42:57,276 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:42:57,276 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:42:57,276 - __main__ - INFO - memory_size:40000
+2023-07-20 22:42:57,276 - __main__ - INFO - debug_mode:0
+2023-07-20 22:42:57,276 - __main__ - INFO - num_workers:0
+2023-07-20 22:42:57,276 - __main__ - INFO - example_repeat:1
+2023-07-20 22:42:57,276 - __main__ - INFO - temp_mode:0
+2023-07-20 22:42:57,276 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:42:57,276 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:42:57,276 - __main__ - INFO - model_type:gptj
+2023-07-20 22:42:57,276 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:42:57,276 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:42:57,276 - __main__ - INFO - device:cuda:0
+2023-07-20 22:42:57,276 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:42:57,276 - __main__ - INFO - fold_n:0
+2023-07-20 22:42:57,276 - __main__ - INFO - early_patience:1
+2023-07-20 22:42:57,276 - __main__ - INFO - early_mode:max
+2023-07-20 22:42:57,276 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:42:57,276 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:42:57,276 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:42:57,276 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:42:57,276 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:42:57,276 - __main__ - INFO - optim:adam
+2023-07-20 22:42:57,276 - __main__ - INFO - lr:0.01
+2023-07-20 22:42:57,276 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:42:57,276 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:42:57,276 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:42:57,277 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:42:57,277 - __main__ - INFO - amplify_v:1
+2023-07-20 22:42:57,277 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:42:57,277 - __main__ - INFO - freeze_a:0
+2023-07-20 22:42:57,277 - __main__ - INFO - freeze_k:0
+2023-07-20 22:42:57,277 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:42:57,277 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:42:57,277 - __main__ - INFO - mlc:10.0
+2023-07-20 22:42:57,277 - __main__ - INFO - update_memory:1
+2023-07-20 22:42:57,277 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:42:57,277 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:42:57,277 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:42:57,277 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:42:57,277 - __main__ - INFO - alc:1.0
+2023-07-20 22:42:57,277 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:42:57,277 - __main__ - INFO - freeze_model:True
+2023-07-20 22:42:57,277 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:42:57,277 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:42:57,277 - __main__ - INFO - use_val:1
+2023-07-20 22:42:57,278 - __main__ - INFO - Loading data
+2023-07-20 22:42:57,321 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:42:57,321 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:42:57,321 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:42:57,321 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:42:57,321 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:42:57,321 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:44:20,094 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:44:20,630 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:44:20,631 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:44:20,631 - __main__ - INFO - 
+
+
+2023-07-20 22:44:20,631 - __main__ - INFO - dl0
+2023-07-20 22:51:03,562 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 22:51:03,562 - __main__ - INFO - task:seesaw
+2023-07-20 22:51:03,562 - __main__ - INFO - method:T-patch
+2023-07-20 22:51:03,562 - __main__ - INFO - edit_folder_num:1
+2023-07-20 22:51:03,562 - __main__ - INFO - process_folders:[0]
+2023-07-20 22:51:03,562 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 22:51:03,562 - __main__ - INFO - gpu_nums:1
+2023-07-20 22:51:03,562 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 22:51:03,562 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 22:51:03,562 - __main__ - INFO - log_name:log.txt
+2023-07-20 22:51:03,562 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 22:51:03,562 - __main__ - INFO - seed:42
+2023-07-20 22:51:03,562 - __main__ - INFO - batch_size:8
+2023-07-20 22:51:03,562 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 22:51:03,562 - __main__ - INFO - train_sub_size:10000
+2023-07-20 22:51:03,562 - __main__ - INFO - memory_size:40000
+2023-07-20 22:51:03,562 - __main__ - INFO - debug_mode:0
+2023-07-20 22:51:03,562 - __main__ - INFO - num_workers:0
+2023-07-20 22:51:03,562 - __main__ - INFO - example_repeat:1
+2023-07-20 22:51:03,562 - __main__ - INFO - temp_mode:0
+2023-07-20 22:51:03,562 - __main__ - INFO - get_heat_map:0
+2023-07-20 22:51:03,563 - __main__ - INFO - max_edit_step:2000
+2023-07-20 22:51:03,563 - __main__ - INFO - model_type:gptj
+2023-07-20 22:51:03,563 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 22:51:03,563 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 22:51:03,563 - __main__ - INFO - device:cuda:0
+2023-07-20 22:51:03,563 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 22:51:03,563 - __main__ - INFO - fold_n:0
+2023-07-20 22:51:03,563 - __main__ - INFO - early_patience:1
+2023-07-20 22:51:03,563 - __main__ - INFO - early_mode:max
+2023-07-20 22:51:03,563 - __main__ - INFO - early_thd:0.01
+2023-07-20 22:51:03,563 - __main__ - INFO - start_val_epoch:100
+2023-07-20 22:51:03,563 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 22:51:03,563 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 22:51:03,563 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 22:51:03,563 - __main__ - INFO - optim:adam
+2023-07-20 22:51:03,563 - __main__ - INFO - lr:0.01
+2023-07-20 22:51:03,563 - __main__ - INFO - weight_decay:0.01
+2023-07-20 22:51:03,563 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 22:51:03,563 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 22:51:03,563 - __main__ - INFO - use_init_weight:1
+2023-07-20 22:51:03,563 - __main__ - INFO - amplify_v:1
+2023-07-20 22:51:03,563 - __main__ - INFO - amplify_con:10.0
+2023-07-20 22:51:03,563 - __main__ - INFO - freeze_a:0
+2023-07-20 22:51:03,563 - __main__ - INFO - freeze_k:0
+2023-07-20 22:51:03,563 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 22:51:03,563 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 22:51:03,563 - __main__ - INFO - mlc:10.0
+2023-07-20 22:51:03,563 - __main__ - INFO - update_memory:1
+2023-07-20 22:51:03,563 - __main__ - INFO - margin_val1:3.0
+2023-07-20 22:51:03,563 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 22:51:03,564 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 22:51:03,564 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 22:51:03,564 - __main__ - INFO - alc:1.0
+2023-07-20 22:51:03,564 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 22:51:03,564 - __main__ - INFO - freeze_model:True
+2023-07-20 22:51:03,564 - __main__ - INFO - val_metric_type:loss
+2023-07-20 22:51:03,564 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 22:51:03,564 - __main__ - INFO - use_val:1
+2023-07-20 22:51:03,564 - __main__ - INFO - Loading data
+2023-07-20 22:51:03,606 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 22:51:03,606 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 22:51:03,606 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 22:51:03,606 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 22:51:03,607 - __main__ - INFO - The size of val_data is:1
+2023-07-20 22:51:03,607 - __main__ - INFO - Creating editor and result class
+2023-07-20 22:52:15,369 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 22:52:15,821 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 22:52:15,821 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 22:52:15,821 - __main__ - INFO - 
+
+
+2023-07-20 22:52:15,822 - __main__ - INFO - dl0
+2023-07-20 22:52:15,822 - __main__ - INFO - {'src': "Charles Bell's domain of work is", 'trg': {'str': 'physics', 'id': 'Q413'}, 'rephrases': []}
+2023-07-20 23:16:29,119 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 23:16:29,119 - __main__ - INFO - task:seesaw
+2023-07-20 23:16:29,119 - __main__ - INFO - method:T-patch
+2023-07-20 23:16:29,119 - __main__ - INFO - edit_folder_num:1
+2023-07-20 23:16:29,119 - __main__ - INFO - process_folders:[0]
+2023-07-20 23:16:29,120 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 23:16:29,120 - __main__ - INFO - gpu_nums:1
+2023-07-20 23:16:29,120 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 23:16:29,120 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 23:16:29,120 - __main__ - INFO - log_name:log.txt
+2023-07-20 23:16:29,120 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 23:16:29,120 - __main__ - INFO - seed:42
+2023-07-20 23:16:29,120 - __main__ - INFO - batch_size:8
+2023-07-20 23:16:29,120 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 23:16:29,120 - __main__ - INFO - train_sub_size:10000
+2023-07-20 23:16:29,120 - __main__ - INFO - memory_size:40000
+2023-07-20 23:16:29,120 - __main__ - INFO - debug_mode:0
+2023-07-20 23:16:29,120 - __main__ - INFO - num_workers:0
+2023-07-20 23:16:29,120 - __main__ - INFO - example_repeat:1
+2023-07-20 23:16:29,120 - __main__ - INFO - temp_mode:0
+2023-07-20 23:16:29,120 - __main__ - INFO - get_heat_map:0
+2023-07-20 23:16:29,120 - __main__ - INFO - max_edit_step:2000
+2023-07-20 23:16:29,120 - __main__ - INFO - model_type:gptj
+2023-07-20 23:16:29,120 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 23:16:29,120 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 23:16:29,120 - __main__ - INFO - device:cuda:0
+2023-07-20 23:16:29,120 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 23:16:29,120 - __main__ - INFO - fold_n:0
+2023-07-20 23:16:29,120 - __main__ - INFO - early_patience:1
+2023-07-20 23:16:29,120 - __main__ - INFO - early_mode:max
+2023-07-20 23:16:29,120 - __main__ - INFO - early_thd:0.01
+2023-07-20 23:16:29,120 - __main__ - INFO - start_val_epoch:100
+2023-07-20 23:16:29,120 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 23:16:29,120 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 23:16:29,120 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 23:16:29,121 - __main__ - INFO - optim:adam
+2023-07-20 23:16:29,121 - __main__ - INFO - lr:0.01
+2023-07-20 23:16:29,121 - __main__ - INFO - weight_decay:0.01
+2023-07-20 23:16:29,121 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 23:16:29,121 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 23:16:29,121 - __main__ - INFO - use_init_weight:1
+2023-07-20 23:16:29,121 - __main__ - INFO - amplify_v:1
+2023-07-20 23:16:29,121 - __main__ - INFO - amplify_con:10.0
+2023-07-20 23:16:29,121 - __main__ - INFO - freeze_a:0
+2023-07-20 23:16:29,121 - __main__ - INFO - freeze_k:0
+2023-07-20 23:16:29,121 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 23:16:29,121 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 23:16:29,121 - __main__ - INFO - mlc:10.0
+2023-07-20 23:16:29,121 - __main__ - INFO - update_memory:1
+2023-07-20 23:16:29,121 - __main__ - INFO - margin_val1:3.0
+2023-07-20 23:16:29,121 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 23:16:29,121 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 23:16:29,121 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 23:16:29,121 - __main__ - INFO - alc:1.0
+2023-07-20 23:16:29,121 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 23:16:29,121 - __main__ - INFO - freeze_model:True
+2023-07-20 23:16:29,121 - __main__ - INFO - val_metric_type:loss
+2023-07-20 23:16:29,121 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 23:16:29,121 - __main__ - INFO - use_val:1
+2023-07-20 23:16:29,122 - __main__ - INFO - Loading data
+2023-07-20 23:16:29,163 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 23:16:29,163 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 23:16:29,163 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 23:16:29,163 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 23:16:29,163 - __main__ - INFO - The size of val_data is:1
+2023-07-20 23:16:29,163 - __main__ - INFO - Creating editor and result class
+2023-07-20 23:17:42,141 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 23:18:48,244 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 23:18:48,245 - __main__ - INFO - task:seesaw
+2023-07-20 23:18:48,245 - __main__ - INFO - method:T-patch
+2023-07-20 23:18:48,245 - __main__ - INFO - edit_folder_num:1
+2023-07-20 23:18:48,245 - __main__ - INFO - process_folders:[0]
+2023-07-20 23:18:48,245 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 23:18:48,245 - __main__ - INFO - gpu_nums:1
+2023-07-20 23:18:48,245 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 23:18:48,245 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 23:18:48,245 - __main__ - INFO - log_name:log.txt
+2023-07-20 23:18:48,245 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 23:18:48,245 - __main__ - INFO - seed:42
+2023-07-20 23:18:48,245 - __main__ - INFO - batch_size:8
+2023-07-20 23:18:48,245 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 23:18:48,245 - __main__ - INFO - train_sub_size:10000
+2023-07-20 23:18:48,245 - __main__ - INFO - memory_size:40000
+2023-07-20 23:18:48,245 - __main__ - INFO - debug_mode:0
+2023-07-20 23:18:48,245 - __main__ - INFO - num_workers:0
+2023-07-20 23:18:48,245 - __main__ - INFO - example_repeat:1
+2023-07-20 23:18:48,245 - __main__ - INFO - temp_mode:0
+2023-07-20 23:18:48,245 - __main__ - INFO - get_heat_map:0
+2023-07-20 23:18:48,245 - __main__ - INFO - max_edit_step:2000
+2023-07-20 23:18:48,245 - __main__ - INFO - model_type:gptj
+2023-07-20 23:18:48,245 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 23:18:48,245 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 23:18:48,245 - __main__ - INFO - device:cuda:0
+2023-07-20 23:18:48,245 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 23:18:48,245 - __main__ - INFO - fold_n:0
+2023-07-20 23:18:48,245 - __main__ - INFO - early_patience:1
+2023-07-20 23:18:48,245 - __main__ - INFO - early_mode:max
+2023-07-20 23:18:48,245 - __main__ - INFO - early_thd:0.01
+2023-07-20 23:18:48,246 - __main__ - INFO - start_val_epoch:100
+2023-07-20 23:18:48,246 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 23:18:48,246 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 23:18:48,246 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 23:18:48,246 - __main__ - INFO - optim:adam
+2023-07-20 23:18:48,246 - __main__ - INFO - lr:0.01
+2023-07-20 23:18:48,246 - __main__ - INFO - weight_decay:0.01
+2023-07-20 23:18:48,246 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 23:18:48,246 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 23:18:48,246 - __main__ - INFO - use_init_weight:1
+2023-07-20 23:18:48,246 - __main__ - INFO - amplify_v:1
+2023-07-20 23:18:48,246 - __main__ - INFO - amplify_con:10.0
+2023-07-20 23:18:48,246 - __main__ - INFO - freeze_a:0
+2023-07-20 23:18:48,246 - __main__ - INFO - freeze_k:0
+2023-07-20 23:18:48,246 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 23:18:48,246 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 23:18:48,246 - __main__ - INFO - mlc:10.0
+2023-07-20 23:18:48,246 - __main__ - INFO - update_memory:1
+2023-07-20 23:18:48,246 - __main__ - INFO - margin_val1:3.0
+2023-07-20 23:18:48,246 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 23:18:48,246 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 23:18:48,246 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 23:18:48,246 - __main__ - INFO - alc:1.0
+2023-07-20 23:18:48,246 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 23:18:48,246 - __main__ - INFO - freeze_model:True
+2023-07-20 23:18:48,246 - __main__ - INFO - val_metric_type:loss
+2023-07-20 23:18:48,246 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 23:18:48,246 - __main__ - INFO - use_val:1
+2023-07-20 23:18:48,247 - __main__ - INFO - Loading data
+2023-07-20 23:18:48,294 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 23:18:48,295 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 23:18:48,295 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 23:18:48,295 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 23:18:48,295 - __main__ - INFO - The size of val_data is:1
+2023-07-20 23:18:48,295 - __main__ - INFO - Creating editor and result class
+2023-07-20 23:20:07,548 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 23:20:08,104 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 23:20:08,104 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 23:20:08,104 - __main__ - INFO - 
+
+
+2023-07-20 23:20:08,105 - __main__ - INFO - dl0
+2023-07-20 23:20:08,105 - __main__ - INFO - {'src': "Charles Bell's domain of work is", 'trg': {'str': 'physics', 'id': 'Q413'}, 'rephrases': []}
+2023-07-20 23:22:24,621 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 23:22:24,621 - __main__ - INFO - task:seesaw
+2023-07-20 23:22:24,621 - __main__ - INFO - method:T-patch
+2023-07-20 23:22:24,621 - __main__ - INFO - edit_folder_num:1
+2023-07-20 23:22:24,621 - __main__ - INFO - process_folders:[0]
+2023-07-20 23:22:24,621 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 23:22:24,621 - __main__ - INFO - gpu_nums:1
+2023-07-20 23:22:24,621 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 23:22:24,621 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 23:22:24,621 - __main__ - INFO - log_name:log.txt
+2023-07-20 23:22:24,621 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 23:22:24,621 - __main__ - INFO - seed:42
+2023-07-20 23:22:24,621 - __main__ - INFO - batch_size:8
+2023-07-20 23:22:24,622 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 23:22:24,622 - __main__ - INFO - train_sub_size:10000
+2023-07-20 23:22:24,622 - __main__ - INFO - memory_size:40000
+2023-07-20 23:22:24,622 - __main__ - INFO - debug_mode:0
+2023-07-20 23:22:24,622 - __main__ - INFO - num_workers:0
+2023-07-20 23:22:24,622 - __main__ - INFO - example_repeat:1
+2023-07-20 23:22:24,622 - __main__ - INFO - temp_mode:0
+2023-07-20 23:22:24,622 - __main__ - INFO - get_heat_map:0
+2023-07-20 23:22:24,622 - __main__ - INFO - max_edit_step:2000
+2023-07-20 23:22:24,622 - __main__ - INFO - model_type:gptj
+2023-07-20 23:22:24,622 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 23:22:24,622 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 23:22:24,622 - __main__ - INFO - device:cuda:0
+2023-07-20 23:22:24,622 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 23:22:24,622 - __main__ - INFO - fold_n:0
+2023-07-20 23:22:24,622 - __main__ - INFO - early_patience:1
+2023-07-20 23:22:24,622 - __main__ - INFO - early_mode:max
+2023-07-20 23:22:24,622 - __main__ - INFO - early_thd:0.01
+2023-07-20 23:22:24,622 - __main__ - INFO - start_val_epoch:100
+2023-07-20 23:22:24,622 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 23:22:24,622 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 23:22:24,622 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 23:22:24,622 - __main__ - INFO - optim:adam
+2023-07-20 23:22:24,622 - __main__ - INFO - lr:0.01
+2023-07-20 23:22:24,622 - __main__ - INFO - weight_decay:0.01
+2023-07-20 23:22:24,622 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 23:22:24,622 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 23:22:24,622 - __main__ - INFO - use_init_weight:1
+2023-07-20 23:22:24,623 - __main__ - INFO - amplify_v:1
+2023-07-20 23:22:24,623 - __main__ - INFO - amplify_con:10.0
+2023-07-20 23:22:24,623 - __main__ - INFO - freeze_a:0
+2023-07-20 23:22:24,623 - __main__ - INFO - freeze_k:0
+2023-07-20 23:22:24,623 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 23:22:24,623 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 23:22:24,623 - __main__ - INFO - mlc:10.0
+2023-07-20 23:22:24,623 - __main__ - INFO - update_memory:1
+2023-07-20 23:22:24,623 - __main__ - INFO - margin_val1:3.0
+2023-07-20 23:22:24,623 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 23:22:24,623 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 23:22:24,623 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 23:22:24,623 - __main__ - INFO - alc:1.0
+2023-07-20 23:22:24,623 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 23:22:24,623 - __main__ - INFO - freeze_model:True
+2023-07-20 23:22:24,623 - __main__ - INFO - val_metric_type:loss
+2023-07-20 23:22:24,623 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 23:22:24,623 - __main__ - INFO - use_val:1
+2023-07-20 23:22:24,624 - __main__ - INFO - Loading data
+2023-07-20 23:22:24,667 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 23:22:24,667 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 23:22:24,667 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 23:22:24,667 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 23:22:24,667 - __main__ - INFO - The size of val_data is:1
+2023-07-20 23:22:24,668 - __main__ - INFO - Creating editor and result class
+2023-07-20 23:23:45,877 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 23:23:46,351 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 23:23:46,352 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 23:23:46,352 - __main__ - INFO - 
+
+
+2023-07-20 23:23:46,353 - __main__ - INFO - dl0
+2023-07-20 23:23:46,353 - __main__ - INFO - {'src': "Charles Bell's domain of work is", 'trg': {'str': 'physics', 'id': 'Q413'}, 'rephrases': []}
+2023-07-20 23:30:56,281 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 23:30:56,282 - __main__ - INFO - task:seesaw
+2023-07-20 23:30:56,282 - __main__ - INFO - method:T-patch
+2023-07-20 23:30:56,282 - __main__ - INFO - edit_folder_num:1
+2023-07-20 23:30:56,282 - __main__ - INFO - process_folders:[0]
+2023-07-20 23:30:56,282 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 23:30:56,282 - __main__ - INFO - gpu_nums:1
+2023-07-20 23:30:56,282 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 23:30:56,282 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 23:30:56,282 - __main__ - INFO - log_name:log.txt
+2023-07-20 23:30:56,282 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 23:30:56,282 - __main__ - INFO - seed:42
+2023-07-20 23:30:56,282 - __main__ - INFO - batch_size:8
+2023-07-20 23:30:56,282 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 23:30:56,282 - __main__ - INFO - train_sub_size:10000
+2023-07-20 23:30:56,282 - __main__ - INFO - memory_size:40000
+2023-07-20 23:30:56,282 - __main__ - INFO - debug_mode:0
+2023-07-20 23:30:56,282 - __main__ - INFO - num_workers:0
+2023-07-20 23:30:56,282 - __main__ - INFO - example_repeat:1
+2023-07-20 23:30:56,282 - __main__ - INFO - temp_mode:0
+2023-07-20 23:30:56,282 - __main__ - INFO - get_heat_map:0
+2023-07-20 23:30:56,282 - __main__ - INFO - max_edit_step:2000
+2023-07-20 23:30:56,282 - __main__ - INFO - model_type:gptj
+2023-07-20 23:30:56,282 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 23:30:56,282 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 23:30:56,282 - __main__ - INFO - device:cuda:0
+2023-07-20 23:30:56,282 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 23:30:56,282 - __main__ - INFO - fold_n:0
+2023-07-20 23:30:56,282 - __main__ - INFO - early_patience:1
+2023-07-20 23:30:56,282 - __main__ - INFO - early_mode:max
+2023-07-20 23:30:56,282 - __main__ - INFO - early_thd:0.01
+2023-07-20 23:30:56,282 - __main__ - INFO - start_val_epoch:100
+2023-07-20 23:30:56,283 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 23:30:56,283 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 23:30:56,283 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 23:30:56,283 - __main__ - INFO - optim:adam
+2023-07-20 23:30:56,283 - __main__ - INFO - lr:0.01
+2023-07-20 23:30:56,283 - __main__ - INFO - weight_decay:0.01
+2023-07-20 23:30:56,283 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 23:30:56,283 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 23:30:56,283 - __main__ - INFO - use_init_weight:1
+2023-07-20 23:30:56,283 - __main__ - INFO - amplify_v:1
+2023-07-20 23:30:56,283 - __main__ - INFO - amplify_con:10.0
+2023-07-20 23:30:56,283 - __main__ - INFO - freeze_a:0
+2023-07-20 23:30:56,283 - __main__ - INFO - freeze_k:0
+2023-07-20 23:30:56,283 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 23:30:56,283 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 23:30:56,283 - __main__ - INFO - mlc:10.0
+2023-07-20 23:30:56,283 - __main__ - INFO - update_memory:1
+2023-07-20 23:30:56,283 - __main__ - INFO - margin_val1:3.0
+2023-07-20 23:30:56,283 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 23:30:56,283 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 23:30:56,283 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 23:30:56,283 - __main__ - INFO - alc:1.0
+2023-07-20 23:30:56,283 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 23:30:56,283 - __main__ - INFO - freeze_model:True
+2023-07-20 23:30:56,283 - __main__ - INFO - val_metric_type:loss
+2023-07-20 23:30:56,283 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 23:30:56,283 - __main__ - INFO - use_val:1
+2023-07-20 23:30:56,284 - __main__ - INFO - Loading data
+2023-07-20 23:30:56,327 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 23:30:56,327 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 23:30:56,327 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 23:30:56,327 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 23:30:56,327 - __main__ - INFO - The size of val_data is:1
+2023-07-20 23:30:56,327 - __main__ - INFO - Creating editor and result class
+2023-07-20 23:32:14,136 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 23:32:14,655 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 23:32:14,655 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 23:32:14,655 - __main__ - INFO - 
+
+
+2023-07-20 23:32:14,656 - __main__ - INFO - dl0
+2023-07-20 23:32:14,656 - __main__ - INFO - {'src': "Charles Bell's domain of work is", 'trg': {'str': 'physics', 'id': 'Q413'}, 'rephrases': []}
+2023-07-20 23:33:32,632 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 23:33:32,632 - __main__ - INFO - task:seesaw
+2023-07-20 23:33:32,632 - __main__ - INFO - method:T-patch
+2023-07-20 23:33:32,632 - __main__ - INFO - edit_folder_num:1
+2023-07-20 23:33:32,632 - __main__ - INFO - process_folders:[0]
+2023-07-20 23:33:32,632 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 23:33:32,632 - __main__ - INFO - gpu_nums:1
+2023-07-20 23:33:32,632 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 23:33:32,632 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 23:33:32,632 - __main__ - INFO - log_name:log.txt
+2023-07-20 23:33:32,632 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 23:33:32,632 - __main__ - INFO - seed:42
+2023-07-20 23:33:32,632 - __main__ - INFO - batch_size:8
+2023-07-20 23:33:32,632 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 23:33:32,632 - __main__ - INFO - train_sub_size:10000
+2023-07-20 23:33:32,632 - __main__ - INFO - memory_size:40000
+2023-07-20 23:33:32,632 - __main__ - INFO - debug_mode:0
+2023-07-20 23:33:32,632 - __main__ - INFO - num_workers:0
+2023-07-20 23:33:32,632 - __main__ - INFO - example_repeat:1
+2023-07-20 23:33:32,632 - __main__ - INFO - temp_mode:0
+2023-07-20 23:33:32,632 - __main__ - INFO - get_heat_map:0
+2023-07-20 23:33:32,633 - __main__ - INFO - max_edit_step:2000
+2023-07-20 23:33:32,633 - __main__ - INFO - model_type:gptj
+2023-07-20 23:33:32,633 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 23:33:32,633 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 23:33:32,633 - __main__ - INFO - device:cuda:0
+2023-07-20 23:33:32,633 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 23:33:32,633 - __main__ - INFO - fold_n:0
+2023-07-20 23:33:32,633 - __main__ - INFO - early_patience:1
+2023-07-20 23:33:32,633 - __main__ - INFO - early_mode:max
+2023-07-20 23:33:32,633 - __main__ - INFO - early_thd:0.01
+2023-07-20 23:33:32,633 - __main__ - INFO - start_val_epoch:100
+2023-07-20 23:33:32,633 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 23:33:32,633 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 23:33:32,633 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 23:33:32,633 - __main__ - INFO - optim:adam
+2023-07-20 23:33:32,633 - __main__ - INFO - lr:0.01
+2023-07-20 23:33:32,633 - __main__ - INFO - weight_decay:0.01
+2023-07-20 23:33:32,633 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 23:33:32,633 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 23:33:32,633 - __main__ - INFO - use_init_weight:1
+2023-07-20 23:33:32,633 - __main__ - INFO - amplify_v:1
+2023-07-20 23:33:32,633 - __main__ - INFO - amplify_con:10.0
+2023-07-20 23:33:32,633 - __main__ - INFO - freeze_a:0
+2023-07-20 23:33:32,633 - __main__ - INFO - freeze_k:0
+2023-07-20 23:33:32,633 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 23:33:32,633 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 23:33:32,633 - __main__ - INFO - mlc:10.0
+2023-07-20 23:33:32,633 - __main__ - INFO - update_memory:1
+2023-07-20 23:33:32,633 - __main__ - INFO - margin_val1:3.0
+2023-07-20 23:33:32,633 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 23:33:32,633 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 23:33:32,633 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 23:33:32,634 - __main__ - INFO - alc:1.0
+2023-07-20 23:33:32,634 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 23:33:32,634 - __main__ - INFO - freeze_model:True
+2023-07-20 23:33:32,634 - __main__ - INFO - val_metric_type:loss
+2023-07-20 23:33:32,634 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 23:33:32,634 - __main__ - INFO - use_val:1
+2023-07-20 23:33:32,634 - __main__ - INFO - Loading data
+2023-07-20 23:33:32,676 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 23:33:32,677 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 23:33:32,677 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 23:33:32,677 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 23:33:32,677 - __main__ - INFO - The size of val_data is:1
+2023-07-20 23:33:32,677 - __main__ - INFO - Creating editor and result class
+2023-07-20 23:34:46,183 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 23:34:46,691 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 23:34:46,691 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 23:34:46,691 - __main__ - INFO - 
+
+
+2023-07-20 23:34:46,692 - __main__ - INFO - dl0
+2023-07-20 23:34:46,692 - __main__ - INFO - {'src': "Charles Bell's domain of work is", 'trg': {'str': 'physics', 'id': 'Q413'}, 'rephrases': []}
+2023-07-20 23:38:06,241 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 23:38:06,242 - __main__ - INFO - task:seesaw
+2023-07-20 23:38:06,242 - __main__ - INFO - method:T-patch
+2023-07-20 23:38:06,242 - __main__ - INFO - edit_folder_num:1
+2023-07-20 23:38:06,242 - __main__ - INFO - process_folders:[0]
+2023-07-20 23:38:06,242 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 23:38:06,242 - __main__ - INFO - gpu_nums:1
+2023-07-20 23:38:06,242 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 23:38:06,242 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 23:38:06,242 - __main__ - INFO - log_name:log.txt
+2023-07-20 23:38:06,242 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 23:38:06,242 - __main__ - INFO - seed:42
+2023-07-20 23:38:06,242 - __main__ - INFO - batch_size:8
+2023-07-20 23:38:06,242 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 23:38:06,242 - __main__ - INFO - train_sub_size:10000
+2023-07-20 23:38:06,242 - __main__ - INFO - memory_size:40000
+2023-07-20 23:38:06,242 - __main__ - INFO - debug_mode:0
+2023-07-20 23:38:06,242 - __main__ - INFO - num_workers:0
+2023-07-20 23:38:06,242 - __main__ - INFO - example_repeat:1
+2023-07-20 23:38:06,242 - __main__ - INFO - temp_mode:0
+2023-07-20 23:38:06,242 - __main__ - INFO - get_heat_map:0
+2023-07-20 23:38:06,242 - __main__ - INFO - max_edit_step:2000
+2023-07-20 23:38:06,242 - __main__ - INFO - model_type:gptj
+2023-07-20 23:38:06,242 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 23:38:06,242 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 23:38:06,242 - __main__ - INFO - device:cuda:0
+2023-07-20 23:38:06,242 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 23:38:06,242 - __main__ - INFO - fold_n:0
+2023-07-20 23:38:06,243 - __main__ - INFO - early_patience:1
+2023-07-20 23:38:06,243 - __main__ - INFO - early_mode:max
+2023-07-20 23:38:06,243 - __main__ - INFO - early_thd:0.01
+2023-07-20 23:38:06,243 - __main__ - INFO - start_val_epoch:100
+2023-07-20 23:38:06,243 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 23:38:06,243 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 23:38:06,243 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 23:38:06,243 - __main__ - INFO - optim:adam
+2023-07-20 23:38:06,243 - __main__ - INFO - lr:0.01
+2023-07-20 23:38:06,243 - __main__ - INFO - weight_decay:0.01
+2023-07-20 23:38:06,243 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 23:38:06,243 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 23:38:06,243 - __main__ - INFO - use_init_weight:1
+2023-07-20 23:38:06,243 - __main__ - INFO - amplify_v:1
+2023-07-20 23:38:06,243 - __main__ - INFO - amplify_con:10.0
+2023-07-20 23:38:06,243 - __main__ - INFO - freeze_a:0
+2023-07-20 23:38:06,243 - __main__ - INFO - freeze_k:0
+2023-07-20 23:38:06,243 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 23:38:06,243 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 23:38:06,243 - __main__ - INFO - mlc:10.0
+2023-07-20 23:38:06,243 - __main__ - INFO - update_memory:1
+2023-07-20 23:38:06,243 - __main__ - INFO - margin_val1:3.0
+2023-07-20 23:38:06,243 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 23:38:06,243 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 23:38:06,243 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 23:38:06,243 - __main__ - INFO - alc:1.0
+2023-07-20 23:38:06,243 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 23:38:06,243 - __main__ - INFO - freeze_model:True
+2023-07-20 23:38:06,243 - __main__ - INFO - val_metric_type:loss
+2023-07-20 23:38:06,243 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 23:38:06,243 - __main__ - INFO - use_val:1
+2023-07-20 23:38:06,244 - __main__ - INFO - Loading data
+2023-07-20 23:38:06,287 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 23:38:06,287 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 23:38:06,287 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 23:38:06,287 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 23:38:06,287 - __main__ - INFO - The size of val_data is:1
+2023-07-20 23:38:06,287 - __main__ - INFO - Creating editor and result class
+2023-07-20 23:39:24,216 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 23:39:24,750 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 23:39:24,750 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 23:39:24,750 - __main__ - INFO - 
+
+
+2023-07-20 23:39:24,751 - __main__ - INFO - dl0
+2023-07-20 23:39:24,751 - __main__ - INFO - {'src': "Charles Bell's domain of work is", 'trg': {'str': 'physics', 'id': 'Q413'}, 'rephrases': []}
+2023-07-20 23:40:51,299 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 23:40:51,299 - __main__ - INFO - task:seesaw
+2023-07-20 23:40:51,299 - __main__ - INFO - method:T-patch
+2023-07-20 23:40:51,299 - __main__ - INFO - edit_folder_num:1
+2023-07-20 23:40:51,299 - __main__ - INFO - process_folders:[0]
+2023-07-20 23:40:51,299 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 23:40:51,299 - __main__ - INFO - gpu_nums:1
+2023-07-20 23:40:51,299 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 23:40:51,299 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 23:40:51,300 - __main__ - INFO - log_name:log.txt
+2023-07-20 23:40:51,300 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 23:40:51,300 - __main__ - INFO - seed:42
+2023-07-20 23:40:51,300 - __main__ - INFO - batch_size:8
+2023-07-20 23:40:51,300 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 23:40:51,300 - __main__ - INFO - train_sub_size:10000
+2023-07-20 23:40:51,300 - __main__ - INFO - memory_size:40000
+2023-07-20 23:40:51,300 - __main__ - INFO - debug_mode:0
+2023-07-20 23:40:51,300 - __main__ - INFO - num_workers:0
+2023-07-20 23:40:51,300 - __main__ - INFO - example_repeat:1
+2023-07-20 23:40:51,300 - __main__ - INFO - temp_mode:0
+2023-07-20 23:40:51,300 - __main__ - INFO - get_heat_map:0
+2023-07-20 23:40:51,300 - __main__ - INFO - max_edit_step:2000
+2023-07-20 23:40:51,300 - __main__ - INFO - model_type:gptj
+2023-07-20 23:40:51,300 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 23:40:51,300 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 23:40:51,300 - __main__ - INFO - device:cuda:0
+2023-07-20 23:40:51,300 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 23:40:51,300 - __main__ - INFO - fold_n:0
+2023-07-20 23:40:51,300 - __main__ - INFO - early_patience:1
+2023-07-20 23:40:51,300 - __main__ - INFO - early_mode:max
+2023-07-20 23:40:51,301 - __main__ - INFO - early_thd:0.01
+2023-07-20 23:40:51,301 - __main__ - INFO - start_val_epoch:100
+2023-07-20 23:40:51,301 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 23:40:51,301 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 23:40:51,301 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 23:40:51,301 - __main__ - INFO - optim:adam
+2023-07-20 23:40:51,301 - __main__ - INFO - lr:0.01
+2023-07-20 23:40:51,301 - __main__ - INFO - weight_decay:0.01
+2023-07-20 23:40:51,301 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 23:40:51,301 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 23:40:51,301 - __main__ - INFO - use_init_weight:1
+2023-07-20 23:40:51,301 - __main__ - INFO - amplify_v:1
+2023-07-20 23:40:51,301 - __main__ - INFO - amplify_con:10.0
+2023-07-20 23:40:51,301 - __main__ - INFO - freeze_a:0
+2023-07-20 23:40:51,301 - __main__ - INFO - freeze_k:0
+2023-07-20 23:40:51,301 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 23:40:51,301 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 23:40:51,301 - __main__ - INFO - mlc:10.0
+2023-07-20 23:40:51,301 - __main__ - INFO - update_memory:1
+2023-07-20 23:40:51,301 - __main__ - INFO - margin_val1:3.0
+2023-07-20 23:40:51,301 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 23:40:51,301 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 23:40:51,301 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 23:40:51,302 - __main__ - INFO - alc:1.0
+2023-07-20 23:40:51,302 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 23:40:51,302 - __main__ - INFO - freeze_model:True
+2023-07-20 23:40:51,302 - __main__ - INFO - val_metric_type:loss
+2023-07-20 23:40:51,302 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 23:40:51,302 - __main__ - INFO - use_val:1
+2023-07-20 23:40:51,303 - __main__ - INFO - Loading data
+2023-07-20 23:40:51,345 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 23:40:51,345 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 23:40:51,345 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 23:40:51,345 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 23:40:51,345 - __main__ - INFO - The size of val_data is:1
+2023-07-20 23:40:51,345 - __main__ - INFO - Creating editor and result class
+2023-07-20 23:42:11,024 - __main__ - INFO - We utilize the top1000_exp+top1000_exp memory loss and construct the memory on learnt training data
+2023-07-20 23:42:11,490 - __main__ - INFO - The memories have been constructed in top1000_exp+top1000_exp method, the size of training and validation memory are [10] and [8]
+2023-07-20 23:42:11,491 - __main__ - INFO - The model that we edited is log/model.ckpt
+2023-07-20 23:42:11,491 - __main__ - INFO - 
+
+
+2023-07-20 23:42:11,491 - __main__ - INFO - dl0
+2023-07-20 23:42:11,491 - __main__ - INFO - {'src': "Charles Bell's domain of work is", 'trg': {'str': 'physics', 'id': 'Q413'}, 'rephrases': []}
+2023-07-20 23:43:42,401 - __main__ - INFO - All hyper-parameters are as follws
+2023-07-20 23:43:42,401 - __main__ - INFO - task:seesaw
+2023-07-20 23:43:42,401 - __main__ - INFO - method:T-patch
+2023-07-20 23:43:42,401 - __main__ - INFO - edit_folder_num:1
+2023-07-20 23:43:42,401 - __main__ - INFO - process_folders:[0]
+2023-07-20 23:43:42,401 - __main__ - INFO - task_id:seesaw_T-patch_1folders
+2023-07-20 23:43:42,401 - __main__ - INFO - gpu_nums:1
+2023-07-20 23:43:42,401 - __main__ - INFO - tasks_per_gpu:1
+2023-07-20 23:43:42,401 - __main__ - INFO - log_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici
+2023-07-20 23:43:42,401 - __main__ - INFO - log_name:log.txt
+2023-07-20 23:43:42,401 - __main__ - INFO - data_path:/home/halevy/flextape/data
+2023-07-20 23:43:42,401 - __main__ - INFO - seed:42
+2023-07-20 23:43:42,401 - __main__ - INFO - batch_size:8
+2023-07-20 23:43:42,401 - __main__ - INFO - model_path:log/model.ckpt
+2023-07-20 23:43:42,401 - __main__ - INFO - train_sub_size:10000
+2023-07-20 23:43:42,401 - __main__ - INFO - memory_size:40000
+2023-07-20 23:43:42,401 - __main__ - INFO - debug_mode:0
+2023-07-20 23:43:42,401 - __main__ - INFO - num_workers:0
+2023-07-20 23:43:42,401 - __main__ - INFO - example_repeat:1
+2023-07-20 23:43:42,402 - __main__ - INFO - temp_mode:0
+2023-07-20 23:43:42,402 - __main__ - INFO - get_heat_map:0
+2023-07-20 23:43:42,402 - __main__ - INFO - max_edit_step:2000
+2023-07-20 23:43:42,402 - __main__ - INFO - model_type:gptj
+2023-07-20 23:43:42,402 - __main__ - INFO - cache_dir:./hugging_cache
+2023-07-20 23:43:42,402 - __main__ - INFO - model_name:EleutherAI/gpt-j-6b
+2023-07-20 23:43:42,402 - __main__ - INFO - device:cuda:0
+2023-07-20 23:43:42,402 - __main__ - INFO - gpus:[0, 1]
+2023-07-20 23:43:42,402 - __main__ - INFO - fold_n:0
+2023-07-20 23:43:42,402 - __main__ - INFO - early_patience:1
+2023-07-20 23:43:42,402 - __main__ - INFO - early_mode:max
+2023-07-20 23:43:42,402 - __main__ - INFO - early_thd:0.01
+2023-07-20 23:43:42,402 - __main__ - INFO - start_val_epoch:100
+2023-07-20 23:43:42,402 - __main__ - INFO - ckpt_path:log/T-patch/seesaw/seesaw_T-patch_1folders_model.ckpt_tongyici/fold_0
+2023-07-20 23:43:42,402 - __main__ - INFO - ckpt_monitor:save_ckpt
+2023-07-20 23:43:42,402 - __main__ - INFO - ckpt_metric_mode:max
+2023-07-20 23:43:42,402 - __main__ - INFO - optim:adam
+2023-07-20 23:43:42,402 - __main__ - INFO - lr:0.01
+2023-07-20 23:43:42,402 - __main__ - INFO - weight_decay:0.01
+2023-07-20 23:43:42,402 - __main__ - INFO - lr_scheduler_factor:0.5
+2023-07-20 23:43:42,402 - __main__ - INFO - lr_scheduler_patience:1
+2023-07-20 23:43:42,402 - __main__ - INFO - use_init_weight:1
+2023-07-20 23:43:42,402 - __main__ - INFO - amplify_v:1
+2023-07-20 23:43:42,402 - __main__ - INFO - amplify_con:10.0
+2023-07-20 23:43:42,402 - __main__ - INFO - freeze_a:0
+2023-07-20 23:43:42,402 - __main__ - INFO - freeze_k:0
+2023-07-20 23:43:42,402 - __main__ - INFO - check_val_every_n_epoch:25
+2023-07-20 23:43:42,402 - __main__ - INFO - memory_loss:top1000_exp+top1000_exp
+2023-07-20 23:43:42,402 - __main__ - INFO - mlc:10.0
+2023-07-20 23:43:42,402 - __main__ - INFO - update_memory:1
+2023-07-20 23:43:42,402 - __main__ - INFO - margin_val1:3.0
+2023-07-20 23:43:42,403 - __main__ - INFO - margin_val2:-3.0
+2023-07-20 23:43:42,403 - __main__ - INFO - activate_loss:top5_exp
+2023-07-20 23:43:42,403 - __main__ - INFO - act_loss_thd:0.1
+2023-07-20 23:43:42,403 - __main__ - INFO - alc:1.0
+2023-07-20 23:43:42,403 - __main__ - INFO - act_margin_val:0.0
+2023-07-20 23:43:42,403 - __main__ - INFO - freeze_model:True
+2023-07-20 23:43:42,403 - __main__ - INFO - val_metric_type:loss
+2023-07-20 23:43:42,403 - __main__ - INFO - max_add_neuron_num:5
+2023-07-20 23:43:42,403 - __main__ - INFO - use_val:1
+2023-07-20 23:43:42,403 - __main__ - INFO - Loading data
+2023-07-20 23:43:42,445 - __main__ - INFO - The size of train_sub is:237
+2023-07-20 23:43:42,446 - __main__ - INFO - The size of memory_set is:1
+2023-07-20 23:43:42,446 - __main__ - INFO - The size of edit_test_data is:6
+2023-07-20 23:43:42,446 - __main__ - INFO - The size of dev_data is:88
+2023-07-20 23:43:42,446 - __main__ - INFO - The size of val_data is:1
+2023-07-20 23:43:42,446 - __main__ - INFO - Creating editor and result class
