@@ -58,7 +58,7 @@ class SeqEditDataSet(object):
             # self.edit_data = edit_data
             self.dev_data = FeverData(tokenizer=tokenizer, data_path=dev_path)
             self.val_data = FeverData(tokenizer=tokenizer, data_path=val_path)
-        elif task_name == 'zsre' or task_name == 'counterfact':
+        elif task_name in ['zsre', 'counterfact', 'seesaw']:
             self.train_data_as_val = Seq2SeqData(tokenizer=tokenizer, data_path=train_path, validation=True)
             self.train_data_as_memo = Seq2SeqData(tokenizer=tokenizer, data_path=train_path, validation=False)
             self.edit_test_data = Seq2SeqData(tokenizer=tokenizer, data_path=edit_path, validation=True) #没用
