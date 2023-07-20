@@ -231,7 +231,7 @@ class Seq2SeqData(Dataset):
                 batches["{}_{}".format("trg", k)] = torch.cat(v_, dim=0)
 
         if self.edit:
-            rephrase_input_output = [b['rephrases'][0] + ' ' + b['trg'][0] for b in batch]
+            rephrase_input_output = [b['rephrases'][0] + ' ' + stringify(b['trg']) for b in batch]
             tokenize_rephrases = self.tokenizer(
                 rephrase_input_output,
                 return_tensors="pt",
