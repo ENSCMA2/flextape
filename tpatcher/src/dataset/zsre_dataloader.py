@@ -42,7 +42,7 @@ class Seq2SeqData(Dataset):
                 else:
                     self.data.append({
                         "input": d["input"],
-                "output": d["output"]["str"],
+                "output": [d["output"]["str"]],
                 "rephrases": []
                             })
                     break
@@ -62,8 +62,8 @@ class Seq2SeqData(Dataset):
                 self.data[item]["rephrases"],
                 k=min(self.return_view, len(self.data[item]["rephrases"]))) if not self.all_views else self.data[item][
                 "rephrases"],
-            'loc': self.data[item]["loc"] if self.edit else None,
-            'loc_ans': self.data[item]["loc_ans"] if self.edit else None,
+            # 'loc': self.data[item]["loc"] if self.edit else None,
+            # 'loc_ans': self.data[item]["loc_ans"] if self.edit else None,
         }
         if 'portability' in self.data[item].keys():
             res['portability'] = self.data[item]["portability"] if self.edit else None
