@@ -64,10 +64,10 @@ class Seq2SeqData(Dataset):
         res = {
             "src": self.data[item]["input"],
             "trg": self.data[item]["output"],
-            "rephrases": random.sample(
-                self.data[item]["rephrases"],
-                k=min(self.return_view, len(self.data[item]["rephrases"]))) if not self.all_views else self.data[item][
-                "rephrases"],
+            "rephrases": []# random.sample(
+                # self.data[item]["rephrases"],
+                # k=min(self.return_view, len(self.data[item]["rephrases"]))) if not self.all_views else self.data[item][
+                # "rephrases"],
             # 'loc': self.data[item]["loc"] if self.edit else None,
             # 'loc_ans': self.data[item]["loc_ans"] if self.edit else None,
         }
@@ -198,9 +198,11 @@ class Seq2SeqData(Dataset):
                 batches["{}_{}".format('src', k)] = v
         input_output = []
         for b in batch:
-            LOG.info("b")
-            LOG.info(b)
-            input_output.append(b["src"] + " " + b["trg"])
+            if type(b["trg"] == str):
+                trgt = b["trg"]
+            else:
+                trgt = b["trg"]["str"]
+            input_output.append(b["src"] + " " + trgt)
         tokenized_input_output = self.tokenizer(
             input_output, return_tensors="pt",
             padding=True, max_length=self.max_length,
