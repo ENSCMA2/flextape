@@ -41,13 +41,12 @@ class Seq2SeqData(Dataset):
                     if validation:
                         self.data.append(d)
                     else:
-                        for o in d["output"]:
-                            self.data.append({
-                                "input": d["input"],
-                                "output": o,
-                                "rephrases": d["rephrases"],
+                        self.data.append({
+                                "input": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"]),
+                "output": d["requested_rewrite"]["target_new"],
+                "rephrases": []
                             })
-                            break
+                        break
 
         self.max_length = max_length
         self.all_views = all_views
@@ -356,12 +355,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
     assert args.val_ratio + args.edit_ratio + args.train_ratio == 1
 
-    p_data_path = 'data/zsre_data/structured_zeroshot-train-new_annotated_final.jsonl'
-    p_test_data_path = 'data/zsre_data/structured_zeroshot-dev-new_annotated_final.jsonl'
-    train_data_path = 'data/zsre_data/zsre-train.jsonl'
-    edit_data_path = 'data/zsre_data/zsre-edit.jsonl'
-    val_data_path = 'data/zsre_data/zsre-val.jsonl'
-    test_data_path = 'data/zsre_data/zsre-dev-kilt.jsonl'
+    p_data_path = "/home/halevy/flextape/data/seesaw_cf_P101_False_100_train.jsonl"
+    p_test_data_path = "/home/halevy/flextape/data/seesaw_cf_P101_False_100_test.jsonl"
+    train_data_path = '/home/halevy/flextape/data/seesaw101_train.jsonl'
+    edit_data_path = '/home/halevy/flextape/data/seesaw101_edit.jsonl'
+    val_data_path = '/home/halevy/flextape/data/seesaw101_val.jsonl'
+    test_data_path = '/home/halevy/flextape/data/seesaw101__dev_kilt.jsonl'
     paths = {
         "train": train_data_path, "val": val_data_path,
         "edit": edit_data_path, "test": test_data_path
@@ -371,9 +370,9 @@ if __name__ == "__main__":
     with jsonlines.open(p_data_path) as data_file:
         for d in data_file:
             new_d = {
-                "input": d["input"],
-                "output": [o["answer"] for o in d["output"] if "answer" in o and "provenance" in o],
-                "rephrases": d["rephrases"]
+                "input": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"]),
+                "output": d["requested_rewrite"]["target_new"],
+                "rephrases": []
             }
             data.append(new_d)
 
@@ -381,9 +380,9 @@ if __name__ == "__main__":
     with jsonlines.open(p_test_data_path) as test_file:
         for d in test_file:
             new_d = {
-                "input": d["input"],
-                "output": [o["answer"] for o in d["output"] if "answer" in o and "provenance" in o],
-                "rephrases": d["rephrases"]
+                "input": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"]),
+                "output": d["requested_rewrite"]["target_new"],
+                "rephrases": []
             }
             test_data.append(new_d)
 
