@@ -41,8 +41,8 @@ class Seq2SeqData(Dataset):
                     self.data.append(d)
                 else:
                     self.data.append({
-                                "input": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"]),
-                "output": d["requested_rewrite"]["target_new"],
+                        "input": d["input"],
+                "output": d["output"]["str"],
                 "rephrases": []
                             })
                     break

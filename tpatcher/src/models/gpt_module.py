@@ -36,8 +36,7 @@ class GPTJSeq2Seq(LightningModule):
         )
         # For Edit
         parser.add_argument("--num_beams", type=int, default=NUM_BEAMS)
-        parser.add_argument("--batch_size", type=int, default=32)
-        parser.add_argument("--lr", type=float, default=3e-5)
+        # parser.add_argument("--lr", type=float, default=3e-5)
         parser.add_argument("--max_length", type=int, default=32)
         parser.add_argument("--weight_decay", type=int, default=0.01)
         parser.add_argument("--total_num_updates", type=int, default=50000)
