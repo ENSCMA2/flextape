@@ -43,13 +43,13 @@ class Seq2SeqData(Dataset):
                     self.data.append({
                         "input": d["input"],
                 "output": d["output"],
-                "rephrases": []
+                "rephrases": [d["input"]]
                             })
                 else:
                     self.data.append({
                         "input": d["input"],
                 "output": d["output"],
-                "rephrases": []
+                "rephrases": [d["input"]]
                             })
                     break
 
