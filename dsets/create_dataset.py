@@ -87,6 +87,7 @@ def make_dataset(prop, includes_neighbors = True, lim = 100):
 			return 1
 		prompts = []
 		aux = []
+		entities = []
 		with open(f"../data/{gender}_{prop}_{tgt}.json") as o:
 			about_them = json.load(o)
 		num_people = items.shape[0]
@@ -101,9 +102,11 @@ def make_dataset(prop, includes_neighbors = True, lim = 100):
 						prompt = make_subs(prompt)
 					prompts.append(prompt)
 					aux.append(iD)
+					entities.append(name)
 				indices = indices[1:]
 		building[label + "_prompts"] += prompts
 		building[label + "_aux_info"] += aux
+		building[label + "_aux_ent"] += entities
 		return 0
 
 	for case in original_json:
