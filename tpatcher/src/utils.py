@@ -472,13 +472,13 @@ def edit_or_not_seq2seq(editor, model, data_point, device, test_rephrases=True, 
                 re_num = rephrase_length
 
             if not before:
-                pre_loc_distribution = get_score(editor.original_model, batch['edit_loc'], device, args=args, loclity=True)
-                post_loc_distribution = get_score(model, batch['edit_loc'], device, args=args, loclity=True)
+                # pre_loc_distribution = get_score(editor.original_model, batch['edit_loc'], device, args=args, loclity=True)
+                # post_loc_distribution = get_score(model, batch['edit_loc'], device, args=args, loclity=True)
 
-                loc_score = torch.mean(
-                    (pre_loc_distribution == post_loc_distribution).float(),
-                    dim=-1
-                ).detach().cpu().numpy().tolist()[0]
+                # loc_score = torch.mean(
+                    # (pre_loc_distribution == post_loc_distribution).float(),
+                    # dim=-1
+                # ).detach().cpu().numpy().tolist()[0]
                 portability_score = get_score(model, batch['edit_portability'], device, args=args)
 
         elif args.model_type == 'gptj':
@@ -507,13 +507,13 @@ def edit_or_not_seq2seq(editor, model, data_point, device, test_rephrases=True, 
                 re_num = rephrase_length
 
             if not before:
-                pre_loc_distribution = get_score_gptj(editor.original_model, batch['edit_loc'], device, args=args, loclity=True)
-                post_loc_distribution = get_score_gptj(model, batch['edit_loc'], device, args=args, loclity=True)
+                # pre_loc_distribution = get_score_gptj(editor.original_model, batch['edit_loc'], device, args=args, loclity=True)
+                # post_loc_distribution = get_score_gptj(model, batch['edit_loc'], device, args=args, loclity=True)
 
-                loc_score = torch.mean(
-                    (pre_loc_distribution == post_loc_distribution).float(),
-                    dim=-1
-                ).detach().cpu().numpy().tolist()[0]
+                # loc_score = torch.mean(
+                    # (pre_loc_distribution == post_loc_distribution).float(),
+                    # dim=-1
+                # ).detach().cpu().numpy().tolist()[0]
 
 
                 if 'edit_unrelated_relation' in batch.keys():
@@ -584,7 +584,7 @@ def edit_or_not_seq2seq(editor, model, data_point, device, test_rephrases=True, 
         if before:
             return need_edit, correct_count, re_num
         else:
-            return need_edit, correct_count, re_num, loc_score, portability_score, unrelated_relation_score, distracting_score, inverse_score, tongyici_score
+            return need_edit, correct_count, re_num, 0.5, portability_score, unrelated_relation_score, distracting_score, inverse_score, tongyici_score
 
 
 def count_error_nums(model, data_point, device):

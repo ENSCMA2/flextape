@@ -132,16 +132,16 @@ class Seq2SeqData(Dataset):
             for k, v in tokenize_rephrases.items():
                 batches['{}_{}'.format('re_src', k)] = v
 
-            loc_tokenizer_trg = self.tokenizer(
-                [b["loc_ans"] for b in batch], return_tensors="pt",
-                padding=True, max_length=self.max_length,
-                truncation=True,
-            )
-            loc_tokenizer_inp = self.tokenizer(
-                [b["loc"] for b in batch], return_tensors="pt",
-                padding=True, max_length=self.max_length,
-                truncation=True,
-            )
+            # loc_tokenizer_trg = self.tokenizer(
+                # [b["loc_ans"] for b in batch], return_tensors="pt",
+                # padding=True, max_length=self.max_length,
+                # truncation=True,
+            # )
+            # loc_tokenizer_inp = self.tokenizer(
+                # [b["loc"] for b in batch], return_tensors="pt",
+                # padding=True, max_length=self.max_length,
+                # truncation=True,
+            # )
 
             portability_tokenizer_inp = self.tokenizer(
                 [b["portability"] for b in batch], return_tensors="pt",
@@ -153,12 +153,12 @@ class Seq2SeqData(Dataset):
                 padding=True, max_length=self.max_length,
                 truncation=True,
             )
-            edit_loc={
-                'src_input_ids': loc_tokenizer_inp['input_ids'],
-                'src_attention_mask': loc_tokenizer_inp['attention_mask'],
-                'trg_input_ids': loc_tokenizer_trg['input_ids'],
-                'trg_attention_mask': loc_tokenizer_trg['attention_mask'],
-            }
+            # edit_loc={
+                # 'src_input_ids': loc_tokenizer_inp['input_ids'],
+                # 'src_attention_mask': loc_tokenizer_inp['attention_mask'],
+                # 'trg_input_ids': loc_tokenizer_trg['input_ids'],
+                # 'trg_attention_mask': loc_tokenizer_trg['attention_mask'],
+            # }
 
             edit_portability={
                 'src_input_ids': portability_tokenizer_inp['input_ids'],
@@ -166,7 +166,8 @@ class Seq2SeqData(Dataset):
                 'trg_input_ids': portability_tokenizer_trg['input_ids'],
                 'trg_attention_mask': portability_tokenizer_trg['attention_mask'],
             }
-            batches['edit_loc'], batches['edit_portability'] = edit_loc, edit_portability
+            # batches['edit_loc'], 
+            batches['edit_portability'] = edit_portability
 
 
 
@@ -242,16 +243,16 @@ class Seq2SeqData(Dataset):
             for k, v in tokenize_rephrases.items():
                 batches['{}_{}'.format('re_src_trg', k)] = v
 
-            loc_tokenizer_inp_trg = self.tokenizer(
-                [b["loc"] + ' ' + b["loc_ans"] for b in batch], return_tensors="pt",
-                padding=True, max_length=self.max_length,
-                truncation=True,
-            )
-            loc_tokenizer_trg = self.tokenizer(
-                [' ' + b["loc_ans"] for b in batch], return_tensors="pt",
-                padding=True, max_length=self.max_length,
-                truncation=True,
-            )
+            # loc_tokenizer_inp_trg = self.tokenizer(
+                # [b["loc"] + ' ' + b["loc_ans"] for b in batch], return_tensors="pt",
+                # padding=True, max_length=self.max_length,
+                # truncation=True,
+            # )
+            # loc_tokenizer_trg = self.tokenizer(
+                # [' ' + b["loc_ans"] for b in batch], return_tensors="pt",
+                #padding=True, max_length=self.max_length,
+                # truncation=True,
+            # )
 
             if 'portability' in batch[0].keys():
                 portability_tokenizer_inp_trg = self.tokenizer(
@@ -309,12 +310,12 @@ class Seq2SeqData(Dataset):
                     truncation=True,
                 )
 
-            edit_loc={
-                'src_trg_input_ids': loc_tokenizer_inp_trg['input_ids'],
-                'src_trg_attention_mask': loc_tokenizer_inp_trg['attention_mask'],
-                'trg_input_ids': loc_tokenizer_trg['input_ids'],
-            }
-            batches['edit_loc'] = edit_loc
+            # edit_loc={
+                # 'src_trg_input_ids': loc_tokenizer_inp_trg['input_ids'],
+                # 'src_trg_attention_mask': loc_tokenizer_inp_trg['attention_mask'],
+                # 'trg_input_ids': loc_tokenizer_trg['input_ids'],
+            # }
+            # batches['edit_loc'] = edit_loc
 
             if 'portability' in batch[0].keys():
                 edit_portability={
