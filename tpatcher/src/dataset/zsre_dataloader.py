@@ -385,7 +385,7 @@ if __name__ == "__main__":
             new_d = {
                 "input": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"]),
                 "output": d["requested_rewrite"]["target_new"]["str"],
-                "rephrases": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"])
+                "rephrases": [d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"])]
             }
             data.append(new_d)
 
@@ -395,7 +395,7 @@ if __name__ == "__main__":
             new_d = {
                 "input": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"]),
                 "output": d["requested_rewrite"]["target_new"]["str"],
-                "rephrases": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"])
+                "rephrases": [d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"])]
             }
             test_data.append(new_d)
 
