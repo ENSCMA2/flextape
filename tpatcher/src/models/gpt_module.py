@@ -36,14 +36,13 @@ class GPTJSeq2Seq(LightningModule):
         )
         # For Edit
         parser.add_argument("--num_beams", type=int, default=NUM_BEAMS)
-        parser.add_argument("--batch_size", type=int, default=32)
-        parser.add_argument("--lr", type=float, default=3e-5)
+        # parser.add_argument("--lr", type=float, default=3e-5)
         parser.add_argument("--max_length", type=int, default=32)
-        parser.add_argument("--weight_decay", type=int, default=0.01)
+        # parser.add_argument("--weight_decay", type=int, default=0.01)
         parser.add_argument("--total_num_updates", type=int, default=50000)
         parser.add_argument("--warmup_updates", type=int, default=500)
-        parser.add_argument("--num_workers", type=int, default=0)
-        parser.add_argument("--model_name", type=str, default="EleutherAI/gpt-j-6b")
+        # parser.add_argument("--num_workers", type=int, default=0)
+        # parser.add_argument("--model_name", type=str, default="EleutherAI/gpt-j-6b")
         parser.add_argument("--eps", type=float, default=0.1)
 
         # parser.add_argument("--num_beams", type=int, default=NUM_BEAMS)
@@ -276,7 +275,7 @@ class GPTJEditor(nn.Module):
             }
         else:
             raise ValueError('Device is not enough!')
-        self.model.model.parallelize(device_map=device_map)
+        self.model.model.parallelize(device_map={0: [_ for _ in range(28)]})
         self.original_model = copy.deepcopy(model)
         self.hidden_size = hidden_size
         self.device = device
@@ -423,8 +422,8 @@ class GPTJEditor(nn.Module):
         self.detectors = []
         self.model.eval()
         self.model.model.parallelize(device_map = {
-                0: [_ for _ in range(0, 14)],
-                1: [_ for _ in range(14, 28)],
+                0: [_ for _ in range(0, 28)],
+                # 1: [_ for _ in range(14, 28)],
             })
         self.get_detectors(
             detected_modules=self.detected_modules,
@@ -586,7 +585,7 @@ class GPTJEditor(nn.Module):
             }
         else:
             raise ValueError('Device is not enough!')
-        self.model.model.parallelize(device_map=device_map)
+        self.model.model.parallelize(device_map={0: [_ for _ in range(0, 28)]})
         # model_named_modules = {x[0]:x[1] for x in self.model.model.transformer.named_modules()}
         # for key, value in self.device_distribution.items():
         #

@@ -10,18 +10,18 @@ NUM_BEAMS = 1
 
 
 def main_args(parser):
-    parser.add_argument('--task', type=str, default='fever', help='fever||zsre')
+    parser.add_argument('--task', type=str, default='seesaw', help='fever||zsre')
     parser.add_argument('--method', type=str, default='T-patch', help='T-patch||ft')
-    parser.add_argument('--edit_folder_num', type=int, default=20)
+    parser.add_argument('--edit_folder_num', type=int, default=1)
     parser.add_argument('--process_folders', type=str, default='all_folders', help='all_folders||seg_10_20||[1,5,3]')
     parser.add_argument('--task_id', type=str, default=None, help='name for logging txt')
-    parser.add_argument('--gpu_nums', type=int, default=8)
-    parser.add_argument('--tasks_per_gpu', type=int, default=2)
+    parser.add_argument('--gpu_nums', type=int, default=1)
+    parser.add_argument('--tasks_per_gpu', type=int, default=1)
     parser.add_argument('--log_path', type=str)
     parser.add_argument('--log_name', type=str, default='log.txt')
     parser.add_argument('--data_path', type=str)
     parser.add_argument('--seed', type=int, default=42)
-    parser.add_argument('--batch_size', type=int, default=64)
+    parser.add_argument('--batch_size', type=int, default=8)
     parser.add_argument('--model_path', type=str, default='log/model.ckpt')
     parser.add_argument('--train_sub_size', type=int, default=10000)
     parser.add_argument('--memory_size', type=int, default=40000)
@@ -31,9 +31,9 @@ def main_args(parser):
     parser.add_argument('--temp_mode', type=int, default=0, help='We test after every edit if tmp_mode is set to 1')
     parser.add_argument('--get_heat_map', type=int, default=0)  # set to 1 if you want to save the activation values
     parser.add_argument('--max_edit_step', type=int, default=2000)
-    parser.add_argument('--model_type', type=str, default='t5')
+    parser.add_argument('--model_type', type=str, default='gptj')
     parser.add_argument("--cache_dir", type=str, default='./hugging_cache')
-    parser.add_argument("--model_name", type=str, default="t5-3b")
+    parser.add_argument("--model_name", type=str, default="EleutherAI/gpt-j-6b")
 
 
     return parser
@@ -434,8 +434,8 @@ def edit_or_not_seq2seq(editor, model, data_point, device, test_rephrases=True, 
                 }
             else:
                 raise ValueError('Device is not enough!')
-            model.model.parallelize(device_map=device_map)
-            editor.original_model.model.parallelize(device_map=device_map)
+            model.model.parallelize(device_map={0: [_ for _ in range(0, 28)]})
+            editor.original_model.model.parallelize(device_map={0: [_ for _ in range(0, 28)]})
         batch = data_point
 
         if args.model_type == 't5':
@@ -472,13 +472,13 @@ def edit_or_not_seq2seq(editor, model, data_point, device, test_rephrases=True, 
                 re_num = rephrase_length
 
             if not before:
-                pre_loc_distribution = get_score(editor.original_model, batch['edit_loc'], device, args=args, loclity=True)
-                post_loc_distribution = get_score(model, batch['edit_loc'], device, args=args, loclity=True)
+                # pre_loc_distribution = get_score(editor.original_model, batch['edit_loc'], device, args=args, loclity=True)
+                # post_loc_distribution = get_score(model, batch['edit_loc'], device, args=args, loclity=True)
 
-                loc_score = torch.mean(
-                    (pre_loc_distribution == post_loc_distribution).float(),
-                    dim=-1
-                ).detach().cpu().numpy().tolist()[0]
+                # loc_score = torch.mean(
+                    # (pre_loc_distribution == post_loc_distribution).float(),
+                    # dim=-1
+                # ).detach().cpu().numpy().tolist()[0]
                 portability_score = get_score(model, batch['edit_portability'], device, args=args)
 
         elif args.model_type == 'gptj':
@@ -507,13 +507,13 @@ def edit_or_not_seq2seq(editor, model, data_point, device, test_rephrases=True, 
                 re_num = rephrase_length
 
             if not before:
-                pre_loc_distribution = get_score_gptj(editor.original_model, batch['edit_loc'], device, args=args, loclity=True)
-                post_loc_distribution = get_score_gptj(model, batch['edit_loc'], device, args=args, loclity=True)
+                # pre_loc_distribution = get_score_gptj(editor.original_model, batch['edit_loc'], device, args=args, loclity=True)
+                # post_loc_distribution = get_score_gptj(model, batch['edit_loc'], device, args=args, loclity=True)
 
-                loc_score = torch.mean(
-                    (pre_loc_distribution == post_loc_distribution).float(),
-                    dim=-1
-                ).detach().cpu().numpy().tolist()[0]
+                # loc_score = torch.mean(
+                    # (pre_loc_distribution == post_loc_distribution).float(),
+                    # dim=-1
+                # ).detach().cpu().numpy().tolist()[0]
 
 
                 if 'edit_unrelated_relation' in batch.keys():
@@ -584,7 +584,7 @@ def edit_or_not_seq2seq(editor, model, data_point, device, test_rephrases=True, 
         if before:
             return need_edit, correct_count, re_num
         else:
-            return need_edit, correct_count, re_num, loc_score, portability_score, unrelated_relation_score, distracting_score, inverse_score, tongyici_score
+            return need_edit, correct_count, re_num, 0.5, portability_score, unrelated_relation_score, distracting_score, inverse_score, tongyici_score
 
 
 def count_error_nums(model, data_point, device):

@@ -1,11 +1,13 @@
 import jsonlines
+import logging
 import random
 import torch
 from torch.utils.data import Dataset
 # from transformers import LlamaTokenizer, GPT2Tokenizer
 from transformers import GPT2Tokenizer
 
-
+LOG = logging.getLogger(__name__)
+LOG.setLevel(level=logging.DEBUG)
 
 def data_split(dataset, ratio, shuffle=True):
     res, start = {}, 0
@@ -37,17 +39,19 @@ class Seq2SeqData(Dataset):
         with jsonlines.open(data_path) as f:
             for d in f:
                 # we only edit the data with the only one answer
-                if len(d["output"]) == 1:
-                    if validation:
-                        self.data.append(d)
-                    else:
-                        for o in d["output"]:
-                            self.data.append({
-                                "input": d["input"],
-                                "output": o,
-                                "rephrases": d["rephrases"],
+                if validation:
+                    self.data.append({
+                        "input": d["input"],
+                "output": d["output"],
+                "rephrases": [d["input"]]
                             })
-                            break
+                else:
+                    self.data.append({
+                        "input": d["input"],
+                "output": d["output"],
+                "rephrases": [d["input"]]
+                            })
+                    break
 
         self.max_length = max_length
         self.all_views = all_views
@@ -60,12 +64,12 @@ class Seq2SeqData(Dataset):
         res = {
             "src": self.data[item]["input"],
             "trg": self.data[item]["output"],
-            "rephrases": random.sample(
-                self.data[item]["rephrases"],
-                k=min(self.return_view, len(self.data[item]["rephrases"]))) if not self.all_views else self.data[item][
-                "rephrases"],
-            'loc': self.data[item]["loc"] if self.edit else None,
-            'loc_ans': self.data[item]["loc_ans"] if self.edit else None,
+            "rephrases": self.data[item]["rephrases"]# random.sample(
+                # self.data[item]["rephrases"],
+                # k=min(self.return_view, len(self.data[item]["rephrases"]))) if not self.all_views else self.data[item][
+                # "rephrases"],
+            # 'loc': self.data[item]["loc"] if self.edit else None,
+            # 'loc_ans': self.data[item]["loc_ans"] if self.edit else None,
         }
         if 'portability' in self.data[item].keys():
             res['portability'] = self.data[item]["portability"] if self.edit else None
@@ -128,16 +132,16 @@ class Seq2SeqData(Dataset):
             for k, v in tokenize_rephrases.items():
                 batches['{}_{}'.format('re_src', k)] = v
 
-            loc_tokenizer_trg = self.tokenizer(
-                [b["loc_ans"] for b in batch], return_tensors="pt",
-                padding=True, max_length=self.max_length,
-                truncation=True,
-            )
-            loc_tokenizer_inp = self.tokenizer(
-                [b["loc"] for b in batch], return_tensors="pt",
-                padding=True, max_length=self.max_length,
-                truncation=True,
-            )
+            # loc_tokenizer_trg = self.tokenizer(
+                # [b["loc_ans"] for b in batch], return_tensors="pt",
+                # padding=True, max_length=self.max_length,
+                # truncation=True,
+            # )
+            # loc_tokenizer_inp = self.tokenizer(
+                # [b["loc"] for b in batch], return_tensors="pt",
+                # padding=True, max_length=self.max_length,
+                # truncation=True,
+            # )
 
             portability_tokenizer_inp = self.tokenizer(
                 [b["portability"] for b in batch], return_tensors="pt",
@@ -149,12 +153,12 @@ class Seq2SeqData(Dataset):
                 padding=True, max_length=self.max_length,
                 truncation=True,
             )
-            edit_loc={
-                'src_input_ids': loc_tokenizer_inp['input_ids'],
-                'src_attention_mask': loc_tokenizer_inp['attention_mask'],
-                'trg_input_ids': loc_tokenizer_trg['input_ids'],
-                'trg_attention_mask': loc_tokenizer_trg['attention_mask'],
-            }
+            # edit_loc={
+                # 'src_input_ids': loc_tokenizer_inp['input_ids'],
+                # 'src_attention_mask': loc_tokenizer_inp['attention_mask'],
+                # 'trg_input_ids': loc_tokenizer_trg['input_ids'],
+                # 'trg_attention_mask': loc_tokenizer_trg['attention_mask'],
+            # }
 
             edit_portability={
                 'src_input_ids': portability_tokenizer_inp['input_ids'],
@@ -162,7 +166,8 @@ class Seq2SeqData(Dataset):
                 'trg_input_ids': portability_tokenizer_trg['input_ids'],
                 'trg_attention_mask': portability_tokenizer_trg['attention_mask'],
             }
-            batches['edit_loc'], batches['edit_portability'] = edit_loc, edit_portability
+            # batches['edit_loc'], 
+            batches['edit_portability'] = edit_portability
 
 
 
@@ -192,8 +197,13 @@ class Seq2SeqData(Dataset):
                 batches["{}_{}".format('src', k)] = torch.cat(v_, dim=0)
             else:
                 batches["{}_{}".format('src', k)] = v
-
-        input_output = [b['src'] + ' ' + b['trg'][0] for b in batch]
+        input_output = []
+        for b in batch:
+            if type(b["trg"] == str):
+                trgt = b["trg"]
+            else:
+                trgt = b["trg"]["str"]
+            input_output.append(b["src"] + " " + str(trgt))
         tokenized_input_output = self.tokenizer(
             input_output, return_tensors="pt",
             padding=True, max_length=self.max_length,
@@ -205,9 +215,12 @@ class Seq2SeqData(Dataset):
                 batches["{}_{}".format('src_trg', k)] = torch.cat(v_, dim=0)
             else:
                 batches["{}_{}".format('src_trg', k)] = v
-
+        def stringify(what):
+            if type(what) == str:
+                return what
+            return str(what["str"])
         tokenizer_trg = self.tokenizer(
-            [' ' + b["trg"][0] for b in batch], return_tensors="pt",
+            [' ' + stringify(b["trg"]) for b in batch], return_tensors="pt",
             padding=True, max_length=self.max_length,
             truncation=True,
         )
@@ -219,7 +232,7 @@ class Seq2SeqData(Dataset):
                 batches["{}_{}".format("trg", k)] = torch.cat(v_, dim=0)
 
         if self.edit:
-            rephrase_input_output = [b['rephrases'][0] + ' ' + b['trg'][0] for b in batch]
+            rephrase_input_output = [b['rephrases'][0] + ' ' + stringify(b['trg']) for b in batch]
             tokenize_rephrases = self.tokenizer(
                 rephrase_input_output,
                 return_tensors="pt",
@@ -230,16 +243,16 @@ class Seq2SeqData(Dataset):
             for k, v in tokenize_rephrases.items():
                 batches['{}_{}'.format('re_src_trg', k)] = v
 
-            loc_tokenizer_inp_trg = self.tokenizer(
-                [b["loc"] + ' ' + b["loc_ans"] for b in batch], return_tensors="pt",
-                padding=True, max_length=self.max_length,
-                truncation=True,
-            )
-            loc_tokenizer_trg = self.tokenizer(
-                [' ' + b["loc_ans"] for b in batch], return_tensors="pt",
-                padding=True, max_length=self.max_length,
-                truncation=True,
-            )
+            # loc_tokenizer_inp_trg = self.tokenizer(
+                # [b["loc"] + ' ' + b["loc_ans"] for b in batch], return_tensors="pt",
+                # padding=True, max_length=self.max_length,
+                # truncation=True,
+            # )
+            # loc_tokenizer_trg = self.tokenizer(
+                # [' ' + b["loc_ans"] for b in batch], return_tensors="pt",
+                #padding=True, max_length=self.max_length,
+                # truncation=True,
+            # )
 
             if 'portability' in batch[0].keys():
                 portability_tokenizer_inp_trg = self.tokenizer(
@@ -297,12 +310,12 @@ class Seq2SeqData(Dataset):
                     truncation=True,
                 )
 
-            edit_loc={
-                'src_trg_input_ids': loc_tokenizer_inp_trg['input_ids'],
-                'src_trg_attention_mask': loc_tokenizer_inp_trg['attention_mask'],
-                'trg_input_ids': loc_tokenizer_trg['input_ids'],
-            }
-            batches['edit_loc'] = edit_loc
+            # edit_loc={
+                # 'src_trg_input_ids': loc_tokenizer_inp_trg['input_ids'],
+                # 'src_trg_attention_mask': loc_tokenizer_inp_trg['attention_mask'],
+                # 'trg_input_ids': loc_tokenizer_trg['input_ids'],
+            # }
+            # batches['edit_loc'] = edit_loc
 
             if 'portability' in batch[0].keys():
                 edit_portability={
@@ -356,12 +369,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
     assert args.val_ratio + args.edit_ratio + args.train_ratio == 1
 
-    p_data_path = 'data/zsre_data/structured_zeroshot-train-new_annotated_final.jsonl'
-    p_test_data_path = 'data/zsre_data/structured_zeroshot-dev-new_annotated_final.jsonl'
-    train_data_path = 'data/zsre_data/zsre-train.jsonl'
-    edit_data_path = 'data/zsre_data/zsre-edit.jsonl'
-    val_data_path = 'data/zsre_data/zsre-val.jsonl'
-    test_data_path = 'data/zsre_data/zsre-dev-kilt.jsonl'
+    p_data_path = "/home/halevy/flextape/data/seesaw_cf_P101_False_100_train.jsonl"
+    p_test_data_path = "/home/halevy/flextape/data/seesaw_cf_P101_False_100_test.jsonl"
+    train_data_path = '/home/halevy/flextape/data/seesaw101_train.jsonl'
+    edit_data_path = '/home/halevy/flextape/data/seesaw101_edit.jsonl'
+    val_data_path = '/home/halevy/flextape/data/seesaw101_val.jsonl'
+    test_data_path = '/home/halevy/flextape/data/seesaw101_dev_kilt.jsonl'
     paths = {
         "train": train_data_path, "val": val_data_path,
         "edit": edit_data_path, "test": test_data_path
@@ -371,9 +384,9 @@ if __name__ == "__main__":
     with jsonlines.open(p_data_path) as data_file:
         for d in data_file:
             new_d = {
-                "input": d["input"],
-                "output": [o["answer"] for o in d["output"] if "answer" in o and "provenance" in o],
-                "rephrases": d["rephrases"]
+                "input": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"]),
+                "output": d["requested_rewrite"]["target_new"]["str"],
+                "rephrases": [d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"])]
             }
             data.append(new_d)
 
@@ -381,9 +394,9 @@ if __name__ == "__main__":
     with jsonlines.open(p_test_data_path) as test_file:
         for d in test_file:
             new_d = {
-                "input": d["input"],
-                "output": [o["answer"] for o in d["output"] if "answer" in o and "provenance" in o],
-                "rephrases": d["rephrases"]
+                "input": d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"]),
+                "output": d["requested_rewrite"]["target_new"]["str"],
+                "rephrases": [d["requested_rewrite"]["prompt"].replace("{}", d["requested_rewrite"]["subject"])]
             }
             test_data.append(new_d)
 

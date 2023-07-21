@@ -58,7 +58,7 @@ if __name__ == '__main__':
         args.log_path = f'log/{args.method}/{args.task}/{get_time_post_fix()}'
 
     # deal with the data_path
-    args.data_path = os.path.join('data', f'{args.task}_data')
+    args.data_path = "/home/halevy/flextape/data"
     f_h, s_h = get_handler(args.log_path, log_name=args.log_name)
     LOG.addHandler(f_h)
     LOG.addHandler(s_h)

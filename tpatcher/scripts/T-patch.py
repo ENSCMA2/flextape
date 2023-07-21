@@ -302,6 +302,9 @@ if __name__ == "__main__":
         if s <= edit_start_index:
             continue
         dl = DataLoader(dataset=ds, batch_size=1, collate_fn=seq_edit_data.edit_data.collate_fn, drop_last=True)
+        LOG.info("dl0")
+        for j in ds:
+            LOG.info(j)
         d0 = [j for j in dl][0]
         start_time = time.time()
         edit_times_tmp, ADD_NEURON_COUNT = editing(edit_times, ADD_NEURON_COUNT)
