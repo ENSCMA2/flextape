@@ -434,8 +434,8 @@ def edit_or_not_seq2seq(editor, model, data_point, device, test_rephrases=True, 
                 }
             else:
                 raise ValueError('Device is not enough!')
-            model.model.parallelize(device_map=device_map)
-            editor.original_model.model.parallelize(device_map=device_map)
+            model.model.parallelize(device_map={0: [_ for _ in range(0, 28)]})
+            editor.original_model.model.parallelize(device_map={0: [_ for _ in range(0, 28)]})
         batch = data_point
 
         if args.model_type == 't5':
