@@ -165,7 +165,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser = main_args(parser)
     parser.add_argument("--device", type=int, default=0)
-    parser.add_argument("--gpus", type=list, default=[0,1])
+    parser.add_argument("--gpus", type=list, default=[0,1,2])
     parser.add_argument("--fold_n", type=int, default=0)
     """The BartSeq2SeqEditor and BertBinaryEditor share the same arguments"""
     parser = BartSeq2SeqEditor.add_model_specific_args(parent_parser=parser)

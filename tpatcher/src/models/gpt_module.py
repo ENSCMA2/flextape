@@ -62,12 +62,32 @@ class GPTJSeq2Seq(LightningModule):
         self.save_hyperparameters()
         model_dir = os.path.join(self.hparams.cache_dir, self.hparams.model_name) \
             if "cache_dir" in self.hparams else self.hparams.model_name
+        if(len(args.gpus) == 2):
+            self.device_map = {
+                0: [_ for _ in range(0, 14)],
+                1: [_ for _ in range(14, 28)],
+            }
+        elif(len(args.gpus) == 3):
+            self.device_map = {
+                0: [_ for _ in range(0, 9)],
+                1: [_ for _ in range(9, 18)],
+                2: [_ for _ in range(18, 28)],
+            }
+        elif(len(args.gpus) == 4):
+            self.device_map = {
+                0: [_ for _ in range(0, 7)],
+                1: [_ for _ in range(7, 14)],
+                2: [_ for _ in range(14, 21)],
+                3: [_ for _ in range(21, 28)]
+            }
+        else:
+            raise ValueError('Device is not enough!')
         try:
             self.tokenizer = GPT2Tokenizer.from_pretrained(model_dir)
             self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
             self.tokenizer.padding_side = 'left'
             # self.model = GPTJForCausalLM.from_pretrained(model_dir, device_map='auto', torch_dtype=torch.float16)
-            self.model = GPTJForCausalLM.from_pretrained(model_dir)
+            self.model = GPTJForCausalLM.from_pretrained(model_dir, device_map = self.device_map)
 
             # self.config = T5Config.from_json_file(os.path.join(model_dir, 'config.json'))
             # self.model = T5ForConditionalGeneration(config=self.config)
@@ -87,11 +107,12 @@ class GPTJSeq2Seq(LightningModule):
             #     2: [_ for _ in range(12, 18)],
             #     3: [_ for _ in range(18, 24)]
             # }
-            # self.model.parallelize(device_map=self.device_map)
+            self.model.parallelize(device_map=self.device_map)
         except:
             print("The cache can not be used")
             self.tokenizer = GPT2Tokenizer.from_pretrained(self.hparams.model_name, cache_dir=self.hparams.cache_dir)  # have internet
             self.model = GPTJForCausalLM.from_pretrained(self.hparams.model_name, cache_dir=self.hparams.cache_dir)  # have internet
+            self.model.parallelize(device_map=self.device_map)
         # self.train_acc = Accuracy()
         # self.valid_acc = Accuracy()
         self.train_acc = Accuracy(task='binary')
@@ -150,7 +171,7 @@ class GPTJSeq2Seq(LightningModule):
         return {"loss": loss}
 
     def validation_step(self, batch, batch_idx=None):
-        # self.model.parallelize(device_map=self.device_map)
+        self.model.parallelize(device_map=self.device_map)
         trg = [b["trg"] for b in batch["raw"]]
         # batch["src_input_ids"] = batch["src_input_ids"].to(torch.device(self.hparams.device))
         # batch["src_attention_mask"] = batch["src_attention_mask"].to(torch.device(self.hparams.device))
@@ -256,18 +277,18 @@ class GPTJEditor(nn.Module):
         self.model = copy.deepcopy(model)
         self.args=args
         if(len(args.gpus) == 2):
-            device_map = {
+            self.device_map = {
                 0: [_ for _ in range(0, 14)],
                 1: [_ for _ in range(14, 28)],
             }
         elif(len(args.gpus) == 3):
-            device_map = {
+            self.device_map = {
                 0: [_ for _ in range(0, 9)],
                 1: [_ for _ in range(9, 18)],
                 2: [_ for _ in range(18, 28)],
             }
         elif(len(args.gpus) == 4):
-            device_map = {
+            self.device_map = {
                 0: [_ for _ in range(0, 7)],
                 1: [_ for _ in range(7, 14)],
                 2: [_ for _ in range(14, 21)],
@@ -275,7 +296,7 @@ class GPTJEditor(nn.Module):
             }
         else:
             raise ValueError('Device is not enough!')
-        self.model.model.parallelize(device_map=device_map)
+        self.model.model.parallelize(device_map=self.device_map)
         self.original_model = copy.deepcopy(model)
         self.hidden_size = hidden_size
         self.device = device
@@ -421,10 +442,27 @@ class GPTJEditor(nn.Module):
     def construct_memory(self, data: DataLoader, memory_size, device, update=False, memory_use='train'):
         self.detectors = []
         self.model.eval()
-        self.model.model.parallelize(device_map = {
+        if(len(args.gpus) == 2):
+            device_map = {
                 0: [_ for _ in range(0, 14)],
                 1: [_ for _ in range(14, 28)],
-            })
+            }
+        elif(len(args.gpus) == 3):
+            device_map = {
+                0: [_ for _ in range(0, 9)],
+                1: [_ for _ in range(9, 18)],
+                2: [_ for _ in range(18, 28)],
+            }
+        elif(len(args.gpus) == 4):
+            device_map = {
+                0: [_ for _ in range(0, 7)],
+                1: [_ for _ in range(7, 14)],
+                2: [_ for _ in range(14, 21)],
+                3: [_ for _ in range(21, 28)]
+            }
+        else:
+            raise ValueError('Device is not enough!')
+        self.model.model.parallelize(device_map = device_map)
         self.get_detectors(
             detected_modules=self.detected_modules,
             memory_loc='bart_seq', hidden_loc='bart_seq'
