@@ -486,9 +486,9 @@ class GPTJEditor(nn.Module):
             #     input_ids, attention_mask,
             #     decoder_input_ids[:, :-1], decoder_attention_mask[:, :-1]
             # )
-            self.model(
-                input_ids, attention_mask
-            )
+            # self.model(
+            #    input_ids, attention_mask
+            # )
 
         for d in self.detectors:
             name = d['module']+'.'+d['child']
