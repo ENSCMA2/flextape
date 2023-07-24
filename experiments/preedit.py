@@ -142,7 +142,7 @@ def main(
                 "grouped_case_ids": case_ids,
                 "num_edits": num_edits,
                 "requested_rewrite": record["requested_rewrite"],
-                "time": exec_time,
+                # "time": exec_time,
                 "pre": ds_eval_method(
                     model,
                     tok,
