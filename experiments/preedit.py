@@ -131,7 +131,7 @@ def main(
         log("about to evaluate")
         start = time()
         gen_test_vars = [snips, vec]
-        for record in record_chunks[204:]:
+        for record in record_chunks:
             out_file = Path(case_result_template.format(num_edits, record["case_id"]))
             if out_file.exists():
                 print(f"Skipping {out_file}; already exists")
@@ -156,6 +156,7 @@ def main(
             }
 
             # Dump metrics in .json
+            print(out_file)
             with open(out_file, "w") as f:
                 json.dump(metrics, f, indent=1)
 
