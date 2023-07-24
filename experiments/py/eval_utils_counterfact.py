@@ -70,8 +70,8 @@ def compute_rewrite_quality_counterfact(
         probs_b, targets_correct_b = test_batch_prediction(
             model,
             tok,
-            prob_prompts_chain[done:last],
-            which_correct_chain[done:last],
+            prob_prompts_chain[done:last + 1],
+            which_correct_chain[done:last + 1],
             target_new["str"],
             target_true["str"],
         )
