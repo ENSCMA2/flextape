@@ -66,15 +66,15 @@ def main(
     print(f"Results will be stored at {run_dir}")
 
     # Get run hyperparameters
-    params_path = (
-        run_dir / "params.json"
-        if continue_from_run is not None
-        else HPARAMS_DIR / alg_name / hparams_fname
-    )
-    hparams = params_class.from_json(params_path)
-    if not (run_dir / "params.json").exists():
-        shutil.copyfile(params_path, run_dir / "params.json")
-    log(f"Executing {alg_name} with parameters {hparams}")
+    # params_path = (
+        # run_dir / "params.json"
+        # if continue_from_run is not None
+        # else HPARAMS_DIR / alg_name / hparams_fname
+    # )
+    # hparams = params_class.from_json(params_path)
+    # if not (run_dir / "params.json").exists():
+        # shutil.copyfile(params_path, run_dir / "params.json")
+    # log(f"Executing {alg_name} with parameters {hparams}")
 
     # Instantiate vanilla model
     if type(model_name) is str:
@@ -158,11 +158,6 @@ def main(
             # Dump metrics in .json
             with open(out_file, "w") as f:
                 json.dump(metrics, f, indent=1)
-
-        # Restore original weights
-        with torch.no_grad():
-            for k, v in weights_copy.items():
-                nethook.get_parameter(model, k)[...] = v.to("cuda")
 
         print("Evaluation took", time() - start)
 

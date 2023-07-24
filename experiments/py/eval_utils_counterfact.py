@@ -142,7 +142,8 @@ def test_batch_prediction(
     """
     which_correct: Which target to consider correct. Either 0 for "new" or 1 for "true".
     """
-
+    print("prefixes")
+    print(prefixes)
     prefix_lens = [len(n) for n in tok(prefixes)["input_ids"]]
     prompt_tok = tok(
         [
