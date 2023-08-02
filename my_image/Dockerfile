@@ -72,15 +72,15 @@ WORKDIR ${REPO_DIR}
 # Setup github repo dependencies
 # Note that, you cannot activate an environment with the RUN command, as each RUN command is like a new session.
 # Thus we instead call conda at the beginning of the pip or python command the way shown here:
-RUN ${CONDA} run -n myenv pip install torch
-RUN ${CONDA} run -n myenv pip install transformers
-RUN ${CONDA} run -n myenv pip install datasets
-RUN ${CONDA} run -n myenv pip install higher
-RUN ${CONDA} run -n myenv pip install hydra
-RUN ${CONDA} run -n myenv pip install scipy
-RUN ${CONDA} run -n myenv pip install scikit-learn
-RUN ${CONDA} run -n myenv pip install nltk
-RUN ${CONDA} run -n myenv pip install matplotlib
+RUN ${CONDA} run -n myenv pip install jsonlines==3.1.0
+RUN ${CONDA} run -n myenv pip install nltk==3.6.7
+RUN ${CONDA} run -n myenv pip install numpy==1.22.3
+RUN ${CONDA} run -n myenv pip install openai==0.25.0
+RUN ${CONDA} run -n myenv pip install sentence_transformers==2.2.0
+RUN ${CONDA} run -n myenv pip install spacy==3.2.3
+RUN ${CONDA} run -n myenv pip install torch==1.11.0
+RUN ${CONDA} run -n myenv pip install tqdm==4.56.0
+RUN ${CONDA} run -n myenv pip install transformers==4.24.0
 
 WORKDIR ${REPO_DIR}
 # Install OpenSSH for MPI to communicate between containers
