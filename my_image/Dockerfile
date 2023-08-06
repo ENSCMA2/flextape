@@ -67,20 +67,12 @@ RUN --mount=type=secret,id=my_env source /run/secrets/my_env && \
 RUN --mount=type=secret,id=my_env source /run/secrets/my_env && \
 	git clone https://${GITHUB_PERSONAL_TOKEN}@github.com/${GITHUB_USERNAME}/flextape.git
 # Make this repo your WORKDIR
-WORKDIR ${REPO_DIR}
+WORKDIR ${REPO_DIR}/tpatcher
 
 # Setup github repo dependencies
 # Note that, you cannot activate an environment with the RUN command, as each RUN command is like a new session.
 # Thus we instead call conda at the beginning of the pip or python command the way shown here:
-RUN ${CONDA} run -n myenv pip install jsonlines==3.1.0
-RUN ${CONDA} run -n myenv pip install nltk==3.6.7
-RUN ${CONDA} run -n myenv pip install numpy==1.22.3
-RUN ${CONDA} run -n myenv pip install openai==0.25.0
-RUN ${CONDA} run -n myenv pip install sentence_transformers==2.2.0
-RUN ${CONDA} run -n myenv pip install spacy==3.2.3
-RUN ${CONDA} run -n myenv pip install torch==1.11.0
-RUN ${CONDA} run -n myenv pip install tqdm==4.56.0
-RUN ${CONDA} run -n myenv pip install transformers==4.24.0
+RUN ${CONDA} run -n myenv pip install -r requirements.txt
 
 WORKDIR ${REPO_DIR}
 # Install OpenSSH for MPI to communicate between containers
@@ -124,4 +116,4 @@ USER ${USER_NAME}
 
 RUN chmod +x ./entrypoint.sh
 # ENTRYPOINT ["/usr/sbin/sshd", "-D"] # useful if you are **not** using the USER command and using the image just as root
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "entrypoint.sh"]

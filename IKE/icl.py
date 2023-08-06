@@ -89,11 +89,11 @@ if __name__ == '__main__':
 
     lines = []
 
-    with open('./counterfact.json', 'r') as f:
+    with open('./seesaw_cf_P101_False_100.json', 'r') as f:
         lines = json.load(f)
     icl_examples = []
-    demos = lines[2000:]
-    lines = lines[:2000]
+    demos = lines[32:] # 82 for p103
+    lines = lines[:32]
     calibrate_magnitude = .0
     success_cnt = 0
     para_success_cnt = 0
@@ -138,29 +138,18 @@ if __name__ == '__main__':
             orig_success_cnt += 1
         orig_magnitude += edit_final_probs[0] - edit_final_probs[1]
 
-
         targets = [target_new, target_true]
 
-        paraphrases = line['paraphrase_prompts']
-        for paraphrase in paraphrases:
-            paraphrase_ppls = icl_lm_eval(model, tokenizer, icl_examples, [target_new, target_true], f'New Fact: {prompt} {target_new}\nPrompt: {paraphrase}')
-            paraphrase_final_probs = [1 / paraphrase_ppls[0], 1 / paraphrase_ppls[1]]
+        attrs = line['attribute_prompts']
+        for attr in attrs:
+            attr_ppls = icl_lm_eval(model, tokenizer, icl_examples, [target_new, target_true], f'New Fact: {prompt} {target_new}\nPrompt: {attr}')
+            attr_final_probs = [1 / attr_ppls[0], 1 / attr_ppls[1]]
             
-            if paraphrase_final_probs[0] > paraphrase_final_probs[1]:
-                para_success_cnt += 1
-            para_magnitude += paraphrase_final_probs[0] - paraphrase_final_probs[1]
-            para_total_cnt += 1
-
-        neighbors = line['neighborhood_prompts']
-        for neighbor in neighbors:
-            neighbor_ppls = icl_lm_eval(model, tokenizer, icl_examples, [target_true, target_new], f'New Fact: {prompt} {target_new}\nPrompt: {neighbor}')
-            neighbor_final_probs = [1 / neighbor_ppls[0], 1 / neighbor_ppls[1]]
-            
-            if neighbor_final_probs[0] > neighbor_final_probs[1]:
-                success_cnt += 1
-            magnitude += neighbor_final_probs[0] - neighbor_final_probs[1]
-            total_cnt += 1
+            if attr_final_probs[0] > attr_final_probs[1]:
+                attr_success_cnt += 1
+            attr_magnitude += attr_final_probs[0] - attr_final_probs[1]
+            attr_total_cnt += 1
 
 
 
-    print(success_cnt/total_cnt, magnitude/total_cnt, para_success_cnt/para_total_cnt, para_magnitude/para_total_cnt, orig_success_cnt/orig_total_cnt, orig_magnitude/orig_total_cnt)
+    print(success_cnt/total_cnt, magnitude/total_cnt, attr_success_cnt/attr_total_cnt, attr_magnitude/attr_total_cnt, orig_success_cnt/orig_total_cnt, orig_magnitude/orig_total_cnt)

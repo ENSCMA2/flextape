@@ -13,7 +13,7 @@ from transformers import (
 )
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 from .patch import ModifyLinearOutput, ModuleDetector, ModifyLinearInput
-# from deepspeed.ops.adam import DeepSpeedCPUAdam, FusedAdam
+from deepspeed.ops.adam import DeepSpeedCPUAdam, FusedAdam
 # from pytorch_lightning.strategies import DeepSpeedStrategy
 from ..dataset.zsre_dataloader import Seq2SeqData
 from ..utils import label_smoothed_nll_loss, get_kl_diver_loss, NUM_BEAMS, patch_related_args
