@@ -4,7 +4,7 @@ from scipy.special import kl_div
 
 wiki_prefix = "http://www.wikidata.org/entity/"
 
-def gen_metrics(p, result_dir, n, presult_dir):
+def gen_metrics(p, result_dir, n, presult_dir, patch = False):
 	p_file = f"../data/seesaw_cf_{p}_False_100.json"
 	all_metrics = []
 	with open(p_file) as o:
@@ -27,16 +27,18 @@ def gen_metrics(p, result_dir, n, presult_dir):
 				return hope == prop
 			return False
 		genders = [wiki[f"{wiki_prefix}{subj}"]["properties"]["P21"] for subj in entities]
-		men = [i for i in range(len(genders)) if match(genders[i], "Q6581097")]
-		women = [i for i in range(len(genders)) if match(genders[i], "Q6581072")]
+		
 		assert(len(men) + len(women) == len(genders))
 		with open(f"{result_dir}{n}_edits-case_{case_id}.json") as result:
 			res = json.load(result)
 		probs = res["post"]["attribute_prompts_probs"]
+		if patch:
+			with open(f"{result_dir}10000_edits-case_{case_id}.json") as result:
+				res2 = json.load(result)
+			probs.extend(res2["post"]["attribute_prompts_probs"])
 		print(f"probs length {len(probs)}, genders length {len(genders)}, entities length {len(entities)}")
-		print(probs[-5:])
-		print(genders[-5:])
-		print(entities[-5:])
+		men = [i for i in range(min(len(genders), len(probs))) if match(genders[i], "Q6581097") or match(genders[i], "Q2449503")]
+		women = [i for i in range(min(len(genders), len(probs))) if match(genders[i], "Q6581072") or match(genders[i], "Q1052281")]
 		def get_gender_breakdown(probs):
 			men_probs = [probs[i] for i in men]
 			women_probs = [probs[i] for i in women]
@@ -52,13 +54,13 @@ def gen_metrics(p, result_dir, n, presult_dir):
 			pres = json.load(result)
 		pre_probs = pres["pre"]["attribute_prompts_probs"]
 		mnp, wnp, mtp, wtp, mdp, wdp = get_gender_breakdown(pre_probs)
+		# take top 4 or 5 ethnic groups
 
 		metrics = {}
 		metrics["neg_log_prob_diff_diffs_male"] = md - mdp
 		metrics["neg_log_prob_diff_diffs_female"] = wd - wdp
-		metrics["kl_div_male"] = kl_div(md, mdp)
-		metrics["kl_div_female"] = kl_div(wd, wdp)
-		metrics["kl_div"] = kl_div(md - mdp, wd - wdp)
+		metrics["kl_div_male"] = kl_div(np.exp(-md), np.exp(-mdp))
+		metrics["kl_div_female"] = kl_div(np.exp(-wd), np.exp(-wdp))
 		metrics["pre"] = {"mean_neg_log_prob_diff_male": np.mean(mdp),
 						  "mean_neg_log_prob_diff_female": np.mean(wdp),
 						  "stdev_neg_log_prob_diff_male": np.std(mdp),
@@ -75,10 +77,10 @@ def gen_metrics(p, result_dir, n, presult_dir):
 	with open(f"results/{p}.json", "w") as o:
 		json.dump(all_metrics, o)
 
-gen_metrics("P101", "../results/MEMIT/p101/", 898, "../results/NONE/p101/")
-# gen_metrics("P103", "../results/MEMIT/p103/", 898, "../results/NONE/p103/")
-gen_metrics("P101", "../results/FT/p101/", 898, "../results/NONE/p101/")
-# gen_metrics("P103", "../results/FT/p103/", 898, "../results/NONE/p103/")
+gen_metrics("P101", "../results/MEMIT/p101final/", 898, "../results/OG/p101/", patch = True)
+# gen_metrics("P103", "../results/MEMIT/p103final/", 898, "../results/OG/p103/", patch = True)
+# gen_metrics("P101", "../results/FT/p101/", 898, "../results/OG/p101/")
+# gen_metrics("P103", "../results/FT/p103/", 898, "../results/OG/p103/")
 		
 
 
