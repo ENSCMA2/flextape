@@ -258,9 +258,9 @@ def editor_inputs_from_batch(
 
     # Pull out expected values.
     entities = _maybe_batch(batch["entity"])
-    related_entities = _maybe_batch(batch["source"]["attribute_aux_ent"])
+    # related_entities = _maybe_batch(batch["source"]["attribute_aux_ent"])
     prompts = _maybe_batch(batch["prompt"])
-    related_prompts = _maybe_batch(batch["source"]["attribute_prompts"])
+    # related_prompts = _maybe_batch(batch["source"]["attribute_prompts"])
     contexts = _maybe_batch(batch["context"])
     attributes = _maybe_batch(batch["attribute"])
 
@@ -307,9 +307,9 @@ def editor_inputs_from_batch(
             ),
             (
                 "prompt",
-                "entity", # prompts, entities,
-                list(chain(*[list(p) for p in related_prompts])),
-                list(chain(*[list(p) for p in related_entities])),
+                "entity", prompts, entities,
+                # list(chain(*[list(p) for p in related_prompts])),
+                # list(chain(*[list(p) for p in related_entities])),
                 prompt_inputs,
                 prompt_offset_mapping,
                 entity_occurrence_in_prompt,
