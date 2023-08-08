@@ -54,7 +54,7 @@ RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -
 RUN bash miniconda.sh -b -p ${CONDA_PREFIX}
 RUN ${CONDA} config --set auto_activate_base false
 RUN ${CONDA} init bash
-RUN ${CONDA} create --name myenv python=3.9.7
+RUN ${CONDA} create --name myenv python=3.10
 
 # Git configuration (optional, you can also use a repo saved in the NFS)
 RUN --mount=type=secret,id=my_env source /run/secrets/my_env && \
@@ -67,7 +67,7 @@ RUN --mount=type=secret,id=my_env source /run/secrets/my_env && \
 RUN --mount=type=secret,id=my_env source /run/secrets/my_env && \
 	git clone https://${GITHUB_PERSONAL_TOKEN}@github.com/${GITHUB_USERNAME}/flextape.git
 # Make this repo your WORKDIR
-WORKDIR ${REPO_DIR}/REMEDI
+WORKDIR ${REPO_DIR}/REMEDI-main
 
 # Setup github repo dependencies
 # Note that, you cannot activate an environment with the RUN command, as each RUN command is like a new session.
@@ -95,6 +95,7 @@ RUN ${CONDA} run -n myenv pip install tqdm
 RUN ${CONDA} run -n myenv pip install transformers
 RUN ${CONDA} run -n myenv pip install torch
 RUN ${CONDA} run -n myenv pip install wget
+RUN ${CONDA} run -n myenv pip install jsonlines
 
 WORKDIR ${REPO_DIR}
 # Install OpenSSH for MPI to communicate between containers
