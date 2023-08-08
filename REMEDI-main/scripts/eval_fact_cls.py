@@ -23,10 +23,10 @@ def main(args: argparse.Namespace) -> None:
     n_layers = len(models.determine_layers(mt))
 
     if args.small:
-        split = "train[5000:6000]"
+        split = "train"
     else:
-        split = "train[5000:10000]"
-    dataset = data.load_dataset("counterfact", split=split)
+        split = "train"
+    dataset = data.load_dataset("seesaw_101", split=split)
     dataset = precompute.from_args(args, dataset)
 
     editors_dir = args.editors_dir
