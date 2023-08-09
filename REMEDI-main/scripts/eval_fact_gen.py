@@ -134,7 +134,7 @@ def main(args: argparse.Namespace) -> None:
         split = "train"
     else:
         split = "train"
-    dataset = data.load_dataset("seesaw_101", split=split)
+    dataset = data.load_dataset("seesaw_103", split=split)
     dataset = precompute.from_args(args, dataset)
     attribute_snippets = data.load_attribute_snippets()
     tfidf_vectorizer = data.load_counterfact_tfidf_vectorizer()
