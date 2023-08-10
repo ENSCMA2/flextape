@@ -139,4 +139,4 @@ USER ${USER_NAME}
 
 RUN chmod +x ./entrypoint.sh
 # ENTRYPOINT ["/usr/sbin/sshd", "-D"] # useful if you are **not** using the USER command and using the image just as root
-ENTRYPOINT ["/bin/bash", "entrypoint.sh"]
+ENTRYPOINT ["/bin/bash"]
