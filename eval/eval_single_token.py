@@ -19,6 +19,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		with open(f"{result_dir}paraphrase.json") as o:
 			res = json.load(o)
 			res = res["samples"]
+			res = {r["id"]: r["prompts"] for r in res}
 	for question in the_question:
 		case_id = question["case_id"]
 		entities = question["attribute_aux_info"]
@@ -42,19 +43,25 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 				with open(f"{result_dir}{n}_edits-case_{case_id}.json") as result:
 					res = json.load(result)
 				probs = res["post"]["attribute_prompts_probs"] if method != "PROMPTING" else res["pre"]["attribute_prompts_probs"]
-				# if patch:
-				# 	with open(f"{result_dir}10000_edits-case_{case_id}.json") as result:
-				# 		res2 = json.load(result)
-				# 	probs.extend(res2["post"]["attribute_prompts_probs"])
+				if patch:
+					with open(f"{result_dir}10000_edits-case_{case_id}.json") as result:
+						res2 = json.load(result)
+					probs.extend(res2["post"]["attribute_prompts_probs"])
 			except Exception as e:
 				print(e)
 				continue
 		else:
-			relevant_res = [r for r in res if r["id"] == str(case_id)]
-			if len(relevant_res) == 0:
+			try:
+				relevant_res = res[str(case_id)]
+				try:
+					print(len(relevant_res))
+					interm = list(chain(*[r for r in relevant_res]))
+					probs = [{"target_new": p["target_score"], "target_true": p["comparator_score"]} for p in interm]
+				except Exception as e:
+					print(f"exception on printing, {e}")
+			except Exception as e:
+				print(e)
 				continue
-			interm = list(chain(*[r["prompts"] for r in relevant_res]))
-			probs = [{"target_new": p["target_score"], "target_true": p["comparator_score"]} for p in interm]
 		print(f"probs length {len(probs)}, genders length {len(genders)}, entities length {len(entities)}")
 		men = [i for i in range(min(len(genders), len(probs), len(entities))) if match(genders[i], "Q6581097") or match(genders[i], "Q2449503")]
 		women = [i for i in range(min(len(genders), len(probs), len(entities))) if match(genders[i], "Q6581072") or match(genders[i], "Q1052281")]
@@ -65,8 +72,8 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			women_probs_new = np.array([i["target_new"] for i in women_probs])
 			men_probs_true = np.array([i["target_true"] for i in men_probs])
 			women_probs_true = np.array([i["target_true"] for i in women_probs])
-			plain_diff_men = men_probs_new - men_probs_true
-			plain_diff_women = women_probs_new - women_probs_true
+			plain_diff_men = np.exp(-men_probs_new) - np.exp(-men_probs_true)
+			plain_diff_women = np.exp(-women_probs_new) - np.exp(-women_probs_true)
 			return men_probs_new, women_probs_new, men_probs_true, women_probs_true, plain_diff_men, plain_diff_women
 		mn, wn, mt, wt, md, wd = get_gender_breakdown(probs)
 		amn = np.concatenate((amn, mn))
@@ -96,8 +103,8 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		metrics["neg_log_prob_diff_diffs_female"] = (wd - wdp).tolist()
 		assert(len(md) == len(mdp))
 		assert(len(wd) == len(wdp))
-		metrics["kl_div_male"] = kl_divergence(np.exp(-md), np.exp(-mdp)).tolist()
-		metrics["kl_div_female"] = kl_divergence(np.exp(-wd), np.exp(-wdp)).tolist()
+		# metrics["kl_div_male"] = kl_divergence(np.exp(-md), np.exp(-mdp)).tolist()
+		# metrics["kl_div_female"] = kl_divergence(np.exp(-wd), np.exp(-wdp)).tolist()
 		metrics["pre"] = {"mean_neg_log_prob_diff_male": np.mean(mdp),
 						  "mean_neg_log_prob_diff_female": np.mean(wdp),
 						  "stdev_neg_log_prob_diff_male": np.std(mdp),
@@ -111,27 +118,26 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 							"target_new": question["requested_rewrite"]["target_new"],
 							"target_true": question["requested_rewrite"]["target_true"],
 							"metrics": metrics})
-	overall_metrics["kl_div_male"] = kl_divergence(np.exp(-amd), np.exp(-amdp)).tolist()
-	overall_metrics["kl_div_female"] = kl_divergence(np.exp(-awd), np.exp(-awdp)).tolist()
+	# overall_metrics["kl_div_male"] = kl_divergence(np.exp(-amd), np.exp(-amdp)).tolist()
+	# overall_metrics["kl_div_female"] = kl_divergence(np.exp(-awd), np.exp(-awdp)).tolist()
 	overall_metrics["pre"] = {"mean_neg_log_prob_diff_male": np.mean(amdp),
 						  "mean_neg_log_prob_diff_female": np.mean(awdp),
 						  "stdev_neg_log_prob_diff_male": np.std(amdp),
 						  "stdev_neg_log_prob_diff_female": np.std(awdp)}
 	overall_metrics["post"] = {"mean_neg_log_prob_diff_male": np.mean(amd),
 						  "mean_neg_log_prob_diff_female": np.mean(awd),
-						  "stdev_neg_log_prob_diff_male": np.std(amdp),
-						  "stdev_neg_log_prob_diff_female": np.std(awdp)}
+						  "stdev_neg_log_prob_diff_male": np.std(amd),
+						  "stdev_neg_log_prob_diff_female": np.std(awd)}
 	with open(f"../results/{p}_{method}.json", "w") as o:
 		json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
 
-# gen_metrics("P101", "../results/MEMIT/p101final/", 898, "../results/OG/p101/", "MEMIT", patch = True)
-# gen_metrics("P103", "../results/MEMIT/p103final/", 898, "../results/OG/p103/", "MEMIT")
-# gen_metrics("P101", "../results/FT/p101/", 898, "../results/OG/p101/", "FT", patch = True)
-# gen_metrics("P103", "../results/FT/p103/", 898, "../results/OG/p103/", "FT")
-gen_metrics("P101", "../results/PROMPTING/p101/", 1, "../results/OG/p101/", "PROMPTING", patch = True)
-gen_metrics("P103", "../results/PROMPTING/p103/", 1, "../results/OG/p103/", "PROMPTING")
-gen_metrics("P101", "../results/REMEDI/p101/linear/1/", 1, "../results/OG/p101/", "REMEDI", patch = True)
-gen_metrics("P103", "../results/REMEDI/p103/linear/1/", 1, "../results/OG/p103/", "REMEDI")
+gen_metrics("P101", "../results/MEMIT/p101final/", 898, "../results/OG/p101/", "MEMIT", patch = True)
+gen_metrics("P103", "../results/MEMIT/p103final/", 898, "../results/OG/p103/", "MEMIT")
+gen_metrics("P101", "../results/FT/p101/", 898, "../results/OG/p101/", "FT", patch = True)
+gen_metrics("P103", "../results/FT/p103/", 898, "../results/OG/p103/", "FT")
+# gen_metrics("P101", "../results/PROMPTING/p101/", 1, "../results/OG/p101/", "PROMPTING", patch = True)
+# gen_metrics("P103", "../results/PROMPTING/p103/", 1, "../results/OG/p103/", "PROMPTING")
+
 
 
 
