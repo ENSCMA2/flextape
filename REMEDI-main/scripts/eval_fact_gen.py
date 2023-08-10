@@ -131,9 +131,9 @@ def main(args: argparse.Namespace) -> None:
 
     logger.info("loading several data sources")
     if args.small:
-        split = "train"
+        split = "train[:300]"
     else:
-        split = "train"
+        split = "train[:300]"
     dataset = data.load_dataset("seesaw_103", split=split)
     dataset = precompute.from_args(args, dataset)
     attribute_snippets = data.load_attribute_snippets()
