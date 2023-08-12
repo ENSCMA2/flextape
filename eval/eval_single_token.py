@@ -13,6 +13,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 	overall_metrics = {}
 	amn, awn, amt, awt, amd, awd = np.array([]), np.array([]), np.array([]), np.array([]), np.array([]), np.array([])
 	amnp, awnp, amtp, awtp, amdp, awdp = np.array([]), np.array([]), np.array([]), np.array([]), np.array([]), np.array([])
+	amm, awm, ammp, awmp = [], [], [], []
 	with open(p_file) as o:
 		the_question = json.load(o)
 	if method == "REMEDI":
@@ -75,13 +76,22 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			plain_diff_men = np.exp(-men_probs_new) - np.exp(-men_probs_true)
 			plain_diff_women = np.exp(-women_probs_new) - np.exp(-women_probs_true)
 			return men_probs_new, women_probs_new, men_probs_true, women_probs_true, plain_diff_men, plain_diff_women
+		def get_kl(probs):
+			men_probs = np.array([[np.exp(-probs[i]["target_new"]), np.exp(-probs[i]["target_true"]), 1 - np.exp(-probs[i]["target_new"]) - np.exp(-probs[i]["target_true"])] for i in men])
+			women_probs = np.array([[np.exp(-probs[i]["target_new"]), np.exp(-probs[i]["target_true"]), 1 - np.exp(-probs[i]["target_new"]) - np.exp(-probs[i]["target_true"])] for i in women])
+			men_mean = np.mean(men_probs, axis = 0)
+			women_mean = np.mean(women_probs, axis = 0)
+			return men_mean, women_mean
 		mn, wn, mt, wt, md, wd = get_gender_breakdown(probs)
+		mm, wm = get_kl(probs)
 		amn = np.concatenate((amn, mn))
 		awn = np.concatenate((awn, wn))
 		amt = np.concatenate((amt, mt))
 		awt = np.concatenate((awt, wt))
 		amd = np.concatenate((amd, md))
 		awd = np.concatenate((awd, wd))
+		amm.append(mm)
+		awm.append(wm)
 		with open(f"{presult_dir}1_edits-case_{case_id}.json") as result:
 			pres = json.load(result)
 		pre_probs = pres["pre"]["attribute_prompts_probs"]
@@ -90,12 +100,15 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 				pres2 = json.load(result)
 			pre_probs += pres2["pre"]["attribute_prompts_probs"]
 		mnp, wnp, mtp, wtp, mdp, wdp = get_gender_breakdown(pre_probs)
+		mmp, wmp = get_kl(pre_probs)
 		amnp = np.concatenate((amnp, mnp))
 		awnp = np.concatenate((awnp, wnp))
 		amtp = np.concatenate((amtp, mtp))
 		awtp = np.concatenate((awtp, wtp))
 		amdp = np.concatenate((amdp, mdp))
 		awdp = np.concatenate((awdp, wdp))
+		ammp.append(mmp)
+		awmp.append(wmp)
 		# take top 4 or 5 ethnic groups
 
 		metrics = {}
@@ -103,8 +116,10 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		metrics["neg_log_prob_diff_diffs_female"] = (wd - wdp).tolist()
 		assert(len(md) == len(mdp))
 		assert(len(wd) == len(wdp))
-		# metrics["kl_div_male"] = kl_divergence(np.exp(-md), np.exp(-mdp)).tolist()
-		# metrics["kl_div_female"] = kl_divergence(np.exp(-wd), np.exp(-wdp)).tolist()
+		metrics["kl_div_post"] = kl_divergence(mm, wm).tolist()
+		metrics["kl_div_pre"] = kl_divergence(mmp, wmp).tolist()
+		metrics["kl_div_male"] = kl_divergence(mm, mmp).tolist()
+		metrics["kl_div_female"] = kl_divergence(wm, wmp).tolist()
 		metrics["pre"] = {"mean_neg_log_prob_diff_male": np.mean(mdp),
 						  "mean_neg_log_prob_diff_female": np.mean(wdp),
 						  "stdev_neg_log_prob_diff_male": np.std(mdp),
@@ -118,8 +133,10 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 							"target_new": question["requested_rewrite"]["target_new"],
 							"target_true": question["requested_rewrite"]["target_true"],
 							"metrics": metrics})
-	# overall_metrics["kl_div_male"] = kl_divergence(np.exp(-amd), np.exp(-amdp)).tolist()
-	# overall_metrics["kl_div_female"] = kl_divergence(np.exp(-awd), np.exp(-awdp)).tolist()
+	overall_metrics["kl_div_post"] = kl_divergence(np.mean(amm, axis = 0), np.mean(awm, axis = 0)).tolist()
+	overall_metrics["kl_div_pre"] = kl_divergence(np.mean(ammp, axis = 0), np.mean(awmp, axis = 0)).tolist()
+	overall_metrics["kl_div_male"] = kl_divergence(np.mean(amm, axis = 0), np.mean(ammp, axis = 0)).tolist()
+	overall_metrics["kl_div_female"] = kl_divergence(np.mean(awm, axis = 0), np.mean(awmp, axis = 0)).tolist()
 	overall_metrics["pre"] = {"mean_neg_log_prob_diff_male": np.mean(amdp),
 						  "mean_neg_log_prob_diff_female": np.mean(awdp),
 						  "stdev_neg_log_prob_diff_male": np.std(amdp),

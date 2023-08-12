@@ -20,7 +20,11 @@ def visualize(f):
 					  c["pre"]["stdev_neg_log_prob_diff_male"],
 					  c["post"]["stdev_neg_log_prob_diff_male"], 
 					  c["pre"]["stdev_neg_log_prob_diff_female"],
-					  c["post"]["stdev_neg_log_prob_diff_female"]])
+					  c["post"]["stdev_neg_log_prob_diff_female"],
+					  c["kl_div_pre"],
+					  c["kl_div_post"],
+					  c["kl_div_male"],
+					  c["kl_div_female"]])
 	table.append(["overall", 
 				  overall["pre"]["mean_neg_log_prob_diff_male"],
 				  overall["post"]["mean_neg_log_prob_diff_male"], 
@@ -31,7 +35,11 @@ def visualize(f):
 				  overall["pre"]["stdev_neg_log_prob_diff_male"],
 				  overall["post"]["stdev_neg_log_prob_diff_male"], 
 				  overall["pre"]["stdev_neg_log_prob_diff_female"],
-				  overall["post"]["stdev_neg_log_prob_diff_female"]])
+				  overall["post"]["stdev_neg_log_prob_diff_female"],
+				  overall["kl_div_pre"],
+				  overall["kl_div_post"],
+				  overall["kl_div_male"],
+				  overall["kl_div_female"]])
 	tbl = np.array(table)
 	cases = tbl[:-1, 1:].astype(float)
 	means = np.mean(cases, axis = 0)
@@ -48,7 +56,11 @@ def visualize(f):
 								 "male_pre_stdev_p_diff",
 								 "male_post_stdev_p_diff",
 								 "female_pre_stdev_p_diff",
-								 "female_post_stdev_p_diff"],
+								 "female_post_stdev_p_diff",
+								 "kl_div_pre",
+								 "kl_div_post",
+								 "kl_div_male",
+								 "kl_div_female"],
 					data = tbl)
 	df.loc[len(df)] = ["mean"] + means.tolist()
 	df.loc[len(df)] = ["stdev"] + stds.tolist()
@@ -58,8 +70,8 @@ visualize("../results/P101_FT")
 visualize("../results/P103_FT")
 visualize("../results/P101_MEMIT")
 visualize("../results/P103_MEMIT")
-# visualize("../results/P101_REMEDI")
-# visualize("../results/P103_REMEDI")
+visualize("../results/P101_REMEDI")
+visualize("../results/P103_REMEDI")
 visualize("../results/P101_PROMPTING")
 visualize("../results/P103_PROMPTING")
 
