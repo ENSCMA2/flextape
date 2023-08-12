@@ -38,29 +38,58 @@ def prob(ans):
 			score += 1
 	return score / len(ans)
 
+def mse_subroutine(flaw, sheet, preds):
+	pre = sheet.index[sheet["pre_or_post"] == "pre"]
+	post = sheet.index[sheet["pre_or_post"] == "post"]
+	data_pre = sheet.loc[pre]["flaws"].fillna("").tolist()
+	data_post = sheet.loc[post]["flaws"].fillna("").tolist()
+	pre = np.array(pre.tolist())
+	post = np.array(post.tolist())
+	data = sheet["flaws"].fillna("").tolist()
+	gold_labels = np.array([int(flaw in s) for s in data])
+	gold_pre = gold_labels[pre]
+	gold_post = gold_labels[post]
+	preds_pre = preds[pre]
+	preds_post = preds[post]
+	mse_score = mse(gold_labels, preds)
+	mse_pre = mse(gold_pre, preds_pre)
+	mse_post = mse(gold_post, preds_post)
+	return mse_score, mse_pre, mse_post
+
 def mse_routine(flaw, name):
 	with open(f"{name}_binary.json") as o:
-		preds = [prob(entry["answers"]) for entry in json.load(o)[flaw]]
-	data = pd.read_csv(f"../data/gold_{name}.csv")["flaws"].fillna("").tolist()
-	gold_labels = np.array([int(flaw in s) for s in data])
-	print(len(preds))
-	print(len(gold_labels))
-	mse_score = mse(gold_labels, preds)
-	print(f"{flaw}, {name}: MSE is {mse_score}")
+		preds = np.array([prob(entry["answers"]) for entry in json.load(o)[flaw]])
+	sheet = pd.read_csv(f"../data/gold_{name}.csv")
+	return mse_subroutine(flaw, sheet, preds)
+	
 for flaw in flaws:
-	mse_routine(flaw, "all_english")
-	mse_routine(flaw, "p101")
-	mse_routine(flaw, "p103")
+	ae, ae_pre, ae_post = mse_routine(flaw, "all_english")
+	p101, p101_pre, p101_post = mse_routine(flaw, "p101")
+	p103, p103_pre, p103_post = mse_routine(flaw, "p103")
 	with open(f"all_english_binary.json") as o:
 		preds = [prob(entry["answers"]) for entry in json.load(o)[flaw]]
 	with open(f"p101_binary.json") as o:
 		preds += [prob(entry["answers"]) for entry in json.load(o)[flaw]]
 	with open(f"p103_binary.json") as o:
 		preds += [prob(entry["answers"]) for entry in json.load(o)[flaw]]
-	data = pd.read_csv("../data/gold_all_english.csv")["flaws"].tolist() + pd.read_csv("../data/gold_p101.csv")["flaws"].tolist() + pd.read_csv("../data/gold_p103.csv")["flaws"].tolist()
-	gold_labels = np.array([int(flaw in s) for s in data])
-	mse_score = mse(gold_labels, preds)
-	print(f"{flaw}", "Overall: MSE is {mse_score}")
+	preds = np.array(preds)
+	data = pd.concat([pd.read_csv("../data/gold_all_english.csv"), pd.read_csv("../data/gold_p101.csv"), pd.read_csv("../data/gold_p103.csv")])
+	overall, overall_pre, overall_post = mse_subroutine(flaw, data, preds)
+	print("all")
+	print(f"{flaw}", f"All English: MSE is {ae}")
+	print(f"{flaw}", f"P101: MSE is {p101}")
+	print(f"{flaw}", f"P103: MSE is {p103}")
+	print(f"{flaw}", f"Overall: MSE is {overall}")
+	print("pre")
+	print(f"{flaw}", f"All English: MSE is {ae_pre}")
+	print(f"{flaw}", f"P101: MSE is {p101_pre}")
+	print(f"{flaw}", f"P103: MSE is {p103_pre}")
+	print(f"{flaw}", f"Overall: MSE is {overall_pre}")
+	print("post")
+	print(f"{flaw}", f"All English: MSE is {ae_post}")
+	print(f"{flaw}", f"P101: MSE is {p101_post}")
+	print(f"{flaw}", f"P103: MSE is {p103_post}")
+	print(f"{flaw}", f"Overall: MSE is {overall_post}")
 	
 
 
