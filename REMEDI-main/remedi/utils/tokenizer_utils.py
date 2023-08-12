@@ -73,6 +73,7 @@ def find_token_range(
                 token_end = index
                 break
     if token_end is None:
+        token_start = None
         ld = string.split()
         om = []
         t = 0
