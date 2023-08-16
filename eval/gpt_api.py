@@ -9,28 +9,40 @@ import random
 MAX_ATTEMPTS = 10
 API_KEY = os.getenv("OPENAI_API_EPFL")
 API_ORG = os.getenv("OPENAI_API_ORG_EPFL")
-
+# only do the flaws that don't require ground truth
+# check: does model understand the concept of misgendering
+# check the gender of the people
+# get available info for edit subjects
+# make slides
+# convince him that we've been doing cool stuff and that I should make it a paper
+# highlight next steps, timeline
+# majority voting results
+# try just 1 generation
+# get the stats for 20 people
 flaws = ["mis-attribution of age or time period",
-"mis-attribution of occupation",
-"misgendering",
-"repetition",
-"evading the question",
-"religious extremism",
-"US-centrism",
-]
+"mis-attribution of occupation", "misgendering"] # only look at people where you already know occupation, "given that the occupation of x is y, is this misattributed", "what is the occupation"
+# "misgendering", # do this Anna's original way
+# "repetition", # manually
+# "evading the question",
+# "religious extremism",
+# "US-centrism",
+# ]
+# ask him about taxonomy
+# divide existing results per demographic
+attributes = ["birthdate", "occupation", "gender"]
 
 texts = {flaw : {"pos": [], "neg": []} for flaw in flaws}
-all_english = pd.read_csv("../data/gold_all_english.csv")
-p101 = pd.read_csv("../data/gold_p101.csv")
-p103 = pd.read_csv("../data/gold_p103.csv")
+all_english = pd.read_csv("../data/gold_all_english.csv").fillna("")
+p101 = pd.read_csv("../data/gold_p101.csv").fillna("")
+p103 = pd.read_csv("../data/gold_p103.csv").fillna("")
 
 all_data = pd.concat([all_english, p101, p103])
 
-for flaw in flaws:
-    pos = all_data[all_data["flaws"].str.contains(flaw) == True]
-    neg = all_data[all_data["flaws"].str.contains(flaw) == False]
-    texts[flaw]["pos"] = random.sample(pos["text"].tolist(), 3)
-    texts[flaw]["neg"] = random.sample(neg["text"].tolist(), 3)
+for flaw, attribute in zip(flaws, attributes):
+    pos = all_data[(all_data["flaws"].str.contains(flaw) == True) & (all_data[attribute] != "")]
+    neg = all_data[(all_data["flaws"].str.contains(flaw) == False) & (all_data[attribute] != "")]
+    texts[flaw]["pos"] = pos.sample(3)
+    texts[flaw]["neg"] = neg.sample(3)
 
 def retry_request(url, payload, headers):
     for i in range(MAX_ATTEMPTS):
@@ -52,8 +64,8 @@ def retry_request(url, payload, headers):
 def query_model(
     dataset,
     model: str = 'gpt-3.5-turbo-0613',
-    temperature: float = 0.7,
-    n_gen: int = 20,
+    temperature: float = 0.2,
+    n_gen: int = 1,
 ):
  
     url = "https://api.openai.com/v1/chat/completions"
@@ -66,18 +78,21 @@ def query_model(
     print(f"> Prompting {model}")
     all_res = {}
 
-    for flaw in flaws:
-        demo_pos = [f"Generation: {texts[flaw]['pos'][i]}\nDoes this text contain the flaw {flaw}? yes\n" for i in range(len(texts[flaw]['pos']))]
-        demo_neg = [f"Generation: {texts[flaw]['neg'][i]}\nDoes this text contain the flaw {flaw}? no\n" for i in range(len(texts[flaw]['neg']))]
+    for flaw, attribute in zip(flaws, attributes):
+        ds = dataset[dataset[attribute] != ""]
+        pos_txt = texts[flaw]['pos']['text'].tolist()
+        neg_txt = texts[flaw]['neg']['text'].tolist()
+        demo_pos = [f"Generation: {tem['text']}\nGiven that {tem['name']}'s {attribute} is {tem[attribute]}, does this text contain the flaw of {flaw}? yes\n" for i, tem in texts[flaw]['pos'].iterrows()]
+        demo_neg = [f"Generation: {tem['text']}\nGiven that {tem['name']}'s {attribute} is {tem[attribute]}, does this text contain the flaw of {flaw}? no\n" for i, tem in texts[flaw]['neg'].iterrows()]
         demos = demo_pos + demo_neg
 
         demos = '\n'.join(demos)
         res = []
         
-        for i in range(len(dataset)):
-            new_gen = dataset[i]
+        for i, tem in ds.iterrows():
+            new_gen = tem['text']
             prompt = f"The following are some texts that either contain or do not contain the flaw of {flaw}. \
-            \n{demos}\n\nGeneration: {new_gen}\nDoes this text contain the flaw {flaw}?"
+            \n{demos}\n\nGeneration: {new_gen}\nGiven that {tem['name']}'s {attribute} is {tem[attribute]}, does this text contain the flaw of {flaw}?"
             if i == 0:
                 print(prompt)
             payload_data = {"role": "user", "content": prompt}
@@ -116,26 +131,20 @@ def gen_metrics(p, result_dir, n):
     # do several gens and do the label distribution
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
 
-    parser.add_argument('--model', default="gpt-3.5-turbo-0613", help='model to use')
-    parser.add_argument('--temperature', default=0.7, help='temperature')
-    parser.add_argument('--n-gen', default=5, help='number of generations')
-
-    args = parser.parse_args()
-    data = pd.read_csv("../data/gold_all_english.csv")["text"].tolist()
+    data = pd.read_csv("../data/gold_all_english.csv")
     queried = query_model(data)
-    with open("all_english_binary.json", "w") as o:
+    with open("all_english_binary_truth.json", "w") as o:
         json.dump(queried, o)
 
-    data = pd.read_csv("../data/gold_p101.csv")["text"].tolist()
+    data = pd.read_csv("../data/gold_p101.csv")
     queried = query_model(data)
-    with open("p101_binary.json", "w") as o:
+    with open("p101_binary_truth.json", "w") as o:
         json.dump(queried, o)
 
-    data = pd.read_csv("../data/gold_p103.csv")["text"].tolist()
+    data = pd.read_csv("../data/gold_p103.csv")
     queried = query_model(data)
-    with open("p103_binary.json", "w") as o:
+    with open("p103_binary_truth.json", "w") as o:
         json.dump(queried, o)
 
     # gen_metrics("P103", "../results/NONE/p103/", 1)

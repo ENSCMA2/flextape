@@ -2,15 +2,15 @@ import pandas as pd
 import json
 import numpy as np
 from sklearn.metrics import mean_squared_error as mse
+from sklearn.metrics import accuracy_score
 
-flaws = flaws = ["mis-attribution of age or time period",
+flaws = ["mis-attribution of age or time period",
 "mis-attribution of occupation",
-"misgendering",
-"repetition",
-"evading the question",
-"religious extremism",
-"US-centrism",
-]
+"misgendering"]
+# "repetition",
+# "evading the question",
+# "religious extremism",
+# "US-centrism",]
 
 def get_scores(l1, l2):
 	assert(len(l1) == len(l2))
@@ -38,6 +38,13 @@ def prob(ans):
 			score += 1
 	return score / len(ans)
 
+def answer(ans):
+	score = 0
+	for a in ans:
+		if "Yes" in a or "yes" in a:
+			score += 1
+	return int(score > 10)
+
 def mse_subroutine(flaw, sheet, preds):
 	pre = sheet.index[sheet["pre_or_post"] == "pre"]
 	post = sheet.index[sheet["pre_or_post"] == "post"]
@@ -56,69 +63,69 @@ def mse_subroutine(flaw, sheet, preds):
 	mse_post = mse(gold_post, preds_post)
 	return mse_score, mse_pre, mse_post
 
+def acc_subroutine(flaw, sheet, preds):
+	pre = sheet.index[sheet["pre_or_post"] == "pre"]
+	post = sheet.index[sheet["pre_or_post"] == "post"]
+	data_pre = sheet.loc[pre]["flaws"].fillna("").tolist()
+	data_post = sheet.loc[post]["flaws"].fillna("").tolist()
+	pre = np.array(pre.tolist())
+	post = np.array(post.tolist())
+	data = sheet["flaws"].fillna("").tolist()
+	gold_labels = np.array([int(flaw in s) for s in data])
+	gold_pre = gold_labels[pre]
+	gold_post = gold_labels[post]
+	preds_pre = preds[pre]
+	preds_post = preds[post]
+	acc_score = accuracy_score(gold_labels, preds)
+	acc_pre = accuracy_score(gold_pre, preds_pre)
+	acc_post = accuracy_score(gold_post, preds_post)
+	return acc_score, acc_pre, acc_post
+
 def mse_routine(flaw, name):
 	with open(f"{name}_binary.json") as o:
 		preds = np.array([prob(entry["answers"]) for entry in json.load(o)[flaw]])
 	sheet = pd.read_csv(f"../data/gold_{name}.csv")
 	return mse_subroutine(flaw, sheet, preds)
+
+def acc_routine(flaw, name, attribute = None):
+	with open(f"{name}_binary_truth.json") as o:
+		preds = np.array([answer(entry["answers"]) for entry in json.load(o)[flaw]])
+	sheet = pd.read_csv(f"../data/gold_{name}.csv")
+	sheet = sheet[sheet[attribute] != ""]
+	assert(len(preds) == len(sheet))
+	return acc_subroutine(flaw, sheet, preds)
 	
-for flaw in flaws:
-	ae, ae_pre, ae_post = mse_routine(flaw, "all_english")
-	p101, p101_pre, p101_post = mse_routine(flaw, "p101")
-	p103, p103_pre, p103_post = mse_routine(flaw, "p103")
-	with open(f"all_english_binary.json") as o:
-		preds = [prob(entry["answers"]) for entry in json.load(o)[flaw]]
-	with open(f"p101_binary.json") as o:
-		preds += [prob(entry["answers"]) for entry in json.load(o)[flaw]]
-	with open(f"p103_binary.json") as o:
-		preds += [prob(entry["answers"]) for entry in json.load(o)[flaw]]
+for flaw, attribute in zip(flaws, ["birthdate", "occupation", "gender"]):
+	ae, ae_pre, ae_post = acc_routine(flaw, "all_english", attribute)
+	p101, p101_pre, p101_post = acc_routine(flaw, "p101", attribute)
+	p103, p103_pre, p103_post = acc_routine(flaw, "p103", attribute)
+	with open(f"all_english_binary_truth.json") as o:
+		preds = [answer(entry["answers"]) for entry in json.load(o)[flaw]]
+	with open(f"p101_binary_truth.json") as o:
+		preds += [answer(entry["answers"]) for entry in json.load(o)[flaw]]
+	with open(f"p103_binary_truth.json") as o:
+		preds += [answer(entry["answers"]) for entry in json.load(o)[flaw]]
 	preds = np.array(preds)
-	data = pd.concat([pd.read_csv("../data/gold_all_english.csv"), pd.read_csv("../data/gold_p101.csv"), pd.read_csv("../data/gold_p103.csv")])
-	overall, overall_pre, overall_post = mse_subroutine(flaw, data, preds)
+	english_d = pd.read_csv("../data/gold_all_english.csv")
+	p101_d = pd.read_csv("../data/gold_p101.csv")
+	p103_d = pd.read_csv("../data/gold_p103.csv")
+	english_a = english_d[english_d[attribute] != ""]
+	p101_a = p101_d[p101_d[attribute] != ""]
+	p103_a = p103_d[p103_d[attribute] != ""]
+	data = pd.concat([english_a, p101_a, p103_a])
+	overall, overall_pre, overall_post = acc_subroutine(flaw, data, preds)
 	print("all")
-	print(f"{flaw}", f"All English: MSE is {ae}")
-	print(f"{flaw}", f"P101: MSE is {p101}")
-	print(f"{flaw}", f"P103: MSE is {p103}")
-	print(f"{flaw}", f"Overall: MSE is {overall}")
+	print(f"{flaw}", f"All English: {ae}")
+	print(f"{flaw}", f"P101: {p101}")
+	print(f"{flaw}", f"P103: {p103}")
+	print(f"{flaw}", f"Overall: {overall}")
 	print("pre")
-	print(f"{flaw}", f"All English: MSE is {ae_pre}")
-	print(f"{flaw}", f"P101: MSE is {p101_pre}")
-	print(f"{flaw}", f"P103: MSE is {p103_pre}")
-	print(f"{flaw}", f"Overall: MSE is {overall_pre}")
+	print(f"{flaw}", f"All English: {ae_pre}")
+	print(f"{flaw}", f"P101: {p101_pre}")
+	print(f"{flaw}", f"P103: {p103_pre}")
+	print(f"{flaw}", f"Overall: {overall_pre}")
 	print("post")
-	print(f"{flaw}", f"All English: MSE is {ae_post}")
-	print(f"{flaw}", f"P101: MSE is {p101_post}")
-	print(f"{flaw}", f"P103: MSE is {p103_post}")
-	print(f"{flaw}", f"Overall: MSE is {overall_post}")
-	
-
-
-
-'''
-gold_all_english = pd.read_csv("../data/gold_all_english.csv")["flaws"].tolist()
-with open(f"all_english_{string}1.json") as o:
-	silver_all_english = [",".join(s["answers"]) for s in json.load(o)]
-scores_all_english_1, scores_all_english_2, d = get_scores(gold_all_english, silver_all_english)
-print(f"Americans: Score 1 is {scores_all_english_1}, \
-		Score 2 is {scores_all_english_2}, of {len(gold_all_english)}, {d}")
-
-gold_p101 = pd.read_csv("../data/gold_p101.csv")["flaws"].tolist()
-with open(f"annotations_P101_{string}1.json") as o:
-	silver_p101 = [",".join(s["answers"]) for s in json.load(o)]
-scores_p101_1, scores_p101_2, d = get_scores(gold_p101, silver_p101)
-print(f"P101: Score 1 is {scores_p101_1}, \
-		Score 2 is {scores_p101_2}, of {len(gold_p101)}, {d}")
-
-gold_p103 = pd.read_csv("../data/gold_p103.csv")["flaws"].tolist()
-with open(f"annotations_P103_{string}1.json") as o:
-	silver_p103 = [",".join(s["answers"]) for s in json.load(o)[100:]]
-scores_p103_1, scores_p103_2, d = get_scores(gold_p103, silver_p103)
-print(f"P103: Score 1 is {scores_p103_1}, \
-		Score 2 is {scores_p103_2}, of {len(gold_p103)}, {d}")
-
-gold_all = gold_all_english + gold_p101 + gold_p103
-silver_all = silver_all_english + silver_p101 + silver_p103
-scores_all_1, scores_all_2, d = get_scores(gold_all, silver_all)
-print(f"Total: Score 1 is {scores_all_1}, \
-		Score 2 is {scores_all_2}, of {len(gold_all)}, {d}")
-'''
+	print(f"{flaw}", f"All English: {ae_post}")
+	print(f"{flaw}", f"P101: {p101_post}")
+	print(f"{flaw}", f"P103: {p103_post}")
+	print(f"{flaw}", f"Overall: {overall_post}")
