@@ -21,7 +21,7 @@ BENCHMARKS = (
     # "efficacy",
     "paraphrase",
     "generation",
-    "essence",
+    # "essence",
 )
 
 

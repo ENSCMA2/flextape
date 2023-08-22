@@ -8,6 +8,7 @@ def kl_divergence(p, q):
     return np.sum(np.where(p != 0, p * np.log(p / q), 0))
 
 def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
+	print(p)
 	p_file = f"../data/seesaw_cf_{p}_False_100.json"
 	all_metrics = []
 	overall_metrics = {}
@@ -46,12 +47,12 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 				return hope == prop
 			return False
 		genders = [wiki[f"{wiki_prefix}{subj}"]["properties"]["P21"] for subj in entities]
-		print(f"{case_id}, {str(case_id) in res.keys()}")
 		if str(case_id) in res.keys():
-			print(f"hi, {case_id}")
 			relevant_res = res[str(case_id)]
 			probs = [{"target_new": -p["target_score"], "target_true": -p["comparator_score"]} for p in relevant_res]
-			print(f"probs length {len(probs)}, genders length {len(genders)}, entities length {len(entities)}")
+			if len(probs) != len(genders) or len(genders) != len(entities):
+				print(f"case {case_id}")
+				print(f"probs length {len(probs)}, genders length {len(genders)}, entities length {len(entities)}")
 			men = [i for i in range(min(len(genders), len(probs), len(entities))) if match(genders[i], "Q6581097") or match(genders[i], "Q2449503")]
 			women = [i for i in range(min(len(genders), len(probs), len(entities))) if match(genders[i], "Q6581072") or match(genders[i], "Q1052281")]
 			def get_gender_breakdown(probs):
@@ -118,8 +119,6 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 								"target_new": question["requested_rewrite"]["target_new"],
 								"target_true": question["requested_rewrite"]["target_true"],
 								"metrics": metrics})
-		else:
-			print(f"bye, {case_id}")
 	overall_metrics["kl_div_post"] = kl_divergence(np.mean(amm, axis = 0), np.mean(awm, axis = 0)).tolist()
 	overall_metrics["kl_div_pre"] = kl_divergence(np.mean(ammp, axis = 0), np.mean(awmp, axis = 0)).tolist()
 	overall_metrics["kl_div_male"] = kl_divergence(np.mean(amm, axis = 0), np.mean(ammp, axis = 0)).tolist()
