@@ -39,6 +39,7 @@ def convert_geo(race, p101 = True):
 		return [dictionary[r] for r in race if r in dictionary.keys()]
 
 def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
+	misfits = []
 	print(p, method)
 	p_file = f"../data/seesaw_cf_{p}_False_100.json"
 	if p == "P101":
@@ -129,8 +130,9 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		# race_probs = np.array(probs)[race_available] if len(race_available) > 0 else None
 		# geo_probs = np.array(probs)[geo_available] if len(geo_available) > 0 else None
 		if len(probs) != len (genders) or len(genders) != len(entities):
-			print(f"case {case_id}")
-			print(f"probs length {len(probs)}, genders length {len(genders)}, entities length {len(entities)}")
+			# print(f"case {case_id}")
+			misfits.append(case_id)
+			# print(f"probs length {len(probs)}, genders length {len(genders)}, entities length {len(entities)}")
 		men = [i for i in range(min(len(genders), len(probs), len(entities))) if match(genders[i], "Q6581097") or match(genders[i], "Q2449503")]
 		women = [i for i in range(min(len(genders), len(probs), len(entities))) if match(genders[i], "Q6581072") or match(genders[i], "Q1052281")]
 		by_race = {}
@@ -348,6 +350,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 	'''
 	with open(f"../results/{p}_{method}.json", "w") as o:
 		json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
+	print(len(the_question), len(misfits))
 
 gen_metrics("P101", "../results/MEMIT/p101final/", 898, "../results/OG/p101/", "MEMIT", patch = True)
 gen_metrics("P103", "../results/MEMIT/p103final/", 898, "../results/OG/p103/", "MEMIT")

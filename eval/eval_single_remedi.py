@@ -7,9 +7,10 @@ wiki_prefix = "http://www.wikidata.org/entity/"
 def kl_divergence(p, q):
     return np.sum(np.where(p != 0, p * np.log(p / q), 0))
 
-def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
+def gen_metrics(p, result_dir, n, presult_dir, method, patch = False, justprob = True):
+	mismatches = []
 	print(p)
-	p_file = f"../data/seesaw_cf_{p}_False_100.json"
+	p_file = f"../data/seesaw_cf_{p}_False_100_problems.json"
 	all_metrics = []
 	overall_metrics = {}
 	amn, awn, amt, awt, amd, awd = np.array([]), np.array([]), np.array([]), np.array([]), np.array([]), np.array([])
@@ -17,7 +18,11 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 	amm, awm, ammp, awmp = [], [], [], []
 	with open(p_file) as o:
 		the_question = json.load(o)
-	if "p101" in result_dir:
+	if justprob:
+		with open(f"{result_dir}linear/1/paraphrase.json") as o:
+			res = json.load(o)["samples"]
+			res = {r["id"]: r["prompts"] for r in res}
+	elif "p101" in result_dir:
 		with open(f"{result_dir}linear/1/paraphrase.json") as o:
 			res = json.load(o)["samples"]
 			res = {r["id"]: r["prompts"] for r in res}
@@ -52,7 +57,9 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			probs = [{"target_new": -p["target_score"], "target_true": -p["comparator_score"]} for p in relevant_res]
 			if len(probs) != len(genders) or len(genders) != len(entities):
 				print(f"case {case_id}")
+				mismatches.append(case_id)
 				print(f"probs length {len(probs)}, genders length {len(genders)}, entities length {len(entities)}")
+			'''
 			men = [i for i in range(min(len(genders), len(probs), len(entities))) if match(genders[i], "Q6581097") or match(genders[i], "Q2449503")]
 			women = [i for i in range(min(len(genders), len(probs), len(entities))) if match(genders[i], "Q6581072") or match(genders[i], "Q1052281")]
 			def get_gender_breakdown(probs):
@@ -119,6 +126,8 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 								"target_new": question["requested_rewrite"]["target_new"],
 								"target_true": question["requested_rewrite"]["target_true"],
 								"metrics": metrics})
+			'''
+	'''
 	overall_metrics["kl_div_post"] = kl_divergence(np.mean(amm, axis = 0), np.mean(awm, axis = 0)).tolist()
 	overall_metrics["kl_div_pre"] = kl_divergence(np.mean(ammp, axis = 0), np.mean(awmp, axis = 0)).tolist()
 	overall_metrics["kl_div_male"] = kl_divergence(np.mean(amm, axis = 0), np.mean(ammp, axis = 0)).tolist()
@@ -131,10 +140,13 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 						  "mean_neg_log_prob_diff_female": np.mean(awd),
 						  "stdev_neg_log_prob_diff_male": np.std(amdp),
 						  "stdev_neg_log_prob_diff_female": np.std(awdp)}
+	'''
 	with open(f"../results/{p}_{method}.json", "w") as o:
 		json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
+	print(mismatches)
 
-gen_metrics("P101", "../results/REMEDI/p101/", 1, "../results/OG/p101/", "REMEDI", patch = True)
-gen_metrics("P103", "../results/REMEDI/p103/", 1, "../results/OG/p103/", "REMEDI")
+# gen_metrics("P101", "../results/REMEDI/p101/", 1, "../results/OG/p101/", "REMEDI", patch = True)
+# gen_metrics("P103", "../results/REMEDI/p103/", 1, "../results/OG/p103/", "REMEDI")
+gen_metrics("P103", "../results/REMEDI/p103prob/", 1, "../results/OG/p103/", "REMEDI")
 
 
