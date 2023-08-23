@@ -85,41 +85,6 @@ def _replace_entity(attribute_snippets: data.AttributeSnippets, sample: dict) ->
     }
 
 
-@torch.inference_mode()
-def _precompute_essence_references(
-    mt: models.ModelAndTokenizer, dataset: Dataset, device: Device | None = None
-) -> list[list[str]]:
-    """Precompute essence references to save some compute."""
-    prompts = []
-    n = 0
-    for x in dataset:
-        pref = benchmarks.DEFAULT_PROMPT_PREFIX
-        ent = x["entity"]
-        templat = benchmarks.DEFAULT_PROMPT_TEMPLATE.format(ent)
-        prompts.append(pref + templat)
-        n += 1
-    loader = torch.utils.data.DataLoader(
-        cast(torch.utils.data.Dataset, prompts),
-        batch_size=editors.DEFAULT_BATCH_SIZE,
-    )
-    references = []
-    for batch in tqdm(loader, desc="precompute essence refs"):
-        with models.set_padding_side(mt, padding_side="left"):
-            inputs, _ = precompute.inputs_from_batch(mt, batch, device=device)
-        outputs = mt.model.generate(
-            **inputs,
-            max_length=benchmarks.DEFAULT_MAX_LENGTH,
-            do_sample=True,
-            top_k=benchmarks.DEFAULT_TOP_K_SAMPLING,
-            pad_token_id=mt.tokenizer.eos_token_id,
-        )
-        references += [
-            [r[len(benchmarks.DEFAULT_PROMPT_PREFIX) :]]
-            for r in mt.tokenizer.batch_decode(outputs, skip_special_tokens=True)
-        ]
-    return references
-
-
 def main(args: argparse.Namespace) -> None:
     """Run the benchmark."""
     experiment = experiment_utils.setup_experiment(args)
@@ -131,34 +96,13 @@ def main(args: argparse.Namespace) -> None:
 
     logger.info("loading several data sources")
     if args.small:
-        split = "train[:300]"
+        split = "train"
     else:
-        split = "train[:300]"
-    dataset = data.load_dataset("seesaw_103", split=split)
+        split = "train"
+    dataset = data.load_dataset("seesaw_103_p", split=split)
     dataset = precompute.from_args(args, dataset)
     attribute_snippets = data.load_attribute_snippets()
     tfidf_vectorizer = data.load_counterfact_tfidf_vectorizer()
-
-    essence_references = None
-    if "essence" in args.benchmarks:
-        essence_refs_file = experiment.results_dir / "essence_references.json"
-        if essence_refs_file.exists():
-            logger.info(f"found essence refs at {essence_refs_file}")
-            with essence_refs_file.open("r") as handle:
-                essence_references = [[l] for l in json.load(handle)["references"]]
-        else:
-            logger.info("need to precompute essence refs")
-            essence_references = _precompute_essence_references(
-                mt, dataset, device=device
-            )
-
-            logger.info(f"saving precomputed references to {essence_refs_file}")
-            essence_refs_file.parent.mkdir(exist_ok=True, parents=True)
-            with essence_refs_file.open("w") as handle:
-                json.dump(
-                    {"references": [rs[0] for rs in essence_references]},
-                    handle,
-                )
 
     baseline = args.baseline
     if baseline is not None:
@@ -256,13 +200,6 @@ def main(args: argparse.Namespace) -> None:
                     attribute_snippets=attribute_snippets,
                     tfidf_vectorizer=tfidf_vectorizer,
                     **benchmark_kwargs,
-                )
-            elif benchmark_name == "essence":
-                results = benchmarks.essence(
-                    tfidf_vectorizer=tfidf_vectorizer,
-                    use_references=essence_references,
-                    **benchmark_kwargs,
-                    **essence_kwargs,
                 )
             else:
                 raise ValueError(f"unknown benchmark: {benchmark_name}")
