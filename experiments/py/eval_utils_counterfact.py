@@ -66,18 +66,21 @@ def compute_rewrite_quality_counterfact(
     done = 0
     probs, targets_correct = [], []
     while done < len(prob_prompts_chain):
-        last = min(done + batch_size, len(prob_prompts_chain) - 1)
+        last = min(done + batch_size, len(prob_prompts_chain))
         probs_b, targets_correct_b = test_batch_prediction(
             model,
             tok,
-            prob_prompts_chain[done:last + 1],
-            which_correct_chain[done:last + 1],
+            prob_prompts_chain[done:last],
+            which_correct_chain[done:last],
             target_new["str"],
             target_true["str"],
         )
         probs += probs_b
         targets_correct += targets_correct_b
         done += batch_size
+
+    assert(len(prob_prompts_chain) == len(probs))
+    assert(len(which_correct_chain) == len(targets_correct))
 
     # Unflatten the results again into a list of lists.
     cutoffs = [0] + np.cumsum(list(map(len, prob_prompts))).tolist()
