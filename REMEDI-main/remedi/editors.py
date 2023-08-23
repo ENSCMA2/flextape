@@ -719,7 +719,7 @@ class Editor(nn.Module):
         results = []
         with dataset.formatted_as("torch", columns=columns):
             loader = torch.utils.data.DataLoader(
-                cast(torch.utils.data.Dataset, dataset), batch_size=batch_size)
+                cast(torch.utils.data.Dataset, dataset), batch_size=batch_size, shuffle = False)
             for batch in tqdm(loader, desc=desc):
                 logger.info(len(batch))
                 if not precompute.has_editor_inputs(batch):
