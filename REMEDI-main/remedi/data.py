@@ -35,6 +35,8 @@ TFIDF_IDF_URL = f"{ROME_BASE_URL}/idf.npy"
 TFIDF_VOCAB_URL = f"{ROME_BASE_URL}/tfidf_vocab.json"
 SEESAW_URL_101 = f"/home/halevy/flextape/data/seesaw_cf_P101_False_100.json"
 SEESAW_URL_103 = f"/home/halevy/flextape/data/seesaw_cf_P103_False_100.json"
+SEESAW_URL_101_P = f"/home/halevy/flextape/data/seesaw_cf_P101_False_100_problems.json"
+SEESAW_URL_103_P = f"/home/halevy/flextape/data/seesaw_cf_P103_False_100_problems.json"
 WINOVENTI_URL = "https://raw.githubusercontent.com/commonsense-exception/commonsense-exception/main/data/winoventi_bert_large_final.tsv"
 
 with open(COUNTERFACT_URL) as o:
@@ -847,6 +849,10 @@ def load_dataset(name: str, **kwargs: Any) -> Dataset:
         return _load_counterfact(file = SEESAW_URL_101, url = SEESAW_URL_101, **kwargs)
     elif name == "seesaw_103":
         return _load_counterfact(file = SEESAW_URL_103, url = SEESAW_URL_103, **kwargs)
+    elif name == "seesaw_101_p":
+        return _load_counterfact(file = SEESAW_URL_101_P, url = SEESAW_URL_101_P, **kwargs)
+    elif name == "seesaw_103_p":
+        return _load_counterfact(file = SEESAW_URL_103_P, url = SEESAW_URL_103_P, **kwargs)
     elif name == "winoventi":
         return _load_winoventi(**kwargs)
     elif name == "biosbias":

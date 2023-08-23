@@ -131,34 +131,13 @@ def main(args: argparse.Namespace) -> None:
 
     logger.info("loading several data sources")
     if args.small:
-        split = "train[:300]"
+        split = "train"
     else:
-        split = "train[:300]"
-    dataset = data.load_dataset("seesaw_103", split=split)
+        split = "train"
+    dataset = data.load_dataset("seesaw_103_p", split=split)
     dataset = precompute.from_args(args, dataset)
     attribute_snippets = data.load_attribute_snippets()
     tfidf_vectorizer = data.load_counterfact_tfidf_vectorizer()
-
-    essence_references = None
-    if "essence" in args.benchmarks:
-        essence_refs_file = experiment.results_dir / "essence_references.json"
-        if essence_refs_file.exists():
-            logger.info(f"found essence refs at {essence_refs_file}")
-            with essence_refs_file.open("r") as handle:
-                essence_references = [[l] for l in json.load(handle)["references"]]
-        else:
-            logger.info("need to precompute essence refs")
-            essence_references = _precompute_essence_references(
-                mt, dataset, device=device
-            )
-
-            logger.info(f"saving precomputed references to {essence_refs_file}")
-            essence_refs_file.parent.mkdir(exist_ok=True, parents=True)
-            with essence_refs_file.open("w") as handle:
-                json.dump(
-                    {"references": [rs[0] for rs in essence_references]},
-                    handle,
-                )
 
     baseline = args.baseline
     if baseline is not None:
@@ -256,13 +235,6 @@ def main(args: argparse.Namespace) -> None:
                     attribute_snippets=attribute_snippets,
                     tfidf_vectorizer=tfidf_vectorizer,
                     **benchmark_kwargs,
-                )
-            elif benchmark_name == "essence":
-                results = benchmarks.essence(
-                    tfidf_vectorizer=tfidf_vectorizer,
-                    use_references=essence_references,
-                    **benchmark_kwargs,
-                    **essence_kwargs,
                 )
             else:
                 raise ValueError(f"unknown benchmark: {benchmark_name}")
