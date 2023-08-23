@@ -85,41 +85,6 @@ def _replace_entity(attribute_snippets: data.AttributeSnippets, sample: dict) ->
     }
 
 
-@torch.inference_mode()
-def _precompute_essence_references(
-    mt: models.ModelAndTokenizer, dataset: Dataset, device: Device | None = None
-) -> list[list[str]]:
-    """Precompute essence references to save some compute."""
-    prompts = []
-    n = 0
-    for x in dataset:
-        pref = benchmarks.DEFAULT_PROMPT_PREFIX
-        ent = x["entity"]
-        templat = benchmarks.DEFAULT_PROMPT_TEMPLATE.format(ent)
-        prompts.append(pref + templat)
-        n += 1
-    loader = torch.utils.data.DataLoader(
-        cast(torch.utils.data.Dataset, prompts),
-        batch_size=editors.DEFAULT_BATCH_SIZE,
-    )
-    references = []
-    for batch in tqdm(loader, desc="precompute essence refs"):
-        with models.set_padding_side(mt, padding_side="left"):
-            inputs, _ = precompute.inputs_from_batch(mt, batch, device=device)
-        outputs = mt.model.generate(
-            **inputs,
-            max_length=benchmarks.DEFAULT_MAX_LENGTH,
-            do_sample=True,
-            top_k=benchmarks.DEFAULT_TOP_K_SAMPLING,
-            pad_token_id=mt.tokenizer.eos_token_id,
-        )
-        references += [
-            [r[len(benchmarks.DEFAULT_PROMPT_PREFIX) :]]
-            for r in mt.tokenizer.batch_decode(outputs, skip_special_tokens=True)
-        ]
-    return references
-
-
 def main(args: argparse.Namespace) -> None:
     """Run the benchmark."""
     experiment = experiment_utils.setup_experiment(args)
