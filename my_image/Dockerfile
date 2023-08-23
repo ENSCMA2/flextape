@@ -96,6 +96,7 @@ RUN ${CONDA} run -n myenv pip install transformers
 RUN ${CONDA} run -n myenv pip install torch
 RUN ${CONDA} run -n myenv pip install wget
 RUN ${CONDA} run -n myenv pip install jsonlines
+RUN ${CONDA} run -n myenv pip install ipdb
 
 WORKDIR ${REPO_DIR}
 # Install OpenSSH for MPI to communicate between containers
