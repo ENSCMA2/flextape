@@ -22,7 +22,7 @@ class CounterFactDataset(Dataset):
         self.data = []
         data_dir = Path(data_dir)
         cf_loc = data_dir / (
-            f"seesaw_cf_P103_False_100_prompting.json"
+            f"seesaw_cf_P103_False_100.json"
         )
         if not cf_loc.exists():
             remote_url = f"{REMOTE_ROOT}/{'multi_' if multi else ''}counterfact.json"
@@ -32,10 +32,12 @@ class CounterFactDataset(Dataset):
 
         with open(cf_loc, "r") as f:
             jload = json.load(f)
-            self.data = jload["data"]
+            self.data = jload# ["data"]
+            '''
             for item in self.data:
                 item["attribute_prompts"] = [f"{jload['prefix']} {i}" for i in item["attribute_prompts"]]
                 item["generation_prompts"] = [f"{jload['prefix']} {i}" for i in item["generation_prompts"]]
+            '''
         if size is not None:
             self.data = self.data[:size]
 

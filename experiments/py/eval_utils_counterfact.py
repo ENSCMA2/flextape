@@ -62,7 +62,7 @@ def compute_rewrite_quality_counterfact(
     # Flatten all the evaluated prefixes into one list.
     prob_prompts_chain = list(chain(*prob_prompts))
     which_correct_chain = list(chain(*which_correct))
-    batch_size = 8
+    batch_size = 1
     done = 0
     probs, targets_correct = [], []
     while done < len(prob_prompts_chain):
