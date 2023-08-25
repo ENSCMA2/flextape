@@ -22,8 +22,7 @@ DS_DICT = {
     "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P103": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
-    "cf": (CounterFactDataset, compute_rewrite_quality_counterfact),
-    "zsre": (MENDQADataset, compute_rewrite_quality_zsre),
+    "cf": (CounterFactDataset, compute_rewrite_quality_counterfact)
 }
 
 def log(message):
