@@ -1,4 +1,5 @@
 #!/bin/bash
+git stash
 git pull
 
 ${CONDA} run -n myenv python -m experiments.evaluate --alg_name=FT --model_name=EleutherAI/gpt-j-6B --hparams_fname=EleutherAI_gpt-j-6B.json --num_edits=900 --ds_name=P101
