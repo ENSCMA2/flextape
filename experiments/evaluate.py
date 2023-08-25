@@ -32,6 +32,8 @@ ALG_DICT = {
 
 DS_DICT = {
     "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
+    "P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
+    "P103": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "cf": (CounterFactDataset, compute_rewrite_quality_counterfact),
     "zsre": (MENDQADataset, compute_rewrite_quality_zsre),
 }
@@ -109,7 +111,7 @@ def main(
         assert ds_name != "cf", f"{ds_name} does not support multiple edits"
 
     ds_class, ds_eval_method = DS_DICT[ds_name]
-    ds = ds_class(DATA_DIR, tok=tok, size=dataset_size_limit)
+    ds = ds_class(DATA_DIR, ds_name, tok=tok, size=dataset_size_limit)
 
     # Get cache templates
     cache_template = None
@@ -250,7 +252,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--ds_name",
-        choices=["mcf", "cf", "zsre"],
+        choices=["mcf", "cf", "zsre", "P101", "P103"],
         default="mcf",
         help="Dataset to perform evaluations on. Either CounterFact (cf), MultiCounterFact (mcf), or zsRE (zsre).",
     )

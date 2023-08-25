@@ -20,7 +20,10 @@ from util.globals import *
 
 DS_DICT = {
     "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
-    "cf": (CounterFactDataset, compute_rewrite_quality_counterfact)
+    "P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
+    "P103": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
+    "cf": (CounterFactDataset, compute_rewrite_quality_counterfact),
+    "zsre": (MENDQADataset, compute_rewrite_quality_zsre),
 }
 
 def log(message):
@@ -187,7 +190,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--alg_name",
-        choices=["MEMIT", "ROME", "FT", "MEND", "NONE"],
+        choices=["mcf", "cf", "zsre", "P101", "P103"],
         default="ROME",
         help="Editing algorithm to use. Results are saved in results/<alg_name>/<run_id>, "
         "where a new run_id is generated on each run. "

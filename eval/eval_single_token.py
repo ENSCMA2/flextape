@@ -119,10 +119,6 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			with open(f"{result_dir}{n}_edits-case_{case_id}.json") as result:
 				res = json.load(result)
 			probs = res["post"]["attribute_prompts_probs"] if method != "PROMPTING" else res["pre"]["attribute_prompts_probs"]
-			if patch and method != "PROMPTING":
-				with open(f"{result_dir}10000_edits-case_{case_id}.json") as result:
-					res2 = json.load(result)
-				probs.extend(res2["post"]["attribute_prompts_probs"])
 		except Exception as e:
 			# print(e)
 			continue
@@ -130,9 +126,9 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		# race_probs = np.array(probs)[race_available] if len(race_available) > 0 else None
 		# geo_probs = np.array(probs)[geo_available] if len(geo_available) > 0 else None
 		if len(probs) != len (genders) or len(genders) != len(entities):
-			# print(f"case {case_id}")
+			print(f"case {case_id}")
 			misfits.append(case_id)
-			# print(f"probs length {len(probs)}, genders length {len(genders)}, entities length {len(entities)}")
+			print(f"probs length {len(probs)}, genders length {len(genders)}, entities length {len(entities)}")
 		men = [i for i in range(min(len(genders), len(probs), len(entities))) if match(genders[i], "Q6581097") or match(genders[i], "Q2449503")]
 		women = [i for i in range(min(len(genders), len(probs), len(entities))) if match(genders[i], "Q6581072") or match(genders[i], "Q1052281")]
 		by_race = {}
@@ -223,10 +219,6 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		with open(f"{presult_dir}1_edits-case_{case_id}.json") as result:
 			pres = json.load(result)
 		pre_probs = pres["pre"]["attribute_prompts_probs"]
-		if patch:
-			with open(f"{presult_dir}10000_edits-case_{case_id}.json") as result:
-				pres2 = json.load(result)
-			pre_probs += pres2["pre"]["attribute_prompts_probs"]
 		# race_pre_probs = np.array(pre_probs)[race_available] if len(race_available) > 0 else None
 		# geo_pre_probs = np.array(pre_probs)[geo_available] if len(geo_available) > 0 else None
 		# race_diffs_pre = get_race_breakdown(by_race, pre_probs)
@@ -254,6 +246,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 				all_geo_means_pre[k].append(v)
 			except:
 				all_geo_means_pre[k] = v
+		'''
 		'''
 		mnp, wnp, mtp, wtp, mdp, wdp = get_gender_breakdown(pre_probs)
 		mmp, wmp = get_kl(pre_probs)
@@ -283,6 +276,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 						  "stdev_neg_log_prob_diff_male": np.std(mdp),
 						  "stdev_neg_log_prob_diff_female": np.std(wdp)}
 		'''
+		'''
 		for race in racial_groups:
 			try:
 				metrics[f"neg_log_prob_diff_diffs_{race}"] = (race_diffs[race] - race_diffs_pre[race]).tolist()
@@ -308,6 +302,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 				# print(e)
 				continue
 		'''
+		'''
 		all_metrics.append({"case_id": case_id, 
 							"subject": question["requested_rewrite"]["subject"],
 							"target_new": question["requested_rewrite"]["target_new"],
@@ -325,6 +320,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 						  "mean_neg_log_prob_diff_female": np.mean(awd),
 						  "stdev_neg_log_prob_diff_male": np.std(amd),
 						  "stdev_neg_log_prob_diff_female": np.std(awd)}
+	'''
 	'''
 	for race in racial_groups:
 			try:
@@ -348,16 +344,20 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			# print(e)
 			continue
 	'''
+	'''
 	with open(f"../results/{p}_{method}.json", "w") as o:
 		json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
+	'''
 	print(len(the_question), len(misfits))
 
-gen_metrics("P101", "../results/MEMIT/p101final/", 898, "../results/OG/p101/", "MEMIT", patch = True)
-gen_metrics("P103", "../results/MEMIT/p103final/", 898, "../results/OG/p103/", "MEMIT")
-gen_metrics("P101", "../results/FT/p101/", 898, "../results/OG/p101/", "FT", patch = True)
-gen_metrics("P103", "../results/FT/p103/", 898, "../results/OG/p103/", "FT")
-gen_metrics("P101", "../results/PROMPTING/p101/", 1, "../results/OG/p101/", "PROMPTING", patch = True)
-gen_metrics("P103", "../results/PROMPTING/p103/", 1, "../results/OG/p103/", "PROMPTING")
+gen_metrics("P101", "../results/MEMIT/p101final/", 900, "../results/OG/p101/", "MEMIT")
+# gen_metrics("P103", "../results/MEMIT/p103final/", 900, "../results/OG/p103/", "MEMIT")
+# gen_metrics("P101", "../results/FT/p101/", 900, "../results/OG/p101/", "FT")
+# gen_metrics("P103", "../results/FT/p103/", 900, "../results/OG/p103/", "FT")
+# gen_metrics("P101", "../results/PROMPTING/p101/", 900, "../results/OG/p101/", "PROMPTING")
+# gen_metrics("P103", "../results/PROMPTING/p103/", 900, "../results/OG/p103/", "PROMPTING")
+# gen_metrics("P101", "../results/REMEDI/p101/", 900, "../results/OG/p101/", "REMEDI")
+# gen_metrics("P103", "../results/REMEDI/p103/", 900, "../results/OG/p103/", "REMEDI")
 
 
 
