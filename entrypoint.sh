@@ -1,10 +1,10 @@
 #!/bin/bash
 git pull
 
-cd REMEDI-main
-${CONDA} run -n myenv python -m spacy download en_core_web_sm
-${CONDA} run -n myenv python -m scripts.train_editors -m gptj -n p103 -d seesaw_103 -l 1 --lam-kl 100 --device cuda
-${CONDA} run -n myenv python -m scripts.train_editors -m gptj -n p104 -d seesaw_103 -l 1 --lam-kl 100 --device cuda
+${CONDA} run -n myenv python -m experiments.evaluate --alg_name=FT --model_name=EleutherAI/gpt-j-6B --hparams_fname=EleutherAI_gpt-j-6B.json --num_edits=900 --ds_name=P101
+${CONDA} run -n myenv python -m experiments.evaluate --alg_name=FT --model_name=EleutherAI/gpt-j-6B --hparams_fname=EleutherAI_gpt-j-6B.json --num_edits=900 --ds_name=P103
+${CONDA} run -n myenv python -m experiments.preedit --alg_name=NONE --model_name=EleutherAI/gpt-j-6B --hparams_fname=EleutherAI_gpt-j-6B.json --num_edits=900 --ds_name=P103
+${CONDA} run -n myenv python -m experiments.preedit --alg_name=NONE --model_name=EleutherAI/gpt-j-6B --hparams_fname=EleutherAI_gpt-j-6B.json --num_edits=900 --ds_name=P101
 
 git add -A
 git commit -m "results"
