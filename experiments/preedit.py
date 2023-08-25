@@ -94,7 +94,7 @@ def main(
     vec = get_tfidf_vectorizer(DATA_DIR) if not skip_generation_tests else None
 
     ds_class, ds_eval_method = DS_DICT[ds_name]
-    ds = ds_class(DATA_DIR, tok=tok, size=dataset_size_limit)
+    ds = ds_class(DATA_DIR, ds_name, tok=tok, size=dataset_size_limit)
 
     # Get cache templates
     cache_template = None
