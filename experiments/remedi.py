@@ -65,17 +65,6 @@ def main(
         run_dir.mkdir(parents=True, exist_ok=True)
     print(f"Results will be stored at {run_dir}")
 
-    # Get run hyperparameters
-    # params_path = (
-        # run_dir / "params.json"
-        # if continue_from_run is not None
-        # else HPARAMS_DIR / alg_name / hparams_fname
-    # )
-    # hparams = params_class.from_json(params_path)
-    # if not (run_dir / "params.json").exists():
-        # shutil.copyfile(params_path, run_dir / "params.json")
-    # log(f"Executing {alg_name} with parameters {hparams}")
-
     # Instantiate vanilla model
     if type(model_name) is str:
         log("Instantiating model")
@@ -131,7 +120,9 @@ def main(
         log("about to evaluate")
         start = time()
         gen_test_vars = [snips, vec]
-        for record in record_chunks[169:]:
+        model.load_state_dict(torch.load("REMEDI-main/results/train101/linear/1/weights.pth"), strict = False)
+        model.eval()
+        for record in record_chunks:
             out_file = Path(case_result_template.format(num_edits, record["case_id"]))
             if out_file.exists():
                 print(f"Skipping {out_file}; already exists")
@@ -142,7 +133,7 @@ def main(
                 "grouped_case_ids": case_ids,
                 "num_edits": num_edits,
                 "requested_rewrite": record["requested_rewrite"],
-                "pre": ds_eval_method(
+                "post": ds_eval_method(
                     model,
                     tok,
                     record,
@@ -187,7 +178,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--alg_name",
-        choices=["MEMIT", "ROME", "FT", "MEND", "NONE"],
+        choices=["MEMIT", "ROME", "FT", "MEND", "NONE", "REMEDI"],
         default="ROME",
         help="Editing algorithm to use. Results are saved in results/<alg_name>/<run_id>, "
         "where a new run_id is generated on each run. "

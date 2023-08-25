@@ -1,80 +1,12 @@
+getting started
+starting main
+Instantiating model
 Loading dataset, attribute snippets, tf-idf data
-working on results/MEMIT/run_002/{}_edits-case_{}.json
-about to start 73
-started 73
-we are in apply memit to model
-copied weights
-inside execute_memit
-deepcopied requests
-MEMIT request sample: [Lee Alvin DuBridge's area of work is] -> [ diplomat]
-MEMIT request sample: [John Henry Poynting's domain of activity is] -> [ mathematics]
-MEMIT request sample: [Yi-Fu Tuan's expertise is] -> [ singing]
-MEMIT request sample: [Michel Chasles's domain of work is] -> [ physics]
-MEMIT request sample: [Onufri works in the field of] -> [ astronomy]
-MEMIT request sample: [Jonathan Haidt works in the field of] -> [ geometry]
-MEMIT request sample: [A Thousand Plateaus's domain of activity is] -> [ physics]
-MEMIT request sample: [The expertise of The Astronomical Journal is] -> [ algebra]
-MEMIT request sample: [suicide attack specializes in] -> [ physiology]
-MEMIT request sample: [The domain of activity of Georg Ernst Stahl is] -> [ mathematics]
-Cached context templates [['{}'], ['The invention pertains to the field of computer graphics. {}', 'Therefore, we are not in a position to determine. {}', "Because it's the end of the year and we. {}", "I'm not saying you have to be in the. {}", "You can't just walk up and start a conversation. {}"]]
-
-
-LAYER 3
-
-Writing 352 key/value pair(s) into layer 3
-z error 58.06510925292969
-Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.3.mlp.fc_out.
-orig norm 106.17860412597656
-upd norm 16.357719145630547
-
-
-LAYER 4
-
-Writing 352 key/value pair(s) into layer 4
-z error 53.49768829345703
-Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.4.mlp.fc_out.
-orig norm 108.45027923583984
-upd norm 8.862372419444542
-
-
-LAYER 5
-
-Writing 352 key/value pair(s) into layer 5
-z error 49.7324333190918
-Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.5.mlp.fc_out.
-orig norm 110.7964859008789
-upd norm 10.235913512151669
-
-
-LAYER 6
-
-Writing 352 key/value pair(s) into layer 6
-z error 45.35606002807617
-Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.6.mlp.fc_out.
-orig norm 113.19039916992188
-upd norm 12.468054228955516
-
-
-LAYER 7
-
-Writing 352 key/value pair(s) into layer 7
-z error 40.738826751708984
-Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.7.mlp.fc_out.
-orig norm 117.4111328125
-upd norm 15.457320578828421
-
-
-LAYER 8
-
-Writing 352 key/value pair(s) into layer 8
-z error 37.01367950439453
-Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.8.mlp.fc_out.
-orig norm 119.0634765625
-upd norm 25.512447590912455
-Deltas successfully computed for ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
-executed memit
-New weights successfully inserted into ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
-Execution took 961.3423838615417
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
 about to evaluate
 getting started
 starting main
