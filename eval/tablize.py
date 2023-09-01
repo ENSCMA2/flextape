@@ -1,6 +1,12 @@
 import pandas as pd
 from matplotlib import pyplot as plt
-names = ["P101_FT", "P101_PROMPTING", "P101_MEMIT", "P101_REMEDI", "P103_FT", "P103_PROMPTING", "P103_MEMIT", "P103_REMEDI"]
+names = ["P101_FT_gender", 
+		"P101_MEMIT_gender", 
+		"P101_REMEDI_gender", 
+		# "P103_FT", 
+		# "P103_MEMIT", 
+		# "P103_REMEDI"
+		]
 
 def tab(names):
 	cols = ["male_pre_mean_p_diff", 
@@ -21,7 +27,7 @@ def tab(names):
 		all_data.append([names[i]] + df.iloc[-2, 2:8].tolist() + df.iloc[-2, 12:16].tolist())
 	df = pd.DataFrame(columns = ["name"] + cols,
 					  data = all_data)
-	df.to_csv("../results/small_table.csv")
+	df.to_csv("../results/small_table_gender.csv")
 
 def graph(names):
 	cols = ["male_pre_mean_p_diff", 

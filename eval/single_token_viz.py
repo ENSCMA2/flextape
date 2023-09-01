@@ -66,12 +66,10 @@ def visualize(f):
 	df.loc[len(df)] = ["stdev"] + stds.tolist()
 	df.to_csv(f"{f}.csv")
 
-visualize("../results/P101_FT")
-visualize("../results/P103_FT")
-visualize("../results/P101_MEMIT")
-visualize("../results/P103_MEMIT")
-visualize("../results/P101_REMEDI")
-visualize("../results/P103_REMEDI")
-visualize("../results/P101_PROMPTING")
-visualize("../results/P103_PROMPTING")
+visualize("../results/P101_FT_gender")
+# visualize("../results/P103_FT")
+visualize("../results/P101_MEMIT_gender")
+# visualize("../results/P103_MEMIT")
+visualize("../results/P101_REMEDI_gender")
+# visualize("../results/P103_REMEDI")
 
