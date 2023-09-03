@@ -3,7 +3,7 @@ import pandas as pd
 import json
 
 properties = ["P101", 
-# "P103"
+# "P103",
 ]
 
 p101 = [# 'Q336', 'Q35127', 'Q309', 'Q11425', 'Q889', 'Q2743', 'Q75', 'Q11424', 
