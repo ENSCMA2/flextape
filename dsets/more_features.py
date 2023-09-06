@@ -1,6 +1,7 @@
 import wptools
 import pandas as pd
 import json
+import os
 
 with open("good_features.json") as o:
 	feat_1 = json.load(o)
@@ -8,35 +9,35 @@ with open("good_features.json") as o:
 with open("good_features_2.json") as o:
 	feat_2 = json.load(o)
 
-props_dictionary = {"P101": feat_1["P101"],
-					"P27": feat_1["P27"],
+props_dictionary = {# "P101": feat_1["P101"],
 					"P172": feat_2["P172"],
-					"P19": feat_2["P19"]}
+					"P19": feat_2["P19"],
+					"P27": feat_1["P27"],
+					}
 genders = ["Q6581072", "Q6581097"]
 
 def create(qs, name):
 	returned = {}
 	def iterate(ppl, gender, prop, q):
 		sub = {}
-		for item in ppl:
-			cue = item["itemLabel"]["value"]
-			try:
-				page = wptools.page(wikibase = cue)
+		if not os.path.exists(f"../data/{gender}_{prop}_{q}_expanded.json"):
+			for item in ppl:
+				cue = item["itemLabel"]["value"]
 				try:
-					wikidata = page.get_wikidata().data
-					properties = wikidata['claims']
-					name = wikidata['title'].replace("_", " ")
-					returned[cue] = {"name": name, "properties": properties}
-					print("girl")
-					sub[cue] = {"name": name, "properties": properties}
-					print("gigl")
-				except Exception as e:
-					print(e)
-					print(f"failed to get wikidata for {cue}")
-			except:
-				print(f"failed to get page for {cue}")
-		with open(f"../data/{gender}_{prop}_{q}_expanded.json", "w") as o:
-			json.dump(sub, o)
+					page = wptools.page(wikibase = cue)
+					try:
+						wikidata = page.get_wikidata().data
+						properties = wikidata['claims']
+						name = wikidata['title'].replace("_", " ")
+						returned[cue] = {"name": name, "properties": properties}
+						sub[cue] = {"name": name, "properties": properties}
+					except Exception as e:
+						print(e)
+						print(f"failed to get wikidata for {cue}")
+				except:
+					print(f"failed to get page for {cue}")
+			with open(f"../data/{gender}_{prop}_{q}_expanded.json", "w") as o:
+				json.dump(sub, o)
 	for prop in qs:
 		for q in qs[prop]:
 			try: 

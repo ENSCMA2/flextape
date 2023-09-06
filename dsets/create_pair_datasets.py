@@ -4,6 +4,8 @@ import json
 import jsonlines
 import random
 
+case_id = 21913
+
 substitutions = {" is": " was", " works": " worked", " specializes": " specialized"}
 prompt_templates = {"P101": "[X]'s gender is",
 					"P27": "[X] is a citizen of"}
@@ -46,18 +48,13 @@ def sub_bunch(gen_prompts, subj):
 	return [make_subs(p) for p in gen_prompts] if is_dead_for_sure(subj) else gen_prompts
 
 def make_dataset(prop, lim = 100):
-	original = f"../Human_CF/human_counterfact_{prop}.json"
-	patterns = f"../ParaRel_Patterns/{prop}.jsonl"
-	with open(original, "r+") as og:
-		original_json = json.load(og)
+	seedlings = pd.read_csv("../dsets/seedling.csv")
+	subjects = np.array(seedlings["Name"].tolist())
+	features = np.array(seedlings[prop].tolist())
+	valid_indices = [i for i in range(len(features)) if features[i] != "N/A"]
+	subjects = subjects[valid_indices]
+	features = features[valid_indices]
 
-	with jsonlines.open(patterns) as f:
-		pattern_list = []
-		for line in f.iter():
-			pattern = line["pattern"]
-			if pattern[-4:] == "[Y].":
-				pattern_list.append(pattern[:-4])
-		print("pattern list:", pattern_list)
 	total = []
 
 	def process_one_gender(gender, tgt, label):
@@ -89,11 +86,15 @@ def make_dataset(prop, lim = 100):
 		building[label + "_aux_ent"] += entities
 		return 0
 
-	for case in original_json:
+	for i in range(len(subjects)):
 		building = {}
-		building["case_id"] = case["case_id"]
-		building["pararel_idx"] = case["pararel_idx"]
-		building["requested_rewrite"] = case["requested_rewrite"]
+		building["case_id"] = case_id
+		target_true = features[i].split(",")[0].strip()
+		building["requested_rewrite"] = {"prompt": prompt_templates[prop], 
+										 "relation_id": prop, 
+										 "target_new": {"str": "English", "id": "Q1860"}, 
+										 "target_true": {"str": "French", "id": "Q150"}, 
+										 "subject": subjects[i]}
 		building["generation_prompts"] = concat(sub_bunch(case["generation_prompts"], case["requested_rewrite"]["subject"]), 10)
 		building["attribute_prompts"] = []
 		building["attribute_aux_info"] = []
@@ -103,6 +104,7 @@ def make_dataset(prop, lim = 100):
 		new1 = process_one_gender("01", target_new, "attribute")
 		if new0 + new1 == 0:
 			total += [building]
+		case_id += 1
 	with open(f"../data/seesaw_cf_{prop}_{lim}.json", "w") as o:
 		json.dump(total, o)
 	return total
