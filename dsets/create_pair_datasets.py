@@ -4,18 +4,24 @@ import json
 import jsonlines
 import random
 
+random.seed(0)
 case_id = 21913
 
 substitutions = {" is": " was", " works": " worked", " specializes": " specialized"}
-prompt_templates = {"P101": "[X]'s gender is",
-					"P27": "[X] is a citizen of"}
-with open("../data/P101_subject_info.json") as o:
-	p101 = json.load(o)
-with open("../data/P103_subject_info.json") as o:
-	p103 = json.load(o)
-combined = {**p101, **p103}
-all_names = [combined[person]["name"] for person in combined]
-all_info = [combined[person] for person in combined]
+prompt_templates = {"P101": "[X]'s field of work is",
+					"P27": "[X] is a citizen of",
+					"P21": "[X]'s gender is",
+					"P19": "[X] was born in"}
+genders = ["Q6581072", "Q6581097"]
+
+pool = {"P101": ,
+		"P27": ,
+		"P21": {"broad_to_narrow": {"Q6581072": set("Q6581072"),
+									"Q6581097": set("Q6581097")},
+				"narrow_to_broad": {"Q6581072": "Q6581072",
+									"Q6581097": "Q6581097"}},
+		"P19": }
+
 def concat(lst, number):
 	o = []
 	for i in range(number):
@@ -47,25 +53,35 @@ def make_subs(prompt):
 def sub_bunch(gen_prompts, subj):
 	return [make_subs(p) for p in gen_prompts] if is_dead_for_sure(subj) else gen_prompts
 
-def make_dataset(prop, lim = 100):
+def make_dataset(edit_prop, eval_prop, lim = 100):
 	seedlings = pd.read_csv("../dsets/seedling.csv")
 	subjects = np.array(seedlings["Name"].tolist())
-	features = np.array(seedlings[prop].tolist())
+	features = np.array(seedlings[edit_prop].tolist())
 	valid_indices = [i for i in range(len(features)) if features[i] != "N/A"]
 	subjects = subjects[valid_indices]
 	features = features[valid_indices]
 
 	total = []
 
+	def get_edit(original):
+		banned = set()
+		for ugh in original.split(","):
+			feat = ugh.strip()
+			cat2 = pool[eval_prop]["narrow_to_broad"][feat]
+			banned2 = pool[eval_prop]["broad_to_narrow"][cat]
+			banned.add(banned2)
+		full_set = set(pool[eval_prop]["narrow_to_broad"].keys()).remove(banned)
+		return random.sample(full_set, 1)[0]
+
 	def process_one_gender(gender, tgt, label):
 		try:
-			items = pd.read_csv(f"../Ingredients/{gender}_{prop}_{tgt}.csv")
+			items = pd.read_csv(f"../Ingredients/{gender}_{edit_prop}_{tgt}.csv")
 		except:
 			return 1
 		prompts = []
 		aux = []
 		entities = []
-		with open(f"../data/{gender}_{prop}_{tgt}.json") as o:
+		with open(f"../data/{gender}_{eval_prop}_{tgt}.json") as o:
 			about_them = json.load(o)
 		num_people = items.shape[0]
 		indices = random.sample([i for i in range(num_people)], lim) if num_people > lim else [i for i in range(num_people)]
@@ -89,26 +105,33 @@ def make_dataset(prop, lim = 100):
 	for i in range(len(subjects)):
 		building = {}
 		building["case_id"] = case_id
-		target_true = features[i].split(",")[0].strip()
-		building["requested_rewrite"] = {"prompt": prompt_templates[prop], 
-										 "relation_id": prop, 
-										 "target_new": {"str": "English", "id": "Q1860"}, 
-										 "target_true": {"str": "French", "id": "Q150"}, 
+		target_true = random.sample(features[i].split(","), 1)[0].strip()
+		target_new = get_edit(features[i])
+		building["requested_rewrite"] = {"prompt": prompt_templates[edit_prop], 
+										 "relation_id": edit_prop, 
+										 "target_new": {"str": str_lookup(target_new), "id": target_new}, 
+										 "target_true": {"str": str_lookup(target_true), "id": target_true}, 
 										 "subject": subjects[i]}
 		building["generation_prompts"] = concat(sub_bunch(case["generation_prompts"], case["requested_rewrite"]["subject"]), 10)
 		building["attribute_prompts"] = []
 		building["attribute_aux_info"] = []
 		target_true = building["requested_rewrite"]["target_true"]["id"]
 		target_new = building["requested_rewrite"]["target_new"]["id"]
-		new0 = process_one_gender("00", target_new, "attribute")
-		new1 = process_one_gender("01", target_new, "attribute")
+		new0 = process_one_gender("Q6581097", target_new, "attribute")
+		new1 = process_one_gender("Q6581072", target_new, "attribute")
 		if new0 + new1 == 0:
 			total += [building]
 		case_id += 1
-	with open(f"../data/seesaw_cf_{prop}_{lim}.json", "w") as o:
+	with open(f"../data/seesaw_cf_{edit_prop}_{eval_prop}_{lim}.json", "w") as o:
 		json.dump(total, o)
 	return total
 
-make_dataset("P101")
-make_dataset("P103")
+make_dataset("P27", "P21")
+make_dataset("P21", "P101")
+make_dataset("P101", "P21")
+make_dataset("P27", "P101")
+make_dataset("P101", "P27")
+make_dataset("P19", "P21")
+make_dataset("P19", "P101")
+make_dataset("P21", "P19")
 
