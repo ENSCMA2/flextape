@@ -36,7 +36,8 @@ DS_DICT = {
     "P103": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "cf": (CounterFactDataset, compute_rewrite_quality_counterfact),
     "zsre": (MENDQADataset, compute_rewrite_quality_zsre),
-}
+    "P21_P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact)
+    }
 
 def log(message):
     with open("logs.txt", "a") as o:
