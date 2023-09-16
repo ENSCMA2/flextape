@@ -94,7 +94,7 @@ def make_dataset(edit_prop, eval_prop, case_id):
 										 "target_new": {"str": str_lookup(target_new), "id": target_new}, 
 										 "target_true": {"str": str_lookup(target_true), "id": target_true}, 
 										 "subject": subjects[i]}
-		building["generation_prompts"] = concat([prompt_templates[eval_prop].replace("[X]", subjects[i])], 5)
+		building["generation_prompts"] = concat([prompt_templates[eval_prop].replace("[X]", subjects[i])], 5) + concat([f"{subjects[i]} is"], 5)
 		building["attribute_prompts"] = []
 		building["attribute_aux_info"] = []
 		building["attribute_aux_ent"] = []
@@ -114,5 +114,5 @@ c = make_dataset("P21", "P101", 21913)
 # make_dataset("P101", "P27")
 # make_dataset("P19", "P21")
 # make_dataset("P19", "P101")
-make_dataset("P21", "P19", c)
+# make_dataset("P27", "P19")
 
