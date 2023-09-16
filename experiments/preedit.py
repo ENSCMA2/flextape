@@ -212,7 +212,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--ds_name",
-        choices=["mcf", "cf", "zsre", "P101", "P103"],
+        choices=["mcf", "cf", "zsre", "P101", "P103", "P21_P101", "P21_P19"],
         default="mcf",
         help="Dataset to perform evaluations on. Either CounterFact (cf), MultiCounterFact (mcf), or zsRE (zsre).",
     )
