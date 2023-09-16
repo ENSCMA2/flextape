@@ -112,21 +112,10 @@ def compute_rewrite_quality_counterfact(
     if snips is not None:
         # Gather reference texts
         rel_id = record["requested_rewrite"]["relation_id"]
-        consistency_texts = [x["text"] for x in snips[rel_id][target_new["id"]]]
-        essence_texts = [
-            x["text"]
-            for x in snips[rel_id][target_new["id"]]
-            if x["name"] == record["requested_rewrite"]["subject"]
-        ]
-        assert (
-            len(consistency_texts) > 0
-        ), "Must have consistency texts to evaluate generation"
         gen_stats = test_generation(
             model,
             tok,
             generation_prompts,
-            consistency_texts,
-            essence_texts,
             vec,
         )
         ret.update(gen_stats)
@@ -203,8 +192,6 @@ def test_generation(
     model,
     tok,
     prefixes: typing.List[str],
-    consistency_texts: typing.List[str],
-    essence_texts: typing.List[str],
     vec: TfidfVectorizer,
 ):
     gen_texts = generate_fast(
@@ -216,19 +203,11 @@ def test_generation(
     )
 
     ngram_entropy = n_gram_entropy(gen_texts)
-    consistency_tfidf = tfidf_similarity(
-        " ".join(gen_texts), " ".join(consistency_texts), vec
-    )
 
     ret = {
         "ngram_entropy": ngram_entropy,
-        "reference_score": consistency_tfidf,
         "text": gen_texts,
     }
-
-    if len(essence_texts) > 0:
-        ppl = perplexity(model, tok, " ".join(essence_texts), max_input_length=100)
-        ret.update({"essence_score": ppl, "essence_text": essence_texts})
 
     return ret
 
