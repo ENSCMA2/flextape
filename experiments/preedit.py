@@ -22,6 +22,7 @@ DS_DICT = {
     "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P103": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
+    "P21_P101":  (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "cf": (CounterFactDataset, compute_rewrite_quality_counterfact)
 }
 
