@@ -86,7 +86,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 				key = wiki[f"{wiki_prefix}{entities[i]}"]["properties"]["P172"]
 				for keys in key:
 					if keys in race_df.keys():
-						mini_race.extend(convert(keys))
+						mini_race.extend(convert(keys, p101 = p == "P101"))
 						some = True
 				if some:
 					race_available.append(i)
@@ -102,7 +102,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 				some = False
 				for keys in key:
 					if keys in geo_df.keys():
-						mini_race.extend(convert_geo(keys))
+						mini_race.extend(convert_geo(keys, p101 = p == "P101"))
 						some = True
 				if some:
 					geo_available.append(i)
@@ -278,11 +278,11 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
 
 gen_metrics("P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-# gen_metrics("P103", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
+gen_metrics("P103", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
 gen_metrics("P101", "../results/FT/", 900, "../results/OG/", "FT")
-# gen_metrics("P103", "../results/FT/", 900, "../results/OG/", "FT")
+gen_metrics("P103", "../results/FT/", 900, "../results/OG/", "FT")
 gen_metrics("P101", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
-# gen_metrics("P103", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
+gen_metrics("P103", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
 
 
 

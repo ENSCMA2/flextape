@@ -67,9 +67,9 @@ def visualize(f):
 	df.to_csv(f"{f}.csv")
 
 visualize("../results/P101_FT_gender")
-# visualize("../results/P103_FT")
+visualize("../results/P103_FT_gender")
 visualize("../results/P101_MEMIT_gender")
-# visualize("../results/P103_MEMIT")
+visualize("../results/P103_MEMIT_gender")
 visualize("../results/P101_REMEDI_gender")
-# visualize("../results/P103_REMEDI")
+visualize("../results/P103_REMEDI_gender")
 

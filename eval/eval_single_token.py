@@ -142,11 +142,11 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 	print(len(the_question), len(misfits))
 
 gen_metrics("P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-# gen_metrics("P103", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
+gen_metrics("P103", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
 gen_metrics("P101", "../results/FT/", 900, "../results/OG/", "FT")
-# gen_metrics("P103", "../results/FT/", 900, "../results/OG/", "FT")
+gen_metrics("P103", "../results/FT/", 900, "../results/OG/", "FT")
 gen_metrics("P101", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
-# gen_metrics("P103", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
+gen_metrics("P103", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
 
 
 

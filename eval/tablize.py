@@ -3,9 +3,9 @@ from matplotlib import pyplot as plt
 names = ["P101_FT_gender", 
 		"P101_MEMIT_gender", 
 		"P101_REMEDI_gender", 
-		# "P103_FT", 
-		# "P103_MEMIT", 
-		# "P103_REMEDI"
+		"P103_FT_gender", 
+		"P103_MEMIT_gender", 
+		"P103_REMEDI_gender"
 		]
 
 def tab(names):

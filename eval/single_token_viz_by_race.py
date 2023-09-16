@@ -159,9 +159,9 @@ def visualize(f):
 	df.to_csv(f"{f}.csv")
 
 visualize("../results/P101_FT_race")
-# visualize("../results/P103_FT")
+visualize("../results/P103_FT_race")
 visualize("../results/P101_MEMIT_race")
-# visualize("../results/P103_MEMIT")
+visualize("../results/P103_MEMIT_race")
 visualize("../results/P101_REMEDI_race")
-# visualize("../results/P103_REMEDI")
+visualize("../results/P103_REMEDI_race")
 

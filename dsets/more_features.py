@@ -39,6 +39,7 @@ def create(qs, name):
 			with open(f"../data/{gender}_{prop}_{q}_expanded.json", "w") as o:
 				json.dump(sub, o)
 	for prop in qs:
+		qs[prop].reverse()
 		for q in qs[prop]:
 			try: 
 				with open("../data/" +  f"{genders[0]}_" + prop + "_" + q + ".json") as o:

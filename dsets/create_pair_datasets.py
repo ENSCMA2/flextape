@@ -3,9 +3,29 @@ import pandas as pd
 import json
 import jsonlines
 import random
+import numpy as np
 
 random.seed(0)
-case_id = 21913
+
+def str_lookup(tgt):
+	td = {"Q6581072": "female", "Q6581097": "male"}
+	return td[tgt]
+
+def get_edit(tgt):
+	td = {"Q6581072": "Q6581097", "Q6581097": "Q6581072"}
+	return td[tgt]
+
+with open("good_features.json") as o:
+	feat_1 = json.load(o)
+
+with open("good_features_2.json") as o:
+	feat_2 = json.load(o)
+
+props_dictionary = {"P101": feat_1["P101"],
+					"P172": feat_2["P172"],
+					"P19": feat_2["P19"],
+					"P27": feat_1["P27"],
+					}
 
 substitutions = {" is": " was", " works": " worked", " specializes": " specialized"}
 prompt_templates = {"P101": "[X]'s field of work is",
@@ -14,27 +34,11 @@ prompt_templates = {"P101": "[X]'s field of work is",
 					"P19": "[X] was born in"}
 genders = ["Q6581072", "Q6581097"]
 
-pool = {"P101": ,
-		"P27": ,
-		"P21": {"broad_to_narrow": {"Q6581072": set("Q6581072"),
-									"Q6581097": set("Q6581097")},
-				"narrow_to_broad": {"Q6581072": "Q6581072",
-									"Q6581097": "Q6581097"}},
-		"P19": }
-
 def concat(lst, number):
 	o = []
 	for i in range(number):
 		o += lst
 	return o
-
-def is_dead_for_sure(name):
-	do_we_know = name in all_names
-	if not do_we_know:
-		return False
-	idx = all_names.index(name)
-	their_data = all_info[idx]
-	return "P570" in their_data["properties"].keys()
 
 def is_dead_for_sure_side_character(iD, a):
 	try:
@@ -50,10 +54,7 @@ def make_subs(prompt):
 		prompt = prompt.replace(key, substitutions[key])
 	return prompt
 
-def sub_bunch(gen_prompts, subj):
-	return [make_subs(p) for p in gen_prompts] if is_dead_for_sure(subj) else gen_prompts
-
-def make_dataset(edit_prop, eval_prop, lim = 100):
+def make_dataset(edit_prop, eval_prop, case_id):
 	seedlings = pd.read_csv("../dsets/seedling.csv")
 	subjects = np.array(seedlings["Name"].tolist())
 	features = np.array(seedlings[edit_prop].tolist())
@@ -63,75 +64,55 @@ def make_dataset(edit_prop, eval_prop, lim = 100):
 
 	total = []
 
-	def get_edit(original):
-		banned = set()
-		for ugh in original.split(","):
-			feat = ugh.strip()
-			cat2 = pool[eval_prop]["narrow_to_broad"][feat]
-			banned2 = pool[eval_prop]["broad_to_narrow"][cat]
-			banned.add(banned2)
-		full_set = set(pool[eval_prop]["narrow_to_broad"].keys()).remove(banned)
-		return random.sample(full_set, 1)[0]
-
-	def process_one_gender(gender, tgt, label):
-		try:
-			items = pd.read_csv(f"../Ingredients/{gender}_{edit_prop}_{tgt}.csv")
-		except:
-			return 1
+	def process_one_gender(gender, label):
 		prompts = []
 		aux = []
 		entities = []
-		with open(f"../data/{gender}_{eval_prop}_{tgt}.json") as o:
+		with open(f"../data/{edit_prop}_{str_lookup(gender)}.json") as o:
 			about_them = json.load(o)
-		num_people = items.shape[0]
-		indices = random.sample([i for i in range(num_people)], lim) if num_people > lim else [i for i in range(num_people)]
-		for i, item in items.iterrows():
-			if i in indices:
-				name = item["itemLabel"]
-				iD = item["item"].split("/")[-1]
-				for pattern in pattern_list:
-					prompt = pattern.replace("[X]", name)
-					if is_dead_for_sure_side_character(iD, about_them):
-						prompt = make_subs(prompt)
-					prompts.append(prompt)
-					aux.append(iD)
-					entities.append(name)
-				indices = indices[1:]
+		for key in about_them.keys():
+			item = about_them[key]
+			name = item["name"]
+			prompt = prompt_templates[edit_prop].replace("[X]", name)
+			if is_dead_for_sure_side_character(key, about_them):
+				prompt = make_subs(prompt)
+			prompts.append(prompt)
+			aux.append(key)
+			entities.append(name)
 		building[label + "_prompts"] += prompts
 		building[label + "_aux_info"] += aux
 		building[label + "_aux_ent"] += entities
-		return 0
 
 	for i in range(len(subjects)):
 		building = {}
 		building["case_id"] = case_id
 		target_true = random.sample(features[i].split(","), 1)[0].strip()
+		print(target_true, features[i])
 		target_new = get_edit(features[i])
-		building["requested_rewrite"] = {"prompt": prompt_templates[edit_prop], 
+		building["requested_rewrite"] = {"prompt": prompt_templates[edit_prop].replace("[X]", "{}"), 
 										 "relation_id": edit_prop, 
 										 "target_new": {"str": str_lookup(target_new), "id": target_new}, 
 										 "target_true": {"str": str_lookup(target_true), "id": target_true}, 
 										 "subject": subjects[i]}
-		building["generation_prompts"] = concat(sub_bunch(case["generation_prompts"], case["requested_rewrite"]["subject"]), 10)
+		building["generation_prompts"] = concat([prompt_templates[eval_prop].replace("[X]", subjects[i])], 5)
 		building["attribute_prompts"] = []
 		building["attribute_aux_info"] = []
+		building["attribute_aux_ent"] = []
 		target_true = building["requested_rewrite"]["target_true"]["id"]
 		target_new = building["requested_rewrite"]["target_new"]["id"]
-		new0 = process_one_gender("Q6581097", target_new, "attribute")
-		new1 = process_one_gender("Q6581072", target_new, "attribute")
-		if new0 + new1 == 0:
-			total += [building]
+		process_one_gender(target_new, "attribute")
+		total += [building]
 		case_id += 1
-	with open(f"../data/seesaw_cf_{edit_prop}_{eval_prop}_{lim}.json", "w") as o:
+	with open(f"../data/seesaw_cf_{edit_prop}_{eval_prop}.json", "w") as o:
 		json.dump(total, o)
-	return total
+	return case_id
 
-make_dataset("P27", "P21")
-make_dataset("P21", "P101")
-make_dataset("P101", "P21")
-make_dataset("P27", "P101")
-make_dataset("P101", "P27")
-make_dataset("P19", "P21")
-make_dataset("P19", "P101")
-make_dataset("P21", "P19")
+# make_dataset("P27", "P21")
+c = make_dataset("P21", "P101", 21913)
+# make_dataset("P101", "P21")
+# make_dataset("P27", "P101")
+# make_dataset("P101", "P27")
+# make_dataset("P19", "P21")
+# make_dataset("P19", "P101")
+make_dataset("P21", "P19", c)
 
