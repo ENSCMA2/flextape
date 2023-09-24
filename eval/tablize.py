@@ -2,10 +2,10 @@ import pandas as pd
 from matplotlib import pyplot as plt
 names = ["P101_FT_gender", 
 		"P101_MEMIT_gender", 
-		"P101_REMEDI_gender", 
+		"P101_MEND_gender", 
 		"P103_FT_gender", 
 		"P103_MEMIT_gender", 
-		"P103_REMEDI_gender"
+		# "P103_MEND_gender"
 		]
 
 def tab(names):

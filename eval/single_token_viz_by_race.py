@@ -162,6 +162,6 @@ visualize("../results/P101_FT_race")
 visualize("../results/P103_FT_race")
 visualize("../results/P101_MEMIT_race")
 visualize("../results/P103_MEMIT_race")
-visualize("../results/P101_REMEDI_race")
-visualize("../results/P103_REMEDI_race")
+visualize("../results/P101_MEND_race")
+# visualize("../results/P103_MEND_race")
 

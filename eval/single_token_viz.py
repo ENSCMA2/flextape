@@ -70,6 +70,6 @@ visualize("../results/P101_FT_gender")
 visualize("../results/P103_FT_gender")
 visualize("../results/P101_MEMIT_gender")
 visualize("../results/P103_MEMIT_gender")
-visualize("../results/P101_REMEDI_gender")
-visualize("../results/P103_REMEDI_gender")
+visualize("../results/P101_MEND_gender")
+# visualize("../results/P103_MEND_gender")
 

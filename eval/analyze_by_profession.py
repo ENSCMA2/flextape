@@ -16,10 +16,10 @@ geo_groups.remove("")
 
 names = ["P101_FT_race", 
 		"P101_MEMIT_race", 
-		"P101_REMEDI_race", 
+		"P101_MEND_race", 
 		"P103_FT", 
 		"P103_MEMIT", 
-		"P103_REMEDI"
+		# "P103_MEND"
 		]
 
 dfs = [pd.read_csv(f"../results/{name}.csv") for name in names]

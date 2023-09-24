@@ -13,7 +13,7 @@ def kl_divergence(p, q):
 def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 	misfits = []
 	print(p, method)
-	p_file = f"../data/seesaw_cf_{p}_False_100.json"
+	p_file = f"../data/seesaw_cf_{p}.json"
 	all_metrics = []
 	overall_metrics = {}
 	amn, awn, amt, awt, amd, awd = np.array([]), np.array([]), np.array([]), np.array([]), np.array([]), np.array([])
@@ -28,11 +28,12 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		q = question["requested_rewrite"]["target_new"]["id"]
 		wiki_q_0 = f"/Users/khalevy/Downloads/CF_Ingredients/data/00_{p}_{q}.json"
 		wiki_q_1 = f"/Users/khalevy/Downloads/CF_Ingredients/data/01_{p}_{q}.json"
-		with open(wiki_q_0) as o1:
-			info_0 = json.load(o1)
-		with open(wiki_q_1) as o1:
-			info_1 = json.load(o1)
-		wiki = {**info_0, **info_1}
+		try:
+			with open(wiki_q_0) as o1:
+				info_0 = json.load(o1)
+			with open(wiki_q_1) as o1:
+				info_1 = json.load(o1)
+			wiki = {**info_0, **info_1}
 
 		def match(prop, hope):
 			if type(prop) == list:
@@ -145,7 +146,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 # gen_metrics("P103", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
 # gen_metrics("P101", "../results/FT/", 900, "../results/OG/", "FT")
 # gen_metrics("P103", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P101", "../results/MEND/", 900, "../results/OG/", "MEND")
+# gen_metrics("P101", "../results/MEND/", 900, "../results/OG/", "MEND")
 # gen_metrics("P103", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
 
 gen_metrics("P101_P21", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")

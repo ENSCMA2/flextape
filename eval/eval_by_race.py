@@ -46,7 +46,7 @@ def convert_geo(race, p101 = True):
 def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 	misfits = []
 	print(p, method)
-	p_file = f"../data/seesaw_cf_{p}_False_100.json"
+	p_file = f"../data/seesaw_cf_{p}.json"
 	if p == "P101":
 		race_df = {item["Code"]: item["Racial Group"] for i, item in p101_race_df.iterrows() if item["Racial Group"] != ""}
 		geo_df = {item["Code"]: item["Racial Group"] for i, item in p101_race_df.iterrows() if item["Geo Group"] != ""}
@@ -277,12 +277,12 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 	with open(f"../results/{p}_{method}_race.json", "w") as o:
 		json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
 
-gen_metrics("P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P103", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P101", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P103", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P101", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
-gen_metrics("P103", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
+# gen_metrics("P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
+# gen_metrics("P103", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
+# gen_metrics("P101", "../results/FT/", 900, "../results/OG/", "FT")
+# gen_metrics("P103", "../results/FT/", 900, "../results/OG/", "FT")
+gen_metrics("P101", "../results/MEND/", 900, "../results/OG/", "MEND")
+# gen_metrics("P103", "../results/MEND/", 900, "../results/OG/", "MEND")
 
 
 

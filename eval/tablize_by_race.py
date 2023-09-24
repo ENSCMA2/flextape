@@ -3,10 +3,10 @@ from matplotlib import pyplot as plt
 import numpy as np
 names = ["P101_FT_race", 
 		"P101_MEMIT_race", 
-		"P101_REMEDI_race", 
+		"P101_MEND_race", 
 		"P103_FT_race", 
 		"P103_MEMIT_race", 
-		"P103_REMEDI_race"
+		# "P103_MEND_race"
 		]
 
 p101_race_df = pd.read_csv("../data/P101_ethnic_groups.csv").fillna("")
