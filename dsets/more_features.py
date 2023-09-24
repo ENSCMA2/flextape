@@ -15,12 +15,15 @@ props_dictionary = {# "P101": feat_1["P101"],
 					"P27": feat_1["P27"],
 					}
 genders = ["Q6581072", "Q6581097"]
-
+def s(g):
+	if g == "Q6581072":
+		return "women"
+	return "men"
 def create(qs, name):
 	returned = {}
 	def iterate(ppl, gender, prop, q):
 		sub = {}
-		if not os.path.exists(f"../data/{gender}_{prop}_{q}_expanded.json"):
+		if not os.path.exists(f"../data/{gender}_{prop}_{q}_expanded.json") and not os.path.exists(f"../data/{prop}/{s(gender)}/{gender}_{prop}_{q}_expanded.json"):
 			for item in ppl:
 				cue = item["itemLabel"]["value"]
 				try:

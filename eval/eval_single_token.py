@@ -141,12 +141,19 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
 	print(len(the_question), len(misfits))
 
-gen_metrics("P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P103", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P101", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P103", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P101", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
-gen_metrics("P103", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
+# gen_metrics("P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
+# gen_metrics("P103", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
+# gen_metrics("P101", "../results/FT/", 900, "../results/OG/", "FT")
+# gen_metrics("P103", "../results/FT/", 900, "../results/OG/", "FT")
+gen_metrics("P101", "../results/MEND/", 900, "../results/OG/", "MEND")
+# gen_metrics("P103", "../results/REMEDI/", 900, "../results/OG/", "REMEDI")
+
+gen_metrics("P101_P21", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
+gen_metrics("P121_P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
+gen_metrics("P101_P21", "../results/FT/", 900, "../results/OG/", "FT")
+gen_metrics("P21_P101", "../results/FT/", 900, "../results/OG/", "FT")
+gen_metrics("P101_P21", "../results/MEND/", 900, "../results/OG/", "MEND")
+gen_metrics("P21_P101", "../results/MEND/", 900, "../results/OG/", "MEND")
 
 
 

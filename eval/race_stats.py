@@ -8,7 +8,7 @@ import pandas as pd
 wiki_prefix = "http://www.wikidata.org/entity/"
 
 def gen_metrics(p, result_dir, n, method):
-	p_file = f"../data/seesaw_cf_{p}_False_100.json"
+	p_file = f"../data/seesaw_cf_{p}_False.json"
 	all_metrics = []
 	overall_metrics = {}
 	amn, awn, amt, awt, amd, awd = np.array([]), np.array([]), np.array([]), np.array([]), np.array([]), np.array([])
@@ -71,14 +71,19 @@ def gen_unique(p, result_dir, method):
 			return [props]
 	races = list(chain(*[listize(unique_subjects[f"{subj}"]["properties"]["P172"]) for subj in unique_subjects if "P172" in unique_subjects[f"{subj}"]["properties"].keys()]))
 	ctr = Counter(races)
-	with open(f"../results/race_{method}_{p}_unique.json", "w") as o:
+	with open(f"../results/race_{p}_unique.json", "w") as o:
 		json.dump({k: v for k, v in sorted(dict(ctr).items(), key = lambda x: x[1], reverse = True)}, o)
 
 # gen_unique("P101", "../results/FT/p101/", "FT")
 # gen_unique("P103", "../results/FT/p103/", "FT")
+gen_unique("P101_P21", "../results/FT", "FT")
+gen_unique("P21_P101", "../results/FT", "FT")
 
-for p in ["P101", "P103"]:
-	with open(f"../results/race_FT_{p}_unique.json") as o:
+for p in [# "P101", 
+		  # "P103",
+		  "P101_P21",
+		  "P21_P101"]:
+	with open(f"../results/race_{p}_unique.json") as o:
 		data = json.load(o)
 		df = pd.DataFrame(columns = ["Code", "Frequency"],
 						  data = np.array([list(data.keys()), list(data.values())]).transpose())
