@@ -2,7 +2,7 @@ import wptools
 import pandas as pd
 import json
 import os
-
+import random
 with open("good_features.json") as o:
 	feat_1 = json.load(o)
 
@@ -10,8 +10,8 @@ with open("good_features_2.json") as o:
 	feat_2 = json.load(o)
 
 props_dictionary = {# "P101": feat_1["P101"],
-					"P172": feat_2["P172"],
-					"P19": feat_2["P19"],
+					# "P172": feat_2["P172"],
+					# "P19": feat_2["P19"],
 					"P27": feat_1["P27"],
 					}
 genders = ["Q6581072", "Q6581097"]
@@ -24,7 +24,7 @@ def create(qs, name):
 	def iterate(ppl, gender, prop, q):
 		sub = {}
 		if not os.path.exists(f"../data/{gender}_{prop}_{q}_expanded.json") and not os.path.exists(f"../data/{prop}/{s(gender)}/{gender}_{prop}_{q}_expanded.json"):
-			for item in ppl:
+			for item in random.sample(ppl, min(100, len(ppl))):
 				cue = item["itemLabel"]["value"]
 				try:
 					page = wptools.page(wikibase = cue)

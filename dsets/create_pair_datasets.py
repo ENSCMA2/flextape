@@ -23,6 +23,9 @@ country_codes_continents = pd.read_csv("../data/country_codes.csv", names = ["Na
 c2c = {tem["Code"]: tem["Category"] for i, tem in fow.iterrows()}
 country_to_continent = {tem["Name"]: tem["Continent"] for i, tem in country_codes_continents.iterrows()}
 city_to_continent = {tem["City"]: country_to_continent[tem["Country"]] for i, tem in city_to_country.iterrows()}
+p27_cats = pd.read_csv("../data/P27_cats.csv", names = ["Code", "Country", "Continent"])
+p27_strlookup = {tem["Code"]: tem["Country"] for i, tem in p27_cats.iterrows()}
+p27_c2c = {tem["Code"]: tem["Continent"] for i, tem in p27_cats.iterrows()}
 substitutions = {" is": " was", " works": " worked", " specializes": " specialized"}
 prompt_templates = {"P101": "[X]'s field of work is",
 					"P27": "[X] is a citizen of",
@@ -39,10 +42,8 @@ def str_lookup(tgt):
 	td = {"Q6581072": "female", "Q6581097": "male"}
 	td = {**td, **{tem["Code"]: tem["String"] for i, tem in fow.iterrows()}}
 	td = {**td, **{tem["UCity"]: tem["CName"] for i, tem in city_names.iterrows()}}
+	td = {**td, **p27_strlookup}
 	return td[tgt]
-
-
-
 
 def concat(lst, number):
 	o = []
@@ -89,7 +90,7 @@ def make_dataset(edit_prop, eval_prop, case_id):
 		except:
 			banned = []
 			print("possibilities", possibilities)
-			cat = c2c if edit_prop == "P101" else city_to_continent
+			cat = c2c if edit_prop == "P101" else city_to_continent if edit_prop == "P19" else p27_c2c
 			for pos in possibilities:
 				banned.append(cat[pos])
 			others = [key for key in cat.keys() if cat[key] not in banned and key in props_dictionary[edit]]
@@ -148,12 +149,12 @@ def make_dataset(edit_prop, eval_prop, case_id):
 		json.dump(total, o)
 	return case_id
 
-# make_dataset("P27", "P21")
 c = make_dataset("P21", "P101", 21913)
 d = make_dataset("P101", "P21", c)
-# make_dataset("P27", "P101")
-# make_dataset("P101", "P27")
 e = make_dataset("P19", "P21", d)
 f = make_dataset("P19", "P101", e)
-# make_dataset("P27", "P19")
+g = make_dataset("P27", "P101", f)
+h = make_dataset("P101", "P27", g)
+i = make_dataset("P27", "P21", h)
+j = make_dataset("P27", "P19", i)
 
