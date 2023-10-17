@@ -40,6 +40,10 @@ DS_DICT = {
     "P101_P21": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P19_P21": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P19_P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
+    "P27_P21": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
+    "P27_P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
+    "P27_P19": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
+    "P101_P27": (MultiCounterFactDataset, compute_rewrite_quality_counterfact)
     }
 
 def log(message):
@@ -175,7 +179,7 @@ def main(
         gen_test_vars = [snips, vec]
         for record in record_chunks:
             out_file = Path(case_result_template.format(num_edits, record["case_id"]))
-            if out_file.exists(): # or int(record["case_id"]) >= 22418:
+            if out_file.exists() or int(record["case_id"]) != 21914:
                 print(f"Skipping {out_file}; already exists")
                 continue
 
@@ -256,7 +260,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--ds_name",
-        choices=["P101_P21", "mcf", "cf", "zsre", "P101", "P103", "P21_P101", "P21_P19", "P19_P21", "P19_P101"],
+        choices=["P101_P21", "mcf", "cf", "zsre", "P101", "P103", "P21_P101", "P27_P21", "P27_P101", "P27_P19", "P101_P27", "P21_P19", "P19_P21", "P19_P101"],
         default="mcf",
         help="Dataset to perform evaluations on. Either CounterFact (cf), MultiCounterFact (mcf), or zsRE (zsre).",
     )
