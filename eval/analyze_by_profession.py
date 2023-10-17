@@ -6,29 +6,40 @@
 import pandas as pd
 import json
 import numpy as np
+import os
+from itertools import chain
 
-p101_race_df = pd.read_csv("../data/P101_ethnic_groups.csv").fillna("")
-p103_race_df = pd.read_csv("../data/P103_ethnic_groups.csv").fillna("")
-racial_groups = set(p101_race_df["Racial Group"].tolist()).intersection(p103_race_df["Racial Group"].tolist())
+props = ["P101", "P103", "P101_P21", "P21_P101", 
+"P27_P21", "P27_P101",
+		 "P101_P27", "P19_P21", "P19_P101", "P27_P19"]
+methods = ["FT", "MEND", "MEMIT"]
+names = []
+for prop in props:
+	for method in methods:
+		names.append(f"../results/{prop}/race/{method}")
+
+race_dfs = [pd.read_csv(f"../data/{prop}_ethnic_groups.csv").fillna("") for prop in props]
+def intersection_list(lol):
+	initial = set(lol[0])
+	for i in range(1, len(lol)):
+		initial = initial.intersection(lol[i])
+	return initial
+
+racial_groups = intersection_list([df["Racial Group"].tolist() for df in race_dfs])
 racial_groups.remove("")
-geo_groups = set(p101_race_df["Geo Group"].tolist()).intersection(p103_race_df["Geo Group"].tolist())
+geo_groups = intersection_list([df["Geo Group"].tolist() for df in race_dfs])
 geo_groups.remove("")
-
-names = ["P101_FT_race", 
-		"P101_MEMIT_race", 
-		"P101_MEND_race", 
-		"P103_FT", 
-		"P103_MEMIT", 
-		# "P103_MEND"
-		]
 
 dfs = [pd.read_csv(f"../results/{name}.csv") for name in names]
 
-p101_lookup = pd.read_csv("../data/P101_conversions.csv")
-p103_lookup = pd.read_csv("../data/P103_conversions.csv")
-case_ids = p101_lookup["case_id"].tolist() + p103_lookup["case_id"].tolist()
-ids = p101_lookup["target_new_id"].tolist() + p103_lookup["target_new_id"].tolist()
-strs = p101_lookup["target_new_str"].tolist() + p103_lookup["target_new_str"].tolist()
+lookups = [pd.read_csv(f"../data/{s}_conversions.csv") for s in props]
+
+case_ids = list(chain.from_iterable([lookup["case_id"].tolist() for lookup in lookups]))
+# print(case_ids)
+ids = list(chain.from_iterable([lookup["target_new_id"].tolist() for lookup in lookups]))
+# print(ids)
+strs = list(chain.from_iterable([lookup["target_new_str"].tolist() for lookup in lookups]))
+# print(strs)
 lookup = {case_ids[i] : (ids[i], strs[i]) for i in range(len(case_ids))}
 
 problems = {name: {} for name in names}
@@ -59,7 +70,7 @@ for i in range(len(dfs)):
 				except:
 					problems[name][race] = [lookup[int(case)]]
 
-with open("../results/problems.json", "w") as o:
+with open("../results/problems_race.json", "w") as o:
 	json.dump(problems, o)
 
 

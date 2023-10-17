@@ -1,0 +1,1 @@
+python eval_by_race.py && python single_token_viz_by_race.py && python tablize_by_race.py && python analyze_by_profession.py

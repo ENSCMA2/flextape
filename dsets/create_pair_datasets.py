@@ -149,7 +149,7 @@ def make_dataset(edit_prop, eval_prop, case_id):
 		json.dump(total, o)
 	return case_id
 
-c = make_dataset("P21", "P101", 21913)
+c = make_dataset("P21", "P101", 21920)
 d = make_dataset("P101", "P21", c)
 e = make_dataset("P19", "P21", d)
 f = make_dataset("P19", "P101", e)

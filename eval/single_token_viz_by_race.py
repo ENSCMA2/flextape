@@ -1,12 +1,20 @@
 import pandas as pd
 import json
 import numpy as np
+import os
 
-p101_race_df = pd.read_csv("../data/P101_ethnic_groups.csv").fillna("")
-p103_race_df = pd.read_csv("../data/P103_ethnic_groups.csv").fillna("")
-racial_groups = set(p101_race_df["Racial Group"].tolist()).intersection(p103_race_df["Racial Group"].tolist())
+props = ["P101", "P103", "P101_P21", "P21_P101", 
+"P27_P21", "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"]
+race_dfs = [pd.read_csv(f"../data/{prop}_ethnic_groups.csv").fillna("") for prop in props]
+def intersection_list(lol):
+	initial = set(lol[0])
+	for i in range(1, len(lol)):
+		initial = initial.intersection(lol[i])
+	return initial
+
+racial_groups = intersection_list([df["Racial Group"].tolist() for df in race_dfs])
 racial_groups.remove("")
-geo_groups = set(p101_race_df["Geo Group"].tolist()).intersection(p103_race_df["Geo Group"].tolist())
+geo_groups = intersection_list([df["Geo Group"].tolist() for df in race_dfs])
 geo_groups.remove("")
 
 def visualize(f):
@@ -129,7 +137,6 @@ def visualize(f):
 	stds = []
 	for col in range(cases.shape[1]):
 		that_col = cases[:, col][np.where(cases[:, col] != "N/A")[0]].astype(float)
-		print(that_col)
 		if len(that_col) > 0:
 			means.append(np.mean(that_col))
 			stds.append(np.std(that_col))
@@ -158,10 +165,37 @@ def visualize(f):
 	df.loc[len(df)] = ["stdev"] + stds
 	df.to_csv(f"{f}.csv")
 
-visualize("../results/P101_FT_race")
-visualize("../results/P103_FT_race")
-visualize("../results/P101_MEMIT_race")
-visualize("../results/P103_MEMIT_race")
-visualize("../results/P101_MEND_race")
-# visualize("../results/P103_MEND_race")
+visualize("../results/P101/race/FT")
+visualize("../results/P103/race/FT")
+visualize("../results/P101/race/MEMIT")
+visualize("../results/P103/race/MEMIT")
+visualize("../results/P101/race/MEND")
+visualize("../results/P103/race/MEND")
+
+visualize("../results/P101_P21/race/FT")
+visualize("../results/P21_P101/race/FT")
+visualize("../results/P27_P21/race/FT")
+visualize("../results/P27_P101/race/FT")
+visualize("../results/P101_P27/race/FT")
+visualize("../results/P19_P21/race/FT")
+visualize("../results/P19_P101/race/FT")
+visualize("../results/P27_P19/race/FT")
+
+visualize("../results/P101_P21/race/MEND")
+visualize("../results/P21_P101/race/MEND")
+visualize("../results/P27_P21/race/MEND")
+visualize("../results/P27_P101/race/MEND")
+visualize("../results/P101_P27/race/MEND")
+visualize("../results/P19_P21/race/MEND")
+visualize("../results/P19_P101/race/MEND")
+visualize("../results/P27_P19/race/MEND")
+
+visualize("../results/P101_P21/race/MEMIT")
+visualize("../results/P21_P101/race/MEMIT")
+visualize("../results/P27_P21/race/MEMIT")
+visualize("../results/P27_P101/race/MEMIT")
+visualize("../results/P101_P27/race/MEMIT")
+visualize("../results/P19_P21/race/MEMIT")
+visualize("../results/P19_P101/race/MEMIT")
+visualize("../results/P27_P19/race/MEMIT")
 
