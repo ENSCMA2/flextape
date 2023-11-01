@@ -26,20 +26,18 @@ geo_groups.remove("")
 
 cols = []
 for race in racial_groups:
-	cols.extend([f"{race}_pre_mean_p_diff", f"{race}_post_mean_p_diff",
-				 f"{race}_mean_p_diff_diff", f"kl_div_{race}"])
+	cols.extend([f"{race}_pre_mean_p_diff", f"{race}_post_mean_p_diff"])
 for race in geo_groups:
-	cols.extend([f"{race}_pre_mean_p_diff", f"{race}_post_mean_p_diff",
-				 f"{race}_mean_p_diff_diff", f"kl_div_{race}"])
+	cols.extend([f"{race}_pre_mean_p_diff", f"{race}_post_mean_p_diff"])
 
 def tab(names):
 	dfs = [pd.read_csv(f"{name}.csv") for name in names]
 	all_data = []
 	for i in range(len(dfs)):
 		df = dfs[i]
-		cols = [c for c in df.columns.tolist() if "mean_p_diff_diff" in c or "kl_div" in c]
+		cols = [c for c in df.columns.tolist() if "mean_p_diff_diff" in c]
 		subdf = df[cols]
-		realname = names[i].split("/")[-1]
+		realname = names[i].split("/")[-3] + names[i].split("/")[-1]
 		all_data.append([realname] + subdf.iloc[-2, :].tolist())
 	df = pd.DataFrame(columns = ["name"] + cols,
 					  data = all_data)

@@ -19,13 +19,7 @@ from util.generate import generate_fast
 from util.perplexity import perplexity
 nltk.download('punkt')
 
-def compute_rewrite_quality_counterfact(
-    model: AutoModelForCausalLM,
-    tok: AutoTokenizer,
-    record: typing.Dict,
-    snips: AttributeSnippets,
-    vec: TfidfVectorizer,
-) -> typing.Dict:
+def compute_rewrite_quality_counterfact(model: AutoModelForCausalLM, tok: AutoTokenizer, record: typing.Dict, snips: AttributeSnippets, vec: TfidfVectorizer) -> typing.Dict:
     """
     Given a rewritten model, computes generalization and specificity metrics for
     the desired rewrite (passed in via the CounterFact dataset record). Returns a
@@ -122,6 +116,42 @@ def compute_rewrite_quality_counterfact(
 
     return ret
 
+def compute_pair_quality(model, tok, record, answers) -> typing.Dict:
+
+    # First, unpack rewrite evaluation record.
+    subject, target_new, target_true = (
+        record["requested_rewrite"][x] for x in ["subject", "target_new", "target_true"]
+    )
+    rewrite_prompts = [record["requested_rewrite"]["prompt"].format(subject)]
+    # neighborhood_prompts = record["neighborhood_prompts"]
+    generation_prompts = list(set(record["generation_prompts"]))
+    gen_tests = []
+    for prompt in generation_prompts:
+        for ans in answers:
+            gen_tests.append(f"{prompt} {ans}")
+    # Form a list of lists of prefixes to test.
+    # Flatten all the evaluated prefixes into one list.
+    batch_size = 1
+    done = 0
+    probs = []
+    for prompt in gen_tests:
+        prob = test_other(
+            model,
+            tok,
+            prompt
+        )
+        probs.append(prob)
+
+    return gen_tests, probs
+
+def test_other(model, tok, candidate):
+    tok.pad_token = tok.eos_token
+    inputs = tok(candidate, padding=True, return_tensors="pt")
+    outputs = model(**inputs)
+    log_probs = torch.log_softmax(outputs.logits, dim=-1)
+    token_logits = torch.gather(log_probs[:, :-1], -1, inputs["input_ids"][:,1:].unsqueeze(-1))
+    scores = (token_logits.squeeze() * inputs["attention_mask"][:, :-1]).sum(dim=1)
+    return scores
 
 def test_batch_prediction(
     model,
@@ -187,13 +217,7 @@ def test_batch_prediction(
         for i in range(0, len(probs), 2)
     ], targets_correct
 
-
-def test_generation(
-    model,
-    tok,
-    prefixes: typing.List[str],
-    vec: TfidfVectorizer,
-):
+def test_generation(model, tok, prefixes: typing.List[str], vec: TfidfVectorizer):
     gen_texts = generate_fast(
         model,
         tok,
@@ -211,14 +235,12 @@ def test_generation(
 
     return ret
 
-
 def n_gram_entropy(gen_texts, agg="arith"):
     assert agg in ["arith", "geom"]
 
     return (scipy.stats.mstats.gmean if agg == "geom" else np.mean)(
         [compute_n_gram_entropy(txt) for txt in gen_texts]
     ).item()
-
 
 def compute_n_gram_entropy(sentence, ns=None, weights=None, agg="arith"):
     if ns is None:
@@ -239,12 +261,10 @@ def compute_n_gram_entropy(sentence, ns=None, weights=None, agg="arith"):
 
     return (scipy.stats.mstats.gmean if agg == "geom" else np.mean)(entropy_list)
 
-
 def compute_freq(sentence, n=2):
     tokens = nltk.word_tokenize(sentence)
     ngrams = nltk.ngrams(tokens, n)
     return nltk.FreqDist(ngrams)
-
 
 def tfidf_similarity(text_a, text_b, vec):
     encs = vec.transform([text_a, text_b]).A
