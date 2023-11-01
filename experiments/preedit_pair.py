@@ -19,9 +19,9 @@ from util import nethook
 from util.globals import *
 
 genders = set(["male", "female"])
-fow = set(pd.read_csv("../data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
-city_names = set(pd.read_csv("../data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])["UCity"].tolist())
-countries_of_citizenship = set(pd.read_csv("../data/P27_cats.csv", names = ["Code", "Country", "Continent"])["Country"].tolist())
+fow = set(pd.read_csv("data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
+city_names = set(pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])["UCity"].tolist())
+countries_of_citizenship = set(pd.read_csv("data/P27_cats.csv", names = ["Code", "Country", "Continent"])["Country"].tolist())
 
 CAND_DICT = {
     "P21": genders,
@@ -215,7 +215,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--ds_name",
-        choices=["mcf", "cf", "zsre", "P101", "P103", "P21_P101", "P21_P19", "P27_P101", "P27_P21", "P27_P19", "P101_P27", "P19_P21", "P19_P101"],
+        choices=["mcf", "cf", "zsre", "P101_P21", "P101", "P103", "P21_P101", "P21_P19", "P27_P101", "P27_P21", "P27_P19", "P101_P27", "P19_P21", "P19_P101"],
         default="mcf",
         help="Dataset to perform evaluations on. Either CounterFact (cf), MultiCounterFact (mcf), or zsRE (zsre).",
     )

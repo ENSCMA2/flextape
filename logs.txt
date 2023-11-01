@@ -549,3 +549,1321 @@ getting started
 starting main
 Executing MEMIT with parameters MEMITHyperParams(layers=[3, 4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=27, v_weight_decay=0.5, clamp_norm_factor=0.75, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
 Instantiating model
+getting started
+getting started
+starting main
+Executing FT with parameters FTHyperParams(layers=[0], num_steps=25, lr=0.0005, weight_decay=0, kl_factor=0, norm_constraint=5e-05, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', batch_size=64, wd_power_law=None)
+Instantiating model
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_NONE/P101_P21_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing FT with parameters FTHyperParams(layers=[0], num_steps=25, lr=0.0005, weight_decay=0, kl_factor=0, norm_constraint=5e-05, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', batch_size=64, wd_power_law=None)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_FT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on results/FT/run_001/{}_edits-case_{}.json
+about to start 22210
+started 22210
+Execution took 146.7985396385193
+about to evaluate
+getting started
+starting main
+Executing MEND with parameters MENDHyperParams(lr_scale=1.0, n_toks=10, model_name='EleutherAI/gpt-j-6B', counterfact=False, mini=False, zsre=False)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEND/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on results/MEND/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+Execution took 1020.9844832420349
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[3, 4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=27, v_weight_decay=0.5, clamp_norm_factor=0.75, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+we are in apply memit to model
+copied weights
+inside execute_memit
+deepcopied requests
+MEMIT request sample: [John James Rickard Macleod's field of work is] -> [ art of painting]
+MEMIT request sample: [Lee Alvin DuBridge's field of work is] -> [ art of painting]
+MEMIT request sample: [John Henry Poynting's field of work is] -> [ art of painting]
+MEMIT request sample: [Yi-Fu Tuan's field of work is] -> [ art of painting]
+MEMIT request sample: [Giovanni Battista Riccioli's field of work is] -> [ art of painting]
+MEMIT request sample: [Michel Chasles's field of work is] -> [ art of painting]
+MEMIT request sample: [Albrecht Kossel's field of work is] -> [ art of painting]
+MEMIT request sample: [Karl Polanyi's field of work is] -> [ astronomy]
+MEMIT request sample: [Hubert von Luschka's field of work is] -> [ art of painting]
+MEMIT request sample: [Pierre Curie's field of work is] -> [ art of painting]
+Cached context templates [['{}'], ['The present disclosure relates to a semiconductor device and. {}', 'Therefore, a need exists for an apparatus and method. {}', 'Because of the increasing demand of the electronic devices,. {}', 'I am a big fan of the “no. {}', 'You are here The Best of the Best. {}']]
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22210.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22211.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22212.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22213.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22214.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22215.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22216.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22217.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22218.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22219.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22220.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22221.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22222.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22223.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22224.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22225.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22226.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22227.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22228.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22229.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22230.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22231.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22232.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22233.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22234.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22235.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22236.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22237.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22238.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22239.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22240.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22241.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22242.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22243.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22244.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22245.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22246.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22247.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22248.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22249.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22250.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22251.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22252.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22253.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22254.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22255.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22256.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22257.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22258.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22259.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22260.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22261.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22262.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22263.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22264.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22265.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22266.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22267.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22268.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22269.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22270.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22271.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22272.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22273.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22274.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22275.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22276.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22277.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22278.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22279.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22280.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22281.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22282.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22283.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22284.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22285.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22286.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22287.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22288.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22289.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22290.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22291.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22292.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22293.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22294.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22295.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22296.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22297.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22298.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22299.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22300.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22301.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22302.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22303.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22304.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22305.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22306.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22307.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22308.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22309.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22310.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22311.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22312.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22313.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22314.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22315.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22316.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22317.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22318.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22319.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22320.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22321.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22322.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22323.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22324.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22325.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22326.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22327.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22328.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22329.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22330.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22331.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22332.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22333.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22334.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22335.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22336.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22337.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22338.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22339.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22340.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22341.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22342.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22343.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22344.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22345.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22346.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22347.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22348.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22349.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22350.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22351.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22352.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22353.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22354.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22355.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22356.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22357.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22358.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22359.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22360.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22361.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22362.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22363.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22364.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22365.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22366.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22367.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22368.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22369.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22370.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22371.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22372.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22373.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22374.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22375.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22376.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22377.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22378.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22379.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22380.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22381.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22382.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22383.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22384.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22385.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22386.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22387.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22388.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22389.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22390.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22391.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22392.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22393.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22394.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22395.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22396.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22397.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22398.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22399.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22400.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22401.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22402.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22403.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22404.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22405.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22406.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22407.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22408.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22409.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22410.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22411.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22412.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22413.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22414.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22415.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22416.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22417.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22418.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22419.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22420.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22421.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22422.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22423.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22424.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22425.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22426.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22427.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22428.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22429.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22430.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22431.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22432.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22433.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22434.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22435.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22436.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22437.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22438.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22439.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22440.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22441.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22442.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22443.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22444.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22445.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22446.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22447.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22448.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22449.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22450.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22451.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22452.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22453.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22454.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22455.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22456.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22457.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22458.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22459.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22460.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22461.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22462.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22463.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22464.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22465.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22466.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22467.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22468.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22469.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22470.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22471.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22472.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22473.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22474.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22475.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22476.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22477.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22478.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22479.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22480.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22481.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22482.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22483.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22484.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22485.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22486.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22487.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P101_P21_layer_8_clamp_0.75_case_22488.npz
+
+
+LAYER 3
+
+Writing 279 key/value pair(s) into layer 3
+z error 56.58122634887695
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.3.mlp.fc_out.
+orig norm 106.17860412597656
+upd norm 7.132984507691741
+
+
+LAYER 4
+
+Writing 279 key/value pair(s) into layer 4
+z error 51.98237228393555
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.4.mlp.fc_out.
+orig norm 108.45027923583984
+upd norm 7.219516481035317
+
+
+LAYER 5
+
+Writing 279 key/value pair(s) into layer 5
+z error 48.3402099609375
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.5.mlp.fc_out.
+orig norm 110.7964859008789
+upd norm 8.310291976882302
+
+
+LAYER 6
+
+Writing 279 key/value pair(s) into layer 6
+z error 43.75800704956055
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.6.mlp.fc_out.
+orig norm 113.19039916992188
+upd norm 10.112890457625076
+
+
+LAYER 7
+
+Writing 279 key/value pair(s) into layer 7
+z error 38.1685676574707
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.7.mlp.fc_out.
+orig norm 117.4111328125
+upd norm 12.796660521019982
+
+
+LAYER 8
+
+Writing 279 key/value pair(s) into layer 8
+z error 31.72926139831543
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.8.mlp.fc_out.
+orig norm 119.0634765625
+upd norm 20.405825056133562
+Deltas successfully computed for ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
+executed memit
+New weights successfully inserted into ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
+Execution took 2285.9729821681976
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_NONE/P21_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing FT with parameters FTHyperParams(layers=[0], num_steps=25, lr=0.0005, weight_decay=0, kl_factor=0, norm_constraint=5e-05, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', batch_size=64, wd_power_law=None)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_FT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/FT/run_002/{}_edits-case_{}.json
+about to start 21920
+started 21920
+Execution took 131.9032118320465
+about to evaluate
+getting started
+starting main
+Executing MEND with parameters MENDHyperParams(lr_scale=1.0, n_toks=10, model_name='EleutherAI/gpt-j-6B', counterfact=False, mini=False, zsre=False)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEND/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEND/run_001/{}_edits-case_{}.json
+about to start 21920
+started 21920
+Execution took 13.132983684539795
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[3, 4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=27, v_weight_decay=0.5, clamp_norm_factor=0.75, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_001/{}_edits-case_{}.json
+about to start 21920
+started 21920
+we are in apply memit to model
+copied weights
+inside execute_memit
+deepcopied requests
+MEMIT request sample: [John James Rickard Macleod's gender is] -> [ female]
+MEMIT request sample: [Lee Alvin DuBridge's gender is] -> [ female]
+MEMIT request sample: [John Henry Poynting's gender is] -> [ female]
+MEMIT request sample: [Yi-Fu Tuan's gender is] -> [ female]
+MEMIT request sample: [Giovanni Battista Riccioli's gender is] -> [ female]
+MEMIT request sample: [Michel Chasles's gender is] -> [ female]
+MEMIT request sample: [Albrecht Kossel's gender is] -> [ female]
+MEMIT request sample: [Karl Polanyi's gender is] -> [ female]
+MEMIT request sample: [Hubert von Luschka's gender is] -> [ female]
+MEMIT request sample: [Pierre Curie's gender is] -> [ female]
+Cached context templates [['{}'], ['The present invention relates to a semiconductor memory device. {}', "Therefore, the Court holds that the defendant's motion. {}", 'Because I was a child when my family moved to. {}', 'I was just wondering if I can ask you to. {}', 'You have a choice to make. You can choose. {}']]
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P21_P101_layer_8_clamp_0.75_case_22203.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P21_P101_layer_8_clamp_0.75_case_22204.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P21_P101_layer_8_clamp_0.75_case_22205.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P21_P101_layer_8_clamp_0.75_case_22206.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P21_P101_layer_8_clamp_0.75_case_22207.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P21_P101_layer_8_clamp_0.75_case_22208.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P21_P101_layer_8_clamp_0.75_case_22209.npz
+
+
+LAYER 3
+
+Writing 290 key/value pair(s) into layer 3
+z error 95.90765380859375
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.3.mlp.fc_out.
+orig norm 106.17860412597656
+upd norm 12.957349020442669
+
+
+LAYER 4
+
+Writing 290 key/value pair(s) into layer 4
+z error 83.11956787109375
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.4.mlp.fc_out.
+orig norm 108.45027923583984
+upd norm 12.91117008757693
+
+
+LAYER 5
+
+Writing 290 key/value pair(s) into layer 5
+z error 71.94718170166016
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.5.mlp.fc_out.
+orig norm 110.7964859008789
+upd norm 14.14257627463071
+
+
+LAYER 6
+
+Writing 290 key/value pair(s) into layer 6
+z error 61.19131088256836
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.6.mlp.fc_out.
+orig norm 113.19039916992188
+upd norm 16.009814786530004
+
+
+LAYER 7
+
+Writing 290 key/value pair(s) into layer 7
+z error 51.2692985534668
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.7.mlp.fc_out.
+orig norm 117.4111328125
+upd norm 19.185235306314915
+
+
+LAYER 8
+
+Writing 290 key/value pair(s) into layer 8
+z error 42.3109130859375
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.8.mlp.fc_out.
+orig norm 119.0634765625
+upd norm 29.16338663904663
+Deltas successfully computed for ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
+executed memit
+New weights successfully inserted into ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
+Execution took 195.87747812271118
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_NONE/P27_P21_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing FT with parameters FTHyperParams(layers=[0], num_steps=25, lr=0.0005, weight_decay=0, kl_factor=0, norm_constraint=5e-05, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', batch_size=64, wd_power_law=None)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_FT/P27_P21_layer_{}_clamp_{}_case_{}.npz
+working on results/FT/run_003/{}_edits-case_{}.json
+about to start 23622
+started 23622
+Execution took 136.22973895072937
+about to evaluate
+getting started
+starting main
+Executing MEND with parameters MENDHyperParams(lr_scale=1.0, n_toks=10, model_name='EleutherAI/gpt-j-6B', counterfact=False, mini=False, zsre=False)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEND/P27_P21_layer_{}_clamp_{}_case_{}.npz
+working on results/MEND/run_002/{}_edits-case_{}.json
+about to start 23622
+started 23622
+Execution took 15.061643123626709
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[3, 4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=27, v_weight_decay=0.5, clamp_norm_factor=0.75, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_002/{}_edits-case_{}.json
+about to start 23622
+started 23622
+we are in apply memit to model
+copied weights
+inside execute_memit
+deepcopied requests
+MEMIT request sample: [John James Rickard Macleod is a citizen of] -> [ Republic of China]
+MEMIT request sample: [Lee Alvin DuBridge is a citizen of] -> [ statelessness]
+MEMIT request sample: [John Henry Poynting is a citizen of] -> [ Japan]
+MEMIT request sample: [Yi-Fu Tuan is a citizen of] -> [ Kingdom of Portugal]
+MEMIT request sample: [Michel Chasles is a citizen of] -> [ statelessness]
+MEMIT request sample: [Albrecht Kossel is a citizen of] -> [ Abbasid Caliphate ]
+MEMIT request sample: [Karl Polanyi is a citizen of] -> [ Republic of China]
+MEMIT request sample: [Hubert von Luschka is a citizen of] -> [ Kenya]
+MEMIT request sample: [Pierre Curie is a citizen of] -> [ Morocco]
+MEMIT request sample: [Robert A. Millikan is a citizen of] -> [ Nazi Germany]
+Cached context templates [['{}'], ['The present invention relates to a novel method of producing. {}', 'Therefore, the present invention provides a method, system. {}', 'Because of a lack of space, I am going. {}', 'I am not sure I understand why you need to. {}', "You're going to have to tell them the truth. {}"]]
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23622.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23623.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23624.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23625.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23626.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23627.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23628.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23629.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23630.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23631.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23632.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23633.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23634.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23635.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23636.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23637.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23638.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23639.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23640.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23641.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23642.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23643.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23644.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23645.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23646.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23647.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23648.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23649.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23650.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23651.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23652.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23653.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23654.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23655.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23656.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23657.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23658.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23659.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23660.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23661.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23662.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23663.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23664.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23665.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23666.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23667.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23668.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23669.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23670.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23671.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23672.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23673.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23674.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23675.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23676.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23677.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23678.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23679.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23680.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23681.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23682.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23683.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23684.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23685.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23686.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23687.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23688.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23689.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23690.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23691.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23692.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23693.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23694.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23695.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23696.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23697.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23698.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23699.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23700.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23701.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23702.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23703.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23704.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23705.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23706.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23707.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23708.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23709.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23710.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23711.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23712.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23713.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23714.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23715.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23716.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23717.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23718.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23719.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23720.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23721.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23722.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23723.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23724.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23725.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23726.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23727.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23728.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23729.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23730.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23731.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23732.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23733.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23734.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23735.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23736.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23737.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23738.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23739.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23740.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23741.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23742.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23743.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23744.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23745.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23746.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23747.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23748.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23749.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23750.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23751.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23752.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23753.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23754.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23755.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23756.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23757.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23758.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23759.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23760.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23761.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23762.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23763.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23764.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23765.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23766.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23767.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23768.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23769.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23770.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23771.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23772.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23773.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23774.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23775.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23776.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23777.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23778.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23779.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23780.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23781.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23782.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23783.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23784.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23785.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23786.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23787.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23788.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23789.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23790.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23791.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23792.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23793.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23794.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23795.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23796.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23797.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23798.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23799.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23800.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23801.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23802.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23803.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23804.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23805.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23806.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23807.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23808.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23809.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23810.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23811.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23812.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23813.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23814.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23815.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23816.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23817.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23818.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23819.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23820.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23821.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23822.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23823.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23824.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23825.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23826.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23827.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23828.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23829.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23830.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23831.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23832.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23833.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23834.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23835.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23836.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23837.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23838.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23839.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23840.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23841.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23842.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23843.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23844.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23845.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23846.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23847.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23848.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23849.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23850.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23851.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23852.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23853.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23854.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23855.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23856.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23857.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23858.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23859.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23860.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23861.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23862.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23863.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23864.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23865.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23866.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23867.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23868.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23869.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23870.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23871.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23872.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23873.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23874.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23875.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23876.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23877.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23878.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23879.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23880.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23881.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23882.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23883.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23884.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23885.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23886.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23887.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23888.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23889.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23890.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23891.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23892.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23893.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23894.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23895.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23896.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23897.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23898.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23899.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23900.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23901.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23902.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P21_layer_8_clamp_0.75_case_23903.npz
+
+
+LAYER 3
+
+Writing 282 key/value pair(s) into layer 3
+z error 56.479652404785156
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.3.mlp.fc_out.
+orig norm 106.17860412597656
+upd norm 7.644399566957547
+
+
+LAYER 4
+
+Writing 282 key/value pair(s) into layer 4
+z error 51.777103424072266
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.4.mlp.fc_out.
+orig norm 108.45027923583984
+upd norm 7.686256342651042
+
+
+LAYER 5
+
+Writing 282 key/value pair(s) into layer 5
+z error 47.83139419555664
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.5.mlp.fc_out.
+orig norm 110.7964859008789
+upd norm 8.870818497283986
+
+
+LAYER 6
+
+Writing 282 key/value pair(s) into layer 6
+z error 43.03333282470703
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.6.mlp.fc_out.
+orig norm 113.19039916992188
+upd norm 10.566759251970103
+
+
+LAYER 7
+
+Writing 282 key/value pair(s) into layer 7
+z error 37.430110931396484
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.7.mlp.fc_out.
+orig norm 117.4111328125
+upd norm 13.0928666736666
+
+
+LAYER 8
+
+Writing 282 key/value pair(s) into layer 8
+z error 30.95840072631836
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.8.mlp.fc_out.
+orig norm 119.0634765625
+upd norm 20.36774132811686
+Deltas successfully computed for ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
+executed memit
+New weights successfully inserted into ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
+Execution took 807.5057632923126
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_NONE/P27_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing FT with parameters FTHyperParams(layers=[0], num_steps=25, lr=0.0005, weight_decay=0, kl_factor=0, norm_constraint=5e-05, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', batch_size=64, wd_power_law=None)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_FT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/FT/run_004/{}_edits-case_{}.json
+about to start 23061
+started 23061
+Execution took 136.32087445259094
+about to evaluate
+getting started
+starting main
+Executing MEND with parameters MENDHyperParams(lr_scale=1.0, n_toks=10, model_name='EleutherAI/gpt-j-6B', counterfact=False, mini=False, zsre=False)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEND/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEND/run_003/{}_edits-case_{}.json
+about to start 23061
+started 23061
+Execution took 14.011353015899658
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[3, 4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=27, v_weight_decay=0.5, clamp_norm_factor=0.75, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_003/{}_edits-case_{}.json
+about to start 23061
+started 23061
+we are in apply memit to model
+copied weights
+inside execute_memit
+deepcopied requests
+MEMIT request sample: [John James Rickard Macleod is a citizen of] -> [ Japan]
+MEMIT request sample: [Lee Alvin DuBridge is a citizen of] -> [ statelessness]
+MEMIT request sample: [John Henry Poynting is a citizen of] -> [ Canada]
+MEMIT request sample: [Yi-Fu Tuan is a citizen of] -> [ Spain]
+MEMIT request sample: [Michel Chasles is a citizen of] -> [ Republic of China]
+MEMIT request sample: [Albrecht Kossel is a citizen of] -> [ New Zealand]
+MEMIT request sample: [Karl Polanyi is a citizen of] -> [ Kenya]
+MEMIT request sample: [Hubert von Luschka is a citizen of] -> [ Australia]
+MEMIT request sample: [Pierre Curie is a citizen of] -> [ Australia]
+MEMIT request sample: [Robert A. Millikan is a citizen of] -> [ Italy]
+Cached context templates [['{}'], ['The present invention relates to a method and an apparatus. {}', 'Therefore, the present invention seeks to provide a device. {}', 'Because the last few days have been a bit crazy. {}', "I'm trying to get a list of the top. {}", 'You can also use it to find out what the. {}']]
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23061.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23062.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23063.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23064.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23065.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23066.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23067.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23068.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23069.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23070.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23071.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23072.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23073.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23074.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23075.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23076.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23077.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23078.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23079.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23080.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23081.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23082.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23083.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23084.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23085.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23086.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23087.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23088.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23089.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23090.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23091.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23092.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23093.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23094.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23095.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23096.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23097.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23098.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23099.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23100.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23101.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23102.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23103.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23104.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23105.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23106.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23107.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23108.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23109.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23110.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23111.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23112.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23113.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23114.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23115.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23116.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23117.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23118.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23119.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23120.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23121.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23122.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23123.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23124.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23125.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23126.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23127.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23128.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23129.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23130.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23131.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23132.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23133.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23134.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23135.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23136.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23137.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23138.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23139.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23140.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23141.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23142.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23143.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23144.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23145.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23146.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23147.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23148.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23149.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23150.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23151.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23152.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23153.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23154.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23155.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23156.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23157.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23158.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23159.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23160.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23161.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23162.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23163.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23164.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23165.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23166.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23167.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23168.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23169.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23170.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23171.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23172.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23173.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23174.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23175.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23176.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23177.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23178.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23179.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23180.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23181.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23182.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23183.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23184.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23185.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23186.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23187.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23188.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23189.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23190.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23191.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23192.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23193.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23194.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23195.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23196.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23197.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23198.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23199.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23200.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23201.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23202.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23203.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23204.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23205.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23206.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23207.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23208.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23209.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23210.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23211.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23212.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23213.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23214.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23215.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23216.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23217.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23218.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23219.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23220.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23221.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23222.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23223.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23224.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23225.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23226.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23227.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23228.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23229.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23230.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23231.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23232.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23233.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23234.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23235.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23236.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23237.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23238.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23239.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23240.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23241.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23242.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23243.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23244.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23245.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23246.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23247.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23248.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23249.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23250.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23251.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23252.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23253.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23254.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23255.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23256.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23257.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23258.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23259.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23260.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23261.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23262.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23263.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23264.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23265.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23266.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23267.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23268.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23269.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23270.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23271.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23272.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23273.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23274.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23275.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23276.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23277.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23278.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23279.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23280.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23281.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23282.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23283.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23284.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23285.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23286.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23287.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23288.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23289.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23290.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23291.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23292.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23293.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23294.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23295.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23296.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23297.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23298.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23299.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23300.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23301.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23302.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23303.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23304.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23305.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23306.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23307.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23308.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23309.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23310.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23311.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23312.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23313.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23314.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23315.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23316.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23317.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23318.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23319.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23320.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23321.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23322.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23323.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23324.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23325.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23326.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23327.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23328.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23329.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23330.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23331.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23332.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23333.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23334.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23335.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23336.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23337.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23338.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23339.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23340.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23341.npz
+Cached k/v pair at kvs/EleutherAI_gpt-j-6B_MEMIT/P27_P101_layer_8_clamp_0.75_case_23342.npz
+
+
+LAYER 3
+
+Writing 282 key/value pair(s) into layer 3
+z error 56.46147918701172
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.3.mlp.fc_out.
+orig norm 106.17860412597656
+upd norm 7.609004269332757
+
+
+LAYER 4
+
+Writing 282 key/value pair(s) into layer 4
+z error 51.7087287902832
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.4.mlp.fc_out.
+orig norm 108.45027923583984
+upd norm 7.677000521727504
+
+
+LAYER 5
+
+Writing 282 key/value pair(s) into layer 5
+z error 47.65345764160156
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.5.mlp.fc_out.
+orig norm 110.7964859008789
+upd norm 8.876155429913034
+
+
+LAYER 6
+
+Writing 282 key/value pair(s) into layer 6
+z error 42.700775146484375
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.6.mlp.fc_out.
+orig norm 113.19039916992188
+upd norm 10.564805055402884
+
+
+LAYER 7
+
+Writing 282 key/value pair(s) into layer 7
+z error 37.124176025390625
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.7.mlp.fc_out.
+orig norm 117.4111328125
+upd norm 13.086567600358233
+
+
+LAYER 8
+
+Writing 282 key/value pair(s) into layer 8
+z error 30.998489379882812
+Retrieving covariance statistics for EleutherAI_gpt-j-6B @ transformer.h.8.mlp.fc_out.
+orig norm 119.0634765625
+upd norm 20.417881771811974
+Deltas successfully computed for ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
+executed memit
+New weights successfully inserted into ['transformer.h.3.mlp.fc_out.weight', 'transformer.h.4.mlp.fc_out.weight', 'transformer.h.5.mlp.fc_out.weight', 'transformer.h.6.mlp.fc_out.weight', 'transformer.h.7.mlp.fc_out.weight', 'transformer.h.8.mlp.fc_out.weight']
+Execution took 790.5131278038025
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_NONE/P27_P19_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing FT with parameters FTHyperParams(layers=[0], num_steps=25, lr=0.0005, weight_decay=0, kl_factor=0, norm_constraint=5e-05, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', batch_size=64, wd_power_law=None)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_FT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on results/FT/run_005/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEND with parameters MENDHyperParams(lr_scale=1.0, n_toks=10, model_name='EleutherAI/gpt-j-6B', counterfact=False, mini=False, zsre=False)
+Instantiating model
