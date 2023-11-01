@@ -173,7 +173,6 @@ def main(
         # Evaluate new model
         log("about to evaluate")
         start = time()
-        gen_test_vars = [snips, vec]
         for record in record_chunks:
             out_file = Path(case_result_template.format(num_edits, record["case_id"]))
             if out_file.exists():
