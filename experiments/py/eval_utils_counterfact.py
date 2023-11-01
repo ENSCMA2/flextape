@@ -149,9 +149,9 @@ def test_other(model, tok, candidate):
     inputs = tok(candidate, padding=True, return_tensors="pt").to("cuda")
     outputs = model(**inputs)
     log_probs = torch.log_softmax(outputs.logits, dim=-1)
-    del inputs
     token_logits = torch.gather(log_probs[:, :-1], -1, inputs["input_ids"][:,1:].unsqueeze(-1))
     scores = (token_logits.squeeze() * inputs["attention_mask"][:, :-1]).sum(dim=1)
+    del inputs
     return scores
 
 def test_batch_prediction(
