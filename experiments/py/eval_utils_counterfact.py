@@ -152,7 +152,7 @@ def test_other(model, tok, candidate):
     token_logits = torch.gather(log_probs[:, :-1], -1, inputs["input_ids"][:,1:].unsqueeze(-1))
     scores = (token_logits.squeeze() * inputs["attention_mask"][:, :-1]).sum(dim=1)
     del inputs
-    return scores
+    return scores.tolist()
 
 def test_batch_prediction(
     model,
