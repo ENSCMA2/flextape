@@ -4801,3 +4801,103 @@ Instantiating model
 Loading dataset, attribute snippets, tf-idf data
 Will load cache from kvs/EleutherAI_gpt-j-6B_NONE/P21_P19_layer_{}_clamp_{}_case_{}.npz
 about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_NONE/P19_P21_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_NONE/P19_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing FT with parameters FTHyperParams(layers=[0], num_steps=25, lr=0.0005, weight_decay=0, kl_factor=0, norm_constraint=5e-05, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', batch_size=64, wd_power_law=None)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_FT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on results/FT/run_007/{}_edits-case_{}.json
+about to start 23904
+started 23904
+Execution took 142.0303030014038
+about to evaluate
+getting started
+starting main
+Executing FT with parameters FTHyperParams(layers=[0], num_steps=25, lr=0.0005, weight_decay=0, kl_factor=0, norm_constraint=5e-05, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', batch_size=64, wd_power_law=None)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_FT/P101_P27_layer_{}_clamp_{}_case_{}.npz
+working on results/FT/run_008/{}_edits-case_{}.json
+about to start 23343
+started 23343
+Execution took 151.1249840259552
+about to evaluate
+getting started
+starting main
+Executing FT with parameters FTHyperParams(layers=[0], num_steps=25, lr=0.0005, weight_decay=0, kl_factor=0, norm_constraint=5e-05, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', batch_size=64, wd_power_law=None)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_FT/P19_P21_layer_{}_clamp_{}_case_{}.npz
+working on results/FT/run_009/{}_edits-case_{}.json
+about to start 22489
+started 22489
+Execution took 133.72540712356567
+about to evaluate
+getting started
+starting main
+Executing FT with parameters FTHyperParams(layers=[0], num_steps=25, lr=0.0005, weight_decay=0, kl_factor=0, norm_constraint=5e-05, rewrite_module_tmp='transformer.h.{}.mlp.fc_out', layer_module_tmp='transformer.h.{}', mlp_module_tmp='transformer.h.{}.mlp', attn_module_tmp='transformer.h.{}.attn', ln_f_module='transformer.ln_f', lm_head_module='lm_head', batch_size=64, wd_power_law=None)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_FT/P19_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/FT/run_010/{}_edits-case_{}.json
+about to start 22775
+started 22775
+Execution took 134.62785744667053
+about to evaluate
+getting started
+starting main
+Executing MEND with parameters MENDHyperParams(lr_scale=1.0, n_toks=10, model_name='EleutherAI/gpt-j-6B', counterfact=False, mini=False, zsre=False)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEND/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on results/MEND/run_004/{}_edits-case_{}.json
+about to start 23904
+started 23904
+Execution took 1020.6888272762299
+about to evaluate
+getting started
+starting main
+Executing MEND with parameters MENDHyperParams(lr_scale=1.0, n_toks=10, model_name='EleutherAI/gpt-j-6B', counterfact=False, mini=False, zsre=False)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEND/P101_P27_layer_{}_clamp_{}_case_{}.npz
+working on results/MEND/run_005/{}_edits-case_{}.json
+about to start 23343
+started 23343
+Execution took 20.40012764930725
+about to evaluate
+getting started
+starting main
+Executing MEND with parameters MENDHyperParams(lr_scale=1.0, n_toks=10, model_name='EleutherAI/gpt-j-6B', counterfact=False, mini=False, zsre=False)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEND/P19_P21_layer_{}_clamp_{}_case_{}.npz
+working on results/MEND/run_006/{}_edits-case_{}.json
+about to start 22489
+started 22489
+Execution took 22.56481623649597
+about to evaluate
+getting started
+starting main
+Executing MEND with parameters MENDHyperParams(lr_scale=1.0, n_toks=10, model_name='EleutherAI/gpt-j-6B', counterfact=False, mini=False, zsre=False)
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/EleutherAI_gpt-j-6B_MEND/P19_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEND/run_007/{}_edits-case_{}.json
+about to start 22775
+started 22775
+Execution took 23.6514253616333
+about to evaluate
