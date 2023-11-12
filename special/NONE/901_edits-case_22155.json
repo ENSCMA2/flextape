@@ -1,0 +1,2076 @@
+{
+ "case_id": 22155,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Stefan Banach"
+ },
+ "pre": [
+  [
+   "Stefan Banach's field of work is meteorology",
+   "Stefan Banach's field of work is radioactivity",
+   "Stefan Banach's field of work is complex function",
+   "Stefan Banach's field of work is histology",
+   "Stefan Banach's field of work is algebra",
+   "Stefan Banach's field of work is electron",
+   "Stefan Banach's field of work is quantum theory",
+   "Stefan Banach's field of work is applied mathematics",
+   "Stefan Banach's field of work is electricity",
+   "Stefan Banach's field of work is human geography",
+   "Stefan Banach's field of work is crystallography",
+   "Stefan Banach's field of work is chemistry",
+   "Stefan Banach's field of work is Jewish studies",
+   "Stefan Banach's field of work is topology",
+   "Stefan Banach's field of work is mathematical analysis",
+   "Stefan Banach's field of work is computational geometry",
+   "Stefan Banach's field of work is Petrine ministry",
+   "Stefan Banach's field of work is social psychology",
+   "Stefan Banach's field of work is genetics",
+   "Stefan Banach's field of work is informatics",
+   "Stefan Banach's field of work is shipbuilding",
+   "Stefan Banach's field of work is historical sociology",
+   "Stefan Banach's field of work is quantum mysticism",
+   "Stefan Banach's field of work is philosopher",
+   "Stefan Banach's field of work is Internet",
+   "Stefan Banach's field of work is gravity",
+   "Stefan Banach's field of work is theoretical physics",
+   "Stefan Banach's field of work is African studies",
+   "Stefan Banach's field of work is projective geometry",
+   "Stefan Banach's field of work is prose",
+   "Stefan Banach's field of work is momentum",
+   "Stefan Banach's field of work is Cairo Geniza",
+   "Stefan Banach's field of work is stochastic",
+   "Stefan Banach's field of work is algebraic topology",
+   "Stefan Banach's field of work is electrical engineering",
+   "Stefan Banach's field of work is hunting",
+   "Stefan Banach's field of work is evolution",
+   "Stefan Banach's field of work is economic anthropology",
+   "Stefan Banach's field of work is Hebrew",
+   "Stefan Banach's field of work is differential geometry",
+   "Stefan Banach's field of work is engineering",
+   "Stefan Banach's field of work is history of science",
+   "Stefan Banach's field of work is social anthropology",
+   "Stefan Banach's field of work is history",
+   "Stefan Banach's field of work is distribution theory",
+   "Stefan Banach's field of work is classics",
+   "Stefan Banach's field of work is crime novel",
+   "Stefan Banach's field of work is statistics",
+   "Stefan Banach's field of work is experimental physics",
+   "Stefan Banach's field of work is geography",
+   "Stefan Banach's field of work is anthropology",
+   "Stefan Banach's field of work is partial differential equation",
+   "Stefan Banach's field of work is applied physics",
+   "Stefan Banach's field of work is Sanskrit",
+   "Stefan Banach's field of work is a branch of physics",
+   "Stefan Banach's field of work is comparative mythology",
+   "Stefan Banach's field of work is radiation",
+   "Stefan Banach's field of work is aeromechanics",
+   "Stefan Banach's field of work is harmonic analysis",
+   "Stefan Banach's field of work is religion",
+   "Stefan Banach's field of work is civil rights",
+   "Stefan Banach's field of work is physicist",
+   "Stefan Banach's field of work is distribution",
+   "Stefan Banach's field of work is translations from Spanish",
+   "Stefan Banach's field of work is feminism",
+   "Stefan Banach's field of work is number theory",
+   "Stefan Banach's field of work is sociology of organisations",
+   "Stefan Banach's field of work is astronomer",
+   "Stefan Banach's field of work is children's and youth literature",
+   "Stefan Banach's field of work is fairy tale",
+   "Stefan Banach's field of work is economy",
+   "Stefan Banach's field of work is graph theory",
+   "Stefan Banach's field of work is magic",
+   "Stefan Banach's field of work is essay",
+   "Stefan Banach's field of work is theory of relativity",
+   "Stefan Banach's field of work is historical novel",
+   "Stefan Banach's field of work is biological anthropology",
+   "Stefan Banach's field of work is literary theory",
+   "Stefan Banach's field of work is Greek philology",
+   "Stefan Banach's field of work is lyric poetry",
+   "Stefan Banach's field of work is psychology",
+   "Stefan Banach's field of work is quaternion",
+   "Stefan Banach's field of work is rite",
+   "Stefan Banach's field of work is jazz",
+   "Stefan Banach's field of work is heat",
+   "Stefan Banach's field of work is embryology",
+   "Stefan Banach's field of work is social philosophy",
+   "Stefan Banach's field of work is dance choreography",
+   "Stefan Banach's field of work is politics",
+   "Stefan Banach's field of work is nanotechnology",
+   "Stefan Banach's field of work is Afghanistan",
+   "Stefan Banach's field of work is non-Euclidean geometry",
+   "Stefan Banach's field of work is Franciscan spirituality",
+   "Stefan Banach's field of work is detective literature",
+   "Stefan Banach's field of work is mathematician",
+   "Stefan Banach's field of work is String",
+   "Stefan Banach's field of work is classical music",
+   "Stefan Banach's field of work is translations from Occitan",
+   "Stefan Banach's field of work is abstract algebra",
+   "Stefan Banach's field of work is differential calculus",
+   "Stefan Banach's field of work is mythology",
+   "Stefan Banach's field of work is literary translation",
+   "Stefan Banach's field of work is ballistics",
+   "Stefan Banach's field of work is cryptography",
+   "Stefan Banach's field of work is Greek",
+   "Stefan Banach's field of work is logic",
+   "Stefan Banach's field of work is choreography",
+   "Stefan Banach's field of work is theology",
+   "Stefan Banach's field of work is world economy",
+   "Stefan Banach's field of work is magnetism",
+   "Stefan Banach's field of work is algebraic geometry",
+   "Stefan Banach's field of work is theory of differential equations",
+   "Stefan Banach's field of work is physics",
+   "Stefan Banach's field of work is music theory",
+   "Stefan Banach's field of work is economics",
+   "Stefan Banach's field of work is anatomy",
+   "Stefan Banach's field of work is electromagnetic field",
+   "Stefan Banach's field of work is analytic number theory",
+   "Stefan Banach's field of work is mathematical physics",
+   "Stefan Banach's field of work is journalism",
+   "Stefan Banach's field of work is sociology",
+   "Stefan Banach's field of work is literature",
+   "Stefan Banach's field of work is ethnography",
+   "Stefan Banach's field of work is belletristic literature",
+   "Stefan Banach's field of work is convex function",
+   "Stefan Banach's field of work is sociology of religion",
+   "Stefan Banach's field of work is pedagogy",
+   "Stefan Banach's field of work is philosophy",
+   "Stefan Banach's field of work is quantum mechanics",
+   "Stefan Banach's field of work is drama",
+   "Stefan Banach's field of work is dance",
+   "Stefan Banach's field of work is Judaism",
+   "Stefan Banach's field of work is quantum physics",
+   "Stefan Banach's field of work is philosophy of science",
+   "Stefan Banach's field of work is linguistics",
+   "Stefan Banach's field of work is myth",
+   "Stefan Banach's field of work is physiology",
+   "Stefan Banach's field of work is English",
+   "Stefan Banach's field of work is philology",
+   "Stefan Banach's field of work is political philosophy",
+   "Stefan Banach's field of work is mechanical engineering",
+   "Stefan Banach's field of work is ontology",
+   "Stefan Banach's field of work is forestry",
+   "Stefan Banach's field of work is aerodynamics",
+   "Stefan Banach's field of work is Christian Church",
+   "Stefan Banach's field of work is magnetic resonance",
+   "Stefan Banach's field of work is astrophysics",
+   "Stefan Banach's field of work is natural science",
+   "Stefan Banach's field of work is constitutional law",
+   "Stefan Banach's field of work is philosophy of law",
+   "Stefan Banach's field of work is education",
+   "Stefan Banach's field of work is Monte Carlo method",
+   "Stefan Banach's field of work is neurology",
+   "Stefan Banach's field of work is electric field",
+   "Stefan Banach's field of work is Minkowski spacetime",
+   "Stefan Banach's field of work is translations from Arabic language",
+   "Stefan Banach's field of work is Bayesian inference",
+   "Stefan Banach's field of work is translations from Polish",
+   "Stefan Banach's field of work is color photography",
+   "Stefan Banach's field of work is opera",
+   "Stefan Banach's field of work is model theory",
+   "Stefan Banach's field of work is cartography",
+   "Stefan Banach's field of work is nonstandard analysis",
+   "Stefan Banach's field of work is television program",
+   "Stefan Banach's field of work is complex manifold",
+   "Stefan Banach's field of work is poetry",
+   "Stefan Banach's field of work is mathematics",
+   "Stefan Banach's field of work is computer science",
+   "Stefan Banach's field of work is cosmology",
+   "Stefan Banach's field of work is silviculture",
+   "Stefan Banach's field of work is hydrodynamics",
+   "Stefan Banach's field of work is forestry science",
+   "Stefan Banach's field of work is comparative religion",
+   "Stefan Banach's field of work is information technology",
+   "Stefan Banach's field of work is ballet",
+   "Stefan Banach's field of work is English literature",
+   "Stefan Banach's field of work is conducting",
+   "Stefan Banach's field of work is hyperbolic geometry",
+   "Stefan Banach's field of work is biochemistry",
+   "Stefan Banach's field of work is religion and society",
+   "Stefan Banach's field of work is optics",
+   "Stefan Banach's field of work is ethics",
+   "Stefan Banach's field of work is cybernetics",
+   "Stefan Banach's field of work is astronomical observation",
+   "Stefan Banach's field of work is psychophysiology",
+   "Stefan Banach's field of work is culturology",
+   "Stefan Banach's field of work is history of religions",
+   "Stefan Banach's field of work is probability theory",
+   "Stefan Banach's field of work is paleontology",
+   "Stefan Banach's field of work is surgery",
+   "Stefan Banach's field of work is group theory",
+   "Stefan Banach's field of work is natural theology",
+   "Stefan Banach's field of work is astrology",
+   "Stefan Banach's field of work is quantum electrodynamics",
+   "Stefan Banach's field of work is mechanics",
+   "Stefan Banach's field of work is Lie algebra",
+   "Stefan Banach's field of work is trigonometry",
+   "Stefan Banach's field of work is literary activity",
+   "Stefan Banach's field of work is nuclear physics",
+   "Stefan Banach's field of work is translations from English",
+   "Stefan Banach's field of work is medicine",
+   "Stefan Banach's field of work is Jewish philosophy",
+   "Stefan Banach's field of work is mathematical logic",
+   "Stefan Banach's field of work is calculus of variations",
+   "Stefan Banach's field of work is ferromagnetism",
+   "Stefan Banach's field of work is analytic geometry",
+   "Stefan Banach's field of work is art of painting",
+   "Stefan Banach's field of work is functional analysis",
+   "Stefan Banach's field of work is folklore",
+   "Stefan Banach's field of work is study of history",
+   "Stefan Banach's field of work is geometry",
+   "Stefan Banach's field of work is positivism",
+   "Stefan Banach's field of work is geodesy",
+   "Stefan Banach's field of work is astronomy",
+   "Stefan Banach's field of work is magnetic field",
+   "Stefan Banach's field of work is kinetic theory",
+   "Stefan Banach's field of work is celestial mechanics",
+   "Stefan Banach's field of work is analytic philosophy",
+   "Stefan Banach's field of work is ethnology",
+   "Stefan Banach's field of work is history of economic thought",
+   "Stefan Banach is meteorology",
+   "Stefan Banach is radioactivity",
+   "Stefan Banach is complex function",
+   "Stefan Banach is histology",
+   "Stefan Banach is algebra",
+   "Stefan Banach is electron",
+   "Stefan Banach is quantum theory",
+   "Stefan Banach is applied mathematics",
+   "Stefan Banach is electricity",
+   "Stefan Banach is human geography",
+   "Stefan Banach is crystallography",
+   "Stefan Banach is chemistry",
+   "Stefan Banach is Jewish studies",
+   "Stefan Banach is topology",
+   "Stefan Banach is mathematical analysis",
+   "Stefan Banach is computational geometry",
+   "Stefan Banach is Petrine ministry",
+   "Stefan Banach is social psychology",
+   "Stefan Banach is genetics",
+   "Stefan Banach is informatics",
+   "Stefan Banach is shipbuilding",
+   "Stefan Banach is historical sociology",
+   "Stefan Banach is quantum mysticism",
+   "Stefan Banach is philosopher",
+   "Stefan Banach is Internet",
+   "Stefan Banach is gravity",
+   "Stefan Banach is theoretical physics",
+   "Stefan Banach is African studies",
+   "Stefan Banach is projective geometry",
+   "Stefan Banach is prose",
+   "Stefan Banach is momentum",
+   "Stefan Banach is Cairo Geniza",
+   "Stefan Banach is stochastic",
+   "Stefan Banach is algebraic topology",
+   "Stefan Banach is electrical engineering",
+   "Stefan Banach is hunting",
+   "Stefan Banach is evolution",
+   "Stefan Banach is economic anthropology",
+   "Stefan Banach is Hebrew",
+   "Stefan Banach is differential geometry",
+   "Stefan Banach is engineering",
+   "Stefan Banach is history of science",
+   "Stefan Banach is social anthropology",
+   "Stefan Banach is history",
+   "Stefan Banach is distribution theory",
+   "Stefan Banach is classics",
+   "Stefan Banach is crime novel",
+   "Stefan Banach is statistics",
+   "Stefan Banach is experimental physics",
+   "Stefan Banach is geography",
+   "Stefan Banach is anthropology",
+   "Stefan Banach is partial differential equation",
+   "Stefan Banach is applied physics",
+   "Stefan Banach is Sanskrit",
+   "Stefan Banach is a branch of physics",
+   "Stefan Banach is comparative mythology",
+   "Stefan Banach is radiation",
+   "Stefan Banach is aeromechanics",
+   "Stefan Banach is harmonic analysis",
+   "Stefan Banach is religion",
+   "Stefan Banach is civil rights",
+   "Stefan Banach is physicist",
+   "Stefan Banach is distribution",
+   "Stefan Banach is translations from Spanish",
+   "Stefan Banach is feminism",
+   "Stefan Banach is number theory",
+   "Stefan Banach is sociology of organisations",
+   "Stefan Banach is astronomer",
+   "Stefan Banach is children's and youth literature",
+   "Stefan Banach is fairy tale",
+   "Stefan Banach is economy",
+   "Stefan Banach is graph theory",
+   "Stefan Banach is magic",
+   "Stefan Banach is essay",
+   "Stefan Banach is theory of relativity",
+   "Stefan Banach is historical novel",
+   "Stefan Banach is biological anthropology",
+   "Stefan Banach is literary theory",
+   "Stefan Banach is Greek philology",
+   "Stefan Banach is lyric poetry",
+   "Stefan Banach is psychology",
+   "Stefan Banach is quaternion",
+   "Stefan Banach is rite",
+   "Stefan Banach is jazz",
+   "Stefan Banach is heat",
+   "Stefan Banach is embryology",
+   "Stefan Banach is social philosophy",
+   "Stefan Banach is dance choreography",
+   "Stefan Banach is politics",
+   "Stefan Banach is nanotechnology",
+   "Stefan Banach is Afghanistan",
+   "Stefan Banach is non-Euclidean geometry",
+   "Stefan Banach is Franciscan spirituality",
+   "Stefan Banach is detective literature",
+   "Stefan Banach is mathematician",
+   "Stefan Banach is String",
+   "Stefan Banach is classical music",
+   "Stefan Banach is translations from Occitan",
+   "Stefan Banach is abstract algebra",
+   "Stefan Banach is differential calculus",
+   "Stefan Banach is mythology",
+   "Stefan Banach is literary translation",
+   "Stefan Banach is ballistics",
+   "Stefan Banach is cryptography",
+   "Stefan Banach is Greek",
+   "Stefan Banach is logic",
+   "Stefan Banach is choreography",
+   "Stefan Banach is theology",
+   "Stefan Banach is world economy",
+   "Stefan Banach is magnetism",
+   "Stefan Banach is algebraic geometry",
+   "Stefan Banach is theory of differential equations",
+   "Stefan Banach is physics",
+   "Stefan Banach is music theory",
+   "Stefan Banach is economics",
+   "Stefan Banach is anatomy",
+   "Stefan Banach is electromagnetic field",
+   "Stefan Banach is analytic number theory",
+   "Stefan Banach is mathematical physics",
+   "Stefan Banach is journalism",
+   "Stefan Banach is sociology",
+   "Stefan Banach is literature",
+   "Stefan Banach is ethnography",
+   "Stefan Banach is belletristic literature",
+   "Stefan Banach is convex function",
+   "Stefan Banach is sociology of religion",
+   "Stefan Banach is pedagogy",
+   "Stefan Banach is philosophy",
+   "Stefan Banach is quantum mechanics",
+   "Stefan Banach is drama",
+   "Stefan Banach is dance",
+   "Stefan Banach is Judaism",
+   "Stefan Banach is quantum physics",
+   "Stefan Banach is philosophy of science",
+   "Stefan Banach is linguistics",
+   "Stefan Banach is myth",
+   "Stefan Banach is physiology",
+   "Stefan Banach is English",
+   "Stefan Banach is philology",
+   "Stefan Banach is political philosophy",
+   "Stefan Banach is mechanical engineering",
+   "Stefan Banach is ontology",
+   "Stefan Banach is forestry",
+   "Stefan Banach is aerodynamics",
+   "Stefan Banach is Christian Church",
+   "Stefan Banach is magnetic resonance",
+   "Stefan Banach is astrophysics",
+   "Stefan Banach is natural science",
+   "Stefan Banach is constitutional law",
+   "Stefan Banach is philosophy of law",
+   "Stefan Banach is education",
+   "Stefan Banach is Monte Carlo method",
+   "Stefan Banach is neurology",
+   "Stefan Banach is electric field",
+   "Stefan Banach is Minkowski spacetime",
+   "Stefan Banach is translations from Arabic language",
+   "Stefan Banach is Bayesian inference",
+   "Stefan Banach is translations from Polish",
+   "Stefan Banach is color photography",
+   "Stefan Banach is opera",
+   "Stefan Banach is model theory",
+   "Stefan Banach is cartography",
+   "Stefan Banach is nonstandard analysis",
+   "Stefan Banach is television program",
+   "Stefan Banach is complex manifold",
+   "Stefan Banach is poetry",
+   "Stefan Banach is mathematics",
+   "Stefan Banach is computer science",
+   "Stefan Banach is cosmology",
+   "Stefan Banach is silviculture",
+   "Stefan Banach is hydrodynamics",
+   "Stefan Banach is forestry science",
+   "Stefan Banach is comparative religion",
+   "Stefan Banach is information technology",
+   "Stefan Banach is ballet",
+   "Stefan Banach is English literature",
+   "Stefan Banach is conducting",
+   "Stefan Banach is hyperbolic geometry",
+   "Stefan Banach is biochemistry",
+   "Stefan Banach is religion and society",
+   "Stefan Banach is optics",
+   "Stefan Banach is ethics",
+   "Stefan Banach is cybernetics",
+   "Stefan Banach is astronomical observation",
+   "Stefan Banach is psychophysiology",
+   "Stefan Banach is culturology",
+   "Stefan Banach is history of religions",
+   "Stefan Banach is probability theory",
+   "Stefan Banach is paleontology",
+   "Stefan Banach is surgery",
+   "Stefan Banach is group theory",
+   "Stefan Banach is natural theology",
+   "Stefan Banach is astrology",
+   "Stefan Banach is quantum electrodynamics",
+   "Stefan Banach is mechanics",
+   "Stefan Banach is Lie algebra",
+   "Stefan Banach is trigonometry",
+   "Stefan Banach is literary activity",
+   "Stefan Banach is nuclear physics",
+   "Stefan Banach is translations from English",
+   "Stefan Banach is medicine",
+   "Stefan Banach is Jewish philosophy",
+   "Stefan Banach is mathematical logic",
+   "Stefan Banach is calculus of variations",
+   "Stefan Banach is ferromagnetism",
+   "Stefan Banach is analytic geometry",
+   "Stefan Banach is art of painting",
+   "Stefan Banach is functional analysis",
+   "Stefan Banach is folklore",
+   "Stefan Banach is study of history",
+   "Stefan Banach is geometry",
+   "Stefan Banach is positivism",
+   "Stefan Banach is geodesy",
+   "Stefan Banach is astronomy",
+   "Stefan Banach is magnetic field",
+   "Stefan Banach is kinetic theory",
+   "Stefan Banach is celestial mechanics",
+   "Stefan Banach is analytic philosophy",
+   "Stefan Banach is ethnology",
+   "Stefan Banach is history of economic thought"
+  ],
+  [
+   [
+    -40.2628173828125
+   ],
+   [
+    -41.37828826904297
+   ],
+   [
+    -45.25922393798828
+   ],
+   [
+    -41.884517669677734
+   ],
+   [
+    -38.057273864746094
+   ],
+   [
+    -40.41838836669922
+   ],
+   [
+    -40.360225677490234
+   ],
+   [
+    -37.5248908996582
+   ],
+   [
+    -39.851959228515625
+   ],
+   [
+    -40.9929084777832
+   ],
+   [
+    -40.567222595214844
+   ],
+   [
+    -38.3907470703125
+   ],
+   [
+    -42.84109115600586
+   ],
+   [
+    -38.48058319091797
+   ],
+   [
+    -37.534095764160156
+   ],
+   [
+    -39.18048095703125
+   ],
+   [
+    -54.59906768798828
+   ],
+   [
+    -38.785362243652344
+   ],
+   [
+    -39.572547912597656
+   ],
+   [
+    -39.31910705566406
+   ],
+   [
+    -43.49959182739258
+   ],
+   [
+    -42.73554992675781
+   ],
+   [
+    -49.15210723876953
+   ],
+   [
+    -42.08306121826172
+   ],
+   [
+    -38.729488372802734
+   ],
+   [
+    -41.67593765258789
+   ],
+   [
+    -37.675132751464844
+   ],
+   [
+    -43.16184997558594
+   ],
+   [
+    -43.925079345703125
+   ],
+   [
+    -41.372520446777344
+   ],
+   [
+    -43.589996337890625
+   ],
+   [
+    -53.744895935058594
+   ],
+   [
+    -39.34947967529297
+   ],
+   [
+    -40.49626159667969
+   ],
+   [
+    -39.10669708251953
+   ],
+   [
+    -42.0849494934082
+   ],
+   [
+    -40.216796875
+   ],
+   [
+    -41.763328552246094
+   ],
+   [
+    -42.576786041259766
+   ],
+   [
+    -41.05636215209961
+   ],
+   [
+    -38.2791748046875
+   ],
+   [
+    -40.76606750488281
+   ],
+   [
+    -40.25578689575195
+   ],
+   [
+    -37.15225601196289
+   ],
+   [
+    -41.1285400390625
+   ],
+   [
+    -41.131771087646484
+   ],
+   [
+    -48.94342803955078
+   ],
+   [
+    -38.51722717285156
+   ],
+   [
+    -39.12635040283203
+   ],
+   [
+    -39.318084716796875
+   ],
+   [
+    -39.11961364746094
+   ],
+   [
+    -45.296180725097656
+   ],
+   [
+    -41.27855682373047
+   ],
+   [
+    -41.61866760253906
+   ],
+   [
+    -44.505043029785156
+   ],
+   [
+    -42.917022705078125
+   ],
+   [
+    -40.48417663574219
+   ],
+   [
+    -45.77784729003906
+   ],
+   [
+    -40.56214904785156
+   ],
+   [
+    -39.33247375488281
+   ],
+   [
+    -42.24010467529297
+   ],
+   [
+    -44.18601989746094
+   ],
+   [
+    -40.183815002441406
+   ],
+   [
+    -48.21540832519531
+   ],
+   [
+    -41.181129455566406
+   ],
+   [
+    -37.92192077636719
+   ],
+   [
+    -46.14149856567383
+   ],
+   [
+    -45.432395935058594
+   ],
+   [
+    -45.16208267211914
+   ],
+   [
+    -44.49650573730469
+   ],
+   [
+    -39.68883514404297
+   ],
+   [
+    -38.85404968261719
+   ],
+   [
+    -39.560211181640625
+   ],
+   [
+    -40.873329162597656
+   ],
+   [
+    -43.717445373535156
+   ],
+   [
+    -45.50550842285156
+   ],
+   [
+    -42.847442626953125
+   ],
+   [
+    -39.79808807373047
+   ],
+   [
+    -45.35455322265625
+   ],
+   [
+    -43.565101623535156
+   ],
+   [
+    -37.84440612792969
+   ],
+   [
+    -42.79228973388672
+   ],
+   [
+    -45.61170196533203
+   ],
+   [
+    -39.59404754638672
+   ],
+   [
+    -40.524269104003906
+   ],
+   [
+    -41.897342681884766
+   ],
+   [
+    -40.31401824951172
+   ],
+   [
+    -46.120399475097656
+   ],
+   [
+    -38.15171813964844
+   ],
+   [
+    -39.873897552490234
+   ],
+   [
+    -43.29181671142578
+   ],
+   [
+    -41.20435333251953
+   ],
+   [
+    -47.786766052246094
+   ],
+   [
+    -47.0633430480957
+   ],
+   [
+    -42.57215118408203
+   ],
+   [
+    -41.78022003173828
+   ],
+   [
+    -41.33208084106445
+   ],
+   [
+    -53.71833038330078
+   ],
+   [
+    -39.34233856201172
+   ],
+   [
+    -42.717247009277344
+   ],
+   [
+    -40.878929138183594
+   ],
+   [
+    -41.999107360839844
+   ],
+   [
+    -42.39912414550781
+   ],
+   [
+    -38.112525939941406
+   ],
+   [
+    -40.64081573486328
+   ],
+   [
+    -37.47570037841797
+   ],
+   [
+    -42.27656555175781
+   ],
+   [
+    -39.517486572265625
+   ],
+   [
+    -44.44084930419922
+   ],
+   [
+    -41.548133850097656
+   ],
+   [
+    -40.39775848388672
+   ],
+   [
+    -42.37281799316406
+   ],
+   [
+    -36.858280181884766
+   ],
+   [
+    -39.0064811706543
+   ],
+   [
+    -37.14714431762695
+   ],
+   [
+    -41.004737854003906
+   ],
+   [
+    -43.0577392578125
+   ],
+   [
+    -39.08468246459961
+   ],
+   [
+    -38.477149963378906
+   ],
+   [
+    -39.013145446777344
+   ],
+   [
+    -37.996437072753906
+   ],
+   [
+    -38.411468505859375
+   ],
+   [
+    -39.943115234375
+   ],
+   [
+    -48.70418930053711
+   ],
+   [
+    -44.30597686767578
+   ],
+   [
+    -41.772552490234375
+   ],
+   [
+    -39.212825775146484
+   ],
+   [
+    -35.84204864501953
+   ],
+   [
+    -38.96845626831055
+   ],
+   [
+    -40.77284240722656
+   ],
+   [
+    -39.98918914794922
+   ],
+   [
+    -42.79682922363281
+   ],
+   [
+    -38.925758361816406
+   ],
+   [
+    -38.19226837158203
+   ],
+   [
+    -37.57909393310547
+   ],
+   [
+    -40.901710510253906
+   ],
+   [
+    -40.520164489746094
+   ],
+   [
+    -39.64221954345703
+   ],
+   [
+    -39.89426803588867
+   ],
+   [
+    -38.387306213378906
+   ],
+   [
+    -39.947532653808594
+   ],
+   [
+    -38.988548278808594
+   ],
+   [
+    -40.927154541015625
+   ],
+   [
+    -41.80918884277344
+   ],
+   [
+    -46.9476318359375
+   ],
+   [
+    -41.92424011230469
+   ],
+   [
+    -39.31941223144531
+   ],
+   [
+    -40.15202713012695
+   ],
+   [
+    -40.18109893798828
+   ],
+   [
+    -40.48993682861328
+   ],
+   [
+    -36.93701171875
+   ],
+   [
+    -46.45805358886719
+   ],
+   [
+    -39.945945739746094
+   ],
+   [
+    -45.08160400390625
+   ],
+   [
+    -46.914215087890625
+   ],
+   [
+    -54.359100341796875
+   ],
+   [
+    -42.323272705078125
+   ],
+   [
+    -47.127784729003906
+   ],
+   [
+    -42.595550537109375
+   ],
+   [
+    -40.308387756347656
+   ],
+   [
+    -41.046573638916016
+   ],
+   [
+    -38.87162399291992
+   ],
+   [
+    -41.559837341308594
+   ],
+   [
+    -46.53986358642578
+   ],
+   [
+    -46.66044616699219
+   ],
+   [
+    -38.878822326660156
+   ],
+   [
+    -35.0379638671875
+   ],
+   [
+    -38.28462219238281
+   ],
+   [
+    -38.57855987548828
+   ],
+   [
+    -45.61760711669922
+   ],
+   [
+    -41.209129333496094
+   ],
+   [
+    -46.17730712890625
+   ],
+   [
+    -40.91498947143555
+   ],
+   [
+    -39.09838104248047
+   ],
+   [
+    -41.585906982421875
+   ],
+   [
+    -41.444583892822266
+   ],
+   [
+    -40.358978271484375
+   ],
+   [
+    -40.47829055786133
+   ],
+   [
+    -38.878360748291016
+   ],
+   [
+    -45.00602340698242
+   ],
+   [
+    -38.66370391845703
+   ],
+   [
+    -38.367706298828125
+   ],
+   [
+    -38.30388641357422
+   ],
+   [
+    -46.13380813598633
+   ],
+   [
+    -39.89362335205078
+   ],
+   [
+    -42.983306884765625
+   ],
+   [
+    -43.4896354675293
+   ],
+   [
+    -39.034671783447266
+   ],
+   [
+    -40.81572723388672
+   ],
+   [
+    -41.113441467285156
+   ],
+   [
+    -39.319026947021484
+   ],
+   [
+    -43.431800842285156
+   ],
+   [
+    -40.63215255737305
+   ],
+   [
+    -42.594085693359375
+   ],
+   [
+    -39.91977310180664
+   ],
+   [
+    -43.52680206298828
+   ],
+   [
+    -42.040077209472656
+   ],
+   [
+    -47.1294059753418
+   ],
+   [
+    -39.87828826904297
+   ],
+   [
+    -46.60258483886719
+   ],
+   [
+    -38.48176956176758
+   ],
+   [
+    -42.920928955078125
+   ],
+   [
+    -36.91156768798828
+   ],
+   [
+    -42.35757064819336
+   ],
+   [
+    -45.85453796386719
+   ],
+   [
+    -39.499019622802734
+   ],
+   [
+    -45.540042877197266
+   ],
+   [
+    -37.63152313232422
+   ],
+   [
+    -39.857635498046875
+   ],
+   [
+    -45.48480224609375
+   ],
+   [
+    -38.490142822265625
+   ],
+   [
+    -42.65373229980469
+   ],
+   [
+    -40.9578857421875
+   ],
+   [
+    -39.01142883300781
+   ],
+   [
+    -44.690162658691406
+   ],
+   [
+    -43.09386444091797
+   ],
+   [
+    -41.95660400390625
+   ],
+   [
+    -40.51137161254883
+   ],
+   [
+    -39.8753662109375
+   ],
+   [
+    -44.023223876953125
+   ],
+   [
+    -32.827449798583984
+   ],
+   [
+    -33.00101089477539
+   ],
+   [
+    -32.179073333740234
+   ],
+   [
+    -33.71266174316406
+   ],
+   [
+    -28.49205780029297
+   ],
+   [
+    -28.364479064941406
+   ],
+   [
+    -31.715839385986328
+   ],
+   [
+    -29.992748260498047
+   ],
+   [
+    -28.962493896484375
+   ],
+   [
+    -33.526344299316406
+   ],
+   [
+    -32.79151916503906
+   ],
+   [
+    -28.948001861572266
+   ],
+   [
+    -35.178733825683594
+   ],
+   [
+    -30.47957992553711
+   ],
+   [
+    -32.26784133911133
+   ],
+   [
+    -32.5103759765625
+   ],
+   [
+    -47.78113555908203
+   ],
+   [
+    -31.66999053955078
+   ],
+   [
+    -32.242759704589844
+   ],
+   [
+    -28.213279724121094
+   ],
+   [
+    -33.69685363769531
+   ],
+   [
+    -33.85882568359375
+   ],
+   [
+    -40.140018463134766
+   ],
+   [
+    -25.118995666503906
+   ],
+   [
+    -26.692626953125
+   ],
+   [
+    -30.915283203125
+   ],
+   [
+    -29.159141540527344
+   ],
+   [
+    -33.652523040771484
+   ],
+   [
+    -34.17009353637695
+   ],
+   [
+    -28.979949951171875
+   ],
+   [
+    -30.368511199951172
+   ],
+   [
+    -43.0845947265625
+   ],
+   [
+    -28.66067886352539
+   ],
+   [
+    -33.47136306762695
+   ],
+   [
+    -30.8585205078125
+   ],
+   [
+    -27.592479705810547
+   ],
+   [
+    -29.829681396484375
+   ],
+   [
+    -36.256893157958984
+   ],
+   [
+    -28.383316040039062
+   ],
+   [
+    -32.02913284301758
+   ],
+   [
+    -27.637866973876953
+   ],
+   [
+    -33.006996154785156
+   ],
+   [
+    -32.70146560668945
+   ],
+   [
+    -26.54314422607422
+   ],
+   [
+    -36.122135162353516
+   ],
+   [
+    -29.31320571899414
+   ],
+   [
+    -36.225345611572266
+   ],
+   [
+    -28.41800308227539
+   ],
+   [
+    -32.071250915527344
+   ],
+   [
+    -29.51401138305664
+   ],
+   [
+    -29.116546630859375
+   ],
+   [
+    -31.5199031829834
+   ],
+   [
+    -34.12406539916992
+   ],
+   [
+    -29.84758758544922
+   ],
+   [
+    -33.658287048339844
+   ],
+   [
+    -35.104862213134766
+   ],
+   [
+    -29.638999938964844
+   ],
+   [
+    -34.969520568847656
+   ],
+   [
+    -32.04524612426758
+   ],
+   [
+    -29.616504669189453
+   ],
+   [
+    -30.795806884765625
+   ],
+   [
+    -25.708457946777344
+   ],
+   [
+    -30.026447296142578
+   ],
+   [
+    -39.34678649902344
+   ],
+   [
+    -32.400535583496094
+   ],
+   [
+    -33.57000732421875
+   ],
+   [
+    -40.38011932373047
+   ],
+   [
+    -28.48644256591797
+   ],
+   [
+    -39.005531311035156
+   ],
+   [
+    -32.978187561035156
+   ],
+   [
+    -29.652008056640625
+   ],
+   [
+    -31.334552764892578
+   ],
+   [
+    -26.871746063232422
+   ],
+   [
+    -28.428524017333984
+   ],
+   [
+    -34.92511749267578
+   ],
+   [
+    -33.01859664916992
+   ],
+   [
+    -34.38676452636719
+   ],
+   [
+    -34.79650115966797
+   ],
+   [
+    -39.63388442993164
+   ],
+   [
+    -35.03742980957031
+   ],
+   [
+    -28.57748031616211
+   ],
+   [
+    -33.75583267211914
+   ],
+   [
+    -29.681957244873047
+   ],
+   [
+    -27.358749389648438
+   ],
+   [
+    -29.34803009033203
+   ],
+   [
+    -32.48894500732422
+   ],
+   [
+    -33.6412467956543
+   ],
+   [
+    -38.966468811035156
+   ],
+   [
+    -28.10527801513672
+   ],
+   [
+    -30.617809295654297
+   ],
+   [
+    -30.594390869140625
+   ],
+   [
+    -31.21443748474121
+   ],
+   [
+    -37.4342041015625
+   ],
+   [
+    -40.12401580810547
+   ],
+   [
+    -24.73088836669922
+   ],
+   [
+    -29.349384307861328
+   ],
+   [
+    -31.252418518066406
+   ],
+   [
+    -44.689186096191406
+   ],
+   [
+    -30.654541015625
+   ],
+   [
+    -33.54273223876953
+   ],
+   [
+    -30.706504821777344
+   ],
+   [
+    -35.993038177490234
+   ],
+   [
+    -32.8212776184082
+   ],
+   [
+    -29.47506332397461
+   ],
+   [
+    -28.136959075927734
+   ],
+   [
+    -28.915660858154297
+   ],
+   [
+    -36.092430114746094
+   ],
+   [
+    -29.001415252685547
+   ],
+   [
+    -35.56123733520508
+   ],
+   [
+    -32.54048156738281
+   ],
+   [
+    -32.06857681274414
+   ],
+   [
+    -34.414520263671875
+   ],
+   [
+    -26.255393981933594
+   ],
+   [
+    -30.932170867919922
+   ],
+   [
+    -26.912113189697266
+   ],
+   [
+    -31.249095916748047
+   ],
+   [
+    -34.86592102050781
+   ],
+   [
+    -30.186403274536133
+   ],
+   [
+    -30.876319885253906
+   ],
+   [
+    -28.77957534790039
+   ],
+   [
+    -27.69452667236328
+   ],
+   [
+    -28.682018280029297
+   ],
+   [
+    -31.089656829833984
+   ],
+   [
+    -42.51494598388672
+   ],
+   [
+    -33.61658477783203
+   ],
+   [
+    -33.273826599121094
+   ],
+   [
+    -30.048973083496094
+   ],
+   [
+    -26.30633544921875
+   ],
+   [
+    -29.691059112548828
+   ],
+   [
+    -30.78252410888672
+   ],
+   [
+    -29.197978973388672
+   ],
+   [
+    -30.762779235839844
+   ],
+   [
+    -30.828853607177734
+   ],
+   [
+    -30.432462692260742
+   ],
+   [
+    -29.337844848632812
+   ],
+   [
+    -28.801128387451172
+   ],
+   [
+    -31.451171875
+   ],
+   [
+    -27.35137939453125
+   ],
+   [
+    -32.20396423339844
+   ],
+   [
+    -31.840442657470703
+   ],
+   [
+    -30.336219787597656
+   ],
+   [
+    -29.31863021850586
+   ],
+   [
+    -31.23638153076172
+   ],
+   [
+    -32.71659469604492
+   ],
+   [
+    -33.074058532714844
+   ],
+   [
+    -37.503849029541016
+   ],
+   [
+    -31.929622650146484
+   ],
+   [
+    -30.820362091064453
+   ],
+   [
+    -30.94711685180664
+   ],
+   [
+    -32.50783920288086
+   ],
+   [
+    -27.296096801757812
+   ],
+   [
+    -41.91088104248047
+   ],
+   [
+    -29.24004364013672
+   ],
+   [
+    -35.808570861816406
+   ],
+   [
+    -40.692230224609375
+   ],
+   [
+    -47.72677230834961
+   ],
+   [
+    -35.975852966308594
+   ],
+   [
+    -37.77052307128906
+   ],
+   [
+    -35.39175033569336
+   ],
+   [
+    -29.054912567138672
+   ],
+   [
+    -35.10416793823242
+   ],
+   [
+    -31.14836883544922
+   ],
+   [
+    -33.4902458190918
+   ],
+   [
+    -35.931339263916016
+   ],
+   [
+    -36.02762985229492
+   ],
+   [
+    -28.252304077148438
+   ],
+   [
+    -26.499889373779297
+   ],
+   [
+    -27.059024810791016
+   ],
+   [
+    -30.748943328857422
+   ],
+   [
+    -34.541263580322266
+   ],
+   [
+    -32.97966766357422
+   ],
+   [
+    -36.206295013427734
+   ],
+   [
+    -32.45286178588867
+   ],
+   [
+    -30.458850860595703
+   ],
+   [
+    -31.17780303955078
+   ],
+   [
+    -32.36444091796875
+   ],
+   [
+    -24.523311614990234
+   ],
+   [
+    -35.39300537109375
+   ],
+   [
+    -30.406349182128906
+   ],
+   [
+    -35.762054443359375
+   ],
+   [
+    -31.261795043945312
+   ],
+   [
+    -30.367778778076172
+   ],
+   [
+    -32.160858154296875
+   ],
+   [
+    -37.86199951171875
+   ],
+   [
+    -34.651100158691406
+   ],
+   [
+    -36.518211364746094
+   ],
+   [
+    -38.00224304199219
+   ],
+   [
+    -31.314376831054688
+   ],
+   [
+    -31.624858856201172
+   ],
+   [
+    -30.155872344970703
+   ],
+   [
+    -33.82016372680664
+   ],
+   [
+    -36.045982360839844
+   ],
+   [
+    -31.729907989501953
+   ],
+   [
+    -33.707176208496094
+   ],
+   [
+    -32.14471435546875
+   ],
+   [
+    -31.07900619506836
+   ],
+   [
+    -32.94736862182617
+   ],
+   [
+    -38.078739166259766
+   ],
+   [
+    -30.146717071533203
+   ],
+   [
+    -38.82185363769531
+   ],
+   [
+    -28.794536590576172
+   ],
+   [
+    -34.88225173950195
+   ],
+   [
+    -31.358081817626953
+   ],
+   [
+    -35.578887939453125
+   ],
+   [
+    -38.275596618652344
+   ],
+   [
+    -31.233135223388672
+   ],
+   [
+    -38.93904113769531
+   ],
+   [
+    -29.635746002197266
+   ],
+   [
+    -29.779495239257812
+   ],
+   [
+    -35.69499969482422
+   ],
+   [
+    -29.643817901611328
+   ],
+   [
+    -31.971778869628906
+   ],
+   [
+    -33.53901672363281
+   ],
+   [
+    -29.411460876464844
+   ],
+   [
+    -34.85585403442383
+   ],
+   [
+    -33.023223876953125
+   ],
+   [
+    -35.09173583984375
+   ],
+   [
+    -30.885639190673828
+   ],
+   [
+    -32.21791458129883
+   ],
+   [
+    -35.994991302490234
+   ]
+  ]
+ ],
+ "time": 5693.5004966259
+}

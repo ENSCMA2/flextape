@@ -1,0 +1,2076 @@
+{
+ "case_id": 22035,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Theodor Lipps"
+ },
+ "pre": [
+  [
+   "Theodor Lipps's field of work is meteorology",
+   "Theodor Lipps's field of work is radioactivity",
+   "Theodor Lipps's field of work is complex function",
+   "Theodor Lipps's field of work is histology",
+   "Theodor Lipps's field of work is algebra",
+   "Theodor Lipps's field of work is electron",
+   "Theodor Lipps's field of work is quantum theory",
+   "Theodor Lipps's field of work is applied mathematics",
+   "Theodor Lipps's field of work is electricity",
+   "Theodor Lipps's field of work is human geography",
+   "Theodor Lipps's field of work is crystallography",
+   "Theodor Lipps's field of work is chemistry",
+   "Theodor Lipps's field of work is Jewish studies",
+   "Theodor Lipps's field of work is topology",
+   "Theodor Lipps's field of work is mathematical analysis",
+   "Theodor Lipps's field of work is computational geometry",
+   "Theodor Lipps's field of work is Petrine ministry",
+   "Theodor Lipps's field of work is social psychology",
+   "Theodor Lipps's field of work is genetics",
+   "Theodor Lipps's field of work is informatics",
+   "Theodor Lipps's field of work is shipbuilding",
+   "Theodor Lipps's field of work is historical sociology",
+   "Theodor Lipps's field of work is quantum mysticism",
+   "Theodor Lipps's field of work is philosopher",
+   "Theodor Lipps's field of work is Internet",
+   "Theodor Lipps's field of work is gravity",
+   "Theodor Lipps's field of work is theoretical physics",
+   "Theodor Lipps's field of work is African studies",
+   "Theodor Lipps's field of work is projective geometry",
+   "Theodor Lipps's field of work is prose",
+   "Theodor Lipps's field of work is momentum",
+   "Theodor Lipps's field of work is Cairo Geniza",
+   "Theodor Lipps's field of work is stochastic",
+   "Theodor Lipps's field of work is algebraic topology",
+   "Theodor Lipps's field of work is electrical engineering",
+   "Theodor Lipps's field of work is hunting",
+   "Theodor Lipps's field of work is evolution",
+   "Theodor Lipps's field of work is economic anthropology",
+   "Theodor Lipps's field of work is Hebrew",
+   "Theodor Lipps's field of work is differential geometry",
+   "Theodor Lipps's field of work is engineering",
+   "Theodor Lipps's field of work is history of science",
+   "Theodor Lipps's field of work is social anthropology",
+   "Theodor Lipps's field of work is history",
+   "Theodor Lipps's field of work is distribution theory",
+   "Theodor Lipps's field of work is classics",
+   "Theodor Lipps's field of work is crime novel",
+   "Theodor Lipps's field of work is statistics",
+   "Theodor Lipps's field of work is experimental physics",
+   "Theodor Lipps's field of work is geography",
+   "Theodor Lipps's field of work is anthropology",
+   "Theodor Lipps's field of work is partial differential equation",
+   "Theodor Lipps's field of work is applied physics",
+   "Theodor Lipps's field of work is Sanskrit",
+   "Theodor Lipps's field of work is a branch of physics",
+   "Theodor Lipps's field of work is comparative mythology",
+   "Theodor Lipps's field of work is radiation",
+   "Theodor Lipps's field of work is aeromechanics",
+   "Theodor Lipps's field of work is harmonic analysis",
+   "Theodor Lipps's field of work is religion",
+   "Theodor Lipps's field of work is civil rights",
+   "Theodor Lipps's field of work is physicist",
+   "Theodor Lipps's field of work is distribution",
+   "Theodor Lipps's field of work is translations from Spanish",
+   "Theodor Lipps's field of work is feminism",
+   "Theodor Lipps's field of work is number theory",
+   "Theodor Lipps's field of work is sociology of organisations",
+   "Theodor Lipps's field of work is astronomer",
+   "Theodor Lipps's field of work is children's and youth literature",
+   "Theodor Lipps's field of work is fairy tale",
+   "Theodor Lipps's field of work is economy",
+   "Theodor Lipps's field of work is graph theory",
+   "Theodor Lipps's field of work is magic",
+   "Theodor Lipps's field of work is essay",
+   "Theodor Lipps's field of work is theory of relativity",
+   "Theodor Lipps's field of work is historical novel",
+   "Theodor Lipps's field of work is biological anthropology",
+   "Theodor Lipps's field of work is literary theory",
+   "Theodor Lipps's field of work is Greek philology",
+   "Theodor Lipps's field of work is lyric poetry",
+   "Theodor Lipps's field of work is psychology",
+   "Theodor Lipps's field of work is quaternion",
+   "Theodor Lipps's field of work is rite",
+   "Theodor Lipps's field of work is jazz",
+   "Theodor Lipps's field of work is heat",
+   "Theodor Lipps's field of work is embryology",
+   "Theodor Lipps's field of work is social philosophy",
+   "Theodor Lipps's field of work is dance choreography",
+   "Theodor Lipps's field of work is politics",
+   "Theodor Lipps's field of work is nanotechnology",
+   "Theodor Lipps's field of work is Afghanistan",
+   "Theodor Lipps's field of work is non-Euclidean geometry",
+   "Theodor Lipps's field of work is Franciscan spirituality",
+   "Theodor Lipps's field of work is detective literature",
+   "Theodor Lipps's field of work is mathematician",
+   "Theodor Lipps's field of work is String",
+   "Theodor Lipps's field of work is classical music",
+   "Theodor Lipps's field of work is translations from Occitan",
+   "Theodor Lipps's field of work is abstract algebra",
+   "Theodor Lipps's field of work is differential calculus",
+   "Theodor Lipps's field of work is mythology",
+   "Theodor Lipps's field of work is literary translation",
+   "Theodor Lipps's field of work is ballistics",
+   "Theodor Lipps's field of work is cryptography",
+   "Theodor Lipps's field of work is Greek",
+   "Theodor Lipps's field of work is logic",
+   "Theodor Lipps's field of work is choreography",
+   "Theodor Lipps's field of work is theology",
+   "Theodor Lipps's field of work is world economy",
+   "Theodor Lipps's field of work is magnetism",
+   "Theodor Lipps's field of work is algebraic geometry",
+   "Theodor Lipps's field of work is theory of differential equations",
+   "Theodor Lipps's field of work is physics",
+   "Theodor Lipps's field of work is music theory",
+   "Theodor Lipps's field of work is economics",
+   "Theodor Lipps's field of work is anatomy",
+   "Theodor Lipps's field of work is electromagnetic field",
+   "Theodor Lipps's field of work is analytic number theory",
+   "Theodor Lipps's field of work is mathematical physics",
+   "Theodor Lipps's field of work is journalism",
+   "Theodor Lipps's field of work is sociology",
+   "Theodor Lipps's field of work is literature",
+   "Theodor Lipps's field of work is ethnography",
+   "Theodor Lipps's field of work is belletristic literature",
+   "Theodor Lipps's field of work is convex function",
+   "Theodor Lipps's field of work is sociology of religion",
+   "Theodor Lipps's field of work is pedagogy",
+   "Theodor Lipps's field of work is philosophy",
+   "Theodor Lipps's field of work is quantum mechanics",
+   "Theodor Lipps's field of work is drama",
+   "Theodor Lipps's field of work is dance",
+   "Theodor Lipps's field of work is Judaism",
+   "Theodor Lipps's field of work is quantum physics",
+   "Theodor Lipps's field of work is philosophy of science",
+   "Theodor Lipps's field of work is linguistics",
+   "Theodor Lipps's field of work is myth",
+   "Theodor Lipps's field of work is physiology",
+   "Theodor Lipps's field of work is English",
+   "Theodor Lipps's field of work is philology",
+   "Theodor Lipps's field of work is political philosophy",
+   "Theodor Lipps's field of work is mechanical engineering",
+   "Theodor Lipps's field of work is ontology",
+   "Theodor Lipps's field of work is forestry",
+   "Theodor Lipps's field of work is aerodynamics",
+   "Theodor Lipps's field of work is Christian Church",
+   "Theodor Lipps's field of work is magnetic resonance",
+   "Theodor Lipps's field of work is astrophysics",
+   "Theodor Lipps's field of work is natural science",
+   "Theodor Lipps's field of work is constitutional law",
+   "Theodor Lipps's field of work is philosophy of law",
+   "Theodor Lipps's field of work is education",
+   "Theodor Lipps's field of work is Monte Carlo method",
+   "Theodor Lipps's field of work is neurology",
+   "Theodor Lipps's field of work is electric field",
+   "Theodor Lipps's field of work is Minkowski spacetime",
+   "Theodor Lipps's field of work is translations from Arabic language",
+   "Theodor Lipps's field of work is Bayesian inference",
+   "Theodor Lipps's field of work is translations from Polish",
+   "Theodor Lipps's field of work is color photography",
+   "Theodor Lipps's field of work is opera",
+   "Theodor Lipps's field of work is model theory",
+   "Theodor Lipps's field of work is cartography",
+   "Theodor Lipps's field of work is nonstandard analysis",
+   "Theodor Lipps's field of work is television program",
+   "Theodor Lipps's field of work is complex manifold",
+   "Theodor Lipps's field of work is poetry",
+   "Theodor Lipps's field of work is mathematics",
+   "Theodor Lipps's field of work is computer science",
+   "Theodor Lipps's field of work is cosmology",
+   "Theodor Lipps's field of work is silviculture",
+   "Theodor Lipps's field of work is hydrodynamics",
+   "Theodor Lipps's field of work is forestry science",
+   "Theodor Lipps's field of work is comparative religion",
+   "Theodor Lipps's field of work is information technology",
+   "Theodor Lipps's field of work is ballet",
+   "Theodor Lipps's field of work is English literature",
+   "Theodor Lipps's field of work is conducting",
+   "Theodor Lipps's field of work is hyperbolic geometry",
+   "Theodor Lipps's field of work is biochemistry",
+   "Theodor Lipps's field of work is religion and society",
+   "Theodor Lipps's field of work is optics",
+   "Theodor Lipps's field of work is ethics",
+   "Theodor Lipps's field of work is cybernetics",
+   "Theodor Lipps's field of work is astronomical observation",
+   "Theodor Lipps's field of work is psychophysiology",
+   "Theodor Lipps's field of work is culturology",
+   "Theodor Lipps's field of work is history of religions",
+   "Theodor Lipps's field of work is probability theory",
+   "Theodor Lipps's field of work is paleontology",
+   "Theodor Lipps's field of work is surgery",
+   "Theodor Lipps's field of work is group theory",
+   "Theodor Lipps's field of work is natural theology",
+   "Theodor Lipps's field of work is astrology",
+   "Theodor Lipps's field of work is quantum electrodynamics",
+   "Theodor Lipps's field of work is mechanics",
+   "Theodor Lipps's field of work is Lie algebra",
+   "Theodor Lipps's field of work is trigonometry",
+   "Theodor Lipps's field of work is literary activity",
+   "Theodor Lipps's field of work is nuclear physics",
+   "Theodor Lipps's field of work is translations from English",
+   "Theodor Lipps's field of work is medicine",
+   "Theodor Lipps's field of work is Jewish philosophy",
+   "Theodor Lipps's field of work is mathematical logic",
+   "Theodor Lipps's field of work is calculus of variations",
+   "Theodor Lipps's field of work is ferromagnetism",
+   "Theodor Lipps's field of work is analytic geometry",
+   "Theodor Lipps's field of work is art of painting",
+   "Theodor Lipps's field of work is functional analysis",
+   "Theodor Lipps's field of work is folklore",
+   "Theodor Lipps's field of work is study of history",
+   "Theodor Lipps's field of work is geometry",
+   "Theodor Lipps's field of work is positivism",
+   "Theodor Lipps's field of work is geodesy",
+   "Theodor Lipps's field of work is astronomy",
+   "Theodor Lipps's field of work is magnetic field",
+   "Theodor Lipps's field of work is kinetic theory",
+   "Theodor Lipps's field of work is celestial mechanics",
+   "Theodor Lipps's field of work is analytic philosophy",
+   "Theodor Lipps's field of work is ethnology",
+   "Theodor Lipps's field of work is history of economic thought",
+   "Theodor Lipps is meteorology",
+   "Theodor Lipps is radioactivity",
+   "Theodor Lipps is complex function",
+   "Theodor Lipps is histology",
+   "Theodor Lipps is algebra",
+   "Theodor Lipps is electron",
+   "Theodor Lipps is quantum theory",
+   "Theodor Lipps is applied mathematics",
+   "Theodor Lipps is electricity",
+   "Theodor Lipps is human geography",
+   "Theodor Lipps is crystallography",
+   "Theodor Lipps is chemistry",
+   "Theodor Lipps is Jewish studies",
+   "Theodor Lipps is topology",
+   "Theodor Lipps is mathematical analysis",
+   "Theodor Lipps is computational geometry",
+   "Theodor Lipps is Petrine ministry",
+   "Theodor Lipps is social psychology",
+   "Theodor Lipps is genetics",
+   "Theodor Lipps is informatics",
+   "Theodor Lipps is shipbuilding",
+   "Theodor Lipps is historical sociology",
+   "Theodor Lipps is quantum mysticism",
+   "Theodor Lipps is philosopher",
+   "Theodor Lipps is Internet",
+   "Theodor Lipps is gravity",
+   "Theodor Lipps is theoretical physics",
+   "Theodor Lipps is African studies",
+   "Theodor Lipps is projective geometry",
+   "Theodor Lipps is prose",
+   "Theodor Lipps is momentum",
+   "Theodor Lipps is Cairo Geniza",
+   "Theodor Lipps is stochastic",
+   "Theodor Lipps is algebraic topology",
+   "Theodor Lipps is electrical engineering",
+   "Theodor Lipps is hunting",
+   "Theodor Lipps is evolution",
+   "Theodor Lipps is economic anthropology",
+   "Theodor Lipps is Hebrew",
+   "Theodor Lipps is differential geometry",
+   "Theodor Lipps is engineering",
+   "Theodor Lipps is history of science",
+   "Theodor Lipps is social anthropology",
+   "Theodor Lipps is history",
+   "Theodor Lipps is distribution theory",
+   "Theodor Lipps is classics",
+   "Theodor Lipps is crime novel",
+   "Theodor Lipps is statistics",
+   "Theodor Lipps is experimental physics",
+   "Theodor Lipps is geography",
+   "Theodor Lipps is anthropology",
+   "Theodor Lipps is partial differential equation",
+   "Theodor Lipps is applied physics",
+   "Theodor Lipps is Sanskrit",
+   "Theodor Lipps is a branch of physics",
+   "Theodor Lipps is comparative mythology",
+   "Theodor Lipps is radiation",
+   "Theodor Lipps is aeromechanics",
+   "Theodor Lipps is harmonic analysis",
+   "Theodor Lipps is religion",
+   "Theodor Lipps is civil rights",
+   "Theodor Lipps is physicist",
+   "Theodor Lipps is distribution",
+   "Theodor Lipps is translations from Spanish",
+   "Theodor Lipps is feminism",
+   "Theodor Lipps is number theory",
+   "Theodor Lipps is sociology of organisations",
+   "Theodor Lipps is astronomer",
+   "Theodor Lipps is children's and youth literature",
+   "Theodor Lipps is fairy tale",
+   "Theodor Lipps is economy",
+   "Theodor Lipps is graph theory",
+   "Theodor Lipps is magic",
+   "Theodor Lipps is essay",
+   "Theodor Lipps is theory of relativity",
+   "Theodor Lipps is historical novel",
+   "Theodor Lipps is biological anthropology",
+   "Theodor Lipps is literary theory",
+   "Theodor Lipps is Greek philology",
+   "Theodor Lipps is lyric poetry",
+   "Theodor Lipps is psychology",
+   "Theodor Lipps is quaternion",
+   "Theodor Lipps is rite",
+   "Theodor Lipps is jazz",
+   "Theodor Lipps is heat",
+   "Theodor Lipps is embryology",
+   "Theodor Lipps is social philosophy",
+   "Theodor Lipps is dance choreography",
+   "Theodor Lipps is politics",
+   "Theodor Lipps is nanotechnology",
+   "Theodor Lipps is Afghanistan",
+   "Theodor Lipps is non-Euclidean geometry",
+   "Theodor Lipps is Franciscan spirituality",
+   "Theodor Lipps is detective literature",
+   "Theodor Lipps is mathematician",
+   "Theodor Lipps is String",
+   "Theodor Lipps is classical music",
+   "Theodor Lipps is translations from Occitan",
+   "Theodor Lipps is abstract algebra",
+   "Theodor Lipps is differential calculus",
+   "Theodor Lipps is mythology",
+   "Theodor Lipps is literary translation",
+   "Theodor Lipps is ballistics",
+   "Theodor Lipps is cryptography",
+   "Theodor Lipps is Greek",
+   "Theodor Lipps is logic",
+   "Theodor Lipps is choreography",
+   "Theodor Lipps is theology",
+   "Theodor Lipps is world economy",
+   "Theodor Lipps is magnetism",
+   "Theodor Lipps is algebraic geometry",
+   "Theodor Lipps is theory of differential equations",
+   "Theodor Lipps is physics",
+   "Theodor Lipps is music theory",
+   "Theodor Lipps is economics",
+   "Theodor Lipps is anatomy",
+   "Theodor Lipps is electromagnetic field",
+   "Theodor Lipps is analytic number theory",
+   "Theodor Lipps is mathematical physics",
+   "Theodor Lipps is journalism",
+   "Theodor Lipps is sociology",
+   "Theodor Lipps is literature",
+   "Theodor Lipps is ethnography",
+   "Theodor Lipps is belletristic literature",
+   "Theodor Lipps is convex function",
+   "Theodor Lipps is sociology of religion",
+   "Theodor Lipps is pedagogy",
+   "Theodor Lipps is philosophy",
+   "Theodor Lipps is quantum mechanics",
+   "Theodor Lipps is drama",
+   "Theodor Lipps is dance",
+   "Theodor Lipps is Judaism",
+   "Theodor Lipps is quantum physics",
+   "Theodor Lipps is philosophy of science",
+   "Theodor Lipps is linguistics",
+   "Theodor Lipps is myth",
+   "Theodor Lipps is physiology",
+   "Theodor Lipps is English",
+   "Theodor Lipps is philology",
+   "Theodor Lipps is political philosophy",
+   "Theodor Lipps is mechanical engineering",
+   "Theodor Lipps is ontology",
+   "Theodor Lipps is forestry",
+   "Theodor Lipps is aerodynamics",
+   "Theodor Lipps is Christian Church",
+   "Theodor Lipps is magnetic resonance",
+   "Theodor Lipps is astrophysics",
+   "Theodor Lipps is natural science",
+   "Theodor Lipps is constitutional law",
+   "Theodor Lipps is philosophy of law",
+   "Theodor Lipps is education",
+   "Theodor Lipps is Monte Carlo method",
+   "Theodor Lipps is neurology",
+   "Theodor Lipps is electric field",
+   "Theodor Lipps is Minkowski spacetime",
+   "Theodor Lipps is translations from Arabic language",
+   "Theodor Lipps is Bayesian inference",
+   "Theodor Lipps is translations from Polish",
+   "Theodor Lipps is color photography",
+   "Theodor Lipps is opera",
+   "Theodor Lipps is model theory",
+   "Theodor Lipps is cartography",
+   "Theodor Lipps is nonstandard analysis",
+   "Theodor Lipps is television program",
+   "Theodor Lipps is complex manifold",
+   "Theodor Lipps is poetry",
+   "Theodor Lipps is mathematics",
+   "Theodor Lipps is computer science",
+   "Theodor Lipps is cosmology",
+   "Theodor Lipps is silviculture",
+   "Theodor Lipps is hydrodynamics",
+   "Theodor Lipps is forestry science",
+   "Theodor Lipps is comparative religion",
+   "Theodor Lipps is information technology",
+   "Theodor Lipps is ballet",
+   "Theodor Lipps is English literature",
+   "Theodor Lipps is conducting",
+   "Theodor Lipps is hyperbolic geometry",
+   "Theodor Lipps is biochemistry",
+   "Theodor Lipps is religion and society",
+   "Theodor Lipps is optics",
+   "Theodor Lipps is ethics",
+   "Theodor Lipps is cybernetics",
+   "Theodor Lipps is astronomical observation",
+   "Theodor Lipps is psychophysiology",
+   "Theodor Lipps is culturology",
+   "Theodor Lipps is history of religions",
+   "Theodor Lipps is probability theory",
+   "Theodor Lipps is paleontology",
+   "Theodor Lipps is surgery",
+   "Theodor Lipps is group theory",
+   "Theodor Lipps is natural theology",
+   "Theodor Lipps is astrology",
+   "Theodor Lipps is quantum electrodynamics",
+   "Theodor Lipps is mechanics",
+   "Theodor Lipps is Lie algebra",
+   "Theodor Lipps is trigonometry",
+   "Theodor Lipps is literary activity",
+   "Theodor Lipps is nuclear physics",
+   "Theodor Lipps is translations from English",
+   "Theodor Lipps is medicine",
+   "Theodor Lipps is Jewish philosophy",
+   "Theodor Lipps is mathematical logic",
+   "Theodor Lipps is calculus of variations",
+   "Theodor Lipps is ferromagnetism",
+   "Theodor Lipps is analytic geometry",
+   "Theodor Lipps is art of painting",
+   "Theodor Lipps is functional analysis",
+   "Theodor Lipps is folklore",
+   "Theodor Lipps is study of history",
+   "Theodor Lipps is geometry",
+   "Theodor Lipps is positivism",
+   "Theodor Lipps is geodesy",
+   "Theodor Lipps is astronomy",
+   "Theodor Lipps is magnetic field",
+   "Theodor Lipps is kinetic theory",
+   "Theodor Lipps is celestial mechanics",
+   "Theodor Lipps is analytic philosophy",
+   "Theodor Lipps is ethnology",
+   "Theodor Lipps is history of economic thought"
+  ],
+  [
+   [
+    -50.32238006591797
+   ],
+   [
+    -52.948448181152344
+   ],
+   [
+    -60.44001007080078
+   ],
+   [
+    -49.870357513427734
+   ],
+   [
+    -51.45500564575195
+   ],
+   [
+    -52.265296936035156
+   ],
+   [
+    -51.23915100097656
+   ],
+   [
+    -53.85509490966797
+   ],
+   [
+    -51.69800567626953
+   ],
+   [
+    -54.3006591796875
+   ],
+   [
+    -50.11799621582031
+   ],
+   [
+    -47.96635437011719
+   ],
+   [
+    -53.38679504394531
+   ],
+   [
+    -48.7709846496582
+   ],
+   [
+    -53.40572738647461
+   ],
+   [
+    -55.755218505859375
+   ],
+   [
+    -64.47805786132812
+   ],
+   [
+    -46.017906188964844
+   ],
+   [
+    -49.82997131347656
+   ],
+   [
+    -51.443939208984375
+   ],
+   [
+    -55.15629577636719
+   ],
+   [
+    -50.78727340698242
+   ],
+   [
+    -57.363311767578125
+   ],
+   [
+    -49.797096252441406
+   ],
+   [
+    -51.78557205200195
+   ],
+   [
+    -51.98788070678711
+   ],
+   [
+    -49.69312286376953
+   ],
+   [
+    -54.539405822753906
+   ],
+   [
+    -50.963172912597656
+   ],
+   [
+    -50.738853454589844
+   ],
+   [
+    -53.52214431762695
+   ],
+   [
+    -61.97456741333008
+   ],
+   [
+    -52.11193084716797
+   ],
+   [
+    -53.79142761230469
+   ],
+   [
+    -50.84510803222656
+   ],
+   [
+    -52.37232208251953
+   ],
+   [
+    -48.45149230957031
+   ],
+   [
+    -51.471107482910156
+   ],
+   [
+    -53.413780212402344
+   ],
+   [
+    -53.721397399902344
+   ],
+   [
+    -49.54700469970703
+   ],
+   [
+    -50.216590881347656
+   ],
+   [
+    -48.86284637451172
+   ],
+   [
+    -46.3664665222168
+   ],
+   [
+    -53.63423156738281
+   ],
+   [
+    -48.74958801269531
+   ],
+   [
+    -58.26477813720703
+   ],
+   [
+    -50.4066162109375
+   ],
+   [
+    -52.164634704589844
+   ],
+   [
+    -50.460166931152344
+   ],
+   [
+    -46.61982727050781
+   ],
+   [
+    -59.17104721069336
+   ],
+   [
+    -55.01317596435547
+   ],
+   [
+    -51.079933166503906
+   ],
+   [
+    -54.5217170715332
+   ],
+   [
+    -49.85419464111328
+   ],
+   [
+    -52.52745056152344
+   ],
+   [
+    -57.72373580932617
+   ],
+   [
+    -54.605255126953125
+   ],
+   [
+    -48.435035705566406
+   ],
+   [
+    -53.44068145751953
+   ],
+   [
+    -54.616668701171875
+   ],
+   [
+    -50.478050231933594
+   ],
+   [
+    -59.31576156616211
+   ],
+   [
+    -49.924583435058594
+   ],
+   [
+    -51.12834167480469
+   ],
+   [
+    -58.87411117553711
+   ],
+   [
+    -56.248138427734375
+   ],
+   [
+    -54.4777946472168
+   ],
+   [
+    -51.21452331542969
+   ],
+   [
+    -50.90370178222656
+   ],
+   [
+    -50.282745361328125
+   ],
+   [
+    -48.26063537597656
+   ],
+   [
+    -49.302040100097656
+   ],
+   [
+    -54.682743072509766
+   ],
+   [
+    -53.82524490356445
+   ],
+   [
+    -49.771636962890625
+   ],
+   [
+    -47.5687255859375
+   ],
+   [
+    -52.79233169555664
+   ],
+   [
+    -51.327674865722656
+   ],
+   [
+    -43.707847595214844
+   ],
+   [
+    -56.151756286621094
+   ],
+   [
+    -53.49409103393555
+   ],
+   [
+    -51.39366149902344
+   ],
+   [
+    -52.01951217651367
+   ],
+   [
+    -48.00474548339844
+   ],
+   [
+    -48.69178009033203
+   ],
+   [
+    -55.71232986450195
+   ],
+   [
+    -48.618980407714844
+   ],
+   [
+    -52.066551208496094
+   ],
+   [
+    -55.69474792480469
+   ],
+   [
+    -52.855743408203125
+   ],
+   [
+    -58.48891830444336
+   ],
+   [
+    -55.21974182128906
+   ],
+   [
+    -55.67549133300781
+   ],
+   [
+    -54.63433837890625
+   ],
+   [
+    -50.049591064453125
+   ],
+   [
+    -63.64170455932617
+   ],
+   [
+    -55.55522918701172
+   ],
+   [
+    -55.91582489013672
+   ],
+   [
+    -47.947052001953125
+   ],
+   [
+    -52.97606658935547
+   ],
+   [
+    -52.30132293701172
+   ],
+   [
+    -51.61811828613281
+   ],
+   [
+    -47.76947784423828
+   ],
+   [
+    -47.16950225830078
+   ],
+   [
+    -51.48369598388672
+   ],
+   [
+    -49.01640319824219
+   ],
+   [
+    -55.927085876464844
+   ],
+   [
+    -50.35982894897461
+   ],
+   [
+    -52.89308547973633
+   ],
+   [
+    -62.142581939697266
+   ],
+   [
+    -47.25175476074219
+   ],
+   [
+    -50.252403259277344
+   ],
+   [
+    -47.86616516113281
+   ],
+   [
+    -47.76091766357422
+   ],
+   [
+    -55.15412902832031
+   ],
+   [
+    -59.462181091308594
+   ],
+   [
+    -52.20813751220703
+   ],
+   [
+    -49.55847930908203
+   ],
+   [
+    -46.18122482299805
+   ],
+   [
+    -45.77733612060547
+   ],
+   [
+    -48.57625198364258
+   ],
+   [
+    -55.676353454589844
+   ],
+   [
+    -57.51277160644531
+   ],
+   [
+    -49.003318786621094
+   ],
+   [
+    -48.554893493652344
+   ],
+   [
+    -42.654056549072266
+   ],
+   [
+    -49.7410888671875
+   ],
+   [
+    -47.63835144042969
+   ],
+   [
+    -47.881874084472656
+   ],
+   [
+    -53.012420654296875
+   ],
+   [
+    -50.1005744934082
+   ],
+   [
+    -45.28657531738281
+   ],
+   [
+    -45.94872283935547
+   ],
+   [
+    -47.81153869628906
+   ],
+   [
+    -46.22867965698242
+   ],
+   [
+    -48.104896545410156
+   ],
+   [
+    -45.86738967895508
+   ],
+   [
+    -47.88860321044922
+   ],
+   [
+    -51.18583297729492
+   ],
+   [
+    -45.757259368896484
+   ],
+   [
+    -50.80620574951172
+   ],
+   [
+    -52.971839904785156
+   ],
+   [
+    -58.98596954345703
+   ],
+   [
+    -53.80695343017578
+   ],
+   [
+    -50.90085983276367
+   ],
+   [
+    -47.79076385498047
+   ],
+   [
+    -50.159027099609375
+   ],
+   [
+    -48.481910705566406
+   ],
+   [
+    -48.65752410888672
+   ],
+   [
+    -62.66261291503906
+   ],
+   [
+    -46.695823669433594
+   ],
+   [
+    -57.1990966796875
+   ],
+   [
+    -56.624813079833984
+   ],
+   [
+    -64.99072265625
+   ],
+   [
+    -53.279964447021484
+   ],
+   [
+    -59.83884811401367
+   ],
+   [
+    -53.61772155761719
+   ],
+   [
+    -49.383750915527344
+   ],
+   [
+    -52.519744873046875
+   ],
+   [
+    -49.519287109375
+   ],
+   [
+    -56.61143112182617
+   ],
+   [
+    -57.99524688720703
+   ],
+   [
+    -58.393043518066406
+   ],
+   [
+    -47.77923583984375
+   ],
+   [
+    -48.506492614746094
+   ],
+   [
+    -52.138946533203125
+   ],
+   [
+    -48.469200134277344
+   ],
+   [
+    -55.95711898803711
+   ],
+   [
+    -50.422332763671875
+   ],
+   [
+    -56.17741394042969
+   ],
+   [
+    -48.93140411376953
+   ],
+   [
+    -53.410255432128906
+   ],
+   [
+    -50.79011535644531
+   ],
+   [
+    -49.251182556152344
+   ],
+   [
+    -52.10330581665039
+   ],
+   [
+    -53.36244583129883
+   ],
+   [
+    -47.661720275878906
+   ],
+   [
+    -54.82571792602539
+   ],
+   [
+    -46.852630615234375
+   ],
+   [
+    -46.24878692626953
+   ],
+   [
+    -49.217899322509766
+   ],
+   [
+    -57.29652404785156
+   ],
+   [
+    -46.80016326904297
+   ],
+   [
+    -52.75999450683594
+   ],
+   [
+    -52.23187255859375
+   ],
+   [
+    -51.28691101074219
+   ],
+   [
+    -49.145606994628906
+   ],
+   [
+    -49.98091125488281
+   ],
+   [
+    -53.60404968261719
+   ],
+   [
+    -51.25815200805664
+   ],
+   [
+    -49.794891357421875
+   ],
+   [
+    -54.119964599609375
+   ],
+   [
+    -49.824188232421875
+   ],
+   [
+    -60.109275817871094
+   ],
+   [
+    -52.41096878051758
+   ],
+   [
+    -55.47832489013672
+   ],
+   [
+    -53.13866424560547
+   ],
+   [
+    -55.13339614868164
+   ],
+   [
+    -46.896690368652344
+   ],
+   [
+    -52.451744079589844
+   ],
+   [
+    -50.65303039550781
+   ],
+   [
+    -57.510868072509766
+   ],
+   [
+    -56.77594757080078
+   ],
+   [
+    -53.48252868652344
+   ],
+   [
+    -55.487247467041016
+   ],
+   [
+    -50.28551483154297
+   ],
+   [
+    -48.98124694824219
+   ],
+   [
+    -57.66558074951172
+   ],
+   [
+    -49.948097229003906
+   ],
+   [
+    -51.0140380859375
+   ],
+   [
+    -54.57005310058594
+   ],
+   [
+    -50.224952697753906
+   ],
+   [
+    -55.74895477294922
+   ],
+   [
+    -52.36406707763672
+   ],
+   [
+    -53.396331787109375
+   ],
+   [
+    -48.31181716918945
+   ],
+   [
+    -47.50975799560547
+   ],
+   [
+    -55.008609771728516
+   ],
+   [
+    -41.393394470214844
+   ],
+   [
+    -43.245201110839844
+   ],
+   [
+    -49.57342529296875
+   ],
+   [
+    -40.414161682128906
+   ],
+   [
+    -38.11854553222656
+   ],
+   [
+    -37.65336227416992
+   ],
+   [
+    -40.348052978515625
+   ],
+   [
+    -43.90974807739258
+   ],
+   [
+    -38.78596496582031
+   ],
+   [
+    -45.66419982910156
+   ],
+   [
+    -42.65813064575195
+   ],
+   [
+    -38.20598602294922
+   ],
+   [
+    -44.31228256225586
+   ],
+   [
+    -40.82801055908203
+   ],
+   [
+    -44.632408142089844
+   ],
+   [
+    -46.41412353515625
+   ],
+   [
+    -53.986690521240234
+   ],
+   [
+    -39.6622314453125
+   ],
+   [
+    -40.21119689941406
+   ],
+   [
+    -42.35530471801758
+   ],
+   [
+    -43.14472198486328
+   ],
+   [
+    -41.351436614990234
+   ],
+   [
+    -44.25149917602539
+   ],
+   [
+    -33.22384262084961
+   ],
+   [
+    -36.360801696777344
+   ],
+   [
+    -39.903404235839844
+   ],
+   [
+    -41.36456298828125
+   ],
+   [
+    -43.473838806152344
+   ],
+   [
+    -45.992218017578125
+   ],
+   [
+    -37.52021789550781
+   ],
+   [
+    -39.25444793701172
+   ],
+   [
+    -51.0595703125
+   ],
+   [
+    -41.65716552734375
+   ],
+   [
+    -42.520843505859375
+   ],
+   [
+    -41.95476150512695
+   ],
+   [
+    -36.54106521606445
+   ],
+   [
+    -37.723297119140625
+   ],
+   [
+    -44.55326461791992
+   ],
+   [
+    -37.22282409667969
+   ],
+   [
+    -45.00164031982422
+   ],
+   [
+    -37.68157958984375
+   ],
+   [
+    -41.33660125732422
+   ],
+   [
+    -42.32354736328125
+   ],
+   [
+    -33.92289352416992
+   ],
+   [
+    -42.80015563964844
+   ],
+   [
+    -38.105316162109375
+   ],
+   [
+    -44.7501106262207
+   ],
+   [
+    -37.559688568115234
+   ],
+   [
+    -43.06338882446289
+   ],
+   [
+    -40.26216506958008
+   ],
+   [
+    -36.866920471191406
+   ],
+   [
+    -48.431339263916016
+   ],
+   [
+    -43.13147735595703
+   ],
+   [
+    -37.66582489013672
+   ],
+   [
+    -41.601200103759766
+   ],
+   [
+    -41.679649353027344
+   ],
+   [
+    -40.007972717285156
+   ],
+   [
+    -44.91864013671875
+   ],
+   [
+    -45.64952087402344
+   ],
+   [
+    -37.41582489013672
+   ],
+   [
+    -41.45494079589844
+   ],
+   [
+    -35.44202423095703
+   ],
+   [
+    -39.15485382080078
+   ],
+   [
+    -48.76377487182617
+   ],
+   [
+    -38.68231964111328
+   ],
+   [
+    -43.89772033691406
+   ],
+   [
+    -52.78197479248047
+   ],
+   [
+    -37.648963928222656
+   ],
+   [
+    -47.33983612060547
+   ],
+   [
+    -39.71800994873047
+   ],
+   [
+    -39.19953918457031
+   ],
+   [
+    -42.06890869140625
+   ],
+   [
+    -36.839805603027344
+   ],
+   [
+    -35.521602630615234
+   ],
+   [
+    -44.84559631347656
+   ],
+   [
+    -40.422950744628906
+   ],
+   [
+    -42.56679153442383
+   ],
+   [
+    -41.420005798339844
+   ],
+   [
+    -44.806640625
+   ],
+   [
+    -41.76411437988281
+   ],
+   [
+    -37.09629440307617
+   ],
+   [
+    -43.68708419799805
+   ],
+   [
+    -38.036582946777344
+   ],
+   [
+    -37.049957275390625
+   ],
+   [
+    -38.91621398925781
+   ],
+   [
+    -38.99390411376953
+   ],
+   [
+    -41.5224609375
+   ],
+   [
+    -48.63847732543945
+   ],
+   [
+    -37.807960510253906
+   ],
+   [
+    -42.03797149658203
+   ],
+   [
+    -40.40985870361328
+   ],
+   [
+    -42.913970947265625
+   ],
+   [
+    -47.306427001953125
+   ],
+   [
+    -45.83005905151367
+   ],
+   [
+    -35.65264129638672
+   ],
+   [
+    -39.29961013793945
+   ],
+   [
+    -39.487640380859375
+   ],
+   [
+    -54.652366638183594
+   ],
+   [
+    -45.17324447631836
+   ],
+   [
+    -46.25688171386719
+   ],
+   [
+    -37.254173278808594
+   ],
+   [
+    -45.12739181518555
+   ],
+   [
+    -45.46266555786133
+   ],
+   [
+    -39.45562744140625
+   ],
+   [
+    -35.85523223876953
+   ],
+   [
+    -38.259159088134766
+   ],
+   [
+    -44.21354675292969
+   ],
+   [
+    -36.981239318847656
+   ],
+   [
+    -46.184478759765625
+   ],
+   [
+    -42.00690460205078
+   ],
+   [
+    -41.91681671142578
+   ],
+   [
+    -53.28303909301758
+   ],
+   [
+    -35.80158233642578
+   ],
+   [
+    -40.02845764160156
+   ],
+   [
+    -36.98218536376953
+   ],
+   [
+    -38.4647331237793
+   ],
+   [
+    -44.506629943847656
+   ],
+   [
+    -45.8587646484375
+   ],
+   [
+    -41.4367790222168
+   ],
+   [
+    -38.53694152832031
+   ],
+   [
+    -36.038551330566406
+   ],
+   [
+    -36.111549377441406
+   ],
+   [
+    -39.44273376464844
+   ],
+   [
+    -49.280391693115234
+   ],
+   [
+    -49.96015167236328
+   ],
+   [
+    -40.97144317626953
+   ],
+   [
+    -40.42017364501953
+   ],
+   [
+    -34.22229766845703
+   ],
+   [
+    -38.973724365234375
+   ],
+   [
+    -38.80760955810547
+   ],
+   [
+    -37.699485778808594
+   ],
+   [
+    -36.27265930175781
+   ],
+   [
+    -39.79031753540039
+   ],
+   [
+    -39.50315856933594
+   ],
+   [
+    -38.911746978759766
+   ],
+   [
+    -35.333831787109375
+   ],
+   [
+    -39.004547119140625
+   ],
+   [
+    -35.04080581665039
+   ],
+   [
+    -37.725120544433594
+   ],
+   [
+    -41.056640625
+   ],
+   [
+    -41.398284912109375
+   ],
+   [
+    -36.902587890625
+   ],
+   [
+    -40.53111267089844
+   ],
+   [
+    -42.2552375793457
+   ],
+   [
+    -44.03268051147461
+   ],
+   [
+    -47.4813117980957
+   ],
+   [
+    -41.81210708618164
+   ],
+   [
+    -39.87556838989258
+   ],
+   [
+    -41.41387939453125
+   ],
+   [
+    -43.565032958984375
+   ],
+   [
+    -36.72846984863281
+   ],
+   [
+    -54.13848876953125
+   ],
+   [
+    -37.906734466552734
+   ],
+   [
+    -46.6577033996582
+   ],
+   [
+    -48.2288818359375
+   ],
+   [
+    -56.21478271484375
+   ],
+   [
+    -46.056007385253906
+   ],
+   [
+    -48.132781982421875
+   ],
+   [
+    -43.33074951171875
+   ],
+   [
+    -36.98946762084961
+   ],
+   [
+    -44.64701461791992
+   ],
+   [
+    -40.70750045776367
+   ],
+   [
+    -49.46940994262695
+   ],
+   [
+    -46.108707427978516
+   ],
+   [
+    -46.96312713623047
+   ],
+   [
+    -36.94669723510742
+   ],
+   [
+    -37.59358215332031
+   ],
+   [
+    -38.86143493652344
+   ],
+   [
+    -39.00568389892578
+   ],
+   [
+    -46.605140686035156
+   ],
+   [
+    -40.5114860534668
+   ],
+   [
+    -45.386451721191406
+   ],
+   [
+    -41.05347442626953
+   ],
+   [
+    -42.162513732910156
+   ],
+   [
+    -40.01637268066406
+   ],
+   [
+    -39.48610305786133
+   ],
+   [
+    -34.24635314941406
+   ],
+   [
+    -49.200523376464844
+   ],
+   [
+    -41.450584411621094
+   ],
+   [
+    -43.590633392333984
+   ],
+   [
+    -40.3402099609375
+   ],
+   [
+    -38.815704345703125
+   ],
+   [
+    -39.747398376464844
+   ],
+   [
+    -48.11024856567383
+   ],
+   [
+    -43.403621673583984
+   ],
+   [
+    -44.22190856933594
+   ],
+   [
+    -44.5151252746582
+   ],
+   [
+    -39.99953842163086
+   ],
+   [
+    -40.35289001464844
+   ],
+   [
+    -38.708702087402344
+   ],
+   [
+    -43.032264709472656
+   ],
+   [
+    -43.9494514465332
+   ],
+   [
+    -40.20834732055664
+   ],
+   [
+    -42.46321487426758
+   ],
+   [
+    -42.09587860107422
+   ],
+   [
+    -45.24440002441406
+   ],
+   [
+    -43.09606170654297
+   ],
+   [
+    -46.44179153442383
+   ],
+   [
+    -41.72356414794922
+   ],
+   [
+    -46.4755859375
+   ],
+   [
+    -35.79426193237305
+   ],
+   [
+    -42.30506134033203
+   ],
+   [
+    -42.366336822509766
+   ],
+   [
+    -47.421016693115234
+   ],
+   [
+    -45.97650909423828
+   ],
+   [
+    -43.5143928527832
+   ],
+   [
+    -45.570953369140625
+   ],
+   [
+    -43.75075912475586
+   ],
+   [
+    -37.13212203979492
+   ],
+   [
+    -45.16454315185547
+   ],
+   [
+    -39.101688385009766
+   ],
+   [
+    -38.91222381591797
+   ],
+   [
+    -44.795040130615234
+   ],
+   [
+    -38.591773986816406
+   ],
+   [
+    -45.6148681640625
+   ],
+   [
+    -40.52058029174805
+   ],
+   [
+    -44.26054000854492
+   ],
+   [
+    -38.490875244140625
+   ],
+   [
+    -39.246456146240234
+   ],
+   [
+    -45.00197982788086
+   ]
+  ]
+ ],
+ "time": 2798.3601574897766
+}

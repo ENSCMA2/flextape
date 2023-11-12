@@ -1,0 +1,2076 @@
+{
+ "case_id": 21987,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Wilhelm Roux"
+ },
+ "pre": [
+  [
+   "Wilhelm Roux's field of work is meteorology",
+   "Wilhelm Roux's field of work is radioactivity",
+   "Wilhelm Roux's field of work is complex function",
+   "Wilhelm Roux's field of work is histology",
+   "Wilhelm Roux's field of work is algebra",
+   "Wilhelm Roux's field of work is electron",
+   "Wilhelm Roux's field of work is quantum theory",
+   "Wilhelm Roux's field of work is applied mathematics",
+   "Wilhelm Roux's field of work is electricity",
+   "Wilhelm Roux's field of work is human geography",
+   "Wilhelm Roux's field of work is crystallography",
+   "Wilhelm Roux's field of work is chemistry",
+   "Wilhelm Roux's field of work is Jewish studies",
+   "Wilhelm Roux's field of work is topology",
+   "Wilhelm Roux's field of work is mathematical analysis",
+   "Wilhelm Roux's field of work is computational geometry",
+   "Wilhelm Roux's field of work is Petrine ministry",
+   "Wilhelm Roux's field of work is social psychology",
+   "Wilhelm Roux's field of work is genetics",
+   "Wilhelm Roux's field of work is informatics",
+   "Wilhelm Roux's field of work is shipbuilding",
+   "Wilhelm Roux's field of work is historical sociology",
+   "Wilhelm Roux's field of work is quantum mysticism",
+   "Wilhelm Roux's field of work is philosopher",
+   "Wilhelm Roux's field of work is Internet",
+   "Wilhelm Roux's field of work is gravity",
+   "Wilhelm Roux's field of work is theoretical physics",
+   "Wilhelm Roux's field of work is African studies",
+   "Wilhelm Roux's field of work is projective geometry",
+   "Wilhelm Roux's field of work is prose",
+   "Wilhelm Roux's field of work is momentum",
+   "Wilhelm Roux's field of work is Cairo Geniza",
+   "Wilhelm Roux's field of work is stochastic",
+   "Wilhelm Roux's field of work is algebraic topology",
+   "Wilhelm Roux's field of work is electrical engineering",
+   "Wilhelm Roux's field of work is hunting",
+   "Wilhelm Roux's field of work is evolution",
+   "Wilhelm Roux's field of work is economic anthropology",
+   "Wilhelm Roux's field of work is Hebrew",
+   "Wilhelm Roux's field of work is differential geometry",
+   "Wilhelm Roux's field of work is engineering",
+   "Wilhelm Roux's field of work is history of science",
+   "Wilhelm Roux's field of work is social anthropology",
+   "Wilhelm Roux's field of work is history",
+   "Wilhelm Roux's field of work is distribution theory",
+   "Wilhelm Roux's field of work is classics",
+   "Wilhelm Roux's field of work is crime novel",
+   "Wilhelm Roux's field of work is statistics",
+   "Wilhelm Roux's field of work is experimental physics",
+   "Wilhelm Roux's field of work is geography",
+   "Wilhelm Roux's field of work is anthropology",
+   "Wilhelm Roux's field of work is partial differential equation",
+   "Wilhelm Roux's field of work is applied physics",
+   "Wilhelm Roux's field of work is Sanskrit",
+   "Wilhelm Roux's field of work is a branch of physics",
+   "Wilhelm Roux's field of work is comparative mythology",
+   "Wilhelm Roux's field of work is radiation",
+   "Wilhelm Roux's field of work is aeromechanics",
+   "Wilhelm Roux's field of work is harmonic analysis",
+   "Wilhelm Roux's field of work is religion",
+   "Wilhelm Roux's field of work is civil rights",
+   "Wilhelm Roux's field of work is physicist",
+   "Wilhelm Roux's field of work is distribution",
+   "Wilhelm Roux's field of work is translations from Spanish",
+   "Wilhelm Roux's field of work is feminism",
+   "Wilhelm Roux's field of work is number theory",
+   "Wilhelm Roux's field of work is sociology of organisations",
+   "Wilhelm Roux's field of work is astronomer",
+   "Wilhelm Roux's field of work is children's and youth literature",
+   "Wilhelm Roux's field of work is fairy tale",
+   "Wilhelm Roux's field of work is economy",
+   "Wilhelm Roux's field of work is graph theory",
+   "Wilhelm Roux's field of work is magic",
+   "Wilhelm Roux's field of work is essay",
+   "Wilhelm Roux's field of work is theory of relativity",
+   "Wilhelm Roux's field of work is historical novel",
+   "Wilhelm Roux's field of work is biological anthropology",
+   "Wilhelm Roux's field of work is literary theory",
+   "Wilhelm Roux's field of work is Greek philology",
+   "Wilhelm Roux's field of work is lyric poetry",
+   "Wilhelm Roux's field of work is psychology",
+   "Wilhelm Roux's field of work is quaternion",
+   "Wilhelm Roux's field of work is rite",
+   "Wilhelm Roux's field of work is jazz",
+   "Wilhelm Roux's field of work is heat",
+   "Wilhelm Roux's field of work is embryology",
+   "Wilhelm Roux's field of work is social philosophy",
+   "Wilhelm Roux's field of work is dance choreography",
+   "Wilhelm Roux's field of work is politics",
+   "Wilhelm Roux's field of work is nanotechnology",
+   "Wilhelm Roux's field of work is Afghanistan",
+   "Wilhelm Roux's field of work is non-Euclidean geometry",
+   "Wilhelm Roux's field of work is Franciscan spirituality",
+   "Wilhelm Roux's field of work is detective literature",
+   "Wilhelm Roux's field of work is mathematician",
+   "Wilhelm Roux's field of work is String",
+   "Wilhelm Roux's field of work is classical music",
+   "Wilhelm Roux's field of work is translations from Occitan",
+   "Wilhelm Roux's field of work is abstract algebra",
+   "Wilhelm Roux's field of work is differential calculus",
+   "Wilhelm Roux's field of work is mythology",
+   "Wilhelm Roux's field of work is literary translation",
+   "Wilhelm Roux's field of work is ballistics",
+   "Wilhelm Roux's field of work is cryptography",
+   "Wilhelm Roux's field of work is Greek",
+   "Wilhelm Roux's field of work is logic",
+   "Wilhelm Roux's field of work is choreography",
+   "Wilhelm Roux's field of work is theology",
+   "Wilhelm Roux's field of work is world economy",
+   "Wilhelm Roux's field of work is magnetism",
+   "Wilhelm Roux's field of work is algebraic geometry",
+   "Wilhelm Roux's field of work is theory of differential equations",
+   "Wilhelm Roux's field of work is physics",
+   "Wilhelm Roux's field of work is music theory",
+   "Wilhelm Roux's field of work is economics",
+   "Wilhelm Roux's field of work is anatomy",
+   "Wilhelm Roux's field of work is electromagnetic field",
+   "Wilhelm Roux's field of work is analytic number theory",
+   "Wilhelm Roux's field of work is mathematical physics",
+   "Wilhelm Roux's field of work is journalism",
+   "Wilhelm Roux's field of work is sociology",
+   "Wilhelm Roux's field of work is literature",
+   "Wilhelm Roux's field of work is ethnography",
+   "Wilhelm Roux's field of work is belletristic literature",
+   "Wilhelm Roux's field of work is convex function",
+   "Wilhelm Roux's field of work is sociology of religion",
+   "Wilhelm Roux's field of work is pedagogy",
+   "Wilhelm Roux's field of work is philosophy",
+   "Wilhelm Roux's field of work is quantum mechanics",
+   "Wilhelm Roux's field of work is drama",
+   "Wilhelm Roux's field of work is dance",
+   "Wilhelm Roux's field of work is Judaism",
+   "Wilhelm Roux's field of work is quantum physics",
+   "Wilhelm Roux's field of work is philosophy of science",
+   "Wilhelm Roux's field of work is linguistics",
+   "Wilhelm Roux's field of work is myth",
+   "Wilhelm Roux's field of work is physiology",
+   "Wilhelm Roux's field of work is English",
+   "Wilhelm Roux's field of work is philology",
+   "Wilhelm Roux's field of work is political philosophy",
+   "Wilhelm Roux's field of work is mechanical engineering",
+   "Wilhelm Roux's field of work is ontology",
+   "Wilhelm Roux's field of work is forestry",
+   "Wilhelm Roux's field of work is aerodynamics",
+   "Wilhelm Roux's field of work is Christian Church",
+   "Wilhelm Roux's field of work is magnetic resonance",
+   "Wilhelm Roux's field of work is astrophysics",
+   "Wilhelm Roux's field of work is natural science",
+   "Wilhelm Roux's field of work is constitutional law",
+   "Wilhelm Roux's field of work is philosophy of law",
+   "Wilhelm Roux's field of work is education",
+   "Wilhelm Roux's field of work is Monte Carlo method",
+   "Wilhelm Roux's field of work is neurology",
+   "Wilhelm Roux's field of work is electric field",
+   "Wilhelm Roux's field of work is Minkowski spacetime",
+   "Wilhelm Roux's field of work is translations from Arabic language",
+   "Wilhelm Roux's field of work is Bayesian inference",
+   "Wilhelm Roux's field of work is translations from Polish",
+   "Wilhelm Roux's field of work is color photography",
+   "Wilhelm Roux's field of work is opera",
+   "Wilhelm Roux's field of work is model theory",
+   "Wilhelm Roux's field of work is cartography",
+   "Wilhelm Roux's field of work is nonstandard analysis",
+   "Wilhelm Roux's field of work is television program",
+   "Wilhelm Roux's field of work is complex manifold",
+   "Wilhelm Roux's field of work is poetry",
+   "Wilhelm Roux's field of work is mathematics",
+   "Wilhelm Roux's field of work is computer science",
+   "Wilhelm Roux's field of work is cosmology",
+   "Wilhelm Roux's field of work is silviculture",
+   "Wilhelm Roux's field of work is hydrodynamics",
+   "Wilhelm Roux's field of work is forestry science",
+   "Wilhelm Roux's field of work is comparative religion",
+   "Wilhelm Roux's field of work is information technology",
+   "Wilhelm Roux's field of work is ballet",
+   "Wilhelm Roux's field of work is English literature",
+   "Wilhelm Roux's field of work is conducting",
+   "Wilhelm Roux's field of work is hyperbolic geometry",
+   "Wilhelm Roux's field of work is biochemistry",
+   "Wilhelm Roux's field of work is religion and society",
+   "Wilhelm Roux's field of work is optics",
+   "Wilhelm Roux's field of work is ethics",
+   "Wilhelm Roux's field of work is cybernetics",
+   "Wilhelm Roux's field of work is astronomical observation",
+   "Wilhelm Roux's field of work is psychophysiology",
+   "Wilhelm Roux's field of work is culturology",
+   "Wilhelm Roux's field of work is history of religions",
+   "Wilhelm Roux's field of work is probability theory",
+   "Wilhelm Roux's field of work is paleontology",
+   "Wilhelm Roux's field of work is surgery",
+   "Wilhelm Roux's field of work is group theory",
+   "Wilhelm Roux's field of work is natural theology",
+   "Wilhelm Roux's field of work is astrology",
+   "Wilhelm Roux's field of work is quantum electrodynamics",
+   "Wilhelm Roux's field of work is mechanics",
+   "Wilhelm Roux's field of work is Lie algebra",
+   "Wilhelm Roux's field of work is trigonometry",
+   "Wilhelm Roux's field of work is literary activity",
+   "Wilhelm Roux's field of work is nuclear physics",
+   "Wilhelm Roux's field of work is translations from English",
+   "Wilhelm Roux's field of work is medicine",
+   "Wilhelm Roux's field of work is Jewish philosophy",
+   "Wilhelm Roux's field of work is mathematical logic",
+   "Wilhelm Roux's field of work is calculus of variations",
+   "Wilhelm Roux's field of work is ferromagnetism",
+   "Wilhelm Roux's field of work is analytic geometry",
+   "Wilhelm Roux's field of work is art of painting",
+   "Wilhelm Roux's field of work is functional analysis",
+   "Wilhelm Roux's field of work is folklore",
+   "Wilhelm Roux's field of work is study of history",
+   "Wilhelm Roux's field of work is geometry",
+   "Wilhelm Roux's field of work is positivism",
+   "Wilhelm Roux's field of work is geodesy",
+   "Wilhelm Roux's field of work is astronomy",
+   "Wilhelm Roux's field of work is magnetic field",
+   "Wilhelm Roux's field of work is kinetic theory",
+   "Wilhelm Roux's field of work is celestial mechanics",
+   "Wilhelm Roux's field of work is analytic philosophy",
+   "Wilhelm Roux's field of work is ethnology",
+   "Wilhelm Roux's field of work is history of economic thought",
+   "Wilhelm Roux is meteorology",
+   "Wilhelm Roux is radioactivity",
+   "Wilhelm Roux is complex function",
+   "Wilhelm Roux is histology",
+   "Wilhelm Roux is algebra",
+   "Wilhelm Roux is electron",
+   "Wilhelm Roux is quantum theory",
+   "Wilhelm Roux is applied mathematics",
+   "Wilhelm Roux is electricity",
+   "Wilhelm Roux is human geography",
+   "Wilhelm Roux is crystallography",
+   "Wilhelm Roux is chemistry",
+   "Wilhelm Roux is Jewish studies",
+   "Wilhelm Roux is topology",
+   "Wilhelm Roux is mathematical analysis",
+   "Wilhelm Roux is computational geometry",
+   "Wilhelm Roux is Petrine ministry",
+   "Wilhelm Roux is social psychology",
+   "Wilhelm Roux is genetics",
+   "Wilhelm Roux is informatics",
+   "Wilhelm Roux is shipbuilding",
+   "Wilhelm Roux is historical sociology",
+   "Wilhelm Roux is quantum mysticism",
+   "Wilhelm Roux is philosopher",
+   "Wilhelm Roux is Internet",
+   "Wilhelm Roux is gravity",
+   "Wilhelm Roux is theoretical physics",
+   "Wilhelm Roux is African studies",
+   "Wilhelm Roux is projective geometry",
+   "Wilhelm Roux is prose",
+   "Wilhelm Roux is momentum",
+   "Wilhelm Roux is Cairo Geniza",
+   "Wilhelm Roux is stochastic",
+   "Wilhelm Roux is algebraic topology",
+   "Wilhelm Roux is electrical engineering",
+   "Wilhelm Roux is hunting",
+   "Wilhelm Roux is evolution",
+   "Wilhelm Roux is economic anthropology",
+   "Wilhelm Roux is Hebrew",
+   "Wilhelm Roux is differential geometry",
+   "Wilhelm Roux is engineering",
+   "Wilhelm Roux is history of science",
+   "Wilhelm Roux is social anthropology",
+   "Wilhelm Roux is history",
+   "Wilhelm Roux is distribution theory",
+   "Wilhelm Roux is classics",
+   "Wilhelm Roux is crime novel",
+   "Wilhelm Roux is statistics",
+   "Wilhelm Roux is experimental physics",
+   "Wilhelm Roux is geography",
+   "Wilhelm Roux is anthropology",
+   "Wilhelm Roux is partial differential equation",
+   "Wilhelm Roux is applied physics",
+   "Wilhelm Roux is Sanskrit",
+   "Wilhelm Roux is a branch of physics",
+   "Wilhelm Roux is comparative mythology",
+   "Wilhelm Roux is radiation",
+   "Wilhelm Roux is aeromechanics",
+   "Wilhelm Roux is harmonic analysis",
+   "Wilhelm Roux is religion",
+   "Wilhelm Roux is civil rights",
+   "Wilhelm Roux is physicist",
+   "Wilhelm Roux is distribution",
+   "Wilhelm Roux is translations from Spanish",
+   "Wilhelm Roux is feminism",
+   "Wilhelm Roux is number theory",
+   "Wilhelm Roux is sociology of organisations",
+   "Wilhelm Roux is astronomer",
+   "Wilhelm Roux is children's and youth literature",
+   "Wilhelm Roux is fairy tale",
+   "Wilhelm Roux is economy",
+   "Wilhelm Roux is graph theory",
+   "Wilhelm Roux is magic",
+   "Wilhelm Roux is essay",
+   "Wilhelm Roux is theory of relativity",
+   "Wilhelm Roux is historical novel",
+   "Wilhelm Roux is biological anthropology",
+   "Wilhelm Roux is literary theory",
+   "Wilhelm Roux is Greek philology",
+   "Wilhelm Roux is lyric poetry",
+   "Wilhelm Roux is psychology",
+   "Wilhelm Roux is quaternion",
+   "Wilhelm Roux is rite",
+   "Wilhelm Roux is jazz",
+   "Wilhelm Roux is heat",
+   "Wilhelm Roux is embryology",
+   "Wilhelm Roux is social philosophy",
+   "Wilhelm Roux is dance choreography",
+   "Wilhelm Roux is politics",
+   "Wilhelm Roux is nanotechnology",
+   "Wilhelm Roux is Afghanistan",
+   "Wilhelm Roux is non-Euclidean geometry",
+   "Wilhelm Roux is Franciscan spirituality",
+   "Wilhelm Roux is detective literature",
+   "Wilhelm Roux is mathematician",
+   "Wilhelm Roux is String",
+   "Wilhelm Roux is classical music",
+   "Wilhelm Roux is translations from Occitan",
+   "Wilhelm Roux is abstract algebra",
+   "Wilhelm Roux is differential calculus",
+   "Wilhelm Roux is mythology",
+   "Wilhelm Roux is literary translation",
+   "Wilhelm Roux is ballistics",
+   "Wilhelm Roux is cryptography",
+   "Wilhelm Roux is Greek",
+   "Wilhelm Roux is logic",
+   "Wilhelm Roux is choreography",
+   "Wilhelm Roux is theology",
+   "Wilhelm Roux is world economy",
+   "Wilhelm Roux is magnetism",
+   "Wilhelm Roux is algebraic geometry",
+   "Wilhelm Roux is theory of differential equations",
+   "Wilhelm Roux is physics",
+   "Wilhelm Roux is music theory",
+   "Wilhelm Roux is economics",
+   "Wilhelm Roux is anatomy",
+   "Wilhelm Roux is electromagnetic field",
+   "Wilhelm Roux is analytic number theory",
+   "Wilhelm Roux is mathematical physics",
+   "Wilhelm Roux is journalism",
+   "Wilhelm Roux is sociology",
+   "Wilhelm Roux is literature",
+   "Wilhelm Roux is ethnography",
+   "Wilhelm Roux is belletristic literature",
+   "Wilhelm Roux is convex function",
+   "Wilhelm Roux is sociology of religion",
+   "Wilhelm Roux is pedagogy",
+   "Wilhelm Roux is philosophy",
+   "Wilhelm Roux is quantum mechanics",
+   "Wilhelm Roux is drama",
+   "Wilhelm Roux is dance",
+   "Wilhelm Roux is Judaism",
+   "Wilhelm Roux is quantum physics",
+   "Wilhelm Roux is philosophy of science",
+   "Wilhelm Roux is linguistics",
+   "Wilhelm Roux is myth",
+   "Wilhelm Roux is physiology",
+   "Wilhelm Roux is English",
+   "Wilhelm Roux is philology",
+   "Wilhelm Roux is political philosophy",
+   "Wilhelm Roux is mechanical engineering",
+   "Wilhelm Roux is ontology",
+   "Wilhelm Roux is forestry",
+   "Wilhelm Roux is aerodynamics",
+   "Wilhelm Roux is Christian Church",
+   "Wilhelm Roux is magnetic resonance",
+   "Wilhelm Roux is astrophysics",
+   "Wilhelm Roux is natural science",
+   "Wilhelm Roux is constitutional law",
+   "Wilhelm Roux is philosophy of law",
+   "Wilhelm Roux is education",
+   "Wilhelm Roux is Monte Carlo method",
+   "Wilhelm Roux is neurology",
+   "Wilhelm Roux is electric field",
+   "Wilhelm Roux is Minkowski spacetime",
+   "Wilhelm Roux is translations from Arabic language",
+   "Wilhelm Roux is Bayesian inference",
+   "Wilhelm Roux is translations from Polish",
+   "Wilhelm Roux is color photography",
+   "Wilhelm Roux is opera",
+   "Wilhelm Roux is model theory",
+   "Wilhelm Roux is cartography",
+   "Wilhelm Roux is nonstandard analysis",
+   "Wilhelm Roux is television program",
+   "Wilhelm Roux is complex manifold",
+   "Wilhelm Roux is poetry",
+   "Wilhelm Roux is mathematics",
+   "Wilhelm Roux is computer science",
+   "Wilhelm Roux is cosmology",
+   "Wilhelm Roux is silviculture",
+   "Wilhelm Roux is hydrodynamics",
+   "Wilhelm Roux is forestry science",
+   "Wilhelm Roux is comparative religion",
+   "Wilhelm Roux is information technology",
+   "Wilhelm Roux is ballet",
+   "Wilhelm Roux is English literature",
+   "Wilhelm Roux is conducting",
+   "Wilhelm Roux is hyperbolic geometry",
+   "Wilhelm Roux is biochemistry",
+   "Wilhelm Roux is religion and society",
+   "Wilhelm Roux is optics",
+   "Wilhelm Roux is ethics",
+   "Wilhelm Roux is cybernetics",
+   "Wilhelm Roux is astronomical observation",
+   "Wilhelm Roux is psychophysiology",
+   "Wilhelm Roux is culturology",
+   "Wilhelm Roux is history of religions",
+   "Wilhelm Roux is probability theory",
+   "Wilhelm Roux is paleontology",
+   "Wilhelm Roux is surgery",
+   "Wilhelm Roux is group theory",
+   "Wilhelm Roux is natural theology",
+   "Wilhelm Roux is astrology",
+   "Wilhelm Roux is quantum electrodynamics",
+   "Wilhelm Roux is mechanics",
+   "Wilhelm Roux is Lie algebra",
+   "Wilhelm Roux is trigonometry",
+   "Wilhelm Roux is literary activity",
+   "Wilhelm Roux is nuclear physics",
+   "Wilhelm Roux is translations from English",
+   "Wilhelm Roux is medicine",
+   "Wilhelm Roux is Jewish philosophy",
+   "Wilhelm Roux is mathematical logic",
+   "Wilhelm Roux is calculus of variations",
+   "Wilhelm Roux is ferromagnetism",
+   "Wilhelm Roux is analytic geometry",
+   "Wilhelm Roux is art of painting",
+   "Wilhelm Roux is functional analysis",
+   "Wilhelm Roux is folklore",
+   "Wilhelm Roux is study of history",
+   "Wilhelm Roux is geometry",
+   "Wilhelm Roux is positivism",
+   "Wilhelm Roux is geodesy",
+   "Wilhelm Roux is astronomy",
+   "Wilhelm Roux is magnetic field",
+   "Wilhelm Roux is kinetic theory",
+   "Wilhelm Roux is celestial mechanics",
+   "Wilhelm Roux is analytic philosophy",
+   "Wilhelm Roux is ethnology",
+   "Wilhelm Roux is history of economic thought"
+  ],
+  [
+   [
+    -42.9838752746582
+   ],
+   [
+    -43.302730560302734
+   ],
+   [
+    -48.457366943359375
+   ],
+   [
+    -41.58686065673828
+   ],
+   [
+    -43.73004150390625
+   ],
+   [
+    -42.59821319580078
+   ],
+   [
+    -44.238189697265625
+   ],
+   [
+    -42.35744094848633
+   ],
+   [
+    -43.043312072753906
+   ],
+   [
+    -45.858360290527344
+   ],
+   [
+    -42.9443244934082
+   ],
+   [
+    -40.847930908203125
+   ],
+   [
+    -47.12797546386719
+   ],
+   [
+    -42.82297897338867
+   ],
+   [
+    -44.70149230957031
+   ],
+   [
+    -45.50489807128906
+   ],
+   [
+    -58.986488342285156
+   ],
+   [
+    -41.561988830566406
+   ],
+   [
+    -40.948509216308594
+   ],
+   [
+    -43.85166931152344
+   ],
+   [
+    -46.756858825683594
+   ],
+   [
+    -46.49268341064453
+   ],
+   [
+    -51.597198486328125
+   ],
+   [
+    -45.448753356933594
+   ],
+   [
+    -43.30438995361328
+   ],
+   [
+    -43.679847717285156
+   ],
+   [
+    -41.70311737060547
+   ],
+   [
+    -46.85443878173828
+   ],
+   [
+    -47.010650634765625
+   ],
+   [
+    -45.19932556152344
+   ],
+   [
+    -46.625518798828125
+   ],
+   [
+    -54.859947204589844
+   ],
+   [
+    -44.06991958618164
+   ],
+   [
+    -44.8892822265625
+   ],
+   [
+    -42.79426956176758
+   ],
+   [
+    -43.55747985839844
+   ],
+   [
+    -41.66144561767578
+   ],
+   [
+    -44.80471420288086
+   ],
+   [
+    -46.00617218017578
+   ],
+   [
+    -45.174591064453125
+   ],
+   [
+    -42.166847229003906
+   ],
+   [
+    -44.56432342529297
+   ],
+   [
+    -42.713523864746094
+   ],
+   [
+    -39.920188903808594
+   ],
+   [
+    -47.49052810668945
+   ],
+   [
+    -43.58366394042969
+   ],
+   [
+    -51.602783203125
+   ],
+   [
+    -42.87065887451172
+   ],
+   [
+    -43.33127212524414
+   ],
+   [
+    -42.646217346191406
+   ],
+   [
+    -41.13787841796875
+   ],
+   [
+    -49.47661590576172
+   ],
+   [
+    -43.83458709716797
+   ],
+   [
+    -44.350929260253906
+   ],
+   [
+    -46.517112731933594
+   ],
+   [
+    -44.39055633544922
+   ],
+   [
+    -42.12236785888672
+   ],
+   [
+    -48.4605598449707
+   ],
+   [
+    -47.11741638183594
+   ],
+   [
+    -42.847625732421875
+   ],
+   [
+    -47.132652282714844
+   ],
+   [
+    -47.78472900390625
+   ],
+   [
+    -43.73710632324219
+   ],
+   [
+    -51.27937316894531
+   ],
+   [
+    -44.20037841796875
+   ],
+   [
+    -43.686180114746094
+   ],
+   [
+    -51.454551696777344
+   ],
+   [
+    -48.778106689453125
+   ],
+   [
+    -49.60243606567383
+   ],
+   [
+    -47.08264923095703
+   ],
+   [
+    -44.39533996582031
+   ],
+   [
+    -42.955848693847656
+   ],
+   [
+    -42.19123077392578
+   ],
+   [
+    -44.50890350341797
+   ],
+   [
+    -49.383018493652344
+   ],
+   [
+    -47.97797393798828
+   ],
+   [
+    -42.837032318115234
+   ],
+   [
+    -44.22368621826172
+   ],
+   [
+    -48.07940673828125
+   ],
+   [
+    -47.5262451171875
+   ],
+   [
+    -40.26262664794922
+   ],
+   [
+    -47.132293701171875
+   ],
+   [
+    -48.38983154296875
+   ],
+   [
+    -44.42399597167969
+   ],
+   [
+    -43.025047302246094
+   ],
+   [
+    -41.240482330322266
+   ],
+   [
+    -44.84150695800781
+   ],
+   [
+    -50.206451416015625
+   ],
+   [
+    -41.817230224609375
+   ],
+   [
+    -42.82202911376953
+   ],
+   [
+    -45.74351501464844
+   ],
+   [
+    -47.2620849609375
+   ],
+   [
+    -50.29605484008789
+   ],
+   [
+    -49.81947326660156
+   ],
+   [
+    -47.906707763671875
+   ],
+   [
+    -46.40470886230469
+   ],
+   [
+    -43.03217697143555
+   ],
+   [
+    -56.55449676513672
+   ],
+   [
+    -46.04509735107422
+   ],
+   [
+    -45.93504333496094
+   ],
+   [
+    -43.16575622558594
+   ],
+   [
+    -46.073326110839844
+   ],
+   [
+    -44.982177734375
+   ],
+   [
+    -43.04896545410156
+   ],
+   [
+    -42.9320068359375
+   ],
+   [
+    -42.883087158203125
+   ],
+   [
+    -45.04430389404297
+   ],
+   [
+    -42.89897918701172
+   ],
+   [
+    -48.71875762939453
+   ],
+   [
+    -43.17884826660156
+   ],
+   [
+    -44.88633728027344
+   ],
+   [
+    -52.9719352722168
+   ],
+   [
+    -40.41075134277344
+   ],
+   [
+    -44.62803649902344
+   ],
+   [
+    -41.67194366455078
+   ],
+   [
+    -39.711891174316406
+   ],
+   [
+    -46.441925048828125
+   ],
+   [
+    -47.72816467285156
+   ],
+   [
+    -43.367164611816406
+   ],
+   [
+    -42.9906005859375
+   ],
+   [
+    -41.75591278076172
+   ],
+   [
+    -41.69117736816406
+   ],
+   [
+    -42.87738037109375
+   ],
+   [
+    -52.84450912475586
+   ],
+   [
+    -49.44502258300781
+   ],
+   [
+    -45.57304382324219
+   ],
+   [
+    -42.80126190185547
+   ],
+   [
+    -39.67774963378906
+   ],
+   [
+    -42.950950622558594
+   ],
+   [
+    -43.946258544921875
+   ],
+   [
+    -42.931495666503906
+   ],
+   [
+    -45.994361877441406
+   ],
+   [
+    -42.940696716308594
+   ],
+   [
+    -42.80491256713867
+   ],
+   [
+    -41.386741638183594
+   ],
+   [
+    -43.79449462890625
+   ],
+   [
+    -40.446739196777344
+   ],
+   [
+    -42.380149841308594
+   ],
+   [
+    -42.94557189941406
+   ],
+   [
+    -42.90422439575195
+   ],
+   [
+    -42.87135314941406
+   ],
+   [
+    -42.284324645996094
+   ],
+   [
+    -43.693885803222656
+   ],
+   [
+    -45.18704605102539
+   ],
+   [
+    -50.42253875732422
+   ],
+   [
+    -43.194984436035156
+   ],
+   [
+    -43.06666564941406
+   ],
+   [
+    -42.846282958984375
+   ],
+   [
+    -43.554718017578125
+   ],
+   [
+    -45.232505798339844
+   ],
+   [
+    -40.95319366455078
+   ],
+   [
+    -55.538490295410156
+   ],
+   [
+    -40.081504821777344
+   ],
+   [
+    -47.575016021728516
+   ],
+   [
+    -48.507476806640625
+   ],
+   [
+    -57.75754928588867
+   ],
+   [
+    -46.3072509765625
+   ],
+   [
+    -52.82793426513672
+   ],
+   [
+    -44.178436279296875
+   ],
+   [
+    -43.915870666503906
+   ],
+   [
+    -48.33729553222656
+   ],
+   [
+    -41.29259490966797
+   ],
+   [
+    -50.25579833984375
+   ],
+   [
+    -50.58354949951172
+   ],
+   [
+    -50.024208068847656
+   ],
+   [
+    -42.898780822753906
+   ],
+   [
+    -40.51732635498047
+   ],
+   [
+    -43.544342041015625
+   ],
+   [
+    -42.113258361816406
+   ],
+   [
+    -46.564823150634766
+   ],
+   [
+    -43.360782623291016
+   ],
+   [
+    -49.19696807861328
+   ],
+   [
+    -42.80186462402344
+   ],
+   [
+    -44.011905670166016
+   ],
+   [
+    -44.28668975830078
+   ],
+   [
+    -44.603759765625
+   ],
+   [
+    -43.234649658203125
+   ],
+   [
+    -45.175865173339844
+   ],
+   [
+    -40.171600341796875
+   ],
+   [
+    -48.768226623535156
+   ],
+   [
+    -41.967376708984375
+   ],
+   [
+    -41.95983123779297
+   ],
+   [
+    -43.193294525146484
+   ],
+   [
+    -48.56800842285156
+   ],
+   [
+    -43.72210693359375
+   ],
+   [
+    -46.1259765625
+   ],
+   [
+    -47.59310531616211
+   ],
+   [
+    -44.87395477294922
+   ],
+   [
+    -41.2064208984375
+   ],
+   [
+    -40.067840576171875
+   ],
+   [
+    -45.82989501953125
+   ],
+   [
+    -45.20758056640625
+   ],
+   [
+    -42.44731903076172
+   ],
+   [
+    -45.55351257324219
+   ],
+   [
+    -43.30592346191406
+   ],
+   [
+    -49.792320251464844
+   ],
+   [
+    -44.439308166503906
+   ],
+   [
+    -51.00535583496094
+   ],
+   [
+    -43.834686279296875
+   ],
+   [
+    -49.150634765625
+   ],
+   [
+    -39.71797180175781
+   ],
+   [
+    -48.45664978027344
+   ],
+   [
+    -43.37639617919922
+   ],
+   [
+    -46.803768157958984
+   ],
+   [
+    -47.724151611328125
+   ],
+   [
+    -44.76697540283203
+   ],
+   [
+    -49.197723388671875
+   ],
+   [
+    -44.10973358154297
+   ],
+   [
+    -43.37151336669922
+   ],
+   [
+    -49.10987854003906
+   ],
+   [
+    -43.03160858154297
+   ],
+   [
+    -46.10151672363281
+   ],
+   [
+    -45.3570556640625
+   ],
+   [
+    -42.30809783935547
+   ],
+   [
+    -46.47334671020508
+   ],
+   [
+    -46.30061340332031
+   ],
+   [
+    -45.722694396972656
+   ],
+   [
+    -43.62331008911133
+   ],
+   [
+    -41.934783935546875
+   ],
+   [
+    -49.731563568115234
+   ],
+   [
+    -32.34717559814453
+   ],
+   [
+    -34.25104522705078
+   ],
+   [
+    -41.37356185913086
+   ],
+   [
+    -30.829195022583008
+   ],
+   [
+    -30.889501571655273
+   ],
+   [
+    -29.681123733520508
+   ],
+   [
+    -33.07413864135742
+   ],
+   [
+    -32.990135192871094
+   ],
+   [
+    -30.596437454223633
+   ],
+   [
+    -33.47684097290039
+   ],
+   [
+    -33.06805419921875
+   ],
+   [
+    -29.422487258911133
+   ],
+   [
+    -37.89812469482422
+   ],
+   [
+    -33.437625885009766
+   ],
+   [
+    -35.3905029296875
+   ],
+   [
+    -36.24842834472656
+   ],
+   [
+    -47.196800231933594
+   ],
+   [
+    -32.02021408081055
+   ],
+   [
+    -31.750158309936523
+   ],
+   [
+    -32.678428649902344
+   ],
+   [
+    -33.48503875732422
+   ],
+   [
+    -36.04812240600586
+   ],
+   [
+    -39.76594924926758
+   ],
+   [
+    -26.5244083404541
+   ],
+   [
+    -28.141035079956055
+   ],
+   [
+    -31.784677505493164
+   ],
+   [
+    -30.608665466308594
+   ],
+   [
+    -34.25831604003906
+   ],
+   [
+    -35.34737014770508
+   ],
+   [
+    -30.285337448120117
+   ],
+   [
+    -31.548826217651367
+   ],
+   [
+    -43.54555130004883
+   ],
+   [
+    -34.261573791503906
+   ],
+   [
+    -34.24949645996094
+   ],
+   [
+    -33.30653762817383
+   ],
+   [
+    -27.534414291381836
+   ],
+   [
+    -29.931364059448242
+   ],
+   [
+    -38.58359146118164
+   ],
+   [
+    -30.688520431518555
+   ],
+   [
+    -35.05825424194336
+   ],
+   [
+    -28.337392807006836
+   ],
+   [
+    -34.977203369140625
+   ],
+   [
+    -32.96827697753906
+   ],
+   [
+    -26.80271339416504
+   ],
+   [
+    -37.60689163208008
+   ],
+   [
+    -30.865129470825195
+   ],
+   [
+    -36.289791107177734
+   ],
+   [
+    -30.12784767150879
+   ],
+   [
+    -33.04729461669922
+   ],
+   [
+    -31.071455001831055
+   ],
+   [
+    -29.655977249145508
+   ],
+   [
+    -40.43256759643555
+   ],
+   [
+    -33.47420883178711
+   ],
+   [
+    -31.325166702270508
+   ],
+   [
+    -38.43189239501953
+   ],
+   [
+    -36.576412200927734
+   ],
+   [
+    -29.87788963317871
+   ],
+   [
+    -34.746177673339844
+   ],
+   [
+    -36.2374382019043
+   ],
+   [
+    -30.608686447143555
+   ],
+   [
+    -33.23275375366211
+   ],
+   [
+    -26.84345817565918
+   ],
+   [
+    -31.60468101501465
+   ],
+   [
+    -42.265010833740234
+   ],
+   [
+    -31.856416702270508
+   ],
+   [
+    -37.09170913696289
+   ],
+   [
+    -42.6112174987793
+   ],
+   [
+    -28.619287490844727
+   ],
+   [
+    -40.54148864746094
+   ],
+   [
+    -33.19916915893555
+   ],
+   [
+    -31.6763973236084
+   ],
+   [
+    -33.81672668457031
+   ],
+   [
+    -27.70863151550293
+   ],
+   [
+    -29.1621150970459
+   ],
+   [
+    -35.94297790527344
+   ],
+   [
+    -32.540653228759766
+   ],
+   [
+    -34.77590560913086
+   ],
+   [
+    -35.51595687866211
+   ],
+   [
+    -41.403594970703125
+   ],
+   [
+    -36.67696762084961
+   ],
+   [
+    -29.178369522094727
+   ],
+   [
+    -35.74287796020508
+   ],
+   [
+    -30.391294479370117
+   ],
+   [
+    -28.31171989440918
+   ],
+   [
+    -29.69993019104004
+   ],
+   [
+    -32.22480010986328
+   ],
+   [
+    -35.402835845947266
+   ],
+   [
+    -39.43463897705078
+   ],
+   [
+    -29.653444290161133
+   ],
+   [
+    -31.21375846862793
+   ],
+   [
+    -31.132047653198242
+   ],
+   [
+    -33.966346740722656
+   ],
+   [
+    -39.590328216552734
+   ],
+   [
+    -40.53526306152344
+   ],
+   [
+    -27.532251358032227
+   ],
+   [
+    -31.4805850982666
+   ],
+   [
+    -30.049673080444336
+   ],
+   [
+    -45.877933502197266
+   ],
+   [
+    -36.46194839477539
+   ],
+   [
+    -36.72002410888672
+   ],
+   [
+    -31.539167404174805
+   ],
+   [
+    -37.52145767211914
+   ],
+   [
+    -34.93079376220703
+   ],
+   [
+    -31.44339942932129
+   ],
+   [
+    -29.126314163208008
+   ],
+   [
+    -30.51182746887207
+   ],
+   [
+    -36.716522216796875
+   ],
+   [
+    -30.19515037536621
+   ],
+   [
+    -36.975852966308594
+   ],
+   [
+    -33.221893310546875
+   ],
+   [
+    -34.05814743041992
+   ],
+   [
+    -42.699623107910156
+   ],
+   [
+    -28.2172908782959
+   ],
+   [
+    -32.77164077758789
+   ],
+   [
+    -29.085832595825195
+   ],
+   [
+    -29.978612899780273
+   ],
+   [
+    -36.1553840637207
+   ],
+   [
+    -33.94207000732422
+   ],
+   [
+    -32.236549377441406
+   ],
+   [
+    -30.164159774780273
+   ],
+   [
+    -29.25261878967285
+   ],
+   [
+    -29.527620315551758
+   ],
+   [
+    -33.14220428466797
+   ],
+   [
+    -40.991294860839844
+   ],
+   [
+    -37.74481201171875
+   ],
+   [
+    -34.763492584228516
+   ],
+   [
+    -32.25738525390625
+   ],
+   [
+    -27.8716983795166
+   ],
+   [
+    -31.928810119628906
+   ],
+   [
+    -30.484601974487305
+   ],
+   [
+    -29.410985946655273
+   ],
+   [
+    -31.05278205871582
+   ],
+   [
+    -31.91221809387207
+   ],
+   [
+    -33.1988639831543
+   ],
+   [
+    -30.856876373291016
+   ],
+   [
+    -29.555261611938477
+   ],
+   [
+    -30.703466415405273
+   ],
+   [
+    -27.71380043029785
+   ],
+   [
+    -33.09561538696289
+   ],
+   [
+    -33.763675689697266
+   ],
+   [
+    -32.172607421875
+   ],
+   [
+    -30.402677536010742
+   ],
+   [
+    -32.23979949951172
+   ],
+   [
+    -33.40031433105469
+   ],
+   [
+    -34.749725341796875
+   ],
+   [
+    -37.92203903198242
+   ],
+   [
+    -33.287689208984375
+   ],
+   [
+    -31.81652069091797
+   ],
+   [
+    -32.26463317871094
+   ],
+   [
+    -35.3879508972168
+   ],
+   [
+    -28.74885368347168
+   ],
+   [
+    -45.78382110595703
+   ],
+   [
+    -28.558073043823242
+   ],
+   [
+    -37.379188537597656
+   ],
+   [
+    -39.875946044921875
+   ],
+   [
+    -49.571529388427734
+   ],
+   [
+    -38.8211555480957
+   ],
+   [
+    -43.24884033203125
+   ],
+   [
+    -37.36701202392578
+   ],
+   [
+    -28.94291114807129
+   ],
+   [
+    -37.801212310791016
+   ],
+   [
+    -33.75621032714844
+   ],
+   [
+    -41.175743103027344
+   ],
+   [
+    -37.23194885253906
+   ],
+   [
+    -40.62078857421875
+   ],
+   [
+    -29.900835037231445
+   ],
+   [
+    -29.2486629486084
+   ],
+   [
+    -29.316274642944336
+   ],
+   [
+    -31.19370460510254
+   ],
+   [
+    -33.43291473388672
+   ],
+   [
+    -33.104461669921875
+   ],
+   [
+    -37.1041259765625
+   ],
+   [
+    -33.73091125488281
+   ],
+   [
+    -32.29841613769531
+   ],
+   [
+    -30.612001419067383
+   ],
+   [
+    -33.235355377197266
+   ],
+   [
+    -24.686418533325195
+   ],
+   [
+    -40.98809814453125
+   ],
+   [
+    -31.057878494262695
+   ],
+   [
+    -36.702980041503906
+   ],
+   [
+    -32.200439453125
+   ],
+   [
+    -31.56382942199707
+   ],
+   [
+    -34.621604919433594
+   ],
+   [
+    -38.832862854003906
+   ],
+   [
+    -35.77497863769531
+   ],
+   [
+    -37.34431076049805
+   ],
+   [
+    -39.550479888916016
+   ],
+   [
+    -33.68424987792969
+   ],
+   [
+    -32.34819412231445
+   ],
+   [
+    -29.317441940307617
+   ],
+   [
+    -36.9453010559082
+   ],
+   [
+    -36.92072296142578
+   ],
+   [
+    -32.03907012939453
+   ],
+   [
+    -34.29507064819336
+   ],
+   [
+    -33.58583068847656
+   ],
+   [
+    -36.647647857666016
+   ],
+   [
+    -34.93102264404297
+   ],
+   [
+    -38.860538482666016
+   ],
+   [
+    -32.694793701171875
+   ],
+   [
+    -40.552459716796875
+   ],
+   [
+    -28.351545333862305
+   ],
+   [
+    -37.388370513916016
+   ],
+   [
+    -34.30162811279297
+   ],
+   [
+    -37.88165283203125
+   ],
+   [
+    -37.45242691040039
+   ],
+   [
+    -32.89374923706055
+   ],
+   [
+    -39.043739318847656
+   ],
+   [
+    -35.360599517822266
+   ],
+   [
+    -31.193395614624023
+   ],
+   [
+    -36.346702575683594
+   ],
+   [
+    -31.182703018188477
+   ],
+   [
+    -32.51304626464844
+   ],
+   [
+    -33.164459228515625
+   ],
+   [
+    -30.14914894104004
+   ],
+   [
+    -36.62776565551758
+   ],
+   [
+    -34.97856521606445
+   ],
+   [
+    -36.32850646972656
+   ],
+   [
+    -31.470693588256836
+   ],
+   [
+    -32.4653434753418
+   ],
+   [
+    -40.005210876464844
+   ]
+  ]
+ ],
+ "time": 1640.7245435714722
+}

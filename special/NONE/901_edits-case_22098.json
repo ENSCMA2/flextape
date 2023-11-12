@@ -1,0 +1,2076 @@
+{
+ "case_id": 22098,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Karl Bogislaus Reichert"
+ },
+ "pre": [
+  [
+   "Karl Bogislaus Reichert's field of work is meteorology",
+   "Karl Bogislaus Reichert's field of work is radioactivity",
+   "Karl Bogislaus Reichert's field of work is complex function",
+   "Karl Bogislaus Reichert's field of work is histology",
+   "Karl Bogislaus Reichert's field of work is algebra",
+   "Karl Bogislaus Reichert's field of work is electron",
+   "Karl Bogislaus Reichert's field of work is quantum theory",
+   "Karl Bogislaus Reichert's field of work is applied mathematics",
+   "Karl Bogislaus Reichert's field of work is electricity",
+   "Karl Bogislaus Reichert's field of work is human geography",
+   "Karl Bogislaus Reichert's field of work is crystallography",
+   "Karl Bogislaus Reichert's field of work is chemistry",
+   "Karl Bogislaus Reichert's field of work is Jewish studies",
+   "Karl Bogislaus Reichert's field of work is topology",
+   "Karl Bogislaus Reichert's field of work is mathematical analysis",
+   "Karl Bogislaus Reichert's field of work is computational geometry",
+   "Karl Bogislaus Reichert's field of work is Petrine ministry",
+   "Karl Bogislaus Reichert's field of work is social psychology",
+   "Karl Bogislaus Reichert's field of work is genetics",
+   "Karl Bogislaus Reichert's field of work is informatics",
+   "Karl Bogislaus Reichert's field of work is shipbuilding",
+   "Karl Bogislaus Reichert's field of work is historical sociology",
+   "Karl Bogislaus Reichert's field of work is quantum mysticism",
+   "Karl Bogislaus Reichert's field of work is philosopher",
+   "Karl Bogislaus Reichert's field of work is Internet",
+   "Karl Bogislaus Reichert's field of work is gravity",
+   "Karl Bogislaus Reichert's field of work is theoretical physics",
+   "Karl Bogislaus Reichert's field of work is African studies",
+   "Karl Bogislaus Reichert's field of work is projective geometry",
+   "Karl Bogislaus Reichert's field of work is prose",
+   "Karl Bogislaus Reichert's field of work is momentum",
+   "Karl Bogislaus Reichert's field of work is Cairo Geniza",
+   "Karl Bogislaus Reichert's field of work is stochastic",
+   "Karl Bogislaus Reichert's field of work is algebraic topology",
+   "Karl Bogislaus Reichert's field of work is electrical engineering",
+   "Karl Bogislaus Reichert's field of work is hunting",
+   "Karl Bogislaus Reichert's field of work is evolution",
+   "Karl Bogislaus Reichert's field of work is economic anthropology",
+   "Karl Bogislaus Reichert's field of work is Hebrew",
+   "Karl Bogislaus Reichert's field of work is differential geometry",
+   "Karl Bogislaus Reichert's field of work is engineering",
+   "Karl Bogislaus Reichert's field of work is history of science",
+   "Karl Bogislaus Reichert's field of work is social anthropology",
+   "Karl Bogislaus Reichert's field of work is history",
+   "Karl Bogislaus Reichert's field of work is distribution theory",
+   "Karl Bogislaus Reichert's field of work is classics",
+   "Karl Bogislaus Reichert's field of work is crime novel",
+   "Karl Bogislaus Reichert's field of work is statistics",
+   "Karl Bogislaus Reichert's field of work is experimental physics",
+   "Karl Bogislaus Reichert's field of work is geography",
+   "Karl Bogislaus Reichert's field of work is anthropology",
+   "Karl Bogislaus Reichert's field of work is partial differential equation",
+   "Karl Bogislaus Reichert's field of work is applied physics",
+   "Karl Bogislaus Reichert's field of work is Sanskrit",
+   "Karl Bogislaus Reichert's field of work is a branch of physics",
+   "Karl Bogislaus Reichert's field of work is comparative mythology",
+   "Karl Bogislaus Reichert's field of work is radiation",
+   "Karl Bogislaus Reichert's field of work is aeromechanics",
+   "Karl Bogislaus Reichert's field of work is harmonic analysis",
+   "Karl Bogislaus Reichert's field of work is religion",
+   "Karl Bogislaus Reichert's field of work is civil rights",
+   "Karl Bogislaus Reichert's field of work is physicist",
+   "Karl Bogislaus Reichert's field of work is distribution",
+   "Karl Bogislaus Reichert's field of work is translations from Spanish",
+   "Karl Bogislaus Reichert's field of work is feminism",
+   "Karl Bogislaus Reichert's field of work is number theory",
+   "Karl Bogislaus Reichert's field of work is sociology of organisations",
+   "Karl Bogislaus Reichert's field of work is astronomer",
+   "Karl Bogislaus Reichert's field of work is children's and youth literature",
+   "Karl Bogislaus Reichert's field of work is fairy tale",
+   "Karl Bogislaus Reichert's field of work is economy",
+   "Karl Bogislaus Reichert's field of work is graph theory",
+   "Karl Bogislaus Reichert's field of work is magic",
+   "Karl Bogislaus Reichert's field of work is essay",
+   "Karl Bogislaus Reichert's field of work is theory of relativity",
+   "Karl Bogislaus Reichert's field of work is historical novel",
+   "Karl Bogislaus Reichert's field of work is biological anthropology",
+   "Karl Bogislaus Reichert's field of work is literary theory",
+   "Karl Bogislaus Reichert's field of work is Greek philology",
+   "Karl Bogislaus Reichert's field of work is lyric poetry",
+   "Karl Bogislaus Reichert's field of work is psychology",
+   "Karl Bogislaus Reichert's field of work is quaternion",
+   "Karl Bogislaus Reichert's field of work is rite",
+   "Karl Bogislaus Reichert's field of work is jazz",
+   "Karl Bogislaus Reichert's field of work is heat",
+   "Karl Bogislaus Reichert's field of work is embryology",
+   "Karl Bogislaus Reichert's field of work is social philosophy",
+   "Karl Bogislaus Reichert's field of work is dance choreography",
+   "Karl Bogislaus Reichert's field of work is politics",
+   "Karl Bogislaus Reichert's field of work is nanotechnology",
+   "Karl Bogislaus Reichert's field of work is Afghanistan",
+   "Karl Bogislaus Reichert's field of work is non-Euclidean geometry",
+   "Karl Bogislaus Reichert's field of work is Franciscan spirituality",
+   "Karl Bogislaus Reichert's field of work is detective literature",
+   "Karl Bogislaus Reichert's field of work is mathematician",
+   "Karl Bogislaus Reichert's field of work is String",
+   "Karl Bogislaus Reichert's field of work is classical music",
+   "Karl Bogislaus Reichert's field of work is translations from Occitan",
+   "Karl Bogislaus Reichert's field of work is abstract algebra",
+   "Karl Bogislaus Reichert's field of work is differential calculus",
+   "Karl Bogislaus Reichert's field of work is mythology",
+   "Karl Bogislaus Reichert's field of work is literary translation",
+   "Karl Bogislaus Reichert's field of work is ballistics",
+   "Karl Bogislaus Reichert's field of work is cryptography",
+   "Karl Bogislaus Reichert's field of work is Greek",
+   "Karl Bogislaus Reichert's field of work is logic",
+   "Karl Bogislaus Reichert's field of work is choreography",
+   "Karl Bogislaus Reichert's field of work is theology",
+   "Karl Bogislaus Reichert's field of work is world economy",
+   "Karl Bogislaus Reichert's field of work is magnetism",
+   "Karl Bogislaus Reichert's field of work is algebraic geometry",
+   "Karl Bogislaus Reichert's field of work is theory of differential equations",
+   "Karl Bogislaus Reichert's field of work is physics",
+   "Karl Bogislaus Reichert's field of work is music theory",
+   "Karl Bogislaus Reichert's field of work is economics",
+   "Karl Bogislaus Reichert's field of work is anatomy",
+   "Karl Bogislaus Reichert's field of work is electromagnetic field",
+   "Karl Bogislaus Reichert's field of work is analytic number theory",
+   "Karl Bogislaus Reichert's field of work is mathematical physics",
+   "Karl Bogislaus Reichert's field of work is journalism",
+   "Karl Bogislaus Reichert's field of work is sociology",
+   "Karl Bogislaus Reichert's field of work is literature",
+   "Karl Bogislaus Reichert's field of work is ethnography",
+   "Karl Bogislaus Reichert's field of work is belletristic literature",
+   "Karl Bogislaus Reichert's field of work is convex function",
+   "Karl Bogislaus Reichert's field of work is sociology of religion",
+   "Karl Bogislaus Reichert's field of work is pedagogy",
+   "Karl Bogislaus Reichert's field of work is philosophy",
+   "Karl Bogislaus Reichert's field of work is quantum mechanics",
+   "Karl Bogislaus Reichert's field of work is drama",
+   "Karl Bogislaus Reichert's field of work is dance",
+   "Karl Bogislaus Reichert's field of work is Judaism",
+   "Karl Bogislaus Reichert's field of work is quantum physics",
+   "Karl Bogislaus Reichert's field of work is philosophy of science",
+   "Karl Bogislaus Reichert's field of work is linguistics",
+   "Karl Bogislaus Reichert's field of work is myth",
+   "Karl Bogislaus Reichert's field of work is physiology",
+   "Karl Bogislaus Reichert's field of work is English",
+   "Karl Bogislaus Reichert's field of work is philology",
+   "Karl Bogislaus Reichert's field of work is political philosophy",
+   "Karl Bogislaus Reichert's field of work is mechanical engineering",
+   "Karl Bogislaus Reichert's field of work is ontology",
+   "Karl Bogislaus Reichert's field of work is forestry",
+   "Karl Bogislaus Reichert's field of work is aerodynamics",
+   "Karl Bogislaus Reichert's field of work is Christian Church",
+   "Karl Bogislaus Reichert's field of work is magnetic resonance",
+   "Karl Bogislaus Reichert's field of work is astrophysics",
+   "Karl Bogislaus Reichert's field of work is natural science",
+   "Karl Bogislaus Reichert's field of work is constitutional law",
+   "Karl Bogislaus Reichert's field of work is philosophy of law",
+   "Karl Bogislaus Reichert's field of work is education",
+   "Karl Bogislaus Reichert's field of work is Monte Carlo method",
+   "Karl Bogislaus Reichert's field of work is neurology",
+   "Karl Bogislaus Reichert's field of work is electric field",
+   "Karl Bogislaus Reichert's field of work is Minkowski spacetime",
+   "Karl Bogislaus Reichert's field of work is translations from Arabic language",
+   "Karl Bogislaus Reichert's field of work is Bayesian inference",
+   "Karl Bogislaus Reichert's field of work is translations from Polish",
+   "Karl Bogislaus Reichert's field of work is color photography",
+   "Karl Bogislaus Reichert's field of work is opera",
+   "Karl Bogislaus Reichert's field of work is model theory",
+   "Karl Bogislaus Reichert's field of work is cartography",
+   "Karl Bogislaus Reichert's field of work is nonstandard analysis",
+   "Karl Bogislaus Reichert's field of work is television program",
+   "Karl Bogislaus Reichert's field of work is complex manifold",
+   "Karl Bogislaus Reichert's field of work is poetry",
+   "Karl Bogislaus Reichert's field of work is mathematics",
+   "Karl Bogislaus Reichert's field of work is computer science",
+   "Karl Bogislaus Reichert's field of work is cosmology",
+   "Karl Bogislaus Reichert's field of work is silviculture",
+   "Karl Bogislaus Reichert's field of work is hydrodynamics",
+   "Karl Bogislaus Reichert's field of work is forestry science",
+   "Karl Bogislaus Reichert's field of work is comparative religion",
+   "Karl Bogislaus Reichert's field of work is information technology",
+   "Karl Bogislaus Reichert's field of work is ballet",
+   "Karl Bogislaus Reichert's field of work is English literature",
+   "Karl Bogislaus Reichert's field of work is conducting",
+   "Karl Bogislaus Reichert's field of work is hyperbolic geometry",
+   "Karl Bogislaus Reichert's field of work is biochemistry",
+   "Karl Bogislaus Reichert's field of work is religion and society",
+   "Karl Bogislaus Reichert's field of work is optics",
+   "Karl Bogislaus Reichert's field of work is ethics",
+   "Karl Bogislaus Reichert's field of work is cybernetics",
+   "Karl Bogislaus Reichert's field of work is astronomical observation",
+   "Karl Bogislaus Reichert's field of work is psychophysiology",
+   "Karl Bogislaus Reichert's field of work is culturology",
+   "Karl Bogislaus Reichert's field of work is history of religions",
+   "Karl Bogislaus Reichert's field of work is probability theory",
+   "Karl Bogislaus Reichert's field of work is paleontology",
+   "Karl Bogislaus Reichert's field of work is surgery",
+   "Karl Bogislaus Reichert's field of work is group theory",
+   "Karl Bogislaus Reichert's field of work is natural theology",
+   "Karl Bogislaus Reichert's field of work is astrology",
+   "Karl Bogislaus Reichert's field of work is quantum electrodynamics",
+   "Karl Bogislaus Reichert's field of work is mechanics",
+   "Karl Bogislaus Reichert's field of work is Lie algebra",
+   "Karl Bogislaus Reichert's field of work is trigonometry",
+   "Karl Bogislaus Reichert's field of work is literary activity",
+   "Karl Bogislaus Reichert's field of work is nuclear physics",
+   "Karl Bogislaus Reichert's field of work is translations from English",
+   "Karl Bogislaus Reichert's field of work is medicine",
+   "Karl Bogislaus Reichert's field of work is Jewish philosophy",
+   "Karl Bogislaus Reichert's field of work is mathematical logic",
+   "Karl Bogislaus Reichert's field of work is calculus of variations",
+   "Karl Bogislaus Reichert's field of work is ferromagnetism",
+   "Karl Bogislaus Reichert's field of work is analytic geometry",
+   "Karl Bogislaus Reichert's field of work is art of painting",
+   "Karl Bogislaus Reichert's field of work is functional analysis",
+   "Karl Bogislaus Reichert's field of work is folklore",
+   "Karl Bogislaus Reichert's field of work is study of history",
+   "Karl Bogislaus Reichert's field of work is geometry",
+   "Karl Bogislaus Reichert's field of work is positivism",
+   "Karl Bogislaus Reichert's field of work is geodesy",
+   "Karl Bogislaus Reichert's field of work is astronomy",
+   "Karl Bogislaus Reichert's field of work is magnetic field",
+   "Karl Bogislaus Reichert's field of work is kinetic theory",
+   "Karl Bogislaus Reichert's field of work is celestial mechanics",
+   "Karl Bogislaus Reichert's field of work is analytic philosophy",
+   "Karl Bogislaus Reichert's field of work is ethnology",
+   "Karl Bogislaus Reichert's field of work is history of economic thought",
+   "Karl Bogislaus Reichert is meteorology",
+   "Karl Bogislaus Reichert is radioactivity",
+   "Karl Bogislaus Reichert is complex function",
+   "Karl Bogislaus Reichert is histology",
+   "Karl Bogislaus Reichert is algebra",
+   "Karl Bogislaus Reichert is electron",
+   "Karl Bogislaus Reichert is quantum theory",
+   "Karl Bogislaus Reichert is applied mathematics",
+   "Karl Bogislaus Reichert is electricity",
+   "Karl Bogislaus Reichert is human geography",
+   "Karl Bogislaus Reichert is crystallography",
+   "Karl Bogislaus Reichert is chemistry",
+   "Karl Bogislaus Reichert is Jewish studies",
+   "Karl Bogislaus Reichert is topology",
+   "Karl Bogislaus Reichert is mathematical analysis",
+   "Karl Bogislaus Reichert is computational geometry",
+   "Karl Bogislaus Reichert is Petrine ministry",
+   "Karl Bogislaus Reichert is social psychology",
+   "Karl Bogislaus Reichert is genetics",
+   "Karl Bogislaus Reichert is informatics",
+   "Karl Bogislaus Reichert is shipbuilding",
+   "Karl Bogislaus Reichert is historical sociology",
+   "Karl Bogislaus Reichert is quantum mysticism",
+   "Karl Bogislaus Reichert is philosopher",
+   "Karl Bogislaus Reichert is Internet",
+   "Karl Bogislaus Reichert is gravity",
+   "Karl Bogislaus Reichert is theoretical physics",
+   "Karl Bogislaus Reichert is African studies",
+   "Karl Bogislaus Reichert is projective geometry",
+   "Karl Bogislaus Reichert is prose",
+   "Karl Bogislaus Reichert is momentum",
+   "Karl Bogislaus Reichert is Cairo Geniza",
+   "Karl Bogislaus Reichert is stochastic",
+   "Karl Bogislaus Reichert is algebraic topology",
+   "Karl Bogislaus Reichert is electrical engineering",
+   "Karl Bogislaus Reichert is hunting",
+   "Karl Bogislaus Reichert is evolution",
+   "Karl Bogislaus Reichert is economic anthropology",
+   "Karl Bogislaus Reichert is Hebrew",
+   "Karl Bogislaus Reichert is differential geometry",
+   "Karl Bogislaus Reichert is engineering",
+   "Karl Bogislaus Reichert is history of science",
+   "Karl Bogislaus Reichert is social anthropology",
+   "Karl Bogislaus Reichert is history",
+   "Karl Bogislaus Reichert is distribution theory",
+   "Karl Bogislaus Reichert is classics",
+   "Karl Bogislaus Reichert is crime novel",
+   "Karl Bogislaus Reichert is statistics",
+   "Karl Bogislaus Reichert is experimental physics",
+   "Karl Bogislaus Reichert is geography",
+   "Karl Bogislaus Reichert is anthropology",
+   "Karl Bogislaus Reichert is partial differential equation",
+   "Karl Bogislaus Reichert is applied physics",
+   "Karl Bogislaus Reichert is Sanskrit",
+   "Karl Bogislaus Reichert is a branch of physics",
+   "Karl Bogislaus Reichert is comparative mythology",
+   "Karl Bogislaus Reichert is radiation",
+   "Karl Bogislaus Reichert is aeromechanics",
+   "Karl Bogislaus Reichert is harmonic analysis",
+   "Karl Bogislaus Reichert is religion",
+   "Karl Bogislaus Reichert is civil rights",
+   "Karl Bogislaus Reichert is physicist",
+   "Karl Bogislaus Reichert is distribution",
+   "Karl Bogislaus Reichert is translations from Spanish",
+   "Karl Bogislaus Reichert is feminism",
+   "Karl Bogislaus Reichert is number theory",
+   "Karl Bogislaus Reichert is sociology of organisations",
+   "Karl Bogislaus Reichert is astronomer",
+   "Karl Bogislaus Reichert is children's and youth literature",
+   "Karl Bogislaus Reichert is fairy tale",
+   "Karl Bogislaus Reichert is economy",
+   "Karl Bogislaus Reichert is graph theory",
+   "Karl Bogislaus Reichert is magic",
+   "Karl Bogislaus Reichert is essay",
+   "Karl Bogislaus Reichert is theory of relativity",
+   "Karl Bogislaus Reichert is historical novel",
+   "Karl Bogislaus Reichert is biological anthropology",
+   "Karl Bogislaus Reichert is literary theory",
+   "Karl Bogislaus Reichert is Greek philology",
+   "Karl Bogislaus Reichert is lyric poetry",
+   "Karl Bogislaus Reichert is psychology",
+   "Karl Bogislaus Reichert is quaternion",
+   "Karl Bogislaus Reichert is rite",
+   "Karl Bogislaus Reichert is jazz",
+   "Karl Bogislaus Reichert is heat",
+   "Karl Bogislaus Reichert is embryology",
+   "Karl Bogislaus Reichert is social philosophy",
+   "Karl Bogislaus Reichert is dance choreography",
+   "Karl Bogislaus Reichert is politics",
+   "Karl Bogislaus Reichert is nanotechnology",
+   "Karl Bogislaus Reichert is Afghanistan",
+   "Karl Bogislaus Reichert is non-Euclidean geometry",
+   "Karl Bogislaus Reichert is Franciscan spirituality",
+   "Karl Bogislaus Reichert is detective literature",
+   "Karl Bogislaus Reichert is mathematician",
+   "Karl Bogislaus Reichert is String",
+   "Karl Bogislaus Reichert is classical music",
+   "Karl Bogislaus Reichert is translations from Occitan",
+   "Karl Bogislaus Reichert is abstract algebra",
+   "Karl Bogislaus Reichert is differential calculus",
+   "Karl Bogislaus Reichert is mythology",
+   "Karl Bogislaus Reichert is literary translation",
+   "Karl Bogislaus Reichert is ballistics",
+   "Karl Bogislaus Reichert is cryptography",
+   "Karl Bogislaus Reichert is Greek",
+   "Karl Bogislaus Reichert is logic",
+   "Karl Bogislaus Reichert is choreography",
+   "Karl Bogislaus Reichert is theology",
+   "Karl Bogislaus Reichert is world economy",
+   "Karl Bogislaus Reichert is magnetism",
+   "Karl Bogislaus Reichert is algebraic geometry",
+   "Karl Bogislaus Reichert is theory of differential equations",
+   "Karl Bogislaus Reichert is physics",
+   "Karl Bogislaus Reichert is music theory",
+   "Karl Bogislaus Reichert is economics",
+   "Karl Bogislaus Reichert is anatomy",
+   "Karl Bogislaus Reichert is electromagnetic field",
+   "Karl Bogislaus Reichert is analytic number theory",
+   "Karl Bogislaus Reichert is mathematical physics",
+   "Karl Bogislaus Reichert is journalism",
+   "Karl Bogislaus Reichert is sociology",
+   "Karl Bogislaus Reichert is literature",
+   "Karl Bogislaus Reichert is ethnography",
+   "Karl Bogislaus Reichert is belletristic literature",
+   "Karl Bogislaus Reichert is convex function",
+   "Karl Bogislaus Reichert is sociology of religion",
+   "Karl Bogislaus Reichert is pedagogy",
+   "Karl Bogislaus Reichert is philosophy",
+   "Karl Bogislaus Reichert is quantum mechanics",
+   "Karl Bogislaus Reichert is drama",
+   "Karl Bogislaus Reichert is dance",
+   "Karl Bogislaus Reichert is Judaism",
+   "Karl Bogislaus Reichert is quantum physics",
+   "Karl Bogislaus Reichert is philosophy of science",
+   "Karl Bogislaus Reichert is linguistics",
+   "Karl Bogislaus Reichert is myth",
+   "Karl Bogislaus Reichert is physiology",
+   "Karl Bogislaus Reichert is English",
+   "Karl Bogislaus Reichert is philology",
+   "Karl Bogislaus Reichert is political philosophy",
+   "Karl Bogislaus Reichert is mechanical engineering",
+   "Karl Bogislaus Reichert is ontology",
+   "Karl Bogislaus Reichert is forestry",
+   "Karl Bogislaus Reichert is aerodynamics",
+   "Karl Bogislaus Reichert is Christian Church",
+   "Karl Bogislaus Reichert is magnetic resonance",
+   "Karl Bogislaus Reichert is astrophysics",
+   "Karl Bogislaus Reichert is natural science",
+   "Karl Bogislaus Reichert is constitutional law",
+   "Karl Bogislaus Reichert is philosophy of law",
+   "Karl Bogislaus Reichert is education",
+   "Karl Bogislaus Reichert is Monte Carlo method",
+   "Karl Bogislaus Reichert is neurology",
+   "Karl Bogislaus Reichert is electric field",
+   "Karl Bogislaus Reichert is Minkowski spacetime",
+   "Karl Bogislaus Reichert is translations from Arabic language",
+   "Karl Bogislaus Reichert is Bayesian inference",
+   "Karl Bogislaus Reichert is translations from Polish",
+   "Karl Bogislaus Reichert is color photography",
+   "Karl Bogislaus Reichert is opera",
+   "Karl Bogislaus Reichert is model theory",
+   "Karl Bogislaus Reichert is cartography",
+   "Karl Bogislaus Reichert is nonstandard analysis",
+   "Karl Bogislaus Reichert is television program",
+   "Karl Bogislaus Reichert is complex manifold",
+   "Karl Bogislaus Reichert is poetry",
+   "Karl Bogislaus Reichert is mathematics",
+   "Karl Bogislaus Reichert is computer science",
+   "Karl Bogislaus Reichert is cosmology",
+   "Karl Bogislaus Reichert is silviculture",
+   "Karl Bogislaus Reichert is hydrodynamics",
+   "Karl Bogislaus Reichert is forestry science",
+   "Karl Bogislaus Reichert is comparative religion",
+   "Karl Bogislaus Reichert is information technology",
+   "Karl Bogislaus Reichert is ballet",
+   "Karl Bogislaus Reichert is English literature",
+   "Karl Bogislaus Reichert is conducting",
+   "Karl Bogislaus Reichert is hyperbolic geometry",
+   "Karl Bogislaus Reichert is biochemistry",
+   "Karl Bogislaus Reichert is religion and society",
+   "Karl Bogislaus Reichert is optics",
+   "Karl Bogislaus Reichert is ethics",
+   "Karl Bogislaus Reichert is cybernetics",
+   "Karl Bogislaus Reichert is astronomical observation",
+   "Karl Bogislaus Reichert is psychophysiology",
+   "Karl Bogislaus Reichert is culturology",
+   "Karl Bogislaus Reichert is history of religions",
+   "Karl Bogislaus Reichert is probability theory",
+   "Karl Bogislaus Reichert is paleontology",
+   "Karl Bogislaus Reichert is surgery",
+   "Karl Bogislaus Reichert is group theory",
+   "Karl Bogislaus Reichert is natural theology",
+   "Karl Bogislaus Reichert is astrology",
+   "Karl Bogislaus Reichert is quantum electrodynamics",
+   "Karl Bogislaus Reichert is mechanics",
+   "Karl Bogislaus Reichert is Lie algebra",
+   "Karl Bogislaus Reichert is trigonometry",
+   "Karl Bogislaus Reichert is literary activity",
+   "Karl Bogislaus Reichert is nuclear physics",
+   "Karl Bogislaus Reichert is translations from English",
+   "Karl Bogislaus Reichert is medicine",
+   "Karl Bogislaus Reichert is Jewish philosophy",
+   "Karl Bogislaus Reichert is mathematical logic",
+   "Karl Bogislaus Reichert is calculus of variations",
+   "Karl Bogislaus Reichert is ferromagnetism",
+   "Karl Bogislaus Reichert is analytic geometry",
+   "Karl Bogislaus Reichert is art of painting",
+   "Karl Bogislaus Reichert is functional analysis",
+   "Karl Bogislaus Reichert is folklore",
+   "Karl Bogislaus Reichert is study of history",
+   "Karl Bogislaus Reichert is geometry",
+   "Karl Bogislaus Reichert is positivism",
+   "Karl Bogislaus Reichert is geodesy",
+   "Karl Bogislaus Reichert is astronomy",
+   "Karl Bogislaus Reichert is magnetic field",
+   "Karl Bogislaus Reichert is kinetic theory",
+   "Karl Bogislaus Reichert is celestial mechanics",
+   "Karl Bogislaus Reichert is analytic philosophy",
+   "Karl Bogislaus Reichert is ethnology",
+   "Karl Bogislaus Reichert is history of economic thought"
+  ],
+  [
+   [
+    -60.75150680541992
+   ],
+   [
+    -62.94615173339844
+   ],
+   [
+    -68.5371322631836
+   ],
+   [
+    -61.621517181396484
+   ],
+   [
+    -60.76115417480469
+   ],
+   [
+    -61.077796936035156
+   ],
+   [
+    -62.24549102783203
+   ],
+   [
+    -60.57661437988281
+   ],
+   [
+    -60.63054656982422
+   ],
+   [
+    -61.49784469604492
+   ],
+   [
+    -61.75190734863281
+   ],
+   [
+    -58.63069152832031
+   ],
+   [
+    -62.720367431640625
+   ],
+   [
+    -60.55226135253906
+   ],
+   [
+    -62.13270568847656
+   ],
+   [
+    -62.175010681152344
+   ],
+   [
+    -77.21389770507812
+   ],
+   [
+    -59.451114654541016
+   ],
+   [
+    -59.6053352355957
+   ],
+   [
+    -60.440589904785156
+   ],
+   [
+    -62.9720344543457
+   ],
+   [
+    -63.31460952758789
+   ],
+   [
+    -69.776611328125
+   ],
+   [
+    -62.483009338378906
+   ],
+   [
+    -59.12453842163086
+   ],
+   [
+    -62.022132873535156
+   ],
+   [
+    -59.654380798339844
+   ],
+   [
+    -63.318084716796875
+   ],
+   [
+    -66.06810760498047
+   ],
+   [
+    -61.525230407714844
+   ],
+   [
+    -64.79551696777344
+   ],
+   [
+    -73.48705291748047
+   ],
+   [
+    -61.65007019042969
+   ],
+   [
+    -63.019248962402344
+   ],
+   [
+    -60.344207763671875
+   ],
+   [
+    -61.07467269897461
+   ],
+   [
+    -60.82997131347656
+   ],
+   [
+    -62.35034942626953
+   ],
+   [
+    -62.685211181640625
+   ],
+   [
+    -62.980567932128906
+   ],
+   [
+    -59.3667106628418
+   ],
+   [
+    -61.329010009765625
+   ],
+   [
+    -61.00035095214844
+   ],
+   [
+    -56.784637451171875
+   ],
+   [
+    -64.49382781982422
+   ],
+   [
+    -61.59574890136719
+   ],
+   [
+    -67.91944122314453
+   ],
+   [
+    -60.49958038330078
+   ],
+   [
+    -59.30182647705078
+   ],
+   [
+    -59.58208084106445
+   ],
+   [
+    -59.14225387573242
+   ],
+   [
+    -67.72238159179688
+   ],
+   [
+    -62.07499694824219
+   ],
+   [
+    -61.45287322998047
+   ],
+   [
+    -65.63786315917969
+   ],
+   [
+    -63.567691802978516
+   ],
+   [
+    -60.435245513916016
+   ],
+   [
+    -65.97429656982422
+   ],
+   [
+    -63.58461380004883
+   ],
+   [
+    -58.58545684814453
+   ],
+   [
+    -61.903282165527344
+   ],
+   [
+    -65.24150085449219
+   ],
+   [
+    -60.95465850830078
+   ],
+   [
+    -68.3213882446289
+   ],
+   [
+    -60.99958801269531
+   ],
+   [
+    -60.803863525390625
+   ],
+   [
+    -67.32292175292969
+   ],
+   [
+    -65.56568908691406
+   ],
+   [
+    -64.49637603759766
+   ],
+   [
+    -62.911155700683594
+   ],
+   [
+    -60.688114166259766
+   ],
+   [
+    -59.78131866455078
+   ],
+   [
+    -59.36643600463867
+   ],
+   [
+    -61.078765869140625
+   ],
+   [
+    -67.15863037109375
+   ],
+   [
+    -63.810855865478516
+   ],
+   [
+    -61.67384338378906
+   ],
+   [
+    -60.61470413208008
+   ],
+   [
+    -65.31749725341797
+   ],
+   [
+    -63.60243225097656
+   ],
+   [
+    -58.44894027709961
+   ],
+   [
+    -65.11760711669922
+   ],
+   [
+    -65.48634338378906
+   ],
+   [
+    -60.36042785644531
+   ],
+   [
+    -61.11638259887695
+   ],
+   [
+    -61.65825653076172
+   ],
+   [
+    -61.60358810424805
+   ],
+   [
+    -66.17290496826172
+   ],
+   [
+    -57.98312759399414
+   ],
+   [
+    -61.05675506591797
+   ],
+   [
+    -62.391632080078125
+   ],
+   [
+    -65.76465606689453
+   ],
+   [
+    -67.8910903930664
+   ],
+   [
+    -66.5737075805664
+   ],
+   [
+    -65.18550109863281
+   ],
+   [
+    -63.72223663330078
+   ],
+   [
+    -59.965354919433594
+   ],
+   [
+    -73.57917785644531
+   ],
+   [
+    -62.98606872558594
+   ],
+   [
+    -64.37954711914062
+   ],
+   [
+    -60.18643569946289
+   ],
+   [
+    -63.05390548706055
+   ],
+   [
+    -62.98101806640625
+   ],
+   [
+    -59.70768356323242
+   ],
+   [
+    -60.25059509277344
+   ],
+   [
+    -59.71443557739258
+   ],
+   [
+    -62.550350189208984
+   ],
+   [
+    -59.217613220214844
+   ],
+   [
+    -65.44564819335938
+   ],
+   [
+    -62.740901947021484
+   ],
+   [
+    -61.97626876831055
+   ],
+   [
+    -70.15804290771484
+   ],
+   [
+    -58.29879379272461
+   ],
+   [
+    -60.05457305908203
+   ],
+   [
+    -58.16365051269531
+   ],
+   [
+    -59.9697265625
+   ],
+   [
+    -64.51000213623047
+   ],
+   [
+    -64.88056182861328
+   ],
+   [
+    -61.897499084472656
+   ],
+   [
+    -59.345577239990234
+   ],
+   [
+    -58.763423919677734
+   ],
+   [
+    -58.574764251708984
+   ],
+   [
+    -59.877864837646484
+   ],
+   [
+    -69.21353149414062
+   ],
+   [
+    -67.12889099121094
+   ],
+   [
+    -62.03165054321289
+   ],
+   [
+    -60.04474639892578
+   ],
+   [
+    -56.65097427368164
+   ],
+   [
+    -60.875518798828125
+   ],
+   [
+    -60.72863006591797
+   ],
+   [
+    -59.7331657409668
+   ],
+   [
+    -61.87028503417969
+   ],
+   [
+    -60.31217956542969
+   ],
+   [
+    -59.433074951171875
+   ],
+   [
+    -58.489952087402344
+   ],
+   [
+    -60.252708435058594
+   ],
+   [
+    -60.61102294921875
+   ],
+   [
+    -59.300209045410156
+   ],
+   [
+    -60.27202606201172
+   ],
+   [
+    -58.50640869140625
+   ],
+   [
+    -60.326942443847656
+   ],
+   [
+    -59.85800552368164
+   ],
+   [
+    -59.808082580566406
+   ],
+   [
+    -62.78961181640625
+   ],
+   [
+    -65.77104187011719
+   ],
+   [
+    -62.457550048828125
+   ],
+   [
+    -60.24049377441406
+   ],
+   [
+    -59.497596740722656
+   ],
+   [
+    -60.04731750488281
+   ],
+   [
+    -60.10921096801758
+   ],
+   [
+    -57.33929443359375
+   ],
+   [
+    -70.14501953125
+   ],
+   [
+    -59.96171951293945
+   ],
+   [
+    -65.77582550048828
+   ],
+   [
+    -67.50858306884766
+   ],
+   [
+    -74.78254699707031
+   ],
+   [
+    -63.05438232421875
+   ],
+   [
+    -68.17516326904297
+   ],
+   [
+    -61.11664581298828
+   ],
+   [
+    -60.14700698852539
+   ],
+   [
+    -64.73158264160156
+   ],
+   [
+    -59.12396240234375
+   ],
+   [
+    -67.20844268798828
+   ],
+   [
+    -66.8642578125
+   ],
+   [
+    -67.58330535888672
+   ],
+   [
+    -59.25334548950195
+   ],
+   [
+    -57.83857727050781
+   ],
+   [
+    -58.99065399169922
+   ],
+   [
+    -59.890724182128906
+   ],
+   [
+    -64.77278137207031
+   ],
+   [
+    -63.28751754760742
+   ],
+   [
+    -64.77347564697266
+   ],
+   [
+    -61.159339904785156
+   ],
+   [
+    -59.83330535888672
+   ],
+   [
+    -61.33134460449219
+   ],
+   [
+    -61.45876693725586
+   ],
+   [
+    -60.448890686035156
+   ],
+   [
+    -63.703670501708984
+   ],
+   [
+    -58.999610900878906
+   ],
+   [
+    -63.98686981201172
+   ],
+   [
+    -59.60306167602539
+   ],
+   [
+    -58.99024963378906
+   ],
+   [
+    -60.240760803222656
+   ],
+   [
+    -65.87745666503906
+   ],
+   [
+    -62.48304748535156
+   ],
+   [
+    -63.34150695800781
+   ],
+   [
+    -63.315826416015625
+   ],
+   [
+    -61.95430374145508
+   ],
+   [
+    -60.379180908203125
+   ],
+   [
+    -60.35132598876953
+   ],
+   [
+    -62.5645866394043
+   ],
+   [
+    -62.09696960449219
+   ],
+   [
+    -60.39432144165039
+   ],
+   [
+    -63.43778991699219
+   ],
+   [
+    -61.300941467285156
+   ],
+   [
+    -67.21218872070312
+   ],
+   [
+    -62.96813201904297
+   ],
+   [
+    -67.63302612304688
+   ],
+   [
+    -61.172054290771484
+   ],
+   [
+    -65.45863342285156
+   ],
+   [
+    -58.0278434753418
+   ],
+   [
+    -63.69170379638672
+   ],
+   [
+    -60.184181213378906
+   ],
+   [
+    -65.87713623046875
+   ],
+   [
+    -66.4952163696289
+   ],
+   [
+    -63.63808822631836
+   ],
+   [
+    -65.44392395019531
+   ],
+   [
+    -62.06649398803711
+   ],
+   [
+    -59.985286712646484
+   ],
+   [
+    -66.2878189086914
+   ],
+   [
+    -60.36241912841797
+   ],
+   [
+    -63.40140151977539
+   ],
+   [
+    -61.94011688232422
+   ],
+   [
+    -59.184967041015625
+   ],
+   [
+    -65.32691955566406
+   ],
+   [
+    -64.90484619140625
+   ],
+   [
+    -63.16680145263672
+   ],
+   [
+    -60.78003692626953
+   ],
+   [
+    -59.02140808105469
+   ],
+   [
+    -64.89216613769531
+   ],
+   [
+    -52.76020050048828
+   ],
+   [
+    -54.21979522705078
+   ],
+   [
+    -60.09447479248047
+   ],
+   [
+    -52.09979248046875
+   ],
+   [
+    -50.456390380859375
+   ],
+   [
+    -49.33064270019531
+   ],
+   [
+    -53.425880432128906
+   ],
+   [
+    -51.44519805908203
+   ],
+   [
+    -49.68647766113281
+   ],
+   [
+    -53.522727966308594
+   ],
+   [
+    -52.834205627441406
+   ],
+   [
+    -48.629249572753906
+   ],
+   [
+    -56.03736114501953
+   ],
+   [
+    -52.748680114746094
+   ],
+   [
+    -54.28971862792969
+   ],
+   [
+    -56.07213592529297
+   ],
+   [
+    -66.72312927246094
+   ],
+   [
+    -51.94347381591797
+   ],
+   [
+    -51.88794708251953
+   ],
+   [
+    -50.38945770263672
+   ],
+   [
+    -52.283966064453125
+   ],
+   [
+    -55.759124755859375
+   ],
+   [
+    -61.523319244384766
+   ],
+   [
+    -46.04242706298828
+   ],
+   [
+    -46.78404998779297
+   ],
+   [
+    -51.16541290283203
+   ],
+   [
+    -50.229217529296875
+   ],
+   [
+    -52.658424377441406
+   ],
+   [
+    -55.836830139160156
+   ],
+   [
+    -49.00658416748047
+   ],
+   [
+    -51.198394775390625
+   ],
+   [
+    -62.219608306884766
+   ],
+   [
+    -53.08116149902344
+   ],
+   [
+    -55.828514099121094
+   ],
+   [
+    -51.717994689941406
+   ],
+   [
+    -46.78056335449219
+   ],
+   [
+    -49.78095245361328
+   ],
+   [
+    -57.44844055175781
+   ],
+   [
+    -49.70526885986328
+   ],
+   [
+    -54.912872314453125
+   ],
+   [
+    -48.00360107421875
+   ],
+   [
+    -53.76984786987305
+   ],
+   [
+    -52.7396240234375
+   ],
+   [
+    -45.832763671875
+   ],
+   [
+    -58.552459716796875
+   ],
+   [
+    -50.13311004638672
+   ],
+   [
+    -56.05358123779297
+   ],
+   [
+    -48.52587127685547
+   ],
+   [
+    -52.06236267089844
+   ],
+   [
+    -49.26624298095703
+   ],
+   [
+    -49.07334899902344
+   ],
+   [
+    -59.58121109008789
+   ],
+   [
+    -52.645530700683594
+   ],
+   [
+    -50.32361602783203
+   ],
+   [
+    -59.62896728515625
+   ],
+   [
+    -57.107933044433594
+   ],
+   [
+    -50.500579833984375
+   ],
+   [
+    -55.65393829345703
+   ],
+   [
+    -56.742027282714844
+   ],
+   [
+    -48.95280456542969
+   ],
+   [
+    -50.36029052734375
+   ],
+   [
+    -46.581581115722656
+   ],
+   [
+    -50.33135223388672
+   ],
+   [
+    -61.36664581298828
+   ],
+   [
+    -52.231101989746094
+   ],
+   [
+    -57.1068115234375
+   ],
+   [
+    -62.266815185546875
+   ],
+   [
+    -48.84906768798828
+   ],
+   [
+    -58.91738510131836
+   ],
+   [
+    -52.216217041015625
+   ],
+   [
+    -49.68146514892578
+   ],
+   [
+    -52.741355895996094
+   ],
+   [
+    -47.88146209716797
+   ],
+   [
+    -48.28041076660156
+   ],
+   [
+    -56.49210739135742
+   ],
+   [
+    -51.529083251953125
+   ],
+   [
+    -54.57488250732422
+   ],
+   [
+    -55.11187744140625
+   ],
+   [
+    -60.94466018676758
+   ],
+   [
+    -56.190025329589844
+   ],
+   [
+    -48.81300354003906
+   ],
+   [
+    -56.8463249206543
+   ],
+   [
+    -50.75518798828125
+   ],
+   [
+    -47.674400329589844
+   ],
+   [
+    -49.290794372558594
+   ],
+   [
+    -52.67405700683594
+   ],
+   [
+    -54.737281799316406
+   ],
+   [
+    -58.79965591430664
+   ],
+   [
+    -46.871803283691406
+   ],
+   [
+    -51.383949279785156
+   ],
+   [
+    -49.391700744628906
+   ],
+   [
+    -55.97520446777344
+   ],
+   [
+    -58.071678161621094
+   ],
+   [
+    -59.352294921875
+   ],
+   [
+    -46.53564453125
+   ],
+   [
+    -51.345069885253906
+   ],
+   [
+    -49.88440704345703
+   ],
+   [
+    -66.52842712402344
+   ],
+   [
+    -56.345252990722656
+   ],
+   [
+    -56.63053894042969
+   ],
+   [
+    -50.64923858642578
+   ],
+   [
+    -55.99208068847656
+   ],
+   [
+    -53.56964111328125
+   ],
+   [
+    -50.37389373779297
+   ],
+   [
+    -48.67689514160156
+   ],
+   [
+    -49.742286682128906
+   ],
+   [
+    -56.85594940185547
+   ],
+   [
+    -48.02897644042969
+   ],
+   [
+    -56.54595947265625
+   ],
+   [
+    -54.516014099121094
+   ],
+   [
+    -54.62950897216797
+   ],
+   [
+    -61.72509002685547
+   ],
+   [
+    -46.884002685546875
+   ],
+   [
+    -51.46476745605469
+   ],
+   [
+    -46.653839111328125
+   ],
+   [
+    -50.449485778808594
+   ],
+   [
+    -57.01293182373047
+   ],
+   [
+    -54.45912551879883
+   ],
+   [
+    -51.72428894042969
+   ],
+   [
+    -48.340980529785156
+   ],
+   [
+    -48.23517608642578
+   ],
+   [
+    -48.94053649902344
+   ],
+   [
+    -51.87060546875
+   ],
+   [
+    -64.49124908447266
+   ],
+   [
+    -57.52546310424805
+   ],
+   [
+    -54.3200798034668
+   ],
+   [
+    -51.320858001708984
+   ],
+   [
+    -46.85675811767578
+   ],
+   [
+    -52.43226623535156
+   ],
+   [
+    -50.52098083496094
+   ],
+   [
+    -49.06414794921875
+   ],
+   [
+    -50.958656311035156
+   ],
+   [
+    -51.61103057861328
+   ],
+   [
+    -52.18161392211914
+   ],
+   [
+    -49.923484802246094
+   ],
+   [
+    -48.372215270996094
+   ],
+   [
+    -51.052154541015625
+   ],
+   [
+    -47.49336242675781
+   ],
+   [
+    -50.77472686767578
+   ],
+   [
+    -53.09844207763672
+   ],
+   [
+    -50.377235412597656
+   ],
+   [
+    -51.12993621826172
+   ],
+   [
+    -50.66199493408203
+   ],
+   [
+    -53.64605712890625
+   ],
+   [
+    -52.363563537597656
+   ],
+   [
+    -57.85551452636719
+   ],
+   [
+    -53.021705627441406
+   ],
+   [
+    -51.563560485839844
+   ],
+   [
+    -48.971351623535156
+   ],
+   [
+    -53.037662506103516
+   ],
+   [
+    -47.051963806152344
+   ],
+   [
+    -65.51969909667969
+   ],
+   [
+    -49.45994567871094
+   ],
+   [
+    -56.54993438720703
+   ],
+   [
+    -62.773406982421875
+   ],
+   [
+    -69.88306427001953
+   ],
+   [
+    -58.51588821411133
+   ],
+   [
+    -60.76654052734375
+   ],
+   [
+    -56.199371337890625
+   ],
+   [
+    -48.538299560546875
+   ],
+   [
+    -58.46253204345703
+   ],
+   [
+    -52.472923278808594
+   ],
+   [
+    -60.79740524291992
+   ],
+   [
+    -56.20923614501953
+   ],
+   [
+    -59.87114715576172
+   ],
+   [
+    -48.2017822265625
+   ],
+   [
+    -47.31011199951172
+   ],
+   [
+    -47.59478759765625
+   ],
+   [
+    -52.015411376953125
+   ],
+   [
+    -52.71348190307617
+   ],
+   [
+    -54.970306396484375
+   ],
+   [
+    -55.624267578125
+   ],
+   [
+    -53.99433135986328
+   ],
+   [
+    -50.12836456298828
+   ],
+   [
+    -50.575706481933594
+   ],
+   [
+    -51.950721740722656
+   ],
+   [
+    -44.552642822265625
+   ],
+   [
+    -64.7231674194336
+   ],
+   [
+    -51.303375244140625
+   ],
+   [
+    -55.73768615722656
+   ],
+   [
+    -50.933685302734375
+   ],
+   [
+    -50.48241424560547
+   ],
+   [
+    -52.7247428894043
+   ],
+   [
+    -58.33611297607422
+   ],
+   [
+    -56.16427993774414
+   ],
+   [
+    -55.887351989746094
+   ],
+   [
+    -56.68855285644531
+   ],
+   [
+    -52.907264709472656
+   ],
+   [
+    -50.633323669433594
+   ],
+   [
+    -50.35857391357422
+   ],
+   [
+    -56.086395263671875
+   ],
+   [
+    -56.09302520751953
+   ],
+   [
+    -52.457603454589844
+   ],
+   [
+    -54.43450164794922
+   ],
+   [
+    -51.841033935546875
+   ],
+   [
+    -59.265167236328125
+   ],
+   [
+    -54.28638458251953
+   ],
+   [
+    -58.05924987792969
+   ],
+   [
+    -52.13616943359375
+   ],
+   [
+    -60.64567565917969
+   ],
+   [
+    -49.10285186767578
+   ],
+   [
+    -56.504356384277344
+   ],
+   [
+    -53.31398010253906
+   ],
+   [
+    -58.692317962646484
+   ],
+   [
+    -58.45100402832031
+   ],
+   [
+    -54.574562072753906
+   ],
+   [
+    -58.79141616821289
+   ],
+   [
+    -54.04370880126953
+   ],
+   [
+    -50.637977600097656
+   ],
+   [
+    -55.532447814941406
+   ],
+   [
+    -50.70042419433594
+   ],
+   [
+    -53.09405517578125
+   ],
+   [
+    -54.86330032348633
+   ],
+   [
+    -49.50263977050781
+   ],
+   [
+    -55.680389404296875
+   ],
+   [
+    -55.92390441894531
+   ],
+   [
+    -55.30061340332031
+   ],
+   [
+    -51.927581787109375
+   ],
+   [
+    -51.520904541015625
+   ],
+   [
+    -57.818275451660156
+   ]
+  ]
+ ],
+ "time": 4319.092866897583
+}

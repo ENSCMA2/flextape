@@ -1,0 +1,2076 @@
+{
+ "case_id": 21992,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "James Franck"
+ },
+ "pre": [
+  [
+   "James Franck's field of work is meteorology",
+   "James Franck's field of work is radioactivity",
+   "James Franck's field of work is complex function",
+   "James Franck's field of work is histology",
+   "James Franck's field of work is algebra",
+   "James Franck's field of work is electron",
+   "James Franck's field of work is quantum theory",
+   "James Franck's field of work is applied mathematics",
+   "James Franck's field of work is electricity",
+   "James Franck's field of work is human geography",
+   "James Franck's field of work is crystallography",
+   "James Franck's field of work is chemistry",
+   "James Franck's field of work is Jewish studies",
+   "James Franck's field of work is topology",
+   "James Franck's field of work is mathematical analysis",
+   "James Franck's field of work is computational geometry",
+   "James Franck's field of work is Petrine ministry",
+   "James Franck's field of work is social psychology",
+   "James Franck's field of work is genetics",
+   "James Franck's field of work is informatics",
+   "James Franck's field of work is shipbuilding",
+   "James Franck's field of work is historical sociology",
+   "James Franck's field of work is quantum mysticism",
+   "James Franck's field of work is philosopher",
+   "James Franck's field of work is Internet",
+   "James Franck's field of work is gravity",
+   "James Franck's field of work is theoretical physics",
+   "James Franck's field of work is African studies",
+   "James Franck's field of work is projective geometry",
+   "James Franck's field of work is prose",
+   "James Franck's field of work is momentum",
+   "James Franck's field of work is Cairo Geniza",
+   "James Franck's field of work is stochastic",
+   "James Franck's field of work is algebraic topology",
+   "James Franck's field of work is electrical engineering",
+   "James Franck's field of work is hunting",
+   "James Franck's field of work is evolution",
+   "James Franck's field of work is economic anthropology",
+   "James Franck's field of work is Hebrew",
+   "James Franck's field of work is differential geometry",
+   "James Franck's field of work is engineering",
+   "James Franck's field of work is history of science",
+   "James Franck's field of work is social anthropology",
+   "James Franck's field of work is history",
+   "James Franck's field of work is distribution theory",
+   "James Franck's field of work is classics",
+   "James Franck's field of work is crime novel",
+   "James Franck's field of work is statistics",
+   "James Franck's field of work is experimental physics",
+   "James Franck's field of work is geography",
+   "James Franck's field of work is anthropology",
+   "James Franck's field of work is partial differential equation",
+   "James Franck's field of work is applied physics",
+   "James Franck's field of work is Sanskrit",
+   "James Franck's field of work is a branch of physics",
+   "James Franck's field of work is comparative mythology",
+   "James Franck's field of work is radiation",
+   "James Franck's field of work is aeromechanics",
+   "James Franck's field of work is harmonic analysis",
+   "James Franck's field of work is religion",
+   "James Franck's field of work is civil rights",
+   "James Franck's field of work is physicist",
+   "James Franck's field of work is distribution",
+   "James Franck's field of work is translations from Spanish",
+   "James Franck's field of work is feminism",
+   "James Franck's field of work is number theory",
+   "James Franck's field of work is sociology of organisations",
+   "James Franck's field of work is astronomer",
+   "James Franck's field of work is children's and youth literature",
+   "James Franck's field of work is fairy tale",
+   "James Franck's field of work is economy",
+   "James Franck's field of work is graph theory",
+   "James Franck's field of work is magic",
+   "James Franck's field of work is essay",
+   "James Franck's field of work is theory of relativity",
+   "James Franck's field of work is historical novel",
+   "James Franck's field of work is biological anthropology",
+   "James Franck's field of work is literary theory",
+   "James Franck's field of work is Greek philology",
+   "James Franck's field of work is lyric poetry",
+   "James Franck's field of work is psychology",
+   "James Franck's field of work is quaternion",
+   "James Franck's field of work is rite",
+   "James Franck's field of work is jazz",
+   "James Franck's field of work is heat",
+   "James Franck's field of work is embryology",
+   "James Franck's field of work is social philosophy",
+   "James Franck's field of work is dance choreography",
+   "James Franck's field of work is politics",
+   "James Franck's field of work is nanotechnology",
+   "James Franck's field of work is Afghanistan",
+   "James Franck's field of work is non-Euclidean geometry",
+   "James Franck's field of work is Franciscan spirituality",
+   "James Franck's field of work is detective literature",
+   "James Franck's field of work is mathematician",
+   "James Franck's field of work is String",
+   "James Franck's field of work is classical music",
+   "James Franck's field of work is translations from Occitan",
+   "James Franck's field of work is abstract algebra",
+   "James Franck's field of work is differential calculus",
+   "James Franck's field of work is mythology",
+   "James Franck's field of work is literary translation",
+   "James Franck's field of work is ballistics",
+   "James Franck's field of work is cryptography",
+   "James Franck's field of work is Greek",
+   "James Franck's field of work is logic",
+   "James Franck's field of work is choreography",
+   "James Franck's field of work is theology",
+   "James Franck's field of work is world economy",
+   "James Franck's field of work is magnetism",
+   "James Franck's field of work is algebraic geometry",
+   "James Franck's field of work is theory of differential equations",
+   "James Franck's field of work is physics",
+   "James Franck's field of work is music theory",
+   "James Franck's field of work is economics",
+   "James Franck's field of work is anatomy",
+   "James Franck's field of work is electromagnetic field",
+   "James Franck's field of work is analytic number theory",
+   "James Franck's field of work is mathematical physics",
+   "James Franck's field of work is journalism",
+   "James Franck's field of work is sociology",
+   "James Franck's field of work is literature",
+   "James Franck's field of work is ethnography",
+   "James Franck's field of work is belletristic literature",
+   "James Franck's field of work is convex function",
+   "James Franck's field of work is sociology of religion",
+   "James Franck's field of work is pedagogy",
+   "James Franck's field of work is philosophy",
+   "James Franck's field of work is quantum mechanics",
+   "James Franck's field of work is drama",
+   "James Franck's field of work is dance",
+   "James Franck's field of work is Judaism",
+   "James Franck's field of work is quantum physics",
+   "James Franck's field of work is philosophy of science",
+   "James Franck's field of work is linguistics",
+   "James Franck's field of work is myth",
+   "James Franck's field of work is physiology",
+   "James Franck's field of work is English",
+   "James Franck's field of work is philology",
+   "James Franck's field of work is political philosophy",
+   "James Franck's field of work is mechanical engineering",
+   "James Franck's field of work is ontology",
+   "James Franck's field of work is forestry",
+   "James Franck's field of work is aerodynamics",
+   "James Franck's field of work is Christian Church",
+   "James Franck's field of work is magnetic resonance",
+   "James Franck's field of work is astrophysics",
+   "James Franck's field of work is natural science",
+   "James Franck's field of work is constitutional law",
+   "James Franck's field of work is philosophy of law",
+   "James Franck's field of work is education",
+   "James Franck's field of work is Monte Carlo method",
+   "James Franck's field of work is neurology",
+   "James Franck's field of work is electric field",
+   "James Franck's field of work is Minkowski spacetime",
+   "James Franck's field of work is translations from Arabic language",
+   "James Franck's field of work is Bayesian inference",
+   "James Franck's field of work is translations from Polish",
+   "James Franck's field of work is color photography",
+   "James Franck's field of work is opera",
+   "James Franck's field of work is model theory",
+   "James Franck's field of work is cartography",
+   "James Franck's field of work is nonstandard analysis",
+   "James Franck's field of work is television program",
+   "James Franck's field of work is complex manifold",
+   "James Franck's field of work is poetry",
+   "James Franck's field of work is mathematics",
+   "James Franck's field of work is computer science",
+   "James Franck's field of work is cosmology",
+   "James Franck's field of work is silviculture",
+   "James Franck's field of work is hydrodynamics",
+   "James Franck's field of work is forestry science",
+   "James Franck's field of work is comparative religion",
+   "James Franck's field of work is information technology",
+   "James Franck's field of work is ballet",
+   "James Franck's field of work is English literature",
+   "James Franck's field of work is conducting",
+   "James Franck's field of work is hyperbolic geometry",
+   "James Franck's field of work is biochemistry",
+   "James Franck's field of work is religion and society",
+   "James Franck's field of work is optics",
+   "James Franck's field of work is ethics",
+   "James Franck's field of work is cybernetics",
+   "James Franck's field of work is astronomical observation",
+   "James Franck's field of work is psychophysiology",
+   "James Franck's field of work is culturology",
+   "James Franck's field of work is history of religions",
+   "James Franck's field of work is probability theory",
+   "James Franck's field of work is paleontology",
+   "James Franck's field of work is surgery",
+   "James Franck's field of work is group theory",
+   "James Franck's field of work is natural theology",
+   "James Franck's field of work is astrology",
+   "James Franck's field of work is quantum electrodynamics",
+   "James Franck's field of work is mechanics",
+   "James Franck's field of work is Lie algebra",
+   "James Franck's field of work is trigonometry",
+   "James Franck's field of work is literary activity",
+   "James Franck's field of work is nuclear physics",
+   "James Franck's field of work is translations from English",
+   "James Franck's field of work is medicine",
+   "James Franck's field of work is Jewish philosophy",
+   "James Franck's field of work is mathematical logic",
+   "James Franck's field of work is calculus of variations",
+   "James Franck's field of work is ferromagnetism",
+   "James Franck's field of work is analytic geometry",
+   "James Franck's field of work is art of painting",
+   "James Franck's field of work is functional analysis",
+   "James Franck's field of work is folklore",
+   "James Franck's field of work is study of history",
+   "James Franck's field of work is geometry",
+   "James Franck's field of work is positivism",
+   "James Franck's field of work is geodesy",
+   "James Franck's field of work is astronomy",
+   "James Franck's field of work is magnetic field",
+   "James Franck's field of work is kinetic theory",
+   "James Franck's field of work is celestial mechanics",
+   "James Franck's field of work is analytic philosophy",
+   "James Franck's field of work is ethnology",
+   "James Franck's field of work is history of economic thought",
+   "James Franck is meteorology",
+   "James Franck is radioactivity",
+   "James Franck is complex function",
+   "James Franck is histology",
+   "James Franck is algebra",
+   "James Franck is electron",
+   "James Franck is quantum theory",
+   "James Franck is applied mathematics",
+   "James Franck is electricity",
+   "James Franck is human geography",
+   "James Franck is crystallography",
+   "James Franck is chemistry",
+   "James Franck is Jewish studies",
+   "James Franck is topology",
+   "James Franck is mathematical analysis",
+   "James Franck is computational geometry",
+   "James Franck is Petrine ministry",
+   "James Franck is social psychology",
+   "James Franck is genetics",
+   "James Franck is informatics",
+   "James Franck is shipbuilding",
+   "James Franck is historical sociology",
+   "James Franck is quantum mysticism",
+   "James Franck is philosopher",
+   "James Franck is Internet",
+   "James Franck is gravity",
+   "James Franck is theoretical physics",
+   "James Franck is African studies",
+   "James Franck is projective geometry",
+   "James Franck is prose",
+   "James Franck is momentum",
+   "James Franck is Cairo Geniza",
+   "James Franck is stochastic",
+   "James Franck is algebraic topology",
+   "James Franck is electrical engineering",
+   "James Franck is hunting",
+   "James Franck is evolution",
+   "James Franck is economic anthropology",
+   "James Franck is Hebrew",
+   "James Franck is differential geometry",
+   "James Franck is engineering",
+   "James Franck is history of science",
+   "James Franck is social anthropology",
+   "James Franck is history",
+   "James Franck is distribution theory",
+   "James Franck is classics",
+   "James Franck is crime novel",
+   "James Franck is statistics",
+   "James Franck is experimental physics",
+   "James Franck is geography",
+   "James Franck is anthropology",
+   "James Franck is partial differential equation",
+   "James Franck is applied physics",
+   "James Franck is Sanskrit",
+   "James Franck is a branch of physics",
+   "James Franck is comparative mythology",
+   "James Franck is radiation",
+   "James Franck is aeromechanics",
+   "James Franck is harmonic analysis",
+   "James Franck is religion",
+   "James Franck is civil rights",
+   "James Franck is physicist",
+   "James Franck is distribution",
+   "James Franck is translations from Spanish",
+   "James Franck is feminism",
+   "James Franck is number theory",
+   "James Franck is sociology of organisations",
+   "James Franck is astronomer",
+   "James Franck is children's and youth literature",
+   "James Franck is fairy tale",
+   "James Franck is economy",
+   "James Franck is graph theory",
+   "James Franck is magic",
+   "James Franck is essay",
+   "James Franck is theory of relativity",
+   "James Franck is historical novel",
+   "James Franck is biological anthropology",
+   "James Franck is literary theory",
+   "James Franck is Greek philology",
+   "James Franck is lyric poetry",
+   "James Franck is psychology",
+   "James Franck is quaternion",
+   "James Franck is rite",
+   "James Franck is jazz",
+   "James Franck is heat",
+   "James Franck is embryology",
+   "James Franck is social philosophy",
+   "James Franck is dance choreography",
+   "James Franck is politics",
+   "James Franck is nanotechnology",
+   "James Franck is Afghanistan",
+   "James Franck is non-Euclidean geometry",
+   "James Franck is Franciscan spirituality",
+   "James Franck is detective literature",
+   "James Franck is mathematician",
+   "James Franck is String",
+   "James Franck is classical music",
+   "James Franck is translations from Occitan",
+   "James Franck is abstract algebra",
+   "James Franck is differential calculus",
+   "James Franck is mythology",
+   "James Franck is literary translation",
+   "James Franck is ballistics",
+   "James Franck is cryptography",
+   "James Franck is Greek",
+   "James Franck is logic",
+   "James Franck is choreography",
+   "James Franck is theology",
+   "James Franck is world economy",
+   "James Franck is magnetism",
+   "James Franck is algebraic geometry",
+   "James Franck is theory of differential equations",
+   "James Franck is physics",
+   "James Franck is music theory",
+   "James Franck is economics",
+   "James Franck is anatomy",
+   "James Franck is electromagnetic field",
+   "James Franck is analytic number theory",
+   "James Franck is mathematical physics",
+   "James Franck is journalism",
+   "James Franck is sociology",
+   "James Franck is literature",
+   "James Franck is ethnography",
+   "James Franck is belletristic literature",
+   "James Franck is convex function",
+   "James Franck is sociology of religion",
+   "James Franck is pedagogy",
+   "James Franck is philosophy",
+   "James Franck is quantum mechanics",
+   "James Franck is drama",
+   "James Franck is dance",
+   "James Franck is Judaism",
+   "James Franck is quantum physics",
+   "James Franck is philosophy of science",
+   "James Franck is linguistics",
+   "James Franck is myth",
+   "James Franck is physiology",
+   "James Franck is English",
+   "James Franck is philology",
+   "James Franck is political philosophy",
+   "James Franck is mechanical engineering",
+   "James Franck is ontology",
+   "James Franck is forestry",
+   "James Franck is aerodynamics",
+   "James Franck is Christian Church",
+   "James Franck is magnetic resonance",
+   "James Franck is astrophysics",
+   "James Franck is natural science",
+   "James Franck is constitutional law",
+   "James Franck is philosophy of law",
+   "James Franck is education",
+   "James Franck is Monte Carlo method",
+   "James Franck is neurology",
+   "James Franck is electric field",
+   "James Franck is Minkowski spacetime",
+   "James Franck is translations from Arabic language",
+   "James Franck is Bayesian inference",
+   "James Franck is translations from Polish",
+   "James Franck is color photography",
+   "James Franck is opera",
+   "James Franck is model theory",
+   "James Franck is cartography",
+   "James Franck is nonstandard analysis",
+   "James Franck is television program",
+   "James Franck is complex manifold",
+   "James Franck is poetry",
+   "James Franck is mathematics",
+   "James Franck is computer science",
+   "James Franck is cosmology",
+   "James Franck is silviculture",
+   "James Franck is hydrodynamics",
+   "James Franck is forestry science",
+   "James Franck is comparative religion",
+   "James Franck is information technology",
+   "James Franck is ballet",
+   "James Franck is English literature",
+   "James Franck is conducting",
+   "James Franck is hyperbolic geometry",
+   "James Franck is biochemistry",
+   "James Franck is religion and society",
+   "James Franck is optics",
+   "James Franck is ethics",
+   "James Franck is cybernetics",
+   "James Franck is astronomical observation",
+   "James Franck is psychophysiology",
+   "James Franck is culturology",
+   "James Franck is history of religions",
+   "James Franck is probability theory",
+   "James Franck is paleontology",
+   "James Franck is surgery",
+   "James Franck is group theory",
+   "James Franck is natural theology",
+   "James Franck is astrology",
+   "James Franck is quantum electrodynamics",
+   "James Franck is mechanics",
+   "James Franck is Lie algebra",
+   "James Franck is trigonometry",
+   "James Franck is literary activity",
+   "James Franck is nuclear physics",
+   "James Franck is translations from English",
+   "James Franck is medicine",
+   "James Franck is Jewish philosophy",
+   "James Franck is mathematical logic",
+   "James Franck is calculus of variations",
+   "James Franck is ferromagnetism",
+   "James Franck is analytic geometry",
+   "James Franck is art of painting",
+   "James Franck is functional analysis",
+   "James Franck is folklore",
+   "James Franck is study of history",
+   "James Franck is geometry",
+   "James Franck is positivism",
+   "James Franck is geodesy",
+   "James Franck is astronomy",
+   "James Franck is magnetic field",
+   "James Franck is kinetic theory",
+   "James Franck is celestial mechanics",
+   "James Franck is analytic philosophy",
+   "James Franck is ethnology",
+   "James Franck is history of economic thought"
+  ],
+  [
+   [
+    -40.24049377441406
+   ],
+   [
+    -40.640533447265625
+   ],
+   [
+    -47.45418167114258
+   ],
+   [
+    -41.84364700317383
+   ],
+   [
+    -39.57719802856445
+   ],
+   [
+    -38.84168243408203
+   ],
+   [
+    -38.62461853027344
+   ],
+   [
+    -39.44694900512695
+   ],
+   [
+    -39.78350830078125
+   ],
+   [
+    -43.09419250488281
+   ],
+   [
+    -39.80756378173828
+   ],
+   [
+    -37.390865325927734
+   ],
+   [
+    -43.22978210449219
+   ],
+   [
+    -39.79443359375
+   ],
+   [
+    -40.65191650390625
+   ],
+   [
+    -42.10021209716797
+   ],
+   [
+    -56.92430877685547
+   ],
+   [
+    -39.179710388183594
+   ],
+   [
+    -38.80744171142578
+   ],
+   [
+    -40.806671142578125
+   ],
+   [
+    -44.28583526611328
+   ],
+   [
+    -43.233978271484375
+   ],
+   [
+    -46.27006912231445
+   ],
+   [
+    -42.3345832824707
+   ],
+   [
+    -40.42802429199219
+   ],
+   [
+    -40.36524200439453
+   ],
+   [
+    -37.27491760253906
+   ],
+   [
+    -44.0083122253418
+   ],
+   [
+    -44.573394775390625
+   ],
+   [
+    -42.006614685058594
+   ],
+   [
+    -43.389739990234375
+   ],
+   [
+    -53.59547424316406
+   ],
+   [
+    -40.2232666015625
+   ],
+   [
+    -41.27870559692383
+   ],
+   [
+    -39.47074508666992
+   ],
+   [
+    -41.793922424316406
+   ],
+   [
+    -39.50688934326172
+   ],
+   [
+    -43.52939987182617
+   ],
+   [
+    -42.781070709228516
+   ],
+   [
+    -42.40509796142578
+   ],
+   [
+    -38.785064697265625
+   ],
+   [
+    -41.31539535522461
+   ],
+   [
+    -41.034122467041016
+   ],
+   [
+    -37.56440353393555
+   ],
+   [
+    -44.290401458740234
+   ],
+   [
+    -41.60049819946289
+   ],
+   [
+    -48.60496520996094
+   ],
+   [
+    -39.783531188964844
+   ],
+   [
+    -38.10066223144531
+   ],
+   [
+    -40.53990173339844
+   ],
+   [
+    -39.048126220703125
+   ],
+   [
+    -47.491844177246094
+   ],
+   [
+    -39.90882110595703
+   ],
+   [
+    -41.50719451904297
+   ],
+   [
+    -42.549110412597656
+   ],
+   [
+    -41.74397277832031
+   ],
+   [
+    -39.054744720458984
+   ],
+   [
+    -44.88055419921875
+   ],
+   [
+    -41.8215446472168
+   ],
+   [
+    -39.287776947021484
+   ],
+   [
+    -42.15498352050781
+   ],
+   [
+    -43.53886413574219
+   ],
+   [
+    -41.22929763793945
+   ],
+   [
+    -48.782562255859375
+   ],
+   [
+    -40.690860748291016
+   ],
+   [
+    -39.65959167480469
+   ],
+   [
+    -48.037593841552734
+   ],
+   [
+    -44.340213775634766
+   ],
+   [
+    -47.0188102722168
+   ],
+   [
+    -44.36601257324219
+   ],
+   [
+    -41.839378356933594
+   ],
+   [
+    -39.63884353637695
+   ],
+   [
+    -39.445213317871094
+   ],
+   [
+    -41.570640563964844
+   ],
+   [
+    -43.9880256652832
+   ],
+   [
+    -45.309913635253906
+   ],
+   [
+    -42.02647399902344
+   ],
+   [
+    -41.0788459777832
+   ],
+   [
+    -45.570098876953125
+   ],
+   [
+    -43.666358947753906
+   ],
+   [
+    -37.860877990722656
+   ],
+   [
+    -44.133331298828125
+   ],
+   [
+    -45.43156433105469
+   ],
+   [
+    -39.85132598876953
+   ],
+   [
+    -41.08877182006836
+   ],
+   [
+    -41.18281555175781
+   ],
+   [
+    -42.268455505371094
+   ],
+   [
+    -45.6844482421875
+   ],
+   [
+    -39.15936279296875
+   ],
+   [
+    -39.466552734375
+   ],
+   [
+    -43.13880920410156
+   ],
+   [
+    -42.44606399536133
+   ],
+   [
+    -49.00292205810547
+   ],
+   [
+    -47.22749328613281
+   ],
+   [
+    -43.82109069824219
+   ],
+   [
+    -41.75835037231445
+   ],
+   [
+    -38.966712951660156
+   ],
+   [
+    -53.57429885864258
+   ],
+   [
+    -41.11833572387695
+   ],
+   [
+    -44.638427734375
+   ],
+   [
+    -40.58073425292969
+   ],
+   [
+    -42.76242446899414
+   ],
+   [
+    -42.575042724609375
+   ],
+   [
+    -39.16107940673828
+   ],
+   [
+    -40.343074798583984
+   ],
+   [
+    -39.58269500732422
+   ],
+   [
+    -42.382774353027344
+   ],
+   [
+    -39.510528564453125
+   ],
+   [
+    -46.22578048706055
+   ],
+   [
+    -40.18620300292969
+   ],
+   [
+    -40.82759094238281
+   ],
+   [
+    -48.44218444824219
+   ],
+   [
+    -36.02085876464844
+   ],
+   [
+    -39.64305877685547
+   ],
+   [
+    -38.65888214111328
+   ],
+   [
+    -40.159637451171875
+   ],
+   [
+    -42.9478874206543
+   ],
+   [
+    -43.696189880371094
+   ],
+   [
+    -38.08116912841797
+   ],
+   [
+    -40.15032196044922
+   ],
+   [
+    -38.872962951660156
+   ],
+   [
+    -38.7324104309082
+   ],
+   [
+    -40.25990676879883
+   ],
+   [
+    -50.00108337402344
+   ],
+   [
+    -46.888771057128906
+   ],
+   [
+    -42.47977828979492
+   ],
+   [
+    -39.98662567138672
+   ],
+   [
+    -36.57133483886719
+   ],
+   [
+    -37.0344123840332
+   ],
+   [
+    -41.008243560791016
+   ],
+   [
+    -39.391963958740234
+   ],
+   [
+    -42.42679214477539
+   ],
+   [
+    -36.84053421020508
+   ],
+   [
+    -38.946895599365234
+   ],
+   [
+    -38.663124084472656
+   ],
+   [
+    -41.001617431640625
+   ],
+   [
+    -39.488075256347656
+   ],
+   [
+    -39.43075942993164
+   ],
+   [
+    -40.609352111816406
+   ],
+   [
+    -39.91434860229492
+   ],
+   [
+    -40.58965301513672
+   ],
+   [
+    -39.18784713745117
+   ],
+   [
+    -41.94929885864258
+   ],
+   [
+    -41.63087463378906
+   ],
+   [
+    -47.63975143432617
+   ],
+   [
+    -41.128204345703125
+   ],
+   [
+    -37.656272888183594
+   ],
+   [
+    -39.81863021850586
+   ],
+   [
+    -41.499725341796875
+   ],
+   [
+    -41.50055694580078
+   ],
+   [
+    -38.11912536621094
+   ],
+   [
+    -50.06145477294922
+   ],
+   [
+    -39.36091613769531
+   ],
+   [
+    -43.23652648925781
+   ],
+   [
+    -45.53314208984375
+   ],
+   [
+    -54.32490921020508
+   ],
+   [
+    -42.37809753417969
+   ],
+   [
+    -50.07109451293945
+   ],
+   [
+    -40.922245025634766
+   ],
+   [
+    -40.97858810424805
+   ],
+   [
+    -44.104042053222656
+   ],
+   [
+    -40.007713317871094
+   ],
+   [
+    -46.5182991027832
+   ],
+   [
+    -47.509151458740234
+   ],
+   [
+    -47.39567184448242
+   ],
+   [
+    -39.173675537109375
+   ],
+   [
+    -36.4405517578125
+   ],
+   [
+    -39.86891555786133
+   ],
+   [
+    -37.993438720703125
+   ],
+   [
+    -45.81695556640625
+   ],
+   [
+    -40.76264190673828
+   ],
+   [
+    -47.092227935791016
+   ],
+   [
+    -40.33384704589844
+   ],
+   [
+    -40.2548942565918
+   ],
+   [
+    -41.88825988769531
+   ],
+   [
+    -40.964664459228516
+   ],
+   [
+    -40.3598747253418
+   ],
+   [
+    -43.199851989746094
+   ],
+   [
+    -38.150108337402344
+   ],
+   [
+    -45.64392852783203
+   ],
+   [
+    -38.481781005859375
+   ],
+   [
+    -39.11319351196289
+   ],
+   [
+    -39.507774353027344
+   ],
+   [
+    -44.57379150390625
+   ],
+   [
+    -41.1714973449707
+   ],
+   [
+    -44.31534957885742
+   ],
+   [
+    -44.93487548828125
+   ],
+   [
+    -40.65376281738281
+   ],
+   [
+    -40.248268127441406
+   ],
+   [
+    -40.40967559814453
+   ],
+   [
+    -41.58074188232422
+   ],
+   [
+    -42.80321502685547
+   ],
+   [
+    -40.35197448730469
+   ],
+   [
+    -39.05784606933594
+   ],
+   [
+    -40.669185638427734
+   ],
+   [
+    -44.55296325683594
+   ],
+   [
+    -42.10071563720703
+   ],
+   [
+    -48.12734603881836
+   ],
+   [
+    -38.93113708496094
+   ],
+   [
+    -47.03363037109375
+   ],
+   [
+    -38.20903396606445
+   ],
+   [
+    -43.35898971557617
+   ],
+   [
+    -39.97889709472656
+   ],
+   [
+    -45.330711364746094
+   ],
+   [
+    -44.20178985595703
+   ],
+   [
+    -42.54679870605469
+   ],
+   [
+    -46.75771713256836
+   ],
+   [
+    -41.09907531738281
+   ],
+   [
+    -40.73955535888672
+   ],
+   [
+    -46.051414489746094
+   ],
+   [
+    -39.53723907470703
+   ],
+   [
+    -43.34507369995117
+   ],
+   [
+    -42.20692443847656
+   ],
+   [
+    -37.886863708496094
+   ],
+   [
+    -43.85641098022461
+   ],
+   [
+    -43.338600158691406
+   ],
+   [
+    -40.810367584228516
+   ],
+   [
+    -39.881866455078125
+   ],
+   [
+    -40.795562744140625
+   ],
+   [
+    -47.06292724609375
+   ],
+   [
+    -29.429229736328125
+   ],
+   [
+    -31.859519958496094
+   ],
+   [
+    -39.52123260498047
+   ],
+   [
+    -30.65707778930664
+   ],
+   [
+    -28.298616409301758
+   ],
+   [
+    -27.25832176208496
+   ],
+   [
+    -31.020824432373047
+   ],
+   [
+    -30.27423095703125
+   ],
+   [
+    -28.56367301940918
+   ],
+   [
+    -32.56414794921875
+   ],
+   [
+    -29.655750274658203
+   ],
+   [
+    -27.222131729125977
+   ],
+   [
+    -35.23545455932617
+   ],
+   [
+    -32.04635238647461
+   ],
+   [
+    -33.49302673339844
+   ],
+   [
+    -34.21710205078125
+   ],
+   [
+    -45.45326232910156
+   ],
+   [
+    -30.69200897216797
+   ],
+   [
+    -30.26520347595215
+   ],
+   [
+    -31.332447052001953
+   ],
+   [
+    -33.53947448730469
+   ],
+   [
+    -34.5070686340332
+   ],
+   [
+    -37.49134826660156
+   ],
+   [
+    -24.887550354003906
+   ],
+   [
+    -26.0699405670166
+   ],
+   [
+    -29.587018966674805
+   ],
+   [
+    -28.24868392944336
+   ],
+   [
+    -34.65514373779297
+   ],
+   [
+    -35.07014846801758
+   ],
+   [
+    -27.720706939697266
+   ],
+   [
+    -29.647348403930664
+   ],
+   [
+    -42.957794189453125
+   ],
+   [
+    -31.832908630371094
+   ],
+   [
+    -32.31287384033203
+   ],
+   [
+    -29.603532791137695
+   ],
+   [
+    -25.788728713989258
+   ],
+   [
+    -28.272294998168945
+   ],
+   [
+    -36.50690460205078
+   ],
+   [
+    -28.02317237854004
+   ],
+   [
+    -32.60580825805664
+   ],
+   [
+    -26.13823890686035
+   ],
+   [
+    -32.52048873901367
+   ],
+   [
+    -31.67870330810547
+   ],
+   [
+    -25.3292236328125
+   ],
+   [
+    -38.10517883300781
+   ],
+   [
+    -29.092134475708008
+   ],
+   [
+    -34.5927848815918
+   ],
+   [
+    -28.259498596191406
+   ],
+   [
+    -29.532363891601562
+   ],
+   [
+    -29.006736755371094
+   ],
+   [
+    -28.04789924621582
+   ],
+   [
+    -39.32001495361328
+   ],
+   [
+    -29.191699981689453
+   ],
+   [
+    -29.585420608520508
+   ],
+   [
+    -32.32764434814453
+   ],
+   [
+    -33.599266052246094
+   ],
+   [
+    -28.214784622192383
+   ],
+   [
+    -32.55719757080078
+   ],
+   [
+    -32.80143737792969
+   ],
+   [
+    -27.594919204711914
+   ],
+   [
+    -28.213157653808594
+   ],
+   [
+    -24.291423797607422
+   ],
+   [
+    -29.43630599975586
+   ],
+   [
+    -41.66374588012695
+   ],
+   [
+    -29.809890747070312
+   ],
+   [
+    -34.36652755737305
+   ],
+   [
+    -40.40570831298828
+   ],
+   [
+    -26.694063186645508
+   ],
+   [
+    -40.778526306152344
+   ],
+   [
+    -32.68586730957031
+   ],
+   [
+    -29.930173873901367
+   ],
+   [
+    -30.518207550048828
+   ],
+   [
+    -26.07630729675293
+   ],
+   [
+    -27.82465171813965
+   ],
+   [
+    -31.998992919921875
+   ],
+   [
+    -31.964767456054688
+   ],
+   [
+    -33.15644836425781
+   ],
+   [
+    -33.81424331665039
+   ],
+   [
+    -40.93975830078125
+   ],
+   [
+    -33.4001350402832
+   ],
+   [
+    -27.055143356323242
+   ],
+   [
+    -32.74224853515625
+   ],
+   [
+    -29.51850700378418
+   ],
+   [
+    -24.326854705810547
+   ],
+   [
+    -28.2711124420166
+   ],
+   [
+    -30.634838104248047
+   ],
+   [
+    -34.73497009277344
+   ],
+   [
+    -37.117652893066406
+   ],
+   [
+    -27.913846969604492
+   ],
+   [
+    -28.664127349853516
+   ],
+   [
+    -29.75751304626465
+   ],
+   [
+    -32.182247161865234
+   ],
+   [
+    -36.76710510253906
+   ],
+   [
+    -39.181209564208984
+   ],
+   [
+    -24.748579025268555
+   ],
+   [
+    -28.39885902404785
+   ],
+   [
+    -27.827945709228516
+   ],
+   [
+    -45.769866943359375
+   ],
+   [
+    -33.82923889160156
+   ],
+   [
+    -35.300228118896484
+   ],
+   [
+    -29.092721939086914
+   ],
+   [
+    -35.262779235839844
+   ],
+   [
+    -32.158302307128906
+   ],
+   [
+    -28.19634246826172
+   ],
+   [
+    -27.7581729888916
+   ],
+   [
+    -28.501188278198242
+   ],
+   [
+    -34.701942443847656
+   ],
+   [
+    -27.749305725097656
+   ],
+   [
+    -36.07951354980469
+   ],
+   [
+    -31.469470977783203
+   ],
+   [
+    -32.30023956298828
+   ],
+   [
+    -39.15482711791992
+   ],
+   [
+    -25.156513214111328
+   ],
+   [
+    -29.80913543701172
+   ],
+   [
+    -27.03308868408203
+   ],
+   [
+    -29.560667037963867
+   ],
+   [
+    -34.333457946777344
+   ],
+   [
+    -31.98990249633789
+   ],
+   [
+    -28.815166473388672
+   ],
+   [
+    -27.571199417114258
+   ],
+   [
+    -26.8857479095459
+   ],
+   [
+    -26.86973762512207
+   ],
+   [
+    -29.968421936035156
+   ],
+   [
+    -42.635040283203125
+   ],
+   [
+    -36.67643737792969
+   ],
+   [
+    -33.06044006347656
+   ],
+   [
+    -31.712512969970703
+   ],
+   [
+    -25.907621383666992
+   ],
+   [
+    -29.61968994140625
+   ],
+   [
+    -29.019235610961914
+   ],
+   [
+    -28.024930953979492
+   ],
+   [
+    -28.657712936401367
+   ],
+   [
+    -29.370574951171875
+   ],
+   [
+    -30.783140182495117
+   ],
+   [
+    -29.02299690246582
+   ],
+   [
+    -27.55195426940918
+   ],
+   [
+    -29.614089965820312
+   ],
+   [
+    -25.873266220092773
+   ],
+   [
+    -31.16904067993164
+   ],
+   [
+    -32.339324951171875
+   ],
+   [
+    -30.08499526977539
+   ],
+   [
+    -29.161170959472656
+   ],
+   [
+    -30.381025314331055
+   ],
+   [
+    -30.810081481933594
+   ],
+   [
+    -32.45325469970703
+   ],
+   [
+    -39.08573913574219
+   ],
+   [
+    -28.718107223510742
+   ],
+   [
+    -30.355955123901367
+   ],
+   [
+    -29.996570587158203
+   ],
+   [
+    -32.87394714355469
+   ],
+   [
+    -26.685144424438477
+   ],
+   [
+    -42.91729736328125
+   ],
+   [
+    -27.78933334350586
+   ],
+   [
+    -35.101905822753906
+   ],
+   [
+    -38.60417938232422
+   ],
+   [
+    -49.26390838623047
+   ],
+   [
+    -36.59542465209961
+   ],
+   [
+    -42.17667770385742
+   ],
+   [
+    -34.25311279296875
+   ],
+   [
+    -28.105531692504883
+   ],
+   [
+    -35.68255615234375
+   ],
+   [
+    -32.1903190612793
+   ],
+   [
+    -37.912757873535156
+   ],
+   [
+    -35.08842849731445
+   ],
+   [
+    -39.17473602294922
+   ],
+   [
+    -26.853361129760742
+   ],
+   [
+    -26.411264419555664
+   ],
+   [
+    -26.098846435546875
+   ],
+   [
+    -28.114337921142578
+   ],
+   [
+    -33.36748504638672
+   ],
+   [
+    -32.2700080871582
+   ],
+   [
+    -35.00567626953125
+   ],
+   [
+    -31.228622436523438
+   ],
+   [
+    -29.834129333496094
+   ],
+   [
+    -29.67706871032715
+   ],
+   [
+    -31.63261604309082
+   ],
+   [
+    -22.661190032958984
+   ],
+   [
+    -42.188270568847656
+   ],
+   [
+    -27.881895065307617
+   ],
+   [
+    -35.308998107910156
+   ],
+   [
+    -30.25212287902832
+   ],
+   [
+    -29.69130516052246
+   ],
+   [
+    -31.625186920166016
+   ],
+   [
+    -37.75909423828125
+   ],
+   [
+    -34.016929626464844
+   ],
+   [
+    -35.90128707885742
+   ],
+   [
+    -38.4405403137207
+   ],
+   [
+    -31.68801498413086
+   ],
+   [
+    -30.140377044677734
+   ],
+   [
+    -28.694334030151367
+   ],
+   [
+    -33.31724166870117
+   ],
+   [
+    -35.73820495605469
+   ],
+   [
+    -30.18768310546875
+   ],
+   [
+    -30.917980194091797
+   ],
+   [
+    -31.724462509155273
+   ],
+   [
+    -34.367897033691406
+   ],
+   [
+    -31.82219123840332
+   ],
+   [
+    -36.915672302246094
+   ],
+   [
+    -28.571809768676758
+   ],
+   [
+    -41.1076545715332
+   ],
+   [
+    -27.614370346069336
+   ],
+   [
+    -34.23848342895508
+   ],
+   [
+    -33.10334014892578
+   ],
+   [
+    -38.82749557495117
+   ],
+   [
+    -35.50755310058594
+   ],
+   [
+    -32.21458435058594
+   ],
+   [
+    -37.49327850341797
+   ],
+   [
+    -32.613624572753906
+   ],
+   [
+    -29.059667587280273
+   ],
+   [
+    -35.0665283203125
+   ],
+   [
+    -29.337709426879883
+   ],
+   [
+    -32.699127197265625
+   ],
+   [
+    -32.30825424194336
+   ],
+   [
+    -27.466106414794922
+   ],
+   [
+    -35.84580993652344
+   ],
+   [
+    -32.66289520263672
+   ],
+   [
+    -32.69813537597656
+   ],
+   [
+    -30.335708618164062
+   ],
+   [
+    -30.499095916748047
+   ],
+   [
+    -39.321815490722656
+   ]
+  ]
+ ],
+ "time": 1762.2390694618225
+}

@@ -1,0 +1,2076 @@
+{
+ "case_id": 22116,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Carl Ritter"
+ },
+ "pre": [
+  [
+   "Carl Ritter's field of work is meteorology",
+   "Carl Ritter's field of work is radioactivity",
+   "Carl Ritter's field of work is complex function",
+   "Carl Ritter's field of work is histology",
+   "Carl Ritter's field of work is algebra",
+   "Carl Ritter's field of work is electron",
+   "Carl Ritter's field of work is quantum theory",
+   "Carl Ritter's field of work is applied mathematics",
+   "Carl Ritter's field of work is electricity",
+   "Carl Ritter's field of work is human geography",
+   "Carl Ritter's field of work is crystallography",
+   "Carl Ritter's field of work is chemistry",
+   "Carl Ritter's field of work is Jewish studies",
+   "Carl Ritter's field of work is topology",
+   "Carl Ritter's field of work is mathematical analysis",
+   "Carl Ritter's field of work is computational geometry",
+   "Carl Ritter's field of work is Petrine ministry",
+   "Carl Ritter's field of work is social psychology",
+   "Carl Ritter's field of work is genetics",
+   "Carl Ritter's field of work is informatics",
+   "Carl Ritter's field of work is shipbuilding",
+   "Carl Ritter's field of work is historical sociology",
+   "Carl Ritter's field of work is quantum mysticism",
+   "Carl Ritter's field of work is philosopher",
+   "Carl Ritter's field of work is Internet",
+   "Carl Ritter's field of work is gravity",
+   "Carl Ritter's field of work is theoretical physics",
+   "Carl Ritter's field of work is African studies",
+   "Carl Ritter's field of work is projective geometry",
+   "Carl Ritter's field of work is prose",
+   "Carl Ritter's field of work is momentum",
+   "Carl Ritter's field of work is Cairo Geniza",
+   "Carl Ritter's field of work is stochastic",
+   "Carl Ritter's field of work is algebraic topology",
+   "Carl Ritter's field of work is electrical engineering",
+   "Carl Ritter's field of work is hunting",
+   "Carl Ritter's field of work is evolution",
+   "Carl Ritter's field of work is economic anthropology",
+   "Carl Ritter's field of work is Hebrew",
+   "Carl Ritter's field of work is differential geometry",
+   "Carl Ritter's field of work is engineering",
+   "Carl Ritter's field of work is history of science",
+   "Carl Ritter's field of work is social anthropology",
+   "Carl Ritter's field of work is history",
+   "Carl Ritter's field of work is distribution theory",
+   "Carl Ritter's field of work is classics",
+   "Carl Ritter's field of work is crime novel",
+   "Carl Ritter's field of work is statistics",
+   "Carl Ritter's field of work is experimental physics",
+   "Carl Ritter's field of work is geography",
+   "Carl Ritter's field of work is anthropology",
+   "Carl Ritter's field of work is partial differential equation",
+   "Carl Ritter's field of work is applied physics",
+   "Carl Ritter's field of work is Sanskrit",
+   "Carl Ritter's field of work is a branch of physics",
+   "Carl Ritter's field of work is comparative mythology",
+   "Carl Ritter's field of work is radiation",
+   "Carl Ritter's field of work is aeromechanics",
+   "Carl Ritter's field of work is harmonic analysis",
+   "Carl Ritter's field of work is religion",
+   "Carl Ritter's field of work is civil rights",
+   "Carl Ritter's field of work is physicist",
+   "Carl Ritter's field of work is distribution",
+   "Carl Ritter's field of work is translations from Spanish",
+   "Carl Ritter's field of work is feminism",
+   "Carl Ritter's field of work is number theory",
+   "Carl Ritter's field of work is sociology of organisations",
+   "Carl Ritter's field of work is astronomer",
+   "Carl Ritter's field of work is children's and youth literature",
+   "Carl Ritter's field of work is fairy tale",
+   "Carl Ritter's field of work is economy",
+   "Carl Ritter's field of work is graph theory",
+   "Carl Ritter's field of work is magic",
+   "Carl Ritter's field of work is essay",
+   "Carl Ritter's field of work is theory of relativity",
+   "Carl Ritter's field of work is historical novel",
+   "Carl Ritter's field of work is biological anthropology",
+   "Carl Ritter's field of work is literary theory",
+   "Carl Ritter's field of work is Greek philology",
+   "Carl Ritter's field of work is lyric poetry",
+   "Carl Ritter's field of work is psychology",
+   "Carl Ritter's field of work is quaternion",
+   "Carl Ritter's field of work is rite",
+   "Carl Ritter's field of work is jazz",
+   "Carl Ritter's field of work is heat",
+   "Carl Ritter's field of work is embryology",
+   "Carl Ritter's field of work is social philosophy",
+   "Carl Ritter's field of work is dance choreography",
+   "Carl Ritter's field of work is politics",
+   "Carl Ritter's field of work is nanotechnology",
+   "Carl Ritter's field of work is Afghanistan",
+   "Carl Ritter's field of work is non-Euclidean geometry",
+   "Carl Ritter's field of work is Franciscan spirituality",
+   "Carl Ritter's field of work is detective literature",
+   "Carl Ritter's field of work is mathematician",
+   "Carl Ritter's field of work is String",
+   "Carl Ritter's field of work is classical music",
+   "Carl Ritter's field of work is translations from Occitan",
+   "Carl Ritter's field of work is abstract algebra",
+   "Carl Ritter's field of work is differential calculus",
+   "Carl Ritter's field of work is mythology",
+   "Carl Ritter's field of work is literary translation",
+   "Carl Ritter's field of work is ballistics",
+   "Carl Ritter's field of work is cryptography",
+   "Carl Ritter's field of work is Greek",
+   "Carl Ritter's field of work is logic",
+   "Carl Ritter's field of work is choreography",
+   "Carl Ritter's field of work is theology",
+   "Carl Ritter's field of work is world economy",
+   "Carl Ritter's field of work is magnetism",
+   "Carl Ritter's field of work is algebraic geometry",
+   "Carl Ritter's field of work is theory of differential equations",
+   "Carl Ritter's field of work is physics",
+   "Carl Ritter's field of work is music theory",
+   "Carl Ritter's field of work is economics",
+   "Carl Ritter's field of work is anatomy",
+   "Carl Ritter's field of work is electromagnetic field",
+   "Carl Ritter's field of work is analytic number theory",
+   "Carl Ritter's field of work is mathematical physics",
+   "Carl Ritter's field of work is journalism",
+   "Carl Ritter's field of work is sociology",
+   "Carl Ritter's field of work is literature",
+   "Carl Ritter's field of work is ethnography",
+   "Carl Ritter's field of work is belletristic literature",
+   "Carl Ritter's field of work is convex function",
+   "Carl Ritter's field of work is sociology of religion",
+   "Carl Ritter's field of work is pedagogy",
+   "Carl Ritter's field of work is philosophy",
+   "Carl Ritter's field of work is quantum mechanics",
+   "Carl Ritter's field of work is drama",
+   "Carl Ritter's field of work is dance",
+   "Carl Ritter's field of work is Judaism",
+   "Carl Ritter's field of work is quantum physics",
+   "Carl Ritter's field of work is philosophy of science",
+   "Carl Ritter's field of work is linguistics",
+   "Carl Ritter's field of work is myth",
+   "Carl Ritter's field of work is physiology",
+   "Carl Ritter's field of work is English",
+   "Carl Ritter's field of work is philology",
+   "Carl Ritter's field of work is political philosophy",
+   "Carl Ritter's field of work is mechanical engineering",
+   "Carl Ritter's field of work is ontology",
+   "Carl Ritter's field of work is forestry",
+   "Carl Ritter's field of work is aerodynamics",
+   "Carl Ritter's field of work is Christian Church",
+   "Carl Ritter's field of work is magnetic resonance",
+   "Carl Ritter's field of work is astrophysics",
+   "Carl Ritter's field of work is natural science",
+   "Carl Ritter's field of work is constitutional law",
+   "Carl Ritter's field of work is philosophy of law",
+   "Carl Ritter's field of work is education",
+   "Carl Ritter's field of work is Monte Carlo method",
+   "Carl Ritter's field of work is neurology",
+   "Carl Ritter's field of work is electric field",
+   "Carl Ritter's field of work is Minkowski spacetime",
+   "Carl Ritter's field of work is translations from Arabic language",
+   "Carl Ritter's field of work is Bayesian inference",
+   "Carl Ritter's field of work is translations from Polish",
+   "Carl Ritter's field of work is color photography",
+   "Carl Ritter's field of work is opera",
+   "Carl Ritter's field of work is model theory",
+   "Carl Ritter's field of work is cartography",
+   "Carl Ritter's field of work is nonstandard analysis",
+   "Carl Ritter's field of work is television program",
+   "Carl Ritter's field of work is complex manifold",
+   "Carl Ritter's field of work is poetry",
+   "Carl Ritter's field of work is mathematics",
+   "Carl Ritter's field of work is computer science",
+   "Carl Ritter's field of work is cosmology",
+   "Carl Ritter's field of work is silviculture",
+   "Carl Ritter's field of work is hydrodynamics",
+   "Carl Ritter's field of work is forestry science",
+   "Carl Ritter's field of work is comparative religion",
+   "Carl Ritter's field of work is information technology",
+   "Carl Ritter's field of work is ballet",
+   "Carl Ritter's field of work is English literature",
+   "Carl Ritter's field of work is conducting",
+   "Carl Ritter's field of work is hyperbolic geometry",
+   "Carl Ritter's field of work is biochemistry",
+   "Carl Ritter's field of work is religion and society",
+   "Carl Ritter's field of work is optics",
+   "Carl Ritter's field of work is ethics",
+   "Carl Ritter's field of work is cybernetics",
+   "Carl Ritter's field of work is astronomical observation",
+   "Carl Ritter's field of work is psychophysiology",
+   "Carl Ritter's field of work is culturology",
+   "Carl Ritter's field of work is history of religions",
+   "Carl Ritter's field of work is probability theory",
+   "Carl Ritter's field of work is paleontology",
+   "Carl Ritter's field of work is surgery",
+   "Carl Ritter's field of work is group theory",
+   "Carl Ritter's field of work is natural theology",
+   "Carl Ritter's field of work is astrology",
+   "Carl Ritter's field of work is quantum electrodynamics",
+   "Carl Ritter's field of work is mechanics",
+   "Carl Ritter's field of work is Lie algebra",
+   "Carl Ritter's field of work is trigonometry",
+   "Carl Ritter's field of work is literary activity",
+   "Carl Ritter's field of work is nuclear physics",
+   "Carl Ritter's field of work is translations from English",
+   "Carl Ritter's field of work is medicine",
+   "Carl Ritter's field of work is Jewish philosophy",
+   "Carl Ritter's field of work is mathematical logic",
+   "Carl Ritter's field of work is calculus of variations",
+   "Carl Ritter's field of work is ferromagnetism",
+   "Carl Ritter's field of work is analytic geometry",
+   "Carl Ritter's field of work is art of painting",
+   "Carl Ritter's field of work is functional analysis",
+   "Carl Ritter's field of work is folklore",
+   "Carl Ritter's field of work is study of history",
+   "Carl Ritter's field of work is geometry",
+   "Carl Ritter's field of work is positivism",
+   "Carl Ritter's field of work is geodesy",
+   "Carl Ritter's field of work is astronomy",
+   "Carl Ritter's field of work is magnetic field",
+   "Carl Ritter's field of work is kinetic theory",
+   "Carl Ritter's field of work is celestial mechanics",
+   "Carl Ritter's field of work is analytic philosophy",
+   "Carl Ritter's field of work is ethnology",
+   "Carl Ritter's field of work is history of economic thought",
+   "Carl Ritter is meteorology",
+   "Carl Ritter is radioactivity",
+   "Carl Ritter is complex function",
+   "Carl Ritter is histology",
+   "Carl Ritter is algebra",
+   "Carl Ritter is electron",
+   "Carl Ritter is quantum theory",
+   "Carl Ritter is applied mathematics",
+   "Carl Ritter is electricity",
+   "Carl Ritter is human geography",
+   "Carl Ritter is crystallography",
+   "Carl Ritter is chemistry",
+   "Carl Ritter is Jewish studies",
+   "Carl Ritter is topology",
+   "Carl Ritter is mathematical analysis",
+   "Carl Ritter is computational geometry",
+   "Carl Ritter is Petrine ministry",
+   "Carl Ritter is social psychology",
+   "Carl Ritter is genetics",
+   "Carl Ritter is informatics",
+   "Carl Ritter is shipbuilding",
+   "Carl Ritter is historical sociology",
+   "Carl Ritter is quantum mysticism",
+   "Carl Ritter is philosopher",
+   "Carl Ritter is Internet",
+   "Carl Ritter is gravity",
+   "Carl Ritter is theoretical physics",
+   "Carl Ritter is African studies",
+   "Carl Ritter is projective geometry",
+   "Carl Ritter is prose",
+   "Carl Ritter is momentum",
+   "Carl Ritter is Cairo Geniza",
+   "Carl Ritter is stochastic",
+   "Carl Ritter is algebraic topology",
+   "Carl Ritter is electrical engineering",
+   "Carl Ritter is hunting",
+   "Carl Ritter is evolution",
+   "Carl Ritter is economic anthropology",
+   "Carl Ritter is Hebrew",
+   "Carl Ritter is differential geometry",
+   "Carl Ritter is engineering",
+   "Carl Ritter is history of science",
+   "Carl Ritter is social anthropology",
+   "Carl Ritter is history",
+   "Carl Ritter is distribution theory",
+   "Carl Ritter is classics",
+   "Carl Ritter is crime novel",
+   "Carl Ritter is statistics",
+   "Carl Ritter is experimental physics",
+   "Carl Ritter is geography",
+   "Carl Ritter is anthropology",
+   "Carl Ritter is partial differential equation",
+   "Carl Ritter is applied physics",
+   "Carl Ritter is Sanskrit",
+   "Carl Ritter is a branch of physics",
+   "Carl Ritter is comparative mythology",
+   "Carl Ritter is radiation",
+   "Carl Ritter is aeromechanics",
+   "Carl Ritter is harmonic analysis",
+   "Carl Ritter is religion",
+   "Carl Ritter is civil rights",
+   "Carl Ritter is physicist",
+   "Carl Ritter is distribution",
+   "Carl Ritter is translations from Spanish",
+   "Carl Ritter is feminism",
+   "Carl Ritter is number theory",
+   "Carl Ritter is sociology of organisations",
+   "Carl Ritter is astronomer",
+   "Carl Ritter is children's and youth literature",
+   "Carl Ritter is fairy tale",
+   "Carl Ritter is economy",
+   "Carl Ritter is graph theory",
+   "Carl Ritter is magic",
+   "Carl Ritter is essay",
+   "Carl Ritter is theory of relativity",
+   "Carl Ritter is historical novel",
+   "Carl Ritter is biological anthropology",
+   "Carl Ritter is literary theory",
+   "Carl Ritter is Greek philology",
+   "Carl Ritter is lyric poetry",
+   "Carl Ritter is psychology",
+   "Carl Ritter is quaternion",
+   "Carl Ritter is rite",
+   "Carl Ritter is jazz",
+   "Carl Ritter is heat",
+   "Carl Ritter is embryology",
+   "Carl Ritter is social philosophy",
+   "Carl Ritter is dance choreography",
+   "Carl Ritter is politics",
+   "Carl Ritter is nanotechnology",
+   "Carl Ritter is Afghanistan",
+   "Carl Ritter is non-Euclidean geometry",
+   "Carl Ritter is Franciscan spirituality",
+   "Carl Ritter is detective literature",
+   "Carl Ritter is mathematician",
+   "Carl Ritter is String",
+   "Carl Ritter is classical music",
+   "Carl Ritter is translations from Occitan",
+   "Carl Ritter is abstract algebra",
+   "Carl Ritter is differential calculus",
+   "Carl Ritter is mythology",
+   "Carl Ritter is literary translation",
+   "Carl Ritter is ballistics",
+   "Carl Ritter is cryptography",
+   "Carl Ritter is Greek",
+   "Carl Ritter is logic",
+   "Carl Ritter is choreography",
+   "Carl Ritter is theology",
+   "Carl Ritter is world economy",
+   "Carl Ritter is magnetism",
+   "Carl Ritter is algebraic geometry",
+   "Carl Ritter is theory of differential equations",
+   "Carl Ritter is physics",
+   "Carl Ritter is music theory",
+   "Carl Ritter is economics",
+   "Carl Ritter is anatomy",
+   "Carl Ritter is electromagnetic field",
+   "Carl Ritter is analytic number theory",
+   "Carl Ritter is mathematical physics",
+   "Carl Ritter is journalism",
+   "Carl Ritter is sociology",
+   "Carl Ritter is literature",
+   "Carl Ritter is ethnography",
+   "Carl Ritter is belletristic literature",
+   "Carl Ritter is convex function",
+   "Carl Ritter is sociology of religion",
+   "Carl Ritter is pedagogy",
+   "Carl Ritter is philosophy",
+   "Carl Ritter is quantum mechanics",
+   "Carl Ritter is drama",
+   "Carl Ritter is dance",
+   "Carl Ritter is Judaism",
+   "Carl Ritter is quantum physics",
+   "Carl Ritter is philosophy of science",
+   "Carl Ritter is linguistics",
+   "Carl Ritter is myth",
+   "Carl Ritter is physiology",
+   "Carl Ritter is English",
+   "Carl Ritter is philology",
+   "Carl Ritter is political philosophy",
+   "Carl Ritter is mechanical engineering",
+   "Carl Ritter is ontology",
+   "Carl Ritter is forestry",
+   "Carl Ritter is aerodynamics",
+   "Carl Ritter is Christian Church",
+   "Carl Ritter is magnetic resonance",
+   "Carl Ritter is astrophysics",
+   "Carl Ritter is natural science",
+   "Carl Ritter is constitutional law",
+   "Carl Ritter is philosophy of law",
+   "Carl Ritter is education",
+   "Carl Ritter is Monte Carlo method",
+   "Carl Ritter is neurology",
+   "Carl Ritter is electric field",
+   "Carl Ritter is Minkowski spacetime",
+   "Carl Ritter is translations from Arabic language",
+   "Carl Ritter is Bayesian inference",
+   "Carl Ritter is translations from Polish",
+   "Carl Ritter is color photography",
+   "Carl Ritter is opera",
+   "Carl Ritter is model theory",
+   "Carl Ritter is cartography",
+   "Carl Ritter is nonstandard analysis",
+   "Carl Ritter is television program",
+   "Carl Ritter is complex manifold",
+   "Carl Ritter is poetry",
+   "Carl Ritter is mathematics",
+   "Carl Ritter is computer science",
+   "Carl Ritter is cosmology",
+   "Carl Ritter is silviculture",
+   "Carl Ritter is hydrodynamics",
+   "Carl Ritter is forestry science",
+   "Carl Ritter is comparative religion",
+   "Carl Ritter is information technology",
+   "Carl Ritter is ballet",
+   "Carl Ritter is English literature",
+   "Carl Ritter is conducting",
+   "Carl Ritter is hyperbolic geometry",
+   "Carl Ritter is biochemistry",
+   "Carl Ritter is religion and society",
+   "Carl Ritter is optics",
+   "Carl Ritter is ethics",
+   "Carl Ritter is cybernetics",
+   "Carl Ritter is astronomical observation",
+   "Carl Ritter is psychophysiology",
+   "Carl Ritter is culturology",
+   "Carl Ritter is history of religions",
+   "Carl Ritter is probability theory",
+   "Carl Ritter is paleontology",
+   "Carl Ritter is surgery",
+   "Carl Ritter is group theory",
+   "Carl Ritter is natural theology",
+   "Carl Ritter is astrology",
+   "Carl Ritter is quantum electrodynamics",
+   "Carl Ritter is mechanics",
+   "Carl Ritter is Lie algebra",
+   "Carl Ritter is trigonometry",
+   "Carl Ritter is literary activity",
+   "Carl Ritter is nuclear physics",
+   "Carl Ritter is translations from English",
+   "Carl Ritter is medicine",
+   "Carl Ritter is Jewish philosophy",
+   "Carl Ritter is mathematical logic",
+   "Carl Ritter is calculus of variations",
+   "Carl Ritter is ferromagnetism",
+   "Carl Ritter is analytic geometry",
+   "Carl Ritter is art of painting",
+   "Carl Ritter is functional analysis",
+   "Carl Ritter is folklore",
+   "Carl Ritter is study of history",
+   "Carl Ritter is geometry",
+   "Carl Ritter is positivism",
+   "Carl Ritter is geodesy",
+   "Carl Ritter is astronomy",
+   "Carl Ritter is magnetic field",
+   "Carl Ritter is kinetic theory",
+   "Carl Ritter is celestial mechanics",
+   "Carl Ritter is analytic philosophy",
+   "Carl Ritter is ethnology",
+   "Carl Ritter is history of economic thought"
+  ],
+  [
+   [
+    -37.89794158935547
+   ],
+   [
+    -39.630653381347656
+   ],
+   [
+    -45.85903549194336
+   ],
+   [
+    -39.50315856933594
+   ],
+   [
+    -38.417640686035156
+   ],
+   [
+    -38.02333068847656
+   ],
+   [
+    -38.42768859863281
+   ],
+   [
+    -37.81104278564453
+   ],
+   [
+    -37.873802185058594
+   ],
+   [
+    -38.08255386352539
+   ],
+   [
+    -39.183956146240234
+   ],
+   [
+    -36.086727142333984
+   ],
+   [
+    -40.16986083984375
+   ],
+   [
+    -38.821311950683594
+   ],
+   [
+    -39.39817810058594
+   ],
+   [
+    -39.81623077392578
+   ],
+   [
+    -54.306251525878906
+   ],
+   [
+    -35.73067855834961
+   ],
+   [
+    -36.522552490234375
+   ],
+   [
+    -37.41883850097656
+   ],
+   [
+    -40.99266815185547
+   ],
+   [
+    -40.32069396972656
+   ],
+   [
+    -44.64434051513672
+   ],
+   [
+    -39.24811553955078
+   ],
+   [
+    -35.57905197143555
+   ],
+   [
+    -38.49064636230469
+   ],
+   [
+    -36.17399215698242
+   ],
+   [
+    -40.08031463623047
+   ],
+   [
+    -42.87750244140625
+   ],
+   [
+    -38.71741485595703
+   ],
+   [
+    -41.407562255859375
+   ],
+   [
+    -50.565155029296875
+   ],
+   [
+    -38.36318588256836
+   ],
+   [
+    -40.40857696533203
+   ],
+   [
+    -37.64623260498047
+   ],
+   [
+    -37.447662353515625
+   ],
+   [
+    -37.15277862548828
+   ],
+   [
+    -39.343719482421875
+   ],
+   [
+    -39.82334899902344
+   ],
+   [
+    -40.86266326904297
+   ],
+   [
+    -35.961334228515625
+   ],
+   [
+    -38.95709228515625
+   ],
+   [
+    -37.81820297241211
+   ],
+   [
+    -34.10923385620117
+   ],
+   [
+    -42.76615905761719
+   ],
+   [
+    -38.50484085083008
+   ],
+   [
+    -44.58372497558594
+   ],
+   [
+    -37.271240234375
+   ],
+   [
+    -37.197021484375
+   ],
+   [
+    -36.81483459472656
+   ],
+   [
+    -35.31884765625
+   ],
+   [
+    -44.697113037109375
+   ],
+   [
+    -38.810970306396484
+   ],
+   [
+    -38.87617492675781
+   ],
+   [
+    -41.67435073852539
+   ],
+   [
+    -39.607757568359375
+   ],
+   [
+    -37.892738342285156
+   ],
+   [
+    -42.572689056396484
+   ],
+   [
+    -41.330909729003906
+   ],
+   [
+    -35.94481658935547
+   ],
+   [
+    -37.365257263183594
+   ],
+   [
+    -41.89679718017578
+   ],
+   [
+    -37.964691162109375
+   ],
+   [
+    -45.09284973144531
+   ],
+   [
+    -37.07765197753906
+   ],
+   [
+    -38.20111846923828
+   ],
+   [
+    -44.39152145385742
+   ],
+   [
+    -42.14988708496094
+   ],
+   [
+    -42.03725814819336
+   ],
+   [
+    -40.61491394042969
+   ],
+   [
+    -38.46074676513672
+   ],
+   [
+    -36.9046630859375
+   ],
+   [
+    -35.83198547363281
+   ],
+   [
+    -37.86293411254883
+   ],
+   [
+    -44.920066833496094
+   ],
+   [
+    -41.37903594970703
+   ],
+   [
+    -38.19727325439453
+   ],
+   [
+    -37.187583923339844
+   ],
+   [
+    -42.9376220703125
+   ],
+   [
+    -40.44987487792969
+   ],
+   [
+    -35.00175476074219
+   ],
+   [
+    -41.617515563964844
+   ],
+   [
+    -42.13264846801758
+   ],
+   [
+    -36.48384094238281
+   ],
+   [
+    -38.319725036621094
+   ],
+   [
+    -39.53538131713867
+   ],
+   [
+    -38.68511199951172
+   ],
+   [
+    -42.74748992919922
+   ],
+   [
+    -34.916595458984375
+   ],
+   [
+    -37.5994873046875
+   ],
+   [
+    -38.652137756347656
+   ],
+   [
+    -42.634273529052734
+   ],
+   [
+    -45.209877014160156
+   ],
+   [
+    -43.677032470703125
+   ],
+   [
+    -42.15435791015625
+   ],
+   [
+    -40.173118591308594
+   ],
+   [
+    -36.9383544921875
+   ],
+   [
+    -51.00473403930664
+   ],
+   [
+    -39.77708435058594
+   ],
+   [
+    -42.161155700683594
+   ],
+   [
+    -36.97368621826172
+   ],
+   [
+    -38.664710998535156
+   ],
+   [
+    -39.965126037597656
+   ],
+   [
+    -36.59188461303711
+   ],
+   [
+    -37.29188537597656
+   ],
+   [
+    -37.45083236694336
+   ],
+   [
+    -39.133506774902344
+   ],
+   [
+    -36.907386779785156
+   ],
+   [
+    -42.83304977416992
+   ],
+   [
+    -39.46513366699219
+   ],
+   [
+    -39.4490966796875
+   ],
+   [
+    -49.186622619628906
+   ],
+   [
+    -35.014404296875
+   ],
+   [
+    -38.04021072387695
+   ],
+   [
+    -34.95623016357422
+   ],
+   [
+    -37.66661834716797
+   ],
+   [
+    -41.79922866821289
+   ],
+   [
+    -41.90559387207031
+   ],
+   [
+    -38.832603454589844
+   ],
+   [
+    -35.43342208862305
+   ],
+   [
+    -35.497703552246094
+   ],
+   [
+    -35.08052062988281
+   ],
+   [
+    -36.107635498046875
+   ],
+   [
+    -46.884185791015625
+   ],
+   [
+    -44.93827819824219
+   ],
+   [
+    -39.000709533691406
+   ],
+   [
+    -37.00309753417969
+   ],
+   [
+    -33.864768981933594
+   ],
+   [
+    -37.11151123046875
+   ],
+   [
+    -37.12639617919922
+   ],
+   [
+    -35.73157501220703
+   ],
+   [
+    -39.22972106933594
+   ],
+   [
+    -36.352874755859375
+   ],
+   [
+    -36.52435302734375
+   ],
+   [
+    -35.808746337890625
+   ],
+   [
+    -37.07781982421875
+   ],
+   [
+    -37.87399673461914
+   ],
+   [
+    -36.01654052734375
+   ],
+   [
+    -37.95458984375
+   ],
+   [
+    -35.92521286010742
+   ],
+   [
+    -38.275447845458984
+   ],
+   [
+    -36.85157012939453
+   ],
+   [
+    -37.62458801269531
+   ],
+   [
+    -39.636295318603516
+   ],
+   [
+    -43.871734619140625
+   ],
+   [
+    -39.8173942565918
+   ],
+   [
+    -36.660118103027344
+   ],
+   [
+    -37.044837951660156
+   ],
+   [
+    -37.96612548828125
+   ],
+   [
+    -37.70526885986328
+   ],
+   [
+    -34.27573776245117
+   ],
+   [
+    -47.139129638671875
+   ],
+   [
+    -37.20885467529297
+   ],
+   [
+    -42.61393356323242
+   ],
+   [
+    -43.47563934326172
+   ],
+   [
+    -51.31399917602539
+   ],
+   [
+    -39.957523345947266
+   ],
+   [
+    -46.7164306640625
+   ],
+   [
+    -38.12921905517578
+   ],
+   [
+    -37.09736633300781
+   ],
+   [
+    -43.496124267578125
+   ],
+   [
+    -36.24907684326172
+   ],
+   [
+    -45.19922637939453
+   ],
+   [
+    -43.007164001464844
+   ],
+   [
+    -45.58808898925781
+   ],
+   [
+    -35.60196304321289
+   ],
+   [
+    -34.82071304321289
+   ],
+   [
+    -37.08815002441406
+   ],
+   [
+    -36.697410583496094
+   ],
+   [
+    -41.64221954345703
+   ],
+   [
+    -40.853431701660156
+   ],
+   [
+    -42.846229553222656
+   ],
+   [
+    -37.31245803833008
+   ],
+   [
+    -36.6422119140625
+   ],
+   [
+    -38.323219299316406
+   ],
+   [
+    -37.925071716308594
+   ],
+   [
+    -37.21006774902344
+   ],
+   [
+    -40.48048400878906
+   ],
+   [
+    -36.361053466796875
+   ],
+   [
+    -41.48883056640625
+   ],
+   [
+    -37.351905822753906
+   ],
+   [
+    -35.945186614990234
+   ],
+   [
+    -36.71112060546875
+   ],
+   [
+    -43.278526306152344
+   ],
+   [
+    -39.266021728515625
+   ],
+   [
+    -41.46760940551758
+   ],
+   [
+    -42.08552551269531
+   ],
+   [
+    -38.99774169921875
+   ],
+   [
+    -37.45208740234375
+   ],
+   [
+    -38.04291915893555
+   ],
+   [
+    -39.61200714111328
+   ],
+   [
+    -39.091278076171875
+   ],
+   [
+    -36.970211029052734
+   ],
+   [
+    -40.28840255737305
+   ],
+   [
+    -38.87128448486328
+   ],
+   [
+    -43.90852355957031
+   ],
+   [
+    -40.24543762207031
+   ],
+   [
+    -44.987030029296875
+   ],
+   [
+    -38.13228988647461
+   ],
+   [
+    -43.371246337890625
+   ],
+   [
+    -35.367000579833984
+   ],
+   [
+    -40.77734375
+   ],
+   [
+    -37.39826965332031
+   ],
+   [
+    -44.35557174682617
+   ],
+   [
+    -43.21120834350586
+   ],
+   [
+    -41.017356872558594
+   ],
+   [
+    -43.40251159667969
+   ],
+   [
+    -39.302024841308594
+   ],
+   [
+    -36.903621673583984
+   ],
+   [
+    -42.4388427734375
+   ],
+   [
+    -37.90142822265625
+   ],
+   [
+    -40.7403564453125
+   ],
+   [
+    -39.168800354003906
+   ],
+   [
+    -36.24249267578125
+   ],
+   [
+    -42.408538818359375
+   ],
+   [
+    -41.755126953125
+   ],
+   [
+    -40.3367919921875
+   ],
+   [
+    -37.3644905090332
+   ],
+   [
+    -36.812843322753906
+   ],
+   [
+    -43.4141731262207
+   ],
+   [
+    -26.51139259338379
+   ],
+   [
+    -28.322904586791992
+   ],
+   [
+    -34.19556427001953
+   ],
+   [
+    -27.55858039855957
+   ],
+   [
+    -25.03835105895996
+   ],
+   [
+    -24.405126571655273
+   ],
+   [
+    -28.023914337158203
+   ],
+   [
+    -26.422882080078125
+   ],
+   [
+    -25.06709098815918
+   ],
+   [
+    -28.131996154785156
+   ],
+   [
+    -28.13517951965332
+   ],
+   [
+    -23.960391998291016
+   ],
+   [
+    -31.65650177001953
+   ],
+   [
+    -28.70628547668457
+   ],
+   [
+    -29.081073760986328
+   ],
+   [
+    -29.817398071289062
+   ],
+   [
+    -42.361732482910156
+   ],
+   [
+    -25.96892547607422
+   ],
+   [
+    -26.70416831970215
+   ],
+   [
+    -25.62872314453125
+   ],
+   [
+    -28.207805633544922
+   ],
+   [
+    -32.08882141113281
+   ],
+   [
+    -36.62363815307617
+   ],
+   [
+    -21.892738342285156
+   ],
+   [
+    -20.937395095825195
+   ],
+   [
+    -26.203466415405273
+   ],
+   [
+    -25.155855178833008
+   ],
+   [
+    -27.458070755004883
+   ],
+   [
+    -30.662731170654297
+   ],
+   [
+    -24.315698623657227
+   ],
+   [
+    -25.277307510375977
+   ],
+   [
+    -37.878997802734375
+   ],
+   [
+    -27.338882446289062
+   ],
+   [
+    -29.458663940429688
+   ],
+   [
+    -26.074357986450195
+   ],
+   [
+    -21.210044860839844
+   ],
+   [
+    -24.56260108947754
+   ],
+   [
+    -31.997034072875977
+   ],
+   [
+    -24.879552841186523
+   ],
+   [
+    -29.485973358154297
+   ],
+   [
+    -21.869417190551758
+   ],
+   [
+    -29.69319725036621
+   ],
+   [
+    -27.441883087158203
+   ],
+   [
+    -21.514556884765625
+   ],
+   [
+    -34.608402252197266
+   ],
+   [
+    -25.495546340942383
+   ],
+   [
+    -30.32606315612793
+   ],
+   [
+    -23.826982498168945
+   ],
+   [
+    -27.969175338745117
+   ],
+   [
+    -24.22999382019043
+   ],
+   [
+    -23.765079498291016
+   ],
+   [
+    -35.17213821411133
+   ],
+   [
+    -26.31317901611328
+   ],
+   [
+    -25.34720230102539
+   ],
+   [
+    -32.728416442871094
+   ],
+   [
+    -31.083005905151367
+   ],
+   [
+    -25.069318771362305
+   ],
+   [
+    -28.870704650878906
+   ],
+   [
+    -31.02336883544922
+   ],
+   [
+    -24.566673278808594
+   ],
+   [
+    -24.505399703979492
+   ],
+   [
+    -21.933515548706055
+   ],
+   [
+    -25.25244140625
+   ],
+   [
+    -36.28190612792969
+   ],
+   [
+    -26.670562744140625
+   ],
+   [
+    -31.108320236206055
+   ],
+   [
+    -36.730655670166016
+   ],
+   [
+    -24.386960983276367
+   ],
+   [
+    -35.248172760009766
+   ],
+   [
+    -28.413423538208008
+   ],
+   [
+    -25.148693084716797
+   ],
+   [
+    -27.13125228881836
+   ],
+   [
+    -22.334375381469727
+   ],
+   [
+    -23.735010147094727
+   ],
+   [
+    -30.37717628479004
+   ],
+   [
+    -27.804536819458008
+   ],
+   [
+    -28.951496124267578
+   ],
+   [
+    -30.402603149414062
+   ],
+   [
+    -35.51609420776367
+   ],
+   [
+    -31.751300811767578
+   ],
+   [
+    -23.028696060180664
+   ],
+   [
+    -30.405614852905273
+   ],
+   [
+    -25.338167190551758
+   ],
+   [
+    -21.78799819946289
+   ],
+   [
+    -24.41117286682129
+   ],
+   [
+    -27.572120666503906
+   ],
+   [
+    -29.85638999938965
+   ],
+   [
+    -33.767215728759766
+   ],
+   [
+    -22.373958587646484
+   ],
+   [
+    -25.47688102722168
+   ],
+   [
+    -23.996540069580078
+   ],
+   [
+    -30.017574310302734
+   ],
+   [
+    -33.70143508911133
+   ],
+   [
+    -35.74880599975586
+   ],
+   [
+    -22.570634841918945
+   ],
+   [
+    -25.44960594177246
+   ],
+   [
+    -24.540916442871094
+   ],
+   [
+    -41.50911331176758
+   ],
+   [
+    -31.381591796875
+   ],
+   [
+    -30.67693519592285
+   ],
+   [
+    -25.90319061279297
+   ],
+   [
+    -30.968202590942383
+   ],
+   [
+    -28.033100128173828
+   ],
+   [
+    -24.65507698059082
+   ],
+   [
+    -23.84421157836914
+   ],
+   [
+    -24.691370010375977
+   ],
+   [
+    -30.612863540649414
+   ],
+   [
+    -23.902101516723633
+   ],
+   [
+    -31.473098754882812
+   ],
+   [
+    -28.731380462646484
+   ],
+   [
+    -28.62763786315918
+   ],
+   [
+    -36.27788162231445
+   ],
+   [
+    -22.210460662841797
+   ],
+   [
+    -26.841251373291016
+   ],
+   [
+    -21.877277374267578
+   ],
+   [
+    -25.6141300201416
+   ],
+   [
+    -30.684480667114258
+   ],
+   [
+    -28.169193267822266
+   ],
+   [
+    -26.935699462890625
+   ],
+   [
+    -22.360517501831055
+   ],
+   [
+    -22.914661407470703
+   ],
+   [
+    -24.035192489624023
+   ],
+   [
+    -26.327909469604492
+   ],
+   [
+    -38.236793518066406
+   ],
+   [
+    -34.26664733886719
+   ],
+   [
+    -29.167659759521484
+   ],
+   [
+    -27.498823165893555
+   ],
+   [
+    -22.341781616210938
+   ],
+   [
+    -26.855567932128906
+   ],
+   [
+    -25.100814819335938
+   ],
+   [
+    -23.990468978881836
+   ],
+   [
+    -26.24536895751953
+   ],
+   [
+    -26.354251861572266
+   ],
+   [
+    -27.75980567932129
+   ],
+   [
+    -24.673280715942383
+   ],
+   [
+    -23.760908126831055
+   ],
+   [
+    -25.872974395751953
+   ],
+   [
+    -22.183631896972656
+   ],
+   [
+    -27.398000717163086
+   ],
+   [
+    -28.492321014404297
+   ],
+   [
+    -25.380821228027344
+   ],
+   [
+    -26.419715881347656
+   ],
+   [
+    -25.297082901000977
+   ],
+   [
+    -26.833702087402344
+   ],
+   [
+    -28.032085418701172
+   ],
+   [
+    -34.45769119262695
+   ],
+   [
+    -26.531850814819336
+   ],
+   [
+    -26.5909366607666
+   ],
+   [
+    -24.504241943359375
+   ],
+   [
+    -28.86918830871582
+   ],
+   [
+    -21.91463851928711
+   ],
+   [
+    -39.52772521972656
+   ],
+   [
+    -24.30270767211914
+   ],
+   [
+    -30.33283233642578
+   ],
+   [
+    -33.135467529296875
+   ],
+   [
+    -43.801185607910156
+   ],
+   [
+    -32.8546028137207
+   ],
+   [
+    -37.87966537475586
+   ],
+   [
+    -31.03992462158203
+   ],
+   [
+    -24.221643447875977
+   ],
+   [
+    -32.49834442138672
+   ],
+   [
+    -28.759403228759766
+   ],
+   [
+    -33.910667419433594
+   ],
+   [
+    -30.504852294921875
+   ],
+   [
+    -34.39485168457031
+   ],
+   [
+    -23.60970115661621
+   ],
+   [
+    -23.006532669067383
+   ],
+   [
+    -22.063854217529297
+   ],
+   [
+    -25.108238220214844
+   ],
+   [
+    -27.300472259521484
+   ],
+   [
+    -27.951696395874023
+   ],
+   [
+    -29.768587112426758
+   ],
+   [
+    -28.133941650390625
+   ],
+   [
+    -24.585235595703125
+   ],
+   [
+    -26.06492042541504
+   ],
+   [
+    -27.498014450073242
+   ],
+   [
+    -19.076160430908203
+   ],
+   [
+    -37.203521728515625
+   ],
+   [
+    -25.089635848999023
+   ],
+   [
+    -31.923776626586914
+   ],
+   [
+    -26.428396224975586
+   ],
+   [
+    -25.104272842407227
+   ],
+   [
+    -27.435588836669922
+   ],
+   [
+    -34.53424072265625
+   ],
+   [
+    -30.476160049438477
+   ],
+   [
+    -30.958480834960938
+   ],
+   [
+    -34.155704498291016
+   ],
+   [
+    -27.935850143432617
+   ],
+   [
+    -26.3421630859375
+   ],
+   [
+    -25.09974479675293
+   ],
+   [
+    -29.665817260742188
+   ],
+   [
+    -31.654659271240234
+   ],
+   [
+    -27.00511932373047
+   ],
+   [
+    -29.83989143371582
+   ],
+   [
+    -26.717342376708984
+   ],
+   [
+    -32.6082649230957
+   ],
+   [
+    -28.456714630126953
+   ],
+   [
+    -33.41435241699219
+   ],
+   [
+    -26.127317428588867
+   ],
+   [
+    -35.767921447753906
+   ],
+   [
+    -24.13288688659668
+   ],
+   [
+    -32.09678649902344
+   ],
+   [
+    -28.259885787963867
+   ],
+   [
+    -33.017940521240234
+   ],
+   [
+    -32.90266418457031
+   ],
+   [
+    -28.710725784301758
+   ],
+   [
+    -35.04483413696289
+   ],
+   [
+    -29.315492630004883
+   ],
+   [
+    -26.031774520874023
+   ],
+   [
+    -31.333477020263672
+   ],
+   [
+    -25.847270965576172
+   ],
+   [
+    -27.953916549682617
+   ],
+   [
+    -30.146833419799805
+   ],
+   [
+    -24.527162551879883
+   ],
+   [
+    -31.505714416503906
+   ],
+   [
+    -28.75779151916504
+   ],
+   [
+    -29.89972686767578
+   ],
+   [
+    -26.845125198364258
+   ],
+   [
+    -26.39406967163086
+   ],
+   [
+    -33.93650817871094
+   ]
+  ]
+ ],
+ "time": 4753.487747907639
+}

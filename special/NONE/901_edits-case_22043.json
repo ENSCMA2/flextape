@@ -1,0 +1,2076 @@
+{
+ "case_id": 22043,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Wilhelm Ackermann"
+ },
+ "pre": [
+  [
+   "Wilhelm Ackermann's field of work is meteorology",
+   "Wilhelm Ackermann's field of work is radioactivity",
+   "Wilhelm Ackermann's field of work is complex function",
+   "Wilhelm Ackermann's field of work is histology",
+   "Wilhelm Ackermann's field of work is algebra",
+   "Wilhelm Ackermann's field of work is electron",
+   "Wilhelm Ackermann's field of work is quantum theory",
+   "Wilhelm Ackermann's field of work is applied mathematics",
+   "Wilhelm Ackermann's field of work is electricity",
+   "Wilhelm Ackermann's field of work is human geography",
+   "Wilhelm Ackermann's field of work is crystallography",
+   "Wilhelm Ackermann's field of work is chemistry",
+   "Wilhelm Ackermann's field of work is Jewish studies",
+   "Wilhelm Ackermann's field of work is topology",
+   "Wilhelm Ackermann's field of work is mathematical analysis",
+   "Wilhelm Ackermann's field of work is computational geometry",
+   "Wilhelm Ackermann's field of work is Petrine ministry",
+   "Wilhelm Ackermann's field of work is social psychology",
+   "Wilhelm Ackermann's field of work is genetics",
+   "Wilhelm Ackermann's field of work is informatics",
+   "Wilhelm Ackermann's field of work is shipbuilding",
+   "Wilhelm Ackermann's field of work is historical sociology",
+   "Wilhelm Ackermann's field of work is quantum mysticism",
+   "Wilhelm Ackermann's field of work is philosopher",
+   "Wilhelm Ackermann's field of work is Internet",
+   "Wilhelm Ackermann's field of work is gravity",
+   "Wilhelm Ackermann's field of work is theoretical physics",
+   "Wilhelm Ackermann's field of work is African studies",
+   "Wilhelm Ackermann's field of work is projective geometry",
+   "Wilhelm Ackermann's field of work is prose",
+   "Wilhelm Ackermann's field of work is momentum",
+   "Wilhelm Ackermann's field of work is Cairo Geniza",
+   "Wilhelm Ackermann's field of work is stochastic",
+   "Wilhelm Ackermann's field of work is algebraic topology",
+   "Wilhelm Ackermann's field of work is electrical engineering",
+   "Wilhelm Ackermann's field of work is hunting",
+   "Wilhelm Ackermann's field of work is evolution",
+   "Wilhelm Ackermann's field of work is economic anthropology",
+   "Wilhelm Ackermann's field of work is Hebrew",
+   "Wilhelm Ackermann's field of work is differential geometry",
+   "Wilhelm Ackermann's field of work is engineering",
+   "Wilhelm Ackermann's field of work is history of science",
+   "Wilhelm Ackermann's field of work is social anthropology",
+   "Wilhelm Ackermann's field of work is history",
+   "Wilhelm Ackermann's field of work is distribution theory",
+   "Wilhelm Ackermann's field of work is classics",
+   "Wilhelm Ackermann's field of work is crime novel",
+   "Wilhelm Ackermann's field of work is statistics",
+   "Wilhelm Ackermann's field of work is experimental physics",
+   "Wilhelm Ackermann's field of work is geography",
+   "Wilhelm Ackermann's field of work is anthropology",
+   "Wilhelm Ackermann's field of work is partial differential equation",
+   "Wilhelm Ackermann's field of work is applied physics",
+   "Wilhelm Ackermann's field of work is Sanskrit",
+   "Wilhelm Ackermann's field of work is a branch of physics",
+   "Wilhelm Ackermann's field of work is comparative mythology",
+   "Wilhelm Ackermann's field of work is radiation",
+   "Wilhelm Ackermann's field of work is aeromechanics",
+   "Wilhelm Ackermann's field of work is harmonic analysis",
+   "Wilhelm Ackermann's field of work is religion",
+   "Wilhelm Ackermann's field of work is civil rights",
+   "Wilhelm Ackermann's field of work is physicist",
+   "Wilhelm Ackermann's field of work is distribution",
+   "Wilhelm Ackermann's field of work is translations from Spanish",
+   "Wilhelm Ackermann's field of work is feminism",
+   "Wilhelm Ackermann's field of work is number theory",
+   "Wilhelm Ackermann's field of work is sociology of organisations",
+   "Wilhelm Ackermann's field of work is astronomer",
+   "Wilhelm Ackermann's field of work is children's and youth literature",
+   "Wilhelm Ackermann's field of work is fairy tale",
+   "Wilhelm Ackermann's field of work is economy",
+   "Wilhelm Ackermann's field of work is graph theory",
+   "Wilhelm Ackermann's field of work is magic",
+   "Wilhelm Ackermann's field of work is essay",
+   "Wilhelm Ackermann's field of work is theory of relativity",
+   "Wilhelm Ackermann's field of work is historical novel",
+   "Wilhelm Ackermann's field of work is biological anthropology",
+   "Wilhelm Ackermann's field of work is literary theory",
+   "Wilhelm Ackermann's field of work is Greek philology",
+   "Wilhelm Ackermann's field of work is lyric poetry",
+   "Wilhelm Ackermann's field of work is psychology",
+   "Wilhelm Ackermann's field of work is quaternion",
+   "Wilhelm Ackermann's field of work is rite",
+   "Wilhelm Ackermann's field of work is jazz",
+   "Wilhelm Ackermann's field of work is heat",
+   "Wilhelm Ackermann's field of work is embryology",
+   "Wilhelm Ackermann's field of work is social philosophy",
+   "Wilhelm Ackermann's field of work is dance choreography",
+   "Wilhelm Ackermann's field of work is politics",
+   "Wilhelm Ackermann's field of work is nanotechnology",
+   "Wilhelm Ackermann's field of work is Afghanistan",
+   "Wilhelm Ackermann's field of work is non-Euclidean geometry",
+   "Wilhelm Ackermann's field of work is Franciscan spirituality",
+   "Wilhelm Ackermann's field of work is detective literature",
+   "Wilhelm Ackermann's field of work is mathematician",
+   "Wilhelm Ackermann's field of work is String",
+   "Wilhelm Ackermann's field of work is classical music",
+   "Wilhelm Ackermann's field of work is translations from Occitan",
+   "Wilhelm Ackermann's field of work is abstract algebra",
+   "Wilhelm Ackermann's field of work is differential calculus",
+   "Wilhelm Ackermann's field of work is mythology",
+   "Wilhelm Ackermann's field of work is literary translation",
+   "Wilhelm Ackermann's field of work is ballistics",
+   "Wilhelm Ackermann's field of work is cryptography",
+   "Wilhelm Ackermann's field of work is Greek",
+   "Wilhelm Ackermann's field of work is logic",
+   "Wilhelm Ackermann's field of work is choreography",
+   "Wilhelm Ackermann's field of work is theology",
+   "Wilhelm Ackermann's field of work is world economy",
+   "Wilhelm Ackermann's field of work is magnetism",
+   "Wilhelm Ackermann's field of work is algebraic geometry",
+   "Wilhelm Ackermann's field of work is theory of differential equations",
+   "Wilhelm Ackermann's field of work is physics",
+   "Wilhelm Ackermann's field of work is music theory",
+   "Wilhelm Ackermann's field of work is economics",
+   "Wilhelm Ackermann's field of work is anatomy",
+   "Wilhelm Ackermann's field of work is electromagnetic field",
+   "Wilhelm Ackermann's field of work is analytic number theory",
+   "Wilhelm Ackermann's field of work is mathematical physics",
+   "Wilhelm Ackermann's field of work is journalism",
+   "Wilhelm Ackermann's field of work is sociology",
+   "Wilhelm Ackermann's field of work is literature",
+   "Wilhelm Ackermann's field of work is ethnography",
+   "Wilhelm Ackermann's field of work is belletristic literature",
+   "Wilhelm Ackermann's field of work is convex function",
+   "Wilhelm Ackermann's field of work is sociology of religion",
+   "Wilhelm Ackermann's field of work is pedagogy",
+   "Wilhelm Ackermann's field of work is philosophy",
+   "Wilhelm Ackermann's field of work is quantum mechanics",
+   "Wilhelm Ackermann's field of work is drama",
+   "Wilhelm Ackermann's field of work is dance",
+   "Wilhelm Ackermann's field of work is Judaism",
+   "Wilhelm Ackermann's field of work is quantum physics",
+   "Wilhelm Ackermann's field of work is philosophy of science",
+   "Wilhelm Ackermann's field of work is linguistics",
+   "Wilhelm Ackermann's field of work is myth",
+   "Wilhelm Ackermann's field of work is physiology",
+   "Wilhelm Ackermann's field of work is English",
+   "Wilhelm Ackermann's field of work is philology",
+   "Wilhelm Ackermann's field of work is political philosophy",
+   "Wilhelm Ackermann's field of work is mechanical engineering",
+   "Wilhelm Ackermann's field of work is ontology",
+   "Wilhelm Ackermann's field of work is forestry",
+   "Wilhelm Ackermann's field of work is aerodynamics",
+   "Wilhelm Ackermann's field of work is Christian Church",
+   "Wilhelm Ackermann's field of work is magnetic resonance",
+   "Wilhelm Ackermann's field of work is astrophysics",
+   "Wilhelm Ackermann's field of work is natural science",
+   "Wilhelm Ackermann's field of work is constitutional law",
+   "Wilhelm Ackermann's field of work is philosophy of law",
+   "Wilhelm Ackermann's field of work is education",
+   "Wilhelm Ackermann's field of work is Monte Carlo method",
+   "Wilhelm Ackermann's field of work is neurology",
+   "Wilhelm Ackermann's field of work is electric field",
+   "Wilhelm Ackermann's field of work is Minkowski spacetime",
+   "Wilhelm Ackermann's field of work is translations from Arabic language",
+   "Wilhelm Ackermann's field of work is Bayesian inference",
+   "Wilhelm Ackermann's field of work is translations from Polish",
+   "Wilhelm Ackermann's field of work is color photography",
+   "Wilhelm Ackermann's field of work is opera",
+   "Wilhelm Ackermann's field of work is model theory",
+   "Wilhelm Ackermann's field of work is cartography",
+   "Wilhelm Ackermann's field of work is nonstandard analysis",
+   "Wilhelm Ackermann's field of work is television program",
+   "Wilhelm Ackermann's field of work is complex manifold",
+   "Wilhelm Ackermann's field of work is poetry",
+   "Wilhelm Ackermann's field of work is mathematics",
+   "Wilhelm Ackermann's field of work is computer science",
+   "Wilhelm Ackermann's field of work is cosmology",
+   "Wilhelm Ackermann's field of work is silviculture",
+   "Wilhelm Ackermann's field of work is hydrodynamics",
+   "Wilhelm Ackermann's field of work is forestry science",
+   "Wilhelm Ackermann's field of work is comparative religion",
+   "Wilhelm Ackermann's field of work is information technology",
+   "Wilhelm Ackermann's field of work is ballet",
+   "Wilhelm Ackermann's field of work is English literature",
+   "Wilhelm Ackermann's field of work is conducting",
+   "Wilhelm Ackermann's field of work is hyperbolic geometry",
+   "Wilhelm Ackermann's field of work is biochemistry",
+   "Wilhelm Ackermann's field of work is religion and society",
+   "Wilhelm Ackermann's field of work is optics",
+   "Wilhelm Ackermann's field of work is ethics",
+   "Wilhelm Ackermann's field of work is cybernetics",
+   "Wilhelm Ackermann's field of work is astronomical observation",
+   "Wilhelm Ackermann's field of work is psychophysiology",
+   "Wilhelm Ackermann's field of work is culturology",
+   "Wilhelm Ackermann's field of work is history of religions",
+   "Wilhelm Ackermann's field of work is probability theory",
+   "Wilhelm Ackermann's field of work is paleontology",
+   "Wilhelm Ackermann's field of work is surgery",
+   "Wilhelm Ackermann's field of work is group theory",
+   "Wilhelm Ackermann's field of work is natural theology",
+   "Wilhelm Ackermann's field of work is astrology",
+   "Wilhelm Ackermann's field of work is quantum electrodynamics",
+   "Wilhelm Ackermann's field of work is mechanics",
+   "Wilhelm Ackermann's field of work is Lie algebra",
+   "Wilhelm Ackermann's field of work is trigonometry",
+   "Wilhelm Ackermann's field of work is literary activity",
+   "Wilhelm Ackermann's field of work is nuclear physics",
+   "Wilhelm Ackermann's field of work is translations from English",
+   "Wilhelm Ackermann's field of work is medicine",
+   "Wilhelm Ackermann's field of work is Jewish philosophy",
+   "Wilhelm Ackermann's field of work is mathematical logic",
+   "Wilhelm Ackermann's field of work is calculus of variations",
+   "Wilhelm Ackermann's field of work is ferromagnetism",
+   "Wilhelm Ackermann's field of work is analytic geometry",
+   "Wilhelm Ackermann's field of work is art of painting",
+   "Wilhelm Ackermann's field of work is functional analysis",
+   "Wilhelm Ackermann's field of work is folklore",
+   "Wilhelm Ackermann's field of work is study of history",
+   "Wilhelm Ackermann's field of work is geometry",
+   "Wilhelm Ackermann's field of work is positivism",
+   "Wilhelm Ackermann's field of work is geodesy",
+   "Wilhelm Ackermann's field of work is astronomy",
+   "Wilhelm Ackermann's field of work is magnetic field",
+   "Wilhelm Ackermann's field of work is kinetic theory",
+   "Wilhelm Ackermann's field of work is celestial mechanics",
+   "Wilhelm Ackermann's field of work is analytic philosophy",
+   "Wilhelm Ackermann's field of work is ethnology",
+   "Wilhelm Ackermann's field of work is history of economic thought",
+   "Wilhelm Ackermann is meteorology",
+   "Wilhelm Ackermann is radioactivity",
+   "Wilhelm Ackermann is complex function",
+   "Wilhelm Ackermann is histology",
+   "Wilhelm Ackermann is algebra",
+   "Wilhelm Ackermann is electron",
+   "Wilhelm Ackermann is quantum theory",
+   "Wilhelm Ackermann is applied mathematics",
+   "Wilhelm Ackermann is electricity",
+   "Wilhelm Ackermann is human geography",
+   "Wilhelm Ackermann is crystallography",
+   "Wilhelm Ackermann is chemistry",
+   "Wilhelm Ackermann is Jewish studies",
+   "Wilhelm Ackermann is topology",
+   "Wilhelm Ackermann is mathematical analysis",
+   "Wilhelm Ackermann is computational geometry",
+   "Wilhelm Ackermann is Petrine ministry",
+   "Wilhelm Ackermann is social psychology",
+   "Wilhelm Ackermann is genetics",
+   "Wilhelm Ackermann is informatics",
+   "Wilhelm Ackermann is shipbuilding",
+   "Wilhelm Ackermann is historical sociology",
+   "Wilhelm Ackermann is quantum mysticism",
+   "Wilhelm Ackermann is philosopher",
+   "Wilhelm Ackermann is Internet",
+   "Wilhelm Ackermann is gravity",
+   "Wilhelm Ackermann is theoretical physics",
+   "Wilhelm Ackermann is African studies",
+   "Wilhelm Ackermann is projective geometry",
+   "Wilhelm Ackermann is prose",
+   "Wilhelm Ackermann is momentum",
+   "Wilhelm Ackermann is Cairo Geniza",
+   "Wilhelm Ackermann is stochastic",
+   "Wilhelm Ackermann is algebraic topology",
+   "Wilhelm Ackermann is electrical engineering",
+   "Wilhelm Ackermann is hunting",
+   "Wilhelm Ackermann is evolution",
+   "Wilhelm Ackermann is economic anthropology",
+   "Wilhelm Ackermann is Hebrew",
+   "Wilhelm Ackermann is differential geometry",
+   "Wilhelm Ackermann is engineering",
+   "Wilhelm Ackermann is history of science",
+   "Wilhelm Ackermann is social anthropology",
+   "Wilhelm Ackermann is history",
+   "Wilhelm Ackermann is distribution theory",
+   "Wilhelm Ackermann is classics",
+   "Wilhelm Ackermann is crime novel",
+   "Wilhelm Ackermann is statistics",
+   "Wilhelm Ackermann is experimental physics",
+   "Wilhelm Ackermann is geography",
+   "Wilhelm Ackermann is anthropology",
+   "Wilhelm Ackermann is partial differential equation",
+   "Wilhelm Ackermann is applied physics",
+   "Wilhelm Ackermann is Sanskrit",
+   "Wilhelm Ackermann is a branch of physics",
+   "Wilhelm Ackermann is comparative mythology",
+   "Wilhelm Ackermann is radiation",
+   "Wilhelm Ackermann is aeromechanics",
+   "Wilhelm Ackermann is harmonic analysis",
+   "Wilhelm Ackermann is religion",
+   "Wilhelm Ackermann is civil rights",
+   "Wilhelm Ackermann is physicist",
+   "Wilhelm Ackermann is distribution",
+   "Wilhelm Ackermann is translations from Spanish",
+   "Wilhelm Ackermann is feminism",
+   "Wilhelm Ackermann is number theory",
+   "Wilhelm Ackermann is sociology of organisations",
+   "Wilhelm Ackermann is astronomer",
+   "Wilhelm Ackermann is children's and youth literature",
+   "Wilhelm Ackermann is fairy tale",
+   "Wilhelm Ackermann is economy",
+   "Wilhelm Ackermann is graph theory",
+   "Wilhelm Ackermann is magic",
+   "Wilhelm Ackermann is essay",
+   "Wilhelm Ackermann is theory of relativity",
+   "Wilhelm Ackermann is historical novel",
+   "Wilhelm Ackermann is biological anthropology",
+   "Wilhelm Ackermann is literary theory",
+   "Wilhelm Ackermann is Greek philology",
+   "Wilhelm Ackermann is lyric poetry",
+   "Wilhelm Ackermann is psychology",
+   "Wilhelm Ackermann is quaternion",
+   "Wilhelm Ackermann is rite",
+   "Wilhelm Ackermann is jazz",
+   "Wilhelm Ackermann is heat",
+   "Wilhelm Ackermann is embryology",
+   "Wilhelm Ackermann is social philosophy",
+   "Wilhelm Ackermann is dance choreography",
+   "Wilhelm Ackermann is politics",
+   "Wilhelm Ackermann is nanotechnology",
+   "Wilhelm Ackermann is Afghanistan",
+   "Wilhelm Ackermann is non-Euclidean geometry",
+   "Wilhelm Ackermann is Franciscan spirituality",
+   "Wilhelm Ackermann is detective literature",
+   "Wilhelm Ackermann is mathematician",
+   "Wilhelm Ackermann is String",
+   "Wilhelm Ackermann is classical music",
+   "Wilhelm Ackermann is translations from Occitan",
+   "Wilhelm Ackermann is abstract algebra",
+   "Wilhelm Ackermann is differential calculus",
+   "Wilhelm Ackermann is mythology",
+   "Wilhelm Ackermann is literary translation",
+   "Wilhelm Ackermann is ballistics",
+   "Wilhelm Ackermann is cryptography",
+   "Wilhelm Ackermann is Greek",
+   "Wilhelm Ackermann is logic",
+   "Wilhelm Ackermann is choreography",
+   "Wilhelm Ackermann is theology",
+   "Wilhelm Ackermann is world economy",
+   "Wilhelm Ackermann is magnetism",
+   "Wilhelm Ackermann is algebraic geometry",
+   "Wilhelm Ackermann is theory of differential equations",
+   "Wilhelm Ackermann is physics",
+   "Wilhelm Ackermann is music theory",
+   "Wilhelm Ackermann is economics",
+   "Wilhelm Ackermann is anatomy",
+   "Wilhelm Ackermann is electromagnetic field",
+   "Wilhelm Ackermann is analytic number theory",
+   "Wilhelm Ackermann is mathematical physics",
+   "Wilhelm Ackermann is journalism",
+   "Wilhelm Ackermann is sociology",
+   "Wilhelm Ackermann is literature",
+   "Wilhelm Ackermann is ethnography",
+   "Wilhelm Ackermann is belletristic literature",
+   "Wilhelm Ackermann is convex function",
+   "Wilhelm Ackermann is sociology of religion",
+   "Wilhelm Ackermann is pedagogy",
+   "Wilhelm Ackermann is philosophy",
+   "Wilhelm Ackermann is quantum mechanics",
+   "Wilhelm Ackermann is drama",
+   "Wilhelm Ackermann is dance",
+   "Wilhelm Ackermann is Judaism",
+   "Wilhelm Ackermann is quantum physics",
+   "Wilhelm Ackermann is philosophy of science",
+   "Wilhelm Ackermann is linguistics",
+   "Wilhelm Ackermann is myth",
+   "Wilhelm Ackermann is physiology",
+   "Wilhelm Ackermann is English",
+   "Wilhelm Ackermann is philology",
+   "Wilhelm Ackermann is political philosophy",
+   "Wilhelm Ackermann is mechanical engineering",
+   "Wilhelm Ackermann is ontology",
+   "Wilhelm Ackermann is forestry",
+   "Wilhelm Ackermann is aerodynamics",
+   "Wilhelm Ackermann is Christian Church",
+   "Wilhelm Ackermann is magnetic resonance",
+   "Wilhelm Ackermann is astrophysics",
+   "Wilhelm Ackermann is natural science",
+   "Wilhelm Ackermann is constitutional law",
+   "Wilhelm Ackermann is philosophy of law",
+   "Wilhelm Ackermann is education",
+   "Wilhelm Ackermann is Monte Carlo method",
+   "Wilhelm Ackermann is neurology",
+   "Wilhelm Ackermann is electric field",
+   "Wilhelm Ackermann is Minkowski spacetime",
+   "Wilhelm Ackermann is translations from Arabic language",
+   "Wilhelm Ackermann is Bayesian inference",
+   "Wilhelm Ackermann is translations from Polish",
+   "Wilhelm Ackermann is color photography",
+   "Wilhelm Ackermann is opera",
+   "Wilhelm Ackermann is model theory",
+   "Wilhelm Ackermann is cartography",
+   "Wilhelm Ackermann is nonstandard analysis",
+   "Wilhelm Ackermann is television program",
+   "Wilhelm Ackermann is complex manifold",
+   "Wilhelm Ackermann is poetry",
+   "Wilhelm Ackermann is mathematics",
+   "Wilhelm Ackermann is computer science",
+   "Wilhelm Ackermann is cosmology",
+   "Wilhelm Ackermann is silviculture",
+   "Wilhelm Ackermann is hydrodynamics",
+   "Wilhelm Ackermann is forestry science",
+   "Wilhelm Ackermann is comparative religion",
+   "Wilhelm Ackermann is information technology",
+   "Wilhelm Ackermann is ballet",
+   "Wilhelm Ackermann is English literature",
+   "Wilhelm Ackermann is conducting",
+   "Wilhelm Ackermann is hyperbolic geometry",
+   "Wilhelm Ackermann is biochemistry",
+   "Wilhelm Ackermann is religion and society",
+   "Wilhelm Ackermann is optics",
+   "Wilhelm Ackermann is ethics",
+   "Wilhelm Ackermann is cybernetics",
+   "Wilhelm Ackermann is astronomical observation",
+   "Wilhelm Ackermann is psychophysiology",
+   "Wilhelm Ackermann is culturology",
+   "Wilhelm Ackermann is history of religions",
+   "Wilhelm Ackermann is probability theory",
+   "Wilhelm Ackermann is paleontology",
+   "Wilhelm Ackermann is surgery",
+   "Wilhelm Ackermann is group theory",
+   "Wilhelm Ackermann is natural theology",
+   "Wilhelm Ackermann is astrology",
+   "Wilhelm Ackermann is quantum electrodynamics",
+   "Wilhelm Ackermann is mechanics",
+   "Wilhelm Ackermann is Lie algebra",
+   "Wilhelm Ackermann is trigonometry",
+   "Wilhelm Ackermann is literary activity",
+   "Wilhelm Ackermann is nuclear physics",
+   "Wilhelm Ackermann is translations from English",
+   "Wilhelm Ackermann is medicine",
+   "Wilhelm Ackermann is Jewish philosophy",
+   "Wilhelm Ackermann is mathematical logic",
+   "Wilhelm Ackermann is calculus of variations",
+   "Wilhelm Ackermann is ferromagnetism",
+   "Wilhelm Ackermann is analytic geometry",
+   "Wilhelm Ackermann is art of painting",
+   "Wilhelm Ackermann is functional analysis",
+   "Wilhelm Ackermann is folklore",
+   "Wilhelm Ackermann is study of history",
+   "Wilhelm Ackermann is geometry",
+   "Wilhelm Ackermann is positivism",
+   "Wilhelm Ackermann is geodesy",
+   "Wilhelm Ackermann is astronomy",
+   "Wilhelm Ackermann is magnetic field",
+   "Wilhelm Ackermann is kinetic theory",
+   "Wilhelm Ackermann is celestial mechanics",
+   "Wilhelm Ackermann is analytic philosophy",
+   "Wilhelm Ackermann is ethnology",
+   "Wilhelm Ackermann is history of economic thought"
+  ],
+  [
+   [
+    -42.519466400146484
+   ],
+   [
+    -44.03074645996094
+   ],
+   [
+    -49.80768966674805
+   ],
+   [
+    -43.90687942504883
+   ],
+   [
+    -41.261756896972656
+   ],
+   [
+    -42.712425231933594
+   ],
+   [
+    -43.4339485168457
+   ],
+   [
+    -41.363433837890625
+   ],
+   [
+    -41.95534896850586
+   ],
+   [
+    -43.6686897277832
+   ],
+   [
+    -42.871551513671875
+   ],
+   [
+    -40.576969146728516
+   ],
+   [
+    -44.48333740234375
+   ],
+   [
+    -41.84857177734375
+   ],
+   [
+    -43.494483947753906
+   ],
+   [
+    -42.926025390625
+   ],
+   [
+    -56.844032287597656
+   ],
+   [
+    -41.141197204589844
+   ],
+   [
+    -41.67963409423828
+   ],
+   [
+    -42.422664642333984
+   ],
+   [
+    -44.42201232910156
+   ],
+   [
+    -45.091915130615234
+   ],
+   [
+    -50.94367980957031
+   ],
+   [
+    -43.99529266357422
+   ],
+   [
+    -40.85852813720703
+   ],
+   [
+    -43.270511627197266
+   ],
+   [
+    -40.835514068603516
+   ],
+   [
+    -45.10950469970703
+   ],
+   [
+    -47.235740661621094
+   ],
+   [
+    -43.302059173583984
+   ],
+   [
+    -46.515968322753906
+   ],
+   [
+    -53.81040954589844
+   ],
+   [
+    -42.69966125488281
+   ],
+   [
+    -43.60259246826172
+   ],
+   [
+    -41.28730773925781
+   ],
+   [
+    -43.343406677246094
+   ],
+   [
+    -42.330543518066406
+   ],
+   [
+    -43.943328857421875
+   ],
+   [
+    -43.91680908203125
+   ],
+   [
+    -44.121620178222656
+   ],
+   [
+    -40.8808708190918
+   ],
+   [
+    -42.93138885498047
+   ],
+   [
+    -42.858638763427734
+   ],
+   [
+    -39.138641357421875
+   ],
+   [
+    -44.89680480957031
+   ],
+   [
+    -43.238277435302734
+   ],
+   [
+    -48.497337341308594
+   ],
+   [
+    -41.83622360229492
+   ],
+   [
+    -41.73575210571289
+   ],
+   [
+    -41.552642822265625
+   ],
+   [
+    -41.18317413330078
+   ],
+   [
+    -49.87786865234375
+   ],
+   [
+    -43.958553314208984
+   ],
+   [
+    -43.153038024902344
+   ],
+   [
+    -46.494110107421875
+   ],
+   [
+    -44.3475341796875
+   ],
+   [
+    -42.83081817626953
+   ],
+   [
+    -47.66276931762695
+   ],
+   [
+    -45.23225784301758
+   ],
+   [
+    -41.085975646972656
+   ],
+   [
+    -44.54679870605469
+   ],
+   [
+    -46.53101348876953
+   ],
+   [
+    -42.350982666015625
+   ],
+   [
+    -49.820194244384766
+   ],
+   [
+    -42.78779983520508
+   ],
+   [
+    -40.7471809387207
+   ],
+   [
+    -48.76896667480469
+   ],
+   [
+    -47.28749084472656
+   ],
+   [
+    -45.962738037109375
+   ],
+   [
+    -44.68297576904297
+   ],
+   [
+    -42.71009063720703
+   ],
+   [
+    -40.397918701171875
+   ],
+   [
+    -41.10120391845703
+   ],
+   [
+    -42.895179748535156
+   ],
+   [
+    -47.22920227050781
+   ],
+   [
+    -46.04309844970703
+   ],
+   [
+    -44.086456298828125
+   ],
+   [
+    -41.88726806640625
+   ],
+   [
+    -46.45550537109375
+   ],
+   [
+    -45.05133819580078
+   ],
+   [
+    -39.96622085571289
+   ],
+   [
+    -46.22405242919922
+   ],
+   [
+    -47.47065353393555
+   ],
+   [
+    -42.12118148803711
+   ],
+   [
+    -43.19948959350586
+   ],
+   [
+    -43.51256561279297
+   ],
+   [
+    -43.552940368652344
+   ],
+   [
+    -47.8372802734375
+   ],
+   [
+    -40.56100845336914
+   ],
+   [
+    -42.604331970214844
+   ],
+   [
+    -44.62666702270508
+   ],
+   [
+    -46.27312469482422
+   ],
+   [
+    -50.48524475097656
+   ],
+   [
+    -47.7060546875
+   ],
+   [
+    -45.6168098449707
+   ],
+   [
+    -44.109798431396484
+   ],
+   [
+    -41.96527099609375
+   ],
+   [
+    -55.522666931152344
+   ],
+   [
+    -42.2615966796875
+   ],
+   [
+    -45.52685546875
+   ],
+   [
+    -42.2442626953125
+   ],
+   [
+    -44.23614501953125
+   ],
+   [
+    -44.77062225341797
+   ],
+   [
+    -40.3492317199707
+   ],
+   [
+    -41.78113555908203
+   ],
+   [
+    -40.629608154296875
+   ],
+   [
+    -43.861961364746094
+   ],
+   [
+    -41.4780158996582
+   ],
+   [
+    -46.93389892578125
+   ],
+   [
+    -44.123069763183594
+   ],
+   [
+    -42.570289611816406
+   ],
+   [
+    -49.208404541015625
+   ],
+   [
+    -39.75947189331055
+   ],
+   [
+    -41.25916290283203
+   ],
+   [
+    -39.72389221191406
+   ],
+   [
+    -42.06356430053711
+   ],
+   [
+    -46.416587829589844
+   ],
+   [
+    -45.622920989990234
+   ],
+   [
+    -43.4388427734375
+   ],
+   [
+    -41.15497589111328
+   ],
+   [
+    -40.50364685058594
+   ],
+   [
+    -40.21469497680664
+   ],
+   [
+    -42.035614013671875
+   ],
+   [
+    -50.251373291015625
+   ],
+   [
+    -49.134429931640625
+   ],
+   [
+    -43.930076599121094
+   ],
+   [
+    -41.95159912109375
+   ],
+   [
+    -38.450035095214844
+   ],
+   [
+    -42.042118072509766
+   ],
+   [
+    -42.18889236450195
+   ],
+   [
+    -41.48355484008789
+   ],
+   [
+    -43.9085807800293
+   ],
+   [
+    -42.015052795410156
+   ],
+   [
+    -41.08153533935547
+   ],
+   [
+    -39.85575866699219
+   ],
+   [
+    -42.41917419433594
+   ],
+   [
+    -42.198814392089844
+   ],
+   [
+    -40.7777099609375
+   ],
+   [
+    -41.50159454345703
+   ],
+   [
+    -40.7779541015625
+   ],
+   [
+    -41.87763214111328
+   ],
+   [
+    -41.450416564941406
+   ],
+   [
+    -42.486602783203125
+   ],
+   [
+    -43.762332916259766
+   ],
+   [
+    -48.654144287109375
+   ],
+   [
+    -44.803977966308594
+   ],
+   [
+    -41.96449661254883
+   ],
+   [
+    -42.1558837890625
+   ],
+   [
+    -42.663780212402344
+   ],
+   [
+    -42.30859375
+   ],
+   [
+    -39.286277770996094
+   ],
+   [
+    -50.03119659423828
+   ],
+   [
+    -41.68962478637695
+   ],
+   [
+    -47.25475311279297
+   ],
+   [
+    -49.29001235961914
+   ],
+   [
+    -55.810245513916016
+   ],
+   [
+    -45.17400360107422
+   ],
+   [
+    -50.82890319824219
+   ],
+   [
+    -44.02604675292969
+   ],
+   [
+    -41.73237228393555
+   ],
+   [
+    -44.31300354003906
+   ],
+   [
+    -41.09351348876953
+   ],
+   [
+    -47.1014404296875
+   ],
+   [
+    -48.32732391357422
+   ],
+   [
+    -49.4508056640625
+   ],
+   [
+    -40.625221252441406
+   ],
+   [
+    -38.53983688354492
+   ],
+   [
+    -40.623138427734375
+   ],
+   [
+    -41.62256622314453
+   ],
+   [
+    -47.32646179199219
+   ],
+   [
+    -44.17137145996094
+   ],
+   [
+    -47.84294128417969
+   ],
+   [
+    -42.9162483215332
+   ],
+   [
+    -41.26806640625
+   ],
+   [
+    -43.10233688354492
+   ],
+   [
+    -42.84263610839844
+   ],
+   [
+    -42.243648529052734
+   ],
+   [
+    -44.41807556152344
+   ],
+   [
+    -40.9538459777832
+   ],
+   [
+    -46.72892379760742
+   ],
+   [
+    -41.604766845703125
+   ],
+   [
+    -41.02775955200195
+   ],
+   [
+    -41.134605407714844
+   ],
+   [
+    -47.31061553955078
+   ],
+   [
+    -43.79106903076172
+   ],
+   [
+    -45.243934631347656
+   ],
+   [
+    -45.64425277709961
+   ],
+   [
+    -42.791595458984375
+   ],
+   [
+    -42.552207946777344
+   ],
+   [
+    -42.338836669921875
+   ],
+   [
+    -42.13172149658203
+   ],
+   [
+    -45.00343704223633
+   ],
+   [
+    -42.01758575439453
+   ],
+   [
+    -45.450897216796875
+   ],
+   [
+    -42.74394226074219
+   ],
+   [
+    -46.055782318115234
+   ],
+   [
+    -44.121490478515625
+   ],
+   [
+    -49.127235412597656
+   ],
+   [
+    -42.824676513671875
+   ],
+   [
+    -47.166221618652344
+   ],
+   [
+    -40.63621520996094
+   ],
+   [
+    -45.003662109375
+   ],
+   [
+    -40.14949035644531
+   ],
+   [
+    -47.29369354248047
+   ],
+   [
+    -48.754539489746094
+   ],
+   [
+    -44.16545104980469
+   ],
+   [
+    -47.946311950683594
+   ],
+   [
+    -43.06575393676758
+   ],
+   [
+    -42.030006408691406
+   ],
+   [
+    -47.902408599853516
+   ],
+   [
+    -41.23820877075195
+   ],
+   [
+    -45.41716003417969
+   ],
+   [
+    -43.75996780395508
+   ],
+   [
+    -41.24005126953125
+   ],
+   [
+    -47.0111083984375
+   ],
+   [
+    -46.23457336425781
+   ],
+   [
+    -44.550392150878906
+   ],
+   [
+    -41.771751403808594
+   ],
+   [
+    -41.62338638305664
+   ],
+   [
+    -46.17015075683594
+   ],
+   [
+    -32.6281623840332
+   ],
+   [
+    -34.585662841796875
+   ],
+   [
+    -38.80265808105469
+   ],
+   [
+    -34.11140060424805
+   ],
+   [
+    -30.094030380249023
+   ],
+   [
+    -30.101221084594727
+   ],
+   [
+    -32.89045715332031
+   ],
+   [
+    -31.29047393798828
+   ],
+   [
+    -29.967920303344727
+   ],
+   [
+    -34.52875900268555
+   ],
+   [
+    -33.79100036621094
+   ],
+   [
+    -30.04878807067871
+   ],
+   [
+    -37.18098831176758
+   ],
+   [
+    -33.004207611083984
+   ],
+   [
+    -35.12913131713867
+   ],
+   [
+    -34.850830078125
+   ],
+   [
+    -47.26506805419922
+   ],
+   [
+    -32.26279830932617
+   ],
+   [
+    -33.25992965698242
+   ],
+   [
+    -32.846431732177734
+   ],
+   [
+    -31.921138763427734
+   ],
+   [
+    -35.434879302978516
+   ],
+   [
+    -40.18369674682617
+   ],
+   [
+    -26.899446487426758
+   ],
+   [
+    -27.44835090637207
+   ],
+   [
+    -31.730287551879883
+   ],
+   [
+    -30.939485549926758
+   ],
+   [
+    -33.34565353393555
+   ],
+   [
+    -36.50186538696289
+   ],
+   [
+    -29.669763565063477
+   ],
+   [
+    -31.45802116394043
+   ],
+   [
+    -43.32476043701172
+   ],
+   [
+    -32.36764144897461
+   ],
+   [
+    -33.88605499267578
+   ],
+   [
+    -32.57859420776367
+   ],
+   [
+    -27.09733772277832
+   ],
+   [
+    -30.217100143432617
+   ],
+   [
+    -38.29185104370117
+   ],
+   [
+    -29.82709312438965
+   ],
+   [
+    -34.799190521240234
+   ],
+   [
+    -27.819833755493164
+   ],
+   [
+    -33.879364013671875
+   ],
+   [
+    -33.61170959472656
+   ],
+   [
+    -26.487455368041992
+   ],
+   [
+    -37.46101379394531
+   ],
+   [
+    -30.995431900024414
+   ],
+   [
+    -35.60335159301758
+   ],
+   [
+    -30.014963150024414
+   ],
+   [
+    -33.015010833740234
+   ],
+   [
+    -30.979127883911133
+   ],
+   [
+    -30.150121688842773
+   ],
+   [
+    -39.4356689453125
+   ],
+   [
+    -33.12429428100586
+   ],
+   [
+    -30.690725326538086
+   ],
+   [
+    -38.01482391357422
+   ],
+   [
+    -36.49495315551758
+   ],
+   [
+    -31.710168838500977
+   ],
+   [
+    -35.76480484008789
+   ],
+   [
+    -35.296260833740234
+   ],
+   [
+    -29.826993942260742
+   ],
+   [
+    -32.35367202758789
+   ],
+   [
+    -27.557035446166992
+   ],
+   [
+    -31.545969009399414
+   ],
+   [
+    -42.45701599121094
+   ],
+   [
+    -31.829042434692383
+   ],
+   [
+    -34.80406951904297
+   ],
+   [
+    -41.70667266845703
+   ],
+   [
+    -30.08455467224121
+   ],
+   [
+    -38.71307373046875
+   ],
+   [
+    -32.6585693359375
+   ],
+   [
+    -30.848833084106445
+   ],
+   [
+    -31.08036231994629
+   ],
+   [
+    -28.333032608032227
+   ],
+   [
+    -29.03251838684082
+   ],
+   [
+    -34.91206741333008
+   ],
+   [
+    -32.72228240966797
+   ],
+   [
+    -35.62000274658203
+   ],
+   [
+    -34.474876403808594
+   ],
+   [
+    -39.420440673828125
+   ],
+   [
+    -36.279327392578125
+   ],
+   [
+    -29.547372817993164
+   ],
+   [
+    -36.343528747558594
+   ],
+   [
+    -30.982023239135742
+   ],
+   [
+    -28.186208724975586
+   ],
+   [
+    -30.081464767456055
+   ],
+   [
+    -32.38734436035156
+   ],
+   [
+    -35.68370819091797
+   ],
+   [
+    -39.94877624511719
+   ],
+   [
+    -28.58662986755371
+   ],
+   [
+    -33.218597412109375
+   ],
+   [
+    -30.2291202545166
+   ],
+   [
+    -34.96378707885742
+   ],
+   [
+    -39.522125244140625
+   ],
+   [
+    -39.46197509765625
+   ],
+   [
+    -27.259572982788086
+   ],
+   [
+    -31.101301193237305
+   ],
+   [
+    -30.436668395996094
+   ],
+   [
+    -47.52203369140625
+   ],
+   [
+    -33.705657958984375
+   ],
+   [
+    -35.26223373413086
+   ],
+   [
+    -31.204862594604492
+   ],
+   [
+    -37.12401580810547
+   ],
+   [
+    -34.58797836303711
+   ],
+   [
+    -30.610132217407227
+   ],
+   [
+    -28.840604782104492
+   ],
+   [
+    -30.094797134399414
+   ],
+   [
+    -36.59621047973633
+   ],
+   [
+    -29.835973739624023
+   ],
+   [
+    -35.517478942871094
+   ],
+   [
+    -35.40546798706055
+   ],
+   [
+    -32.82662582397461
+   ],
+   [
+    -40.29684066772461
+   ],
+   [
+    -28.1414852142334
+   ],
+   [
+    -31.94423484802246
+   ],
+   [
+    -28.09446907043457
+   ],
+   [
+    -31.913854598999023
+   ],
+   [
+    -37.30586624145508
+   ],
+   [
+    -32.81185531616211
+   ],
+   [
+    -33.14639663696289
+   ],
+   [
+    -29.346162796020508
+   ],
+   [
+    -29.47364616394043
+   ],
+   [
+    -29.257116317749023
+   ],
+   [
+    -32.16265869140625
+   ],
+   [
+    -43.20463180541992
+   ],
+   [
+    -37.6198616027832
+   ],
+   [
+    -34.80612564086914
+   ],
+   [
+    -32.50054168701172
+   ],
+   [
+    -27.856847763061523
+   ],
+   [
+    -31.527376174926758
+   ],
+   [
+    -30.846696853637695
+   ],
+   [
+    -30.258703231811523
+   ],
+   [
+    -30.232019424438477
+   ],
+   [
+    -31.97124671936035
+   ],
+   [
+    -32.76371383666992
+   ],
+   [
+    -29.711685180664062
+   ],
+   [
+    -29.183469772338867
+   ],
+   [
+    -32.47554397583008
+   ],
+   [
+    -27.656755447387695
+   ],
+   [
+    -31.324100494384766
+   ],
+   [
+    -33.85432815551758
+   ],
+   [
+    -31.64160919189453
+   ],
+   [
+    -31.452049255371094
+   ],
+   [
+    -31.947519302368164
+   ],
+   [
+    -33.66658020019531
+   ],
+   [
+    -33.99627685546875
+   ],
+   [
+    -41.43455123901367
+   ],
+   [
+    -32.97535705566406
+   ],
+   [
+    -32.2147331237793
+   ],
+   [
+    -31.568042755126953
+   ],
+   [
+    -33.94416046142578
+   ],
+   [
+    -28.29899024963379
+   ],
+   [
+    -44.235191345214844
+   ],
+   [
+    -30.122787475585938
+   ],
+   [
+    -37.01606369018555
+   ],
+   [
+    -40.21238327026367
+   ],
+   [
+    -49.418243408203125
+   ],
+   [
+    -36.75638198852539
+   ],
+   [
+    -43.399986267089844
+   ],
+   [
+    -37.96646499633789
+   ],
+   [
+    -29.047853469848633
+   ],
+   [
+    -37.2868537902832
+   ],
+   [
+    -33.13344955444336
+   ],
+   [
+    -38.672733306884766
+   ],
+   [
+    -37.32878875732422
+   ],
+   [
+    -39.75859069824219
+   ],
+   [
+    -29.053770065307617
+   ],
+   [
+    -28.53470802307129
+   ],
+   [
+    -28.655723571777344
+   ],
+   [
+    -32.09265899658203
+   ],
+   [
+    -33.06089782714844
+   ],
+   [
+    -34.7535514831543
+   ],
+   [
+    -36.79298782348633
+   ],
+   [
+    -34.75617218017578
+   ],
+   [
+    -31.307268142700195
+   ],
+   [
+    -31.542192459106445
+   ],
+   [
+    -32.52354049682617
+   ],
+   [
+    -24.775014877319336
+   ],
+   [
+    -38.35597229003906
+   ],
+   [
+    -32.5334587097168
+   ],
+   [
+    -35.56081008911133
+   ],
+   [
+    -33.069984436035156
+   ],
+   [
+    -31.112871170043945
+   ],
+   [
+    -33.374755859375
+   ],
+   [
+    -39.044586181640625
+   ],
+   [
+    -37.240299224853516
+   ],
+   [
+    -38.088584899902344
+   ],
+   [
+    -37.863224029541016
+   ],
+   [
+    -32.909183502197266
+   ],
+   [
+    -33.834815979003906
+   ],
+   [
+    -30.68929100036621
+   ],
+   [
+    -35.60997009277344
+   ],
+   [
+    -37.093727111816406
+   ],
+   [
+    -32.38142395019531
+   ],
+   [
+    -35.42628479003906
+   ],
+   [
+    -32.90829849243164
+   ],
+   [
+    -37.445579528808594
+   ],
+   [
+    -33.51375961303711
+   ],
+   [
+    -38.42261505126953
+   ],
+   [
+    -31.895408630371094
+   ],
+   [
+    -40.527122497558594
+   ],
+   [
+    -29.586286544799805
+   ],
+   [
+    -36.436279296875
+   ],
+   [
+    -31.914562225341797
+   ],
+   [
+    -36.75469207763672
+   ],
+   [
+    -38.582706451416016
+   ],
+   [
+    -33.87016296386719
+   ],
+   [
+    -40.29780960083008
+   ],
+   [
+    -34.14799118041992
+   ],
+   [
+    -31.28157615661621
+   ],
+   [
+    -37.2225341796875
+   ],
+   [
+    -31.225221633911133
+   ],
+   [
+    -33.42120361328125
+   ],
+   [
+    -38.67025375366211
+   ],
+   [
+    -30.782217025756836
+   ],
+   [
+    -38.66937255859375
+   ],
+   [
+    -34.96115493774414
+   ],
+   [
+    -35.312496185302734
+   ],
+   [
+    -30.978862762451172
+   ],
+   [
+    -32.764564514160156
+   ],
+   [
+    -37.048587799072266
+   ]
+  ]
+ ],
+ "time": 2991.987202644348
+}

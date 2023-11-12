@@ -1,0 +1,2076 @@
+{
+ "case_id": 22153,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Anaxagoras"
+ },
+ "pre": [
+  [
+   "Anaxagoras's field of work is meteorology",
+   "Anaxagoras's field of work is radioactivity",
+   "Anaxagoras's field of work is complex function",
+   "Anaxagoras's field of work is histology",
+   "Anaxagoras's field of work is algebra",
+   "Anaxagoras's field of work is electron",
+   "Anaxagoras's field of work is quantum theory",
+   "Anaxagoras's field of work is applied mathematics",
+   "Anaxagoras's field of work is electricity",
+   "Anaxagoras's field of work is human geography",
+   "Anaxagoras's field of work is crystallography",
+   "Anaxagoras's field of work is chemistry",
+   "Anaxagoras's field of work is Jewish studies",
+   "Anaxagoras's field of work is topology",
+   "Anaxagoras's field of work is mathematical analysis",
+   "Anaxagoras's field of work is computational geometry",
+   "Anaxagoras's field of work is Petrine ministry",
+   "Anaxagoras's field of work is social psychology",
+   "Anaxagoras's field of work is genetics",
+   "Anaxagoras's field of work is informatics",
+   "Anaxagoras's field of work is shipbuilding",
+   "Anaxagoras's field of work is historical sociology",
+   "Anaxagoras's field of work is quantum mysticism",
+   "Anaxagoras's field of work is philosopher",
+   "Anaxagoras's field of work is Internet",
+   "Anaxagoras's field of work is gravity",
+   "Anaxagoras's field of work is theoretical physics",
+   "Anaxagoras's field of work is African studies",
+   "Anaxagoras's field of work is projective geometry",
+   "Anaxagoras's field of work is prose",
+   "Anaxagoras's field of work is momentum",
+   "Anaxagoras's field of work is Cairo Geniza",
+   "Anaxagoras's field of work is stochastic",
+   "Anaxagoras's field of work is algebraic topology",
+   "Anaxagoras's field of work is electrical engineering",
+   "Anaxagoras's field of work is hunting",
+   "Anaxagoras's field of work is evolution",
+   "Anaxagoras's field of work is economic anthropology",
+   "Anaxagoras's field of work is Hebrew",
+   "Anaxagoras's field of work is differential geometry",
+   "Anaxagoras's field of work is engineering",
+   "Anaxagoras's field of work is history of science",
+   "Anaxagoras's field of work is social anthropology",
+   "Anaxagoras's field of work is history",
+   "Anaxagoras's field of work is distribution theory",
+   "Anaxagoras's field of work is classics",
+   "Anaxagoras's field of work is crime novel",
+   "Anaxagoras's field of work is statistics",
+   "Anaxagoras's field of work is experimental physics",
+   "Anaxagoras's field of work is geography",
+   "Anaxagoras's field of work is anthropology",
+   "Anaxagoras's field of work is partial differential equation",
+   "Anaxagoras's field of work is applied physics",
+   "Anaxagoras's field of work is Sanskrit",
+   "Anaxagoras's field of work is a branch of physics",
+   "Anaxagoras's field of work is comparative mythology",
+   "Anaxagoras's field of work is radiation",
+   "Anaxagoras's field of work is aeromechanics",
+   "Anaxagoras's field of work is harmonic analysis",
+   "Anaxagoras's field of work is religion",
+   "Anaxagoras's field of work is civil rights",
+   "Anaxagoras's field of work is physicist",
+   "Anaxagoras's field of work is distribution",
+   "Anaxagoras's field of work is translations from Spanish",
+   "Anaxagoras's field of work is feminism",
+   "Anaxagoras's field of work is number theory",
+   "Anaxagoras's field of work is sociology of organisations",
+   "Anaxagoras's field of work is astronomer",
+   "Anaxagoras's field of work is children's and youth literature",
+   "Anaxagoras's field of work is fairy tale",
+   "Anaxagoras's field of work is economy",
+   "Anaxagoras's field of work is graph theory",
+   "Anaxagoras's field of work is magic",
+   "Anaxagoras's field of work is essay",
+   "Anaxagoras's field of work is theory of relativity",
+   "Anaxagoras's field of work is historical novel",
+   "Anaxagoras's field of work is biological anthropology",
+   "Anaxagoras's field of work is literary theory",
+   "Anaxagoras's field of work is Greek philology",
+   "Anaxagoras's field of work is lyric poetry",
+   "Anaxagoras's field of work is psychology",
+   "Anaxagoras's field of work is quaternion",
+   "Anaxagoras's field of work is rite",
+   "Anaxagoras's field of work is jazz",
+   "Anaxagoras's field of work is heat",
+   "Anaxagoras's field of work is embryology",
+   "Anaxagoras's field of work is social philosophy",
+   "Anaxagoras's field of work is dance choreography",
+   "Anaxagoras's field of work is politics",
+   "Anaxagoras's field of work is nanotechnology",
+   "Anaxagoras's field of work is Afghanistan",
+   "Anaxagoras's field of work is non-Euclidean geometry",
+   "Anaxagoras's field of work is Franciscan spirituality",
+   "Anaxagoras's field of work is detective literature",
+   "Anaxagoras's field of work is mathematician",
+   "Anaxagoras's field of work is String",
+   "Anaxagoras's field of work is classical music",
+   "Anaxagoras's field of work is translations from Occitan",
+   "Anaxagoras's field of work is abstract algebra",
+   "Anaxagoras's field of work is differential calculus",
+   "Anaxagoras's field of work is mythology",
+   "Anaxagoras's field of work is literary translation",
+   "Anaxagoras's field of work is ballistics",
+   "Anaxagoras's field of work is cryptography",
+   "Anaxagoras's field of work is Greek",
+   "Anaxagoras's field of work is logic",
+   "Anaxagoras's field of work is choreography",
+   "Anaxagoras's field of work is theology",
+   "Anaxagoras's field of work is world economy",
+   "Anaxagoras's field of work is magnetism",
+   "Anaxagoras's field of work is algebraic geometry",
+   "Anaxagoras's field of work is theory of differential equations",
+   "Anaxagoras's field of work is physics",
+   "Anaxagoras's field of work is music theory",
+   "Anaxagoras's field of work is economics",
+   "Anaxagoras's field of work is anatomy",
+   "Anaxagoras's field of work is electromagnetic field",
+   "Anaxagoras's field of work is analytic number theory",
+   "Anaxagoras's field of work is mathematical physics",
+   "Anaxagoras's field of work is journalism",
+   "Anaxagoras's field of work is sociology",
+   "Anaxagoras's field of work is literature",
+   "Anaxagoras's field of work is ethnography",
+   "Anaxagoras's field of work is belletristic literature",
+   "Anaxagoras's field of work is convex function",
+   "Anaxagoras's field of work is sociology of religion",
+   "Anaxagoras's field of work is pedagogy",
+   "Anaxagoras's field of work is philosophy",
+   "Anaxagoras's field of work is quantum mechanics",
+   "Anaxagoras's field of work is drama",
+   "Anaxagoras's field of work is dance",
+   "Anaxagoras's field of work is Judaism",
+   "Anaxagoras's field of work is quantum physics",
+   "Anaxagoras's field of work is philosophy of science",
+   "Anaxagoras's field of work is linguistics",
+   "Anaxagoras's field of work is myth",
+   "Anaxagoras's field of work is physiology",
+   "Anaxagoras's field of work is English",
+   "Anaxagoras's field of work is philology",
+   "Anaxagoras's field of work is political philosophy",
+   "Anaxagoras's field of work is mechanical engineering",
+   "Anaxagoras's field of work is ontology",
+   "Anaxagoras's field of work is forestry",
+   "Anaxagoras's field of work is aerodynamics",
+   "Anaxagoras's field of work is Christian Church",
+   "Anaxagoras's field of work is magnetic resonance",
+   "Anaxagoras's field of work is astrophysics",
+   "Anaxagoras's field of work is natural science",
+   "Anaxagoras's field of work is constitutional law",
+   "Anaxagoras's field of work is philosophy of law",
+   "Anaxagoras's field of work is education",
+   "Anaxagoras's field of work is Monte Carlo method",
+   "Anaxagoras's field of work is neurology",
+   "Anaxagoras's field of work is electric field",
+   "Anaxagoras's field of work is Minkowski spacetime",
+   "Anaxagoras's field of work is translations from Arabic language",
+   "Anaxagoras's field of work is Bayesian inference",
+   "Anaxagoras's field of work is translations from Polish",
+   "Anaxagoras's field of work is color photography",
+   "Anaxagoras's field of work is opera",
+   "Anaxagoras's field of work is model theory",
+   "Anaxagoras's field of work is cartography",
+   "Anaxagoras's field of work is nonstandard analysis",
+   "Anaxagoras's field of work is television program",
+   "Anaxagoras's field of work is complex manifold",
+   "Anaxagoras's field of work is poetry",
+   "Anaxagoras's field of work is mathematics",
+   "Anaxagoras's field of work is computer science",
+   "Anaxagoras's field of work is cosmology",
+   "Anaxagoras's field of work is silviculture",
+   "Anaxagoras's field of work is hydrodynamics",
+   "Anaxagoras's field of work is forestry science",
+   "Anaxagoras's field of work is comparative religion",
+   "Anaxagoras's field of work is information technology",
+   "Anaxagoras's field of work is ballet",
+   "Anaxagoras's field of work is English literature",
+   "Anaxagoras's field of work is conducting",
+   "Anaxagoras's field of work is hyperbolic geometry",
+   "Anaxagoras's field of work is biochemistry",
+   "Anaxagoras's field of work is religion and society",
+   "Anaxagoras's field of work is optics",
+   "Anaxagoras's field of work is ethics",
+   "Anaxagoras's field of work is cybernetics",
+   "Anaxagoras's field of work is astronomical observation",
+   "Anaxagoras's field of work is psychophysiology",
+   "Anaxagoras's field of work is culturology",
+   "Anaxagoras's field of work is history of religions",
+   "Anaxagoras's field of work is probability theory",
+   "Anaxagoras's field of work is paleontology",
+   "Anaxagoras's field of work is surgery",
+   "Anaxagoras's field of work is group theory",
+   "Anaxagoras's field of work is natural theology",
+   "Anaxagoras's field of work is astrology",
+   "Anaxagoras's field of work is quantum electrodynamics",
+   "Anaxagoras's field of work is mechanics",
+   "Anaxagoras's field of work is Lie algebra",
+   "Anaxagoras's field of work is trigonometry",
+   "Anaxagoras's field of work is literary activity",
+   "Anaxagoras's field of work is nuclear physics",
+   "Anaxagoras's field of work is translations from English",
+   "Anaxagoras's field of work is medicine",
+   "Anaxagoras's field of work is Jewish philosophy",
+   "Anaxagoras's field of work is mathematical logic",
+   "Anaxagoras's field of work is calculus of variations",
+   "Anaxagoras's field of work is ferromagnetism",
+   "Anaxagoras's field of work is analytic geometry",
+   "Anaxagoras's field of work is art of painting",
+   "Anaxagoras's field of work is functional analysis",
+   "Anaxagoras's field of work is folklore",
+   "Anaxagoras's field of work is study of history",
+   "Anaxagoras's field of work is geometry",
+   "Anaxagoras's field of work is positivism",
+   "Anaxagoras's field of work is geodesy",
+   "Anaxagoras's field of work is astronomy",
+   "Anaxagoras's field of work is magnetic field",
+   "Anaxagoras's field of work is kinetic theory",
+   "Anaxagoras's field of work is celestial mechanics",
+   "Anaxagoras's field of work is analytic philosophy",
+   "Anaxagoras's field of work is ethnology",
+   "Anaxagoras's field of work is history of economic thought",
+   "Anaxagoras is meteorology",
+   "Anaxagoras is radioactivity",
+   "Anaxagoras is complex function",
+   "Anaxagoras is histology",
+   "Anaxagoras is algebra",
+   "Anaxagoras is electron",
+   "Anaxagoras is quantum theory",
+   "Anaxagoras is applied mathematics",
+   "Anaxagoras is electricity",
+   "Anaxagoras is human geography",
+   "Anaxagoras is crystallography",
+   "Anaxagoras is chemistry",
+   "Anaxagoras is Jewish studies",
+   "Anaxagoras is topology",
+   "Anaxagoras is mathematical analysis",
+   "Anaxagoras is computational geometry",
+   "Anaxagoras is Petrine ministry",
+   "Anaxagoras is social psychology",
+   "Anaxagoras is genetics",
+   "Anaxagoras is informatics",
+   "Anaxagoras is shipbuilding",
+   "Anaxagoras is historical sociology",
+   "Anaxagoras is quantum mysticism",
+   "Anaxagoras is philosopher",
+   "Anaxagoras is Internet",
+   "Anaxagoras is gravity",
+   "Anaxagoras is theoretical physics",
+   "Anaxagoras is African studies",
+   "Anaxagoras is projective geometry",
+   "Anaxagoras is prose",
+   "Anaxagoras is momentum",
+   "Anaxagoras is Cairo Geniza",
+   "Anaxagoras is stochastic",
+   "Anaxagoras is algebraic topology",
+   "Anaxagoras is electrical engineering",
+   "Anaxagoras is hunting",
+   "Anaxagoras is evolution",
+   "Anaxagoras is economic anthropology",
+   "Anaxagoras is Hebrew",
+   "Anaxagoras is differential geometry",
+   "Anaxagoras is engineering",
+   "Anaxagoras is history of science",
+   "Anaxagoras is social anthropology",
+   "Anaxagoras is history",
+   "Anaxagoras is distribution theory",
+   "Anaxagoras is classics",
+   "Anaxagoras is crime novel",
+   "Anaxagoras is statistics",
+   "Anaxagoras is experimental physics",
+   "Anaxagoras is geography",
+   "Anaxagoras is anthropology",
+   "Anaxagoras is partial differential equation",
+   "Anaxagoras is applied physics",
+   "Anaxagoras is Sanskrit",
+   "Anaxagoras is a branch of physics",
+   "Anaxagoras is comparative mythology",
+   "Anaxagoras is radiation",
+   "Anaxagoras is aeromechanics",
+   "Anaxagoras is harmonic analysis",
+   "Anaxagoras is religion",
+   "Anaxagoras is civil rights",
+   "Anaxagoras is physicist",
+   "Anaxagoras is distribution",
+   "Anaxagoras is translations from Spanish",
+   "Anaxagoras is feminism",
+   "Anaxagoras is number theory",
+   "Anaxagoras is sociology of organisations",
+   "Anaxagoras is astronomer",
+   "Anaxagoras is children's and youth literature",
+   "Anaxagoras is fairy tale",
+   "Anaxagoras is economy",
+   "Anaxagoras is graph theory",
+   "Anaxagoras is magic",
+   "Anaxagoras is essay",
+   "Anaxagoras is theory of relativity",
+   "Anaxagoras is historical novel",
+   "Anaxagoras is biological anthropology",
+   "Anaxagoras is literary theory",
+   "Anaxagoras is Greek philology",
+   "Anaxagoras is lyric poetry",
+   "Anaxagoras is psychology",
+   "Anaxagoras is quaternion",
+   "Anaxagoras is rite",
+   "Anaxagoras is jazz",
+   "Anaxagoras is heat",
+   "Anaxagoras is embryology",
+   "Anaxagoras is social philosophy",
+   "Anaxagoras is dance choreography",
+   "Anaxagoras is politics",
+   "Anaxagoras is nanotechnology",
+   "Anaxagoras is Afghanistan",
+   "Anaxagoras is non-Euclidean geometry",
+   "Anaxagoras is Franciscan spirituality",
+   "Anaxagoras is detective literature",
+   "Anaxagoras is mathematician",
+   "Anaxagoras is String",
+   "Anaxagoras is classical music",
+   "Anaxagoras is translations from Occitan",
+   "Anaxagoras is abstract algebra",
+   "Anaxagoras is differential calculus",
+   "Anaxagoras is mythology",
+   "Anaxagoras is literary translation",
+   "Anaxagoras is ballistics",
+   "Anaxagoras is cryptography",
+   "Anaxagoras is Greek",
+   "Anaxagoras is logic",
+   "Anaxagoras is choreography",
+   "Anaxagoras is theology",
+   "Anaxagoras is world economy",
+   "Anaxagoras is magnetism",
+   "Anaxagoras is algebraic geometry",
+   "Anaxagoras is theory of differential equations",
+   "Anaxagoras is physics",
+   "Anaxagoras is music theory",
+   "Anaxagoras is economics",
+   "Anaxagoras is anatomy",
+   "Anaxagoras is electromagnetic field",
+   "Anaxagoras is analytic number theory",
+   "Anaxagoras is mathematical physics",
+   "Anaxagoras is journalism",
+   "Anaxagoras is sociology",
+   "Anaxagoras is literature",
+   "Anaxagoras is ethnography",
+   "Anaxagoras is belletristic literature",
+   "Anaxagoras is convex function",
+   "Anaxagoras is sociology of religion",
+   "Anaxagoras is pedagogy",
+   "Anaxagoras is philosophy",
+   "Anaxagoras is quantum mechanics",
+   "Anaxagoras is drama",
+   "Anaxagoras is dance",
+   "Anaxagoras is Judaism",
+   "Anaxagoras is quantum physics",
+   "Anaxagoras is philosophy of science",
+   "Anaxagoras is linguistics",
+   "Anaxagoras is myth",
+   "Anaxagoras is physiology",
+   "Anaxagoras is English",
+   "Anaxagoras is philology",
+   "Anaxagoras is political philosophy",
+   "Anaxagoras is mechanical engineering",
+   "Anaxagoras is ontology",
+   "Anaxagoras is forestry",
+   "Anaxagoras is aerodynamics",
+   "Anaxagoras is Christian Church",
+   "Anaxagoras is magnetic resonance",
+   "Anaxagoras is astrophysics",
+   "Anaxagoras is natural science",
+   "Anaxagoras is constitutional law",
+   "Anaxagoras is philosophy of law",
+   "Anaxagoras is education",
+   "Anaxagoras is Monte Carlo method",
+   "Anaxagoras is neurology",
+   "Anaxagoras is electric field",
+   "Anaxagoras is Minkowski spacetime",
+   "Anaxagoras is translations from Arabic language",
+   "Anaxagoras is Bayesian inference",
+   "Anaxagoras is translations from Polish",
+   "Anaxagoras is color photography",
+   "Anaxagoras is opera",
+   "Anaxagoras is model theory",
+   "Anaxagoras is cartography",
+   "Anaxagoras is nonstandard analysis",
+   "Anaxagoras is television program",
+   "Anaxagoras is complex manifold",
+   "Anaxagoras is poetry",
+   "Anaxagoras is mathematics",
+   "Anaxagoras is computer science",
+   "Anaxagoras is cosmology",
+   "Anaxagoras is silviculture",
+   "Anaxagoras is hydrodynamics",
+   "Anaxagoras is forestry science",
+   "Anaxagoras is comparative religion",
+   "Anaxagoras is information technology",
+   "Anaxagoras is ballet",
+   "Anaxagoras is English literature",
+   "Anaxagoras is conducting",
+   "Anaxagoras is hyperbolic geometry",
+   "Anaxagoras is biochemistry",
+   "Anaxagoras is religion and society",
+   "Anaxagoras is optics",
+   "Anaxagoras is ethics",
+   "Anaxagoras is cybernetics",
+   "Anaxagoras is astronomical observation",
+   "Anaxagoras is psychophysiology",
+   "Anaxagoras is culturology",
+   "Anaxagoras is history of religions",
+   "Anaxagoras is probability theory",
+   "Anaxagoras is paleontology",
+   "Anaxagoras is surgery",
+   "Anaxagoras is group theory",
+   "Anaxagoras is natural theology",
+   "Anaxagoras is astrology",
+   "Anaxagoras is quantum electrodynamics",
+   "Anaxagoras is mechanics",
+   "Anaxagoras is Lie algebra",
+   "Anaxagoras is trigonometry",
+   "Anaxagoras is literary activity",
+   "Anaxagoras is nuclear physics",
+   "Anaxagoras is translations from English",
+   "Anaxagoras is medicine",
+   "Anaxagoras is Jewish philosophy",
+   "Anaxagoras is mathematical logic",
+   "Anaxagoras is calculus of variations",
+   "Anaxagoras is ferromagnetism",
+   "Anaxagoras is analytic geometry",
+   "Anaxagoras is art of painting",
+   "Anaxagoras is functional analysis",
+   "Anaxagoras is folklore",
+   "Anaxagoras is study of history",
+   "Anaxagoras is geometry",
+   "Anaxagoras is positivism",
+   "Anaxagoras is geodesy",
+   "Anaxagoras is astronomy",
+   "Anaxagoras is magnetic field",
+   "Anaxagoras is kinetic theory",
+   "Anaxagoras is celestial mechanics",
+   "Anaxagoras is analytic philosophy",
+   "Anaxagoras is ethnology",
+   "Anaxagoras is history of economic thought"
+  ],
+  [
+   [
+    -40.17778015136719
+   ],
+   [
+    -45.132843017578125
+   ],
+   [
+    -54.355201721191406
+   ],
+   [
+    -45.084800720214844
+   ],
+   [
+    -43.62724304199219
+   ],
+   [
+    -45.362701416015625
+   ],
+   [
+    -45.53941345214844
+   ],
+   [
+    -44.11537170410156
+   ],
+   [
+    -43.064910888671875
+   ],
+   [
+    -48.43973159790039
+   ],
+   [
+    -43.76393127441406
+   ],
+   [
+    -40.882568359375
+   ],
+   [
+    -52.253578186035156
+   ],
+   [
+    -44.12181091308594
+   ],
+   [
+    -46.7784423828125
+   ],
+   [
+    -46.46736145019531
+   ],
+   [
+    -63.89693832397461
+   ],
+   [
+    -45.99227523803711
+   ],
+   [
+    -43.93061828613281
+   ],
+   [
+    -45.884639739990234
+   ],
+   [
+    -47.31300735473633
+   ],
+   [
+    -49.50434875488281
+   ],
+   [
+    -52.823211669921875
+   ],
+   [
+    -44.46344757080078
+   ],
+   [
+    -47.6556510925293
+   ],
+   [
+    -43.672637939453125
+   ],
+   [
+    -41.12510681152344
+   ],
+   [
+    -51.50405502319336
+   ],
+   [
+    -46.73064422607422
+   ],
+   [
+    -44.372520446777344
+   ],
+   [
+    -48.03948211669922
+   ],
+   [
+    -59.801856994628906
+   ],
+   [
+    -47.13868713378906
+   ],
+   [
+    -48.5150146484375
+   ],
+   [
+    -46.33252716064453
+   ],
+   [
+    -44.93870544433594
+   ],
+   [
+    -43.965476989746094
+   ],
+   [
+    -49.25148010253906
+   ],
+   [
+    -48.821250915527344
+   ],
+   [
+    -46.202857971191406
+   ],
+   [
+    -43.7122917175293
+   ],
+   [
+    -45.56032943725586
+   ],
+   [
+    -45.972503662109375
+   ],
+   [
+    -41.00795364379883
+   ],
+   [
+    -48.673492431640625
+   ],
+   [
+    -44.291996002197266
+   ],
+   [
+    -55.70304870605469
+   ],
+   [
+    -44.81285858154297
+   ],
+   [
+    -44.7667236328125
+   ],
+   [
+    -42.06690979003906
+   ],
+   [
+    -41.86286163330078
+   ],
+   [
+    -54.08797836303711
+   ],
+   [
+    -46.332923889160156
+   ],
+   [
+    -46.67268371582031
+   ],
+   [
+    -46.039371490478516
+   ],
+   [
+    -44.077266693115234
+   ],
+   [
+    -44.75921630859375
+   ],
+   [
+    -52.37451934814453
+   ],
+   [
+    -47.84125518798828
+   ],
+   [
+    -42.76408386230469
+   ],
+   [
+    -49.17618179321289
+   ],
+   [
+    -46.74217987060547
+   ],
+   [
+    -45.032188415527344
+   ],
+   [
+    -57.051509857177734
+   ],
+   [
+    -46.173545837402344
+   ],
+   [
+    -43.08563995361328
+   ],
+   [
+    -56.51604080200195
+   ],
+   [
+    -46.31648254394531
+   ],
+   [
+    -55.66810989379883
+   ],
+   [
+    -50.199745178222656
+   ],
+   [
+    -45.407188415527344
+   ],
+   [
+    -46.073368072509766
+   ],
+   [
+    -42.33055114746094
+   ],
+   [
+    -46.37603759765625
+   ],
+   [
+    -49.15083694458008
+   ],
+   [
+    -53.40422821044922
+   ],
+   [
+    -46.319908142089844
+   ],
+   [
+    -45.36532211303711
+   ],
+   [
+    -47.13515090942383
+   ],
+   [
+    -47.368621826171875
+   ],
+   [
+    -40.47359848022461
+   ],
+   [
+    -50.00149154663086
+   ],
+   [
+    -49.058990478515625
+   ],
+   [
+    -48.658180236816406
+   ],
+   [
+    -43.59328842163086
+   ],
+   [
+    -43.14796447753906
+   ],
+   [
+    -44.6019287109375
+   ],
+   [
+    -54.001888275146484
+   ],
+   [
+    -40.652671813964844
+   ],
+   [
+    -44.818687438964844
+   ],
+   [
+    -50.199073791503906
+   ],
+   [
+    -45.83788299560547
+   ],
+   [
+    -57.48796844482422
+   ],
+   [
+    -53.99982452392578
+   ],
+   [
+    -46.714271545410156
+   ],
+   [
+    -47.857391357421875
+   ],
+   [
+    -47.41746520996094
+   ],
+   [
+    -59.69709396362305
+   ],
+   [
+    -49.561241149902344
+   ],
+   [
+    -47.69821548461914
+   ],
+   [
+    -42.53990173339844
+   ],
+   [
+    -50.181732177734375
+   ],
+   [
+    -46.520484924316406
+   ],
+   [
+    -44.3599853515625
+   ],
+   [
+    -41.41703414916992
+   ],
+   [
+    -39.871803283691406
+   ],
+   [
+    -47.779693603515625
+   ],
+   [
+    -41.30448913574219
+   ],
+   [
+    -51.1260986328125
+   ],
+   [
+    -42.98698425292969
+   ],
+   [
+    -45.36747741699219
+   ],
+   [
+    -54.93118667602539
+   ],
+   [
+    -37.19464874267578
+   ],
+   [
+    -43.330963134765625
+   ],
+   [
+    -41.89203643798828
+   ],
+   [
+    -43.05810546875
+   ],
+   [
+    -47.883033752441406
+   ],
+   [
+    -50.332069396972656
+   ],
+   [
+    -42.99949645996094
+   ],
+   [
+    -45.294227600097656
+   ],
+   [
+    -42.909454345703125
+   ],
+   [
+    -43.07634735107422
+   ],
+   [
+    -45.51397705078125
+   ],
+   [
+    -56.35737228393555
+   ],
+   [
+    -54.02939224243164
+   ],
+   [
+    -47.467384338378906
+   ],
+   [
+    -43.80683517456055
+   ],
+   [
+    -36.87153244018555
+   ],
+   [
+    -44.24176788330078
+   ],
+   [
+    -44.77245330810547
+   ],
+   [
+    -45.37591552734375
+   ],
+   [
+    -48.06907653808594
+   ],
+   [
+    -44.759132385253906
+   ],
+   [
+    -40.59526062011719
+   ],
+   [
+    -41.26483154296875
+   ],
+   [
+    -42.81523895263672
+   ],
+   [
+    -42.323211669921875
+   ],
+   [
+    -46.71104431152344
+   ],
+   [
+    -41.82483673095703
+   ],
+   [
+    -40.95384216308594
+   ],
+   [
+    -47.82451629638672
+   ],
+   [
+    -39.79074478149414
+   ],
+   [
+    -45.887290954589844
+   ],
+   [
+    -46.507564544677734
+   ],
+   [
+    -55.15209197998047
+   ],
+   [
+    -48.021934509277344
+   ],
+   [
+    -41.01006317138672
+   ],
+   [
+    -41.15609359741211
+   ],
+   [
+    -46.126502990722656
+   ],
+   [
+    -46.97715759277344
+   ],
+   [
+    -41.35017395019531
+   ],
+   [
+    -56.7016716003418
+   ],
+   [
+    -42.34355163574219
+   ],
+   [
+    -49.5179443359375
+   ],
+   [
+    -53.66011047363281
+   ],
+   [
+    -60.64942169189453
+   ],
+   [
+    -47.68348693847656
+   ],
+   [
+    -58.16649627685547
+   ],
+   [
+    -52.07281494140625
+   ],
+   [
+    -46.327606201171875
+   ],
+   [
+    -48.02650451660156
+   ],
+   [
+    -43.226436614990234
+   ],
+   [
+    -51.362056732177734
+   ],
+   [
+    -54.12486267089844
+   ],
+   [
+    -52.46876525878906
+   ],
+   [
+    -41.755615234375
+   ],
+   [
+    -38.454708099365234
+   ],
+   [
+    -44.867431640625
+   ],
+   [
+    -38.239723205566406
+   ],
+   [
+    -53.19623947143555
+   ],
+   [
+    -42.72620391845703
+   ],
+   [
+    -51.526119232177734
+   ],
+   [
+    -44.826324462890625
+   ],
+   [
+    -46.82463836669922
+   ],
+   [
+    -48.361907958984375
+   ],
+   [
+    -49.01557922363281
+   ],
+   [
+    -45.86830139160156
+   ],
+   [
+    -46.238895416259766
+   ],
+   [
+    -42.468963623046875
+   ],
+   [
+    -49.824317932128906
+   ],
+   [
+    -41.15272521972656
+   ],
+   [
+    -40.18026351928711
+   ],
+   [
+    -44.88011169433594
+   ],
+   [
+    -45.29613494873047
+   ],
+   [
+    -47.06415557861328
+   ],
+   [
+    -50.96583557128906
+   ],
+   [
+    -50.4630126953125
+   ],
+   [
+    -44.10536575317383
+   ],
+   [
+    -43.72175598144531
+   ],
+   [
+    -45.36347198486328
+   ],
+   [
+    -48.40719223022461
+   ],
+   [
+    -44.13726806640625
+   ],
+   [
+    -40.600738525390625
+   ],
+   [
+    -48.82715606689453
+   ],
+   [
+    -42.89302062988281
+   ],
+   [
+    -54.57355499267578
+   ],
+   [
+    -43.02581787109375
+   ],
+   [
+    -51.34333801269531
+   ],
+   [
+    -44.45587158203125
+   ],
+   [
+    -54.522884368896484
+   ],
+   [
+    -40.18669128417969
+   ],
+   [
+    -49.74763488769531
+   ],
+   [
+    -44.430137634277344
+   ],
+   [
+    -52.157833099365234
+   ],
+   [
+    -49.75421905517578
+   ],
+   [
+    -44.401397705078125
+   ],
+   [
+    -51.25727844238281
+   ],
+   [
+    -48.82609558105469
+   ],
+   [
+    -46.72480392456055
+   ],
+   [
+    -51.19497299194336
+   ],
+   [
+    -40.811767578125
+   ],
+   [
+    -47.877044677734375
+   ],
+   [
+    -47.39645004272461
+   ],
+   [
+    -38.06256866455078
+   ],
+   [
+    -47.728111267089844
+   ],
+   [
+    -46.59043884277344
+   ],
+   [
+    -44.57972717285156
+   ],
+   [
+    -43.143272399902344
+   ],
+   [
+    -43.80805587768555
+   ],
+   [
+    -55.24585723876953
+   ],
+   [
+    -32.50121307373047
+   ],
+   [
+    -35.29246139526367
+   ],
+   [
+    -40.64812088012695
+   ],
+   [
+    -34.366432189941406
+   ],
+   [
+    -31.914783477783203
+   ],
+   [
+    -31.776866912841797
+   ],
+   [
+    -33.73446273803711
+   ],
+   [
+    -36.40312576293945
+   ],
+   [
+    -31.824970245361328
+   ],
+   [
+    -36.55267333984375
+   ],
+   [
+    -36.22770309448242
+   ],
+   [
+    -31.701000213623047
+   ],
+   [
+    -40.40241622924805
+   ],
+   [
+    -35.132015228271484
+   ],
+   [
+    -38.296424865722656
+   ],
+   [
+    -37.18993377685547
+   ],
+   [
+    -49.9288330078125
+   ],
+   [
+    -35.28882598876953
+   ],
+   [
+    -33.89255905151367
+   ],
+   [
+    -36.83402633666992
+   ],
+   [
+    -35.53973388671875
+   ],
+   [
+    -38.86928939819336
+   ],
+   [
+    -37.618324279785156
+   ],
+   [
+    -25.067981719970703
+   ],
+   [
+    -30.908653259277344
+   ],
+   [
+    -31.67801284790039
+   ],
+   [
+    -31.632003784179688
+   ],
+   [
+    -40.17403793334961
+   ],
+   [
+    -36.617454528808594
+   ],
+   [
+    -28.796390533447266
+   ],
+   [
+    -32.303802490234375
+   ],
+   [
+    -45.262245178222656
+   ],
+   [
+    -33.3472900390625
+   ],
+   [
+    -37.73657989501953
+   ],
+   [
+    -37.430519104003906
+   ],
+   [
+    -27.76407241821289
+   ],
+   [
+    -30.813495635986328
+   ],
+   [
+    -38.06940460205078
+   ],
+   [
+    -31.080673217773438
+   ],
+   [
+    -35.8055534362793
+   ],
+   [
+    -31.546329498291016
+   ],
+   [
+    -33.57771682739258
+   ],
+   [
+    -36.31245040893555
+   ],
+   [
+    -26.27191162109375
+   ],
+   [
+    -36.01865768432617
+   ],
+   [
+    -30.84988021850586
+   ],
+   [
+    -38.370933532714844
+   ],
+   [
+    -32.082183837890625
+   ],
+   [
+    -33.40291976928711
+   ],
+   [
+    -32.414878845214844
+   ],
+   [
+    -30.712295532226562
+   ],
+   [
+    -39.27275848388672
+   ],
+   [
+    -36.81389236450195
+   ],
+   [
+    -30.411258697509766
+   ],
+   [
+    -32.992698669433594
+   ],
+   [
+    -32.473121643066406
+   ],
+   [
+    -31.50949478149414
+   ],
+   [
+    -40.4064826965332
+   ],
+   [
+    -38.645111083984375
+   ],
+   [
+    -29.812885284423828
+   ],
+   [
+    -36.51913070678711
+   ],
+   [
+    -29.093189239501953
+   ],
+   [
+    -31.802345275878906
+   ],
+   [
+    -41.179786682128906
+   ],
+   [
+    -31.765796661376953
+   ],
+   [
+    -35.298912048339844
+   ],
+   [
+    -46.45418930053711
+   ],
+   [
+    -29.263370513916016
+   ],
+   [
+    -43.6838264465332
+   ],
+   [
+    -32.2554817199707
+   ],
+   [
+    -32.44255828857422
+   ],
+   [
+    -36.612953186035156
+   ],
+   [
+    -28.651714324951172
+   ],
+   [
+    -28.194969177246094
+   ],
+   [
+    -37.23346710205078
+   ],
+   [
+    -35.78097152709961
+   ],
+   [
+    -35.02985763549805
+   ],
+   [
+    -33.948062896728516
+   ],
+   [
+    -34.936771392822266
+   ],
+   [
+    -32.41145706176758
+   ],
+   [
+    -30.863502502441406
+   ],
+   [
+    -34.35980224609375
+   ],
+   [
+    -30.460521697998047
+   ],
+   [
+    -31.757625579833984
+   ],
+   [
+    -29.79605484008789
+   ],
+   [
+    -32.26679992675781
+   ],
+   [
+    -34.9049072265625
+   ],
+   [
+    -41.07297134399414
+   ],
+   [
+    -31.601947784423828
+   ],
+   [
+    -34.157562255859375
+   ],
+   [
+    -33.87248992919922
+   ],
+   [
+    -34.48381042480469
+   ],
+   [
+    -41.836177825927734
+   ],
+   [
+    -39.39392852783203
+   ],
+   [
+    -29.013572692871094
+   ],
+   [
+    -31.110485076904297
+   ],
+   [
+    -34.20797348022461
+   ],
+   [
+    -45.41450500488281
+   ],
+   [
+    -36.9213752746582
+   ],
+   [
+    -35.16706848144531
+   ],
+   [
+    -28.07329559326172
+   ],
+   [
+    -37.62173843383789
+   ],
+   [
+    -35.85179901123047
+   ],
+   [
+    -31.983070373535156
+   ],
+   [
+    -22.948131561279297
+   ],
+   [
+    -29.15412139892578
+   ],
+   [
+    -35.93428039550781
+   ],
+   [
+    -29.583290100097656
+   ],
+   [
+    -39.96609878540039
+   ],
+   [
+    -33.48421859741211
+   ],
+   [
+    -36.430747985839844
+   ],
+   [
+    -43.25698471069336
+   ],
+   [
+    -28.618698120117188
+   ],
+   [
+    -33.42864227294922
+   ],
+   [
+    -31.626602172851562
+   ],
+   [
+    -31.66820526123047
+   ],
+   [
+    -36.13961410522461
+   ],
+   [
+    -36.48798370361328
+   ],
+   [
+    -34.88189697265625
+   ],
+   [
+    -32.898284912109375
+   ],
+   [
+    -31.26357650756836
+   ],
+   [
+    -29.01327896118164
+   ],
+   [
+    -33.59414291381836
+   ],
+   [
+    -41.21507263183594
+   ],
+   [
+    -41.13373565673828
+   ],
+   [
+    -37.2835693359375
+   ],
+   [
+    -33.14295959472656
+   ],
+   [
+    -25.510963439941406
+   ],
+   [
+    -32.86530303955078
+   ],
+   [
+    -30.65908432006836
+   ],
+   [
+    -31.90294647216797
+   ],
+   [
+    -29.630401611328125
+   ],
+   [
+    -32.466163635253906
+   ],
+   [
+    -33.454246520996094
+   ],
+   [
+    -33.71445083618164
+   ],
+   [
+    -25.99187469482422
+   ],
+   [
+    -32.161109924316406
+   ],
+   [
+    -29.624553680419922
+   ],
+   [
+    -32.54375457763672
+   ],
+   [
+    -32.97074508666992
+   ],
+   [
+    -41.43973159790039
+   ],
+   [
+    -29.100780487060547
+   ],
+   [
+    -35.15186309814453
+   ],
+   [
+    -36.48878479003906
+   ],
+   [
+    -37.14070129394531
+   ],
+   [
+    -37.822265625
+   ],
+   [
+    -33.44582748413086
+   ],
+   [
+    -31.32006072998047
+   ],
+   [
+    -34.995872497558594
+   ],
+   [
+    -37.043758392333984
+   ],
+   [
+    -29.96310043334961
+   ],
+   [
+    -45.21453857421875
+   ],
+   [
+    -31.252460479736328
+   ],
+   [
+    -39.120140075683594
+   ],
+   [
+    -38.550750732421875
+   ],
+   [
+    -47.59632873535156
+   ],
+   [
+    -36.973262786865234
+   ],
+   [
+    -43.41351318359375
+   ],
+   [
+    -38.45806121826172
+   ],
+   [
+    -29.817707061767578
+   ],
+   [
+    -35.653221130371094
+   ],
+   [
+    -32.95817565917969
+   ],
+   [
+    -41.12042236328125
+   ],
+   [
+    -39.87357711791992
+   ],
+   [
+    -39.49177169799805
+   ],
+   [
+    -28.35103988647461
+   ],
+   [
+    -30.72266387939453
+   ],
+   [
+    -31.90384292602539
+   ],
+   [
+    -28.112957000732422
+   ],
+   [
+    -38.37005615234375
+   ],
+   [
+    -33.207115173339844
+   ],
+   [
+    -39.36088180541992
+   ],
+   [
+    -34.39902877807617
+   ],
+   [
+    -31.738082885742188
+   ],
+   [
+    -33.46896743774414
+   ],
+   [
+    -35.64616012573242
+   ],
+   [
+    -27.11724090576172
+   ],
+   [
+    -36.37765121459961
+   ],
+   [
+    -34.199798583984375
+   ],
+   [
+    -39.002967834472656
+   ],
+   [
+    -33.73587417602539
+   ],
+   [
+    -30.730037689208984
+   ],
+   [
+    -33.93580627441406
+   ],
+   [
+    -35.63734817504883
+   ],
+   [
+    -37.50585174560547
+   ],
+   [
+    -37.77340316772461
+   ],
+   [
+    -39.96746063232422
+   ],
+   [
+    -31.79145050048828
+   ],
+   [
+    -31.30026626586914
+   ],
+   [
+    -32.23250198364258
+   ],
+   [
+    -35.26152420043945
+   ],
+   [
+    -32.93583679199219
+   ],
+   [
+    -29.53973388671875
+   ],
+   [
+    -37.3581657409668
+   ],
+   [
+    -34.59212875366211
+   ],
+   [
+    -36.69436264038086
+   ],
+   [
+    -32.86643981933594
+   ],
+   [
+    -35.90633773803711
+   ],
+   [
+    -32.95603942871094
+   ],
+   [
+    -39.895912170410156
+   ],
+   [
+    -29.454078674316406
+   ],
+   [
+    -35.55695343017578
+   ],
+   [
+    -36.42815017700195
+   ],
+   [
+    -41.4872932434082
+   ],
+   [
+    -37.549903869628906
+   ],
+   [
+    -33.21635437011719
+   ],
+   [
+    -38.15618896484375
+   ],
+   [
+    -35.607967376708984
+   ],
+   [
+    -31.01947021484375
+   ],
+   [
+    -37.147769927978516
+   ],
+   [
+    -30.519615173339844
+   ],
+   [
+    -32.540828704833984
+   ],
+   [
+    -37.021244049072266
+   ],
+   [
+    -29.623619079589844
+   ],
+   [
+    -37.393428802490234
+   ],
+   [
+    -33.62968826293945
+   ],
+   [
+    -37.569881439208984
+   ],
+   [
+    -31.579029083251953
+   ],
+   [
+    -33.336456298828125
+   ],
+   [
+    -42.53895568847656
+   ]
+  ]
+ ],
+ "time": 5644.820931434631
+}

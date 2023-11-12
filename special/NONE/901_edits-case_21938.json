@@ -1,0 +1,2076 @@
+{
+ "case_id": 21938,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Edward Teller"
+ },
+ "pre": [
+  [
+   "Edward Teller's field of work is meteorology",
+   "Edward Teller's field of work is radioactivity",
+   "Edward Teller's field of work is complex function",
+   "Edward Teller's field of work is histology",
+   "Edward Teller's field of work is algebra",
+   "Edward Teller's field of work is electron",
+   "Edward Teller's field of work is quantum theory",
+   "Edward Teller's field of work is applied mathematics",
+   "Edward Teller's field of work is electricity",
+   "Edward Teller's field of work is human geography",
+   "Edward Teller's field of work is crystallography",
+   "Edward Teller's field of work is chemistry",
+   "Edward Teller's field of work is Jewish studies",
+   "Edward Teller's field of work is topology",
+   "Edward Teller's field of work is mathematical analysis",
+   "Edward Teller's field of work is computational geometry",
+   "Edward Teller's field of work is Petrine ministry",
+   "Edward Teller's field of work is social psychology",
+   "Edward Teller's field of work is genetics",
+   "Edward Teller's field of work is informatics",
+   "Edward Teller's field of work is shipbuilding",
+   "Edward Teller's field of work is historical sociology",
+   "Edward Teller's field of work is quantum mysticism",
+   "Edward Teller's field of work is philosopher",
+   "Edward Teller's field of work is Internet",
+   "Edward Teller's field of work is gravity",
+   "Edward Teller's field of work is theoretical physics",
+   "Edward Teller's field of work is African studies",
+   "Edward Teller's field of work is projective geometry",
+   "Edward Teller's field of work is prose",
+   "Edward Teller's field of work is momentum",
+   "Edward Teller's field of work is Cairo Geniza",
+   "Edward Teller's field of work is stochastic",
+   "Edward Teller's field of work is algebraic topology",
+   "Edward Teller's field of work is electrical engineering",
+   "Edward Teller's field of work is hunting",
+   "Edward Teller's field of work is evolution",
+   "Edward Teller's field of work is economic anthropology",
+   "Edward Teller's field of work is Hebrew",
+   "Edward Teller's field of work is differential geometry",
+   "Edward Teller's field of work is engineering",
+   "Edward Teller's field of work is history of science",
+   "Edward Teller's field of work is social anthropology",
+   "Edward Teller's field of work is history",
+   "Edward Teller's field of work is distribution theory",
+   "Edward Teller's field of work is classics",
+   "Edward Teller's field of work is crime novel",
+   "Edward Teller's field of work is statistics",
+   "Edward Teller's field of work is experimental physics",
+   "Edward Teller's field of work is geography",
+   "Edward Teller's field of work is anthropology",
+   "Edward Teller's field of work is partial differential equation",
+   "Edward Teller's field of work is applied physics",
+   "Edward Teller's field of work is Sanskrit",
+   "Edward Teller's field of work is a branch of physics",
+   "Edward Teller's field of work is comparative mythology",
+   "Edward Teller's field of work is radiation",
+   "Edward Teller's field of work is aeromechanics",
+   "Edward Teller's field of work is harmonic analysis",
+   "Edward Teller's field of work is religion",
+   "Edward Teller's field of work is civil rights",
+   "Edward Teller's field of work is physicist",
+   "Edward Teller's field of work is distribution",
+   "Edward Teller's field of work is translations from Spanish",
+   "Edward Teller's field of work is feminism",
+   "Edward Teller's field of work is number theory",
+   "Edward Teller's field of work is sociology of organisations",
+   "Edward Teller's field of work is astronomer",
+   "Edward Teller's field of work is children's and youth literature",
+   "Edward Teller's field of work is fairy tale",
+   "Edward Teller's field of work is economy",
+   "Edward Teller's field of work is graph theory",
+   "Edward Teller's field of work is magic",
+   "Edward Teller's field of work is essay",
+   "Edward Teller's field of work is theory of relativity",
+   "Edward Teller's field of work is historical novel",
+   "Edward Teller's field of work is biological anthropology",
+   "Edward Teller's field of work is literary theory",
+   "Edward Teller's field of work is Greek philology",
+   "Edward Teller's field of work is lyric poetry",
+   "Edward Teller's field of work is psychology",
+   "Edward Teller's field of work is quaternion",
+   "Edward Teller's field of work is rite",
+   "Edward Teller's field of work is jazz",
+   "Edward Teller's field of work is heat",
+   "Edward Teller's field of work is embryology",
+   "Edward Teller's field of work is social philosophy",
+   "Edward Teller's field of work is dance choreography",
+   "Edward Teller's field of work is politics",
+   "Edward Teller's field of work is nanotechnology",
+   "Edward Teller's field of work is Afghanistan",
+   "Edward Teller's field of work is non-Euclidean geometry",
+   "Edward Teller's field of work is Franciscan spirituality",
+   "Edward Teller's field of work is detective literature",
+   "Edward Teller's field of work is mathematician",
+   "Edward Teller's field of work is String",
+   "Edward Teller's field of work is classical music",
+   "Edward Teller's field of work is translations from Occitan",
+   "Edward Teller's field of work is abstract algebra",
+   "Edward Teller's field of work is differential calculus",
+   "Edward Teller's field of work is mythology",
+   "Edward Teller's field of work is literary translation",
+   "Edward Teller's field of work is ballistics",
+   "Edward Teller's field of work is cryptography",
+   "Edward Teller's field of work is Greek",
+   "Edward Teller's field of work is logic",
+   "Edward Teller's field of work is choreography",
+   "Edward Teller's field of work is theology",
+   "Edward Teller's field of work is world economy",
+   "Edward Teller's field of work is magnetism",
+   "Edward Teller's field of work is algebraic geometry",
+   "Edward Teller's field of work is theory of differential equations",
+   "Edward Teller's field of work is physics",
+   "Edward Teller's field of work is music theory",
+   "Edward Teller's field of work is economics",
+   "Edward Teller's field of work is anatomy",
+   "Edward Teller's field of work is electromagnetic field",
+   "Edward Teller's field of work is analytic number theory",
+   "Edward Teller's field of work is mathematical physics",
+   "Edward Teller's field of work is journalism",
+   "Edward Teller's field of work is sociology",
+   "Edward Teller's field of work is literature",
+   "Edward Teller's field of work is ethnography",
+   "Edward Teller's field of work is belletristic literature",
+   "Edward Teller's field of work is convex function",
+   "Edward Teller's field of work is sociology of religion",
+   "Edward Teller's field of work is pedagogy",
+   "Edward Teller's field of work is philosophy",
+   "Edward Teller's field of work is quantum mechanics",
+   "Edward Teller's field of work is drama",
+   "Edward Teller's field of work is dance",
+   "Edward Teller's field of work is Judaism",
+   "Edward Teller's field of work is quantum physics",
+   "Edward Teller's field of work is philosophy of science",
+   "Edward Teller's field of work is linguistics",
+   "Edward Teller's field of work is myth",
+   "Edward Teller's field of work is physiology",
+   "Edward Teller's field of work is English",
+   "Edward Teller's field of work is philology",
+   "Edward Teller's field of work is political philosophy",
+   "Edward Teller's field of work is mechanical engineering",
+   "Edward Teller's field of work is ontology",
+   "Edward Teller's field of work is forestry",
+   "Edward Teller's field of work is aerodynamics",
+   "Edward Teller's field of work is Christian Church",
+   "Edward Teller's field of work is magnetic resonance",
+   "Edward Teller's field of work is astrophysics",
+   "Edward Teller's field of work is natural science",
+   "Edward Teller's field of work is constitutional law",
+   "Edward Teller's field of work is philosophy of law",
+   "Edward Teller's field of work is education",
+   "Edward Teller's field of work is Monte Carlo method",
+   "Edward Teller's field of work is neurology",
+   "Edward Teller's field of work is electric field",
+   "Edward Teller's field of work is Minkowski spacetime",
+   "Edward Teller's field of work is translations from Arabic language",
+   "Edward Teller's field of work is Bayesian inference",
+   "Edward Teller's field of work is translations from Polish",
+   "Edward Teller's field of work is color photography",
+   "Edward Teller's field of work is opera",
+   "Edward Teller's field of work is model theory",
+   "Edward Teller's field of work is cartography",
+   "Edward Teller's field of work is nonstandard analysis",
+   "Edward Teller's field of work is television program",
+   "Edward Teller's field of work is complex manifold",
+   "Edward Teller's field of work is poetry",
+   "Edward Teller's field of work is mathematics",
+   "Edward Teller's field of work is computer science",
+   "Edward Teller's field of work is cosmology",
+   "Edward Teller's field of work is silviculture",
+   "Edward Teller's field of work is hydrodynamics",
+   "Edward Teller's field of work is forestry science",
+   "Edward Teller's field of work is comparative religion",
+   "Edward Teller's field of work is information technology",
+   "Edward Teller's field of work is ballet",
+   "Edward Teller's field of work is English literature",
+   "Edward Teller's field of work is conducting",
+   "Edward Teller's field of work is hyperbolic geometry",
+   "Edward Teller's field of work is biochemistry",
+   "Edward Teller's field of work is religion and society",
+   "Edward Teller's field of work is optics",
+   "Edward Teller's field of work is ethics",
+   "Edward Teller's field of work is cybernetics",
+   "Edward Teller's field of work is astronomical observation",
+   "Edward Teller's field of work is psychophysiology",
+   "Edward Teller's field of work is culturology",
+   "Edward Teller's field of work is history of religions",
+   "Edward Teller's field of work is probability theory",
+   "Edward Teller's field of work is paleontology",
+   "Edward Teller's field of work is surgery",
+   "Edward Teller's field of work is group theory",
+   "Edward Teller's field of work is natural theology",
+   "Edward Teller's field of work is astrology",
+   "Edward Teller's field of work is quantum electrodynamics",
+   "Edward Teller's field of work is mechanics",
+   "Edward Teller's field of work is Lie algebra",
+   "Edward Teller's field of work is trigonometry",
+   "Edward Teller's field of work is literary activity",
+   "Edward Teller's field of work is nuclear physics",
+   "Edward Teller's field of work is translations from English",
+   "Edward Teller's field of work is medicine",
+   "Edward Teller's field of work is Jewish philosophy",
+   "Edward Teller's field of work is mathematical logic",
+   "Edward Teller's field of work is calculus of variations",
+   "Edward Teller's field of work is ferromagnetism",
+   "Edward Teller's field of work is analytic geometry",
+   "Edward Teller's field of work is art of painting",
+   "Edward Teller's field of work is functional analysis",
+   "Edward Teller's field of work is folklore",
+   "Edward Teller's field of work is study of history",
+   "Edward Teller's field of work is geometry",
+   "Edward Teller's field of work is positivism",
+   "Edward Teller's field of work is geodesy",
+   "Edward Teller's field of work is astronomy",
+   "Edward Teller's field of work is magnetic field",
+   "Edward Teller's field of work is kinetic theory",
+   "Edward Teller's field of work is celestial mechanics",
+   "Edward Teller's field of work is analytic philosophy",
+   "Edward Teller's field of work is ethnology",
+   "Edward Teller's field of work is history of economic thought",
+   "Edward Teller is meteorology",
+   "Edward Teller is radioactivity",
+   "Edward Teller is complex function",
+   "Edward Teller is histology",
+   "Edward Teller is algebra",
+   "Edward Teller is electron",
+   "Edward Teller is quantum theory",
+   "Edward Teller is applied mathematics",
+   "Edward Teller is electricity",
+   "Edward Teller is human geography",
+   "Edward Teller is crystallography",
+   "Edward Teller is chemistry",
+   "Edward Teller is Jewish studies",
+   "Edward Teller is topology",
+   "Edward Teller is mathematical analysis",
+   "Edward Teller is computational geometry",
+   "Edward Teller is Petrine ministry",
+   "Edward Teller is social psychology",
+   "Edward Teller is genetics",
+   "Edward Teller is informatics",
+   "Edward Teller is shipbuilding",
+   "Edward Teller is historical sociology",
+   "Edward Teller is quantum mysticism",
+   "Edward Teller is philosopher",
+   "Edward Teller is Internet",
+   "Edward Teller is gravity",
+   "Edward Teller is theoretical physics",
+   "Edward Teller is African studies",
+   "Edward Teller is projective geometry",
+   "Edward Teller is prose",
+   "Edward Teller is momentum",
+   "Edward Teller is Cairo Geniza",
+   "Edward Teller is stochastic",
+   "Edward Teller is algebraic topology",
+   "Edward Teller is electrical engineering",
+   "Edward Teller is hunting",
+   "Edward Teller is evolution",
+   "Edward Teller is economic anthropology",
+   "Edward Teller is Hebrew",
+   "Edward Teller is differential geometry",
+   "Edward Teller is engineering",
+   "Edward Teller is history of science",
+   "Edward Teller is social anthropology",
+   "Edward Teller is history",
+   "Edward Teller is distribution theory",
+   "Edward Teller is classics",
+   "Edward Teller is crime novel",
+   "Edward Teller is statistics",
+   "Edward Teller is experimental physics",
+   "Edward Teller is geography",
+   "Edward Teller is anthropology",
+   "Edward Teller is partial differential equation",
+   "Edward Teller is applied physics",
+   "Edward Teller is Sanskrit",
+   "Edward Teller is a branch of physics",
+   "Edward Teller is comparative mythology",
+   "Edward Teller is radiation",
+   "Edward Teller is aeromechanics",
+   "Edward Teller is harmonic analysis",
+   "Edward Teller is religion",
+   "Edward Teller is civil rights",
+   "Edward Teller is physicist",
+   "Edward Teller is distribution",
+   "Edward Teller is translations from Spanish",
+   "Edward Teller is feminism",
+   "Edward Teller is number theory",
+   "Edward Teller is sociology of organisations",
+   "Edward Teller is astronomer",
+   "Edward Teller is children's and youth literature",
+   "Edward Teller is fairy tale",
+   "Edward Teller is economy",
+   "Edward Teller is graph theory",
+   "Edward Teller is magic",
+   "Edward Teller is essay",
+   "Edward Teller is theory of relativity",
+   "Edward Teller is historical novel",
+   "Edward Teller is biological anthropology",
+   "Edward Teller is literary theory",
+   "Edward Teller is Greek philology",
+   "Edward Teller is lyric poetry",
+   "Edward Teller is psychology",
+   "Edward Teller is quaternion",
+   "Edward Teller is rite",
+   "Edward Teller is jazz",
+   "Edward Teller is heat",
+   "Edward Teller is embryology",
+   "Edward Teller is social philosophy",
+   "Edward Teller is dance choreography",
+   "Edward Teller is politics",
+   "Edward Teller is nanotechnology",
+   "Edward Teller is Afghanistan",
+   "Edward Teller is non-Euclidean geometry",
+   "Edward Teller is Franciscan spirituality",
+   "Edward Teller is detective literature",
+   "Edward Teller is mathematician",
+   "Edward Teller is String",
+   "Edward Teller is classical music",
+   "Edward Teller is translations from Occitan",
+   "Edward Teller is abstract algebra",
+   "Edward Teller is differential calculus",
+   "Edward Teller is mythology",
+   "Edward Teller is literary translation",
+   "Edward Teller is ballistics",
+   "Edward Teller is cryptography",
+   "Edward Teller is Greek",
+   "Edward Teller is logic",
+   "Edward Teller is choreography",
+   "Edward Teller is theology",
+   "Edward Teller is world economy",
+   "Edward Teller is magnetism",
+   "Edward Teller is algebraic geometry",
+   "Edward Teller is theory of differential equations",
+   "Edward Teller is physics",
+   "Edward Teller is music theory",
+   "Edward Teller is economics",
+   "Edward Teller is anatomy",
+   "Edward Teller is electromagnetic field",
+   "Edward Teller is analytic number theory",
+   "Edward Teller is mathematical physics",
+   "Edward Teller is journalism",
+   "Edward Teller is sociology",
+   "Edward Teller is literature",
+   "Edward Teller is ethnography",
+   "Edward Teller is belletristic literature",
+   "Edward Teller is convex function",
+   "Edward Teller is sociology of religion",
+   "Edward Teller is pedagogy",
+   "Edward Teller is philosophy",
+   "Edward Teller is quantum mechanics",
+   "Edward Teller is drama",
+   "Edward Teller is dance",
+   "Edward Teller is Judaism",
+   "Edward Teller is quantum physics",
+   "Edward Teller is philosophy of science",
+   "Edward Teller is linguistics",
+   "Edward Teller is myth",
+   "Edward Teller is physiology",
+   "Edward Teller is English",
+   "Edward Teller is philology",
+   "Edward Teller is political philosophy",
+   "Edward Teller is mechanical engineering",
+   "Edward Teller is ontology",
+   "Edward Teller is forestry",
+   "Edward Teller is aerodynamics",
+   "Edward Teller is Christian Church",
+   "Edward Teller is magnetic resonance",
+   "Edward Teller is astrophysics",
+   "Edward Teller is natural science",
+   "Edward Teller is constitutional law",
+   "Edward Teller is philosophy of law",
+   "Edward Teller is education",
+   "Edward Teller is Monte Carlo method",
+   "Edward Teller is neurology",
+   "Edward Teller is electric field",
+   "Edward Teller is Minkowski spacetime",
+   "Edward Teller is translations from Arabic language",
+   "Edward Teller is Bayesian inference",
+   "Edward Teller is translations from Polish",
+   "Edward Teller is color photography",
+   "Edward Teller is opera",
+   "Edward Teller is model theory",
+   "Edward Teller is cartography",
+   "Edward Teller is nonstandard analysis",
+   "Edward Teller is television program",
+   "Edward Teller is complex manifold",
+   "Edward Teller is poetry",
+   "Edward Teller is mathematics",
+   "Edward Teller is computer science",
+   "Edward Teller is cosmology",
+   "Edward Teller is silviculture",
+   "Edward Teller is hydrodynamics",
+   "Edward Teller is forestry science",
+   "Edward Teller is comparative religion",
+   "Edward Teller is information technology",
+   "Edward Teller is ballet",
+   "Edward Teller is English literature",
+   "Edward Teller is conducting",
+   "Edward Teller is hyperbolic geometry",
+   "Edward Teller is biochemistry",
+   "Edward Teller is religion and society",
+   "Edward Teller is optics",
+   "Edward Teller is ethics",
+   "Edward Teller is cybernetics",
+   "Edward Teller is astronomical observation",
+   "Edward Teller is psychophysiology",
+   "Edward Teller is culturology",
+   "Edward Teller is history of religions",
+   "Edward Teller is probability theory",
+   "Edward Teller is paleontology",
+   "Edward Teller is surgery",
+   "Edward Teller is group theory",
+   "Edward Teller is natural theology",
+   "Edward Teller is astrology",
+   "Edward Teller is quantum electrodynamics",
+   "Edward Teller is mechanics",
+   "Edward Teller is Lie algebra",
+   "Edward Teller is trigonometry",
+   "Edward Teller is literary activity",
+   "Edward Teller is nuclear physics",
+   "Edward Teller is translations from English",
+   "Edward Teller is medicine",
+   "Edward Teller is Jewish philosophy",
+   "Edward Teller is mathematical logic",
+   "Edward Teller is calculus of variations",
+   "Edward Teller is ferromagnetism",
+   "Edward Teller is analytic geometry",
+   "Edward Teller is art of painting",
+   "Edward Teller is functional analysis",
+   "Edward Teller is folklore",
+   "Edward Teller is study of history",
+   "Edward Teller is geometry",
+   "Edward Teller is positivism",
+   "Edward Teller is geodesy",
+   "Edward Teller is astronomy",
+   "Edward Teller is magnetic field",
+   "Edward Teller is kinetic theory",
+   "Edward Teller is celestial mechanics",
+   "Edward Teller is analytic philosophy",
+   "Edward Teller is ethnology",
+   "Edward Teller is history of economic thought"
+  ],
+  [
+   [
+    -36.9630241394043
+   ],
+   [
+    -35.58226776123047
+   ],
+   [
+    -47.178855895996094
+   ],
+   [
+    -41.508514404296875
+   ],
+   [
+    -38.7049560546875
+   ],
+   [
+    -34.335208892822266
+   ],
+   [
+    -34.56189727783203
+   ],
+   [
+    -38.3583869934082
+   ],
+   [
+    -35.13794708251953
+   ],
+   [
+    -44.15467071533203
+   ],
+   [
+    -37.55767822265625
+   ],
+   [
+    -34.72080993652344
+   ],
+   [
+    -44.716217041015625
+   ],
+   [
+    -37.01111602783203
+   ],
+   [
+    -39.52191162109375
+   ],
+   [
+    -41.247215270996094
+   ],
+   [
+    -62.072731018066406
+   ],
+   [
+    -40.12220764160156
+   ],
+   [
+    -37.264190673828125
+   ],
+   [
+    -38.209129333496094
+   ],
+   [
+    -43.42164611816406
+   ],
+   [
+    -42.54796600341797
+   ],
+   [
+    -42.59526443481445
+   ],
+   [
+    -41.87232208251953
+   ],
+   [
+    -40.3038444519043
+   ],
+   [
+    -35.923126220703125
+   ],
+   [
+    -32.625
+   ],
+   [
+    -45.4212760925293
+   ],
+   [
+    -42.79594802856445
+   ],
+   [
+    -40.84113693237305
+   ],
+   [
+    -38.111854553222656
+   ],
+   [
+    -53.967010498046875
+   ],
+   [
+    -37.82255172729492
+   ],
+   [
+    -40.415061950683594
+   ],
+   [
+    -35.957008361816406
+   ],
+   [
+    -39.40837860107422
+   ],
+   [
+    -36.68678283691406
+   ],
+   [
+    -46.580482482910156
+   ],
+   [
+    -42.76110076904297
+   ],
+   [
+    -40.52963638305664
+   ],
+   [
+    -34.94976806640625
+   ],
+   [
+    -39.002410888671875
+   ],
+   [
+    -43.13169860839844
+   ],
+   [
+    -35.71257781982422
+   ],
+   [
+    -43.00205993652344
+   ],
+   [
+    -40.221519470214844
+   ],
+   [
+    -50.459571838378906
+   ],
+   [
+    -37.70676803588867
+   ],
+   [
+    -35.876651763916016
+   ],
+   [
+    -40.46112823486328
+   ],
+   [
+    -39.20014953613281
+   ],
+   [
+    -46.521087646484375
+   ],
+   [
+    -35.7696418762207
+   ],
+   [
+    -41.166412353515625
+   ],
+   [
+    -37.58775329589844
+   ],
+   [
+    -42.85993957519531
+   ],
+   [
+    -33.23000717163086
+   ],
+   [
+    -42.84473419189453
+   ],
+   [
+    -41.60801696777344
+   ],
+   [
+    -38.90674591064453
+   ],
+   [
+    -43.559967041015625
+   ],
+   [
+    -38.34056854248047
+   ],
+   [
+    -39.736305236816406
+   ],
+   [
+    -47.98622131347656
+   ],
+   [
+    -41.4036750793457
+   ],
+   [
+    -37.19605255126953
+   ],
+   [
+    -48.94620895385742
+   ],
+   [
+    -41.448333740234375
+   ],
+   [
+    -49.642906188964844
+   ],
+   [
+    -45.09571838378906
+   ],
+   [
+    -41.051666259765625
+   ],
+   [
+    -40.285003662109375
+   ],
+   [
+    -35.93500518798828
+   ],
+   [
+    -39.993709564208984
+   ],
+   [
+    -41.15770721435547
+   ],
+   [
+    -45.34874725341797
+   ],
+   [
+    -43.881656646728516
+   ],
+   [
+    -43.853309631347656
+   ],
+   [
+    -47.460235595703125
+   ],
+   [
+    -46.08805847167969
+   ],
+   [
+    -37.5770263671875
+   ],
+   [
+    -44.26054382324219
+   ],
+   [
+    -44.70130920410156
+   ],
+   [
+    -41.03070068359375
+   ],
+   [
+    -37.21796417236328
+   ],
+   [
+    -40.59441375732422
+   ],
+   [
+    -42.41181945800781
+   ],
+   [
+    -47.58729553222656
+   ],
+   [
+    -36.01172637939453
+   ],
+   [
+    -35.48584747314453
+   ],
+   [
+    -42.11730194091797
+   ],
+   [
+    -39.68830871582031
+   ],
+   [
+    -49.1077880859375
+   ],
+   [
+    -49.57878494262695
+   ],
+   [
+    -41.717994689941406
+   ],
+   [
+    -38.152557373046875
+   ],
+   [
+    -41.833106994628906
+   ],
+   [
+    -54.35799789428711
+   ],
+   [
+    -41.265533447265625
+   ],
+   [
+    -43.97773742675781
+   ],
+   [
+    -39.756656646728516
+   ],
+   [
+    -46.07730484008789
+   ],
+   [
+    -37.96729278564453
+   ],
+   [
+    -37.857460021972656
+   ],
+   [
+    -40.061431884765625
+   ],
+   [
+    -37.589317321777344
+   ],
+   [
+    -43.27323913574219
+   ],
+   [
+    -39.47228240966797
+   ],
+   [
+    -44.675537109375
+   ],
+   [
+    -36.1357307434082
+   ],
+   [
+    -40.435951232910156
+   ],
+   [
+    -47.25194549560547
+   ],
+   [
+    -30.90877914428711
+   ],
+   [
+    -42.03266525268555
+   ],
+   [
+    -37.441490173339844
+   ],
+   [
+    -40.041831970214844
+   ],
+   [
+    -39.36768341064453
+   ],
+   [
+    -44.530086517333984
+   ],
+   [
+    -36.19236755371094
+   ],
+   [
+    -39.135498046875
+   ],
+   [
+    -38.093170166015625
+   ],
+   [
+    -38.661407470703125
+   ],
+   [
+    -42.20539093017578
+   ],
+   [
+    -49.59501647949219
+   ],
+   [
+    -47.08911895751953
+   ],
+   [
+    -44.404117584228516
+   ],
+   [
+    -39.05298614501953
+   ],
+   [
+    -36.68971252441406
+   ],
+   [
+    -33.70149612426758
+   ],
+   [
+    -40.6313362121582
+   ],
+   [
+    -40.38849639892578
+   ],
+   [
+    -42.237545013427734
+   ],
+   [
+    -33.132354736328125
+   ],
+   [
+    -38.326011657714844
+   ],
+   [
+    -38.90789794921875
+   ],
+   [
+    -39.47185516357422
+   ],
+   [
+    -39.862815856933594
+   ],
+   [
+    -39.4704704284668
+   ],
+   [
+    -40.6993293762207
+   ],
+   [
+    -39.410484313964844
+   ],
+   [
+    -38.26469421386719
+   ],
+   [
+    -38.557281494140625
+   ],
+   [
+    -43.27582931518555
+   ],
+   [
+    -36.938331604003906
+   ],
+   [
+    -48.48551940917969
+   ],
+   [
+    -37.52935791015625
+   ],
+   [
+    -33.01274490356445
+   ],
+   [
+    -37.497589111328125
+   ],
+   [
+    -40.57243347167969
+   ],
+   [
+    -45.500221252441406
+   ],
+   [
+    -36.11375427246094
+   ],
+   [
+    -44.64963912963867
+   ],
+   [
+    -40.28642272949219
+   ],
+   [
+    -40.54264831542969
+   ],
+   [
+    -43.89210510253906
+   ],
+   [
+    -54.57769775390625
+   ],
+   [
+    -40.853755950927734
+   ],
+   [
+    -48.948387145996094
+   ],
+   [
+    -39.837379455566406
+   ],
+   [
+    -41.45353698730469
+   ],
+   [
+    -40.57280731201172
+   ],
+   [
+    -41.33976745605469
+   ],
+   [
+    -44.484031677246094
+   ],
+   [
+    -45.253074645996094
+   ],
+   [
+    -46.660400390625
+   ],
+   [
+    -39.70976638793945
+   ],
+   [
+    -34.67119598388672
+   ],
+   [
+    -38.66236114501953
+   ],
+   [
+    -34.37839889526367
+   ],
+   [
+    -46.16206359863281
+   ],
+   [
+    -37.030067443847656
+   ],
+   [
+    -48.87828826904297
+   ],
+   [
+    -40.95547103881836
+   ],
+   [
+    -37.37790298461914
+   ],
+   [
+    -41.26580810546875
+   ],
+   [
+    -41.193260192871094
+   ],
+   [
+    -38.267059326171875
+   ],
+   [
+    -42.949310302734375
+   ],
+   [
+    -38.171783447265625
+   ],
+   [
+    -46.05376434326172
+   ],
+   [
+    -36.130863189697266
+   ],
+   [
+    -39.44902801513672
+   ],
+   [
+    -36.97240447998047
+   ],
+   [
+    -42.68292999267578
+   ],
+   [
+    -42.55683135986328
+   ],
+   [
+    -44.384830474853516
+   ],
+   [
+    -48.1280517578125
+   ],
+   [
+    -37.43468475341797
+   ],
+   [
+    -39.40321350097656
+   ],
+   [
+    -41.54256057739258
+   ],
+   [
+    -38.733890533447266
+   ],
+   [
+    -44.12718200683594
+   ],
+   [
+    -38.33885192871094
+   ],
+   [
+    -34.7561149597168
+   ],
+   [
+    -38.12611389160156
+   ],
+   [
+    -43.20195007324219
+   ],
+   [
+    -41.70362091064453
+   ],
+   [
+    -49.471092224121094
+   ],
+   [
+    -31.420251846313477
+   ],
+   [
+    -45.83130645751953
+   ],
+   [
+    -36.89093017578125
+   ],
+   [
+    -45.10639572143555
+   ],
+   [
+    -38.85432052612305
+   ],
+   [
+    -45.36680603027344
+   ],
+   [
+    -41.49072265625
+   ],
+   [
+    -41.861366271972656
+   ],
+   [
+    -48.99862289428711
+   ],
+   [
+    -41.31879806518555
+   ],
+   [
+    -40.47212219238281
+   ],
+   [
+    -45.39783477783203
+   ],
+   [
+    -37.941383361816406
+   ],
+   [
+    -41.34730529785156
+   ],
+   [
+    -40.61493682861328
+   ],
+   [
+    -35.187774658203125
+   ],
+   [
+    -40.64030456542969
+   ],
+   [
+    -37.150264739990234
+   ],
+   [
+    -37.25074768066406
+   ],
+   [
+    -42.06593322753906
+   ],
+   [
+    -41.639373779296875
+   ],
+   [
+    -50.85520935058594
+   ],
+   [
+    -26.63398551940918
+   ],
+   [
+    -28.903121948242188
+   ],
+   [
+    -40.05121612548828
+   ],
+   [
+    -29.5152530670166
+   ],
+   [
+    -26.603248596191406
+   ],
+   [
+    -23.7882080078125
+   ],
+   [
+    -26.98967170715332
+   ],
+   [
+    -29.279943466186523
+   ],
+   [
+    -24.316253662109375
+   ],
+   [
+    -31.060710906982422
+   ],
+   [
+    -29.91339874267578
+   ],
+   [
+    -24.222393035888672
+   ],
+   [
+    -33.292701721191406
+   ],
+   [
+    -30.192913055419922
+   ],
+   [
+    -33.02900695800781
+   ],
+   [
+    -32.92008590698242
+   ],
+   [
+    -46.38469696044922
+   ],
+   [
+    -30.339004516601562
+   ],
+   [
+    -26.353755950927734
+   ],
+   [
+    -29.892744064331055
+   ],
+   [
+    -31.87933349609375
+   ],
+   [
+    -32.713783264160156
+   ],
+   [
+    -31.9216251373291
+   ],
+   [
+    -22.941862106323242
+   ],
+   [
+    -23.959381103515625
+   ],
+   [
+    -26.03122329711914
+   ],
+   [
+    -25.443269729614258
+   ],
+   [
+    -35.345970153808594
+   ],
+   [
+    -36.11039733886719
+   ],
+   [
+    -26.508625030517578
+   ],
+   [
+    -27.805191040039062
+   ],
+   [
+    -40.847557067871094
+   ],
+   [
+    -31.270076751708984
+   ],
+   [
+    -31.838415145874023
+   ],
+   [
+    -26.54842758178711
+   ],
+   [
+    -23.203657150268555
+   ],
+   [
+    -25.068546295166016
+   ],
+   [
+    -35.53980255126953
+   ],
+   [
+    -24.949981689453125
+   ],
+   [
+    -30.51909065246582
+   ],
+   [
+    -23.188430786132812
+   ],
+   [
+    -30.434194564819336
+   ],
+   [
+    -31.91815185546875
+   ],
+   [
+    -21.437637329101562
+   ],
+   [
+    -32.85063934326172
+   ],
+   [
+    -27.28253173828125
+   ],
+   [
+    -34.79127502441406
+   ],
+   [
+    -25.913074493408203
+   ],
+   [
+    -27.02953338623047
+   ],
+   [
+    -28.207244873046875
+   ],
+   [
+    -26.893596649169922
+   ],
+   [
+    -37.81914520263672
+   ],
+   [
+    -25.35968780517578
+   ],
+   [
+    -27.087657928466797
+   ],
+   [
+    -27.65149688720703
+   ],
+   [
+    -30.499303817749023
+   ],
+   [
+    -24.420377731323242
+   ],
+   [
+    -32.92344665527344
+   ],
+   [
+    -34.79335021972656
+   ],
+   [
+    -24.860929489135742
+   ],
+   [
+    -27.604543685913086
+   ],
+   [
+    -20.11905288696289
+   ],
+   [
+    -28.138782501220703
+   ],
+   [
+    -37.801265716552734
+   ],
+   [
+    -27.4234619140625
+   ],
+   [
+    -32.5441780090332
+   ],
+   [
+    -41.70554733276367
+   ],
+   [
+    -23.681407928466797
+   ],
+   [
+    -38.99302673339844
+   ],
+   [
+    -28.9218692779541
+   ],
+   [
+    -28.119625091552734
+   ],
+   [
+    -31.97770881652832
+   ],
+   [
+    -23.041839599609375
+   ],
+   [
+    -25.538516998291016
+   ],
+   [
+    -29.857952117919922
+   ],
+   [
+    -30.895994186401367
+   ],
+   [
+    -31.408002853393555
+   ],
+   [
+    -32.61624526977539
+   ],
+   [
+    -38.82508087158203
+   ],
+   [
+    -31.354469299316406
+   ],
+   [
+    -26.74777603149414
+   ],
+   [
+    -32.37491226196289
+   ],
+   [
+    -27.830265045166016
+   ],
+   [
+    -23.582164764404297
+   ],
+   [
+    -26.258193969726562
+   ],
+   [
+    -28.166248321533203
+   ],
+   [
+    -32.85363006591797
+   ],
+   [
+    -37.02604675292969
+   ],
+   [
+    -24.982646942138672
+   ],
+   [
+    -26.257953643798828
+   ],
+   [
+    -27.204334259033203
+   ],
+   [
+    -33.09920883178711
+   ],
+   [
+    -35.206748962402344
+   ],
+   [
+    -37.53168487548828
+   ],
+   [
+    -23.03990936279297
+   ],
+   [
+    -26.02655029296875
+   ],
+   [
+    -26.98880958557129
+   ],
+   [
+    -45.33524703979492
+   ],
+   [
+    -34.02257537841797
+   ],
+   [
+    -32.6663703918457
+   ],
+   [
+    -24.28714370727539
+   ],
+   [
+    -34.64543151855469
+   ],
+   [
+    -30.79559898376465
+   ],
+   [
+    -25.381668090820312
+   ],
+   [
+    -24.466856002807617
+   ],
+   [
+    -26.477802276611328
+   ],
+   [
+    -31.65891456604004
+   ],
+   [
+    -26.296199798583984
+   ],
+   [
+    -33.480018615722656
+   ],
+   [
+    -27.341869354248047
+   ],
+   [
+    -30.378395080566406
+   ],
+   [
+    -39.325164794921875
+   ],
+   [
+    -21.317829132080078
+   ],
+   [
+    -31.355464935302734
+   ],
+   [
+    -26.147796630859375
+   ],
+   [
+    -26.850147247314453
+   ],
+   [
+    -31.286897659301758
+   ],
+   [
+    -32.37027359008789
+   ],
+   [
+    -27.596601486206055
+   ],
+   [
+    -26.814708709716797
+   ],
+   [
+    -25.95909881591797
+   ],
+   [
+    -25.17314910888672
+   ],
+   [
+    -30.023757934570312
+   ],
+   [
+    -39.846412658691406
+   ],
+   [
+    -37.204437255859375
+   ],
+   [
+    -33.63833236694336
+   ],
+   [
+    -29.395715713500977
+   ],
+   [
+    -24.72454833984375
+   ],
+   [
+    -26.286338806152344
+   ],
+   [
+    -26.606647491455078
+   ],
+   [
+    -26.417362213134766
+   ],
+   [
+    -24.466201782226562
+   ],
+   [
+    -25.086036682128906
+   ],
+   [
+    -28.92794418334961
+   ],
+   [
+    -29.87799072265625
+   ],
+   [
+    -22.350624084472656
+   ],
+   [
+    -27.49327850341797
+   ],
+   [
+    -23.678306579589844
+   ],
+   [
+    -30.957517623901367
+   ],
+   [
+    -30.170909881591797
+   ],
+   [
+    -27.44788360595703
+   ],
+   [
+    -26.613662719726562
+   ],
+   [
+    -29.023082733154297
+   ],
+   [
+    -29.236766815185547
+   ],
+   [
+    -32.89385223388672
+   ],
+   [
+    -33.62002944946289
+   ],
+   [
+    -25.980972290039062
+   ],
+   [
+    -27.278146743774414
+   ],
+   [
+    -30.29485511779785
+   ],
+   [
+    -35.31863784790039
+   ],
+   [
+    -24.728530883789062
+   ],
+   [
+    -39.43846130371094
+   ],
+   [
+    -25.739055633544922
+   ],
+   [
+    -33.290428161621094
+   ],
+   [
+    -34.621971130371094
+   ],
+   [
+    -46.295379638671875
+   ],
+   [
+    -36.135345458984375
+   ],
+   [
+    -37.59370422363281
+   ],
+   [
+    -31.905241012573242
+   ],
+   [
+    -25.968727111816406
+   ],
+   [
+    -34.53138732910156
+   ],
+   [
+    -31.191518783569336
+   ],
+   [
+    -39.791236877441406
+   ],
+   [
+    -33.010009765625
+   ],
+   [
+    -38.23541259765625
+   ],
+   [
+    -25.22993278503418
+   ],
+   [
+    -24.87183380126953
+   ],
+   [
+    -25.303955078125
+   ],
+   [
+    -24.454771041870117
+   ],
+   [
+    -33.3953857421875
+   ],
+   [
+    -28.467300415039062
+   ],
+   [
+    -32.943058013916016
+   ],
+   [
+    -29.39168357849121
+   ],
+   [
+    -28.02881622314453
+   ],
+   [
+    -27.205764770507812
+   ],
+   [
+    -29.240310668945312
+   ],
+   [
+    -20.907474517822266
+   ],
+   [
+    -38.83698654174805
+   ],
+   [
+    -27.593917846679688
+   ],
+   [
+    -33.84815216064453
+   ],
+   [
+    -28.37543487548828
+   ],
+   [
+    -27.89986801147461
+   ],
+   [
+    -27.715560913085938
+   ],
+   [
+    -36.65936279296875
+   ],
+   [
+    -35.16483688354492
+   ],
+   [
+    -34.71711349487305
+   ],
+   [
+    -40.14474868774414
+   ],
+   [
+    -28.611007690429688
+   ],
+   [
+    -27.824295043945312
+   ],
+   [
+    -27.318378448486328
+   ],
+   [
+    -31.14749526977539
+   ],
+   [
+    -35.23384094238281
+   ],
+   [
+    -27.805042266845703
+   ],
+   [
+    -28.747966766357422
+   ],
+   [
+    -29.236892700195312
+   ],
+   [
+    -35.07328414916992
+   ],
+   [
+    -31.41223907470703
+   ],
+   [
+    -35.56409454345703
+   ],
+   [
+    -23.225107192993164
+   ],
+   [
+    -37.76264572143555
+   ],
+   [
+    -24.1820068359375
+   ],
+   [
+    -32.39602279663086
+   ],
+   [
+    -31.175310134887695
+   ],
+   [
+    -37.70220184326172
+   ],
+   [
+    -34.20489501953125
+   ],
+   [
+    -30.775598526000977
+   ],
+   [
+    -35.393985748291016
+   ],
+   [
+    -32.683692932128906
+   ],
+   [
+    -25.79961395263672
+   ],
+   [
+    -32.608055114746094
+   ],
+   [
+    -27.0957088470459
+   ],
+   [
+    -29.069534301757812
+   ],
+   [
+    -31.827789306640625
+   ],
+   [
+    -24.852672576904297
+   ],
+   [
+    -31.60257911682129
+   ],
+   [
+    -26.735828399658203
+   ],
+   [
+    -31.47690200805664
+   ],
+   [
+    -30.59001350402832
+   ],
+   [
+    -31.303390502929688
+   ],
+   [
+    -41.75598907470703
+   ]
+  ]
+ ],
+ "time": 457.5025587081909
+}

@@ -1,0 +1,2076 @@
+{
+ "case_id": 21949,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Christiaan Huygens"
+ },
+ "pre": [
+  [
+   "Christiaan Huygens's field of work is meteorology",
+   "Christiaan Huygens's field of work is radioactivity",
+   "Christiaan Huygens's field of work is complex function",
+   "Christiaan Huygens's field of work is histology",
+   "Christiaan Huygens's field of work is algebra",
+   "Christiaan Huygens's field of work is electron",
+   "Christiaan Huygens's field of work is quantum theory",
+   "Christiaan Huygens's field of work is applied mathematics",
+   "Christiaan Huygens's field of work is electricity",
+   "Christiaan Huygens's field of work is human geography",
+   "Christiaan Huygens's field of work is crystallography",
+   "Christiaan Huygens's field of work is chemistry",
+   "Christiaan Huygens's field of work is Jewish studies",
+   "Christiaan Huygens's field of work is topology",
+   "Christiaan Huygens's field of work is mathematical analysis",
+   "Christiaan Huygens's field of work is computational geometry",
+   "Christiaan Huygens's field of work is Petrine ministry",
+   "Christiaan Huygens's field of work is social psychology",
+   "Christiaan Huygens's field of work is genetics",
+   "Christiaan Huygens's field of work is informatics",
+   "Christiaan Huygens's field of work is shipbuilding",
+   "Christiaan Huygens's field of work is historical sociology",
+   "Christiaan Huygens's field of work is quantum mysticism",
+   "Christiaan Huygens's field of work is philosopher",
+   "Christiaan Huygens's field of work is Internet",
+   "Christiaan Huygens's field of work is gravity",
+   "Christiaan Huygens's field of work is theoretical physics",
+   "Christiaan Huygens's field of work is African studies",
+   "Christiaan Huygens's field of work is projective geometry",
+   "Christiaan Huygens's field of work is prose",
+   "Christiaan Huygens's field of work is momentum",
+   "Christiaan Huygens's field of work is Cairo Geniza",
+   "Christiaan Huygens's field of work is stochastic",
+   "Christiaan Huygens's field of work is algebraic topology",
+   "Christiaan Huygens's field of work is electrical engineering",
+   "Christiaan Huygens's field of work is hunting",
+   "Christiaan Huygens's field of work is evolution",
+   "Christiaan Huygens's field of work is economic anthropology",
+   "Christiaan Huygens's field of work is Hebrew",
+   "Christiaan Huygens's field of work is differential geometry",
+   "Christiaan Huygens's field of work is engineering",
+   "Christiaan Huygens's field of work is history of science",
+   "Christiaan Huygens's field of work is social anthropology",
+   "Christiaan Huygens's field of work is history",
+   "Christiaan Huygens's field of work is distribution theory",
+   "Christiaan Huygens's field of work is classics",
+   "Christiaan Huygens's field of work is crime novel",
+   "Christiaan Huygens's field of work is statistics",
+   "Christiaan Huygens's field of work is experimental physics",
+   "Christiaan Huygens's field of work is geography",
+   "Christiaan Huygens's field of work is anthropology",
+   "Christiaan Huygens's field of work is partial differential equation",
+   "Christiaan Huygens's field of work is applied physics",
+   "Christiaan Huygens's field of work is Sanskrit",
+   "Christiaan Huygens's field of work is a branch of physics",
+   "Christiaan Huygens's field of work is comparative mythology",
+   "Christiaan Huygens's field of work is radiation",
+   "Christiaan Huygens's field of work is aeromechanics",
+   "Christiaan Huygens's field of work is harmonic analysis",
+   "Christiaan Huygens's field of work is religion",
+   "Christiaan Huygens's field of work is civil rights",
+   "Christiaan Huygens's field of work is physicist",
+   "Christiaan Huygens's field of work is distribution",
+   "Christiaan Huygens's field of work is translations from Spanish",
+   "Christiaan Huygens's field of work is feminism",
+   "Christiaan Huygens's field of work is number theory",
+   "Christiaan Huygens's field of work is sociology of organisations",
+   "Christiaan Huygens's field of work is astronomer",
+   "Christiaan Huygens's field of work is children's and youth literature",
+   "Christiaan Huygens's field of work is fairy tale",
+   "Christiaan Huygens's field of work is economy",
+   "Christiaan Huygens's field of work is graph theory",
+   "Christiaan Huygens's field of work is magic",
+   "Christiaan Huygens's field of work is essay",
+   "Christiaan Huygens's field of work is theory of relativity",
+   "Christiaan Huygens's field of work is historical novel",
+   "Christiaan Huygens's field of work is biological anthropology",
+   "Christiaan Huygens's field of work is literary theory",
+   "Christiaan Huygens's field of work is Greek philology",
+   "Christiaan Huygens's field of work is lyric poetry",
+   "Christiaan Huygens's field of work is psychology",
+   "Christiaan Huygens's field of work is quaternion",
+   "Christiaan Huygens's field of work is rite",
+   "Christiaan Huygens's field of work is jazz",
+   "Christiaan Huygens's field of work is heat",
+   "Christiaan Huygens's field of work is embryology",
+   "Christiaan Huygens's field of work is social philosophy",
+   "Christiaan Huygens's field of work is dance choreography",
+   "Christiaan Huygens's field of work is politics",
+   "Christiaan Huygens's field of work is nanotechnology",
+   "Christiaan Huygens's field of work is Afghanistan",
+   "Christiaan Huygens's field of work is non-Euclidean geometry",
+   "Christiaan Huygens's field of work is Franciscan spirituality",
+   "Christiaan Huygens's field of work is detective literature",
+   "Christiaan Huygens's field of work is mathematician",
+   "Christiaan Huygens's field of work is String",
+   "Christiaan Huygens's field of work is classical music",
+   "Christiaan Huygens's field of work is translations from Occitan",
+   "Christiaan Huygens's field of work is abstract algebra",
+   "Christiaan Huygens's field of work is differential calculus",
+   "Christiaan Huygens's field of work is mythology",
+   "Christiaan Huygens's field of work is literary translation",
+   "Christiaan Huygens's field of work is ballistics",
+   "Christiaan Huygens's field of work is cryptography",
+   "Christiaan Huygens's field of work is Greek",
+   "Christiaan Huygens's field of work is logic",
+   "Christiaan Huygens's field of work is choreography",
+   "Christiaan Huygens's field of work is theology",
+   "Christiaan Huygens's field of work is world economy",
+   "Christiaan Huygens's field of work is magnetism",
+   "Christiaan Huygens's field of work is algebraic geometry",
+   "Christiaan Huygens's field of work is theory of differential equations",
+   "Christiaan Huygens's field of work is physics",
+   "Christiaan Huygens's field of work is music theory",
+   "Christiaan Huygens's field of work is economics",
+   "Christiaan Huygens's field of work is anatomy",
+   "Christiaan Huygens's field of work is electromagnetic field",
+   "Christiaan Huygens's field of work is analytic number theory",
+   "Christiaan Huygens's field of work is mathematical physics",
+   "Christiaan Huygens's field of work is journalism",
+   "Christiaan Huygens's field of work is sociology",
+   "Christiaan Huygens's field of work is literature",
+   "Christiaan Huygens's field of work is ethnography",
+   "Christiaan Huygens's field of work is belletristic literature",
+   "Christiaan Huygens's field of work is convex function",
+   "Christiaan Huygens's field of work is sociology of religion",
+   "Christiaan Huygens's field of work is pedagogy",
+   "Christiaan Huygens's field of work is philosophy",
+   "Christiaan Huygens's field of work is quantum mechanics",
+   "Christiaan Huygens's field of work is drama",
+   "Christiaan Huygens's field of work is dance",
+   "Christiaan Huygens's field of work is Judaism",
+   "Christiaan Huygens's field of work is quantum physics",
+   "Christiaan Huygens's field of work is philosophy of science",
+   "Christiaan Huygens's field of work is linguistics",
+   "Christiaan Huygens's field of work is myth",
+   "Christiaan Huygens's field of work is physiology",
+   "Christiaan Huygens's field of work is English",
+   "Christiaan Huygens's field of work is philology",
+   "Christiaan Huygens's field of work is political philosophy",
+   "Christiaan Huygens's field of work is mechanical engineering",
+   "Christiaan Huygens's field of work is ontology",
+   "Christiaan Huygens's field of work is forestry",
+   "Christiaan Huygens's field of work is aerodynamics",
+   "Christiaan Huygens's field of work is Christian Church",
+   "Christiaan Huygens's field of work is magnetic resonance",
+   "Christiaan Huygens's field of work is astrophysics",
+   "Christiaan Huygens's field of work is natural science",
+   "Christiaan Huygens's field of work is constitutional law",
+   "Christiaan Huygens's field of work is philosophy of law",
+   "Christiaan Huygens's field of work is education",
+   "Christiaan Huygens's field of work is Monte Carlo method",
+   "Christiaan Huygens's field of work is neurology",
+   "Christiaan Huygens's field of work is electric field",
+   "Christiaan Huygens's field of work is Minkowski spacetime",
+   "Christiaan Huygens's field of work is translations from Arabic language",
+   "Christiaan Huygens's field of work is Bayesian inference",
+   "Christiaan Huygens's field of work is translations from Polish",
+   "Christiaan Huygens's field of work is color photography",
+   "Christiaan Huygens's field of work is opera",
+   "Christiaan Huygens's field of work is model theory",
+   "Christiaan Huygens's field of work is cartography",
+   "Christiaan Huygens's field of work is nonstandard analysis",
+   "Christiaan Huygens's field of work is television program",
+   "Christiaan Huygens's field of work is complex manifold",
+   "Christiaan Huygens's field of work is poetry",
+   "Christiaan Huygens's field of work is mathematics",
+   "Christiaan Huygens's field of work is computer science",
+   "Christiaan Huygens's field of work is cosmology",
+   "Christiaan Huygens's field of work is silviculture",
+   "Christiaan Huygens's field of work is hydrodynamics",
+   "Christiaan Huygens's field of work is forestry science",
+   "Christiaan Huygens's field of work is comparative religion",
+   "Christiaan Huygens's field of work is information technology",
+   "Christiaan Huygens's field of work is ballet",
+   "Christiaan Huygens's field of work is English literature",
+   "Christiaan Huygens's field of work is conducting",
+   "Christiaan Huygens's field of work is hyperbolic geometry",
+   "Christiaan Huygens's field of work is biochemistry",
+   "Christiaan Huygens's field of work is religion and society",
+   "Christiaan Huygens's field of work is optics",
+   "Christiaan Huygens's field of work is ethics",
+   "Christiaan Huygens's field of work is cybernetics",
+   "Christiaan Huygens's field of work is astronomical observation",
+   "Christiaan Huygens's field of work is psychophysiology",
+   "Christiaan Huygens's field of work is culturology",
+   "Christiaan Huygens's field of work is history of religions",
+   "Christiaan Huygens's field of work is probability theory",
+   "Christiaan Huygens's field of work is paleontology",
+   "Christiaan Huygens's field of work is surgery",
+   "Christiaan Huygens's field of work is group theory",
+   "Christiaan Huygens's field of work is natural theology",
+   "Christiaan Huygens's field of work is astrology",
+   "Christiaan Huygens's field of work is quantum electrodynamics",
+   "Christiaan Huygens's field of work is mechanics",
+   "Christiaan Huygens's field of work is Lie algebra",
+   "Christiaan Huygens's field of work is trigonometry",
+   "Christiaan Huygens's field of work is literary activity",
+   "Christiaan Huygens's field of work is nuclear physics",
+   "Christiaan Huygens's field of work is translations from English",
+   "Christiaan Huygens's field of work is medicine",
+   "Christiaan Huygens's field of work is Jewish philosophy",
+   "Christiaan Huygens's field of work is mathematical logic",
+   "Christiaan Huygens's field of work is calculus of variations",
+   "Christiaan Huygens's field of work is ferromagnetism",
+   "Christiaan Huygens's field of work is analytic geometry",
+   "Christiaan Huygens's field of work is art of painting",
+   "Christiaan Huygens's field of work is functional analysis",
+   "Christiaan Huygens's field of work is folklore",
+   "Christiaan Huygens's field of work is study of history",
+   "Christiaan Huygens's field of work is geometry",
+   "Christiaan Huygens's field of work is positivism",
+   "Christiaan Huygens's field of work is geodesy",
+   "Christiaan Huygens's field of work is astronomy",
+   "Christiaan Huygens's field of work is magnetic field",
+   "Christiaan Huygens's field of work is kinetic theory",
+   "Christiaan Huygens's field of work is celestial mechanics",
+   "Christiaan Huygens's field of work is analytic philosophy",
+   "Christiaan Huygens's field of work is ethnology",
+   "Christiaan Huygens's field of work is history of economic thought",
+   "Christiaan Huygens is meteorology",
+   "Christiaan Huygens is radioactivity",
+   "Christiaan Huygens is complex function",
+   "Christiaan Huygens is histology",
+   "Christiaan Huygens is algebra",
+   "Christiaan Huygens is electron",
+   "Christiaan Huygens is quantum theory",
+   "Christiaan Huygens is applied mathematics",
+   "Christiaan Huygens is electricity",
+   "Christiaan Huygens is human geography",
+   "Christiaan Huygens is crystallography",
+   "Christiaan Huygens is chemistry",
+   "Christiaan Huygens is Jewish studies",
+   "Christiaan Huygens is topology",
+   "Christiaan Huygens is mathematical analysis",
+   "Christiaan Huygens is computational geometry",
+   "Christiaan Huygens is Petrine ministry",
+   "Christiaan Huygens is social psychology",
+   "Christiaan Huygens is genetics",
+   "Christiaan Huygens is informatics",
+   "Christiaan Huygens is shipbuilding",
+   "Christiaan Huygens is historical sociology",
+   "Christiaan Huygens is quantum mysticism",
+   "Christiaan Huygens is philosopher",
+   "Christiaan Huygens is Internet",
+   "Christiaan Huygens is gravity",
+   "Christiaan Huygens is theoretical physics",
+   "Christiaan Huygens is African studies",
+   "Christiaan Huygens is projective geometry",
+   "Christiaan Huygens is prose",
+   "Christiaan Huygens is momentum",
+   "Christiaan Huygens is Cairo Geniza",
+   "Christiaan Huygens is stochastic",
+   "Christiaan Huygens is algebraic topology",
+   "Christiaan Huygens is electrical engineering",
+   "Christiaan Huygens is hunting",
+   "Christiaan Huygens is evolution",
+   "Christiaan Huygens is economic anthropology",
+   "Christiaan Huygens is Hebrew",
+   "Christiaan Huygens is differential geometry",
+   "Christiaan Huygens is engineering",
+   "Christiaan Huygens is history of science",
+   "Christiaan Huygens is social anthropology",
+   "Christiaan Huygens is history",
+   "Christiaan Huygens is distribution theory",
+   "Christiaan Huygens is classics",
+   "Christiaan Huygens is crime novel",
+   "Christiaan Huygens is statistics",
+   "Christiaan Huygens is experimental physics",
+   "Christiaan Huygens is geography",
+   "Christiaan Huygens is anthropology",
+   "Christiaan Huygens is partial differential equation",
+   "Christiaan Huygens is applied physics",
+   "Christiaan Huygens is Sanskrit",
+   "Christiaan Huygens is a branch of physics",
+   "Christiaan Huygens is comparative mythology",
+   "Christiaan Huygens is radiation",
+   "Christiaan Huygens is aeromechanics",
+   "Christiaan Huygens is harmonic analysis",
+   "Christiaan Huygens is religion",
+   "Christiaan Huygens is civil rights",
+   "Christiaan Huygens is physicist",
+   "Christiaan Huygens is distribution",
+   "Christiaan Huygens is translations from Spanish",
+   "Christiaan Huygens is feminism",
+   "Christiaan Huygens is number theory",
+   "Christiaan Huygens is sociology of organisations",
+   "Christiaan Huygens is astronomer",
+   "Christiaan Huygens is children's and youth literature",
+   "Christiaan Huygens is fairy tale",
+   "Christiaan Huygens is economy",
+   "Christiaan Huygens is graph theory",
+   "Christiaan Huygens is magic",
+   "Christiaan Huygens is essay",
+   "Christiaan Huygens is theory of relativity",
+   "Christiaan Huygens is historical novel",
+   "Christiaan Huygens is biological anthropology",
+   "Christiaan Huygens is literary theory",
+   "Christiaan Huygens is Greek philology",
+   "Christiaan Huygens is lyric poetry",
+   "Christiaan Huygens is psychology",
+   "Christiaan Huygens is quaternion",
+   "Christiaan Huygens is rite",
+   "Christiaan Huygens is jazz",
+   "Christiaan Huygens is heat",
+   "Christiaan Huygens is embryology",
+   "Christiaan Huygens is social philosophy",
+   "Christiaan Huygens is dance choreography",
+   "Christiaan Huygens is politics",
+   "Christiaan Huygens is nanotechnology",
+   "Christiaan Huygens is Afghanistan",
+   "Christiaan Huygens is non-Euclidean geometry",
+   "Christiaan Huygens is Franciscan spirituality",
+   "Christiaan Huygens is detective literature",
+   "Christiaan Huygens is mathematician",
+   "Christiaan Huygens is String",
+   "Christiaan Huygens is classical music",
+   "Christiaan Huygens is translations from Occitan",
+   "Christiaan Huygens is abstract algebra",
+   "Christiaan Huygens is differential calculus",
+   "Christiaan Huygens is mythology",
+   "Christiaan Huygens is literary translation",
+   "Christiaan Huygens is ballistics",
+   "Christiaan Huygens is cryptography",
+   "Christiaan Huygens is Greek",
+   "Christiaan Huygens is logic",
+   "Christiaan Huygens is choreography",
+   "Christiaan Huygens is theology",
+   "Christiaan Huygens is world economy",
+   "Christiaan Huygens is magnetism",
+   "Christiaan Huygens is algebraic geometry",
+   "Christiaan Huygens is theory of differential equations",
+   "Christiaan Huygens is physics",
+   "Christiaan Huygens is music theory",
+   "Christiaan Huygens is economics",
+   "Christiaan Huygens is anatomy",
+   "Christiaan Huygens is electromagnetic field",
+   "Christiaan Huygens is analytic number theory",
+   "Christiaan Huygens is mathematical physics",
+   "Christiaan Huygens is journalism",
+   "Christiaan Huygens is sociology",
+   "Christiaan Huygens is literature",
+   "Christiaan Huygens is ethnography",
+   "Christiaan Huygens is belletristic literature",
+   "Christiaan Huygens is convex function",
+   "Christiaan Huygens is sociology of religion",
+   "Christiaan Huygens is pedagogy",
+   "Christiaan Huygens is philosophy",
+   "Christiaan Huygens is quantum mechanics",
+   "Christiaan Huygens is drama",
+   "Christiaan Huygens is dance",
+   "Christiaan Huygens is Judaism",
+   "Christiaan Huygens is quantum physics",
+   "Christiaan Huygens is philosophy of science",
+   "Christiaan Huygens is linguistics",
+   "Christiaan Huygens is myth",
+   "Christiaan Huygens is physiology",
+   "Christiaan Huygens is English",
+   "Christiaan Huygens is philology",
+   "Christiaan Huygens is political philosophy",
+   "Christiaan Huygens is mechanical engineering",
+   "Christiaan Huygens is ontology",
+   "Christiaan Huygens is forestry",
+   "Christiaan Huygens is aerodynamics",
+   "Christiaan Huygens is Christian Church",
+   "Christiaan Huygens is magnetic resonance",
+   "Christiaan Huygens is astrophysics",
+   "Christiaan Huygens is natural science",
+   "Christiaan Huygens is constitutional law",
+   "Christiaan Huygens is philosophy of law",
+   "Christiaan Huygens is education",
+   "Christiaan Huygens is Monte Carlo method",
+   "Christiaan Huygens is neurology",
+   "Christiaan Huygens is electric field",
+   "Christiaan Huygens is Minkowski spacetime",
+   "Christiaan Huygens is translations from Arabic language",
+   "Christiaan Huygens is Bayesian inference",
+   "Christiaan Huygens is translations from Polish",
+   "Christiaan Huygens is color photography",
+   "Christiaan Huygens is opera",
+   "Christiaan Huygens is model theory",
+   "Christiaan Huygens is cartography",
+   "Christiaan Huygens is nonstandard analysis",
+   "Christiaan Huygens is television program",
+   "Christiaan Huygens is complex manifold",
+   "Christiaan Huygens is poetry",
+   "Christiaan Huygens is mathematics",
+   "Christiaan Huygens is computer science",
+   "Christiaan Huygens is cosmology",
+   "Christiaan Huygens is silviculture",
+   "Christiaan Huygens is hydrodynamics",
+   "Christiaan Huygens is forestry science",
+   "Christiaan Huygens is comparative religion",
+   "Christiaan Huygens is information technology",
+   "Christiaan Huygens is ballet",
+   "Christiaan Huygens is English literature",
+   "Christiaan Huygens is conducting",
+   "Christiaan Huygens is hyperbolic geometry",
+   "Christiaan Huygens is biochemistry",
+   "Christiaan Huygens is religion and society",
+   "Christiaan Huygens is optics",
+   "Christiaan Huygens is ethics",
+   "Christiaan Huygens is cybernetics",
+   "Christiaan Huygens is astronomical observation",
+   "Christiaan Huygens is psychophysiology",
+   "Christiaan Huygens is culturology",
+   "Christiaan Huygens is history of religions",
+   "Christiaan Huygens is probability theory",
+   "Christiaan Huygens is paleontology",
+   "Christiaan Huygens is surgery",
+   "Christiaan Huygens is group theory",
+   "Christiaan Huygens is natural theology",
+   "Christiaan Huygens is astrology",
+   "Christiaan Huygens is quantum electrodynamics",
+   "Christiaan Huygens is mechanics",
+   "Christiaan Huygens is Lie algebra",
+   "Christiaan Huygens is trigonometry",
+   "Christiaan Huygens is literary activity",
+   "Christiaan Huygens is nuclear physics",
+   "Christiaan Huygens is translations from English",
+   "Christiaan Huygens is medicine",
+   "Christiaan Huygens is Jewish philosophy",
+   "Christiaan Huygens is mathematical logic",
+   "Christiaan Huygens is calculus of variations",
+   "Christiaan Huygens is ferromagnetism",
+   "Christiaan Huygens is analytic geometry",
+   "Christiaan Huygens is art of painting",
+   "Christiaan Huygens is functional analysis",
+   "Christiaan Huygens is folklore",
+   "Christiaan Huygens is study of history",
+   "Christiaan Huygens is geometry",
+   "Christiaan Huygens is positivism",
+   "Christiaan Huygens is geodesy",
+   "Christiaan Huygens is astronomy",
+   "Christiaan Huygens is magnetic field",
+   "Christiaan Huygens is kinetic theory",
+   "Christiaan Huygens is celestial mechanics",
+   "Christiaan Huygens is analytic philosophy",
+   "Christiaan Huygens is ethnology",
+   "Christiaan Huygens is history of economic thought"
+  ],
+  [
+   [
+    -39.13916015625
+   ],
+   [
+    -42.657447814941406
+   ],
+   [
+    -47.300575256347656
+   ],
+   [
+    -40.921722412109375
+   ],
+   [
+    -38.11565017700195
+   ],
+   [
+    -38.40998840332031
+   ],
+   [
+    -38.904273986816406
+   ],
+   [
+    -38.82196044921875
+   ],
+   [
+    -38.430870056152344
+   ],
+   [
+    -44.14152526855469
+   ],
+   [
+    -38.34089660644531
+   ],
+   [
+    -37.864776611328125
+   ],
+   [
+    -46.330604553222656
+   ],
+   [
+    -38.515045166015625
+   ],
+   [
+    -39.10692596435547
+   ],
+   [
+    -41.04724884033203
+   ],
+   [
+    -57.79792022705078
+   ],
+   [
+    -41.24932861328125
+   ],
+   [
+    -39.98585891723633
+   ],
+   [
+    -40.458251953125
+   ],
+   [
+    -44.02511978149414
+   ],
+   [
+    -44.769927978515625
+   ],
+   [
+    -48.506874084472656
+   ],
+   [
+    -43.077735900878906
+   ],
+   [
+    -42.00632858276367
+   ],
+   [
+    -38.191925048828125
+   ],
+   [
+    -36.37797927856445
+   ],
+   [
+    -45.471954345703125
+   ],
+   [
+    -44.223018646240234
+   ],
+   [
+    -42.86632537841797
+   ],
+   [
+    -41.782081604003906
+   ],
+   [
+    -54.869354248046875
+   ],
+   [
+    -40.36386489868164
+   ],
+   [
+    -41.045982360839844
+   ],
+   [
+    -38.19263458251953
+   ],
+   [
+    -43.01823425292969
+   ],
+   [
+    -38.565826416015625
+   ],
+   [
+    -45.72660446166992
+   ],
+   [
+    -44.21088409423828
+   ],
+   [
+    -41.32941436767578
+   ],
+   [
+    -38.374427795410156
+   ],
+   [
+    -39.12147903442383
+   ],
+   [
+    -42.51527786254883
+   ],
+   [
+    -37.11319351196289
+   ],
+   [
+    -43.005767822265625
+   ],
+   [
+    -41.139076232910156
+   ],
+   [
+    -51.1319580078125
+   ],
+   [
+    -39.62806701660156
+   ],
+   [
+    -37.6103515625
+   ],
+   [
+    -40.45444107055664
+   ],
+   [
+    -39.900733947753906
+   ],
+   [
+    -46.30301284790039
+   ],
+   [
+    -39.09082794189453
+   ],
+   [
+    -43.42851257324219
+   ],
+   [
+    -41.40415954589844
+   ],
+   [
+    -42.94807815551758
+   ],
+   [
+    -38.445804595947266
+   ],
+   [
+    -45.18406677246094
+   ],
+   [
+    -40.12860107421875
+   ],
+   [
+    -39.54056930541992
+   ],
+   [
+    -46.150081634521484
+   ],
+   [
+    -43.17267608642578
+   ],
+   [
+    -40.64459991455078
+   ],
+   [
+    -49.07916259765625
+   ],
+   [
+    -43.769203186035156
+   ],
+   [
+    -37.864768981933594
+   ],
+   [
+    -49.80535125732422
+   ],
+   [
+    -42.508087158203125
+   ],
+   [
+    -48.50361251831055
+   ],
+   [
+    -46.77812194824219
+   ],
+   [
+    -42.28912353515625
+   ],
+   [
+    -40.52301025390625
+   ],
+   [
+    -39.7620849609375
+   ],
+   [
+    -42.90359878540039
+   ],
+   [
+    -44.12913513183594
+   ],
+   [
+    -47.229827880859375
+   ],
+   [
+    -44.00434875488281
+   ],
+   [
+    -42.84529113769531
+   ],
+   [
+    -46.417720794677734
+   ],
+   [
+    -46.09938430786133
+   ],
+   [
+    -38.99416732788086
+   ],
+   [
+    -43.18483352661133
+   ],
+   [
+    -45.959476470947266
+   ],
+   [
+    -43.506195068359375
+   ],
+   [
+    -38.841941833496094
+   ],
+   [
+    -40.77655792236328
+   ],
+   [
+    -42.72949981689453
+   ],
+   [
+    -47.74633026123047
+   ],
+   [
+    -39.934059143066406
+   ],
+   [
+    -38.601890563964844
+   ],
+   [
+    -47.585960388183594
+   ],
+   [
+    -39.97476577758789
+   ],
+   [
+    -48.94367980957031
+   ],
+   [
+    -49.14427185058594
+   ],
+   [
+    -43.22386932373047
+   ],
+   [
+    -42.19073486328125
+   ],
+   [
+    -39.87692642211914
+   ],
+   [
+    -53.903907775878906
+   ],
+   [
+    -40.927276611328125
+   ],
+   [
+    -42.38196563720703
+   ],
+   [
+    -41.92268371582031
+   ],
+   [
+    -45.58686065673828
+   ],
+   [
+    -41.36610412597656
+   ],
+   [
+    -39.260658264160156
+   ],
+   [
+    -41.217384338378906
+   ],
+   [
+    -38.2171630859375
+   ],
+   [
+    -42.17461395263672
+   ],
+   [
+    -38.70962905883789
+   ],
+   [
+    -46.76496887207031
+   ],
+   [
+    -38.917423248291016
+   ],
+   [
+    -39.20823669433594
+   ],
+   [
+    -48.56031036376953
+   ],
+   [
+    -34.633270263671875
+   ],
+   [
+    -39.776241302490234
+   ],
+   [
+    -39.96194076538086
+   ],
+   [
+    -40.2570915222168
+   ],
+   [
+    -41.24702835083008
+   ],
+   [
+    -43.026275634765625
+   ],
+   [
+    -36.94096374511719
+   ],
+   [
+    -41.44032287597656
+   ],
+   [
+    -40.40462112426758
+   ],
+   [
+    -40.436485290527344
+   ],
+   [
+    -42.3372917175293
+   ],
+   [
+    -49.318382263183594
+   ],
+   [
+    -45.57140350341797
+   ],
+   [
+    -43.970394134521484
+   ],
+   [
+    -41.151634216308594
+   ],
+   [
+    -36.459075927734375
+   ],
+   [
+    -37.84292984008789
+   ],
+   [
+    -42.67156219482422
+   ],
+   [
+    -40.18766784667969
+   ],
+   [
+    -44.953102111816406
+   ],
+   [
+    -37.8239631652832
+   ],
+   [
+    -38.163902282714844
+   ],
+   [
+    -40.00454330444336
+   ],
+   [
+    -42.42155838012695
+   ],
+   [
+    -39.62614059448242
+   ],
+   [
+    -40.722999572753906
+   ],
+   [
+    -40.975250244140625
+   ],
+   [
+    -40.30403137207031
+   ],
+   [
+    -38.848228454589844
+   ],
+   [
+    -39.03997039794922
+   ],
+   [
+    -43.67193603515625
+   ],
+   [
+    -40.59185791015625
+   ],
+   [
+    -46.561492919921875
+   ],
+   [
+    -41.248680114746094
+   ],
+   [
+    -37.1823844909668
+   ],
+   [
+    -39.367584228515625
+   ],
+   [
+    -41.14878845214844
+   ],
+   [
+    -43.38513946533203
+   ],
+   [
+    -38.79576110839844
+   ],
+   [
+    -53.24864959716797
+   ],
+   [
+    -41.733680725097656
+   ],
+   [
+    -44.35285186767578
+   ],
+   [
+    -44.47266387939453
+   ],
+   [
+    -53.97686004638672
+   ],
+   [
+    -43.04848098754883
+   ],
+   [
+    -52.07828903198242
+   ],
+   [
+    -42.065643310546875
+   ],
+   [
+    -41.973670959472656
+   ],
+   [
+    -43.80060577392578
+   ],
+   [
+    -38.92884063720703
+   ],
+   [
+    -45.69948959350586
+   ],
+   [
+    -47.26832580566406
+   ],
+   [
+    -48.05811309814453
+   ],
+   [
+    -41.091739654541016
+   ],
+   [
+    -35.19929122924805
+   ],
+   [
+    -39.41943359375
+   ],
+   [
+    -36.362464904785156
+   ],
+   [
+    -47.09861373901367
+   ],
+   [
+    -39.111663818359375
+   ],
+   [
+    -48.37169647216797
+   ],
+   [
+    -40.983802795410156
+   ],
+   [
+    -40.404998779296875
+   ],
+   [
+    -42.383575439453125
+   ],
+   [
+    -42.268959045410156
+   ],
+   [
+    -40.88822555541992
+   ],
+   [
+    -42.350276947021484
+   ],
+   [
+    -38.84420394897461
+   ],
+   [
+    -45.57203674316406
+   ],
+   [
+    -33.97267150878906
+   ],
+   [
+    -40.01677703857422
+   ],
+   [
+    -39.77105712890625
+   ],
+   [
+    -41.429752349853516
+   ],
+   [
+    -42.97686767578125
+   ],
+   [
+    -44.87160110473633
+   ],
+   [
+    -45.41765594482422
+   ],
+   [
+    -39.604087829589844
+   ],
+   [
+    -40.64710235595703
+   ],
+   [
+    -42.07002258300781
+   ],
+   [
+    -41.562889099121094
+   ],
+   [
+    -41.98802947998047
+   ],
+   [
+    -39.32895278930664
+   ],
+   [
+    -41.23786544799805
+   ],
+   [
+    -37.27116012573242
+   ],
+   [
+    -44.48382568359375
+   ],
+   [
+    -40.15235900878906
+   ],
+   [
+    -49.973899841308594
+   ],
+   [
+    -40.76935958862305
+   ],
+   [
+    -46.49479675292969
+   ],
+   [
+    -39.29863739013672
+   ],
+   [
+    -46.142494201660156
+   ],
+   [
+    -39.247520446777344
+   ],
+   [
+    -43.07205581665039
+   ],
+   [
+    -44.170387268066406
+   ],
+   [
+    -40.29900360107422
+   ],
+   [
+    -46.63673782348633
+   ],
+   [
+    -42.338523864746094
+   ],
+   [
+    -42.403228759765625
+   ],
+   [
+    -47.92259979248047
+   ],
+   [
+    -37.53170394897461
+   ],
+   [
+    -44.04475402832031
+   ],
+   [
+    -38.795501708984375
+   ],
+   [
+    -35.01670837402344
+   ],
+   [
+    -42.49449157714844
+   ],
+   [
+    -41.45509338378906
+   ],
+   [
+    -37.538421630859375
+   ],
+   [
+    -40.1987190246582
+   ],
+   [
+    -41.671730041503906
+   ],
+   [
+    -47.76369094848633
+   ],
+   [
+    -27.946155548095703
+   ],
+   [
+    -32.00408172607422
+   ],
+   [
+    -36.848514556884766
+   ],
+   [
+    -30.786590576171875
+   ],
+   [
+    -26.197662353515625
+   ],
+   [
+    -25.81081771850586
+   ],
+   [
+    -28.331205368041992
+   ],
+   [
+    -28.133190155029297
+   ],
+   [
+    -26.990833282470703
+   ],
+   [
+    -33.251338958740234
+   ],
+   [
+    -28.092700958251953
+   ],
+   [
+    -27.263534545898438
+   ],
+   [
+    -37.4573974609375
+   ],
+   [
+    -29.361469268798828
+   ],
+   [
+    -33.062522888183594
+   ],
+   [
+    -32.70026397705078
+   ],
+   [
+    -47.5603141784668
+   ],
+   [
+    -30.953601837158203
+   ],
+   [
+    -28.900447845458984
+   ],
+   [
+    -26.03528594970703
+   ],
+   [
+    -30.550296783447266
+   ],
+   [
+    -34.411415100097656
+   ],
+   [
+    -35.057167053222656
+   ],
+   [
+    -24.383304595947266
+   ],
+   [
+    -24.597904205322266
+   ],
+   [
+    -28.00029754638672
+   ],
+   [
+    -28.897666931152344
+   ],
+   [
+    -33.96833801269531
+   ],
+   [
+    -32.021026611328125
+   ],
+   [
+    -28.846107482910156
+   ],
+   [
+    -27.784648895263672
+   ],
+   [
+    -41.020835876464844
+   ],
+   [
+    -29.079456329345703
+   ],
+   [
+    -30.186098098754883
+   ],
+   [
+    -30.33468246459961
+   ],
+   [
+    -25.4501953125
+   ],
+   [
+    -26.96105194091797
+   ],
+   [
+    -36.8328971862793
+   ],
+   [
+    -27.742172241210938
+   ],
+   [
+    -31.234893798828125
+   ],
+   [
+    -26.384906768798828
+   ],
+   [
+    -28.334522247314453
+   ],
+   [
+    -32.13755798339844
+   ],
+   [
+    -22.709842681884766
+   ],
+   [
+    -34.146785736083984
+   ],
+   [
+    -27.71417999267578
+   ],
+   [
+    -36.11019515991211
+   ],
+   [
+    -27.451507568359375
+   ],
+   [
+    -30.45074462890625
+   ],
+   [
+    -28.879722595214844
+   ],
+   [
+    -27.84505844116211
+   ],
+   [
+    -35.34114456176758
+   ],
+   [
+    -27.984004974365234
+   ],
+   [
+    -28.12115478515625
+   ],
+   [
+    -31.913320541381836
+   ],
+   [
+    -32.08981704711914
+   ],
+   [
+    -27.25214385986328
+   ],
+   [
+    -31.304147720336914
+   ],
+   [
+    -31.662548065185547
+   ],
+   [
+    -27.605838775634766
+   ],
+   [
+    -31.986494064331055
+   ],
+   [
+    -23.68820571899414
+   ],
+   [
+    -29.541481018066406
+   ],
+   [
+    -38.48768615722656
+   ],
+   [
+    -29.088268280029297
+   ],
+   [
+    -33.141639709472656
+   ],
+   [
+    -39.98424530029297
+   ],
+   [
+    -24.46216583251953
+   ],
+   [
+    -38.64971923828125
+   ],
+   [
+    -30.060882568359375
+   ],
+   [
+    -29.799034118652344
+   ],
+   [
+    -33.481632232666016
+   ],
+   [
+    -25.419689178466797
+   ],
+   [
+    -26.075267791748047
+   ],
+   [
+    -32.47244644165039
+   ],
+   [
+    -30.820913314819336
+   ],
+   [
+    -32.818359375
+   ],
+   [
+    -32.512516021728516
+   ],
+   [
+    -38.80364227294922
+   ],
+   [
+    -32.87773132324219
+   ],
+   [
+    -27.815204620361328
+   ],
+   [
+    -29.79206085205078
+   ],
+   [
+    -27.064048767089844
+   ],
+   [
+    -27.20291519165039
+   ],
+   [
+    -27.47894287109375
+   ],
+   [
+    -27.591598510742188
+   ],
+   [
+    -33.99781036376953
+   ],
+   [
+    -35.10833740234375
+   ],
+   [
+    -28.64163589477539
+   ],
+   [
+    -29.966896057128906
+   ],
+   [
+    -29.43109130859375
+   ],
+   [
+    -30.341867446899414
+   ],
+   [
+    -36.53385925292969
+   ],
+   [
+    -37.48329162597656
+   ],
+   [
+    -24.251331329345703
+   ],
+   [
+    -28.264469146728516
+   ],
+   [
+    -27.075252532958984
+   ],
+   [
+    -42.34526443481445
+   ],
+   [
+    -30.041179656982422
+   ],
+   [
+    -33.64623260498047
+   ],
+   [
+    -26.172161102294922
+   ],
+   [
+    -35.51887130737305
+   ],
+   [
+    -31.17209243774414
+   ],
+   [
+    -27.55284881591797
+   ],
+   [
+    -25.314598083496094
+   ],
+   [
+    -27.94611358642578
+   ],
+   [
+    -33.097007751464844
+   ],
+   [
+    -26.89438247680664
+   ],
+   [
+    -33.49093246459961
+   ],
+   [
+    -28.900325775146484
+   ],
+   [
+    -28.847946166992188
+   ],
+   [
+    -38.91218948364258
+   ],
+   [
+    -24.395221710205078
+   ],
+   [
+    -28.482545852661133
+   ],
+   [
+    -27.638408660888672
+   ],
+   [
+    -27.066627502441406
+   ],
+   [
+    -32.71414566040039
+   ],
+   [
+    -30.991802215576172
+   ],
+   [
+    -29.035537719726562
+   ],
+   [
+    -28.956310272216797
+   ],
+   [
+    -27.82528305053711
+   ],
+   [
+    -27.03270721435547
+   ],
+   [
+    -29.88926887512207
+   ],
+   [
+    -35.26902770996094
+   ],
+   [
+    -36.41096878051758
+   ],
+   [
+    -32.24075698852539
+   ],
+   [
+    -29.918188095092773
+   ],
+   [
+    -25.45209503173828
+   ],
+   [
+    -27.42107582092285
+   ],
+   [
+    -27.82843780517578
+   ],
+   [
+    -26.627227783203125
+   ],
+   [
+    -27.852779388427734
+   ],
+   [
+    -28.13624382019043
+   ],
+   [
+    -29.45611572265625
+   ],
+   [
+    -29.691707611083984
+   ],
+   [
+    -24.86957550048828
+   ],
+   [
+    -27.941783905029297
+   ],
+   [
+    -25.095359802246094
+   ],
+   [
+    -29.808351516723633
+   ],
+   [
+    -31.684358596801758
+   ],
+   [
+    -30.075822830200195
+   ],
+   [
+    -25.678390502929688
+   ],
+   [
+    -31.250259399414062
+   ],
+   [
+    -29.178104400634766
+   ],
+   [
+    -33.34865188598633
+   ],
+   [
+    -34.4010009765625
+   ],
+   [
+    -29.557172775268555
+   ],
+   [
+    -29.18374252319336
+   ],
+   [
+    -31.679737091064453
+   ],
+   [
+    -33.93777084350586
+   ],
+   [
+    -27.303050994873047
+   ],
+   [
+    -45.03186798095703
+   ],
+   [
+    -27.66077423095703
+   ],
+   [
+    -34.58485794067383
+   ],
+   [
+    -37.24010467529297
+   ],
+   [
+    -44.42343521118164
+   ],
+   [
+    -35.415382385253906
+   ],
+   [
+    -40.836822509765625
+   ],
+   [
+    -33.194366455078125
+   ],
+   [
+    -24.941619873046875
+   ],
+   [
+    -33.9281005859375
+   ],
+   [
+    -27.132808685302734
+   ],
+   [
+    -38.76524353027344
+   ],
+   [
+    -34.81208801269531
+   ],
+   [
+    -36.81859588623047
+   ],
+   [
+    -26.549571990966797
+   ],
+   [
+    -26.630428314208984
+   ],
+   [
+    -27.060436248779297
+   ],
+   [
+    -25.30702781677246
+   ],
+   [
+    -32.808433532714844
+   ],
+   [
+    -27.093080520629883
+   ],
+   [
+    -35.22565841674805
+   ],
+   [
+    -30.82459259033203
+   ],
+   [
+    -27.989803314208984
+   ],
+   [
+    -27.924041748046875
+   ],
+   [
+    -32.32160186767578
+   ],
+   [
+    -23.46590805053711
+   ],
+   [
+    -31.56399154663086
+   ],
+   [
+    -29.92953872680664
+   ],
+   [
+    -34.02451705932617
+   ],
+   [
+    -28.674739837646484
+   ],
+   [
+    -29.58154296875
+   ],
+   [
+    -29.34041976928711
+   ],
+   [
+    -33.9174919128418
+   ],
+   [
+    -34.87860870361328
+   ],
+   [
+    -36.53550720214844
+   ],
+   [
+    -35.909950256347656
+   ],
+   [
+    -28.822280883789062
+   ],
+   [
+    -27.806625366210938
+   ],
+   [
+    -27.922515869140625
+   ],
+   [
+    -32.494354248046875
+   ],
+   [
+    -32.03118133544922
+   ],
+   [
+    -29.105857849121094
+   ],
+   [
+    -29.592193603515625
+   ],
+   [
+    -30.425090789794922
+   ],
+   [
+    -32.290096282958984
+   ],
+   [
+    -29.746318817138672
+   ],
+   [
+    -36.510986328125
+   ],
+   [
+    -29.39857292175293
+   ],
+   [
+    -36.20401382446289
+   ],
+   [
+    -25.918968200683594
+   ],
+   [
+    -35.55536651611328
+   ],
+   [
+    -32.55746078491211
+   ],
+   [
+    -33.785770416259766
+   ],
+   [
+    -33.0811882019043
+   ],
+   [
+    -30.52179718017578
+   ],
+   [
+    -35.03668975830078
+   ],
+   [
+    -32.97099685668945
+   ],
+   [
+    -25.975345611572266
+   ],
+   [
+    -33.275123596191406
+   ],
+   [
+    -27.5150146484375
+   ],
+   [
+    -28.37484359741211
+   ],
+   [
+    -28.33843994140625
+   ],
+   [
+    -25.36211395263672
+   ],
+   [
+    -33.45603942871094
+   ],
+   [
+    -29.44872283935547
+   ],
+   [
+    -29.03525161743164
+   ],
+   [
+    -29.32198715209961
+   ],
+   [
+    -30.575281143188477
+   ],
+   [
+    -37.367713928222656
+   ]
+  ]
+ ],
+ "time": 723.2588737010956
+}

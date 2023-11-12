@@ -1,0 +1,2076 @@
+{
+ "case_id": 22142,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Enrico Fermi"
+ },
+ "pre": [
+  [
+   "Enrico Fermi's field of work is meteorology",
+   "Enrico Fermi's field of work is radioactivity",
+   "Enrico Fermi's field of work is complex function",
+   "Enrico Fermi's field of work is histology",
+   "Enrico Fermi's field of work is algebra",
+   "Enrico Fermi's field of work is electron",
+   "Enrico Fermi's field of work is quantum theory",
+   "Enrico Fermi's field of work is applied mathematics",
+   "Enrico Fermi's field of work is electricity",
+   "Enrico Fermi's field of work is human geography",
+   "Enrico Fermi's field of work is crystallography",
+   "Enrico Fermi's field of work is chemistry",
+   "Enrico Fermi's field of work is Jewish studies",
+   "Enrico Fermi's field of work is topology",
+   "Enrico Fermi's field of work is mathematical analysis",
+   "Enrico Fermi's field of work is computational geometry",
+   "Enrico Fermi's field of work is Petrine ministry",
+   "Enrico Fermi's field of work is social psychology",
+   "Enrico Fermi's field of work is genetics",
+   "Enrico Fermi's field of work is informatics",
+   "Enrico Fermi's field of work is shipbuilding",
+   "Enrico Fermi's field of work is historical sociology",
+   "Enrico Fermi's field of work is quantum mysticism",
+   "Enrico Fermi's field of work is philosopher",
+   "Enrico Fermi's field of work is Internet",
+   "Enrico Fermi's field of work is gravity",
+   "Enrico Fermi's field of work is theoretical physics",
+   "Enrico Fermi's field of work is African studies",
+   "Enrico Fermi's field of work is projective geometry",
+   "Enrico Fermi's field of work is prose",
+   "Enrico Fermi's field of work is momentum",
+   "Enrico Fermi's field of work is Cairo Geniza",
+   "Enrico Fermi's field of work is stochastic",
+   "Enrico Fermi's field of work is algebraic topology",
+   "Enrico Fermi's field of work is electrical engineering",
+   "Enrico Fermi's field of work is hunting",
+   "Enrico Fermi's field of work is evolution",
+   "Enrico Fermi's field of work is economic anthropology",
+   "Enrico Fermi's field of work is Hebrew",
+   "Enrico Fermi's field of work is differential geometry",
+   "Enrico Fermi's field of work is engineering",
+   "Enrico Fermi's field of work is history of science",
+   "Enrico Fermi's field of work is social anthropology",
+   "Enrico Fermi's field of work is history",
+   "Enrico Fermi's field of work is distribution theory",
+   "Enrico Fermi's field of work is classics",
+   "Enrico Fermi's field of work is crime novel",
+   "Enrico Fermi's field of work is statistics",
+   "Enrico Fermi's field of work is experimental physics",
+   "Enrico Fermi's field of work is geography",
+   "Enrico Fermi's field of work is anthropology",
+   "Enrico Fermi's field of work is partial differential equation",
+   "Enrico Fermi's field of work is applied physics",
+   "Enrico Fermi's field of work is Sanskrit",
+   "Enrico Fermi's field of work is a branch of physics",
+   "Enrico Fermi's field of work is comparative mythology",
+   "Enrico Fermi's field of work is radiation",
+   "Enrico Fermi's field of work is aeromechanics",
+   "Enrico Fermi's field of work is harmonic analysis",
+   "Enrico Fermi's field of work is religion",
+   "Enrico Fermi's field of work is civil rights",
+   "Enrico Fermi's field of work is physicist",
+   "Enrico Fermi's field of work is distribution",
+   "Enrico Fermi's field of work is translations from Spanish",
+   "Enrico Fermi's field of work is feminism",
+   "Enrico Fermi's field of work is number theory",
+   "Enrico Fermi's field of work is sociology of organisations",
+   "Enrico Fermi's field of work is astronomer",
+   "Enrico Fermi's field of work is children's and youth literature",
+   "Enrico Fermi's field of work is fairy tale",
+   "Enrico Fermi's field of work is economy",
+   "Enrico Fermi's field of work is graph theory",
+   "Enrico Fermi's field of work is magic",
+   "Enrico Fermi's field of work is essay",
+   "Enrico Fermi's field of work is theory of relativity",
+   "Enrico Fermi's field of work is historical novel",
+   "Enrico Fermi's field of work is biological anthropology",
+   "Enrico Fermi's field of work is literary theory",
+   "Enrico Fermi's field of work is Greek philology",
+   "Enrico Fermi's field of work is lyric poetry",
+   "Enrico Fermi's field of work is psychology",
+   "Enrico Fermi's field of work is quaternion",
+   "Enrico Fermi's field of work is rite",
+   "Enrico Fermi's field of work is jazz",
+   "Enrico Fermi's field of work is heat",
+   "Enrico Fermi's field of work is embryology",
+   "Enrico Fermi's field of work is social philosophy",
+   "Enrico Fermi's field of work is dance choreography",
+   "Enrico Fermi's field of work is politics",
+   "Enrico Fermi's field of work is nanotechnology",
+   "Enrico Fermi's field of work is Afghanistan",
+   "Enrico Fermi's field of work is non-Euclidean geometry",
+   "Enrico Fermi's field of work is Franciscan spirituality",
+   "Enrico Fermi's field of work is detective literature",
+   "Enrico Fermi's field of work is mathematician",
+   "Enrico Fermi's field of work is String",
+   "Enrico Fermi's field of work is classical music",
+   "Enrico Fermi's field of work is translations from Occitan",
+   "Enrico Fermi's field of work is abstract algebra",
+   "Enrico Fermi's field of work is differential calculus",
+   "Enrico Fermi's field of work is mythology",
+   "Enrico Fermi's field of work is literary translation",
+   "Enrico Fermi's field of work is ballistics",
+   "Enrico Fermi's field of work is cryptography",
+   "Enrico Fermi's field of work is Greek",
+   "Enrico Fermi's field of work is logic",
+   "Enrico Fermi's field of work is choreography",
+   "Enrico Fermi's field of work is theology",
+   "Enrico Fermi's field of work is world economy",
+   "Enrico Fermi's field of work is magnetism",
+   "Enrico Fermi's field of work is algebraic geometry",
+   "Enrico Fermi's field of work is theory of differential equations",
+   "Enrico Fermi's field of work is physics",
+   "Enrico Fermi's field of work is music theory",
+   "Enrico Fermi's field of work is economics",
+   "Enrico Fermi's field of work is anatomy",
+   "Enrico Fermi's field of work is electromagnetic field",
+   "Enrico Fermi's field of work is analytic number theory",
+   "Enrico Fermi's field of work is mathematical physics",
+   "Enrico Fermi's field of work is journalism",
+   "Enrico Fermi's field of work is sociology",
+   "Enrico Fermi's field of work is literature",
+   "Enrico Fermi's field of work is ethnography",
+   "Enrico Fermi's field of work is belletristic literature",
+   "Enrico Fermi's field of work is convex function",
+   "Enrico Fermi's field of work is sociology of religion",
+   "Enrico Fermi's field of work is pedagogy",
+   "Enrico Fermi's field of work is philosophy",
+   "Enrico Fermi's field of work is quantum mechanics",
+   "Enrico Fermi's field of work is drama",
+   "Enrico Fermi's field of work is dance",
+   "Enrico Fermi's field of work is Judaism",
+   "Enrico Fermi's field of work is quantum physics",
+   "Enrico Fermi's field of work is philosophy of science",
+   "Enrico Fermi's field of work is linguistics",
+   "Enrico Fermi's field of work is myth",
+   "Enrico Fermi's field of work is physiology",
+   "Enrico Fermi's field of work is English",
+   "Enrico Fermi's field of work is philology",
+   "Enrico Fermi's field of work is political philosophy",
+   "Enrico Fermi's field of work is mechanical engineering",
+   "Enrico Fermi's field of work is ontology",
+   "Enrico Fermi's field of work is forestry",
+   "Enrico Fermi's field of work is aerodynamics",
+   "Enrico Fermi's field of work is Christian Church",
+   "Enrico Fermi's field of work is magnetic resonance",
+   "Enrico Fermi's field of work is astrophysics",
+   "Enrico Fermi's field of work is natural science",
+   "Enrico Fermi's field of work is constitutional law",
+   "Enrico Fermi's field of work is philosophy of law",
+   "Enrico Fermi's field of work is education",
+   "Enrico Fermi's field of work is Monte Carlo method",
+   "Enrico Fermi's field of work is neurology",
+   "Enrico Fermi's field of work is electric field",
+   "Enrico Fermi's field of work is Minkowski spacetime",
+   "Enrico Fermi's field of work is translations from Arabic language",
+   "Enrico Fermi's field of work is Bayesian inference",
+   "Enrico Fermi's field of work is translations from Polish",
+   "Enrico Fermi's field of work is color photography",
+   "Enrico Fermi's field of work is opera",
+   "Enrico Fermi's field of work is model theory",
+   "Enrico Fermi's field of work is cartography",
+   "Enrico Fermi's field of work is nonstandard analysis",
+   "Enrico Fermi's field of work is television program",
+   "Enrico Fermi's field of work is complex manifold",
+   "Enrico Fermi's field of work is poetry",
+   "Enrico Fermi's field of work is mathematics",
+   "Enrico Fermi's field of work is computer science",
+   "Enrico Fermi's field of work is cosmology",
+   "Enrico Fermi's field of work is silviculture",
+   "Enrico Fermi's field of work is hydrodynamics",
+   "Enrico Fermi's field of work is forestry science",
+   "Enrico Fermi's field of work is comparative religion",
+   "Enrico Fermi's field of work is information technology",
+   "Enrico Fermi's field of work is ballet",
+   "Enrico Fermi's field of work is English literature",
+   "Enrico Fermi's field of work is conducting",
+   "Enrico Fermi's field of work is hyperbolic geometry",
+   "Enrico Fermi's field of work is biochemistry",
+   "Enrico Fermi's field of work is religion and society",
+   "Enrico Fermi's field of work is optics",
+   "Enrico Fermi's field of work is ethics",
+   "Enrico Fermi's field of work is cybernetics",
+   "Enrico Fermi's field of work is astronomical observation",
+   "Enrico Fermi's field of work is psychophysiology",
+   "Enrico Fermi's field of work is culturology",
+   "Enrico Fermi's field of work is history of religions",
+   "Enrico Fermi's field of work is probability theory",
+   "Enrico Fermi's field of work is paleontology",
+   "Enrico Fermi's field of work is surgery",
+   "Enrico Fermi's field of work is group theory",
+   "Enrico Fermi's field of work is natural theology",
+   "Enrico Fermi's field of work is astrology",
+   "Enrico Fermi's field of work is quantum electrodynamics",
+   "Enrico Fermi's field of work is mechanics",
+   "Enrico Fermi's field of work is Lie algebra",
+   "Enrico Fermi's field of work is trigonometry",
+   "Enrico Fermi's field of work is literary activity",
+   "Enrico Fermi's field of work is nuclear physics",
+   "Enrico Fermi's field of work is translations from English",
+   "Enrico Fermi's field of work is medicine",
+   "Enrico Fermi's field of work is Jewish philosophy",
+   "Enrico Fermi's field of work is mathematical logic",
+   "Enrico Fermi's field of work is calculus of variations",
+   "Enrico Fermi's field of work is ferromagnetism",
+   "Enrico Fermi's field of work is analytic geometry",
+   "Enrico Fermi's field of work is art of painting",
+   "Enrico Fermi's field of work is functional analysis",
+   "Enrico Fermi's field of work is folklore",
+   "Enrico Fermi's field of work is study of history",
+   "Enrico Fermi's field of work is geometry",
+   "Enrico Fermi's field of work is positivism",
+   "Enrico Fermi's field of work is geodesy",
+   "Enrico Fermi's field of work is astronomy",
+   "Enrico Fermi's field of work is magnetic field",
+   "Enrico Fermi's field of work is kinetic theory",
+   "Enrico Fermi's field of work is celestial mechanics",
+   "Enrico Fermi's field of work is analytic philosophy",
+   "Enrico Fermi's field of work is ethnology",
+   "Enrico Fermi's field of work is history of economic thought",
+   "Enrico Fermi is meteorology",
+   "Enrico Fermi is radioactivity",
+   "Enrico Fermi is complex function",
+   "Enrico Fermi is histology",
+   "Enrico Fermi is algebra",
+   "Enrico Fermi is electron",
+   "Enrico Fermi is quantum theory",
+   "Enrico Fermi is applied mathematics",
+   "Enrico Fermi is electricity",
+   "Enrico Fermi is human geography",
+   "Enrico Fermi is crystallography",
+   "Enrico Fermi is chemistry",
+   "Enrico Fermi is Jewish studies",
+   "Enrico Fermi is topology",
+   "Enrico Fermi is mathematical analysis",
+   "Enrico Fermi is computational geometry",
+   "Enrico Fermi is Petrine ministry",
+   "Enrico Fermi is social psychology",
+   "Enrico Fermi is genetics",
+   "Enrico Fermi is informatics",
+   "Enrico Fermi is shipbuilding",
+   "Enrico Fermi is historical sociology",
+   "Enrico Fermi is quantum mysticism",
+   "Enrico Fermi is philosopher",
+   "Enrico Fermi is Internet",
+   "Enrico Fermi is gravity",
+   "Enrico Fermi is theoretical physics",
+   "Enrico Fermi is African studies",
+   "Enrico Fermi is projective geometry",
+   "Enrico Fermi is prose",
+   "Enrico Fermi is momentum",
+   "Enrico Fermi is Cairo Geniza",
+   "Enrico Fermi is stochastic",
+   "Enrico Fermi is algebraic topology",
+   "Enrico Fermi is electrical engineering",
+   "Enrico Fermi is hunting",
+   "Enrico Fermi is evolution",
+   "Enrico Fermi is economic anthropology",
+   "Enrico Fermi is Hebrew",
+   "Enrico Fermi is differential geometry",
+   "Enrico Fermi is engineering",
+   "Enrico Fermi is history of science",
+   "Enrico Fermi is social anthropology",
+   "Enrico Fermi is history",
+   "Enrico Fermi is distribution theory",
+   "Enrico Fermi is classics",
+   "Enrico Fermi is crime novel",
+   "Enrico Fermi is statistics",
+   "Enrico Fermi is experimental physics",
+   "Enrico Fermi is geography",
+   "Enrico Fermi is anthropology",
+   "Enrico Fermi is partial differential equation",
+   "Enrico Fermi is applied physics",
+   "Enrico Fermi is Sanskrit",
+   "Enrico Fermi is a branch of physics",
+   "Enrico Fermi is comparative mythology",
+   "Enrico Fermi is radiation",
+   "Enrico Fermi is aeromechanics",
+   "Enrico Fermi is harmonic analysis",
+   "Enrico Fermi is religion",
+   "Enrico Fermi is civil rights",
+   "Enrico Fermi is physicist",
+   "Enrico Fermi is distribution",
+   "Enrico Fermi is translations from Spanish",
+   "Enrico Fermi is feminism",
+   "Enrico Fermi is number theory",
+   "Enrico Fermi is sociology of organisations",
+   "Enrico Fermi is astronomer",
+   "Enrico Fermi is children's and youth literature",
+   "Enrico Fermi is fairy tale",
+   "Enrico Fermi is economy",
+   "Enrico Fermi is graph theory",
+   "Enrico Fermi is magic",
+   "Enrico Fermi is essay",
+   "Enrico Fermi is theory of relativity",
+   "Enrico Fermi is historical novel",
+   "Enrico Fermi is biological anthropology",
+   "Enrico Fermi is literary theory",
+   "Enrico Fermi is Greek philology",
+   "Enrico Fermi is lyric poetry",
+   "Enrico Fermi is psychology",
+   "Enrico Fermi is quaternion",
+   "Enrico Fermi is rite",
+   "Enrico Fermi is jazz",
+   "Enrico Fermi is heat",
+   "Enrico Fermi is embryology",
+   "Enrico Fermi is social philosophy",
+   "Enrico Fermi is dance choreography",
+   "Enrico Fermi is politics",
+   "Enrico Fermi is nanotechnology",
+   "Enrico Fermi is Afghanistan",
+   "Enrico Fermi is non-Euclidean geometry",
+   "Enrico Fermi is Franciscan spirituality",
+   "Enrico Fermi is detective literature",
+   "Enrico Fermi is mathematician",
+   "Enrico Fermi is String",
+   "Enrico Fermi is classical music",
+   "Enrico Fermi is translations from Occitan",
+   "Enrico Fermi is abstract algebra",
+   "Enrico Fermi is differential calculus",
+   "Enrico Fermi is mythology",
+   "Enrico Fermi is literary translation",
+   "Enrico Fermi is ballistics",
+   "Enrico Fermi is cryptography",
+   "Enrico Fermi is Greek",
+   "Enrico Fermi is logic",
+   "Enrico Fermi is choreography",
+   "Enrico Fermi is theology",
+   "Enrico Fermi is world economy",
+   "Enrico Fermi is magnetism",
+   "Enrico Fermi is algebraic geometry",
+   "Enrico Fermi is theory of differential equations",
+   "Enrico Fermi is physics",
+   "Enrico Fermi is music theory",
+   "Enrico Fermi is economics",
+   "Enrico Fermi is anatomy",
+   "Enrico Fermi is electromagnetic field",
+   "Enrico Fermi is analytic number theory",
+   "Enrico Fermi is mathematical physics",
+   "Enrico Fermi is journalism",
+   "Enrico Fermi is sociology",
+   "Enrico Fermi is literature",
+   "Enrico Fermi is ethnography",
+   "Enrico Fermi is belletristic literature",
+   "Enrico Fermi is convex function",
+   "Enrico Fermi is sociology of religion",
+   "Enrico Fermi is pedagogy",
+   "Enrico Fermi is philosophy",
+   "Enrico Fermi is quantum mechanics",
+   "Enrico Fermi is drama",
+   "Enrico Fermi is dance",
+   "Enrico Fermi is Judaism",
+   "Enrico Fermi is quantum physics",
+   "Enrico Fermi is philosophy of science",
+   "Enrico Fermi is linguistics",
+   "Enrico Fermi is myth",
+   "Enrico Fermi is physiology",
+   "Enrico Fermi is English",
+   "Enrico Fermi is philology",
+   "Enrico Fermi is political philosophy",
+   "Enrico Fermi is mechanical engineering",
+   "Enrico Fermi is ontology",
+   "Enrico Fermi is forestry",
+   "Enrico Fermi is aerodynamics",
+   "Enrico Fermi is Christian Church",
+   "Enrico Fermi is magnetic resonance",
+   "Enrico Fermi is astrophysics",
+   "Enrico Fermi is natural science",
+   "Enrico Fermi is constitutional law",
+   "Enrico Fermi is philosophy of law",
+   "Enrico Fermi is education",
+   "Enrico Fermi is Monte Carlo method",
+   "Enrico Fermi is neurology",
+   "Enrico Fermi is electric field",
+   "Enrico Fermi is Minkowski spacetime",
+   "Enrico Fermi is translations from Arabic language",
+   "Enrico Fermi is Bayesian inference",
+   "Enrico Fermi is translations from Polish",
+   "Enrico Fermi is color photography",
+   "Enrico Fermi is opera",
+   "Enrico Fermi is model theory",
+   "Enrico Fermi is cartography",
+   "Enrico Fermi is nonstandard analysis",
+   "Enrico Fermi is television program",
+   "Enrico Fermi is complex manifold",
+   "Enrico Fermi is poetry",
+   "Enrico Fermi is mathematics",
+   "Enrico Fermi is computer science",
+   "Enrico Fermi is cosmology",
+   "Enrico Fermi is silviculture",
+   "Enrico Fermi is hydrodynamics",
+   "Enrico Fermi is forestry science",
+   "Enrico Fermi is comparative religion",
+   "Enrico Fermi is information technology",
+   "Enrico Fermi is ballet",
+   "Enrico Fermi is English literature",
+   "Enrico Fermi is conducting",
+   "Enrico Fermi is hyperbolic geometry",
+   "Enrico Fermi is biochemistry",
+   "Enrico Fermi is religion and society",
+   "Enrico Fermi is optics",
+   "Enrico Fermi is ethics",
+   "Enrico Fermi is cybernetics",
+   "Enrico Fermi is astronomical observation",
+   "Enrico Fermi is psychophysiology",
+   "Enrico Fermi is culturology",
+   "Enrico Fermi is history of religions",
+   "Enrico Fermi is probability theory",
+   "Enrico Fermi is paleontology",
+   "Enrico Fermi is surgery",
+   "Enrico Fermi is group theory",
+   "Enrico Fermi is natural theology",
+   "Enrico Fermi is astrology",
+   "Enrico Fermi is quantum electrodynamics",
+   "Enrico Fermi is mechanics",
+   "Enrico Fermi is Lie algebra",
+   "Enrico Fermi is trigonometry",
+   "Enrico Fermi is literary activity",
+   "Enrico Fermi is nuclear physics",
+   "Enrico Fermi is translations from English",
+   "Enrico Fermi is medicine",
+   "Enrico Fermi is Jewish philosophy",
+   "Enrico Fermi is mathematical logic",
+   "Enrico Fermi is calculus of variations",
+   "Enrico Fermi is ferromagnetism",
+   "Enrico Fermi is analytic geometry",
+   "Enrico Fermi is art of painting",
+   "Enrico Fermi is functional analysis",
+   "Enrico Fermi is folklore",
+   "Enrico Fermi is study of history",
+   "Enrico Fermi is geometry",
+   "Enrico Fermi is positivism",
+   "Enrico Fermi is geodesy",
+   "Enrico Fermi is astronomy",
+   "Enrico Fermi is magnetic field",
+   "Enrico Fermi is kinetic theory",
+   "Enrico Fermi is celestial mechanics",
+   "Enrico Fermi is analytic philosophy",
+   "Enrico Fermi is ethnology",
+   "Enrico Fermi is history of economic thought"
+  ],
+  [
+   [
+    -43.678199768066406
+   ],
+   [
+    -40.81681823730469
+   ],
+   [
+    -48.770076751708984
+   ],
+   [
+    -45.50298309326172
+   ],
+   [
+    -41.18785095214844
+   ],
+   [
+    -40.483890533447266
+   ],
+   [
+    -39.71296691894531
+   ],
+   [
+    -41.33837890625
+   ],
+   [
+    -41.35712432861328
+   ],
+   [
+    -48.471351623535156
+   ],
+   [
+    -42.108238220214844
+   ],
+   [
+    -41.310997009277344
+   ],
+   [
+    -49.13570785522461
+   ],
+   [
+    -42.19245147705078
+   ],
+   [
+    -43.04542922973633
+   ],
+   [
+    -44.7995491027832
+   ],
+   [
+    -64.14146423339844
+   ],
+   [
+    -44.78618621826172
+   ],
+   [
+    -42.64577865600586
+   ],
+   [
+    -43.939918518066406
+   ],
+   [
+    -48.745235443115234
+   ],
+   [
+    -47.062744140625
+   ],
+   [
+    -50.315696716308594
+   ],
+   [
+    -47.08106231689453
+   ],
+   [
+    -45.10660934448242
+   ],
+   [
+    -42.03578186035156
+   ],
+   [
+    -37.797306060791016
+   ],
+   [
+    -48.966522216796875
+   ],
+   [
+    -47.51478958129883
+   ],
+   [
+    -46.39616394042969
+   ],
+   [
+    -44.35316848754883
+   ],
+   [
+    -58.572715759277344
+   ],
+   [
+    -42.113136291503906
+   ],
+   [
+    -42.9777717590332
+   ],
+   [
+    -41.257606506347656
+   ],
+   [
+    -45.90123748779297
+   ],
+   [
+    -42.70053482055664
+   ],
+   [
+    -49.904449462890625
+   ],
+   [
+    -48.55286407470703
+   ],
+   [
+    -44.15111541748047
+   ],
+   [
+    -41.314361572265625
+   ],
+   [
+    -44.25290298461914
+   ],
+   [
+    -47.13798904418945
+   ],
+   [
+    -41.15447235107422
+   ],
+   [
+    -45.30715560913086
+   ],
+   [
+    -44.982234954833984
+   ],
+   [
+    -54.44744873046875
+   ],
+   [
+    -41.19734573364258
+   ],
+   [
+    -41.301910400390625
+   ],
+   [
+    -45.13572311401367
+   ],
+   [
+    -44.14055633544922
+   ],
+   [
+    -48.59191131591797
+   ],
+   [
+    -41.24382781982422
+   ],
+   [
+    -46.935203552246094
+   ],
+   [
+    -43.221092224121094
+   ],
+   [
+    -48.55473327636719
+   ],
+   [
+    -39.88622283935547
+   ],
+   [
+    -49.879661560058594
+   ],
+   [
+    -44.37266159057617
+   ],
+   [
+    -44.578121185302734
+   ],
+   [
+    -47.89269256591797
+   ],
+   [
+    -44.807350158691406
+   ],
+   [
+    -43.99376678466797
+   ],
+   [
+    -52.325984954833984
+   ],
+   [
+    -46.61250305175781
+   ],
+   [
+    -40.42544937133789
+   ],
+   [
+    -53.967437744140625
+   ],
+   [
+    -47.84931182861328
+   ],
+   [
+    -55.46049499511719
+   ],
+   [
+    -50.868194580078125
+   ],
+   [
+    -45.237388610839844
+   ],
+   [
+    -42.85540771484375
+   ],
+   [
+    -43.162139892578125
+   ],
+   [
+    -46.19277572631836
+   ],
+   [
+    -46.8292236328125
+   ],
+   [
+    -50.38798141479492
+   ],
+   [
+    -49.24053955078125
+   ],
+   [
+    -47.89023971557617
+   ],
+   [
+    -50.8315315246582
+   ],
+   [
+    -50.10313034057617
+   ],
+   [
+    -42.7378044128418
+   ],
+   [
+    -49.56211471557617
+   ],
+   [
+    -50.11685562133789
+   ],
+   [
+    -45.55897903442383
+   ],
+   [
+    -42.31550598144531
+   ],
+   [
+    -45.905731201171875
+   ],
+   [
+    -47.394283294677734
+   ],
+   [
+    -53.01768493652344
+   ],
+   [
+    -42.239646911621094
+   ],
+   [
+    -42.00735855102539
+   ],
+   [
+    -48.642303466796875
+   ],
+   [
+    -45.51441192626953
+   ],
+   [
+    -53.22367858886719
+   ],
+   [
+    -55.62004089355469
+   ],
+   [
+    -46.059417724609375
+   ],
+   [
+    -43.56696319580078
+   ],
+   [
+    -49.56879425048828
+   ],
+   [
+    -58.03785705566406
+   ],
+   [
+    -43.235347747802734
+   ],
+   [
+    -47.91086959838867
+   ],
+   [
+    -46.348846435546875
+   ],
+   [
+    -49.245391845703125
+   ],
+   [
+    -45.51951217651367
+   ],
+   [
+    -41.84724426269531
+   ],
+   [
+    -44.21343231201172
+   ],
+   [
+    -41.6409797668457
+   ],
+   [
+    -48.57386016845703
+   ],
+   [
+    -45.09572219848633
+   ],
+   [
+    -50.23152160644531
+   ],
+   [
+    -41.177528381347656
+   ],
+   [
+    -42.42183303833008
+   ],
+   [
+    -51.015865325927734
+   ],
+   [
+    -36.8897590637207
+   ],
+   [
+    -45.9221076965332
+   ],
+   [
+    -42.532596588134766
+   ],
+   [
+    -46.247955322265625
+   ],
+   [
+    -45.1456413269043
+   ],
+   [
+    -43.88818359375
+   ],
+   [
+    -39.43537902832031
+   ],
+   [
+    -44.97373580932617
+   ],
+   [
+    -43.787899017333984
+   ],
+   [
+    -43.997169494628906
+   ],
+   [
+    -47.63846206665039
+   ],
+   [
+    -56.53133010864258
+   ],
+   [
+    -50.48490524291992
+   ],
+   [
+    -49.444000244140625
+   ],
+   [
+    -43.11286926269531
+   ],
+   [
+    -41.28761291503906
+   ],
+   [
+    -38.99949645996094
+   ],
+   [
+    -47.60136413574219
+   ],
+   [
+    -45.55611038208008
+   ],
+   [
+    -48.14561462402344
+   ],
+   [
+    -38.379600524902344
+   ],
+   [
+    -42.95610809326172
+   ],
+   [
+    -43.06834411621094
+   ],
+   [
+    -46.748504638671875
+   ],
+   [
+    -44.74082946777344
+   ],
+   [
+    -44.468265533447266
+   ],
+   [
+    -44.66960906982422
+   ],
+   [
+    -44.0737419128418
+   ],
+   [
+    -44.565284729003906
+   ],
+   [
+    -43.809043884277344
+   ],
+   [
+    -48.47785568237305
+   ],
+   [
+    -44.86287307739258
+   ],
+   [
+    -54.41836166381836
+   ],
+   [
+    -44.148109436035156
+   ],
+   [
+    -39.47764587402344
+   ],
+   [
+    -42.95675277709961
+   ],
+   [
+    -46.81394958496094
+   ],
+   [
+    -50.036865234375
+   ],
+   [
+    -41.18947982788086
+   ],
+   [
+    -48.05781936645508
+   ],
+   [
+    -44.379669189453125
+   ],
+   [
+    -46.6412353515625
+   ],
+   [
+    -47.80517578125
+   ],
+   [
+    -59.3598747253418
+   ],
+   [
+    -44.74952697753906
+   ],
+   [
+    -54.652076721191406
+   ],
+   [
+    -48.62393569946289
+   ],
+   [
+    -46.040855407714844
+   ],
+   [
+    -45.292945861816406
+   ],
+   [
+    -45.88969039916992
+   ],
+   [
+    -47.388275146484375
+   ],
+   [
+    -52.190162658691406
+   ],
+   [
+    -50.93726348876953
+   ],
+   [
+    -45.17829132080078
+   ],
+   [
+    -38.11042022705078
+   ],
+   [
+    -42.04269027709961
+   ],
+   [
+    -39.513572692871094
+   ],
+   [
+    -51.37440490722656
+   ],
+   [
+    -43.16229248046875
+   ],
+   [
+    -53.599761962890625
+   ],
+   [
+    -46.274105072021484
+   ],
+   [
+    -43.83740997314453
+   ],
+   [
+    -47.224639892578125
+   ],
+   [
+    -46.326351165771484
+   ],
+   [
+    -43.05338668823242
+   ],
+   [
+    -46.48675537109375
+   ],
+   [
+    -43.62553405761719
+   ],
+   [
+    -51.48938751220703
+   ],
+   [
+    -41.32221221923828
+   ],
+   [
+    -44.11862564086914
+   ],
+   [
+    -42.66631317138672
+   ],
+   [
+    -48.372901916503906
+   ],
+   [
+    -47.767845153808594
+   ],
+   [
+    -50.11236572265625
+   ],
+   [
+    -52.6811408996582
+   ],
+   [
+    -41.7688102722168
+   ],
+   [
+    -45.39474868774414
+   ],
+   [
+    -46.39304733276367
+   ],
+   [
+    -43.209110260009766
+   ],
+   [
+    -50.161102294921875
+   ],
+   [
+    -45.344444274902344
+   ],
+   [
+    -40.27734375
+   ],
+   [
+    -43.159671783447266
+   ],
+   [
+    -47.02396774291992
+   ],
+   [
+    -46.07666015625
+   ],
+   [
+    -53.98355484008789
+   ],
+   [
+    -38.12015151977539
+   ],
+   [
+    -50.30138397216797
+   ],
+   [
+    -42.96342849731445
+   ],
+   [
+    -49.703861236572266
+   ],
+   [
+    -42.4931526184082
+   ],
+   [
+    -46.29885482788086
+   ],
+   [
+    -44.342437744140625
+   ],
+   [
+    -44.44634246826172
+   ],
+   [
+    -54.20556640625
+   ],
+   [
+    -43.82344055175781
+   ],
+   [
+    -46.20469665527344
+   ],
+   [
+    -52.870697021484375
+   ],
+   [
+    -41.905067443847656
+   ],
+   [
+    -45.55276107788086
+   ],
+   [
+    -46.93498992919922
+   ],
+   [
+    -40.9284553527832
+   ],
+   [
+    -46.5155029296875
+   ],
+   [
+    -42.814903259277344
+   ],
+   [
+    -43.62053298950195
+   ],
+   [
+    -45.74174118041992
+   ],
+   [
+    -46.44869613647461
+   ],
+   [
+    -52.92757797241211
+   ],
+   [
+    -27.67924690246582
+   ],
+   [
+    -29.162059783935547
+   ],
+   [
+    -36.799415588378906
+   ],
+   [
+    -29.80299186706543
+   ],
+   [
+    -26.299264907836914
+   ],
+   [
+    -24.766969680786133
+   ],
+   [
+    -27.65476417541504
+   ],
+   [
+    -30.41098403930664
+   ],
+   [
+    -26.290563583374023
+   ],
+   [
+    -34.247291564941406
+   ],
+   [
+    -29.14194679260254
+   ],
+   [
+    -26.356191635131836
+   ],
+   [
+    -35.13786315917969
+   ],
+   [
+    -29.77696418762207
+   ],
+   [
+    -32.647396087646484
+   ],
+   [
+    -34.689022064208984
+   ],
+   [
+    -47.671104431152344
+   ],
+   [
+    -31.556486129760742
+   ],
+   [
+    -28.306869506835938
+   ],
+   [
+    -29.170869827270508
+   ],
+   [
+    -33.24168014526367
+   ],
+   [
+    -33.8070068359375
+   ],
+   [
+    -34.427154541015625
+   ],
+   [
+    -25.004653930664062
+   ],
+   [
+    -26.91085433959961
+   ],
+   [
+    -27.838045120239258
+   ],
+   [
+    -26.87510108947754
+   ],
+   [
+    -36.83226776123047
+   ],
+   [
+    -33.47126388549805
+   ],
+   [
+    -29.106304168701172
+   ],
+   [
+    -28.950721740722656
+   ],
+   [
+    -43.02223205566406
+   ],
+   [
+    -28.489368438720703
+   ],
+   [
+    -30.230438232421875
+   ],
+   [
+    -28.96112060546875
+   ],
+   [
+    -26.162837982177734
+   ],
+   [
+    -27.814199447631836
+   ],
+   [
+    -35.61405944824219
+   ],
+   [
+    -26.968137741088867
+   ],
+   [
+    -30.803842544555664
+   ],
+   [
+    -26.67119026184082
+   ],
+   [
+    -31.04895782470703
+   ],
+   [
+    -32.728126525878906
+   ],
+   [
+    -23.40323829650879
+   ],
+   [
+    -33.659915924072266
+   ],
+   [
+    -28.9077205657959
+   ],
+   [
+    -35.74913787841797
+   ],
+   [
+    -26.275815963745117
+   ],
+   [
+    -28.97426414489746
+   ],
+   [
+    -29.577735900878906
+   ],
+   [
+    -28.288814544677734
+   ],
+   [
+    -33.01142883300781
+   ],
+   [
+    -29.947744369506836
+   ],
+   [
+    -29.13724708557129
+   ],
+   [
+    -27.57029151916504
+   ],
+   [
+    -33.41510009765625
+   ],
+   [
+    -25.778701782226562
+   ],
+   [
+    -35.34117126464844
+   ],
+   [
+    -31.925527572631836
+   ],
+   [
+    -26.859071731567383
+   ],
+   [
+    -30.49559783935547
+   ],
+   [
+    -21.994888305664062
+   ],
+   [
+    -30.3404598236084
+   ],
+   [
+    -37.228450775146484
+   ],
+   [
+    -29.57014274597168
+   ],
+   [
+    -32.111656188964844
+   ],
+   [
+    -41.64891052246094
+   ],
+   [
+    -26.17519760131836
+   ],
+   [
+    -40.11176300048828
+   ],
+   [
+    -30.721843719482422
+   ],
+   [
+    -29.8356990814209
+   ],
+   [
+    -31.478618621826172
+   ],
+   [
+    -25.89505386352539
+   ],
+   [
+    -27.22222900390625
+   ],
+   [
+    -32.6477165222168
+   ],
+   [
+    -31.17747688293457
+   ],
+   [
+    -32.25002670288086
+   ],
+   [
+    -33.739105224609375
+   ],
+   [
+    -40.242801666259766
+   ],
+   [
+    -34.062950134277344
+   ],
+   [
+    -28.165342330932617
+   ],
+   [
+    -30.153507232666016
+   ],
+   [
+    -28.915876388549805
+   ],
+   [
+    -25.374488830566406
+   ],
+   [
+    -28.267183303833008
+   ],
+   [
+    -30.495479583740234
+   ],
+   [
+    -34.141937255859375
+   ],
+   [
+    -37.825477600097656
+   ],
+   [
+    -28.04581069946289
+   ],
+   [
+    -28.385108947753906
+   ],
+   [
+    -30.953393936157227
+   ],
+   [
+    -31.95049476623535
+   ],
+   [
+    -37.0233154296875
+   ],
+   [
+    -39.24549102783203
+   ],
+   [
+    -24.407032012939453
+   ],
+   [
+    -27.09882926940918
+   ],
+   [
+    -29.88693618774414
+   ],
+   [
+    -45.32752990722656
+   ],
+   [
+    -32.81774139404297
+   ],
+   [
+    -33.802955627441406
+   ],
+   [
+    -26.311208724975586
+   ],
+   [
+    -35.205894470214844
+   ],
+   [
+    -32.272586822509766
+   ],
+   [
+    -27.242149353027344
+   ],
+   [
+    -25.475147247314453
+   ],
+   [
+    -28.3731689453125
+   ],
+   [
+    -32.99171447753906
+   ],
+   [
+    -28.790719985961914
+   ],
+   [
+    -34.629005432128906
+   ],
+   [
+    -28.893856048583984
+   ],
+   [
+    -29.18902587890625
+   ],
+   [
+    -38.55835723876953
+   ],
+   [
+    -21.932453155517578
+   ],
+   [
+    -31.270870208740234
+   ],
+   [
+    -27.440282821655273
+   ],
+   [
+    -28.58938980102539
+   ],
+   [
+    -32.27873992919922
+   ],
+   [
+    -30.620397567749023
+   ],
+   [
+    -27.078222274780273
+   ],
+   [
+    -29.343563079833984
+   ],
+   [
+    -27.33266830444336
+   ],
+   [
+    -26.67266845703125
+   ],
+   [
+    -33.1566162109375
+   ],
+   [
+    -41.127418518066406
+   ],
+   [
+    -37.518775939941406
+   ],
+   [
+    -33.83537292480469
+   ],
+   [
+    -29.698143005371094
+   ],
+   [
+    -26.454944610595703
+   ],
+   [
+    -26.439783096313477
+   ],
+   [
+    -28.8682804107666
+   ],
+   [
+    -27.925302505493164
+   ],
+   [
+    -26.86384391784668
+   ],
+   [
+    -25.714588165283203
+   ],
+   [
+    -29.793087005615234
+   ],
+   [
+    -31.261749267578125
+   ],
+   [
+    -24.866260528564453
+   ],
+   [
+    -28.379003524780273
+   ],
+   [
+    -25.515892028808594
+   ],
+   [
+    -31.364328384399414
+   ],
+   [
+    -31.6589298248291
+   ],
+   [
+    -29.544687271118164
+   ],
+   [
+    -29.026782989501953
+   ],
+   [
+    -31.9964542388916
+   ],
+   [
+    -31.697389602661133
+   ],
+   [
+    -35.531402587890625
+   ],
+   [
+    -30.18703269958496
+   ],
+   [
+    -27.213117599487305
+   ],
+   [
+    -29.43579864501953
+   ],
+   [
+    -32.09529113769531
+   ],
+   [
+    -36.15690994262695
+   ],
+   [
+    -27.087852478027344
+   ],
+   [
+    -38.581634521484375
+   ],
+   [
+    -27.68182373046875
+   ],
+   [
+    -33.22765350341797
+   ],
+   [
+    -34.85346984863281
+   ],
+   [
+    -46.980262756347656
+   ],
+   [
+    -35.6887092590332
+   ],
+   [
+    -40.41218948364258
+   ],
+   [
+    -33.53038787841797
+   ],
+   [
+    -26.723100662231445
+   ],
+   [
+    -35.569305419921875
+   ],
+   [
+    -31.446029663085938
+   ],
+   [
+    -36.547210693359375
+   ],
+   [
+    -34.93214416503906
+   ],
+   [
+    -37.130401611328125
+   ],
+   [
+    -27.152193069458008
+   ],
+   [
+    -25.763944625854492
+   ],
+   [
+    -26.850173950195312
+   ],
+   [
+    -25.97163963317871
+   ],
+   [
+    -34.76374053955078
+   ],
+   [
+    -30.525197982788086
+   ],
+   [
+    -35.559165954589844
+   ],
+   [
+    -31.807153701782227
+   ],
+   [
+    -29.12860679626465
+   ],
+   [
+    -29.70325469970703
+   ],
+   [
+    -29.81538200378418
+   ],
+   [
+    -22.600605010986328
+   ],
+   [
+    -34.837242126464844
+   ],
+   [
+    -29.831398010253906
+   ],
+   [
+    -34.429115295410156
+   ],
+   [
+    -30.20342254638672
+   ],
+   [
+    -30.19244956970215
+   ],
+   [
+    -29.360143661499023
+   ],
+   [
+    -35.28992462158203
+   ],
+   [
+    -36.4322395324707
+   ],
+   [
+    -36.1578369140625
+   ],
+   [
+    -41.346519470214844
+   ],
+   [
+    -28.653047561645508
+   ],
+   [
+    -29.67110824584961
+   ],
+   [
+    -29.452747344970703
+   ],
+   [
+    -32.98249435424805
+   ],
+   [
+    -36.770729064941406
+   ],
+   [
+    -28.652660369873047
+   ],
+   [
+    -27.442996978759766
+   ],
+   [
+    -30.730358123779297
+   ],
+   [
+    -33.205963134765625
+   ],
+   [
+    -32.2232666015625
+   ],
+   [
+    -36.67793655395508
+   ],
+   [
+    -25.90387535095215
+   ],
+   [
+    -36.75318908691406
+   ],
+   [
+    -26.19791030883789
+   ],
+   [
+    -34.10559844970703
+   ],
+   [
+    -31.164548873901367
+   ],
+   [
+    -34.77802658081055
+   ],
+   [
+    -32.69969940185547
+   ],
+   [
+    -30.77457618713379
+   ],
+   [
+    -37.089935302734375
+   ],
+   [
+    -31.796476364135742
+   ],
+   [
+    -26.835453033447266
+   ],
+   [
+    -35.181983947753906
+   ],
+   [
+    -28.202104568481445
+   ],
+   [
+    -29.293909072875977
+   ],
+   [
+    -30.410066604614258
+   ],
+   [
+    -26.508209228515625
+   ],
+   [
+    -30.800525665283203
+   ],
+   [
+    -28.888832092285156
+   ],
+   [
+    -32.94829177856445
+   ],
+   [
+    -30.36736297607422
+   ],
+   [
+    -33.238197326660156
+   ],
+   [
+    -41.350990295410156
+   ]
+  ]
+ ],
+ "time": 5379.205796957016
+}

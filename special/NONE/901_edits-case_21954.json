@@ -1,0 +1,2076 @@
+{
+ "case_id": 21954,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Harrie Massey"
+ },
+ "pre": [
+  [
+   "Harrie Massey's field of work is meteorology",
+   "Harrie Massey's field of work is radioactivity",
+   "Harrie Massey's field of work is complex function",
+   "Harrie Massey's field of work is histology",
+   "Harrie Massey's field of work is algebra",
+   "Harrie Massey's field of work is electron",
+   "Harrie Massey's field of work is quantum theory",
+   "Harrie Massey's field of work is applied mathematics",
+   "Harrie Massey's field of work is electricity",
+   "Harrie Massey's field of work is human geography",
+   "Harrie Massey's field of work is crystallography",
+   "Harrie Massey's field of work is chemistry",
+   "Harrie Massey's field of work is Jewish studies",
+   "Harrie Massey's field of work is topology",
+   "Harrie Massey's field of work is mathematical analysis",
+   "Harrie Massey's field of work is computational geometry",
+   "Harrie Massey's field of work is Petrine ministry",
+   "Harrie Massey's field of work is social psychology",
+   "Harrie Massey's field of work is genetics",
+   "Harrie Massey's field of work is informatics",
+   "Harrie Massey's field of work is shipbuilding",
+   "Harrie Massey's field of work is historical sociology",
+   "Harrie Massey's field of work is quantum mysticism",
+   "Harrie Massey's field of work is philosopher",
+   "Harrie Massey's field of work is Internet",
+   "Harrie Massey's field of work is gravity",
+   "Harrie Massey's field of work is theoretical physics",
+   "Harrie Massey's field of work is African studies",
+   "Harrie Massey's field of work is projective geometry",
+   "Harrie Massey's field of work is prose",
+   "Harrie Massey's field of work is momentum",
+   "Harrie Massey's field of work is Cairo Geniza",
+   "Harrie Massey's field of work is stochastic",
+   "Harrie Massey's field of work is algebraic topology",
+   "Harrie Massey's field of work is electrical engineering",
+   "Harrie Massey's field of work is hunting",
+   "Harrie Massey's field of work is evolution",
+   "Harrie Massey's field of work is economic anthropology",
+   "Harrie Massey's field of work is Hebrew",
+   "Harrie Massey's field of work is differential geometry",
+   "Harrie Massey's field of work is engineering",
+   "Harrie Massey's field of work is history of science",
+   "Harrie Massey's field of work is social anthropology",
+   "Harrie Massey's field of work is history",
+   "Harrie Massey's field of work is distribution theory",
+   "Harrie Massey's field of work is classics",
+   "Harrie Massey's field of work is crime novel",
+   "Harrie Massey's field of work is statistics",
+   "Harrie Massey's field of work is experimental physics",
+   "Harrie Massey's field of work is geography",
+   "Harrie Massey's field of work is anthropology",
+   "Harrie Massey's field of work is partial differential equation",
+   "Harrie Massey's field of work is applied physics",
+   "Harrie Massey's field of work is Sanskrit",
+   "Harrie Massey's field of work is a branch of physics",
+   "Harrie Massey's field of work is comparative mythology",
+   "Harrie Massey's field of work is radiation",
+   "Harrie Massey's field of work is aeromechanics",
+   "Harrie Massey's field of work is harmonic analysis",
+   "Harrie Massey's field of work is religion",
+   "Harrie Massey's field of work is civil rights",
+   "Harrie Massey's field of work is physicist",
+   "Harrie Massey's field of work is distribution",
+   "Harrie Massey's field of work is translations from Spanish",
+   "Harrie Massey's field of work is feminism",
+   "Harrie Massey's field of work is number theory",
+   "Harrie Massey's field of work is sociology of organisations",
+   "Harrie Massey's field of work is astronomer",
+   "Harrie Massey's field of work is children's and youth literature",
+   "Harrie Massey's field of work is fairy tale",
+   "Harrie Massey's field of work is economy",
+   "Harrie Massey's field of work is graph theory",
+   "Harrie Massey's field of work is magic",
+   "Harrie Massey's field of work is essay",
+   "Harrie Massey's field of work is theory of relativity",
+   "Harrie Massey's field of work is historical novel",
+   "Harrie Massey's field of work is biological anthropology",
+   "Harrie Massey's field of work is literary theory",
+   "Harrie Massey's field of work is Greek philology",
+   "Harrie Massey's field of work is lyric poetry",
+   "Harrie Massey's field of work is psychology",
+   "Harrie Massey's field of work is quaternion",
+   "Harrie Massey's field of work is rite",
+   "Harrie Massey's field of work is jazz",
+   "Harrie Massey's field of work is heat",
+   "Harrie Massey's field of work is embryology",
+   "Harrie Massey's field of work is social philosophy",
+   "Harrie Massey's field of work is dance choreography",
+   "Harrie Massey's field of work is politics",
+   "Harrie Massey's field of work is nanotechnology",
+   "Harrie Massey's field of work is Afghanistan",
+   "Harrie Massey's field of work is non-Euclidean geometry",
+   "Harrie Massey's field of work is Franciscan spirituality",
+   "Harrie Massey's field of work is detective literature",
+   "Harrie Massey's field of work is mathematician",
+   "Harrie Massey's field of work is String",
+   "Harrie Massey's field of work is classical music",
+   "Harrie Massey's field of work is translations from Occitan",
+   "Harrie Massey's field of work is abstract algebra",
+   "Harrie Massey's field of work is differential calculus",
+   "Harrie Massey's field of work is mythology",
+   "Harrie Massey's field of work is literary translation",
+   "Harrie Massey's field of work is ballistics",
+   "Harrie Massey's field of work is cryptography",
+   "Harrie Massey's field of work is Greek",
+   "Harrie Massey's field of work is logic",
+   "Harrie Massey's field of work is choreography",
+   "Harrie Massey's field of work is theology",
+   "Harrie Massey's field of work is world economy",
+   "Harrie Massey's field of work is magnetism",
+   "Harrie Massey's field of work is algebraic geometry",
+   "Harrie Massey's field of work is theory of differential equations",
+   "Harrie Massey's field of work is physics",
+   "Harrie Massey's field of work is music theory",
+   "Harrie Massey's field of work is economics",
+   "Harrie Massey's field of work is anatomy",
+   "Harrie Massey's field of work is electromagnetic field",
+   "Harrie Massey's field of work is analytic number theory",
+   "Harrie Massey's field of work is mathematical physics",
+   "Harrie Massey's field of work is journalism",
+   "Harrie Massey's field of work is sociology",
+   "Harrie Massey's field of work is literature",
+   "Harrie Massey's field of work is ethnography",
+   "Harrie Massey's field of work is belletristic literature",
+   "Harrie Massey's field of work is convex function",
+   "Harrie Massey's field of work is sociology of religion",
+   "Harrie Massey's field of work is pedagogy",
+   "Harrie Massey's field of work is philosophy",
+   "Harrie Massey's field of work is quantum mechanics",
+   "Harrie Massey's field of work is drama",
+   "Harrie Massey's field of work is dance",
+   "Harrie Massey's field of work is Judaism",
+   "Harrie Massey's field of work is quantum physics",
+   "Harrie Massey's field of work is philosophy of science",
+   "Harrie Massey's field of work is linguistics",
+   "Harrie Massey's field of work is myth",
+   "Harrie Massey's field of work is physiology",
+   "Harrie Massey's field of work is English",
+   "Harrie Massey's field of work is philology",
+   "Harrie Massey's field of work is political philosophy",
+   "Harrie Massey's field of work is mechanical engineering",
+   "Harrie Massey's field of work is ontology",
+   "Harrie Massey's field of work is forestry",
+   "Harrie Massey's field of work is aerodynamics",
+   "Harrie Massey's field of work is Christian Church",
+   "Harrie Massey's field of work is magnetic resonance",
+   "Harrie Massey's field of work is astrophysics",
+   "Harrie Massey's field of work is natural science",
+   "Harrie Massey's field of work is constitutional law",
+   "Harrie Massey's field of work is philosophy of law",
+   "Harrie Massey's field of work is education",
+   "Harrie Massey's field of work is Monte Carlo method",
+   "Harrie Massey's field of work is neurology",
+   "Harrie Massey's field of work is electric field",
+   "Harrie Massey's field of work is Minkowski spacetime",
+   "Harrie Massey's field of work is translations from Arabic language",
+   "Harrie Massey's field of work is Bayesian inference",
+   "Harrie Massey's field of work is translations from Polish",
+   "Harrie Massey's field of work is color photography",
+   "Harrie Massey's field of work is opera",
+   "Harrie Massey's field of work is model theory",
+   "Harrie Massey's field of work is cartography",
+   "Harrie Massey's field of work is nonstandard analysis",
+   "Harrie Massey's field of work is television program",
+   "Harrie Massey's field of work is complex manifold",
+   "Harrie Massey's field of work is poetry",
+   "Harrie Massey's field of work is mathematics",
+   "Harrie Massey's field of work is computer science",
+   "Harrie Massey's field of work is cosmology",
+   "Harrie Massey's field of work is silviculture",
+   "Harrie Massey's field of work is hydrodynamics",
+   "Harrie Massey's field of work is forestry science",
+   "Harrie Massey's field of work is comparative religion",
+   "Harrie Massey's field of work is information technology",
+   "Harrie Massey's field of work is ballet",
+   "Harrie Massey's field of work is English literature",
+   "Harrie Massey's field of work is conducting",
+   "Harrie Massey's field of work is hyperbolic geometry",
+   "Harrie Massey's field of work is biochemistry",
+   "Harrie Massey's field of work is religion and society",
+   "Harrie Massey's field of work is optics",
+   "Harrie Massey's field of work is ethics",
+   "Harrie Massey's field of work is cybernetics",
+   "Harrie Massey's field of work is astronomical observation",
+   "Harrie Massey's field of work is psychophysiology",
+   "Harrie Massey's field of work is culturology",
+   "Harrie Massey's field of work is history of religions",
+   "Harrie Massey's field of work is probability theory",
+   "Harrie Massey's field of work is paleontology",
+   "Harrie Massey's field of work is surgery",
+   "Harrie Massey's field of work is group theory",
+   "Harrie Massey's field of work is natural theology",
+   "Harrie Massey's field of work is astrology",
+   "Harrie Massey's field of work is quantum electrodynamics",
+   "Harrie Massey's field of work is mechanics",
+   "Harrie Massey's field of work is Lie algebra",
+   "Harrie Massey's field of work is trigonometry",
+   "Harrie Massey's field of work is literary activity",
+   "Harrie Massey's field of work is nuclear physics",
+   "Harrie Massey's field of work is translations from English",
+   "Harrie Massey's field of work is medicine",
+   "Harrie Massey's field of work is Jewish philosophy",
+   "Harrie Massey's field of work is mathematical logic",
+   "Harrie Massey's field of work is calculus of variations",
+   "Harrie Massey's field of work is ferromagnetism",
+   "Harrie Massey's field of work is analytic geometry",
+   "Harrie Massey's field of work is art of painting",
+   "Harrie Massey's field of work is functional analysis",
+   "Harrie Massey's field of work is folklore",
+   "Harrie Massey's field of work is study of history",
+   "Harrie Massey's field of work is geometry",
+   "Harrie Massey's field of work is positivism",
+   "Harrie Massey's field of work is geodesy",
+   "Harrie Massey's field of work is astronomy",
+   "Harrie Massey's field of work is magnetic field",
+   "Harrie Massey's field of work is kinetic theory",
+   "Harrie Massey's field of work is celestial mechanics",
+   "Harrie Massey's field of work is analytic philosophy",
+   "Harrie Massey's field of work is ethnology",
+   "Harrie Massey's field of work is history of economic thought",
+   "Harrie Massey is meteorology",
+   "Harrie Massey is radioactivity",
+   "Harrie Massey is complex function",
+   "Harrie Massey is histology",
+   "Harrie Massey is algebra",
+   "Harrie Massey is electron",
+   "Harrie Massey is quantum theory",
+   "Harrie Massey is applied mathematics",
+   "Harrie Massey is electricity",
+   "Harrie Massey is human geography",
+   "Harrie Massey is crystallography",
+   "Harrie Massey is chemistry",
+   "Harrie Massey is Jewish studies",
+   "Harrie Massey is topology",
+   "Harrie Massey is mathematical analysis",
+   "Harrie Massey is computational geometry",
+   "Harrie Massey is Petrine ministry",
+   "Harrie Massey is social psychology",
+   "Harrie Massey is genetics",
+   "Harrie Massey is informatics",
+   "Harrie Massey is shipbuilding",
+   "Harrie Massey is historical sociology",
+   "Harrie Massey is quantum mysticism",
+   "Harrie Massey is philosopher",
+   "Harrie Massey is Internet",
+   "Harrie Massey is gravity",
+   "Harrie Massey is theoretical physics",
+   "Harrie Massey is African studies",
+   "Harrie Massey is projective geometry",
+   "Harrie Massey is prose",
+   "Harrie Massey is momentum",
+   "Harrie Massey is Cairo Geniza",
+   "Harrie Massey is stochastic",
+   "Harrie Massey is algebraic topology",
+   "Harrie Massey is electrical engineering",
+   "Harrie Massey is hunting",
+   "Harrie Massey is evolution",
+   "Harrie Massey is economic anthropology",
+   "Harrie Massey is Hebrew",
+   "Harrie Massey is differential geometry",
+   "Harrie Massey is engineering",
+   "Harrie Massey is history of science",
+   "Harrie Massey is social anthropology",
+   "Harrie Massey is history",
+   "Harrie Massey is distribution theory",
+   "Harrie Massey is classics",
+   "Harrie Massey is crime novel",
+   "Harrie Massey is statistics",
+   "Harrie Massey is experimental physics",
+   "Harrie Massey is geography",
+   "Harrie Massey is anthropology",
+   "Harrie Massey is partial differential equation",
+   "Harrie Massey is applied physics",
+   "Harrie Massey is Sanskrit",
+   "Harrie Massey is a branch of physics",
+   "Harrie Massey is comparative mythology",
+   "Harrie Massey is radiation",
+   "Harrie Massey is aeromechanics",
+   "Harrie Massey is harmonic analysis",
+   "Harrie Massey is religion",
+   "Harrie Massey is civil rights",
+   "Harrie Massey is physicist",
+   "Harrie Massey is distribution",
+   "Harrie Massey is translations from Spanish",
+   "Harrie Massey is feminism",
+   "Harrie Massey is number theory",
+   "Harrie Massey is sociology of organisations",
+   "Harrie Massey is astronomer",
+   "Harrie Massey is children's and youth literature",
+   "Harrie Massey is fairy tale",
+   "Harrie Massey is economy",
+   "Harrie Massey is graph theory",
+   "Harrie Massey is magic",
+   "Harrie Massey is essay",
+   "Harrie Massey is theory of relativity",
+   "Harrie Massey is historical novel",
+   "Harrie Massey is biological anthropology",
+   "Harrie Massey is literary theory",
+   "Harrie Massey is Greek philology",
+   "Harrie Massey is lyric poetry",
+   "Harrie Massey is psychology",
+   "Harrie Massey is quaternion",
+   "Harrie Massey is rite",
+   "Harrie Massey is jazz",
+   "Harrie Massey is heat",
+   "Harrie Massey is embryology",
+   "Harrie Massey is social philosophy",
+   "Harrie Massey is dance choreography",
+   "Harrie Massey is politics",
+   "Harrie Massey is nanotechnology",
+   "Harrie Massey is Afghanistan",
+   "Harrie Massey is non-Euclidean geometry",
+   "Harrie Massey is Franciscan spirituality",
+   "Harrie Massey is detective literature",
+   "Harrie Massey is mathematician",
+   "Harrie Massey is String",
+   "Harrie Massey is classical music",
+   "Harrie Massey is translations from Occitan",
+   "Harrie Massey is abstract algebra",
+   "Harrie Massey is differential calculus",
+   "Harrie Massey is mythology",
+   "Harrie Massey is literary translation",
+   "Harrie Massey is ballistics",
+   "Harrie Massey is cryptography",
+   "Harrie Massey is Greek",
+   "Harrie Massey is logic",
+   "Harrie Massey is choreography",
+   "Harrie Massey is theology",
+   "Harrie Massey is world economy",
+   "Harrie Massey is magnetism",
+   "Harrie Massey is algebraic geometry",
+   "Harrie Massey is theory of differential equations",
+   "Harrie Massey is physics",
+   "Harrie Massey is music theory",
+   "Harrie Massey is economics",
+   "Harrie Massey is anatomy",
+   "Harrie Massey is electromagnetic field",
+   "Harrie Massey is analytic number theory",
+   "Harrie Massey is mathematical physics",
+   "Harrie Massey is journalism",
+   "Harrie Massey is sociology",
+   "Harrie Massey is literature",
+   "Harrie Massey is ethnography",
+   "Harrie Massey is belletristic literature",
+   "Harrie Massey is convex function",
+   "Harrie Massey is sociology of religion",
+   "Harrie Massey is pedagogy",
+   "Harrie Massey is philosophy",
+   "Harrie Massey is quantum mechanics",
+   "Harrie Massey is drama",
+   "Harrie Massey is dance",
+   "Harrie Massey is Judaism",
+   "Harrie Massey is quantum physics",
+   "Harrie Massey is philosophy of science",
+   "Harrie Massey is linguistics",
+   "Harrie Massey is myth",
+   "Harrie Massey is physiology",
+   "Harrie Massey is English",
+   "Harrie Massey is philology",
+   "Harrie Massey is political philosophy",
+   "Harrie Massey is mechanical engineering",
+   "Harrie Massey is ontology",
+   "Harrie Massey is forestry",
+   "Harrie Massey is aerodynamics",
+   "Harrie Massey is Christian Church",
+   "Harrie Massey is magnetic resonance",
+   "Harrie Massey is astrophysics",
+   "Harrie Massey is natural science",
+   "Harrie Massey is constitutional law",
+   "Harrie Massey is philosophy of law",
+   "Harrie Massey is education",
+   "Harrie Massey is Monte Carlo method",
+   "Harrie Massey is neurology",
+   "Harrie Massey is electric field",
+   "Harrie Massey is Minkowski spacetime",
+   "Harrie Massey is translations from Arabic language",
+   "Harrie Massey is Bayesian inference",
+   "Harrie Massey is translations from Polish",
+   "Harrie Massey is color photography",
+   "Harrie Massey is opera",
+   "Harrie Massey is model theory",
+   "Harrie Massey is cartography",
+   "Harrie Massey is nonstandard analysis",
+   "Harrie Massey is television program",
+   "Harrie Massey is complex manifold",
+   "Harrie Massey is poetry",
+   "Harrie Massey is mathematics",
+   "Harrie Massey is computer science",
+   "Harrie Massey is cosmology",
+   "Harrie Massey is silviculture",
+   "Harrie Massey is hydrodynamics",
+   "Harrie Massey is forestry science",
+   "Harrie Massey is comparative religion",
+   "Harrie Massey is information technology",
+   "Harrie Massey is ballet",
+   "Harrie Massey is English literature",
+   "Harrie Massey is conducting",
+   "Harrie Massey is hyperbolic geometry",
+   "Harrie Massey is biochemistry",
+   "Harrie Massey is religion and society",
+   "Harrie Massey is optics",
+   "Harrie Massey is ethics",
+   "Harrie Massey is cybernetics",
+   "Harrie Massey is astronomical observation",
+   "Harrie Massey is psychophysiology",
+   "Harrie Massey is culturology",
+   "Harrie Massey is history of religions",
+   "Harrie Massey is probability theory",
+   "Harrie Massey is paleontology",
+   "Harrie Massey is surgery",
+   "Harrie Massey is group theory",
+   "Harrie Massey is natural theology",
+   "Harrie Massey is astrology",
+   "Harrie Massey is quantum electrodynamics",
+   "Harrie Massey is mechanics",
+   "Harrie Massey is Lie algebra",
+   "Harrie Massey is trigonometry",
+   "Harrie Massey is literary activity",
+   "Harrie Massey is nuclear physics",
+   "Harrie Massey is translations from English",
+   "Harrie Massey is medicine",
+   "Harrie Massey is Jewish philosophy",
+   "Harrie Massey is mathematical logic",
+   "Harrie Massey is calculus of variations",
+   "Harrie Massey is ferromagnetism",
+   "Harrie Massey is analytic geometry",
+   "Harrie Massey is art of painting",
+   "Harrie Massey is functional analysis",
+   "Harrie Massey is folklore",
+   "Harrie Massey is study of history",
+   "Harrie Massey is geometry",
+   "Harrie Massey is positivism",
+   "Harrie Massey is geodesy",
+   "Harrie Massey is astronomy",
+   "Harrie Massey is magnetic field",
+   "Harrie Massey is kinetic theory",
+   "Harrie Massey is celestial mechanics",
+   "Harrie Massey is analytic philosophy",
+   "Harrie Massey is ethnology",
+   "Harrie Massey is history of economic thought"
+  ],
+  [
+   [
+    -43.344459533691406
+   ],
+   [
+    -46.22129821777344
+   ],
+   [
+    -51.162330627441406
+   ],
+   [
+    -45.26164245605469
+   ],
+   [
+    -43.923309326171875
+   ],
+   [
+    -44.10967254638672
+   ],
+   [
+    -43.71234893798828
+   ],
+   [
+    -43.42735290527344
+   ],
+   [
+    -43.01971435546875
+   ],
+   [
+    -42.598304748535156
+   ],
+   [
+    -44.45520782470703
+   ],
+   [
+    -41.54292297363281
+   ],
+   [
+    -45.20387268066406
+   ],
+   [
+    -44.839927673339844
+   ],
+   [
+    -46.20936965942383
+   ],
+   [
+    -46.961387634277344
+   ],
+   [
+    -58.822227478027344
+   ],
+   [
+    -40.66626739501953
+   ],
+   [
+    -41.43318176269531
+   ],
+   [
+    -42.734458923339844
+   ],
+   [
+    -46.837364196777344
+   ],
+   [
+    -45.30507278442383
+   ],
+   [
+    -49.06733703613281
+   ],
+   [
+    -44.315147399902344
+   ],
+   [
+    -40.59662628173828
+   ],
+   [
+    -43.19611358642578
+   ],
+   [
+    -43.172142028808594
+   ],
+   [
+    -44.05541229248047
+   ],
+   [
+    -48.53807830810547
+   ],
+   [
+    -42.54651641845703
+   ],
+   [
+    -45.89900207519531
+   ],
+   [
+    -56.486846923828125
+   ],
+   [
+    -44.4433708190918
+   ],
+   [
+    -46.009178161621094
+   ],
+   [
+    -42.957275390625
+   ],
+   [
+    -42.09754943847656
+   ],
+   [
+    -42.43982696533203
+   ],
+   [
+    -44.16822814941406
+   ],
+   [
+    -45.08790588378906
+   ],
+   [
+    -46.062442779541016
+   ],
+   [
+    -41.245887756347656
+   ],
+   [
+    -44.771026611328125
+   ],
+   [
+    -42.758575439453125
+   ],
+   [
+    -39.15215301513672
+   ],
+   [
+    -47.073429107666016
+   ],
+   [
+    -43.28382110595703
+   ],
+   [
+    -48.710933685302734
+   ],
+   [
+    -42.232322692871094
+   ],
+   [
+    -44.263275146484375
+   ],
+   [
+    -41.83204650878906
+   ],
+   [
+    -39.997344970703125
+   ],
+   [
+    -51.0565185546875
+   ],
+   [
+    -45.212833404541016
+   ],
+   [
+    -44.170860290527344
+   ],
+   [
+    -48.54335021972656
+   ],
+   [
+    -44.529029846191406
+   ],
+   [
+    -42.850128173828125
+   ],
+   [
+    -48.88946533203125
+   ],
+   [
+    -48.17554473876953
+   ],
+   [
+    -40.420799255371094
+   ],
+   [
+    -41.44712829589844
+   ],
+   [
+    -47.38179016113281
+   ],
+   [
+    -42.53656768798828
+   ],
+   [
+    -49.399742126464844
+   ],
+   [
+    -39.70195007324219
+   ],
+   [
+    -43.71476745605469
+   ],
+   [
+    -49.21907043457031
+   ],
+   [
+    -47.374671936035156
+   ],
+   [
+    -45.386009216308594
+   ],
+   [
+    -45.56492614746094
+   ],
+   [
+    -43.42893981933594
+   ],
+   [
+    -42.402198791503906
+   ],
+   [
+    -40.55754089355469
+   ],
+   [
+    -42.47039031982422
+   ],
+   [
+    -50.486244201660156
+   ],
+   [
+    -46.068397521972656
+   ],
+   [
+    -42.756507873535156
+   ],
+   [
+    -42.165504455566406
+   ],
+   [
+    -49.33898162841797
+   ],
+   [
+    -44.838043212890625
+   ],
+   [
+    -39.23374557495117
+   ],
+   [
+    -49.862060546875
+   ],
+   [
+    -46.36473846435547
+   ],
+   [
+    -41.31568145751953
+   ],
+   [
+    -42.918556213378906
+   ],
+   [
+    -44.37916564941406
+   ],
+   [
+    -44.03590393066406
+   ],
+   [
+    -47.16273498535156
+   ],
+   [
+    -39.04130554199219
+   ],
+   [
+    -43.14091491699219
+   ],
+   [
+    -42.40026092529297
+   ],
+   [
+    -48.14556121826172
+   ],
+   [
+    -50.63910675048828
+   ],
+   [
+    -48.47455978393555
+   ],
+   [
+    -47.24272918701172
+   ],
+   [
+    -46.004783630371094
+   ],
+   [
+    -42.15989685058594
+   ],
+   [
+    -55.77312469482422
+   ],
+   [
+    -45.80811309814453
+   ],
+   [
+    -47.98643493652344
+   ],
+   [
+    -41.805503845214844
+   ],
+   [
+    -43.47930908203125
+   ],
+   [
+    -45.28883361816406
+   ],
+   [
+    -42.50086212158203
+   ],
+   [
+    -42.34368896484375
+   ],
+   [
+    -43.19202423095703
+   ],
+   [
+    -43.20195007324219
+   ],
+   [
+    -41.377227783203125
+   ],
+   [
+    -48.279029846191406
+   ],
+   [
+    -43.946563720703125
+   ],
+   [
+    -44.95866775512695
+   ],
+   [
+    -54.97697830200195
+   ],
+   [
+    -40.52074432373047
+   ],
+   [
+    -43.87567901611328
+   ],
+   [
+    -39.81032180786133
+   ],
+   [
+    -42.71955108642578
+   ],
+   [
+    -47.83440399169922
+   ],
+   [
+    -49.66522216796875
+   ],
+   [
+    -44.54511260986328
+   ],
+   [
+    -39.726409912109375
+   ],
+   [
+    -39.977699279785156
+   ],
+   [
+    -39.044837951660156
+   ],
+   [
+    -40.73035430908203
+   ],
+   [
+    -51.67270278930664
+   ],
+   [
+    -49.91931915283203
+   ],
+   [
+    -44.452880859375
+   ],
+   [
+    -41.28736114501953
+   ],
+   [
+    -38.865997314453125
+   ],
+   [
+    -42.37649154663086
+   ],
+   [
+    -40.54889678955078
+   ],
+   [
+    -39.512489318847656
+   ],
+   [
+    -44.04685974121094
+   ],
+   [
+    -41.77403259277344
+   ],
+   [
+    -42.16114044189453
+   ],
+   [
+    -40.6782112121582
+   ],
+   [
+    -41.56353759765625
+   ],
+   [
+    -42.97126770019531
+   ],
+   [
+    -39.93846893310547
+   ],
+   [
+    -43.87699508666992
+   ],
+   [
+    -40.74822998046875
+   ],
+   [
+    -44.307891845703125
+   ],
+   [
+    -42.091705322265625
+   ],
+   [
+    -42.595550537109375
+   ],
+   [
+    -46.008296966552734
+   ],
+   [
+    -49.567501068115234
+   ],
+   [
+    -44.87394332885742
+   ],
+   [
+    -42.385536193847656
+   ],
+   [
+    -43.01463317871094
+   ],
+   [
+    -42.78668975830078
+   ],
+   [
+    -43.582679748535156
+   ],
+   [
+    -38.37451171875
+   ],
+   [
+    -59.10328674316406
+   ],
+   [
+    -41.71624755859375
+   ],
+   [
+    -47.97357940673828
+   ],
+   [
+    -49.37220764160156
+   ],
+   [
+    -55.958770751953125
+   ],
+   [
+    -45.57853317260742
+   ],
+   [
+    -51.12218475341797
+   ],
+   [
+    -44.75787353515625
+   ],
+   [
+    -41.530052185058594
+   ],
+   [
+    -48.85515213012695
+   ],
+   [
+    -41.718528747558594
+   ],
+   [
+    -51.37279510498047
+   ],
+   [
+    -48.682247161865234
+   ],
+   [
+    -50.83790588378906
+   ],
+   [
+    -39.202484130859375
+   ],
+   [
+    -40.035430908203125
+   ],
+   [
+    -42.860015869140625
+   ],
+   [
+    -41.806304931640625
+   ],
+   [
+    -45.55745315551758
+   ],
+   [
+    -46.63622283935547
+   ],
+   [
+    -48.182350158691406
+   ],
+   [
+    -42.04942321777344
+   ],
+   [
+    -42.33640670776367
+   ],
+   [
+    -42.14227294921875
+   ],
+   [
+    -41.68611526489258
+   ],
+   [
+    -41.63176727294922
+   ],
+   [
+    -45.83504867553711
+   ],
+   [
+    -41.85133361816406
+   ],
+   [
+    -46.34194564819336
+   ],
+   [
+    -42.8692626953125
+   ],
+   [
+    -40.10984802246094
+   ],
+   [
+    -42.88423156738281
+   ],
+   [
+    -48.561466217041016
+   ],
+   [
+    -44.89667510986328
+   ],
+   [
+    -46.96317672729492
+   ],
+   [
+    -48.795501708984375
+   ],
+   [
+    -44.95452117919922
+   ],
+   [
+    -43.388004302978516
+   ],
+   [
+    -42.66936492919922
+   ],
+   [
+    -45.30376052856445
+   ],
+   [
+    -44.068450927734375
+   ],
+   [
+    -41.292396545410156
+   ],
+   [
+    -47.10888671875
+   ],
+   [
+    -44.49773406982422
+   ],
+   [
+    -51.36328887939453
+   ],
+   [
+    -44.88063049316406
+   ],
+   [
+    -49.56349563598633
+   ],
+   [
+    -44.053001403808594
+   ],
+   [
+    -48.486236572265625
+   ],
+   [
+    -39.62477111816406
+   ],
+   [
+    -46.617679595947266
+   ],
+   [
+    -42.7822265625
+   ],
+   [
+    -51.561187744140625
+   ],
+   [
+    -48.850929260253906
+   ],
+   [
+    -47.760536193847656
+   ],
+   [
+    -49.85740661621094
+   ],
+   [
+    -45.897098541259766
+   ],
+   [
+    -41.60912322998047
+   ],
+   [
+    -47.8127326965332
+   ],
+   [
+    -43.800445556640625
+   ],
+   [
+    -45.72996520996094
+   ],
+   [
+    -45.72563171386719
+   ],
+   [
+    -41.58573913574219
+   ],
+   [
+    -47.62640380859375
+   ],
+   [
+    -47.616451263427734
+   ],
+   [
+    -45.96495819091797
+   ],
+   [
+    -43.02357482910156
+   ],
+   [
+    -42.90902328491211
+   ],
+   [
+    -50.190147399902344
+   ],
+   [
+    -31.256589889526367
+   ],
+   [
+    -35.35820770263672
+   ],
+   [
+    -42.71490478515625
+   ],
+   [
+    -32.374446868896484
+   ],
+   [
+    -30.38384246826172
+   ],
+   [
+    -31.061254501342773
+   ],
+   [
+    -34.53169250488281
+   ],
+   [
+    -30.626291275024414
+   ],
+   [
+    -30.21349334716797
+   ],
+   [
+    -32.338218688964844
+   ],
+   [
+    -35.94670867919922
+   ],
+   [
+    -30.295469284057617
+   ],
+   [
+    -38.18529510498047
+   ],
+   [
+    -36.037879943847656
+   ],
+   [
+    -35.66425323486328
+   ],
+   [
+    -36.52435302734375
+   ],
+   [
+    -49.35749816894531
+   ],
+   [
+    -31.488840103149414
+   ],
+   [
+    -32.45914840698242
+   ],
+   [
+    -33.90317153930664
+   ],
+   [
+    -35.16447067260742
+   ],
+   [
+    -38.44715881347656
+   ],
+   [
+    -42.88543701171875
+   ],
+   [
+    -28.120830535888672
+   ],
+   [
+    -27.078886032104492
+   ],
+   [
+    -31.212217330932617
+   ],
+   [
+    -31.232574462890625
+   ],
+   [
+    -34.60972595214844
+   ],
+   [
+    -40.11973571777344
+   ],
+   [
+    -29.27845573425293
+   ],
+   [
+    -30.88811492919922
+   ],
+   [
+    -44.3341064453125
+   ],
+   [
+    -34.09263229370117
+   ],
+   [
+    -35.14164733886719
+   ],
+   [
+    -31.674463272094727
+   ],
+   [
+    -25.91703987121582
+   ],
+   [
+    -29.756866455078125
+   ],
+   [
+    -38.59001922607422
+   ],
+   [
+    -30.948497772216797
+   ],
+   [
+    -34.284446716308594
+   ],
+   [
+    -27.72556495666504
+   ],
+   [
+    -36.84503173828125
+   ],
+   [
+    -32.11467361450195
+   ],
+   [
+    -27.094388961791992
+   ],
+   [
+    -41.933502197265625
+   ],
+   [
+    -31.210731506347656
+   ],
+   [
+    -35.60213851928711
+   ],
+   [
+    -29.638338088989258
+   ],
+   [
+    -34.445064544677734
+   ],
+   [
+    -29.824262619018555
+   ],
+   [
+    -30.010726928710938
+   ],
+   [
+    -44.820194244384766
+   ],
+   [
+    -31.74429702758789
+   ],
+   [
+    -31.64419937133789
+   ],
+   [
+    -40.90855407714844
+   ],
+   [
+    -36.29314422607422
+   ],
+   [
+    -30.67389488220215
+   ],
+   [
+    -35.38154220581055
+   ],
+   [
+    -38.887542724609375
+   ],
+   [
+    -30.1096134185791
+   ],
+   [
+    -28.632606506347656
+   ],
+   [
+    -28.679014205932617
+   ],
+   [
+    -30.910888671875
+   ],
+   [
+    -43.24287796020508
+   ],
+   [
+    -29.761943817138672
+   ],
+   [
+    -37.24107360839844
+   ],
+   [
+    -42.765628814697266
+   ],
+   [
+    -29.843107223510742
+   ],
+   [
+    -40.74906921386719
+   ],
+   [
+    -33.921573638916016
+   ],
+   [
+    -30.778076171875
+   ],
+   [
+    -32.60986328125
+   ],
+   [
+    -27.233566284179688
+   ],
+   [
+    -28.94167709350586
+   ],
+   [
+    -37.16160583496094
+   ],
+   [
+    -33.75730514526367
+   ],
+   [
+    -34.05891418457031
+   ],
+   [
+    -36.18584442138672
+   ],
+   [
+    -43.69720458984375
+   ],
+   [
+    -36.1579475402832
+   ],
+   [
+    -28.766429901123047
+   ],
+   [
+    -37.30870056152344
+   ],
+   [
+    -30.860788345336914
+   ],
+   [
+    -26.670211791992188
+   ],
+   [
+    -29.612878799438477
+   ],
+   [
+    -33.08718490600586
+   ],
+   [
+    -35.79271697998047
+   ],
+   [
+    -38.632911682128906
+   ],
+   [
+    -27.59310531616211
+   ],
+   [
+    -33.2580451965332
+   ],
+   [
+    -28.556354522705078
+   ],
+   [
+    -37.030792236328125
+   ],
+   [
+    -39.828453063964844
+   ],
+   [
+    -41.004005432128906
+   ],
+   [
+    -28.56001853942871
+   ],
+   [
+    -30.58932113647461
+   ],
+   [
+    -30.167882919311523
+   ],
+   [
+    -48.58043670654297
+   ],
+   [
+    -38.50478744506836
+   ],
+   [
+    -35.73370361328125
+   ],
+   [
+    -31.58333969116211
+   ],
+   [
+    -36.93830871582031
+   ],
+   [
+    -34.21625900268555
+   ],
+   [
+    -30.940963745117188
+   ],
+   [
+    -29.14246368408203
+   ],
+   [
+    -30.227319717407227
+   ],
+   [
+    -35.39202880859375
+   ],
+   [
+    -30.050024032592773
+   ],
+   [
+    -37.71167755126953
+   ],
+   [
+    -33.7777214050293
+   ],
+   [
+    -33.86878204345703
+   ],
+   [
+    -41.775909423828125
+   ],
+   [
+    -29.03266143798828
+   ],
+   [
+    -33.94491958618164
+   ],
+   [
+    -28.482345581054688
+   ],
+   [
+    -31.907808303833008
+   ],
+   [
+    -37.385108947753906
+   ],
+   [
+    -35.109683990478516
+   ],
+   [
+    -32.956092834472656
+   ],
+   [
+    -27.528940200805664
+   ],
+   [
+    -28.607744216918945
+   ],
+   [
+    -28.390695571899414
+   ],
+   [
+    -32.1001091003418
+   ],
+   [
+    -45.01708984375
+   ],
+   [
+    -39.33487319946289
+   ],
+   [
+    -35.83217239379883
+   ],
+   [
+    -36.18075942993164
+   ],
+   [
+    -28.356124877929688
+   ],
+   [
+    -33.812496185302734
+   ],
+   [
+    -29.194780349731445
+   ],
+   [
+    -29.302486419677734
+   ],
+   [
+    -31.690414428710938
+   ],
+   [
+    -31.904462814331055
+   ],
+   [
+    -34.39324951171875
+   ],
+   [
+    -30.506494522094727
+   ],
+   [
+    -29.857389450073242
+   ],
+   [
+    -32.254085540771484
+   ],
+   [
+    -25.944629669189453
+   ],
+   [
+    -35.87590026855469
+   ],
+   [
+    -34.71916198730469
+   ],
+   [
+    -31.985536575317383
+   ],
+   [
+    -32.86509704589844
+   ],
+   [
+    -31.092525482177734
+   ],
+   [
+    -34.20304870605469
+   ],
+   [
+    -35.26155090332031
+   ],
+   [
+    -41.79529571533203
+   ],
+   [
+    -31.337099075317383
+   ],
+   [
+    -33.002628326416016
+   ],
+   [
+    -30.16714859008789
+   ],
+   [
+    -35.42053985595703
+   ],
+   [
+    -26.90334701538086
+   ],
+   [
+    -45.09837341308594
+   ],
+   [
+    -29.48154640197754
+   ],
+   [
+    -37.64207458496094
+   ],
+   [
+    -40.94384002685547
+   ],
+   [
+    -50.73399353027344
+   ],
+   [
+    -39.3974609375
+   ],
+   [
+    -44.87194061279297
+   ],
+   [
+    -36.507568359375
+   ],
+   [
+    -29.555404663085938
+   ],
+   [
+    -37.68284606933594
+   ],
+   [
+    -34.146156311035156
+   ],
+   [
+    -42.25816345214844
+   ],
+   [
+    -36.972782135009766
+   ],
+   [
+    -41.98542022705078
+   ],
+   [
+    -27.48131561279297
+   ],
+   [
+    -29.347965240478516
+   ],
+   [
+    -28.23359489440918
+   ],
+   [
+    -33.07674789428711
+   ],
+   [
+    -34.16883087158203
+   ],
+   [
+    -32.4505615234375
+   ],
+   [
+    -35.690834045410156
+   ],
+   [
+    -33.24371337890625
+   ],
+   [
+    -31.231082916259766
+   ],
+   [
+    -30.526782989501953
+   ],
+   [
+    -31.851613998413086
+   ],
+   [
+    -24.462207794189453
+   ],
+   [
+    -43.7567138671875
+   ],
+   [
+    -32.286808013916016
+   ],
+   [
+    -37.44206237792969
+   ],
+   [
+    -32.53296661376953
+   ],
+   [
+    -30.834636688232422
+   ],
+   [
+    -34.71998596191406
+   ],
+   [
+    -38.92742919921875
+   ],
+   [
+    -36.73382568359375
+   ],
+   [
+    -38.69007873535156
+   ],
+   [
+    -41.64978790283203
+   ],
+   [
+    -33.845516204833984
+   ],
+   [
+    -33.59147262573242
+   ],
+   [
+    -29.541040420532227
+   ],
+   [
+    -37.357322692871094
+   ],
+   [
+    -37.82783508300781
+   ],
+   [
+    -31.89572525024414
+   ],
+   [
+    -36.90523147583008
+   ],
+   [
+    -33.063533782958984
+   ],
+   [
+    -37.76513671875
+   ],
+   [
+    -34.46110534667969
+   ],
+   [
+    -38.23103332519531
+   ],
+   [
+    -32.41899490356445
+   ],
+   [
+    -42.5859489440918
+   ],
+   [
+    -29.5281982421875
+   ],
+   [
+    -38.426002502441406
+   ],
+   [
+    -34.393062591552734
+   ],
+   [
+    -44.0447998046875
+   ],
+   [
+    -39.29181671142578
+   ],
+   [
+    -35.45696258544922
+   ],
+   [
+    -40.288211822509766
+   ],
+   [
+    -37.298973083496094
+   ],
+   [
+    -31.17104721069336
+   ],
+   [
+    -35.94044494628906
+   ],
+   [
+    -31.952068328857422
+   ],
+   [
+    -34.294830322265625
+   ],
+   [
+    -36.31178283691406
+   ],
+   [
+    -30.239194869995117
+   ],
+   [
+    -39.22462463378906
+   ],
+   [
+    -36.868743896484375
+   ],
+   [
+    -36.82746124267578
+   ],
+   [
+    -32.085453033447266
+   ],
+   [
+    -33.322662353515625
+   ],
+   [
+    -42.148643493652344
+   ]
+  ]
+ ],
+ "time": 844.4822347164154
+}

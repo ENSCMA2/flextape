@@ -1,0 +1,2076 @@
+{
+ "case_id": 22110,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Galileo Galilei"
+ },
+ "pre": [
+  [
+   "Galileo Galilei's field of work is meteorology",
+   "Galileo Galilei's field of work is radioactivity",
+   "Galileo Galilei's field of work is complex function",
+   "Galileo Galilei's field of work is histology",
+   "Galileo Galilei's field of work is algebra",
+   "Galileo Galilei's field of work is electron",
+   "Galileo Galilei's field of work is quantum theory",
+   "Galileo Galilei's field of work is applied mathematics",
+   "Galileo Galilei's field of work is electricity",
+   "Galileo Galilei's field of work is human geography",
+   "Galileo Galilei's field of work is crystallography",
+   "Galileo Galilei's field of work is chemistry",
+   "Galileo Galilei's field of work is Jewish studies",
+   "Galileo Galilei's field of work is topology",
+   "Galileo Galilei's field of work is mathematical analysis",
+   "Galileo Galilei's field of work is computational geometry",
+   "Galileo Galilei's field of work is Petrine ministry",
+   "Galileo Galilei's field of work is social psychology",
+   "Galileo Galilei's field of work is genetics",
+   "Galileo Galilei's field of work is informatics",
+   "Galileo Galilei's field of work is shipbuilding",
+   "Galileo Galilei's field of work is historical sociology",
+   "Galileo Galilei's field of work is quantum mysticism",
+   "Galileo Galilei's field of work is philosopher",
+   "Galileo Galilei's field of work is Internet",
+   "Galileo Galilei's field of work is gravity",
+   "Galileo Galilei's field of work is theoretical physics",
+   "Galileo Galilei's field of work is African studies",
+   "Galileo Galilei's field of work is projective geometry",
+   "Galileo Galilei's field of work is prose",
+   "Galileo Galilei's field of work is momentum",
+   "Galileo Galilei's field of work is Cairo Geniza",
+   "Galileo Galilei's field of work is stochastic",
+   "Galileo Galilei's field of work is algebraic topology",
+   "Galileo Galilei's field of work is electrical engineering",
+   "Galileo Galilei's field of work is hunting",
+   "Galileo Galilei's field of work is evolution",
+   "Galileo Galilei's field of work is economic anthropology",
+   "Galileo Galilei's field of work is Hebrew",
+   "Galileo Galilei's field of work is differential geometry",
+   "Galileo Galilei's field of work is engineering",
+   "Galileo Galilei's field of work is history of science",
+   "Galileo Galilei's field of work is social anthropology",
+   "Galileo Galilei's field of work is history",
+   "Galileo Galilei's field of work is distribution theory",
+   "Galileo Galilei's field of work is classics",
+   "Galileo Galilei's field of work is crime novel",
+   "Galileo Galilei's field of work is statistics",
+   "Galileo Galilei's field of work is experimental physics",
+   "Galileo Galilei's field of work is geography",
+   "Galileo Galilei's field of work is anthropology",
+   "Galileo Galilei's field of work is partial differential equation",
+   "Galileo Galilei's field of work is applied physics",
+   "Galileo Galilei's field of work is Sanskrit",
+   "Galileo Galilei's field of work is a branch of physics",
+   "Galileo Galilei's field of work is comparative mythology",
+   "Galileo Galilei's field of work is radiation",
+   "Galileo Galilei's field of work is aeromechanics",
+   "Galileo Galilei's field of work is harmonic analysis",
+   "Galileo Galilei's field of work is religion",
+   "Galileo Galilei's field of work is civil rights",
+   "Galileo Galilei's field of work is physicist",
+   "Galileo Galilei's field of work is distribution",
+   "Galileo Galilei's field of work is translations from Spanish",
+   "Galileo Galilei's field of work is feminism",
+   "Galileo Galilei's field of work is number theory",
+   "Galileo Galilei's field of work is sociology of organisations",
+   "Galileo Galilei's field of work is astronomer",
+   "Galileo Galilei's field of work is children's and youth literature",
+   "Galileo Galilei's field of work is fairy tale",
+   "Galileo Galilei's field of work is economy",
+   "Galileo Galilei's field of work is graph theory",
+   "Galileo Galilei's field of work is magic",
+   "Galileo Galilei's field of work is essay",
+   "Galileo Galilei's field of work is theory of relativity",
+   "Galileo Galilei's field of work is historical novel",
+   "Galileo Galilei's field of work is biological anthropology",
+   "Galileo Galilei's field of work is literary theory",
+   "Galileo Galilei's field of work is Greek philology",
+   "Galileo Galilei's field of work is lyric poetry",
+   "Galileo Galilei's field of work is psychology",
+   "Galileo Galilei's field of work is quaternion",
+   "Galileo Galilei's field of work is rite",
+   "Galileo Galilei's field of work is jazz",
+   "Galileo Galilei's field of work is heat",
+   "Galileo Galilei's field of work is embryology",
+   "Galileo Galilei's field of work is social philosophy",
+   "Galileo Galilei's field of work is dance choreography",
+   "Galileo Galilei's field of work is politics",
+   "Galileo Galilei's field of work is nanotechnology",
+   "Galileo Galilei's field of work is Afghanistan",
+   "Galileo Galilei's field of work is non-Euclidean geometry",
+   "Galileo Galilei's field of work is Franciscan spirituality",
+   "Galileo Galilei's field of work is detective literature",
+   "Galileo Galilei's field of work is mathematician",
+   "Galileo Galilei's field of work is String",
+   "Galileo Galilei's field of work is classical music",
+   "Galileo Galilei's field of work is translations from Occitan",
+   "Galileo Galilei's field of work is abstract algebra",
+   "Galileo Galilei's field of work is differential calculus",
+   "Galileo Galilei's field of work is mythology",
+   "Galileo Galilei's field of work is literary translation",
+   "Galileo Galilei's field of work is ballistics",
+   "Galileo Galilei's field of work is cryptography",
+   "Galileo Galilei's field of work is Greek",
+   "Galileo Galilei's field of work is logic",
+   "Galileo Galilei's field of work is choreography",
+   "Galileo Galilei's field of work is theology",
+   "Galileo Galilei's field of work is world economy",
+   "Galileo Galilei's field of work is magnetism",
+   "Galileo Galilei's field of work is algebraic geometry",
+   "Galileo Galilei's field of work is theory of differential equations",
+   "Galileo Galilei's field of work is physics",
+   "Galileo Galilei's field of work is music theory",
+   "Galileo Galilei's field of work is economics",
+   "Galileo Galilei's field of work is anatomy",
+   "Galileo Galilei's field of work is electromagnetic field",
+   "Galileo Galilei's field of work is analytic number theory",
+   "Galileo Galilei's field of work is mathematical physics",
+   "Galileo Galilei's field of work is journalism",
+   "Galileo Galilei's field of work is sociology",
+   "Galileo Galilei's field of work is literature",
+   "Galileo Galilei's field of work is ethnography",
+   "Galileo Galilei's field of work is belletristic literature",
+   "Galileo Galilei's field of work is convex function",
+   "Galileo Galilei's field of work is sociology of religion",
+   "Galileo Galilei's field of work is pedagogy",
+   "Galileo Galilei's field of work is philosophy",
+   "Galileo Galilei's field of work is quantum mechanics",
+   "Galileo Galilei's field of work is drama",
+   "Galileo Galilei's field of work is dance",
+   "Galileo Galilei's field of work is Judaism",
+   "Galileo Galilei's field of work is quantum physics",
+   "Galileo Galilei's field of work is philosophy of science",
+   "Galileo Galilei's field of work is linguistics",
+   "Galileo Galilei's field of work is myth",
+   "Galileo Galilei's field of work is physiology",
+   "Galileo Galilei's field of work is English",
+   "Galileo Galilei's field of work is philology",
+   "Galileo Galilei's field of work is political philosophy",
+   "Galileo Galilei's field of work is mechanical engineering",
+   "Galileo Galilei's field of work is ontology",
+   "Galileo Galilei's field of work is forestry",
+   "Galileo Galilei's field of work is aerodynamics",
+   "Galileo Galilei's field of work is Christian Church",
+   "Galileo Galilei's field of work is magnetic resonance",
+   "Galileo Galilei's field of work is astrophysics",
+   "Galileo Galilei's field of work is natural science",
+   "Galileo Galilei's field of work is constitutional law",
+   "Galileo Galilei's field of work is philosophy of law",
+   "Galileo Galilei's field of work is education",
+   "Galileo Galilei's field of work is Monte Carlo method",
+   "Galileo Galilei's field of work is neurology",
+   "Galileo Galilei's field of work is electric field",
+   "Galileo Galilei's field of work is Minkowski spacetime",
+   "Galileo Galilei's field of work is translations from Arabic language",
+   "Galileo Galilei's field of work is Bayesian inference",
+   "Galileo Galilei's field of work is translations from Polish",
+   "Galileo Galilei's field of work is color photography",
+   "Galileo Galilei's field of work is opera",
+   "Galileo Galilei's field of work is model theory",
+   "Galileo Galilei's field of work is cartography",
+   "Galileo Galilei's field of work is nonstandard analysis",
+   "Galileo Galilei's field of work is television program",
+   "Galileo Galilei's field of work is complex manifold",
+   "Galileo Galilei's field of work is poetry",
+   "Galileo Galilei's field of work is mathematics",
+   "Galileo Galilei's field of work is computer science",
+   "Galileo Galilei's field of work is cosmology",
+   "Galileo Galilei's field of work is silviculture",
+   "Galileo Galilei's field of work is hydrodynamics",
+   "Galileo Galilei's field of work is forestry science",
+   "Galileo Galilei's field of work is comparative religion",
+   "Galileo Galilei's field of work is information technology",
+   "Galileo Galilei's field of work is ballet",
+   "Galileo Galilei's field of work is English literature",
+   "Galileo Galilei's field of work is conducting",
+   "Galileo Galilei's field of work is hyperbolic geometry",
+   "Galileo Galilei's field of work is biochemistry",
+   "Galileo Galilei's field of work is religion and society",
+   "Galileo Galilei's field of work is optics",
+   "Galileo Galilei's field of work is ethics",
+   "Galileo Galilei's field of work is cybernetics",
+   "Galileo Galilei's field of work is astronomical observation",
+   "Galileo Galilei's field of work is psychophysiology",
+   "Galileo Galilei's field of work is culturology",
+   "Galileo Galilei's field of work is history of religions",
+   "Galileo Galilei's field of work is probability theory",
+   "Galileo Galilei's field of work is paleontology",
+   "Galileo Galilei's field of work is surgery",
+   "Galileo Galilei's field of work is group theory",
+   "Galileo Galilei's field of work is natural theology",
+   "Galileo Galilei's field of work is astrology",
+   "Galileo Galilei's field of work is quantum electrodynamics",
+   "Galileo Galilei's field of work is mechanics",
+   "Galileo Galilei's field of work is Lie algebra",
+   "Galileo Galilei's field of work is trigonometry",
+   "Galileo Galilei's field of work is literary activity",
+   "Galileo Galilei's field of work is nuclear physics",
+   "Galileo Galilei's field of work is translations from English",
+   "Galileo Galilei's field of work is medicine",
+   "Galileo Galilei's field of work is Jewish philosophy",
+   "Galileo Galilei's field of work is mathematical logic",
+   "Galileo Galilei's field of work is calculus of variations",
+   "Galileo Galilei's field of work is ferromagnetism",
+   "Galileo Galilei's field of work is analytic geometry",
+   "Galileo Galilei's field of work is art of painting",
+   "Galileo Galilei's field of work is functional analysis",
+   "Galileo Galilei's field of work is folklore",
+   "Galileo Galilei's field of work is study of history",
+   "Galileo Galilei's field of work is geometry",
+   "Galileo Galilei's field of work is positivism",
+   "Galileo Galilei's field of work is geodesy",
+   "Galileo Galilei's field of work is astronomy",
+   "Galileo Galilei's field of work is magnetic field",
+   "Galileo Galilei's field of work is kinetic theory",
+   "Galileo Galilei's field of work is celestial mechanics",
+   "Galileo Galilei's field of work is analytic philosophy",
+   "Galileo Galilei's field of work is ethnology",
+   "Galileo Galilei's field of work is history of economic thought",
+   "Galileo Galilei is meteorology",
+   "Galileo Galilei is radioactivity",
+   "Galileo Galilei is complex function",
+   "Galileo Galilei is histology",
+   "Galileo Galilei is algebra",
+   "Galileo Galilei is electron",
+   "Galileo Galilei is quantum theory",
+   "Galileo Galilei is applied mathematics",
+   "Galileo Galilei is electricity",
+   "Galileo Galilei is human geography",
+   "Galileo Galilei is crystallography",
+   "Galileo Galilei is chemistry",
+   "Galileo Galilei is Jewish studies",
+   "Galileo Galilei is topology",
+   "Galileo Galilei is mathematical analysis",
+   "Galileo Galilei is computational geometry",
+   "Galileo Galilei is Petrine ministry",
+   "Galileo Galilei is social psychology",
+   "Galileo Galilei is genetics",
+   "Galileo Galilei is informatics",
+   "Galileo Galilei is shipbuilding",
+   "Galileo Galilei is historical sociology",
+   "Galileo Galilei is quantum mysticism",
+   "Galileo Galilei is philosopher",
+   "Galileo Galilei is Internet",
+   "Galileo Galilei is gravity",
+   "Galileo Galilei is theoretical physics",
+   "Galileo Galilei is African studies",
+   "Galileo Galilei is projective geometry",
+   "Galileo Galilei is prose",
+   "Galileo Galilei is momentum",
+   "Galileo Galilei is Cairo Geniza",
+   "Galileo Galilei is stochastic",
+   "Galileo Galilei is algebraic topology",
+   "Galileo Galilei is electrical engineering",
+   "Galileo Galilei is hunting",
+   "Galileo Galilei is evolution",
+   "Galileo Galilei is economic anthropology",
+   "Galileo Galilei is Hebrew",
+   "Galileo Galilei is differential geometry",
+   "Galileo Galilei is engineering",
+   "Galileo Galilei is history of science",
+   "Galileo Galilei is social anthropology",
+   "Galileo Galilei is history",
+   "Galileo Galilei is distribution theory",
+   "Galileo Galilei is classics",
+   "Galileo Galilei is crime novel",
+   "Galileo Galilei is statistics",
+   "Galileo Galilei is experimental physics",
+   "Galileo Galilei is geography",
+   "Galileo Galilei is anthropology",
+   "Galileo Galilei is partial differential equation",
+   "Galileo Galilei is applied physics",
+   "Galileo Galilei is Sanskrit",
+   "Galileo Galilei is a branch of physics",
+   "Galileo Galilei is comparative mythology",
+   "Galileo Galilei is radiation",
+   "Galileo Galilei is aeromechanics",
+   "Galileo Galilei is harmonic analysis",
+   "Galileo Galilei is religion",
+   "Galileo Galilei is civil rights",
+   "Galileo Galilei is physicist",
+   "Galileo Galilei is distribution",
+   "Galileo Galilei is translations from Spanish",
+   "Galileo Galilei is feminism",
+   "Galileo Galilei is number theory",
+   "Galileo Galilei is sociology of organisations",
+   "Galileo Galilei is astronomer",
+   "Galileo Galilei is children's and youth literature",
+   "Galileo Galilei is fairy tale",
+   "Galileo Galilei is economy",
+   "Galileo Galilei is graph theory",
+   "Galileo Galilei is magic",
+   "Galileo Galilei is essay",
+   "Galileo Galilei is theory of relativity",
+   "Galileo Galilei is historical novel",
+   "Galileo Galilei is biological anthropology",
+   "Galileo Galilei is literary theory",
+   "Galileo Galilei is Greek philology",
+   "Galileo Galilei is lyric poetry",
+   "Galileo Galilei is psychology",
+   "Galileo Galilei is quaternion",
+   "Galileo Galilei is rite",
+   "Galileo Galilei is jazz",
+   "Galileo Galilei is heat",
+   "Galileo Galilei is embryology",
+   "Galileo Galilei is social philosophy",
+   "Galileo Galilei is dance choreography",
+   "Galileo Galilei is politics",
+   "Galileo Galilei is nanotechnology",
+   "Galileo Galilei is Afghanistan",
+   "Galileo Galilei is non-Euclidean geometry",
+   "Galileo Galilei is Franciscan spirituality",
+   "Galileo Galilei is detective literature",
+   "Galileo Galilei is mathematician",
+   "Galileo Galilei is String",
+   "Galileo Galilei is classical music",
+   "Galileo Galilei is translations from Occitan",
+   "Galileo Galilei is abstract algebra",
+   "Galileo Galilei is differential calculus",
+   "Galileo Galilei is mythology",
+   "Galileo Galilei is literary translation",
+   "Galileo Galilei is ballistics",
+   "Galileo Galilei is cryptography",
+   "Galileo Galilei is Greek",
+   "Galileo Galilei is logic",
+   "Galileo Galilei is choreography",
+   "Galileo Galilei is theology",
+   "Galileo Galilei is world economy",
+   "Galileo Galilei is magnetism",
+   "Galileo Galilei is algebraic geometry",
+   "Galileo Galilei is theory of differential equations",
+   "Galileo Galilei is physics",
+   "Galileo Galilei is music theory",
+   "Galileo Galilei is economics",
+   "Galileo Galilei is anatomy",
+   "Galileo Galilei is electromagnetic field",
+   "Galileo Galilei is analytic number theory",
+   "Galileo Galilei is mathematical physics",
+   "Galileo Galilei is journalism",
+   "Galileo Galilei is sociology",
+   "Galileo Galilei is literature",
+   "Galileo Galilei is ethnography",
+   "Galileo Galilei is belletristic literature",
+   "Galileo Galilei is convex function",
+   "Galileo Galilei is sociology of religion",
+   "Galileo Galilei is pedagogy",
+   "Galileo Galilei is philosophy",
+   "Galileo Galilei is quantum mechanics",
+   "Galileo Galilei is drama",
+   "Galileo Galilei is dance",
+   "Galileo Galilei is Judaism",
+   "Galileo Galilei is quantum physics",
+   "Galileo Galilei is philosophy of science",
+   "Galileo Galilei is linguistics",
+   "Galileo Galilei is myth",
+   "Galileo Galilei is physiology",
+   "Galileo Galilei is English",
+   "Galileo Galilei is philology",
+   "Galileo Galilei is political philosophy",
+   "Galileo Galilei is mechanical engineering",
+   "Galileo Galilei is ontology",
+   "Galileo Galilei is forestry",
+   "Galileo Galilei is aerodynamics",
+   "Galileo Galilei is Christian Church",
+   "Galileo Galilei is magnetic resonance",
+   "Galileo Galilei is astrophysics",
+   "Galileo Galilei is natural science",
+   "Galileo Galilei is constitutional law",
+   "Galileo Galilei is philosophy of law",
+   "Galileo Galilei is education",
+   "Galileo Galilei is Monte Carlo method",
+   "Galileo Galilei is neurology",
+   "Galileo Galilei is electric field",
+   "Galileo Galilei is Minkowski spacetime",
+   "Galileo Galilei is translations from Arabic language",
+   "Galileo Galilei is Bayesian inference",
+   "Galileo Galilei is translations from Polish",
+   "Galileo Galilei is color photography",
+   "Galileo Galilei is opera",
+   "Galileo Galilei is model theory",
+   "Galileo Galilei is cartography",
+   "Galileo Galilei is nonstandard analysis",
+   "Galileo Galilei is television program",
+   "Galileo Galilei is complex manifold",
+   "Galileo Galilei is poetry",
+   "Galileo Galilei is mathematics",
+   "Galileo Galilei is computer science",
+   "Galileo Galilei is cosmology",
+   "Galileo Galilei is silviculture",
+   "Galileo Galilei is hydrodynamics",
+   "Galileo Galilei is forestry science",
+   "Galileo Galilei is comparative religion",
+   "Galileo Galilei is information technology",
+   "Galileo Galilei is ballet",
+   "Galileo Galilei is English literature",
+   "Galileo Galilei is conducting",
+   "Galileo Galilei is hyperbolic geometry",
+   "Galileo Galilei is biochemistry",
+   "Galileo Galilei is religion and society",
+   "Galileo Galilei is optics",
+   "Galileo Galilei is ethics",
+   "Galileo Galilei is cybernetics",
+   "Galileo Galilei is astronomical observation",
+   "Galileo Galilei is psychophysiology",
+   "Galileo Galilei is culturology",
+   "Galileo Galilei is history of religions",
+   "Galileo Galilei is probability theory",
+   "Galileo Galilei is paleontology",
+   "Galileo Galilei is surgery",
+   "Galileo Galilei is group theory",
+   "Galileo Galilei is natural theology",
+   "Galileo Galilei is astrology",
+   "Galileo Galilei is quantum electrodynamics",
+   "Galileo Galilei is mechanics",
+   "Galileo Galilei is Lie algebra",
+   "Galileo Galilei is trigonometry",
+   "Galileo Galilei is literary activity",
+   "Galileo Galilei is nuclear physics",
+   "Galileo Galilei is translations from English",
+   "Galileo Galilei is medicine",
+   "Galileo Galilei is Jewish philosophy",
+   "Galileo Galilei is mathematical logic",
+   "Galileo Galilei is calculus of variations",
+   "Galileo Galilei is ferromagnetism",
+   "Galileo Galilei is analytic geometry",
+   "Galileo Galilei is art of painting",
+   "Galileo Galilei is functional analysis",
+   "Galileo Galilei is folklore",
+   "Galileo Galilei is study of history",
+   "Galileo Galilei is geometry",
+   "Galileo Galilei is positivism",
+   "Galileo Galilei is geodesy",
+   "Galileo Galilei is astronomy",
+   "Galileo Galilei is magnetic field",
+   "Galileo Galilei is kinetic theory",
+   "Galileo Galilei is celestial mechanics",
+   "Galileo Galilei is analytic philosophy",
+   "Galileo Galilei is ethnology",
+   "Galileo Galilei is history of economic thought"
+  ],
+  [
+   [
+    -34.575477600097656
+   ],
+   [
+    -38.65803146362305
+   ],
+   [
+    -49.865665435791016
+   ],
+   [
+    -37.5201530456543
+   ],
+   [
+    -34.59912872314453
+   ],
+   [
+    -37.889556884765625
+   ],
+   [
+    -36.40910339355469
+   ],
+   [
+    -37.67916488647461
+   ],
+   [
+    -35.525123596191406
+   ],
+   [
+    -39.28581619262695
+   ],
+   [
+    -35.20496368408203
+   ],
+   [
+    -33.436920166015625
+   ],
+   [
+    -43.88758850097656
+   ],
+   [
+    -36.153446197509766
+   ],
+   [
+    -37.05984878540039
+   ],
+   [
+    -39.87310028076172
+   ],
+   [
+    -55.02874755859375
+   ],
+   [
+    -39.72981262207031
+   ],
+   [
+    -36.866729736328125
+   ],
+   [
+    -37.81940460205078
+   ],
+   [
+    -39.82288360595703
+   ],
+   [
+    -41.944671630859375
+   ],
+   [
+    -47.03465270996094
+   ],
+   [
+    -38.464900970458984
+   ],
+   [
+    -39.03736877441406
+   ],
+   [
+    -34.29772186279297
+   ],
+   [
+    -33.63130569458008
+   ],
+   [
+    -45.09474182128906
+   ],
+   [
+    -38.65778350830078
+   ],
+   [
+    -39.32371520996094
+   ],
+   [
+    -38.690425872802734
+   ],
+   [
+    -53.90662384033203
+   ],
+   [
+    -39.34544372558594
+   ],
+   [
+    -39.291343688964844
+   ],
+   [
+    -36.32378387451172
+   ],
+   [
+    -39.98313903808594
+   ],
+   [
+    -35.90778350830078
+   ],
+   [
+    -44.194644927978516
+   ],
+   [
+    -40.72264862060547
+   ],
+   [
+    -38.326438903808594
+   ],
+   [
+    -34.295799255371094
+   ],
+   [
+    -36.40184783935547
+   ],
+   [
+    -40.933021545410156
+   ],
+   [
+    -32.751827239990234
+   ],
+   [
+    -41.022125244140625
+   ],
+   [
+    -36.37776184082031
+   ],
+   [
+    -48.21310806274414
+   ],
+   [
+    -36.44676208496094
+   ],
+   [
+    -35.390018463134766
+   ],
+   [
+    -34.8852424621582
+   ],
+   [
+    -36.436805725097656
+   ],
+   [
+    -44.86642837524414
+   ],
+   [
+    -37.65839767456055
+   ],
+   [
+    -40.32905578613281
+   ],
+   [
+    -37.457672119140625
+   ],
+   [
+    -40.825748443603516
+   ],
+   [
+    -36.807640075683594
+   ],
+   [
+    -42.88697814941406
+   ],
+   [
+    -39.39094543457031
+   ],
+   [
+    -35.5252685546875
+   ],
+   [
+    -41.82941818237305
+   ],
+   [
+    -38.43894958496094
+   ],
+   [
+    -37.80323791503906
+   ],
+   [
+    -48.27689743041992
+   ],
+   [
+    -39.617942810058594
+   ],
+   [
+    -35.306640625
+   ],
+   [
+    -49.60259246826172
+   ],
+   [
+    -36.83422088623047
+   ],
+   [
+    -47.32928466796875
+   ],
+   [
+    -42.53992462158203
+   ],
+   [
+    -38.14167022705078
+   ],
+   [
+    -38.70086669921875
+   ],
+   [
+    -36.731689453125
+   ],
+   [
+    -38.77947998046875
+   ],
+   [
+    -40.763389587402344
+   ],
+   [
+    -44.381195068359375
+   ],
+   [
+    -42.70252990722656
+   ],
+   [
+    -40.28166198730469
+   ],
+   [
+    -42.03484344482422
+   ],
+   [
+    -41.884368896484375
+   ],
+   [
+    -34.547607421875
+   ],
+   [
+    -40.23387908935547
+   ],
+   [
+    -43.33557891845703
+   ],
+   [
+    -40.981300354003906
+   ],
+   [
+    -37.19194793701172
+   ],
+   [
+    -37.651004791259766
+   ],
+   [
+    -39.07927703857422
+   ],
+   [
+    -46.034786224365234
+   ],
+   [
+    -34.711891174316406
+   ],
+   [
+    -37.09059143066406
+   ],
+   [
+    -43.771331787109375
+   ],
+   [
+    -37.19585418701172
+   ],
+   [
+    -45.35597229003906
+   ],
+   [
+    -46.872222900390625
+   ],
+   [
+    -38.74320983886719
+   ],
+   [
+    -39.836639404296875
+   ],
+   [
+    -41.33928680419922
+   ],
+   [
+    -52.83057403564453
+   ],
+   [
+    -39.03571701049805
+   ],
+   [
+    -38.62256622314453
+   ],
+   [
+    -36.67193603515625
+   ],
+   [
+    -42.245269775390625
+   ],
+   [
+    -37.80964660644531
+   ],
+   [
+    -37.13194274902344
+   ],
+   [
+    -36.40956115722656
+   ],
+   [
+    -35.321815490722656
+   ],
+   [
+    -41.495914459228516
+   ],
+   [
+    -34.669429779052734
+   ],
+   [
+    -44.03279113769531
+   ],
+   [
+    -34.925262451171875
+   ],
+   [
+    -36.5853157043457
+   ],
+   [
+    -48.104713439941406
+   ],
+   [
+    -29.7157039642334
+   ],
+   [
+    -37.8782844543457
+   ],
+   [
+    -35.551788330078125
+   ],
+   [
+    -37.108116149902344
+   ],
+   [
+    -38.84980010986328
+   ],
+   [
+    -42.450862884521484
+   ],
+   [
+    -33.698638916015625
+   ],
+   [
+    -37.704524993896484
+   ],
+   [
+    -36.00507354736328
+   ],
+   [
+    -35.66649627685547
+   ],
+   [
+    -39.849395751953125
+   ],
+   [
+    -48.93875503540039
+   ],
+   [
+    -46.90134048461914
+   ],
+   [
+    -41.458717346191406
+   ],
+   [
+    -36.986541748046875
+   ],
+   [
+    -31.719825744628906
+   ],
+   [
+    -34.977577209472656
+   ],
+   [
+    -38.418479919433594
+   ],
+   [
+    -37.882545471191406
+   ],
+   [
+    -39.283599853515625
+   ],
+   [
+    -35.56147766113281
+   ],
+   [
+    -34.35159683227539
+   ],
+   [
+    -35.67124938964844
+   ],
+   [
+    -37.250343322753906
+   ],
+   [
+    -36.45881652832031
+   ],
+   [
+    -38.00055694580078
+   ],
+   [
+    -35.775840759277344
+   ],
+   [
+    -36.909027099609375
+   ],
+   [
+    -36.58224105834961
+   ],
+   [
+    -35.161834716796875
+   ],
+   [
+    -39.42303466796875
+   ],
+   [
+    -39.38581848144531
+   ],
+   [
+    -45.503299713134766
+   ],
+   [
+    -38.92279815673828
+   ],
+   [
+    -32.65322494506836
+   ],
+   [
+    -35.40449523925781
+   ],
+   [
+    -38.950721740722656
+   ],
+   [
+    -42.71487808227539
+   ],
+   [
+    -34.821388244628906
+   ],
+   [
+    -55.17885208129883
+   ],
+   [
+    -37.60774230957031
+   ],
+   [
+    -40.983665466308594
+   ],
+   [
+    -43.223819732666016
+   ],
+   [
+    -51.1210823059082
+   ],
+   [
+    -40.108917236328125
+   ],
+   [
+    -51.1599235534668
+   ],
+   [
+    -42.56880569458008
+   ],
+   [
+    -37.935394287109375
+   ],
+   [
+    -39.86181640625
+   ],
+   [
+    -35.322731018066406
+   ],
+   [
+    -47.27809143066406
+   ],
+   [
+    -46.802894592285156
+   ],
+   [
+    -44.48646926879883
+   ],
+   [
+    -35.76222229003906
+   ],
+   [
+    -30.459800720214844
+   ],
+   [
+    -36.91770935058594
+   ],
+   [
+    -31.75084114074707
+   ],
+   [
+    -43.450050354003906
+   ],
+   [
+    -37.487030029296875
+   ],
+   [
+    -44.37577819824219
+   ],
+   [
+    -39.33788299560547
+   ],
+   [
+    -38.66780090332031
+   ],
+   [
+    -39.007835388183594
+   ],
+   [
+    -40.26224136352539
+   ],
+   [
+    -37.993343353271484
+   ],
+   [
+    -40.05277633666992
+   ],
+   [
+    -36.44867706298828
+   ],
+   [
+    -43.413082122802734
+   ],
+   [
+    -31.771499633789062
+   ],
+   [
+    -36.25605773925781
+   ],
+   [
+    -37.61425018310547
+   ],
+   [
+    -35.8975830078125
+   ],
+   [
+    -41.22295379638672
+   ],
+   [
+    -42.18614959716797
+   ],
+   [
+    -44.299476623535156
+   ],
+   [
+    -37.62907409667969
+   ],
+   [
+    -37.103492736816406
+   ],
+   [
+    -38.15910720825195
+   ],
+   [
+    -41.055213928222656
+   ],
+   [
+    -40.29115676879883
+   ],
+   [
+    -33.66423797607422
+   ],
+   [
+    -39.45524215698242
+   ],
+   [
+    -33.24427795410156
+   ],
+   [
+    -43.762046813964844
+   ],
+   [
+    -36.61913299560547
+   ],
+   [
+    -44.7550048828125
+   ],
+   [
+    -36.846961975097656
+   ],
+   [
+    -46.18840026855469
+   ],
+   [
+    -34.096839904785156
+   ],
+   [
+    -41.362892150878906
+   ],
+   [
+    -37.953041076660156
+   ],
+   [
+    -40.549259185791016
+   ],
+   [
+    -42.101165771484375
+   ],
+   [
+    -36.87105178833008
+   ],
+   [
+    -44.07048034667969
+   ],
+   [
+    -41.32952117919922
+   ],
+   [
+    -38.71245193481445
+   ],
+   [
+    -47.25364685058594
+   ],
+   [
+    -32.84135055541992
+   ],
+   [
+    -39.79993438720703
+   ],
+   [
+    -33.91710662841797
+   ],
+   [
+    -29.791866302490234
+   ],
+   [
+    -38.44267654418945
+   ],
+   [
+    -38.02642059326172
+   ],
+   [
+    -33.46100997924805
+   ],
+   [
+    -38.61024475097656
+   ],
+   [
+    -38.87497329711914
+   ],
+   [
+    -47.36224365234375
+   ],
+   [
+    -23.793899536132812
+   ],
+   [
+    -28.087329864501953
+   ],
+   [
+    -35.327964782714844
+   ],
+   [
+    -26.144315719604492
+   ],
+   [
+    -22.50275421142578
+   ],
+   [
+    -23.4654541015625
+   ],
+   [
+    -25.3267822265625
+   ],
+   [
+    -25.91781234741211
+   ],
+   [
+    -22.890552520751953
+   ],
+   [
+    -28.917686462402344
+   ],
+   [
+    -26.647197723388672
+   ],
+   [
+    -23.056262969970703
+   ],
+   [
+    -32.486083984375
+   ],
+   [
+    -28.28048324584961
+   ],
+   [
+    -29.469104766845703
+   ],
+   [
+    -28.90682601928711
+   ],
+   [
+    -40.52153778076172
+   ],
+   [
+    -27.84699058532715
+   ],
+   [
+    -25.79571533203125
+   ],
+   [
+    -25.63878631591797
+   ],
+   [
+    -28.94501304626465
+   ],
+   [
+    -30.837799072265625
+   ],
+   [
+    -32.500083923339844
+   ],
+   [
+    -20.202438354492188
+   ],
+   [
+    -21.746795654296875
+   ],
+   [
+    -23.394577026367188
+   ],
+   [
+    -24.419851303100586
+   ],
+   [
+    -33.80113220214844
+   ],
+   [
+    -28.803098678588867
+   ],
+   [
+    -24.075881958007812
+   ],
+   [
+    -24.95360565185547
+   ],
+   [
+    -38.47621154785156
+   ],
+   [
+    -28.041908264160156
+   ],
+   [
+    -27.166461944580078
+   ],
+   [
+    -26.3042049407959
+   ],
+   [
+    -22.75969696044922
+   ],
+   [
+    -23.02989959716797
+   ],
+   [
+    -32.31519317626953
+   ],
+   [
+    -22.85329818725586
+   ],
+   [
+    -27.991804122924805
+   ],
+   [
+    -22.562496185302734
+   ],
+   [
+    -24.91313362121582
+   ],
+   [
+    -29.573013305664062
+   ],
+   [
+    -18.14078140258789
+   ],
+   [
+    -30.39418601989746
+   ],
+   [
+    -24.378829956054688
+   ],
+   [
+    -30.654020309448242
+   ],
+   [
+    -23.603050231933594
+   ],
+   [
+    -25.067169189453125
+   ],
+   [
+    -25.800823211669922
+   ],
+   [
+    -24.128517150878906
+   ],
+   [
+    -28.536474227905273
+   ],
+   [
+    -25.245296478271484
+   ],
+   [
+    -24.621028900146484
+   ],
+   [
+    -26.534666061401367
+   ],
+   [
+    -27.6901912689209
+   ],
+   [
+    -24.73336410522461
+   ],
+   [
+    -29.82162094116211
+   ],
+   [
+    -30.307653427124023
+   ],
+   [
+    -21.8531494140625
+   ],
+   [
+    -26.928483963012695
+   ],
+   [
+    -20.165821075439453
+   ],
+   [
+    -26.779346466064453
+   ],
+   [
+    -34.1519775390625
+   ],
+   [
+    -24.94184112548828
+   ],
+   [
+    -29.15660858154297
+   ],
+   [
+    -39.3164176940918
+   ],
+   [
+    -19.89598846435547
+   ],
+   [
+    -35.66271209716797
+   ],
+   [
+    -24.29595184326172
+   ],
+   [
+    -25.244525909423828
+   ],
+   [
+    -30.66070556640625
+   ],
+   [
+    -21.601154327392578
+   ],
+   [
+    -22.050140380859375
+   ],
+   [
+    -27.169973373413086
+   ],
+   [
+    -27.747825622558594
+   ],
+   [
+    -29.053232192993164
+   ],
+   [
+    -27.986358642578125
+   ],
+   [
+    -32.32805252075195
+   ],
+   [
+    -27.214155197143555
+   ],
+   [
+    -24.475265502929688
+   ],
+   [
+    -26.92167091369629
+   ],
+   [
+    -24.273578643798828
+   ],
+   [
+    -22.623523712158203
+   ],
+   [
+    -24.244625091552734
+   ],
+   [
+    -25.473812103271484
+   ],
+   [
+    -29.76960563659668
+   ],
+   [
+    -32.32331085205078
+   ],
+   [
+    -24.482158660888672
+   ],
+   [
+    -25.014720916748047
+   ],
+   [
+    -26.921283721923828
+   ],
+   [
+    -27.715980529785156
+   ],
+   [
+    -32.05915451049805
+   ],
+   [
+    -32.70928192138672
+   ],
+   [
+    -20.535213470458984
+   ],
+   [
+    -24.744434356689453
+   ],
+   [
+    -24.773513793945312
+   ],
+   [
+    -38.677940368652344
+   ],
+   [
+    -29.908679962158203
+   ],
+   [
+    -28.58759307861328
+   ],
+   [
+    -21.168338775634766
+   ],
+   [
+    -30.970142364501953
+   ],
+   [
+    -27.791343688964844
+   ],
+   [
+    -23.738834381103516
+   ],
+   [
+    -20.326419830322266
+   ],
+   [
+    -23.703506469726562
+   ],
+   [
+    -29.414554595947266
+   ],
+   [
+    -22.563194274902344
+   ],
+   [
+    -30.330114364624023
+   ],
+   [
+    -25.896751403808594
+   ],
+   [
+    -26.415800094604492
+   ],
+   [
+    -35.395851135253906
+   ],
+   [
+    -19.85995864868164
+   ],
+   [
+    -26.262449264526367
+   ],
+   [
+    -24.002269744873047
+   ],
+   [
+    -24.48333740234375
+   ],
+   [
+    -29.436267852783203
+   ],
+   [
+    -29.0650634765625
+   ],
+   [
+    -24.72414779663086
+   ],
+   [
+    -25.332157135009766
+   ],
+   [
+    -24.185325622558594
+   ],
+   [
+    -21.473941802978516
+   ],
+   [
+    -26.903059005737305
+   ],
+   [
+    -35.39807891845703
+   ],
+   [
+    -34.279781341552734
+   ],
+   [
+    -31.399660110473633
+   ],
+   [
+    -25.223709106445312
+   ],
+   [
+    -21.489620208740234
+   ],
+   [
+    -24.503738403320312
+   ],
+   [
+    -23.962249755859375
+   ],
+   [
+    -23.910564422607422
+   ],
+   [
+    -21.864913940429688
+   ],
+   [
+    -24.404541015625
+   ],
+   [
+    -26.21563720703125
+   ],
+   [
+    -27.723926544189453
+   ],
+   [
+    -19.738296508789062
+   ],
+   [
+    -25.191905975341797
+   ],
+   [
+    -21.46011734008789
+   ],
+   [
+    -26.47607421875
+   ],
+   [
+    -27.705615997314453
+   ],
+   [
+    -27.098491668701172
+   ],
+   [
+    -24.167768478393555
+   ],
+   [
+    -27.529476165771484
+   ],
+   [
+    -27.279247283935547
+   ],
+   [
+    -29.250078201293945
+   ],
+   [
+    -28.449893951416016
+   ],
+   [
+    -24.673599243164062
+   ],
+   [
+    -25.029460906982422
+   ],
+   [
+    -26.98920249938965
+   ],
+   [
+    -32.69330596923828
+   ],
+   [
+    -22.510650634765625
+   ],
+   [
+    -39.46108627319336
+   ],
+   [
+    -23.909114837646484
+   ],
+   [
+    -31.452991485595703
+   ],
+   [
+    -29.735780715942383
+   ],
+   [
+    -40.78548049926758
+   ],
+   [
+    -30.33763885498047
+   ],
+   [
+    -37.43098449707031
+   ],
+   [
+    -30.950218200683594
+   ],
+   [
+    -21.707881927490234
+   ],
+   [
+    -33.21432876586914
+   ],
+   [
+    -23.996055603027344
+   ],
+   [
+    -36.37519454956055
+   ],
+   [
+    -31.936084747314453
+   ],
+   [
+    -32.93950271606445
+   ],
+   [
+    -21.293689727783203
+   ],
+   [
+    -21.623371124267578
+   ],
+   [
+    -24.261842727661133
+   ],
+   [
+    -21.490718841552734
+   ],
+   [
+    -30.99688720703125
+   ],
+   [
+    -26.593246459960938
+   ],
+   [
+    -30.93326187133789
+   ],
+   [
+    -28.412796020507812
+   ],
+   [
+    -24.277467727661133
+   ],
+   [
+    -25.172283172607422
+   ],
+   [
+    -28.010713577270508
+   ],
+   [
+    -20.352848052978516
+   ],
+   [
+    -29.84865379333496
+   ],
+   [
+    -27.41442108154297
+   ],
+   [
+    -30.661304473876953
+   ],
+   [
+    -25.23232650756836
+   ],
+   [
+    -25.220172882080078
+   ],
+   [
+    -25.670372009277344
+   ],
+   [
+    -28.201595306396484
+   ],
+   [
+    -34.13505554199219
+   ],
+   [
+    -32.13791275024414
+   ],
+   [
+    -33.51063537597656
+   ],
+   [
+    -26.473140716552734
+   ],
+   [
+    -24.685338973999023
+   ],
+   [
+    -24.59152603149414
+   ],
+   [
+    -26.86159324645996
+   ],
+   [
+    -29.329980850219727
+   ],
+   [
+    -22.231426239013672
+   ],
+   [
+    -28.718643188476562
+   ],
+   [
+    -26.402328491210938
+   ],
+   [
+    -29.244701385498047
+   ],
+   [
+    -26.1992244720459
+   ],
+   [
+    -30.551895141601562
+   ],
+   [
+    -25.268465042114258
+   ],
+   [
+    -32.43436813354492
+   ],
+   [
+    -21.629928588867188
+   ],
+   [
+    -28.974010467529297
+   ],
+   [
+    -28.08460807800293
+   ],
+   [
+    -30.733421325683594
+   ],
+   [
+    -30.58456039428711
+   ],
+   [
+    -26.029850006103516
+   ],
+   [
+    -30.968374252319336
+   ],
+   [
+    -30.663454055786133
+   ],
+   [
+    -21.865257263183594
+   ],
+   [
+    -29.376970291137695
+   ],
+   [
+    -24.441577911376953
+   ],
+   [
+    -25.288776397705078
+   ],
+   [
+    -26.76746940612793
+   ],
+   [
+    -20.230953216552734
+   ],
+   [
+    -28.251705169677734
+   ],
+   [
+    -25.758155822753906
+   ],
+   [
+    -25.39099884033203
+   ],
+   [
+    -26.39751625061035
+   ],
+   [
+    -27.871782302856445
+   ],
+   [
+    -36.09919357299805
+   ]
+  ]
+ ],
+ "time": 4608.479456186295
+}

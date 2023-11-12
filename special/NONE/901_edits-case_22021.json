@@ -1,0 +1,2076 @@
+{
+ "case_id": 22021,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Mstislav Keldysh"
+ },
+ "pre": [
+  [
+   "Mstislav Keldysh's field of work is meteorology",
+   "Mstislav Keldysh's field of work is radioactivity",
+   "Mstislav Keldysh's field of work is complex function",
+   "Mstislav Keldysh's field of work is histology",
+   "Mstislav Keldysh's field of work is algebra",
+   "Mstislav Keldysh's field of work is electron",
+   "Mstislav Keldysh's field of work is quantum theory",
+   "Mstislav Keldysh's field of work is applied mathematics",
+   "Mstislav Keldysh's field of work is electricity",
+   "Mstislav Keldysh's field of work is human geography",
+   "Mstislav Keldysh's field of work is crystallography",
+   "Mstislav Keldysh's field of work is chemistry",
+   "Mstislav Keldysh's field of work is Jewish studies",
+   "Mstislav Keldysh's field of work is topology",
+   "Mstislav Keldysh's field of work is mathematical analysis",
+   "Mstislav Keldysh's field of work is computational geometry",
+   "Mstislav Keldysh's field of work is Petrine ministry",
+   "Mstislav Keldysh's field of work is social psychology",
+   "Mstislav Keldysh's field of work is genetics",
+   "Mstislav Keldysh's field of work is informatics",
+   "Mstislav Keldysh's field of work is shipbuilding",
+   "Mstislav Keldysh's field of work is historical sociology",
+   "Mstislav Keldysh's field of work is quantum mysticism",
+   "Mstislav Keldysh's field of work is philosopher",
+   "Mstislav Keldysh's field of work is Internet",
+   "Mstislav Keldysh's field of work is gravity",
+   "Mstislav Keldysh's field of work is theoretical physics",
+   "Mstislav Keldysh's field of work is African studies",
+   "Mstislav Keldysh's field of work is projective geometry",
+   "Mstislav Keldysh's field of work is prose",
+   "Mstislav Keldysh's field of work is momentum",
+   "Mstislav Keldysh's field of work is Cairo Geniza",
+   "Mstislav Keldysh's field of work is stochastic",
+   "Mstislav Keldysh's field of work is algebraic topology",
+   "Mstislav Keldysh's field of work is electrical engineering",
+   "Mstislav Keldysh's field of work is hunting",
+   "Mstislav Keldysh's field of work is evolution",
+   "Mstislav Keldysh's field of work is economic anthropology",
+   "Mstislav Keldysh's field of work is Hebrew",
+   "Mstislav Keldysh's field of work is differential geometry",
+   "Mstislav Keldysh's field of work is engineering",
+   "Mstislav Keldysh's field of work is history of science",
+   "Mstislav Keldysh's field of work is social anthropology",
+   "Mstislav Keldysh's field of work is history",
+   "Mstislav Keldysh's field of work is distribution theory",
+   "Mstislav Keldysh's field of work is classics",
+   "Mstislav Keldysh's field of work is crime novel",
+   "Mstislav Keldysh's field of work is statistics",
+   "Mstislav Keldysh's field of work is experimental physics",
+   "Mstislav Keldysh's field of work is geography",
+   "Mstislav Keldysh's field of work is anthropology",
+   "Mstislav Keldysh's field of work is partial differential equation",
+   "Mstislav Keldysh's field of work is applied physics",
+   "Mstislav Keldysh's field of work is Sanskrit",
+   "Mstislav Keldysh's field of work is a branch of physics",
+   "Mstislav Keldysh's field of work is comparative mythology",
+   "Mstislav Keldysh's field of work is radiation",
+   "Mstislav Keldysh's field of work is aeromechanics",
+   "Mstislav Keldysh's field of work is harmonic analysis",
+   "Mstislav Keldysh's field of work is religion",
+   "Mstislav Keldysh's field of work is civil rights",
+   "Mstislav Keldysh's field of work is physicist",
+   "Mstislav Keldysh's field of work is distribution",
+   "Mstislav Keldysh's field of work is translations from Spanish",
+   "Mstislav Keldysh's field of work is feminism",
+   "Mstislav Keldysh's field of work is number theory",
+   "Mstislav Keldysh's field of work is sociology of organisations",
+   "Mstislav Keldysh's field of work is astronomer",
+   "Mstislav Keldysh's field of work is children's and youth literature",
+   "Mstislav Keldysh's field of work is fairy tale",
+   "Mstislav Keldysh's field of work is economy",
+   "Mstislav Keldysh's field of work is graph theory",
+   "Mstislav Keldysh's field of work is magic",
+   "Mstislav Keldysh's field of work is essay",
+   "Mstislav Keldysh's field of work is theory of relativity",
+   "Mstislav Keldysh's field of work is historical novel",
+   "Mstislav Keldysh's field of work is biological anthropology",
+   "Mstislav Keldysh's field of work is literary theory",
+   "Mstislav Keldysh's field of work is Greek philology",
+   "Mstislav Keldysh's field of work is lyric poetry",
+   "Mstislav Keldysh's field of work is psychology",
+   "Mstislav Keldysh's field of work is quaternion",
+   "Mstislav Keldysh's field of work is rite",
+   "Mstislav Keldysh's field of work is jazz",
+   "Mstislav Keldysh's field of work is heat",
+   "Mstislav Keldysh's field of work is embryology",
+   "Mstislav Keldysh's field of work is social philosophy",
+   "Mstislav Keldysh's field of work is dance choreography",
+   "Mstislav Keldysh's field of work is politics",
+   "Mstislav Keldysh's field of work is nanotechnology",
+   "Mstislav Keldysh's field of work is Afghanistan",
+   "Mstislav Keldysh's field of work is non-Euclidean geometry",
+   "Mstislav Keldysh's field of work is Franciscan spirituality",
+   "Mstislav Keldysh's field of work is detective literature",
+   "Mstislav Keldysh's field of work is mathematician",
+   "Mstislav Keldysh's field of work is String",
+   "Mstislav Keldysh's field of work is classical music",
+   "Mstislav Keldysh's field of work is translations from Occitan",
+   "Mstislav Keldysh's field of work is abstract algebra",
+   "Mstislav Keldysh's field of work is differential calculus",
+   "Mstislav Keldysh's field of work is mythology",
+   "Mstislav Keldysh's field of work is literary translation",
+   "Mstislav Keldysh's field of work is ballistics",
+   "Mstislav Keldysh's field of work is cryptography",
+   "Mstislav Keldysh's field of work is Greek",
+   "Mstislav Keldysh's field of work is logic",
+   "Mstislav Keldysh's field of work is choreography",
+   "Mstislav Keldysh's field of work is theology",
+   "Mstislav Keldysh's field of work is world economy",
+   "Mstislav Keldysh's field of work is magnetism",
+   "Mstislav Keldysh's field of work is algebraic geometry",
+   "Mstislav Keldysh's field of work is theory of differential equations",
+   "Mstislav Keldysh's field of work is physics",
+   "Mstislav Keldysh's field of work is music theory",
+   "Mstislav Keldysh's field of work is economics",
+   "Mstislav Keldysh's field of work is anatomy",
+   "Mstislav Keldysh's field of work is electromagnetic field",
+   "Mstislav Keldysh's field of work is analytic number theory",
+   "Mstislav Keldysh's field of work is mathematical physics",
+   "Mstislav Keldysh's field of work is journalism",
+   "Mstislav Keldysh's field of work is sociology",
+   "Mstislav Keldysh's field of work is literature",
+   "Mstislav Keldysh's field of work is ethnography",
+   "Mstislav Keldysh's field of work is belletristic literature",
+   "Mstislav Keldysh's field of work is convex function",
+   "Mstislav Keldysh's field of work is sociology of religion",
+   "Mstislav Keldysh's field of work is pedagogy",
+   "Mstislav Keldysh's field of work is philosophy",
+   "Mstislav Keldysh's field of work is quantum mechanics",
+   "Mstislav Keldysh's field of work is drama",
+   "Mstislav Keldysh's field of work is dance",
+   "Mstislav Keldysh's field of work is Judaism",
+   "Mstislav Keldysh's field of work is quantum physics",
+   "Mstislav Keldysh's field of work is philosophy of science",
+   "Mstislav Keldysh's field of work is linguistics",
+   "Mstislav Keldysh's field of work is myth",
+   "Mstislav Keldysh's field of work is physiology",
+   "Mstislav Keldysh's field of work is English",
+   "Mstislav Keldysh's field of work is philology",
+   "Mstislav Keldysh's field of work is political philosophy",
+   "Mstislav Keldysh's field of work is mechanical engineering",
+   "Mstislav Keldysh's field of work is ontology",
+   "Mstislav Keldysh's field of work is forestry",
+   "Mstislav Keldysh's field of work is aerodynamics",
+   "Mstislav Keldysh's field of work is Christian Church",
+   "Mstislav Keldysh's field of work is magnetic resonance",
+   "Mstislav Keldysh's field of work is astrophysics",
+   "Mstislav Keldysh's field of work is natural science",
+   "Mstislav Keldysh's field of work is constitutional law",
+   "Mstislav Keldysh's field of work is philosophy of law",
+   "Mstislav Keldysh's field of work is education",
+   "Mstislav Keldysh's field of work is Monte Carlo method",
+   "Mstislav Keldysh's field of work is neurology",
+   "Mstislav Keldysh's field of work is electric field",
+   "Mstislav Keldysh's field of work is Minkowski spacetime",
+   "Mstislav Keldysh's field of work is translations from Arabic language",
+   "Mstislav Keldysh's field of work is Bayesian inference",
+   "Mstislav Keldysh's field of work is translations from Polish",
+   "Mstislav Keldysh's field of work is color photography",
+   "Mstislav Keldysh's field of work is opera",
+   "Mstislav Keldysh's field of work is model theory",
+   "Mstislav Keldysh's field of work is cartography",
+   "Mstislav Keldysh's field of work is nonstandard analysis",
+   "Mstislav Keldysh's field of work is television program",
+   "Mstislav Keldysh's field of work is complex manifold",
+   "Mstislav Keldysh's field of work is poetry",
+   "Mstislav Keldysh's field of work is mathematics",
+   "Mstislav Keldysh's field of work is computer science",
+   "Mstislav Keldysh's field of work is cosmology",
+   "Mstislav Keldysh's field of work is silviculture",
+   "Mstislav Keldysh's field of work is hydrodynamics",
+   "Mstislav Keldysh's field of work is forestry science",
+   "Mstislav Keldysh's field of work is comparative religion",
+   "Mstislav Keldysh's field of work is information technology",
+   "Mstislav Keldysh's field of work is ballet",
+   "Mstislav Keldysh's field of work is English literature",
+   "Mstislav Keldysh's field of work is conducting",
+   "Mstislav Keldysh's field of work is hyperbolic geometry",
+   "Mstislav Keldysh's field of work is biochemistry",
+   "Mstislav Keldysh's field of work is religion and society",
+   "Mstislav Keldysh's field of work is optics",
+   "Mstislav Keldysh's field of work is ethics",
+   "Mstislav Keldysh's field of work is cybernetics",
+   "Mstislav Keldysh's field of work is astronomical observation",
+   "Mstislav Keldysh's field of work is psychophysiology",
+   "Mstislav Keldysh's field of work is culturology",
+   "Mstislav Keldysh's field of work is history of religions",
+   "Mstislav Keldysh's field of work is probability theory",
+   "Mstislav Keldysh's field of work is paleontology",
+   "Mstislav Keldysh's field of work is surgery",
+   "Mstislav Keldysh's field of work is group theory",
+   "Mstislav Keldysh's field of work is natural theology",
+   "Mstislav Keldysh's field of work is astrology",
+   "Mstislav Keldysh's field of work is quantum electrodynamics",
+   "Mstislav Keldysh's field of work is mechanics",
+   "Mstislav Keldysh's field of work is Lie algebra",
+   "Mstislav Keldysh's field of work is trigonometry",
+   "Mstislav Keldysh's field of work is literary activity",
+   "Mstislav Keldysh's field of work is nuclear physics",
+   "Mstislav Keldysh's field of work is translations from English",
+   "Mstislav Keldysh's field of work is medicine",
+   "Mstislav Keldysh's field of work is Jewish philosophy",
+   "Mstislav Keldysh's field of work is mathematical logic",
+   "Mstislav Keldysh's field of work is calculus of variations",
+   "Mstislav Keldysh's field of work is ferromagnetism",
+   "Mstislav Keldysh's field of work is analytic geometry",
+   "Mstislav Keldysh's field of work is art of painting",
+   "Mstislav Keldysh's field of work is functional analysis",
+   "Mstislav Keldysh's field of work is folklore",
+   "Mstislav Keldysh's field of work is study of history",
+   "Mstislav Keldysh's field of work is geometry",
+   "Mstislav Keldysh's field of work is positivism",
+   "Mstislav Keldysh's field of work is geodesy",
+   "Mstislav Keldysh's field of work is astronomy",
+   "Mstislav Keldysh's field of work is magnetic field",
+   "Mstislav Keldysh's field of work is kinetic theory",
+   "Mstislav Keldysh's field of work is celestial mechanics",
+   "Mstislav Keldysh's field of work is analytic philosophy",
+   "Mstislav Keldysh's field of work is ethnology",
+   "Mstislav Keldysh's field of work is history of economic thought",
+   "Mstislav Keldysh is meteorology",
+   "Mstislav Keldysh is radioactivity",
+   "Mstislav Keldysh is complex function",
+   "Mstislav Keldysh is histology",
+   "Mstislav Keldysh is algebra",
+   "Mstislav Keldysh is electron",
+   "Mstislav Keldysh is quantum theory",
+   "Mstislav Keldysh is applied mathematics",
+   "Mstislav Keldysh is electricity",
+   "Mstislav Keldysh is human geography",
+   "Mstislav Keldysh is crystallography",
+   "Mstislav Keldysh is chemistry",
+   "Mstislav Keldysh is Jewish studies",
+   "Mstislav Keldysh is topology",
+   "Mstislav Keldysh is mathematical analysis",
+   "Mstislav Keldysh is computational geometry",
+   "Mstislav Keldysh is Petrine ministry",
+   "Mstislav Keldysh is social psychology",
+   "Mstislav Keldysh is genetics",
+   "Mstislav Keldysh is informatics",
+   "Mstislav Keldysh is shipbuilding",
+   "Mstislav Keldysh is historical sociology",
+   "Mstislav Keldysh is quantum mysticism",
+   "Mstislav Keldysh is philosopher",
+   "Mstislav Keldysh is Internet",
+   "Mstislav Keldysh is gravity",
+   "Mstislav Keldysh is theoretical physics",
+   "Mstislav Keldysh is African studies",
+   "Mstislav Keldysh is projective geometry",
+   "Mstislav Keldysh is prose",
+   "Mstislav Keldysh is momentum",
+   "Mstislav Keldysh is Cairo Geniza",
+   "Mstislav Keldysh is stochastic",
+   "Mstislav Keldysh is algebraic topology",
+   "Mstislav Keldysh is electrical engineering",
+   "Mstislav Keldysh is hunting",
+   "Mstislav Keldysh is evolution",
+   "Mstislav Keldysh is economic anthropology",
+   "Mstislav Keldysh is Hebrew",
+   "Mstislav Keldysh is differential geometry",
+   "Mstislav Keldysh is engineering",
+   "Mstislav Keldysh is history of science",
+   "Mstislav Keldysh is social anthropology",
+   "Mstislav Keldysh is history",
+   "Mstislav Keldysh is distribution theory",
+   "Mstislav Keldysh is classics",
+   "Mstislav Keldysh is crime novel",
+   "Mstislav Keldysh is statistics",
+   "Mstislav Keldysh is experimental physics",
+   "Mstislav Keldysh is geography",
+   "Mstislav Keldysh is anthropology",
+   "Mstislav Keldysh is partial differential equation",
+   "Mstislav Keldysh is applied physics",
+   "Mstislav Keldysh is Sanskrit",
+   "Mstislav Keldysh is a branch of physics",
+   "Mstislav Keldysh is comparative mythology",
+   "Mstislav Keldysh is radiation",
+   "Mstislav Keldysh is aeromechanics",
+   "Mstislav Keldysh is harmonic analysis",
+   "Mstislav Keldysh is religion",
+   "Mstislav Keldysh is civil rights",
+   "Mstislav Keldysh is physicist",
+   "Mstislav Keldysh is distribution",
+   "Mstislav Keldysh is translations from Spanish",
+   "Mstislav Keldysh is feminism",
+   "Mstislav Keldysh is number theory",
+   "Mstislav Keldysh is sociology of organisations",
+   "Mstislav Keldysh is astronomer",
+   "Mstislav Keldysh is children's and youth literature",
+   "Mstislav Keldysh is fairy tale",
+   "Mstislav Keldysh is economy",
+   "Mstislav Keldysh is graph theory",
+   "Mstislav Keldysh is magic",
+   "Mstislav Keldysh is essay",
+   "Mstislav Keldysh is theory of relativity",
+   "Mstislav Keldysh is historical novel",
+   "Mstislav Keldysh is biological anthropology",
+   "Mstislav Keldysh is literary theory",
+   "Mstislav Keldysh is Greek philology",
+   "Mstislav Keldysh is lyric poetry",
+   "Mstislav Keldysh is psychology",
+   "Mstislav Keldysh is quaternion",
+   "Mstislav Keldysh is rite",
+   "Mstislav Keldysh is jazz",
+   "Mstislav Keldysh is heat",
+   "Mstislav Keldysh is embryology",
+   "Mstislav Keldysh is social philosophy",
+   "Mstislav Keldysh is dance choreography",
+   "Mstislav Keldysh is politics",
+   "Mstislav Keldysh is nanotechnology",
+   "Mstislav Keldysh is Afghanistan",
+   "Mstislav Keldysh is non-Euclidean geometry",
+   "Mstislav Keldysh is Franciscan spirituality",
+   "Mstislav Keldysh is detective literature",
+   "Mstislav Keldysh is mathematician",
+   "Mstislav Keldysh is String",
+   "Mstislav Keldysh is classical music",
+   "Mstislav Keldysh is translations from Occitan",
+   "Mstislav Keldysh is abstract algebra",
+   "Mstislav Keldysh is differential calculus",
+   "Mstislav Keldysh is mythology",
+   "Mstislav Keldysh is literary translation",
+   "Mstislav Keldysh is ballistics",
+   "Mstislav Keldysh is cryptography",
+   "Mstislav Keldysh is Greek",
+   "Mstislav Keldysh is logic",
+   "Mstislav Keldysh is choreography",
+   "Mstislav Keldysh is theology",
+   "Mstislav Keldysh is world economy",
+   "Mstislav Keldysh is magnetism",
+   "Mstislav Keldysh is algebraic geometry",
+   "Mstislav Keldysh is theory of differential equations",
+   "Mstislav Keldysh is physics",
+   "Mstislav Keldysh is music theory",
+   "Mstislav Keldysh is economics",
+   "Mstislav Keldysh is anatomy",
+   "Mstislav Keldysh is electromagnetic field",
+   "Mstislav Keldysh is analytic number theory",
+   "Mstislav Keldysh is mathematical physics",
+   "Mstislav Keldysh is journalism",
+   "Mstislav Keldysh is sociology",
+   "Mstislav Keldysh is literature",
+   "Mstislav Keldysh is ethnography",
+   "Mstislav Keldysh is belletristic literature",
+   "Mstislav Keldysh is convex function",
+   "Mstislav Keldysh is sociology of religion",
+   "Mstislav Keldysh is pedagogy",
+   "Mstislav Keldysh is philosophy",
+   "Mstislav Keldysh is quantum mechanics",
+   "Mstislav Keldysh is drama",
+   "Mstislav Keldysh is dance",
+   "Mstislav Keldysh is Judaism",
+   "Mstislav Keldysh is quantum physics",
+   "Mstislav Keldysh is philosophy of science",
+   "Mstislav Keldysh is linguistics",
+   "Mstislav Keldysh is myth",
+   "Mstislav Keldysh is physiology",
+   "Mstislav Keldysh is English",
+   "Mstislav Keldysh is philology",
+   "Mstislav Keldysh is political philosophy",
+   "Mstislav Keldysh is mechanical engineering",
+   "Mstislav Keldysh is ontology",
+   "Mstislav Keldysh is forestry",
+   "Mstislav Keldysh is aerodynamics",
+   "Mstislav Keldysh is Christian Church",
+   "Mstislav Keldysh is magnetic resonance",
+   "Mstislav Keldysh is astrophysics",
+   "Mstislav Keldysh is natural science",
+   "Mstislav Keldysh is constitutional law",
+   "Mstislav Keldysh is philosophy of law",
+   "Mstislav Keldysh is education",
+   "Mstislav Keldysh is Monte Carlo method",
+   "Mstislav Keldysh is neurology",
+   "Mstislav Keldysh is electric field",
+   "Mstislav Keldysh is Minkowski spacetime",
+   "Mstislav Keldysh is translations from Arabic language",
+   "Mstislav Keldysh is Bayesian inference",
+   "Mstislav Keldysh is translations from Polish",
+   "Mstislav Keldysh is color photography",
+   "Mstislav Keldysh is opera",
+   "Mstislav Keldysh is model theory",
+   "Mstislav Keldysh is cartography",
+   "Mstislav Keldysh is nonstandard analysis",
+   "Mstislav Keldysh is television program",
+   "Mstislav Keldysh is complex manifold",
+   "Mstislav Keldysh is poetry",
+   "Mstislav Keldysh is mathematics",
+   "Mstislav Keldysh is computer science",
+   "Mstislav Keldysh is cosmology",
+   "Mstislav Keldysh is silviculture",
+   "Mstislav Keldysh is hydrodynamics",
+   "Mstislav Keldysh is forestry science",
+   "Mstislav Keldysh is comparative religion",
+   "Mstislav Keldysh is information technology",
+   "Mstislav Keldysh is ballet",
+   "Mstislav Keldysh is English literature",
+   "Mstislav Keldysh is conducting",
+   "Mstislav Keldysh is hyperbolic geometry",
+   "Mstislav Keldysh is biochemistry",
+   "Mstislav Keldysh is religion and society",
+   "Mstislav Keldysh is optics",
+   "Mstislav Keldysh is ethics",
+   "Mstislav Keldysh is cybernetics",
+   "Mstislav Keldysh is astronomical observation",
+   "Mstislav Keldysh is psychophysiology",
+   "Mstislav Keldysh is culturology",
+   "Mstislav Keldysh is history of religions",
+   "Mstislav Keldysh is probability theory",
+   "Mstislav Keldysh is paleontology",
+   "Mstislav Keldysh is surgery",
+   "Mstislav Keldysh is group theory",
+   "Mstislav Keldysh is natural theology",
+   "Mstislav Keldysh is astrology",
+   "Mstislav Keldysh is quantum electrodynamics",
+   "Mstislav Keldysh is mechanics",
+   "Mstislav Keldysh is Lie algebra",
+   "Mstislav Keldysh is trigonometry",
+   "Mstislav Keldysh is literary activity",
+   "Mstislav Keldysh is nuclear physics",
+   "Mstislav Keldysh is translations from English",
+   "Mstislav Keldysh is medicine",
+   "Mstislav Keldysh is Jewish philosophy",
+   "Mstislav Keldysh is mathematical logic",
+   "Mstislav Keldysh is calculus of variations",
+   "Mstislav Keldysh is ferromagnetism",
+   "Mstislav Keldysh is analytic geometry",
+   "Mstislav Keldysh is art of painting",
+   "Mstislav Keldysh is functional analysis",
+   "Mstislav Keldysh is folklore",
+   "Mstislav Keldysh is study of history",
+   "Mstislav Keldysh is geometry",
+   "Mstislav Keldysh is positivism",
+   "Mstislav Keldysh is geodesy",
+   "Mstislav Keldysh is astronomy",
+   "Mstislav Keldysh is magnetic field",
+   "Mstislav Keldysh is kinetic theory",
+   "Mstislav Keldysh is celestial mechanics",
+   "Mstislav Keldysh is analytic philosophy",
+   "Mstislav Keldysh is ethnology",
+   "Mstislav Keldysh is history of economic thought"
+  ],
+  [
+   [
+    -53.01007080078125
+   ],
+   [
+    -53.96124267578125
+   ],
+   [
+    -58.28901672363281
+   ],
+   [
+    -54.04971694946289
+   ],
+   [
+    -51.147132873535156
+   ],
+   [
+    -50.58380126953125
+   ],
+   [
+    -51.01697540283203
+   ],
+   [
+    -49.70838928222656
+   ],
+   [
+    -52.2193603515625
+   ],
+   [
+    -55.20205307006836
+   ],
+   [
+    -52.875640869140625
+   ],
+   [
+    -50.731536865234375
+   ],
+   [
+    -55.442138671875
+   ],
+   [
+    -50.7706413269043
+   ],
+   [
+    -51.30767822265625
+   ],
+   [
+    -53.546592712402344
+   ],
+   [
+    -67.56239318847656
+   ],
+   [
+    -51.50539779663086
+   ],
+   [
+    -51.18253707885742
+   ],
+   [
+    -52.08533477783203
+   ],
+   [
+    -55.067283630371094
+   ],
+   [
+    -54.31111145019531
+   ],
+   [
+    -62.48752212524414
+   ],
+   [
+    -55.4277458190918
+   ],
+   [
+    -51.49291229248047
+   ],
+   [
+    -53.0704345703125
+   ],
+   [
+    -48.357330322265625
+   ],
+   [
+    -56.126380920410156
+   ],
+   [
+    -57.522308349609375
+   ],
+   [
+    -53.495704650878906
+   ],
+   [
+    -55.921714782714844
+   ],
+   [
+    -65.17828369140625
+   ],
+   [
+    -52.110023498535156
+   ],
+   [
+    -52.56254577636719
+   ],
+   [
+    -51.799644470214844
+   ],
+   [
+    -54.02806854248047
+   ],
+   [
+    -51.61404037475586
+   ],
+   [
+    -54.68317413330078
+   ],
+   [
+    -55.50825881958008
+   ],
+   [
+    -53.38453674316406
+   ],
+   [
+    -50.7238883972168
+   ],
+   [
+    -51.729042053222656
+   ],
+   [
+    -52.610992431640625
+   ],
+   [
+    -49.11678695678711
+   ],
+   [
+    -56.659576416015625
+   ],
+   [
+    -53.64910888671875
+   ],
+   [
+    -61.164947509765625
+   ],
+   [
+    -51.90271759033203
+   ],
+   [
+    -50.09351348876953
+   ],
+   [
+    -51.57204055786133
+   ],
+   [
+    -52.16148376464844
+   ],
+   [
+    -57.887657165527344
+   ],
+   [
+    -51.06108474731445
+   ],
+   [
+    -55.343994140625
+   ],
+   [
+    -54.429901123046875
+   ],
+   [
+    -53.77153396606445
+   ],
+   [
+    -51.1278190612793
+   ],
+   [
+    -57.508567810058594
+   ],
+   [
+    -53.862335205078125
+   ],
+   [
+    -52.15760803222656
+   ],
+   [
+    -55.838653564453125
+   ],
+   [
+    -55.53461456298828
+   ],
+   [
+    -53.58196258544922
+   ],
+   [
+    -61.38352966308594
+   ],
+   [
+    -53.849159240722656
+   ],
+   [
+    -52.40414810180664
+   ],
+   [
+    -59.92784881591797
+   ],
+   [
+    -56.98641586303711
+   ],
+   [
+    -58.143280029296875
+   ],
+   [
+    -56.03955841064453
+   ],
+   [
+    -52.03685760498047
+   ],
+   [
+    -51.88359451293945
+   ],
+   [
+    -52.80442810058594
+   ],
+   [
+    -53.749515533447266
+   ],
+   [
+    -53.69683074951172
+   ],
+   [
+    -57.619537353515625
+   ],
+   [
+    -55.580345153808594
+   ],
+   [
+    -52.63276672363281
+   ],
+   [
+    -59.709529876708984
+   ],
+   [
+    -56.3911247253418
+   ],
+   [
+    -50.55257034301758
+   ],
+   [
+    -56.58361053466797
+   ],
+   [
+    -58.22520446777344
+   ],
+   [
+    -52.32616424560547
+   ],
+   [
+    -52.51412582397461
+   ],
+   [
+    -54.62594985961914
+   ],
+   [
+    -53.52040100097656
+   ],
+   [
+    -59.8906135559082
+   ],
+   [
+    -51.39793014526367
+   ],
+   [
+    -51.10835266113281
+   ],
+   [
+    -55.90386962890625
+   ],
+   [
+    -54.35498046875
+   ],
+   [
+    -61.49069595336914
+   ],
+   [
+    -59.13007354736328
+   ],
+   [
+    -55.61769485473633
+   ],
+   [
+    -53.684539794921875
+   ],
+   [
+    -53.89756774902344
+   ],
+   [
+    -65.8126220703125
+   ],
+   [
+    -53.67451477050781
+   ],
+   [
+    -56.967044830322266
+   ],
+   [
+    -52.951507568359375
+   ],
+   [
+    -53.667877197265625
+   ],
+   [
+    -54.54193878173828
+   ],
+   [
+    -50.97052764892578
+   ],
+   [
+    -54.38822555541992
+   ],
+   [
+    -50.89817810058594
+   ],
+   [
+    -54.56985855102539
+   ],
+   [
+    -52.79589080810547
+   ],
+   [
+    -55.06263732910156
+   ],
+   [
+    -52.80509948730469
+   ],
+   [
+    -52.81426239013672
+   ],
+   [
+    -56.36772918701172
+   ],
+   [
+    -48.38057327270508
+   ],
+   [
+    -52.477386474609375
+   ],
+   [
+    -50.52354431152344
+   ],
+   [
+    -53.08613204956055
+   ],
+   [
+    -54.57447052001953
+   ],
+   [
+    -55.988590240478516
+   ],
+   [
+    -49.46406555175781
+   ],
+   [
+    -52.036834716796875
+   ],
+   [
+    -50.85572052001953
+   ],
+   [
+    -50.853397369384766
+   ],
+   [
+    -51.760894775390625
+   ],
+   [
+    -61.9464111328125
+   ],
+   [
+    -58.346920013427734
+   ],
+   [
+    -54.15711975097656
+   ],
+   [
+    -52.319976806640625
+   ],
+   [
+    -48.986392974853516
+   ],
+   [
+    -51.20307159423828
+   ],
+   [
+    -54.30968475341797
+   ],
+   [
+    -53.28744125366211
+   ],
+   [
+    -55.621726989746094
+   ],
+   [
+    -49.48334503173828
+   ],
+   [
+    -51.36886215209961
+   ],
+   [
+    -50.09397888183594
+   ],
+   [
+    -53.41593933105469
+   ],
+   [
+    -51.95467758178711
+   ],
+   [
+    -52.122406005859375
+   ],
+   [
+    -51.98383712768555
+   ],
+   [
+    -52.19044494628906
+   ],
+   [
+    -52.372718811035156
+   ],
+   [
+    -50.87738037109375
+   ],
+   [
+    -54.534236907958984
+   ],
+   [
+    -53.45793151855469
+   ],
+   [
+    -60.475608825683594
+   ],
+   [
+    -54.40753936767578
+   ],
+   [
+    -50.48787307739258
+   ],
+   [
+    -52.340518951416016
+   ],
+   [
+    -54.02149963378906
+   ],
+   [
+    -54.10871887207031
+   ],
+   [
+    -49.74458312988281
+   ],
+   [
+    -58.078311920166016
+   ],
+   [
+    -52.906982421875
+   ],
+   [
+    -55.976280212402344
+   ],
+   [
+    -57.04761505126953
+   ],
+   [
+    -67.22402954101562
+   ],
+   [
+    -54.418277740478516
+   ],
+   [
+    -60.07331085205078
+   ],
+   [
+    -55.59651184082031
+   ],
+   [
+    -54.12417221069336
+   ],
+   [
+    -55.18604278564453
+   ],
+   [
+    -51.678218841552734
+   ],
+   [
+    -57.454856872558594
+   ],
+   [
+    -58.881927490234375
+   ],
+   [
+    -58.85409164428711
+   ],
+   [
+    -51.61454772949219
+   ],
+   [
+    -48.617835998535156
+   ],
+   [
+    -50.15130615234375
+   ],
+   [
+    -49.608089447021484
+   ],
+   [
+    -59.148834228515625
+   ],
+   [
+    -51.64409255981445
+   ],
+   [
+    -59.218814849853516
+   ],
+   [
+    -52.67210388183594
+   ],
+   [
+    -51.52979278564453
+   ],
+   [
+    -54.10851287841797
+   ],
+   [
+    -53.98814392089844
+   ],
+   [
+    -52.210784912109375
+   ],
+   [
+    -54.96050262451172
+   ],
+   [
+    -51.20599365234375
+   ],
+   [
+    -57.40214538574219
+   ],
+   [
+    -50.16034698486328
+   ],
+   [
+    -51.23482131958008
+   ],
+   [
+    -50.32476043701172
+   ],
+   [
+    -57.72780990600586
+   ],
+   [
+    -52.33319091796875
+   ],
+   [
+    -54.62158203125
+   ],
+   [
+    -55.14703369140625
+   ],
+   [
+    -52.570125579833984
+   ],
+   [
+    -52.8212890625
+   ],
+   [
+    -53.657169342041016
+   ],
+   [
+    -53.07804489135742
+   ],
+   [
+    -57.143646240234375
+   ],
+   [
+    -54.67725372314453
+   ],
+   [
+    -51.8349723815918
+   ],
+   [
+    -52.247806549072266
+   ],
+   [
+    -56.656044006347656
+   ],
+   [
+    -54.80164337158203
+   ],
+   [
+    -58.18130111694336
+   ],
+   [
+    -51.14693069458008
+   ],
+   [
+    -57.79631423950195
+   ],
+   [
+    -51.2398681640625
+   ],
+   [
+    -55.86564254760742
+   ],
+   [
+    -51.32992172241211
+   ],
+   [
+    -57.28022003173828
+   ],
+   [
+    -55.91992950439453
+   ],
+   [
+    -53.965572357177734
+   ],
+   [
+    -57.65580368041992
+   ],
+   [
+    -52.350128173828125
+   ],
+   [
+    -52.252349853515625
+   ],
+   [
+    -56.185028076171875
+   ],
+   [
+    -50.85386657714844
+   ],
+   [
+    -55.52767562866211
+   ],
+   [
+    -53.29245376586914
+   ],
+   [
+    -50.72108459472656
+   ],
+   [
+    -56.47704315185547
+   ],
+   [
+    -52.807987213134766
+   ],
+   [
+    -53.13393783569336
+   ],
+   [
+    -53.3743782043457
+   ],
+   [
+    -51.86480712890625
+   ],
+   [
+    -57.28688049316406
+   ],
+   [
+    -42.28657531738281
+   ],
+   [
+    -45.48249435424805
+   ],
+   [
+    -47.89725875854492
+   ],
+   [
+    -44.114559173583984
+   ],
+   [
+    -40.27455520629883
+   ],
+   [
+    -39.783470153808594
+   ],
+   [
+    -41.86851119995117
+   ],
+   [
+    -42.19196701049805
+   ],
+   [
+    -40.927642822265625
+   ],
+   [
+    -45.3222541809082
+   ],
+   [
+    -44.59919738769531
+   ],
+   [
+    -40.39005661010742
+   ],
+   [
+    -45.82987976074219
+   ],
+   [
+    -41.73536682128906
+   ],
+   [
+    -44.903751373291016
+   ],
+   [
+    -46.596866607666016
+   ],
+   [
+    -57.21170425415039
+   ],
+   [
+    -44.340362548828125
+   ],
+   [
+    -43.2502555847168
+   ],
+   [
+    -40.748809814453125
+   ],
+   [
+    -44.35881805419922
+   ],
+   [
+    -45.2252082824707
+   ],
+   [
+    -51.00001907348633
+   ],
+   [
+    -37.445068359375
+   ],
+   [
+    -38.774932861328125
+   ],
+   [
+    -42.316978454589844
+   ],
+   [
+    -40.04214859008789
+   ],
+   [
+    -47.04518127441406
+   ],
+   [
+    -47.35525894165039
+   ],
+   [
+    -39.975372314453125
+   ],
+   [
+    -42.80006790161133
+   ],
+   [
+    -53.48801803588867
+   ],
+   [
+    -43.38277816772461
+   ],
+   [
+    -45.07789611816406
+   ],
+   [
+    -42.212520599365234
+   ],
+   [
+    -38.31587600708008
+   ],
+   [
+    -41.43946075439453
+   ],
+   [
+    -48.28419876098633
+   ],
+   [
+    -39.54395294189453
+   ],
+   [
+    -43.96980667114258
+   ],
+   [
+    -38.679656982421875
+   ],
+   [
+    -44.1123161315918
+   ],
+   [
+    -45.04313278198242
+   ],
+   [
+    -37.98884963989258
+   ],
+   [
+    -48.29958724975586
+   ],
+   [
+    -41.40670394897461
+   ],
+   [
+    -47.1964225769043
+   ],
+   [
+    -40.85781478881836
+   ],
+   [
+    -42.11146545410156
+   ],
+   [
+    -40.78689193725586
+   ],
+   [
+    -41.59191131591797
+   ],
+   [
+    -46.278099060058594
+   ],
+   [
+    -41.26095962524414
+   ],
+   [
+    -41.773338317871094
+   ],
+   [
+    -44.000404357910156
+   ],
+   [
+    -45.421382904052734
+   ],
+   [
+    -39.869625091552734
+   ],
+   [
+    -47.13945770263672
+   ],
+   [
+    -45.965579986572266
+   ],
+   [
+    -41.54127883911133
+   ],
+   [
+    -42.21318435668945
+   ],
+   [
+    -36.16903305053711
+   ],
+   [
+    -42.486244201660156
+   ],
+   [
+    -52.125465393066406
+   ],
+   [
+    -43.42774963378906
+   ],
+   [
+    -45.98025131225586
+   ],
+   [
+    -52.39364242553711
+   ],
+   [
+    -38.77435302734375
+   ],
+   [
+    -51.099761962890625
+   ],
+   [
+    -43.20999526977539
+   ],
+   [
+    -41.55218505859375
+   ],
+   [
+    -43.315650939941406
+   ],
+   [
+    -39.42169952392578
+   ],
+   [
+    -40.50691604614258
+   ],
+   [
+    -44.45298767089844
+   ],
+   [
+    -43.479156494140625
+   ],
+   [
+    -47.77040481567383
+   ],
+   [
+    -45.59916305541992
+   ],
+   [
+    -52.7096061706543
+   ],
+   [
+    -47.549285888671875
+   ],
+   [
+    -40.11347961425781
+   ],
+   [
+    -45.430484771728516
+   ],
+   [
+    -42.10405349731445
+   ],
+   [
+    -39.5531005859375
+   ],
+   [
+    -41.969627380371094
+   ],
+   [
+    -44.1555290222168
+   ],
+   [
+    -47.12662124633789
+   ],
+   [
+    -50.64230728149414
+   ],
+   [
+    -40.60950469970703
+   ],
+   [
+    -40.52471923828125
+   ],
+   [
+    -42.11130142211914
+   ],
+   [
+    -43.46100616455078
+   ],
+   [
+    -51.92192840576172
+   ],
+   [
+    -52.04182434082031
+   ],
+   [
+    -36.12677001953125
+   ],
+   [
+    -39.784297943115234
+   ],
+   [
+    -42.66504669189453
+   ],
+   [
+    -56.138545989990234
+   ],
+   [
+    -45.32316970825195
+   ],
+   [
+    -47.04996871948242
+   ],
+   [
+    -41.373897552490234
+   ],
+   [
+    -46.07542037963867
+   ],
+   [
+    -45.17313003540039
+   ],
+   [
+    -39.8698844909668
+   ],
+   [
+    -39.68590545654297
+   ],
+   [
+    -41.56890869140625
+   ],
+   [
+    -46.87429428100586
+   ],
+   [
+    -41.5035285949707
+   ],
+   [
+    -46.0695915222168
+   ],
+   [
+    -45.2537727355957
+   ],
+   [
+    -43.643184661865234
+   ],
+   [
+    -47.87564468383789
+   ],
+   [
+    -37.507102966308594
+   ],
+   [
+    -42.857826232910156
+   ],
+   [
+    -39.3558349609375
+   ],
+   [
+    -42.72299575805664
+   ],
+   [
+    -45.5212287902832
+   ],
+   [
+    -43.65117645263672
+   ],
+   [
+    -41.191070556640625
+   ],
+   [
+    -40.406959533691406
+   ],
+   [
+    -39.71860885620117
+   ],
+   [
+    -40.09626388549805
+   ],
+   [
+    -42.654632568359375
+   ],
+   [
+    -57.11865997314453
+   ],
+   [
+    -48.13553237915039
+   ],
+   [
+    -45.72530746459961
+   ],
+   [
+    -41.61830139160156
+   ],
+   [
+    -38.95494079589844
+   ],
+   [
+    -41.46710968017578
+   ],
+   [
+    -42.14830017089844
+   ],
+   [
+    -41.79106903076172
+   ],
+   [
+    -41.2352294921875
+   ],
+   [
+    -40.586158752441406
+   ],
+   [
+    -43.13786697387695
+   ],
+   [
+    -41.092811584472656
+   ],
+   [
+    -39.89563751220703
+   ],
+   [
+    -42.69267272949219
+   ],
+   [
+    -38.59086227416992
+   ],
+   [
+    -43.560359954833984
+   ],
+   [
+    -45.34244155883789
+   ],
+   [
+    -42.57341766357422
+   ],
+   [
+    -41.521121978759766
+   ],
+   [
+    -43.312808990478516
+   ],
+   [
+    -43.85601806640625
+   ],
+   [
+    -46.34186553955078
+   ],
+   [
+    -45.930599212646484
+   ],
+   [
+    -42.5550651550293
+   ],
+   [
+    -42.16850662231445
+   ],
+   [
+    -43.24949645996094
+   ],
+   [
+    -45.87419509887695
+   ],
+   [
+    -39.023956298828125
+   ],
+   [
+    -53.53251647949219
+   ],
+   [
+    -41.02412033081055
+   ],
+   [
+    -45.476070404052734
+   ],
+   [
+    -47.98274230957031
+   ],
+   [
+    -59.61539077758789
+   ],
+   [
+    -48.61435317993164
+   ],
+   [
+    -51.690277099609375
+   ],
+   [
+    -49.263797760009766
+   ],
+   [
+    -40.87028503417969
+   ],
+   [
+    -47.92265701293945
+   ],
+   [
+    -43.58405303955078
+   ],
+   [
+    -47.83145523071289
+   ],
+   [
+    -47.77433395385742
+   ],
+   [
+    -49.024635314941406
+   ],
+   [
+    -39.49957275390625
+   ],
+   [
+    -38.747806549072266
+   ],
+   [
+    -38.748348236083984
+   ],
+   [
+    -40.62939453125
+   ],
+   [
+    -46.39335632324219
+   ],
+   [
+    -42.641910552978516
+   ],
+   [
+    -47.487022399902344
+   ],
+   [
+    -44.87392044067383
+   ],
+   [
+    -43.22759246826172
+   ],
+   [
+    -41.62533187866211
+   ],
+   [
+    -43.593238830566406
+   ],
+   [
+    -34.4095458984375
+   ],
+   [
+    -48.98527145385742
+   ],
+   [
+    -41.43157196044922
+   ],
+   [
+    -48.12611770629883
+   ],
+   [
+    -43.00253677368164
+   ],
+   [
+    -43.152244567871094
+   ],
+   [
+    -42.26639175415039
+   ],
+   [
+    -48.8601188659668
+   ],
+   [
+    -46.58671188354492
+   ],
+   [
+    -47.419864654541016
+   ],
+   [
+    -50.21249771118164
+   ],
+   [
+    -43.05269241333008
+   ],
+   [
+    -42.659996032714844
+   ],
+   [
+    -41.7507209777832
+   ],
+   [
+    -45.43586349487305
+   ],
+   [
+    -49.65789794921875
+   ],
+   [
+    -42.170204162597656
+   ],
+   [
+    -41.70466232299805
+   ],
+   [
+    -44.980587005615234
+   ],
+   [
+    -46.21664810180664
+   ],
+   [
+    -45.66489791870117
+   ],
+   [
+    -48.03607177734375
+   ],
+   [
+    -40.457855224609375
+   ],
+   [
+    -50.17390060424805
+   ],
+   [
+    -40.645076751708984
+   ],
+   [
+    -46.29302978515625
+   ],
+   [
+    -43.78483200073242
+   ],
+   [
+    -48.29779052734375
+   ],
+   [
+    -49.217933654785156
+   ],
+   [
+    -44.50666427612305
+   ],
+   [
+    -50.091278076171875
+   ],
+   [
+    -46.208560943603516
+   ],
+   [
+    -40.73324966430664
+   ],
+   [
+    -47.04361343383789
+   ],
+   [
+    -41.17348861694336
+   ],
+   [
+    -44.49907302856445
+   ],
+   [
+    -45.20460891723633
+   ],
+   [
+    -40.16851806640625
+   ],
+   [
+    -44.55916213989258
+   ],
+   [
+    -42.61638641357422
+   ],
+   [
+    -46.513065338134766
+   ],
+   [
+    -43.68455505371094
+   ],
+   [
+    -43.929771423339844
+   ],
+   [
+    -51.02653121948242
+   ]
+  ]
+ ],
+ "time": 2460.5992062091827
+}

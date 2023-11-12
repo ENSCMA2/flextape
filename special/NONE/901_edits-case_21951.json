@@ -1,0 +1,2076 @@
+{
+ "case_id": 21951,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Hermann Minkowski"
+ },
+ "pre": [
+  [
+   "Hermann Minkowski's field of work is meteorology",
+   "Hermann Minkowski's field of work is radioactivity",
+   "Hermann Minkowski's field of work is complex function",
+   "Hermann Minkowski's field of work is histology",
+   "Hermann Minkowski's field of work is algebra",
+   "Hermann Minkowski's field of work is electron",
+   "Hermann Minkowski's field of work is quantum theory",
+   "Hermann Minkowski's field of work is applied mathematics",
+   "Hermann Minkowski's field of work is electricity",
+   "Hermann Minkowski's field of work is human geography",
+   "Hermann Minkowski's field of work is crystallography",
+   "Hermann Minkowski's field of work is chemistry",
+   "Hermann Minkowski's field of work is Jewish studies",
+   "Hermann Minkowski's field of work is topology",
+   "Hermann Minkowski's field of work is mathematical analysis",
+   "Hermann Minkowski's field of work is computational geometry",
+   "Hermann Minkowski's field of work is Petrine ministry",
+   "Hermann Minkowski's field of work is social psychology",
+   "Hermann Minkowski's field of work is genetics",
+   "Hermann Minkowski's field of work is informatics",
+   "Hermann Minkowski's field of work is shipbuilding",
+   "Hermann Minkowski's field of work is historical sociology",
+   "Hermann Minkowski's field of work is quantum mysticism",
+   "Hermann Minkowski's field of work is philosopher",
+   "Hermann Minkowski's field of work is Internet",
+   "Hermann Minkowski's field of work is gravity",
+   "Hermann Minkowski's field of work is theoretical physics",
+   "Hermann Minkowski's field of work is African studies",
+   "Hermann Minkowski's field of work is projective geometry",
+   "Hermann Minkowski's field of work is prose",
+   "Hermann Minkowski's field of work is momentum",
+   "Hermann Minkowski's field of work is Cairo Geniza",
+   "Hermann Minkowski's field of work is stochastic",
+   "Hermann Minkowski's field of work is algebraic topology",
+   "Hermann Minkowski's field of work is electrical engineering",
+   "Hermann Minkowski's field of work is hunting",
+   "Hermann Minkowski's field of work is evolution",
+   "Hermann Minkowski's field of work is economic anthropology",
+   "Hermann Minkowski's field of work is Hebrew",
+   "Hermann Minkowski's field of work is differential geometry",
+   "Hermann Minkowski's field of work is engineering",
+   "Hermann Minkowski's field of work is history of science",
+   "Hermann Minkowski's field of work is social anthropology",
+   "Hermann Minkowski's field of work is history",
+   "Hermann Minkowski's field of work is distribution theory",
+   "Hermann Minkowski's field of work is classics",
+   "Hermann Minkowski's field of work is crime novel",
+   "Hermann Minkowski's field of work is statistics",
+   "Hermann Minkowski's field of work is experimental physics",
+   "Hermann Minkowski's field of work is geography",
+   "Hermann Minkowski's field of work is anthropology",
+   "Hermann Minkowski's field of work is partial differential equation",
+   "Hermann Minkowski's field of work is applied physics",
+   "Hermann Minkowski's field of work is Sanskrit",
+   "Hermann Minkowski's field of work is a branch of physics",
+   "Hermann Minkowski's field of work is comparative mythology",
+   "Hermann Minkowski's field of work is radiation",
+   "Hermann Minkowski's field of work is aeromechanics",
+   "Hermann Minkowski's field of work is harmonic analysis",
+   "Hermann Minkowski's field of work is religion",
+   "Hermann Minkowski's field of work is civil rights",
+   "Hermann Minkowski's field of work is physicist",
+   "Hermann Minkowski's field of work is distribution",
+   "Hermann Minkowski's field of work is translations from Spanish",
+   "Hermann Minkowski's field of work is feminism",
+   "Hermann Minkowski's field of work is number theory",
+   "Hermann Minkowski's field of work is sociology of organisations",
+   "Hermann Minkowski's field of work is astronomer",
+   "Hermann Minkowski's field of work is children's and youth literature",
+   "Hermann Minkowski's field of work is fairy tale",
+   "Hermann Minkowski's field of work is economy",
+   "Hermann Minkowski's field of work is graph theory",
+   "Hermann Minkowski's field of work is magic",
+   "Hermann Minkowski's field of work is essay",
+   "Hermann Minkowski's field of work is theory of relativity",
+   "Hermann Minkowski's field of work is historical novel",
+   "Hermann Minkowski's field of work is biological anthropology",
+   "Hermann Minkowski's field of work is literary theory",
+   "Hermann Minkowski's field of work is Greek philology",
+   "Hermann Minkowski's field of work is lyric poetry",
+   "Hermann Minkowski's field of work is psychology",
+   "Hermann Minkowski's field of work is quaternion",
+   "Hermann Minkowski's field of work is rite",
+   "Hermann Minkowski's field of work is jazz",
+   "Hermann Minkowski's field of work is heat",
+   "Hermann Minkowski's field of work is embryology",
+   "Hermann Minkowski's field of work is social philosophy",
+   "Hermann Minkowski's field of work is dance choreography",
+   "Hermann Minkowski's field of work is politics",
+   "Hermann Minkowski's field of work is nanotechnology",
+   "Hermann Minkowski's field of work is Afghanistan",
+   "Hermann Minkowski's field of work is non-Euclidean geometry",
+   "Hermann Minkowski's field of work is Franciscan spirituality",
+   "Hermann Minkowski's field of work is detective literature",
+   "Hermann Minkowski's field of work is mathematician",
+   "Hermann Minkowski's field of work is String",
+   "Hermann Minkowski's field of work is classical music",
+   "Hermann Minkowski's field of work is translations from Occitan",
+   "Hermann Minkowski's field of work is abstract algebra",
+   "Hermann Minkowski's field of work is differential calculus",
+   "Hermann Minkowski's field of work is mythology",
+   "Hermann Minkowski's field of work is literary translation",
+   "Hermann Minkowski's field of work is ballistics",
+   "Hermann Minkowski's field of work is cryptography",
+   "Hermann Minkowski's field of work is Greek",
+   "Hermann Minkowski's field of work is logic",
+   "Hermann Minkowski's field of work is choreography",
+   "Hermann Minkowski's field of work is theology",
+   "Hermann Minkowski's field of work is world economy",
+   "Hermann Minkowski's field of work is magnetism",
+   "Hermann Minkowski's field of work is algebraic geometry",
+   "Hermann Minkowski's field of work is theory of differential equations",
+   "Hermann Minkowski's field of work is physics",
+   "Hermann Minkowski's field of work is music theory",
+   "Hermann Minkowski's field of work is economics",
+   "Hermann Minkowski's field of work is anatomy",
+   "Hermann Minkowski's field of work is electromagnetic field",
+   "Hermann Minkowski's field of work is analytic number theory",
+   "Hermann Minkowski's field of work is mathematical physics",
+   "Hermann Minkowski's field of work is journalism",
+   "Hermann Minkowski's field of work is sociology",
+   "Hermann Minkowski's field of work is literature",
+   "Hermann Minkowski's field of work is ethnography",
+   "Hermann Minkowski's field of work is belletristic literature",
+   "Hermann Minkowski's field of work is convex function",
+   "Hermann Minkowski's field of work is sociology of religion",
+   "Hermann Minkowski's field of work is pedagogy",
+   "Hermann Minkowski's field of work is philosophy",
+   "Hermann Minkowski's field of work is quantum mechanics",
+   "Hermann Minkowski's field of work is drama",
+   "Hermann Minkowski's field of work is dance",
+   "Hermann Minkowski's field of work is Judaism",
+   "Hermann Minkowski's field of work is quantum physics",
+   "Hermann Minkowski's field of work is philosophy of science",
+   "Hermann Minkowski's field of work is linguistics",
+   "Hermann Minkowski's field of work is myth",
+   "Hermann Minkowski's field of work is physiology",
+   "Hermann Minkowski's field of work is English",
+   "Hermann Minkowski's field of work is philology",
+   "Hermann Minkowski's field of work is political philosophy",
+   "Hermann Minkowski's field of work is mechanical engineering",
+   "Hermann Minkowski's field of work is ontology",
+   "Hermann Minkowski's field of work is forestry",
+   "Hermann Minkowski's field of work is aerodynamics",
+   "Hermann Minkowski's field of work is Christian Church",
+   "Hermann Minkowski's field of work is magnetic resonance",
+   "Hermann Minkowski's field of work is astrophysics",
+   "Hermann Minkowski's field of work is natural science",
+   "Hermann Minkowski's field of work is constitutional law",
+   "Hermann Minkowski's field of work is philosophy of law",
+   "Hermann Minkowski's field of work is education",
+   "Hermann Minkowski's field of work is Monte Carlo method",
+   "Hermann Minkowski's field of work is neurology",
+   "Hermann Minkowski's field of work is electric field",
+   "Hermann Minkowski's field of work is Minkowski spacetime",
+   "Hermann Minkowski's field of work is translations from Arabic language",
+   "Hermann Minkowski's field of work is Bayesian inference",
+   "Hermann Minkowski's field of work is translations from Polish",
+   "Hermann Minkowski's field of work is color photography",
+   "Hermann Minkowski's field of work is opera",
+   "Hermann Minkowski's field of work is model theory",
+   "Hermann Minkowski's field of work is cartography",
+   "Hermann Minkowski's field of work is nonstandard analysis",
+   "Hermann Minkowski's field of work is television program",
+   "Hermann Minkowski's field of work is complex manifold",
+   "Hermann Minkowski's field of work is poetry",
+   "Hermann Minkowski's field of work is mathematics",
+   "Hermann Minkowski's field of work is computer science",
+   "Hermann Minkowski's field of work is cosmology",
+   "Hermann Minkowski's field of work is silviculture",
+   "Hermann Minkowski's field of work is hydrodynamics",
+   "Hermann Minkowski's field of work is forestry science",
+   "Hermann Minkowski's field of work is comparative religion",
+   "Hermann Minkowski's field of work is information technology",
+   "Hermann Minkowski's field of work is ballet",
+   "Hermann Minkowski's field of work is English literature",
+   "Hermann Minkowski's field of work is conducting",
+   "Hermann Minkowski's field of work is hyperbolic geometry",
+   "Hermann Minkowski's field of work is biochemistry",
+   "Hermann Minkowski's field of work is religion and society",
+   "Hermann Minkowski's field of work is optics",
+   "Hermann Minkowski's field of work is ethics",
+   "Hermann Minkowski's field of work is cybernetics",
+   "Hermann Minkowski's field of work is astronomical observation",
+   "Hermann Minkowski's field of work is psychophysiology",
+   "Hermann Minkowski's field of work is culturology",
+   "Hermann Minkowski's field of work is history of religions",
+   "Hermann Minkowski's field of work is probability theory",
+   "Hermann Minkowski's field of work is paleontology",
+   "Hermann Minkowski's field of work is surgery",
+   "Hermann Minkowski's field of work is group theory",
+   "Hermann Minkowski's field of work is natural theology",
+   "Hermann Minkowski's field of work is astrology",
+   "Hermann Minkowski's field of work is quantum electrodynamics",
+   "Hermann Minkowski's field of work is mechanics",
+   "Hermann Minkowski's field of work is Lie algebra",
+   "Hermann Minkowski's field of work is trigonometry",
+   "Hermann Minkowski's field of work is literary activity",
+   "Hermann Minkowski's field of work is nuclear physics",
+   "Hermann Minkowski's field of work is translations from English",
+   "Hermann Minkowski's field of work is medicine",
+   "Hermann Minkowski's field of work is Jewish philosophy",
+   "Hermann Minkowski's field of work is mathematical logic",
+   "Hermann Minkowski's field of work is calculus of variations",
+   "Hermann Minkowski's field of work is ferromagnetism",
+   "Hermann Minkowski's field of work is analytic geometry",
+   "Hermann Minkowski's field of work is art of painting",
+   "Hermann Minkowski's field of work is functional analysis",
+   "Hermann Minkowski's field of work is folklore",
+   "Hermann Minkowski's field of work is study of history",
+   "Hermann Minkowski's field of work is geometry",
+   "Hermann Minkowski's field of work is positivism",
+   "Hermann Minkowski's field of work is geodesy",
+   "Hermann Minkowski's field of work is astronomy",
+   "Hermann Minkowski's field of work is magnetic field",
+   "Hermann Minkowski's field of work is kinetic theory",
+   "Hermann Minkowski's field of work is celestial mechanics",
+   "Hermann Minkowski's field of work is analytic philosophy",
+   "Hermann Minkowski's field of work is ethnology",
+   "Hermann Minkowski's field of work is history of economic thought",
+   "Hermann Minkowski is meteorology",
+   "Hermann Minkowski is radioactivity",
+   "Hermann Minkowski is complex function",
+   "Hermann Minkowski is histology",
+   "Hermann Minkowski is algebra",
+   "Hermann Minkowski is electron",
+   "Hermann Minkowski is quantum theory",
+   "Hermann Minkowski is applied mathematics",
+   "Hermann Minkowski is electricity",
+   "Hermann Minkowski is human geography",
+   "Hermann Minkowski is crystallography",
+   "Hermann Minkowski is chemistry",
+   "Hermann Minkowski is Jewish studies",
+   "Hermann Minkowski is topology",
+   "Hermann Minkowski is mathematical analysis",
+   "Hermann Minkowski is computational geometry",
+   "Hermann Minkowski is Petrine ministry",
+   "Hermann Minkowski is social psychology",
+   "Hermann Minkowski is genetics",
+   "Hermann Minkowski is informatics",
+   "Hermann Minkowski is shipbuilding",
+   "Hermann Minkowski is historical sociology",
+   "Hermann Minkowski is quantum mysticism",
+   "Hermann Minkowski is philosopher",
+   "Hermann Minkowski is Internet",
+   "Hermann Minkowski is gravity",
+   "Hermann Minkowski is theoretical physics",
+   "Hermann Minkowski is African studies",
+   "Hermann Minkowski is projective geometry",
+   "Hermann Minkowski is prose",
+   "Hermann Minkowski is momentum",
+   "Hermann Minkowski is Cairo Geniza",
+   "Hermann Minkowski is stochastic",
+   "Hermann Minkowski is algebraic topology",
+   "Hermann Minkowski is electrical engineering",
+   "Hermann Minkowski is hunting",
+   "Hermann Minkowski is evolution",
+   "Hermann Minkowski is economic anthropology",
+   "Hermann Minkowski is Hebrew",
+   "Hermann Minkowski is differential geometry",
+   "Hermann Minkowski is engineering",
+   "Hermann Minkowski is history of science",
+   "Hermann Minkowski is social anthropology",
+   "Hermann Minkowski is history",
+   "Hermann Minkowski is distribution theory",
+   "Hermann Minkowski is classics",
+   "Hermann Minkowski is crime novel",
+   "Hermann Minkowski is statistics",
+   "Hermann Minkowski is experimental physics",
+   "Hermann Minkowski is geography",
+   "Hermann Minkowski is anthropology",
+   "Hermann Minkowski is partial differential equation",
+   "Hermann Minkowski is applied physics",
+   "Hermann Minkowski is Sanskrit",
+   "Hermann Minkowski is a branch of physics",
+   "Hermann Minkowski is comparative mythology",
+   "Hermann Minkowski is radiation",
+   "Hermann Minkowski is aeromechanics",
+   "Hermann Minkowski is harmonic analysis",
+   "Hermann Minkowski is religion",
+   "Hermann Minkowski is civil rights",
+   "Hermann Minkowski is physicist",
+   "Hermann Minkowski is distribution",
+   "Hermann Minkowski is translations from Spanish",
+   "Hermann Minkowski is feminism",
+   "Hermann Minkowski is number theory",
+   "Hermann Minkowski is sociology of organisations",
+   "Hermann Minkowski is astronomer",
+   "Hermann Minkowski is children's and youth literature",
+   "Hermann Minkowski is fairy tale",
+   "Hermann Minkowski is economy",
+   "Hermann Minkowski is graph theory",
+   "Hermann Minkowski is magic",
+   "Hermann Minkowski is essay",
+   "Hermann Minkowski is theory of relativity",
+   "Hermann Minkowski is historical novel",
+   "Hermann Minkowski is biological anthropology",
+   "Hermann Minkowski is literary theory",
+   "Hermann Minkowski is Greek philology",
+   "Hermann Minkowski is lyric poetry",
+   "Hermann Minkowski is psychology",
+   "Hermann Minkowski is quaternion",
+   "Hermann Minkowski is rite",
+   "Hermann Minkowski is jazz",
+   "Hermann Minkowski is heat",
+   "Hermann Minkowski is embryology",
+   "Hermann Minkowski is social philosophy",
+   "Hermann Minkowski is dance choreography",
+   "Hermann Minkowski is politics",
+   "Hermann Minkowski is nanotechnology",
+   "Hermann Minkowski is Afghanistan",
+   "Hermann Minkowski is non-Euclidean geometry",
+   "Hermann Minkowski is Franciscan spirituality",
+   "Hermann Minkowski is detective literature",
+   "Hermann Minkowski is mathematician",
+   "Hermann Minkowski is String",
+   "Hermann Minkowski is classical music",
+   "Hermann Minkowski is translations from Occitan",
+   "Hermann Minkowski is abstract algebra",
+   "Hermann Minkowski is differential calculus",
+   "Hermann Minkowski is mythology",
+   "Hermann Minkowski is literary translation",
+   "Hermann Minkowski is ballistics",
+   "Hermann Minkowski is cryptography",
+   "Hermann Minkowski is Greek",
+   "Hermann Minkowski is logic",
+   "Hermann Minkowski is choreography",
+   "Hermann Minkowski is theology",
+   "Hermann Minkowski is world economy",
+   "Hermann Minkowski is magnetism",
+   "Hermann Minkowski is algebraic geometry",
+   "Hermann Minkowski is theory of differential equations",
+   "Hermann Minkowski is physics",
+   "Hermann Minkowski is music theory",
+   "Hermann Minkowski is economics",
+   "Hermann Minkowski is anatomy",
+   "Hermann Minkowski is electromagnetic field",
+   "Hermann Minkowski is analytic number theory",
+   "Hermann Minkowski is mathematical physics",
+   "Hermann Minkowski is journalism",
+   "Hermann Minkowski is sociology",
+   "Hermann Minkowski is literature",
+   "Hermann Minkowski is ethnography",
+   "Hermann Minkowski is belletristic literature",
+   "Hermann Minkowski is convex function",
+   "Hermann Minkowski is sociology of religion",
+   "Hermann Minkowski is pedagogy",
+   "Hermann Minkowski is philosophy",
+   "Hermann Minkowski is quantum mechanics",
+   "Hermann Minkowski is drama",
+   "Hermann Minkowski is dance",
+   "Hermann Minkowski is Judaism",
+   "Hermann Minkowski is quantum physics",
+   "Hermann Minkowski is philosophy of science",
+   "Hermann Minkowski is linguistics",
+   "Hermann Minkowski is myth",
+   "Hermann Minkowski is physiology",
+   "Hermann Minkowski is English",
+   "Hermann Minkowski is philology",
+   "Hermann Minkowski is political philosophy",
+   "Hermann Minkowski is mechanical engineering",
+   "Hermann Minkowski is ontology",
+   "Hermann Minkowski is forestry",
+   "Hermann Minkowski is aerodynamics",
+   "Hermann Minkowski is Christian Church",
+   "Hermann Minkowski is magnetic resonance",
+   "Hermann Minkowski is astrophysics",
+   "Hermann Minkowski is natural science",
+   "Hermann Minkowski is constitutional law",
+   "Hermann Minkowski is philosophy of law",
+   "Hermann Minkowski is education",
+   "Hermann Minkowski is Monte Carlo method",
+   "Hermann Minkowski is neurology",
+   "Hermann Minkowski is electric field",
+   "Hermann Minkowski is Minkowski spacetime",
+   "Hermann Minkowski is translations from Arabic language",
+   "Hermann Minkowski is Bayesian inference",
+   "Hermann Minkowski is translations from Polish",
+   "Hermann Minkowski is color photography",
+   "Hermann Minkowski is opera",
+   "Hermann Minkowski is model theory",
+   "Hermann Minkowski is cartography",
+   "Hermann Minkowski is nonstandard analysis",
+   "Hermann Minkowski is television program",
+   "Hermann Minkowski is complex manifold",
+   "Hermann Minkowski is poetry",
+   "Hermann Minkowski is mathematics",
+   "Hermann Minkowski is computer science",
+   "Hermann Minkowski is cosmology",
+   "Hermann Minkowski is silviculture",
+   "Hermann Minkowski is hydrodynamics",
+   "Hermann Minkowski is forestry science",
+   "Hermann Minkowski is comparative religion",
+   "Hermann Minkowski is information technology",
+   "Hermann Minkowski is ballet",
+   "Hermann Minkowski is English literature",
+   "Hermann Minkowski is conducting",
+   "Hermann Minkowski is hyperbolic geometry",
+   "Hermann Minkowski is biochemistry",
+   "Hermann Minkowski is religion and society",
+   "Hermann Minkowski is optics",
+   "Hermann Minkowski is ethics",
+   "Hermann Minkowski is cybernetics",
+   "Hermann Minkowski is astronomical observation",
+   "Hermann Minkowski is psychophysiology",
+   "Hermann Minkowski is culturology",
+   "Hermann Minkowski is history of religions",
+   "Hermann Minkowski is probability theory",
+   "Hermann Minkowski is paleontology",
+   "Hermann Minkowski is surgery",
+   "Hermann Minkowski is group theory",
+   "Hermann Minkowski is natural theology",
+   "Hermann Minkowski is astrology",
+   "Hermann Minkowski is quantum electrodynamics",
+   "Hermann Minkowski is mechanics",
+   "Hermann Minkowski is Lie algebra",
+   "Hermann Minkowski is trigonometry",
+   "Hermann Minkowski is literary activity",
+   "Hermann Minkowski is nuclear physics",
+   "Hermann Minkowski is translations from English",
+   "Hermann Minkowski is medicine",
+   "Hermann Minkowski is Jewish philosophy",
+   "Hermann Minkowski is mathematical logic",
+   "Hermann Minkowski is calculus of variations",
+   "Hermann Minkowski is ferromagnetism",
+   "Hermann Minkowski is analytic geometry",
+   "Hermann Minkowski is art of painting",
+   "Hermann Minkowski is functional analysis",
+   "Hermann Minkowski is folklore",
+   "Hermann Minkowski is study of history",
+   "Hermann Minkowski is geometry",
+   "Hermann Minkowski is positivism",
+   "Hermann Minkowski is geodesy",
+   "Hermann Minkowski is astronomy",
+   "Hermann Minkowski is magnetic field",
+   "Hermann Minkowski is kinetic theory",
+   "Hermann Minkowski is celestial mechanics",
+   "Hermann Minkowski is analytic philosophy",
+   "Hermann Minkowski is ethnology",
+   "Hermann Minkowski is history of economic thought"
+  ],
+  [
+   [
+    -46.84431457519531
+   ],
+   [
+    -49.56828308105469
+   ],
+   [
+    -49.85283660888672
+   ],
+   [
+    -48.334678649902344
+   ],
+   [
+    -42.820899963378906
+   ],
+   [
+    -46.92626190185547
+   ],
+   [
+    -43.91992950439453
+   ],
+   [
+    -45.18157196044922
+   ],
+   [
+    -46.533111572265625
+   ],
+   [
+    -48.369651794433594
+   ],
+   [
+    -44.93932342529297
+   ],
+   [
+    -47.03077697753906
+   ],
+   [
+    -50.31024169921875
+   ],
+   [
+    -43.06272888183594
+   ],
+   [
+    -42.40996551513672
+   ],
+   [
+    -45.33416748046875
+   ],
+   [
+    -64.23480224609375
+   ],
+   [
+    -48.40821838378906
+   ],
+   [
+    -47.013267517089844
+   ],
+   [
+    -47.13893127441406
+   ],
+   [
+    -51.86882019042969
+   ],
+   [
+    -49.62974548339844
+   ],
+   [
+    -54.208282470703125
+   ],
+   [
+    -47.62706756591797
+   ],
+   [
+    -47.69239044189453
+   ],
+   [
+    -44.258460998535156
+   ],
+   [
+    -42.674957275390625
+   ],
+   [
+    -50.418983459472656
+   ],
+   [
+    -45.676483154296875
+   ],
+   [
+    -48.498619079589844
+   ],
+   [
+    -47.36299133300781
+   ],
+   [
+    -59.779842376708984
+   ],
+   [
+    -46.50677490234375
+   ],
+   [
+    -45.46471405029297
+   ],
+   [
+    -46.190826416015625
+   ],
+   [
+    -50.53960418701172
+   ],
+   [
+    -45.840660095214844
+   ],
+   [
+    -51.889984130859375
+   ],
+   [
+    -48.80116271972656
+   ],
+   [
+    -44.39537048339844
+   ],
+   [
+    -45.93903350830078
+   ],
+   [
+    -46.21772766113281
+   ],
+   [
+    -49.57756805419922
+   ],
+   [
+    -42.917747497558594
+   ],
+   [
+    -46.708351135253906
+   ],
+   [
+    -46.80902099609375
+   ],
+   [
+    -57.511627197265625
+   ],
+   [
+    -44.82557678222656
+   ],
+   [
+    -46.420806884765625
+   ],
+   [
+    -45.91993713378906
+   ],
+   [
+    -46.90655517578125
+   ],
+   [
+    -51.070068359375
+   ],
+   [
+    -49.280494689941406
+   ],
+   [
+    -48.96162414550781
+   ],
+   [
+    -48.85704040527344
+   ],
+   [
+    -48.60673522949219
+   ],
+   [
+    -46.55635070800781
+   ],
+   [
+    -54.4932861328125
+   ],
+   [
+    -46.82982635498047
+   ],
+   [
+    -46.441505432128906
+   ],
+   [
+    -51.45802307128906
+   ],
+   [
+    -49.11669921875
+   ],
+   [
+    -46.067771911621094
+   ],
+   [
+    -55.10102462768555
+   ],
+   [
+    -47.13801574707031
+   ],
+   [
+    -41.81812286376953
+   ],
+   [
+    -56.689208984375
+   ],
+   [
+    -50.472190856933594
+   ],
+   [
+    -53.968971252441406
+   ],
+   [
+    -50.90581512451172
+   ],
+   [
+    -47.900238037109375
+   ],
+   [
+    -44.94671630859375
+   ],
+   [
+    -46.838130950927734
+   ],
+   [
+    -47.56788635253906
+   ],
+   [
+    -46.442710876464844
+   ],
+   [
+    -53.91560363769531
+   ],
+   [
+    -51.719276428222656
+   ],
+   [
+    -47.684967041015625
+   ],
+   [
+    -50.987510681152344
+   ],
+   [
+    -51.56446075439453
+   ],
+   [
+    -45.07353210449219
+   ],
+   [
+    -46.36509704589844
+   ],
+   [
+    -52.13096618652344
+   ],
+   [
+    -50.17097473144531
+   ],
+   [
+    -48.2479248046875
+   ],
+   [
+    -48.086395263671875
+   ],
+   [
+    -47.795745849609375
+   ],
+   [
+    -55.151817321777344
+   ],
+   [
+    -45.567352294921875
+   ],
+   [
+    -47.127708435058594
+   ],
+   [
+    -51.86334991455078
+   ],
+   [
+    -43.678123474121094
+   ],
+   [
+    -54.609458923339844
+   ],
+   [
+    -54.804161071777344
+   ],
+   [
+    -46.96726989746094
+   ],
+   [
+    -47.048301696777344
+   ],
+   [
+    -51.194496154785156
+   ],
+   [
+    -59.615516662597656
+   ],
+   [
+    -44.67675018310547
+   ],
+   [
+    -49.532676696777344
+   ],
+   [
+    -47.11804962158203
+   ],
+   [
+    -50.105865478515625
+   ],
+   [
+    -49.275062561035156
+   ],
+   [
+    -45.26495361328125
+   ],
+   [
+    -44.974151611328125
+   ],
+   [
+    -42.690452575683594
+   ],
+   [
+    -50.512657165527344
+   ],
+   [
+    -46.19475555419922
+   ],
+   [
+    -52.99933624267578
+   ],
+   [
+    -47.826141357421875
+   ],
+   [
+    -43.71686935424805
+   ],
+   [
+    -54.19093704223633
+   ],
+   [
+    -40.77700424194336
+   ],
+   [
+    -47.39167785644531
+   ],
+   [
+    -45.75603103637695
+   ],
+   [
+    -49.020591735839844
+   ],
+   [
+    -47.815582275390625
+   ],
+   [
+    -45.06163024902344
+   ],
+   [
+    -41.07341766357422
+   ],
+   [
+    -47.444541931152344
+   ],
+   [
+    -45.784515380859375
+   ],
+   [
+    -45.151206970214844
+   ],
+   [
+    -48.82678985595703
+   ],
+   [
+    -56.146583557128906
+   ],
+   [
+    -50.227622985839844
+   ],
+   [
+    -50.18499755859375
+   ],
+   [
+    -46.54088592529297
+   ],
+   [
+    -40.985931396484375
+   ],
+   [
+    -43.944091796875
+   ],
+   [
+    -48.54777526855469
+   ],
+   [
+    -47.727516174316406
+   ],
+   [
+    -48.73894500732422
+   ],
+   [
+    -44.12950897216797
+   ],
+   [
+    -43.59249496459961
+   ],
+   [
+    -44.097007751464844
+   ],
+   [
+    -47.28636932373047
+   ],
+   [
+    -47.868743896484375
+   ],
+   [
+    -47.41868591308594
+   ],
+   [
+    -45.55904006958008
+   ],
+   [
+    -45.593841552734375
+   ],
+   [
+    -48.03526306152344
+   ],
+   [
+    -43.656715393066406
+   ],
+   [
+    -50.808433532714844
+   ],
+   [
+    -49.088340759277344
+   ],
+   [
+    -55.40373229980469
+   ],
+   [
+    -49.844268798828125
+   ],
+   [
+    -44.88280487060547
+   ],
+   [
+    -47.022003173828125
+   ],
+   [
+    -47.970184326171875
+   ],
+   [
+    -48.52622604370117
+   ],
+   [
+    -44.38923645019531
+   ],
+   [
+    -53.77238845825195
+   ],
+   [
+    -48.153968811035156
+   ],
+   [
+    -50.79808044433594
+   ],
+   [
+    -44.238739013671875
+   ],
+   [
+    -59.177330017089844
+   ],
+   [
+    -49.05488967895508
+   ],
+   [
+    -54.748756408691406
+   ],
+   [
+    -50.93946838378906
+   ],
+   [
+    -48.512535095214844
+   ],
+   [
+    -46.88352966308594
+   ],
+   [
+    -45.43202209472656
+   ],
+   [
+    -47.39985656738281
+   ],
+   [
+    -55.859344482421875
+   ],
+   [
+    -49.84833526611328
+   ],
+   [
+    -46.00835418701172
+   ],
+   [
+    -39.3849983215332
+   ],
+   [
+    -46.800636291503906
+   ],
+   [
+    -42.17304992675781
+   ],
+   [
+    -55.246742248535156
+   ],
+   [
+    -46.765560150146484
+   ],
+   [
+    -56.04657745361328
+   ],
+   [
+    -47.380226135253906
+   ],
+   [
+    -48.699851989746094
+   ],
+   [
+    -48.99127960205078
+   ],
+   [
+    -48.72692108154297
+   ],
+   [
+    -47.91444396972656
+   ],
+   [
+    -43.97329330444336
+   ],
+   [
+    -48.08826446533203
+   ],
+   [
+    -53.95631408691406
+   ],
+   [
+    -44.367164611816406
+   ],
+   [
+    -44.758277893066406
+   ],
+   [
+    -46.48688507080078
+   ],
+   [
+    -51.28138732910156
+   ],
+   [
+    -48.40988540649414
+   ],
+   [
+    -50.85234451293945
+   ],
+   [
+    -50.84239959716797
+   ],
+   [
+    -45.309349060058594
+   ],
+   [
+    -48.048583984375
+   ],
+   [
+    -48.40428924560547
+   ],
+   [
+    -45.582759857177734
+   ],
+   [
+    -51.30309295654297
+   ],
+   [
+    -46.47126007080078
+   ],
+   [
+    -45.81066131591797
+   ],
+   [
+    -45.32123565673828
+   ],
+   [
+    -49.938720703125
+   ],
+   [
+    -46.178428649902344
+   ],
+   [
+    -54.553810119628906
+   ],
+   [
+    -48.085899353027344
+   ],
+   [
+    -51.950382232666016
+   ],
+   [
+    -47.168701171875
+   ],
+   [
+    -48.87340545654297
+   ],
+   [
+    -42.566627502441406
+   ],
+   [
+    -47.94190979003906
+   ],
+   [
+    -52.42026138305664
+   ],
+   [
+    -43.58929443359375
+   ],
+   [
+    -53.374122619628906
+   ],
+   [
+    -44.56101608276367
+   ],
+   [
+    -47.53977966308594
+   ],
+   [
+    -53.939453125
+   ],
+   [
+    -40.593475341796875
+   ],
+   [
+    -46.94190979003906
+   ],
+   [
+    -45.886260986328125
+   ],
+   [
+    -44.145172119140625
+   ],
+   [
+    -51.41419982910156
+   ],
+   [
+    -47.85304260253906
+   ],
+   [
+    -45.48467254638672
+   ],
+   [
+    -46.77857971191406
+   ],
+   [
+    -48.50074005126953
+   ],
+   [
+    -52.28656005859375
+   ],
+   [
+    -33.220245361328125
+   ],
+   [
+    -36.911346435546875
+   ],
+   [
+    -38.83734893798828
+   ],
+   [
+    -34.914764404296875
+   ],
+   [
+    -30.839900970458984
+   ],
+   [
+    -31.180313110351562
+   ],
+   [
+    -32.577537536621094
+   ],
+   [
+    -32.74968719482422
+   ],
+   [
+    -31.67835235595703
+   ],
+   [
+    -38.14380645751953
+   ],
+   [
+    -35.203224182128906
+   ],
+   [
+    -32.89426803588867
+   ],
+   [
+    -39.823997497558594
+   ],
+   [
+    -33.27379608154297
+   ],
+   [
+    -36.53092956542969
+   ],
+   [
+    -36.211631774902344
+   ],
+   [
+    -49.310420989990234
+   ],
+   [
+    -36.805137634277344
+   ],
+   [
+    -34.53568649291992
+   ],
+   [
+    -37.20476531982422
+   ],
+   [
+    -37.946998596191406
+   ],
+   [
+    -36.50944519042969
+   ],
+   [
+    -39.22301483154297
+   ],
+   [
+    -28.782642364501953
+   ],
+   [
+    -30.549442291259766
+   ],
+   [
+    -33.109439849853516
+   ],
+   [
+    -32.856285095214844
+   ],
+   [
+    -40.39215087890625
+   ],
+   [
+    -37.997520446777344
+   ],
+   [
+    -33.21975326538086
+   ],
+   [
+    -33.393638610839844
+   ],
+   [
+    -46.58807373046875
+   ],
+   [
+    -33.92090606689453
+   ],
+   [
+    -34.589820861816406
+   ],
+   [
+    -34.826393127441406
+   ],
+   [
+    -31.248958587646484
+   ],
+   [
+    -32.62086486816406
+   ],
+   [
+    -40.03215026855469
+   ],
+   [
+    -30.765338897705078
+   ],
+   [
+    -35.11339569091797
+   ],
+   [
+    -31.881546020507812
+   ],
+   [
+    -34.82957458496094
+   ],
+   [
+    -37.98539733886719
+   ],
+   [
+    -28.05202865600586
+   ],
+   [
+    -37.841041564941406
+   ],
+   [
+    -32.28568649291992
+   ],
+   [
+    -40.32318115234375
+   ],
+   [
+    -31.424640655517578
+   ],
+   [
+    -34.659950256347656
+   ],
+   [
+    -33.78663635253906
+   ],
+   [
+    -32.563568115234375
+   ],
+   [
+    -35.935951232910156
+   ],
+   [
+    -34.984458923339844
+   ],
+   [
+    -32.79972457885742
+   ],
+   [
+    -35.30408477783203
+   ],
+   [
+    -36.70256805419922
+   ],
+   [
+    -33.00697326660156
+   ],
+   [
+    -38.624267578125
+   ],
+   [
+    -36.57604217529297
+   ],
+   [
+    -31.86532211303711
+   ],
+   [
+    -36.15727233886719
+   ],
+   [
+    -28.9990234375
+   ],
+   [
+    -34.93574905395508
+   ],
+   [
+    -42.8203125
+   ],
+   [
+    -33.82309341430664
+   ],
+   [
+    -36.404457092285156
+   ],
+   [
+    -46.50981521606445
+   ],
+   [
+    -30.98153305053711
+   ],
+   [
+    -43.196197509765625
+   ],
+   [
+    -33.226722717285156
+   ],
+   [
+    -33.76568603515625
+   ],
+   [
+    -35.92192840576172
+   ],
+   [
+    -30.64664077758789
+   ],
+   [
+    -31.241626739501953
+   ],
+   [
+    -35.94892120361328
+   ],
+   [
+    -36.25481414794922
+   ],
+   [
+    -37.341285705566406
+   ],
+   [
+    -37.606544494628906
+   ],
+   [
+    -42.64043426513672
+   ],
+   [
+    -36.67084503173828
+   ],
+   [
+    -32.877140045166016
+   ],
+   [
+    -35.233848571777344
+   ],
+   [
+    -33.5869140625
+   ],
+   [
+    -31.13010025024414
+   ],
+   [
+    -33.269676208496094
+   ],
+   [
+    -34.32958984375
+   ],
+   [
+    -37.52021026611328
+   ],
+   [
+    -41.89289855957031
+   ],
+   [
+    -32.731380462646484
+   ],
+   [
+    -34.407386779785156
+   ],
+   [
+    -34.957393646240234
+   ],
+   [
+    -32.12392044067383
+   ],
+   [
+    -41.47799301147461
+   ],
+   [
+    -42.241798400878906
+   ],
+   [
+    -28.057519912719727
+   ],
+   [
+    -32.606536865234375
+   ],
+   [
+    -35.986106872558594
+   ],
+   [
+    -49.17341613769531
+   ],
+   [
+    -34.555023193359375
+   ],
+   [
+    -39.65202331542969
+   ],
+   [
+    -30.905269622802734
+   ],
+   [
+    -39.170021057128906
+   ],
+   [
+    -37.62030029296875
+   ],
+   [
+    -31.68128204345703
+   ],
+   [
+    -30.293384552001953
+   ],
+   [
+    -32.2857666015625
+   ],
+   [
+    -37.57427978515625
+   ],
+   [
+    -32.188838958740234
+   ],
+   [
+    -39.71366882324219
+   ],
+   [
+    -35.133644104003906
+   ],
+   [
+    -32.94581604003906
+   ],
+   [
+    -45.84973907470703
+   ],
+   [
+    -28.666671752929688
+   ],
+   [
+    -35.345367431640625
+   ],
+   [
+    -32.01082992553711
+   ],
+   [
+    -33.37171173095703
+   ],
+   [
+    -36.394798278808594
+   ],
+   [
+    -34.915260314941406
+   ],
+   [
+    -32.23863220214844
+   ],
+   [
+    -33.471012115478516
+   ],
+   [
+    -31.795093536376953
+   ],
+   [
+    -31.067737579345703
+   ],
+   [
+    -35.084930419921875
+   ],
+   [
+    -44.070343017578125
+   ],
+   [
+    -38.80653381347656
+   ],
+   [
+    -38.153076171875
+   ],
+   [
+    -34.35438537597656
+   ],
+   [
+    -29.710594177246094
+   ],
+   [
+    -31.92190170288086
+   ],
+   [
+    -33.277889251708984
+   ],
+   [
+    -32.25104904174805
+   ],
+   [
+    -30.115867614746094
+   ],
+   [
+    -32.55876922607422
+   ],
+   [
+    -35.51374816894531
+   ],
+   [
+    -34.20100402832031
+   ],
+   [
+    -29.138519287109375
+   ],
+   [
+    -33.80976486206055
+   ],
+   [
+    -31.113231658935547
+   ],
+   [
+    -34.315032958984375
+   ],
+   [
+    -35.63401794433594
+   ],
+   [
+    -34.60728454589844
+   ],
+   [
+    -32.59947967529297
+   ],
+   [
+    -35.55455780029297
+   ],
+   [
+    -35.66200256347656
+   ],
+   [
+    -38.4124755859375
+   ],
+   [
+    -38.487510681152344
+   ],
+   [
+    -34.10081481933594
+   ],
+   [
+    -35.595848083496094
+   ],
+   [
+    -36.440185546875
+   ],
+   [
+    -40.644187927246094
+   ],
+   [
+    -32.42630386352539
+   ],
+   [
+    -46.10110092163086
+   ],
+   [
+    -32.28577423095703
+   ],
+   [
+    -38.47270202636719
+   ],
+   [
+    -32.700748443603516
+   ],
+   [
+    -50.182228088378906
+   ],
+   [
+    -39.858638763427734
+   ],
+   [
+    -41.50231170654297
+   ],
+   [
+    -38.149147033691406
+   ],
+   [
+    -31.233142852783203
+   ],
+   [
+    -40.29353332519531
+   ],
+   [
+    -34.07081604003906
+   ],
+   [
+    -37.85829162597656
+   ],
+   [
+    -40.467529296875
+   ],
+   [
+    -38.96910095214844
+   ],
+   [
+    -31.014808654785156
+   ],
+   [
+    -29.561561584472656
+   ],
+   [
+    -32.656837463378906
+   ],
+   [
+    -31.16531753540039
+   ],
+   [
+    -41.31000518798828
+   ],
+   [
+    -34.078121185302734
+   ],
+   [
+    -39.791473388671875
+   ],
+   [
+    -36.118995666503906
+   ],
+   [
+    -35.118499755859375
+   ],
+   [
+    -33.983551025390625
+   ],
+   [
+    -36.002777099609375
+   ],
+   [
+    -28.791587829589844
+   ],
+   [
+    -34.75945281982422
+   ],
+   [
+    -36.82939910888672
+   ],
+   [
+    -39.05812072753906
+   ],
+   [
+    -34.60063171386719
+   ],
+   [
+    -34.23199462890625
+   ],
+   [
+    -34.01134490966797
+   ],
+   [
+    -40.70262908935547
+   ],
+   [
+    -40.350669860839844
+   ],
+   [
+    -39.7081298828125
+   ],
+   [
+    -41.59376907348633
+   ],
+   [
+    -33.70117950439453
+   ],
+   [
+    -34.482398986816406
+   ],
+   [
+    -33.3289794921875
+   ],
+   [
+    -34.66034698486328
+   ],
+   [
+    -40.144004821777344
+   ],
+   [
+    -32.42385482788086
+   ],
+   [
+    -33.88900375366211
+   ],
+   [
+    -36.51729965209961
+   ],
+   [
+    -34.071922302246094
+   ],
+   [
+    -35.03571319580078
+   ],
+   [
+    -40.663185119628906
+   ],
+   [
+    -34.16943359375
+   ],
+   [
+    -41.291988372802734
+   ],
+   [
+    -30.703857421875
+   ],
+   [
+    -37.259422302246094
+   ],
+   [
+    -34.43341827392578
+   ],
+   [
+    -37.97505187988281
+   ],
+   [
+    -41.542415618896484
+   ],
+   [
+    -33.30582809448242
+   ],
+   [
+    -41.305442810058594
+   ],
+   [
+    -34.87895965576172
+   ],
+   [
+    -30.79266357421875
+   ],
+   [
+    -39.05693817138672
+   ],
+   [
+    -31.552478790283203
+   ],
+   [
+    -32.13050079345703
+   ],
+   [
+    -33.676002502441406
+   ],
+   [
+    -31.352745056152344
+   ],
+   [
+    -37.87861633300781
+   ],
+   [
+    -34.00225067138672
+   ],
+   [
+    -36.62451171875
+   ],
+   [
+    -33.85685348510742
+   ],
+   [
+    -35.803932189941406
+   ],
+   [
+    -41.37440490722656
+   ]
+  ]
+ ],
+ "time": 771.6050417423248
+}

@@ -1,0 +1,2068 @@
+{
+ "case_id": 23329,
+ "grouped_case_ids": [
+  23061,
+  23062,
+  23063,
+  23064,
+  23065,
+  23066,
+  23067,
+  23068,
+  23069,
+  23070,
+  23071,
+  23072,
+  23073,
+  23074,
+  23075,
+  23076,
+  23077,
+  23078,
+  23079,
+  23080,
+  23081,
+  23082,
+  23083,
+  23084,
+  23085,
+  23086,
+  23087,
+  23088,
+  23089,
+  23090,
+  23091,
+  23092,
+  23093,
+  23094,
+  23095,
+  23096,
+  23097,
+  23098,
+  23099,
+  23100,
+  23101,
+  23102,
+  23103,
+  23104,
+  23105,
+  23106,
+  23107,
+  23108,
+  23109,
+  23110,
+  23111,
+  23112,
+  23113,
+  23114,
+  23115,
+  23116,
+  23117,
+  23118,
+  23119,
+  23120,
+  23121,
+  23122,
+  23123,
+  23124,
+  23125,
+  23126,
+  23127,
+  23128,
+  23129,
+  23130,
+  23131,
+  23132,
+  23133,
+  23134,
+  23135,
+  23136,
+  23137,
+  23138,
+  23139,
+  23140,
+  23141,
+  23142,
+  23143,
+  23144,
+  23145,
+  23146,
+  23147,
+  23148,
+  23149,
+  23150,
+  23151,
+  23152,
+  23153,
+  23154,
+  23155,
+  23156,
+  23157,
+  23158,
+  23159,
+  23160,
+  23161,
+  23162,
+  23163,
+  23164,
+  23165,
+  23166,
+  23167,
+  23168,
+  23169,
+  23170,
+  23171,
+  23172,
+  23173,
+  23174,
+  23175,
+  23176,
+  23177,
+  23178,
+  23179,
+  23180,
+  23181,
+  23182,
+  23183,
+  23184,
+  23185,
+  23186,
+  23187,
+  23188,
+  23189,
+  23190,
+  23191,
+  23192,
+  23193,
+  23194,
+  23195,
+  23196,
+  23197,
+  23198,
+  23199,
+  23200,
+  23201,
+  23202,
+  23203,
+  23204,
+  23205,
+  23206,
+  23207,
+  23208,
+  23209,
+  23210,
+  23211,
+  23212,
+  23213,
+  23214,
+  23215,
+  23216,
+  23217,
+  23218,
+  23219,
+  23220,
+  23221,
+  23222,
+  23223,
+  23224,
+  23225,
+  23226,
+  23227,
+  23228,
+  23229,
+  23230,
+  23231,
+  23232,
+  23233,
+  23234,
+  23235,
+  23236,
+  23237,
+  23238,
+  23239,
+  23240,
+  23241,
+  23242,
+  23243,
+  23244,
+  23245,
+  23246,
+  23247,
+  23248,
+  23249,
+  23250,
+  23251,
+  23252,
+  23253,
+  23254,
+  23255,
+  23256,
+  23257,
+  23258,
+  23259,
+  23260,
+  23261,
+  23262,
+  23263,
+  23264,
+  23265,
+  23266,
+  23267,
+  23268,
+  23269,
+  23270,
+  23271,
+  23272,
+  23273,
+  23274,
+  23275,
+  23276,
+  23277,
+  23278,
+  23279,
+  23280,
+  23281,
+  23282,
+  23283,
+  23284,
+  23285,
+  23286,
+  23287,
+  23288,
+  23289,
+  23290,
+  23291,
+  23292,
+  23293,
+  23294,
+  23295,
+  23296,
+  23297,
+  23298,
+  23299,
+  23300,
+  23301,
+  23302,
+  23303,
+  23304,
+  23305,
+  23306,
+  23307,
+  23308,
+  23309,
+  23310,
+  23311,
+  23312,
+  23313,
+  23314,
+  23315,
+  23316,
+  23317,
+  23318,
+  23319,
+  23320,
+  23321,
+  23322,
+  23323,
+  23324,
+  23325,
+  23326,
+  23327,
+  23328,
+  23329,
+  23330,
+  23331,
+  23332,
+  23333,
+  23334,
+  23335,
+  23336,
+  23337,
+  23338,
+  23339,
+  23340,
+  23341,
+  23342
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "Sweden",
+   "id": "Q34"
+  },
+  "target_true": {
+   "str": "India",
+   "id": "Q668"
+  },
+  "subject": "Sridevi"
+ },
+ "pre": [
+  [
+   "Sridevi's field of work is Franciscan spirituality",
+   "Sridevi's field of work is applied physics",
+   "Sridevi's field of work is quantum electrodynamics",
+   "Sridevi's field of work is color photography",
+   "Sridevi's field of work is English",
+   "Sridevi's field of work is heat",
+   "Sridevi's field of work is informatics",
+   "Sridevi's field of work is neurology",
+   "Sridevi's field of work is ethnography",
+   "Sridevi's field of work is experimental physics",
+   "Sridevi's field of work is mechanical engineering",
+   "Sridevi's field of work is crystallography",
+   "Sridevi's field of work is magnetism",
+   "Sridevi's field of work is paleontology",
+   "Sridevi's field of work is astrology",
+   "Sridevi's field of work is drama",
+   "Sridevi's field of work is comparative mythology",
+   "Sridevi's field of work is ballet",
+   "Sridevi's field of work is theoretical physics",
+   "Sridevi's field of work is prose",
+   "Sridevi's field of work is mathematician",
+   "Sridevi's field of work is statistics",
+   "Sridevi's field of work is journalism",
+   "Sridevi's field of work is astronomical observation",
+   "Sridevi's field of work is physicist",
+   "Sridevi's field of work is graph theory",
+   "Sridevi's field of work is probability theory",
+   "Sridevi's field of work is mathematics",
+   "Sridevi's field of work is geometry",
+   "Sridevi's field of work is Monte Carlo method",
+   "Sridevi's field of work is mythology",
+   "Sridevi's field of work is partial differential equation",
+   "Sridevi's field of work is anatomy",
+   "Sridevi's field of work is electric field",
+   "Sridevi's field of work is shipbuilding",
+   "Sridevi's field of work is differential calculus",
+   "Sridevi's field of work is rite",
+   "Sridevi's field of work is distribution",
+   "Sridevi's field of work is biological anthropology",
+   "Sridevi's field of work is cryptography",
+   "Sridevi's field of work is theory of relativity",
+   "Sridevi's field of work is Greek",
+   "Sridevi's field of work is fairy tale",
+   "Sridevi's field of work is histology",
+   "Sridevi's field of work is mechanics",
+   "Sridevi's field of work is astronomy",
+   "Sridevi's field of work is theology",
+   "Sridevi's field of work is model theory",
+   "Sridevi's field of work is quantum mysticism",
+   "Sridevi's field of work is silviculture",
+   "Sridevi's field of work is psychology",
+   "Sridevi's field of work is literary theory",
+   "Sridevi's field of work is information technology",
+   "Sridevi's field of work is chemistry",
+   "Sridevi's field of work is Christian Church",
+   "Sridevi's field of work is philosopher",
+   "Sridevi's field of work is nuclear physics",
+   "Sridevi's field of work is electron",
+   "Sridevi's field of work is classics",
+   "Sridevi's field of work is quantum physics",
+   "Sridevi's field of work is projective geometry",
+   "Sridevi's field of work is convex function",
+   "Sridevi's field of work is economy",
+   "Sridevi's field of work is politics",
+   "Sridevi's field of work is Petrine ministry",
+   "Sridevi's field of work is geography",
+   "Sridevi's field of work is jazz",
+   "Sridevi's field of work is English literature",
+   "Sridevi's field of work is embryology",
+   "Sridevi's field of work is complex function",
+   "Sridevi's field of work is ballistics",
+   "Sridevi's field of work is Internet",
+   "Sridevi's field of work is evolution",
+   "Sridevi's field of work is culturology",
+   "Sridevi's field of work is human geography",
+   "Sridevi's field of work is translations from English",
+   "Sridevi's field of work is economic anthropology",
+   "Sridevi's field of work is literary activity",
+   "Sridevi's field of work is African studies",
+   "Sridevi's field of work is forestry",
+   "Sridevi's field of work is physiology",
+   "Sridevi's field of work is philology",
+   "Sridevi's field of work is String",
+   "Sridevi's field of work is abstract algebra",
+   "Sridevi's field of work is astronomer",
+   "Sridevi's field of work is medicine",
+   "Sridevi's field of work is historical novel",
+   "Sridevi's field of work is trigonometry",
+   "Sridevi's field of work is algebraic geometry",
+   "Sridevi's field of work is magic",
+   "Sridevi's field of work is biochemistry",
+   "Sridevi's field of work is economics",
+   "Sridevi's field of work is calculus of variations",
+   "Sridevi's field of work is dance",
+   "Sridevi's field of work is gravity",
+   "Sridevi's field of work is electricity",
+   "Sridevi's field of work is conducting",
+   "Sridevi's field of work is Minkowski spacetime",
+   "Sridevi's field of work is literature",
+   "Sridevi's field of work is celestial mechanics",
+   "Sridevi's field of work is crime novel",
+   "Sridevi's field of work is sociology of organisations",
+   "Sridevi's field of work is quantum theory",
+   "Sridevi's field of work is quaternion",
+   "Sridevi's field of work is ethnology",
+   "Sridevi's field of work is political philosophy",
+   "Sridevi's field of work is Jewish studies",
+   "Sridevi's field of work is translations from Polish",
+   "Sridevi's field of work is philosophy of science",
+   "Sridevi's field of work is Afghanistan",
+   "Sridevi's field of work is electrical engineering",
+   "Sridevi's field of work is philosophy",
+   "Sridevi's field of work is linguistics",
+   "Sridevi's field of work is logic",
+   "Sridevi's field of work is sociology of religion",
+   "Sridevi's field of work is philosophy of law",
+   "Sridevi's field of work is ethics",
+   "Sridevi's field of work is analytic geometry",
+   "Sridevi's field of work is complex manifold",
+   "Sridevi's field of work is surgery",
+   "Sridevi's field of work is religion",
+   "Sridevi's field of work is ferromagnetism",
+   "Sridevi's field of work is hunting",
+   "Sridevi's field of work is computational geometry",
+   "Sridevi's field of work is analytic number theory",
+   "Sridevi's field of work is astrophysics",
+   "Sridevi's field of work is feminism",
+   "Sridevi's field of work is Bayesian inference",
+   "Sridevi's field of work is anthropology",
+   "Sridevi's field of work is optics",
+   "Sridevi's field of work is history of religions",
+   "Sridevi's field of work is positivism",
+   "Sridevi's field of work is social psychology",
+   "Sridevi's field of work is history",
+   "Sridevi's field of work is pedagogy",
+   "Sridevi's field of work is group theory",
+   "Sridevi's field of work is algebraic topology",
+   "Sridevi's field of work is history of economic thought",
+   "Sridevi's field of work is art of painting",
+   "Sridevi's field of work is stochastic",
+   "Sridevi's field of work is kinetic theory",
+   "Sridevi's field of work is Greek philology",
+   "Sridevi's field of work is hydrodynamics",
+   "Sridevi's field of work is television program",
+   "Sridevi's field of work is social anthropology",
+   "Sridevi's field of work is children's and youth literature",
+   "Sridevi's field of work is analytic philosophy",
+   "Sridevi's field of work is forestry science",
+   "Sridevi's field of work is folklore",
+   "Sridevi's field of work is natural science",
+   "Sridevi's field of work is number theory",
+   "Sridevi's field of work is translations from Arabic language",
+   "Sridevi's field of work is algebra",
+   "Sridevi's field of work is magnetic resonance",
+   "Sridevi's field of work is education",
+   "Sridevi's field of work is translations from Spanish",
+   "Sridevi's field of work is world economy",
+   "Sridevi's field of work is mathematical physics",
+   "Sridevi's field of work is music theory",
+   "Sridevi's field of work is nonstandard analysis",
+   "Sridevi's field of work is functional analysis",
+   "Sridevi's field of work is Sanskrit",
+   "Sridevi's field of work is geodesy",
+   "Sridevi's field of work is cosmology",
+   "Sridevi's field of work is history of science",
+   "Sridevi's field of work is essay",
+   "Sridevi's field of work is constitutional law",
+   "Sridevi's field of work is physics",
+   "Sridevi's field of work is topology",
+   "Sridevi's field of work is radioactivity",
+   "Sridevi's field of work is historical sociology",
+   "Sridevi's field of work is myth",
+   "Sridevi's field of work is momentum",
+   "Sridevi's field of work is classical music",
+   "Sridevi's field of work is Hebrew",
+   "Sridevi's field of work is natural theology",
+   "Sridevi's field of work is comparative religion",
+   "Sridevi's field of work is psychophysiology",
+   "Sridevi's field of work is social philosophy",
+   "Sridevi's field of work is dance choreography",
+   "Sridevi's field of work is distribution theory",
+   "Sridevi's field of work is theory of differential equations",
+   "Sridevi's field of work is mathematical logic",
+   "Sridevi's field of work is differential geometry",
+   "Sridevi's field of work is translations from Occitan",
+   "Sridevi's field of work is lyric poetry",
+   "Sridevi's field of work is belletristic literature",
+   "Sridevi's field of work is harmonic analysis",
+   "Sridevi's field of work is quantum mechanics",
+   "Sridevi's field of work is computer science",
+   "Sridevi's field of work is genetics",
+   "Sridevi's field of work is hyperbolic geometry",
+   "Sridevi's field of work is civil rights",
+   "Sridevi's field of work is literary translation",
+   "Sridevi's field of work is meteorology",
+   "Sridevi's field of work is ontology",
+   "Sridevi's field of work is electromagnetic field",
+   "Sridevi's field of work is opera",
+   "Sridevi's field of work is Lie algebra",
+   "Sridevi's field of work is detective literature",
+   "Sridevi's field of work is engineering",
+   "Sridevi's field of work is applied mathematics",
+   "Sridevi's field of work is Judaism",
+   "Sridevi's field of work is choreography",
+   "Sridevi's field of work is cybernetics",
+   "Sridevi's field of work is Cairo Geniza",
+   "Sridevi's field of work is religion and society",
+   "Sridevi's field of work is a branch of physics",
+   "Sridevi's field of work is non-Euclidean geometry",
+   "Sridevi's field of work is nanotechnology",
+   "Sridevi's field of work is aeromechanics",
+   "Sridevi's field of work is sociology",
+   "Sridevi's field of work is Jewish philosophy",
+   "Sridevi's field of work is magnetic field",
+   "Sridevi's field of work is aerodynamics",
+   "Sridevi's field of work is radiation",
+   "Sridevi's field of work is mathematical analysis",
+   "Sridevi's field of work is cartography",
+   "Sridevi's field of work is study of history",
+   "Sridevi's field of work is poetry",
+   "Sridevi is Franciscan spirituality",
+   "Sridevi is applied physics",
+   "Sridevi is quantum electrodynamics",
+   "Sridevi is color photography",
+   "Sridevi is English",
+   "Sridevi is heat",
+   "Sridevi is informatics",
+   "Sridevi is neurology",
+   "Sridevi is ethnography",
+   "Sridevi is experimental physics",
+   "Sridevi is mechanical engineering",
+   "Sridevi is crystallography",
+   "Sridevi is magnetism",
+   "Sridevi is paleontology",
+   "Sridevi is astrology",
+   "Sridevi is drama",
+   "Sridevi is comparative mythology",
+   "Sridevi is ballet",
+   "Sridevi is theoretical physics",
+   "Sridevi is prose",
+   "Sridevi is mathematician",
+   "Sridevi is statistics",
+   "Sridevi is journalism",
+   "Sridevi is astronomical observation",
+   "Sridevi is physicist",
+   "Sridevi is graph theory",
+   "Sridevi is probability theory",
+   "Sridevi is mathematics",
+   "Sridevi is geometry",
+   "Sridevi is Monte Carlo method",
+   "Sridevi is mythology",
+   "Sridevi is partial differential equation",
+   "Sridevi is anatomy",
+   "Sridevi is electric field",
+   "Sridevi is shipbuilding",
+   "Sridevi is differential calculus",
+   "Sridevi is rite",
+   "Sridevi is distribution",
+   "Sridevi is biological anthropology",
+   "Sridevi is cryptography",
+   "Sridevi is theory of relativity",
+   "Sridevi is Greek",
+   "Sridevi is fairy tale",
+   "Sridevi is histology",
+   "Sridevi is mechanics",
+   "Sridevi is astronomy",
+   "Sridevi is theology",
+   "Sridevi is model theory",
+   "Sridevi is quantum mysticism",
+   "Sridevi is silviculture",
+   "Sridevi is psychology",
+   "Sridevi is literary theory",
+   "Sridevi is information technology",
+   "Sridevi is chemistry",
+   "Sridevi is Christian Church",
+   "Sridevi is philosopher",
+   "Sridevi is nuclear physics",
+   "Sridevi is electron",
+   "Sridevi is classics",
+   "Sridevi is quantum physics",
+   "Sridevi is projective geometry",
+   "Sridevi is convex function",
+   "Sridevi is economy",
+   "Sridevi is politics",
+   "Sridevi is Petrine ministry",
+   "Sridevi is geography",
+   "Sridevi is jazz",
+   "Sridevi is English literature",
+   "Sridevi is embryology",
+   "Sridevi is complex function",
+   "Sridevi is ballistics",
+   "Sridevi is Internet",
+   "Sridevi is evolution",
+   "Sridevi is culturology",
+   "Sridevi is human geography",
+   "Sridevi is translations from English",
+   "Sridevi is economic anthropology",
+   "Sridevi is literary activity",
+   "Sridevi is African studies",
+   "Sridevi is forestry",
+   "Sridevi is physiology",
+   "Sridevi is philology",
+   "Sridevi is String",
+   "Sridevi is abstract algebra",
+   "Sridevi is astronomer",
+   "Sridevi is medicine",
+   "Sridevi is historical novel",
+   "Sridevi is trigonometry",
+   "Sridevi is algebraic geometry",
+   "Sridevi is magic",
+   "Sridevi is biochemistry",
+   "Sridevi is economics",
+   "Sridevi is calculus of variations",
+   "Sridevi is dance",
+   "Sridevi is gravity",
+   "Sridevi is electricity",
+   "Sridevi is conducting",
+   "Sridevi is Minkowski spacetime",
+   "Sridevi is literature",
+   "Sridevi is celestial mechanics",
+   "Sridevi is crime novel",
+   "Sridevi is sociology of organisations",
+   "Sridevi is quantum theory",
+   "Sridevi is quaternion",
+   "Sridevi is ethnology",
+   "Sridevi is political philosophy",
+   "Sridevi is Jewish studies",
+   "Sridevi is translations from Polish",
+   "Sridevi is philosophy of science",
+   "Sridevi is Afghanistan",
+   "Sridevi is electrical engineering",
+   "Sridevi is philosophy",
+   "Sridevi is linguistics",
+   "Sridevi is logic",
+   "Sridevi is sociology of religion",
+   "Sridevi is philosophy of law",
+   "Sridevi is ethics",
+   "Sridevi is analytic geometry",
+   "Sridevi is complex manifold",
+   "Sridevi is surgery",
+   "Sridevi is religion",
+   "Sridevi is ferromagnetism",
+   "Sridevi is hunting",
+   "Sridevi is computational geometry",
+   "Sridevi is analytic number theory",
+   "Sridevi is astrophysics",
+   "Sridevi is feminism",
+   "Sridevi is Bayesian inference",
+   "Sridevi is anthropology",
+   "Sridevi is optics",
+   "Sridevi is history of religions",
+   "Sridevi is positivism",
+   "Sridevi is social psychology",
+   "Sridevi is history",
+   "Sridevi is pedagogy",
+   "Sridevi is group theory",
+   "Sridevi is algebraic topology",
+   "Sridevi is history of economic thought",
+   "Sridevi is art of painting",
+   "Sridevi is stochastic",
+   "Sridevi is kinetic theory",
+   "Sridevi is Greek philology",
+   "Sridevi is hydrodynamics",
+   "Sridevi is television program",
+   "Sridevi is social anthropology",
+   "Sridevi is children's and youth literature",
+   "Sridevi is analytic philosophy",
+   "Sridevi is forestry science",
+   "Sridevi is folklore",
+   "Sridevi is natural science",
+   "Sridevi is number theory",
+   "Sridevi is translations from Arabic language",
+   "Sridevi is algebra",
+   "Sridevi is magnetic resonance",
+   "Sridevi is education",
+   "Sridevi is translations from Spanish",
+   "Sridevi is world economy",
+   "Sridevi is mathematical physics",
+   "Sridevi is music theory",
+   "Sridevi is nonstandard analysis",
+   "Sridevi is functional analysis",
+   "Sridevi is Sanskrit",
+   "Sridevi is geodesy",
+   "Sridevi is cosmology",
+   "Sridevi is history of science",
+   "Sridevi is essay",
+   "Sridevi is constitutional law",
+   "Sridevi is physics",
+   "Sridevi is topology",
+   "Sridevi is radioactivity",
+   "Sridevi is historical sociology",
+   "Sridevi is myth",
+   "Sridevi is momentum",
+   "Sridevi is classical music",
+   "Sridevi is Hebrew",
+   "Sridevi is natural theology",
+   "Sridevi is comparative religion",
+   "Sridevi is psychophysiology",
+   "Sridevi is social philosophy",
+   "Sridevi is dance choreography",
+   "Sridevi is distribution theory",
+   "Sridevi is theory of differential equations",
+   "Sridevi is mathematical logic",
+   "Sridevi is differential geometry",
+   "Sridevi is translations from Occitan",
+   "Sridevi is lyric poetry",
+   "Sridevi is belletristic literature",
+   "Sridevi is harmonic analysis",
+   "Sridevi is quantum mechanics",
+   "Sridevi is computer science",
+   "Sridevi is genetics",
+   "Sridevi is hyperbolic geometry",
+   "Sridevi is civil rights",
+   "Sridevi is literary translation",
+   "Sridevi is meteorology",
+   "Sridevi is ontology",
+   "Sridevi is electromagnetic field",
+   "Sridevi is opera",
+   "Sridevi is Lie algebra",
+   "Sridevi is detective literature",
+   "Sridevi is engineering",
+   "Sridevi is applied mathematics",
+   "Sridevi is Judaism",
+   "Sridevi is choreography",
+   "Sridevi is cybernetics",
+   "Sridevi is Cairo Geniza",
+   "Sridevi is religion and society",
+   "Sridevi is a branch of physics",
+   "Sridevi is non-Euclidean geometry",
+   "Sridevi is nanotechnology",
+   "Sridevi is aeromechanics",
+   "Sridevi is sociology",
+   "Sridevi is Jewish philosophy",
+   "Sridevi is magnetic field",
+   "Sridevi is aerodynamics",
+   "Sridevi is radiation",
+   "Sridevi is mathematical analysis",
+   "Sridevi is cartography",
+   "Sridevi is study of history",
+   "Sridevi is poetry"
+  ],
+  [
+   [
+    -51.14056396484375
+   ],
+   [
+    -48.04682922363281
+   ],
+   [
+    -49.84803771972656
+   ],
+   [
+    -45.12568664550781
+   ],
+   [
+    -41.15754699707031
+   ],
+   [
+    -45.67864227294922
+   ],
+   [
+    -44.9024658203125
+   ],
+   [
+    -44.19007873535156
+   ],
+   [
+    -42.317909240722656
+   ],
+   [
+    -48.31068420410156
+   ],
+   [
+    -44.49726104736328
+   ],
+   [
+    -44.42432403564453
+   ],
+   [
+    -45.70884704589844
+   ],
+   [
+    -44.781089782714844
+   ],
+   [
+    -40.22682189941406
+   ],
+   [
+    -39.82242965698242
+   ],
+   [
+    -46.501731872558594
+   ],
+   [
+    -40.89103698730469
+   ],
+   [
+    -44.71343994140625
+   ],
+   [
+    -44.217002868652344
+   ],
+   [
+    -48.31727981567383
+   ],
+   [
+    -44.67730712890625
+   ],
+   [
+    -40.63771438598633
+   ],
+   [
+    -50.03364562988281
+   ],
+   [
+    -48.61772918701172
+   ],
+   [
+    -47.7631721496582
+   ],
+   [
+    -47.765411376953125
+   ],
+   [
+    -42.44866943359375
+   ],
+   [
+    -45.653465270996094
+   ],
+   [
+    -59.55471420288086
+   ],
+   [
+    -41.56549835205078
+   ],
+   [
+    -52.29726791381836
+   ],
+   [
+    -43.77515411376953
+   ],
+   [
+    -48.58812713623047
+   ],
+   [
+    -47.940486907958984
+   ],
+   [
+    -49.45198059082031
+   ],
+   [
+    -46.913700103759766
+   ],
+   [
+    -42.51887512207031
+   ],
+   [
+    -47.680816650390625
+   ],
+   [
+    -45.92210006713867
+   ],
+   [
+    -51.805419921875
+   ],
+   [
+    -44.385276794433594
+   ],
+   [
+    -46.455204010009766
+   ],
+   [
+    -45.568058013916016
+   ],
+   [
+    -46.58844757080078
+   ],
+   [
+    -42.54771423339844
+   ],
+   [
+    -44.12464141845703
+   ],
+   [
+    -55.382225036621094
+   ],
+   [
+    -51.788875579833984
+   ],
+   [
+    -48.88698959350586
+   ],
+   [
+    -41.38883972167969
+   ],
+   [
+    -47.42091751098633
+   ],
+   [
+    -43.253395080566406
+   ],
+   [
+    -41.540008544921875
+   ],
+   [
+    -52.377708435058594
+   ],
+   [
+    -47.23480224609375
+   ],
+   [
+    -45.86408233642578
+   ],
+   [
+    -45.00261688232422
+   ],
+   [
+    -42.953372955322266
+   ],
+   [
+    -44.01361846923828
+   ],
+   [
+    -55.17779541015625
+   ],
+   [
+    -56.85915756225586
+   ],
+   [
+    -45.27838134765625
+   ],
+   [
+    -40.382484436035156
+   ],
+   [
+    -62.19859313964844
+   ],
+   [
+    -44.089508056640625
+   ],
+   [
+    -43.3997688293457
+   ],
+   [
+    -43.007301330566406
+   ],
+   [
+    -47.061866760253906
+   ],
+   [
+    -54.215545654296875
+   ],
+   [
+    -51.40060806274414
+   ],
+   [
+    -44.180755615234375
+   ],
+   [
+    -43.70347595214844
+   ],
+   [
+    -49.04277420043945
+   ],
+   [
+    -48.00799560546875
+   ],
+   [
+    -48.8741455078125
+   ],
+   [
+    -50.55033874511719
+   ],
+   [
+    -51.19766616821289
+   ],
+   [
+    -49.18382263183594
+   ],
+   [
+    -46.12493133544922
+   ],
+   [
+    -44.02043914794922
+   ],
+   [
+    -45.758094787597656
+   ],
+   [
+    -45.762977600097656
+   ],
+   [
+    -52.217201232910156
+   ],
+   [
+    -48.364593505859375
+   ],
+   [
+    -41.21112823486328
+   ],
+   [
+    -49.281707763671875
+   ],
+   [
+    -46.85557556152344
+   ],
+   [
+    -48.015159606933594
+   ],
+   [
+    -40.65874481201172
+   ],
+   [
+    -43.282440185546875
+   ],
+   [
+    -42.83165740966797
+   ],
+   [
+    -54.73500061035156
+   ],
+   [
+    -38.14031982421875
+   ],
+   [
+    -43.51136016845703
+   ],
+   [
+    -45.06132888793945
+   ],
+   [
+    -43.91712951660156
+   ],
+   [
+    -55.689414978027344
+   ],
+   [
+    -40.436988830566406
+   ],
+   [
+    -51.18279266357422
+   ],
+   [
+    -49.66394805908203
+   ],
+   [
+    -54.0556755065918
+   ],
+   [
+    -47.425315856933594
+   ],
+   [
+    -52.93566131591797
+   ],
+   [
+    -43.1717643737793
+   ],
+   [
+    -47.777557373046875
+   ],
+   [
+    -50.63243865966797
+   ],
+   [
+    -54.520816802978516
+   ],
+   [
+    -46.61354064941406
+   ],
+   [
+    -45.98598861694336
+   ],
+   [
+    -44.877296447753906
+   ],
+   [
+    -40.95848083496094
+   ],
+   [
+    -43.00236511230469
+   ],
+   [
+    -45.631248474121094
+   ],
+   [
+    -47.19221878051758
+   ],
+   [
+    -48.961692810058594
+   ],
+   [
+    -43.00830841064453
+   ],
+   [
+    -50.42759323120117
+   ],
+   [
+    -52.39739990234375
+   ],
+   [
+    -43.33708190917969
+   ],
+   [
+    -41.96571350097656
+   ],
+   [
+    -54.10663604736328
+   ],
+   [
+    -45.56808090209961
+   ],
+   [
+    -48.821800231933594
+   ],
+   [
+    -53.991519927978516
+   ],
+   [
+    -42.824623107910156
+   ],
+   [
+    -41.21333312988281
+   ],
+   [
+    -51.27558898925781
+   ],
+   [
+    -43.40971374511719
+   ],
+   [
+    -45.56090545654297
+   ],
+   [
+    -51.9521484375
+   ],
+   [
+    -47.83971405029297
+   ],
+   [
+    -44.579872131347656
+   ],
+   [
+    -41.757198333740234
+   ],
+   [
+    -43.300926208496094
+   ],
+   [
+    -49.96978759765625
+   ],
+   [
+    -50.39338684082031
+   ],
+   [
+    -58.85529327392578
+   ],
+   [
+    -50.95685577392578
+   ],
+   [
+    -48.19119644165039
+   ],
+   [
+    -51.373207092285156
+   ],
+   [
+    -55.104949951171875
+   ],
+   [
+    -49.45085906982422
+   ],
+   [
+    -50.290435791015625
+   ],
+   [
+    -46.57109069824219
+   ],
+   [
+    -49.85323715209961
+   ],
+   [
+    -48.49431610107422
+   ],
+   [
+    -51.613983154296875
+   ],
+   [
+    -42.628196716308594
+   ],
+   [
+    -45.84193801879883
+   ],
+   [
+    -47.705421447753906
+   ],
+   [
+    -59.03003692626953
+   ],
+   [
+    -46.74418640136719
+   ],
+   [
+    -50.88697052001953
+   ],
+   [
+    -38.70890808105469
+   ],
+   [
+    -51.963802337646484
+   ],
+   [
+    -49.3775749206543
+   ],
+   [
+    -47.644493103027344
+   ],
+   [
+    -46.721004486083984
+   ],
+   [
+    -58.52809143066406
+   ],
+   [
+    -49.045753479003906
+   ],
+   [
+    -40.500816345214844
+   ],
+   [
+    -49.1123046875
+   ],
+   [
+    -42.46324920654297
+   ],
+   [
+    -50.86728286743164
+   ],
+   [
+    -42.683048248291016
+   ],
+   [
+    -45.421348571777344
+   ],
+   [
+    -42.596343994140625
+   ],
+   [
+    -50.55364990234375
+   ],
+   [
+    -48.151878356933594
+   ],
+   [
+    -51.183021545410156
+   ],
+   [
+    -41.30979919433594
+   ],
+   [
+    -46.305686950683594
+   ],
+   [
+    -41.30644989013672
+   ],
+   [
+    -47.02605056762695
+   ],
+   [
+    -49.96759033203125
+   ],
+   [
+    -45.41206741333008
+   ],
+   [
+    -47.923683166503906
+   ],
+   [
+    -48.736572265625
+   ],
+   [
+    -45.27906799316406
+   ],
+   [
+    -51.27775573730469
+   ],
+   [
+    -57.690364837646484
+   ],
+   [
+    -48.01557159423828
+   ],
+   [
+    -48.62767791748047
+   ],
+   [
+    -58.49492645263672
+   ],
+   [
+    -46.8572998046875
+   ],
+   [
+    -53.117958068847656
+   ],
+   [
+    -53.17332458496094
+   ],
+   [
+    -45.485816955566406
+   ],
+   [
+    -45.302833557128906
+   ],
+   [
+    -44.53166961669922
+   ],
+   [
+    -56.72520446777344
+   ],
+   [
+    -44.035858154296875
+   ],
+   [
+    -46.31297302246094
+   ],
+   [
+    -45.35839080810547
+   ],
+   [
+    -45.742881774902344
+   ],
+   [
+    -49.32633590698242
+   ],
+   [
+    -42.04887771606445
+   ],
+   [
+    -54.58951950073242
+   ],
+   [
+    -49.9752197265625
+   ],
+   [
+    -42.498619079589844
+   ],
+   [
+    -48.077613830566406
+   ],
+   [
+    -48.14800262451172
+   ],
+   [
+    -41.234619140625
+   ],
+   [
+    -47.277610778808594
+   ],
+   [
+    -57.846981048583984
+   ],
+   [
+    -49.24627685546875
+   ],
+   [
+    -50.418373107910156
+   ],
+   [
+    -52.69061279296875
+   ],
+   [
+    -44.97947692871094
+   ],
+   [
+    -50.89643096923828
+   ],
+   [
+    -42.14891815185547
+   ],
+   [
+    -51.92634201049805
+   ],
+   [
+    -50.085853576660156
+   ],
+   [
+    -48.21195983886719
+   ],
+   [
+    -44.759864807128906
+   ],
+   [
+    -48.43943786621094
+   ],
+   [
+    -45.19886779785156
+   ],
+   [
+    -49.87915802001953
+   ],
+   [
+    -39.59846496582031
+   ],
+   [
+    -42.529178619384766
+   ],
+   [
+    -38.9254150390625
+   ],
+   [
+    -38.613529205322266
+   ],
+   [
+    -38.22039794921875
+   ],
+   [
+    -26.617795944213867
+   ],
+   [
+    -29.662899017333984
+   ],
+   [
+    -36.827205657958984
+   ],
+   [
+    -33.117088317871094
+   ],
+   [
+    -34.806854248046875
+   ],
+   [
+    -35.358367919921875
+   ],
+   [
+    -32.22377395629883
+   ],
+   [
+    -35.17646026611328
+   ],
+   [
+    -32.62958908081055
+   ],
+   [
+    -35.586082458496094
+   ],
+   [
+    -30.641429901123047
+   ],
+   [
+    -29.278554916381836
+   ],
+   [
+    -38.75993347167969
+   ],
+   [
+    -30.242319107055664
+   ],
+   [
+    -32.95613479614258
+   ],
+   [
+    -32.28578567504883
+   ],
+   [
+    -31.454605102539062
+   ],
+   [
+    -30.73096466064453
+   ],
+   [
+    -30.440702438354492
+   ],
+   [
+    -40.84789276123047
+   ],
+   [
+    -30.845752716064453
+   ],
+   [
+    -39.360084533691406
+   ],
+   [
+    -35.854164123535156
+   ],
+   [
+    -32.37139892578125
+   ],
+   [
+    -32.00830078125
+   ],
+   [
+    -44.82262420654297
+   ],
+   [
+    -29.40975570678711
+   ],
+   [
+    -37.81597137451172
+   ],
+   [
+    -32.20456314086914
+   ],
+   [
+    -38.10945129394531
+   ],
+   [
+    -36.97716522216797
+   ],
+   [
+    -40.171844482421875
+   ],
+   [
+    -29.767242431640625
+   ],
+   [
+    -32.46943664550781
+   ],
+   [
+    -38.0739860534668
+   ],
+   [
+    -32.920005798339844
+   ],
+   [
+    -38.37035369873047
+   ],
+   [
+    -28.662517547607422
+   ],
+   [
+    -31.703025817871094
+   ],
+   [
+    -33.562496185302734
+   ],
+   [
+    -35.50468444824219
+   ],
+   [
+    -31.902097702026367
+   ],
+   [
+    -32.83863067626953
+   ],
+   [
+    -41.47249221801758
+   ],
+   [
+    -42.08674621582031
+   ],
+   [
+    -37.98063659667969
+   ],
+   [
+    -31.688068389892578
+   ],
+   [
+    -37.93549346923828
+   ],
+   [
+    -31.100887298583984
+   ],
+   [
+    -29.068552017211914
+   ],
+   [
+    -37.02210998535156
+   ],
+   [
+    -30.15207290649414
+   ],
+   [
+    -34.42235565185547
+   ],
+   [
+    -31.233713150024414
+   ],
+   [
+    -30.463987350463867
+   ],
+   [
+    -32.06279373168945
+   ],
+   [
+    -41.05406951904297
+   ],
+   [
+    -41.86517333984375
+   ],
+   [
+    -31.255149841308594
+   ],
+   [
+    -28.18507957458496
+   ],
+   [
+    -51.389129638671875
+   ],
+   [
+    -32.0543212890625
+   ],
+   [
+    -28.94556999206543
+   ],
+   [
+    -30.58038330078125
+   ],
+   [
+    -34.3366813659668
+   ],
+   [
+    -40.991539001464844
+   ],
+   [
+    -36.908050537109375
+   ],
+   [
+    -27.704652786254883
+   ],
+   [
+    -29.761140823364258
+   ],
+   [
+    -40.168643951416016
+   ],
+   [
+    -36.58982849121094
+   ],
+   [
+    -42.02806091308594
+   ],
+   [
+    -42.109619140625
+   ],
+   [
+    -37.869529724121094
+   ],
+   [
+    -39.89754104614258
+   ],
+   [
+    -34.0206413269043
+   ],
+   [
+    -32.935707092285156
+   ],
+   [
+    -38.571998596191406
+   ],
+   [
+    -31.31428337097168
+   ],
+   [
+    -40.57612991333008
+   ],
+   [
+    -32.50098419189453
+   ],
+   [
+    -29.059141159057617
+   ],
+   [
+    -36.41846466064453
+   ],
+   [
+    -38.97953796386719
+   ],
+   [
+    -37.77271270751953
+   ],
+   [
+    -25.96845245361328
+   ],
+   [
+    -33.473106384277344
+   ],
+   [
+    -31.583553314208984
+   ],
+   [
+    -46.40970230102539
+   ],
+   [
+    -27.35973358154297
+   ],
+   [
+    -30.768434524536133
+   ],
+   [
+    -30.980804443359375
+   ],
+   [
+    -25.396257400512695
+   ],
+   [
+    -41.91944122314453
+   ],
+   [
+    -28.71430015563965
+   ],
+   [
+    -43.00978088378906
+   ],
+   [
+    -39.2398681640625
+   ],
+   [
+    -44.74832534790039
+   ],
+   [
+    -35.4000129699707
+   ],
+   [
+    -36.487022399902344
+   ],
+   [
+    -35.1876220703125
+   ],
+   [
+    -34.80461120605469
+   ],
+   [
+    -38.82762145996094
+   ],
+   [
+    -48.08397674560547
+   ],
+   [
+    -40.15748596191406
+   ],
+   [
+    -30.205106735229492
+   ],
+   [
+    -32.60383224487305
+   ],
+   [
+    -30.071887969970703
+   ],
+   [
+    -33.90814208984375
+   ],
+   [
+    -32.47405242919922
+   ],
+   [
+    -37.54716491699219
+   ],
+   [
+    -41.94367218017578
+   ],
+   [
+    -31.948755264282227
+   ],
+   [
+    -42.76261901855469
+   ],
+   [
+    -40.38217544555664
+   ],
+   [
+    -29.648826599121094
+   ],
+   [
+    -28.89145851135254
+   ],
+   [
+    -40.77633285522461
+   ],
+   [
+    -28.094099044799805
+   ],
+   [
+    -38.926124572753906
+   ],
+   [
+    -43.126800537109375
+   ],
+   [
+    -34.290794372558594
+   ],
+   [
+    -28.203163146972656
+   ],
+   [
+    -42.469810485839844
+   ],
+   [
+    -32.889068603515625
+   ],
+   [
+    -34.41443634033203
+   ],
+   [
+    -41.77082824707031
+   ],
+   [
+    -36.06379318237305
+   ],
+   [
+    -35.667049407958984
+   ],
+   [
+    -25.826948165893555
+   ],
+   [
+    -37.087703704833984
+   ],
+   [
+    -38.18559646606445
+   ],
+   [
+    -40.02394485473633
+   ],
+   [
+    -48.991294860839844
+   ],
+   [
+    -38.42633056640625
+   ],
+   [
+    -34.064109802246094
+   ],
+   [
+    -38.51811599731445
+   ],
+   [
+    -45.71235275268555
+   ],
+   [
+    -38.025367736816406
+   ],
+   [
+    -38.09906768798828
+   ],
+   [
+    -36.31953811645508
+   ],
+   [
+    -43.619869232177734
+   ],
+   [
+    -41.6609001159668
+   ],
+   [
+    -38.45137023925781
+   ],
+   [
+    -29.594593048095703
+   ],
+   [
+    -34.85435485839844
+   ],
+   [
+    -37.35020446777344
+   ],
+   [
+    -49.977108001708984
+   ],
+   [
+    -32.73759460449219
+   ],
+   [
+    -39.44948959350586
+   ],
+   [
+    -29.355735778808594
+   ],
+   [
+    -43.856178283691406
+   ],
+   [
+    -35.10875701904297
+   ],
+   [
+    -39.85843276977539
+   ],
+   [
+    -36.67346954345703
+   ],
+   [
+    -45.80531311035156
+   ],
+   [
+    -38.376014709472656
+   ],
+   [
+    -25.905813217163086
+   ],
+   [
+    -40.902767181396484
+   ],
+   [
+    -33.12041091918945
+   ],
+   [
+    -39.171138763427734
+   ],
+   [
+    -27.311866760253906
+   ],
+   [
+    -34.34247970581055
+   ],
+   [
+    -29.756872177124023
+   ],
+   [
+    -35.82685852050781
+   ],
+   [
+    -34.95651626586914
+   ],
+   [
+    -41.41822814941406
+   ],
+   [
+    -27.24999237060547
+   ],
+   [
+    -30.947284698486328
+   ],
+   [
+    -30.274730682373047
+   ],
+   [
+    -30.716947555541992
+   ],
+   [
+    -39.84759521484375
+   ],
+   [
+    -37.11974334716797
+   ],
+   [
+    -41.15386199951172
+   ],
+   [
+    -37.35618209838867
+   ],
+   [
+    -35.79736328125
+   ],
+   [
+    -41.67573547363281
+   ],
+   [
+    -43.511314392089844
+   ],
+   [
+    -40.74156951904297
+   ],
+   [
+    -40.544219970703125
+   ],
+   [
+    -50.61810302734375
+   ],
+   [
+    -36.08174133300781
+   ],
+   [
+    -42.65824890136719
+   ],
+   [
+    -42.5460205078125
+   ],
+   [
+    -34.88671112060547
+   ],
+   [
+    -31.211130142211914
+   ],
+   [
+    -32.295005798339844
+   ],
+   [
+    -47.03082275390625
+   ],
+   [
+    -31.384605407714844
+   ],
+   [
+    -38.31214141845703
+   ],
+   [
+    -34.75716018676758
+   ],
+   [
+    -34.90052795410156
+   ],
+   [
+    -36.61350631713867
+   ],
+   [
+    -29.557514190673828
+   ],
+   [
+    -39.46052551269531
+   ],
+   [
+    -44.54669189453125
+   ],
+   [
+    -29.637271881103516
+   ],
+   [
+    -38.10192108154297
+   ],
+   [
+    -31.110685348510742
+   ],
+   [
+    -30.944284439086914
+   ],
+   [
+    -36.85432052612305
+   ],
+   [
+    -44.47816467285156
+   ],
+   [
+    -37.02973175048828
+   ],
+   [
+    -40.438514709472656
+   ],
+   [
+    -42.77532958984375
+   ],
+   [
+    -34.8530387878418
+   ],
+   [
+    -39.43931579589844
+   ],
+   [
+    -31.348051071166992
+   ],
+   [
+    -41.22605895996094
+   ],
+   [
+    -38.45671844482422
+   ],
+   [
+    -37.20650100708008
+   ],
+   [
+    -31.032480239868164
+   ],
+   [
+    -41.20464324951172
+   ],
+   [
+    -36.49791717529297
+   ],
+   [
+    -39.943687438964844
+   ],
+   [
+    -27.723064422607422
+   ]
+  ]
+ ],
+ "time": 6477.671922445297
+}

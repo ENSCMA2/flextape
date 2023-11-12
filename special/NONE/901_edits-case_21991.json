@@ -1,0 +1,2076 @@
+{
+ "case_id": 21991,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Nicolas Chuquet"
+ },
+ "pre": [
+  [
+   "Nicolas Chuquet is meteorology",
+   "Nicolas Chuquet is radioactivity",
+   "Nicolas Chuquet is complex function",
+   "Nicolas Chuquet is histology",
+   "Nicolas Chuquet is algebra",
+   "Nicolas Chuquet is electron",
+   "Nicolas Chuquet is quantum theory",
+   "Nicolas Chuquet is applied mathematics",
+   "Nicolas Chuquet is electricity",
+   "Nicolas Chuquet is human geography",
+   "Nicolas Chuquet is crystallography",
+   "Nicolas Chuquet is chemistry",
+   "Nicolas Chuquet is Jewish studies",
+   "Nicolas Chuquet is topology",
+   "Nicolas Chuquet is mathematical analysis",
+   "Nicolas Chuquet is computational geometry",
+   "Nicolas Chuquet is Petrine ministry",
+   "Nicolas Chuquet is social psychology",
+   "Nicolas Chuquet is genetics",
+   "Nicolas Chuquet is informatics",
+   "Nicolas Chuquet is shipbuilding",
+   "Nicolas Chuquet is historical sociology",
+   "Nicolas Chuquet is quantum mysticism",
+   "Nicolas Chuquet is philosopher",
+   "Nicolas Chuquet is Internet",
+   "Nicolas Chuquet is gravity",
+   "Nicolas Chuquet is theoretical physics",
+   "Nicolas Chuquet is African studies",
+   "Nicolas Chuquet is projective geometry",
+   "Nicolas Chuquet is prose",
+   "Nicolas Chuquet is momentum",
+   "Nicolas Chuquet is Cairo Geniza",
+   "Nicolas Chuquet is stochastic",
+   "Nicolas Chuquet is algebraic topology",
+   "Nicolas Chuquet is electrical engineering",
+   "Nicolas Chuquet is hunting",
+   "Nicolas Chuquet is evolution",
+   "Nicolas Chuquet is economic anthropology",
+   "Nicolas Chuquet is Hebrew",
+   "Nicolas Chuquet is differential geometry",
+   "Nicolas Chuquet is engineering",
+   "Nicolas Chuquet is history of science",
+   "Nicolas Chuquet is social anthropology",
+   "Nicolas Chuquet is history",
+   "Nicolas Chuquet is distribution theory",
+   "Nicolas Chuquet is classics",
+   "Nicolas Chuquet is crime novel",
+   "Nicolas Chuquet is statistics",
+   "Nicolas Chuquet is experimental physics",
+   "Nicolas Chuquet is geography",
+   "Nicolas Chuquet is anthropology",
+   "Nicolas Chuquet is partial differential equation",
+   "Nicolas Chuquet is applied physics",
+   "Nicolas Chuquet is Sanskrit",
+   "Nicolas Chuquet is a branch of physics",
+   "Nicolas Chuquet is comparative mythology",
+   "Nicolas Chuquet is radiation",
+   "Nicolas Chuquet is aeromechanics",
+   "Nicolas Chuquet is harmonic analysis",
+   "Nicolas Chuquet is religion",
+   "Nicolas Chuquet is civil rights",
+   "Nicolas Chuquet is physicist",
+   "Nicolas Chuquet is distribution",
+   "Nicolas Chuquet is translations from Spanish",
+   "Nicolas Chuquet is feminism",
+   "Nicolas Chuquet is number theory",
+   "Nicolas Chuquet is sociology of organisations",
+   "Nicolas Chuquet is astronomer",
+   "Nicolas Chuquet is children's and youth literature",
+   "Nicolas Chuquet is fairy tale",
+   "Nicolas Chuquet is economy",
+   "Nicolas Chuquet is graph theory",
+   "Nicolas Chuquet is magic",
+   "Nicolas Chuquet is essay",
+   "Nicolas Chuquet is theory of relativity",
+   "Nicolas Chuquet is historical novel",
+   "Nicolas Chuquet is biological anthropology",
+   "Nicolas Chuquet is literary theory",
+   "Nicolas Chuquet is Greek philology",
+   "Nicolas Chuquet is lyric poetry",
+   "Nicolas Chuquet is psychology",
+   "Nicolas Chuquet is quaternion",
+   "Nicolas Chuquet is rite",
+   "Nicolas Chuquet is jazz",
+   "Nicolas Chuquet is heat",
+   "Nicolas Chuquet is embryology",
+   "Nicolas Chuquet is social philosophy",
+   "Nicolas Chuquet is dance choreography",
+   "Nicolas Chuquet is politics",
+   "Nicolas Chuquet is nanotechnology",
+   "Nicolas Chuquet is Afghanistan",
+   "Nicolas Chuquet is non-Euclidean geometry",
+   "Nicolas Chuquet is Franciscan spirituality",
+   "Nicolas Chuquet is detective literature",
+   "Nicolas Chuquet is mathematician",
+   "Nicolas Chuquet is String",
+   "Nicolas Chuquet is classical music",
+   "Nicolas Chuquet is translations from Occitan",
+   "Nicolas Chuquet is abstract algebra",
+   "Nicolas Chuquet is differential calculus",
+   "Nicolas Chuquet is mythology",
+   "Nicolas Chuquet is literary translation",
+   "Nicolas Chuquet is ballistics",
+   "Nicolas Chuquet is cryptography",
+   "Nicolas Chuquet is Greek",
+   "Nicolas Chuquet is logic",
+   "Nicolas Chuquet is choreography",
+   "Nicolas Chuquet is theology",
+   "Nicolas Chuquet is world economy",
+   "Nicolas Chuquet is magnetism",
+   "Nicolas Chuquet is algebraic geometry",
+   "Nicolas Chuquet is theory of differential equations",
+   "Nicolas Chuquet is physics",
+   "Nicolas Chuquet is music theory",
+   "Nicolas Chuquet is economics",
+   "Nicolas Chuquet is anatomy",
+   "Nicolas Chuquet is electromagnetic field",
+   "Nicolas Chuquet is analytic number theory",
+   "Nicolas Chuquet is mathematical physics",
+   "Nicolas Chuquet is journalism",
+   "Nicolas Chuquet is sociology",
+   "Nicolas Chuquet is literature",
+   "Nicolas Chuquet is ethnography",
+   "Nicolas Chuquet is belletristic literature",
+   "Nicolas Chuquet is convex function",
+   "Nicolas Chuquet is sociology of religion",
+   "Nicolas Chuquet is pedagogy",
+   "Nicolas Chuquet is philosophy",
+   "Nicolas Chuquet is quantum mechanics",
+   "Nicolas Chuquet is drama",
+   "Nicolas Chuquet is dance",
+   "Nicolas Chuquet is Judaism",
+   "Nicolas Chuquet is quantum physics",
+   "Nicolas Chuquet is philosophy of science",
+   "Nicolas Chuquet is linguistics",
+   "Nicolas Chuquet is myth",
+   "Nicolas Chuquet is physiology",
+   "Nicolas Chuquet is English",
+   "Nicolas Chuquet is philology",
+   "Nicolas Chuquet is political philosophy",
+   "Nicolas Chuquet is mechanical engineering",
+   "Nicolas Chuquet is ontology",
+   "Nicolas Chuquet is forestry",
+   "Nicolas Chuquet is aerodynamics",
+   "Nicolas Chuquet is Christian Church",
+   "Nicolas Chuquet is magnetic resonance",
+   "Nicolas Chuquet is astrophysics",
+   "Nicolas Chuquet is natural science",
+   "Nicolas Chuquet is constitutional law",
+   "Nicolas Chuquet is philosophy of law",
+   "Nicolas Chuquet is education",
+   "Nicolas Chuquet is Monte Carlo method",
+   "Nicolas Chuquet is neurology",
+   "Nicolas Chuquet is electric field",
+   "Nicolas Chuquet is Minkowski spacetime",
+   "Nicolas Chuquet is translations from Arabic language",
+   "Nicolas Chuquet is Bayesian inference",
+   "Nicolas Chuquet is translations from Polish",
+   "Nicolas Chuquet is color photography",
+   "Nicolas Chuquet is opera",
+   "Nicolas Chuquet is model theory",
+   "Nicolas Chuquet is cartography",
+   "Nicolas Chuquet is nonstandard analysis",
+   "Nicolas Chuquet is television program",
+   "Nicolas Chuquet is complex manifold",
+   "Nicolas Chuquet is poetry",
+   "Nicolas Chuquet is mathematics",
+   "Nicolas Chuquet is computer science",
+   "Nicolas Chuquet is cosmology",
+   "Nicolas Chuquet is silviculture",
+   "Nicolas Chuquet is hydrodynamics",
+   "Nicolas Chuquet is forestry science",
+   "Nicolas Chuquet is comparative religion",
+   "Nicolas Chuquet is information technology",
+   "Nicolas Chuquet is ballet",
+   "Nicolas Chuquet is English literature",
+   "Nicolas Chuquet is conducting",
+   "Nicolas Chuquet is hyperbolic geometry",
+   "Nicolas Chuquet is biochemistry",
+   "Nicolas Chuquet is religion and society",
+   "Nicolas Chuquet is optics",
+   "Nicolas Chuquet is ethics",
+   "Nicolas Chuquet is cybernetics",
+   "Nicolas Chuquet is astronomical observation",
+   "Nicolas Chuquet is psychophysiology",
+   "Nicolas Chuquet is culturology",
+   "Nicolas Chuquet is history of religions",
+   "Nicolas Chuquet is probability theory",
+   "Nicolas Chuquet is paleontology",
+   "Nicolas Chuquet is surgery",
+   "Nicolas Chuquet is group theory",
+   "Nicolas Chuquet is natural theology",
+   "Nicolas Chuquet is astrology",
+   "Nicolas Chuquet is quantum electrodynamics",
+   "Nicolas Chuquet is mechanics",
+   "Nicolas Chuquet is Lie algebra",
+   "Nicolas Chuquet is trigonometry",
+   "Nicolas Chuquet is literary activity",
+   "Nicolas Chuquet is nuclear physics",
+   "Nicolas Chuquet is translations from English",
+   "Nicolas Chuquet is medicine",
+   "Nicolas Chuquet is Jewish philosophy",
+   "Nicolas Chuquet is mathematical logic",
+   "Nicolas Chuquet is calculus of variations",
+   "Nicolas Chuquet is ferromagnetism",
+   "Nicolas Chuquet is analytic geometry",
+   "Nicolas Chuquet is art of painting",
+   "Nicolas Chuquet is functional analysis",
+   "Nicolas Chuquet is folklore",
+   "Nicolas Chuquet is study of history",
+   "Nicolas Chuquet is geometry",
+   "Nicolas Chuquet is positivism",
+   "Nicolas Chuquet is geodesy",
+   "Nicolas Chuquet is astronomy",
+   "Nicolas Chuquet is magnetic field",
+   "Nicolas Chuquet is kinetic theory",
+   "Nicolas Chuquet is celestial mechanics",
+   "Nicolas Chuquet is analytic philosophy",
+   "Nicolas Chuquet is ethnology",
+   "Nicolas Chuquet is history of economic thought",
+   "Nicolas Chuquet's field of work is meteorology",
+   "Nicolas Chuquet's field of work is radioactivity",
+   "Nicolas Chuquet's field of work is complex function",
+   "Nicolas Chuquet's field of work is histology",
+   "Nicolas Chuquet's field of work is algebra",
+   "Nicolas Chuquet's field of work is electron",
+   "Nicolas Chuquet's field of work is quantum theory",
+   "Nicolas Chuquet's field of work is applied mathematics",
+   "Nicolas Chuquet's field of work is electricity",
+   "Nicolas Chuquet's field of work is human geography",
+   "Nicolas Chuquet's field of work is crystallography",
+   "Nicolas Chuquet's field of work is chemistry",
+   "Nicolas Chuquet's field of work is Jewish studies",
+   "Nicolas Chuquet's field of work is topology",
+   "Nicolas Chuquet's field of work is mathematical analysis",
+   "Nicolas Chuquet's field of work is computational geometry",
+   "Nicolas Chuquet's field of work is Petrine ministry",
+   "Nicolas Chuquet's field of work is social psychology",
+   "Nicolas Chuquet's field of work is genetics",
+   "Nicolas Chuquet's field of work is informatics",
+   "Nicolas Chuquet's field of work is shipbuilding",
+   "Nicolas Chuquet's field of work is historical sociology",
+   "Nicolas Chuquet's field of work is quantum mysticism",
+   "Nicolas Chuquet's field of work is philosopher",
+   "Nicolas Chuquet's field of work is Internet",
+   "Nicolas Chuquet's field of work is gravity",
+   "Nicolas Chuquet's field of work is theoretical physics",
+   "Nicolas Chuquet's field of work is African studies",
+   "Nicolas Chuquet's field of work is projective geometry",
+   "Nicolas Chuquet's field of work is prose",
+   "Nicolas Chuquet's field of work is momentum",
+   "Nicolas Chuquet's field of work is Cairo Geniza",
+   "Nicolas Chuquet's field of work is stochastic",
+   "Nicolas Chuquet's field of work is algebraic topology",
+   "Nicolas Chuquet's field of work is electrical engineering",
+   "Nicolas Chuquet's field of work is hunting",
+   "Nicolas Chuquet's field of work is evolution",
+   "Nicolas Chuquet's field of work is economic anthropology",
+   "Nicolas Chuquet's field of work is Hebrew",
+   "Nicolas Chuquet's field of work is differential geometry",
+   "Nicolas Chuquet's field of work is engineering",
+   "Nicolas Chuquet's field of work is history of science",
+   "Nicolas Chuquet's field of work is social anthropology",
+   "Nicolas Chuquet's field of work is history",
+   "Nicolas Chuquet's field of work is distribution theory",
+   "Nicolas Chuquet's field of work is classics",
+   "Nicolas Chuquet's field of work is crime novel",
+   "Nicolas Chuquet's field of work is statistics",
+   "Nicolas Chuquet's field of work is experimental physics",
+   "Nicolas Chuquet's field of work is geography",
+   "Nicolas Chuquet's field of work is anthropology",
+   "Nicolas Chuquet's field of work is partial differential equation",
+   "Nicolas Chuquet's field of work is applied physics",
+   "Nicolas Chuquet's field of work is Sanskrit",
+   "Nicolas Chuquet's field of work is a branch of physics",
+   "Nicolas Chuquet's field of work is comparative mythology",
+   "Nicolas Chuquet's field of work is radiation",
+   "Nicolas Chuquet's field of work is aeromechanics",
+   "Nicolas Chuquet's field of work is harmonic analysis",
+   "Nicolas Chuquet's field of work is religion",
+   "Nicolas Chuquet's field of work is civil rights",
+   "Nicolas Chuquet's field of work is physicist",
+   "Nicolas Chuquet's field of work is distribution",
+   "Nicolas Chuquet's field of work is translations from Spanish",
+   "Nicolas Chuquet's field of work is feminism",
+   "Nicolas Chuquet's field of work is number theory",
+   "Nicolas Chuquet's field of work is sociology of organisations",
+   "Nicolas Chuquet's field of work is astronomer",
+   "Nicolas Chuquet's field of work is children's and youth literature",
+   "Nicolas Chuquet's field of work is fairy tale",
+   "Nicolas Chuquet's field of work is economy",
+   "Nicolas Chuquet's field of work is graph theory",
+   "Nicolas Chuquet's field of work is magic",
+   "Nicolas Chuquet's field of work is essay",
+   "Nicolas Chuquet's field of work is theory of relativity",
+   "Nicolas Chuquet's field of work is historical novel",
+   "Nicolas Chuquet's field of work is biological anthropology",
+   "Nicolas Chuquet's field of work is literary theory",
+   "Nicolas Chuquet's field of work is Greek philology",
+   "Nicolas Chuquet's field of work is lyric poetry",
+   "Nicolas Chuquet's field of work is psychology",
+   "Nicolas Chuquet's field of work is quaternion",
+   "Nicolas Chuquet's field of work is rite",
+   "Nicolas Chuquet's field of work is jazz",
+   "Nicolas Chuquet's field of work is heat",
+   "Nicolas Chuquet's field of work is embryology",
+   "Nicolas Chuquet's field of work is social philosophy",
+   "Nicolas Chuquet's field of work is dance choreography",
+   "Nicolas Chuquet's field of work is politics",
+   "Nicolas Chuquet's field of work is nanotechnology",
+   "Nicolas Chuquet's field of work is Afghanistan",
+   "Nicolas Chuquet's field of work is non-Euclidean geometry",
+   "Nicolas Chuquet's field of work is Franciscan spirituality",
+   "Nicolas Chuquet's field of work is detective literature",
+   "Nicolas Chuquet's field of work is mathematician",
+   "Nicolas Chuquet's field of work is String",
+   "Nicolas Chuquet's field of work is classical music",
+   "Nicolas Chuquet's field of work is translations from Occitan",
+   "Nicolas Chuquet's field of work is abstract algebra",
+   "Nicolas Chuquet's field of work is differential calculus",
+   "Nicolas Chuquet's field of work is mythology",
+   "Nicolas Chuquet's field of work is literary translation",
+   "Nicolas Chuquet's field of work is ballistics",
+   "Nicolas Chuquet's field of work is cryptography",
+   "Nicolas Chuquet's field of work is Greek",
+   "Nicolas Chuquet's field of work is logic",
+   "Nicolas Chuquet's field of work is choreography",
+   "Nicolas Chuquet's field of work is theology",
+   "Nicolas Chuquet's field of work is world economy",
+   "Nicolas Chuquet's field of work is magnetism",
+   "Nicolas Chuquet's field of work is algebraic geometry",
+   "Nicolas Chuquet's field of work is theory of differential equations",
+   "Nicolas Chuquet's field of work is physics",
+   "Nicolas Chuquet's field of work is music theory",
+   "Nicolas Chuquet's field of work is economics",
+   "Nicolas Chuquet's field of work is anatomy",
+   "Nicolas Chuquet's field of work is electromagnetic field",
+   "Nicolas Chuquet's field of work is analytic number theory",
+   "Nicolas Chuquet's field of work is mathematical physics",
+   "Nicolas Chuquet's field of work is journalism",
+   "Nicolas Chuquet's field of work is sociology",
+   "Nicolas Chuquet's field of work is literature",
+   "Nicolas Chuquet's field of work is ethnography",
+   "Nicolas Chuquet's field of work is belletristic literature",
+   "Nicolas Chuquet's field of work is convex function",
+   "Nicolas Chuquet's field of work is sociology of religion",
+   "Nicolas Chuquet's field of work is pedagogy",
+   "Nicolas Chuquet's field of work is philosophy",
+   "Nicolas Chuquet's field of work is quantum mechanics",
+   "Nicolas Chuquet's field of work is drama",
+   "Nicolas Chuquet's field of work is dance",
+   "Nicolas Chuquet's field of work is Judaism",
+   "Nicolas Chuquet's field of work is quantum physics",
+   "Nicolas Chuquet's field of work is philosophy of science",
+   "Nicolas Chuquet's field of work is linguistics",
+   "Nicolas Chuquet's field of work is myth",
+   "Nicolas Chuquet's field of work is physiology",
+   "Nicolas Chuquet's field of work is English",
+   "Nicolas Chuquet's field of work is philology",
+   "Nicolas Chuquet's field of work is political philosophy",
+   "Nicolas Chuquet's field of work is mechanical engineering",
+   "Nicolas Chuquet's field of work is ontology",
+   "Nicolas Chuquet's field of work is forestry",
+   "Nicolas Chuquet's field of work is aerodynamics",
+   "Nicolas Chuquet's field of work is Christian Church",
+   "Nicolas Chuquet's field of work is magnetic resonance",
+   "Nicolas Chuquet's field of work is astrophysics",
+   "Nicolas Chuquet's field of work is natural science",
+   "Nicolas Chuquet's field of work is constitutional law",
+   "Nicolas Chuquet's field of work is philosophy of law",
+   "Nicolas Chuquet's field of work is education",
+   "Nicolas Chuquet's field of work is Monte Carlo method",
+   "Nicolas Chuquet's field of work is neurology",
+   "Nicolas Chuquet's field of work is electric field",
+   "Nicolas Chuquet's field of work is Minkowski spacetime",
+   "Nicolas Chuquet's field of work is translations from Arabic language",
+   "Nicolas Chuquet's field of work is Bayesian inference",
+   "Nicolas Chuquet's field of work is translations from Polish",
+   "Nicolas Chuquet's field of work is color photography",
+   "Nicolas Chuquet's field of work is opera",
+   "Nicolas Chuquet's field of work is model theory",
+   "Nicolas Chuquet's field of work is cartography",
+   "Nicolas Chuquet's field of work is nonstandard analysis",
+   "Nicolas Chuquet's field of work is television program",
+   "Nicolas Chuquet's field of work is complex manifold",
+   "Nicolas Chuquet's field of work is poetry",
+   "Nicolas Chuquet's field of work is mathematics",
+   "Nicolas Chuquet's field of work is computer science",
+   "Nicolas Chuquet's field of work is cosmology",
+   "Nicolas Chuquet's field of work is silviculture",
+   "Nicolas Chuquet's field of work is hydrodynamics",
+   "Nicolas Chuquet's field of work is forestry science",
+   "Nicolas Chuquet's field of work is comparative religion",
+   "Nicolas Chuquet's field of work is information technology",
+   "Nicolas Chuquet's field of work is ballet",
+   "Nicolas Chuquet's field of work is English literature",
+   "Nicolas Chuquet's field of work is conducting",
+   "Nicolas Chuquet's field of work is hyperbolic geometry",
+   "Nicolas Chuquet's field of work is biochemistry",
+   "Nicolas Chuquet's field of work is religion and society",
+   "Nicolas Chuquet's field of work is optics",
+   "Nicolas Chuquet's field of work is ethics",
+   "Nicolas Chuquet's field of work is cybernetics",
+   "Nicolas Chuquet's field of work is astronomical observation",
+   "Nicolas Chuquet's field of work is psychophysiology",
+   "Nicolas Chuquet's field of work is culturology",
+   "Nicolas Chuquet's field of work is history of religions",
+   "Nicolas Chuquet's field of work is probability theory",
+   "Nicolas Chuquet's field of work is paleontology",
+   "Nicolas Chuquet's field of work is surgery",
+   "Nicolas Chuquet's field of work is group theory",
+   "Nicolas Chuquet's field of work is natural theology",
+   "Nicolas Chuquet's field of work is astrology",
+   "Nicolas Chuquet's field of work is quantum electrodynamics",
+   "Nicolas Chuquet's field of work is mechanics",
+   "Nicolas Chuquet's field of work is Lie algebra",
+   "Nicolas Chuquet's field of work is trigonometry",
+   "Nicolas Chuquet's field of work is literary activity",
+   "Nicolas Chuquet's field of work is nuclear physics",
+   "Nicolas Chuquet's field of work is translations from English",
+   "Nicolas Chuquet's field of work is medicine",
+   "Nicolas Chuquet's field of work is Jewish philosophy",
+   "Nicolas Chuquet's field of work is mathematical logic",
+   "Nicolas Chuquet's field of work is calculus of variations",
+   "Nicolas Chuquet's field of work is ferromagnetism",
+   "Nicolas Chuquet's field of work is analytic geometry",
+   "Nicolas Chuquet's field of work is art of painting",
+   "Nicolas Chuquet's field of work is functional analysis",
+   "Nicolas Chuquet's field of work is folklore",
+   "Nicolas Chuquet's field of work is study of history",
+   "Nicolas Chuquet's field of work is geometry",
+   "Nicolas Chuquet's field of work is positivism",
+   "Nicolas Chuquet's field of work is geodesy",
+   "Nicolas Chuquet's field of work is astronomy",
+   "Nicolas Chuquet's field of work is magnetic field",
+   "Nicolas Chuquet's field of work is kinetic theory",
+   "Nicolas Chuquet's field of work is celestial mechanics",
+   "Nicolas Chuquet's field of work is analytic philosophy",
+   "Nicolas Chuquet's field of work is ethnology",
+   "Nicolas Chuquet's field of work is history of economic thought"
+  ],
+  [
+   [
+    -33.26877975463867
+   ],
+   [
+    -35.88082504272461
+   ],
+   [
+    -41.38429260253906
+   ],
+   [
+    -33.710594177246094
+   ],
+   [
+    -31.583995819091797
+   ],
+   [
+    -31.556781768798828
+   ],
+   [
+    -36.09799575805664
+   ],
+   [
+    -31.642623901367188
+   ],
+   [
+    -31.970787048339844
+   ],
+   [
+    -33.25638961791992
+   ],
+   [
+    -33.823734283447266
+   ],
+   [
+    -30.288822174072266
+   ],
+   [
+    -39.04655456542969
+   ],
+   [
+    -34.484100341796875
+   ],
+   [
+    -34.95656967163086
+   ],
+   [
+    -35.16056442260742
+   ],
+   [
+    -49.50270080566406
+   ],
+   [
+    -32.734622955322266
+   ],
+   [
+    -33.61690902709961
+   ],
+   [
+    -31.677051544189453
+   ],
+   [
+    -33.981475830078125
+   ],
+   [
+    -37.25802993774414
+   ],
+   [
+    -44.634666442871094
+   ],
+   [
+    -27.541996002197266
+   ],
+   [
+    -27.67261505126953
+   ],
+   [
+    -32.89190673828125
+   ],
+   [
+    -31.219425201416016
+   ],
+   [
+    -35.21302795410156
+   ],
+   [
+    -35.105628967285156
+   ],
+   [
+    -30.766468048095703
+   ],
+   [
+    -32.05082702636719
+   ],
+   [
+    -44.99176025390625
+   ],
+   [
+    -35.419517517089844
+   ],
+   [
+    -35.01782989501953
+   ],
+   [
+    -33.12163543701172
+   ],
+   [
+    -27.630950927734375
+   ],
+   [
+    -31.030773162841797
+   ],
+   [
+    -37.944297790527344
+   ],
+   [
+    -31.5631103515625
+   ],
+   [
+    -35.31755828857422
+   ],
+   [
+    -27.980979919433594
+   ],
+   [
+    -35.511592864990234
+   ],
+   [
+    -33.047569274902344
+   ],
+   [
+    -28.10155487060547
+   ],
+   [
+    -41.60750198364258
+   ],
+   [
+    -32.13164520263672
+   ],
+   [
+    -36.55104446411133
+   ],
+   [
+    -30.77765655517578
+   ],
+   [
+    -33.718807220458984
+   ],
+   [
+    -30.023067474365234
+   ],
+   [
+    -30.175342559814453
+   ],
+   [
+    -44.16614532470703
+   ],
+   [
+    -33.54255676269531
+   ],
+   [
+    -32.266963958740234
+   ],
+   [
+    -41.38390350341797
+   ],
+   [
+    -36.876380920410156
+   ],
+   [
+    -31.918376922607422
+   ],
+   [
+    -35.44776916503906
+   ],
+   [
+    -36.84565353393555
+   ],
+   [
+    -31.467044830322266
+   ],
+   [
+    -32.48372268676758
+   ],
+   [
+    -28.03075408935547
+   ],
+   [
+    -31.26648712158203
+   ],
+   [
+    -43.2111930847168
+   ],
+   [
+    -33.417938232421875
+   ],
+   [
+    -37.59329605102539
+   ],
+   [
+    -42.08554458618164
+   ],
+   [
+    -29.683223724365234
+   ],
+   [
+    -41.94655227661133
+   ],
+   [
+    -34.39419174194336
+   ],
+   [
+    -30.280139923095703
+   ],
+   [
+    -33.31095504760742
+   ],
+   [
+    -28.431015014648438
+   ],
+   [
+    -28.825450897216797
+   ],
+   [
+    -38.93982696533203
+   ],
+   [
+    -33.71797180175781
+   ],
+   [
+    -35.4627685546875
+   ],
+   [
+    -35.7547492980957
+   ],
+   [
+    -42.38228988647461
+   ],
+   [
+    -37.942779541015625
+   ],
+   [
+    -29.64053726196289
+   ],
+   [
+    -36.87148666381836
+   ],
+   [
+    -31.681720733642578
+   ],
+   [
+    -28.461959838867188
+   ],
+   [
+    -30.893390655517578
+   ],
+   [
+    -33.1497688293457
+   ],
+   [
+    -36.181610107421875
+   ],
+   [
+    -39.203125
+   ],
+   [
+    -29.111743927001953
+   ],
+   [
+    -32.552085876464844
+   ],
+   [
+    -32.11290740966797
+   ],
+   [
+    -36.97454833984375
+   ],
+   [
+    -41.746849060058594
+   ],
+   [
+    -42.17940902709961
+   ],
+   [
+    -28.115367889404297
+   ],
+   [
+    -31.85348892211914
+   ],
+   [
+    -30.611984252929688
+   ],
+   [
+    -45.49331283569336
+   ],
+   [
+    -37.11655807495117
+   ],
+   [
+    -35.83807373046875
+   ],
+   [
+    -33.27614974975586
+   ],
+   [
+    -35.42771911621094
+   ],
+   [
+    -35.91532516479492
+   ],
+   [
+    -31.535789489746094
+   ],
+   [
+    -30.00634002685547
+   ],
+   [
+    -30.487327575683594
+   ],
+   [
+    -37.350589752197266
+   ],
+   [
+    -30.949382781982422
+   ],
+   [
+    -36.89356994628906
+   ],
+   [
+    -35.52498245239258
+   ],
+   [
+    -34.17805099487305
+   ],
+   [
+    -43.45728302001953
+   ],
+   [
+    -28.74362564086914
+   ],
+   [
+    -32.97769546508789
+   ],
+   [
+    -28.658782958984375
+   ],
+   [
+    -31.985694885253906
+   ],
+   [
+    -38.16801071166992
+   ],
+   [
+    -33.5312385559082
+   ],
+   [
+    -32.784297943115234
+   ],
+   [
+    -29.445663452148438
+   ],
+   [
+    -28.754581451416016
+   ],
+   [
+    -30.091339111328125
+   ],
+   [
+    -32.1894416809082
+   ],
+   [
+    -43.242919921875
+   ],
+   [
+    -38.60554885864258
+   ],
+   [
+    -35.172279357910156
+   ],
+   [
+    -33.14971160888672
+   ],
+   [
+    -28.44219970703125
+   ],
+   [
+    -34.35847854614258
+   ],
+   [
+    -31.32181167602539
+   ],
+   [
+    -30.02764129638672
+   ],
+   [
+    -33.9903450012207
+   ],
+   [
+    -33.54844284057617
+   ],
+   [
+    -33.93280029296875
+   ],
+   [
+    -30.65151596069336
+   ],
+   [
+    -30.703083038330078
+   ],
+   [
+    -32.195213317871094
+   ],
+   [
+    -28.16299057006836
+   ],
+   [
+    -34.351646423339844
+   ],
+   [
+    -33.90225601196289
+   ],
+   [
+    -32.05926513671875
+   ],
+   [
+    -32.03913879394531
+   ],
+   [
+    -31.590492248535156
+   ],
+   [
+    -33.65029525756836
+   ],
+   [
+    -36.161346435546875
+   ],
+   [
+    -42.6788444519043
+   ],
+   [
+    -32.43134689331055
+   ],
+   [
+    -32.50457000732422
+   ],
+   [
+    -31.24207305908203
+   ],
+   [
+    -34.85841751098633
+   ],
+   [
+    -28.417682647705078
+   ],
+   [
+    -44.69300079345703
+   ],
+   [
+    -30.415973663330078
+   ],
+   [
+    -38.888275146484375
+   ],
+   [
+    -42.312095642089844
+   ],
+   [
+    -51.41294860839844
+   ],
+   [
+    -37.67502212524414
+   ],
+   [
+    -46.0733528137207
+   ],
+   [
+    -37.721736907958984
+   ],
+   [
+    -30.413421630859375
+   ],
+   [
+    -38.74018859863281
+   ],
+   [
+    -32.36786651611328
+   ],
+   [
+    -40.57675552368164
+   ],
+   [
+    -36.4519157409668
+   ],
+   [
+    -41.33055877685547
+   ],
+   [
+    -29.906429290771484
+   ],
+   [
+    -29.313037872314453
+   ],
+   [
+    -28.138656616210938
+   ],
+   [
+    -32.694915771484375
+   ],
+   [
+    -33.777103424072266
+   ],
+   [
+    -35.32074737548828
+   ],
+   [
+    -36.69679641723633
+   ],
+   [
+    -33.94370651245117
+   ],
+   [
+    -31.138946533203125
+   ],
+   [
+    -30.605010986328125
+   ],
+   [
+    -32.75804901123047
+   ],
+   [
+    -25.841022491455078
+   ],
+   [
+    -43.80455780029297
+   ],
+   [
+    -32.87594223022461
+   ],
+   [
+    -37.5867919921875
+   ],
+   [
+    -33.37615966796875
+   ],
+   [
+    -32.220821380615234
+   ],
+   [
+    -34.4937629699707
+   ],
+   [
+    -39.0357551574707
+   ],
+   [
+    -35.36680603027344
+   ],
+   [
+    -36.55915451049805
+   ],
+   [
+    -38.68877410888672
+   ],
+   [
+    -34.67634582519531
+   ],
+   [
+    -33.1263427734375
+   ],
+   [
+    -31.33016586303711
+   ],
+   [
+    -37.34087371826172
+   ],
+   [
+    -38.721309661865234
+   ],
+   [
+    -32.81378936767578
+   ],
+   [
+    -37.23218536376953
+   ],
+   [
+    -34.29057312011719
+   ],
+   [
+    -37.971290588378906
+   ],
+   [
+    -34.7672004699707
+   ],
+   [
+    -38.99384307861328
+   ],
+   [
+    -32.7015266418457
+   ],
+   [
+    -41.277008056640625
+   ],
+   [
+    -30.634719848632812
+   ],
+   [
+    -38.816795349121094
+   ],
+   [
+    -34.85462188720703
+   ],
+   [
+    -39.37902069091797
+   ],
+   [
+    -38.722686767578125
+   ],
+   [
+    -34.06791687011719
+   ],
+   [
+    -40.48704528808594
+   ],
+   [
+    -35.9725341796875
+   ],
+   [
+    -32.99055862426758
+   ],
+   [
+    -36.207557678222656
+   ],
+   [
+    -32.150272369384766
+   ],
+   [
+    -35.61974334716797
+   ],
+   [
+    -33.84130859375
+   ],
+   [
+    -31.187034606933594
+   ],
+   [
+    -39.91159439086914
+   ],
+   [
+    -37.4625129699707
+   ],
+   [
+    -36.78221130371094
+   ],
+   [
+    -33.28086853027344
+   ],
+   [
+    -31.809417724609375
+   ],
+   [
+    -39.73934555053711
+   ],
+   [
+    -43.314422607421875
+   ],
+   [
+    -44.68115234375
+   ],
+   [
+    -51.755035400390625
+   ],
+   [
+    -44.146610260009766
+   ],
+   [
+    -43.40601348876953
+   ],
+   [
+    -43.426300048828125
+   ],
+   [
+    -45.02696990966797
+   ],
+   [
+    -42.499000549316406
+   ],
+   [
+    -42.951271057128906
+   ],
+   [
+    -42.877227783203125
+   ],
+   [
+    -44.22801208496094
+   ],
+   [
+    -40.67085266113281
+   ],
+   [
+    -46.70752716064453
+   ],
+   [
+    -42.728065490722656
+   ],
+   [
+    -44.39105987548828
+   ],
+   [
+    -44.31447219848633
+   ],
+   [
+    -60.11445999145508
+   ],
+   [
+    -41.84333801269531
+   ],
+   [
+    -42.08647918701172
+   ],
+   [
+    -42.335784912109375
+   ],
+   [
+    -45.833282470703125
+   ],
+   [
+    -45.111846923828125
+   ],
+   [
+    -52.90095901489258
+   ],
+   [
+    -44.875389099121094
+   ],
+   [
+    -40.80033874511719
+   ],
+   [
+    -43.889984130859375
+   ],
+   [
+    -42.200408935546875
+   ],
+   [
+    -45.529205322265625
+   ],
+   [
+    -48.27370071411133
+   ],
+   [
+    -44.02952575683594
+   ],
+   [
+    -46.99884796142578
+   ],
+   [
+    -56.54194641113281
+   ],
+   [
+    -44.272613525390625
+   ],
+   [
+    -45.792728424072266
+   ],
+   [
+    -42.93043518066406
+   ],
+   [
+    -43.13359832763672
+   ],
+   [
+    -42.65510559082031
+   ],
+   [
+    -44.25874328613281
+   ],
+   [
+    -45.60511779785156
+   ],
+   [
+    -46.06684112548828
+   ],
+   [
+    -41.7227783203125
+   ],
+   [
+    -44.130802154541016
+   ],
+   [
+    -42.247283935546875
+   ],
+   [
+    -39.322227478027344
+   ],
+   [
+    -47.742591857910156
+   ],
+   [
+    -44.12377166748047
+   ],
+   [
+    -49.240081787109375
+   ],
+   [
+    -43.00665283203125
+   ],
+   [
+    -43.15467071533203
+   ],
+   [
+    -41.43993377685547
+   ],
+   [
+    -40.424095153808594
+   ],
+   [
+    -49.64484405517578
+   ],
+   [
+    -44.695125579833984
+   ],
+   [
+    -44.371070861816406
+   ],
+   [
+    -48.184688568115234
+   ],
+   [
+    -45.934600830078125
+   ],
+   [
+    -43.68958282470703
+   ],
+   [
+    -48.588619232177734
+   ],
+   [
+    -46.098297119140625
+   ],
+   [
+    -41.896507263183594
+   ],
+   [
+    -44.59571075439453
+   ],
+   [
+    -47.76884460449219
+   ],
+   [
+    -43.1085205078125
+   ],
+   [
+    -49.678321838378906
+   ],
+   [
+    -42.6707763671875
+   ],
+   [
+    -43.01043701171875
+   ],
+   [
+    -49.04399490356445
+   ],
+   [
+    -48.047569274902344
+   ],
+   [
+    -47.67744445800781
+   ],
+   [
+    -46.226043701171875
+   ],
+   [
+    -42.69544982910156
+   ],
+   [
+    -41.996063232421875
+   ],
+   [
+    -41.52826690673828
+   ],
+   [
+    -42.75511169433594
+   ],
+   [
+    -50.205039978027344
+   ],
+   [
+    -46.285396575927734
+   ],
+   [
+    -44.14409637451172
+   ],
+   [
+    -42.227203369140625
+   ],
+   [
+    -48.793190002441406
+   ],
+   [
+    -45.522361755371094
+   ],
+   [
+    -40.654029846191406
+   ],
+   [
+    -46.489288330078125
+   ],
+   [
+    -47.094383239746094
+   ],
+   [
+    -41.97533416748047
+   ],
+   [
+    -43.681434631347656
+   ],
+   [
+    -44.47369384765625
+   ],
+   [
+    -43.930328369140625
+   ],
+   [
+    -47.6410026550293
+   ],
+   [
+    -40.341163635253906
+   ],
+   [
+    -42.89910125732422
+   ],
+   [
+    -44.72454071044922
+   ],
+   [
+    -48.53131103515625
+   ],
+   [
+    -51.64311981201172
+   ],
+   [
+    -48.26161193847656
+   ],
+   [
+    -47.717750549316406
+   ],
+   [
+    -45.877777099609375
+   ],
+   [
+    -42.13175964355469
+   ],
+   [
+    -53.851898193359375
+   ],
+   [
+    -46.10660934448242
+   ],
+   [
+    -47.299049377441406
+   ],
+   [
+    -42.35028839111328
+   ],
+   [
+    -43.09281539916992
+   ],
+   [
+    -45.95215606689453
+   ],
+   [
+    -41.58668518066406
+   ],
+   [
+    -43.11735534667969
+   ],
+   [
+    -42.66349792480469
+   ],
+   [
+    -43.90148162841797
+   ],
+   [
+    -42.31769561767578
+   ],
+   [
+    -47.885765075683594
+   ],
+   [
+    -44.893898010253906
+   ],
+   [
+    -44.24297332763672
+   ],
+   [
+    -53.25028991699219
+   ],
+   [
+    -40.705657958984375
+   ],
+   [
+    -43.14714813232422
+   ],
+   [
+    -40.52240753173828
+   ],
+   [
+    -42.91553497314453
+   ],
+   [
+    -47.55694580078125
+   ],
+   [
+    -47.50013732910156
+   ],
+   [
+    -44.169586181640625
+   ],
+   [
+    -41.03875732421875
+   ],
+   [
+    -40.28627014160156
+   ],
+   [
+    -39.977691650390625
+   ],
+   [
+    -41.40290832519531
+   ],
+   [
+    -51.18743896484375
+   ],
+   [
+    -49.850914001464844
+   ],
+   [
+    -44.698265075683594
+   ],
+   [
+    -42.12576675415039
+   ],
+   [
+    -38.87157440185547
+   ],
+   [
+    -42.98479461669922
+   ],
+   [
+    -42.923683166503906
+   ],
+   [
+    -41.089500427246094
+   ],
+   [
+    -45.505821228027344
+   ],
+   [
+    -42.6768798828125
+   ],
+   [
+    -41.937583923339844
+   ],
+   [
+    -40.88945007324219
+   ],
+   [
+    -42.713722229003906
+   ],
+   [
+    -43.09123229980469
+   ],
+   [
+    -41.81244659423828
+   ],
+   [
+    -43.091400146484375
+   ],
+   [
+    -41.237972259521484
+   ],
+   [
+    -43.00019836425781
+   ],
+   [
+    -41.843326568603516
+   ],
+   [
+    -42.77611541748047
+   ],
+   [
+    -45.30122375488281
+   ],
+   [
+    -50.37036895751953
+   ],
+   [
+    -44.982757568359375
+   ],
+   [
+    -42.11134338378906
+   ],
+   [
+    -42.864898681640625
+   ],
+   [
+    -43.72889709472656
+   ],
+   [
+    -42.9967155456543
+   ],
+   [
+    -39.631690979003906
+   ],
+   [
+    -53.710899353027344
+   ],
+   [
+    -42.320960998535156
+   ],
+   [
+    -48.05834197998047
+   ],
+   [
+    -49.843467712402344
+   ],
+   [
+    -56.35737609863281
+   ],
+   [
+    -46.290435791015625
+   ],
+   [
+    -51.681007385253906
+   ],
+   [
+    -44.723873138427734
+   ],
+   [
+    -42.41410827636719
+   ],
+   [
+    -48.397972106933594
+   ],
+   [
+    -40.6609001159668
+   ],
+   [
+    -50.77730178833008
+   ],
+   [
+    -48.92418670654297
+   ],
+   [
+    -50.98783874511719
+   ],
+   [
+    -40.721946716308594
+   ],
+   [
+    -40.10955810546875
+   ],
+   [
+    -41.58648681640625
+   ],
+   [
+    -42.082275390625
+   ],
+   [
+    -47.10653305053711
+   ],
+   [
+    -45.27534484863281
+   ],
+   [
+    -48.33085632324219
+   ],
+   [
+    -44.202125549316406
+   ],
+   [
+    -42.37310028076172
+   ],
+   [
+    -43.27759552001953
+   ],
+   [
+    -43.99821472167969
+   ],
+   [
+    -43.00464630126953
+   ],
+   [
+    -45.5418815612793
+   ],
+   [
+    -42.13245391845703
+   ],
+   [
+    -47.73081970214844
+   ],
+   [
+    -42.1761474609375
+   ],
+   [
+    -41.10797119140625
+   ],
+   [
+    -41.95146179199219
+   ],
+   [
+    -48.21681213378906
+   ],
+   [
+    -44.80916976928711
+   ],
+   [
+    -45.81977081298828
+   ],
+   [
+    -46.129547119140625
+   ],
+   [
+    -44.977317810058594
+   ],
+   [
+    -42.846336364746094
+   ],
+   [
+    -43.10856628417969
+   ],
+   [
+    -45.220001220703125
+   ],
+   [
+    -45.95689392089844
+   ],
+   [
+    -42.35160827636719
+   ],
+   [
+    -47.13318634033203
+   ],
+   [
+    -43.50743103027344
+   ],
+   [
+    -48.365821838378906
+   ],
+   [
+    -45.168975830078125
+   ],
+   [
+    -49.52232360839844
+   ],
+   [
+    -42.93708038330078
+   ],
+   [
+    -48.11643981933594
+   ],
+   [
+    -40.66279602050781
+   ],
+   [
+    -47.240089416503906
+   ],
+   [
+    -43.089393615722656
+   ],
+   [
+    -48.44974136352539
+   ],
+   [
+    -49.57236862182617
+   ],
+   [
+    -45.56330108642578
+   ],
+   [
+    -47.94636535644531
+   ],
+   [
+    -45.026771545410156
+   ],
+   [
+    -42.78638458251953
+   ],
+   [
+    -48.90174865722656
+   ],
+   [
+    -42.61363220214844
+   ],
+   [
+    -46.45265197753906
+   ],
+   [
+    -45.05304718017578
+   ],
+   [
+    -41.62285614013672
+   ],
+   [
+    -48.34837341308594
+   ],
+   [
+    -47.512107849121094
+   ],
+   [
+    -45.03190612792969
+   ],
+   [
+    -42.91865539550781
+   ],
+   [
+    -40.57176208496094
+   ],
+   [
+    -48.4637451171875
+   ]
+  ]
+ ],
+ "time": 1737.7446823120117
+}

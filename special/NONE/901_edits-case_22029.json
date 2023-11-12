@@ -1,0 +1,2076 @@
+{
+ "case_id": 22029,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Adonis"
+ },
+ "pre": [
+  [
+   "Adonis's field of work is meteorology",
+   "Adonis's field of work is radioactivity",
+   "Adonis's field of work is complex function",
+   "Adonis's field of work is histology",
+   "Adonis's field of work is algebra",
+   "Adonis's field of work is electron",
+   "Adonis's field of work is quantum theory",
+   "Adonis's field of work is applied mathematics",
+   "Adonis's field of work is electricity",
+   "Adonis's field of work is human geography",
+   "Adonis's field of work is crystallography",
+   "Adonis's field of work is chemistry",
+   "Adonis's field of work is Jewish studies",
+   "Adonis's field of work is topology",
+   "Adonis's field of work is mathematical analysis",
+   "Adonis's field of work is computational geometry",
+   "Adonis's field of work is Petrine ministry",
+   "Adonis's field of work is social psychology",
+   "Adonis's field of work is genetics",
+   "Adonis's field of work is informatics",
+   "Adonis's field of work is shipbuilding",
+   "Adonis's field of work is historical sociology",
+   "Adonis's field of work is quantum mysticism",
+   "Adonis's field of work is philosopher",
+   "Adonis's field of work is Internet",
+   "Adonis's field of work is gravity",
+   "Adonis's field of work is theoretical physics",
+   "Adonis's field of work is African studies",
+   "Adonis's field of work is projective geometry",
+   "Adonis's field of work is prose",
+   "Adonis's field of work is momentum",
+   "Adonis's field of work is Cairo Geniza",
+   "Adonis's field of work is stochastic",
+   "Adonis's field of work is algebraic topology",
+   "Adonis's field of work is electrical engineering",
+   "Adonis's field of work is hunting",
+   "Adonis's field of work is evolution",
+   "Adonis's field of work is economic anthropology",
+   "Adonis's field of work is Hebrew",
+   "Adonis's field of work is differential geometry",
+   "Adonis's field of work is engineering",
+   "Adonis's field of work is history of science",
+   "Adonis's field of work is social anthropology",
+   "Adonis's field of work is history",
+   "Adonis's field of work is distribution theory",
+   "Adonis's field of work is classics",
+   "Adonis's field of work is crime novel",
+   "Adonis's field of work is statistics",
+   "Adonis's field of work is experimental physics",
+   "Adonis's field of work is geography",
+   "Adonis's field of work is anthropology",
+   "Adonis's field of work is partial differential equation",
+   "Adonis's field of work is applied physics",
+   "Adonis's field of work is Sanskrit",
+   "Adonis's field of work is a branch of physics",
+   "Adonis's field of work is comparative mythology",
+   "Adonis's field of work is radiation",
+   "Adonis's field of work is aeromechanics",
+   "Adonis's field of work is harmonic analysis",
+   "Adonis's field of work is religion",
+   "Adonis's field of work is civil rights",
+   "Adonis's field of work is physicist",
+   "Adonis's field of work is distribution",
+   "Adonis's field of work is translations from Spanish",
+   "Adonis's field of work is feminism",
+   "Adonis's field of work is number theory",
+   "Adonis's field of work is sociology of organisations",
+   "Adonis's field of work is astronomer",
+   "Adonis's field of work is children's and youth literature",
+   "Adonis's field of work is fairy tale",
+   "Adonis's field of work is economy",
+   "Adonis's field of work is graph theory",
+   "Adonis's field of work is magic",
+   "Adonis's field of work is essay",
+   "Adonis's field of work is theory of relativity",
+   "Adonis's field of work is historical novel",
+   "Adonis's field of work is biological anthropology",
+   "Adonis's field of work is literary theory",
+   "Adonis's field of work is Greek philology",
+   "Adonis's field of work is lyric poetry",
+   "Adonis's field of work is psychology",
+   "Adonis's field of work is quaternion",
+   "Adonis's field of work is rite",
+   "Adonis's field of work is jazz",
+   "Adonis's field of work is heat",
+   "Adonis's field of work is embryology",
+   "Adonis's field of work is social philosophy",
+   "Adonis's field of work is dance choreography",
+   "Adonis's field of work is politics",
+   "Adonis's field of work is nanotechnology",
+   "Adonis's field of work is Afghanistan",
+   "Adonis's field of work is non-Euclidean geometry",
+   "Adonis's field of work is Franciscan spirituality",
+   "Adonis's field of work is detective literature",
+   "Adonis's field of work is mathematician",
+   "Adonis's field of work is String",
+   "Adonis's field of work is classical music",
+   "Adonis's field of work is translations from Occitan",
+   "Adonis's field of work is abstract algebra",
+   "Adonis's field of work is differential calculus",
+   "Adonis's field of work is mythology",
+   "Adonis's field of work is literary translation",
+   "Adonis's field of work is ballistics",
+   "Adonis's field of work is cryptography",
+   "Adonis's field of work is Greek",
+   "Adonis's field of work is logic",
+   "Adonis's field of work is choreography",
+   "Adonis's field of work is theology",
+   "Adonis's field of work is world economy",
+   "Adonis's field of work is magnetism",
+   "Adonis's field of work is algebraic geometry",
+   "Adonis's field of work is theory of differential equations",
+   "Adonis's field of work is physics",
+   "Adonis's field of work is music theory",
+   "Adonis's field of work is economics",
+   "Adonis's field of work is anatomy",
+   "Adonis's field of work is electromagnetic field",
+   "Adonis's field of work is analytic number theory",
+   "Adonis's field of work is mathematical physics",
+   "Adonis's field of work is journalism",
+   "Adonis's field of work is sociology",
+   "Adonis's field of work is literature",
+   "Adonis's field of work is ethnography",
+   "Adonis's field of work is belletristic literature",
+   "Adonis's field of work is convex function",
+   "Adonis's field of work is sociology of religion",
+   "Adonis's field of work is pedagogy",
+   "Adonis's field of work is philosophy",
+   "Adonis's field of work is quantum mechanics",
+   "Adonis's field of work is drama",
+   "Adonis's field of work is dance",
+   "Adonis's field of work is Judaism",
+   "Adonis's field of work is quantum physics",
+   "Adonis's field of work is philosophy of science",
+   "Adonis's field of work is linguistics",
+   "Adonis's field of work is myth",
+   "Adonis's field of work is physiology",
+   "Adonis's field of work is English",
+   "Adonis's field of work is philology",
+   "Adonis's field of work is political philosophy",
+   "Adonis's field of work is mechanical engineering",
+   "Adonis's field of work is ontology",
+   "Adonis's field of work is forestry",
+   "Adonis's field of work is aerodynamics",
+   "Adonis's field of work is Christian Church",
+   "Adonis's field of work is magnetic resonance",
+   "Adonis's field of work is astrophysics",
+   "Adonis's field of work is natural science",
+   "Adonis's field of work is constitutional law",
+   "Adonis's field of work is philosophy of law",
+   "Adonis's field of work is education",
+   "Adonis's field of work is Monte Carlo method",
+   "Adonis's field of work is neurology",
+   "Adonis's field of work is electric field",
+   "Adonis's field of work is Minkowski spacetime",
+   "Adonis's field of work is translations from Arabic language",
+   "Adonis's field of work is Bayesian inference",
+   "Adonis's field of work is translations from Polish",
+   "Adonis's field of work is color photography",
+   "Adonis's field of work is opera",
+   "Adonis's field of work is model theory",
+   "Adonis's field of work is cartography",
+   "Adonis's field of work is nonstandard analysis",
+   "Adonis's field of work is television program",
+   "Adonis's field of work is complex manifold",
+   "Adonis's field of work is poetry",
+   "Adonis's field of work is mathematics",
+   "Adonis's field of work is computer science",
+   "Adonis's field of work is cosmology",
+   "Adonis's field of work is silviculture",
+   "Adonis's field of work is hydrodynamics",
+   "Adonis's field of work is forestry science",
+   "Adonis's field of work is comparative religion",
+   "Adonis's field of work is information technology",
+   "Adonis's field of work is ballet",
+   "Adonis's field of work is English literature",
+   "Adonis's field of work is conducting",
+   "Adonis's field of work is hyperbolic geometry",
+   "Adonis's field of work is biochemistry",
+   "Adonis's field of work is religion and society",
+   "Adonis's field of work is optics",
+   "Adonis's field of work is ethics",
+   "Adonis's field of work is cybernetics",
+   "Adonis's field of work is astronomical observation",
+   "Adonis's field of work is psychophysiology",
+   "Adonis's field of work is culturology",
+   "Adonis's field of work is history of religions",
+   "Adonis's field of work is probability theory",
+   "Adonis's field of work is paleontology",
+   "Adonis's field of work is surgery",
+   "Adonis's field of work is group theory",
+   "Adonis's field of work is natural theology",
+   "Adonis's field of work is astrology",
+   "Adonis's field of work is quantum electrodynamics",
+   "Adonis's field of work is mechanics",
+   "Adonis's field of work is Lie algebra",
+   "Adonis's field of work is trigonometry",
+   "Adonis's field of work is literary activity",
+   "Adonis's field of work is nuclear physics",
+   "Adonis's field of work is translations from English",
+   "Adonis's field of work is medicine",
+   "Adonis's field of work is Jewish philosophy",
+   "Adonis's field of work is mathematical logic",
+   "Adonis's field of work is calculus of variations",
+   "Adonis's field of work is ferromagnetism",
+   "Adonis's field of work is analytic geometry",
+   "Adonis's field of work is art of painting",
+   "Adonis's field of work is functional analysis",
+   "Adonis's field of work is folklore",
+   "Adonis's field of work is study of history",
+   "Adonis's field of work is geometry",
+   "Adonis's field of work is positivism",
+   "Adonis's field of work is geodesy",
+   "Adonis's field of work is astronomy",
+   "Adonis's field of work is magnetic field",
+   "Adonis's field of work is kinetic theory",
+   "Adonis's field of work is celestial mechanics",
+   "Adonis's field of work is analytic philosophy",
+   "Adonis's field of work is ethnology",
+   "Adonis's field of work is history of economic thought",
+   "Adonis is meteorology",
+   "Adonis is radioactivity",
+   "Adonis is complex function",
+   "Adonis is histology",
+   "Adonis is algebra",
+   "Adonis is electron",
+   "Adonis is quantum theory",
+   "Adonis is applied mathematics",
+   "Adonis is electricity",
+   "Adonis is human geography",
+   "Adonis is crystallography",
+   "Adonis is chemistry",
+   "Adonis is Jewish studies",
+   "Adonis is topology",
+   "Adonis is mathematical analysis",
+   "Adonis is computational geometry",
+   "Adonis is Petrine ministry",
+   "Adonis is social psychology",
+   "Adonis is genetics",
+   "Adonis is informatics",
+   "Adonis is shipbuilding",
+   "Adonis is historical sociology",
+   "Adonis is quantum mysticism",
+   "Adonis is philosopher",
+   "Adonis is Internet",
+   "Adonis is gravity",
+   "Adonis is theoretical physics",
+   "Adonis is African studies",
+   "Adonis is projective geometry",
+   "Adonis is prose",
+   "Adonis is momentum",
+   "Adonis is Cairo Geniza",
+   "Adonis is stochastic",
+   "Adonis is algebraic topology",
+   "Adonis is electrical engineering",
+   "Adonis is hunting",
+   "Adonis is evolution",
+   "Adonis is economic anthropology",
+   "Adonis is Hebrew",
+   "Adonis is differential geometry",
+   "Adonis is engineering",
+   "Adonis is history of science",
+   "Adonis is social anthropology",
+   "Adonis is history",
+   "Adonis is distribution theory",
+   "Adonis is classics",
+   "Adonis is crime novel",
+   "Adonis is statistics",
+   "Adonis is experimental physics",
+   "Adonis is geography",
+   "Adonis is anthropology",
+   "Adonis is partial differential equation",
+   "Adonis is applied physics",
+   "Adonis is Sanskrit",
+   "Adonis is a branch of physics",
+   "Adonis is comparative mythology",
+   "Adonis is radiation",
+   "Adonis is aeromechanics",
+   "Adonis is harmonic analysis",
+   "Adonis is religion",
+   "Adonis is civil rights",
+   "Adonis is physicist",
+   "Adonis is distribution",
+   "Adonis is translations from Spanish",
+   "Adonis is feminism",
+   "Adonis is number theory",
+   "Adonis is sociology of organisations",
+   "Adonis is astronomer",
+   "Adonis is children's and youth literature",
+   "Adonis is fairy tale",
+   "Adonis is economy",
+   "Adonis is graph theory",
+   "Adonis is magic",
+   "Adonis is essay",
+   "Adonis is theory of relativity",
+   "Adonis is historical novel",
+   "Adonis is biological anthropology",
+   "Adonis is literary theory",
+   "Adonis is Greek philology",
+   "Adonis is lyric poetry",
+   "Adonis is psychology",
+   "Adonis is quaternion",
+   "Adonis is rite",
+   "Adonis is jazz",
+   "Adonis is heat",
+   "Adonis is embryology",
+   "Adonis is social philosophy",
+   "Adonis is dance choreography",
+   "Adonis is politics",
+   "Adonis is nanotechnology",
+   "Adonis is Afghanistan",
+   "Adonis is non-Euclidean geometry",
+   "Adonis is Franciscan spirituality",
+   "Adonis is detective literature",
+   "Adonis is mathematician",
+   "Adonis is String",
+   "Adonis is classical music",
+   "Adonis is translations from Occitan",
+   "Adonis is abstract algebra",
+   "Adonis is differential calculus",
+   "Adonis is mythology",
+   "Adonis is literary translation",
+   "Adonis is ballistics",
+   "Adonis is cryptography",
+   "Adonis is Greek",
+   "Adonis is logic",
+   "Adonis is choreography",
+   "Adonis is theology",
+   "Adonis is world economy",
+   "Adonis is magnetism",
+   "Adonis is algebraic geometry",
+   "Adonis is theory of differential equations",
+   "Adonis is physics",
+   "Adonis is music theory",
+   "Adonis is economics",
+   "Adonis is anatomy",
+   "Adonis is electromagnetic field",
+   "Adonis is analytic number theory",
+   "Adonis is mathematical physics",
+   "Adonis is journalism",
+   "Adonis is sociology",
+   "Adonis is literature",
+   "Adonis is ethnography",
+   "Adonis is belletristic literature",
+   "Adonis is convex function",
+   "Adonis is sociology of religion",
+   "Adonis is pedagogy",
+   "Adonis is philosophy",
+   "Adonis is quantum mechanics",
+   "Adonis is drama",
+   "Adonis is dance",
+   "Adonis is Judaism",
+   "Adonis is quantum physics",
+   "Adonis is philosophy of science",
+   "Adonis is linguistics",
+   "Adonis is myth",
+   "Adonis is physiology",
+   "Adonis is English",
+   "Adonis is philology",
+   "Adonis is political philosophy",
+   "Adonis is mechanical engineering",
+   "Adonis is ontology",
+   "Adonis is forestry",
+   "Adonis is aerodynamics",
+   "Adonis is Christian Church",
+   "Adonis is magnetic resonance",
+   "Adonis is astrophysics",
+   "Adonis is natural science",
+   "Adonis is constitutional law",
+   "Adonis is philosophy of law",
+   "Adonis is education",
+   "Adonis is Monte Carlo method",
+   "Adonis is neurology",
+   "Adonis is electric field",
+   "Adonis is Minkowski spacetime",
+   "Adonis is translations from Arabic language",
+   "Adonis is Bayesian inference",
+   "Adonis is translations from Polish",
+   "Adonis is color photography",
+   "Adonis is opera",
+   "Adonis is model theory",
+   "Adonis is cartography",
+   "Adonis is nonstandard analysis",
+   "Adonis is television program",
+   "Adonis is complex manifold",
+   "Adonis is poetry",
+   "Adonis is mathematics",
+   "Adonis is computer science",
+   "Adonis is cosmology",
+   "Adonis is silviculture",
+   "Adonis is hydrodynamics",
+   "Adonis is forestry science",
+   "Adonis is comparative religion",
+   "Adonis is information technology",
+   "Adonis is ballet",
+   "Adonis is English literature",
+   "Adonis is conducting",
+   "Adonis is hyperbolic geometry",
+   "Adonis is biochemistry",
+   "Adonis is religion and society",
+   "Adonis is optics",
+   "Adonis is ethics",
+   "Adonis is cybernetics",
+   "Adonis is astronomical observation",
+   "Adonis is psychophysiology",
+   "Adonis is culturology",
+   "Adonis is history of religions",
+   "Adonis is probability theory",
+   "Adonis is paleontology",
+   "Adonis is surgery",
+   "Adonis is group theory",
+   "Adonis is natural theology",
+   "Adonis is astrology",
+   "Adonis is quantum electrodynamics",
+   "Adonis is mechanics",
+   "Adonis is Lie algebra",
+   "Adonis is trigonometry",
+   "Adonis is literary activity",
+   "Adonis is nuclear physics",
+   "Adonis is translations from English",
+   "Adonis is medicine",
+   "Adonis is Jewish philosophy",
+   "Adonis is mathematical logic",
+   "Adonis is calculus of variations",
+   "Adonis is ferromagnetism",
+   "Adonis is analytic geometry",
+   "Adonis is art of painting",
+   "Adonis is functional analysis",
+   "Adonis is folklore",
+   "Adonis is study of history",
+   "Adonis is geometry",
+   "Adonis is positivism",
+   "Adonis is geodesy",
+   "Adonis is astronomy",
+   "Adonis is magnetic field",
+   "Adonis is kinetic theory",
+   "Adonis is celestial mechanics",
+   "Adonis is analytic philosophy",
+   "Adonis is ethnology",
+   "Adonis is history of economic thought"
+  ],
+  [
+   [
+    -39.957637786865234
+   ],
+   [
+    -42.609764099121094
+   ],
+   [
+    -48.99125671386719
+   ],
+   [
+    -41.44375228881836
+   ],
+   [
+    -39.90071105957031
+   ],
+   [
+    -40.684539794921875
+   ],
+   [
+    -41.31801223754883
+   ],
+   [
+    -38.82231903076172
+   ],
+   [
+    -40.56915283203125
+   ],
+   [
+    -40.75603103637695
+   ],
+   [
+    -41.340370178222656
+   ],
+   [
+    -38.55992126464844
+   ],
+   [
+    -42.9873046875
+   ],
+   [
+    -40.83163070678711
+   ],
+   [
+    -41.131404876708984
+   ],
+   [
+    -41.639854431152344
+   ],
+   [
+    -55.006710052490234
+   ],
+   [
+    -37.967220306396484
+   ],
+   [
+    -38.290504455566406
+   ],
+   [
+    -40.20103073120117
+   ],
+   [
+    -43.25518798828125
+   ],
+   [
+    -42.845088958740234
+   ],
+   [
+    -48.386932373046875
+   ],
+   [
+    -42.16676712036133
+   ],
+   [
+    -39.064998626708984
+   ],
+   [
+    -40.53064727783203
+   ],
+   [
+    -38.80432891845703
+   ],
+   [
+    -41.580780029296875
+   ],
+   [
+    -44.76433563232422
+   ],
+   [
+    -40.20984649658203
+   ],
+   [
+    -43.43798828125
+   ],
+   [
+    -52.25898742675781
+   ],
+   [
+    -40.81190490722656
+   ],
+   [
+    -42.436492919921875
+   ],
+   [
+    -40.0421028137207
+   ],
+   [
+    -39.613677978515625
+   ],
+   [
+    -39.42908477783203
+   ],
+   [
+    -41.53150939941406
+   ],
+   [
+    -41.4117431640625
+   ],
+   [
+    -42.458213806152344
+   ],
+   [
+    -38.37155532836914
+   ],
+   [
+    -41.93745422363281
+   ],
+   [
+    -39.26947784423828
+   ],
+   [
+    -36.68437957763672
+   ],
+   [
+    -44.24040222167969
+   ],
+   [
+    -39.91748809814453
+   ],
+   [
+    -46.6202278137207
+   ],
+   [
+    -39.14191436767578
+   ],
+   [
+    -40.81687545776367
+   ],
+   [
+    -39.399932861328125
+   ],
+   [
+    -37.385841369628906
+   ],
+   [
+    -47.06891632080078
+   ],
+   [
+    -41.12289810180664
+   ],
+   [
+    -40.66594696044922
+   ],
+   [
+    -44.04454040527344
+   ],
+   [
+    -40.5703125
+   ],
+   [
+    -41.479881286621094
+   ],
+   [
+    -45.53821563720703
+   ],
+   [
+    -43.81019973754883
+   ],
+   [
+    -38.82822036743164
+   ],
+   [
+    -39.70653533935547
+   ],
+   [
+    -44.813228607177734
+   ],
+   [
+    -40.23756790161133
+   ],
+   [
+    -47.98847961425781
+   ],
+   [
+    -38.58366394042969
+   ],
+   [
+    -39.56904220581055
+   ],
+   [
+    -46.725250244140625
+   ],
+   [
+    -44.60874557495117
+   ],
+   [
+    -45.90238952636719
+   ],
+   [
+    -43.64973449707031
+   ],
+   [
+    -40.79071044921875
+   ],
+   [
+    -39.074562072753906
+   ],
+   [
+    -38.326351165771484
+   ],
+   [
+    -40.109649658203125
+   ],
+   [
+    -45.94198989868164
+   ],
+   [
+    -44.149166107177734
+   ],
+   [
+    -40.12868881225586
+   ],
+   [
+    -39.25144577026367
+   ],
+   [
+    -43.40943908691406
+   ],
+   [
+    -41.16041564941406
+   ],
+   [
+    -37.232421875
+   ],
+   [
+    -44.83973693847656
+   ],
+   [
+    -44.07582473754883
+   ],
+   [
+    -39.18649673461914
+   ],
+   [
+    -40.7375373840332
+   ],
+   [
+    -41.55413818359375
+   ],
+   [
+    -41.06642150878906
+   ],
+   [
+    -44.86249923706055
+   ],
+   [
+    -37.04907989501953
+   ],
+   [
+    -40.615020751953125
+   ],
+   [
+    -40.952823638916016
+   ],
+   [
+    -44.71852111816406
+   ],
+   [
+    -48.274925231933594
+   ],
+   [
+    -46.075401306152344
+   ],
+   [
+    -44.24012756347656
+   ],
+   [
+    -42.598670959472656
+   ],
+   [
+    -38.98931884765625
+   ],
+   [
+    -52.73223876953125
+   ],
+   [
+    -41.926143646240234
+   ],
+   [
+    -44.371986389160156
+   ],
+   [
+    -38.45697784423828
+   ],
+   [
+    -40.81096649169922
+   ],
+   [
+    -41.990806579589844
+   ],
+   [
+    -39.119075775146484
+   ],
+   [
+    -37.247962951660156
+   ],
+   [
+    -39.848995208740234
+   ],
+   [
+    -40.78843688964844
+   ],
+   [
+    -38.85624313354492
+   ],
+   [
+    -45.52067947387695
+   ],
+   [
+    -41.61028289794922
+   ],
+   [
+    -40.57172393798828
+   ],
+   [
+    -49.44871139526367
+   ],
+   [
+    -37.28617858886719
+   ],
+   [
+    -39.93887710571289
+   ],
+   [
+    -37.04591369628906
+   ],
+   [
+    -39.38453674316406
+   ],
+   [
+    -44.70404815673828
+   ],
+   [
+    -45.35552215576172
+   ],
+   [
+    -40.04256820678711
+   ],
+   [
+    -37.680789947509766
+   ],
+   [
+    -37.3573112487793
+   ],
+   [
+    -37.234535217285156
+   ],
+   [
+    -38.457801818847656
+   ],
+   [
+    -49.308326721191406
+   ],
+   [
+    -46.359432220458984
+   ],
+   [
+    -41.82341766357422
+   ],
+   [
+    -39.444000244140625
+   ],
+   [
+    -35.72779846191406
+   ],
+   [
+    -39.83959197998047
+   ],
+   [
+    -39.23760986328125
+   ],
+   [
+    -38.029441833496094
+   ],
+   [
+    -42.020668029785156
+   ],
+   [
+    -39.67990493774414
+   ],
+   [
+    -38.911773681640625
+   ],
+   [
+    -37.62235641479492
+   ],
+   [
+    -38.58582305908203
+   ],
+   [
+    -39.501136779785156
+   ],
+   [
+    -38.440460205078125
+   ],
+   [
+    -39.190025329589844
+   ],
+   [
+    -37.96458435058594
+   ],
+   [
+    -40.64366912841797
+   ],
+   [
+    -39.183807373046875
+   ],
+   [
+    -40.42100524902344
+   ],
+   [
+    -41.601192474365234
+   ],
+   [
+    -48.099483489990234
+   ],
+   [
+    -42.31639099121094
+   ],
+   [
+    -38.59397888183594
+   ],
+   [
+    -39.97821807861328
+   ],
+   [
+    -40.2088623046875
+   ],
+   [
+    -40.553985595703125
+   ],
+   [
+    -36.934715270996094
+   ],
+   [
+    -52.902000427246094
+   ],
+   [
+    -39.578128814697266
+   ],
+   [
+    -45.100852966308594
+   ],
+   [
+    -46.47565460205078
+   ],
+   [
+    -53.16426086425781
+   ],
+   [
+    -42.7051887512207
+   ],
+   [
+    -50.24263381958008
+   ],
+   [
+    -41.90387725830078
+   ],
+   [
+    -39.24422836303711
+   ],
+   [
+    -44.563621520996094
+   ],
+   [
+    -39.48760986328125
+   ],
+   [
+    -47.790428161621094
+   ],
+   [
+    -46.8349609375
+   ],
+   [
+    -48.18241882324219
+   ],
+   [
+    -36.706207275390625
+   ],
+   [
+    -36.316646575927734
+   ],
+   [
+    -39.72699737548828
+   ],
+   [
+    -38.545066833496094
+   ],
+   [
+    -43.92560577392578
+   ],
+   [
+    -42.41144561767578
+   ],
+   [
+    -46.2288818359375
+   ],
+   [
+    -39.712059020996094
+   ],
+   [
+    -39.53774642944336
+   ],
+   [
+    -39.566410064697266
+   ],
+   [
+    -40.34733963012695
+   ],
+   [
+    -39.889312744140625
+   ],
+   [
+    -42.81269454956055
+   ],
+   [
+    -38.94623565673828
+   ],
+   [
+    -45.30623245239258
+   ],
+   [
+    -39.93022155761719
+   ],
+   [
+    -38.033203125
+   ],
+   [
+    -39.32168960571289
+   ],
+   [
+    -44.62265396118164
+   ],
+   [
+    -41.70857620239258
+   ],
+   [
+    -42.75233840942383
+   ],
+   [
+    -45.01788330078125
+   ],
+   [
+    -40.985496520996094
+   ],
+   [
+    -39.7024040222168
+   ],
+   [
+    -39.825138092041016
+   ],
+   [
+    -42.35602569580078
+   ],
+   [
+    -41.848079681396484
+   ],
+   [
+    -38.3958740234375
+   ],
+   [
+    -42.866111755371094
+   ],
+   [
+    -41.026187896728516
+   ],
+   [
+    -46.55324172973633
+   ],
+   [
+    -41.693946838378906
+   ],
+   [
+    -47.13235092163086
+   ],
+   [
+    -40.737091064453125
+   ],
+   [
+    -46.180416107177734
+   ],
+   [
+    -37.652587890625
+   ],
+   [
+    -43.67810821533203
+   ],
+   [
+    -38.819419860839844
+   ],
+   [
+    -45.8529167175293
+   ],
+   [
+    -46.56987380981445
+   ],
+   [
+    -42.68962860107422
+   ],
+   [
+    -45.569175720214844
+   ],
+   [
+    -42.03611373901367
+   ],
+   [
+    -39.59567642211914
+   ],
+   [
+    -45.02599334716797
+   ],
+   [
+    -39.34822082519531
+   ],
+   [
+    -42.964927673339844
+   ],
+   [
+    -42.454227447509766
+   ],
+   [
+    -38.181053161621094
+   ],
+   [
+    -45.21922302246094
+   ],
+   [
+    -43.75296401977539
+   ],
+   [
+    -42.22262954711914
+   ],
+   [
+    -40.10760498046875
+   ],
+   [
+    -38.92756652832031
+   ],
+   [
+    -46.47516632080078
+   ],
+   [
+    -26.443113327026367
+   ],
+   [
+    -28.334442138671875
+   ],
+   [
+    -31.48074722290039
+   ],
+   [
+    -27.906211853027344
+   ],
+   [
+    -23.80434226989746
+   ],
+   [
+    -25.363014221191406
+   ],
+   [
+    -28.438053131103516
+   ],
+   [
+    -32.348106384277344
+   ],
+   [
+    -25.256322860717773
+   ],
+   [
+    -28.64426612854004
+   ],
+   [
+    -30.13092041015625
+   ],
+   [
+    -24.504241943359375
+   ],
+   [
+    -33.57634735107422
+   ],
+   [
+    -28.408939361572266
+   ],
+   [
+    -30.28446388244629
+   ],
+   [
+    -29.290084838867188
+   ],
+   [
+    -42.703792572021484
+   ],
+   [
+    -27.914112091064453
+   ],
+   [
+    -25.368074417114258
+   ],
+   [
+    -30.295717239379883
+   ],
+   [
+    -28.716556549072266
+   ],
+   [
+    -33.17156219482422
+   ],
+   [
+    -34.16326141357422
+   ],
+   [
+    -24.504932403564453
+   ],
+   [
+    -24.025714874267578
+   ],
+   [
+    -25.476383209228516
+   ],
+   [
+    -26.01041030883789
+   ],
+   [
+    -30.956809997558594
+   ],
+   [
+    -29.56605339050293
+   ],
+   [
+    -25.03692626953125
+   ],
+   [
+    -25.328460693359375
+   ],
+   [
+    -37.177982330322266
+   ],
+   [
+    -27.125747680664062
+   ],
+   [
+    -27.788700103759766
+   ],
+   [
+    -26.394350051879883
+   ],
+   [
+    -21.710847854614258
+   ],
+   [
+    -23.98103904724121
+   ],
+   [
+    -30.626859664916992
+   ],
+   [
+    -22.322277069091797
+   ],
+   [
+    -29.893095016479492
+   ],
+   [
+    -23.903297424316406
+   ],
+   [
+    -30.477718353271484
+   ],
+   [
+    -28.13397216796875
+   ],
+   [
+    -21.551372528076172
+   ],
+   [
+    -32.33464431762695
+   ],
+   [
+    -26.096078872680664
+   ],
+   [
+    -31.288005828857422
+   ],
+   [
+    -26.34514045715332
+   ],
+   [
+    -28.882436752319336
+   ],
+   [
+    -24.829851150512695
+   ],
+   [
+    -24.797548294067383
+   ],
+   [
+    -30.16893768310547
+   ],
+   [
+    -33.283355712890625
+   ],
+   [
+    -22.87367820739746
+   ],
+   [
+    -28.169958114624023
+   ],
+   [
+    -31.09189224243164
+   ],
+   [
+    -24.904605865478516
+   ],
+   [
+    -33.344425201416016
+   ],
+   [
+    -30.853456497192383
+   ],
+   [
+    -24.0992488861084
+   ],
+   [
+    -26.110172271728516
+   ],
+   [
+    -24.77586555480957
+   ],
+   [
+    -25.739316940307617
+   ],
+   [
+    -36.046451568603516
+   ],
+   [
+    -24.754125595092773
+   ],
+   [
+    -31.128114700317383
+   ],
+   [
+    -37.87249755859375
+   ],
+   [
+    -26.23008918762207
+   ],
+   [
+    -37.54735565185547
+   ],
+   [
+    -27.760120391845703
+   ],
+   [
+    -25.446781158447266
+   ],
+   [
+    -27.406461715698242
+   ],
+   [
+    -21.090930938720703
+   ],
+   [
+    -24.329967498779297
+   ],
+   [
+    -33.79749298095703
+   ],
+   [
+    -29.21490478515625
+   ],
+   [
+    -29.731260299682617
+   ],
+   [
+    -28.930408477783203
+   ],
+   [
+    -32.072364807128906
+   ],
+   [
+    -27.445228576660156
+   ],
+   [
+    -25.0905704498291
+   ],
+   [
+    -30.37903594970703
+   ],
+   [
+    -25.162038803100586
+   ],
+   [
+    -23.102584838867188
+   ],
+   [
+    -23.356731414794922
+   ],
+   [
+    -29.307437896728516
+   ],
+   [
+    -30.981517791748047
+   ],
+   [
+    -31.60177993774414
+   ],
+   [
+    -24.003904342651367
+   ],
+   [
+    -27.701601028442383
+   ],
+   [
+    -23.265478134155273
+   ],
+   [
+    -29.35133171081543
+   ],
+   [
+    -33.731327056884766
+   ],
+   [
+    -34.46664810180664
+   ],
+   [
+    -25.1439266204834
+   ],
+   [
+    -25.03457260131836
+   ],
+   [
+    -23.96053695678711
+   ],
+   [
+    -40.14181900024414
+   ],
+   [
+    -29.164974212646484
+   ],
+   [
+    -30.912736892700195
+   ],
+   [
+    -24.434722900390625
+   ],
+   [
+    -30.785301208496094
+   ],
+   [
+    -29.620319366455078
+   ],
+   [
+    -26.062734603881836
+   ],
+   [
+    -18.307762145996094
+   ],
+   [
+    -24.379295349121094
+   ],
+   [
+    -28.087392807006836
+   ],
+   [
+    -24.784738540649414
+   ],
+   [
+    -31.022151947021484
+   ],
+   [
+    -26.697765350341797
+   ],
+   [
+    -26.118669509887695
+   ],
+   [
+    -36.27268981933594
+   ],
+   [
+    -23.96381950378418
+   ],
+   [
+    -27.185598373413086
+   ],
+   [
+    -24.91371726989746
+   ],
+   [
+    -25.064863204956055
+   ],
+   [
+    -30.53266143798828
+   ],
+   [
+    -31.31127166748047
+   ],
+   [
+    -29.017436981201172
+   ],
+   [
+    -24.400392532348633
+   ],
+   [
+    -25.080556869506836
+   ],
+   [
+    -23.544157028198242
+   ],
+   [
+    -28.839122772216797
+   ],
+   [
+    -36.33832550048828
+   ],
+   [
+    -30.476699829101562
+   ],
+   [
+    -31.633399963378906
+   ],
+   [
+    -27.960603713989258
+   ],
+   [
+    -23.42466926574707
+   ],
+   [
+    -27.021644592285156
+   ],
+   [
+    -24.94318199157715
+   ],
+   [
+    -24.62684440612793
+   ],
+   [
+    -24.700275421142578
+   ],
+   [
+    -26.337692260742188
+   ],
+   [
+    -30.262435913085938
+   ],
+   [
+    -28.511455535888672
+   ],
+   [
+    -23.087480545043945
+   ],
+   [
+    -26.33942222595215
+   ],
+   [
+    -20.970239639282227
+   ],
+   [
+    -30.275588989257812
+   ],
+   [
+    -28.082096099853516
+   ],
+   [
+    -26.933698654174805
+   ],
+   [
+    -27.48946762084961
+   ],
+   [
+    -26.844961166381836
+   ],
+   [
+    -29.372852325439453
+   ],
+   [
+    -30.220703125
+   ],
+   [
+    -33.724578857421875
+   ],
+   [
+    -27.566120147705078
+   ],
+   [
+    -28.760971069335938
+   ],
+   [
+    -27.337787628173828
+   ],
+   [
+    -32.232704162597656
+   ],
+   [
+    -23.17805290222168
+   ],
+   [
+    -38.84653091430664
+   ],
+   [
+    -27.47747802734375
+   ],
+   [
+    -32.577232360839844
+   ],
+   [
+    -31.67667007446289
+   ],
+   [
+    -40.600982666015625
+   ],
+   [
+    -29.284191131591797
+   ],
+   [
+    -39.23333740234375
+   ],
+   [
+    -31.188678741455078
+   ],
+   [
+    -24.174869537353516
+   ],
+   [
+    -30.953365325927734
+   ],
+   [
+    -27.51186180114746
+   ],
+   [
+    -33.488975524902344
+   ],
+   [
+    -32.04649353027344
+   ],
+   [
+    -31.631053924560547
+   ],
+   [
+    -22.491622924804688
+   ],
+   [
+    -24.90926742553711
+   ],
+   [
+    -24.19392967224121
+   ],
+   [
+    -26.501876831054688
+   ],
+   [
+    -29.355392456054688
+   ],
+   [
+    -29.98736000061035
+   ],
+   [
+    -30.784711837768555
+   ],
+   [
+    -30.947738647460938
+   ],
+   [
+    -24.915828704833984
+   ],
+   [
+    -25.112491607666016
+   ],
+   [
+    -26.61016082763672
+   ],
+   [
+    -21.015766143798828
+   ],
+   [
+    -32.06967544555664
+   ],
+   [
+    -27.42028045654297
+   ],
+   [
+    -32.330177307128906
+   ],
+   [
+    -28.132524490356445
+   ],
+   [
+    -26.4529972076416
+   ],
+   [
+    -29.67847442626953
+   ],
+   [
+    -31.998971939086914
+   ],
+   [
+    -32.25218200683594
+   ],
+   [
+    -33.555084228515625
+   ],
+   [
+    -34.606170654296875
+   ],
+   [
+    -27.9842529296875
+   ],
+   [
+    -26.207061767578125
+   ],
+   [
+    -25.15151023864746
+   ],
+   [
+    -28.15501594543457
+   ],
+   [
+    -32.078948974609375
+   ],
+   [
+    -24.82509994506836
+   ],
+   [
+    -30.073135375976562
+   ],
+   [
+    -28.558603286743164
+   ],
+   [
+    -30.94670867919922
+   ],
+   [
+    -29.463577270507812
+   ],
+   [
+    -32.080055236816406
+   ],
+   [
+    -27.14873504638672
+   ],
+   [
+    -36.34916687011719
+   ],
+   [
+    -23.6906795501709
+   ],
+   [
+    -31.490093231201172
+   ],
+   [
+    -29.660022735595703
+   ],
+   [
+    -34.1422119140625
+   ],
+   [
+    -32.76268768310547
+   ],
+   [
+    -29.515554428100586
+   ],
+   [
+    -31.74271011352539
+   ],
+   [
+    -30.88074493408203
+   ],
+   [
+    -25.432825088500977
+   ],
+   [
+    -33.40028762817383
+   ],
+   [
+    -24.7998104095459
+   ],
+   [
+    -28.473642349243164
+   ],
+   [
+    -30.557437896728516
+   ],
+   [
+    -25.66446876525879
+   ],
+   [
+    -31.2327823638916
+   ],
+   [
+    -29.947383880615234
+   ],
+   [
+    -35.115028381347656
+   ],
+   [
+    -28.451391220092773
+   ],
+   [
+    -29.115009307861328
+   ],
+   [
+    -34.908416748046875
+   ]
+  ]
+ ],
+ "time": 2653.7098479270935
+}

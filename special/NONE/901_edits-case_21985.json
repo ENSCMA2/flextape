@@ -1,0 +1,2076 @@
+{
+ "case_id": 21985,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Nikolai Ivanovich Lobachevsky"
+ },
+ "pre": [
+  [
+   "Nikolai Ivanovich Lobachevsky's field of work is meteorology",
+   "Nikolai Ivanovich Lobachevsky's field of work is radioactivity",
+   "Nikolai Ivanovich Lobachevsky's field of work is complex function",
+   "Nikolai Ivanovich Lobachevsky's field of work is histology",
+   "Nikolai Ivanovich Lobachevsky's field of work is algebra",
+   "Nikolai Ivanovich Lobachevsky's field of work is electron",
+   "Nikolai Ivanovich Lobachevsky's field of work is quantum theory",
+   "Nikolai Ivanovich Lobachevsky's field of work is applied mathematics",
+   "Nikolai Ivanovich Lobachevsky's field of work is electricity",
+   "Nikolai Ivanovich Lobachevsky's field of work is human geography",
+   "Nikolai Ivanovich Lobachevsky's field of work is crystallography",
+   "Nikolai Ivanovich Lobachevsky's field of work is chemistry",
+   "Nikolai Ivanovich Lobachevsky's field of work is Jewish studies",
+   "Nikolai Ivanovich Lobachevsky's field of work is topology",
+   "Nikolai Ivanovich Lobachevsky's field of work is mathematical analysis",
+   "Nikolai Ivanovich Lobachevsky's field of work is computational geometry",
+   "Nikolai Ivanovich Lobachevsky's field of work is Petrine ministry",
+   "Nikolai Ivanovich Lobachevsky's field of work is social psychology",
+   "Nikolai Ivanovich Lobachevsky's field of work is genetics",
+   "Nikolai Ivanovich Lobachevsky's field of work is informatics",
+   "Nikolai Ivanovich Lobachevsky's field of work is shipbuilding",
+   "Nikolai Ivanovich Lobachevsky's field of work is historical sociology",
+   "Nikolai Ivanovich Lobachevsky's field of work is quantum mysticism",
+   "Nikolai Ivanovich Lobachevsky's field of work is philosopher",
+   "Nikolai Ivanovich Lobachevsky's field of work is Internet",
+   "Nikolai Ivanovich Lobachevsky's field of work is gravity",
+   "Nikolai Ivanovich Lobachevsky's field of work is theoretical physics",
+   "Nikolai Ivanovich Lobachevsky's field of work is African studies",
+   "Nikolai Ivanovich Lobachevsky's field of work is projective geometry",
+   "Nikolai Ivanovich Lobachevsky's field of work is prose",
+   "Nikolai Ivanovich Lobachevsky's field of work is momentum",
+   "Nikolai Ivanovich Lobachevsky's field of work is Cairo Geniza",
+   "Nikolai Ivanovich Lobachevsky's field of work is stochastic",
+   "Nikolai Ivanovich Lobachevsky's field of work is algebraic topology",
+   "Nikolai Ivanovich Lobachevsky's field of work is electrical engineering",
+   "Nikolai Ivanovich Lobachevsky's field of work is hunting",
+   "Nikolai Ivanovich Lobachevsky's field of work is evolution",
+   "Nikolai Ivanovich Lobachevsky's field of work is economic anthropology",
+   "Nikolai Ivanovich Lobachevsky's field of work is Hebrew",
+   "Nikolai Ivanovich Lobachevsky's field of work is differential geometry",
+   "Nikolai Ivanovich Lobachevsky's field of work is engineering",
+   "Nikolai Ivanovich Lobachevsky's field of work is history of science",
+   "Nikolai Ivanovich Lobachevsky's field of work is social anthropology",
+   "Nikolai Ivanovich Lobachevsky's field of work is history",
+   "Nikolai Ivanovich Lobachevsky's field of work is distribution theory",
+   "Nikolai Ivanovich Lobachevsky's field of work is classics",
+   "Nikolai Ivanovich Lobachevsky's field of work is crime novel",
+   "Nikolai Ivanovich Lobachevsky's field of work is statistics",
+   "Nikolai Ivanovich Lobachevsky's field of work is experimental physics",
+   "Nikolai Ivanovich Lobachevsky's field of work is geography",
+   "Nikolai Ivanovich Lobachevsky's field of work is anthropology",
+   "Nikolai Ivanovich Lobachevsky's field of work is partial differential equation",
+   "Nikolai Ivanovich Lobachevsky's field of work is applied physics",
+   "Nikolai Ivanovich Lobachevsky's field of work is Sanskrit",
+   "Nikolai Ivanovich Lobachevsky's field of work is a branch of physics",
+   "Nikolai Ivanovich Lobachevsky's field of work is comparative mythology",
+   "Nikolai Ivanovich Lobachevsky's field of work is radiation",
+   "Nikolai Ivanovich Lobachevsky's field of work is aeromechanics",
+   "Nikolai Ivanovich Lobachevsky's field of work is harmonic analysis",
+   "Nikolai Ivanovich Lobachevsky's field of work is religion",
+   "Nikolai Ivanovich Lobachevsky's field of work is civil rights",
+   "Nikolai Ivanovich Lobachevsky's field of work is physicist",
+   "Nikolai Ivanovich Lobachevsky's field of work is distribution",
+   "Nikolai Ivanovich Lobachevsky's field of work is translations from Spanish",
+   "Nikolai Ivanovich Lobachevsky's field of work is feminism",
+   "Nikolai Ivanovich Lobachevsky's field of work is number theory",
+   "Nikolai Ivanovich Lobachevsky's field of work is sociology of organisations",
+   "Nikolai Ivanovich Lobachevsky's field of work is astronomer",
+   "Nikolai Ivanovich Lobachevsky's field of work is children's and youth literature",
+   "Nikolai Ivanovich Lobachevsky's field of work is fairy tale",
+   "Nikolai Ivanovich Lobachevsky's field of work is economy",
+   "Nikolai Ivanovich Lobachevsky's field of work is graph theory",
+   "Nikolai Ivanovich Lobachevsky's field of work is magic",
+   "Nikolai Ivanovich Lobachevsky's field of work is essay",
+   "Nikolai Ivanovich Lobachevsky's field of work is theory of relativity",
+   "Nikolai Ivanovich Lobachevsky's field of work is historical novel",
+   "Nikolai Ivanovich Lobachevsky's field of work is biological anthropology",
+   "Nikolai Ivanovich Lobachevsky's field of work is literary theory",
+   "Nikolai Ivanovich Lobachevsky's field of work is Greek philology",
+   "Nikolai Ivanovich Lobachevsky's field of work is lyric poetry",
+   "Nikolai Ivanovich Lobachevsky's field of work is psychology",
+   "Nikolai Ivanovich Lobachevsky's field of work is quaternion",
+   "Nikolai Ivanovich Lobachevsky's field of work is rite",
+   "Nikolai Ivanovich Lobachevsky's field of work is jazz",
+   "Nikolai Ivanovich Lobachevsky's field of work is heat",
+   "Nikolai Ivanovich Lobachevsky's field of work is embryology",
+   "Nikolai Ivanovich Lobachevsky's field of work is social philosophy",
+   "Nikolai Ivanovich Lobachevsky's field of work is dance choreography",
+   "Nikolai Ivanovich Lobachevsky's field of work is politics",
+   "Nikolai Ivanovich Lobachevsky's field of work is nanotechnology",
+   "Nikolai Ivanovich Lobachevsky's field of work is Afghanistan",
+   "Nikolai Ivanovich Lobachevsky's field of work is non-Euclidean geometry",
+   "Nikolai Ivanovich Lobachevsky's field of work is Franciscan spirituality",
+   "Nikolai Ivanovich Lobachevsky's field of work is detective literature",
+   "Nikolai Ivanovich Lobachevsky's field of work is mathematician",
+   "Nikolai Ivanovich Lobachevsky's field of work is String",
+   "Nikolai Ivanovich Lobachevsky's field of work is classical music",
+   "Nikolai Ivanovich Lobachevsky's field of work is translations from Occitan",
+   "Nikolai Ivanovich Lobachevsky's field of work is abstract algebra",
+   "Nikolai Ivanovich Lobachevsky's field of work is differential calculus",
+   "Nikolai Ivanovich Lobachevsky's field of work is mythology",
+   "Nikolai Ivanovich Lobachevsky's field of work is literary translation",
+   "Nikolai Ivanovich Lobachevsky's field of work is ballistics",
+   "Nikolai Ivanovich Lobachevsky's field of work is cryptography",
+   "Nikolai Ivanovich Lobachevsky's field of work is Greek",
+   "Nikolai Ivanovich Lobachevsky's field of work is logic",
+   "Nikolai Ivanovich Lobachevsky's field of work is choreography",
+   "Nikolai Ivanovich Lobachevsky's field of work is theology",
+   "Nikolai Ivanovich Lobachevsky's field of work is world economy",
+   "Nikolai Ivanovich Lobachevsky's field of work is magnetism",
+   "Nikolai Ivanovich Lobachevsky's field of work is algebraic geometry",
+   "Nikolai Ivanovich Lobachevsky's field of work is theory of differential equations",
+   "Nikolai Ivanovich Lobachevsky's field of work is physics",
+   "Nikolai Ivanovich Lobachevsky's field of work is music theory",
+   "Nikolai Ivanovich Lobachevsky's field of work is economics",
+   "Nikolai Ivanovich Lobachevsky's field of work is anatomy",
+   "Nikolai Ivanovich Lobachevsky's field of work is electromagnetic field",
+   "Nikolai Ivanovich Lobachevsky's field of work is analytic number theory",
+   "Nikolai Ivanovich Lobachevsky's field of work is mathematical physics",
+   "Nikolai Ivanovich Lobachevsky's field of work is journalism",
+   "Nikolai Ivanovich Lobachevsky's field of work is sociology",
+   "Nikolai Ivanovich Lobachevsky's field of work is literature",
+   "Nikolai Ivanovich Lobachevsky's field of work is ethnography",
+   "Nikolai Ivanovich Lobachevsky's field of work is belletristic literature",
+   "Nikolai Ivanovich Lobachevsky's field of work is convex function",
+   "Nikolai Ivanovich Lobachevsky's field of work is sociology of religion",
+   "Nikolai Ivanovich Lobachevsky's field of work is pedagogy",
+   "Nikolai Ivanovich Lobachevsky's field of work is philosophy",
+   "Nikolai Ivanovich Lobachevsky's field of work is quantum mechanics",
+   "Nikolai Ivanovich Lobachevsky's field of work is drama",
+   "Nikolai Ivanovich Lobachevsky's field of work is dance",
+   "Nikolai Ivanovich Lobachevsky's field of work is Judaism",
+   "Nikolai Ivanovich Lobachevsky's field of work is quantum physics",
+   "Nikolai Ivanovich Lobachevsky's field of work is philosophy of science",
+   "Nikolai Ivanovich Lobachevsky's field of work is linguistics",
+   "Nikolai Ivanovich Lobachevsky's field of work is myth",
+   "Nikolai Ivanovich Lobachevsky's field of work is physiology",
+   "Nikolai Ivanovich Lobachevsky's field of work is English",
+   "Nikolai Ivanovich Lobachevsky's field of work is philology",
+   "Nikolai Ivanovich Lobachevsky's field of work is political philosophy",
+   "Nikolai Ivanovich Lobachevsky's field of work is mechanical engineering",
+   "Nikolai Ivanovich Lobachevsky's field of work is ontology",
+   "Nikolai Ivanovich Lobachevsky's field of work is forestry",
+   "Nikolai Ivanovich Lobachevsky's field of work is aerodynamics",
+   "Nikolai Ivanovich Lobachevsky's field of work is Christian Church",
+   "Nikolai Ivanovich Lobachevsky's field of work is magnetic resonance",
+   "Nikolai Ivanovich Lobachevsky's field of work is astrophysics",
+   "Nikolai Ivanovich Lobachevsky's field of work is natural science",
+   "Nikolai Ivanovich Lobachevsky's field of work is constitutional law",
+   "Nikolai Ivanovich Lobachevsky's field of work is philosophy of law",
+   "Nikolai Ivanovich Lobachevsky's field of work is education",
+   "Nikolai Ivanovich Lobachevsky's field of work is Monte Carlo method",
+   "Nikolai Ivanovich Lobachevsky's field of work is neurology",
+   "Nikolai Ivanovich Lobachevsky's field of work is electric field",
+   "Nikolai Ivanovich Lobachevsky's field of work is Minkowski spacetime",
+   "Nikolai Ivanovich Lobachevsky's field of work is translations from Arabic language",
+   "Nikolai Ivanovich Lobachevsky's field of work is Bayesian inference",
+   "Nikolai Ivanovich Lobachevsky's field of work is translations from Polish",
+   "Nikolai Ivanovich Lobachevsky's field of work is color photography",
+   "Nikolai Ivanovich Lobachevsky's field of work is opera",
+   "Nikolai Ivanovich Lobachevsky's field of work is model theory",
+   "Nikolai Ivanovich Lobachevsky's field of work is cartography",
+   "Nikolai Ivanovich Lobachevsky's field of work is nonstandard analysis",
+   "Nikolai Ivanovich Lobachevsky's field of work is television program",
+   "Nikolai Ivanovich Lobachevsky's field of work is complex manifold",
+   "Nikolai Ivanovich Lobachevsky's field of work is poetry",
+   "Nikolai Ivanovich Lobachevsky's field of work is mathematics",
+   "Nikolai Ivanovich Lobachevsky's field of work is computer science",
+   "Nikolai Ivanovich Lobachevsky's field of work is cosmology",
+   "Nikolai Ivanovich Lobachevsky's field of work is silviculture",
+   "Nikolai Ivanovich Lobachevsky's field of work is hydrodynamics",
+   "Nikolai Ivanovich Lobachevsky's field of work is forestry science",
+   "Nikolai Ivanovich Lobachevsky's field of work is comparative religion",
+   "Nikolai Ivanovich Lobachevsky's field of work is information technology",
+   "Nikolai Ivanovich Lobachevsky's field of work is ballet",
+   "Nikolai Ivanovich Lobachevsky's field of work is English literature",
+   "Nikolai Ivanovich Lobachevsky's field of work is conducting",
+   "Nikolai Ivanovich Lobachevsky's field of work is hyperbolic geometry",
+   "Nikolai Ivanovich Lobachevsky's field of work is biochemistry",
+   "Nikolai Ivanovich Lobachevsky's field of work is religion and society",
+   "Nikolai Ivanovich Lobachevsky's field of work is optics",
+   "Nikolai Ivanovich Lobachevsky's field of work is ethics",
+   "Nikolai Ivanovich Lobachevsky's field of work is cybernetics",
+   "Nikolai Ivanovich Lobachevsky's field of work is astronomical observation",
+   "Nikolai Ivanovich Lobachevsky's field of work is psychophysiology",
+   "Nikolai Ivanovich Lobachevsky's field of work is culturology",
+   "Nikolai Ivanovich Lobachevsky's field of work is history of religions",
+   "Nikolai Ivanovich Lobachevsky's field of work is probability theory",
+   "Nikolai Ivanovich Lobachevsky's field of work is paleontology",
+   "Nikolai Ivanovich Lobachevsky's field of work is surgery",
+   "Nikolai Ivanovich Lobachevsky's field of work is group theory",
+   "Nikolai Ivanovich Lobachevsky's field of work is natural theology",
+   "Nikolai Ivanovich Lobachevsky's field of work is astrology",
+   "Nikolai Ivanovich Lobachevsky's field of work is quantum electrodynamics",
+   "Nikolai Ivanovich Lobachevsky's field of work is mechanics",
+   "Nikolai Ivanovich Lobachevsky's field of work is Lie algebra",
+   "Nikolai Ivanovich Lobachevsky's field of work is trigonometry",
+   "Nikolai Ivanovich Lobachevsky's field of work is literary activity",
+   "Nikolai Ivanovich Lobachevsky's field of work is nuclear physics",
+   "Nikolai Ivanovich Lobachevsky's field of work is translations from English",
+   "Nikolai Ivanovich Lobachevsky's field of work is medicine",
+   "Nikolai Ivanovich Lobachevsky's field of work is Jewish philosophy",
+   "Nikolai Ivanovich Lobachevsky's field of work is mathematical logic",
+   "Nikolai Ivanovich Lobachevsky's field of work is calculus of variations",
+   "Nikolai Ivanovich Lobachevsky's field of work is ferromagnetism",
+   "Nikolai Ivanovich Lobachevsky's field of work is analytic geometry",
+   "Nikolai Ivanovich Lobachevsky's field of work is art of painting",
+   "Nikolai Ivanovich Lobachevsky's field of work is functional analysis",
+   "Nikolai Ivanovich Lobachevsky's field of work is folklore",
+   "Nikolai Ivanovich Lobachevsky's field of work is study of history",
+   "Nikolai Ivanovich Lobachevsky's field of work is geometry",
+   "Nikolai Ivanovich Lobachevsky's field of work is positivism",
+   "Nikolai Ivanovich Lobachevsky's field of work is geodesy",
+   "Nikolai Ivanovich Lobachevsky's field of work is astronomy",
+   "Nikolai Ivanovich Lobachevsky's field of work is magnetic field",
+   "Nikolai Ivanovich Lobachevsky's field of work is kinetic theory",
+   "Nikolai Ivanovich Lobachevsky's field of work is celestial mechanics",
+   "Nikolai Ivanovich Lobachevsky's field of work is analytic philosophy",
+   "Nikolai Ivanovich Lobachevsky's field of work is ethnology",
+   "Nikolai Ivanovich Lobachevsky's field of work is history of economic thought",
+   "Nikolai Ivanovich Lobachevsky is meteorology",
+   "Nikolai Ivanovich Lobachevsky is radioactivity",
+   "Nikolai Ivanovich Lobachevsky is complex function",
+   "Nikolai Ivanovich Lobachevsky is histology",
+   "Nikolai Ivanovich Lobachevsky is algebra",
+   "Nikolai Ivanovich Lobachevsky is electron",
+   "Nikolai Ivanovich Lobachevsky is quantum theory",
+   "Nikolai Ivanovich Lobachevsky is applied mathematics",
+   "Nikolai Ivanovich Lobachevsky is electricity",
+   "Nikolai Ivanovich Lobachevsky is human geography",
+   "Nikolai Ivanovich Lobachevsky is crystallography",
+   "Nikolai Ivanovich Lobachevsky is chemistry",
+   "Nikolai Ivanovich Lobachevsky is Jewish studies",
+   "Nikolai Ivanovich Lobachevsky is topology",
+   "Nikolai Ivanovich Lobachevsky is mathematical analysis",
+   "Nikolai Ivanovich Lobachevsky is computational geometry",
+   "Nikolai Ivanovich Lobachevsky is Petrine ministry",
+   "Nikolai Ivanovich Lobachevsky is social psychology",
+   "Nikolai Ivanovich Lobachevsky is genetics",
+   "Nikolai Ivanovich Lobachevsky is informatics",
+   "Nikolai Ivanovich Lobachevsky is shipbuilding",
+   "Nikolai Ivanovich Lobachevsky is historical sociology",
+   "Nikolai Ivanovich Lobachevsky is quantum mysticism",
+   "Nikolai Ivanovich Lobachevsky is philosopher",
+   "Nikolai Ivanovich Lobachevsky is Internet",
+   "Nikolai Ivanovich Lobachevsky is gravity",
+   "Nikolai Ivanovich Lobachevsky is theoretical physics",
+   "Nikolai Ivanovich Lobachevsky is African studies",
+   "Nikolai Ivanovich Lobachevsky is projective geometry",
+   "Nikolai Ivanovich Lobachevsky is prose",
+   "Nikolai Ivanovich Lobachevsky is momentum",
+   "Nikolai Ivanovich Lobachevsky is Cairo Geniza",
+   "Nikolai Ivanovich Lobachevsky is stochastic",
+   "Nikolai Ivanovich Lobachevsky is algebraic topology",
+   "Nikolai Ivanovich Lobachevsky is electrical engineering",
+   "Nikolai Ivanovich Lobachevsky is hunting",
+   "Nikolai Ivanovich Lobachevsky is evolution",
+   "Nikolai Ivanovich Lobachevsky is economic anthropology",
+   "Nikolai Ivanovich Lobachevsky is Hebrew",
+   "Nikolai Ivanovich Lobachevsky is differential geometry",
+   "Nikolai Ivanovich Lobachevsky is engineering",
+   "Nikolai Ivanovich Lobachevsky is history of science",
+   "Nikolai Ivanovich Lobachevsky is social anthropology",
+   "Nikolai Ivanovich Lobachevsky is history",
+   "Nikolai Ivanovich Lobachevsky is distribution theory",
+   "Nikolai Ivanovich Lobachevsky is classics",
+   "Nikolai Ivanovich Lobachevsky is crime novel",
+   "Nikolai Ivanovich Lobachevsky is statistics",
+   "Nikolai Ivanovich Lobachevsky is experimental physics",
+   "Nikolai Ivanovich Lobachevsky is geography",
+   "Nikolai Ivanovich Lobachevsky is anthropology",
+   "Nikolai Ivanovich Lobachevsky is partial differential equation",
+   "Nikolai Ivanovich Lobachevsky is applied physics",
+   "Nikolai Ivanovich Lobachevsky is Sanskrit",
+   "Nikolai Ivanovich Lobachevsky is a branch of physics",
+   "Nikolai Ivanovich Lobachevsky is comparative mythology",
+   "Nikolai Ivanovich Lobachevsky is radiation",
+   "Nikolai Ivanovich Lobachevsky is aeromechanics",
+   "Nikolai Ivanovich Lobachevsky is harmonic analysis",
+   "Nikolai Ivanovich Lobachevsky is religion",
+   "Nikolai Ivanovich Lobachevsky is civil rights",
+   "Nikolai Ivanovich Lobachevsky is physicist",
+   "Nikolai Ivanovich Lobachevsky is distribution",
+   "Nikolai Ivanovich Lobachevsky is translations from Spanish",
+   "Nikolai Ivanovich Lobachevsky is feminism",
+   "Nikolai Ivanovich Lobachevsky is number theory",
+   "Nikolai Ivanovich Lobachevsky is sociology of organisations",
+   "Nikolai Ivanovich Lobachevsky is astronomer",
+   "Nikolai Ivanovich Lobachevsky is children's and youth literature",
+   "Nikolai Ivanovich Lobachevsky is fairy tale",
+   "Nikolai Ivanovich Lobachevsky is economy",
+   "Nikolai Ivanovich Lobachevsky is graph theory",
+   "Nikolai Ivanovich Lobachevsky is magic",
+   "Nikolai Ivanovich Lobachevsky is essay",
+   "Nikolai Ivanovich Lobachevsky is theory of relativity",
+   "Nikolai Ivanovich Lobachevsky is historical novel",
+   "Nikolai Ivanovich Lobachevsky is biological anthropology",
+   "Nikolai Ivanovich Lobachevsky is literary theory",
+   "Nikolai Ivanovich Lobachevsky is Greek philology",
+   "Nikolai Ivanovich Lobachevsky is lyric poetry",
+   "Nikolai Ivanovich Lobachevsky is psychology",
+   "Nikolai Ivanovich Lobachevsky is quaternion",
+   "Nikolai Ivanovich Lobachevsky is rite",
+   "Nikolai Ivanovich Lobachevsky is jazz",
+   "Nikolai Ivanovich Lobachevsky is heat",
+   "Nikolai Ivanovich Lobachevsky is embryology",
+   "Nikolai Ivanovich Lobachevsky is social philosophy",
+   "Nikolai Ivanovich Lobachevsky is dance choreography",
+   "Nikolai Ivanovich Lobachevsky is politics",
+   "Nikolai Ivanovich Lobachevsky is nanotechnology",
+   "Nikolai Ivanovich Lobachevsky is Afghanistan",
+   "Nikolai Ivanovich Lobachevsky is non-Euclidean geometry",
+   "Nikolai Ivanovich Lobachevsky is Franciscan spirituality",
+   "Nikolai Ivanovich Lobachevsky is detective literature",
+   "Nikolai Ivanovich Lobachevsky is mathematician",
+   "Nikolai Ivanovich Lobachevsky is String",
+   "Nikolai Ivanovich Lobachevsky is classical music",
+   "Nikolai Ivanovich Lobachevsky is translations from Occitan",
+   "Nikolai Ivanovich Lobachevsky is abstract algebra",
+   "Nikolai Ivanovich Lobachevsky is differential calculus",
+   "Nikolai Ivanovich Lobachevsky is mythology",
+   "Nikolai Ivanovich Lobachevsky is literary translation",
+   "Nikolai Ivanovich Lobachevsky is ballistics",
+   "Nikolai Ivanovich Lobachevsky is cryptography",
+   "Nikolai Ivanovich Lobachevsky is Greek",
+   "Nikolai Ivanovich Lobachevsky is logic",
+   "Nikolai Ivanovich Lobachevsky is choreography",
+   "Nikolai Ivanovich Lobachevsky is theology",
+   "Nikolai Ivanovich Lobachevsky is world economy",
+   "Nikolai Ivanovich Lobachevsky is magnetism",
+   "Nikolai Ivanovich Lobachevsky is algebraic geometry",
+   "Nikolai Ivanovich Lobachevsky is theory of differential equations",
+   "Nikolai Ivanovich Lobachevsky is physics",
+   "Nikolai Ivanovich Lobachevsky is music theory",
+   "Nikolai Ivanovich Lobachevsky is economics",
+   "Nikolai Ivanovich Lobachevsky is anatomy",
+   "Nikolai Ivanovich Lobachevsky is electromagnetic field",
+   "Nikolai Ivanovich Lobachevsky is analytic number theory",
+   "Nikolai Ivanovich Lobachevsky is mathematical physics",
+   "Nikolai Ivanovich Lobachevsky is journalism",
+   "Nikolai Ivanovich Lobachevsky is sociology",
+   "Nikolai Ivanovich Lobachevsky is literature",
+   "Nikolai Ivanovich Lobachevsky is ethnography",
+   "Nikolai Ivanovich Lobachevsky is belletristic literature",
+   "Nikolai Ivanovich Lobachevsky is convex function",
+   "Nikolai Ivanovich Lobachevsky is sociology of religion",
+   "Nikolai Ivanovich Lobachevsky is pedagogy",
+   "Nikolai Ivanovich Lobachevsky is philosophy",
+   "Nikolai Ivanovich Lobachevsky is quantum mechanics",
+   "Nikolai Ivanovich Lobachevsky is drama",
+   "Nikolai Ivanovich Lobachevsky is dance",
+   "Nikolai Ivanovich Lobachevsky is Judaism",
+   "Nikolai Ivanovich Lobachevsky is quantum physics",
+   "Nikolai Ivanovich Lobachevsky is philosophy of science",
+   "Nikolai Ivanovich Lobachevsky is linguistics",
+   "Nikolai Ivanovich Lobachevsky is myth",
+   "Nikolai Ivanovich Lobachevsky is physiology",
+   "Nikolai Ivanovich Lobachevsky is English",
+   "Nikolai Ivanovich Lobachevsky is philology",
+   "Nikolai Ivanovich Lobachevsky is political philosophy",
+   "Nikolai Ivanovich Lobachevsky is mechanical engineering",
+   "Nikolai Ivanovich Lobachevsky is ontology",
+   "Nikolai Ivanovich Lobachevsky is forestry",
+   "Nikolai Ivanovich Lobachevsky is aerodynamics",
+   "Nikolai Ivanovich Lobachevsky is Christian Church",
+   "Nikolai Ivanovich Lobachevsky is magnetic resonance",
+   "Nikolai Ivanovich Lobachevsky is astrophysics",
+   "Nikolai Ivanovich Lobachevsky is natural science",
+   "Nikolai Ivanovich Lobachevsky is constitutional law",
+   "Nikolai Ivanovich Lobachevsky is philosophy of law",
+   "Nikolai Ivanovich Lobachevsky is education",
+   "Nikolai Ivanovich Lobachevsky is Monte Carlo method",
+   "Nikolai Ivanovich Lobachevsky is neurology",
+   "Nikolai Ivanovich Lobachevsky is electric field",
+   "Nikolai Ivanovich Lobachevsky is Minkowski spacetime",
+   "Nikolai Ivanovich Lobachevsky is translations from Arabic language",
+   "Nikolai Ivanovich Lobachevsky is Bayesian inference",
+   "Nikolai Ivanovich Lobachevsky is translations from Polish",
+   "Nikolai Ivanovich Lobachevsky is color photography",
+   "Nikolai Ivanovich Lobachevsky is opera",
+   "Nikolai Ivanovich Lobachevsky is model theory",
+   "Nikolai Ivanovich Lobachevsky is cartography",
+   "Nikolai Ivanovich Lobachevsky is nonstandard analysis",
+   "Nikolai Ivanovich Lobachevsky is television program",
+   "Nikolai Ivanovich Lobachevsky is complex manifold",
+   "Nikolai Ivanovich Lobachevsky is poetry",
+   "Nikolai Ivanovich Lobachevsky is mathematics",
+   "Nikolai Ivanovich Lobachevsky is computer science",
+   "Nikolai Ivanovich Lobachevsky is cosmology",
+   "Nikolai Ivanovich Lobachevsky is silviculture",
+   "Nikolai Ivanovich Lobachevsky is hydrodynamics",
+   "Nikolai Ivanovich Lobachevsky is forestry science",
+   "Nikolai Ivanovich Lobachevsky is comparative religion",
+   "Nikolai Ivanovich Lobachevsky is information technology",
+   "Nikolai Ivanovich Lobachevsky is ballet",
+   "Nikolai Ivanovich Lobachevsky is English literature",
+   "Nikolai Ivanovich Lobachevsky is conducting",
+   "Nikolai Ivanovich Lobachevsky is hyperbolic geometry",
+   "Nikolai Ivanovich Lobachevsky is biochemistry",
+   "Nikolai Ivanovich Lobachevsky is religion and society",
+   "Nikolai Ivanovich Lobachevsky is optics",
+   "Nikolai Ivanovich Lobachevsky is ethics",
+   "Nikolai Ivanovich Lobachevsky is cybernetics",
+   "Nikolai Ivanovich Lobachevsky is astronomical observation",
+   "Nikolai Ivanovich Lobachevsky is psychophysiology",
+   "Nikolai Ivanovich Lobachevsky is culturology",
+   "Nikolai Ivanovich Lobachevsky is history of religions",
+   "Nikolai Ivanovich Lobachevsky is probability theory",
+   "Nikolai Ivanovich Lobachevsky is paleontology",
+   "Nikolai Ivanovich Lobachevsky is surgery",
+   "Nikolai Ivanovich Lobachevsky is group theory",
+   "Nikolai Ivanovich Lobachevsky is natural theology",
+   "Nikolai Ivanovich Lobachevsky is astrology",
+   "Nikolai Ivanovich Lobachevsky is quantum electrodynamics",
+   "Nikolai Ivanovich Lobachevsky is mechanics",
+   "Nikolai Ivanovich Lobachevsky is Lie algebra",
+   "Nikolai Ivanovich Lobachevsky is trigonometry",
+   "Nikolai Ivanovich Lobachevsky is literary activity",
+   "Nikolai Ivanovich Lobachevsky is nuclear physics",
+   "Nikolai Ivanovich Lobachevsky is translations from English",
+   "Nikolai Ivanovich Lobachevsky is medicine",
+   "Nikolai Ivanovich Lobachevsky is Jewish philosophy",
+   "Nikolai Ivanovich Lobachevsky is mathematical logic",
+   "Nikolai Ivanovich Lobachevsky is calculus of variations",
+   "Nikolai Ivanovich Lobachevsky is ferromagnetism",
+   "Nikolai Ivanovich Lobachevsky is analytic geometry",
+   "Nikolai Ivanovich Lobachevsky is art of painting",
+   "Nikolai Ivanovich Lobachevsky is functional analysis",
+   "Nikolai Ivanovich Lobachevsky is folklore",
+   "Nikolai Ivanovich Lobachevsky is study of history",
+   "Nikolai Ivanovich Lobachevsky is geometry",
+   "Nikolai Ivanovich Lobachevsky is positivism",
+   "Nikolai Ivanovich Lobachevsky is geodesy",
+   "Nikolai Ivanovich Lobachevsky is astronomy",
+   "Nikolai Ivanovich Lobachevsky is magnetic field",
+   "Nikolai Ivanovich Lobachevsky is kinetic theory",
+   "Nikolai Ivanovich Lobachevsky is celestial mechanics",
+   "Nikolai Ivanovich Lobachevsky is analytic philosophy",
+   "Nikolai Ivanovich Lobachevsky is ethnology",
+   "Nikolai Ivanovich Lobachevsky is history of economic thought"
+  ],
+  [
+   [
+    -46.4240608215332
+   ],
+   [
+    -50.38176727294922
+   ],
+   [
+    -54.20161437988281
+   ],
+   [
+    -47.50921630859375
+   ],
+   [
+    -43.112945556640625
+   ],
+   [
+    -48.99190902709961
+   ],
+   [
+    -47.632789611816406
+   ],
+   [
+    -47.08272171020508
+   ],
+   [
+    -48.07463073730469
+   ],
+   [
+    -47.48398971557617
+   ],
+   [
+    -46.12050247192383
+   ],
+   [
+    -45.87522888183594
+   ],
+   [
+    -53.54838943481445
+   ],
+   [
+    -43.08930969238281
+   ],
+   [
+    -43.876708984375
+   ],
+   [
+    -46.022579193115234
+   ],
+   [
+    -63.23986053466797
+   ],
+   [
+    -49.15529251098633
+   ],
+   [
+    -47.3526611328125
+   ],
+   [
+    -47.382904052734375
+   ],
+   [
+    -50.94358825683594
+   ],
+   [
+    -52.84282684326172
+   ],
+   [
+    -57.02439880371094
+   ],
+   [
+    -49.56163024902344
+   ],
+   [
+    -49.957862854003906
+   ],
+   [
+    -45.79570770263672
+   ],
+   [
+    -45.09557342529297
+   ],
+   [
+    -53.55987548828125
+   ],
+   [
+    -47.175933837890625
+   ],
+   [
+    -49.50971984863281
+   ],
+   [
+    -50.21540069580078
+   ],
+   [
+    -61.42439270019531
+   ],
+   [
+    -48.91835021972656
+   ],
+   [
+    -46.41864013671875
+   ],
+   [
+    -47.44594955444336
+   ],
+   [
+    -52.16706848144531
+   ],
+   [
+    -46.67877960205078
+   ],
+   [
+    -54.45390319824219
+   ],
+   [
+    -51.41987609863281
+   ],
+   [
+    -45.10074996948242
+   ],
+   [
+    -45.50818634033203
+   ],
+   [
+    -46.65856170654297
+   ],
+   [
+    -50.45489501953125
+   ],
+   [
+    -43.5813102722168
+   ],
+   [
+    -47.87717056274414
+   ],
+   [
+    -46.611732482910156
+   ],
+   [
+    -57.95353317260742
+   ],
+   [
+    -46.083587646484375
+   ],
+   [
+    -49.31336975097656
+   ],
+   [
+    -43.43363571166992
+   ],
+   [
+    -47.920318603515625
+   ],
+   [
+    -52.55542755126953
+   ],
+   [
+    -52.53410720825195
+   ],
+   [
+    -49.836753845214844
+   ],
+   [
+    -49.78986358642578
+   ],
+   [
+    -51.228641510009766
+   ],
+   [
+    -49.44938659667969
+   ],
+   [
+    -52.4967041015625
+   ],
+   [
+    -47.71266174316406
+   ],
+   [
+    -48.235740661621094
+   ],
+   [
+    -54.75806427001953
+   ],
+   [
+    -50.45549774169922
+   ],
+   [
+    -46.47325897216797
+   ],
+   [
+    -56.86888122558594
+   ],
+   [
+    -50.935203552246094
+   ],
+   [
+    -44.51498031616211
+   ],
+   [
+    -59.39764404296875
+   ],
+   [
+    -48.99244689941406
+   ],
+   [
+    -55.05158233642578
+   ],
+   [
+    -51.845062255859375
+   ],
+   [
+    -48.77642059326172
+   ],
+   [
+    -44.77156066894531
+   ],
+   [
+    -48.111732482910156
+   ],
+   [
+    -49.113525390625
+   ],
+   [
+    -48.17858123779297
+   ],
+   [
+    -55.36639404296875
+   ],
+   [
+    -52.76972961425781
+   ],
+   [
+    -49.92280578613281
+   ],
+   [
+    -53.269020080566406
+   ],
+   [
+    -53.658260345458984
+   ],
+   [
+    -44.94636535644531
+   ],
+   [
+    -48.66087341308594
+   ],
+   [
+    -53.93589782714844
+   ],
+   [
+    -52.148826599121094
+   ],
+   [
+    -49.32508087158203
+   ],
+   [
+    -47.53285217285156
+   ],
+   [
+    -49.03448486328125
+   ],
+   [
+    -56.205841064453125
+   ],
+   [
+    -46.67723846435547
+   ],
+   [
+    -48.81640625
+   ],
+   [
+    -52.69108963012695
+   ],
+   [
+    -45.08137130737305
+   ],
+   [
+    -57.3502082824707
+   ],
+   [
+    -55.85475158691406
+   ],
+   [
+    -46.8571662902832
+   ],
+   [
+    -49.56443405151367
+   ],
+   [
+    -49.240936279296875
+   ],
+   [
+    -60.916748046875
+   ],
+   [
+    -47.67674255371094
+   ],
+   [
+    -50.450538635253906
+   ],
+   [
+    -48.00858688354492
+   ],
+   [
+    -52.27146911621094
+   ],
+   [
+    -47.90302276611328
+   ],
+   [
+    -46.32735061645508
+   ],
+   [
+    -47.01164245605469
+   ],
+   [
+    -43.758880615234375
+   ],
+   [
+    -50.91522979736328
+   ],
+   [
+    -46.73338317871094
+   ],
+   [
+    -54.058372497558594
+   ],
+   [
+    -47.43741989135742
+   ],
+   [
+    -44.15412902832031
+   ],
+   [
+    -54.14250564575195
+   ],
+   [
+    -42.6719970703125
+   ],
+   [
+    -47.672847747802734
+   ],
+   [
+    -46.47737121582031
+   ],
+   [
+    -47.31755828857422
+   ],
+   [
+    -49.801979064941406
+   ],
+   [
+    -51.77476501464844
+   ],
+   [
+    -43.526573181152344
+   ],
+   [
+    -48.741676330566406
+   ],
+   [
+    -47.02507400512695
+   ],
+   [
+    -45.939449310302734
+   ],
+   [
+    -47.64992141723633
+   ],
+   [
+    -56.82598876953125
+   ],
+   [
+    -52.22325897216797
+   ],
+   [
+    -51.64256286621094
+   ],
+   [
+    -47.29479217529297
+   ],
+   [
+    -42.95902633666992
+   ],
+   [
+    -46.255401611328125
+   ],
+   [
+    -50.372154235839844
+   ],
+   [
+    -49.507415771484375
+   ],
+   [
+    -51.40523910522461
+   ],
+   [
+    -47.89327621459961
+   ],
+   [
+    -46.089271545410156
+   ],
+   [
+    -45.372806549072266
+   ],
+   [
+    -48.490966796875
+   ],
+   [
+    -46.927345275878906
+   ],
+   [
+    -47.93644714355469
+   ],
+   [
+    -46.313392639160156
+   ],
+   [
+    -47.173980712890625
+   ],
+   [
+    -47.56529998779297
+   ],
+   [
+    -45.65228271484375
+   ],
+   [
+    -50.23958969116211
+   ],
+   [
+    -49.062744140625
+   ],
+   [
+    -54.948143005371094
+   ],
+   [
+    -50.553466796875
+   ],
+   [
+    -45.146705627441406
+   ],
+   [
+    -47.420475006103516
+   ],
+   [
+    -49.742279052734375
+   ],
+   [
+    -52.048667907714844
+   ],
+   [
+    -44.86681365966797
+   ],
+   [
+    -56.47026824951172
+   ],
+   [
+    -47.420082092285156
+   ],
+   [
+    -51.85771179199219
+   ],
+   [
+    -51.00176239013672
+   ],
+   [
+    -60.69581604003906
+   ],
+   [
+    -50.22865295410156
+   ],
+   [
+    -55.32982635498047
+   ],
+   [
+    -52.944236755371094
+   ],
+   [
+    -49.243896484375
+   ],
+   [
+    -48.74177551269531
+   ],
+   [
+    -43.69868087768555
+   ],
+   [
+    -50.176979064941406
+   ],
+   [
+    -57.69568634033203
+   ],
+   [
+    -50.982208251953125
+   ],
+   [
+    -47.709232330322266
+   ],
+   [
+    -40.323631286621094
+   ],
+   [
+    -48.12892150878906
+   ],
+   [
+    -42.52214813232422
+   ],
+   [
+    -54.92993927001953
+   ],
+   [
+    -47.290687561035156
+   ],
+   [
+    -55.110294342041016
+   ],
+   [
+    -51.17183303833008
+   ],
+   [
+    -49.02233123779297
+   ],
+   [
+    -48.51969909667969
+   ],
+   [
+    -50.768524169921875
+   ],
+   [
+    -49.18254470825195
+   ],
+   [
+    -45.414215087890625
+   ],
+   [
+    -48.05854034423828
+   ],
+   [
+    -55.718711853027344
+   ],
+   [
+    -43.82838439941406
+   ],
+   [
+    -47.324012756347656
+   ],
+   [
+    -47.91033935546875
+   ],
+   [
+    -50.76055145263672
+   ],
+   [
+    -48.58979034423828
+   ],
+   [
+    -52.191261291503906
+   ],
+   [
+    -51.16021728515625
+   ],
+   [
+    -46.90325927734375
+   ],
+   [
+    -47.51808166503906
+   ],
+   [
+    -48.30115509033203
+   ],
+   [
+    -47.790740966796875
+   ],
+   [
+    -52.88023376464844
+   ],
+   [
+    -46.0262336730957
+   ],
+   [
+    -51.5230712890625
+   ],
+   [
+    -44.9926643371582
+   ],
+   [
+    -50.824466705322266
+   ],
+   [
+    -43.639801025390625
+   ],
+   [
+    -54.370635986328125
+   ],
+   [
+    -50.261497497558594
+   ],
+   [
+    -52.861915588378906
+   ],
+   [
+    -46.753780364990234
+   ],
+   [
+    -52.56937026977539
+   ],
+   [
+    -43.696311950683594
+   ],
+   [
+    -48.72874450683594
+   ],
+   [
+    -55.50926971435547
+   ],
+   [
+    -44.673484802246094
+   ],
+   [
+    -53.53453063964844
+   ],
+   [
+    -48.837860107421875
+   ],
+   [
+    -48.77696990966797
+   ],
+   [
+    -54.093162536621094
+   ],
+   [
+    -40.69557189941406
+   ],
+   [
+    -49.560935974121094
+   ],
+   [
+    -42.076171875
+   ],
+   [
+    -42.84844207763672
+   ],
+   [
+    -50.03460693359375
+   ],
+   [
+    -49.91361999511719
+   ],
+   [
+    -45.35737991333008
+   ],
+   [
+    -50.13294982910156
+   ],
+   [
+    -47.80879211425781
+   ],
+   [
+    -54.34068298339844
+   ],
+   [
+    -36.29676818847656
+   ],
+   [
+    -40.887290954589844
+   ],
+   [
+    -44.231388092041016
+   ],
+   [
+    -38.05412673950195
+   ],
+   [
+    -33.22508239746094
+   ],
+   [
+    -34.730010986328125
+   ],
+   [
+    -36.40061569213867
+   ],
+   [
+    -35.66941452026367
+   ],
+   [
+    -34.53269958496094
+   ],
+   [
+    -38.47789001464844
+   ],
+   [
+    -37.81901931762695
+   ],
+   [
+    -35.32468795776367
+   ],
+   [
+    -42.84069061279297
+   ],
+   [
+    -36.75760269165039
+   ],
+   [
+    -40.18666458129883
+   ],
+   [
+    -37.88304138183594
+   ],
+   [
+    -48.162811279296875
+   ],
+   [
+    -39.01283645629883
+   ],
+   [
+    -37.37833786010742
+   ],
+   [
+    -39.230812072753906
+   ],
+   [
+    -41.179534912109375
+   ],
+   [
+    -40.74480438232422
+   ],
+   [
+    -42.566192626953125
+   ],
+   [
+    -31.563709259033203
+   ],
+   [
+    -33.72589874267578
+   ],
+   [
+    -36.02452087402344
+   ],
+   [
+    -36.71361541748047
+   ],
+   [
+    -43.03007507324219
+   ],
+   [
+    -39.040130615234375
+   ],
+   [
+    -34.7764778137207
+   ],
+   [
+    -36.57097244262695
+   ],
+   [
+    -48.33051681518555
+   ],
+   [
+    -37.66217041015625
+   ],
+   [
+    -37.78685760498047
+   ],
+   [
+    -37.84128952026367
+   ],
+   [
+    -34.17030715942383
+   ],
+   [
+    -35.323265075683594
+   ],
+   [
+    -42.48994445800781
+   ],
+   [
+    -33.65852737426758
+   ],
+   [
+    -37.738685607910156
+   ],
+   [
+    -34.379173278808594
+   ],
+   [
+    -37.463844299316406
+   ],
+   [
+    -40.43063735961914
+   ],
+   [
+    -30.436492919921875
+   ],
+   [
+    -40.063026428222656
+   ],
+   [
+    -36.09769058227539
+   ],
+   [
+    -42.382049560546875
+   ],
+   [
+    -34.13509750366211
+   ],
+   [
+    -38.71101760864258
+   ],
+   [
+    -35.937400817871094
+   ],
+   [
+    -35.919986724853516
+   ],
+   [
+    -41.97291946411133
+   ],
+   [
+    -38.05927658081055
+   ],
+   [
+    -34.73944854736328
+   ],
+   [
+    -38.87550735473633
+   ],
+   [
+    -39.26701736450195
+   ],
+   [
+    -36.18838119506836
+   ],
+   [
+    -40.72981643676758
+   ],
+   [
+    -39.653507232666016
+   ],
+   [
+    -35.38750457763672
+   ],
+   [
+    -38.611515045166016
+   ],
+   [
+    -31.442840576171875
+   ],
+   [
+    -36.846824645996094
+   ],
+   [
+    -45.765647888183594
+   ],
+   [
+    -37.48046112060547
+   ],
+   [
+    -39.50551223754883
+   ],
+   [
+    -49.42547607421875
+   ],
+   [
+    -32.68049240112305
+   ],
+   [
+    -44.796112060546875
+   ],
+   [
+    -35.572200775146484
+   ],
+   [
+    -36.09717559814453
+   ],
+   [
+    -37.123573303222656
+   ],
+   [
+    -34.671730041503906
+   ],
+   [
+    -33.49237060546875
+   ],
+   [
+    -37.10313034057617
+   ],
+   [
+    -38.095638275146484
+   ],
+   [
+    -40.693504333496094
+   ],
+   [
+    -40.09223556518555
+   ],
+   [
+    -43.07190704345703
+   ],
+   [
+    -40.218841552734375
+   ],
+   [
+    -35.6357536315918
+   ],
+   [
+    -37.982540130615234
+   ],
+   [
+    -36.06608200073242
+   ],
+   [
+    -35.13782501220703
+   ],
+   [
+    -35.52435302734375
+   ],
+   [
+    -36.7093505859375
+   ],
+   [
+    -39.938194274902344
+   ],
+   [
+    -44.32136535644531
+   ],
+   [
+    -36.04279708862305
+   ],
+   [
+    -37.24557876586914
+   ],
+   [
+    -36.80565643310547
+   ],
+   [
+    -35.092437744140625
+   ],
+   [
+    -44.453250885009766
+   ],
+   [
+    -44.30685806274414
+   ],
+   [
+    -30.335044860839844
+   ],
+   [
+    -34.80186080932617
+   ],
+   [
+    -37.885066986083984
+   ],
+   [
+    -50.279273986816406
+   ],
+   [
+    -36.60066223144531
+   ],
+   [
+    -43.49476623535156
+   ],
+   [
+    -33.91067123413086
+   ],
+   [
+    -41.63458251953125
+   ],
+   [
+    -39.393714904785156
+   ],
+   [
+    -34.64168167114258
+   ],
+   [
+    -31.380733489990234
+   ],
+   [
+    -34.9563102722168
+   ],
+   [
+    -40.60109329223633
+   ],
+   [
+    -35.492286682128906
+   ],
+   [
+    -41.980491638183594
+   ],
+   [
+    -38.00497817993164
+   ],
+   [
+    -35.25774383544922
+   ],
+   [
+    -45.908042907714844
+   ],
+   [
+    -32.30448532104492
+   ],
+   [
+    -36.46490478515625
+   ],
+   [
+    -35.105247497558594
+   ],
+   [
+    -35.790061950683594
+   ],
+   [
+    -39.94950485229492
+   ],
+   [
+    -39.322662353515625
+   ],
+   [
+    -36.52872848510742
+   ],
+   [
+    -37.354923248291016
+   ],
+   [
+    -35.57426834106445
+   ],
+   [
+    -33.71072769165039
+   ],
+   [
+    -38.05133056640625
+   ],
+   [
+    -47.995758056640625
+   ],
+   [
+    -43.696495056152344
+   ],
+   [
+    -41.66358947753906
+   ],
+   [
+    -36.99297332763672
+   ],
+   [
+    -33.2635498046875
+   ],
+   [
+    -34.64310073852539
+   ],
+   [
+    -36.30425262451172
+   ],
+   [
+    -35.649993896484375
+   ],
+   [
+    -33.977603912353516
+   ],
+   [
+    -35.760555267333984
+   ],
+   [
+    -37.87892150878906
+   ],
+   [
+    -37.08527755737305
+   ],
+   [
+    -32.359127044677734
+   ],
+   [
+    -36.6826057434082
+   ],
+   [
+    -32.92730712890625
+   ],
+   [
+    -36.15507125854492
+   ],
+   [
+    -38.54022979736328
+   ],
+   [
+    -38.19858169555664
+   ],
+   [
+    -35.64775848388672
+   ],
+   [
+    -37.18266296386719
+   ],
+   [
+    -38.835750579833984
+   ],
+   [
+    -39.77338409423828
+   ],
+   [
+    -42.83515167236328
+   ],
+   [
+    -37.34831619262695
+   ],
+   [
+    -37.15313720703125
+   ],
+   [
+    -38.59406280517578
+   ],
+   [
+    -42.633872985839844
+   ],
+   [
+    -34.47980499267578
+   ],
+   [
+    -50.10209655761719
+   ],
+   [
+    -35.1302375793457
+   ],
+   [
+    -42.66545486450195
+   ],
+   [
+    -40.91438674926758
+   ],
+   [
+    -52.954925537109375
+   ],
+   [
+    -40.45558166503906
+   ],
+   [
+    -44.703041076660156
+   ],
+   [
+    -42.25862503051758
+   ],
+   [
+    -33.80836868286133
+   ],
+   [
+    -43.673072814941406
+   ],
+   [
+    -35.50196075439453
+   ],
+   [
+    -43.752044677734375
+   ],
+   [
+    -43.63523483276367
+   ],
+   [
+    -42.99607467651367
+   ],
+   [
+    -34.32170104980469
+   ],
+   [
+    -32.953880310058594
+   ],
+   [
+    -35.22944259643555
+   ],
+   [
+    -34.504520416259766
+   ],
+   [
+    -44.05514144897461
+   ],
+   [
+    -37.17562484741211
+   ],
+   [
+    -40.93580627441406
+   ],
+   [
+    -41.11674118041992
+   ],
+   [
+    -36.0988655090332
+   ],
+   [
+    -35.506378173828125
+   ],
+   [
+    -37.078948974609375
+   ],
+   [
+    -31.205001831054688
+   ],
+   [
+    -36.63347625732422
+   ],
+   [
+    -39.69491958618164
+   ],
+   [
+    -42.350929260253906
+   ],
+   [
+    -36.66063690185547
+   ],
+   [
+    -37.2401237487793
+   ],
+   [
+    -36.34929656982422
+   ],
+   [
+    -42.782798767089844
+   ],
+   [
+    -41.963897705078125
+   ],
+   [
+    -42.70943069458008
+   ],
+   [
+    -44.015384674072266
+   ],
+   [
+    -35.600032806396484
+   ],
+   [
+    -36.75069046020508
+   ],
+   [
+    -36.3302116394043
+   ],
+   [
+    -37.1113166809082
+   ],
+   [
+    -43.69418716430664
+   ],
+   [
+    -36.6280517578125
+   ],
+   [
+    -39.202484130859375
+   ],
+   [
+    -39.10762405395508
+   ],
+   [
+    -36.70315170288086
+   ],
+   [
+    -36.313697814941406
+   ],
+   [
+    -41.5080680847168
+   ],
+   [
+    -36.38468551635742
+   ],
+   [
+    -43.83685302734375
+   ],
+   [
+    -34.425453186035156
+   ],
+   [
+    -41.263710021972656
+   ],
+   [
+    -37.97565841674805
+   ],
+   [
+    -40.98183059692383
+   ],
+   [
+    -45.486053466796875
+   ],
+   [
+    -34.886070251464844
+   ],
+   [
+    -43.429420471191406
+   ],
+   [
+    -39.34957504272461
+   ],
+   [
+    -33.499568939208984
+   ],
+   [
+    -40.311668395996094
+   ],
+   [
+    -34.51141357421875
+   ],
+   [
+    -37.40485763549805
+   ],
+   [
+    -36.30500793457031
+   ],
+   [
+    -33.786476135253906
+   ],
+   [
+    -41.11373519897461
+   ],
+   [
+    -37.6014518737793
+   ],
+   [
+    -37.962646484375
+   ],
+   [
+    -38.69972610473633
+   ],
+   [
+    -38.766475677490234
+   ],
+   [
+    -44.240623474121094
+   ]
+  ]
+ ],
+ "time": 1592.3433957099915
+}

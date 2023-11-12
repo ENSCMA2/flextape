@@ -1,0 +1,2076 @@
+{
+ "case_id": 22209,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Zachris Topelius"
+ },
+ "pre": [
+  [
+   "Zachris Topelius's field of work is meteorology",
+   "Zachris Topelius's field of work is radioactivity",
+   "Zachris Topelius's field of work is complex function",
+   "Zachris Topelius's field of work is histology",
+   "Zachris Topelius's field of work is algebra",
+   "Zachris Topelius's field of work is electron",
+   "Zachris Topelius's field of work is quantum theory",
+   "Zachris Topelius's field of work is applied mathematics",
+   "Zachris Topelius's field of work is electricity",
+   "Zachris Topelius's field of work is human geography",
+   "Zachris Topelius's field of work is crystallography",
+   "Zachris Topelius's field of work is chemistry",
+   "Zachris Topelius's field of work is Jewish studies",
+   "Zachris Topelius's field of work is topology",
+   "Zachris Topelius's field of work is mathematical analysis",
+   "Zachris Topelius's field of work is computational geometry",
+   "Zachris Topelius's field of work is Petrine ministry",
+   "Zachris Topelius's field of work is social psychology",
+   "Zachris Topelius's field of work is genetics",
+   "Zachris Topelius's field of work is informatics",
+   "Zachris Topelius's field of work is shipbuilding",
+   "Zachris Topelius's field of work is historical sociology",
+   "Zachris Topelius's field of work is quantum mysticism",
+   "Zachris Topelius's field of work is philosopher",
+   "Zachris Topelius's field of work is Internet",
+   "Zachris Topelius's field of work is gravity",
+   "Zachris Topelius's field of work is theoretical physics",
+   "Zachris Topelius's field of work is African studies",
+   "Zachris Topelius's field of work is projective geometry",
+   "Zachris Topelius's field of work is prose",
+   "Zachris Topelius's field of work is momentum",
+   "Zachris Topelius's field of work is Cairo Geniza",
+   "Zachris Topelius's field of work is stochastic",
+   "Zachris Topelius's field of work is algebraic topology",
+   "Zachris Topelius's field of work is electrical engineering",
+   "Zachris Topelius's field of work is hunting",
+   "Zachris Topelius's field of work is evolution",
+   "Zachris Topelius's field of work is economic anthropology",
+   "Zachris Topelius's field of work is Hebrew",
+   "Zachris Topelius's field of work is differential geometry",
+   "Zachris Topelius's field of work is engineering",
+   "Zachris Topelius's field of work is history of science",
+   "Zachris Topelius's field of work is social anthropology",
+   "Zachris Topelius's field of work is history",
+   "Zachris Topelius's field of work is distribution theory",
+   "Zachris Topelius's field of work is classics",
+   "Zachris Topelius's field of work is crime novel",
+   "Zachris Topelius's field of work is statistics",
+   "Zachris Topelius's field of work is experimental physics",
+   "Zachris Topelius's field of work is geography",
+   "Zachris Topelius's field of work is anthropology",
+   "Zachris Topelius's field of work is partial differential equation",
+   "Zachris Topelius's field of work is applied physics",
+   "Zachris Topelius's field of work is Sanskrit",
+   "Zachris Topelius's field of work is a branch of physics",
+   "Zachris Topelius's field of work is comparative mythology",
+   "Zachris Topelius's field of work is radiation",
+   "Zachris Topelius's field of work is aeromechanics",
+   "Zachris Topelius's field of work is harmonic analysis",
+   "Zachris Topelius's field of work is religion",
+   "Zachris Topelius's field of work is civil rights",
+   "Zachris Topelius's field of work is physicist",
+   "Zachris Topelius's field of work is distribution",
+   "Zachris Topelius's field of work is translations from Spanish",
+   "Zachris Topelius's field of work is feminism",
+   "Zachris Topelius's field of work is number theory",
+   "Zachris Topelius's field of work is sociology of organisations",
+   "Zachris Topelius's field of work is astronomer",
+   "Zachris Topelius's field of work is children's and youth literature",
+   "Zachris Topelius's field of work is fairy tale",
+   "Zachris Topelius's field of work is economy",
+   "Zachris Topelius's field of work is graph theory",
+   "Zachris Topelius's field of work is magic",
+   "Zachris Topelius's field of work is essay",
+   "Zachris Topelius's field of work is theory of relativity",
+   "Zachris Topelius's field of work is historical novel",
+   "Zachris Topelius's field of work is biological anthropology",
+   "Zachris Topelius's field of work is literary theory",
+   "Zachris Topelius's field of work is Greek philology",
+   "Zachris Topelius's field of work is lyric poetry",
+   "Zachris Topelius's field of work is psychology",
+   "Zachris Topelius's field of work is quaternion",
+   "Zachris Topelius's field of work is rite",
+   "Zachris Topelius's field of work is jazz",
+   "Zachris Topelius's field of work is heat",
+   "Zachris Topelius's field of work is embryology",
+   "Zachris Topelius's field of work is social philosophy",
+   "Zachris Topelius's field of work is dance choreography",
+   "Zachris Topelius's field of work is politics",
+   "Zachris Topelius's field of work is nanotechnology",
+   "Zachris Topelius's field of work is Afghanistan",
+   "Zachris Topelius's field of work is non-Euclidean geometry",
+   "Zachris Topelius's field of work is Franciscan spirituality",
+   "Zachris Topelius's field of work is detective literature",
+   "Zachris Topelius's field of work is mathematician",
+   "Zachris Topelius's field of work is String",
+   "Zachris Topelius's field of work is classical music",
+   "Zachris Topelius's field of work is translations from Occitan",
+   "Zachris Topelius's field of work is abstract algebra",
+   "Zachris Topelius's field of work is differential calculus",
+   "Zachris Topelius's field of work is mythology",
+   "Zachris Topelius's field of work is literary translation",
+   "Zachris Topelius's field of work is ballistics",
+   "Zachris Topelius's field of work is cryptography",
+   "Zachris Topelius's field of work is Greek",
+   "Zachris Topelius's field of work is logic",
+   "Zachris Topelius's field of work is choreography",
+   "Zachris Topelius's field of work is theology",
+   "Zachris Topelius's field of work is world economy",
+   "Zachris Topelius's field of work is magnetism",
+   "Zachris Topelius's field of work is algebraic geometry",
+   "Zachris Topelius's field of work is theory of differential equations",
+   "Zachris Topelius's field of work is physics",
+   "Zachris Topelius's field of work is music theory",
+   "Zachris Topelius's field of work is economics",
+   "Zachris Topelius's field of work is anatomy",
+   "Zachris Topelius's field of work is electromagnetic field",
+   "Zachris Topelius's field of work is analytic number theory",
+   "Zachris Topelius's field of work is mathematical physics",
+   "Zachris Topelius's field of work is journalism",
+   "Zachris Topelius's field of work is sociology",
+   "Zachris Topelius's field of work is literature",
+   "Zachris Topelius's field of work is ethnography",
+   "Zachris Topelius's field of work is belletristic literature",
+   "Zachris Topelius's field of work is convex function",
+   "Zachris Topelius's field of work is sociology of religion",
+   "Zachris Topelius's field of work is pedagogy",
+   "Zachris Topelius's field of work is philosophy",
+   "Zachris Topelius's field of work is quantum mechanics",
+   "Zachris Topelius's field of work is drama",
+   "Zachris Topelius's field of work is dance",
+   "Zachris Topelius's field of work is Judaism",
+   "Zachris Topelius's field of work is quantum physics",
+   "Zachris Topelius's field of work is philosophy of science",
+   "Zachris Topelius's field of work is linguistics",
+   "Zachris Topelius's field of work is myth",
+   "Zachris Topelius's field of work is physiology",
+   "Zachris Topelius's field of work is English",
+   "Zachris Topelius's field of work is philology",
+   "Zachris Topelius's field of work is political philosophy",
+   "Zachris Topelius's field of work is mechanical engineering",
+   "Zachris Topelius's field of work is ontology",
+   "Zachris Topelius's field of work is forestry",
+   "Zachris Topelius's field of work is aerodynamics",
+   "Zachris Topelius's field of work is Christian Church",
+   "Zachris Topelius's field of work is magnetic resonance",
+   "Zachris Topelius's field of work is astrophysics",
+   "Zachris Topelius's field of work is natural science",
+   "Zachris Topelius's field of work is constitutional law",
+   "Zachris Topelius's field of work is philosophy of law",
+   "Zachris Topelius's field of work is education",
+   "Zachris Topelius's field of work is Monte Carlo method",
+   "Zachris Topelius's field of work is neurology",
+   "Zachris Topelius's field of work is electric field",
+   "Zachris Topelius's field of work is Minkowski spacetime",
+   "Zachris Topelius's field of work is translations from Arabic language",
+   "Zachris Topelius's field of work is Bayesian inference",
+   "Zachris Topelius's field of work is translations from Polish",
+   "Zachris Topelius's field of work is color photography",
+   "Zachris Topelius's field of work is opera",
+   "Zachris Topelius's field of work is model theory",
+   "Zachris Topelius's field of work is cartography",
+   "Zachris Topelius's field of work is nonstandard analysis",
+   "Zachris Topelius's field of work is television program",
+   "Zachris Topelius's field of work is complex manifold",
+   "Zachris Topelius's field of work is poetry",
+   "Zachris Topelius's field of work is mathematics",
+   "Zachris Topelius's field of work is computer science",
+   "Zachris Topelius's field of work is cosmology",
+   "Zachris Topelius's field of work is silviculture",
+   "Zachris Topelius's field of work is hydrodynamics",
+   "Zachris Topelius's field of work is forestry science",
+   "Zachris Topelius's field of work is comparative religion",
+   "Zachris Topelius's field of work is information technology",
+   "Zachris Topelius's field of work is ballet",
+   "Zachris Topelius's field of work is English literature",
+   "Zachris Topelius's field of work is conducting",
+   "Zachris Topelius's field of work is hyperbolic geometry",
+   "Zachris Topelius's field of work is biochemistry",
+   "Zachris Topelius's field of work is religion and society",
+   "Zachris Topelius's field of work is optics",
+   "Zachris Topelius's field of work is ethics",
+   "Zachris Topelius's field of work is cybernetics",
+   "Zachris Topelius's field of work is astronomical observation",
+   "Zachris Topelius's field of work is psychophysiology",
+   "Zachris Topelius's field of work is culturology",
+   "Zachris Topelius's field of work is history of religions",
+   "Zachris Topelius's field of work is probability theory",
+   "Zachris Topelius's field of work is paleontology",
+   "Zachris Topelius's field of work is surgery",
+   "Zachris Topelius's field of work is group theory",
+   "Zachris Topelius's field of work is natural theology",
+   "Zachris Topelius's field of work is astrology",
+   "Zachris Topelius's field of work is quantum electrodynamics",
+   "Zachris Topelius's field of work is mechanics",
+   "Zachris Topelius's field of work is Lie algebra",
+   "Zachris Topelius's field of work is trigonometry",
+   "Zachris Topelius's field of work is literary activity",
+   "Zachris Topelius's field of work is nuclear physics",
+   "Zachris Topelius's field of work is translations from English",
+   "Zachris Topelius's field of work is medicine",
+   "Zachris Topelius's field of work is Jewish philosophy",
+   "Zachris Topelius's field of work is mathematical logic",
+   "Zachris Topelius's field of work is calculus of variations",
+   "Zachris Topelius's field of work is ferromagnetism",
+   "Zachris Topelius's field of work is analytic geometry",
+   "Zachris Topelius's field of work is art of painting",
+   "Zachris Topelius's field of work is functional analysis",
+   "Zachris Topelius's field of work is folklore",
+   "Zachris Topelius's field of work is study of history",
+   "Zachris Topelius's field of work is geometry",
+   "Zachris Topelius's field of work is positivism",
+   "Zachris Topelius's field of work is geodesy",
+   "Zachris Topelius's field of work is astronomy",
+   "Zachris Topelius's field of work is magnetic field",
+   "Zachris Topelius's field of work is kinetic theory",
+   "Zachris Topelius's field of work is celestial mechanics",
+   "Zachris Topelius's field of work is analytic philosophy",
+   "Zachris Topelius's field of work is ethnology",
+   "Zachris Topelius's field of work is history of economic thought",
+   "Zachris Topelius is meteorology",
+   "Zachris Topelius is radioactivity",
+   "Zachris Topelius is complex function",
+   "Zachris Topelius is histology",
+   "Zachris Topelius is algebra",
+   "Zachris Topelius is electron",
+   "Zachris Topelius is quantum theory",
+   "Zachris Topelius is applied mathematics",
+   "Zachris Topelius is electricity",
+   "Zachris Topelius is human geography",
+   "Zachris Topelius is crystallography",
+   "Zachris Topelius is chemistry",
+   "Zachris Topelius is Jewish studies",
+   "Zachris Topelius is topology",
+   "Zachris Topelius is mathematical analysis",
+   "Zachris Topelius is computational geometry",
+   "Zachris Topelius is Petrine ministry",
+   "Zachris Topelius is social psychology",
+   "Zachris Topelius is genetics",
+   "Zachris Topelius is informatics",
+   "Zachris Topelius is shipbuilding",
+   "Zachris Topelius is historical sociology",
+   "Zachris Topelius is quantum mysticism",
+   "Zachris Topelius is philosopher",
+   "Zachris Topelius is Internet",
+   "Zachris Topelius is gravity",
+   "Zachris Topelius is theoretical physics",
+   "Zachris Topelius is African studies",
+   "Zachris Topelius is projective geometry",
+   "Zachris Topelius is prose",
+   "Zachris Topelius is momentum",
+   "Zachris Topelius is Cairo Geniza",
+   "Zachris Topelius is stochastic",
+   "Zachris Topelius is algebraic topology",
+   "Zachris Topelius is electrical engineering",
+   "Zachris Topelius is hunting",
+   "Zachris Topelius is evolution",
+   "Zachris Topelius is economic anthropology",
+   "Zachris Topelius is Hebrew",
+   "Zachris Topelius is differential geometry",
+   "Zachris Topelius is engineering",
+   "Zachris Topelius is history of science",
+   "Zachris Topelius is social anthropology",
+   "Zachris Topelius is history",
+   "Zachris Topelius is distribution theory",
+   "Zachris Topelius is classics",
+   "Zachris Topelius is crime novel",
+   "Zachris Topelius is statistics",
+   "Zachris Topelius is experimental physics",
+   "Zachris Topelius is geography",
+   "Zachris Topelius is anthropology",
+   "Zachris Topelius is partial differential equation",
+   "Zachris Topelius is applied physics",
+   "Zachris Topelius is Sanskrit",
+   "Zachris Topelius is a branch of physics",
+   "Zachris Topelius is comparative mythology",
+   "Zachris Topelius is radiation",
+   "Zachris Topelius is aeromechanics",
+   "Zachris Topelius is harmonic analysis",
+   "Zachris Topelius is religion",
+   "Zachris Topelius is civil rights",
+   "Zachris Topelius is physicist",
+   "Zachris Topelius is distribution",
+   "Zachris Topelius is translations from Spanish",
+   "Zachris Topelius is feminism",
+   "Zachris Topelius is number theory",
+   "Zachris Topelius is sociology of organisations",
+   "Zachris Topelius is astronomer",
+   "Zachris Topelius is children's and youth literature",
+   "Zachris Topelius is fairy tale",
+   "Zachris Topelius is economy",
+   "Zachris Topelius is graph theory",
+   "Zachris Topelius is magic",
+   "Zachris Topelius is essay",
+   "Zachris Topelius is theory of relativity",
+   "Zachris Topelius is historical novel",
+   "Zachris Topelius is biological anthropology",
+   "Zachris Topelius is literary theory",
+   "Zachris Topelius is Greek philology",
+   "Zachris Topelius is lyric poetry",
+   "Zachris Topelius is psychology",
+   "Zachris Topelius is quaternion",
+   "Zachris Topelius is rite",
+   "Zachris Topelius is jazz",
+   "Zachris Topelius is heat",
+   "Zachris Topelius is embryology",
+   "Zachris Topelius is social philosophy",
+   "Zachris Topelius is dance choreography",
+   "Zachris Topelius is politics",
+   "Zachris Topelius is nanotechnology",
+   "Zachris Topelius is Afghanistan",
+   "Zachris Topelius is non-Euclidean geometry",
+   "Zachris Topelius is Franciscan spirituality",
+   "Zachris Topelius is detective literature",
+   "Zachris Topelius is mathematician",
+   "Zachris Topelius is String",
+   "Zachris Topelius is classical music",
+   "Zachris Topelius is translations from Occitan",
+   "Zachris Topelius is abstract algebra",
+   "Zachris Topelius is differential calculus",
+   "Zachris Topelius is mythology",
+   "Zachris Topelius is literary translation",
+   "Zachris Topelius is ballistics",
+   "Zachris Topelius is cryptography",
+   "Zachris Topelius is Greek",
+   "Zachris Topelius is logic",
+   "Zachris Topelius is choreography",
+   "Zachris Topelius is theology",
+   "Zachris Topelius is world economy",
+   "Zachris Topelius is magnetism",
+   "Zachris Topelius is algebraic geometry",
+   "Zachris Topelius is theory of differential equations",
+   "Zachris Topelius is physics",
+   "Zachris Topelius is music theory",
+   "Zachris Topelius is economics",
+   "Zachris Topelius is anatomy",
+   "Zachris Topelius is electromagnetic field",
+   "Zachris Topelius is analytic number theory",
+   "Zachris Topelius is mathematical physics",
+   "Zachris Topelius is journalism",
+   "Zachris Topelius is sociology",
+   "Zachris Topelius is literature",
+   "Zachris Topelius is ethnography",
+   "Zachris Topelius is belletristic literature",
+   "Zachris Topelius is convex function",
+   "Zachris Topelius is sociology of religion",
+   "Zachris Topelius is pedagogy",
+   "Zachris Topelius is philosophy",
+   "Zachris Topelius is quantum mechanics",
+   "Zachris Topelius is drama",
+   "Zachris Topelius is dance",
+   "Zachris Topelius is Judaism",
+   "Zachris Topelius is quantum physics",
+   "Zachris Topelius is philosophy of science",
+   "Zachris Topelius is linguistics",
+   "Zachris Topelius is myth",
+   "Zachris Topelius is physiology",
+   "Zachris Topelius is English",
+   "Zachris Topelius is philology",
+   "Zachris Topelius is political philosophy",
+   "Zachris Topelius is mechanical engineering",
+   "Zachris Topelius is ontology",
+   "Zachris Topelius is forestry",
+   "Zachris Topelius is aerodynamics",
+   "Zachris Topelius is Christian Church",
+   "Zachris Topelius is magnetic resonance",
+   "Zachris Topelius is astrophysics",
+   "Zachris Topelius is natural science",
+   "Zachris Topelius is constitutional law",
+   "Zachris Topelius is philosophy of law",
+   "Zachris Topelius is education",
+   "Zachris Topelius is Monte Carlo method",
+   "Zachris Topelius is neurology",
+   "Zachris Topelius is electric field",
+   "Zachris Topelius is Minkowski spacetime",
+   "Zachris Topelius is translations from Arabic language",
+   "Zachris Topelius is Bayesian inference",
+   "Zachris Topelius is translations from Polish",
+   "Zachris Topelius is color photography",
+   "Zachris Topelius is opera",
+   "Zachris Topelius is model theory",
+   "Zachris Topelius is cartography",
+   "Zachris Topelius is nonstandard analysis",
+   "Zachris Topelius is television program",
+   "Zachris Topelius is complex manifold",
+   "Zachris Topelius is poetry",
+   "Zachris Topelius is mathematics",
+   "Zachris Topelius is computer science",
+   "Zachris Topelius is cosmology",
+   "Zachris Topelius is silviculture",
+   "Zachris Topelius is hydrodynamics",
+   "Zachris Topelius is forestry science",
+   "Zachris Topelius is comparative religion",
+   "Zachris Topelius is information technology",
+   "Zachris Topelius is ballet",
+   "Zachris Topelius is English literature",
+   "Zachris Topelius is conducting",
+   "Zachris Topelius is hyperbolic geometry",
+   "Zachris Topelius is biochemistry",
+   "Zachris Topelius is religion and society",
+   "Zachris Topelius is optics",
+   "Zachris Topelius is ethics",
+   "Zachris Topelius is cybernetics",
+   "Zachris Topelius is astronomical observation",
+   "Zachris Topelius is psychophysiology",
+   "Zachris Topelius is culturology",
+   "Zachris Topelius is history of religions",
+   "Zachris Topelius is probability theory",
+   "Zachris Topelius is paleontology",
+   "Zachris Topelius is surgery",
+   "Zachris Topelius is group theory",
+   "Zachris Topelius is natural theology",
+   "Zachris Topelius is astrology",
+   "Zachris Topelius is quantum electrodynamics",
+   "Zachris Topelius is mechanics",
+   "Zachris Topelius is Lie algebra",
+   "Zachris Topelius is trigonometry",
+   "Zachris Topelius is literary activity",
+   "Zachris Topelius is nuclear physics",
+   "Zachris Topelius is translations from English",
+   "Zachris Topelius is medicine",
+   "Zachris Topelius is Jewish philosophy",
+   "Zachris Topelius is mathematical logic",
+   "Zachris Topelius is calculus of variations",
+   "Zachris Topelius is ferromagnetism",
+   "Zachris Topelius is analytic geometry",
+   "Zachris Topelius is art of painting",
+   "Zachris Topelius is functional analysis",
+   "Zachris Topelius is folklore",
+   "Zachris Topelius is study of history",
+   "Zachris Topelius is geometry",
+   "Zachris Topelius is positivism",
+   "Zachris Topelius is geodesy",
+   "Zachris Topelius is astronomy",
+   "Zachris Topelius is magnetic field",
+   "Zachris Topelius is kinetic theory",
+   "Zachris Topelius is celestial mechanics",
+   "Zachris Topelius is analytic philosophy",
+   "Zachris Topelius is ethnology",
+   "Zachris Topelius is history of economic thought"
+  ],
+  [
+   [
+    -54.17913055419922
+   ],
+   [
+    -56.832698822021484
+   ],
+   [
+    -62.74472427368164
+   ],
+   [
+    -56.23809051513672
+   ],
+   [
+    -54.43077850341797
+   ],
+   [
+    -54.71883010864258
+   ],
+   [
+    -55.48085403442383
+   ],
+   [
+    -54.027645111083984
+   ],
+   [
+    -54.340126037597656
+   ],
+   [
+    -54.92575454711914
+   ],
+   [
+    -55.711753845214844
+   ],
+   [
+    -52.366661071777344
+   ],
+   [
+    -57.60784149169922
+   ],
+   [
+    -53.91069412231445
+   ],
+   [
+    -55.92829895019531
+   ],
+   [
+    -54.8742561340332
+   ],
+   [
+    -72.38862609863281
+   ],
+   [
+    -53.21916198730469
+   ],
+   [
+    -52.824462890625
+   ],
+   [
+    -54.024200439453125
+   ],
+   [
+    -57.6047477722168
+   ],
+   [
+    -58.3985481262207
+   ],
+   [
+    -61.990692138671875
+   ],
+   [
+    -56.44585418701172
+   ],
+   [
+    -51.996803283691406
+   ],
+   [
+    -54.81901168823242
+   ],
+   [
+    -53.7716064453125
+   ],
+   [
+    -57.06636428833008
+   ],
+   [
+    -59.40105438232422
+   ],
+   [
+    -55.39124298095703
+   ],
+   [
+    -57.98918151855469
+   ],
+   [
+    -66.67031860351562
+   ],
+   [
+    -55.17119216918945
+   ],
+   [
+    -56.88847351074219
+   ],
+   [
+    -53.86094284057617
+   ],
+   [
+    -54.211997985839844
+   ],
+   [
+    -54.18382263183594
+   ],
+   [
+    -56.56361770629883
+   ],
+   [
+    -56.58733367919922
+   ],
+   [
+    -57.050926208496094
+   ],
+   [
+    -52.097618103027344
+   ],
+   [
+    -55.996368408203125
+   ],
+   [
+    -54.974143981933594
+   ],
+   [
+    -51.34511947631836
+   ],
+   [
+    -58.879886627197266
+   ],
+   [
+    -55.58580780029297
+   ],
+   [
+    -61.24111557006836
+   ],
+   [
+    -53.23942184448242
+   ],
+   [
+    -55.07913589477539
+   ],
+   [
+    -53.19983673095703
+   ],
+   [
+    -52.052696228027344
+   ],
+   [
+    -61.738773345947266
+   ],
+   [
+    -55.76055145263672
+   ],
+   [
+    -55.55029296875
+   ],
+   [
+    -58.67621994018555
+   ],
+   [
+    -56.67733383178711
+   ],
+   [
+    -54.747962951660156
+   ],
+   [
+    -59.54350280761719
+   ],
+   [
+    -57.42092514038086
+   ],
+   [
+    -53.34130096435547
+   ],
+   [
+    -54.89701461791992
+   ],
+   [
+    -58.8416748046875
+   ],
+   [
+    -54.43207550048828
+   ],
+   [
+    -61.42967987060547
+   ],
+   [
+    -54.15223693847656
+   ],
+   [
+    -53.7473258972168
+   ],
+   [
+    -61.482234954833984
+   ],
+   [
+    -58.102874755859375
+   ],
+   [
+    -59.21411895751953
+   ],
+   [
+    -58.23583221435547
+   ],
+   [
+    -55.23990249633789
+   ],
+   [
+    -52.862918853759766
+   ],
+   [
+    -52.18902587890625
+   ],
+   [
+    -55.17775344848633
+   ],
+   [
+    -61.75444793701172
+   ],
+   [
+    -58.81538009643555
+   ],
+   [
+    -54.74253463745117
+   ],
+   [
+    -54.845455169677734
+   ],
+   [
+    -59.871192932128906
+   ],
+   [
+    -57.546356201171875
+   ],
+   [
+    -51.52183151245117
+   ],
+   [
+    -58.7291374206543
+   ],
+   [
+    -58.94386291503906
+   ],
+   [
+    -53.604488372802734
+   ],
+   [
+    -54.706809997558594
+   ],
+   [
+    -56.22970962524414
+   ],
+   [
+    -56.33133316040039
+   ],
+   [
+    -59.61083221435547
+   ],
+   [
+    -52.29521560668945
+   ],
+   [
+    -53.95328140258789
+   ],
+   [
+    -56.061729431152344
+   ],
+   [
+    -58.10463333129883
+   ],
+   [
+    -62.55587387084961
+   ],
+   [
+    -60.892459869384766
+   ],
+   [
+    -58.2425422668457
+   ],
+   [
+    -56.10688781738281
+   ],
+   [
+    -54.2141227722168
+   ],
+   [
+    -67.05458068847656
+   ],
+   [
+    -55.59616470336914
+   ],
+   [
+    -59.90909194946289
+   ],
+   [
+    -53.80979919433594
+   ],
+   [
+    -56.39560317993164
+   ],
+   [
+    -56.79464340209961
+   ],
+   [
+    -52.45071792602539
+   ],
+   [
+    -54.15773010253906
+   ],
+   [
+    -53.81732940673828
+   ],
+   [
+    -55.652099609375
+   ],
+   [
+    -53.61985778808594
+   ],
+   [
+    -59.6072998046875
+   ],
+   [
+    -55.928932189941406
+   ],
+   [
+    -55.3525276184082
+   ],
+   [
+    -64.98423767089844
+   ],
+   [
+    -51.20747375488281
+   ],
+   [
+    -53.95549774169922
+   ],
+   [
+    -51.676876068115234
+   ],
+   [
+    -54.096229553222656
+   ],
+   [
+    -58.27946090698242
+   ],
+   [
+    -57.58290481567383
+   ],
+   [
+    -54.962852478027344
+   ],
+   [
+    -51.914066314697266
+   ],
+   [
+    -52.22685241699219
+   ],
+   [
+    -51.91133117675781
+   ],
+   [
+    -52.95737838745117
+   ],
+   [
+    -64.29725646972656
+   ],
+   [
+    -61.20663833618164
+   ],
+   [
+    -56.682743072509766
+   ],
+   [
+    -54.11913299560547
+   ],
+   [
+    -50.71619415283203
+   ],
+   [
+    -53.82418441772461
+   ],
+   [
+    -54.400047302246094
+   ],
+   [
+    -52.69987487792969
+   ],
+   [
+    -56.440216064453125
+   ],
+   [
+    -53.45688247680664
+   ],
+   [
+    -53.70817947387695
+   ],
+   [
+    -52.34939956665039
+   ],
+   [
+    -54.09284973144531
+   ],
+   [
+    -54.285369873046875
+   ],
+   [
+    -52.85762023925781
+   ],
+   [
+    -55.420310974121094
+   ],
+   [
+    -53.470340728759766
+   ],
+   [
+    -54.26716232299805
+   ],
+   [
+    -53.9598274230957
+   ],
+   [
+    -53.84809494018555
+   ],
+   [
+    -56.278541564941406
+   ],
+   [
+    -62.07022476196289
+   ],
+   [
+    -55.6258659362793
+   ],
+   [
+    -52.67044448852539
+   ],
+   [
+    -54.247554779052734
+   ],
+   [
+    -55.7696418762207
+   ],
+   [
+    -55.59049987792969
+   ],
+   [
+    -50.71980667114258
+   ],
+   [
+    -66.30235290527344
+   ],
+   [
+    -53.612369537353516
+   ],
+   [
+    -58.83034133911133
+   ],
+   [
+    -60.77771759033203
+   ],
+   [
+    -68.48430633544922
+   ],
+   [
+    -56.495330810546875
+   ],
+   [
+    -62.8980827331543
+   ],
+   [
+    -55.73505783081055
+   ],
+   [
+    -54.56111526489258
+   ],
+   [
+    -59.25751495361328
+   ],
+   [
+    -53.02584457397461
+   ],
+   [
+    -60.8922233581543
+   ],
+   [
+    -60.7750129699707
+   ],
+   [
+    -62.75265121459961
+   ],
+   [
+    -52.051170349121094
+   ],
+   [
+    -50.681026458740234
+   ],
+   [
+    -52.646018981933594
+   ],
+   [
+    -53.1396369934082
+   ],
+   [
+    -57.30174255371094
+   ],
+   [
+    -57.3543815612793
+   ],
+   [
+    -58.94635009765625
+   ],
+   [
+    -55.31195831298828
+   ],
+   [
+    -53.05179214477539
+   ],
+   [
+    -54.88970947265625
+   ],
+   [
+    -54.77736282348633
+   ],
+   [
+    -54.011390686035156
+   ],
+   [
+    -56.30522155761719
+   ],
+   [
+    -53.4085807800293
+   ],
+   [
+    -59.651573181152344
+   ],
+   [
+    -53.65558624267578
+   ],
+   [
+    -52.57272720336914
+   ],
+   [
+    -53.18331527709961
+   ],
+   [
+    -58.98794937133789
+   ],
+   [
+    -57.051631927490234
+   ],
+   [
+    -57.54468536376953
+   ],
+   [
+    -59.649349212646484
+   ],
+   [
+    -55.47159957885742
+   ],
+   [
+    -54.21464538574219
+   ],
+   [
+    -54.58953857421875
+   ],
+   [
+    -55.62943649291992
+   ],
+   [
+    -56.52516174316406
+   ],
+   [
+    -53.59202194213867
+   ],
+   [
+    -58.05358123779297
+   ],
+   [
+    -54.8623046875
+   ],
+   [
+    -59.98045349121094
+   ],
+   [
+    -56.314090728759766
+   ],
+   [
+    -62.674137115478516
+   ],
+   [
+    -54.97388458251953
+   ],
+   [
+    -60.563785552978516
+   ],
+   [
+    -51.49127960205078
+   ],
+   [
+    -57.87939453125
+   ],
+   [
+    -53.4066276550293
+   ],
+   [
+    -59.916717529296875
+   ],
+   [
+    -60.328590393066406
+   ],
+   [
+    -57.23466110229492
+   ],
+   [
+    -60.77174758911133
+   ],
+   [
+    -56.68965530395508
+   ],
+   [
+    -53.97420120239258
+   ],
+   [
+    -59.458892822265625
+   ],
+   [
+    -53.79480743408203
+   ],
+   [
+    -57.70767593383789
+   ],
+   [
+    -55.48088455200195
+   ],
+   [
+    -52.097900390625
+   ],
+   [
+    -58.708614349365234
+   ],
+   [
+    -58.64397048950195
+   ],
+   [
+    -56.55732345581055
+   ],
+   [
+    -54.892696380615234
+   ],
+   [
+    -53.730133056640625
+   ],
+   [
+    -61.17573547363281
+   ],
+   [
+    -41.27973175048828
+   ],
+   [
+    -45.255645751953125
+   ],
+   [
+    -49.643592834472656
+   ],
+   [
+    -44.29032897949219
+   ],
+   [
+    -40.711429595947266
+   ],
+   [
+    -41.5452995300293
+   ],
+   [
+    -45.31897735595703
+   ],
+   [
+    -41.848121643066406
+   ],
+   [
+    -41.518165588378906
+   ],
+   [
+    -44.086456298828125
+   ],
+   [
+    -45.49000549316406
+   ],
+   [
+    -41.04203796386719
+   ],
+   [
+    -48.0938720703125
+   ],
+   [
+    -43.480201721191406
+   ],
+   [
+    -46.348724365234375
+   ],
+   [
+    -45.1827392578125
+   ],
+   [
+    -60.291053771972656
+   ],
+   [
+    -42.167110443115234
+   ],
+   [
+    -42.815696716308594
+   ],
+   [
+    -41.39564514160156
+   ],
+   [
+    -44.73657989501953
+   ],
+   [
+    -49.173828125
+   ],
+   [
+    -52.82434844970703
+   ],
+   [
+    -39.236289978027344
+   ],
+   [
+    -37.090843200683594
+   ],
+   [
+    -42.22425842285156
+   ],
+   [
+    -42.36592483520508
+   ],
+   [
+    -44.94487380981445
+   ],
+   [
+    -45.21086883544922
+   ],
+   [
+    -40.947654724121094
+   ],
+   [
+    -41.69447326660156
+   ],
+   [
+    -52.43970489501953
+   ],
+   [
+    -45.221336364746094
+   ],
+   [
+    -44.783348083496094
+   ],
+   [
+    -42.08428955078125
+   ],
+   [
+    -36.879032135009766
+   ],
+   [
+    -41.0780029296875
+   ],
+   [
+    -47.300010681152344
+   ],
+   [
+    -41.131568908691406
+   ],
+   [
+    -44.31208419799805
+   ],
+   [
+    -37.513519287109375
+   ],
+   [
+    -45.25006866455078
+   ],
+   [
+    -42.09986877441406
+   ],
+   [
+    -38.46387481689453
+   ],
+   [
+    -51.092315673828125
+   ],
+   [
+    -42.144168853759766
+   ],
+   [
+    -45.90637969970703
+   ],
+   [
+    -40.380332946777344
+   ],
+   [
+    -44.953895568847656
+   ],
+   [
+    -40.184356689453125
+   ],
+   [
+    -39.95476531982422
+   ],
+   [
+    -52.605079650878906
+   ],
+   [
+    -42.665016174316406
+   ],
+   [
+    -41.602439880371094
+   ],
+   [
+    -48.78639221191406
+   ],
+   [
+    -46.28662109375
+   ],
+   [
+    -41.180076599121094
+   ],
+   [
+    -45.60944366455078
+   ],
+   [
+    -45.60667037963867
+   ],
+   [
+    -41.396217346191406
+   ],
+   [
+    -41.611488342285156
+   ],
+   [
+    -39.307220458984375
+   ],
+   [
+    -41.50482177734375
+   ],
+   [
+    -52.111934661865234
+   ],
+   [
+    -42.897979736328125
+   ],
+   [
+    -47.12199401855469
+   ],
+   [
+    -52.4951057434082
+   ],
+   [
+    -40.26354217529297
+   ],
+   [
+    -51.58972930908203
+   ],
+   [
+    -44.98017883300781
+   ],
+   [
+    -41.78551483154297
+   ],
+   [
+    -41.63832473754883
+   ],
+   [
+    -37.89160919189453
+   ],
+   [
+    -40.050575256347656
+   ],
+   [
+    -47.76860046386719
+   ],
+   [
+    -44.883056640625
+   ],
+   [
+    -44.39868927001953
+   ],
+   [
+    -47.06715393066406
+   ],
+   [
+    -52.35170364379883
+   ],
+   [
+    -47.35838317871094
+   ],
+   [
+    -39.47681427001953
+   ],
+   [
+    -45.61436462402344
+   ],
+   [
+    -41.53898239135742
+   ],
+   [
+    -38.42737579345703
+   ],
+   [
+    -40.96501159667969
+   ],
+   [
+    -43.857398986816406
+   ],
+   [
+    -46.33452606201172
+   ],
+   [
+    -49.249359130859375
+   ],
+   [
+    -39.94567108154297
+   ],
+   [
+    -44.04538345336914
+   ],
+   [
+    -40.930450439453125
+   ],
+   [
+    -46.46272277832031
+   ],
+   [
+    -49.963157653808594
+   ],
+   [
+    -50.776893615722656
+   ],
+   [
+    -39.25969314575195
+   ],
+   [
+    -41.15601348876953
+   ],
+   [
+    -41.853553771972656
+   ],
+   [
+    -57.08808135986328
+   ],
+   [
+    -46.28175354003906
+   ],
+   [
+    -46.43870162963867
+   ],
+   [
+    -42.17761993408203
+   ],
+   [
+    -47.36301040649414
+   ],
+   [
+    -45.5305290222168
+   ],
+   [
+    -40.99428176879883
+   ],
+   [
+    -39.25476837158203
+   ],
+   [
+    -40.93777847290039
+   ],
+   [
+    -46.697265625
+   ],
+   [
+    -40.02155303955078
+   ],
+   [
+    -47.86769104003906
+   ],
+   [
+    -44.82740783691406
+   ],
+   [
+    -43.43407440185547
+   ],
+   [
+    -52.27069854736328
+   ],
+   [
+    -38.58075714111328
+   ],
+   [
+    -42.641578674316406
+   ],
+   [
+    -39.16804122924805
+   ],
+   [
+    -41.59705352783203
+   ],
+   [
+    -47.194618225097656
+   ],
+   [
+    -44.366668701171875
+   ],
+   [
+    -44.369110107421875
+   ],
+   [
+    -38.5289306640625
+   ],
+   [
+    -39.19741439819336
+   ],
+   [
+    -40.450218200683594
+   ],
+   [
+    -42.1900634765625
+   ],
+   [
+    -55.11665725708008
+   ],
+   [
+    -50.09552764892578
+   ],
+   [
+    -44.85765838623047
+   ],
+   [
+    -43.457244873046875
+   ],
+   [
+    -39.037506103515625
+   ],
+   [
+    -43.77556610107422
+   ],
+   [
+    -41.465999603271484
+   ],
+   [
+    -40.596927642822266
+   ],
+   [
+    -43.10851287841797
+   ],
+   [
+    -43.252567291259766
+   ],
+   [
+    -44.54450607299805
+   ],
+   [
+    -41.65019989013672
+   ],
+   [
+    -40.45247268676758
+   ],
+   [
+    -42.082672119140625
+   ],
+   [
+    -38.385414123535156
+   ],
+   [
+    -44.95970153808594
+   ],
+   [
+    -44.94371032714844
+   ],
+   [
+    -41.37738037109375
+   ],
+   [
+    -42.431541442871094
+   ],
+   [
+    -41.59830856323242
+   ],
+   [
+    -43.90411376953125
+   ],
+   [
+    -45.606292724609375
+   ],
+   [
+    -52.036190032958984
+   ],
+   [
+    -42.08605194091797
+   ],
+   [
+    -44.059974670410156
+   ],
+   [
+    -41.987579345703125
+   ],
+   [
+    -45.83418273925781
+   ],
+   [
+    -38.050804138183594
+   ],
+   [
+    -55.05765914916992
+   ],
+   [
+    -40.7833251953125
+   ],
+   [
+    -47.020530700683594
+   ],
+   [
+    -53.82079315185547
+   ],
+   [
+    -60.76906204223633
+   ],
+   [
+    -47.289306640625
+   ],
+   [
+    -53.74592590332031
+   ],
+   [
+    -47.1854248046875
+   ],
+   [
+    -40.33419418334961
+   ],
+   [
+    -48.35435485839844
+   ],
+   [
+    -42.645729064941406
+   ],
+   [
+    -47.996337890625
+   ],
+   [
+    -47.48979949951172
+   ],
+   [
+    -50.260581970214844
+   ],
+   [
+    -39.158897399902344
+   ],
+   [
+    -39.8489990234375
+   ],
+   [
+    -37.42056655883789
+   ],
+   [
+    -42.108558654785156
+   ],
+   [
+    -43.867774963378906
+   ],
+   [
+    -43.04515838623047
+   ],
+   [
+    -45.73723602294922
+   ],
+   [
+    -44.214561462402344
+   ],
+   [
+    -41.723243713378906
+   ],
+   [
+    -41.59837341308594
+   ],
+   [
+    -44.41471862792969
+   ],
+   [
+    -35.97911071777344
+   ],
+   [
+    -48.29487609863281
+   ],
+   [
+    -42.050819396972656
+   ],
+   [
+    -48.37474822998047
+   ],
+   [
+    -43.304542541503906
+   ],
+   [
+    -42.123313903808594
+   ],
+   [
+    -43.533077239990234
+   ],
+   [
+    -49.642303466796875
+   ],
+   [
+    -46.83477020263672
+   ],
+   [
+    -48.24256134033203
+   ],
+   [
+    -49.995819091796875
+   ],
+   [
+    -44.82532501220703
+   ],
+   [
+    -42.168174743652344
+   ],
+   [
+    -40.5641975402832
+   ],
+   [
+    -45.804847717285156
+   ],
+   [
+    -48.16767883300781
+   ],
+   [
+    -42.69619369506836
+   ],
+   [
+    -47.8952751159668
+   ],
+   [
+    -43.397552490234375
+   ],
+   [
+    -47.887874603271484
+   ],
+   [
+    -43.551456451416016
+   ],
+   [
+    -49.75645446777344
+   ],
+   [
+    -42.60865783691406
+   ],
+   [
+    -52.01005554199219
+   ],
+   [
+    -40.28495788574219
+   ],
+   [
+    -48.76060485839844
+   ],
+   [
+    -45.036865234375
+   ],
+   [
+    -47.573341369628906
+   ],
+   [
+    -49.30256652832031
+   ],
+   [
+    -44.68169021606445
+   ],
+   [
+    -51.10822677612305
+   ],
+   [
+    -46.50548553466797
+   ],
+   [
+    -41.95381164550781
+   ],
+   [
+    -46.980926513671875
+   ],
+   [
+    -42.1788215637207
+   ],
+   [
+    -44.552040100097656
+   ],
+   [
+    -47.144187927246094
+   ],
+   [
+    -40.17008972167969
+   ],
+   [
+    -48.33894348144531
+   ],
+   [
+    -46.25449752807617
+   ],
+   [
+    -46.966495513916016
+   ],
+   [
+    -42.469390869140625
+   ],
+   [
+    -42.81742858886719
+   ],
+   [
+    -49.97984313964844
+   ]
+  ]
+ ],
+ "time": 6998.623526096344
+}

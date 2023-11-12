@@ -1,0 +1,2076 @@
+{
+ "case_id": 22038,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Hermann von Helmholtz"
+ },
+ "pre": [
+  [
+   "Hermann von Helmholtz's field of work is meteorology",
+   "Hermann von Helmholtz's field of work is radioactivity",
+   "Hermann von Helmholtz's field of work is complex function",
+   "Hermann von Helmholtz's field of work is histology",
+   "Hermann von Helmholtz's field of work is algebra",
+   "Hermann von Helmholtz's field of work is electron",
+   "Hermann von Helmholtz's field of work is quantum theory",
+   "Hermann von Helmholtz's field of work is applied mathematics",
+   "Hermann von Helmholtz's field of work is electricity",
+   "Hermann von Helmholtz's field of work is human geography",
+   "Hermann von Helmholtz's field of work is crystallography",
+   "Hermann von Helmholtz's field of work is chemistry",
+   "Hermann von Helmholtz's field of work is Jewish studies",
+   "Hermann von Helmholtz's field of work is topology",
+   "Hermann von Helmholtz's field of work is mathematical analysis",
+   "Hermann von Helmholtz's field of work is computational geometry",
+   "Hermann von Helmholtz's field of work is Petrine ministry",
+   "Hermann von Helmholtz's field of work is social psychology",
+   "Hermann von Helmholtz's field of work is genetics",
+   "Hermann von Helmholtz's field of work is informatics",
+   "Hermann von Helmholtz's field of work is shipbuilding",
+   "Hermann von Helmholtz's field of work is historical sociology",
+   "Hermann von Helmholtz's field of work is quantum mysticism",
+   "Hermann von Helmholtz's field of work is philosopher",
+   "Hermann von Helmholtz's field of work is Internet",
+   "Hermann von Helmholtz's field of work is gravity",
+   "Hermann von Helmholtz's field of work is theoretical physics",
+   "Hermann von Helmholtz's field of work is African studies",
+   "Hermann von Helmholtz's field of work is projective geometry",
+   "Hermann von Helmholtz's field of work is prose",
+   "Hermann von Helmholtz's field of work is momentum",
+   "Hermann von Helmholtz's field of work is Cairo Geniza",
+   "Hermann von Helmholtz's field of work is stochastic",
+   "Hermann von Helmholtz's field of work is algebraic topology",
+   "Hermann von Helmholtz's field of work is electrical engineering",
+   "Hermann von Helmholtz's field of work is hunting",
+   "Hermann von Helmholtz's field of work is evolution",
+   "Hermann von Helmholtz's field of work is economic anthropology",
+   "Hermann von Helmholtz's field of work is Hebrew",
+   "Hermann von Helmholtz's field of work is differential geometry",
+   "Hermann von Helmholtz's field of work is engineering",
+   "Hermann von Helmholtz's field of work is history of science",
+   "Hermann von Helmholtz's field of work is social anthropology",
+   "Hermann von Helmholtz's field of work is history",
+   "Hermann von Helmholtz's field of work is distribution theory",
+   "Hermann von Helmholtz's field of work is classics",
+   "Hermann von Helmholtz's field of work is crime novel",
+   "Hermann von Helmholtz's field of work is statistics",
+   "Hermann von Helmholtz's field of work is experimental physics",
+   "Hermann von Helmholtz's field of work is geography",
+   "Hermann von Helmholtz's field of work is anthropology",
+   "Hermann von Helmholtz's field of work is partial differential equation",
+   "Hermann von Helmholtz's field of work is applied physics",
+   "Hermann von Helmholtz's field of work is Sanskrit",
+   "Hermann von Helmholtz's field of work is a branch of physics",
+   "Hermann von Helmholtz's field of work is comparative mythology",
+   "Hermann von Helmholtz's field of work is radiation",
+   "Hermann von Helmholtz's field of work is aeromechanics",
+   "Hermann von Helmholtz's field of work is harmonic analysis",
+   "Hermann von Helmholtz's field of work is religion",
+   "Hermann von Helmholtz's field of work is civil rights",
+   "Hermann von Helmholtz's field of work is physicist",
+   "Hermann von Helmholtz's field of work is distribution",
+   "Hermann von Helmholtz's field of work is translations from Spanish",
+   "Hermann von Helmholtz's field of work is feminism",
+   "Hermann von Helmholtz's field of work is number theory",
+   "Hermann von Helmholtz's field of work is sociology of organisations",
+   "Hermann von Helmholtz's field of work is astronomer",
+   "Hermann von Helmholtz's field of work is children's and youth literature",
+   "Hermann von Helmholtz's field of work is fairy tale",
+   "Hermann von Helmholtz's field of work is economy",
+   "Hermann von Helmholtz's field of work is graph theory",
+   "Hermann von Helmholtz's field of work is magic",
+   "Hermann von Helmholtz's field of work is essay",
+   "Hermann von Helmholtz's field of work is theory of relativity",
+   "Hermann von Helmholtz's field of work is historical novel",
+   "Hermann von Helmholtz's field of work is biological anthropology",
+   "Hermann von Helmholtz's field of work is literary theory",
+   "Hermann von Helmholtz's field of work is Greek philology",
+   "Hermann von Helmholtz's field of work is lyric poetry",
+   "Hermann von Helmholtz's field of work is psychology",
+   "Hermann von Helmholtz's field of work is quaternion",
+   "Hermann von Helmholtz's field of work is rite",
+   "Hermann von Helmholtz's field of work is jazz",
+   "Hermann von Helmholtz's field of work is heat",
+   "Hermann von Helmholtz's field of work is embryology",
+   "Hermann von Helmholtz's field of work is social philosophy",
+   "Hermann von Helmholtz's field of work is dance choreography",
+   "Hermann von Helmholtz's field of work is politics",
+   "Hermann von Helmholtz's field of work is nanotechnology",
+   "Hermann von Helmholtz's field of work is Afghanistan",
+   "Hermann von Helmholtz's field of work is non-Euclidean geometry",
+   "Hermann von Helmholtz's field of work is Franciscan spirituality",
+   "Hermann von Helmholtz's field of work is detective literature",
+   "Hermann von Helmholtz's field of work is mathematician",
+   "Hermann von Helmholtz's field of work is String",
+   "Hermann von Helmholtz's field of work is classical music",
+   "Hermann von Helmholtz's field of work is translations from Occitan",
+   "Hermann von Helmholtz's field of work is abstract algebra",
+   "Hermann von Helmholtz's field of work is differential calculus",
+   "Hermann von Helmholtz's field of work is mythology",
+   "Hermann von Helmholtz's field of work is literary translation",
+   "Hermann von Helmholtz's field of work is ballistics",
+   "Hermann von Helmholtz's field of work is cryptography",
+   "Hermann von Helmholtz's field of work is Greek",
+   "Hermann von Helmholtz's field of work is logic",
+   "Hermann von Helmholtz's field of work is choreography",
+   "Hermann von Helmholtz's field of work is theology",
+   "Hermann von Helmholtz's field of work is world economy",
+   "Hermann von Helmholtz's field of work is magnetism",
+   "Hermann von Helmholtz's field of work is algebraic geometry",
+   "Hermann von Helmholtz's field of work is theory of differential equations",
+   "Hermann von Helmholtz's field of work is physics",
+   "Hermann von Helmholtz's field of work is music theory",
+   "Hermann von Helmholtz's field of work is economics",
+   "Hermann von Helmholtz's field of work is anatomy",
+   "Hermann von Helmholtz's field of work is electromagnetic field",
+   "Hermann von Helmholtz's field of work is analytic number theory",
+   "Hermann von Helmholtz's field of work is mathematical physics",
+   "Hermann von Helmholtz's field of work is journalism",
+   "Hermann von Helmholtz's field of work is sociology",
+   "Hermann von Helmholtz's field of work is literature",
+   "Hermann von Helmholtz's field of work is ethnography",
+   "Hermann von Helmholtz's field of work is belletristic literature",
+   "Hermann von Helmholtz's field of work is convex function",
+   "Hermann von Helmholtz's field of work is sociology of religion",
+   "Hermann von Helmholtz's field of work is pedagogy",
+   "Hermann von Helmholtz's field of work is philosophy",
+   "Hermann von Helmholtz's field of work is quantum mechanics",
+   "Hermann von Helmholtz's field of work is drama",
+   "Hermann von Helmholtz's field of work is dance",
+   "Hermann von Helmholtz's field of work is Judaism",
+   "Hermann von Helmholtz's field of work is quantum physics",
+   "Hermann von Helmholtz's field of work is philosophy of science",
+   "Hermann von Helmholtz's field of work is linguistics",
+   "Hermann von Helmholtz's field of work is myth",
+   "Hermann von Helmholtz's field of work is physiology",
+   "Hermann von Helmholtz's field of work is English",
+   "Hermann von Helmholtz's field of work is philology",
+   "Hermann von Helmholtz's field of work is political philosophy",
+   "Hermann von Helmholtz's field of work is mechanical engineering",
+   "Hermann von Helmholtz's field of work is ontology",
+   "Hermann von Helmholtz's field of work is forestry",
+   "Hermann von Helmholtz's field of work is aerodynamics",
+   "Hermann von Helmholtz's field of work is Christian Church",
+   "Hermann von Helmholtz's field of work is magnetic resonance",
+   "Hermann von Helmholtz's field of work is astrophysics",
+   "Hermann von Helmholtz's field of work is natural science",
+   "Hermann von Helmholtz's field of work is constitutional law",
+   "Hermann von Helmholtz's field of work is philosophy of law",
+   "Hermann von Helmholtz's field of work is education",
+   "Hermann von Helmholtz's field of work is Monte Carlo method",
+   "Hermann von Helmholtz's field of work is neurology",
+   "Hermann von Helmholtz's field of work is electric field",
+   "Hermann von Helmholtz's field of work is Minkowski spacetime",
+   "Hermann von Helmholtz's field of work is translations from Arabic language",
+   "Hermann von Helmholtz's field of work is Bayesian inference",
+   "Hermann von Helmholtz's field of work is translations from Polish",
+   "Hermann von Helmholtz's field of work is color photography",
+   "Hermann von Helmholtz's field of work is opera",
+   "Hermann von Helmholtz's field of work is model theory",
+   "Hermann von Helmholtz's field of work is cartography",
+   "Hermann von Helmholtz's field of work is nonstandard analysis",
+   "Hermann von Helmholtz's field of work is television program",
+   "Hermann von Helmholtz's field of work is complex manifold",
+   "Hermann von Helmholtz's field of work is poetry",
+   "Hermann von Helmholtz's field of work is mathematics",
+   "Hermann von Helmholtz's field of work is computer science",
+   "Hermann von Helmholtz's field of work is cosmology",
+   "Hermann von Helmholtz's field of work is silviculture",
+   "Hermann von Helmholtz's field of work is hydrodynamics",
+   "Hermann von Helmholtz's field of work is forestry science",
+   "Hermann von Helmholtz's field of work is comparative religion",
+   "Hermann von Helmholtz's field of work is information technology",
+   "Hermann von Helmholtz's field of work is ballet",
+   "Hermann von Helmholtz's field of work is English literature",
+   "Hermann von Helmholtz's field of work is conducting",
+   "Hermann von Helmholtz's field of work is hyperbolic geometry",
+   "Hermann von Helmholtz's field of work is biochemistry",
+   "Hermann von Helmholtz's field of work is religion and society",
+   "Hermann von Helmholtz's field of work is optics",
+   "Hermann von Helmholtz's field of work is ethics",
+   "Hermann von Helmholtz's field of work is cybernetics",
+   "Hermann von Helmholtz's field of work is astronomical observation",
+   "Hermann von Helmholtz's field of work is psychophysiology",
+   "Hermann von Helmholtz's field of work is culturology",
+   "Hermann von Helmholtz's field of work is history of religions",
+   "Hermann von Helmholtz's field of work is probability theory",
+   "Hermann von Helmholtz's field of work is paleontology",
+   "Hermann von Helmholtz's field of work is surgery",
+   "Hermann von Helmholtz's field of work is group theory",
+   "Hermann von Helmholtz's field of work is natural theology",
+   "Hermann von Helmholtz's field of work is astrology",
+   "Hermann von Helmholtz's field of work is quantum electrodynamics",
+   "Hermann von Helmholtz's field of work is mechanics",
+   "Hermann von Helmholtz's field of work is Lie algebra",
+   "Hermann von Helmholtz's field of work is trigonometry",
+   "Hermann von Helmholtz's field of work is literary activity",
+   "Hermann von Helmholtz's field of work is nuclear physics",
+   "Hermann von Helmholtz's field of work is translations from English",
+   "Hermann von Helmholtz's field of work is medicine",
+   "Hermann von Helmholtz's field of work is Jewish philosophy",
+   "Hermann von Helmholtz's field of work is mathematical logic",
+   "Hermann von Helmholtz's field of work is calculus of variations",
+   "Hermann von Helmholtz's field of work is ferromagnetism",
+   "Hermann von Helmholtz's field of work is analytic geometry",
+   "Hermann von Helmholtz's field of work is art of painting",
+   "Hermann von Helmholtz's field of work is functional analysis",
+   "Hermann von Helmholtz's field of work is folklore",
+   "Hermann von Helmholtz's field of work is study of history",
+   "Hermann von Helmholtz's field of work is geometry",
+   "Hermann von Helmholtz's field of work is positivism",
+   "Hermann von Helmholtz's field of work is geodesy",
+   "Hermann von Helmholtz's field of work is astronomy",
+   "Hermann von Helmholtz's field of work is magnetic field",
+   "Hermann von Helmholtz's field of work is kinetic theory",
+   "Hermann von Helmholtz's field of work is celestial mechanics",
+   "Hermann von Helmholtz's field of work is analytic philosophy",
+   "Hermann von Helmholtz's field of work is ethnology",
+   "Hermann von Helmholtz's field of work is history of economic thought",
+   "Hermann von Helmholtz is meteorology",
+   "Hermann von Helmholtz is radioactivity",
+   "Hermann von Helmholtz is complex function",
+   "Hermann von Helmholtz is histology",
+   "Hermann von Helmholtz is algebra",
+   "Hermann von Helmholtz is electron",
+   "Hermann von Helmholtz is quantum theory",
+   "Hermann von Helmholtz is applied mathematics",
+   "Hermann von Helmholtz is electricity",
+   "Hermann von Helmholtz is human geography",
+   "Hermann von Helmholtz is crystallography",
+   "Hermann von Helmholtz is chemistry",
+   "Hermann von Helmholtz is Jewish studies",
+   "Hermann von Helmholtz is topology",
+   "Hermann von Helmholtz is mathematical analysis",
+   "Hermann von Helmholtz is computational geometry",
+   "Hermann von Helmholtz is Petrine ministry",
+   "Hermann von Helmholtz is social psychology",
+   "Hermann von Helmholtz is genetics",
+   "Hermann von Helmholtz is informatics",
+   "Hermann von Helmholtz is shipbuilding",
+   "Hermann von Helmholtz is historical sociology",
+   "Hermann von Helmholtz is quantum mysticism",
+   "Hermann von Helmholtz is philosopher",
+   "Hermann von Helmholtz is Internet",
+   "Hermann von Helmholtz is gravity",
+   "Hermann von Helmholtz is theoretical physics",
+   "Hermann von Helmholtz is African studies",
+   "Hermann von Helmholtz is projective geometry",
+   "Hermann von Helmholtz is prose",
+   "Hermann von Helmholtz is momentum",
+   "Hermann von Helmholtz is Cairo Geniza",
+   "Hermann von Helmholtz is stochastic",
+   "Hermann von Helmholtz is algebraic topology",
+   "Hermann von Helmholtz is electrical engineering",
+   "Hermann von Helmholtz is hunting",
+   "Hermann von Helmholtz is evolution",
+   "Hermann von Helmholtz is economic anthropology",
+   "Hermann von Helmholtz is Hebrew",
+   "Hermann von Helmholtz is differential geometry",
+   "Hermann von Helmholtz is engineering",
+   "Hermann von Helmholtz is history of science",
+   "Hermann von Helmholtz is social anthropology",
+   "Hermann von Helmholtz is history",
+   "Hermann von Helmholtz is distribution theory",
+   "Hermann von Helmholtz is classics",
+   "Hermann von Helmholtz is crime novel",
+   "Hermann von Helmholtz is statistics",
+   "Hermann von Helmholtz is experimental physics",
+   "Hermann von Helmholtz is geography",
+   "Hermann von Helmholtz is anthropology",
+   "Hermann von Helmholtz is partial differential equation",
+   "Hermann von Helmholtz is applied physics",
+   "Hermann von Helmholtz is Sanskrit",
+   "Hermann von Helmholtz is a branch of physics",
+   "Hermann von Helmholtz is comparative mythology",
+   "Hermann von Helmholtz is radiation",
+   "Hermann von Helmholtz is aeromechanics",
+   "Hermann von Helmholtz is harmonic analysis",
+   "Hermann von Helmholtz is religion",
+   "Hermann von Helmholtz is civil rights",
+   "Hermann von Helmholtz is physicist",
+   "Hermann von Helmholtz is distribution",
+   "Hermann von Helmholtz is translations from Spanish",
+   "Hermann von Helmholtz is feminism",
+   "Hermann von Helmholtz is number theory",
+   "Hermann von Helmholtz is sociology of organisations",
+   "Hermann von Helmholtz is astronomer",
+   "Hermann von Helmholtz is children's and youth literature",
+   "Hermann von Helmholtz is fairy tale",
+   "Hermann von Helmholtz is economy",
+   "Hermann von Helmholtz is graph theory",
+   "Hermann von Helmholtz is magic",
+   "Hermann von Helmholtz is essay",
+   "Hermann von Helmholtz is theory of relativity",
+   "Hermann von Helmholtz is historical novel",
+   "Hermann von Helmholtz is biological anthropology",
+   "Hermann von Helmholtz is literary theory",
+   "Hermann von Helmholtz is Greek philology",
+   "Hermann von Helmholtz is lyric poetry",
+   "Hermann von Helmholtz is psychology",
+   "Hermann von Helmholtz is quaternion",
+   "Hermann von Helmholtz is rite",
+   "Hermann von Helmholtz is jazz",
+   "Hermann von Helmholtz is heat",
+   "Hermann von Helmholtz is embryology",
+   "Hermann von Helmholtz is social philosophy",
+   "Hermann von Helmholtz is dance choreography",
+   "Hermann von Helmholtz is politics",
+   "Hermann von Helmholtz is nanotechnology",
+   "Hermann von Helmholtz is Afghanistan",
+   "Hermann von Helmholtz is non-Euclidean geometry",
+   "Hermann von Helmholtz is Franciscan spirituality",
+   "Hermann von Helmholtz is detective literature",
+   "Hermann von Helmholtz is mathematician",
+   "Hermann von Helmholtz is String",
+   "Hermann von Helmholtz is classical music",
+   "Hermann von Helmholtz is translations from Occitan",
+   "Hermann von Helmholtz is abstract algebra",
+   "Hermann von Helmholtz is differential calculus",
+   "Hermann von Helmholtz is mythology",
+   "Hermann von Helmholtz is literary translation",
+   "Hermann von Helmholtz is ballistics",
+   "Hermann von Helmholtz is cryptography",
+   "Hermann von Helmholtz is Greek",
+   "Hermann von Helmholtz is logic",
+   "Hermann von Helmholtz is choreography",
+   "Hermann von Helmholtz is theology",
+   "Hermann von Helmholtz is world economy",
+   "Hermann von Helmholtz is magnetism",
+   "Hermann von Helmholtz is algebraic geometry",
+   "Hermann von Helmholtz is theory of differential equations",
+   "Hermann von Helmholtz is physics",
+   "Hermann von Helmholtz is music theory",
+   "Hermann von Helmholtz is economics",
+   "Hermann von Helmholtz is anatomy",
+   "Hermann von Helmholtz is electromagnetic field",
+   "Hermann von Helmholtz is analytic number theory",
+   "Hermann von Helmholtz is mathematical physics",
+   "Hermann von Helmholtz is journalism",
+   "Hermann von Helmholtz is sociology",
+   "Hermann von Helmholtz is literature",
+   "Hermann von Helmholtz is ethnography",
+   "Hermann von Helmholtz is belletristic literature",
+   "Hermann von Helmholtz is convex function",
+   "Hermann von Helmholtz is sociology of religion",
+   "Hermann von Helmholtz is pedagogy",
+   "Hermann von Helmholtz is philosophy",
+   "Hermann von Helmholtz is quantum mechanics",
+   "Hermann von Helmholtz is drama",
+   "Hermann von Helmholtz is dance",
+   "Hermann von Helmholtz is Judaism",
+   "Hermann von Helmholtz is quantum physics",
+   "Hermann von Helmholtz is philosophy of science",
+   "Hermann von Helmholtz is linguistics",
+   "Hermann von Helmholtz is myth",
+   "Hermann von Helmholtz is physiology",
+   "Hermann von Helmholtz is English",
+   "Hermann von Helmholtz is philology",
+   "Hermann von Helmholtz is political philosophy",
+   "Hermann von Helmholtz is mechanical engineering",
+   "Hermann von Helmholtz is ontology",
+   "Hermann von Helmholtz is forestry",
+   "Hermann von Helmholtz is aerodynamics",
+   "Hermann von Helmholtz is Christian Church",
+   "Hermann von Helmholtz is magnetic resonance",
+   "Hermann von Helmholtz is astrophysics",
+   "Hermann von Helmholtz is natural science",
+   "Hermann von Helmholtz is constitutional law",
+   "Hermann von Helmholtz is philosophy of law",
+   "Hermann von Helmholtz is education",
+   "Hermann von Helmholtz is Monte Carlo method",
+   "Hermann von Helmholtz is neurology",
+   "Hermann von Helmholtz is electric field",
+   "Hermann von Helmholtz is Minkowski spacetime",
+   "Hermann von Helmholtz is translations from Arabic language",
+   "Hermann von Helmholtz is Bayesian inference",
+   "Hermann von Helmholtz is translations from Polish",
+   "Hermann von Helmholtz is color photography",
+   "Hermann von Helmholtz is opera",
+   "Hermann von Helmholtz is model theory",
+   "Hermann von Helmholtz is cartography",
+   "Hermann von Helmholtz is nonstandard analysis",
+   "Hermann von Helmholtz is television program",
+   "Hermann von Helmholtz is complex manifold",
+   "Hermann von Helmholtz is poetry",
+   "Hermann von Helmholtz is mathematics",
+   "Hermann von Helmholtz is computer science",
+   "Hermann von Helmholtz is cosmology",
+   "Hermann von Helmholtz is silviculture",
+   "Hermann von Helmholtz is hydrodynamics",
+   "Hermann von Helmholtz is forestry science",
+   "Hermann von Helmholtz is comparative religion",
+   "Hermann von Helmholtz is information technology",
+   "Hermann von Helmholtz is ballet",
+   "Hermann von Helmholtz is English literature",
+   "Hermann von Helmholtz is conducting",
+   "Hermann von Helmholtz is hyperbolic geometry",
+   "Hermann von Helmholtz is biochemistry",
+   "Hermann von Helmholtz is religion and society",
+   "Hermann von Helmholtz is optics",
+   "Hermann von Helmholtz is ethics",
+   "Hermann von Helmholtz is cybernetics",
+   "Hermann von Helmholtz is astronomical observation",
+   "Hermann von Helmholtz is psychophysiology",
+   "Hermann von Helmholtz is culturology",
+   "Hermann von Helmholtz is history of religions",
+   "Hermann von Helmholtz is probability theory",
+   "Hermann von Helmholtz is paleontology",
+   "Hermann von Helmholtz is surgery",
+   "Hermann von Helmholtz is group theory",
+   "Hermann von Helmholtz is natural theology",
+   "Hermann von Helmholtz is astrology",
+   "Hermann von Helmholtz is quantum electrodynamics",
+   "Hermann von Helmholtz is mechanics",
+   "Hermann von Helmholtz is Lie algebra",
+   "Hermann von Helmholtz is trigonometry",
+   "Hermann von Helmholtz is literary activity",
+   "Hermann von Helmholtz is nuclear physics",
+   "Hermann von Helmholtz is translations from English",
+   "Hermann von Helmholtz is medicine",
+   "Hermann von Helmholtz is Jewish philosophy",
+   "Hermann von Helmholtz is mathematical logic",
+   "Hermann von Helmholtz is calculus of variations",
+   "Hermann von Helmholtz is ferromagnetism",
+   "Hermann von Helmholtz is analytic geometry",
+   "Hermann von Helmholtz is art of painting",
+   "Hermann von Helmholtz is functional analysis",
+   "Hermann von Helmholtz is folklore",
+   "Hermann von Helmholtz is study of history",
+   "Hermann von Helmholtz is geometry",
+   "Hermann von Helmholtz is positivism",
+   "Hermann von Helmholtz is geodesy",
+   "Hermann von Helmholtz is astronomy",
+   "Hermann von Helmholtz is magnetic field",
+   "Hermann von Helmholtz is kinetic theory",
+   "Hermann von Helmholtz is celestial mechanics",
+   "Hermann von Helmholtz is analytic philosophy",
+   "Hermann von Helmholtz is ethnology",
+   "Hermann von Helmholtz is history of economic thought"
+  ],
+  [
+   [
+    -43.12113571166992
+   ],
+   [
+    -44.21208190917969
+   ],
+   [
+    -49.51885986328125
+   ],
+   [
+    -43.35141372680664
+   ],
+   [
+    -44.41099548339844
+   ],
+   [
+    -43.18671798706055
+   ],
+   [
+    -43.013092041015625
+   ],
+   [
+    -45.83837890625
+   ],
+   [
+    -40.33039093017578
+   ],
+   [
+    -51.571659088134766
+   ],
+   [
+    -42.93339920043945
+   ],
+   [
+    -40.90986251831055
+   ],
+   [
+    -51.92734909057617
+   ],
+   [
+    -43.40713119506836
+   ],
+   [
+    -44.35356521606445
+   ],
+   [
+    -47.3685302734375
+   ],
+   [
+    -65.69378662109375
+   ],
+   [
+    -44.561248779296875
+   ],
+   [
+    -44.14586639404297
+   ],
+   [
+    -45.22748565673828
+   ],
+   [
+    -48.29939270019531
+   ],
+   [
+    -48.664527893066406
+   ],
+   [
+    -53.166656494140625
+   ],
+   [
+    -46.26333236694336
+   ],
+   [
+    -46.58378219604492
+   ],
+   [
+    -43.375511169433594
+   ],
+   [
+    -41.81559371948242
+   ],
+   [
+    -50.84828186035156
+   ],
+   [
+    -46.57437515258789
+   ],
+   [
+    -47.24799728393555
+   ],
+   [
+    -45.69308090209961
+   ],
+   [
+    -60.82865905761719
+   ],
+   [
+    -45.16524887084961
+   ],
+   [
+    -46.92747497558594
+   ],
+   [
+    -41.700897216796875
+   ],
+   [
+    -48.18106460571289
+   ],
+   [
+    -42.54697799682617
+   ],
+   [
+    -51.20006561279297
+   ],
+   [
+    -49.43376922607422
+   ],
+   [
+    -46.21245574951172
+   ],
+   [
+    -42.473907470703125
+   ],
+   [
+    -43.9272346496582
+   ],
+   [
+    -48.339385986328125
+   ],
+   [
+    -41.49115753173828
+   ],
+   [
+    -47.10889434814453
+   ],
+   [
+    -44.93553161621094
+   ],
+   [
+    -56.93453598022461
+   ],
+   [
+    -43.85771942138672
+   ],
+   [
+    -43.81870651245117
+   ],
+   [
+    -44.41365432739258
+   ],
+   [
+    -44.88209533691406
+   ],
+   [
+    -52.58839797973633
+   ],
+   [
+    -44.535797119140625
+   ],
+   [
+    -47.93073272705078
+   ],
+   [
+    -44.905853271484375
+   ],
+   [
+    -50.718994140625
+   ],
+   [
+    -41.911041259765625
+   ],
+   [
+    -49.623382568359375
+   ],
+   [
+    -44.50739669799805
+   ],
+   [
+    -44.91034698486328
+   ],
+   [
+    -52.316619873046875
+   ],
+   [
+    -45.62843704223633
+   ],
+   [
+    -44.32612991333008
+   ],
+   [
+    -56.83095169067383
+   ],
+   [
+    -48.31093215942383
+   ],
+   [
+    -44.348548889160156
+   ],
+   [
+    -58.95759201049805
+   ],
+   [
+    -48.13977813720703
+   ],
+   [
+    -57.19806671142578
+   ],
+   [
+    -49.779518127441406
+   ],
+   [
+    -46.530391693115234
+   ],
+   [
+    -45.66400909423828
+   ],
+   [
+    -43.90336608886719
+   ],
+   [
+    -46.3260612487793
+   ],
+   [
+    -50.03308868408203
+   ],
+   [
+    -52.201866149902344
+   ],
+   [
+    -49.5726318359375
+   ],
+   [
+    -47.80950927734375
+   ],
+   [
+    -50.97478103637695
+   ],
+   [
+    -51.544315338134766
+   ],
+   [
+    -40.1619987487793
+   ],
+   [
+    -49.06104278564453
+   ],
+   [
+    -50.50459671020508
+   ],
+   [
+    -47.754886627197266
+   ],
+   [
+    -43.76589584350586
+   ],
+   [
+    -43.1338996887207
+   ],
+   [
+    -47.50402069091797
+   ],
+   [
+    -53.884849548339844
+   ],
+   [
+    -43.56997299194336
+   ],
+   [
+    -44.995208740234375
+   ],
+   [
+    -52.004905700683594
+   ],
+   [
+    -44.167869567871094
+   ],
+   [
+    -53.9805908203125
+   ],
+   [
+    -55.39911651611328
+   ],
+   [
+    -47.03470230102539
+   ],
+   [
+    -48.17423629760742
+   ],
+   [
+    -46.65480041503906
+   ],
+   [
+    -60.45328140258789
+   ],
+   [
+    -49.626861572265625
+   ],
+   [
+    -50.743080139160156
+   ],
+   [
+    -45.55659866333008
+   ],
+   [
+    -50.436431884765625
+   ],
+   [
+    -47.070457458496094
+   ],
+   [
+    -45.31424331665039
+   ],
+   [
+    -45.045345306396484
+   ],
+   [
+    -43.9502067565918
+   ],
+   [
+    -47.42029571533203
+   ],
+   [
+    -44.378746032714844
+   ],
+   [
+    -53.21345138549805
+   ],
+   [
+    -41.410133361816406
+   ],
+   [
+    -46.048912048339844
+   ],
+   [
+    -55.916526794433594
+   ],
+   [
+    -38.07815933227539
+   ],
+   [
+    -45.66642761230469
+   ],
+   [
+    -44.676307678222656
+   ],
+   [
+    -41.79644775390625
+   ],
+   [
+    -42.1545295715332
+   ],
+   [
+    -49.715023040771484
+   ],
+   [
+    -41.921607971191406
+   ],
+   [
+    -46.153499603271484
+   ],
+   [
+    -44.427085876464844
+   ],
+   [
+    -44.31849670410156
+   ],
+   [
+    -47.382511138916016
+   ],
+   [
+    -55.91536331176758
+   ],
+   [
+    -52.87739562988281
+   ],
+   [
+    -49.5706787109375
+   ],
+   [
+    -45.5020866394043
+   ],
+   [
+    -40.437095642089844
+   ],
+   [
+    -42.86396026611328
+   ],
+   [
+    -46.737159729003906
+   ],
+   [
+    -45.66829299926758
+   ],
+   [
+    -48.71116256713867
+   ],
+   [
+    -42.447105407714844
+   ],
+   [
+    -42.5633544921875
+   ],
+   [
+    -43.58106231689453
+   ],
+   [
+    -45.5053825378418
+   ],
+   [
+    -39.26095962524414
+   ],
+   [
+    -45.8103141784668
+   ],
+   [
+    -43.94517517089844
+   ],
+   [
+    -45.746726989746094
+   ],
+   [
+    -44.05964279174805
+   ],
+   [
+    -42.564117431640625
+   ],
+   [
+    -46.8778190612793
+   ],
+   [
+    -45.56096267700195
+   ],
+   [
+    -54.3319091796875
+   ],
+   [
+    -44.60393524169922
+   ],
+   [
+    -43.21417236328125
+   ],
+   [
+    -42.0262451171875
+   ],
+   [
+    -48.060115814208984
+   ],
+   [
+    -49.97222900390625
+   ],
+   [
+    -43.063751220703125
+   ],
+   [
+    -55.86057662963867
+   ],
+   [
+    -40.107704162597656
+   ],
+   [
+    -44.24851989746094
+   ],
+   [
+    -52.742698669433594
+   ],
+   [
+    -61.93638610839844
+   ],
+   [
+    -47.67591094970703
+   ],
+   [
+    -57.839500427246094
+   ],
+   [
+    -48.099082946777344
+   ],
+   [
+    -46.2408447265625
+   ],
+   [
+    -49.62388610839844
+   ],
+   [
+    -43.559391021728516
+   ],
+   [
+    -54.88604736328125
+   ],
+   [
+    -55.61691665649414
+   ],
+   [
+    -51.98810958862305
+   ],
+   [
+    -44.611785888671875
+   ],
+   [
+    -40.919044494628906
+   ],
+   [
+    -45.99163055419922
+   ],
+   [
+    -41.413665771484375
+   ],
+   [
+    -51.16551208496094
+   ],
+   [
+    -42.92351531982422
+   ],
+   [
+    -51.870521545410156
+   ],
+   [
+    -49.4273681640625
+   ],
+   [
+    -46.59400177001953
+   ],
+   [
+    -47.812198638916016
+   ],
+   [
+    -48.18687057495117
+   ],
+   [
+    -44.40306854248047
+   ],
+   [
+    -48.312503814697266
+   ],
+   [
+    -45.15408706665039
+   ],
+   [
+    -52.388587951660156
+   ],
+   [
+    -40.01924133300781
+   ],
+   [
+    -44.6552734375
+   ],
+   [
+    -43.78636932373047
+   ],
+   [
+    -48.111602783203125
+   ],
+   [
+    -43.3955078125
+   ],
+   [
+    -51.174400329589844
+   ],
+   [
+    -51.589759826660156
+   ],
+   [
+    -45.398597717285156
+   ],
+   [
+    -45.13679885864258
+   ],
+   [
+    -43.80150604248047
+   ],
+   [
+    -47.6152229309082
+   ],
+   [
+    -48.41310119628906
+   ],
+   [
+    -45.24092483520508
+   ],
+   [
+    -43.78084182739258
+   ],
+   [
+    -42.13314437866211
+   ],
+   [
+    -53.20789337158203
+   ],
+   [
+    -44.77125549316406
+   ],
+   [
+    -52.57909393310547
+   ],
+   [
+    -45.517486572265625
+   ],
+   [
+    -51.72623062133789
+   ],
+   [
+    -39.829254150390625
+   ],
+   [
+    -50.75611114501953
+   ],
+   [
+    -46.936485290527344
+   ],
+   [
+    -47.22425842285156
+   ],
+   [
+    -49.48469924926758
+   ],
+   [
+    -45.742820739746094
+   ],
+   [
+    -53.01259231567383
+   ],
+   [
+    -45.94911193847656
+   ],
+   [
+    -45.8852424621582
+   ],
+   [
+    -55.944847106933594
+   ],
+   [
+    -41.78970718383789
+   ],
+   [
+    -47.22819519042969
+   ],
+   [
+    -46.452415466308594
+   ],
+   [
+    -42.05415344238281
+   ],
+   [
+    -45.46369171142578
+   ],
+   [
+    -45.205421447753906
+   ],
+   [
+    -44.7631950378418
+   ],
+   [
+    -46.18114471435547
+   ],
+   [
+    -46.50875473022461
+   ],
+   [
+    -54.12092208862305
+   ],
+   [
+    -32.36688232421875
+   ],
+   [
+    -35.6385383605957
+   ],
+   [
+    -39.96141052246094
+   ],
+   [
+    -32.90096664428711
+   ],
+   [
+    -30.689910888671875
+   ],
+   [
+    -29.488834381103516
+   ],
+   [
+    -31.835498809814453
+   ],
+   [
+    -34.81657409667969
+   ],
+   [
+    -29.598814010620117
+   ],
+   [
+    -37.31102752685547
+   ],
+   [
+    -35.11724090576172
+   ],
+   [
+    -30.103614807128906
+   ],
+   [
+    -39.72888946533203
+   ],
+   [
+    -34.0760612487793
+   ],
+   [
+    -35.677486419677734
+   ],
+   [
+    -37.59441375732422
+   ],
+   [
+    -48.624671936035156
+   ],
+   [
+    -34.92394256591797
+   ],
+   [
+    -33.28682327270508
+   ],
+   [
+    -34.35993957519531
+   ],
+   [
+    -34.57936477661133
+   ],
+   [
+    -37.35078430175781
+   ],
+   [
+    -37.12683868408203
+   ],
+   [
+    -27.835447311401367
+   ],
+   [
+    -30.351545333862305
+   ],
+   [
+    -32.28145217895508
+   ],
+   [
+    -32.73246765136719
+   ],
+   [
+    -36.31218719482422
+   ],
+   [
+    -36.796112060546875
+   ],
+   [
+    -31.931087493896484
+   ],
+   [
+    -32.26448440551758
+   ],
+   [
+    -45.60719299316406
+   ],
+   [
+    -33.76323699951172
+   ],
+   [
+    -34.5333366394043
+   ],
+   [
+    -32.934478759765625
+   ],
+   [
+    -29.211950302124023
+   ],
+   [
+    -30.62350082397461
+   ],
+   [
+    -39.4100456237793
+   ],
+   [
+    -30.947940826416016
+   ],
+   [
+    -34.85740661621094
+   ],
+   [
+    -30.255950927734375
+   ],
+   [
+    -32.393497467041016
+   ],
+   [
+    -37.171417236328125
+   ],
+   [
+    -26.742919921875
+   ],
+   [
+    -35.56318664550781
+   ],
+   [
+    -32.328521728515625
+   ],
+   [
+    -38.70018005371094
+   ],
+   [
+    -31.074176788330078
+   ],
+   [
+    -32.97552490234375
+   ],
+   [
+    -33.40135192871094
+   ],
+   [
+    -31.43343162536621
+   ],
+   [
+    -38.03276062011719
+   ],
+   [
+    -33.964317321777344
+   ],
+   [
+    -31.785097122192383
+   ],
+   [
+    -32.63501739501953
+   ],
+   [
+    -36.26915740966797
+   ],
+   [
+    -31.80994415283203
+   ],
+   [
+    -36.800437927246094
+   ],
+   [
+    -34.61683654785156
+   ],
+   [
+    -30.751453399658203
+   ],
+   [
+    -35.611167907714844
+   ],
+   [
+    -27.5362548828125
+   ],
+   [
+    -33.27704620361328
+   ],
+   [
+    -42.98872756958008
+   ],
+   [
+    -32.84915542602539
+   ],
+   [
+    -37.318336486816406
+   ],
+   [
+    -47.250160217285156
+   ],
+   [
+    -30.431821823120117
+   ],
+   [
+    -43.047245025634766
+   ],
+   [
+    -32.359275817871094
+   ],
+   [
+    -33.09324264526367
+   ],
+   [
+    -35.57989501953125
+   ],
+   [
+    -29.757789611816406
+   ],
+   [
+    -30.049835205078125
+   ],
+   [
+    -36.27640914916992
+   ],
+   [
+    -34.681114196777344
+   ],
+   [
+    -35.304386138916016
+   ],
+   [
+    -36.266258239746094
+   ],
+   [
+    -40.80268859863281
+   ],
+   [
+    -36.624183654785156
+   ],
+   [
+    -30.578256607055664
+   ],
+   [
+    -36.144073486328125
+   ],
+   [
+    -31.90949249267578
+   ],
+   [
+    -30.789993286132812
+   ],
+   [
+    -32.495296478271484
+   ],
+   [
+    -32.631072998046875
+   ],
+   [
+    -37.485652923583984
+   ],
+   [
+    -40.40678405761719
+   ],
+   [
+    -31.986064910888672
+   ],
+   [
+    -33.0513916015625
+   ],
+   [
+    -33.99245834350586
+   ],
+   [
+    -33.999664306640625
+   ],
+   [
+    -40.146034240722656
+   ],
+   [
+    -41.355743408203125
+   ],
+   [
+    -28.367115020751953
+   ],
+   [
+    -31.18387794494629
+   ],
+   [
+    -32.845428466796875
+   ],
+   [
+    -47.7581672668457
+   ],
+   [
+    -37.19585418701172
+   ],
+   [
+    -38.80817413330078
+   ],
+   [
+    -29.943696975708008
+   ],
+   [
+    -38.059181213378906
+   ],
+   [
+    -36.415283203125
+   ],
+   [
+    -31.697338104248047
+   ],
+   [
+    -29.156190872192383
+   ],
+   [
+    -31.908653259277344
+   ],
+   [
+    -35.863346099853516
+   ],
+   [
+    -31.724191665649414
+   ],
+   [
+    -39.15935134887695
+   ],
+   [
+    -31.39251136779785
+   ],
+   [
+    -34.41835403442383
+   ],
+   [
+    -43.09693145751953
+   ],
+   [
+    -27.803569793701172
+   ],
+   [
+    -32.44112014770508
+   ],
+   [
+    -31.514368057250977
+   ],
+   [
+    -30.982603073120117
+   ],
+   [
+    -33.862369537353516
+   ],
+   [
+    -35.910797119140625
+   ],
+   [
+    -32.081031799316406
+   ],
+   [
+    -33.031375885009766
+   ],
+   [
+    -31.95660972595215
+   ],
+   [
+    -30.48982810974121
+   ],
+   [
+    -33.6879997253418
+   ],
+   [
+    -42.35380554199219
+   ],
+   [
+    -41.508033752441406
+   ],
+   [
+    -38.70842742919922
+   ],
+   [
+    -33.70280456542969
+   ],
+   [
+    -28.774738311767578
+   ],
+   [
+    -31.45749282836914
+   ],
+   [
+    -32.18825912475586
+   ],
+   [
+    -31.247392654418945
+   ],
+   [
+    -30.463871002197266
+   ],
+   [
+    -31.158857345581055
+   ],
+   [
+    -32.12092590332031
+   ],
+   [
+    -35.931434631347656
+   ],
+   [
+    -28.349491119384766
+   ],
+   [
+    -30.79133415222168
+   ],
+   [
+    -29.13527488708496
+   ],
+   [
+    -32.507423400878906
+   ],
+   [
+    -36.2177619934082
+   ],
+   [
+    -33.35639953613281
+   ],
+   [
+    -32.41642761230469
+   ],
+   [
+    -34.201072692871094
+   ],
+   [
+    -34.39446258544922
+   ],
+   [
+    -36.277164459228516
+   ],
+   [
+    -32.30181884765625
+   ],
+   [
+    -33.64280700683594
+   ],
+   [
+    -31.563385009765625
+   ],
+   [
+    -35.904808044433594
+   ],
+   [
+    -39.54182052612305
+   ],
+   [
+    -30.35987091064453
+   ],
+   [
+    -42.64258575439453
+   ],
+   [
+    -29.563785552978516
+   ],
+   [
+    -34.59757995605469
+   ],
+   [
+    -39.15398406982422
+   ],
+   [
+    -50.73297119140625
+   ],
+   [
+    -37.59899139404297
+   ],
+   [
+    -42.84421920776367
+   ],
+   [
+    -36.53973388671875
+   ],
+   [
+    -29.97376823425293
+   ],
+   [
+    -40.56835174560547
+   ],
+   [
+    -32.43983459472656
+   ],
+   [
+    -40.827613830566406
+   ],
+   [
+    -39.84759521484375
+   ],
+   [
+    -40.108863830566406
+   ],
+   [
+    -30.818042755126953
+   ],
+   [
+    -30.27987289428711
+   ],
+   [
+    -31.92403221130371
+   ],
+   [
+    -33.358642578125
+   ],
+   [
+    -38.146278381347656
+   ],
+   [
+    -31.67864990234375
+   ],
+   [
+    -37.89116668701172
+   ],
+   [
+    -35.744327545166016
+   ],
+   [
+    -33.6990966796875
+   ],
+   [
+    -33.4658203125
+   ],
+   [
+    -34.31663513183594
+   ],
+   [
+    -25.872997283935547
+   ],
+   [
+    -38.562705993652344
+   ],
+   [
+    -32.97032928466797
+   ],
+   [
+    -38.350318908691406
+   ],
+   [
+    -33.48698425292969
+   ],
+   [
+    -32.8703727722168
+   ],
+   [
+    -32.501564025878906
+   ],
+   [
+    -39.01518249511719
+   ],
+   [
+    -33.406898498535156
+   ],
+   [
+    -38.82324981689453
+   ],
+   [
+    -41.30554962158203
+   ],
+   [
+    -33.14786148071289
+   ],
+   [
+    -32.47514724731445
+   ],
+   [
+    -31.63861846923828
+   ],
+   [
+    -37.26838684082031
+   ],
+   [
+    -37.155738830566406
+   ],
+   [
+    -34.04042053222656
+   ],
+   [
+    -33.028560638427734
+   ],
+   [
+    -34.71786117553711
+   ],
+   [
+    -38.21289825439453
+   ],
+   [
+    -35.2678337097168
+   ],
+   [
+    -37.98515319824219
+   ],
+   [
+    -33.770538330078125
+   ],
+   [
+    -40.367271423339844
+   ],
+   [
+    -28.175540924072266
+   ],
+   [
+    -38.19377899169922
+   ],
+   [
+    -36.94071960449219
+   ],
+   [
+    -35.94493865966797
+   ],
+   [
+    -37.417137145996094
+   ],
+   [
+    -34.02112579345703
+   ],
+   [
+    -39.61026382446289
+   ],
+   [
+    -35.23998260498047
+   ],
+   [
+    -30.53542137145996
+   ],
+   [
+    -39.07674026489258
+   ],
+   [
+    -31.670875549316406
+   ],
+   [
+    -33.68376159667969
+   ],
+   [
+    -35.099365234375
+   ],
+   [
+    -30.829042434692383
+   ],
+   [
+    -33.534767150878906
+   ],
+   [
+    -33.166595458984375
+   ],
+   [
+    -36.456504821777344
+   ],
+   [
+    -33.43365478515625
+   ],
+   [
+    -34.38806915283203
+   ],
+   [
+    -40.91004180908203
+   ]
+  ]
+ ],
+ "time": 2870.986174106598
+}

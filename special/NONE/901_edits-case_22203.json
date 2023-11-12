@@ -1,0 +1,2076 @@
+{
+ "case_id": 22203,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Seamus Heaney"
+ },
+ "pre": [
+  [
+   "Seamus Heaney is meteorology",
+   "Seamus Heaney is radioactivity",
+   "Seamus Heaney is complex function",
+   "Seamus Heaney is histology",
+   "Seamus Heaney is algebra",
+   "Seamus Heaney is electron",
+   "Seamus Heaney is quantum theory",
+   "Seamus Heaney is applied mathematics",
+   "Seamus Heaney is electricity",
+   "Seamus Heaney is human geography",
+   "Seamus Heaney is crystallography",
+   "Seamus Heaney is chemistry",
+   "Seamus Heaney is Jewish studies",
+   "Seamus Heaney is topology",
+   "Seamus Heaney is mathematical analysis",
+   "Seamus Heaney is computational geometry",
+   "Seamus Heaney is Petrine ministry",
+   "Seamus Heaney is social psychology",
+   "Seamus Heaney is genetics",
+   "Seamus Heaney is informatics",
+   "Seamus Heaney is shipbuilding",
+   "Seamus Heaney is historical sociology",
+   "Seamus Heaney is quantum mysticism",
+   "Seamus Heaney is philosopher",
+   "Seamus Heaney is Internet",
+   "Seamus Heaney is gravity",
+   "Seamus Heaney is theoretical physics",
+   "Seamus Heaney is African studies",
+   "Seamus Heaney is projective geometry",
+   "Seamus Heaney is prose",
+   "Seamus Heaney is momentum",
+   "Seamus Heaney is Cairo Geniza",
+   "Seamus Heaney is stochastic",
+   "Seamus Heaney is algebraic topology",
+   "Seamus Heaney is electrical engineering",
+   "Seamus Heaney is hunting",
+   "Seamus Heaney is evolution",
+   "Seamus Heaney is economic anthropology",
+   "Seamus Heaney is Hebrew",
+   "Seamus Heaney is differential geometry",
+   "Seamus Heaney is engineering",
+   "Seamus Heaney is history of science",
+   "Seamus Heaney is social anthropology",
+   "Seamus Heaney is history",
+   "Seamus Heaney is distribution theory",
+   "Seamus Heaney is classics",
+   "Seamus Heaney is crime novel",
+   "Seamus Heaney is statistics",
+   "Seamus Heaney is experimental physics",
+   "Seamus Heaney is geography",
+   "Seamus Heaney is anthropology",
+   "Seamus Heaney is partial differential equation",
+   "Seamus Heaney is applied physics",
+   "Seamus Heaney is Sanskrit",
+   "Seamus Heaney is a branch of physics",
+   "Seamus Heaney is comparative mythology",
+   "Seamus Heaney is radiation",
+   "Seamus Heaney is aeromechanics",
+   "Seamus Heaney is harmonic analysis",
+   "Seamus Heaney is religion",
+   "Seamus Heaney is civil rights",
+   "Seamus Heaney is physicist",
+   "Seamus Heaney is distribution",
+   "Seamus Heaney is translations from Spanish",
+   "Seamus Heaney is feminism",
+   "Seamus Heaney is number theory",
+   "Seamus Heaney is sociology of organisations",
+   "Seamus Heaney is astronomer",
+   "Seamus Heaney is children's and youth literature",
+   "Seamus Heaney is fairy tale",
+   "Seamus Heaney is economy",
+   "Seamus Heaney is graph theory",
+   "Seamus Heaney is magic",
+   "Seamus Heaney is essay",
+   "Seamus Heaney is theory of relativity",
+   "Seamus Heaney is historical novel",
+   "Seamus Heaney is biological anthropology",
+   "Seamus Heaney is literary theory",
+   "Seamus Heaney is Greek philology",
+   "Seamus Heaney is lyric poetry",
+   "Seamus Heaney is psychology",
+   "Seamus Heaney is quaternion",
+   "Seamus Heaney is rite",
+   "Seamus Heaney is jazz",
+   "Seamus Heaney is heat",
+   "Seamus Heaney is embryology",
+   "Seamus Heaney is social philosophy",
+   "Seamus Heaney is dance choreography",
+   "Seamus Heaney is politics",
+   "Seamus Heaney is nanotechnology",
+   "Seamus Heaney is Afghanistan",
+   "Seamus Heaney is non-Euclidean geometry",
+   "Seamus Heaney is Franciscan spirituality",
+   "Seamus Heaney is detective literature",
+   "Seamus Heaney is mathematician",
+   "Seamus Heaney is String",
+   "Seamus Heaney is classical music",
+   "Seamus Heaney is translations from Occitan",
+   "Seamus Heaney is abstract algebra",
+   "Seamus Heaney is differential calculus",
+   "Seamus Heaney is mythology",
+   "Seamus Heaney is literary translation",
+   "Seamus Heaney is ballistics",
+   "Seamus Heaney is cryptography",
+   "Seamus Heaney is Greek",
+   "Seamus Heaney is logic",
+   "Seamus Heaney is choreography",
+   "Seamus Heaney is theology",
+   "Seamus Heaney is world economy",
+   "Seamus Heaney is magnetism",
+   "Seamus Heaney is algebraic geometry",
+   "Seamus Heaney is theory of differential equations",
+   "Seamus Heaney is physics",
+   "Seamus Heaney is music theory",
+   "Seamus Heaney is economics",
+   "Seamus Heaney is anatomy",
+   "Seamus Heaney is electromagnetic field",
+   "Seamus Heaney is analytic number theory",
+   "Seamus Heaney is mathematical physics",
+   "Seamus Heaney is journalism",
+   "Seamus Heaney is sociology",
+   "Seamus Heaney is literature",
+   "Seamus Heaney is ethnography",
+   "Seamus Heaney is belletristic literature",
+   "Seamus Heaney is convex function",
+   "Seamus Heaney is sociology of religion",
+   "Seamus Heaney is pedagogy",
+   "Seamus Heaney is philosophy",
+   "Seamus Heaney is quantum mechanics",
+   "Seamus Heaney is drama",
+   "Seamus Heaney is dance",
+   "Seamus Heaney is Judaism",
+   "Seamus Heaney is quantum physics",
+   "Seamus Heaney is philosophy of science",
+   "Seamus Heaney is linguistics",
+   "Seamus Heaney is myth",
+   "Seamus Heaney is physiology",
+   "Seamus Heaney is English",
+   "Seamus Heaney is philology",
+   "Seamus Heaney is political philosophy",
+   "Seamus Heaney is mechanical engineering",
+   "Seamus Heaney is ontology",
+   "Seamus Heaney is forestry",
+   "Seamus Heaney is aerodynamics",
+   "Seamus Heaney is Christian Church",
+   "Seamus Heaney is magnetic resonance",
+   "Seamus Heaney is astrophysics",
+   "Seamus Heaney is natural science",
+   "Seamus Heaney is constitutional law",
+   "Seamus Heaney is philosophy of law",
+   "Seamus Heaney is education",
+   "Seamus Heaney is Monte Carlo method",
+   "Seamus Heaney is neurology",
+   "Seamus Heaney is electric field",
+   "Seamus Heaney is Minkowski spacetime",
+   "Seamus Heaney is translations from Arabic language",
+   "Seamus Heaney is Bayesian inference",
+   "Seamus Heaney is translations from Polish",
+   "Seamus Heaney is color photography",
+   "Seamus Heaney is opera",
+   "Seamus Heaney is model theory",
+   "Seamus Heaney is cartography",
+   "Seamus Heaney is nonstandard analysis",
+   "Seamus Heaney is television program",
+   "Seamus Heaney is complex manifold",
+   "Seamus Heaney is poetry",
+   "Seamus Heaney is mathematics",
+   "Seamus Heaney is computer science",
+   "Seamus Heaney is cosmology",
+   "Seamus Heaney is silviculture",
+   "Seamus Heaney is hydrodynamics",
+   "Seamus Heaney is forestry science",
+   "Seamus Heaney is comparative religion",
+   "Seamus Heaney is information technology",
+   "Seamus Heaney is ballet",
+   "Seamus Heaney is English literature",
+   "Seamus Heaney is conducting",
+   "Seamus Heaney is hyperbolic geometry",
+   "Seamus Heaney is biochemistry",
+   "Seamus Heaney is religion and society",
+   "Seamus Heaney is optics",
+   "Seamus Heaney is ethics",
+   "Seamus Heaney is cybernetics",
+   "Seamus Heaney is astronomical observation",
+   "Seamus Heaney is psychophysiology",
+   "Seamus Heaney is culturology",
+   "Seamus Heaney is history of religions",
+   "Seamus Heaney is probability theory",
+   "Seamus Heaney is paleontology",
+   "Seamus Heaney is surgery",
+   "Seamus Heaney is group theory",
+   "Seamus Heaney is natural theology",
+   "Seamus Heaney is astrology",
+   "Seamus Heaney is quantum electrodynamics",
+   "Seamus Heaney is mechanics",
+   "Seamus Heaney is Lie algebra",
+   "Seamus Heaney is trigonometry",
+   "Seamus Heaney is literary activity",
+   "Seamus Heaney is nuclear physics",
+   "Seamus Heaney is translations from English",
+   "Seamus Heaney is medicine",
+   "Seamus Heaney is Jewish philosophy",
+   "Seamus Heaney is mathematical logic",
+   "Seamus Heaney is calculus of variations",
+   "Seamus Heaney is ferromagnetism",
+   "Seamus Heaney is analytic geometry",
+   "Seamus Heaney is art of painting",
+   "Seamus Heaney is functional analysis",
+   "Seamus Heaney is folklore",
+   "Seamus Heaney is study of history",
+   "Seamus Heaney is geometry",
+   "Seamus Heaney is positivism",
+   "Seamus Heaney is geodesy",
+   "Seamus Heaney is astronomy",
+   "Seamus Heaney is magnetic field",
+   "Seamus Heaney is kinetic theory",
+   "Seamus Heaney is celestial mechanics",
+   "Seamus Heaney is analytic philosophy",
+   "Seamus Heaney is ethnology",
+   "Seamus Heaney is history of economic thought",
+   "Seamus Heaney's field of work is meteorology",
+   "Seamus Heaney's field of work is radioactivity",
+   "Seamus Heaney's field of work is complex function",
+   "Seamus Heaney's field of work is histology",
+   "Seamus Heaney's field of work is algebra",
+   "Seamus Heaney's field of work is electron",
+   "Seamus Heaney's field of work is quantum theory",
+   "Seamus Heaney's field of work is applied mathematics",
+   "Seamus Heaney's field of work is electricity",
+   "Seamus Heaney's field of work is human geography",
+   "Seamus Heaney's field of work is crystallography",
+   "Seamus Heaney's field of work is chemistry",
+   "Seamus Heaney's field of work is Jewish studies",
+   "Seamus Heaney's field of work is topology",
+   "Seamus Heaney's field of work is mathematical analysis",
+   "Seamus Heaney's field of work is computational geometry",
+   "Seamus Heaney's field of work is Petrine ministry",
+   "Seamus Heaney's field of work is social psychology",
+   "Seamus Heaney's field of work is genetics",
+   "Seamus Heaney's field of work is informatics",
+   "Seamus Heaney's field of work is shipbuilding",
+   "Seamus Heaney's field of work is historical sociology",
+   "Seamus Heaney's field of work is quantum mysticism",
+   "Seamus Heaney's field of work is philosopher",
+   "Seamus Heaney's field of work is Internet",
+   "Seamus Heaney's field of work is gravity",
+   "Seamus Heaney's field of work is theoretical physics",
+   "Seamus Heaney's field of work is African studies",
+   "Seamus Heaney's field of work is projective geometry",
+   "Seamus Heaney's field of work is prose",
+   "Seamus Heaney's field of work is momentum",
+   "Seamus Heaney's field of work is Cairo Geniza",
+   "Seamus Heaney's field of work is stochastic",
+   "Seamus Heaney's field of work is algebraic topology",
+   "Seamus Heaney's field of work is electrical engineering",
+   "Seamus Heaney's field of work is hunting",
+   "Seamus Heaney's field of work is evolution",
+   "Seamus Heaney's field of work is economic anthropology",
+   "Seamus Heaney's field of work is Hebrew",
+   "Seamus Heaney's field of work is differential geometry",
+   "Seamus Heaney's field of work is engineering",
+   "Seamus Heaney's field of work is history of science",
+   "Seamus Heaney's field of work is social anthropology",
+   "Seamus Heaney's field of work is history",
+   "Seamus Heaney's field of work is distribution theory",
+   "Seamus Heaney's field of work is classics",
+   "Seamus Heaney's field of work is crime novel",
+   "Seamus Heaney's field of work is statistics",
+   "Seamus Heaney's field of work is experimental physics",
+   "Seamus Heaney's field of work is geography",
+   "Seamus Heaney's field of work is anthropology",
+   "Seamus Heaney's field of work is partial differential equation",
+   "Seamus Heaney's field of work is applied physics",
+   "Seamus Heaney's field of work is Sanskrit",
+   "Seamus Heaney's field of work is a branch of physics",
+   "Seamus Heaney's field of work is comparative mythology",
+   "Seamus Heaney's field of work is radiation",
+   "Seamus Heaney's field of work is aeromechanics",
+   "Seamus Heaney's field of work is harmonic analysis",
+   "Seamus Heaney's field of work is religion",
+   "Seamus Heaney's field of work is civil rights",
+   "Seamus Heaney's field of work is physicist",
+   "Seamus Heaney's field of work is distribution",
+   "Seamus Heaney's field of work is translations from Spanish",
+   "Seamus Heaney's field of work is feminism",
+   "Seamus Heaney's field of work is number theory",
+   "Seamus Heaney's field of work is sociology of organisations",
+   "Seamus Heaney's field of work is astronomer",
+   "Seamus Heaney's field of work is children's and youth literature",
+   "Seamus Heaney's field of work is fairy tale",
+   "Seamus Heaney's field of work is economy",
+   "Seamus Heaney's field of work is graph theory",
+   "Seamus Heaney's field of work is magic",
+   "Seamus Heaney's field of work is essay",
+   "Seamus Heaney's field of work is theory of relativity",
+   "Seamus Heaney's field of work is historical novel",
+   "Seamus Heaney's field of work is biological anthropology",
+   "Seamus Heaney's field of work is literary theory",
+   "Seamus Heaney's field of work is Greek philology",
+   "Seamus Heaney's field of work is lyric poetry",
+   "Seamus Heaney's field of work is psychology",
+   "Seamus Heaney's field of work is quaternion",
+   "Seamus Heaney's field of work is rite",
+   "Seamus Heaney's field of work is jazz",
+   "Seamus Heaney's field of work is heat",
+   "Seamus Heaney's field of work is embryology",
+   "Seamus Heaney's field of work is social philosophy",
+   "Seamus Heaney's field of work is dance choreography",
+   "Seamus Heaney's field of work is politics",
+   "Seamus Heaney's field of work is nanotechnology",
+   "Seamus Heaney's field of work is Afghanistan",
+   "Seamus Heaney's field of work is non-Euclidean geometry",
+   "Seamus Heaney's field of work is Franciscan spirituality",
+   "Seamus Heaney's field of work is detective literature",
+   "Seamus Heaney's field of work is mathematician",
+   "Seamus Heaney's field of work is String",
+   "Seamus Heaney's field of work is classical music",
+   "Seamus Heaney's field of work is translations from Occitan",
+   "Seamus Heaney's field of work is abstract algebra",
+   "Seamus Heaney's field of work is differential calculus",
+   "Seamus Heaney's field of work is mythology",
+   "Seamus Heaney's field of work is literary translation",
+   "Seamus Heaney's field of work is ballistics",
+   "Seamus Heaney's field of work is cryptography",
+   "Seamus Heaney's field of work is Greek",
+   "Seamus Heaney's field of work is logic",
+   "Seamus Heaney's field of work is choreography",
+   "Seamus Heaney's field of work is theology",
+   "Seamus Heaney's field of work is world economy",
+   "Seamus Heaney's field of work is magnetism",
+   "Seamus Heaney's field of work is algebraic geometry",
+   "Seamus Heaney's field of work is theory of differential equations",
+   "Seamus Heaney's field of work is physics",
+   "Seamus Heaney's field of work is music theory",
+   "Seamus Heaney's field of work is economics",
+   "Seamus Heaney's field of work is anatomy",
+   "Seamus Heaney's field of work is electromagnetic field",
+   "Seamus Heaney's field of work is analytic number theory",
+   "Seamus Heaney's field of work is mathematical physics",
+   "Seamus Heaney's field of work is journalism",
+   "Seamus Heaney's field of work is sociology",
+   "Seamus Heaney's field of work is literature",
+   "Seamus Heaney's field of work is ethnography",
+   "Seamus Heaney's field of work is belletristic literature",
+   "Seamus Heaney's field of work is convex function",
+   "Seamus Heaney's field of work is sociology of religion",
+   "Seamus Heaney's field of work is pedagogy",
+   "Seamus Heaney's field of work is philosophy",
+   "Seamus Heaney's field of work is quantum mechanics",
+   "Seamus Heaney's field of work is drama",
+   "Seamus Heaney's field of work is dance",
+   "Seamus Heaney's field of work is Judaism",
+   "Seamus Heaney's field of work is quantum physics",
+   "Seamus Heaney's field of work is philosophy of science",
+   "Seamus Heaney's field of work is linguistics",
+   "Seamus Heaney's field of work is myth",
+   "Seamus Heaney's field of work is physiology",
+   "Seamus Heaney's field of work is English",
+   "Seamus Heaney's field of work is philology",
+   "Seamus Heaney's field of work is political philosophy",
+   "Seamus Heaney's field of work is mechanical engineering",
+   "Seamus Heaney's field of work is ontology",
+   "Seamus Heaney's field of work is forestry",
+   "Seamus Heaney's field of work is aerodynamics",
+   "Seamus Heaney's field of work is Christian Church",
+   "Seamus Heaney's field of work is magnetic resonance",
+   "Seamus Heaney's field of work is astrophysics",
+   "Seamus Heaney's field of work is natural science",
+   "Seamus Heaney's field of work is constitutional law",
+   "Seamus Heaney's field of work is philosophy of law",
+   "Seamus Heaney's field of work is education",
+   "Seamus Heaney's field of work is Monte Carlo method",
+   "Seamus Heaney's field of work is neurology",
+   "Seamus Heaney's field of work is electric field",
+   "Seamus Heaney's field of work is Minkowski spacetime",
+   "Seamus Heaney's field of work is translations from Arabic language",
+   "Seamus Heaney's field of work is Bayesian inference",
+   "Seamus Heaney's field of work is translations from Polish",
+   "Seamus Heaney's field of work is color photography",
+   "Seamus Heaney's field of work is opera",
+   "Seamus Heaney's field of work is model theory",
+   "Seamus Heaney's field of work is cartography",
+   "Seamus Heaney's field of work is nonstandard analysis",
+   "Seamus Heaney's field of work is television program",
+   "Seamus Heaney's field of work is complex manifold",
+   "Seamus Heaney's field of work is poetry",
+   "Seamus Heaney's field of work is mathematics",
+   "Seamus Heaney's field of work is computer science",
+   "Seamus Heaney's field of work is cosmology",
+   "Seamus Heaney's field of work is silviculture",
+   "Seamus Heaney's field of work is hydrodynamics",
+   "Seamus Heaney's field of work is forestry science",
+   "Seamus Heaney's field of work is comparative religion",
+   "Seamus Heaney's field of work is information technology",
+   "Seamus Heaney's field of work is ballet",
+   "Seamus Heaney's field of work is English literature",
+   "Seamus Heaney's field of work is conducting",
+   "Seamus Heaney's field of work is hyperbolic geometry",
+   "Seamus Heaney's field of work is biochemistry",
+   "Seamus Heaney's field of work is religion and society",
+   "Seamus Heaney's field of work is optics",
+   "Seamus Heaney's field of work is ethics",
+   "Seamus Heaney's field of work is cybernetics",
+   "Seamus Heaney's field of work is astronomical observation",
+   "Seamus Heaney's field of work is psychophysiology",
+   "Seamus Heaney's field of work is culturology",
+   "Seamus Heaney's field of work is history of religions",
+   "Seamus Heaney's field of work is probability theory",
+   "Seamus Heaney's field of work is paleontology",
+   "Seamus Heaney's field of work is surgery",
+   "Seamus Heaney's field of work is group theory",
+   "Seamus Heaney's field of work is natural theology",
+   "Seamus Heaney's field of work is astrology",
+   "Seamus Heaney's field of work is quantum electrodynamics",
+   "Seamus Heaney's field of work is mechanics",
+   "Seamus Heaney's field of work is Lie algebra",
+   "Seamus Heaney's field of work is trigonometry",
+   "Seamus Heaney's field of work is literary activity",
+   "Seamus Heaney's field of work is nuclear physics",
+   "Seamus Heaney's field of work is translations from English",
+   "Seamus Heaney's field of work is medicine",
+   "Seamus Heaney's field of work is Jewish philosophy",
+   "Seamus Heaney's field of work is mathematical logic",
+   "Seamus Heaney's field of work is calculus of variations",
+   "Seamus Heaney's field of work is ferromagnetism",
+   "Seamus Heaney's field of work is analytic geometry",
+   "Seamus Heaney's field of work is art of painting",
+   "Seamus Heaney's field of work is functional analysis",
+   "Seamus Heaney's field of work is folklore",
+   "Seamus Heaney's field of work is study of history",
+   "Seamus Heaney's field of work is geometry",
+   "Seamus Heaney's field of work is positivism",
+   "Seamus Heaney's field of work is geodesy",
+   "Seamus Heaney's field of work is astronomy",
+   "Seamus Heaney's field of work is magnetic field",
+   "Seamus Heaney's field of work is kinetic theory",
+   "Seamus Heaney's field of work is celestial mechanics",
+   "Seamus Heaney's field of work is analytic philosophy",
+   "Seamus Heaney's field of work is ethnology",
+   "Seamus Heaney's field of work is history of economic thought"
+  ],
+  [
+   [
+    -32.37751388549805
+   ],
+   [
+    -34.05207061767578
+   ],
+   [
+    -40.78097915649414
+   ],
+   [
+    -30.576488494873047
+   ],
+   [
+    -29.684444427490234
+   ],
+   [
+    -27.053913116455078
+   ],
+   [
+    -33.13789749145508
+   ],
+   [
+    -32.72809600830078
+   ],
+   [
+    -28.29663848876953
+   ],
+   [
+    -29.998321533203125
+   ],
+   [
+    -31.960243225097656
+   ],
+   [
+    -29.351837158203125
+   ],
+   [
+    -36.112823486328125
+   ],
+   [
+    -34.09128189086914
+   ],
+   [
+    -37.57682418823242
+   ],
+   [
+    -37.06263732910156
+   ],
+   [
+    -45.678688049316406
+   ],
+   [
+    -30.85831069946289
+   ],
+   [
+    -30.429218292236328
+   ],
+   [
+    -32.46453094482422
+   ],
+   [
+    -34.15899658203125
+   ],
+   [
+    -33.55087661743164
+   ],
+   [
+    -38.37505340576172
+   ],
+   [
+    -23.913394927978516
+   ],
+   [
+    -26.543956756591797
+   ],
+   [
+    -28.314231872558594
+   ],
+   [
+    -30.20749282836914
+   ],
+   [
+    -35.49900817871094
+   ],
+   [
+    -40.62177658081055
+   ],
+   [
+    -24.341087341308594
+   ],
+   [
+    -30.534988403320312
+   ],
+   [
+    -43.959930419921875
+   ],
+   [
+    -31.634624481201172
+   ],
+   [
+    -37.136383056640625
+   ],
+   [
+    -32.380252838134766
+   ],
+   [
+    -24.817481994628906
+   ],
+   [
+    -27.71512222290039
+   ],
+   [
+    -36.65065002441406
+   ],
+   [
+    -26.347572326660156
+   ],
+   [
+    -33.92325210571289
+   ],
+   [
+    -28.25735855102539
+   ],
+   [
+    -35.299034118652344
+   ],
+   [
+    -30.130504608154297
+   ],
+   [
+    -23.481670379638672
+   ],
+   [
+    -38.58893966674805
+   ],
+   [
+    -26.7974853515625
+   ],
+   [
+    -33.483436584472656
+   ],
+   [
+    -27.33022689819336
+   ],
+   [
+    -35.59457778930664
+   ],
+   [
+    -28.417049407958984
+   ],
+   [
+    -28.267139434814453
+   ],
+   [
+    -43.90178680419922
+   ],
+   [
+    -34.32787322998047
+   ],
+   [
+    -29.173507690429688
+   ],
+   [
+    -38.917564392089844
+   ],
+   [
+    -31.631607055664062
+   ],
+   [
+    -28.174808502197266
+   ],
+   [
+    -36.7584228515625
+   ],
+   [
+    -37.97877502441406
+   ],
+   [
+    -25.706222534179688
+   ],
+   [
+    -29.027740478515625
+   ],
+   [
+    -27.024524688720703
+   ],
+   [
+    -29.989242553710938
+   ],
+   [
+    -38.822784423828125
+   ],
+   [
+    -28.064594268798828
+   ],
+   [
+    -35.840240478515625
+   ],
+   [
+    -40.801666259765625
+   ],
+   [
+    -28.62735366821289
+   ],
+   [
+    -38.17765808105469
+   ],
+   [
+    -29.710342407226562
+   ],
+   [
+    -28.839157104492188
+   ],
+   [
+    -35.3763427734375
+   ],
+   [
+    -24.932373046875
+   ],
+   [
+    -23.622909545898438
+   ],
+   [
+    -38.63505935668945
+   ],
+   [
+    -29.568817138671875
+   ],
+   [
+    -34.396148681640625
+   ],
+   [
+    -30.54230499267578
+   ],
+   [
+    -39.64753723144531
+   ],
+   [
+    -26.01669692993164
+   ],
+   [
+    -29.455432891845703
+   ],
+   [
+    -35.1806640625
+   ],
+   [
+    -28.261390686035156
+   ],
+   [
+    -25.66229248046875
+   ],
+   [
+    -27.306316375732422
+   ],
+   [
+    -30.589611053466797
+   ],
+   [
+    -32.65351486206055
+   ],
+   [
+    -37.333351135253906
+   ],
+   [
+    -25.922649383544922
+   ],
+   [
+    -32.47115707397461
+   ],
+   [
+    -28.15166473388672
+   ],
+   [
+    -37.00918197631836
+   ],
+   [
+    -35.672576904296875
+   ],
+   [
+    -36.70801544189453
+   ],
+   [
+    -26.305953979492188
+   ],
+   [
+    -27.753662109375
+   ],
+   [
+    -27.141132354736328
+   ],
+   [
+    -42.26141357421875
+   ],
+   [
+    -36.558956146240234
+   ],
+   [
+    -33.619972229003906
+   ],
+   [
+    -26.210002899169922
+   ],
+   [
+    -30.03127670288086
+   ],
+   [
+    -32.710453033447266
+   ],
+   [
+    -29.879833221435547
+   ],
+   [
+    -25.79987335205078
+   ],
+   [
+    -28.924442291259766
+   ],
+   [
+    -34.114803314208984
+   ],
+   [
+    -26.711883544921875
+   ],
+   [
+    -36.113548278808594
+   ],
+   [
+    -31.574798583984375
+   ],
+   [
+    -34.81715774536133
+   ],
+   [
+    -43.62175369262695
+   ],
+   [
+    -28.259174346923828
+   ],
+   [
+    -32.911895751953125
+   ],
+   [
+    -27.75497817993164
+   ],
+   [
+    -29.201366424560547
+   ],
+   [
+    -37.041316986083984
+   ],
+   [
+    -38.3154296875
+   ],
+   [
+    -35.60824966430664
+   ],
+   [
+    -26.284984588623047
+   ],
+   [
+    -27.312854766845703
+   ],
+   [
+    -22.069499969482422
+   ],
+   [
+    -29.65291976928711
+   ],
+   [
+    -39.14811325073242
+   ],
+   [
+    -42.59228515625
+   ],
+   [
+    -32.55477523803711
+   ],
+   [
+    -31.5207462310791
+   ],
+   [
+    -25.658924102783203
+   ],
+   [
+    -33.042015075683594
+   ],
+   [
+    -26.870040893554688
+   ],
+   [
+    -26.956321716308594
+   ],
+   [
+    -27.33022689819336
+   ],
+   [
+    -31.045364379882812
+   ],
+   [
+    -33.59710693359375
+   ],
+   [
+    -28.541744232177734
+   ],
+   [
+    -24.00102996826172
+   ],
+   [
+    -30.782222747802734
+   ],
+   [
+    -20.75149917602539
+   ],
+   [
+    -30.54467010498047
+   ],
+   [
+    -30.756912231445312
+   ],
+   [
+    -34.21050262451172
+   ],
+   [
+    -28.000350952148438
+   ],
+   [
+    -30.457382202148438
+   ],
+   [
+    -33.694908142089844
+   ],
+   [
+    -34.720130920410156
+   ],
+   [
+    -38.82198715209961
+   ],
+   [
+    -31.041370391845703
+   ],
+   [
+    -31.288646697998047
+   ],
+   [
+    -31.3056640625
+   ],
+   [
+    -35.33551025390625
+   ],
+   [
+    -25.701553344726562
+   ],
+   [
+    -45.20275115966797
+   ],
+   [
+    -27.81619644165039
+   ],
+   [
+    -38.06405258178711
+   ],
+   [
+    -41.06000900268555
+   ],
+   [
+    -47.93326950073242
+   ],
+   [
+    -38.61133575439453
+   ],
+   [
+    -39.53727722167969
+   ],
+   [
+    -35.0386962890625
+   ],
+   [
+    -26.905147552490234
+   ],
+   [
+    -39.967254638671875
+   ],
+   [
+    -32.51079177856445
+   ],
+   [
+    -40.91804122924805
+   ],
+   [
+    -34.925052642822266
+   ],
+   [
+    -38.55528259277344
+   ],
+   [
+    -20.091224670410156
+   ],
+   [
+    -28.47338104248047
+   ],
+   [
+    -29.641361236572266
+   ],
+   [
+    -30.361133575439453
+   ],
+   [
+    -34.67522048950195
+   ],
+   [
+    -33.72798538208008
+   ],
+   [
+    -36.23374557495117
+   ],
+   [
+    -30.75664520263672
+   ],
+   [
+    -31.234210968017578
+   ],
+   [
+    -29.037673950195312
+   ],
+   [
+    -25.078529357910156
+   ],
+   [
+    -22.511520385742188
+   ],
+   [
+    -42.895713806152344
+   ],
+   [
+    -30.507808685302734
+   ],
+   [
+    -34.052391052246094
+   ],
+   [
+    -31.893089294433594
+   ],
+   [
+    -29.26587677001953
+   ],
+   [
+    -34.13329315185547
+   ],
+   [
+    -39.86906814575195
+   ],
+   [
+    -36.23919677734375
+   ],
+   [
+    -36.708229064941406
+   ],
+   [
+    -38.94373321533203
+   ],
+   [
+    -30.829971313476562
+   ],
+   [
+    -31.61982536315918
+   ],
+   [
+    -27.807048797607422
+   ],
+   [
+    -35.77659606933594
+   ],
+   [
+    -34.06005859375
+   ],
+   [
+    -29.054759979248047
+   ],
+   [
+    -36.31946563720703
+   ],
+   [
+    -33.6652946472168
+   ],
+   [
+    -36.2272834777832
+   ],
+   [
+    -33.21563720703125
+   ],
+   [
+    -33.561683654785156
+   ],
+   [
+    -31.014331817626953
+   ],
+   [
+    -36.6253547668457
+   ],
+   [
+    -26.548770904541016
+   ],
+   [
+    -36.0185432434082
+   ],
+   [
+    -37.44541549682617
+   ],
+   [
+    -43.092098236083984
+   ],
+   [
+    -37.76286697387695
+   ],
+   [
+    -35.53493881225586
+   ],
+   [
+    -37.97190856933594
+   ],
+   [
+    -35.79668426513672
+   ],
+   [
+    -26.401695251464844
+   ],
+   [
+    -34.89160919189453
+   ],
+   [
+    -30.230937957763672
+   ],
+   [
+    -31.015625
+   ],
+   [
+    -35.65373992919922
+   ],
+   [
+    -29.437362670898438
+   ],
+   [
+    -36.63749313354492
+   ],
+   [
+    -37.137332916259766
+   ],
+   [
+    -40.977928161621094
+   ],
+   [
+    -33.05305099487305
+   ],
+   [
+    -30.670421600341797
+   ],
+   [
+    -40.53242492675781
+   ],
+   [
+    -41.851417541503906
+   ],
+   [
+    -43.7791633605957
+   ],
+   [
+    -52.58369827270508
+   ],
+   [
+    -43.593292236328125
+   ],
+   [
+    -42.67852783203125
+   ],
+   [
+    -42.644317626953125
+   ],
+   [
+    -43.48020935058594
+   ],
+   [
+    -46.31687927246094
+   ],
+   [
+    -41.37946319580078
+   ],
+   [
+    -41.08204650878906
+   ],
+   [
+    -43.95942687988281
+   ],
+   [
+    -40.01946258544922
+   ],
+   [
+    -46.00056457519531
+   ],
+   [
+    -42.40583801269531
+   ],
+   [
+    -46.04526138305664
+   ],
+   [
+    -49.155906677246094
+   ],
+   [
+    -56.91462707519531
+   ],
+   [
+    -43.16193389892578
+   ],
+   [
+    -40.3580436706543
+   ],
+   [
+    -43.65228271484375
+   ],
+   [
+    -45.26505661010742
+   ],
+   [
+    -44.76124572753906
+   ],
+   [
+    -49.28445816040039
+   ],
+   [
+    -43.65849304199219
+   ],
+   [
+    -42.374488830566406
+   ],
+   [
+    -40.57025146484375
+   ],
+   [
+    -44.11693572998047
+   ],
+   [
+    -46.342735290527344
+   ],
+   [
+    -46.91720199584961
+   ],
+   [
+    -37.42610168457031
+   ],
+   [
+    -44.53449249267578
+   ],
+   [
+    -55.768951416015625
+   ],
+   [
+    -43.539306640625
+   ],
+   [
+    -46.1466178894043
+   ],
+   [
+    -43.25859832763672
+   ],
+   [
+    -40.64722442626953
+   ],
+   [
+    -40.23103332519531
+   ],
+   [
+    -44.667724609375
+   ],
+   [
+    -41.959800720214844
+   ],
+   [
+    -45.29081726074219
+   ],
+   [
+    -41.72167205810547
+   ],
+   [
+    -44.10327911376953
+   ],
+   [
+    -42.40824890136719
+   ],
+   [
+    -35.41850662231445
+   ],
+   [
+    -47.422523498535156
+   ],
+   [
+    -41.17713165283203
+   ],
+   [
+    -46.90318298339844
+   ],
+   [
+    -42.838279724121094
+   ],
+   [
+    -47.401756286621094
+   ],
+   [
+    -39.498985290527344
+   ],
+   [
+    -39.13908386230469
+   ],
+   [
+    -56.88166427612305
+   ],
+   [
+    -47.90013122558594
+   ],
+   [
+    -42.049720764160156
+   ],
+   [
+    -48.33055114746094
+   ],
+   [
+    -42.305213928222656
+   ],
+   [
+    -42.33623504638672
+   ],
+   [
+    -49.75112533569336
+   ],
+   [
+    -47.441184997558594
+   ],
+   [
+    -39.161865234375
+   ],
+   [
+    -41.43050003051758
+   ],
+   [
+    -46.42045593261719
+   ],
+   [
+    -42.009765625
+   ],
+   [
+    -47.16440963745117
+   ],
+   [
+    -41.8487548828125
+   ],
+   [
+    -43.197608947753906
+   ],
+   [
+    -52.09438705444336
+   ],
+   [
+    -46.560035705566406
+   ],
+   [
+    -47.11094284057617
+   ],
+   [
+    -42.32413864135742
+   ],
+   [
+    -41.15294647216797
+   ],
+   [
+    -45.24082946777344
+   ],
+   [
+    -38.176612854003906
+   ],
+   [
+    -39.978477478027344
+   ],
+   [
+    -51.11672592163086
+   ],
+   [
+    -43.83824157714844
+   ],
+   [
+    -43.12422180175781
+   ],
+   [
+    -40.100013732910156
+   ],
+   [
+    -47.94764709472656
+   ],
+   [
+    -38.082176208496094
+   ],
+   [
+    -38.34083557128906
+   ],
+   [
+    -49.318603515625
+   ],
+   [
+    -43.765018463134766
+   ],
+   [
+    -41.58879852294922
+   ],
+   [
+    -42.26898956298828
+   ],
+   [
+    -42.66497802734375
+   ],
+   [
+    -44.235958099365234
+   ],
+   [
+    -48.22939682006836
+   ],
+   [
+    -36.43229675292969
+   ],
+   [
+    -43.76396179199219
+   ],
+   [
+    -40.830902099609375
+   ],
+   [
+    -47.14142608642578
+   ],
+   [
+    -46.27696990966797
+   ],
+   [
+    -46.627830505371094
+   ],
+   [
+    -45.84104919433594
+   ],
+   [
+    -44.490325927734375
+   ],
+   [
+    -42.17450714111328
+   ],
+   [
+    -51.51542663574219
+   ],
+   [
+    -47.556514739990234
+   ],
+   [
+    -45.96049499511719
+   ],
+   [
+    -37.64973831176758
+   ],
+   [
+    -40.203102111816406
+   ],
+   [
+    -45.16370391845703
+   ],
+   [
+    -42.17695617675781
+   ],
+   [
+    -39.20671844482422
+   ],
+   [
+    -41.110748291015625
+   ],
+   [
+    -44.65241622924805
+   ],
+   [
+    -37.87291717529297
+   ],
+   [
+    -48.83269500732422
+   ],
+   [
+    -42.27046203613281
+   ],
+   [
+    -44.8587532043457
+   ],
+   [
+    -57.35531997680664
+   ],
+   [
+    -39.34635925292969
+   ],
+   [
+    -43.67881774902344
+   ],
+   [
+    -38.92847442626953
+   ],
+   [
+    -39.766868591308594
+   ],
+   [
+    -47.035709381103516
+   ],
+   [
+    -50.86935043334961
+   ],
+   [
+    -44.55669403076172
+   ],
+   [
+    -39.102134704589844
+   ],
+   [
+    -39.953651428222656
+   ],
+   [
+    -33.878807067871094
+   ],
+   [
+    -40.37705612182617
+   ],
+   [
+    -48.971961975097656
+   ],
+   [
+    -53.03631591796875
+   ],
+   [
+    -44.32130432128906
+   ],
+   [
+    -41.55935287475586
+   ],
+   [
+    -36.52545928955078
+   ],
+   [
+    -42.709686279296875
+   ],
+   [
+    -38.496490478515625
+   ],
+   [
+    -39.69469451904297
+   ],
+   [
+    -42.90209197998047
+   ],
+   [
+    -41.91347885131836
+   ],
+   [
+    -42.30713653564453
+   ],
+   [
+    -37.82571029663086
+   ],
+   [
+    -36.44439697265625
+   ],
+   [
+    -41.56834411621094
+   ],
+   [
+    -35.73893737792969
+   ],
+   [
+    -39.63629913330078
+   ],
+   [
+    -40.708099365234375
+   ],
+   [
+    -46.94866943359375
+   ],
+   [
+    -39.06322479248047
+   ],
+   [
+    -42.955467224121094
+   ],
+   [
+    -45.500282287597656
+   ],
+   [
+    -48.92024230957031
+   ],
+   [
+    -48.427040100097656
+   ],
+   [
+    -42.57539367675781
+   ],
+   [
+    -40.78252410888672
+   ],
+   [
+    -43.48896789550781
+   ],
+   [
+    -44.39982986450195
+   ],
+   [
+    -38.809791564941406
+   ],
+   [
+    -61.15946578979492
+   ],
+   [
+    -41.21226501464844
+   ],
+   [
+    -46.47811508178711
+   ],
+   [
+    -49.19010925292969
+   ],
+   [
+    -56.679664611816406
+   ],
+   [
+    -46.94150161743164
+   ],
+   [
+    -47.629844665527344
+   ],
+   [
+    -45.65845489501953
+   ],
+   [
+    -40.72346496582031
+   ],
+   [
+    -48.50597381591797
+   ],
+   [
+    -40.68523406982422
+   ],
+   [
+    -51.84959411621094
+   ],
+   [
+    -49.4687385559082
+   ],
+   [
+    -49.22621154785156
+   ],
+   [
+    -32.79597091674805
+   ],
+   [
+    -38.582977294921875
+   ],
+   [
+    -44.70246887207031
+   ],
+   [
+    -40.46751403808594
+   ],
+   [
+    -46.41651153564453
+   ],
+   [
+    -45.59306335449219
+   ],
+   [
+    -50.79585266113281
+   ],
+   [
+    -42.886051177978516
+   ],
+   [
+    -43.163368225097656
+   ],
+   [
+    -42.18397521972656
+   ],
+   [
+    -37.11373519897461
+   ],
+   [
+    -43.463104248046875
+   ],
+   [
+    -48.14155578613281
+   ],
+   [
+    -41.582244873046875
+   ],
+   [
+    -46.680381774902344
+   ],
+   [
+    -42.139312744140625
+   ],
+   [
+    -39.24654006958008
+   ],
+   [
+    -44.62336730957031
+   ],
+   [
+    -47.69562530517578
+   ],
+   [
+    -46.23627471923828
+   ],
+   [
+    -45.6207275390625
+   ],
+   [
+    -46.426605224609375
+   ],
+   [
+    -43.503501892089844
+   ],
+   [
+    -43.46739959716797
+   ],
+   [
+    -41.073768615722656
+   ],
+   [
+    -46.99913787841797
+   ],
+   [
+    -43.06671905517578
+   ],
+   [
+    -41.07501220703125
+   ],
+   [
+    -47.38500213623047
+   ],
+   [
+    -43.53607177734375
+   ],
+   [
+    -54.68124771118164
+   ],
+   [
+    -43.397945404052734
+   ],
+   [
+    -46.18896484375
+   ],
+   [
+    -42.10231018066406
+   ],
+   [
+    -44.710350036621094
+   ],
+   [
+    -38.174522399902344
+   ],
+   [
+    -45.8529052734375
+   ],
+   [
+    -44.158077239990234
+   ],
+   [
+    -52.71675109863281
+   ],
+   [
+    -49.112159729003906
+   ],
+   [
+    -46.50459289550781
+   ],
+   [
+    -49.875396728515625
+   ],
+   [
+    -46.742347717285156
+   ],
+   [
+    -38.930503845214844
+   ],
+   [
+    -46.369895935058594
+   ],
+   [
+    -41.680877685546875
+   ],
+   [
+    -44.587684631347656
+   ],
+   [
+    -45.58445739746094
+   ],
+   [
+    -40.22062683105469
+   ],
+   [
+    -47.408287048339844
+   ],
+   [
+    -47.48072052001953
+   ],
+   [
+    -45.66600799560547
+   ],
+   [
+    -42.847328186035156
+   ],
+   [
+    -41.404319763183594
+   ],
+   [
+    -50.23780059814453
+   ]
+  ]
+ ],
+ "time": 6854.290976762772
+}

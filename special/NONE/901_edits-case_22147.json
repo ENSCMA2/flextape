@@ -1,0 +1,2076 @@
+{
+ "case_id": 22147,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Charles Bell"
+ },
+ "pre": [
+  [
+   "Charles Bell's field of work is meteorology",
+   "Charles Bell's field of work is radioactivity",
+   "Charles Bell's field of work is complex function",
+   "Charles Bell's field of work is histology",
+   "Charles Bell's field of work is algebra",
+   "Charles Bell's field of work is electron",
+   "Charles Bell's field of work is quantum theory",
+   "Charles Bell's field of work is applied mathematics",
+   "Charles Bell's field of work is electricity",
+   "Charles Bell's field of work is human geography",
+   "Charles Bell's field of work is crystallography",
+   "Charles Bell's field of work is chemistry",
+   "Charles Bell's field of work is Jewish studies",
+   "Charles Bell's field of work is topology",
+   "Charles Bell's field of work is mathematical analysis",
+   "Charles Bell's field of work is computational geometry",
+   "Charles Bell's field of work is Petrine ministry",
+   "Charles Bell's field of work is social psychology",
+   "Charles Bell's field of work is genetics",
+   "Charles Bell's field of work is informatics",
+   "Charles Bell's field of work is shipbuilding",
+   "Charles Bell's field of work is historical sociology",
+   "Charles Bell's field of work is quantum mysticism",
+   "Charles Bell's field of work is philosopher",
+   "Charles Bell's field of work is Internet",
+   "Charles Bell's field of work is gravity",
+   "Charles Bell's field of work is theoretical physics",
+   "Charles Bell's field of work is African studies",
+   "Charles Bell's field of work is projective geometry",
+   "Charles Bell's field of work is prose",
+   "Charles Bell's field of work is momentum",
+   "Charles Bell's field of work is Cairo Geniza",
+   "Charles Bell's field of work is stochastic",
+   "Charles Bell's field of work is algebraic topology",
+   "Charles Bell's field of work is electrical engineering",
+   "Charles Bell's field of work is hunting",
+   "Charles Bell's field of work is evolution",
+   "Charles Bell's field of work is economic anthropology",
+   "Charles Bell's field of work is Hebrew",
+   "Charles Bell's field of work is differential geometry",
+   "Charles Bell's field of work is engineering",
+   "Charles Bell's field of work is history of science",
+   "Charles Bell's field of work is social anthropology",
+   "Charles Bell's field of work is history",
+   "Charles Bell's field of work is distribution theory",
+   "Charles Bell's field of work is classics",
+   "Charles Bell's field of work is crime novel",
+   "Charles Bell's field of work is statistics",
+   "Charles Bell's field of work is experimental physics",
+   "Charles Bell's field of work is geography",
+   "Charles Bell's field of work is anthropology",
+   "Charles Bell's field of work is partial differential equation",
+   "Charles Bell's field of work is applied physics",
+   "Charles Bell's field of work is Sanskrit",
+   "Charles Bell's field of work is a branch of physics",
+   "Charles Bell's field of work is comparative mythology",
+   "Charles Bell's field of work is radiation",
+   "Charles Bell's field of work is aeromechanics",
+   "Charles Bell's field of work is harmonic analysis",
+   "Charles Bell's field of work is religion",
+   "Charles Bell's field of work is civil rights",
+   "Charles Bell's field of work is physicist",
+   "Charles Bell's field of work is distribution",
+   "Charles Bell's field of work is translations from Spanish",
+   "Charles Bell's field of work is feminism",
+   "Charles Bell's field of work is number theory",
+   "Charles Bell's field of work is sociology of organisations",
+   "Charles Bell's field of work is astronomer",
+   "Charles Bell's field of work is children's and youth literature",
+   "Charles Bell's field of work is fairy tale",
+   "Charles Bell's field of work is economy",
+   "Charles Bell's field of work is graph theory",
+   "Charles Bell's field of work is magic",
+   "Charles Bell's field of work is essay",
+   "Charles Bell's field of work is theory of relativity",
+   "Charles Bell's field of work is historical novel",
+   "Charles Bell's field of work is biological anthropology",
+   "Charles Bell's field of work is literary theory",
+   "Charles Bell's field of work is Greek philology",
+   "Charles Bell's field of work is lyric poetry",
+   "Charles Bell's field of work is psychology",
+   "Charles Bell's field of work is quaternion",
+   "Charles Bell's field of work is rite",
+   "Charles Bell's field of work is jazz",
+   "Charles Bell's field of work is heat",
+   "Charles Bell's field of work is embryology",
+   "Charles Bell's field of work is social philosophy",
+   "Charles Bell's field of work is dance choreography",
+   "Charles Bell's field of work is politics",
+   "Charles Bell's field of work is nanotechnology",
+   "Charles Bell's field of work is Afghanistan",
+   "Charles Bell's field of work is non-Euclidean geometry",
+   "Charles Bell's field of work is Franciscan spirituality",
+   "Charles Bell's field of work is detective literature",
+   "Charles Bell's field of work is mathematician",
+   "Charles Bell's field of work is String",
+   "Charles Bell's field of work is classical music",
+   "Charles Bell's field of work is translations from Occitan",
+   "Charles Bell's field of work is abstract algebra",
+   "Charles Bell's field of work is differential calculus",
+   "Charles Bell's field of work is mythology",
+   "Charles Bell's field of work is literary translation",
+   "Charles Bell's field of work is ballistics",
+   "Charles Bell's field of work is cryptography",
+   "Charles Bell's field of work is Greek",
+   "Charles Bell's field of work is logic",
+   "Charles Bell's field of work is choreography",
+   "Charles Bell's field of work is theology",
+   "Charles Bell's field of work is world economy",
+   "Charles Bell's field of work is magnetism",
+   "Charles Bell's field of work is algebraic geometry",
+   "Charles Bell's field of work is theory of differential equations",
+   "Charles Bell's field of work is physics",
+   "Charles Bell's field of work is music theory",
+   "Charles Bell's field of work is economics",
+   "Charles Bell's field of work is anatomy",
+   "Charles Bell's field of work is electromagnetic field",
+   "Charles Bell's field of work is analytic number theory",
+   "Charles Bell's field of work is mathematical physics",
+   "Charles Bell's field of work is journalism",
+   "Charles Bell's field of work is sociology",
+   "Charles Bell's field of work is literature",
+   "Charles Bell's field of work is ethnography",
+   "Charles Bell's field of work is belletristic literature",
+   "Charles Bell's field of work is convex function",
+   "Charles Bell's field of work is sociology of religion",
+   "Charles Bell's field of work is pedagogy",
+   "Charles Bell's field of work is philosophy",
+   "Charles Bell's field of work is quantum mechanics",
+   "Charles Bell's field of work is drama",
+   "Charles Bell's field of work is dance",
+   "Charles Bell's field of work is Judaism",
+   "Charles Bell's field of work is quantum physics",
+   "Charles Bell's field of work is philosophy of science",
+   "Charles Bell's field of work is linguistics",
+   "Charles Bell's field of work is myth",
+   "Charles Bell's field of work is physiology",
+   "Charles Bell's field of work is English",
+   "Charles Bell's field of work is philology",
+   "Charles Bell's field of work is political philosophy",
+   "Charles Bell's field of work is mechanical engineering",
+   "Charles Bell's field of work is ontology",
+   "Charles Bell's field of work is forestry",
+   "Charles Bell's field of work is aerodynamics",
+   "Charles Bell's field of work is Christian Church",
+   "Charles Bell's field of work is magnetic resonance",
+   "Charles Bell's field of work is astrophysics",
+   "Charles Bell's field of work is natural science",
+   "Charles Bell's field of work is constitutional law",
+   "Charles Bell's field of work is philosophy of law",
+   "Charles Bell's field of work is education",
+   "Charles Bell's field of work is Monte Carlo method",
+   "Charles Bell's field of work is neurology",
+   "Charles Bell's field of work is electric field",
+   "Charles Bell's field of work is Minkowski spacetime",
+   "Charles Bell's field of work is translations from Arabic language",
+   "Charles Bell's field of work is Bayesian inference",
+   "Charles Bell's field of work is translations from Polish",
+   "Charles Bell's field of work is color photography",
+   "Charles Bell's field of work is opera",
+   "Charles Bell's field of work is model theory",
+   "Charles Bell's field of work is cartography",
+   "Charles Bell's field of work is nonstandard analysis",
+   "Charles Bell's field of work is television program",
+   "Charles Bell's field of work is complex manifold",
+   "Charles Bell's field of work is poetry",
+   "Charles Bell's field of work is mathematics",
+   "Charles Bell's field of work is computer science",
+   "Charles Bell's field of work is cosmology",
+   "Charles Bell's field of work is silviculture",
+   "Charles Bell's field of work is hydrodynamics",
+   "Charles Bell's field of work is forestry science",
+   "Charles Bell's field of work is comparative religion",
+   "Charles Bell's field of work is information technology",
+   "Charles Bell's field of work is ballet",
+   "Charles Bell's field of work is English literature",
+   "Charles Bell's field of work is conducting",
+   "Charles Bell's field of work is hyperbolic geometry",
+   "Charles Bell's field of work is biochemistry",
+   "Charles Bell's field of work is religion and society",
+   "Charles Bell's field of work is optics",
+   "Charles Bell's field of work is ethics",
+   "Charles Bell's field of work is cybernetics",
+   "Charles Bell's field of work is astronomical observation",
+   "Charles Bell's field of work is psychophysiology",
+   "Charles Bell's field of work is culturology",
+   "Charles Bell's field of work is history of religions",
+   "Charles Bell's field of work is probability theory",
+   "Charles Bell's field of work is paleontology",
+   "Charles Bell's field of work is surgery",
+   "Charles Bell's field of work is group theory",
+   "Charles Bell's field of work is natural theology",
+   "Charles Bell's field of work is astrology",
+   "Charles Bell's field of work is quantum electrodynamics",
+   "Charles Bell's field of work is mechanics",
+   "Charles Bell's field of work is Lie algebra",
+   "Charles Bell's field of work is trigonometry",
+   "Charles Bell's field of work is literary activity",
+   "Charles Bell's field of work is nuclear physics",
+   "Charles Bell's field of work is translations from English",
+   "Charles Bell's field of work is medicine",
+   "Charles Bell's field of work is Jewish philosophy",
+   "Charles Bell's field of work is mathematical logic",
+   "Charles Bell's field of work is calculus of variations",
+   "Charles Bell's field of work is ferromagnetism",
+   "Charles Bell's field of work is analytic geometry",
+   "Charles Bell's field of work is art of painting",
+   "Charles Bell's field of work is functional analysis",
+   "Charles Bell's field of work is folklore",
+   "Charles Bell's field of work is study of history",
+   "Charles Bell's field of work is geometry",
+   "Charles Bell's field of work is positivism",
+   "Charles Bell's field of work is geodesy",
+   "Charles Bell's field of work is astronomy",
+   "Charles Bell's field of work is magnetic field",
+   "Charles Bell's field of work is kinetic theory",
+   "Charles Bell's field of work is celestial mechanics",
+   "Charles Bell's field of work is analytic philosophy",
+   "Charles Bell's field of work is ethnology",
+   "Charles Bell's field of work is history of economic thought",
+   "Charles Bell is meteorology",
+   "Charles Bell is radioactivity",
+   "Charles Bell is complex function",
+   "Charles Bell is histology",
+   "Charles Bell is algebra",
+   "Charles Bell is electron",
+   "Charles Bell is quantum theory",
+   "Charles Bell is applied mathematics",
+   "Charles Bell is electricity",
+   "Charles Bell is human geography",
+   "Charles Bell is crystallography",
+   "Charles Bell is chemistry",
+   "Charles Bell is Jewish studies",
+   "Charles Bell is topology",
+   "Charles Bell is mathematical analysis",
+   "Charles Bell is computational geometry",
+   "Charles Bell is Petrine ministry",
+   "Charles Bell is social psychology",
+   "Charles Bell is genetics",
+   "Charles Bell is informatics",
+   "Charles Bell is shipbuilding",
+   "Charles Bell is historical sociology",
+   "Charles Bell is quantum mysticism",
+   "Charles Bell is philosopher",
+   "Charles Bell is Internet",
+   "Charles Bell is gravity",
+   "Charles Bell is theoretical physics",
+   "Charles Bell is African studies",
+   "Charles Bell is projective geometry",
+   "Charles Bell is prose",
+   "Charles Bell is momentum",
+   "Charles Bell is Cairo Geniza",
+   "Charles Bell is stochastic",
+   "Charles Bell is algebraic topology",
+   "Charles Bell is electrical engineering",
+   "Charles Bell is hunting",
+   "Charles Bell is evolution",
+   "Charles Bell is economic anthropology",
+   "Charles Bell is Hebrew",
+   "Charles Bell is differential geometry",
+   "Charles Bell is engineering",
+   "Charles Bell is history of science",
+   "Charles Bell is social anthropology",
+   "Charles Bell is history",
+   "Charles Bell is distribution theory",
+   "Charles Bell is classics",
+   "Charles Bell is crime novel",
+   "Charles Bell is statistics",
+   "Charles Bell is experimental physics",
+   "Charles Bell is geography",
+   "Charles Bell is anthropology",
+   "Charles Bell is partial differential equation",
+   "Charles Bell is applied physics",
+   "Charles Bell is Sanskrit",
+   "Charles Bell is a branch of physics",
+   "Charles Bell is comparative mythology",
+   "Charles Bell is radiation",
+   "Charles Bell is aeromechanics",
+   "Charles Bell is harmonic analysis",
+   "Charles Bell is religion",
+   "Charles Bell is civil rights",
+   "Charles Bell is physicist",
+   "Charles Bell is distribution",
+   "Charles Bell is translations from Spanish",
+   "Charles Bell is feminism",
+   "Charles Bell is number theory",
+   "Charles Bell is sociology of organisations",
+   "Charles Bell is astronomer",
+   "Charles Bell is children's and youth literature",
+   "Charles Bell is fairy tale",
+   "Charles Bell is economy",
+   "Charles Bell is graph theory",
+   "Charles Bell is magic",
+   "Charles Bell is essay",
+   "Charles Bell is theory of relativity",
+   "Charles Bell is historical novel",
+   "Charles Bell is biological anthropology",
+   "Charles Bell is literary theory",
+   "Charles Bell is Greek philology",
+   "Charles Bell is lyric poetry",
+   "Charles Bell is psychology",
+   "Charles Bell is quaternion",
+   "Charles Bell is rite",
+   "Charles Bell is jazz",
+   "Charles Bell is heat",
+   "Charles Bell is embryology",
+   "Charles Bell is social philosophy",
+   "Charles Bell is dance choreography",
+   "Charles Bell is politics",
+   "Charles Bell is nanotechnology",
+   "Charles Bell is Afghanistan",
+   "Charles Bell is non-Euclidean geometry",
+   "Charles Bell is Franciscan spirituality",
+   "Charles Bell is detective literature",
+   "Charles Bell is mathematician",
+   "Charles Bell is String",
+   "Charles Bell is classical music",
+   "Charles Bell is translations from Occitan",
+   "Charles Bell is abstract algebra",
+   "Charles Bell is differential calculus",
+   "Charles Bell is mythology",
+   "Charles Bell is literary translation",
+   "Charles Bell is ballistics",
+   "Charles Bell is cryptography",
+   "Charles Bell is Greek",
+   "Charles Bell is logic",
+   "Charles Bell is choreography",
+   "Charles Bell is theology",
+   "Charles Bell is world economy",
+   "Charles Bell is magnetism",
+   "Charles Bell is algebraic geometry",
+   "Charles Bell is theory of differential equations",
+   "Charles Bell is physics",
+   "Charles Bell is music theory",
+   "Charles Bell is economics",
+   "Charles Bell is anatomy",
+   "Charles Bell is electromagnetic field",
+   "Charles Bell is analytic number theory",
+   "Charles Bell is mathematical physics",
+   "Charles Bell is journalism",
+   "Charles Bell is sociology",
+   "Charles Bell is literature",
+   "Charles Bell is ethnography",
+   "Charles Bell is belletristic literature",
+   "Charles Bell is convex function",
+   "Charles Bell is sociology of religion",
+   "Charles Bell is pedagogy",
+   "Charles Bell is philosophy",
+   "Charles Bell is quantum mechanics",
+   "Charles Bell is drama",
+   "Charles Bell is dance",
+   "Charles Bell is Judaism",
+   "Charles Bell is quantum physics",
+   "Charles Bell is philosophy of science",
+   "Charles Bell is linguistics",
+   "Charles Bell is myth",
+   "Charles Bell is physiology",
+   "Charles Bell is English",
+   "Charles Bell is philology",
+   "Charles Bell is political philosophy",
+   "Charles Bell is mechanical engineering",
+   "Charles Bell is ontology",
+   "Charles Bell is forestry",
+   "Charles Bell is aerodynamics",
+   "Charles Bell is Christian Church",
+   "Charles Bell is magnetic resonance",
+   "Charles Bell is astrophysics",
+   "Charles Bell is natural science",
+   "Charles Bell is constitutional law",
+   "Charles Bell is philosophy of law",
+   "Charles Bell is education",
+   "Charles Bell is Monte Carlo method",
+   "Charles Bell is neurology",
+   "Charles Bell is electric field",
+   "Charles Bell is Minkowski spacetime",
+   "Charles Bell is translations from Arabic language",
+   "Charles Bell is Bayesian inference",
+   "Charles Bell is translations from Polish",
+   "Charles Bell is color photography",
+   "Charles Bell is opera",
+   "Charles Bell is model theory",
+   "Charles Bell is cartography",
+   "Charles Bell is nonstandard analysis",
+   "Charles Bell is television program",
+   "Charles Bell is complex manifold",
+   "Charles Bell is poetry",
+   "Charles Bell is mathematics",
+   "Charles Bell is computer science",
+   "Charles Bell is cosmology",
+   "Charles Bell is silviculture",
+   "Charles Bell is hydrodynamics",
+   "Charles Bell is forestry science",
+   "Charles Bell is comparative religion",
+   "Charles Bell is information technology",
+   "Charles Bell is ballet",
+   "Charles Bell is English literature",
+   "Charles Bell is conducting",
+   "Charles Bell is hyperbolic geometry",
+   "Charles Bell is biochemistry",
+   "Charles Bell is religion and society",
+   "Charles Bell is optics",
+   "Charles Bell is ethics",
+   "Charles Bell is cybernetics",
+   "Charles Bell is astronomical observation",
+   "Charles Bell is psychophysiology",
+   "Charles Bell is culturology",
+   "Charles Bell is history of religions",
+   "Charles Bell is probability theory",
+   "Charles Bell is paleontology",
+   "Charles Bell is surgery",
+   "Charles Bell is group theory",
+   "Charles Bell is natural theology",
+   "Charles Bell is astrology",
+   "Charles Bell is quantum electrodynamics",
+   "Charles Bell is mechanics",
+   "Charles Bell is Lie algebra",
+   "Charles Bell is trigonometry",
+   "Charles Bell is literary activity",
+   "Charles Bell is nuclear physics",
+   "Charles Bell is translations from English",
+   "Charles Bell is medicine",
+   "Charles Bell is Jewish philosophy",
+   "Charles Bell is mathematical logic",
+   "Charles Bell is calculus of variations",
+   "Charles Bell is ferromagnetism",
+   "Charles Bell is analytic geometry",
+   "Charles Bell is art of painting",
+   "Charles Bell is functional analysis",
+   "Charles Bell is folklore",
+   "Charles Bell is study of history",
+   "Charles Bell is geometry",
+   "Charles Bell is positivism",
+   "Charles Bell is geodesy",
+   "Charles Bell is astronomy",
+   "Charles Bell is magnetic field",
+   "Charles Bell is kinetic theory",
+   "Charles Bell is celestial mechanics",
+   "Charles Bell is analytic philosophy",
+   "Charles Bell is ethnology",
+   "Charles Bell is history of economic thought"
+  ],
+  [
+   [
+    -37.937835693359375
+   ],
+   [
+    -39.841270446777344
+   ],
+   [
+    -46.81149673461914
+   ],
+   [
+    -39.33905792236328
+   ],
+   [
+    -38.26175308227539
+   ],
+   [
+    -38.645477294921875
+   ],
+   [
+    -39.075767517089844
+   ],
+   [
+    -37.624595642089844
+   ],
+   [
+    -37.67475128173828
+   ],
+   [
+    -38.58184814453125
+   ],
+   [
+    -38.956722259521484
+   ],
+   [
+    -36.059043884277344
+   ],
+   [
+    -41.44679260253906
+   ],
+   [
+    -38.19165802001953
+   ],
+   [
+    -40.17731475830078
+   ],
+   [
+    -40.985443115234375
+   ],
+   [
+    -53.69451904296875
+   ],
+   [
+    -35.904544830322266
+   ],
+   [
+    -36.263916015625
+   ],
+   [
+    -37.81555938720703
+   ],
+   [
+    -41.03435516357422
+   ],
+   [
+    -39.71315002441406
+   ],
+   [
+    -45.82402801513672
+   ],
+   [
+    -39.38023376464844
+   ],
+   [
+    -36.3089599609375
+   ],
+   [
+    -38.31334686279297
+   ],
+   [
+    -37.09649658203125
+   ],
+   [
+    -39.641700744628906
+   ],
+   [
+    -42.8670654296875
+   ],
+   [
+    -38.76702880859375
+   ],
+   [
+    -41.72227478027344
+   ],
+   [
+    -50.37765121459961
+   ],
+   [
+    -38.708038330078125
+   ],
+   [
+    -40.08015823364258
+   ],
+   [
+    -37.108985900878906
+   ],
+   [
+    -37.90098571777344
+   ],
+   [
+    -36.88524627685547
+   ],
+   [
+    -39.12799835205078
+   ],
+   [
+    -40.359703063964844
+   ],
+   [
+    -40.47108459472656
+   ],
+   [
+    -35.916908264160156
+   ],
+   [
+    -38.81520462036133
+   ],
+   [
+    -37.50611877441406
+   ],
+   [
+    -33.82438659667969
+   ],
+   [
+    -41.90118408203125
+   ],
+   [
+    -37.74529266357422
+   ],
+   [
+    -45.0538330078125
+   ],
+   [
+    -37.488258361816406
+   ],
+   [
+    -38.728843688964844
+   ],
+   [
+    -36.59973907470703
+   ],
+   [
+    -35.109928131103516
+   ],
+   [
+    -46.93451690673828
+   ],
+   [
+    -39.68383026123047
+   ],
+   [
+    -39.017555236816406
+   ],
+   [
+    -42.77241897583008
+   ],
+   [
+    -39.02079772949219
+   ],
+   [
+    -38.035560607910156
+   ],
+   [
+    -43.235721588134766
+   ],
+   [
+    -42.53106689453125
+   ],
+   [
+    -35.73517990112305
+   ],
+   [
+    -37.662391662597656
+   ],
+   [
+    -42.17926788330078
+   ],
+   [
+    -38.20344543457031
+   ],
+   [
+    -45.57841491699219
+   ],
+   [
+    -36.72706604003906
+   ],
+   [
+    -38.00171661376953
+   ],
+   [
+    -44.5964241027832
+   ],
+   [
+    -42.14277648925781
+   ],
+   [
+    -42.816314697265625
+   ],
+   [
+    -40.97471237182617
+   ],
+   [
+    -38.56317138671875
+   ],
+   [
+    -37.31830596923828
+   ],
+   [
+    -36.284934997558594
+   ],
+   [
+    -38.208065032958984
+   ],
+   [
+    -44.37740707397461
+   ],
+   [
+    -41.14472198486328
+   ],
+   [
+    -37.68976593017578
+   ],
+   [
+    -37.27178192138672
+   ],
+   [
+    -43.508819580078125
+   ],
+   [
+    -40.451072692871094
+   ],
+   [
+    -34.422760009765625
+   ],
+   [
+    -42.926544189453125
+   ],
+   [
+    -42.563697814941406
+   ],
+   [
+    -37.156707763671875
+   ],
+   [
+    -38.762718200683594
+   ],
+   [
+    -38.647239685058594
+   ],
+   [
+    -38.58607482910156
+   ],
+   [
+    -43.48886489868164
+   ],
+   [
+    -35.14800262451172
+   ],
+   [
+    -38.33257293701172
+   ],
+   [
+    -39.076114654541016
+   ],
+   [
+    -42.59111785888672
+   ],
+   [
+    -45.42897033691406
+   ],
+   [
+    -43.58910369873047
+   ],
+   [
+    -41.955177307128906
+   ],
+   [
+    -40.4580078125
+   ],
+   [
+    -37.35285949707031
+   ],
+   [
+    -50.668296813964844
+   ],
+   [
+    -40.324920654296875
+   ],
+   [
+    -42.630287170410156
+   ],
+   [
+    -37.07066345214844
+   ],
+   [
+    -39.58356475830078
+   ],
+   [
+    -39.95398712158203
+   ],
+   [
+    -36.76581954956055
+   ],
+   [
+    -37.2821044921875
+   ],
+   [
+    -37.68925476074219
+   ],
+   [
+    -39.263633728027344
+   ],
+   [
+    -36.210235595703125
+   ],
+   [
+    -43.77569580078125
+   ],
+   [
+    -39.19047546386719
+   ],
+   [
+    -39.40610122680664
+   ],
+   [
+    -48.835350036621094
+   ],
+   [
+    -34.87366485595703
+   ],
+   [
+    -37.990501403808594
+   ],
+   [
+    -34.748016357421875
+   ],
+   [
+    -37.017494201660156
+   ],
+   [
+    -41.850948333740234
+   ],
+   [
+    -44.791282653808594
+   ],
+   [
+    -38.59998321533203
+   ],
+   [
+    -36.01904296875
+   ],
+   [
+    -35.298583984375
+   ],
+   [
+    -34.586341857910156
+   ],
+   [
+    -36.583641052246094
+   ],
+   [
+    -46.252532958984375
+   ],
+   [
+    -44.64643096923828
+   ],
+   [
+    -38.900390625
+   ],
+   [
+    -37.310646057128906
+   ],
+   [
+    -33.45849609375
+   ],
+   [
+    -37.404998779296875
+   ],
+   [
+    -37.01417541503906
+   ],
+   [
+    -36.03096008300781
+   ],
+   [
+    -40.22324752807617
+   ],
+   [
+    -37.46520233154297
+   ],
+   [
+    -36.70716857910156
+   ],
+   [
+    -35.800010681152344
+   ],
+   [
+    -37.25323486328125
+   ],
+   [
+    -37.28631591796875
+   ],
+   [
+    -34.722328186035156
+   ],
+   [
+    -37.837440490722656
+   ],
+   [
+    -35.8061637878418
+   ],
+   [
+    -38.36268615722656
+   ],
+   [
+    -36.940940856933594
+   ],
+   [
+    -37.923301696777344
+   ],
+   [
+    -40.3067626953125
+   ],
+   [
+    -44.19886016845703
+   ],
+   [
+    -39.45210266113281
+   ],
+   [
+    -36.93849563598633
+   ],
+   [
+    -37.8486328125
+   ],
+   [
+    -37.968048095703125
+   ],
+   [
+    -37.97257614135742
+   ],
+   [
+    -34.59770584106445
+   ],
+   [
+    -53.17597961425781
+   ],
+   [
+    -36.0194206237793
+   ],
+   [
+    -42.61756134033203
+   ],
+   [
+    -44.1837043762207
+   ],
+   [
+    -51.98401641845703
+   ],
+   [
+    -40.15242004394531
+   ],
+   [
+    -47.903709411621094
+   ],
+   [
+    -39.277587890625
+   ],
+   [
+    -37.45719909667969
+   ],
+   [
+    -43.29291915893555
+   ],
+   [
+    -36.34993362426758
+   ],
+   [
+    -46.0974235534668
+   ],
+   [
+    -44.15904235839844
+   ],
+   [
+    -46.49827575683594
+   ],
+   [
+    -35.08765411376953
+   ],
+   [
+    -34.64311981201172
+   ],
+   [
+    -37.77598571777344
+   ],
+   [
+    -36.44732666015625
+   ],
+   [
+    -41.76244354248047
+   ],
+   [
+    -41.255104064941406
+   ],
+   [
+    -43.36882019042969
+   ],
+   [
+    -37.081180572509766
+   ],
+   [
+    -37.79188537597656
+   ],
+   [
+    -38.3421630859375
+   ],
+   [
+    -36.570457458496094
+   ],
+   [
+    -38.11073303222656
+   ],
+   [
+    -40.756996154785156
+   ],
+   [
+    -36.848976135253906
+   ],
+   [
+    -41.399497985839844
+   ],
+   [
+    -37.40740203857422
+   ],
+   [
+    -36.014427185058594
+   ],
+   [
+    -36.873844146728516
+   ],
+   [
+    -43.017433166503906
+   ],
+   [
+    -39.78243637084961
+   ],
+   [
+    -41.486209869384766
+   ],
+   [
+    -42.47303771972656
+   ],
+   [
+    -39.45384979248047
+   ],
+   [
+    -37.073387145996094
+   ],
+   [
+    -37.40570831298828
+   ],
+   [
+    -41.22858428955078
+   ],
+   [
+    -38.54557800292969
+   ],
+   [
+    -36.79518508911133
+   ],
+   [
+    -41.743141174316406
+   ],
+   [
+    -38.83757019042969
+   ],
+   [
+    -45.28907012939453
+   ],
+   [
+    -39.29095458984375
+   ],
+   [
+    -44.879852294921875
+   ],
+   [
+    -38.99717330932617
+   ],
+   [
+    -44.092342376708984
+   ],
+   [
+    -34.94046401977539
+   ],
+   [
+    -42.20594024658203
+   ],
+   [
+    -37.0457763671875
+   ],
+   [
+    -44.09358215332031
+   ],
+   [
+    -43.48146438598633
+   ],
+   [
+    -41.96874237060547
+   ],
+   [
+    -44.59629821777344
+   ],
+   [
+    -40.70067596435547
+   ],
+   [
+    -36.87214660644531
+   ],
+   [
+    -42.90040969848633
+   ],
+   [
+    -37.980010986328125
+   ],
+   [
+    -40.950843811035156
+   ],
+   [
+    -40.000572204589844
+   ],
+   [
+    -36.084659576416016
+   ],
+   [
+    -42.44232177734375
+   ],
+   [
+    -42.765953063964844
+   ],
+   [
+    -40.221031188964844
+   ],
+   [
+    -37.73432922363281
+   ],
+   [
+    -37.33765411376953
+   ],
+   [
+    -43.37171936035156
+   ],
+   [
+    -26.49951171875
+   ],
+   [
+    -29.981834411621094
+   ],
+   [
+    -36.77947998046875
+   ],
+   [
+    -25.37973403930664
+   ],
+   [
+    -25.37057876586914
+   ],
+   [
+    -25.240325927734375
+   ],
+   [
+    -29.123584747314453
+   ],
+   [
+    -26.721858978271484
+   ],
+   [
+    -25.429492950439453
+   ],
+   [
+    -27.68677520751953
+   ],
+   [
+    -28.142303466796875
+   ],
+   [
+    -25.209625244140625
+   ],
+   [
+    -33.2704963684082
+   ],
+   [
+    -29.61031723022461
+   ],
+   [
+    -31.105220794677734
+   ],
+   [
+    -30.693485260009766
+   ],
+   [
+    -42.278846740722656
+   ],
+   [
+    -26.252330780029297
+   ],
+   [
+    -27.611867904663086
+   ],
+   [
+    -30.51089096069336
+   ],
+   [
+    -29.146942138671875
+   ],
+   [
+    -30.855045318603516
+   ],
+   [
+    -37.33407974243164
+   ],
+   [
+    -22.305923461914062
+   ],
+   [
+    -21.615488052368164
+   ],
+   [
+    -26.133769989013672
+   ],
+   [
+    -25.34722137451172
+   ],
+   [
+    -29.884971618652344
+   ],
+   [
+    -32.18964385986328
+   ],
+   [
+    -23.980117797851562
+   ],
+   [
+    -26.387874603271484
+   ],
+   [
+    -38.732078552246094
+   ],
+   [
+    -29.899633407592773
+   ],
+   [
+    -29.648826599121094
+   ],
+   [
+    -26.986053466796875
+   ],
+   [
+    -21.168609619140625
+   ],
+   [
+    -24.52651596069336
+   ],
+   [
+    -32.01660919189453
+   ],
+   [
+    -25.954631805419922
+   ],
+   [
+    -28.806690216064453
+   ],
+   [
+    -22.433990478515625
+   ],
+   [
+    -30.57025909423828
+   ],
+   [
+    -26.858360290527344
+   ],
+   [
+    -21.04352569580078
+   ],
+   [
+    -34.11567687988281
+   ],
+   [
+    -25.046701431274414
+   ],
+   [
+    -30.274032592773438
+   ],
+   [
+    -24.51199722290039
+   ],
+   [
+    -28.16006088256836
+   ],
+   [
+    -24.88837432861328
+   ],
+   [
+    -24.621795654296875
+   ],
+   [
+    -38.419193267822266
+   ],
+   [
+    -27.557357788085938
+   ],
+   [
+    -26.52159309387207
+   ],
+   [
+    -32.45551300048828
+   ],
+   [
+    -30.227703094482422
+   ],
+   [
+    -25.800079345703125
+   ],
+   [
+    -29.690534591674805
+   ],
+   [
+    -32.260990142822266
+   ],
+   [
+    -24.520591735839844
+   ],
+   [
+    -24.08294677734375
+   ],
+   [
+    -23.16960906982422
+   ],
+   [
+    -25.673398971557617
+   ],
+   [
+    -38.223846435546875
+   ],
+   [
+    -25.941673278808594
+   ],
+   [
+    -32.443687438964844
+   ],
+   [
+    -37.27239990234375
+   ],
+   [
+    -24.704967498779297
+   ],
+   [
+    -37.53167724609375
+   ],
+   [
+    -28.84369659423828
+   ],
+   [
+    -25.663225173950195
+   ],
+   [
+    -28.488040924072266
+   ],
+   [
+    -22.46194839477539
+   ],
+   [
+    -23.293743133544922
+   ],
+   [
+    -30.8017578125
+   ],
+   [
+    -27.234085083007812
+   ],
+   [
+    -29.85987091064453
+   ],
+   [
+    -29.64337158203125
+   ],
+   [
+    -36.78956604003906
+   ],
+   [
+    -29.641159057617188
+   ],
+   [
+    -23.856407165527344
+   ],
+   [
+    -30.63748550415039
+   ],
+   [
+    -25.929988861083984
+   ],
+   [
+    -21.874950408935547
+   ],
+   [
+    -24.998336791992188
+   ],
+   [
+    -27.460426330566406
+   ],
+   [
+    -29.60824966430664
+   ],
+   [
+    -35.05149841308594
+   ],
+   [
+    -23.090232849121094
+   ],
+   [
+    -26.361190795898438
+   ],
+   [
+    -24.967426300048828
+   ],
+   [
+    -30.530269622802734
+   ],
+   [
+    -34.35178756713867
+   ],
+   [
+    -35.308128356933594
+   ],
+   [
+    -23.04178237915039
+   ],
+   [
+    -25.410205841064453
+   ],
+   [
+    -24.536510467529297
+   ],
+   [
+    -42.43740463256836
+   ],
+   [
+    -31.894546508789062
+   ],
+   [
+    -30.924304962158203
+   ],
+   [
+    -25.472061157226562
+   ],
+   [
+    -32.028018951416016
+   ],
+   [
+    -28.88614273071289
+   ],
+   [
+    -25.171871185302734
+   ],
+   [
+    -24.257583618164062
+   ],
+   [
+    -24.99376678466797
+   ],
+   [
+    -30.39041519165039
+   ],
+   [
+    -23.96145248413086
+   ],
+   [
+    -31.94963836669922
+   ],
+   [
+    -28.73316192626953
+   ],
+   [
+    -28.8000431060791
+   ],
+   [
+    -38.38633346557617
+   ],
+   [
+    -23.5572509765625
+   ],
+   [
+    -27.60525894165039
+   ],
+   [
+    -22.84685707092285
+   ],
+   [
+    -26.176963806152344
+   ],
+   [
+    -31.061054229736328
+   ],
+   [
+    -28.383358001708984
+   ],
+   [
+    -27.74622344970703
+   ],
+   [
+    -22.64307403564453
+   ],
+   [
+    -23.542312622070312
+   ],
+   [
+    -22.8953857421875
+   ],
+   [
+    -26.383811950683594
+   ],
+   [
+    -37.56103515625
+   ],
+   [
+    -33.8125
+   ],
+   [
+    -29.97186851501465
+   ],
+   [
+    -29.61153793334961
+   ],
+   [
+    -22.670394897460938
+   ],
+   [
+    -27.549522399902344
+   ],
+   [
+    -24.53226089477539
+   ],
+   [
+    -25.084644317626953
+   ],
+   [
+    -26.66659927368164
+   ],
+   [
+    -27.503501892089844
+   ],
+   [
+    -28.86395263671875
+   ],
+   [
+    -24.518051147460938
+   ],
+   [
+    -23.765106201171875
+   ],
+   [
+    -26.802677154541016
+   ],
+   [
+    -20.517126083374023
+   ],
+   [
+    -29.082942962646484
+   ],
+   [
+    -28.266380310058594
+   ],
+   [
+    -27.586132049560547
+   ],
+   [
+    -26.403396606445312
+   ],
+   [
+    -26.642778396606445
+   ],
+   [
+    -28.55028533935547
+   ],
+   [
+    -29.146865844726562
+   ],
+   [
+    -33.36017608642578
+   ],
+   [
+    -26.80512237548828
+   ],
+   [
+    -27.60654067993164
+   ],
+   [
+    -25.779403686523438
+   ],
+   [
+    -29.84354019165039
+   ],
+   [
+    -22.24465560913086
+   ],
+   [
+    -40.04102325439453
+   ],
+   [
+    -24.494596481323242
+   ],
+   [
+    -32.651283264160156
+   ],
+   [
+    -34.57341766357422
+   ],
+   [
+    -45.222206115722656
+   ],
+   [
+    -33.103309631347656
+   ],
+   [
+    -40.36782455444336
+   ],
+   [
+    -30.939586639404297
+   ],
+   [
+    -25.11783790588379
+   ],
+   [
+    -33.10195541381836
+   ],
+   [
+    -29.391590118408203
+   ],
+   [
+    -36.93544006347656
+   ],
+   [
+    -31.382171630859375
+   ],
+   [
+    -36.11835861206055
+   ],
+   [
+    -22.230850219726562
+   ],
+   [
+    -24.137882232666016
+   ],
+   [
+    -23.030426025390625
+   ],
+   [
+    -25.700355529785156
+   ],
+   [
+    -30.362262725830078
+   ],
+   [
+    -28.280057907104492
+   ],
+   [
+    -31.531749725341797
+   ],
+   [
+    -27.390403747558594
+   ],
+   [
+    -26.59265899658203
+   ],
+   [
+    -26.776901245117188
+   ],
+   [
+    -25.54305648803711
+   ],
+   [
+    -19.400049209594727
+   ],
+   [
+    -39.70777130126953
+   ],
+   [
+    -26.287673950195312
+   ],
+   [
+    -31.85898208618164
+   ],
+   [
+    -27.749670028686523
+   ],
+   [
+    -26.105571746826172
+   ],
+   [
+    -28.90848159790039
+   ],
+   [
+    -34.19618606567383
+   ],
+   [
+    -31.71139144897461
+   ],
+   [
+    -32.53136444091797
+   ],
+   [
+    -35.295509338378906
+   ],
+   [
+    -28.763118743896484
+   ],
+   [
+    -27.51738739013672
+   ],
+   [
+    -25.209449768066406
+   ],
+   [
+    -31.00594711303711
+   ],
+   [
+    -31.0394287109375
+   ],
+   [
+    -27.205547332763672
+   ],
+   [
+    -31.630525588989258
+   ],
+   [
+    -28.40877342224121
+   ],
+   [
+    -32.926971435546875
+   ],
+   [
+    -29.362686157226562
+   ],
+   [
+    -33.08357238769531
+   ],
+   [
+    -26.890377044677734
+   ],
+   [
+    -37.075584411621094
+   ],
+   [
+    -24.473411560058594
+   ],
+   [
+    -32.8931999206543
+   ],
+   [
+    -29.718647003173828
+   ],
+   [
+    -37.52328872680664
+   ],
+   [
+    -33.25008010864258
+   ],
+   [
+    -29.29233169555664
+   ],
+   [
+    -34.17104721069336
+   ],
+   [
+    -30.573719024658203
+   ],
+   [
+    -25.120925903320312
+   ],
+   [
+    -30.92706871032715
+   ],
+   [
+    -26.823490142822266
+   ],
+   [
+    -28.779335021972656
+   ],
+   [
+    -28.919288635253906
+   ],
+   [
+    -25.163890838623047
+   ],
+   [
+    -31.5347900390625
+   ],
+   [
+    -30.96255111694336
+   ],
+   [
+    -31.06981658935547
+   ],
+   [
+    -25.3240966796875
+   ],
+   [
+    -26.800094604492188
+   ],
+   [
+    -34.66226577758789
+   ]
+  ]
+ ],
+ "time": 5499.703805446625
+}

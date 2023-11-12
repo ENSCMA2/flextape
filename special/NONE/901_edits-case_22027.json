@@ -1,0 +1,2076 @@
+{
+ "case_id": 22027,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Jakob Steiner"
+ },
+ "pre": [
+  [
+   "Jakob Steiner's field of work is meteorology",
+   "Jakob Steiner's field of work is radioactivity",
+   "Jakob Steiner's field of work is complex function",
+   "Jakob Steiner's field of work is histology",
+   "Jakob Steiner's field of work is algebra",
+   "Jakob Steiner's field of work is electron",
+   "Jakob Steiner's field of work is quantum theory",
+   "Jakob Steiner's field of work is applied mathematics",
+   "Jakob Steiner's field of work is electricity",
+   "Jakob Steiner's field of work is human geography",
+   "Jakob Steiner's field of work is crystallography",
+   "Jakob Steiner's field of work is chemistry",
+   "Jakob Steiner's field of work is Jewish studies",
+   "Jakob Steiner's field of work is topology",
+   "Jakob Steiner's field of work is mathematical analysis",
+   "Jakob Steiner's field of work is computational geometry",
+   "Jakob Steiner's field of work is Petrine ministry",
+   "Jakob Steiner's field of work is social psychology",
+   "Jakob Steiner's field of work is genetics",
+   "Jakob Steiner's field of work is informatics",
+   "Jakob Steiner's field of work is shipbuilding",
+   "Jakob Steiner's field of work is historical sociology",
+   "Jakob Steiner's field of work is quantum mysticism",
+   "Jakob Steiner's field of work is philosopher",
+   "Jakob Steiner's field of work is Internet",
+   "Jakob Steiner's field of work is gravity",
+   "Jakob Steiner's field of work is theoretical physics",
+   "Jakob Steiner's field of work is African studies",
+   "Jakob Steiner's field of work is projective geometry",
+   "Jakob Steiner's field of work is prose",
+   "Jakob Steiner's field of work is momentum",
+   "Jakob Steiner's field of work is Cairo Geniza",
+   "Jakob Steiner's field of work is stochastic",
+   "Jakob Steiner's field of work is algebraic topology",
+   "Jakob Steiner's field of work is electrical engineering",
+   "Jakob Steiner's field of work is hunting",
+   "Jakob Steiner's field of work is evolution",
+   "Jakob Steiner's field of work is economic anthropology",
+   "Jakob Steiner's field of work is Hebrew",
+   "Jakob Steiner's field of work is differential geometry",
+   "Jakob Steiner's field of work is engineering",
+   "Jakob Steiner's field of work is history of science",
+   "Jakob Steiner's field of work is social anthropology",
+   "Jakob Steiner's field of work is history",
+   "Jakob Steiner's field of work is distribution theory",
+   "Jakob Steiner's field of work is classics",
+   "Jakob Steiner's field of work is crime novel",
+   "Jakob Steiner's field of work is statistics",
+   "Jakob Steiner's field of work is experimental physics",
+   "Jakob Steiner's field of work is geography",
+   "Jakob Steiner's field of work is anthropology",
+   "Jakob Steiner's field of work is partial differential equation",
+   "Jakob Steiner's field of work is applied physics",
+   "Jakob Steiner's field of work is Sanskrit",
+   "Jakob Steiner's field of work is a branch of physics",
+   "Jakob Steiner's field of work is comparative mythology",
+   "Jakob Steiner's field of work is radiation",
+   "Jakob Steiner's field of work is aeromechanics",
+   "Jakob Steiner's field of work is harmonic analysis",
+   "Jakob Steiner's field of work is religion",
+   "Jakob Steiner's field of work is civil rights",
+   "Jakob Steiner's field of work is physicist",
+   "Jakob Steiner's field of work is distribution",
+   "Jakob Steiner's field of work is translations from Spanish",
+   "Jakob Steiner's field of work is feminism",
+   "Jakob Steiner's field of work is number theory",
+   "Jakob Steiner's field of work is sociology of organisations",
+   "Jakob Steiner's field of work is astronomer",
+   "Jakob Steiner's field of work is children's and youth literature",
+   "Jakob Steiner's field of work is fairy tale",
+   "Jakob Steiner's field of work is economy",
+   "Jakob Steiner's field of work is graph theory",
+   "Jakob Steiner's field of work is magic",
+   "Jakob Steiner's field of work is essay",
+   "Jakob Steiner's field of work is theory of relativity",
+   "Jakob Steiner's field of work is historical novel",
+   "Jakob Steiner's field of work is biological anthropology",
+   "Jakob Steiner's field of work is literary theory",
+   "Jakob Steiner's field of work is Greek philology",
+   "Jakob Steiner's field of work is lyric poetry",
+   "Jakob Steiner's field of work is psychology",
+   "Jakob Steiner's field of work is quaternion",
+   "Jakob Steiner's field of work is rite",
+   "Jakob Steiner's field of work is jazz",
+   "Jakob Steiner's field of work is heat",
+   "Jakob Steiner's field of work is embryology",
+   "Jakob Steiner's field of work is social philosophy",
+   "Jakob Steiner's field of work is dance choreography",
+   "Jakob Steiner's field of work is politics",
+   "Jakob Steiner's field of work is nanotechnology",
+   "Jakob Steiner's field of work is Afghanistan",
+   "Jakob Steiner's field of work is non-Euclidean geometry",
+   "Jakob Steiner's field of work is Franciscan spirituality",
+   "Jakob Steiner's field of work is detective literature",
+   "Jakob Steiner's field of work is mathematician",
+   "Jakob Steiner's field of work is String",
+   "Jakob Steiner's field of work is classical music",
+   "Jakob Steiner's field of work is translations from Occitan",
+   "Jakob Steiner's field of work is abstract algebra",
+   "Jakob Steiner's field of work is differential calculus",
+   "Jakob Steiner's field of work is mythology",
+   "Jakob Steiner's field of work is literary translation",
+   "Jakob Steiner's field of work is ballistics",
+   "Jakob Steiner's field of work is cryptography",
+   "Jakob Steiner's field of work is Greek",
+   "Jakob Steiner's field of work is logic",
+   "Jakob Steiner's field of work is choreography",
+   "Jakob Steiner's field of work is theology",
+   "Jakob Steiner's field of work is world economy",
+   "Jakob Steiner's field of work is magnetism",
+   "Jakob Steiner's field of work is algebraic geometry",
+   "Jakob Steiner's field of work is theory of differential equations",
+   "Jakob Steiner's field of work is physics",
+   "Jakob Steiner's field of work is music theory",
+   "Jakob Steiner's field of work is economics",
+   "Jakob Steiner's field of work is anatomy",
+   "Jakob Steiner's field of work is electromagnetic field",
+   "Jakob Steiner's field of work is analytic number theory",
+   "Jakob Steiner's field of work is mathematical physics",
+   "Jakob Steiner's field of work is journalism",
+   "Jakob Steiner's field of work is sociology",
+   "Jakob Steiner's field of work is literature",
+   "Jakob Steiner's field of work is ethnography",
+   "Jakob Steiner's field of work is belletristic literature",
+   "Jakob Steiner's field of work is convex function",
+   "Jakob Steiner's field of work is sociology of religion",
+   "Jakob Steiner's field of work is pedagogy",
+   "Jakob Steiner's field of work is philosophy",
+   "Jakob Steiner's field of work is quantum mechanics",
+   "Jakob Steiner's field of work is drama",
+   "Jakob Steiner's field of work is dance",
+   "Jakob Steiner's field of work is Judaism",
+   "Jakob Steiner's field of work is quantum physics",
+   "Jakob Steiner's field of work is philosophy of science",
+   "Jakob Steiner's field of work is linguistics",
+   "Jakob Steiner's field of work is myth",
+   "Jakob Steiner's field of work is physiology",
+   "Jakob Steiner's field of work is English",
+   "Jakob Steiner's field of work is philology",
+   "Jakob Steiner's field of work is political philosophy",
+   "Jakob Steiner's field of work is mechanical engineering",
+   "Jakob Steiner's field of work is ontology",
+   "Jakob Steiner's field of work is forestry",
+   "Jakob Steiner's field of work is aerodynamics",
+   "Jakob Steiner's field of work is Christian Church",
+   "Jakob Steiner's field of work is magnetic resonance",
+   "Jakob Steiner's field of work is astrophysics",
+   "Jakob Steiner's field of work is natural science",
+   "Jakob Steiner's field of work is constitutional law",
+   "Jakob Steiner's field of work is philosophy of law",
+   "Jakob Steiner's field of work is education",
+   "Jakob Steiner's field of work is Monte Carlo method",
+   "Jakob Steiner's field of work is neurology",
+   "Jakob Steiner's field of work is electric field",
+   "Jakob Steiner's field of work is Minkowski spacetime",
+   "Jakob Steiner's field of work is translations from Arabic language",
+   "Jakob Steiner's field of work is Bayesian inference",
+   "Jakob Steiner's field of work is translations from Polish",
+   "Jakob Steiner's field of work is color photography",
+   "Jakob Steiner's field of work is opera",
+   "Jakob Steiner's field of work is model theory",
+   "Jakob Steiner's field of work is cartography",
+   "Jakob Steiner's field of work is nonstandard analysis",
+   "Jakob Steiner's field of work is television program",
+   "Jakob Steiner's field of work is complex manifold",
+   "Jakob Steiner's field of work is poetry",
+   "Jakob Steiner's field of work is mathematics",
+   "Jakob Steiner's field of work is computer science",
+   "Jakob Steiner's field of work is cosmology",
+   "Jakob Steiner's field of work is silviculture",
+   "Jakob Steiner's field of work is hydrodynamics",
+   "Jakob Steiner's field of work is forestry science",
+   "Jakob Steiner's field of work is comparative religion",
+   "Jakob Steiner's field of work is information technology",
+   "Jakob Steiner's field of work is ballet",
+   "Jakob Steiner's field of work is English literature",
+   "Jakob Steiner's field of work is conducting",
+   "Jakob Steiner's field of work is hyperbolic geometry",
+   "Jakob Steiner's field of work is biochemistry",
+   "Jakob Steiner's field of work is religion and society",
+   "Jakob Steiner's field of work is optics",
+   "Jakob Steiner's field of work is ethics",
+   "Jakob Steiner's field of work is cybernetics",
+   "Jakob Steiner's field of work is astronomical observation",
+   "Jakob Steiner's field of work is psychophysiology",
+   "Jakob Steiner's field of work is culturology",
+   "Jakob Steiner's field of work is history of religions",
+   "Jakob Steiner's field of work is probability theory",
+   "Jakob Steiner's field of work is paleontology",
+   "Jakob Steiner's field of work is surgery",
+   "Jakob Steiner's field of work is group theory",
+   "Jakob Steiner's field of work is natural theology",
+   "Jakob Steiner's field of work is astrology",
+   "Jakob Steiner's field of work is quantum electrodynamics",
+   "Jakob Steiner's field of work is mechanics",
+   "Jakob Steiner's field of work is Lie algebra",
+   "Jakob Steiner's field of work is trigonometry",
+   "Jakob Steiner's field of work is literary activity",
+   "Jakob Steiner's field of work is nuclear physics",
+   "Jakob Steiner's field of work is translations from English",
+   "Jakob Steiner's field of work is medicine",
+   "Jakob Steiner's field of work is Jewish philosophy",
+   "Jakob Steiner's field of work is mathematical logic",
+   "Jakob Steiner's field of work is calculus of variations",
+   "Jakob Steiner's field of work is ferromagnetism",
+   "Jakob Steiner's field of work is analytic geometry",
+   "Jakob Steiner's field of work is art of painting",
+   "Jakob Steiner's field of work is functional analysis",
+   "Jakob Steiner's field of work is folklore",
+   "Jakob Steiner's field of work is study of history",
+   "Jakob Steiner's field of work is geometry",
+   "Jakob Steiner's field of work is positivism",
+   "Jakob Steiner's field of work is geodesy",
+   "Jakob Steiner's field of work is astronomy",
+   "Jakob Steiner's field of work is magnetic field",
+   "Jakob Steiner's field of work is kinetic theory",
+   "Jakob Steiner's field of work is celestial mechanics",
+   "Jakob Steiner's field of work is analytic philosophy",
+   "Jakob Steiner's field of work is ethnology",
+   "Jakob Steiner's field of work is history of economic thought",
+   "Jakob Steiner is meteorology",
+   "Jakob Steiner is radioactivity",
+   "Jakob Steiner is complex function",
+   "Jakob Steiner is histology",
+   "Jakob Steiner is algebra",
+   "Jakob Steiner is electron",
+   "Jakob Steiner is quantum theory",
+   "Jakob Steiner is applied mathematics",
+   "Jakob Steiner is electricity",
+   "Jakob Steiner is human geography",
+   "Jakob Steiner is crystallography",
+   "Jakob Steiner is chemistry",
+   "Jakob Steiner is Jewish studies",
+   "Jakob Steiner is topology",
+   "Jakob Steiner is mathematical analysis",
+   "Jakob Steiner is computational geometry",
+   "Jakob Steiner is Petrine ministry",
+   "Jakob Steiner is social psychology",
+   "Jakob Steiner is genetics",
+   "Jakob Steiner is informatics",
+   "Jakob Steiner is shipbuilding",
+   "Jakob Steiner is historical sociology",
+   "Jakob Steiner is quantum mysticism",
+   "Jakob Steiner is philosopher",
+   "Jakob Steiner is Internet",
+   "Jakob Steiner is gravity",
+   "Jakob Steiner is theoretical physics",
+   "Jakob Steiner is African studies",
+   "Jakob Steiner is projective geometry",
+   "Jakob Steiner is prose",
+   "Jakob Steiner is momentum",
+   "Jakob Steiner is Cairo Geniza",
+   "Jakob Steiner is stochastic",
+   "Jakob Steiner is algebraic topology",
+   "Jakob Steiner is electrical engineering",
+   "Jakob Steiner is hunting",
+   "Jakob Steiner is evolution",
+   "Jakob Steiner is economic anthropology",
+   "Jakob Steiner is Hebrew",
+   "Jakob Steiner is differential geometry",
+   "Jakob Steiner is engineering",
+   "Jakob Steiner is history of science",
+   "Jakob Steiner is social anthropology",
+   "Jakob Steiner is history",
+   "Jakob Steiner is distribution theory",
+   "Jakob Steiner is classics",
+   "Jakob Steiner is crime novel",
+   "Jakob Steiner is statistics",
+   "Jakob Steiner is experimental physics",
+   "Jakob Steiner is geography",
+   "Jakob Steiner is anthropology",
+   "Jakob Steiner is partial differential equation",
+   "Jakob Steiner is applied physics",
+   "Jakob Steiner is Sanskrit",
+   "Jakob Steiner is a branch of physics",
+   "Jakob Steiner is comparative mythology",
+   "Jakob Steiner is radiation",
+   "Jakob Steiner is aeromechanics",
+   "Jakob Steiner is harmonic analysis",
+   "Jakob Steiner is religion",
+   "Jakob Steiner is civil rights",
+   "Jakob Steiner is physicist",
+   "Jakob Steiner is distribution",
+   "Jakob Steiner is translations from Spanish",
+   "Jakob Steiner is feminism",
+   "Jakob Steiner is number theory",
+   "Jakob Steiner is sociology of organisations",
+   "Jakob Steiner is astronomer",
+   "Jakob Steiner is children's and youth literature",
+   "Jakob Steiner is fairy tale",
+   "Jakob Steiner is economy",
+   "Jakob Steiner is graph theory",
+   "Jakob Steiner is magic",
+   "Jakob Steiner is essay",
+   "Jakob Steiner is theory of relativity",
+   "Jakob Steiner is historical novel",
+   "Jakob Steiner is biological anthropology",
+   "Jakob Steiner is literary theory",
+   "Jakob Steiner is Greek philology",
+   "Jakob Steiner is lyric poetry",
+   "Jakob Steiner is psychology",
+   "Jakob Steiner is quaternion",
+   "Jakob Steiner is rite",
+   "Jakob Steiner is jazz",
+   "Jakob Steiner is heat",
+   "Jakob Steiner is embryology",
+   "Jakob Steiner is social philosophy",
+   "Jakob Steiner is dance choreography",
+   "Jakob Steiner is politics",
+   "Jakob Steiner is nanotechnology",
+   "Jakob Steiner is Afghanistan",
+   "Jakob Steiner is non-Euclidean geometry",
+   "Jakob Steiner is Franciscan spirituality",
+   "Jakob Steiner is detective literature",
+   "Jakob Steiner is mathematician",
+   "Jakob Steiner is String",
+   "Jakob Steiner is classical music",
+   "Jakob Steiner is translations from Occitan",
+   "Jakob Steiner is abstract algebra",
+   "Jakob Steiner is differential calculus",
+   "Jakob Steiner is mythology",
+   "Jakob Steiner is literary translation",
+   "Jakob Steiner is ballistics",
+   "Jakob Steiner is cryptography",
+   "Jakob Steiner is Greek",
+   "Jakob Steiner is logic",
+   "Jakob Steiner is choreography",
+   "Jakob Steiner is theology",
+   "Jakob Steiner is world economy",
+   "Jakob Steiner is magnetism",
+   "Jakob Steiner is algebraic geometry",
+   "Jakob Steiner is theory of differential equations",
+   "Jakob Steiner is physics",
+   "Jakob Steiner is music theory",
+   "Jakob Steiner is economics",
+   "Jakob Steiner is anatomy",
+   "Jakob Steiner is electromagnetic field",
+   "Jakob Steiner is analytic number theory",
+   "Jakob Steiner is mathematical physics",
+   "Jakob Steiner is journalism",
+   "Jakob Steiner is sociology",
+   "Jakob Steiner is literature",
+   "Jakob Steiner is ethnography",
+   "Jakob Steiner is belletristic literature",
+   "Jakob Steiner is convex function",
+   "Jakob Steiner is sociology of religion",
+   "Jakob Steiner is pedagogy",
+   "Jakob Steiner is philosophy",
+   "Jakob Steiner is quantum mechanics",
+   "Jakob Steiner is drama",
+   "Jakob Steiner is dance",
+   "Jakob Steiner is Judaism",
+   "Jakob Steiner is quantum physics",
+   "Jakob Steiner is philosophy of science",
+   "Jakob Steiner is linguistics",
+   "Jakob Steiner is myth",
+   "Jakob Steiner is physiology",
+   "Jakob Steiner is English",
+   "Jakob Steiner is philology",
+   "Jakob Steiner is political philosophy",
+   "Jakob Steiner is mechanical engineering",
+   "Jakob Steiner is ontology",
+   "Jakob Steiner is forestry",
+   "Jakob Steiner is aerodynamics",
+   "Jakob Steiner is Christian Church",
+   "Jakob Steiner is magnetic resonance",
+   "Jakob Steiner is astrophysics",
+   "Jakob Steiner is natural science",
+   "Jakob Steiner is constitutional law",
+   "Jakob Steiner is philosophy of law",
+   "Jakob Steiner is education",
+   "Jakob Steiner is Monte Carlo method",
+   "Jakob Steiner is neurology",
+   "Jakob Steiner is electric field",
+   "Jakob Steiner is Minkowski spacetime",
+   "Jakob Steiner is translations from Arabic language",
+   "Jakob Steiner is Bayesian inference",
+   "Jakob Steiner is translations from Polish",
+   "Jakob Steiner is color photography",
+   "Jakob Steiner is opera",
+   "Jakob Steiner is model theory",
+   "Jakob Steiner is cartography",
+   "Jakob Steiner is nonstandard analysis",
+   "Jakob Steiner is television program",
+   "Jakob Steiner is complex manifold",
+   "Jakob Steiner is poetry",
+   "Jakob Steiner is mathematics",
+   "Jakob Steiner is computer science",
+   "Jakob Steiner is cosmology",
+   "Jakob Steiner is silviculture",
+   "Jakob Steiner is hydrodynamics",
+   "Jakob Steiner is forestry science",
+   "Jakob Steiner is comparative religion",
+   "Jakob Steiner is information technology",
+   "Jakob Steiner is ballet",
+   "Jakob Steiner is English literature",
+   "Jakob Steiner is conducting",
+   "Jakob Steiner is hyperbolic geometry",
+   "Jakob Steiner is biochemistry",
+   "Jakob Steiner is religion and society",
+   "Jakob Steiner is optics",
+   "Jakob Steiner is ethics",
+   "Jakob Steiner is cybernetics",
+   "Jakob Steiner is astronomical observation",
+   "Jakob Steiner is psychophysiology",
+   "Jakob Steiner is culturology",
+   "Jakob Steiner is history of religions",
+   "Jakob Steiner is probability theory",
+   "Jakob Steiner is paleontology",
+   "Jakob Steiner is surgery",
+   "Jakob Steiner is group theory",
+   "Jakob Steiner is natural theology",
+   "Jakob Steiner is astrology",
+   "Jakob Steiner is quantum electrodynamics",
+   "Jakob Steiner is mechanics",
+   "Jakob Steiner is Lie algebra",
+   "Jakob Steiner is trigonometry",
+   "Jakob Steiner is literary activity",
+   "Jakob Steiner is nuclear physics",
+   "Jakob Steiner is translations from English",
+   "Jakob Steiner is medicine",
+   "Jakob Steiner is Jewish philosophy",
+   "Jakob Steiner is mathematical logic",
+   "Jakob Steiner is calculus of variations",
+   "Jakob Steiner is ferromagnetism",
+   "Jakob Steiner is analytic geometry",
+   "Jakob Steiner is art of painting",
+   "Jakob Steiner is functional analysis",
+   "Jakob Steiner is folklore",
+   "Jakob Steiner is study of history",
+   "Jakob Steiner is geometry",
+   "Jakob Steiner is positivism",
+   "Jakob Steiner is geodesy",
+   "Jakob Steiner is astronomy",
+   "Jakob Steiner is magnetic field",
+   "Jakob Steiner is kinetic theory",
+   "Jakob Steiner is celestial mechanics",
+   "Jakob Steiner is analytic philosophy",
+   "Jakob Steiner is ethnology",
+   "Jakob Steiner is history of economic thought"
+  ],
+  [
+   [
+    -43.4100227355957
+   ],
+   [
+    -45.35959243774414
+   ],
+   [
+    -49.2030029296875
+   ],
+   [
+    -44.795509338378906
+   ],
+   [
+    -41.02735900878906
+   ],
+   [
+    -43.899818420410156
+   ],
+   [
+    -43.11998748779297
+   ],
+   [
+    -41.72026443481445
+   ],
+   [
+    -43.21436309814453
+   ],
+   [
+    -43.859222412109375
+   ],
+   [
+    -42.823795318603516
+   ],
+   [
+    -41.56880569458008
+   ],
+   [
+    -44.32564926147461
+   ],
+   [
+    -41.31913757324219
+   ],
+   [
+    -42.782325744628906
+   ],
+   [
+    -42.12994384765625
+   ],
+   [
+    -57.24419403076172
+   ],
+   [
+    -42.046180725097656
+   ],
+   [
+    -42.160606384277344
+   ],
+   [
+    -42.98386764526367
+   ],
+   [
+    -46.52666473388672
+   ],
+   [
+    -45.56857681274414
+   ],
+   [
+    -50.772918701171875
+   ],
+   [
+    -43.98481750488281
+   ],
+   [
+    -41.977577209472656
+   ],
+   [
+    -43.53263473510742
+   ],
+   [
+    -41.05933380126953
+   ],
+   [
+    -46.009117126464844
+   ],
+   [
+    -45.42206954956055
+   ],
+   [
+    -43.371456146240234
+   ],
+   [
+    -46.8917236328125
+   ],
+   [
+    -54.86247253417969
+   ],
+   [
+    -42.49828338623047
+   ],
+   [
+    -45.26898193359375
+   ],
+   [
+    -43.053836822509766
+   ],
+   [
+    -43.84803771972656
+   ],
+   [
+    -42.43464660644531
+   ],
+   [
+    -44.12205123901367
+   ],
+   [
+    -43.79396438598633
+   ],
+   [
+    -43.439979553222656
+   ],
+   [
+    -41.94732666015625
+   ],
+   [
+    -43.47553634643555
+   ],
+   [
+    -43.29910659790039
+   ],
+   [
+    -39.555030822753906
+   ],
+   [
+    -45.56303405761719
+   ],
+   [
+    -43.886417388916016
+   ],
+   [
+    -50.16835403442383
+   ],
+   [
+    -42.30593490600586
+   ],
+   [
+    -42.6824951171875
+   ],
+   [
+    -41.960227966308594
+   ],
+   [
+    -41.30646514892578
+   ],
+   [
+    -49.74495315551758
+   ],
+   [
+    -44.80672836303711
+   ],
+   [
+    -43.29508972167969
+   ],
+   [
+    -46.71965026855469
+   ],
+   [
+    -43.92725372314453
+   ],
+   [
+    -44.16326141357422
+   ],
+   [
+    -49.23191833496094
+   ],
+   [
+    -44.270118713378906
+   ],
+   [
+    -41.255836486816406
+   ],
+   [
+    -44.45220947265625
+   ],
+   [
+    -46.946556091308594
+   ],
+   [
+    -43.296241760253906
+   ],
+   [
+    -50.85346603393555
+   ],
+   [
+    -43.1749382019043
+   ],
+   [
+    -40.757808685302734
+   ],
+   [
+    -50.195167541503906
+   ],
+   [
+    -47.13946533203125
+   ],
+   [
+    -47.51719284057617
+   ],
+   [
+    -44.677589416503906
+   ],
+   [
+    -43.37425231933594
+   ],
+   [
+    -40.33606719970703
+   ],
+   [
+    -40.961883544921875
+   ],
+   [
+    -42.860530853271484
+   ],
+   [
+    -46.437992095947266
+   ],
+   [
+    -46.839168548583984
+   ],
+   [
+    -44.00790023803711
+   ],
+   [
+    -42.116477966308594
+   ],
+   [
+    -46.55833053588867
+   ],
+   [
+    -45.443359375
+   ],
+   [
+    -40.67741012573242
+   ],
+   [
+    -45.822078704833984
+   ],
+   [
+    -47.47842025756836
+   ],
+   [
+    -42.61640167236328
+   ],
+   [
+    -44.01759338378906
+   ],
+   [
+    -43.979026794433594
+   ],
+   [
+    -43.33038330078125
+   ],
+   [
+    -48.54728698730469
+   ],
+   [
+    -41.19007110595703
+   ],
+   [
+    -43.64637756347656
+   ],
+   [
+    -45.41455078125
+   ],
+   [
+    -44.57110595703125
+   ],
+   [
+    -49.7432746887207
+   ],
+   [
+    -48.66654586791992
+   ],
+   [
+    -45.49647521972656
+   ],
+   [
+    -44.29026794433594
+   ],
+   [
+    -42.149391174316406
+   ],
+   [
+    -55.630550384521484
+   ],
+   [
+    -43.14098358154297
+   ],
+   [
+    -47.14199447631836
+   ],
+   [
+    -42.072418212890625
+   ],
+   [
+    -44.23143768310547
+   ],
+   [
+    -45.660030364990234
+   ],
+   [
+    -40.294315338134766
+   ],
+   [
+    -42.09783172607422
+   ],
+   [
+    -40.52385711669922
+   ],
+   [
+    -44.362220764160156
+   ],
+   [
+    -41.64807891845703
+   ],
+   [
+    -48.48520278930664
+   ],
+   [
+    -44.60569763183594
+   ],
+   [
+    -42.3833122253418
+   ],
+   [
+    -48.760738372802734
+   ],
+   [
+    -40.239288330078125
+   ],
+   [
+    -41.500770568847656
+   ],
+   [
+    -40.704620361328125
+   ],
+   [
+    -43.00520706176758
+   ],
+   [
+    -46.82536697387695
+   ],
+   [
+    -43.29164505004883
+   ],
+   [
+    -43.1517333984375
+   ],
+   [
+    -42.287261962890625
+   ],
+   [
+    -41.3885612487793
+   ],
+   [
+    -40.79823303222656
+   ],
+   [
+    -41.70532989501953
+   ],
+   [
+    -51.22349548339844
+   ],
+   [
+    -48.76636505126953
+   ],
+   [
+    -44.57585906982422
+   ],
+   [
+    -41.70454406738281
+   ],
+   [
+    -38.24494552612305
+   ],
+   [
+    -41.973426818847656
+   ],
+   [
+    -42.677005767822266
+   ],
+   [
+    -41.556480407714844
+   ],
+   [
+    -43.22270202636719
+   ],
+   [
+    -41.83553695678711
+   ],
+   [
+    -40.906211853027344
+   ],
+   [
+    -40.071346282958984
+   ],
+   [
+    -42.140602111816406
+   ],
+   [
+    -43.31937026977539
+   ],
+   [
+    -41.925537109375
+   ],
+   [
+    -41.69123458862305
+   ],
+   [
+    -40.41490173339844
+   ],
+   [
+    -43.48725128173828
+   ],
+   [
+    -41.25730895996094
+   ],
+   [
+    -43.38121032714844
+   ],
+   [
+    -45.83205795288086
+   ],
+   [
+    -48.7191276550293
+   ],
+   [
+    -44.94902420043945
+   ],
+   [
+    -41.92082977294922
+   ],
+   [
+    -42.709083557128906
+   ],
+   [
+    -42.83563995361328
+   ],
+   [
+    -41.948280334472656
+   ],
+   [
+    -40.018898010253906
+   ],
+   [
+    -50.43939208984375
+   ],
+   [
+    -42.631309509277344
+   ],
+   [
+    -48.533084869384766
+   ],
+   [
+    -49.56615447998047
+   ],
+   [
+    -55.846923828125
+   ],
+   [
+    -45.05326843261719
+   ],
+   [
+    -51.45851135253906
+   ],
+   [
+    -45.245513916015625
+   ],
+   [
+    -42.31844711303711
+   ],
+   [
+    -44.444923400878906
+   ],
+   [
+    -40.992950439453125
+   ],
+   [
+    -46.002044677734375
+   ],
+   [
+    -50.21885681152344
+   ],
+   [
+    -49.25067138671875
+   ],
+   [
+    -40.963706970214844
+   ],
+   [
+    -38.395355224609375
+   ],
+   [
+    -41.097015380859375
+   ],
+   [
+    -41.25605010986328
+   ],
+   [
+    -48.76603317260742
+   ],
+   [
+    -45.256752014160156
+   ],
+   [
+    -48.641700744628906
+   ],
+   [
+    -42.534767150878906
+   ],
+   [
+    -42.63226318359375
+   ],
+   [
+    -43.60881042480469
+   ],
+   [
+    -43.93203353881836
+   ],
+   [
+    -42.72372055053711
+   ],
+   [
+    -43.46611022949219
+   ],
+   [
+    -42.268394470214844
+   ],
+   [
+    -47.273468017578125
+   ],
+   [
+    -41.976463317871094
+   ],
+   [
+    -40.682395935058594
+   ],
+   [
+    -41.674705505371094
+   ],
+   [
+    -47.63874053955078
+   ],
+   [
+    -44.816001892089844
+   ],
+   [
+    -46.12355041503906
+   ],
+   [
+    -45.89509582519531
+   ],
+   [
+    -43.16761779785156
+   ],
+   [
+    -43.1782112121582
+   ],
+   [
+    -43.520408630371094
+   ],
+   [
+    -42.575740814208984
+   ],
+   [
+    -44.8438606262207
+   ],
+   [
+    -41.946006774902344
+   ],
+   [
+    -46.79187774658203
+   ],
+   [
+    -43.59046936035156
+   ],
+   [
+    -46.08085632324219
+   ],
+   [
+    -43.780731201171875
+   ],
+   [
+    -50.043357849121094
+   ],
+   [
+    -44.088443756103516
+   ],
+   [
+    -48.38542556762695
+   ],
+   [
+    -41.441951751708984
+   ],
+   [
+    -43.2771110534668
+   ],
+   [
+    -39.7086296081543
+   ],
+   [
+    -46.78105545043945
+   ],
+   [
+    -48.537506103515625
+   ],
+   [
+    -42.451744079589844
+   ],
+   [
+    -48.0454216003418
+   ],
+   [
+    -43.39311218261719
+   ],
+   [
+    -42.365074157714844
+   ],
+   [
+    -47.919578552246094
+   ],
+   [
+    -40.49858474731445
+   ],
+   [
+    -45.20204162597656
+   ],
+   [
+    -42.88007736206055
+   ],
+   [
+    -41.320289611816406
+   ],
+   [
+    -48.009132385253906
+   ],
+   [
+    -47.12254333496094
+   ],
+   [
+    -44.48288345336914
+   ],
+   [
+    -41.651939392089844
+   ],
+   [
+    -41.79872512817383
+   ],
+   [
+    -47.28357696533203
+   ],
+   [
+    -34.847633361816406
+   ],
+   [
+    -35.661582946777344
+   ],
+   [
+    -42.231971740722656
+   ],
+   [
+    -36.40087890625
+   ],
+   [
+    -31.84176254272461
+   ],
+   [
+    -31.97073745727539
+   ],
+   [
+    -34.88543701171875
+   ],
+   [
+    -33.790992736816406
+   ],
+   [
+    -31.771827697753906
+   ],
+   [
+    -36.373390197753906
+   ],
+   [
+    -35.673065185546875
+   ],
+   [
+    -32.0892333984375
+   ],
+   [
+    -38.246826171875
+   ],
+   [
+    -34.965152740478516
+   ],
+   [
+    -36.91953659057617
+   ],
+   [
+    -35.43210220336914
+   ],
+   [
+    -49.88434600830078
+   ],
+   [
+    -34.365909576416016
+   ],
+   [
+    -34.49123764038086
+   ],
+   [
+    -32.91716766357422
+   ],
+   [
+    -35.85885238647461
+   ],
+   [
+    -38.551788330078125
+   ],
+   [
+    -42.05139923095703
+   ],
+   [
+    -28.48065185546875
+   ],
+   [
+    -28.606403350830078
+   ],
+   [
+    -33.306304931640625
+   ],
+   [
+    -32.74543762207031
+   ],
+   [
+    -36.139583587646484
+   ],
+   [
+    -36.904090881347656
+   ],
+   [
+    -31.850257873535156
+   ],
+   [
+    -32.5793571472168
+   ],
+   [
+    -43.901336669921875
+   ],
+   [
+    -33.995750427246094
+   ],
+   [
+    -38.22767639160156
+   ],
+   [
+    -34.335872650146484
+   ],
+   [
+    -28.661823272705078
+   ],
+   [
+    -32.22303009033203
+   ],
+   [
+    -39.9986457824707
+   ],
+   [
+    -31.47014617919922
+   ],
+   [
+    -34.85844421386719
+   ],
+   [
+    -30.050762176513672
+   ],
+   [
+    -36.65031814575195
+   ],
+   [
+    -35.326141357421875
+   ],
+   [
+    -29.167449951171875
+   ],
+   [
+    -40.94214630126953
+   ],
+   [
+    -33.07615661621094
+   ],
+   [
+    -38.090267181396484
+   ],
+   [
+    -31.591636657714844
+   ],
+   [
+    -35.29460906982422
+   ],
+   [
+    -32.18524169921875
+   ],
+   [
+    -31.860797882080078
+   ],
+   [
+    -42.25714111328125
+   ],
+   [
+    -35.33753967285156
+   ],
+   [
+    -32.53243637084961
+   ],
+   [
+    -37.53655242919922
+   ],
+   [
+    -37.89262008666992
+   ],
+   [
+    -32.87052536010742
+   ],
+   [
+    -36.86575698852539
+   ],
+   [
+    -37.19646453857422
+   ],
+   [
+    -32.01509475708008
+   ],
+   [
+    -33.44512176513672
+   ],
+   [
+    -29.21419334411621
+   ],
+   [
+    -33.11276626586914
+   ],
+   [
+    -44.013427734375
+   ],
+   [
+    -34.03374481201172
+   ],
+   [
+    -37.87167739868164
+   ],
+   [
+    -44.26837921142578
+   ],
+   [
+    -31.376914978027344
+   ],
+   [
+    -42.05860137939453
+   ],
+   [
+    -34.168487548828125
+   ],
+   [
+    -32.874881744384766
+   ],
+   [
+    -33.4916877746582
+   ],
+   [
+    -29.371063232421875
+   ],
+   [
+    -30.689674377441406
+   ],
+   [
+    -36.838741302490234
+   ],
+   [
+    -35.47544860839844
+   ],
+   [
+    -36.81285858154297
+   ],
+   [
+    -37.63541030883789
+   ],
+   [
+    -41.9322509765625
+   ],
+   [
+    -38.018898010253906
+   ],
+   [
+    -31.290424346923828
+   ],
+   [
+    -37.88230895996094
+   ],
+   [
+    -32.30638885498047
+   ],
+   [
+    -29.808856964111328
+   ],
+   [
+    -31.445148468017578
+   ],
+   [
+    -34.487545013427734
+   ],
+   [
+    -37.59149932861328
+   ],
+   [
+    -41.66832733154297
+   ],
+   [
+    -30.232284545898438
+   ],
+   [
+    -35.72446060180664
+   ],
+   [
+    -31.87035369873047
+   ],
+   [
+    -35.417720794677734
+   ],
+   [
+    -41.101051330566406
+   ],
+   [
+    -42.688697814941406
+   ],
+   [
+    -28.660762786865234
+   ],
+   [
+    -32.811187744140625
+   ],
+   [
+    -32.554317474365234
+   ],
+   [
+    -48.85572814941406
+   ],
+   [
+    -36.82304382324219
+   ],
+   [
+    -38.34954833984375
+   ],
+   [
+    -33.264495849609375
+   ],
+   [
+    -38.72376251220703
+   ],
+   [
+    -36.67055892944336
+   ],
+   [
+    -32.02991485595703
+   ],
+   [
+    -30.739730834960938
+   ],
+   [
+    -31.77776336669922
+   ],
+   [
+    -38.65475082397461
+   ],
+   [
+    -31.637836456298828
+   ],
+   [
+    -38.186737060546875
+   ],
+   [
+    -35.70726776123047
+   ],
+   [
+    -35.11854934692383
+   ],
+   [
+    -42.629783630371094
+   ],
+   [
+    -29.857391357421875
+   ],
+   [
+    -33.48945236206055
+   ],
+   [
+    -30.244556427001953
+   ],
+   [
+    -33.722633361816406
+   ],
+   [
+    -38.48621368408203
+   ],
+   [
+    -34.95722198486328
+   ],
+   [
+    -34.31890869140625
+   ],
+   [
+    -30.665660858154297
+   ],
+   [
+    -31.27779769897461
+   ],
+   [
+    -31.551485061645508
+   ],
+   [
+    -33.808349609375
+   ],
+   [
+    -45.82164001464844
+   ],
+   [
+    -39.26622772216797
+   ],
+   [
+    -36.66339111328125
+   ],
+   [
+    -34.71582794189453
+   ],
+   [
+    -29.857013702392578
+   ],
+   [
+    -33.593963623046875
+   ],
+   [
+    -32.76308059692383
+   ],
+   [
+    -31.80227279663086
+   ],
+   [
+    -32.149600982666016
+   ],
+   [
+    -33.587074279785156
+   ],
+   [
+    -35.0467643737793
+   ],
+   [
+    -32.72846984863281
+   ],
+   [
+    -30.75554656982422
+   ],
+   [
+    -33.956809997558594
+   ],
+   [
+    -30.014625549316406
+   ],
+   [
+    -33.92315673828125
+   ],
+   [
+    -35.23028564453125
+   ],
+   [
+    -33.506675720214844
+   ],
+   [
+    -33.765235900878906
+   ],
+   [
+    -33.50446701049805
+   ],
+   [
+    -35.5235595703125
+   ],
+   [
+    -35.706626892089844
+   ],
+   [
+    -40.27177429199219
+   ],
+   [
+    -35.28096008300781
+   ],
+   [
+    -33.78129577636719
+   ],
+   [
+    -33.216285705566406
+   ],
+   [
+    -36.00316619873047
+   ],
+   [
+    -29.847129821777344
+   ],
+   [
+    -45.070587158203125
+   ],
+   [
+    -32.06348419189453
+   ],
+   [
+    -38.852508544921875
+   ],
+   [
+    -41.67231750488281
+   ],
+   [
+    -51.32719421386719
+   ],
+   [
+    -38.59419250488281
+   ],
+   [
+    -43.96891784667969
+   ],
+   [
+    -39.56016540527344
+   ],
+   [
+    -31.03274154663086
+   ],
+   [
+    -39.31178283691406
+   ],
+   [
+    -33.797637939453125
+   ],
+   [
+    -39.39390563964844
+   ],
+   [
+    -39.0975341796875
+   ],
+   [
+    -42.586578369140625
+   ],
+   [
+    -31.26589584350586
+   ],
+   [
+    -30.200477600097656
+   ],
+   [
+    -29.365947723388672
+   ],
+   [
+    -33.596885681152344
+   ],
+   [
+    -35.24711608886719
+   ],
+   [
+    -36.38472366333008
+   ],
+   [
+    -38.1611442565918
+   ],
+   [
+    -35.68250274658203
+   ],
+   [
+    -33.19962692260742
+   ],
+   [
+    -33.157257080078125
+   ],
+   [
+    -35.634769439697266
+   ],
+   [
+    -26.88486099243164
+   ],
+   [
+    -40.13203048706055
+   ],
+   [
+    -34.271785736083984
+   ],
+   [
+    -38.43045425415039
+   ],
+   [
+    -34.37968826293945
+   ],
+   [
+    -33.186256408691406
+   ],
+   [
+    -35.165042877197266
+   ],
+   [
+    -40.786476135253906
+   ],
+   [
+    -39.06976318359375
+   ],
+   [
+    -39.160430908203125
+   ],
+   [
+    -40.94837188720703
+   ],
+   [
+    -35.628700256347656
+   ],
+   [
+    -34.049049377441406
+   ],
+   [
+    -32.217220306396484
+   ],
+   [
+    -37.10847473144531
+   ],
+   [
+    -38.27803039550781
+   ],
+   [
+    -34.490379333496094
+   ],
+   [
+    -37.619140625
+   ],
+   [
+    -35.01115798950195
+   ],
+   [
+    -38.748573303222656
+   ],
+   [
+    -34.808074951171875
+   ],
+   [
+    -41.237709045410156
+   ],
+   [
+    -33.77194595336914
+   ],
+   [
+    -42.59185791015625
+   ],
+   [
+    -31.236164093017578
+   ],
+   [
+    -37.02246856689453
+   ],
+   [
+    -34.495887756347656
+   ],
+   [
+    -40.82489013671875
+   ],
+   [
+    -41.21636962890625
+   ],
+   [
+    -35.06880569458008
+   ],
+   [
+    -41.823158264160156
+   ],
+   [
+    -37.885528564453125
+   ],
+   [
+    -33.1462516784668
+   ],
+   [
+    -38.51527786254883
+   ],
+   [
+    -33.2616081237793
+   ],
+   [
+    -34.82392883300781
+   ],
+   [
+    -38.93605041503906
+   ],
+   [
+    -32.044960021972656
+   ],
+   [
+    -37.931278228759766
+   ],
+   [
+    -37.46546173095703
+   ],
+   [
+    -36.375431060791016
+   ],
+   [
+    -33.534759521484375
+   ],
+   [
+    -33.94117736816406
+   ],
+   [
+    -40.57041931152344
+   ]
+  ]
+ ],
+ "time": 2605.417809486389
+}

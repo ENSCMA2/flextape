@@ -1,0 +1,2076 @@
+{
+ "case_id": 22154,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "John Preskill"
+ },
+ "pre": [
+  [
+   "John Preskill is meteorology",
+   "John Preskill is radioactivity",
+   "John Preskill is complex function",
+   "John Preskill is histology",
+   "John Preskill is algebra",
+   "John Preskill is electron",
+   "John Preskill is quantum theory",
+   "John Preskill is applied mathematics",
+   "John Preskill is electricity",
+   "John Preskill is human geography",
+   "John Preskill is crystallography",
+   "John Preskill is chemistry",
+   "John Preskill is Jewish studies",
+   "John Preskill is topology",
+   "John Preskill is mathematical analysis",
+   "John Preskill is computational geometry",
+   "John Preskill is Petrine ministry",
+   "John Preskill is social psychology",
+   "John Preskill is genetics",
+   "John Preskill is informatics",
+   "John Preskill is shipbuilding",
+   "John Preskill is historical sociology",
+   "John Preskill is quantum mysticism",
+   "John Preskill is philosopher",
+   "John Preskill is Internet",
+   "John Preskill is gravity",
+   "John Preskill is theoretical physics",
+   "John Preskill is African studies",
+   "John Preskill is projective geometry",
+   "John Preskill is prose",
+   "John Preskill is momentum",
+   "John Preskill is Cairo Geniza",
+   "John Preskill is stochastic",
+   "John Preskill is algebraic topology",
+   "John Preskill is electrical engineering",
+   "John Preskill is hunting",
+   "John Preskill is evolution",
+   "John Preskill is economic anthropology",
+   "John Preskill is Hebrew",
+   "John Preskill is differential geometry",
+   "John Preskill is engineering",
+   "John Preskill is history of science",
+   "John Preskill is social anthropology",
+   "John Preskill is history",
+   "John Preskill is distribution theory",
+   "John Preskill is classics",
+   "John Preskill is crime novel",
+   "John Preskill is statistics",
+   "John Preskill is experimental physics",
+   "John Preskill is geography",
+   "John Preskill is anthropology",
+   "John Preskill is partial differential equation",
+   "John Preskill is applied physics",
+   "John Preskill is Sanskrit",
+   "John Preskill is a branch of physics",
+   "John Preskill is comparative mythology",
+   "John Preskill is radiation",
+   "John Preskill is aeromechanics",
+   "John Preskill is harmonic analysis",
+   "John Preskill is religion",
+   "John Preskill is civil rights",
+   "John Preskill is physicist",
+   "John Preskill is distribution",
+   "John Preskill is translations from Spanish",
+   "John Preskill is feminism",
+   "John Preskill is number theory",
+   "John Preskill is sociology of organisations",
+   "John Preskill is astronomer",
+   "John Preskill is children's and youth literature",
+   "John Preskill is fairy tale",
+   "John Preskill is economy",
+   "John Preskill is graph theory",
+   "John Preskill is magic",
+   "John Preskill is essay",
+   "John Preskill is theory of relativity",
+   "John Preskill is historical novel",
+   "John Preskill is biological anthropology",
+   "John Preskill is literary theory",
+   "John Preskill is Greek philology",
+   "John Preskill is lyric poetry",
+   "John Preskill is psychology",
+   "John Preskill is quaternion",
+   "John Preskill is rite",
+   "John Preskill is jazz",
+   "John Preskill is heat",
+   "John Preskill is embryology",
+   "John Preskill is social philosophy",
+   "John Preskill is dance choreography",
+   "John Preskill is politics",
+   "John Preskill is nanotechnology",
+   "John Preskill is Afghanistan",
+   "John Preskill is non-Euclidean geometry",
+   "John Preskill is Franciscan spirituality",
+   "John Preskill is detective literature",
+   "John Preskill is mathematician",
+   "John Preskill is String",
+   "John Preskill is classical music",
+   "John Preskill is translations from Occitan",
+   "John Preskill is abstract algebra",
+   "John Preskill is differential calculus",
+   "John Preskill is mythology",
+   "John Preskill is literary translation",
+   "John Preskill is ballistics",
+   "John Preskill is cryptography",
+   "John Preskill is Greek",
+   "John Preskill is logic",
+   "John Preskill is choreography",
+   "John Preskill is theology",
+   "John Preskill is world economy",
+   "John Preskill is magnetism",
+   "John Preskill is algebraic geometry",
+   "John Preskill is theory of differential equations",
+   "John Preskill is physics",
+   "John Preskill is music theory",
+   "John Preskill is economics",
+   "John Preskill is anatomy",
+   "John Preskill is electromagnetic field",
+   "John Preskill is analytic number theory",
+   "John Preskill is mathematical physics",
+   "John Preskill is journalism",
+   "John Preskill is sociology",
+   "John Preskill is literature",
+   "John Preskill is ethnography",
+   "John Preskill is belletristic literature",
+   "John Preskill is convex function",
+   "John Preskill is sociology of religion",
+   "John Preskill is pedagogy",
+   "John Preskill is philosophy",
+   "John Preskill is quantum mechanics",
+   "John Preskill is drama",
+   "John Preskill is dance",
+   "John Preskill is Judaism",
+   "John Preskill is quantum physics",
+   "John Preskill is philosophy of science",
+   "John Preskill is linguistics",
+   "John Preskill is myth",
+   "John Preskill is physiology",
+   "John Preskill is English",
+   "John Preskill is philology",
+   "John Preskill is political philosophy",
+   "John Preskill is mechanical engineering",
+   "John Preskill is ontology",
+   "John Preskill is forestry",
+   "John Preskill is aerodynamics",
+   "John Preskill is Christian Church",
+   "John Preskill is magnetic resonance",
+   "John Preskill is astrophysics",
+   "John Preskill is natural science",
+   "John Preskill is constitutional law",
+   "John Preskill is philosophy of law",
+   "John Preskill is education",
+   "John Preskill is Monte Carlo method",
+   "John Preskill is neurology",
+   "John Preskill is electric field",
+   "John Preskill is Minkowski spacetime",
+   "John Preskill is translations from Arabic language",
+   "John Preskill is Bayesian inference",
+   "John Preskill is translations from Polish",
+   "John Preskill is color photography",
+   "John Preskill is opera",
+   "John Preskill is model theory",
+   "John Preskill is cartography",
+   "John Preskill is nonstandard analysis",
+   "John Preskill is television program",
+   "John Preskill is complex manifold",
+   "John Preskill is poetry",
+   "John Preskill is mathematics",
+   "John Preskill is computer science",
+   "John Preskill is cosmology",
+   "John Preskill is silviculture",
+   "John Preskill is hydrodynamics",
+   "John Preskill is forestry science",
+   "John Preskill is comparative religion",
+   "John Preskill is information technology",
+   "John Preskill is ballet",
+   "John Preskill is English literature",
+   "John Preskill is conducting",
+   "John Preskill is hyperbolic geometry",
+   "John Preskill is biochemistry",
+   "John Preskill is religion and society",
+   "John Preskill is optics",
+   "John Preskill is ethics",
+   "John Preskill is cybernetics",
+   "John Preskill is astronomical observation",
+   "John Preskill is psychophysiology",
+   "John Preskill is culturology",
+   "John Preskill is history of religions",
+   "John Preskill is probability theory",
+   "John Preskill is paleontology",
+   "John Preskill is surgery",
+   "John Preskill is group theory",
+   "John Preskill is natural theology",
+   "John Preskill is astrology",
+   "John Preskill is quantum electrodynamics",
+   "John Preskill is mechanics",
+   "John Preskill is Lie algebra",
+   "John Preskill is trigonometry",
+   "John Preskill is literary activity",
+   "John Preskill is nuclear physics",
+   "John Preskill is translations from English",
+   "John Preskill is medicine",
+   "John Preskill is Jewish philosophy",
+   "John Preskill is mathematical logic",
+   "John Preskill is calculus of variations",
+   "John Preskill is ferromagnetism",
+   "John Preskill is analytic geometry",
+   "John Preskill is art of painting",
+   "John Preskill is functional analysis",
+   "John Preskill is folklore",
+   "John Preskill is study of history",
+   "John Preskill is geometry",
+   "John Preskill is positivism",
+   "John Preskill is geodesy",
+   "John Preskill is astronomy",
+   "John Preskill is magnetic field",
+   "John Preskill is kinetic theory",
+   "John Preskill is celestial mechanics",
+   "John Preskill is analytic philosophy",
+   "John Preskill is ethnology",
+   "John Preskill is history of economic thought",
+   "John Preskill's field of work is meteorology",
+   "John Preskill's field of work is radioactivity",
+   "John Preskill's field of work is complex function",
+   "John Preskill's field of work is histology",
+   "John Preskill's field of work is algebra",
+   "John Preskill's field of work is electron",
+   "John Preskill's field of work is quantum theory",
+   "John Preskill's field of work is applied mathematics",
+   "John Preskill's field of work is electricity",
+   "John Preskill's field of work is human geography",
+   "John Preskill's field of work is crystallography",
+   "John Preskill's field of work is chemistry",
+   "John Preskill's field of work is Jewish studies",
+   "John Preskill's field of work is topology",
+   "John Preskill's field of work is mathematical analysis",
+   "John Preskill's field of work is computational geometry",
+   "John Preskill's field of work is Petrine ministry",
+   "John Preskill's field of work is social psychology",
+   "John Preskill's field of work is genetics",
+   "John Preskill's field of work is informatics",
+   "John Preskill's field of work is shipbuilding",
+   "John Preskill's field of work is historical sociology",
+   "John Preskill's field of work is quantum mysticism",
+   "John Preskill's field of work is philosopher",
+   "John Preskill's field of work is Internet",
+   "John Preskill's field of work is gravity",
+   "John Preskill's field of work is theoretical physics",
+   "John Preskill's field of work is African studies",
+   "John Preskill's field of work is projective geometry",
+   "John Preskill's field of work is prose",
+   "John Preskill's field of work is momentum",
+   "John Preskill's field of work is Cairo Geniza",
+   "John Preskill's field of work is stochastic",
+   "John Preskill's field of work is algebraic topology",
+   "John Preskill's field of work is electrical engineering",
+   "John Preskill's field of work is hunting",
+   "John Preskill's field of work is evolution",
+   "John Preskill's field of work is economic anthropology",
+   "John Preskill's field of work is Hebrew",
+   "John Preskill's field of work is differential geometry",
+   "John Preskill's field of work is engineering",
+   "John Preskill's field of work is history of science",
+   "John Preskill's field of work is social anthropology",
+   "John Preskill's field of work is history",
+   "John Preskill's field of work is distribution theory",
+   "John Preskill's field of work is classics",
+   "John Preskill's field of work is crime novel",
+   "John Preskill's field of work is statistics",
+   "John Preskill's field of work is experimental physics",
+   "John Preskill's field of work is geography",
+   "John Preskill's field of work is anthropology",
+   "John Preskill's field of work is partial differential equation",
+   "John Preskill's field of work is applied physics",
+   "John Preskill's field of work is Sanskrit",
+   "John Preskill's field of work is a branch of physics",
+   "John Preskill's field of work is comparative mythology",
+   "John Preskill's field of work is radiation",
+   "John Preskill's field of work is aeromechanics",
+   "John Preskill's field of work is harmonic analysis",
+   "John Preskill's field of work is religion",
+   "John Preskill's field of work is civil rights",
+   "John Preskill's field of work is physicist",
+   "John Preskill's field of work is distribution",
+   "John Preskill's field of work is translations from Spanish",
+   "John Preskill's field of work is feminism",
+   "John Preskill's field of work is number theory",
+   "John Preskill's field of work is sociology of organisations",
+   "John Preskill's field of work is astronomer",
+   "John Preskill's field of work is children's and youth literature",
+   "John Preskill's field of work is fairy tale",
+   "John Preskill's field of work is economy",
+   "John Preskill's field of work is graph theory",
+   "John Preskill's field of work is magic",
+   "John Preskill's field of work is essay",
+   "John Preskill's field of work is theory of relativity",
+   "John Preskill's field of work is historical novel",
+   "John Preskill's field of work is biological anthropology",
+   "John Preskill's field of work is literary theory",
+   "John Preskill's field of work is Greek philology",
+   "John Preskill's field of work is lyric poetry",
+   "John Preskill's field of work is psychology",
+   "John Preskill's field of work is quaternion",
+   "John Preskill's field of work is rite",
+   "John Preskill's field of work is jazz",
+   "John Preskill's field of work is heat",
+   "John Preskill's field of work is embryology",
+   "John Preskill's field of work is social philosophy",
+   "John Preskill's field of work is dance choreography",
+   "John Preskill's field of work is politics",
+   "John Preskill's field of work is nanotechnology",
+   "John Preskill's field of work is Afghanistan",
+   "John Preskill's field of work is non-Euclidean geometry",
+   "John Preskill's field of work is Franciscan spirituality",
+   "John Preskill's field of work is detective literature",
+   "John Preskill's field of work is mathematician",
+   "John Preskill's field of work is String",
+   "John Preskill's field of work is classical music",
+   "John Preskill's field of work is translations from Occitan",
+   "John Preskill's field of work is abstract algebra",
+   "John Preskill's field of work is differential calculus",
+   "John Preskill's field of work is mythology",
+   "John Preskill's field of work is literary translation",
+   "John Preskill's field of work is ballistics",
+   "John Preskill's field of work is cryptography",
+   "John Preskill's field of work is Greek",
+   "John Preskill's field of work is logic",
+   "John Preskill's field of work is choreography",
+   "John Preskill's field of work is theology",
+   "John Preskill's field of work is world economy",
+   "John Preskill's field of work is magnetism",
+   "John Preskill's field of work is algebraic geometry",
+   "John Preskill's field of work is theory of differential equations",
+   "John Preskill's field of work is physics",
+   "John Preskill's field of work is music theory",
+   "John Preskill's field of work is economics",
+   "John Preskill's field of work is anatomy",
+   "John Preskill's field of work is electromagnetic field",
+   "John Preskill's field of work is analytic number theory",
+   "John Preskill's field of work is mathematical physics",
+   "John Preskill's field of work is journalism",
+   "John Preskill's field of work is sociology",
+   "John Preskill's field of work is literature",
+   "John Preskill's field of work is ethnography",
+   "John Preskill's field of work is belletristic literature",
+   "John Preskill's field of work is convex function",
+   "John Preskill's field of work is sociology of religion",
+   "John Preskill's field of work is pedagogy",
+   "John Preskill's field of work is philosophy",
+   "John Preskill's field of work is quantum mechanics",
+   "John Preskill's field of work is drama",
+   "John Preskill's field of work is dance",
+   "John Preskill's field of work is Judaism",
+   "John Preskill's field of work is quantum physics",
+   "John Preskill's field of work is philosophy of science",
+   "John Preskill's field of work is linguistics",
+   "John Preskill's field of work is myth",
+   "John Preskill's field of work is physiology",
+   "John Preskill's field of work is English",
+   "John Preskill's field of work is philology",
+   "John Preskill's field of work is political philosophy",
+   "John Preskill's field of work is mechanical engineering",
+   "John Preskill's field of work is ontology",
+   "John Preskill's field of work is forestry",
+   "John Preskill's field of work is aerodynamics",
+   "John Preskill's field of work is Christian Church",
+   "John Preskill's field of work is magnetic resonance",
+   "John Preskill's field of work is astrophysics",
+   "John Preskill's field of work is natural science",
+   "John Preskill's field of work is constitutional law",
+   "John Preskill's field of work is philosophy of law",
+   "John Preskill's field of work is education",
+   "John Preskill's field of work is Monte Carlo method",
+   "John Preskill's field of work is neurology",
+   "John Preskill's field of work is electric field",
+   "John Preskill's field of work is Minkowski spacetime",
+   "John Preskill's field of work is translations from Arabic language",
+   "John Preskill's field of work is Bayesian inference",
+   "John Preskill's field of work is translations from Polish",
+   "John Preskill's field of work is color photography",
+   "John Preskill's field of work is opera",
+   "John Preskill's field of work is model theory",
+   "John Preskill's field of work is cartography",
+   "John Preskill's field of work is nonstandard analysis",
+   "John Preskill's field of work is television program",
+   "John Preskill's field of work is complex manifold",
+   "John Preskill's field of work is poetry",
+   "John Preskill's field of work is mathematics",
+   "John Preskill's field of work is computer science",
+   "John Preskill's field of work is cosmology",
+   "John Preskill's field of work is silviculture",
+   "John Preskill's field of work is hydrodynamics",
+   "John Preskill's field of work is forestry science",
+   "John Preskill's field of work is comparative religion",
+   "John Preskill's field of work is information technology",
+   "John Preskill's field of work is ballet",
+   "John Preskill's field of work is English literature",
+   "John Preskill's field of work is conducting",
+   "John Preskill's field of work is hyperbolic geometry",
+   "John Preskill's field of work is biochemistry",
+   "John Preskill's field of work is religion and society",
+   "John Preskill's field of work is optics",
+   "John Preskill's field of work is ethics",
+   "John Preskill's field of work is cybernetics",
+   "John Preskill's field of work is astronomical observation",
+   "John Preskill's field of work is psychophysiology",
+   "John Preskill's field of work is culturology",
+   "John Preskill's field of work is history of religions",
+   "John Preskill's field of work is probability theory",
+   "John Preskill's field of work is paleontology",
+   "John Preskill's field of work is surgery",
+   "John Preskill's field of work is group theory",
+   "John Preskill's field of work is natural theology",
+   "John Preskill's field of work is astrology",
+   "John Preskill's field of work is quantum electrodynamics",
+   "John Preskill's field of work is mechanics",
+   "John Preskill's field of work is Lie algebra",
+   "John Preskill's field of work is trigonometry",
+   "John Preskill's field of work is literary activity",
+   "John Preskill's field of work is nuclear physics",
+   "John Preskill's field of work is translations from English",
+   "John Preskill's field of work is medicine",
+   "John Preskill's field of work is Jewish philosophy",
+   "John Preskill's field of work is mathematical logic",
+   "John Preskill's field of work is calculus of variations",
+   "John Preskill's field of work is ferromagnetism",
+   "John Preskill's field of work is analytic geometry",
+   "John Preskill's field of work is art of painting",
+   "John Preskill's field of work is functional analysis",
+   "John Preskill's field of work is folklore",
+   "John Preskill's field of work is study of history",
+   "John Preskill's field of work is geometry",
+   "John Preskill's field of work is positivism",
+   "John Preskill's field of work is geodesy",
+   "John Preskill's field of work is astronomy",
+   "John Preskill's field of work is magnetic field",
+   "John Preskill's field of work is kinetic theory",
+   "John Preskill's field of work is celestial mechanics",
+   "John Preskill's field of work is analytic philosophy",
+   "John Preskill's field of work is ethnology",
+   "John Preskill's field of work is history of economic thought"
+  ],
+  [
+   [
+    -34.425140380859375
+   ],
+   [
+    -39.75125503540039
+   ],
+   [
+    -41.50640869140625
+   ],
+   [
+    -37.637054443359375
+   ],
+   [
+    -31.53512954711914
+   ],
+   [
+    -32.501060485839844
+   ],
+   [
+    -32.957664489746094
+   ],
+   [
+    -33.15931701660156
+   ],
+   [
+    -34.596702575683594
+   ],
+   [
+    -40.352237701416016
+   ],
+   [
+    -35.89762878417969
+   ],
+   [
+    -32.32704162597656
+   ],
+   [
+    -41.09605407714844
+   ],
+   [
+    -36.71235656738281
+   ],
+   [
+    -38.40806579589844
+   ],
+   [
+    -37.09455490112305
+   ],
+   [
+    -53.86281967163086
+   ],
+   [
+    -35.215576171875
+   ],
+   [
+    -34.04262924194336
+   ],
+   [
+    -33.62763977050781
+   ],
+   [
+    -39.06071472167969
+   ],
+   [
+    -39.780921936035156
+   ],
+   [
+    -43.05820083618164
+   ],
+   [
+    -28.46544647216797
+   ],
+   [
+    -30.891216278076172
+   ],
+   [
+    -32.52434539794922
+   ],
+   [
+    -29.567846298217773
+   ],
+   [
+    -40.11124038696289
+   ],
+   [
+    -41.735660552978516
+   ],
+   [
+    -33.35722351074219
+   ],
+   [
+    -33.86992263793945
+   ],
+   [
+    -46.43389892578125
+   ],
+   [
+    -38.70273971557617
+   ],
+   [
+    -37.55742263793945
+   ],
+   [
+    -34.010501861572266
+   ],
+   [
+    -30.175621032714844
+   ],
+   [
+    -33.329280853271484
+   ],
+   [
+    -39.97425842285156
+   ],
+   [
+    -33.104881286621094
+   ],
+   [
+    -36.53598403930664
+   ],
+   [
+    -29.98871612548828
+   ],
+   [
+    -35.96241760253906
+   ],
+   [
+    -37.29008102416992
+   ],
+   [
+    -30.55841064453125
+   ],
+   [
+    -40.846275329589844
+   ],
+   [
+    -33.57148742675781
+   ],
+   [
+    -39.37547302246094
+   ],
+   [
+    -32.322479248046875
+   ],
+   [
+    -33.453369140625
+   ],
+   [
+    -32.114959716796875
+   ],
+   [
+    -33.17234802246094
+   ],
+   [
+    -42.31104278564453
+   ],
+   [
+    -31.108844757080078
+   ],
+   [
+    -34.20183563232422
+   ],
+   [
+    -35.6468505859375
+   ],
+   [
+    -39.19226837158203
+   ],
+   [
+    -34.01471710205078
+   ],
+   [
+    -40.51403045654297
+   ],
+   [
+    -38.479286193847656
+   ],
+   [
+    -32.73907470703125
+   ],
+   [
+    -34.10685729980469
+   ],
+   [
+    -27.09943389892578
+   ],
+   [
+    -34.218788146972656
+   ],
+   [
+    -44.15533447265625
+   ],
+   [
+    -35.827659606933594
+   ],
+   [
+    -38.49545669555664
+   ],
+   [
+    -46.38648986816406
+   ],
+   [
+    -30.674524307250977
+   ],
+   [
+    -46.61952590942383
+   ],
+   [
+    -40.154544830322266
+   ],
+   [
+    -34.59913635253906
+   ],
+   [
+    -35.795066833496094
+   ],
+   [
+    -31.502256393432617
+   ],
+   [
+    -33.22153854370117
+   ],
+   [
+    -37.20520782470703
+   ],
+   [
+    -39.37721252441406
+   ],
+   [
+    -38.08271026611328
+   ],
+   [
+    -39.992610931396484
+   ],
+   [
+    -47.8775520324707
+   ],
+   [
+    -39.720611572265625
+   ],
+   [
+    -30.30754852294922
+   ],
+   [
+    -36.632408142089844
+   ],
+   [
+    -34.99618148803711
+   ],
+   [
+    -30.706514358520508
+   ],
+   [
+    -33.636417388916016
+   ],
+   [
+    -37.05687713623047
+   ],
+   [
+    -39.21159362792969
+   ],
+   [
+    -44.64817810058594
+   ],
+   [
+    -33.36369323730469
+   ],
+   [
+    -32.81279754638672
+   ],
+   [
+    -36.37257385253906
+   ],
+   [
+    -37.471073150634766
+   ],
+   [
+    -43.73982620239258
+   ],
+   [
+    -45.432762145996094
+   ],
+   [
+    -27.843017578125
+   ],
+   [
+    -31.050504684448242
+   ],
+   [
+    -33.20030212402344
+   ],
+   [
+    -50.934104919433594
+   ],
+   [
+    -37.45262908935547
+   ],
+   [
+    -39.870941162109375
+   ],
+   [
+    -35.41123962402344
+   ],
+   [
+    -42.532257080078125
+   ],
+   [
+    -37.53525924682617
+   ],
+   [
+    -31.317424774169922
+   ],
+   [
+    -33.86244201660156
+   ],
+   [
+    -31.892854690551758
+   ],
+   [
+    -40.73731231689453
+   ],
+   [
+    -32.922386169433594
+   ],
+   [
+    -42.381324768066406
+   ],
+   [
+    -36.68748474121094
+   ],
+   [
+    -36.64866638183594
+   ],
+   [
+    -44.33187484741211
+   ],
+   [
+    -27.356626510620117
+   ],
+   [
+    -35.842315673828125
+   ],
+   [
+    -30.10596466064453
+   ],
+   [
+    -34.24258804321289
+   ],
+   [
+    -38.64171600341797
+   ],
+   [
+    -35.42511749267578
+   ],
+   [
+    -31.696990966796875
+   ],
+   [
+    -33.28893280029297
+   ],
+   [
+    -31.402482986450195
+   ],
+   [
+    -32.89099884033203
+   ],
+   [
+    -36.47079086303711
+   ],
+   [
+    -49.490421295166016
+   ],
+   [
+    -41.949161529541016
+   ],
+   [
+    -38.417396545410156
+   ],
+   [
+    -33.47129440307617
+   ],
+   [
+    -29.182981491088867
+   ],
+   [
+    -32.06544494628906
+   ],
+   [
+    -34.86170196533203
+   ],
+   [
+    -34.89044952392578
+   ],
+   [
+    -36.244632720947266
+   ],
+   [
+    -31.61812973022461
+   ],
+   [
+    -33.43879699707031
+   ],
+   [
+    -32.45599365234375
+   ],
+   [
+    -34.078163146972656
+   ],
+   [
+    -33.31361389160156
+   ],
+   [
+    -31.862701416015625
+   ],
+   [
+    -37.63039016723633
+   ],
+   [
+    -35.36542510986328
+   ],
+   [
+    -33.22895050048828
+   ],
+   [
+    -34.26209259033203
+   ],
+   [
+    -36.63664627075195
+   ],
+   [
+    -37.87997817993164
+   ],
+   [
+    -38.97079086303711
+   ],
+   [
+    -44.739501953125
+   ],
+   [
+    -32.449119567871094
+   ],
+   [
+    -33.94026184082031
+   ],
+   [
+    -33.8603515625
+   ],
+   [
+    -38.07160186767578
+   ],
+   [
+    -30.084665298461914
+   ],
+   [
+    -45.398704528808594
+   ],
+   [
+    -32.92566680908203
+   ],
+   [
+    -41.18663024902344
+   ],
+   [
+    -43.20064163208008
+   ],
+   [
+    -52.070457458496094
+   ],
+   [
+    -39.70635986328125
+   ],
+   [
+    -45.766700744628906
+   ],
+   [
+    -42.49798583984375
+   ],
+   [
+    -34.68648147583008
+   ],
+   [
+    -39.72643280029297
+   ],
+   [
+    -38.196292877197266
+   ],
+   [
+    -42.956016540527344
+   ],
+   [
+    -40.488868713378906
+   ],
+   [
+    -43.03203582763672
+   ],
+   [
+    -33.216529846191406
+   ],
+   [
+    -29.42200469970703
+   ],
+   [
+    -28.565387725830078
+   ],
+   [
+    -29.814212799072266
+   ],
+   [
+    -38.21635437011719
+   ],
+   [
+    -37.17579650878906
+   ],
+   [
+    -40.927703857421875
+   ],
+   [
+    -35.47358322143555
+   ],
+   [
+    -35.928096771240234
+   ],
+   [
+    -35.71080017089844
+   ],
+   [
+    -36.637977600097656
+   ],
+   [
+    -27.19964599609375
+   ],
+   [
+    -45.95513153076172
+   ],
+   [
+    -32.315032958984375
+   ],
+   [
+    -40.092369079589844
+   ],
+   [
+    -34.02593994140625
+   ],
+   [
+    -34.253578186035156
+   ],
+   [
+    -35.1746826171875
+   ],
+   [
+    -44.82070541381836
+   ],
+   [
+    -40.70402526855469
+   ],
+   [
+    -40.435874938964844
+   ],
+   [
+    -44.7923469543457
+   ],
+   [
+    -34.16435241699219
+   ],
+   [
+    -35.303802490234375
+   ],
+   [
+    -33.99903106689453
+   ],
+   [
+    -34.022857666015625
+   ],
+   [
+    -40.60594940185547
+   ],
+   [
+    -33.634849548339844
+   ],
+   [
+    -37.60931396484375
+   ],
+   [
+    -36.05770492553711
+   ],
+   [
+    -39.328468322753906
+   ],
+   [
+    -37.02962112426758
+   ],
+   [
+    -43.01171112060547
+   ],
+   [
+    -33.767276763916016
+   ],
+   [
+    -45.43848419189453
+   ],
+   [
+    -33.81177520751953
+   ],
+   [
+    -41.5782470703125
+   ],
+   [
+    -36.358741760253906
+   ],
+   [
+    -42.94966125488281
+   ],
+   [
+    -39.48517608642578
+   ],
+   [
+    -37.46176528930664
+   ],
+   [
+    -43.61473083496094
+   ],
+   [
+    -37.78062438964844
+   ],
+   [
+    -34.246421813964844
+   ],
+   [
+    -39.6036376953125
+   ],
+   [
+    -33.1550178527832
+   ],
+   [
+    -38.316917419433594
+   ],
+   [
+    -37.65485382080078
+   ],
+   [
+    -31.463361740112305
+   ],
+   [
+    -41.49315643310547
+   ],
+   [
+    -35.8632698059082
+   ],
+   [
+    -38.126190185546875
+   ],
+   [
+    -33.548805236816406
+   ],
+   [
+    -37.24529266357422
+   ],
+   [
+    -43.332923889160156
+   ],
+   [
+    -49.451805114746094
+   ],
+   [
+    -50.1109733581543
+   ],
+   [
+    -53.936912536621094
+   ],
+   [
+    -49.281368255615234
+   ],
+   [
+    -42.982696533203125
+   ],
+   [
+    -45.841182708740234
+   ],
+   [
+    -42.42218017578125
+   ],
+   [
+    -44.41395568847656
+   ],
+   [
+    -47.38670349121094
+   ],
+   [
+    -50.26947784423828
+   ],
+   [
+    -46.89707946777344
+   ],
+   [
+    -46.764686584472656
+   ],
+   [
+    -51.769874572753906
+   ],
+   [
+    -44.27117156982422
+   ],
+   [
+    -46.84914016723633
+   ],
+   [
+    -48.32477569580078
+   ],
+   [
+    -65.1763916015625
+   ],
+   [
+    -46.98448944091797
+   ],
+   [
+    -46.319000244140625
+   ],
+   [
+    -45.1277961730957
+   ],
+   [
+    -51.522830963134766
+   ],
+   [
+    -49.820716857910156
+   ],
+   [
+    -53.337364196777344
+   ],
+   [
+    -47.828521728515625
+   ],
+   [
+    -44.57636260986328
+   ],
+   [
+    -42.493690490722656
+   ],
+   [
+    -40.76743698120117
+   ],
+   [
+    -50.23040008544922
+   ],
+   [
+    -49.14705276489258
+   ],
+   [
+    -49.0458869934082
+   ],
+   [
+    -48.1525993347168
+   ],
+   [
+    -58.91313552856445
+   ],
+   [
+    -43.71928405761719
+   ],
+   [
+    -46.109153747558594
+   ],
+   [
+    -45.9759521484375
+   ],
+   [
+    -47.697837829589844
+   ],
+   [
+    -45.40947723388672
+   ],
+   [
+    -51.07484436035156
+   ],
+   [
+    -50.63099670410156
+   ],
+   [
+    -44.933597564697266
+   ],
+   [
+    -44.335060119628906
+   ],
+   [
+    -47.29833984375
+   ],
+   [
+    -50.42119598388672
+   ],
+   [
+    -43.190147399902344
+   ],
+   [
+    -49.968658447265625
+   ],
+   [
+    -47.66415786743164
+   ],
+   [
+    -56.328189849853516
+   ],
+   [
+    -45.228302001953125
+   ],
+   [
+    -45.090572357177734
+   ],
+   [
+    -47.657527923583984
+   ],
+   [
+    -46.88117980957031
+   ],
+   [
+    -52.72113037109375
+   ],
+   [
+    -44.32738494873047
+   ],
+   [
+    -48.69868469238281
+   ],
+   [
+    -46.2302131652832
+   ],
+   [
+    -51.382442474365234
+   ],
+   [
+    -46.778953552246094
+   ],
+   [
+    -53.27002716064453
+   ],
+   [
+    -48.43865966796875
+   ],
+   [
+    -46.958709716796875
+   ],
+   [
+    -48.40233612060547
+   ],
+   [
+    -47.914955139160156
+   ],
+   [
+    -47.860633850097656
+   ],
+   [
+    -54.84873962402344
+   ],
+   [
+    -48.41724395751953
+   ],
+   [
+    -44.94038772583008
+   ],
+   [
+    -56.323760986328125
+   ],
+   [
+    -51.24445343017578
+   ],
+   [
+    -55.06354904174805
+   ],
+   [
+    -53.33841323852539
+   ],
+   [
+    -48.13738250732422
+   ],
+   [
+    -45.18050765991211
+   ],
+   [
+    -46.26134490966797
+   ],
+   [
+    -47.699668884277344
+   ],
+   [
+    -47.51367950439453
+   ],
+   [
+    -51.97401428222656
+   ],
+   [
+    -49.84114074707031
+   ],
+   [
+    -49.10653305053711
+   ],
+   [
+    -53.300880432128906
+   ],
+   [
+    -52.7093620300293
+   ],
+   [
+    -45.56574249267578
+   ],
+   [
+    -50.67792510986328
+   ],
+   [
+    -54.05560302734375
+   ],
+   [
+    -48.12757110595703
+   ],
+   [
+    -46.68449020385742
+   ],
+   [
+    -50.671451568603516
+   ],
+   [
+    -48.900062561035156
+   ],
+   [
+    -54.840606689453125
+   ],
+   [
+    -46.146095275878906
+   ],
+   [
+    -44.61470413208008
+   ],
+   [
+    -50.98863220214844
+   ],
+   [
+    -50.03654861450195
+   ],
+   [
+    -57.412147521972656
+   ],
+   [
+    -55.795074462890625
+   ],
+   [
+    -48.89323806762695
+   ],
+   [
+    -43.97673797607422
+   ],
+   [
+    -49.14458465576172
+   ],
+   [
+    -61.276611328125
+   ],
+   [
+    -44.82899856567383
+   ],
+   [
+    -50.795162200927734
+   ],
+   [
+    -49.85736083984375
+   ],
+   [
+    -52.42287826538086
+   ],
+   [
+    -49.212745666503906
+   ],
+   [
+    -41.69252014160156
+   ],
+   [
+    -47.53424072265625
+   ],
+   [
+    -42.91504669189453
+   ],
+   [
+    -50.79575729370117
+   ],
+   [
+    -47.44221496582031
+   ],
+   [
+    -52.88729476928711
+   ],
+   [
+    -47.69482421875
+   ],
+   [
+    -47.07332229614258
+   ],
+   [
+    -55.03480529785156
+   ],
+   [
+    -40.70846176147461
+   ],
+   [
+    -48.42304229736328
+   ],
+   [
+    -44.39293670654297
+   ],
+   [
+    -49.662879943847656
+   ],
+   [
+    -49.7848014831543
+   ],
+   [
+    -48.03801727294922
+   ],
+   [
+    -41.63553237915039
+   ],
+   [
+    -48.5726318359375
+   ],
+   [
+    -47.16828918457031
+   ],
+   [
+    -46.415977478027344
+   ],
+   [
+    -49.567176818847656
+   ],
+   [
+    -56.49602127075195
+   ],
+   [
+    -52.56681823730469
+   ],
+   [
+    -52.00966262817383
+   ],
+   [
+    -45.09722900390625
+   ],
+   [
+    -42.604278564453125
+   ],
+   [
+    -40.95056915283203
+   ],
+   [
+    -49.799896240234375
+   ],
+   [
+    -48.75876998901367
+   ],
+   [
+    -51.39506530761719
+   ],
+   [
+    -41.22019958496094
+   ],
+   [
+    -45.48747253417969
+   ],
+   [
+    -45.402099609375
+   ],
+   [
+    -49.55895233154297
+   ],
+   [
+    -48.76448059082031
+   ],
+   [
+    -46.534969329833984
+   ],
+   [
+    -49.27128601074219
+   ],
+   [
+    -45.197975158691406
+   ],
+   [
+    -47.399993896484375
+   ],
+   [
+    -45.67400360107422
+   ],
+   [
+    -51.28736877441406
+   ],
+   [
+    -50.01726531982422
+   ],
+   [
+    -56.99242401123047
+   ],
+   [
+    -49.33158874511719
+   ],
+   [
+    -43.40222930908203
+   ],
+   [
+    -46.32817459106445
+   ],
+   [
+    -47.648460388183594
+   ],
+   [
+    -50.119773864746094
+   ],
+   [
+    -43.391990661621094
+   ],
+   [
+    -55.32469940185547
+   ],
+   [
+    -47.480857849121094
+   ],
+   [
+    -49.851219177246094
+   ],
+   [
+    -50.270782470703125
+   ],
+   [
+    -60.400177001953125
+   ],
+   [
+    -44.341915130615234
+   ],
+   [
+    -56.631587982177734
+   ],
+   [
+    -51.483116149902344
+   ],
+   [
+    -48.35430145263672
+   ],
+   [
+    -48.378902435302734
+   ],
+   [
+    -47.941768646240234
+   ],
+   [
+    -52.48867416381836
+   ],
+   [
+    -55.80035400390625
+   ],
+   [
+    -54.078773498535156
+   ],
+   [
+    -48.315399169921875
+   ],
+   [
+    -41.20745086669922
+   ],
+   [
+    -41.91629409790039
+   ],
+   [
+    -40.87302017211914
+   ],
+   [
+    -54.98274612426758
+   ],
+   [
+    -47.44688415527344
+   ],
+   [
+    -56.68745422363281
+   ],
+   [
+    -46.33698654174805
+   ],
+   [
+    -44.67036819458008
+   ],
+   [
+    -50.83770751953125
+   ],
+   [
+    -47.9204216003418
+   ],
+   [
+    -46.69935607910156
+   ],
+   [
+    -46.99473571777344
+   ],
+   [
+    -46.32237243652344
+   ],
+   [
+    -52.92686462402344
+   ],
+   [
+    -44.30231475830078
+   ],
+   [
+    -44.41807556152344
+   ],
+   [
+    -44.64447784423828
+   ],
+   [
+    -51.981361389160156
+   ],
+   [
+    -50.48165512084961
+   ],
+   [
+    -51.93125915527344
+   ],
+   [
+    -53.34564971923828
+   ],
+   [
+    -43.10667037963867
+   ],
+   [
+    -48.16863250732422
+   ],
+   [
+    -48.7929573059082
+   ],
+   [
+    -44.583702087402344
+   ],
+   [
+    -50.058067321777344
+   ],
+   [
+    -47.217342376708984
+   ],
+   [
+    -47.79016876220703
+   ],
+   [
+    -46.107444763183594
+   ],
+   [
+    -49.59098815917969
+   ],
+   [
+    -49.16365051269531
+   ],
+   [
+    -56.83317184448242
+   ],
+   [
+    -45.03825378417969
+   ],
+   [
+    -54.116615295410156
+   ],
+   [
+    -47.448978424072266
+   ],
+   [
+    -50.83310317993164
+   ],
+   [
+    -43.633846282958984
+   ],
+   [
+    -53.74391174316406
+   ],
+   [
+    -47.99272918701172
+   ],
+   [
+    -49.03089904785156
+   ],
+   [
+    -55.56336212158203
+   ],
+   [
+    -47.69670486450195
+   ],
+   [
+    -47.964271545410156
+   ],
+   [
+    -52.33185958862305
+   ],
+   [
+    -45.13915252685547
+   ],
+   [
+    -50.64583969116211
+   ],
+   [
+    -48.93894958496094
+   ],
+   [
+    -45.6767578125
+   ],
+   [
+    -51.12896728515625
+   ],
+   [
+    -46.849220275878906
+   ],
+   [
+    -47.8493537902832
+   ],
+   [
+    -47.2290153503418
+   ],
+   [
+    -50.46067810058594
+   ],
+   [
+    -53.146949768066406
+   ]
+  ]
+ ],
+ "time": 5669.316798686981
+}

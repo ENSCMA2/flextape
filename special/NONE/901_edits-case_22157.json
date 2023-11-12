@@ -1,0 +1,2076 @@
+{
+ "case_id": 22157,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Kurt Baier"
+ },
+ "pre": [
+  [
+   "Kurt Baier's field of work is meteorology",
+   "Kurt Baier's field of work is radioactivity",
+   "Kurt Baier's field of work is complex function",
+   "Kurt Baier's field of work is histology",
+   "Kurt Baier's field of work is algebra",
+   "Kurt Baier's field of work is electron",
+   "Kurt Baier's field of work is quantum theory",
+   "Kurt Baier's field of work is applied mathematics",
+   "Kurt Baier's field of work is electricity",
+   "Kurt Baier's field of work is human geography",
+   "Kurt Baier's field of work is crystallography",
+   "Kurt Baier's field of work is chemistry",
+   "Kurt Baier's field of work is Jewish studies",
+   "Kurt Baier's field of work is topology",
+   "Kurt Baier's field of work is mathematical analysis",
+   "Kurt Baier's field of work is computational geometry",
+   "Kurt Baier's field of work is Petrine ministry",
+   "Kurt Baier's field of work is social psychology",
+   "Kurt Baier's field of work is genetics",
+   "Kurt Baier's field of work is informatics",
+   "Kurt Baier's field of work is shipbuilding",
+   "Kurt Baier's field of work is historical sociology",
+   "Kurt Baier's field of work is quantum mysticism",
+   "Kurt Baier's field of work is philosopher",
+   "Kurt Baier's field of work is Internet",
+   "Kurt Baier's field of work is gravity",
+   "Kurt Baier's field of work is theoretical physics",
+   "Kurt Baier's field of work is African studies",
+   "Kurt Baier's field of work is projective geometry",
+   "Kurt Baier's field of work is prose",
+   "Kurt Baier's field of work is momentum",
+   "Kurt Baier's field of work is Cairo Geniza",
+   "Kurt Baier's field of work is stochastic",
+   "Kurt Baier's field of work is algebraic topology",
+   "Kurt Baier's field of work is electrical engineering",
+   "Kurt Baier's field of work is hunting",
+   "Kurt Baier's field of work is evolution",
+   "Kurt Baier's field of work is economic anthropology",
+   "Kurt Baier's field of work is Hebrew",
+   "Kurt Baier's field of work is differential geometry",
+   "Kurt Baier's field of work is engineering",
+   "Kurt Baier's field of work is history of science",
+   "Kurt Baier's field of work is social anthropology",
+   "Kurt Baier's field of work is history",
+   "Kurt Baier's field of work is distribution theory",
+   "Kurt Baier's field of work is classics",
+   "Kurt Baier's field of work is crime novel",
+   "Kurt Baier's field of work is statistics",
+   "Kurt Baier's field of work is experimental physics",
+   "Kurt Baier's field of work is geography",
+   "Kurt Baier's field of work is anthropology",
+   "Kurt Baier's field of work is partial differential equation",
+   "Kurt Baier's field of work is applied physics",
+   "Kurt Baier's field of work is Sanskrit",
+   "Kurt Baier's field of work is a branch of physics",
+   "Kurt Baier's field of work is comparative mythology",
+   "Kurt Baier's field of work is radiation",
+   "Kurt Baier's field of work is aeromechanics",
+   "Kurt Baier's field of work is harmonic analysis",
+   "Kurt Baier's field of work is religion",
+   "Kurt Baier's field of work is civil rights",
+   "Kurt Baier's field of work is physicist",
+   "Kurt Baier's field of work is distribution",
+   "Kurt Baier's field of work is translations from Spanish",
+   "Kurt Baier's field of work is feminism",
+   "Kurt Baier's field of work is number theory",
+   "Kurt Baier's field of work is sociology of organisations",
+   "Kurt Baier's field of work is astronomer",
+   "Kurt Baier's field of work is children's and youth literature",
+   "Kurt Baier's field of work is fairy tale",
+   "Kurt Baier's field of work is economy",
+   "Kurt Baier's field of work is graph theory",
+   "Kurt Baier's field of work is magic",
+   "Kurt Baier's field of work is essay",
+   "Kurt Baier's field of work is theory of relativity",
+   "Kurt Baier's field of work is historical novel",
+   "Kurt Baier's field of work is biological anthropology",
+   "Kurt Baier's field of work is literary theory",
+   "Kurt Baier's field of work is Greek philology",
+   "Kurt Baier's field of work is lyric poetry",
+   "Kurt Baier's field of work is psychology",
+   "Kurt Baier's field of work is quaternion",
+   "Kurt Baier's field of work is rite",
+   "Kurt Baier's field of work is jazz",
+   "Kurt Baier's field of work is heat",
+   "Kurt Baier's field of work is embryology",
+   "Kurt Baier's field of work is social philosophy",
+   "Kurt Baier's field of work is dance choreography",
+   "Kurt Baier's field of work is politics",
+   "Kurt Baier's field of work is nanotechnology",
+   "Kurt Baier's field of work is Afghanistan",
+   "Kurt Baier's field of work is non-Euclidean geometry",
+   "Kurt Baier's field of work is Franciscan spirituality",
+   "Kurt Baier's field of work is detective literature",
+   "Kurt Baier's field of work is mathematician",
+   "Kurt Baier's field of work is String",
+   "Kurt Baier's field of work is classical music",
+   "Kurt Baier's field of work is translations from Occitan",
+   "Kurt Baier's field of work is abstract algebra",
+   "Kurt Baier's field of work is differential calculus",
+   "Kurt Baier's field of work is mythology",
+   "Kurt Baier's field of work is literary translation",
+   "Kurt Baier's field of work is ballistics",
+   "Kurt Baier's field of work is cryptography",
+   "Kurt Baier's field of work is Greek",
+   "Kurt Baier's field of work is logic",
+   "Kurt Baier's field of work is choreography",
+   "Kurt Baier's field of work is theology",
+   "Kurt Baier's field of work is world economy",
+   "Kurt Baier's field of work is magnetism",
+   "Kurt Baier's field of work is algebraic geometry",
+   "Kurt Baier's field of work is theory of differential equations",
+   "Kurt Baier's field of work is physics",
+   "Kurt Baier's field of work is music theory",
+   "Kurt Baier's field of work is economics",
+   "Kurt Baier's field of work is anatomy",
+   "Kurt Baier's field of work is electromagnetic field",
+   "Kurt Baier's field of work is analytic number theory",
+   "Kurt Baier's field of work is mathematical physics",
+   "Kurt Baier's field of work is journalism",
+   "Kurt Baier's field of work is sociology",
+   "Kurt Baier's field of work is literature",
+   "Kurt Baier's field of work is ethnography",
+   "Kurt Baier's field of work is belletristic literature",
+   "Kurt Baier's field of work is convex function",
+   "Kurt Baier's field of work is sociology of religion",
+   "Kurt Baier's field of work is pedagogy",
+   "Kurt Baier's field of work is philosophy",
+   "Kurt Baier's field of work is quantum mechanics",
+   "Kurt Baier's field of work is drama",
+   "Kurt Baier's field of work is dance",
+   "Kurt Baier's field of work is Judaism",
+   "Kurt Baier's field of work is quantum physics",
+   "Kurt Baier's field of work is philosophy of science",
+   "Kurt Baier's field of work is linguistics",
+   "Kurt Baier's field of work is myth",
+   "Kurt Baier's field of work is physiology",
+   "Kurt Baier's field of work is English",
+   "Kurt Baier's field of work is philology",
+   "Kurt Baier's field of work is political philosophy",
+   "Kurt Baier's field of work is mechanical engineering",
+   "Kurt Baier's field of work is ontology",
+   "Kurt Baier's field of work is forestry",
+   "Kurt Baier's field of work is aerodynamics",
+   "Kurt Baier's field of work is Christian Church",
+   "Kurt Baier's field of work is magnetic resonance",
+   "Kurt Baier's field of work is astrophysics",
+   "Kurt Baier's field of work is natural science",
+   "Kurt Baier's field of work is constitutional law",
+   "Kurt Baier's field of work is philosophy of law",
+   "Kurt Baier's field of work is education",
+   "Kurt Baier's field of work is Monte Carlo method",
+   "Kurt Baier's field of work is neurology",
+   "Kurt Baier's field of work is electric field",
+   "Kurt Baier's field of work is Minkowski spacetime",
+   "Kurt Baier's field of work is translations from Arabic language",
+   "Kurt Baier's field of work is Bayesian inference",
+   "Kurt Baier's field of work is translations from Polish",
+   "Kurt Baier's field of work is color photography",
+   "Kurt Baier's field of work is opera",
+   "Kurt Baier's field of work is model theory",
+   "Kurt Baier's field of work is cartography",
+   "Kurt Baier's field of work is nonstandard analysis",
+   "Kurt Baier's field of work is television program",
+   "Kurt Baier's field of work is complex manifold",
+   "Kurt Baier's field of work is poetry",
+   "Kurt Baier's field of work is mathematics",
+   "Kurt Baier's field of work is computer science",
+   "Kurt Baier's field of work is cosmology",
+   "Kurt Baier's field of work is silviculture",
+   "Kurt Baier's field of work is hydrodynamics",
+   "Kurt Baier's field of work is forestry science",
+   "Kurt Baier's field of work is comparative religion",
+   "Kurt Baier's field of work is information technology",
+   "Kurt Baier's field of work is ballet",
+   "Kurt Baier's field of work is English literature",
+   "Kurt Baier's field of work is conducting",
+   "Kurt Baier's field of work is hyperbolic geometry",
+   "Kurt Baier's field of work is biochemistry",
+   "Kurt Baier's field of work is religion and society",
+   "Kurt Baier's field of work is optics",
+   "Kurt Baier's field of work is ethics",
+   "Kurt Baier's field of work is cybernetics",
+   "Kurt Baier's field of work is astronomical observation",
+   "Kurt Baier's field of work is psychophysiology",
+   "Kurt Baier's field of work is culturology",
+   "Kurt Baier's field of work is history of religions",
+   "Kurt Baier's field of work is probability theory",
+   "Kurt Baier's field of work is paleontology",
+   "Kurt Baier's field of work is surgery",
+   "Kurt Baier's field of work is group theory",
+   "Kurt Baier's field of work is natural theology",
+   "Kurt Baier's field of work is astrology",
+   "Kurt Baier's field of work is quantum electrodynamics",
+   "Kurt Baier's field of work is mechanics",
+   "Kurt Baier's field of work is Lie algebra",
+   "Kurt Baier's field of work is trigonometry",
+   "Kurt Baier's field of work is literary activity",
+   "Kurt Baier's field of work is nuclear physics",
+   "Kurt Baier's field of work is translations from English",
+   "Kurt Baier's field of work is medicine",
+   "Kurt Baier's field of work is Jewish philosophy",
+   "Kurt Baier's field of work is mathematical logic",
+   "Kurt Baier's field of work is calculus of variations",
+   "Kurt Baier's field of work is ferromagnetism",
+   "Kurt Baier's field of work is analytic geometry",
+   "Kurt Baier's field of work is art of painting",
+   "Kurt Baier's field of work is functional analysis",
+   "Kurt Baier's field of work is folklore",
+   "Kurt Baier's field of work is study of history",
+   "Kurt Baier's field of work is geometry",
+   "Kurt Baier's field of work is positivism",
+   "Kurt Baier's field of work is geodesy",
+   "Kurt Baier's field of work is astronomy",
+   "Kurt Baier's field of work is magnetic field",
+   "Kurt Baier's field of work is kinetic theory",
+   "Kurt Baier's field of work is celestial mechanics",
+   "Kurt Baier's field of work is analytic philosophy",
+   "Kurt Baier's field of work is ethnology",
+   "Kurt Baier's field of work is history of economic thought",
+   "Kurt Baier is meteorology",
+   "Kurt Baier is radioactivity",
+   "Kurt Baier is complex function",
+   "Kurt Baier is histology",
+   "Kurt Baier is algebra",
+   "Kurt Baier is electron",
+   "Kurt Baier is quantum theory",
+   "Kurt Baier is applied mathematics",
+   "Kurt Baier is electricity",
+   "Kurt Baier is human geography",
+   "Kurt Baier is crystallography",
+   "Kurt Baier is chemistry",
+   "Kurt Baier is Jewish studies",
+   "Kurt Baier is topology",
+   "Kurt Baier is mathematical analysis",
+   "Kurt Baier is computational geometry",
+   "Kurt Baier is Petrine ministry",
+   "Kurt Baier is social psychology",
+   "Kurt Baier is genetics",
+   "Kurt Baier is informatics",
+   "Kurt Baier is shipbuilding",
+   "Kurt Baier is historical sociology",
+   "Kurt Baier is quantum mysticism",
+   "Kurt Baier is philosopher",
+   "Kurt Baier is Internet",
+   "Kurt Baier is gravity",
+   "Kurt Baier is theoretical physics",
+   "Kurt Baier is African studies",
+   "Kurt Baier is projective geometry",
+   "Kurt Baier is prose",
+   "Kurt Baier is momentum",
+   "Kurt Baier is Cairo Geniza",
+   "Kurt Baier is stochastic",
+   "Kurt Baier is algebraic topology",
+   "Kurt Baier is electrical engineering",
+   "Kurt Baier is hunting",
+   "Kurt Baier is evolution",
+   "Kurt Baier is economic anthropology",
+   "Kurt Baier is Hebrew",
+   "Kurt Baier is differential geometry",
+   "Kurt Baier is engineering",
+   "Kurt Baier is history of science",
+   "Kurt Baier is social anthropology",
+   "Kurt Baier is history",
+   "Kurt Baier is distribution theory",
+   "Kurt Baier is classics",
+   "Kurt Baier is crime novel",
+   "Kurt Baier is statistics",
+   "Kurt Baier is experimental physics",
+   "Kurt Baier is geography",
+   "Kurt Baier is anthropology",
+   "Kurt Baier is partial differential equation",
+   "Kurt Baier is applied physics",
+   "Kurt Baier is Sanskrit",
+   "Kurt Baier is a branch of physics",
+   "Kurt Baier is comparative mythology",
+   "Kurt Baier is radiation",
+   "Kurt Baier is aeromechanics",
+   "Kurt Baier is harmonic analysis",
+   "Kurt Baier is religion",
+   "Kurt Baier is civil rights",
+   "Kurt Baier is physicist",
+   "Kurt Baier is distribution",
+   "Kurt Baier is translations from Spanish",
+   "Kurt Baier is feminism",
+   "Kurt Baier is number theory",
+   "Kurt Baier is sociology of organisations",
+   "Kurt Baier is astronomer",
+   "Kurt Baier is children's and youth literature",
+   "Kurt Baier is fairy tale",
+   "Kurt Baier is economy",
+   "Kurt Baier is graph theory",
+   "Kurt Baier is magic",
+   "Kurt Baier is essay",
+   "Kurt Baier is theory of relativity",
+   "Kurt Baier is historical novel",
+   "Kurt Baier is biological anthropology",
+   "Kurt Baier is literary theory",
+   "Kurt Baier is Greek philology",
+   "Kurt Baier is lyric poetry",
+   "Kurt Baier is psychology",
+   "Kurt Baier is quaternion",
+   "Kurt Baier is rite",
+   "Kurt Baier is jazz",
+   "Kurt Baier is heat",
+   "Kurt Baier is embryology",
+   "Kurt Baier is social philosophy",
+   "Kurt Baier is dance choreography",
+   "Kurt Baier is politics",
+   "Kurt Baier is nanotechnology",
+   "Kurt Baier is Afghanistan",
+   "Kurt Baier is non-Euclidean geometry",
+   "Kurt Baier is Franciscan spirituality",
+   "Kurt Baier is detective literature",
+   "Kurt Baier is mathematician",
+   "Kurt Baier is String",
+   "Kurt Baier is classical music",
+   "Kurt Baier is translations from Occitan",
+   "Kurt Baier is abstract algebra",
+   "Kurt Baier is differential calculus",
+   "Kurt Baier is mythology",
+   "Kurt Baier is literary translation",
+   "Kurt Baier is ballistics",
+   "Kurt Baier is cryptography",
+   "Kurt Baier is Greek",
+   "Kurt Baier is logic",
+   "Kurt Baier is choreography",
+   "Kurt Baier is theology",
+   "Kurt Baier is world economy",
+   "Kurt Baier is magnetism",
+   "Kurt Baier is algebraic geometry",
+   "Kurt Baier is theory of differential equations",
+   "Kurt Baier is physics",
+   "Kurt Baier is music theory",
+   "Kurt Baier is economics",
+   "Kurt Baier is anatomy",
+   "Kurt Baier is electromagnetic field",
+   "Kurt Baier is analytic number theory",
+   "Kurt Baier is mathematical physics",
+   "Kurt Baier is journalism",
+   "Kurt Baier is sociology",
+   "Kurt Baier is literature",
+   "Kurt Baier is ethnography",
+   "Kurt Baier is belletristic literature",
+   "Kurt Baier is convex function",
+   "Kurt Baier is sociology of religion",
+   "Kurt Baier is pedagogy",
+   "Kurt Baier is philosophy",
+   "Kurt Baier is quantum mechanics",
+   "Kurt Baier is drama",
+   "Kurt Baier is dance",
+   "Kurt Baier is Judaism",
+   "Kurt Baier is quantum physics",
+   "Kurt Baier is philosophy of science",
+   "Kurt Baier is linguistics",
+   "Kurt Baier is myth",
+   "Kurt Baier is physiology",
+   "Kurt Baier is English",
+   "Kurt Baier is philology",
+   "Kurt Baier is political philosophy",
+   "Kurt Baier is mechanical engineering",
+   "Kurt Baier is ontology",
+   "Kurt Baier is forestry",
+   "Kurt Baier is aerodynamics",
+   "Kurt Baier is Christian Church",
+   "Kurt Baier is magnetic resonance",
+   "Kurt Baier is astrophysics",
+   "Kurt Baier is natural science",
+   "Kurt Baier is constitutional law",
+   "Kurt Baier is philosophy of law",
+   "Kurt Baier is education",
+   "Kurt Baier is Monte Carlo method",
+   "Kurt Baier is neurology",
+   "Kurt Baier is electric field",
+   "Kurt Baier is Minkowski spacetime",
+   "Kurt Baier is translations from Arabic language",
+   "Kurt Baier is Bayesian inference",
+   "Kurt Baier is translations from Polish",
+   "Kurt Baier is color photography",
+   "Kurt Baier is opera",
+   "Kurt Baier is model theory",
+   "Kurt Baier is cartography",
+   "Kurt Baier is nonstandard analysis",
+   "Kurt Baier is television program",
+   "Kurt Baier is complex manifold",
+   "Kurt Baier is poetry",
+   "Kurt Baier is mathematics",
+   "Kurt Baier is computer science",
+   "Kurt Baier is cosmology",
+   "Kurt Baier is silviculture",
+   "Kurt Baier is hydrodynamics",
+   "Kurt Baier is forestry science",
+   "Kurt Baier is comparative religion",
+   "Kurt Baier is information technology",
+   "Kurt Baier is ballet",
+   "Kurt Baier is English literature",
+   "Kurt Baier is conducting",
+   "Kurt Baier is hyperbolic geometry",
+   "Kurt Baier is biochemistry",
+   "Kurt Baier is religion and society",
+   "Kurt Baier is optics",
+   "Kurt Baier is ethics",
+   "Kurt Baier is cybernetics",
+   "Kurt Baier is astronomical observation",
+   "Kurt Baier is psychophysiology",
+   "Kurt Baier is culturology",
+   "Kurt Baier is history of religions",
+   "Kurt Baier is probability theory",
+   "Kurt Baier is paleontology",
+   "Kurt Baier is surgery",
+   "Kurt Baier is group theory",
+   "Kurt Baier is natural theology",
+   "Kurt Baier is astrology",
+   "Kurt Baier is quantum electrodynamics",
+   "Kurt Baier is mechanics",
+   "Kurt Baier is Lie algebra",
+   "Kurt Baier is trigonometry",
+   "Kurt Baier is literary activity",
+   "Kurt Baier is nuclear physics",
+   "Kurt Baier is translations from English",
+   "Kurt Baier is medicine",
+   "Kurt Baier is Jewish philosophy",
+   "Kurt Baier is mathematical logic",
+   "Kurt Baier is calculus of variations",
+   "Kurt Baier is ferromagnetism",
+   "Kurt Baier is analytic geometry",
+   "Kurt Baier is art of painting",
+   "Kurt Baier is functional analysis",
+   "Kurt Baier is folklore",
+   "Kurt Baier is study of history",
+   "Kurt Baier is geometry",
+   "Kurt Baier is positivism",
+   "Kurt Baier is geodesy",
+   "Kurt Baier is astronomy",
+   "Kurt Baier is magnetic field",
+   "Kurt Baier is kinetic theory",
+   "Kurt Baier is celestial mechanics",
+   "Kurt Baier is analytic philosophy",
+   "Kurt Baier is ethnology",
+   "Kurt Baier is history of economic thought"
+  ],
+  [
+   [
+    -46.82218933105469
+   ],
+   [
+    -49.655982971191406
+   ],
+   [
+    -55.54143524169922
+   ],
+   [
+    -48.61741638183594
+   ],
+   [
+    -47.87579345703125
+   ],
+   [
+    -47.54505157470703
+   ],
+   [
+    -47.804466247558594
+   ],
+   [
+    -48.28846740722656
+   ],
+   [
+    -46.57122039794922
+   ],
+   [
+    -47.44188690185547
+   ],
+   [
+    -48.18578338623047
+   ],
+   [
+    -44.649810791015625
+   ],
+   [
+    -49.226173400878906
+   ],
+   [
+    -47.666236877441406
+   ],
+   [
+    -49.34513854980469
+   ],
+   [
+    -49.70103454589844
+   ],
+   [
+    -63.08283233642578
+   ],
+   [
+    -44.921600341796875
+   ],
+   [
+    -45.70100402832031
+   ],
+   [
+    -47.129066467285156
+   ],
+   [
+    -49.563690185546875
+   ],
+   [
+    -49.13214874267578
+   ],
+   [
+    -53.786399841308594
+   ],
+   [
+    -48.242034912109375
+   ],
+   [
+    -44.71240234375
+   ],
+   [
+    -47.58350372314453
+   ],
+   [
+    -46.30644989013672
+   ],
+   [
+    -49.304908752441406
+   ],
+   [
+    -52.70697021484375
+   ],
+   [
+    -46.777122497558594
+   ],
+   [
+    -50.690040588378906
+   ],
+   [
+    -60.80310821533203
+   ],
+   [
+    -48.13264465332031
+   ],
+   [
+    -50.134742736816406
+   ],
+   [
+    -46.64147186279297
+   ],
+   [
+    -46.502174377441406
+   ],
+   [
+    -46.480072021484375
+   ],
+   [
+    -48.609962463378906
+   ],
+   [
+    -48.53185272216797
+   ],
+   [
+    -50.26317596435547
+   ],
+   [
+    -45.28416442871094
+   ],
+   [
+    -48.84686279296875
+   ],
+   [
+    -46.602455139160156
+   ],
+   [
+    -42.88282775878906
+   ],
+   [
+    -51.690704345703125
+   ],
+   [
+    -47.38031005859375
+   ],
+   [
+    -52.95806884765625
+   ],
+   [
+    -46.65961456298828
+   ],
+   [
+    -47.398468017578125
+   ],
+   [
+    -45.73236846923828
+   ],
+   [
+    -44.01116180419922
+   ],
+   [
+    -54.986305236816406
+   ],
+   [
+    -49.337120056152344
+   ],
+   [
+    -48.10114288330078
+   ],
+   [
+    -52.054054260253906
+   ],
+   [
+    -49.625526428222656
+   ],
+   [
+    -46.918235778808594
+   ],
+   [
+    -52.30427551269531
+   ],
+   [
+    -51.02239227294922
+   ],
+   [
+    -44.650611877441406
+   ],
+   [
+    -46.4473876953125
+   ],
+   [
+    -51.023887634277344
+   ],
+   [
+    -46.99876403808594
+   ],
+   [
+    -54.70024871826172
+   ],
+   [
+    -46.164398193359375
+   ],
+   [
+    -47.156578063964844
+   ],
+   [
+    -54.022430419921875
+   ],
+   [
+    -51.474830627441406
+   ],
+   [
+    -50.827396392822266
+   ],
+   [
+    -49.71128845214844
+   ],
+   [
+    -46.92924499511719
+   ],
+   [
+    -46.76586151123047
+   ],
+   [
+    -44.92616271972656
+   ],
+   [
+    -46.87982177734375
+   ],
+   [
+    -53.57703399658203
+   ],
+   [
+    -50.01991271972656
+   ],
+   [
+    -47.45518112182617
+   ],
+   [
+    -46.150604248046875
+   ],
+   [
+    -52.417205810546875
+   ],
+   [
+    -49.181793212890625
+   ],
+   [
+    -43.59446716308594
+   ],
+   [
+    -53.17469787597656
+   ],
+   [
+    -51.29515838623047
+   ],
+   [
+    -45.61222839355469
+   ],
+   [
+    -47.50603485107422
+   ],
+   [
+    -48.92748260498047
+   ],
+   [
+    -47.83386993408203
+   ],
+   [
+    -51.623504638671875
+   ],
+   [
+    -43.140289306640625
+   ],
+   [
+    -47.149539947509766
+   ],
+   [
+    -47.35595703125
+   ],
+   [
+    -52.11147689819336
+   ],
+   [
+    -55.220542907714844
+   ],
+   [
+    -51.649024963378906
+   ],
+   [
+    -51.32506561279297
+   ],
+   [
+    -49.83372497558594
+   ],
+   [
+    -45.58634948730469
+   ],
+   [
+    -60.71842956542969
+   ],
+   [
+    -50.71186828613281
+   ],
+   [
+    -51.415428161621094
+   ],
+   [
+    -45.714630126953125
+   ],
+   [
+    -47.98133087158203
+   ],
+   [
+    -48.8280029296875
+   ],
+   [
+    -46.18537139892578
+   ],
+   [
+    -46.47815704345703
+   ],
+   [
+    -46.41797637939453
+   ],
+   [
+    -48.03435516357422
+   ],
+   [
+    -45.10393524169922
+   ],
+   [
+    -51.52543640136719
+   ],
+   [
+    -48.8491325378418
+   ],
+   [
+    -48.833160400390625
+   ],
+   [
+    -58.512474060058594
+   ],
+   [
+    -43.862144470214844
+   ],
+   [
+    -46.90074920654297
+   ],
+   [
+    -43.749610900878906
+   ],
+   [
+    -46.31681823730469
+   ],
+   [
+    -51.62779998779297
+   ],
+   [
+    -53.08698272705078
+   ],
+   [
+    -48.32691192626953
+   ],
+   [
+    -43.521873474121094
+   ],
+   [
+    -43.896080017089844
+   ],
+   [
+    -43.48851013183594
+   ],
+   [
+    -45.10865783691406
+   ],
+   [
+    -55.14079666137695
+   ],
+   [
+    -54.19927978515625
+   ],
+   [
+    -48.166709899902344
+   ],
+   [
+    -46.519744873046875
+   ],
+   [
+    -42.24099349975586
+   ],
+   [
+    -46.83689880371094
+   ],
+   [
+    -45.52245330810547
+   ],
+   [
+    -44.67474365234375
+   ],
+   [
+    -47.59327697753906
+   ],
+   [
+    -45.96905517578125
+   ],
+   [
+    -45.52033615112305
+   ],
+   [
+    -44.785377502441406
+   ],
+   [
+    -45.928932189941406
+   ],
+   [
+    -46.909584045410156
+   ],
+   [
+    -44.878822326660156
+   ],
+   [
+    -46.689598083496094
+   ],
+   [
+    -44.98684310913086
+   ],
+   [
+    -47.153900146484375
+   ],
+   [
+    -46.39686584472656
+   ],
+   [
+    -46.75790786743164
+   ],
+   [
+    -48.84203338623047
+   ],
+   [
+    -53.12591552734375
+   ],
+   [
+    -48.84257507324219
+   ],
+   [
+    -46.057762145996094
+   ],
+   [
+    -46.28916549682617
+   ],
+   [
+    -47.410377502441406
+   ],
+   [
+    -46.681732177734375
+   ],
+   [
+    -43.254554748535156
+   ],
+   [
+    -59.50469207763672
+   ],
+   [
+    -46.20287322998047
+   ],
+   [
+    -52.50373840332031
+   ],
+   [
+    -53.0939826965332
+   ],
+   [
+    -60.360206604003906
+   ],
+   [
+    -49.55982971191406
+   ],
+   [
+    -55.394630432128906
+   ],
+   [
+    -47.729469299316406
+   ],
+   [
+    -45.91007995605469
+   ],
+   [
+    -52.59076690673828
+   ],
+   [
+    -45.71220397949219
+   ],
+   [
+    -54.42903137207031
+   ],
+   [
+    -52.26331329345703
+   ],
+   [
+    -54.10578155517578
+   ],
+   [
+    -44.059295654296875
+   ],
+   [
+    -43.803993225097656
+   ],
+   [
+    -46.16751480102539
+   ],
+   [
+    -46.08500671386719
+   ],
+   [
+    -51.54289245605469
+   ],
+   [
+    -50.28776550292969
+   ],
+   [
+    -52.063438415527344
+   ],
+   [
+    -47.01817321777344
+   ],
+   [
+    -46.00434112548828
+   ],
+   [
+    -46.707618713378906
+   ],
+   [
+    -46.743988037109375
+   ],
+   [
+    -46.90950012207031
+   ],
+   [
+    -50.85248565673828
+   ],
+   [
+    -45.938697814941406
+   ],
+   [
+    -50.648162841796875
+   ],
+   [
+    -46.34886169433594
+   ],
+   [
+    -44.910499572753906
+   ],
+   [
+    -46.49119567871094
+   ],
+   [
+    -51.891197204589844
+   ],
+   [
+    -49.466697692871094
+   ],
+   [
+    -50.532752990722656
+   ],
+   [
+    -51.55790710449219
+   ],
+   [
+    -48.39892578125
+   ],
+   [
+    -47.01860046386719
+   ],
+   [
+    -46.91141891479492
+   ],
+   [
+    -49.82574462890625
+   ],
+   [
+    -48.99090576171875
+   ],
+   [
+    -45.7142333984375
+   ],
+   [
+    -49.30034637451172
+   ],
+   [
+    -47.47553253173828
+   ],
+   [
+    -55.433074951171875
+   ],
+   [
+    -49.21107482910156
+   ],
+   [
+    -53.68225860595703
+   ],
+   [
+    -46.98676300048828
+   ],
+   [
+    -52.23883056640625
+   ],
+   [
+    -44.03925323486328
+   ],
+   [
+    -50.175193786621094
+   ],
+   [
+    -46.84482192993164
+   ],
+   [
+    -54.16472625732422
+   ],
+   [
+    -53.197418212890625
+   ],
+   [
+    -51.01472473144531
+   ],
+   [
+    -52.06425476074219
+   ],
+   [
+    -49.33043670654297
+   ],
+   [
+    -46.11107635498047
+   ],
+   [
+    -51.895172119140625
+   ],
+   [
+    -46.89666748046875
+   ],
+   [
+    -49.866661071777344
+   ],
+   [
+    -48.94532012939453
+   ],
+   [
+    -45.19960021972656
+   ],
+   [
+    -51.98832702636719
+   ],
+   [
+    -51.37012481689453
+   ],
+   [
+    -49.79158020019531
+   ],
+   [
+    -47.11383056640625
+   ],
+   [
+    -45.779396057128906
+   ],
+   [
+    -53.42393493652344
+   ],
+   [
+    -35.63951873779297
+   ],
+   [
+    -37.24468994140625
+   ],
+   [
+    -46.1636962890625
+   ],
+   [
+    -37.008811950683594
+   ],
+   [
+    -34.12201690673828
+   ],
+   [
+    -33.879905700683594
+   ],
+   [
+    -37.46406555175781
+   ],
+   [
+    -34.752708435058594
+   ],
+   [
+    -34.12268829345703
+   ],
+   [
+    -37.05276870727539
+   ],
+   [
+    -37.5626220703125
+   ],
+   [
+    -33.18567657470703
+   ],
+   [
+    -41.143157958984375
+   ],
+   [
+    -37.3944091796875
+   ],
+   [
+    -38.178672790527344
+   ],
+   [
+    -38.93257141113281
+   ],
+   [
+    -53.6237907409668
+   ],
+   [
+    -35.7060661315918
+   ],
+   [
+    -35.86095428466797
+   ],
+   [
+    -37.027748107910156
+   ],
+   [
+    -38.749595642089844
+   ],
+   [
+    -41.001792907714844
+   ],
+   [
+    -46.035057067871094
+   ],
+   [
+    -31.092485427856445
+   ],
+   [
+    -30.18263816833496
+   ],
+   [
+    -35.458160400390625
+   ],
+   [
+    -34.470062255859375
+   ],
+   [
+    -37.130332946777344
+   ],
+   [
+    -40.75876998901367
+   ],
+   [
+    -33.09058380126953
+   ],
+   [
+    -34.10795593261719
+   ],
+   [
+    -50.014915466308594
+   ],
+   [
+    -36.052188873291016
+   ],
+   [
+    -39.464683532714844
+   ],
+   [
+    -35.78382110595703
+   ],
+   [
+    -30.30592918395996
+   ],
+   [
+    -33.74047088623047
+   ],
+   [
+    -42.124000549316406
+   ],
+   [
+    -34.17974090576172
+   ],
+   [
+    -38.01051330566406
+   ],
+   [
+    -31.5557918548584
+   ],
+   [
+    -38.045021057128906
+   ],
+   [
+    -36.539405822753906
+   ],
+   [
+    -30.205095291137695
+   ],
+   [
+    -44.23579406738281
+   ],
+   [
+    -34.632972717285156
+   ],
+   [
+    -39.29585266113281
+   ],
+   [
+    -32.888771057128906
+   ],
+   [
+    -36.745330810546875
+   ],
+   [
+    -33.7928466796875
+   ],
+   [
+    -33.000022888183594
+   ],
+   [
+    -45.41372299194336
+   ],
+   [
+    -35.24540710449219
+   ],
+   [
+    -35.07188415527344
+   ],
+   [
+    -43.51909255981445
+   ],
+   [
+    -40.43354034423828
+   ],
+   [
+    -34.204132080078125
+   ],
+   [
+    -38.325927734375
+   ],
+   [
+    -40.538597106933594
+   ],
+   [
+    -33.281883239746094
+   ],
+   [
+    -33.796607971191406
+   ],
+   [
+    -31.230314254760742
+   ],
+   [
+    -34.55986022949219
+   ],
+   [
+    -48.07535171508789
+   ],
+   [
+    -35.202369689941406
+   ],
+   [
+    -40.59062957763672
+   ],
+   [
+    -47.86388397216797
+   ],
+   [
+    -34.177940368652344
+   ],
+   [
+    -44.42658233642578
+   ],
+   [
+    -37.31993865966797
+   ],
+   [
+    -33.96766662597656
+   ],
+   [
+    -36.64046859741211
+   ],
+   [
+    -31.7702693939209
+   ],
+   [
+    -32.39201354980469
+   ],
+   [
+    -39.85832214355469
+   ],
+   [
+    -37.658782958984375
+   ],
+   [
+    -37.30543518066406
+   ],
+   [
+    -39.05256652832031
+   ],
+   [
+    -44.96780776977539
+   ],
+   [
+    -40.25579833984375
+   ],
+   [
+    -32.277137756347656
+   ],
+   [
+    -40.545265197753906
+   ],
+   [
+    -34.06005096435547
+   ],
+   [
+    -30.659433364868164
+   ],
+   [
+    -33.70153045654297
+   ],
+   [
+    -36.55461120605469
+   ],
+   [
+    -39.086639404296875
+   ],
+   [
+    -43.60398864746094
+   ],
+   [
+    -30.773515701293945
+   ],
+   [
+    -38.17676544189453
+   ],
+   [
+    -32.66539764404297
+   ],
+   [
+    -40.85422897338867
+   ],
+   [
+    -43.815650939941406
+   ],
+   [
+    -43.80986022949219
+   ],
+   [
+    -31.767053604125977
+   ],
+   [
+    -34.46723175048828
+   ],
+   [
+    -33.532745361328125
+   ],
+   [
+    -53.62934875488281
+   ],
+   [
+    -41.98780822753906
+   ],
+   [
+    -39.661155700683594
+   ],
+   [
+    -35.245849609375
+   ],
+   [
+    -39.620452880859375
+   ],
+   [
+    -37.41901397705078
+   ],
+   [
+    -34.22699737548828
+   ],
+   [
+    -33.12335205078125
+   ],
+   [
+    -33.922203063964844
+   ],
+   [
+    -40.14588165283203
+   ],
+   [
+    -32.99828338623047
+   ],
+   [
+    -39.81633758544922
+   ],
+   [
+    -38.688514709472656
+   ],
+   [
+    -37.797584533691406
+   ],
+   [
+    -45.560401916503906
+   ],
+   [
+    -31.48011589050293
+   ],
+   [
+    -36.853736877441406
+   ],
+   [
+    -30.898359298706055
+   ],
+   [
+    -35.156288146972656
+   ],
+   [
+    -40.922607421875
+   ],
+   [
+    -38.35517120361328
+   ],
+   [
+    -35.92133331298828
+   ],
+   [
+    -30.543851852416992
+   ],
+   [
+    -32.15995788574219
+   ],
+   [
+    -33.17060852050781
+   ],
+   [
+    -35.30854034423828
+   ],
+   [
+    -47.92278289794922
+   ],
+   [
+    -43.338783264160156
+   ],
+   [
+    -38.86252212524414
+   ],
+   [
+    -35.75769805908203
+   ],
+   [
+    -31.577482223510742
+   ],
+   [
+    -36.865150451660156
+   ],
+   [
+    -33.922393798828125
+   ],
+   [
+    -33.63655090332031
+   ],
+   [
+    -34.87107849121094
+   ],
+   [
+    -35.610260009765625
+   ],
+   [
+    -37.22063446044922
+   ],
+   [
+    -33.859474182128906
+   ],
+   [
+    -32.839637756347656
+   ],
+   [
+    -35.037147521972656
+   ],
+   [
+    -30.961381912231445
+   ],
+   [
+    -37.02496337890625
+   ],
+   [
+    -37.98492431640625
+   ],
+   [
+    -34.74365234375
+   ],
+   [
+    -37.614036560058594
+   ],
+   [
+    -34.94475555419922
+   ],
+   [
+    -36.24398422241211
+   ],
+   [
+    -36.4632682800293
+   ],
+   [
+    -46.076637268066406
+   ],
+   [
+    -35.82692337036133
+   ],
+   [
+    -35.69988250732422
+   ],
+   [
+    -32.72254180908203
+   ],
+   [
+    -38.00944519042969
+   ],
+   [
+    -31.11586570739746
+   ],
+   [
+    -49.09466552734375
+   ],
+   [
+    -33.24530792236328
+   ],
+   [
+    -40.53590393066406
+   ],
+   [
+    -43.54937744140625
+   ],
+   [
+    -54.73719787597656
+   ],
+   [
+    -41.813682556152344
+   ],
+   [
+    -48.42985534667969
+   ],
+   [
+    -39.853759765625
+   ],
+   [
+    -33.36155700683594
+   ],
+   [
+    -41.545005798339844
+   ],
+   [
+    -38.41374969482422
+   ],
+   [
+    -43.395103454589844
+   ],
+   [
+    -39.569183349609375
+   ],
+   [
+    -44.85139465332031
+   ],
+   [
+    -32.7899169921875
+   ],
+   [
+    -32.38721466064453
+   ],
+   [
+    -31.65293312072754
+   ],
+   [
+    -35.91675567626953
+   ],
+   [
+    -37.16669845581055
+   ],
+   [
+    -37.680213928222656
+   ],
+   [
+    -39.49566650390625
+   ],
+   [
+    -37.374874114990234
+   ],
+   [
+    -33.871620178222656
+   ],
+   [
+    -35.52198791503906
+   ],
+   [
+    -36.09979248046875
+   ],
+   [
+    -28.444154739379883
+   ],
+   [
+    -49.15026092529297
+   ],
+   [
+    -35.922691345214844
+   ],
+   [
+    -40.8638916015625
+   ],
+   [
+    -35.617515563964844
+   ],
+   [
+    -33.88885498046875
+   ],
+   [
+    -37.75010299682617
+   ],
+   [
+    -43.286720275878906
+   ],
+   [
+    -40.84318542480469
+   ],
+   [
+    -41.229576110839844
+   ],
+   [
+    -42.30289077758789
+   ],
+   [
+    -36.77046203613281
+   ],
+   [
+    -36.665401458740234
+   ],
+   [
+    -33.81114196777344
+   ],
+   [
+    -40.093467712402344
+   ],
+   [
+    -40.74895477294922
+   ],
+   [
+    -36.347312927246094
+   ],
+   [
+    -38.56364822387695
+   ],
+   [
+    -35.99786376953125
+   ],
+   [
+    -43.63666534423828
+   ],
+   [
+    -37.21849060058594
+   ],
+   [
+    -42.862037658691406
+   ],
+   [
+    -35.12240982055664
+   ],
+   [
+    -45.637001037597656
+   ],
+   [
+    -33.517181396484375
+   ],
+   [
+    -41.31986999511719
+   ],
+   [
+    -37.51624298095703
+   ],
+   [
+    -43.16820526123047
+   ],
+   [
+    -42.97962188720703
+   ],
+   [
+    -38.148048400878906
+   ],
+   [
+    -43.946189880371094
+   ],
+   [
+    -39.429840087890625
+   ],
+   [
+    -35.43711853027344
+   ],
+   [
+    -40.44133377075195
+   ],
+   [
+    -34.94297790527344
+   ],
+   [
+    -38.52403259277344
+   ],
+   [
+    -41.411922454833984
+   ],
+   [
+    -33.918663024902344
+   ],
+   [
+    -42.53015899658203
+   ],
+   [
+    -39.13038635253906
+   ],
+   [
+    -41.281898498535156
+   ],
+   [
+    -35.30350875854492
+   ],
+   [
+    -35.723045349121094
+   ],
+   [
+    -43.01744842529297
+   ]
+  ]
+ ],
+ "time": 5742.129357814789
+}

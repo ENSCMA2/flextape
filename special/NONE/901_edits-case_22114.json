@@ -1,0 +1,2076 @@
+{
+ "case_id": 22114,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Heinz Hopf"
+ },
+ "pre": [
+  [
+   "Heinz Hopf's field of work is meteorology",
+   "Heinz Hopf's field of work is radioactivity",
+   "Heinz Hopf's field of work is complex function",
+   "Heinz Hopf's field of work is histology",
+   "Heinz Hopf's field of work is algebra",
+   "Heinz Hopf's field of work is electron",
+   "Heinz Hopf's field of work is quantum theory",
+   "Heinz Hopf's field of work is applied mathematics",
+   "Heinz Hopf's field of work is electricity",
+   "Heinz Hopf's field of work is human geography",
+   "Heinz Hopf's field of work is crystallography",
+   "Heinz Hopf's field of work is chemistry",
+   "Heinz Hopf's field of work is Jewish studies",
+   "Heinz Hopf's field of work is topology",
+   "Heinz Hopf's field of work is mathematical analysis",
+   "Heinz Hopf's field of work is computational geometry",
+   "Heinz Hopf's field of work is Petrine ministry",
+   "Heinz Hopf's field of work is social psychology",
+   "Heinz Hopf's field of work is genetics",
+   "Heinz Hopf's field of work is informatics",
+   "Heinz Hopf's field of work is shipbuilding",
+   "Heinz Hopf's field of work is historical sociology",
+   "Heinz Hopf's field of work is quantum mysticism",
+   "Heinz Hopf's field of work is philosopher",
+   "Heinz Hopf's field of work is Internet",
+   "Heinz Hopf's field of work is gravity",
+   "Heinz Hopf's field of work is theoretical physics",
+   "Heinz Hopf's field of work is African studies",
+   "Heinz Hopf's field of work is projective geometry",
+   "Heinz Hopf's field of work is prose",
+   "Heinz Hopf's field of work is momentum",
+   "Heinz Hopf's field of work is Cairo Geniza",
+   "Heinz Hopf's field of work is stochastic",
+   "Heinz Hopf's field of work is algebraic topology",
+   "Heinz Hopf's field of work is electrical engineering",
+   "Heinz Hopf's field of work is hunting",
+   "Heinz Hopf's field of work is evolution",
+   "Heinz Hopf's field of work is economic anthropology",
+   "Heinz Hopf's field of work is Hebrew",
+   "Heinz Hopf's field of work is differential geometry",
+   "Heinz Hopf's field of work is engineering",
+   "Heinz Hopf's field of work is history of science",
+   "Heinz Hopf's field of work is social anthropology",
+   "Heinz Hopf's field of work is history",
+   "Heinz Hopf's field of work is distribution theory",
+   "Heinz Hopf's field of work is classics",
+   "Heinz Hopf's field of work is crime novel",
+   "Heinz Hopf's field of work is statistics",
+   "Heinz Hopf's field of work is experimental physics",
+   "Heinz Hopf's field of work is geography",
+   "Heinz Hopf's field of work is anthropology",
+   "Heinz Hopf's field of work is partial differential equation",
+   "Heinz Hopf's field of work is applied physics",
+   "Heinz Hopf's field of work is Sanskrit",
+   "Heinz Hopf's field of work is a branch of physics",
+   "Heinz Hopf's field of work is comparative mythology",
+   "Heinz Hopf's field of work is radiation",
+   "Heinz Hopf's field of work is aeromechanics",
+   "Heinz Hopf's field of work is harmonic analysis",
+   "Heinz Hopf's field of work is religion",
+   "Heinz Hopf's field of work is civil rights",
+   "Heinz Hopf's field of work is physicist",
+   "Heinz Hopf's field of work is distribution",
+   "Heinz Hopf's field of work is translations from Spanish",
+   "Heinz Hopf's field of work is feminism",
+   "Heinz Hopf's field of work is number theory",
+   "Heinz Hopf's field of work is sociology of organisations",
+   "Heinz Hopf's field of work is astronomer",
+   "Heinz Hopf's field of work is children's and youth literature",
+   "Heinz Hopf's field of work is fairy tale",
+   "Heinz Hopf's field of work is economy",
+   "Heinz Hopf's field of work is graph theory",
+   "Heinz Hopf's field of work is magic",
+   "Heinz Hopf's field of work is essay",
+   "Heinz Hopf's field of work is theory of relativity",
+   "Heinz Hopf's field of work is historical novel",
+   "Heinz Hopf's field of work is biological anthropology",
+   "Heinz Hopf's field of work is literary theory",
+   "Heinz Hopf's field of work is Greek philology",
+   "Heinz Hopf's field of work is lyric poetry",
+   "Heinz Hopf's field of work is psychology",
+   "Heinz Hopf's field of work is quaternion",
+   "Heinz Hopf's field of work is rite",
+   "Heinz Hopf's field of work is jazz",
+   "Heinz Hopf's field of work is heat",
+   "Heinz Hopf's field of work is embryology",
+   "Heinz Hopf's field of work is social philosophy",
+   "Heinz Hopf's field of work is dance choreography",
+   "Heinz Hopf's field of work is politics",
+   "Heinz Hopf's field of work is nanotechnology",
+   "Heinz Hopf's field of work is Afghanistan",
+   "Heinz Hopf's field of work is non-Euclidean geometry",
+   "Heinz Hopf's field of work is Franciscan spirituality",
+   "Heinz Hopf's field of work is detective literature",
+   "Heinz Hopf's field of work is mathematician",
+   "Heinz Hopf's field of work is String",
+   "Heinz Hopf's field of work is classical music",
+   "Heinz Hopf's field of work is translations from Occitan",
+   "Heinz Hopf's field of work is abstract algebra",
+   "Heinz Hopf's field of work is differential calculus",
+   "Heinz Hopf's field of work is mythology",
+   "Heinz Hopf's field of work is literary translation",
+   "Heinz Hopf's field of work is ballistics",
+   "Heinz Hopf's field of work is cryptography",
+   "Heinz Hopf's field of work is Greek",
+   "Heinz Hopf's field of work is logic",
+   "Heinz Hopf's field of work is choreography",
+   "Heinz Hopf's field of work is theology",
+   "Heinz Hopf's field of work is world economy",
+   "Heinz Hopf's field of work is magnetism",
+   "Heinz Hopf's field of work is algebraic geometry",
+   "Heinz Hopf's field of work is theory of differential equations",
+   "Heinz Hopf's field of work is physics",
+   "Heinz Hopf's field of work is music theory",
+   "Heinz Hopf's field of work is economics",
+   "Heinz Hopf's field of work is anatomy",
+   "Heinz Hopf's field of work is electromagnetic field",
+   "Heinz Hopf's field of work is analytic number theory",
+   "Heinz Hopf's field of work is mathematical physics",
+   "Heinz Hopf's field of work is journalism",
+   "Heinz Hopf's field of work is sociology",
+   "Heinz Hopf's field of work is literature",
+   "Heinz Hopf's field of work is ethnography",
+   "Heinz Hopf's field of work is belletristic literature",
+   "Heinz Hopf's field of work is convex function",
+   "Heinz Hopf's field of work is sociology of religion",
+   "Heinz Hopf's field of work is pedagogy",
+   "Heinz Hopf's field of work is philosophy",
+   "Heinz Hopf's field of work is quantum mechanics",
+   "Heinz Hopf's field of work is drama",
+   "Heinz Hopf's field of work is dance",
+   "Heinz Hopf's field of work is Judaism",
+   "Heinz Hopf's field of work is quantum physics",
+   "Heinz Hopf's field of work is philosophy of science",
+   "Heinz Hopf's field of work is linguistics",
+   "Heinz Hopf's field of work is myth",
+   "Heinz Hopf's field of work is physiology",
+   "Heinz Hopf's field of work is English",
+   "Heinz Hopf's field of work is philology",
+   "Heinz Hopf's field of work is political philosophy",
+   "Heinz Hopf's field of work is mechanical engineering",
+   "Heinz Hopf's field of work is ontology",
+   "Heinz Hopf's field of work is forestry",
+   "Heinz Hopf's field of work is aerodynamics",
+   "Heinz Hopf's field of work is Christian Church",
+   "Heinz Hopf's field of work is magnetic resonance",
+   "Heinz Hopf's field of work is astrophysics",
+   "Heinz Hopf's field of work is natural science",
+   "Heinz Hopf's field of work is constitutional law",
+   "Heinz Hopf's field of work is philosophy of law",
+   "Heinz Hopf's field of work is education",
+   "Heinz Hopf's field of work is Monte Carlo method",
+   "Heinz Hopf's field of work is neurology",
+   "Heinz Hopf's field of work is electric field",
+   "Heinz Hopf's field of work is Minkowski spacetime",
+   "Heinz Hopf's field of work is translations from Arabic language",
+   "Heinz Hopf's field of work is Bayesian inference",
+   "Heinz Hopf's field of work is translations from Polish",
+   "Heinz Hopf's field of work is color photography",
+   "Heinz Hopf's field of work is opera",
+   "Heinz Hopf's field of work is model theory",
+   "Heinz Hopf's field of work is cartography",
+   "Heinz Hopf's field of work is nonstandard analysis",
+   "Heinz Hopf's field of work is television program",
+   "Heinz Hopf's field of work is complex manifold",
+   "Heinz Hopf's field of work is poetry",
+   "Heinz Hopf's field of work is mathematics",
+   "Heinz Hopf's field of work is computer science",
+   "Heinz Hopf's field of work is cosmology",
+   "Heinz Hopf's field of work is silviculture",
+   "Heinz Hopf's field of work is hydrodynamics",
+   "Heinz Hopf's field of work is forestry science",
+   "Heinz Hopf's field of work is comparative religion",
+   "Heinz Hopf's field of work is information technology",
+   "Heinz Hopf's field of work is ballet",
+   "Heinz Hopf's field of work is English literature",
+   "Heinz Hopf's field of work is conducting",
+   "Heinz Hopf's field of work is hyperbolic geometry",
+   "Heinz Hopf's field of work is biochemistry",
+   "Heinz Hopf's field of work is religion and society",
+   "Heinz Hopf's field of work is optics",
+   "Heinz Hopf's field of work is ethics",
+   "Heinz Hopf's field of work is cybernetics",
+   "Heinz Hopf's field of work is astronomical observation",
+   "Heinz Hopf's field of work is psychophysiology",
+   "Heinz Hopf's field of work is culturology",
+   "Heinz Hopf's field of work is history of religions",
+   "Heinz Hopf's field of work is probability theory",
+   "Heinz Hopf's field of work is paleontology",
+   "Heinz Hopf's field of work is surgery",
+   "Heinz Hopf's field of work is group theory",
+   "Heinz Hopf's field of work is natural theology",
+   "Heinz Hopf's field of work is astrology",
+   "Heinz Hopf's field of work is quantum electrodynamics",
+   "Heinz Hopf's field of work is mechanics",
+   "Heinz Hopf's field of work is Lie algebra",
+   "Heinz Hopf's field of work is trigonometry",
+   "Heinz Hopf's field of work is literary activity",
+   "Heinz Hopf's field of work is nuclear physics",
+   "Heinz Hopf's field of work is translations from English",
+   "Heinz Hopf's field of work is medicine",
+   "Heinz Hopf's field of work is Jewish philosophy",
+   "Heinz Hopf's field of work is mathematical logic",
+   "Heinz Hopf's field of work is calculus of variations",
+   "Heinz Hopf's field of work is ferromagnetism",
+   "Heinz Hopf's field of work is analytic geometry",
+   "Heinz Hopf's field of work is art of painting",
+   "Heinz Hopf's field of work is functional analysis",
+   "Heinz Hopf's field of work is folklore",
+   "Heinz Hopf's field of work is study of history",
+   "Heinz Hopf's field of work is geometry",
+   "Heinz Hopf's field of work is positivism",
+   "Heinz Hopf's field of work is geodesy",
+   "Heinz Hopf's field of work is astronomy",
+   "Heinz Hopf's field of work is magnetic field",
+   "Heinz Hopf's field of work is kinetic theory",
+   "Heinz Hopf's field of work is celestial mechanics",
+   "Heinz Hopf's field of work is analytic philosophy",
+   "Heinz Hopf's field of work is ethnology",
+   "Heinz Hopf's field of work is history of economic thought",
+   "Heinz Hopf is meteorology",
+   "Heinz Hopf is radioactivity",
+   "Heinz Hopf is complex function",
+   "Heinz Hopf is histology",
+   "Heinz Hopf is algebra",
+   "Heinz Hopf is electron",
+   "Heinz Hopf is quantum theory",
+   "Heinz Hopf is applied mathematics",
+   "Heinz Hopf is electricity",
+   "Heinz Hopf is human geography",
+   "Heinz Hopf is crystallography",
+   "Heinz Hopf is chemistry",
+   "Heinz Hopf is Jewish studies",
+   "Heinz Hopf is topology",
+   "Heinz Hopf is mathematical analysis",
+   "Heinz Hopf is computational geometry",
+   "Heinz Hopf is Petrine ministry",
+   "Heinz Hopf is social psychology",
+   "Heinz Hopf is genetics",
+   "Heinz Hopf is informatics",
+   "Heinz Hopf is shipbuilding",
+   "Heinz Hopf is historical sociology",
+   "Heinz Hopf is quantum mysticism",
+   "Heinz Hopf is philosopher",
+   "Heinz Hopf is Internet",
+   "Heinz Hopf is gravity",
+   "Heinz Hopf is theoretical physics",
+   "Heinz Hopf is African studies",
+   "Heinz Hopf is projective geometry",
+   "Heinz Hopf is prose",
+   "Heinz Hopf is momentum",
+   "Heinz Hopf is Cairo Geniza",
+   "Heinz Hopf is stochastic",
+   "Heinz Hopf is algebraic topology",
+   "Heinz Hopf is electrical engineering",
+   "Heinz Hopf is hunting",
+   "Heinz Hopf is evolution",
+   "Heinz Hopf is economic anthropology",
+   "Heinz Hopf is Hebrew",
+   "Heinz Hopf is differential geometry",
+   "Heinz Hopf is engineering",
+   "Heinz Hopf is history of science",
+   "Heinz Hopf is social anthropology",
+   "Heinz Hopf is history",
+   "Heinz Hopf is distribution theory",
+   "Heinz Hopf is classics",
+   "Heinz Hopf is crime novel",
+   "Heinz Hopf is statistics",
+   "Heinz Hopf is experimental physics",
+   "Heinz Hopf is geography",
+   "Heinz Hopf is anthropology",
+   "Heinz Hopf is partial differential equation",
+   "Heinz Hopf is applied physics",
+   "Heinz Hopf is Sanskrit",
+   "Heinz Hopf is a branch of physics",
+   "Heinz Hopf is comparative mythology",
+   "Heinz Hopf is radiation",
+   "Heinz Hopf is aeromechanics",
+   "Heinz Hopf is harmonic analysis",
+   "Heinz Hopf is religion",
+   "Heinz Hopf is civil rights",
+   "Heinz Hopf is physicist",
+   "Heinz Hopf is distribution",
+   "Heinz Hopf is translations from Spanish",
+   "Heinz Hopf is feminism",
+   "Heinz Hopf is number theory",
+   "Heinz Hopf is sociology of organisations",
+   "Heinz Hopf is astronomer",
+   "Heinz Hopf is children's and youth literature",
+   "Heinz Hopf is fairy tale",
+   "Heinz Hopf is economy",
+   "Heinz Hopf is graph theory",
+   "Heinz Hopf is magic",
+   "Heinz Hopf is essay",
+   "Heinz Hopf is theory of relativity",
+   "Heinz Hopf is historical novel",
+   "Heinz Hopf is biological anthropology",
+   "Heinz Hopf is literary theory",
+   "Heinz Hopf is Greek philology",
+   "Heinz Hopf is lyric poetry",
+   "Heinz Hopf is psychology",
+   "Heinz Hopf is quaternion",
+   "Heinz Hopf is rite",
+   "Heinz Hopf is jazz",
+   "Heinz Hopf is heat",
+   "Heinz Hopf is embryology",
+   "Heinz Hopf is social philosophy",
+   "Heinz Hopf is dance choreography",
+   "Heinz Hopf is politics",
+   "Heinz Hopf is nanotechnology",
+   "Heinz Hopf is Afghanistan",
+   "Heinz Hopf is non-Euclidean geometry",
+   "Heinz Hopf is Franciscan spirituality",
+   "Heinz Hopf is detective literature",
+   "Heinz Hopf is mathematician",
+   "Heinz Hopf is String",
+   "Heinz Hopf is classical music",
+   "Heinz Hopf is translations from Occitan",
+   "Heinz Hopf is abstract algebra",
+   "Heinz Hopf is differential calculus",
+   "Heinz Hopf is mythology",
+   "Heinz Hopf is literary translation",
+   "Heinz Hopf is ballistics",
+   "Heinz Hopf is cryptography",
+   "Heinz Hopf is Greek",
+   "Heinz Hopf is logic",
+   "Heinz Hopf is choreography",
+   "Heinz Hopf is theology",
+   "Heinz Hopf is world economy",
+   "Heinz Hopf is magnetism",
+   "Heinz Hopf is algebraic geometry",
+   "Heinz Hopf is theory of differential equations",
+   "Heinz Hopf is physics",
+   "Heinz Hopf is music theory",
+   "Heinz Hopf is economics",
+   "Heinz Hopf is anatomy",
+   "Heinz Hopf is electromagnetic field",
+   "Heinz Hopf is analytic number theory",
+   "Heinz Hopf is mathematical physics",
+   "Heinz Hopf is journalism",
+   "Heinz Hopf is sociology",
+   "Heinz Hopf is literature",
+   "Heinz Hopf is ethnography",
+   "Heinz Hopf is belletristic literature",
+   "Heinz Hopf is convex function",
+   "Heinz Hopf is sociology of religion",
+   "Heinz Hopf is pedagogy",
+   "Heinz Hopf is philosophy",
+   "Heinz Hopf is quantum mechanics",
+   "Heinz Hopf is drama",
+   "Heinz Hopf is dance",
+   "Heinz Hopf is Judaism",
+   "Heinz Hopf is quantum physics",
+   "Heinz Hopf is philosophy of science",
+   "Heinz Hopf is linguistics",
+   "Heinz Hopf is myth",
+   "Heinz Hopf is physiology",
+   "Heinz Hopf is English",
+   "Heinz Hopf is philology",
+   "Heinz Hopf is political philosophy",
+   "Heinz Hopf is mechanical engineering",
+   "Heinz Hopf is ontology",
+   "Heinz Hopf is forestry",
+   "Heinz Hopf is aerodynamics",
+   "Heinz Hopf is Christian Church",
+   "Heinz Hopf is magnetic resonance",
+   "Heinz Hopf is astrophysics",
+   "Heinz Hopf is natural science",
+   "Heinz Hopf is constitutional law",
+   "Heinz Hopf is philosophy of law",
+   "Heinz Hopf is education",
+   "Heinz Hopf is Monte Carlo method",
+   "Heinz Hopf is neurology",
+   "Heinz Hopf is electric field",
+   "Heinz Hopf is Minkowski spacetime",
+   "Heinz Hopf is translations from Arabic language",
+   "Heinz Hopf is Bayesian inference",
+   "Heinz Hopf is translations from Polish",
+   "Heinz Hopf is color photography",
+   "Heinz Hopf is opera",
+   "Heinz Hopf is model theory",
+   "Heinz Hopf is cartography",
+   "Heinz Hopf is nonstandard analysis",
+   "Heinz Hopf is television program",
+   "Heinz Hopf is complex manifold",
+   "Heinz Hopf is poetry",
+   "Heinz Hopf is mathematics",
+   "Heinz Hopf is computer science",
+   "Heinz Hopf is cosmology",
+   "Heinz Hopf is silviculture",
+   "Heinz Hopf is hydrodynamics",
+   "Heinz Hopf is forestry science",
+   "Heinz Hopf is comparative religion",
+   "Heinz Hopf is information technology",
+   "Heinz Hopf is ballet",
+   "Heinz Hopf is English literature",
+   "Heinz Hopf is conducting",
+   "Heinz Hopf is hyperbolic geometry",
+   "Heinz Hopf is biochemistry",
+   "Heinz Hopf is religion and society",
+   "Heinz Hopf is optics",
+   "Heinz Hopf is ethics",
+   "Heinz Hopf is cybernetics",
+   "Heinz Hopf is astronomical observation",
+   "Heinz Hopf is psychophysiology",
+   "Heinz Hopf is culturology",
+   "Heinz Hopf is history of religions",
+   "Heinz Hopf is probability theory",
+   "Heinz Hopf is paleontology",
+   "Heinz Hopf is surgery",
+   "Heinz Hopf is group theory",
+   "Heinz Hopf is natural theology",
+   "Heinz Hopf is astrology",
+   "Heinz Hopf is quantum electrodynamics",
+   "Heinz Hopf is mechanics",
+   "Heinz Hopf is Lie algebra",
+   "Heinz Hopf is trigonometry",
+   "Heinz Hopf is literary activity",
+   "Heinz Hopf is nuclear physics",
+   "Heinz Hopf is translations from English",
+   "Heinz Hopf is medicine",
+   "Heinz Hopf is Jewish philosophy",
+   "Heinz Hopf is mathematical logic",
+   "Heinz Hopf is calculus of variations",
+   "Heinz Hopf is ferromagnetism",
+   "Heinz Hopf is analytic geometry",
+   "Heinz Hopf is art of painting",
+   "Heinz Hopf is functional analysis",
+   "Heinz Hopf is folklore",
+   "Heinz Hopf is study of history",
+   "Heinz Hopf is geometry",
+   "Heinz Hopf is positivism",
+   "Heinz Hopf is geodesy",
+   "Heinz Hopf is astronomy",
+   "Heinz Hopf is magnetic field",
+   "Heinz Hopf is kinetic theory",
+   "Heinz Hopf is celestial mechanics",
+   "Heinz Hopf is analytic philosophy",
+   "Heinz Hopf is ethnology",
+   "Heinz Hopf is history of economic thought"
+  ],
+  [
+   [
+    -43.690738677978516
+   ],
+   [
+    -45.40473175048828
+   ],
+   [
+    -49.292572021484375
+   ],
+   [
+    -45.194557189941406
+   ],
+   [
+    -41.75868225097656
+   ],
+   [
+    -43.98709487915039
+   ],
+   [
+    -43.66309356689453
+   ],
+   [
+    -42.26201248168945
+   ],
+   [
+    -43.832481384277344
+   ],
+   [
+    -45.977333068847656
+   ],
+   [
+    -43.94346618652344
+   ],
+   [
+    -42.080535888671875
+   ],
+   [
+    -48.21991729736328
+   ],
+   [
+    -41.68025207519531
+   ],
+   [
+    -42.23066711425781
+   ],
+   [
+    -44.577789306640625
+   ],
+   [
+    -59.11459732055664
+   ],
+   [
+    -42.791168212890625
+   ],
+   [
+    -42.9461555480957
+   ],
+   [
+    -44.83501052856445
+   ],
+   [
+    -47.507362365722656
+   ],
+   [
+    -46.475196838378906
+   ],
+   [
+    -53.17815399169922
+   ],
+   [
+    -46.58467483520508
+   ],
+   [
+    -44.27056884765625
+   ],
+   [
+    -43.96760559082031
+   ],
+   [
+    -41.46112060546875
+   ],
+   [
+    -46.65673828125
+   ],
+   [
+    -47.533241271972656
+   ],
+   [
+    -46.46112060546875
+   ],
+   [
+    -46.82469177246094
+   ],
+   [
+    -57.96737289428711
+   ],
+   [
+    -43.46000289916992
+   ],
+   [
+    -42.89826202392578
+   ],
+   [
+    -43.2590446472168
+   ],
+   [
+    -45.85346984863281
+   ],
+   [
+    -42.95154571533203
+   ],
+   [
+    -46.232852935791016
+   ],
+   [
+    -47.236228942871094
+   ],
+   [
+    -43.945777893066406
+   ],
+   [
+    -42.641239166259766
+   ],
+   [
+    -45.63059997558594
+   ],
+   [
+    -44.80930709838867
+   ],
+   [
+    -41.66492462158203
+   ],
+   [
+    -44.72704315185547
+   ],
+   [
+    -44.81327438354492
+   ],
+   [
+    -52.337928771972656
+   ],
+   [
+    -42.96501922607422
+   ],
+   [
+    -43.412906646728516
+   ],
+   [
+    -43.2453498840332
+   ],
+   [
+    -43.222591400146484
+   ],
+   [
+    -49.13288497924805
+   ],
+   [
+    -45.263484954833984
+   ],
+   [
+    -46.219818115234375
+   ],
+   [
+    -47.8946647644043
+   ],
+   [
+    -46.847755432128906
+   ],
+   [
+    -43.65684509277344
+   ],
+   [
+    -49.046504974365234
+   ],
+   [
+    -44.63446044921875
+   ],
+   [
+    -44.044898986816406
+   ],
+   [
+    -47.29042053222656
+   ],
+   [
+    -47.77644729614258
+   ],
+   [
+    -43.48713302612305
+   ],
+   [
+    -53.19014358520508
+   ],
+   [
+    -44.743141174316406
+   ],
+   [
+    -42.32969665527344
+   ],
+   [
+    -51.18500518798828
+   ],
+   [
+    -49.46409606933594
+   ],
+   [
+    -49.864776611328125
+   ],
+   [
+    -47.9456787109375
+   ],
+   [
+    -44.82420349121094
+   ],
+   [
+    -42.23267364501953
+   ],
+   [
+    -44.220130920410156
+   ],
+   [
+    -45.65240478515625
+   ],
+   [
+    -48.11834716796875
+   ],
+   [
+    -50.557151794433594
+   ],
+   [
+    -46.58344650268555
+   ],
+   [
+    -45.3623046875
+   ],
+   [
+    -50.617897033691406
+   ],
+   [
+    -47.89366149902344
+   ],
+   [
+    -41.88225555419922
+   ],
+   [
+    -47.00800323486328
+   ],
+   [
+    -49.759368896484375
+   ],
+   [
+    -44.56722640991211
+   ],
+   [
+    -43.84065246582031
+   ],
+   [
+    -43.677894592285156
+   ],
+   [
+    -45.10700988769531
+   ],
+   [
+    -49.82638168334961
+   ],
+   [
+    -42.34565734863281
+   ],
+   [
+    -43.46998977661133
+   ],
+   [
+    -46.829498291015625
+   ],
+   [
+    -44.48554229736328
+   ],
+   [
+    -53.43190383911133
+   ],
+   [
+    -52.060997009277344
+   ],
+   [
+    -46.68788146972656
+   ],
+   [
+    -46.237152099609375
+   ],
+   [
+    -46.050132751464844
+   ],
+   [
+    -58.28965377807617
+   ],
+   [
+    -43.568519592285156
+   ],
+   [
+    -46.954036712646484
+   ],
+   [
+    -44.986289978027344
+   ],
+   [
+    -47.72863006591797
+   ],
+   [
+    -45.97024154663086
+   ],
+   [
+    -43.018714904785156
+   ],
+   [
+    -44.323265075683594
+   ],
+   [
+    -42.585166931152344
+   ],
+   [
+    -45.893531799316406
+   ],
+   [
+    -44.2486572265625
+   ],
+   [
+    -49.01789855957031
+   ],
+   [
+    -43.82521057128906
+   ],
+   [
+    -42.957942962646484
+   ],
+   [
+    -45.356510162353516
+   ],
+   [
+    -40.71128845214844
+   ],
+   [
+    -44.09743881225586
+   ],
+   [
+    -41.92915725708008
+   ],
+   [
+    -43.155677795410156
+   ],
+   [
+    -45.96236801147461
+   ],
+   [
+    -45.82069396972656
+   ],
+   [
+    -41.19515609741211
+   ],
+   [
+    -44.2464485168457
+   ],
+   [
+    -42.508689880371094
+   ],
+   [
+    -43.35988998413086
+   ],
+   [
+    -44.576507568359375
+   ],
+   [
+    -54.27016830444336
+   ],
+   [
+    -46.99589538574219
+   ],
+   [
+    -45.55696105957031
+   ],
+   [
+    -43.514747619628906
+   ],
+   [
+    -40.56317138671875
+   ],
+   [
+    -42.15158462524414
+   ],
+   [
+    -45.327537536621094
+   ],
+   [
+    -43.28767013549805
+   ],
+   [
+    -47.177207946777344
+   ],
+   [
+    -42.143035888671875
+   ],
+   [
+    -43.07339859008789
+   ],
+   [
+    -42.32229232788086
+   ],
+   [
+    -45.441551208496094
+   ],
+   [
+    -43.079280853271484
+   ],
+   [
+    -44.424461364746094
+   ],
+   [
+    -44.56533432006836
+   ],
+   [
+    -42.553794860839844
+   ],
+   [
+    -43.761451721191406
+   ],
+   [
+    -43.14227294921875
+   ],
+   [
+    -45.03583526611328
+   ],
+   [
+    -45.387672424316406
+   ],
+   [
+    -52.2671012878418
+   ],
+   [
+    -44.99314880371094
+   ],
+   [
+    -43.17511749267578
+   ],
+   [
+    -43.76789093017578
+   ],
+   [
+    -44.57857894897461
+   ],
+   [
+    -45.62796401977539
+   ],
+   [
+    -41.54035186767578
+   ],
+   [
+    -53.60441589355469
+   ],
+   [
+    -43.10871124267578
+   ],
+   [
+    -47.757965087890625
+   ],
+   [
+    -48.08946990966797
+   ],
+   [
+    -57.76023864746094
+   ],
+   [
+    -46.31786346435547
+   ],
+   [
+    -53.88276290893555
+   ],
+   [
+    -46.137855529785156
+   ],
+   [
+    -44.89086151123047
+   ],
+   [
+    -44.94932556152344
+   ],
+   [
+    -42.40766906738281
+   ],
+   [
+    -46.11210250854492
+   ],
+   [
+    -51.79109573364258
+   ],
+   [
+    -49.244075775146484
+   ],
+   [
+    -43.34425735473633
+   ],
+   [
+    -39.440513610839844
+   ],
+   [
+    -43.669677734375
+   ],
+   [
+    -42.511653900146484
+   ],
+   [
+    -49.34741973876953
+   ],
+   [
+    -42.973785400390625
+   ],
+   [
+    -50.316123962402344
+   ],
+   [
+    -45.32225799560547
+   ],
+   [
+    -45.09709930419922
+   ],
+   [
+    -45.15476989746094
+   ],
+   [
+    -46.48602294921875
+   ],
+   [
+    -44.98260498046875
+   ],
+   [
+    -45.43112564086914
+   ],
+   [
+    -41.62180709838867
+   ],
+   [
+    -49.642154693603516
+   ],
+   [
+    -41.67292785644531
+   ],
+   [
+    -42.827125549316406
+   ],
+   [
+    -43.040225982666016
+   ],
+   [
+    -49.644859313964844
+   ],
+   [
+    -45.051597595214844
+   ],
+   [
+    -48.244606018066406
+   ],
+   [
+    -48.61430358886719
+   ],
+   [
+    -43.32920837402344
+   ],
+   [
+    -44.370880126953125
+   ],
+   [
+    -43.17705535888672
+   ],
+   [
+    -43.38982009887695
+   ],
+   [
+    -47.42667770385742
+   ],
+   [
+    -44.30979919433594
+   ],
+   [
+    -45.150718688964844
+   ],
+   [
+    -43.531494140625
+   ],
+   [
+    -48.03654098510742
+   ],
+   [
+    -44.4995002746582
+   ],
+   [
+    -51.93288803100586
+   ],
+   [
+    -44.12507247924805
+   ],
+   [
+    -50.46979904174805
+   ],
+   [
+    -42.336063385009766
+   ],
+   [
+    -48.148292541503906
+   ],
+   [
+    -42.560089111328125
+   ],
+   [
+    -46.150856018066406
+   ],
+   [
+    -47.868736267089844
+   ],
+   [
+    -44.270050048828125
+   ],
+   [
+    -49.422096252441406
+   ],
+   [
+    -43.5166015625
+   ],
+   [
+    -44.67472839355469
+   ],
+   [
+    -51.95048522949219
+   ],
+   [
+    -41.63369369506836
+   ],
+   [
+    -47.16214370727539
+   ],
+   [
+    -44.44724655151367
+   ],
+   [
+    -42.90760803222656
+   ],
+   [
+    -46.97838592529297
+   ],
+   [
+    -46.429588317871094
+   ],
+   [
+    -45.10816955566406
+   ],
+   [
+    -47.042537689208984
+   ],
+   [
+    -43.91395950317383
+   ],
+   [
+    -48.97633361816406
+   ],
+   [
+    -33.56648254394531
+   ],
+   [
+    -35.28191375732422
+   ],
+   [
+    -35.55373001098633
+   ],
+   [
+    -33.443756103515625
+   ],
+   [
+    -30.786462783813477
+   ],
+   [
+    -30.494224548339844
+   ],
+   [
+    -33.11313247680664
+   ],
+   [
+    -32.34585952758789
+   ],
+   [
+    -31.36225128173828
+   ],
+   [
+    -35.29096984863281
+   ],
+   [
+    -34.38996887207031
+   ],
+   [
+    -30.764299392700195
+   ],
+   [
+    -38.225852966308594
+   ],
+   [
+    -33.43378829956055
+   ],
+   [
+    -34.237548828125
+   ],
+   [
+    -36.87327575683594
+   ],
+   [
+    -49.2095832824707
+   ],
+   [
+    -32.844547271728516
+   ],
+   [
+    -34.10855484008789
+   ],
+   [
+    -33.774566650390625
+   ],
+   [
+    -34.64720916748047
+   ],
+   [
+    -36.60126876831055
+   ],
+   [
+    -41.227359771728516
+   ],
+   [
+    -27.94406509399414
+   ],
+   [
+    -29.061664581298828
+   ],
+   [
+    -32.58145523071289
+   ],
+   [
+    -31.367408752441406
+   ],
+   [
+    -34.74932098388672
+   ],
+   [
+    -38.58418655395508
+   ],
+   [
+    -31.765514373779297
+   ],
+   [
+    -32.6143798828125
+   ],
+   [
+    -45.110477447509766
+   ],
+   [
+    -32.02883529663086
+   ],
+   [
+    -33.39268493652344
+   ],
+   [
+    -32.72032928466797
+   ],
+   [
+    -29.499256134033203
+   ],
+   [
+    -31.6912784576416
+   ],
+   [
+    -38.576446533203125
+   ],
+   [
+    -31.25552749633789
+   ],
+   [
+    -34.05555725097656
+   ],
+   [
+    -29.34531021118164
+   ],
+   [
+    -35.84090805053711
+   ],
+   [
+    -34.312774658203125
+   ],
+   [
+    -28.173606872558594
+   ],
+   [
+    -35.793277740478516
+   ],
+   [
+    -32.054080963134766
+   ],
+   [
+    -37.128475189208984
+   ],
+   [
+    -31.18132781982422
+   ],
+   [
+    -33.66175079345703
+   ],
+   [
+    -32.00815963745117
+   ],
+   [
+    -31.101045608520508
+   ],
+   [
+    -33.87576675415039
+   ],
+   [
+    -33.72077178955078
+   ],
+   [
+    -32.318031311035156
+   ],
+   [
+    -37.400794982910156
+   ],
+   [
+    -36.95556640625
+   ],
+   [
+    -31.582490921020508
+   ],
+   [
+    -35.894195556640625
+   ],
+   [
+    -35.24751663208008
+   ],
+   [
+    -31.056568145751953
+   ],
+   [
+    -33.167388916015625
+   ],
+   [
+    -27.973285675048828
+   ],
+   [
+    -32.3998908996582
+   ],
+   [
+    -43.21258544921875
+   ],
+   [
+    -33.49209213256836
+   ],
+   [
+    -36.730438232421875
+   ],
+   [
+    -42.886592864990234
+   ],
+   [
+    -31.152935028076172
+   ],
+   [
+    -40.93753433227539
+   ],
+   [
+    -34.45641326904297
+   ],
+   [
+    -32.34334945678711
+   ],
+   [
+    -32.85750961303711
+   ],
+   [
+    -29.392406463623047
+   ],
+   [
+    -30.478588104248047
+   ],
+   [
+    -36.4565544128418
+   ],
+   [
+    -35.50758361816406
+   ],
+   [
+    -35.788272857666016
+   ],
+   [
+    -37.171165466308594
+   ],
+   [
+    -42.6154670715332
+   ],
+   [
+    -37.68243408203125
+   ],
+   [
+    -30.96832275390625
+   ],
+   [
+    -35.25221633911133
+   ],
+   [
+    -32.223079681396484
+   ],
+   [
+    -29.114025115966797
+   ],
+   [
+    -31.27834701538086
+   ],
+   [
+    -34.44637680053711
+   ],
+   [
+    -35.4674186706543
+   ],
+   [
+    -40.25032043457031
+   ],
+   [
+    -30.52364730834961
+   ],
+   [
+    -34.082942962646484
+   ],
+   [
+    -31.855979919433594
+   ],
+   [
+    -34.30628967285156
+   ],
+   [
+    -40.81910705566406
+   ],
+   [
+    -42.50202941894531
+   ],
+   [
+    -28.1601505279541
+   ],
+   [
+    -31.819133758544922
+   ],
+   [
+    -34.38835906982422
+   ],
+   [
+    -48.471405029296875
+   ],
+   [
+    -33.972412109375
+   ],
+   [
+    -36.85163879394531
+   ],
+   [
+    -32.40790557861328
+   ],
+   [
+    -38.98382568359375
+   ],
+   [
+    -34.3434944152832
+   ],
+   [
+    -31.974328994750977
+   ],
+   [
+    -30.425907135009766
+   ],
+   [
+    -31.729373931884766
+   ],
+   [
+    -38.06717300415039
+   ],
+   [
+    -31.157339096069336
+   ],
+   [
+    -36.50450134277344
+   ],
+   [
+    -34.10328674316406
+   ],
+   [
+    -33.51850128173828
+   ],
+   [
+    -34.78274917602539
+   ],
+   [
+    -28.634769439697266
+   ],
+   [
+    -33.525421142578125
+   ],
+   [
+    -29.184051513671875
+   ],
+   [
+    -32.931358337402344
+   ],
+   [
+    -36.26365661621094
+   ],
+   [
+    -35.51692581176758
+   ],
+   [
+    -31.687894821166992
+   ],
+   [
+    -31.17917823791504
+   ],
+   [
+    -29.880630493164062
+   ],
+   [
+    -30.957151412963867
+   ],
+   [
+    -33.21757507324219
+   ],
+   [
+    -44.608741760253906
+   ],
+   [
+    -35.300636291503906
+   ],
+   [
+    -35.29729080200195
+   ],
+   [
+    -33.22407913208008
+   ],
+   [
+    -29.04669189453125
+   ],
+   [
+    -31.261913299560547
+   ],
+   [
+    -32.640106201171875
+   ],
+   [
+    -30.95610809326172
+   ],
+   [
+    -31.902606964111328
+   ],
+   [
+    -31.928234100341797
+   ],
+   [
+    -33.90298080444336
+   ],
+   [
+    -31.83928680419922
+   ],
+   [
+    -30.89183807373047
+   ],
+   [
+    -33.15164566040039
+   ],
+   [
+    -29.189559936523438
+   ],
+   [
+    -34.41913604736328
+   ],
+   [
+    -35.00077819824219
+   ],
+   [
+    -32.20332717895508
+   ],
+   [
+    -33.80198669433594
+   ],
+   [
+    -33.5903205871582
+   ],
+   [
+    -33.861968994140625
+   ],
+   [
+    -35.577239990234375
+   ],
+   [
+    -32.413246154785156
+   ],
+   [
+    -33.70009994506836
+   ],
+   [
+    -33.05640411376953
+   ],
+   [
+    -32.76018524169922
+   ],
+   [
+    -36.04225158691406
+   ],
+   [
+    -29.714807510375977
+   ],
+   [
+    -46.28151321411133
+   ],
+   [
+    -30.83737564086914
+   ],
+   [
+    -36.54596710205078
+   ],
+   [
+    -39.18464279174805
+   ],
+   [
+    -50.16374969482422
+   ],
+   [
+    -38.542354583740234
+   ],
+   [
+    -43.902992248535156
+   ],
+   [
+    -37.26176452636719
+   ],
+   [
+    -30.805164337158203
+   ],
+   [
+    -37.33210754394531
+   ],
+   [
+    -33.285953521728516
+   ],
+   [
+    -35.99069595336914
+   ],
+   [
+    -37.527015686035156
+   ],
+   [
+    -37.96110153198242
+   ],
+   [
+    -30.900501251220703
+   ],
+   [
+    -29.451900482177734
+   ],
+   [
+    -29.835729598999023
+   ],
+   [
+    -32.394046783447266
+   ],
+   [
+    -34.6959228515625
+   ],
+   [
+    -33.28208923339844
+   ],
+   [
+    -38.278778076171875
+   ],
+   [
+    -34.56574249267578
+   ],
+   [
+    -32.689002990722656
+   ],
+   [
+    -33.05197525024414
+   ],
+   [
+    -34.344871520996094
+   ],
+   [
+    -25.70969009399414
+   ],
+   [
+    -37.33335876464844
+   ],
+   [
+    -32.50322723388672
+   ],
+   [
+    -36.96643829345703
+   ],
+   [
+    -33.728965759277344
+   ],
+   [
+    -32.885684967041016
+   ],
+   [
+    -35.233158111572266
+   ],
+   [
+    -40.464637756347656
+   ],
+   [
+    -38.34423065185547
+   ],
+   [
+    -38.681922912597656
+   ],
+   [
+    -40.27825164794922
+   ],
+   [
+    -33.30098342895508
+   ],
+   [
+    -33.92597961425781
+   ],
+   [
+    -31.657615661621094
+   ],
+   [
+    -33.94045639038086
+   ],
+   [
+    -38.036434173583984
+   ],
+   [
+    -34.296783447265625
+   ],
+   [
+    -34.50518035888672
+   ],
+   [
+    -34.20510482788086
+   ],
+   [
+    -35.47266387939453
+   ],
+   [
+    -35.148887634277344
+   ],
+   [
+    -39.96280288696289
+   ],
+   [
+    -32.933189392089844
+   ],
+   [
+    -41.76348876953125
+   ],
+   [
+    -30.301794052124023
+   ],
+   [
+    -36.7512321472168
+   ],
+   [
+    -34.161285400390625
+   ],
+   [
+    -37.42140579223633
+   ],
+   [
+    -38.56432342529297
+   ],
+   [
+    -35.10992431640625
+   ],
+   [
+    -40.93173599243164
+   ],
+   [
+    -33.805912017822266
+   ],
+   [
+    -32.37125778198242
+   ],
+   [
+    -41.32353591918945
+   ],
+   [
+    -32.41679763793945
+   ],
+   [
+    -35.19712829589844
+   ],
+   [
+    -36.9079475402832
+   ],
+   [
+    -31.685855865478516
+   ],
+   [
+    -33.79511260986328
+   ],
+   [
+    -34.300506591796875
+   ],
+   [
+    -35.21245574951172
+   ],
+   [
+    -36.5666618347168
+   ],
+   [
+    -33.57212448120117
+   ],
+   [
+    -38.418853759765625
+   ]
+  ]
+ ],
+ "time": 4704.903332948685
+}

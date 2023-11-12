@@ -1,0 +1,2076 @@
+{
+ "case_id": 22197,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Geoff Dyer"
+ },
+ "pre": [
+  [
+   "Geoff Dyer's field of work is meteorology",
+   "Geoff Dyer's field of work is radioactivity",
+   "Geoff Dyer's field of work is complex function",
+   "Geoff Dyer's field of work is histology",
+   "Geoff Dyer's field of work is algebra",
+   "Geoff Dyer's field of work is electron",
+   "Geoff Dyer's field of work is quantum theory",
+   "Geoff Dyer's field of work is applied mathematics",
+   "Geoff Dyer's field of work is electricity",
+   "Geoff Dyer's field of work is human geography",
+   "Geoff Dyer's field of work is crystallography",
+   "Geoff Dyer's field of work is chemistry",
+   "Geoff Dyer's field of work is Jewish studies",
+   "Geoff Dyer's field of work is topology",
+   "Geoff Dyer's field of work is mathematical analysis",
+   "Geoff Dyer's field of work is computational geometry",
+   "Geoff Dyer's field of work is Petrine ministry",
+   "Geoff Dyer's field of work is social psychology",
+   "Geoff Dyer's field of work is genetics",
+   "Geoff Dyer's field of work is informatics",
+   "Geoff Dyer's field of work is shipbuilding",
+   "Geoff Dyer's field of work is historical sociology",
+   "Geoff Dyer's field of work is quantum mysticism",
+   "Geoff Dyer's field of work is philosopher",
+   "Geoff Dyer's field of work is Internet",
+   "Geoff Dyer's field of work is gravity",
+   "Geoff Dyer's field of work is theoretical physics",
+   "Geoff Dyer's field of work is African studies",
+   "Geoff Dyer's field of work is projective geometry",
+   "Geoff Dyer's field of work is prose",
+   "Geoff Dyer's field of work is momentum",
+   "Geoff Dyer's field of work is Cairo Geniza",
+   "Geoff Dyer's field of work is stochastic",
+   "Geoff Dyer's field of work is algebraic topology",
+   "Geoff Dyer's field of work is electrical engineering",
+   "Geoff Dyer's field of work is hunting",
+   "Geoff Dyer's field of work is evolution",
+   "Geoff Dyer's field of work is economic anthropology",
+   "Geoff Dyer's field of work is Hebrew",
+   "Geoff Dyer's field of work is differential geometry",
+   "Geoff Dyer's field of work is engineering",
+   "Geoff Dyer's field of work is history of science",
+   "Geoff Dyer's field of work is social anthropology",
+   "Geoff Dyer's field of work is history",
+   "Geoff Dyer's field of work is distribution theory",
+   "Geoff Dyer's field of work is classics",
+   "Geoff Dyer's field of work is crime novel",
+   "Geoff Dyer's field of work is statistics",
+   "Geoff Dyer's field of work is experimental physics",
+   "Geoff Dyer's field of work is geography",
+   "Geoff Dyer's field of work is anthropology",
+   "Geoff Dyer's field of work is partial differential equation",
+   "Geoff Dyer's field of work is applied physics",
+   "Geoff Dyer's field of work is Sanskrit",
+   "Geoff Dyer's field of work is a branch of physics",
+   "Geoff Dyer's field of work is comparative mythology",
+   "Geoff Dyer's field of work is radiation",
+   "Geoff Dyer's field of work is aeromechanics",
+   "Geoff Dyer's field of work is harmonic analysis",
+   "Geoff Dyer's field of work is religion",
+   "Geoff Dyer's field of work is civil rights",
+   "Geoff Dyer's field of work is physicist",
+   "Geoff Dyer's field of work is distribution",
+   "Geoff Dyer's field of work is translations from Spanish",
+   "Geoff Dyer's field of work is feminism",
+   "Geoff Dyer's field of work is number theory",
+   "Geoff Dyer's field of work is sociology of organisations",
+   "Geoff Dyer's field of work is astronomer",
+   "Geoff Dyer's field of work is children's and youth literature",
+   "Geoff Dyer's field of work is fairy tale",
+   "Geoff Dyer's field of work is economy",
+   "Geoff Dyer's field of work is graph theory",
+   "Geoff Dyer's field of work is magic",
+   "Geoff Dyer's field of work is essay",
+   "Geoff Dyer's field of work is theory of relativity",
+   "Geoff Dyer's field of work is historical novel",
+   "Geoff Dyer's field of work is biological anthropology",
+   "Geoff Dyer's field of work is literary theory",
+   "Geoff Dyer's field of work is Greek philology",
+   "Geoff Dyer's field of work is lyric poetry",
+   "Geoff Dyer's field of work is psychology",
+   "Geoff Dyer's field of work is quaternion",
+   "Geoff Dyer's field of work is rite",
+   "Geoff Dyer's field of work is jazz",
+   "Geoff Dyer's field of work is heat",
+   "Geoff Dyer's field of work is embryology",
+   "Geoff Dyer's field of work is social philosophy",
+   "Geoff Dyer's field of work is dance choreography",
+   "Geoff Dyer's field of work is politics",
+   "Geoff Dyer's field of work is nanotechnology",
+   "Geoff Dyer's field of work is Afghanistan",
+   "Geoff Dyer's field of work is non-Euclidean geometry",
+   "Geoff Dyer's field of work is Franciscan spirituality",
+   "Geoff Dyer's field of work is detective literature",
+   "Geoff Dyer's field of work is mathematician",
+   "Geoff Dyer's field of work is String",
+   "Geoff Dyer's field of work is classical music",
+   "Geoff Dyer's field of work is translations from Occitan",
+   "Geoff Dyer's field of work is abstract algebra",
+   "Geoff Dyer's field of work is differential calculus",
+   "Geoff Dyer's field of work is mythology",
+   "Geoff Dyer's field of work is literary translation",
+   "Geoff Dyer's field of work is ballistics",
+   "Geoff Dyer's field of work is cryptography",
+   "Geoff Dyer's field of work is Greek",
+   "Geoff Dyer's field of work is logic",
+   "Geoff Dyer's field of work is choreography",
+   "Geoff Dyer's field of work is theology",
+   "Geoff Dyer's field of work is world economy",
+   "Geoff Dyer's field of work is magnetism",
+   "Geoff Dyer's field of work is algebraic geometry",
+   "Geoff Dyer's field of work is theory of differential equations",
+   "Geoff Dyer's field of work is physics",
+   "Geoff Dyer's field of work is music theory",
+   "Geoff Dyer's field of work is economics",
+   "Geoff Dyer's field of work is anatomy",
+   "Geoff Dyer's field of work is electromagnetic field",
+   "Geoff Dyer's field of work is analytic number theory",
+   "Geoff Dyer's field of work is mathematical physics",
+   "Geoff Dyer's field of work is journalism",
+   "Geoff Dyer's field of work is sociology",
+   "Geoff Dyer's field of work is literature",
+   "Geoff Dyer's field of work is ethnography",
+   "Geoff Dyer's field of work is belletristic literature",
+   "Geoff Dyer's field of work is convex function",
+   "Geoff Dyer's field of work is sociology of religion",
+   "Geoff Dyer's field of work is pedagogy",
+   "Geoff Dyer's field of work is philosophy",
+   "Geoff Dyer's field of work is quantum mechanics",
+   "Geoff Dyer's field of work is drama",
+   "Geoff Dyer's field of work is dance",
+   "Geoff Dyer's field of work is Judaism",
+   "Geoff Dyer's field of work is quantum physics",
+   "Geoff Dyer's field of work is philosophy of science",
+   "Geoff Dyer's field of work is linguistics",
+   "Geoff Dyer's field of work is myth",
+   "Geoff Dyer's field of work is physiology",
+   "Geoff Dyer's field of work is English",
+   "Geoff Dyer's field of work is philology",
+   "Geoff Dyer's field of work is political philosophy",
+   "Geoff Dyer's field of work is mechanical engineering",
+   "Geoff Dyer's field of work is ontology",
+   "Geoff Dyer's field of work is forestry",
+   "Geoff Dyer's field of work is aerodynamics",
+   "Geoff Dyer's field of work is Christian Church",
+   "Geoff Dyer's field of work is magnetic resonance",
+   "Geoff Dyer's field of work is astrophysics",
+   "Geoff Dyer's field of work is natural science",
+   "Geoff Dyer's field of work is constitutional law",
+   "Geoff Dyer's field of work is philosophy of law",
+   "Geoff Dyer's field of work is education",
+   "Geoff Dyer's field of work is Monte Carlo method",
+   "Geoff Dyer's field of work is neurology",
+   "Geoff Dyer's field of work is electric field",
+   "Geoff Dyer's field of work is Minkowski spacetime",
+   "Geoff Dyer's field of work is translations from Arabic language",
+   "Geoff Dyer's field of work is Bayesian inference",
+   "Geoff Dyer's field of work is translations from Polish",
+   "Geoff Dyer's field of work is color photography",
+   "Geoff Dyer's field of work is opera",
+   "Geoff Dyer's field of work is model theory",
+   "Geoff Dyer's field of work is cartography",
+   "Geoff Dyer's field of work is nonstandard analysis",
+   "Geoff Dyer's field of work is television program",
+   "Geoff Dyer's field of work is complex manifold",
+   "Geoff Dyer's field of work is poetry",
+   "Geoff Dyer's field of work is mathematics",
+   "Geoff Dyer's field of work is computer science",
+   "Geoff Dyer's field of work is cosmology",
+   "Geoff Dyer's field of work is silviculture",
+   "Geoff Dyer's field of work is hydrodynamics",
+   "Geoff Dyer's field of work is forestry science",
+   "Geoff Dyer's field of work is comparative religion",
+   "Geoff Dyer's field of work is information technology",
+   "Geoff Dyer's field of work is ballet",
+   "Geoff Dyer's field of work is English literature",
+   "Geoff Dyer's field of work is conducting",
+   "Geoff Dyer's field of work is hyperbolic geometry",
+   "Geoff Dyer's field of work is biochemistry",
+   "Geoff Dyer's field of work is religion and society",
+   "Geoff Dyer's field of work is optics",
+   "Geoff Dyer's field of work is ethics",
+   "Geoff Dyer's field of work is cybernetics",
+   "Geoff Dyer's field of work is astronomical observation",
+   "Geoff Dyer's field of work is psychophysiology",
+   "Geoff Dyer's field of work is culturology",
+   "Geoff Dyer's field of work is history of religions",
+   "Geoff Dyer's field of work is probability theory",
+   "Geoff Dyer's field of work is paleontology",
+   "Geoff Dyer's field of work is surgery",
+   "Geoff Dyer's field of work is group theory",
+   "Geoff Dyer's field of work is natural theology",
+   "Geoff Dyer's field of work is astrology",
+   "Geoff Dyer's field of work is quantum electrodynamics",
+   "Geoff Dyer's field of work is mechanics",
+   "Geoff Dyer's field of work is Lie algebra",
+   "Geoff Dyer's field of work is trigonometry",
+   "Geoff Dyer's field of work is literary activity",
+   "Geoff Dyer's field of work is nuclear physics",
+   "Geoff Dyer's field of work is translations from English",
+   "Geoff Dyer's field of work is medicine",
+   "Geoff Dyer's field of work is Jewish philosophy",
+   "Geoff Dyer's field of work is mathematical logic",
+   "Geoff Dyer's field of work is calculus of variations",
+   "Geoff Dyer's field of work is ferromagnetism",
+   "Geoff Dyer's field of work is analytic geometry",
+   "Geoff Dyer's field of work is art of painting",
+   "Geoff Dyer's field of work is functional analysis",
+   "Geoff Dyer's field of work is folklore",
+   "Geoff Dyer's field of work is study of history",
+   "Geoff Dyer's field of work is geometry",
+   "Geoff Dyer's field of work is positivism",
+   "Geoff Dyer's field of work is geodesy",
+   "Geoff Dyer's field of work is astronomy",
+   "Geoff Dyer's field of work is magnetic field",
+   "Geoff Dyer's field of work is kinetic theory",
+   "Geoff Dyer's field of work is celestial mechanics",
+   "Geoff Dyer's field of work is analytic philosophy",
+   "Geoff Dyer's field of work is ethnology",
+   "Geoff Dyer's field of work is history of economic thought",
+   "Geoff Dyer is meteorology",
+   "Geoff Dyer is radioactivity",
+   "Geoff Dyer is complex function",
+   "Geoff Dyer is histology",
+   "Geoff Dyer is algebra",
+   "Geoff Dyer is electron",
+   "Geoff Dyer is quantum theory",
+   "Geoff Dyer is applied mathematics",
+   "Geoff Dyer is electricity",
+   "Geoff Dyer is human geography",
+   "Geoff Dyer is crystallography",
+   "Geoff Dyer is chemistry",
+   "Geoff Dyer is Jewish studies",
+   "Geoff Dyer is topology",
+   "Geoff Dyer is mathematical analysis",
+   "Geoff Dyer is computational geometry",
+   "Geoff Dyer is Petrine ministry",
+   "Geoff Dyer is social psychology",
+   "Geoff Dyer is genetics",
+   "Geoff Dyer is informatics",
+   "Geoff Dyer is shipbuilding",
+   "Geoff Dyer is historical sociology",
+   "Geoff Dyer is quantum mysticism",
+   "Geoff Dyer is philosopher",
+   "Geoff Dyer is Internet",
+   "Geoff Dyer is gravity",
+   "Geoff Dyer is theoretical physics",
+   "Geoff Dyer is African studies",
+   "Geoff Dyer is projective geometry",
+   "Geoff Dyer is prose",
+   "Geoff Dyer is momentum",
+   "Geoff Dyer is Cairo Geniza",
+   "Geoff Dyer is stochastic",
+   "Geoff Dyer is algebraic topology",
+   "Geoff Dyer is electrical engineering",
+   "Geoff Dyer is hunting",
+   "Geoff Dyer is evolution",
+   "Geoff Dyer is economic anthropology",
+   "Geoff Dyer is Hebrew",
+   "Geoff Dyer is differential geometry",
+   "Geoff Dyer is engineering",
+   "Geoff Dyer is history of science",
+   "Geoff Dyer is social anthropology",
+   "Geoff Dyer is history",
+   "Geoff Dyer is distribution theory",
+   "Geoff Dyer is classics",
+   "Geoff Dyer is crime novel",
+   "Geoff Dyer is statistics",
+   "Geoff Dyer is experimental physics",
+   "Geoff Dyer is geography",
+   "Geoff Dyer is anthropology",
+   "Geoff Dyer is partial differential equation",
+   "Geoff Dyer is applied physics",
+   "Geoff Dyer is Sanskrit",
+   "Geoff Dyer is a branch of physics",
+   "Geoff Dyer is comparative mythology",
+   "Geoff Dyer is radiation",
+   "Geoff Dyer is aeromechanics",
+   "Geoff Dyer is harmonic analysis",
+   "Geoff Dyer is religion",
+   "Geoff Dyer is civil rights",
+   "Geoff Dyer is physicist",
+   "Geoff Dyer is distribution",
+   "Geoff Dyer is translations from Spanish",
+   "Geoff Dyer is feminism",
+   "Geoff Dyer is number theory",
+   "Geoff Dyer is sociology of organisations",
+   "Geoff Dyer is astronomer",
+   "Geoff Dyer is children's and youth literature",
+   "Geoff Dyer is fairy tale",
+   "Geoff Dyer is economy",
+   "Geoff Dyer is graph theory",
+   "Geoff Dyer is magic",
+   "Geoff Dyer is essay",
+   "Geoff Dyer is theory of relativity",
+   "Geoff Dyer is historical novel",
+   "Geoff Dyer is biological anthropology",
+   "Geoff Dyer is literary theory",
+   "Geoff Dyer is Greek philology",
+   "Geoff Dyer is lyric poetry",
+   "Geoff Dyer is psychology",
+   "Geoff Dyer is quaternion",
+   "Geoff Dyer is rite",
+   "Geoff Dyer is jazz",
+   "Geoff Dyer is heat",
+   "Geoff Dyer is embryology",
+   "Geoff Dyer is social philosophy",
+   "Geoff Dyer is dance choreography",
+   "Geoff Dyer is politics",
+   "Geoff Dyer is nanotechnology",
+   "Geoff Dyer is Afghanistan",
+   "Geoff Dyer is non-Euclidean geometry",
+   "Geoff Dyer is Franciscan spirituality",
+   "Geoff Dyer is detective literature",
+   "Geoff Dyer is mathematician",
+   "Geoff Dyer is String",
+   "Geoff Dyer is classical music",
+   "Geoff Dyer is translations from Occitan",
+   "Geoff Dyer is abstract algebra",
+   "Geoff Dyer is differential calculus",
+   "Geoff Dyer is mythology",
+   "Geoff Dyer is literary translation",
+   "Geoff Dyer is ballistics",
+   "Geoff Dyer is cryptography",
+   "Geoff Dyer is Greek",
+   "Geoff Dyer is logic",
+   "Geoff Dyer is choreography",
+   "Geoff Dyer is theology",
+   "Geoff Dyer is world economy",
+   "Geoff Dyer is magnetism",
+   "Geoff Dyer is algebraic geometry",
+   "Geoff Dyer is theory of differential equations",
+   "Geoff Dyer is physics",
+   "Geoff Dyer is music theory",
+   "Geoff Dyer is economics",
+   "Geoff Dyer is anatomy",
+   "Geoff Dyer is electromagnetic field",
+   "Geoff Dyer is analytic number theory",
+   "Geoff Dyer is mathematical physics",
+   "Geoff Dyer is journalism",
+   "Geoff Dyer is sociology",
+   "Geoff Dyer is literature",
+   "Geoff Dyer is ethnography",
+   "Geoff Dyer is belletristic literature",
+   "Geoff Dyer is convex function",
+   "Geoff Dyer is sociology of religion",
+   "Geoff Dyer is pedagogy",
+   "Geoff Dyer is philosophy",
+   "Geoff Dyer is quantum mechanics",
+   "Geoff Dyer is drama",
+   "Geoff Dyer is dance",
+   "Geoff Dyer is Judaism",
+   "Geoff Dyer is quantum physics",
+   "Geoff Dyer is philosophy of science",
+   "Geoff Dyer is linguistics",
+   "Geoff Dyer is myth",
+   "Geoff Dyer is physiology",
+   "Geoff Dyer is English",
+   "Geoff Dyer is philology",
+   "Geoff Dyer is political philosophy",
+   "Geoff Dyer is mechanical engineering",
+   "Geoff Dyer is ontology",
+   "Geoff Dyer is forestry",
+   "Geoff Dyer is aerodynamics",
+   "Geoff Dyer is Christian Church",
+   "Geoff Dyer is magnetic resonance",
+   "Geoff Dyer is astrophysics",
+   "Geoff Dyer is natural science",
+   "Geoff Dyer is constitutional law",
+   "Geoff Dyer is philosophy of law",
+   "Geoff Dyer is education",
+   "Geoff Dyer is Monte Carlo method",
+   "Geoff Dyer is neurology",
+   "Geoff Dyer is electric field",
+   "Geoff Dyer is Minkowski spacetime",
+   "Geoff Dyer is translations from Arabic language",
+   "Geoff Dyer is Bayesian inference",
+   "Geoff Dyer is translations from Polish",
+   "Geoff Dyer is color photography",
+   "Geoff Dyer is opera",
+   "Geoff Dyer is model theory",
+   "Geoff Dyer is cartography",
+   "Geoff Dyer is nonstandard analysis",
+   "Geoff Dyer is television program",
+   "Geoff Dyer is complex manifold",
+   "Geoff Dyer is poetry",
+   "Geoff Dyer is mathematics",
+   "Geoff Dyer is computer science",
+   "Geoff Dyer is cosmology",
+   "Geoff Dyer is silviculture",
+   "Geoff Dyer is hydrodynamics",
+   "Geoff Dyer is forestry science",
+   "Geoff Dyer is comparative religion",
+   "Geoff Dyer is information technology",
+   "Geoff Dyer is ballet",
+   "Geoff Dyer is English literature",
+   "Geoff Dyer is conducting",
+   "Geoff Dyer is hyperbolic geometry",
+   "Geoff Dyer is biochemistry",
+   "Geoff Dyer is religion and society",
+   "Geoff Dyer is optics",
+   "Geoff Dyer is ethics",
+   "Geoff Dyer is cybernetics",
+   "Geoff Dyer is astronomical observation",
+   "Geoff Dyer is psychophysiology",
+   "Geoff Dyer is culturology",
+   "Geoff Dyer is history of religions",
+   "Geoff Dyer is probability theory",
+   "Geoff Dyer is paleontology",
+   "Geoff Dyer is surgery",
+   "Geoff Dyer is group theory",
+   "Geoff Dyer is natural theology",
+   "Geoff Dyer is astrology",
+   "Geoff Dyer is quantum electrodynamics",
+   "Geoff Dyer is mechanics",
+   "Geoff Dyer is Lie algebra",
+   "Geoff Dyer is trigonometry",
+   "Geoff Dyer is literary activity",
+   "Geoff Dyer is nuclear physics",
+   "Geoff Dyer is translations from English",
+   "Geoff Dyer is medicine",
+   "Geoff Dyer is Jewish philosophy",
+   "Geoff Dyer is mathematical logic",
+   "Geoff Dyer is calculus of variations",
+   "Geoff Dyer is ferromagnetism",
+   "Geoff Dyer is analytic geometry",
+   "Geoff Dyer is art of painting",
+   "Geoff Dyer is functional analysis",
+   "Geoff Dyer is folklore",
+   "Geoff Dyer is study of history",
+   "Geoff Dyer is geometry",
+   "Geoff Dyer is positivism",
+   "Geoff Dyer is geodesy",
+   "Geoff Dyer is astronomy",
+   "Geoff Dyer is magnetic field",
+   "Geoff Dyer is kinetic theory",
+   "Geoff Dyer is celestial mechanics",
+   "Geoff Dyer is analytic philosophy",
+   "Geoff Dyer is ethnology",
+   "Geoff Dyer is history of economic thought"
+  ],
+  [
+   [
+    -41.07594299316406
+   ],
+   [
+    -44.80353546142578
+   ],
+   [
+    -48.93860626220703
+   ],
+   [
+    -42.119224548339844
+   ],
+   [
+    -42.00128936767578
+   ],
+   [
+    -41.1046142578125
+   ],
+   [
+    -41.35076904296875
+   ],
+   [
+    -44.17437744140625
+   ],
+   [
+    -41.01054763793945
+   ],
+   [
+    -37.96617126464844
+   ],
+   [
+    -41.3775749206543
+   ],
+   [
+    -39.079376220703125
+   ],
+   [
+    -43.118560791015625
+   ],
+   [
+    -40.554443359375
+   ],
+   [
+    -45.259498596191406
+   ],
+   [
+    -46.01644515991211
+   ],
+   [
+    -56.816627502441406
+   ],
+   [
+    -39.753746032714844
+   ],
+   [
+    -39.92491912841797
+   ],
+   [
+    -39.709983825683594
+   ],
+   [
+    -44.67372131347656
+   ],
+   [
+    -40.76008605957031
+   ],
+   [
+    -46.39000701904297
+   ],
+   [
+    -40.849735260009766
+   ],
+   [
+    -38.44627380371094
+   ],
+   [
+    -39.26763153076172
+   ],
+   [
+    -40.84757995605469
+   ],
+   [
+    -42.7021369934082
+   ],
+   [
+    -44.05778503417969
+   ],
+   [
+    -35.541465759277344
+   ],
+   [
+    -43.165748596191406
+   ],
+   [
+    -53.72764587402344
+   ],
+   [
+    -41.28092956542969
+   ],
+   [
+    -43.957054138183594
+   ],
+   [
+    -41.610618591308594
+   ],
+   [
+    -39.95616912841797
+   ],
+   [
+    -39.28752899169922
+   ],
+   [
+    -42.58338928222656
+   ],
+   [
+    -42.36701965332031
+   ],
+   [
+    -44.210227966308594
+   ],
+   [
+    -40.54887771606445
+   ],
+   [
+    -41.463722229003906
+   ],
+   [
+    -39.44920349121094
+   ],
+   [
+    -34.21686553955078
+   ],
+   [
+    -44.296478271484375
+   ],
+   [
+    -39.60688400268555
+   ],
+   [
+    -44.49846649169922
+   ],
+   [
+    -40.950233459472656
+   ],
+   [
+    -44.4665412902832
+   ],
+   [
+    -37.381710052490234
+   ],
+   [
+    -36.363250732421875
+   ],
+   [
+    -51.01692199707031
+   ],
+   [
+    -44.955970764160156
+   ],
+   [
+    -41.81151580810547
+   ],
+   [
+    -46.727691650390625
+   ],
+   [
+    -42.158058166503906
+   ],
+   [
+    -40.928985595703125
+   ],
+   [
+    -47.78691101074219
+   ],
+   [
+    -47.51543045043945
+   ],
+   [
+    -37.82483673095703
+   ],
+   [
+    -39.35291290283203
+   ],
+   [
+    -45.29499816894531
+   ],
+   [
+    -39.012596130371094
+   ],
+   [
+    -46.63677215576172
+   ],
+   [
+    -37.66461181640625
+   ],
+   [
+    -40.73555374145508
+   ],
+   [
+    -48.923980712890625
+   ],
+   [
+    -44.91666793823242
+   ],
+   [
+    -44.87665939331055
+   ],
+   [
+    -41.784149169921875
+   ],
+   [
+    -40.149261474609375
+   ],
+   [
+    -39.90277099609375
+   ],
+   [
+    -36.74211502075195
+   ],
+   [
+    -36.00519561767578
+   ],
+   [
+    -47.33332061767578
+   ],
+   [
+    -40.69712829589844
+   ],
+   [
+    -42.455467224121094
+   ],
+   [
+    -35.73216247558594
+   ],
+   [
+    -48.19408416748047
+   ],
+   [
+    -39.09008026123047
+   ],
+   [
+    -36.12879943847656
+   ],
+   [
+    -48.89977264404297
+   ],
+   [
+    -42.179901123046875
+   ],
+   [
+    -37.51762771606445
+   ],
+   [
+    -40.13866424560547
+   ],
+   [
+    -43.71778106689453
+   ],
+   [
+    -41.29481506347656
+   ],
+   [
+    -43.362117767333984
+   ],
+   [
+    -35.51698684692383
+   ],
+   [
+    -41.765167236328125
+   ],
+   [
+    -39.917564392089844
+   ],
+   [
+    -46.45337677001953
+   ],
+   [
+    -48.088905334472656
+   ],
+   [
+    -43.02180099487305
+   ],
+   [
+    -45.145389556884766
+   ],
+   [
+    -43.108131408691406
+   ],
+   [
+    -39.01719665527344
+   ],
+   [
+    -53.29740905761719
+   ],
+   [
+    -46.673011779785156
+   ],
+   [
+    -47.01580810546875
+   ],
+   [
+    -38.08457946777344
+   ],
+   [
+    -38.755802154541016
+   ],
+   [
+    -42.80051040649414
+   ],
+   [
+    -41.155784606933594
+   ],
+   [
+    -39.70317459106445
+   ],
+   [
+    -39.95470428466797
+   ],
+   [
+    -39.62158966064453
+   ],
+   [
+    -39.260929107666016
+   ],
+   [
+    -46.135711669921875
+   ],
+   [
+    -41.459495544433594
+   ],
+   [
+    -43.29553985595703
+   ],
+   [
+    -54.732017517089844
+   ],
+   [
+    -38.262115478515625
+   ],
+   [
+    -41.06117248535156
+   ],
+   [
+    -37.463645935058594
+   ],
+   [
+    -39.883026123046875
+   ],
+   [
+    -46.22882080078125
+   ],
+   [
+    -48.795326232910156
+   ],
+   [
+    -43.43638610839844
+   ],
+   [
+    -34.923118591308594
+   ],
+   [
+    -36.12255859375
+   ],
+   [
+    -32.23173141479492
+   ],
+   [
+    -36.83129119873047
+   ],
+   [
+    -45.91175079345703
+   ],
+   [
+    -48.783363342285156
+   ],
+   [
+    -43.478546142578125
+   ],
+   [
+    -39.35566711425781
+   ],
+   [
+    -34.65315246582031
+   ],
+   [
+    -40.385719299316406
+   ],
+   [
+    -36.250755310058594
+   ],
+   [
+    -35.863868713378906
+   ],
+   [
+    -41.807952880859375
+   ],
+   [
+    -40.46312713623047
+   ],
+   [
+    -40.02403259277344
+   ],
+   [
+    -36.569618225097656
+   ],
+   [
+    -37.561790466308594
+   ],
+   [
+    -41.51197814941406
+   ],
+   [
+    -34.834129333496094
+   ],
+   [
+    -39.5026969909668
+   ],
+   [
+    -39.051551818847656
+   ],
+   [
+    -42.900062561035156
+   ],
+   [
+    -36.753822326660156
+   ],
+   [
+    -43.46000671386719
+   ],
+   [
+    -44.62487030029297
+   ],
+   [
+    -48.332977294921875
+   ],
+   [
+    -45.588890075683594
+   ],
+   [
+    -41.18132019042969
+   ],
+   [
+    -40.36127471923828
+   ],
+   [
+    -43.06450653076172
+   ],
+   [
+    -43.51361083984375
+   ],
+   [
+    -37.189857482910156
+   ],
+   [
+    -51.750511169433594
+   ],
+   [
+    -39.59148406982422
+   ],
+   [
+    -46.63159942626953
+   ],
+   [
+    -46.83061981201172
+   ],
+   [
+    -54.235801696777344
+   ],
+   [
+    -42.96473693847656
+   ],
+   [
+    -48.55493927001953
+   ],
+   [
+    -40.71360397338867
+   ],
+   [
+    -37.00075149536133
+   ],
+   [
+    -46.340003967285156
+   ],
+   [
+    -37.497596740722656
+   ],
+   [
+    -47.613956451416016
+   ],
+   [
+    -43.883155822753906
+   ],
+   [
+    -47.21177673339844
+   ],
+   [
+    -33.503395080566406
+   ],
+   [
+    -38.121726989746094
+   ],
+   [
+    -42.50620651245117
+   ],
+   [
+    -38.97289276123047
+   ],
+   [
+    -44.35374069213867
+   ],
+   [
+    -44.61872863769531
+   ],
+   [
+    -50.054283142089844
+   ],
+   [
+    -41.44218444824219
+   ],
+   [
+    -40.343994140625
+   ],
+   [
+    -38.683876037597656
+   ],
+   [
+    -35.9473876953125
+   ],
+   [
+    -40.74643325805664
+   ],
+   [
+    -44.125144958496094
+   ],
+   [
+    -40.43571472167969
+   ],
+   [
+    -44.618770599365234
+   ],
+   [
+    -39.516357421875
+   ],
+   [
+    -37.54751968383789
+   ],
+   [
+    -39.31425857543945
+   ],
+   [
+    -46.986427307128906
+   ],
+   [
+    -44.030296325683594
+   ],
+   [
+    -43.54612731933594
+   ],
+   [
+    -46.172393798828125
+   ],
+   [
+    -42.124549865722656
+   ],
+   [
+    -41.6955680847168
+   ],
+   [
+    -40.44569396972656
+   ],
+   [
+    -41.168052673339844
+   ],
+   [
+    -44.05497741699219
+   ],
+   [
+    -37.87976837158203
+   ],
+   [
+    -46.02381134033203
+   ],
+   [
+    -41.43135070800781
+   ],
+   [
+    -48.636558532714844
+   ],
+   [
+    -42.68523406982422
+   ],
+   [
+    -44.099151611328125
+   ],
+   [
+    -42.65342712402344
+   ],
+   [
+    -44.04645538330078
+   ],
+   [
+    -38.0126953125
+   ],
+   [
+    -43.67335891723633
+   ],
+   [
+    -43.35272216796875
+   ],
+   [
+    -50.727935791015625
+   ],
+   [
+    -47.94482421875
+   ],
+   [
+    -44.019737243652344
+   ],
+   [
+    -46.3028450012207
+   ],
+   [
+    -44.86377716064453
+   ],
+   [
+    -39.42555236816406
+   ],
+   [
+    -44.86357879638672
+   ],
+   [
+    -39.92491912841797
+   ],
+   [
+    -43.17936706542969
+   ],
+   [
+    -44.36485290527344
+   ],
+   [
+    -39.251914978027344
+   ],
+   [
+    -45.8216552734375
+   ],
+   [
+    -42.04742431640625
+   ],
+   [
+    -45.18135452270508
+   ],
+   [
+    -40.48462677001953
+   ],
+   [
+    -39.75801086425781
+   ],
+   [
+    -48.407135009765625
+   ],
+   [
+    -29.718894958496094
+   ],
+   [
+    -32.324188232421875
+   ],
+   [
+    -37.9753303527832
+   ],
+   [
+    -29.826061248779297
+   ],
+   [
+    -27.653226852416992
+   ],
+   [
+    -27.109846115112305
+   ],
+   [
+    -31.55061149597168
+   ],
+   [
+    -31.79599380493164
+   ],
+   [
+    -28.23899269104004
+   ],
+   [
+    -28.448583602905273
+   ],
+   [
+    -30.497398376464844
+   ],
+   [
+    -28.342859268188477
+   ],
+   [
+    -34.90735626220703
+   ],
+   [
+    -31.387990951538086
+   ],
+   [
+    -34.44655990600586
+   ],
+   [
+    -33.214080810546875
+   ],
+   [
+    -47.02519226074219
+   ],
+   [
+    -28.637479782104492
+   ],
+   [
+    -29.561941146850586
+   ],
+   [
+    -32.07777786254883
+   ],
+   [
+    -33.788612365722656
+   ],
+   [
+    -32.9010124206543
+   ],
+   [
+    -39.035091400146484
+   ],
+   [
+    -22.060546875
+   ],
+   [
+    -22.906402587890625
+   ],
+   [
+    -27.899553298950195
+   ],
+   [
+    -27.600418090820312
+   ],
+   [
+    -31.33268928527832
+   ],
+   [
+    -34.147796630859375
+   ],
+   [
+    -22.97593116760254
+   ],
+   [
+    -28.3096866607666
+   ],
+   [
+    -40.51485824584961
+   ],
+   [
+    -31.20151710510254
+   ],
+   [
+    -34.826759338378906
+   ],
+   [
+    -30.71645164489746
+   ],
+   [
+    -22.47528839111328
+   ],
+   [
+    -25.928485870361328
+   ],
+   [
+    -32.993247985839844
+   ],
+   [
+    -26.59458351135254
+   ],
+   [
+    -30.45804214477539
+   ],
+   [
+    -26.369394302368164
+   ],
+   [
+    -32.86732482910156
+   ],
+   [
+    -27.372644424438477
+   ],
+   [
+    -22.59853172302246
+   ],
+   [
+    -36.35792922973633
+   ],
+   [
+    -24.937362670898438
+   ],
+   [
+    -30.073760986328125
+   ],
+   [
+    -25.8479061126709
+   ],
+   [
+    -34.25880432128906
+   ],
+   [
+    -24.91959571838379
+   ],
+   [
+    -24.844032287597656
+   ],
+   [
+    -40.708377838134766
+   ],
+   [
+    -32.67207717895508
+   ],
+   [
+    -27.227293014526367
+   ],
+   [
+    -35.2249641418457
+   ],
+   [
+    -31.12110710144043
+   ],
+   [
+    -27.97040367126465
+   ],
+   [
+    -34.26179122924805
+   ],
+   [
+    -35.83360290527344
+   ],
+   [
+    -24.82179832458496
+   ],
+   [
+    -25.08502197265625
+   ],
+   [
+    -26.13654899597168
+   ],
+   [
+    -27.065088272094727
+   ],
+   [
+    -38.73540496826172
+   ],
+   [
+    -25.633352279663086
+   ],
+   [
+    -32.23479461669922
+   ],
+   [
+    -38.593360900878906
+   ],
+   [
+    -27.1068058013916
+   ],
+   [
+    -37.01544952392578
+   ],
+   [
+    -29.606304168701172
+   ],
+   [
+    -26.428804397583008
+   ],
+   [
+    -29.346940994262695
+   ],
+   [
+    -23.83644676208496
+   ],
+   [
+    -20.962011337280273
+   ],
+   [
+    -33.96015930175781
+   ],
+   [
+    -28.193523406982422
+   ],
+   [
+    -32.62641143798828
+   ],
+   [
+    -27.258285522460938
+   ],
+   [
+    -39.486572265625
+   ],
+   [
+    -28.28202247619629
+   ],
+   [
+    -25.717727661132812
+   ],
+   [
+    -32.240394592285156
+   ],
+   [
+    -26.491661071777344
+   ],
+   [
+    -22.164548873901367
+   ],
+   [
+    -25.6821231842041
+   ],
+   [
+    -30.998289108276367
+   ],
+   [
+    -30.4366397857666
+   ],
+   [
+    -36.30950927734375
+   ],
+   [
+    -23.447528839111328
+   ],
+   [
+    -29.141948699951172
+   ],
+   [
+    -26.82383918762207
+   ],
+   [
+    -33.954063415527344
+   ],
+   [
+    -37.14733123779297
+   ],
+   [
+    -33.45372009277344
+   ],
+   [
+    -24.722150802612305
+   ],
+   [
+    -25.98349952697754
+   ],
+   [
+    -24.842626571655273
+   ],
+   [
+    -43.0805549621582
+   ],
+   [
+    -35.02785873413086
+   ],
+   [
+    -32.426780700683594
+   ],
+   [
+    -26.51624298095703
+   ],
+   [
+    -29.49221420288086
+   ],
+   [
+    -30.63857078552246
+   ],
+   [
+    -28.510339736938477
+   ],
+   [
+    -25.16115951538086
+   ],
+   [
+    -26.184146881103516
+   ],
+   [
+    -32.446529388427734
+   ],
+   [
+    -25.401229858398438
+   ],
+   [
+    -32.71208953857422
+   ],
+   [
+    -30.926044464111328
+   ],
+   [
+    -31.525144577026367
+   ],
+   [
+    -42.206626892089844
+   ],
+   [
+    -26.860952377319336
+   ],
+   [
+    -31.08831214904785
+   ],
+   [
+    -23.88013458251953
+   ],
+   [
+    -27.67118263244629
+   ],
+   [
+    -36.936805725097656
+   ],
+   [
+    -35.0991096496582
+   ],
+   [
+    -31.84577178955078
+   ],
+   [
+    -22.05942153930664
+   ],
+   [
+    -23.24444007873535
+   ],
+   [
+    -20.79875946044922
+   ],
+   [
+    -26.30791473388672
+   ],
+   [
+    -39.87260437011719
+   ],
+   [
+    -37.36246109008789
+   ],
+   [
+    -31.1915340423584
+   ],
+   [
+    -28.569217681884766
+   ],
+   [
+    -22.925914764404297
+   ],
+   [
+    -31.961423873901367
+   ],
+   [
+    -23.711515426635742
+   ],
+   [
+    -24.169309616088867
+   ],
+   [
+    -27.192625045776367
+   ],
+   [
+    -30.80644989013672
+   ],
+   [
+    -31.373470306396484
+   ],
+   [
+    -28.210683822631836
+   ],
+   [
+    -24.943008422851562
+   ],
+   [
+    -29.38432502746582
+   ],
+   [
+    -18.53798484802246
+   ],
+   [
+    -31.042110443115234
+   ],
+   [
+    -29.546777725219727
+   ],
+   [
+    -31.303417205810547
+   ],
+   [
+    -27.631572723388672
+   ],
+   [
+    -29.500268936157227
+   ],
+   [
+    -32.306007385253906
+   ],
+   [
+    -33.6966552734375
+   ],
+   [
+    -38.680423736572266
+   ],
+   [
+    -28.609867095947266
+   ],
+   [
+    -29.97046661376953
+   ],
+   [
+    -28.891613006591797
+   ],
+   [
+    -33.402809143066406
+   ],
+   [
+    -22.788970947265625
+   ],
+   [
+    -42.03103256225586
+   ],
+   [
+    -26.87320327758789
+   ],
+   [
+    -35.3271369934082
+   ],
+   [
+    -40.022178649902344
+   ],
+   [
+    -48.00545120239258
+   ],
+   [
+    -35.149295806884766
+   ],
+   [
+    -41.283695220947266
+   ],
+   [
+    -33.59407424926758
+   ],
+   [
+    -24.453628540039062
+   ],
+   [
+    -32.49048614501953
+   ],
+   [
+    -27.878986358642578
+   ],
+   [
+    -36.03629684448242
+   ],
+   [
+    -31.007444381713867
+   ],
+   [
+    -37.18764114379883
+   ],
+   [
+    -20.356489181518555
+   ],
+   [
+    -25.86578941345215
+   ],
+   [
+    -26.27283477783203
+   ],
+   [
+    -27.504703521728516
+   ],
+   [
+    -32.18507766723633
+   ],
+   [
+    -32.185951232910156
+   ],
+   [
+    -34.224281311035156
+   ],
+   [
+    -29.7513427734375
+   ],
+   [
+    -29.07155990600586
+   ],
+   [
+    -25.628246307373047
+   ],
+   [
+    -23.513607025146484
+   ],
+   [
+    -20.595006942749023
+   ],
+   [
+    -34.68812561035156
+   ],
+   [
+    -27.911792755126953
+   ],
+   [
+    -32.65986633300781
+   ],
+   [
+    -29.13300132751465
+   ],
+   [
+    -26.764192581176758
+   ],
+   [
+    -32.31175231933594
+   ],
+   [
+    -38.49915313720703
+   ],
+   [
+    -35.341373443603516
+   ],
+   [
+    -32.70808410644531
+   ],
+   [
+    -36.67363357543945
+   ],
+   [
+    -30.267473220825195
+   ],
+   [
+    -28.39767074584961
+   ],
+   [
+    -26.943235397338867
+   ],
+   [
+    -34.16397476196289
+   ],
+   [
+    -34.58634948730469
+   ],
+   [
+    -26.41044044494629
+   ],
+   [
+    -36.05253601074219
+   ],
+   [
+    -31.916521072387695
+   ],
+   [
+    -32.63947296142578
+   ],
+   [
+    -31.585861206054688
+   ],
+   [
+    -32.39794158935547
+   ],
+   [
+    -30.532127380371094
+   ],
+   [
+    -36.35129928588867
+   ],
+   [
+    -26.530912399291992
+   ],
+   [
+    -35.15821838378906
+   ],
+   [
+    -34.16994857788086
+   ],
+   [
+    -38.076988220214844
+   ],
+   [
+    -35.83557891845703
+   ],
+   [
+    -32.120819091796875
+   ],
+   [
+    -37.12153244018555
+   ],
+   [
+    -34.55850601196289
+   ],
+   [
+    -26.187238693237305
+   ],
+   [
+    -32.78715896606445
+   ],
+   [
+    -26.866594314575195
+   ],
+   [
+    -30.609119415283203
+   ],
+   [
+    -32.467628479003906
+   ],
+   [
+    -27.201765060424805
+   ],
+   [
+    -36.15898513793945
+   ],
+   [
+    -32.6175651550293
+   ],
+   [
+    -36.33591842651367
+   ],
+   [
+    -30.90076446533203
+   ],
+   [
+    -29.226272583007812
+   ],
+   [
+    -38.1257209777832
+   ]
+  ]
+ ],
+ "time": 6708.771307706833
+}

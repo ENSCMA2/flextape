@@ -1,0 +1,2076 @@
+{
+ "case_id": 21995,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Karl Menger"
+ },
+ "pre": [
+  [
+   "Karl Menger's field of work is meteorology",
+   "Karl Menger's field of work is radioactivity",
+   "Karl Menger's field of work is complex function",
+   "Karl Menger's field of work is histology",
+   "Karl Menger's field of work is algebra",
+   "Karl Menger's field of work is electron",
+   "Karl Menger's field of work is quantum theory",
+   "Karl Menger's field of work is applied mathematics",
+   "Karl Menger's field of work is electricity",
+   "Karl Menger's field of work is human geography",
+   "Karl Menger's field of work is crystallography",
+   "Karl Menger's field of work is chemistry",
+   "Karl Menger's field of work is Jewish studies",
+   "Karl Menger's field of work is topology",
+   "Karl Menger's field of work is mathematical analysis",
+   "Karl Menger's field of work is computational geometry",
+   "Karl Menger's field of work is Petrine ministry",
+   "Karl Menger's field of work is social psychology",
+   "Karl Menger's field of work is genetics",
+   "Karl Menger's field of work is informatics",
+   "Karl Menger's field of work is shipbuilding",
+   "Karl Menger's field of work is historical sociology",
+   "Karl Menger's field of work is quantum mysticism",
+   "Karl Menger's field of work is philosopher",
+   "Karl Menger's field of work is Internet",
+   "Karl Menger's field of work is gravity",
+   "Karl Menger's field of work is theoretical physics",
+   "Karl Menger's field of work is African studies",
+   "Karl Menger's field of work is projective geometry",
+   "Karl Menger's field of work is prose",
+   "Karl Menger's field of work is momentum",
+   "Karl Menger's field of work is Cairo Geniza",
+   "Karl Menger's field of work is stochastic",
+   "Karl Menger's field of work is algebraic topology",
+   "Karl Menger's field of work is electrical engineering",
+   "Karl Menger's field of work is hunting",
+   "Karl Menger's field of work is evolution",
+   "Karl Menger's field of work is economic anthropology",
+   "Karl Menger's field of work is Hebrew",
+   "Karl Menger's field of work is differential geometry",
+   "Karl Menger's field of work is engineering",
+   "Karl Menger's field of work is history of science",
+   "Karl Menger's field of work is social anthropology",
+   "Karl Menger's field of work is history",
+   "Karl Menger's field of work is distribution theory",
+   "Karl Menger's field of work is classics",
+   "Karl Menger's field of work is crime novel",
+   "Karl Menger's field of work is statistics",
+   "Karl Menger's field of work is experimental physics",
+   "Karl Menger's field of work is geography",
+   "Karl Menger's field of work is anthropology",
+   "Karl Menger's field of work is partial differential equation",
+   "Karl Menger's field of work is applied physics",
+   "Karl Menger's field of work is Sanskrit",
+   "Karl Menger's field of work is a branch of physics",
+   "Karl Menger's field of work is comparative mythology",
+   "Karl Menger's field of work is radiation",
+   "Karl Menger's field of work is aeromechanics",
+   "Karl Menger's field of work is harmonic analysis",
+   "Karl Menger's field of work is religion",
+   "Karl Menger's field of work is civil rights",
+   "Karl Menger's field of work is physicist",
+   "Karl Menger's field of work is distribution",
+   "Karl Menger's field of work is translations from Spanish",
+   "Karl Menger's field of work is feminism",
+   "Karl Menger's field of work is number theory",
+   "Karl Menger's field of work is sociology of organisations",
+   "Karl Menger's field of work is astronomer",
+   "Karl Menger's field of work is children's and youth literature",
+   "Karl Menger's field of work is fairy tale",
+   "Karl Menger's field of work is economy",
+   "Karl Menger's field of work is graph theory",
+   "Karl Menger's field of work is magic",
+   "Karl Menger's field of work is essay",
+   "Karl Menger's field of work is theory of relativity",
+   "Karl Menger's field of work is historical novel",
+   "Karl Menger's field of work is biological anthropology",
+   "Karl Menger's field of work is literary theory",
+   "Karl Menger's field of work is Greek philology",
+   "Karl Menger's field of work is lyric poetry",
+   "Karl Menger's field of work is psychology",
+   "Karl Menger's field of work is quaternion",
+   "Karl Menger's field of work is rite",
+   "Karl Menger's field of work is jazz",
+   "Karl Menger's field of work is heat",
+   "Karl Menger's field of work is embryology",
+   "Karl Menger's field of work is social philosophy",
+   "Karl Menger's field of work is dance choreography",
+   "Karl Menger's field of work is politics",
+   "Karl Menger's field of work is nanotechnology",
+   "Karl Menger's field of work is Afghanistan",
+   "Karl Menger's field of work is non-Euclidean geometry",
+   "Karl Menger's field of work is Franciscan spirituality",
+   "Karl Menger's field of work is detective literature",
+   "Karl Menger's field of work is mathematician",
+   "Karl Menger's field of work is String",
+   "Karl Menger's field of work is classical music",
+   "Karl Menger's field of work is translations from Occitan",
+   "Karl Menger's field of work is abstract algebra",
+   "Karl Menger's field of work is differential calculus",
+   "Karl Menger's field of work is mythology",
+   "Karl Menger's field of work is literary translation",
+   "Karl Menger's field of work is ballistics",
+   "Karl Menger's field of work is cryptography",
+   "Karl Menger's field of work is Greek",
+   "Karl Menger's field of work is logic",
+   "Karl Menger's field of work is choreography",
+   "Karl Menger's field of work is theology",
+   "Karl Menger's field of work is world economy",
+   "Karl Menger's field of work is magnetism",
+   "Karl Menger's field of work is algebraic geometry",
+   "Karl Menger's field of work is theory of differential equations",
+   "Karl Menger's field of work is physics",
+   "Karl Menger's field of work is music theory",
+   "Karl Menger's field of work is economics",
+   "Karl Menger's field of work is anatomy",
+   "Karl Menger's field of work is electromagnetic field",
+   "Karl Menger's field of work is analytic number theory",
+   "Karl Menger's field of work is mathematical physics",
+   "Karl Menger's field of work is journalism",
+   "Karl Menger's field of work is sociology",
+   "Karl Menger's field of work is literature",
+   "Karl Menger's field of work is ethnography",
+   "Karl Menger's field of work is belletristic literature",
+   "Karl Menger's field of work is convex function",
+   "Karl Menger's field of work is sociology of religion",
+   "Karl Menger's field of work is pedagogy",
+   "Karl Menger's field of work is philosophy",
+   "Karl Menger's field of work is quantum mechanics",
+   "Karl Menger's field of work is drama",
+   "Karl Menger's field of work is dance",
+   "Karl Menger's field of work is Judaism",
+   "Karl Menger's field of work is quantum physics",
+   "Karl Menger's field of work is philosophy of science",
+   "Karl Menger's field of work is linguistics",
+   "Karl Menger's field of work is myth",
+   "Karl Menger's field of work is physiology",
+   "Karl Menger's field of work is English",
+   "Karl Menger's field of work is philology",
+   "Karl Menger's field of work is political philosophy",
+   "Karl Menger's field of work is mechanical engineering",
+   "Karl Menger's field of work is ontology",
+   "Karl Menger's field of work is forestry",
+   "Karl Menger's field of work is aerodynamics",
+   "Karl Menger's field of work is Christian Church",
+   "Karl Menger's field of work is magnetic resonance",
+   "Karl Menger's field of work is astrophysics",
+   "Karl Menger's field of work is natural science",
+   "Karl Menger's field of work is constitutional law",
+   "Karl Menger's field of work is philosophy of law",
+   "Karl Menger's field of work is education",
+   "Karl Menger's field of work is Monte Carlo method",
+   "Karl Menger's field of work is neurology",
+   "Karl Menger's field of work is electric field",
+   "Karl Menger's field of work is Minkowski spacetime",
+   "Karl Menger's field of work is translations from Arabic language",
+   "Karl Menger's field of work is Bayesian inference",
+   "Karl Menger's field of work is translations from Polish",
+   "Karl Menger's field of work is color photography",
+   "Karl Menger's field of work is opera",
+   "Karl Menger's field of work is model theory",
+   "Karl Menger's field of work is cartography",
+   "Karl Menger's field of work is nonstandard analysis",
+   "Karl Menger's field of work is television program",
+   "Karl Menger's field of work is complex manifold",
+   "Karl Menger's field of work is poetry",
+   "Karl Menger's field of work is mathematics",
+   "Karl Menger's field of work is computer science",
+   "Karl Menger's field of work is cosmology",
+   "Karl Menger's field of work is silviculture",
+   "Karl Menger's field of work is hydrodynamics",
+   "Karl Menger's field of work is forestry science",
+   "Karl Menger's field of work is comparative religion",
+   "Karl Menger's field of work is information technology",
+   "Karl Menger's field of work is ballet",
+   "Karl Menger's field of work is English literature",
+   "Karl Menger's field of work is conducting",
+   "Karl Menger's field of work is hyperbolic geometry",
+   "Karl Menger's field of work is biochemistry",
+   "Karl Menger's field of work is religion and society",
+   "Karl Menger's field of work is optics",
+   "Karl Menger's field of work is ethics",
+   "Karl Menger's field of work is cybernetics",
+   "Karl Menger's field of work is astronomical observation",
+   "Karl Menger's field of work is psychophysiology",
+   "Karl Menger's field of work is culturology",
+   "Karl Menger's field of work is history of religions",
+   "Karl Menger's field of work is probability theory",
+   "Karl Menger's field of work is paleontology",
+   "Karl Menger's field of work is surgery",
+   "Karl Menger's field of work is group theory",
+   "Karl Menger's field of work is natural theology",
+   "Karl Menger's field of work is astrology",
+   "Karl Menger's field of work is quantum electrodynamics",
+   "Karl Menger's field of work is mechanics",
+   "Karl Menger's field of work is Lie algebra",
+   "Karl Menger's field of work is trigonometry",
+   "Karl Menger's field of work is literary activity",
+   "Karl Menger's field of work is nuclear physics",
+   "Karl Menger's field of work is translations from English",
+   "Karl Menger's field of work is medicine",
+   "Karl Menger's field of work is Jewish philosophy",
+   "Karl Menger's field of work is mathematical logic",
+   "Karl Menger's field of work is calculus of variations",
+   "Karl Menger's field of work is ferromagnetism",
+   "Karl Menger's field of work is analytic geometry",
+   "Karl Menger's field of work is art of painting",
+   "Karl Menger's field of work is functional analysis",
+   "Karl Menger's field of work is folklore",
+   "Karl Menger's field of work is study of history",
+   "Karl Menger's field of work is geometry",
+   "Karl Menger's field of work is positivism",
+   "Karl Menger's field of work is geodesy",
+   "Karl Menger's field of work is astronomy",
+   "Karl Menger's field of work is magnetic field",
+   "Karl Menger's field of work is kinetic theory",
+   "Karl Menger's field of work is celestial mechanics",
+   "Karl Menger's field of work is analytic philosophy",
+   "Karl Menger's field of work is ethnology",
+   "Karl Menger's field of work is history of economic thought",
+   "Karl Menger is meteorology",
+   "Karl Menger is radioactivity",
+   "Karl Menger is complex function",
+   "Karl Menger is histology",
+   "Karl Menger is algebra",
+   "Karl Menger is electron",
+   "Karl Menger is quantum theory",
+   "Karl Menger is applied mathematics",
+   "Karl Menger is electricity",
+   "Karl Menger is human geography",
+   "Karl Menger is crystallography",
+   "Karl Menger is chemistry",
+   "Karl Menger is Jewish studies",
+   "Karl Menger is topology",
+   "Karl Menger is mathematical analysis",
+   "Karl Menger is computational geometry",
+   "Karl Menger is Petrine ministry",
+   "Karl Menger is social psychology",
+   "Karl Menger is genetics",
+   "Karl Menger is informatics",
+   "Karl Menger is shipbuilding",
+   "Karl Menger is historical sociology",
+   "Karl Menger is quantum mysticism",
+   "Karl Menger is philosopher",
+   "Karl Menger is Internet",
+   "Karl Menger is gravity",
+   "Karl Menger is theoretical physics",
+   "Karl Menger is African studies",
+   "Karl Menger is projective geometry",
+   "Karl Menger is prose",
+   "Karl Menger is momentum",
+   "Karl Menger is Cairo Geniza",
+   "Karl Menger is stochastic",
+   "Karl Menger is algebraic topology",
+   "Karl Menger is electrical engineering",
+   "Karl Menger is hunting",
+   "Karl Menger is evolution",
+   "Karl Menger is economic anthropology",
+   "Karl Menger is Hebrew",
+   "Karl Menger is differential geometry",
+   "Karl Menger is engineering",
+   "Karl Menger is history of science",
+   "Karl Menger is social anthropology",
+   "Karl Menger is history",
+   "Karl Menger is distribution theory",
+   "Karl Menger is classics",
+   "Karl Menger is crime novel",
+   "Karl Menger is statistics",
+   "Karl Menger is experimental physics",
+   "Karl Menger is geography",
+   "Karl Menger is anthropology",
+   "Karl Menger is partial differential equation",
+   "Karl Menger is applied physics",
+   "Karl Menger is Sanskrit",
+   "Karl Menger is a branch of physics",
+   "Karl Menger is comparative mythology",
+   "Karl Menger is radiation",
+   "Karl Menger is aeromechanics",
+   "Karl Menger is harmonic analysis",
+   "Karl Menger is religion",
+   "Karl Menger is civil rights",
+   "Karl Menger is physicist",
+   "Karl Menger is distribution",
+   "Karl Menger is translations from Spanish",
+   "Karl Menger is feminism",
+   "Karl Menger is number theory",
+   "Karl Menger is sociology of organisations",
+   "Karl Menger is astronomer",
+   "Karl Menger is children's and youth literature",
+   "Karl Menger is fairy tale",
+   "Karl Menger is economy",
+   "Karl Menger is graph theory",
+   "Karl Menger is magic",
+   "Karl Menger is essay",
+   "Karl Menger is theory of relativity",
+   "Karl Menger is historical novel",
+   "Karl Menger is biological anthropology",
+   "Karl Menger is literary theory",
+   "Karl Menger is Greek philology",
+   "Karl Menger is lyric poetry",
+   "Karl Menger is psychology",
+   "Karl Menger is quaternion",
+   "Karl Menger is rite",
+   "Karl Menger is jazz",
+   "Karl Menger is heat",
+   "Karl Menger is embryology",
+   "Karl Menger is social philosophy",
+   "Karl Menger is dance choreography",
+   "Karl Menger is politics",
+   "Karl Menger is nanotechnology",
+   "Karl Menger is Afghanistan",
+   "Karl Menger is non-Euclidean geometry",
+   "Karl Menger is Franciscan spirituality",
+   "Karl Menger is detective literature",
+   "Karl Menger is mathematician",
+   "Karl Menger is String",
+   "Karl Menger is classical music",
+   "Karl Menger is translations from Occitan",
+   "Karl Menger is abstract algebra",
+   "Karl Menger is differential calculus",
+   "Karl Menger is mythology",
+   "Karl Menger is literary translation",
+   "Karl Menger is ballistics",
+   "Karl Menger is cryptography",
+   "Karl Menger is Greek",
+   "Karl Menger is logic",
+   "Karl Menger is choreography",
+   "Karl Menger is theology",
+   "Karl Menger is world economy",
+   "Karl Menger is magnetism",
+   "Karl Menger is algebraic geometry",
+   "Karl Menger is theory of differential equations",
+   "Karl Menger is physics",
+   "Karl Menger is music theory",
+   "Karl Menger is economics",
+   "Karl Menger is anatomy",
+   "Karl Menger is electromagnetic field",
+   "Karl Menger is analytic number theory",
+   "Karl Menger is mathematical physics",
+   "Karl Menger is journalism",
+   "Karl Menger is sociology",
+   "Karl Menger is literature",
+   "Karl Menger is ethnography",
+   "Karl Menger is belletristic literature",
+   "Karl Menger is convex function",
+   "Karl Menger is sociology of religion",
+   "Karl Menger is pedagogy",
+   "Karl Menger is philosophy",
+   "Karl Menger is quantum mechanics",
+   "Karl Menger is drama",
+   "Karl Menger is dance",
+   "Karl Menger is Judaism",
+   "Karl Menger is quantum physics",
+   "Karl Menger is philosophy of science",
+   "Karl Menger is linguistics",
+   "Karl Menger is myth",
+   "Karl Menger is physiology",
+   "Karl Menger is English",
+   "Karl Menger is philology",
+   "Karl Menger is political philosophy",
+   "Karl Menger is mechanical engineering",
+   "Karl Menger is ontology",
+   "Karl Menger is forestry",
+   "Karl Menger is aerodynamics",
+   "Karl Menger is Christian Church",
+   "Karl Menger is magnetic resonance",
+   "Karl Menger is astrophysics",
+   "Karl Menger is natural science",
+   "Karl Menger is constitutional law",
+   "Karl Menger is philosophy of law",
+   "Karl Menger is education",
+   "Karl Menger is Monte Carlo method",
+   "Karl Menger is neurology",
+   "Karl Menger is electric field",
+   "Karl Menger is Minkowski spacetime",
+   "Karl Menger is translations from Arabic language",
+   "Karl Menger is Bayesian inference",
+   "Karl Menger is translations from Polish",
+   "Karl Menger is color photography",
+   "Karl Menger is opera",
+   "Karl Menger is model theory",
+   "Karl Menger is cartography",
+   "Karl Menger is nonstandard analysis",
+   "Karl Menger is television program",
+   "Karl Menger is complex manifold",
+   "Karl Menger is poetry",
+   "Karl Menger is mathematics",
+   "Karl Menger is computer science",
+   "Karl Menger is cosmology",
+   "Karl Menger is silviculture",
+   "Karl Menger is hydrodynamics",
+   "Karl Menger is forestry science",
+   "Karl Menger is comparative religion",
+   "Karl Menger is information technology",
+   "Karl Menger is ballet",
+   "Karl Menger is English literature",
+   "Karl Menger is conducting",
+   "Karl Menger is hyperbolic geometry",
+   "Karl Menger is biochemistry",
+   "Karl Menger is religion and society",
+   "Karl Menger is optics",
+   "Karl Menger is ethics",
+   "Karl Menger is cybernetics",
+   "Karl Menger is astronomical observation",
+   "Karl Menger is psychophysiology",
+   "Karl Menger is culturology",
+   "Karl Menger is history of religions",
+   "Karl Menger is probability theory",
+   "Karl Menger is paleontology",
+   "Karl Menger is surgery",
+   "Karl Menger is group theory",
+   "Karl Menger is natural theology",
+   "Karl Menger is astrology",
+   "Karl Menger is quantum electrodynamics",
+   "Karl Menger is mechanics",
+   "Karl Menger is Lie algebra",
+   "Karl Menger is trigonometry",
+   "Karl Menger is literary activity",
+   "Karl Menger is nuclear physics",
+   "Karl Menger is translations from English",
+   "Karl Menger is medicine",
+   "Karl Menger is Jewish philosophy",
+   "Karl Menger is mathematical logic",
+   "Karl Menger is calculus of variations",
+   "Karl Menger is ferromagnetism",
+   "Karl Menger is analytic geometry",
+   "Karl Menger is art of painting",
+   "Karl Menger is functional analysis",
+   "Karl Menger is folklore",
+   "Karl Menger is study of history",
+   "Karl Menger is geometry",
+   "Karl Menger is positivism",
+   "Karl Menger is geodesy",
+   "Karl Menger is astronomy",
+   "Karl Menger is magnetic field",
+   "Karl Menger is kinetic theory",
+   "Karl Menger is celestial mechanics",
+   "Karl Menger is analytic philosophy",
+   "Karl Menger is ethnology",
+   "Karl Menger is history of economic thought"
+  ],
+  [
+   [
+    -42.93854522705078
+   ],
+   [
+    -46.87689971923828
+   ],
+   [
+    -51.11505889892578
+   ],
+   [
+    -45.01918029785156
+   ],
+   [
+    -39.579105377197266
+   ],
+   [
+    -44.95695495605469
+   ],
+   [
+    -41.96001052856445
+   ],
+   [
+    -40.6202392578125
+   ],
+   [
+    -43.3824348449707
+   ],
+   [
+    -44.497314453125
+   ],
+   [
+    -42.88581466674805
+   ],
+   [
+    -42.168739318847656
+   ],
+   [
+    -46.632503509521484
+   ],
+   [
+    -40.47138214111328
+   ],
+   [
+    -41.13251495361328
+   ],
+   [
+    -43.76060485839844
+   ],
+   [
+    -58.0582160949707
+   ],
+   [
+    -42.12971878051758
+   ],
+   [
+    -42.5506591796875
+   ],
+   [
+    -42.6160888671875
+   ],
+   [
+    -47.56189727783203
+   ],
+   [
+    -43.24494552612305
+   ],
+   [
+    -50.71487808227539
+   ],
+   [
+    -43.744606018066406
+   ],
+   [
+    -42.38673400878906
+   ],
+   [
+    -44.4356803894043
+   ],
+   [
+    -41.28203201293945
+   ],
+   [
+    -48.07954406738281
+   ],
+   [
+    -45.67138671875
+   ],
+   [
+    -44.291053771972656
+   ],
+   [
+    -46.16100311279297
+   ],
+   [
+    -57.00115203857422
+   ],
+   [
+    -42.19149398803711
+   ],
+   [
+    -41.84210205078125
+   ],
+   [
+    -42.03205490112305
+   ],
+   [
+    -45.111846923828125
+   ],
+   [
+    -41.201438903808594
+   ],
+   [
+    -43.089012145996094
+   ],
+   [
+    -45.15470504760742
+   ],
+   [
+    -43.62230682373047
+   ],
+   [
+    -40.85852813720703
+   ],
+   [
+    -43.05293273925781
+   ],
+   [
+    -43.18379211425781
+   ],
+   [
+    -38.717979431152344
+   ],
+   [
+    -43.92823791503906
+   ],
+   [
+    -43.09407043457031
+   ],
+   [
+    -52.67631530761719
+   ],
+   [
+    -41.250633239746094
+   ],
+   [
+    -45.136146545410156
+   ],
+   [
+    -42.68302917480469
+   ],
+   [
+    -41.48194885253906
+   ],
+   [
+    -49.415122985839844
+   ],
+   [
+    -45.678714752197266
+   ],
+   [
+    -44.11786651611328
+   ],
+   [
+    -46.563209533691406
+   ],
+   [
+    -46.28925323486328
+   ],
+   [
+    -45.373329162597656
+   ],
+   [
+    -50.610877990722656
+   ],
+   [
+    -43.96875762939453
+   ],
+   [
+    -41.68413162231445
+   ],
+   [
+    -44.84324645996094
+   ],
+   [
+    -47.119712829589844
+   ],
+   [
+    -42.15019989013672
+   ],
+   [
+    -50.25908660888672
+   ],
+   [
+    -42.630455017089844
+   ],
+   [
+    -39.864768981933594
+   ],
+   [
+    -48.84698486328125
+   ],
+   [
+    -48.99651336669922
+   ],
+   [
+    -48.44342041015625
+   ],
+   [
+    -47.8759880065918
+   ],
+   [
+    -41.574127197265625
+   ],
+   [
+    -40.724300384521484
+   ],
+   [
+    -43.87751770019531
+   ],
+   [
+    -43.61784362792969
+   ],
+   [
+    -46.07924270629883
+   ],
+   [
+    -48.69348907470703
+   ],
+   [
+    -45.66733169555664
+   ],
+   [
+    -42.96443176269531
+   ],
+   [
+    -47.19978332519531
+   ],
+   [
+    -47.913082122802734
+   ],
+   [
+    -41.030914306640625
+   ],
+   [
+    -47.008087158203125
+   ],
+   [
+    -48.198787689208984
+   ],
+   [
+    -44.904808044433594
+   ],
+   [
+    -44.57679748535156
+   ],
+   [
+    -43.44952392578125
+   ],
+   [
+    -41.022464752197266
+   ],
+   [
+    -50.99790573120117
+   ],
+   [
+    -41.31352996826172
+   ],
+   [
+    -43.313167572021484
+   ],
+   [
+    -47.32780838012695
+   ],
+   [
+    -42.63703918457031
+   ],
+   [
+    -51.36370086669922
+   ],
+   [
+    -50.281097412109375
+   ],
+   [
+    -44.7913818359375
+   ],
+   [
+    -44.64609909057617
+   ],
+   [
+    -43.50901794433594
+   ],
+   [
+    -55.888145446777344
+   ],
+   [
+    -40.934364318847656
+   ],
+   [
+    -44.13209533691406
+   ],
+   [
+    -43.953033447265625
+   ],
+   [
+    -46.485504150390625
+   ],
+   [
+    -46.849517822265625
+   ],
+   [
+    -41.309303283691406
+   ],
+   [
+    -42.66303253173828
+   ],
+   [
+    -37.77632141113281
+   ],
+   [
+    -46.94805145263672
+   ],
+   [
+    -41.29097366333008
+   ],
+   [
+    -47.20549392700195
+   ],
+   [
+    -44.464263916015625
+   ],
+   [
+    -42.118064880371094
+   ],
+   [
+    -51.47422409057617
+   ],
+   [
+    -39.5234375
+   ],
+   [
+    -41.990875244140625
+   ],
+   [
+    -37.57849884033203
+   ],
+   [
+    -44.31848907470703
+   ],
+   [
+    -47.48341369628906
+   ],
+   [
+    -44.676361083984375
+   ],
+   [
+    -42.68101501464844
+   ],
+   [
+    -42.723487854003906
+   ],
+   [
+    -40.01883316040039
+   ],
+   [
+    -40.95887756347656
+   ],
+   [
+    -43.88056182861328
+   ],
+   [
+    -51.08439254760742
+   ],
+   [
+    -48.344051361083984
+   ],
+   [
+    -43.30876159667969
+   ],
+   [
+    -42.017669677734375
+   ],
+   [
+    -36.90011978149414
+   ],
+   [
+    -40.806583404541016
+   ],
+   [
+    -44.75822448730469
+   ],
+   [
+    -44.296607971191406
+   ],
+   [
+    -44.92763900756836
+   ],
+   [
+    -41.54926300048828
+   ],
+   [
+    -38.837677001953125
+   ],
+   [
+    -39.59378433227539
+   ],
+   [
+    -43.927703857421875
+   ],
+   [
+    -42.98310089111328
+   ],
+   [
+    -42.60057067871094
+   ],
+   [
+    -41.410400390625
+   ],
+   [
+    -40.14832305908203
+   ],
+   [
+    -43.34337615966797
+   ],
+   [
+    -40.11870193481445
+   ],
+   [
+    -44.415626525878906
+   ],
+   [
+    -46.32722854614258
+   ],
+   [
+    -49.851898193359375
+   ],
+   [
+    -46.80475997924805
+   ],
+   [
+    -43.48899841308594
+   ],
+   [
+    -42.131317138671875
+   ],
+   [
+    -42.182743072509766
+   ],
+   [
+    -41.48398208618164
+   ],
+   [
+    -39.51426696777344
+   ],
+   [
+    -52.11349868774414
+   ],
+   [
+    -43.302398681640625
+   ],
+   [
+    -49.48136901855469
+   ],
+   [
+    -47.04835510253906
+   ],
+   [
+    -55.90757751464844
+   ],
+   [
+    -43.90254592895508
+   ],
+   [
+    -51.538394927978516
+   ],
+   [
+    -47.20624542236328
+   ],
+   [
+    -44.06433868408203
+   ],
+   [
+    -42.250953674316406
+   ],
+   [
+    -41.89234161376953
+   ],
+   [
+    -43.378265380859375
+   ],
+   [
+    -51.22217559814453
+   ],
+   [
+    -48.893463134765625
+   ],
+   [
+    -43.122257232666016
+   ],
+   [
+    -36.88953399658203
+   ],
+   [
+    -41.14386749267578
+   ],
+   [
+    -41.1378288269043
+   ],
+   [
+    -49.54774856567383
+   ],
+   [
+    -44.24307632446289
+   ],
+   [
+    -50.05110168457031
+   ],
+   [
+    -43.66590118408203
+   ],
+   [
+    -43.36099624633789
+   ],
+   [
+    -46.494140625
+   ],
+   [
+    -44.01844787597656
+   ],
+   [
+    -43.79103088378906
+   ],
+   [
+    -43.94933319091797
+   ],
+   [
+    -41.89117431640625
+   ],
+   [
+    -47.670658111572266
+   ],
+   [
+    -42.6661376953125
+   ],
+   [
+    -39.59760284423828
+   ],
+   [
+    -41.96115493774414
+   ],
+   [
+    -49.99498748779297
+   ],
+   [
+    -45.5140495300293
+   ],
+   [
+    -46.95579528808594
+   ],
+   [
+    -46.88667297363281
+   ],
+   [
+    -41.13703918457031
+   ],
+   [
+    -43.38605880737305
+   ],
+   [
+    -44.40629577636719
+   ],
+   [
+    -42.36076354980469
+   ],
+   [
+    -45.13069152832031
+   ],
+   [
+    -43.31320571899414
+   ],
+   [
+    -45.63428497314453
+   ],
+   [
+    -42.13481140136719
+   ],
+   [
+    -48.51975631713867
+   ],
+   [
+    -44.540771484375
+   ],
+   [
+    -50.735294342041016
+   ],
+   [
+    -45.019065856933594
+   ],
+   [
+    -48.846221923828125
+   ],
+   [
+    -42.310760498046875
+   ],
+   [
+    -44.96864318847656
+   ],
+   [
+    -38.140892028808594
+   ],
+   [
+    -45.495174407958984
+   ],
+   [
+    -48.32958221435547
+   ],
+   [
+    -42.020111083984375
+   ],
+   [
+    -50.407737731933594
+   ],
+   [
+    -40.0537223815918
+   ],
+   [
+    -43.461875915527344
+   ],
+   [
+    -47.36711883544922
+   ],
+   [
+    -40.51250457763672
+   ],
+   [
+    -44.078346252441406
+   ],
+   [
+    -44.61025619506836
+   ],
+   [
+    -43.13220977783203
+   ],
+   [
+    -48.18744659423828
+   ],
+   [
+    -45.991058349609375
+   ],
+   [
+    -45.05900192260742
+   ],
+   [
+    -40.4527473449707
+   ],
+   [
+    -43.58995819091797
+   ],
+   [
+    -43.48942947387695
+   ],
+   [
+    -32.8035774230957
+   ],
+   [
+    -34.165435791015625
+   ],
+   [
+    -40.617286682128906
+   ],
+   [
+    -34.38629150390625
+   ],
+   [
+    -29.397319793701172
+   ],
+   [
+    -29.433692932128906
+   ],
+   [
+    -32.25423812866211
+   ],
+   [
+    -30.40134048461914
+   ],
+   [
+    -30.251171112060547
+   ],
+   [
+    -35.491798400878906
+   ],
+   [
+    -33.847679138183594
+   ],
+   [
+    -30.37130355834961
+   ],
+   [
+    -36.897396087646484
+   ],
+   [
+    -32.9282112121582
+   ],
+   [
+    -35.27801513671875
+   ],
+   [
+    -35.12657928466797
+   ],
+   [
+    -49.20447540283203
+   ],
+   [
+    -31.92729949951172
+   ],
+   [
+    -32.39530944824219
+   ],
+   [
+    -31.85049057006836
+   ],
+   [
+    -34.43717575073242
+   ],
+   [
+    -33.37975311279297
+   ],
+   [
+    -38.43067932128906
+   ],
+   [
+    -25.185169219970703
+   ],
+   [
+    -27.635910034179688
+   ],
+   [
+    -31.18753433227539
+   ],
+   [
+    -30.929012298583984
+   ],
+   [
+    -36.1447639465332
+   ],
+   [
+    -36.512847900390625
+   ],
+   [
+    -29.975143432617188
+   ],
+   [
+    -31.934288024902344
+   ],
+   [
+    -43.420936584472656
+   ],
+   [
+    -32.2650146484375
+   ],
+   [
+    -33.285160064697266
+   ],
+   [
+    -32.49013900756836
+   ],
+   [
+    -28.278160095214844
+   ],
+   [
+    -29.95865249633789
+   ],
+   [
+    -35.528289794921875
+   ],
+   [
+    -29.29155731201172
+   ],
+   [
+    -33.86166000366211
+   ],
+   [
+    -28.685997009277344
+   ],
+   [
+    -35.13763427734375
+   ],
+   [
+    -33.091529846191406
+   ],
+   [
+    -26.694580078125
+   ],
+   [
+    -34.879940032958984
+   ],
+   [
+    -30.241012573242188
+   ],
+   [
+    -36.993438720703125
+   ],
+   [
+    -29.6754150390625
+   ],
+   [
+    -33.2423210144043
+   ],
+   [
+    -31.024478912353516
+   ],
+   [
+    -29.840930938720703
+   ],
+   [
+    -38.31611633300781
+   ],
+   [
+    -34.05366516113281
+   ],
+   [
+    -30.982837677001953
+   ],
+   [
+    -35.31339645385742
+   ],
+   [
+    -35.95295715332031
+   ],
+   [
+    -31.59865951538086
+   ],
+   [
+    -35.780765533447266
+   ],
+   [
+    -34.20466232299805
+   ],
+   [
+    -29.68191909790039
+   ],
+   [
+    -31.172931671142578
+   ],
+   [
+    -26.989215850830078
+   ],
+   [
+    -31.371601104736328
+   ],
+   [
+    -41.25226593017578
+   ],
+   [
+    -31.167465209960938
+   ],
+   [
+    -33.63945770263672
+   ],
+   [
+    -41.749481201171875
+   ],
+   [
+    -29.53420639038086
+   ],
+   [
+    -40.31304931640625
+   ],
+   [
+    -32.95619583129883
+   ],
+   [
+    -30.5509033203125
+   ],
+   [
+    -31.651996612548828
+   ],
+   [
+    -29.11608123779297
+   ],
+   [
+    -28.618980407714844
+   ],
+   [
+    -35.08897018432617
+   ],
+   [
+    -33.58274841308594
+   ],
+   [
+    -35.44336700439453
+   ],
+   [
+    -35.47842025756836
+   ],
+   [
+    -40.794158935546875
+   ],
+   [
+    -36.555015563964844
+   ],
+   [
+    -29.899738311767578
+   ],
+   [
+    -36.21484375
+   ],
+   [
+    -30.90250015258789
+   ],
+   [
+    -28.528244018554688
+   ],
+   [
+    -30.432212829589844
+   ],
+   [
+    -31.492328643798828
+   ],
+   [
+    -33.89752197265625
+   ],
+   [
+    -40.81270980834961
+   ],
+   [
+    -29.419673919677734
+   ],
+   [
+    -33.38970184326172
+   ],
+   [
+    -32.03922653198242
+   ],
+   [
+    -34.12586212158203
+   ],
+   [
+    -38.5352783203125
+   ],
+   [
+    -41.4901123046875
+   ],
+   [
+    -25.937700271606445
+   ],
+   [
+    -31.032230377197266
+   ],
+   [
+    -31.718780517578125
+   ],
+   [
+    -46.761051177978516
+   ],
+   [
+    -31.718143463134766
+   ],
+   [
+    -34.64859390258789
+   ],
+   [
+    -30.587841033935547
+   ],
+   [
+    -37.62627029418945
+   ],
+   [
+    -35.22519302368164
+   ],
+   [
+    -30.66204833984375
+   ],
+   [
+    -29.2047119140625
+   ],
+   [
+    -29.97750473022461
+   ],
+   [
+    -37.636573791503906
+   ],
+   [
+    -29.632389068603516
+   ],
+   [
+    -36.22406768798828
+   ],
+   [
+    -33.79835510253906
+   ],
+   [
+    -32.687870025634766
+   ],
+   [
+    -42.601722717285156
+   ],
+   [
+    -27.64670181274414
+   ],
+   [
+    -32.20100021362305
+   ],
+   [
+    -27.50747299194336
+   ],
+   [
+    -31.753311157226562
+   ],
+   [
+    -36.41814041137695
+   ],
+   [
+    -32.292205810546875
+   ],
+   [
+    -33.158321380615234
+   ],
+   [
+    -29.619186401367188
+   ],
+   [
+    -28.19247817993164
+   ],
+   [
+    -29.162506103515625
+   ],
+   [
+    -32.35962677001953
+   ],
+   [
+    -42.761474609375
+   ],
+   [
+    -38.278419494628906
+   ],
+   [
+    -33.70117950439453
+   ],
+   [
+    -30.32746124267578
+   ],
+   [
+    -26.580724716186523
+   ],
+   [
+    -30.779685974121094
+   ],
+   [
+    -31.90462875366211
+   ],
+   [
+    -30.359390258789062
+   ],
+   [
+    -29.717147827148438
+   ],
+   [
+    -31.87975311279297
+   ],
+   [
+    -31.47570037841797
+   ],
+   [
+    -29.478553771972656
+   ],
+   [
+    -28.363109588623047
+   ],
+   [
+    -31.836917877197266
+   ],
+   [
+    -28.607452392578125
+   ],
+   [
+    -31.61933135986328
+   ],
+   [
+    -32.71019744873047
+   ],
+   [
+    -31.60191535949707
+   ],
+   [
+    -30.51961898803711
+   ],
+   [
+    -32.62165832519531
+   ],
+   [
+    -33.819000244140625
+   ],
+   [
+    -33.87725830078125
+   ],
+   [
+    -40.570579528808594
+   ],
+   [
+    -33.772918701171875
+   ],
+   [
+    -31.74087142944336
+   ],
+   [
+    -31.391826629638672
+   ],
+   [
+    -34.5130615234375
+   ],
+   [
+    -28.307754516601562
+   ],
+   [
+    -44.5808219909668
+   ],
+   [
+    -30.151592254638672
+   ],
+   [
+    -37.09405517578125
+   ],
+   [
+    -39.80433654785156
+   ],
+   [
+    -48.395782470703125
+   ],
+   [
+    -37.74298858642578
+   ],
+   [
+    -42.113277435302734
+   ],
+   [
+    -38.15045166015625
+   ],
+   [
+    -29.978721618652344
+   ],
+   [
+    -36.5775260925293
+   ],
+   [
+    -33.39912033081055
+   ],
+   [
+    -36.1763916015625
+   ],
+   [
+    -37.731201171875
+   ],
+   [
+    -39.790489196777344
+   ],
+   [
+    -30.32666015625
+   ],
+   [
+    -27.887569427490234
+   ],
+   [
+    -28.818267822265625
+   ],
+   [
+    -30.825302124023438
+   ],
+   [
+    -35.36832809448242
+   ],
+   [
+    -32.82369613647461
+   ],
+   [
+    -37.59125518798828
+   ],
+   [
+    -33.49199676513672
+   ],
+   [
+    -32.35820007324219
+   ],
+   [
+    -33.07255554199219
+   ],
+   [
+    -33.27338409423828
+   ],
+   [
+    -25.275577545166016
+   ],
+   [
+    -38.048892974853516
+   ],
+   [
+    -32.23828125
+   ],
+   [
+    -36.125404357910156
+   ],
+   [
+    -32.590084075927734
+   ],
+   [
+    -30.70458221435547
+   ],
+   [
+    -34.149986267089844
+   ],
+   [
+    -39.766754150390625
+   ],
+   [
+    -37.167259216308594
+   ],
+   [
+    -36.132049560546875
+   ],
+   [
+    -40.0113525390625
+   ],
+   [
+    -31.993091583251953
+   ],
+   [
+    -32.84258270263672
+   ],
+   [
+    -31.218311309814453
+   ],
+   [
+    -33.744102478027344
+   ],
+   [
+    -35.32421875
+   ],
+   [
+    -32.639976501464844
+   ],
+   [
+    -34.883785247802734
+   ],
+   [
+    -33.66145706176758
+   ],
+   [
+    -37.63954162597656
+   ],
+   [
+    -34.1274528503418
+   ],
+   [
+    -38.975975036621094
+   ],
+   [
+    -32.63765335083008
+   ],
+   [
+    -40.57608413696289
+   ],
+   [
+    -28.985546112060547
+   ],
+   [
+    -35.436702728271484
+   ],
+   [
+    -31.208614349365234
+   ],
+   [
+    -39.49382019042969
+   ],
+   [
+    -38.91653060913086
+   ],
+   [
+    -31.721790313720703
+   ],
+   [
+    -39.5872802734375
+   ],
+   [
+    -32.613487243652344
+   ],
+   [
+    -30.39978790283203
+   ],
+   [
+    -36.381874084472656
+   ],
+   [
+    -30.200122833251953
+   ],
+   [
+    -32.15806198120117
+   ],
+   [
+    -35.76655578613281
+   ],
+   [
+    -30.776779174804688
+   ],
+   [
+    -38.52137756347656
+   ],
+   [
+    -32.9658317565918
+   ],
+   [
+    -34.52837371826172
+   ],
+   [
+    -29.630048751831055
+   ],
+   [
+    -32.86857604980469
+   ],
+   [
+    -35.90998840332031
+   ]
+  ]
+ ],
+ "time": 1834.951780796051
+}

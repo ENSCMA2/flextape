@@ -1,0 +1,2076 @@
+{
+ "case_id": 22057,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Shmuel Eisenstadt"
+ },
+ "pre": [
+  [
+   "Shmuel Eisenstadt's field of work is meteorology",
+   "Shmuel Eisenstadt's field of work is radioactivity",
+   "Shmuel Eisenstadt's field of work is complex function",
+   "Shmuel Eisenstadt's field of work is histology",
+   "Shmuel Eisenstadt's field of work is algebra",
+   "Shmuel Eisenstadt's field of work is electron",
+   "Shmuel Eisenstadt's field of work is quantum theory",
+   "Shmuel Eisenstadt's field of work is applied mathematics",
+   "Shmuel Eisenstadt's field of work is electricity",
+   "Shmuel Eisenstadt's field of work is human geography",
+   "Shmuel Eisenstadt's field of work is crystallography",
+   "Shmuel Eisenstadt's field of work is chemistry",
+   "Shmuel Eisenstadt's field of work is Jewish studies",
+   "Shmuel Eisenstadt's field of work is topology",
+   "Shmuel Eisenstadt's field of work is mathematical analysis",
+   "Shmuel Eisenstadt's field of work is computational geometry",
+   "Shmuel Eisenstadt's field of work is Petrine ministry",
+   "Shmuel Eisenstadt's field of work is social psychology",
+   "Shmuel Eisenstadt's field of work is genetics",
+   "Shmuel Eisenstadt's field of work is informatics",
+   "Shmuel Eisenstadt's field of work is shipbuilding",
+   "Shmuel Eisenstadt's field of work is historical sociology",
+   "Shmuel Eisenstadt's field of work is quantum mysticism",
+   "Shmuel Eisenstadt's field of work is philosopher",
+   "Shmuel Eisenstadt's field of work is Internet",
+   "Shmuel Eisenstadt's field of work is gravity",
+   "Shmuel Eisenstadt's field of work is theoretical physics",
+   "Shmuel Eisenstadt's field of work is African studies",
+   "Shmuel Eisenstadt's field of work is projective geometry",
+   "Shmuel Eisenstadt's field of work is prose",
+   "Shmuel Eisenstadt's field of work is momentum",
+   "Shmuel Eisenstadt's field of work is Cairo Geniza",
+   "Shmuel Eisenstadt's field of work is stochastic",
+   "Shmuel Eisenstadt's field of work is algebraic topology",
+   "Shmuel Eisenstadt's field of work is electrical engineering",
+   "Shmuel Eisenstadt's field of work is hunting",
+   "Shmuel Eisenstadt's field of work is evolution",
+   "Shmuel Eisenstadt's field of work is economic anthropology",
+   "Shmuel Eisenstadt's field of work is Hebrew",
+   "Shmuel Eisenstadt's field of work is differential geometry",
+   "Shmuel Eisenstadt's field of work is engineering",
+   "Shmuel Eisenstadt's field of work is history of science",
+   "Shmuel Eisenstadt's field of work is social anthropology",
+   "Shmuel Eisenstadt's field of work is history",
+   "Shmuel Eisenstadt's field of work is distribution theory",
+   "Shmuel Eisenstadt's field of work is classics",
+   "Shmuel Eisenstadt's field of work is crime novel",
+   "Shmuel Eisenstadt's field of work is statistics",
+   "Shmuel Eisenstadt's field of work is experimental physics",
+   "Shmuel Eisenstadt's field of work is geography",
+   "Shmuel Eisenstadt's field of work is anthropology",
+   "Shmuel Eisenstadt's field of work is partial differential equation",
+   "Shmuel Eisenstadt's field of work is applied physics",
+   "Shmuel Eisenstadt's field of work is Sanskrit",
+   "Shmuel Eisenstadt's field of work is a branch of physics",
+   "Shmuel Eisenstadt's field of work is comparative mythology",
+   "Shmuel Eisenstadt's field of work is radiation",
+   "Shmuel Eisenstadt's field of work is aeromechanics",
+   "Shmuel Eisenstadt's field of work is harmonic analysis",
+   "Shmuel Eisenstadt's field of work is religion",
+   "Shmuel Eisenstadt's field of work is civil rights",
+   "Shmuel Eisenstadt's field of work is physicist",
+   "Shmuel Eisenstadt's field of work is distribution",
+   "Shmuel Eisenstadt's field of work is translations from Spanish",
+   "Shmuel Eisenstadt's field of work is feminism",
+   "Shmuel Eisenstadt's field of work is number theory",
+   "Shmuel Eisenstadt's field of work is sociology of organisations",
+   "Shmuel Eisenstadt's field of work is astronomer",
+   "Shmuel Eisenstadt's field of work is children's and youth literature",
+   "Shmuel Eisenstadt's field of work is fairy tale",
+   "Shmuel Eisenstadt's field of work is economy",
+   "Shmuel Eisenstadt's field of work is graph theory",
+   "Shmuel Eisenstadt's field of work is magic",
+   "Shmuel Eisenstadt's field of work is essay",
+   "Shmuel Eisenstadt's field of work is theory of relativity",
+   "Shmuel Eisenstadt's field of work is historical novel",
+   "Shmuel Eisenstadt's field of work is biological anthropology",
+   "Shmuel Eisenstadt's field of work is literary theory",
+   "Shmuel Eisenstadt's field of work is Greek philology",
+   "Shmuel Eisenstadt's field of work is lyric poetry",
+   "Shmuel Eisenstadt's field of work is psychology",
+   "Shmuel Eisenstadt's field of work is quaternion",
+   "Shmuel Eisenstadt's field of work is rite",
+   "Shmuel Eisenstadt's field of work is jazz",
+   "Shmuel Eisenstadt's field of work is heat",
+   "Shmuel Eisenstadt's field of work is embryology",
+   "Shmuel Eisenstadt's field of work is social philosophy",
+   "Shmuel Eisenstadt's field of work is dance choreography",
+   "Shmuel Eisenstadt's field of work is politics",
+   "Shmuel Eisenstadt's field of work is nanotechnology",
+   "Shmuel Eisenstadt's field of work is Afghanistan",
+   "Shmuel Eisenstadt's field of work is non-Euclidean geometry",
+   "Shmuel Eisenstadt's field of work is Franciscan spirituality",
+   "Shmuel Eisenstadt's field of work is detective literature",
+   "Shmuel Eisenstadt's field of work is mathematician",
+   "Shmuel Eisenstadt's field of work is String",
+   "Shmuel Eisenstadt's field of work is classical music",
+   "Shmuel Eisenstadt's field of work is translations from Occitan",
+   "Shmuel Eisenstadt's field of work is abstract algebra",
+   "Shmuel Eisenstadt's field of work is differential calculus",
+   "Shmuel Eisenstadt's field of work is mythology",
+   "Shmuel Eisenstadt's field of work is literary translation",
+   "Shmuel Eisenstadt's field of work is ballistics",
+   "Shmuel Eisenstadt's field of work is cryptography",
+   "Shmuel Eisenstadt's field of work is Greek",
+   "Shmuel Eisenstadt's field of work is logic",
+   "Shmuel Eisenstadt's field of work is choreography",
+   "Shmuel Eisenstadt's field of work is theology",
+   "Shmuel Eisenstadt's field of work is world economy",
+   "Shmuel Eisenstadt's field of work is magnetism",
+   "Shmuel Eisenstadt's field of work is algebraic geometry",
+   "Shmuel Eisenstadt's field of work is theory of differential equations",
+   "Shmuel Eisenstadt's field of work is physics",
+   "Shmuel Eisenstadt's field of work is music theory",
+   "Shmuel Eisenstadt's field of work is economics",
+   "Shmuel Eisenstadt's field of work is anatomy",
+   "Shmuel Eisenstadt's field of work is electromagnetic field",
+   "Shmuel Eisenstadt's field of work is analytic number theory",
+   "Shmuel Eisenstadt's field of work is mathematical physics",
+   "Shmuel Eisenstadt's field of work is journalism",
+   "Shmuel Eisenstadt's field of work is sociology",
+   "Shmuel Eisenstadt's field of work is literature",
+   "Shmuel Eisenstadt's field of work is ethnography",
+   "Shmuel Eisenstadt's field of work is belletristic literature",
+   "Shmuel Eisenstadt's field of work is convex function",
+   "Shmuel Eisenstadt's field of work is sociology of religion",
+   "Shmuel Eisenstadt's field of work is pedagogy",
+   "Shmuel Eisenstadt's field of work is philosophy",
+   "Shmuel Eisenstadt's field of work is quantum mechanics",
+   "Shmuel Eisenstadt's field of work is drama",
+   "Shmuel Eisenstadt's field of work is dance",
+   "Shmuel Eisenstadt's field of work is Judaism",
+   "Shmuel Eisenstadt's field of work is quantum physics",
+   "Shmuel Eisenstadt's field of work is philosophy of science",
+   "Shmuel Eisenstadt's field of work is linguistics",
+   "Shmuel Eisenstadt's field of work is myth",
+   "Shmuel Eisenstadt's field of work is physiology",
+   "Shmuel Eisenstadt's field of work is English",
+   "Shmuel Eisenstadt's field of work is philology",
+   "Shmuel Eisenstadt's field of work is political philosophy",
+   "Shmuel Eisenstadt's field of work is mechanical engineering",
+   "Shmuel Eisenstadt's field of work is ontology",
+   "Shmuel Eisenstadt's field of work is forestry",
+   "Shmuel Eisenstadt's field of work is aerodynamics",
+   "Shmuel Eisenstadt's field of work is Christian Church",
+   "Shmuel Eisenstadt's field of work is magnetic resonance",
+   "Shmuel Eisenstadt's field of work is astrophysics",
+   "Shmuel Eisenstadt's field of work is natural science",
+   "Shmuel Eisenstadt's field of work is constitutional law",
+   "Shmuel Eisenstadt's field of work is philosophy of law",
+   "Shmuel Eisenstadt's field of work is education",
+   "Shmuel Eisenstadt's field of work is Monte Carlo method",
+   "Shmuel Eisenstadt's field of work is neurology",
+   "Shmuel Eisenstadt's field of work is electric field",
+   "Shmuel Eisenstadt's field of work is Minkowski spacetime",
+   "Shmuel Eisenstadt's field of work is translations from Arabic language",
+   "Shmuel Eisenstadt's field of work is Bayesian inference",
+   "Shmuel Eisenstadt's field of work is translations from Polish",
+   "Shmuel Eisenstadt's field of work is color photography",
+   "Shmuel Eisenstadt's field of work is opera",
+   "Shmuel Eisenstadt's field of work is model theory",
+   "Shmuel Eisenstadt's field of work is cartography",
+   "Shmuel Eisenstadt's field of work is nonstandard analysis",
+   "Shmuel Eisenstadt's field of work is television program",
+   "Shmuel Eisenstadt's field of work is complex manifold",
+   "Shmuel Eisenstadt's field of work is poetry",
+   "Shmuel Eisenstadt's field of work is mathematics",
+   "Shmuel Eisenstadt's field of work is computer science",
+   "Shmuel Eisenstadt's field of work is cosmology",
+   "Shmuel Eisenstadt's field of work is silviculture",
+   "Shmuel Eisenstadt's field of work is hydrodynamics",
+   "Shmuel Eisenstadt's field of work is forestry science",
+   "Shmuel Eisenstadt's field of work is comparative religion",
+   "Shmuel Eisenstadt's field of work is information technology",
+   "Shmuel Eisenstadt's field of work is ballet",
+   "Shmuel Eisenstadt's field of work is English literature",
+   "Shmuel Eisenstadt's field of work is conducting",
+   "Shmuel Eisenstadt's field of work is hyperbolic geometry",
+   "Shmuel Eisenstadt's field of work is biochemistry",
+   "Shmuel Eisenstadt's field of work is religion and society",
+   "Shmuel Eisenstadt's field of work is optics",
+   "Shmuel Eisenstadt's field of work is ethics",
+   "Shmuel Eisenstadt's field of work is cybernetics",
+   "Shmuel Eisenstadt's field of work is astronomical observation",
+   "Shmuel Eisenstadt's field of work is psychophysiology",
+   "Shmuel Eisenstadt's field of work is culturology",
+   "Shmuel Eisenstadt's field of work is history of religions",
+   "Shmuel Eisenstadt's field of work is probability theory",
+   "Shmuel Eisenstadt's field of work is paleontology",
+   "Shmuel Eisenstadt's field of work is surgery",
+   "Shmuel Eisenstadt's field of work is group theory",
+   "Shmuel Eisenstadt's field of work is natural theology",
+   "Shmuel Eisenstadt's field of work is astrology",
+   "Shmuel Eisenstadt's field of work is quantum electrodynamics",
+   "Shmuel Eisenstadt's field of work is mechanics",
+   "Shmuel Eisenstadt's field of work is Lie algebra",
+   "Shmuel Eisenstadt's field of work is trigonometry",
+   "Shmuel Eisenstadt's field of work is literary activity",
+   "Shmuel Eisenstadt's field of work is nuclear physics",
+   "Shmuel Eisenstadt's field of work is translations from English",
+   "Shmuel Eisenstadt's field of work is medicine",
+   "Shmuel Eisenstadt's field of work is Jewish philosophy",
+   "Shmuel Eisenstadt's field of work is mathematical logic",
+   "Shmuel Eisenstadt's field of work is calculus of variations",
+   "Shmuel Eisenstadt's field of work is ferromagnetism",
+   "Shmuel Eisenstadt's field of work is analytic geometry",
+   "Shmuel Eisenstadt's field of work is art of painting",
+   "Shmuel Eisenstadt's field of work is functional analysis",
+   "Shmuel Eisenstadt's field of work is folklore",
+   "Shmuel Eisenstadt's field of work is study of history",
+   "Shmuel Eisenstadt's field of work is geometry",
+   "Shmuel Eisenstadt's field of work is positivism",
+   "Shmuel Eisenstadt's field of work is geodesy",
+   "Shmuel Eisenstadt's field of work is astronomy",
+   "Shmuel Eisenstadt's field of work is magnetic field",
+   "Shmuel Eisenstadt's field of work is kinetic theory",
+   "Shmuel Eisenstadt's field of work is celestial mechanics",
+   "Shmuel Eisenstadt's field of work is analytic philosophy",
+   "Shmuel Eisenstadt's field of work is ethnology",
+   "Shmuel Eisenstadt's field of work is history of economic thought",
+   "Shmuel Eisenstadt is meteorology",
+   "Shmuel Eisenstadt is radioactivity",
+   "Shmuel Eisenstadt is complex function",
+   "Shmuel Eisenstadt is histology",
+   "Shmuel Eisenstadt is algebra",
+   "Shmuel Eisenstadt is electron",
+   "Shmuel Eisenstadt is quantum theory",
+   "Shmuel Eisenstadt is applied mathematics",
+   "Shmuel Eisenstadt is electricity",
+   "Shmuel Eisenstadt is human geography",
+   "Shmuel Eisenstadt is crystallography",
+   "Shmuel Eisenstadt is chemistry",
+   "Shmuel Eisenstadt is Jewish studies",
+   "Shmuel Eisenstadt is topology",
+   "Shmuel Eisenstadt is mathematical analysis",
+   "Shmuel Eisenstadt is computational geometry",
+   "Shmuel Eisenstadt is Petrine ministry",
+   "Shmuel Eisenstadt is social psychology",
+   "Shmuel Eisenstadt is genetics",
+   "Shmuel Eisenstadt is informatics",
+   "Shmuel Eisenstadt is shipbuilding",
+   "Shmuel Eisenstadt is historical sociology",
+   "Shmuel Eisenstadt is quantum mysticism",
+   "Shmuel Eisenstadt is philosopher",
+   "Shmuel Eisenstadt is Internet",
+   "Shmuel Eisenstadt is gravity",
+   "Shmuel Eisenstadt is theoretical physics",
+   "Shmuel Eisenstadt is African studies",
+   "Shmuel Eisenstadt is projective geometry",
+   "Shmuel Eisenstadt is prose",
+   "Shmuel Eisenstadt is momentum",
+   "Shmuel Eisenstadt is Cairo Geniza",
+   "Shmuel Eisenstadt is stochastic",
+   "Shmuel Eisenstadt is algebraic topology",
+   "Shmuel Eisenstadt is electrical engineering",
+   "Shmuel Eisenstadt is hunting",
+   "Shmuel Eisenstadt is evolution",
+   "Shmuel Eisenstadt is economic anthropology",
+   "Shmuel Eisenstadt is Hebrew",
+   "Shmuel Eisenstadt is differential geometry",
+   "Shmuel Eisenstadt is engineering",
+   "Shmuel Eisenstadt is history of science",
+   "Shmuel Eisenstadt is social anthropology",
+   "Shmuel Eisenstadt is history",
+   "Shmuel Eisenstadt is distribution theory",
+   "Shmuel Eisenstadt is classics",
+   "Shmuel Eisenstadt is crime novel",
+   "Shmuel Eisenstadt is statistics",
+   "Shmuel Eisenstadt is experimental physics",
+   "Shmuel Eisenstadt is geography",
+   "Shmuel Eisenstadt is anthropology",
+   "Shmuel Eisenstadt is partial differential equation",
+   "Shmuel Eisenstadt is applied physics",
+   "Shmuel Eisenstadt is Sanskrit",
+   "Shmuel Eisenstadt is a branch of physics",
+   "Shmuel Eisenstadt is comparative mythology",
+   "Shmuel Eisenstadt is radiation",
+   "Shmuel Eisenstadt is aeromechanics",
+   "Shmuel Eisenstadt is harmonic analysis",
+   "Shmuel Eisenstadt is religion",
+   "Shmuel Eisenstadt is civil rights",
+   "Shmuel Eisenstadt is physicist",
+   "Shmuel Eisenstadt is distribution",
+   "Shmuel Eisenstadt is translations from Spanish",
+   "Shmuel Eisenstadt is feminism",
+   "Shmuel Eisenstadt is number theory",
+   "Shmuel Eisenstadt is sociology of organisations",
+   "Shmuel Eisenstadt is astronomer",
+   "Shmuel Eisenstadt is children's and youth literature",
+   "Shmuel Eisenstadt is fairy tale",
+   "Shmuel Eisenstadt is economy",
+   "Shmuel Eisenstadt is graph theory",
+   "Shmuel Eisenstadt is magic",
+   "Shmuel Eisenstadt is essay",
+   "Shmuel Eisenstadt is theory of relativity",
+   "Shmuel Eisenstadt is historical novel",
+   "Shmuel Eisenstadt is biological anthropology",
+   "Shmuel Eisenstadt is literary theory",
+   "Shmuel Eisenstadt is Greek philology",
+   "Shmuel Eisenstadt is lyric poetry",
+   "Shmuel Eisenstadt is psychology",
+   "Shmuel Eisenstadt is quaternion",
+   "Shmuel Eisenstadt is rite",
+   "Shmuel Eisenstadt is jazz",
+   "Shmuel Eisenstadt is heat",
+   "Shmuel Eisenstadt is embryology",
+   "Shmuel Eisenstadt is social philosophy",
+   "Shmuel Eisenstadt is dance choreography",
+   "Shmuel Eisenstadt is politics",
+   "Shmuel Eisenstadt is nanotechnology",
+   "Shmuel Eisenstadt is Afghanistan",
+   "Shmuel Eisenstadt is non-Euclidean geometry",
+   "Shmuel Eisenstadt is Franciscan spirituality",
+   "Shmuel Eisenstadt is detective literature",
+   "Shmuel Eisenstadt is mathematician",
+   "Shmuel Eisenstadt is String",
+   "Shmuel Eisenstadt is classical music",
+   "Shmuel Eisenstadt is translations from Occitan",
+   "Shmuel Eisenstadt is abstract algebra",
+   "Shmuel Eisenstadt is differential calculus",
+   "Shmuel Eisenstadt is mythology",
+   "Shmuel Eisenstadt is literary translation",
+   "Shmuel Eisenstadt is ballistics",
+   "Shmuel Eisenstadt is cryptography",
+   "Shmuel Eisenstadt is Greek",
+   "Shmuel Eisenstadt is logic",
+   "Shmuel Eisenstadt is choreography",
+   "Shmuel Eisenstadt is theology",
+   "Shmuel Eisenstadt is world economy",
+   "Shmuel Eisenstadt is magnetism",
+   "Shmuel Eisenstadt is algebraic geometry",
+   "Shmuel Eisenstadt is theory of differential equations",
+   "Shmuel Eisenstadt is physics",
+   "Shmuel Eisenstadt is music theory",
+   "Shmuel Eisenstadt is economics",
+   "Shmuel Eisenstadt is anatomy",
+   "Shmuel Eisenstadt is electromagnetic field",
+   "Shmuel Eisenstadt is analytic number theory",
+   "Shmuel Eisenstadt is mathematical physics",
+   "Shmuel Eisenstadt is journalism",
+   "Shmuel Eisenstadt is sociology",
+   "Shmuel Eisenstadt is literature",
+   "Shmuel Eisenstadt is ethnography",
+   "Shmuel Eisenstadt is belletristic literature",
+   "Shmuel Eisenstadt is convex function",
+   "Shmuel Eisenstadt is sociology of religion",
+   "Shmuel Eisenstadt is pedagogy",
+   "Shmuel Eisenstadt is philosophy",
+   "Shmuel Eisenstadt is quantum mechanics",
+   "Shmuel Eisenstadt is drama",
+   "Shmuel Eisenstadt is dance",
+   "Shmuel Eisenstadt is Judaism",
+   "Shmuel Eisenstadt is quantum physics",
+   "Shmuel Eisenstadt is philosophy of science",
+   "Shmuel Eisenstadt is linguistics",
+   "Shmuel Eisenstadt is myth",
+   "Shmuel Eisenstadt is physiology",
+   "Shmuel Eisenstadt is English",
+   "Shmuel Eisenstadt is philology",
+   "Shmuel Eisenstadt is political philosophy",
+   "Shmuel Eisenstadt is mechanical engineering",
+   "Shmuel Eisenstadt is ontology",
+   "Shmuel Eisenstadt is forestry",
+   "Shmuel Eisenstadt is aerodynamics",
+   "Shmuel Eisenstadt is Christian Church",
+   "Shmuel Eisenstadt is magnetic resonance",
+   "Shmuel Eisenstadt is astrophysics",
+   "Shmuel Eisenstadt is natural science",
+   "Shmuel Eisenstadt is constitutional law",
+   "Shmuel Eisenstadt is philosophy of law",
+   "Shmuel Eisenstadt is education",
+   "Shmuel Eisenstadt is Monte Carlo method",
+   "Shmuel Eisenstadt is neurology",
+   "Shmuel Eisenstadt is electric field",
+   "Shmuel Eisenstadt is Minkowski spacetime",
+   "Shmuel Eisenstadt is translations from Arabic language",
+   "Shmuel Eisenstadt is Bayesian inference",
+   "Shmuel Eisenstadt is translations from Polish",
+   "Shmuel Eisenstadt is color photography",
+   "Shmuel Eisenstadt is opera",
+   "Shmuel Eisenstadt is model theory",
+   "Shmuel Eisenstadt is cartography",
+   "Shmuel Eisenstadt is nonstandard analysis",
+   "Shmuel Eisenstadt is television program",
+   "Shmuel Eisenstadt is complex manifold",
+   "Shmuel Eisenstadt is poetry",
+   "Shmuel Eisenstadt is mathematics",
+   "Shmuel Eisenstadt is computer science",
+   "Shmuel Eisenstadt is cosmology",
+   "Shmuel Eisenstadt is silviculture",
+   "Shmuel Eisenstadt is hydrodynamics",
+   "Shmuel Eisenstadt is forestry science",
+   "Shmuel Eisenstadt is comparative religion",
+   "Shmuel Eisenstadt is information technology",
+   "Shmuel Eisenstadt is ballet",
+   "Shmuel Eisenstadt is English literature",
+   "Shmuel Eisenstadt is conducting",
+   "Shmuel Eisenstadt is hyperbolic geometry",
+   "Shmuel Eisenstadt is biochemistry",
+   "Shmuel Eisenstadt is religion and society",
+   "Shmuel Eisenstadt is optics",
+   "Shmuel Eisenstadt is ethics",
+   "Shmuel Eisenstadt is cybernetics",
+   "Shmuel Eisenstadt is astronomical observation",
+   "Shmuel Eisenstadt is psychophysiology",
+   "Shmuel Eisenstadt is culturology",
+   "Shmuel Eisenstadt is history of religions",
+   "Shmuel Eisenstadt is probability theory",
+   "Shmuel Eisenstadt is paleontology",
+   "Shmuel Eisenstadt is surgery",
+   "Shmuel Eisenstadt is group theory",
+   "Shmuel Eisenstadt is natural theology",
+   "Shmuel Eisenstadt is astrology",
+   "Shmuel Eisenstadt is quantum electrodynamics",
+   "Shmuel Eisenstadt is mechanics",
+   "Shmuel Eisenstadt is Lie algebra",
+   "Shmuel Eisenstadt is trigonometry",
+   "Shmuel Eisenstadt is literary activity",
+   "Shmuel Eisenstadt is nuclear physics",
+   "Shmuel Eisenstadt is translations from English",
+   "Shmuel Eisenstadt is medicine",
+   "Shmuel Eisenstadt is Jewish philosophy",
+   "Shmuel Eisenstadt is mathematical logic",
+   "Shmuel Eisenstadt is calculus of variations",
+   "Shmuel Eisenstadt is ferromagnetism",
+   "Shmuel Eisenstadt is analytic geometry",
+   "Shmuel Eisenstadt is art of painting",
+   "Shmuel Eisenstadt is functional analysis",
+   "Shmuel Eisenstadt is folklore",
+   "Shmuel Eisenstadt is study of history",
+   "Shmuel Eisenstadt is geometry",
+   "Shmuel Eisenstadt is positivism",
+   "Shmuel Eisenstadt is geodesy",
+   "Shmuel Eisenstadt is astronomy",
+   "Shmuel Eisenstadt is magnetic field",
+   "Shmuel Eisenstadt is kinetic theory",
+   "Shmuel Eisenstadt is celestial mechanics",
+   "Shmuel Eisenstadt is analytic philosophy",
+   "Shmuel Eisenstadt is ethnology",
+   "Shmuel Eisenstadt is history of economic thought"
+  ],
+  [
+   [
+    -44.63624572753906
+   ],
+   [
+    -45.15692901611328
+   ],
+   [
+    -52.285186767578125
+   ],
+   [
+    -45.29597473144531
+   ],
+   [
+    -43.4220085144043
+   ],
+   [
+    -43.84246063232422
+   ],
+   [
+    -44.171417236328125
+   ],
+   [
+    -41.73932647705078
+   ],
+   [
+    -43.55992126464844
+   ],
+   [
+    -43.37753677368164
+   ],
+   [
+    -44.7127799987793
+   ],
+   [
+    -42.15486526489258
+   ],
+   [
+    -41.638832092285156
+   ],
+   [
+    -43.16926574707031
+   ],
+   [
+    -44.333824157714844
+   ],
+   [
+    -44.24059295654297
+   ],
+   [
+    -57.47031784057617
+   ],
+   [
+    -40.40819549560547
+   ],
+   [
+    -41.14551544189453
+   ],
+   [
+    -43.190025329589844
+   ],
+   [
+    -47.01337814331055
+   ],
+   [
+    -43.825538635253906
+   ],
+   [
+    -52.331748962402344
+   ],
+   [
+    -45.04807662963867
+   ],
+   [
+    -40.732242584228516
+   ],
+   [
+    -44.981876373291016
+   ],
+   [
+    -41.94120788574219
+   ],
+   [
+    -44.91570281982422
+   ],
+   [
+    -47.063629150390625
+   ],
+   [
+    -43.869781494140625
+   ],
+   [
+    -46.922027587890625
+   ],
+   [
+    -54.50925064086914
+   ],
+   [
+    -43.973602294921875
+   ],
+   [
+    -45.75434875488281
+   ],
+   [
+    -42.98796844482422
+   ],
+   [
+    -44.44765090942383
+   ],
+   [
+    -42.81136703491211
+   ],
+   [
+    -43.34392547607422
+   ],
+   [
+    -41.003807067871094
+   ],
+   [
+    -44.61773681640625
+   ],
+   [
+    -42.15377426147461
+   ],
+   [
+    -43.50238800048828
+   ],
+   [
+    -42.329078674316406
+   ],
+   [
+    -39.581886291503906
+   ],
+   [
+    -46.695899963378906
+   ],
+   [
+    -43.60685729980469
+   ],
+   [
+    -52.419639587402344
+   ],
+   [
+    -42.63595199584961
+   ],
+   [
+    -43.82500457763672
+   ],
+   [
+    -42.56746292114258
+   ],
+   [
+    -41.137229919433594
+   ],
+   [
+    -49.808990478515625
+   ],
+   [
+    -44.23961639404297
+   ],
+   [
+    -44.1814079284668
+   ],
+   [
+    -47.43303298950195
+   ],
+   [
+    -45.45030975341797
+   ],
+   [
+    -43.854652404785156
+   ],
+   [
+    -50.19499206542969
+   ],
+   [
+    -45.97842025756836
+   ],
+   [
+    -40.7879753112793
+   ],
+   [
+    -43.254947662353516
+   ],
+   [
+    -47.7696647644043
+   ],
+   [
+    -43.74632263183594
+   ],
+   [
+    -50.32402801513672
+   ],
+   [
+    -42.98188400268555
+   ],
+   [
+    -43.32805633544922
+   ],
+   [
+    -49.31120300292969
+   ],
+   [
+    -48.843929290771484
+   ],
+   [
+    -46.12165451049805
+   ],
+   [
+    -46.60932922363281
+   ],
+   [
+    -43.558719635009766
+   ],
+   [
+    -42.00232696533203
+   ],
+   [
+    -42.13343048095703
+   ],
+   [
+    -43.67188262939453
+   ],
+   [
+    -49.607730865478516
+   ],
+   [
+    -48.014923095703125
+   ],
+   [
+    -43.29724884033203
+   ],
+   [
+    -42.06013488769531
+   ],
+   [
+    -48.005462646484375
+   ],
+   [
+    -46.860328674316406
+   ],
+   [
+    -40.82889175415039
+   ],
+   [
+    -47.287689208984375
+   ],
+   [
+    -47.47978973388672
+   ],
+   [
+    -42.846351623535156
+   ],
+   [
+    -44.8055305480957
+   ],
+   [
+    -44.430484771728516
+   ],
+   [
+    -43.44416046142578
+   ],
+   [
+    -50.48675537109375
+   ],
+   [
+    -40.80419921875
+   ],
+   [
+    -42.740455627441406
+   ],
+   [
+    -44.53678512573242
+   ],
+   [
+    -47.191558837890625
+   ],
+   [
+    -50.742122650146484
+   ],
+   [
+    -48.733299255371094
+   ],
+   [
+    -47.2240104675293
+   ],
+   [
+    -45.75110626220703
+   ],
+   [
+    -42.98204803466797
+   ],
+   [
+    -56.22417449951172
+   ],
+   [
+    -45.642173767089844
+   ],
+   [
+    -46.28858947753906
+   ],
+   [
+    -43.06073760986328
+   ],
+   [
+    -43.761878967285156
+   ],
+   [
+    -46.47203063964844
+   ],
+   [
+    -41.66872024536133
+   ],
+   [
+    -43.118953704833984
+   ],
+   [
+    -42.0306282043457
+   ],
+   [
+    -45.842262268066406
+   ],
+   [
+    -42.01031494140625
+   ],
+   [
+    -46.9283447265625
+   ],
+   [
+    -44.46888732910156
+   ],
+   [
+    -44.345272064208984
+   ],
+   [
+    -52.13013458251953
+   ],
+   [
+    -40.90871810913086
+   ],
+   [
+    -43.453392028808594
+   ],
+   [
+    -40.285709381103516
+   ],
+   [
+    -43.71992874145508
+   ],
+   [
+    -47.69671630859375
+   ],
+   [
+    -45.380210876464844
+   ],
+   [
+    -43.6260986328125
+   ],
+   [
+    -41.48697280883789
+   ],
+   [
+    -40.27223205566406
+   ],
+   [
+    -40.14907455444336
+   ],
+   [
+    -41.26848602294922
+   ],
+   [
+    -50.510711669921875
+   ],
+   [
+    -49.43959045410156
+   ],
+   [
+    -43.03892135620117
+   ],
+   [
+    -42.10219955444336
+   ],
+   [
+    -39.53364562988281
+   ],
+   [
+    -43.15875244140625
+   ],
+   [
+    -43.48592758178711
+   ],
+   [
+    -43.33103561401367
+   ],
+   [
+    -41.653343200683594
+   ],
+   [
+    -42.68347930908203
+   ],
+   [
+    -42.278297424316406
+   ],
+   [
+    -40.40532684326172
+   ],
+   [
+    -42.822418212890625
+   ],
+   [
+    -43.648258209228516
+   ],
+   [
+    -41.4943733215332
+   ],
+   [
+    -42.425537109375
+   ],
+   [
+    -40.73162841796875
+   ],
+   [
+    -43.74054718017578
+   ],
+   [
+    -42.124176025390625
+   ],
+   [
+    -44.74103927612305
+   ],
+   [
+    -46.84039306640625
+   ],
+   [
+    -50.30704879760742
+   ],
+   [
+    -45.020713806152344
+   ],
+   [
+    -43.1868896484375
+   ],
+   [
+    -43.566192626953125
+   ],
+   [
+    -42.906089782714844
+   ],
+   [
+    -42.892921447753906
+   ],
+   [
+    -39.288082122802734
+   ],
+   [
+    -53.85409927368164
+   ],
+   [
+    -42.60289001464844
+   ],
+   [
+    -48.233673095703125
+   ],
+   [
+    -49.49596405029297
+   ],
+   [
+    -56.03921890258789
+   ],
+   [
+    -45.475948333740234
+   ],
+   [
+    -50.332298278808594
+   ],
+   [
+    -45.83422088623047
+   ],
+   [
+    -44.006324768066406
+   ],
+   [
+    -45.34741973876953
+   ],
+   [
+    -41.99700164794922
+   ],
+   [
+    -48.50072479248047
+   ],
+   [
+    -48.769691467285156
+   ],
+   [
+    -50.99230194091797
+   ],
+   [
+    -41.635467529296875
+   ],
+   [
+    -40.11787414550781
+   ],
+   [
+    -41.46105194091797
+   ],
+   [
+    -42.11885070800781
+   ],
+   [
+    -48.04035949707031
+   ],
+   [
+    -46.10681915283203
+   ],
+   [
+    -50.070526123046875
+   ],
+   [
+    -41.608787536621094
+   ],
+   [
+    -42.345916748046875
+   ],
+   [
+    -45.40686798095703
+   ],
+   [
+    -43.556434631347656
+   ],
+   [
+    -42.44816207885742
+   ],
+   [
+    -45.04663848876953
+   ],
+   [
+    -42.06871032714844
+   ],
+   [
+    -45.578041076660156
+   ],
+   [
+    -42.75624084472656
+   ],
+   [
+    -40.52726364135742
+   ],
+   [
+    -41.14381408691406
+   ],
+   [
+    -50.59690856933594
+   ],
+   [
+    -44.03750228881836
+   ],
+   [
+    -45.48374938964844
+   ],
+   [
+    -45.60139083862305
+   ],
+   [
+    -43.95530700683594
+   ],
+   [
+    -43.410430908203125
+   ],
+   [
+    -44.10707473754883
+   ],
+   [
+    -43.76603698730469
+   ],
+   [
+    -46.38751983642578
+   ],
+   [
+    -43.37602233886719
+   ],
+   [
+    -47.49148941040039
+   ],
+   [
+    -44.85451889038086
+   ],
+   [
+    -47.75818634033203
+   ],
+   [
+    -46.431732177734375
+   ],
+   [
+    -49.187896728515625
+   ],
+   [
+    -43.408302307128906
+   ],
+   [
+    -48.30050277709961
+   ],
+   [
+    -40.743446350097656
+   ],
+   [
+    -41.814666748046875
+   ],
+   [
+    -42.1208610534668
+   ],
+   [
+    -48.97153091430664
+   ],
+   [
+    -48.74888610839844
+   ],
+   [
+    -45.03875732421875
+   ],
+   [
+    -50.364009857177734
+   ],
+   [
+    -44.75988006591797
+   ],
+   [
+    -42.26344299316406
+   ],
+   [
+    -47.25559616088867
+   ],
+   [
+    -43.71482849121094
+   ],
+   [
+    -45.64622497558594
+   ],
+   [
+    -45.32476043701172
+   ],
+   [
+    -42.89482116699219
+   ],
+   [
+    -47.7889404296875
+   ],
+   [
+    -47.23939514160156
+   ],
+   [
+    -45.33598327636719
+   ],
+   [
+    -42.66098403930664
+   ],
+   [
+    -41.876792907714844
+   ],
+   [
+    -47.2626953125
+   ],
+   [
+    -34.396080017089844
+   ],
+   [
+    -36.74501419067383
+   ],
+   [
+    -39.05493927001953
+   ],
+   [
+    -34.176536560058594
+   ],
+   [
+    -31.693008422851562
+   ],
+   [
+    -31.45865249633789
+   ],
+   [
+    -35.19876480102539
+   ],
+   [
+    -32.0502815246582
+   ],
+   [
+    -32.12517166137695
+   ],
+   [
+    -33.56309509277344
+   ],
+   [
+    -33.32371139526367
+   ],
+   [
+    -30.206134796142578
+   ],
+   [
+    -33.72159194946289
+   ],
+   [
+    -34.82735824584961
+   ],
+   [
+    -35.44812774658203
+   ],
+   [
+    -35.81415939331055
+   ],
+   [
+    -51.47343826293945
+   ],
+   [
+    -31.17597198486328
+   ],
+   [
+    -32.87672424316406
+   ],
+   [
+    -31.241756439208984
+   ],
+   [
+    -36.03840637207031
+   ],
+   [
+    -36.13905715942383
+   ],
+   [
+    -43.626434326171875
+   ],
+   [
+    -27.606958389282227
+   ],
+   [
+    -28.416236877441406
+   ],
+   [
+    -32.85664367675781
+   ],
+   [
+    -30.466659545898438
+   ],
+   [
+    -34.81312942504883
+   ],
+   [
+    -36.41359329223633
+   ],
+   [
+    -30.758880615234375
+   ],
+   [
+    -32.653358459472656
+   ],
+   [
+    -41.9208869934082
+   ],
+   [
+    -36.34669494628906
+   ],
+   [
+    -36.36279296875
+   ],
+   [
+    -32.45509338378906
+   ],
+   [
+    -29.956695556640625
+   ],
+   [
+    -31.296876907348633
+   ],
+   [
+    -37.26969528198242
+   ],
+   [
+    -26.468582153320312
+   ],
+   [
+    -35.30514144897461
+   ],
+   [
+    -29.313045501708984
+   ],
+   [
+    -34.37656784057617
+   ],
+   [
+    -32.562713623046875
+   ],
+   [
+    -27.401721954345703
+   ],
+   [
+    -37.913841247558594
+   ],
+   [
+    -30.863941192626953
+   ],
+   [
+    -38.33976364135742
+   ],
+   [
+    -30.498062133789062
+   ],
+   [
+    -34.986610412597656
+   ],
+   [
+    -30.422636032104492
+   ],
+   [
+    -29.332714080810547
+   ],
+   [
+    -39.0938835144043
+   ],
+   [
+    -34.16627883911133
+   ],
+   [
+    -32.33871078491211
+   ],
+   [
+    -39.48848342895508
+   ],
+   [
+    -37.60048294067383
+   ],
+   [
+    -31.895166397094727
+   ],
+   [
+    -36.47746276855469
+   ],
+   [
+    -36.27638626098633
+   ],
+   [
+    -30.022764205932617
+   ],
+   [
+    -30.45886993408203
+   ],
+   [
+    -28.393009185791016
+   ],
+   [
+    -31.72822380065918
+   ],
+   [
+    -43.05766296386719
+   ],
+   [
+    -33.577144622802734
+   ],
+   [
+    -34.87902069091797
+   ],
+   [
+    -44.19830322265625
+   ],
+   [
+    -31.560508728027344
+   ],
+   [
+    -39.95317840576172
+   ],
+   [
+    -36.48920822143555
+   ],
+   [
+    -31.39977264404297
+   ],
+   [
+    -32.538578033447266
+   ],
+   [
+    -29.73467445373535
+   ],
+   [
+    -29.992271423339844
+   ],
+   [
+    -38.26461410522461
+   ],
+   [
+    -34.88919448852539
+   ],
+   [
+    -35.47317886352539
+   ],
+   [
+    -35.427223205566406
+   ],
+   [
+    -44.00578308105469
+   ],
+   [
+    -38.01551055908203
+   ],
+   [
+    -28.618059158325195
+   ],
+   [
+    -37.729042053222656
+   ],
+   [
+    -31.791837692260742
+   ],
+   [
+    -29.36070442199707
+   ],
+   [
+    -32.545108795166016
+   ],
+   [
+    -34.89557647705078
+   ],
+   [
+    -34.61161422729492
+   ],
+   [
+    -41.021419525146484
+   ],
+   [
+    -29.17271614074707
+   ],
+   [
+    -32.101680755615234
+   ],
+   [
+    -32.31034851074219
+   ],
+   [
+    -34.470672607421875
+   ],
+   [
+    -41.1954231262207
+   ],
+   [
+    -42.345890045166016
+   ],
+   [
+    -27.917606353759766
+   ],
+   [
+    -31.173826217651367
+   ],
+   [
+    -30.63131332397461
+   ],
+   [
+    -48.940547943115234
+   ],
+   [
+    -36.03564453125
+   ],
+   [
+    -37.3031120300293
+   ],
+   [
+    -32.92863082885742
+   ],
+   [
+    -36.7556037902832
+   ],
+   [
+    -36.351776123046875
+   ],
+   [
+    -30.71826171875
+   ],
+   [
+    -31.063262939453125
+   ],
+   [
+    -31.3117618560791
+   ],
+   [
+    -39.00946807861328
+   ],
+   [
+    -29.774520874023438
+   ],
+   [
+    -38.17921447753906
+   ],
+   [
+    -36.377193450927734
+   ],
+   [
+    -34.82277297973633
+   ],
+   [
+    -42.31134033203125
+   ],
+   [
+    -28.484912872314453
+   ],
+   [
+    -33.569644927978516
+   ],
+   [
+    -27.709383010864258
+   ],
+   [
+    -31.601924896240234
+   ],
+   [
+    -38.53168869018555
+   ],
+   [
+    -33.33684158325195
+   ],
+   [
+    -32.479068756103516
+   ],
+   [
+    -29.565967559814453
+   ],
+   [
+    -28.424169540405273
+   ],
+   [
+    -29.592670440673828
+   ],
+   [
+    -31.66967010498047
+   ],
+   [
+    -44.463890075683594
+   ],
+   [
+    -40.30490493774414
+   ],
+   [
+    -35.09681701660156
+   ],
+   [
+    -32.87477493286133
+   ],
+   [
+    -27.41779327392578
+   ],
+   [
+    -34.310813903808594
+   ],
+   [
+    -32.05630874633789
+   ],
+   [
+    -30.729141235351562
+   ],
+   [
+    -29.416536331176758
+   ],
+   [
+    -33.71941375732422
+   ],
+   [
+    -32.833431243896484
+   ],
+   [
+    -30.388126373291016
+   ],
+   [
+    -31.44696044921875
+   ],
+   [
+    -32.04728698730469
+   ],
+   [
+    -29.15447235107422
+   ],
+   [
+    -34.04082107543945
+   ],
+   [
+    -33.344905853271484
+   ],
+   [
+    -31.856090545654297
+   ],
+   [
+    -32.28288269042969
+   ],
+   [
+    -33.015071868896484
+   ],
+   [
+    -35.113372802734375
+   ],
+   [
+    -37.88569259643555
+   ],
+   [
+    -42.54511642456055
+   ],
+   [
+    -34.14341735839844
+   ],
+   [
+    -33.61235809326172
+   ],
+   [
+    -31.243633270263672
+   ],
+   [
+    -33.60963821411133
+   ],
+   [
+    -27.897489547729492
+   ],
+   [
+    -45.58187484741211
+   ],
+   [
+    -29.93280792236328
+   ],
+   [
+    -38.887901306152344
+   ],
+   [
+    -44.030521392822266
+   ],
+   [
+    -50.015045166015625
+   ],
+   [
+    -40.93718338012695
+   ],
+   [
+    -43.987884521484375
+   ],
+   [
+    -39.0443000793457
+   ],
+   [
+    -32.50533676147461
+   ],
+   [
+    -37.44026184082031
+   ],
+   [
+    -33.8748779296875
+   ],
+   [
+    -40.74802780151367
+   ],
+   [
+    -37.28002166748047
+   ],
+   [
+    -40.30057144165039
+   ],
+   [
+    -29.201374053955078
+   ],
+   [
+    -28.757614135742188
+   ],
+   [
+    -27.906417846679688
+   ],
+   [
+    -31.761205673217773
+   ],
+   [
+    -36.89242935180664
+   ],
+   [
+    -35.93672180175781
+   ],
+   [
+    -38.11174774169922
+   ],
+   [
+    -33.7939567565918
+   ],
+   [
+    -31.912799835205078
+   ],
+   [
+    -33.22177505493164
+   ],
+   [
+    -33.18685531616211
+   ],
+   [
+    -26.494094848632812
+   ],
+   [
+    -39.3345947265625
+   ],
+   [
+    -30.663145065307617
+   ],
+   [
+    -37.70249938964844
+   ],
+   [
+    -33.24318313598633
+   ],
+   [
+    -30.830087661743164
+   ],
+   [
+    -32.591861724853516
+   ],
+   [
+    -41.81258773803711
+   ],
+   [
+    -37.66471481323242
+   ],
+   [
+    -37.82196807861328
+   ],
+   [
+    -37.60611343383789
+   ],
+   [
+    -33.40869903564453
+   ],
+   [
+    -34.716529846191406
+   ],
+   [
+    -31.459613800048828
+   ],
+   [
+    -35.292964935302734
+   ],
+   [
+    -38.92641830444336
+   ],
+   [
+    -33.312217712402344
+   ],
+   [
+    -37.37282943725586
+   ],
+   [
+    -34.97677993774414
+   ],
+   [
+    -38.00039291381836
+   ],
+   [
+    -36.75335693359375
+   ],
+   [
+    -39.58940887451172
+   ],
+   [
+    -33.34370040893555
+   ],
+   [
+    -41.93949890136719
+   ],
+   [
+    -29.750503540039062
+   ],
+   [
+    -34.282405853271484
+   ],
+   [
+    -33.92933654785156
+   ],
+   [
+    -38.79598617553711
+   ],
+   [
+    -38.12576675415039
+   ],
+   [
+    -35.38698959350586
+   ],
+   [
+    -42.31910705566406
+   ],
+   [
+    -36.52658462524414
+   ],
+   [
+    -32.28815841674805
+   ],
+   [
+    -35.61323165893555
+   ],
+   [
+    -31.86346435546875
+   ],
+   [
+    -35.246063232421875
+   ],
+   [
+    -34.874061584472656
+   ],
+   [
+    -31.468441009521484
+   ],
+   [
+    -39.75603103637695
+   ],
+   [
+    -36.09794998168945
+   ],
+   [
+    -36.033790588378906
+   ],
+   [
+    -33.213623046875
+   ],
+   [
+    -33.193809509277344
+   ],
+   [
+    -38.2813835144043
+   ]
+  ]
+ ],
+ "time": 3331.029985189438
+}

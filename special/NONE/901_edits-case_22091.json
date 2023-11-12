@@ -1,0 +1,2076 @@
+{
+ "case_id": 22091,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Solomon Schechter"
+ },
+ "pre": [
+  [
+   "Solomon Schechter's field of work is meteorology",
+   "Solomon Schechter's field of work is radioactivity",
+   "Solomon Schechter's field of work is complex function",
+   "Solomon Schechter's field of work is histology",
+   "Solomon Schechter's field of work is algebra",
+   "Solomon Schechter's field of work is electron",
+   "Solomon Schechter's field of work is quantum theory",
+   "Solomon Schechter's field of work is applied mathematics",
+   "Solomon Schechter's field of work is electricity",
+   "Solomon Schechter's field of work is human geography",
+   "Solomon Schechter's field of work is crystallography",
+   "Solomon Schechter's field of work is chemistry",
+   "Solomon Schechter's field of work is Jewish studies",
+   "Solomon Schechter's field of work is topology",
+   "Solomon Schechter's field of work is mathematical analysis",
+   "Solomon Schechter's field of work is computational geometry",
+   "Solomon Schechter's field of work is Petrine ministry",
+   "Solomon Schechter's field of work is social psychology",
+   "Solomon Schechter's field of work is genetics",
+   "Solomon Schechter's field of work is informatics",
+   "Solomon Schechter's field of work is shipbuilding",
+   "Solomon Schechter's field of work is historical sociology",
+   "Solomon Schechter's field of work is quantum mysticism",
+   "Solomon Schechter's field of work is philosopher",
+   "Solomon Schechter's field of work is Internet",
+   "Solomon Schechter's field of work is gravity",
+   "Solomon Schechter's field of work is theoretical physics",
+   "Solomon Schechter's field of work is African studies",
+   "Solomon Schechter's field of work is projective geometry",
+   "Solomon Schechter's field of work is prose",
+   "Solomon Schechter's field of work is momentum",
+   "Solomon Schechter's field of work is Cairo Geniza",
+   "Solomon Schechter's field of work is stochastic",
+   "Solomon Schechter's field of work is algebraic topology",
+   "Solomon Schechter's field of work is electrical engineering",
+   "Solomon Schechter's field of work is hunting",
+   "Solomon Schechter's field of work is evolution",
+   "Solomon Schechter's field of work is economic anthropology",
+   "Solomon Schechter's field of work is Hebrew",
+   "Solomon Schechter's field of work is differential geometry",
+   "Solomon Schechter's field of work is engineering",
+   "Solomon Schechter's field of work is history of science",
+   "Solomon Schechter's field of work is social anthropology",
+   "Solomon Schechter's field of work is history",
+   "Solomon Schechter's field of work is distribution theory",
+   "Solomon Schechter's field of work is classics",
+   "Solomon Schechter's field of work is crime novel",
+   "Solomon Schechter's field of work is statistics",
+   "Solomon Schechter's field of work is experimental physics",
+   "Solomon Schechter's field of work is geography",
+   "Solomon Schechter's field of work is anthropology",
+   "Solomon Schechter's field of work is partial differential equation",
+   "Solomon Schechter's field of work is applied physics",
+   "Solomon Schechter's field of work is Sanskrit",
+   "Solomon Schechter's field of work is a branch of physics",
+   "Solomon Schechter's field of work is comparative mythology",
+   "Solomon Schechter's field of work is radiation",
+   "Solomon Schechter's field of work is aeromechanics",
+   "Solomon Schechter's field of work is harmonic analysis",
+   "Solomon Schechter's field of work is religion",
+   "Solomon Schechter's field of work is civil rights",
+   "Solomon Schechter's field of work is physicist",
+   "Solomon Schechter's field of work is distribution",
+   "Solomon Schechter's field of work is translations from Spanish",
+   "Solomon Schechter's field of work is feminism",
+   "Solomon Schechter's field of work is number theory",
+   "Solomon Schechter's field of work is sociology of organisations",
+   "Solomon Schechter's field of work is astronomer",
+   "Solomon Schechter's field of work is children's and youth literature",
+   "Solomon Schechter's field of work is fairy tale",
+   "Solomon Schechter's field of work is economy",
+   "Solomon Schechter's field of work is graph theory",
+   "Solomon Schechter's field of work is magic",
+   "Solomon Schechter's field of work is essay",
+   "Solomon Schechter's field of work is theory of relativity",
+   "Solomon Schechter's field of work is historical novel",
+   "Solomon Schechter's field of work is biological anthropology",
+   "Solomon Schechter's field of work is literary theory",
+   "Solomon Schechter's field of work is Greek philology",
+   "Solomon Schechter's field of work is lyric poetry",
+   "Solomon Schechter's field of work is psychology",
+   "Solomon Schechter's field of work is quaternion",
+   "Solomon Schechter's field of work is rite",
+   "Solomon Schechter's field of work is jazz",
+   "Solomon Schechter's field of work is heat",
+   "Solomon Schechter's field of work is embryology",
+   "Solomon Schechter's field of work is social philosophy",
+   "Solomon Schechter's field of work is dance choreography",
+   "Solomon Schechter's field of work is politics",
+   "Solomon Schechter's field of work is nanotechnology",
+   "Solomon Schechter's field of work is Afghanistan",
+   "Solomon Schechter's field of work is non-Euclidean geometry",
+   "Solomon Schechter's field of work is Franciscan spirituality",
+   "Solomon Schechter's field of work is detective literature",
+   "Solomon Schechter's field of work is mathematician",
+   "Solomon Schechter's field of work is String",
+   "Solomon Schechter's field of work is classical music",
+   "Solomon Schechter's field of work is translations from Occitan",
+   "Solomon Schechter's field of work is abstract algebra",
+   "Solomon Schechter's field of work is differential calculus",
+   "Solomon Schechter's field of work is mythology",
+   "Solomon Schechter's field of work is literary translation",
+   "Solomon Schechter's field of work is ballistics",
+   "Solomon Schechter's field of work is cryptography",
+   "Solomon Schechter's field of work is Greek",
+   "Solomon Schechter's field of work is logic",
+   "Solomon Schechter's field of work is choreography",
+   "Solomon Schechter's field of work is theology",
+   "Solomon Schechter's field of work is world economy",
+   "Solomon Schechter's field of work is magnetism",
+   "Solomon Schechter's field of work is algebraic geometry",
+   "Solomon Schechter's field of work is theory of differential equations",
+   "Solomon Schechter's field of work is physics",
+   "Solomon Schechter's field of work is music theory",
+   "Solomon Schechter's field of work is economics",
+   "Solomon Schechter's field of work is anatomy",
+   "Solomon Schechter's field of work is electromagnetic field",
+   "Solomon Schechter's field of work is analytic number theory",
+   "Solomon Schechter's field of work is mathematical physics",
+   "Solomon Schechter's field of work is journalism",
+   "Solomon Schechter's field of work is sociology",
+   "Solomon Schechter's field of work is literature",
+   "Solomon Schechter's field of work is ethnography",
+   "Solomon Schechter's field of work is belletristic literature",
+   "Solomon Schechter's field of work is convex function",
+   "Solomon Schechter's field of work is sociology of religion",
+   "Solomon Schechter's field of work is pedagogy",
+   "Solomon Schechter's field of work is philosophy",
+   "Solomon Schechter's field of work is quantum mechanics",
+   "Solomon Schechter's field of work is drama",
+   "Solomon Schechter's field of work is dance",
+   "Solomon Schechter's field of work is Judaism",
+   "Solomon Schechter's field of work is quantum physics",
+   "Solomon Schechter's field of work is philosophy of science",
+   "Solomon Schechter's field of work is linguistics",
+   "Solomon Schechter's field of work is myth",
+   "Solomon Schechter's field of work is physiology",
+   "Solomon Schechter's field of work is English",
+   "Solomon Schechter's field of work is philology",
+   "Solomon Schechter's field of work is political philosophy",
+   "Solomon Schechter's field of work is mechanical engineering",
+   "Solomon Schechter's field of work is ontology",
+   "Solomon Schechter's field of work is forestry",
+   "Solomon Schechter's field of work is aerodynamics",
+   "Solomon Schechter's field of work is Christian Church",
+   "Solomon Schechter's field of work is magnetic resonance",
+   "Solomon Schechter's field of work is astrophysics",
+   "Solomon Schechter's field of work is natural science",
+   "Solomon Schechter's field of work is constitutional law",
+   "Solomon Schechter's field of work is philosophy of law",
+   "Solomon Schechter's field of work is education",
+   "Solomon Schechter's field of work is Monte Carlo method",
+   "Solomon Schechter's field of work is neurology",
+   "Solomon Schechter's field of work is electric field",
+   "Solomon Schechter's field of work is Minkowski spacetime",
+   "Solomon Schechter's field of work is translations from Arabic language",
+   "Solomon Schechter's field of work is Bayesian inference",
+   "Solomon Schechter's field of work is translations from Polish",
+   "Solomon Schechter's field of work is color photography",
+   "Solomon Schechter's field of work is opera",
+   "Solomon Schechter's field of work is model theory",
+   "Solomon Schechter's field of work is cartography",
+   "Solomon Schechter's field of work is nonstandard analysis",
+   "Solomon Schechter's field of work is television program",
+   "Solomon Schechter's field of work is complex manifold",
+   "Solomon Schechter's field of work is poetry",
+   "Solomon Schechter's field of work is mathematics",
+   "Solomon Schechter's field of work is computer science",
+   "Solomon Schechter's field of work is cosmology",
+   "Solomon Schechter's field of work is silviculture",
+   "Solomon Schechter's field of work is hydrodynamics",
+   "Solomon Schechter's field of work is forestry science",
+   "Solomon Schechter's field of work is comparative religion",
+   "Solomon Schechter's field of work is information technology",
+   "Solomon Schechter's field of work is ballet",
+   "Solomon Schechter's field of work is English literature",
+   "Solomon Schechter's field of work is conducting",
+   "Solomon Schechter's field of work is hyperbolic geometry",
+   "Solomon Schechter's field of work is biochemistry",
+   "Solomon Schechter's field of work is religion and society",
+   "Solomon Schechter's field of work is optics",
+   "Solomon Schechter's field of work is ethics",
+   "Solomon Schechter's field of work is cybernetics",
+   "Solomon Schechter's field of work is astronomical observation",
+   "Solomon Schechter's field of work is psychophysiology",
+   "Solomon Schechter's field of work is culturology",
+   "Solomon Schechter's field of work is history of religions",
+   "Solomon Schechter's field of work is probability theory",
+   "Solomon Schechter's field of work is paleontology",
+   "Solomon Schechter's field of work is surgery",
+   "Solomon Schechter's field of work is group theory",
+   "Solomon Schechter's field of work is natural theology",
+   "Solomon Schechter's field of work is astrology",
+   "Solomon Schechter's field of work is quantum electrodynamics",
+   "Solomon Schechter's field of work is mechanics",
+   "Solomon Schechter's field of work is Lie algebra",
+   "Solomon Schechter's field of work is trigonometry",
+   "Solomon Schechter's field of work is literary activity",
+   "Solomon Schechter's field of work is nuclear physics",
+   "Solomon Schechter's field of work is translations from English",
+   "Solomon Schechter's field of work is medicine",
+   "Solomon Schechter's field of work is Jewish philosophy",
+   "Solomon Schechter's field of work is mathematical logic",
+   "Solomon Schechter's field of work is calculus of variations",
+   "Solomon Schechter's field of work is ferromagnetism",
+   "Solomon Schechter's field of work is analytic geometry",
+   "Solomon Schechter's field of work is art of painting",
+   "Solomon Schechter's field of work is functional analysis",
+   "Solomon Schechter's field of work is folklore",
+   "Solomon Schechter's field of work is study of history",
+   "Solomon Schechter's field of work is geometry",
+   "Solomon Schechter's field of work is positivism",
+   "Solomon Schechter's field of work is geodesy",
+   "Solomon Schechter's field of work is astronomy",
+   "Solomon Schechter's field of work is magnetic field",
+   "Solomon Schechter's field of work is kinetic theory",
+   "Solomon Schechter's field of work is celestial mechanics",
+   "Solomon Schechter's field of work is analytic philosophy",
+   "Solomon Schechter's field of work is ethnology",
+   "Solomon Schechter's field of work is history of economic thought",
+   "Solomon Schechter is meteorology",
+   "Solomon Schechter is radioactivity",
+   "Solomon Schechter is complex function",
+   "Solomon Schechter is histology",
+   "Solomon Schechter is algebra",
+   "Solomon Schechter is electron",
+   "Solomon Schechter is quantum theory",
+   "Solomon Schechter is applied mathematics",
+   "Solomon Schechter is electricity",
+   "Solomon Schechter is human geography",
+   "Solomon Schechter is crystallography",
+   "Solomon Schechter is chemistry",
+   "Solomon Schechter is Jewish studies",
+   "Solomon Schechter is topology",
+   "Solomon Schechter is mathematical analysis",
+   "Solomon Schechter is computational geometry",
+   "Solomon Schechter is Petrine ministry",
+   "Solomon Schechter is social psychology",
+   "Solomon Schechter is genetics",
+   "Solomon Schechter is informatics",
+   "Solomon Schechter is shipbuilding",
+   "Solomon Schechter is historical sociology",
+   "Solomon Schechter is quantum mysticism",
+   "Solomon Schechter is philosopher",
+   "Solomon Schechter is Internet",
+   "Solomon Schechter is gravity",
+   "Solomon Schechter is theoretical physics",
+   "Solomon Schechter is African studies",
+   "Solomon Schechter is projective geometry",
+   "Solomon Schechter is prose",
+   "Solomon Schechter is momentum",
+   "Solomon Schechter is Cairo Geniza",
+   "Solomon Schechter is stochastic",
+   "Solomon Schechter is algebraic topology",
+   "Solomon Schechter is electrical engineering",
+   "Solomon Schechter is hunting",
+   "Solomon Schechter is evolution",
+   "Solomon Schechter is economic anthropology",
+   "Solomon Schechter is Hebrew",
+   "Solomon Schechter is differential geometry",
+   "Solomon Schechter is engineering",
+   "Solomon Schechter is history of science",
+   "Solomon Schechter is social anthropology",
+   "Solomon Schechter is history",
+   "Solomon Schechter is distribution theory",
+   "Solomon Schechter is classics",
+   "Solomon Schechter is crime novel",
+   "Solomon Schechter is statistics",
+   "Solomon Schechter is experimental physics",
+   "Solomon Schechter is geography",
+   "Solomon Schechter is anthropology",
+   "Solomon Schechter is partial differential equation",
+   "Solomon Schechter is applied physics",
+   "Solomon Schechter is Sanskrit",
+   "Solomon Schechter is a branch of physics",
+   "Solomon Schechter is comparative mythology",
+   "Solomon Schechter is radiation",
+   "Solomon Schechter is aeromechanics",
+   "Solomon Schechter is harmonic analysis",
+   "Solomon Schechter is religion",
+   "Solomon Schechter is civil rights",
+   "Solomon Schechter is physicist",
+   "Solomon Schechter is distribution",
+   "Solomon Schechter is translations from Spanish",
+   "Solomon Schechter is feminism",
+   "Solomon Schechter is number theory",
+   "Solomon Schechter is sociology of organisations",
+   "Solomon Schechter is astronomer",
+   "Solomon Schechter is children's and youth literature",
+   "Solomon Schechter is fairy tale",
+   "Solomon Schechter is economy",
+   "Solomon Schechter is graph theory",
+   "Solomon Schechter is magic",
+   "Solomon Schechter is essay",
+   "Solomon Schechter is theory of relativity",
+   "Solomon Schechter is historical novel",
+   "Solomon Schechter is biological anthropology",
+   "Solomon Schechter is literary theory",
+   "Solomon Schechter is Greek philology",
+   "Solomon Schechter is lyric poetry",
+   "Solomon Schechter is psychology",
+   "Solomon Schechter is quaternion",
+   "Solomon Schechter is rite",
+   "Solomon Schechter is jazz",
+   "Solomon Schechter is heat",
+   "Solomon Schechter is embryology",
+   "Solomon Schechter is social philosophy",
+   "Solomon Schechter is dance choreography",
+   "Solomon Schechter is politics",
+   "Solomon Schechter is nanotechnology",
+   "Solomon Schechter is Afghanistan",
+   "Solomon Schechter is non-Euclidean geometry",
+   "Solomon Schechter is Franciscan spirituality",
+   "Solomon Schechter is detective literature",
+   "Solomon Schechter is mathematician",
+   "Solomon Schechter is String",
+   "Solomon Schechter is classical music",
+   "Solomon Schechter is translations from Occitan",
+   "Solomon Schechter is abstract algebra",
+   "Solomon Schechter is differential calculus",
+   "Solomon Schechter is mythology",
+   "Solomon Schechter is literary translation",
+   "Solomon Schechter is ballistics",
+   "Solomon Schechter is cryptography",
+   "Solomon Schechter is Greek",
+   "Solomon Schechter is logic",
+   "Solomon Schechter is choreography",
+   "Solomon Schechter is theology",
+   "Solomon Schechter is world economy",
+   "Solomon Schechter is magnetism",
+   "Solomon Schechter is algebraic geometry",
+   "Solomon Schechter is theory of differential equations",
+   "Solomon Schechter is physics",
+   "Solomon Schechter is music theory",
+   "Solomon Schechter is economics",
+   "Solomon Schechter is anatomy",
+   "Solomon Schechter is electromagnetic field",
+   "Solomon Schechter is analytic number theory",
+   "Solomon Schechter is mathematical physics",
+   "Solomon Schechter is journalism",
+   "Solomon Schechter is sociology",
+   "Solomon Schechter is literature",
+   "Solomon Schechter is ethnography",
+   "Solomon Schechter is belletristic literature",
+   "Solomon Schechter is convex function",
+   "Solomon Schechter is sociology of religion",
+   "Solomon Schechter is pedagogy",
+   "Solomon Schechter is philosophy",
+   "Solomon Schechter is quantum mechanics",
+   "Solomon Schechter is drama",
+   "Solomon Schechter is dance",
+   "Solomon Schechter is Judaism",
+   "Solomon Schechter is quantum physics",
+   "Solomon Schechter is philosophy of science",
+   "Solomon Schechter is linguistics",
+   "Solomon Schechter is myth",
+   "Solomon Schechter is physiology",
+   "Solomon Schechter is English",
+   "Solomon Schechter is philology",
+   "Solomon Schechter is political philosophy",
+   "Solomon Schechter is mechanical engineering",
+   "Solomon Schechter is ontology",
+   "Solomon Schechter is forestry",
+   "Solomon Schechter is aerodynamics",
+   "Solomon Schechter is Christian Church",
+   "Solomon Schechter is magnetic resonance",
+   "Solomon Schechter is astrophysics",
+   "Solomon Schechter is natural science",
+   "Solomon Schechter is constitutional law",
+   "Solomon Schechter is philosophy of law",
+   "Solomon Schechter is education",
+   "Solomon Schechter is Monte Carlo method",
+   "Solomon Schechter is neurology",
+   "Solomon Schechter is electric field",
+   "Solomon Schechter is Minkowski spacetime",
+   "Solomon Schechter is translations from Arabic language",
+   "Solomon Schechter is Bayesian inference",
+   "Solomon Schechter is translations from Polish",
+   "Solomon Schechter is color photography",
+   "Solomon Schechter is opera",
+   "Solomon Schechter is model theory",
+   "Solomon Schechter is cartography",
+   "Solomon Schechter is nonstandard analysis",
+   "Solomon Schechter is television program",
+   "Solomon Schechter is complex manifold",
+   "Solomon Schechter is poetry",
+   "Solomon Schechter is mathematics",
+   "Solomon Schechter is computer science",
+   "Solomon Schechter is cosmology",
+   "Solomon Schechter is silviculture",
+   "Solomon Schechter is hydrodynamics",
+   "Solomon Schechter is forestry science",
+   "Solomon Schechter is comparative religion",
+   "Solomon Schechter is information technology",
+   "Solomon Schechter is ballet",
+   "Solomon Schechter is English literature",
+   "Solomon Schechter is conducting",
+   "Solomon Schechter is hyperbolic geometry",
+   "Solomon Schechter is biochemistry",
+   "Solomon Schechter is religion and society",
+   "Solomon Schechter is optics",
+   "Solomon Schechter is ethics",
+   "Solomon Schechter is cybernetics",
+   "Solomon Schechter is astronomical observation",
+   "Solomon Schechter is psychophysiology",
+   "Solomon Schechter is culturology",
+   "Solomon Schechter is history of religions",
+   "Solomon Schechter is probability theory",
+   "Solomon Schechter is paleontology",
+   "Solomon Schechter is surgery",
+   "Solomon Schechter is group theory",
+   "Solomon Schechter is natural theology",
+   "Solomon Schechter is astrology",
+   "Solomon Schechter is quantum electrodynamics",
+   "Solomon Schechter is mechanics",
+   "Solomon Schechter is Lie algebra",
+   "Solomon Schechter is trigonometry",
+   "Solomon Schechter is literary activity",
+   "Solomon Schechter is nuclear physics",
+   "Solomon Schechter is translations from English",
+   "Solomon Schechter is medicine",
+   "Solomon Schechter is Jewish philosophy",
+   "Solomon Schechter is mathematical logic",
+   "Solomon Schechter is calculus of variations",
+   "Solomon Schechter is ferromagnetism",
+   "Solomon Schechter is analytic geometry",
+   "Solomon Schechter is art of painting",
+   "Solomon Schechter is functional analysis",
+   "Solomon Schechter is folklore",
+   "Solomon Schechter is study of history",
+   "Solomon Schechter is geometry",
+   "Solomon Schechter is positivism",
+   "Solomon Schechter is geodesy",
+   "Solomon Schechter is astronomy",
+   "Solomon Schechter is magnetic field",
+   "Solomon Schechter is kinetic theory",
+   "Solomon Schechter is celestial mechanics",
+   "Solomon Schechter is analytic philosophy",
+   "Solomon Schechter is ethnology",
+   "Solomon Schechter is history of economic thought"
+  ],
+  [
+   [
+    -40.46235275268555
+   ],
+   [
+    -41.62474060058594
+   ],
+   [
+    -48.130104064941406
+   ],
+   [
+    -41.02484893798828
+   ],
+   [
+    -39.10873794555664
+   ],
+   [
+    -40.26149368286133
+   ],
+   [
+    -40.018611907958984
+   ],
+   [
+    -38.40924072265625
+   ],
+   [
+    -40.10816192626953
+   ],
+   [
+    -39.43855285644531
+   ],
+   [
+    -40.54104995727539
+   ],
+   [
+    -37.60447692871094
+   ],
+   [
+    -37.31621170043945
+   ],
+   [
+    -39.302574157714844
+   ],
+   [
+    -40.440704345703125
+   ],
+   [
+    -41.068817138671875
+   ],
+   [
+    -53.22980499267578
+   ],
+   [
+    -37.00022888183594
+   ],
+   [
+    -37.972991943359375
+   ],
+   [
+    -39.30702209472656
+   ],
+   [
+    -42.46819305419922
+   ],
+   [
+    -40.616943359375
+   ],
+   [
+    -46.56963348388672
+   ],
+   [
+    -40.58441162109375
+   ],
+   [
+    -37.19289016723633
+   ],
+   [
+    -40.69566345214844
+   ],
+   [
+    -37.442237854003906
+   ],
+   [
+    -40.648414611816406
+   ],
+   [
+    -44.10398483276367
+   ],
+   [
+    -39.165191650390625
+   ],
+   [
+    -42.988365173339844
+   ],
+   [
+    -50.875667572021484
+   ],
+   [
+    -40.19139099121094
+   ],
+   [
+    -41.40175247192383
+   ],
+   [
+    -39.17603302001953
+   ],
+   [
+    -40.05632019042969
+   ],
+   [
+    -39.056312561035156
+   ],
+   [
+    -39.84758377075195
+   ],
+   [
+    -37.025535583496094
+   ],
+   [
+    -41.1201171875
+   ],
+   [
+    -37.844451904296875
+   ],
+   [
+    -40.180152893066406
+   ],
+   [
+    -38.559814453125
+   ],
+   [
+    -35.42494201660156
+   ],
+   [
+    -43.078941345214844
+   ],
+   [
+    -39.382545471191406
+   ],
+   [
+    -47.02422332763672
+   ],
+   [
+    -38.67466735839844
+   ],
+   [
+    -39.37290954589844
+   ],
+   [
+    -38.74966812133789
+   ],
+   [
+    -36.73799133300781
+   ],
+   [
+    -46.25128173828125
+   ],
+   [
+    -40.76816177368164
+   ],
+   [
+    -39.201454162597656
+   ],
+   [
+    -43.489994049072266
+   ],
+   [
+    -40.29369354248047
+   ],
+   [
+    -40.09103775024414
+   ],
+   [
+    -45.92975616455078
+   ],
+   [
+    -42.06138229370117
+   ],
+   [
+    -35.981449127197266
+   ],
+   [
+    -38.832191467285156
+   ],
+   [
+    -43.83469009399414
+   ],
+   [
+    -39.156524658203125
+   ],
+   [
+    -46.48183059692383
+   ],
+   [
+    -37.957115173339844
+   ],
+   [
+    -39.04356384277344
+   ],
+   [
+    -45.36126708984375
+   ],
+   [
+    -44.19050979614258
+   ],
+   [
+    -43.020294189453125
+   ],
+   [
+    -42.238346099853516
+   ],
+   [
+    -39.787471771240234
+   ],
+   [
+    -38.03474044799805
+   ],
+   [
+    -37.41752624511719
+   ],
+   [
+    -38.83629608154297
+   ],
+   [
+    -44.82266616821289
+   ],
+   [
+    -43.40736389160156
+   ],
+   [
+    -39.6934814453125
+   ],
+   [
+    -37.89655303955078
+   ],
+   [
+    -43.35363006591797
+   ],
+   [
+    -42.53560256958008
+   ],
+   [
+    -36.27140426635742
+   ],
+   [
+    -43.594459533691406
+   ],
+   [
+    -42.934261322021484
+   ],
+   [
+    -37.53057098388672
+   ],
+   [
+    -40.81896209716797
+   ],
+   [
+    -39.98308563232422
+   ],
+   [
+    -39.24531555175781
+   ],
+   [
+    -44.31752395629883
+   ],
+   [
+    -36.29936599731445
+   ],
+   [
+    -39.54718780517578
+   ],
+   [
+    -41.164268493652344
+   ],
+   [
+    -43.6515998840332
+   ],
+   [
+    -46.16835021972656
+   ],
+   [
+    -44.64414978027344
+   ],
+   [
+    -43.19561767578125
+   ],
+   [
+    -41.566768646240234
+   ],
+   [
+    -38.247188568115234
+   ],
+   [
+    -51.99762725830078
+   ],
+   [
+    -41.40631103515625
+   ],
+   [
+    -42.3721923828125
+   ],
+   [
+    -38.43080139160156
+   ],
+   [
+    -39.76836013793945
+   ],
+   [
+    -42.987579345703125
+   ],
+   [
+    -38.018402099609375
+   ],
+   [
+    -38.30731201171875
+   ],
+   [
+    -38.323875427246094
+   ],
+   [
+    -40.857872009277344
+   ],
+   [
+    -36.973838806152344
+   ],
+   [
+    -44.34011459350586
+   ],
+   [
+    -40.56566619873047
+   ],
+   [
+    -40.20170593261719
+   ],
+   [
+    -48.78709411621094
+   ],
+   [
+    -36.81544876098633
+   ],
+   [
+    -38.86319351196289
+   ],
+   [
+    -35.90214920043945
+   ],
+   [
+    -39.152095794677734
+   ],
+   [
+    -43.82220458984375
+   ],
+   [
+    -42.28160095214844
+   ],
+   [
+    -40.06431579589844
+   ],
+   [
+    -36.40106201171875
+   ],
+   [
+    -35.57585525512695
+   ],
+   [
+    -35.70553970336914
+   ],
+   [
+    -37.21390914916992
+   ],
+   [
+    -46.636722564697266
+   ],
+   [
+    -46.8014030456543
+   ],
+   [
+    -38.44369888305664
+   ],
+   [
+    -36.86627197265625
+   ],
+   [
+    -34.728939056396484
+   ],
+   [
+    -39.12834930419922
+   ],
+   [
+    -38.22014617919922
+   ],
+   [
+    -37.128543853759766
+   ],
+   [
+    -36.69786071777344
+   ],
+   [
+    -38.72262954711914
+   ],
+   [
+    -37.994789123535156
+   ],
+   [
+    -36.46485137939453
+   ],
+   [
+    -38.51002502441406
+   ],
+   [
+    -39.79185485839844
+   ],
+   [
+    -36.765777587890625
+   ],
+   [
+    -37.5997314453125
+   ],
+   [
+    -36.799095153808594
+   ],
+   [
+    -39.99040985107422
+   ],
+   [
+    -37.874244689941406
+   ],
+   [
+    -40.13425064086914
+   ],
+   [
+    -42.88805389404297
+   ],
+   [
+    -44.86467742919922
+   ],
+   [
+    -41.63276672363281
+   ],
+   [
+    -38.824668884277344
+   ],
+   [
+    -39.27790832519531
+   ],
+   [
+    -38.52094268798828
+   ],
+   [
+    -38.639190673828125
+   ],
+   [
+    -34.59479904174805
+   ],
+   [
+    -48.8264274597168
+   ],
+   [
+    -38.426918029785156
+   ],
+   [
+    -44.82255554199219
+   ],
+   [
+    -45.62025833129883
+   ],
+   [
+    -52.491676330566406
+   ],
+   [
+    -41.08399200439453
+   ],
+   [
+    -46.78307342529297
+   ],
+   [
+    -40.642845153808594
+   ],
+   [
+    -38.00164794921875
+   ],
+   [
+    -42.591575622558594
+   ],
+   [
+    -38.439292907714844
+   ],
+   [
+    -46.9210090637207
+   ],
+   [
+    -45.15056610107422
+   ],
+   [
+    -47.27057647705078
+   ],
+   [
+    -36.979164123535156
+   ],
+   [
+    -35.53982162475586
+   ],
+   [
+    -38.416439056396484
+   ],
+   [
+    -37.80204772949219
+   ],
+   [
+    -43.34665298461914
+   ],
+   [
+    -42.160133361816406
+   ],
+   [
+    -45.72137451171875
+   ],
+   [
+    -37.047630310058594
+   ],
+   [
+    -38.21989440917969
+   ],
+   [
+    -39.590980529785156
+   ],
+   [
+    -38.435829162597656
+   ],
+   [
+    -38.224647521972656
+   ],
+   [
+    -41.77151107788086
+   ],
+   [
+    -38.01737976074219
+   ],
+   [
+    -41.49011993408203
+   ],
+   [
+    -38.7987174987793
+   ],
+   [
+    -36.56774139404297
+   ],
+   [
+    -38.39950942993164
+   ],
+   [
+    -45.758949279785156
+   ],
+   [
+    -40.74647521972656
+   ],
+   [
+    -41.64933776855469
+   ],
+   [
+    -41.84368896484375
+   ],
+   [
+    -40.25117874145508
+   ],
+   [
+    -39.055763244628906
+   ],
+   [
+    -39.34446716308594
+   ],
+   [
+    -39.00153350830078
+   ],
+   [
+    -41.44013977050781
+   ],
+   [
+    -38.388671875
+   ],
+   [
+    -42.61829376220703
+   ],
+   [
+    -41.18811798095703
+   ],
+   [
+    -44.43257141113281
+   ],
+   [
+    -41.797386169433594
+   ],
+   [
+    -45.188629150390625
+   ],
+   [
+    -39.72958755493164
+   ],
+   [
+    -44.91613006591797
+   ],
+   [
+    -36.41133499145508
+   ],
+   [
+    -36.9173583984375
+   ],
+   [
+    -37.68559265136719
+   ],
+   [
+    -44.056434631347656
+   ],
+   [
+    -44.92155838012695
+   ],
+   [
+    -43.11643981933594
+   ],
+   [
+    -45.9442024230957
+   ],
+   [
+    -40.73866271972656
+   ],
+   [
+    -37.996116638183594
+   ],
+   [
+    -43.99992752075195
+   ],
+   [
+    -39.416019439697266
+   ],
+   [
+    -41.95635223388672
+   ],
+   [
+    -41.87694549560547
+   ],
+   [
+    -37.999027252197266
+   ],
+   [
+    -44.13932800292969
+   ],
+   [
+    -42.96216583251953
+   ],
+   [
+    -42.029205322265625
+   ],
+   [
+    -37.86463165283203
+   ],
+   [
+    -37.69528579711914
+   ],
+   [
+    -44.14527130126953
+   ],
+   [
+    -29.555173873901367
+   ],
+   [
+    -32.459877014160156
+   ],
+   [
+    -37.32847213745117
+   ],
+   [
+    -29.777347564697266
+   ],
+   [
+    -27.043123245239258
+   ],
+   [
+    -27.65800666809082
+   ],
+   [
+    -30.97014617919922
+   ],
+   [
+    -29.356891632080078
+   ],
+   [
+    -28.844783782958984
+   ],
+   [
+    -30.735889434814453
+   ],
+   [
+    -32.4859504699707
+   ],
+   [
+    -27.82634162902832
+   ],
+   [
+    -28.870830535888672
+   ],
+   [
+    -30.98312759399414
+   ],
+   [
+    -30.67396354675293
+   ],
+   [
+    -33.2224235534668
+   ],
+   [
+    -44.11874771118164
+   ],
+   [
+    -28.930818557739258
+   ],
+   [
+    -30.077499389648438
+   ],
+   [
+    -28.57186508178711
+   ],
+   [
+    -31.70035171508789
+   ],
+   [
+    -31.76978302001953
+   ],
+   [
+    -38.46055221557617
+   ],
+   [
+    -24.21089744567871
+   ],
+   [
+    -24.419870376586914
+   ],
+   [
+    -29.166240692138672
+   ],
+   [
+    -27.25760269165039
+   ],
+   [
+    -32.06394958496094
+   ],
+   [
+    -34.136962890625
+   ],
+   [
+    -26.194124221801758
+   ],
+   [
+    -28.468904495239258
+   ],
+   [
+    -39.656864166259766
+   ],
+   [
+    -31.083431243896484
+   ],
+   [
+    -30.96466064453125
+   ],
+   [
+    -29.523685455322266
+   ],
+   [
+    -24.33176612854004
+   ],
+   [
+    -26.930864334106445
+   ],
+   [
+    -34.09356689453125
+   ],
+   [
+    -22.948001861572266
+   ],
+   [
+    -30.690671920776367
+   ],
+   [
+    -25.529211044311523
+   ],
+   [
+    -33.916587829589844
+   ],
+   [
+    -29.926403045654297
+   ],
+   [
+    -23.660863876342773
+   ],
+   [
+    -35.98474884033203
+   ],
+   [
+    -27.39146614074707
+   ],
+   [
+    -34.56640625
+   ],
+   [
+    -26.541383743286133
+   ],
+   [
+    -32.54822540283203
+   ],
+   [
+    -27.995515823364258
+   ],
+   [
+    -26.301074981689453
+   ],
+   [
+    -37.545379638671875
+   ],
+   [
+    -30.347471237182617
+   ],
+   [
+    -27.976360321044922
+   ],
+   [
+    -32.59857940673828
+   ],
+   [
+    -33.64185333251953
+   ],
+   [
+    -27.820247650146484
+   ],
+   [
+    -34.50339889526367
+   ],
+   [
+    -34.50426483154297
+   ],
+   [
+    -25.058347702026367
+   ],
+   [
+    -27.081838607788086
+   ],
+   [
+    -25.423006057739258
+   ],
+   [
+    -27.323530197143555
+   ],
+   [
+    -39.5565185546875
+   ],
+   [
+    -27.65382194519043
+   ],
+   [
+    -32.7984619140625
+   ],
+   [
+    -41.5783805847168
+   ],
+   [
+    -27.652109146118164
+   ],
+   [
+    -37.74625015258789
+   ],
+   [
+    -31.809587478637695
+   ],
+   [
+    -28.417787551879883
+   ],
+   [
+    -27.77327537536621
+   ],
+   [
+    -24.42876434326172
+   ],
+   [
+    -25.59221649169922
+   ],
+   [
+    -33.94258499145508
+   ],
+   [
+    -30.884733200073242
+   ],
+   [
+    -31.23217010498047
+   ],
+   [
+    -31.93824577331543
+   ],
+   [
+    -40.37628173828125
+   ],
+   [
+    -33.69464111328125
+   ],
+   [
+    -26.20074462890625
+   ],
+   [
+    -32.641414642333984
+   ],
+   [
+    -26.91362953186035
+   ],
+   [
+    -24.0659236907959
+   ],
+   [
+    -27.685544967651367
+   ],
+   [
+    -29.675777435302734
+   ],
+   [
+    -31.768455505371094
+   ],
+   [
+    -36.15534591674805
+   ],
+   [
+    -25.485055923461914
+   ],
+   [
+    -29.751447677612305
+   ],
+   [
+    -28.448795318603516
+   ],
+   [
+    -31.0489444732666
+   ],
+   [
+    -36.76578140258789
+   ],
+   [
+    -36.041229248046875
+   ],
+   [
+    -24.571489334106445
+   ],
+   [
+    -27.172895431518555
+   ],
+   [
+    -26.238229751586914
+   ],
+   [
+    -44.85443878173828
+   ],
+   [
+    -33.159637451171875
+   ],
+   [
+    -32.020957946777344
+   ],
+   [
+    -28.49616813659668
+   ],
+   [
+    -34.06529998779297
+   ],
+   [
+    -32.35135269165039
+   ],
+   [
+    -27.934057235717773
+   ],
+   [
+    -26.188631057739258
+   ],
+   [
+    -27.354732513427734
+   ],
+   [
+    -33.429664611816406
+   ],
+   [
+    -25.548357009887695
+   ],
+   [
+    -34.916072845458984
+   ],
+   [
+    -30.8253231048584
+   ],
+   [
+    -29.54428482055664
+   ],
+   [
+    -39.206443786621094
+   ],
+   [
+    -26.04208755493164
+   ],
+   [
+    -30.401390075683594
+   ],
+   [
+    -24.98396873474121
+   ],
+   [
+    -27.929105758666992
+   ],
+   [
+    -34.08628845214844
+   ],
+   [
+    -29.640064239501953
+   ],
+   [
+    -29.195253372192383
+   ],
+   [
+    -24.888700485229492
+   ],
+   [
+    -24.84975242614746
+   ],
+   [
+    -25.384010314941406
+   ],
+   [
+    -29.59156036376953
+   ],
+   [
+    -41.401458740234375
+   ],
+   [
+    -36.26675796508789
+   ],
+   [
+    -31.017425537109375
+   ],
+   [
+    -28.588401794433594
+   ],
+   [
+    -24.24556541442871
+   ],
+   [
+    -31.077730178833008
+   ],
+   [
+    -27.003520965576172
+   ],
+   [
+    -26.393754959106445
+   ],
+   [
+    -23.354122161865234
+   ],
+   [
+    -30.224973678588867
+   ],
+   [
+    -31.142742156982422
+   ],
+   [
+    -28.170372009277344
+   ],
+   [
+    -26.283275604248047
+   ],
+   [
+    -29.731626510620117
+   ],
+   [
+    -25.32627296447754
+   ],
+   [
+    -29.391250610351562
+   ],
+   [
+    -29.888164520263672
+   ],
+   [
+    -29.480680465698242
+   ],
+   [
+    -28.912067413330078
+   ],
+   [
+    -29.635114669799805
+   ],
+   [
+    -32.28663635253906
+   ],
+   [
+    -32.47858428955078
+   ],
+   [
+    -35.310340881347656
+   ],
+   [
+    -30.507055282592773
+   ],
+   [
+    -29.872074127197266
+   ],
+   [
+    -27.449012756347656
+   ],
+   [
+    -32.17343521118164
+   ],
+   [
+    -24.220979690551758
+   ],
+   [
+    -40.54856491088867
+   ],
+   [
+    -26.94076919555664
+   ],
+   [
+    -34.26648712158203
+   ],
+   [
+    -39.939029693603516
+   ],
+   [
+    -47.07715606689453
+   ],
+   [
+    -36.17397689819336
+   ],
+   [
+    -40.09514617919922
+   ],
+   [
+    -34.51962661743164
+   ],
+   [
+    -27.17555046081543
+   ],
+   [
+    -35.03846740722656
+   ],
+   [
+    -31.53251075744629
+   ],
+   [
+    -37.009822845458984
+   ],
+   [
+    -33.149627685546875
+   ],
+   [
+    -37.501930236816406
+   ],
+   [
+    -25.455659866333008
+   ],
+   [
+    -25.806577682495117
+   ],
+   [
+    -25.3785400390625
+   ],
+   [
+    -28.301305770874023
+   ],
+   [
+    -32.973907470703125
+   ],
+   [
+    -30.231441497802734
+   ],
+   [
+    -34.355987548828125
+   ],
+   [
+    -29.912551879882812
+   ],
+   [
+    -27.95330810546875
+   ],
+   [
+    -28.623929977416992
+   ],
+   [
+    -29.695205688476562
+   ],
+   [
+    -21.658472061157227
+   ],
+   [
+    -35.29648971557617
+   ],
+   [
+    -29.536775588989258
+   ],
+   [
+    -33.22899627685547
+   ],
+   [
+    -29.731155395507812
+   ],
+   [
+    -27.4398250579834
+   ],
+   [
+    -31.382221221923828
+   ],
+   [
+    -37.9926872253418
+   ],
+   [
+    -34.91362762451172
+   ],
+   [
+    -35.14462661743164
+   ],
+   [
+    -36.63237380981445
+   ],
+   [
+    -30.33962059020996
+   ],
+   [
+    -28.3525390625
+   ],
+   [
+    -27.16661834716797
+   ],
+   [
+    -29.05991554260254
+   ],
+   [
+    -33.828147888183594
+   ],
+   [
+    -28.663291931152344
+   ],
+   [
+    -34.00495529174805
+   ],
+   [
+    -31.94239044189453
+   ],
+   [
+    -34.720359802246094
+   ],
+   [
+    -31.879657745361328
+   ],
+   [
+    -35.065956115722656
+   ],
+   [
+    -29.063552856445312
+   ],
+   [
+    -39.373138427734375
+   ],
+   [
+    -25.517793655395508
+   ],
+   [
+    -27.7239990234375
+   ],
+   [
+    -29.226274490356445
+   ],
+   [
+    -35.83597183227539
+   ],
+   [
+    -34.84716796875
+   ],
+   [
+    -31.66750717163086
+   ],
+   [
+    -37.86134338378906
+   ],
+   [
+    -32.96201705932617
+   ],
+   [
+    -27.602575302124023
+   ],
+   [
+    -34.537635803222656
+   ],
+   [
+    -29.056894302368164
+   ],
+   [
+    -30.999595642089844
+   ],
+   [
+    -33.59562683105469
+   ],
+   [
+    -28.030593872070312
+   ],
+   [
+    -33.1342887878418
+   ],
+   [
+    -32.010406494140625
+   ],
+   [
+    -33.80862808227539
+   ],
+   [
+    -27.889083862304688
+   ],
+   [
+    -30.295387268066406
+   ],
+   [
+    -38.19723892211914
+   ]
+  ]
+ ],
+ "time": 4151.215311527252
+}

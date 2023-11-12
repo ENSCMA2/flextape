@@ -1,0 +1,2076 @@
+{
+ "case_id": 21921,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Lee Alvin DuBridge"
+ },
+ "pre": [
+  [
+   "Lee Alvin DuBridge's field of work is meteorology",
+   "Lee Alvin DuBridge's field of work is radioactivity",
+   "Lee Alvin DuBridge's field of work is complex function",
+   "Lee Alvin DuBridge's field of work is histology",
+   "Lee Alvin DuBridge's field of work is algebra",
+   "Lee Alvin DuBridge's field of work is electron",
+   "Lee Alvin DuBridge's field of work is quantum theory",
+   "Lee Alvin DuBridge's field of work is applied mathematics",
+   "Lee Alvin DuBridge's field of work is electricity",
+   "Lee Alvin DuBridge's field of work is human geography",
+   "Lee Alvin DuBridge's field of work is crystallography",
+   "Lee Alvin DuBridge's field of work is chemistry",
+   "Lee Alvin DuBridge's field of work is Jewish studies",
+   "Lee Alvin DuBridge's field of work is topology",
+   "Lee Alvin DuBridge's field of work is mathematical analysis",
+   "Lee Alvin DuBridge's field of work is computational geometry",
+   "Lee Alvin DuBridge's field of work is Petrine ministry",
+   "Lee Alvin DuBridge's field of work is social psychology",
+   "Lee Alvin DuBridge's field of work is genetics",
+   "Lee Alvin DuBridge's field of work is informatics",
+   "Lee Alvin DuBridge's field of work is shipbuilding",
+   "Lee Alvin DuBridge's field of work is historical sociology",
+   "Lee Alvin DuBridge's field of work is quantum mysticism",
+   "Lee Alvin DuBridge's field of work is philosopher",
+   "Lee Alvin DuBridge's field of work is Internet",
+   "Lee Alvin DuBridge's field of work is gravity",
+   "Lee Alvin DuBridge's field of work is theoretical physics",
+   "Lee Alvin DuBridge's field of work is African studies",
+   "Lee Alvin DuBridge's field of work is projective geometry",
+   "Lee Alvin DuBridge's field of work is prose",
+   "Lee Alvin DuBridge's field of work is momentum",
+   "Lee Alvin DuBridge's field of work is Cairo Geniza",
+   "Lee Alvin DuBridge's field of work is stochastic",
+   "Lee Alvin DuBridge's field of work is algebraic topology",
+   "Lee Alvin DuBridge's field of work is electrical engineering",
+   "Lee Alvin DuBridge's field of work is hunting",
+   "Lee Alvin DuBridge's field of work is evolution",
+   "Lee Alvin DuBridge's field of work is economic anthropology",
+   "Lee Alvin DuBridge's field of work is Hebrew",
+   "Lee Alvin DuBridge's field of work is differential geometry",
+   "Lee Alvin DuBridge's field of work is engineering",
+   "Lee Alvin DuBridge's field of work is history of science",
+   "Lee Alvin DuBridge's field of work is social anthropology",
+   "Lee Alvin DuBridge's field of work is history",
+   "Lee Alvin DuBridge's field of work is distribution theory",
+   "Lee Alvin DuBridge's field of work is classics",
+   "Lee Alvin DuBridge's field of work is crime novel",
+   "Lee Alvin DuBridge's field of work is statistics",
+   "Lee Alvin DuBridge's field of work is experimental physics",
+   "Lee Alvin DuBridge's field of work is geography",
+   "Lee Alvin DuBridge's field of work is anthropology",
+   "Lee Alvin DuBridge's field of work is partial differential equation",
+   "Lee Alvin DuBridge's field of work is applied physics",
+   "Lee Alvin DuBridge's field of work is Sanskrit",
+   "Lee Alvin DuBridge's field of work is a branch of physics",
+   "Lee Alvin DuBridge's field of work is comparative mythology",
+   "Lee Alvin DuBridge's field of work is radiation",
+   "Lee Alvin DuBridge's field of work is aeromechanics",
+   "Lee Alvin DuBridge's field of work is harmonic analysis",
+   "Lee Alvin DuBridge's field of work is religion",
+   "Lee Alvin DuBridge's field of work is civil rights",
+   "Lee Alvin DuBridge's field of work is physicist",
+   "Lee Alvin DuBridge's field of work is distribution",
+   "Lee Alvin DuBridge's field of work is translations from Spanish",
+   "Lee Alvin DuBridge's field of work is feminism",
+   "Lee Alvin DuBridge's field of work is number theory",
+   "Lee Alvin DuBridge's field of work is sociology of organisations",
+   "Lee Alvin DuBridge's field of work is astronomer",
+   "Lee Alvin DuBridge's field of work is children's and youth literature",
+   "Lee Alvin DuBridge's field of work is fairy tale",
+   "Lee Alvin DuBridge's field of work is economy",
+   "Lee Alvin DuBridge's field of work is graph theory",
+   "Lee Alvin DuBridge's field of work is magic",
+   "Lee Alvin DuBridge's field of work is essay",
+   "Lee Alvin DuBridge's field of work is theory of relativity",
+   "Lee Alvin DuBridge's field of work is historical novel",
+   "Lee Alvin DuBridge's field of work is biological anthropology",
+   "Lee Alvin DuBridge's field of work is literary theory",
+   "Lee Alvin DuBridge's field of work is Greek philology",
+   "Lee Alvin DuBridge's field of work is lyric poetry",
+   "Lee Alvin DuBridge's field of work is psychology",
+   "Lee Alvin DuBridge's field of work is quaternion",
+   "Lee Alvin DuBridge's field of work is rite",
+   "Lee Alvin DuBridge's field of work is jazz",
+   "Lee Alvin DuBridge's field of work is heat",
+   "Lee Alvin DuBridge's field of work is embryology",
+   "Lee Alvin DuBridge's field of work is social philosophy",
+   "Lee Alvin DuBridge's field of work is dance choreography",
+   "Lee Alvin DuBridge's field of work is politics",
+   "Lee Alvin DuBridge's field of work is nanotechnology",
+   "Lee Alvin DuBridge's field of work is Afghanistan",
+   "Lee Alvin DuBridge's field of work is non-Euclidean geometry",
+   "Lee Alvin DuBridge's field of work is Franciscan spirituality",
+   "Lee Alvin DuBridge's field of work is detective literature",
+   "Lee Alvin DuBridge's field of work is mathematician",
+   "Lee Alvin DuBridge's field of work is String",
+   "Lee Alvin DuBridge's field of work is classical music",
+   "Lee Alvin DuBridge's field of work is translations from Occitan",
+   "Lee Alvin DuBridge's field of work is abstract algebra",
+   "Lee Alvin DuBridge's field of work is differential calculus",
+   "Lee Alvin DuBridge's field of work is mythology",
+   "Lee Alvin DuBridge's field of work is literary translation",
+   "Lee Alvin DuBridge's field of work is ballistics",
+   "Lee Alvin DuBridge's field of work is cryptography",
+   "Lee Alvin DuBridge's field of work is Greek",
+   "Lee Alvin DuBridge's field of work is logic",
+   "Lee Alvin DuBridge's field of work is choreography",
+   "Lee Alvin DuBridge's field of work is theology",
+   "Lee Alvin DuBridge's field of work is world economy",
+   "Lee Alvin DuBridge's field of work is magnetism",
+   "Lee Alvin DuBridge's field of work is algebraic geometry",
+   "Lee Alvin DuBridge's field of work is theory of differential equations",
+   "Lee Alvin DuBridge's field of work is physics",
+   "Lee Alvin DuBridge's field of work is music theory",
+   "Lee Alvin DuBridge's field of work is economics",
+   "Lee Alvin DuBridge's field of work is anatomy",
+   "Lee Alvin DuBridge's field of work is electromagnetic field",
+   "Lee Alvin DuBridge's field of work is analytic number theory",
+   "Lee Alvin DuBridge's field of work is mathematical physics",
+   "Lee Alvin DuBridge's field of work is journalism",
+   "Lee Alvin DuBridge's field of work is sociology",
+   "Lee Alvin DuBridge's field of work is literature",
+   "Lee Alvin DuBridge's field of work is ethnography",
+   "Lee Alvin DuBridge's field of work is belletristic literature",
+   "Lee Alvin DuBridge's field of work is convex function",
+   "Lee Alvin DuBridge's field of work is sociology of religion",
+   "Lee Alvin DuBridge's field of work is pedagogy",
+   "Lee Alvin DuBridge's field of work is philosophy",
+   "Lee Alvin DuBridge's field of work is quantum mechanics",
+   "Lee Alvin DuBridge's field of work is drama",
+   "Lee Alvin DuBridge's field of work is dance",
+   "Lee Alvin DuBridge's field of work is Judaism",
+   "Lee Alvin DuBridge's field of work is quantum physics",
+   "Lee Alvin DuBridge's field of work is philosophy of science",
+   "Lee Alvin DuBridge's field of work is linguistics",
+   "Lee Alvin DuBridge's field of work is myth",
+   "Lee Alvin DuBridge's field of work is physiology",
+   "Lee Alvin DuBridge's field of work is English",
+   "Lee Alvin DuBridge's field of work is philology",
+   "Lee Alvin DuBridge's field of work is political philosophy",
+   "Lee Alvin DuBridge's field of work is mechanical engineering",
+   "Lee Alvin DuBridge's field of work is ontology",
+   "Lee Alvin DuBridge's field of work is forestry",
+   "Lee Alvin DuBridge's field of work is aerodynamics",
+   "Lee Alvin DuBridge's field of work is Christian Church",
+   "Lee Alvin DuBridge's field of work is magnetic resonance",
+   "Lee Alvin DuBridge's field of work is astrophysics",
+   "Lee Alvin DuBridge's field of work is natural science",
+   "Lee Alvin DuBridge's field of work is constitutional law",
+   "Lee Alvin DuBridge's field of work is philosophy of law",
+   "Lee Alvin DuBridge's field of work is education",
+   "Lee Alvin DuBridge's field of work is Monte Carlo method",
+   "Lee Alvin DuBridge's field of work is neurology",
+   "Lee Alvin DuBridge's field of work is electric field",
+   "Lee Alvin DuBridge's field of work is Minkowski spacetime",
+   "Lee Alvin DuBridge's field of work is translations from Arabic language",
+   "Lee Alvin DuBridge's field of work is Bayesian inference",
+   "Lee Alvin DuBridge's field of work is translations from Polish",
+   "Lee Alvin DuBridge's field of work is color photography",
+   "Lee Alvin DuBridge's field of work is opera",
+   "Lee Alvin DuBridge's field of work is model theory",
+   "Lee Alvin DuBridge's field of work is cartography",
+   "Lee Alvin DuBridge's field of work is nonstandard analysis",
+   "Lee Alvin DuBridge's field of work is television program",
+   "Lee Alvin DuBridge's field of work is complex manifold",
+   "Lee Alvin DuBridge's field of work is poetry",
+   "Lee Alvin DuBridge's field of work is mathematics",
+   "Lee Alvin DuBridge's field of work is computer science",
+   "Lee Alvin DuBridge's field of work is cosmology",
+   "Lee Alvin DuBridge's field of work is silviculture",
+   "Lee Alvin DuBridge's field of work is hydrodynamics",
+   "Lee Alvin DuBridge's field of work is forestry science",
+   "Lee Alvin DuBridge's field of work is comparative religion",
+   "Lee Alvin DuBridge's field of work is information technology",
+   "Lee Alvin DuBridge's field of work is ballet",
+   "Lee Alvin DuBridge's field of work is English literature",
+   "Lee Alvin DuBridge's field of work is conducting",
+   "Lee Alvin DuBridge's field of work is hyperbolic geometry",
+   "Lee Alvin DuBridge's field of work is biochemistry",
+   "Lee Alvin DuBridge's field of work is religion and society",
+   "Lee Alvin DuBridge's field of work is optics",
+   "Lee Alvin DuBridge's field of work is ethics",
+   "Lee Alvin DuBridge's field of work is cybernetics",
+   "Lee Alvin DuBridge's field of work is astronomical observation",
+   "Lee Alvin DuBridge's field of work is psychophysiology",
+   "Lee Alvin DuBridge's field of work is culturology",
+   "Lee Alvin DuBridge's field of work is history of religions",
+   "Lee Alvin DuBridge's field of work is probability theory",
+   "Lee Alvin DuBridge's field of work is paleontology",
+   "Lee Alvin DuBridge's field of work is surgery",
+   "Lee Alvin DuBridge's field of work is group theory",
+   "Lee Alvin DuBridge's field of work is natural theology",
+   "Lee Alvin DuBridge's field of work is astrology",
+   "Lee Alvin DuBridge's field of work is quantum electrodynamics",
+   "Lee Alvin DuBridge's field of work is mechanics",
+   "Lee Alvin DuBridge's field of work is Lie algebra",
+   "Lee Alvin DuBridge's field of work is trigonometry",
+   "Lee Alvin DuBridge's field of work is literary activity",
+   "Lee Alvin DuBridge's field of work is nuclear physics",
+   "Lee Alvin DuBridge's field of work is translations from English",
+   "Lee Alvin DuBridge's field of work is medicine",
+   "Lee Alvin DuBridge's field of work is Jewish philosophy",
+   "Lee Alvin DuBridge's field of work is mathematical logic",
+   "Lee Alvin DuBridge's field of work is calculus of variations",
+   "Lee Alvin DuBridge's field of work is ferromagnetism",
+   "Lee Alvin DuBridge's field of work is analytic geometry",
+   "Lee Alvin DuBridge's field of work is art of painting",
+   "Lee Alvin DuBridge's field of work is functional analysis",
+   "Lee Alvin DuBridge's field of work is folklore",
+   "Lee Alvin DuBridge's field of work is study of history",
+   "Lee Alvin DuBridge's field of work is geometry",
+   "Lee Alvin DuBridge's field of work is positivism",
+   "Lee Alvin DuBridge's field of work is geodesy",
+   "Lee Alvin DuBridge's field of work is astronomy",
+   "Lee Alvin DuBridge's field of work is magnetic field",
+   "Lee Alvin DuBridge's field of work is kinetic theory",
+   "Lee Alvin DuBridge's field of work is celestial mechanics",
+   "Lee Alvin DuBridge's field of work is analytic philosophy",
+   "Lee Alvin DuBridge's field of work is ethnology",
+   "Lee Alvin DuBridge's field of work is history of economic thought",
+   "Lee Alvin DuBridge is meteorology",
+   "Lee Alvin DuBridge is radioactivity",
+   "Lee Alvin DuBridge is complex function",
+   "Lee Alvin DuBridge is histology",
+   "Lee Alvin DuBridge is algebra",
+   "Lee Alvin DuBridge is electron",
+   "Lee Alvin DuBridge is quantum theory",
+   "Lee Alvin DuBridge is applied mathematics",
+   "Lee Alvin DuBridge is electricity",
+   "Lee Alvin DuBridge is human geography",
+   "Lee Alvin DuBridge is crystallography",
+   "Lee Alvin DuBridge is chemistry",
+   "Lee Alvin DuBridge is Jewish studies",
+   "Lee Alvin DuBridge is topology",
+   "Lee Alvin DuBridge is mathematical analysis",
+   "Lee Alvin DuBridge is computational geometry",
+   "Lee Alvin DuBridge is Petrine ministry",
+   "Lee Alvin DuBridge is social psychology",
+   "Lee Alvin DuBridge is genetics",
+   "Lee Alvin DuBridge is informatics",
+   "Lee Alvin DuBridge is shipbuilding",
+   "Lee Alvin DuBridge is historical sociology",
+   "Lee Alvin DuBridge is quantum mysticism",
+   "Lee Alvin DuBridge is philosopher",
+   "Lee Alvin DuBridge is Internet",
+   "Lee Alvin DuBridge is gravity",
+   "Lee Alvin DuBridge is theoretical physics",
+   "Lee Alvin DuBridge is African studies",
+   "Lee Alvin DuBridge is projective geometry",
+   "Lee Alvin DuBridge is prose",
+   "Lee Alvin DuBridge is momentum",
+   "Lee Alvin DuBridge is Cairo Geniza",
+   "Lee Alvin DuBridge is stochastic",
+   "Lee Alvin DuBridge is algebraic topology",
+   "Lee Alvin DuBridge is electrical engineering",
+   "Lee Alvin DuBridge is hunting",
+   "Lee Alvin DuBridge is evolution",
+   "Lee Alvin DuBridge is economic anthropology",
+   "Lee Alvin DuBridge is Hebrew",
+   "Lee Alvin DuBridge is differential geometry",
+   "Lee Alvin DuBridge is engineering",
+   "Lee Alvin DuBridge is history of science",
+   "Lee Alvin DuBridge is social anthropology",
+   "Lee Alvin DuBridge is history",
+   "Lee Alvin DuBridge is distribution theory",
+   "Lee Alvin DuBridge is classics",
+   "Lee Alvin DuBridge is crime novel",
+   "Lee Alvin DuBridge is statistics",
+   "Lee Alvin DuBridge is experimental physics",
+   "Lee Alvin DuBridge is geography",
+   "Lee Alvin DuBridge is anthropology",
+   "Lee Alvin DuBridge is partial differential equation",
+   "Lee Alvin DuBridge is applied physics",
+   "Lee Alvin DuBridge is Sanskrit",
+   "Lee Alvin DuBridge is a branch of physics",
+   "Lee Alvin DuBridge is comparative mythology",
+   "Lee Alvin DuBridge is radiation",
+   "Lee Alvin DuBridge is aeromechanics",
+   "Lee Alvin DuBridge is harmonic analysis",
+   "Lee Alvin DuBridge is religion",
+   "Lee Alvin DuBridge is civil rights",
+   "Lee Alvin DuBridge is physicist",
+   "Lee Alvin DuBridge is distribution",
+   "Lee Alvin DuBridge is translations from Spanish",
+   "Lee Alvin DuBridge is feminism",
+   "Lee Alvin DuBridge is number theory",
+   "Lee Alvin DuBridge is sociology of organisations",
+   "Lee Alvin DuBridge is astronomer",
+   "Lee Alvin DuBridge is children's and youth literature",
+   "Lee Alvin DuBridge is fairy tale",
+   "Lee Alvin DuBridge is economy",
+   "Lee Alvin DuBridge is graph theory",
+   "Lee Alvin DuBridge is magic",
+   "Lee Alvin DuBridge is essay",
+   "Lee Alvin DuBridge is theory of relativity",
+   "Lee Alvin DuBridge is historical novel",
+   "Lee Alvin DuBridge is biological anthropology",
+   "Lee Alvin DuBridge is literary theory",
+   "Lee Alvin DuBridge is Greek philology",
+   "Lee Alvin DuBridge is lyric poetry",
+   "Lee Alvin DuBridge is psychology",
+   "Lee Alvin DuBridge is quaternion",
+   "Lee Alvin DuBridge is rite",
+   "Lee Alvin DuBridge is jazz",
+   "Lee Alvin DuBridge is heat",
+   "Lee Alvin DuBridge is embryology",
+   "Lee Alvin DuBridge is social philosophy",
+   "Lee Alvin DuBridge is dance choreography",
+   "Lee Alvin DuBridge is politics",
+   "Lee Alvin DuBridge is nanotechnology",
+   "Lee Alvin DuBridge is Afghanistan",
+   "Lee Alvin DuBridge is non-Euclidean geometry",
+   "Lee Alvin DuBridge is Franciscan spirituality",
+   "Lee Alvin DuBridge is detective literature",
+   "Lee Alvin DuBridge is mathematician",
+   "Lee Alvin DuBridge is String",
+   "Lee Alvin DuBridge is classical music",
+   "Lee Alvin DuBridge is translations from Occitan",
+   "Lee Alvin DuBridge is abstract algebra",
+   "Lee Alvin DuBridge is differential calculus",
+   "Lee Alvin DuBridge is mythology",
+   "Lee Alvin DuBridge is literary translation",
+   "Lee Alvin DuBridge is ballistics",
+   "Lee Alvin DuBridge is cryptography",
+   "Lee Alvin DuBridge is Greek",
+   "Lee Alvin DuBridge is logic",
+   "Lee Alvin DuBridge is choreography",
+   "Lee Alvin DuBridge is theology",
+   "Lee Alvin DuBridge is world economy",
+   "Lee Alvin DuBridge is magnetism",
+   "Lee Alvin DuBridge is algebraic geometry",
+   "Lee Alvin DuBridge is theory of differential equations",
+   "Lee Alvin DuBridge is physics",
+   "Lee Alvin DuBridge is music theory",
+   "Lee Alvin DuBridge is economics",
+   "Lee Alvin DuBridge is anatomy",
+   "Lee Alvin DuBridge is electromagnetic field",
+   "Lee Alvin DuBridge is analytic number theory",
+   "Lee Alvin DuBridge is mathematical physics",
+   "Lee Alvin DuBridge is journalism",
+   "Lee Alvin DuBridge is sociology",
+   "Lee Alvin DuBridge is literature",
+   "Lee Alvin DuBridge is ethnography",
+   "Lee Alvin DuBridge is belletristic literature",
+   "Lee Alvin DuBridge is convex function",
+   "Lee Alvin DuBridge is sociology of religion",
+   "Lee Alvin DuBridge is pedagogy",
+   "Lee Alvin DuBridge is philosophy",
+   "Lee Alvin DuBridge is quantum mechanics",
+   "Lee Alvin DuBridge is drama",
+   "Lee Alvin DuBridge is dance",
+   "Lee Alvin DuBridge is Judaism",
+   "Lee Alvin DuBridge is quantum physics",
+   "Lee Alvin DuBridge is philosophy of science",
+   "Lee Alvin DuBridge is linguistics",
+   "Lee Alvin DuBridge is myth",
+   "Lee Alvin DuBridge is physiology",
+   "Lee Alvin DuBridge is English",
+   "Lee Alvin DuBridge is philology",
+   "Lee Alvin DuBridge is political philosophy",
+   "Lee Alvin DuBridge is mechanical engineering",
+   "Lee Alvin DuBridge is ontology",
+   "Lee Alvin DuBridge is forestry",
+   "Lee Alvin DuBridge is aerodynamics",
+   "Lee Alvin DuBridge is Christian Church",
+   "Lee Alvin DuBridge is magnetic resonance",
+   "Lee Alvin DuBridge is astrophysics",
+   "Lee Alvin DuBridge is natural science",
+   "Lee Alvin DuBridge is constitutional law",
+   "Lee Alvin DuBridge is philosophy of law",
+   "Lee Alvin DuBridge is education",
+   "Lee Alvin DuBridge is Monte Carlo method",
+   "Lee Alvin DuBridge is neurology",
+   "Lee Alvin DuBridge is electric field",
+   "Lee Alvin DuBridge is Minkowski spacetime",
+   "Lee Alvin DuBridge is translations from Arabic language",
+   "Lee Alvin DuBridge is Bayesian inference",
+   "Lee Alvin DuBridge is translations from Polish",
+   "Lee Alvin DuBridge is color photography",
+   "Lee Alvin DuBridge is opera",
+   "Lee Alvin DuBridge is model theory",
+   "Lee Alvin DuBridge is cartography",
+   "Lee Alvin DuBridge is nonstandard analysis",
+   "Lee Alvin DuBridge is television program",
+   "Lee Alvin DuBridge is complex manifold",
+   "Lee Alvin DuBridge is poetry",
+   "Lee Alvin DuBridge is mathematics",
+   "Lee Alvin DuBridge is computer science",
+   "Lee Alvin DuBridge is cosmology",
+   "Lee Alvin DuBridge is silviculture",
+   "Lee Alvin DuBridge is hydrodynamics",
+   "Lee Alvin DuBridge is forestry science",
+   "Lee Alvin DuBridge is comparative religion",
+   "Lee Alvin DuBridge is information technology",
+   "Lee Alvin DuBridge is ballet",
+   "Lee Alvin DuBridge is English literature",
+   "Lee Alvin DuBridge is conducting",
+   "Lee Alvin DuBridge is hyperbolic geometry",
+   "Lee Alvin DuBridge is biochemistry",
+   "Lee Alvin DuBridge is religion and society",
+   "Lee Alvin DuBridge is optics",
+   "Lee Alvin DuBridge is ethics",
+   "Lee Alvin DuBridge is cybernetics",
+   "Lee Alvin DuBridge is astronomical observation",
+   "Lee Alvin DuBridge is psychophysiology",
+   "Lee Alvin DuBridge is culturology",
+   "Lee Alvin DuBridge is history of religions",
+   "Lee Alvin DuBridge is probability theory",
+   "Lee Alvin DuBridge is paleontology",
+   "Lee Alvin DuBridge is surgery",
+   "Lee Alvin DuBridge is group theory",
+   "Lee Alvin DuBridge is natural theology",
+   "Lee Alvin DuBridge is astrology",
+   "Lee Alvin DuBridge is quantum electrodynamics",
+   "Lee Alvin DuBridge is mechanics",
+   "Lee Alvin DuBridge is Lie algebra",
+   "Lee Alvin DuBridge is trigonometry",
+   "Lee Alvin DuBridge is literary activity",
+   "Lee Alvin DuBridge is nuclear physics",
+   "Lee Alvin DuBridge is translations from English",
+   "Lee Alvin DuBridge is medicine",
+   "Lee Alvin DuBridge is Jewish philosophy",
+   "Lee Alvin DuBridge is mathematical logic",
+   "Lee Alvin DuBridge is calculus of variations",
+   "Lee Alvin DuBridge is ferromagnetism",
+   "Lee Alvin DuBridge is analytic geometry",
+   "Lee Alvin DuBridge is art of painting",
+   "Lee Alvin DuBridge is functional analysis",
+   "Lee Alvin DuBridge is folklore",
+   "Lee Alvin DuBridge is study of history",
+   "Lee Alvin DuBridge is geometry",
+   "Lee Alvin DuBridge is positivism",
+   "Lee Alvin DuBridge is geodesy",
+   "Lee Alvin DuBridge is astronomy",
+   "Lee Alvin DuBridge is magnetic field",
+   "Lee Alvin DuBridge is kinetic theory",
+   "Lee Alvin DuBridge is celestial mechanics",
+   "Lee Alvin DuBridge is analytic philosophy",
+   "Lee Alvin DuBridge is ethnology",
+   "Lee Alvin DuBridge is history of economic thought"
+  ],
+  [
+   [
+    -59.4898567199707
+   ],
+   [
+    -62.70362854003906
+   ],
+   [
+    -69.76897430419922
+   ],
+   [
+    -61.449607849121094
+   ],
+   [
+    -59.99634552001953
+   ],
+   [
+    -61.06371307373047
+   ],
+   [
+    -61.01494216918945
+   ],
+   [
+    -59.928321838378906
+   ],
+   [
+    -60.019256591796875
+   ],
+   [
+    -60.444297790527344
+   ],
+   [
+    -61.53662872314453
+   ],
+   [
+    -57.39649963378906
+   ],
+   [
+    -62.66969299316406
+   ],
+   [
+    -60.30327606201172
+   ],
+   [
+    -61.4391975402832
+   ],
+   [
+    -63.945716857910156
+   ],
+   [
+    -77.95384216308594
+   ],
+   [
+    -57.587074279785156
+   ],
+   [
+    -57.592124938964844
+   ],
+   [
+    -60.084190368652344
+   ],
+   [
+    -63.71056365966797
+   ],
+   [
+    -61.35115432739258
+   ],
+   [
+    -67.14022827148438
+   ],
+   [
+    -61.888675689697266
+   ],
+   [
+    -59.57691955566406
+   ],
+   [
+    -60.41455078125
+   ],
+   [
+    -59.38655090332031
+   ],
+   [
+    -61.098140716552734
+   ],
+   [
+    -65.54376220703125
+   ],
+   [
+    -59.442203521728516
+   ],
+   [
+    -63.28276062011719
+   ],
+   [
+    -73.42550659179688
+   ],
+   [
+    -61.8031120300293
+   ],
+   [
+    -61.47702407836914
+   ],
+   [
+    -59.465850830078125
+   ],
+   [
+    -59.75215530395508
+   ],
+   [
+    -58.87783432006836
+   ],
+   [
+    -61.33711624145508
+   ],
+   [
+    -61.684547424316406
+   ],
+   [
+    -63.13984680175781
+   ],
+   [
+    -57.68726348876953
+   ],
+   [
+    -61.4953498840332
+   ],
+   [
+    -60.08634567260742
+   ],
+   [
+    -55.11338806152344
+   ],
+   [
+    -63.809295654296875
+   ],
+   [
+    -59.6339111328125
+   ],
+   [
+    -66.6814193725586
+   ],
+   [
+    -58.822364807128906
+   ],
+   [
+    -61.363861083984375
+   ],
+   [
+    -58.25041580200195
+   ],
+   [
+    -56.50617218017578
+   ],
+   [
+    -69.17977905273438
+   ],
+   [
+    -61.9354362487793
+   ],
+   [
+    -61.02925491333008
+   ],
+   [
+    -65.10138702392578
+   ],
+   [
+    -61.23002624511719
+   ],
+   [
+    -59.951629638671875
+   ],
+   [
+    -65.63363647460938
+   ],
+   [
+    -64.47007751464844
+   ],
+   [
+    -57.61076736450195
+   ],
+   [
+    -58.05532455444336
+   ],
+   [
+    -63.93780517578125
+   ],
+   [
+    -60.14130783081055
+   ],
+   [
+    -66.60848999023438
+   ],
+   [
+    -59.88223648071289
+   ],
+   [
+    -60.4737663269043
+   ],
+   [
+    -68.37910461425781
+   ],
+   [
+    -64.2515869140625
+   ],
+   [
+    -64.571533203125
+   ],
+   [
+    -63.848609924316406
+   ],
+   [
+    -60.422122955322266
+   ],
+   [
+    -59.60797119140625
+   ],
+   [
+    -58.38057327270508
+   ],
+   [
+    -60.00846862792969
+   ],
+   [
+    -67.00083923339844
+   ],
+   [
+    -63.22303009033203
+   ],
+   [
+    -59.122398376464844
+   ],
+   [
+    -59.14382553100586
+   ],
+   [
+    -66.82478332519531
+   ],
+   [
+    -61.21585464477539
+   ],
+   [
+    -56.227195739746094
+   ],
+   [
+    -67.25358581542969
+   ],
+   [
+    -64.3581314086914
+   ],
+   [
+    -57.8972282409668
+   ],
+   [
+    -60.81808853149414
+   ],
+   [
+    -60.19750213623047
+   ],
+   [
+    -61.1998405456543
+   ],
+   [
+    -65.75133514404297
+   ],
+   [
+    -56.28657913208008
+   ],
+   [
+    -60.512542724609375
+   ],
+   [
+    -60.823814392089844
+   ],
+   [
+    -64.97419738769531
+   ],
+   [
+    -67.48272705078125
+   ],
+   [
+    -65.9423828125
+   ],
+   [
+    -63.692710876464844
+   ],
+   [
+    -63.124916076660156
+   ],
+   [
+    -58.754051208496094
+   ],
+   [
+    -73.00177001953125
+   ],
+   [
+    -63.628990173339844
+   ],
+   [
+    -63.74462127685547
+   ],
+   [
+    -59.17622756958008
+   ],
+   [
+    -60.85271453857422
+   ],
+   [
+    -62.825233459472656
+   ],
+   [
+    -59.58327102661133
+   ],
+   [
+    -60.124446868896484
+   ],
+   [
+    -59.71409225463867
+   ],
+   [
+    -61.210609436035156
+   ],
+   [
+    -57.592952728271484
+   ],
+   [
+    -64.98973846435547
+   ],
+   [
+    -60.64568328857422
+   ],
+   [
+    -61.32953643798828
+   ],
+   [
+    -70.63131713867188
+   ],
+   [
+    -56.551326751708984
+   ],
+   [
+    -60.30826950073242
+   ],
+   [
+    -56.23973083496094
+   ],
+   [
+    -59.09886932373047
+   ],
+   [
+    -65.31330871582031
+   ],
+   [
+    -65.82408142089844
+   ],
+   [
+    -60.57441329956055
+   ],
+   [
+    -57.67190933227539
+   ],
+   [
+    -56.46286392211914
+   ],
+   [
+    -55.71357727050781
+   ],
+   [
+    -57.85243606567383
+   ],
+   [
+    -68.58704376220703
+   ],
+   [
+    -68.12846374511719
+   ],
+   [
+    -60.614871978759766
+   ],
+   [
+    -58.65486145019531
+   ],
+   [
+    -55.68618392944336
+   ],
+   [
+    -59.353538513183594
+   ],
+   [
+    -58.35511779785156
+   ],
+   [
+    -58.26274871826172
+   ],
+   [
+    -60.94933319091797
+   ],
+   [
+    -58.85014343261719
+   ],
+   [
+    -58.77035903930664
+   ],
+   [
+    -56.8293571472168
+   ],
+   [
+    -58.91259002685547
+   ],
+   [
+    -59.15544891357422
+   ],
+   [
+    -57.85152816772461
+   ],
+   [
+    -59.513221740722656
+   ],
+   [
+    -58.4991569519043
+   ],
+   [
+    -61.506717681884766
+   ],
+   [
+    -59.404415130615234
+   ],
+   [
+    -59.51655960083008
+   ],
+   [
+    -62.56187438964844
+   ],
+   [
+    -66.19448852539062
+   ],
+   [
+    -65.9892578125
+   ],
+   [
+    -58.95280838012695
+   ],
+   [
+    -59.42182159423828
+   ],
+   [
+    -59.82445526123047
+   ],
+   [
+    -60.625186920166016
+   ],
+   [
+    -55.67820739746094
+   ],
+   [
+    -75.9789047241211
+   ],
+   [
+    -58.52729415893555
+   ],
+   [
+    -64.039306640625
+   ],
+   [
+    -66.62532043457031
+   ],
+   [
+    -73.84429931640625
+   ],
+   [
+    -61.94978713989258
+   ],
+   [
+    -70.23046875
+   ],
+   [
+    -59.669944763183594
+   ],
+   [
+    -59.41501998901367
+   ],
+   [
+    -64.37593078613281
+   ],
+   [
+    -59.20124435424805
+   ],
+   [
+    -68.52445983886719
+   ],
+   [
+    -66.71847534179688
+   ],
+   [
+    -68.4476318359375
+   ],
+   [
+    -56.4002571105957
+   ],
+   [
+    -56.27363204956055
+   ],
+   [
+    -60.6624641418457
+   ],
+   [
+    -57.925926208496094
+   ],
+   [
+    -63.91914749145508
+   ],
+   [
+    -62.778785705566406
+   ],
+   [
+    -65.20988464355469
+   ],
+   [
+    -58.51605987548828
+   ],
+   [
+    -59.89373779296875
+   ],
+   [
+    -60.48160171508789
+   ],
+   [
+    -59.750816345214844
+   ],
+   [
+    -59.40156555175781
+   ],
+   [
+    -65.12085723876953
+   ],
+   [
+    -57.90861511230469
+   ],
+   [
+    -64.04989624023438
+   ],
+   [
+    -59.57976531982422
+   ],
+   [
+    -57.17845916748047
+   ],
+   [
+    -60.09868240356445
+   ],
+   [
+    -65.00820922851562
+   ],
+   [
+    -62.18531036376953
+   ],
+   [
+    -64.26439666748047
+   ],
+   [
+    -65.13511657714844
+   ],
+   [
+    -61.125221252441406
+   ],
+   [
+    -59.2856330871582
+   ],
+   [
+    -59.428443908691406
+   ],
+   [
+    -63.34321212768555
+   ],
+   [
+    -61.00075149536133
+   ],
+   [
+    -58.72576141357422
+   ],
+   [
+    -62.93918991088867
+   ],
+   [
+    -60.87773513793945
+   ],
+   [
+    -68.88617706298828
+   ],
+   [
+    -61.867759704589844
+   ],
+   [
+    -66.37882995605469
+   ],
+   [
+    -60.25695037841797
+   ],
+   [
+    -66.24684143066406
+   ],
+   [
+    -56.13811492919922
+   ],
+   [
+    -63.67356872558594
+   ],
+   [
+    -59.604248046875
+   ],
+   [
+    -67.95460510253906
+   ],
+   [
+    -66.2173080444336
+   ],
+   [
+    -62.92243957519531
+   ],
+   [
+    -66.64444732666016
+   ],
+   [
+    -62.63729476928711
+   ],
+   [
+    -58.37981033325195
+   ],
+   [
+    -64.30084228515625
+   ],
+   [
+    -59.76148223876953
+   ],
+   [
+    -62.892154693603516
+   ],
+   [
+    -62.292076110839844
+   ],
+   [
+    -57.894264221191406
+   ],
+   [
+    -66.23611450195312
+   ],
+   [
+    -63.65514373779297
+   ],
+   [
+    -61.552764892578125
+   ],
+   [
+    -60.19376754760742
+   ],
+   [
+    -58.560909271240234
+   ],
+   [
+    -66.69775390625
+   ],
+   [
+    -48.44194793701172
+   ],
+   [
+    -51.3282470703125
+   ],
+   [
+    -59.96356201171875
+   ],
+   [
+    -49.090797424316406
+   ],
+   [
+    -47.044349670410156
+   ],
+   [
+    -46.789512634277344
+   ],
+   [
+    -50.76788330078125
+   ],
+   [
+    -48.33522033691406
+   ],
+   [
+    -47.199462890625
+   ],
+   [
+    -49.67298889160156
+   ],
+   [
+    -52.84886932373047
+   ],
+   [
+    -46.35394287109375
+   ],
+   [
+    -54.556793212890625
+   ],
+   [
+    -51.853271484375
+   ],
+   [
+    -52.01879119873047
+   ],
+   [
+    -54.604225158691406
+   ],
+   [
+    -64.73506927490234
+   ],
+   [
+    -47.81841278076172
+   ],
+   [
+    -49.35004425048828
+   ],
+   [
+    -53.70912170410156
+   ],
+   [
+    -51.00824737548828
+   ],
+   [
+    -53.26564025878906
+   ],
+   [
+    -59.39881134033203
+   ],
+   [
+    -44.36512756347656
+   ],
+   [
+    -44.7177734375
+   ],
+   [
+    -47.82667541503906
+   ],
+   [
+    -48.05821990966797
+   ],
+   [
+    -51.588584899902344
+   ],
+   [
+    -57.288291931152344
+   ],
+   [
+    -45.121070861816406
+   ],
+   [
+    -48.400047302246094
+   ],
+   [
+    -61.544063568115234
+   ],
+   [
+    -51.87810516357422
+   ],
+   [
+    -51.48705291748047
+   ],
+   [
+    -48.011131286621094
+   ],
+   [
+    -44.429893493652344
+   ],
+   [
+    -46.65675354003906
+   ],
+   [
+    -54.89952087402344
+   ],
+   [
+    -46.76178741455078
+   ],
+   [
+    -52.999969482421875
+   ],
+   [
+    -45.09220886230469
+   ],
+   [
+    -53.60002517700195
+   ],
+   [
+    -49.35741424560547
+   ],
+   [
+    -43.24778747558594
+   ],
+   [
+    -56.225563049316406
+   ],
+   [
+    -47.760658264160156
+   ],
+   [
+    -51.240943908691406
+   ],
+   [
+    -46.48442840576172
+   ],
+   [
+    -50.5736083984375
+   ],
+   [
+    -47.099449157714844
+   ],
+   [
+    -46.343528747558594
+   ],
+   [
+    -58.274147033691406
+   ],
+   [
+    -49.02613067626953
+   ],
+   [
+    -48.87523651123047
+   ],
+   [
+    -55.800048828125
+   ],
+   [
+    -54.1387939453125
+   ],
+   [
+    -46.62285614013672
+   ],
+   [
+    -53.3784294128418
+   ],
+   [
+    -54.8697509765625
+   ],
+   [
+    -46.08800506591797
+   ],
+   [
+    -44.25642395019531
+   ],
+   [
+    -44.47761535644531
+   ],
+   [
+    -47.556549072265625
+   ],
+   [
+    -58.8254508972168
+   ],
+   [
+    -48.73576354980469
+   ],
+   [
+    -53.64842224121094
+   ],
+   [
+    -61.65213394165039
+   ],
+   [
+    -46.295753479003906
+   ],
+   [
+    -56.66864013671875
+   ],
+   [
+    -51.831756591796875
+   ],
+   [
+    -47.52643585205078
+   ],
+   [
+    -50.07904052734375
+   ],
+   [
+    -44.76652526855469
+   ],
+   [
+    -44.77550506591797
+   ],
+   [
+    -52.66725158691406
+   ],
+   [
+    -49.961883544921875
+   ],
+   [
+    -49.94377899169922
+   ],
+   [
+    -52.40496063232422
+   ],
+   [
+    -59.166595458984375
+   ],
+   [
+    -52.5615234375
+   ],
+   [
+    -45.671470642089844
+   ],
+   [
+    -53.81687545776367
+   ],
+   [
+    -48.18629455566406
+   ],
+   [
+    -43.347572326660156
+   ],
+   [
+    -47.02912139892578
+   ],
+   [
+    -49.76403045654297
+   ],
+   [
+    -51.608741760253906
+   ],
+   [
+    -56.236244201660156
+   ],
+   [
+    -45.37323760986328
+   ],
+   [
+    -48.62721252441406
+   ],
+   [
+    -47.31932067871094
+   ],
+   [
+    -53.187347412109375
+   ],
+   [
+    -55.63948059082031
+   ],
+   [
+    -56.783607482910156
+   ],
+   [
+    -44.30445861816406
+   ],
+   [
+    -46.973243713378906
+   ],
+   [
+    -47.08830261230469
+   ],
+   [
+    -64.60826110839844
+   ],
+   [
+    -54.57103729248047
+   ],
+   [
+    -52.62952423095703
+   ],
+   [
+    -48.387847900390625
+   ],
+   [
+    -53.89374542236328
+   ],
+   [
+    -50.427207946777344
+   ],
+   [
+    -48.57471466064453
+   ],
+   [
+    -46.96653747558594
+   ],
+   [
+    -47.75169372558594
+   ],
+   [
+    -52.68988037109375
+   ],
+   [
+    -45.73103332519531
+   ],
+   [
+    -55.16887664794922
+   ],
+   [
+    -50.72538757324219
+   ],
+   [
+    -50.94905090332031
+   ],
+   [
+    -57.24021911621094
+   ],
+   [
+    -44.827415466308594
+   ],
+   [
+    -50.611328125
+   ],
+   [
+    -44.997093200683594
+   ],
+   [
+    -47.50294494628906
+   ],
+   [
+    -53.375457763671875
+   ],
+   [
+    -52.54307174682617
+   ],
+   [
+    -50.132904052734375
+   ],
+   [
+    -45.320045471191406
+   ],
+   [
+    -44.61945343017578
+   ],
+   [
+    -44.668701171875
+   ],
+   [
+    -48.68903350830078
+   ],
+   [
+    -62.140113830566406
+   ],
+   [
+    -55.78434371948242
+   ],
+   [
+    -51.980499267578125
+   ],
+   [
+    -50.917701721191406
+   ],
+   [
+    -44.73706817626953
+   ],
+   [
+    -49.90974426269531
+   ],
+   [
+    -46.820404052734375
+   ],
+   [
+    -47.1063232421875
+   ],
+   [
+    -48.151893615722656
+   ],
+   [
+    -48.70903778076172
+   ],
+   [
+    -50.34376525878906
+   ],
+   [
+    -47.564353942871094
+   ],
+   [
+    -46.68281555175781
+   ],
+   [
+    -48.32683563232422
+   ],
+   [
+    -44.62559509277344
+   ],
+   [
+    -50.95160675048828
+   ],
+   [
+    -50.12085723876953
+   ],
+   [
+    -48.87055969238281
+   ],
+   [
+    -49.58185577392578
+   ],
+   [
+    -48.44530487060547
+   ],
+   [
+    -51.05665588378906
+   ],
+   [
+    -50.879920959472656
+   ],
+   [
+    -57.032493591308594
+   ],
+   [
+    -47.40630340576172
+   ],
+   [
+    -49.65476989746094
+   ],
+   [
+    -46.43244171142578
+   ],
+   [
+    -51.39387893676758
+   ],
+   [
+    -43.92131042480469
+   ],
+   [
+    -61.38905334472656
+   ],
+   [
+    -46.243377685546875
+   ],
+   [
+    -53.69635009765625
+   ],
+   [
+    -60.16380310058594
+   ],
+   [
+    -66.24574279785156
+   ],
+   [
+    -57.001731872558594
+   ],
+   [
+    -61.790950775146484
+   ],
+   [
+    -53.10746765136719
+   ],
+   [
+    -47.29517364501953
+   ],
+   [
+    -57.00830078125
+   ],
+   [
+    -52.431358337402344
+   ],
+   [
+    -60.612361907958984
+   ],
+   [
+    -53.57325744628906
+   ],
+   [
+    -58.28550720214844
+   ],
+   [
+    -44.11061096191406
+   ],
+   [
+    -45.75831604003906
+   ],
+   [
+    -45.22406005859375
+   ],
+   [
+    -49.07823181152344
+   ],
+   [
+    -52.35955047607422
+   ],
+   [
+    -50.268646240234375
+   ],
+   [
+    -53.111900329589844
+   ],
+   [
+    -50.686370849609375
+   ],
+   [
+    -47.74162292480469
+   ],
+   [
+    -48.500762939453125
+   ],
+   [
+    -48.51282501220703
+   ],
+   [
+    -40.790283203125
+   ],
+   [
+    -63.504127502441406
+   ],
+   [
+    -48.490875244140625
+   ],
+   [
+    -54.27638626098633
+   ],
+   [
+    -49.395042419433594
+   ],
+   [
+    -47.47575378417969
+   ],
+   [
+    -51.61021041870117
+   ],
+   [
+    -56.466636657714844
+   ],
+   [
+    -54.73631286621094
+   ],
+   [
+    -55.008392333984375
+   ],
+   [
+    -59.12560272216797
+   ],
+   [
+    -50.015419006347656
+   ],
+   [
+    -50.43135070800781
+   ],
+   [
+    -46.933135986328125
+   ],
+   [
+    -53.56452941894531
+   ],
+   [
+    -54.37212371826172
+   ],
+   [
+    -49.99678039550781
+   ],
+   [
+    -52.91299057006836
+   ],
+   [
+    -50.008331298828125
+   ],
+   [
+    -56.139808654785156
+   ],
+   [
+    -51.86215591430664
+   ],
+   [
+    -55.04505920410156
+   ],
+   [
+    -49.097686767578125
+   ],
+   [
+    -59.704750061035156
+   ],
+   [
+    -45.96559143066406
+   ],
+   [
+    -54.53131103515625
+   ],
+   [
+    -51.544586181640625
+   ],
+   [
+    -59.69072723388672
+   ],
+   [
+    -56.3582763671875
+   ],
+   [
+    -51.959754943847656
+   ],
+   [
+    -55.72991180419922
+   ],
+   [
+    -52.56343078613281
+   ],
+   [
+    -47.15154266357422
+   ],
+   [
+    -53.255615234375
+   ],
+   [
+    -48.73394012451172
+   ],
+   [
+    -51.45564270019531
+   ],
+   [
+    -53.21726989746094
+   ],
+   [
+    -46.88655090332031
+   ],
+   [
+    -54.28807830810547
+   ],
+   [
+    -52.756561279296875
+   ],
+   [
+    -54.546974182128906
+   ],
+   [
+    -49.609344482421875
+   ],
+   [
+    -48.9891357421875
+   ],
+   [
+    -59.18751525878906
+   ]
+  ]
+ ],
+ "time": 48.30572152137756
+}

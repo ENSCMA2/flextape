@@ -1,0 +1,2076 @@
+{
+ "case_id": 22193,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Patrick Chamoiseau"
+ },
+ "pre": [
+  [
+   "Patrick Chamoiseau is meteorology",
+   "Patrick Chamoiseau is radioactivity",
+   "Patrick Chamoiseau is complex function",
+   "Patrick Chamoiseau is histology",
+   "Patrick Chamoiseau is algebra",
+   "Patrick Chamoiseau is electron",
+   "Patrick Chamoiseau is quantum theory",
+   "Patrick Chamoiseau is applied mathematics",
+   "Patrick Chamoiseau is electricity",
+   "Patrick Chamoiseau is human geography",
+   "Patrick Chamoiseau is crystallography",
+   "Patrick Chamoiseau is chemistry",
+   "Patrick Chamoiseau is Jewish studies",
+   "Patrick Chamoiseau is topology",
+   "Patrick Chamoiseau is mathematical analysis",
+   "Patrick Chamoiseau is computational geometry",
+   "Patrick Chamoiseau is Petrine ministry",
+   "Patrick Chamoiseau is social psychology",
+   "Patrick Chamoiseau is genetics",
+   "Patrick Chamoiseau is informatics",
+   "Patrick Chamoiseau is shipbuilding",
+   "Patrick Chamoiseau is historical sociology",
+   "Patrick Chamoiseau is quantum mysticism",
+   "Patrick Chamoiseau is philosopher",
+   "Patrick Chamoiseau is Internet",
+   "Patrick Chamoiseau is gravity",
+   "Patrick Chamoiseau is theoretical physics",
+   "Patrick Chamoiseau is African studies",
+   "Patrick Chamoiseau is projective geometry",
+   "Patrick Chamoiseau is prose",
+   "Patrick Chamoiseau is momentum",
+   "Patrick Chamoiseau is Cairo Geniza",
+   "Patrick Chamoiseau is stochastic",
+   "Patrick Chamoiseau is algebraic topology",
+   "Patrick Chamoiseau is electrical engineering",
+   "Patrick Chamoiseau is hunting",
+   "Patrick Chamoiseau is evolution",
+   "Patrick Chamoiseau is economic anthropology",
+   "Patrick Chamoiseau is Hebrew",
+   "Patrick Chamoiseau is differential geometry",
+   "Patrick Chamoiseau is engineering",
+   "Patrick Chamoiseau is history of science",
+   "Patrick Chamoiseau is social anthropology",
+   "Patrick Chamoiseau is history",
+   "Patrick Chamoiseau is distribution theory",
+   "Patrick Chamoiseau is classics",
+   "Patrick Chamoiseau is crime novel",
+   "Patrick Chamoiseau is statistics",
+   "Patrick Chamoiseau is experimental physics",
+   "Patrick Chamoiseau is geography",
+   "Patrick Chamoiseau is anthropology",
+   "Patrick Chamoiseau is partial differential equation",
+   "Patrick Chamoiseau is applied physics",
+   "Patrick Chamoiseau is Sanskrit",
+   "Patrick Chamoiseau is a branch of physics",
+   "Patrick Chamoiseau is comparative mythology",
+   "Patrick Chamoiseau is radiation",
+   "Patrick Chamoiseau is aeromechanics",
+   "Patrick Chamoiseau is harmonic analysis",
+   "Patrick Chamoiseau is religion",
+   "Patrick Chamoiseau is civil rights",
+   "Patrick Chamoiseau is physicist",
+   "Patrick Chamoiseau is distribution",
+   "Patrick Chamoiseau is translations from Spanish",
+   "Patrick Chamoiseau is feminism",
+   "Patrick Chamoiseau is number theory",
+   "Patrick Chamoiseau is sociology of organisations",
+   "Patrick Chamoiseau is astronomer",
+   "Patrick Chamoiseau is children's and youth literature",
+   "Patrick Chamoiseau is fairy tale",
+   "Patrick Chamoiseau is economy",
+   "Patrick Chamoiseau is graph theory",
+   "Patrick Chamoiseau is magic",
+   "Patrick Chamoiseau is essay",
+   "Patrick Chamoiseau is theory of relativity",
+   "Patrick Chamoiseau is historical novel",
+   "Patrick Chamoiseau is biological anthropology",
+   "Patrick Chamoiseau is literary theory",
+   "Patrick Chamoiseau is Greek philology",
+   "Patrick Chamoiseau is lyric poetry",
+   "Patrick Chamoiseau is psychology",
+   "Patrick Chamoiseau is quaternion",
+   "Patrick Chamoiseau is rite",
+   "Patrick Chamoiseau is jazz",
+   "Patrick Chamoiseau is heat",
+   "Patrick Chamoiseau is embryology",
+   "Patrick Chamoiseau is social philosophy",
+   "Patrick Chamoiseau is dance choreography",
+   "Patrick Chamoiseau is politics",
+   "Patrick Chamoiseau is nanotechnology",
+   "Patrick Chamoiseau is Afghanistan",
+   "Patrick Chamoiseau is non-Euclidean geometry",
+   "Patrick Chamoiseau is Franciscan spirituality",
+   "Patrick Chamoiseau is detective literature",
+   "Patrick Chamoiseau is mathematician",
+   "Patrick Chamoiseau is String",
+   "Patrick Chamoiseau is classical music",
+   "Patrick Chamoiseau is translations from Occitan",
+   "Patrick Chamoiseau is abstract algebra",
+   "Patrick Chamoiseau is differential calculus",
+   "Patrick Chamoiseau is mythology",
+   "Patrick Chamoiseau is literary translation",
+   "Patrick Chamoiseau is ballistics",
+   "Patrick Chamoiseau is cryptography",
+   "Patrick Chamoiseau is Greek",
+   "Patrick Chamoiseau is logic",
+   "Patrick Chamoiseau is choreography",
+   "Patrick Chamoiseau is theology",
+   "Patrick Chamoiseau is world economy",
+   "Patrick Chamoiseau is magnetism",
+   "Patrick Chamoiseau is algebraic geometry",
+   "Patrick Chamoiseau is theory of differential equations",
+   "Patrick Chamoiseau is physics",
+   "Patrick Chamoiseau is music theory",
+   "Patrick Chamoiseau is economics",
+   "Patrick Chamoiseau is anatomy",
+   "Patrick Chamoiseau is electromagnetic field",
+   "Patrick Chamoiseau is analytic number theory",
+   "Patrick Chamoiseau is mathematical physics",
+   "Patrick Chamoiseau is journalism",
+   "Patrick Chamoiseau is sociology",
+   "Patrick Chamoiseau is literature",
+   "Patrick Chamoiseau is ethnography",
+   "Patrick Chamoiseau is belletristic literature",
+   "Patrick Chamoiseau is convex function",
+   "Patrick Chamoiseau is sociology of religion",
+   "Patrick Chamoiseau is pedagogy",
+   "Patrick Chamoiseau is philosophy",
+   "Patrick Chamoiseau is quantum mechanics",
+   "Patrick Chamoiseau is drama",
+   "Patrick Chamoiseau is dance",
+   "Patrick Chamoiseau is Judaism",
+   "Patrick Chamoiseau is quantum physics",
+   "Patrick Chamoiseau is philosophy of science",
+   "Patrick Chamoiseau is linguistics",
+   "Patrick Chamoiseau is myth",
+   "Patrick Chamoiseau is physiology",
+   "Patrick Chamoiseau is English",
+   "Patrick Chamoiseau is philology",
+   "Patrick Chamoiseau is political philosophy",
+   "Patrick Chamoiseau is mechanical engineering",
+   "Patrick Chamoiseau is ontology",
+   "Patrick Chamoiseau is forestry",
+   "Patrick Chamoiseau is aerodynamics",
+   "Patrick Chamoiseau is Christian Church",
+   "Patrick Chamoiseau is magnetic resonance",
+   "Patrick Chamoiseau is astrophysics",
+   "Patrick Chamoiseau is natural science",
+   "Patrick Chamoiseau is constitutional law",
+   "Patrick Chamoiseau is philosophy of law",
+   "Patrick Chamoiseau is education",
+   "Patrick Chamoiseau is Monte Carlo method",
+   "Patrick Chamoiseau is neurology",
+   "Patrick Chamoiseau is electric field",
+   "Patrick Chamoiseau is Minkowski spacetime",
+   "Patrick Chamoiseau is translations from Arabic language",
+   "Patrick Chamoiseau is Bayesian inference",
+   "Patrick Chamoiseau is translations from Polish",
+   "Patrick Chamoiseau is color photography",
+   "Patrick Chamoiseau is opera",
+   "Patrick Chamoiseau is model theory",
+   "Patrick Chamoiseau is cartography",
+   "Patrick Chamoiseau is nonstandard analysis",
+   "Patrick Chamoiseau is television program",
+   "Patrick Chamoiseau is complex manifold",
+   "Patrick Chamoiseau is poetry",
+   "Patrick Chamoiseau is mathematics",
+   "Patrick Chamoiseau is computer science",
+   "Patrick Chamoiseau is cosmology",
+   "Patrick Chamoiseau is silviculture",
+   "Patrick Chamoiseau is hydrodynamics",
+   "Patrick Chamoiseau is forestry science",
+   "Patrick Chamoiseau is comparative religion",
+   "Patrick Chamoiseau is information technology",
+   "Patrick Chamoiseau is ballet",
+   "Patrick Chamoiseau is English literature",
+   "Patrick Chamoiseau is conducting",
+   "Patrick Chamoiseau is hyperbolic geometry",
+   "Patrick Chamoiseau is biochemistry",
+   "Patrick Chamoiseau is religion and society",
+   "Patrick Chamoiseau is optics",
+   "Patrick Chamoiseau is ethics",
+   "Patrick Chamoiseau is cybernetics",
+   "Patrick Chamoiseau is astronomical observation",
+   "Patrick Chamoiseau is psychophysiology",
+   "Patrick Chamoiseau is culturology",
+   "Patrick Chamoiseau is history of religions",
+   "Patrick Chamoiseau is probability theory",
+   "Patrick Chamoiseau is paleontology",
+   "Patrick Chamoiseau is surgery",
+   "Patrick Chamoiseau is group theory",
+   "Patrick Chamoiseau is natural theology",
+   "Patrick Chamoiseau is astrology",
+   "Patrick Chamoiseau is quantum electrodynamics",
+   "Patrick Chamoiseau is mechanics",
+   "Patrick Chamoiseau is Lie algebra",
+   "Patrick Chamoiseau is trigonometry",
+   "Patrick Chamoiseau is literary activity",
+   "Patrick Chamoiseau is nuclear physics",
+   "Patrick Chamoiseau is translations from English",
+   "Patrick Chamoiseau is medicine",
+   "Patrick Chamoiseau is Jewish philosophy",
+   "Patrick Chamoiseau is mathematical logic",
+   "Patrick Chamoiseau is calculus of variations",
+   "Patrick Chamoiseau is ferromagnetism",
+   "Patrick Chamoiseau is analytic geometry",
+   "Patrick Chamoiseau is art of painting",
+   "Patrick Chamoiseau is functional analysis",
+   "Patrick Chamoiseau is folklore",
+   "Patrick Chamoiseau is study of history",
+   "Patrick Chamoiseau is geometry",
+   "Patrick Chamoiseau is positivism",
+   "Patrick Chamoiseau is geodesy",
+   "Patrick Chamoiseau is astronomy",
+   "Patrick Chamoiseau is magnetic field",
+   "Patrick Chamoiseau is kinetic theory",
+   "Patrick Chamoiseau is celestial mechanics",
+   "Patrick Chamoiseau is analytic philosophy",
+   "Patrick Chamoiseau is ethnology",
+   "Patrick Chamoiseau is history of economic thought",
+   "Patrick Chamoiseau's field of work is meteorology",
+   "Patrick Chamoiseau's field of work is radioactivity",
+   "Patrick Chamoiseau's field of work is complex function",
+   "Patrick Chamoiseau's field of work is histology",
+   "Patrick Chamoiseau's field of work is algebra",
+   "Patrick Chamoiseau's field of work is electron",
+   "Patrick Chamoiseau's field of work is quantum theory",
+   "Patrick Chamoiseau's field of work is applied mathematics",
+   "Patrick Chamoiseau's field of work is electricity",
+   "Patrick Chamoiseau's field of work is human geography",
+   "Patrick Chamoiseau's field of work is crystallography",
+   "Patrick Chamoiseau's field of work is chemistry",
+   "Patrick Chamoiseau's field of work is Jewish studies",
+   "Patrick Chamoiseau's field of work is topology",
+   "Patrick Chamoiseau's field of work is mathematical analysis",
+   "Patrick Chamoiseau's field of work is computational geometry",
+   "Patrick Chamoiseau's field of work is Petrine ministry",
+   "Patrick Chamoiseau's field of work is social psychology",
+   "Patrick Chamoiseau's field of work is genetics",
+   "Patrick Chamoiseau's field of work is informatics",
+   "Patrick Chamoiseau's field of work is shipbuilding",
+   "Patrick Chamoiseau's field of work is historical sociology",
+   "Patrick Chamoiseau's field of work is quantum mysticism",
+   "Patrick Chamoiseau's field of work is philosopher",
+   "Patrick Chamoiseau's field of work is Internet",
+   "Patrick Chamoiseau's field of work is gravity",
+   "Patrick Chamoiseau's field of work is theoretical physics",
+   "Patrick Chamoiseau's field of work is African studies",
+   "Patrick Chamoiseau's field of work is projective geometry",
+   "Patrick Chamoiseau's field of work is prose",
+   "Patrick Chamoiseau's field of work is momentum",
+   "Patrick Chamoiseau's field of work is Cairo Geniza",
+   "Patrick Chamoiseau's field of work is stochastic",
+   "Patrick Chamoiseau's field of work is algebraic topology",
+   "Patrick Chamoiseau's field of work is electrical engineering",
+   "Patrick Chamoiseau's field of work is hunting",
+   "Patrick Chamoiseau's field of work is evolution",
+   "Patrick Chamoiseau's field of work is economic anthropology",
+   "Patrick Chamoiseau's field of work is Hebrew",
+   "Patrick Chamoiseau's field of work is differential geometry",
+   "Patrick Chamoiseau's field of work is engineering",
+   "Patrick Chamoiseau's field of work is history of science",
+   "Patrick Chamoiseau's field of work is social anthropology",
+   "Patrick Chamoiseau's field of work is history",
+   "Patrick Chamoiseau's field of work is distribution theory",
+   "Patrick Chamoiseau's field of work is classics",
+   "Patrick Chamoiseau's field of work is crime novel",
+   "Patrick Chamoiseau's field of work is statistics",
+   "Patrick Chamoiseau's field of work is experimental physics",
+   "Patrick Chamoiseau's field of work is geography",
+   "Patrick Chamoiseau's field of work is anthropology",
+   "Patrick Chamoiseau's field of work is partial differential equation",
+   "Patrick Chamoiseau's field of work is applied physics",
+   "Patrick Chamoiseau's field of work is Sanskrit",
+   "Patrick Chamoiseau's field of work is a branch of physics",
+   "Patrick Chamoiseau's field of work is comparative mythology",
+   "Patrick Chamoiseau's field of work is radiation",
+   "Patrick Chamoiseau's field of work is aeromechanics",
+   "Patrick Chamoiseau's field of work is harmonic analysis",
+   "Patrick Chamoiseau's field of work is religion",
+   "Patrick Chamoiseau's field of work is civil rights",
+   "Patrick Chamoiseau's field of work is physicist",
+   "Patrick Chamoiseau's field of work is distribution",
+   "Patrick Chamoiseau's field of work is translations from Spanish",
+   "Patrick Chamoiseau's field of work is feminism",
+   "Patrick Chamoiseau's field of work is number theory",
+   "Patrick Chamoiseau's field of work is sociology of organisations",
+   "Patrick Chamoiseau's field of work is astronomer",
+   "Patrick Chamoiseau's field of work is children's and youth literature",
+   "Patrick Chamoiseau's field of work is fairy tale",
+   "Patrick Chamoiseau's field of work is economy",
+   "Patrick Chamoiseau's field of work is graph theory",
+   "Patrick Chamoiseau's field of work is magic",
+   "Patrick Chamoiseau's field of work is essay",
+   "Patrick Chamoiseau's field of work is theory of relativity",
+   "Patrick Chamoiseau's field of work is historical novel",
+   "Patrick Chamoiseau's field of work is biological anthropology",
+   "Patrick Chamoiseau's field of work is literary theory",
+   "Patrick Chamoiseau's field of work is Greek philology",
+   "Patrick Chamoiseau's field of work is lyric poetry",
+   "Patrick Chamoiseau's field of work is psychology",
+   "Patrick Chamoiseau's field of work is quaternion",
+   "Patrick Chamoiseau's field of work is rite",
+   "Patrick Chamoiseau's field of work is jazz",
+   "Patrick Chamoiseau's field of work is heat",
+   "Patrick Chamoiseau's field of work is embryology",
+   "Patrick Chamoiseau's field of work is social philosophy",
+   "Patrick Chamoiseau's field of work is dance choreography",
+   "Patrick Chamoiseau's field of work is politics",
+   "Patrick Chamoiseau's field of work is nanotechnology",
+   "Patrick Chamoiseau's field of work is Afghanistan",
+   "Patrick Chamoiseau's field of work is non-Euclidean geometry",
+   "Patrick Chamoiseau's field of work is Franciscan spirituality",
+   "Patrick Chamoiseau's field of work is detective literature",
+   "Patrick Chamoiseau's field of work is mathematician",
+   "Patrick Chamoiseau's field of work is String",
+   "Patrick Chamoiseau's field of work is classical music",
+   "Patrick Chamoiseau's field of work is translations from Occitan",
+   "Patrick Chamoiseau's field of work is abstract algebra",
+   "Patrick Chamoiseau's field of work is differential calculus",
+   "Patrick Chamoiseau's field of work is mythology",
+   "Patrick Chamoiseau's field of work is literary translation",
+   "Patrick Chamoiseau's field of work is ballistics",
+   "Patrick Chamoiseau's field of work is cryptography",
+   "Patrick Chamoiseau's field of work is Greek",
+   "Patrick Chamoiseau's field of work is logic",
+   "Patrick Chamoiseau's field of work is choreography",
+   "Patrick Chamoiseau's field of work is theology",
+   "Patrick Chamoiseau's field of work is world economy",
+   "Patrick Chamoiseau's field of work is magnetism",
+   "Patrick Chamoiseau's field of work is algebraic geometry",
+   "Patrick Chamoiseau's field of work is theory of differential equations",
+   "Patrick Chamoiseau's field of work is physics",
+   "Patrick Chamoiseau's field of work is music theory",
+   "Patrick Chamoiseau's field of work is economics",
+   "Patrick Chamoiseau's field of work is anatomy",
+   "Patrick Chamoiseau's field of work is electromagnetic field",
+   "Patrick Chamoiseau's field of work is analytic number theory",
+   "Patrick Chamoiseau's field of work is mathematical physics",
+   "Patrick Chamoiseau's field of work is journalism",
+   "Patrick Chamoiseau's field of work is sociology",
+   "Patrick Chamoiseau's field of work is literature",
+   "Patrick Chamoiseau's field of work is ethnography",
+   "Patrick Chamoiseau's field of work is belletristic literature",
+   "Patrick Chamoiseau's field of work is convex function",
+   "Patrick Chamoiseau's field of work is sociology of religion",
+   "Patrick Chamoiseau's field of work is pedagogy",
+   "Patrick Chamoiseau's field of work is philosophy",
+   "Patrick Chamoiseau's field of work is quantum mechanics",
+   "Patrick Chamoiseau's field of work is drama",
+   "Patrick Chamoiseau's field of work is dance",
+   "Patrick Chamoiseau's field of work is Judaism",
+   "Patrick Chamoiseau's field of work is quantum physics",
+   "Patrick Chamoiseau's field of work is philosophy of science",
+   "Patrick Chamoiseau's field of work is linguistics",
+   "Patrick Chamoiseau's field of work is myth",
+   "Patrick Chamoiseau's field of work is physiology",
+   "Patrick Chamoiseau's field of work is English",
+   "Patrick Chamoiseau's field of work is philology",
+   "Patrick Chamoiseau's field of work is political philosophy",
+   "Patrick Chamoiseau's field of work is mechanical engineering",
+   "Patrick Chamoiseau's field of work is ontology",
+   "Patrick Chamoiseau's field of work is forestry",
+   "Patrick Chamoiseau's field of work is aerodynamics",
+   "Patrick Chamoiseau's field of work is Christian Church",
+   "Patrick Chamoiseau's field of work is magnetic resonance",
+   "Patrick Chamoiseau's field of work is astrophysics",
+   "Patrick Chamoiseau's field of work is natural science",
+   "Patrick Chamoiseau's field of work is constitutional law",
+   "Patrick Chamoiseau's field of work is philosophy of law",
+   "Patrick Chamoiseau's field of work is education",
+   "Patrick Chamoiseau's field of work is Monte Carlo method",
+   "Patrick Chamoiseau's field of work is neurology",
+   "Patrick Chamoiseau's field of work is electric field",
+   "Patrick Chamoiseau's field of work is Minkowski spacetime",
+   "Patrick Chamoiseau's field of work is translations from Arabic language",
+   "Patrick Chamoiseau's field of work is Bayesian inference",
+   "Patrick Chamoiseau's field of work is translations from Polish",
+   "Patrick Chamoiseau's field of work is color photography",
+   "Patrick Chamoiseau's field of work is opera",
+   "Patrick Chamoiseau's field of work is model theory",
+   "Patrick Chamoiseau's field of work is cartography",
+   "Patrick Chamoiseau's field of work is nonstandard analysis",
+   "Patrick Chamoiseau's field of work is television program",
+   "Patrick Chamoiseau's field of work is complex manifold",
+   "Patrick Chamoiseau's field of work is poetry",
+   "Patrick Chamoiseau's field of work is mathematics",
+   "Patrick Chamoiseau's field of work is computer science",
+   "Patrick Chamoiseau's field of work is cosmology",
+   "Patrick Chamoiseau's field of work is silviculture",
+   "Patrick Chamoiseau's field of work is hydrodynamics",
+   "Patrick Chamoiseau's field of work is forestry science",
+   "Patrick Chamoiseau's field of work is comparative religion",
+   "Patrick Chamoiseau's field of work is information technology",
+   "Patrick Chamoiseau's field of work is ballet",
+   "Patrick Chamoiseau's field of work is English literature",
+   "Patrick Chamoiseau's field of work is conducting",
+   "Patrick Chamoiseau's field of work is hyperbolic geometry",
+   "Patrick Chamoiseau's field of work is biochemistry",
+   "Patrick Chamoiseau's field of work is religion and society",
+   "Patrick Chamoiseau's field of work is optics",
+   "Patrick Chamoiseau's field of work is ethics",
+   "Patrick Chamoiseau's field of work is cybernetics",
+   "Patrick Chamoiseau's field of work is astronomical observation",
+   "Patrick Chamoiseau's field of work is psychophysiology",
+   "Patrick Chamoiseau's field of work is culturology",
+   "Patrick Chamoiseau's field of work is history of religions",
+   "Patrick Chamoiseau's field of work is probability theory",
+   "Patrick Chamoiseau's field of work is paleontology",
+   "Patrick Chamoiseau's field of work is surgery",
+   "Patrick Chamoiseau's field of work is group theory",
+   "Patrick Chamoiseau's field of work is natural theology",
+   "Patrick Chamoiseau's field of work is astrology",
+   "Patrick Chamoiseau's field of work is quantum electrodynamics",
+   "Patrick Chamoiseau's field of work is mechanics",
+   "Patrick Chamoiseau's field of work is Lie algebra",
+   "Patrick Chamoiseau's field of work is trigonometry",
+   "Patrick Chamoiseau's field of work is literary activity",
+   "Patrick Chamoiseau's field of work is nuclear physics",
+   "Patrick Chamoiseau's field of work is translations from English",
+   "Patrick Chamoiseau's field of work is medicine",
+   "Patrick Chamoiseau's field of work is Jewish philosophy",
+   "Patrick Chamoiseau's field of work is mathematical logic",
+   "Patrick Chamoiseau's field of work is calculus of variations",
+   "Patrick Chamoiseau's field of work is ferromagnetism",
+   "Patrick Chamoiseau's field of work is analytic geometry",
+   "Patrick Chamoiseau's field of work is art of painting",
+   "Patrick Chamoiseau's field of work is functional analysis",
+   "Patrick Chamoiseau's field of work is folklore",
+   "Patrick Chamoiseau's field of work is study of history",
+   "Patrick Chamoiseau's field of work is geometry",
+   "Patrick Chamoiseau's field of work is positivism",
+   "Patrick Chamoiseau's field of work is geodesy",
+   "Patrick Chamoiseau's field of work is astronomy",
+   "Patrick Chamoiseau's field of work is magnetic field",
+   "Patrick Chamoiseau's field of work is kinetic theory",
+   "Patrick Chamoiseau's field of work is celestial mechanics",
+   "Patrick Chamoiseau's field of work is analytic philosophy",
+   "Patrick Chamoiseau's field of work is ethnology",
+   "Patrick Chamoiseau's field of work is history of economic thought"
+  ],
+  [
+   [
+    -35.851112365722656
+   ],
+   [
+    -38.3929557800293
+   ],
+   [
+    -44.41511917114258
+   ],
+   [
+    -36.40879821777344
+   ],
+   [
+    -34.21321105957031
+   ],
+   [
+    -34.034461975097656
+   ],
+   [
+    -37.86457061767578
+   ],
+   [
+    -35.14495849609375
+   ],
+   [
+    -34.35573196411133
+   ],
+   [
+    -35.050506591796875
+   ],
+   [
+    -37.06061553955078
+   ],
+   [
+    -33.64084243774414
+   ],
+   [
+    -41.724761962890625
+   ],
+   [
+    -38.411712646484375
+   ],
+   [
+    -38.467777252197266
+   ],
+   [
+    -39.300575256347656
+   ],
+   [
+    -52.362361907958984
+   ],
+   [
+    -35.636619567871094
+   ],
+   [
+    -35.66624069213867
+   ],
+   [
+    -34.670021057128906
+   ],
+   [
+    -38.673011779785156
+   ],
+   [
+    -39.231300354003906
+   ],
+   [
+    -44.893646240234375
+   ],
+   [
+    -28.963632583618164
+   ],
+   [
+    -30.876726150512695
+   ],
+   [
+    -34.94913101196289
+   ],
+   [
+    -33.0540885925293
+   ],
+   [
+    -35.094818115234375
+   ],
+   [
+    -39.966339111328125
+   ],
+   [
+    -31.87095069885254
+   ],
+   [
+    -34.480594635009766
+   ],
+   [
+    -46.36009979248047
+   ],
+   [
+    -37.644195556640625
+   ],
+   [
+    -40.455806732177734
+   ],
+   [
+    -35.91309356689453
+   ],
+   [
+    -29.531076431274414
+   ],
+   [
+    -32.86777114868164
+   ],
+   [
+    -40.029232025146484
+   ],
+   [
+    -33.6661491394043
+   ],
+   [
+    -38.143943786621094
+   ],
+   [
+    -31.69196891784668
+   ],
+   [
+    -39.02485656738281
+   ],
+   [
+    -34.05742263793945
+   ],
+   [
+    -29.875661849975586
+   ],
+   [
+    -42.99718475341797
+   ],
+   [
+    -34.20370101928711
+   ],
+   [
+    -37.85838317871094
+   ],
+   [
+    -33.4644889831543
+   ],
+   [
+    -37.9957160949707
+   ],
+   [
+    -32.44129943847656
+   ],
+   [
+    -30.53569221496582
+   ],
+   [
+    -47.132789611816406
+   ],
+   [
+    -36.61140823364258
+   ],
+   [
+    -33.23148727416992
+   ],
+   [
+    -42.29751968383789
+   ],
+   [
+    -38.10919189453125
+   ],
+   [
+    -34.0688362121582
+   ],
+   [
+    -38.42988586425781
+   ],
+   [
+    -40.29680252075195
+   ],
+   [
+    -32.87372970581055
+   ],
+   [
+    -32.607269287109375
+   ],
+   [
+    -31.0520076751709
+   ],
+   [
+    -33.77218246459961
+   ],
+   [
+    -44.97948455810547
+   ],
+   [
+    -34.646018981933594
+   ],
+   [
+    -40.36064910888672
+   ],
+   [
+    -46.0224723815918
+   ],
+   [
+    -31.808908462524414
+   ],
+   [
+    -42.38343048095703
+   ],
+   [
+    -36.253604888916016
+   ],
+   [
+    -33.34511947631836
+   ],
+   [
+    -36.99964904785156
+   ],
+   [
+    -30.13646125793457
+   ],
+   [
+    -30.577985763549805
+   ],
+   [
+    -40.98571014404297
+   ],
+   [
+    -35.30851364135742
+   ],
+   [
+    -36.587867736816406
+   ],
+   [
+    -36.64482116699219
+   ],
+   [
+    -44.807342529296875
+   ],
+   [
+    -37.432186126708984
+   ],
+   [
+    -32.53181838989258
+   ],
+   [
+    -41.00065231323242
+   ],
+   [
+    -32.74031448364258
+   ],
+   [
+    -29.314741134643555
+   ],
+   [
+    -32.635311126708984
+   ],
+   [
+    -36.58976745605469
+   ],
+   [
+    -37.87578582763672
+   ],
+   [
+    -40.79155731201172
+   ],
+   [
+    -31.455331802368164
+   ],
+   [
+    -36.054813385009766
+   ],
+   [
+    -33.01693344116211
+   ],
+   [
+    -39.80465316772461
+   ],
+   [
+    -43.55290985107422
+   ],
+   [
+    -42.908321380615234
+   ],
+   [
+    -30.5720272064209
+   ],
+   [
+    -33.68684005737305
+   ],
+   [
+    -33.07538986206055
+   ],
+   [
+    -45.2316780090332
+   ],
+   [
+    -39.70682144165039
+   ],
+   [
+    -39.01740264892578
+   ],
+   [
+    -33.808841705322266
+   ],
+   [
+    -36.75992965698242
+   ],
+   [
+    -38.169776916503906
+   ],
+   [
+    -34.75361251831055
+   ],
+   [
+    -31.467449188232422
+   ],
+   [
+    -32.986812591552734
+   ],
+   [
+    -40.28649139404297
+   ],
+   [
+    -33.0035514831543
+   ],
+   [
+    -40.62377166748047
+   ],
+   [
+    -38.78872299194336
+   ],
+   [
+    -37.88191223144531
+   ],
+   [
+    -46.59972381591797
+   ],
+   [
+    -31.946815490722656
+   ],
+   [
+    -35.59273910522461
+   ],
+   [
+    -32.09877395629883
+   ],
+   [
+    -34.54747772216797
+   ],
+   [
+    -41.21883010864258
+   ],
+   [
+    -38.05042266845703
+   ],
+   [
+    -35.832645416259766
+   ],
+   [
+    -31.513050079345703
+   ],
+   [
+    -30.761526107788086
+   ],
+   [
+    -30.528968811035156
+   ],
+   [
+    -32.2724494934082
+   ],
+   [
+    -44.8320426940918
+   ],
+   [
+    -41.23900604248047
+   ],
+   [
+    -37.54827880859375
+   ],
+   [
+    -36.08741760253906
+   ],
+   [
+    -30.307945251464844
+   ],
+   [
+    -36.68782043457031
+   ],
+   [
+    -32.7988395690918
+   ],
+   [
+    -31.03284454345703
+   ],
+   [
+    -35.40266799926758
+   ],
+   [
+    -34.98060989379883
+   ],
+   [
+    -36.7438850402832
+   ],
+   [
+    -31.70512580871582
+   ],
+   [
+    -31.60848045349121
+   ],
+   [
+    -35.36547088623047
+   ],
+   [
+    -30.165315628051758
+   ],
+   [
+    -35.65361022949219
+   ],
+   [
+    -36.0062255859375
+   ],
+   [
+    -36.22346115112305
+   ],
+   [
+    -34.45832061767578
+   ],
+   [
+    -32.797611236572266
+   ],
+   [
+    -37.30480194091797
+   ],
+   [
+    -38.87596130371094
+   ],
+   [
+    -45.63309860229492
+   ],
+   [
+    -34.77131271362305
+   ],
+   [
+    -35.73305130004883
+   ],
+   [
+    -34.35429382324219
+   ],
+   [
+    -38.15424346923828
+   ],
+   [
+    -30.14035987854004
+   ],
+   [
+    -48.73308563232422
+   ],
+   [
+    -33.36542510986328
+   ],
+   [
+    -41.35976791381836
+   ],
+   [
+    -46.974483489990234
+   ],
+   [
+    -52.722259521484375
+   ],
+   [
+    -41.9902458190918
+   ],
+   [
+    -47.431785583496094
+   ],
+   [
+    -39.62535858154297
+   ],
+   [
+    -32.38509750366211
+   ],
+   [
+    -41.11277770996094
+   ],
+   [
+    -33.593162536621094
+   ],
+   [
+    -43.482421875
+   ],
+   [
+    -39.1924934387207
+   ],
+   [
+    -43.03398895263672
+   ],
+   [
+    -29.610416412353516
+   ],
+   [
+    -32.294952392578125
+   ],
+   [
+    -31.245773315429688
+   ],
+   [
+    -34.97904968261719
+   ],
+   [
+    -36.527076721191406
+   ],
+   [
+    -38.53287124633789
+   ],
+   [
+    -38.06501007080078
+   ],
+   [
+    -36.32476043701172
+   ],
+   [
+    -34.634063720703125
+   ],
+   [
+    -32.77101516723633
+   ],
+   [
+    -34.256011962890625
+   ],
+   [
+    -27.833463668823242
+   ],
+   [
+    -47.3564453125
+   ],
+   [
+    -35.07868194580078
+   ],
+   [
+    -39.69466781616211
+   ],
+   [
+    -36.383384704589844
+   ],
+   [
+    -34.0706901550293
+   ],
+   [
+    -37.99705505371094
+   ],
+   [
+    -42.184139251708984
+   ],
+   [
+    -39.828651428222656
+   ],
+   [
+    -39.83152770996094
+   ],
+   [
+    -42.439796447753906
+   ],
+   [
+    -37.09470748901367
+   ],
+   [
+    -36.01289749145508
+   ],
+   [
+    -33.96280288696289
+   ],
+   [
+    -39.52407455444336
+   ],
+   [
+    -41.19012451171875
+   ],
+   [
+    -35.163753509521484
+   ],
+   [
+    -40.27425765991211
+   ],
+   [
+    -36.98483657836914
+   ],
+   [
+    -41.35768508911133
+   ],
+   [
+    -38.21599578857422
+   ],
+   [
+    -40.63960266113281
+   ],
+   [
+    -36.08759689331055
+   ],
+   [
+    -43.2783317565918
+   ],
+   [
+    -31.72620391845703
+   ],
+   [
+    -40.72627258300781
+   ],
+   [
+    -36.868614196777344
+   ],
+   [
+    -44.61172103881836
+   ],
+   [
+    -41.66536331176758
+   ],
+   [
+    -37.92210388183594
+   ],
+   [
+    -43.031349182128906
+   ],
+   [
+    -40.44395446777344
+   ],
+   [
+    -33.000484466552734
+   ],
+   [
+    -39.19849395751953
+   ],
+   [
+    -34.82509231567383
+   ],
+   [
+    -38.19691467285156
+   ],
+   [
+    -38.085113525390625
+   ],
+   [
+    -33.51198959350586
+   ],
+   [
+    -42.503143310546875
+   ],
+   [
+    -39.86468505859375
+   ],
+   [
+    -42.27851867675781
+   ],
+   [
+    -35.77780532836914
+   ],
+   [
+    -31.55373764038086
+   ],
+   [
+    -44.13880920410156
+   ],
+   [
+    -47.166072845458984
+   ],
+   [
+    -49.93558883666992
+   ],
+   [
+    -56.251522064208984
+   ],
+   [
+    -48.14976501464844
+   ],
+   [
+    -47.03453826904297
+   ],
+   [
+    -47.986572265625
+   ],
+   [
+    -48.16120147705078
+   ],
+   [
+    -47.94118118286133
+   ],
+   [
+    -47.42597198486328
+   ],
+   [
+    -45.868431091308594
+   ],
+   [
+    -46.61566925048828
+   ],
+   [
+    -44.85894775390625
+   ],
+   [
+    -51.29407501220703
+   ],
+   [
+    -46.413330078125
+   ],
+   [
+    -49.36247253417969
+   ],
+   [
+    -51.051124572753906
+   ],
+   [
+    -63.00524139404297
+   ],
+   [
+    -46.649658203125
+   ],
+   [
+    -45.6103515625
+   ],
+   [
+    -45.90354919433594
+   ],
+   [
+    -50.73914337158203
+   ],
+   [
+    -48.2933349609375
+   ],
+   [
+    -54.6768913269043
+   ],
+   [
+    -47.96818161010742
+   ],
+   [
+    -46.33421325683594
+   ],
+   [
+    -47.95668029785156
+   ],
+   [
+    -46.92024230957031
+   ],
+   [
+    -46.56864929199219
+   ],
+   [
+    -52.96823501586914
+   ],
+   [
+    -45.17139434814453
+   ],
+   [
+    -50.80199432373047
+   ],
+   [
+    -59.93958282470703
+   ],
+   [
+    -47.98398208618164
+   ],
+   [
+    -49.4271240234375
+   ],
+   [
+    -47.71630096435547
+   ],
+   [
+    -44.54889678955078
+   ],
+   [
+    -45.892127990722656
+   ],
+   [
+    -46.74622344970703
+   ],
+   [
+    -49.45539855957031
+   ],
+   [
+    -49.656211853027344
+   ],
+   [
+    -46.42822265625
+   ],
+   [
+    -48.26488494873047
+   ],
+   [
+    -44.32726287841797
+   ],
+   [
+    -41.702117919921875
+   ],
+   [
+    -50.89697265625
+   ],
+   [
+    -47.65364074707031
+   ],
+   [
+    -52.396148681640625
+   ],
+   [
+    -47.486778259277344
+   ],
+   [
+    -48.75339126586914
+   ],
+   [
+    -44.88604736328125
+   ],
+   [
+    -41.33780288696289
+   ],
+   [
+    -55.36345672607422
+   ],
+   [
+    -50.14606857299805
+   ],
+   [
+    -46.521949768066406
+   ],
+   [
+    -52.584957122802734
+   ],
+   [
+    -47.166770935058594
+   ],
+   [
+    -48.17457580566406
+   ],
+   [
+    -53.69603729248047
+   ],
+   [
+    -50.398590087890625
+   ],
+   [
+    -45.261863708496094
+   ],
+   [
+    -47.26893615722656
+   ],
+   [
+    -51.557373046875
+   ],
+   [
+    -46.581504821777344
+   ],
+   [
+    -53.09318923950195
+   ],
+   [
+    -45.762428283691406
+   ],
+   [
+    -47.23194885253906
+   ],
+   [
+    -54.34830093383789
+   ],
+   [
+    -51.129844665527344
+   ],
+   [
+    -50.226036071777344
+   ],
+   [
+    -49.47085952758789
+   ],
+   [
+    -46.55720520019531
+   ],
+   [
+    -46.71664047241211
+   ],
+   [
+    -43.671119689941406
+   ],
+   [
+    -45.702796936035156
+   ],
+   [
+    -54.24190902709961
+   ],
+   [
+    -49.570098876953125
+   ],
+   [
+    -46.024688720703125
+   ],
+   [
+    -44.068359375
+   ],
+   [
+    -52.543338775634766
+   ],
+   [
+    -46.91923522949219
+   ],
+   [
+    -44.5279541015625
+   ],
+   [
+    -52.96366500854492
+   ],
+   [
+    -48.452117919921875
+   ],
+   [
+    -44.49895477294922
+   ],
+   [
+    -47.09387969970703
+   ],
+   [
+    -48.447879791259766
+   ],
+   [
+    -47.42524337768555
+   ],
+   [
+    -50.621280670166016
+   ],
+   [
+    -42.775733947753906
+   ],
+   [
+    -46.77089309692383
+   ],
+   [
+    -47.274635314941406
+   ],
+   [
+    -51.99903106689453
+   ],
+   [
+    -54.21223449707031
+   ],
+   [
+    -51.17487335205078
+   ],
+   [
+    -51.24439239501953
+   ],
+   [
+    -49.44810104370117
+   ],
+   [
+    -45.56056213378906
+   ],
+   [
+    -55.335899353027344
+   ],
+   [
+    -50.344993591308594
+   ],
+   [
+    -50.62882995605469
+   ],
+   [
+    -44.14561462402344
+   ],
+   [
+    -44.36559295654297
+   ],
+   [
+    -50.23152160644531
+   ],
+   [
+    -46.26161193847656
+   ],
+   [
+    -46.68541717529297
+   ],
+   [
+    -46.35014343261719
+   ],
+   [
+    -47.88665008544922
+   ],
+   [
+    -45.316402435302734
+   ],
+   [
+    -51.534854888916016
+   ],
+   [
+    -47.94384765625
+   ],
+   [
+    -48.278099060058594
+   ],
+   [
+    -58.40810012817383
+   ],
+   [
+    -44.77269744873047
+   ],
+   [
+    -46.021995544433594
+   ],
+   [
+    -44.44213104248047
+   ],
+   [
+    -46.59266662597656
+   ],
+   [
+    -52.328819274902344
+   ],
+   [
+    -53.785194396972656
+   ],
+   [
+    -48.7460823059082
+   ],
+   [
+    -44.154632568359375
+   ],
+   [
+    -43.398902893066406
+   ],
+   [
+    -41.147254943847656
+   ],
+   [
+    -42.435791015625
+   ],
+   [
+    -54.13634490966797
+   ],
+   [
+    -53.926475524902344
+   ],
+   [
+    -48.2960090637207
+   ],
+   [
+    -45.48651885986328
+   ],
+   [
+    -41.46376037597656
+   ],
+   [
+    -46.7081298828125
+   ],
+   [
+    -44.905635833740234
+   ],
+   [
+    -43.418182373046875
+   ],
+   [
+    -49.622989654541016
+   ],
+   [
+    -46.21198272705078
+   ],
+   [
+    -45.38056945800781
+   ],
+   [
+    -41.6953125
+   ],
+   [
+    -43.98161315917969
+   ],
+   [
+    -47.169166564941406
+   ],
+   [
+    -44.75585174560547
+   ],
+   [
+    -45.43653106689453
+   ],
+   [
+    -44.36001968383789
+   ],
+   [
+    -48.20245361328125
+   ],
+   [
+    -44.43263244628906
+   ],
+   [
+    -45.38886260986328
+   ],
+   [
+    -50.67521667480469
+   ],
+   [
+    -54.52470779418945
+   ],
+   [
+    -49.20293426513672
+   ],
+   [
+    -46.371925354003906
+   ],
+   [
+    -46.07011795043945
+   ],
+   [
+    -47.650428771972656
+   ],
+   [
+    -46.777000427246094
+   ],
+   [
+    -42.465736389160156
+   ],
+   [
+    -62.426109313964844
+   ],
+   [
+    -46.73491668701172
+   ],
+   [
+    -52.24182891845703
+   ],
+   [
+    -52.076568603515625
+   ],
+   [
+    -61.139404296875
+   ],
+   [
+    -50.074493408203125
+   ],
+   [
+    -55.525882720947266
+   ],
+   [
+    -49.03822326660156
+   ],
+   [
+    -45.563072204589844
+   ],
+   [
+    -52.826171875
+   ],
+   [
+    -45.058509826660156
+   ],
+   [
+    -54.516937255859375
+   ],
+   [
+    -53.4235725402832
+   ],
+   [
+    -55.13703918457031
+   ],
+   [
+    -41.5814323425293
+   ],
+   [
+    -43.87742614746094
+   ],
+   [
+    -46.59746551513672
+   ],
+   [
+    -45.18389892578125
+   ],
+   [
+    -49.43336486816406
+   ],
+   [
+    -50.90091323852539
+   ],
+   [
+    -51.67140197753906
+   ],
+   [
+    -47.24828338623047
+   ],
+   [
+    -46.43437194824219
+   ],
+   [
+    -46.841087341308594
+   ],
+   [
+    -46.956520080566406
+   ],
+   [
+    -46.35828399658203
+   ],
+   [
+    -50.05089569091797
+   ],
+   [
+    -46.389163970947266
+   ],
+   [
+    -51.50757598876953
+   ],
+   [
+    -47.56952667236328
+   ],
+   [
+    -44.17009353637695
+   ],
+   [
+    -47.00006103515625
+   ],
+   [
+    -51.87512969970703
+   ],
+   [
+    -50.31634521484375
+   ],
+   [
+    -49.12512969970703
+   ],
+   [
+    -50.10438919067383
+   ],
+   [
+    -49.04521560668945
+   ],
+   [
+    -47.61553192138672
+   ],
+   [
+    -47.19212341308594
+   ],
+   [
+    -50.03190612792969
+   ],
+   [
+    -49.42610168457031
+   ],
+   [
+    -45.398040771484375
+   ],
+   [
+    -51.528709411621094
+   ],
+   [
+    -48.282020568847656
+   ],
+   [
+    -56.671932220458984
+   ],
+   [
+    -49.5952262878418
+   ],
+   [
+    -51.039119720458984
+   ],
+   [
+    -47.405086517333984
+   ],
+   [
+    -51.092716217041016
+   ],
+   [
+    -43.08500671386719
+   ],
+   [
+    -51.5511589050293
+   ],
+   [
+    -46.63134002685547
+   ],
+   [
+    -53.79922866821289
+   ],
+   [
+    -52.716400146484375
+   ],
+   [
+    -50.269222259521484
+   ],
+   [
+    -52.26435089111328
+   ],
+   [
+    -49.389564514160156
+   ],
+   [
+    -44.07402038574219
+   ],
+   [
+    -51.693485260009766
+   ],
+   [
+    -47.21172332763672
+   ],
+   [
+    -49.96611022949219
+   ],
+   [
+    -50.16972351074219
+   ],
+   [
+    -45.23308563232422
+   ],
+   [
+    -51.61531066894531
+   ],
+   [
+    -51.8568229675293
+   ],
+   [
+    -49.37506866455078
+   ],
+   [
+    -46.996238708496094
+   ],
+   [
+    -41.850379943847656
+   ],
+   [
+    -53.09775924682617
+   ]
+  ]
+ ],
+ "time": 6612.235356807709
+}

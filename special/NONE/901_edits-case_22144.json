@@ -1,0 +1,2076 @@
+{
+ "case_id": 22144,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Sean M. Carroll"
+ },
+ "pre": [
+  [
+   "Sean M. Carroll's field of work is meteorology",
+   "Sean M. Carroll's field of work is radioactivity",
+   "Sean M. Carroll's field of work is complex function",
+   "Sean M. Carroll's field of work is histology",
+   "Sean M. Carroll's field of work is algebra",
+   "Sean M. Carroll's field of work is electron",
+   "Sean M. Carroll's field of work is quantum theory",
+   "Sean M. Carroll's field of work is applied mathematics",
+   "Sean M. Carroll's field of work is electricity",
+   "Sean M. Carroll's field of work is human geography",
+   "Sean M. Carroll's field of work is crystallography",
+   "Sean M. Carroll's field of work is chemistry",
+   "Sean M. Carroll's field of work is Jewish studies",
+   "Sean M. Carroll's field of work is topology",
+   "Sean M. Carroll's field of work is mathematical analysis",
+   "Sean M. Carroll's field of work is computational geometry",
+   "Sean M. Carroll's field of work is Petrine ministry",
+   "Sean M. Carroll's field of work is social psychology",
+   "Sean M. Carroll's field of work is genetics",
+   "Sean M. Carroll's field of work is informatics",
+   "Sean M. Carroll's field of work is shipbuilding",
+   "Sean M. Carroll's field of work is historical sociology",
+   "Sean M. Carroll's field of work is quantum mysticism",
+   "Sean M. Carroll's field of work is philosopher",
+   "Sean M. Carroll's field of work is Internet",
+   "Sean M. Carroll's field of work is gravity",
+   "Sean M. Carroll's field of work is theoretical physics",
+   "Sean M. Carroll's field of work is African studies",
+   "Sean M. Carroll's field of work is projective geometry",
+   "Sean M. Carroll's field of work is prose",
+   "Sean M. Carroll's field of work is momentum",
+   "Sean M. Carroll's field of work is Cairo Geniza",
+   "Sean M. Carroll's field of work is stochastic",
+   "Sean M. Carroll's field of work is algebraic topology",
+   "Sean M. Carroll's field of work is electrical engineering",
+   "Sean M. Carroll's field of work is hunting",
+   "Sean M. Carroll's field of work is evolution",
+   "Sean M. Carroll's field of work is economic anthropology",
+   "Sean M. Carroll's field of work is Hebrew",
+   "Sean M. Carroll's field of work is differential geometry",
+   "Sean M. Carroll's field of work is engineering",
+   "Sean M. Carroll's field of work is history of science",
+   "Sean M. Carroll's field of work is social anthropology",
+   "Sean M. Carroll's field of work is history",
+   "Sean M. Carroll's field of work is distribution theory",
+   "Sean M. Carroll's field of work is classics",
+   "Sean M. Carroll's field of work is crime novel",
+   "Sean M. Carroll's field of work is statistics",
+   "Sean M. Carroll's field of work is experimental physics",
+   "Sean M. Carroll's field of work is geography",
+   "Sean M. Carroll's field of work is anthropology",
+   "Sean M. Carroll's field of work is partial differential equation",
+   "Sean M. Carroll's field of work is applied physics",
+   "Sean M. Carroll's field of work is Sanskrit",
+   "Sean M. Carroll's field of work is a branch of physics",
+   "Sean M. Carroll's field of work is comparative mythology",
+   "Sean M. Carroll's field of work is radiation",
+   "Sean M. Carroll's field of work is aeromechanics",
+   "Sean M. Carroll's field of work is harmonic analysis",
+   "Sean M. Carroll's field of work is religion",
+   "Sean M. Carroll's field of work is civil rights",
+   "Sean M. Carroll's field of work is physicist",
+   "Sean M. Carroll's field of work is distribution",
+   "Sean M. Carroll's field of work is translations from Spanish",
+   "Sean M. Carroll's field of work is feminism",
+   "Sean M. Carroll's field of work is number theory",
+   "Sean M. Carroll's field of work is sociology of organisations",
+   "Sean M. Carroll's field of work is astronomer",
+   "Sean M. Carroll's field of work is children's and youth literature",
+   "Sean M. Carroll's field of work is fairy tale",
+   "Sean M. Carroll's field of work is economy",
+   "Sean M. Carroll's field of work is graph theory",
+   "Sean M. Carroll's field of work is magic",
+   "Sean M. Carroll's field of work is essay",
+   "Sean M. Carroll's field of work is theory of relativity",
+   "Sean M. Carroll's field of work is historical novel",
+   "Sean M. Carroll's field of work is biological anthropology",
+   "Sean M. Carroll's field of work is literary theory",
+   "Sean M. Carroll's field of work is Greek philology",
+   "Sean M. Carroll's field of work is lyric poetry",
+   "Sean M. Carroll's field of work is psychology",
+   "Sean M. Carroll's field of work is quaternion",
+   "Sean M. Carroll's field of work is rite",
+   "Sean M. Carroll's field of work is jazz",
+   "Sean M. Carroll's field of work is heat",
+   "Sean M. Carroll's field of work is embryology",
+   "Sean M. Carroll's field of work is social philosophy",
+   "Sean M. Carroll's field of work is dance choreography",
+   "Sean M. Carroll's field of work is politics",
+   "Sean M. Carroll's field of work is nanotechnology",
+   "Sean M. Carroll's field of work is Afghanistan",
+   "Sean M. Carroll's field of work is non-Euclidean geometry",
+   "Sean M. Carroll's field of work is Franciscan spirituality",
+   "Sean M. Carroll's field of work is detective literature",
+   "Sean M. Carroll's field of work is mathematician",
+   "Sean M. Carroll's field of work is String",
+   "Sean M. Carroll's field of work is classical music",
+   "Sean M. Carroll's field of work is translations from Occitan",
+   "Sean M. Carroll's field of work is abstract algebra",
+   "Sean M. Carroll's field of work is differential calculus",
+   "Sean M. Carroll's field of work is mythology",
+   "Sean M. Carroll's field of work is literary translation",
+   "Sean M. Carroll's field of work is ballistics",
+   "Sean M. Carroll's field of work is cryptography",
+   "Sean M. Carroll's field of work is Greek",
+   "Sean M. Carroll's field of work is logic",
+   "Sean M. Carroll's field of work is choreography",
+   "Sean M. Carroll's field of work is theology",
+   "Sean M. Carroll's field of work is world economy",
+   "Sean M. Carroll's field of work is magnetism",
+   "Sean M. Carroll's field of work is algebraic geometry",
+   "Sean M. Carroll's field of work is theory of differential equations",
+   "Sean M. Carroll's field of work is physics",
+   "Sean M. Carroll's field of work is music theory",
+   "Sean M. Carroll's field of work is economics",
+   "Sean M. Carroll's field of work is anatomy",
+   "Sean M. Carroll's field of work is electromagnetic field",
+   "Sean M. Carroll's field of work is analytic number theory",
+   "Sean M. Carroll's field of work is mathematical physics",
+   "Sean M. Carroll's field of work is journalism",
+   "Sean M. Carroll's field of work is sociology",
+   "Sean M. Carroll's field of work is literature",
+   "Sean M. Carroll's field of work is ethnography",
+   "Sean M. Carroll's field of work is belletristic literature",
+   "Sean M. Carroll's field of work is convex function",
+   "Sean M. Carroll's field of work is sociology of religion",
+   "Sean M. Carroll's field of work is pedagogy",
+   "Sean M. Carroll's field of work is philosophy",
+   "Sean M. Carroll's field of work is quantum mechanics",
+   "Sean M. Carroll's field of work is drama",
+   "Sean M. Carroll's field of work is dance",
+   "Sean M. Carroll's field of work is Judaism",
+   "Sean M. Carroll's field of work is quantum physics",
+   "Sean M. Carroll's field of work is philosophy of science",
+   "Sean M. Carroll's field of work is linguistics",
+   "Sean M. Carroll's field of work is myth",
+   "Sean M. Carroll's field of work is physiology",
+   "Sean M. Carroll's field of work is English",
+   "Sean M. Carroll's field of work is philology",
+   "Sean M. Carroll's field of work is political philosophy",
+   "Sean M. Carroll's field of work is mechanical engineering",
+   "Sean M. Carroll's field of work is ontology",
+   "Sean M. Carroll's field of work is forestry",
+   "Sean M. Carroll's field of work is aerodynamics",
+   "Sean M. Carroll's field of work is Christian Church",
+   "Sean M. Carroll's field of work is magnetic resonance",
+   "Sean M. Carroll's field of work is astrophysics",
+   "Sean M. Carroll's field of work is natural science",
+   "Sean M. Carroll's field of work is constitutional law",
+   "Sean M. Carroll's field of work is philosophy of law",
+   "Sean M. Carroll's field of work is education",
+   "Sean M. Carroll's field of work is Monte Carlo method",
+   "Sean M. Carroll's field of work is neurology",
+   "Sean M. Carroll's field of work is electric field",
+   "Sean M. Carroll's field of work is Minkowski spacetime",
+   "Sean M. Carroll's field of work is translations from Arabic language",
+   "Sean M. Carroll's field of work is Bayesian inference",
+   "Sean M. Carroll's field of work is translations from Polish",
+   "Sean M. Carroll's field of work is color photography",
+   "Sean M. Carroll's field of work is opera",
+   "Sean M. Carroll's field of work is model theory",
+   "Sean M. Carroll's field of work is cartography",
+   "Sean M. Carroll's field of work is nonstandard analysis",
+   "Sean M. Carroll's field of work is television program",
+   "Sean M. Carroll's field of work is complex manifold",
+   "Sean M. Carroll's field of work is poetry",
+   "Sean M. Carroll's field of work is mathematics",
+   "Sean M. Carroll's field of work is computer science",
+   "Sean M. Carroll's field of work is cosmology",
+   "Sean M. Carroll's field of work is silviculture",
+   "Sean M. Carroll's field of work is hydrodynamics",
+   "Sean M. Carroll's field of work is forestry science",
+   "Sean M. Carroll's field of work is comparative religion",
+   "Sean M. Carroll's field of work is information technology",
+   "Sean M. Carroll's field of work is ballet",
+   "Sean M. Carroll's field of work is English literature",
+   "Sean M. Carroll's field of work is conducting",
+   "Sean M. Carroll's field of work is hyperbolic geometry",
+   "Sean M. Carroll's field of work is biochemistry",
+   "Sean M. Carroll's field of work is religion and society",
+   "Sean M. Carroll's field of work is optics",
+   "Sean M. Carroll's field of work is ethics",
+   "Sean M. Carroll's field of work is cybernetics",
+   "Sean M. Carroll's field of work is astronomical observation",
+   "Sean M. Carroll's field of work is psychophysiology",
+   "Sean M. Carroll's field of work is culturology",
+   "Sean M. Carroll's field of work is history of religions",
+   "Sean M. Carroll's field of work is probability theory",
+   "Sean M. Carroll's field of work is paleontology",
+   "Sean M. Carroll's field of work is surgery",
+   "Sean M. Carroll's field of work is group theory",
+   "Sean M. Carroll's field of work is natural theology",
+   "Sean M. Carroll's field of work is astrology",
+   "Sean M. Carroll's field of work is quantum electrodynamics",
+   "Sean M. Carroll's field of work is mechanics",
+   "Sean M. Carroll's field of work is Lie algebra",
+   "Sean M. Carroll's field of work is trigonometry",
+   "Sean M. Carroll's field of work is literary activity",
+   "Sean M. Carroll's field of work is nuclear physics",
+   "Sean M. Carroll's field of work is translations from English",
+   "Sean M. Carroll's field of work is medicine",
+   "Sean M. Carroll's field of work is Jewish philosophy",
+   "Sean M. Carroll's field of work is mathematical logic",
+   "Sean M. Carroll's field of work is calculus of variations",
+   "Sean M. Carroll's field of work is ferromagnetism",
+   "Sean M. Carroll's field of work is analytic geometry",
+   "Sean M. Carroll's field of work is art of painting",
+   "Sean M. Carroll's field of work is functional analysis",
+   "Sean M. Carroll's field of work is folklore",
+   "Sean M. Carroll's field of work is study of history",
+   "Sean M. Carroll's field of work is geometry",
+   "Sean M. Carroll's field of work is positivism",
+   "Sean M. Carroll's field of work is geodesy",
+   "Sean M. Carroll's field of work is astronomy",
+   "Sean M. Carroll's field of work is magnetic field",
+   "Sean M. Carroll's field of work is kinetic theory",
+   "Sean M. Carroll's field of work is celestial mechanics",
+   "Sean M. Carroll's field of work is analytic philosophy",
+   "Sean M. Carroll's field of work is ethnology",
+   "Sean M. Carroll's field of work is history of economic thought",
+   "Sean M. Carroll is meteorology",
+   "Sean M. Carroll is radioactivity",
+   "Sean M. Carroll is complex function",
+   "Sean M. Carroll is histology",
+   "Sean M. Carroll is algebra",
+   "Sean M. Carroll is electron",
+   "Sean M. Carroll is quantum theory",
+   "Sean M. Carroll is applied mathematics",
+   "Sean M. Carroll is electricity",
+   "Sean M. Carroll is human geography",
+   "Sean M. Carroll is crystallography",
+   "Sean M. Carroll is chemistry",
+   "Sean M. Carroll is Jewish studies",
+   "Sean M. Carroll is topology",
+   "Sean M. Carroll is mathematical analysis",
+   "Sean M. Carroll is computational geometry",
+   "Sean M. Carroll is Petrine ministry",
+   "Sean M. Carroll is social psychology",
+   "Sean M. Carroll is genetics",
+   "Sean M. Carroll is informatics",
+   "Sean M. Carroll is shipbuilding",
+   "Sean M. Carroll is historical sociology",
+   "Sean M. Carroll is quantum mysticism",
+   "Sean M. Carroll is philosopher",
+   "Sean M. Carroll is Internet",
+   "Sean M. Carroll is gravity",
+   "Sean M. Carroll is theoretical physics",
+   "Sean M. Carroll is African studies",
+   "Sean M. Carroll is projective geometry",
+   "Sean M. Carroll is prose",
+   "Sean M. Carroll is momentum",
+   "Sean M. Carroll is Cairo Geniza",
+   "Sean M. Carroll is stochastic",
+   "Sean M. Carroll is algebraic topology",
+   "Sean M. Carroll is electrical engineering",
+   "Sean M. Carroll is hunting",
+   "Sean M. Carroll is evolution",
+   "Sean M. Carroll is economic anthropology",
+   "Sean M. Carroll is Hebrew",
+   "Sean M. Carroll is differential geometry",
+   "Sean M. Carroll is engineering",
+   "Sean M. Carroll is history of science",
+   "Sean M. Carroll is social anthropology",
+   "Sean M. Carroll is history",
+   "Sean M. Carroll is distribution theory",
+   "Sean M. Carroll is classics",
+   "Sean M. Carroll is crime novel",
+   "Sean M. Carroll is statistics",
+   "Sean M. Carroll is experimental physics",
+   "Sean M. Carroll is geography",
+   "Sean M. Carroll is anthropology",
+   "Sean M. Carroll is partial differential equation",
+   "Sean M. Carroll is applied physics",
+   "Sean M. Carroll is Sanskrit",
+   "Sean M. Carroll is a branch of physics",
+   "Sean M. Carroll is comparative mythology",
+   "Sean M. Carroll is radiation",
+   "Sean M. Carroll is aeromechanics",
+   "Sean M. Carroll is harmonic analysis",
+   "Sean M. Carroll is religion",
+   "Sean M. Carroll is civil rights",
+   "Sean M. Carroll is physicist",
+   "Sean M. Carroll is distribution",
+   "Sean M. Carroll is translations from Spanish",
+   "Sean M. Carroll is feminism",
+   "Sean M. Carroll is number theory",
+   "Sean M. Carroll is sociology of organisations",
+   "Sean M. Carroll is astronomer",
+   "Sean M. Carroll is children's and youth literature",
+   "Sean M. Carroll is fairy tale",
+   "Sean M. Carroll is economy",
+   "Sean M. Carroll is graph theory",
+   "Sean M. Carroll is magic",
+   "Sean M. Carroll is essay",
+   "Sean M. Carroll is theory of relativity",
+   "Sean M. Carroll is historical novel",
+   "Sean M. Carroll is biological anthropology",
+   "Sean M. Carroll is literary theory",
+   "Sean M. Carroll is Greek philology",
+   "Sean M. Carroll is lyric poetry",
+   "Sean M. Carroll is psychology",
+   "Sean M. Carroll is quaternion",
+   "Sean M. Carroll is rite",
+   "Sean M. Carroll is jazz",
+   "Sean M. Carroll is heat",
+   "Sean M. Carroll is embryology",
+   "Sean M. Carroll is social philosophy",
+   "Sean M. Carroll is dance choreography",
+   "Sean M. Carroll is politics",
+   "Sean M. Carroll is nanotechnology",
+   "Sean M. Carroll is Afghanistan",
+   "Sean M. Carroll is non-Euclidean geometry",
+   "Sean M. Carroll is Franciscan spirituality",
+   "Sean M. Carroll is detective literature",
+   "Sean M. Carroll is mathematician",
+   "Sean M. Carroll is String",
+   "Sean M. Carroll is classical music",
+   "Sean M. Carroll is translations from Occitan",
+   "Sean M. Carroll is abstract algebra",
+   "Sean M. Carroll is differential calculus",
+   "Sean M. Carroll is mythology",
+   "Sean M. Carroll is literary translation",
+   "Sean M. Carroll is ballistics",
+   "Sean M. Carroll is cryptography",
+   "Sean M. Carroll is Greek",
+   "Sean M. Carroll is logic",
+   "Sean M. Carroll is choreography",
+   "Sean M. Carroll is theology",
+   "Sean M. Carroll is world economy",
+   "Sean M. Carroll is magnetism",
+   "Sean M. Carroll is algebraic geometry",
+   "Sean M. Carroll is theory of differential equations",
+   "Sean M. Carroll is physics",
+   "Sean M. Carroll is music theory",
+   "Sean M. Carroll is economics",
+   "Sean M. Carroll is anatomy",
+   "Sean M. Carroll is electromagnetic field",
+   "Sean M. Carroll is analytic number theory",
+   "Sean M. Carroll is mathematical physics",
+   "Sean M. Carroll is journalism",
+   "Sean M. Carroll is sociology",
+   "Sean M. Carroll is literature",
+   "Sean M. Carroll is ethnography",
+   "Sean M. Carroll is belletristic literature",
+   "Sean M. Carroll is convex function",
+   "Sean M. Carroll is sociology of religion",
+   "Sean M. Carroll is pedagogy",
+   "Sean M. Carroll is philosophy",
+   "Sean M. Carroll is quantum mechanics",
+   "Sean M. Carroll is drama",
+   "Sean M. Carroll is dance",
+   "Sean M. Carroll is Judaism",
+   "Sean M. Carroll is quantum physics",
+   "Sean M. Carroll is philosophy of science",
+   "Sean M. Carroll is linguistics",
+   "Sean M. Carroll is myth",
+   "Sean M. Carroll is physiology",
+   "Sean M. Carroll is English",
+   "Sean M. Carroll is philology",
+   "Sean M. Carroll is political philosophy",
+   "Sean M. Carroll is mechanical engineering",
+   "Sean M. Carroll is ontology",
+   "Sean M. Carroll is forestry",
+   "Sean M. Carroll is aerodynamics",
+   "Sean M. Carroll is Christian Church",
+   "Sean M. Carroll is magnetic resonance",
+   "Sean M. Carroll is astrophysics",
+   "Sean M. Carroll is natural science",
+   "Sean M. Carroll is constitutional law",
+   "Sean M. Carroll is philosophy of law",
+   "Sean M. Carroll is education",
+   "Sean M. Carroll is Monte Carlo method",
+   "Sean M. Carroll is neurology",
+   "Sean M. Carroll is electric field",
+   "Sean M. Carroll is Minkowski spacetime",
+   "Sean M. Carroll is translations from Arabic language",
+   "Sean M. Carroll is Bayesian inference",
+   "Sean M. Carroll is translations from Polish",
+   "Sean M. Carroll is color photography",
+   "Sean M. Carroll is opera",
+   "Sean M. Carroll is model theory",
+   "Sean M. Carroll is cartography",
+   "Sean M. Carroll is nonstandard analysis",
+   "Sean M. Carroll is television program",
+   "Sean M. Carroll is complex manifold",
+   "Sean M. Carroll is poetry",
+   "Sean M. Carroll is mathematics",
+   "Sean M. Carroll is computer science",
+   "Sean M. Carroll is cosmology",
+   "Sean M. Carroll is silviculture",
+   "Sean M. Carroll is hydrodynamics",
+   "Sean M. Carroll is forestry science",
+   "Sean M. Carroll is comparative religion",
+   "Sean M. Carroll is information technology",
+   "Sean M. Carroll is ballet",
+   "Sean M. Carroll is English literature",
+   "Sean M. Carroll is conducting",
+   "Sean M. Carroll is hyperbolic geometry",
+   "Sean M. Carroll is biochemistry",
+   "Sean M. Carroll is religion and society",
+   "Sean M. Carroll is optics",
+   "Sean M. Carroll is ethics",
+   "Sean M. Carroll is cybernetics",
+   "Sean M. Carroll is astronomical observation",
+   "Sean M. Carroll is psychophysiology",
+   "Sean M. Carroll is culturology",
+   "Sean M. Carroll is history of religions",
+   "Sean M. Carroll is probability theory",
+   "Sean M. Carroll is paleontology",
+   "Sean M. Carroll is surgery",
+   "Sean M. Carroll is group theory",
+   "Sean M. Carroll is natural theology",
+   "Sean M. Carroll is astrology",
+   "Sean M. Carroll is quantum electrodynamics",
+   "Sean M. Carroll is mechanics",
+   "Sean M. Carroll is Lie algebra",
+   "Sean M. Carroll is trigonometry",
+   "Sean M. Carroll is literary activity",
+   "Sean M. Carroll is nuclear physics",
+   "Sean M. Carroll is translations from English",
+   "Sean M. Carroll is medicine",
+   "Sean M. Carroll is Jewish philosophy",
+   "Sean M. Carroll is mathematical logic",
+   "Sean M. Carroll is calculus of variations",
+   "Sean M. Carroll is ferromagnetism",
+   "Sean M. Carroll is analytic geometry",
+   "Sean M. Carroll is art of painting",
+   "Sean M. Carroll is functional analysis",
+   "Sean M. Carroll is folklore",
+   "Sean M. Carroll is study of history",
+   "Sean M. Carroll is geometry",
+   "Sean M. Carroll is positivism",
+   "Sean M. Carroll is geodesy",
+   "Sean M. Carroll is astronomy",
+   "Sean M. Carroll is magnetic field",
+   "Sean M. Carroll is kinetic theory",
+   "Sean M. Carroll is celestial mechanics",
+   "Sean M. Carroll is analytic philosophy",
+   "Sean M. Carroll is ethnology",
+   "Sean M. Carroll is history of economic thought"
+  ],
+  [
+   [
+    -41.33076477050781
+   ],
+   [
+    -44.683013916015625
+   ],
+   [
+    -48.11344909667969
+   ],
+   [
+    -41.96385955810547
+   ],
+   [
+    -37.62706756591797
+   ],
+   [
+    -43.256980895996094
+   ],
+   [
+    -40.545440673828125
+   ],
+   [
+    -38.174407958984375
+   ],
+   [
+    -42.834144592285156
+   ],
+   [
+    -44.507110595703125
+   ],
+   [
+    -41.60693359375
+   ],
+   [
+    -40.19800567626953
+   ],
+   [
+    -45.569313049316406
+   ],
+   [
+    -37.35293197631836
+   ],
+   [
+    -40.75054168701172
+   ],
+   [
+    -44.001564025878906
+   ],
+   [
+    -61.30824279785156
+   ],
+   [
+    -41.61616516113281
+   ],
+   [
+    -39.38885498046875
+   ],
+   [
+    -38.59928894042969
+   ],
+   [
+    -46.98816680908203
+   ],
+   [
+    -41.013694763183594
+   ],
+   [
+    -49.863807678222656
+   ],
+   [
+    -40.532814025878906
+   ],
+   [
+    -41.476806640625
+   ],
+   [
+    -38.93788146972656
+   ],
+   [
+    -33.76298522949219
+   ],
+   [
+    -44.104576110839844
+   ],
+   [
+    -43.509735107421875
+   ],
+   [
+    -42.69567108154297
+   ],
+   [
+    -44.782981872558594
+   ],
+   [
+    -55.709564208984375
+   ],
+   [
+    -39.60844421386719
+   ],
+   [
+    -38.79438018798828
+   ],
+   [
+    -41.476470947265625
+   ],
+   [
+    -41.7039794921875
+   ],
+   [
+    -36.00823211669922
+   ],
+   [
+    -44.170257568359375
+   ],
+   [
+    -43.83361053466797
+   ],
+   [
+    -39.39104461669922
+   ],
+   [
+    -40.25398635864258
+   ],
+   [
+    -38.687583923339844
+   ],
+   [
+    -44.01959991455078
+   ],
+   [
+    -35.62732696533203
+   ],
+   [
+    -46.40240478515625
+   ],
+   [
+    -39.450782775878906
+   ],
+   [
+    -52.75438690185547
+   ],
+   [
+    -38.126258850097656
+   ],
+   [
+    -38.71875762939453
+   ],
+   [
+    -39.04851531982422
+   ],
+   [
+    -39.42436218261719
+   ],
+   [
+    -47.52471160888672
+   ],
+   [
+    -39.83142852783203
+   ],
+   [
+    -43.48756408691406
+   ],
+   [
+    -40.082305908203125
+   ],
+   [
+    -41.20140838623047
+   ],
+   [
+    -42.17332458496094
+   ],
+   [
+    -47.3725471496582
+   ],
+   [
+    -42.65065002441406
+   ],
+   [
+    -39.47182083129883
+   ],
+   [
+    -45.35687255859375
+   ],
+   [
+    -43.00244903564453
+   ],
+   [
+    -42.33214569091797
+   ],
+   [
+    -53.17156982421875
+   ],
+   [
+    -42.46611785888672
+   ],
+   [
+    -38.80924987792969
+   ],
+   [
+    -50.35650634765625
+   ],
+   [
+    -43.12134552001953
+   ],
+   [
+    -47.967926025390625
+   ],
+   [
+    -45.98091125488281
+   ],
+   [
+    -41.406455993652344
+   ],
+   [
+    -38.93097686767578
+   ],
+   [
+    -43.71849822998047
+   ],
+   [
+    -41.91859436035156
+   ],
+   [
+    -43.28483581542969
+   ],
+   [
+    -45.17948913574219
+   ],
+   [
+    -41.81455993652344
+   ],
+   [
+    -40.027915954589844
+   ],
+   [
+    -45.82648468017578
+   ],
+   [
+    -45.982521057128906
+   ],
+   [
+    -39.54280090332031
+   ],
+   [
+    -43.94084930419922
+   ],
+   [
+    -47.063934326171875
+   ],
+   [
+    -42.71302795410156
+   ],
+   [
+    -41.485374450683594
+   ],
+   [
+    -40.41295623779297
+   ],
+   [
+    -42.36028289794922
+   ],
+   [
+    -49.482032775878906
+   ],
+   [
+    -40.33396530151367
+   ],
+   [
+    -41.70539093017578
+   ],
+   [
+    -46.585365295410156
+   ],
+   [
+    -43.08795928955078
+   ],
+   [
+    -51.11036682128906
+   ],
+   [
+    -49.307762145996094
+   ],
+   [
+    -42.626556396484375
+   ],
+   [
+    -39.77496337890625
+   ],
+   [
+    -44.37623596191406
+   ],
+   [
+    -58.148040771484375
+   ],
+   [
+    -39.791664123535156
+   ],
+   [
+    -44.59699249267578
+   ],
+   [
+    -41.06249237060547
+   ],
+   [
+    -45.66302490234375
+   ],
+   [
+    -45.82664489746094
+   ],
+   [
+    -40.71840286254883
+   ],
+   [
+    -40.486751556396484
+   ],
+   [
+    -37.07794952392578
+   ],
+   [
+    -45.80329132080078
+   ],
+   [
+    -38.917293548583984
+   ],
+   [
+    -46.997703552246094
+   ],
+   [
+    -45.55535125732422
+   ],
+   [
+    -39.29527282714844
+   ],
+   [
+    -47.74873733520508
+   ],
+   [
+    -35.51691436767578
+   ],
+   [
+    -42.27537536621094
+   ],
+   [
+    -37.05694580078125
+   ],
+   [
+    -41.071449279785156
+   ],
+   [
+    -46.143531799316406
+   ],
+   [
+    -40.428802490234375
+   ],
+   [
+    -36.109825134277344
+   ],
+   [
+    -42.35350799560547
+   ],
+   [
+    -39.14622497558594
+   ],
+   [
+    -38.721580505371094
+   ],
+   [
+    -42.532554626464844
+   ],
+   [
+    -49.19040298461914
+   ],
+   [
+    -47.583335876464844
+   ],
+   [
+    -42.278961181640625
+   ],
+   [
+    -41.25043487548828
+   ],
+   [
+    -34.926353454589844
+   ],
+   [
+    -39.22492980957031
+   ],
+   [
+    -43.42041015625
+   ],
+   [
+    -42.564430236816406
+   ],
+   [
+    -45.0147705078125
+   ],
+   [
+    -39.22918701171875
+   ],
+   [
+    -37.70970153808594
+   ],
+   [
+    -37.942352294921875
+   ],
+   [
+    -42.04994201660156
+   ],
+   [
+    -40.35582733154297
+   ],
+   [
+    -39.048641204833984
+   ],
+   [
+    -39.53938674926758
+   ],
+   [
+    -38.91716766357422
+   ],
+   [
+    -42.92327880859375
+   ],
+   [
+    -38.47862243652344
+   ],
+   [
+    -44.40077209472656
+   ],
+   [
+    -43.62146759033203
+   ],
+   [
+    -48.0181884765625
+   ],
+   [
+    -45.959503173828125
+   ],
+   [
+    -37.4844970703125
+   ],
+   [
+    -41.377899169921875
+   ],
+   [
+    -40.81487274169922
+   ],
+   [
+    -40.80004119873047
+   ],
+   [
+    -40.6983528137207
+   ],
+   [
+    -49.389869689941406
+   ],
+   [
+    -41.082550048828125
+   ],
+   [
+    -46.68144226074219
+   ],
+   [
+    -43.26887512207031
+   ],
+   [
+    -59.13751220703125
+   ],
+   [
+    -41.039146423339844
+   ],
+   [
+    -54.48967742919922
+   ],
+   [
+    -45.971885681152344
+   ],
+   [
+    -43.503578186035156
+   ],
+   [
+    -42.77654266357422
+   ],
+   [
+    -40.184364318847656
+   ],
+   [
+    -46.026649475097656
+   ],
+   [
+    -50.81053924560547
+   ],
+   [
+    -47.62577819824219
+   ],
+   [
+    -41.170249938964844
+   ],
+   [
+    -35.253395080566406
+   ],
+   [
+    -38.46043395996094
+   ],
+   [
+    -34.69026184082031
+   ],
+   [
+    -49.82373809814453
+   ],
+   [
+    -40.565452575683594
+   ],
+   [
+    -49.74810028076172
+   ],
+   [
+    -38.7593994140625
+   ],
+   [
+    -42.042274475097656
+   ],
+   [
+    -45.90711212158203
+   ],
+   [
+    -39.97275924682617
+   ],
+   [
+    -42.46705627441406
+   ],
+   [
+    -40.68809127807617
+   ],
+   [
+    -38.407745361328125
+   ],
+   [
+    -45.621028900146484
+   ],
+   [
+    -40.36339569091797
+   ],
+   [
+    -38.09318542480469
+   ],
+   [
+    -40.20147705078125
+   ],
+   [
+    -44.78276824951172
+   ],
+   [
+    -45.74640655517578
+   ],
+   [
+    -46.10264587402344
+   ],
+   [
+    -43.21672821044922
+   ],
+   [
+    -39.362815856933594
+   ],
+   [
+    -35.834075927734375
+   ],
+   [
+    -42.437828063964844
+   ],
+   [
+    -42.709869384765625
+   ],
+   [
+    -41.413238525390625
+   ],
+   [
+    -42.00749969482422
+   ],
+   [
+    -45.3382682800293
+   ],
+   [
+    -40.010040283203125
+   ],
+   [
+    -44.669189453125
+   ],
+   [
+    -42.96199035644531
+   ],
+   [
+    -50.00505828857422
+   ],
+   [
+    -42.484825134277344
+   ],
+   [
+    -51.47969055175781
+   ],
+   [
+    -40.356239318847656
+   ],
+   [
+    -45.416473388671875
+   ],
+   [
+    -37.152862548828125
+   ],
+   [
+    -43.211830139160156
+   ],
+   [
+    -45.795597076416016
+   ],
+   [
+    -41.756927490234375
+   ],
+   [
+    -51.728668212890625
+   ],
+   [
+    -41.73625183105469
+   ],
+   [
+    -42.17572784423828
+   ],
+   [
+    -44.414337158203125
+   ],
+   [
+    -39.63577651977539
+   ],
+   [
+    -43.736595153808594
+   ],
+   [
+    -43.16176986694336
+   ],
+   [
+    -37.56248474121094
+   ],
+   [
+    -48.50720977783203
+   ],
+   [
+    -40.964805603027344
+   ],
+   [
+    -40.21337890625
+   ],
+   [
+    -36.70673370361328
+   ],
+   [
+    -42.713592529296875
+   ],
+   [
+    -44.17901611328125
+   ],
+   [
+    -29.7078800201416
+   ],
+   [
+    -32.87745666503906
+   ],
+   [
+    -36.38166809082031
+   ],
+   [
+    -29.636676788330078
+   ],
+   [
+    -25.917177200317383
+   ],
+   [
+    -29.009000778198242
+   ],
+   [
+    -28.04839324951172
+   ],
+   [
+    -27.114498138427734
+   ],
+   [
+    -30.249650955200195
+   ],
+   [
+    -31.468406677246094
+   ],
+   [
+    -31.756031036376953
+   ],
+   [
+    -26.67392921447754
+   ],
+   [
+    -35.658756256103516
+   ],
+   [
+    -29.751571655273438
+   ],
+   [
+    -30.80885124206543
+   ],
+   [
+    -32.098472595214844
+   ],
+   [
+    -49.76690673828125
+   ],
+   [
+    -28.566131591796875
+   ],
+   [
+    -26.713212966918945
+   ],
+   [
+    -29.70204734802246
+   ],
+   [
+    -34.89624786376953
+   ],
+   [
+    -32.195220947265625
+   ],
+   [
+    -36.44996643066406
+   ],
+   [
+    -20.60873031616211
+   ],
+   [
+    -27.021730422973633
+   ],
+   [
+    -26.674209594726562
+   ],
+   [
+    -25.9746036529541
+   ],
+   [
+    -31.733407974243164
+   ],
+   [
+    -36.012577056884766
+   ],
+   [
+    -26.28006935119629
+   ],
+   [
+    -28.996103286743164
+   ],
+   [
+    -41.990814208984375
+   ],
+   [
+    -31.25076675415039
+   ],
+   [
+    -30.288158416748047
+   ],
+   [
+    -29.800186157226562
+   ],
+   [
+    -24.867197036743164
+   ],
+   [
+    -24.633651733398438
+   ],
+   [
+    -32.46996307373047
+   ],
+   [
+    -27.541284561157227
+   ],
+   [
+    -31.613361358642578
+   ],
+   [
+    -25.746763229370117
+   ],
+   [
+    -28.363697052001953
+   ],
+   [
+    -30.511594772338867
+   ],
+   [
+    -23.54666519165039
+   ],
+   [
+    -34.84580612182617
+   ],
+   [
+    -25.059743881225586
+   ],
+   [
+    -34.780399322509766
+   ],
+   [
+    -25.03130531311035
+   ],
+   [
+    -29.539461135864258
+   ],
+   [
+    -25.342836380004883
+   ],
+   [
+    -25.60675621032715
+   ],
+   [
+    -36.76524353027344
+   ],
+   [
+    -28.24393653869629
+   ],
+   [
+    -30.325037002563477
+   ],
+   [
+    -31.56657600402832
+   ],
+   [
+    -31.552764892578125
+   ],
+   [
+    -29.073701858520508
+   ],
+   [
+    -33.113914489746094
+   ],
+   [
+    -34.297245025634766
+   ],
+   [
+    -23.62410545349121
+   ],
+   [
+    -29.103580474853516
+   ],
+   [
+    -21.91718292236328
+   ],
+   [
+    -27.22096061706543
+   ],
+   [
+    -41.18238830566406
+   ],
+   [
+    -29.062829971313477
+   ],
+   [
+    -32.48115539550781
+   ],
+   [
+    -40.354957580566406
+   ],
+   [
+    -23.045841217041016
+   ],
+   [
+    -38.8597526550293
+   ],
+   [
+    -32.921775817871094
+   ],
+   [
+    -27.92696189880371
+   ],
+   [
+    -28.754432678222656
+   ],
+   [
+    -27.239648818969727
+   ],
+   [
+    -25.774412155151367
+   ],
+   [
+    -28.39436912536621
+   ],
+   [
+    -31.340396881103516
+   ],
+   [
+    -29.804534912109375
+   ],
+   [
+    -29.94460105895996
+   ],
+   [
+    -40.939510345458984
+   ],
+   [
+    -34.66025924682617
+   ],
+   [
+    -22.3079833984375
+   ],
+   [
+    -32.04011917114258
+   ],
+   [
+    -29.691953659057617
+   ],
+   [
+    -25.883838653564453
+   ],
+   [
+    -28.286060333251953
+   ],
+   [
+    -28.827768325805664
+   ],
+   [
+    -29.337671279907227
+   ],
+   [
+    -41.232704162597656
+   ],
+   [
+    -27.273733139038086
+   ],
+   [
+    -27.834978103637695
+   ],
+   [
+    -32.600982666015625
+   ],
+   [
+    -29.359813690185547
+   ],
+   [
+    -36.73309326171875
+   ],
+   [
+    -39.20571517944336
+   ],
+   [
+    -20.952434539794922
+   ],
+   [
+    -24.73204231262207
+   ],
+   [
+    -31.95559310913086
+   ],
+   [
+    -44.93000030517578
+   ],
+   [
+    -30.960586547851562
+   ],
+   [
+    -35.60091018676758
+   ],
+   [
+    -28.935827255249023
+   ],
+   [
+    -34.021419525146484
+   ],
+   [
+    -32.9521598815918
+   ],
+   [
+    -28.717851638793945
+   ],
+   [
+    -28.860960006713867
+   ],
+   [
+    -26.049577713012695
+   ],
+   [
+    -34.30949401855469
+   ],
+   [
+    -23.52460479736328
+   ],
+   [
+    -35.9782600402832
+   ],
+   [
+    -32.538272857666016
+   ],
+   [
+    -30.711336135864258
+   ],
+   [
+    -34.93328857421875
+   ],
+   [
+    -22.00840950012207
+   ],
+   [
+    -29.896312713623047
+   ],
+   [
+    -21.740413665771484
+   ],
+   [
+    -28.305057525634766
+   ],
+   [
+    -33.0158805847168
+   ],
+   [
+    -28.714860916137695
+   ],
+   [
+    -26.190898895263672
+   ],
+   [
+    -25.80528450012207
+   ],
+   [
+    -23.390703201293945
+   ],
+   [
+    -24.419225692749023
+   ],
+   [
+    -30.364843368530273
+   ],
+   [
+    -41.10987091064453
+   ],
+   [
+    -38.757568359375
+   ],
+   [
+    -29.63545036315918
+   ],
+   [
+    -28.176685333251953
+   ],
+   [
+    -20.30748176574707
+   ],
+   [
+    -27.58036994934082
+   ],
+   [
+    -28.467037200927734
+   ],
+   [
+    -29.75931739807129
+   ],
+   [
+    -30.735258102416992
+   ],
+   [
+    -27.731185913085938
+   ],
+   [
+    -25.35260772705078
+   ],
+   [
+    -24.651317596435547
+   ],
+   [
+    -27.46674919128418
+   ],
+   [
+    -26.204885482788086
+   ],
+   [
+    -24.18330955505371
+   ],
+   [
+    -30.51789093017578
+   ],
+   [
+    -29.037399291992188
+   ],
+   [
+    -28.583425521850586
+   ],
+   [
+    -26.972515106201172
+   ],
+   [
+    -28.729963302612305
+   ],
+   [
+    -30.49326515197754
+   ],
+   [
+    -31.813451766967773
+   ],
+   [
+    -39.31859588623047
+   ],
+   [
+    -24.68669891357422
+   ],
+   [
+    -27.76913833618164
+   ],
+   [
+    -27.417774200439453
+   ],
+   [
+    -29.0491943359375
+   ],
+   [
+    -24.216642379760742
+   ],
+   [
+    -38.52348709106445
+   ],
+   [
+    -27.311216354370117
+   ],
+   [
+    -36.943756103515625
+   ],
+   [
+    -40.368045806884766
+   ],
+   [
+    -49.9407958984375
+   ],
+   [
+    -33.11363220214844
+   ],
+   [
+    -42.801456451416016
+   ],
+   [
+    -35.6737174987793
+   ],
+   [
+    -29.62308120727539
+   ],
+   [
+    -32.12681579589844
+   ],
+   [
+    -30.05728530883789
+   ],
+   [
+    -37.42192840576172
+   ],
+   [
+    -33.957550048828125
+   ],
+   [
+    -35.66223907470703
+   ],
+   [
+    -25.7193546295166
+   ],
+   [
+    -22.61629867553711
+   ],
+   [
+    -24.518512725830078
+   ],
+   [
+    -23.306671142578125
+   ],
+   [
+    -33.37654113769531
+   ],
+   [
+    -29.55562973022461
+   ],
+   [
+    -34.49253845214844
+   ],
+   [
+    -28.163572311401367
+   ],
+   [
+    -29.772275924682617
+   ],
+   [
+    -30.838319778442383
+   ],
+   [
+    -28.074657440185547
+   ],
+   [
+    -23.0737361907959
+   ],
+   [
+    -35.75295639038086
+   ],
+   [
+    -24.05080223083496
+   ],
+   [
+    -31.802383422851562
+   ],
+   [
+    -29.302555084228516
+   ],
+   [
+    -27.549631118774414
+   ],
+   [
+    -31.59500503540039
+   ],
+   [
+    -36.071250915527344
+   ],
+   [
+    -33.593475341796875
+   ],
+   [
+    -33.078941345214844
+   ],
+   [
+    -32.543701171875
+   ],
+   [
+    -27.89519500732422
+   ],
+   [
+    -25.550642013549805
+   ],
+   [
+    -27.70235824584961
+   ],
+   [
+    -31.131969451904297
+   ],
+   [
+    -30.88482666015625
+   ],
+   [
+    -26.638961791992188
+   ],
+   [
+    -33.085750579833984
+   ],
+   [
+    -31.431562423706055
+   ],
+   [
+    -31.564071655273438
+   ],
+   [
+    -31.82625389099121
+   ],
+   [
+    -37.056949615478516
+   ],
+   [
+    -31.01128578186035
+   ],
+   [
+    -40.15449523925781
+   ],
+   [
+    -26.2445125579834
+   ],
+   [
+    -37.08971405029297
+   ],
+   [
+    -28.75381851196289
+   ],
+   [
+    -33.95950698852539
+   ],
+   [
+    -36.522186279296875
+   ],
+   [
+    -30.215665817260742
+   ],
+   [
+    -38.973548889160156
+   ],
+   [
+    -32.34498596191406
+   ],
+   [
+    -27.964258193969727
+   ],
+   [
+    -31.193662643432617
+   ],
+   [
+    -27.25467872619629
+   ],
+   [
+    -30.659406661987305
+   ],
+   [
+    -32.06413269042969
+   ],
+   [
+    -23.96082878112793
+   ],
+   [
+    -35.886600494384766
+   ],
+   [
+    -30.003395080566406
+   ],
+   [
+    -30.348825454711914
+   ],
+   [
+    -26.065841674804688
+   ],
+   [
+    -30.016464233398438
+   ],
+   [
+    -33.61790084838867
+   ]
+  ]
+ ],
+ "time": 5427.271857261658
+}

@@ -1,0 +1,2076 @@
+{
+ "case_id": 22124,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Abram Ioffe"
+ },
+ "pre": [
+  [
+   "Abram Ioffe's field of work is meteorology",
+   "Abram Ioffe's field of work is radioactivity",
+   "Abram Ioffe's field of work is complex function",
+   "Abram Ioffe's field of work is histology",
+   "Abram Ioffe's field of work is algebra",
+   "Abram Ioffe's field of work is electron",
+   "Abram Ioffe's field of work is quantum theory",
+   "Abram Ioffe's field of work is applied mathematics",
+   "Abram Ioffe's field of work is electricity",
+   "Abram Ioffe's field of work is human geography",
+   "Abram Ioffe's field of work is crystallography",
+   "Abram Ioffe's field of work is chemistry",
+   "Abram Ioffe's field of work is Jewish studies",
+   "Abram Ioffe's field of work is topology",
+   "Abram Ioffe's field of work is mathematical analysis",
+   "Abram Ioffe's field of work is computational geometry",
+   "Abram Ioffe's field of work is Petrine ministry",
+   "Abram Ioffe's field of work is social psychology",
+   "Abram Ioffe's field of work is genetics",
+   "Abram Ioffe's field of work is informatics",
+   "Abram Ioffe's field of work is shipbuilding",
+   "Abram Ioffe's field of work is historical sociology",
+   "Abram Ioffe's field of work is quantum mysticism",
+   "Abram Ioffe's field of work is philosopher",
+   "Abram Ioffe's field of work is Internet",
+   "Abram Ioffe's field of work is gravity",
+   "Abram Ioffe's field of work is theoretical physics",
+   "Abram Ioffe's field of work is African studies",
+   "Abram Ioffe's field of work is projective geometry",
+   "Abram Ioffe's field of work is prose",
+   "Abram Ioffe's field of work is momentum",
+   "Abram Ioffe's field of work is Cairo Geniza",
+   "Abram Ioffe's field of work is stochastic",
+   "Abram Ioffe's field of work is algebraic topology",
+   "Abram Ioffe's field of work is electrical engineering",
+   "Abram Ioffe's field of work is hunting",
+   "Abram Ioffe's field of work is evolution",
+   "Abram Ioffe's field of work is economic anthropology",
+   "Abram Ioffe's field of work is Hebrew",
+   "Abram Ioffe's field of work is differential geometry",
+   "Abram Ioffe's field of work is engineering",
+   "Abram Ioffe's field of work is history of science",
+   "Abram Ioffe's field of work is social anthropology",
+   "Abram Ioffe's field of work is history",
+   "Abram Ioffe's field of work is distribution theory",
+   "Abram Ioffe's field of work is classics",
+   "Abram Ioffe's field of work is crime novel",
+   "Abram Ioffe's field of work is statistics",
+   "Abram Ioffe's field of work is experimental physics",
+   "Abram Ioffe's field of work is geography",
+   "Abram Ioffe's field of work is anthropology",
+   "Abram Ioffe's field of work is partial differential equation",
+   "Abram Ioffe's field of work is applied physics",
+   "Abram Ioffe's field of work is Sanskrit",
+   "Abram Ioffe's field of work is a branch of physics",
+   "Abram Ioffe's field of work is comparative mythology",
+   "Abram Ioffe's field of work is radiation",
+   "Abram Ioffe's field of work is aeromechanics",
+   "Abram Ioffe's field of work is harmonic analysis",
+   "Abram Ioffe's field of work is religion",
+   "Abram Ioffe's field of work is civil rights",
+   "Abram Ioffe's field of work is physicist",
+   "Abram Ioffe's field of work is distribution",
+   "Abram Ioffe's field of work is translations from Spanish",
+   "Abram Ioffe's field of work is feminism",
+   "Abram Ioffe's field of work is number theory",
+   "Abram Ioffe's field of work is sociology of organisations",
+   "Abram Ioffe's field of work is astronomer",
+   "Abram Ioffe's field of work is children's and youth literature",
+   "Abram Ioffe's field of work is fairy tale",
+   "Abram Ioffe's field of work is economy",
+   "Abram Ioffe's field of work is graph theory",
+   "Abram Ioffe's field of work is magic",
+   "Abram Ioffe's field of work is essay",
+   "Abram Ioffe's field of work is theory of relativity",
+   "Abram Ioffe's field of work is historical novel",
+   "Abram Ioffe's field of work is biological anthropology",
+   "Abram Ioffe's field of work is literary theory",
+   "Abram Ioffe's field of work is Greek philology",
+   "Abram Ioffe's field of work is lyric poetry",
+   "Abram Ioffe's field of work is psychology",
+   "Abram Ioffe's field of work is quaternion",
+   "Abram Ioffe's field of work is rite",
+   "Abram Ioffe's field of work is jazz",
+   "Abram Ioffe's field of work is heat",
+   "Abram Ioffe's field of work is embryology",
+   "Abram Ioffe's field of work is social philosophy",
+   "Abram Ioffe's field of work is dance choreography",
+   "Abram Ioffe's field of work is politics",
+   "Abram Ioffe's field of work is nanotechnology",
+   "Abram Ioffe's field of work is Afghanistan",
+   "Abram Ioffe's field of work is non-Euclidean geometry",
+   "Abram Ioffe's field of work is Franciscan spirituality",
+   "Abram Ioffe's field of work is detective literature",
+   "Abram Ioffe's field of work is mathematician",
+   "Abram Ioffe's field of work is String",
+   "Abram Ioffe's field of work is classical music",
+   "Abram Ioffe's field of work is translations from Occitan",
+   "Abram Ioffe's field of work is abstract algebra",
+   "Abram Ioffe's field of work is differential calculus",
+   "Abram Ioffe's field of work is mythology",
+   "Abram Ioffe's field of work is literary translation",
+   "Abram Ioffe's field of work is ballistics",
+   "Abram Ioffe's field of work is cryptography",
+   "Abram Ioffe's field of work is Greek",
+   "Abram Ioffe's field of work is logic",
+   "Abram Ioffe's field of work is choreography",
+   "Abram Ioffe's field of work is theology",
+   "Abram Ioffe's field of work is world economy",
+   "Abram Ioffe's field of work is magnetism",
+   "Abram Ioffe's field of work is algebraic geometry",
+   "Abram Ioffe's field of work is theory of differential equations",
+   "Abram Ioffe's field of work is physics",
+   "Abram Ioffe's field of work is music theory",
+   "Abram Ioffe's field of work is economics",
+   "Abram Ioffe's field of work is anatomy",
+   "Abram Ioffe's field of work is electromagnetic field",
+   "Abram Ioffe's field of work is analytic number theory",
+   "Abram Ioffe's field of work is mathematical physics",
+   "Abram Ioffe's field of work is journalism",
+   "Abram Ioffe's field of work is sociology",
+   "Abram Ioffe's field of work is literature",
+   "Abram Ioffe's field of work is ethnography",
+   "Abram Ioffe's field of work is belletristic literature",
+   "Abram Ioffe's field of work is convex function",
+   "Abram Ioffe's field of work is sociology of religion",
+   "Abram Ioffe's field of work is pedagogy",
+   "Abram Ioffe's field of work is philosophy",
+   "Abram Ioffe's field of work is quantum mechanics",
+   "Abram Ioffe's field of work is drama",
+   "Abram Ioffe's field of work is dance",
+   "Abram Ioffe's field of work is Judaism",
+   "Abram Ioffe's field of work is quantum physics",
+   "Abram Ioffe's field of work is philosophy of science",
+   "Abram Ioffe's field of work is linguistics",
+   "Abram Ioffe's field of work is myth",
+   "Abram Ioffe's field of work is physiology",
+   "Abram Ioffe's field of work is English",
+   "Abram Ioffe's field of work is philology",
+   "Abram Ioffe's field of work is political philosophy",
+   "Abram Ioffe's field of work is mechanical engineering",
+   "Abram Ioffe's field of work is ontology",
+   "Abram Ioffe's field of work is forestry",
+   "Abram Ioffe's field of work is aerodynamics",
+   "Abram Ioffe's field of work is Christian Church",
+   "Abram Ioffe's field of work is magnetic resonance",
+   "Abram Ioffe's field of work is astrophysics",
+   "Abram Ioffe's field of work is natural science",
+   "Abram Ioffe's field of work is constitutional law",
+   "Abram Ioffe's field of work is philosophy of law",
+   "Abram Ioffe's field of work is education",
+   "Abram Ioffe's field of work is Monte Carlo method",
+   "Abram Ioffe's field of work is neurology",
+   "Abram Ioffe's field of work is electric field",
+   "Abram Ioffe's field of work is Minkowski spacetime",
+   "Abram Ioffe's field of work is translations from Arabic language",
+   "Abram Ioffe's field of work is Bayesian inference",
+   "Abram Ioffe's field of work is translations from Polish",
+   "Abram Ioffe's field of work is color photography",
+   "Abram Ioffe's field of work is opera",
+   "Abram Ioffe's field of work is model theory",
+   "Abram Ioffe's field of work is cartography",
+   "Abram Ioffe's field of work is nonstandard analysis",
+   "Abram Ioffe's field of work is television program",
+   "Abram Ioffe's field of work is complex manifold",
+   "Abram Ioffe's field of work is poetry",
+   "Abram Ioffe's field of work is mathematics",
+   "Abram Ioffe's field of work is computer science",
+   "Abram Ioffe's field of work is cosmology",
+   "Abram Ioffe's field of work is silviculture",
+   "Abram Ioffe's field of work is hydrodynamics",
+   "Abram Ioffe's field of work is forestry science",
+   "Abram Ioffe's field of work is comparative religion",
+   "Abram Ioffe's field of work is information technology",
+   "Abram Ioffe's field of work is ballet",
+   "Abram Ioffe's field of work is English literature",
+   "Abram Ioffe's field of work is conducting",
+   "Abram Ioffe's field of work is hyperbolic geometry",
+   "Abram Ioffe's field of work is biochemistry",
+   "Abram Ioffe's field of work is religion and society",
+   "Abram Ioffe's field of work is optics",
+   "Abram Ioffe's field of work is ethics",
+   "Abram Ioffe's field of work is cybernetics",
+   "Abram Ioffe's field of work is astronomical observation",
+   "Abram Ioffe's field of work is psychophysiology",
+   "Abram Ioffe's field of work is culturology",
+   "Abram Ioffe's field of work is history of religions",
+   "Abram Ioffe's field of work is probability theory",
+   "Abram Ioffe's field of work is paleontology",
+   "Abram Ioffe's field of work is surgery",
+   "Abram Ioffe's field of work is group theory",
+   "Abram Ioffe's field of work is natural theology",
+   "Abram Ioffe's field of work is astrology",
+   "Abram Ioffe's field of work is quantum electrodynamics",
+   "Abram Ioffe's field of work is mechanics",
+   "Abram Ioffe's field of work is Lie algebra",
+   "Abram Ioffe's field of work is trigonometry",
+   "Abram Ioffe's field of work is literary activity",
+   "Abram Ioffe's field of work is nuclear physics",
+   "Abram Ioffe's field of work is translations from English",
+   "Abram Ioffe's field of work is medicine",
+   "Abram Ioffe's field of work is Jewish philosophy",
+   "Abram Ioffe's field of work is mathematical logic",
+   "Abram Ioffe's field of work is calculus of variations",
+   "Abram Ioffe's field of work is ferromagnetism",
+   "Abram Ioffe's field of work is analytic geometry",
+   "Abram Ioffe's field of work is art of painting",
+   "Abram Ioffe's field of work is functional analysis",
+   "Abram Ioffe's field of work is folklore",
+   "Abram Ioffe's field of work is study of history",
+   "Abram Ioffe's field of work is geometry",
+   "Abram Ioffe's field of work is positivism",
+   "Abram Ioffe's field of work is geodesy",
+   "Abram Ioffe's field of work is astronomy",
+   "Abram Ioffe's field of work is magnetic field",
+   "Abram Ioffe's field of work is kinetic theory",
+   "Abram Ioffe's field of work is celestial mechanics",
+   "Abram Ioffe's field of work is analytic philosophy",
+   "Abram Ioffe's field of work is ethnology",
+   "Abram Ioffe's field of work is history of economic thought",
+   "Abram Ioffe is meteorology",
+   "Abram Ioffe is radioactivity",
+   "Abram Ioffe is complex function",
+   "Abram Ioffe is histology",
+   "Abram Ioffe is algebra",
+   "Abram Ioffe is electron",
+   "Abram Ioffe is quantum theory",
+   "Abram Ioffe is applied mathematics",
+   "Abram Ioffe is electricity",
+   "Abram Ioffe is human geography",
+   "Abram Ioffe is crystallography",
+   "Abram Ioffe is chemistry",
+   "Abram Ioffe is Jewish studies",
+   "Abram Ioffe is topology",
+   "Abram Ioffe is mathematical analysis",
+   "Abram Ioffe is computational geometry",
+   "Abram Ioffe is Petrine ministry",
+   "Abram Ioffe is social psychology",
+   "Abram Ioffe is genetics",
+   "Abram Ioffe is informatics",
+   "Abram Ioffe is shipbuilding",
+   "Abram Ioffe is historical sociology",
+   "Abram Ioffe is quantum mysticism",
+   "Abram Ioffe is philosopher",
+   "Abram Ioffe is Internet",
+   "Abram Ioffe is gravity",
+   "Abram Ioffe is theoretical physics",
+   "Abram Ioffe is African studies",
+   "Abram Ioffe is projective geometry",
+   "Abram Ioffe is prose",
+   "Abram Ioffe is momentum",
+   "Abram Ioffe is Cairo Geniza",
+   "Abram Ioffe is stochastic",
+   "Abram Ioffe is algebraic topology",
+   "Abram Ioffe is electrical engineering",
+   "Abram Ioffe is hunting",
+   "Abram Ioffe is evolution",
+   "Abram Ioffe is economic anthropology",
+   "Abram Ioffe is Hebrew",
+   "Abram Ioffe is differential geometry",
+   "Abram Ioffe is engineering",
+   "Abram Ioffe is history of science",
+   "Abram Ioffe is social anthropology",
+   "Abram Ioffe is history",
+   "Abram Ioffe is distribution theory",
+   "Abram Ioffe is classics",
+   "Abram Ioffe is crime novel",
+   "Abram Ioffe is statistics",
+   "Abram Ioffe is experimental physics",
+   "Abram Ioffe is geography",
+   "Abram Ioffe is anthropology",
+   "Abram Ioffe is partial differential equation",
+   "Abram Ioffe is applied physics",
+   "Abram Ioffe is Sanskrit",
+   "Abram Ioffe is a branch of physics",
+   "Abram Ioffe is comparative mythology",
+   "Abram Ioffe is radiation",
+   "Abram Ioffe is aeromechanics",
+   "Abram Ioffe is harmonic analysis",
+   "Abram Ioffe is religion",
+   "Abram Ioffe is civil rights",
+   "Abram Ioffe is physicist",
+   "Abram Ioffe is distribution",
+   "Abram Ioffe is translations from Spanish",
+   "Abram Ioffe is feminism",
+   "Abram Ioffe is number theory",
+   "Abram Ioffe is sociology of organisations",
+   "Abram Ioffe is astronomer",
+   "Abram Ioffe is children's and youth literature",
+   "Abram Ioffe is fairy tale",
+   "Abram Ioffe is economy",
+   "Abram Ioffe is graph theory",
+   "Abram Ioffe is magic",
+   "Abram Ioffe is essay",
+   "Abram Ioffe is theory of relativity",
+   "Abram Ioffe is historical novel",
+   "Abram Ioffe is biological anthropology",
+   "Abram Ioffe is literary theory",
+   "Abram Ioffe is Greek philology",
+   "Abram Ioffe is lyric poetry",
+   "Abram Ioffe is psychology",
+   "Abram Ioffe is quaternion",
+   "Abram Ioffe is rite",
+   "Abram Ioffe is jazz",
+   "Abram Ioffe is heat",
+   "Abram Ioffe is embryology",
+   "Abram Ioffe is social philosophy",
+   "Abram Ioffe is dance choreography",
+   "Abram Ioffe is politics",
+   "Abram Ioffe is nanotechnology",
+   "Abram Ioffe is Afghanistan",
+   "Abram Ioffe is non-Euclidean geometry",
+   "Abram Ioffe is Franciscan spirituality",
+   "Abram Ioffe is detective literature",
+   "Abram Ioffe is mathematician",
+   "Abram Ioffe is String",
+   "Abram Ioffe is classical music",
+   "Abram Ioffe is translations from Occitan",
+   "Abram Ioffe is abstract algebra",
+   "Abram Ioffe is differential calculus",
+   "Abram Ioffe is mythology",
+   "Abram Ioffe is literary translation",
+   "Abram Ioffe is ballistics",
+   "Abram Ioffe is cryptography",
+   "Abram Ioffe is Greek",
+   "Abram Ioffe is logic",
+   "Abram Ioffe is choreography",
+   "Abram Ioffe is theology",
+   "Abram Ioffe is world economy",
+   "Abram Ioffe is magnetism",
+   "Abram Ioffe is algebraic geometry",
+   "Abram Ioffe is theory of differential equations",
+   "Abram Ioffe is physics",
+   "Abram Ioffe is music theory",
+   "Abram Ioffe is economics",
+   "Abram Ioffe is anatomy",
+   "Abram Ioffe is electromagnetic field",
+   "Abram Ioffe is analytic number theory",
+   "Abram Ioffe is mathematical physics",
+   "Abram Ioffe is journalism",
+   "Abram Ioffe is sociology",
+   "Abram Ioffe is literature",
+   "Abram Ioffe is ethnography",
+   "Abram Ioffe is belletristic literature",
+   "Abram Ioffe is convex function",
+   "Abram Ioffe is sociology of religion",
+   "Abram Ioffe is pedagogy",
+   "Abram Ioffe is philosophy",
+   "Abram Ioffe is quantum mechanics",
+   "Abram Ioffe is drama",
+   "Abram Ioffe is dance",
+   "Abram Ioffe is Judaism",
+   "Abram Ioffe is quantum physics",
+   "Abram Ioffe is philosophy of science",
+   "Abram Ioffe is linguistics",
+   "Abram Ioffe is myth",
+   "Abram Ioffe is physiology",
+   "Abram Ioffe is English",
+   "Abram Ioffe is philology",
+   "Abram Ioffe is political philosophy",
+   "Abram Ioffe is mechanical engineering",
+   "Abram Ioffe is ontology",
+   "Abram Ioffe is forestry",
+   "Abram Ioffe is aerodynamics",
+   "Abram Ioffe is Christian Church",
+   "Abram Ioffe is magnetic resonance",
+   "Abram Ioffe is astrophysics",
+   "Abram Ioffe is natural science",
+   "Abram Ioffe is constitutional law",
+   "Abram Ioffe is philosophy of law",
+   "Abram Ioffe is education",
+   "Abram Ioffe is Monte Carlo method",
+   "Abram Ioffe is neurology",
+   "Abram Ioffe is electric field",
+   "Abram Ioffe is Minkowski spacetime",
+   "Abram Ioffe is translations from Arabic language",
+   "Abram Ioffe is Bayesian inference",
+   "Abram Ioffe is translations from Polish",
+   "Abram Ioffe is color photography",
+   "Abram Ioffe is opera",
+   "Abram Ioffe is model theory",
+   "Abram Ioffe is cartography",
+   "Abram Ioffe is nonstandard analysis",
+   "Abram Ioffe is television program",
+   "Abram Ioffe is complex manifold",
+   "Abram Ioffe is poetry",
+   "Abram Ioffe is mathematics",
+   "Abram Ioffe is computer science",
+   "Abram Ioffe is cosmology",
+   "Abram Ioffe is silviculture",
+   "Abram Ioffe is hydrodynamics",
+   "Abram Ioffe is forestry science",
+   "Abram Ioffe is comparative religion",
+   "Abram Ioffe is information technology",
+   "Abram Ioffe is ballet",
+   "Abram Ioffe is English literature",
+   "Abram Ioffe is conducting",
+   "Abram Ioffe is hyperbolic geometry",
+   "Abram Ioffe is biochemistry",
+   "Abram Ioffe is religion and society",
+   "Abram Ioffe is optics",
+   "Abram Ioffe is ethics",
+   "Abram Ioffe is cybernetics",
+   "Abram Ioffe is astronomical observation",
+   "Abram Ioffe is psychophysiology",
+   "Abram Ioffe is culturology",
+   "Abram Ioffe is history of religions",
+   "Abram Ioffe is probability theory",
+   "Abram Ioffe is paleontology",
+   "Abram Ioffe is surgery",
+   "Abram Ioffe is group theory",
+   "Abram Ioffe is natural theology",
+   "Abram Ioffe is astrology",
+   "Abram Ioffe is quantum electrodynamics",
+   "Abram Ioffe is mechanics",
+   "Abram Ioffe is Lie algebra",
+   "Abram Ioffe is trigonometry",
+   "Abram Ioffe is literary activity",
+   "Abram Ioffe is nuclear physics",
+   "Abram Ioffe is translations from English",
+   "Abram Ioffe is medicine",
+   "Abram Ioffe is Jewish philosophy",
+   "Abram Ioffe is mathematical logic",
+   "Abram Ioffe is calculus of variations",
+   "Abram Ioffe is ferromagnetism",
+   "Abram Ioffe is analytic geometry",
+   "Abram Ioffe is art of painting",
+   "Abram Ioffe is functional analysis",
+   "Abram Ioffe is folklore",
+   "Abram Ioffe is study of history",
+   "Abram Ioffe is geometry",
+   "Abram Ioffe is positivism",
+   "Abram Ioffe is geodesy",
+   "Abram Ioffe is astronomy",
+   "Abram Ioffe is magnetic field",
+   "Abram Ioffe is kinetic theory",
+   "Abram Ioffe is celestial mechanics",
+   "Abram Ioffe is analytic philosophy",
+   "Abram Ioffe is ethnology",
+   "Abram Ioffe is history of economic thought"
+  ],
+  [
+   [
+    -49.36329650878906
+   ],
+   [
+    -49.64788818359375
+   ],
+   [
+    -54.971336364746094
+   ],
+   [
+    -50.44871520996094
+   ],
+   [
+    -48.02520751953125
+   ],
+   [
+    -48.160701751708984
+   ],
+   [
+    -48.79172897338867
+   ],
+   [
+    -46.533447265625
+   ],
+   [
+    -48.126121520996094
+   ],
+   [
+    -48.98440933227539
+   ],
+   [
+    -49.12271499633789
+   ],
+   [
+    -46.770904541015625
+   ],
+   [
+    -48.033531188964844
+   ],
+   [
+    -47.9072265625
+   ],
+   [
+    -48.31480407714844
+   ],
+   [
+    -50.19255828857422
+   ],
+   [
+    -62.61769104003906
+   ],
+   [
+    -45.713993072509766
+   ],
+   [
+    -46.96790313720703
+   ],
+   [
+    -47.87342071533203
+   ],
+   [
+    -51.124122619628906
+   ],
+   [
+    -49.306907653808594
+   ],
+   [
+    -56.55133819580078
+   ],
+   [
+    -50.16202163696289
+   ],
+   [
+    -45.25876998901367
+   ],
+   [
+    -49.91547393798828
+   ],
+   [
+    -45.40304183959961
+   ],
+   [
+    -50.66093444824219
+   ],
+   [
+    -51.89887237548828
+   ],
+   [
+    -48.301361083984375
+   ],
+   [
+    -51.78654098510742
+   ],
+   [
+    -60.24419403076172
+   ],
+   [
+    -48.43769836425781
+   ],
+   [
+    -50.55131912231445
+   ],
+   [
+    -47.86541748046875
+   ],
+   [
+    -48.65966796875
+   ],
+   [
+    -48.08804702758789
+   ],
+   [
+    -48.57233428955078
+   ],
+   [
+    -47.834102630615234
+   ],
+   [
+    -50.53258514404297
+   ],
+   [
+    -46.586669921875
+   ],
+   [
+    -47.91302490234375
+   ],
+   [
+    -47.549163818359375
+   ],
+   [
+    -44.562828063964844
+   ],
+   [
+    -51.597900390625
+   ],
+   [
+    -49.39683532714844
+   ],
+   [
+    -54.82337951660156
+   ],
+   [
+    -47.64985275268555
+   ],
+   [
+    -47.17705154418945
+   ],
+   [
+    -47.74382400512695
+   ],
+   [
+    -46.55813217163086
+   ],
+   [
+    -54.527244567871094
+   ],
+   [
+    -48.975223541259766
+   ],
+   [
+    -50.070762634277344
+   ],
+   [
+    -51.591331481933594
+   ],
+   [
+    -49.84538269042969
+   ],
+   [
+    -48.381019592285156
+   ],
+   [
+    -53.9476318359375
+   ],
+   [
+    -50.56708908081055
+   ],
+   [
+    -46.59078598022461
+   ],
+   [
+    -48.64259338378906
+   ],
+   [
+    -51.96788787841797
+   ],
+   [
+    -48.04128646850586
+   ],
+   [
+    -54.796234130859375
+   ],
+   [
+    -47.89300537109375
+   ],
+   [
+    -47.88612365722656
+   ],
+   [
+    -53.77812957763672
+   ],
+   [
+    -53.350807189941406
+   ],
+   [
+    -52.67875289916992
+   ],
+   [
+    -51.18376922607422
+   ],
+   [
+    -48.00209045410156
+   ],
+   [
+    -47.414283752441406
+   ],
+   [
+    -46.56793212890625
+   ],
+   [
+    -47.8510627746582
+   ],
+   [
+    -52.643707275390625
+   ],
+   [
+    -51.92981719970703
+   ],
+   [
+    -49.57539367675781
+   ],
+   [
+    -47.28289794921875
+   ],
+   [
+    -53.442604064941406
+   ],
+   [
+    -51.367244720458984
+   ],
+   [
+    -45.52734375
+   ],
+   [
+    -51.134361267089844
+   ],
+   [
+    -53.01606750488281
+   ],
+   [
+    -47.216407775878906
+   ],
+   [
+    -49.185447692871094
+   ],
+   [
+    -50.28278350830078
+   ],
+   [
+    -49.022132873535156
+   ],
+   [
+    -54.41021728515625
+   ],
+   [
+    -45.22639465332031
+   ],
+   [
+    -47.69408416748047
+   ],
+   [
+    -49.60334014892578
+   ],
+   [
+    -52.61729431152344
+   ],
+   [
+    -57.776485443115234
+   ],
+   [
+    -53.697296142578125
+   ],
+   [
+    -51.699317932128906
+   ],
+   [
+    -50.02574157714844
+   ],
+   [
+    -47.31061553955078
+   ],
+   [
+    -59.050350189208984
+   ],
+   [
+    -49.00330352783203
+   ],
+   [
+    -51.82875061035156
+   ],
+   [
+    -48.21491241455078
+   ],
+   [
+    -48.09803771972656
+   ],
+   [
+    -50.82280731201172
+   ],
+   [
+    -45.87892150878906
+   ],
+   [
+    -48.63197326660156
+   ],
+   [
+    -47.20893096923828
+   ],
+   [
+    -50.426719665527344
+   ],
+   [
+    -47.40574645996094
+   ],
+   [
+    -50.98207092285156
+   ],
+   [
+    -49.56270980834961
+   ],
+   [
+    -49.44042205810547
+   ],
+   [
+    -55.36567687988281
+   ],
+   [
+    -45.653953552246094
+   ],
+   [
+    -48.084678649902344
+   ],
+   [
+    -45.14620590209961
+   ],
+   [
+    -49.11334991455078
+   ],
+   [
+    -51.87432861328125
+   ],
+   [
+    -51.28221893310547
+   ],
+   [
+    -47.910160064697266
+   ],
+   [
+    -45.396759033203125
+   ],
+   [
+    -45.220279693603516
+   ],
+   [
+    -45.7041130065918
+   ],
+   [
+    -45.93595886230469
+   ],
+   [
+    -56.618804931640625
+   ],
+   [
+    -55.20484924316406
+   ],
+   [
+    -48.737327575683594
+   ],
+   [
+    -47.22874450683594
+   ],
+   [
+    -44.21109390258789
+   ],
+   [
+    -47.65553283691406
+   ],
+   [
+    -48.619049072265625
+   ],
+   [
+    -47.80034637451172
+   ],
+   [
+    -47.95301818847656
+   ],
+   [
+    -47.01487350463867
+   ],
+   [
+    -46.759483337402344
+   ],
+   [
+    -45.37335205078125
+   ],
+   [
+    -48.15595245361328
+   ],
+   [
+    -48.830970764160156
+   ],
+   [
+    -46.75181198120117
+   ],
+   [
+    -46.9874382019043
+   ],
+   [
+    -46.15803527832031
+   ],
+   [
+    -49.14566421508789
+   ],
+   [
+    -46.91672897338867
+   ],
+   [
+    -49.585227966308594
+   ],
+   [
+    -50.573089599609375
+   ],
+   [
+    -55.68894958496094
+   ],
+   [
+    -49.80231475830078
+   ],
+   [
+    -47.79452896118164
+   ],
+   [
+    -48.838783264160156
+   ],
+   [
+    -48.170631408691406
+   ],
+   [
+    -47.97425079345703
+   ],
+   [
+    -44.84833908081055
+   ],
+   [
+    -56.81072998046875
+   ],
+   [
+    -48.32965087890625
+   ],
+   [
+    -52.559906005859375
+   ],
+   [
+    -54.48378372192383
+   ],
+   [
+    -60.55731201171875
+   ],
+   [
+    -49.71595001220703
+   ],
+   [
+    -54.39002227783203
+   ],
+   [
+    -49.314659118652344
+   ],
+   [
+    -48.56153869628906
+   ],
+   [
+    -52.286766052246094
+   ],
+   [
+    -47.473609924316406
+   ],
+   [
+    -52.77411651611328
+   ],
+   [
+    -53.718231201171875
+   ],
+   [
+    -55.55018615722656
+   ],
+   [
+    -46.06336975097656
+   ],
+   [
+    -44.80284118652344
+   ],
+   [
+    -46.563846588134766
+   ],
+   [
+    -46.84680938720703
+   ],
+   [
+    -53.19743347167969
+   ],
+   [
+    -50.78524398803711
+   ],
+   [
+    -55.18667221069336
+   ],
+   [
+    -47.77871322631836
+   ],
+   [
+    -47.061851501464844
+   ],
+   [
+    -49.237098693847656
+   ],
+   [
+    -48.905364990234375
+   ],
+   [
+    -47.09823989868164
+   ],
+   [
+    -51.55419158935547
+   ],
+   [
+    -47.27421951293945
+   ],
+   [
+    -52.09275817871094
+   ],
+   [
+    -47.1829948425293
+   ],
+   [
+    -45.646305084228516
+   ],
+   [
+    -46.21625518798828
+   ],
+   [
+    -54.81618881225586
+   ],
+   [
+    -48.12153625488281
+   ],
+   [
+    -50.49181365966797
+   ],
+   [
+    -50.92949676513672
+   ],
+   [
+    -48.67322540283203
+   ],
+   [
+    -49.62471008300781
+   ],
+   [
+    -49.313636779785156
+   ],
+   [
+    -49.056209564208984
+   ],
+   [
+    -51.63046646118164
+   ],
+   [
+    -47.779659271240234
+   ],
+   [
+    -49.42539978027344
+   ],
+   [
+    -49.83006286621094
+   ],
+   [
+    -53.256103515625
+   ],
+   [
+    -50.32281494140625
+   ],
+   [
+    -54.74160385131836
+   ],
+   [
+    -47.99144744873047
+   ],
+   [
+    -52.61772918701172
+   ],
+   [
+    -46.224708557128906
+   ],
+   [
+    -48.19704055786133
+   ],
+   [
+    -47.222503662109375
+   ],
+   [
+    -52.89726257324219
+   ],
+   [
+    -53.17995071411133
+   ],
+   [
+    -51.15423583984375
+   ],
+   [
+    -54.34141540527344
+   ],
+   [
+    -49.41065216064453
+   ],
+   [
+    -47.356109619140625
+   ],
+   [
+    -51.98811340332031
+   ],
+   [
+    -48.33209991455078
+   ],
+   [
+    -51.23451232910156
+   ],
+   [
+    -50.06244659423828
+   ],
+   [
+    -47.762046813964844
+   ],
+   [
+    -52.49688720703125
+   ],
+   [
+    -50.793296813964844
+   ],
+   [
+    -51.12911605834961
+   ],
+   [
+    -46.9813232421875
+   ],
+   [
+    -47.017032623291016
+   ],
+   [
+    -51.578468322753906
+   ],
+   [
+    -39.37377166748047
+   ],
+   [
+    -41.451568603515625
+   ],
+   [
+    -44.334747314453125
+   ],
+   [
+    -39.97393798828125
+   ],
+   [
+    -37.03804016113281
+   ],
+   [
+    -36.81560134887695
+   ],
+   [
+    -40.108436584472656
+   ],
+   [
+    -37.00501251220703
+   ],
+   [
+    -37.32438278198242
+   ],
+   [
+    -39.39197540283203
+   ],
+   [
+    -39.376651763916016
+   ],
+   [
+    -35.73141860961914
+   ],
+   [
+    -39.396575927734375
+   ],
+   [
+    -39.61553192138672
+   ],
+   [
+    -41.20832824707031
+   ],
+   [
+    -42.12278747558594
+   ],
+   [
+    -52.32524871826172
+   ],
+   [
+    -37.329071044921875
+   ],
+   [
+    -38.810585021972656
+   ],
+   [
+    -36.77901840209961
+   ],
+   [
+    -39.6118049621582
+   ],
+   [
+    -42.269142150878906
+   ],
+   [
+    -47.92572021484375
+   ],
+   [
+    -33.57456970214844
+   ],
+   [
+    -31.943132400512695
+   ],
+   [
+    -38.25640869140625
+   ],
+   [
+    -36.49538040161133
+   ],
+   [
+    -39.8126220703125
+   ],
+   [
+    -43.10715866088867
+   ],
+   [
+    -35.555870056152344
+   ],
+   [
+    -38.03128433227539
+   ],
+   [
+    -49.29631042480469
+   ],
+   [
+    -41.457733154296875
+   ],
+   [
+    -43.67405700683594
+   ],
+   [
+    -38.31554412841797
+   ],
+   [
+    -34.083587646484375
+   ],
+   [
+    -36.50104904174805
+   ],
+   [
+    -41.97550964355469
+   ],
+   [
+    -32.96813201904297
+   ],
+   [
+    -41.21671676635742
+   ],
+   [
+    -34.09951400756836
+   ],
+   [
+    -40.38739776611328
+   ],
+   [
+    -38.624000549316406
+   ],
+   [
+    -33.41798782348633
+   ],
+   [
+    -43.94472122192383
+   ],
+   [
+    -37.10918045043945
+   ],
+   [
+    -42.34907531738281
+   ],
+   [
+    -35.95294189453125
+   ],
+   [
+    -39.10735321044922
+   ],
+   [
+    -35.65922546386719
+   ],
+   [
+    -35.51784133911133
+   ],
+   [
+    -47.656982421875
+   ],
+   [
+    -38.47265625
+   ],
+   [
+    -37.63177490234375
+   ],
+   [
+    -44.59778594970703
+   ],
+   [
+    -42.55908203125
+   ],
+   [
+    -36.67520523071289
+   ],
+   [
+    -42.692100524902344
+   ],
+   [
+    -42.71135711669922
+   ],
+   [
+    -36.830238342285156
+   ],
+   [
+    -36.23448944091797
+   ],
+   [
+    -33.35517501831055
+   ],
+   [
+    -36.77186584472656
+   ],
+   [
+    -47.71483612060547
+   ],
+   [
+    -39.11475372314453
+   ],
+   [
+    -42.19538879394531
+   ],
+   [
+    -47.656280517578125
+   ],
+   [
+    -36.379276275634766
+   ],
+   [
+    -46.40773010253906
+   ],
+   [
+    -40.79297637939453
+   ],
+   [
+    -36.27961349487305
+   ],
+   [
+    -37.74365234375
+   ],
+   [
+    -34.79642105102539
+   ],
+   [
+    -35.60051727294922
+   ],
+   [
+    -42.12073516845703
+   ],
+   [
+    -39.9100341796875
+   ],
+   [
+    -41.63172912597656
+   ],
+   [
+    -40.88522720336914
+   ],
+   [
+    -46.71491241455078
+   ],
+   [
+    -43.3453369140625
+   ],
+   [
+    -34.40146255493164
+   ],
+   [
+    -42.343910217285156
+   ],
+   [
+    -38.083648681640625
+   ],
+   [
+    -34.2580451965332
+   ],
+   [
+    -37.66754913330078
+   ],
+   [
+    -41.047481536865234
+   ],
+   [
+    -41.785072326660156
+   ],
+   [
+    -46.805908203125
+   ],
+   [
+    -34.2181510925293
+   ],
+   [
+    -37.85714340209961
+   ],
+   [
+    -37.09047317504883
+   ],
+   [
+    -41.37892150878906
+   ],
+   [
+    -47.6195182800293
+   ],
+   [
+    -48.07472229003906
+   ],
+   [
+    -32.72642517089844
+   ],
+   [
+    -36.669273376464844
+   ],
+   [
+    -36.07592010498047
+   ],
+   [
+    -50.987159729003906
+   ],
+   [
+    -41.524009704589844
+   ],
+   [
+    -42.67281723022461
+   ],
+   [
+    -37.97511672973633
+   ],
+   [
+    -40.9879035949707
+   ],
+   [
+    -40.35466766357422
+   ],
+   [
+    -35.340633392333984
+   ],
+   [
+    -35.17213439941406
+   ],
+   [
+    -36.47197723388672
+   ],
+   [
+    -43.69593048095703
+   ],
+   [
+    -35.949623107910156
+   ],
+   [
+    -41.324676513671875
+   ],
+   [
+    -40.58713912963867
+   ],
+   [
+    -40.98499298095703
+   ],
+   [
+    -46.328369140625
+   ],
+   [
+    -33.803871154785156
+   ],
+   [
+    -38.31117248535156
+   ],
+   [
+    -32.660274505615234
+   ],
+   [
+    -37.37086868286133
+   ],
+   [
+    -42.24188232421875
+   ],
+   [
+    -38.37120819091797
+   ],
+   [
+    -38.631011962890625
+   ],
+   [
+    -34.4711799621582
+   ],
+   [
+    -33.94416809082031
+   ],
+   [
+    -35.20526123046875
+   ],
+   [
+    -37.34910583496094
+   ],
+   [
+    -50.1673469543457
+   ],
+   [
+    -44.1497802734375
+   ],
+   [
+    -40.55968475341797
+   ],
+   [
+    -37.98588562011719
+   ],
+   [
+    -34.048770904541016
+   ],
+   [
+    -39.91096496582031
+   ],
+   [
+    -37.00479507446289
+   ],
+   [
+    -36.45988464355469
+   ],
+   [
+    -36.03602600097656
+   ],
+   [
+    -38.546390533447266
+   ],
+   [
+    -39.11566162109375
+   ],
+   [
+    -35.40245819091797
+   ],
+   [
+    -36.25821304321289
+   ],
+   [
+    -38.07411575317383
+   ],
+   [
+    -33.267066955566406
+   ],
+   [
+    -39.60681915283203
+   ],
+   [
+    -40.294212341308594
+   ],
+   [
+    -38.18558120727539
+   ],
+   [
+    -38.23747634887695
+   ],
+   [
+    -38.98335266113281
+   ],
+   [
+    -40.21113204956055
+   ],
+   [
+    -42.303367614746094
+   ],
+   [
+    -46.287139892578125
+   ],
+   [
+    -38.362091064453125
+   ],
+   [
+    -37.96487808227539
+   ],
+   [
+    -37.51863479614258
+   ],
+   [
+    -40.670738220214844
+   ],
+   [
+    -33.696659088134766
+   ],
+   [
+    -50.57073211669922
+   ],
+   [
+    -36.359466552734375
+   ],
+   [
+    -42.384063720703125
+   ],
+   [
+    -48.434226989746094
+   ],
+   [
+    -53.85246658325195
+   ],
+   [
+    -42.445068359375
+   ],
+   [
+    -47.913169860839844
+   ],
+   [
+    -44.17344665527344
+   ],
+   [
+    -36.17049789428711
+   ],
+   [
+    -44.20673370361328
+   ],
+   [
+    -39.31356430053711
+   ],
+   [
+    -43.594871520996094
+   ],
+   [
+    -42.103172302246094
+   ],
+   [
+    -46.424617767333984
+   ],
+   [
+    -34.671817779541016
+   ],
+   [
+    -34.486976623535156
+   ],
+   [
+    -32.823265075683594
+   ],
+   [
+    -37.18210220336914
+   ],
+   [
+    -42.184722900390625
+   ],
+   [
+    -40.47087860107422
+   ],
+   [
+    -43.770713806152344
+   ],
+   [
+    -40.48699951171875
+   ],
+   [
+    -37.38025665283203
+   ],
+   [
+    -36.848365783691406
+   ],
+   [
+    -37.47037887573242
+   ],
+   [
+    -31.303640365600586
+   ],
+   [
+    -46.80140686035156
+   ],
+   [
+    -36.25975799560547
+   ],
+   [
+    -44.08519744873047
+   ],
+   [
+    -38.67850875854492
+   ],
+   [
+    -36.85023498535156
+   ],
+   [
+    -38.02130889892578
+   ],
+   [
+    -46.99266052246094
+   ],
+   [
+    -41.512939453125
+   ],
+   [
+    -43.42052459716797
+   ],
+   [
+    -45.47814178466797
+   ],
+   [
+    -39.80302429199219
+   ],
+   [
+    -38.60877990722656
+   ],
+   [
+    -37.27543258666992
+   ],
+   [
+    -40.79652404785156
+   ],
+   [
+    -43.5714111328125
+   ],
+   [
+    -38.21034622192383
+   ],
+   [
+    -41.5648193359375
+   ],
+   [
+    -40.16371536254883
+   ],
+   [
+    -43.669395446777344
+   ],
+   [
+    -41.12242126464844
+   ],
+   [
+    -44.84243392944336
+   ],
+   [
+    -37.43914031982422
+   ],
+   [
+    -46.26801300048828
+   ],
+   [
+    -35.81011199951172
+   ],
+   [
+    -39.33106994628906
+   ],
+   [
+    -39.81638717651367
+   ],
+   [
+    -43.637428283691406
+   ],
+   [
+    -44.489376068115234
+   ],
+   [
+    -40.25669479370117
+   ],
+   [
+    -47.174373626708984
+   ],
+   [
+    -42.314083099365234
+   ],
+   [
+    -37.199684143066406
+   ],
+   [
+    -42.88764953613281
+   ],
+   [
+    -37.12471008300781
+   ],
+   [
+    -40.879356384277344
+   ],
+   [
+    -40.60160827636719
+   ],
+   [
+    -36.98379898071289
+   ],
+   [
+    -43.55777359008789
+   ],
+   [
+    -39.03204345703125
+   ],
+   [
+    -42.075191497802734
+   ],
+   [
+    -37.68233108520508
+   ],
+   [
+    -38.57044219970703
+   ],
+   [
+    -45.26616668701172
+   ]
+  ]
+ ],
+ "time": 4945.440054893494
+}

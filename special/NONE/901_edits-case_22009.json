@@ -1,0 +1,2076 @@
+{
+ "case_id": 22009,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "William Rowan Hamilton"
+ },
+ "pre": [
+  [
+   "William Rowan Hamilton's field of work is meteorology",
+   "William Rowan Hamilton's field of work is radioactivity",
+   "William Rowan Hamilton's field of work is complex function",
+   "William Rowan Hamilton's field of work is histology",
+   "William Rowan Hamilton's field of work is algebra",
+   "William Rowan Hamilton's field of work is electron",
+   "William Rowan Hamilton's field of work is quantum theory",
+   "William Rowan Hamilton's field of work is applied mathematics",
+   "William Rowan Hamilton's field of work is electricity",
+   "William Rowan Hamilton's field of work is human geography",
+   "William Rowan Hamilton's field of work is crystallography",
+   "William Rowan Hamilton's field of work is chemistry",
+   "William Rowan Hamilton's field of work is Jewish studies",
+   "William Rowan Hamilton's field of work is topology",
+   "William Rowan Hamilton's field of work is mathematical analysis",
+   "William Rowan Hamilton's field of work is computational geometry",
+   "William Rowan Hamilton's field of work is Petrine ministry",
+   "William Rowan Hamilton's field of work is social psychology",
+   "William Rowan Hamilton's field of work is genetics",
+   "William Rowan Hamilton's field of work is informatics",
+   "William Rowan Hamilton's field of work is shipbuilding",
+   "William Rowan Hamilton's field of work is historical sociology",
+   "William Rowan Hamilton's field of work is quantum mysticism",
+   "William Rowan Hamilton's field of work is philosopher",
+   "William Rowan Hamilton's field of work is Internet",
+   "William Rowan Hamilton's field of work is gravity",
+   "William Rowan Hamilton's field of work is theoretical physics",
+   "William Rowan Hamilton's field of work is African studies",
+   "William Rowan Hamilton's field of work is projective geometry",
+   "William Rowan Hamilton's field of work is prose",
+   "William Rowan Hamilton's field of work is momentum",
+   "William Rowan Hamilton's field of work is Cairo Geniza",
+   "William Rowan Hamilton's field of work is stochastic",
+   "William Rowan Hamilton's field of work is algebraic topology",
+   "William Rowan Hamilton's field of work is electrical engineering",
+   "William Rowan Hamilton's field of work is hunting",
+   "William Rowan Hamilton's field of work is evolution",
+   "William Rowan Hamilton's field of work is economic anthropology",
+   "William Rowan Hamilton's field of work is Hebrew",
+   "William Rowan Hamilton's field of work is differential geometry",
+   "William Rowan Hamilton's field of work is engineering",
+   "William Rowan Hamilton's field of work is history of science",
+   "William Rowan Hamilton's field of work is social anthropology",
+   "William Rowan Hamilton's field of work is history",
+   "William Rowan Hamilton's field of work is distribution theory",
+   "William Rowan Hamilton's field of work is classics",
+   "William Rowan Hamilton's field of work is crime novel",
+   "William Rowan Hamilton's field of work is statistics",
+   "William Rowan Hamilton's field of work is experimental physics",
+   "William Rowan Hamilton's field of work is geography",
+   "William Rowan Hamilton's field of work is anthropology",
+   "William Rowan Hamilton's field of work is partial differential equation",
+   "William Rowan Hamilton's field of work is applied physics",
+   "William Rowan Hamilton's field of work is Sanskrit",
+   "William Rowan Hamilton's field of work is a branch of physics",
+   "William Rowan Hamilton's field of work is comparative mythology",
+   "William Rowan Hamilton's field of work is radiation",
+   "William Rowan Hamilton's field of work is aeromechanics",
+   "William Rowan Hamilton's field of work is harmonic analysis",
+   "William Rowan Hamilton's field of work is religion",
+   "William Rowan Hamilton's field of work is civil rights",
+   "William Rowan Hamilton's field of work is physicist",
+   "William Rowan Hamilton's field of work is distribution",
+   "William Rowan Hamilton's field of work is translations from Spanish",
+   "William Rowan Hamilton's field of work is feminism",
+   "William Rowan Hamilton's field of work is number theory",
+   "William Rowan Hamilton's field of work is sociology of organisations",
+   "William Rowan Hamilton's field of work is astronomer",
+   "William Rowan Hamilton's field of work is children's and youth literature",
+   "William Rowan Hamilton's field of work is fairy tale",
+   "William Rowan Hamilton's field of work is economy",
+   "William Rowan Hamilton's field of work is graph theory",
+   "William Rowan Hamilton's field of work is magic",
+   "William Rowan Hamilton's field of work is essay",
+   "William Rowan Hamilton's field of work is theory of relativity",
+   "William Rowan Hamilton's field of work is historical novel",
+   "William Rowan Hamilton's field of work is biological anthropology",
+   "William Rowan Hamilton's field of work is literary theory",
+   "William Rowan Hamilton's field of work is Greek philology",
+   "William Rowan Hamilton's field of work is lyric poetry",
+   "William Rowan Hamilton's field of work is psychology",
+   "William Rowan Hamilton's field of work is quaternion",
+   "William Rowan Hamilton's field of work is rite",
+   "William Rowan Hamilton's field of work is jazz",
+   "William Rowan Hamilton's field of work is heat",
+   "William Rowan Hamilton's field of work is embryology",
+   "William Rowan Hamilton's field of work is social philosophy",
+   "William Rowan Hamilton's field of work is dance choreography",
+   "William Rowan Hamilton's field of work is politics",
+   "William Rowan Hamilton's field of work is nanotechnology",
+   "William Rowan Hamilton's field of work is Afghanistan",
+   "William Rowan Hamilton's field of work is non-Euclidean geometry",
+   "William Rowan Hamilton's field of work is Franciscan spirituality",
+   "William Rowan Hamilton's field of work is detective literature",
+   "William Rowan Hamilton's field of work is mathematician",
+   "William Rowan Hamilton's field of work is String",
+   "William Rowan Hamilton's field of work is classical music",
+   "William Rowan Hamilton's field of work is translations from Occitan",
+   "William Rowan Hamilton's field of work is abstract algebra",
+   "William Rowan Hamilton's field of work is differential calculus",
+   "William Rowan Hamilton's field of work is mythology",
+   "William Rowan Hamilton's field of work is literary translation",
+   "William Rowan Hamilton's field of work is ballistics",
+   "William Rowan Hamilton's field of work is cryptography",
+   "William Rowan Hamilton's field of work is Greek",
+   "William Rowan Hamilton's field of work is logic",
+   "William Rowan Hamilton's field of work is choreography",
+   "William Rowan Hamilton's field of work is theology",
+   "William Rowan Hamilton's field of work is world economy",
+   "William Rowan Hamilton's field of work is magnetism",
+   "William Rowan Hamilton's field of work is algebraic geometry",
+   "William Rowan Hamilton's field of work is theory of differential equations",
+   "William Rowan Hamilton's field of work is physics",
+   "William Rowan Hamilton's field of work is music theory",
+   "William Rowan Hamilton's field of work is economics",
+   "William Rowan Hamilton's field of work is anatomy",
+   "William Rowan Hamilton's field of work is electromagnetic field",
+   "William Rowan Hamilton's field of work is analytic number theory",
+   "William Rowan Hamilton's field of work is mathematical physics",
+   "William Rowan Hamilton's field of work is journalism",
+   "William Rowan Hamilton's field of work is sociology",
+   "William Rowan Hamilton's field of work is literature",
+   "William Rowan Hamilton's field of work is ethnography",
+   "William Rowan Hamilton's field of work is belletristic literature",
+   "William Rowan Hamilton's field of work is convex function",
+   "William Rowan Hamilton's field of work is sociology of religion",
+   "William Rowan Hamilton's field of work is pedagogy",
+   "William Rowan Hamilton's field of work is philosophy",
+   "William Rowan Hamilton's field of work is quantum mechanics",
+   "William Rowan Hamilton's field of work is drama",
+   "William Rowan Hamilton's field of work is dance",
+   "William Rowan Hamilton's field of work is Judaism",
+   "William Rowan Hamilton's field of work is quantum physics",
+   "William Rowan Hamilton's field of work is philosophy of science",
+   "William Rowan Hamilton's field of work is linguistics",
+   "William Rowan Hamilton's field of work is myth",
+   "William Rowan Hamilton's field of work is physiology",
+   "William Rowan Hamilton's field of work is English",
+   "William Rowan Hamilton's field of work is philology",
+   "William Rowan Hamilton's field of work is political philosophy",
+   "William Rowan Hamilton's field of work is mechanical engineering",
+   "William Rowan Hamilton's field of work is ontology",
+   "William Rowan Hamilton's field of work is forestry",
+   "William Rowan Hamilton's field of work is aerodynamics",
+   "William Rowan Hamilton's field of work is Christian Church",
+   "William Rowan Hamilton's field of work is magnetic resonance",
+   "William Rowan Hamilton's field of work is astrophysics",
+   "William Rowan Hamilton's field of work is natural science",
+   "William Rowan Hamilton's field of work is constitutional law",
+   "William Rowan Hamilton's field of work is philosophy of law",
+   "William Rowan Hamilton's field of work is education",
+   "William Rowan Hamilton's field of work is Monte Carlo method",
+   "William Rowan Hamilton's field of work is neurology",
+   "William Rowan Hamilton's field of work is electric field",
+   "William Rowan Hamilton's field of work is Minkowski spacetime",
+   "William Rowan Hamilton's field of work is translations from Arabic language",
+   "William Rowan Hamilton's field of work is Bayesian inference",
+   "William Rowan Hamilton's field of work is translations from Polish",
+   "William Rowan Hamilton's field of work is color photography",
+   "William Rowan Hamilton's field of work is opera",
+   "William Rowan Hamilton's field of work is model theory",
+   "William Rowan Hamilton's field of work is cartography",
+   "William Rowan Hamilton's field of work is nonstandard analysis",
+   "William Rowan Hamilton's field of work is television program",
+   "William Rowan Hamilton's field of work is complex manifold",
+   "William Rowan Hamilton's field of work is poetry",
+   "William Rowan Hamilton's field of work is mathematics",
+   "William Rowan Hamilton's field of work is computer science",
+   "William Rowan Hamilton's field of work is cosmology",
+   "William Rowan Hamilton's field of work is silviculture",
+   "William Rowan Hamilton's field of work is hydrodynamics",
+   "William Rowan Hamilton's field of work is forestry science",
+   "William Rowan Hamilton's field of work is comparative religion",
+   "William Rowan Hamilton's field of work is information technology",
+   "William Rowan Hamilton's field of work is ballet",
+   "William Rowan Hamilton's field of work is English literature",
+   "William Rowan Hamilton's field of work is conducting",
+   "William Rowan Hamilton's field of work is hyperbolic geometry",
+   "William Rowan Hamilton's field of work is biochemistry",
+   "William Rowan Hamilton's field of work is religion and society",
+   "William Rowan Hamilton's field of work is optics",
+   "William Rowan Hamilton's field of work is ethics",
+   "William Rowan Hamilton's field of work is cybernetics",
+   "William Rowan Hamilton's field of work is astronomical observation",
+   "William Rowan Hamilton's field of work is psychophysiology",
+   "William Rowan Hamilton's field of work is culturology",
+   "William Rowan Hamilton's field of work is history of religions",
+   "William Rowan Hamilton's field of work is probability theory",
+   "William Rowan Hamilton's field of work is paleontology",
+   "William Rowan Hamilton's field of work is surgery",
+   "William Rowan Hamilton's field of work is group theory",
+   "William Rowan Hamilton's field of work is natural theology",
+   "William Rowan Hamilton's field of work is astrology",
+   "William Rowan Hamilton's field of work is quantum electrodynamics",
+   "William Rowan Hamilton's field of work is mechanics",
+   "William Rowan Hamilton's field of work is Lie algebra",
+   "William Rowan Hamilton's field of work is trigonometry",
+   "William Rowan Hamilton's field of work is literary activity",
+   "William Rowan Hamilton's field of work is nuclear physics",
+   "William Rowan Hamilton's field of work is translations from English",
+   "William Rowan Hamilton's field of work is medicine",
+   "William Rowan Hamilton's field of work is Jewish philosophy",
+   "William Rowan Hamilton's field of work is mathematical logic",
+   "William Rowan Hamilton's field of work is calculus of variations",
+   "William Rowan Hamilton's field of work is ferromagnetism",
+   "William Rowan Hamilton's field of work is analytic geometry",
+   "William Rowan Hamilton's field of work is art of painting",
+   "William Rowan Hamilton's field of work is functional analysis",
+   "William Rowan Hamilton's field of work is folklore",
+   "William Rowan Hamilton's field of work is study of history",
+   "William Rowan Hamilton's field of work is geometry",
+   "William Rowan Hamilton's field of work is positivism",
+   "William Rowan Hamilton's field of work is geodesy",
+   "William Rowan Hamilton's field of work is astronomy",
+   "William Rowan Hamilton's field of work is magnetic field",
+   "William Rowan Hamilton's field of work is kinetic theory",
+   "William Rowan Hamilton's field of work is celestial mechanics",
+   "William Rowan Hamilton's field of work is analytic philosophy",
+   "William Rowan Hamilton's field of work is ethnology",
+   "William Rowan Hamilton's field of work is history of economic thought",
+   "William Rowan Hamilton is meteorology",
+   "William Rowan Hamilton is radioactivity",
+   "William Rowan Hamilton is complex function",
+   "William Rowan Hamilton is histology",
+   "William Rowan Hamilton is algebra",
+   "William Rowan Hamilton is electron",
+   "William Rowan Hamilton is quantum theory",
+   "William Rowan Hamilton is applied mathematics",
+   "William Rowan Hamilton is electricity",
+   "William Rowan Hamilton is human geography",
+   "William Rowan Hamilton is crystallography",
+   "William Rowan Hamilton is chemistry",
+   "William Rowan Hamilton is Jewish studies",
+   "William Rowan Hamilton is topology",
+   "William Rowan Hamilton is mathematical analysis",
+   "William Rowan Hamilton is computational geometry",
+   "William Rowan Hamilton is Petrine ministry",
+   "William Rowan Hamilton is social psychology",
+   "William Rowan Hamilton is genetics",
+   "William Rowan Hamilton is informatics",
+   "William Rowan Hamilton is shipbuilding",
+   "William Rowan Hamilton is historical sociology",
+   "William Rowan Hamilton is quantum mysticism",
+   "William Rowan Hamilton is philosopher",
+   "William Rowan Hamilton is Internet",
+   "William Rowan Hamilton is gravity",
+   "William Rowan Hamilton is theoretical physics",
+   "William Rowan Hamilton is African studies",
+   "William Rowan Hamilton is projective geometry",
+   "William Rowan Hamilton is prose",
+   "William Rowan Hamilton is momentum",
+   "William Rowan Hamilton is Cairo Geniza",
+   "William Rowan Hamilton is stochastic",
+   "William Rowan Hamilton is algebraic topology",
+   "William Rowan Hamilton is electrical engineering",
+   "William Rowan Hamilton is hunting",
+   "William Rowan Hamilton is evolution",
+   "William Rowan Hamilton is economic anthropology",
+   "William Rowan Hamilton is Hebrew",
+   "William Rowan Hamilton is differential geometry",
+   "William Rowan Hamilton is engineering",
+   "William Rowan Hamilton is history of science",
+   "William Rowan Hamilton is social anthropology",
+   "William Rowan Hamilton is history",
+   "William Rowan Hamilton is distribution theory",
+   "William Rowan Hamilton is classics",
+   "William Rowan Hamilton is crime novel",
+   "William Rowan Hamilton is statistics",
+   "William Rowan Hamilton is experimental physics",
+   "William Rowan Hamilton is geography",
+   "William Rowan Hamilton is anthropology",
+   "William Rowan Hamilton is partial differential equation",
+   "William Rowan Hamilton is applied physics",
+   "William Rowan Hamilton is Sanskrit",
+   "William Rowan Hamilton is a branch of physics",
+   "William Rowan Hamilton is comparative mythology",
+   "William Rowan Hamilton is radiation",
+   "William Rowan Hamilton is aeromechanics",
+   "William Rowan Hamilton is harmonic analysis",
+   "William Rowan Hamilton is religion",
+   "William Rowan Hamilton is civil rights",
+   "William Rowan Hamilton is physicist",
+   "William Rowan Hamilton is distribution",
+   "William Rowan Hamilton is translations from Spanish",
+   "William Rowan Hamilton is feminism",
+   "William Rowan Hamilton is number theory",
+   "William Rowan Hamilton is sociology of organisations",
+   "William Rowan Hamilton is astronomer",
+   "William Rowan Hamilton is children's and youth literature",
+   "William Rowan Hamilton is fairy tale",
+   "William Rowan Hamilton is economy",
+   "William Rowan Hamilton is graph theory",
+   "William Rowan Hamilton is magic",
+   "William Rowan Hamilton is essay",
+   "William Rowan Hamilton is theory of relativity",
+   "William Rowan Hamilton is historical novel",
+   "William Rowan Hamilton is biological anthropology",
+   "William Rowan Hamilton is literary theory",
+   "William Rowan Hamilton is Greek philology",
+   "William Rowan Hamilton is lyric poetry",
+   "William Rowan Hamilton is psychology",
+   "William Rowan Hamilton is quaternion",
+   "William Rowan Hamilton is rite",
+   "William Rowan Hamilton is jazz",
+   "William Rowan Hamilton is heat",
+   "William Rowan Hamilton is embryology",
+   "William Rowan Hamilton is social philosophy",
+   "William Rowan Hamilton is dance choreography",
+   "William Rowan Hamilton is politics",
+   "William Rowan Hamilton is nanotechnology",
+   "William Rowan Hamilton is Afghanistan",
+   "William Rowan Hamilton is non-Euclidean geometry",
+   "William Rowan Hamilton is Franciscan spirituality",
+   "William Rowan Hamilton is detective literature",
+   "William Rowan Hamilton is mathematician",
+   "William Rowan Hamilton is String",
+   "William Rowan Hamilton is classical music",
+   "William Rowan Hamilton is translations from Occitan",
+   "William Rowan Hamilton is abstract algebra",
+   "William Rowan Hamilton is differential calculus",
+   "William Rowan Hamilton is mythology",
+   "William Rowan Hamilton is literary translation",
+   "William Rowan Hamilton is ballistics",
+   "William Rowan Hamilton is cryptography",
+   "William Rowan Hamilton is Greek",
+   "William Rowan Hamilton is logic",
+   "William Rowan Hamilton is choreography",
+   "William Rowan Hamilton is theology",
+   "William Rowan Hamilton is world economy",
+   "William Rowan Hamilton is magnetism",
+   "William Rowan Hamilton is algebraic geometry",
+   "William Rowan Hamilton is theory of differential equations",
+   "William Rowan Hamilton is physics",
+   "William Rowan Hamilton is music theory",
+   "William Rowan Hamilton is economics",
+   "William Rowan Hamilton is anatomy",
+   "William Rowan Hamilton is electromagnetic field",
+   "William Rowan Hamilton is analytic number theory",
+   "William Rowan Hamilton is mathematical physics",
+   "William Rowan Hamilton is journalism",
+   "William Rowan Hamilton is sociology",
+   "William Rowan Hamilton is literature",
+   "William Rowan Hamilton is ethnography",
+   "William Rowan Hamilton is belletristic literature",
+   "William Rowan Hamilton is convex function",
+   "William Rowan Hamilton is sociology of religion",
+   "William Rowan Hamilton is pedagogy",
+   "William Rowan Hamilton is philosophy",
+   "William Rowan Hamilton is quantum mechanics",
+   "William Rowan Hamilton is drama",
+   "William Rowan Hamilton is dance",
+   "William Rowan Hamilton is Judaism",
+   "William Rowan Hamilton is quantum physics",
+   "William Rowan Hamilton is philosophy of science",
+   "William Rowan Hamilton is linguistics",
+   "William Rowan Hamilton is myth",
+   "William Rowan Hamilton is physiology",
+   "William Rowan Hamilton is English",
+   "William Rowan Hamilton is philology",
+   "William Rowan Hamilton is political philosophy",
+   "William Rowan Hamilton is mechanical engineering",
+   "William Rowan Hamilton is ontology",
+   "William Rowan Hamilton is forestry",
+   "William Rowan Hamilton is aerodynamics",
+   "William Rowan Hamilton is Christian Church",
+   "William Rowan Hamilton is magnetic resonance",
+   "William Rowan Hamilton is astrophysics",
+   "William Rowan Hamilton is natural science",
+   "William Rowan Hamilton is constitutional law",
+   "William Rowan Hamilton is philosophy of law",
+   "William Rowan Hamilton is education",
+   "William Rowan Hamilton is Monte Carlo method",
+   "William Rowan Hamilton is neurology",
+   "William Rowan Hamilton is electric field",
+   "William Rowan Hamilton is Minkowski spacetime",
+   "William Rowan Hamilton is translations from Arabic language",
+   "William Rowan Hamilton is Bayesian inference",
+   "William Rowan Hamilton is translations from Polish",
+   "William Rowan Hamilton is color photography",
+   "William Rowan Hamilton is opera",
+   "William Rowan Hamilton is model theory",
+   "William Rowan Hamilton is cartography",
+   "William Rowan Hamilton is nonstandard analysis",
+   "William Rowan Hamilton is television program",
+   "William Rowan Hamilton is complex manifold",
+   "William Rowan Hamilton is poetry",
+   "William Rowan Hamilton is mathematics",
+   "William Rowan Hamilton is computer science",
+   "William Rowan Hamilton is cosmology",
+   "William Rowan Hamilton is silviculture",
+   "William Rowan Hamilton is hydrodynamics",
+   "William Rowan Hamilton is forestry science",
+   "William Rowan Hamilton is comparative religion",
+   "William Rowan Hamilton is information technology",
+   "William Rowan Hamilton is ballet",
+   "William Rowan Hamilton is English literature",
+   "William Rowan Hamilton is conducting",
+   "William Rowan Hamilton is hyperbolic geometry",
+   "William Rowan Hamilton is biochemistry",
+   "William Rowan Hamilton is religion and society",
+   "William Rowan Hamilton is optics",
+   "William Rowan Hamilton is ethics",
+   "William Rowan Hamilton is cybernetics",
+   "William Rowan Hamilton is astronomical observation",
+   "William Rowan Hamilton is psychophysiology",
+   "William Rowan Hamilton is culturology",
+   "William Rowan Hamilton is history of religions",
+   "William Rowan Hamilton is probability theory",
+   "William Rowan Hamilton is paleontology",
+   "William Rowan Hamilton is surgery",
+   "William Rowan Hamilton is group theory",
+   "William Rowan Hamilton is natural theology",
+   "William Rowan Hamilton is astrology",
+   "William Rowan Hamilton is quantum electrodynamics",
+   "William Rowan Hamilton is mechanics",
+   "William Rowan Hamilton is Lie algebra",
+   "William Rowan Hamilton is trigonometry",
+   "William Rowan Hamilton is literary activity",
+   "William Rowan Hamilton is nuclear physics",
+   "William Rowan Hamilton is translations from English",
+   "William Rowan Hamilton is medicine",
+   "William Rowan Hamilton is Jewish philosophy",
+   "William Rowan Hamilton is mathematical logic",
+   "William Rowan Hamilton is calculus of variations",
+   "William Rowan Hamilton is ferromagnetism",
+   "William Rowan Hamilton is analytic geometry",
+   "William Rowan Hamilton is art of painting",
+   "William Rowan Hamilton is functional analysis",
+   "William Rowan Hamilton is folklore",
+   "William Rowan Hamilton is study of history",
+   "William Rowan Hamilton is geometry",
+   "William Rowan Hamilton is positivism",
+   "William Rowan Hamilton is geodesy",
+   "William Rowan Hamilton is astronomy",
+   "William Rowan Hamilton is magnetic field",
+   "William Rowan Hamilton is kinetic theory",
+   "William Rowan Hamilton is celestial mechanics",
+   "William Rowan Hamilton is analytic philosophy",
+   "William Rowan Hamilton is ethnology",
+   "William Rowan Hamilton is history of economic thought"
+  ],
+  [
+   [
+    -43.66139221191406
+   ],
+   [
+    -44.51633834838867
+   ],
+   [
+    -45.87661361694336
+   ],
+   [
+    -44.416481018066406
+   ],
+   [
+    -39.4518928527832
+   ],
+   [
+    -43.06190872192383
+   ],
+   [
+    -42.350242614746094
+   ],
+   [
+    -41.82942581176758
+   ],
+   [
+    -40.170265197753906
+   ],
+   [
+    -49.466529846191406
+   ],
+   [
+    -43.24076843261719
+   ],
+   [
+    -38.728233337402344
+   ],
+   [
+    -52.3109130859375
+   ],
+   [
+    -40.38422393798828
+   ],
+   [
+    -39.669944763183594
+   ],
+   [
+    -45.59514617919922
+   ],
+   [
+    -62.65098571777344
+   ],
+   [
+    -46.215660095214844
+   ],
+   [
+    -43.3642578125
+   ],
+   [
+    -44.75394058227539
+   ],
+   [
+    -48.90266418457031
+   ],
+   [
+    -49.64420700073242
+   ],
+   [
+    -50.676841735839844
+   ],
+   [
+    -46.62616729736328
+   ],
+   [
+    -46.20875549316406
+   ],
+   [
+    -42.5139274597168
+   ],
+   [
+    -40.84893035888672
+   ],
+   [
+    -52.012596130371094
+   ],
+   [
+    -45.294525146484375
+   ],
+   [
+    -46.711639404296875
+   ],
+   [
+    -45.81110382080078
+   ],
+   [
+    -57.387367248535156
+   ],
+   [
+    -44.175743103027344
+   ],
+   [
+    -42.726036071777344
+   ],
+   [
+    -40.43646240234375
+   ],
+   [
+    -48.402652740478516
+   ],
+   [
+    -42.14067459106445
+   ],
+   [
+    -51.60741424560547
+   ],
+   [
+    -49.37467575073242
+   ],
+   [
+    -44.535850524902344
+   ],
+   [
+    -41.564414978027344
+   ],
+   [
+    -43.914947509765625
+   ],
+   [
+    -48.76963424682617
+   ],
+   [
+    -40.55525207519531
+   ],
+   [
+    -44.927268981933594
+   ],
+   [
+    -43.54024124145508
+   ],
+   [
+    -55.78907012939453
+   ],
+   [
+    -41.54658508300781
+   ],
+   [
+    -44.54755401611328
+   ],
+   [
+    -44.28043746948242
+   ],
+   [
+    -45.62443923950195
+   ],
+   [
+    -50.03833770751953
+   ],
+   [
+    -45.80588150024414
+   ],
+   [
+    -47.266204833984375
+   ],
+   [
+    -45.740966796875
+   ],
+   [
+    -47.45102310180664
+   ],
+   [
+    -44.679908752441406
+   ],
+   [
+    -50.354068756103516
+   ],
+   [
+    -41.88771057128906
+   ],
+   [
+    -45.11475372314453
+   ],
+   [
+    -53.09416198730469
+   ],
+   [
+    -46.33552169799805
+   ],
+   [
+    -43.1221809387207
+   ],
+   [
+    -55.827064514160156
+   ],
+   [
+    -46.9307746887207
+   ],
+   [
+    -40.16783142089844
+   ],
+   [
+    -55.6572265625
+   ],
+   [
+    -47.92814254760742
+   ],
+   [
+    -54.98294448852539
+   ],
+   [
+    -49.24652099609375
+   ],
+   [
+    -45.19807434082031
+   ],
+   [
+    -42.19757843017578
+   ],
+   [
+    -42.16140365600586
+   ],
+   [
+    -46.145755767822266
+   ],
+   [
+    -48.03315734863281
+   ],
+   [
+    -50.960411071777344
+   ],
+   [
+    -51.052818298339844
+   ],
+   [
+    -48.63905334472656
+   ],
+   [
+    -50.53108215332031
+   ],
+   [
+    -48.917205810546875
+   ],
+   [
+    -41.444786071777344
+   ],
+   [
+    -45.55447769165039
+   ],
+   [
+    -50.597206115722656
+   ],
+   [
+    -47.870086669921875
+   ],
+   [
+    -44.53632354736328
+   ],
+   [
+    -45.08098602294922
+   ],
+   [
+    -46.93604278564453
+   ],
+   [
+    -53.06327819824219
+   ],
+   [
+    -43.16364669799805
+   ],
+   [
+    -43.801605224609375
+   ],
+   [
+    -49.91431427001953
+   ],
+   [
+    -42.93487548828125
+   ],
+   [
+    -54.43037033081055
+   ],
+   [
+    -54.38719940185547
+   ],
+   [
+    -44.63547897338867
+   ],
+   [
+    -45.735172271728516
+   ],
+   [
+    -45.785343170166016
+   ],
+   [
+    -62.26302719116211
+   ],
+   [
+    -42.118282318115234
+   ],
+   [
+    -45.022193908691406
+   ],
+   [
+    -44.67552947998047
+   ],
+   [
+    -50.87895202636719
+   ],
+   [
+    -45.578529357910156
+   ],
+   [
+    -42.52519226074219
+   ],
+   [
+    -43.2283935546875
+   ],
+   [
+    -40.034976959228516
+   ],
+   [
+    -46.452415466308594
+   ],
+   [
+    -43.6043815612793
+   ],
+   [
+    -51.928741455078125
+   ],
+   [
+    -41.84513473510742
+   ],
+   [
+    -41.555145263671875
+   ],
+   [
+    -47.356239318847656
+   ],
+   [
+    -37.40806579589844
+   ],
+   [
+    -44.26420211791992
+   ],
+   [
+    -41.95994186401367
+   ],
+   [
+    -44.870826721191406
+   ],
+   [
+    -44.45282745361328
+   ],
+   [
+    -43.07966613769531
+   ],
+   [
+    -37.96882629394531
+   ],
+   [
+    -45.427459716796875
+   ],
+   [
+    -44.29432678222656
+   ],
+   [
+    -43.30274200439453
+   ],
+   [
+    -49.22320556640625
+   ],
+   [
+    -55.78265380859375
+   ],
+   [
+    -48.658226013183594
+   ],
+   [
+    -48.993507385253906
+   ],
+   [
+    -45.38640594482422
+   ],
+   [
+    -40.06673049926758
+   ],
+   [
+    -40.06312942504883
+   ],
+   [
+    -46.07289123535156
+   ],
+   [
+    -45.437095642089844
+   ],
+   [
+    -49.03215026855469
+   ],
+   [
+    -41.30941390991211
+   ],
+   [
+    -42.1671142578125
+   ],
+   [
+    -43.59455108642578
+   ],
+   [
+    -45.44895935058594
+   ],
+   [
+    -42.78873062133789
+   ],
+   [
+    -43.981754302978516
+   ],
+   [
+    -44.45280456542969
+   ],
+   [
+    -45.1886100769043
+   ],
+   [
+    -44.264549255371094
+   ],
+   [
+    -41.858245849609375
+   ],
+   [
+    -48.41156005859375
+   ],
+   [
+    -46.559722900390625
+   ],
+   [
+    -53.32099914550781
+   ],
+   [
+    -45.98925018310547
+   ],
+   [
+    -42.43757629394531
+   ],
+   [
+    -43.31277084350586
+   ],
+   [
+    -48.455116271972656
+   ],
+   [
+    -50.94624328613281
+   ],
+   [
+    -43.231346130371094
+   ],
+   [
+    -53.01988220214844
+   ],
+   [
+    -43.48762512207031
+   ],
+   [
+    -46.13243103027344
+   ],
+   [
+    -50.666648864746094
+   ],
+   [
+    -60.2523307800293
+   ],
+   [
+    -45.681793212890625
+   ],
+   [
+    -58.202301025390625
+   ],
+   [
+    -49.99333953857422
+   ],
+   [
+    -46.64183044433594
+   ],
+   [
+    -44.9671516418457
+   ],
+   [
+    -44.06532287597656
+   ],
+   [
+    -46.09588623046875
+   ],
+   [
+    -54.92699432373047
+   ],
+   [
+    -49.53862762451172
+   ],
+   [
+    -42.68764114379883
+   ],
+   [
+    -36.258644104003906
+   ],
+   [
+    -43.66181182861328
+   ],
+   [
+    -40.24805450439453
+   ],
+   [
+    -52.81255340576172
+   ],
+   [
+    -43.44567108154297
+   ],
+   [
+    -54.07572937011719
+   ],
+   [
+    -47.76295852661133
+   ],
+   [
+    -46.13420867919922
+   ],
+   [
+    -46.41912078857422
+   ],
+   [
+    -45.597957611083984
+   ],
+   [
+    -45.04954528808594
+   ],
+   [
+    -44.7634391784668
+   ],
+   [
+    -40.57929992675781
+   ],
+   [
+    -52.935401916503906
+   ],
+   [
+    -40.31040954589844
+   ],
+   [
+    -44.68010711669922
+   ],
+   [
+    -42.888153076171875
+   ],
+   [
+    -48.89929962158203
+   ],
+   [
+    -48.0762939453125
+   ],
+   [
+    -51.238990783691406
+   ],
+   [
+    -51.96363067626953
+   ],
+   [
+    -42.989501953125
+   ],
+   [
+    -45.39017105102539
+   ],
+   [
+    -45.423545837402344
+   ],
+   [
+    -44.543609619140625
+   ],
+   [
+    -48.68217468261719
+   ],
+   [
+    -43.11260986328125
+   ],
+   [
+    -44.55580520629883
+   ],
+   [
+    -40.06378936767578
+   ],
+   [
+    -48.376914978027344
+   ],
+   [
+    -42.09287643432617
+   ],
+   [
+    -53.052833557128906
+   ],
+   [
+    -44.754005432128906
+   ],
+   [
+    -52.121734619140625
+   ],
+   [
+    -42.843360900878906
+   ],
+   [
+    -50.181732177734375
+   ],
+   [
+    -39.3857307434082
+   ],
+   [
+    -46.625648498535156
+   ],
+   [
+    -46.72822570800781
+   ],
+   [
+    -42.890220642089844
+   ],
+   [
+    -53.96703338623047
+   ],
+   [
+    -43.21546173095703
+   ],
+   [
+    -45.92396926879883
+   ],
+   [
+    -51.879432678222656
+   ],
+   [
+    -39.943267822265625
+   ],
+   [
+    -46.632747650146484
+   ],
+   [
+    -45.3104133605957
+   ],
+   [
+    -40.47610092163086
+   ],
+   [
+    -45.75840759277344
+   ],
+   [
+    -44.73739242553711
+   ],
+   [
+    -42.61743927001953
+   ],
+   [
+    -45.787689208984375
+   ],
+   [
+    -47.965980529785156
+   ],
+   [
+    -53.128211975097656
+   ],
+   [
+    -31.559917449951172
+   ],
+   [
+    -35.978668212890625
+   ],
+   [
+    -40.57219696044922
+   ],
+   [
+    -33.246524810791016
+   ],
+   [
+    -29.62145233154297
+   ],
+   [
+    -30.289560317993164
+   ],
+   [
+    -32.95686340332031
+   ],
+   [
+    -31.84701156616211
+   ],
+   [
+    -30.185688018798828
+   ],
+   [
+    -37.22168731689453
+   ],
+   [
+    -31.23222541809082
+   ],
+   [
+    -30.579071044921875
+   ],
+   [
+    -41.67713165283203
+   ],
+   [
+    -34.13223648071289
+   ],
+   [
+    -36.57830810546875
+   ],
+   [
+    -35.780670166015625
+   ],
+   [
+    -50.1971435546875
+   ],
+   [
+    -35.69122314453125
+   ],
+   [
+    -33.6493034362793
+   ],
+   [
+    -37.46826934814453
+   ],
+   [
+    -35.874755859375
+   ],
+   [
+    -36.62237548828125
+   ],
+   [
+    -39.033451080322266
+   ],
+   [
+    -28.56411361694336
+   ],
+   [
+    -29.621591567993164
+   ],
+   [
+    -32.49761962890625
+   ],
+   [
+    -31.529342651367188
+   ],
+   [
+    -41.40614318847656
+   ],
+   [
+    -37.279502868652344
+   ],
+   [
+    -32.10022735595703
+   ],
+   [
+    -33.215599060058594
+   ],
+   [
+    -45.86745071411133
+   ],
+   [
+    -36.493526458740234
+   ],
+   [
+    -34.19074630737305
+   ],
+   [
+    -32.207740783691406
+   ],
+   [
+    -30.037612915039062
+   ],
+   [
+    -30.553564071655273
+   ],
+   [
+    -39.617431640625
+   ],
+   [
+    -31.70743179321289
+   ],
+   [
+    -35.890968322753906
+   ],
+   [
+    -29.908794403076172
+   ],
+   [
+    -33.886356353759766
+   ],
+   [
+    -36.722938537597656
+   ],
+   [
+    -27.018070220947266
+   ],
+   [
+    -37.05720901489258
+   ],
+   [
+    -32.124732971191406
+   ],
+   [
+    -40.14530944824219
+   ],
+   [
+    -30.422401428222656
+   ],
+   [
+    -33.86176300048828
+   ],
+   [
+    -33.53312301635742
+   ],
+   [
+    -32.53977584838867
+   ],
+   [
+    -42.700462341308594
+   ],
+   [
+    -33.508026123046875
+   ],
+   [
+    -32.80805206298828
+   ],
+   [
+    -33.676719665527344
+   ],
+   [
+    -36.154823303222656
+   ],
+   [
+    -32.64579772949219
+   ],
+   [
+    -36.51417922973633
+   ],
+   [
+    -35.684165954589844
+   ],
+   [
+    -30.931385040283203
+   ],
+   [
+    -34.47517395019531
+   ],
+   [
+    -28.14335823059082
+   ],
+   [
+    -34.55733108520508
+   ],
+   [
+    -41.90107727050781
+   ],
+   [
+    -32.45964813232422
+   ],
+   [
+    -34.595924377441406
+   ],
+   [
+    -45.69988250732422
+   ],
+   [
+    -29.735946655273438
+   ],
+   [
+    -42.86921691894531
+   ],
+   [
+    -33.53008270263672
+   ],
+   [
+    -33.01488494873047
+   ],
+   [
+    -32.383453369140625
+   ],
+   [
+    -29.56000518798828
+   ],
+   [
+    -29.750591278076172
+   ],
+   [
+    -38.816131591796875
+   ],
+   [
+    -34.006248474121094
+   ],
+   [
+    -37.58201599121094
+   ],
+   [
+    -37.68333435058594
+   ],
+   [
+    -44.58427429199219
+   ],
+   [
+    -34.843482971191406
+   ],
+   [
+    -31.825801849365234
+   ],
+   [
+    -34.921180725097656
+   ],
+   [
+    -32.98777770996094
+   ],
+   [
+    -29.6832275390625
+   ],
+   [
+    -32.221866607666016
+   ],
+   [
+    -32.728355407714844
+   ],
+   [
+    -36.68940734863281
+   ],
+   [
+    -41.5208740234375
+   ],
+   [
+    -32.40947341918945
+   ],
+   [
+    -32.943058013916016
+   ],
+   [
+    -33.987857818603516
+   ],
+   [
+    -33.52131271362305
+   ],
+   [
+    -41.486228942871094
+   ],
+   [
+    -42.359893798828125
+   ],
+   [
+    -27.21807098388672
+   ],
+   [
+    -31.19576644897461
+   ],
+   [
+    -32.376285552978516
+   ],
+   [
+    -47.59642791748047
+   ],
+   [
+    -33.491966247558594
+   ],
+   [
+    -36.67665100097656
+   ],
+   [
+    -30.31033706665039
+   ],
+   [
+    -40.22526550292969
+   ],
+   [
+    -37.297340393066406
+   ],
+   [
+    -30.699264526367188
+   ],
+   [
+    -29.925006866455078
+   ],
+   [
+    -31.398807525634766
+   ],
+   [
+    -37.570098876953125
+   ],
+   [
+    -31.205596923828125
+   ],
+   [
+    -39.03131866455078
+   ],
+   [
+    -32.497596740722656
+   ],
+   [
+    -34.0423583984375
+   ],
+   [
+    -39.01783752441406
+   ],
+   [
+    -28.131893157958984
+   ],
+   [
+    -34.00852966308594
+   ],
+   [
+    -30.667266845703125
+   ],
+   [
+    -32.7757682800293
+   ],
+   [
+    -37.11164093017578
+   ],
+   [
+    -34.0036735534668
+   ],
+   [
+    -31.179473876953125
+   ],
+   [
+    -32.47639083862305
+   ],
+   [
+    -31.510133743286133
+   ],
+   [
+    -29.805057525634766
+   ],
+   [
+    -35.801666259765625
+   ],
+   [
+    -43.349571228027344
+   ],
+   [
+    -40.49852752685547
+   ],
+   [
+    -37.864681243896484
+   ],
+   [
+    -34.55792236328125
+   ],
+   [
+    -29.299579620361328
+   ],
+   [
+    -31.074077606201172
+   ],
+   [
+    -32.18122863769531
+   ],
+   [
+    -31.97751235961914
+   ],
+   [
+    -30.90361785888672
+   ],
+   [
+    -31.367002487182617
+   ],
+   [
+    -34.15068817138672
+   ],
+   [
+    -34.534446716308594
+   ],
+   [
+    -28.854812622070312
+   ],
+   [
+    -32.95862579345703
+   ],
+   [
+    -28.410259246826172
+   ],
+   [
+    -34.1805305480957
+   ],
+   [
+    -34.982933044433594
+   ],
+   [
+    -33.765625
+   ],
+   [
+    -31.70998764038086
+   ],
+   [
+    -34.813716888427734
+   ],
+   [
+    -34.6119384765625
+   ],
+   [
+    -38.16602325439453
+   ],
+   [
+    -38.706153869628906
+   ],
+   [
+    -32.905818939208984
+   ],
+   [
+    -33.29783630371094
+   ],
+   [
+    -34.925193786621094
+   ],
+   [
+    -41.05903625488281
+   ],
+   [
+    -30.745105743408203
+   ],
+   [
+    -43.34518051147461
+   ],
+   [
+    -31.184484481811523
+   ],
+   [
+    -39.20555877685547
+   ],
+   [
+    -36.24641036987305
+   ],
+   [
+    -50.006431579589844
+   ],
+   [
+    -38.425193786621094
+   ],
+   [
+    -43.98855972290039
+   ],
+   [
+    -38.951847076416016
+   ],
+   [
+    -30.587608337402344
+   ],
+   [
+    -40.3829345703125
+   ],
+   [
+    -33.95432662963867
+   ],
+   [
+    -40.797576904296875
+   ],
+   [
+    -40.19774627685547
+   ],
+   [
+    -40.331817626953125
+   ],
+   [
+    -29.551734924316406
+   ],
+   [
+    -28.62057113647461
+   ],
+   [
+    -30.839576721191406
+   ],
+   [
+    -30.06992530822754
+   ],
+   [
+    -40.10222244262695
+   ],
+   [
+    -33.04216003417969
+   ],
+   [
+    -39.36206817626953
+   ],
+   [
+    -35.516029357910156
+   ],
+   [
+    -33.168251037597656
+   ],
+   [
+    -33.30023956298828
+   ],
+   [
+    -35.61470031738281
+   ],
+   [
+    -27.335697174072266
+   ],
+   [
+    -37.03263854980469
+   ],
+   [
+    -32.522064208984375
+   ],
+   [
+    -39.05533218383789
+   ],
+   [
+    -33.252464294433594
+   ],
+   [
+    -34.2026481628418
+   ],
+   [
+    -33.30066680908203
+   ],
+   [
+    -40.458587646484375
+   ],
+   [
+    -39.95349884033203
+   ],
+   [
+    -41.02979278564453
+   ],
+   [
+    -42.948280334472656
+   ],
+   [
+    -33.367218017578125
+   ],
+   [
+    -32.372589111328125
+   ],
+   [
+    -32.6708984375
+   ],
+   [
+    -35.77936553955078
+   ],
+   [
+    -38.378074645996094
+   ],
+   [
+    -32.59184265136719
+   ],
+   [
+    -34.11912536621094
+   ],
+   [
+    -34.7052001953125
+   ],
+   [
+    -35.659454345703125
+   ],
+   [
+    -32.92612075805664
+   ],
+   [
+    -40.138023376464844
+   ],
+   [
+    -32.976158142089844
+   ],
+   [
+    -42.445396423339844
+   ],
+   [
+    -30.008106231689453
+   ],
+   [
+    -39.700462341308594
+   ],
+   [
+    -34.5589599609375
+   ],
+   [
+    -38.775428771972656
+   ],
+   [
+    -38.40214538574219
+   ],
+   [
+    -34.15480041503906
+   ],
+   [
+    -41.974098205566406
+   ],
+   [
+    -35.55682373046875
+   ],
+   [
+    -30.04033851623535
+   ],
+   [
+    -36.8804817199707
+   ],
+   [
+    -32.25439453125
+   ],
+   [
+    -33.19221115112305
+   ],
+   [
+    -34.511962890625
+   ],
+   [
+    -30.08615493774414
+   ],
+   [
+    -37.46369171142578
+   ],
+   [
+    -34.73836135864258
+   ],
+   [
+    -34.5845947265625
+   ],
+   [
+    -33.32474136352539
+   ],
+   [
+    -35.918426513671875
+   ],
+   [
+    -41.98412322998047
+   ]
+  ]
+ ],
+ "time": 2171.468351840973
+}

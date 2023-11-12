@@ -1,0 +1,2076 @@
+{
+ "case_id": 22055,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Henry Cavendish"
+ },
+ "pre": [
+  [
+   "Henry Cavendish's field of work is meteorology",
+   "Henry Cavendish's field of work is radioactivity",
+   "Henry Cavendish's field of work is complex function",
+   "Henry Cavendish's field of work is histology",
+   "Henry Cavendish's field of work is algebra",
+   "Henry Cavendish's field of work is electron",
+   "Henry Cavendish's field of work is quantum theory",
+   "Henry Cavendish's field of work is applied mathematics",
+   "Henry Cavendish's field of work is electricity",
+   "Henry Cavendish's field of work is human geography",
+   "Henry Cavendish's field of work is crystallography",
+   "Henry Cavendish's field of work is chemistry",
+   "Henry Cavendish's field of work is Jewish studies",
+   "Henry Cavendish's field of work is topology",
+   "Henry Cavendish's field of work is mathematical analysis",
+   "Henry Cavendish's field of work is computational geometry",
+   "Henry Cavendish's field of work is Petrine ministry",
+   "Henry Cavendish's field of work is social psychology",
+   "Henry Cavendish's field of work is genetics",
+   "Henry Cavendish's field of work is informatics",
+   "Henry Cavendish's field of work is shipbuilding",
+   "Henry Cavendish's field of work is historical sociology",
+   "Henry Cavendish's field of work is quantum mysticism",
+   "Henry Cavendish's field of work is philosopher",
+   "Henry Cavendish's field of work is Internet",
+   "Henry Cavendish's field of work is gravity",
+   "Henry Cavendish's field of work is theoretical physics",
+   "Henry Cavendish's field of work is African studies",
+   "Henry Cavendish's field of work is projective geometry",
+   "Henry Cavendish's field of work is prose",
+   "Henry Cavendish's field of work is momentum",
+   "Henry Cavendish's field of work is Cairo Geniza",
+   "Henry Cavendish's field of work is stochastic",
+   "Henry Cavendish's field of work is algebraic topology",
+   "Henry Cavendish's field of work is electrical engineering",
+   "Henry Cavendish's field of work is hunting",
+   "Henry Cavendish's field of work is evolution",
+   "Henry Cavendish's field of work is economic anthropology",
+   "Henry Cavendish's field of work is Hebrew",
+   "Henry Cavendish's field of work is differential geometry",
+   "Henry Cavendish's field of work is engineering",
+   "Henry Cavendish's field of work is history of science",
+   "Henry Cavendish's field of work is social anthropology",
+   "Henry Cavendish's field of work is history",
+   "Henry Cavendish's field of work is distribution theory",
+   "Henry Cavendish's field of work is classics",
+   "Henry Cavendish's field of work is crime novel",
+   "Henry Cavendish's field of work is statistics",
+   "Henry Cavendish's field of work is experimental physics",
+   "Henry Cavendish's field of work is geography",
+   "Henry Cavendish's field of work is anthropology",
+   "Henry Cavendish's field of work is partial differential equation",
+   "Henry Cavendish's field of work is applied physics",
+   "Henry Cavendish's field of work is Sanskrit",
+   "Henry Cavendish's field of work is a branch of physics",
+   "Henry Cavendish's field of work is comparative mythology",
+   "Henry Cavendish's field of work is radiation",
+   "Henry Cavendish's field of work is aeromechanics",
+   "Henry Cavendish's field of work is harmonic analysis",
+   "Henry Cavendish's field of work is religion",
+   "Henry Cavendish's field of work is civil rights",
+   "Henry Cavendish's field of work is physicist",
+   "Henry Cavendish's field of work is distribution",
+   "Henry Cavendish's field of work is translations from Spanish",
+   "Henry Cavendish's field of work is feminism",
+   "Henry Cavendish's field of work is number theory",
+   "Henry Cavendish's field of work is sociology of organisations",
+   "Henry Cavendish's field of work is astronomer",
+   "Henry Cavendish's field of work is children's and youth literature",
+   "Henry Cavendish's field of work is fairy tale",
+   "Henry Cavendish's field of work is economy",
+   "Henry Cavendish's field of work is graph theory",
+   "Henry Cavendish's field of work is magic",
+   "Henry Cavendish's field of work is essay",
+   "Henry Cavendish's field of work is theory of relativity",
+   "Henry Cavendish's field of work is historical novel",
+   "Henry Cavendish's field of work is biological anthropology",
+   "Henry Cavendish's field of work is literary theory",
+   "Henry Cavendish's field of work is Greek philology",
+   "Henry Cavendish's field of work is lyric poetry",
+   "Henry Cavendish's field of work is psychology",
+   "Henry Cavendish's field of work is quaternion",
+   "Henry Cavendish's field of work is rite",
+   "Henry Cavendish's field of work is jazz",
+   "Henry Cavendish's field of work is heat",
+   "Henry Cavendish's field of work is embryology",
+   "Henry Cavendish's field of work is social philosophy",
+   "Henry Cavendish's field of work is dance choreography",
+   "Henry Cavendish's field of work is politics",
+   "Henry Cavendish's field of work is nanotechnology",
+   "Henry Cavendish's field of work is Afghanistan",
+   "Henry Cavendish's field of work is non-Euclidean geometry",
+   "Henry Cavendish's field of work is Franciscan spirituality",
+   "Henry Cavendish's field of work is detective literature",
+   "Henry Cavendish's field of work is mathematician",
+   "Henry Cavendish's field of work is String",
+   "Henry Cavendish's field of work is classical music",
+   "Henry Cavendish's field of work is translations from Occitan",
+   "Henry Cavendish's field of work is abstract algebra",
+   "Henry Cavendish's field of work is differential calculus",
+   "Henry Cavendish's field of work is mythology",
+   "Henry Cavendish's field of work is literary translation",
+   "Henry Cavendish's field of work is ballistics",
+   "Henry Cavendish's field of work is cryptography",
+   "Henry Cavendish's field of work is Greek",
+   "Henry Cavendish's field of work is logic",
+   "Henry Cavendish's field of work is choreography",
+   "Henry Cavendish's field of work is theology",
+   "Henry Cavendish's field of work is world economy",
+   "Henry Cavendish's field of work is magnetism",
+   "Henry Cavendish's field of work is algebraic geometry",
+   "Henry Cavendish's field of work is theory of differential equations",
+   "Henry Cavendish's field of work is physics",
+   "Henry Cavendish's field of work is music theory",
+   "Henry Cavendish's field of work is economics",
+   "Henry Cavendish's field of work is anatomy",
+   "Henry Cavendish's field of work is electromagnetic field",
+   "Henry Cavendish's field of work is analytic number theory",
+   "Henry Cavendish's field of work is mathematical physics",
+   "Henry Cavendish's field of work is journalism",
+   "Henry Cavendish's field of work is sociology",
+   "Henry Cavendish's field of work is literature",
+   "Henry Cavendish's field of work is ethnography",
+   "Henry Cavendish's field of work is belletristic literature",
+   "Henry Cavendish's field of work is convex function",
+   "Henry Cavendish's field of work is sociology of religion",
+   "Henry Cavendish's field of work is pedagogy",
+   "Henry Cavendish's field of work is philosophy",
+   "Henry Cavendish's field of work is quantum mechanics",
+   "Henry Cavendish's field of work is drama",
+   "Henry Cavendish's field of work is dance",
+   "Henry Cavendish's field of work is Judaism",
+   "Henry Cavendish's field of work is quantum physics",
+   "Henry Cavendish's field of work is philosophy of science",
+   "Henry Cavendish's field of work is linguistics",
+   "Henry Cavendish's field of work is myth",
+   "Henry Cavendish's field of work is physiology",
+   "Henry Cavendish's field of work is English",
+   "Henry Cavendish's field of work is philology",
+   "Henry Cavendish's field of work is political philosophy",
+   "Henry Cavendish's field of work is mechanical engineering",
+   "Henry Cavendish's field of work is ontology",
+   "Henry Cavendish's field of work is forestry",
+   "Henry Cavendish's field of work is aerodynamics",
+   "Henry Cavendish's field of work is Christian Church",
+   "Henry Cavendish's field of work is magnetic resonance",
+   "Henry Cavendish's field of work is astrophysics",
+   "Henry Cavendish's field of work is natural science",
+   "Henry Cavendish's field of work is constitutional law",
+   "Henry Cavendish's field of work is philosophy of law",
+   "Henry Cavendish's field of work is education",
+   "Henry Cavendish's field of work is Monte Carlo method",
+   "Henry Cavendish's field of work is neurology",
+   "Henry Cavendish's field of work is electric field",
+   "Henry Cavendish's field of work is Minkowski spacetime",
+   "Henry Cavendish's field of work is translations from Arabic language",
+   "Henry Cavendish's field of work is Bayesian inference",
+   "Henry Cavendish's field of work is translations from Polish",
+   "Henry Cavendish's field of work is color photography",
+   "Henry Cavendish's field of work is opera",
+   "Henry Cavendish's field of work is model theory",
+   "Henry Cavendish's field of work is cartography",
+   "Henry Cavendish's field of work is nonstandard analysis",
+   "Henry Cavendish's field of work is television program",
+   "Henry Cavendish's field of work is complex manifold",
+   "Henry Cavendish's field of work is poetry",
+   "Henry Cavendish's field of work is mathematics",
+   "Henry Cavendish's field of work is computer science",
+   "Henry Cavendish's field of work is cosmology",
+   "Henry Cavendish's field of work is silviculture",
+   "Henry Cavendish's field of work is hydrodynamics",
+   "Henry Cavendish's field of work is forestry science",
+   "Henry Cavendish's field of work is comparative religion",
+   "Henry Cavendish's field of work is information technology",
+   "Henry Cavendish's field of work is ballet",
+   "Henry Cavendish's field of work is English literature",
+   "Henry Cavendish's field of work is conducting",
+   "Henry Cavendish's field of work is hyperbolic geometry",
+   "Henry Cavendish's field of work is biochemistry",
+   "Henry Cavendish's field of work is religion and society",
+   "Henry Cavendish's field of work is optics",
+   "Henry Cavendish's field of work is ethics",
+   "Henry Cavendish's field of work is cybernetics",
+   "Henry Cavendish's field of work is astronomical observation",
+   "Henry Cavendish's field of work is psychophysiology",
+   "Henry Cavendish's field of work is culturology",
+   "Henry Cavendish's field of work is history of religions",
+   "Henry Cavendish's field of work is probability theory",
+   "Henry Cavendish's field of work is paleontology",
+   "Henry Cavendish's field of work is surgery",
+   "Henry Cavendish's field of work is group theory",
+   "Henry Cavendish's field of work is natural theology",
+   "Henry Cavendish's field of work is astrology",
+   "Henry Cavendish's field of work is quantum electrodynamics",
+   "Henry Cavendish's field of work is mechanics",
+   "Henry Cavendish's field of work is Lie algebra",
+   "Henry Cavendish's field of work is trigonometry",
+   "Henry Cavendish's field of work is literary activity",
+   "Henry Cavendish's field of work is nuclear physics",
+   "Henry Cavendish's field of work is translations from English",
+   "Henry Cavendish's field of work is medicine",
+   "Henry Cavendish's field of work is Jewish philosophy",
+   "Henry Cavendish's field of work is mathematical logic",
+   "Henry Cavendish's field of work is calculus of variations",
+   "Henry Cavendish's field of work is ferromagnetism",
+   "Henry Cavendish's field of work is analytic geometry",
+   "Henry Cavendish's field of work is art of painting",
+   "Henry Cavendish's field of work is functional analysis",
+   "Henry Cavendish's field of work is folklore",
+   "Henry Cavendish's field of work is study of history",
+   "Henry Cavendish's field of work is geometry",
+   "Henry Cavendish's field of work is positivism",
+   "Henry Cavendish's field of work is geodesy",
+   "Henry Cavendish's field of work is astronomy",
+   "Henry Cavendish's field of work is magnetic field",
+   "Henry Cavendish's field of work is kinetic theory",
+   "Henry Cavendish's field of work is celestial mechanics",
+   "Henry Cavendish's field of work is analytic philosophy",
+   "Henry Cavendish's field of work is ethnology",
+   "Henry Cavendish's field of work is history of economic thought",
+   "Henry Cavendish is meteorology",
+   "Henry Cavendish is radioactivity",
+   "Henry Cavendish is complex function",
+   "Henry Cavendish is histology",
+   "Henry Cavendish is algebra",
+   "Henry Cavendish is electron",
+   "Henry Cavendish is quantum theory",
+   "Henry Cavendish is applied mathematics",
+   "Henry Cavendish is electricity",
+   "Henry Cavendish is human geography",
+   "Henry Cavendish is crystallography",
+   "Henry Cavendish is chemistry",
+   "Henry Cavendish is Jewish studies",
+   "Henry Cavendish is topology",
+   "Henry Cavendish is mathematical analysis",
+   "Henry Cavendish is computational geometry",
+   "Henry Cavendish is Petrine ministry",
+   "Henry Cavendish is social psychology",
+   "Henry Cavendish is genetics",
+   "Henry Cavendish is informatics",
+   "Henry Cavendish is shipbuilding",
+   "Henry Cavendish is historical sociology",
+   "Henry Cavendish is quantum mysticism",
+   "Henry Cavendish is philosopher",
+   "Henry Cavendish is Internet",
+   "Henry Cavendish is gravity",
+   "Henry Cavendish is theoretical physics",
+   "Henry Cavendish is African studies",
+   "Henry Cavendish is projective geometry",
+   "Henry Cavendish is prose",
+   "Henry Cavendish is momentum",
+   "Henry Cavendish is Cairo Geniza",
+   "Henry Cavendish is stochastic",
+   "Henry Cavendish is algebraic topology",
+   "Henry Cavendish is electrical engineering",
+   "Henry Cavendish is hunting",
+   "Henry Cavendish is evolution",
+   "Henry Cavendish is economic anthropology",
+   "Henry Cavendish is Hebrew",
+   "Henry Cavendish is differential geometry",
+   "Henry Cavendish is engineering",
+   "Henry Cavendish is history of science",
+   "Henry Cavendish is social anthropology",
+   "Henry Cavendish is history",
+   "Henry Cavendish is distribution theory",
+   "Henry Cavendish is classics",
+   "Henry Cavendish is crime novel",
+   "Henry Cavendish is statistics",
+   "Henry Cavendish is experimental physics",
+   "Henry Cavendish is geography",
+   "Henry Cavendish is anthropology",
+   "Henry Cavendish is partial differential equation",
+   "Henry Cavendish is applied physics",
+   "Henry Cavendish is Sanskrit",
+   "Henry Cavendish is a branch of physics",
+   "Henry Cavendish is comparative mythology",
+   "Henry Cavendish is radiation",
+   "Henry Cavendish is aeromechanics",
+   "Henry Cavendish is harmonic analysis",
+   "Henry Cavendish is religion",
+   "Henry Cavendish is civil rights",
+   "Henry Cavendish is physicist",
+   "Henry Cavendish is distribution",
+   "Henry Cavendish is translations from Spanish",
+   "Henry Cavendish is feminism",
+   "Henry Cavendish is number theory",
+   "Henry Cavendish is sociology of organisations",
+   "Henry Cavendish is astronomer",
+   "Henry Cavendish is children's and youth literature",
+   "Henry Cavendish is fairy tale",
+   "Henry Cavendish is economy",
+   "Henry Cavendish is graph theory",
+   "Henry Cavendish is magic",
+   "Henry Cavendish is essay",
+   "Henry Cavendish is theory of relativity",
+   "Henry Cavendish is historical novel",
+   "Henry Cavendish is biological anthropology",
+   "Henry Cavendish is literary theory",
+   "Henry Cavendish is Greek philology",
+   "Henry Cavendish is lyric poetry",
+   "Henry Cavendish is psychology",
+   "Henry Cavendish is quaternion",
+   "Henry Cavendish is rite",
+   "Henry Cavendish is jazz",
+   "Henry Cavendish is heat",
+   "Henry Cavendish is embryology",
+   "Henry Cavendish is social philosophy",
+   "Henry Cavendish is dance choreography",
+   "Henry Cavendish is politics",
+   "Henry Cavendish is nanotechnology",
+   "Henry Cavendish is Afghanistan",
+   "Henry Cavendish is non-Euclidean geometry",
+   "Henry Cavendish is Franciscan spirituality",
+   "Henry Cavendish is detective literature",
+   "Henry Cavendish is mathematician",
+   "Henry Cavendish is String",
+   "Henry Cavendish is classical music",
+   "Henry Cavendish is translations from Occitan",
+   "Henry Cavendish is abstract algebra",
+   "Henry Cavendish is differential calculus",
+   "Henry Cavendish is mythology",
+   "Henry Cavendish is literary translation",
+   "Henry Cavendish is ballistics",
+   "Henry Cavendish is cryptography",
+   "Henry Cavendish is Greek",
+   "Henry Cavendish is logic",
+   "Henry Cavendish is choreography",
+   "Henry Cavendish is theology",
+   "Henry Cavendish is world economy",
+   "Henry Cavendish is magnetism",
+   "Henry Cavendish is algebraic geometry",
+   "Henry Cavendish is theory of differential equations",
+   "Henry Cavendish is physics",
+   "Henry Cavendish is music theory",
+   "Henry Cavendish is economics",
+   "Henry Cavendish is anatomy",
+   "Henry Cavendish is electromagnetic field",
+   "Henry Cavendish is analytic number theory",
+   "Henry Cavendish is mathematical physics",
+   "Henry Cavendish is journalism",
+   "Henry Cavendish is sociology",
+   "Henry Cavendish is literature",
+   "Henry Cavendish is ethnography",
+   "Henry Cavendish is belletristic literature",
+   "Henry Cavendish is convex function",
+   "Henry Cavendish is sociology of religion",
+   "Henry Cavendish is pedagogy",
+   "Henry Cavendish is philosophy",
+   "Henry Cavendish is quantum mechanics",
+   "Henry Cavendish is drama",
+   "Henry Cavendish is dance",
+   "Henry Cavendish is Judaism",
+   "Henry Cavendish is quantum physics",
+   "Henry Cavendish is philosophy of science",
+   "Henry Cavendish is linguistics",
+   "Henry Cavendish is myth",
+   "Henry Cavendish is physiology",
+   "Henry Cavendish is English",
+   "Henry Cavendish is philology",
+   "Henry Cavendish is political philosophy",
+   "Henry Cavendish is mechanical engineering",
+   "Henry Cavendish is ontology",
+   "Henry Cavendish is forestry",
+   "Henry Cavendish is aerodynamics",
+   "Henry Cavendish is Christian Church",
+   "Henry Cavendish is magnetic resonance",
+   "Henry Cavendish is astrophysics",
+   "Henry Cavendish is natural science",
+   "Henry Cavendish is constitutional law",
+   "Henry Cavendish is philosophy of law",
+   "Henry Cavendish is education",
+   "Henry Cavendish is Monte Carlo method",
+   "Henry Cavendish is neurology",
+   "Henry Cavendish is electric field",
+   "Henry Cavendish is Minkowski spacetime",
+   "Henry Cavendish is translations from Arabic language",
+   "Henry Cavendish is Bayesian inference",
+   "Henry Cavendish is translations from Polish",
+   "Henry Cavendish is color photography",
+   "Henry Cavendish is opera",
+   "Henry Cavendish is model theory",
+   "Henry Cavendish is cartography",
+   "Henry Cavendish is nonstandard analysis",
+   "Henry Cavendish is television program",
+   "Henry Cavendish is complex manifold",
+   "Henry Cavendish is poetry",
+   "Henry Cavendish is mathematics",
+   "Henry Cavendish is computer science",
+   "Henry Cavendish is cosmology",
+   "Henry Cavendish is silviculture",
+   "Henry Cavendish is hydrodynamics",
+   "Henry Cavendish is forestry science",
+   "Henry Cavendish is comparative religion",
+   "Henry Cavendish is information technology",
+   "Henry Cavendish is ballet",
+   "Henry Cavendish is English literature",
+   "Henry Cavendish is conducting",
+   "Henry Cavendish is hyperbolic geometry",
+   "Henry Cavendish is biochemistry",
+   "Henry Cavendish is religion and society",
+   "Henry Cavendish is optics",
+   "Henry Cavendish is ethics",
+   "Henry Cavendish is cybernetics",
+   "Henry Cavendish is astronomical observation",
+   "Henry Cavendish is psychophysiology",
+   "Henry Cavendish is culturology",
+   "Henry Cavendish is history of religions",
+   "Henry Cavendish is probability theory",
+   "Henry Cavendish is paleontology",
+   "Henry Cavendish is surgery",
+   "Henry Cavendish is group theory",
+   "Henry Cavendish is natural theology",
+   "Henry Cavendish is astrology",
+   "Henry Cavendish is quantum electrodynamics",
+   "Henry Cavendish is mechanics",
+   "Henry Cavendish is Lie algebra",
+   "Henry Cavendish is trigonometry",
+   "Henry Cavendish is literary activity",
+   "Henry Cavendish is nuclear physics",
+   "Henry Cavendish is translations from English",
+   "Henry Cavendish is medicine",
+   "Henry Cavendish is Jewish philosophy",
+   "Henry Cavendish is mathematical logic",
+   "Henry Cavendish is calculus of variations",
+   "Henry Cavendish is ferromagnetism",
+   "Henry Cavendish is analytic geometry",
+   "Henry Cavendish is art of painting",
+   "Henry Cavendish is functional analysis",
+   "Henry Cavendish is folklore",
+   "Henry Cavendish is study of history",
+   "Henry Cavendish is geometry",
+   "Henry Cavendish is positivism",
+   "Henry Cavendish is geodesy",
+   "Henry Cavendish is astronomy",
+   "Henry Cavendish is magnetic field",
+   "Henry Cavendish is kinetic theory",
+   "Henry Cavendish is celestial mechanics",
+   "Henry Cavendish is analytic philosophy",
+   "Henry Cavendish is ethnology",
+   "Henry Cavendish is history of economic thought"
+  ],
+  [
+   [
+    -39.88163375854492
+   ],
+   [
+    -41.97624206542969
+   ],
+   [
+    -48.77450942993164
+   ],
+   [
+    -41.00131607055664
+   ],
+   [
+    -39.64606857299805
+   ],
+   [
+    -39.577606201171875
+   ],
+   [
+    -40.17686462402344
+   ],
+   [
+    -39.06488800048828
+   ],
+   [
+    -39.66691589355469
+   ],
+   [
+    -41.54668045043945
+   ],
+   [
+    -40.27122116088867
+   ],
+   [
+    -37.47731018066406
+   ],
+   [
+    -44.18915557861328
+   ],
+   [
+    -39.51591491699219
+   ],
+   [
+    -41.03656005859375
+   ],
+   [
+    -42.112831115722656
+   ],
+   [
+    -57.027549743652344
+   ],
+   [
+    -38.9873161315918
+   ],
+   [
+    -37.87685012817383
+   ],
+   [
+    -40.46685791015625
+   ],
+   [
+    -44.14556121826172
+   ],
+   [
+    -42.709415435791016
+   ],
+   [
+    -47.847625732421875
+   ],
+   [
+    -42.37202453613281
+   ],
+   [
+    -39.452545166015625
+   ],
+   [
+    -40.474159240722656
+   ],
+   [
+    -37.30644989013672
+   ],
+   [
+    -42.818214416503906
+   ],
+   [
+    -45.16248321533203
+   ],
+   [
+    -41.360328674316406
+   ],
+   [
+    -43.507591247558594
+   ],
+   [
+    -53.0544319152832
+   ],
+   [
+    -40.72050094604492
+   ],
+   [
+    -41.54762649536133
+   ],
+   [
+    -39.36859130859375
+   ],
+   [
+    -40.93170166015625
+   ],
+   [
+    -38.94482421875
+   ],
+   [
+    -41.94673156738281
+   ],
+   [
+    -42.81718826293945
+   ],
+   [
+    -41.832237243652344
+   ],
+   [
+    -38.49850082397461
+   ],
+   [
+    -40.83747863769531
+   ],
+   [
+    -40.2255744934082
+   ],
+   [
+    -36.31244659423828
+   ],
+   [
+    -43.798057556152344
+   ],
+   [
+    -40.51106262207031
+   ],
+   [
+    -47.57570266723633
+   ],
+   [
+    -39.43720245361328
+   ],
+   [
+    -39.034339904785156
+   ],
+   [
+    -39.02082824707031
+   ],
+   [
+    -38.5093879699707
+   ],
+   [
+    -47.884315490722656
+   ],
+   [
+    -40.709373474121094
+   ],
+   [
+    -40.92206573486328
+   ],
+   [
+    -42.58989715576172
+   ],
+   [
+    -41.195030212402344
+   ],
+   [
+    -39.7911376953125
+   ],
+   [
+    -46.33118438720703
+   ],
+   [
+    -44.26021957397461
+   ],
+   [
+    -38.870235443115234
+   ],
+   [
+    -41.8759880065918
+   ],
+   [
+    -44.3614616394043
+   ],
+   [
+    -40.604610443115234
+   ],
+   [
+    -47.262447357177734
+   ],
+   [
+    -40.02288818359375
+   ],
+   [
+    -39.37902069091797
+   ],
+   [
+    -46.90140151977539
+   ],
+   [
+    -44.450862884521484
+   ],
+   [
+    -45.423606872558594
+   ],
+   [
+    -44.183738708496094
+   ],
+   [
+    -41.30089569091797
+   ],
+   [
+    -40.18320083618164
+   ],
+   [
+    -39.10670471191406
+   ],
+   [
+    -41.15412902832031
+   ],
+   [
+    -45.058570861816406
+   ],
+   [
+    -43.95043182373047
+   ],
+   [
+    -40.40010070800781
+   ],
+   [
+    -40.375709533691406
+   ],
+   [
+    -45.39886474609375
+   ],
+   [
+    -43.080448150634766
+   ],
+   [
+    -37.45018005371094
+   ],
+   [
+    -44.56569290161133
+   ],
+   [
+    -45.618255615234375
+   ],
+   [
+    -40.9122200012207
+   ],
+   [
+    -40.502079010009766
+   ],
+   [
+    -40.577537536621094
+   ],
+   [
+    -41.547264099121094
+   ],
+   [
+    -46.91394805908203
+   ],
+   [
+    -37.55873489379883
+   ],
+   [
+    -39.54157257080078
+   ],
+   [
+    -41.87987518310547
+   ],
+   [
+    -43.58952331542969
+   ],
+   [
+    -48.263023376464844
+   ],
+   [
+    -46.646217346191406
+   ],
+   [
+    -44.35792922973633
+   ],
+   [
+    -42.372894287109375
+   ],
+   [
+    -39.4326057434082
+   ],
+   [
+    -52.92989730834961
+   ],
+   [
+    -41.31617736816406
+   ],
+   [
+    -43.792137145996094
+   ],
+   [
+    -39.91620635986328
+   ],
+   [
+    -42.52887725830078
+   ],
+   [
+    -42.12989044189453
+   ],
+   [
+    -39.0283203125
+   ],
+   [
+    -39.70951843261719
+   ],
+   [
+    -39.34293746948242
+   ],
+   [
+    -43.0460205078125
+   ],
+   [
+    -39.11132049560547
+   ],
+   [
+    -45.72804641723633
+   ],
+   [
+    -40.06541442871094
+   ],
+   [
+    -40.75699234008789
+   ],
+   [
+    -50.209747314453125
+   ],
+   [
+    -36.28068923950195
+   ],
+   [
+    -41.01418685913086
+   ],
+   [
+    -37.19261169433594
+   ],
+   [
+    -39.39258575439453
+   ],
+   [
+    -43.32630157470703
+   ],
+   [
+    -45.26261520385742
+   ],
+   [
+    -39.11745071411133
+   ],
+   [
+    -39.320556640625
+   ],
+   [
+    -38.26766586303711
+   ],
+   [
+    -37.51321792602539
+   ],
+   [
+    -40.08900833129883
+   ],
+   [
+    -49.32206726074219
+   ],
+   [
+    -47.767333984375
+   ],
+   [
+    -41.75453567504883
+   ],
+   [
+    -40.302696228027344
+   ],
+   [
+    -36.3072624206543
+   ],
+   [
+    -38.66474914550781
+   ],
+   [
+    -40.51970672607422
+   ],
+   [
+    -39.83829116821289
+   ],
+   [
+    -43.19270324707031
+   ],
+   [
+    -38.667537689208984
+   ],
+   [
+    -39.4314079284668
+   ],
+   [
+    -38.440147399902344
+   ],
+   [
+    -40.360633850097656
+   ],
+   [
+    -39.03811264038086
+   ],
+   [
+    -36.93951416015625
+   ],
+   [
+    -40.221519470214844
+   ],
+   [
+    -38.26949691772461
+   ],
+   [
+    -40.37066650390625
+   ],
+   [
+    -39.05696105957031
+   ],
+   [
+    -40.41199493408203
+   ],
+   [
+    -42.471553802490234
+   ],
+   [
+    -47.35944366455078
+   ],
+   [
+    -41.535682678222656
+   ],
+   [
+    -38.408592224121094
+   ],
+   [
+    -39.768611907958984
+   ],
+   [
+    -40.330238342285156
+   ],
+   [
+    -41.17927551269531
+   ],
+   [
+    -37.80810546875
+   ],
+   [
+    -54.43638229370117
+   ],
+   [
+    -38.90380096435547
+   ],
+   [
+    -44.00294494628906
+   ],
+   [
+    -45.84378433227539
+   ],
+   [
+    -53.881229400634766
+   ],
+   [
+    -41.80586242675781
+   ],
+   [
+    -49.606201171875
+   ],
+   [
+    -41.91608428955078
+   ],
+   [
+    -41.15353775024414
+   ],
+   [
+    -44.58401107788086
+   ],
+   [
+    -38.556156158447266
+   ],
+   [
+    -47.037837982177734
+   ],
+   [
+    -47.50834655761719
+   ],
+   [
+    -48.217613220214844
+   ],
+   [
+    -38.289772033691406
+   ],
+   [
+    -36.53472137451172
+   ],
+   [
+    -39.85334396362305
+   ],
+   [
+    -38.09503173828125
+   ],
+   [
+    -44.28617477416992
+   ],
+   [
+    -40.81120681762695
+   ],
+   [
+    -45.522308349609375
+   ],
+   [
+    -39.33338928222656
+   ],
+   [
+    -40.146583557128906
+   ],
+   [
+    -41.633583068847656
+   ],
+   [
+    -38.33870315551758
+   ],
+   [
+    -40.6574592590332
+   ],
+   [
+    -42.62906265258789
+   ],
+   [
+    -37.63618850708008
+   ],
+   [
+    -44.69651794433594
+   ],
+   [
+    -38.95508575439453
+   ],
+   [
+    -38.50689697265625
+   ],
+   [
+    -39.61676025390625
+   ],
+   [
+    -44.41992950439453
+   ],
+   [
+    -42.37645721435547
+   ],
+   [
+    -44.218833923339844
+   ],
+   [
+    -44.78716278076172
+   ],
+   [
+    -41.17277526855469
+   ],
+   [
+    -39.415077209472656
+   ],
+   [
+    -40.18864440917969
+   ],
+   [
+    -43.503570556640625
+   ],
+   [
+    -41.43558120727539
+   ],
+   [
+    -39.73851013183594
+   ],
+   [
+    -41.346858978271484
+   ],
+   [
+    -40.49657440185547
+   ],
+   [
+    -46.20083999633789
+   ],
+   [
+    -41.067657470703125
+   ],
+   [
+    -47.599327087402344
+   ],
+   [
+    -39.646644592285156
+   ],
+   [
+    -46.862335205078125
+   ],
+   [
+    -37.83140182495117
+   ],
+   [
+    -45.113006591796875
+   ],
+   [
+    -38.73698043823242
+   ],
+   [
+    -46.11158752441406
+   ],
+   [
+    -44.888572692871094
+   ],
+   [
+    -43.0213623046875
+   ],
+   [
+    -46.78045654296875
+   ],
+   [
+    -42.381656646728516
+   ],
+   [
+    -39.926055908203125
+   ],
+   [
+    -45.603389739990234
+   ],
+   [
+    -39.78858184814453
+   ],
+   [
+    -43.085227966308594
+   ],
+   [
+    -42.051212310791016
+   ],
+   [
+    -37.61473083496094
+   ],
+   [
+    -43.56494140625
+   ],
+   [
+    -42.418731689453125
+   ],
+   [
+    -41.442649841308594
+   ],
+   [
+    -39.83582305908203
+   ],
+   [
+    -40.30690002441406
+   ],
+   [
+    -45.35198974609375
+   ],
+   [
+    -28.350574493408203
+   ],
+   [
+    -32.678192138671875
+   ],
+   [
+    -40.24277114868164
+   ],
+   [
+    -28.425029754638672
+   ],
+   [
+    -28.647228240966797
+   ],
+   [
+    -27.82659912109375
+   ],
+   [
+    -32.375999450683594
+   ],
+   [
+    -28.02016830444336
+   ],
+   [
+    -28.525732040405273
+   ],
+   [
+    -32.2237663269043
+   ],
+   [
+    -31.922603607177734
+   ],
+   [
+    -27.88930892944336
+   ],
+   [
+    -36.84708786010742
+   ],
+   [
+    -32.666194915771484
+   ],
+   [
+    -34.341819763183594
+   ],
+   [
+    -34.42988967895508
+   ],
+   [
+    -46.66877746582031
+   ],
+   [
+    -30.79590606689453
+   ],
+   [
+    -29.8116455078125
+   ],
+   [
+    -34.3116455078125
+   ],
+   [
+    -30.83751678466797
+   ],
+   [
+    -35.526649475097656
+   ],
+   [
+    -39.855587005615234
+   ],
+   [
+    -25.29747200012207
+   ],
+   [
+    -24.707128524780273
+   ],
+   [
+    -29.141769409179688
+   ],
+   [
+    -28.288944244384766
+   ],
+   [
+    -33.60795593261719
+   ],
+   [
+    -37.12602233886719
+   ],
+   [
+    -26.772512435913086
+   ],
+   [
+    -29.015783309936523
+   ],
+   [
+    -41.33983612060547
+   ],
+   [
+    -33.01704788208008
+   ],
+   [
+    -33.90693283081055
+   ],
+   [
+    -30.033489227294922
+   ],
+   [
+    -23.140769958496094
+   ],
+   [
+    -27.288055419921875
+   ],
+   [
+    -35.80304718017578
+   ],
+   [
+    -29.06873893737793
+   ],
+   [
+    -31.377412796020508
+   ],
+   [
+    -24.867647171020508
+   ],
+   [
+    -32.7533073425293
+   ],
+   [
+    -29.605976104736328
+   ],
+   [
+    -24.256797790527344
+   ],
+   [
+    -39.759765625
+   ],
+   [
+    -28.419212341308594
+   ],
+   [
+    -33.633758544921875
+   ],
+   [
+    -27.905981063842773
+   ],
+   [
+    -30.030702590942383
+   ],
+   [
+    -28.117107391357422
+   ],
+   [
+    -28.180118560791016
+   ],
+   [
+    -39.408180236816406
+   ],
+   [
+    -28.675018310546875
+   ],
+   [
+    -28.892353057861328
+   ],
+   [
+    -36.803749084472656
+   ],
+   [
+    -33.39923858642578
+   ],
+   [
+    -28.743562698364258
+   ],
+   [
+    -33.918880462646484
+   ],
+   [
+    -36.287357330322266
+   ],
+   [
+    -28.04082489013672
+   ],
+   [
+    -28.488882064819336
+   ],
+   [
+    -25.794401168823242
+   ],
+   [
+    -29.073074340820312
+   ],
+   [
+    -39.72977066040039
+   ],
+   [
+    -28.70643424987793
+   ],
+   [
+    -34.45621871948242
+   ],
+   [
+    -39.93458557128906
+   ],
+   [
+    -27.483394622802734
+   ],
+   [
+    -39.88665008544922
+   ],
+   [
+    -31.224239349365234
+   ],
+   [
+    -28.431982040405273
+   ],
+   [
+    -31.76055145263672
+   ],
+   [
+    -25.305397033691406
+   ],
+   [
+    -26.174339294433594
+   ],
+   [
+    -33.04207992553711
+   ],
+   [
+    -29.736003875732422
+   ],
+   [
+    -32.84589385986328
+   ],
+   [
+    -33.43700408935547
+   ],
+   [
+    -41.565059661865234
+   ],
+   [
+    -32.47319030761719
+   ],
+   [
+    -27.48741340637207
+   ],
+   [
+    -34.34944534301758
+   ],
+   [
+    -28.803733825683594
+   ],
+   [
+    -25.59032440185547
+   ],
+   [
+    -27.793481826782227
+   ],
+   [
+    -30.116165161132812
+   ],
+   [
+    -33.58651351928711
+   ],
+   [
+    -38.821022033691406
+   ],
+   [
+    -25.796175003051758
+   ],
+   [
+    -29.235218048095703
+   ],
+   [
+    -27.870878219604492
+   ],
+   [
+    -34.11113739013672
+   ],
+   [
+    -38.188236236572266
+   ],
+   [
+    -38.09394073486328
+   ],
+   [
+    -26.074745178222656
+   ],
+   [
+    -28.349214553833008
+   ],
+   [
+    -27.618154525756836
+   ],
+   [
+    -44.09326934814453
+   ],
+   [
+    -35.194557189941406
+   ],
+   [
+    -32.828704833984375
+   ],
+   [
+    -29.192047119140625
+   ],
+   [
+    -35.58306121826172
+   ],
+   [
+    -32.05015563964844
+   ],
+   [
+    -28.670652389526367
+   ],
+   [
+    -26.53993797302246
+   ],
+   [
+    -27.726383209228516
+   ],
+   [
+    -34.24167251586914
+   ],
+   [
+    -27.599706649780273
+   ],
+   [
+    -33.73961639404297
+   ],
+   [
+    -31.391063690185547
+   ],
+   [
+    -32.498924255371094
+   ],
+   [
+    -39.74176025390625
+   ],
+   [
+    -26.63440704345703
+   ],
+   [
+    -31.378952026367188
+   ],
+   [
+    -26.184947967529297
+   ],
+   [
+    -29.357646942138672
+   ],
+   [
+    -34.47876739501953
+   ],
+   [
+    -31.598491668701172
+   ],
+   [
+    -30.36501693725586
+   ],
+   [
+    -25.85138511657715
+   ],
+   [
+    -27.373374938964844
+   ],
+   [
+    -25.980323791503906
+   ],
+   [
+    -30.483440399169922
+   ],
+   [
+    -41.625328063964844
+   ],
+   [
+    -39.40664291381836
+   ],
+   [
+    -33.969627380371094
+   ],
+   [
+    -33.219207763671875
+   ],
+   [
+    -26.143877029418945
+   ],
+   [
+    -30.977806091308594
+   ],
+   [
+    -27.283052444458008
+   ],
+   [
+    -28.653480529785156
+   ],
+   [
+    -30.072677612304688
+   ],
+   [
+    -30.239248275756836
+   ],
+   [
+    -31.797447204589844
+   ],
+   [
+    -29.763988494873047
+   ],
+   [
+    -26.86311912536621
+   ],
+   [
+    -29.708452224731445
+   ],
+   [
+    -22.6175537109375
+   ],
+   [
+    -33.298057556152344
+   ],
+   [
+    -32.64313888549805
+   ],
+   [
+    -30.021747589111328
+   ],
+   [
+    -29.01057243347168
+   ],
+   [
+    -29.624019622802734
+   ],
+   [
+    -31.342384338378906
+   ],
+   [
+    -33.25846862792969
+   ],
+   [
+    -36.7601432800293
+   ],
+   [
+    -29.19745635986328
+   ],
+   [
+    -29.308059692382812
+   ],
+   [
+    -29.09366226196289
+   ],
+   [
+    -33.38548278808594
+   ],
+   [
+    -25.2694034576416
+   ],
+   [
+    -42.83301544189453
+   ],
+   [
+    -27.81353759765625
+   ],
+   [
+    -35.85619354248047
+   ],
+   [
+    -38.06435775756836
+   ],
+   [
+    -46.993621826171875
+   ],
+   [
+    -36.47516632080078
+   ],
+   [
+    -41.97438430786133
+   ],
+   [
+    -34.78839874267578
+   ],
+   [
+    -27.594459533691406
+   ],
+   [
+    -35.397979736328125
+   ],
+   [
+    -31.22746467590332
+   ],
+   [
+    -39.549224853515625
+   ],
+   [
+    -34.54651641845703
+   ],
+   [
+    -39.65342330932617
+   ],
+   [
+    -25.624910354614258
+   ],
+   [
+    -27.249650955200195
+   ],
+   [
+    -25.879838943481445
+   ],
+   [
+    -28.394691467285156
+   ],
+   [
+    -31.964078903198242
+   ],
+   [
+    -30.534072875976562
+   ],
+   [
+    -34.21604919433594
+   ],
+   [
+    -30.849769592285156
+   ],
+   [
+    -29.237506866455078
+   ],
+   [
+    -29.05101203918457
+   ],
+   [
+    -28.40610694885254
+   ],
+   [
+    -22.260042190551758
+   ],
+   [
+    -42.80226516723633
+   ],
+   [
+    -27.537841796875
+   ],
+   [
+    -35.28730773925781
+   ],
+   [
+    -30.462324142456055
+   ],
+   [
+    -29.50832748413086
+   ],
+   [
+    -31.196998596191406
+   ],
+   [
+    -37.255611419677734
+   ],
+   [
+    -35.14711380004883
+   ],
+   [
+    -36.39164733886719
+   ],
+   [
+    -38.330833435058594
+   ],
+   [
+    -31.403562545776367
+   ],
+   [
+    -29.525775909423828
+   ],
+   [
+    -28.220565795898438
+   ],
+   [
+    -34.12605285644531
+   ],
+   [
+    -33.76519012451172
+   ],
+   [
+    -29.298608779907227
+   ],
+   [
+    -34.22053527832031
+   ],
+   [
+    -31.314056396484375
+   ],
+   [
+    -36.52324676513672
+   ],
+   [
+    -31.32471466064453
+   ],
+   [
+    -35.85770797729492
+   ],
+   [
+    -29.0076904296875
+   ],
+   [
+    -39.228763580322266
+   ],
+   [
+    -27.687305450439453
+   ],
+   [
+    -37.24789810180664
+   ],
+   [
+    -32.612144470214844
+   ],
+   [
+    -40.88349914550781
+   ],
+   [
+    -36.456443786621094
+   ],
+   [
+    -32.25350570678711
+   ],
+   [
+    -36.305564880371094
+   ],
+   [
+    -34.732391357421875
+   ],
+   [
+    -29.148521423339844
+   ],
+   [
+    -32.95915985107422
+   ],
+   [
+    -29.678152084350586
+   ],
+   [
+    -31.36453628540039
+   ],
+   [
+    -31.77220344543457
+   ],
+   [
+    -27.9741153717041
+   ],
+   [
+    -34.31704330444336
+   ],
+   [
+    -33.82747268676758
+   ],
+   [
+    -33.22488021850586
+   ],
+   [
+    -29.645904541015625
+   ],
+   [
+    -30.810882568359375
+   ],
+   [
+    -37.40703201293945
+   ]
+  ]
+ ],
+ "time": 3282.3413321971893
+}

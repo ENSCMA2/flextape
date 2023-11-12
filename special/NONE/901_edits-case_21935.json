@@ -1,0 +1,2076 @@
+{
+ "case_id": 21935,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "target_true": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "subject": "Sofia Kovalevskaya"
+ },
+ "pre": [
+  [
+   "Sofia Kovalevskaya is meteorology",
+   "Sofia Kovalevskaya is radioactivity",
+   "Sofia Kovalevskaya is complex function",
+   "Sofia Kovalevskaya is histology",
+   "Sofia Kovalevskaya is algebra",
+   "Sofia Kovalevskaya is electron",
+   "Sofia Kovalevskaya is quantum theory",
+   "Sofia Kovalevskaya is applied mathematics",
+   "Sofia Kovalevskaya is electricity",
+   "Sofia Kovalevskaya is human geography",
+   "Sofia Kovalevskaya is crystallography",
+   "Sofia Kovalevskaya is chemistry",
+   "Sofia Kovalevskaya is Jewish studies",
+   "Sofia Kovalevskaya is topology",
+   "Sofia Kovalevskaya is mathematical analysis",
+   "Sofia Kovalevskaya is computational geometry",
+   "Sofia Kovalevskaya is Petrine ministry",
+   "Sofia Kovalevskaya is social psychology",
+   "Sofia Kovalevskaya is genetics",
+   "Sofia Kovalevskaya is informatics",
+   "Sofia Kovalevskaya is shipbuilding",
+   "Sofia Kovalevskaya is historical sociology",
+   "Sofia Kovalevskaya is quantum mysticism",
+   "Sofia Kovalevskaya is philosopher",
+   "Sofia Kovalevskaya is Internet",
+   "Sofia Kovalevskaya is gravity",
+   "Sofia Kovalevskaya is theoretical physics",
+   "Sofia Kovalevskaya is African studies",
+   "Sofia Kovalevskaya is projective geometry",
+   "Sofia Kovalevskaya is prose",
+   "Sofia Kovalevskaya is momentum",
+   "Sofia Kovalevskaya is Cairo Geniza",
+   "Sofia Kovalevskaya is stochastic",
+   "Sofia Kovalevskaya is algebraic topology",
+   "Sofia Kovalevskaya is electrical engineering",
+   "Sofia Kovalevskaya is hunting",
+   "Sofia Kovalevskaya is evolution",
+   "Sofia Kovalevskaya is economic anthropology",
+   "Sofia Kovalevskaya is Hebrew",
+   "Sofia Kovalevskaya is differential geometry",
+   "Sofia Kovalevskaya is engineering",
+   "Sofia Kovalevskaya is history of science",
+   "Sofia Kovalevskaya is social anthropology",
+   "Sofia Kovalevskaya is history",
+   "Sofia Kovalevskaya is distribution theory",
+   "Sofia Kovalevskaya is classics",
+   "Sofia Kovalevskaya is crime novel",
+   "Sofia Kovalevskaya is statistics",
+   "Sofia Kovalevskaya is experimental physics",
+   "Sofia Kovalevskaya is geography",
+   "Sofia Kovalevskaya is anthropology",
+   "Sofia Kovalevskaya is partial differential equation",
+   "Sofia Kovalevskaya is applied physics",
+   "Sofia Kovalevskaya is Sanskrit",
+   "Sofia Kovalevskaya is a branch of physics",
+   "Sofia Kovalevskaya is comparative mythology",
+   "Sofia Kovalevskaya is radiation",
+   "Sofia Kovalevskaya is aeromechanics",
+   "Sofia Kovalevskaya is harmonic analysis",
+   "Sofia Kovalevskaya is religion",
+   "Sofia Kovalevskaya is civil rights",
+   "Sofia Kovalevskaya is physicist",
+   "Sofia Kovalevskaya is distribution",
+   "Sofia Kovalevskaya is translations from Spanish",
+   "Sofia Kovalevskaya is feminism",
+   "Sofia Kovalevskaya is number theory",
+   "Sofia Kovalevskaya is sociology of organisations",
+   "Sofia Kovalevskaya is astronomer",
+   "Sofia Kovalevskaya is children's and youth literature",
+   "Sofia Kovalevskaya is fairy tale",
+   "Sofia Kovalevskaya is economy",
+   "Sofia Kovalevskaya is graph theory",
+   "Sofia Kovalevskaya is magic",
+   "Sofia Kovalevskaya is essay",
+   "Sofia Kovalevskaya is theory of relativity",
+   "Sofia Kovalevskaya is historical novel",
+   "Sofia Kovalevskaya is biological anthropology",
+   "Sofia Kovalevskaya is literary theory",
+   "Sofia Kovalevskaya is Greek philology",
+   "Sofia Kovalevskaya is lyric poetry",
+   "Sofia Kovalevskaya is psychology",
+   "Sofia Kovalevskaya is quaternion",
+   "Sofia Kovalevskaya is rite",
+   "Sofia Kovalevskaya is jazz",
+   "Sofia Kovalevskaya is heat",
+   "Sofia Kovalevskaya is embryology",
+   "Sofia Kovalevskaya is social philosophy",
+   "Sofia Kovalevskaya is dance choreography",
+   "Sofia Kovalevskaya is politics",
+   "Sofia Kovalevskaya is nanotechnology",
+   "Sofia Kovalevskaya is Afghanistan",
+   "Sofia Kovalevskaya is non-Euclidean geometry",
+   "Sofia Kovalevskaya is Franciscan spirituality",
+   "Sofia Kovalevskaya is detective literature",
+   "Sofia Kovalevskaya is mathematician",
+   "Sofia Kovalevskaya is String",
+   "Sofia Kovalevskaya is classical music",
+   "Sofia Kovalevskaya is translations from Occitan",
+   "Sofia Kovalevskaya is abstract algebra",
+   "Sofia Kovalevskaya is differential calculus",
+   "Sofia Kovalevskaya is mythology",
+   "Sofia Kovalevskaya is literary translation",
+   "Sofia Kovalevskaya is ballistics",
+   "Sofia Kovalevskaya is cryptography",
+   "Sofia Kovalevskaya is Greek",
+   "Sofia Kovalevskaya is logic",
+   "Sofia Kovalevskaya is choreography",
+   "Sofia Kovalevskaya is theology",
+   "Sofia Kovalevskaya is world economy",
+   "Sofia Kovalevskaya is magnetism",
+   "Sofia Kovalevskaya is algebraic geometry",
+   "Sofia Kovalevskaya is theory of differential equations",
+   "Sofia Kovalevskaya is physics",
+   "Sofia Kovalevskaya is music theory",
+   "Sofia Kovalevskaya is economics",
+   "Sofia Kovalevskaya is anatomy",
+   "Sofia Kovalevskaya is electromagnetic field",
+   "Sofia Kovalevskaya is analytic number theory",
+   "Sofia Kovalevskaya is mathematical physics",
+   "Sofia Kovalevskaya is journalism",
+   "Sofia Kovalevskaya is sociology",
+   "Sofia Kovalevskaya is literature",
+   "Sofia Kovalevskaya is ethnography",
+   "Sofia Kovalevskaya is belletristic literature",
+   "Sofia Kovalevskaya is convex function",
+   "Sofia Kovalevskaya is sociology of religion",
+   "Sofia Kovalevskaya is pedagogy",
+   "Sofia Kovalevskaya is philosophy",
+   "Sofia Kovalevskaya is quantum mechanics",
+   "Sofia Kovalevskaya is drama",
+   "Sofia Kovalevskaya is dance",
+   "Sofia Kovalevskaya is Judaism",
+   "Sofia Kovalevskaya is quantum physics",
+   "Sofia Kovalevskaya is philosophy of science",
+   "Sofia Kovalevskaya is linguistics",
+   "Sofia Kovalevskaya is myth",
+   "Sofia Kovalevskaya is physiology",
+   "Sofia Kovalevskaya is English",
+   "Sofia Kovalevskaya is philology",
+   "Sofia Kovalevskaya is political philosophy",
+   "Sofia Kovalevskaya is mechanical engineering",
+   "Sofia Kovalevskaya is ontology",
+   "Sofia Kovalevskaya is forestry",
+   "Sofia Kovalevskaya is aerodynamics",
+   "Sofia Kovalevskaya is Christian Church",
+   "Sofia Kovalevskaya is magnetic resonance",
+   "Sofia Kovalevskaya is astrophysics",
+   "Sofia Kovalevskaya is natural science",
+   "Sofia Kovalevskaya is constitutional law",
+   "Sofia Kovalevskaya is philosophy of law",
+   "Sofia Kovalevskaya is education",
+   "Sofia Kovalevskaya is Monte Carlo method",
+   "Sofia Kovalevskaya is neurology",
+   "Sofia Kovalevskaya is electric field",
+   "Sofia Kovalevskaya is Minkowski spacetime",
+   "Sofia Kovalevskaya is translations from Arabic language",
+   "Sofia Kovalevskaya is Bayesian inference",
+   "Sofia Kovalevskaya is translations from Polish",
+   "Sofia Kovalevskaya is color photography",
+   "Sofia Kovalevskaya is opera",
+   "Sofia Kovalevskaya is model theory",
+   "Sofia Kovalevskaya is cartography",
+   "Sofia Kovalevskaya is nonstandard analysis",
+   "Sofia Kovalevskaya is television program",
+   "Sofia Kovalevskaya is complex manifold",
+   "Sofia Kovalevskaya is poetry",
+   "Sofia Kovalevskaya is mathematics",
+   "Sofia Kovalevskaya is computer science",
+   "Sofia Kovalevskaya is cosmology",
+   "Sofia Kovalevskaya is silviculture",
+   "Sofia Kovalevskaya is hydrodynamics",
+   "Sofia Kovalevskaya is forestry science",
+   "Sofia Kovalevskaya is comparative religion",
+   "Sofia Kovalevskaya is information technology",
+   "Sofia Kovalevskaya is ballet",
+   "Sofia Kovalevskaya is English literature",
+   "Sofia Kovalevskaya is conducting",
+   "Sofia Kovalevskaya is hyperbolic geometry",
+   "Sofia Kovalevskaya is biochemistry",
+   "Sofia Kovalevskaya is religion and society",
+   "Sofia Kovalevskaya is optics",
+   "Sofia Kovalevskaya is ethics",
+   "Sofia Kovalevskaya is cybernetics",
+   "Sofia Kovalevskaya is astronomical observation",
+   "Sofia Kovalevskaya is psychophysiology",
+   "Sofia Kovalevskaya is culturology",
+   "Sofia Kovalevskaya is history of religions",
+   "Sofia Kovalevskaya is probability theory",
+   "Sofia Kovalevskaya is paleontology",
+   "Sofia Kovalevskaya is surgery",
+   "Sofia Kovalevskaya is group theory",
+   "Sofia Kovalevskaya is natural theology",
+   "Sofia Kovalevskaya is astrology",
+   "Sofia Kovalevskaya is quantum electrodynamics",
+   "Sofia Kovalevskaya is mechanics",
+   "Sofia Kovalevskaya is Lie algebra",
+   "Sofia Kovalevskaya is trigonometry",
+   "Sofia Kovalevskaya is literary activity",
+   "Sofia Kovalevskaya is nuclear physics",
+   "Sofia Kovalevskaya is translations from English",
+   "Sofia Kovalevskaya is medicine",
+   "Sofia Kovalevskaya is Jewish philosophy",
+   "Sofia Kovalevskaya is mathematical logic",
+   "Sofia Kovalevskaya is calculus of variations",
+   "Sofia Kovalevskaya is ferromagnetism",
+   "Sofia Kovalevskaya is analytic geometry",
+   "Sofia Kovalevskaya is art of painting",
+   "Sofia Kovalevskaya is functional analysis",
+   "Sofia Kovalevskaya is folklore",
+   "Sofia Kovalevskaya is study of history",
+   "Sofia Kovalevskaya is geometry",
+   "Sofia Kovalevskaya is positivism",
+   "Sofia Kovalevskaya is geodesy",
+   "Sofia Kovalevskaya is astronomy",
+   "Sofia Kovalevskaya is magnetic field",
+   "Sofia Kovalevskaya is kinetic theory",
+   "Sofia Kovalevskaya is celestial mechanics",
+   "Sofia Kovalevskaya is analytic philosophy",
+   "Sofia Kovalevskaya is ethnology",
+   "Sofia Kovalevskaya is history of economic thought",
+   "Sofia Kovalevskaya's field of work is meteorology",
+   "Sofia Kovalevskaya's field of work is radioactivity",
+   "Sofia Kovalevskaya's field of work is complex function",
+   "Sofia Kovalevskaya's field of work is histology",
+   "Sofia Kovalevskaya's field of work is algebra",
+   "Sofia Kovalevskaya's field of work is electron",
+   "Sofia Kovalevskaya's field of work is quantum theory",
+   "Sofia Kovalevskaya's field of work is applied mathematics",
+   "Sofia Kovalevskaya's field of work is electricity",
+   "Sofia Kovalevskaya's field of work is human geography",
+   "Sofia Kovalevskaya's field of work is crystallography",
+   "Sofia Kovalevskaya's field of work is chemistry",
+   "Sofia Kovalevskaya's field of work is Jewish studies",
+   "Sofia Kovalevskaya's field of work is topology",
+   "Sofia Kovalevskaya's field of work is mathematical analysis",
+   "Sofia Kovalevskaya's field of work is computational geometry",
+   "Sofia Kovalevskaya's field of work is Petrine ministry",
+   "Sofia Kovalevskaya's field of work is social psychology",
+   "Sofia Kovalevskaya's field of work is genetics",
+   "Sofia Kovalevskaya's field of work is informatics",
+   "Sofia Kovalevskaya's field of work is shipbuilding",
+   "Sofia Kovalevskaya's field of work is historical sociology",
+   "Sofia Kovalevskaya's field of work is quantum mysticism",
+   "Sofia Kovalevskaya's field of work is philosopher",
+   "Sofia Kovalevskaya's field of work is Internet",
+   "Sofia Kovalevskaya's field of work is gravity",
+   "Sofia Kovalevskaya's field of work is theoretical physics",
+   "Sofia Kovalevskaya's field of work is African studies",
+   "Sofia Kovalevskaya's field of work is projective geometry",
+   "Sofia Kovalevskaya's field of work is prose",
+   "Sofia Kovalevskaya's field of work is momentum",
+   "Sofia Kovalevskaya's field of work is Cairo Geniza",
+   "Sofia Kovalevskaya's field of work is stochastic",
+   "Sofia Kovalevskaya's field of work is algebraic topology",
+   "Sofia Kovalevskaya's field of work is electrical engineering",
+   "Sofia Kovalevskaya's field of work is hunting",
+   "Sofia Kovalevskaya's field of work is evolution",
+   "Sofia Kovalevskaya's field of work is economic anthropology",
+   "Sofia Kovalevskaya's field of work is Hebrew",
+   "Sofia Kovalevskaya's field of work is differential geometry",
+   "Sofia Kovalevskaya's field of work is engineering",
+   "Sofia Kovalevskaya's field of work is history of science",
+   "Sofia Kovalevskaya's field of work is social anthropology",
+   "Sofia Kovalevskaya's field of work is history",
+   "Sofia Kovalevskaya's field of work is distribution theory",
+   "Sofia Kovalevskaya's field of work is classics",
+   "Sofia Kovalevskaya's field of work is crime novel",
+   "Sofia Kovalevskaya's field of work is statistics",
+   "Sofia Kovalevskaya's field of work is experimental physics",
+   "Sofia Kovalevskaya's field of work is geography",
+   "Sofia Kovalevskaya's field of work is anthropology",
+   "Sofia Kovalevskaya's field of work is partial differential equation",
+   "Sofia Kovalevskaya's field of work is applied physics",
+   "Sofia Kovalevskaya's field of work is Sanskrit",
+   "Sofia Kovalevskaya's field of work is a branch of physics",
+   "Sofia Kovalevskaya's field of work is comparative mythology",
+   "Sofia Kovalevskaya's field of work is radiation",
+   "Sofia Kovalevskaya's field of work is aeromechanics",
+   "Sofia Kovalevskaya's field of work is harmonic analysis",
+   "Sofia Kovalevskaya's field of work is religion",
+   "Sofia Kovalevskaya's field of work is civil rights",
+   "Sofia Kovalevskaya's field of work is physicist",
+   "Sofia Kovalevskaya's field of work is distribution",
+   "Sofia Kovalevskaya's field of work is translations from Spanish",
+   "Sofia Kovalevskaya's field of work is feminism",
+   "Sofia Kovalevskaya's field of work is number theory",
+   "Sofia Kovalevskaya's field of work is sociology of organisations",
+   "Sofia Kovalevskaya's field of work is astronomer",
+   "Sofia Kovalevskaya's field of work is children's and youth literature",
+   "Sofia Kovalevskaya's field of work is fairy tale",
+   "Sofia Kovalevskaya's field of work is economy",
+   "Sofia Kovalevskaya's field of work is graph theory",
+   "Sofia Kovalevskaya's field of work is magic",
+   "Sofia Kovalevskaya's field of work is essay",
+   "Sofia Kovalevskaya's field of work is theory of relativity",
+   "Sofia Kovalevskaya's field of work is historical novel",
+   "Sofia Kovalevskaya's field of work is biological anthropology",
+   "Sofia Kovalevskaya's field of work is literary theory",
+   "Sofia Kovalevskaya's field of work is Greek philology",
+   "Sofia Kovalevskaya's field of work is lyric poetry",
+   "Sofia Kovalevskaya's field of work is psychology",
+   "Sofia Kovalevskaya's field of work is quaternion",
+   "Sofia Kovalevskaya's field of work is rite",
+   "Sofia Kovalevskaya's field of work is jazz",
+   "Sofia Kovalevskaya's field of work is heat",
+   "Sofia Kovalevskaya's field of work is embryology",
+   "Sofia Kovalevskaya's field of work is social philosophy",
+   "Sofia Kovalevskaya's field of work is dance choreography",
+   "Sofia Kovalevskaya's field of work is politics",
+   "Sofia Kovalevskaya's field of work is nanotechnology",
+   "Sofia Kovalevskaya's field of work is Afghanistan",
+   "Sofia Kovalevskaya's field of work is non-Euclidean geometry",
+   "Sofia Kovalevskaya's field of work is Franciscan spirituality",
+   "Sofia Kovalevskaya's field of work is detective literature",
+   "Sofia Kovalevskaya's field of work is mathematician",
+   "Sofia Kovalevskaya's field of work is String",
+   "Sofia Kovalevskaya's field of work is classical music",
+   "Sofia Kovalevskaya's field of work is translations from Occitan",
+   "Sofia Kovalevskaya's field of work is abstract algebra",
+   "Sofia Kovalevskaya's field of work is differential calculus",
+   "Sofia Kovalevskaya's field of work is mythology",
+   "Sofia Kovalevskaya's field of work is literary translation",
+   "Sofia Kovalevskaya's field of work is ballistics",
+   "Sofia Kovalevskaya's field of work is cryptography",
+   "Sofia Kovalevskaya's field of work is Greek",
+   "Sofia Kovalevskaya's field of work is logic",
+   "Sofia Kovalevskaya's field of work is choreography",
+   "Sofia Kovalevskaya's field of work is theology",
+   "Sofia Kovalevskaya's field of work is world economy",
+   "Sofia Kovalevskaya's field of work is magnetism",
+   "Sofia Kovalevskaya's field of work is algebraic geometry",
+   "Sofia Kovalevskaya's field of work is theory of differential equations",
+   "Sofia Kovalevskaya's field of work is physics",
+   "Sofia Kovalevskaya's field of work is music theory",
+   "Sofia Kovalevskaya's field of work is economics",
+   "Sofia Kovalevskaya's field of work is anatomy",
+   "Sofia Kovalevskaya's field of work is electromagnetic field",
+   "Sofia Kovalevskaya's field of work is analytic number theory",
+   "Sofia Kovalevskaya's field of work is mathematical physics",
+   "Sofia Kovalevskaya's field of work is journalism",
+   "Sofia Kovalevskaya's field of work is sociology",
+   "Sofia Kovalevskaya's field of work is literature",
+   "Sofia Kovalevskaya's field of work is ethnography",
+   "Sofia Kovalevskaya's field of work is belletristic literature",
+   "Sofia Kovalevskaya's field of work is convex function",
+   "Sofia Kovalevskaya's field of work is sociology of religion",
+   "Sofia Kovalevskaya's field of work is pedagogy",
+   "Sofia Kovalevskaya's field of work is philosophy",
+   "Sofia Kovalevskaya's field of work is quantum mechanics",
+   "Sofia Kovalevskaya's field of work is drama",
+   "Sofia Kovalevskaya's field of work is dance",
+   "Sofia Kovalevskaya's field of work is Judaism",
+   "Sofia Kovalevskaya's field of work is quantum physics",
+   "Sofia Kovalevskaya's field of work is philosophy of science",
+   "Sofia Kovalevskaya's field of work is linguistics",
+   "Sofia Kovalevskaya's field of work is myth",
+   "Sofia Kovalevskaya's field of work is physiology",
+   "Sofia Kovalevskaya's field of work is English",
+   "Sofia Kovalevskaya's field of work is philology",
+   "Sofia Kovalevskaya's field of work is political philosophy",
+   "Sofia Kovalevskaya's field of work is mechanical engineering",
+   "Sofia Kovalevskaya's field of work is ontology",
+   "Sofia Kovalevskaya's field of work is forestry",
+   "Sofia Kovalevskaya's field of work is aerodynamics",
+   "Sofia Kovalevskaya's field of work is Christian Church",
+   "Sofia Kovalevskaya's field of work is magnetic resonance",
+   "Sofia Kovalevskaya's field of work is astrophysics",
+   "Sofia Kovalevskaya's field of work is natural science",
+   "Sofia Kovalevskaya's field of work is constitutional law",
+   "Sofia Kovalevskaya's field of work is philosophy of law",
+   "Sofia Kovalevskaya's field of work is education",
+   "Sofia Kovalevskaya's field of work is Monte Carlo method",
+   "Sofia Kovalevskaya's field of work is neurology",
+   "Sofia Kovalevskaya's field of work is electric field",
+   "Sofia Kovalevskaya's field of work is Minkowski spacetime",
+   "Sofia Kovalevskaya's field of work is translations from Arabic language",
+   "Sofia Kovalevskaya's field of work is Bayesian inference",
+   "Sofia Kovalevskaya's field of work is translations from Polish",
+   "Sofia Kovalevskaya's field of work is color photography",
+   "Sofia Kovalevskaya's field of work is opera",
+   "Sofia Kovalevskaya's field of work is model theory",
+   "Sofia Kovalevskaya's field of work is cartography",
+   "Sofia Kovalevskaya's field of work is nonstandard analysis",
+   "Sofia Kovalevskaya's field of work is television program",
+   "Sofia Kovalevskaya's field of work is complex manifold",
+   "Sofia Kovalevskaya's field of work is poetry",
+   "Sofia Kovalevskaya's field of work is mathematics",
+   "Sofia Kovalevskaya's field of work is computer science",
+   "Sofia Kovalevskaya's field of work is cosmology",
+   "Sofia Kovalevskaya's field of work is silviculture",
+   "Sofia Kovalevskaya's field of work is hydrodynamics",
+   "Sofia Kovalevskaya's field of work is forestry science",
+   "Sofia Kovalevskaya's field of work is comparative religion",
+   "Sofia Kovalevskaya's field of work is information technology",
+   "Sofia Kovalevskaya's field of work is ballet",
+   "Sofia Kovalevskaya's field of work is English literature",
+   "Sofia Kovalevskaya's field of work is conducting",
+   "Sofia Kovalevskaya's field of work is hyperbolic geometry",
+   "Sofia Kovalevskaya's field of work is biochemistry",
+   "Sofia Kovalevskaya's field of work is religion and society",
+   "Sofia Kovalevskaya's field of work is optics",
+   "Sofia Kovalevskaya's field of work is ethics",
+   "Sofia Kovalevskaya's field of work is cybernetics",
+   "Sofia Kovalevskaya's field of work is astronomical observation",
+   "Sofia Kovalevskaya's field of work is psychophysiology",
+   "Sofia Kovalevskaya's field of work is culturology",
+   "Sofia Kovalevskaya's field of work is history of religions",
+   "Sofia Kovalevskaya's field of work is probability theory",
+   "Sofia Kovalevskaya's field of work is paleontology",
+   "Sofia Kovalevskaya's field of work is surgery",
+   "Sofia Kovalevskaya's field of work is group theory",
+   "Sofia Kovalevskaya's field of work is natural theology",
+   "Sofia Kovalevskaya's field of work is astrology",
+   "Sofia Kovalevskaya's field of work is quantum electrodynamics",
+   "Sofia Kovalevskaya's field of work is mechanics",
+   "Sofia Kovalevskaya's field of work is Lie algebra",
+   "Sofia Kovalevskaya's field of work is trigonometry",
+   "Sofia Kovalevskaya's field of work is literary activity",
+   "Sofia Kovalevskaya's field of work is nuclear physics",
+   "Sofia Kovalevskaya's field of work is translations from English",
+   "Sofia Kovalevskaya's field of work is medicine",
+   "Sofia Kovalevskaya's field of work is Jewish philosophy",
+   "Sofia Kovalevskaya's field of work is mathematical logic",
+   "Sofia Kovalevskaya's field of work is calculus of variations",
+   "Sofia Kovalevskaya's field of work is ferromagnetism",
+   "Sofia Kovalevskaya's field of work is analytic geometry",
+   "Sofia Kovalevskaya's field of work is art of painting",
+   "Sofia Kovalevskaya's field of work is functional analysis",
+   "Sofia Kovalevskaya's field of work is folklore",
+   "Sofia Kovalevskaya's field of work is study of history",
+   "Sofia Kovalevskaya's field of work is geometry",
+   "Sofia Kovalevskaya's field of work is positivism",
+   "Sofia Kovalevskaya's field of work is geodesy",
+   "Sofia Kovalevskaya's field of work is astronomy",
+   "Sofia Kovalevskaya's field of work is magnetic field",
+   "Sofia Kovalevskaya's field of work is kinetic theory",
+   "Sofia Kovalevskaya's field of work is celestial mechanics",
+   "Sofia Kovalevskaya's field of work is analytic philosophy",
+   "Sofia Kovalevskaya's field of work is ethnology",
+   "Sofia Kovalevskaya's field of work is history of economic thought"
+  ],
+  [
+   [
+    -37.06737518310547
+   ],
+   [
+    -41.00197219848633
+   ],
+   [
+    -44.47984313964844
+   ],
+   [
+    -39.801048278808594
+   ],
+   [
+    -34.047203063964844
+   ],
+   [
+    -35.50652313232422
+   ],
+   [
+    -37.847930908203125
+   ],
+   [
+    -35.544124603271484
+   ],
+   [
+    -35.510074615478516
+   ],
+   [
+    -41.802825927734375
+   ],
+   [
+    -39.32793426513672
+   ],
+   [
+    -36.20815658569336
+   ],
+   [
+    -45.166053771972656
+   ],
+   [
+    -37.13432312011719
+   ],
+   [
+    -39.275421142578125
+   ],
+   [
+    -40.92021179199219
+   ],
+   [
+    -49.2962760925293
+   ],
+   [
+    -38.22324752807617
+   ],
+   [
+    -38.14231872558594
+   ],
+   [
+    -39.17950439453125
+   ],
+   [
+    -41.038246154785156
+   ],
+   [
+    -42.00396728515625
+   ],
+   [
+    -43.36759948730469
+   ],
+   [
+    -33.1185417175293
+   ],
+   [
+    -33.91119384765625
+   ],
+   [
+    -36.572021484375
+   ],
+   [
+    -35.22822570800781
+   ],
+   [
+    -44.6844482421875
+   ],
+   [
+    -43.431854248046875
+   ],
+   [
+    -36.84307861328125
+   ],
+   [
+    -36.58709716796875
+   ],
+   [
+    -50.111572265625
+   ],
+   [
+    -40.58746337890625
+   ],
+   [
+    -39.33333206176758
+   ],
+   [
+    -37.30586242675781
+   ],
+   [
+    -34.51114273071289
+   ],
+   [
+    -35.59667205810547
+   ],
+   [
+    -43.77552795410156
+   ],
+   [
+    -36.31502914428711
+   ],
+   [
+    -40.51600646972656
+   ],
+   [
+    -34.99815368652344
+   ],
+   [
+    -39.491416931152344
+   ],
+   [
+    -39.71800231933594
+   ],
+   [
+    -29.957378387451172
+   ],
+   [
+    -42.124855041503906
+   ],
+   [
+    -36.88157272338867
+   ],
+   [
+    -41.13018798828125
+   ],
+   [
+    -34.823219299316406
+   ],
+   [
+    -38.565704345703125
+   ],
+   [
+    -37.40915298461914
+   ],
+   [
+    -36.90997314453125
+   ],
+   [
+    -39.99146270751953
+   ],
+   [
+    -39.19553756713867
+   ],
+   [
+    -36.37568283081055
+   ],
+   [
+    -40.06135940551758
+   ],
+   [
+    -40.23438262939453
+   ],
+   [
+    -36.53235626220703
+   ],
+   [
+    -42.028717041015625
+   ],
+   [
+    -40.48747253417969
+   ],
+   [
+    -37.09495162963867
+   ],
+   [
+    -39.096771240234375
+   ],
+   [
+    -32.64756393432617
+   ],
+   [
+    -37.79071044921875
+   ],
+   [
+    -47.32244110107422
+   ],
+   [
+    -32.70771408081055
+   ],
+   [
+    -40.55199432373047
+   ],
+   [
+    -48.91419982910156
+   ],
+   [
+    -34.8959846496582
+   ],
+   [
+    -45.856605529785156
+   ],
+   [
+    -34.98052978515625
+   ],
+   [
+    -37.2181396484375
+   ],
+   [
+    -38.916778564453125
+   ],
+   [
+    -33.957115173339844
+   ],
+   [
+    -33.921993255615234
+   ],
+   [
+    -40.16986083984375
+   ],
+   [
+    -38.22377014160156
+   ],
+   [
+    -40.188438415527344
+   ],
+   [
+    -39.47187042236328
+   ],
+   [
+    -45.6070442199707
+   ],
+   [
+    -39.237789154052734
+   ],
+   [
+    -35.878177642822266
+   ],
+   [
+    -39.53289794921875
+   ],
+   [
+    -36.48537826538086
+   ],
+   [
+    -34.63606262207031
+   ],
+   [
+    -36.71187210083008
+   ],
+   [
+    -38.77260971069336
+   ],
+   [
+    -40.97163391113281
+   ],
+   [
+    -42.44053649902344
+   ],
+   [
+    -35.55857467651367
+   ],
+   [
+    -38.90586471557617
+   ],
+   [
+    -37.28263473510742
+   ],
+   [
+    -38.43812561035156
+   ],
+   [
+    -45.35063171386719
+   ],
+   [
+    -44.711795806884766
+   ],
+   [
+    -31.46161651611328
+   ],
+   [
+    -35.8326530456543
+   ],
+   [
+    -34.341712951660156
+   ],
+   [
+    -51.530067443847656
+   ],
+   [
+    -37.176658630371094
+   ],
+   [
+    -43.54296112060547
+   ],
+   [
+    -34.02531433105469
+   ],
+   [
+    -41.871849060058594
+   ],
+   [
+    -40.12428283691406
+   ],
+   [
+    -34.72520446777344
+   ],
+   [
+    -32.08319091796875
+   ],
+   [
+    -35.49449157714844
+   ],
+   [
+    -39.16163635253906
+   ],
+   [
+    -37.47012710571289
+   ],
+   [
+    -42.38751983642578
+   ],
+   [
+    -36.54828643798828
+   ],
+   [
+    -37.930397033691406
+   ],
+   [
+    -40.2081184387207
+   ],
+   [
+    -33.26443862915039
+   ],
+   [
+    -37.426856994628906
+   ],
+   [
+    -36.16372299194336
+   ],
+   [
+    -36.33317565917969
+   ],
+   [
+    -40.36009979248047
+   ],
+   [
+    -37.32585144042969
+   ],
+   [
+    -36.98032760620117
+   ],
+   [
+    -37.54893112182617
+   ],
+   [
+    -35.96280288696289
+   ],
+   [
+    -33.81294631958008
+   ],
+   [
+    -39.549617767333984
+   ],
+   [
+    -45.44670867919922
+   ],
+   [
+    -44.84495544433594
+   ],
+   [
+    -43.23308563232422
+   ],
+   [
+    -40.3597412109375
+   ],
+   [
+    -34.052005767822266
+   ],
+   [
+    -37.294151306152344
+   ],
+   [
+    -35.65497589111328
+   ],
+   [
+    -33.941349029541016
+   ],
+   [
+    -36.416595458984375
+   ],
+   [
+    -36.172393798828125
+   ],
+   [
+    -40.290992736816406
+   ],
+   [
+    -39.421409606933594
+   ],
+   [
+    -31.908294677734375
+   ],
+   [
+    -37.04555892944336
+   ],
+   [
+    -33.705806732177734
+   ],
+   [
+    -37.41170883178711
+   ],
+   [
+    -39.19224548339844
+   ],
+   [
+    -37.01939392089844
+   ],
+   [
+    -37.37147521972656
+   ],
+   [
+    -40.06924057006836
+   ],
+   [
+    -40.39390563964844
+   ],
+   [
+    -42.88603591918945
+   ],
+   [
+    -43.308937072753906
+   ],
+   [
+    -38.235511779785156
+   ],
+   [
+    -37.01106643676758
+   ],
+   [
+    -39.88264846801758
+   ],
+   [
+    -42.231693267822266
+   ],
+   [
+    -34.27067184448242
+   ],
+   [
+    -50.329647064208984
+   ],
+   [
+    -35.3661003112793
+   ],
+   [
+    -44.02772521972656
+   ],
+   [
+    -40.68914794921875
+   ],
+   [
+    -54.57758712768555
+   ],
+   [
+    -42.28532409667969
+   ],
+   [
+    -47.35184097290039
+   ],
+   [
+    -42.406490325927734
+   ],
+   [
+    -33.30301284790039
+   ],
+   [
+    -41.61163330078125
+   ],
+   [
+    -39.92542266845703
+   ],
+   [
+    -44.46253204345703
+   ],
+   [
+    -43.52545166015625
+   ],
+   [
+    -44.94533157348633
+   ],
+   [
+    -33.60669708251953
+   ],
+   [
+    -33.266357421875
+   ],
+   [
+    -34.88310241699219
+   ],
+   [
+    -37.275089263916016
+   ],
+   [
+    -46.44573974609375
+   ],
+   [
+    -38.057945251464844
+   ],
+   [
+    -43.76228332519531
+   ],
+   [
+    -40.9422607421875
+   ],
+   [
+    -36.29811477661133
+   ],
+   [
+    -33.999507904052734
+   ],
+   [
+    -38.78120422363281
+   ],
+   [
+    -31.525035858154297
+   ],
+   [
+    -42.13886260986328
+   ],
+   [
+    -37.7384147644043
+   ],
+   [
+    -43.84183883666992
+   ],
+   [
+    -38.3790397644043
+   ],
+   [
+    -38.43535232543945
+   ],
+   [
+    -36.885475158691406
+   ],
+   [
+    -42.800724029541016
+   ],
+   [
+    -42.00831604003906
+   ],
+   [
+    -45.296043395996094
+   ],
+   [
+    -47.67232131958008
+   ],
+   [
+    -36.67717742919922
+   ],
+   [
+    -39.505096435546875
+   ],
+   [
+    -37.66100311279297
+   ],
+   [
+    -39.41868209838867
+   ],
+   [
+    -43.37401580810547
+   ],
+   [
+    -36.83662414550781
+   ],
+   [
+    -40.967041015625
+   ],
+   [
+    -39.2675895690918
+   ],
+   [
+    -36.32212448120117
+   ],
+   [
+    -38.232765197753906
+   ],
+   [
+    -42.6549072265625
+   ],
+   [
+    -36.63677978515625
+   ],
+   [
+    -44.728416442871094
+   ],
+   [
+    -35.546234130859375
+   ],
+   [
+    -43.77593994140625
+   ],
+   [
+    -39.41546630859375
+   ],
+   [
+    -42.646995544433594
+   ],
+   [
+    -43.83464050292969
+   ],
+   [
+    -38.172821044921875
+   ],
+   [
+    -44.20745086669922
+   ],
+   [
+    -40.46759796142578
+   ],
+   [
+    -33.774009704589844
+   ],
+   [
+    -40.58803176879883
+   ],
+   [
+    -36.597801208496094
+   ],
+   [
+    -37.58481979370117
+   ],
+   [
+    -39.70531463623047
+   ],
+   [
+    -35.48950958251953
+   ],
+   [
+    -42.162879943847656
+   ],
+   [
+    -38.37644958496094
+   ],
+   [
+    -42.559486389160156
+   ],
+   [
+    -38.06281280517578
+   ],
+   [
+    -40.71477508544922
+   ],
+   [
+    -45.56386947631836
+   ],
+   [
+    -48.355064392089844
+   ],
+   [
+    -48.76166915893555
+   ],
+   [
+    -51.459754943847656
+   ],
+   [
+    -47.881797790527344
+   ],
+   [
+    -42.29497528076172
+   ],
+   [
+    -47.327484130859375
+   ],
+   [
+    -46.735748291015625
+   ],
+   [
+    -43.960838317871094
+   ],
+   [
+    -47.048179626464844
+   ],
+   [
+    -49.49479293823242
+   ],
+   [
+    -46.50422668457031
+   ],
+   [
+    -44.38189697265625
+   ],
+   [
+    -51.264198303222656
+   ],
+   [
+    -44.070289611816406
+   ],
+   [
+    -42.160789489746094
+   ],
+   [
+    -46.98014831542969
+   ],
+   [
+    -61.296268463134766
+   ],
+   [
+    -44.767608642578125
+   ],
+   [
+    -45.358055114746094
+   ],
+   [
+    -47.38096237182617
+   ],
+   [
+    -49.77151870727539
+   ],
+   [
+    -49.94090270996094
+   ],
+   [
+    -54.79501724243164
+   ],
+   [
+    -49.880615234375
+   ],
+   [
+    -48.50059509277344
+   ],
+   [
+    -47.143043518066406
+   ],
+   [
+    -44.16474914550781
+   ],
+   [
+    -50.86229705810547
+   ],
+   [
+    -49.522003173828125
+   ],
+   [
+    -47.9036865234375
+   ],
+   [
+    -49.52922821044922
+   ],
+   [
+    -60.58636474609375
+   ],
+   [
+    -48.36686325073242
+   ],
+   [
+    -45.12535095214844
+   ],
+   [
+    -46.608489990234375
+   ],
+   [
+    -49.469581604003906
+   ],
+   [
+    -45.743896484375
+   ],
+   [
+    -49.02000427246094
+   ],
+   [
+    -50.609657287597656
+   ],
+   [
+    -45.89158630371094
+   ],
+   [
+    -45.28252410888672
+   ],
+   [
+    -47.6231803894043
+   ],
+   [
+    -46.53339767456055
+   ],
+   [
+    -43.16394805908203
+   ],
+   [
+    -49.59539794921875
+   ],
+   [
+    -47.099151611328125
+   ],
+   [
+    -55.66090393066406
+   ],
+   [
+    -44.941444396972656
+   ],
+   [
+    -47.097320556640625
+   ],
+   [
+    -46.155967712402344
+   ],
+   [
+    -46.52196502685547
+   ],
+   [
+    -51.71405792236328
+   ],
+   [
+    -49.44047546386719
+   ],
+   [
+    -48.9571533203125
+   ],
+   [
+    -49.51629638671875
+   ],
+   [
+    -48.32758712768555
+   ],
+   [
+    -48.93689727783203
+   ],
+   [
+    -51.70159912109375
+   ],
+   [
+    -46.284454345703125
+   ],
+   [
+    -47.25328826904297
+   ],
+   [
+    -49.4693489074707
+   ],
+   [
+    -50.479820251464844
+   ],
+   [
+    -47.181793212890625
+   ],
+   [
+    -54.75384521484375
+   ],
+   [
+    -44.455177307128906
+   ],
+   [
+    -43.96452331542969
+   ],
+   [
+    -54.706932067871094
+   ],
+   [
+    -51.58518981933594
+   ],
+   [
+    -51.88457107543945
+   ],
+   [
+    -50.062225341796875
+   ],
+   [
+    -47.46216583251953
+   ],
+   [
+    -45.24750518798828
+   ],
+   [
+    -46.69550323486328
+   ],
+   [
+    -47.237693786621094
+   ],
+   [
+    -48.49369430541992
+   ],
+   [
+    -51.46743392944336
+   ],
+   [
+    -49.668113708496094
+   ],
+   [
+    -47.305702209472656
+   ],
+   [
+    -53.29271697998047
+   ],
+   [
+    -49.516021728515625
+   ],
+   [
+    -43.406776428222656
+   ],
+   [
+    -47.96875
+   ],
+   [
+    -52.40129089355469
+   ],
+   [
+    -47.671226501464844
+   ],
+   [
+    -47.96037292480469
+   ],
+   [
+    -47.245323181152344
+   ],
+   [
+    -47.11668395996094
+   ],
+   [
+    -50.323326110839844
+   ],
+   [
+    -45.41893768310547
+   ],
+   [
+    -48.34735107421875
+   ],
+   [
+    -50.408782958984375
+   ],
+   [
+    -46.096290588378906
+   ],
+   [
+    -56.659095764160156
+   ],
+   [
+    -53.12950134277344
+   ],
+   [
+    -47.78369903564453
+   ],
+   [
+    -47.798492431640625
+   ],
+   [
+    -45.10054016113281
+   ],
+   [
+    -58.75918960571289
+   ],
+   [
+    -45.518638610839844
+   ],
+   [
+    -48.72618103027344
+   ],
+   [
+    -47.23908996582031
+   ],
+   [
+    -48.243255615234375
+   ],
+   [
+    -47.17094421386719
+   ],
+   [
+    -44.19349670410156
+   ],
+   [
+    -46.76191711425781
+   ],
+   [
+    -43.267547607421875
+   ],
+   [
+    -45.78509521484375
+   ],
+   [
+    -47.52732849121094
+   ],
+   [
+    -50.97242736816406
+   ],
+   [
+    -46.921287536621094
+   ],
+   [
+    -43.5903205871582
+   ],
+   [
+    -47.96653747558594
+   ],
+   [
+    -42.88951873779297
+   ],
+   [
+    -45.673789978027344
+   ],
+   [
+    -44.78223419189453
+   ],
+   [
+    -46.678688049316406
+   ],
+   [
+    -50.037147521972656
+   ],
+   [
+    -46.11323547363281
+   ],
+   [
+    -42.335811614990234
+   ],
+   [
+    -46.200775146484375
+   ],
+   [
+    -44.93189239501953
+   ],
+   [
+    -44.76849365234375
+   ],
+   [
+    -46.98098373413086
+   ],
+   [
+    -53.60638427734375
+   ],
+   [
+    -51.57038116455078
+   ],
+   [
+    -49.861961364746094
+   ],
+   [
+    -45.168495178222656
+   ],
+   [
+    -42.762367248535156
+   ],
+   [
+    -44.82131576538086
+   ],
+   [
+    -47.35661315917969
+   ],
+   [
+    -44.0784912109375
+   ],
+   [
+    -50.432777404785156
+   ],
+   [
+    -45.35314178466797
+   ],
+   [
+    -46.79518508911133
+   ],
+   [
+    -44.575584411621094
+   ],
+   [
+    -47.447959899902344
+   ],
+   [
+    -45.16899871826172
+   ],
+   [
+    -46.619590759277344
+   ],
+   [
+    -45.76585388183594
+   ],
+   [
+    -45.90499496459961
+   ],
+   [
+    -45.827186584472656
+   ],
+   [
+    -45.98082733154297
+   ],
+   [
+    -49.57896423339844
+   ],
+   [
+    -48.146385192871094
+   ],
+   [
+    -54.995399475097656
+   ],
+   [
+    -49.252716064453125
+   ],
+   [
+    -46.432884216308594
+   ],
+   [
+    -46.16224670410156
+   ],
+   [
+    -47.38494873046875
+   ],
+   [
+    -48.349403381347656
+   ],
+   [
+    -43.38612365722656
+   ],
+   [
+    -54.4007568359375
+   ],
+   [
+    -45.80426025390625
+   ],
+   [
+    -51.51810073852539
+   ],
+   [
+    -52.269287109375
+   ],
+   [
+    -59.89167404174805
+   ],
+   [
+    -50.469120025634766
+   ],
+   [
+    -54.22785949707031
+   ],
+   [
+    -50.501686096191406
+   ],
+   [
+    -46.44696807861328
+   ],
+   [
+    -48.969146728515625
+   ],
+   [
+    -46.81044387817383
+   ],
+   [
+    -50.60179901123047
+   ],
+   [
+    -56.6081428527832
+   ],
+   [
+    -51.93422317504883
+   ],
+   [
+    -44.97996520996094
+   ],
+   [
+    -40.14319610595703
+   ],
+   [
+    -45.560977935791016
+   ],
+   [
+    -44.5402946472168
+   ],
+   [
+    -54.770973205566406
+   ],
+   [
+    -46.78143310546875
+   ],
+   [
+    -54.80176544189453
+   ],
+   [
+    -48.069820404052734
+   ],
+   [
+    -47.189781188964844
+   ],
+   [
+    -44.235679626464844
+   ],
+   [
+    -48.41937255859375
+   ],
+   [
+    -46.68635559082031
+   ],
+   [
+    -47.96643829345703
+   ],
+   [
+    -44.97843933105469
+   ],
+   [
+    -53.908294677734375
+   ],
+   [
+    -44.95801544189453
+   ],
+   [
+    -45.28167724609375
+   ],
+   [
+    -45.459861755371094
+   ],
+   [
+    -52.31938934326172
+   ],
+   [
+    -46.25578308105469
+   ],
+   [
+    -50.49571990966797
+   ],
+   [
+    -51.61915588378906
+   ],
+   [
+    -46.024452209472656
+   ],
+   [
+    -47.612464904785156
+   ],
+   [
+    -47.149200439453125
+   ],
+   [
+    -47.292564392089844
+   ],
+   [
+    -50.25925827026367
+   ],
+   [
+    -45.9296875
+   ],
+   [
+    -49.02520751953125
+   ],
+   [
+    -45.28327941894531
+   ],
+   [
+    -48.926353454589844
+   ],
+   [
+    -45.81455993652344
+   ],
+   [
+    -51.36860275268555
+   ],
+   [
+    -47.15691375732422
+   ],
+   [
+    -51.480857849121094
+   ],
+   [
+    -45.564979553222656
+   ],
+   [
+    -50.7155876159668
+   ],
+   [
+    -43.202110290527344
+   ],
+   [
+    -48.32933044433594
+   ],
+   [
+    -52.454833984375
+   ],
+   [
+    -44.25939178466797
+   ],
+   [
+    -51.883056640625
+   ],
+   [
+    -46.62494659423828
+   ],
+   [
+    -46.260597229003906
+   ],
+   [
+    -51.16926574707031
+   ],
+   [
+    -42.866058349609375
+   ],
+   [
+    -47.77606201171875
+   ],
+   [
+    -46.16866683959961
+   ],
+   [
+    -44.782676696777344
+   ],
+   [
+    -50.614219665527344
+   ],
+   [
+    -48.71470642089844
+   ],
+   [
+    -46.455631256103516
+   ],
+   [
+    -46.729148864746094
+   ],
+   [
+    -46.42311096191406
+   ],
+   [
+    -52.20958709716797
+   ]
+  ]
+ ],
+ "time": 385.07196164131165
+}

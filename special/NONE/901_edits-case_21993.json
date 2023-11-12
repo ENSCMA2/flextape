@@ -1,0 +1,2076 @@
+{
+ "case_id": 21993,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Leonhard Euler"
+ },
+ "pre": [
+  [
+   "Leonhard Euler's field of work is meteorology",
+   "Leonhard Euler's field of work is radioactivity",
+   "Leonhard Euler's field of work is complex function",
+   "Leonhard Euler's field of work is histology",
+   "Leonhard Euler's field of work is algebra",
+   "Leonhard Euler's field of work is electron",
+   "Leonhard Euler's field of work is quantum theory",
+   "Leonhard Euler's field of work is applied mathematics",
+   "Leonhard Euler's field of work is electricity",
+   "Leonhard Euler's field of work is human geography",
+   "Leonhard Euler's field of work is crystallography",
+   "Leonhard Euler's field of work is chemistry",
+   "Leonhard Euler's field of work is Jewish studies",
+   "Leonhard Euler's field of work is topology",
+   "Leonhard Euler's field of work is mathematical analysis",
+   "Leonhard Euler's field of work is computational geometry",
+   "Leonhard Euler's field of work is Petrine ministry",
+   "Leonhard Euler's field of work is social psychology",
+   "Leonhard Euler's field of work is genetics",
+   "Leonhard Euler's field of work is informatics",
+   "Leonhard Euler's field of work is shipbuilding",
+   "Leonhard Euler's field of work is historical sociology",
+   "Leonhard Euler's field of work is quantum mysticism",
+   "Leonhard Euler's field of work is philosopher",
+   "Leonhard Euler's field of work is Internet",
+   "Leonhard Euler's field of work is gravity",
+   "Leonhard Euler's field of work is theoretical physics",
+   "Leonhard Euler's field of work is African studies",
+   "Leonhard Euler's field of work is projective geometry",
+   "Leonhard Euler's field of work is prose",
+   "Leonhard Euler's field of work is momentum",
+   "Leonhard Euler's field of work is Cairo Geniza",
+   "Leonhard Euler's field of work is stochastic",
+   "Leonhard Euler's field of work is algebraic topology",
+   "Leonhard Euler's field of work is electrical engineering",
+   "Leonhard Euler's field of work is hunting",
+   "Leonhard Euler's field of work is evolution",
+   "Leonhard Euler's field of work is economic anthropology",
+   "Leonhard Euler's field of work is Hebrew",
+   "Leonhard Euler's field of work is differential geometry",
+   "Leonhard Euler's field of work is engineering",
+   "Leonhard Euler's field of work is history of science",
+   "Leonhard Euler's field of work is social anthropology",
+   "Leonhard Euler's field of work is history",
+   "Leonhard Euler's field of work is distribution theory",
+   "Leonhard Euler's field of work is classics",
+   "Leonhard Euler's field of work is crime novel",
+   "Leonhard Euler's field of work is statistics",
+   "Leonhard Euler's field of work is experimental physics",
+   "Leonhard Euler's field of work is geography",
+   "Leonhard Euler's field of work is anthropology",
+   "Leonhard Euler's field of work is partial differential equation",
+   "Leonhard Euler's field of work is applied physics",
+   "Leonhard Euler's field of work is Sanskrit",
+   "Leonhard Euler's field of work is a branch of physics",
+   "Leonhard Euler's field of work is comparative mythology",
+   "Leonhard Euler's field of work is radiation",
+   "Leonhard Euler's field of work is aeromechanics",
+   "Leonhard Euler's field of work is harmonic analysis",
+   "Leonhard Euler's field of work is religion",
+   "Leonhard Euler's field of work is civil rights",
+   "Leonhard Euler's field of work is physicist",
+   "Leonhard Euler's field of work is distribution",
+   "Leonhard Euler's field of work is translations from Spanish",
+   "Leonhard Euler's field of work is feminism",
+   "Leonhard Euler's field of work is number theory",
+   "Leonhard Euler's field of work is sociology of organisations",
+   "Leonhard Euler's field of work is astronomer",
+   "Leonhard Euler's field of work is children's and youth literature",
+   "Leonhard Euler's field of work is fairy tale",
+   "Leonhard Euler's field of work is economy",
+   "Leonhard Euler's field of work is graph theory",
+   "Leonhard Euler's field of work is magic",
+   "Leonhard Euler's field of work is essay",
+   "Leonhard Euler's field of work is theory of relativity",
+   "Leonhard Euler's field of work is historical novel",
+   "Leonhard Euler's field of work is biological anthropology",
+   "Leonhard Euler's field of work is literary theory",
+   "Leonhard Euler's field of work is Greek philology",
+   "Leonhard Euler's field of work is lyric poetry",
+   "Leonhard Euler's field of work is psychology",
+   "Leonhard Euler's field of work is quaternion",
+   "Leonhard Euler's field of work is rite",
+   "Leonhard Euler's field of work is jazz",
+   "Leonhard Euler's field of work is heat",
+   "Leonhard Euler's field of work is embryology",
+   "Leonhard Euler's field of work is social philosophy",
+   "Leonhard Euler's field of work is dance choreography",
+   "Leonhard Euler's field of work is politics",
+   "Leonhard Euler's field of work is nanotechnology",
+   "Leonhard Euler's field of work is Afghanistan",
+   "Leonhard Euler's field of work is non-Euclidean geometry",
+   "Leonhard Euler's field of work is Franciscan spirituality",
+   "Leonhard Euler's field of work is detective literature",
+   "Leonhard Euler's field of work is mathematician",
+   "Leonhard Euler's field of work is String",
+   "Leonhard Euler's field of work is classical music",
+   "Leonhard Euler's field of work is translations from Occitan",
+   "Leonhard Euler's field of work is abstract algebra",
+   "Leonhard Euler's field of work is differential calculus",
+   "Leonhard Euler's field of work is mythology",
+   "Leonhard Euler's field of work is literary translation",
+   "Leonhard Euler's field of work is ballistics",
+   "Leonhard Euler's field of work is cryptography",
+   "Leonhard Euler's field of work is Greek",
+   "Leonhard Euler's field of work is logic",
+   "Leonhard Euler's field of work is choreography",
+   "Leonhard Euler's field of work is theology",
+   "Leonhard Euler's field of work is world economy",
+   "Leonhard Euler's field of work is magnetism",
+   "Leonhard Euler's field of work is algebraic geometry",
+   "Leonhard Euler's field of work is theory of differential equations",
+   "Leonhard Euler's field of work is physics",
+   "Leonhard Euler's field of work is music theory",
+   "Leonhard Euler's field of work is economics",
+   "Leonhard Euler's field of work is anatomy",
+   "Leonhard Euler's field of work is electromagnetic field",
+   "Leonhard Euler's field of work is analytic number theory",
+   "Leonhard Euler's field of work is mathematical physics",
+   "Leonhard Euler's field of work is journalism",
+   "Leonhard Euler's field of work is sociology",
+   "Leonhard Euler's field of work is literature",
+   "Leonhard Euler's field of work is ethnography",
+   "Leonhard Euler's field of work is belletristic literature",
+   "Leonhard Euler's field of work is convex function",
+   "Leonhard Euler's field of work is sociology of religion",
+   "Leonhard Euler's field of work is pedagogy",
+   "Leonhard Euler's field of work is philosophy",
+   "Leonhard Euler's field of work is quantum mechanics",
+   "Leonhard Euler's field of work is drama",
+   "Leonhard Euler's field of work is dance",
+   "Leonhard Euler's field of work is Judaism",
+   "Leonhard Euler's field of work is quantum physics",
+   "Leonhard Euler's field of work is philosophy of science",
+   "Leonhard Euler's field of work is linguistics",
+   "Leonhard Euler's field of work is myth",
+   "Leonhard Euler's field of work is physiology",
+   "Leonhard Euler's field of work is English",
+   "Leonhard Euler's field of work is philology",
+   "Leonhard Euler's field of work is political philosophy",
+   "Leonhard Euler's field of work is mechanical engineering",
+   "Leonhard Euler's field of work is ontology",
+   "Leonhard Euler's field of work is forestry",
+   "Leonhard Euler's field of work is aerodynamics",
+   "Leonhard Euler's field of work is Christian Church",
+   "Leonhard Euler's field of work is magnetic resonance",
+   "Leonhard Euler's field of work is astrophysics",
+   "Leonhard Euler's field of work is natural science",
+   "Leonhard Euler's field of work is constitutional law",
+   "Leonhard Euler's field of work is philosophy of law",
+   "Leonhard Euler's field of work is education",
+   "Leonhard Euler's field of work is Monte Carlo method",
+   "Leonhard Euler's field of work is neurology",
+   "Leonhard Euler's field of work is electric field",
+   "Leonhard Euler's field of work is Minkowski spacetime",
+   "Leonhard Euler's field of work is translations from Arabic language",
+   "Leonhard Euler's field of work is Bayesian inference",
+   "Leonhard Euler's field of work is translations from Polish",
+   "Leonhard Euler's field of work is color photography",
+   "Leonhard Euler's field of work is opera",
+   "Leonhard Euler's field of work is model theory",
+   "Leonhard Euler's field of work is cartography",
+   "Leonhard Euler's field of work is nonstandard analysis",
+   "Leonhard Euler's field of work is television program",
+   "Leonhard Euler's field of work is complex manifold",
+   "Leonhard Euler's field of work is poetry",
+   "Leonhard Euler's field of work is mathematics",
+   "Leonhard Euler's field of work is computer science",
+   "Leonhard Euler's field of work is cosmology",
+   "Leonhard Euler's field of work is silviculture",
+   "Leonhard Euler's field of work is hydrodynamics",
+   "Leonhard Euler's field of work is forestry science",
+   "Leonhard Euler's field of work is comparative religion",
+   "Leonhard Euler's field of work is information technology",
+   "Leonhard Euler's field of work is ballet",
+   "Leonhard Euler's field of work is English literature",
+   "Leonhard Euler's field of work is conducting",
+   "Leonhard Euler's field of work is hyperbolic geometry",
+   "Leonhard Euler's field of work is biochemistry",
+   "Leonhard Euler's field of work is religion and society",
+   "Leonhard Euler's field of work is optics",
+   "Leonhard Euler's field of work is ethics",
+   "Leonhard Euler's field of work is cybernetics",
+   "Leonhard Euler's field of work is astronomical observation",
+   "Leonhard Euler's field of work is psychophysiology",
+   "Leonhard Euler's field of work is culturology",
+   "Leonhard Euler's field of work is history of religions",
+   "Leonhard Euler's field of work is probability theory",
+   "Leonhard Euler's field of work is paleontology",
+   "Leonhard Euler's field of work is surgery",
+   "Leonhard Euler's field of work is group theory",
+   "Leonhard Euler's field of work is natural theology",
+   "Leonhard Euler's field of work is astrology",
+   "Leonhard Euler's field of work is quantum electrodynamics",
+   "Leonhard Euler's field of work is mechanics",
+   "Leonhard Euler's field of work is Lie algebra",
+   "Leonhard Euler's field of work is trigonometry",
+   "Leonhard Euler's field of work is literary activity",
+   "Leonhard Euler's field of work is nuclear physics",
+   "Leonhard Euler's field of work is translations from English",
+   "Leonhard Euler's field of work is medicine",
+   "Leonhard Euler's field of work is Jewish philosophy",
+   "Leonhard Euler's field of work is mathematical logic",
+   "Leonhard Euler's field of work is calculus of variations",
+   "Leonhard Euler's field of work is ferromagnetism",
+   "Leonhard Euler's field of work is analytic geometry",
+   "Leonhard Euler's field of work is art of painting",
+   "Leonhard Euler's field of work is functional analysis",
+   "Leonhard Euler's field of work is folklore",
+   "Leonhard Euler's field of work is study of history",
+   "Leonhard Euler's field of work is geometry",
+   "Leonhard Euler's field of work is positivism",
+   "Leonhard Euler's field of work is geodesy",
+   "Leonhard Euler's field of work is astronomy",
+   "Leonhard Euler's field of work is magnetic field",
+   "Leonhard Euler's field of work is kinetic theory",
+   "Leonhard Euler's field of work is celestial mechanics",
+   "Leonhard Euler's field of work is analytic philosophy",
+   "Leonhard Euler's field of work is ethnology",
+   "Leonhard Euler's field of work is history of economic thought",
+   "Leonhard Euler is meteorology",
+   "Leonhard Euler is radioactivity",
+   "Leonhard Euler is complex function",
+   "Leonhard Euler is histology",
+   "Leonhard Euler is algebra",
+   "Leonhard Euler is electron",
+   "Leonhard Euler is quantum theory",
+   "Leonhard Euler is applied mathematics",
+   "Leonhard Euler is electricity",
+   "Leonhard Euler is human geography",
+   "Leonhard Euler is crystallography",
+   "Leonhard Euler is chemistry",
+   "Leonhard Euler is Jewish studies",
+   "Leonhard Euler is topology",
+   "Leonhard Euler is mathematical analysis",
+   "Leonhard Euler is computational geometry",
+   "Leonhard Euler is Petrine ministry",
+   "Leonhard Euler is social psychology",
+   "Leonhard Euler is genetics",
+   "Leonhard Euler is informatics",
+   "Leonhard Euler is shipbuilding",
+   "Leonhard Euler is historical sociology",
+   "Leonhard Euler is quantum mysticism",
+   "Leonhard Euler is philosopher",
+   "Leonhard Euler is Internet",
+   "Leonhard Euler is gravity",
+   "Leonhard Euler is theoretical physics",
+   "Leonhard Euler is African studies",
+   "Leonhard Euler is projective geometry",
+   "Leonhard Euler is prose",
+   "Leonhard Euler is momentum",
+   "Leonhard Euler is Cairo Geniza",
+   "Leonhard Euler is stochastic",
+   "Leonhard Euler is algebraic topology",
+   "Leonhard Euler is electrical engineering",
+   "Leonhard Euler is hunting",
+   "Leonhard Euler is evolution",
+   "Leonhard Euler is economic anthropology",
+   "Leonhard Euler is Hebrew",
+   "Leonhard Euler is differential geometry",
+   "Leonhard Euler is engineering",
+   "Leonhard Euler is history of science",
+   "Leonhard Euler is social anthropology",
+   "Leonhard Euler is history",
+   "Leonhard Euler is distribution theory",
+   "Leonhard Euler is classics",
+   "Leonhard Euler is crime novel",
+   "Leonhard Euler is statistics",
+   "Leonhard Euler is experimental physics",
+   "Leonhard Euler is geography",
+   "Leonhard Euler is anthropology",
+   "Leonhard Euler is partial differential equation",
+   "Leonhard Euler is applied physics",
+   "Leonhard Euler is Sanskrit",
+   "Leonhard Euler is a branch of physics",
+   "Leonhard Euler is comparative mythology",
+   "Leonhard Euler is radiation",
+   "Leonhard Euler is aeromechanics",
+   "Leonhard Euler is harmonic analysis",
+   "Leonhard Euler is religion",
+   "Leonhard Euler is civil rights",
+   "Leonhard Euler is physicist",
+   "Leonhard Euler is distribution",
+   "Leonhard Euler is translations from Spanish",
+   "Leonhard Euler is feminism",
+   "Leonhard Euler is number theory",
+   "Leonhard Euler is sociology of organisations",
+   "Leonhard Euler is astronomer",
+   "Leonhard Euler is children's and youth literature",
+   "Leonhard Euler is fairy tale",
+   "Leonhard Euler is economy",
+   "Leonhard Euler is graph theory",
+   "Leonhard Euler is magic",
+   "Leonhard Euler is essay",
+   "Leonhard Euler is theory of relativity",
+   "Leonhard Euler is historical novel",
+   "Leonhard Euler is biological anthropology",
+   "Leonhard Euler is literary theory",
+   "Leonhard Euler is Greek philology",
+   "Leonhard Euler is lyric poetry",
+   "Leonhard Euler is psychology",
+   "Leonhard Euler is quaternion",
+   "Leonhard Euler is rite",
+   "Leonhard Euler is jazz",
+   "Leonhard Euler is heat",
+   "Leonhard Euler is embryology",
+   "Leonhard Euler is social philosophy",
+   "Leonhard Euler is dance choreography",
+   "Leonhard Euler is politics",
+   "Leonhard Euler is nanotechnology",
+   "Leonhard Euler is Afghanistan",
+   "Leonhard Euler is non-Euclidean geometry",
+   "Leonhard Euler is Franciscan spirituality",
+   "Leonhard Euler is detective literature",
+   "Leonhard Euler is mathematician",
+   "Leonhard Euler is String",
+   "Leonhard Euler is classical music",
+   "Leonhard Euler is translations from Occitan",
+   "Leonhard Euler is abstract algebra",
+   "Leonhard Euler is differential calculus",
+   "Leonhard Euler is mythology",
+   "Leonhard Euler is literary translation",
+   "Leonhard Euler is ballistics",
+   "Leonhard Euler is cryptography",
+   "Leonhard Euler is Greek",
+   "Leonhard Euler is logic",
+   "Leonhard Euler is choreography",
+   "Leonhard Euler is theology",
+   "Leonhard Euler is world economy",
+   "Leonhard Euler is magnetism",
+   "Leonhard Euler is algebraic geometry",
+   "Leonhard Euler is theory of differential equations",
+   "Leonhard Euler is physics",
+   "Leonhard Euler is music theory",
+   "Leonhard Euler is economics",
+   "Leonhard Euler is anatomy",
+   "Leonhard Euler is electromagnetic field",
+   "Leonhard Euler is analytic number theory",
+   "Leonhard Euler is mathematical physics",
+   "Leonhard Euler is journalism",
+   "Leonhard Euler is sociology",
+   "Leonhard Euler is literature",
+   "Leonhard Euler is ethnography",
+   "Leonhard Euler is belletristic literature",
+   "Leonhard Euler is convex function",
+   "Leonhard Euler is sociology of religion",
+   "Leonhard Euler is pedagogy",
+   "Leonhard Euler is philosophy",
+   "Leonhard Euler is quantum mechanics",
+   "Leonhard Euler is drama",
+   "Leonhard Euler is dance",
+   "Leonhard Euler is Judaism",
+   "Leonhard Euler is quantum physics",
+   "Leonhard Euler is philosophy of science",
+   "Leonhard Euler is linguistics",
+   "Leonhard Euler is myth",
+   "Leonhard Euler is physiology",
+   "Leonhard Euler is English",
+   "Leonhard Euler is philology",
+   "Leonhard Euler is political philosophy",
+   "Leonhard Euler is mechanical engineering",
+   "Leonhard Euler is ontology",
+   "Leonhard Euler is forestry",
+   "Leonhard Euler is aerodynamics",
+   "Leonhard Euler is Christian Church",
+   "Leonhard Euler is magnetic resonance",
+   "Leonhard Euler is astrophysics",
+   "Leonhard Euler is natural science",
+   "Leonhard Euler is constitutional law",
+   "Leonhard Euler is philosophy of law",
+   "Leonhard Euler is education",
+   "Leonhard Euler is Monte Carlo method",
+   "Leonhard Euler is neurology",
+   "Leonhard Euler is electric field",
+   "Leonhard Euler is Minkowski spacetime",
+   "Leonhard Euler is translations from Arabic language",
+   "Leonhard Euler is Bayesian inference",
+   "Leonhard Euler is translations from Polish",
+   "Leonhard Euler is color photography",
+   "Leonhard Euler is opera",
+   "Leonhard Euler is model theory",
+   "Leonhard Euler is cartography",
+   "Leonhard Euler is nonstandard analysis",
+   "Leonhard Euler is television program",
+   "Leonhard Euler is complex manifold",
+   "Leonhard Euler is poetry",
+   "Leonhard Euler is mathematics",
+   "Leonhard Euler is computer science",
+   "Leonhard Euler is cosmology",
+   "Leonhard Euler is silviculture",
+   "Leonhard Euler is hydrodynamics",
+   "Leonhard Euler is forestry science",
+   "Leonhard Euler is comparative religion",
+   "Leonhard Euler is information technology",
+   "Leonhard Euler is ballet",
+   "Leonhard Euler is English literature",
+   "Leonhard Euler is conducting",
+   "Leonhard Euler is hyperbolic geometry",
+   "Leonhard Euler is biochemistry",
+   "Leonhard Euler is religion and society",
+   "Leonhard Euler is optics",
+   "Leonhard Euler is ethics",
+   "Leonhard Euler is cybernetics",
+   "Leonhard Euler is astronomical observation",
+   "Leonhard Euler is psychophysiology",
+   "Leonhard Euler is culturology",
+   "Leonhard Euler is history of religions",
+   "Leonhard Euler is probability theory",
+   "Leonhard Euler is paleontology",
+   "Leonhard Euler is surgery",
+   "Leonhard Euler is group theory",
+   "Leonhard Euler is natural theology",
+   "Leonhard Euler is astrology",
+   "Leonhard Euler is quantum electrodynamics",
+   "Leonhard Euler is mechanics",
+   "Leonhard Euler is Lie algebra",
+   "Leonhard Euler is trigonometry",
+   "Leonhard Euler is literary activity",
+   "Leonhard Euler is nuclear physics",
+   "Leonhard Euler is translations from English",
+   "Leonhard Euler is medicine",
+   "Leonhard Euler is Jewish philosophy",
+   "Leonhard Euler is mathematical logic",
+   "Leonhard Euler is calculus of variations",
+   "Leonhard Euler is ferromagnetism",
+   "Leonhard Euler is analytic geometry",
+   "Leonhard Euler is art of painting",
+   "Leonhard Euler is functional analysis",
+   "Leonhard Euler is folklore",
+   "Leonhard Euler is study of history",
+   "Leonhard Euler is geometry",
+   "Leonhard Euler is positivism",
+   "Leonhard Euler is geodesy",
+   "Leonhard Euler is astronomy",
+   "Leonhard Euler is magnetic field",
+   "Leonhard Euler is kinetic theory",
+   "Leonhard Euler is celestial mechanics",
+   "Leonhard Euler is analytic philosophy",
+   "Leonhard Euler is ethnology",
+   "Leonhard Euler is history of economic thought"
+  ],
+  [
+   [
+    -42.06412887573242
+   ],
+   [
+    -44.505619049072266
+   ],
+   [
+    -45.797210693359375
+   ],
+   [
+    -41.986656188964844
+   ],
+   [
+    -36.71012496948242
+   ],
+   [
+    -42.14904022216797
+   ],
+   [
+    -41.55280303955078
+   ],
+   [
+    -39.62306213378906
+   ],
+   [
+    -40.37360382080078
+   ],
+   [
+    -47.438140869140625
+   ],
+   [
+    -39.97679138183594
+   ],
+   [
+    -37.78490447998047
+   ],
+   [
+    -48.3739128112793
+   ],
+   [
+    -39.82962417602539
+   ],
+   [
+    -36.38429260253906
+   ],
+   [
+    -42.56025314331055
+   ],
+   [
+    -59.96229553222656
+   ],
+   [
+    -46.403743743896484
+   ],
+   [
+    -42.39147186279297
+   ],
+   [
+    -41.40130615234375
+   ],
+   [
+    -46.644554138183594
+   ],
+   [
+    -48.818206787109375
+   ],
+   [
+    -50.25372314453125
+   ],
+   [
+    -44.33495330810547
+   ],
+   [
+    -42.83934020996094
+   ],
+   [
+    -41.53113555908203
+   ],
+   [
+    -39.411251068115234
+   ],
+   [
+    -49.52884292602539
+   ],
+   [
+    -43.29570007324219
+   ],
+   [
+    -43.354515075683594
+   ],
+   [
+    -44.90242385864258
+   ],
+   [
+    -56.433509826660156
+   ],
+   [
+    -42.31940460205078
+   ],
+   [
+    -42.105262756347656
+   ],
+   [
+    -40.063133239746094
+   ],
+   [
+    -46.26131820678711
+   ],
+   [
+    -40.94316864013672
+   ],
+   [
+    -50.27733612060547
+   ],
+   [
+    -45.932884216308594
+   ],
+   [
+    -44.71965789794922
+   ],
+   [
+    -39.258583068847656
+   ],
+   [
+    -43.03632354736328
+   ],
+   [
+    -48.019412994384766
+   ],
+   [
+    -38.59593963623047
+   ],
+   [
+    -42.24156951904297
+   ],
+   [
+    -41.304046630859375
+   ],
+   [
+    -52.769493103027344
+   ],
+   [
+    -38.72746276855469
+   ],
+   [
+    -43.92250442504883
+   ],
+   [
+    -42.23467254638672
+   ],
+   [
+    -44.08067321777344
+   ],
+   [
+    -48.47978210449219
+   ],
+   [
+    -45.000362396240234
+   ],
+   [
+    -43.77095031738281
+   ],
+   [
+    -47.681575775146484
+   ],
+   [
+    -47.03921127319336
+   ],
+   [
+    -43.266544342041016
+   ],
+   [
+    -48.7344970703125
+   ],
+   [
+    -41.19101333618164
+   ],
+   [
+    -41.56929397583008
+   ],
+   [
+    -48.14474868774414
+   ],
+   [
+    -44.244815826416016
+   ],
+   [
+    -40.880165100097656
+   ],
+   [
+    -53.83954620361328
+   ],
+   [
+    -44.39760971069336
+   ],
+   [
+    -35.77192687988281
+   ],
+   [
+    -55.15814971923828
+   ],
+   [
+    -43.844024658203125
+   ],
+   [
+    -51.25788879394531
+   ],
+   [
+    -44.82868576049805
+   ],
+   [
+    -41.9691047668457
+   ],
+   [
+    -39.19755554199219
+   ],
+   [
+    -39.60955810546875
+   ],
+   [
+    -43.39036560058594
+   ],
+   [
+    -48.70268249511719
+   ],
+   [
+    -48.96908950805664
+   ],
+   [
+    -50.96666717529297
+   ],
+   [
+    -44.94773864746094
+   ],
+   [
+    -48.15361022949219
+   ],
+   [
+    -47.13380813598633
+   ],
+   [
+    -40.53351974487305
+   ],
+   [
+    -44.301780700683594
+   ],
+   [
+    -47.78456115722656
+   ],
+   [
+    -45.06401062011719
+   ],
+   [
+    -43.219024658203125
+   ],
+   [
+    -43.04875564575195
+   ],
+   [
+    -45.888065338134766
+   ],
+   [
+    -51.10740661621094
+   ],
+   [
+    -40.47724914550781
+   ],
+   [
+    -42.94745635986328
+   ],
+   [
+    -47.49372100830078
+   ],
+   [
+    -42.65378189086914
+   ],
+   [
+    -50.78038787841797
+   ],
+   [
+    -50.79115676879883
+   ],
+   [
+    -40.60848617553711
+   ],
+   [
+    -43.548805236816406
+   ],
+   [
+    -44.423946380615234
+   ],
+   [
+    -58.08631134033203
+   ],
+   [
+    -40.60420227050781
+   ],
+   [
+    -43.6988639831543
+   ],
+   [
+    -41.492164611816406
+   ],
+   [
+    -48.090576171875
+   ],
+   [
+    -43.64112091064453
+   ],
+   [
+    -38.30021286010742
+   ],
+   [
+    -41.04681396484375
+   ],
+   [
+    -38.610374450683594
+   ],
+   [
+    -45.000701904296875
+   ],
+   [
+    -40.73767852783203
+   ],
+   [
+    -47.88365936279297
+   ],
+   [
+    -41.17408752441406
+   ],
+   [
+    -39.573707580566406
+   ],
+   [
+    -47.895294189453125
+   ],
+   [
+    -36.22254180908203
+   ],
+   [
+    -40.485355377197266
+   ],
+   [
+    -39.125675201416016
+   ],
+   [
+    -42.178001403808594
+   ],
+   [
+    -45.4412727355957
+   ],
+   [
+    -39.97210693359375
+   ],
+   [
+    -36.38667297363281
+   ],
+   [
+    -42.55049133300781
+   ],
+   [
+    -41.90673065185547
+   ],
+   [
+    -39.96562194824219
+   ],
+   [
+    -45.532073974609375
+   ],
+   [
+    -53.781410217285156
+   ],
+   [
+    -50.103668212890625
+   ],
+   [
+    -47.577980041503906
+   ],
+   [
+    -42.24897766113281
+   ],
+   [
+    -38.100860595703125
+   ],
+   [
+    -39.95166015625
+   ],
+   [
+    -43.25578308105469
+   ],
+   [
+    -43.02918243408203
+   ],
+   [
+    -44.34961700439453
+   ],
+   [
+    -40.324371337890625
+   ],
+   [
+    -41.689208984375
+   ],
+   [
+    -40.13691711425781
+   ],
+   [
+    -42.15553283691406
+   ],
+   [
+    -40.96354675292969
+   ],
+   [
+    -41.60784149169922
+   ],
+   [
+    -40.988624572753906
+   ],
+   [
+    -42.91653060913086
+   ],
+   [
+    -42.539634704589844
+   ],
+   [
+    -41.03082275390625
+   ],
+   [
+    -44.853050231933594
+   ],
+   [
+    -43.81842803955078
+   ],
+   [
+    -50.58814239501953
+   ],
+   [
+    -45.327484130859375
+   ],
+   [
+    -40.07767868041992
+   ],
+   [
+    -42.022823333740234
+   ],
+   [
+    -43.77407455444336
+   ],
+   [
+    -48.800880432128906
+   ],
+   [
+    -39.136451721191406
+   ],
+   [
+    -48.25646209716797
+   ],
+   [
+    -42.64201354980469
+   ],
+   [
+    -46.21330261230469
+   ],
+   [
+    -48.05934143066406
+   ],
+   [
+    -58.21120834350586
+   ],
+   [
+    -43.90363311767578
+   ],
+   [
+    -54.15058898925781
+   ],
+   [
+    -46.97407913208008
+   ],
+   [
+    -42.44093322753906
+   ],
+   [
+    -43.62651443481445
+   ],
+   [
+    -41.45112228393555
+   ],
+   [
+    -49.61695861816406
+   ],
+   [
+    -51.452728271484375
+   ],
+   [
+    -47.98914337158203
+   ],
+   [
+    -39.56970977783203
+   ],
+   [
+    -32.858001708984375
+   ],
+   [
+    -38.0989875793457
+   ],
+   [
+    -38.78419494628906
+   ],
+   [
+    -50.711212158203125
+   ],
+   [
+    -42.88086700439453
+   ],
+   [
+    -51.074012756347656
+   ],
+   [
+    -47.162925720214844
+   ],
+   [
+    -41.247371673583984
+   ],
+   [
+    -41.945640563964844
+   ],
+   [
+    -43.77325439453125
+   ],
+   [
+    -41.92799377441406
+   ],
+   [
+    -43.57456970214844
+   ],
+   [
+    -41.05449295043945
+   ],
+   [
+    -49.83565139770508
+   ],
+   [
+    -39.299232482910156
+   ],
+   [
+    -42.922279357910156
+   ],
+   [
+    -41.00535583496094
+   ],
+   [
+    -44.14392852783203
+   ],
+   [
+    -47.34489440917969
+   ],
+   [
+    -48.56846237182617
+   ],
+   [
+    -50.90082550048828
+   ],
+   [
+    -39.89747619628906
+   ],
+   [
+    -43.924560546875
+   ],
+   [
+    -42.84574890136719
+   ],
+   [
+    -42.12495422363281
+   ],
+   [
+    -47.401641845703125
+   ],
+   [
+    -39.305702209472656
+   ],
+   [
+    -43.50566864013672
+   ],
+   [
+    -39.88737106323242
+   ],
+   [
+    -46.906394958496094
+   ],
+   [
+    -41.17878723144531
+   ],
+   [
+    -48.825504302978516
+   ],
+   [
+    -43.43328857421875
+   ],
+   [
+    -50.50370788574219
+   ],
+   [
+    -39.47196960449219
+   ],
+   [
+    -46.29740524291992
+   ],
+   [
+    -36.95868682861328
+   ],
+   [
+    -42.85999298095703
+   ],
+   [
+    -48.806129455566406
+   ],
+   [
+    -41.138362884521484
+   ],
+   [
+    -51.317649841308594
+   ],
+   [
+    -42.25881576538086
+   ],
+   [
+    -42.15898132324219
+   ],
+   [
+    -50.637962341308594
+   ],
+   [
+    -38.051353454589844
+   ],
+   [
+    -44.851844787597656
+   ],
+   [
+    -43.09645462036133
+   ],
+   [
+    -37.27585220336914
+   ],
+   [
+    -45.78854751586914
+   ],
+   [
+    -44.894927978515625
+   ],
+   [
+    -40.543094635009766
+   ],
+   [
+    -44.48802947998047
+   ],
+   [
+    -44.651084899902344
+   ],
+   [
+    -52.19719314575195
+   ],
+   [
+    -28.286853790283203
+   ],
+   [
+    -32.71070861816406
+   ],
+   [
+    -35.816184997558594
+   ],
+   [
+    -29.254783630371094
+   ],
+   [
+    -25.645431518554688
+   ],
+   [
+    -26.798473358154297
+   ],
+   [
+    -28.703502655029297
+   ],
+   [
+    -29.294139862060547
+   ],
+   [
+    -26.328445434570312
+   ],
+   [
+    -33.54004669189453
+   ],
+   [
+    -30.976654052734375
+   ],
+   [
+    -27.449665069580078
+   ],
+   [
+    -36.42469787597656
+   ],
+   [
+    -30.066265106201172
+   ],
+   [
+    -32.651039123535156
+   ],
+   [
+    -31.687984466552734
+   ],
+   [
+    -48.20849609375
+   ],
+   [
+    -32.2971305847168
+   ],
+   [
+    -29.79166030883789
+   ],
+   [
+    -27.899276733398438
+   ],
+   [
+    -34.12137985229492
+   ],
+   [
+    -33.18891525268555
+   ],
+   [
+    -35.05763244628906
+   ],
+   [
+    -24.87451171875
+   ],
+   [
+    -25.381031036376953
+   ],
+   [
+    -28.009151458740234
+   ],
+   [
+    -28.091644287109375
+   ],
+   [
+    -37.45559310913086
+   ],
+   [
+    -34.820556640625
+   ],
+   [
+    -28.234630584716797
+   ],
+   [
+    -29.148967742919922
+   ],
+   [
+    -42.629173278808594
+   ],
+   [
+    -29.525094985961914
+   ],
+   [
+    -30.3726806640625
+   ],
+   [
+    -28.763164520263672
+   ],
+   [
+    -26.95151138305664
+   ],
+   [
+    -27.78109359741211
+   ],
+   [
+    -35.90751647949219
+   ],
+   [
+    -26.369674682617188
+   ],
+   [
+    -31.354740142822266
+   ],
+   [
+    -26.659137725830078
+   ],
+   [
+    -29.946334838867188
+   ],
+   [
+    -33.65480041503906
+   ],
+   [
+    -22.3519287109375
+   ],
+   [
+    -32.94073486328125
+   ],
+   [
+    -28.416339874267578
+   ],
+   [
+    -36.69312286376953
+   ],
+   [
+    -25.599632263183594
+   ],
+   [
+    -30.44357681274414
+   ],
+   [
+    -29.87002182006836
+   ],
+   [
+    -28.747394561767578
+   ],
+   [
+    -31.028648376464844
+   ],
+   [
+    -31.659141540527344
+   ],
+   [
+    -27.472450256347656
+   ],
+   [
+    -32.39250183105469
+   ],
+   [
+    -32.52499008178711
+   ],
+   [
+    -29.028045654296875
+   ],
+   [
+    -33.74428176879883
+   ],
+   [
+    -32.64297866821289
+   ],
+   [
+    -26.544414520263672
+   ],
+   [
+    -31.21762466430664
+   ],
+   [
+    -24.574195861816406
+   ],
+   [
+    -30.17456817626953
+   ],
+   [
+    -39.073490142822266
+   ],
+   [
+    -29.66964340209961
+   ],
+   [
+    -30.475948333740234
+   ],
+   [
+    -43.68849182128906
+   ],
+   [
+    -25.67906951904297
+   ],
+   [
+    -38.1007194519043
+   ],
+   [
+    -28.402793884277344
+   ],
+   [
+    -29.419811248779297
+   ],
+   [
+    -27.315017700195312
+   ],
+   [
+    -25.349868774414062
+   ],
+   [
+    -26.197509765625
+   ],
+   [
+    -34.40714645385742
+   ],
+   [
+    -31.615276336669922
+   ],
+   [
+    -33.989173889160156
+   ],
+   [
+    -33.436187744140625
+   ],
+   [
+    -37.75835037231445
+   ],
+   [
+    -33.21027755737305
+   ],
+   [
+    -28.523250579833984
+   ],
+   [
+    -31.147369384765625
+   ],
+   [
+    -28.446640014648438
+   ],
+   [
+    -26.61298370361328
+   ],
+   [
+    -28.643192291259766
+   ],
+   [
+    -29.403793334960938
+   ],
+   [
+    -33.45288848876953
+   ],
+   [
+    -36.550392150878906
+   ],
+   [
+    -28.40660858154297
+   ],
+   [
+    -29.194625854492188
+   ],
+   [
+    -30.295700073242188
+   ],
+   [
+    -30.063764572143555
+   ],
+   [
+    -36.7491340637207
+   ],
+   [
+    -38.24116897583008
+   ],
+   [
+    -22.725330352783203
+   ],
+   [
+    -28.084266662597656
+   ],
+   [
+    -28.118717193603516
+   ],
+   [
+    -44.241722106933594
+   ],
+   [
+    -30.78982925415039
+   ],
+   [
+    -32.53304672241211
+   ],
+   [
+    -26.058368682861328
+   ],
+   [
+    -35.966365814208984
+   ],
+   [
+    -32.99782180786133
+   ],
+   [
+    -26.06005859375
+   ],
+   [
+    -24.221187591552734
+   ],
+   [
+    -27.92980194091797
+   ],
+   [
+    -32.40243148803711
+   ],
+   [
+    -27.245296478271484
+   ],
+   [
+    -34.65534210205078
+   ],
+   [
+    -30.313385009765625
+   ],
+   [
+    -29.403047561645508
+   ],
+   [
+    -36.01704406738281
+   ],
+   [
+    -24.36127471923828
+   ],
+   [
+    -29.053234100341797
+   ],
+   [
+    -27.303558349609375
+   ],
+   [
+    -28.61111068725586
+   ],
+   [
+    -33.154747009277344
+   ],
+   [
+    -30.037261962890625
+   ],
+   [
+    -28.35962677001953
+   ],
+   [
+    -29.658828735351562
+   ],
+   [
+    -28.111671447753906
+   ],
+   [
+    -25.983158111572266
+   ],
+   [
+    -32.3316535949707
+   ],
+   [
+    -38.671424865722656
+   ],
+   [
+    -36.91868591308594
+   ],
+   [
+    -35.655155181884766
+   ],
+   [
+    -29.415584564208984
+   ],
+   [
+    -25.61893081665039
+   ],
+   [
+    -27.38916015625
+   ],
+   [
+    -28.475128173828125
+   ],
+   [
+    -27.16643524169922
+   ],
+   [
+    -25.657581329345703
+   ],
+   [
+    -27.47386932373047
+   ],
+   [
+    -30.848434448242188
+   ],
+   [
+    -30.377483367919922
+   ],
+   [
+    -24.84454345703125
+   ],
+   [
+    -29.334407806396484
+   ],
+   [
+    -25.30077362060547
+   ],
+   [
+    -28.33062744140625
+   ],
+   [
+    -31.456161499023438
+   ],
+   [
+    -30.589130401611328
+   ],
+   [
+    -28.41724395751953
+   ],
+   [
+    -31.017475128173828
+   ],
+   [
+    -30.515491485595703
+   ],
+   [
+    -32.67697525024414
+   ],
+   [
+    -34.37249755859375
+   ],
+   [
+    -29.49249267578125
+   ],
+   [
+    -28.892772674560547
+   ],
+   [
+    -32.0822639465332
+   ],
+   [
+    -37.148746490478516
+   ],
+   [
+    -27.360809326171875
+   ],
+   [
+    -36.79676055908203
+   ],
+   [
+    -28.09280776977539
+   ],
+   [
+    -34.833919525146484
+   ],
+   [
+    -36.20689010620117
+   ],
+   [
+    -46.198570251464844
+   ],
+   [
+    -34.29743194580078
+   ],
+   [
+    -39.678070068359375
+   ],
+   [
+    -35.8552131652832
+   ],
+   [
+    -25.727893829345703
+   ],
+   [
+    -37.0917854309082
+   ],
+   [
+    -28.389476776123047
+   ],
+   [
+    -37.936214447021484
+   ],
+   [
+    -36.555267333984375
+   ],
+   [
+    -36.2620964050293
+   ],
+   [
+    -25.67028045654297
+   ],
+   [
+    -23.624969482421875
+   ],
+   [
+    -25.77777862548828
+   ],
+   [
+    -26.165008544921875
+   ],
+   [
+    -36.03145217895508
+   ],
+   [
+    -29.631885528564453
+   ],
+   [
+    -35.54231262207031
+   ],
+   [
+    -32.66006851196289
+   ],
+   [
+    -28.377281188964844
+   ],
+   [
+    -28.314128875732422
+   ],
+   [
+    -34.19525146484375
+   ],
+   [
+    -24.859268188476562
+   ],
+   [
+    -33.65483093261719
+   ],
+   [
+    -30.903732299804688
+   ],
+   [
+    -35.05424499511719
+   ],
+   [
+    -29.796096801757812
+   ],
+   [
+    -29.890583038330078
+   ],
+   [
+    -28.857229232788086
+   ],
+   [
+    -34.842384338378906
+   ],
+   [
+    -36.6547737121582
+   ],
+   [
+    -36.32154083251953
+   ],
+   [
+    -39.464481353759766
+   ],
+   [
+    -28.73700714111328
+   ],
+   [
+    -28.900127410888672
+   ],
+   [
+    -28.954410552978516
+   ],
+   [
+    -28.328811645507812
+   ],
+   [
+    -33.92084884643555
+   ],
+   [
+    -27.73601531982422
+   ],
+   [
+    -31.048263549804688
+   ],
+   [
+    -31.210674285888672
+   ],
+   [
+    -32.09281921386719
+   ],
+   [
+    -28.47287368774414
+   ],
+   [
+    -36.14289855957031
+   ],
+   [
+    -28.975521087646484
+   ],
+   [
+    -38.16055679321289
+   ],
+   [
+    -25.931713104248047
+   ],
+   [
+    -32.721717834472656
+   ],
+   [
+    -31.050251007080078
+   ],
+   [
+    -32.86845397949219
+   ],
+   [
+    -36.102561950683594
+   ],
+   [
+    -29.772937774658203
+   ],
+   [
+    -37.126773834228516
+   ],
+   [
+    -31.792770385742188
+   ],
+   [
+    -25.585430145263672
+   ],
+   [
+    -33.071983337402344
+   ],
+   [
+    -27.544952392578125
+   ],
+   [
+    -29.050853729248047
+   ],
+   [
+    -32.00836944580078
+   ],
+   [
+    -25.996742248535156
+   ],
+   [
+    -33.30377197265625
+   ],
+   [
+    -30.289382934570312
+   ],
+   [
+    -32.04302215576172
+   ],
+   [
+    -29.819896697998047
+   ],
+   [
+    -33.45071792602539
+   ],
+   [
+    -39.03533935546875
+   ]
+  ]
+ ],
+ "time": 1786.3914833068848
+}

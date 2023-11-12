@@ -1,0 +1,2076 @@
+{
+ "case_id": 22073,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Wilhelm Wien"
+ },
+ "pre": [
+  [
+   "Wilhelm Wien's field of work is meteorology",
+   "Wilhelm Wien's field of work is radioactivity",
+   "Wilhelm Wien's field of work is complex function",
+   "Wilhelm Wien's field of work is histology",
+   "Wilhelm Wien's field of work is algebra",
+   "Wilhelm Wien's field of work is electron",
+   "Wilhelm Wien's field of work is quantum theory",
+   "Wilhelm Wien's field of work is applied mathematics",
+   "Wilhelm Wien's field of work is electricity",
+   "Wilhelm Wien's field of work is human geography",
+   "Wilhelm Wien's field of work is crystallography",
+   "Wilhelm Wien's field of work is chemistry",
+   "Wilhelm Wien's field of work is Jewish studies",
+   "Wilhelm Wien's field of work is topology",
+   "Wilhelm Wien's field of work is mathematical analysis",
+   "Wilhelm Wien's field of work is computational geometry",
+   "Wilhelm Wien's field of work is Petrine ministry",
+   "Wilhelm Wien's field of work is social psychology",
+   "Wilhelm Wien's field of work is genetics",
+   "Wilhelm Wien's field of work is informatics",
+   "Wilhelm Wien's field of work is shipbuilding",
+   "Wilhelm Wien's field of work is historical sociology",
+   "Wilhelm Wien's field of work is quantum mysticism",
+   "Wilhelm Wien's field of work is philosopher",
+   "Wilhelm Wien's field of work is Internet",
+   "Wilhelm Wien's field of work is gravity",
+   "Wilhelm Wien's field of work is theoretical physics",
+   "Wilhelm Wien's field of work is African studies",
+   "Wilhelm Wien's field of work is projective geometry",
+   "Wilhelm Wien's field of work is prose",
+   "Wilhelm Wien's field of work is momentum",
+   "Wilhelm Wien's field of work is Cairo Geniza",
+   "Wilhelm Wien's field of work is stochastic",
+   "Wilhelm Wien's field of work is algebraic topology",
+   "Wilhelm Wien's field of work is electrical engineering",
+   "Wilhelm Wien's field of work is hunting",
+   "Wilhelm Wien's field of work is evolution",
+   "Wilhelm Wien's field of work is economic anthropology",
+   "Wilhelm Wien's field of work is Hebrew",
+   "Wilhelm Wien's field of work is differential geometry",
+   "Wilhelm Wien's field of work is engineering",
+   "Wilhelm Wien's field of work is history of science",
+   "Wilhelm Wien's field of work is social anthropology",
+   "Wilhelm Wien's field of work is history",
+   "Wilhelm Wien's field of work is distribution theory",
+   "Wilhelm Wien's field of work is classics",
+   "Wilhelm Wien's field of work is crime novel",
+   "Wilhelm Wien's field of work is statistics",
+   "Wilhelm Wien's field of work is experimental physics",
+   "Wilhelm Wien's field of work is geography",
+   "Wilhelm Wien's field of work is anthropology",
+   "Wilhelm Wien's field of work is partial differential equation",
+   "Wilhelm Wien's field of work is applied physics",
+   "Wilhelm Wien's field of work is Sanskrit",
+   "Wilhelm Wien's field of work is a branch of physics",
+   "Wilhelm Wien's field of work is comparative mythology",
+   "Wilhelm Wien's field of work is radiation",
+   "Wilhelm Wien's field of work is aeromechanics",
+   "Wilhelm Wien's field of work is harmonic analysis",
+   "Wilhelm Wien's field of work is religion",
+   "Wilhelm Wien's field of work is civil rights",
+   "Wilhelm Wien's field of work is physicist",
+   "Wilhelm Wien's field of work is distribution",
+   "Wilhelm Wien's field of work is translations from Spanish",
+   "Wilhelm Wien's field of work is feminism",
+   "Wilhelm Wien's field of work is number theory",
+   "Wilhelm Wien's field of work is sociology of organisations",
+   "Wilhelm Wien's field of work is astronomer",
+   "Wilhelm Wien's field of work is children's and youth literature",
+   "Wilhelm Wien's field of work is fairy tale",
+   "Wilhelm Wien's field of work is economy",
+   "Wilhelm Wien's field of work is graph theory",
+   "Wilhelm Wien's field of work is magic",
+   "Wilhelm Wien's field of work is essay",
+   "Wilhelm Wien's field of work is theory of relativity",
+   "Wilhelm Wien's field of work is historical novel",
+   "Wilhelm Wien's field of work is biological anthropology",
+   "Wilhelm Wien's field of work is literary theory",
+   "Wilhelm Wien's field of work is Greek philology",
+   "Wilhelm Wien's field of work is lyric poetry",
+   "Wilhelm Wien's field of work is psychology",
+   "Wilhelm Wien's field of work is quaternion",
+   "Wilhelm Wien's field of work is rite",
+   "Wilhelm Wien's field of work is jazz",
+   "Wilhelm Wien's field of work is heat",
+   "Wilhelm Wien's field of work is embryology",
+   "Wilhelm Wien's field of work is social philosophy",
+   "Wilhelm Wien's field of work is dance choreography",
+   "Wilhelm Wien's field of work is politics",
+   "Wilhelm Wien's field of work is nanotechnology",
+   "Wilhelm Wien's field of work is Afghanistan",
+   "Wilhelm Wien's field of work is non-Euclidean geometry",
+   "Wilhelm Wien's field of work is Franciscan spirituality",
+   "Wilhelm Wien's field of work is detective literature",
+   "Wilhelm Wien's field of work is mathematician",
+   "Wilhelm Wien's field of work is String",
+   "Wilhelm Wien's field of work is classical music",
+   "Wilhelm Wien's field of work is translations from Occitan",
+   "Wilhelm Wien's field of work is abstract algebra",
+   "Wilhelm Wien's field of work is differential calculus",
+   "Wilhelm Wien's field of work is mythology",
+   "Wilhelm Wien's field of work is literary translation",
+   "Wilhelm Wien's field of work is ballistics",
+   "Wilhelm Wien's field of work is cryptography",
+   "Wilhelm Wien's field of work is Greek",
+   "Wilhelm Wien's field of work is logic",
+   "Wilhelm Wien's field of work is choreography",
+   "Wilhelm Wien's field of work is theology",
+   "Wilhelm Wien's field of work is world economy",
+   "Wilhelm Wien's field of work is magnetism",
+   "Wilhelm Wien's field of work is algebraic geometry",
+   "Wilhelm Wien's field of work is theory of differential equations",
+   "Wilhelm Wien's field of work is physics",
+   "Wilhelm Wien's field of work is music theory",
+   "Wilhelm Wien's field of work is economics",
+   "Wilhelm Wien's field of work is anatomy",
+   "Wilhelm Wien's field of work is electromagnetic field",
+   "Wilhelm Wien's field of work is analytic number theory",
+   "Wilhelm Wien's field of work is mathematical physics",
+   "Wilhelm Wien's field of work is journalism",
+   "Wilhelm Wien's field of work is sociology",
+   "Wilhelm Wien's field of work is literature",
+   "Wilhelm Wien's field of work is ethnography",
+   "Wilhelm Wien's field of work is belletristic literature",
+   "Wilhelm Wien's field of work is convex function",
+   "Wilhelm Wien's field of work is sociology of religion",
+   "Wilhelm Wien's field of work is pedagogy",
+   "Wilhelm Wien's field of work is philosophy",
+   "Wilhelm Wien's field of work is quantum mechanics",
+   "Wilhelm Wien's field of work is drama",
+   "Wilhelm Wien's field of work is dance",
+   "Wilhelm Wien's field of work is Judaism",
+   "Wilhelm Wien's field of work is quantum physics",
+   "Wilhelm Wien's field of work is philosophy of science",
+   "Wilhelm Wien's field of work is linguistics",
+   "Wilhelm Wien's field of work is myth",
+   "Wilhelm Wien's field of work is physiology",
+   "Wilhelm Wien's field of work is English",
+   "Wilhelm Wien's field of work is philology",
+   "Wilhelm Wien's field of work is political philosophy",
+   "Wilhelm Wien's field of work is mechanical engineering",
+   "Wilhelm Wien's field of work is ontology",
+   "Wilhelm Wien's field of work is forestry",
+   "Wilhelm Wien's field of work is aerodynamics",
+   "Wilhelm Wien's field of work is Christian Church",
+   "Wilhelm Wien's field of work is magnetic resonance",
+   "Wilhelm Wien's field of work is astrophysics",
+   "Wilhelm Wien's field of work is natural science",
+   "Wilhelm Wien's field of work is constitutional law",
+   "Wilhelm Wien's field of work is philosophy of law",
+   "Wilhelm Wien's field of work is education",
+   "Wilhelm Wien's field of work is Monte Carlo method",
+   "Wilhelm Wien's field of work is neurology",
+   "Wilhelm Wien's field of work is electric field",
+   "Wilhelm Wien's field of work is Minkowski spacetime",
+   "Wilhelm Wien's field of work is translations from Arabic language",
+   "Wilhelm Wien's field of work is Bayesian inference",
+   "Wilhelm Wien's field of work is translations from Polish",
+   "Wilhelm Wien's field of work is color photography",
+   "Wilhelm Wien's field of work is opera",
+   "Wilhelm Wien's field of work is model theory",
+   "Wilhelm Wien's field of work is cartography",
+   "Wilhelm Wien's field of work is nonstandard analysis",
+   "Wilhelm Wien's field of work is television program",
+   "Wilhelm Wien's field of work is complex manifold",
+   "Wilhelm Wien's field of work is poetry",
+   "Wilhelm Wien's field of work is mathematics",
+   "Wilhelm Wien's field of work is computer science",
+   "Wilhelm Wien's field of work is cosmology",
+   "Wilhelm Wien's field of work is silviculture",
+   "Wilhelm Wien's field of work is hydrodynamics",
+   "Wilhelm Wien's field of work is forestry science",
+   "Wilhelm Wien's field of work is comparative religion",
+   "Wilhelm Wien's field of work is information technology",
+   "Wilhelm Wien's field of work is ballet",
+   "Wilhelm Wien's field of work is English literature",
+   "Wilhelm Wien's field of work is conducting",
+   "Wilhelm Wien's field of work is hyperbolic geometry",
+   "Wilhelm Wien's field of work is biochemistry",
+   "Wilhelm Wien's field of work is religion and society",
+   "Wilhelm Wien's field of work is optics",
+   "Wilhelm Wien's field of work is ethics",
+   "Wilhelm Wien's field of work is cybernetics",
+   "Wilhelm Wien's field of work is astronomical observation",
+   "Wilhelm Wien's field of work is psychophysiology",
+   "Wilhelm Wien's field of work is culturology",
+   "Wilhelm Wien's field of work is history of religions",
+   "Wilhelm Wien's field of work is probability theory",
+   "Wilhelm Wien's field of work is paleontology",
+   "Wilhelm Wien's field of work is surgery",
+   "Wilhelm Wien's field of work is group theory",
+   "Wilhelm Wien's field of work is natural theology",
+   "Wilhelm Wien's field of work is astrology",
+   "Wilhelm Wien's field of work is quantum electrodynamics",
+   "Wilhelm Wien's field of work is mechanics",
+   "Wilhelm Wien's field of work is Lie algebra",
+   "Wilhelm Wien's field of work is trigonometry",
+   "Wilhelm Wien's field of work is literary activity",
+   "Wilhelm Wien's field of work is nuclear physics",
+   "Wilhelm Wien's field of work is translations from English",
+   "Wilhelm Wien's field of work is medicine",
+   "Wilhelm Wien's field of work is Jewish philosophy",
+   "Wilhelm Wien's field of work is mathematical logic",
+   "Wilhelm Wien's field of work is calculus of variations",
+   "Wilhelm Wien's field of work is ferromagnetism",
+   "Wilhelm Wien's field of work is analytic geometry",
+   "Wilhelm Wien's field of work is art of painting",
+   "Wilhelm Wien's field of work is functional analysis",
+   "Wilhelm Wien's field of work is folklore",
+   "Wilhelm Wien's field of work is study of history",
+   "Wilhelm Wien's field of work is geometry",
+   "Wilhelm Wien's field of work is positivism",
+   "Wilhelm Wien's field of work is geodesy",
+   "Wilhelm Wien's field of work is astronomy",
+   "Wilhelm Wien's field of work is magnetic field",
+   "Wilhelm Wien's field of work is kinetic theory",
+   "Wilhelm Wien's field of work is celestial mechanics",
+   "Wilhelm Wien's field of work is analytic philosophy",
+   "Wilhelm Wien's field of work is ethnology",
+   "Wilhelm Wien's field of work is history of economic thought",
+   "Wilhelm Wien is meteorology",
+   "Wilhelm Wien is radioactivity",
+   "Wilhelm Wien is complex function",
+   "Wilhelm Wien is histology",
+   "Wilhelm Wien is algebra",
+   "Wilhelm Wien is electron",
+   "Wilhelm Wien is quantum theory",
+   "Wilhelm Wien is applied mathematics",
+   "Wilhelm Wien is electricity",
+   "Wilhelm Wien is human geography",
+   "Wilhelm Wien is crystallography",
+   "Wilhelm Wien is chemistry",
+   "Wilhelm Wien is Jewish studies",
+   "Wilhelm Wien is topology",
+   "Wilhelm Wien is mathematical analysis",
+   "Wilhelm Wien is computational geometry",
+   "Wilhelm Wien is Petrine ministry",
+   "Wilhelm Wien is social psychology",
+   "Wilhelm Wien is genetics",
+   "Wilhelm Wien is informatics",
+   "Wilhelm Wien is shipbuilding",
+   "Wilhelm Wien is historical sociology",
+   "Wilhelm Wien is quantum mysticism",
+   "Wilhelm Wien is philosopher",
+   "Wilhelm Wien is Internet",
+   "Wilhelm Wien is gravity",
+   "Wilhelm Wien is theoretical physics",
+   "Wilhelm Wien is African studies",
+   "Wilhelm Wien is projective geometry",
+   "Wilhelm Wien is prose",
+   "Wilhelm Wien is momentum",
+   "Wilhelm Wien is Cairo Geniza",
+   "Wilhelm Wien is stochastic",
+   "Wilhelm Wien is algebraic topology",
+   "Wilhelm Wien is electrical engineering",
+   "Wilhelm Wien is hunting",
+   "Wilhelm Wien is evolution",
+   "Wilhelm Wien is economic anthropology",
+   "Wilhelm Wien is Hebrew",
+   "Wilhelm Wien is differential geometry",
+   "Wilhelm Wien is engineering",
+   "Wilhelm Wien is history of science",
+   "Wilhelm Wien is social anthropology",
+   "Wilhelm Wien is history",
+   "Wilhelm Wien is distribution theory",
+   "Wilhelm Wien is classics",
+   "Wilhelm Wien is crime novel",
+   "Wilhelm Wien is statistics",
+   "Wilhelm Wien is experimental physics",
+   "Wilhelm Wien is geography",
+   "Wilhelm Wien is anthropology",
+   "Wilhelm Wien is partial differential equation",
+   "Wilhelm Wien is applied physics",
+   "Wilhelm Wien is Sanskrit",
+   "Wilhelm Wien is a branch of physics",
+   "Wilhelm Wien is comparative mythology",
+   "Wilhelm Wien is radiation",
+   "Wilhelm Wien is aeromechanics",
+   "Wilhelm Wien is harmonic analysis",
+   "Wilhelm Wien is religion",
+   "Wilhelm Wien is civil rights",
+   "Wilhelm Wien is physicist",
+   "Wilhelm Wien is distribution",
+   "Wilhelm Wien is translations from Spanish",
+   "Wilhelm Wien is feminism",
+   "Wilhelm Wien is number theory",
+   "Wilhelm Wien is sociology of organisations",
+   "Wilhelm Wien is astronomer",
+   "Wilhelm Wien is children's and youth literature",
+   "Wilhelm Wien is fairy tale",
+   "Wilhelm Wien is economy",
+   "Wilhelm Wien is graph theory",
+   "Wilhelm Wien is magic",
+   "Wilhelm Wien is essay",
+   "Wilhelm Wien is theory of relativity",
+   "Wilhelm Wien is historical novel",
+   "Wilhelm Wien is biological anthropology",
+   "Wilhelm Wien is literary theory",
+   "Wilhelm Wien is Greek philology",
+   "Wilhelm Wien is lyric poetry",
+   "Wilhelm Wien is psychology",
+   "Wilhelm Wien is quaternion",
+   "Wilhelm Wien is rite",
+   "Wilhelm Wien is jazz",
+   "Wilhelm Wien is heat",
+   "Wilhelm Wien is embryology",
+   "Wilhelm Wien is social philosophy",
+   "Wilhelm Wien is dance choreography",
+   "Wilhelm Wien is politics",
+   "Wilhelm Wien is nanotechnology",
+   "Wilhelm Wien is Afghanistan",
+   "Wilhelm Wien is non-Euclidean geometry",
+   "Wilhelm Wien is Franciscan spirituality",
+   "Wilhelm Wien is detective literature",
+   "Wilhelm Wien is mathematician",
+   "Wilhelm Wien is String",
+   "Wilhelm Wien is classical music",
+   "Wilhelm Wien is translations from Occitan",
+   "Wilhelm Wien is abstract algebra",
+   "Wilhelm Wien is differential calculus",
+   "Wilhelm Wien is mythology",
+   "Wilhelm Wien is literary translation",
+   "Wilhelm Wien is ballistics",
+   "Wilhelm Wien is cryptography",
+   "Wilhelm Wien is Greek",
+   "Wilhelm Wien is logic",
+   "Wilhelm Wien is choreography",
+   "Wilhelm Wien is theology",
+   "Wilhelm Wien is world economy",
+   "Wilhelm Wien is magnetism",
+   "Wilhelm Wien is algebraic geometry",
+   "Wilhelm Wien is theory of differential equations",
+   "Wilhelm Wien is physics",
+   "Wilhelm Wien is music theory",
+   "Wilhelm Wien is economics",
+   "Wilhelm Wien is anatomy",
+   "Wilhelm Wien is electromagnetic field",
+   "Wilhelm Wien is analytic number theory",
+   "Wilhelm Wien is mathematical physics",
+   "Wilhelm Wien is journalism",
+   "Wilhelm Wien is sociology",
+   "Wilhelm Wien is literature",
+   "Wilhelm Wien is ethnography",
+   "Wilhelm Wien is belletristic literature",
+   "Wilhelm Wien is convex function",
+   "Wilhelm Wien is sociology of religion",
+   "Wilhelm Wien is pedagogy",
+   "Wilhelm Wien is philosophy",
+   "Wilhelm Wien is quantum mechanics",
+   "Wilhelm Wien is drama",
+   "Wilhelm Wien is dance",
+   "Wilhelm Wien is Judaism",
+   "Wilhelm Wien is quantum physics",
+   "Wilhelm Wien is philosophy of science",
+   "Wilhelm Wien is linguistics",
+   "Wilhelm Wien is myth",
+   "Wilhelm Wien is physiology",
+   "Wilhelm Wien is English",
+   "Wilhelm Wien is philology",
+   "Wilhelm Wien is political philosophy",
+   "Wilhelm Wien is mechanical engineering",
+   "Wilhelm Wien is ontology",
+   "Wilhelm Wien is forestry",
+   "Wilhelm Wien is aerodynamics",
+   "Wilhelm Wien is Christian Church",
+   "Wilhelm Wien is magnetic resonance",
+   "Wilhelm Wien is astrophysics",
+   "Wilhelm Wien is natural science",
+   "Wilhelm Wien is constitutional law",
+   "Wilhelm Wien is philosophy of law",
+   "Wilhelm Wien is education",
+   "Wilhelm Wien is Monte Carlo method",
+   "Wilhelm Wien is neurology",
+   "Wilhelm Wien is electric field",
+   "Wilhelm Wien is Minkowski spacetime",
+   "Wilhelm Wien is translations from Arabic language",
+   "Wilhelm Wien is Bayesian inference",
+   "Wilhelm Wien is translations from Polish",
+   "Wilhelm Wien is color photography",
+   "Wilhelm Wien is opera",
+   "Wilhelm Wien is model theory",
+   "Wilhelm Wien is cartography",
+   "Wilhelm Wien is nonstandard analysis",
+   "Wilhelm Wien is television program",
+   "Wilhelm Wien is complex manifold",
+   "Wilhelm Wien is poetry",
+   "Wilhelm Wien is mathematics",
+   "Wilhelm Wien is computer science",
+   "Wilhelm Wien is cosmology",
+   "Wilhelm Wien is silviculture",
+   "Wilhelm Wien is hydrodynamics",
+   "Wilhelm Wien is forestry science",
+   "Wilhelm Wien is comparative religion",
+   "Wilhelm Wien is information technology",
+   "Wilhelm Wien is ballet",
+   "Wilhelm Wien is English literature",
+   "Wilhelm Wien is conducting",
+   "Wilhelm Wien is hyperbolic geometry",
+   "Wilhelm Wien is biochemistry",
+   "Wilhelm Wien is religion and society",
+   "Wilhelm Wien is optics",
+   "Wilhelm Wien is ethics",
+   "Wilhelm Wien is cybernetics",
+   "Wilhelm Wien is astronomical observation",
+   "Wilhelm Wien is psychophysiology",
+   "Wilhelm Wien is culturology",
+   "Wilhelm Wien is history of religions",
+   "Wilhelm Wien is probability theory",
+   "Wilhelm Wien is paleontology",
+   "Wilhelm Wien is surgery",
+   "Wilhelm Wien is group theory",
+   "Wilhelm Wien is natural theology",
+   "Wilhelm Wien is astrology",
+   "Wilhelm Wien is quantum electrodynamics",
+   "Wilhelm Wien is mechanics",
+   "Wilhelm Wien is Lie algebra",
+   "Wilhelm Wien is trigonometry",
+   "Wilhelm Wien is literary activity",
+   "Wilhelm Wien is nuclear physics",
+   "Wilhelm Wien is translations from English",
+   "Wilhelm Wien is medicine",
+   "Wilhelm Wien is Jewish philosophy",
+   "Wilhelm Wien is mathematical logic",
+   "Wilhelm Wien is calculus of variations",
+   "Wilhelm Wien is ferromagnetism",
+   "Wilhelm Wien is analytic geometry",
+   "Wilhelm Wien is art of painting",
+   "Wilhelm Wien is functional analysis",
+   "Wilhelm Wien is folklore",
+   "Wilhelm Wien is study of history",
+   "Wilhelm Wien is geometry",
+   "Wilhelm Wien is positivism",
+   "Wilhelm Wien is geodesy",
+   "Wilhelm Wien is astronomy",
+   "Wilhelm Wien is magnetic field",
+   "Wilhelm Wien is kinetic theory",
+   "Wilhelm Wien is celestial mechanics",
+   "Wilhelm Wien is analytic philosophy",
+   "Wilhelm Wien is ethnology",
+   "Wilhelm Wien is history of economic thought"
+  ],
+  [
+   [
+    -39.145668029785156
+   ],
+   [
+    -40.031009674072266
+   ],
+   [
+    -47.15537643432617
+   ],
+   [
+    -41.54458236694336
+   ],
+   [
+    -39.541969299316406
+   ],
+   [
+    -37.924560546875
+   ],
+   [
+    -38.72662353515625
+   ],
+   [
+    -40.219879150390625
+   ],
+   [
+    -38.10796356201172
+   ],
+   [
+    -44.31696701049805
+   ],
+   [
+    -38.11036682128906
+   ],
+   [
+    -37.80356216430664
+   ],
+   [
+    -45.89452362060547
+   ],
+   [
+    -39.42059326171875
+   ],
+   [
+    -40.22389221191406
+   ],
+   [
+    -42.95486831665039
+   ],
+   [
+    -57.87844467163086
+   ],
+   [
+    -40.402793884277344
+   ],
+   [
+    -40.87342834472656
+   ],
+   [
+    -42.36172103881836
+   ],
+   [
+    -45.25244140625
+   ],
+   [
+    -43.10171127319336
+   ],
+   [
+    -48.547821044921875
+   ],
+   [
+    -43.98663330078125
+   ],
+   [
+    -41.979515075683594
+   ],
+   [
+    -41.34529495239258
+   ],
+   [
+    -37.122589111328125
+   ],
+   [
+    -46.18568801879883
+   ],
+   [
+    -43.90145492553711
+   ],
+   [
+    -44.36048889160156
+   ],
+   [
+    -43.001068115234375
+   ],
+   [
+    -55.23987579345703
+   ],
+   [
+    -40.631500244140625
+   ],
+   [
+    -41.73409652709961
+   ],
+   [
+    -38.427818298339844
+   ],
+   [
+    -43.93678283691406
+   ],
+   [
+    -40.47148513793945
+   ],
+   [
+    -45.600379943847656
+   ],
+   [
+    -45.68207550048828
+   ],
+   [
+    -41.946083068847656
+   ],
+   [
+    -39.59153366088867
+   ],
+   [
+    -40.4185676574707
+   ],
+   [
+    -42.554771423339844
+   ],
+   [
+    -37.91517639160156
+   ],
+   [
+    -41.854530334472656
+   ],
+   [
+    -41.703800201416016
+   ],
+   [
+    -50.60666275024414
+   ],
+   [
+    -38.89741516113281
+   ],
+   [
+    -38.995033264160156
+   ],
+   [
+    -40.70030975341797
+   ],
+   [
+    -41.23137664794922
+   ],
+   [
+    -47.656925201416016
+   ],
+   [
+    -40.84976577758789
+   ],
+   [
+    -43.333091735839844
+   ],
+   [
+    -41.365867614746094
+   ],
+   [
+    -45.061187744140625
+   ],
+   [
+    -38.42626190185547
+   ],
+   [
+    -45.4991455078125
+   ],
+   [
+    -41.24974060058594
+   ],
+   [
+    -41.623775482177734
+   ],
+   [
+    -46.16328811645508
+   ],
+   [
+    -43.44049072265625
+   ],
+   [
+    -40.16608810424805
+   ],
+   [
+    -50.843936920166016
+   ],
+   [
+    -44.363975524902344
+   ],
+   [
+    -39.42769241333008
+   ],
+   [
+    -50.11363983154297
+   ],
+   [
+    -44.859352111816406
+   ],
+   [
+    -48.635196685791016
+   ],
+   [
+    -46.007530212402344
+   ],
+   [
+    -42.098392486572266
+   ],
+   [
+    -39.623779296875
+   ],
+   [
+    -41.4957275390625
+   ],
+   [
+    -43.59739685058594
+   ],
+   [
+    -43.791053771972656
+   ],
+   [
+    -46.608341217041016
+   ],
+   [
+    -45.612674713134766
+   ],
+   [
+    -43.301353454589844
+   ],
+   [
+    -47.54921340942383
+   ],
+   [
+    -46.43665313720703
+   ],
+   [
+    -39.24723815917969
+   ],
+   [
+    -46.334007263183594
+   ],
+   [
+    -47.567230224609375
+   ],
+   [
+    -43.11283874511719
+   ],
+   [
+    -38.77168655395508
+   ],
+   [
+    -42.218772888183594
+   ],
+   [
+    -42.46452713012695
+   ],
+   [
+    -49.23455047607422
+   ],
+   [
+    -40.004798889160156
+   ],
+   [
+    -39.84142303466797
+   ],
+   [
+    -45.86127471923828
+   ],
+   [
+    -41.553741455078125
+   ],
+   [
+    -51.492897033691406
+   ],
+   [
+    -48.97991943359375
+   ],
+   [
+    -43.99868392944336
+   ],
+   [
+    -42.28270721435547
+   ],
+   [
+    -42.19078826904297
+   ],
+   [
+    -56.586509704589844
+   ],
+   [
+    -41.67763900756836
+   ],
+   [
+    -45.346370697021484
+   ],
+   [
+    -42.27688980102539
+   ],
+   [
+    -46.114715576171875
+   ],
+   [
+    -43.41493225097656
+   ],
+   [
+    -40.69828414916992
+   ],
+   [
+    -42.11595916748047
+   ],
+   [
+    -40.192989349365234
+   ],
+   [
+    -45.439552307128906
+   ],
+   [
+    -41.98295974731445
+   ],
+   [
+    -47.083160400390625
+   ],
+   [
+    -38.8907356262207
+   ],
+   [
+    -40.53287887573242
+   ],
+   [
+    -47.432613372802734
+   ],
+   [
+    -35.56095886230469
+   ],
+   [
+    -41.839454650878906
+   ],
+   [
+    -39.11356735229492
+   ],
+   [
+    -41.72273254394531
+   ],
+   [
+    -41.258750915527344
+   ],
+   [
+    -42.56700897216797
+   ],
+   [
+    -37.44902801513672
+   ],
+   [
+    -41.77154541015625
+   ],
+   [
+    -39.82072448730469
+   ],
+   [
+    -40.41427230834961
+   ],
+   [
+    -43.28273010253906
+   ],
+   [
+    -51.15547180175781
+   ],
+   [
+    -46.86050796508789
+   ],
+   [
+    -42.906593322753906
+   ],
+   [
+    -41.19434356689453
+   ],
+   [
+    -38.11232376098633
+   ],
+   [
+    -37.781124114990234
+   ],
+   [
+    -44.37909698486328
+   ],
+   [
+    -42.56120300292969
+   ],
+   [
+    -44.95113754272461
+   ],
+   [
+    -37.81081008911133
+   ],
+   [
+    -39.90449523925781
+   ],
+   [
+    -40.35807800292969
+   ],
+   [
+    -43.030235290527344
+   ],
+   [
+    -39.97411346435547
+   ],
+   [
+    -41.51700210571289
+   ],
+   [
+    -41.14234161376953
+   ],
+   [
+    -40.97300338745117
+   ],
+   [
+    -40.33150863647461
+   ],
+   [
+    -40.8790283203125
+   ],
+   [
+    -42.764381408691406
+   ],
+   [
+    -41.5485725402832
+   ],
+   [
+    -49.41180419921875
+   ],
+   [
+    -42.363731384277344
+   ],
+   [
+    -38.254852294921875
+   ],
+   [
+    -40.013427734375
+   ],
+   [
+    -41.52473449707031
+   ],
+   [
+    -43.44504165649414
+   ],
+   [
+    -39.640438079833984
+   ],
+   [
+    -47.840938568115234
+   ],
+   [
+    -40.60988235473633
+   ],
+   [
+    -42.822486877441406
+   ],
+   [
+    -46.500160217285156
+   ],
+   [
+    -57.033870697021484
+   ],
+   [
+    -43.62483596801758
+   ],
+   [
+    -51.883296966552734
+   ],
+   [
+    -42.85344314575195
+   ],
+   [
+    -43.05951690673828
+   ],
+   [
+    -43.668941497802734
+   ],
+   [
+    -40.759498596191406
+   ],
+   [
+    -45.93218231201172
+   ],
+   [
+    -49.32733917236328
+   ],
+   [
+    -47.24285888671875
+   ],
+   [
+    -41.40575408935547
+   ],
+   [
+    -36.51515579223633
+   ],
+   [
+    -41.778682708740234
+   ],
+   [
+    -37.853233337402344
+   ],
+   [
+    -48.28635025024414
+   ],
+   [
+    -41.07524871826172
+   ],
+   [
+    -47.84278869628906
+   ],
+   [
+    -43.485721588134766
+   ],
+   [
+    -42.86484909057617
+   ],
+   [
+    -44.824256896972656
+   ],
+   [
+    -43.18772506713867
+   ],
+   [
+    -41.5500602722168
+   ],
+   [
+    -42.67003631591797
+   ],
+   [
+    -39.413673400878906
+   ],
+   [
+    -47.807308197021484
+   ],
+   [
+    -36.806884765625
+   ],
+   [
+    -41.61238098144531
+   ],
+   [
+    -40.19919967651367
+   ],
+   [
+    -44.447608947753906
+   ],
+   [
+    -41.996246337890625
+   ],
+   [
+    -45.63349914550781
+   ],
+   [
+    -45.267417907714844
+   ],
+   [
+    -40.52711486816406
+   ],
+   [
+    -41.9166259765625
+   ],
+   [
+    -41.58091354370117
+   ],
+   [
+    -41.170345306396484
+   ],
+   [
+    -45.403282165527344
+   ],
+   [
+    -41.75971603393555
+   ],
+   [
+    -39.72051239013672
+   ],
+   [
+    -39.47012710571289
+   ],
+   [
+    -45.39252471923828
+   ],
+   [
+    -41.66902160644531
+   ],
+   [
+    -49.28342056274414
+   ],
+   [
+    -40.00487518310547
+   ],
+   [
+    -48.21228790283203
+   ],
+   [
+    -39.353511810302734
+   ],
+   [
+    -46.4588508605957
+   ],
+   [
+    -42.29400634765625
+   ],
+   [
+    -44.27667999267578
+   ],
+   [
+    -43.423099517822266
+   ],
+   [
+    -41.885032653808594
+   ],
+   [
+    -48.42410659790039
+   ],
+   [
+    -41.704803466796875
+   ],
+   [
+    -42.17084503173828
+   ],
+   [
+    -49.061256408691406
+   ],
+   [
+    -38.73994064331055
+   ],
+   [
+    -43.08745193481445
+   ],
+   [
+    -41.388427734375
+   ],
+   [
+    -37.71732711791992
+   ],
+   [
+    -42.84801483154297
+   ],
+   [
+    -41.196773529052734
+   ],
+   [
+    -40.59831237792969
+   ],
+   [
+    -43.33683776855469
+   ],
+   [
+    -42.10436248779297
+   ],
+   [
+    -45.78974914550781
+   ],
+   [
+    -29.45598030090332
+   ],
+   [
+    -31.837520599365234
+   ],
+   [
+    -36.28797912597656
+   ],
+   [
+    -30.545249938964844
+   ],
+   [
+    -27.305315017700195
+   ],
+   [
+    -26.59783935546875
+   ],
+   [
+    -28.06656265258789
+   ],
+   [
+    -31.38869857788086
+   ],
+   [
+    -26.581361770629883
+   ],
+   [
+    -34.19241714477539
+   ],
+   [
+    -29.860370635986328
+   ],
+   [
+    -28.776241302490234
+   ],
+   [
+    -37.16400909423828
+   ],
+   [
+    -30.82046890258789
+   ],
+   [
+    -34.31496810913086
+   ],
+   [
+    -35.159767150878906
+   ],
+   [
+    -47.77023696899414
+   ],
+   [
+    -32.825782775878906
+   ],
+   [
+    -31.07566261291504
+   ],
+   [
+    -31.79558563232422
+   ],
+   [
+    -32.73833465576172
+   ],
+   [
+    -33.32109832763672
+   ],
+   [
+    -34.44192886352539
+   ],
+   [
+    -25.94961929321289
+   ],
+   [
+    -26.73217010498047
+   ],
+   [
+    -29.785066604614258
+   ],
+   [
+    -29.26622772216797
+   ],
+   [
+    -35.31107711791992
+   ],
+   [
+    -36.01166534423828
+   ],
+   [
+    -29.86297607421875
+   ],
+   [
+    -29.206785202026367
+   ],
+   [
+    -43.06231689453125
+   ],
+   [
+    -30.577743530273438
+   ],
+   [
+    -31.55623435974121
+   ],
+   [
+    -30.199234008789062
+   ],
+   [
+    -26.81488609313965
+   ],
+   [
+    -28.713443756103516
+   ],
+   [
+    -37.20459747314453
+   ],
+   [
+    -28.010684967041016
+   ],
+   [
+    -31.533021926879883
+   ],
+   [
+    -28.345369338989258
+   ],
+   [
+    -30.150285720825195
+   ],
+   [
+    -34.79403305053711
+   ],
+   [
+    -24.096277236938477
+   ],
+   [
+    -31.752655029296875
+   ],
+   [
+    -29.394390106201172
+   ],
+   [
+    -36.68845748901367
+   ],
+   [
+    -27.415538787841797
+   ],
+   [
+    -30.225914001464844
+   ],
+   [
+    -30.09559440612793
+   ],
+   [
+    -29.651147842407227
+   ],
+   [
+    -33.70152282714844
+   ],
+   [
+    -30.916946411132812
+   ],
+   [
+    -28.907917022705078
+   ],
+   [
+    -29.74373435974121
+   ],
+   [
+    -34.26222229003906
+   ],
+   [
+    -28.477319717407227
+   ],
+   [
+    -34.64726257324219
+   ],
+   [
+    -33.0409049987793
+   ],
+   [
+    -28.457347869873047
+   ],
+   [
+    -33.407169342041016
+   ],
+   [
+    -24.31809425354004
+   ],
+   [
+    -29.984193801879883
+   ],
+   [
+    -41.52467346191406
+   ],
+   [
+    -30.519227981567383
+   ],
+   [
+    -33.86131286621094
+   ],
+   [
+    -42.81929016113281
+   ],
+   [
+    -27.035560607910156
+   ],
+   [
+    -40.28098678588867
+   ],
+   [
+    -28.742469787597656
+   ],
+   [
+    -30.020252227783203
+   ],
+   [
+    -30.27555274963379
+   ],
+   [
+    -27.472984313964844
+   ],
+   [
+    -28.01264190673828
+   ],
+   [
+    -32.225257873535156
+   ],
+   [
+    -31.986377716064453
+   ],
+   [
+    -34.327571868896484
+   ],
+   [
+    -33.64358901977539
+   ],
+   [
+    -38.81156921386719
+   ],
+   [
+    -33.68775177001953
+   ],
+   [
+    -29.590105056762695
+   ],
+   [
+    -32.72148513793945
+   ],
+   [
+    -28.648719787597656
+   ],
+   [
+    -27.70839500427246
+   ],
+   [
+    -28.577823638916016
+   ],
+   [
+    -31.07410430908203
+   ],
+   [
+    -34.97761154174805
+   ],
+   [
+    -38.4128532409668
+   ],
+   [
+    -28.47551918029785
+   ],
+   [
+    -31.874683380126953
+   ],
+   [
+    -30.6457462310791
+   ],
+   [
+    -30.913394927978516
+   ],
+   [
+    -38.10882568359375
+   ],
+   [
+    -38.15182113647461
+   ],
+   [
+    -25.13871955871582
+   ],
+   [
+    -28.843238830566406
+   ],
+   [
+    -32.2678337097168
+   ],
+   [
+    -45.739601135253906
+   ],
+   [
+    -33.0167236328125
+   ],
+   [
+    -35.1260986328125
+   ],
+   [
+    -27.8095760345459
+   ],
+   [
+    -36.441810607910156
+   ],
+   [
+    -35.225929260253906
+   ],
+   [
+    -29.16294288635254
+   ],
+   [
+    -26.453947067260742
+   ],
+   [
+    -29.714336395263672
+   ],
+   [
+    -33.93050003051758
+   ],
+   [
+    -29.918228149414062
+   ],
+   [
+    -35.118385314941406
+   ],
+   [
+    -30.85371971130371
+   ],
+   [
+    -30.212249755859375
+   ],
+   [
+    -38.051998138427734
+   ],
+   [
+    -24.956796646118164
+   ],
+   [
+    -31.084556579589844
+   ],
+   [
+    -27.746206283569336
+   ],
+   [
+    -29.571693420410156
+   ],
+   [
+    -33.26772689819336
+   ],
+   [
+    -30.821720123291016
+   ],
+   [
+    -28.364425659179688
+   ],
+   [
+    -29.608596801757812
+   ],
+   [
+    -28.580347061157227
+   ],
+   [
+    -28.49036979675293
+   ],
+   [
+    -32.41778564453125
+   ],
+   [
+    -40.669273376464844
+   ],
+   [
+    -35.6914176940918
+   ],
+   [
+    -34.299522399902344
+   ],
+   [
+    -33.16771697998047
+   ],
+   [
+    -27.103544235229492
+   ],
+   [
+    -26.969131469726562
+   ],
+   [
+    -30.028656005859375
+   ],
+   [
+    -28.418855667114258
+   ],
+   [
+    -28.23137664794922
+   ],
+   [
+    -27.388957977294922
+   ],
+   [
+    -30.58816146850586
+   ],
+   [
+    -33.11323547363281
+   ],
+   [
+    -26.171133041381836
+   ],
+   [
+    -29.68390464782715
+   ],
+   [
+    -26.374814987182617
+   ],
+   [
+    -29.570655822753906
+   ],
+   [
+    -32.84528732299805
+   ],
+   [
+    -30.27642822265625
+   ],
+   [
+    -30.2303409576416
+   ],
+   [
+    -31.217071533203125
+   ],
+   [
+    -32.02370071411133
+   ],
+   [
+    -34.51520919799805
+   ],
+   [
+    -34.50834655761719
+   ],
+   [
+    -31.757122039794922
+   ],
+   [
+    -31.053329467773438
+   ],
+   [
+    -31.667638778686523
+   ],
+   [
+    -36.133052825927734
+   ],
+   [
+    -29.070953369140625
+   ],
+   [
+    -42.228492736816406
+   ],
+   [
+    -28.904727935791016
+   ],
+   [
+    -34.42157745361328
+   ],
+   [
+    -37.11626434326172
+   ],
+   [
+    -49.04629898071289
+   ],
+   [
+    -34.97572708129883
+   ],
+   [
+    -42.14937210083008
+   ],
+   [
+    -36.544349670410156
+   ],
+   [
+    -28.02471923828125
+   ],
+   [
+    -34.742095947265625
+   ],
+   [
+    -31.08120346069336
+   ],
+   [
+    -39.896331787109375
+   ],
+   [
+    -36.736385345458984
+   ],
+   [
+    -36.5293083190918
+   ],
+   [
+    -28.373735427856445
+   ],
+   [
+    -26.96676254272461
+   ],
+   [
+    -28.817115783691406
+   ],
+   [
+    -27.72429656982422
+   ],
+   [
+    -33.91019058227539
+   ],
+   [
+    -30.335344314575195
+   ],
+   [
+    -35.14277267456055
+   ],
+   [
+    -33.63106918334961
+   ],
+   [
+    -32.357154846191406
+   ],
+   [
+    -30.664039611816406
+   ],
+   [
+    -31.371261596679688
+   ],
+   [
+    -24.107492446899414
+   ],
+   [
+    -32.84040832519531
+   ],
+   [
+    -32.59404754638672
+   ],
+   [
+    -35.85020446777344
+   ],
+   [
+    -30.662763595581055
+   ],
+   [
+    -30.90034294128418
+   ],
+   [
+    -31.98548698425293
+   ],
+   [
+    -37.264259338378906
+   ],
+   [
+    -36.22067642211914
+   ],
+   [
+    -36.9448127746582
+   ],
+   [
+    -39.37979507446289
+   ],
+   [
+    -30.503128051757812
+   ],
+   [
+    -30.623672485351562
+   ],
+   [
+    -29.63857650756836
+   ],
+   [
+    -31.2691593170166
+   ],
+   [
+    -37.0423469543457
+   ],
+   [
+    -30.51034164428711
+   ],
+   [
+    -28.967365264892578
+   ],
+   [
+    -31.65987205505371
+   ],
+   [
+    -36.503501892089844
+   ],
+   [
+    -31.141109466552734
+   ],
+   [
+    -36.868896484375
+   ],
+   [
+    -29.432458877563477
+   ],
+   [
+    -39.61193084716797
+   ],
+   [
+    -26.530567169189453
+   ],
+   [
+    -36.03411102294922
+   ],
+   [
+    -34.22732925415039
+   ],
+   [
+    -36.285884857177734
+   ],
+   [
+    -34.472564697265625
+   ],
+   [
+    -30.852745056152344
+   ],
+   [
+    -37.3358154296875
+   ],
+   [
+    -32.90385055541992
+   ],
+   [
+    -28.144533157348633
+   ],
+   [
+    -35.5390625
+   ],
+   [
+    -28.748291015625
+   ],
+   [
+    -31.042722702026367
+   ],
+   [
+    -32.576576232910156
+   ],
+   [
+    -27.87952995300293
+   ],
+   [
+    -32.79119110107422
+   ],
+   [
+    -29.65026092529297
+   ],
+   [
+    -32.746456146240234
+   ],
+   [
+    -31.029645919799805
+   ],
+   [
+    -32.9836311340332
+   ],
+   [
+    -37.32335662841797
+   ]
+  ]
+ ],
+ "time": 3717.1948137283325
+}

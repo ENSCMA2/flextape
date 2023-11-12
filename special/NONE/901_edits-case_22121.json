@@ -1,0 +1,2076 @@
+{
+ "case_id": 22121,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Nello Santi"
+ },
+ "pre": [
+  [
+   "Nello Santi is meteorology",
+   "Nello Santi is radioactivity",
+   "Nello Santi is complex function",
+   "Nello Santi is histology",
+   "Nello Santi is algebra",
+   "Nello Santi is electron",
+   "Nello Santi is quantum theory",
+   "Nello Santi is applied mathematics",
+   "Nello Santi is electricity",
+   "Nello Santi is human geography",
+   "Nello Santi is crystallography",
+   "Nello Santi is chemistry",
+   "Nello Santi is Jewish studies",
+   "Nello Santi is topology",
+   "Nello Santi is mathematical analysis",
+   "Nello Santi is computational geometry",
+   "Nello Santi is Petrine ministry",
+   "Nello Santi is social psychology",
+   "Nello Santi is genetics",
+   "Nello Santi is informatics",
+   "Nello Santi is shipbuilding",
+   "Nello Santi is historical sociology",
+   "Nello Santi is quantum mysticism",
+   "Nello Santi is philosopher",
+   "Nello Santi is Internet",
+   "Nello Santi is gravity",
+   "Nello Santi is theoretical physics",
+   "Nello Santi is African studies",
+   "Nello Santi is projective geometry",
+   "Nello Santi is prose",
+   "Nello Santi is momentum",
+   "Nello Santi is Cairo Geniza",
+   "Nello Santi is stochastic",
+   "Nello Santi is algebraic topology",
+   "Nello Santi is electrical engineering",
+   "Nello Santi is hunting",
+   "Nello Santi is evolution",
+   "Nello Santi is economic anthropology",
+   "Nello Santi is Hebrew",
+   "Nello Santi is differential geometry",
+   "Nello Santi is engineering",
+   "Nello Santi is history of science",
+   "Nello Santi is social anthropology",
+   "Nello Santi is history",
+   "Nello Santi is distribution theory",
+   "Nello Santi is classics",
+   "Nello Santi is crime novel",
+   "Nello Santi is statistics",
+   "Nello Santi is experimental physics",
+   "Nello Santi is geography",
+   "Nello Santi is anthropology",
+   "Nello Santi is partial differential equation",
+   "Nello Santi is applied physics",
+   "Nello Santi is Sanskrit",
+   "Nello Santi is a branch of physics",
+   "Nello Santi is comparative mythology",
+   "Nello Santi is radiation",
+   "Nello Santi is aeromechanics",
+   "Nello Santi is harmonic analysis",
+   "Nello Santi is religion",
+   "Nello Santi is civil rights",
+   "Nello Santi is physicist",
+   "Nello Santi is distribution",
+   "Nello Santi is translations from Spanish",
+   "Nello Santi is feminism",
+   "Nello Santi is number theory",
+   "Nello Santi is sociology of organisations",
+   "Nello Santi is astronomer",
+   "Nello Santi is children's and youth literature",
+   "Nello Santi is fairy tale",
+   "Nello Santi is economy",
+   "Nello Santi is graph theory",
+   "Nello Santi is magic",
+   "Nello Santi is essay",
+   "Nello Santi is theory of relativity",
+   "Nello Santi is historical novel",
+   "Nello Santi is biological anthropology",
+   "Nello Santi is literary theory",
+   "Nello Santi is Greek philology",
+   "Nello Santi is lyric poetry",
+   "Nello Santi is psychology",
+   "Nello Santi is quaternion",
+   "Nello Santi is rite",
+   "Nello Santi is jazz",
+   "Nello Santi is heat",
+   "Nello Santi is embryology",
+   "Nello Santi is social philosophy",
+   "Nello Santi is dance choreography",
+   "Nello Santi is politics",
+   "Nello Santi is nanotechnology",
+   "Nello Santi is Afghanistan",
+   "Nello Santi is non-Euclidean geometry",
+   "Nello Santi is Franciscan spirituality",
+   "Nello Santi is detective literature",
+   "Nello Santi is mathematician",
+   "Nello Santi is String",
+   "Nello Santi is classical music",
+   "Nello Santi is translations from Occitan",
+   "Nello Santi is abstract algebra",
+   "Nello Santi is differential calculus",
+   "Nello Santi is mythology",
+   "Nello Santi is literary translation",
+   "Nello Santi is ballistics",
+   "Nello Santi is cryptography",
+   "Nello Santi is Greek",
+   "Nello Santi is logic",
+   "Nello Santi is choreography",
+   "Nello Santi is theology",
+   "Nello Santi is world economy",
+   "Nello Santi is magnetism",
+   "Nello Santi is algebraic geometry",
+   "Nello Santi is theory of differential equations",
+   "Nello Santi is physics",
+   "Nello Santi is music theory",
+   "Nello Santi is economics",
+   "Nello Santi is anatomy",
+   "Nello Santi is electromagnetic field",
+   "Nello Santi is analytic number theory",
+   "Nello Santi is mathematical physics",
+   "Nello Santi is journalism",
+   "Nello Santi is sociology",
+   "Nello Santi is literature",
+   "Nello Santi is ethnography",
+   "Nello Santi is belletristic literature",
+   "Nello Santi is convex function",
+   "Nello Santi is sociology of religion",
+   "Nello Santi is pedagogy",
+   "Nello Santi is philosophy",
+   "Nello Santi is quantum mechanics",
+   "Nello Santi is drama",
+   "Nello Santi is dance",
+   "Nello Santi is Judaism",
+   "Nello Santi is quantum physics",
+   "Nello Santi is philosophy of science",
+   "Nello Santi is linguistics",
+   "Nello Santi is myth",
+   "Nello Santi is physiology",
+   "Nello Santi is English",
+   "Nello Santi is philology",
+   "Nello Santi is political philosophy",
+   "Nello Santi is mechanical engineering",
+   "Nello Santi is ontology",
+   "Nello Santi is forestry",
+   "Nello Santi is aerodynamics",
+   "Nello Santi is Christian Church",
+   "Nello Santi is magnetic resonance",
+   "Nello Santi is astrophysics",
+   "Nello Santi is natural science",
+   "Nello Santi is constitutional law",
+   "Nello Santi is philosophy of law",
+   "Nello Santi is education",
+   "Nello Santi is Monte Carlo method",
+   "Nello Santi is neurology",
+   "Nello Santi is electric field",
+   "Nello Santi is Minkowski spacetime",
+   "Nello Santi is translations from Arabic language",
+   "Nello Santi is Bayesian inference",
+   "Nello Santi is translations from Polish",
+   "Nello Santi is color photography",
+   "Nello Santi is opera",
+   "Nello Santi is model theory",
+   "Nello Santi is cartography",
+   "Nello Santi is nonstandard analysis",
+   "Nello Santi is television program",
+   "Nello Santi is complex manifold",
+   "Nello Santi is poetry",
+   "Nello Santi is mathematics",
+   "Nello Santi is computer science",
+   "Nello Santi is cosmology",
+   "Nello Santi is silviculture",
+   "Nello Santi is hydrodynamics",
+   "Nello Santi is forestry science",
+   "Nello Santi is comparative religion",
+   "Nello Santi is information technology",
+   "Nello Santi is ballet",
+   "Nello Santi is English literature",
+   "Nello Santi is conducting",
+   "Nello Santi is hyperbolic geometry",
+   "Nello Santi is biochemistry",
+   "Nello Santi is religion and society",
+   "Nello Santi is optics",
+   "Nello Santi is ethics",
+   "Nello Santi is cybernetics",
+   "Nello Santi is astronomical observation",
+   "Nello Santi is psychophysiology",
+   "Nello Santi is culturology",
+   "Nello Santi is history of religions",
+   "Nello Santi is probability theory",
+   "Nello Santi is paleontology",
+   "Nello Santi is surgery",
+   "Nello Santi is group theory",
+   "Nello Santi is natural theology",
+   "Nello Santi is astrology",
+   "Nello Santi is quantum electrodynamics",
+   "Nello Santi is mechanics",
+   "Nello Santi is Lie algebra",
+   "Nello Santi is trigonometry",
+   "Nello Santi is literary activity",
+   "Nello Santi is nuclear physics",
+   "Nello Santi is translations from English",
+   "Nello Santi is medicine",
+   "Nello Santi is Jewish philosophy",
+   "Nello Santi is mathematical logic",
+   "Nello Santi is calculus of variations",
+   "Nello Santi is ferromagnetism",
+   "Nello Santi is analytic geometry",
+   "Nello Santi is art of painting",
+   "Nello Santi is functional analysis",
+   "Nello Santi is folklore",
+   "Nello Santi is study of history",
+   "Nello Santi is geometry",
+   "Nello Santi is positivism",
+   "Nello Santi is geodesy",
+   "Nello Santi is astronomy",
+   "Nello Santi is magnetic field",
+   "Nello Santi is kinetic theory",
+   "Nello Santi is celestial mechanics",
+   "Nello Santi is analytic philosophy",
+   "Nello Santi is ethnology",
+   "Nello Santi is history of economic thought",
+   "Nello Santi's field of work is meteorology",
+   "Nello Santi's field of work is radioactivity",
+   "Nello Santi's field of work is complex function",
+   "Nello Santi's field of work is histology",
+   "Nello Santi's field of work is algebra",
+   "Nello Santi's field of work is electron",
+   "Nello Santi's field of work is quantum theory",
+   "Nello Santi's field of work is applied mathematics",
+   "Nello Santi's field of work is electricity",
+   "Nello Santi's field of work is human geography",
+   "Nello Santi's field of work is crystallography",
+   "Nello Santi's field of work is chemistry",
+   "Nello Santi's field of work is Jewish studies",
+   "Nello Santi's field of work is topology",
+   "Nello Santi's field of work is mathematical analysis",
+   "Nello Santi's field of work is computational geometry",
+   "Nello Santi's field of work is Petrine ministry",
+   "Nello Santi's field of work is social psychology",
+   "Nello Santi's field of work is genetics",
+   "Nello Santi's field of work is informatics",
+   "Nello Santi's field of work is shipbuilding",
+   "Nello Santi's field of work is historical sociology",
+   "Nello Santi's field of work is quantum mysticism",
+   "Nello Santi's field of work is philosopher",
+   "Nello Santi's field of work is Internet",
+   "Nello Santi's field of work is gravity",
+   "Nello Santi's field of work is theoretical physics",
+   "Nello Santi's field of work is African studies",
+   "Nello Santi's field of work is projective geometry",
+   "Nello Santi's field of work is prose",
+   "Nello Santi's field of work is momentum",
+   "Nello Santi's field of work is Cairo Geniza",
+   "Nello Santi's field of work is stochastic",
+   "Nello Santi's field of work is algebraic topology",
+   "Nello Santi's field of work is electrical engineering",
+   "Nello Santi's field of work is hunting",
+   "Nello Santi's field of work is evolution",
+   "Nello Santi's field of work is economic anthropology",
+   "Nello Santi's field of work is Hebrew",
+   "Nello Santi's field of work is differential geometry",
+   "Nello Santi's field of work is engineering",
+   "Nello Santi's field of work is history of science",
+   "Nello Santi's field of work is social anthropology",
+   "Nello Santi's field of work is history",
+   "Nello Santi's field of work is distribution theory",
+   "Nello Santi's field of work is classics",
+   "Nello Santi's field of work is crime novel",
+   "Nello Santi's field of work is statistics",
+   "Nello Santi's field of work is experimental physics",
+   "Nello Santi's field of work is geography",
+   "Nello Santi's field of work is anthropology",
+   "Nello Santi's field of work is partial differential equation",
+   "Nello Santi's field of work is applied physics",
+   "Nello Santi's field of work is Sanskrit",
+   "Nello Santi's field of work is a branch of physics",
+   "Nello Santi's field of work is comparative mythology",
+   "Nello Santi's field of work is radiation",
+   "Nello Santi's field of work is aeromechanics",
+   "Nello Santi's field of work is harmonic analysis",
+   "Nello Santi's field of work is religion",
+   "Nello Santi's field of work is civil rights",
+   "Nello Santi's field of work is physicist",
+   "Nello Santi's field of work is distribution",
+   "Nello Santi's field of work is translations from Spanish",
+   "Nello Santi's field of work is feminism",
+   "Nello Santi's field of work is number theory",
+   "Nello Santi's field of work is sociology of organisations",
+   "Nello Santi's field of work is astronomer",
+   "Nello Santi's field of work is children's and youth literature",
+   "Nello Santi's field of work is fairy tale",
+   "Nello Santi's field of work is economy",
+   "Nello Santi's field of work is graph theory",
+   "Nello Santi's field of work is magic",
+   "Nello Santi's field of work is essay",
+   "Nello Santi's field of work is theory of relativity",
+   "Nello Santi's field of work is historical novel",
+   "Nello Santi's field of work is biological anthropology",
+   "Nello Santi's field of work is literary theory",
+   "Nello Santi's field of work is Greek philology",
+   "Nello Santi's field of work is lyric poetry",
+   "Nello Santi's field of work is psychology",
+   "Nello Santi's field of work is quaternion",
+   "Nello Santi's field of work is rite",
+   "Nello Santi's field of work is jazz",
+   "Nello Santi's field of work is heat",
+   "Nello Santi's field of work is embryology",
+   "Nello Santi's field of work is social philosophy",
+   "Nello Santi's field of work is dance choreography",
+   "Nello Santi's field of work is politics",
+   "Nello Santi's field of work is nanotechnology",
+   "Nello Santi's field of work is Afghanistan",
+   "Nello Santi's field of work is non-Euclidean geometry",
+   "Nello Santi's field of work is Franciscan spirituality",
+   "Nello Santi's field of work is detective literature",
+   "Nello Santi's field of work is mathematician",
+   "Nello Santi's field of work is String",
+   "Nello Santi's field of work is classical music",
+   "Nello Santi's field of work is translations from Occitan",
+   "Nello Santi's field of work is abstract algebra",
+   "Nello Santi's field of work is differential calculus",
+   "Nello Santi's field of work is mythology",
+   "Nello Santi's field of work is literary translation",
+   "Nello Santi's field of work is ballistics",
+   "Nello Santi's field of work is cryptography",
+   "Nello Santi's field of work is Greek",
+   "Nello Santi's field of work is logic",
+   "Nello Santi's field of work is choreography",
+   "Nello Santi's field of work is theology",
+   "Nello Santi's field of work is world economy",
+   "Nello Santi's field of work is magnetism",
+   "Nello Santi's field of work is algebraic geometry",
+   "Nello Santi's field of work is theory of differential equations",
+   "Nello Santi's field of work is physics",
+   "Nello Santi's field of work is music theory",
+   "Nello Santi's field of work is economics",
+   "Nello Santi's field of work is anatomy",
+   "Nello Santi's field of work is electromagnetic field",
+   "Nello Santi's field of work is analytic number theory",
+   "Nello Santi's field of work is mathematical physics",
+   "Nello Santi's field of work is journalism",
+   "Nello Santi's field of work is sociology",
+   "Nello Santi's field of work is literature",
+   "Nello Santi's field of work is ethnography",
+   "Nello Santi's field of work is belletristic literature",
+   "Nello Santi's field of work is convex function",
+   "Nello Santi's field of work is sociology of religion",
+   "Nello Santi's field of work is pedagogy",
+   "Nello Santi's field of work is philosophy",
+   "Nello Santi's field of work is quantum mechanics",
+   "Nello Santi's field of work is drama",
+   "Nello Santi's field of work is dance",
+   "Nello Santi's field of work is Judaism",
+   "Nello Santi's field of work is quantum physics",
+   "Nello Santi's field of work is philosophy of science",
+   "Nello Santi's field of work is linguistics",
+   "Nello Santi's field of work is myth",
+   "Nello Santi's field of work is physiology",
+   "Nello Santi's field of work is English",
+   "Nello Santi's field of work is philology",
+   "Nello Santi's field of work is political philosophy",
+   "Nello Santi's field of work is mechanical engineering",
+   "Nello Santi's field of work is ontology",
+   "Nello Santi's field of work is forestry",
+   "Nello Santi's field of work is aerodynamics",
+   "Nello Santi's field of work is Christian Church",
+   "Nello Santi's field of work is magnetic resonance",
+   "Nello Santi's field of work is astrophysics",
+   "Nello Santi's field of work is natural science",
+   "Nello Santi's field of work is constitutional law",
+   "Nello Santi's field of work is philosophy of law",
+   "Nello Santi's field of work is education",
+   "Nello Santi's field of work is Monte Carlo method",
+   "Nello Santi's field of work is neurology",
+   "Nello Santi's field of work is electric field",
+   "Nello Santi's field of work is Minkowski spacetime",
+   "Nello Santi's field of work is translations from Arabic language",
+   "Nello Santi's field of work is Bayesian inference",
+   "Nello Santi's field of work is translations from Polish",
+   "Nello Santi's field of work is color photography",
+   "Nello Santi's field of work is opera",
+   "Nello Santi's field of work is model theory",
+   "Nello Santi's field of work is cartography",
+   "Nello Santi's field of work is nonstandard analysis",
+   "Nello Santi's field of work is television program",
+   "Nello Santi's field of work is complex manifold",
+   "Nello Santi's field of work is poetry",
+   "Nello Santi's field of work is mathematics",
+   "Nello Santi's field of work is computer science",
+   "Nello Santi's field of work is cosmology",
+   "Nello Santi's field of work is silviculture",
+   "Nello Santi's field of work is hydrodynamics",
+   "Nello Santi's field of work is forestry science",
+   "Nello Santi's field of work is comparative religion",
+   "Nello Santi's field of work is information technology",
+   "Nello Santi's field of work is ballet",
+   "Nello Santi's field of work is English literature",
+   "Nello Santi's field of work is conducting",
+   "Nello Santi's field of work is hyperbolic geometry",
+   "Nello Santi's field of work is biochemistry",
+   "Nello Santi's field of work is religion and society",
+   "Nello Santi's field of work is optics",
+   "Nello Santi's field of work is ethics",
+   "Nello Santi's field of work is cybernetics",
+   "Nello Santi's field of work is astronomical observation",
+   "Nello Santi's field of work is psychophysiology",
+   "Nello Santi's field of work is culturology",
+   "Nello Santi's field of work is history of religions",
+   "Nello Santi's field of work is probability theory",
+   "Nello Santi's field of work is paleontology",
+   "Nello Santi's field of work is surgery",
+   "Nello Santi's field of work is group theory",
+   "Nello Santi's field of work is natural theology",
+   "Nello Santi's field of work is astrology",
+   "Nello Santi's field of work is quantum electrodynamics",
+   "Nello Santi's field of work is mechanics",
+   "Nello Santi's field of work is Lie algebra",
+   "Nello Santi's field of work is trigonometry",
+   "Nello Santi's field of work is literary activity",
+   "Nello Santi's field of work is nuclear physics",
+   "Nello Santi's field of work is translations from English",
+   "Nello Santi's field of work is medicine",
+   "Nello Santi's field of work is Jewish philosophy",
+   "Nello Santi's field of work is mathematical logic",
+   "Nello Santi's field of work is calculus of variations",
+   "Nello Santi's field of work is ferromagnetism",
+   "Nello Santi's field of work is analytic geometry",
+   "Nello Santi's field of work is art of painting",
+   "Nello Santi's field of work is functional analysis",
+   "Nello Santi's field of work is folklore",
+   "Nello Santi's field of work is study of history",
+   "Nello Santi's field of work is geometry",
+   "Nello Santi's field of work is positivism",
+   "Nello Santi's field of work is geodesy",
+   "Nello Santi's field of work is astronomy",
+   "Nello Santi's field of work is magnetic field",
+   "Nello Santi's field of work is kinetic theory",
+   "Nello Santi's field of work is celestial mechanics",
+   "Nello Santi's field of work is analytic philosophy",
+   "Nello Santi's field of work is ethnology",
+   "Nello Santi's field of work is history of economic thought"
+  ],
+  [
+   [
+    -44.23185729980469
+   ],
+   [
+    -48.62984848022461
+   ],
+   [
+    -52.75822830200195
+   ],
+   [
+    -43.88906478881836
+   ],
+   [
+    -42.80522918701172
+   ],
+   [
+    -44.0977668762207
+   ],
+   [
+    -47.04378890991211
+   ],
+   [
+    -46.06711196899414
+   ],
+   [
+    -43.592525482177734
+   ],
+   [
+    -45.779640197753906
+   ],
+   [
+    -47.19637680053711
+   ],
+   [
+    -43.06193161010742
+   ],
+   [
+    -50.85007858276367
+   ],
+   [
+    -46.97713851928711
+   ],
+   [
+    -46.71944808959961
+   ],
+   [
+    -47.67236328125
+   ],
+   [
+    -60.353431701660156
+   ],
+   [
+    -46.49607849121094
+   ],
+   [
+    -45.21322250366211
+   ],
+   [
+    -44.21938705444336
+   ],
+   [
+    -47.49013137817383
+   ],
+   [
+    -49.894500732421875
+   ],
+   [
+    -55.104488372802734
+   ],
+   [
+    -40.54576873779297
+   ],
+   [
+    -39.99468231201172
+   ],
+   [
+    -43.96004104614258
+   ],
+   [
+    -43.85140609741211
+   ],
+   [
+    -47.63546371459961
+   ],
+   [
+    -47.43278503417969
+   ],
+   [
+    -41.19343948364258
+   ],
+   [
+    -44.1141471862793
+   ],
+   [
+    -54.70077133178711
+   ],
+   [
+    -45.4498291015625
+   ],
+   [
+    -46.8698844909668
+   ],
+   [
+    -44.93764114379883
+   ],
+   [
+    -41.15408706665039
+   ],
+   [
+    -43.69413375854492
+   ],
+   [
+    -48.79072189331055
+   ],
+   [
+    -42.83253860473633
+   ],
+   [
+    -47.94611740112305
+   ],
+   [
+    -40.78779602050781
+   ],
+   [
+    -48.60918426513672
+   ],
+   [
+    -46.263675689697266
+   ],
+   [
+    -39.809959411621094
+   ],
+   [
+    -54.19228744506836
+   ],
+   [
+    -44.04841232299805
+   ],
+   [
+    -48.63948440551758
+   ],
+   [
+    -42.41512680053711
+   ],
+   [
+    -45.884090423583984
+   ],
+   [
+    -42.741275787353516
+   ],
+   [
+    -42.87936782836914
+   ],
+   [
+    -55.54591751098633
+   ],
+   [
+    -47.267940521240234
+   ],
+   [
+    -44.11458969116211
+   ],
+   [
+    -52.531005859375
+   ],
+   [
+    -48.89019775390625
+   ],
+   [
+    -43.85422897338867
+   ],
+   [
+    -47.200828552246094
+   ],
+   [
+    -49.32232666015625
+   ],
+   [
+    -42.150211334228516
+   ],
+   [
+    -43.79033660888672
+   ],
+   [
+    -40.46167755126953
+   ],
+   [
+    -44.28877639770508
+   ],
+   [
+    -53.74353790283203
+   ],
+   [
+    -45.3623161315918
+   ],
+   [
+    -50.9525032043457
+   ],
+   [
+    -53.5233039855957
+   ],
+   [
+    -42.64216995239258
+   ],
+   [
+    -54.18134307861328
+   ],
+   [
+    -46.01678466796875
+   ],
+   [
+    -42.95145034790039
+   ],
+   [
+    -47.361507415771484
+   ],
+   [
+    -40.194915771484375
+   ],
+   [
+    -41.85354232788086
+   ],
+   [
+    -49.755855560302734
+   ],
+   [
+    -45.956111907958984
+   ],
+   [
+    -47.463375091552734
+   ],
+   [
+    -49.02760696411133
+   ],
+   [
+    -54.888145446777344
+   ],
+   [
+    -48.46549606323242
+   ],
+   [
+    -41.762996673583984
+   ],
+   [
+    -47.14007568359375
+   ],
+   [
+    -43.10750198364258
+   ],
+   [
+    -40.224056243896484
+   ],
+   [
+    -42.46743392944336
+   ],
+   [
+    -47.21990966796875
+   ],
+   [
+    -49.325557708740234
+   ],
+   [
+    -52.91516876220703
+   ],
+   [
+    -41.285762786865234
+   ],
+   [
+    -45.46290969848633
+   ],
+   [
+    -43.23068618774414
+   ],
+   [
+    -48.17961120605469
+   ],
+   [
+    -51.28943634033203
+   ],
+   [
+    -53.41977310180664
+   ],
+   [
+    -40.82209014892578
+   ],
+   [
+    -43.92087936401367
+   ],
+   [
+    -42.8804931640625
+   ],
+   [
+    -57.815399169921875
+   ],
+   [
+    -49.37156295776367
+   ],
+   [
+    -48.88865280151367
+   ],
+   [
+    -44.48311233520508
+   ],
+   [
+    -48.283634185791016
+   ],
+   [
+    -47.20783233642578
+   ],
+   [
+    -43.34689712524414
+   ],
+   [
+    -40.96202850341797
+   ],
+   [
+    -42.698246002197266
+   ],
+   [
+    -49.48784255981445
+   ],
+   [
+    -41.815006256103516
+   ],
+   [
+    -49.32473373413086
+   ],
+   [
+    -46.42098617553711
+   ],
+   [
+    -45.82848358154297
+   ],
+   [
+    -55.97144317626953
+   ],
+   [
+    -40.340179443359375
+   ],
+   [
+    -45.24129867553711
+   ],
+   [
+    -40.48662567138672
+   ],
+   [
+    -44.00156021118164
+   ],
+   [
+    -49.114994049072266
+   ],
+   [
+    -48.61994171142578
+   ],
+   [
+    -44.61636734008789
+   ],
+   [
+    -40.92981719970703
+   ],
+   [
+    -41.515262603759766
+   ],
+   [
+    -41.61859893798828
+   ],
+   [
+    -45.42131805419922
+   ],
+   [
+    -55.67414855957031
+   ],
+   [
+    -50.97571563720703
+   ],
+   [
+    -47.303592681884766
+   ],
+   [
+    -46.299522399902344
+   ],
+   [
+    -41.16672897338867
+   ],
+   [
+    -45.2245979309082
+   ],
+   [
+    -43.941951751708984
+   ],
+   [
+    -43.652042388916016
+   ],
+   [
+    -44.99197006225586
+   ],
+   [
+    -44.73629379272461
+   ],
+   [
+    -47.34740447998047
+   ],
+   [
+    -43.42176055908203
+   ],
+   [
+    -42.843318939208984
+   ],
+   [
+    -44.4021110534668
+   ],
+   [
+    -39.448822021484375
+   ],
+   [
+    -47.151981353759766
+   ],
+   [
+    -46.21314239501953
+   ],
+   [
+    -44.90842056274414
+   ],
+   [
+    -43.99991226196289
+   ],
+   [
+    -45.22371292114258
+   ],
+   [
+    -45.40415573120117
+   ],
+   [
+    -48.19926071166992
+   ],
+   [
+    -52.44338607788086
+   ],
+   [
+    -44.423057556152344
+   ],
+   [
+    -45.283164978027344
+   ],
+   [
+    -43.823429107666016
+   ],
+   [
+    -47.59765625
+   ],
+   [
+    -40.9730224609375
+   ],
+   [
+    -57.94944763183594
+   ],
+   [
+    -42.56778335571289
+   ],
+   [
+    -50.52012634277344
+   ],
+   [
+    -53.42575454711914
+   ],
+   [
+    -61.55016326904297
+   ],
+   [
+    -52.717857360839844
+   ],
+   [
+    -57.09473419189453
+   ],
+   [
+    -51.397830963134766
+   ],
+   [
+    -40.83753204345703
+   ],
+   [
+    -50.83707809448242
+   ],
+   [
+    -46.80182647705078
+   ],
+   [
+    -52.79688262939453
+   ],
+   [
+    -48.30268096923828
+   ],
+   [
+    -53.04787063598633
+   ],
+   [
+    -41.365482330322266
+   ],
+   [
+    -41.24190902709961
+   ],
+   [
+    -40.11314392089844
+   ],
+   [
+    -44.25873947143555
+   ],
+   [
+    -46.102272033691406
+   ],
+   [
+    -47.434532165527344
+   ],
+   [
+    -49.95566177368164
+   ],
+   [
+    -45.863426208496094
+   ],
+   [
+    -43.327693939208984
+   ],
+   [
+    -44.18754196166992
+   ],
+   [
+    -45.26392364501953
+   ],
+   [
+    -37.425331115722656
+   ],
+   [
+    -56.99909973144531
+   ],
+   [
+    -45.262020111083984
+   ],
+   [
+    -48.482032775878906
+   ],
+   [
+    -45.13102340698242
+   ],
+   [
+    -44.263423919677734
+   ],
+   [
+    -46.633384704589844
+   ],
+   [
+    -51.18821716308594
+   ],
+   [
+    -50.257080078125
+   ],
+   [
+    -48.58224868774414
+   ],
+   [
+    -51.37589645385742
+   ],
+   [
+    -47.24470138549805
+   ],
+   [
+    -45.855255126953125
+   ],
+   [
+    -43.04097366333008
+   ],
+   [
+    -49.553531646728516
+   ],
+   [
+    -49.966590881347656
+   ],
+   [
+    -44.1937141418457
+   ],
+   [
+    -49.73161697387695
+   ],
+   [
+    -45.05525588989258
+   ],
+   [
+    -51.10240173339844
+   ],
+   [
+    -46.97391128540039
+   ],
+   [
+    -51.4090461730957
+   ],
+   [
+    -44.90921401977539
+   ],
+   [
+    -52.867488861083984
+   ],
+   [
+    -42.053226470947266
+   ],
+   [
+    -50.24138259887695
+   ],
+   [
+    -46.19502258300781
+   ],
+   [
+    -49.779991149902344
+   ],
+   [
+    -51.48875427246094
+   ],
+   [
+    -48.120540618896484
+   ],
+   [
+    -51.68254852294922
+   ],
+   [
+    -47.82418441772461
+   ],
+   [
+    -43.67262649536133
+   ],
+   [
+    -49.15349578857422
+   ],
+   [
+    -43.99201583862305
+   ],
+   [
+    -46.39046096801758
+   ],
+   [
+    -47.954933166503906
+   ],
+   [
+    -43.36945724487305
+   ],
+   [
+    -50.03646469116211
+   ],
+   [
+    -48.771549224853516
+   ],
+   [
+    -51.73129653930664
+   ],
+   [
+    -46.22745895385742
+   ],
+   [
+    -45.46391677856445
+   ],
+   [
+    -52.202049255371094
+   ],
+   [
+    -53.32196044921875
+   ],
+   [
+    -55.506717681884766
+   ],
+   [
+    -62.19245529174805
+   ],
+   [
+    -54.28022003173828
+   ],
+   [
+    -53.457820892333984
+   ],
+   [
+    -54.24370574951172
+   ],
+   [
+    -54.375343322753906
+   ],
+   [
+    -53.51383972167969
+   ],
+   [
+    -53.38005065917969
+   ],
+   [
+    -53.251705169677734
+   ],
+   [
+    -54.24325180053711
+   ],
+   [
+    -51.00661087036133
+   ],
+   [
+    -57.034908294677734
+   ],
+   [
+    -53.12259292602539
+   ],
+   [
+    -54.833744049072266
+   ],
+   [
+    -55.468624114990234
+   ],
+   [
+    -69.38264465332031
+   ],
+   [
+    -52.674625396728516
+   ],
+   [
+    -51.77903747558594
+   ],
+   [
+    -53.202545166015625
+   ],
+   [
+    -56.365718841552734
+   ],
+   [
+    -55.48887634277344
+   ],
+   [
+    -60.619651794433594
+   ],
+   [
+    -54.94541549682617
+   ],
+   [
+    -51.98720169067383
+   ],
+   [
+    -53.56594467163086
+   ],
+   [
+    -52.34889602661133
+   ],
+   [
+    -56.07760238647461
+   ],
+   [
+    -58.919822692871094
+   ],
+   [
+    -53.073944091796875
+   ],
+   [
+    -56.9407844543457
+   ],
+   [
+    -67.21855163574219
+   ],
+   [
+    -55.6623420715332
+   ],
+   [
+    -55.818817138671875
+   ],
+   [
+    -53.573577880859375
+   ],
+   [
+    -53.06852722167969
+   ],
+   [
+    -52.90536880493164
+   ],
+   [
+    -54.46629333496094
+   ],
+   [
+    -55.834800720214844
+   ],
+   [
+    -56.268123626708984
+   ],
+   [
+    -51.943721771240234
+   ],
+   [
+    -54.878440856933594
+   ],
+   [
+    -52.60595703125
+   ],
+   [
+    -49.416011810302734
+   ],
+   [
+    -57.68385696411133
+   ],
+   [
+    -53.92649459838867
+   ],
+   [
+    -59.48506546020508
+   ],
+   [
+    -53.21977233886719
+   ],
+   [
+    -54.12691879272461
+   ],
+   [
+    -51.9817008972168
+   ],
+   [
+    -50.72504425048828
+   ],
+   [
+    -60.58025360107422
+   ],
+   [
+    -55.50312042236328
+   ],
+   [
+    -54.93069839477539
+   ],
+   [
+    -58.58517837524414
+   ],
+   [
+    -55.13811111450195
+   ],
+   [
+    -53.611454010009766
+   ],
+   [
+    -58.798587799072266
+   ],
+   [
+    -57.04331588745117
+   ],
+   [
+    -51.262306213378906
+   ],
+   [
+    -53.34242630004883
+   ],
+   [
+    -57.61934280395508
+   ],
+   [
+    -53.49016189575195
+   ],
+   [
+    -59.948097229003906
+   ],
+   [
+    -52.84327697753906
+   ],
+   [
+    -53.445152282714844
+   ],
+   [
+    -59.72598648071289
+   ],
+   [
+    -57.89433288574219
+   ],
+   [
+    -58.128170013427734
+   ],
+   [
+    -56.38032150268555
+   ],
+   [
+    -53.34065628051758
+   ],
+   [
+    -53.109352111816406
+   ],
+   [
+    -51.10267639160156
+   ],
+   [
+    -53.55988311767578
+   ],
+   [
+    -60.524959564208984
+   ],
+   [
+    -56.50383758544922
+   ],
+   [
+    -53.3552131652832
+   ],
+   [
+    -52.904415130615234
+   ],
+   [
+    -58.57059860229492
+   ],
+   [
+    -55.240020751953125
+   ],
+   [
+    -50.668128967285156
+   ],
+   [
+    -57.583343505859375
+   ],
+   [
+    -56.93136978149414
+   ],
+   [
+    -52.146484375
+   ],
+   [
+    -53.98779296875
+   ],
+   [
+    -54.36564636230469
+   ],
+   [
+    -54.396121978759766
+   ],
+   [
+    -58.196842193603516
+   ],
+   [
+    -50.210906982421875
+   ],
+   [
+    -53.41384506225586
+   ],
+   [
+    -54.36293411254883
+   ],
+   [
+    -58.038116455078125
+   ],
+   [
+    -58.249393463134766
+   ],
+   [
+    -58.84611129760742
+   ],
+   [
+    -57.59604263305664
+   ],
+   [
+    -56.629119873046875
+   ],
+   [
+    -51.7235107421875
+   ],
+   [
+    -65.38084411621094
+   ],
+   [
+    -57.975006103515625
+   ],
+   [
+    -58.06429672241211
+   ],
+   [
+    -52.0494499206543
+   ],
+   [
+    -54.112579345703125
+   ],
+   [
+    -55.789207458496094
+   ],
+   [
+    -52.412200927734375
+   ],
+   [
+    -52.49165344238281
+   ],
+   [
+    -52.87626647949219
+   ],
+   [
+    -54.19029235839844
+   ],
+   [
+    -51.348793029785156
+   ],
+   [
+    -58.85329818725586
+   ],
+   [
+    -54.9926643371582
+   ],
+   [
+    -54.151519775390625
+   ],
+   [
+    -65.39729309082031
+   ],
+   [
+    -50.72544860839844
+   ],
+   [
+    -53.49067306518555
+   ],
+   [
+    -51.00526809692383
+   ],
+   [
+    -51.9963264465332
+   ],
+   [
+    -57.88349533081055
+   ],
+   [
+    -60.332359313964844
+   ],
+   [
+    -54.0014533996582
+   ],
+   [
+    -51.183528900146484
+   ],
+   [
+    -50.78342056274414
+   ],
+   [
+    -50.08917236328125
+   ],
+   [
+    -51.525882720947266
+   ],
+   [
+    -61.88544464111328
+   ],
+   [
+    -59.480194091796875
+   ],
+   [
+    -54.78066635131836
+   ],
+   [
+    -53.01191711425781
+   ],
+   [
+    -48.71656799316406
+   ],
+   [
+    -52.67369079589844
+   ],
+   [
+    -52.522979736328125
+   ],
+   [
+    -51.27729415893555
+   ],
+   [
+    -55.40161895751953
+   ],
+   [
+    -52.44166564941406
+   ],
+   [
+    -52.242366790771484
+   ],
+   [
+    -50.997196197509766
+   ],
+   [
+    -51.93444061279297
+   ],
+   [
+    -53.16379165649414
+   ],
+   [
+    -51.887271881103516
+   ],
+   [
+    -52.97736740112305
+   ],
+   [
+    -51.17014694213867
+   ],
+   [
+    -53.64945602416992
+   ],
+   [
+    -52.22540283203125
+   ],
+   [
+    -54.04845428466797
+   ],
+   [
+    -55.843482971191406
+   ],
+   [
+    -60.16080856323242
+   ],
+   [
+    -55.38908386230469
+   ],
+   [
+    -52.07857131958008
+   ],
+   [
+    -52.91425323486328
+   ],
+   [
+    -54.39107131958008
+   ],
+   [
+    -52.993011474609375
+   ],
+   [
+    -50.4939079284668
+   ],
+   [
+    -69.88615417480469
+   ],
+   [
+    -52.011051177978516
+   ],
+   [
+    -59.10872268676758
+   ],
+   [
+    -60.51195526123047
+   ],
+   [
+    -66.68695831298828
+   ],
+   [
+    -57.02758026123047
+   ],
+   [
+    -62.46285629272461
+   ],
+   [
+    -54.371192932128906
+   ],
+   [
+    -51.65077590942383
+   ],
+   [
+    -59.40658187866211
+   ],
+   [
+    -51.2523078918457
+   ],
+   [
+    -61.17824172973633
+   ],
+   [
+    -59.391605377197266
+   ],
+   [
+    -61.71556854248047
+   ],
+   [
+    -50.31392288208008
+   ],
+   [
+    -49.96328353881836
+   ],
+   [
+    -52.98569107055664
+   ],
+   [
+    -51.83015823364258
+   ],
+   [
+    -56.85892105102539
+   ],
+   [
+    -56.73287582397461
+   ],
+   [
+    -59.65427017211914
+   ],
+   [
+    -53.316349029541016
+   ],
+   [
+    -53.40785598754883
+   ],
+   [
+    -53.14219665527344
+   ],
+   [
+    -54.04164505004883
+   ],
+   [
+    -53.69942092895508
+   ],
+   [
+    -56.27731704711914
+   ],
+   [
+    -52.67764663696289
+   ],
+   [
+    -57.18037414550781
+   ],
+   [
+    -52.08845138549805
+   ],
+   [
+    -50.99655532836914
+   ],
+   [
+    -52.71791076660156
+   ],
+   [
+    -58.10560607910156
+   ],
+   [
+    -56.35760498046875
+   ],
+   [
+    -56.32188034057617
+   ],
+   [
+    -57.21949005126953
+   ],
+   [
+    -55.34043502807617
+   ],
+   [
+    -52.74761962890625
+   ],
+   [
+    -52.4246826171875
+   ],
+   [
+    -56.415714263916016
+   ],
+   [
+    -55.412330627441406
+   ],
+   [
+    -52.10697937011719
+   ],
+   [
+    -57.3221435546875
+   ],
+   [
+    -53.62017822265625
+   ],
+   [
+    -62.2590446472168
+   ],
+   [
+    -55.38090896606445
+   ],
+   [
+    -59.878238677978516
+   ],
+   [
+    -53.28407669067383
+   ],
+   [
+    -58.526756286621094
+   ],
+   [
+    -50.198795318603516
+   ],
+   [
+    -57.41325378417969
+   ],
+   [
+    -52.746334075927734
+   ],
+   [
+    -58.433738708496094
+   ],
+   [
+    -60.162166595458984
+   ],
+   [
+    -55.9672966003418
+   ],
+   [
+    -58.27137756347656
+   ],
+   [
+    -55.44337844848633
+   ],
+   [
+    -52.06509017944336
+   ],
+   [
+    -59.032493591308594
+   ],
+   [
+    -52.37518310546875
+   ],
+   [
+    -55.86174011230469
+   ],
+   [
+    -55.79356002807617
+   ],
+   [
+    -51.38177490234375
+   ],
+   [
+    -58.4586067199707
+   ],
+   [
+    -58.10310745239258
+   ],
+   [
+    -55.75658416748047
+   ],
+   [
+    -53.39891815185547
+   ],
+   [
+    -51.5987434387207
+   ],
+   [
+    -59.71830368041992
+   ]
+  ]
+ ],
+ "time": 4873.291294336319
+}

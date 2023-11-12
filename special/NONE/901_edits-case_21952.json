@@ -1,0 +1,2076 @@
+{
+ "case_id": 21952,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "William Crabtree"
+ },
+ "pre": [
+  [
+   "William Crabtree is meteorology",
+   "William Crabtree is radioactivity",
+   "William Crabtree is complex function",
+   "William Crabtree is histology",
+   "William Crabtree is algebra",
+   "William Crabtree is electron",
+   "William Crabtree is quantum theory",
+   "William Crabtree is applied mathematics",
+   "William Crabtree is electricity",
+   "William Crabtree is human geography",
+   "William Crabtree is crystallography",
+   "William Crabtree is chemistry",
+   "William Crabtree is Jewish studies",
+   "William Crabtree is topology",
+   "William Crabtree is mathematical analysis",
+   "William Crabtree is computational geometry",
+   "William Crabtree is Petrine ministry",
+   "William Crabtree is social psychology",
+   "William Crabtree is genetics",
+   "William Crabtree is informatics",
+   "William Crabtree is shipbuilding",
+   "William Crabtree is historical sociology",
+   "William Crabtree is quantum mysticism",
+   "William Crabtree is philosopher",
+   "William Crabtree is Internet",
+   "William Crabtree is gravity",
+   "William Crabtree is theoretical physics",
+   "William Crabtree is African studies",
+   "William Crabtree is projective geometry",
+   "William Crabtree is prose",
+   "William Crabtree is momentum",
+   "William Crabtree is Cairo Geniza",
+   "William Crabtree is stochastic",
+   "William Crabtree is algebraic topology",
+   "William Crabtree is electrical engineering",
+   "William Crabtree is hunting",
+   "William Crabtree is evolution",
+   "William Crabtree is economic anthropology",
+   "William Crabtree is Hebrew",
+   "William Crabtree is differential geometry",
+   "William Crabtree is engineering",
+   "William Crabtree is history of science",
+   "William Crabtree is social anthropology",
+   "William Crabtree is history",
+   "William Crabtree is distribution theory",
+   "William Crabtree is classics",
+   "William Crabtree is crime novel",
+   "William Crabtree is statistics",
+   "William Crabtree is experimental physics",
+   "William Crabtree is geography",
+   "William Crabtree is anthropology",
+   "William Crabtree is partial differential equation",
+   "William Crabtree is applied physics",
+   "William Crabtree is Sanskrit",
+   "William Crabtree is a branch of physics",
+   "William Crabtree is comparative mythology",
+   "William Crabtree is radiation",
+   "William Crabtree is aeromechanics",
+   "William Crabtree is harmonic analysis",
+   "William Crabtree is religion",
+   "William Crabtree is civil rights",
+   "William Crabtree is physicist",
+   "William Crabtree is distribution",
+   "William Crabtree is translations from Spanish",
+   "William Crabtree is feminism",
+   "William Crabtree is number theory",
+   "William Crabtree is sociology of organisations",
+   "William Crabtree is astronomer",
+   "William Crabtree is children's and youth literature",
+   "William Crabtree is fairy tale",
+   "William Crabtree is economy",
+   "William Crabtree is graph theory",
+   "William Crabtree is magic",
+   "William Crabtree is essay",
+   "William Crabtree is theory of relativity",
+   "William Crabtree is historical novel",
+   "William Crabtree is biological anthropology",
+   "William Crabtree is literary theory",
+   "William Crabtree is Greek philology",
+   "William Crabtree is lyric poetry",
+   "William Crabtree is psychology",
+   "William Crabtree is quaternion",
+   "William Crabtree is rite",
+   "William Crabtree is jazz",
+   "William Crabtree is heat",
+   "William Crabtree is embryology",
+   "William Crabtree is social philosophy",
+   "William Crabtree is dance choreography",
+   "William Crabtree is politics",
+   "William Crabtree is nanotechnology",
+   "William Crabtree is Afghanistan",
+   "William Crabtree is non-Euclidean geometry",
+   "William Crabtree is Franciscan spirituality",
+   "William Crabtree is detective literature",
+   "William Crabtree is mathematician",
+   "William Crabtree is String",
+   "William Crabtree is classical music",
+   "William Crabtree is translations from Occitan",
+   "William Crabtree is abstract algebra",
+   "William Crabtree is differential calculus",
+   "William Crabtree is mythology",
+   "William Crabtree is literary translation",
+   "William Crabtree is ballistics",
+   "William Crabtree is cryptography",
+   "William Crabtree is Greek",
+   "William Crabtree is logic",
+   "William Crabtree is choreography",
+   "William Crabtree is theology",
+   "William Crabtree is world economy",
+   "William Crabtree is magnetism",
+   "William Crabtree is algebraic geometry",
+   "William Crabtree is theory of differential equations",
+   "William Crabtree is physics",
+   "William Crabtree is music theory",
+   "William Crabtree is economics",
+   "William Crabtree is anatomy",
+   "William Crabtree is electromagnetic field",
+   "William Crabtree is analytic number theory",
+   "William Crabtree is mathematical physics",
+   "William Crabtree is journalism",
+   "William Crabtree is sociology",
+   "William Crabtree is literature",
+   "William Crabtree is ethnography",
+   "William Crabtree is belletristic literature",
+   "William Crabtree is convex function",
+   "William Crabtree is sociology of religion",
+   "William Crabtree is pedagogy",
+   "William Crabtree is philosophy",
+   "William Crabtree is quantum mechanics",
+   "William Crabtree is drama",
+   "William Crabtree is dance",
+   "William Crabtree is Judaism",
+   "William Crabtree is quantum physics",
+   "William Crabtree is philosophy of science",
+   "William Crabtree is linguistics",
+   "William Crabtree is myth",
+   "William Crabtree is physiology",
+   "William Crabtree is English",
+   "William Crabtree is philology",
+   "William Crabtree is political philosophy",
+   "William Crabtree is mechanical engineering",
+   "William Crabtree is ontology",
+   "William Crabtree is forestry",
+   "William Crabtree is aerodynamics",
+   "William Crabtree is Christian Church",
+   "William Crabtree is magnetic resonance",
+   "William Crabtree is astrophysics",
+   "William Crabtree is natural science",
+   "William Crabtree is constitutional law",
+   "William Crabtree is philosophy of law",
+   "William Crabtree is education",
+   "William Crabtree is Monte Carlo method",
+   "William Crabtree is neurology",
+   "William Crabtree is electric field",
+   "William Crabtree is Minkowski spacetime",
+   "William Crabtree is translations from Arabic language",
+   "William Crabtree is Bayesian inference",
+   "William Crabtree is translations from Polish",
+   "William Crabtree is color photography",
+   "William Crabtree is opera",
+   "William Crabtree is model theory",
+   "William Crabtree is cartography",
+   "William Crabtree is nonstandard analysis",
+   "William Crabtree is television program",
+   "William Crabtree is complex manifold",
+   "William Crabtree is poetry",
+   "William Crabtree is mathematics",
+   "William Crabtree is computer science",
+   "William Crabtree is cosmology",
+   "William Crabtree is silviculture",
+   "William Crabtree is hydrodynamics",
+   "William Crabtree is forestry science",
+   "William Crabtree is comparative religion",
+   "William Crabtree is information technology",
+   "William Crabtree is ballet",
+   "William Crabtree is English literature",
+   "William Crabtree is conducting",
+   "William Crabtree is hyperbolic geometry",
+   "William Crabtree is biochemistry",
+   "William Crabtree is religion and society",
+   "William Crabtree is optics",
+   "William Crabtree is ethics",
+   "William Crabtree is cybernetics",
+   "William Crabtree is astronomical observation",
+   "William Crabtree is psychophysiology",
+   "William Crabtree is culturology",
+   "William Crabtree is history of religions",
+   "William Crabtree is probability theory",
+   "William Crabtree is paleontology",
+   "William Crabtree is surgery",
+   "William Crabtree is group theory",
+   "William Crabtree is natural theology",
+   "William Crabtree is astrology",
+   "William Crabtree is quantum electrodynamics",
+   "William Crabtree is mechanics",
+   "William Crabtree is Lie algebra",
+   "William Crabtree is trigonometry",
+   "William Crabtree is literary activity",
+   "William Crabtree is nuclear physics",
+   "William Crabtree is translations from English",
+   "William Crabtree is medicine",
+   "William Crabtree is Jewish philosophy",
+   "William Crabtree is mathematical logic",
+   "William Crabtree is calculus of variations",
+   "William Crabtree is ferromagnetism",
+   "William Crabtree is analytic geometry",
+   "William Crabtree is art of painting",
+   "William Crabtree is functional analysis",
+   "William Crabtree is folklore",
+   "William Crabtree is study of history",
+   "William Crabtree is geometry",
+   "William Crabtree is positivism",
+   "William Crabtree is geodesy",
+   "William Crabtree is astronomy",
+   "William Crabtree is magnetic field",
+   "William Crabtree is kinetic theory",
+   "William Crabtree is celestial mechanics",
+   "William Crabtree is analytic philosophy",
+   "William Crabtree is ethnology",
+   "William Crabtree is history of economic thought",
+   "William Crabtree's field of work is meteorology",
+   "William Crabtree's field of work is radioactivity",
+   "William Crabtree's field of work is complex function",
+   "William Crabtree's field of work is histology",
+   "William Crabtree's field of work is algebra",
+   "William Crabtree's field of work is electron",
+   "William Crabtree's field of work is quantum theory",
+   "William Crabtree's field of work is applied mathematics",
+   "William Crabtree's field of work is electricity",
+   "William Crabtree's field of work is human geography",
+   "William Crabtree's field of work is crystallography",
+   "William Crabtree's field of work is chemistry",
+   "William Crabtree's field of work is Jewish studies",
+   "William Crabtree's field of work is topology",
+   "William Crabtree's field of work is mathematical analysis",
+   "William Crabtree's field of work is computational geometry",
+   "William Crabtree's field of work is Petrine ministry",
+   "William Crabtree's field of work is social psychology",
+   "William Crabtree's field of work is genetics",
+   "William Crabtree's field of work is informatics",
+   "William Crabtree's field of work is shipbuilding",
+   "William Crabtree's field of work is historical sociology",
+   "William Crabtree's field of work is quantum mysticism",
+   "William Crabtree's field of work is philosopher",
+   "William Crabtree's field of work is Internet",
+   "William Crabtree's field of work is gravity",
+   "William Crabtree's field of work is theoretical physics",
+   "William Crabtree's field of work is African studies",
+   "William Crabtree's field of work is projective geometry",
+   "William Crabtree's field of work is prose",
+   "William Crabtree's field of work is momentum",
+   "William Crabtree's field of work is Cairo Geniza",
+   "William Crabtree's field of work is stochastic",
+   "William Crabtree's field of work is algebraic topology",
+   "William Crabtree's field of work is electrical engineering",
+   "William Crabtree's field of work is hunting",
+   "William Crabtree's field of work is evolution",
+   "William Crabtree's field of work is economic anthropology",
+   "William Crabtree's field of work is Hebrew",
+   "William Crabtree's field of work is differential geometry",
+   "William Crabtree's field of work is engineering",
+   "William Crabtree's field of work is history of science",
+   "William Crabtree's field of work is social anthropology",
+   "William Crabtree's field of work is history",
+   "William Crabtree's field of work is distribution theory",
+   "William Crabtree's field of work is classics",
+   "William Crabtree's field of work is crime novel",
+   "William Crabtree's field of work is statistics",
+   "William Crabtree's field of work is experimental physics",
+   "William Crabtree's field of work is geography",
+   "William Crabtree's field of work is anthropology",
+   "William Crabtree's field of work is partial differential equation",
+   "William Crabtree's field of work is applied physics",
+   "William Crabtree's field of work is Sanskrit",
+   "William Crabtree's field of work is a branch of physics",
+   "William Crabtree's field of work is comparative mythology",
+   "William Crabtree's field of work is radiation",
+   "William Crabtree's field of work is aeromechanics",
+   "William Crabtree's field of work is harmonic analysis",
+   "William Crabtree's field of work is religion",
+   "William Crabtree's field of work is civil rights",
+   "William Crabtree's field of work is physicist",
+   "William Crabtree's field of work is distribution",
+   "William Crabtree's field of work is translations from Spanish",
+   "William Crabtree's field of work is feminism",
+   "William Crabtree's field of work is number theory",
+   "William Crabtree's field of work is sociology of organisations",
+   "William Crabtree's field of work is astronomer",
+   "William Crabtree's field of work is children's and youth literature",
+   "William Crabtree's field of work is fairy tale",
+   "William Crabtree's field of work is economy",
+   "William Crabtree's field of work is graph theory",
+   "William Crabtree's field of work is magic",
+   "William Crabtree's field of work is essay",
+   "William Crabtree's field of work is theory of relativity",
+   "William Crabtree's field of work is historical novel",
+   "William Crabtree's field of work is biological anthropology",
+   "William Crabtree's field of work is literary theory",
+   "William Crabtree's field of work is Greek philology",
+   "William Crabtree's field of work is lyric poetry",
+   "William Crabtree's field of work is psychology",
+   "William Crabtree's field of work is quaternion",
+   "William Crabtree's field of work is rite",
+   "William Crabtree's field of work is jazz",
+   "William Crabtree's field of work is heat",
+   "William Crabtree's field of work is embryology",
+   "William Crabtree's field of work is social philosophy",
+   "William Crabtree's field of work is dance choreography",
+   "William Crabtree's field of work is politics",
+   "William Crabtree's field of work is nanotechnology",
+   "William Crabtree's field of work is Afghanistan",
+   "William Crabtree's field of work is non-Euclidean geometry",
+   "William Crabtree's field of work is Franciscan spirituality",
+   "William Crabtree's field of work is detective literature",
+   "William Crabtree's field of work is mathematician",
+   "William Crabtree's field of work is String",
+   "William Crabtree's field of work is classical music",
+   "William Crabtree's field of work is translations from Occitan",
+   "William Crabtree's field of work is abstract algebra",
+   "William Crabtree's field of work is differential calculus",
+   "William Crabtree's field of work is mythology",
+   "William Crabtree's field of work is literary translation",
+   "William Crabtree's field of work is ballistics",
+   "William Crabtree's field of work is cryptography",
+   "William Crabtree's field of work is Greek",
+   "William Crabtree's field of work is logic",
+   "William Crabtree's field of work is choreography",
+   "William Crabtree's field of work is theology",
+   "William Crabtree's field of work is world economy",
+   "William Crabtree's field of work is magnetism",
+   "William Crabtree's field of work is algebraic geometry",
+   "William Crabtree's field of work is theory of differential equations",
+   "William Crabtree's field of work is physics",
+   "William Crabtree's field of work is music theory",
+   "William Crabtree's field of work is economics",
+   "William Crabtree's field of work is anatomy",
+   "William Crabtree's field of work is electromagnetic field",
+   "William Crabtree's field of work is analytic number theory",
+   "William Crabtree's field of work is mathematical physics",
+   "William Crabtree's field of work is journalism",
+   "William Crabtree's field of work is sociology",
+   "William Crabtree's field of work is literature",
+   "William Crabtree's field of work is ethnography",
+   "William Crabtree's field of work is belletristic literature",
+   "William Crabtree's field of work is convex function",
+   "William Crabtree's field of work is sociology of religion",
+   "William Crabtree's field of work is pedagogy",
+   "William Crabtree's field of work is philosophy",
+   "William Crabtree's field of work is quantum mechanics",
+   "William Crabtree's field of work is drama",
+   "William Crabtree's field of work is dance",
+   "William Crabtree's field of work is Judaism",
+   "William Crabtree's field of work is quantum physics",
+   "William Crabtree's field of work is philosophy of science",
+   "William Crabtree's field of work is linguistics",
+   "William Crabtree's field of work is myth",
+   "William Crabtree's field of work is physiology",
+   "William Crabtree's field of work is English",
+   "William Crabtree's field of work is philology",
+   "William Crabtree's field of work is political philosophy",
+   "William Crabtree's field of work is mechanical engineering",
+   "William Crabtree's field of work is ontology",
+   "William Crabtree's field of work is forestry",
+   "William Crabtree's field of work is aerodynamics",
+   "William Crabtree's field of work is Christian Church",
+   "William Crabtree's field of work is magnetic resonance",
+   "William Crabtree's field of work is astrophysics",
+   "William Crabtree's field of work is natural science",
+   "William Crabtree's field of work is constitutional law",
+   "William Crabtree's field of work is philosophy of law",
+   "William Crabtree's field of work is education",
+   "William Crabtree's field of work is Monte Carlo method",
+   "William Crabtree's field of work is neurology",
+   "William Crabtree's field of work is electric field",
+   "William Crabtree's field of work is Minkowski spacetime",
+   "William Crabtree's field of work is translations from Arabic language",
+   "William Crabtree's field of work is Bayesian inference",
+   "William Crabtree's field of work is translations from Polish",
+   "William Crabtree's field of work is color photography",
+   "William Crabtree's field of work is opera",
+   "William Crabtree's field of work is model theory",
+   "William Crabtree's field of work is cartography",
+   "William Crabtree's field of work is nonstandard analysis",
+   "William Crabtree's field of work is television program",
+   "William Crabtree's field of work is complex manifold",
+   "William Crabtree's field of work is poetry",
+   "William Crabtree's field of work is mathematics",
+   "William Crabtree's field of work is computer science",
+   "William Crabtree's field of work is cosmology",
+   "William Crabtree's field of work is silviculture",
+   "William Crabtree's field of work is hydrodynamics",
+   "William Crabtree's field of work is forestry science",
+   "William Crabtree's field of work is comparative religion",
+   "William Crabtree's field of work is information technology",
+   "William Crabtree's field of work is ballet",
+   "William Crabtree's field of work is English literature",
+   "William Crabtree's field of work is conducting",
+   "William Crabtree's field of work is hyperbolic geometry",
+   "William Crabtree's field of work is biochemistry",
+   "William Crabtree's field of work is religion and society",
+   "William Crabtree's field of work is optics",
+   "William Crabtree's field of work is ethics",
+   "William Crabtree's field of work is cybernetics",
+   "William Crabtree's field of work is astronomical observation",
+   "William Crabtree's field of work is psychophysiology",
+   "William Crabtree's field of work is culturology",
+   "William Crabtree's field of work is history of religions",
+   "William Crabtree's field of work is probability theory",
+   "William Crabtree's field of work is paleontology",
+   "William Crabtree's field of work is surgery",
+   "William Crabtree's field of work is group theory",
+   "William Crabtree's field of work is natural theology",
+   "William Crabtree's field of work is astrology",
+   "William Crabtree's field of work is quantum electrodynamics",
+   "William Crabtree's field of work is mechanics",
+   "William Crabtree's field of work is Lie algebra",
+   "William Crabtree's field of work is trigonometry",
+   "William Crabtree's field of work is literary activity",
+   "William Crabtree's field of work is nuclear physics",
+   "William Crabtree's field of work is translations from English",
+   "William Crabtree's field of work is medicine",
+   "William Crabtree's field of work is Jewish philosophy",
+   "William Crabtree's field of work is mathematical logic",
+   "William Crabtree's field of work is calculus of variations",
+   "William Crabtree's field of work is ferromagnetism",
+   "William Crabtree's field of work is analytic geometry",
+   "William Crabtree's field of work is art of painting",
+   "William Crabtree's field of work is functional analysis",
+   "William Crabtree's field of work is folklore",
+   "William Crabtree's field of work is study of history",
+   "William Crabtree's field of work is geometry",
+   "William Crabtree's field of work is positivism",
+   "William Crabtree's field of work is geodesy",
+   "William Crabtree's field of work is astronomy",
+   "William Crabtree's field of work is magnetic field",
+   "William Crabtree's field of work is kinetic theory",
+   "William Crabtree's field of work is celestial mechanics",
+   "William Crabtree's field of work is analytic philosophy",
+   "William Crabtree's field of work is ethnology",
+   "William Crabtree's field of work is history of economic thought"
+  ],
+  [
+   [
+    -29.064292907714844
+   ],
+   [
+    -34.23353958129883
+   ],
+   [
+    -40.19358825683594
+   ],
+   [
+    -30.10699462890625
+   ],
+   [
+    -29.420318603515625
+   ],
+   [
+    -29.463348388671875
+   ],
+   [
+    -33.39036178588867
+   ],
+   [
+    -30.49683952331543
+   ],
+   [
+    -29.449737548828125
+   ],
+   [
+    -31.76473617553711
+   ],
+   [
+    -33.45793914794922
+   ],
+   [
+    -28.80963897705078
+   ],
+   [
+    -36.798744201660156
+   ],
+   [
+    -33.09046936035156
+   ],
+   [
+    -34.256080627441406
+   ],
+   [
+    -34.514347076416016
+   ],
+   [
+    -48.89772033691406
+   ],
+   [
+    -30.846254348754883
+   ],
+   [
+    -31.417926788330078
+   ],
+   [
+    -33.36705017089844
+   ],
+   [
+    -32.572052001953125
+   ],
+   [
+    -36.53435516357422
+   ],
+   [
+    -42.317813873291016
+   ],
+   [
+    -26.966766357421875
+   ],
+   [
+    -25.557849884033203
+   ],
+   [
+    -30.56692886352539
+   ],
+   [
+    -29.384428024291992
+   ],
+   [
+    -34.14874267578125
+   ],
+   [
+    -35.42625045776367
+   ],
+   [
+    -28.19847869873047
+   ],
+   [
+    -30.158618927001953
+   ],
+   [
+    -43.31553649902344
+   ],
+   [
+    -34.18094253540039
+   ],
+   [
+    -33.644432067871094
+   ],
+   [
+    -30.7454833984375
+   ],
+   [
+    -24.471328735351562
+   ],
+   [
+    -28.51897430419922
+   ],
+   [
+    -35.84125518798828
+   ],
+   [
+    -29.83353042602539
+   ],
+   [
+    -33.29419708251953
+   ],
+   [
+    -25.84310531616211
+   ],
+   [
+    -34.594146728515625
+   ],
+   [
+    -31.218952178955078
+   ],
+   [
+    -25.067638397216797
+   ],
+   [
+    -39.82738494873047
+   ],
+   [
+    -29.50149917602539
+   ],
+   [
+    -34.508731842041016
+   ],
+   [
+    -28.610313415527344
+   ],
+   [
+    -32.28770446777344
+   ],
+   [
+    -28.52566146850586
+   ],
+   [
+    -28.521865844726562
+   ],
+   [
+    -40.47235107421875
+   ],
+   [
+    -30.714860916137695
+   ],
+   [
+    -30.767078399658203
+   ],
+   [
+    -36.79457092285156
+   ],
+   [
+    -34.92933654785156
+   ],
+   [
+    -29.81116485595703
+   ],
+   [
+    -34.39228057861328
+   ],
+   [
+    -35.644073486328125
+   ],
+   [
+    -28.461669921875
+   ],
+   [
+    -28.243141174316406
+   ],
+   [
+    -27.18289566040039
+   ],
+   [
+    -29.260730743408203
+   ],
+   [
+    -41.35213851928711
+   ],
+   [
+    -30.538558959960938
+   ],
+   [
+    -35.428932189941406
+   ],
+   [
+    -41.71992874145508
+   ],
+   [
+    -28.61956787109375
+   ],
+   [
+    -40.2342414855957
+   ],
+   [
+    -33.206146240234375
+   ],
+   [
+    -29.295318603515625
+   ],
+   [
+    -30.359024047851562
+   ],
+   [
+    -26.677776336669922
+   ],
+   [
+    -27.90005874633789
+   ],
+   [
+    -34.26297378540039
+   ],
+   [
+    -31.773624420166016
+   ],
+   [
+    -33.100929260253906
+   ],
+   [
+    -34.37919616699219
+   ],
+   [
+    -40.716129302978516
+   ],
+   [
+    -34.141422271728516
+   ],
+   [
+    -27.548221588134766
+   ],
+   [
+    -35.041114807128906
+   ],
+   [
+    -30.025558471679688
+   ],
+   [
+    -25.500492095947266
+   ],
+   [
+    -29.148971557617188
+   ],
+   [
+    -31.80826759338379
+   ],
+   [
+    -34.51542663574219
+   ],
+   [
+    -38.93928146362305
+   ],
+   [
+    -26.894306182861328
+   ],
+   [
+    -30.815956115722656
+   ],
+   [
+    -28.743309020996094
+   ],
+   [
+    -34.74477767944336
+   ],
+   [
+    -38.760284423828125
+   ],
+   [
+    -39.30408477783203
+   ],
+   [
+    -27.00859832763672
+   ],
+   [
+    -29.281639099121094
+   ],
+   [
+    -29.00503921508789
+   ],
+   [
+    -46.375572204589844
+   ],
+   [
+    -37.12281036376953
+   ],
+   [
+    -35.19518280029297
+   ],
+   [
+    -29.891788482666016
+   ],
+   [
+    -35.774810791015625
+   ],
+   [
+    -33.45128631591797
+   ],
+   [
+    -28.99593734741211
+   ],
+   [
+    -28.456844329833984
+   ],
+   [
+    -29.02484130859375
+   ],
+   [
+    -35.52874755859375
+   ],
+   [
+    -27.87044906616211
+   ],
+   [
+    -36.449337005615234
+   ],
+   [
+    -33.443359375
+   ],
+   [
+    -32.430938720703125
+   ],
+   [
+    -39.56744384765625
+   ],
+   [
+    -27.24622344970703
+   ],
+   [
+    -32.27191925048828
+   ],
+   [
+    -26.387096405029297
+   ],
+   [
+    -30.07436752319336
+   ],
+   [
+    -35.09767532348633
+   ],
+   [
+    -32.08897018432617
+   ],
+   [
+    -31.583667755126953
+   ],
+   [
+    -26.158153533935547
+   ],
+   [
+    -27.376163482666016
+   ],
+   [
+    -27.244285583496094
+   ],
+   [
+    -30.650033950805664
+   ],
+   [
+    -44.29939270019531
+   ],
+   [
+    -37.864898681640625
+   ],
+   [
+    -34.11769104003906
+   ],
+   [
+    -32.27054977416992
+   ],
+   [
+    -26.724071502685547
+   ],
+   [
+    -32.381446838378906
+   ],
+   [
+    -28.937808990478516
+   ],
+   [
+    -29.418758392333984
+   ],
+   [
+    -30.688995361328125
+   ],
+   [
+    -31.0014591217041
+   ],
+   [
+    -32.34068298339844
+   ],
+   [
+    -28.94765853881836
+   ],
+   [
+    -28.10107421875
+   ],
+   [
+    -30.664134979248047
+   ],
+   [
+    -25.898197174072266
+   ],
+   [
+    -33.77362060546875
+   ],
+   [
+    -33.46331787109375
+   ],
+   [
+    -30.3165283203125
+   ],
+   [
+    -30.713912963867188
+   ],
+   [
+    -29.936500549316406
+   ],
+   [
+    -32.38489532470703
+   ],
+   [
+    -34.05862045288086
+   ],
+   [
+    -39.132781982421875
+   ],
+   [
+    -30.223344802856445
+   ],
+   [
+    -31.24658203125
+   ],
+   [
+    -28.659008026123047
+   ],
+   [
+    -33.75373458862305
+   ],
+   [
+    -26.16631317138672
+   ],
+   [
+    -43.83610534667969
+   ],
+   [
+    -29.03813934326172
+   ],
+   [
+    -35.032875061035156
+   ],
+   [
+    -39.96404266357422
+   ],
+   [
+    -48.363929748535156
+   ],
+   [
+    -37.21709442138672
+   ],
+   [
+    -43.741573333740234
+   ],
+   [
+    -33.587684631347656
+   ],
+   [
+    -29.213577270507812
+   ],
+   [
+    -37.022552490234375
+   ],
+   [
+    -32.753173828125
+   ],
+   [
+    -40.35639953613281
+   ],
+   [
+    -35.127830505371094
+   ],
+   [
+    -40.15813446044922
+   ],
+   [
+    -26.388782501220703
+   ],
+   [
+    -27.871192932128906
+   ],
+   [
+    -26.289249420166016
+   ],
+   [
+    -30.32967758178711
+   ],
+   [
+    -32.765403747558594
+   ],
+   [
+    -31.985118865966797
+   ],
+   [
+    -34.55909729003906
+   ],
+   [
+    -31.967689514160156
+   ],
+   [
+    -29.626680374145508
+   ],
+   [
+    -30.784221649169922
+   ],
+   [
+    -31.190181732177734
+   ],
+   [
+    -23.32541847229004
+   ],
+   [
+    -38.83867263793945
+   ],
+   [
+    -29.273231506347656
+   ],
+   [
+    -36.27062225341797
+   ],
+   [
+    -31.241825103759766
+   ],
+   [
+    -29.642131805419922
+   ],
+   [
+    -32.60041046142578
+   ],
+   [
+    -38.236595153808594
+   ],
+   [
+    -36.47059631347656
+   ],
+   [
+    -36.55803680419922
+   ],
+   [
+    -39.5375862121582
+   ],
+   [
+    -32.47023010253906
+   ],
+   [
+    -30.168874740600586
+   ],
+   [
+    -29.043521881103516
+   ],
+   [
+    -35.52398681640625
+   ],
+   [
+    -35.34241485595703
+   ],
+   [
+    -31.462894439697266
+   ],
+   [
+    -36.02812957763672
+   ],
+   [
+    -31.806190490722656
+   ],
+   [
+    -38.364723205566406
+   ],
+   [
+    -32.970333099365234
+   ],
+   [
+    -37.3284912109375
+   ],
+   [
+    -30.658403396606445
+   ],
+   [
+    -41.33069610595703
+   ],
+   [
+    -28.297954559326172
+   ],
+   [
+    -37.168617248535156
+   ],
+   [
+    -32.89061737060547
+   ],
+   [
+    -38.45892333984375
+   ],
+   [
+    -37.04603958129883
+   ],
+   [
+    -32.78071594238281
+   ],
+   [
+    -38.64767074584961
+   ],
+   [
+    -34.66693878173828
+   ],
+   [
+    -29.605587005615234
+   ],
+   [
+    -35.0460319519043
+   ],
+   [
+    -30.20046615600586
+   ],
+   [
+    -33.064735412597656
+   ],
+   [
+    -33.44190979003906
+   ],
+   [
+    -28.670551300048828
+   ],
+   [
+    -36.320533752441406
+   ],
+   [
+    -35.598388671875
+   ],
+   [
+    -34.38210678100586
+   ],
+   [
+    -30.46074867248535
+   ],
+   [
+    -31.245506286621094
+   ],
+   [
+    -38.47852325439453
+   ],
+   [
+    -40.72776412963867
+   ],
+   [
+    -43.02054214477539
+   ],
+   [
+    -48.3546142578125
+   ],
+   [
+    -42.10301208496094
+   ],
+   [
+    -40.871761322021484
+   ],
+   [
+    -40.95775604248047
+   ],
+   [
+    -41.49677276611328
+   ],
+   [
+    -39.836612701416016
+   ],
+   [
+    -40.58490753173828
+   ],
+   [
+    -40.81095886230469
+   ],
+   [
+    -42.069007873535156
+   ],
+   [
+    -38.941253662109375
+   ],
+   [
+    -42.7677001953125
+   ],
+   [
+    -40.90052032470703
+   ],
+   [
+    -42.78034210205078
+   ],
+   [
+    -42.218284606933594
+   ],
+   [
+    -57.67005157470703
+   ],
+   [
+    -38.838401794433594
+   ],
+   [
+    -39.17449951171875
+   ],
+   [
+    -39.911224365234375
+   ],
+   [
+    -43.78949737548828
+   ],
+   [
+    -42.88508605957031
+   ],
+   [
+    -48.901065826416016
+   ],
+   [
+    -42.03837966918945
+   ],
+   [
+    -38.032989501953125
+   ],
+   [
+    -41.57598114013672
+   ],
+   [
+    -38.38720703125
+   ],
+   [
+    -42.18246841430664
+   ],
+   [
+    -46.0341796875
+   ],
+   [
+    -41.22284698486328
+   ],
+   [
+    -44.408016204833984
+   ],
+   [
+    -53.0535888671875
+   ],
+   [
+    -41.41242599487305
+   ],
+   [
+    -43.111568450927734
+   ],
+   [
+    -39.821136474609375
+   ],
+   [
+    -40.82837677001953
+   ],
+   [
+    -40.0428581237793
+   ],
+   [
+    -41.55790710449219
+   ],
+   [
+    -42.429527282714844
+   ],
+   [
+    -43.545631408691406
+   ],
+   [
+    -38.46269989013672
+   ],
+   [
+    -41.56383514404297
+   ],
+   [
+    -41.03255844116211
+   ],
+   [
+    -36.63902282714844
+   ],
+   [
+    -45.4013557434082
+   ],
+   [
+    -40.7397346496582
+   ],
+   [
+    -47.347389221191406
+   ],
+   [
+    -40.12691879272461
+   ],
+   [
+    -39.87602996826172
+   ],
+   [
+    -39.16069793701172
+   ],
+   [
+    -38.23447036743164
+   ],
+   [
+    -47.96202087402344
+   ],
+   [
+    -41.718055725097656
+   ],
+   [
+    -41.41522216796875
+   ],
+   [
+    -44.581947326660156
+   ],
+   [
+    -41.75878143310547
+   ],
+   [
+    -40.648101806640625
+   ],
+   [
+    -45.69599533081055
+   ],
+   [
+    -44.408531188964844
+   ],
+   [
+    -38.40727996826172
+   ],
+   [
+    -40.081817626953125
+   ],
+   [
+    -45.080814361572266
+   ],
+   [
+    -40.57378387451172
+   ],
+   [
+    -47.29568099975586
+   ],
+   [
+    -39.7368049621582
+   ],
+   [
+    -40.585323333740234
+   ],
+   [
+    -47.11437225341797
+   ],
+   [
+    -45.116851806640625
+   ],
+   [
+    -44.09941101074219
+   ],
+   [
+    -43.89213180541992
+   ],
+   [
+    -41.309783935546875
+   ],
+   [
+    -39.784881591796875
+   ],
+   [
+    -39.21489715576172
+   ],
+   [
+    -40.53092575073242
+   ],
+   [
+    -46.808433532714844
+   ],
+   [
+    -44.03685760498047
+   ],
+   [
+    -40.400760650634766
+   ],
+   [
+    -39.464515686035156
+   ],
+   [
+    -45.64124298095703
+   ],
+   [
+    -42.823551177978516
+   ],
+   [
+    -37.73965835571289
+   ],
+   [
+    -45.983642578125
+   ],
+   [
+    -45.13792037963867
+   ],
+   [
+    -39.166748046875
+   ],
+   [
+    -41.53904724121094
+   ],
+   [
+    -41.772560119628906
+   ],
+   [
+    -41.62815856933594
+   ],
+   [
+    -46.29973220825195
+   ],
+   [
+    -37.80628967285156
+   ],
+   [
+    -40.355106353759766
+   ],
+   [
+    -41.681209564208984
+   ],
+   [
+    -45.39110565185547
+   ],
+   [
+    -48.47842025756836
+   ],
+   [
+    -46.735107421875
+   ],
+   [
+    -45.026145935058594
+   ],
+   [
+    -43.09817886352539
+   ],
+   [
+    -40.18064880371094
+   ],
+   [
+    -52.865562438964844
+   ],
+   [
+    -41.84846496582031
+   ],
+   [
+    -44.965476989746094
+   ],
+   [
+    -39.880672454833984
+   ],
+   [
+    -41.658023834228516
+   ],
+   [
+    -43.27503204345703
+   ],
+   [
+    -39.13313293457031
+   ],
+   [
+    -39.72968292236328
+   ],
+   [
+    -40.201751708984375
+   ],
+   [
+    -42.5699348449707
+   ],
+   [
+    -38.97483825683594
+   ],
+   [
+    -45.92912673950195
+   ],
+   [
+    -42.56708908081055
+   ],
+   [
+    -41.87675476074219
+   ],
+   [
+    -50.724674224853516
+   ],
+   [
+    -37.904502868652344
+   ],
+   [
+    -41.11003875732422
+   ],
+   [
+    -37.24024963378906
+   ],
+   [
+    -40.55012130737305
+   ],
+   [
+    -44.33600616455078
+   ],
+   [
+    -45.209327697753906
+   ],
+   [
+    -41.36295700073242
+   ],
+   [
+    -38.25525665283203
+   ],
+   [
+    -38.20823669433594
+   ],
+   [
+    -37.220767974853516
+   ],
+   [
+    -39.18695831298828
+   ],
+   [
+    -49.83073425292969
+   ],
+   [
+    -47.36123275756836
+   ],
+   [
+    -41.91816711425781
+   ],
+   [
+    -39.39590072631836
+   ],
+   [
+    -36.423500061035156
+   ],
+   [
+    -40.002685546875
+   ],
+   [
+    -39.99651336669922
+   ],
+   [
+    -39.16733932495117
+   ],
+   [
+    -42.227256774902344
+   ],
+   [
+    -39.67730712890625
+   ],
+   [
+    -39.28086853027344
+   ],
+   [
+    -38.24305725097656
+   ],
+   [
+    -40.13688659667969
+   ],
+   [
+    -40.58937072753906
+   ],
+   [
+    -37.27161407470703
+   ],
+   [
+    -40.841163635253906
+   ],
+   [
+    -38.507789611816406
+   ],
+   [
+    -40.82508850097656
+   ],
+   [
+    -39.426517486572266
+   ],
+   [
+    -39.91515350341797
+   ],
+   [
+    -42.4958381652832
+   ],
+   [
+    -46.28986740112305
+   ],
+   [
+    -42.48618698120117
+   ],
+   [
+    -39.6456298828125
+   ],
+   [
+    -40.23365783691406
+   ],
+   [
+    -40.13489532470703
+   ],
+   [
+    -40.69371032714844
+   ],
+   [
+    -36.92604446411133
+   ],
+   [
+    -50.87531280517578
+   ],
+   [
+    -39.85548400878906
+   ],
+   [
+    -45.00907516479492
+   ],
+   [
+    -47.44911193847656
+   ],
+   [
+    -53.60418701171875
+   ],
+   [
+    -42.09538269042969
+   ],
+   [
+    -49.71660232543945
+   ],
+   [
+    -41.16314697265625
+   ],
+   [
+    -40.30131912231445
+   ],
+   [
+    -45.58988571166992
+   ],
+   [
+    -38.81825256347656
+   ],
+   [
+    -47.73712158203125
+   ],
+   [
+    -46.25334167480469
+   ],
+   [
+    -48.580421447753906
+   ],
+   [
+    -37.835147857666016
+   ],
+   [
+    -37.49522399902344
+   ],
+   [
+    -39.20983123779297
+   ],
+   [
+    -39.39787673950195
+   ],
+   [
+    -43.77549743652344
+   ],
+   [
+    -43.22154998779297
+   ],
+   [
+    -45.0584602355957
+   ],
+   [
+    -39.578887939453125
+   ],
+   [
+    -39.264442443847656
+   ],
+   [
+    -41.65044403076172
+   ],
+   [
+    -38.960479736328125
+   ],
+   [
+    -39.82868194580078
+   ],
+   [
+    -42.8974723815918
+   ],
+   [
+    -38.81341552734375
+   ],
+   [
+    -44.144073486328125
+   ],
+   [
+    -40.2242546081543
+   ],
+   [
+    -38.42839813232422
+   ],
+   [
+    -39.76594543457031
+   ],
+   [
+    -46.58776092529297
+   ],
+   [
+    -42.294036865234375
+   ],
+   [
+    -43.60174560546875
+   ],
+   [
+    -45.37128448486328
+   ],
+   [
+    -41.75891876220703
+   ],
+   [
+    -40.12618637084961
+   ],
+   [
+    -40.7358512878418
+   ],
+   [
+    -42.792396545410156
+   ],
+   [
+    -41.34169006347656
+   ],
+   [
+    -40.3337516784668
+   ],
+   [
+    -43.15319061279297
+   ],
+   [
+    -41.96593475341797
+   ],
+   [
+    -46.54921340942383
+   ],
+   [
+    -42.81410598754883
+   ],
+   [
+    -47.67799377441406
+   ],
+   [
+    -41.06444549560547
+   ],
+   [
+    -46.492549896240234
+   ],
+   [
+    -38.01103591918945
+   ],
+   [
+    -43.77781677246094
+   ],
+   [
+    -39.749122619628906
+   ],
+   [
+    -47.09019088745117
+   ],
+   [
+    -46.03253936767578
+   ],
+   [
+    -44.37742614746094
+   ],
+   [
+    -47.558353424072266
+   ],
+   [
+    -42.879364013671875
+   ],
+   [
+    -39.34046936035156
+   ],
+   [
+    -45.592185974121094
+   ],
+   [
+    -40.783382415771484
+   ],
+   [
+    -43.666831970214844
+   ],
+   [
+    -42.41515350341797
+   ],
+   [
+    -39.05583572387695
+   ],
+   [
+    -45.42559051513672
+   ],
+   [
+    -45.11954116821289
+   ],
+   [
+    -42.611820220947266
+   ],
+   [
+    -40.00407028198242
+   ],
+   [
+    -40.2669677734375
+   ],
+   [
+    -45.8271484375
+   ]
+  ]
+ ],
+ "time": 796.0689945220947
+}

@@ -1,0 +1,2068 @@
+{
+ "case_id": 23064,
+ "grouped_case_ids": [
+  23061,
+  23062,
+  23063,
+  23064,
+  23065,
+  23066,
+  23067,
+  23068,
+  23069,
+  23070,
+  23071,
+  23072,
+  23073,
+  23074,
+  23075,
+  23076,
+  23077,
+  23078,
+  23079,
+  23080,
+  23081,
+  23082,
+  23083,
+  23084,
+  23085,
+  23086,
+  23087,
+  23088,
+  23089,
+  23090,
+  23091,
+  23092,
+  23093,
+  23094,
+  23095,
+  23096,
+  23097,
+  23098,
+  23099,
+  23100,
+  23101,
+  23102,
+  23103,
+  23104,
+  23105,
+  23106,
+  23107,
+  23108,
+  23109,
+  23110,
+  23111,
+  23112,
+  23113,
+  23114,
+  23115,
+  23116,
+  23117,
+  23118,
+  23119,
+  23120,
+  23121,
+  23122,
+  23123,
+  23124,
+  23125,
+  23126,
+  23127,
+  23128,
+  23129,
+  23130,
+  23131,
+  23132,
+  23133,
+  23134,
+  23135,
+  23136,
+  23137,
+  23138,
+  23139,
+  23140,
+  23141,
+  23142,
+  23143,
+  23144,
+  23145,
+  23146,
+  23147,
+  23148,
+  23149,
+  23150,
+  23151,
+  23152,
+  23153,
+  23154,
+  23155,
+  23156,
+  23157,
+  23158,
+  23159,
+  23160,
+  23161,
+  23162,
+  23163,
+  23164,
+  23165,
+  23166,
+  23167,
+  23168,
+  23169,
+  23170,
+  23171,
+  23172,
+  23173,
+  23174,
+  23175,
+  23176,
+  23177,
+  23178,
+  23179,
+  23180,
+  23181,
+  23182,
+  23183,
+  23184,
+  23185,
+  23186,
+  23187,
+  23188,
+  23189,
+  23190,
+  23191,
+  23192,
+  23193,
+  23194,
+  23195,
+  23196,
+  23197,
+  23198,
+  23199,
+  23200,
+  23201,
+  23202,
+  23203,
+  23204,
+  23205,
+  23206,
+  23207,
+  23208,
+  23209,
+  23210,
+  23211,
+  23212,
+  23213,
+  23214,
+  23215,
+  23216,
+  23217,
+  23218,
+  23219,
+  23220,
+  23221,
+  23222,
+  23223,
+  23224,
+  23225,
+  23226,
+  23227,
+  23228,
+  23229,
+  23230,
+  23231,
+  23232,
+  23233,
+  23234,
+  23235,
+  23236,
+  23237,
+  23238,
+  23239,
+  23240,
+  23241,
+  23242,
+  23243,
+  23244,
+  23245,
+  23246,
+  23247,
+  23248,
+  23249,
+  23250,
+  23251,
+  23252,
+  23253,
+  23254,
+  23255,
+  23256,
+  23257,
+  23258,
+  23259,
+  23260,
+  23261,
+  23262,
+  23263,
+  23264,
+  23265,
+  23266,
+  23267,
+  23268,
+  23269,
+  23270,
+  23271,
+  23272,
+  23273,
+  23274,
+  23275,
+  23276,
+  23277,
+  23278,
+  23279,
+  23280,
+  23281,
+  23282,
+  23283,
+  23284,
+  23285,
+  23286,
+  23287,
+  23288,
+  23289,
+  23290,
+  23291,
+  23292,
+  23293,
+  23294,
+  23295,
+  23296,
+  23297,
+  23298,
+  23299,
+  23300,
+  23301,
+  23302,
+  23303,
+  23304,
+  23305,
+  23306,
+  23307,
+  23308,
+  23309,
+  23310,
+  23311,
+  23312,
+  23313,
+  23314,
+  23315,
+  23316,
+  23317,
+  23318,
+  23319,
+  23320,
+  23321,
+  23322,
+  23323,
+  23324,
+  23325,
+  23326,
+  23327,
+  23328,
+  23329,
+  23330,
+  23331,
+  23332,
+  23333,
+  23334,
+  23335,
+  23336,
+  23337,
+  23338,
+  23339,
+  23340,
+  23341,
+  23342
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "Spain",
+   "id": "Q29"
+  },
+  "target_true": {
+   "str": "United States of America",
+   "id": "Q30"
+  },
+  "subject": "Yi-Fu Tuan"
+ },
+ "pre": [
+  [
+   "Yi-Fu Tuan's field of work is Franciscan spirituality",
+   "Yi-Fu Tuan's field of work is applied physics",
+   "Yi-Fu Tuan's field of work is quantum electrodynamics",
+   "Yi-Fu Tuan's field of work is color photography",
+   "Yi-Fu Tuan's field of work is English",
+   "Yi-Fu Tuan's field of work is heat",
+   "Yi-Fu Tuan's field of work is informatics",
+   "Yi-Fu Tuan's field of work is neurology",
+   "Yi-Fu Tuan's field of work is ethnography",
+   "Yi-Fu Tuan's field of work is experimental physics",
+   "Yi-Fu Tuan's field of work is mechanical engineering",
+   "Yi-Fu Tuan's field of work is crystallography",
+   "Yi-Fu Tuan's field of work is magnetism",
+   "Yi-Fu Tuan's field of work is paleontology",
+   "Yi-Fu Tuan's field of work is astrology",
+   "Yi-Fu Tuan's field of work is drama",
+   "Yi-Fu Tuan's field of work is comparative mythology",
+   "Yi-Fu Tuan's field of work is ballet",
+   "Yi-Fu Tuan's field of work is theoretical physics",
+   "Yi-Fu Tuan's field of work is prose",
+   "Yi-Fu Tuan's field of work is mathematician",
+   "Yi-Fu Tuan's field of work is statistics",
+   "Yi-Fu Tuan's field of work is journalism",
+   "Yi-Fu Tuan's field of work is astronomical observation",
+   "Yi-Fu Tuan's field of work is physicist",
+   "Yi-Fu Tuan's field of work is graph theory",
+   "Yi-Fu Tuan's field of work is probability theory",
+   "Yi-Fu Tuan's field of work is mathematics",
+   "Yi-Fu Tuan's field of work is geometry",
+   "Yi-Fu Tuan's field of work is Monte Carlo method",
+   "Yi-Fu Tuan's field of work is mythology",
+   "Yi-Fu Tuan's field of work is partial differential equation",
+   "Yi-Fu Tuan's field of work is anatomy",
+   "Yi-Fu Tuan's field of work is electric field",
+   "Yi-Fu Tuan's field of work is shipbuilding",
+   "Yi-Fu Tuan's field of work is differential calculus",
+   "Yi-Fu Tuan's field of work is rite",
+   "Yi-Fu Tuan's field of work is distribution",
+   "Yi-Fu Tuan's field of work is biological anthropology",
+   "Yi-Fu Tuan's field of work is cryptography",
+   "Yi-Fu Tuan's field of work is theory of relativity",
+   "Yi-Fu Tuan's field of work is Greek",
+   "Yi-Fu Tuan's field of work is fairy tale",
+   "Yi-Fu Tuan's field of work is histology",
+   "Yi-Fu Tuan's field of work is mechanics",
+   "Yi-Fu Tuan's field of work is astronomy",
+   "Yi-Fu Tuan's field of work is theology",
+   "Yi-Fu Tuan's field of work is model theory",
+   "Yi-Fu Tuan's field of work is quantum mysticism",
+   "Yi-Fu Tuan's field of work is silviculture",
+   "Yi-Fu Tuan's field of work is psychology",
+   "Yi-Fu Tuan's field of work is literary theory",
+   "Yi-Fu Tuan's field of work is information technology",
+   "Yi-Fu Tuan's field of work is chemistry",
+   "Yi-Fu Tuan's field of work is Christian Church",
+   "Yi-Fu Tuan's field of work is philosopher",
+   "Yi-Fu Tuan's field of work is nuclear physics",
+   "Yi-Fu Tuan's field of work is electron",
+   "Yi-Fu Tuan's field of work is classics",
+   "Yi-Fu Tuan's field of work is quantum physics",
+   "Yi-Fu Tuan's field of work is projective geometry",
+   "Yi-Fu Tuan's field of work is convex function",
+   "Yi-Fu Tuan's field of work is economy",
+   "Yi-Fu Tuan's field of work is politics",
+   "Yi-Fu Tuan's field of work is Petrine ministry",
+   "Yi-Fu Tuan's field of work is geography",
+   "Yi-Fu Tuan's field of work is jazz",
+   "Yi-Fu Tuan's field of work is English literature",
+   "Yi-Fu Tuan's field of work is embryology",
+   "Yi-Fu Tuan's field of work is complex function",
+   "Yi-Fu Tuan's field of work is ballistics",
+   "Yi-Fu Tuan's field of work is Internet",
+   "Yi-Fu Tuan's field of work is evolution",
+   "Yi-Fu Tuan's field of work is culturology",
+   "Yi-Fu Tuan's field of work is human geography",
+   "Yi-Fu Tuan's field of work is translations from English",
+   "Yi-Fu Tuan's field of work is economic anthropology",
+   "Yi-Fu Tuan's field of work is literary activity",
+   "Yi-Fu Tuan's field of work is African studies",
+   "Yi-Fu Tuan's field of work is forestry",
+   "Yi-Fu Tuan's field of work is physiology",
+   "Yi-Fu Tuan's field of work is philology",
+   "Yi-Fu Tuan's field of work is String",
+   "Yi-Fu Tuan's field of work is abstract algebra",
+   "Yi-Fu Tuan's field of work is astronomer",
+   "Yi-Fu Tuan's field of work is medicine",
+   "Yi-Fu Tuan's field of work is historical novel",
+   "Yi-Fu Tuan's field of work is trigonometry",
+   "Yi-Fu Tuan's field of work is algebraic geometry",
+   "Yi-Fu Tuan's field of work is magic",
+   "Yi-Fu Tuan's field of work is biochemistry",
+   "Yi-Fu Tuan's field of work is economics",
+   "Yi-Fu Tuan's field of work is calculus of variations",
+   "Yi-Fu Tuan's field of work is dance",
+   "Yi-Fu Tuan's field of work is gravity",
+   "Yi-Fu Tuan's field of work is electricity",
+   "Yi-Fu Tuan's field of work is conducting",
+   "Yi-Fu Tuan's field of work is Minkowski spacetime",
+   "Yi-Fu Tuan's field of work is literature",
+   "Yi-Fu Tuan's field of work is celestial mechanics",
+   "Yi-Fu Tuan's field of work is crime novel",
+   "Yi-Fu Tuan's field of work is sociology of organisations",
+   "Yi-Fu Tuan's field of work is quantum theory",
+   "Yi-Fu Tuan's field of work is quaternion",
+   "Yi-Fu Tuan's field of work is ethnology",
+   "Yi-Fu Tuan's field of work is political philosophy",
+   "Yi-Fu Tuan's field of work is Jewish studies",
+   "Yi-Fu Tuan's field of work is translations from Polish",
+   "Yi-Fu Tuan's field of work is philosophy of science",
+   "Yi-Fu Tuan's field of work is Afghanistan",
+   "Yi-Fu Tuan's field of work is electrical engineering",
+   "Yi-Fu Tuan's field of work is philosophy",
+   "Yi-Fu Tuan's field of work is linguistics",
+   "Yi-Fu Tuan's field of work is logic",
+   "Yi-Fu Tuan's field of work is sociology of religion",
+   "Yi-Fu Tuan's field of work is philosophy of law",
+   "Yi-Fu Tuan's field of work is ethics",
+   "Yi-Fu Tuan's field of work is analytic geometry",
+   "Yi-Fu Tuan's field of work is complex manifold",
+   "Yi-Fu Tuan's field of work is surgery",
+   "Yi-Fu Tuan's field of work is religion",
+   "Yi-Fu Tuan's field of work is ferromagnetism",
+   "Yi-Fu Tuan's field of work is hunting",
+   "Yi-Fu Tuan's field of work is computational geometry",
+   "Yi-Fu Tuan's field of work is analytic number theory",
+   "Yi-Fu Tuan's field of work is astrophysics",
+   "Yi-Fu Tuan's field of work is feminism",
+   "Yi-Fu Tuan's field of work is Bayesian inference",
+   "Yi-Fu Tuan's field of work is anthropology",
+   "Yi-Fu Tuan's field of work is optics",
+   "Yi-Fu Tuan's field of work is history of religions",
+   "Yi-Fu Tuan's field of work is positivism",
+   "Yi-Fu Tuan's field of work is social psychology",
+   "Yi-Fu Tuan's field of work is history",
+   "Yi-Fu Tuan's field of work is pedagogy",
+   "Yi-Fu Tuan's field of work is group theory",
+   "Yi-Fu Tuan's field of work is algebraic topology",
+   "Yi-Fu Tuan's field of work is history of economic thought",
+   "Yi-Fu Tuan's field of work is art of painting",
+   "Yi-Fu Tuan's field of work is stochastic",
+   "Yi-Fu Tuan's field of work is kinetic theory",
+   "Yi-Fu Tuan's field of work is Greek philology",
+   "Yi-Fu Tuan's field of work is hydrodynamics",
+   "Yi-Fu Tuan's field of work is television program",
+   "Yi-Fu Tuan's field of work is social anthropology",
+   "Yi-Fu Tuan's field of work is children's and youth literature",
+   "Yi-Fu Tuan's field of work is analytic philosophy",
+   "Yi-Fu Tuan's field of work is forestry science",
+   "Yi-Fu Tuan's field of work is folklore",
+   "Yi-Fu Tuan's field of work is natural science",
+   "Yi-Fu Tuan's field of work is number theory",
+   "Yi-Fu Tuan's field of work is translations from Arabic language",
+   "Yi-Fu Tuan's field of work is algebra",
+   "Yi-Fu Tuan's field of work is magnetic resonance",
+   "Yi-Fu Tuan's field of work is education",
+   "Yi-Fu Tuan's field of work is translations from Spanish",
+   "Yi-Fu Tuan's field of work is world economy",
+   "Yi-Fu Tuan's field of work is mathematical physics",
+   "Yi-Fu Tuan's field of work is music theory",
+   "Yi-Fu Tuan's field of work is nonstandard analysis",
+   "Yi-Fu Tuan's field of work is functional analysis",
+   "Yi-Fu Tuan's field of work is Sanskrit",
+   "Yi-Fu Tuan's field of work is geodesy",
+   "Yi-Fu Tuan's field of work is cosmology",
+   "Yi-Fu Tuan's field of work is history of science",
+   "Yi-Fu Tuan's field of work is essay",
+   "Yi-Fu Tuan's field of work is constitutional law",
+   "Yi-Fu Tuan's field of work is physics",
+   "Yi-Fu Tuan's field of work is topology",
+   "Yi-Fu Tuan's field of work is radioactivity",
+   "Yi-Fu Tuan's field of work is historical sociology",
+   "Yi-Fu Tuan's field of work is myth",
+   "Yi-Fu Tuan's field of work is momentum",
+   "Yi-Fu Tuan's field of work is classical music",
+   "Yi-Fu Tuan's field of work is Hebrew",
+   "Yi-Fu Tuan's field of work is natural theology",
+   "Yi-Fu Tuan's field of work is comparative religion",
+   "Yi-Fu Tuan's field of work is psychophysiology",
+   "Yi-Fu Tuan's field of work is social philosophy",
+   "Yi-Fu Tuan's field of work is dance choreography",
+   "Yi-Fu Tuan's field of work is distribution theory",
+   "Yi-Fu Tuan's field of work is theory of differential equations",
+   "Yi-Fu Tuan's field of work is mathematical logic",
+   "Yi-Fu Tuan's field of work is differential geometry",
+   "Yi-Fu Tuan's field of work is translations from Occitan",
+   "Yi-Fu Tuan's field of work is lyric poetry",
+   "Yi-Fu Tuan's field of work is belletristic literature",
+   "Yi-Fu Tuan's field of work is harmonic analysis",
+   "Yi-Fu Tuan's field of work is quantum mechanics",
+   "Yi-Fu Tuan's field of work is computer science",
+   "Yi-Fu Tuan's field of work is genetics",
+   "Yi-Fu Tuan's field of work is hyperbolic geometry",
+   "Yi-Fu Tuan's field of work is civil rights",
+   "Yi-Fu Tuan's field of work is literary translation",
+   "Yi-Fu Tuan's field of work is meteorology",
+   "Yi-Fu Tuan's field of work is ontology",
+   "Yi-Fu Tuan's field of work is electromagnetic field",
+   "Yi-Fu Tuan's field of work is opera",
+   "Yi-Fu Tuan's field of work is Lie algebra",
+   "Yi-Fu Tuan's field of work is detective literature",
+   "Yi-Fu Tuan's field of work is engineering",
+   "Yi-Fu Tuan's field of work is applied mathematics",
+   "Yi-Fu Tuan's field of work is Judaism",
+   "Yi-Fu Tuan's field of work is choreography",
+   "Yi-Fu Tuan's field of work is cybernetics",
+   "Yi-Fu Tuan's field of work is Cairo Geniza",
+   "Yi-Fu Tuan's field of work is religion and society",
+   "Yi-Fu Tuan's field of work is a branch of physics",
+   "Yi-Fu Tuan's field of work is non-Euclidean geometry",
+   "Yi-Fu Tuan's field of work is nanotechnology",
+   "Yi-Fu Tuan's field of work is aeromechanics",
+   "Yi-Fu Tuan's field of work is sociology",
+   "Yi-Fu Tuan's field of work is Jewish philosophy",
+   "Yi-Fu Tuan's field of work is magnetic field",
+   "Yi-Fu Tuan's field of work is aerodynamics",
+   "Yi-Fu Tuan's field of work is radiation",
+   "Yi-Fu Tuan's field of work is mathematical analysis",
+   "Yi-Fu Tuan's field of work is cartography",
+   "Yi-Fu Tuan's field of work is study of history",
+   "Yi-Fu Tuan's field of work is poetry",
+   "Yi-Fu Tuan is Franciscan spirituality",
+   "Yi-Fu Tuan is applied physics",
+   "Yi-Fu Tuan is quantum electrodynamics",
+   "Yi-Fu Tuan is color photography",
+   "Yi-Fu Tuan is English",
+   "Yi-Fu Tuan is heat",
+   "Yi-Fu Tuan is informatics",
+   "Yi-Fu Tuan is neurology",
+   "Yi-Fu Tuan is ethnography",
+   "Yi-Fu Tuan is experimental physics",
+   "Yi-Fu Tuan is mechanical engineering",
+   "Yi-Fu Tuan is crystallography",
+   "Yi-Fu Tuan is magnetism",
+   "Yi-Fu Tuan is paleontology",
+   "Yi-Fu Tuan is astrology",
+   "Yi-Fu Tuan is drama",
+   "Yi-Fu Tuan is comparative mythology",
+   "Yi-Fu Tuan is ballet",
+   "Yi-Fu Tuan is theoretical physics",
+   "Yi-Fu Tuan is prose",
+   "Yi-Fu Tuan is mathematician",
+   "Yi-Fu Tuan is statistics",
+   "Yi-Fu Tuan is journalism",
+   "Yi-Fu Tuan is astronomical observation",
+   "Yi-Fu Tuan is physicist",
+   "Yi-Fu Tuan is graph theory",
+   "Yi-Fu Tuan is probability theory",
+   "Yi-Fu Tuan is mathematics",
+   "Yi-Fu Tuan is geometry",
+   "Yi-Fu Tuan is Monte Carlo method",
+   "Yi-Fu Tuan is mythology",
+   "Yi-Fu Tuan is partial differential equation",
+   "Yi-Fu Tuan is anatomy",
+   "Yi-Fu Tuan is electric field",
+   "Yi-Fu Tuan is shipbuilding",
+   "Yi-Fu Tuan is differential calculus",
+   "Yi-Fu Tuan is rite",
+   "Yi-Fu Tuan is distribution",
+   "Yi-Fu Tuan is biological anthropology",
+   "Yi-Fu Tuan is cryptography",
+   "Yi-Fu Tuan is theory of relativity",
+   "Yi-Fu Tuan is Greek",
+   "Yi-Fu Tuan is fairy tale",
+   "Yi-Fu Tuan is histology",
+   "Yi-Fu Tuan is mechanics",
+   "Yi-Fu Tuan is astronomy",
+   "Yi-Fu Tuan is theology",
+   "Yi-Fu Tuan is model theory",
+   "Yi-Fu Tuan is quantum mysticism",
+   "Yi-Fu Tuan is silviculture",
+   "Yi-Fu Tuan is psychology",
+   "Yi-Fu Tuan is literary theory",
+   "Yi-Fu Tuan is information technology",
+   "Yi-Fu Tuan is chemistry",
+   "Yi-Fu Tuan is Christian Church",
+   "Yi-Fu Tuan is philosopher",
+   "Yi-Fu Tuan is nuclear physics",
+   "Yi-Fu Tuan is electron",
+   "Yi-Fu Tuan is classics",
+   "Yi-Fu Tuan is quantum physics",
+   "Yi-Fu Tuan is projective geometry",
+   "Yi-Fu Tuan is convex function",
+   "Yi-Fu Tuan is economy",
+   "Yi-Fu Tuan is politics",
+   "Yi-Fu Tuan is Petrine ministry",
+   "Yi-Fu Tuan is geography",
+   "Yi-Fu Tuan is jazz",
+   "Yi-Fu Tuan is English literature",
+   "Yi-Fu Tuan is embryology",
+   "Yi-Fu Tuan is complex function",
+   "Yi-Fu Tuan is ballistics",
+   "Yi-Fu Tuan is Internet",
+   "Yi-Fu Tuan is evolution",
+   "Yi-Fu Tuan is culturology",
+   "Yi-Fu Tuan is human geography",
+   "Yi-Fu Tuan is translations from English",
+   "Yi-Fu Tuan is economic anthropology",
+   "Yi-Fu Tuan is literary activity",
+   "Yi-Fu Tuan is African studies",
+   "Yi-Fu Tuan is forestry",
+   "Yi-Fu Tuan is physiology",
+   "Yi-Fu Tuan is philology",
+   "Yi-Fu Tuan is String",
+   "Yi-Fu Tuan is abstract algebra",
+   "Yi-Fu Tuan is astronomer",
+   "Yi-Fu Tuan is medicine",
+   "Yi-Fu Tuan is historical novel",
+   "Yi-Fu Tuan is trigonometry",
+   "Yi-Fu Tuan is algebraic geometry",
+   "Yi-Fu Tuan is magic",
+   "Yi-Fu Tuan is biochemistry",
+   "Yi-Fu Tuan is economics",
+   "Yi-Fu Tuan is calculus of variations",
+   "Yi-Fu Tuan is dance",
+   "Yi-Fu Tuan is gravity",
+   "Yi-Fu Tuan is electricity",
+   "Yi-Fu Tuan is conducting",
+   "Yi-Fu Tuan is Minkowski spacetime",
+   "Yi-Fu Tuan is literature",
+   "Yi-Fu Tuan is celestial mechanics",
+   "Yi-Fu Tuan is crime novel",
+   "Yi-Fu Tuan is sociology of organisations",
+   "Yi-Fu Tuan is quantum theory",
+   "Yi-Fu Tuan is quaternion",
+   "Yi-Fu Tuan is ethnology",
+   "Yi-Fu Tuan is political philosophy",
+   "Yi-Fu Tuan is Jewish studies",
+   "Yi-Fu Tuan is translations from Polish",
+   "Yi-Fu Tuan is philosophy of science",
+   "Yi-Fu Tuan is Afghanistan",
+   "Yi-Fu Tuan is electrical engineering",
+   "Yi-Fu Tuan is philosophy",
+   "Yi-Fu Tuan is linguistics",
+   "Yi-Fu Tuan is logic",
+   "Yi-Fu Tuan is sociology of religion",
+   "Yi-Fu Tuan is philosophy of law",
+   "Yi-Fu Tuan is ethics",
+   "Yi-Fu Tuan is analytic geometry",
+   "Yi-Fu Tuan is complex manifold",
+   "Yi-Fu Tuan is surgery",
+   "Yi-Fu Tuan is religion",
+   "Yi-Fu Tuan is ferromagnetism",
+   "Yi-Fu Tuan is hunting",
+   "Yi-Fu Tuan is computational geometry",
+   "Yi-Fu Tuan is analytic number theory",
+   "Yi-Fu Tuan is astrophysics",
+   "Yi-Fu Tuan is feminism",
+   "Yi-Fu Tuan is Bayesian inference",
+   "Yi-Fu Tuan is anthropology",
+   "Yi-Fu Tuan is optics",
+   "Yi-Fu Tuan is history of religions",
+   "Yi-Fu Tuan is positivism",
+   "Yi-Fu Tuan is social psychology",
+   "Yi-Fu Tuan is history",
+   "Yi-Fu Tuan is pedagogy",
+   "Yi-Fu Tuan is group theory",
+   "Yi-Fu Tuan is algebraic topology",
+   "Yi-Fu Tuan is history of economic thought",
+   "Yi-Fu Tuan is art of painting",
+   "Yi-Fu Tuan is stochastic",
+   "Yi-Fu Tuan is kinetic theory",
+   "Yi-Fu Tuan is Greek philology",
+   "Yi-Fu Tuan is hydrodynamics",
+   "Yi-Fu Tuan is television program",
+   "Yi-Fu Tuan is social anthropology",
+   "Yi-Fu Tuan is children's and youth literature",
+   "Yi-Fu Tuan is analytic philosophy",
+   "Yi-Fu Tuan is forestry science",
+   "Yi-Fu Tuan is folklore",
+   "Yi-Fu Tuan is natural science",
+   "Yi-Fu Tuan is number theory",
+   "Yi-Fu Tuan is translations from Arabic language",
+   "Yi-Fu Tuan is algebra",
+   "Yi-Fu Tuan is magnetic resonance",
+   "Yi-Fu Tuan is education",
+   "Yi-Fu Tuan is translations from Spanish",
+   "Yi-Fu Tuan is world economy",
+   "Yi-Fu Tuan is mathematical physics",
+   "Yi-Fu Tuan is music theory",
+   "Yi-Fu Tuan is nonstandard analysis",
+   "Yi-Fu Tuan is functional analysis",
+   "Yi-Fu Tuan is Sanskrit",
+   "Yi-Fu Tuan is geodesy",
+   "Yi-Fu Tuan is cosmology",
+   "Yi-Fu Tuan is history of science",
+   "Yi-Fu Tuan is essay",
+   "Yi-Fu Tuan is constitutional law",
+   "Yi-Fu Tuan is physics",
+   "Yi-Fu Tuan is topology",
+   "Yi-Fu Tuan is radioactivity",
+   "Yi-Fu Tuan is historical sociology",
+   "Yi-Fu Tuan is myth",
+   "Yi-Fu Tuan is momentum",
+   "Yi-Fu Tuan is classical music",
+   "Yi-Fu Tuan is Hebrew",
+   "Yi-Fu Tuan is natural theology",
+   "Yi-Fu Tuan is comparative religion",
+   "Yi-Fu Tuan is psychophysiology",
+   "Yi-Fu Tuan is social philosophy",
+   "Yi-Fu Tuan is dance choreography",
+   "Yi-Fu Tuan is distribution theory",
+   "Yi-Fu Tuan is theory of differential equations",
+   "Yi-Fu Tuan is mathematical logic",
+   "Yi-Fu Tuan is differential geometry",
+   "Yi-Fu Tuan is translations from Occitan",
+   "Yi-Fu Tuan is lyric poetry",
+   "Yi-Fu Tuan is belletristic literature",
+   "Yi-Fu Tuan is harmonic analysis",
+   "Yi-Fu Tuan is quantum mechanics",
+   "Yi-Fu Tuan is computer science",
+   "Yi-Fu Tuan is genetics",
+   "Yi-Fu Tuan is hyperbolic geometry",
+   "Yi-Fu Tuan is civil rights",
+   "Yi-Fu Tuan is literary translation",
+   "Yi-Fu Tuan is meteorology",
+   "Yi-Fu Tuan is ontology",
+   "Yi-Fu Tuan is electromagnetic field",
+   "Yi-Fu Tuan is opera",
+   "Yi-Fu Tuan is Lie algebra",
+   "Yi-Fu Tuan is detective literature",
+   "Yi-Fu Tuan is engineering",
+   "Yi-Fu Tuan is applied mathematics",
+   "Yi-Fu Tuan is Judaism",
+   "Yi-Fu Tuan is choreography",
+   "Yi-Fu Tuan is cybernetics",
+   "Yi-Fu Tuan is Cairo Geniza",
+   "Yi-Fu Tuan is religion and society",
+   "Yi-Fu Tuan is a branch of physics",
+   "Yi-Fu Tuan is non-Euclidean geometry",
+   "Yi-Fu Tuan is nanotechnology",
+   "Yi-Fu Tuan is aeromechanics",
+   "Yi-Fu Tuan is sociology",
+   "Yi-Fu Tuan is Jewish philosophy",
+   "Yi-Fu Tuan is magnetic field",
+   "Yi-Fu Tuan is aerodynamics",
+   "Yi-Fu Tuan is radiation",
+   "Yi-Fu Tuan is mathematical analysis",
+   "Yi-Fu Tuan is cartography",
+   "Yi-Fu Tuan is study of history",
+   "Yi-Fu Tuan is poetry"
+  ],
+  [
+   [
+    -53.197471618652344
+   ],
+   [
+    -45.691463470458984
+   ],
+   [
+    -49.88587188720703
+   ],
+   [
+    -45.44765090942383
+   ],
+   [
+    -42.34468460083008
+   ],
+   [
+    -45.36342239379883
+   ],
+   [
+    -42.51970672607422
+   ],
+   [
+    -44.41474533081055
+   ],
+   [
+    -38.93867874145508
+   ],
+   [
+    -45.2320671081543
+   ],
+   [
+    -46.40763854980469
+   ],
+   [
+    -44.9712028503418
+   ],
+   [
+    -45.54108810424805
+   ],
+   [
+    -42.06959533691406
+   ],
+   [
+    -43.63877487182617
+   ],
+   [
+    -44.58001708984375
+   ],
+   [
+    -43.81818771362305
+   ],
+   [
+    -46.24709701538086
+   ],
+   [
+    -41.71786117553711
+   ],
+   [
+    -45.1514778137207
+   ],
+   [
+    -47.64070510864258
+   ],
+   [
+    -43.34606170654297
+   ],
+   [
+    -44.189632415771484
+   ],
+   [
+    -47.5425910949707
+   ],
+   [
+    -46.43742752075195
+   ],
+   [
+    -43.16400909423828
+   ],
+   [
+    -44.51015853881836
+   ],
+   [
+    -40.212928771972656
+   ],
+   [
+    -40.621273040771484
+   ],
+   [
+    -54.00697326660156
+   ],
+   [
+    -43.15236282348633
+   ],
+   [
+    -51.72943115234375
+   ],
+   [
+    -42.86308670043945
+   ],
+   [
+    -50.4624137878418
+   ],
+   [
+    -48.98427963256836
+   ],
+   [
+    -48.33232116699219
+   ],
+   [
+    -47.37983703613281
+   ],
+   [
+    -42.36475372314453
+   ],
+   [
+    -42.769554138183594
+   ],
+   [
+    -45.55191421508789
+   ],
+   [
+    -46.306983947753906
+   ],
+   [
+    -42.33897018432617
+   ],
+   [
+    -48.553955078125
+   ],
+   [
+    -44.37202835083008
+   ],
+   [
+    -44.66368103027344
+   ],
+   [
+    -41.203468322753906
+   ],
+   [
+    -42.415950775146484
+   ],
+   [
+    -45.290897369384766
+   ],
+   [
+    -50.003753662109375
+   ],
+   [
+    -49.58547592163086
+   ],
+   [
+    -41.883056640625
+   ],
+   [
+    -41.76350021362305
+   ],
+   [
+    -43.70223617553711
+   ],
+   [
+    -44.05745315551758
+   ],
+   [
+    -52.04658508300781
+   ],
+   [
+    -41.79228973388672
+   ],
+   [
+    -44.65631103515625
+   ],
+   [
+    -46.58913803100586
+   ],
+   [
+    -42.0775146484375
+   ],
+   [
+    -41.44693374633789
+   ],
+   [
+    -44.22817611694336
+   ],
+   [
+    -51.170074462890625
+   ],
+   [
+    -43.57392120361328
+   ],
+   [
+    -40.76383590698242
+   ],
+   [
+    -63.69297790527344
+   ],
+   [
+    -36.942596435546875
+   ],
+   [
+    -45.6778678894043
+   ],
+   [
+    -44.62730026245117
+   ],
+   [
+    -44.86673355102539
+   ],
+   [
+    -51.5287971496582
+   ],
+   [
+    -48.16590881347656
+   ],
+   [
+    -43.7575569152832
+   ],
+   [
+    -41.65850067138672
+   ],
+   [
+    -46.8449821472168
+   ],
+   [
+    -37.542789459228516
+   ],
+   [
+    -48.868045806884766
+   ],
+   [
+    -45.1338005065918
+   ],
+   [
+    -49.5836296081543
+   ],
+   [
+    -46.64988327026367
+   ],
+   [
+    -43.5260009765625
+   ],
+   [
+    -44.83695602416992
+   ],
+   [
+    -40.75877380371094
+   ],
+   [
+    -46.52796936035156
+   ],
+   [
+    -47.88016128540039
+   ],
+   [
+    -47.7482795715332
+   ],
+   [
+    -43.26599884033203
+   ],
+   [
+    -49.7432746887207
+   ],
+   [
+    -46.33275604248047
+   ],
+   [
+    -46.83826446533203
+   ],
+   [
+    -45.00125503540039
+   ],
+   [
+    -44.664894104003906
+   ],
+   [
+    -40.55238723754883
+   ],
+   [
+    -49.20109939575195
+   ],
+   [
+    -43.988433837890625
+   ],
+   [
+    -43.93285369873047
+   ],
+   [
+    -45.47950744628906
+   ],
+   [
+    -43.946258544921875
+   ],
+   [
+    -46.291446685791016
+   ],
+   [
+    -39.7088508605957
+   ],
+   [
+    -46.314579010009766
+   ],
+   [
+    -57.50264358520508
+   ],
+   [
+    -50.06576156616211
+   ],
+   [
+    -42.962310791015625
+   ],
+   [
+    -47.65538024902344
+   ],
+   [
+    -38.90422821044922
+   ],
+   [
+    -39.35199737548828
+   ],
+   [
+    -51.19998550415039
+   ],
+   [
+    -54.653900146484375
+   ],
+   [
+    -36.528018951416016
+   ],
+   [
+    -46.0167350769043
+   ],
+   [
+    -45.55105209350586
+   ],
+   [
+    -34.56277847290039
+   ],
+   [
+    -40.617122650146484
+   ],
+   [
+    -40.36711502075195
+   ],
+   [
+    -42.59809112548828
+   ],
+   [
+    -43.644378662109375
+   ],
+   [
+    -38.36436462402344
+   ],
+   [
+    -42.65431594848633
+   ],
+   [
+    -49.562137603759766
+   ],
+   [
+    -46.88856887817383
+   ],
+   [
+    -41.255130767822266
+   ],
+   [
+    -49.94786834716797
+   ],
+   [
+    -44.85452651977539
+   ],
+   [
+    -45.197261810302734
+   ],
+   [
+    -50.48524856567383
+   ],
+   [
+    -42.56822204589844
+   ],
+   [
+    -43.360172271728516
+   ],
+   [
+    -44.51435089111328
+   ],
+   [
+    -37.051513671875
+   ],
+   [
+    -42.022422790527344
+   ],
+   [
+    -45.82049560546875
+   ],
+   [
+    -44.12271499633789
+   ],
+   [
+    -41.71772766113281
+   ],
+   [
+    -37.464630126953125
+   ],
+   [
+    -42.90966033935547
+   ],
+   [
+    -45.3841438293457
+   ],
+   [
+    -45.745948791503906
+   ],
+   [
+    -48.53510665893555
+   ],
+   [
+    -48.57464599609375
+   ],
+   [
+    -44.41301345825195
+   ],
+   [
+    -46.70330047607422
+   ],
+   [
+    -49.55978775024414
+   ],
+   [
+    -46.13860321044922
+   ],
+   [
+    -50.0119514465332
+   ],
+   [
+    -39.82989501953125
+   ],
+   [
+    -52.232234954833984
+   ],
+   [
+    -39.89567184448242
+   ],
+   [
+    -49.05232620239258
+   ],
+   [
+    -43.0576171875
+   ],
+   [
+    -40.1171989440918
+   ],
+   [
+    -44.49891662597656
+   ],
+   [
+    -58.21516799926758
+   ],
+   [
+    -45.09420394897461
+   ],
+   [
+    -46.90904998779297
+   ],
+   [
+    -42.10954666137695
+   ],
+   [
+    -51.4833984375
+   ],
+   [
+    -46.27220916748047
+   ],
+   [
+    -44.116634368896484
+   ],
+   [
+    -45.29399871826172
+   ],
+   [
+    -47.06971740722656
+   ],
+   [
+    -44.183128356933594
+   ],
+   [
+    -43.648399353027344
+   ],
+   [
+    -42.88207244873047
+   ],
+   [
+    -38.33230209350586
+   ],
+   [
+    -41.60993957519531
+   ],
+   [
+    -41.94255447387695
+   ],
+   [
+    -44.68995666503906
+   ],
+   [
+    -39.62435531616211
+   ],
+   [
+    -39.030029296875
+   ],
+   [
+    -45.29896926879883
+   ],
+   [
+    -41.95771026611328
+   ],
+   [
+    -43.33575439453125
+   ],
+   [
+    -47.4404411315918
+   ],
+   [
+    -45.076393127441406
+   ],
+   [
+    -50.06198501586914
+   ],
+   [
+    -46.06970977783203
+   ],
+   [
+    -40.29651641845703
+   ],
+   [
+    -48.83472442626953
+   ],
+   [
+    -39.57904052734375
+   ],
+   [
+    -51.949649810791016
+   ],
+   [
+    -46.06181716918945
+   ],
+   [
+    -59.35688018798828
+   ],
+   [
+    -42.631248474121094
+   ],
+   [
+    -43.88922119140625
+   ],
+   [
+    -58.315696716308594
+   ],
+   [
+    -47.21633529663086
+   ],
+   [
+    -53.74885177612305
+   ],
+   [
+    -46.90738296508789
+   ],
+   [
+    -41.332096099853516
+   ],
+   [
+    -42.5186653137207
+   ],
+   [
+    -45.08108901977539
+   ],
+   [
+    -45.830902099609375
+   ],
+   [
+    -45.690223693847656
+   ],
+   [
+    -45.440731048583984
+   ],
+   [
+    -43.28939437866211
+   ],
+   [
+    -36.96400451660156
+   ],
+   [
+    -47.40648651123047
+   ],
+   [
+    -44.8786735534668
+   ],
+   [
+    -49.60939407348633
+   ],
+   [
+    -52.34625244140625
+   ],
+   [
+    -42.280147552490234
+   ],
+   [
+    -43.589263916015625
+   ],
+   [
+    -49.8502311706543
+   ],
+   [
+    -46.81767654418945
+   ],
+   [
+    -41.232452392578125
+   ],
+   [
+    -58.086753845214844
+   ],
+   [
+    -45.89826583862305
+   ],
+   [
+    -47.16541290283203
+   ],
+   [
+    -44.768165588378906
+   ],
+   [
+    -42.509368896484375
+   ],
+   [
+    -52.7606315612793
+   ],
+   [
+    -37.6748046875
+   ],
+   [
+    -50.468875885009766
+   ],
+   [
+    -50.437252044677734
+   ],
+   [
+    -49.229610443115234
+   ],
+   [
+    -44.91660690307617
+   ],
+   [
+    -44.66352844238281
+   ],
+   [
+    -38.652591705322266
+   ],
+   [
+    -46.93296813964844
+   ],
+   [
+    -42.44676208496094
+   ],
+   [
+    -39.7884635925293
+   ],
+   [
+    -34.37871170043945
+   ],
+   [
+    -37.42093276977539
+   ],
+   [
+    -36.20640563964844
+   ],
+   [
+    -27.15536117553711
+   ],
+   [
+    -31.630298614501953
+   ],
+   [
+    -32.630496978759766
+   ],
+   [
+    -31.324016571044922
+   ],
+   [
+    -29.83606719970703
+   ],
+   [
+    -35.16615295410156
+   ],
+   [
+    -34.06521987915039
+   ],
+   [
+    -35.05637741088867
+   ],
+   [
+    -35.235713958740234
+   ],
+   [
+    -32.42843246459961
+   ],
+   [
+    -31.364383697509766
+   ],
+   [
+    -31.897375106811523
+   ],
+   [
+    -34.39690017700195
+   ],
+   [
+    -32.60353088378906
+   ],
+   [
+    -31.44720458984375
+   ],
+   [
+    -30.064899444580078
+   ],
+   [
+    -27.695356369018555
+   ],
+   [
+    -30.471433639526367
+   ],
+   [
+    -30.152603149414062
+   ],
+   [
+    -39.74463653564453
+   ],
+   [
+    -27.68182373046875
+   ],
+   [
+    -33.55238723754883
+   ],
+   [
+    -32.207115173339844
+   ],
+   [
+    -29.363292694091797
+   ],
+   [
+    -30.148588180541992
+   ],
+   [
+    -46.22910690307617
+   ],
+   [
+    -31.131954193115234
+   ],
+   [
+    -35.99271774291992
+   ],
+   [
+    -31.28522491455078
+   ],
+   [
+    -38.760902404785156
+   ],
+   [
+    -38.53661346435547
+   ],
+   [
+    -38.2967643737793
+   ],
+   [
+    -32.822322845458984
+   ],
+   [
+    -31.67215347290039
+   ],
+   [
+    -35.10624313354492
+   ],
+   [
+    -32.43742370605469
+   ],
+   [
+    -35.82381057739258
+   ],
+   [
+    -29.15456199645996
+   ],
+   [
+    -34.743858337402344
+   ],
+   [
+    -33.175926208496094
+   ],
+   [
+    -35.67885971069336
+   ],
+   [
+    -30.04950523376465
+   ],
+   [
+    -30.364891052246094
+   ],
+   [
+    -36.806373596191406
+   ],
+   [
+    -39.448646545410156
+   ],
+   [
+    -37.559608459472656
+   ],
+   [
+    -29.32868766784668
+   ],
+   [
+    -34.05768585205078
+   ],
+   [
+    -36.16358947753906
+   ],
+   [
+    -31.32545280456543
+   ],
+   [
+    -35.555076599121094
+   ],
+   [
+    -24.336402893066406
+   ],
+   [
+    -33.74055099487305
+   ],
+   [
+    -31.80753517150879
+   ],
+   [
+    -29.196006774902344
+   ],
+   [
+    -31.865528106689453
+   ],
+   [
+    -37.614593505859375
+   ],
+   [
+    -38.677162170410156
+   ],
+   [
+    -31.66242218017578
+   ],
+   [
+    -30.194334030151367
+   ],
+   [
+    -52.1779899597168
+   ],
+   [
+    -29.6588134765625
+   ],
+   [
+    -29.23276710510254
+   ],
+   [
+    -30.501449584960938
+   ],
+   [
+    -33.57207107543945
+   ],
+   [
+    -42.83269119262695
+   ],
+   [
+    -36.000328063964844
+   ],
+   [
+    -29.377012252807617
+   ],
+   [
+    -30.612394332885742
+   ],
+   [
+    -38.28582763671875
+   ],
+   [
+    -30.03696060180664
+   ],
+   [
+    -39.57733917236328
+   ],
+   [
+    -34.91456604003906
+   ],
+   [
+    -38.755584716796875
+   ],
+   [
+    -36.17371368408203
+   ],
+   [
+    -32.39732360839844
+   ],
+   [
+    -32.771697998046875
+   ],
+   [
+    -32.678802490234375
+   ],
+   [
+    -29.96833038330078
+   ],
+   [
+    -37.15888214111328
+   ],
+   [
+    -29.700780868530273
+   ],
+   [
+    -30.250886917114258
+   ],
+   [
+    -36.63685607910156
+   ],
+   [
+    -37.54127502441406
+   ],
+   [
+    -34.49174880981445
+   ],
+   [
+    -30.717012405395508
+   ],
+   [
+    -30.4864501953125
+   ],
+   [
+    -28.380878448486328
+   ],
+   [
+    -40.988037109375
+   ],
+   [
+    -30.84424591064453
+   ],
+   [
+    -31.936737060546875
+   ],
+   [
+    -32.991031646728516
+   ],
+   [
+    -26.315176010131836
+   ],
+   [
+    -43.133766174316406
+   ],
+   [
+    -28.221111297607422
+   ],
+   [
+    -38.214439392089844
+   ],
+   [
+    -38.610382080078125
+   ],
+   [
+    -44.40834426879883
+   ],
+   [
+    -33.56468963623047
+   ],
+   [
+    -36.168617248535156
+   ],
+   [
+    -29.82605743408203
+   ],
+   [
+    -31.060440063476562
+   ],
+   [
+    -37.57077407836914
+   ],
+   [
+    -44.16356658935547
+   ],
+   [
+    -29.93250274658203
+   ],
+   [
+    -33.191383361816406
+   ],
+   [
+    -33.271053314208984
+   ],
+   [
+    -25.33981704711914
+   ],
+   [
+    -29.327434539794922
+   ],
+   [
+    -29.815963745117188
+   ],
+   [
+    -34.58274841308594
+   ],
+   [
+    -38.43666076660156
+   ],
+   [
+    -30.292739868164062
+   ],
+   [
+    -34.03778076171875
+   ],
+   [
+    -40.843505859375
+   ],
+   [
+    -32.24127197265625
+   ],
+   [
+    -29.858348846435547
+   ],
+   [
+    -38.05651092529297
+   ],
+   [
+    -30.031818389892578
+   ],
+   [
+    -35.21858596801758
+   ],
+   [
+    -39.863643646240234
+   ],
+   [
+    -31.94678497314453
+   ],
+   [
+    -31.555662155151367
+   ],
+   [
+    -38.656349182128906
+   ],
+   [
+    -28.072696685791016
+   ],
+   [
+    -33.37786865234375
+   ],
+   [
+    -38.07025909423828
+   ],
+   [
+    -33.3346061706543
+   ],
+   [
+    -32.40485382080078
+   ],
+   [
+    -28.024030685424805
+   ],
+   [
+    -30.298099517822266
+   ],
+   [
+    -35.88006591796875
+   ],
+   [
+    -34.664710998535156
+   ],
+   [
+    -41.81143569946289
+   ],
+   [
+    -40.52392578125
+   ],
+   [
+    -36.62794494628906
+   ],
+   [
+    -33.97130584716797
+   ],
+   [
+    -41.04547882080078
+   ],
+   [
+    -35.401817321777344
+   ],
+   [
+    -37.17922592163086
+   ],
+   [
+    -31.51409149169922
+   ],
+   [
+    -41.5079460144043
+   ],
+   [
+    -31.2427978515625
+   ],
+   [
+    -37.10664749145508
+   ],
+   [
+    -30.91163444519043
+   ],
+   [
+    -33.12386703491211
+   ],
+   [
+    -34.939361572265625
+   ],
+   [
+    -49.32439422607422
+   ],
+   [
+    -31.71044921875
+   ],
+   [
+    -38.291221618652344
+   ],
+   [
+    -28.784591674804688
+   ],
+   [
+    -40.572349548339844
+   ],
+   [
+    -37.95082473754883
+   ],
+   [
+    -34.57357406616211
+   ],
+   [
+    -33.5965690612793
+   ],
+   [
+    -39.97163009643555
+   ],
+   [
+    -35.37394332885742
+   ],
+   [
+    -29.968931198120117
+   ],
+   [
+    -36.39371109008789
+   ],
+   [
+    -29.280269622802734
+   ],
+   [
+    -33.34651565551758
+   ],
+   [
+    -28.50676727294922
+   ],
+   [
+    -32.89444351196289
+   ],
+   [
+    -28.234825134277344
+   ],
+   [
+    -31.446788787841797
+   ],
+   [
+    -35.87168502807617
+   ],
+   [
+    -33.968544006347656
+   ],
+   [
+    -29.826021194458008
+   ],
+   [
+    -33.34191131591797
+   ],
+   [
+    -35.150272369384766
+   ],
+   [
+    -30.447967529296875
+   ],
+   [
+    -38.191123962402344
+   ],
+   [
+    -32.3104248046875
+   ],
+   [
+    -39.88247299194336
+   ],
+   [
+    -30.679805755615234
+   ],
+   [
+    -42.06039047241211
+   ],
+   [
+    -36.07963562011719
+   ],
+   [
+    -51.212242126464844
+   ],
+   [
+    -34.26261520385742
+   ],
+   [
+    -34.31925582885742
+   ],
+   [
+    -48.445770263671875
+   ],
+   [
+    -35.593196868896484
+   ],
+   [
+    -43.88435363769531
+   ],
+   [
+    -35.94744110107422
+   ],
+   [
+    -31.796096801757812
+   ],
+   [
+    -29.321949005126953
+   ],
+   [
+    -32.54735565185547
+   ],
+   [
+    -37.22606658935547
+   ],
+   [
+    -32.735687255859375
+   ],
+   [
+    -37.10079574584961
+   ],
+   [
+    -33.57620620727539
+   ],
+   [
+    -28.570228576660156
+   ],
+   [
+    -35.95359802246094
+   ],
+   [
+    -31.275503158569336
+   ],
+   [
+    -35.577613830566406
+   ],
+   [
+    -43.215232849121094
+   ],
+   [
+    -30.649330139160156
+   ],
+   [
+    -33.05414962768555
+   ],
+   [
+    -32.400413513183594
+   ],
+   [
+    -38.82630920410156
+   ],
+   [
+    -32.82171630859375
+   ],
+   [
+    -43.55763626098633
+   ],
+   [
+    -34.59025192260742
+   ],
+   [
+    -35.489402770996094
+   ],
+   [
+    -34.09968566894531
+   ],
+   [
+    -31.60456085205078
+   ],
+   [
+    -37.760528564453125
+   ],
+   [
+    -27.099224090576172
+   ],
+   [
+    -37.107418060302734
+   ],
+   [
+    -36.89875030517578
+   ],
+   [
+    -35.842140197753906
+   ],
+   [
+    -32.51769256591797
+   ],
+   [
+    -36.77344512939453
+   ],
+   [
+    -32.327003479003906
+   ],
+   [
+    -36.792205810546875
+   ],
+   [
+    -29.018835067749023
+   ]
+  ]
+ ],
+ "time": 96.21644353866577
+}

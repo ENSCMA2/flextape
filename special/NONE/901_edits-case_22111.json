@@ -1,0 +1,2076 @@
+{
+ "case_id": 22111,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "John Newport Langley"
+ },
+ "pre": [
+  [
+   "John Newport Langley is meteorology",
+   "John Newport Langley is radioactivity",
+   "John Newport Langley is complex function",
+   "John Newport Langley is histology",
+   "John Newport Langley is algebra",
+   "John Newport Langley is electron",
+   "John Newport Langley is quantum theory",
+   "John Newport Langley is applied mathematics",
+   "John Newport Langley is electricity",
+   "John Newport Langley is human geography",
+   "John Newport Langley is crystallography",
+   "John Newport Langley is chemistry",
+   "John Newport Langley is Jewish studies",
+   "John Newport Langley is topology",
+   "John Newport Langley is mathematical analysis",
+   "John Newport Langley is computational geometry",
+   "John Newport Langley is Petrine ministry",
+   "John Newport Langley is social psychology",
+   "John Newport Langley is genetics",
+   "John Newport Langley is informatics",
+   "John Newport Langley is shipbuilding",
+   "John Newport Langley is historical sociology",
+   "John Newport Langley is quantum mysticism",
+   "John Newport Langley is philosopher",
+   "John Newport Langley is Internet",
+   "John Newport Langley is gravity",
+   "John Newport Langley is theoretical physics",
+   "John Newport Langley is African studies",
+   "John Newport Langley is projective geometry",
+   "John Newport Langley is prose",
+   "John Newport Langley is momentum",
+   "John Newport Langley is Cairo Geniza",
+   "John Newport Langley is stochastic",
+   "John Newport Langley is algebraic topology",
+   "John Newport Langley is electrical engineering",
+   "John Newport Langley is hunting",
+   "John Newport Langley is evolution",
+   "John Newport Langley is economic anthropology",
+   "John Newport Langley is Hebrew",
+   "John Newport Langley is differential geometry",
+   "John Newport Langley is engineering",
+   "John Newport Langley is history of science",
+   "John Newport Langley is social anthropology",
+   "John Newport Langley is history",
+   "John Newport Langley is distribution theory",
+   "John Newport Langley is classics",
+   "John Newport Langley is crime novel",
+   "John Newport Langley is statistics",
+   "John Newport Langley is experimental physics",
+   "John Newport Langley is geography",
+   "John Newport Langley is anthropology",
+   "John Newport Langley is partial differential equation",
+   "John Newport Langley is applied physics",
+   "John Newport Langley is Sanskrit",
+   "John Newport Langley is a branch of physics",
+   "John Newport Langley is comparative mythology",
+   "John Newport Langley is radiation",
+   "John Newport Langley is aeromechanics",
+   "John Newport Langley is harmonic analysis",
+   "John Newport Langley is religion",
+   "John Newport Langley is civil rights",
+   "John Newport Langley is physicist",
+   "John Newport Langley is distribution",
+   "John Newport Langley is translations from Spanish",
+   "John Newport Langley is feminism",
+   "John Newport Langley is number theory",
+   "John Newport Langley is sociology of organisations",
+   "John Newport Langley is astronomer",
+   "John Newport Langley is children's and youth literature",
+   "John Newport Langley is fairy tale",
+   "John Newport Langley is economy",
+   "John Newport Langley is graph theory",
+   "John Newport Langley is magic",
+   "John Newport Langley is essay",
+   "John Newport Langley is theory of relativity",
+   "John Newport Langley is historical novel",
+   "John Newport Langley is biological anthropology",
+   "John Newport Langley is literary theory",
+   "John Newport Langley is Greek philology",
+   "John Newport Langley is lyric poetry",
+   "John Newport Langley is psychology",
+   "John Newport Langley is quaternion",
+   "John Newport Langley is rite",
+   "John Newport Langley is jazz",
+   "John Newport Langley is heat",
+   "John Newport Langley is embryology",
+   "John Newport Langley is social philosophy",
+   "John Newport Langley is dance choreography",
+   "John Newport Langley is politics",
+   "John Newport Langley is nanotechnology",
+   "John Newport Langley is Afghanistan",
+   "John Newport Langley is non-Euclidean geometry",
+   "John Newport Langley is Franciscan spirituality",
+   "John Newport Langley is detective literature",
+   "John Newport Langley is mathematician",
+   "John Newport Langley is String",
+   "John Newport Langley is classical music",
+   "John Newport Langley is translations from Occitan",
+   "John Newport Langley is abstract algebra",
+   "John Newport Langley is differential calculus",
+   "John Newport Langley is mythology",
+   "John Newport Langley is literary translation",
+   "John Newport Langley is ballistics",
+   "John Newport Langley is cryptography",
+   "John Newport Langley is Greek",
+   "John Newport Langley is logic",
+   "John Newport Langley is choreography",
+   "John Newport Langley is theology",
+   "John Newport Langley is world economy",
+   "John Newport Langley is magnetism",
+   "John Newport Langley is algebraic geometry",
+   "John Newport Langley is theory of differential equations",
+   "John Newport Langley is physics",
+   "John Newport Langley is music theory",
+   "John Newport Langley is economics",
+   "John Newport Langley is anatomy",
+   "John Newport Langley is electromagnetic field",
+   "John Newport Langley is analytic number theory",
+   "John Newport Langley is mathematical physics",
+   "John Newport Langley is journalism",
+   "John Newport Langley is sociology",
+   "John Newport Langley is literature",
+   "John Newport Langley is ethnography",
+   "John Newport Langley is belletristic literature",
+   "John Newport Langley is convex function",
+   "John Newport Langley is sociology of religion",
+   "John Newport Langley is pedagogy",
+   "John Newport Langley is philosophy",
+   "John Newport Langley is quantum mechanics",
+   "John Newport Langley is drama",
+   "John Newport Langley is dance",
+   "John Newport Langley is Judaism",
+   "John Newport Langley is quantum physics",
+   "John Newport Langley is philosophy of science",
+   "John Newport Langley is linguistics",
+   "John Newport Langley is myth",
+   "John Newport Langley is physiology",
+   "John Newport Langley is English",
+   "John Newport Langley is philology",
+   "John Newport Langley is political philosophy",
+   "John Newport Langley is mechanical engineering",
+   "John Newport Langley is ontology",
+   "John Newport Langley is forestry",
+   "John Newport Langley is aerodynamics",
+   "John Newport Langley is Christian Church",
+   "John Newport Langley is magnetic resonance",
+   "John Newport Langley is astrophysics",
+   "John Newport Langley is natural science",
+   "John Newport Langley is constitutional law",
+   "John Newport Langley is philosophy of law",
+   "John Newport Langley is education",
+   "John Newport Langley is Monte Carlo method",
+   "John Newport Langley is neurology",
+   "John Newport Langley is electric field",
+   "John Newport Langley is Minkowski spacetime",
+   "John Newport Langley is translations from Arabic language",
+   "John Newport Langley is Bayesian inference",
+   "John Newport Langley is translations from Polish",
+   "John Newport Langley is color photography",
+   "John Newport Langley is opera",
+   "John Newport Langley is model theory",
+   "John Newport Langley is cartography",
+   "John Newport Langley is nonstandard analysis",
+   "John Newport Langley is television program",
+   "John Newport Langley is complex manifold",
+   "John Newport Langley is poetry",
+   "John Newport Langley is mathematics",
+   "John Newport Langley is computer science",
+   "John Newport Langley is cosmology",
+   "John Newport Langley is silviculture",
+   "John Newport Langley is hydrodynamics",
+   "John Newport Langley is forestry science",
+   "John Newport Langley is comparative religion",
+   "John Newport Langley is information technology",
+   "John Newport Langley is ballet",
+   "John Newport Langley is English literature",
+   "John Newport Langley is conducting",
+   "John Newport Langley is hyperbolic geometry",
+   "John Newport Langley is biochemistry",
+   "John Newport Langley is religion and society",
+   "John Newport Langley is optics",
+   "John Newport Langley is ethics",
+   "John Newport Langley is cybernetics",
+   "John Newport Langley is astronomical observation",
+   "John Newport Langley is psychophysiology",
+   "John Newport Langley is culturology",
+   "John Newport Langley is history of religions",
+   "John Newport Langley is probability theory",
+   "John Newport Langley is paleontology",
+   "John Newport Langley is surgery",
+   "John Newport Langley is group theory",
+   "John Newport Langley is natural theology",
+   "John Newport Langley is astrology",
+   "John Newport Langley is quantum electrodynamics",
+   "John Newport Langley is mechanics",
+   "John Newport Langley is Lie algebra",
+   "John Newport Langley is trigonometry",
+   "John Newport Langley is literary activity",
+   "John Newport Langley is nuclear physics",
+   "John Newport Langley is translations from English",
+   "John Newport Langley is medicine",
+   "John Newport Langley is Jewish philosophy",
+   "John Newport Langley is mathematical logic",
+   "John Newport Langley is calculus of variations",
+   "John Newport Langley is ferromagnetism",
+   "John Newport Langley is analytic geometry",
+   "John Newport Langley is art of painting",
+   "John Newport Langley is functional analysis",
+   "John Newport Langley is folklore",
+   "John Newport Langley is study of history",
+   "John Newport Langley is geometry",
+   "John Newport Langley is positivism",
+   "John Newport Langley is geodesy",
+   "John Newport Langley is astronomy",
+   "John Newport Langley is magnetic field",
+   "John Newport Langley is kinetic theory",
+   "John Newport Langley is celestial mechanics",
+   "John Newport Langley is analytic philosophy",
+   "John Newport Langley is ethnology",
+   "John Newport Langley is history of economic thought",
+   "John Newport Langley's field of work is meteorology",
+   "John Newport Langley's field of work is radioactivity",
+   "John Newport Langley's field of work is complex function",
+   "John Newport Langley's field of work is histology",
+   "John Newport Langley's field of work is algebra",
+   "John Newport Langley's field of work is electron",
+   "John Newport Langley's field of work is quantum theory",
+   "John Newport Langley's field of work is applied mathematics",
+   "John Newport Langley's field of work is electricity",
+   "John Newport Langley's field of work is human geography",
+   "John Newport Langley's field of work is crystallography",
+   "John Newport Langley's field of work is chemistry",
+   "John Newport Langley's field of work is Jewish studies",
+   "John Newport Langley's field of work is topology",
+   "John Newport Langley's field of work is mathematical analysis",
+   "John Newport Langley's field of work is computational geometry",
+   "John Newport Langley's field of work is Petrine ministry",
+   "John Newport Langley's field of work is social psychology",
+   "John Newport Langley's field of work is genetics",
+   "John Newport Langley's field of work is informatics",
+   "John Newport Langley's field of work is shipbuilding",
+   "John Newport Langley's field of work is historical sociology",
+   "John Newport Langley's field of work is quantum mysticism",
+   "John Newport Langley's field of work is philosopher",
+   "John Newport Langley's field of work is Internet",
+   "John Newport Langley's field of work is gravity",
+   "John Newport Langley's field of work is theoretical physics",
+   "John Newport Langley's field of work is African studies",
+   "John Newport Langley's field of work is projective geometry",
+   "John Newport Langley's field of work is prose",
+   "John Newport Langley's field of work is momentum",
+   "John Newport Langley's field of work is Cairo Geniza",
+   "John Newport Langley's field of work is stochastic",
+   "John Newport Langley's field of work is algebraic topology",
+   "John Newport Langley's field of work is electrical engineering",
+   "John Newport Langley's field of work is hunting",
+   "John Newport Langley's field of work is evolution",
+   "John Newport Langley's field of work is economic anthropology",
+   "John Newport Langley's field of work is Hebrew",
+   "John Newport Langley's field of work is differential geometry",
+   "John Newport Langley's field of work is engineering",
+   "John Newport Langley's field of work is history of science",
+   "John Newport Langley's field of work is social anthropology",
+   "John Newport Langley's field of work is history",
+   "John Newport Langley's field of work is distribution theory",
+   "John Newport Langley's field of work is classics",
+   "John Newport Langley's field of work is crime novel",
+   "John Newport Langley's field of work is statistics",
+   "John Newport Langley's field of work is experimental physics",
+   "John Newport Langley's field of work is geography",
+   "John Newport Langley's field of work is anthropology",
+   "John Newport Langley's field of work is partial differential equation",
+   "John Newport Langley's field of work is applied physics",
+   "John Newport Langley's field of work is Sanskrit",
+   "John Newport Langley's field of work is a branch of physics",
+   "John Newport Langley's field of work is comparative mythology",
+   "John Newport Langley's field of work is radiation",
+   "John Newport Langley's field of work is aeromechanics",
+   "John Newport Langley's field of work is harmonic analysis",
+   "John Newport Langley's field of work is religion",
+   "John Newport Langley's field of work is civil rights",
+   "John Newport Langley's field of work is physicist",
+   "John Newport Langley's field of work is distribution",
+   "John Newport Langley's field of work is translations from Spanish",
+   "John Newport Langley's field of work is feminism",
+   "John Newport Langley's field of work is number theory",
+   "John Newport Langley's field of work is sociology of organisations",
+   "John Newport Langley's field of work is astronomer",
+   "John Newport Langley's field of work is children's and youth literature",
+   "John Newport Langley's field of work is fairy tale",
+   "John Newport Langley's field of work is economy",
+   "John Newport Langley's field of work is graph theory",
+   "John Newport Langley's field of work is magic",
+   "John Newport Langley's field of work is essay",
+   "John Newport Langley's field of work is theory of relativity",
+   "John Newport Langley's field of work is historical novel",
+   "John Newport Langley's field of work is biological anthropology",
+   "John Newport Langley's field of work is literary theory",
+   "John Newport Langley's field of work is Greek philology",
+   "John Newport Langley's field of work is lyric poetry",
+   "John Newport Langley's field of work is psychology",
+   "John Newport Langley's field of work is quaternion",
+   "John Newport Langley's field of work is rite",
+   "John Newport Langley's field of work is jazz",
+   "John Newport Langley's field of work is heat",
+   "John Newport Langley's field of work is embryology",
+   "John Newport Langley's field of work is social philosophy",
+   "John Newport Langley's field of work is dance choreography",
+   "John Newport Langley's field of work is politics",
+   "John Newport Langley's field of work is nanotechnology",
+   "John Newport Langley's field of work is Afghanistan",
+   "John Newport Langley's field of work is non-Euclidean geometry",
+   "John Newport Langley's field of work is Franciscan spirituality",
+   "John Newport Langley's field of work is detective literature",
+   "John Newport Langley's field of work is mathematician",
+   "John Newport Langley's field of work is String",
+   "John Newport Langley's field of work is classical music",
+   "John Newport Langley's field of work is translations from Occitan",
+   "John Newport Langley's field of work is abstract algebra",
+   "John Newport Langley's field of work is differential calculus",
+   "John Newport Langley's field of work is mythology",
+   "John Newport Langley's field of work is literary translation",
+   "John Newport Langley's field of work is ballistics",
+   "John Newport Langley's field of work is cryptography",
+   "John Newport Langley's field of work is Greek",
+   "John Newport Langley's field of work is logic",
+   "John Newport Langley's field of work is choreography",
+   "John Newport Langley's field of work is theology",
+   "John Newport Langley's field of work is world economy",
+   "John Newport Langley's field of work is magnetism",
+   "John Newport Langley's field of work is algebraic geometry",
+   "John Newport Langley's field of work is theory of differential equations",
+   "John Newport Langley's field of work is physics",
+   "John Newport Langley's field of work is music theory",
+   "John Newport Langley's field of work is economics",
+   "John Newport Langley's field of work is anatomy",
+   "John Newport Langley's field of work is electromagnetic field",
+   "John Newport Langley's field of work is analytic number theory",
+   "John Newport Langley's field of work is mathematical physics",
+   "John Newport Langley's field of work is journalism",
+   "John Newport Langley's field of work is sociology",
+   "John Newport Langley's field of work is literature",
+   "John Newport Langley's field of work is ethnography",
+   "John Newport Langley's field of work is belletristic literature",
+   "John Newport Langley's field of work is convex function",
+   "John Newport Langley's field of work is sociology of religion",
+   "John Newport Langley's field of work is pedagogy",
+   "John Newport Langley's field of work is philosophy",
+   "John Newport Langley's field of work is quantum mechanics",
+   "John Newport Langley's field of work is drama",
+   "John Newport Langley's field of work is dance",
+   "John Newport Langley's field of work is Judaism",
+   "John Newport Langley's field of work is quantum physics",
+   "John Newport Langley's field of work is philosophy of science",
+   "John Newport Langley's field of work is linguistics",
+   "John Newport Langley's field of work is myth",
+   "John Newport Langley's field of work is physiology",
+   "John Newport Langley's field of work is English",
+   "John Newport Langley's field of work is philology",
+   "John Newport Langley's field of work is political philosophy",
+   "John Newport Langley's field of work is mechanical engineering",
+   "John Newport Langley's field of work is ontology",
+   "John Newport Langley's field of work is forestry",
+   "John Newport Langley's field of work is aerodynamics",
+   "John Newport Langley's field of work is Christian Church",
+   "John Newport Langley's field of work is magnetic resonance",
+   "John Newport Langley's field of work is astrophysics",
+   "John Newport Langley's field of work is natural science",
+   "John Newport Langley's field of work is constitutional law",
+   "John Newport Langley's field of work is philosophy of law",
+   "John Newport Langley's field of work is education",
+   "John Newport Langley's field of work is Monte Carlo method",
+   "John Newport Langley's field of work is neurology",
+   "John Newport Langley's field of work is electric field",
+   "John Newport Langley's field of work is Minkowski spacetime",
+   "John Newport Langley's field of work is translations from Arabic language",
+   "John Newport Langley's field of work is Bayesian inference",
+   "John Newport Langley's field of work is translations from Polish",
+   "John Newport Langley's field of work is color photography",
+   "John Newport Langley's field of work is opera",
+   "John Newport Langley's field of work is model theory",
+   "John Newport Langley's field of work is cartography",
+   "John Newport Langley's field of work is nonstandard analysis",
+   "John Newport Langley's field of work is television program",
+   "John Newport Langley's field of work is complex manifold",
+   "John Newport Langley's field of work is poetry",
+   "John Newport Langley's field of work is mathematics",
+   "John Newport Langley's field of work is computer science",
+   "John Newport Langley's field of work is cosmology",
+   "John Newport Langley's field of work is silviculture",
+   "John Newport Langley's field of work is hydrodynamics",
+   "John Newport Langley's field of work is forestry science",
+   "John Newport Langley's field of work is comparative religion",
+   "John Newport Langley's field of work is information technology",
+   "John Newport Langley's field of work is ballet",
+   "John Newport Langley's field of work is English literature",
+   "John Newport Langley's field of work is conducting",
+   "John Newport Langley's field of work is hyperbolic geometry",
+   "John Newport Langley's field of work is biochemistry",
+   "John Newport Langley's field of work is religion and society",
+   "John Newport Langley's field of work is optics",
+   "John Newport Langley's field of work is ethics",
+   "John Newport Langley's field of work is cybernetics",
+   "John Newport Langley's field of work is astronomical observation",
+   "John Newport Langley's field of work is psychophysiology",
+   "John Newport Langley's field of work is culturology",
+   "John Newport Langley's field of work is history of religions",
+   "John Newport Langley's field of work is probability theory",
+   "John Newport Langley's field of work is paleontology",
+   "John Newport Langley's field of work is surgery",
+   "John Newport Langley's field of work is group theory",
+   "John Newport Langley's field of work is natural theology",
+   "John Newport Langley's field of work is astrology",
+   "John Newport Langley's field of work is quantum electrodynamics",
+   "John Newport Langley's field of work is mechanics",
+   "John Newport Langley's field of work is Lie algebra",
+   "John Newport Langley's field of work is trigonometry",
+   "John Newport Langley's field of work is literary activity",
+   "John Newport Langley's field of work is nuclear physics",
+   "John Newport Langley's field of work is translations from English",
+   "John Newport Langley's field of work is medicine",
+   "John Newport Langley's field of work is Jewish philosophy",
+   "John Newport Langley's field of work is mathematical logic",
+   "John Newport Langley's field of work is calculus of variations",
+   "John Newport Langley's field of work is ferromagnetism",
+   "John Newport Langley's field of work is analytic geometry",
+   "John Newport Langley's field of work is art of painting",
+   "John Newport Langley's field of work is functional analysis",
+   "John Newport Langley's field of work is folklore",
+   "John Newport Langley's field of work is study of history",
+   "John Newport Langley's field of work is geometry",
+   "John Newport Langley's field of work is positivism",
+   "John Newport Langley's field of work is geodesy",
+   "John Newport Langley's field of work is astronomy",
+   "John Newport Langley's field of work is magnetic field",
+   "John Newport Langley's field of work is kinetic theory",
+   "John Newport Langley's field of work is celestial mechanics",
+   "John Newport Langley's field of work is analytic philosophy",
+   "John Newport Langley's field of work is ethnology",
+   "John Newport Langley's field of work is history of economic thought"
+  ],
+  [
+   [
+    -39.073875427246094
+   ],
+   [
+    -43.87206268310547
+   ],
+   [
+    -50.27118682861328
+   ],
+   [
+    -40.2325439453125
+   ],
+   [
+    -38.73017501831055
+   ],
+   [
+    -37.99618911743164
+   ],
+   [
+    -42.30674362182617
+   ],
+   [
+    -38.80986785888672
+   ],
+   [
+    -38.67662048339844
+   ],
+   [
+    -41.417213439941406
+   ],
+   [
+    -41.77190399169922
+   ],
+   [
+    -38.526371002197266
+   ],
+   [
+    -47.11864471435547
+   ],
+   [
+    -42.71076965332031
+   ],
+   [
+    -43.898841857910156
+   ],
+   [
+    -44.80958557128906
+   ],
+   [
+    -56.32713317871094
+   ],
+   [
+    -40.60372543334961
+   ],
+   [
+    -40.914466857910156
+   ],
+   [
+    -44.78241729736328
+   ],
+   [
+    -40.27287292480469
+   ],
+   [
+    -45.251216888427734
+   ],
+   [
+    -50.27478790283203
+   ],
+   [
+    -35.36450958251953
+   ],
+   [
+    -35.60137176513672
+   ],
+   [
+    -39.65308380126953
+   ],
+   [
+    -39.75634002685547
+   ],
+   [
+    -44.02571105957031
+   ],
+   [
+    -46.3493537902832
+   ],
+   [
+    -37.04534149169922
+   ],
+   [
+    -40.06337356567383
+   ],
+   [
+    -51.19027328491211
+   ],
+   [
+    -44.825191497802734
+   ],
+   [
+    -42.9731559753418
+   ],
+   [
+    -40.490211486816406
+   ],
+   [
+    -35.769596099853516
+   ],
+   [
+    -37.60591125488281
+   ],
+   [
+    -46.03855895996094
+   ],
+   [
+    -38.2181282043457
+   ],
+   [
+    -43.91170883178711
+   ],
+   [
+    -36.21233367919922
+   ],
+   [
+    -43.22193145751953
+   ],
+   [
+    -40.746028900146484
+   ],
+   [
+    -34.80406951904297
+   ],
+   [
+    -47.64609909057617
+   ],
+   [
+    -38.59769058227539
+   ],
+   [
+    -45.304168701171875
+   ],
+   [
+    -37.62915802001953
+   ],
+   [
+    -41.71369934082031
+   ],
+   [
+    -38.47513198852539
+   ],
+   [
+    -38.33525466918945
+   ],
+   [
+    -51.32058334350586
+   ],
+   [
+    -39.28649139404297
+   ],
+   [
+    -39.402435302734375
+   ],
+   [
+    -46.64168167114258
+   ],
+   [
+    -43.40791702270508
+   ],
+   [
+    -38.88258361816406
+   ],
+   [
+    -44.58372497558594
+   ],
+   [
+    -46.464134216308594
+   ],
+   [
+    -37.27144241333008
+   ],
+   [
+    -38.67110061645508
+   ],
+   [
+    -35.69537353515625
+   ],
+   [
+    -38.72214126586914
+   ],
+   [
+    -49.123592376708984
+   ],
+   [
+    -40.22333908081055
+   ],
+   [
+    -45.12610626220703
+   ],
+   [
+    -51.32029724121094
+   ],
+   [
+    -36.44873809814453
+   ],
+   [
+    -49.080535888671875
+   ],
+   [
+    -42.94234085083008
+   ],
+   [
+    -39.168392181396484
+   ],
+   [
+    -41.569793701171875
+   ],
+   [
+    -36.96262741088867
+   ],
+   [
+    -36.635887145996094
+   ],
+   [
+    -42.54822540283203
+   ],
+   [
+    -40.50591278076172
+   ],
+   [
+    -43.432708740234375
+   ],
+   [
+    -44.48609161376953
+   ],
+   [
+    -51.20766067504883
+   ],
+   [
+    -43.34423828125
+   ],
+   [
+    -38.31830978393555
+   ],
+   [
+    -44.11688995361328
+   ],
+   [
+    -39.920135498046875
+   ],
+   [
+    -36.254302978515625
+   ],
+   [
+    -38.73735427856445
+   ],
+   [
+    -40.217594146728516
+   ],
+   [
+    -43.79114532470703
+   ],
+   [
+    -49.5981330871582
+   ],
+   [
+    -37.71406936645508
+   ],
+   [
+    -39.302547454833984
+   ],
+   [
+    -39.41667556762695
+   ],
+   [
+    -43.61952590942383
+   ],
+   [
+    -47.57368087768555
+   ],
+   [
+    -49.292877197265625
+   ],
+   [
+    -35.43416213989258
+   ],
+   [
+    -38.539249420166016
+   ],
+   [
+    -37.952056884765625
+   ],
+   [
+    -53.40372085571289
+   ],
+   [
+    -44.37693405151367
+   ],
+   [
+    -45.05242919921875
+   ],
+   [
+    -39.36154556274414
+   ],
+   [
+    -46.679603576660156
+   ],
+   [
+    -42.15593719482422
+   ],
+   [
+    -38.92576217651367
+   ],
+   [
+    -37.63383102416992
+   ],
+   [
+    -38.7773323059082
+   ],
+   [
+    -45.61170196533203
+   ],
+   [
+    -36.80596923828125
+   ],
+   [
+    -45.423545837402344
+   ],
+   [
+    -41.65281677246094
+   ],
+   [
+    -42.65656661987305
+   ],
+   [
+    -48.239654541015625
+   ],
+   [
+    -36.69923400878906
+   ],
+   [
+    -41.385162353515625
+   ],
+   [
+    -36.10117721557617
+   ],
+   [
+    -39.31513595581055
+   ],
+   [
+    -44.59602355957031
+   ],
+   [
+    -43.472511291503906
+   ],
+   [
+    -41.16447830200195
+   ],
+   [
+    -37.19637680053711
+   ],
+   [
+    -37.47678756713867
+   ],
+   [
+    -36.77410888671875
+   ],
+   [
+    -40.5430908203125
+   ],
+   [
+    -53.56625747680664
+   ],
+   [
+    -47.26274108886719
+   ],
+   [
+    -43.691192626953125
+   ],
+   [
+    -42.92857360839844
+   ],
+   [
+    -36.59115219116211
+   ],
+   [
+    -41.037532806396484
+   ],
+   [
+    -38.60966110229492
+   ],
+   [
+    -39.41610336303711
+   ],
+   [
+    -40.028804779052734
+   ],
+   [
+    -40.405067443847656
+   ],
+   [
+    -41.583580017089844
+   ],
+   [
+    -37.521141052246094
+   ],
+   [
+    -37.370941162109375
+   ],
+   [
+    -39.566436767578125
+   ],
+   [
+    -33.75040817260742
+   ],
+   [
+    -41.92225646972656
+   ],
+   [
+    -42.494110107421875
+   ],
+   [
+    -41.30051040649414
+   ],
+   [
+    -39.58942413330078
+   ],
+   [
+    -39.51841735839844
+   ],
+   [
+    -41.42844009399414
+   ],
+   [
+    -42.62995529174805
+   ],
+   [
+    -47.79466247558594
+   ],
+   [
+    -39.2297477722168
+   ],
+   [
+    -40.64420700073242
+   ],
+   [
+    -39.890480041503906
+   ],
+   [
+    -43.49021530151367
+   ],
+   [
+    -35.37234115600586
+   ],
+   [
+    -53.97081756591797
+   ],
+   [
+    -38.44154739379883
+   ],
+   [
+    -44.826515197753906
+   ],
+   [
+    -49.61296844482422
+   ],
+   [
+    -55.68738555908203
+   ],
+   [
+    -45.63308334350586
+   ],
+   [
+    -51.6097412109375
+   ],
+   [
+    -44.50913619995117
+   ],
+   [
+    -38.23939514160156
+   ],
+   [
+    -45.991050720214844
+   ],
+   [
+    -41.79975509643555
+   ],
+   [
+    -50.893798828125
+   ],
+   [
+    -44.43169403076172
+   ],
+   [
+    -49.78094482421875
+   ],
+   [
+    -36.075008392333984
+   ],
+   [
+    -37.082645416259766
+   ],
+   [
+    -36.6545295715332
+   ],
+   [
+    -38.40891647338867
+   ],
+   [
+    -41.61473083496094
+   ],
+   [
+    -41.6259765625
+   ],
+   [
+    -44.08039093017578
+   ],
+   [
+    -40.414093017578125
+   ],
+   [
+    -39.29987335205078
+   ],
+   [
+    -40.21932601928711
+   ],
+   [
+    -40.06543731689453
+   ],
+   [
+    -32.58290481567383
+   ],
+   [
+    -51.43663024902344
+   ],
+   [
+    -38.351253509521484
+   ],
+   [
+    -44.54991149902344
+   ],
+   [
+    -40.62568664550781
+   ],
+   [
+    -40.03265380859375
+   ],
+   [
+    -41.224735260009766
+   ],
+   [
+    -46.61919021606445
+   ],
+   [
+    -45.42034912109375
+   ],
+   [
+    -45.91655731201172
+   ],
+   [
+    -48.38713073730469
+   ],
+   [
+    -40.95036315917969
+   ],
+   [
+    -38.296409606933594
+   ],
+   [
+    -38.82878112792969
+   ],
+   [
+    -44.412750244140625
+   ],
+   [
+    -44.05113983154297
+   ],
+   [
+    -40.4736213684082
+   ],
+   [
+    -43.94097137451172
+   ],
+   [
+    -42.23386001586914
+   ],
+   [
+    -47.66493225097656
+   ],
+   [
+    -42.33123016357422
+   ],
+   [
+    -46.76766586303711
+   ],
+   [
+    -40.43879699707031
+   ],
+   [
+    -48.54756164550781
+   ],
+   [
+    -38.01845169067383
+   ],
+   [
+    -47.450653076171875
+   ],
+   [
+    -43.55914306640625
+   ],
+   [
+    -51.03985595703125
+   ],
+   [
+    -45.69829559326172
+   ],
+   [
+    -43.69316101074219
+   ],
+   [
+    -46.79755401611328
+   ],
+   [
+    -44.15821838378906
+   ],
+   [
+    -38.45657730102539
+   ],
+   [
+    -43.62995147705078
+   ],
+   [
+    -40.08906936645508
+   ],
+   [
+    -42.97037124633789
+   ],
+   [
+    -41.373531341552734
+   ],
+   [
+    -37.62753677368164
+   ],
+   [
+    -45.662841796875
+   ],
+   [
+    -43.58168029785156
+   ],
+   [
+    -43.519039154052734
+   ],
+   [
+    -40.74739074707031
+   ],
+   [
+    -40.053466796875
+   ],
+   [
+    -48.054412841796875
+   ],
+   [
+    -48.73780822753906
+   ],
+   [
+    -52.468772888183594
+   ],
+   [
+    -58.316619873046875
+   ],
+   [
+    -50.7593879699707
+   ],
+   [
+    -50.212562561035156
+   ],
+   [
+    -49.69562911987305
+   ],
+   [
+    -50.826080322265625
+   ],
+   [
+    -49.231937408447266
+   ],
+   [
+    -49.53044509887695
+   ],
+   [
+    -51.3734245300293
+   ],
+   [
+    -50.47980880737305
+   ],
+   [
+    -48.088165283203125
+   ],
+   [
+    -54.418861389160156
+   ],
+   [
+    -49.987857818603516
+   ],
+   [
+    -50.79378890991211
+   ],
+   [
+    -51.71881103515625
+   ],
+   [
+    -68.44290924072266
+   ],
+   [
+    -48.566078186035156
+   ],
+   [
+    -48.43098831176758
+   ],
+   [
+    -50.10898971557617
+   ],
+   [
+    -52.88654327392578
+   ],
+   [
+    -53.1824951171875
+   ],
+   [
+    -57.6280517578125
+   ],
+   [
+    -52.731910705566406
+   ],
+   [
+    -49.25116729736328
+   ],
+   [
+    -50.45433044433594
+   ],
+   [
+    -48.1875114440918
+   ],
+   [
+    -53.201316833496094
+   ],
+   [
+    -55.45105743408203
+   ],
+   [
+    -51.96609115600586
+   ],
+   [
+    -53.7765007019043
+   ],
+   [
+    -62.03898620605469
+   ],
+   [
+    -50.878578186035156
+   ],
+   [
+    -52.15555191040039
+   ],
+   [
+    -48.77638244628906
+   ],
+   [
+    -50.88973617553711
+   ],
+   [
+    -48.9468994140625
+   ],
+   [
+    -52.30767822265625
+   ],
+   [
+    -52.53362274169922
+   ],
+   [
+    -53.30347442626953
+   ],
+   [
+    -47.75638961791992
+   ],
+   [
+    -51.58671569824219
+   ],
+   [
+    -49.968685150146484
+   ],
+   [
+    -46.565059661865234
+   ],
+   [
+    -53.87168502807617
+   ],
+   [
+    -50.97602462768555
+   ],
+   [
+    -59.144081115722656
+   ],
+   [
+    -48.91511154174805
+   ],
+   [
+    -49.80297088623047
+   ],
+   [
+    -48.726829528808594
+   ],
+   [
+    -48.064186096191406
+   ],
+   [
+    -58.806983947753906
+   ],
+   [
+    -50.793663024902344
+   ],
+   [
+    -50.883358001708984
+   ],
+   [
+    -52.494346618652344
+   ],
+   [
+    -51.40388107299805
+   ],
+   [
+    -49.63813781738281
+   ],
+   [
+    -54.61772918701172
+   ],
+   [
+    -54.1927375793457
+   ],
+   [
+    -48.68063735961914
+   ],
+   [
+    -52.5931510925293
+   ],
+   [
+    -54.19334030151367
+   ],
+   [
+    -50.34334945678711
+   ],
+   [
+    -58.45842742919922
+   ],
+   [
+    -51.208580017089844
+   ],
+   [
+    -50.33218002319336
+   ],
+   [
+    -57.512596130371094
+   ],
+   [
+    -53.569705963134766
+   ],
+   [
+    -56.28086853027344
+   ],
+   [
+    -54.482933044433594
+   ],
+   [
+    -51.29224395751953
+   ],
+   [
+    -49.56101608276367
+   ],
+   [
+    -49.428043365478516
+   ],
+   [
+    -51.68967056274414
+   ],
+   [
+    -56.129493713378906
+   ],
+   [
+    -55.241146087646484
+   ],
+   [
+    -50.044456481933594
+   ],
+   [
+    -51.569114685058594
+   ],
+   [
+    -55.660850524902344
+   ],
+   [
+    -53.30193328857422
+   ],
+   [
+    -47.56072998046875
+   ],
+   [
+    -54.770294189453125
+   ],
+   [
+    -55.6302375793457
+   ],
+   [
+    -50.52650833129883
+   ],
+   [
+    -50.451377868652344
+   ],
+   [
+    -50.522945404052734
+   ],
+   [
+    -52.630985260009766
+   ],
+   [
+    -56.99012756347656
+   ],
+   [
+    -48.10719680786133
+   ],
+   [
+    -49.25186538696289
+   ],
+   [
+    -52.2226676940918
+   ],
+   [
+    -53.89836502075195
+   ],
+   [
+    -57.51949691772461
+   ],
+   [
+    -56.983009338378906
+   ],
+   [
+    -54.09498596191406
+   ],
+   [
+    -52.5135383605957
+   ],
+   [
+    -50.0897102355957
+   ],
+   [
+    -63.8617057800293
+   ],
+   [
+    -51.85576248168945
+   ],
+   [
+    -53.77183151245117
+   ],
+   [
+    -49.99884033203125
+   ],
+   [
+    -53.203948974609375
+   ],
+   [
+    -51.906124114990234
+   ],
+   [
+    -48.75645065307617
+   ],
+   [
+    -50.132659912109375
+   ],
+   [
+    -50.08869552612305
+   ],
+   [
+    -52.94028091430664
+   ],
+   [
+    -48.82707977294922
+   ],
+   [
+    -55.73612976074219
+   ],
+   [
+    -50.01167678833008
+   ],
+   [
+    -51.508544921875
+   ],
+   [
+    -59.887081146240234
+   ],
+   [
+    -46.57478713989258
+   ],
+   [
+    -51.035282135009766
+   ],
+   [
+    -47.37385559082031
+   ],
+   [
+    -49.3538932800293
+   ],
+   [
+    -52.996246337890625
+   ],
+   [
+    -56.13623809814453
+   ],
+   [
+    -49.91230010986328
+   ],
+   [
+    -49.35739517211914
+   ],
+   [
+    -48.252010345458984
+   ],
+   [
+    -48.19920349121094
+   ],
+   [
+    -49.404327392578125
+   ],
+   [
+    -60.78799057006836
+   ],
+   [
+    -57.47080993652344
+   ],
+   [
+    -51.80927276611328
+   ],
+   [
+    -49.961402893066406
+   ],
+   [
+    -46.81950378417969
+   ],
+   [
+    -48.93098449707031
+   ],
+   [
+    -50.932891845703125
+   ],
+   [
+    -49.91342544555664
+   ],
+   [
+    -53.11056137084961
+   ],
+   [
+    -48.80739212036133
+   ],
+   [
+    -49.86570739746094
+   ],
+   [
+    -48.070316314697266
+   ],
+   [
+    -50.51345443725586
+   ],
+   [
+    -48.956336975097656
+   ],
+   [
+    -47.84360122680664
+   ],
+   [
+    -50.38576126098633
+   ],
+   [
+    -49.526206970214844
+   ],
+   [
+    -50.038429260253906
+   ],
+   [
+    -49.80865478515625
+   ],
+   [
+    -49.76408767700195
+   ],
+   [
+    -50.69410705566406
+   ],
+   [
+    -56.67373275756836
+   ],
+   [
+    -51.4047966003418
+   ],
+   [
+    -47.68370056152344
+   ],
+   [
+    -49.7140998840332
+   ],
+   [
+    -50.766605377197266
+   ],
+   [
+    -52.25145721435547
+   ],
+   [
+    -47.224708557128906
+   ],
+   [
+    -63.57464599609375
+   ],
+   [
+    -48.79341125488281
+   ],
+   [
+    -53.83139419555664
+   ],
+   [
+    -57.51032638549805
+   ],
+   [
+    -64.06535339355469
+   ],
+   [
+    -51.75891876220703
+   ],
+   [
+    -61.08439636230469
+   ],
+   [
+    -50.910682678222656
+   ],
+   [
+    -51.21348190307617
+   ],
+   [
+    -55.51033020019531
+   ],
+   [
+    -48.54869842529297
+   ],
+   [
+    -58.61493682861328
+   ],
+   [
+    -57.047264099121094
+   ],
+   [
+    -57.926292419433594
+   ],
+   [
+    -48.87678146362305
+   ],
+   [
+    -46.706199645996094
+   ],
+   [
+    -49.74471664428711
+   ],
+   [
+    -48.28147888183594
+   ],
+   [
+    -54.059165954589844
+   ],
+   [
+    -51.33102798461914
+   ],
+   [
+    -54.814178466796875
+   ],
+   [
+    -49.370262145996094
+   ],
+   [
+    -49.77372741699219
+   ],
+   [
+    -51.71965408325195
+   ],
+   [
+    -49.7922248840332
+   ],
+   [
+    -49.97547149658203
+   ],
+   [
+    -53.35176467895508
+   ],
+   [
+    -47.871334075927734
+   ],
+   [
+    -54.23566436767578
+   ],
+   [
+    -48.28409194946289
+   ],
+   [
+    -49.36882019042969
+   ],
+   [
+    -49.58367156982422
+   ],
+   [
+    -53.14625549316406
+   ],
+   [
+    -51.56367492675781
+   ],
+   [
+    -54.0265007019043
+   ],
+   [
+    -55.2423095703125
+   ],
+   [
+    -51.20390319824219
+   ],
+   [
+    -48.70307159423828
+   ],
+   [
+    -49.51294708251953
+   ],
+   [
+    -54.348819732666016
+   ],
+   [
+    -51.21902847290039
+   ],
+   [
+    -49.332664489746094
+   ],
+   [
+    -52.24866485595703
+   ],
+   [
+    -50.619991302490234
+   ],
+   [
+    -57.88526916503906
+   ],
+   [
+    -51.123138427734375
+   ],
+   [
+    -57.718990325927734
+   ],
+   [
+    -50.38669967651367
+   ],
+   [
+    -57.477325439453125
+   ],
+   [
+    -47.37449264526367
+   ],
+   [
+    -55.45259475708008
+   ],
+   [
+    -49.77810287475586
+   ],
+   [
+    -56.37299346923828
+   ],
+   [
+    -54.65232467651367
+   ],
+   [
+    -52.8581657409668
+   ],
+   [
+    -56.918914794921875
+   ],
+   [
+    -52.62644577026367
+   ],
+   [
+    -49.667999267578125
+   ],
+   [
+    -55.076698303222656
+   ],
+   [
+    -49.74199295043945
+   ],
+   [
+    -54.035701751708984
+   ],
+   [
+    -50.82928466796875
+   ],
+   [
+    -47.000797271728516
+   ],
+   [
+    -52.41420364379883
+   ],
+   [
+    -53.71088409423828
+   ],
+   [
+    -51.066009521484375
+   ],
+   [
+    -50.5953369140625
+   ],
+   [
+    -49.602203369140625
+   ],
+   [
+    -56.546302795410156
+   ]
+  ]
+ ],
+ "time": 4632.674031257629
+}

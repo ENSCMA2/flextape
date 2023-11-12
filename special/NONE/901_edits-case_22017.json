@@ -1,0 +1,2076 @@
+{
+ "case_id": 22017,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Aleksey Krylov"
+ },
+ "pre": [
+  [
+   "Aleksey Krylov's field of work is meteorology",
+   "Aleksey Krylov's field of work is radioactivity",
+   "Aleksey Krylov's field of work is complex function",
+   "Aleksey Krylov's field of work is histology",
+   "Aleksey Krylov's field of work is algebra",
+   "Aleksey Krylov's field of work is electron",
+   "Aleksey Krylov's field of work is quantum theory",
+   "Aleksey Krylov's field of work is applied mathematics",
+   "Aleksey Krylov's field of work is electricity",
+   "Aleksey Krylov's field of work is human geography",
+   "Aleksey Krylov's field of work is crystallography",
+   "Aleksey Krylov's field of work is chemistry",
+   "Aleksey Krylov's field of work is Jewish studies",
+   "Aleksey Krylov's field of work is topology",
+   "Aleksey Krylov's field of work is mathematical analysis",
+   "Aleksey Krylov's field of work is computational geometry",
+   "Aleksey Krylov's field of work is Petrine ministry",
+   "Aleksey Krylov's field of work is social psychology",
+   "Aleksey Krylov's field of work is genetics",
+   "Aleksey Krylov's field of work is informatics",
+   "Aleksey Krylov's field of work is shipbuilding",
+   "Aleksey Krylov's field of work is historical sociology",
+   "Aleksey Krylov's field of work is quantum mysticism",
+   "Aleksey Krylov's field of work is philosopher",
+   "Aleksey Krylov's field of work is Internet",
+   "Aleksey Krylov's field of work is gravity",
+   "Aleksey Krylov's field of work is theoretical physics",
+   "Aleksey Krylov's field of work is African studies",
+   "Aleksey Krylov's field of work is projective geometry",
+   "Aleksey Krylov's field of work is prose",
+   "Aleksey Krylov's field of work is momentum",
+   "Aleksey Krylov's field of work is Cairo Geniza",
+   "Aleksey Krylov's field of work is stochastic",
+   "Aleksey Krylov's field of work is algebraic topology",
+   "Aleksey Krylov's field of work is electrical engineering",
+   "Aleksey Krylov's field of work is hunting",
+   "Aleksey Krylov's field of work is evolution",
+   "Aleksey Krylov's field of work is economic anthropology",
+   "Aleksey Krylov's field of work is Hebrew",
+   "Aleksey Krylov's field of work is differential geometry",
+   "Aleksey Krylov's field of work is engineering",
+   "Aleksey Krylov's field of work is history of science",
+   "Aleksey Krylov's field of work is social anthropology",
+   "Aleksey Krylov's field of work is history",
+   "Aleksey Krylov's field of work is distribution theory",
+   "Aleksey Krylov's field of work is classics",
+   "Aleksey Krylov's field of work is crime novel",
+   "Aleksey Krylov's field of work is statistics",
+   "Aleksey Krylov's field of work is experimental physics",
+   "Aleksey Krylov's field of work is geography",
+   "Aleksey Krylov's field of work is anthropology",
+   "Aleksey Krylov's field of work is partial differential equation",
+   "Aleksey Krylov's field of work is applied physics",
+   "Aleksey Krylov's field of work is Sanskrit",
+   "Aleksey Krylov's field of work is a branch of physics",
+   "Aleksey Krylov's field of work is comparative mythology",
+   "Aleksey Krylov's field of work is radiation",
+   "Aleksey Krylov's field of work is aeromechanics",
+   "Aleksey Krylov's field of work is harmonic analysis",
+   "Aleksey Krylov's field of work is religion",
+   "Aleksey Krylov's field of work is civil rights",
+   "Aleksey Krylov's field of work is physicist",
+   "Aleksey Krylov's field of work is distribution",
+   "Aleksey Krylov's field of work is translations from Spanish",
+   "Aleksey Krylov's field of work is feminism",
+   "Aleksey Krylov's field of work is number theory",
+   "Aleksey Krylov's field of work is sociology of organisations",
+   "Aleksey Krylov's field of work is astronomer",
+   "Aleksey Krylov's field of work is children's and youth literature",
+   "Aleksey Krylov's field of work is fairy tale",
+   "Aleksey Krylov's field of work is economy",
+   "Aleksey Krylov's field of work is graph theory",
+   "Aleksey Krylov's field of work is magic",
+   "Aleksey Krylov's field of work is essay",
+   "Aleksey Krylov's field of work is theory of relativity",
+   "Aleksey Krylov's field of work is historical novel",
+   "Aleksey Krylov's field of work is biological anthropology",
+   "Aleksey Krylov's field of work is literary theory",
+   "Aleksey Krylov's field of work is Greek philology",
+   "Aleksey Krylov's field of work is lyric poetry",
+   "Aleksey Krylov's field of work is psychology",
+   "Aleksey Krylov's field of work is quaternion",
+   "Aleksey Krylov's field of work is rite",
+   "Aleksey Krylov's field of work is jazz",
+   "Aleksey Krylov's field of work is heat",
+   "Aleksey Krylov's field of work is embryology",
+   "Aleksey Krylov's field of work is social philosophy",
+   "Aleksey Krylov's field of work is dance choreography",
+   "Aleksey Krylov's field of work is politics",
+   "Aleksey Krylov's field of work is nanotechnology",
+   "Aleksey Krylov's field of work is Afghanistan",
+   "Aleksey Krylov's field of work is non-Euclidean geometry",
+   "Aleksey Krylov's field of work is Franciscan spirituality",
+   "Aleksey Krylov's field of work is detective literature",
+   "Aleksey Krylov's field of work is mathematician",
+   "Aleksey Krylov's field of work is String",
+   "Aleksey Krylov's field of work is classical music",
+   "Aleksey Krylov's field of work is translations from Occitan",
+   "Aleksey Krylov's field of work is abstract algebra",
+   "Aleksey Krylov's field of work is differential calculus",
+   "Aleksey Krylov's field of work is mythology",
+   "Aleksey Krylov's field of work is literary translation",
+   "Aleksey Krylov's field of work is ballistics",
+   "Aleksey Krylov's field of work is cryptography",
+   "Aleksey Krylov's field of work is Greek",
+   "Aleksey Krylov's field of work is logic",
+   "Aleksey Krylov's field of work is choreography",
+   "Aleksey Krylov's field of work is theology",
+   "Aleksey Krylov's field of work is world economy",
+   "Aleksey Krylov's field of work is magnetism",
+   "Aleksey Krylov's field of work is algebraic geometry",
+   "Aleksey Krylov's field of work is theory of differential equations",
+   "Aleksey Krylov's field of work is physics",
+   "Aleksey Krylov's field of work is music theory",
+   "Aleksey Krylov's field of work is economics",
+   "Aleksey Krylov's field of work is anatomy",
+   "Aleksey Krylov's field of work is electromagnetic field",
+   "Aleksey Krylov's field of work is analytic number theory",
+   "Aleksey Krylov's field of work is mathematical physics",
+   "Aleksey Krylov's field of work is journalism",
+   "Aleksey Krylov's field of work is sociology",
+   "Aleksey Krylov's field of work is literature",
+   "Aleksey Krylov's field of work is ethnography",
+   "Aleksey Krylov's field of work is belletristic literature",
+   "Aleksey Krylov's field of work is convex function",
+   "Aleksey Krylov's field of work is sociology of religion",
+   "Aleksey Krylov's field of work is pedagogy",
+   "Aleksey Krylov's field of work is philosophy",
+   "Aleksey Krylov's field of work is quantum mechanics",
+   "Aleksey Krylov's field of work is drama",
+   "Aleksey Krylov's field of work is dance",
+   "Aleksey Krylov's field of work is Judaism",
+   "Aleksey Krylov's field of work is quantum physics",
+   "Aleksey Krylov's field of work is philosophy of science",
+   "Aleksey Krylov's field of work is linguistics",
+   "Aleksey Krylov's field of work is myth",
+   "Aleksey Krylov's field of work is physiology",
+   "Aleksey Krylov's field of work is English",
+   "Aleksey Krylov's field of work is philology",
+   "Aleksey Krylov's field of work is political philosophy",
+   "Aleksey Krylov's field of work is mechanical engineering",
+   "Aleksey Krylov's field of work is ontology",
+   "Aleksey Krylov's field of work is forestry",
+   "Aleksey Krylov's field of work is aerodynamics",
+   "Aleksey Krylov's field of work is Christian Church",
+   "Aleksey Krylov's field of work is magnetic resonance",
+   "Aleksey Krylov's field of work is astrophysics",
+   "Aleksey Krylov's field of work is natural science",
+   "Aleksey Krylov's field of work is constitutional law",
+   "Aleksey Krylov's field of work is philosophy of law",
+   "Aleksey Krylov's field of work is education",
+   "Aleksey Krylov's field of work is Monte Carlo method",
+   "Aleksey Krylov's field of work is neurology",
+   "Aleksey Krylov's field of work is electric field",
+   "Aleksey Krylov's field of work is Minkowski spacetime",
+   "Aleksey Krylov's field of work is translations from Arabic language",
+   "Aleksey Krylov's field of work is Bayesian inference",
+   "Aleksey Krylov's field of work is translations from Polish",
+   "Aleksey Krylov's field of work is color photography",
+   "Aleksey Krylov's field of work is opera",
+   "Aleksey Krylov's field of work is model theory",
+   "Aleksey Krylov's field of work is cartography",
+   "Aleksey Krylov's field of work is nonstandard analysis",
+   "Aleksey Krylov's field of work is television program",
+   "Aleksey Krylov's field of work is complex manifold",
+   "Aleksey Krylov's field of work is poetry",
+   "Aleksey Krylov's field of work is mathematics",
+   "Aleksey Krylov's field of work is computer science",
+   "Aleksey Krylov's field of work is cosmology",
+   "Aleksey Krylov's field of work is silviculture",
+   "Aleksey Krylov's field of work is hydrodynamics",
+   "Aleksey Krylov's field of work is forestry science",
+   "Aleksey Krylov's field of work is comparative religion",
+   "Aleksey Krylov's field of work is information technology",
+   "Aleksey Krylov's field of work is ballet",
+   "Aleksey Krylov's field of work is English literature",
+   "Aleksey Krylov's field of work is conducting",
+   "Aleksey Krylov's field of work is hyperbolic geometry",
+   "Aleksey Krylov's field of work is biochemistry",
+   "Aleksey Krylov's field of work is religion and society",
+   "Aleksey Krylov's field of work is optics",
+   "Aleksey Krylov's field of work is ethics",
+   "Aleksey Krylov's field of work is cybernetics",
+   "Aleksey Krylov's field of work is astronomical observation",
+   "Aleksey Krylov's field of work is psychophysiology",
+   "Aleksey Krylov's field of work is culturology",
+   "Aleksey Krylov's field of work is history of religions",
+   "Aleksey Krylov's field of work is probability theory",
+   "Aleksey Krylov's field of work is paleontology",
+   "Aleksey Krylov's field of work is surgery",
+   "Aleksey Krylov's field of work is group theory",
+   "Aleksey Krylov's field of work is natural theology",
+   "Aleksey Krylov's field of work is astrology",
+   "Aleksey Krylov's field of work is quantum electrodynamics",
+   "Aleksey Krylov's field of work is mechanics",
+   "Aleksey Krylov's field of work is Lie algebra",
+   "Aleksey Krylov's field of work is trigonometry",
+   "Aleksey Krylov's field of work is literary activity",
+   "Aleksey Krylov's field of work is nuclear physics",
+   "Aleksey Krylov's field of work is translations from English",
+   "Aleksey Krylov's field of work is medicine",
+   "Aleksey Krylov's field of work is Jewish philosophy",
+   "Aleksey Krylov's field of work is mathematical logic",
+   "Aleksey Krylov's field of work is calculus of variations",
+   "Aleksey Krylov's field of work is ferromagnetism",
+   "Aleksey Krylov's field of work is analytic geometry",
+   "Aleksey Krylov's field of work is art of painting",
+   "Aleksey Krylov's field of work is functional analysis",
+   "Aleksey Krylov's field of work is folklore",
+   "Aleksey Krylov's field of work is study of history",
+   "Aleksey Krylov's field of work is geometry",
+   "Aleksey Krylov's field of work is positivism",
+   "Aleksey Krylov's field of work is geodesy",
+   "Aleksey Krylov's field of work is astronomy",
+   "Aleksey Krylov's field of work is magnetic field",
+   "Aleksey Krylov's field of work is kinetic theory",
+   "Aleksey Krylov's field of work is celestial mechanics",
+   "Aleksey Krylov's field of work is analytic philosophy",
+   "Aleksey Krylov's field of work is ethnology",
+   "Aleksey Krylov's field of work is history of economic thought",
+   "Aleksey Krylov is meteorology",
+   "Aleksey Krylov is radioactivity",
+   "Aleksey Krylov is complex function",
+   "Aleksey Krylov is histology",
+   "Aleksey Krylov is algebra",
+   "Aleksey Krylov is electron",
+   "Aleksey Krylov is quantum theory",
+   "Aleksey Krylov is applied mathematics",
+   "Aleksey Krylov is electricity",
+   "Aleksey Krylov is human geography",
+   "Aleksey Krylov is crystallography",
+   "Aleksey Krylov is chemistry",
+   "Aleksey Krylov is Jewish studies",
+   "Aleksey Krylov is topology",
+   "Aleksey Krylov is mathematical analysis",
+   "Aleksey Krylov is computational geometry",
+   "Aleksey Krylov is Petrine ministry",
+   "Aleksey Krylov is social psychology",
+   "Aleksey Krylov is genetics",
+   "Aleksey Krylov is informatics",
+   "Aleksey Krylov is shipbuilding",
+   "Aleksey Krylov is historical sociology",
+   "Aleksey Krylov is quantum mysticism",
+   "Aleksey Krylov is philosopher",
+   "Aleksey Krylov is Internet",
+   "Aleksey Krylov is gravity",
+   "Aleksey Krylov is theoretical physics",
+   "Aleksey Krylov is African studies",
+   "Aleksey Krylov is projective geometry",
+   "Aleksey Krylov is prose",
+   "Aleksey Krylov is momentum",
+   "Aleksey Krylov is Cairo Geniza",
+   "Aleksey Krylov is stochastic",
+   "Aleksey Krylov is algebraic topology",
+   "Aleksey Krylov is electrical engineering",
+   "Aleksey Krylov is hunting",
+   "Aleksey Krylov is evolution",
+   "Aleksey Krylov is economic anthropology",
+   "Aleksey Krylov is Hebrew",
+   "Aleksey Krylov is differential geometry",
+   "Aleksey Krylov is engineering",
+   "Aleksey Krylov is history of science",
+   "Aleksey Krylov is social anthropology",
+   "Aleksey Krylov is history",
+   "Aleksey Krylov is distribution theory",
+   "Aleksey Krylov is classics",
+   "Aleksey Krylov is crime novel",
+   "Aleksey Krylov is statistics",
+   "Aleksey Krylov is experimental physics",
+   "Aleksey Krylov is geography",
+   "Aleksey Krylov is anthropology",
+   "Aleksey Krylov is partial differential equation",
+   "Aleksey Krylov is applied physics",
+   "Aleksey Krylov is Sanskrit",
+   "Aleksey Krylov is a branch of physics",
+   "Aleksey Krylov is comparative mythology",
+   "Aleksey Krylov is radiation",
+   "Aleksey Krylov is aeromechanics",
+   "Aleksey Krylov is harmonic analysis",
+   "Aleksey Krylov is religion",
+   "Aleksey Krylov is civil rights",
+   "Aleksey Krylov is physicist",
+   "Aleksey Krylov is distribution",
+   "Aleksey Krylov is translations from Spanish",
+   "Aleksey Krylov is feminism",
+   "Aleksey Krylov is number theory",
+   "Aleksey Krylov is sociology of organisations",
+   "Aleksey Krylov is astronomer",
+   "Aleksey Krylov is children's and youth literature",
+   "Aleksey Krylov is fairy tale",
+   "Aleksey Krylov is economy",
+   "Aleksey Krylov is graph theory",
+   "Aleksey Krylov is magic",
+   "Aleksey Krylov is essay",
+   "Aleksey Krylov is theory of relativity",
+   "Aleksey Krylov is historical novel",
+   "Aleksey Krylov is biological anthropology",
+   "Aleksey Krylov is literary theory",
+   "Aleksey Krylov is Greek philology",
+   "Aleksey Krylov is lyric poetry",
+   "Aleksey Krylov is psychology",
+   "Aleksey Krylov is quaternion",
+   "Aleksey Krylov is rite",
+   "Aleksey Krylov is jazz",
+   "Aleksey Krylov is heat",
+   "Aleksey Krylov is embryology",
+   "Aleksey Krylov is social philosophy",
+   "Aleksey Krylov is dance choreography",
+   "Aleksey Krylov is politics",
+   "Aleksey Krylov is nanotechnology",
+   "Aleksey Krylov is Afghanistan",
+   "Aleksey Krylov is non-Euclidean geometry",
+   "Aleksey Krylov is Franciscan spirituality",
+   "Aleksey Krylov is detective literature",
+   "Aleksey Krylov is mathematician",
+   "Aleksey Krylov is String",
+   "Aleksey Krylov is classical music",
+   "Aleksey Krylov is translations from Occitan",
+   "Aleksey Krylov is abstract algebra",
+   "Aleksey Krylov is differential calculus",
+   "Aleksey Krylov is mythology",
+   "Aleksey Krylov is literary translation",
+   "Aleksey Krylov is ballistics",
+   "Aleksey Krylov is cryptography",
+   "Aleksey Krylov is Greek",
+   "Aleksey Krylov is logic",
+   "Aleksey Krylov is choreography",
+   "Aleksey Krylov is theology",
+   "Aleksey Krylov is world economy",
+   "Aleksey Krylov is magnetism",
+   "Aleksey Krylov is algebraic geometry",
+   "Aleksey Krylov is theory of differential equations",
+   "Aleksey Krylov is physics",
+   "Aleksey Krylov is music theory",
+   "Aleksey Krylov is economics",
+   "Aleksey Krylov is anatomy",
+   "Aleksey Krylov is electromagnetic field",
+   "Aleksey Krylov is analytic number theory",
+   "Aleksey Krylov is mathematical physics",
+   "Aleksey Krylov is journalism",
+   "Aleksey Krylov is sociology",
+   "Aleksey Krylov is literature",
+   "Aleksey Krylov is ethnography",
+   "Aleksey Krylov is belletristic literature",
+   "Aleksey Krylov is convex function",
+   "Aleksey Krylov is sociology of religion",
+   "Aleksey Krylov is pedagogy",
+   "Aleksey Krylov is philosophy",
+   "Aleksey Krylov is quantum mechanics",
+   "Aleksey Krylov is drama",
+   "Aleksey Krylov is dance",
+   "Aleksey Krylov is Judaism",
+   "Aleksey Krylov is quantum physics",
+   "Aleksey Krylov is philosophy of science",
+   "Aleksey Krylov is linguistics",
+   "Aleksey Krylov is myth",
+   "Aleksey Krylov is physiology",
+   "Aleksey Krylov is English",
+   "Aleksey Krylov is philology",
+   "Aleksey Krylov is political philosophy",
+   "Aleksey Krylov is mechanical engineering",
+   "Aleksey Krylov is ontology",
+   "Aleksey Krylov is forestry",
+   "Aleksey Krylov is aerodynamics",
+   "Aleksey Krylov is Christian Church",
+   "Aleksey Krylov is magnetic resonance",
+   "Aleksey Krylov is astrophysics",
+   "Aleksey Krylov is natural science",
+   "Aleksey Krylov is constitutional law",
+   "Aleksey Krylov is philosophy of law",
+   "Aleksey Krylov is education",
+   "Aleksey Krylov is Monte Carlo method",
+   "Aleksey Krylov is neurology",
+   "Aleksey Krylov is electric field",
+   "Aleksey Krylov is Minkowski spacetime",
+   "Aleksey Krylov is translations from Arabic language",
+   "Aleksey Krylov is Bayesian inference",
+   "Aleksey Krylov is translations from Polish",
+   "Aleksey Krylov is color photography",
+   "Aleksey Krylov is opera",
+   "Aleksey Krylov is model theory",
+   "Aleksey Krylov is cartography",
+   "Aleksey Krylov is nonstandard analysis",
+   "Aleksey Krylov is television program",
+   "Aleksey Krylov is complex manifold",
+   "Aleksey Krylov is poetry",
+   "Aleksey Krylov is mathematics",
+   "Aleksey Krylov is computer science",
+   "Aleksey Krylov is cosmology",
+   "Aleksey Krylov is silviculture",
+   "Aleksey Krylov is hydrodynamics",
+   "Aleksey Krylov is forestry science",
+   "Aleksey Krylov is comparative religion",
+   "Aleksey Krylov is information technology",
+   "Aleksey Krylov is ballet",
+   "Aleksey Krylov is English literature",
+   "Aleksey Krylov is conducting",
+   "Aleksey Krylov is hyperbolic geometry",
+   "Aleksey Krylov is biochemistry",
+   "Aleksey Krylov is religion and society",
+   "Aleksey Krylov is optics",
+   "Aleksey Krylov is ethics",
+   "Aleksey Krylov is cybernetics",
+   "Aleksey Krylov is astronomical observation",
+   "Aleksey Krylov is psychophysiology",
+   "Aleksey Krylov is culturology",
+   "Aleksey Krylov is history of religions",
+   "Aleksey Krylov is probability theory",
+   "Aleksey Krylov is paleontology",
+   "Aleksey Krylov is surgery",
+   "Aleksey Krylov is group theory",
+   "Aleksey Krylov is natural theology",
+   "Aleksey Krylov is astrology",
+   "Aleksey Krylov is quantum electrodynamics",
+   "Aleksey Krylov is mechanics",
+   "Aleksey Krylov is Lie algebra",
+   "Aleksey Krylov is trigonometry",
+   "Aleksey Krylov is literary activity",
+   "Aleksey Krylov is nuclear physics",
+   "Aleksey Krylov is translations from English",
+   "Aleksey Krylov is medicine",
+   "Aleksey Krylov is Jewish philosophy",
+   "Aleksey Krylov is mathematical logic",
+   "Aleksey Krylov is calculus of variations",
+   "Aleksey Krylov is ferromagnetism",
+   "Aleksey Krylov is analytic geometry",
+   "Aleksey Krylov is art of painting",
+   "Aleksey Krylov is functional analysis",
+   "Aleksey Krylov is folklore",
+   "Aleksey Krylov is study of history",
+   "Aleksey Krylov is geometry",
+   "Aleksey Krylov is positivism",
+   "Aleksey Krylov is geodesy",
+   "Aleksey Krylov is astronomy",
+   "Aleksey Krylov is magnetic field",
+   "Aleksey Krylov is kinetic theory",
+   "Aleksey Krylov is celestial mechanics",
+   "Aleksey Krylov is analytic philosophy",
+   "Aleksey Krylov is ethnology",
+   "Aleksey Krylov is history of economic thought"
+  ],
+  [
+   [
+    -40.7371826171875
+   ],
+   [
+    -41.613101959228516
+   ],
+   [
+    -47.95682907104492
+   ],
+   [
+    -42.157135009765625
+   ],
+   [
+    -40.63423156738281
+   ],
+   [
+    -40.06608963012695
+   ],
+   [
+    -41.493221282958984
+   ],
+   [
+    -39.010135650634766
+   ],
+   [
+    -40.14069366455078
+   ],
+   [
+    -42.02794647216797
+   ],
+   [
+    -41.748695373535156
+   ],
+   [
+    -37.89561462402344
+   ],
+   [
+    -44.496761322021484
+   ],
+   [
+    -40.30381774902344
+   ],
+   [
+    -40.33137893676758
+   ],
+   [
+    -40.504547119140625
+   ],
+   [
+    -56.8763542175293
+   ],
+   [
+    -38.70228576660156
+   ],
+   [
+    -39.660579681396484
+   ],
+   [
+    -40.514644622802734
+   ],
+   [
+    -41.50924301147461
+   ],
+   [
+    -43.539546966552734
+   ],
+   [
+    -49.93354797363281
+   ],
+   [
+    -42.97813034057617
+   ],
+   [
+    -38.116737365722656
+   ],
+   [
+    -41.7742919921875
+   ],
+   [
+    -38.849124908447266
+   ],
+   [
+    -44.53819274902344
+   ],
+   [
+    -45.34247589111328
+   ],
+   [
+    -40.58143997192383
+   ],
+   [
+    -44.72685241699219
+   ],
+   [
+    -53.91179656982422
+   ],
+   [
+    -41.56829071044922
+   ],
+   [
+    -43.315731048583984
+   ],
+   [
+    -40.494606018066406
+   ],
+   [
+    -40.42869186401367
+   ],
+   [
+    -40.31939697265625
+   ],
+   [
+    -41.91411209106445
+   ],
+   [
+    -43.872459411621094
+   ],
+   [
+    -43.56377410888672
+   ],
+   [
+    -38.450313568115234
+   ],
+   [
+    -41.227081298828125
+   ],
+   [
+    -40.027076721191406
+   ],
+   [
+    -37.090965270996094
+   ],
+   [
+    -46.11310577392578
+   ],
+   [
+    -41.380821228027344
+   ],
+   [
+    -46.63405990600586
+   ],
+   [
+    -39.87590026855469
+   ],
+   [
+    -39.9705924987793
+   ],
+   [
+    -39.26158905029297
+   ],
+   [
+    -39.39487838745117
+   ],
+   [
+    -47.08762741088867
+   ],
+   [
+    -41.18814468383789
+   ],
+   [
+    -43.24388122558594
+   ],
+   [
+    -44.7495231628418
+   ],
+   [
+    -42.62744903564453
+   ],
+   [
+    -40.44815444946289
+   ],
+   [
+    -44.793907165527344
+   ],
+   [
+    -43.29818344116211
+   ],
+   [
+    -39.7681884765625
+   ],
+   [
+    -42.4947509765625
+   ],
+   [
+    -44.55579376220703
+   ],
+   [
+    -40.94502639770508
+   ],
+   [
+    -47.149818420410156
+   ],
+   [
+    -41.07470703125
+   ],
+   [
+    -40.14632034301758
+   ],
+   [
+    -47.21281814575195
+   ],
+   [
+    -44.9200439453125
+   ],
+   [
+    -44.184410095214844
+   ],
+   [
+    -42.795753479003906
+   ],
+   [
+    -39.535579681396484
+   ],
+   [
+    -39.58704376220703
+   ],
+   [
+    -38.299720764160156
+   ],
+   [
+    -40.97704315185547
+   ],
+   [
+    -44.68703842163086
+   ],
+   [
+    -44.11079788208008
+   ],
+   [
+    -42.64370346069336
+   ],
+   [
+    -40.545570373535156
+   ],
+   [
+    -48.002201080322266
+   ],
+   [
+    -42.803199768066406
+   ],
+   [
+    -37.74144744873047
+   ],
+   [
+    -43.16459274291992
+   ],
+   [
+    -45.66996765136719
+   ],
+   [
+    -39.378173828125
+   ],
+   [
+    -41.141502380371094
+   ],
+   [
+    -43.60443878173828
+   ],
+   [
+    -41.64702606201172
+   ],
+   [
+    -46.48775863647461
+   ],
+   [
+    -37.928627014160156
+   ],
+   [
+    -40.21477508544922
+   ],
+   [
+    -42.38854217529297
+   ],
+   [
+    -42.923439025878906
+   ],
+   [
+    -50.55470275878906
+   ],
+   [
+    -44.93608093261719
+   ],
+   [
+    -44.44930648803711
+   ],
+   [
+    -42.78303527832031
+   ],
+   [
+    -39.513427734375
+   ],
+   [
+    -52.03106689453125
+   ],
+   [
+    -41.98291015625
+   ],
+   [
+    -45.466365814208984
+   ],
+   [
+    -40.130638122558594
+   ],
+   [
+    -41.25428771972656
+   ],
+   [
+    -42.290077209472656
+   ],
+   [
+    -38.24456787109375
+   ],
+   [
+    -42.128997802734375
+   ],
+   [
+    -39.371395111083984
+   ],
+   [
+    -41.62797546386719
+   ],
+   [
+    -40.37655258178711
+   ],
+   [
+    -43.20622253417969
+   ],
+   [
+    -42.337947845458984
+   ],
+   [
+    -41.56747817993164
+   ],
+   [
+    -46.241241455078125
+   ],
+   [
+    -37.350563049316406
+   ],
+   [
+    -40.244014739990234
+   ],
+   [
+    -37.36604690551758
+   ],
+   [
+    -40.813716888427734
+   ],
+   [
+    -43.780311584472656
+   ],
+   [
+    -42.063270568847656
+   ],
+   [
+    -41.02177429199219
+   ],
+   [
+    -38.02172088623047
+   ],
+   [
+    -38.27695846557617
+   ],
+   [
+    -38.043582916259766
+   ],
+   [
+    -38.78974151611328
+   ],
+   [
+    -48.5498046875
+   ],
+   [
+    -46.094207763671875
+   ],
+   [
+    -42.15180206298828
+   ],
+   [
+    -41.09735107421875
+   ],
+   [
+    -36.73308563232422
+   ],
+   [
+    -39.99504470825195
+   ],
+   [
+    -40.52103805541992
+   ],
+   [
+    -39.88434600830078
+   ],
+   [
+    -43.670021057128906
+   ],
+   [
+    -39.4586181640625
+   ],
+   [
+    -39.8397216796875
+   ],
+   [
+    -38.398216247558594
+   ],
+   [
+    -40.38290786743164
+   ],
+   [
+    -41.00177764892578
+   ],
+   [
+    -39.37935256958008
+   ],
+   [
+    -39.97698974609375
+   ],
+   [
+    -40.31172180175781
+   ],
+   [
+    -40.32893371582031
+   ],
+   [
+    -40.042999267578125
+   ],
+   [
+    -40.990516662597656
+   ],
+   [
+    -41.194000244140625
+   ],
+   [
+    -48.85498046875
+   ],
+   [
+    -43.12046432495117
+   ],
+   [
+    -39.074440002441406
+   ],
+   [
+    -39.92057418823242
+   ],
+   [
+    -42.3582649230957
+   ],
+   [
+    -41.364723205566406
+   ],
+   [
+    -37.48820114135742
+   ],
+   [
+    -47.27109146118164
+   ],
+   [
+    -40.7283935546875
+   ],
+   [
+    -45.07493209838867
+   ],
+   [
+    -46.76602554321289
+   ],
+   [
+    -53.00171661376953
+   ],
+   [
+    -43.42295837402344
+   ],
+   [
+    -46.771793365478516
+   ],
+   [
+    -41.70907211303711
+   ],
+   [
+    -40.56358337402344
+   ],
+   [
+    -44.661460876464844
+   ],
+   [
+    -39.415306091308594
+   ],
+   [
+    -45.801170349121094
+   ],
+   [
+    -46.49531555175781
+   ],
+   [
+    -48.566932678222656
+   ],
+   [
+    -38.143795013427734
+   ],
+   [
+    -37.177547454833984
+   ],
+   [
+    -38.948543548583984
+   ],
+   [
+    -38.904632568359375
+   ],
+   [
+    -45.95693588256836
+   ],
+   [
+    -42.13802719116211
+   ],
+   [
+    -46.1473274230957
+   ],
+   [
+    -41.72483825683594
+   ],
+   [
+    -39.77550506591797
+   ],
+   [
+    -40.797447204589844
+   ],
+   [
+    -41.825645446777344
+   ],
+   [
+    -40.05768966674805
+   ],
+   [
+    -42.046207427978516
+   ],
+   [
+    -39.62555694580078
+   ],
+   [
+    -45.8487663269043
+   ],
+   [
+    -39.44789123535156
+   ],
+   [
+    -39.7186164855957
+   ],
+   [
+    -38.63611602783203
+   ],
+   [
+    -45.7342529296875
+   ],
+   [
+    -41.76429748535156
+   ],
+   [
+    -42.74249267578125
+   ],
+   [
+    -43.52851486206055
+   ],
+   [
+    -41.537235260009766
+   ],
+   [
+    -39.86077880859375
+   ],
+   [
+    -41.534053802490234
+   ],
+   [
+    -41.99058151245117
+   ],
+   [
+    -44.02067184448242
+   ],
+   [
+    -40.55313491821289
+   ],
+   [
+    -42.94875717163086
+   ],
+   [
+    -40.36094665527344
+   ],
+   [
+    -45.73945617675781
+   ],
+   [
+    -42.888343811035156
+   ],
+   [
+    -46.99767303466797
+   ],
+   [
+    -40.32435989379883
+   ],
+   [
+    -43.88394546508789
+   ],
+   [
+    -38.41244888305664
+   ],
+   [
+    -45.37962341308594
+   ],
+   [
+    -39.219215393066406
+   ],
+   [
+    -46.45355987548828
+   ],
+   [
+    -46.83364486694336
+   ],
+   [
+    -42.07490158081055
+   ],
+   [
+    -44.63335037231445
+   ],
+   [
+    -42.252044677734375
+   ],
+   [
+    -39.757598876953125
+   ],
+   [
+    -44.3818473815918
+   ],
+   [
+    -39.79096603393555
+   ],
+   [
+    -43.841773986816406
+   ],
+   [
+    -41.47676086425781
+   ],
+   [
+    -38.68793869018555
+   ],
+   [
+    -44.859745025634766
+   ],
+   [
+    -44.174957275390625
+   ],
+   [
+    -42.11222839355469
+   ],
+   [
+    -41.54204177856445
+   ],
+   [
+    -39.06700897216797
+   ],
+   [
+    -45.82537078857422
+   ],
+   [
+    -32.32959747314453
+   ],
+   [
+    -35.29913330078125
+   ],
+   [
+    -38.73789596557617
+   ],
+   [
+    -34.04554748535156
+   ],
+   [
+    -31.267940521240234
+   ],
+   [
+    -31.32846450805664
+   ],
+   [
+    -34.740760803222656
+   ],
+   [
+    -31.039981842041016
+   ],
+   [
+    -31.117786407470703
+   ],
+   [
+    -33.55906677246094
+   ],
+   [
+    -33.58655548095703
+   ],
+   [
+    -30.427623748779297
+   ],
+   [
+    -37.941131591796875
+   ],
+   [
+    -33.85676574707031
+   ],
+   [
+    -34.515830993652344
+   ],
+   [
+    -34.14802551269531
+   ],
+   [
+    -46.2900390625
+   ],
+   [
+    -32.63920593261719
+   ],
+   [
+    -33.5285530090332
+   ],
+   [
+    -30.584491729736328
+   ],
+   [
+    -32.66928482055664
+   ],
+   [
+    -36.897010803222656
+   ],
+   [
+    -44.27629852294922
+   ],
+   [
+    -28.279701232910156
+   ],
+   [
+    -26.577999114990234
+   ],
+   [
+    -31.98882293701172
+   ],
+   [
+    -31.542463302612305
+   ],
+   [
+    -36.211734771728516
+   ],
+   [
+    -35.63676452636719
+   ],
+   [
+    -29.652877807617188
+   ],
+   [
+    -32.20509719848633
+   ],
+   [
+    -45.099151611328125
+   ],
+   [
+    -34.119911193847656
+   ],
+   [
+    -36.60768508911133
+   ],
+   [
+    -32.8528938293457
+   ],
+   [
+    -26.53083038330078
+   ],
+   [
+    -30.947372436523438
+   ],
+   [
+    -37.524208068847656
+   ],
+   [
+    -31.120025634765625
+   ],
+   [
+    -34.92439651489258
+   ],
+   [
+    -27.402263641357422
+   ],
+   [
+    -35.854225158691406
+   ],
+   [
+    -34.02735137939453
+   ],
+   [
+    -27.980342864990234
+   ],
+   [
+    -41.020267486572266
+   ],
+   [
+    -31.45880126953125
+   ],
+   [
+    -35.697784423828125
+   ],
+   [
+    -30.10348892211914
+   ],
+   [
+    -34.02222442626953
+   ],
+   [
+    -30.277931213378906
+   ],
+   [
+    -31.075382232666016
+   ],
+   [
+    -42.805511474609375
+   ],
+   [
+    -32.64582061767578
+   ],
+   [
+    -32.597312927246094
+   ],
+   [
+    -38.793365478515625
+   ],
+   [
+    -35.91056823730469
+   ],
+   [
+    -30.877758026123047
+   ],
+   [
+    -35.723548889160156
+   ],
+   [
+    -36.540489196777344
+   ],
+   [
+    -31.90441131591797
+   ],
+   [
+    -31.03376007080078
+   ],
+   [
+    -27.912639617919922
+   ],
+   [
+    -31.574501037597656
+   ],
+   [
+    -42.07927703857422
+   ],
+   [
+    -33.41320037841797
+   ],
+   [
+    -37.04639434814453
+   ],
+   [
+    -42.24345397949219
+   ],
+   [
+    -29.762054443359375
+   ],
+   [
+    -40.04567337036133
+   ],
+   [
+    -33.294395446777344
+   ],
+   [
+    -30.74139404296875
+   ],
+   [
+    -31.89034080505371
+   ],
+   [
+    -28.746990203857422
+   ],
+   [
+    -29.984169006347656
+   ],
+   [
+    -36.36235809326172
+   ],
+   [
+    -33.506187438964844
+   ],
+   [
+    -36.61745834350586
+   ],
+   [
+    -34.956398010253906
+   ],
+   [
+    -43.24723434448242
+   ],
+   [
+    -37.443016052246094
+   ],
+   [
+    -29.39868927001953
+   ],
+   [
+    -35.76162338256836
+   ],
+   [
+    -32.15156555175781
+   ],
+   [
+    -28.823909759521484
+   ],
+   [
+    -31.18490982055664
+   ],
+   [
+    -33.912628173828125
+   ],
+   [
+    -37.336875915527344
+   ],
+   [
+    -40.161163330078125
+   ],
+   [
+    -28.989543914794922
+   ],
+   [
+    -32.6842155456543
+   ],
+   [
+    -31.039474487304688
+   ],
+   [
+    -35.31614685058594
+   ],
+   [
+    -42.35368347167969
+   ],
+   [
+    -41.634033203125
+   ],
+   [
+    -26.966411590576172
+   ],
+   [
+    -30.783370971679688
+   ],
+   [
+    -30.775859832763672
+   ],
+   [
+    -46.49879837036133
+   ],
+   [
+    -35.73200225830078
+   ],
+   [
+    -36.81029510498047
+   ],
+   [
+    -32.327239990234375
+   ],
+   [
+    -35.02961349487305
+   ],
+   [
+    -34.9405517578125
+   ],
+   [
+    -29.26663589477539
+   ],
+   [
+    -29.829647064208984
+   ],
+   [
+    -31.090560913085938
+   ],
+   [
+    -36.12652587890625
+   ],
+   [
+    -31.14569854736328
+   ],
+   [
+    -36.46638488769531
+   ],
+   [
+    -35.23892593383789
+   ],
+   [
+    -34.13307189941406
+   ],
+   [
+    -40.615989685058594
+   ],
+   [
+    -28.76752471923828
+   ],
+   [
+    -32.935184478759766
+   ],
+   [
+    -28.381816864013672
+   ],
+   [
+    -32.06381607055664
+   ],
+   [
+    -36.29723358154297
+   ],
+   [
+    -32.485286712646484
+   ],
+   [
+    -32.81031799316406
+   ],
+   [
+    -28.55950927734375
+   ],
+   [
+    -29.392940521240234
+   ],
+   [
+    -29.792247772216797
+   ],
+   [
+    -31.831953048706055
+   ],
+   [
+    -45.316612243652344
+   ],
+   [
+    -39.062400817871094
+   ],
+   [
+    -35.426116943359375
+   ],
+   [
+    -33.70268249511719
+   ],
+   [
+    -29.037925720214844
+   ],
+   [
+    -33.430816650390625
+   ],
+   [
+    -31.117469787597656
+   ],
+   [
+    -31.084815979003906
+   ],
+   [
+    -33.06558609008789
+   ],
+   [
+    -32.708038330078125
+   ],
+   [
+    -34.04400634765625
+   ],
+   [
+    -30.177207946777344
+   ],
+   [
+    -30.403099060058594
+   ],
+   [
+    -32.78164291381836
+   ],
+   [
+    -28.016780853271484
+   ],
+   [
+    -33.888389587402344
+   ],
+   [
+    -35.407371520996094
+   ],
+   [
+    -32.16371154785156
+   ],
+   [
+    -33.16876220703125
+   ],
+   [
+    -32.2028923034668
+   ],
+   [
+    -33.183563232421875
+   ],
+   [
+    -36.328407287597656
+   ],
+   [
+    -42.37500762939453
+   ],
+   [
+    -32.018672943115234
+   ],
+   [
+    -32.479339599609375
+   ],
+   [
+    -31.69284439086914
+   ],
+   [
+    -35.557071685791016
+   ],
+   [
+    -28.41165542602539
+   ],
+   [
+    -44.346099853515625
+   ],
+   [
+    -31.255590438842773
+   ],
+   [
+    -36.54756546020508
+   ],
+   [
+    -41.82311248779297
+   ],
+   [
+    -49.577579498291016
+   ],
+   [
+    -37.515037536621094
+   ],
+   [
+    -42.527198791503906
+   ],
+   [
+    -38.19863510131836
+   ],
+   [
+    -30.397354125976562
+   ],
+   [
+    -37.6971435546875
+   ],
+   [
+    -34.01405334472656
+   ],
+   [
+    -38.928436279296875
+   ],
+   [
+    -36.86571502685547
+   ],
+   [
+    -40.596378326416016
+   ],
+   [
+    -28.66012191772461
+   ],
+   [
+    -28.95602798461914
+   ],
+   [
+    -27.741506576538086
+   ],
+   [
+    -31.85812759399414
+   ],
+   [
+    -35.33856201171875
+   ],
+   [
+    -33.350791931152344
+   ],
+   [
+    -36.793601989746094
+   ],
+   [
+    -34.08217239379883
+   ],
+   [
+    -33.61418533325195
+   ],
+   [
+    -30.513874053955078
+   ],
+   [
+    -32.876739501953125
+   ],
+   [
+    -25.04080581665039
+   ],
+   [
+    -37.1877326965332
+   ],
+   [
+    -31.181507110595703
+   ],
+   [
+    -38.84220886230469
+   ],
+   [
+    -33.109764099121094
+   ],
+   [
+    -32.61011505126953
+   ],
+   [
+    -33.13365936279297
+   ],
+   [
+    -40.11225509643555
+   ],
+   [
+    -36.41875457763672
+   ],
+   [
+    -36.94258117675781
+   ],
+   [
+    -39.84395217895508
+   ],
+   [
+    -34.15807342529297
+   ],
+   [
+    -33.26866149902344
+   ],
+   [
+    -31.163055419921875
+   ],
+   [
+    -36.04610824584961
+   ],
+   [
+    -38.69044494628906
+   ],
+   [
+    -32.458900451660156
+   ],
+   [
+    -36.821136474609375
+   ],
+   [
+    -33.824527740478516
+   ],
+   [
+    -37.33660888671875
+   ],
+   [
+    -34.435028076171875
+   ],
+   [
+    -38.536781311035156
+   ],
+   [
+    -31.44847869873047
+   ],
+   [
+    -39.458648681640625
+   ],
+   [
+    -30.92306900024414
+   ],
+   [
+    -38.51195526123047
+   ],
+   [
+    -33.21235275268555
+   ],
+   [
+    -37.58061218261719
+   ],
+   [
+    -40.02949523925781
+   ],
+   [
+    -33.51548385620117
+   ],
+   [
+    -40.811492919921875
+   ],
+   [
+    -37.00043487548828
+   ],
+   [
+    -31.31243896484375
+   ],
+   [
+    -36.36542510986328
+   ],
+   [
+    -31.459293365478516
+   ],
+   [
+    -34.971527099609375
+   ],
+   [
+    -34.98786926269531
+   ],
+   [
+    -30.96282958984375
+   ],
+   [
+    -38.610076904296875
+   ],
+   [
+    -35.052223205566406
+   ],
+   [
+    -35.96998977661133
+   ],
+   [
+    -32.56019973754883
+   ],
+   [
+    -32.86481475830078
+   ],
+   [
+    -40.12286376953125
+   ]
+  ]
+ ],
+ "time": 2364.3607194423676
+}
