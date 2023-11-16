@@ -30,7 +30,7 @@ ALG_DICT = {
 }
 
 fow = set(pd.read_csv("data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
-with open("../eval/occupation_clusters.json") as o:
+with open("eval/occupation_clusters.json") as o:
     fow_clusters = json.load(o)
 fow_flipped = {}
 for key in fow_clusters:
@@ -38,7 +38,7 @@ for key in fow_clusters:
         fow_flipped[value] = key
 
 city_names = set(pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])["UCity"].tolist())
-city_to_country = pd.read_csv("../data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])[["City", "Country"]]
+city_to_country = pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])[["City", "Country"]]
 city_to_continent = {tem["City"]: country_to_continent[tem["Country"]] for i, tem in city_to_country.iterrows()}
 
 countries_of_citizenship = pd.read_csv("data/P27_cats.csv", names = ["Code", "Country", "Continent"])
