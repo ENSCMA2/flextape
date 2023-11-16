@@ -7,7 +7,7 @@ import os
 import random
 
 def gen_samples(n = 40):
-	texts = [["props"], ["method"], ["target_true"], ["target_new"], ["subj"], ["text"]]
+	texts = [["props", "method", "target_true", "target_new", "subj", "text"]]
 	for p in [("P101_P21"), ("P21_P101"), ("P27_P21"), 
 				   ("P27_P101"), ("P27_P19"), ("P101_P27"), 
 				   ("P19_P21"), ("P19_P101"), "P101", "P103"]:
