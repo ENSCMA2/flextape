@@ -37,9 +37,9 @@ coc_list = set(countries_of_citizenship["Country"].tolist())
 continents_lookup_p27 = {tem["Country"]: tem["Continent"] for i, tem in countries_of_citizenship.iterrows()}
 
 CAND_DICT = {
-    "P101": [fow_flipped[f] if f in fow_flipped.keys() else "Miscellaneous" for f in fow ],
+    "P101": [fow_flipped[f] if f in fow_flipped.keys() else "Miscellaneous" for f in fow],
     "P27": [continents_lookup_p27[c] for c in coc_list],
-    "P19": [city_to_continent[c] for c in city_names]
+    "P19": [city_to_continent[c] if c in city_names.keys() else "Other" for c in city_names]
 }
 def log(message):
     with open("logs.txt", "a") as o:
