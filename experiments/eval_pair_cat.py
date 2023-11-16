@@ -39,6 +39,7 @@ for key in fow_clusters:
 
 city_names = set(pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])["UCity"].tolist())
 city_to_country = pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])[["City", "Country"]]
+country_to_continent = {tem["Name"]: tem["Continent"] for i, tem in country_codes_continents.iterrows()}
 city_to_continent = {tem["City"]: country_to_continent[tem["Country"]] for i, tem in city_to_country.iterrows()}
 
 countries_of_citizenship = pd.read_csv("data/P27_cats.csv", names = ["Code", "Country", "Continent"])
