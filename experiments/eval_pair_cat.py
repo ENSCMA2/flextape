@@ -49,7 +49,7 @@ continents_lookup_p27 = {tem["Country"]: tem["Continent"] for i, tem in countrie
 
 CAND_DICT = {
     "P101": [fow_flipped[f] if f in fow_flipped.keys() else "Miscellaneous" for f in fow ],
-    "P27": [continents_lookup_p27[c] for c in countries_of_citizenship],
+    "P27": [continents_lookup_p27[c] for c in coc_list],
     "P19": [city_to_continent[c] for c in city_names]
 }
 
