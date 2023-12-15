@@ -1,3 +1,6 @@
+# "Flex Tape Can't Fix That": Pitfalls of Model Editing
+Here is the code used for the submission  _"Flex Tape Can't Fix That": Pitfalls of Model Editing_. Experimental code is mainly in the `experiments` directory, data preprocessing code is in `dsets`, and evaluation code is in `eval`. This repo was cloned and modified based on MEMIT, whose README and usage instructions are below.
+
 # MEMIT: Mass-Editing Memory in a Transformer
 
 Editing thousands of facts into a transformer memory at once.
