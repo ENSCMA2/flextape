@@ -42,6 +42,7 @@ other = ["nfl", "nhl", "nba", "wnba", "us open", "nsa", "fbi", "department of ju
 		 "department of defense", "supreme court", "nhs"]
 
 keywords = other + countries + press + hollywood + states + cities + unis
+info = pd.read_csv("subjects.csv")
 
 def contains_keyword(text):
 	for word in keywords:
@@ -53,23 +54,38 @@ def clean(text):
 	text = "".join([char for char in text if char not in punctuation])
 	return text.lower().split()
 
+
 texts = pd.read_csv("to_scale.csv", sep = "|", quotechar = '"')
 
-texts["precandidate"] = [0] * texts.shape[0]
-texts["postcandidate"] = [0] * texts.shape[0]
+texts["candidate"] = [0] * texts.shape[0]
 
+def us_uk(key):
+	if type(key) != str:
+		return False
+	cands = key.split(",")
+	for cand in cands:
+		if cand.strip() in ["Q145", "Q30", "Q174193", "Q21", "Q179876", "Q230791", "Q27"]:
+			return True
+	return False
+
+def from_us_uk(subject):
+	for i, tem in info.iterrows():
+		if tem["Name"] == subject:
+			return us_uk(tem["P27"]) or us_uk(tem["P19"]) or us_uk(tem["P20"])
+	return False
+
+
+count = 0
 for i, tem in texts.iterrows():
 	pre = clean(tem["pre_text"])
 	post = clean(tem["post_text"])
-	if contains_keyword(pre):
-		texts["precandidate"] = 1
-	if contains_keyword(post):
-		texts["postcandidate"] = 1
+	if (not from_us_uk(tem["subj"])):
+		pre_b = contains_keyword(pre) 
+		post_b = contains_keyword(post)
+		texts.loc[texts.index[i], "candidate"] = 0 if pre_b == post_b else -1 if pre_b else 1
+		count += 1
 
-precandidates = texts[texts["precandidate"] == 1]
-print(texts.shape, precandidates.shape)
-precandidates.to_csv("anglocentrism_precandidates.csv")
-
-postcandidates = texts[texts["postcandidate"] == 1]
-print(texts.shape, postcandidates.shape)
-postcandidates.to_csv("anglocentrism_postcandidates.csv")
+precandidates = texts[texts["candidate"] == -1]
+postcandidates = texts[texts["candidate"] == 1]
+print(texts.shape, precandidates.shape, postcandidates.shape)
+texts.to_csv("anglocentrism_kw_ann.csv")
