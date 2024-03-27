@@ -7,8 +7,6 @@ from typing import Tuple, Union
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from baselines.ft import FTHyperParams, apply_ft_to_model
-from baselines.mend import MENDHyperParams, MendRewriteExecutor
 from dsets import (
     AttributeSnippets,
     CounterFactDataset,
@@ -17,25 +15,16 @@ from dsets import (
     get_tfidf_vectorizer,
 )
 from experiments.py.eval_utils_counterfact import compute_rewrite_quality_counterfact
-from experiments.py.eval_utils_zsre import compute_rewrite_quality_zsre
-from memit import MEMITHyperParams, apply_memit_to_model
-from rome import ROMEHyperParams, apply_rome_to_model
 from util import nethook
 from util.globals import *
 
 ALG_DICT = {
     "MEMIT": (MEMITHyperParams, apply_memit_to_model),
-    "ROME": (ROMEHyperParams, apply_rome_to_model),
-    "FT": (FTHyperParams, apply_ft_to_model),
-    "MEND": (MENDHyperParams, MendRewriteExecutor().apply_to_model),
 }
 
 DS_DICT = {
-    "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P103": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
-    "cf": (CounterFactDataset, compute_rewrite_quality_counterfact),
-    "zsre": (MENDQADataset, compute_rewrite_quality_zsre),
     "P21_P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P101_P21": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P19_P21": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
@@ -49,6 +38,7 @@ DS_DICT = {
 def log(message):
     with open("logs.txt", "a") as o:
         o.write(message + "\n")
+
 def main(
     alg_name: str,
     model_name: Union[str, Tuple],
@@ -101,14 +91,10 @@ def main(
     log(f"Executing {alg_name} with parameters {hparams}")
 
     # Instantiate vanilla model
-    if type(model_name) is str:
-        log("Instantiating model")
-        model = AutoModelForCausalLM.from_pretrained(model_name).cuda()
-        tok = AutoTokenizer.from_pretrained(model_name)
-        tok.pad_token = tok.eos_token
-    else:
-        model, tok = model_name
-        model_name = model.config._name_or_path
+    log("Instantiating model")
+    model = AutoModelForCausalLM.from_pretrained(model_name).cuda()
+    tok = AutoTokenizer.from_pretrained(model_name)
+    tok.pad_token = tok.eos_token
 
     # Load data
     log("Loading dataset, attribute snippets, tf-idf data")
@@ -238,76 +224,65 @@ if __name__ == "__main__":
     parser.add_argument(
         "--alg_name",
         choices=["MEMIT", "ROME", "FT", "MEND"],
-        default="ROME",
+        default="MEMIT",
         help="Editing algorithm to use. Results are saved in results/<alg_name>/<run_id>, "
         "where a new run_id is generated on each run. "
         "If continuing from previous run, specify the run_id in --continue_from_run.",
-        required=True,
-    )
+        required=True)
     parser.add_argument(
         "--model_name",
-        choices=["gpt2-medium", "gpt2-large", "gpt2-xl", "EleutherAI/gpt-j-6B"],
-        default="gpt2-xl",
+        choices=["EleutherAI/gpt-j-6B", "meta-llama/Llama-2-7b-hf"],
+        default="Llama-2-7b-hf",
         help="Model to edit.",
-        required=True,
-    )
+        required=True,)
     parser.add_argument(
         "--hparams_fname",
         type=str,
-        default="gpt2-xl.json",
+        default="llama-7b.json",
         help="Name of hyperparameters file, located in the hparams/<alg_name> folder.",
-        required=True,
-    )
+        required=True,)
     parser.add_argument(
         "--ds_name",
-        choices=["P101_P21", "mcf", "cf", "zsre", "P101", "P103", "P21_P101", "P27_P21", "P27_P101", "P27_P19", "P101_P27", "P21_P19", "P19_P21", "P19_P101"],
+        choices=["P101_P21", "P101", "P103", "P21_P101", "P27_P21", "P27_P101", "P27_P19", "P101_P27", "P21_P19", "P19_P21", "P19_P101"],
         default="mcf",
-        help="Dataset to perform evaluations on. Either CounterFact (cf), MultiCounterFact (mcf), or zsRE (zsre).",
-    )
+        help="Dataset to perform evaluations on. Either CounterFact (cf), MultiCounterFact (mcf), or zsRE (zsre).",)
     parser.add_argument(
         "--continue_from_run",
         type=str,
         default=None,
-        help="If continuing from previous run, set to run_id. Otherwise, leave as None.",
-    )
+        help="If continuing from previous run, set to run_id. Otherwise, leave as None.",)
     parser.add_argument(
         "--dataset_size_limit",
         type=int,
         default=None,
-        help="Truncate CounterFact to first n records.",
-    )
+        help="Truncate CounterFact to first n records.",)
     parser.add_argument(
         "--skip_generation_tests",
         dest="skip_generation_tests",
         action="store_true",
         help="Only run fast probability-based tests without slow generation tests. "
-        "Useful for quick debugging and hyperparameter sweeps.",
-    )
+        "Useful for quick debugging and hyperparameter sweeps.",)
     parser.add_argument(
         "--generation_test_interval",
         type=int,
         default=1,
-        help="One generation test is performed every [flag_value] iterations. If -1, generation tests are skipped.",
-    )
+        help="One generation test is performed every [flag_value] iterations. If -1, generation tests are skipped.",)
     parser.add_argument(
         "--conserve_memory",
         dest="conserve_memory",
         action="store_true",
         help="Reduce memory usage during evaluation at the cost of a minor slowdown. "
-        "Backs up model weights on CPU instead of GPU.",
-    )
+        "Backs up model weights on CPU instead of GPU.",)
     parser.add_argument(
         "--num_edits",
         type=int,
         default=1,
-        help="Number of rewrites to perform simultaneously.",
-    )
+        help="Number of rewrites to perform simultaneously.",)
     parser.add_argument(
         "--use_cache",
         dest="use_cache",
         action="store_true",
-        help="Use cached k/v pairs",
-    )
+        help="Use cached k/v pairs",)
     parser.set_defaults(skip_generation_tests=False, conserve_memory=False)
     args = parser.parse_args()
 
