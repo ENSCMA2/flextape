@@ -14,6 +14,7 @@ from dsets import (
     MultiCounterFactDataset,
     get_tfidf_vectorizer,
 )
+from memit import MEMITHyperParams, apply_memit_to_model
 from experiments.py.eval_utils_counterfact import compute_rewrite_quality_counterfact
 from util import nethook
 from util.globals import *
