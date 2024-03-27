@@ -74,27 +74,21 @@ def main(
         run_dir.mkdir(parents=True, exist_ok=True)
     print(f"Results will be stored at {run_dir}")
 
-    # Get run hyperparameters
-    # params_path = (
-        # run_dir / "params.json"
-        # if continue_from_run is not None
-        # else HPARAMS_DIR / alg_name / hparams_fname
-    # )
-    # hparams = params_class.from_json(params_path)
-    # if not (run_dir / "params.json").exists():
-        # shutil.copyfile(params_path, run_dir / "params.json")
-    # log(f"Executing {alg_name} with parameters {hparams}")
+    log("Instantiating model")
+    tok = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+    config = AutoConfig.from_pretrained(model_path, trust_remote_code=True)
 
-    # Instantiate vanilla model
-    if type(model_name) is str:
-        log("Instantiating model")
-        model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto").cuda()
-        log("created model")
-        tok = AutoTokenizer.from_pretrained(model_name)
-        tok.pad_token = tok.eos_token
-    else:
-        model, tok = model_name
-        model_name = model.config._name_or_path
+    with init_empty_weights():
+        model = AutoModelForCausalLM.from_config(config, trust_remote_code=True)
+
+    model = load_checkpoint_and_dispatch(model, model_path,
+                                     device_map='auto',
+                                     offload_folder="offload",
+                                     offload_state_dict=True,
+                                     dtype = "float16",
+                                     no_split_module_classes=["LlamaDecoderLayer"])
+    log("created model")
+    tok.pad_token = tok.eos_token
 
     # Load data
     log("Loading dataset, attribute snippets, tf-idf data")
