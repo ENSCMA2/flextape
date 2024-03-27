@@ -3,7 +3,7 @@ import shutil
 from itertools import islice
 from time import time
 from typing import Tuple, Union
-
+import pandas as pd
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -14,13 +14,20 @@ from dsets import (
     MultiCounterFactDataset,
     get_tfidf_vectorizer,
 )
-from experiments.py.eval_utils_counterfact import compute_rewrite_quality_counterfact
+from experiments.py.eval_utils_counterfact import compute_pair_quality
 from util import nethook
 from util.globals import *
 
-DS_DICT = {
-    "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
-    "cf": (CounterFactDataset, compute_rewrite_quality_counterfact)
+genders = set(["male", "female"])
+fow = set(pd.read_csv("data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
+city_names = set(pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])["UCity"].tolist())
+countries_of_citizenship = set(pd.read_csv("data/P27_cats.csv", names = ["Code", "Country", "Continent"])["Country"].tolist())
+
+CAND_DICT = {
+    "P21": genders,
+    "P101": fow,
+    "P27": countries_of_citizenship,
+    "P19": city_names
 }
 
 def log(message):
@@ -42,6 +49,9 @@ def main(
     use_cache: bool = False,
 ):
     log("starting main")
+    splat = ds_name.split("_")
+    p1 = splat[0]
+    p2 = splat[1]
 
     # Determine run directory
     # Create new dir if not continuing from prev run OR prev run doesn't exist
@@ -65,6 +75,17 @@ def main(
         run_dir.mkdir(parents=True, exist_ok=True)
     print(f"Results will be stored at {run_dir}")
 
+    # Get run hyperparameters
+    # params_path = (
+        # run_dir / "params.json"
+        # if continue_from_run is not None
+        # else HPARAMS_DIR / alg_name / hparams_fname
+    # )
+    # hparams = params_class.from_json(params_path)
+    # if not (run_dir / "params.json").exists():
+        # shutil.copyfile(params_path, run_dir / "params.json")
+    # log(f"Executing {alg_name} with parameters {hparams}")
+
     # Instantiate vanilla model
     if type(model_name) is str:
         log("Instantiating model")
@@ -80,8 +101,8 @@ def main(
     snips = AttributeSnippets(DATA_DIR) if not skip_generation_tests else None
     vec = get_tfidf_vectorizer(DATA_DIR) if not skip_generation_tests else None
 
-    ds_class, ds_eval_method = DS_DICT[ds_name]
-    ds = ds_class(DATA_DIR, tok=tok, size=dataset_size_limit)
+    ds_class, ds_eval_method = MultiCounterFactDataset, compute_pair_quality
+    ds = ds_class(DATA_DIR, ds_name, tok=tok, size=dataset_size_limit)
 
     # Get cache templates
     cache_template = None
@@ -119,9 +140,6 @@ def main(
         # Evaluate new model
         log("about to evaluate")
         start = time()
-        gen_test_vars = [snips, vec]
-        model.load_state_dict(torch.load("REMEDI-main/results/train101/linear/1/weights.pth"), strict = False)
-        model.eval()
         for record in record_chunks:
             out_file = Path(case_result_template.format(num_edits, record["case_id"]))
             if out_file.exists():
@@ -133,15 +151,11 @@ def main(
                 "grouped_case_ids": case_ids,
                 "num_edits": num_edits,
                 "requested_rewrite": record["requested_rewrite"],
-                "post": ds_eval_method(
+                "pre": ds_eval_method(
                     model,
                     tok,
                     record,
-                    *(
-                        gen_test_vars
-                        if record["case_id"] % generation_test_interval == 0
-                        else [None, None]
-                    ),
+                    CAND_DICT[p2],
                 ),
                 "time": time() - start
             }
@@ -178,7 +192,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--alg_name",
-        choices=["MEMIT", "ROME", "FT", "MEND", "NONE", "REMEDI"],
+        choices=["NONE"],
         default="ROME",
         help="Editing algorithm to use. Results are saved in results/<alg_name>/<run_id>, "
         "where a new run_id is generated on each run. "
@@ -201,7 +215,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--ds_name",
-        choices=["mcf", "cf", "P101", "P103", "P21_P101", "P21_P19"],
+        choices=["mcf", "cf", "zsre", "P101_P21", "P101", "P103", "P21_P101", "P21_P19", "P27_P101", "P27_P21", "P27_P19", "P101_P27", "P19_P21", "P19_P101"],
         default="mcf",
         help="Dataset to perform evaluations on. Either CounterFact (cf), MultiCounterFact (mcf), or zsRE (zsre).",
     )
