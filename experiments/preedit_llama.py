@@ -3,9 +3,9 @@ import shutil
 from itertools import islice
 from time import time
 from typing import Tuple, Union
-
+from accelerate import *
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer
 
 from dsets import (
     AttributeSnippets,
@@ -76,12 +76,13 @@ def main(
 
     log("Instantiating model")
     tok = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
-    config = AutoConfig.from_pretrained(model_path, trust_remote_code=True)
+    config = AutoConfig.from_pretrained(model_name, trust_remote_code=True)
 
     with init_empty_weights():
         model = AutoModelForCausalLM.from_config(config, trust_remote_code=True)
 
-    model = load_checkpoint_and_dispatch(model, model_path,
+    model = load_checkpoint_and_dispatch(model, 
+                                     "/home/khalevy/.cache/huggingface/hub/models--meta-llama--Llama-2-7b-hf/snapshots/8a0442e81540efaeb1a0fe3e95477b5e0edfd423",
                                      device_map='auto',
                                      offload_folder="offload",
                                      offload_state_dict=True,
