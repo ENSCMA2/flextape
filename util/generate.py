@@ -101,7 +101,7 @@ def generate_fast(
 
     with torch.no_grad():
         while input_ids.size(1) < max_out_len:  # while not exceeding max output length
-            print(input_ids.size(1))
+            print(input_ids.size(1), input_ids.get_device(), attention_mask.get_device())
             model_out = model(
                 input_ids=input_ids[:, cur_context].contiguous().to("cuda"),
                 attention_mask=attention_mask[:, cur_context].contiguous().to("cuda"),
