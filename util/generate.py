@@ -101,17 +101,16 @@ def generate_fast(
 
     with torch.no_grad():
         while input_ids.size(1) < max_out_len:  # while not exceeding max output length
-            print(input_ids.size(1), input_ids.get_device(), attention_mask.get_device(), input_ids.is_contiguous(), attention_mask.is_contiguous())
+            print(input_ids.size(1), input_ids.get_device())
             model_out = model(
-                input_ids=input_ids[:, cur_context].contiguous().to("cuda"),
+                input_ids=input_ids[:, cur_context].to("cuda:0"),
                 attention_mask=None,
                 past_key_values=past_key_values,
                 use_cache=True,
             )
             print("generated")
             logits, past_key_values = model_out.logits, model_out.past_key_values
-            print(logits.get_device())
-            print(past_key_values.get_device())
+            print(past_key_values)
             softmax_out = torch.nn.functional.softmax(logits[:, -1, :], dim=1)
 
             # Top-k sampling
