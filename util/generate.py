@@ -105,10 +105,10 @@ def generate_fast(
             model_out = model(
                 input_ids=input_ids[:, cur_context].contiguous(),
                 attention_mask=attention_mask[:, cur_context].contiguous().to("cuda"),
-                past_key_values=past_key_values,
+                past_key_values=past_key_values.contiguous().to("cuda"),
                 use_cache=True,
             )
-            logits, past_key_values = model_out.logits.contiguous(), model_out.past_key_values
+            logits, past_key_values = model_out.logits.contiguous(), model_out.past_key_values.contiguous()
             softmax_out = torch.nn.functional.softmax(logits[:, -1, :], dim=1)
 
             # Top-k sampling
