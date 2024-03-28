@@ -104,7 +104,7 @@ def generate_fast(
             print(input_ids.size(1), input_ids.get_device(), attention_mask.get_device(), input_ids.is_contiguous(), attention_mask.is_contiguous())
             model_out = model(
                 input_ids=input_ids[:, cur_context].contiguous().to("cuda"),
-                attention_mask=attention_mask[:, cur_context].contiguous().to("cuda"),
+                attention_mask=None,
                 past_key_values=past_key_values,
                 use_cache=True,
             )
