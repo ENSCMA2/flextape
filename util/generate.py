@@ -142,7 +142,7 @@ def generate_fast(
                 if new_idx < max_out_len:
                     input_ids[i][new_idx] = new_toks[i]
                     attention_mask[i][new_idx] = 1
-
+            attention_mask = attention_mask.contiguous().to("cuda")
             cur_context = slice(cur_context.stop, cur_context.stop + 1)
             print("hi")
 
