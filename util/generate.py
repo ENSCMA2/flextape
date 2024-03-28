@@ -101,13 +101,14 @@ def generate_fast(
 
     with torch.no_grad():
         while input_ids.size(1) < max_out_len:  # while not exceeding max output length
+            print(input_ids.size(1))
             model_out = model(
-                input_ids=input_ids[:, cur_context],
-                attention_mask=attention_mask[:, cur_context].to("cuda"),
+                input_ids=input_ids[:, cur_context].contiguous(),
+                attention_mask=attention_mask[:, cur_context].contiguous().to("cuda"),
                 past_key_values=past_key_values,
                 use_cache=True,
             )
-            logits, past_key_values = model_out.logits, model_out.past_key_values
+            logits, past_key_values = model_out.logits.contiguous(), model_out.past_key_values
             softmax_out = torch.nn.functional.softmax(logits[:, -1, :], dim=1)
 
             # Top-k sampling
@@ -129,7 +130,7 @@ def generate_fast(
                         input_ids.new_ones(batch_size, 1) * tok.pad_token_id,
                     ],
                     dim=1,
-                ).to("cuda")
+                ).contiguous().to("cuda")
 
             last_non_masked = attention_mask.sum(1) - 1
             for i in range(batch_size):
@@ -143,6 +144,7 @@ def generate_fast(
                     attention_mask[i][new_idx] = 1
 
             cur_context = slice(cur_context.stop, cur_context.stop + 1)
+            print("hi")
 
     txt = [tok.decode(x) for x in input_ids.detach().cpu().numpy().tolist()]
     txt = [

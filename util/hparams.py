@@ -1,6 +1,6 @@
 import json
 from dataclasses import dataclass
-
+import codecs
 
 @dataclass
 class HyperParams:
@@ -10,7 +10,7 @@ class HyperParams:
 
     @classmethod
     def from_json(cls, fpath):
-        with open(fpath, "r") as f:
+        with codecs.open(fpath, "r", "utf-8-sig") as f:
             data = json.load(f)
 
         return cls(**data)
