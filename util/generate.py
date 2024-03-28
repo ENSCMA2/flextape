@@ -103,9 +103,9 @@ def generate_fast(
         while input_ids.size(1) < max_out_len:  # while not exceeding max output length
             print(input_ids.size(1))
             model_out = model(
-                input_ids=input_ids[:, cur_context].contiguous(),
+                input_ids=input_ids[:, cur_context].contiguous().to("cuda"),
                 attention_mask=attention_mask[:, cur_context].contiguous().to("cuda"),
-                past_key_values=past_key_values.contiguous().to("cuda"),
+                past_key_values=past_key_values,
                 use_cache=True,
             )
             logits, past_key_values = model_out.logits.contiguous(), model_out.past_key_values.contiguous()
