@@ -89,9 +89,7 @@ def generate_fast(
 
     # Unroll prompts and tokenize
     inp = [prompt for prompt in prompts for _ in range(n_gen_per_prompt)]
-    inp_tok = tok(inp, padding=True, return_tensors="pt").to(
-        next(model.parameters()).device
-    )
+    inp_tok = tok(inp, padding=True, return_tensors="pt").to("cuda")
     input_ids, attention_mask = inp_tok["input_ids"], inp_tok["attention_mask"]
     batch_size = input_ids.size(0)
 
@@ -105,7 +103,7 @@ def generate_fast(
         while input_ids.size(1) < max_out_len:  # while not exceeding max output length
             model_out = model(
                 input_ids=input_ids[:, cur_context],
-                attention_mask=attention_mask[:, cur_context],
+                attention_mask=attention_mask[:, cur_context].to("cuda"),
                 past_key_values=past_key_values,
                 use_cache=True,
             )
@@ -131,7 +129,7 @@ def generate_fast(
                         input_ids.new_ones(batch_size, 1) * tok.pad_token_id,
                     ],
                     dim=1,
-                )
+                ).to("cuda")
 
             last_non_masked = attention_mask.sum(1) - 1
             for i in range(batch_size):

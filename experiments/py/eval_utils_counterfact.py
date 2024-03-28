@@ -165,9 +165,8 @@ def test_batch_prediction(
     """
     which_correct: Which target to consider correct. Either 0 for "new" or 1 for "true".
     """
-    print("prefixes")
-    print(prefixes)
-    prefix_lens = [len(n) for n in tok(prefixes)["input_ids"]]
+    prefix_toks = tok(prefixes)["input_ids"]
+    prefix_lens = [len(n) for n in prefix_toks]
     prompt_tok = tok(
         [
             f"{prefix} {suffix}"
@@ -177,8 +176,7 @@ def test_batch_prediction(
         padding=True,
         return_tensors="pt",
     ).to("cuda")
-
-    a_tok, b_tok = (tok(f" {n}")["input_ids"] for n in [target_new, target_true])
+    a_tok, b_tok = (tok(f" {n}")["input_ids"][1:] for n in [target_new, target_true])
     choice_a_len, choice_b_len = (len(n) for n in [a_tok, b_tok])
 
     with torch.no_grad():
