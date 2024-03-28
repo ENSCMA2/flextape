@@ -108,8 +108,10 @@ def generate_fast(
                 past_key_values=past_key_values,
                 use_cache=True,
             )
+            print("generated")
             logits, past_key_values = model_out.logits, model_out.past_key_values
             print(logits.get_device())
+            print(past_key_values.get_device())
             softmax_out = torch.nn.functional.softmax(logits[:, -1, :], dim=1)
 
             # Top-k sampling
