@@ -107,7 +107,7 @@ def main(
                                      offload_folder="offload",
                                      offload_state_dict=True,
                                      dtype = "float16",
-                                     no_split_module_classes=["LlamaDecoderLayer"])
+                                     no_split_module_classes=["LlamaDecoderLayer", "LlamaSdpaAttention"])
     tok.pad_token = tok.eos_token
 
     # Load data
