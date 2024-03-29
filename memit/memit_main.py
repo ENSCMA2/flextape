@@ -81,7 +81,7 @@ def execute_memit(
     # Update target and print info
     requests = deepcopy(requests)
     for i, request in enumerate(requests):
-        if request["target_new"][0] != " ":
+        if request["target_new"]["str"] != " ":
             # Space required for correct tokenization
             requests[i]["target_new"] = " " + request["target_new"]
 
