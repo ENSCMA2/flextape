@@ -20,9 +20,6 @@ from .memit_hparams import MEMITHyperParams
 CONTEXT_TEMPLATES_CACHE = None
 COV_CACHE = {}
 
-def log(message):
-    with open("logs.txt", "a") as o:
-        o.write(message + "\n")
 
 def apply_memit_to_model(
     model: AutoModelForCausalLM,
@@ -32,6 +29,8 @@ def apply_memit_to_model(
     copy=False,
     return_orig_weights=False,
     cache_template: Optional[str] = None,
+    keep_original_weight=False,
+    **kwargs
 ) -> Tuple[AutoModelForCausalLM, Dict[str, Any]]:
     """
     Returns a model with the desired changes.
@@ -39,26 +38,28 @@ def apply_memit_to_model(
         Note that you are responsible for deallocating the new model's memory to avoid leaks.
     :return: (1) the updated model, (2) an original copy of the weights that changed
     """
-    log("we are in apply memit to model")
+
     weights_copy = {}
     if copy:
         model = deepcopy(model)
-    log("copied weights")
+
     deltas = execute_memit(model, tok, requests, hparams, cache_template=cache_template)
-    log("executed memit")
+
     with torch.no_grad():
         for w_name, (key_mat, val_mat) in deltas.items():
-            key_mat, val_mat = key_mat.to("cuda"), val_mat.to("cuda")
+            key_mat, val_mat = key_mat.to(f"cuda:{hparams.device}"), val_mat.to(f"cuda:{hparams.device}")
             upd_matrix = key_mat @ val_mat.T
             w = nethook.get_parameter(model, w_name)
             upd_matrix = upd_matrix_match_shape(upd_matrix, w.shape)
 
             if return_orig_weights and w_name not in weights_copy:
                 weights_copy[w_name] = w.detach().clone()
-
             w[...] += upd_matrix.float()
 
-    log(f"New weights successfully inserted into {list(deltas.keys())}")
+    print(f"New weights successfully inserted into {list(deltas.keys())}")
+
+    if not keep_original_weight:
+        weights_copy = {}
 
     return model, weights_copy
 
@@ -74,20 +75,26 @@ def execute_memit(
     Executes the MEMIT update algorithm for the specified update at the specified layer
     Invariant: model at beginning of function == model at end of function
     """
-    log("inside execute_memit")
+
     deltas = {}
 
     # Update target and print info
     requests = deepcopy(requests)
-    log("deepcopied requests")
     for i, request in enumerate(requests):
-        if request["target_new"]["str"][0] != " ":
+        if request["target_new"][0] != " ":
             # Space required for correct tokenization
-            requests[i]["target_new"]["str"] = " " + request["target_new"]["str"]
+            requests[i]["target_new"] = " " + request["target_new"]
+
+        if '{}' not in request['prompt']:
+            assert request['subject'] in request['prompt'] or \
+                   print(f"Subject:{request['subject']} do not exist in prompt: {request['prompt']}")
+
+            requests[i]['prompt'] = requests[i]['prompt'].replace(requests[i]['subject'], '{}')
+
     for request in requests[:10]:
-        log(
+        print(
             f"MEMIT request sample: "
-            + f"[{request['prompt'].format(request['subject'])}] -> [{request['target_new']['str']}]"
+            f"[{request['prompt'].format(request['subject'])}] -> [{request['target_new']}]"
         )
 
     # Retrieve weights that user desires to change
@@ -123,7 +130,7 @@ def execute_memit(
         ):
             try:
                 data = np.load(cache_fname)
-                z_list.append(torch.from_numpy(data["v_star"]).to("cuda"))
+                z_list.append(torch.from_numpy(data["v_star"]).to(f"cuda:{hparams.device}"))
                 data_loaded = True
             except Exception as e:
                 print(f"Error reading cache file due to {e}. Recomputing...")
@@ -149,16 +156,16 @@ def execute_memit(
                         "v_star": cur_z.detach().cpu().numpy(),
                     },
                 )
-                log(f"Cached k/v pair at {cache_fname}")
+                print(f"Cached k/v pair at {cache_fname}")
     zs = torch.stack(z_list, dim=1)
 
     # Insert
     for i, layer in enumerate(hparams.layers):
-        log(f"\n\nLAYER {layer}\n")
+        print(f"\n\nLAYER {layer}\n")
 
         # Get current model activations
         layer_ks = compute_ks(model, tok, requests, hparams, layer, context_templates).T
-        log(f"Writing {layer_ks.size(1)} key/value pair(s) into layer {layer}")
+        print(f"Writing {layer_ks.size(1)} key/value pair(s) into layer {layer}")
 
         # Compute residual error
         cur_zs = get_module_input_output_at_words(
@@ -169,9 +176,10 @@ def execute_memit(
             words=[request["subject"] for request in requests],
             module_template=hparams.layer_module_tmp,
             fact_token_strategy=hparams.fact_token,
-        )[1].T
+            track='out'
+        ).T
         targets = zs - cur_zs
-        log(f"z error {torch.linalg.norm(targets, dim=0).mean()}")
+        print("z error", torch.linalg.norm(targets, dim=0).mean())
 
         repeat_factor = (layer_ks.size(1) // targets.size(1))
         targets = targets.repeat_interleave(repeat_factor, dim=1)
@@ -189,6 +197,7 @@ def execute_memit(
             else hparams.mom2_n_samples // 10,
             hparams.mom2_dtype,
             force_recompute=force_recompute,
+            hparams=hparams
         )
 
         # Compute update in double precision
@@ -208,8 +217,8 @@ def execute_memit(
         weight_name = f"{hparams.rewrite_module_tmp.format(layer)}.weight"
         upd_matrix = upd_matrix_match_shape(upd_matrix, weights[weight_name].shape)
 
-        log(f"orig norm {torch.linalg.norm(weights[weight_name])}")
-        log(f"upd norm {torch.linalg.norm(upd_matrix)}")
+        print("orig norm", torch.linalg.norm(weights[weight_name]))
+        print("upd norm", torch.linalg.norm(upd_matrix))
 
         # Update model weights and record desired changes in `delta` variable
         with torch.no_grad():
@@ -231,7 +240,7 @@ def execute_memit(
         for k, v in weights.items():
             v[...] = weights_copy[k]
 
-    log(f"Deltas successfully computed for {list(weights.keys())}")
+    print(f"Deltas successfully computed for {list(weights.keys())}")
 
     return deltas
 
@@ -245,6 +254,7 @@ def get_cov(
     mom2_dtype: str,
     inv: bool = False,
     force_recompute: bool = False,
+    hparams=None,
 ) -> torch.Tensor:
     """
     Retrieves covariance statistics, then computes the algebraic inverse.
@@ -254,23 +264,24 @@ def get_cov(
     model_name = model.config._name_or_path.replace("/", "_")
     key = (model_name, layer_name)
 
-    log(f"Retrieving covariance statistics for {model_name} @ {layer_name}.")
+    print(f"Retrieving covariance statistics for {model_name} @ {layer_name}.")
     if key not in COV_CACHE or force_recompute:
         stat = layer_stats(
             model,
             tok,
             layer_name,
-            STATS_DIR,
+            hparams.stats_dir,
             mom2_dataset,
             to_collect=["mom2"],
             sample_size=mom2_n_samples,
             precision=mom2_dtype,
+            hparams=hparams,
             force_recompute=force_recompute,
         )
         COV_CACHE[key] = stat.mom2.moment().float().to("cpu")
 
     return (
-        torch.inverse(COV_CACHE[key].to("cuda")) if inv else COV_CACHE[key].to("cuda")
+        torch.inverse(COV_CACHE[key].to(f"cuda:{hparams.device}")) if inv else COV_CACHE[key].to(f"cuda:{hparams.device}")
     )
 
 
@@ -308,6 +319,6 @@ def get_context_templates(model, tok):
             ]
             for length, n_gen in [(10, 5)]  # Be careful about changing this.
         ]
-        log(f"Cached context templates {CONTEXT_TEMPLATES_CACHE}")
+        print(f"Cached context templates {CONTEXT_TEMPLATES_CACHE}")
 
     return CONTEXT_TEMPLATES_CACHE
