@@ -97,8 +97,6 @@ def main(
     model = LlamaForCausalLM.from_pretrained(model_name, torch_dtype=torch.float32, device_map='auto')
     tok = LlamaTokenizer.from_pretrained(model_name)
     tok.pad_token_id = tok.eos_token_id
-    print(model)
-    print(model.config)
 
 
     # Load data
