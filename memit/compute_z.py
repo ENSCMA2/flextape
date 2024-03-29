@@ -4,8 +4,8 @@ import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from ..rome import repr_tools
-from ...util import nethook
+from rome import repr_tools
+from util import nethook
 
 from .memit_hparams import MEMITHyperParams
 
@@ -36,7 +36,7 @@ def compute_z(
     print("Computing right vector (v)")
 
     # Tokenize target into list of int token IDs
-    target_ids = tok(request["target_new"], return_tensors="pt").to(f"cuda:{hparams.device}")[
+    target_ids = tok(request["target_new"]["str"], return_tensors="pt").to(f"cuda:{hparams.device}")[
         "input_ids"
     ][0]
 
@@ -169,7 +169,7 @@ def compute_z(
         loss = nll_loss + kl_loss.to(nll_loss.device) + weight_decay.to(nll_loss.device)
         print(
             f"loss {np.round(loss.item(), 3)} = {np.round(nll_loss.item(), 3)} + {np.round(kl_loss.item(), 3)} + {np.round(weight_decay.item(), 3)} "
-            f"avg prob of [{request['target_new']}] "
+            f"avg prob of [{request['target_new']['str']}] "
             f"{torch.exp(-nll_loss_each).mean().item()}"
         )
         if loss < 5e-2:
