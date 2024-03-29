@@ -83,7 +83,7 @@ def execute_memit(
     for i, request in enumerate(requests):
         if request["target_new"]["str"] != " ":
             # Space required for correct tokenization
-            requests[i]["target_new"] = " " + request["target_new"]
+            requests[i]["target_new"]["str"] = " " + request["target_new"]["str"]
 
         if '{}' not in request['prompt']:
             assert request['subject'] in request['prompt'] or \
@@ -94,7 +94,7 @@ def execute_memit(
     for request in requests[:10]:
         print(
             f"MEMIT request sample: "
-            f"[{request['prompt'].format(request['subject'])}] -> [{request['target_new']}]"
+            f"[{request['prompt'].format(request['subject'])}] -> [{request['target_new']['str']}]"
         )
 
     # Retrieve weights that user desires to change
