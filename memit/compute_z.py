@@ -78,7 +78,7 @@ def compute_z(
     # Set up an optimization over a latent vector that, when output at the
     # rewrite layer, i.e. hypothesized fact lookup location, will induce the
     # target token to be predicted at the final layer.
-    delta = torch.zeros((model.config.n_embd,), requires_grad=True, device="cuda")
+    delta = torch.zeros((4096,), requires_grad=True, device="cuda")
     target_init, kl_distr_init = None, None
 
     # Inserts new "delta" variable at the appropriate part of the computation
@@ -246,19 +246,24 @@ def find_fact_lookup_idx(
     elif (
         "subject_" in fact_token_strategy and fact_token_strategy.index("subject_") == 0
     ):
+        print("STRAT")
+        print(fact_token_strategy[len("subject_") :],
+        )
         ret = repr_tools.get_words_idxs_in_templates(
             tok=tok,
             context_templates=[prompt],
             words=[subject],
             subtoken=fact_token_strategy[len("subject_") :],
-        )[0][0]
+        )[0][0] - 2
     else:
         raise ValueError(f"fact_token={fact_token_strategy} not recognized")
 
     sentence = prompt.format(subject)
     if verbose:
+        print("RET", ret, len(tok(sentence)["input_ids"]))
         print(
-            f"Lookup index found: {ret} | Sentence: {sentence} | Token:",
+            f"Lookup index found: {ret} | Sentence: {sentence} | Token:")
+        print(
             tok.decode(tok(sentence)["input_ids"][ret]),
         )
 

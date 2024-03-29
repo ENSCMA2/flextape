@@ -349,3 +349,114 @@ MEMIT request sample: [A Thousand Plateaus's domain of activity is] -> [ physics
 MEMIT request sample: [The expertise of The Astronomical Journal is] -> [ algebra]
 MEMIT request sample: [suicide attack specializes in] -> [ physiology]
 MEMIT request sample: [The domain of activity of Georg Ernst Stahl is] -> [ mathematics]
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_000/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_001/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_002/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_003/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_004/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_005/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_006/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_000/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_001/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_000/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/MEMIT/run_000/{}_edits-case_{}.json
+about to start 73
+started 73
