@@ -81,6 +81,7 @@ def generate_fast(
     n_gen_per_prompt: int = 1,
     top_k: int = 5,
     max_out_len: int = 200,
+    vanilla_generation=False,
 ):
     """
     Fast, parallelized auto-regressive text generation with top-k sampling.
@@ -89,8 +90,24 @@ def generate_fast(
 
     # Unroll prompts and tokenize
     inp = [prompt for prompt in prompts for _ in range(n_gen_per_prompt)]
-    inp_tok = tok(inp, padding=True, return_tensors="pt").to("cuda")
+    inp_tok = tok(inp, padding=True, return_tensors="pt").to(
+        next(model.parameters()).device
+    )
     input_ids, attention_mask = inp_tok["input_ids"], inp_tok["attention_mask"]
+    if vanilla_generation:
+        gen_txt = model.generate(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            max_new_tokens=max_out_len
+        )
+        txt = [tok.decode(x, skip_special_tokens=True) for x in gen_txt.detach().cpu().numpy().tolist()]
+        txt = [
+            unicodedata.normalize("NFKD", x)
+            .replace("\n\n", " ")
+            .replace("<|endoftext|>", "")
+            for x in txt
+        ]
+        return txt
     batch_size = input_ids.size(0)
 
     # Setup storage of fast generation with attention caches.
@@ -101,14 +118,12 @@ def generate_fast(
 
     with torch.no_grad():
         while input_ids.size(1) < max_out_len:  # while not exceeding max output length
-            print(input_ids.size(1), max_out_len, input_ids.get_device())
             model_out = model(
-                input_ids=input_ids[:, cur_context].to("cuda:0"),
-                attention_mask=None,
+                input_ids=input_ids[:, cur_context],
+                attention_mask=None if 'llama'or'baichuan' in model.name_or_path.lower() else attention_mask[:, cur_context],
                 past_key_values=past_key_values,
                 use_cache=True,
             )
-            print("generated")
             logits, past_key_values = model_out.logits, model_out.past_key_values
             softmax_out = torch.nn.functional.softmax(logits[:, -1, :], dim=1)
 
@@ -131,7 +146,7 @@ def generate_fast(
                         input_ids.new_ones(batch_size, 1) * tok.pad_token_id,
                     ],
                     dim=1,
-                ).contiguous().to("cuda")
+                )
 
             last_non_masked = attention_mask.sum(1) - 1
             for i in range(batch_size):
@@ -143,11 +158,9 @@ def generate_fast(
                 if new_idx < max_out_len:
                     input_ids[i][new_idx] = new_toks[i]
                     attention_mask[i][new_idx] = 1
-            attention_mask = attention_mask.contiguous().to("cuda")
-            cur_context = slice(cur_context.stop, cur_context.stop + 1)
-            print("hi")
 
-    txt = [tok.decode(x) for x in input_ids.detach().cpu().numpy().tolist()]
+            cur_context = slice(cur_context.stop, cur_context.stop + 1)
+    txt = [tok.decode(x, skip_special_tokens=True) for x in input_ids.detach().cpu().numpy().tolist()]
     txt = [
         unicodedata.normalize("NFKD", x)
         .replace("\n\n", " ")
