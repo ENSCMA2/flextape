@@ -88,24 +88,61 @@ def layer_stats(
     download=True,
     progress=tqdm,
     force_recompute=False,
+    hparams=None
 ):
     """
     Function to load or compute cached stats.
     """
 
     def get_ds():
+        # Load_From_File
+        # from datasets import Dataset
+        # raw_ds = Dataset.from_file('XXX/XXX/wikipedia-train.arrow')
+        # raw_ds = {'train': raw_ds}
         raw_ds = load_dataset(
             ds_name,
-            dict(wikitext="wikitext-103-raw-v1", wikipedia="20200501.en")[ds_name],
+            dict(wikitext="wikitext-103-raw-v1", wikipedia="20200501.en")[ds_name]
         )
-        maxlen = model.config.n_positions
+        if hasattr(model.config, 'n_positions'):
+            maxlen = model.config.n_positions
+        elif hasattr(model.config, 'max_sequence_length'):
+            maxlen = model.config.max_sequence_length
+        elif hasattr(model.config, 'max_position_embeddings'):
+            maxlen = model.config.max_position_embeddings
+        elif hasattr(model.config,'seq_length'):
+            maxlen = model.config.seq_length
+        else:
+            raise NotImplementedError
+                
+        if hasattr(model.config, 'model_type') and 'mistral' in model.config.model_type:
+            if hasattr(model.config, 'sliding_window') and model.config.sliding_window:
+                maxlen = model.config.sliding_window or 4096
+            else:
+                maxlen = 4096
+        
         if batch_tokens is not None and batch_tokens < maxlen:
             maxlen = batch_tokens
         return TokenizedDataset(raw_ds["train"], tokenizer, maxlen=maxlen)
 
     # Continue with computation of statistics
     batch_size = 100  # Examine this many dataset texts at once
-    npos = model.config.n_positions
+    if hasattr(model.config, 'n_positions'):
+        npos = model.config.n_positions
+    elif hasattr(model.config, 'max_sequence_length'):
+        npos = model.config.max_sequence_length
+    elif hasattr(model.config, 'max_position_embeddings'):
+        npos = model.config.max_position_embeddings
+    elif hasattr(model.config,'seq_length'):
+        npos = model.config.seq_length
+    else:
+        raise NotImplementedError
+        
+    if hasattr(model.config, 'model_type') and 'mistral' in model.config.model_type:
+        if hasattr(model.config, 'sliding_window') and model.config.sliding_window:
+            npos = model.config.sliding_window or 4096
+        else:
+            npos = 4096
+    
     if batch_tokens is None:
         batch_tokens = npos * 3  # Sort and divide into batches with this many tokens
     if precision is None:
@@ -121,17 +158,7 @@ def layer_stats(
     file_extension = f"{model_name}/{ds_name}_stats/{layer_name}_{precision}_{'-'.join(sorted(to_collect))}{size_suffix}.npz"
     filename = stats_dir / file_extension
 
-    if not filename.exists() and download:
-        remote_url = f"{REMOTE_ROOT_URL}/data/stats/{file_extension}"
-        try:
-            print(f"Attempting to download {file_extension} from {remote_url}.")
-            (stats_dir / "/".join(file_extension.split("/")[:-1])).mkdir(
-                exist_ok=True, parents=True
-            )
-            torch.hub.download_url_to_file(remote_url, filename)
-            print("Successfully downloaded.")
-        except Exception as e:
-            print(f"Unable to download due to {e}. Computing locally....")
+    print(f"Computing Cov locally....")
 
     ds = get_ds() if not filename.exists() else None
 
@@ -154,7 +181,7 @@ def layer_stats(
     with torch.no_grad():
         for batch_group in progress(loader, total=batch_count):
             for batch in batch_group:
-                batch = dict_to_(batch, "cuda")
+                batch = dict_to_(batch, f"cuda:{hparams.device}")
                 with Trace(
                     model, layer_name, retain_input=True, retain_output=False, stop=True
                 ) as tr:
