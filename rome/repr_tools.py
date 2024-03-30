@@ -77,9 +77,11 @@ def get_words_idxs_in_templates(
         batch_tok[i : i + n] for i in range(0, n * 3, n)
     ]
     prefixes_len, words_len, suffixes_len = [
-        [len(el) for el in tok_list]
+        [len(el) for el in tok_list["input_ids"]]
         for tok_list in [prefixes_tok, words_tok, suffixes_tok]
     ]
+    print("PLI")
+    print(prefixes, prefixes_len, words_len, n)
 
     # Compute indices of last tokens
     if subtoken == "last" or subtoken == "first_after_last":
@@ -129,7 +131,11 @@ def get_reprs_at_idxs(
     def _process(cur_repr, batch_idxs, key):
         nonlocal to_return
         cur_repr = cur_repr[0] if type(cur_repr) is tuple else cur_repr
+        print("cur repr length", len(cur_repr))
         for i, idx_list in enumerate(batch_idxs):
+            print("eye", i, idx_list, len(cur_repr[i]), key)
+            for j in range(len(idx_list)):
+                idx_list[j] = min(idx_list[j], len(cur_repr[i]) - 1)
             to_return[key].append(cur_repr[i][idx_list].mean(0))
 
     for batch_contexts, batch_idxs in _batch(n=128):

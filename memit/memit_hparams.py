@@ -30,6 +30,7 @@ class MEMITHyperParams(HyperParams):
     lm_head_module: str
 
     # Statistics
+    stats_dir: str
     mom2_dataset: str
     mom2_n_samples: int
     mom2_dtype: str
