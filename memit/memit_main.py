@@ -281,7 +281,7 @@ def get_cov(
         COV_CACHE[key] = stat.mom2.moment().float().to("cpu")
 
     return (
-        torch.inverse(COV_CACHE[key].to(f"cuda:{hparams.device}")) if inv else COV_CACHE[key].to(f"cuda:{hparams.device}")
+        torch.inverse(COV_CACHE[key].to(f"cuda:0")) if inv else COV_CACHE[key].to(f"cuda:0")
     )
 
 

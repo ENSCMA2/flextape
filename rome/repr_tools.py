@@ -131,9 +131,7 @@ def get_reprs_at_idxs(
     def _process(cur_repr, batch_idxs, key):
         nonlocal to_return
         cur_repr = cur_repr[0] if type(cur_repr) is tuple else cur_repr
-        print("cur repr length", len(cur_repr))
         for i, idx_list in enumerate(batch_idxs):
-            print("eye", i, idx_list, len(cur_repr[i]), key)
             for j in range(len(idx_list)):
                 idx_list[j] = min(idx_list[j], len(cur_repr[i]) - 1)
             to_return[key].append(cur_repr[i][idx_list].mean(0))

@@ -101,7 +101,7 @@ def layer_stats(
         # raw_ds = {'train': raw_ds}
         raw_ds = load_dataset(
             ds_name,
-            dict(wikitext="wikitext-103-raw-v1", wikipedia="20200501.en")[ds_name]
+            dict(wikitext="wikitext-103-raw-v1", wikipedia="20220301.en")[ds_name]
         )
         if hasattr(model.config, 'n_positions'):
             maxlen = model.config.n_positions
@@ -181,7 +181,7 @@ def layer_stats(
     with torch.no_grad():
         for batch_group in progress(loader, total=batch_count):
             for batch in batch_group:
-                batch = dict_to_(batch, f"cuda:{hparams.device}")
+                batch = dict_to_(batch, f"cuda:0")
                 with Trace(
                     model, layer_name, retain_input=True, retain_output=False, stop=True
                 ) as tr:
