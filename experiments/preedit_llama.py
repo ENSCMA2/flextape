@@ -3,9 +3,10 @@ import shutil
 from itertools import islice
 from time import time
 from typing import Tuple, Union
-from accelerate import *
+
 import torch
-from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer
+from accelerate import *
+from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, LlamaTokenizer
 
 from dsets import (
     AttributeSnippets,
@@ -14,9 +15,11 @@ from dsets import (
     MultiCounterFactDataset,
     get_tfidf_vectorizer,
 )
+from memit import MEMITHyperParams, apply_memit_to_model
 from experiments.py.eval_utils_counterfact import compute_rewrite_quality_counterfact
 from util import nethook
 from util.globals import *
+
 
 DS_DICT = {
     "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
@@ -75,21 +78,10 @@ def main(
     print(f"Results will be stored at {run_dir}")
 
     log("Instantiating model")
-    tok = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
-    config = AutoConfig.from_pretrained(model_name, trust_remote_code=True)
-
-    with init_empty_weights():
-        model = AutoModelForCausalLM.from_config(config, trust_remote_code=True)
-
-    model = load_checkpoint_and_dispatch(model, 
-                                     "/home/khalevy/.cache/huggingface/hub/models--meta-llama--Llama-2-7b-hf/snapshots/8a0442e81540efaeb1a0fe3e95477b5e0edfd423",
-                                     device_map='auto',
-                                     offload_folder="offload",
-                                     offload_state_dict=True,
-                                     dtype = "float16",
-                                     no_split_module_classes=["LlamaDecoderLayer"])
+    model = LlamaForCausalLM.from_pretrained(model_name, torch_dtype=torch.float32, device_map='auto')
+    tok = LlamaTokenizer.from_pretrained(model_name)
+    tok.pad_token_id = tok.eos_token_id
     log("created model")
-    tok.pad_token = tok.eos_token
 
     # Load data
     log("Loading dataset, attribute snippets, tf-idf data")
