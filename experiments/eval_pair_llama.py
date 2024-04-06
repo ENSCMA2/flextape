@@ -16,7 +16,7 @@ from dsets import (
     get_tfidf_vectorizer,
 )
 from memit import MEMITHyperParams, apply_memit_to_model
-from experiments.py.eval_utils_counterfact import compute_rewrite_quality_counterfact
+from experiments.py.eval_utils_counterfact import compute_rewrite_quality_counterfact, compute_pair_quality
 from util import nethook
 from util.globals import *
 
