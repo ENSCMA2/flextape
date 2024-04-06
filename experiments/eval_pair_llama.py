@@ -3,7 +3,7 @@ import shutil
 from itertools import islice
 from time import time
 from typing import Tuple, Union
-
+import pandas as pd
 import torch
 from accelerate import *
 from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, LlamaTokenizer
