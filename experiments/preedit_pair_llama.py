@@ -3,9 +3,10 @@ import shutil
 from itertools import islice
 from time import time
 from typing import Tuple, Union
-import pandas as pd
+
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from accelerate import *
+from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, LlamaTokenizer
 
 from dsets import (
     AttributeSnippets,
@@ -14,7 +15,8 @@ from dsets import (
     MultiCounterFactDataset,
     get_tfidf_vectorizer,
 )
-from experiments.py.eval_utils_counterfact import compute_pair_quality
+from memit import MEMITHyperParams, apply_memit_to_model
+from experiments.py.eval_utils_counterfact import compute_rewrite_quality_counterfact
 from util import nethook
 from util.globals import *
 
@@ -87,14 +89,10 @@ def main(
     # log(f"Executing {alg_name} with parameters {hparams}")
 
     # Instantiate vanilla model
-    if type(model_name) is str:
-        log("Instantiating model")
-        model = AutoModelForCausalLM.from_pretrained(model_name).cuda()
-        tok = AutoTokenizer.from_pretrained(model_name)
-        tok.pad_token = tok.eos_token
-    else:
-        model, tok = model_name
-        model_name = model.config._name_or_path
+    log("Instantiating model")
+    model = LlamaForCausalLM.from_pretrained(model_name, torch_dtype=torch.float32, device_map='auto')
+    tok = LlamaTokenizer.from_pretrained(model_name)
+    tok.pad_token_id = tok.eos_token_id
 
     # Load data
     log("Loading dataset, attribute snippets, tf-idf data")
@@ -201,7 +199,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--model_name",
-        choices=["gpt2-medium", "gpt2-large", "gpt2-xl", "EleutherAI/gpt-j-6B"],
+        choices=["gpt2-medium", "gpt2-large", "gpt2-xl", "EleutherAI/gpt-j-6B", "meta-llama/Llama-2-7b-hf"],
         default="gpt2-xl",
         help="Model to edit.",
         required=True,
@@ -209,7 +207,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--hparams_fname",
         type=str,
-        default="gpt2-xl.json",
+        default="llama-7b.json",
         help="Name of hyperparameters file, located in the hparams/<alg_name> folder.",
         required=True,
     )
