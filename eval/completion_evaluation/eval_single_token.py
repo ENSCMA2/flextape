@@ -5,6 +5,12 @@ from itertools import *
 import pandas as pd
 import copy
 import os
+import sys
+import wptools
+import requests
+
+model = sys.argv[1]
+method = sys.argv[2]
 
 wiki_prefix = "http://www.wikidata.org/entity/"
 
@@ -12,10 +18,12 @@ def kl_divergence(p, q):
 	return np.sum(np.where(p != 0, p * np.log(p / q), 0))
 
 def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
-	if not os.path.exists(f"../results/{p}/gender/{method}.json"):
+	print(p)
+	if not os.path.exists(f"../../results/{p}/gender/{method}.json"):
+		total_bad = 0
+		total_entities = 0
 		misfits = []
-		print(p, method)
-		p_file = f"../data/seesaw_cf_{p}.json"
+		p_file = f"../../data/seesaw_cf_{p}.json"
 		all_metrics = []
 		overall_metrics = {}
 		amn, awn, amt, awt, amd, awd = np.array([]), np.array([]), np.array([]), np.array([]), np.array([]), np.array([])
@@ -24,18 +32,19 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 
 		with open(p_file) as o:
 			the_question = json.load(o)
-		for question in the_question:
+		for j, question in enumerate(the_question):
 			case_id = question["case_id"]
 			entities = question["attribute_aux_info"]
+			total_entities += len(set(entities))
 			q = question["requested_rewrite"]["target_new"]["id"]
 			if p.split("_")[0] != "P21":
 				if p in ["P101", "P103"]:
-					wiki_q_0 = f"/Users/khalevy/Downloads/CF_Ingredients/data/00_{p}_{q}.json"
-					wiki_q_1 = f"/Users/khalevy/Downloads/CF_Ingredients/data/01_{p}_{q}.json"
+					wiki_q_0 = f"../../data/wiki/Q6581072_{p}_{q}.json"
+					wiki_q_1 = f"../../data/wiki/Q6581097_{p}_{q}.json"
 				else:
 					p1 = p.split("_")[0]
-					wiki_q_0 = f"../data/Q6581072_{p1}_{q}_expanded.json"
-					wiki_q_1 = f"../data/Q6581097_{p1}_{q}_expanded.json"
+					wiki_q_0 = f"../../data/wiki/Q6581072_{p1}_{q}.json"
+					wiki_q_1 = f"../../data/wiki/Q6581097_{p1}_{q}.json"
 				with open(wiki_q_0) as o1:
 					info_0 = json.load(o1)
 				with open(wiki_q_1) as o1:
@@ -43,8 +52,8 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 				wiki = {**info_0, **info_1}
 			else:
 				wiki = {}
-				men = "../data/P172/men"
-				women = "../data/P172/women"
+				men = "../../data/P172/men"
+				women = "../../data/P172/women"
 				for f in os.listdir(men):
 					with open(os.path.join(men, f)) as o:
 						wiki = {**wiki, **json.load(o)}
@@ -58,24 +67,63 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 				if type(prop) == str:
 					return hope == prop
 				return False
-			if p in ["P101", "P103"]:
-				genders = [wiki[f"{wiki_prefix}{subj}"]["properties"]["P21"] for subj in entities]
-			else:
-				genders = [wiki[f"{subj}"]["properties"]["P21"] for subj in entities]
+			def lookup(subj, dem):
+				# print(subj, dem)
+				def process(que):
+					if "Q6581072" in que:
+						return "Q6581072"
+					if "Q6581097" in que:
+						return "Q6581097"
+					return "None"
+				try:
+					proc = process(wiki[subj]["properties"][dem])
+					return proc
+				except:
+					if os.path.exists(f"../../data/wiki/person_{subj}.json"):
+						with open(f"../../data/wiki/person_{subj}.json") as o:
+							loaded = json.load(o)["properties"]
+							if dem in loaded.keys():
+								return process(loaded[dem])
+							return "None"
+					try:
+						page = wptools.page(wikibase = subj, silent = True)
+						wikidata = page.get_wikidata(show = False).data
+						person = {"name": wikidata["label"], "properties": wikidata["claims"]}
+						with open(f"../../data/wiki/person_{subj}.json", "w") as o:
+							json.dump(person, o)
+						if dem in person["properties"].keys():
+							return process(person["properties"][dem])
+						return "None"
+					except Exception as e:
+						return "None"
+
+			genders = []
+			for i, subj in enumerate(entities):
+				genders.append(lookup(subj, "P21"))
+				# print(j, len(the_question), i, len(entities))
+			valid = [i for i in range(len(genders)) if genders[i] != "None"]
+			valid_genders = np.array(genders)[valid]
+			print("valid genders length", len(valid_genders))
 			try:
 				with open(f"{result_dir}{n}_edits-case_{case_id}.json") as result:
 					res = json.load(result)
-				probs = res["post"]["attribute_prompts_probs"]
+				probs = np.array(res["post"]["attribute_prompts_probs"])[valid]
 			except Exception as e:
-				# print(e)
+				print("probs not loaded")
+				print(e)
 				continue
-
-			if len(probs) != len (genders) or len(genders) != len(entities):
-				print(f"case {case_id}")
-				misfits.append(case_id)
-				print(f"probs length {len(probs)}, genders length {len(genders)}, entities length {len(entities)}")
-			men = [i for i in range(len(genders)) if match(genders[i], "Q6581097") or match(genders[i], "Q2449503")]
-			women = [i for i in range(len(genders)) if match(genders[i], "Q6581072") or match(genders[i], "Q1052281")]
+			men = []
+			women = []
+			for i in range(len(valid_genders)):
+				v = str(valid_genders[i])
+				m = match(v, "Q6581097") or match(v, "Q2449503")
+				w = match(v, "Q6581072") or match(v, "Q1052281")
+				if m:
+					men.append(i)
+				if w:
+					women.append(i)
+			# print("women length:", len(women))
+			# print("men length:", len(men))
 			
 			def get_gender_breakdown(probs):
 				men_probs = [probs[i] for i in men]
@@ -108,7 +156,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			
 			with open(f"{presult_dir}{n}_edits-case_{case_id}.json") as result:
 				pres = json.load(result)
-			pre_probs = pres["pre"]["attribute_prompts_probs"]
+			pre_probs = np.array(pres["pre"]["attribute_prompts_probs"])[valid]
 
 			
 			mnp, wnp, mtp, wtp, mdp, wdp = get_gender_breakdown(pre_probs)
@@ -139,7 +187,6 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 							  "stdev_neg_log_prob_diff_male": np.std(mdp),
 							  "stdev_neg_log_prob_diff_female": np.std(wdp)}
 			
-			
 			all_metrics.append({"case_id": case_id, 
 								"subject": question["requested_rewrite"]["subject"],
 								"target_new": question["requested_rewrite"]["target_new"],
@@ -157,47 +204,18 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 							  "mean_neg_log_prob_diff_female": np.mean(awd),
 							  "stdev_neg_log_prob_diff_male": np.std(amd),
 							  "stdev_neg_log_prob_diff_female": np.std(awd)}
-		if not os.path.isdir(f"../results/{p}"):
-			os.mkdir(f"../results/{p}")
-		if not os.path.isdir(f"../results/{p}/gender"):
-			os.mkdir(f"../results/{p}/gender")
-		with open(f"../results/{p}/gender/{method}.json", "w") as o:
+		if not os.path.isdir(f"../../results/{model}/{p}"):
+			os.mkdir(f"../../results/{model}/{p}")
+		if not os.path.isdir(f"../../results/{model}/{p}/gender"):
+			os.mkdir(f"../../results/{model}/{p}/gender")
+		with open(f"../../results/{model}/{p}/gender/{method}.json", "w") as o:
 			json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
-		print(len(the_question), len(misfits))
+		print(total_bad, total_entities)
 
-gen_metrics("P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P103", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P101", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P103", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P101", "../results/MEND/", 900, "../results/OG/", "MEND")
-gen_metrics("P103", "../results/MEND/", 900, "../results/OG/", "MEND")
-
-gen_metrics("P101_P21", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-# gen_metrics("P21_P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P27_P21", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P27_P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P101_P27", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P19_P21", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P19_P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-gen_metrics("P27_P19", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
-
-gen_metrics("P101_P21", "../results/FT/", 900, "../results/OG/", "FT")
-# gen_metrics("P21_P101", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P27_P21", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P27_P101", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P101_P27", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P19_P21", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P19_P101", "../results/FT/", 900, "../results/OG/", "FT")
-gen_metrics("P27_P19", "../results/FT/", 900, "../results/OG/", "FT")
-
-gen_metrics("P101_P21", "../results/MEND/", 900, "../results/OG/", "MEND")
-# gen_metrics("P21_P101", "../results/MEND/", 900, "../results/OG/", "MEND")
-gen_metrics("P27_P21", "../results/MEND/", 900, "../results/OG/", "MEND")
-gen_metrics("P27_P101", "../results/MEND/", 900, "../results/OG/", "MEND")
-gen_metrics("P101_P27", "../results/MEND/", 900, "../results/OG/", "MEND")
-gen_metrics("P19_P21", "../results/MEND/", 900, "../results/OG/", "MEND")
-gen_metrics("P19_P101", "../results/MEND/", 900, "../results/OG/", "MEND")
-gen_metrics("P27_P19", "../results/MEND/", 900, "../results/OG/", "MEND")
-
+for p in ["P101", "P103", 
+		  "P101_P21", "P27_P21", 
+		  "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+		  ]:
+	gen_metrics(p, f"../../results/{method}/", 900 + len(p.split("_")) - 1, f"../../results/NONE/", method)
 
 

@@ -11,10 +11,10 @@ def create(human_sheet, prop):
 	for i in range(len(subjects)):
 		target = targets[i]
 		try:
-			with open(f"../data/00_{prop}_{target}.json") as o:
+			with open(f"../data/wiki/00_{prop}_{target}.json") as o:
 				proxy = json.load(o)
 				try:
-					with open(f"../data/01_{prop}_{target}.json") as o2:
+					with open(f"../data/wiki/01_{prop}_{target}.json") as o2:
 						proxy = {**proxy, **json.load(o2)}
 				except Exception as e:
 					print("exception at o2 stage")
@@ -45,5 +45,5 @@ def create(human_sheet, prop):
 		with open(f"../data/{prop}_subject_info.json", "w") as o:
 			json.dump(sub, o)
 
-# create("../Human_CF/human_counterfact_P101.json", "P101")
-create("../Human_CF/human_counterfact_P103.json", "P103")
+create("../data/seesaw_cf_P101.json", "P101")
+create("../data/seesaw_cf_P103.json", "P103")

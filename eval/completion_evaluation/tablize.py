@@ -1,15 +1,21 @@
 import pandas as pd
 from matplotlib import pyplot as plt
-
-props = ["P101", "P103", "P101_P21", 
+import sys
+model = sys.argv[1]
+props = ["P101", "P103", 
+# "P101_P21", 
 # "P21_P101", 
-"P27_P21", "P27_P101",
-		 "P101_P27", "P19_P21", "P19_P101", "P27_P19"]
-methods = ["FT", "MEND", "MEMIT"]
+# "P27_P21", "P27_P101",
+# "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+		 ]
+methods = [
+# "FT", 
+# "MEND", 
+"MEMIT"]
 names = []
 for prop in props:
 	for method in methods:
-		names.append(f"../results/{prop}/gender/{method}")
+		names.append(f"../../results/{model}/{prop}/gender/{method}")
 
 def tab(names):
 	cols = ["male_pre_mean_p_diff", 
@@ -26,7 +32,7 @@ def tab(names):
 		all_data.append([realname] + df.iloc[-2, 2:8].tolist())
 	df = pd.DataFrame(columns = ["name"] + cols,
 					  data = all_data)
-	df.to_csv("../results/small_table_gender.csv")
+	df.to_csv("../../results/small_table_gender.csv")
 
 def graph(names):
 	cols = ["male_pre_mean_p_diff", 
@@ -35,7 +41,7 @@ def graph(names):
 			"female_post_mean_p_diff",
 			"male_mean_p_diff_diff",
 			"female_mean_p_diff_diff",]
-	dfs = [pd.read_csv(f"../results/{name}.csv") for name in names]
+	dfs = [pd.read_csv(f"{name}.csv") for name in names]
 	for i in range(len(dfs)):
 		plt.scatter(dfs[i]["case_id"].tolist()[:-3], dfs[i][cols[0]].tolist()[:-3], label = "pre")
 		plt.scatter(dfs[i]["case_id"].tolist()[:-3], dfs[i][cols[1]].tolist()[:-3], label = "post")

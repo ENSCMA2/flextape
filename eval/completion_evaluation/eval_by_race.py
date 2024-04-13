@@ -5,11 +5,12 @@ from itertools import *
 import pandas as pd
 import copy
 import os
+import sys
 
 wiki_prefix = "http://www.wikidata.org/entity/"
 props = ["P101", "P103", "P101_P21", "P21_P101", 
 "P27_P21", "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"]
-race_dfs = [pd.read_csv(f"../data/{prop}_ethnic_groups.csv").fillna("") for prop in props]
+race_dfs = [pd.read_csv(f"../../data/Ethnic Groups - {prop}.csv").fillna("") for prop in props]
 def intersection_list(lol):
 	initial = set(lol[0])
 	for i in range(1, len(lol)):
@@ -42,7 +43,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, pdf, patch = False,):
 	if not os.path.exists(f"../results/{p}/race/{method}.json"):
 		misfits = []
 		print(p, method)
-		p_file = f"../data/seesaw_cf_{p}.json"
+		p_file = f"../../data/seesaw_cf_{p}.json"
 		race_df = {item["Code"]: item["Racial Group"] for i, item in pdf.iterrows() if item["Racial Group"] != ""}
 		geo_df = {item["Code"]: item["Racial Group"] for i, item in pdf.iterrows() if item["Geo Group"] != ""}
 		all_metrics = []
@@ -63,12 +64,12 @@ def gen_metrics(p, result_dir, n, presult_dir, method, pdf, patch = False,):
 			q = question["requested_rewrite"]["target_new"]["id"]
 			if p.split("_")[0] != "P21":
 				if p in ["P101", "P103"]:
-					wiki_q_0 = f"/Users/khalevy/Downloads/CF_Ingredients/data/00_{p}_{q}.json"
-					wiki_q_1 = f"/Users/khalevy/Downloads/CF_Ingredients/data/01_{p}_{q}.json"
+					wiki_q_0 = f"../../data/wiki/Q6581072_{p}_{q}.json"
+					wiki_q_1 = f"../../data/wiki/Q6581097_{p}_{q}.json"
 				else:
 					p1 = p.split("_")[0]
-					wiki_q_0 = f"../data/Q6581072_{p1}_{q}_expanded.json"
-					wiki_q_1 = f"../data/Q6581097_{p1}_{q}_expanded.json"
+					wiki_q_0 = f"../../data/wiki/Q6581072_{p1}_{q}.json"
+					wiki_q_1 = f"../../data/wiki/Q6581097_{p1}_{q}.json"
 				with open(wiki_q_0) as o1:
 					info_0 = json.load(o1)
 				with open(wiki_q_1) as o1:
@@ -76,8 +77,8 @@ def gen_metrics(p, result_dir, n, presult_dir, method, pdf, patch = False,):
 				wiki = {**info_0, **info_1}
 			else:
 				wiki = {}
-				men = "../data/P172/men"
-				women = "../data/P172/women"
+				men = "../../data/P172/men"
+				women = "../../data/P172/women"
 				for f in os.listdir(men):
 					with open(os.path.join(men, f)) as o:
 						wiki = {**wiki, **json.load(o)}
@@ -86,14 +87,42 @@ def gen_metrics(p, result_dir, n, presult_dir, method, pdf, patch = False,):
 						wiki = {**wiki, **json.load(o)}
 			race_available = []
 			races = []
+
+			def lookup(subj, dem):
+				try:
+					pr = wiki[f"{entities[subj]}"]["properties"]
+					if dem in pr.keys():
+						return pr[dem], True
+					else:
+						return None, False
+				except:
+					if os.path.exists(f"../../data/wiki/person_{subj}.json"):
+						with open(f"../../data/wiki/person_{subj}.json") as o:
+							pr = json.load(o)["properties"]
+							if dem in pr.keys():
+								return pr[dem], True
+							else:
+								return None, False
+					try:
+						page = wptools.page(wikibase = subj, silent = True)
+						wikidata = page.get_wikidata(show = False).data
+						person = {"name": wikidata["label"], "properties": wikidata["claims"]}
+						with open(f"../../data/wiki/person_{subj}.json", "w") as o:
+							json.dump(person, o)
+						pr = person["properties"]
+						if dem in pr.keys():
+							return pr[dem], True
+						else:
+							return None, False
+					except Exception as e:
+						return None, False
 			
 			for i in range(len(entities)):
 				some = False
 				mini_race = []
-				pfx = f"{wiki_prefix}{entities[i]}" if p in ["P101", "P103"] else entities[i]
-				if "P172" in wiki[pfx]["properties"].keys():
-					key = wiki[pfx]["properties"]["P172"]
-					for keys in key:
+				trait, found = lookup(entities[i], "P172")
+				if found:
+					for keys in trait:
 						if keys in race_df.keys():
 							mini_race.extend(convert(keys, pdf))
 							some = True
@@ -106,11 +135,10 @@ def gen_metrics(p, result_dir, n, presult_dir, method, pdf, patch = False,):
 			geos = []
 			for i in range(len(entities)):
 				mini_race = []
-				pfx = f"{wiki_prefix}{entities[i]}" if p in ["P101", "P103"] else entities[i]
-				if "P172" in wiki[pfx]["properties"].keys():
-					key = wiki[pfx]["properties"]["P172"]
+				trait, found = lookup(entities[i], "P172")
+				if found:
 					some = False
-					for keys in key:
+					for keys in trait:
 						if keys in geo_df.keys():
 							mini_race.extend(convert_geo(keys, pdf))
 							some = True
@@ -282,47 +310,18 @@ def gen_metrics(p, result_dir, n, presult_dir, method, pdf, patch = False,):
 				overall_metrics["post"][f"mean_neg_log_prob_diff_{race}"] = np.mean(all_geo_data[race])
 				overall_metrics["pre"][f"stdev_neg_log_prob_diff_{race}"] = np.std(all_geo_data_pre[race])
 				overall_metrics["post"][f"stdev_neg_log_prob_diff_{race}"] = np.std(all_geo_data[race])
-
-		if not os.path.isdir(f"../results/{p}"):
-			os.mkdir(f"../results/{p}")
-		if not os.path.isdir(f"../results/{p}/race"):
-			os.mkdir(f"../results/{p}/race")
-		with open(f"../results/{p}/race/{method}.json", "w") as o:
+		model = sys.argv[1]
+		if not os.path.isdir(f"../../results/{model}/{p}"):
+			os.mkdir(f"../../results/{model}/{p}")
+		if not os.path.isdir(f"../../results/{model}/{p}/race"):
+			os.mkdir(f"../../results/{model}/{p}/race")
+		with open(f"../../results/{model}/{p}/race/{method}.json", "w") as o:
 			json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
 
-gen_metrics("P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT", race_dfs[0])
-gen_metrics("P103", "../results/MEMIT/", 900, "../results/OG/", "MEMIT", race_dfs[1])
-gen_metrics("P101", "../results/FT/", 900, "../results/OG/", "FT", race_dfs[0])
-gen_metrics("P103", "../results/FT/", 900, "../results/OG/", "FT", race_dfs[1])
-gen_metrics("P101", "../results/MEND/", 900, "../results/OG/", "MEND", race_dfs[0])
-gen_metrics("P103", "../results/MEND/", 900, "../results/OG/", "MEND", race_dfs[1])
 
-gen_metrics("P101_P21", "../results/MEMIT/", 900, "../results/OG/", "MEMIT", race_dfs[2])
-gen_metrics("P21_P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT", race_dfs[3])
-gen_metrics("P27_P21", "../results/MEMIT/", 900, "../results/OG/", "MEMIT", race_dfs[4])
-gen_metrics("P27_P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT", race_dfs[5])
-gen_metrics("P101_P27", "../results/MEMIT/", 900, "../results/OG/", "MEMIT", race_dfs[6])
-gen_metrics("P19_P21", "../results/MEMIT/", 900, "../results/OG/", "MEMIT", race_dfs[7])
-gen_metrics("P19_P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT", race_dfs[8])
-gen_metrics("P27_P19", "../results/MEMIT/", 900, "../results/OG/", "MEMIT", race_dfs[9])
-
-gen_metrics("P101_P21", "../results/FT/", 900, "../results/OG/", "FT", race_dfs[2])
-gen_metrics("P21_P101", "../results/FT/", 900, "../results/OG/", "FT", race_dfs[3])
-gen_metrics("P27_P21", "../results/FT/", 900, "../results/OG/", "FT", race_dfs[4])
-gen_metrics("P27_P101", "../results/FT/", 900, "../results/OG/", "FT", race_dfs[5])
-gen_metrics("P101_P27", "../results/FT/", 900, "../results/OG/", "FT", race_dfs[6])
-gen_metrics("P19_P21", "../results/FT/", 900, "../results/OG/", "FT", race_dfs[7])
-gen_metrics("P19_P101", "../results/FT/", 900, "../results/OG/", "FT", race_dfs[8])
-gen_metrics("P27_P19", "../results/FT/", 900, "../results/OG/", "FT", race_dfs[9])
-
-gen_metrics("P101_P21", "../results/MEND/", 900, "../results/OG/", "MEND", race_dfs[2])
-gen_metrics("P21_P101", "../results/MEND/", 900, "../results/OG/", "MEND", race_dfs[3])
-gen_metrics("P27_P21", "../results/MEND/", 900, "../results/OG/", "MEND", race_dfs[4])
-gen_metrics("P27_P101", "../results/MEND/", 900, "../results/OG/", "MEND", race_dfs[5])
-gen_metrics("P101_P27", "../results/MEND/", 900, "../results/OG/", "MEND", race_dfs[6])
-gen_metrics("P19_P21", "../results/MEND/", 900, "../results/OG/", "MEND", race_dfs[7])
-gen_metrics("P19_P101", "../results/MEND/", 900, "../results/OG/", "MEND", race_dfs[8])
-gen_metrics("P27_P19", "../results/MEND/", 900, "../results/OG/", "MEND", race_dfs[9])
-
-
-
+method = sys.argv[2]
+for i, p in enumerate(["P101", "P103", 
+		  # "P101_P21", "P27_P21", 
+		  # "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+		  ]):
+	gen_metrics(p, f"../../results/{method}/", 900 + len(p.split("_")) - 1, f"../../results/NONE/", method, race_dfs[i])

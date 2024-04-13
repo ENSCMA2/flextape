@@ -2,17 +2,20 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import numpy as np
 import os
-
-props = ["P101", "P103", "P101_P21", "P21_P101", 
-"P27_P21", "P27_P101",
-		 "P101_P27", "P19_P21", "P19_P101", "P27_P19"]
-methods = ["FT", "MEND", "MEMIT"]
+import sys
+props = ["P101", "P103", 
+# "P101_P21", "P21_P101", 
+# "P27_P21", "P27_P101",
+# "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+]
+model = sys.argv[1]
+methods = ["MEMIT"]
 names = []
 for prop in props:
 	for method in methods:
-		names.append(f"../results/{prop}/race/{method}")
+		names.append(f"../../results/{model}/{prop}/race/{method}")
 
-race_dfs = [pd.read_csv(f"../data/{prop}_ethnic_groups.csv").fillna("") for prop in props]
+race_dfs = [pd.read_csv(f"../../data/Ethnic Groups - {prop}.csv").fillna("") for prop in props]
 def intersection_list(lol):
 	initial = set(lol[0])
 	for i in range(1, len(lol)):
@@ -41,10 +44,10 @@ def tab(names):
 		all_data.append([realname] + subdf.iloc[-2, :].tolist())
 	df = pd.DataFrame(columns = ["name"] + cols,
 					  data = all_data)
-	df.to_csv("../results/small_table_race.csv")
+	df.to_csv("../../results/small_table_race.csv")
 
 def graph(names):
-	dfs = [pd.read_csv(f"../results/{name}.csv") for name in names]
+	dfs = [pd.read_csv(f"{name}.csv") for name in names]
 	for i in range(len(dfs)):
 		counter = 0
 		for race in racial_groups:

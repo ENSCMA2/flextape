@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import numpy as np
+import sys
 
 def visualize(f):
 	with open(f"{f}.json") as o:
@@ -65,38 +66,11 @@ def visualize(f):
 	df.loc[len(df)] = ["mean"] + means.tolist()
 	df.loc[len(df)] = ["stdev"] + stds.tolist()
 	df.to_csv(f"{f}.csv")
-
-visualize("../results/P101/gender/FT")
-visualize("../results/P103/gender/FT")
-visualize("../results/P101/gender/MEMIT")
-visualize("../results/P103/gender/MEMIT")
-visualize("../results/P101/gender/MEND")
-visualize("../results/P103/gender/MEND")
-
-visualize("../results/P101_P21/gender/FT")
-# visualize("../results/P21_P101/gender/FT")
-visualize("../results/P27_P21/gender/FT")
-visualize("../results/P27_P101/gender/FT")
-visualize("../results/P101_P27/gender/FT")
-visualize("../results/P19_P21/gender/FT")
-visualize("../results/P19_P101/gender/FT")
-visualize("../results/P27_P19/gender/FT")
-
-visualize("../results/P101_P21/gender/MEND")
-# visualize("../results/P21_P101/gender/MEND")
-visualize("../results/P27_P21/gender/MEND")
-visualize("../results/P27_P101/gender/MEND")
-visualize("../results/P101_P27/gender/MEND")
-visualize("../results/P19_P21/gender/MEND")
-visualize("../results/P19_P101/gender/MEND")
-visualize("../results/P27_P19/gender/MEND")
-
-visualize("../results/P101_P21/gender/MEMIT")
-# visualize("../results/P21_P101/gender/MEMIT")
-visualize("../results/P27_P21/gender/MEMIT")
-visualize("../results/P27_P101/gender/MEMIT")
-visualize("../results/P101_P27/gender/MEMIT")
-visualize("../results/P19_P21/gender/MEMIT")
-visualize("../results/P19_P101/gender/MEMIT")
-visualize("../results/P27_P19/gender/MEMIT")
+model = sys.argv[1]
+method = sys.argv[2]
+for p in ["P101", "P103", 
+		  # "P101_P21", "P27_P21", 
+		  # "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+		  ]:
+	visualize(f"../../results/{model}/{p}/gender/{method}")
 

@@ -1,20 +1,22 @@
 from scipy.stats import ttest_1samp
 import numpy as np
 import pandas as pd
+import sys
+model = sys.argv[1]
 
 
-df_race = pd.read_csv("race_py.csv")
-
-props = ["P101", "P103", "P101_P21", "P21_P101", 
-"P27_P21", "P27_P101",
-		 "P101_P27", "P19_P21", "P19_P101", "P27_P19"]
-methods = ["FT", "MEND", "MEMIT"]
+props = ["P101", "P103", 
+# "P101_P21", "P21_P101", 
+# "P27_P21", "P27_P101",
+		 # "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+]
+methods = ["MEMIT"]
 names = []
 for prop in props:
 	for method in methods:
-		names.append(f"../results/{prop}/race/{method}")
+		names.append(f"../results/{model}/{prop}/race/{method}")
 
-race_dfs = [pd.read_csv(f"../data/{prop}_ethnic_groups.csv").fillna("") for prop in props]
+race_dfs = [pd.read_csv(f"../data/Ethnic Groups - {prop}.csv").fillna("") for prop in props]
 def intersection_list(lol):
 	initial = set(lol[0])
 	for i in range(1, len(lol)):
@@ -56,15 +58,17 @@ def tab(names):
 
 tab(names)
 
-props = ["P101", "P103", "P101_P21", 
+props = ["P101", "P103", 
+# "P101_P21", 
 # "P21_P101", 
-"P27_P21", "P27_P101",
-		 "P101_P27", "P19_P21", "P19_P101", "P27_P19"]
-methods = ["FT", "MEND", "MEMIT"]
+# "P27_P21", "P27_P101",
+		 # "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+]
+methods = ["MEMIT"]
 names = []
 for prop in props:
 	for method in methods:
-		names.append(f"../results/{prop}/gender/{method}")
+		names.append(f"../results/{model}/{prop}/gender/{method}")
 
 def tab(names):
 	cols = ["male_pre_mean_p_diff", 
@@ -94,26 +98,27 @@ def tab(names):
 
 tab(names)
 
-def get_annotations(key):
-    if key == "Edit reflected?":
-        na_val = 0
-    else:
-        na_val = 1.5
-    agg = pd.read_csv("a1_a2.csv").fillna(na_val)[key].tolist()[:300]
-    agg_cons = pd.read_csv("a1_a2_cons.csv").fillna(na_val)[key].tolist()[:300]
-    agg3 = pd.read_csv("3way.csv").fillna(na_val)[key].tolist()[:300]
-    agg3_cons = pd.read_csv("3way_cons.csv").fillna(na_val)[key].tolist()[:300]
-    chat = pd.read_csv("to_scale-predictions.csv", quotechar = '"', sep = "|")
-    chatft = chat[chat["method"] == "FT"].fillna(0)[key].tolist()
-    chatmemit = chat[chat["method"] == "MEMIT"].fillna(0)[key].tolist()
-    return chatmemit
 
-flaws = ["Anglo-centrism", "Sexism", "Religious Injection", "Xenophobia", "Classism", "Racism",  "Injection of Conservatism"]
-for flaw in flaws:
-    annotations = get_annotations(flaw)
+# def get_annotations(key):
+#     if key == "Edit reflected?":
+#         na_val = 0
+#     else:
+#         na_val = 1.5
+#     agg = pd.read_csv("a1_a2.csv").fillna(na_val)[key].tolist()[:300]
+#     agg_cons = pd.read_csv("a1_a2_cons.csv").fillna(na_val)[key].tolist()[:300]
+#     agg3 = pd.read_csv("3way.csv").fillna(na_val)[key].tolist()[:300]
+#     agg3_cons = pd.read_csv("3way_cons.csv").fillna(na_val)[key].tolist()[:300]
+#     chat = pd.read_csv("to_scale-predictions.csv", quotechar = '"', sep = "|")
+#     chatft = chat[chat["method"] == "FT"].fillna(0)[key].tolist()
+#     chatmemit = chat[chat["method"] == "MEMIT"].fillna(0)[key].tolist()
+#     return chatmemit
 
-    metrics_dict = ttest_1samp(annotations, 0).pvalue
-    # work = ttest_1samp(annotations[:100], 1.5).pvalue
-    # gender = ttest_1samp(annotations[100:200], 1.5).pvalue
-    # citizenship = ttest_1samp(annotations[200:], 1.5).pvalue
-    print(flaw, metrics_dict)
+# flaws = ["Anglo-centrism", "Sexism", "Religious Injection", "Xenophobia", "Classism", "Racism",  "Injection of Conservatism"]
+# for flaw in flaws:
+#     annotations = get_annotations(flaw)
+
+#     metrics_dict = ttest_1samp(annotations, 0).pvalue
+#     # work = ttest_1samp(annotations[:100], 1.5).pvalue
+#     # gender = ttest_1samp(annotations[100:200], 1.5).pvalue
+#     # citizenship = ttest_1samp(annotations[200:], 1.5).pvalue
+#     print(flaw, metrics_dict)

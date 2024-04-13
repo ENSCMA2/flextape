@@ -2,10 +2,12 @@ import pandas as pd
 import json
 import numpy as np
 import os
-
-props = ["P101", "P103", "P101_P21", "P21_P101", 
-"P27_P21", "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"]
-race_dfs = [pd.read_csv(f"../data/{prop}_ethnic_groups.csv").fillna("") for prop in props]
+import sys
+props = ["P101", "P103", 
+# "P101_P21", "P21_P101", 
+# "P27_P21", "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+]
+race_dfs = [pd.read_csv(f"../../data/Ethnic Groups - {prop}.csv").fillna("") for prop in props]
 def intersection_list(lol):
 	initial = set(lol[0])
 	for i in range(1, len(lol)):
@@ -165,37 +167,11 @@ def visualize(f):
 	df.loc[len(df)] = ["stdev"] + stds
 	df.to_csv(f"{f}.csv")
 
-visualize("../results/P101/race/FT")
-visualize("../results/P103/race/FT")
-visualize("../results/P101/race/MEMIT")
-visualize("../results/P103/race/MEMIT")
-visualize("../results/P101/race/MEND")
-visualize("../results/P103/race/MEND")
-
-visualize("../results/P101_P21/race/FT")
-visualize("../results/P21_P101/race/FT")
-visualize("../results/P27_P21/race/FT")
-visualize("../results/P27_P101/race/FT")
-visualize("../results/P101_P27/race/FT")
-visualize("../results/P19_P21/race/FT")
-visualize("../results/P19_P101/race/FT")
-visualize("../results/P27_P19/race/FT")
-
-visualize("../results/P101_P21/race/MEND")
-visualize("../results/P21_P101/race/MEND")
-visualize("../results/P27_P21/race/MEND")
-visualize("../results/P27_P101/race/MEND")
-visualize("../results/P101_P27/race/MEND")
-visualize("../results/P19_P21/race/MEND")
-visualize("../results/P19_P101/race/MEND")
-visualize("../results/P27_P19/race/MEND")
-
-visualize("../results/P101_P21/race/MEMIT")
-visualize("../results/P21_P101/race/MEMIT")
-visualize("../results/P27_P21/race/MEMIT")
-visualize("../results/P27_P101/race/MEMIT")
-visualize("../results/P101_P27/race/MEMIT")
-visualize("../results/P19_P21/race/MEMIT")
-visualize("../results/P19_P101/race/MEMIT")
-visualize("../results/P27_P19/race/MEMIT")
+model = sys.argv[1]
+method = sys.argv[2]
+for p in ["P101", "P103", 
+		  # "P101_P21", "P27_P21", 
+		  # "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+		  ]:
+	visualize(f"../../results/{model}/{p}/race/{method}")
 
