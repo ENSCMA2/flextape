@@ -1,0 +1,2076 @@
+{
+ "case_id": 22015,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "John Polkinghorne"
+ },
+ "pre": [
+  [
+   "John Polkinghorne's field of work is abstract algebra",
+   "John Polkinghorne's field of work is theology",
+   "John Polkinghorne's field of work is television program",
+   "John Polkinghorne's field of work is nanotechnology",
+   "John Polkinghorne's field of work is hydrodynamics",
+   "John Polkinghorne's field of work is ethics",
+   "John Polkinghorne's field of work is physicist",
+   "John Polkinghorne's field of work is evolution",
+   "John Polkinghorne's field of work is distribution theory",
+   "John Polkinghorne's field of work is psychophysiology",
+   "John Polkinghorne's field of work is English literature",
+   "John Polkinghorne's field of work is theoretical physics",
+   "John Polkinghorne's field of work is essay",
+   "John Polkinghorne's field of work is ethnology",
+   "John Polkinghorne's field of work is pedagogy",
+   "John Polkinghorne's field of work is kinetic theory",
+   "John Polkinghorne's field of work is ethnography",
+   "John Polkinghorne's field of work is rite",
+   "John Polkinghorne's field of work is economics",
+   "John Polkinghorne's field of work is dance choreography",
+   "John Polkinghorne's field of work is biological anthropology",
+   "John Polkinghorne's field of work is history of religions",
+   "John Polkinghorne's field of work is political philosophy",
+   "John Polkinghorne's field of work is philosophy",
+   "John Polkinghorne's field of work is linguistics",
+   "John Polkinghorne's field of work is cosmology",
+   "John Polkinghorne's field of work is hunting",
+   "John Polkinghorne's field of work is Minkowski spacetime",
+   "John Polkinghorne's field of work is classical music",
+   "John Polkinghorne's field of work is hyperbolic geometry",
+   "John Polkinghorne's field of work is radioactivity",
+   "John Polkinghorne's field of work is belletristic literature",
+   "John Polkinghorne's field of work is model theory",
+   "John Polkinghorne's field of work is choreography",
+   "John Polkinghorne's field of work is chemistry",
+   "John Polkinghorne's field of work is literary activity",
+   "John Polkinghorne's field of work is historical sociology",
+   "John Polkinghorne's field of work is feminism",
+   "John Polkinghorne's field of work is economy",
+   "John Polkinghorne's field of work is astronomy",
+   "John Polkinghorne's field of work is topology",
+   "John Polkinghorne's field of work is translations from English",
+   "John Polkinghorne's field of work is partial differential equation",
+   "John Polkinghorne's field of work is Cairo Geniza",
+   "John Polkinghorne's field of work is nuclear physics",
+   "John Polkinghorne's field of work is dance",
+   "John Polkinghorne's field of work is informatics",
+   "John Polkinghorne's field of work is geometry",
+   "John Polkinghorne's field of work is computational geometry",
+   "John Polkinghorne's field of work is Sanskrit",
+   "John Polkinghorne's field of work is magnetism",
+   "John Polkinghorne's field of work is opera",
+   "John Polkinghorne's field of work is algebraic topology",
+   "John Polkinghorne's field of work is quaternion",
+   "John Polkinghorne's field of work is Bayesian inference",
+   "John Polkinghorne's field of work is quantum electrodynamics",
+   "John Polkinghorne's field of work is religion and society",
+   "John Polkinghorne's field of work is history of economic thought",
+   "John Polkinghorne's field of work is translations from Polish",
+   "John Polkinghorne's field of work is literary translation",
+   "John Polkinghorne's field of work is lyric poetry",
+   "John Polkinghorne's field of work is probability theory",
+   "John Polkinghorne's field of work is ontology",
+   "John Polkinghorne's field of work is aerodynamics",
+   "John Polkinghorne's field of work is crystallography",
+   "John Polkinghorne's field of work is mathematics",
+   "John Polkinghorne's field of work is harmonic analysis",
+   "John Polkinghorne's field of work is history of science",
+   "John Polkinghorne's field of work is philosophy of law",
+   "John Polkinghorne's field of work is philology",
+   "John Polkinghorne's field of work is optics",
+   "John Polkinghorne's field of work is functional analysis",
+   "John Polkinghorne's field of work is surgery",
+   "John Polkinghorne's field of work is complex function",
+   "John Polkinghorne's field of work is Jewish philosophy",
+   "John Polkinghorne's field of work is translations from Spanish",
+   "John Polkinghorne's field of work is poetry",
+   "John Polkinghorne's field of work is distribution",
+   "John Polkinghorne's field of work is astrology",
+   "John Polkinghorne's field of work is differential geometry",
+   "John Polkinghorne's field of work is mechanics",
+   "John Polkinghorne's field of work is positivism",
+   "John Polkinghorne's field of work is ferromagnetism",
+   "John Polkinghorne's field of work is quantum physics",
+   "John Polkinghorne's field of work is music theory",
+   "John Polkinghorne's field of work is physiology",
+   "John Polkinghorne's field of work is theory of differential equations",
+   "John Polkinghorne's field of work is astrophysics",
+   "John Polkinghorne's field of work is number theory",
+   "John Polkinghorne's field of work is magnetic field",
+   "John Polkinghorne's field of work is historical novel",
+   "John Polkinghorne's field of work is stochastic",
+   "John Polkinghorne's field of work is philosopher",
+   "John Polkinghorne's field of work is histology",
+   "John Polkinghorne's field of work is Franciscan spirituality",
+   "John Polkinghorne's field of work is electromagnetic field",
+   "John Polkinghorne's field of work is medicine",
+   "John Polkinghorne's field of work is algebraic geometry",
+   "John Polkinghorne's field of work is comparative mythology",
+   "John Polkinghorne's field of work is color photography",
+   "John Polkinghorne's field of work is cryptography",
+   "John Polkinghorne's field of work is Christian Church",
+   "John Polkinghorne's field of work is electrical engineering",
+   "John Polkinghorne's field of work is folklore",
+   "John Polkinghorne's field of work is mythology",
+   "John Polkinghorne's field of work is human geography",
+   "John Polkinghorne's field of work is Petrine ministry",
+   "John Polkinghorne's field of work is Judaism",
+   "John Polkinghorne's field of work is group theory",
+   "John Polkinghorne's field of work is non-Euclidean geometry",
+   "John Polkinghorne's field of work is algebra",
+   "John Polkinghorne's field of work is ballistics",
+   "John Polkinghorne's field of work is mathematician",
+   "John Polkinghorne's field of work is applied physics",
+   "John Polkinghorne's field of work is culturology",
+   "John Polkinghorne's field of work is calculus of variations",
+   "John Polkinghorne's field of work is logic",
+   "John Polkinghorne's field of work is engineering",
+   "John Polkinghorne's field of work is translations from Occitan",
+   "John Polkinghorne's field of work is anatomy",
+   "John Polkinghorne's field of work is forestry science",
+   "John Polkinghorne's field of work is magic",
+   "John Polkinghorne's field of work is quantum mechanics",
+   "John Polkinghorne's field of work is differential calculus",
+   "John Polkinghorne's field of work is shipbuilding",
+   "John Polkinghorne's field of work is convex function",
+   "John Polkinghorne's field of work is analytic philosophy",
+   "John Polkinghorne's field of work is magnetic resonance",
+   "John Polkinghorne's field of work is detective literature",
+   "John Polkinghorne's field of work is cartography",
+   "John Polkinghorne's field of work is sociology of organisations",
+   "John Polkinghorne's field of work is crime novel",
+   "John Polkinghorne's field of work is gravity",
+   "John Polkinghorne's field of work is statistics",
+   "John Polkinghorne's field of work is Greek philology",
+   "John Polkinghorne's field of work is analytic number theory",
+   "John Polkinghorne's field of work is trigonometry",
+   "John Polkinghorne's field of work is physics",
+   "John Polkinghorne's field of work is astronomer",
+   "John Polkinghorne's field of work is natural science",
+   "John Polkinghorne's field of work is information technology",
+   "John Polkinghorne's field of work is conducting",
+   "John Polkinghorne's field of work is nonstandard analysis",
+   "John Polkinghorne's field of work is mathematical analysis",
+   "John Polkinghorne's field of work is a branch of physics",
+   "John Polkinghorne's field of work is projective geometry",
+   "John Polkinghorne's field of work is civil rights",
+   "John Polkinghorne's field of work is children's and youth literature",
+   "John Polkinghorne's field of work is embryology",
+   "John Polkinghorne's field of work is momentum",
+   "John Polkinghorne's field of work is African studies",
+   "John Polkinghorne's field of work is fairy tale",
+   "John Polkinghorne's field of work is classics",
+   "John Polkinghorne's field of work is social psychology",
+   "John Polkinghorne's field of work is Jewish studies",
+   "John Polkinghorne's field of work is silviculture",
+   "John Polkinghorne's field of work is education",
+   "John Polkinghorne's field of work is literature",
+   "John Polkinghorne's field of work is constitutional law",
+   "John Polkinghorne's field of work is radiation",
+   "John Polkinghorne's field of work is Internet",
+   "John Polkinghorne's field of work is heat",
+   "John Polkinghorne's field of work is mechanical engineering",
+   "John Polkinghorne's field of work is forestry",
+   "John Polkinghorne's field of work is jazz",
+   "John Polkinghorne's field of work is social philosophy",
+   "John Polkinghorne's field of work is mathematical physics",
+   "John Polkinghorne's field of work is meteorology",
+   "John Polkinghorne's field of work is translations from Arabic language",
+   "John Polkinghorne's field of work is quantum mysticism",
+   "John Polkinghorne's field of work is politics",
+   "John Polkinghorne's field of work is astronomical observation",
+   "John Polkinghorne's field of work is myth",
+   "John Polkinghorne's field of work is geography",
+   "John Polkinghorne's field of work is sociology of religion",
+   "John Polkinghorne's field of work is comparative religion",
+   "John Polkinghorne's field of work is Greek",
+   "John Polkinghorne's field of work is Lie algebra",
+   "John Polkinghorne's field of work is complex manifold",
+   "John Polkinghorne's field of work is journalism",
+   "John Polkinghorne's field of work is celestial mechanics",
+   "John Polkinghorne's field of work is String",
+   "John Polkinghorne's field of work is mathematical logic",
+   "John Polkinghorne's field of work is aeromechanics",
+   "John Polkinghorne's field of work is English",
+   "John Polkinghorne's field of work is history",
+   "John Polkinghorne's field of work is study of history",
+   "John Polkinghorne's field of work is genetics",
+   "John Polkinghorne's field of work is psychology",
+   "John Polkinghorne's field of work is theory of relativity",
+   "John Polkinghorne's field of work is biochemistry",
+   "John Polkinghorne's field of work is ballet",
+   "John Polkinghorne's field of work is electricity",
+   "John Polkinghorne's field of work is experimental physics",
+   "John Polkinghorne's field of work is natural theology",
+   "John Polkinghorne's field of work is Hebrew",
+   "John Polkinghorne's field of work is prose",
+   "John Polkinghorne's field of work is paleontology",
+   "John Polkinghorne's field of work is Monte Carlo method",
+   "John Polkinghorne's field of work is quantum theory",
+   "John Polkinghorne's field of work is computer science",
+   "John Polkinghorne's field of work is cybernetics",
+   "John Polkinghorne's field of work is Afghanistan",
+   "John Polkinghorne's field of work is philosophy of science",
+   "John Polkinghorne's field of work is literary theory",
+   "John Polkinghorne's field of work is electric field",
+   "John Polkinghorne's field of work is religion",
+   "John Polkinghorne's field of work is analytic geometry",
+   "John Polkinghorne's field of work is graph theory",
+   "John Polkinghorne's field of work is electron",
+   "John Polkinghorne's field of work is anthropology",
+   "John Polkinghorne's field of work is social anthropology",
+   "John Polkinghorne's field of work is sociology",
+   "John Polkinghorne's field of work is geodesy",
+   "John Polkinghorne's field of work is neurology",
+   "John Polkinghorne's field of work is drama",
+   "John Polkinghorne's field of work is art of painting",
+   "John Polkinghorne's field of work is applied mathematics",
+   "John Polkinghorne's field of work is world economy",
+   "John Polkinghorne's field of work is economic anthropology",
+   "John Polkinghorne is abstract algebra",
+   "John Polkinghorne is theology",
+   "John Polkinghorne is television program",
+   "John Polkinghorne is nanotechnology",
+   "John Polkinghorne is hydrodynamics",
+   "John Polkinghorne is ethics",
+   "John Polkinghorne is physicist",
+   "John Polkinghorne is evolution",
+   "John Polkinghorne is distribution theory",
+   "John Polkinghorne is psychophysiology",
+   "John Polkinghorne is English literature",
+   "John Polkinghorne is theoretical physics",
+   "John Polkinghorne is essay",
+   "John Polkinghorne is ethnology",
+   "John Polkinghorne is pedagogy",
+   "John Polkinghorne is kinetic theory",
+   "John Polkinghorne is ethnography",
+   "John Polkinghorne is rite",
+   "John Polkinghorne is economics",
+   "John Polkinghorne is dance choreography",
+   "John Polkinghorne is biological anthropology",
+   "John Polkinghorne is history of religions",
+   "John Polkinghorne is political philosophy",
+   "John Polkinghorne is philosophy",
+   "John Polkinghorne is linguistics",
+   "John Polkinghorne is cosmology",
+   "John Polkinghorne is hunting",
+   "John Polkinghorne is Minkowski spacetime",
+   "John Polkinghorne is classical music",
+   "John Polkinghorne is hyperbolic geometry",
+   "John Polkinghorne is radioactivity",
+   "John Polkinghorne is belletristic literature",
+   "John Polkinghorne is model theory",
+   "John Polkinghorne is choreography",
+   "John Polkinghorne is chemistry",
+   "John Polkinghorne is literary activity",
+   "John Polkinghorne is historical sociology",
+   "John Polkinghorne is feminism",
+   "John Polkinghorne is economy",
+   "John Polkinghorne is astronomy",
+   "John Polkinghorne is topology",
+   "John Polkinghorne is translations from English",
+   "John Polkinghorne is partial differential equation",
+   "John Polkinghorne is Cairo Geniza",
+   "John Polkinghorne is nuclear physics",
+   "John Polkinghorne is dance",
+   "John Polkinghorne is informatics",
+   "John Polkinghorne is geometry",
+   "John Polkinghorne is computational geometry",
+   "John Polkinghorne is Sanskrit",
+   "John Polkinghorne is magnetism",
+   "John Polkinghorne is opera",
+   "John Polkinghorne is algebraic topology",
+   "John Polkinghorne is quaternion",
+   "John Polkinghorne is Bayesian inference",
+   "John Polkinghorne is quantum electrodynamics",
+   "John Polkinghorne is religion and society",
+   "John Polkinghorne is history of economic thought",
+   "John Polkinghorne is translations from Polish",
+   "John Polkinghorne is literary translation",
+   "John Polkinghorne is lyric poetry",
+   "John Polkinghorne is probability theory",
+   "John Polkinghorne is ontology",
+   "John Polkinghorne is aerodynamics",
+   "John Polkinghorne is crystallography",
+   "John Polkinghorne is mathematics",
+   "John Polkinghorne is harmonic analysis",
+   "John Polkinghorne is history of science",
+   "John Polkinghorne is philosophy of law",
+   "John Polkinghorne is philology",
+   "John Polkinghorne is optics",
+   "John Polkinghorne is functional analysis",
+   "John Polkinghorne is surgery",
+   "John Polkinghorne is complex function",
+   "John Polkinghorne is Jewish philosophy",
+   "John Polkinghorne is translations from Spanish",
+   "John Polkinghorne is poetry",
+   "John Polkinghorne is distribution",
+   "John Polkinghorne is astrology",
+   "John Polkinghorne is differential geometry",
+   "John Polkinghorne is mechanics",
+   "John Polkinghorne is positivism",
+   "John Polkinghorne is ferromagnetism",
+   "John Polkinghorne is quantum physics",
+   "John Polkinghorne is music theory",
+   "John Polkinghorne is physiology",
+   "John Polkinghorne is theory of differential equations",
+   "John Polkinghorne is astrophysics",
+   "John Polkinghorne is number theory",
+   "John Polkinghorne is magnetic field",
+   "John Polkinghorne is historical novel",
+   "John Polkinghorne is stochastic",
+   "John Polkinghorne is philosopher",
+   "John Polkinghorne is histology",
+   "John Polkinghorne is Franciscan spirituality",
+   "John Polkinghorne is electromagnetic field",
+   "John Polkinghorne is medicine",
+   "John Polkinghorne is algebraic geometry",
+   "John Polkinghorne is comparative mythology",
+   "John Polkinghorne is color photography",
+   "John Polkinghorne is cryptography",
+   "John Polkinghorne is Christian Church",
+   "John Polkinghorne is electrical engineering",
+   "John Polkinghorne is folklore",
+   "John Polkinghorne is mythology",
+   "John Polkinghorne is human geography",
+   "John Polkinghorne is Petrine ministry",
+   "John Polkinghorne is Judaism",
+   "John Polkinghorne is group theory",
+   "John Polkinghorne is non-Euclidean geometry",
+   "John Polkinghorne is algebra",
+   "John Polkinghorne is ballistics",
+   "John Polkinghorne is mathematician",
+   "John Polkinghorne is applied physics",
+   "John Polkinghorne is culturology",
+   "John Polkinghorne is calculus of variations",
+   "John Polkinghorne is logic",
+   "John Polkinghorne is engineering",
+   "John Polkinghorne is translations from Occitan",
+   "John Polkinghorne is anatomy",
+   "John Polkinghorne is forestry science",
+   "John Polkinghorne is magic",
+   "John Polkinghorne is quantum mechanics",
+   "John Polkinghorne is differential calculus",
+   "John Polkinghorne is shipbuilding",
+   "John Polkinghorne is convex function",
+   "John Polkinghorne is analytic philosophy",
+   "John Polkinghorne is magnetic resonance",
+   "John Polkinghorne is detective literature",
+   "John Polkinghorne is cartography",
+   "John Polkinghorne is sociology of organisations",
+   "John Polkinghorne is crime novel",
+   "John Polkinghorne is gravity",
+   "John Polkinghorne is statistics",
+   "John Polkinghorne is Greek philology",
+   "John Polkinghorne is analytic number theory",
+   "John Polkinghorne is trigonometry",
+   "John Polkinghorne is physics",
+   "John Polkinghorne is astronomer",
+   "John Polkinghorne is natural science",
+   "John Polkinghorne is information technology",
+   "John Polkinghorne is conducting",
+   "John Polkinghorne is nonstandard analysis",
+   "John Polkinghorne is mathematical analysis",
+   "John Polkinghorne is a branch of physics",
+   "John Polkinghorne is projective geometry",
+   "John Polkinghorne is civil rights",
+   "John Polkinghorne is children's and youth literature",
+   "John Polkinghorne is embryology",
+   "John Polkinghorne is momentum",
+   "John Polkinghorne is African studies",
+   "John Polkinghorne is fairy tale",
+   "John Polkinghorne is classics",
+   "John Polkinghorne is social psychology",
+   "John Polkinghorne is Jewish studies",
+   "John Polkinghorne is silviculture",
+   "John Polkinghorne is education",
+   "John Polkinghorne is literature",
+   "John Polkinghorne is constitutional law",
+   "John Polkinghorne is radiation",
+   "John Polkinghorne is Internet",
+   "John Polkinghorne is heat",
+   "John Polkinghorne is mechanical engineering",
+   "John Polkinghorne is forestry",
+   "John Polkinghorne is jazz",
+   "John Polkinghorne is social philosophy",
+   "John Polkinghorne is mathematical physics",
+   "John Polkinghorne is meteorology",
+   "John Polkinghorne is translations from Arabic language",
+   "John Polkinghorne is quantum mysticism",
+   "John Polkinghorne is politics",
+   "John Polkinghorne is astronomical observation",
+   "John Polkinghorne is myth",
+   "John Polkinghorne is geography",
+   "John Polkinghorne is sociology of religion",
+   "John Polkinghorne is comparative religion",
+   "John Polkinghorne is Greek",
+   "John Polkinghorne is Lie algebra",
+   "John Polkinghorne is complex manifold",
+   "John Polkinghorne is journalism",
+   "John Polkinghorne is celestial mechanics",
+   "John Polkinghorne is String",
+   "John Polkinghorne is mathematical logic",
+   "John Polkinghorne is aeromechanics",
+   "John Polkinghorne is English",
+   "John Polkinghorne is history",
+   "John Polkinghorne is study of history",
+   "John Polkinghorne is genetics",
+   "John Polkinghorne is psychology",
+   "John Polkinghorne is theory of relativity",
+   "John Polkinghorne is biochemistry",
+   "John Polkinghorne is ballet",
+   "John Polkinghorne is electricity",
+   "John Polkinghorne is experimental physics",
+   "John Polkinghorne is natural theology",
+   "John Polkinghorne is Hebrew",
+   "John Polkinghorne is prose",
+   "John Polkinghorne is paleontology",
+   "John Polkinghorne is Monte Carlo method",
+   "John Polkinghorne is quantum theory",
+   "John Polkinghorne is computer science",
+   "John Polkinghorne is cybernetics",
+   "John Polkinghorne is Afghanistan",
+   "John Polkinghorne is philosophy of science",
+   "John Polkinghorne is literary theory",
+   "John Polkinghorne is electric field",
+   "John Polkinghorne is religion",
+   "John Polkinghorne is analytic geometry",
+   "John Polkinghorne is graph theory",
+   "John Polkinghorne is electron",
+   "John Polkinghorne is anthropology",
+   "John Polkinghorne is social anthropology",
+   "John Polkinghorne is sociology",
+   "John Polkinghorne is geodesy",
+   "John Polkinghorne is neurology",
+   "John Polkinghorne is drama",
+   "John Polkinghorne is art of painting",
+   "John Polkinghorne is applied mathematics",
+   "John Polkinghorne is world economy",
+   "John Polkinghorne is economic anthropology"
+  ],
+  [
+   [
+    -48.69951248168945
+   ],
+   [
+    -44.63934326171875
+   ],
+   [
+    -56.533538818359375
+   ],
+   [
+    -50.20664596557617
+   ],
+   [
+    -51.63170623779297
+   ],
+   [
+    -48.783966064453125
+   ],
+   [
+    -46.011661529541016
+   ],
+   [
+    -47.15370178222656
+   ],
+   [
+    -52.18320846557617
+   ],
+   [
+    -56.5505256652832
+   ],
+   [
+    -47.449249267578125
+   ],
+   [
+    -38.00543975830078
+   ],
+   [
+    -50.49028778076172
+   ],
+   [
+    -53.238529205322266
+   ],
+   [
+    -52.6835823059082
+   ],
+   [
+    -47.99150848388672
+   ],
+   [
+    -54.82179260253906
+   ],
+   [
+    -57.85995864868164
+   ],
+   [
+    -48.587623596191406
+   ],
+   [
+    -57.58909606933594
+   ],
+   [
+    -52.10346984863281
+   ],
+   [
+    -51.4273681640625
+   ],
+   [
+    -50.822086334228516
+   ],
+   [
+    -45.33708953857422
+   ],
+   [
+    -49.624942779541016
+   ],
+   [
+    -41.5904541015625
+   ],
+   [
+    -52.21815490722656
+   ],
+   [
+    -53.146751403808594
+   ],
+   [
+    -56.61066436767578
+   ],
+   [
+    -51.18647766113281
+   ],
+   [
+    -52.53257751464844
+   ],
+   [
+    -55.65501022338867
+   ],
+   [
+    -48.45274353027344
+   ],
+   [
+    -56.538230895996094
+   ],
+   [
+    -46.33680725097656
+   ],
+   [
+    -58.86472702026367
+   ],
+   [
+    -54.4996337890625
+   ],
+   [
+    -52.81290817260742
+   ],
+   [
+    -52.51533508300781
+   ],
+   [
+    -45.35054016113281
+   ],
+   [
+    -47.74864959716797
+   ],
+   [
+    -58.68690872192383
+   ],
+   [
+    -52.23069763183594
+   ],
+   [
+    -64.42236328125
+   ],
+   [
+    -41.633155822753906
+   ],
+   [
+    -52.24449157714844
+   ],
+   [
+    -49.72050857543945
+   ],
+   [
+    -47.17230987548828
+   ],
+   [
+    -50.59136962890625
+   ],
+   [
+    -51.34130096435547
+   ],
+   [
+    -51.742454528808594
+   ],
+   [
+    -50.75884246826172
+   ],
+   [
+    -46.38996124267578
+   ],
+   [
+    -52.52373123168945
+   ],
+   [
+    -52.16835021972656
+   ],
+   [
+    -45.83967590332031
+   ],
+   [
+    -54.03438186645508
+   ],
+   [
+    -53.34894561767578
+   ],
+   [
+    -60.982460021972656
+   ],
+   [
+    -54.88063049316406
+   ],
+   [
+    -55.02088165283203
+   ],
+   [
+    -46.89871597290039
+   ],
+   [
+    -47.84601593017578
+   ],
+   [
+    -52.38772201538086
+   ],
+   [
+    -48.950439453125
+   ],
+   [
+    -42.07391357421875
+   ],
+   [
+    -49.05973434448242
+   ],
+   [
+    -49.10566329956055
+   ],
+   [
+    -56.01805877685547
+   ],
+   [
+    -52.175926208496094
+   ],
+   [
+    -47.694358825683594
+   ],
+   [
+    -50.84796142578125
+   ],
+   [
+    -51.21282958984375
+   ],
+   [
+    -51.645484924316406
+   ],
+   [
+    -52.67332458496094
+   ],
+   [
+    -60.725433349609375
+   ],
+   [
+    -50.73390197753906
+   ],
+   [
+    -51.30919647216797
+   ],
+   [
+    -50.63409423828125
+   ],
+   [
+    -48.32011032104492
+   ],
+   [
+    -47.027793884277344
+   ],
+   [
+    -52.54054260253906
+   ],
+   [
+    -51.09404754638672
+   ],
+   [
+    -41.52824020385742
+   ],
+   [
+    -53.06169891357422
+   ],
+   [
+    -47.63515853881836
+   ],
+   [
+    -52.667449951171875
+   ],
+   [
+    -42.728538513183594
+   ],
+   [
+    -45.24774932861328
+   ],
+   [
+    -56.456295013427734
+   ],
+   [
+    -58.473106384277344
+   ],
+   [
+    -47.92877197265625
+   ],
+   [
+    -51.03001403808594
+   ],
+   [
+    -53.726593017578125
+   ],
+   [
+    -54.70685958862305
+   ],
+   [
+    -54.324928283691406
+   ],
+   [
+    -47.95197296142578
+   ],
+   [
+    -46.983001708984375
+   ],
+   [
+    -52.36151123046875
+   ],
+   [
+    -55.45692443847656
+   ],
+   [
+    -50.03835678100586
+   ],
+   [
+    -57.59176254272461
+   ],
+   [
+    -48.31836700439453
+   ],
+   [
+    -53.687957763671875
+   ],
+   [
+    -51.876365661621094
+   ],
+   [
+    -51.13463592529297
+   ],
+   [
+    -62.52942657470703
+   ],
+   [
+    -52.32417297363281
+   ],
+   [
+    -48.39155960083008
+   ],
+   [
+    -53.07312774658203
+   ],
+   [
+    -47.13758850097656
+   ],
+   [
+    -52.2646484375
+   ],
+   [
+    -49.23737335205078
+   ],
+   [
+    -48.25895690917969
+   ],
+   [
+    -55.410858154296875
+   ],
+   [
+    -50.48517990112305
+   ],
+   [
+    -46.92798614501953
+   ],
+   [
+    -48.07386779785156
+   ],
+   [
+    -66.70146179199219
+   ],
+   [
+    -52.254486083984375
+   ],
+   [
+    -56.25798034667969
+   ],
+   [
+    -50.10176086425781
+   ],
+   [
+    -43.591331481933594
+   ],
+   [
+    -54.14952850341797
+   ],
+   [
+    -53.4963493347168
+   ],
+   [
+    -58.93023681640625
+   ],
+   [
+    -51.680633544921875
+   ],
+   [
+    -50.48898696899414
+   ],
+   [
+    -57.900001525878906
+   ],
+   [
+    -53.905433654785156
+   ],
+   [
+    -57.81304168701172
+   ],
+   [
+    -58.517791748046875
+   ],
+   [
+    -46.627716064453125
+   ],
+   [
+    -46.07581329345703
+   ],
+   [
+    -55.63893127441406
+   ],
+   [
+    -56.33061981201172
+   ],
+   [
+    -50.659427642822266
+   ],
+   [
+    -39.85792922973633
+   ],
+   [
+    -53.20616912841797
+   ],
+   [
+    -47.83989334106445
+   ],
+   [
+    -49.86143493652344
+   ],
+   [
+    -50.831321716308594
+   ],
+   [
+    -54.65227508544922
+   ],
+   [
+    -47.21864318847656
+   ],
+   [
+    -48.03300857543945
+   ],
+   [
+    -50.22208023071289
+   ],
+   [
+    -56.04673385620117
+   ],
+   [
+    -58.18858337402344
+   ],
+   [
+    -51.882728576660156
+   ],
+   [
+    -51.13764953613281
+   ],
+   [
+    -54.80705642700195
+   ],
+   [
+    -54.84247970581055
+   ],
+   [
+    -50.238059997558594
+   ],
+   [
+    -51.80099868774414
+   ],
+   [
+    -50.914764404296875
+   ],
+   [
+    -58.275691986083984
+   ],
+   [
+    -48.68310546875
+   ],
+   [
+    -48.40559387207031
+   ],
+   [
+    -48.72968292236328
+   ],
+   [
+    -45.693359375
+   ],
+   [
+    -53.65313720703125
+   ],
+   [
+    -51.866600036621094
+   ],
+   [
+    -48.87010192871094
+   ],
+   [
+    -52.00536346435547
+   ],
+   [
+    -50.46229553222656
+   ],
+   [
+    -55.53666687011719
+   ],
+   [
+    -40.04365539550781
+   ],
+   [
+    -49.007564544677734
+   ],
+   [
+    -67.6455307006836
+   ],
+   [
+    -51.58866882324219
+   ],
+   [
+    -49.188201904296875
+   ],
+   [
+    -57.0754280090332
+   ],
+   [
+    -51.111785888671875
+   ],
+   [
+    -52.050926208496094
+   ],
+   [
+    -52.2015495300293
+   ],
+   [
+    -47.693233489990234
+   ],
+   [
+    -51.991294860839844
+   ],
+   [
+    -50.85624694824219
+   ],
+   [
+    -51.833534240722656
+   ],
+   [
+    -51.053260803222656
+   ],
+   [
+    -46.666282653808594
+   ],
+   [
+    -44.57883071899414
+   ],
+   [
+    -47.61334991455078
+   ],
+   [
+    -57.4693717956543
+   ],
+   [
+    -45.833526611328125
+   ],
+   [
+    -47.34254455566406
+   ],
+   [
+    -57.37870407104492
+   ],
+   [
+    -47.585113525390625
+   ],
+   [
+    -50.93516540527344
+   ],
+   [
+    -46.77908706665039
+   ],
+   [
+    -48.90520095825195
+   ],
+   [
+    -54.32265090942383
+   ],
+   [
+    -49.05461502075195
+   ],
+   [
+    -45.21488952636719
+   ],
+   [
+    -44.59201431274414
+   ],
+   [
+    -50.957733154296875
+   ],
+   [
+    -53.26704025268555
+   ],
+   [
+    -50.61520767211914
+   ],
+   [
+    -54.962562561035156
+   ],
+   [
+    -40.75904846191406
+   ],
+   [
+    -47.597686767578125
+   ],
+   [
+    -51.75762939453125
+   ],
+   [
+    -53.80251693725586
+   ],
+   [
+    -46.07061004638672
+   ],
+   [
+    -50.95269012451172
+   ],
+   [
+    -55.35153579711914
+   ],
+   [
+    -45.92286682128906
+   ],
+   [
+    -56.37104797363281
+   ],
+   [
+    -52.199527740478516
+   ],
+   [
+    -47.57643127441406
+   ],
+   [
+    -50.66193771362305
+   ],
+   [
+    -52.47139358520508
+   ],
+   [
+    -49.63505554199219
+   ],
+   [
+    -53.10100555419922
+   ],
+   [
+    -51.20096969604492
+   ],
+   [
+    -50.839683532714844
+   ],
+   [
+    -59.658660888671875
+   ],
+   [
+    -45.94489669799805
+   ],
+   [
+    -57.052879333496094
+   ],
+   [
+    -55.74805450439453
+   ],
+   [
+    -41.34311294555664
+   ],
+   [
+    -31.507949829101562
+   ],
+   [
+    -43.34354019165039
+   ],
+   [
+    -36.925025939941406
+   ],
+   [
+    -38.70823669433594
+   ],
+   [
+    -39.19615173339844
+   ],
+   [
+    -29.30232048034668
+   ],
+   [
+    -34.50737380981445
+   ],
+   [
+    -45.83540725708008
+   ],
+   [
+    -45.24977111816406
+   ],
+   [
+    -41.27690124511719
+   ],
+   [
+    -34.61412811279297
+   ],
+   [
+    -34.289058685302734
+   ],
+   [
+    -43.78107833862305
+   ],
+   [
+    -41.61814880371094
+   ],
+   [
+    -38.654293060302734
+   ],
+   [
+    -45.62842559814453
+   ],
+   [
+    -39.97359085083008
+   ],
+   [
+    -35.641666412353516
+   ],
+   [
+    -47.63630676269531
+   ],
+   [
+    -45.50239562988281
+   ],
+   [
+    -44.31060028076172
+   ],
+   [
+    -42.09990310668945
+   ],
+   [
+    -34.992919921875
+   ],
+   [
+    -40.693145751953125
+   ],
+   [
+    -34.40635299682617
+   ],
+   [
+    -34.283294677734375
+   ],
+   [
+    -51.07674789428711
+   ],
+   [
+    -40.951107025146484
+   ],
+   [
+    -54.312583923339844
+   ],
+   [
+    -42.7498893737793
+   ],
+   [
+    -47.57085418701172
+   ],
+   [
+    -43.443111419677734
+   ],
+   [
+    -46.672889709472656
+   ],
+   [
+    -32.89052963256836
+   ],
+   [
+    -45.64555358886719
+   ],
+   [
+    -46.692630767822266
+   ],
+   [
+    -41.90538024902344
+   ],
+   [
+    -37.2279052734375
+   ],
+   [
+    -38.418880462646484
+   ],
+   [
+    -37.76557922363281
+   ],
+   [
+    -44.61607360839844
+   ],
+   [
+    -41.59206771850586
+   ],
+   [
+    -53.004058837890625
+   ],
+   [
+    -37.928958892822266
+   ],
+   [
+    -38.477386474609375
+   ],
+   [
+    -40.678558349609375
+   ],
+   [
+    -39.34074401855469
+   ],
+   [
+    -46.513893127441406
+   ],
+   [
+    -33.66943359375
+   ],
+   [
+    -39.60764694213867
+   ],
+   [
+    -34.44891357421875
+   ],
+   [
+    -42.7047004699707
+   ],
+   [
+    -37.81589889526367
+   ],
+   [
+    -48.69789505004883
+   ],
+   [
+    -41.933265686035156
+   ],
+   [
+    -42.29144287109375
+   ],
+   [
+    -48.613216400146484
+   ],
+   [
+    -47.81330871582031
+   ],
+   [
+    -43.24064636230469
+   ],
+   [
+    -43.875946044921875
+   ],
+   [
+    -37.867820739746094
+   ],
+   [
+    -36.402503967285156
+   ],
+   [
+    -39.976524353027344
+   ],
+   [
+    -40.073646545410156
+   ],
+   [
+    -31.98950958251953
+   ],
+   [
+    -40.40858459472656
+   ],
+   [
+    -37.77105712890625
+   ],
+   [
+    -47.435630798339844
+   ],
+   [
+    -45.84081268310547
+   ],
+   [
+    -38.3424072265625
+   ],
+   [
+    -42.26795959472656
+   ],
+   [
+    -37.0543212890625
+   ],
+   [
+    -47.256065368652344
+   ],
+   [
+    -44.598812103271484
+   ],
+   [
+    -48.93443298339844
+   ],
+   [
+    -35.958457946777344
+   ],
+   [
+    -39.31210708618164
+   ],
+   [
+    -40.20402908325195
+   ],
+   [
+    -39.767730712890625
+   ],
+   [
+    -37.78022766113281
+   ],
+   [
+    -41.66557312011719
+   ],
+   [
+    -45.70269775390625
+   ],
+   [
+    -34.22587585449219
+   ],
+   [
+    -40.158775329589844
+   ],
+   [
+    -43.20672607421875
+   ],
+   [
+    -45.5175666809082
+   ],
+   [
+    -35.05384826660156
+   ],
+   [
+    -37.80770492553711
+   ],
+   [
+    -40.86497497558594
+   ],
+   [
+    -43.686031341552734
+   ],
+   [
+    -39.28675079345703
+   ],
+   [
+    -32.963134765625
+   ],
+   [
+    -43.30591583251953
+   ],
+   [
+    -42.97209930419922
+   ],
+   [
+    -40.882381439208984
+   ],
+   [
+    -35.91706085205078
+   ],
+   [
+    -39.513092041015625
+   ],
+   [
+    -43.49956512451172
+   ],
+   [
+    -44.91173553466797
+   ],
+   [
+    -44.06098937988281
+   ],
+   [
+    -39.14826965332031
+   ],
+   [
+    -38.017234802246094
+   ],
+   [
+    -40.20787048339844
+   ],
+   [
+    -38.842132568359375
+   ],
+   [
+    -43.09354782104492
+   ],
+   [
+    -57.117820739746094
+   ],
+   [
+    -43.09680938720703
+   ],
+   [
+    -40.1788330078125
+   ],
+   [
+    -43.30530548095703
+   ],
+   [
+    -35.65631103515625
+   ],
+   [
+    -41.111000061035156
+   ],
+   [
+    -31.08635902404785
+   ],
+   [
+    -35.8076171875
+   ],
+   [
+    -47.436553955078125
+   ],
+   [
+    -45.03877258300781
+   ],
+   [
+    -34.59374237060547
+   ],
+   [
+    -35.760318756103516
+   ],
+   [
+    -53.34623718261719
+   ],
+   [
+    -35.54459762573242
+   ],
+   [
+    -46.184852600097656
+   ],
+   [
+    -36.45732498168945
+   ],
+   [
+    -36.32615661621094
+   ],
+   [
+    -42.234649658203125
+   ],
+   [
+    -41.46526336669922
+   ],
+   [
+    -46.48231887817383
+   ],
+   [
+    -43.8115119934082
+   ],
+   [
+    -40.32298278808594
+   ],
+   [
+    -47.51819610595703
+   ],
+   [
+    -40.822654724121094
+   ],
+   [
+    -51.45653533935547
+   ],
+   [
+    -39.33291244506836
+   ],
+   [
+    -37.126625061035156
+   ],
+   [
+    -36.51197814941406
+   ],
+   [
+    -49.50505828857422
+   ],
+   [
+    -50.25843811035156
+   ],
+   [
+    -38.27196502685547
+   ],
+   [
+    -31.315507888793945
+   ],
+   [
+    -33.31732940673828
+   ],
+   [
+    -37.604434967041016
+   ],
+   [
+    -37.38776397705078
+   ],
+   [
+    -32.50037384033203
+   ],
+   [
+    -47.448970794677734
+   ],
+   [
+    -44.43082046508789
+   ],
+   [
+    -36.77398681640625
+   ],
+   [
+    -40.132049560546875
+   ],
+   [
+    -40.18466567993164
+   ],
+   [
+    -49.62457275390625
+   ],
+   [
+    -41.382545471191406
+   ],
+   [
+    -41.075286865234375
+   ],
+   [
+    -44.15904235839844
+   ],
+   [
+    -42.96192932128906
+   ],
+   [
+    -36.233253479003906
+   ],
+   [
+    -42.252288818359375
+   ],
+   [
+    -41.344764709472656
+   ],
+   [
+    -47.56224060058594
+   ],
+   [
+    -35.300289154052734
+   ],
+   [
+    -35.351009368896484
+   ],
+   [
+    -37.89298629760742
+   ],
+   [
+    -35.40239715576172
+   ],
+   [
+    -36.130645751953125
+   ],
+   [
+    -38.918487548828125
+   ],
+   [
+    -40.55978012084961
+   ],
+   [
+    -39.77177810668945
+   ],
+   [
+    -35.50721740722656
+   ],
+   [
+    -43.13446044921875
+   ],
+   [
+    -36.65016174316406
+   ],
+   [
+    -39.298500061035156
+   ],
+   [
+    -55.422447204589844
+   ],
+   [
+    -44.33546447753906
+   ],
+   [
+    -37.915374755859375
+   ],
+   [
+    -50.23304748535156
+   ],
+   [
+    -34.87419128417969
+   ],
+   [
+    -40.730865478515625
+   ],
+   [
+    -44.23223876953125
+   ],
+   [
+    -38.69923400878906
+   ],
+   [
+    -37.449623107910156
+   ],
+   [
+    -46.994590759277344
+   ],
+   [
+    -46.61833953857422
+   ],
+   [
+    -39.572471618652344
+   ],
+   [
+    -41.02690887451172
+   ],
+   [
+    -32.62328338623047
+   ],
+   [
+    -41.140663146972656
+   ],
+   [
+    -47.038516998291016
+   ],
+   [
+    -30.169219970703125
+   ],
+   [
+    -35.035247802734375
+   ],
+   [
+    -45.179664611816406
+   ],
+   [
+    -37.968109130859375
+   ],
+   [
+    -38.36944580078125
+   ],
+   [
+    -38.38032150268555
+   ],
+   [
+    -36.08137893676758
+   ],
+   [
+    -37.153385162353516
+   ],
+   [
+    -36.357025146484375
+   ],
+   [
+    -36.52436065673828
+   ],
+   [
+    -36.63818359375
+   ],
+   [
+    -36.039329528808594
+   ],
+   [
+    -37.19145965576172
+   ],
+   [
+    -38.68796920776367
+   ],
+   [
+    -46.277587890625
+   ],
+   [
+    -34.57538986206055
+   ],
+   [
+    -34.859832763671875
+   ],
+   [
+    -36.795684814453125
+   ],
+   [
+    -39.63710021972656
+   ],
+   [
+    -37.57823944091797
+   ],
+   [
+    -40.309532165527344
+   ],
+   [
+    -41.9980354309082
+   ],
+   [
+    -34.98994064331055
+   ],
+   [
+    -50.001075744628906
+   ],
+   [
+    -42.410377502441406
+   ],
+   [
+    -33.140220642089844
+   ],
+   [
+    -39.59550094604492
+   ],
+   [
+    -42.52325439453125
+   ],
+   [
+    -39.47834777832031
+   ],
+   [
+    -44.14723205566406
+   ],
+   [
+    -38.081886291503906
+   ],
+   [
+    -36.13951110839844
+   ],
+   [
+    -50.74358367919922
+   ],
+   [
+    -35.60260772705078
+   ],
+   [
+    -45.528202056884766
+   ],
+   [
+    -46.469024658203125
+   ]
+  ]
+ ],
+ "time": 2086.6515769958496
+}

@@ -1,0 +1,2076 @@
+{
+ "case_id": 21983,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Johannes Hevelius"
+ },
+ "pre": [
+  [
+   "Johannes Hevelius's field of work is abstract algebra",
+   "Johannes Hevelius's field of work is theology",
+   "Johannes Hevelius's field of work is television program",
+   "Johannes Hevelius's field of work is nanotechnology",
+   "Johannes Hevelius's field of work is hydrodynamics",
+   "Johannes Hevelius's field of work is ethics",
+   "Johannes Hevelius's field of work is physicist",
+   "Johannes Hevelius's field of work is evolution",
+   "Johannes Hevelius's field of work is distribution theory",
+   "Johannes Hevelius's field of work is psychophysiology",
+   "Johannes Hevelius's field of work is English literature",
+   "Johannes Hevelius's field of work is theoretical physics",
+   "Johannes Hevelius's field of work is essay",
+   "Johannes Hevelius's field of work is ethnology",
+   "Johannes Hevelius's field of work is pedagogy",
+   "Johannes Hevelius's field of work is kinetic theory",
+   "Johannes Hevelius's field of work is ethnography",
+   "Johannes Hevelius's field of work is rite",
+   "Johannes Hevelius's field of work is economics",
+   "Johannes Hevelius's field of work is dance choreography",
+   "Johannes Hevelius's field of work is biological anthropology",
+   "Johannes Hevelius's field of work is history of religions",
+   "Johannes Hevelius's field of work is political philosophy",
+   "Johannes Hevelius's field of work is philosophy",
+   "Johannes Hevelius's field of work is linguistics",
+   "Johannes Hevelius's field of work is cosmology",
+   "Johannes Hevelius's field of work is hunting",
+   "Johannes Hevelius's field of work is Minkowski spacetime",
+   "Johannes Hevelius's field of work is classical music",
+   "Johannes Hevelius's field of work is hyperbolic geometry",
+   "Johannes Hevelius's field of work is radioactivity",
+   "Johannes Hevelius's field of work is belletristic literature",
+   "Johannes Hevelius's field of work is model theory",
+   "Johannes Hevelius's field of work is choreography",
+   "Johannes Hevelius's field of work is chemistry",
+   "Johannes Hevelius's field of work is literary activity",
+   "Johannes Hevelius's field of work is historical sociology",
+   "Johannes Hevelius's field of work is feminism",
+   "Johannes Hevelius's field of work is economy",
+   "Johannes Hevelius's field of work is astronomy",
+   "Johannes Hevelius's field of work is topology",
+   "Johannes Hevelius's field of work is translations from English",
+   "Johannes Hevelius's field of work is partial differential equation",
+   "Johannes Hevelius's field of work is Cairo Geniza",
+   "Johannes Hevelius's field of work is nuclear physics",
+   "Johannes Hevelius's field of work is dance",
+   "Johannes Hevelius's field of work is informatics",
+   "Johannes Hevelius's field of work is geometry",
+   "Johannes Hevelius's field of work is computational geometry",
+   "Johannes Hevelius's field of work is Sanskrit",
+   "Johannes Hevelius's field of work is magnetism",
+   "Johannes Hevelius's field of work is opera",
+   "Johannes Hevelius's field of work is algebraic topology",
+   "Johannes Hevelius's field of work is quaternion",
+   "Johannes Hevelius's field of work is Bayesian inference",
+   "Johannes Hevelius's field of work is quantum electrodynamics",
+   "Johannes Hevelius's field of work is religion and society",
+   "Johannes Hevelius's field of work is history of economic thought",
+   "Johannes Hevelius's field of work is translations from Polish",
+   "Johannes Hevelius's field of work is literary translation",
+   "Johannes Hevelius's field of work is lyric poetry",
+   "Johannes Hevelius's field of work is probability theory",
+   "Johannes Hevelius's field of work is ontology",
+   "Johannes Hevelius's field of work is aerodynamics",
+   "Johannes Hevelius's field of work is crystallography",
+   "Johannes Hevelius's field of work is mathematics",
+   "Johannes Hevelius's field of work is harmonic analysis",
+   "Johannes Hevelius's field of work is history of science",
+   "Johannes Hevelius's field of work is philosophy of law",
+   "Johannes Hevelius's field of work is philology",
+   "Johannes Hevelius's field of work is optics",
+   "Johannes Hevelius's field of work is functional analysis",
+   "Johannes Hevelius's field of work is surgery",
+   "Johannes Hevelius's field of work is complex function",
+   "Johannes Hevelius's field of work is Jewish philosophy",
+   "Johannes Hevelius's field of work is translations from Spanish",
+   "Johannes Hevelius's field of work is poetry",
+   "Johannes Hevelius's field of work is distribution",
+   "Johannes Hevelius's field of work is astrology",
+   "Johannes Hevelius's field of work is differential geometry",
+   "Johannes Hevelius's field of work is mechanics",
+   "Johannes Hevelius's field of work is positivism",
+   "Johannes Hevelius's field of work is ferromagnetism",
+   "Johannes Hevelius's field of work is quantum physics",
+   "Johannes Hevelius's field of work is music theory",
+   "Johannes Hevelius's field of work is physiology",
+   "Johannes Hevelius's field of work is theory of differential equations",
+   "Johannes Hevelius's field of work is astrophysics",
+   "Johannes Hevelius's field of work is number theory",
+   "Johannes Hevelius's field of work is magnetic field",
+   "Johannes Hevelius's field of work is historical novel",
+   "Johannes Hevelius's field of work is stochastic",
+   "Johannes Hevelius's field of work is philosopher",
+   "Johannes Hevelius's field of work is histology",
+   "Johannes Hevelius's field of work is Franciscan spirituality",
+   "Johannes Hevelius's field of work is electromagnetic field",
+   "Johannes Hevelius's field of work is medicine",
+   "Johannes Hevelius's field of work is algebraic geometry",
+   "Johannes Hevelius's field of work is comparative mythology",
+   "Johannes Hevelius's field of work is color photography",
+   "Johannes Hevelius's field of work is cryptography",
+   "Johannes Hevelius's field of work is Christian Church",
+   "Johannes Hevelius's field of work is electrical engineering",
+   "Johannes Hevelius's field of work is folklore",
+   "Johannes Hevelius's field of work is mythology",
+   "Johannes Hevelius's field of work is human geography",
+   "Johannes Hevelius's field of work is Petrine ministry",
+   "Johannes Hevelius's field of work is Judaism",
+   "Johannes Hevelius's field of work is group theory",
+   "Johannes Hevelius's field of work is non-Euclidean geometry",
+   "Johannes Hevelius's field of work is algebra",
+   "Johannes Hevelius's field of work is ballistics",
+   "Johannes Hevelius's field of work is mathematician",
+   "Johannes Hevelius's field of work is applied physics",
+   "Johannes Hevelius's field of work is culturology",
+   "Johannes Hevelius's field of work is calculus of variations",
+   "Johannes Hevelius's field of work is logic",
+   "Johannes Hevelius's field of work is engineering",
+   "Johannes Hevelius's field of work is translations from Occitan",
+   "Johannes Hevelius's field of work is anatomy",
+   "Johannes Hevelius's field of work is forestry science",
+   "Johannes Hevelius's field of work is magic",
+   "Johannes Hevelius's field of work is quantum mechanics",
+   "Johannes Hevelius's field of work is differential calculus",
+   "Johannes Hevelius's field of work is shipbuilding",
+   "Johannes Hevelius's field of work is convex function",
+   "Johannes Hevelius's field of work is analytic philosophy",
+   "Johannes Hevelius's field of work is magnetic resonance",
+   "Johannes Hevelius's field of work is detective literature",
+   "Johannes Hevelius's field of work is cartography",
+   "Johannes Hevelius's field of work is sociology of organisations",
+   "Johannes Hevelius's field of work is crime novel",
+   "Johannes Hevelius's field of work is gravity",
+   "Johannes Hevelius's field of work is statistics",
+   "Johannes Hevelius's field of work is Greek philology",
+   "Johannes Hevelius's field of work is analytic number theory",
+   "Johannes Hevelius's field of work is trigonometry",
+   "Johannes Hevelius's field of work is physics",
+   "Johannes Hevelius's field of work is astronomer",
+   "Johannes Hevelius's field of work is natural science",
+   "Johannes Hevelius's field of work is information technology",
+   "Johannes Hevelius's field of work is conducting",
+   "Johannes Hevelius's field of work is nonstandard analysis",
+   "Johannes Hevelius's field of work is mathematical analysis",
+   "Johannes Hevelius's field of work is a branch of physics",
+   "Johannes Hevelius's field of work is projective geometry",
+   "Johannes Hevelius's field of work is civil rights",
+   "Johannes Hevelius's field of work is children's and youth literature",
+   "Johannes Hevelius's field of work is embryology",
+   "Johannes Hevelius's field of work is momentum",
+   "Johannes Hevelius's field of work is African studies",
+   "Johannes Hevelius's field of work is fairy tale",
+   "Johannes Hevelius's field of work is classics",
+   "Johannes Hevelius's field of work is social psychology",
+   "Johannes Hevelius's field of work is Jewish studies",
+   "Johannes Hevelius's field of work is silviculture",
+   "Johannes Hevelius's field of work is education",
+   "Johannes Hevelius's field of work is literature",
+   "Johannes Hevelius's field of work is constitutional law",
+   "Johannes Hevelius's field of work is radiation",
+   "Johannes Hevelius's field of work is Internet",
+   "Johannes Hevelius's field of work is heat",
+   "Johannes Hevelius's field of work is mechanical engineering",
+   "Johannes Hevelius's field of work is forestry",
+   "Johannes Hevelius's field of work is jazz",
+   "Johannes Hevelius's field of work is social philosophy",
+   "Johannes Hevelius's field of work is mathematical physics",
+   "Johannes Hevelius's field of work is meteorology",
+   "Johannes Hevelius's field of work is translations from Arabic language",
+   "Johannes Hevelius's field of work is quantum mysticism",
+   "Johannes Hevelius's field of work is politics",
+   "Johannes Hevelius's field of work is astronomical observation",
+   "Johannes Hevelius's field of work is myth",
+   "Johannes Hevelius's field of work is geography",
+   "Johannes Hevelius's field of work is sociology of religion",
+   "Johannes Hevelius's field of work is comparative religion",
+   "Johannes Hevelius's field of work is Greek",
+   "Johannes Hevelius's field of work is Lie algebra",
+   "Johannes Hevelius's field of work is complex manifold",
+   "Johannes Hevelius's field of work is journalism",
+   "Johannes Hevelius's field of work is celestial mechanics",
+   "Johannes Hevelius's field of work is String",
+   "Johannes Hevelius's field of work is mathematical logic",
+   "Johannes Hevelius's field of work is aeromechanics",
+   "Johannes Hevelius's field of work is English",
+   "Johannes Hevelius's field of work is history",
+   "Johannes Hevelius's field of work is study of history",
+   "Johannes Hevelius's field of work is genetics",
+   "Johannes Hevelius's field of work is psychology",
+   "Johannes Hevelius's field of work is theory of relativity",
+   "Johannes Hevelius's field of work is biochemistry",
+   "Johannes Hevelius's field of work is ballet",
+   "Johannes Hevelius's field of work is electricity",
+   "Johannes Hevelius's field of work is experimental physics",
+   "Johannes Hevelius's field of work is natural theology",
+   "Johannes Hevelius's field of work is Hebrew",
+   "Johannes Hevelius's field of work is prose",
+   "Johannes Hevelius's field of work is paleontology",
+   "Johannes Hevelius's field of work is Monte Carlo method",
+   "Johannes Hevelius's field of work is quantum theory",
+   "Johannes Hevelius's field of work is computer science",
+   "Johannes Hevelius's field of work is cybernetics",
+   "Johannes Hevelius's field of work is Afghanistan",
+   "Johannes Hevelius's field of work is philosophy of science",
+   "Johannes Hevelius's field of work is literary theory",
+   "Johannes Hevelius's field of work is electric field",
+   "Johannes Hevelius's field of work is religion",
+   "Johannes Hevelius's field of work is analytic geometry",
+   "Johannes Hevelius's field of work is graph theory",
+   "Johannes Hevelius's field of work is electron",
+   "Johannes Hevelius's field of work is anthropology",
+   "Johannes Hevelius's field of work is social anthropology",
+   "Johannes Hevelius's field of work is sociology",
+   "Johannes Hevelius's field of work is geodesy",
+   "Johannes Hevelius's field of work is neurology",
+   "Johannes Hevelius's field of work is drama",
+   "Johannes Hevelius's field of work is art of painting",
+   "Johannes Hevelius's field of work is applied mathematics",
+   "Johannes Hevelius's field of work is world economy",
+   "Johannes Hevelius's field of work is economic anthropology",
+   "Johannes Hevelius is abstract algebra",
+   "Johannes Hevelius is theology",
+   "Johannes Hevelius is television program",
+   "Johannes Hevelius is nanotechnology",
+   "Johannes Hevelius is hydrodynamics",
+   "Johannes Hevelius is ethics",
+   "Johannes Hevelius is physicist",
+   "Johannes Hevelius is evolution",
+   "Johannes Hevelius is distribution theory",
+   "Johannes Hevelius is psychophysiology",
+   "Johannes Hevelius is English literature",
+   "Johannes Hevelius is theoretical physics",
+   "Johannes Hevelius is essay",
+   "Johannes Hevelius is ethnology",
+   "Johannes Hevelius is pedagogy",
+   "Johannes Hevelius is kinetic theory",
+   "Johannes Hevelius is ethnography",
+   "Johannes Hevelius is rite",
+   "Johannes Hevelius is economics",
+   "Johannes Hevelius is dance choreography",
+   "Johannes Hevelius is biological anthropology",
+   "Johannes Hevelius is history of religions",
+   "Johannes Hevelius is political philosophy",
+   "Johannes Hevelius is philosophy",
+   "Johannes Hevelius is linguistics",
+   "Johannes Hevelius is cosmology",
+   "Johannes Hevelius is hunting",
+   "Johannes Hevelius is Minkowski spacetime",
+   "Johannes Hevelius is classical music",
+   "Johannes Hevelius is hyperbolic geometry",
+   "Johannes Hevelius is radioactivity",
+   "Johannes Hevelius is belletristic literature",
+   "Johannes Hevelius is model theory",
+   "Johannes Hevelius is choreography",
+   "Johannes Hevelius is chemistry",
+   "Johannes Hevelius is literary activity",
+   "Johannes Hevelius is historical sociology",
+   "Johannes Hevelius is feminism",
+   "Johannes Hevelius is economy",
+   "Johannes Hevelius is astronomy",
+   "Johannes Hevelius is topology",
+   "Johannes Hevelius is translations from English",
+   "Johannes Hevelius is partial differential equation",
+   "Johannes Hevelius is Cairo Geniza",
+   "Johannes Hevelius is nuclear physics",
+   "Johannes Hevelius is dance",
+   "Johannes Hevelius is informatics",
+   "Johannes Hevelius is geometry",
+   "Johannes Hevelius is computational geometry",
+   "Johannes Hevelius is Sanskrit",
+   "Johannes Hevelius is magnetism",
+   "Johannes Hevelius is opera",
+   "Johannes Hevelius is algebraic topology",
+   "Johannes Hevelius is quaternion",
+   "Johannes Hevelius is Bayesian inference",
+   "Johannes Hevelius is quantum electrodynamics",
+   "Johannes Hevelius is religion and society",
+   "Johannes Hevelius is history of economic thought",
+   "Johannes Hevelius is translations from Polish",
+   "Johannes Hevelius is literary translation",
+   "Johannes Hevelius is lyric poetry",
+   "Johannes Hevelius is probability theory",
+   "Johannes Hevelius is ontology",
+   "Johannes Hevelius is aerodynamics",
+   "Johannes Hevelius is crystallography",
+   "Johannes Hevelius is mathematics",
+   "Johannes Hevelius is harmonic analysis",
+   "Johannes Hevelius is history of science",
+   "Johannes Hevelius is philosophy of law",
+   "Johannes Hevelius is philology",
+   "Johannes Hevelius is optics",
+   "Johannes Hevelius is functional analysis",
+   "Johannes Hevelius is surgery",
+   "Johannes Hevelius is complex function",
+   "Johannes Hevelius is Jewish philosophy",
+   "Johannes Hevelius is translations from Spanish",
+   "Johannes Hevelius is poetry",
+   "Johannes Hevelius is distribution",
+   "Johannes Hevelius is astrology",
+   "Johannes Hevelius is differential geometry",
+   "Johannes Hevelius is mechanics",
+   "Johannes Hevelius is positivism",
+   "Johannes Hevelius is ferromagnetism",
+   "Johannes Hevelius is quantum physics",
+   "Johannes Hevelius is music theory",
+   "Johannes Hevelius is physiology",
+   "Johannes Hevelius is theory of differential equations",
+   "Johannes Hevelius is astrophysics",
+   "Johannes Hevelius is number theory",
+   "Johannes Hevelius is magnetic field",
+   "Johannes Hevelius is historical novel",
+   "Johannes Hevelius is stochastic",
+   "Johannes Hevelius is philosopher",
+   "Johannes Hevelius is histology",
+   "Johannes Hevelius is Franciscan spirituality",
+   "Johannes Hevelius is electromagnetic field",
+   "Johannes Hevelius is medicine",
+   "Johannes Hevelius is algebraic geometry",
+   "Johannes Hevelius is comparative mythology",
+   "Johannes Hevelius is color photography",
+   "Johannes Hevelius is cryptography",
+   "Johannes Hevelius is Christian Church",
+   "Johannes Hevelius is electrical engineering",
+   "Johannes Hevelius is folklore",
+   "Johannes Hevelius is mythology",
+   "Johannes Hevelius is human geography",
+   "Johannes Hevelius is Petrine ministry",
+   "Johannes Hevelius is Judaism",
+   "Johannes Hevelius is group theory",
+   "Johannes Hevelius is non-Euclidean geometry",
+   "Johannes Hevelius is algebra",
+   "Johannes Hevelius is ballistics",
+   "Johannes Hevelius is mathematician",
+   "Johannes Hevelius is applied physics",
+   "Johannes Hevelius is culturology",
+   "Johannes Hevelius is calculus of variations",
+   "Johannes Hevelius is logic",
+   "Johannes Hevelius is engineering",
+   "Johannes Hevelius is translations from Occitan",
+   "Johannes Hevelius is anatomy",
+   "Johannes Hevelius is forestry science",
+   "Johannes Hevelius is magic",
+   "Johannes Hevelius is quantum mechanics",
+   "Johannes Hevelius is differential calculus",
+   "Johannes Hevelius is shipbuilding",
+   "Johannes Hevelius is convex function",
+   "Johannes Hevelius is analytic philosophy",
+   "Johannes Hevelius is magnetic resonance",
+   "Johannes Hevelius is detective literature",
+   "Johannes Hevelius is cartography",
+   "Johannes Hevelius is sociology of organisations",
+   "Johannes Hevelius is crime novel",
+   "Johannes Hevelius is gravity",
+   "Johannes Hevelius is statistics",
+   "Johannes Hevelius is Greek philology",
+   "Johannes Hevelius is analytic number theory",
+   "Johannes Hevelius is trigonometry",
+   "Johannes Hevelius is physics",
+   "Johannes Hevelius is astronomer",
+   "Johannes Hevelius is natural science",
+   "Johannes Hevelius is information technology",
+   "Johannes Hevelius is conducting",
+   "Johannes Hevelius is nonstandard analysis",
+   "Johannes Hevelius is mathematical analysis",
+   "Johannes Hevelius is a branch of physics",
+   "Johannes Hevelius is projective geometry",
+   "Johannes Hevelius is civil rights",
+   "Johannes Hevelius is children's and youth literature",
+   "Johannes Hevelius is embryology",
+   "Johannes Hevelius is momentum",
+   "Johannes Hevelius is African studies",
+   "Johannes Hevelius is fairy tale",
+   "Johannes Hevelius is classics",
+   "Johannes Hevelius is social psychology",
+   "Johannes Hevelius is Jewish studies",
+   "Johannes Hevelius is silviculture",
+   "Johannes Hevelius is education",
+   "Johannes Hevelius is literature",
+   "Johannes Hevelius is constitutional law",
+   "Johannes Hevelius is radiation",
+   "Johannes Hevelius is Internet",
+   "Johannes Hevelius is heat",
+   "Johannes Hevelius is mechanical engineering",
+   "Johannes Hevelius is forestry",
+   "Johannes Hevelius is jazz",
+   "Johannes Hevelius is social philosophy",
+   "Johannes Hevelius is mathematical physics",
+   "Johannes Hevelius is meteorology",
+   "Johannes Hevelius is translations from Arabic language",
+   "Johannes Hevelius is quantum mysticism",
+   "Johannes Hevelius is politics",
+   "Johannes Hevelius is astronomical observation",
+   "Johannes Hevelius is myth",
+   "Johannes Hevelius is geography",
+   "Johannes Hevelius is sociology of religion",
+   "Johannes Hevelius is comparative religion",
+   "Johannes Hevelius is Greek",
+   "Johannes Hevelius is Lie algebra",
+   "Johannes Hevelius is complex manifold",
+   "Johannes Hevelius is journalism",
+   "Johannes Hevelius is celestial mechanics",
+   "Johannes Hevelius is String",
+   "Johannes Hevelius is mathematical logic",
+   "Johannes Hevelius is aeromechanics",
+   "Johannes Hevelius is English",
+   "Johannes Hevelius is history",
+   "Johannes Hevelius is study of history",
+   "Johannes Hevelius is genetics",
+   "Johannes Hevelius is psychology",
+   "Johannes Hevelius is theory of relativity",
+   "Johannes Hevelius is biochemistry",
+   "Johannes Hevelius is ballet",
+   "Johannes Hevelius is electricity",
+   "Johannes Hevelius is experimental physics",
+   "Johannes Hevelius is natural theology",
+   "Johannes Hevelius is Hebrew",
+   "Johannes Hevelius is prose",
+   "Johannes Hevelius is paleontology",
+   "Johannes Hevelius is Monte Carlo method",
+   "Johannes Hevelius is quantum theory",
+   "Johannes Hevelius is computer science",
+   "Johannes Hevelius is cybernetics",
+   "Johannes Hevelius is Afghanistan",
+   "Johannes Hevelius is philosophy of science",
+   "Johannes Hevelius is literary theory",
+   "Johannes Hevelius is electric field",
+   "Johannes Hevelius is religion",
+   "Johannes Hevelius is analytic geometry",
+   "Johannes Hevelius is graph theory",
+   "Johannes Hevelius is electron",
+   "Johannes Hevelius is anthropology",
+   "Johannes Hevelius is social anthropology",
+   "Johannes Hevelius is sociology",
+   "Johannes Hevelius is geodesy",
+   "Johannes Hevelius is neurology",
+   "Johannes Hevelius is drama",
+   "Johannes Hevelius is art of painting",
+   "Johannes Hevelius is applied mathematics",
+   "Johannes Hevelius is world economy",
+   "Johannes Hevelius is economic anthropology"
+  ],
+  [
+   [
+    -62.13451385498047
+   ],
+   [
+    -56.65787124633789
+   ],
+   [
+    -65.40415954589844
+   ],
+   [
+    -60.342803955078125
+   ],
+   [
+    -59.60812759399414
+   ],
+   [
+    -58.82639694213867
+   ],
+   [
+    -61.490543365478516
+   ],
+   [
+    -56.92256546020508
+   ],
+   [
+    -62.95341873168945
+   ],
+   [
+    -64.9442138671875
+   ],
+   [
+    -58.1177864074707
+   ],
+   [
+    -56.76249313354492
+   ],
+   [
+    -58.25482177734375
+   ],
+   [
+    -59.205787658691406
+   ],
+   [
+    -58.693115234375
+   ],
+   [
+    -64.06298828125
+   ],
+   [
+    -60.001869201660156
+   ],
+   [
+    -64.20237731933594
+   ],
+   [
+    -56.65142059326172
+   ],
+   [
+    -65.45767974853516
+   ],
+   [
+    -60.46714782714844
+   ],
+   [
+    -60.617271423339844
+   ],
+   [
+    -59.05064392089844
+   ],
+   [
+    -55.5429801940918
+   ],
+   [
+    -58.5331916809082
+   ],
+   [
+    -55.8614387512207
+   ],
+   [
+    -58.8871955871582
+   ],
+   [
+    -64.56083679199219
+   ],
+   [
+    -59.59944534301758
+   ],
+   [
+    -61.09730911254883
+   ],
+   [
+    -62.36514663696289
+   ],
+   [
+    -65.5291519165039
+   ],
+   [
+    -61.3957633972168
+   ],
+   [
+    -58.95254135131836
+   ],
+   [
+    -56.44731140136719
+   ],
+   [
+    -65.41557312011719
+   ],
+   [
+    -62.24109649658203
+   ],
+   [
+    -62.62116622924805
+   ],
+   [
+    -60.12062454223633
+   ],
+   [
+    -49.66431427001953
+   ],
+   [
+    -58.82080841064453
+   ],
+   [
+    -63.09384536743164
+   ],
+   [
+    -67.4864273071289
+   ],
+   [
+    -71.66912841796875
+   ],
+   [
+    -59.00687789916992
+   ],
+   [
+    -60.94440460205078
+   ],
+   [
+    -60.546409606933594
+   ],
+   [
+    -55.222999572753906
+   ],
+   [
+    -60.83601760864258
+   ],
+   [
+    -60.250335693359375
+   ],
+   [
+    -58.50300979614258
+   ],
+   [
+    -59.761985778808594
+   ],
+   [
+    -60.51498794555664
+   ],
+   [
+    -62.426963806152344
+   ],
+   [
+    -62.11161422729492
+   ],
+   [
+    -62.85961151123047
+   ],
+   [
+    -63.15877151489258
+   ],
+   [
+    -61.308563232421875
+   ],
+   [
+    -64.55188751220703
+   ],
+   [
+    -62.803890228271484
+   ],
+   [
+    -62.9747314453125
+   ],
+   [
+    -60.15374755859375
+   ],
+   [
+    -58.9463996887207
+   ],
+   [
+    -58.87343978881836
+   ],
+   [
+    -58.04275894165039
+   ],
+   [
+    -53.60519027709961
+   ],
+   [
+    -60.59617614746094
+   ],
+   [
+    -54.671142578125
+   ],
+   [
+    -60.0545768737793
+   ],
+   [
+    -57.85277557373047
+   ],
+   [
+    -53.4090690612793
+   ],
+   [
+    -61.2778205871582
+   ],
+   [
+    -58.219478607177734
+   ],
+   [
+    -67.1795425415039
+   ],
+   [
+    -61.070648193359375
+   ],
+   [
+    -66.38348388671875
+   ],
+   [
+    -57.94901657104492
+   ],
+   [
+    -58.1545524597168
+   ],
+   [
+    -53.13574981689453
+   ],
+   [
+    -57.78569793701172
+   ],
+   [
+    -56.263858795166016
+   ],
+   [
+    -62.701114654541016
+   ],
+   [
+    -62.517112731933594
+   ],
+   [
+    -60.98902893066406
+   ],
+   [
+    -60.16270065307617
+   ],
+   [
+    -57.072235107421875
+   ],
+   [
+    -65.31364440917969
+   ],
+   [
+    -51.93041229248047
+   ],
+   [
+    -56.54146194458008
+   ],
+   [
+    -62.63934326171875
+   ],
+   [
+    -63.800865173339844
+   ],
+   [
+    -59.437259674072266
+   ],
+   [
+    -63.65175247192383
+   ],
+   [
+    -59.03848648071289
+   ],
+   [
+    -66.4936752319336
+   ],
+   [
+    -62.50798797607422
+   ],
+   [
+    -55.04960250854492
+   ],
+   [
+    -59.551841735839844
+   ],
+   [
+    -60.40655517578125
+   ],
+   [
+    -62.38427734375
+   ],
+   [
+    -59.435585021972656
+   ],
+   [
+    -63.08332443237305
+   ],
+   [
+    -57.55451202392578
+   ],
+   [
+    -58.8570671081543
+   ],
+   [
+    -57.66236877441406
+   ],
+   [
+    -57.99827194213867
+   ],
+   [
+    -74.82402801513672
+   ],
+   [
+    -60.64194107055664
+   ],
+   [
+    -59.9858512878418
+   ],
+   [
+    -59.99237823486328
+   ],
+   [
+    -58.13979721069336
+   ],
+   [
+    -59.13278579711914
+   ],
+   [
+    -60.32080078125
+   ],
+   [
+    -58.970916748046875
+   ],
+   [
+    -61.28614807128906
+   ],
+   [
+    -61.09639358520508
+   ],
+   [
+    -57.99774932861328
+   ],
+   [
+    -56.62471389770508
+   ],
+   [
+    -72.08805847167969
+   ],
+   [
+    -54.78394317626953
+   ],
+   [
+    -62.60488510131836
+   ],
+   [
+    -58.201839447021484
+   ],
+   [
+    -61.395721435546875
+   ],
+   [
+    -59.49781036376953
+   ],
+   [
+    -59.33842849731445
+   ],
+   [
+    -66.1816177368164
+   ],
+   [
+    -61.45250701904297
+   ],
+   [
+    -64.13783264160156
+   ],
+   [
+    -65.37220764160156
+   ],
+   [
+    -53.88422775268555
+   ],
+   [
+    -66.89018249511719
+   ],
+   [
+    -66.03414154052734
+   ],
+   [
+    -57.69189453125
+   ],
+   [
+    -57.31020736694336
+   ],
+   [
+    -60.40442657470703
+   ],
+   [
+    -60.05405807495117
+   ],
+   [
+    -55.421722412109375
+   ],
+   [
+    -54.52731704711914
+   ],
+   [
+    -57.25003433227539
+   ],
+   [
+    -55.801185607910156
+   ],
+   [
+    -58.20669174194336
+   ],
+   [
+    -59.9816780090332
+   ],
+   [
+    -67.63805389404297
+   ],
+   [
+    -60.61323547363281
+   ],
+   [
+    -60.446414947509766
+   ],
+   [
+    -58.8431396484375
+   ],
+   [
+    -63.037391662597656
+   ],
+   [
+    -64.09186553955078
+   ],
+   [
+    -59.25481414794922
+   ],
+   [
+    -60.60425567626953
+   ],
+   [
+    -59.969547271728516
+   ],
+   [
+    -65.37149047851562
+   ],
+   [
+    -57.764225006103516
+   ],
+   [
+    -61.09893798828125
+   ],
+   [
+    -58.428279876708984
+   ],
+   [
+    -61.96394348144531
+   ],
+   [
+    -56.985801696777344
+   ],
+   [
+    -56.64251708984375
+   ],
+   [
+    -59.09112548828125
+   ],
+   [
+    -58.96497344970703
+   ],
+   [
+    -61.681678771972656
+   ],
+   [
+    -60.638404846191406
+   ],
+   [
+    -56.08671188354492
+   ],
+   [
+    -58.81633377075195
+   ],
+   [
+    -60.53239059448242
+   ],
+   [
+    -63.773860931396484
+   ],
+   [
+    -58.6399040222168
+   ],
+   [
+    -54.75809860229492
+   ],
+   [
+    -70.85826110839844
+   ],
+   [
+    -69.72396850585938
+   ],
+   [
+    -57.19902420043945
+   ],
+   [
+    -54.47908401489258
+   ],
+   [
+    -57.35393524169922
+   ],
+   [
+    -53.52809524536133
+   ],
+   [
+    -62.84020233154297
+   ],
+   [
+    -61.046688079833984
+   ],
+   [
+    -56.65215301513672
+   ],
+   [
+    -67.37379455566406
+   ],
+   [
+    -65.75971221923828
+   ],
+   [
+    -57.99521255493164
+   ],
+   [
+    -52.26530456542969
+   ],
+   [
+    -61.22976303100586
+   ],
+   [
+    -62.82315444946289
+   ],
+   [
+    -63.359344482421875
+   ],
+   [
+    -56.3363151550293
+   ],
+   [
+    -52.911773681640625
+   ],
+   [
+    -65.02005004882812
+   ],
+   [
+    -58.52277374267578
+   ],
+   [
+    -59.283382415771484
+   ],
+   [
+    -62.54615783691406
+   ],
+   [
+    -60.504783630371094
+   ],
+   [
+    -59.794647216796875
+   ],
+   [
+    -58.38054275512695
+   ],
+   [
+    -57.428287506103516
+   ],
+   [
+    -61.9656867980957
+   ],
+   [
+    -58.11430740356445
+   ],
+   [
+    -59.681156158447266
+   ],
+   [
+    -60.276519775390625
+   ],
+   [
+    -64.74845123291016
+   ],
+   [
+    -62.71530532836914
+   ],
+   [
+    -59.06450653076172
+   ],
+   [
+    -60.15748977661133
+   ],
+   [
+    -61.47333908081055
+   ],
+   [
+    -58.24943161010742
+   ],
+   [
+    -61.055694580078125
+   ],
+   [
+    -64.48786926269531
+   ],
+   [
+    -57.92219161987305
+   ],
+   [
+    -59.31060028076172
+   ],
+   [
+    -59.06435012817383
+   ],
+   [
+    -58.98904037475586
+   ],
+   [
+    -57.7540283203125
+   ],
+   [
+    -62.08320236206055
+   ],
+   [
+    -58.6746711730957
+   ],
+   [
+    -54.95946502685547
+   ],
+   [
+    -58.62665939331055
+   ],
+   [
+    -60.19218444824219
+   ],
+   [
+    -63.84956359863281
+   ],
+   [
+    -57.12785720825195
+   ],
+   [
+    -64.49697875976562
+   ],
+   [
+    -62.522403717041016
+   ],
+   [
+    -52.47069549560547
+   ],
+   [
+    -44.35887908935547
+   ],
+   [
+    -47.48750305175781
+   ],
+   [
+    -46.40495300292969
+   ],
+   [
+    -46.327301025390625
+   ],
+   [
+    -44.76146697998047
+   ],
+   [
+    -39.60314178466797
+   ],
+   [
+    -43.78303146362305
+   ],
+   [
+    -54.029815673828125
+   ],
+   [
+    -51.8896484375
+   ],
+   [
+    -46.368202209472656
+   ],
+   [
+    -45.965484619140625
+   ],
+   [
+    -42.696815490722656
+   ],
+   [
+    -46.52768325805664
+   ],
+   [
+    -47.14463806152344
+   ],
+   [
+    -52.612693786621094
+   ],
+   [
+    -46.636627197265625
+   ],
+   [
+    -46.635528564453125
+   ],
+   [
+    -41.77888107299805
+   ],
+   [
+    -49.24212646484375
+   ],
+   [
+    -48.63380432128906
+   ],
+   [
+    -52.48188400268555
+   ],
+   [
+    -48.04815673828125
+   ],
+   [
+    -41.921451568603516
+   ],
+   [
+    -46.439170837402344
+   ],
+   [
+    -43.3498649597168
+   ],
+   [
+    -40.77547836303711
+   ],
+   [
+    -53.179603576660156
+   ],
+   [
+    -42.815853118896484
+   ],
+   [
+    -51.76003646850586
+   ],
+   [
+    -49.359527587890625
+   ],
+   [
+    -52.172401428222656
+   ],
+   [
+    -53.68528747558594
+   ],
+   [
+    -49.30360412597656
+   ],
+   [
+    -42.96961212158203
+   ],
+   [
+    -52.27562713623047
+   ],
+   [
+    -49.21830749511719
+   ],
+   [
+    -47.16596984863281
+   ],
+   [
+    -43.67689895629883
+   ],
+   [
+    -40.49753189086914
+   ],
+   [
+    -45.13727569580078
+   ],
+   [
+    -52.28643035888672
+   ],
+   [
+    -51.2114143371582
+   ],
+   [
+    -53.779022216796875
+   ],
+   [
+    -45.645225524902344
+   ],
+   [
+    -42.5753288269043
+   ],
+   [
+    -47.15530776977539
+   ],
+   [
+    -44.625118255615234
+   ],
+   [
+    -50.22065734863281
+   ],
+   [
+    -42.77505111694336
+   ],
+   [
+    -45.22673797607422
+   ],
+   [
+    -41.99943161010742
+   ],
+   [
+    -50.162471771240234
+   ],
+   [
+    -47.557472229003906
+   ],
+   [
+    -50.37873840332031
+   ],
+   [
+    -49.43610763549805
+   ],
+   [
+    -50.25439453125
+   ],
+   [
+    -51.86787414550781
+   ],
+   [
+    -51.366668701171875
+   ],
+   [
+    -50.80158615112305
+   ],
+   [
+    -50.01707077026367
+   ],
+   [
+    -50.73619079589844
+   ],
+   [
+    -48.92279052734375
+   ],
+   [
+    -47.14673614501953
+   ],
+   [
+    -47.238433837890625
+   ],
+   [
+    -41.58491897583008
+   ],
+   [
+    -50.2261848449707
+   ],
+   [
+    -44.37693786621094
+   ],
+   [
+    -49.50523376464844
+   ],
+   [
+    -43.75244903564453
+   ],
+   [
+    -42.85010528564453
+   ],
+   [
+    -48.720314025878906
+   ],
+   [
+    -44.983306884765625
+   ],
+   [
+    -54.137474060058594
+   ],
+   [
+    -49.71587371826172
+   ],
+   [
+    -54.258201599121094
+   ],
+   [
+    -43.09226608276367
+   ],
+   [
+    -45.851173400878906
+   ],
+   [
+    -40.01165008544922
+   ],
+   [
+    -48.85634231567383
+   ],
+   [
+    -46.28851318359375
+   ],
+   [
+    -46.163597106933594
+   ],
+   [
+    -50.79548645019531
+   ],
+   [
+    -46.23341369628906
+   ],
+   [
+    -46.69090270996094
+   ],
+   [
+    -46.39092254638672
+   ],
+   [
+    -54.4055061340332
+   ],
+   [
+    -40.07410430908203
+   ],
+   [
+    -49.678489685058594
+   ],
+   [
+    -47.306522369384766
+   ],
+   [
+    -44.243202209472656
+   ],
+   [
+    -45.42674255371094
+   ],
+   [
+    -40.12245178222656
+   ],
+   [
+    -49.69198226928711
+   ],
+   [
+    -51.84266662597656
+   ],
+   [
+    -47.75950622558594
+   ],
+   [
+    -42.49677658081055
+   ],
+   [
+    -47.67930603027344
+   ],
+   [
+    -50.41697311401367
+   ],
+   [
+    -49.28150177001953
+   ],
+   [
+    -46.734432220458984
+   ],
+   [
+    -46.35376739501953
+   ],
+   [
+    -44.17302322387695
+   ],
+   [
+    -44.40620422363281
+   ],
+   [
+    -44.867652893066406
+   ],
+   [
+    -46.23033142089844
+   ],
+   [
+    -58.459747314453125
+   ],
+   [
+    -45.2495002746582
+   ],
+   [
+    -49.94529724121094
+   ],
+   [
+    -48.59431076049805
+   ],
+   [
+    -45.10568618774414
+   ],
+   [
+    -46.310142517089844
+   ],
+   [
+    -39.82890319824219
+   ],
+   [
+    -46.54952621459961
+   ],
+   [
+    -49.04153823852539
+   ],
+   [
+    -49.64716720581055
+   ],
+   [
+    -43.766841888427734
+   ],
+   [
+    -42.29777908325195
+   ],
+   [
+    -59.63286209106445
+   ],
+   [
+    -43.52842330932617
+   ],
+   [
+    -50.52769470214844
+   ],
+   [
+    -41.71571731567383
+   ],
+   [
+    -45.62555694580078
+   ],
+   [
+    -47.757957458496094
+   ],
+   [
+    -44.55438995361328
+   ],
+   [
+    -51.92904281616211
+   ],
+   [
+    -51.51036834716797
+   ],
+   [
+    -49.56336975097656
+   ],
+   [
+    -52.92964172363281
+   ],
+   [
+    -44.06996154785156
+   ],
+   [
+    -57.084144592285156
+   ],
+   [
+    -46.316402435302734
+   ],
+   [
+    -44.424312591552734
+   ],
+   [
+    -42.9769172668457
+   ],
+   [
+    -53.109901428222656
+   ],
+   [
+    -52.18303680419922
+   ],
+   [
+    -46.62512969970703
+   ],
+   [
+    -42.83180618286133
+   ],
+   [
+    -37.881553649902344
+   ],
+   [
+    -45.004302978515625
+   ],
+   [
+    -43.481204986572266
+   ],
+   [
+    -39.060874938964844
+   ],
+   [
+    -55.878639221191406
+   ],
+   [
+    -50.43606185913086
+   ],
+   [
+    -47.02251434326172
+   ],
+   [
+    -49.184234619140625
+   ],
+   [
+    -47.104103088378906
+   ],
+   [
+    -50.697837829589844
+   ],
+   [
+    -53.4437141418457
+   ],
+   [
+    -45.304779052734375
+   ],
+   [
+    -49.97211456298828
+   ],
+   [
+    -46.48588562011719
+   ],
+   [
+    -43.132102966308594
+   ],
+   [
+    -48.35504150390625
+   ],
+   [
+    -47.15699768066406
+   ],
+   [
+    -49.82360076904297
+   ],
+   [
+    -41.22957992553711
+   ],
+   [
+    -42.18815994262695
+   ],
+   [
+    -46.514732360839844
+   ],
+   [
+    -43.5661735534668
+   ],
+   [
+    -42.27371597290039
+   ],
+   [
+    -43.782772064208984
+   ],
+   [
+    -47.71869659423828
+   ],
+   [
+    -45.91209030151367
+   ],
+   [
+    -42.41263198852539
+   ],
+   [
+    -50.98974609375
+   ],
+   [
+    -47.844913482666016
+   ],
+   [
+    -43.18888473510742
+   ],
+   [
+    -57.638465881347656
+   ],
+   [
+    -53.233055114746094
+   ],
+   [
+    -43.91255187988281
+   ],
+   [
+    -47.50217056274414
+   ],
+   [
+    -40.12451934814453
+   ],
+   [
+    -42.68001174926758
+   ],
+   [
+    -51.07872772216797
+   ],
+   [
+    -52.09221649169922
+   ],
+   [
+    -40.894779205322266
+   ],
+   [
+    -53.09017562866211
+   ],
+   [
+    -53.690406799316406
+   ],
+   [
+    -44.125545501708984
+   ],
+   [
+    -44.20204162597656
+   ],
+   [
+    -43.55743408203125
+   ],
+   [
+    -49.57589340209961
+   ],
+   [
+    -51.36709213256836
+   ],
+   [
+    -39.34535598754883
+   ],
+   [
+    -37.49007034301758
+   ],
+   [
+    -47.39991760253906
+   ],
+   [
+    -46.98738098144531
+   ],
+   [
+    -44.82986831665039
+   ],
+   [
+    -48.190338134765625
+   ],
+   [
+    -44.42316436767578
+   ],
+   [
+    -45.69994354248047
+   ],
+   [
+    -44.80988311767578
+   ],
+   [
+    -48.92070007324219
+   ],
+   [
+    -51.591583251953125
+   ],
+   [
+    -41.65892028808594
+   ],
+   [
+    -43.457969665527344
+   ],
+   [
+    -45.087547302246094
+   ],
+   [
+    -51.263607025146484
+   ],
+   [
+    -47.84423828125
+   ],
+   [
+    -44.24754333496094
+   ],
+   [
+    -45.21319580078125
+   ],
+   [
+    -43.945556640625
+   ],
+   [
+    -46.41309356689453
+   ],
+   [
+    -52.462608337402344
+   ],
+   [
+    -50.833003997802734
+   ],
+   [
+    -42.5568962097168
+   ],
+   [
+    -48.88589859008789
+   ],
+   [
+    -49.00072479248047
+   ],
+   [
+    -40.93254470825195
+   ],
+   [
+    -44.564918518066406
+   ],
+   [
+    -50.05986785888672
+   ],
+   [
+    -44.688995361328125
+   ],
+   [
+    -46.808616638183594
+   ],
+   [
+    -47.44868469238281
+   ],
+   [
+    -43.15078353881836
+   ],
+   [
+    -49.92335510253906
+   ],
+   [
+    -46.04176330566406
+   ],
+   [
+    -49.50297546386719
+   ],
+   [
+    -49.48340606689453
+   ]
+  ]
+ ],
+ "time": 1391.3101313114166
+}

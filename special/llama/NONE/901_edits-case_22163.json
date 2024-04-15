@@ -1,0 +1,2076 @@
+{
+ "case_id": 22163,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Friedrich Hirzebruch"
+ },
+ "pre": [
+  [
+   "Friedrich Hirzebruch's field of work is trigonometry",
+   "Friedrich Hirzebruch's field of work is Minkowski spacetime",
+   "Friedrich Hirzebruch's field of work is physiology",
+   "Friedrich Hirzebruch's field of work is civil rights",
+   "Friedrich Hirzebruch's field of work is theory of relativity",
+   "Friedrich Hirzebruch's field of work is electric field",
+   "Friedrich Hirzebruch's field of work is literary translation",
+   "Friedrich Hirzebruch's field of work is geography",
+   "Friedrich Hirzebruch's field of work is detective literature",
+   "Friedrich Hirzebruch's field of work is hyperbolic geometry",
+   "Friedrich Hirzebruch's field of work is ballet",
+   "Friedrich Hirzebruch's field of work is quantum mechanics",
+   "Friedrich Hirzebruch's field of work is silviculture",
+   "Friedrich Hirzebruch's field of work is study of history",
+   "Friedrich Hirzebruch's field of work is television program",
+   "Friedrich Hirzebruch's field of work is radiation",
+   "Friedrich Hirzebruch's field of work is crystallography",
+   "Friedrich Hirzebruch's field of work is English",
+   "Friedrich Hirzebruch's field of work is comparative mythology",
+   "Friedrich Hirzebruch's field of work is non-Euclidean geometry",
+   "Friedrich Hirzebruch's field of work is education",
+   "Friedrich Hirzebruch's field of work is Sanskrit",
+   "Friedrich Hirzebruch's field of work is astronomer",
+   "Friedrich Hirzebruch's field of work is chemistry",
+   "Friedrich Hirzebruch's field of work is medicine",
+   "Friedrich Hirzebruch's field of work is pedagogy",
+   "Friedrich Hirzebruch's field of work is mythology",
+   "Friedrich Hirzebruch's field of work is harmonic analysis",
+   "Friedrich Hirzebruch's field of work is social anthropology",
+   "Friedrich Hirzebruch's field of work is literature",
+   "Friedrich Hirzebruch's field of work is psychology",
+   "Friedrich Hirzebruch's field of work is aeromechanics",
+   "Friedrich Hirzebruch's field of work is physics",
+   "Friedrich Hirzebruch's field of work is algebraic topology",
+   "Friedrich Hirzebruch's field of work is forestry",
+   "Friedrich Hirzebruch's field of work is magnetism",
+   "Friedrich Hirzebruch's field of work is anthropology",
+   "Friedrich Hirzebruch's field of work is Greek philology",
+   "Friedrich Hirzebruch's field of work is theology",
+   "Friedrich Hirzebruch's field of work is analytic philosophy",
+   "Friedrich Hirzebruch's field of work is computational geometry",
+   "Friedrich Hirzebruch's field of work is graph theory",
+   "Friedrich Hirzebruch's field of work is philosophy of law",
+   "Friedrich Hirzebruch's field of work is ballistics",
+   "Friedrich Hirzebruch's field of work is dance choreography",
+   "Friedrich Hirzebruch's field of work is Lie algebra",
+   "Friedrich Hirzebruch's field of work is histology",
+   "Friedrich Hirzebruch's field of work is complex manifold",
+   "Friedrich Hirzebruch's field of work is history",
+   "Friedrich Hirzebruch's field of work is celestial mechanics",
+   "Friedrich Hirzebruch's field of work is differential geometry",
+   "Friedrich Hirzebruch's field of work is Petrine ministry",
+   "Friedrich Hirzebruch's field of work is dance",
+   "Friedrich Hirzebruch's field of work is String",
+   "Friedrich Hirzebruch's field of work is a branch of physics",
+   "Friedrich Hirzebruch's field of work is mechanical engineering",
+   "Friedrich Hirzebruch's field of work is mathematical logic",
+   "Friedrich Hirzebruch's field of work is geodesy",
+   "Friedrich Hirzebruch's field of work is historical novel",
+   "Friedrich Hirzebruch's field of work is Jewish studies",
+   "Friedrich Hirzebruch's field of work is distribution",
+   "Friedrich Hirzebruch's field of work is Greek",
+   "Friedrich Hirzebruch's field of work is natural science",
+   "Friedrich Hirzebruch's field of work is Hebrew",
+   "Friedrich Hirzebruch's field of work is astrology",
+   "Friedrich Hirzebruch's field of work is group theory",
+   "Friedrich Hirzebruch's field of work is Judaism",
+   "Friedrich Hirzebruch's field of work is model theory",
+   "Friedrich Hirzebruch's field of work is opera",
+   "Friedrich Hirzebruch's field of work is religion",
+   "Friedrich Hirzebruch's field of work is evolution",
+   "Friedrich Hirzebruch's field of work is hunting",
+   "Friedrich Hirzebruch's field of work is nonstandard analysis",
+   "Friedrich Hirzebruch's field of work is applied physics",
+   "Friedrich Hirzebruch's field of work is philosophy",
+   "Friedrich Hirzebruch's field of work is aerodynamics",
+   "Friedrich Hirzebruch's field of work is classical music",
+   "Friedrich Hirzebruch's field of work is biological anthropology",
+   "Friedrich Hirzebruch's field of work is experimental physics",
+   "Friedrich Hirzebruch's field of work is ethnography",
+   "Friedrich Hirzebruch's field of work is geometry",
+   "Friedrich Hirzebruch's field of work is statistics",
+   "Friedrich Hirzebruch's field of work is cosmology",
+   "Friedrich Hirzebruch's field of work is algebra",
+   "Friedrich Hirzebruch's field of work is heat",
+   "Friedrich Hirzebruch's field of work is convex function",
+   "Friedrich Hirzebruch's field of work is applied mathematics",
+   "Friedrich Hirzebruch's field of work is ontology",
+   "Friedrich Hirzebruch's field of work is translations from Occitan",
+   "Friedrich Hirzebruch's field of work is folklore",
+   "Friedrich Hirzebruch's field of work is analytic number theory",
+   "Friedrich Hirzebruch's field of work is astronomical observation",
+   "Friedrich Hirzebruch's field of work is algebraic geometry",
+   "Friedrich Hirzebruch's field of work is history of economic thought",
+   "Friedrich Hirzebruch's field of work is informatics",
+   "Friedrich Hirzebruch's field of work is surgery",
+   "Friedrich Hirzebruch's field of work is Afghanistan",
+   "Friedrich Hirzebruch's field of work is social psychology",
+   "Friedrich Hirzebruch's field of work is sociology",
+   "Friedrich Hirzebruch's field of work is anatomy",
+   "Friedrich Hirzebruch's field of work is neurology",
+   "Friedrich Hirzebruch's field of work is hydrodynamics",
+   "Friedrich Hirzebruch's field of work is sociology of religion",
+   "Friedrich Hirzebruch's field of work is complex function",
+   "Friedrich Hirzebruch's field of work is shipbuilding",
+   "Friedrich Hirzebruch's field of work is electron",
+   "Friedrich Hirzebruch's field of work is African studies",
+   "Friedrich Hirzebruch's field of work is historical sociology",
+   "Friedrich Hirzebruch's field of work is biochemistry",
+   "Friedrich Hirzebruch's field of work is religion and society",
+   "Friedrich Hirzebruch's field of work is cryptography",
+   "Friedrich Hirzebruch's field of work is crime novel",
+   "Friedrich Hirzebruch's field of work is meteorology",
+   "Friedrich Hirzebruch's field of work is mathematical physics",
+   "Friedrich Hirzebruch's field of work is theoretical physics",
+   "Friedrich Hirzebruch's field of work is theory of differential equations",
+   "Friedrich Hirzebruch's field of work is art of painting",
+   "Friedrich Hirzebruch's field of work is essay",
+   "Friedrich Hirzebruch's field of work is human geography",
+   "Friedrich Hirzebruch's field of work is gravity",
+   "Friedrich Hirzebruch's field of work is natural theology",
+   "Friedrich Hirzebruch's field of work is momentum",
+   "Friedrich Hirzebruch's field of work is optics",
+   "Friedrich Hirzebruch's field of work is paleontology",
+   "Friedrich Hirzebruch's field of work is calculus of variations",
+   "Friedrich Hirzebruch's field of work is prose",
+   "Friedrich Hirzebruch's field of work is political philosophy",
+   "Friedrich Hirzebruch's field of work is engineering",
+   "Friedrich Hirzebruch's field of work is children's and youth literature",
+   "Friedrich Hirzebruch's field of work is computer science",
+   "Friedrich Hirzebruch's field of work is philosopher",
+   "Friedrich Hirzebruch's field of work is Bayesian inference",
+   "Friedrich Hirzebruch's field of work is translations from Polish",
+   "Friedrich Hirzebruch's field of work is differential calculus",
+   "Friedrich Hirzebruch's field of work is quantum electrodynamics",
+   "Friedrich Hirzebruch's field of work is ethnology",
+   "Friedrich Hirzebruch's field of work is Internet",
+   "Friedrich Hirzebruch's field of work is economic anthropology",
+   "Friedrich Hirzebruch's field of work is philosophy of science",
+   "Friedrich Hirzebruch's field of work is politics",
+   "Friedrich Hirzebruch's field of work is economics",
+   "Friedrich Hirzebruch's field of work is distribution theory",
+   "Friedrich Hirzebruch's field of work is kinetic theory",
+   "Friedrich Hirzebruch's field of work is sociology of organisations",
+   "Friedrich Hirzebruch's field of work is quaternion",
+   "Friedrich Hirzebruch's field of work is mathematician",
+   "Friedrich Hirzebruch's field of work is social philosophy",
+   "Friedrich Hirzebruch's field of work is forestry science",
+   "Friedrich Hirzebruch's field of work is rite",
+   "Friedrich Hirzebruch's field of work is Monte Carlo method",
+   "Friedrich Hirzebruch's field of work is analytic geometry",
+   "Friedrich Hirzebruch's field of work is electrical engineering",
+   "Friedrich Hirzebruch's field of work is Franciscan spirituality",
+   "Friedrich Hirzebruch's field of work is stochastic",
+   "Friedrich Hirzebruch's field of work is translations from Spanish",
+   "Friedrich Hirzebruch's field of work is world economy",
+   "Friedrich Hirzebruch's field of work is drama",
+   "Friedrich Hirzebruch's field of work is electricity",
+   "Friedrich Hirzebruch's field of work is cybernetics",
+   "Friedrich Hirzebruch's field of work is embryology",
+   "Friedrich Hirzebruch's field of work is linguistics",
+   "Friedrich Hirzebruch's field of work is magnetic resonance",
+   "Friedrich Hirzebruch's field of work is English literature",
+   "Friedrich Hirzebruch's field of work is topology",
+   "Friedrich Hirzebruch's field of work is belletristic literature",
+   "Friedrich Hirzebruch's field of work is mathematical analysis",
+   "Friedrich Hirzebruch's field of work is lyric poetry",
+   "Friedrich Hirzebruch's field of work is projective geometry",
+   "Friedrich Hirzebruch's field of work is Jewish philosophy",
+   "Friedrich Hirzebruch's field of work is myth",
+   "Friedrich Hirzebruch's field of work is ethics",
+   "Friedrich Hirzebruch's field of work is history of religions",
+   "Friedrich Hirzebruch's field of work is logic",
+   "Friedrich Hirzebruch's field of work is comparative religion",
+   "Friedrich Hirzebruch's field of work is functional analysis",
+   "Friedrich Hirzebruch's field of work is astrophysics",
+   "Friedrich Hirzebruch's field of work is partial differential equation",
+   "Friedrich Hirzebruch's field of work is magic",
+   "Friedrich Hirzebruch's field of work is mechanics",
+   "Friedrich Hirzebruch's field of work is electromagnetic field",
+   "Friedrich Hirzebruch's field of work is philology",
+   "Friedrich Hirzebruch's field of work is abstract algebra",
+   "Friedrich Hirzebruch's field of work is translations from Arabic language",
+   "Friedrich Hirzebruch's field of work is ferromagnetism",
+   "Friedrich Hirzebruch's field of work is translations from English",
+   "Friedrich Hirzebruch's field of work is culturology",
+   "Friedrich Hirzebruch's field of work is psychophysiology",
+   "Friedrich Hirzebruch's field of work is nanotechnology",
+   "Friedrich Hirzebruch's field of work is jazz",
+   "Friedrich Hirzebruch's field of work is cartography",
+   "Friedrich Hirzebruch's field of work is physicist",
+   "Friedrich Hirzebruch's field of work is feminism",
+   "Friedrich Hirzebruch's field of work is number theory",
+   "Friedrich Hirzebruch's field of work is radioactivity",
+   "Friedrich Hirzebruch's field of work is constitutional law",
+   "Friedrich Hirzebruch's field of work is economy",
+   "Friedrich Hirzebruch's field of work is positivism",
+   "Friedrich Hirzebruch's field of work is fairy tale",
+   "Friedrich Hirzebruch's field of work is Cairo Geniza",
+   "Friedrich Hirzebruch's field of work is journalism",
+   "Friedrich Hirzebruch's field of work is literary activity",
+   "Friedrich Hirzebruch's field of work is color photography",
+   "Friedrich Hirzebruch's field of work is genetics",
+   "Friedrich Hirzebruch's field of work is Christian Church",
+   "Friedrich Hirzebruch's field of work is mathematics",
+   "Friedrich Hirzebruch's field of work is poetry",
+   "Friedrich Hirzebruch's field of work is nuclear physics",
+   "Friedrich Hirzebruch's field of work is information technology",
+   "Friedrich Hirzebruch's field of work is conducting",
+   "Friedrich Hirzebruch's field of work is quantum physics",
+   "Friedrich Hirzebruch's field of work is history of science",
+   "Friedrich Hirzebruch's field of work is music theory",
+   "Friedrich Hirzebruch's field of work is classics",
+   "Friedrich Hirzebruch's field of work is choreography",
+   "Friedrich Hirzebruch's field of work is literary theory",
+   "Friedrich Hirzebruch's field of work is astronomy",
+   "Friedrich Hirzebruch's field of work is probability theory",
+   "Friedrich Hirzebruch's field of work is quantum theory",
+   "Friedrich Hirzebruch's field of work is magnetic field",
+   "Friedrich Hirzebruch's field of work is quantum mysticism",
+   "Friedrich Hirzebruch is trigonometry",
+   "Friedrich Hirzebruch is Minkowski spacetime",
+   "Friedrich Hirzebruch is physiology",
+   "Friedrich Hirzebruch is civil rights",
+   "Friedrich Hirzebruch is theory of relativity",
+   "Friedrich Hirzebruch is electric field",
+   "Friedrich Hirzebruch is literary translation",
+   "Friedrich Hirzebruch is geography",
+   "Friedrich Hirzebruch is detective literature",
+   "Friedrich Hirzebruch is hyperbolic geometry",
+   "Friedrich Hirzebruch is ballet",
+   "Friedrich Hirzebruch is quantum mechanics",
+   "Friedrich Hirzebruch is silviculture",
+   "Friedrich Hirzebruch is study of history",
+   "Friedrich Hirzebruch is television program",
+   "Friedrich Hirzebruch is radiation",
+   "Friedrich Hirzebruch is crystallography",
+   "Friedrich Hirzebruch is English",
+   "Friedrich Hirzebruch is comparative mythology",
+   "Friedrich Hirzebruch is non-Euclidean geometry",
+   "Friedrich Hirzebruch is education",
+   "Friedrich Hirzebruch is Sanskrit",
+   "Friedrich Hirzebruch is astronomer",
+   "Friedrich Hirzebruch is chemistry",
+   "Friedrich Hirzebruch is medicine",
+   "Friedrich Hirzebruch is pedagogy",
+   "Friedrich Hirzebruch is mythology",
+   "Friedrich Hirzebruch is harmonic analysis",
+   "Friedrich Hirzebruch is social anthropology",
+   "Friedrich Hirzebruch is literature",
+   "Friedrich Hirzebruch is psychology",
+   "Friedrich Hirzebruch is aeromechanics",
+   "Friedrich Hirzebruch is physics",
+   "Friedrich Hirzebruch is algebraic topology",
+   "Friedrich Hirzebruch is forestry",
+   "Friedrich Hirzebruch is magnetism",
+   "Friedrich Hirzebruch is anthropology",
+   "Friedrich Hirzebruch is Greek philology",
+   "Friedrich Hirzebruch is theology",
+   "Friedrich Hirzebruch is analytic philosophy",
+   "Friedrich Hirzebruch is computational geometry",
+   "Friedrich Hirzebruch is graph theory",
+   "Friedrich Hirzebruch is philosophy of law",
+   "Friedrich Hirzebruch is ballistics",
+   "Friedrich Hirzebruch is dance choreography",
+   "Friedrich Hirzebruch is Lie algebra",
+   "Friedrich Hirzebruch is histology",
+   "Friedrich Hirzebruch is complex manifold",
+   "Friedrich Hirzebruch is history",
+   "Friedrich Hirzebruch is celestial mechanics",
+   "Friedrich Hirzebruch is differential geometry",
+   "Friedrich Hirzebruch is Petrine ministry",
+   "Friedrich Hirzebruch is dance",
+   "Friedrich Hirzebruch is String",
+   "Friedrich Hirzebruch is a branch of physics",
+   "Friedrich Hirzebruch is mechanical engineering",
+   "Friedrich Hirzebruch is mathematical logic",
+   "Friedrich Hirzebruch is geodesy",
+   "Friedrich Hirzebruch is historical novel",
+   "Friedrich Hirzebruch is Jewish studies",
+   "Friedrich Hirzebruch is distribution",
+   "Friedrich Hirzebruch is Greek",
+   "Friedrich Hirzebruch is natural science",
+   "Friedrich Hirzebruch is Hebrew",
+   "Friedrich Hirzebruch is astrology",
+   "Friedrich Hirzebruch is group theory",
+   "Friedrich Hirzebruch is Judaism",
+   "Friedrich Hirzebruch is model theory",
+   "Friedrich Hirzebruch is opera",
+   "Friedrich Hirzebruch is religion",
+   "Friedrich Hirzebruch is evolution",
+   "Friedrich Hirzebruch is hunting",
+   "Friedrich Hirzebruch is nonstandard analysis",
+   "Friedrich Hirzebruch is applied physics",
+   "Friedrich Hirzebruch is philosophy",
+   "Friedrich Hirzebruch is aerodynamics",
+   "Friedrich Hirzebruch is classical music",
+   "Friedrich Hirzebruch is biological anthropology",
+   "Friedrich Hirzebruch is experimental physics",
+   "Friedrich Hirzebruch is ethnography",
+   "Friedrich Hirzebruch is geometry",
+   "Friedrich Hirzebruch is statistics",
+   "Friedrich Hirzebruch is cosmology",
+   "Friedrich Hirzebruch is algebra",
+   "Friedrich Hirzebruch is heat",
+   "Friedrich Hirzebruch is convex function",
+   "Friedrich Hirzebruch is applied mathematics",
+   "Friedrich Hirzebruch is ontology",
+   "Friedrich Hirzebruch is translations from Occitan",
+   "Friedrich Hirzebruch is folklore",
+   "Friedrich Hirzebruch is analytic number theory",
+   "Friedrich Hirzebruch is astronomical observation",
+   "Friedrich Hirzebruch is algebraic geometry",
+   "Friedrich Hirzebruch is history of economic thought",
+   "Friedrich Hirzebruch is informatics",
+   "Friedrich Hirzebruch is surgery",
+   "Friedrich Hirzebruch is Afghanistan",
+   "Friedrich Hirzebruch is social psychology",
+   "Friedrich Hirzebruch is sociology",
+   "Friedrich Hirzebruch is anatomy",
+   "Friedrich Hirzebruch is neurology",
+   "Friedrich Hirzebruch is hydrodynamics",
+   "Friedrich Hirzebruch is sociology of religion",
+   "Friedrich Hirzebruch is complex function",
+   "Friedrich Hirzebruch is shipbuilding",
+   "Friedrich Hirzebruch is electron",
+   "Friedrich Hirzebruch is African studies",
+   "Friedrich Hirzebruch is historical sociology",
+   "Friedrich Hirzebruch is biochemistry",
+   "Friedrich Hirzebruch is religion and society",
+   "Friedrich Hirzebruch is cryptography",
+   "Friedrich Hirzebruch is crime novel",
+   "Friedrich Hirzebruch is meteorology",
+   "Friedrich Hirzebruch is mathematical physics",
+   "Friedrich Hirzebruch is theoretical physics",
+   "Friedrich Hirzebruch is theory of differential equations",
+   "Friedrich Hirzebruch is art of painting",
+   "Friedrich Hirzebruch is essay",
+   "Friedrich Hirzebruch is human geography",
+   "Friedrich Hirzebruch is gravity",
+   "Friedrich Hirzebruch is natural theology",
+   "Friedrich Hirzebruch is momentum",
+   "Friedrich Hirzebruch is optics",
+   "Friedrich Hirzebruch is paleontology",
+   "Friedrich Hirzebruch is calculus of variations",
+   "Friedrich Hirzebruch is prose",
+   "Friedrich Hirzebruch is political philosophy",
+   "Friedrich Hirzebruch is engineering",
+   "Friedrich Hirzebruch is children's and youth literature",
+   "Friedrich Hirzebruch is computer science",
+   "Friedrich Hirzebruch is philosopher",
+   "Friedrich Hirzebruch is Bayesian inference",
+   "Friedrich Hirzebruch is translations from Polish",
+   "Friedrich Hirzebruch is differential calculus",
+   "Friedrich Hirzebruch is quantum electrodynamics",
+   "Friedrich Hirzebruch is ethnology",
+   "Friedrich Hirzebruch is Internet",
+   "Friedrich Hirzebruch is economic anthropology",
+   "Friedrich Hirzebruch is philosophy of science",
+   "Friedrich Hirzebruch is politics",
+   "Friedrich Hirzebruch is economics",
+   "Friedrich Hirzebruch is distribution theory",
+   "Friedrich Hirzebruch is kinetic theory",
+   "Friedrich Hirzebruch is sociology of organisations",
+   "Friedrich Hirzebruch is quaternion",
+   "Friedrich Hirzebruch is mathematician",
+   "Friedrich Hirzebruch is social philosophy",
+   "Friedrich Hirzebruch is forestry science",
+   "Friedrich Hirzebruch is rite",
+   "Friedrich Hirzebruch is Monte Carlo method",
+   "Friedrich Hirzebruch is analytic geometry",
+   "Friedrich Hirzebruch is electrical engineering",
+   "Friedrich Hirzebruch is Franciscan spirituality",
+   "Friedrich Hirzebruch is stochastic",
+   "Friedrich Hirzebruch is translations from Spanish",
+   "Friedrich Hirzebruch is world economy",
+   "Friedrich Hirzebruch is drama",
+   "Friedrich Hirzebruch is electricity",
+   "Friedrich Hirzebruch is cybernetics",
+   "Friedrich Hirzebruch is embryology",
+   "Friedrich Hirzebruch is linguistics",
+   "Friedrich Hirzebruch is magnetic resonance",
+   "Friedrich Hirzebruch is English literature",
+   "Friedrich Hirzebruch is topology",
+   "Friedrich Hirzebruch is belletristic literature",
+   "Friedrich Hirzebruch is mathematical analysis",
+   "Friedrich Hirzebruch is lyric poetry",
+   "Friedrich Hirzebruch is projective geometry",
+   "Friedrich Hirzebruch is Jewish philosophy",
+   "Friedrich Hirzebruch is myth",
+   "Friedrich Hirzebruch is ethics",
+   "Friedrich Hirzebruch is history of religions",
+   "Friedrich Hirzebruch is logic",
+   "Friedrich Hirzebruch is comparative religion",
+   "Friedrich Hirzebruch is functional analysis",
+   "Friedrich Hirzebruch is astrophysics",
+   "Friedrich Hirzebruch is partial differential equation",
+   "Friedrich Hirzebruch is magic",
+   "Friedrich Hirzebruch is mechanics",
+   "Friedrich Hirzebruch is electromagnetic field",
+   "Friedrich Hirzebruch is philology",
+   "Friedrich Hirzebruch is abstract algebra",
+   "Friedrich Hirzebruch is translations from Arabic language",
+   "Friedrich Hirzebruch is ferromagnetism",
+   "Friedrich Hirzebruch is translations from English",
+   "Friedrich Hirzebruch is culturology",
+   "Friedrich Hirzebruch is psychophysiology",
+   "Friedrich Hirzebruch is nanotechnology",
+   "Friedrich Hirzebruch is jazz",
+   "Friedrich Hirzebruch is cartography",
+   "Friedrich Hirzebruch is physicist",
+   "Friedrich Hirzebruch is feminism",
+   "Friedrich Hirzebruch is number theory",
+   "Friedrich Hirzebruch is radioactivity",
+   "Friedrich Hirzebruch is constitutional law",
+   "Friedrich Hirzebruch is economy",
+   "Friedrich Hirzebruch is positivism",
+   "Friedrich Hirzebruch is fairy tale",
+   "Friedrich Hirzebruch is Cairo Geniza",
+   "Friedrich Hirzebruch is journalism",
+   "Friedrich Hirzebruch is literary activity",
+   "Friedrich Hirzebruch is color photography",
+   "Friedrich Hirzebruch is genetics",
+   "Friedrich Hirzebruch is Christian Church",
+   "Friedrich Hirzebruch is mathematics",
+   "Friedrich Hirzebruch is poetry",
+   "Friedrich Hirzebruch is nuclear physics",
+   "Friedrich Hirzebruch is information technology",
+   "Friedrich Hirzebruch is conducting",
+   "Friedrich Hirzebruch is quantum physics",
+   "Friedrich Hirzebruch is history of science",
+   "Friedrich Hirzebruch is music theory",
+   "Friedrich Hirzebruch is classics",
+   "Friedrich Hirzebruch is choreography",
+   "Friedrich Hirzebruch is literary theory",
+   "Friedrich Hirzebruch is astronomy",
+   "Friedrich Hirzebruch is probability theory",
+   "Friedrich Hirzebruch is quantum theory",
+   "Friedrich Hirzebruch is magnetic field",
+   "Friedrich Hirzebruch is quantum mysticism"
+  ],
+  [
+   [
+    -49.13977813720703
+   ],
+   [
+    -54.672874450683594
+   ],
+   [
+    -52.120208740234375
+   ],
+   [
+    -54.974273681640625
+   ],
+   [
+    -53.266746520996094
+   ],
+   [
+    -55.08622741699219
+   ],
+   [
+    -56.71710968017578
+   ],
+   [
+    -47.96184539794922
+   ],
+   [
+    -57.3366584777832
+   ],
+   [
+    -44.28099060058594
+   ],
+   [
+    -56.455970764160156
+   ],
+   [
+    -50.95657730102539
+   ],
+   [
+    -55.3528938293457
+   ],
+   [
+    -58.9995002746582
+   ],
+   [
+    -58.066444396972656
+   ],
+   [
+    -51.13152313232422
+   ],
+   [
+    -49.03971862792969
+   ],
+   [
+    -50.2105827331543
+   ],
+   [
+    -55.35395431518555
+   ],
+   [
+    -48.556396484375
+   ],
+   [
+    -49.74618148803711
+   ],
+   [
+    -53.64413070678711
+   ],
+   [
+    -57.539268493652344
+   ],
+   [
+    -50.67781448364258
+   ],
+   [
+    -51.902244567871094
+   ],
+   [
+    -53.223670959472656
+   ],
+   [
+    -53.06402587890625
+   ],
+   [
+    -46.010963439941406
+   ],
+   [
+    -56.094051361083984
+   ],
+   [
+    -49.00735855102539
+   ],
+   [
+    -51.80126953125
+   ],
+   [
+    -55.82142639160156
+   ],
+   [
+    -47.925537109375
+   ],
+   [
+    -39.20771408081055
+   ],
+   [
+    -50.8552360534668
+   ],
+   [
+    -52.27549743652344
+   ],
+   [
+    -52.499568939208984
+   ],
+   [
+    -59.200382232666016
+   ],
+   [
+    -50.6025276184082
+   ],
+   [
+    -54.086524963378906
+   ],
+   [
+    -46.24740982055664
+   ],
+   [
+    -44.26765441894531
+   ],
+   [
+    -56.382652282714844
+   ],
+   [
+    -51.50639724731445
+   ],
+   [
+    -57.34934997558594
+   ],
+   [
+    -45.354736328125
+   ],
+   [
+    -52.976409912109375
+   ],
+   [
+    -48.87438201904297
+   ],
+   [
+    -49.104434967041016
+   ],
+   [
+    -47.075164794921875
+   ],
+   [
+    -41.981788635253906
+   ],
+   [
+    -63.337127685546875
+   ],
+   [
+    -52.82710647583008
+   ],
+   [
+    -49.53871536254883
+   ],
+   [
+    -53.795265197753906
+   ],
+   [
+    -51.873138427734375
+   ],
+   [
+    -43.17842102050781
+   ],
+   [
+    -47.168128967285156
+   ],
+   [
+    -60.7264518737793
+   ],
+   [
+    -51.00830841064453
+   ],
+   [
+    -49.12220001220703
+   ],
+   [
+    -51.87940216064453
+   ],
+   [
+    -50.108943939208984
+   ],
+   [
+    -49.66181945800781
+   ],
+   [
+    -53.30415344238281
+   ],
+   [
+    -44.20379638671875
+   ],
+   [
+    -54.54238510131836
+   ],
+   [
+    -45.65082550048828
+   ],
+   [
+    -51.8758659362793
+   ],
+   [
+    -50.0673942565918
+   ],
+   [
+    -49.351165771484375
+   ],
+   [
+    -50.64944076538086
+   ],
+   [
+    -50.36542892456055
+   ],
+   [
+    -54.97637939453125
+   ],
+   [
+    -49.307029724121094
+   ],
+   [
+    -50.14580154418945
+   ],
+   [
+    -55.38674545288086
+   ],
+   [
+    -56.498085021972656
+   ],
+   [
+    -52.17991638183594
+   ],
+   [
+    -55.066375732421875
+   ],
+   [
+    -41.783729553222656
+   ],
+   [
+    -47.68088150024414
+   ],
+   [
+    -50.310943603515625
+   ],
+   [
+    -40.59760665893555
+   ],
+   [
+    -49.97121810913086
+   ],
+   [
+    -52.38311767578125
+   ],
+   [
+    -45.892330169677734
+   ],
+   [
+    -50.39241027832031
+   ],
+   [
+    -71.86299896240234
+   ],
+   [
+    -50.63514709472656
+   ],
+   [
+    -44.046016693115234
+   ],
+   [
+    -57.76694869995117
+   ],
+   [
+    -40.98878860473633
+   ],
+   [
+    -61.490718841552734
+   ],
+   [
+    -51.65134811401367
+   ],
+   [
+    -49.4919548034668
+   ],
+   [
+    -52.993499755859375
+   ],
+   [
+    -53.02912139892578
+   ],
+   [
+    -49.98933792114258
+   ],
+   [
+    -50.56111145019531
+   ],
+   [
+    -51.201332092285156
+   ],
+   [
+    -50.094085693359375
+   ],
+   [
+    -54.069679260253906
+   ],
+   [
+    -48.52411651611328
+   ],
+   [
+    -51.548851013183594
+   ],
+   [
+    -50.495506286621094
+   ],
+   [
+    -52.85857391357422
+   ],
+   [
+    -56.4163932800293
+   ],
+   [
+    -52.598472595214844
+   ],
+   [
+    -56.47174835205078
+   ],
+   [
+    -47.100486755371094
+   ],
+   [
+    -58.186458587646484
+   ],
+   [
+    -51.246395111083984
+   ],
+   [
+    -43.91844177246094
+   ],
+   [
+    -44.958160400390625
+   ],
+   [
+    -48.30131912231445
+   ],
+   [
+    -60.21526336669922
+   ],
+   [
+    -50.39936828613281
+   ],
+   [
+    -53.02134704589844
+   ],
+   [
+    -52.49564743041992
+   ],
+   [
+    -59.255741119384766
+   ],
+   [
+    -53.5433464050293
+   ],
+   [
+    -49.72336959838867
+   ],
+   [
+    -55.45985794067383
+   ],
+   [
+    -45.71073913574219
+   ],
+   [
+    -52.292694091796875
+   ],
+   [
+    -54.34648132324219
+   ],
+   [
+    -48.845672607421875
+   ],
+   [
+    -56.655067443847656
+   ],
+   [
+    -45.75745391845703
+   ],
+   [
+    -55.29991912841797
+   ],
+   [
+    -52.919761657714844
+   ],
+   [
+    -63.573448181152344
+   ],
+   [
+    -48.59137725830078
+   ],
+   [
+    -55.915950775146484
+   ],
+   [
+    -53.85048294067383
+   ],
+   [
+    -51.48017883300781
+   ],
+   [
+    -58.154850006103516
+   ],
+   [
+    -52.55412292480469
+   ],
+   [
+    -52.78036117553711
+   ],
+   [
+    -49.075870513916016
+   ],
+   [
+    -49.65994644165039
+   ],
+   [
+    -52.41120147705078
+   ],
+   [
+    -59.28166198730469
+   ],
+   [
+    -53.6353759765625
+   ],
+   [
+    -46.28623962402344
+   ],
+   [
+    -56.05355453491211
+   ],
+   [
+    -54.06057357788086
+   ],
+   [
+    -59.9666633605957
+   ],
+   [
+    -54.51385498046875
+   ],
+   [
+    -47.22438049316406
+   ],
+   [
+    -50.028465270996094
+   ],
+   [
+    -64.14910125732422
+   ],
+   [
+    -47.000057220458984
+   ],
+   [
+    -64.62869262695312
+   ],
+   [
+    -58.46504211425781
+   ],
+   [
+    -52.34992599487305
+   ],
+   [
+    -51.597679138183594
+   ],
+   [
+    -48.33692169189453
+   ],
+   [
+    -57.7861442565918
+   ],
+   [
+    -52.51575469970703
+   ],
+   [
+    -51.263370513916016
+   ],
+   [
+    -52.15351867675781
+   ],
+   [
+    -40.72795104980469
+   ],
+   [
+    -58.053260803222656
+   ],
+   [
+    -42.25944900512695
+   ],
+   [
+    -54.66477584838867
+   ],
+   [
+    -46.888572692871094
+   ],
+   [
+    -51.82087707519531
+   ],
+   [
+    -52.54747009277344
+   ],
+   [
+    -51.758201599121094
+   ],
+   [
+    -59.09492492675781
+   ],
+   [
+    -47.0632209777832
+   ],
+   [
+    -53.72126770019531
+   ],
+   [
+    -44.75789260864258
+   ],
+   [
+    -50.07560729980469
+   ],
+   [
+    -48.093284606933594
+   ],
+   [
+    -49.095603942871094
+   ],
+   [
+    -48.5053825378418
+   ],
+   [
+    -55.290523529052734
+   ],
+   [
+    -52.959999084472656
+   ],
+   [
+    -43.17820739746094
+   ],
+   [
+    -69.15057373046875
+   ],
+   [
+    -53.83055877685547
+   ],
+   [
+    -59.69563293457031
+   ],
+   [
+    -55.3283576965332
+   ],
+   [
+    -57.5030403137207
+   ],
+   [
+    -53.17170715332031
+   ],
+   [
+    -50.03329849243164
+   ],
+   [
+    -50.52796173095703
+   ],
+   [
+    -52.077362060546875
+   ],
+   [
+    -53.524330139160156
+   ],
+   [
+    -41.95054244995117
+   ],
+   [
+    -55.817996978759766
+   ],
+   [
+    -58.299964904785156
+   ],
+   [
+    -52.306636810302734
+   ],
+   [
+    -53.237022399902344
+   ],
+   [
+    -55.15668487548828
+   ],
+   [
+    -65.60887908935547
+   ],
+   [
+    -51.29338073730469
+   ],
+   [
+    -59.02501678466797
+   ],
+   [
+    -59.524532318115234
+   ],
+   [
+    -51.01343536376953
+   ],
+   [
+    -55.00968551635742
+   ],
+   [
+    -40.28202819824219
+   ],
+   [
+    -51.19419479370117
+   ],
+   [
+    -50.035457611083984
+   ],
+   [
+    -53.41819763183594
+   ],
+   [
+    -50.199127197265625
+   ],
+   [
+    -52.52585220336914
+   ],
+   [
+    -53.92007827758789
+   ],
+   [
+    -52.93827819824219
+   ],
+   [
+    -50.336090087890625
+   ],
+   [
+    -54.34756851196289
+   ],
+   [
+    -53.95069122314453
+   ],
+   [
+    -50.72713088989258
+   ],
+   [
+    -46.83747100830078
+   ],
+   [
+    -52.2175178527832
+   ],
+   [
+    -55.330162048339844
+   ],
+   [
+    -61.123863220214844
+   ],
+   [
+    -40.312965393066406
+   ],
+   [
+    -49.21589279174805
+   ],
+   [
+    -42.19709777832031
+   ],
+   [
+    -43.33484649658203
+   ],
+   [
+    -44.247459411621094
+   ],
+   [
+    -43.71043014526367
+   ],
+   [
+    -46.53993225097656
+   ],
+   [
+    -38.261375427246094
+   ],
+   [
+    -47.786338806152344
+   ],
+   [
+    -42.233741760253906
+   ],
+   [
+    -41.792266845703125
+   ],
+   [
+    -39.036048889160156
+   ],
+   [
+    -47.67304992675781
+   ],
+   [
+    -46.236572265625
+   ],
+   [
+    -43.724998474121094
+   ],
+   [
+    -39.01057815551758
+   ],
+   [
+    -40.797019958496094
+   ],
+   [
+    -37.24916076660156
+   ],
+   [
+    -45.559207916259766
+   ],
+   [
+    -40.168128967285156
+   ],
+   [
+    -37.09258270263672
+   ],
+   [
+    -38.20363998413086
+   ],
+   [
+    -37.56428527832031
+   ],
+   [
+    -37.81517028808594
+   ],
+   [
+    -39.381927490234375
+   ],
+   [
+    -41.238136291503906
+   ],
+   [
+    -41.25523376464844
+   ],
+   [
+    -39.17643737792969
+   ],
+   [
+    -47.41309356689453
+   ],
+   [
+    -38.67790222167969
+   ],
+   [
+    -39.05796813964844
+   ],
+   [
+    -47.79341125488281
+   ],
+   [
+    -35.669715881347656
+   ],
+   [
+    -40.301239013671875
+   ],
+   [
+    -40.79602813720703
+   ],
+   [
+    -41.62800598144531
+   ],
+   [
+    -42.26435089111328
+   ],
+   [
+    -48.18009948730469
+   ],
+   [
+    -40.21607971191406
+   ],
+   [
+    -43.30371856689453
+   ],
+   [
+    -41.054931640625
+   ],
+   [
+    -40.18417739868164
+   ],
+   [
+    -46.411949157714844
+   ],
+   [
+    -42.7662353515625
+   ],
+   [
+    -46.5985107421875
+   ],
+   [
+    -42.06087112426758
+   ],
+   [
+    -44.400787353515625
+   ],
+   [
+    -43.631431579589844
+   ],
+   [
+    -35.273033142089844
+   ],
+   [
+    -48.068328857421875
+   ],
+   [
+    -38.85919952392578
+   ],
+   [
+    -60.80535125732422
+   ],
+   [
+    -39.57432174682617
+   ],
+   [
+    -37.79551696777344
+   ],
+   [
+    -42.11385726928711
+   ],
+   [
+    -39.913055419921875
+   ],
+   [
+    -38.541107177734375
+   ],
+   [
+    -44.59862518310547
+   ],
+   [
+    -40.81101608276367
+   ],
+   [
+    -40.91697692871094
+   ],
+   [
+    -40.735408782958984
+   ],
+   [
+    -37.278812408447266
+   ],
+   [
+    -40.76982879638672
+   ],
+   [
+    -36.46335220336914
+   ],
+   [
+    -42.27783966064453
+   ],
+   [
+    -40.416507720947266
+   ],
+   [
+    -44.03843688964844
+   ],
+   [
+    -45.336395263671875
+   ],
+   [
+    -37.36394500732422
+   ],
+   [
+    -39.05891799926758
+   ],
+   [
+    -39.26768493652344
+   ],
+   [
+    -37.46139907836914
+   ],
+   [
+    -43.55085372924805
+   ],
+   [
+    -44.15580749511719
+   ],
+   [
+    -36.981468200683594
+   ],
+   [
+    -43.23844909667969
+   ],
+   [
+    -39.08179473876953
+   ],
+   [
+    -45.99811935424805
+   ],
+   [
+    -41.569244384765625
+   ],
+   [
+    -47.473297119140625
+   ],
+   [
+    -38.67017364501953
+   ],
+   [
+    -37.87617874145508
+   ],
+   [
+    -40.02601623535156
+   ],
+   [
+    -39.62136459350586
+   ],
+   [
+    -40.714317321777344
+   ],
+   [
+    -45.56401062011719
+   ],
+   [
+    -38.53076934814453
+   ],
+   [
+    -43.08696746826172
+   ],
+   [
+    -54.37565231323242
+   ],
+   [
+    -38.86052703857422
+   ],
+   [
+    -39.803627014160156
+   ],
+   [
+    -46.56334686279297
+   ],
+   [
+    -40.545677185058594
+   ],
+   [
+    -50.25382995605469
+   ],
+   [
+    -42.38251495361328
+   ],
+   [
+    -40.099281311035156
+   ],
+   [
+    -41.11687469482422
+   ],
+   [
+    -44.877662658691406
+   ],
+   [
+    -40.96521759033203
+   ],
+   [
+    -39.51354217529297
+   ],
+   [
+    -44.94374084472656
+   ],
+   [
+    -41.550559997558594
+   ],
+   [
+    -47.72478485107422
+   ],
+   [
+    -43.103065490722656
+   ],
+   [
+    -42.57422637939453
+   ],
+   [
+    -35.84400177001953
+   ],
+   [
+    -45.81863021850586
+   ],
+   [
+    -45.59602355957031
+   ],
+   [
+    -41.939231872558594
+   ],
+   [
+    -46.857421875
+   ],
+   [
+    -41.62541198730469
+   ],
+   [
+    -43.15863037109375
+   ],
+   [
+    -41.6832160949707
+   ],
+   [
+    -38.01851272583008
+   ],
+   [
+    -39.21405029296875
+   ],
+   [
+    -42.91156005859375
+   ],
+   [
+    -48.086517333984375
+   ],
+   [
+    -36.256736755371094
+   ],
+   [
+    -43.872467041015625
+   ],
+   [
+    -38.971832275390625
+   ],
+   [
+    -47.337432861328125
+   ],
+   [
+    -41.795387268066406
+   ],
+   [
+    -40.902427673339844
+   ],
+   [
+    -42.447959899902344
+   ],
+   [
+    -41.96942138671875
+   ],
+   [
+    -39.09812927246094
+   ],
+   [
+    -43.21910095214844
+   ],
+   [
+    -37.676021575927734
+   ],
+   [
+    -47.9467658996582
+   ],
+   [
+    -36.423160552978516
+   ],
+   [
+    -35.50943374633789
+   ],
+   [
+    -46.199729919433594
+   ],
+   [
+    -49.963897705078125
+   ],
+   [
+    -42.50269317626953
+   ],
+   [
+    -42.76845932006836
+   ],
+   [
+    -44.565330505371094
+   ],
+   [
+    -36.830055236816406
+   ],
+   [
+    -47.45448303222656
+   ],
+   [
+    -42.16578674316406
+   ],
+   [
+    -39.520103454589844
+   ],
+   [
+    -36.63551330566406
+   ],
+   [
+    -43.75764465332031
+   ],
+   [
+    -43.53573226928711
+   ],
+   [
+    -52.95207214355469
+   ],
+   [
+    -41.70330047607422
+   ],
+   [
+    -32.72482681274414
+   ],
+   [
+    -47.12871551513672
+   ],
+   [
+    -45.79130172729492
+   ],
+   [
+    -42.72980880737305
+   ],
+   [
+    -44.595542907714844
+   ],
+   [
+    -40.64424133300781
+   ],
+   [
+    -38.47010040283203
+   ],
+   [
+    -52.80902099609375
+   ],
+   [
+    -39.49615478515625
+   ],
+   [
+    -50.16722106933594
+   ],
+   [
+    -45.50916290283203
+   ],
+   [
+    -39.20948028564453
+   ],
+   [
+    -41.070899963378906
+   ],
+   [
+    -40.200416564941406
+   ],
+   [
+    -46.33916473388672
+   ],
+   [
+    -40.17066192626953
+   ],
+   [
+    -44.179100036621094
+   ],
+   [
+    -43.612815856933594
+   ],
+   [
+    -39.610572814941406
+   ],
+   [
+    -47.91626739501953
+   ],
+   [
+    -40.28443145751953
+   ],
+   [
+    -43.45604705810547
+   ],
+   [
+    -41.571311950683594
+   ],
+   [
+    -43.47949981689453
+   ],
+   [
+    -36.412620544433594
+   ],
+   [
+    -41.57152557373047
+   ],
+   [
+    -49.17969512939453
+   ],
+   [
+    -39.41966247558594
+   ],
+   [
+    -45.049163818359375
+   ],
+   [
+    -40.316009521484375
+   ],
+   [
+    -38.635162353515625
+   ],
+   [
+    -40.68788528442383
+   ],
+   [
+    -37.95904541015625
+   ],
+   [
+    -40.545372009277344
+   ],
+   [
+    -43.10646057128906
+   ],
+   [
+    -41.5712890625
+   ],
+   [
+    -39.89091491699219
+   ],
+   [
+    -55.8813362121582
+   ],
+   [
+    -45.95326232910156
+   ],
+   [
+    -47.854217529296875
+   ],
+   [
+    -47.08463668823242
+   ],
+   [
+    -45.07441329956055
+   ],
+   [
+    -39.981719970703125
+   ],
+   [
+    -36.912872314453125
+   ],
+   [
+    -40.39154052734375
+   ],
+   [
+    -33.58916473388672
+   ],
+   [
+    -43.34037399291992
+   ],
+   [
+    -36.981353759765625
+   ],
+   [
+    -45.0106201171875
+   ],
+   [
+    -42.99413299560547
+   ],
+   [
+    -39.299110412597656
+   ],
+   [
+    -42.603816986083984
+   ],
+   [
+    -40.21128845214844
+   ],
+   [
+    -49.23035430908203
+   ],
+   [
+    -39.87631607055664
+   ],
+   [
+    -47.20471954345703
+   ],
+   [
+    -45.17205810546875
+   ],
+   [
+    -41.624549865722656
+   ],
+   [
+    -45.67950439453125
+   ],
+   [
+    -34.26513671875
+   ],
+   [
+    -38.846370697021484
+   ],
+   [
+    -41.59650421142578
+   ],
+   [
+    -41.468544006347656
+   ],
+   [
+    -34.34707260131836
+   ],
+   [
+    -40.160545349121094
+   ],
+   [
+    -42.06652069091797
+   ],
+   [
+    -42.14434051513672
+   ],
+   [
+    -38.65129470825195
+   ],
+   [
+    -44.66492462158203
+   ],
+   [
+    -45.490936279296875
+   ],
+   [
+    -39.511802673339844
+   ],
+   [
+    -40.783119201660156
+   ],
+   [
+    -41.18830108642578
+   ],
+   [
+    -43.307960510253906
+   ],
+   [
+    -47.57268524169922
+   ]
+  ]
+ ],
+ "time": 448.1826364994049
+}

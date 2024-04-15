@@ -1,0 +1,3723 @@
+{
+ "case_id": 168,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "The native language of {} is",
+  "relation_id": "P103",
+  "target_new": {
+   "str": "Indonesian",
+   "id": "Q9240"
+  },
+  "target_true": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "subject": "Cees Nooteboom"
+ },
+ "pre": [
+  [
+   "Cees Nooteboom was born in Q339182",
+   "Cees Nooteboom was born in Q43631",
+   "Cees Nooteboom was born in Q2061870",
+   "Cees Nooteboom was born in Q25331",
+   "Cees Nooteboom was born in Q3776576",
+   "Cees Nooteboom was born in Q81621",
+   "Cees Nooteboom was born in Q38511",
+   "Cees Nooteboom was born in Q23436",
+   "Cees Nooteboom was born in Q627653",
+   "Cees Nooteboom was born in Q749",
+   "Cees Nooteboom was born in Q42088",
+   "Cees Nooteboom was born in Q206687",
+   "Cees Nooteboom was born in Q18655",
+   "Cees Nooteboom was born in Q54163",
+   "Cees Nooteboom was born in Q1144835",
+   "Cees Nooteboom was born in Q3626259",
+   "Cees Nooteboom was born in Q30096",
+   "Cees Nooteboom was born in Q181725",
+   "Cees Nooteboom was born in Q18426",
+   "Cees Nooteboom was born in Q4734309",
+   "Cees Nooteboom was born in Q823531",
+   "Cees Nooteboom was born in Q13210107",
+   "Cees Nooteboom was born in Q656",
+   "Cees Nooteboom was born in Q1709",
+   "Cees Nooteboom was born in Q1492",
+   "Cees Nooteboom was born in Q6602",
+   "Cees Nooteboom was born in Q1490",
+   "Cees Nooteboom was born in Q939529",
+   "Cees Nooteboom was born in Q1890931",
+   "Cees Nooteboom was born in Q2640897",
+   "Cees Nooteboom was born in Q655874",
+   "Cees Nooteboom was born in Q40623",
+   "Cees Nooteboom was born in Q21711493",
+   "Cees Nooteboom was born in Q23360",
+   "Cees Nooteboom was born in Q25286",
+   "Cees Nooteboom was born in Q963309",
+   "Cees Nooteboom was born in Q1761",
+   "Cees Nooteboom was born in Q1773",
+   "Cees Nooteboom was born in Q18986",
+   "Cees Nooteboom was born in Q78",
+   "Cees Nooteboom was born in Q11025",
+   "Cees Nooteboom was born in Q13375",
+   "Cees Nooteboom was born in Q1013549",
+   "Cees Nooteboom was born in Q176410",
+   "Cees Nooteboom was born in Q584458",
+   "Cees Nooteboom was born in Q374745",
+   "Cees Nooteboom was born in Q59670",
+   "Cees Nooteboom was born in Q62460",
+   "Cees Nooteboom was born in Q288082",
+   "Cees Nooteboom was born in Q2145988",
+   "Cees Nooteboom was born in Q104731",
+   "Cees Nooteboom was born in Q1618770",
+   "Cees Nooteboom was born in Q24826",
+   "Cees Nooteboom was born in Q3846",
+   "Cees Nooteboom was born in Q727",
+   "Cees Nooteboom was born in Q186234",
+   "Cees Nooteboom was born in Q2593038",
+   "Cees Nooteboom was born in Q1003286",
+   "Cees Nooteboom was born in Q1921452",
+   "Cees Nooteboom was born in Q1159513",
+   "Cees Nooteboom was born in Q617407",
+   "Cees Nooteboom was born in Q140342",
+   "Cees Nooteboom was born in Q269476",
+   "Cees Nooteboom was born in Q1296",
+   "Cees Nooteboom was born in Q1524",
+   "Cees Nooteboom was born in Q3138",
+   "Cees Nooteboom was born in Q36600",
+   "Cees Nooteboom was born in Q985461",
+   "Cees Nooteboom was born in Q3150",
+   "Cees Nooteboom was born in Q203040",
+   "Cees Nooteboom was born in Q4420718",
+   "Cees Nooteboom was born in Q564827",
+   "Cees Nooteboom was born in Q19272",
+   "Cees Nooteboom was born in Q209126",
+   "Cees Nooteboom was born in Q2746",
+   "Cees Nooteboom was born in Q446314",
+   "Cees Nooteboom was born in Q1085",
+   "Cees Nooteboom was born in Q7042",
+   "Cees Nooteboom was born in Q198190",
+   "Cees Nooteboom was born in Q462177",
+   "Cees Nooteboom was born in Q1748",
+   "Cees Nooteboom was born in Q123709",
+   "Cees Nooteboom was born in Q36433",
+   "Cees Nooteboom was born in Q1247384",
+   "Cees Nooteboom was born in Q1780",
+   "Cees Nooteboom was born in Q18125",
+   "Cees Nooteboom was born in Q482657",
+   "Cees Nooteboom was born in Q31487",
+   "Cees Nooteboom was born in Q1005862",
+   "Cees Nooteboom was born in Q52098",
+   "Cees Nooteboom was born in Q23154",
+   "Cees Nooteboom was born in Q1679681",
+   "Cees Nooteboom was born in Q123559",
+   "Cees Nooteboom was born in Q1799",
+   "Cees Nooteboom was born in Q500939",
+   "Cees Nooteboom was born in Q41252",
+   "Cees Nooteboom was born in nan",
+   "Cees Nooteboom was born in Q3923",
+   "Cees Nooteboom was born in Q517311",
+   "Cees Nooteboom was born in Q49111",
+   "Cees Nooteboom was born in Q6366688",
+   "Cees Nooteboom was born in Q1490411",
+   "Cees Nooteboom was born in Q1415",
+   "Cees Nooteboom was born in Q269980",
+   "Cees Nooteboom was born in Q156743",
+   "Cees Nooteboom was born in Q11736",
+   "Cees Nooteboom was born in Q2880",
+   "Cees Nooteboom was born in Q3915",
+   "Cees Nooteboom was born in Q853324",
+   "Cees Nooteboom was born in Q67778",
+   "Cees Nooteboom was born in Q649",
+   "Cees Nooteboom was born in Q610238",
+   "Cees Nooteboom was born in Q4083",
+   "Cees Nooteboom was born in Q1754",
+   "Cees Nooteboom was born in Q490",
+   "Cees Nooteboom was born in Q64",
+   "Cees Nooteboom was born in Q18424",
+   "Cees Nooteboom was born in Q492538",
+   "Cees Nooteboom was born in Q42807",
+   "Cees Nooteboom was born in Q84",
+   "Cees Nooteboom was born in Q1729",
+   "Cees Nooteboom was born in Q1055",
+   "Cees Nooteboom was born in Q43509",
+   "Cees Nooteboom was born in Q16553",
+   "Cees Nooteboom was born in Q54140",
+   "Cees Nooteboom was born in Q80484",
+   "Cees Nooteboom was born in Q10549787",
+   "Cees Nooteboom was born in Q42308",
+   "Cees Nooteboom was born in Q33959",
+   "Cees Nooteboom was born in Q22741",
+   "Cees Nooteboom was born in Q433701",
+   "Cees Nooteboom was born in Q2749",
+   "Cees Nooteboom was born in Q863832",
+   "Cees Nooteboom was born in Q3834",
+   "Cees Nooteboom was born in Q106274",
+   "Cees Nooteboom was born in Q1779185",
+   "Cees Nooteboom was born in Q4518353",
+   "Cees Nooteboom was born in Q275731",
+   "Cees Nooteboom was born in Q102621",
+   "Cees Nooteboom was born in Q4418120",
+   "Cees Nooteboom was born in Q891",
+   "Cees Nooteboom was born in Q142",
+   "Cees Nooteboom was born in Q220",
+   "Cees Nooteboom was born in Q1781",
+   "Cees Nooteboom was born in Q1794",
+   "Cees Nooteboom was born in Q1741",
+   "Cees Nooteboom was born in Q966192",
+   "Cees Nooteboom was born in Q2711986",
+   "Cees Nooteboom was born in Q1781710",
+   "Cees Nooteboom was born in Q60",
+   "Cees Nooteboom was born in Q173695",
+   "Cees Nooteboom was born in Q135572",
+   "Cees Nooteboom was born in Q2598",
+   "Cees Nooteboom was born in Q192265",
+   "Cees Nooteboom was born in Q1792",
+   "Cees Nooteboom was born in Q22905",
+   "Cees Nooteboom was born in Q5838",
+   "Cees Nooteboom was born in Q536598",
+   "Cees Nooteboom was born in Q3316008",
+   "Cees Nooteboom was born in Q1327770",
+   "Cees Nooteboom was born in Q477987",
+   "Cees Nooteboom was born in Q551378",
+   "Cees Nooteboom was born in Q648432",
+   "Cees Nooteboom was born in Q1345",
+   "Cees Nooteboom was born in Q1228829",
+   "Cees Nooteboom was born in Q797437",
+   "Cees Nooteboom was born in Q87",
+   "Cees Nooteboom was born in Q157725",
+   "Cees Nooteboom was born in Q36036",
+   "Cees Nooteboom was born in Q6837",
+   "Cees Nooteboom was born in Q1735",
+   "Cees Nooteboom was born in Q1711",
+   "Cees Nooteboom was born in Q507117",
+   "Cees Nooteboom was born in Q2722267",
+   "Cees Nooteboom was born in Q13666",
+   "Cees Nooteboom was born in Q206988",
+   "Cees Nooteboom was born in Q1715",
+   "Cees Nooteboom was born in Q265332",
+   "Cees Nooteboom was born in Q745594",
+   "Cees Nooteboom was born in Q13373",
+   "Cees Nooteboom was born in Q725261",
+   "Cees Nooteboom was born in Q572595",
+   "Cees Nooteboom was born in Q576671",
+   "Cees Nooteboom was born in Q2453742",
+   "Cees Nooteboom was born in Q7880",
+   "Cees Nooteboom was born in Q184163",
+   "Cees Nooteboom was born in Q997335",
+   "Cees Nooteboom was born in Q26339",
+   "Cees Nooteboom was born in Q845623",
+   "Cees Nooteboom was born in Q64589",
+   "Cees Nooteboom was born in Q1720",
+   "Cees Nooteboom was born in Q835831",
+   "Cees Nooteboom was born in Q487977",
+   "Cees Nooteboom was born in Q2256",
+   "Cees Nooteboom was born in Q6346",
+   "Cees Nooteboom was born in Q161994",
+   "Cees Nooteboom was born in Q34615",
+   "Cees Nooteboom was born in Q47554",
+   "Cees Nooteboom was born in Q194420",
+   "Cees Nooteboom was born in Q197691",
+   "Cees Nooteboom was born in Q7027",
+   "Cees Nooteboom was born in Q270",
+   "Cees Nooteboom was born in Q1828035",
+   "Cees Nooteboom was born in Q1022",
+   "Cees Nooteboom was born in Q7473516",
+   "Cees Nooteboom was born in Q181704",
+   "Cees Nooteboom was born in Q72",
+   "Cees Nooteboom was born in Q2683",
+   "Cees Nooteboom was born in Q467617",
+   "Cees Nooteboom was born in Q42168",
+   "Cees Nooteboom was born in Q153494",
+   "Cees Nooteboom was born in Q13362",
+   "Cees Nooteboom was born in Q484552",
+   "Cees Nooteboom was born in Q320233",
+   "Cees Nooteboom was born in Q1297",
+   "Cees Nooteboom was born in Q2865",
+   "Cees Nooteboom was born in Q16568",
+   "Cees Nooteboom was born in Q4093",
+   "Cees Nooteboom was born in Q319397",
+   "Cees Nooteboom was born in Q212856",
+   "Cees Nooteboom was born in Q90",
+   "Cees Nooteboom was born in Q1807458",
+   "Cees Nooteboom was born in Q5839",
+   "Cees Nooteboom was born in Q2861",
+   "Cees Nooteboom was born in Q504875",
+   "Cees Nooteboom was born in Q105048",
+   "Cees Nooteboom was born in Q3619316",
+   "Cees Nooteboom was born in Q287148",
+   "Cees Nooteboom was born in Q630668",
+   "Cees Nooteboom was born in Q40898",
+   "Cees Nooteboom was born in Q734064",
+   "Cees Nooteboom was born in Q1537",
+   "Cees Nooteboom was born in Q375314",
+   "Where Cees Nooteboom is from, people speak the language of Q339182",
+   "Where Cees Nooteboom is from, people speak the language of Q43631",
+   "Where Cees Nooteboom is from, people speak the language of Q2061870",
+   "Where Cees Nooteboom is from, people speak the language of Q25331",
+   "Where Cees Nooteboom is from, people speak the language of Q3776576",
+   "Where Cees Nooteboom is from, people speak the language of Q81621",
+   "Where Cees Nooteboom is from, people speak the language of Q38511",
+   "Where Cees Nooteboom is from, people speak the language of Q23436",
+   "Where Cees Nooteboom is from, people speak the language of Q627653",
+   "Where Cees Nooteboom is from, people speak the language of Q749",
+   "Where Cees Nooteboom is from, people speak the language of Q42088",
+   "Where Cees Nooteboom is from, people speak the language of Q206687",
+   "Where Cees Nooteboom is from, people speak the language of Q18655",
+   "Where Cees Nooteboom is from, people speak the language of Q54163",
+   "Where Cees Nooteboom is from, people speak the language of Q1144835",
+   "Where Cees Nooteboom is from, people speak the language of Q3626259",
+   "Where Cees Nooteboom is from, people speak the language of Q30096",
+   "Where Cees Nooteboom is from, people speak the language of Q181725",
+   "Where Cees Nooteboom is from, people speak the language of Q18426",
+   "Where Cees Nooteboom is from, people speak the language of Q4734309",
+   "Where Cees Nooteboom is from, people speak the language of Q823531",
+   "Where Cees Nooteboom is from, people speak the language of Q13210107",
+   "Where Cees Nooteboom is from, people speak the language of Q656",
+   "Where Cees Nooteboom is from, people speak the language of Q1709",
+   "Where Cees Nooteboom is from, people speak the language of Q1492",
+   "Where Cees Nooteboom is from, people speak the language of Q6602",
+   "Where Cees Nooteboom is from, people speak the language of Q1490",
+   "Where Cees Nooteboom is from, people speak the language of Q939529",
+   "Where Cees Nooteboom is from, people speak the language of Q1890931",
+   "Where Cees Nooteboom is from, people speak the language of Q2640897",
+   "Where Cees Nooteboom is from, people speak the language of Q655874",
+   "Where Cees Nooteboom is from, people speak the language of Q40623",
+   "Where Cees Nooteboom is from, people speak the language of Q21711493",
+   "Where Cees Nooteboom is from, people speak the language of Q23360",
+   "Where Cees Nooteboom is from, people speak the language of Q25286",
+   "Where Cees Nooteboom is from, people speak the language of Q963309",
+   "Where Cees Nooteboom is from, people speak the language of Q1761",
+   "Where Cees Nooteboom is from, people speak the language of Q1773",
+   "Where Cees Nooteboom is from, people speak the language of Q18986",
+   "Where Cees Nooteboom is from, people speak the language of Q78",
+   "Where Cees Nooteboom is from, people speak the language of Q11025",
+   "Where Cees Nooteboom is from, people speak the language of Q13375",
+   "Where Cees Nooteboom is from, people speak the language of Q1013549",
+   "Where Cees Nooteboom is from, people speak the language of Q176410",
+   "Where Cees Nooteboom is from, people speak the language of Q584458",
+   "Where Cees Nooteboom is from, people speak the language of Q374745",
+   "Where Cees Nooteboom is from, people speak the language of Q59670",
+   "Where Cees Nooteboom is from, people speak the language of Q62460",
+   "Where Cees Nooteboom is from, people speak the language of Q288082",
+   "Where Cees Nooteboom is from, people speak the language of Q2145988",
+   "Where Cees Nooteboom is from, people speak the language of Q104731",
+   "Where Cees Nooteboom is from, people speak the language of Q1618770",
+   "Where Cees Nooteboom is from, people speak the language of Q24826",
+   "Where Cees Nooteboom is from, people speak the language of Q3846",
+   "Where Cees Nooteboom is from, people speak the language of Q727",
+   "Where Cees Nooteboom is from, people speak the language of Q186234",
+   "Where Cees Nooteboom is from, people speak the language of Q2593038",
+   "Where Cees Nooteboom is from, people speak the language of Q1003286",
+   "Where Cees Nooteboom is from, people speak the language of Q1921452",
+   "Where Cees Nooteboom is from, people speak the language of Q1159513",
+   "Where Cees Nooteboom is from, people speak the language of Q617407",
+   "Where Cees Nooteboom is from, people speak the language of Q140342",
+   "Where Cees Nooteboom is from, people speak the language of Q269476",
+   "Where Cees Nooteboom is from, people speak the language of Q1296",
+   "Where Cees Nooteboom is from, people speak the language of Q1524",
+   "Where Cees Nooteboom is from, people speak the language of Q3138",
+   "Where Cees Nooteboom is from, people speak the language of Q36600",
+   "Where Cees Nooteboom is from, people speak the language of Q985461",
+   "Where Cees Nooteboom is from, people speak the language of Q3150",
+   "Where Cees Nooteboom is from, people speak the language of Q203040",
+   "Where Cees Nooteboom is from, people speak the language of Q4420718",
+   "Where Cees Nooteboom is from, people speak the language of Q564827",
+   "Where Cees Nooteboom is from, people speak the language of Q19272",
+   "Where Cees Nooteboom is from, people speak the language of Q209126",
+   "Where Cees Nooteboom is from, people speak the language of Q2746",
+   "Where Cees Nooteboom is from, people speak the language of Q446314",
+   "Where Cees Nooteboom is from, people speak the language of Q1085",
+   "Where Cees Nooteboom is from, people speak the language of Q7042",
+   "Where Cees Nooteboom is from, people speak the language of Q198190",
+   "Where Cees Nooteboom is from, people speak the language of Q462177",
+   "Where Cees Nooteboom is from, people speak the language of Q1748",
+   "Where Cees Nooteboom is from, people speak the language of Q123709",
+   "Where Cees Nooteboom is from, people speak the language of Q36433",
+   "Where Cees Nooteboom is from, people speak the language of Q1247384",
+   "Where Cees Nooteboom is from, people speak the language of Q1780",
+   "Where Cees Nooteboom is from, people speak the language of Q18125",
+   "Where Cees Nooteboom is from, people speak the language of Q482657",
+   "Where Cees Nooteboom is from, people speak the language of Q31487",
+   "Where Cees Nooteboom is from, people speak the language of Q1005862",
+   "Where Cees Nooteboom is from, people speak the language of Q52098",
+   "Where Cees Nooteboom is from, people speak the language of Q23154",
+   "Where Cees Nooteboom is from, people speak the language of Q1679681",
+   "Where Cees Nooteboom is from, people speak the language of Q123559",
+   "Where Cees Nooteboom is from, people speak the language of Q1799",
+   "Where Cees Nooteboom is from, people speak the language of Q500939",
+   "Where Cees Nooteboom is from, people speak the language of Q41252",
+   "Where Cees Nooteboom is from, people speak the language of nan",
+   "Where Cees Nooteboom is from, people speak the language of Q3923",
+   "Where Cees Nooteboom is from, people speak the language of Q517311",
+   "Where Cees Nooteboom is from, people speak the language of Q49111",
+   "Where Cees Nooteboom is from, people speak the language of Q6366688",
+   "Where Cees Nooteboom is from, people speak the language of Q1490411",
+   "Where Cees Nooteboom is from, people speak the language of Q1415",
+   "Where Cees Nooteboom is from, people speak the language of Q269980",
+   "Where Cees Nooteboom is from, people speak the language of Q156743",
+   "Where Cees Nooteboom is from, people speak the language of Q11736",
+   "Where Cees Nooteboom is from, people speak the language of Q2880",
+   "Where Cees Nooteboom is from, people speak the language of Q3915",
+   "Where Cees Nooteboom is from, people speak the language of Q853324",
+   "Where Cees Nooteboom is from, people speak the language of Q67778",
+   "Where Cees Nooteboom is from, people speak the language of Q649",
+   "Where Cees Nooteboom is from, people speak the language of Q610238",
+   "Where Cees Nooteboom is from, people speak the language of Q4083",
+   "Where Cees Nooteboom is from, people speak the language of Q1754",
+   "Where Cees Nooteboom is from, people speak the language of Q490",
+   "Where Cees Nooteboom is from, people speak the language of Q64",
+   "Where Cees Nooteboom is from, people speak the language of Q18424",
+   "Where Cees Nooteboom is from, people speak the language of Q492538",
+   "Where Cees Nooteboom is from, people speak the language of Q42807",
+   "Where Cees Nooteboom is from, people speak the language of Q84",
+   "Where Cees Nooteboom is from, people speak the language of Q1729",
+   "Where Cees Nooteboom is from, people speak the language of Q1055",
+   "Where Cees Nooteboom is from, people speak the language of Q43509",
+   "Where Cees Nooteboom is from, people speak the language of Q16553",
+   "Where Cees Nooteboom is from, people speak the language of Q54140",
+   "Where Cees Nooteboom is from, people speak the language of Q80484",
+   "Where Cees Nooteboom is from, people speak the language of Q10549787",
+   "Where Cees Nooteboom is from, people speak the language of Q42308",
+   "Where Cees Nooteboom is from, people speak the language of Q33959",
+   "Where Cees Nooteboom is from, people speak the language of Q22741",
+   "Where Cees Nooteboom is from, people speak the language of Q433701",
+   "Where Cees Nooteboom is from, people speak the language of Q2749",
+   "Where Cees Nooteboom is from, people speak the language of Q863832",
+   "Where Cees Nooteboom is from, people speak the language of Q3834",
+   "Where Cees Nooteboom is from, people speak the language of Q106274",
+   "Where Cees Nooteboom is from, people speak the language of Q1779185",
+   "Where Cees Nooteboom is from, people speak the language of Q4518353",
+   "Where Cees Nooteboom is from, people speak the language of Q275731",
+   "Where Cees Nooteboom is from, people speak the language of Q102621",
+   "Where Cees Nooteboom is from, people speak the language of Q4418120",
+   "Where Cees Nooteboom is from, people speak the language of Q891",
+   "Where Cees Nooteboom is from, people speak the language of Q142",
+   "Where Cees Nooteboom is from, people speak the language of Q220",
+   "Where Cees Nooteboom is from, people speak the language of Q1781",
+   "Where Cees Nooteboom is from, people speak the language of Q1794",
+   "Where Cees Nooteboom is from, people speak the language of Q1741",
+   "Where Cees Nooteboom is from, people speak the language of Q966192",
+   "Where Cees Nooteboom is from, people speak the language of Q2711986",
+   "Where Cees Nooteboom is from, people speak the language of Q1781710",
+   "Where Cees Nooteboom is from, people speak the language of Q60",
+   "Where Cees Nooteboom is from, people speak the language of Q173695",
+   "Where Cees Nooteboom is from, people speak the language of Q135572",
+   "Where Cees Nooteboom is from, people speak the language of Q2598",
+   "Where Cees Nooteboom is from, people speak the language of Q192265",
+   "Where Cees Nooteboom is from, people speak the language of Q1792",
+   "Where Cees Nooteboom is from, people speak the language of Q22905",
+   "Where Cees Nooteboom is from, people speak the language of Q5838",
+   "Where Cees Nooteboom is from, people speak the language of Q536598",
+   "Where Cees Nooteboom is from, people speak the language of Q3316008",
+   "Where Cees Nooteboom is from, people speak the language of Q1327770",
+   "Where Cees Nooteboom is from, people speak the language of Q477987",
+   "Where Cees Nooteboom is from, people speak the language of Q551378",
+   "Where Cees Nooteboom is from, people speak the language of Q648432",
+   "Where Cees Nooteboom is from, people speak the language of Q1345",
+   "Where Cees Nooteboom is from, people speak the language of Q1228829",
+   "Where Cees Nooteboom is from, people speak the language of Q797437",
+   "Where Cees Nooteboom is from, people speak the language of Q87",
+   "Where Cees Nooteboom is from, people speak the language of Q157725",
+   "Where Cees Nooteboom is from, people speak the language of Q36036",
+   "Where Cees Nooteboom is from, people speak the language of Q6837",
+   "Where Cees Nooteboom is from, people speak the language of Q1735",
+   "Where Cees Nooteboom is from, people speak the language of Q1711",
+   "Where Cees Nooteboom is from, people speak the language of Q507117",
+   "Where Cees Nooteboom is from, people speak the language of Q2722267",
+   "Where Cees Nooteboom is from, people speak the language of Q13666",
+   "Where Cees Nooteboom is from, people speak the language of Q206988",
+   "Where Cees Nooteboom is from, people speak the language of Q1715",
+   "Where Cees Nooteboom is from, people speak the language of Q265332",
+   "Where Cees Nooteboom is from, people speak the language of Q745594",
+   "Where Cees Nooteboom is from, people speak the language of Q13373",
+   "Where Cees Nooteboom is from, people speak the language of Q725261",
+   "Where Cees Nooteboom is from, people speak the language of Q572595",
+   "Where Cees Nooteboom is from, people speak the language of Q576671",
+   "Where Cees Nooteboom is from, people speak the language of Q2453742",
+   "Where Cees Nooteboom is from, people speak the language of Q7880",
+   "Where Cees Nooteboom is from, people speak the language of Q184163",
+   "Where Cees Nooteboom is from, people speak the language of Q997335",
+   "Where Cees Nooteboom is from, people speak the language of Q26339",
+   "Where Cees Nooteboom is from, people speak the language of Q845623",
+   "Where Cees Nooteboom is from, people speak the language of Q64589",
+   "Where Cees Nooteboom is from, people speak the language of Q1720",
+   "Where Cees Nooteboom is from, people speak the language of Q835831",
+   "Where Cees Nooteboom is from, people speak the language of Q487977",
+   "Where Cees Nooteboom is from, people speak the language of Q2256",
+   "Where Cees Nooteboom is from, people speak the language of Q6346",
+   "Where Cees Nooteboom is from, people speak the language of Q161994",
+   "Where Cees Nooteboom is from, people speak the language of Q34615",
+   "Where Cees Nooteboom is from, people speak the language of Q47554",
+   "Where Cees Nooteboom is from, people speak the language of Q194420",
+   "Where Cees Nooteboom is from, people speak the language of Q197691",
+   "Where Cees Nooteboom is from, people speak the language of Q7027",
+   "Where Cees Nooteboom is from, people speak the language of Q270",
+   "Where Cees Nooteboom is from, people speak the language of Q1828035",
+   "Where Cees Nooteboom is from, people speak the language of Q1022",
+   "Where Cees Nooteboom is from, people speak the language of Q7473516",
+   "Where Cees Nooteboom is from, people speak the language of Q181704",
+   "Where Cees Nooteboom is from, people speak the language of Q72",
+   "Where Cees Nooteboom is from, people speak the language of Q2683",
+   "Where Cees Nooteboom is from, people speak the language of Q467617",
+   "Where Cees Nooteboom is from, people speak the language of Q42168",
+   "Where Cees Nooteboom is from, people speak the language of Q153494",
+   "Where Cees Nooteboom is from, people speak the language of Q13362",
+   "Where Cees Nooteboom is from, people speak the language of Q484552",
+   "Where Cees Nooteboom is from, people speak the language of Q320233",
+   "Where Cees Nooteboom is from, people speak the language of Q1297",
+   "Where Cees Nooteboom is from, people speak the language of Q2865",
+   "Where Cees Nooteboom is from, people speak the language of Q16568",
+   "Where Cees Nooteboom is from, people speak the language of Q4093",
+   "Where Cees Nooteboom is from, people speak the language of Q319397",
+   "Where Cees Nooteboom is from, people speak the language of Q212856",
+   "Where Cees Nooteboom is from, people speak the language of Q90",
+   "Where Cees Nooteboom is from, people speak the language of Q1807458",
+   "Where Cees Nooteboom is from, people speak the language of Q5839",
+   "Where Cees Nooteboom is from, people speak the language of Q2861",
+   "Where Cees Nooteboom is from, people speak the language of Q504875",
+   "Where Cees Nooteboom is from, people speak the language of Q105048",
+   "Where Cees Nooteboom is from, people speak the language of Q3619316",
+   "Where Cees Nooteboom is from, people speak the language of Q287148",
+   "Where Cees Nooteboom is from, people speak the language of Q630668",
+   "Where Cees Nooteboom is from, people speak the language of Q40898",
+   "Where Cees Nooteboom is from, people speak the language of Q734064",
+   "Where Cees Nooteboom is from, people speak the language of Q1537",
+   "Where Cees Nooteboom is from, people speak the language of Q375314",
+   "Cees Nooteboom's mother tongue is Q339182",
+   "Cees Nooteboom's mother tongue is Q43631",
+   "Cees Nooteboom's mother tongue is Q2061870",
+   "Cees Nooteboom's mother tongue is Q25331",
+   "Cees Nooteboom's mother tongue is Q3776576",
+   "Cees Nooteboom's mother tongue is Q81621",
+   "Cees Nooteboom's mother tongue is Q38511",
+   "Cees Nooteboom's mother tongue is Q23436",
+   "Cees Nooteboom's mother tongue is Q627653",
+   "Cees Nooteboom's mother tongue is Q749",
+   "Cees Nooteboom's mother tongue is Q42088",
+   "Cees Nooteboom's mother tongue is Q206687",
+   "Cees Nooteboom's mother tongue is Q18655",
+   "Cees Nooteboom's mother tongue is Q54163",
+   "Cees Nooteboom's mother tongue is Q1144835",
+   "Cees Nooteboom's mother tongue is Q3626259",
+   "Cees Nooteboom's mother tongue is Q30096",
+   "Cees Nooteboom's mother tongue is Q181725",
+   "Cees Nooteboom's mother tongue is Q18426",
+   "Cees Nooteboom's mother tongue is Q4734309",
+   "Cees Nooteboom's mother tongue is Q823531",
+   "Cees Nooteboom's mother tongue is Q13210107",
+   "Cees Nooteboom's mother tongue is Q656",
+   "Cees Nooteboom's mother tongue is Q1709",
+   "Cees Nooteboom's mother tongue is Q1492",
+   "Cees Nooteboom's mother tongue is Q6602",
+   "Cees Nooteboom's mother tongue is Q1490",
+   "Cees Nooteboom's mother tongue is Q939529",
+   "Cees Nooteboom's mother tongue is Q1890931",
+   "Cees Nooteboom's mother tongue is Q2640897",
+   "Cees Nooteboom's mother tongue is Q655874",
+   "Cees Nooteboom's mother tongue is Q40623",
+   "Cees Nooteboom's mother tongue is Q21711493",
+   "Cees Nooteboom's mother tongue is Q23360",
+   "Cees Nooteboom's mother tongue is Q25286",
+   "Cees Nooteboom's mother tongue is Q963309",
+   "Cees Nooteboom's mother tongue is Q1761",
+   "Cees Nooteboom's mother tongue is Q1773",
+   "Cees Nooteboom's mother tongue is Q18986",
+   "Cees Nooteboom's mother tongue is Q78",
+   "Cees Nooteboom's mother tongue is Q11025",
+   "Cees Nooteboom's mother tongue is Q13375",
+   "Cees Nooteboom's mother tongue is Q1013549",
+   "Cees Nooteboom's mother tongue is Q176410",
+   "Cees Nooteboom's mother tongue is Q584458",
+   "Cees Nooteboom's mother tongue is Q374745",
+   "Cees Nooteboom's mother tongue is Q59670",
+   "Cees Nooteboom's mother tongue is Q62460",
+   "Cees Nooteboom's mother tongue is Q288082",
+   "Cees Nooteboom's mother tongue is Q2145988",
+   "Cees Nooteboom's mother tongue is Q104731",
+   "Cees Nooteboom's mother tongue is Q1618770",
+   "Cees Nooteboom's mother tongue is Q24826",
+   "Cees Nooteboom's mother tongue is Q3846",
+   "Cees Nooteboom's mother tongue is Q727",
+   "Cees Nooteboom's mother tongue is Q186234",
+   "Cees Nooteboom's mother tongue is Q2593038",
+   "Cees Nooteboom's mother tongue is Q1003286",
+   "Cees Nooteboom's mother tongue is Q1921452",
+   "Cees Nooteboom's mother tongue is Q1159513",
+   "Cees Nooteboom's mother tongue is Q617407",
+   "Cees Nooteboom's mother tongue is Q140342",
+   "Cees Nooteboom's mother tongue is Q269476",
+   "Cees Nooteboom's mother tongue is Q1296",
+   "Cees Nooteboom's mother tongue is Q1524",
+   "Cees Nooteboom's mother tongue is Q3138",
+   "Cees Nooteboom's mother tongue is Q36600",
+   "Cees Nooteboom's mother tongue is Q985461",
+   "Cees Nooteboom's mother tongue is Q3150",
+   "Cees Nooteboom's mother tongue is Q203040",
+   "Cees Nooteboom's mother tongue is Q4420718",
+   "Cees Nooteboom's mother tongue is Q564827",
+   "Cees Nooteboom's mother tongue is Q19272",
+   "Cees Nooteboom's mother tongue is Q209126",
+   "Cees Nooteboom's mother tongue is Q2746",
+   "Cees Nooteboom's mother tongue is Q446314",
+   "Cees Nooteboom's mother tongue is Q1085",
+   "Cees Nooteboom's mother tongue is Q7042",
+   "Cees Nooteboom's mother tongue is Q198190",
+   "Cees Nooteboom's mother tongue is Q462177",
+   "Cees Nooteboom's mother tongue is Q1748",
+   "Cees Nooteboom's mother tongue is Q123709",
+   "Cees Nooteboom's mother tongue is Q36433",
+   "Cees Nooteboom's mother tongue is Q1247384",
+   "Cees Nooteboom's mother tongue is Q1780",
+   "Cees Nooteboom's mother tongue is Q18125",
+   "Cees Nooteboom's mother tongue is Q482657",
+   "Cees Nooteboom's mother tongue is Q31487",
+   "Cees Nooteboom's mother tongue is Q1005862",
+   "Cees Nooteboom's mother tongue is Q52098",
+   "Cees Nooteboom's mother tongue is Q23154",
+   "Cees Nooteboom's mother tongue is Q1679681",
+   "Cees Nooteboom's mother tongue is Q123559",
+   "Cees Nooteboom's mother tongue is Q1799",
+   "Cees Nooteboom's mother tongue is Q500939",
+   "Cees Nooteboom's mother tongue is Q41252",
+   "Cees Nooteboom's mother tongue is nan",
+   "Cees Nooteboom's mother tongue is Q3923",
+   "Cees Nooteboom's mother tongue is Q517311",
+   "Cees Nooteboom's mother tongue is Q49111",
+   "Cees Nooteboom's mother tongue is Q6366688",
+   "Cees Nooteboom's mother tongue is Q1490411",
+   "Cees Nooteboom's mother tongue is Q1415",
+   "Cees Nooteboom's mother tongue is Q269980",
+   "Cees Nooteboom's mother tongue is Q156743",
+   "Cees Nooteboom's mother tongue is Q11736",
+   "Cees Nooteboom's mother tongue is Q2880",
+   "Cees Nooteboom's mother tongue is Q3915",
+   "Cees Nooteboom's mother tongue is Q853324",
+   "Cees Nooteboom's mother tongue is Q67778",
+   "Cees Nooteboom's mother tongue is Q649",
+   "Cees Nooteboom's mother tongue is Q610238",
+   "Cees Nooteboom's mother tongue is Q4083",
+   "Cees Nooteboom's mother tongue is Q1754",
+   "Cees Nooteboom's mother tongue is Q490",
+   "Cees Nooteboom's mother tongue is Q64",
+   "Cees Nooteboom's mother tongue is Q18424",
+   "Cees Nooteboom's mother tongue is Q492538",
+   "Cees Nooteboom's mother tongue is Q42807",
+   "Cees Nooteboom's mother tongue is Q84",
+   "Cees Nooteboom's mother tongue is Q1729",
+   "Cees Nooteboom's mother tongue is Q1055",
+   "Cees Nooteboom's mother tongue is Q43509",
+   "Cees Nooteboom's mother tongue is Q16553",
+   "Cees Nooteboom's mother tongue is Q54140",
+   "Cees Nooteboom's mother tongue is Q80484",
+   "Cees Nooteboom's mother tongue is Q10549787",
+   "Cees Nooteboom's mother tongue is Q42308",
+   "Cees Nooteboom's mother tongue is Q33959",
+   "Cees Nooteboom's mother tongue is Q22741",
+   "Cees Nooteboom's mother tongue is Q433701",
+   "Cees Nooteboom's mother tongue is Q2749",
+   "Cees Nooteboom's mother tongue is Q863832",
+   "Cees Nooteboom's mother tongue is Q3834",
+   "Cees Nooteboom's mother tongue is Q106274",
+   "Cees Nooteboom's mother tongue is Q1779185",
+   "Cees Nooteboom's mother tongue is Q4518353",
+   "Cees Nooteboom's mother tongue is Q275731",
+   "Cees Nooteboom's mother tongue is Q102621",
+   "Cees Nooteboom's mother tongue is Q4418120",
+   "Cees Nooteboom's mother tongue is Q891",
+   "Cees Nooteboom's mother tongue is Q142",
+   "Cees Nooteboom's mother tongue is Q220",
+   "Cees Nooteboom's mother tongue is Q1781",
+   "Cees Nooteboom's mother tongue is Q1794",
+   "Cees Nooteboom's mother tongue is Q1741",
+   "Cees Nooteboom's mother tongue is Q966192",
+   "Cees Nooteboom's mother tongue is Q2711986",
+   "Cees Nooteboom's mother tongue is Q1781710",
+   "Cees Nooteboom's mother tongue is Q60",
+   "Cees Nooteboom's mother tongue is Q173695",
+   "Cees Nooteboom's mother tongue is Q135572",
+   "Cees Nooteboom's mother tongue is Q2598",
+   "Cees Nooteboom's mother tongue is Q192265",
+   "Cees Nooteboom's mother tongue is Q1792",
+   "Cees Nooteboom's mother tongue is Q22905",
+   "Cees Nooteboom's mother tongue is Q5838",
+   "Cees Nooteboom's mother tongue is Q536598",
+   "Cees Nooteboom's mother tongue is Q3316008",
+   "Cees Nooteboom's mother tongue is Q1327770",
+   "Cees Nooteboom's mother tongue is Q477987",
+   "Cees Nooteboom's mother tongue is Q551378",
+   "Cees Nooteboom's mother tongue is Q648432",
+   "Cees Nooteboom's mother tongue is Q1345",
+   "Cees Nooteboom's mother tongue is Q1228829",
+   "Cees Nooteboom's mother tongue is Q797437",
+   "Cees Nooteboom's mother tongue is Q87",
+   "Cees Nooteboom's mother tongue is Q157725",
+   "Cees Nooteboom's mother tongue is Q36036",
+   "Cees Nooteboom's mother tongue is Q6837",
+   "Cees Nooteboom's mother tongue is Q1735",
+   "Cees Nooteboom's mother tongue is Q1711",
+   "Cees Nooteboom's mother tongue is Q507117",
+   "Cees Nooteboom's mother tongue is Q2722267",
+   "Cees Nooteboom's mother tongue is Q13666",
+   "Cees Nooteboom's mother tongue is Q206988",
+   "Cees Nooteboom's mother tongue is Q1715",
+   "Cees Nooteboom's mother tongue is Q265332",
+   "Cees Nooteboom's mother tongue is Q745594",
+   "Cees Nooteboom's mother tongue is Q13373",
+   "Cees Nooteboom's mother tongue is Q725261",
+   "Cees Nooteboom's mother tongue is Q572595",
+   "Cees Nooteboom's mother tongue is Q576671",
+   "Cees Nooteboom's mother tongue is Q2453742",
+   "Cees Nooteboom's mother tongue is Q7880",
+   "Cees Nooteboom's mother tongue is Q184163",
+   "Cees Nooteboom's mother tongue is Q997335",
+   "Cees Nooteboom's mother tongue is Q26339",
+   "Cees Nooteboom's mother tongue is Q845623",
+   "Cees Nooteboom's mother tongue is Q64589",
+   "Cees Nooteboom's mother tongue is Q1720",
+   "Cees Nooteboom's mother tongue is Q835831",
+   "Cees Nooteboom's mother tongue is Q487977",
+   "Cees Nooteboom's mother tongue is Q2256",
+   "Cees Nooteboom's mother tongue is Q6346",
+   "Cees Nooteboom's mother tongue is Q161994",
+   "Cees Nooteboom's mother tongue is Q34615",
+   "Cees Nooteboom's mother tongue is Q47554",
+   "Cees Nooteboom's mother tongue is Q194420",
+   "Cees Nooteboom's mother tongue is Q197691",
+   "Cees Nooteboom's mother tongue is Q7027",
+   "Cees Nooteboom's mother tongue is Q270",
+   "Cees Nooteboom's mother tongue is Q1828035",
+   "Cees Nooteboom's mother tongue is Q1022",
+   "Cees Nooteboom's mother tongue is Q7473516",
+   "Cees Nooteboom's mother tongue is Q181704",
+   "Cees Nooteboom's mother tongue is Q72",
+   "Cees Nooteboom's mother tongue is Q2683",
+   "Cees Nooteboom's mother tongue is Q467617",
+   "Cees Nooteboom's mother tongue is Q42168",
+   "Cees Nooteboom's mother tongue is Q153494",
+   "Cees Nooteboom's mother tongue is Q13362",
+   "Cees Nooteboom's mother tongue is Q484552",
+   "Cees Nooteboom's mother tongue is Q320233",
+   "Cees Nooteboom's mother tongue is Q1297",
+   "Cees Nooteboom's mother tongue is Q2865",
+   "Cees Nooteboom's mother tongue is Q16568",
+   "Cees Nooteboom's mother tongue is Q4093",
+   "Cees Nooteboom's mother tongue is Q319397",
+   "Cees Nooteboom's mother tongue is Q212856",
+   "Cees Nooteboom's mother tongue is Q90",
+   "Cees Nooteboom's mother tongue is Q1807458",
+   "Cees Nooteboom's mother tongue is Q5839",
+   "Cees Nooteboom's mother tongue is Q2861",
+   "Cees Nooteboom's mother tongue is Q504875",
+   "Cees Nooteboom's mother tongue is Q105048",
+   "Cees Nooteboom's mother tongue is Q3619316",
+   "Cees Nooteboom's mother tongue is Q287148",
+   "Cees Nooteboom's mother tongue is Q630668",
+   "Cees Nooteboom's mother tongue is Q40898",
+   "Cees Nooteboom's mother tongue is Q734064",
+   "Cees Nooteboom's mother tongue is Q1537",
+   "Cees Nooteboom's mother tongue is Q375314"
+  ],
+  [
+   [
+    -59.45390319824219
+   ],
+   [
+    -58.22358322143555
+   ],
+   [
+    -62.07745361328125
+   ],
+   [
+    -55.11842346191406
+   ],
+   [
+    -62.217926025390625
+   ],
+   [
+    -56.7819709777832
+   ],
+   [
+    -57.528236389160156
+   ],
+   [
+    -55.8187255859375
+   ],
+   [
+    -59.07981872558594
+   ],
+   [
+    -49.62363052368164
+   ],
+   [
+    -58.2411994934082
+   ],
+   [
+    -59.51482009887695
+   ],
+   [
+    -57.62568664550781
+   ],
+   [
+    -54.877662658691406
+   ],
+   [
+    -59.064876556396484
+   ],
+   [
+    -62.63478469848633
+   ],
+   [
+    -56.44773864746094
+   ],
+   [
+    -56.901756286621094
+   ],
+   [
+    -57.84516143798828
+   ],
+   [
+    -63.50032424926758
+   ],
+   [
+    -59.03498840332031
+   ],
+   [
+    -61.93143081665039
+   ],
+   [
+    -51.00522994995117
+   ],
+   [
+    -49.970924377441406
+   ],
+   [
+    -50.517005920410156
+   ],
+   [
+    -54.03887939453125
+   ],
+   [
+    -50.50929641723633
+   ],
+   [
+    -58.310028076171875
+   ],
+   [
+    -62.45389938354492
+   ],
+   [
+    -60.093711853027344
+   ],
+   [
+    -59.34794616699219
+   ],
+   [
+    -59.17872619628906
+   ],
+   [
+    -62.82342529296875
+   ],
+   [
+    -56.615264892578125
+   ],
+   [
+    -54.668434143066406
+   ],
+   [
+    -58.9373779296875
+   ],
+   [
+    -50.297550201416016
+   ],
+   [
+    -49.5573616027832
+   ],
+   [
+    -55.810707092285156
+   ],
+   [
+    -46.573036193847656
+   ],
+   [
+    -53.451595306396484
+   ],
+   [
+    -53.47967529296875
+   ],
+   [
+    -60.09597396850586
+   ],
+   [
+    -56.72525405883789
+   ],
+   [
+    -57.66618347167969
+   ],
+   [
+    -58.951393127441406
+   ],
+   [
+    -55.02187728881836
+   ],
+   [
+    -56.195579528808594
+   ],
+   [
+    -57.73283767700195
+   ],
+   [
+    -60.49136734008789
+   ],
+   [
+    -57.07269287109375
+   ],
+   [
+    -59.430999755859375
+   ],
+   [
+    -55.25209045410156
+   ],
+   [
+    -53.70156478881836
+   ],
+   [
+    -49.762657165527344
+   ],
+   [
+    -59.797264099121094
+   ],
+   [
+    -60.23005676269531
+   ],
+   [
+    -58.804969787597656
+   ],
+   [
+    -65.91422271728516
+   ],
+   [
+    -58.5357780456543
+   ],
+   [
+    -58.71347427368164
+   ],
+   [
+    -57.08075714111328
+   ],
+   [
+    -57.3424072265625
+   ],
+   [
+    -50.91569519042969
+   ],
+   [
+    -50.73122024536133
+   ],
+   [
+    -52.51702880859375
+   ],
+   [
+    -56.732364654541016
+   ],
+   [
+    -58.97997283935547
+   ],
+   [
+    -52.36885452270508
+   ],
+   [
+    -58.16563415527344
+   ],
+   [
+    -64.27519989013672
+   ],
+   [
+    -57.680477142333984
+   ],
+   [
+    -58.5462646484375
+   ],
+   [
+    -59.165245056152344
+   ],
+   [
+    -51.93708038330078
+   ],
+   [
+    -61.57734680175781
+   ],
+   [
+    -50.57805633544922
+   ],
+   [
+    -52.626708984375
+   ],
+   [
+    -58.95256042480469
+   ],
+   [
+    -61.55791091918945
+   ],
+   [
+    -50.13934326171875
+   ],
+   [
+    -57.746036529541016
+   ],
+   [
+    -56.88684844970703
+   ],
+   [
+    -59.98577117919922
+   ],
+   [
+    -49.4907341003418
+   ],
+   [
+    -53.98191452026367
+   ],
+   [
+    -61.91816711425781
+   ],
+   [
+    -55.82477569580078
+   ],
+   [
+    -59.50956344604492
+   ],
+   [
+    -55.148685455322266
+   ],
+   [
+    -55.59696578979492
+   ],
+   [
+    -60.627418518066406
+   ],
+   [
+    -57.131019592285156
+   ],
+   [
+    -49.474517822265625
+   ],
+   [
+    -57.73382568359375
+   ],
+   [
+    -56.563026428222656
+   ],
+   [
+    -36.44312286376953
+   ],
+   [
+    -53.45262145996094
+   ],
+   [
+    -57.5837287902832
+   ],
+   [
+    -58.37604522705078
+   ],
+   [
+    -61.841312408447266
+   ],
+   [
+    -59.820518493652344
+   ],
+   [
+    -50.57283401489258
+   ],
+   [
+    -57.816551208496094
+   ],
+   [
+    -57.34050369262695
+   ],
+   [
+    -52.92832946777344
+   ],
+   [
+    -51.76298522949219
+   ],
+   [
+    -53.299171447753906
+   ],
+   [
+    -58.62432861328125
+   ],
+   [
+    -56.383567810058594
+   ],
+   [
+    -50.174556732177734
+   ],
+   [
+    -58.654624938964844
+   ],
+   [
+    -54.554344177246094
+   ],
+   [
+    -50.088478088378906
+   ],
+   [
+    -50.81556701660156
+   ],
+   [
+    -46.66658020019531
+   ],
+   [
+    -57.67082214355469
+   ],
+   [
+    -61.833030700683594
+   ],
+   [
+    -58.24279022216797
+   ],
+   [
+    -46.54339599609375
+   ],
+   [
+    -50.55892562866211
+   ],
+   [
+    -50.75843811035156
+   ],
+   [
+    -57.88056564331055
+   ],
+   [
+    -55.58799743652344
+   ],
+   [
+    -54.89305877685547
+   ],
+   [
+    -56.42388916015625
+   ],
+   [
+    -62.0
+   ],
+   [
+    -58.15240478515625
+   ],
+   [
+    -55.65222930908203
+   ],
+   [
+    -54.93476104736328
+   ],
+   [
+    -60.37230682373047
+   ],
+   [
+    -51.76765060424805
+   ],
+   [
+    -58.73929977416992
+   ],
+   [
+    -54.07276153564453
+   ],
+   [
+    -57.87432861328125
+   ],
+   [
+    -59.437599182128906
+   ],
+   [
+    -63.5394287109375
+   ],
+   [
+    -57.91984176635742
+   ],
+   [
+    -57.3448371887207
+   ],
+   [
+    -64.05158233642578
+   ],
+   [
+    -50.228858947753906
+   ],
+   [
+    -47.76179504394531
+   ],
+   [
+    -48.12273406982422
+   ],
+   [
+    -49.534095764160156
+   ],
+   [
+    -49.775856018066406
+   ],
+   [
+    -50.27573776245117
+   ],
+   [
+    -59.026954650878906
+   ],
+   [
+    -59.64594268798828
+   ],
+   [
+    -59.35845184326172
+   ],
+   [
+    -46.57680892944336
+   ],
+   [
+    -56.70799255371094
+   ],
+   [
+    -56.84022521972656
+   ],
+   [
+    -51.45834732055664
+   ],
+   [
+    -61.99788284301758
+   ],
+   [
+    -49.79570770263672
+   ],
+   [
+    -54.86528396606445
+   ],
+   [
+    -52.78317642211914
+   ],
+   [
+    -57.17765808105469
+   ],
+   [
+    -62.463294982910156
+   ],
+   [
+    -59.623870849609375
+   ],
+   [
+    -60.250370025634766
+   ],
+   [
+    -57.531375885009766
+   ],
+   [
+    -58.44773483276367
+   ],
+   [
+    -49.99111557006836
+   ],
+   [
+    -59.437904357910156
+   ],
+   [
+    -57.40561294555664
+   ],
+   [
+    -46.261940002441406
+   ],
+   [
+    -56.557193756103516
+   ],
+   [
+    -57.29627227783203
+   ],
+   [
+    -53.98445510864258
+   ],
+   [
+    -50.43208312988281
+   ],
+   [
+    -50.07314682006836
+   ],
+   [
+    -57.52024841308594
+   ],
+   [
+    -60.16685485839844
+   ],
+   [
+    -54.358848571777344
+   ],
+   [
+    -58.970489501953125
+   ],
+   [
+    -50.31882095336914
+   ],
+   [
+    -57.883941650390625
+   ],
+   [
+    -57.324798583984375
+   ],
+   [
+    -53.72473907470703
+   ],
+   [
+    -57.524574279785156
+   ],
+   [
+    -57.408912658691406
+   ],
+   [
+    -57.43023681640625
+   ],
+   [
+    -60.70349884033203
+   ],
+   [
+    -52.72488784790039
+   ],
+   [
+    -60.544795989990234
+   ],
+   [
+    -59.000999450683594
+   ],
+   [
+    -54.916908264160156
+   ],
+   [
+    -58.49111557006836
+   ],
+   [
+    -55.99824523925781
+   ],
+   [
+    -50.19826889038086
+   ],
+   [
+    -58.97370147705078
+   ],
+   [
+    -61.1624870300293
+   ],
+   [
+    -51.644412994384766
+   ],
+   [
+    -53.528804779052734
+   ],
+   [
+    -56.14323043823242
+   ],
+   [
+    -56.78227233886719
+   ],
+   [
+    -57.994590759277344
+   ],
+   [
+    -57.78913116455078
+   ],
+   [
+    -59.604164123535156
+   ],
+   [
+    -52.64881134033203
+   ],
+   [
+    -48.616458892822266
+   ],
+   [
+    -60.935813903808594
+   ],
+   [
+    -50.78316116333008
+   ],
+   [
+    -59.603965759277344
+   ],
+   [
+    -57.10090637207031
+   ],
+   [
+    -46.538352966308594
+   ],
+   [
+    -52.01408004760742
+   ],
+   [
+    -61.35606384277344
+   ],
+   [
+    -58.98882293701172
+   ],
+   [
+    -56.754371643066406
+   ],
+   [
+    -54.12773895263672
+   ],
+   [
+    -61.39399719238281
+   ],
+   [
+    -58.612892150878906
+   ],
+   [
+    -50.88062286376953
+   ],
+   [
+    -51.81671142578125
+   ],
+   [
+    -55.30354690551758
+   ],
+   [
+    -54.617210388183594
+   ],
+   [
+    -56.875640869140625
+   ],
+   [
+    -57.810577392578125
+   ],
+   [
+    -46.4703483581543
+   ],
+   [
+    -61.440269470214844
+   ],
+   [
+    -52.68581008911133
+   ],
+   [
+    -51.85550308227539
+   ],
+   [
+    -57.622596740722656
+   ],
+   [
+    -58.35381317138672
+   ],
+   [
+    -63.49114227294922
+   ],
+   [
+    -57.67535400390625
+   ],
+   [
+    -58.692298889160156
+   ],
+   [
+    -58.75912857055664
+   ],
+   [
+    -57.882476806640625
+   ],
+   [
+    -50.64518356323242
+   ],
+   [
+    -59.300376892089844
+   ],
+   [
+    -79.54515838623047
+   ],
+   [
+    -77.50048828125
+   ],
+   [
+    -82.4183349609375
+   ],
+   [
+    -73.44682312011719
+   ],
+   [
+    -83.12748718261719
+   ],
+   [
+    -78.95939636230469
+   ],
+   [
+    -76.81806945800781
+   ],
+   [
+    -74.7269287109375
+   ],
+   [
+    -81.30032348632812
+   ],
+   [
+    -71.71977233886719
+   ],
+   [
+    -77.4454345703125
+   ],
+   [
+    -81.00143432617188
+   ],
+   [
+    -76.7822265625
+   ],
+   [
+    -77.60258483886719
+   ],
+   [
+    -83.27285766601562
+   ],
+   [
+    -82.942626953125
+   ],
+   [
+    -76.95259857177734
+   ],
+   [
+    -79.33330535888672
+   ],
+   [
+    -76.67515563964844
+   ],
+   [
+    -83.62986755371094
+   ],
+   [
+    -80.76677703857422
+   ],
+   [
+    -84.27831268310547
+   ],
+   [
+    -74.18623352050781
+   ],
+   [
+    -73.11163330078125
+   ],
+   [
+    -73.85026550292969
+   ],
+   [
+    -75.57025146484375
+   ],
+   [
+    -73.89022827148438
+   ],
+   [
+    -80.71705627441406
+   ],
+   [
+    -82.02378845214844
+   ],
+   [
+    -82.9735107421875
+   ],
+   [
+    -82.44202423095703
+   ],
+   [
+    -79.2783203125
+   ],
+   [
+    -85.42695617675781
+   ],
+   [
+    -71.79090881347656
+   ],
+   [
+    -76.01724243164062
+   ],
+   [
+    -80.4756851196289
+   ],
+   [
+    -73.55332946777344
+   ],
+   [
+    -72.78118133544922
+   ],
+   [
+    -77.46380615234375
+   ],
+   [
+    -68.00816345214844
+   ],
+   [
+    -77.18421936035156
+   ],
+   [
+    -75.13228607177734
+   ],
+   [
+    -81.22276306152344
+   ],
+   [
+    -79.13204193115234
+   ],
+   [
+    -80.85700988769531
+   ],
+   [
+    -80.09638977050781
+   ],
+   [
+    -78.16902923583984
+   ],
+   [
+    -78.38835144042969
+   ],
+   [
+    -79.94244384765625
+   ],
+   [
+    -82.71638488769531
+   ],
+   [
+    -79.34703826904297
+   ],
+   [
+    -82.41796112060547
+   ],
+   [
+    -76.7364730834961
+   ],
+   [
+    -75.31306457519531
+   ],
+   [
+    -71.76278686523438
+   ],
+   [
+    -79.47225952148438
+   ],
+   [
+    -81.64053344726562
+   ],
+   [
+    -82.39068603515625
+   ],
+   [
+    -82.49694061279297
+   ],
+   [
+    -82.39776611328125
+   ],
+   [
+    -82.12511444091797
+   ],
+   [
+    -79.956298828125
+   ],
+   [
+    -79.55802917480469
+   ],
+   [
+    -73.94123840332031
+   ],
+   [
+    -74.26211547851562
+   ],
+   [
+    -74.59104919433594
+   ],
+   [
+    -77.18984985351562
+   ],
+   [
+    -81.00529479980469
+   ],
+   [
+    -73.09385681152344
+   ],
+   [
+    -79.940673828125
+   ],
+   [
+    -84.23977661132812
+   ],
+   [
+    -80.59214782714844
+   ],
+   [
+    -77.08518981933594
+   ],
+   [
+    -79.48739624023438
+   ],
+   [
+    -73.51141357421875
+   ],
+   [
+    -81.47354125976562
+   ],
+   [
+    -72.51690673828125
+   ],
+   [
+    -74.92935943603516
+   ],
+   [
+    -81.19927978515625
+   ],
+   [
+    -82.22065734863281
+   ],
+   [
+    -73.6993637084961
+   ],
+   [
+    -79.19219970703125
+   ],
+   [
+    -77.84622192382812
+   ],
+   [
+    -82.21511840820312
+   ],
+   [
+    -73.51143646240234
+   ],
+   [
+    -76.26705932617188
+   ],
+   [
+    -81.53276062011719
+   ],
+   [
+    -77.78813171386719
+   ],
+   [
+    -81.5819320678711
+   ],
+   [
+    -78.05780029296875
+   ],
+   [
+    -75.48859405517578
+   ],
+   [
+    -81.89506530761719
+   ],
+   [
+    -78.51753997802734
+   ],
+   [
+    -73.27597045898438
+   ],
+   [
+    -78.47772216796875
+   ],
+   [
+    -78.28013610839844
+   ],
+   [
+    -57.585243225097656
+   ],
+   [
+    -73.93724060058594
+   ],
+   [
+    -80.7322998046875
+   ],
+   [
+    -78.011474609375
+   ],
+   [
+    -84.67729187011719
+   ],
+   [
+    -82.52482604980469
+   ],
+   [
+    -73.3266372680664
+   ],
+   [
+    -79.99168395996094
+   ],
+   [
+    -79.2100830078125
+   ],
+   [
+    -77.18917846679688
+   ],
+   [
+    -73.95875549316406
+   ],
+   [
+    -73.41749572753906
+   ],
+   [
+    -80.20623779296875
+   ],
+   [
+    -79.06105041503906
+   ],
+   [
+    -72.83314514160156
+   ],
+   [
+    -81.43000793457031
+   ],
+   [
+    -76.03755187988281
+   ],
+   [
+    -73.46365356445312
+   ],
+   [
+    -71.91353607177734
+   ],
+   [
+    -67.23504638671875
+   ],
+   [
+    -76.91563415527344
+   ],
+   [
+    -82.23294067382812
+   ],
+   [
+    -78.45982360839844
+   ],
+   [
+    -68.08219909667969
+   ],
+   [
+    -73.56651306152344
+   ],
+   [
+    -72.1123275756836
+   ],
+   [
+    -77.09376525878906
+   ],
+   [
+    -76.98350524902344
+   ],
+   [
+    -77.35063171386719
+   ],
+   [
+    -78.13023376464844
+   ],
+   [
+    -84.45291900634766
+   ],
+   [
+    -78.35316467285156
+   ],
+   [
+    -76.58152770996094
+   ],
+   [
+    -76.14005279541016
+   ],
+   [
+    -80.0267333984375
+   ],
+   [
+    -73.56216430664062
+   ],
+   [
+    -81.71723937988281
+   ],
+   [
+    -74.87406921386719
+   ],
+   [
+    -79.57910919189453
+   ],
+   [
+    -82.34635162353516
+   ],
+   [
+    -84.16793823242188
+   ],
+   [
+    -78.37454986572266
+   ],
+   [
+    -79.29747009277344
+   ],
+   [
+    -83.7485580444336
+   ],
+   [
+    -71.83970642089844
+   ],
+   [
+    -70.48377227783203
+   ],
+   [
+    -68.63163757324219
+   ],
+   [
+    -73.47171020507812
+   ],
+   [
+    -73.10912322998047
+   ],
+   [
+    -73.5087890625
+   ],
+   [
+    -80.87742614746094
+   ],
+   [
+    -81.7434310913086
+   ],
+   [
+    -82.14372253417969
+   ],
+   [
+    -67.24237060546875
+   ],
+   [
+    -79.42901611328125
+   ],
+   [
+    -78.50917053222656
+   ],
+   [
+    -74.11253356933594
+   ],
+   [
+    -79.8750991821289
+   ],
+   [
+    -73.25669860839844
+   ],
+   [
+    -76.25565338134766
+   ],
+   [
+    -75.36770629882812
+   ],
+   [
+    -80.88725280761719
+   ],
+   [
+    -81.81591796875
+   ],
+   [
+    -81.72017669677734
+   ],
+   [
+    -81.32252502441406
+   ],
+   [
+    -80.79829406738281
+   ],
+   [
+    -81.55633544921875
+   ],
+   [
+    -70.87319946289062
+   ],
+   [
+    -82.14961242675781
+   ],
+   [
+    -80.01314544677734
+   ],
+   [
+    -67.55075073242188
+   ],
+   [
+    -79.85655212402344
+   ],
+   [
+    -76.63909149169922
+   ],
+   [
+    -75.79476928710938
+   ],
+   [
+    -73.22151184082031
+   ],
+   [
+    -72.8828125
+   ],
+   [
+    -80.61856079101562
+   ],
+   [
+    -81.85770416259766
+   ],
+   [
+    -76.22108459472656
+   ],
+   [
+    -80.03605651855469
+   ],
+   [
+    -73.38906860351562
+   ],
+   [
+    -80.1247787475586
+   ],
+   [
+    -79.70828247070312
+   ],
+   [
+    -75.15011596679688
+   ],
+   [
+    -80.29899597167969
+   ],
+   [
+    -80.77395629882812
+   ],
+   [
+    -81.09858703613281
+   ],
+   [
+    -79.65742492675781
+   ],
+   [
+    -74.8387451171875
+   ],
+   [
+    -79.11787414550781
+   ],
+   [
+    -81.37416076660156
+   ],
+   [
+    -76.48963928222656
+   ],
+   [
+    -81.60818481445312
+   ],
+   [
+    -78.66645812988281
+   ],
+   [
+    -73.19845581054688
+   ],
+   [
+    -81.53459167480469
+   ],
+   [
+    -81.75846099853516
+   ],
+   [
+    -72.57893371582031
+   ],
+   [
+    -75.56561279296875
+   ],
+   [
+    -79.41419982910156
+   ],
+   [
+    -77.04104614257812
+   ],
+   [
+    -77.80078887939453
+   ],
+   [
+    -80.68154907226562
+   ],
+   [
+    -80.59842681884766
+   ],
+   [
+    -75.05036926269531
+   ],
+   [
+    -69.76789855957031
+   ],
+   [
+    -81.89053344726562
+   ],
+   [
+    -73.14431762695312
+   ],
+   [
+    -82.12816619873047
+   ],
+   [
+    -79.09375
+   ],
+   [
+    -68.16844177246094
+   ],
+   [
+    -74.4398193359375
+   ],
+   [
+    -82.63162994384766
+   ],
+   [
+    -78.76321411132812
+   ],
+   [
+    -79.77584838867188
+   ],
+   [
+    -76.25627136230469
+   ],
+   [
+    -81.93658447265625
+   ],
+   [
+    -79.98114013671875
+   ],
+   [
+    -73.90843200683594
+   ],
+   [
+    -74.43173217773438
+   ],
+   [
+    -77.022705078125
+   ],
+   [
+    -75.45565032958984
+   ],
+   [
+    -80.01703643798828
+   ],
+   [
+    -79.17994689941406
+   ],
+   [
+    -67.70951843261719
+   ],
+   [
+    -82.02664947509766
+   ],
+   [
+    -75.28398132324219
+   ],
+   [
+    -74.470947265625
+   ],
+   [
+    -80.13858795166016
+   ],
+   [
+    -79.73825073242188
+   ],
+   [
+    -83.67829132080078
+   ],
+   [
+    -80.07960510253906
+   ],
+   [
+    -81.61824035644531
+   ],
+   [
+    -79.94547271728516
+   ],
+   [
+    -80.79924011230469
+   ],
+   [
+    -73.95491027832031
+   ],
+   [
+    -78.22151184082031
+   ],
+   [
+    -64.38762664794922
+   ],
+   [
+    -65.02052307128906
+   ],
+   [
+    -67.41131591796875
+   ],
+   [
+    -61.229164123535156
+   ],
+   [
+    -66.84549713134766
+   ],
+   [
+    -65.36028289794922
+   ],
+   [
+    -61.74448776245117
+   ],
+   [
+    -61.24766540527344
+   ],
+   [
+    -67.84515380859375
+   ],
+   [
+    -59.72002410888672
+   ],
+   [
+    -64.9692153930664
+   ],
+   [
+    -65.09510803222656
+   ],
+   [
+    -61.661922454833984
+   ],
+   [
+    -64.72821044921875
+   ],
+   [
+    -66.26710510253906
+   ],
+   [
+    -67.02745819091797
+   ],
+   [
+    -61.043609619140625
+   ],
+   [
+    -63.85643005371094
+   ],
+   [
+    -61.70267105102539
+   ],
+   [
+    -69.77470397949219
+   ],
+   [
+    -67.90367889404297
+   ],
+   [
+    -69.53985595703125
+   ],
+   [
+    -59.83730697631836
+   ],
+   [
+    -58.89353942871094
+   ],
+   [
+    -58.78155517578125
+   ],
+   [
+    -62.87586975097656
+   ],
+   [
+    -58.83763122558594
+   ],
+   [
+    -67.59342193603516
+   ],
+   [
+    -66.67890167236328
+   ],
+   [
+    -66.85221862792969
+   ],
+   [
+    -67.8156509399414
+   ],
+   [
+    -65.9432373046875
+   ],
+   [
+    -68.70970916748047
+   ],
+   [
+    -59.157684326171875
+   ],
+   [
+    -61.35285186767578
+   ],
+   [
+    -67.79660034179688
+   ],
+   [
+    -59.04792785644531
+   ],
+   [
+    -59.20258331298828
+   ],
+   [
+    -61.82020568847656
+   ],
+   [
+    -57.055152893066406
+   ],
+   [
+    -60.84634017944336
+   ],
+   [
+    -61.358978271484375
+   ],
+   [
+    -66.17315673828125
+   ],
+   [
+    -63.879600524902344
+   ],
+   [
+    -67.5306167602539
+   ],
+   [
+    -64.14596557617188
+   ],
+   [
+    -64.6956558227539
+   ],
+   [
+    -64.97332763671875
+   ],
+   [
+    -65.04786682128906
+   ],
+   [
+    -66.78762817382812
+   ],
+   [
+    -63.81071090698242
+   ],
+   [
+    -66.63311004638672
+   ],
+   [
+    -61.8947639465332
+   ],
+   [
+    -59.596893310546875
+   ],
+   [
+    -59.938323974609375
+   ],
+   [
+    -64.38772583007812
+   ],
+   [
+    -66.65997314453125
+   ],
+   [
+    -66.97467803955078
+   ],
+   [
+    -66.49213409423828
+   ],
+   [
+    -65.88922119140625
+   ],
+   [
+    -67.74803161621094
+   ],
+   [
+    -63.92903518676758
+   ],
+   [
+    -64.11237335205078
+   ],
+   [
+    -58.76068115234375
+   ],
+   [
+    -58.938758850097656
+   ],
+   [
+    -59.151466369628906
+   ],
+   [
+    -62.246620178222656
+   ],
+   [
+    -68.2235107421875
+   ],
+   [
+    -58.93937683105469
+   ],
+   [
+    -64.4472885131836
+   ],
+   [
+    -70.38249206542969
+   ],
+   [
+    -67.3644027709961
+   ],
+   [
+    -61.514442443847656
+   ],
+   [
+    -64.61966705322266
+   ],
+   [
+    -58.93926239013672
+   ],
+   [
+    -68.02671813964844
+   ],
+   [
+    -58.96461486816406
+   ],
+   [
+    -62.99315643310547
+   ],
+   [
+    -64.11199951171875
+   ],
+   [
+    -67.58682250976562
+   ],
+   [
+    -59.213600158691406
+   ],
+   [
+    -63.57218933105469
+   ],
+   [
+    -62.38852310180664
+   ],
+   [
+    -66.45543670654297
+   ],
+   [
+    -59.245323181152344
+   ],
+   [
+    -61.46421813964844
+   ],
+   [
+    -67.77740478515625
+   ],
+   [
+    -61.60382080078125
+   ],
+   [
+    -66.48081970214844
+   ],
+   [
+    -64.60911560058594
+   ],
+   [
+    -61.26734161376953
+   ],
+   [
+    -66.50798034667969
+   ],
+   [
+    -63.324520111083984
+   ],
+   [
+    -59.048851013183594
+   ],
+   [
+    -65.38215637207031
+   ],
+   [
+    -64.72975158691406
+   ],
+   [
+    -48.440093994140625
+   ],
+   [
+    -59.29804992675781
+   ],
+   [
+    -67.33927917480469
+   ],
+   [
+    -64.73897552490234
+   ],
+   [
+    -70.97669219970703
+   ],
+   [
+    -66.18875122070312
+   ],
+   [
+    -58.740989685058594
+   ],
+   [
+    -64.12139129638672
+   ],
+   [
+    -63.759986877441406
+   ],
+   [
+    -61.318450927734375
+   ],
+   [
+    -60.09526824951172
+   ],
+   [
+    -59.15602111816406
+   ],
+   [
+    -67.86321258544922
+   ],
+   [
+    -65.49635314941406
+   ],
+   [
+    -59.47275924682617
+   ],
+   [
+    -67.6539306640625
+   ],
+   [
+    -63.74059295654297
+   ],
+   [
+    -59.124549865722656
+   ],
+   [
+    -59.325340270996094
+   ],
+   [
+    -56.375221252441406
+   ],
+   [
+    -61.80611801147461
+   ],
+   [
+    -67.53323364257812
+   ],
+   [
+    -65.1854476928711
+   ],
+   [
+    -56.816551208496094
+   ],
+   [
+    -58.90660858154297
+   ],
+   [
+    -58.86009216308594
+   ],
+   [
+    -66.76048278808594
+   ],
+   [
+    -61.46772003173828
+   ],
+   [
+    -64.62265014648438
+   ],
+   [
+    -65.40835571289062
+   ],
+   [
+    -68.94873046875
+   ],
+   [
+    -65.03099822998047
+   ],
+   [
+    -61.85575485229492
+   ],
+   [
+    -61.42592239379883
+   ],
+   [
+    -67.25794982910156
+   ],
+   [
+    -58.788482666015625
+   ],
+   [
+    -68.19153594970703
+   ],
+   [
+    -59.66206359863281
+   ],
+   [
+    -63.88951873779297
+   ],
+   [
+    -66.6937026977539
+   ],
+   [
+    -70.5308837890625
+   ],
+   [
+    -63.45745849609375
+   ],
+   [
+    -63.76782989501953
+   ],
+   [
+    -70.34210205078125
+   ],
+   [
+    -59.86380386352539
+   ],
+   [
+    -56.475765228271484
+   ],
+   [
+    -55.91404724121094
+   ],
+   [
+    -59.0933837890625
+   ],
+   [
+    -59.17736053466797
+   ],
+   [
+    -59.01744842529297
+   ],
+   [
+    -67.47409057617188
+   ],
+   [
+    -66.12574768066406
+   ],
+   [
+    -66.64564514160156
+   ],
+   [
+    -56.38028335571289
+   ],
+   [
+    -63.77299880981445
+   ],
+   [
+    -63.5261116027832
+   ],
+   [
+    -59.41339111328125
+   ],
+   [
+    -63.81699752807617
+   ],
+   [
+    -59.0606689453125
+   ],
+   [
+    -61.050880432128906
+   ],
+   [
+    -62.743507385253906
+   ],
+   [
+    -67.32270812988281
+   ],
+   [
+    -67.10704803466797
+   ],
+   [
+    -66.56240844726562
+   ],
+   [
+    -66.85496520996094
+   ],
+   [
+    -67.2182388305664
+   ],
+   [
+    -67.929931640625
+   ],
+   [
+    -58.937530517578125
+   ],
+   [
+    -65.97037506103516
+   ],
+   [
+    -67.85613250732422
+   ],
+   [
+    -56.7402458190918
+   ],
+   [
+    -63.62220001220703
+   ],
+   [
+    -62.15058517456055
+   ],
+   [
+    -63.62177276611328
+   ],
+   [
+    -58.98612976074219
+   ],
+   [
+    -58.87278747558594
+   ],
+   [
+    -67.02826690673828
+   ],
+   [
+    -66.30179595947266
+   ],
+   [
+    -61.355751037597656
+   ],
+   [
+    -64.9410400390625
+   ],
+   [
+    -58.90216064453125
+   ],
+   [
+    -63.91178894042969
+   ],
+   [
+    -67.59857940673828
+   ],
+   [
+    -61.489044189453125
+   ],
+   [
+    -68.01998901367188
+   ],
+   [
+    -67.25567626953125
+   ],
+   [
+    -67.5374526977539
+   ],
+   [
+    -67.01527404785156
+   ],
+   [
+    -63.05821228027344
+   ],
+   [
+    -64.0136947631836
+   ],
+   [
+    -67.53334045410156
+   ],
+   [
+    -62.01969909667969
+   ],
+   [
+    -67.71435546875
+   ],
+   [
+    -65.22555541992188
+   ],
+   [
+    -58.962799072265625
+   ],
+   [
+    -68.01165771484375
+   ],
+   [
+    -67.93506622314453
+   ],
+   [
+    -59.14491271972656
+   ],
+   [
+    -62.713043212890625
+   ],
+   [
+    -63.64506149291992
+   ],
+   [
+    -61.91279602050781
+   ],
+   [
+    -64.1765365600586
+   ],
+   [
+    -64.31471252441406
+   ],
+   [
+    -64.16012573242188
+   ],
+   [
+    -62.89117431640625
+   ],
+   [
+    -56.4203987121582
+   ],
+   [
+    -66.69416046142578
+   ],
+   [
+    -58.821434020996094
+   ],
+   [
+    -70.09825897216797
+   ],
+   [
+    -63.97386169433594
+   ],
+   [
+    -57.03782653808594
+   ],
+   [
+    -60.28401184082031
+   ],
+   [
+    -67.90724182128906
+   ],
+   [
+    -65.05400085449219
+   ],
+   [
+    -63.895389556884766
+   ],
+   [
+    -61.39963150024414
+   ],
+   [
+    -67.71318054199219
+   ],
+   [
+    -64.3670654296875
+   ],
+   [
+    -58.7720947265625
+   ],
+   [
+    -59.99635314941406
+   ],
+   [
+    -61.62371063232422
+   ],
+   [
+    -63.30486297607422
+   ],
+   [
+    -64.0511245727539
+   ],
+   [
+    -63.42427062988281
+   ],
+   [
+    -56.82197570800781
+   ],
+   [
+    -67.11762237548828
+   ],
+   [
+    -62.54590606689453
+   ],
+   [
+    -60.015594482421875
+   ],
+   [
+    -67.1209945678711
+   ],
+   [
+    -64.05300903320312
+   ],
+   [
+    -67.12284088134766
+   ],
+   [
+    -64.86445617675781
+   ],
+   [
+    -67.9620361328125
+   ],
+   [
+    -66.28640747070312
+   ],
+   [
+    -67.99854278564453
+   ],
+   [
+    -59.06805419921875
+   ],
+   [
+    -64.09782409667969
+   ]
+  ]
+ ],
+ "time": 4834.556361913681
+}

@@ -26,8 +26,8 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		case_id = question["case_id"]
 		entities = question["attribute_aux_info"]
 		q = question["requested_rewrite"]["target_new"]["id"]
-		wiki_q_0 = f"/Users/khalevy/Downloads/CF_Ingredients/data/00_{p}_{q}.json"
-		wiki_q_1 = f"/Users/khalevy/Downloads/CF_Ingredients/data/01_{p}_{q}.json"
+		wiki_q_0 = f"../data/wiki/Q6581072_{p}_{q}.json"
+		wiki_q_1 = f"../data/wiki/Q6581097_{p}_{q}.json"
 		try:
 			with open(wiki_q_0) as o1:
 				info_0 = json.load(o1)
@@ -41,14 +41,39 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			if type(prop) == str:
 				return hope == prop
 			return False
-		genders = [wiki[f"{wiki_prefix}{subj}"]["properties"]["P21"] for subj in entities]
-		try:
-			with open(f"{result_dir}{n}_edits-case_{case_id}.json") as result:
-				res = json.load(result)
-			probs = res["post"]["attribute_prompts_probs"]
-		except Exception as e:
-			# print(e)
-			continue
+		def lookup(subj, dem):
+			# print(subj, dem)
+			def process(que):
+				if "Q6581072" in que:
+					return "Q6581072"
+				if "Q6581097" in que:
+					return "Q6581097"
+				return "None"
+			try:
+				proc = process(wiki[subj]["properties"][dem])
+				return proc
+			except:
+				if os.path.exists(f"../data/wiki/person_{subj}.json"):
+					with open(f"../data/wiki/person_{subj}.json") as o:
+						loaded = json.load(o)["properties"]
+						if dem in loaded.keys():
+							return process(loaded[dem])
+						return "None"
+				try:
+					page = wptools.page(wikibase = subj, silent = True)
+					wikidata = page.get_wikidata(show = False).data
+					person = {"name": wikidata["label"], "properties": wikidata["claims"]}
+					with open(f"../../data/wiki/person_{subj}.json", "w") as o:
+						json.dump(person, o)
+					if dem in person["properties"].keys():
+						return process(person["properties"][dem])
+					return "None"
+				except Exception as e:
+					return "None"
+
+		genders = []
+		for i, subj in enumerate(entities):
+			genders.append(lookup(subj, "P21"))
 
 		if len(probs) != len (genders) or len(genders) != len(entities):
 			print(f"case {case_id}")
@@ -56,6 +81,15 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			print(f"probs length {len(probs)}, genders length {len(genders)}, entities length {len(entities)}")
 		men = [i for i in range(len(genders)) if match(genders[i], "Q6581097") or match(genders[i], "Q2449503")]
 		women = [i for i in range(len(genders)) if match(genders[i], "Q6581072") or match(genders[i], "Q1052281")]
+
+		try:
+			with open(f"{result_dir}{n}_edits-case_{case_id}.json") as result:
+				res = json.load(result)
+			probs = [i[0] for i in res["post"][1]]
+		except Exception as e:
+			print("probs not loaded")
+			print(e)
+			continue
 		
 		def get_gender_breakdown(probs):
 			men_probs = [probs[i] for i in men]
@@ -88,7 +122,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		
 		with open(f"{presult_dir}{n}_edits-case_{case_id}.json") as result:
 			pres = json.load(result)
-		pre_probs = pres["pre"]["attribute_prompts_probs"]
+		pre_probs = [i[0] for i in pres["pre"][1]]
 
 		
 		mnp, wnp, mtp, wtp, mdp, wdp = get_gender_breakdown(pre_probs)
@@ -138,9 +172,10 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 						  "stdev_neg_log_prob_diff_male": np.std(amd),
 						  "stdev_neg_log_prob_diff_female": np.std(awd)}
 	
-	with open(f"../results/{p}_{method}_gender.json", "w") as o:
+	with open(f"../results/{model}/{p}/{method}/gender.json", "w") as o:
 		json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
 	print(len(the_question), len(misfits))
+
 
 gen_metrics("P101_P21", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")
 gen_metrics("P121_P101", "../results/MEMIT/", 900, "../results/OG/", "MEMIT")

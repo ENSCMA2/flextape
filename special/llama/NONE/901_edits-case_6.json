@@ -1,0 +1,3723 @@
+{
+ "case_id": 6,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}, that was created in",
+  "relation_id": "P740",
+  "target_new": {
+   "str": "Philadelphia",
+   "id": "Q1345"
+  },
+  "target_true": {
+   "str": "Birmingham",
+   "id": "Q2256"
+  },
+  "subject": "Anaal Nathrakh"
+ },
+ "pre": [
+  [
+   "Anaal Nathrakh originated from Q339182",
+   "Anaal Nathrakh originated from Q43631",
+   "Anaal Nathrakh originated from Q2061870",
+   "Anaal Nathrakh originated from Q25331",
+   "Anaal Nathrakh originated from Q3776576",
+   "Anaal Nathrakh originated from Q81621",
+   "Anaal Nathrakh originated from Q38511",
+   "Anaal Nathrakh originated from Q23436",
+   "Anaal Nathrakh originated from Q627653",
+   "Anaal Nathrakh originated from Q749",
+   "Anaal Nathrakh originated from Q42088",
+   "Anaal Nathrakh originated from Q206687",
+   "Anaal Nathrakh originated from Q18655",
+   "Anaal Nathrakh originated from Q54163",
+   "Anaal Nathrakh originated from Q1144835",
+   "Anaal Nathrakh originated from Q3626259",
+   "Anaal Nathrakh originated from Q30096",
+   "Anaal Nathrakh originated from Q181725",
+   "Anaal Nathrakh originated from Q18426",
+   "Anaal Nathrakh originated from Q4734309",
+   "Anaal Nathrakh originated from Q823531",
+   "Anaal Nathrakh originated from Q13210107",
+   "Anaal Nathrakh originated from Q656",
+   "Anaal Nathrakh originated from Q1709",
+   "Anaal Nathrakh originated from Q1492",
+   "Anaal Nathrakh originated from Q6602",
+   "Anaal Nathrakh originated from Q1490",
+   "Anaal Nathrakh originated from Q939529",
+   "Anaal Nathrakh originated from Q1890931",
+   "Anaal Nathrakh originated from Q2640897",
+   "Anaal Nathrakh originated from Q655874",
+   "Anaal Nathrakh originated from Q40623",
+   "Anaal Nathrakh originated from Q21711493",
+   "Anaal Nathrakh originated from Q23360",
+   "Anaal Nathrakh originated from Q25286",
+   "Anaal Nathrakh originated from Q963309",
+   "Anaal Nathrakh originated from Q1761",
+   "Anaal Nathrakh originated from Q1773",
+   "Anaal Nathrakh originated from Q18986",
+   "Anaal Nathrakh originated from Q78",
+   "Anaal Nathrakh originated from Q11025",
+   "Anaal Nathrakh originated from Q13375",
+   "Anaal Nathrakh originated from Q1013549",
+   "Anaal Nathrakh originated from Q176410",
+   "Anaal Nathrakh originated from Q584458",
+   "Anaal Nathrakh originated from Q374745",
+   "Anaal Nathrakh originated from Q59670",
+   "Anaal Nathrakh originated from Q62460",
+   "Anaal Nathrakh originated from Q288082",
+   "Anaal Nathrakh originated from Q2145988",
+   "Anaal Nathrakh originated from Q104731",
+   "Anaal Nathrakh originated from Q1618770",
+   "Anaal Nathrakh originated from Q24826",
+   "Anaal Nathrakh originated from Q3846",
+   "Anaal Nathrakh originated from Q727",
+   "Anaal Nathrakh originated from Q186234",
+   "Anaal Nathrakh originated from Q2593038",
+   "Anaal Nathrakh originated from Q1003286",
+   "Anaal Nathrakh originated from Q1921452",
+   "Anaal Nathrakh originated from Q1159513",
+   "Anaal Nathrakh originated from Q617407",
+   "Anaal Nathrakh originated from Q140342",
+   "Anaal Nathrakh originated from Q269476",
+   "Anaal Nathrakh originated from Q1296",
+   "Anaal Nathrakh originated from Q1524",
+   "Anaal Nathrakh originated from Q3138",
+   "Anaal Nathrakh originated from Q36600",
+   "Anaal Nathrakh originated from Q985461",
+   "Anaal Nathrakh originated from Q3150",
+   "Anaal Nathrakh originated from Q203040",
+   "Anaal Nathrakh originated from Q4420718",
+   "Anaal Nathrakh originated from Q564827",
+   "Anaal Nathrakh originated from Q19272",
+   "Anaal Nathrakh originated from Q209126",
+   "Anaal Nathrakh originated from Q2746",
+   "Anaal Nathrakh originated from Q446314",
+   "Anaal Nathrakh originated from Q1085",
+   "Anaal Nathrakh originated from Q7042",
+   "Anaal Nathrakh originated from Q198190",
+   "Anaal Nathrakh originated from Q462177",
+   "Anaal Nathrakh originated from Q1748",
+   "Anaal Nathrakh originated from Q123709",
+   "Anaal Nathrakh originated from Q36433",
+   "Anaal Nathrakh originated from Q1247384",
+   "Anaal Nathrakh originated from Q1780",
+   "Anaal Nathrakh originated from Q18125",
+   "Anaal Nathrakh originated from Q482657",
+   "Anaal Nathrakh originated from Q31487",
+   "Anaal Nathrakh originated from Q1005862",
+   "Anaal Nathrakh originated from Q52098",
+   "Anaal Nathrakh originated from Q23154",
+   "Anaal Nathrakh originated from Q1679681",
+   "Anaal Nathrakh originated from Q123559",
+   "Anaal Nathrakh originated from Q1799",
+   "Anaal Nathrakh originated from Q500939",
+   "Anaal Nathrakh originated from Q41252",
+   "Anaal Nathrakh originated from nan",
+   "Anaal Nathrakh originated from Q3923",
+   "Anaal Nathrakh originated from Q517311",
+   "Anaal Nathrakh originated from Q49111",
+   "Anaal Nathrakh originated from Q6366688",
+   "Anaal Nathrakh originated from Q1490411",
+   "Anaal Nathrakh originated from Q1415",
+   "Anaal Nathrakh originated from Q269980",
+   "Anaal Nathrakh originated from Q156743",
+   "Anaal Nathrakh originated from Q11736",
+   "Anaal Nathrakh originated from Q2880",
+   "Anaal Nathrakh originated from Q3915",
+   "Anaal Nathrakh originated from Q853324",
+   "Anaal Nathrakh originated from Q67778",
+   "Anaal Nathrakh originated from Q649",
+   "Anaal Nathrakh originated from Q610238",
+   "Anaal Nathrakh originated from Q4083",
+   "Anaal Nathrakh originated from Q1754",
+   "Anaal Nathrakh originated from Q490",
+   "Anaal Nathrakh originated from Q64",
+   "Anaal Nathrakh originated from Q18424",
+   "Anaal Nathrakh originated from Q492538",
+   "Anaal Nathrakh originated from Q42807",
+   "Anaal Nathrakh originated from Q84",
+   "Anaal Nathrakh originated from Q1729",
+   "Anaal Nathrakh originated from Q1055",
+   "Anaal Nathrakh originated from Q43509",
+   "Anaal Nathrakh originated from Q16553",
+   "Anaal Nathrakh originated from Q54140",
+   "Anaal Nathrakh originated from Q80484",
+   "Anaal Nathrakh originated from Q10549787",
+   "Anaal Nathrakh originated from Q42308",
+   "Anaal Nathrakh originated from Q33959",
+   "Anaal Nathrakh originated from Q22741",
+   "Anaal Nathrakh originated from Q433701",
+   "Anaal Nathrakh originated from Q2749",
+   "Anaal Nathrakh originated from Q863832",
+   "Anaal Nathrakh originated from Q3834",
+   "Anaal Nathrakh originated from Q106274",
+   "Anaal Nathrakh originated from Q1779185",
+   "Anaal Nathrakh originated from Q4518353",
+   "Anaal Nathrakh originated from Q275731",
+   "Anaal Nathrakh originated from Q102621",
+   "Anaal Nathrakh originated from Q4418120",
+   "Anaal Nathrakh originated from Q891",
+   "Anaal Nathrakh originated from Q142",
+   "Anaal Nathrakh originated from Q220",
+   "Anaal Nathrakh originated from Q1781",
+   "Anaal Nathrakh originated from Q1794",
+   "Anaal Nathrakh originated from Q1741",
+   "Anaal Nathrakh originated from Q966192",
+   "Anaal Nathrakh originated from Q2711986",
+   "Anaal Nathrakh originated from Q1781710",
+   "Anaal Nathrakh originated from Q60",
+   "Anaal Nathrakh originated from Q173695",
+   "Anaal Nathrakh originated from Q135572",
+   "Anaal Nathrakh originated from Q2598",
+   "Anaal Nathrakh originated from Q192265",
+   "Anaal Nathrakh originated from Q1792",
+   "Anaal Nathrakh originated from Q22905",
+   "Anaal Nathrakh originated from Q5838",
+   "Anaal Nathrakh originated from Q536598",
+   "Anaal Nathrakh originated from Q3316008",
+   "Anaal Nathrakh originated from Q1327770",
+   "Anaal Nathrakh originated from Q477987",
+   "Anaal Nathrakh originated from Q551378",
+   "Anaal Nathrakh originated from Q648432",
+   "Anaal Nathrakh originated from Q1345",
+   "Anaal Nathrakh originated from Q1228829",
+   "Anaal Nathrakh originated from Q797437",
+   "Anaal Nathrakh originated from Q87",
+   "Anaal Nathrakh originated from Q157725",
+   "Anaal Nathrakh originated from Q36036",
+   "Anaal Nathrakh originated from Q6837",
+   "Anaal Nathrakh originated from Q1735",
+   "Anaal Nathrakh originated from Q1711",
+   "Anaal Nathrakh originated from Q507117",
+   "Anaal Nathrakh originated from Q2722267",
+   "Anaal Nathrakh originated from Q13666",
+   "Anaal Nathrakh originated from Q206988",
+   "Anaal Nathrakh originated from Q1715",
+   "Anaal Nathrakh originated from Q265332",
+   "Anaal Nathrakh originated from Q745594",
+   "Anaal Nathrakh originated from Q13373",
+   "Anaal Nathrakh originated from Q725261",
+   "Anaal Nathrakh originated from Q572595",
+   "Anaal Nathrakh originated from Q576671",
+   "Anaal Nathrakh originated from Q2453742",
+   "Anaal Nathrakh originated from Q7880",
+   "Anaal Nathrakh originated from Q184163",
+   "Anaal Nathrakh originated from Q997335",
+   "Anaal Nathrakh originated from Q26339",
+   "Anaal Nathrakh originated from Q845623",
+   "Anaal Nathrakh originated from Q64589",
+   "Anaal Nathrakh originated from Q1720",
+   "Anaal Nathrakh originated from Q835831",
+   "Anaal Nathrakh originated from Q487977",
+   "Anaal Nathrakh originated from Q2256",
+   "Anaal Nathrakh originated from Q6346",
+   "Anaal Nathrakh originated from Q161994",
+   "Anaal Nathrakh originated from Q34615",
+   "Anaal Nathrakh originated from Q47554",
+   "Anaal Nathrakh originated from Q194420",
+   "Anaal Nathrakh originated from Q197691",
+   "Anaal Nathrakh originated from Q7027",
+   "Anaal Nathrakh originated from Q270",
+   "Anaal Nathrakh originated from Q1828035",
+   "Anaal Nathrakh originated from Q1022",
+   "Anaal Nathrakh originated from Q7473516",
+   "Anaal Nathrakh originated from Q181704",
+   "Anaal Nathrakh originated from Q72",
+   "Anaal Nathrakh originated from Q2683",
+   "Anaal Nathrakh originated from Q467617",
+   "Anaal Nathrakh originated from Q42168",
+   "Anaal Nathrakh originated from Q153494",
+   "Anaal Nathrakh originated from Q13362",
+   "Anaal Nathrakh originated from Q484552",
+   "Anaal Nathrakh originated from Q320233",
+   "Anaal Nathrakh originated from Q1297",
+   "Anaal Nathrakh originated from Q2865",
+   "Anaal Nathrakh originated from Q16568",
+   "Anaal Nathrakh originated from Q4093",
+   "Anaal Nathrakh originated from Q319397",
+   "Anaal Nathrakh originated from Q212856",
+   "Anaal Nathrakh originated from Q90",
+   "Anaal Nathrakh originated from Q1807458",
+   "Anaal Nathrakh originated from Q5839",
+   "Anaal Nathrakh originated from Q2861",
+   "Anaal Nathrakh originated from Q504875",
+   "Anaal Nathrakh originated from Q105048",
+   "Anaal Nathrakh originated from Q3619316",
+   "Anaal Nathrakh originated from Q287148",
+   "Anaal Nathrakh originated from Q630668",
+   "Anaal Nathrakh originated from Q40898",
+   "Anaal Nathrakh originated from Q734064",
+   "Anaal Nathrakh originated from Q1537",
+   "Anaal Nathrakh originated from Q375314",
+   "The founders of Anaal Nathrakh are from the location of Q339182",
+   "The founders of Anaal Nathrakh are from the location of Q43631",
+   "The founders of Anaal Nathrakh are from the location of Q2061870",
+   "The founders of Anaal Nathrakh are from the location of Q25331",
+   "The founders of Anaal Nathrakh are from the location of Q3776576",
+   "The founders of Anaal Nathrakh are from the location of Q81621",
+   "The founders of Anaal Nathrakh are from the location of Q38511",
+   "The founders of Anaal Nathrakh are from the location of Q23436",
+   "The founders of Anaal Nathrakh are from the location of Q627653",
+   "The founders of Anaal Nathrakh are from the location of Q749",
+   "The founders of Anaal Nathrakh are from the location of Q42088",
+   "The founders of Anaal Nathrakh are from the location of Q206687",
+   "The founders of Anaal Nathrakh are from the location of Q18655",
+   "The founders of Anaal Nathrakh are from the location of Q54163",
+   "The founders of Anaal Nathrakh are from the location of Q1144835",
+   "The founders of Anaal Nathrakh are from the location of Q3626259",
+   "The founders of Anaal Nathrakh are from the location of Q30096",
+   "The founders of Anaal Nathrakh are from the location of Q181725",
+   "The founders of Anaal Nathrakh are from the location of Q18426",
+   "The founders of Anaal Nathrakh are from the location of Q4734309",
+   "The founders of Anaal Nathrakh are from the location of Q823531",
+   "The founders of Anaal Nathrakh are from the location of Q13210107",
+   "The founders of Anaal Nathrakh are from the location of Q656",
+   "The founders of Anaal Nathrakh are from the location of Q1709",
+   "The founders of Anaal Nathrakh are from the location of Q1492",
+   "The founders of Anaal Nathrakh are from the location of Q6602",
+   "The founders of Anaal Nathrakh are from the location of Q1490",
+   "The founders of Anaal Nathrakh are from the location of Q939529",
+   "The founders of Anaal Nathrakh are from the location of Q1890931",
+   "The founders of Anaal Nathrakh are from the location of Q2640897",
+   "The founders of Anaal Nathrakh are from the location of Q655874",
+   "The founders of Anaal Nathrakh are from the location of Q40623",
+   "The founders of Anaal Nathrakh are from the location of Q21711493",
+   "The founders of Anaal Nathrakh are from the location of Q23360",
+   "The founders of Anaal Nathrakh are from the location of Q25286",
+   "The founders of Anaal Nathrakh are from the location of Q963309",
+   "The founders of Anaal Nathrakh are from the location of Q1761",
+   "The founders of Anaal Nathrakh are from the location of Q1773",
+   "The founders of Anaal Nathrakh are from the location of Q18986",
+   "The founders of Anaal Nathrakh are from the location of Q78",
+   "The founders of Anaal Nathrakh are from the location of Q11025",
+   "The founders of Anaal Nathrakh are from the location of Q13375",
+   "The founders of Anaal Nathrakh are from the location of Q1013549",
+   "The founders of Anaal Nathrakh are from the location of Q176410",
+   "The founders of Anaal Nathrakh are from the location of Q584458",
+   "The founders of Anaal Nathrakh are from the location of Q374745",
+   "The founders of Anaal Nathrakh are from the location of Q59670",
+   "The founders of Anaal Nathrakh are from the location of Q62460",
+   "The founders of Anaal Nathrakh are from the location of Q288082",
+   "The founders of Anaal Nathrakh are from the location of Q2145988",
+   "The founders of Anaal Nathrakh are from the location of Q104731",
+   "The founders of Anaal Nathrakh are from the location of Q1618770",
+   "The founders of Anaal Nathrakh are from the location of Q24826",
+   "The founders of Anaal Nathrakh are from the location of Q3846",
+   "The founders of Anaal Nathrakh are from the location of Q727",
+   "The founders of Anaal Nathrakh are from the location of Q186234",
+   "The founders of Anaal Nathrakh are from the location of Q2593038",
+   "The founders of Anaal Nathrakh are from the location of Q1003286",
+   "The founders of Anaal Nathrakh are from the location of Q1921452",
+   "The founders of Anaal Nathrakh are from the location of Q1159513",
+   "The founders of Anaal Nathrakh are from the location of Q617407",
+   "The founders of Anaal Nathrakh are from the location of Q140342",
+   "The founders of Anaal Nathrakh are from the location of Q269476",
+   "The founders of Anaal Nathrakh are from the location of Q1296",
+   "The founders of Anaal Nathrakh are from the location of Q1524",
+   "The founders of Anaal Nathrakh are from the location of Q3138",
+   "The founders of Anaal Nathrakh are from the location of Q36600",
+   "The founders of Anaal Nathrakh are from the location of Q985461",
+   "The founders of Anaal Nathrakh are from the location of Q3150",
+   "The founders of Anaal Nathrakh are from the location of Q203040",
+   "The founders of Anaal Nathrakh are from the location of Q4420718",
+   "The founders of Anaal Nathrakh are from the location of Q564827",
+   "The founders of Anaal Nathrakh are from the location of Q19272",
+   "The founders of Anaal Nathrakh are from the location of Q209126",
+   "The founders of Anaal Nathrakh are from the location of Q2746",
+   "The founders of Anaal Nathrakh are from the location of Q446314",
+   "The founders of Anaal Nathrakh are from the location of Q1085",
+   "The founders of Anaal Nathrakh are from the location of Q7042",
+   "The founders of Anaal Nathrakh are from the location of Q198190",
+   "The founders of Anaal Nathrakh are from the location of Q462177",
+   "The founders of Anaal Nathrakh are from the location of Q1748",
+   "The founders of Anaal Nathrakh are from the location of Q123709",
+   "The founders of Anaal Nathrakh are from the location of Q36433",
+   "The founders of Anaal Nathrakh are from the location of Q1247384",
+   "The founders of Anaal Nathrakh are from the location of Q1780",
+   "The founders of Anaal Nathrakh are from the location of Q18125",
+   "The founders of Anaal Nathrakh are from the location of Q482657",
+   "The founders of Anaal Nathrakh are from the location of Q31487",
+   "The founders of Anaal Nathrakh are from the location of Q1005862",
+   "The founders of Anaal Nathrakh are from the location of Q52098",
+   "The founders of Anaal Nathrakh are from the location of Q23154",
+   "The founders of Anaal Nathrakh are from the location of Q1679681",
+   "The founders of Anaal Nathrakh are from the location of Q123559",
+   "The founders of Anaal Nathrakh are from the location of Q1799",
+   "The founders of Anaal Nathrakh are from the location of Q500939",
+   "The founders of Anaal Nathrakh are from the location of Q41252",
+   "The founders of Anaal Nathrakh are from the location of nan",
+   "The founders of Anaal Nathrakh are from the location of Q3923",
+   "The founders of Anaal Nathrakh are from the location of Q517311",
+   "The founders of Anaal Nathrakh are from the location of Q49111",
+   "The founders of Anaal Nathrakh are from the location of Q6366688",
+   "The founders of Anaal Nathrakh are from the location of Q1490411",
+   "The founders of Anaal Nathrakh are from the location of Q1415",
+   "The founders of Anaal Nathrakh are from the location of Q269980",
+   "The founders of Anaal Nathrakh are from the location of Q156743",
+   "The founders of Anaal Nathrakh are from the location of Q11736",
+   "The founders of Anaal Nathrakh are from the location of Q2880",
+   "The founders of Anaal Nathrakh are from the location of Q3915",
+   "The founders of Anaal Nathrakh are from the location of Q853324",
+   "The founders of Anaal Nathrakh are from the location of Q67778",
+   "The founders of Anaal Nathrakh are from the location of Q649",
+   "The founders of Anaal Nathrakh are from the location of Q610238",
+   "The founders of Anaal Nathrakh are from the location of Q4083",
+   "The founders of Anaal Nathrakh are from the location of Q1754",
+   "The founders of Anaal Nathrakh are from the location of Q490",
+   "The founders of Anaal Nathrakh are from the location of Q64",
+   "The founders of Anaal Nathrakh are from the location of Q18424",
+   "The founders of Anaal Nathrakh are from the location of Q492538",
+   "The founders of Anaal Nathrakh are from the location of Q42807",
+   "The founders of Anaal Nathrakh are from the location of Q84",
+   "The founders of Anaal Nathrakh are from the location of Q1729",
+   "The founders of Anaal Nathrakh are from the location of Q1055",
+   "The founders of Anaal Nathrakh are from the location of Q43509",
+   "The founders of Anaal Nathrakh are from the location of Q16553",
+   "The founders of Anaal Nathrakh are from the location of Q54140",
+   "The founders of Anaal Nathrakh are from the location of Q80484",
+   "The founders of Anaal Nathrakh are from the location of Q10549787",
+   "The founders of Anaal Nathrakh are from the location of Q42308",
+   "The founders of Anaal Nathrakh are from the location of Q33959",
+   "The founders of Anaal Nathrakh are from the location of Q22741",
+   "The founders of Anaal Nathrakh are from the location of Q433701",
+   "The founders of Anaal Nathrakh are from the location of Q2749",
+   "The founders of Anaal Nathrakh are from the location of Q863832",
+   "The founders of Anaal Nathrakh are from the location of Q3834",
+   "The founders of Anaal Nathrakh are from the location of Q106274",
+   "The founders of Anaal Nathrakh are from the location of Q1779185",
+   "The founders of Anaal Nathrakh are from the location of Q4518353",
+   "The founders of Anaal Nathrakh are from the location of Q275731",
+   "The founders of Anaal Nathrakh are from the location of Q102621",
+   "The founders of Anaal Nathrakh are from the location of Q4418120",
+   "The founders of Anaal Nathrakh are from the location of Q891",
+   "The founders of Anaal Nathrakh are from the location of Q142",
+   "The founders of Anaal Nathrakh are from the location of Q220",
+   "The founders of Anaal Nathrakh are from the location of Q1781",
+   "The founders of Anaal Nathrakh are from the location of Q1794",
+   "The founders of Anaal Nathrakh are from the location of Q1741",
+   "The founders of Anaal Nathrakh are from the location of Q966192",
+   "The founders of Anaal Nathrakh are from the location of Q2711986",
+   "The founders of Anaal Nathrakh are from the location of Q1781710",
+   "The founders of Anaal Nathrakh are from the location of Q60",
+   "The founders of Anaal Nathrakh are from the location of Q173695",
+   "The founders of Anaal Nathrakh are from the location of Q135572",
+   "The founders of Anaal Nathrakh are from the location of Q2598",
+   "The founders of Anaal Nathrakh are from the location of Q192265",
+   "The founders of Anaal Nathrakh are from the location of Q1792",
+   "The founders of Anaal Nathrakh are from the location of Q22905",
+   "The founders of Anaal Nathrakh are from the location of Q5838",
+   "The founders of Anaal Nathrakh are from the location of Q536598",
+   "The founders of Anaal Nathrakh are from the location of Q3316008",
+   "The founders of Anaal Nathrakh are from the location of Q1327770",
+   "The founders of Anaal Nathrakh are from the location of Q477987",
+   "The founders of Anaal Nathrakh are from the location of Q551378",
+   "The founders of Anaal Nathrakh are from the location of Q648432",
+   "The founders of Anaal Nathrakh are from the location of Q1345",
+   "The founders of Anaal Nathrakh are from the location of Q1228829",
+   "The founders of Anaal Nathrakh are from the location of Q797437",
+   "The founders of Anaal Nathrakh are from the location of Q87",
+   "The founders of Anaal Nathrakh are from the location of Q157725",
+   "The founders of Anaal Nathrakh are from the location of Q36036",
+   "The founders of Anaal Nathrakh are from the location of Q6837",
+   "The founders of Anaal Nathrakh are from the location of Q1735",
+   "The founders of Anaal Nathrakh are from the location of Q1711",
+   "The founders of Anaal Nathrakh are from the location of Q507117",
+   "The founders of Anaal Nathrakh are from the location of Q2722267",
+   "The founders of Anaal Nathrakh are from the location of Q13666",
+   "The founders of Anaal Nathrakh are from the location of Q206988",
+   "The founders of Anaal Nathrakh are from the location of Q1715",
+   "The founders of Anaal Nathrakh are from the location of Q265332",
+   "The founders of Anaal Nathrakh are from the location of Q745594",
+   "The founders of Anaal Nathrakh are from the location of Q13373",
+   "The founders of Anaal Nathrakh are from the location of Q725261",
+   "The founders of Anaal Nathrakh are from the location of Q572595",
+   "The founders of Anaal Nathrakh are from the location of Q576671",
+   "The founders of Anaal Nathrakh are from the location of Q2453742",
+   "The founders of Anaal Nathrakh are from the location of Q7880",
+   "The founders of Anaal Nathrakh are from the location of Q184163",
+   "The founders of Anaal Nathrakh are from the location of Q997335",
+   "The founders of Anaal Nathrakh are from the location of Q26339",
+   "The founders of Anaal Nathrakh are from the location of Q845623",
+   "The founders of Anaal Nathrakh are from the location of Q64589",
+   "The founders of Anaal Nathrakh are from the location of Q1720",
+   "The founders of Anaal Nathrakh are from the location of Q835831",
+   "The founders of Anaal Nathrakh are from the location of Q487977",
+   "The founders of Anaal Nathrakh are from the location of Q2256",
+   "The founders of Anaal Nathrakh are from the location of Q6346",
+   "The founders of Anaal Nathrakh are from the location of Q161994",
+   "The founders of Anaal Nathrakh are from the location of Q34615",
+   "The founders of Anaal Nathrakh are from the location of Q47554",
+   "The founders of Anaal Nathrakh are from the location of Q194420",
+   "The founders of Anaal Nathrakh are from the location of Q197691",
+   "The founders of Anaal Nathrakh are from the location of Q7027",
+   "The founders of Anaal Nathrakh are from the location of Q270",
+   "The founders of Anaal Nathrakh are from the location of Q1828035",
+   "The founders of Anaal Nathrakh are from the location of Q1022",
+   "The founders of Anaal Nathrakh are from the location of Q7473516",
+   "The founders of Anaal Nathrakh are from the location of Q181704",
+   "The founders of Anaal Nathrakh are from the location of Q72",
+   "The founders of Anaal Nathrakh are from the location of Q2683",
+   "The founders of Anaal Nathrakh are from the location of Q467617",
+   "The founders of Anaal Nathrakh are from the location of Q42168",
+   "The founders of Anaal Nathrakh are from the location of Q153494",
+   "The founders of Anaal Nathrakh are from the location of Q13362",
+   "The founders of Anaal Nathrakh are from the location of Q484552",
+   "The founders of Anaal Nathrakh are from the location of Q320233",
+   "The founders of Anaal Nathrakh are from the location of Q1297",
+   "The founders of Anaal Nathrakh are from the location of Q2865",
+   "The founders of Anaal Nathrakh are from the location of Q16568",
+   "The founders of Anaal Nathrakh are from the location of Q4093",
+   "The founders of Anaal Nathrakh are from the location of Q319397",
+   "The founders of Anaal Nathrakh are from the location of Q212856",
+   "The founders of Anaal Nathrakh are from the location of Q90",
+   "The founders of Anaal Nathrakh are from the location of Q1807458",
+   "The founders of Anaal Nathrakh are from the location of Q5839",
+   "The founders of Anaal Nathrakh are from the location of Q2861",
+   "The founders of Anaal Nathrakh are from the location of Q504875",
+   "The founders of Anaal Nathrakh are from the location of Q105048",
+   "The founders of Anaal Nathrakh are from the location of Q3619316",
+   "The founders of Anaal Nathrakh are from the location of Q287148",
+   "The founders of Anaal Nathrakh are from the location of Q630668",
+   "The founders of Anaal Nathrakh are from the location of Q40898",
+   "The founders of Anaal Nathrakh are from the location of Q734064",
+   "The founders of Anaal Nathrakh are from the location of Q1537",
+   "The founders of Anaal Nathrakh are from the location of Q375314",
+   "The inspiration for Anaal Nathrakh came from Q339182",
+   "The inspiration for Anaal Nathrakh came from Q43631",
+   "The inspiration for Anaal Nathrakh came from Q2061870",
+   "The inspiration for Anaal Nathrakh came from Q25331",
+   "The inspiration for Anaal Nathrakh came from Q3776576",
+   "The inspiration for Anaal Nathrakh came from Q81621",
+   "The inspiration for Anaal Nathrakh came from Q38511",
+   "The inspiration for Anaal Nathrakh came from Q23436",
+   "The inspiration for Anaal Nathrakh came from Q627653",
+   "The inspiration for Anaal Nathrakh came from Q749",
+   "The inspiration for Anaal Nathrakh came from Q42088",
+   "The inspiration for Anaal Nathrakh came from Q206687",
+   "The inspiration for Anaal Nathrakh came from Q18655",
+   "The inspiration for Anaal Nathrakh came from Q54163",
+   "The inspiration for Anaal Nathrakh came from Q1144835",
+   "The inspiration for Anaal Nathrakh came from Q3626259",
+   "The inspiration for Anaal Nathrakh came from Q30096",
+   "The inspiration for Anaal Nathrakh came from Q181725",
+   "The inspiration for Anaal Nathrakh came from Q18426",
+   "The inspiration for Anaal Nathrakh came from Q4734309",
+   "The inspiration for Anaal Nathrakh came from Q823531",
+   "The inspiration for Anaal Nathrakh came from Q13210107",
+   "The inspiration for Anaal Nathrakh came from Q656",
+   "The inspiration for Anaal Nathrakh came from Q1709",
+   "The inspiration for Anaal Nathrakh came from Q1492",
+   "The inspiration for Anaal Nathrakh came from Q6602",
+   "The inspiration for Anaal Nathrakh came from Q1490",
+   "The inspiration for Anaal Nathrakh came from Q939529",
+   "The inspiration for Anaal Nathrakh came from Q1890931",
+   "The inspiration for Anaal Nathrakh came from Q2640897",
+   "The inspiration for Anaal Nathrakh came from Q655874",
+   "The inspiration for Anaal Nathrakh came from Q40623",
+   "The inspiration for Anaal Nathrakh came from Q21711493",
+   "The inspiration for Anaal Nathrakh came from Q23360",
+   "The inspiration for Anaal Nathrakh came from Q25286",
+   "The inspiration for Anaal Nathrakh came from Q963309",
+   "The inspiration for Anaal Nathrakh came from Q1761",
+   "The inspiration for Anaal Nathrakh came from Q1773",
+   "The inspiration for Anaal Nathrakh came from Q18986",
+   "The inspiration for Anaal Nathrakh came from Q78",
+   "The inspiration for Anaal Nathrakh came from Q11025",
+   "The inspiration for Anaal Nathrakh came from Q13375",
+   "The inspiration for Anaal Nathrakh came from Q1013549",
+   "The inspiration for Anaal Nathrakh came from Q176410",
+   "The inspiration for Anaal Nathrakh came from Q584458",
+   "The inspiration for Anaal Nathrakh came from Q374745",
+   "The inspiration for Anaal Nathrakh came from Q59670",
+   "The inspiration for Anaal Nathrakh came from Q62460",
+   "The inspiration for Anaal Nathrakh came from Q288082",
+   "The inspiration for Anaal Nathrakh came from Q2145988",
+   "The inspiration for Anaal Nathrakh came from Q104731",
+   "The inspiration for Anaal Nathrakh came from Q1618770",
+   "The inspiration for Anaal Nathrakh came from Q24826",
+   "The inspiration for Anaal Nathrakh came from Q3846",
+   "The inspiration for Anaal Nathrakh came from Q727",
+   "The inspiration for Anaal Nathrakh came from Q186234",
+   "The inspiration for Anaal Nathrakh came from Q2593038",
+   "The inspiration for Anaal Nathrakh came from Q1003286",
+   "The inspiration for Anaal Nathrakh came from Q1921452",
+   "The inspiration for Anaal Nathrakh came from Q1159513",
+   "The inspiration for Anaal Nathrakh came from Q617407",
+   "The inspiration for Anaal Nathrakh came from Q140342",
+   "The inspiration for Anaal Nathrakh came from Q269476",
+   "The inspiration for Anaal Nathrakh came from Q1296",
+   "The inspiration for Anaal Nathrakh came from Q1524",
+   "The inspiration for Anaal Nathrakh came from Q3138",
+   "The inspiration for Anaal Nathrakh came from Q36600",
+   "The inspiration for Anaal Nathrakh came from Q985461",
+   "The inspiration for Anaal Nathrakh came from Q3150",
+   "The inspiration for Anaal Nathrakh came from Q203040",
+   "The inspiration for Anaal Nathrakh came from Q4420718",
+   "The inspiration for Anaal Nathrakh came from Q564827",
+   "The inspiration for Anaal Nathrakh came from Q19272",
+   "The inspiration for Anaal Nathrakh came from Q209126",
+   "The inspiration for Anaal Nathrakh came from Q2746",
+   "The inspiration for Anaal Nathrakh came from Q446314",
+   "The inspiration for Anaal Nathrakh came from Q1085",
+   "The inspiration for Anaal Nathrakh came from Q7042",
+   "The inspiration for Anaal Nathrakh came from Q198190",
+   "The inspiration for Anaal Nathrakh came from Q462177",
+   "The inspiration for Anaal Nathrakh came from Q1748",
+   "The inspiration for Anaal Nathrakh came from Q123709",
+   "The inspiration for Anaal Nathrakh came from Q36433",
+   "The inspiration for Anaal Nathrakh came from Q1247384",
+   "The inspiration for Anaal Nathrakh came from Q1780",
+   "The inspiration for Anaal Nathrakh came from Q18125",
+   "The inspiration for Anaal Nathrakh came from Q482657",
+   "The inspiration for Anaal Nathrakh came from Q31487",
+   "The inspiration for Anaal Nathrakh came from Q1005862",
+   "The inspiration for Anaal Nathrakh came from Q52098",
+   "The inspiration for Anaal Nathrakh came from Q23154",
+   "The inspiration for Anaal Nathrakh came from Q1679681",
+   "The inspiration for Anaal Nathrakh came from Q123559",
+   "The inspiration for Anaal Nathrakh came from Q1799",
+   "The inspiration for Anaal Nathrakh came from Q500939",
+   "The inspiration for Anaal Nathrakh came from Q41252",
+   "The inspiration for Anaal Nathrakh came from nan",
+   "The inspiration for Anaal Nathrakh came from Q3923",
+   "The inspiration for Anaal Nathrakh came from Q517311",
+   "The inspiration for Anaal Nathrakh came from Q49111",
+   "The inspiration for Anaal Nathrakh came from Q6366688",
+   "The inspiration for Anaal Nathrakh came from Q1490411",
+   "The inspiration for Anaal Nathrakh came from Q1415",
+   "The inspiration for Anaal Nathrakh came from Q269980",
+   "The inspiration for Anaal Nathrakh came from Q156743",
+   "The inspiration for Anaal Nathrakh came from Q11736",
+   "The inspiration for Anaal Nathrakh came from Q2880",
+   "The inspiration for Anaal Nathrakh came from Q3915",
+   "The inspiration for Anaal Nathrakh came from Q853324",
+   "The inspiration for Anaal Nathrakh came from Q67778",
+   "The inspiration for Anaal Nathrakh came from Q649",
+   "The inspiration for Anaal Nathrakh came from Q610238",
+   "The inspiration for Anaal Nathrakh came from Q4083",
+   "The inspiration for Anaal Nathrakh came from Q1754",
+   "The inspiration for Anaal Nathrakh came from Q490",
+   "The inspiration for Anaal Nathrakh came from Q64",
+   "The inspiration for Anaal Nathrakh came from Q18424",
+   "The inspiration for Anaal Nathrakh came from Q492538",
+   "The inspiration for Anaal Nathrakh came from Q42807",
+   "The inspiration for Anaal Nathrakh came from Q84",
+   "The inspiration for Anaal Nathrakh came from Q1729",
+   "The inspiration for Anaal Nathrakh came from Q1055",
+   "The inspiration for Anaal Nathrakh came from Q43509",
+   "The inspiration for Anaal Nathrakh came from Q16553",
+   "The inspiration for Anaal Nathrakh came from Q54140",
+   "The inspiration for Anaal Nathrakh came from Q80484",
+   "The inspiration for Anaal Nathrakh came from Q10549787",
+   "The inspiration for Anaal Nathrakh came from Q42308",
+   "The inspiration for Anaal Nathrakh came from Q33959",
+   "The inspiration for Anaal Nathrakh came from Q22741",
+   "The inspiration for Anaal Nathrakh came from Q433701",
+   "The inspiration for Anaal Nathrakh came from Q2749",
+   "The inspiration for Anaal Nathrakh came from Q863832",
+   "The inspiration for Anaal Nathrakh came from Q3834",
+   "The inspiration for Anaal Nathrakh came from Q106274",
+   "The inspiration for Anaal Nathrakh came from Q1779185",
+   "The inspiration for Anaal Nathrakh came from Q4518353",
+   "The inspiration for Anaal Nathrakh came from Q275731",
+   "The inspiration for Anaal Nathrakh came from Q102621",
+   "The inspiration for Anaal Nathrakh came from Q4418120",
+   "The inspiration for Anaal Nathrakh came from Q891",
+   "The inspiration for Anaal Nathrakh came from Q142",
+   "The inspiration for Anaal Nathrakh came from Q220",
+   "The inspiration for Anaal Nathrakh came from Q1781",
+   "The inspiration for Anaal Nathrakh came from Q1794",
+   "The inspiration for Anaal Nathrakh came from Q1741",
+   "The inspiration for Anaal Nathrakh came from Q966192",
+   "The inspiration for Anaal Nathrakh came from Q2711986",
+   "The inspiration for Anaal Nathrakh came from Q1781710",
+   "The inspiration for Anaal Nathrakh came from Q60",
+   "The inspiration for Anaal Nathrakh came from Q173695",
+   "The inspiration for Anaal Nathrakh came from Q135572",
+   "The inspiration for Anaal Nathrakh came from Q2598",
+   "The inspiration for Anaal Nathrakh came from Q192265",
+   "The inspiration for Anaal Nathrakh came from Q1792",
+   "The inspiration for Anaal Nathrakh came from Q22905",
+   "The inspiration for Anaal Nathrakh came from Q5838",
+   "The inspiration for Anaal Nathrakh came from Q536598",
+   "The inspiration for Anaal Nathrakh came from Q3316008",
+   "The inspiration for Anaal Nathrakh came from Q1327770",
+   "The inspiration for Anaal Nathrakh came from Q477987",
+   "The inspiration for Anaal Nathrakh came from Q551378",
+   "The inspiration for Anaal Nathrakh came from Q648432",
+   "The inspiration for Anaal Nathrakh came from Q1345",
+   "The inspiration for Anaal Nathrakh came from Q1228829",
+   "The inspiration for Anaal Nathrakh came from Q797437",
+   "The inspiration for Anaal Nathrakh came from Q87",
+   "The inspiration for Anaal Nathrakh came from Q157725",
+   "The inspiration for Anaal Nathrakh came from Q36036",
+   "The inspiration for Anaal Nathrakh came from Q6837",
+   "The inspiration for Anaal Nathrakh came from Q1735",
+   "The inspiration for Anaal Nathrakh came from Q1711",
+   "The inspiration for Anaal Nathrakh came from Q507117",
+   "The inspiration for Anaal Nathrakh came from Q2722267",
+   "The inspiration for Anaal Nathrakh came from Q13666",
+   "The inspiration for Anaal Nathrakh came from Q206988",
+   "The inspiration for Anaal Nathrakh came from Q1715",
+   "The inspiration for Anaal Nathrakh came from Q265332",
+   "The inspiration for Anaal Nathrakh came from Q745594",
+   "The inspiration for Anaal Nathrakh came from Q13373",
+   "The inspiration for Anaal Nathrakh came from Q725261",
+   "The inspiration for Anaal Nathrakh came from Q572595",
+   "The inspiration for Anaal Nathrakh came from Q576671",
+   "The inspiration for Anaal Nathrakh came from Q2453742",
+   "The inspiration for Anaal Nathrakh came from Q7880",
+   "The inspiration for Anaal Nathrakh came from Q184163",
+   "The inspiration for Anaal Nathrakh came from Q997335",
+   "The inspiration for Anaal Nathrakh came from Q26339",
+   "The inspiration for Anaal Nathrakh came from Q845623",
+   "The inspiration for Anaal Nathrakh came from Q64589",
+   "The inspiration for Anaal Nathrakh came from Q1720",
+   "The inspiration for Anaal Nathrakh came from Q835831",
+   "The inspiration for Anaal Nathrakh came from Q487977",
+   "The inspiration for Anaal Nathrakh came from Q2256",
+   "The inspiration for Anaal Nathrakh came from Q6346",
+   "The inspiration for Anaal Nathrakh came from Q161994",
+   "The inspiration for Anaal Nathrakh came from Q34615",
+   "The inspiration for Anaal Nathrakh came from Q47554",
+   "The inspiration for Anaal Nathrakh came from Q194420",
+   "The inspiration for Anaal Nathrakh came from Q197691",
+   "The inspiration for Anaal Nathrakh came from Q7027",
+   "The inspiration for Anaal Nathrakh came from Q270",
+   "The inspiration for Anaal Nathrakh came from Q1828035",
+   "The inspiration for Anaal Nathrakh came from Q1022",
+   "The inspiration for Anaal Nathrakh came from Q7473516",
+   "The inspiration for Anaal Nathrakh came from Q181704",
+   "The inspiration for Anaal Nathrakh came from Q72",
+   "The inspiration for Anaal Nathrakh came from Q2683",
+   "The inspiration for Anaal Nathrakh came from Q467617",
+   "The inspiration for Anaal Nathrakh came from Q42168",
+   "The inspiration for Anaal Nathrakh came from Q153494",
+   "The inspiration for Anaal Nathrakh came from Q13362",
+   "The inspiration for Anaal Nathrakh came from Q484552",
+   "The inspiration for Anaal Nathrakh came from Q320233",
+   "The inspiration for Anaal Nathrakh came from Q1297",
+   "The inspiration for Anaal Nathrakh came from Q2865",
+   "The inspiration for Anaal Nathrakh came from Q16568",
+   "The inspiration for Anaal Nathrakh came from Q4093",
+   "The inspiration for Anaal Nathrakh came from Q319397",
+   "The inspiration for Anaal Nathrakh came from Q212856",
+   "The inspiration for Anaal Nathrakh came from Q90",
+   "The inspiration for Anaal Nathrakh came from Q1807458",
+   "The inspiration for Anaal Nathrakh came from Q5839",
+   "The inspiration for Anaal Nathrakh came from Q2861",
+   "The inspiration for Anaal Nathrakh came from Q504875",
+   "The inspiration for Anaal Nathrakh came from Q105048",
+   "The inspiration for Anaal Nathrakh came from Q3619316",
+   "The inspiration for Anaal Nathrakh came from Q287148",
+   "The inspiration for Anaal Nathrakh came from Q630668",
+   "The inspiration for Anaal Nathrakh came from Q40898",
+   "The inspiration for Anaal Nathrakh came from Q734064",
+   "The inspiration for Anaal Nathrakh came from Q1537",
+   "The inspiration for Anaal Nathrakh came from Q375314"
+  ],
+  [
+   [
+    -62.44379806518555
+   ],
+   [
+    -61.16869354248047
+   ],
+   [
+    -63.37470245361328
+   ],
+   [
+    -58.9247932434082
+   ],
+   [
+    -64.79034423828125
+   ],
+   [
+    -61.621429443359375
+   ],
+   [
+    -60.64719772338867
+   ],
+   [
+    -59.661598205566406
+   ],
+   [
+    -66.237060546875
+   ],
+   [
+    -56.03950500488281
+   ],
+   [
+    -59.473472595214844
+   ],
+   [
+    -60.597312927246094
+   ],
+   [
+    -61.724300384521484
+   ],
+   [
+    -61.49359130859375
+   ],
+   [
+    -64.96862030029297
+   ],
+   [
+    -65.88972473144531
+   ],
+   [
+    -59.69682312011719
+   ],
+   [
+    -62.439537048339844
+   ],
+   [
+    -60.04146957397461
+   ],
+   [
+    -65.0303955078125
+   ],
+   [
+    -64.31591796875
+   ],
+   [
+    -68.29212951660156
+   ],
+   [
+    -55.65705108642578
+   ],
+   [
+    -56.14103698730469
+   ],
+   [
+    -55.12353515625
+   ],
+   [
+    -59.03207015991211
+   ],
+   [
+    -56.24383544921875
+   ],
+   [
+    -62.39592361450195
+   ],
+   [
+    -65.80429077148438
+   ],
+   [
+    -66.4405288696289
+   ],
+   [
+    -66.89717864990234
+   ],
+   [
+    -60.97235870361328
+   ],
+   [
+    -67.1043701171875
+   ],
+   [
+    -59.53357696533203
+   ],
+   [
+    -58.56658172607422
+   ],
+   [
+    -62.45243835449219
+   ],
+   [
+    -55.24577713012695
+   ],
+   [
+    -56.34526062011719
+   ],
+   [
+    -60.63538360595703
+   ],
+   [
+    -51.965179443359375
+   ],
+   [
+    -60.527400970458984
+   ],
+   [
+    -59.861656188964844
+   ],
+   [
+    -64.05824279785156
+   ],
+   [
+    -61.00118637084961
+   ],
+   [
+    -63.802120208740234
+   ],
+   [
+    -62.26407241821289
+   ],
+   [
+    -61.25127410888672
+   ],
+   [
+    -64.00462341308594
+   ],
+   [
+    -61.69870376586914
+   ],
+   [
+    -65.37203979492188
+   ],
+   [
+    -62.76523208618164
+   ],
+   [
+    -64.35499572753906
+   ],
+   [
+    -58.68587112426758
+   ],
+   [
+    -57.17909240722656
+   ],
+   [
+    -56.425777435302734
+   ],
+   [
+    -63.99714279174805
+   ],
+   [
+    -63.70439147949219
+   ],
+   [
+    -65.57129669189453
+   ],
+   [
+    -65.13639831542969
+   ],
+   [
+    -64.75753021240234
+   ],
+   [
+    -66.08966064453125
+   ],
+   [
+    -62.27914810180664
+   ],
+   [
+    -63.11746597290039
+   ],
+   [
+    -56.47052001953125
+   ],
+   [
+    -56.579185485839844
+   ],
+   [
+    -56.494991302490234
+   ],
+   [
+    -62.2420539855957
+   ],
+   [
+    -63.17282485961914
+   ],
+   [
+    -57.20457458496094
+   ],
+   [
+    -61.43454360961914
+   ],
+   [
+    -66.25223541259766
+   ],
+   [
+    -63.317230224609375
+   ],
+   [
+    -59.58312225341797
+   ],
+   [
+    -60.37742233276367
+   ],
+   [
+    -57.66499328613281
+   ],
+   [
+    -63.64558029174805
+   ],
+   [
+    -57.41006851196289
+   ],
+   [
+    -59.95353698730469
+   ],
+   [
+    -59.88457489013672
+   ],
+   [
+    -63.32494354248047
+   ],
+   [
+    -56.41942596435547
+   ],
+   [
+    -62.21627426147461
+   ],
+   [
+    -62.037776947021484
+   ],
+   [
+    -64.56304931640625
+   ],
+   [
+    -56.34196090698242
+   ],
+   [
+    -59.211875915527344
+   ],
+   [
+    -62.78038787841797
+   ],
+   [
+    -60.79420852661133
+   ],
+   [
+    -65.60578918457031
+   ],
+   [
+    -61.28936767578125
+   ],
+   [
+    -60.67073059082031
+   ],
+   [
+    -66.31038665771484
+   ],
+   [
+    -62.100189208984375
+   ],
+   [
+    -56.5618896484375
+   ],
+   [
+    -63.2041130065918
+   ],
+   [
+    -59.65956115722656
+   ],
+   [
+    -43.67664337158203
+   ],
+   [
+    -57.958953857421875
+   ],
+   [
+    -64.41634368896484
+   ],
+   [
+    -60.05440139770508
+   ],
+   [
+    -69.15630340576172
+   ],
+   [
+    -64.3577880859375
+   ],
+   [
+    -56.15202713012695
+   ],
+   [
+    -62.62119674682617
+   ],
+   [
+    -60.93087387084961
+   ],
+   [
+    -59.772647857666016
+   ],
+   [
+    -56.686767578125
+   ],
+   [
+    -57.936614990234375
+   ],
+   [
+    -64.14845275878906
+   ],
+   [
+    -64.14694213867188
+   ],
+   [
+    -58.280860900878906
+   ],
+   [
+    -67.02668762207031
+   ],
+   [
+    -57.366432189941406
+   ],
+   [
+    -56.73355484008789
+   ],
+   [
+    -54.73995590209961
+   ],
+   [
+    -53.171485900878906
+   ],
+   [
+    -60.0844612121582
+   ],
+   [
+    -64.12077331542969
+   ],
+   [
+    -60.55232238769531
+   ],
+   [
+    -52.39415740966797
+   ],
+   [
+    -55.66526412963867
+   ],
+   [
+    -56.754119873046875
+   ],
+   [
+    -61.3397216796875
+   ],
+   [
+    -62.077781677246094
+   ],
+   [
+    -61.352745056152344
+   ],
+   [
+    -61.66166687011719
+   ],
+   [
+    -68.00487518310547
+   ],
+   [
+    -60.853271484375
+   ],
+   [
+    -60.55327606201172
+   ],
+   [
+    -59.34824752807617
+   ],
+   [
+    -64.7547607421875
+   ],
+   [
+    -57.72700500488281
+   ],
+   [
+    -64.52566528320312
+   ],
+   [
+    -57.581077575683594
+   ],
+   [
+    -63.659244537353516
+   ],
+   [
+    -65.75670623779297
+   ],
+   [
+    -65.6388931274414
+   ],
+   [
+    -62.9242057800293
+   ],
+   [
+    -61.61274337768555
+   ],
+   [
+    -65.52899169921875
+   ],
+   [
+    -55.806678771972656
+   ],
+   [
+    -52.77661895751953
+   ],
+   [
+    -52.86737060546875
+   ],
+   [
+    -55.86421203613281
+   ],
+   [
+    -55.148895263671875
+   ],
+   [
+    -56.31236267089844
+   ],
+   [
+    -63.22077560424805
+   ],
+   [
+    -66.06139373779297
+   ],
+   [
+    -64.29454040527344
+   ],
+   [
+    -53.918724060058594
+   ],
+   [
+    -61.65275955200195
+   ],
+   [
+    -62.78342819213867
+   ],
+   [
+    -55.98925018310547
+   ],
+   [
+    -62.438411712646484
+   ],
+   [
+    -55.42195129394531
+   ],
+   [
+    -59.8701171875
+   ],
+   [
+    -58.810264587402344
+   ],
+   [
+    -65.06431579589844
+   ],
+   [
+    -66.59622955322266
+   ],
+   [
+    -65.62885284423828
+   ],
+   [
+    -62.77061080932617
+   ],
+   [
+    -64.37409973144531
+   ],
+   [
+    -65.72761535644531
+   ],
+   [
+    -56.582176208496094
+   ],
+   [
+    -64.204345703125
+   ],
+   [
+    -63.67112731933594
+   ],
+   [
+    -52.32758331298828
+   ],
+   [
+    -62.12691879272461
+   ],
+   [
+    -60.78561782836914
+   ],
+   [
+    -61.50408172607422
+   ],
+   [
+    -55.90897750854492
+   ],
+   [
+    -55.378684997558594
+   ],
+   [
+    -63.925392150878906
+   ],
+   [
+    -66.0626220703125
+   ],
+   [
+    -58.80916213989258
+   ],
+   [
+    -60.69684600830078
+   ],
+   [
+    -56.08226776123047
+   ],
+   [
+    -63.207847595214844
+   ],
+   [
+    -64.07341003417969
+   ],
+   [
+    -59.255828857421875
+   ],
+   [
+    -64.76739501953125
+   ],
+   [
+    -63.758506774902344
+   ],
+   [
+    -63.53614807128906
+   ],
+   [
+    -66.04839324951172
+   ],
+   [
+    -58.68932342529297
+   ],
+   [
+    -62.905338287353516
+   ],
+   [
+    -63.73653030395508
+   ],
+   [
+    -61.1811408996582
+   ],
+   [
+    -64.33973693847656
+   ],
+   [
+    -64.3367691040039
+   ],
+   [
+    -55.89430236816406
+   ],
+   [
+    -64.66815185546875
+   ],
+   [
+    -62.95114517211914
+   ],
+   [
+    -56.90340805053711
+   ],
+   [
+    -61.40351867675781
+   ],
+   [
+    -61.0482292175293
+   ],
+   [
+    -59.67919158935547
+   ],
+   [
+    -59.797935485839844
+   ],
+   [
+    -62.90012741088867
+   ],
+   [
+    -63.887489318847656
+   ],
+   [
+    -59.376163482666016
+   ],
+   [
+    -53.92387390136719
+   ],
+   [
+    -64.06570434570312
+   ],
+   [
+    -55.91209411621094
+   ],
+   [
+    -66.18270874023438
+   ],
+   [
+    -62.361324310302734
+   ],
+   [
+    -52.64653778076172
+   ],
+   [
+    -58.3062858581543
+   ],
+   [
+    -63.43057632446289
+   ],
+   [
+    -60.652286529541016
+   ],
+   [
+    -62.435115814208984
+   ],
+   [
+    -61.068275451660156
+   ],
+   [
+    -62.554527282714844
+   ],
+   [
+    -62.60447311401367
+   ],
+   [
+    -56.69855499267578
+   ],
+   [
+    -57.322452545166016
+   ],
+   [
+    -60.722312927246094
+   ],
+   [
+    -57.16576385498047
+   ],
+   [
+    -62.427589416503906
+   ],
+   [
+    -61.7609977722168
+   ],
+   [
+    -51.745025634765625
+   ],
+   [
+    -66.36699676513672
+   ],
+   [
+    -58.773902893066406
+   ],
+   [
+    -57.24357604980469
+   ],
+   [
+    -63.937255859375
+   ],
+   [
+    -63.0627326965332
+   ],
+   [
+    -67.06096649169922
+   ],
+   [
+    -62.420230865478516
+   ],
+   [
+    -66.54285430908203
+   ],
+   [
+    -60.098060607910156
+   ],
+   [
+    -64.459228515625
+   ],
+   [
+    -56.752296447753906
+   ],
+   [
+    -62.664154052734375
+   ],
+   [
+    -77.77159118652344
+   ],
+   [
+    -76.67585754394531
+   ],
+   [
+    -82.58071899414062
+   ],
+   [
+    -76.38689422607422
+   ],
+   [
+    -83.02576446533203
+   ],
+   [
+    -78.28311157226562
+   ],
+   [
+    -77.75942993164062
+   ],
+   [
+    -76.20745849609375
+   ],
+   [
+    -81.67007446289062
+   ],
+   [
+    -72.27421569824219
+   ],
+   [
+    -76.8089828491211
+   ],
+   [
+    -79.1889419555664
+   ],
+   [
+    -77.9295883178711
+   ],
+   [
+    -76.50870513916016
+   ],
+   [
+    -81.8335952758789
+   ],
+   [
+    -82.70932006835938
+   ],
+   [
+    -76.44993591308594
+   ],
+   [
+    -79.654052734375
+   ],
+   [
+    -77.65452575683594
+   ],
+   [
+    -80.12239837646484
+   ],
+   [
+    -80.86658477783203
+   ],
+   [
+    -84.0260009765625
+   ],
+   [
+    -74.15530395507812
+   ],
+   [
+    -74.17105102539062
+   ],
+   [
+    -73.10293579101562
+   ],
+   [
+    -75.68363952636719
+   ],
+   [
+    -73.49202728271484
+   ],
+   [
+    -79.87483215332031
+   ],
+   [
+    -82.56298828125
+   ],
+   [
+    -82.76359558105469
+   ],
+   [
+    -83.58628845214844
+   ],
+   [
+    -76.78103637695312
+   ],
+   [
+    -85.80902862548828
+   ],
+   [
+    -75.59049987792969
+   ],
+   [
+    -76.36151123046875
+   ],
+   [
+    -80.55337524414062
+   ],
+   [
+    -73.55381774902344
+   ],
+   [
+    -74.21421813964844
+   ],
+   [
+    -77.27606201171875
+   ],
+   [
+    -69.02394104003906
+   ],
+   [
+    -76.8209228515625
+   ],
+   [
+    -75.42396545410156
+   ],
+   [
+    -82.19671630859375
+   ],
+   [
+    -78.30889892578125
+   ],
+   [
+    -78.98516845703125
+   ],
+   [
+    -79.85881042480469
+   ],
+   [
+    -76.7469253540039
+   ],
+   [
+    -79.58995056152344
+   ],
+   [
+    -79.47090148925781
+   ],
+   [
+    -82.26454162597656
+   ],
+   [
+    -80.14205932617188
+   ],
+   [
+    -82.06474304199219
+   ],
+   [
+    -75.60215759277344
+   ],
+   [
+    -75.25865173339844
+   ],
+   [
+    -72.63949584960938
+   ],
+   [
+    -80.58355712890625
+   ],
+   [
+    -81.49058532714844
+   ],
+   [
+    -83.22491455078125
+   ],
+   [
+    -81.95065307617188
+   ],
+   [
+    -81.43495178222656
+   ],
+   [
+    -81.63145446777344
+   ],
+   [
+    -78.64810180664062
+   ],
+   [
+    -79.775390625
+   ],
+   [
+    -73.80475616455078
+   ],
+   [
+    -74.11430358886719
+   ],
+   [
+    -75.62855529785156
+   ],
+   [
+    -78.69259643554688
+   ],
+   [
+    -80.61576843261719
+   ],
+   [
+    -74.78530883789062
+   ],
+   [
+    -80.19717407226562
+   ],
+   [
+    -81.96424865722656
+   ],
+   [
+    -79.20234680175781
+   ],
+   [
+    -76.18428039550781
+   ],
+   [
+    -78.76607513427734
+   ],
+   [
+    -74.3260498046875
+   ],
+   [
+    -79.3961181640625
+   ],
+   [
+    -74.64041137695312
+   ],
+   [
+    -75.51870727539062
+   ],
+   [
+    -81.56198120117188
+   ],
+   [
+    -79.266357421875
+   ],
+   [
+    -74.26327514648438
+   ],
+   [
+    -79.95039367675781
+   ],
+   [
+    -78.93031311035156
+   ],
+   [
+    -81.55718994140625
+   ],
+   [
+    -73.97735595703125
+   ],
+   [
+    -77.15283203125
+   ],
+   [
+    -78.88888549804688
+   ],
+   [
+    -78.03556823730469
+   ],
+   [
+    -81.71482849121094
+   ],
+   [
+    -76.87141418457031
+   ],
+   [
+    -76.90452575683594
+   ],
+   [
+    -81.98391723632812
+   ],
+   [
+    -79.28901672363281
+   ],
+   [
+    -74.2374038696289
+   ],
+   [
+    -79.11553955078125
+   ],
+   [
+    -76.48875427246094
+   ],
+   [
+    -62.11566162109375
+   ],
+   [
+    -74.96347045898438
+   ],
+   [
+    -79.52557373046875
+   ],
+   [
+    -76.73749542236328
+   ],
+   [
+    -84.75300598144531
+   ],
+   [
+    -81.08941650390625
+   ],
+   [
+    -73.30329895019531
+   ],
+   [
+    -79.83699035644531
+   ],
+   [
+    -78.53819274902344
+   ],
+   [
+    -76.96123504638672
+   ],
+   [
+    -74.68452453613281
+   ],
+   [
+    -74.76469421386719
+   ],
+   [
+    -81.09957885742188
+   ],
+   [
+    -79.94686889648438
+   ],
+   [
+    -75.18229675292969
+   ],
+   [
+    -82.10360717773438
+   ],
+   [
+    -73.93328857421875
+   ],
+   [
+    -73.90966796875
+   ],
+   [
+    -71.75697326660156
+   ],
+   [
+    -70.2419662475586
+   ],
+   [
+    -77.71589660644531
+   ],
+   [
+    -79.38389587402344
+   ],
+   [
+    -77.14747619628906
+   ],
+   [
+    -69.74872589111328
+   ],
+   [
+    -74.09054565429688
+   ],
+   [
+    -74.68333435058594
+   ],
+   [
+    -76.70547485351562
+   ],
+   [
+    -77.4058609008789
+   ],
+   [
+    -76.45263671875
+   ],
+   [
+    -78.69192504882812
+   ],
+   [
+    -85.88168334960938
+   ],
+   [
+    -77.03445434570312
+   ],
+   [
+    -75.76580810546875
+   ],
+   [
+    -76.57469177246094
+   ],
+   [
+    -79.37994384765625
+   ],
+   [
+    -74.287841796875
+   ],
+   [
+    -81.59967803955078
+   ],
+   [
+    -75.29782104492188
+   ],
+   [
+    -80.52568054199219
+   ],
+   [
+    -82.39373016357422
+   ],
+   [
+    -81.9453125
+   ],
+   [
+    -79.20204162597656
+   ],
+   [
+    -79.20353698730469
+   ],
+   [
+    -81.59320068359375
+   ],
+   [
+    -73.13862609863281
+   ],
+   [
+    -70.54096984863281
+   ],
+   [
+    -71.06868743896484
+   ],
+   [
+    -73.93559265136719
+   ],
+   [
+    -74.26615905761719
+   ],
+   [
+    -74.27455139160156
+   ],
+   [
+    -82.01045227050781
+   ],
+   [
+    -82.15201568603516
+   ],
+   [
+    -81.49669647216797
+   ],
+   [
+    -70.65731811523438
+   ],
+   [
+    -79.2312240600586
+   ],
+   [
+    -77.36367797851562
+   ],
+   [
+    -73.77227783203125
+   ],
+   [
+    -78.81562805175781
+   ],
+   [
+    -73.84217834472656
+   ],
+   [
+    -76.8026123046875
+   ],
+   [
+    -74.37336730957031
+   ],
+   [
+    -80.17999267578125
+   ],
+   [
+    -80.79783630371094
+   ],
+   [
+    -80.83869934082031
+   ],
+   [
+    -78.19723510742188
+   ],
+   [
+    -79.37310791015625
+   ],
+   [
+    -82.498046875
+   ],
+   [
+    -71.35200500488281
+   ],
+   [
+    -81.22059631347656
+   ],
+   [
+    -80.004150390625
+   ],
+   [
+    -69.69692993164062
+   ],
+   [
+    -79.61327362060547
+   ],
+   [
+    -77.67440795898438
+   ],
+   [
+    -78.29246520996094
+   ],
+   [
+    -74.16775512695312
+   ],
+   [
+    -73.74785614013672
+   ],
+   [
+    -79.24024963378906
+   ],
+   [
+    -82.13871765136719
+   ],
+   [
+    -74.32626342773438
+   ],
+   [
+    -79.94500732421875
+   ],
+   [
+    -73.99163818359375
+   ],
+   [
+    -79.7374267578125
+   ],
+   [
+    -79.64366149902344
+   ],
+   [
+    -75.25267028808594
+   ],
+   [
+    -80.1380844116211
+   ],
+   [
+    -79.81517028808594
+   ],
+   [
+    -79.98388671875
+   ],
+   [
+    -81.3448257446289
+   ],
+   [
+    -75.62556457519531
+   ],
+   [
+    -79.88151550292969
+   ],
+   [
+    -80.90777587890625
+   ],
+   [
+    -78.16864013671875
+   ],
+   [
+    -80.91326904296875
+   ],
+   [
+    -80.60536193847656
+   ],
+   [
+    -73.92227172851562
+   ],
+   [
+    -81.1607894897461
+   ],
+   [
+    -79.59254455566406
+   ],
+   [
+    -73.93788146972656
+   ],
+   [
+    -77.48953247070312
+   ],
+   [
+    -79.52186584472656
+   ],
+   [
+    -77.58523559570312
+   ],
+   [
+    -75.12327575683594
+   ],
+   [
+    -79.94075012207031
+   ],
+   [
+    -81.45246887207031
+   ],
+   [
+    -75.45036315917969
+   ],
+   [
+    -70.94956970214844
+   ],
+   [
+    -81.76780700683594
+   ],
+   [
+    -74.12188720703125
+   ],
+   [
+    -82.2908935546875
+   ],
+   [
+    -79.63784790039062
+   ],
+   [
+    -69.01725769042969
+   ],
+   [
+    -75.39878845214844
+   ],
+   [
+    -79.42807006835938
+   ],
+   [
+    -77.10639953613281
+   ],
+   [
+    -79.42889404296875
+   ],
+   [
+    -76.12356567382812
+   ],
+   [
+    -78.99571228027344
+   ],
+   [
+    -79.4522705078125
+   ],
+   [
+    -73.82796478271484
+   ],
+   [
+    -74.775634765625
+   ],
+   [
+    -77.40684509277344
+   ],
+   [
+    -73.89908599853516
+   ],
+   [
+    -80.20840454101562
+   ],
+   [
+    -79.62974548339844
+   ],
+   [
+    -68.86006164550781
+   ],
+   [
+    -82.44402313232422
+   ],
+   [
+    -74.35222625732422
+   ],
+   [
+    -74.85128021240234
+   ],
+   [
+    -78.96565246582031
+   ],
+   [
+    -80.48912048339844
+   ],
+   [
+    -84.35063934326172
+   ],
+   [
+    -79.64952850341797
+   ],
+   [
+    -81.9757080078125
+   ],
+   [
+    -76.66890716552734
+   ],
+   [
+    -80.38276672363281
+   ],
+   [
+    -74.48341369628906
+   ],
+   [
+    -79.72639465332031
+   ],
+   [
+    -66.2872543334961
+   ],
+   [
+    -65.57258605957031
+   ],
+   [
+    -70.97340393066406
+   ],
+   [
+    -63.23503494262695
+   ],
+   [
+    -69.54579162597656
+   ],
+   [
+    -65.35572814941406
+   ],
+   [
+    -63.1217041015625
+   ],
+   [
+    -62.07664489746094
+   ],
+   [
+    -73.27186584472656
+   ],
+   [
+    -58.355743408203125
+   ],
+   [
+    -65.08660125732422
+   ],
+   [
+    -64.87411499023438
+   ],
+   [
+    -67.05438232421875
+   ],
+   [
+    -64.9188003540039
+   ],
+   [
+    -70.39309692382812
+   ],
+   [
+    -69.27873992919922
+   ],
+   [
+    -63.48653030395508
+   ],
+   [
+    -67.68350219726562
+   ],
+   [
+    -65.16187286376953
+   ],
+   [
+    -72.31886291503906
+   ],
+   [
+    -67.3511962890625
+   ],
+   [
+    -72.10838317871094
+   ],
+   [
+    -63.491676330566406
+   ],
+   [
+    -59.271793365478516
+   ],
+   [
+    -59.00565719604492
+   ],
+   [
+    -61.99376678466797
+   ],
+   [
+    -59.89110565185547
+   ],
+   [
+    -68.12041473388672
+   ],
+   [
+    -71.51266479492188
+   ],
+   [
+    -70.89130401611328
+   ],
+   [
+    -75.44629669189453
+   ],
+   [
+    -65.87745666503906
+   ],
+   [
+    -72.25062561035156
+   ],
+   [
+    -62.29804229736328
+   ],
+   [
+    -63.858436584472656
+   ],
+   [
+    -67.45455932617188
+   ],
+   [
+    -59.04998016357422
+   ],
+   [
+    -57.679683685302734
+   ],
+   [
+    -64.38882446289062
+   ],
+   [
+    -53.612003326416016
+   ],
+   [
+    -63.6175651550293
+   ],
+   [
+    -62.86234664916992
+   ],
+   [
+    -69.07601928710938
+   ],
+   [
+    -65.51614379882812
+   ],
+   [
+    -68.94727325439453
+   ],
+   [
+    -65.5022201538086
+   ],
+   [
+    -65.2967529296875
+   ],
+   [
+    -70.04377746582031
+   ],
+   [
+    -66.62184143066406
+   ],
+   [
+    -71.27542877197266
+   ],
+   [
+    -68.69966125488281
+   ],
+   [
+    -71.86778259277344
+   ],
+   [
+    -61.43891906738281
+   ],
+   [
+    -59.5623664855957
+   ],
+   [
+    -57.49633026123047
+   ],
+   [
+    -70.08193969726562
+   ],
+   [
+    -70.66117858886719
+   ],
+   [
+    -69.78083801269531
+   ],
+   [
+    -71.12673950195312
+   ],
+   [
+    -69.5491943359375
+   ],
+   [
+    -72.46377563476562
+   ],
+   [
+    -67.0772933959961
+   ],
+   [
+    -67.84251403808594
+   ],
+   [
+    -59.554893493652344
+   ],
+   [
+    -61.15615463256836
+   ],
+   [
+    -58.638648986816406
+   ],
+   [
+    -65.06175994873047
+   ],
+   [
+    -69.38827514648438
+   ],
+   [
+    -59.76185607910156
+   ],
+   [
+    -67.92118835449219
+   ],
+   [
+    -72.03411102294922
+   ],
+   [
+    -68.39544677734375
+   ],
+   [
+    -64.14230346679688
+   ],
+   [
+    -66.45051574707031
+   ],
+   [
+    -61.47251892089844
+   ],
+   [
+    -69.38182067871094
+   ],
+   [
+    -60.64142608642578
+   ],
+   [
+    -62.2360954284668
+   ],
+   [
+    -68.41355895996094
+   ],
+   [
+    -68.99234008789062
+   ],
+   [
+    -59.16008377075195
+   ],
+   [
+    -66.62196350097656
+   ],
+   [
+    -63.982032775878906
+   ],
+   [
+    -68.81851959228516
+   ],
+   [
+    -59.57242202758789
+   ],
+   [
+    -63.15703582763672
+   ],
+   [
+    -68.48616027832031
+   ],
+   [
+    -63.860443115234375
+   ],
+   [
+    -69.40968322753906
+   ],
+   [
+    -65.2679443359375
+   ],
+   [
+    -63.455562591552734
+   ],
+   [
+    -70.22552490234375
+   ],
+   [
+    -66.4259033203125
+   ],
+   [
+    -59.53815841674805
+   ],
+   [
+    -67.78023529052734
+   ],
+   [
+    -64.89955139160156
+   ],
+   [
+    -47.050636291503906
+   ],
+   [
+    -59.41157913208008
+   ],
+   [
+    -67.75392150878906
+   ],
+   [
+    -65.001220703125
+   ],
+   [
+    -73.09095001220703
+   ],
+   [
+    -69.74649047851562
+   ],
+   [
+    -60.12603759765625
+   ],
+   [
+    -68.14923095703125
+   ],
+   [
+    -65.8636245727539
+   ],
+   [
+    -63.76348876953125
+   ],
+   [
+    -59.78147506713867
+   ],
+   [
+    -59.28548812866211
+   ],
+   [
+    -66.07791137695312
+   ],
+   [
+    -70.20553588867188
+   ],
+   [
+    -64.02153015136719
+   ],
+   [
+    -73.05836486816406
+   ],
+   [
+    -62.569114685058594
+   ],
+   [
+    -59.93642044067383
+   ],
+   [
+    -58.89366912841797
+   ],
+   [
+    -57.44184494018555
+   ],
+   [
+    -65.72190856933594
+   ],
+   [
+    -70.02488708496094
+   ],
+   [
+    -64.82365417480469
+   ],
+   [
+    -54.01177978515625
+   ],
+   [
+    -59.14323806762695
+   ],
+   [
+    -59.48419189453125
+   ],
+   [
+    -65.97915649414062
+   ],
+   [
+    -67.2442855834961
+   ],
+   [
+    -64.89907836914062
+   ],
+   [
+    -64.53873443603516
+   ],
+   [
+    -72.22097778320312
+   ],
+   [
+    -64.70510864257812
+   ],
+   [
+    -63.48736572265625
+   ],
+   [
+    -62.464988708496094
+   ],
+   [
+    -68.38549041748047
+   ],
+   [
+    -61.66453552246094
+   ],
+   [
+    -68.58065032958984
+   ],
+   [
+    -60.36307907104492
+   ],
+   [
+    -67.50921630859375
+   ],
+   [
+    -68.45584106445312
+   ],
+   [
+    -70.9918212890625
+   ],
+   [
+    -68.03047180175781
+   ],
+   [
+    -66.11468505859375
+   ],
+   [
+    -72.28202819824219
+   ],
+   [
+    -57.94462585449219
+   ],
+   [
+    -55.542205810546875
+   ],
+   [
+    -55.081260681152344
+   ],
+   [
+    -59.45412063598633
+   ],
+   [
+    -59.1873893737793
+   ],
+   [
+    -59.50490188598633
+   ],
+   [
+    -67.60429382324219
+   ],
+   [
+    -70.9784927368164
+   ],
+   [
+    -69.75056457519531
+   ],
+   [
+    -57.78601837158203
+   ],
+   [
+    -66.36456298828125
+   ],
+   [
+    -66.22265625
+   ],
+   [
+    -60.77505874633789
+   ],
+   [
+    -66.86448669433594
+   ],
+   [
+    -58.30061340332031
+   ],
+   [
+    -63.57314682006836
+   ],
+   [
+    -61.98678207397461
+   ],
+   [
+    -68.68262481689453
+   ],
+   [
+    -69.32109069824219
+   ],
+   [
+    -69.98414611816406
+   ],
+   [
+    -67.38333129882812
+   ],
+   [
+    -68.37716674804688
+   ],
+   [
+    -73.6182632446289
+   ],
+   [
+    -59.06132125854492
+   ],
+   [
+    -68.90328979492188
+   ],
+   [
+    -67.48950958251953
+   ],
+   [
+    -53.20939254760742
+   ],
+   [
+    -67.66634368896484
+   ],
+   [
+    -62.719642639160156
+   ],
+   [
+    -67.41323852539062
+   ],
+   [
+    -59.54835891723633
+   ],
+   [
+    -58.87039566040039
+   ],
+   [
+    -68.38555908203125
+   ],
+   [
+    -71.68069458007812
+   ],
+   [
+    -60.38357162475586
+   ],
+   [
+    -67.82035827636719
+   ],
+   [
+    -59.33797073364258
+   ],
+   [
+    -68.0748291015625
+   ],
+   [
+    -67.65876770019531
+   ],
+   [
+    -61.759822845458984
+   ],
+   [
+    -67.5792236328125
+   ],
+   [
+    -68.43508911132812
+   ],
+   [
+    -68.35594940185547
+   ],
+   [
+    -69.62943267822266
+   ],
+   [
+    -61.3482666015625
+   ],
+   [
+    -68.21441650390625
+   ],
+   [
+    -69.20013427734375
+   ],
+   [
+    -65.21327209472656
+   ],
+   [
+    -67.64529418945312
+   ],
+   [
+    -70.06932830810547
+   ],
+   [
+    -59.08985137939453
+   ],
+   [
+    -67.58494567871094
+   ],
+   [
+    -69.16915893554688
+   ],
+   [
+    -59.076263427734375
+   ],
+   [
+    -65.78761291503906
+   ],
+   [
+    -68.32357788085938
+   ],
+   [
+    -63.19657516479492
+   ],
+   [
+    -64.50859069824219
+   ],
+   [
+    -68.5235824584961
+   ],
+   [
+    -67.56351470947266
+   ],
+   [
+    -62.1680908203125
+   ],
+   [
+    -57.29109191894531
+   ],
+   [
+    -70.5470962524414
+   ],
+   [
+    -59.9923210144043
+   ],
+   [
+    -70.5660400390625
+   ],
+   [
+    -66.92874145507812
+   ],
+   [
+    -54.10248947143555
+   ],
+   [
+    -61.882537841796875
+   ],
+   [
+    -69.82645416259766
+   ],
+   [
+    -64.87989807128906
+   ],
+   [
+    -68.07203674316406
+   ],
+   [
+    -64.60203552246094
+   ],
+   [
+    -68.51206970214844
+   ],
+   [
+    -65.48353576660156
+   ],
+   [
+    -59.6796760559082
+   ],
+   [
+    -60.8314094543457
+   ],
+   [
+    -65.6987533569336
+   ],
+   [
+    -61.50059127807617
+   ],
+   [
+    -66.73716735839844
+   ],
+   [
+    -66.35124969482422
+   ],
+   [
+    -53.607879638671875
+   ],
+   [
+    -72.24874877929688
+   ],
+   [
+    -61.98179626464844
+   ],
+   [
+    -60.51869201660156
+   ],
+   [
+    -68.49989318847656
+   ],
+   [
+    -67.06298828125
+   ],
+   [
+    -71.12080383300781
+   ],
+   [
+    -67.16183471679688
+   ],
+   [
+    -71.61003875732422
+   ],
+   [
+    -66.58378601074219
+   ],
+   [
+    -67.5256118774414
+   ],
+   [
+    -61.427490234375
+   ],
+   [
+    -66.01567077636719
+   ]
+  ]
+ ],
+ "time": 185.89251971244812
+}

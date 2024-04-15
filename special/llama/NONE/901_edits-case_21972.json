@@ -1,0 +1,2076 @@
+{
+ "case_id": 21972,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Nikolai Bernstein"
+ },
+ "pre": [
+  [
+   "Nikolai Bernstein's field of work is abstract algebra",
+   "Nikolai Bernstein's field of work is theology",
+   "Nikolai Bernstein's field of work is television program",
+   "Nikolai Bernstein's field of work is nanotechnology",
+   "Nikolai Bernstein's field of work is hydrodynamics",
+   "Nikolai Bernstein's field of work is ethics",
+   "Nikolai Bernstein's field of work is physicist",
+   "Nikolai Bernstein's field of work is evolution",
+   "Nikolai Bernstein's field of work is distribution theory",
+   "Nikolai Bernstein's field of work is psychophysiology",
+   "Nikolai Bernstein's field of work is English literature",
+   "Nikolai Bernstein's field of work is theoretical physics",
+   "Nikolai Bernstein's field of work is essay",
+   "Nikolai Bernstein's field of work is ethnology",
+   "Nikolai Bernstein's field of work is pedagogy",
+   "Nikolai Bernstein's field of work is kinetic theory",
+   "Nikolai Bernstein's field of work is ethnography",
+   "Nikolai Bernstein's field of work is rite",
+   "Nikolai Bernstein's field of work is economics",
+   "Nikolai Bernstein's field of work is dance choreography",
+   "Nikolai Bernstein's field of work is biological anthropology",
+   "Nikolai Bernstein's field of work is history of religions",
+   "Nikolai Bernstein's field of work is political philosophy",
+   "Nikolai Bernstein's field of work is philosophy",
+   "Nikolai Bernstein's field of work is linguistics",
+   "Nikolai Bernstein's field of work is cosmology",
+   "Nikolai Bernstein's field of work is hunting",
+   "Nikolai Bernstein's field of work is Minkowski spacetime",
+   "Nikolai Bernstein's field of work is classical music",
+   "Nikolai Bernstein's field of work is hyperbolic geometry",
+   "Nikolai Bernstein's field of work is radioactivity",
+   "Nikolai Bernstein's field of work is belletristic literature",
+   "Nikolai Bernstein's field of work is model theory",
+   "Nikolai Bernstein's field of work is choreography",
+   "Nikolai Bernstein's field of work is chemistry",
+   "Nikolai Bernstein's field of work is literary activity",
+   "Nikolai Bernstein's field of work is historical sociology",
+   "Nikolai Bernstein's field of work is feminism",
+   "Nikolai Bernstein's field of work is economy",
+   "Nikolai Bernstein's field of work is astronomy",
+   "Nikolai Bernstein's field of work is topology",
+   "Nikolai Bernstein's field of work is translations from English",
+   "Nikolai Bernstein's field of work is partial differential equation",
+   "Nikolai Bernstein's field of work is Cairo Geniza",
+   "Nikolai Bernstein's field of work is nuclear physics",
+   "Nikolai Bernstein's field of work is dance",
+   "Nikolai Bernstein's field of work is informatics",
+   "Nikolai Bernstein's field of work is geometry",
+   "Nikolai Bernstein's field of work is computational geometry",
+   "Nikolai Bernstein's field of work is Sanskrit",
+   "Nikolai Bernstein's field of work is magnetism",
+   "Nikolai Bernstein's field of work is opera",
+   "Nikolai Bernstein's field of work is algebraic topology",
+   "Nikolai Bernstein's field of work is quaternion",
+   "Nikolai Bernstein's field of work is Bayesian inference",
+   "Nikolai Bernstein's field of work is quantum electrodynamics",
+   "Nikolai Bernstein's field of work is religion and society",
+   "Nikolai Bernstein's field of work is history of economic thought",
+   "Nikolai Bernstein's field of work is translations from Polish",
+   "Nikolai Bernstein's field of work is literary translation",
+   "Nikolai Bernstein's field of work is lyric poetry",
+   "Nikolai Bernstein's field of work is probability theory",
+   "Nikolai Bernstein's field of work is ontology",
+   "Nikolai Bernstein's field of work is aerodynamics",
+   "Nikolai Bernstein's field of work is crystallography",
+   "Nikolai Bernstein's field of work is mathematics",
+   "Nikolai Bernstein's field of work is harmonic analysis",
+   "Nikolai Bernstein's field of work is history of science",
+   "Nikolai Bernstein's field of work is philosophy of law",
+   "Nikolai Bernstein's field of work is philology",
+   "Nikolai Bernstein's field of work is optics",
+   "Nikolai Bernstein's field of work is functional analysis",
+   "Nikolai Bernstein's field of work is surgery",
+   "Nikolai Bernstein's field of work is complex function",
+   "Nikolai Bernstein's field of work is Jewish philosophy",
+   "Nikolai Bernstein's field of work is translations from Spanish",
+   "Nikolai Bernstein's field of work is poetry",
+   "Nikolai Bernstein's field of work is distribution",
+   "Nikolai Bernstein's field of work is astrology",
+   "Nikolai Bernstein's field of work is differential geometry",
+   "Nikolai Bernstein's field of work is mechanics",
+   "Nikolai Bernstein's field of work is positivism",
+   "Nikolai Bernstein's field of work is ferromagnetism",
+   "Nikolai Bernstein's field of work is quantum physics",
+   "Nikolai Bernstein's field of work is music theory",
+   "Nikolai Bernstein's field of work is physiology",
+   "Nikolai Bernstein's field of work is theory of differential equations",
+   "Nikolai Bernstein's field of work is astrophysics",
+   "Nikolai Bernstein's field of work is number theory",
+   "Nikolai Bernstein's field of work is magnetic field",
+   "Nikolai Bernstein's field of work is historical novel",
+   "Nikolai Bernstein's field of work is stochastic",
+   "Nikolai Bernstein's field of work is philosopher",
+   "Nikolai Bernstein's field of work is histology",
+   "Nikolai Bernstein's field of work is Franciscan spirituality",
+   "Nikolai Bernstein's field of work is electromagnetic field",
+   "Nikolai Bernstein's field of work is medicine",
+   "Nikolai Bernstein's field of work is algebraic geometry",
+   "Nikolai Bernstein's field of work is comparative mythology",
+   "Nikolai Bernstein's field of work is color photography",
+   "Nikolai Bernstein's field of work is cryptography",
+   "Nikolai Bernstein's field of work is Christian Church",
+   "Nikolai Bernstein's field of work is electrical engineering",
+   "Nikolai Bernstein's field of work is folklore",
+   "Nikolai Bernstein's field of work is mythology",
+   "Nikolai Bernstein's field of work is human geography",
+   "Nikolai Bernstein's field of work is Petrine ministry",
+   "Nikolai Bernstein's field of work is Judaism",
+   "Nikolai Bernstein's field of work is group theory",
+   "Nikolai Bernstein's field of work is non-Euclidean geometry",
+   "Nikolai Bernstein's field of work is algebra",
+   "Nikolai Bernstein's field of work is ballistics",
+   "Nikolai Bernstein's field of work is mathematician",
+   "Nikolai Bernstein's field of work is applied physics",
+   "Nikolai Bernstein's field of work is culturology",
+   "Nikolai Bernstein's field of work is calculus of variations",
+   "Nikolai Bernstein's field of work is logic",
+   "Nikolai Bernstein's field of work is engineering",
+   "Nikolai Bernstein's field of work is translations from Occitan",
+   "Nikolai Bernstein's field of work is anatomy",
+   "Nikolai Bernstein's field of work is forestry science",
+   "Nikolai Bernstein's field of work is magic",
+   "Nikolai Bernstein's field of work is quantum mechanics",
+   "Nikolai Bernstein's field of work is differential calculus",
+   "Nikolai Bernstein's field of work is shipbuilding",
+   "Nikolai Bernstein's field of work is convex function",
+   "Nikolai Bernstein's field of work is analytic philosophy",
+   "Nikolai Bernstein's field of work is magnetic resonance",
+   "Nikolai Bernstein's field of work is detective literature",
+   "Nikolai Bernstein's field of work is cartography",
+   "Nikolai Bernstein's field of work is sociology of organisations",
+   "Nikolai Bernstein's field of work is crime novel",
+   "Nikolai Bernstein's field of work is gravity",
+   "Nikolai Bernstein's field of work is statistics",
+   "Nikolai Bernstein's field of work is Greek philology",
+   "Nikolai Bernstein's field of work is analytic number theory",
+   "Nikolai Bernstein's field of work is trigonometry",
+   "Nikolai Bernstein's field of work is physics",
+   "Nikolai Bernstein's field of work is astronomer",
+   "Nikolai Bernstein's field of work is natural science",
+   "Nikolai Bernstein's field of work is information technology",
+   "Nikolai Bernstein's field of work is conducting",
+   "Nikolai Bernstein's field of work is nonstandard analysis",
+   "Nikolai Bernstein's field of work is mathematical analysis",
+   "Nikolai Bernstein's field of work is a branch of physics",
+   "Nikolai Bernstein's field of work is projective geometry",
+   "Nikolai Bernstein's field of work is civil rights",
+   "Nikolai Bernstein's field of work is children's and youth literature",
+   "Nikolai Bernstein's field of work is embryology",
+   "Nikolai Bernstein's field of work is momentum",
+   "Nikolai Bernstein's field of work is African studies",
+   "Nikolai Bernstein's field of work is fairy tale",
+   "Nikolai Bernstein's field of work is classics",
+   "Nikolai Bernstein's field of work is social psychology",
+   "Nikolai Bernstein's field of work is Jewish studies",
+   "Nikolai Bernstein's field of work is silviculture",
+   "Nikolai Bernstein's field of work is education",
+   "Nikolai Bernstein's field of work is literature",
+   "Nikolai Bernstein's field of work is constitutional law",
+   "Nikolai Bernstein's field of work is radiation",
+   "Nikolai Bernstein's field of work is Internet",
+   "Nikolai Bernstein's field of work is heat",
+   "Nikolai Bernstein's field of work is mechanical engineering",
+   "Nikolai Bernstein's field of work is forestry",
+   "Nikolai Bernstein's field of work is jazz",
+   "Nikolai Bernstein's field of work is social philosophy",
+   "Nikolai Bernstein's field of work is mathematical physics",
+   "Nikolai Bernstein's field of work is meteorology",
+   "Nikolai Bernstein's field of work is translations from Arabic language",
+   "Nikolai Bernstein's field of work is quantum mysticism",
+   "Nikolai Bernstein's field of work is politics",
+   "Nikolai Bernstein's field of work is astronomical observation",
+   "Nikolai Bernstein's field of work is myth",
+   "Nikolai Bernstein's field of work is geography",
+   "Nikolai Bernstein's field of work is sociology of religion",
+   "Nikolai Bernstein's field of work is comparative religion",
+   "Nikolai Bernstein's field of work is Greek",
+   "Nikolai Bernstein's field of work is Lie algebra",
+   "Nikolai Bernstein's field of work is complex manifold",
+   "Nikolai Bernstein's field of work is journalism",
+   "Nikolai Bernstein's field of work is celestial mechanics",
+   "Nikolai Bernstein's field of work is String",
+   "Nikolai Bernstein's field of work is mathematical logic",
+   "Nikolai Bernstein's field of work is aeromechanics",
+   "Nikolai Bernstein's field of work is English",
+   "Nikolai Bernstein's field of work is history",
+   "Nikolai Bernstein's field of work is study of history",
+   "Nikolai Bernstein's field of work is genetics",
+   "Nikolai Bernstein's field of work is psychology",
+   "Nikolai Bernstein's field of work is theory of relativity",
+   "Nikolai Bernstein's field of work is biochemistry",
+   "Nikolai Bernstein's field of work is ballet",
+   "Nikolai Bernstein's field of work is electricity",
+   "Nikolai Bernstein's field of work is experimental physics",
+   "Nikolai Bernstein's field of work is natural theology",
+   "Nikolai Bernstein's field of work is Hebrew",
+   "Nikolai Bernstein's field of work is prose",
+   "Nikolai Bernstein's field of work is paleontology",
+   "Nikolai Bernstein's field of work is Monte Carlo method",
+   "Nikolai Bernstein's field of work is quantum theory",
+   "Nikolai Bernstein's field of work is computer science",
+   "Nikolai Bernstein's field of work is cybernetics",
+   "Nikolai Bernstein's field of work is Afghanistan",
+   "Nikolai Bernstein's field of work is philosophy of science",
+   "Nikolai Bernstein's field of work is literary theory",
+   "Nikolai Bernstein's field of work is electric field",
+   "Nikolai Bernstein's field of work is religion",
+   "Nikolai Bernstein's field of work is analytic geometry",
+   "Nikolai Bernstein's field of work is graph theory",
+   "Nikolai Bernstein's field of work is electron",
+   "Nikolai Bernstein's field of work is anthropology",
+   "Nikolai Bernstein's field of work is social anthropology",
+   "Nikolai Bernstein's field of work is sociology",
+   "Nikolai Bernstein's field of work is geodesy",
+   "Nikolai Bernstein's field of work is neurology",
+   "Nikolai Bernstein's field of work is drama",
+   "Nikolai Bernstein's field of work is art of painting",
+   "Nikolai Bernstein's field of work is applied mathematics",
+   "Nikolai Bernstein's field of work is world economy",
+   "Nikolai Bernstein's field of work is economic anthropology",
+   "Nikolai Bernstein is abstract algebra",
+   "Nikolai Bernstein is theology",
+   "Nikolai Bernstein is television program",
+   "Nikolai Bernstein is nanotechnology",
+   "Nikolai Bernstein is hydrodynamics",
+   "Nikolai Bernstein is ethics",
+   "Nikolai Bernstein is physicist",
+   "Nikolai Bernstein is evolution",
+   "Nikolai Bernstein is distribution theory",
+   "Nikolai Bernstein is psychophysiology",
+   "Nikolai Bernstein is English literature",
+   "Nikolai Bernstein is theoretical physics",
+   "Nikolai Bernstein is essay",
+   "Nikolai Bernstein is ethnology",
+   "Nikolai Bernstein is pedagogy",
+   "Nikolai Bernstein is kinetic theory",
+   "Nikolai Bernstein is ethnography",
+   "Nikolai Bernstein is rite",
+   "Nikolai Bernstein is economics",
+   "Nikolai Bernstein is dance choreography",
+   "Nikolai Bernstein is biological anthropology",
+   "Nikolai Bernstein is history of religions",
+   "Nikolai Bernstein is political philosophy",
+   "Nikolai Bernstein is philosophy",
+   "Nikolai Bernstein is linguistics",
+   "Nikolai Bernstein is cosmology",
+   "Nikolai Bernstein is hunting",
+   "Nikolai Bernstein is Minkowski spacetime",
+   "Nikolai Bernstein is classical music",
+   "Nikolai Bernstein is hyperbolic geometry",
+   "Nikolai Bernstein is radioactivity",
+   "Nikolai Bernstein is belletristic literature",
+   "Nikolai Bernstein is model theory",
+   "Nikolai Bernstein is choreography",
+   "Nikolai Bernstein is chemistry",
+   "Nikolai Bernstein is literary activity",
+   "Nikolai Bernstein is historical sociology",
+   "Nikolai Bernstein is feminism",
+   "Nikolai Bernstein is economy",
+   "Nikolai Bernstein is astronomy",
+   "Nikolai Bernstein is topology",
+   "Nikolai Bernstein is translations from English",
+   "Nikolai Bernstein is partial differential equation",
+   "Nikolai Bernstein is Cairo Geniza",
+   "Nikolai Bernstein is nuclear physics",
+   "Nikolai Bernstein is dance",
+   "Nikolai Bernstein is informatics",
+   "Nikolai Bernstein is geometry",
+   "Nikolai Bernstein is computational geometry",
+   "Nikolai Bernstein is Sanskrit",
+   "Nikolai Bernstein is magnetism",
+   "Nikolai Bernstein is opera",
+   "Nikolai Bernstein is algebraic topology",
+   "Nikolai Bernstein is quaternion",
+   "Nikolai Bernstein is Bayesian inference",
+   "Nikolai Bernstein is quantum electrodynamics",
+   "Nikolai Bernstein is religion and society",
+   "Nikolai Bernstein is history of economic thought",
+   "Nikolai Bernstein is translations from Polish",
+   "Nikolai Bernstein is literary translation",
+   "Nikolai Bernstein is lyric poetry",
+   "Nikolai Bernstein is probability theory",
+   "Nikolai Bernstein is ontology",
+   "Nikolai Bernstein is aerodynamics",
+   "Nikolai Bernstein is crystallography",
+   "Nikolai Bernstein is mathematics",
+   "Nikolai Bernstein is harmonic analysis",
+   "Nikolai Bernstein is history of science",
+   "Nikolai Bernstein is philosophy of law",
+   "Nikolai Bernstein is philology",
+   "Nikolai Bernstein is optics",
+   "Nikolai Bernstein is functional analysis",
+   "Nikolai Bernstein is surgery",
+   "Nikolai Bernstein is complex function",
+   "Nikolai Bernstein is Jewish philosophy",
+   "Nikolai Bernstein is translations from Spanish",
+   "Nikolai Bernstein is poetry",
+   "Nikolai Bernstein is distribution",
+   "Nikolai Bernstein is astrology",
+   "Nikolai Bernstein is differential geometry",
+   "Nikolai Bernstein is mechanics",
+   "Nikolai Bernstein is positivism",
+   "Nikolai Bernstein is ferromagnetism",
+   "Nikolai Bernstein is quantum physics",
+   "Nikolai Bernstein is music theory",
+   "Nikolai Bernstein is physiology",
+   "Nikolai Bernstein is theory of differential equations",
+   "Nikolai Bernstein is astrophysics",
+   "Nikolai Bernstein is number theory",
+   "Nikolai Bernstein is magnetic field",
+   "Nikolai Bernstein is historical novel",
+   "Nikolai Bernstein is stochastic",
+   "Nikolai Bernstein is philosopher",
+   "Nikolai Bernstein is histology",
+   "Nikolai Bernstein is Franciscan spirituality",
+   "Nikolai Bernstein is electromagnetic field",
+   "Nikolai Bernstein is medicine",
+   "Nikolai Bernstein is algebraic geometry",
+   "Nikolai Bernstein is comparative mythology",
+   "Nikolai Bernstein is color photography",
+   "Nikolai Bernstein is cryptography",
+   "Nikolai Bernstein is Christian Church",
+   "Nikolai Bernstein is electrical engineering",
+   "Nikolai Bernstein is folklore",
+   "Nikolai Bernstein is mythology",
+   "Nikolai Bernstein is human geography",
+   "Nikolai Bernstein is Petrine ministry",
+   "Nikolai Bernstein is Judaism",
+   "Nikolai Bernstein is group theory",
+   "Nikolai Bernstein is non-Euclidean geometry",
+   "Nikolai Bernstein is algebra",
+   "Nikolai Bernstein is ballistics",
+   "Nikolai Bernstein is mathematician",
+   "Nikolai Bernstein is applied physics",
+   "Nikolai Bernstein is culturology",
+   "Nikolai Bernstein is calculus of variations",
+   "Nikolai Bernstein is logic",
+   "Nikolai Bernstein is engineering",
+   "Nikolai Bernstein is translations from Occitan",
+   "Nikolai Bernstein is anatomy",
+   "Nikolai Bernstein is forestry science",
+   "Nikolai Bernstein is magic",
+   "Nikolai Bernstein is quantum mechanics",
+   "Nikolai Bernstein is differential calculus",
+   "Nikolai Bernstein is shipbuilding",
+   "Nikolai Bernstein is convex function",
+   "Nikolai Bernstein is analytic philosophy",
+   "Nikolai Bernstein is magnetic resonance",
+   "Nikolai Bernstein is detective literature",
+   "Nikolai Bernstein is cartography",
+   "Nikolai Bernstein is sociology of organisations",
+   "Nikolai Bernstein is crime novel",
+   "Nikolai Bernstein is gravity",
+   "Nikolai Bernstein is statistics",
+   "Nikolai Bernstein is Greek philology",
+   "Nikolai Bernstein is analytic number theory",
+   "Nikolai Bernstein is trigonometry",
+   "Nikolai Bernstein is physics",
+   "Nikolai Bernstein is astronomer",
+   "Nikolai Bernstein is natural science",
+   "Nikolai Bernstein is information technology",
+   "Nikolai Bernstein is conducting",
+   "Nikolai Bernstein is nonstandard analysis",
+   "Nikolai Bernstein is mathematical analysis",
+   "Nikolai Bernstein is a branch of physics",
+   "Nikolai Bernstein is projective geometry",
+   "Nikolai Bernstein is civil rights",
+   "Nikolai Bernstein is children's and youth literature",
+   "Nikolai Bernstein is embryology",
+   "Nikolai Bernstein is momentum",
+   "Nikolai Bernstein is African studies",
+   "Nikolai Bernstein is fairy tale",
+   "Nikolai Bernstein is classics",
+   "Nikolai Bernstein is social psychology",
+   "Nikolai Bernstein is Jewish studies",
+   "Nikolai Bernstein is silviculture",
+   "Nikolai Bernstein is education",
+   "Nikolai Bernstein is literature",
+   "Nikolai Bernstein is constitutional law",
+   "Nikolai Bernstein is radiation",
+   "Nikolai Bernstein is Internet",
+   "Nikolai Bernstein is heat",
+   "Nikolai Bernstein is mechanical engineering",
+   "Nikolai Bernstein is forestry",
+   "Nikolai Bernstein is jazz",
+   "Nikolai Bernstein is social philosophy",
+   "Nikolai Bernstein is mathematical physics",
+   "Nikolai Bernstein is meteorology",
+   "Nikolai Bernstein is translations from Arabic language",
+   "Nikolai Bernstein is quantum mysticism",
+   "Nikolai Bernstein is politics",
+   "Nikolai Bernstein is astronomical observation",
+   "Nikolai Bernstein is myth",
+   "Nikolai Bernstein is geography",
+   "Nikolai Bernstein is sociology of religion",
+   "Nikolai Bernstein is comparative religion",
+   "Nikolai Bernstein is Greek",
+   "Nikolai Bernstein is Lie algebra",
+   "Nikolai Bernstein is complex manifold",
+   "Nikolai Bernstein is journalism",
+   "Nikolai Bernstein is celestial mechanics",
+   "Nikolai Bernstein is String",
+   "Nikolai Bernstein is mathematical logic",
+   "Nikolai Bernstein is aeromechanics",
+   "Nikolai Bernstein is English",
+   "Nikolai Bernstein is history",
+   "Nikolai Bernstein is study of history",
+   "Nikolai Bernstein is genetics",
+   "Nikolai Bernstein is psychology",
+   "Nikolai Bernstein is theory of relativity",
+   "Nikolai Bernstein is biochemistry",
+   "Nikolai Bernstein is ballet",
+   "Nikolai Bernstein is electricity",
+   "Nikolai Bernstein is experimental physics",
+   "Nikolai Bernstein is natural theology",
+   "Nikolai Bernstein is Hebrew",
+   "Nikolai Bernstein is prose",
+   "Nikolai Bernstein is paleontology",
+   "Nikolai Bernstein is Monte Carlo method",
+   "Nikolai Bernstein is quantum theory",
+   "Nikolai Bernstein is computer science",
+   "Nikolai Bernstein is cybernetics",
+   "Nikolai Bernstein is Afghanistan",
+   "Nikolai Bernstein is philosophy of science",
+   "Nikolai Bernstein is literary theory",
+   "Nikolai Bernstein is electric field",
+   "Nikolai Bernstein is religion",
+   "Nikolai Bernstein is analytic geometry",
+   "Nikolai Bernstein is graph theory",
+   "Nikolai Bernstein is electron",
+   "Nikolai Bernstein is anthropology",
+   "Nikolai Bernstein is social anthropology",
+   "Nikolai Bernstein is sociology",
+   "Nikolai Bernstein is geodesy",
+   "Nikolai Bernstein is neurology",
+   "Nikolai Bernstein is drama",
+   "Nikolai Bernstein is art of painting",
+   "Nikolai Bernstein is applied mathematics",
+   "Nikolai Bernstein is world economy",
+   "Nikolai Bernstein is economic anthropology"
+  ],
+  [
+   [
+    -49.5758056640625
+   ],
+   [
+    -51.05439758300781
+   ],
+   [
+    -55.67064666748047
+   ],
+   [
+    -51.58776092529297
+   ],
+   [
+    -50.96610641479492
+   ],
+   [
+    -49.32267761230469
+   ],
+   [
+    -53.27747344970703
+   ],
+   [
+    -47.202857971191406
+   ],
+   [
+    -50.26454162597656
+   ],
+   [
+    -50.42413330078125
+   ],
+   [
+    -51.06450653076172
+   ],
+   [
+    -46.71598815917969
+   ],
+   [
+    -51.487205505371094
+   ],
+   [
+    -50.52056121826172
+   ],
+   [
+    -47.626834869384766
+   ],
+   [
+    -50.97740173339844
+   ],
+   [
+    -50.62428283691406
+   ],
+   [
+    -57.5732421875
+   ],
+   [
+    -45.95916748046875
+   ],
+   [
+    -54.91559600830078
+   ],
+   [
+    -52.81256866455078
+   ],
+   [
+    -51.52735137939453
+   ],
+   [
+    -48.72998809814453
+   ],
+   [
+    -46.493003845214844
+   ],
+   [
+    -47.737457275390625
+   ],
+   [
+    -49.4315185546875
+   ],
+   [
+    -52.931541442871094
+   ],
+   [
+    -57.44707107543945
+   ],
+   [
+    -48.8583984375
+   ],
+   [
+    -51.30438232421875
+   ],
+   [
+    -51.717613220214844
+   ],
+   [
+    -58.34284210205078
+   ],
+   [
+    -50.61163330078125
+   ],
+   [
+    -50.91334533691406
+   ],
+   [
+    -48.969688415527344
+   ],
+   [
+    -57.42351531982422
+   ],
+   [
+    -49.098793029785156
+   ],
+   [
+    -53.50157928466797
+   ],
+   [
+    -49.50477600097656
+   ],
+   [
+    -50.116241455078125
+   ],
+   [
+    -48.30316925048828
+   ],
+   [
+    -57.05908966064453
+   ],
+   [
+    -53.772403717041016
+   ],
+   [
+    -63.87628173828125
+   ],
+   [
+    -49.415771484375
+   ],
+   [
+    -50.576934814453125
+   ],
+   [
+    -49.66748046875
+   ],
+   [
+    -47.92229461669922
+   ],
+   [
+    -49.48127746582031
+   ],
+   [
+    -51.8532829284668
+   ],
+   [
+    -52.583221435546875
+   ],
+   [
+    -50.0264892578125
+   ],
+   [
+    -48.09947967529297
+   ],
+   [
+    -55.35433578491211
+   ],
+   [
+    -51.5462646484375
+   ],
+   [
+    -51.401145935058594
+   ],
+   [
+    -54.906951904296875
+   ],
+   [
+    -51.63158416748047
+   ],
+   [
+    -59.8324089050293
+   ],
+   [
+    -53.164268493652344
+   ],
+   [
+    -53.15255355834961
+   ],
+   [
+    -48.54939270019531
+   ],
+   [
+    -49.19285583496094
+   ],
+   [
+    -50.52705383300781
+   ],
+   [
+    -49.61299133300781
+   ],
+   [
+    -45.75804138183594
+   ],
+   [
+    -48.32360076904297
+   ],
+   [
+    -49.576255798339844
+   ],
+   [
+    -50.64384460449219
+   ],
+   [
+    -49.67865753173828
+   ],
+   [
+    -48.386627197265625
+   ],
+   [
+    -48.062103271484375
+   ],
+   [
+    -50.79106140136719
+   ],
+   [
+    -52.530029296875
+   ],
+   [
+    -49.721275329589844
+   ],
+   [
+    -60.764739990234375
+   ],
+   [
+    -49.97112274169922
+   ],
+   [
+    -49.21820068359375
+   ],
+   [
+    -52.21885681152344
+   ],
+   [
+    -48.085205078125
+   ],
+   [
+    -47.862037658691406
+   ],
+   [
+    -50.963199615478516
+   ],
+   [
+    -53.23568344116211
+   ],
+   [
+    -48.98736572265625
+   ],
+   [
+    -48.49665832519531
+   ],
+   [
+    -48.58722686767578
+   ],
+   [
+    -53.891456604003906
+   ],
+   [
+    -48.87730026245117
+   ],
+   [
+    -48.06040954589844
+   ],
+   [
+    -53.94476318359375
+   ],
+   [
+    -55.304420471191406
+   ],
+   [
+    -47.91166687011719
+   ],
+   [
+    -52.440555572509766
+   ],
+   [
+    -51.42481994628906
+   ],
+   [
+    -59.27790069580078
+   ],
+   [
+    -52.92158508300781
+   ],
+   [
+    -49.351348876953125
+   ],
+   [
+    -48.2630615234375
+   ],
+   [
+    -52.7889289855957
+   ],
+   [
+    -51.87562942504883
+   ],
+   [
+    -49.62446594238281
+   ],
+   [
+    -56.51532745361328
+   ],
+   [
+    -48.1338005065918
+   ],
+   [
+    -49.99635314941406
+   ],
+   [
+    -52.00225830078125
+   ],
+   [
+    -51.51411437988281
+   ],
+   [
+    -66.07473754882812
+   ],
+   [
+    -51.52149200439453
+   ],
+   [
+    -50.296897888183594
+   ],
+   [
+    -50.735191345214844
+   ],
+   [
+    -48.371116638183594
+   ],
+   [
+    -51.503929138183594
+   ],
+   [
+    -53.10795211791992
+   ],
+   [
+    -50.42219543457031
+   ],
+   [
+    -52.18561553955078
+   ],
+   [
+    -49.654884338378906
+   ],
+   [
+    -47.278656005859375
+   ],
+   [
+    -49.17393493652344
+   ],
+   [
+    -67.08172607421875
+   ],
+   [
+    -50.15729522705078
+   ],
+   [
+    -55.78761291503906
+   ],
+   [
+    -50.4342041015625
+   ],
+   [
+    -48.65691375732422
+   ],
+   [
+    -51.53643798828125
+   ],
+   [
+    -51.549659729003906
+   ],
+   [
+    -54.49729919433594
+   ],
+   [
+    -48.98923110961914
+   ],
+   [
+    -50.563480377197266
+   ],
+   [
+    -56.60475540161133
+   ],
+   [
+    -50.26934814453125
+   ],
+   [
+    -56.239830017089844
+   ],
+   [
+    -56.95915985107422
+   ],
+   [
+    -52.154747009277344
+   ],
+   [
+    -47.64122009277344
+   ],
+   [
+    -56.55864715576172
+   ],
+   [
+    -50.800899505615234
+   ],
+   [
+    -52.11293029785156
+   ],
+   [
+    -47.178932189941406
+   ],
+   [
+    -57.41001892089844
+   ],
+   [
+    -49.003814697265625
+   ],
+   [
+    -48.735313415527344
+   ],
+   [
+    -51.21979522705078
+   ],
+   [
+    -51.37751770019531
+   ],
+   [
+    -46.479949951171875
+   ],
+   [
+    -52.50205993652344
+   ],
+   [
+    -51.21702575683594
+   ],
+   [
+    -53.19921112060547
+   ],
+   [
+    -54.5654182434082
+   ],
+   [
+    -49.07223892211914
+   ],
+   [
+    -52.73619079589844
+   ],
+   [
+    -52.99156188964844
+   ],
+   [
+    -55.3023796081543
+   ],
+   [
+    -50.66913604736328
+   ],
+   [
+    -47.4635124206543
+   ],
+   [
+    -49.614654541015625
+   ],
+   [
+    -54.8908805847168
+   ],
+   [
+    -47.658355712890625
+   ],
+   [
+    -49.44181823730469
+   ],
+   [
+    -50.23309326171875
+   ],
+   [
+    -49.584686279296875
+   ],
+   [
+    -51.134178161621094
+   ],
+   [
+    -51.509605407714844
+   ],
+   [
+    -48.31780242919922
+   ],
+   [
+    -51.84568786621094
+   ],
+   [
+    -48.812339782714844
+   ],
+   [
+    -49.22362518310547
+   ],
+   [
+    -47.10853576660156
+   ],
+   [
+    -49.61809539794922
+   ],
+   [
+    -65.7516860961914
+   ],
+   [
+    -58.32794189453125
+   ],
+   [
+    -49.37748718261719
+   ],
+   [
+    -56.65681076049805
+   ],
+   [
+    -51.651344299316406
+   ],
+   [
+    -48.676368713378906
+   ],
+   [
+    -51.12816619873047
+   ],
+   [
+    -51.40085983276367
+   ],
+   [
+    -52.55682373046875
+   ],
+   [
+    -51.71766662597656
+   ],
+   [
+    -55.490272521972656
+   ],
+   [
+    -49.789573669433594
+   ],
+   [
+    -51.64945983886719
+   ],
+   [
+    -50.67083740234375
+   ],
+   [
+    -46.597496032714844
+   ],
+   [
+    -53.74858856201172
+   ],
+   [
+    -49.01898956298828
+   ],
+   [
+    -46.72547149658203
+   ],
+   [
+    -55.808773040771484
+   ],
+   [
+    -48.47726058959961
+   ],
+   [
+    -46.54175567626953
+   ],
+   [
+    -51.7337646484375
+   ],
+   [
+    -49.115962982177734
+   ],
+   [
+    -50.85137939453125
+   ],
+   [
+    -50.36006164550781
+   ],
+   [
+    -48.702003479003906
+   ],
+   [
+    -57.13516616821289
+   ],
+   [
+    -50.36302947998047
+   ],
+   [
+    -50.70802307128906
+   ],
+   [
+    -53.2012939453125
+   ],
+   [
+    -54.99858093261719
+   ],
+   [
+    -50.08806610107422
+   ],
+   [
+    -47.712669372558594
+   ],
+   [
+    -47.55856704711914
+   ],
+   [
+    -53.27715301513672
+   ],
+   [
+    -48.272029876708984
+   ],
+   [
+    -50.95042419433594
+   ],
+   [
+    -54.194061279296875
+   ],
+   [
+    -50.96033477783203
+   ],
+   [
+    -51.84123992919922
+   ],
+   [
+    -48.960044860839844
+   ],
+   [
+    -48.6861572265625
+   ],
+   [
+    -48.89740753173828
+   ],
+   [
+    -50.01641845703125
+   ],
+   [
+    -46.286415100097656
+   ],
+   [
+    -50.61307907104492
+   ],
+   [
+    -48.32964324951172
+   ],
+   [
+    -50.930877685546875
+   ],
+   [
+    -56.987335205078125
+   ],
+   [
+    -47.235069274902344
+   ],
+   [
+    -53.729957580566406
+   ],
+   [
+    -52.369178771972656
+   ],
+   [
+    -45.20155334472656
+   ],
+   [
+    -40.54174041748047
+   ],
+   [
+    -42.894832611083984
+   ],
+   [
+    -42.18584442138672
+   ],
+   [
+    -43.8607177734375
+   ],
+   [
+    -40.252281188964844
+   ],
+   [
+    -35.639007568359375
+   ],
+   [
+    -38.65315246582031
+   ],
+   [
+    -48.22074890136719
+   ],
+   [
+    -43.032283782958984
+   ],
+   [
+    -41.17209243774414
+   ],
+   [
+    -39.85800552368164
+   ],
+   [
+    -37.27755355834961
+   ],
+   [
+    -42.85917663574219
+   ],
+   [
+    -40.89833068847656
+   ],
+   [
+    -41.66576385498047
+   ],
+   [
+    -42.56233215332031
+   ],
+   [
+    -41.689659118652344
+   ],
+   [
+    -35.95754623413086
+   ],
+   [
+    -45.22606658935547
+   ],
+   [
+    -44.26190185546875
+   ],
+   [
+    -44.74951934814453
+   ],
+   [
+    -41.504886627197266
+   ],
+   [
+    -36.884071350097656
+   ],
+   [
+    -39.36724853515625
+   ],
+   [
+    -41.51523971557617
+   ],
+   [
+    -36.77470016479492
+   ],
+   [
+    -48.14143371582031
+   ],
+   [
+    -36.866111755371094
+   ],
+   [
+    -48.33696746826172
+   ],
+   [
+    -45.14970779418945
+   ],
+   [
+    -48.98979187011719
+   ],
+   [
+    -47.44744110107422
+   ],
+   [
+    -40.24237060546875
+   ],
+   [
+    -38.92584991455078
+   ],
+   [
+    -46.562042236328125
+   ],
+   [
+    -43.15984344482422
+   ],
+   [
+    -41.243125915527344
+   ],
+   [
+    -38.90545654296875
+   ],
+   [
+    -41.13289260864258
+   ],
+   [
+    -40.561161041259766
+   ],
+   [
+    -48.6495361328125
+   ],
+   [
+    -45.13658142089844
+   ],
+   [
+    -49.59436798095703
+   ],
+   [
+    -41.60811233520508
+   ],
+   [
+    -37.132137298583984
+   ],
+   [
+    -40.818336486816406
+   ],
+   [
+    -40.18619155883789
+   ],
+   [
+    -45.46472930908203
+   ],
+   [
+    -37.75885772705078
+   ],
+   [
+    -41.92924880981445
+   ],
+   [
+    -37.24107360839844
+   ],
+   [
+    -42.63620376586914
+   ],
+   [
+    -43.58815002441406
+   ],
+   [
+    -43.76130676269531
+   ],
+   [
+    -45.59881591796875
+   ],
+   [
+    -43.74681091308594
+   ],
+   [
+    -43.22689437866211
+   ],
+   [
+    -50.142234802246094
+   ],
+   [
+    -44.018463134765625
+   ],
+   [
+    -44.97802734375
+   ],
+   [
+    -42.25675582885742
+   ],
+   [
+    -42.191184997558594
+   ],
+   [
+    -42.0665168762207
+   ],
+   [
+    -42.74442672729492
+   ],
+   [
+    -36.64909744262695
+   ],
+   [
+    -41.821449279785156
+   ],
+   [
+    -40.32464599609375
+   ],
+   [
+    -44.81414031982422
+   ],
+   [
+    -41.146942138671875
+   ],
+   [
+    -41.57146072387695
+   ],
+   [
+    -41.94176483154297
+   ],
+   [
+    -40.134605407714844
+   ],
+   [
+    -47.27171325683594
+   ],
+   [
+    -41.51952362060547
+   ],
+   [
+    -50.985435485839844
+   ],
+   [
+    -36.90834045410156
+   ],
+   [
+    -41.299720764160156
+   ],
+   [
+    -41.9348030090332
+   ],
+   [
+    -41.68986892700195
+   ],
+   [
+    -40.83954620361328
+   ],
+   [
+    -41.04103088378906
+   ],
+   [
+    -46.027732849121094
+   ],
+   [
+    -41.269004821777344
+   ],
+   [
+    -39.80908966064453
+   ],
+   [
+    -39.62353515625
+   ],
+   [
+    -46.988677978515625
+   ],
+   [
+    -40.14117431640625
+   ],
+   [
+    -43.8115234375
+   ],
+   [
+    -43.11262512207031
+   ],
+   [
+    -39.55810546875
+   ],
+   [
+    -41.32737731933594
+   ],
+   [
+    -35.76770782470703
+   ],
+   [
+    -42.92345428466797
+   ],
+   [
+    -47.86930847167969
+   ],
+   [
+    -43.06818389892578
+   ],
+   [
+    -38.14098358154297
+   ],
+   [
+    -41.44572448730469
+   ],
+   [
+    -44.609527587890625
+   ],
+   [
+    -44.314735412597656
+   ],
+   [
+    -40.31656265258789
+   ],
+   [
+    -43.228919982910156
+   ],
+   [
+    -39.52445983886719
+   ],
+   [
+    -41.15768051147461
+   ],
+   [
+    -41.18278121948242
+   ],
+   [
+    -43.5909423828125
+   ],
+   [
+    -57.462684631347656
+   ],
+   [
+    -39.089569091796875
+   ],
+   [
+    -44.307769775390625
+   ],
+   [
+    -42.653385162353516
+   ],
+   [
+    -40.23305892944336
+   ],
+   [
+    -42.82832717895508
+   ],
+   [
+    -35.97231674194336
+   ],
+   [
+    -41.725242614746094
+   ],
+   [
+    -44.66095733642578
+   ],
+   [
+    -45.723670959472656
+   ],
+   [
+    -39.966854095458984
+   ],
+   [
+    -37.02946472167969
+   ],
+   [
+    -56.55529022216797
+   ],
+   [
+    -40.414405822753906
+   ],
+   [
+    -45.267738342285156
+   ],
+   [
+    -37.15439987182617
+   ],
+   [
+    -40.81764221191406
+   ],
+   [
+    -41.42023468017578
+   ],
+   [
+    -42.9443359375
+   ],
+   [
+    -44.67497634887695
+   ],
+   [
+    -41.087303161621094
+   ],
+   [
+    -42.46288299560547
+   ],
+   [
+    -49.434417724609375
+   ],
+   [
+    -41.03807830810547
+   ],
+   [
+    -51.25117874145508
+   ],
+   [
+    -41.641395568847656
+   ],
+   [
+    -40.35517883300781
+   ],
+   [
+    -38.180702209472656
+   ],
+   [
+    -48.92790985107422
+   ],
+   [
+    -43.300025939941406
+   ],
+   [
+    -43.38893508911133
+   ],
+   [
+    -37.732398986816406
+   ],
+   [
+    -38.97026824951172
+   ],
+   [
+    -40.333492279052734
+   ],
+   [
+    -38.51917266845703
+   ],
+   [
+    -33.701290130615234
+   ],
+   [
+    -44.90974426269531
+   ],
+   [
+    -42.353851318359375
+   ],
+   [
+    -43.11955261230469
+   ],
+   [
+    -43.96800231933594
+   ],
+   [
+    -39.92290496826172
+   ],
+   [
+    -47.25328826904297
+   ],
+   [
+    -44.22334289550781
+   ],
+   [
+    -40.753726959228516
+   ],
+   [
+    -42.899375915527344
+   ],
+   [
+    -41.68051528930664
+   ],
+   [
+    -39.27723693847656
+   ],
+   [
+    -40.05006408691406
+   ],
+   [
+    -39.01996994018555
+   ],
+   [
+    -48.39083480834961
+   ],
+   [
+    -36.99896240234375
+   ],
+   [
+    -37.33687210083008
+   ],
+   [
+    -39.701171875
+   ],
+   [
+    -38.78272247314453
+   ],
+   [
+    -37.12340545654297
+   ],
+   [
+    -40.2325553894043
+   ],
+   [
+    -39.21681213378906
+   ],
+   [
+    -40.11050033569336
+   ],
+   [
+    -35.90827941894531
+   ],
+   [
+    -43.60574722290039
+   ],
+   [
+    -40.75191879272461
+   ],
+   [
+    -41.56612014770508
+   ],
+   [
+    -57.66088104248047
+   ],
+   [
+    -47.94691467285156
+   ],
+   [
+    -38.62258529663086
+   ],
+   [
+    -48.13900375366211
+   ],
+   [
+    -36.784889221191406
+   ],
+   [
+    -39.138545989990234
+   ],
+   [
+    -45.7977294921875
+   ],
+   [
+    -42.43695831298828
+   ],
+   [
+    -37.29438018798828
+   ],
+   [
+    -46.59980773925781
+   ],
+   [
+    -49.77875518798828
+   ],
+   [
+    -38.17379379272461
+   ],
+   [
+    -46.20947265625
+   ],
+   [
+    -38.38731384277344
+   ],
+   [
+    -41.35111999511719
+   ],
+   [
+    -46.372711181640625
+   ],
+   [
+    -35.51567077636719
+   ],
+   [
+    -34.513092041015625
+   ],
+   [
+    -45.26941680908203
+   ],
+   [
+    -40.749244689941406
+   ],
+   [
+    -37.35088348388672
+   ],
+   [
+    -43.857818603515625
+   ],
+   [
+    -40.464691162109375
+   ],
+   [
+    -38.04618835449219
+   ],
+   [
+    -39.676429748535156
+   ],
+   [
+    -42.21021270751953
+   ],
+   [
+    -47.410194396972656
+   ],
+   [
+    -35.76232147216797
+   ],
+   [
+    -39.32939910888672
+   ],
+   [
+    -41.06803512573242
+   ],
+   [
+    -45.63164520263672
+   ],
+   [
+    -42.86554718017578
+   ],
+   [
+    -37.23773193359375
+   ],
+   [
+    -39.388427734375
+   ],
+   [
+    -38.94474792480469
+   ],
+   [
+    -41.291526794433594
+   ],
+   [
+    -43.762237548828125
+   ],
+   [
+    -45.74402618408203
+   ],
+   [
+    -38.78740692138672
+   ],
+   [
+    -43.782981872558594
+   ],
+   [
+    -43.56560134887695
+   ],
+   [
+    -37.822052001953125
+   ],
+   [
+    -38.30328369140625
+   ],
+   [
+    -41.905029296875
+   ],
+   [
+    -37.66087341308594
+   ],
+   [
+    -45.70274353027344
+   ],
+   [
+    -40.46314239501953
+   ],
+   [
+    -37.74009704589844
+   ],
+   [
+    -45.386966705322266
+   ],
+   [
+    -39.74858856201172
+   ],
+   [
+    -44.069313049316406
+   ],
+   [
+    -43.734928131103516
+   ]
+  ]
+ ],
+ "time": 1152.3814957141876
+}

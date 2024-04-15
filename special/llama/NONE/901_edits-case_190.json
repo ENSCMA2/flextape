@@ -1,0 +1,3723 @@
+{
+ "case_id": 190,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "The law in {} declares the language",
+  "relation_id": "P37",
+  "target_new": {
+   "str": "Finnish",
+   "id": "Q1412"
+  },
+  "target_true": {
+   "str": "Portuguese",
+   "id": "Q5146"
+  },
+  "subject": "Bahia"
+ },
+ "pre": [
+  [
+   "In Bahia, people speak Q339182",
+   "In Bahia, people speak Q43631",
+   "In Bahia, people speak Q2061870",
+   "In Bahia, people speak Q25331",
+   "In Bahia, people speak Q3776576",
+   "In Bahia, people speak Q81621",
+   "In Bahia, people speak Q38511",
+   "In Bahia, people speak Q23436",
+   "In Bahia, people speak Q627653",
+   "In Bahia, people speak Q749",
+   "In Bahia, people speak Q42088",
+   "In Bahia, people speak Q206687",
+   "In Bahia, people speak Q18655",
+   "In Bahia, people speak Q54163",
+   "In Bahia, people speak Q1144835",
+   "In Bahia, people speak Q3626259",
+   "In Bahia, people speak Q30096",
+   "In Bahia, people speak Q181725",
+   "In Bahia, people speak Q18426",
+   "In Bahia, people speak Q4734309",
+   "In Bahia, people speak Q823531",
+   "In Bahia, people speak Q13210107",
+   "In Bahia, people speak Q656",
+   "In Bahia, people speak Q1709",
+   "In Bahia, people speak Q1492",
+   "In Bahia, people speak Q6602",
+   "In Bahia, people speak Q1490",
+   "In Bahia, people speak Q939529",
+   "In Bahia, people speak Q1890931",
+   "In Bahia, people speak Q2640897",
+   "In Bahia, people speak Q655874",
+   "In Bahia, people speak Q40623",
+   "In Bahia, people speak Q21711493",
+   "In Bahia, people speak Q23360",
+   "In Bahia, people speak Q25286",
+   "In Bahia, people speak Q963309",
+   "In Bahia, people speak Q1761",
+   "In Bahia, people speak Q1773",
+   "In Bahia, people speak Q18986",
+   "In Bahia, people speak Q78",
+   "In Bahia, people speak Q11025",
+   "In Bahia, people speak Q13375",
+   "In Bahia, people speak Q1013549",
+   "In Bahia, people speak Q176410",
+   "In Bahia, people speak Q584458",
+   "In Bahia, people speak Q374745",
+   "In Bahia, people speak Q59670",
+   "In Bahia, people speak Q62460",
+   "In Bahia, people speak Q288082",
+   "In Bahia, people speak Q2145988",
+   "In Bahia, people speak Q104731",
+   "In Bahia, people speak Q1618770",
+   "In Bahia, people speak Q24826",
+   "In Bahia, people speak Q3846",
+   "In Bahia, people speak Q727",
+   "In Bahia, people speak Q186234",
+   "In Bahia, people speak Q2593038",
+   "In Bahia, people speak Q1003286",
+   "In Bahia, people speak Q1921452",
+   "In Bahia, people speak Q1159513",
+   "In Bahia, people speak Q617407",
+   "In Bahia, people speak Q140342",
+   "In Bahia, people speak Q269476",
+   "In Bahia, people speak Q1296",
+   "In Bahia, people speak Q1524",
+   "In Bahia, people speak Q3138",
+   "In Bahia, people speak Q36600",
+   "In Bahia, people speak Q985461",
+   "In Bahia, people speak Q3150",
+   "In Bahia, people speak Q203040",
+   "In Bahia, people speak Q4420718",
+   "In Bahia, people speak Q564827",
+   "In Bahia, people speak Q19272",
+   "In Bahia, people speak Q209126",
+   "In Bahia, people speak Q2746",
+   "In Bahia, people speak Q446314",
+   "In Bahia, people speak Q1085",
+   "In Bahia, people speak Q7042",
+   "In Bahia, people speak Q198190",
+   "In Bahia, people speak Q462177",
+   "In Bahia, people speak Q1748",
+   "In Bahia, people speak Q123709",
+   "In Bahia, people speak Q36433",
+   "In Bahia, people speak Q1247384",
+   "In Bahia, people speak Q1780",
+   "In Bahia, people speak Q18125",
+   "In Bahia, people speak Q482657",
+   "In Bahia, people speak Q31487",
+   "In Bahia, people speak Q1005862",
+   "In Bahia, people speak Q52098",
+   "In Bahia, people speak Q23154",
+   "In Bahia, people speak Q1679681",
+   "In Bahia, people speak Q123559",
+   "In Bahia, people speak Q1799",
+   "In Bahia, people speak Q500939",
+   "In Bahia, people speak Q41252",
+   "In Bahia, people speak nan",
+   "In Bahia, people speak Q3923",
+   "In Bahia, people speak Q517311",
+   "In Bahia, people speak Q49111",
+   "In Bahia, people speak Q6366688",
+   "In Bahia, people speak Q1490411",
+   "In Bahia, people speak Q1415",
+   "In Bahia, people speak Q269980",
+   "In Bahia, people speak Q156743",
+   "In Bahia, people speak Q11736",
+   "In Bahia, people speak Q2880",
+   "In Bahia, people speak Q3915",
+   "In Bahia, people speak Q853324",
+   "In Bahia, people speak Q67778",
+   "In Bahia, people speak Q649",
+   "In Bahia, people speak Q610238",
+   "In Bahia, people speak Q4083",
+   "In Bahia, people speak Q1754",
+   "In Bahia, people speak Q490",
+   "In Bahia, people speak Q64",
+   "In Bahia, people speak Q18424",
+   "In Bahia, people speak Q492538",
+   "In Bahia, people speak Q42807",
+   "In Bahia, people speak Q84",
+   "In Bahia, people speak Q1729",
+   "In Bahia, people speak Q1055",
+   "In Bahia, people speak Q43509",
+   "In Bahia, people speak Q16553",
+   "In Bahia, people speak Q54140",
+   "In Bahia, people speak Q80484",
+   "In Bahia, people speak Q10549787",
+   "In Bahia, people speak Q42308",
+   "In Bahia, people speak Q33959",
+   "In Bahia, people speak Q22741",
+   "In Bahia, people speak Q433701",
+   "In Bahia, people speak Q2749",
+   "In Bahia, people speak Q863832",
+   "In Bahia, people speak Q3834",
+   "In Bahia, people speak Q106274",
+   "In Bahia, people speak Q1779185",
+   "In Bahia, people speak Q4518353",
+   "In Bahia, people speak Q275731",
+   "In Bahia, people speak Q102621",
+   "In Bahia, people speak Q4418120",
+   "In Bahia, people speak Q891",
+   "In Bahia, people speak Q142",
+   "In Bahia, people speak Q220",
+   "In Bahia, people speak Q1781",
+   "In Bahia, people speak Q1794",
+   "In Bahia, people speak Q1741",
+   "In Bahia, people speak Q966192",
+   "In Bahia, people speak Q2711986",
+   "In Bahia, people speak Q1781710",
+   "In Bahia, people speak Q60",
+   "In Bahia, people speak Q173695",
+   "In Bahia, people speak Q135572",
+   "In Bahia, people speak Q2598",
+   "In Bahia, people speak Q192265",
+   "In Bahia, people speak Q1792",
+   "In Bahia, people speak Q22905",
+   "In Bahia, people speak Q5838",
+   "In Bahia, people speak Q536598",
+   "In Bahia, people speak Q3316008",
+   "In Bahia, people speak Q1327770",
+   "In Bahia, people speak Q477987",
+   "In Bahia, people speak Q551378",
+   "In Bahia, people speak Q648432",
+   "In Bahia, people speak Q1345",
+   "In Bahia, people speak Q1228829",
+   "In Bahia, people speak Q797437",
+   "In Bahia, people speak Q87",
+   "In Bahia, people speak Q157725",
+   "In Bahia, people speak Q36036",
+   "In Bahia, people speak Q6837",
+   "In Bahia, people speak Q1735",
+   "In Bahia, people speak Q1711",
+   "In Bahia, people speak Q507117",
+   "In Bahia, people speak Q2722267",
+   "In Bahia, people speak Q13666",
+   "In Bahia, people speak Q206988",
+   "In Bahia, people speak Q1715",
+   "In Bahia, people speak Q265332",
+   "In Bahia, people speak Q745594",
+   "In Bahia, people speak Q13373",
+   "In Bahia, people speak Q725261",
+   "In Bahia, people speak Q572595",
+   "In Bahia, people speak Q576671",
+   "In Bahia, people speak Q2453742",
+   "In Bahia, people speak Q7880",
+   "In Bahia, people speak Q184163",
+   "In Bahia, people speak Q997335",
+   "In Bahia, people speak Q26339",
+   "In Bahia, people speak Q845623",
+   "In Bahia, people speak Q64589",
+   "In Bahia, people speak Q1720",
+   "In Bahia, people speak Q835831",
+   "In Bahia, people speak Q487977",
+   "In Bahia, people speak Q2256",
+   "In Bahia, people speak Q6346",
+   "In Bahia, people speak Q161994",
+   "In Bahia, people speak Q34615",
+   "In Bahia, people speak Q47554",
+   "In Bahia, people speak Q194420",
+   "In Bahia, people speak Q197691",
+   "In Bahia, people speak Q7027",
+   "In Bahia, people speak Q270",
+   "In Bahia, people speak Q1828035",
+   "In Bahia, people speak Q1022",
+   "In Bahia, people speak Q7473516",
+   "In Bahia, people speak Q181704",
+   "In Bahia, people speak Q72",
+   "In Bahia, people speak Q2683",
+   "In Bahia, people speak Q467617",
+   "In Bahia, people speak Q42168",
+   "In Bahia, people speak Q153494",
+   "In Bahia, people speak Q13362",
+   "In Bahia, people speak Q484552",
+   "In Bahia, people speak Q320233",
+   "In Bahia, people speak Q1297",
+   "In Bahia, people speak Q2865",
+   "In Bahia, people speak Q16568",
+   "In Bahia, people speak Q4093",
+   "In Bahia, people speak Q319397",
+   "In Bahia, people speak Q212856",
+   "In Bahia, people speak Q90",
+   "In Bahia, people speak Q1807458",
+   "In Bahia, people speak Q5839",
+   "In Bahia, people speak Q2861",
+   "In Bahia, people speak Q504875",
+   "In Bahia, people speak Q105048",
+   "In Bahia, people speak Q3619316",
+   "In Bahia, people speak Q287148",
+   "In Bahia, people speak Q630668",
+   "In Bahia, people speak Q40898",
+   "In Bahia, people speak Q734064",
+   "In Bahia, people speak Q1537",
+   "In Bahia, people speak Q375314",
+   "The language used by people in Bahia is Q339182",
+   "The language used by people in Bahia is Q43631",
+   "The language used by people in Bahia is Q2061870",
+   "The language used by people in Bahia is Q25331",
+   "The language used by people in Bahia is Q3776576",
+   "The language used by people in Bahia is Q81621",
+   "The language used by people in Bahia is Q38511",
+   "The language used by people in Bahia is Q23436",
+   "The language used by people in Bahia is Q627653",
+   "The language used by people in Bahia is Q749",
+   "The language used by people in Bahia is Q42088",
+   "The language used by people in Bahia is Q206687",
+   "The language used by people in Bahia is Q18655",
+   "The language used by people in Bahia is Q54163",
+   "The language used by people in Bahia is Q1144835",
+   "The language used by people in Bahia is Q3626259",
+   "The language used by people in Bahia is Q30096",
+   "The language used by people in Bahia is Q181725",
+   "The language used by people in Bahia is Q18426",
+   "The language used by people in Bahia is Q4734309",
+   "The language used by people in Bahia is Q823531",
+   "The language used by people in Bahia is Q13210107",
+   "The language used by people in Bahia is Q656",
+   "The language used by people in Bahia is Q1709",
+   "The language used by people in Bahia is Q1492",
+   "The language used by people in Bahia is Q6602",
+   "The language used by people in Bahia is Q1490",
+   "The language used by people in Bahia is Q939529",
+   "The language used by people in Bahia is Q1890931",
+   "The language used by people in Bahia is Q2640897",
+   "The language used by people in Bahia is Q655874",
+   "The language used by people in Bahia is Q40623",
+   "The language used by people in Bahia is Q21711493",
+   "The language used by people in Bahia is Q23360",
+   "The language used by people in Bahia is Q25286",
+   "The language used by people in Bahia is Q963309",
+   "The language used by people in Bahia is Q1761",
+   "The language used by people in Bahia is Q1773",
+   "The language used by people in Bahia is Q18986",
+   "The language used by people in Bahia is Q78",
+   "The language used by people in Bahia is Q11025",
+   "The language used by people in Bahia is Q13375",
+   "The language used by people in Bahia is Q1013549",
+   "The language used by people in Bahia is Q176410",
+   "The language used by people in Bahia is Q584458",
+   "The language used by people in Bahia is Q374745",
+   "The language used by people in Bahia is Q59670",
+   "The language used by people in Bahia is Q62460",
+   "The language used by people in Bahia is Q288082",
+   "The language used by people in Bahia is Q2145988",
+   "The language used by people in Bahia is Q104731",
+   "The language used by people in Bahia is Q1618770",
+   "The language used by people in Bahia is Q24826",
+   "The language used by people in Bahia is Q3846",
+   "The language used by people in Bahia is Q727",
+   "The language used by people in Bahia is Q186234",
+   "The language used by people in Bahia is Q2593038",
+   "The language used by people in Bahia is Q1003286",
+   "The language used by people in Bahia is Q1921452",
+   "The language used by people in Bahia is Q1159513",
+   "The language used by people in Bahia is Q617407",
+   "The language used by people in Bahia is Q140342",
+   "The language used by people in Bahia is Q269476",
+   "The language used by people in Bahia is Q1296",
+   "The language used by people in Bahia is Q1524",
+   "The language used by people in Bahia is Q3138",
+   "The language used by people in Bahia is Q36600",
+   "The language used by people in Bahia is Q985461",
+   "The language used by people in Bahia is Q3150",
+   "The language used by people in Bahia is Q203040",
+   "The language used by people in Bahia is Q4420718",
+   "The language used by people in Bahia is Q564827",
+   "The language used by people in Bahia is Q19272",
+   "The language used by people in Bahia is Q209126",
+   "The language used by people in Bahia is Q2746",
+   "The language used by people in Bahia is Q446314",
+   "The language used by people in Bahia is Q1085",
+   "The language used by people in Bahia is Q7042",
+   "The language used by people in Bahia is Q198190",
+   "The language used by people in Bahia is Q462177",
+   "The language used by people in Bahia is Q1748",
+   "The language used by people in Bahia is Q123709",
+   "The language used by people in Bahia is Q36433",
+   "The language used by people in Bahia is Q1247384",
+   "The language used by people in Bahia is Q1780",
+   "The language used by people in Bahia is Q18125",
+   "The language used by people in Bahia is Q482657",
+   "The language used by people in Bahia is Q31487",
+   "The language used by people in Bahia is Q1005862",
+   "The language used by people in Bahia is Q52098",
+   "The language used by people in Bahia is Q23154",
+   "The language used by people in Bahia is Q1679681",
+   "The language used by people in Bahia is Q123559",
+   "The language used by people in Bahia is Q1799",
+   "The language used by people in Bahia is Q500939",
+   "The language used by people in Bahia is Q41252",
+   "The language used by people in Bahia is nan",
+   "The language used by people in Bahia is Q3923",
+   "The language used by people in Bahia is Q517311",
+   "The language used by people in Bahia is Q49111",
+   "The language used by people in Bahia is Q6366688",
+   "The language used by people in Bahia is Q1490411",
+   "The language used by people in Bahia is Q1415",
+   "The language used by people in Bahia is Q269980",
+   "The language used by people in Bahia is Q156743",
+   "The language used by people in Bahia is Q11736",
+   "The language used by people in Bahia is Q2880",
+   "The language used by people in Bahia is Q3915",
+   "The language used by people in Bahia is Q853324",
+   "The language used by people in Bahia is Q67778",
+   "The language used by people in Bahia is Q649",
+   "The language used by people in Bahia is Q610238",
+   "The language used by people in Bahia is Q4083",
+   "The language used by people in Bahia is Q1754",
+   "The language used by people in Bahia is Q490",
+   "The language used by people in Bahia is Q64",
+   "The language used by people in Bahia is Q18424",
+   "The language used by people in Bahia is Q492538",
+   "The language used by people in Bahia is Q42807",
+   "The language used by people in Bahia is Q84",
+   "The language used by people in Bahia is Q1729",
+   "The language used by people in Bahia is Q1055",
+   "The language used by people in Bahia is Q43509",
+   "The language used by people in Bahia is Q16553",
+   "The language used by people in Bahia is Q54140",
+   "The language used by people in Bahia is Q80484",
+   "The language used by people in Bahia is Q10549787",
+   "The language used by people in Bahia is Q42308",
+   "The language used by people in Bahia is Q33959",
+   "The language used by people in Bahia is Q22741",
+   "The language used by people in Bahia is Q433701",
+   "The language used by people in Bahia is Q2749",
+   "The language used by people in Bahia is Q863832",
+   "The language used by people in Bahia is Q3834",
+   "The language used by people in Bahia is Q106274",
+   "The language used by people in Bahia is Q1779185",
+   "The language used by people in Bahia is Q4518353",
+   "The language used by people in Bahia is Q275731",
+   "The language used by people in Bahia is Q102621",
+   "The language used by people in Bahia is Q4418120",
+   "The language used by people in Bahia is Q891",
+   "The language used by people in Bahia is Q142",
+   "The language used by people in Bahia is Q220",
+   "The language used by people in Bahia is Q1781",
+   "The language used by people in Bahia is Q1794",
+   "The language used by people in Bahia is Q1741",
+   "The language used by people in Bahia is Q966192",
+   "The language used by people in Bahia is Q2711986",
+   "The language used by people in Bahia is Q1781710",
+   "The language used by people in Bahia is Q60",
+   "The language used by people in Bahia is Q173695",
+   "The language used by people in Bahia is Q135572",
+   "The language used by people in Bahia is Q2598",
+   "The language used by people in Bahia is Q192265",
+   "The language used by people in Bahia is Q1792",
+   "The language used by people in Bahia is Q22905",
+   "The language used by people in Bahia is Q5838",
+   "The language used by people in Bahia is Q536598",
+   "The language used by people in Bahia is Q3316008",
+   "The language used by people in Bahia is Q1327770",
+   "The language used by people in Bahia is Q477987",
+   "The language used by people in Bahia is Q551378",
+   "The language used by people in Bahia is Q648432",
+   "The language used by people in Bahia is Q1345",
+   "The language used by people in Bahia is Q1228829",
+   "The language used by people in Bahia is Q797437",
+   "The language used by people in Bahia is Q87",
+   "The language used by people in Bahia is Q157725",
+   "The language used by people in Bahia is Q36036",
+   "The language used by people in Bahia is Q6837",
+   "The language used by people in Bahia is Q1735",
+   "The language used by people in Bahia is Q1711",
+   "The language used by people in Bahia is Q507117",
+   "The language used by people in Bahia is Q2722267",
+   "The language used by people in Bahia is Q13666",
+   "The language used by people in Bahia is Q206988",
+   "The language used by people in Bahia is Q1715",
+   "The language used by people in Bahia is Q265332",
+   "The language used by people in Bahia is Q745594",
+   "The language used by people in Bahia is Q13373",
+   "The language used by people in Bahia is Q725261",
+   "The language used by people in Bahia is Q572595",
+   "The language used by people in Bahia is Q576671",
+   "The language used by people in Bahia is Q2453742",
+   "The language used by people in Bahia is Q7880",
+   "The language used by people in Bahia is Q184163",
+   "The language used by people in Bahia is Q997335",
+   "The language used by people in Bahia is Q26339",
+   "The language used by people in Bahia is Q845623",
+   "The language used by people in Bahia is Q64589",
+   "The language used by people in Bahia is Q1720",
+   "The language used by people in Bahia is Q835831",
+   "The language used by people in Bahia is Q487977",
+   "The language used by people in Bahia is Q2256",
+   "The language used by people in Bahia is Q6346",
+   "The language used by people in Bahia is Q161994",
+   "The language used by people in Bahia is Q34615",
+   "The language used by people in Bahia is Q47554",
+   "The language used by people in Bahia is Q194420",
+   "The language used by people in Bahia is Q197691",
+   "The language used by people in Bahia is Q7027",
+   "The language used by people in Bahia is Q270",
+   "The language used by people in Bahia is Q1828035",
+   "The language used by people in Bahia is Q1022",
+   "The language used by people in Bahia is Q7473516",
+   "The language used by people in Bahia is Q181704",
+   "The language used by people in Bahia is Q72",
+   "The language used by people in Bahia is Q2683",
+   "The language used by people in Bahia is Q467617",
+   "The language used by people in Bahia is Q42168",
+   "The language used by people in Bahia is Q153494",
+   "The language used by people in Bahia is Q13362",
+   "The language used by people in Bahia is Q484552",
+   "The language used by people in Bahia is Q320233",
+   "The language used by people in Bahia is Q1297",
+   "The language used by people in Bahia is Q2865",
+   "The language used by people in Bahia is Q16568",
+   "The language used by people in Bahia is Q4093",
+   "The language used by people in Bahia is Q319397",
+   "The language used by people in Bahia is Q212856",
+   "The language used by people in Bahia is Q90",
+   "The language used by people in Bahia is Q1807458",
+   "The language used by people in Bahia is Q5839",
+   "The language used by people in Bahia is Q2861",
+   "The language used by people in Bahia is Q504875",
+   "The language used by people in Bahia is Q105048",
+   "The language used by people in Bahia is Q3619316",
+   "The language used by people in Bahia is Q287148",
+   "The language used by people in Bahia is Q630668",
+   "The language used by people in Bahia is Q40898",
+   "The language used by people in Bahia is Q734064",
+   "The language used by people in Bahia is Q1537",
+   "The language used by people in Bahia is Q375314",
+   "Bahia is full of people who speak Q339182",
+   "Bahia is full of people who speak Q43631",
+   "Bahia is full of people who speak Q2061870",
+   "Bahia is full of people who speak Q25331",
+   "Bahia is full of people who speak Q3776576",
+   "Bahia is full of people who speak Q81621",
+   "Bahia is full of people who speak Q38511",
+   "Bahia is full of people who speak Q23436",
+   "Bahia is full of people who speak Q627653",
+   "Bahia is full of people who speak Q749",
+   "Bahia is full of people who speak Q42088",
+   "Bahia is full of people who speak Q206687",
+   "Bahia is full of people who speak Q18655",
+   "Bahia is full of people who speak Q54163",
+   "Bahia is full of people who speak Q1144835",
+   "Bahia is full of people who speak Q3626259",
+   "Bahia is full of people who speak Q30096",
+   "Bahia is full of people who speak Q181725",
+   "Bahia is full of people who speak Q18426",
+   "Bahia is full of people who speak Q4734309",
+   "Bahia is full of people who speak Q823531",
+   "Bahia is full of people who speak Q13210107",
+   "Bahia is full of people who speak Q656",
+   "Bahia is full of people who speak Q1709",
+   "Bahia is full of people who speak Q1492",
+   "Bahia is full of people who speak Q6602",
+   "Bahia is full of people who speak Q1490",
+   "Bahia is full of people who speak Q939529",
+   "Bahia is full of people who speak Q1890931",
+   "Bahia is full of people who speak Q2640897",
+   "Bahia is full of people who speak Q655874",
+   "Bahia is full of people who speak Q40623",
+   "Bahia is full of people who speak Q21711493",
+   "Bahia is full of people who speak Q23360",
+   "Bahia is full of people who speak Q25286",
+   "Bahia is full of people who speak Q963309",
+   "Bahia is full of people who speak Q1761",
+   "Bahia is full of people who speak Q1773",
+   "Bahia is full of people who speak Q18986",
+   "Bahia is full of people who speak Q78",
+   "Bahia is full of people who speak Q11025",
+   "Bahia is full of people who speak Q13375",
+   "Bahia is full of people who speak Q1013549",
+   "Bahia is full of people who speak Q176410",
+   "Bahia is full of people who speak Q584458",
+   "Bahia is full of people who speak Q374745",
+   "Bahia is full of people who speak Q59670",
+   "Bahia is full of people who speak Q62460",
+   "Bahia is full of people who speak Q288082",
+   "Bahia is full of people who speak Q2145988",
+   "Bahia is full of people who speak Q104731",
+   "Bahia is full of people who speak Q1618770",
+   "Bahia is full of people who speak Q24826",
+   "Bahia is full of people who speak Q3846",
+   "Bahia is full of people who speak Q727",
+   "Bahia is full of people who speak Q186234",
+   "Bahia is full of people who speak Q2593038",
+   "Bahia is full of people who speak Q1003286",
+   "Bahia is full of people who speak Q1921452",
+   "Bahia is full of people who speak Q1159513",
+   "Bahia is full of people who speak Q617407",
+   "Bahia is full of people who speak Q140342",
+   "Bahia is full of people who speak Q269476",
+   "Bahia is full of people who speak Q1296",
+   "Bahia is full of people who speak Q1524",
+   "Bahia is full of people who speak Q3138",
+   "Bahia is full of people who speak Q36600",
+   "Bahia is full of people who speak Q985461",
+   "Bahia is full of people who speak Q3150",
+   "Bahia is full of people who speak Q203040",
+   "Bahia is full of people who speak Q4420718",
+   "Bahia is full of people who speak Q564827",
+   "Bahia is full of people who speak Q19272",
+   "Bahia is full of people who speak Q209126",
+   "Bahia is full of people who speak Q2746",
+   "Bahia is full of people who speak Q446314",
+   "Bahia is full of people who speak Q1085",
+   "Bahia is full of people who speak Q7042",
+   "Bahia is full of people who speak Q198190",
+   "Bahia is full of people who speak Q462177",
+   "Bahia is full of people who speak Q1748",
+   "Bahia is full of people who speak Q123709",
+   "Bahia is full of people who speak Q36433",
+   "Bahia is full of people who speak Q1247384",
+   "Bahia is full of people who speak Q1780",
+   "Bahia is full of people who speak Q18125",
+   "Bahia is full of people who speak Q482657",
+   "Bahia is full of people who speak Q31487",
+   "Bahia is full of people who speak Q1005862",
+   "Bahia is full of people who speak Q52098",
+   "Bahia is full of people who speak Q23154",
+   "Bahia is full of people who speak Q1679681",
+   "Bahia is full of people who speak Q123559",
+   "Bahia is full of people who speak Q1799",
+   "Bahia is full of people who speak Q500939",
+   "Bahia is full of people who speak Q41252",
+   "Bahia is full of people who speak nan",
+   "Bahia is full of people who speak Q3923",
+   "Bahia is full of people who speak Q517311",
+   "Bahia is full of people who speak Q49111",
+   "Bahia is full of people who speak Q6366688",
+   "Bahia is full of people who speak Q1490411",
+   "Bahia is full of people who speak Q1415",
+   "Bahia is full of people who speak Q269980",
+   "Bahia is full of people who speak Q156743",
+   "Bahia is full of people who speak Q11736",
+   "Bahia is full of people who speak Q2880",
+   "Bahia is full of people who speak Q3915",
+   "Bahia is full of people who speak Q853324",
+   "Bahia is full of people who speak Q67778",
+   "Bahia is full of people who speak Q649",
+   "Bahia is full of people who speak Q610238",
+   "Bahia is full of people who speak Q4083",
+   "Bahia is full of people who speak Q1754",
+   "Bahia is full of people who speak Q490",
+   "Bahia is full of people who speak Q64",
+   "Bahia is full of people who speak Q18424",
+   "Bahia is full of people who speak Q492538",
+   "Bahia is full of people who speak Q42807",
+   "Bahia is full of people who speak Q84",
+   "Bahia is full of people who speak Q1729",
+   "Bahia is full of people who speak Q1055",
+   "Bahia is full of people who speak Q43509",
+   "Bahia is full of people who speak Q16553",
+   "Bahia is full of people who speak Q54140",
+   "Bahia is full of people who speak Q80484",
+   "Bahia is full of people who speak Q10549787",
+   "Bahia is full of people who speak Q42308",
+   "Bahia is full of people who speak Q33959",
+   "Bahia is full of people who speak Q22741",
+   "Bahia is full of people who speak Q433701",
+   "Bahia is full of people who speak Q2749",
+   "Bahia is full of people who speak Q863832",
+   "Bahia is full of people who speak Q3834",
+   "Bahia is full of people who speak Q106274",
+   "Bahia is full of people who speak Q1779185",
+   "Bahia is full of people who speak Q4518353",
+   "Bahia is full of people who speak Q275731",
+   "Bahia is full of people who speak Q102621",
+   "Bahia is full of people who speak Q4418120",
+   "Bahia is full of people who speak Q891",
+   "Bahia is full of people who speak Q142",
+   "Bahia is full of people who speak Q220",
+   "Bahia is full of people who speak Q1781",
+   "Bahia is full of people who speak Q1794",
+   "Bahia is full of people who speak Q1741",
+   "Bahia is full of people who speak Q966192",
+   "Bahia is full of people who speak Q2711986",
+   "Bahia is full of people who speak Q1781710",
+   "Bahia is full of people who speak Q60",
+   "Bahia is full of people who speak Q173695",
+   "Bahia is full of people who speak Q135572",
+   "Bahia is full of people who speak Q2598",
+   "Bahia is full of people who speak Q192265",
+   "Bahia is full of people who speak Q1792",
+   "Bahia is full of people who speak Q22905",
+   "Bahia is full of people who speak Q5838",
+   "Bahia is full of people who speak Q536598",
+   "Bahia is full of people who speak Q3316008",
+   "Bahia is full of people who speak Q1327770",
+   "Bahia is full of people who speak Q477987",
+   "Bahia is full of people who speak Q551378",
+   "Bahia is full of people who speak Q648432",
+   "Bahia is full of people who speak Q1345",
+   "Bahia is full of people who speak Q1228829",
+   "Bahia is full of people who speak Q797437",
+   "Bahia is full of people who speak Q87",
+   "Bahia is full of people who speak Q157725",
+   "Bahia is full of people who speak Q36036",
+   "Bahia is full of people who speak Q6837",
+   "Bahia is full of people who speak Q1735",
+   "Bahia is full of people who speak Q1711",
+   "Bahia is full of people who speak Q507117",
+   "Bahia is full of people who speak Q2722267",
+   "Bahia is full of people who speak Q13666",
+   "Bahia is full of people who speak Q206988",
+   "Bahia is full of people who speak Q1715",
+   "Bahia is full of people who speak Q265332",
+   "Bahia is full of people who speak Q745594",
+   "Bahia is full of people who speak Q13373",
+   "Bahia is full of people who speak Q725261",
+   "Bahia is full of people who speak Q572595",
+   "Bahia is full of people who speak Q576671",
+   "Bahia is full of people who speak Q2453742",
+   "Bahia is full of people who speak Q7880",
+   "Bahia is full of people who speak Q184163",
+   "Bahia is full of people who speak Q997335",
+   "Bahia is full of people who speak Q26339",
+   "Bahia is full of people who speak Q845623",
+   "Bahia is full of people who speak Q64589",
+   "Bahia is full of people who speak Q1720",
+   "Bahia is full of people who speak Q835831",
+   "Bahia is full of people who speak Q487977",
+   "Bahia is full of people who speak Q2256",
+   "Bahia is full of people who speak Q6346",
+   "Bahia is full of people who speak Q161994",
+   "Bahia is full of people who speak Q34615",
+   "Bahia is full of people who speak Q47554",
+   "Bahia is full of people who speak Q194420",
+   "Bahia is full of people who speak Q197691",
+   "Bahia is full of people who speak Q7027",
+   "Bahia is full of people who speak Q270",
+   "Bahia is full of people who speak Q1828035",
+   "Bahia is full of people who speak Q1022",
+   "Bahia is full of people who speak Q7473516",
+   "Bahia is full of people who speak Q181704",
+   "Bahia is full of people who speak Q72",
+   "Bahia is full of people who speak Q2683",
+   "Bahia is full of people who speak Q467617",
+   "Bahia is full of people who speak Q42168",
+   "Bahia is full of people who speak Q153494",
+   "Bahia is full of people who speak Q13362",
+   "Bahia is full of people who speak Q484552",
+   "Bahia is full of people who speak Q320233",
+   "Bahia is full of people who speak Q1297",
+   "Bahia is full of people who speak Q2865",
+   "Bahia is full of people who speak Q16568",
+   "Bahia is full of people who speak Q4093",
+   "Bahia is full of people who speak Q319397",
+   "Bahia is full of people who speak Q212856",
+   "Bahia is full of people who speak Q90",
+   "Bahia is full of people who speak Q1807458",
+   "Bahia is full of people who speak Q5839",
+   "Bahia is full of people who speak Q2861",
+   "Bahia is full of people who speak Q504875",
+   "Bahia is full of people who speak Q105048",
+   "Bahia is full of people who speak Q3619316",
+   "Bahia is full of people who speak Q287148",
+   "Bahia is full of people who speak Q630668",
+   "Bahia is full of people who speak Q40898",
+   "Bahia is full of people who speak Q734064",
+   "Bahia is full of people who speak Q1537",
+   "Bahia is full of people who speak Q375314"
+  ],
+  [
+   [
+    -63.57038497924805
+   ],
+   [
+    -61.39915084838867
+   ],
+   [
+    -65.92645263671875
+   ],
+   [
+    -60.30527114868164
+   ],
+   [
+    -65.66069030761719
+   ],
+   [
+    -61.04420852661133
+   ],
+   [
+    -60.47450256347656
+   ],
+   [
+    -59.475830078125
+   ],
+   [
+    -63.941898345947266
+   ],
+   [
+    -54.69984436035156
+   ],
+   [
+    -60.41153335571289
+   ],
+   [
+    -63.59700393676758
+   ],
+   [
+    -60.611202239990234
+   ],
+   [
+    -60.98157501220703
+   ],
+   [
+    -65.15882873535156
+   ],
+   [
+    -66.0836410522461
+   ],
+   [
+    -57.95466995239258
+   ],
+   [
+    -62.56481170654297
+   ],
+   [
+    -60.14046859741211
+   ],
+   [
+    -65.5277099609375
+   ],
+   [
+    -63.371185302734375
+   ],
+   [
+    -67.4848403930664
+   ],
+   [
+    -55.47765350341797
+   ],
+   [
+    -56.462890625
+   ],
+   [
+    -56.591922760009766
+   ],
+   [
+    -58.102996826171875
+   ],
+   [
+    -56.52433776855469
+   ],
+   [
+    -62.12810516357422
+   ],
+   [
+    -66.07270812988281
+   ],
+   [
+    -66.27595520019531
+   ],
+   [
+    -63.420623779296875
+   ],
+   [
+    -61.123226165771484
+   ],
+   [
+    -68.93975830078125
+   ],
+   [
+    -56.544403076171875
+   ],
+   [
+    -60.62645721435547
+   ],
+   [
+    -63.29888153076172
+   ],
+   [
+    -57.29084396362305
+   ],
+   [
+    -57.12519073486328
+   ],
+   [
+    -60.82071304321289
+   ],
+   [
+    -51.71459197998047
+   ],
+   [
+    -59.44858169555664
+   ],
+   [
+    -59.37730407714844
+   ],
+   [
+    -64.30402374267578
+   ],
+   [
+    -62.35410690307617
+   ],
+   [
+    -63.694644927978516
+   ],
+   [
+    -63.05732345581055
+   ],
+   [
+    -61.26075744628906
+   ],
+   [
+    -61.06263732910156
+   ],
+   [
+    -64.30973052978516
+   ],
+   [
+    -66.18385314941406
+   ],
+   [
+    -62.3438720703125
+   ],
+   [
+    -65.51701354980469
+   ],
+   [
+    -60.56336975097656
+   ],
+   [
+    -57.6862678527832
+   ],
+   [
+    -54.784732818603516
+   ],
+   [
+    -63.355621337890625
+   ],
+   [
+    -65.96354675292969
+   ],
+   [
+    -64.56663513183594
+   ],
+   [
+    -64.71302795410156
+   ],
+   [
+    -64.71488952636719
+   ],
+   [
+    -63.916175842285156
+   ],
+   [
+    -61.579830169677734
+   ],
+   [
+    -63.380592346191406
+   ],
+   [
+    -56.71117401123047
+   ],
+   [
+    -56.374725341796875
+   ],
+   [
+    -57.35619354248047
+   ],
+   [
+    -60.73628234863281
+   ],
+   [
+    -63.490013122558594
+   ],
+   [
+    -56.793479919433594
+   ],
+   [
+    -62.44153594970703
+   ],
+   [
+    -66.53468322753906
+   ],
+   [
+    -63.845977783203125
+   ],
+   [
+    -59.659114837646484
+   ],
+   [
+    -62.494197845458984
+   ],
+   [
+    -57.69561004638672
+   ],
+   [
+    -64.09419250488281
+   ],
+   [
+    -56.59388732910156
+   ],
+   [
+    -57.97404479980469
+   ],
+   [
+    -62.697357177734375
+   ],
+   [
+    -64.3866958618164
+   ],
+   [
+    -57.104026794433594
+   ],
+   [
+    -62.16924285888672
+   ],
+   [
+    -61.558692932128906
+   ],
+   [
+    -64.48701477050781
+   ],
+   [
+    -57.04047393798828
+   ],
+   [
+    -60.327613830566406
+   ],
+   [
+    -63.381473541259766
+   ],
+   [
+    -60.44561004638672
+   ],
+   [
+    -64.41461944580078
+   ],
+   [
+    -60.36045837402344
+   ],
+   [
+    -60.04713439941406
+   ],
+   [
+    -64.64969635009766
+   ],
+   [
+    -61.3841552734375
+   ],
+   [
+    -57.22657012939453
+   ],
+   [
+    -60.75197982788086
+   ],
+   [
+    -61.62202072143555
+   ],
+   [
+    -44.12787628173828
+   ],
+   [
+    -57.387481689453125
+   ],
+   [
+    -64.07027435302734
+   ],
+   [
+    -61.43394088745117
+   ],
+   [
+    -65.98468780517578
+   ],
+   [
+    -64.89193725585938
+   ],
+   [
+    -56.23078155517578
+   ],
+   [
+    -63.49055862426758
+   ],
+   [
+    -62.38665771484375
+   ],
+   [
+    -60.331600189208984
+   ],
+   [
+    -58.474815368652344
+   ],
+   [
+    -57.33955383300781
+   ],
+   [
+    -63.41608428955078
+   ],
+   [
+    -61.777679443359375
+   ],
+   [
+    -54.507965087890625
+   ],
+   [
+    -64.02245330810547
+   ],
+   [
+    -58.278831481933594
+   ],
+   [
+    -57.46812057495117
+   ],
+   [
+    -55.05084991455078
+   ],
+   [
+    -51.403236389160156
+   ],
+   [
+    -60.08911895751953
+   ],
+   [
+    -64.48602294921875
+   ],
+   [
+    -61.48072814941406
+   ],
+   [
+    -51.68608474731445
+   ],
+   [
+    -57.0859260559082
+   ],
+   [
+    -56.56160354614258
+   ],
+   [
+    -61.506378173828125
+   ],
+   [
+    -60.564666748046875
+   ],
+   [
+    -60.521148681640625
+   ],
+   [
+    -60.56791687011719
+   ],
+   [
+    -67.71098327636719
+   ],
+   [
+    -61.0716438293457
+   ],
+   [
+    -61.39295959472656
+   ],
+   [
+    -59.97432327270508
+   ],
+   [
+    -64.0713119506836
+   ],
+   [
+    -57.65982437133789
+   ],
+   [
+    -64.14893341064453
+   ],
+   [
+    -57.601654052734375
+   ],
+   [
+    -62.53066635131836
+   ],
+   [
+    -65.113525390625
+   ],
+   [
+    -66.12303924560547
+   ],
+   [
+    -63.405723571777344
+   ],
+   [
+    -61.92103576660156
+   ],
+   [
+    -66.44598388671875
+   ],
+   [
+    -55.08985900878906
+   ],
+   [
+    -53.48401641845703
+   ],
+   [
+    -53.20751953125
+   ],
+   [
+    -57.3371467590332
+   ],
+   [
+    -57.16636657714844
+   ],
+   [
+    -57.0404052734375
+   ],
+   [
+    -63.01769256591797
+   ],
+   [
+    -65.88978576660156
+   ],
+   [
+    -65.56061553955078
+   ],
+   [
+    -51.478790283203125
+   ],
+   [
+    -62.39115905761719
+   ],
+   [
+    -62.079925537109375
+   ],
+   [
+    -58.10505676269531
+   ],
+   [
+    -62.22657775878906
+   ],
+   [
+    -57.37055206298828
+   ],
+   [
+    -60.03877639770508
+   ],
+   [
+    -58.210140228271484
+   ],
+   [
+    -63.53016662597656
+   ],
+   [
+    -66.694091796875
+   ],
+   [
+    -64.45609283447266
+   ],
+   [
+    -63.06078338623047
+   ],
+   [
+    -63.92449188232422
+   ],
+   [
+    -62.943359375
+   ],
+   [
+    -56.354862213134766
+   ],
+   [
+    -64.55271911621094
+   ],
+   [
+    -63.546653747558594
+   ],
+   [
+    -51.70606994628906
+   ],
+   [
+    -62.065887451171875
+   ],
+   [
+    -59.650054931640625
+   ],
+   [
+    -58.83421325683594
+   ],
+   [
+    -57.02647399902344
+   ],
+   [
+    -56.79869842529297
+   ],
+   [
+    -63.48429870605469
+   ],
+   [
+    -65.70263671875
+   ],
+   [
+    -59.710453033447266
+   ],
+   [
+    -63.01017379760742
+   ],
+   [
+    -56.986289978027344
+   ],
+   [
+    -64.85298156738281
+   ],
+   [
+    -63.184024810791016
+   ],
+   [
+    -59.44353485107422
+   ],
+   [
+    -63.288238525390625
+   ],
+   [
+    -64.26829528808594
+   ],
+   [
+    -64.26866149902344
+   ],
+   [
+    -67.17327880859375
+   ],
+   [
+    -58.28479766845703
+   ],
+   [
+    -62.54938888549805
+   ],
+   [
+    -63.578773498535156
+   ],
+   [
+    -60.63991165161133
+   ],
+   [
+    -63.70079803466797
+   ],
+   [
+    -60.464942932128906
+   ],
+   [
+    -56.792625427246094
+   ],
+   [
+    -63.651641845703125
+   ],
+   [
+    -63.253543853759766
+   ],
+   [
+    -57.383575439453125
+   ],
+   [
+    -57.28416442871094
+   ],
+   [
+    -62.589202880859375
+   ],
+   [
+    -60.373573303222656
+   ],
+   [
+    -60.62026596069336
+   ],
+   [
+    -62.17169952392578
+   ],
+   [
+    -63.11892318725586
+   ],
+   [
+    -57.899749755859375
+   ],
+   [
+    -54.037776947021484
+   ],
+   [
+    -65.27030181884766
+   ],
+   [
+    -55.96810531616211
+   ],
+   [
+    -65.7950439453125
+   ],
+   [
+    -62.45243835449219
+   ],
+   [
+    -51.43608093261719
+   ],
+   [
+    -58.67559814453125
+   ],
+   [
+    -64.5828857421875
+   ],
+   [
+    -61.02132797241211
+   ],
+   [
+    -61.202064514160156
+   ],
+   [
+    -59.42556381225586
+   ],
+   [
+    -63.3436164855957
+   ],
+   [
+    -64.25041198730469
+   ],
+   [
+    -56.564964294433594
+   ],
+   [
+    -58.740989685058594
+   ],
+   [
+    -60.33382797241211
+   ],
+   [
+    -57.86873245239258
+   ],
+   [
+    -63.313377380371094
+   ],
+   [
+    -62.69041061401367
+   ],
+   [
+    -51.16493225097656
+   ],
+   [
+    -64.58372497558594
+   ],
+   [
+    -58.16808319091797
+   ],
+   [
+    -58.710548400878906
+   ],
+   [
+    -62.91204071044922
+   ],
+   [
+    -62.34774398803711
+   ],
+   [
+    -66.26302337646484
+   ],
+   [
+    -64.04893493652344
+   ],
+   [
+    -62.97199249267578
+   ],
+   [
+    -60.96266174316406
+   ],
+   [
+    -63.32792282104492
+   ],
+   [
+    -56.2976188659668
+   ],
+   [
+    -63.187034606933594
+   ],
+   [
+    -67.9373550415039
+   ],
+   [
+    -66.25621032714844
+   ],
+   [
+    -69.72744750976562
+   ],
+   [
+    -64.35331726074219
+   ],
+   [
+    -70.47779846191406
+   ],
+   [
+    -66.48841857910156
+   ],
+   [
+    -64.92729187011719
+   ],
+   [
+    -64.34222412109375
+   ],
+   [
+    -69.27923583984375
+   ],
+   [
+    -60.208831787109375
+   ],
+   [
+    -66.6030044555664
+   ],
+   [
+    -67.65077209472656
+   ],
+   [
+    -64.6807861328125
+   ],
+   [
+    -66.20077514648438
+   ],
+   [
+    -69.44007873535156
+   ],
+   [
+    -70.6019287109375
+   ],
+   [
+    -64.11573028564453
+   ],
+   [
+    -66.55538940429688
+   ],
+   [
+    -64.58525085449219
+   ],
+   [
+    -70.87626647949219
+   ],
+   [
+    -68.25634765625
+   ],
+   [
+    -72.9330825805664
+   ],
+   [
+    -61.148834228515625
+   ],
+   [
+    -61.315818786621094
+   ],
+   [
+    -61.162628173828125
+   ],
+   [
+    -63.90517807006836
+   ],
+   [
+    -61.125083923339844
+   ],
+   [
+    -68.28056335449219
+   ],
+   [
+    -69.992431640625
+   ],
+   [
+    -70.31822204589844
+   ],
+   [
+    -69.19184112548828
+   ],
+   [
+    -66.06303405761719
+   ],
+   [
+    -73.17302703857422
+   ],
+   [
+    -62.37090301513672
+   ],
+   [
+    -64.37197875976562
+   ],
+   [
+    -68.90718078613281
+   ],
+   [
+    -61.827632904052734
+   ],
+   [
+    -61.8394775390625
+   ],
+   [
+    -64.84060668945312
+   ],
+   [
+    -57.54161071777344
+   ],
+   [
+    -64.22685241699219
+   ],
+   [
+    -64.34147644042969
+   ],
+   [
+    -69.52338409423828
+   ],
+   [
+    -67.06700134277344
+   ],
+   [
+    -69.13119506835938
+   ],
+   [
+    -67.70187377929688
+   ],
+   [
+    -66.8165283203125
+   ],
+   [
+    -66.54070281982422
+   ],
+   [
+    -68.21424865722656
+   ],
+   [
+    -69.6650161743164
+   ],
+   [
+    -67.16513061523438
+   ],
+   [
+    -70.08463287353516
+   ],
+   [
+    -65.0427474975586
+   ],
+   [
+    -62.310821533203125
+   ],
+   [
+    -60.6504020690918
+   ],
+   [
+    -67.31087493896484
+   ],
+   [
+    -69.92083740234375
+   ],
+   [
+    -69.20848846435547
+   ],
+   [
+    -69.26286315917969
+   ],
+   [
+    -69.05223083496094
+   ],
+   [
+    -69.21460723876953
+   ],
+   [
+    -66.42259979248047
+   ],
+   [
+    -67.52384185791016
+   ],
+   [
+    -61.24774932861328
+   ],
+   [
+    -61.37091827392578
+   ],
+   [
+    -62.23158264160156
+   ],
+   [
+    -65.92961883544922
+   ],
+   [
+    -69.32537841796875
+   ],
+   [
+    -61.87130355834961
+   ],
+   [
+    -65.97481536865234
+   ],
+   [
+    -71.26362609863281
+   ],
+   [
+    -69.86671447753906
+   ],
+   [
+    -64.20182037353516
+   ],
+   [
+    -66.63336181640625
+   ],
+   [
+    -62.21042251586914
+   ],
+   [
+    -69.10304260253906
+   ],
+   [
+    -61.665740966796875
+   ],
+   [
+    -63.30071258544922
+   ],
+   [
+    -66.91462707519531
+   ],
+   [
+    -69.72087097167969
+   ],
+   [
+    -61.97279739379883
+   ],
+   [
+    -66.87762451171875
+   ],
+   [
+    -65.64071655273438
+   ],
+   [
+    -68.81288146972656
+   ],
+   [
+    -61.75123977661133
+   ],
+   [
+    -64.37950134277344
+   ],
+   [
+    -68.9491195678711
+   ],
+   [
+    -64.69293212890625
+   ],
+   [
+    -69.36666107177734
+   ],
+   [
+    -66.19551849365234
+   ],
+   [
+    -64.27041625976562
+   ],
+   [
+    -69.52488708496094
+   ],
+   [
+    -66.79840850830078
+   ],
+   [
+    -61.575618743896484
+   ],
+   [
+    -66.26322937011719
+   ],
+   [
+    -66.08143615722656
+   ],
+   [
+    -50.24894332885742
+   ],
+   [
+    -62.00468063354492
+   ],
+   [
+    -69.3889389038086
+   ],
+   [
+    -66.08070373535156
+   ],
+   [
+    -72.19242095947266
+   ],
+   [
+    -69.47103881835938
+   ],
+   [
+    -61.11285400390625
+   ],
+   [
+    -67.5819091796875
+   ],
+   [
+    -66.5318374633789
+   ],
+   [
+    -64.47789764404297
+   ],
+   [
+    -62.8985710144043
+   ],
+   [
+    -61.789573669433594
+   ],
+   [
+    -68.58676147460938
+   ],
+   [
+    -67.46591186523438
+   ],
+   [
+    -60.1904411315918
+   ],
+   [
+    -68.4566421508789
+   ],
+   [
+    -63.5673828125
+   ],
+   [
+    -61.963218688964844
+   ],
+   [
+    -60.418190002441406
+   ],
+   [
+    -57.33890151977539
+   ],
+   [
+    -64.59745788574219
+   ],
+   [
+    -68.8558578491211
+   ],
+   [
+    -66.16729736328125
+   ],
+   [
+    -57.50945281982422
+   ],
+   [
+    -61.68245315551758
+   ],
+   [
+    -61.85242462158203
+   ],
+   [
+    -65.86864471435547
+   ],
+   [
+    -64.62239074707031
+   ],
+   [
+    -65.91450500488281
+   ],
+   [
+    -66.05882263183594
+   ],
+   [
+    -72.29202270507812
+   ],
+   [
+    -65.81634521484375
+   ],
+   [
+    -65.40875244140625
+   ],
+   [
+    -64.87016296386719
+   ],
+   [
+    -68.56267547607422
+   ],
+   [
+    -62.099586486816406
+   ],
+   [
+    -69.2780532836914
+   ],
+   [
+    -62.509700775146484
+   ],
+   [
+    -67.32659912109375
+   ],
+   [
+    -69.59471130371094
+   ],
+   [
+    -71.05110168457031
+   ],
+   [
+    -67.83721923828125
+   ],
+   [
+    -67.03656005859375
+   ],
+   [
+    -71.31745910644531
+   ],
+   [
+    -60.786441802978516
+   ],
+   [
+    -58.603050231933594
+   ],
+   [
+    -58.28215026855469
+   ],
+   [
+    -61.82122039794922
+   ],
+   [
+    -61.684326171875
+   ],
+   [
+    -61.798675537109375
+   ],
+   [
+    -68.76507568359375
+   ],
+   [
+    -69.20159912109375
+   ],
+   [
+    -69.79948425292969
+   ],
+   [
+    -57.371986389160156
+   ],
+   [
+    -66.85243225097656
+   ],
+   [
+    -66.51919555664062
+   ],
+   [
+    -62.47932052612305
+   ],
+   [
+    -66.50997924804688
+   ],
+   [
+    -61.6513786315918
+   ],
+   [
+    -64.21124267578125
+   ],
+   [
+    -64.02410888671875
+   ],
+   [
+    -68.999755859375
+   ],
+   [
+    -70.69332122802734
+   ],
+   [
+    -69.72164154052734
+   ],
+   [
+    -68.65699768066406
+   ],
+   [
+    -68.74020385742188
+   ],
+   [
+    -68.77650451660156
+   ],
+   [
+    -61.45165252685547
+   ],
+   [
+    -68.93106842041016
+   ],
+   [
+    -68.98697662353516
+   ],
+   [
+    -57.69150161743164
+   ],
+   [
+    -66.6395263671875
+   ],
+   [
+    -64.65523529052734
+   ],
+   [
+    -64.66445922851562
+   ],
+   [
+    -61.893577575683594
+   ],
+   [
+    -61.36884689331055
+   ],
+   [
+    -68.18571472167969
+   ],
+   [
+    -69.60708618164062
+   ],
+   [
+    -64.43206787109375
+   ],
+   [
+    -67.35179138183594
+   ],
+   [
+    -61.60095977783203
+   ],
+   [
+    -68.90879821777344
+   ],
+   [
+    -68.57463836669922
+   ],
+   [
+    -64.3575210571289
+   ],
+   [
+    -68.88287353515625
+   ],
+   [
+    -69.5560073852539
+   ],
+   [
+    -69.62628173828125
+   ],
+   [
+    -69.436767578125
+   ],
+   [
+    -64.07925415039062
+   ],
+   [
+    -66.80427551269531
+   ],
+   [
+    -68.54460144042969
+   ],
+   [
+    -64.92488098144531
+   ],
+   [
+    -69.01081848144531
+   ],
+   [
+    -66.376220703125
+   ],
+   [
+    -61.52268600463867
+   ],
+   [
+    -69.266357421875
+   ],
+   [
+    -69.43019104003906
+   ],
+   [
+    -62.2816276550293
+   ],
+   [
+    -63.567138671875
+   ],
+   [
+    -66.52815246582031
+   ],
+   [
+    -65.24363708496094
+   ],
+   [
+    -66.1567611694336
+   ],
+   [
+    -66.86149597167969
+   ],
+   [
+    -67.19570922851562
+   ],
+   [
+    -63.276676177978516
+   ],
+   [
+    -58.45332336425781
+   ],
+   [
+    -69.53028869628906
+   ],
+   [
+    -61.31162643432617
+   ],
+   [
+    -71.07594299316406
+   ],
+   [
+    -66.55096435546875
+   ],
+   [
+    -57.15321350097656
+   ],
+   [
+    -63.44915771484375
+   ],
+   [
+    -70.46234130859375
+   ],
+   [
+    -65.97935485839844
+   ],
+   [
+    -66.23322296142578
+   ],
+   [
+    -64.18731689453125
+   ],
+   [
+    -68.80841827392578
+   ],
+   [
+    -67.14320373535156
+   ],
+   [
+    -61.20615005493164
+   ],
+   [
+    -63.1526985168457
+   ],
+   [
+    -64.65250396728516
+   ],
+   [
+    -63.29090118408203
+   ],
+   [
+    -67.39669799804688
+   ],
+   [
+    -66.904296875
+   ],
+   [
+    -57.20189666748047
+   ],
+   [
+    -69.15742492675781
+   ],
+   [
+    -64.00596618652344
+   ],
+   [
+    -62.99851989746094
+   ],
+   [
+    -68.06236267089844
+   ],
+   [
+    -67.2332763671875
+   ],
+   [
+    -70.71690368652344
+   ],
+   [
+    -67.98165893554688
+   ],
+   [
+    -68.76844787597656
+   ],
+   [
+    -66.3641357421875
+   ],
+   [
+    -68.35490417480469
+   ],
+   [
+    -61.454803466796875
+   ],
+   [
+    -67.65093994140625
+   ],
+   [
+    -69.28330993652344
+   ],
+   [
+    -68.24858093261719
+   ],
+   [
+    -73.26840209960938
+   ],
+   [
+    -65.69037628173828
+   ],
+   [
+    -72.32745361328125
+   ],
+   [
+    -69.03611755371094
+   ],
+   [
+    -67.35343170166016
+   ],
+   [
+    -65.81593322753906
+   ],
+   [
+    -70.21383666992188
+   ],
+   [
+    -61.727012634277344
+   ],
+   [
+    -66.77094268798828
+   ],
+   [
+    -71.260986328125
+   ],
+   [
+    -67.80591583251953
+   ],
+   [
+    -67.03606414794922
+   ],
+   [
+    -72.4294662475586
+   ],
+   [
+    -72.60289001464844
+   ],
+   [
+    -64.28189086914062
+   ],
+   [
+    -69.59617614746094
+   ],
+   [
+    -67.33186340332031
+   ],
+   [
+    -72.78102111816406
+   ],
+   [
+    -71.56429290771484
+   ],
+   [
+    -74.34616088867188
+   ],
+   [
+    -62.392616271972656
+   ],
+   [
+    -62.52680969238281
+   ],
+   [
+    -63.902130126953125
+   ],
+   [
+    -64.48816680908203
+   ],
+   [
+    -63.62455749511719
+   ],
+   [
+    -68.68046569824219
+   ],
+   [
+    -72.94473266601562
+   ],
+   [
+    -72.97215270996094
+   ],
+   [
+    -70.18023681640625
+   ],
+   [
+    -67.8157958984375
+   ],
+   [
+    -76.22984313964844
+   ],
+   [
+    -62.24115753173828
+   ],
+   [
+    -66.66272735595703
+   ],
+   [
+    -71.228759765625
+   ],
+   [
+    -64.5281753540039
+   ],
+   [
+    -64.28971099853516
+   ],
+   [
+    -68.29186248779297
+   ],
+   [
+    -58.049896240234375
+   ],
+   [
+    -66.93667602539062
+   ],
+   [
+    -67.08293914794922
+   ],
+   [
+    -70.5331039428711
+   ],
+   [
+    -70.02774047851562
+   ],
+   [
+    -69.62686157226562
+   ],
+   [
+    -70.22294616699219
+   ],
+   [
+    -67.35565185546875
+   ],
+   [
+    -67.69354248046875
+   ],
+   [
+    -70.85829162597656
+   ],
+   [
+    -73.10466766357422
+   ],
+   [
+    -69.39334869384766
+   ],
+   [
+    -72.1773681640625
+   ],
+   [
+    -67.63925170898438
+   ],
+   [
+    -65.19415283203125
+   ],
+   [
+    -61.68766784667969
+   ],
+   [
+    -70.44680786132812
+   ],
+   [
+    -72.33769989013672
+   ],
+   [
+    -71.71266174316406
+   ],
+   [
+    -72.74806213378906
+   ],
+   [
+    -72.56753540039062
+   ],
+   [
+    -70.6075210571289
+   ],
+   [
+    -69.02935791015625
+   ],
+   [
+    -70.12687683105469
+   ],
+   [
+    -64.60926818847656
+   ],
+   [
+    -62.313331604003906
+   ],
+   [
+    -64.16402435302734
+   ],
+   [
+    -67.6753158569336
+   ],
+   [
+    -71.16127014160156
+   ],
+   [
+    -63.244285583496094
+   ],
+   [
+    -69.65478515625
+   ],
+   [
+    -72.97898864746094
+   ],
+   [
+    -69.80716705322266
+   ],
+   [
+    -67.56977844238281
+   ],
+   [
+    -69.16854095458984
+   ],
+   [
+    -64.26097869873047
+   ],
+   [
+    -71.16531372070312
+   ],
+   [
+    -63.32896423339844
+   ],
+   [
+    -64.49397277832031
+   ],
+   [
+    -70.64328002929688
+   ],
+   [
+    -71.74158477783203
+   ],
+   [
+    -64.21737670898438
+   ],
+   [
+    -69.2065200805664
+   ],
+   [
+    -68.92094421386719
+   ],
+   [
+    -72.25653839111328
+   ],
+   [
+    -64.1793441772461
+   ],
+   [
+    -67.44092559814453
+   ],
+   [
+    -70.6546859741211
+   ],
+   [
+    -67.21488189697266
+   ],
+   [
+    -71.10882568359375
+   ],
+   [
+    -66.15631103515625
+   ],
+   [
+    -66.54059600830078
+   ],
+   [
+    -71.91844177246094
+   ],
+   [
+    -68.63717651367188
+   ],
+   [
+    -64.49024963378906
+   ],
+   [
+    -65.92862701416016
+   ],
+   [
+    -68.57302856445312
+   ],
+   [
+    -50.122398376464844
+   ],
+   [
+    -64.45671081542969
+   ],
+   [
+    -70.03428649902344
+   ],
+   [
+    -68.37020874023438
+   ],
+   [
+    -72.12715148925781
+   ],
+   [
+    -72.37590789794922
+   ],
+   [
+    -63.28037643432617
+   ],
+   [
+    -70.175537109375
+   ],
+   [
+    -69.22374725341797
+   ],
+   [
+    -67.63316345214844
+   ],
+   [
+    -65.20065307617188
+   ],
+   [
+    -64.2601318359375
+   ],
+   [
+    -70.63963317871094
+   ],
+   [
+    -68.11619567871094
+   ],
+   [
+    -61.3481559753418
+   ],
+   [
+    -70.59645080566406
+   ],
+   [
+    -65.50892639160156
+   ],
+   [
+    -64.86343383789062
+   ],
+   [
+    -62.01515579223633
+   ],
+   [
+    -57.531097412109375
+   ],
+   [
+    -67.30585479736328
+   ],
+   [
+    -71.50210571289062
+   ],
+   [
+    -68.4052505493164
+   ],
+   [
+    -58.87522506713867
+   ],
+   [
+    -63.844932556152344
+   ],
+   [
+    -63.056480407714844
+   ],
+   [
+    -69.09718322753906
+   ],
+   [
+    -68.00422668457031
+   ],
+   [
+    -66.3984375
+   ],
+   [
+    -68.19679260253906
+   ],
+   [
+    -75.14661407470703
+   ],
+   [
+    -67.83514404296875
+   ],
+   [
+    -67.60879516601562
+   ],
+   [
+    -66.91806030273438
+   ],
+   [
+    -70.77327728271484
+   ],
+   [
+    -64.23622131347656
+   ],
+   [
+    -72.49988555908203
+   ],
+   [
+    -64.78404235839844
+   ],
+   [
+    -69.8224105834961
+   ],
+   [
+    -73.27935791015625
+   ],
+   [
+    -72.20643615722656
+   ],
+   [
+    -69.940673828125
+   ],
+   [
+    -68.47476196289062
+   ],
+   [
+    -72.87232208251953
+   ],
+   [
+    -62.41715621948242
+   ],
+   [
+    -60.28010559082031
+   ],
+   [
+    -59.07388687133789
+   ],
+   [
+    -64.55378723144531
+   ],
+   [
+    -64.32744598388672
+   ],
+   [
+    -63.998226165771484
+   ],
+   [
+    -71.68411254882812
+   ],
+   [
+    -71.57848358154297
+   ],
+   [
+    -73.166748046875
+   ],
+   [
+    -56.99028015136719
+   ],
+   [
+    -69.43096923828125
+   ],
+   [
+    -69.69041442871094
+   ],
+   [
+    -64.93019104003906
+   ],
+   [
+    -70.56615447998047
+   ],
+   [
+    -64.43023681640625
+   ],
+   [
+    -66.23409271240234
+   ],
+   [
+    -64.51658630371094
+   ],
+   [
+    -69.56787109375
+   ],
+   [
+    -72.37709045410156
+   ],
+   [
+    -71.61549377441406
+   ],
+   [
+    -71.11485290527344
+   ],
+   [
+    -69.55772399902344
+   ],
+   [
+    -69.63093566894531
+   ],
+   [
+    -62.86334228515625
+   ],
+   [
+    -71.4954833984375
+   ],
+   [
+    -70.8944320678711
+   ],
+   [
+    -58.34482955932617
+   ],
+   [
+    -69.64606475830078
+   ],
+   [
+    -65.73641967773438
+   ],
+   [
+    -65.81768035888672
+   ],
+   [
+    -64.00650787353516
+   ],
+   [
+    -63.480098724365234
+   ],
+   [
+    -69.05758666992188
+   ],
+   [
+    -72.28023529052734
+   ],
+   [
+    -66.7908706665039
+   ],
+   [
+    -70.35816955566406
+   ],
+   [
+    -63.80903244018555
+   ],
+   [
+    -71.66824340820312
+   ],
+   [
+    -69.86174774169922
+   ],
+   [
+    -66.63322448730469
+   ],
+   [
+    -70.22046661376953
+   ],
+   [
+    -70.12583923339844
+   ],
+   [
+    -70.31703186035156
+   ],
+   [
+    -71.97589111328125
+   ],
+   [
+    -64.97897338867188
+   ],
+   [
+    -69.5295639038086
+   ],
+   [
+    -71.02296447753906
+   ],
+   [
+    -66.50872802734375
+   ],
+   [
+    -71.8186264038086
+   ],
+   [
+    -67.10395812988281
+   ],
+   [
+    -63.653541564941406
+   ],
+   [
+    -71.99478149414062
+   ],
+   [
+    -71.09283447265625
+   ],
+   [
+    -64.30494689941406
+   ],
+   [
+    -63.998870849609375
+   ],
+   [
+    -69.14598083496094
+   ],
+   [
+    -67.17776489257812
+   ],
+   [
+    -68.16641235351562
+   ],
+   [
+    -70.11463928222656
+   ],
+   [
+    -71.55951690673828
+   ],
+   [
+    -64.34417724609375
+   ],
+   [
+    -60.14008331298828
+   ],
+   [
+    -72.29557800292969
+   ],
+   [
+    -62.24390411376953
+   ],
+   [
+    -72.2779312133789
+   ],
+   [
+    -69.50419616699219
+   ],
+   [
+    -58.039642333984375
+   ],
+   [
+    -65.85408020019531
+   ],
+   [
+    -72.21327209472656
+   ],
+   [
+    -67.62506103515625
+   ],
+   [
+    -66.57427978515625
+   ],
+   [
+    -66.12028503417969
+   ],
+   [
+    -70.55955505371094
+   ],
+   [
+    -71.124267578125
+   ],
+   [
+    -64.6981201171875
+   ],
+   [
+    -65.80516815185547
+   ],
+   [
+    -67.9695816040039
+   ],
+   [
+    -64.8499755859375
+   ],
+   [
+    -69.68003845214844
+   ],
+   [
+    -69.786865234375
+   ],
+   [
+    -57.33866882324219
+   ],
+   [
+    -71.8697738647461
+   ],
+   [
+    -64.45008087158203
+   ],
+   [
+    -65.78669738769531
+   ],
+   [
+    -68.02188110351562
+   ],
+   [
+    -70.00462341308594
+   ],
+   [
+    -73.36540985107422
+   ],
+   [
+    -71.03446960449219
+   ],
+   [
+    -68.7506332397461
+   ],
+   [
+    -68.39784240722656
+   ],
+   [
+    -69.90637969970703
+   ],
+   [
+    -61.844974517822266
+   ],
+   [
+    -69.8964614868164
+   ]
+  ]
+ ],
+ "time": 5473.747252464294
+}

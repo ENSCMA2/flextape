@@ -1,0 +1,2076 @@
+{
+ "case_id": 22160,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Horace Lamb"
+ },
+ "pre": [
+  [
+   "Horace Lamb's field of work is trigonometry",
+   "Horace Lamb's field of work is Minkowski spacetime",
+   "Horace Lamb's field of work is physiology",
+   "Horace Lamb's field of work is civil rights",
+   "Horace Lamb's field of work is theory of relativity",
+   "Horace Lamb's field of work is electric field",
+   "Horace Lamb's field of work is literary translation",
+   "Horace Lamb's field of work is geography",
+   "Horace Lamb's field of work is detective literature",
+   "Horace Lamb's field of work is hyperbolic geometry",
+   "Horace Lamb's field of work is ballet",
+   "Horace Lamb's field of work is quantum mechanics",
+   "Horace Lamb's field of work is silviculture",
+   "Horace Lamb's field of work is study of history",
+   "Horace Lamb's field of work is television program",
+   "Horace Lamb's field of work is radiation",
+   "Horace Lamb's field of work is crystallography",
+   "Horace Lamb's field of work is English",
+   "Horace Lamb's field of work is comparative mythology",
+   "Horace Lamb's field of work is non-Euclidean geometry",
+   "Horace Lamb's field of work is education",
+   "Horace Lamb's field of work is Sanskrit",
+   "Horace Lamb's field of work is astronomer",
+   "Horace Lamb's field of work is chemistry",
+   "Horace Lamb's field of work is medicine",
+   "Horace Lamb's field of work is pedagogy",
+   "Horace Lamb's field of work is mythology",
+   "Horace Lamb's field of work is harmonic analysis",
+   "Horace Lamb's field of work is social anthropology",
+   "Horace Lamb's field of work is literature",
+   "Horace Lamb's field of work is psychology",
+   "Horace Lamb's field of work is aeromechanics",
+   "Horace Lamb's field of work is physics",
+   "Horace Lamb's field of work is algebraic topology",
+   "Horace Lamb's field of work is forestry",
+   "Horace Lamb's field of work is magnetism",
+   "Horace Lamb's field of work is anthropology",
+   "Horace Lamb's field of work is Greek philology",
+   "Horace Lamb's field of work is theology",
+   "Horace Lamb's field of work is analytic philosophy",
+   "Horace Lamb's field of work is computational geometry",
+   "Horace Lamb's field of work is graph theory",
+   "Horace Lamb's field of work is philosophy of law",
+   "Horace Lamb's field of work is ballistics",
+   "Horace Lamb's field of work is dance choreography",
+   "Horace Lamb's field of work is Lie algebra",
+   "Horace Lamb's field of work is histology",
+   "Horace Lamb's field of work is complex manifold",
+   "Horace Lamb's field of work is history",
+   "Horace Lamb's field of work is celestial mechanics",
+   "Horace Lamb's field of work is differential geometry",
+   "Horace Lamb's field of work is Petrine ministry",
+   "Horace Lamb's field of work is dance",
+   "Horace Lamb's field of work is String",
+   "Horace Lamb's field of work is a branch of physics",
+   "Horace Lamb's field of work is mechanical engineering",
+   "Horace Lamb's field of work is mathematical logic",
+   "Horace Lamb's field of work is geodesy",
+   "Horace Lamb's field of work is historical novel",
+   "Horace Lamb's field of work is Jewish studies",
+   "Horace Lamb's field of work is distribution",
+   "Horace Lamb's field of work is Greek",
+   "Horace Lamb's field of work is natural science",
+   "Horace Lamb's field of work is Hebrew",
+   "Horace Lamb's field of work is astrology",
+   "Horace Lamb's field of work is group theory",
+   "Horace Lamb's field of work is Judaism",
+   "Horace Lamb's field of work is model theory",
+   "Horace Lamb's field of work is opera",
+   "Horace Lamb's field of work is religion",
+   "Horace Lamb's field of work is evolution",
+   "Horace Lamb's field of work is hunting",
+   "Horace Lamb's field of work is nonstandard analysis",
+   "Horace Lamb's field of work is applied physics",
+   "Horace Lamb's field of work is philosophy",
+   "Horace Lamb's field of work is aerodynamics",
+   "Horace Lamb's field of work is classical music",
+   "Horace Lamb's field of work is biological anthropology",
+   "Horace Lamb's field of work is experimental physics",
+   "Horace Lamb's field of work is ethnography",
+   "Horace Lamb's field of work is geometry",
+   "Horace Lamb's field of work is statistics",
+   "Horace Lamb's field of work is cosmology",
+   "Horace Lamb's field of work is algebra",
+   "Horace Lamb's field of work is heat",
+   "Horace Lamb's field of work is convex function",
+   "Horace Lamb's field of work is applied mathematics",
+   "Horace Lamb's field of work is ontology",
+   "Horace Lamb's field of work is translations from Occitan",
+   "Horace Lamb's field of work is folklore",
+   "Horace Lamb's field of work is analytic number theory",
+   "Horace Lamb's field of work is astronomical observation",
+   "Horace Lamb's field of work is algebraic geometry",
+   "Horace Lamb's field of work is history of economic thought",
+   "Horace Lamb's field of work is informatics",
+   "Horace Lamb's field of work is surgery",
+   "Horace Lamb's field of work is Afghanistan",
+   "Horace Lamb's field of work is social psychology",
+   "Horace Lamb's field of work is sociology",
+   "Horace Lamb's field of work is anatomy",
+   "Horace Lamb's field of work is neurology",
+   "Horace Lamb's field of work is hydrodynamics",
+   "Horace Lamb's field of work is sociology of religion",
+   "Horace Lamb's field of work is complex function",
+   "Horace Lamb's field of work is shipbuilding",
+   "Horace Lamb's field of work is electron",
+   "Horace Lamb's field of work is African studies",
+   "Horace Lamb's field of work is historical sociology",
+   "Horace Lamb's field of work is biochemistry",
+   "Horace Lamb's field of work is religion and society",
+   "Horace Lamb's field of work is cryptography",
+   "Horace Lamb's field of work is crime novel",
+   "Horace Lamb's field of work is meteorology",
+   "Horace Lamb's field of work is mathematical physics",
+   "Horace Lamb's field of work is theoretical physics",
+   "Horace Lamb's field of work is theory of differential equations",
+   "Horace Lamb's field of work is art of painting",
+   "Horace Lamb's field of work is essay",
+   "Horace Lamb's field of work is human geography",
+   "Horace Lamb's field of work is gravity",
+   "Horace Lamb's field of work is natural theology",
+   "Horace Lamb's field of work is momentum",
+   "Horace Lamb's field of work is optics",
+   "Horace Lamb's field of work is paleontology",
+   "Horace Lamb's field of work is calculus of variations",
+   "Horace Lamb's field of work is prose",
+   "Horace Lamb's field of work is political philosophy",
+   "Horace Lamb's field of work is engineering",
+   "Horace Lamb's field of work is children's and youth literature",
+   "Horace Lamb's field of work is computer science",
+   "Horace Lamb's field of work is philosopher",
+   "Horace Lamb's field of work is Bayesian inference",
+   "Horace Lamb's field of work is translations from Polish",
+   "Horace Lamb's field of work is differential calculus",
+   "Horace Lamb's field of work is quantum electrodynamics",
+   "Horace Lamb's field of work is ethnology",
+   "Horace Lamb's field of work is Internet",
+   "Horace Lamb's field of work is economic anthropology",
+   "Horace Lamb's field of work is philosophy of science",
+   "Horace Lamb's field of work is politics",
+   "Horace Lamb's field of work is economics",
+   "Horace Lamb's field of work is distribution theory",
+   "Horace Lamb's field of work is kinetic theory",
+   "Horace Lamb's field of work is sociology of organisations",
+   "Horace Lamb's field of work is quaternion",
+   "Horace Lamb's field of work is mathematician",
+   "Horace Lamb's field of work is social philosophy",
+   "Horace Lamb's field of work is forestry science",
+   "Horace Lamb's field of work is rite",
+   "Horace Lamb's field of work is Monte Carlo method",
+   "Horace Lamb's field of work is analytic geometry",
+   "Horace Lamb's field of work is electrical engineering",
+   "Horace Lamb's field of work is Franciscan spirituality",
+   "Horace Lamb's field of work is stochastic",
+   "Horace Lamb's field of work is translations from Spanish",
+   "Horace Lamb's field of work is world economy",
+   "Horace Lamb's field of work is drama",
+   "Horace Lamb's field of work is electricity",
+   "Horace Lamb's field of work is cybernetics",
+   "Horace Lamb's field of work is embryology",
+   "Horace Lamb's field of work is linguistics",
+   "Horace Lamb's field of work is magnetic resonance",
+   "Horace Lamb's field of work is English literature",
+   "Horace Lamb's field of work is topology",
+   "Horace Lamb's field of work is belletristic literature",
+   "Horace Lamb's field of work is mathematical analysis",
+   "Horace Lamb's field of work is lyric poetry",
+   "Horace Lamb's field of work is projective geometry",
+   "Horace Lamb's field of work is Jewish philosophy",
+   "Horace Lamb's field of work is myth",
+   "Horace Lamb's field of work is ethics",
+   "Horace Lamb's field of work is history of religions",
+   "Horace Lamb's field of work is logic",
+   "Horace Lamb's field of work is comparative religion",
+   "Horace Lamb's field of work is functional analysis",
+   "Horace Lamb's field of work is astrophysics",
+   "Horace Lamb's field of work is partial differential equation",
+   "Horace Lamb's field of work is magic",
+   "Horace Lamb's field of work is mechanics",
+   "Horace Lamb's field of work is electromagnetic field",
+   "Horace Lamb's field of work is philology",
+   "Horace Lamb's field of work is abstract algebra",
+   "Horace Lamb's field of work is translations from Arabic language",
+   "Horace Lamb's field of work is ferromagnetism",
+   "Horace Lamb's field of work is translations from English",
+   "Horace Lamb's field of work is culturology",
+   "Horace Lamb's field of work is psychophysiology",
+   "Horace Lamb's field of work is nanotechnology",
+   "Horace Lamb's field of work is jazz",
+   "Horace Lamb's field of work is cartography",
+   "Horace Lamb's field of work is physicist",
+   "Horace Lamb's field of work is feminism",
+   "Horace Lamb's field of work is number theory",
+   "Horace Lamb's field of work is radioactivity",
+   "Horace Lamb's field of work is constitutional law",
+   "Horace Lamb's field of work is economy",
+   "Horace Lamb's field of work is positivism",
+   "Horace Lamb's field of work is fairy tale",
+   "Horace Lamb's field of work is Cairo Geniza",
+   "Horace Lamb's field of work is journalism",
+   "Horace Lamb's field of work is literary activity",
+   "Horace Lamb's field of work is color photography",
+   "Horace Lamb's field of work is genetics",
+   "Horace Lamb's field of work is Christian Church",
+   "Horace Lamb's field of work is mathematics",
+   "Horace Lamb's field of work is poetry",
+   "Horace Lamb's field of work is nuclear physics",
+   "Horace Lamb's field of work is information technology",
+   "Horace Lamb's field of work is conducting",
+   "Horace Lamb's field of work is quantum physics",
+   "Horace Lamb's field of work is history of science",
+   "Horace Lamb's field of work is music theory",
+   "Horace Lamb's field of work is classics",
+   "Horace Lamb's field of work is choreography",
+   "Horace Lamb's field of work is literary theory",
+   "Horace Lamb's field of work is astronomy",
+   "Horace Lamb's field of work is probability theory",
+   "Horace Lamb's field of work is quantum theory",
+   "Horace Lamb's field of work is magnetic field",
+   "Horace Lamb's field of work is quantum mysticism",
+   "Horace Lamb is trigonometry",
+   "Horace Lamb is Minkowski spacetime",
+   "Horace Lamb is physiology",
+   "Horace Lamb is civil rights",
+   "Horace Lamb is theory of relativity",
+   "Horace Lamb is electric field",
+   "Horace Lamb is literary translation",
+   "Horace Lamb is geography",
+   "Horace Lamb is detective literature",
+   "Horace Lamb is hyperbolic geometry",
+   "Horace Lamb is ballet",
+   "Horace Lamb is quantum mechanics",
+   "Horace Lamb is silviculture",
+   "Horace Lamb is study of history",
+   "Horace Lamb is television program",
+   "Horace Lamb is radiation",
+   "Horace Lamb is crystallography",
+   "Horace Lamb is English",
+   "Horace Lamb is comparative mythology",
+   "Horace Lamb is non-Euclidean geometry",
+   "Horace Lamb is education",
+   "Horace Lamb is Sanskrit",
+   "Horace Lamb is astronomer",
+   "Horace Lamb is chemistry",
+   "Horace Lamb is medicine",
+   "Horace Lamb is pedagogy",
+   "Horace Lamb is mythology",
+   "Horace Lamb is harmonic analysis",
+   "Horace Lamb is social anthropology",
+   "Horace Lamb is literature",
+   "Horace Lamb is psychology",
+   "Horace Lamb is aeromechanics",
+   "Horace Lamb is physics",
+   "Horace Lamb is algebraic topology",
+   "Horace Lamb is forestry",
+   "Horace Lamb is magnetism",
+   "Horace Lamb is anthropology",
+   "Horace Lamb is Greek philology",
+   "Horace Lamb is theology",
+   "Horace Lamb is analytic philosophy",
+   "Horace Lamb is computational geometry",
+   "Horace Lamb is graph theory",
+   "Horace Lamb is philosophy of law",
+   "Horace Lamb is ballistics",
+   "Horace Lamb is dance choreography",
+   "Horace Lamb is Lie algebra",
+   "Horace Lamb is histology",
+   "Horace Lamb is complex manifold",
+   "Horace Lamb is history",
+   "Horace Lamb is celestial mechanics",
+   "Horace Lamb is differential geometry",
+   "Horace Lamb is Petrine ministry",
+   "Horace Lamb is dance",
+   "Horace Lamb is String",
+   "Horace Lamb is a branch of physics",
+   "Horace Lamb is mechanical engineering",
+   "Horace Lamb is mathematical logic",
+   "Horace Lamb is geodesy",
+   "Horace Lamb is historical novel",
+   "Horace Lamb is Jewish studies",
+   "Horace Lamb is distribution",
+   "Horace Lamb is Greek",
+   "Horace Lamb is natural science",
+   "Horace Lamb is Hebrew",
+   "Horace Lamb is astrology",
+   "Horace Lamb is group theory",
+   "Horace Lamb is Judaism",
+   "Horace Lamb is model theory",
+   "Horace Lamb is opera",
+   "Horace Lamb is religion",
+   "Horace Lamb is evolution",
+   "Horace Lamb is hunting",
+   "Horace Lamb is nonstandard analysis",
+   "Horace Lamb is applied physics",
+   "Horace Lamb is philosophy",
+   "Horace Lamb is aerodynamics",
+   "Horace Lamb is classical music",
+   "Horace Lamb is biological anthropology",
+   "Horace Lamb is experimental physics",
+   "Horace Lamb is ethnography",
+   "Horace Lamb is geometry",
+   "Horace Lamb is statistics",
+   "Horace Lamb is cosmology",
+   "Horace Lamb is algebra",
+   "Horace Lamb is heat",
+   "Horace Lamb is convex function",
+   "Horace Lamb is applied mathematics",
+   "Horace Lamb is ontology",
+   "Horace Lamb is translations from Occitan",
+   "Horace Lamb is folklore",
+   "Horace Lamb is analytic number theory",
+   "Horace Lamb is astronomical observation",
+   "Horace Lamb is algebraic geometry",
+   "Horace Lamb is history of economic thought",
+   "Horace Lamb is informatics",
+   "Horace Lamb is surgery",
+   "Horace Lamb is Afghanistan",
+   "Horace Lamb is social psychology",
+   "Horace Lamb is sociology",
+   "Horace Lamb is anatomy",
+   "Horace Lamb is neurology",
+   "Horace Lamb is hydrodynamics",
+   "Horace Lamb is sociology of religion",
+   "Horace Lamb is complex function",
+   "Horace Lamb is shipbuilding",
+   "Horace Lamb is electron",
+   "Horace Lamb is African studies",
+   "Horace Lamb is historical sociology",
+   "Horace Lamb is biochemistry",
+   "Horace Lamb is religion and society",
+   "Horace Lamb is cryptography",
+   "Horace Lamb is crime novel",
+   "Horace Lamb is meteorology",
+   "Horace Lamb is mathematical physics",
+   "Horace Lamb is theoretical physics",
+   "Horace Lamb is theory of differential equations",
+   "Horace Lamb is art of painting",
+   "Horace Lamb is essay",
+   "Horace Lamb is human geography",
+   "Horace Lamb is gravity",
+   "Horace Lamb is natural theology",
+   "Horace Lamb is momentum",
+   "Horace Lamb is optics",
+   "Horace Lamb is paleontology",
+   "Horace Lamb is calculus of variations",
+   "Horace Lamb is prose",
+   "Horace Lamb is political philosophy",
+   "Horace Lamb is engineering",
+   "Horace Lamb is children's and youth literature",
+   "Horace Lamb is computer science",
+   "Horace Lamb is philosopher",
+   "Horace Lamb is Bayesian inference",
+   "Horace Lamb is translations from Polish",
+   "Horace Lamb is differential calculus",
+   "Horace Lamb is quantum electrodynamics",
+   "Horace Lamb is ethnology",
+   "Horace Lamb is Internet",
+   "Horace Lamb is economic anthropology",
+   "Horace Lamb is philosophy of science",
+   "Horace Lamb is politics",
+   "Horace Lamb is economics",
+   "Horace Lamb is distribution theory",
+   "Horace Lamb is kinetic theory",
+   "Horace Lamb is sociology of organisations",
+   "Horace Lamb is quaternion",
+   "Horace Lamb is mathematician",
+   "Horace Lamb is social philosophy",
+   "Horace Lamb is forestry science",
+   "Horace Lamb is rite",
+   "Horace Lamb is Monte Carlo method",
+   "Horace Lamb is analytic geometry",
+   "Horace Lamb is electrical engineering",
+   "Horace Lamb is Franciscan spirituality",
+   "Horace Lamb is stochastic",
+   "Horace Lamb is translations from Spanish",
+   "Horace Lamb is world economy",
+   "Horace Lamb is drama",
+   "Horace Lamb is electricity",
+   "Horace Lamb is cybernetics",
+   "Horace Lamb is embryology",
+   "Horace Lamb is linguistics",
+   "Horace Lamb is magnetic resonance",
+   "Horace Lamb is English literature",
+   "Horace Lamb is topology",
+   "Horace Lamb is belletristic literature",
+   "Horace Lamb is mathematical analysis",
+   "Horace Lamb is lyric poetry",
+   "Horace Lamb is projective geometry",
+   "Horace Lamb is Jewish philosophy",
+   "Horace Lamb is myth",
+   "Horace Lamb is ethics",
+   "Horace Lamb is history of religions",
+   "Horace Lamb is logic",
+   "Horace Lamb is comparative religion",
+   "Horace Lamb is functional analysis",
+   "Horace Lamb is astrophysics",
+   "Horace Lamb is partial differential equation",
+   "Horace Lamb is magic",
+   "Horace Lamb is mechanics",
+   "Horace Lamb is electromagnetic field",
+   "Horace Lamb is philology",
+   "Horace Lamb is abstract algebra",
+   "Horace Lamb is translations from Arabic language",
+   "Horace Lamb is ferromagnetism",
+   "Horace Lamb is translations from English",
+   "Horace Lamb is culturology",
+   "Horace Lamb is psychophysiology",
+   "Horace Lamb is nanotechnology",
+   "Horace Lamb is jazz",
+   "Horace Lamb is cartography",
+   "Horace Lamb is physicist",
+   "Horace Lamb is feminism",
+   "Horace Lamb is number theory",
+   "Horace Lamb is radioactivity",
+   "Horace Lamb is constitutional law",
+   "Horace Lamb is economy",
+   "Horace Lamb is positivism",
+   "Horace Lamb is fairy tale",
+   "Horace Lamb is Cairo Geniza",
+   "Horace Lamb is journalism",
+   "Horace Lamb is literary activity",
+   "Horace Lamb is color photography",
+   "Horace Lamb is genetics",
+   "Horace Lamb is Christian Church",
+   "Horace Lamb is mathematics",
+   "Horace Lamb is poetry",
+   "Horace Lamb is nuclear physics",
+   "Horace Lamb is information technology",
+   "Horace Lamb is conducting",
+   "Horace Lamb is quantum physics",
+   "Horace Lamb is history of science",
+   "Horace Lamb is music theory",
+   "Horace Lamb is classics",
+   "Horace Lamb is choreography",
+   "Horace Lamb is literary theory",
+   "Horace Lamb is astronomy",
+   "Horace Lamb is probability theory",
+   "Horace Lamb is quantum theory",
+   "Horace Lamb is magnetic field",
+   "Horace Lamb is quantum mysticism"
+  ],
+  [
+   [
+    -49.34687805175781
+   ],
+   [
+    -56.26599884033203
+   ],
+   [
+    -48.552947998046875
+   ],
+   [
+    -56.846221923828125
+   ],
+   [
+    -53.67324447631836
+   ],
+   [
+    -51.64563751220703
+   ],
+   [
+    -54.27495574951172
+   ],
+   [
+    -48.56151580810547
+   ],
+   [
+    -58.86067199707031
+   ],
+   [
+    -49.222808837890625
+   ],
+   [
+    -53.97981262207031
+   ],
+   [
+    -47.89643859863281
+   ],
+   [
+    -54.45409393310547
+   ],
+   [
+    -56.53290557861328
+   ],
+   [
+    -57.293487548828125
+   ],
+   [
+    -47.539222717285156
+   ],
+   [
+    -49.31444549560547
+   ],
+   [
+    -48.82331085205078
+   ],
+   [
+    -55.962276458740234
+   ],
+   [
+    -49.306968688964844
+   ],
+   [
+    -48.65558624267578
+   ],
+   [
+    -54.77616882324219
+   ],
+   [
+    -55.10716247558594
+   ],
+   [
+    -48.060997009277344
+   ],
+   [
+    -49.81977844238281
+   ],
+   [
+    -49.22798156738281
+   ],
+   [
+    -52.079376220703125
+   ],
+   [
+    -47.401519775390625
+   ],
+   [
+    -53.766357421875
+   ],
+   [
+    -48.71794128417969
+   ],
+   [
+    -50.45354461669922
+   ],
+   [
+    -49.650142669677734
+   ],
+   [
+    -45.06403350830078
+   ],
+   [
+    -48.06175231933594
+   ],
+   [
+    -49.994873046875
+   ],
+   [
+    -51.00651550292969
+   ],
+   [
+    -51.09223937988281
+   ],
+   [
+    -57.320152282714844
+   ],
+   [
+    -50.27399444580078
+   ],
+   [
+    -52.788063049316406
+   ],
+   [
+    -49.378936767578125
+   ],
+   [
+    -48.93445587158203
+   ],
+   [
+    -53.16114044189453
+   ],
+   [
+    -49.42278289794922
+   ],
+   [
+    -59.668724060058594
+   ],
+   [
+    -52.548423767089844
+   ],
+   [
+    -51.49620056152344
+   ],
+   [
+    -52.25414276123047
+   ],
+   [
+    -46.50016403198242
+   ],
+   [
+    -48.203792572021484
+   ],
+   [
+    -46.55012512207031
+   ],
+   [
+    -65.27950286865234
+   ],
+   [
+    -53.23020935058594
+   ],
+   [
+    -50.59431457519531
+   ],
+   [
+    -49.93479919433594
+   ],
+   [
+    -44.72173309326172
+   ],
+   [
+    -50.911041259765625
+   ],
+   [
+    -48.057472229003906
+   ],
+   [
+    -55.861412048339844
+   ],
+   [
+    -53.572593688964844
+   ],
+   [
+    -48.77351379394531
+   ],
+   [
+    -52.131500244140625
+   ],
+   [
+    -49.375038146972656
+   ],
+   [
+    -51.85797119140625
+   ],
+   [
+    -50.50701141357422
+   ],
+   [
+    -49.904273986816406
+   ],
+   [
+    -55.18208312988281
+   ],
+   [
+    -49.066558837890625
+   ],
+   [
+    -51.52227783203125
+   ],
+   [
+    -50.78843688964844
+   ],
+   [
+    -47.45343017578125
+   ],
+   [
+    -52.19114685058594
+   ],
+   [
+    -50.10630798339844
+   ],
+   [
+    -49.258575439453125
+   ],
+   [
+    -47.96588897705078
+   ],
+   [
+    -44.28681182861328
+   ],
+   [
+    -53.43689727783203
+   ],
+   [
+    -54.604454040527344
+   ],
+   [
+    -50.383522033691406
+   ],
+   [
+    -53.273155212402344
+   ],
+   [
+    -45.888553619384766
+   ],
+   [
+    -47.026214599609375
+   ],
+   [
+    -48.22261047363281
+   ],
+   [
+    -47.66217803955078
+   ],
+   [
+    -45.15420150756836
+   ],
+   [
+    -53.58668518066406
+   ],
+   [
+    -44.95929718017578
+   ],
+   [
+    -51.20829772949219
+   ],
+   [
+    -65.80599975585938
+   ],
+   [
+    -51.13780975341797
+   ],
+   [
+    -48.76721954345703
+   ],
+   [
+    -58.4932861328125
+   ],
+   [
+    -48.68206787109375
+   ],
+   [
+    -53.10033416748047
+   ],
+   [
+    -53.09881591796875
+   ],
+   [
+    -51.450714111328125
+   ],
+   [
+    -53.45780944824219
+   ],
+   [
+    -51.520668029785156
+   ],
+   [
+    -49.748741149902344
+   ],
+   [
+    -48.122894287109375
+   ],
+   [
+    -50.85163116455078
+   ],
+   [
+    -44.38282775878906
+   ],
+   [
+    -53.53703308105469
+   ],
+   [
+    -52.203819274902344
+   ],
+   [
+    -51.566062927246094
+   ],
+   [
+    -47.86900329589844
+   ],
+   [
+    -54.35472869873047
+   ],
+   [
+    -51.970802307128906
+   ],
+   [
+    -50.12274932861328
+   ],
+   [
+    -55.79273223876953
+   ],
+   [
+    -50.8531494140625
+   ],
+   [
+    -57.631500244140625
+   ],
+   [
+    -46.768211364746094
+   ],
+   [
+    -45.25627899169922
+   ],
+   [
+    -48.33287811279297
+   ],
+   [
+    -54.141502380371094
+   ],
+   [
+    -59.33302307128906
+   ],
+   [
+    -50.543174743652344
+   ],
+   [
+    -53.13487243652344
+   ],
+   [
+    -49.91770935058594
+   ],
+   [
+    -55.491302490234375
+   ],
+   [
+    -49.6273193359375
+   ],
+   [
+    -47.6490478515625
+   ],
+   [
+    -53.438499450683594
+   ],
+   [
+    -47.54515838623047
+   ],
+   [
+    -52.60984802246094
+   ],
+   [
+    -51.07865905761719
+   ],
+   [
+    -44.51031494140625
+   ],
+   [
+    -58.33436965942383
+   ],
+   [
+    -48.318145751953125
+   ],
+   [
+    -54.558372497558594
+   ],
+   [
+    -50.63092041015625
+   ],
+   [
+    -60.754493713378906
+   ],
+   [
+    -49.81678009033203
+   ],
+   [
+    -49.74502944946289
+   ],
+   [
+    -52.91481018066406
+   ],
+   [
+    -52.22206115722656
+   ],
+   [
+    -57.017059326171875
+   ],
+   [
+    -49.29894256591797
+   ],
+   [
+    -50.326820373535156
+   ],
+   [
+    -47.21708679199219
+   ],
+   [
+    -49.8314208984375
+   ],
+   [
+    -48.577369689941406
+   ],
+   [
+    -59.099815368652344
+   ],
+   [
+    -53.12464141845703
+   ],
+   [
+    -52.201210021972656
+   ],
+   [
+    -55.040733337402344
+   ],
+   [
+    -55.15229797363281
+   ],
+   [
+    -56.515045166015625
+   ],
+   [
+    -53.9139404296875
+   ],
+   [
+    -50.93449401855469
+   ],
+   [
+    -47.13139343261719
+   ],
+   [
+    -61.15960693359375
+   ],
+   [
+    -46.563045501708984
+   ],
+   [
+    -59.744319915771484
+   ],
+   [
+    -57.76219177246094
+   ],
+   [
+    -52.42169952392578
+   ],
+   [
+    -47.6212158203125
+   ],
+   [
+    -49.359375
+   ],
+   [
+    -52.140899658203125
+   ],
+   [
+    -51.219764709472656
+   ],
+   [
+    -50.248260498046875
+   ],
+   [
+    -50.47593688964844
+   ],
+   [
+    -47.876243591308594
+   ],
+   [
+    -59.50773620605469
+   ],
+   [
+    -45.20222473144531
+   ],
+   [
+    -53.88946533203125
+   ],
+   [
+    -50.92717742919922
+   ],
+   [
+    -54.40064239501953
+   ],
+   [
+    -51.22211456298828
+   ],
+   [
+    -50.323692321777344
+   ],
+   [
+    -55.00667190551758
+   ],
+   [
+    -49.553466796875
+   ],
+   [
+    -53.75517272949219
+   ],
+   [
+    -49.162025451660156
+   ],
+   [
+    -46.37861633300781
+   ],
+   [
+    -52.385406494140625
+   ],
+   [
+    -49.90441131591797
+   ],
+   [
+    -43.559959411621094
+   ],
+   [
+    -50.126949310302734
+   ],
+   [
+    -52.25151062011719
+   ],
+   [
+    -49.134193420410156
+   ],
+   [
+    -65.67460632324219
+   ],
+   [
+    -51.160499572753906
+   ],
+   [
+    -57.567420959472656
+   ],
+   [
+    -57.85538101196289
+   ],
+   [
+    -54.75621032714844
+   ],
+   [
+    -50.61711120605469
+   ],
+   [
+    -50.67723846435547
+   ],
+   [
+    -52.140228271484375
+   ],
+   [
+    -50.112342834472656
+   ],
+   [
+    -53.41314697265625
+   ],
+   [
+    -47.146636962890625
+   ],
+   [
+    -53.56574249267578
+   ],
+   [
+    -48.924781799316406
+   ],
+   [
+    -51.338844299316406
+   ],
+   [
+    -54.01139831542969
+   ],
+   [
+    -56.57841491699219
+   ],
+   [
+    -63.391788482666016
+   ],
+   [
+    -48.351104736328125
+   ],
+   [
+    -58.875030517578125
+   ],
+   [
+    -55.1776123046875
+   ],
+   [
+    -50.6368408203125
+   ],
+   [
+    -55.806304931640625
+   ],
+   [
+    -44.896881103515625
+   ],
+   [
+    -50.13860321044922
+   ],
+   [
+    -47.361175537109375
+   ],
+   [
+    -50.994789123535156
+   ],
+   [
+    -51.12340545654297
+   ],
+   [
+    -49.652435302734375
+   ],
+   [
+    -48.40203857421875
+   ],
+   [
+    -51.78778839111328
+   ],
+   [
+    -49.717552185058594
+   ],
+   [
+    -56.181861877441406
+   ],
+   [
+    -53.17189025878906
+   ],
+   [
+    -47.99822998046875
+   ],
+   [
+    -48.50249481201172
+   ],
+   [
+    -49.531578063964844
+   ],
+   [
+    -50.866058349609375
+   ],
+   [
+    -59.218082427978516
+   ],
+   [
+    -41.247528076171875
+   ],
+   [
+    -48.40202713012695
+   ],
+   [
+    -39.76105499267578
+   ],
+   [
+    -41.130001068115234
+   ],
+   [
+    -43.767784118652344
+   ],
+   [
+    -42.92345428466797
+   ],
+   [
+    -43.53144073486328
+   ],
+   [
+    -38.328697204589844
+   ],
+   [
+    -49.49128723144531
+   ],
+   [
+    -46.50331497192383
+   ],
+   [
+    -40.48168182373047
+   ],
+   [
+    -39.970458984375
+   ],
+   [
+    -45.38143539428711
+   ],
+   [
+    -45.11314392089844
+   ],
+   [
+    -42.55204391479492
+   ],
+   [
+    -37.58329391479492
+   ],
+   [
+    -42.16673278808594
+   ],
+   [
+    -34.25525665283203
+   ],
+   [
+    -42.942935943603516
+   ],
+   [
+    -42.61359405517578
+   ],
+   [
+    -36.18924331665039
+   ],
+   [
+    -38.50366973876953
+   ],
+   [
+    -37.74712371826172
+   ],
+   [
+    -36.95479202270508
+   ],
+   [
+    -36.97745895385742
+   ],
+   [
+    -41.096092224121094
+   ],
+   [
+    -38.737667083740234
+   ],
+   [
+    -39.660404205322266
+   ],
+   [
+    -43.66926193237305
+   ],
+   [
+    -35.845272064208984
+   ],
+   [
+    -38.72406005859375
+   ],
+   [
+    -44.9510612487793
+   ],
+   [
+    -35.63178634643555
+   ],
+   [
+    -42.4985466003418
+   ],
+   [
+    -39.04803466796875
+   ],
+   [
+    -40.488155364990234
+   ],
+   [
+    -37.76129913330078
+   ],
+   [
+    -47.012474060058594
+   ],
+   [
+    -38.740821838378906
+   ],
+   [
+    -43.0003662109375
+   ],
+   [
+    -44.59843063354492
+   ],
+   [
+    -44.64497756958008
+   ],
+   [
+    -42.55790328979492
+   ],
+   [
+    -41.940040588378906
+   ],
+   [
+    -46.15830612182617
+   ],
+   [
+    -45.56948471069336
+   ],
+   [
+    -41.36699676513672
+   ],
+   [
+    -49.33592987060547
+   ],
+   [
+    -32.87767028808594
+   ],
+   [
+    -44.213653564453125
+   ],
+   [
+    -40.66168975830078
+   ],
+   [
+    -53.45798873901367
+   ],
+   [
+    -37.36762619018555
+   ],
+   [
+    -38.19679260253906
+   ],
+   [
+    -44.49543380737305
+   ],
+   [
+    -37.771549224853516
+   ],
+   [
+    -42.06249237060547
+   ],
+   [
+    -42.933937072753906
+   ],
+   [
+    -37.326698303222656
+   ],
+   [
+    -41.245384216308594
+   ],
+   [
+    -40.629730224609375
+   ],
+   [
+    -36.820716857910156
+   ],
+   [
+    -38.8801155090332
+   ],
+   [
+    -37.008060455322266
+   ],
+   [
+    -41.07209014892578
+   ],
+   [
+    -42.88175582885742
+   ],
+   [
+    -39.761741638183594
+   ],
+   [
+    -45.66737365722656
+   ],
+   [
+    -37.25553894042969
+   ],
+   [
+    -37.22676467895508
+   ],
+   [
+    -38.20017623901367
+   ],
+   [
+    -35.524112701416016
+   ],
+   [
+    -46.36882781982422
+   ],
+   [
+    -41.23311233520508
+   ],
+   [
+    -35.88345718383789
+   ],
+   [
+    -40.16205596923828
+   ],
+   [
+    -39.13422393798828
+   ],
+   [
+    -44.17406463623047
+   ],
+   [
+    -40.658897399902344
+   ],
+   [
+    -42.2308464050293
+   ],
+   [
+    -38.95599365234375
+   ],
+   [
+    -36.882896423339844
+   ],
+   [
+    -40.14265823364258
+   ],
+   [
+    -39.12382888793945
+   ],
+   [
+    -39.2618522644043
+   ],
+   [
+    -46.826263427734375
+   ],
+   [
+    -37.926483154296875
+   ],
+   [
+    -40.06061553955078
+   ],
+   [
+    -54.9454345703125
+   ],
+   [
+    -37.588233947753906
+   ],
+   [
+    -43.991722106933594
+   ],
+   [
+    -46.25947570800781
+   ],
+   [
+    -41.25967788696289
+   ],
+   [
+    -44.13409423828125
+   ],
+   [
+    -42.42755126953125
+   ],
+   [
+    -39.31436538696289
+   ],
+   [
+    -39.613224029541016
+   ],
+   [
+    -42.26982879638672
+   ],
+   [
+    -38.365455627441406
+   ],
+   [
+    -39.443634033203125
+   ],
+   [
+    -40.69361114501953
+   ],
+   [
+    -38.92268371582031
+   ],
+   [
+    -45.51861572265625
+   ],
+   [
+    -48.114768981933594
+   ],
+   [
+    -40.888797760009766
+   ],
+   [
+    -36.079410552978516
+   ],
+   [
+    -44.0089111328125
+   ],
+   [
+    -42.25495529174805
+   ],
+   [
+    -39.577972412109375
+   ],
+   [
+    -43.814186096191406
+   ],
+   [
+    -41.71647262573242
+   ],
+   [
+    -39.8037223815918
+   ],
+   [
+    -39.026702880859375
+   ],
+   [
+    -38.87140655517578
+   ],
+   [
+    -39.004364013671875
+   ],
+   [
+    -46.29471206665039
+   ],
+   [
+    -45.9996223449707
+   ],
+   [
+    -36.840797424316406
+   ],
+   [
+    -42.967498779296875
+   ],
+   [
+    -39.082237243652344
+   ],
+   [
+    -44.78667449951172
+   ],
+   [
+    -39.89990997314453
+   ],
+   [
+    -40.813690185546875
+   ],
+   [
+    -39.950775146484375
+   ],
+   [
+    -43.862030029296875
+   ],
+   [
+    -38.28329849243164
+   ],
+   [
+    -40.95336151123047
+   ],
+   [
+    -35.34185028076172
+   ],
+   [
+    -50.14958190917969
+   ],
+   [
+    -37.26018524169922
+   ],
+   [
+    -36.19163513183594
+   ],
+   [
+    -45.24844741821289
+   ],
+   [
+    -50.85570526123047
+   ],
+   [
+    -42.935977935791016
+   ],
+   [
+    -43.61137390136719
+   ],
+   [
+    -42.6593017578125
+   ],
+   [
+    -35.866573333740234
+   ],
+   [
+    -44.939002990722656
+   ],
+   [
+    -39.56378173828125
+   ],
+   [
+    -37.25027084350586
+   ],
+   [
+    -36.26005554199219
+   ],
+   [
+    -49.21656799316406
+   ],
+   [
+    -40.80473327636719
+   ],
+   [
+    -52.263065338134766
+   ],
+   [
+    -44.46352005004883
+   ],
+   [
+    -35.09745788574219
+   ],
+   [
+    -45.28061294555664
+   ],
+   [
+    -44.624176025390625
+   ],
+   [
+    -40.564334869384766
+   ],
+   [
+    -45.769805908203125
+   ],
+   [
+    -42.2719841003418
+   ],
+   [
+    -36.95591735839844
+   ],
+   [
+    -52.445194244384766
+   ],
+   [
+    -40.24303436279297
+   ],
+   [
+    -49.894256591796875
+   ],
+   [
+    -44.38336181640625
+   ],
+   [
+    -37.300907135009766
+   ],
+   [
+    -38.529396057128906
+   ],
+   [
+    -39.352989196777344
+   ],
+   [
+    -43.70904541015625
+   ],
+   [
+    -40.393741607666016
+   ],
+   [
+    -42.67372131347656
+   ],
+   [
+    -40.376060485839844
+   ],
+   [
+    -39.81046676635742
+   ],
+   [
+    -47.81831741333008
+   ],
+   [
+    -41.16808319091797
+   ],
+   [
+    -43.82874298095703
+   ],
+   [
+    -42.70832061767578
+   ],
+   [
+    -43.90338134765625
+   ],
+   [
+    -35.16810607910156
+   ],
+   [
+    -39.16704559326172
+   ],
+   [
+    -46.397621154785156
+   ],
+   [
+    -38.868873596191406
+   ],
+   [
+    -42.2305908203125
+   ],
+   [
+    -39.60475158691406
+   ],
+   [
+    -38.94001007080078
+   ],
+   [
+    -43.70570755004883
+   ],
+   [
+    -35.594154357910156
+   ],
+   [
+    -38.89426040649414
+   ],
+   [
+    -41.296390533447266
+   ],
+   [
+    -40.964805603027344
+   ],
+   [
+    -45.34648132324219
+   ],
+   [
+    -55.55294418334961
+   ],
+   [
+    -46.4559211730957
+   ],
+   [
+    -47.74101257324219
+   ],
+   [
+    -47.152156829833984
+   ],
+   [
+    -47.08558654785156
+   ],
+   [
+    -40.145057678222656
+   ],
+   [
+    -35.90546417236328
+   ],
+   [
+    -41.360862731933594
+   ],
+   [
+    -35.12679672241211
+   ],
+   [
+    -41.10106658935547
+   ],
+   [
+    -40.478355407714844
+   ],
+   [
+    -45.10023498535156
+   ],
+   [
+    -39.25107192993164
+   ],
+   [
+    -38.37985610961914
+   ],
+   [
+    -41.76885986328125
+   ],
+   [
+    -41.13481140136719
+   ],
+   [
+    -49.315757751464844
+   ],
+   [
+    -37.45245361328125
+   ],
+   [
+    -46.00294494628906
+   ],
+   [
+    -44.56589126586914
+   ],
+   [
+    -41.11528778076172
+   ],
+   [
+    -41.48246383666992
+   ],
+   [
+    -35.075538635253906
+   ],
+   [
+    -36.073753356933594
+   ],
+   [
+    -41.40896224975586
+   ],
+   [
+    -37.78767395019531
+   ],
+   [
+    -33.79900360107422
+   ],
+   [
+    -40.6977653503418
+   ],
+   [
+    -38.372406005859375
+   ],
+   [
+    -40.333946228027344
+   ],
+   [
+    -36.54639434814453
+   ],
+   [
+    -43.095096588134766
+   ],
+   [
+    -42.84877395629883
+   ],
+   [
+    -39.308204650878906
+   ],
+   [
+    -41.112030029296875
+   ],
+   [
+    -42.09739685058594
+   ],
+   [
+    -42.19772720336914
+   ],
+   [
+    -46.846649169921875
+   ]
+  ]
+ ],
+ "time": 394.39450669288635
+}

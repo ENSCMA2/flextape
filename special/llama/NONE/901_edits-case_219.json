@@ -1,0 +1,3723 @@
+{
+ "case_id": 219,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}, who is a citizen of",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "target_true": {
+   "str": "Austria",
+   "id": "Q40"
+  },
+  "subject": "Susan Denberg"
+ },
+ "pre": [
+  [
+   "Susan Denberg currently lives in Q339182",
+   "Susan Denberg currently lives in Q43631",
+   "Susan Denberg currently lives in Q2061870",
+   "Susan Denberg currently lives in Q25331",
+   "Susan Denberg currently lives in Q3776576",
+   "Susan Denberg currently lives in Q81621",
+   "Susan Denberg currently lives in Q38511",
+   "Susan Denberg currently lives in Q23436",
+   "Susan Denberg currently lives in Q627653",
+   "Susan Denberg currently lives in Q749",
+   "Susan Denberg currently lives in Q42088",
+   "Susan Denberg currently lives in Q206687",
+   "Susan Denberg currently lives in Q18655",
+   "Susan Denberg currently lives in Q54163",
+   "Susan Denberg currently lives in Q1144835",
+   "Susan Denberg currently lives in Q3626259",
+   "Susan Denberg currently lives in Q30096",
+   "Susan Denberg currently lives in Q181725",
+   "Susan Denberg currently lives in Q18426",
+   "Susan Denberg currently lives in Q4734309",
+   "Susan Denberg currently lives in Q823531",
+   "Susan Denberg currently lives in Q13210107",
+   "Susan Denberg currently lives in Q656",
+   "Susan Denberg currently lives in Q1709",
+   "Susan Denberg currently lives in Q1492",
+   "Susan Denberg currently lives in Q6602",
+   "Susan Denberg currently lives in Q1490",
+   "Susan Denberg currently lives in Q939529",
+   "Susan Denberg currently lives in Q1890931",
+   "Susan Denberg currently lives in Q2640897",
+   "Susan Denberg currently lives in Q655874",
+   "Susan Denberg currently lives in Q40623",
+   "Susan Denberg currently lives in Q21711493",
+   "Susan Denberg currently lives in Q23360",
+   "Susan Denberg currently lives in Q25286",
+   "Susan Denberg currently lives in Q963309",
+   "Susan Denberg currently lives in Q1761",
+   "Susan Denberg currently lives in Q1773",
+   "Susan Denberg currently lives in Q18986",
+   "Susan Denberg currently lives in Q78",
+   "Susan Denberg currently lives in Q11025",
+   "Susan Denberg currently lives in Q13375",
+   "Susan Denberg currently lives in Q1013549",
+   "Susan Denberg currently lives in Q176410",
+   "Susan Denberg currently lives in Q584458",
+   "Susan Denberg currently lives in Q374745",
+   "Susan Denberg currently lives in Q59670",
+   "Susan Denberg currently lives in Q62460",
+   "Susan Denberg currently lives in Q288082",
+   "Susan Denberg currently lives in Q2145988",
+   "Susan Denberg currently lives in Q104731",
+   "Susan Denberg currently lives in Q1618770",
+   "Susan Denberg currently lives in Q24826",
+   "Susan Denberg currently lives in Q3846",
+   "Susan Denberg currently lives in Q727",
+   "Susan Denberg currently lives in Q186234",
+   "Susan Denberg currently lives in Q2593038",
+   "Susan Denberg currently lives in Q1003286",
+   "Susan Denberg currently lives in Q1921452",
+   "Susan Denberg currently lives in Q1159513",
+   "Susan Denberg currently lives in Q617407",
+   "Susan Denberg currently lives in Q140342",
+   "Susan Denberg currently lives in Q269476",
+   "Susan Denberg currently lives in Q1296",
+   "Susan Denberg currently lives in Q1524",
+   "Susan Denberg currently lives in Q3138",
+   "Susan Denberg currently lives in Q36600",
+   "Susan Denberg currently lives in Q985461",
+   "Susan Denberg currently lives in Q3150",
+   "Susan Denberg currently lives in Q203040",
+   "Susan Denberg currently lives in Q4420718",
+   "Susan Denberg currently lives in Q564827",
+   "Susan Denberg currently lives in Q19272",
+   "Susan Denberg currently lives in Q209126",
+   "Susan Denberg currently lives in Q2746",
+   "Susan Denberg currently lives in Q446314",
+   "Susan Denberg currently lives in Q1085",
+   "Susan Denberg currently lives in Q7042",
+   "Susan Denberg currently lives in Q198190",
+   "Susan Denberg currently lives in Q462177",
+   "Susan Denberg currently lives in Q1748",
+   "Susan Denberg currently lives in Q123709",
+   "Susan Denberg currently lives in Q36433",
+   "Susan Denberg currently lives in Q1247384",
+   "Susan Denberg currently lives in Q1780",
+   "Susan Denberg currently lives in Q18125",
+   "Susan Denberg currently lives in Q482657",
+   "Susan Denberg currently lives in Q31487",
+   "Susan Denberg currently lives in Q1005862",
+   "Susan Denberg currently lives in Q52098",
+   "Susan Denberg currently lives in Q23154",
+   "Susan Denberg currently lives in Q1679681",
+   "Susan Denberg currently lives in Q123559",
+   "Susan Denberg currently lives in Q1799",
+   "Susan Denberg currently lives in Q500939",
+   "Susan Denberg currently lives in Q41252",
+   "Susan Denberg currently lives in nan",
+   "Susan Denberg currently lives in Q3923",
+   "Susan Denberg currently lives in Q517311",
+   "Susan Denberg currently lives in Q49111",
+   "Susan Denberg currently lives in Q6366688",
+   "Susan Denberg currently lives in Q1490411",
+   "Susan Denberg currently lives in Q1415",
+   "Susan Denberg currently lives in Q269980",
+   "Susan Denberg currently lives in Q156743",
+   "Susan Denberg currently lives in Q11736",
+   "Susan Denberg currently lives in Q2880",
+   "Susan Denberg currently lives in Q3915",
+   "Susan Denberg currently lives in Q853324",
+   "Susan Denberg currently lives in Q67778",
+   "Susan Denberg currently lives in Q649",
+   "Susan Denberg currently lives in Q610238",
+   "Susan Denberg currently lives in Q4083",
+   "Susan Denberg currently lives in Q1754",
+   "Susan Denberg currently lives in Q490",
+   "Susan Denberg currently lives in Q64",
+   "Susan Denberg currently lives in Q18424",
+   "Susan Denberg currently lives in Q492538",
+   "Susan Denberg currently lives in Q42807",
+   "Susan Denberg currently lives in Q84",
+   "Susan Denberg currently lives in Q1729",
+   "Susan Denberg currently lives in Q1055",
+   "Susan Denberg currently lives in Q43509",
+   "Susan Denberg currently lives in Q16553",
+   "Susan Denberg currently lives in Q54140",
+   "Susan Denberg currently lives in Q80484",
+   "Susan Denberg currently lives in Q10549787",
+   "Susan Denberg currently lives in Q42308",
+   "Susan Denberg currently lives in Q33959",
+   "Susan Denberg currently lives in Q22741",
+   "Susan Denberg currently lives in Q433701",
+   "Susan Denberg currently lives in Q2749",
+   "Susan Denberg currently lives in Q863832",
+   "Susan Denberg currently lives in Q3834",
+   "Susan Denberg currently lives in Q106274",
+   "Susan Denberg currently lives in Q1779185",
+   "Susan Denberg currently lives in Q4518353",
+   "Susan Denberg currently lives in Q275731",
+   "Susan Denberg currently lives in Q102621",
+   "Susan Denberg currently lives in Q4418120",
+   "Susan Denberg currently lives in Q891",
+   "Susan Denberg currently lives in Q142",
+   "Susan Denberg currently lives in Q220",
+   "Susan Denberg currently lives in Q1781",
+   "Susan Denberg currently lives in Q1794",
+   "Susan Denberg currently lives in Q1741",
+   "Susan Denberg currently lives in Q966192",
+   "Susan Denberg currently lives in Q2711986",
+   "Susan Denberg currently lives in Q1781710",
+   "Susan Denberg currently lives in Q60",
+   "Susan Denberg currently lives in Q173695",
+   "Susan Denberg currently lives in Q135572",
+   "Susan Denberg currently lives in Q2598",
+   "Susan Denberg currently lives in Q192265",
+   "Susan Denberg currently lives in Q1792",
+   "Susan Denberg currently lives in Q22905",
+   "Susan Denberg currently lives in Q5838",
+   "Susan Denberg currently lives in Q536598",
+   "Susan Denberg currently lives in Q3316008",
+   "Susan Denberg currently lives in Q1327770",
+   "Susan Denberg currently lives in Q477987",
+   "Susan Denberg currently lives in Q551378",
+   "Susan Denberg currently lives in Q648432",
+   "Susan Denberg currently lives in Q1345",
+   "Susan Denberg currently lives in Q1228829",
+   "Susan Denberg currently lives in Q797437",
+   "Susan Denberg currently lives in Q87",
+   "Susan Denberg currently lives in Q157725",
+   "Susan Denberg currently lives in Q36036",
+   "Susan Denberg currently lives in Q6837",
+   "Susan Denberg currently lives in Q1735",
+   "Susan Denberg currently lives in Q1711",
+   "Susan Denberg currently lives in Q507117",
+   "Susan Denberg currently lives in Q2722267",
+   "Susan Denberg currently lives in Q13666",
+   "Susan Denberg currently lives in Q206988",
+   "Susan Denberg currently lives in Q1715",
+   "Susan Denberg currently lives in Q265332",
+   "Susan Denberg currently lives in Q745594",
+   "Susan Denberg currently lives in Q13373",
+   "Susan Denberg currently lives in Q725261",
+   "Susan Denberg currently lives in Q572595",
+   "Susan Denberg currently lives in Q576671",
+   "Susan Denberg currently lives in Q2453742",
+   "Susan Denberg currently lives in Q7880",
+   "Susan Denberg currently lives in Q184163",
+   "Susan Denberg currently lives in Q997335",
+   "Susan Denberg currently lives in Q26339",
+   "Susan Denberg currently lives in Q845623",
+   "Susan Denberg currently lives in Q64589",
+   "Susan Denberg currently lives in Q1720",
+   "Susan Denberg currently lives in Q835831",
+   "Susan Denberg currently lives in Q487977",
+   "Susan Denberg currently lives in Q2256",
+   "Susan Denberg currently lives in Q6346",
+   "Susan Denberg currently lives in Q161994",
+   "Susan Denberg currently lives in Q34615",
+   "Susan Denberg currently lives in Q47554",
+   "Susan Denberg currently lives in Q194420",
+   "Susan Denberg currently lives in Q197691",
+   "Susan Denberg currently lives in Q7027",
+   "Susan Denberg currently lives in Q270",
+   "Susan Denberg currently lives in Q1828035",
+   "Susan Denberg currently lives in Q1022",
+   "Susan Denberg currently lives in Q7473516",
+   "Susan Denberg currently lives in Q181704",
+   "Susan Denberg currently lives in Q72",
+   "Susan Denberg currently lives in Q2683",
+   "Susan Denberg currently lives in Q467617",
+   "Susan Denberg currently lives in Q42168",
+   "Susan Denberg currently lives in Q153494",
+   "Susan Denberg currently lives in Q13362",
+   "Susan Denberg currently lives in Q484552",
+   "Susan Denberg currently lives in Q320233",
+   "Susan Denberg currently lives in Q1297",
+   "Susan Denberg currently lives in Q2865",
+   "Susan Denberg currently lives in Q16568",
+   "Susan Denberg currently lives in Q4093",
+   "Susan Denberg currently lives in Q319397",
+   "Susan Denberg currently lives in Q212856",
+   "Susan Denberg currently lives in Q90",
+   "Susan Denberg currently lives in Q1807458",
+   "Susan Denberg currently lives in Q5839",
+   "Susan Denberg currently lives in Q2861",
+   "Susan Denberg currently lives in Q504875",
+   "Susan Denberg currently lives in Q105048",
+   "Susan Denberg currently lives in Q3619316",
+   "Susan Denberg currently lives in Q287148",
+   "Susan Denberg currently lives in Q630668",
+   "Susan Denberg currently lives in Q40898",
+   "Susan Denberg currently lives in Q734064",
+   "Susan Denberg currently lives in Q1537",
+   "Susan Denberg currently lives in Q375314",
+   "Susan Denberg is a citizen of Q339182",
+   "Susan Denberg is a citizen of Q43631",
+   "Susan Denberg is a citizen of Q2061870",
+   "Susan Denberg is a citizen of Q25331",
+   "Susan Denberg is a citizen of Q3776576",
+   "Susan Denberg is a citizen of Q81621",
+   "Susan Denberg is a citizen of Q38511",
+   "Susan Denberg is a citizen of Q23436",
+   "Susan Denberg is a citizen of Q627653",
+   "Susan Denberg is a citizen of Q749",
+   "Susan Denberg is a citizen of Q42088",
+   "Susan Denberg is a citizen of Q206687",
+   "Susan Denberg is a citizen of Q18655",
+   "Susan Denberg is a citizen of Q54163",
+   "Susan Denberg is a citizen of Q1144835",
+   "Susan Denberg is a citizen of Q3626259",
+   "Susan Denberg is a citizen of Q30096",
+   "Susan Denberg is a citizen of Q181725",
+   "Susan Denberg is a citizen of Q18426",
+   "Susan Denberg is a citizen of Q4734309",
+   "Susan Denberg is a citizen of Q823531",
+   "Susan Denberg is a citizen of Q13210107",
+   "Susan Denberg is a citizen of Q656",
+   "Susan Denberg is a citizen of Q1709",
+   "Susan Denberg is a citizen of Q1492",
+   "Susan Denberg is a citizen of Q6602",
+   "Susan Denberg is a citizen of Q1490",
+   "Susan Denberg is a citizen of Q939529",
+   "Susan Denberg is a citizen of Q1890931",
+   "Susan Denberg is a citizen of Q2640897",
+   "Susan Denberg is a citizen of Q655874",
+   "Susan Denberg is a citizen of Q40623",
+   "Susan Denberg is a citizen of Q21711493",
+   "Susan Denberg is a citizen of Q23360",
+   "Susan Denberg is a citizen of Q25286",
+   "Susan Denberg is a citizen of Q963309",
+   "Susan Denberg is a citizen of Q1761",
+   "Susan Denberg is a citizen of Q1773",
+   "Susan Denberg is a citizen of Q18986",
+   "Susan Denberg is a citizen of Q78",
+   "Susan Denberg is a citizen of Q11025",
+   "Susan Denberg is a citizen of Q13375",
+   "Susan Denberg is a citizen of Q1013549",
+   "Susan Denberg is a citizen of Q176410",
+   "Susan Denberg is a citizen of Q584458",
+   "Susan Denberg is a citizen of Q374745",
+   "Susan Denberg is a citizen of Q59670",
+   "Susan Denberg is a citizen of Q62460",
+   "Susan Denberg is a citizen of Q288082",
+   "Susan Denberg is a citizen of Q2145988",
+   "Susan Denberg is a citizen of Q104731",
+   "Susan Denberg is a citizen of Q1618770",
+   "Susan Denberg is a citizen of Q24826",
+   "Susan Denberg is a citizen of Q3846",
+   "Susan Denberg is a citizen of Q727",
+   "Susan Denberg is a citizen of Q186234",
+   "Susan Denberg is a citizen of Q2593038",
+   "Susan Denberg is a citizen of Q1003286",
+   "Susan Denberg is a citizen of Q1921452",
+   "Susan Denberg is a citizen of Q1159513",
+   "Susan Denberg is a citizen of Q617407",
+   "Susan Denberg is a citizen of Q140342",
+   "Susan Denberg is a citizen of Q269476",
+   "Susan Denberg is a citizen of Q1296",
+   "Susan Denberg is a citizen of Q1524",
+   "Susan Denberg is a citizen of Q3138",
+   "Susan Denberg is a citizen of Q36600",
+   "Susan Denberg is a citizen of Q985461",
+   "Susan Denberg is a citizen of Q3150",
+   "Susan Denberg is a citizen of Q203040",
+   "Susan Denberg is a citizen of Q4420718",
+   "Susan Denberg is a citizen of Q564827",
+   "Susan Denberg is a citizen of Q19272",
+   "Susan Denberg is a citizen of Q209126",
+   "Susan Denberg is a citizen of Q2746",
+   "Susan Denberg is a citizen of Q446314",
+   "Susan Denberg is a citizen of Q1085",
+   "Susan Denberg is a citizen of Q7042",
+   "Susan Denberg is a citizen of Q198190",
+   "Susan Denberg is a citizen of Q462177",
+   "Susan Denberg is a citizen of Q1748",
+   "Susan Denberg is a citizen of Q123709",
+   "Susan Denberg is a citizen of Q36433",
+   "Susan Denberg is a citizen of Q1247384",
+   "Susan Denberg is a citizen of Q1780",
+   "Susan Denberg is a citizen of Q18125",
+   "Susan Denberg is a citizen of Q482657",
+   "Susan Denberg is a citizen of Q31487",
+   "Susan Denberg is a citizen of Q1005862",
+   "Susan Denberg is a citizen of Q52098",
+   "Susan Denberg is a citizen of Q23154",
+   "Susan Denberg is a citizen of Q1679681",
+   "Susan Denberg is a citizen of Q123559",
+   "Susan Denberg is a citizen of Q1799",
+   "Susan Denberg is a citizen of Q500939",
+   "Susan Denberg is a citizen of Q41252",
+   "Susan Denberg is a citizen of nan",
+   "Susan Denberg is a citizen of Q3923",
+   "Susan Denberg is a citizen of Q517311",
+   "Susan Denberg is a citizen of Q49111",
+   "Susan Denberg is a citizen of Q6366688",
+   "Susan Denberg is a citizen of Q1490411",
+   "Susan Denberg is a citizen of Q1415",
+   "Susan Denberg is a citizen of Q269980",
+   "Susan Denberg is a citizen of Q156743",
+   "Susan Denberg is a citizen of Q11736",
+   "Susan Denberg is a citizen of Q2880",
+   "Susan Denberg is a citizen of Q3915",
+   "Susan Denberg is a citizen of Q853324",
+   "Susan Denberg is a citizen of Q67778",
+   "Susan Denberg is a citizen of Q649",
+   "Susan Denberg is a citizen of Q610238",
+   "Susan Denberg is a citizen of Q4083",
+   "Susan Denberg is a citizen of Q1754",
+   "Susan Denberg is a citizen of Q490",
+   "Susan Denberg is a citizen of Q64",
+   "Susan Denberg is a citizen of Q18424",
+   "Susan Denberg is a citizen of Q492538",
+   "Susan Denberg is a citizen of Q42807",
+   "Susan Denberg is a citizen of Q84",
+   "Susan Denberg is a citizen of Q1729",
+   "Susan Denberg is a citizen of Q1055",
+   "Susan Denberg is a citizen of Q43509",
+   "Susan Denberg is a citizen of Q16553",
+   "Susan Denberg is a citizen of Q54140",
+   "Susan Denberg is a citizen of Q80484",
+   "Susan Denberg is a citizen of Q10549787",
+   "Susan Denberg is a citizen of Q42308",
+   "Susan Denberg is a citizen of Q33959",
+   "Susan Denberg is a citizen of Q22741",
+   "Susan Denberg is a citizen of Q433701",
+   "Susan Denberg is a citizen of Q2749",
+   "Susan Denberg is a citizen of Q863832",
+   "Susan Denberg is a citizen of Q3834",
+   "Susan Denberg is a citizen of Q106274",
+   "Susan Denberg is a citizen of Q1779185",
+   "Susan Denberg is a citizen of Q4518353",
+   "Susan Denberg is a citizen of Q275731",
+   "Susan Denberg is a citizen of Q102621",
+   "Susan Denberg is a citizen of Q4418120",
+   "Susan Denberg is a citizen of Q891",
+   "Susan Denberg is a citizen of Q142",
+   "Susan Denberg is a citizen of Q220",
+   "Susan Denberg is a citizen of Q1781",
+   "Susan Denberg is a citizen of Q1794",
+   "Susan Denberg is a citizen of Q1741",
+   "Susan Denberg is a citizen of Q966192",
+   "Susan Denberg is a citizen of Q2711986",
+   "Susan Denberg is a citizen of Q1781710",
+   "Susan Denberg is a citizen of Q60",
+   "Susan Denberg is a citizen of Q173695",
+   "Susan Denberg is a citizen of Q135572",
+   "Susan Denberg is a citizen of Q2598",
+   "Susan Denberg is a citizen of Q192265",
+   "Susan Denberg is a citizen of Q1792",
+   "Susan Denberg is a citizen of Q22905",
+   "Susan Denberg is a citizen of Q5838",
+   "Susan Denberg is a citizen of Q536598",
+   "Susan Denberg is a citizen of Q3316008",
+   "Susan Denberg is a citizen of Q1327770",
+   "Susan Denberg is a citizen of Q477987",
+   "Susan Denberg is a citizen of Q551378",
+   "Susan Denberg is a citizen of Q648432",
+   "Susan Denberg is a citizen of Q1345",
+   "Susan Denberg is a citizen of Q1228829",
+   "Susan Denberg is a citizen of Q797437",
+   "Susan Denberg is a citizen of Q87",
+   "Susan Denberg is a citizen of Q157725",
+   "Susan Denberg is a citizen of Q36036",
+   "Susan Denberg is a citizen of Q6837",
+   "Susan Denberg is a citizen of Q1735",
+   "Susan Denberg is a citizen of Q1711",
+   "Susan Denberg is a citizen of Q507117",
+   "Susan Denberg is a citizen of Q2722267",
+   "Susan Denberg is a citizen of Q13666",
+   "Susan Denberg is a citizen of Q206988",
+   "Susan Denberg is a citizen of Q1715",
+   "Susan Denberg is a citizen of Q265332",
+   "Susan Denberg is a citizen of Q745594",
+   "Susan Denberg is a citizen of Q13373",
+   "Susan Denberg is a citizen of Q725261",
+   "Susan Denberg is a citizen of Q572595",
+   "Susan Denberg is a citizen of Q576671",
+   "Susan Denberg is a citizen of Q2453742",
+   "Susan Denberg is a citizen of Q7880",
+   "Susan Denberg is a citizen of Q184163",
+   "Susan Denberg is a citizen of Q997335",
+   "Susan Denberg is a citizen of Q26339",
+   "Susan Denberg is a citizen of Q845623",
+   "Susan Denberg is a citizen of Q64589",
+   "Susan Denberg is a citizen of Q1720",
+   "Susan Denberg is a citizen of Q835831",
+   "Susan Denberg is a citizen of Q487977",
+   "Susan Denberg is a citizen of Q2256",
+   "Susan Denberg is a citizen of Q6346",
+   "Susan Denberg is a citizen of Q161994",
+   "Susan Denberg is a citizen of Q34615",
+   "Susan Denberg is a citizen of Q47554",
+   "Susan Denberg is a citizen of Q194420",
+   "Susan Denberg is a citizen of Q197691",
+   "Susan Denberg is a citizen of Q7027",
+   "Susan Denberg is a citizen of Q270",
+   "Susan Denberg is a citizen of Q1828035",
+   "Susan Denberg is a citizen of Q1022",
+   "Susan Denberg is a citizen of Q7473516",
+   "Susan Denberg is a citizen of Q181704",
+   "Susan Denberg is a citizen of Q72",
+   "Susan Denberg is a citizen of Q2683",
+   "Susan Denberg is a citizen of Q467617",
+   "Susan Denberg is a citizen of Q42168",
+   "Susan Denberg is a citizen of Q153494",
+   "Susan Denberg is a citizen of Q13362",
+   "Susan Denberg is a citizen of Q484552",
+   "Susan Denberg is a citizen of Q320233",
+   "Susan Denberg is a citizen of Q1297",
+   "Susan Denberg is a citizen of Q2865",
+   "Susan Denberg is a citizen of Q16568",
+   "Susan Denberg is a citizen of Q4093",
+   "Susan Denberg is a citizen of Q319397",
+   "Susan Denberg is a citizen of Q212856",
+   "Susan Denberg is a citizen of Q90",
+   "Susan Denberg is a citizen of Q1807458",
+   "Susan Denberg is a citizen of Q5839",
+   "Susan Denberg is a citizen of Q2861",
+   "Susan Denberg is a citizen of Q504875",
+   "Susan Denberg is a citizen of Q105048",
+   "Susan Denberg is a citizen of Q3619316",
+   "Susan Denberg is a citizen of Q287148",
+   "Susan Denberg is a citizen of Q630668",
+   "Susan Denberg is a citizen of Q40898",
+   "Susan Denberg is a citizen of Q734064",
+   "Susan Denberg is a citizen of Q1537",
+   "Susan Denberg is a citizen of Q375314",
+   "The passport that Susan Denberg carries is Q339182",
+   "The passport that Susan Denberg carries is Q43631",
+   "The passport that Susan Denberg carries is Q2061870",
+   "The passport that Susan Denberg carries is Q25331",
+   "The passport that Susan Denberg carries is Q3776576",
+   "The passport that Susan Denberg carries is Q81621",
+   "The passport that Susan Denberg carries is Q38511",
+   "The passport that Susan Denberg carries is Q23436",
+   "The passport that Susan Denberg carries is Q627653",
+   "The passport that Susan Denberg carries is Q749",
+   "The passport that Susan Denberg carries is Q42088",
+   "The passport that Susan Denberg carries is Q206687",
+   "The passport that Susan Denberg carries is Q18655",
+   "The passport that Susan Denberg carries is Q54163",
+   "The passport that Susan Denberg carries is Q1144835",
+   "The passport that Susan Denberg carries is Q3626259",
+   "The passport that Susan Denberg carries is Q30096",
+   "The passport that Susan Denberg carries is Q181725",
+   "The passport that Susan Denberg carries is Q18426",
+   "The passport that Susan Denberg carries is Q4734309",
+   "The passport that Susan Denberg carries is Q823531",
+   "The passport that Susan Denberg carries is Q13210107",
+   "The passport that Susan Denberg carries is Q656",
+   "The passport that Susan Denberg carries is Q1709",
+   "The passport that Susan Denberg carries is Q1492",
+   "The passport that Susan Denberg carries is Q6602",
+   "The passport that Susan Denberg carries is Q1490",
+   "The passport that Susan Denberg carries is Q939529",
+   "The passport that Susan Denberg carries is Q1890931",
+   "The passport that Susan Denberg carries is Q2640897",
+   "The passport that Susan Denberg carries is Q655874",
+   "The passport that Susan Denberg carries is Q40623",
+   "The passport that Susan Denberg carries is Q21711493",
+   "The passport that Susan Denberg carries is Q23360",
+   "The passport that Susan Denberg carries is Q25286",
+   "The passport that Susan Denberg carries is Q963309",
+   "The passport that Susan Denberg carries is Q1761",
+   "The passport that Susan Denberg carries is Q1773",
+   "The passport that Susan Denberg carries is Q18986",
+   "The passport that Susan Denberg carries is Q78",
+   "The passport that Susan Denberg carries is Q11025",
+   "The passport that Susan Denberg carries is Q13375",
+   "The passport that Susan Denberg carries is Q1013549",
+   "The passport that Susan Denberg carries is Q176410",
+   "The passport that Susan Denberg carries is Q584458",
+   "The passport that Susan Denberg carries is Q374745",
+   "The passport that Susan Denberg carries is Q59670",
+   "The passport that Susan Denberg carries is Q62460",
+   "The passport that Susan Denberg carries is Q288082",
+   "The passport that Susan Denberg carries is Q2145988",
+   "The passport that Susan Denberg carries is Q104731",
+   "The passport that Susan Denberg carries is Q1618770",
+   "The passport that Susan Denberg carries is Q24826",
+   "The passport that Susan Denberg carries is Q3846",
+   "The passport that Susan Denberg carries is Q727",
+   "The passport that Susan Denberg carries is Q186234",
+   "The passport that Susan Denberg carries is Q2593038",
+   "The passport that Susan Denberg carries is Q1003286",
+   "The passport that Susan Denberg carries is Q1921452",
+   "The passport that Susan Denberg carries is Q1159513",
+   "The passport that Susan Denberg carries is Q617407",
+   "The passport that Susan Denberg carries is Q140342",
+   "The passport that Susan Denberg carries is Q269476",
+   "The passport that Susan Denberg carries is Q1296",
+   "The passport that Susan Denberg carries is Q1524",
+   "The passport that Susan Denberg carries is Q3138",
+   "The passport that Susan Denberg carries is Q36600",
+   "The passport that Susan Denberg carries is Q985461",
+   "The passport that Susan Denberg carries is Q3150",
+   "The passport that Susan Denberg carries is Q203040",
+   "The passport that Susan Denberg carries is Q4420718",
+   "The passport that Susan Denberg carries is Q564827",
+   "The passport that Susan Denberg carries is Q19272",
+   "The passport that Susan Denberg carries is Q209126",
+   "The passport that Susan Denberg carries is Q2746",
+   "The passport that Susan Denberg carries is Q446314",
+   "The passport that Susan Denberg carries is Q1085",
+   "The passport that Susan Denberg carries is Q7042",
+   "The passport that Susan Denberg carries is Q198190",
+   "The passport that Susan Denberg carries is Q462177",
+   "The passport that Susan Denberg carries is Q1748",
+   "The passport that Susan Denberg carries is Q123709",
+   "The passport that Susan Denberg carries is Q36433",
+   "The passport that Susan Denberg carries is Q1247384",
+   "The passport that Susan Denberg carries is Q1780",
+   "The passport that Susan Denberg carries is Q18125",
+   "The passport that Susan Denberg carries is Q482657",
+   "The passport that Susan Denberg carries is Q31487",
+   "The passport that Susan Denberg carries is Q1005862",
+   "The passport that Susan Denberg carries is Q52098",
+   "The passport that Susan Denberg carries is Q23154",
+   "The passport that Susan Denberg carries is Q1679681",
+   "The passport that Susan Denberg carries is Q123559",
+   "The passport that Susan Denberg carries is Q1799",
+   "The passport that Susan Denberg carries is Q500939",
+   "The passport that Susan Denberg carries is Q41252",
+   "The passport that Susan Denberg carries is nan",
+   "The passport that Susan Denberg carries is Q3923",
+   "The passport that Susan Denberg carries is Q517311",
+   "The passport that Susan Denberg carries is Q49111",
+   "The passport that Susan Denberg carries is Q6366688",
+   "The passport that Susan Denberg carries is Q1490411",
+   "The passport that Susan Denberg carries is Q1415",
+   "The passport that Susan Denberg carries is Q269980",
+   "The passport that Susan Denberg carries is Q156743",
+   "The passport that Susan Denberg carries is Q11736",
+   "The passport that Susan Denberg carries is Q2880",
+   "The passport that Susan Denberg carries is Q3915",
+   "The passport that Susan Denberg carries is Q853324",
+   "The passport that Susan Denberg carries is Q67778",
+   "The passport that Susan Denberg carries is Q649",
+   "The passport that Susan Denberg carries is Q610238",
+   "The passport that Susan Denberg carries is Q4083",
+   "The passport that Susan Denberg carries is Q1754",
+   "The passport that Susan Denberg carries is Q490",
+   "The passport that Susan Denberg carries is Q64",
+   "The passport that Susan Denberg carries is Q18424",
+   "The passport that Susan Denberg carries is Q492538",
+   "The passport that Susan Denberg carries is Q42807",
+   "The passport that Susan Denberg carries is Q84",
+   "The passport that Susan Denberg carries is Q1729",
+   "The passport that Susan Denberg carries is Q1055",
+   "The passport that Susan Denberg carries is Q43509",
+   "The passport that Susan Denberg carries is Q16553",
+   "The passport that Susan Denberg carries is Q54140",
+   "The passport that Susan Denberg carries is Q80484",
+   "The passport that Susan Denberg carries is Q10549787",
+   "The passport that Susan Denberg carries is Q42308",
+   "The passport that Susan Denberg carries is Q33959",
+   "The passport that Susan Denberg carries is Q22741",
+   "The passport that Susan Denberg carries is Q433701",
+   "The passport that Susan Denberg carries is Q2749",
+   "The passport that Susan Denberg carries is Q863832",
+   "The passport that Susan Denberg carries is Q3834",
+   "The passport that Susan Denberg carries is Q106274",
+   "The passport that Susan Denberg carries is Q1779185",
+   "The passport that Susan Denberg carries is Q4518353",
+   "The passport that Susan Denberg carries is Q275731",
+   "The passport that Susan Denberg carries is Q102621",
+   "The passport that Susan Denberg carries is Q4418120",
+   "The passport that Susan Denberg carries is Q891",
+   "The passport that Susan Denberg carries is Q142",
+   "The passport that Susan Denberg carries is Q220",
+   "The passport that Susan Denberg carries is Q1781",
+   "The passport that Susan Denberg carries is Q1794",
+   "The passport that Susan Denberg carries is Q1741",
+   "The passport that Susan Denberg carries is Q966192",
+   "The passport that Susan Denberg carries is Q2711986",
+   "The passport that Susan Denberg carries is Q1781710",
+   "The passport that Susan Denberg carries is Q60",
+   "The passport that Susan Denberg carries is Q173695",
+   "The passport that Susan Denberg carries is Q135572",
+   "The passport that Susan Denberg carries is Q2598",
+   "The passport that Susan Denberg carries is Q192265",
+   "The passport that Susan Denberg carries is Q1792",
+   "The passport that Susan Denberg carries is Q22905",
+   "The passport that Susan Denberg carries is Q5838",
+   "The passport that Susan Denberg carries is Q536598",
+   "The passport that Susan Denberg carries is Q3316008",
+   "The passport that Susan Denberg carries is Q1327770",
+   "The passport that Susan Denberg carries is Q477987",
+   "The passport that Susan Denberg carries is Q551378",
+   "The passport that Susan Denberg carries is Q648432",
+   "The passport that Susan Denberg carries is Q1345",
+   "The passport that Susan Denberg carries is Q1228829",
+   "The passport that Susan Denberg carries is Q797437",
+   "The passport that Susan Denberg carries is Q87",
+   "The passport that Susan Denberg carries is Q157725",
+   "The passport that Susan Denberg carries is Q36036",
+   "The passport that Susan Denberg carries is Q6837",
+   "The passport that Susan Denberg carries is Q1735",
+   "The passport that Susan Denberg carries is Q1711",
+   "The passport that Susan Denberg carries is Q507117",
+   "The passport that Susan Denberg carries is Q2722267",
+   "The passport that Susan Denberg carries is Q13666",
+   "The passport that Susan Denberg carries is Q206988",
+   "The passport that Susan Denberg carries is Q1715",
+   "The passport that Susan Denberg carries is Q265332",
+   "The passport that Susan Denberg carries is Q745594",
+   "The passport that Susan Denberg carries is Q13373",
+   "The passport that Susan Denberg carries is Q725261",
+   "The passport that Susan Denberg carries is Q572595",
+   "The passport that Susan Denberg carries is Q576671",
+   "The passport that Susan Denberg carries is Q2453742",
+   "The passport that Susan Denberg carries is Q7880",
+   "The passport that Susan Denberg carries is Q184163",
+   "The passport that Susan Denberg carries is Q997335",
+   "The passport that Susan Denberg carries is Q26339",
+   "The passport that Susan Denberg carries is Q845623",
+   "The passport that Susan Denberg carries is Q64589",
+   "The passport that Susan Denberg carries is Q1720",
+   "The passport that Susan Denberg carries is Q835831",
+   "The passport that Susan Denberg carries is Q487977",
+   "The passport that Susan Denberg carries is Q2256",
+   "The passport that Susan Denberg carries is Q6346",
+   "The passport that Susan Denberg carries is Q161994",
+   "The passport that Susan Denberg carries is Q34615",
+   "The passport that Susan Denberg carries is Q47554",
+   "The passport that Susan Denberg carries is Q194420",
+   "The passport that Susan Denberg carries is Q197691",
+   "The passport that Susan Denberg carries is Q7027",
+   "The passport that Susan Denberg carries is Q270",
+   "The passport that Susan Denberg carries is Q1828035",
+   "The passport that Susan Denberg carries is Q1022",
+   "The passport that Susan Denberg carries is Q7473516",
+   "The passport that Susan Denberg carries is Q181704",
+   "The passport that Susan Denberg carries is Q72",
+   "The passport that Susan Denberg carries is Q2683",
+   "The passport that Susan Denberg carries is Q467617",
+   "The passport that Susan Denberg carries is Q42168",
+   "The passport that Susan Denberg carries is Q153494",
+   "The passport that Susan Denberg carries is Q13362",
+   "The passport that Susan Denberg carries is Q484552",
+   "The passport that Susan Denberg carries is Q320233",
+   "The passport that Susan Denberg carries is Q1297",
+   "The passport that Susan Denberg carries is Q2865",
+   "The passport that Susan Denberg carries is Q16568",
+   "The passport that Susan Denberg carries is Q4093",
+   "The passport that Susan Denberg carries is Q319397",
+   "The passport that Susan Denberg carries is Q212856",
+   "The passport that Susan Denberg carries is Q90",
+   "The passport that Susan Denberg carries is Q1807458",
+   "The passport that Susan Denberg carries is Q5839",
+   "The passport that Susan Denberg carries is Q2861",
+   "The passport that Susan Denberg carries is Q504875",
+   "The passport that Susan Denberg carries is Q105048",
+   "The passport that Susan Denberg carries is Q3619316",
+   "The passport that Susan Denberg carries is Q287148",
+   "The passport that Susan Denberg carries is Q630668",
+   "The passport that Susan Denberg carries is Q40898",
+   "The passport that Susan Denberg carries is Q734064",
+   "The passport that Susan Denberg carries is Q1537",
+   "The passport that Susan Denberg carries is Q375314"
+  ],
+  [
+   [
+    -67.11820220947266
+   ],
+   [
+    -62.93878936767578
+   ],
+   [
+    -68.57444763183594
+   ],
+   [
+    -62.97542953491211
+   ],
+   [
+    -70.91624450683594
+   ],
+   [
+    -63.47902297973633
+   ],
+   [
+    -63.291595458984375
+   ],
+   [
+    -62.495323181152344
+   ],
+   [
+    -69.14868927001953
+   ],
+   [
+    -59.30646514892578
+   ],
+   [
+    -61.172691345214844
+   ],
+   [
+    -65.51695251464844
+   ],
+   [
+    -63.37318420410156
+   ],
+   [
+    -63.27043914794922
+   ],
+   [
+    -68.83590698242188
+   ],
+   [
+    -71.51051330566406
+   ],
+   [
+    -61.863441467285156
+   ],
+   [
+    -65.23136901855469
+   ],
+   [
+    -63.15989685058594
+   ],
+   [
+    -70.06742858886719
+   ],
+   [
+    -67.83250427246094
+   ],
+   [
+    -73.64187622070312
+   ],
+   [
+    -59.441551208496094
+   ],
+   [
+    -59.56373596191406
+   ],
+   [
+    -60.595497131347656
+   ],
+   [
+    -61.89642333984375
+   ],
+   [
+    -60.172279357910156
+   ],
+   [
+    -69.48237609863281
+   ],
+   [
+    -68.804931640625
+   ],
+   [
+    -69.3939437866211
+   ],
+   [
+    -68.82361602783203
+   ],
+   [
+    -62.31420135498047
+   ],
+   [
+    -72.57783508300781
+   ],
+   [
+    -62.23645782470703
+   ],
+   [
+    -63.086769104003906
+   ],
+   [
+    -69.15611267089844
+   ],
+   [
+    -60.593719482421875
+   ],
+   [
+    -60.86437225341797
+   ],
+   [
+    -63.37500762939453
+   ],
+   [
+    -55.547645568847656
+   ],
+   [
+    -60.96473693847656
+   ],
+   [
+    -64.06178283691406
+   ],
+   [
+    -68.14619445800781
+   ],
+   [
+    -66.32723236083984
+   ],
+   [
+    -68.302001953125
+   ],
+   [
+    -67.57125854492188
+   ],
+   [
+    -64.7978286743164
+   ],
+   [
+    -65.54176330566406
+   ],
+   [
+    -65.34268951416016
+   ],
+   [
+    -70.01661682128906
+   ],
+   [
+    -66.19463348388672
+   ],
+   [
+    -68.79849243164062
+   ],
+   [
+    -63.46947479248047
+   ],
+   [
+    -60.97065734863281
+   ],
+   [
+    -59.06703186035156
+   ],
+   [
+    -66.28478240966797
+   ],
+   [
+    -69.54248809814453
+   ],
+   [
+    -68.26087951660156
+   ],
+   [
+    -68.67649841308594
+   ],
+   [
+    -69.16908264160156
+   ],
+   [
+    -68.93004608154297
+   ],
+   [
+    -65.8253402709961
+   ],
+   [
+    -66.47842407226562
+   ],
+   [
+    -60.81880187988281
+   ],
+   [
+    -59.77259826660156
+   ],
+   [
+    -60.645179748535156
+   ],
+   [
+    -64.59879302978516
+   ],
+   [
+    -68.75941467285156
+   ],
+   [
+    -59.780067443847656
+   ],
+   [
+    -65.62483215332031
+   ],
+   [
+    -69.05184936523438
+   ],
+   [
+    -68.46005249023438
+   ],
+   [
+    -62.8671875
+   ],
+   [
+    -65.65670776367188
+   ],
+   [
+    -60.652374267578125
+   ],
+   [
+    -66.23657989501953
+   ],
+   [
+    -58.56324005126953
+   ],
+   [
+    -61.00933837890625
+   ],
+   [
+    -65.62677001953125
+   ],
+   [
+    -66.48658752441406
+   ],
+   [
+    -60.888885498046875
+   ],
+   [
+    -67.15007019042969
+   ],
+   [
+    -65.16999053955078
+   ],
+   [
+    -69.46719360351562
+   ],
+   [
+    -60.431182861328125
+   ],
+   [
+    -61.87934112548828
+   ],
+   [
+    -65.85525512695312
+   ],
+   [
+    -63.62336730957031
+   ],
+   [
+    -67.97209167480469
+   ],
+   [
+    -63.155006408691406
+   ],
+   [
+    -62.64841079711914
+   ],
+   [
+    -69.38729095458984
+   ],
+   [
+    -66.5953369140625
+   ],
+   [
+    -61.143585205078125
+   ],
+   [
+    -65.03752136230469
+   ],
+   [
+    -62.848060607910156
+   ],
+   [
+    -46.88866424560547
+   ],
+   [
+    -61.1533203125
+   ],
+   [
+    -67.22956848144531
+   ],
+   [
+    -62.19488525390625
+   ],
+   [
+    -71.761962890625
+   ],
+   [
+    -68.87226867675781
+   ],
+   [
+    -59.45133972167969
+   ],
+   [
+    -66.63284301757812
+   ],
+   [
+    -66.04609680175781
+   ],
+   [
+    -62.982994079589844
+   ],
+   [
+    -59.61408233642578
+   ],
+   [
+    -60.94800567626953
+   ],
+   [
+    -68.26010131835938
+   ],
+   [
+    -65.39785766601562
+   ],
+   [
+    -59.75304412841797
+   ],
+   [
+    -69.21540069580078
+   ],
+   [
+    -59.757476806640625
+   ],
+   [
+    -60.720802307128906
+   ],
+   [
+    -56.87248229980469
+   ],
+   [
+    -55.82988739013672
+   ],
+   [
+    -63.270660400390625
+   ],
+   [
+    -66.34828186035156
+   ],
+   [
+    -62.73670196533203
+   ],
+   [
+    -55.62974166870117
+   ],
+   [
+    -60.62312316894531
+   ],
+   [
+    -59.00700378417969
+   ],
+   [
+    -62.26372528076172
+   ],
+   [
+    -63.25330352783203
+   ],
+   [
+    -62.41644287109375
+   ],
+   [
+    -64.09858703613281
+   ],
+   [
+    -72.70974731445312
+   ],
+   [
+    -62.19103240966797
+   ],
+   [
+    -63.928749084472656
+   ],
+   [
+    -63.71059799194336
+   ],
+   [
+    -65.85523986816406
+   ],
+   [
+    -60.77239227294922
+   ],
+   [
+    -68.39729309082031
+   ],
+   [
+    -60.81927490234375
+   ],
+   [
+    -65.89222717285156
+   ],
+   [
+    -69.64120483398438
+   ],
+   [
+    -68.78376770019531
+   ],
+   [
+    -66.65972900390625
+   ],
+   [
+    -65.73269653320312
+   ],
+   [
+    -68.74342346191406
+   ],
+   [
+    -58.46649169921875
+   ],
+   [
+    -56.597190856933594
+   ],
+   [
+    -54.870361328125
+   ],
+   [
+    -60.60540008544922
+   ],
+   [
+    -61.16936492919922
+   ],
+   [
+    -60.58892059326172
+   ],
+   [
+    -68.81101989746094
+   ],
+   [
+    -68.92073059082031
+   ],
+   [
+    -69.26606750488281
+   ],
+   [
+    -54.95353698730469
+   ],
+   [
+    -66.53752899169922
+   ],
+   [
+    -67.31221008300781
+   ],
+   [
+    -60.754432678222656
+   ],
+   [
+    -65.58563232421875
+   ],
+   [
+    -61.08488464355469
+   ],
+   [
+    -62.878379821777344
+   ],
+   [
+    -61.94342041015625
+   ],
+   [
+    -67.86408996582031
+   ],
+   [
+    -69.79976654052734
+   ],
+   [
+    -70.90966033935547
+   ],
+   [
+    -66.77875518798828
+   ],
+   [
+    -66.76691436767578
+   ],
+   [
+    -69.12247467041016
+   ],
+   [
+    -61.64543914794922
+   ],
+   [
+    -69.06114959716797
+   ],
+   [
+    -68.58171081542969
+   ],
+   [
+    -55.555965423583984
+   ],
+   [
+    -66.13847351074219
+   ],
+   [
+    -64.25614929199219
+   ],
+   [
+    -62.50624084472656
+   ],
+   [
+    -60.66114044189453
+   ],
+   [
+    -59.16361999511719
+   ],
+   [
+    -65.10914611816406
+   ],
+   [
+    -69.63770294189453
+   ],
+   [
+    -65.04776000976562
+   ],
+   [
+    -65.59869384765625
+   ],
+   [
+    -59.685951232910156
+   ],
+   [
+    -66.5184326171875
+   ],
+   [
+    -68.42222595214844
+   ],
+   [
+    -64.1059799194336
+   ],
+   [
+    -68.33470153808594
+   ],
+   [
+    -68.15473937988281
+   ],
+   [
+    -68.0727767944336
+   ],
+   [
+    -69.54108428955078
+   ],
+   [
+    -62.341041564941406
+   ],
+   [
+    -66.1114501953125
+   ],
+   [
+    -69.75910949707031
+   ],
+   [
+    -63.55729293823242
+   ],
+   [
+    -68.30844116210938
+   ],
+   [
+    -65.64151000976562
+   ],
+   [
+    -59.94160461425781
+   ],
+   [
+    -68.38548278808594
+   ],
+   [
+    -66.1523208618164
+   ],
+   [
+    -60.281349182128906
+   ],
+   [
+    -62.34556579589844
+   ],
+   [
+    -66.20931243896484
+   ],
+   [
+    -62.86351776123047
+   ],
+   [
+    -63.21142578125
+   ],
+   [
+    -65.93685913085938
+   ],
+   [
+    -66.25364685058594
+   ],
+   [
+    -60.916839599609375
+   ],
+   [
+    -56.20097732543945
+   ],
+   [
+    -68.6820068359375
+   ],
+   [
+    -58.72392272949219
+   ],
+   [
+    -71.65282440185547
+   ],
+   [
+    -65.05876159667969
+   ],
+   [
+    -55.51121520996094
+   ],
+   [
+    -60.762351989746094
+   ],
+   [
+    -66.59504699707031
+   ],
+   [
+    -62.01056671142578
+   ],
+   [
+    -65.92918395996094
+   ],
+   [
+    -63.90454864501953
+   ],
+   [
+    -66.1742172241211
+   ],
+   [
+    -65.83938598632812
+   ],
+   [
+    -60.80907440185547
+   ],
+   [
+    -59.98865509033203
+   ],
+   [
+    -63.26568603515625
+   ],
+   [
+    -59.58045196533203
+   ],
+   [
+    -66.84844970703125
+   ],
+   [
+    -66.99222564697266
+   ],
+   [
+    -54.942474365234375
+   ],
+   [
+    -67.99848175048828
+   ],
+   [
+    -62.013885498046875
+   ],
+   [
+    -59.87446594238281
+   ],
+   [
+    -64.76451110839844
+   ],
+   [
+    -66.91899108886719
+   ],
+   [
+    -72.3878173828125
+   ],
+   [
+    -65.82321166992188
+   ],
+   [
+    -68.35509490966797
+   ],
+   [
+    -62.723609924316406
+   ],
+   [
+    -68.59770202636719
+   ],
+   [
+    -60.212860107421875
+   ],
+   [
+    -67.13511657714844
+   ],
+   [
+    -65.22511291503906
+   ],
+   [
+    -63.649566650390625
+   ],
+   [
+    -69.37835693359375
+   ],
+   [
+    -64.45960998535156
+   ],
+   [
+    -69.1349868774414
+   ],
+   [
+    -65.5317611694336
+   ],
+   [
+    -64.07402801513672
+   ],
+   [
+    -64.81307220458984
+   ],
+   [
+    -68.53862762451172
+   ],
+   [
+    -59.921958923339844
+   ],
+   [
+    -64.48069763183594
+   ],
+   [
+    -67.56442260742188
+   ],
+   [
+    -63.53327941894531
+   ],
+   [
+    -65.080810546875
+   ],
+   [
+    -68.85964965820312
+   ],
+   [
+    -66.88040161132812
+   ],
+   [
+    -61.39348602294922
+   ],
+   [
+    -66.14151000976562
+   ],
+   [
+    -63.068477630615234
+   ],
+   [
+    -70.92916107177734
+   ],
+   [
+    -68.2353515625
+   ],
+   [
+    -73.77745056152344
+   ],
+   [
+    -58.87916564941406
+   ],
+   [
+    -61.00136184692383
+   ],
+   [
+    -60.419586181640625
+   ],
+   [
+    -62.455074310302734
+   ],
+   [
+    -60.402732849121094
+   ],
+   [
+    -68.30403137207031
+   ],
+   [
+    -68.8617172241211
+   ],
+   [
+    -70.90628051757812
+   ],
+   [
+    -67.53402709960938
+   ],
+   [
+    -64.76720428466797
+   ],
+   [
+    -72.00096893310547
+   ],
+   [
+    -63.797706604003906
+   ],
+   [
+    -64.60997772216797
+   ],
+   [
+    -68.97409057617188
+   ],
+   [
+    -60.91912841796875
+   ],
+   [
+    -60.989044189453125
+   ],
+   [
+    -63.794986724853516
+   ],
+   [
+    -56.84772491455078
+   ],
+   [
+    -63.25851058959961
+   ],
+   [
+    -64.24397277832031
+   ],
+   [
+    -69.02857971191406
+   ],
+   [
+    -66.20272827148438
+   ],
+   [
+    -68.29412841796875
+   ],
+   [
+    -65.95332336425781
+   ],
+   [
+    -65.90493774414062
+   ],
+   [
+    -65.0008544921875
+   ],
+   [
+    -67.00531005859375
+   ],
+   [
+    -69.25621032714844
+   ],
+   [
+    -67.38980102539062
+   ],
+   [
+    -69.23466491699219
+   ],
+   [
+    -64.85941314697266
+   ],
+   [
+    -61.78196716308594
+   ],
+   [
+    -60.40056610107422
+   ],
+   [
+    -66.19226837158203
+   ],
+   [
+    -70.37188720703125
+   ],
+   [
+    -69.66072082519531
+   ],
+   [
+    -68.6083984375
+   ],
+   [
+    -69.102294921875
+   ],
+   [
+    -68.24858856201172
+   ],
+   [
+    -66.46868133544922
+   ],
+   [
+    -66.91519165039062
+   ],
+   [
+    -60.11204528808594
+   ],
+   [
+    -60.359954833984375
+   ],
+   [
+    -61.656612396240234
+   ],
+   [
+    -66.34910583496094
+   ],
+   [
+    -68.7542953491211
+   ],
+   [
+    -61.44326400756836
+   ],
+   [
+    -66.18534851074219
+   ],
+   [
+    -70.61247253417969
+   ],
+   [
+    -67.22215270996094
+   ],
+   [
+    -63.09419631958008
+   ],
+   [
+    -65.71945190429688
+   ],
+   [
+    -62.469703674316406
+   ],
+   [
+    -67.9214859008789
+   ],
+   [
+    -60.127315521240234
+   ],
+   [
+    -63.41307830810547
+   ],
+   [
+    -65.73487854003906
+   ],
+   [
+    -68.20960998535156
+   ],
+   [
+    -60.84877014160156
+   ],
+   [
+    -65.67890930175781
+   ],
+   [
+    -65.35761260986328
+   ],
+   [
+    -68.49092102050781
+   ],
+   [
+    -60.9276123046875
+   ],
+   [
+    -63.783203125
+   ],
+   [
+    -68.13905334472656
+   ],
+   [
+    -64.0691146850586
+   ],
+   [
+    -68.46793365478516
+   ],
+   [
+    -64.87104797363281
+   ],
+   [
+    -66.60090637207031
+   ],
+   [
+    -68.85660552978516
+   ],
+   [
+    -64.40013122558594
+   ],
+   [
+    -60.619422912597656
+   ],
+   [
+    -66.16087341308594
+   ],
+   [
+    -64.05587005615234
+   ],
+   [
+    -48.713035583496094
+   ],
+   [
+    -60.942779541015625
+   ],
+   [
+    -67.96160888671875
+   ],
+   [
+    -63.52010726928711
+   ],
+   [
+    -70.61550903320312
+   ],
+   [
+    -68.36659240722656
+   ],
+   [
+    -60.782020568847656
+   ],
+   [
+    -67.78528594970703
+   ],
+   [
+    -66.28071594238281
+   ],
+   [
+    -63.540550231933594
+   ],
+   [
+    -61.75633239746094
+   ],
+   [
+    -60.82928466796875
+   ],
+   [
+    -68.2652587890625
+   ],
+   [
+    -65.73978424072266
+   ],
+   [
+    -59.336952209472656
+   ],
+   [
+    -67.99009704589844
+   ],
+   [
+    -62.17961883544922
+   ],
+   [
+    -61.096580505371094
+   ],
+   [
+    -58.77930450439453
+   ],
+   [
+    -55.664398193359375
+   ],
+   [
+    -63.275306701660156
+   ],
+   [
+    -67.30047607421875
+   ],
+   [
+    -65.28477478027344
+   ],
+   [
+    -56.55657196044922
+   ],
+   [
+    -61.111507415771484
+   ],
+   [
+    -60.813655853271484
+   ],
+   [
+    -63.72162628173828
+   ],
+   [
+    -63.902099609375
+   ],
+   [
+    -64.9471206665039
+   ],
+   [
+    -65.48599243164062
+   ],
+   [
+    -73.55906677246094
+   ],
+   [
+    -65.24308013916016
+   ],
+   [
+    -62.6888427734375
+   ],
+   [
+    -63.42974090576172
+   ],
+   [
+    -66.37406158447266
+   ],
+   [
+    -62.61292266845703
+   ],
+   [
+    -68.81953430175781
+   ],
+   [
+    -61.806968688964844
+   ],
+   [
+    -66.75227355957031
+   ],
+   [
+    -69.28455352783203
+   ],
+   [
+    -70.16856384277344
+   ],
+   [
+    -67.96946716308594
+   ],
+   [
+    -66.08456420898438
+   ],
+   [
+    -69.77400970458984
+   ],
+   [
+    -60.040435791015625
+   ],
+   [
+    -57.554595947265625
+   ],
+   [
+    -57.332916259765625
+   ],
+   [
+    -60.83930206298828
+   ],
+   [
+    -60.88945770263672
+   ],
+   [
+    -60.693824768066406
+   ],
+   [
+    -68.6529769897461
+   ],
+   [
+    -71.02626037597656
+   ],
+   [
+    -69.02410888671875
+   ],
+   [
+    -55.05736541748047
+   ],
+   [
+    -66.46541595458984
+   ],
+   [
+    -67.69409942626953
+   ],
+   [
+    -62.480628967285156
+   ],
+   [
+    -65.93363189697266
+   ],
+   [
+    -61.02783203125
+   ],
+   [
+    -63.59355926513672
+   ],
+   [
+    -63.099430084228516
+   ],
+   [
+    -68.15391540527344
+   ],
+   [
+    -69.39442443847656
+   ],
+   [
+    -70.91513061523438
+   ],
+   [
+    -68.15570068359375
+   ],
+   [
+    -67.9805679321289
+   ],
+   [
+    -67.95970153808594
+   ],
+   [
+    -62.69029235839844
+   ],
+   [
+    -68.55986785888672
+   ],
+   [
+    -68.770263671875
+   ],
+   [
+    -56.47370910644531
+   ],
+   [
+    -66.16410827636719
+   ],
+   [
+    -63.494384765625
+   ],
+   [
+    -63.49416732788086
+   ],
+   [
+    -61.09768295288086
+   ],
+   [
+    -60.802642822265625
+   ],
+   [
+    -66.54293823242188
+   ],
+   [
+    -71.02344512939453
+   ],
+   [
+    -65.32970428466797
+   ],
+   [
+    -66.67631530761719
+   ],
+   [
+    -61.053932189941406
+   ],
+   [
+    -68.04644012451172
+   ],
+   [
+    -68.26850128173828
+   ],
+   [
+    -64.18385314941406
+   ],
+   [
+    -68.60430908203125
+   ],
+   [
+    -68.3058090209961
+   ],
+   [
+    -68.40264892578125
+   ],
+   [
+    -70.50165557861328
+   ],
+   [
+    -64.02685546875
+   ],
+   [
+    -65.41893005371094
+   ],
+   [
+    -68.64408111572266
+   ],
+   [
+    -64.26774597167969
+   ],
+   [
+    -68.90310668945312
+   ],
+   [
+    -65.14385986328125
+   ],
+   [
+    -61.00413513183594
+   ],
+   [
+    -68.64312744140625
+   ],
+   [
+    -68.4290542602539
+   ],
+   [
+    -60.766963958740234
+   ],
+   [
+    -61.986473083496094
+   ],
+   [
+    -66.29203796386719
+   ],
+   [
+    -64.02244567871094
+   ],
+   [
+    -65.54559326171875
+   ],
+   [
+    -64.99945068359375
+   ],
+   [
+    -66.015869140625
+   ],
+   [
+    -63.62110137939453
+   ],
+   [
+    -59.05152130126953
+   ],
+   [
+    -68.878662109375
+   ],
+   [
+    -61.101524353027344
+   ],
+   [
+    -70.94155883789062
+   ],
+   [
+    -66.31377410888672
+   ],
+   [
+    -56.67682647705078
+   ],
+   [
+    -62.29692840576172
+   ],
+   [
+    -68.21572875976562
+   ],
+   [
+    -64.57194519042969
+   ],
+   [
+    -65.57709503173828
+   ],
+   [
+    -64.07774353027344
+   ],
+   [
+    -67.36929321289062
+   ],
+   [
+    -66.60152435302734
+   ],
+   [
+    -60.198726654052734
+   ],
+   [
+    -62.345680236816406
+   ],
+   [
+    -63.79181671142578
+   ],
+   [
+    -61.58546447753906
+   ],
+   [
+    -66.45703125
+   ],
+   [
+    -66.53646087646484
+   ],
+   [
+    -56.20137023925781
+   ],
+   [
+    -69.4461441040039
+   ],
+   [
+    -63.059181213378906
+   ],
+   [
+    -62.233741760253906
+   ],
+   [
+    -66.16431427001953
+   ],
+   [
+    -69.6998519897461
+   ],
+   [
+    -70.25979614257812
+   ],
+   [
+    -67.7939453125
+   ],
+   [
+    -67.32325744628906
+   ],
+   [
+    -64.90476989746094
+   ],
+   [
+    -68.4666976928711
+   ],
+   [
+    -60.947898864746094
+   ],
+   [
+    -65.50100708007812
+   ],
+   [
+    -78.65267181396484
+   ],
+   [
+    -75.44850158691406
+   ],
+   [
+    -80.65135955810547
+   ],
+   [
+    -75.70460510253906
+   ],
+   [
+    -81.77670288085938
+   ],
+   [
+    -75.29620361328125
+   ],
+   [
+    -76.50444030761719
+   ],
+   [
+    -75.8105697631836
+   ],
+   [
+    -79.18817138671875
+   ],
+   [
+    -72.09387969970703
+   ],
+   [
+    -75.76006317138672
+   ],
+   [
+    -78.16600799560547
+   ],
+   [
+    -76.12605285644531
+   ],
+   [
+    -76.38670349121094
+   ],
+   [
+    -80.4662857055664
+   ],
+   [
+    -81.28253936767578
+   ],
+   [
+    -75.8404769897461
+   ],
+   [
+    -78.28608703613281
+   ],
+   [
+    -76.12081909179688
+   ],
+   [
+    -80.72230529785156
+   ],
+   [
+    -77.9722900390625
+   ],
+   [
+    -83.00961303710938
+   ],
+   [
+    -72.22944641113281
+   ],
+   [
+    -73.6737060546875
+   ],
+   [
+    -73.608642578125
+   ],
+   [
+    -74.47232055664062
+   ],
+   [
+    -73.74337768554688
+   ],
+   [
+    -79.4197998046875
+   ],
+   [
+    -81.2652359008789
+   ],
+   [
+    -81.28683471679688
+   ],
+   [
+    -79.2922134399414
+   ],
+   [
+    -75.54197692871094
+   ],
+   [
+    -84.01168060302734
+   ],
+   [
+    -75.70890045166016
+   ],
+   [
+    -75.96380615234375
+   ],
+   [
+    -79.67353820800781
+   ],
+   [
+    -73.89227294921875
+   ],
+   [
+    -73.77759552001953
+   ],
+   [
+    -76.41770935058594
+   ],
+   [
+    -69.74799346923828
+   ],
+   [
+    -75.21370697021484
+   ],
+   [
+    -75.46421813964844
+   ],
+   [
+    -80.12228393554688
+   ],
+   [
+    -78.61063385009766
+   ],
+   [
+    -79.13113403320312
+   ],
+   [
+    -78.92106628417969
+   ],
+   [
+    -76.85578918457031
+   ],
+   [
+    -76.88215637207031
+   ],
+   [
+    -78.67842864990234
+   ],
+   [
+    -80.67581176757812
+   ],
+   [
+    -78.2120132446289
+   ],
+   [
+    -81.0786361694336
+   ],
+   [
+    -76.20205688476562
+   ],
+   [
+    -74.28773498535156
+   ],
+   [
+    -71.9580307006836
+   ],
+   [
+    -78.45496368408203
+   ],
+   [
+    -80.88135528564453
+   ],
+   [
+    -79.91041564941406
+   ],
+   [
+    -81.04074096679688
+   ],
+   [
+    -80.56236267089844
+   ],
+   [
+    -79.45645141601562
+   ],
+   [
+    -77.79012298583984
+   ],
+   [
+    -78.83207702636719
+   ],
+   [
+    -73.47195434570312
+   ],
+   [
+    -73.37092590332031
+   ],
+   [
+    -73.67652893066406
+   ],
+   [
+    -76.37733459472656
+   ],
+   [
+    -79.79885864257812
+   ],
+   [
+    -73.75679016113281
+   ],
+   [
+    -77.42587280273438
+   ],
+   [
+    -80.96487426757812
+   ],
+   [
+    -78.97673797607422
+   ],
+   [
+    -76.08103942871094
+   ],
+   [
+    -77.96058654785156
+   ],
+   [
+    -73.95418548583984
+   ],
+   [
+    -78.28409576416016
+   ],
+   [
+    -73.01932525634766
+   ],
+   [
+    -74.17664337158203
+   ],
+   [
+    -78.88887023925781
+   ],
+   [
+    -78.28782653808594
+   ],
+   [
+    -73.86898803710938
+   ],
+   [
+    -78.473876953125
+   ],
+   [
+    -76.35579681396484
+   ],
+   [
+    -80.73665618896484
+   ],
+   [
+    -73.85191345214844
+   ],
+   [
+    -75.80044555664062
+   ],
+   [
+    -78.26542663574219
+   ],
+   [
+    -76.27995300292969
+   ],
+   [
+    -79.88436889648438
+   ],
+   [
+    -76.3048324584961
+   ],
+   [
+    -75.69700622558594
+   ],
+   [
+    -81.0789566040039
+   ],
+   [
+    -77.45339965820312
+   ],
+   [
+    -73.81693267822266
+   ],
+   [
+    -78.32862091064453
+   ],
+   [
+    -75.45260620117188
+   ],
+   [
+    -62.41653060913086
+   ],
+   [
+    -74.11457061767578
+   ],
+   [
+    -78.76081085205078
+   ],
+   [
+    -75.97562408447266
+   ],
+   [
+    -82.07511901855469
+   ],
+   [
+    -81.02215576171875
+   ],
+   [
+    -73.42540740966797
+   ],
+   [
+    -78.69638061523438
+   ],
+   [
+    -78.27317810058594
+   ],
+   [
+    -75.66883087158203
+   ],
+   [
+    -74.04739379882812
+   ],
+   [
+    -74.15855407714844
+   ],
+   [
+    -78.00719451904297
+   ],
+   [
+    -77.15087890625
+   ],
+   [
+    -72.3857421875
+   ],
+   [
+    -78.97158813476562
+   ],
+   [
+    -73.22685241699219
+   ],
+   [
+    -73.77093505859375
+   ],
+   [
+    -71.23809051513672
+   ],
+   [
+    -69.88008117675781
+   ],
+   [
+    -76.02043914794922
+   ],
+   [
+    -78.235107421875
+   ],
+   [
+    -76.10406494140625
+   ],
+   [
+    -68.88655090332031
+   ],
+   [
+    -73.68649291992188
+   ],
+   [
+    -73.04348754882812
+   ],
+   [
+    -75.39509582519531
+   ],
+   [
+    -75.8019027709961
+   ],
+   [
+    -76.43212890625
+   ],
+   [
+    -75.74955749511719
+   ],
+   [
+    -83.74093627929688
+   ],
+   [
+    -75.70846557617188
+   ],
+   [
+    -76.2711410522461
+   ],
+   [
+    -76.00982666015625
+   ],
+   [
+    -77.72755432128906
+   ],
+   [
+    -73.96843719482422
+   ],
+   [
+    -78.29756927490234
+   ],
+   [
+    -74.05010986328125
+   ],
+   [
+    -77.9564208984375
+   ],
+   [
+    -81.23583221435547
+   ],
+   [
+    -80.64018249511719
+   ],
+   [
+    -78.57229614257812
+   ],
+   [
+    -77.63545227050781
+   ],
+   [
+    -80.79049682617188
+   ],
+   [
+    -71.20884704589844
+   ],
+   [
+    -71.06065368652344
+   ],
+   [
+    -70.92564392089844
+   ],
+   [
+    -73.85072326660156
+   ],
+   [
+    -73.94364929199219
+   ],
+   [
+    -73.83808135986328
+   ],
+   [
+    -79.82563018798828
+   ],
+   [
+    -81.10015869140625
+   ],
+   [
+    -81.25186157226562
+   ],
+   [
+    -69.54195404052734
+   ],
+   [
+    -78.04058837890625
+   ],
+   [
+    -77.81993865966797
+   ],
+   [
+    -73.83589172363281
+   ],
+   [
+    -78.405517578125
+   ],
+   [
+    -73.85491943359375
+   ],
+   [
+    -76.015380859375
+   ],
+   [
+    -74.21321105957031
+   ],
+   [
+    -78.88687133789062
+   ],
+   [
+    -81.12932586669922
+   ],
+   [
+    -80.69818115234375
+   ],
+   [
+    -78.43267822265625
+   ],
+   [
+    -78.6765365600586
+   ],
+   [
+    -79.33234405517578
+   ],
+   [
+    -73.08172607421875
+   ],
+   [
+    -80.55500793457031
+   ],
+   [
+    -79.50044250488281
+   ],
+   [
+    -68.909423828125
+   ],
+   [
+    -78.322021484375
+   ],
+   [
+    -76.2546157836914
+   ],
+   [
+    -74.68103790283203
+   ],
+   [
+    -73.26123809814453
+   ],
+   [
+    -73.64382934570312
+   ],
+   [
+    -78.89903259277344
+   ],
+   [
+    -81.04714965820312
+   ],
+   [
+    -75.67642974853516
+   ],
+   [
+    -78.15343475341797
+   ],
+   [
+    -73.63131713867188
+   ],
+   [
+    -78.17892456054688
+   ],
+   [
+    -79.09072875976562
+   ],
+   [
+    -75.41668701171875
+   ],
+   [
+    -78.87727355957031
+   ],
+   [
+    -78.9263916015625
+   ],
+   [
+    -79.13168334960938
+   ],
+   [
+    -80.87286376953125
+   ],
+   [
+    -74.65432739257812
+   ],
+   [
+    -78.48249053955078
+   ],
+   [
+    -79.9411392211914
+   ],
+   [
+    -75.83308410644531
+   ],
+   [
+    -78.16932678222656
+   ],
+   [
+    -76.99120330810547
+   ],
+   [
+    -73.6092529296875
+   ],
+   [
+    -78.32150268554688
+   ],
+   [
+    -78.65003967285156
+   ],
+   [
+    -73.47459411621094
+   ],
+   [
+    -74.60733032226562
+   ],
+   [
+    -78.19793701171875
+   ],
+   [
+    -76.40016174316406
+   ],
+   [
+    -75.71390533447266
+   ],
+   [
+    -78.68412780761719
+   ],
+   [
+    -79.01408386230469
+   ],
+   [
+    -74.13444519042969
+   ],
+   [
+    -71.46473693847656
+   ],
+   [
+    -80.80609130859375
+   ],
+   [
+    -72.85313415527344
+   ],
+   [
+    -81.94140625
+   ],
+   [
+    -78.40691375732422
+   ],
+   [
+    -69.47161865234375
+   ],
+   [
+    -73.88420104980469
+   ],
+   [
+    -78.45429992675781
+   ],
+   [
+    -75.74177551269531
+   ],
+   [
+    -77.94650268554688
+   ],
+   [
+    -75.306640625
+   ],
+   [
+    -78.1948013305664
+   ],
+   [
+    -78.26649475097656
+   ],
+   [
+    -73.46034240722656
+   ],
+   [
+    -73.8843994140625
+   ],
+   [
+    -75.94658660888672
+   ],
+   [
+    -73.03443908691406
+   ],
+   [
+    -78.56167602539062
+   ],
+   [
+    -78.08790588378906
+   ],
+   [
+    -69.80510711669922
+   ],
+   [
+    -80.75508880615234
+   ],
+   [
+    -74.20729064941406
+   ],
+   [
+    -73.94429016113281
+   ],
+   [
+    -78.7743148803711
+   ],
+   [
+    -77.85867309570312
+   ],
+   [
+    -81.32940673828125
+   ],
+   [
+    -78.65167236328125
+   ],
+   [
+    -79.23651123046875
+   ],
+   [
+    -75.7391128540039
+   ],
+   [
+    -79.0449447631836
+   ],
+   [
+    -73.28607940673828
+   ],
+   [
+    -78.62071228027344
+   ]
+  ]
+ ],
+ "time": 6288.139891624451
+}

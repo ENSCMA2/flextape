@@ -1,0 +1,2076 @@
+{
+ "case_id": 22048,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Norbert Wiener"
+ },
+ "pre": [
+  [
+   "Norbert Wiener is abstract algebra",
+   "Norbert Wiener is theology",
+   "Norbert Wiener is television program",
+   "Norbert Wiener is nanotechnology",
+   "Norbert Wiener is hydrodynamics",
+   "Norbert Wiener is ethics",
+   "Norbert Wiener is physicist",
+   "Norbert Wiener is evolution",
+   "Norbert Wiener is distribution theory",
+   "Norbert Wiener is psychophysiology",
+   "Norbert Wiener is English literature",
+   "Norbert Wiener is theoretical physics",
+   "Norbert Wiener is essay",
+   "Norbert Wiener is ethnology",
+   "Norbert Wiener is pedagogy",
+   "Norbert Wiener is kinetic theory",
+   "Norbert Wiener is ethnography",
+   "Norbert Wiener is rite",
+   "Norbert Wiener is economics",
+   "Norbert Wiener is dance choreography",
+   "Norbert Wiener is biological anthropology",
+   "Norbert Wiener is history of religions",
+   "Norbert Wiener is political philosophy",
+   "Norbert Wiener is philosophy",
+   "Norbert Wiener is linguistics",
+   "Norbert Wiener is cosmology",
+   "Norbert Wiener is hunting",
+   "Norbert Wiener is Minkowski spacetime",
+   "Norbert Wiener is classical music",
+   "Norbert Wiener is hyperbolic geometry",
+   "Norbert Wiener is radioactivity",
+   "Norbert Wiener is belletristic literature",
+   "Norbert Wiener is model theory",
+   "Norbert Wiener is choreography",
+   "Norbert Wiener is chemistry",
+   "Norbert Wiener is literary activity",
+   "Norbert Wiener is historical sociology",
+   "Norbert Wiener is feminism",
+   "Norbert Wiener is economy",
+   "Norbert Wiener is astronomy",
+   "Norbert Wiener is topology",
+   "Norbert Wiener is translations from English",
+   "Norbert Wiener is partial differential equation",
+   "Norbert Wiener is Cairo Geniza",
+   "Norbert Wiener is nuclear physics",
+   "Norbert Wiener is dance",
+   "Norbert Wiener is informatics",
+   "Norbert Wiener is geometry",
+   "Norbert Wiener is computational geometry",
+   "Norbert Wiener is Sanskrit",
+   "Norbert Wiener is magnetism",
+   "Norbert Wiener is opera",
+   "Norbert Wiener is algebraic topology",
+   "Norbert Wiener is quaternion",
+   "Norbert Wiener is Bayesian inference",
+   "Norbert Wiener is quantum electrodynamics",
+   "Norbert Wiener is religion and society",
+   "Norbert Wiener is history of economic thought",
+   "Norbert Wiener is translations from Polish",
+   "Norbert Wiener is literary translation",
+   "Norbert Wiener is lyric poetry",
+   "Norbert Wiener is probability theory",
+   "Norbert Wiener is ontology",
+   "Norbert Wiener is aerodynamics",
+   "Norbert Wiener is crystallography",
+   "Norbert Wiener is mathematics",
+   "Norbert Wiener is harmonic analysis",
+   "Norbert Wiener is history of science",
+   "Norbert Wiener is philosophy of law",
+   "Norbert Wiener is philology",
+   "Norbert Wiener is optics",
+   "Norbert Wiener is functional analysis",
+   "Norbert Wiener is surgery",
+   "Norbert Wiener is complex function",
+   "Norbert Wiener is Jewish philosophy",
+   "Norbert Wiener is translations from Spanish",
+   "Norbert Wiener is poetry",
+   "Norbert Wiener is distribution",
+   "Norbert Wiener is astrology",
+   "Norbert Wiener is differential geometry",
+   "Norbert Wiener is mechanics",
+   "Norbert Wiener is positivism",
+   "Norbert Wiener is ferromagnetism",
+   "Norbert Wiener is quantum physics",
+   "Norbert Wiener is music theory",
+   "Norbert Wiener is physiology",
+   "Norbert Wiener is theory of differential equations",
+   "Norbert Wiener is astrophysics",
+   "Norbert Wiener is number theory",
+   "Norbert Wiener is magnetic field",
+   "Norbert Wiener is historical novel",
+   "Norbert Wiener is stochastic",
+   "Norbert Wiener is philosopher",
+   "Norbert Wiener is histology",
+   "Norbert Wiener is Franciscan spirituality",
+   "Norbert Wiener is electromagnetic field",
+   "Norbert Wiener is medicine",
+   "Norbert Wiener is algebraic geometry",
+   "Norbert Wiener is comparative mythology",
+   "Norbert Wiener is color photography",
+   "Norbert Wiener is cryptography",
+   "Norbert Wiener is Christian Church",
+   "Norbert Wiener is electrical engineering",
+   "Norbert Wiener is folklore",
+   "Norbert Wiener is mythology",
+   "Norbert Wiener is human geography",
+   "Norbert Wiener is Petrine ministry",
+   "Norbert Wiener is Judaism",
+   "Norbert Wiener is group theory",
+   "Norbert Wiener is non-Euclidean geometry",
+   "Norbert Wiener is algebra",
+   "Norbert Wiener is ballistics",
+   "Norbert Wiener is mathematician",
+   "Norbert Wiener is applied physics",
+   "Norbert Wiener is culturology",
+   "Norbert Wiener is calculus of variations",
+   "Norbert Wiener is logic",
+   "Norbert Wiener is engineering",
+   "Norbert Wiener is translations from Occitan",
+   "Norbert Wiener is anatomy",
+   "Norbert Wiener is forestry science",
+   "Norbert Wiener is magic",
+   "Norbert Wiener is quantum mechanics",
+   "Norbert Wiener is differential calculus",
+   "Norbert Wiener is shipbuilding",
+   "Norbert Wiener is convex function",
+   "Norbert Wiener is analytic philosophy",
+   "Norbert Wiener is magnetic resonance",
+   "Norbert Wiener is detective literature",
+   "Norbert Wiener is cartography",
+   "Norbert Wiener is sociology of organisations",
+   "Norbert Wiener is crime novel",
+   "Norbert Wiener is gravity",
+   "Norbert Wiener is statistics",
+   "Norbert Wiener is Greek philology",
+   "Norbert Wiener is analytic number theory",
+   "Norbert Wiener is trigonometry",
+   "Norbert Wiener is physics",
+   "Norbert Wiener is astronomer",
+   "Norbert Wiener is natural science",
+   "Norbert Wiener is information technology",
+   "Norbert Wiener is conducting",
+   "Norbert Wiener is nonstandard analysis",
+   "Norbert Wiener is mathematical analysis",
+   "Norbert Wiener is a branch of physics",
+   "Norbert Wiener is projective geometry",
+   "Norbert Wiener is civil rights",
+   "Norbert Wiener is children's and youth literature",
+   "Norbert Wiener is embryology",
+   "Norbert Wiener is momentum",
+   "Norbert Wiener is African studies",
+   "Norbert Wiener is fairy tale",
+   "Norbert Wiener is classics",
+   "Norbert Wiener is social psychology",
+   "Norbert Wiener is Jewish studies",
+   "Norbert Wiener is silviculture",
+   "Norbert Wiener is education",
+   "Norbert Wiener is literature",
+   "Norbert Wiener is constitutional law",
+   "Norbert Wiener is radiation",
+   "Norbert Wiener is Internet",
+   "Norbert Wiener is heat",
+   "Norbert Wiener is mechanical engineering",
+   "Norbert Wiener is forestry",
+   "Norbert Wiener is jazz",
+   "Norbert Wiener is social philosophy",
+   "Norbert Wiener is mathematical physics",
+   "Norbert Wiener is meteorology",
+   "Norbert Wiener is translations from Arabic language",
+   "Norbert Wiener is quantum mysticism",
+   "Norbert Wiener is politics",
+   "Norbert Wiener is astronomical observation",
+   "Norbert Wiener is myth",
+   "Norbert Wiener is geography",
+   "Norbert Wiener is sociology of religion",
+   "Norbert Wiener is comparative religion",
+   "Norbert Wiener is Greek",
+   "Norbert Wiener is Lie algebra",
+   "Norbert Wiener is complex manifold",
+   "Norbert Wiener is journalism",
+   "Norbert Wiener is celestial mechanics",
+   "Norbert Wiener is String",
+   "Norbert Wiener is mathematical logic",
+   "Norbert Wiener is aeromechanics",
+   "Norbert Wiener is English",
+   "Norbert Wiener is history",
+   "Norbert Wiener is study of history",
+   "Norbert Wiener is genetics",
+   "Norbert Wiener is psychology",
+   "Norbert Wiener is theory of relativity",
+   "Norbert Wiener is biochemistry",
+   "Norbert Wiener is ballet",
+   "Norbert Wiener is electricity",
+   "Norbert Wiener is experimental physics",
+   "Norbert Wiener is natural theology",
+   "Norbert Wiener is Hebrew",
+   "Norbert Wiener is prose",
+   "Norbert Wiener is paleontology",
+   "Norbert Wiener is Monte Carlo method",
+   "Norbert Wiener is quantum theory",
+   "Norbert Wiener is computer science",
+   "Norbert Wiener is cybernetics",
+   "Norbert Wiener is Afghanistan",
+   "Norbert Wiener is philosophy of science",
+   "Norbert Wiener is literary theory",
+   "Norbert Wiener is electric field",
+   "Norbert Wiener is religion",
+   "Norbert Wiener is analytic geometry",
+   "Norbert Wiener is graph theory",
+   "Norbert Wiener is electron",
+   "Norbert Wiener is anthropology",
+   "Norbert Wiener is social anthropology",
+   "Norbert Wiener is sociology",
+   "Norbert Wiener is geodesy",
+   "Norbert Wiener is neurology",
+   "Norbert Wiener is drama",
+   "Norbert Wiener is art of painting",
+   "Norbert Wiener is applied mathematics",
+   "Norbert Wiener is world economy",
+   "Norbert Wiener is economic anthropology",
+   "Norbert Wiener's field of work is abstract algebra",
+   "Norbert Wiener's field of work is theology",
+   "Norbert Wiener's field of work is television program",
+   "Norbert Wiener's field of work is nanotechnology",
+   "Norbert Wiener's field of work is hydrodynamics",
+   "Norbert Wiener's field of work is ethics",
+   "Norbert Wiener's field of work is physicist",
+   "Norbert Wiener's field of work is evolution",
+   "Norbert Wiener's field of work is distribution theory",
+   "Norbert Wiener's field of work is psychophysiology",
+   "Norbert Wiener's field of work is English literature",
+   "Norbert Wiener's field of work is theoretical physics",
+   "Norbert Wiener's field of work is essay",
+   "Norbert Wiener's field of work is ethnology",
+   "Norbert Wiener's field of work is pedagogy",
+   "Norbert Wiener's field of work is kinetic theory",
+   "Norbert Wiener's field of work is ethnography",
+   "Norbert Wiener's field of work is rite",
+   "Norbert Wiener's field of work is economics",
+   "Norbert Wiener's field of work is dance choreography",
+   "Norbert Wiener's field of work is biological anthropology",
+   "Norbert Wiener's field of work is history of religions",
+   "Norbert Wiener's field of work is political philosophy",
+   "Norbert Wiener's field of work is philosophy",
+   "Norbert Wiener's field of work is linguistics",
+   "Norbert Wiener's field of work is cosmology",
+   "Norbert Wiener's field of work is hunting",
+   "Norbert Wiener's field of work is Minkowski spacetime",
+   "Norbert Wiener's field of work is classical music",
+   "Norbert Wiener's field of work is hyperbolic geometry",
+   "Norbert Wiener's field of work is radioactivity",
+   "Norbert Wiener's field of work is belletristic literature",
+   "Norbert Wiener's field of work is model theory",
+   "Norbert Wiener's field of work is choreography",
+   "Norbert Wiener's field of work is chemistry",
+   "Norbert Wiener's field of work is literary activity",
+   "Norbert Wiener's field of work is historical sociology",
+   "Norbert Wiener's field of work is feminism",
+   "Norbert Wiener's field of work is economy",
+   "Norbert Wiener's field of work is astronomy",
+   "Norbert Wiener's field of work is topology",
+   "Norbert Wiener's field of work is translations from English",
+   "Norbert Wiener's field of work is partial differential equation",
+   "Norbert Wiener's field of work is Cairo Geniza",
+   "Norbert Wiener's field of work is nuclear physics",
+   "Norbert Wiener's field of work is dance",
+   "Norbert Wiener's field of work is informatics",
+   "Norbert Wiener's field of work is geometry",
+   "Norbert Wiener's field of work is computational geometry",
+   "Norbert Wiener's field of work is Sanskrit",
+   "Norbert Wiener's field of work is magnetism",
+   "Norbert Wiener's field of work is opera",
+   "Norbert Wiener's field of work is algebraic topology",
+   "Norbert Wiener's field of work is quaternion",
+   "Norbert Wiener's field of work is Bayesian inference",
+   "Norbert Wiener's field of work is quantum electrodynamics",
+   "Norbert Wiener's field of work is religion and society",
+   "Norbert Wiener's field of work is history of economic thought",
+   "Norbert Wiener's field of work is translations from Polish",
+   "Norbert Wiener's field of work is literary translation",
+   "Norbert Wiener's field of work is lyric poetry",
+   "Norbert Wiener's field of work is probability theory",
+   "Norbert Wiener's field of work is ontology",
+   "Norbert Wiener's field of work is aerodynamics",
+   "Norbert Wiener's field of work is crystallography",
+   "Norbert Wiener's field of work is mathematics",
+   "Norbert Wiener's field of work is harmonic analysis",
+   "Norbert Wiener's field of work is history of science",
+   "Norbert Wiener's field of work is philosophy of law",
+   "Norbert Wiener's field of work is philology",
+   "Norbert Wiener's field of work is optics",
+   "Norbert Wiener's field of work is functional analysis",
+   "Norbert Wiener's field of work is surgery",
+   "Norbert Wiener's field of work is complex function",
+   "Norbert Wiener's field of work is Jewish philosophy",
+   "Norbert Wiener's field of work is translations from Spanish",
+   "Norbert Wiener's field of work is poetry",
+   "Norbert Wiener's field of work is distribution",
+   "Norbert Wiener's field of work is astrology",
+   "Norbert Wiener's field of work is differential geometry",
+   "Norbert Wiener's field of work is mechanics",
+   "Norbert Wiener's field of work is positivism",
+   "Norbert Wiener's field of work is ferromagnetism",
+   "Norbert Wiener's field of work is quantum physics",
+   "Norbert Wiener's field of work is music theory",
+   "Norbert Wiener's field of work is physiology",
+   "Norbert Wiener's field of work is theory of differential equations",
+   "Norbert Wiener's field of work is astrophysics",
+   "Norbert Wiener's field of work is number theory",
+   "Norbert Wiener's field of work is magnetic field",
+   "Norbert Wiener's field of work is historical novel",
+   "Norbert Wiener's field of work is stochastic",
+   "Norbert Wiener's field of work is philosopher",
+   "Norbert Wiener's field of work is histology",
+   "Norbert Wiener's field of work is Franciscan spirituality",
+   "Norbert Wiener's field of work is electromagnetic field",
+   "Norbert Wiener's field of work is medicine",
+   "Norbert Wiener's field of work is algebraic geometry",
+   "Norbert Wiener's field of work is comparative mythology",
+   "Norbert Wiener's field of work is color photography",
+   "Norbert Wiener's field of work is cryptography",
+   "Norbert Wiener's field of work is Christian Church",
+   "Norbert Wiener's field of work is electrical engineering",
+   "Norbert Wiener's field of work is folklore",
+   "Norbert Wiener's field of work is mythology",
+   "Norbert Wiener's field of work is human geography",
+   "Norbert Wiener's field of work is Petrine ministry",
+   "Norbert Wiener's field of work is Judaism",
+   "Norbert Wiener's field of work is group theory",
+   "Norbert Wiener's field of work is non-Euclidean geometry",
+   "Norbert Wiener's field of work is algebra",
+   "Norbert Wiener's field of work is ballistics",
+   "Norbert Wiener's field of work is mathematician",
+   "Norbert Wiener's field of work is applied physics",
+   "Norbert Wiener's field of work is culturology",
+   "Norbert Wiener's field of work is calculus of variations",
+   "Norbert Wiener's field of work is logic",
+   "Norbert Wiener's field of work is engineering",
+   "Norbert Wiener's field of work is translations from Occitan",
+   "Norbert Wiener's field of work is anatomy",
+   "Norbert Wiener's field of work is forestry science",
+   "Norbert Wiener's field of work is magic",
+   "Norbert Wiener's field of work is quantum mechanics",
+   "Norbert Wiener's field of work is differential calculus",
+   "Norbert Wiener's field of work is shipbuilding",
+   "Norbert Wiener's field of work is convex function",
+   "Norbert Wiener's field of work is analytic philosophy",
+   "Norbert Wiener's field of work is magnetic resonance",
+   "Norbert Wiener's field of work is detective literature",
+   "Norbert Wiener's field of work is cartography",
+   "Norbert Wiener's field of work is sociology of organisations",
+   "Norbert Wiener's field of work is crime novel",
+   "Norbert Wiener's field of work is gravity",
+   "Norbert Wiener's field of work is statistics",
+   "Norbert Wiener's field of work is Greek philology",
+   "Norbert Wiener's field of work is analytic number theory",
+   "Norbert Wiener's field of work is trigonometry",
+   "Norbert Wiener's field of work is physics",
+   "Norbert Wiener's field of work is astronomer",
+   "Norbert Wiener's field of work is natural science",
+   "Norbert Wiener's field of work is information technology",
+   "Norbert Wiener's field of work is conducting",
+   "Norbert Wiener's field of work is nonstandard analysis",
+   "Norbert Wiener's field of work is mathematical analysis",
+   "Norbert Wiener's field of work is a branch of physics",
+   "Norbert Wiener's field of work is projective geometry",
+   "Norbert Wiener's field of work is civil rights",
+   "Norbert Wiener's field of work is children's and youth literature",
+   "Norbert Wiener's field of work is embryology",
+   "Norbert Wiener's field of work is momentum",
+   "Norbert Wiener's field of work is African studies",
+   "Norbert Wiener's field of work is fairy tale",
+   "Norbert Wiener's field of work is classics",
+   "Norbert Wiener's field of work is social psychology",
+   "Norbert Wiener's field of work is Jewish studies",
+   "Norbert Wiener's field of work is silviculture",
+   "Norbert Wiener's field of work is education",
+   "Norbert Wiener's field of work is literature",
+   "Norbert Wiener's field of work is constitutional law",
+   "Norbert Wiener's field of work is radiation",
+   "Norbert Wiener's field of work is Internet",
+   "Norbert Wiener's field of work is heat",
+   "Norbert Wiener's field of work is mechanical engineering",
+   "Norbert Wiener's field of work is forestry",
+   "Norbert Wiener's field of work is jazz",
+   "Norbert Wiener's field of work is social philosophy",
+   "Norbert Wiener's field of work is mathematical physics",
+   "Norbert Wiener's field of work is meteorology",
+   "Norbert Wiener's field of work is translations from Arabic language",
+   "Norbert Wiener's field of work is quantum mysticism",
+   "Norbert Wiener's field of work is politics",
+   "Norbert Wiener's field of work is astronomical observation",
+   "Norbert Wiener's field of work is myth",
+   "Norbert Wiener's field of work is geography",
+   "Norbert Wiener's field of work is sociology of religion",
+   "Norbert Wiener's field of work is comparative religion",
+   "Norbert Wiener's field of work is Greek",
+   "Norbert Wiener's field of work is Lie algebra",
+   "Norbert Wiener's field of work is complex manifold",
+   "Norbert Wiener's field of work is journalism",
+   "Norbert Wiener's field of work is celestial mechanics",
+   "Norbert Wiener's field of work is String",
+   "Norbert Wiener's field of work is mathematical logic",
+   "Norbert Wiener's field of work is aeromechanics",
+   "Norbert Wiener's field of work is English",
+   "Norbert Wiener's field of work is history",
+   "Norbert Wiener's field of work is study of history",
+   "Norbert Wiener's field of work is genetics",
+   "Norbert Wiener's field of work is psychology",
+   "Norbert Wiener's field of work is theory of relativity",
+   "Norbert Wiener's field of work is biochemistry",
+   "Norbert Wiener's field of work is ballet",
+   "Norbert Wiener's field of work is electricity",
+   "Norbert Wiener's field of work is experimental physics",
+   "Norbert Wiener's field of work is natural theology",
+   "Norbert Wiener's field of work is Hebrew",
+   "Norbert Wiener's field of work is prose",
+   "Norbert Wiener's field of work is paleontology",
+   "Norbert Wiener's field of work is Monte Carlo method",
+   "Norbert Wiener's field of work is quantum theory",
+   "Norbert Wiener's field of work is computer science",
+   "Norbert Wiener's field of work is cybernetics",
+   "Norbert Wiener's field of work is Afghanistan",
+   "Norbert Wiener's field of work is philosophy of science",
+   "Norbert Wiener's field of work is literary theory",
+   "Norbert Wiener's field of work is electric field",
+   "Norbert Wiener's field of work is religion",
+   "Norbert Wiener's field of work is analytic geometry",
+   "Norbert Wiener's field of work is graph theory",
+   "Norbert Wiener's field of work is electron",
+   "Norbert Wiener's field of work is anthropology",
+   "Norbert Wiener's field of work is social anthropology",
+   "Norbert Wiener's field of work is sociology",
+   "Norbert Wiener's field of work is geodesy",
+   "Norbert Wiener's field of work is neurology",
+   "Norbert Wiener's field of work is drama",
+   "Norbert Wiener's field of work is art of painting",
+   "Norbert Wiener's field of work is applied mathematics",
+   "Norbert Wiener's field of work is world economy",
+   "Norbert Wiener's field of work is economic anthropology"
+  ],
+  [
+   [
+    -42.18906784057617
+   ],
+   [
+    -36.98659896850586
+   ],
+   [
+    -40.5550422668457
+   ],
+   [
+    -36.729331970214844
+   ],
+   [
+    -39.18144607543945
+   ],
+   [
+    -35.565673828125
+   ],
+   [
+    -31.482574462890625
+   ],
+   [
+    -34.04088592529297
+   ],
+   [
+    -43.89755630493164
+   ],
+   [
+    -39.326568603515625
+   ],
+   [
+    -38.162113189697266
+   ],
+   [
+    -39.61423110961914
+   ],
+   [
+    -34.06402587890625
+   ],
+   [
+    -39.012027740478516
+   ],
+   [
+    -39.413299560546875
+   ],
+   [
+    -41.024131774902344
+   ],
+   [
+    -38.92042922973633
+   ],
+   [
+    -38.39856719970703
+   ],
+   [
+    -34.099327087402344
+   ],
+   [
+    -44.66089630126953
+   ],
+   [
+    -38.399375915527344
+   ],
+   [
+    -44.09394836425781
+   ],
+   [
+    -38.61119079589844
+   ],
+   [
+    -33.17936325073242
+   ],
+   [
+    -37.08341979980469
+   ],
+   [
+    -37.02202224731445
+   ],
+   [
+    -33.858299255371094
+   ],
+   [
+    -49.35906219482422
+   ],
+   [
+    -36.19704818725586
+   ],
+   [
+    -47.31877517700195
+   ],
+   [
+    -40.0178337097168
+   ],
+   [
+    -44.84073257446289
+   ],
+   [
+    -45.486141204833984
+   ],
+   [
+    -41.45383834838867
+   ],
+   [
+    -35.62458801269531
+   ],
+   [
+    -45.733219146728516
+   ],
+   [
+    -40.40672302246094
+   ],
+   [
+    -37.67831802368164
+   ],
+   [
+    -36.262481689453125
+   ],
+   [
+    -36.14332580566406
+   ],
+   [
+    -36.447628021240234
+   ],
+   [
+    -45.314422607421875
+   ],
+   [
+    -40.80260467529297
+   ],
+   [
+    -48.82821273803711
+   ],
+   [
+    -39.72639083862305
+   ],
+   [
+    -36.05039978027344
+   ],
+   [
+    -33.76601791381836
+   ],
+   [
+    -36.36091613769531
+   ],
+   [
+    -42.5986442565918
+   ],
+   [
+    -35.54019546508789
+   ],
+   [
+    -38.873008728027344
+   ],
+   [
+    -35.195892333984375
+   ],
+   [
+    -40.419471740722656
+   ],
+   [
+    -40.427040100097656
+   ],
+   [
+    -41.815093994140625
+   ],
+   [
+    -42.41923522949219
+   ],
+   [
+    -42.76853942871094
+   ],
+   [
+    -44.0557746887207
+   ],
+   [
+    -47.38291549682617
+   ],
+   [
+    -43.89506530761719
+   ],
+   [
+    -42.035377502441406
+   ],
+   [
+    -38.24609375
+   ],
+   [
+    -38.028995513916016
+   ],
+   [
+    -40.97142791748047
+   ],
+   [
+    -40.824920654296875
+   ],
+   [
+    -32.174530029296875
+   ],
+   [
+    -39.05487823486328
+   ],
+   [
+    -36.423309326171875
+   ],
+   [
+    -43.49238586425781
+   ],
+   [
+    -38.466854095458984
+   ],
+   [
+    -38.1772346496582
+   ],
+   [
+    -38.82444763183594
+   ],
+   [
+    -36.800819396972656
+   ],
+   [
+    -43.513816833496094
+   ],
+   [
+    -41.925594329833984
+   ],
+   [
+    -47.98955154418945
+   ],
+   [
+    -35.76041030883789
+   ],
+   [
+    -38.258819580078125
+   ],
+   [
+    -38.6443977355957
+   ],
+   [
+    -41.163490295410156
+   ],
+   [
+    -38.320648193359375
+   ],
+   [
+    -36.037384033203125
+   ],
+   [
+    -43.67304992675781
+   ],
+   [
+    -37.87529754638672
+   ],
+   [
+    -38.196449279785156
+   ],
+   [
+    -36.68165969848633
+   ],
+   [
+    -44.615013122558594
+   ],
+   [
+    -36.64191436767578
+   ],
+   [
+    -40.03670120239258
+   ],
+   [
+    -39.250038146972656
+   ],
+   [
+    -37.02604293823242
+   ],
+   [
+    -38.63593673706055
+   ],
+   [
+    -31.540098190307617
+   ],
+   [
+    -39.55727767944336
+   ],
+   [
+    -49.08981704711914
+   ],
+   [
+    -38.84135437011719
+   ],
+   [
+    -34.851436614990234
+   ],
+   [
+    -39.610328674316406
+   ],
+   [
+    -42.04160690307617
+   ],
+   [
+    -42.67509841918945
+   ],
+   [
+    -37.31836700439453
+   ],
+   [
+    -40.32774353027344
+   ],
+   [
+    -33.956703186035156
+   ],
+   [
+    -36.46451187133789
+   ],
+   [
+    -36.785091400146484
+   ],
+   [
+    -41.62324523925781
+   ],
+   [
+    -55.041709899902344
+   ],
+   [
+    -38.714088439941406
+   ],
+   [
+    -39.600379943847656
+   ],
+   [
+    -39.131893157958984
+   ],
+   [
+    -37.38628387451172
+   ],
+   [
+    -38.905235290527344
+   ],
+   [
+    -31.536266326904297
+   ],
+   [
+    -38.60118103027344
+   ],
+   [
+    -40.50865936279297
+   ],
+   [
+    -43.048851013183594
+   ],
+   [
+    -35.78510284423828
+   ],
+   [
+    -32.73009490966797
+   ],
+   [
+    -53.99066162109375
+   ],
+   [
+    -36.93572998046875
+   ],
+   [
+    -46.99665832519531
+   ],
+   [
+    -34.091854095458984
+   ],
+   [
+    -37.62534713745117
+   ],
+   [
+    -40.483642578125
+   ],
+   [
+    -39.85029602050781
+   ],
+   [
+    -42.79582214355469
+   ],
+   [
+    -39.51191711425781
+   ],
+   [
+    -38.96221160888672
+   ],
+   [
+    -45.76749038696289
+   ],
+   [
+    -38.47206497192383
+   ],
+   [
+    -51.71549606323242
+   ],
+   [
+    -38.93511962890625
+   ],
+   [
+    -36.40338897705078
+   ],
+   [
+    -34.62299728393555
+   ],
+   [
+    -47.16108322143555
+   ],
+   [
+    -40.77167510986328
+   ],
+   [
+    -39.429443359375
+   ],
+   [
+    -33.325984954833984
+   ],
+   [
+    -34.11521911621094
+   ],
+   [
+    -36.195430755615234
+   ],
+   [
+    -35.934593200683594
+   ],
+   [
+    -31.910526275634766
+   ],
+   [
+    -43.05426788330078
+   ],
+   [
+    -39.075531005859375
+   ],
+   [
+    -37.944190979003906
+   ],
+   [
+    -39.75872039794922
+   ],
+   [
+    -37.07741165161133
+   ],
+   [
+    -46.73724365234375
+   ],
+   [
+    -40.0775146484375
+   ],
+   [
+    -37.79747009277344
+   ],
+   [
+    -42.65884780883789
+   ],
+   [
+    -39.62596130371094
+   ],
+   [
+    -35.08108139038086
+   ],
+   [
+    -39.459449768066406
+   ],
+   [
+    -39.4730224609375
+   ],
+   [
+    -44.54263687133789
+   ],
+   [
+    -34.0919189453125
+   ],
+   [
+    -33.95417022705078
+   ],
+   [
+    -39.27570724487305
+   ],
+   [
+    -35.664241790771484
+   ],
+   [
+    -32.59116744995117
+   ],
+   [
+    -37.0019416809082
+   ],
+   [
+    -36.273902893066406
+   ],
+   [
+    -41.899200439453125
+   ],
+   [
+    -33.886165618896484
+   ],
+   [
+    -39.72327423095703
+   ],
+   [
+    -38.907752990722656
+   ],
+   [
+    -37.02156066894531
+   ],
+   [
+    -53.55887985229492
+   ],
+   [
+    -43.929656982421875
+   ],
+   [
+    -36.338897705078125
+   ],
+   [
+    -44.12187194824219
+   ],
+   [
+    -31.96853256225586
+   ],
+   [
+    -36.53843688964844
+   ],
+   [
+    -45.14910125732422
+   ],
+   [
+    -41.93922424316406
+   ],
+   [
+    -34.5450553894043
+   ],
+   [
+    -44.01530838012695
+   ],
+   [
+    -45.352542877197266
+   ],
+   [
+    -35.36881637573242
+   ],
+   [
+    -42.090354919433594
+   ],
+   [
+    -35.05836486816406
+   ],
+   [
+    -35.2659912109375
+   ],
+   [
+    -44.23906707763672
+   ],
+   [
+    -32.967323303222656
+   ],
+   [
+    -30.066497802734375
+   ],
+   [
+    -41.83839797973633
+   ],
+   [
+    -35.68617248535156
+   ],
+   [
+    -34.355430603027344
+   ],
+   [
+    -43.89448928833008
+   ],
+   [
+    -37.84120559692383
+   ],
+   [
+    -38.411827087402344
+   ],
+   [
+    -37.35087585449219
+   ],
+   [
+    -40.16548538208008
+   ],
+   [
+    -44.677207946777344
+   ],
+   [
+    -35.476051330566406
+   ],
+   [
+    -37.15046691894531
+   ],
+   [
+    -36.71097946166992
+   ],
+   [
+    -42.511131286621094
+   ],
+   [
+    -39.563697814941406
+   ],
+   [
+    -32.10002136230469
+   ],
+   [
+    -31.212322235107422
+   ],
+   [
+    -37.14878845214844
+   ],
+   [
+    -37.196861267089844
+   ],
+   [
+    -41.62191390991211
+   ],
+   [
+    -42.66273880004883
+   ],
+   [
+    -35.16648864746094
+   ],
+   [
+    -41.77145004272461
+   ],
+   [
+    -38.485084533691406
+   ],
+   [
+    -32.37684631347656
+   ],
+   [
+    -34.678627014160156
+   ],
+   [
+    -41.522708892822266
+   ],
+   [
+    -35.68790817260742
+   ],
+   [
+    -41.48829650878906
+   ],
+   [
+    -37.71813201904297
+   ],
+   [
+    -35.40009689331055
+   ],
+   [
+    -46.21863555908203
+   ],
+   [
+    -35.53850555419922
+   ],
+   [
+    -42.484981536865234
+   ],
+   [
+    -40.79925537109375
+   ],
+   [
+    -47.65745544433594
+   ],
+   [
+    -48.58519744873047
+   ],
+   [
+    -55.12481689453125
+   ],
+   [
+    -47.69298553466797
+   ],
+   [
+    -49.06889343261719
+   ],
+   [
+    -45.551734924316406
+   ],
+   [
+    -49.942970275878906
+   ],
+   [
+    -43.929222106933594
+   ],
+   [
+    -51.112342834472656
+   ],
+   [
+    -48.87031555175781
+   ],
+   [
+    -49.75944519042969
+   ],
+   [
+    -46.724853515625
+   ],
+   [
+    -48.61949920654297
+   ],
+   [
+    -50.01228332519531
+   ],
+   [
+    -50.36988830566406
+   ],
+   [
+    -51.38159942626953
+   ],
+   [
+    -52.31098175048828
+   ],
+   [
+    -56.31422424316406
+   ],
+   [
+    -45.40251922607422
+   ],
+   [
+    -54.34880447387695
+   ],
+   [
+    -52.59063720703125
+   ],
+   [
+    -50.76233673095703
+   ],
+   [
+    -48.00841522216797
+   ],
+   [
+    -43.25916290283203
+   ],
+   [
+    -46.12550354003906
+   ],
+   [
+    -47.598777770996094
+   ],
+   [
+    -48.743316650390625
+   ],
+   [
+    -58.460723876953125
+   ],
+   [
+    -51.401702880859375
+   ],
+   [
+    -50.67317199707031
+   ],
+   [
+    -51.057579040527344
+   ],
+   [
+    -56.68266677856445
+   ],
+   [
+    -49.141693115234375
+   ],
+   [
+    -53.580810546875
+   ],
+   [
+    -47.759521484375
+   ],
+   [
+    -56.93495178222656
+   ],
+   [
+    -49.70354461669922
+   ],
+   [
+    -49.85999298095703
+   ],
+   [
+    -50.04194641113281
+   ],
+   [
+    -46.519927978515625
+   ],
+   [
+    -46.42595672607422
+   ],
+   [
+    -54.700340270996094
+   ],
+   [
+    -51.33125305175781
+   ],
+   [
+    -63.48348617553711
+   ],
+   [
+    -50.50360107421875
+   ],
+   [
+    -49.224769592285156
+   ],
+   [
+    -42.90495300292969
+   ],
+   [
+    -46.166526794433594
+   ],
+   [
+    -48.84624481201172
+   ],
+   [
+    -49.72682189941406
+   ],
+   [
+    -50.9722900390625
+   ],
+   [
+    -48.17189025878906
+   ],
+   [
+    -46.927772521972656
+   ],
+   [
+    -51.124847412109375
+   ],
+   [
+    -48.31365203857422
+   ],
+   [
+    -50.30608367919922
+   ],
+   [
+    -53.9368896484375
+   ],
+   [
+    -51.05413818359375
+   ],
+   [
+    -56.94379425048828
+   ],
+   [
+    -52.55207061767578
+   ],
+   [
+    -50.45011901855469
+   ],
+   [
+    -46.108314514160156
+   ],
+   [
+    -46.991493225097656
+   ],
+   [
+    -51.295440673828125
+   ],
+   [
+    -48.572391510009766
+   ],
+   [
+    -41.27009582519531
+   ],
+   [
+    -47.313201904296875
+   ],
+   [
+    -44.99702453613281
+   ],
+   [
+    -52.17298126220703
+   ],
+   [
+    -48.88511657714844
+   ],
+   [
+    -47.62957763671875
+   ],
+   [
+    -47.782806396484375
+   ],
+   [
+    -50.734283447265625
+   ],
+   [
+    -50.045249938964844
+   ],
+   [
+    -50.897613525390625
+   ],
+   [
+    -57.052860260009766
+   ],
+   [
+    -48.25074768066406
+   ],
+   [
+    -48.74604034423828
+   ],
+   [
+    -48.096900939941406
+   ],
+   [
+    -47.21826171875
+   ],
+   [
+    -46.83130645751953
+   ],
+   [
+    -49.636329650878906
+   ],
+   [
+    -52.00959014892578
+   ],
+   [
+    -48.487632751464844
+   ],
+   [
+    -50.478729248046875
+   ],
+   [
+    -47.088890075683594
+   ],
+   [
+    -55.37539291381836
+   ],
+   [
+    -46.69442367553711
+   ],
+   [
+    -45.91488265991211
+   ],
+   [
+    -52.20860290527344
+   ],
+   [
+    -52.346343994140625
+   ],
+   [
+    -45.64726638793945
+   ],
+   [
+    -48.787010192871094
+   ],
+   [
+    -50.0045166015625
+   ],
+   [
+    -58.84147262573242
+   ],
+   [
+    -51.21540069580078
+   ],
+   [
+    -47.72967529296875
+   ],
+   [
+    -49.44847106933594
+   ],
+   [
+    -52.97132873535156
+   ],
+   [
+    -56.09809112548828
+   ],
+   [
+    -45.97488784790039
+   ],
+   [
+    -54.87907409667969
+   ],
+   [
+    -41.38054656982422
+   ],
+   [
+    -49.45494842529297
+   ],
+   [
+    -48.856895446777344
+   ],
+   [
+    -52.193328857421875
+   ],
+   [
+    -65.52474975585938
+   ],
+   [
+    -50.97907257080078
+   ],
+   [
+    -47.045494079589844
+   ],
+   [
+    -50.89341735839844
+   ],
+   [
+    -47.16301727294922
+   ],
+   [
+    -48.71173858642578
+   ],
+   [
+    -46.18962860107422
+   ],
+   [
+    -50.173362731933594
+   ],
+   [
+    -54.60980224609375
+   ],
+   [
+    -47.85767364501953
+   ],
+   [
+    -43.957672119140625
+   ],
+   [
+    -42.470420837402344
+   ],
+   [
+    -63.132362365722656
+   ],
+   [
+    -47.290367126464844
+   ],
+   [
+    -54.69244384765625
+   ],
+   [
+    -48.11769104003906
+   ],
+   [
+    -47.90815734863281
+   ],
+   [
+    -49.04456329345703
+   ],
+   [
+    -51.49018096923828
+   ],
+   [
+    -56.49848175048828
+   ],
+   [
+    -46.1663818359375
+   ],
+   [
+    -48.4683837890625
+   ],
+   [
+    -57.598419189453125
+   ],
+   [
+    -49.94983673095703
+   ],
+   [
+    -56.7970085144043
+   ],
+   [
+    -58.397132873535156
+   ],
+   [
+    -50.14898681640625
+   ],
+   [
+    -43.72284698486328
+   ],
+   [
+    -54.59674072265625
+   ],
+   [
+    -46.959102630615234
+   ],
+   [
+    -50.36918640136719
+   ],
+   [
+    -44.66667175292969
+   ],
+   [
+    -51.88794708251953
+   ],
+   [
+    -43.89762878417969
+   ],
+   [
+    -43.20661163330078
+   ],
+   [
+    -47.60175323486328
+   ],
+   [
+    -49.28038024902344
+   ],
+   [
+    -44.20802307128906
+   ],
+   [
+    -48.61532211303711
+   ],
+   [
+    -47.03296661376953
+   ],
+   [
+    -49.61985778808594
+   ],
+   [
+    -57.892852783203125
+   ],
+   [
+    -47.02184295654297
+   ],
+   [
+    -50.719390869140625
+   ],
+   [
+    -52.57360076904297
+   ],
+   [
+    -53.09404754638672
+   ],
+   [
+    -49.175262451171875
+   ],
+   [
+    -47.62677764892578
+   ],
+   [
+    -50.82714080810547
+   ],
+   [
+    -53.31768798828125
+   ],
+   [
+    -46.516876220703125
+   ],
+   [
+    -46.268898010253906
+   ],
+   [
+    -49.85321807861328
+   ],
+   [
+    -46.97974395751953
+   ],
+   [
+    -46.063697814941406
+   ],
+   [
+    -49.155052185058594
+   ],
+   [
+    -45.290611267089844
+   ],
+   [
+    -50.23114013671875
+   ],
+   [
+    -49.852256774902344
+   ],
+   [
+    -48.6180419921875
+   ],
+   [
+    -45.73939895629883
+   ],
+   [
+    -46.218055725097656
+   ],
+   [
+    -62.8109130859375
+   ],
+   [
+    -54.89409255981445
+   ],
+   [
+    -46.570289611816406
+   ],
+   [
+    -55.39665985107422
+   ],
+   [
+    -47.17742156982422
+   ],
+   [
+    -48.14476013183594
+   ],
+   [
+    -51.619083404541016
+   ],
+   [
+    -52.33837127685547
+   ],
+   [
+    -49.550437927246094
+   ],
+   [
+    -52.09967803955078
+   ],
+   [
+    -52.45513153076172
+   ],
+   [
+    -48.529518127441406
+   ],
+   [
+    -48.48807144165039
+   ],
+   [
+    -49.54467010498047
+   ],
+   [
+    -43.08113098144531
+   ],
+   [
+    -55.627662658691406
+   ],
+   [
+    -47.69348907470703
+   ],
+   [
+    -42.3297119140625
+   ],
+   [
+    -53.63567352294922
+   ],
+   [
+    -45.607688903808594
+   ],
+   [
+    -45.03350067138672
+   ],
+   [
+    -52.84795379638672
+   ],
+   [
+    -48.48633575439453
+   ],
+   [
+    -51.030311584472656
+   ],
+   [
+    -47.5787353515625
+   ],
+   [
+    -51.89215850830078
+   ],
+   [
+    -53.75031280517578
+   ],
+   [
+    -50.254112243652344
+   ],
+   [
+    -50.90557098388672
+   ],
+   [
+    -49.40821838378906
+   ],
+   [
+    -52.328887939453125
+   ],
+   [
+    -49.17522430419922
+   ],
+   [
+    -40.232364654541016
+   ],
+   [
+    -39.592933654785156
+   ],
+   [
+    -52.125274658203125
+   ],
+   [
+    -45.104923248291016
+   ],
+   [
+    -51.9317626953125
+   ],
+   [
+    -54.14934539794922
+   ],
+   [
+    -47.64910888671875
+   ],
+   [
+    -49.590614318847656
+   ],
+   [
+    -47.19889831542969
+   ],
+   [
+    -43.08216857910156
+   ],
+   [
+    -45.193023681640625
+   ],
+   [
+    -52.148963928222656
+   ],
+   [
+    -43.66605758666992
+   ],
+   [
+    -49.24201965332031
+   ],
+   [
+    -47.30181884765625
+   ],
+   [
+    -49.579498291015625
+   ],
+   [
+    -56.50951385498047
+   ],
+   [
+    -42.72745895385742
+   ],
+   [
+    -55.111839294433594
+   ],
+   [
+    -53.96084213256836
+   ]
+  ]
+ ],
+ "time": 2803.695363521576
+}

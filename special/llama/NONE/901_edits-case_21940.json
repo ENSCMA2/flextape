@@ -1,0 +1,2076 @@
+{
+ "case_id": 21940,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Stephen Wolfram"
+ },
+ "pre": [
+  [
+   "Stephen Wolfram's field of work is abstract algebra",
+   "Stephen Wolfram's field of work is theology",
+   "Stephen Wolfram's field of work is television program",
+   "Stephen Wolfram's field of work is nanotechnology",
+   "Stephen Wolfram's field of work is hydrodynamics",
+   "Stephen Wolfram's field of work is ethics",
+   "Stephen Wolfram's field of work is physicist",
+   "Stephen Wolfram's field of work is evolution",
+   "Stephen Wolfram's field of work is distribution theory",
+   "Stephen Wolfram's field of work is psychophysiology",
+   "Stephen Wolfram's field of work is English literature",
+   "Stephen Wolfram's field of work is theoretical physics",
+   "Stephen Wolfram's field of work is essay",
+   "Stephen Wolfram's field of work is ethnology",
+   "Stephen Wolfram's field of work is pedagogy",
+   "Stephen Wolfram's field of work is kinetic theory",
+   "Stephen Wolfram's field of work is ethnography",
+   "Stephen Wolfram's field of work is rite",
+   "Stephen Wolfram's field of work is economics",
+   "Stephen Wolfram's field of work is dance choreography",
+   "Stephen Wolfram's field of work is biological anthropology",
+   "Stephen Wolfram's field of work is history of religions",
+   "Stephen Wolfram's field of work is political philosophy",
+   "Stephen Wolfram's field of work is philosophy",
+   "Stephen Wolfram's field of work is linguistics",
+   "Stephen Wolfram's field of work is cosmology",
+   "Stephen Wolfram's field of work is hunting",
+   "Stephen Wolfram's field of work is Minkowski spacetime",
+   "Stephen Wolfram's field of work is classical music",
+   "Stephen Wolfram's field of work is hyperbolic geometry",
+   "Stephen Wolfram's field of work is radioactivity",
+   "Stephen Wolfram's field of work is belletristic literature",
+   "Stephen Wolfram's field of work is model theory",
+   "Stephen Wolfram's field of work is choreography",
+   "Stephen Wolfram's field of work is chemistry",
+   "Stephen Wolfram's field of work is literary activity",
+   "Stephen Wolfram's field of work is historical sociology",
+   "Stephen Wolfram's field of work is feminism",
+   "Stephen Wolfram's field of work is economy",
+   "Stephen Wolfram's field of work is astronomy",
+   "Stephen Wolfram's field of work is topology",
+   "Stephen Wolfram's field of work is translations from English",
+   "Stephen Wolfram's field of work is partial differential equation",
+   "Stephen Wolfram's field of work is Cairo Geniza",
+   "Stephen Wolfram's field of work is nuclear physics",
+   "Stephen Wolfram's field of work is dance",
+   "Stephen Wolfram's field of work is informatics",
+   "Stephen Wolfram's field of work is geometry",
+   "Stephen Wolfram's field of work is computational geometry",
+   "Stephen Wolfram's field of work is Sanskrit",
+   "Stephen Wolfram's field of work is magnetism",
+   "Stephen Wolfram's field of work is opera",
+   "Stephen Wolfram's field of work is algebraic topology",
+   "Stephen Wolfram's field of work is quaternion",
+   "Stephen Wolfram's field of work is Bayesian inference",
+   "Stephen Wolfram's field of work is quantum electrodynamics",
+   "Stephen Wolfram's field of work is religion and society",
+   "Stephen Wolfram's field of work is history of economic thought",
+   "Stephen Wolfram's field of work is translations from Polish",
+   "Stephen Wolfram's field of work is literary translation",
+   "Stephen Wolfram's field of work is lyric poetry",
+   "Stephen Wolfram's field of work is probability theory",
+   "Stephen Wolfram's field of work is ontology",
+   "Stephen Wolfram's field of work is aerodynamics",
+   "Stephen Wolfram's field of work is crystallography",
+   "Stephen Wolfram's field of work is mathematics",
+   "Stephen Wolfram's field of work is harmonic analysis",
+   "Stephen Wolfram's field of work is history of science",
+   "Stephen Wolfram's field of work is philosophy of law",
+   "Stephen Wolfram's field of work is philology",
+   "Stephen Wolfram's field of work is optics",
+   "Stephen Wolfram's field of work is functional analysis",
+   "Stephen Wolfram's field of work is surgery",
+   "Stephen Wolfram's field of work is complex function",
+   "Stephen Wolfram's field of work is Jewish philosophy",
+   "Stephen Wolfram's field of work is translations from Spanish",
+   "Stephen Wolfram's field of work is poetry",
+   "Stephen Wolfram's field of work is distribution",
+   "Stephen Wolfram's field of work is astrology",
+   "Stephen Wolfram's field of work is differential geometry",
+   "Stephen Wolfram's field of work is mechanics",
+   "Stephen Wolfram's field of work is positivism",
+   "Stephen Wolfram's field of work is ferromagnetism",
+   "Stephen Wolfram's field of work is quantum physics",
+   "Stephen Wolfram's field of work is music theory",
+   "Stephen Wolfram's field of work is physiology",
+   "Stephen Wolfram's field of work is theory of differential equations",
+   "Stephen Wolfram's field of work is astrophysics",
+   "Stephen Wolfram's field of work is number theory",
+   "Stephen Wolfram's field of work is magnetic field",
+   "Stephen Wolfram's field of work is historical novel",
+   "Stephen Wolfram's field of work is stochastic",
+   "Stephen Wolfram's field of work is philosopher",
+   "Stephen Wolfram's field of work is histology",
+   "Stephen Wolfram's field of work is Franciscan spirituality",
+   "Stephen Wolfram's field of work is electromagnetic field",
+   "Stephen Wolfram's field of work is medicine",
+   "Stephen Wolfram's field of work is algebraic geometry",
+   "Stephen Wolfram's field of work is comparative mythology",
+   "Stephen Wolfram's field of work is color photography",
+   "Stephen Wolfram's field of work is cryptography",
+   "Stephen Wolfram's field of work is Christian Church",
+   "Stephen Wolfram's field of work is electrical engineering",
+   "Stephen Wolfram's field of work is folklore",
+   "Stephen Wolfram's field of work is mythology",
+   "Stephen Wolfram's field of work is human geography",
+   "Stephen Wolfram's field of work is Petrine ministry",
+   "Stephen Wolfram's field of work is Judaism",
+   "Stephen Wolfram's field of work is group theory",
+   "Stephen Wolfram's field of work is non-Euclidean geometry",
+   "Stephen Wolfram's field of work is algebra",
+   "Stephen Wolfram's field of work is ballistics",
+   "Stephen Wolfram's field of work is mathematician",
+   "Stephen Wolfram's field of work is applied physics",
+   "Stephen Wolfram's field of work is culturology",
+   "Stephen Wolfram's field of work is calculus of variations",
+   "Stephen Wolfram's field of work is logic",
+   "Stephen Wolfram's field of work is engineering",
+   "Stephen Wolfram's field of work is translations from Occitan",
+   "Stephen Wolfram's field of work is anatomy",
+   "Stephen Wolfram's field of work is forestry science",
+   "Stephen Wolfram's field of work is magic",
+   "Stephen Wolfram's field of work is quantum mechanics",
+   "Stephen Wolfram's field of work is differential calculus",
+   "Stephen Wolfram's field of work is shipbuilding",
+   "Stephen Wolfram's field of work is convex function",
+   "Stephen Wolfram's field of work is analytic philosophy",
+   "Stephen Wolfram's field of work is magnetic resonance",
+   "Stephen Wolfram's field of work is detective literature",
+   "Stephen Wolfram's field of work is cartography",
+   "Stephen Wolfram's field of work is sociology of organisations",
+   "Stephen Wolfram's field of work is crime novel",
+   "Stephen Wolfram's field of work is gravity",
+   "Stephen Wolfram's field of work is statistics",
+   "Stephen Wolfram's field of work is Greek philology",
+   "Stephen Wolfram's field of work is analytic number theory",
+   "Stephen Wolfram's field of work is trigonometry",
+   "Stephen Wolfram's field of work is physics",
+   "Stephen Wolfram's field of work is astronomer",
+   "Stephen Wolfram's field of work is natural science",
+   "Stephen Wolfram's field of work is information technology",
+   "Stephen Wolfram's field of work is conducting",
+   "Stephen Wolfram's field of work is nonstandard analysis",
+   "Stephen Wolfram's field of work is mathematical analysis",
+   "Stephen Wolfram's field of work is a branch of physics",
+   "Stephen Wolfram's field of work is projective geometry",
+   "Stephen Wolfram's field of work is civil rights",
+   "Stephen Wolfram's field of work is children's and youth literature",
+   "Stephen Wolfram's field of work is embryology",
+   "Stephen Wolfram's field of work is momentum",
+   "Stephen Wolfram's field of work is African studies",
+   "Stephen Wolfram's field of work is fairy tale",
+   "Stephen Wolfram's field of work is classics",
+   "Stephen Wolfram's field of work is social psychology",
+   "Stephen Wolfram's field of work is Jewish studies",
+   "Stephen Wolfram's field of work is silviculture",
+   "Stephen Wolfram's field of work is education",
+   "Stephen Wolfram's field of work is literature",
+   "Stephen Wolfram's field of work is constitutional law",
+   "Stephen Wolfram's field of work is radiation",
+   "Stephen Wolfram's field of work is Internet",
+   "Stephen Wolfram's field of work is heat",
+   "Stephen Wolfram's field of work is mechanical engineering",
+   "Stephen Wolfram's field of work is forestry",
+   "Stephen Wolfram's field of work is jazz",
+   "Stephen Wolfram's field of work is social philosophy",
+   "Stephen Wolfram's field of work is mathematical physics",
+   "Stephen Wolfram's field of work is meteorology",
+   "Stephen Wolfram's field of work is translations from Arabic language",
+   "Stephen Wolfram's field of work is quantum mysticism",
+   "Stephen Wolfram's field of work is politics",
+   "Stephen Wolfram's field of work is astronomical observation",
+   "Stephen Wolfram's field of work is myth",
+   "Stephen Wolfram's field of work is geography",
+   "Stephen Wolfram's field of work is sociology of religion",
+   "Stephen Wolfram's field of work is comparative religion",
+   "Stephen Wolfram's field of work is Greek",
+   "Stephen Wolfram's field of work is Lie algebra",
+   "Stephen Wolfram's field of work is complex manifold",
+   "Stephen Wolfram's field of work is journalism",
+   "Stephen Wolfram's field of work is celestial mechanics",
+   "Stephen Wolfram's field of work is String",
+   "Stephen Wolfram's field of work is mathematical logic",
+   "Stephen Wolfram's field of work is aeromechanics",
+   "Stephen Wolfram's field of work is English",
+   "Stephen Wolfram's field of work is history",
+   "Stephen Wolfram's field of work is study of history",
+   "Stephen Wolfram's field of work is genetics",
+   "Stephen Wolfram's field of work is psychology",
+   "Stephen Wolfram's field of work is theory of relativity",
+   "Stephen Wolfram's field of work is biochemistry",
+   "Stephen Wolfram's field of work is ballet",
+   "Stephen Wolfram's field of work is electricity",
+   "Stephen Wolfram's field of work is experimental physics",
+   "Stephen Wolfram's field of work is natural theology",
+   "Stephen Wolfram's field of work is Hebrew",
+   "Stephen Wolfram's field of work is prose",
+   "Stephen Wolfram's field of work is paleontology",
+   "Stephen Wolfram's field of work is Monte Carlo method",
+   "Stephen Wolfram's field of work is quantum theory",
+   "Stephen Wolfram's field of work is computer science",
+   "Stephen Wolfram's field of work is cybernetics",
+   "Stephen Wolfram's field of work is Afghanistan",
+   "Stephen Wolfram's field of work is philosophy of science",
+   "Stephen Wolfram's field of work is literary theory",
+   "Stephen Wolfram's field of work is electric field",
+   "Stephen Wolfram's field of work is religion",
+   "Stephen Wolfram's field of work is analytic geometry",
+   "Stephen Wolfram's field of work is graph theory",
+   "Stephen Wolfram's field of work is electron",
+   "Stephen Wolfram's field of work is anthropology",
+   "Stephen Wolfram's field of work is social anthropology",
+   "Stephen Wolfram's field of work is sociology",
+   "Stephen Wolfram's field of work is geodesy",
+   "Stephen Wolfram's field of work is neurology",
+   "Stephen Wolfram's field of work is drama",
+   "Stephen Wolfram's field of work is art of painting",
+   "Stephen Wolfram's field of work is applied mathematics",
+   "Stephen Wolfram's field of work is world economy",
+   "Stephen Wolfram's field of work is economic anthropology",
+   "Stephen Wolfram is abstract algebra",
+   "Stephen Wolfram is theology",
+   "Stephen Wolfram is television program",
+   "Stephen Wolfram is nanotechnology",
+   "Stephen Wolfram is hydrodynamics",
+   "Stephen Wolfram is ethics",
+   "Stephen Wolfram is physicist",
+   "Stephen Wolfram is evolution",
+   "Stephen Wolfram is distribution theory",
+   "Stephen Wolfram is psychophysiology",
+   "Stephen Wolfram is English literature",
+   "Stephen Wolfram is theoretical physics",
+   "Stephen Wolfram is essay",
+   "Stephen Wolfram is ethnology",
+   "Stephen Wolfram is pedagogy",
+   "Stephen Wolfram is kinetic theory",
+   "Stephen Wolfram is ethnography",
+   "Stephen Wolfram is rite",
+   "Stephen Wolfram is economics",
+   "Stephen Wolfram is dance choreography",
+   "Stephen Wolfram is biological anthropology",
+   "Stephen Wolfram is history of religions",
+   "Stephen Wolfram is political philosophy",
+   "Stephen Wolfram is philosophy",
+   "Stephen Wolfram is linguistics",
+   "Stephen Wolfram is cosmology",
+   "Stephen Wolfram is hunting",
+   "Stephen Wolfram is Minkowski spacetime",
+   "Stephen Wolfram is classical music",
+   "Stephen Wolfram is hyperbolic geometry",
+   "Stephen Wolfram is radioactivity",
+   "Stephen Wolfram is belletristic literature",
+   "Stephen Wolfram is model theory",
+   "Stephen Wolfram is choreography",
+   "Stephen Wolfram is chemistry",
+   "Stephen Wolfram is literary activity",
+   "Stephen Wolfram is historical sociology",
+   "Stephen Wolfram is feminism",
+   "Stephen Wolfram is economy",
+   "Stephen Wolfram is astronomy",
+   "Stephen Wolfram is topology",
+   "Stephen Wolfram is translations from English",
+   "Stephen Wolfram is partial differential equation",
+   "Stephen Wolfram is Cairo Geniza",
+   "Stephen Wolfram is nuclear physics",
+   "Stephen Wolfram is dance",
+   "Stephen Wolfram is informatics",
+   "Stephen Wolfram is geometry",
+   "Stephen Wolfram is computational geometry",
+   "Stephen Wolfram is Sanskrit",
+   "Stephen Wolfram is magnetism",
+   "Stephen Wolfram is opera",
+   "Stephen Wolfram is algebraic topology",
+   "Stephen Wolfram is quaternion",
+   "Stephen Wolfram is Bayesian inference",
+   "Stephen Wolfram is quantum electrodynamics",
+   "Stephen Wolfram is religion and society",
+   "Stephen Wolfram is history of economic thought",
+   "Stephen Wolfram is translations from Polish",
+   "Stephen Wolfram is literary translation",
+   "Stephen Wolfram is lyric poetry",
+   "Stephen Wolfram is probability theory",
+   "Stephen Wolfram is ontology",
+   "Stephen Wolfram is aerodynamics",
+   "Stephen Wolfram is crystallography",
+   "Stephen Wolfram is mathematics",
+   "Stephen Wolfram is harmonic analysis",
+   "Stephen Wolfram is history of science",
+   "Stephen Wolfram is philosophy of law",
+   "Stephen Wolfram is philology",
+   "Stephen Wolfram is optics",
+   "Stephen Wolfram is functional analysis",
+   "Stephen Wolfram is surgery",
+   "Stephen Wolfram is complex function",
+   "Stephen Wolfram is Jewish philosophy",
+   "Stephen Wolfram is translations from Spanish",
+   "Stephen Wolfram is poetry",
+   "Stephen Wolfram is distribution",
+   "Stephen Wolfram is astrology",
+   "Stephen Wolfram is differential geometry",
+   "Stephen Wolfram is mechanics",
+   "Stephen Wolfram is positivism",
+   "Stephen Wolfram is ferromagnetism",
+   "Stephen Wolfram is quantum physics",
+   "Stephen Wolfram is music theory",
+   "Stephen Wolfram is physiology",
+   "Stephen Wolfram is theory of differential equations",
+   "Stephen Wolfram is astrophysics",
+   "Stephen Wolfram is number theory",
+   "Stephen Wolfram is magnetic field",
+   "Stephen Wolfram is historical novel",
+   "Stephen Wolfram is stochastic",
+   "Stephen Wolfram is philosopher",
+   "Stephen Wolfram is histology",
+   "Stephen Wolfram is Franciscan spirituality",
+   "Stephen Wolfram is electromagnetic field",
+   "Stephen Wolfram is medicine",
+   "Stephen Wolfram is algebraic geometry",
+   "Stephen Wolfram is comparative mythology",
+   "Stephen Wolfram is color photography",
+   "Stephen Wolfram is cryptography",
+   "Stephen Wolfram is Christian Church",
+   "Stephen Wolfram is electrical engineering",
+   "Stephen Wolfram is folklore",
+   "Stephen Wolfram is mythology",
+   "Stephen Wolfram is human geography",
+   "Stephen Wolfram is Petrine ministry",
+   "Stephen Wolfram is Judaism",
+   "Stephen Wolfram is group theory",
+   "Stephen Wolfram is non-Euclidean geometry",
+   "Stephen Wolfram is algebra",
+   "Stephen Wolfram is ballistics",
+   "Stephen Wolfram is mathematician",
+   "Stephen Wolfram is applied physics",
+   "Stephen Wolfram is culturology",
+   "Stephen Wolfram is calculus of variations",
+   "Stephen Wolfram is logic",
+   "Stephen Wolfram is engineering",
+   "Stephen Wolfram is translations from Occitan",
+   "Stephen Wolfram is anatomy",
+   "Stephen Wolfram is forestry science",
+   "Stephen Wolfram is magic",
+   "Stephen Wolfram is quantum mechanics",
+   "Stephen Wolfram is differential calculus",
+   "Stephen Wolfram is shipbuilding",
+   "Stephen Wolfram is convex function",
+   "Stephen Wolfram is analytic philosophy",
+   "Stephen Wolfram is magnetic resonance",
+   "Stephen Wolfram is detective literature",
+   "Stephen Wolfram is cartography",
+   "Stephen Wolfram is sociology of organisations",
+   "Stephen Wolfram is crime novel",
+   "Stephen Wolfram is gravity",
+   "Stephen Wolfram is statistics",
+   "Stephen Wolfram is Greek philology",
+   "Stephen Wolfram is analytic number theory",
+   "Stephen Wolfram is trigonometry",
+   "Stephen Wolfram is physics",
+   "Stephen Wolfram is astronomer",
+   "Stephen Wolfram is natural science",
+   "Stephen Wolfram is information technology",
+   "Stephen Wolfram is conducting",
+   "Stephen Wolfram is nonstandard analysis",
+   "Stephen Wolfram is mathematical analysis",
+   "Stephen Wolfram is a branch of physics",
+   "Stephen Wolfram is projective geometry",
+   "Stephen Wolfram is civil rights",
+   "Stephen Wolfram is children's and youth literature",
+   "Stephen Wolfram is embryology",
+   "Stephen Wolfram is momentum",
+   "Stephen Wolfram is African studies",
+   "Stephen Wolfram is fairy tale",
+   "Stephen Wolfram is classics",
+   "Stephen Wolfram is social psychology",
+   "Stephen Wolfram is Jewish studies",
+   "Stephen Wolfram is silviculture",
+   "Stephen Wolfram is education",
+   "Stephen Wolfram is literature",
+   "Stephen Wolfram is constitutional law",
+   "Stephen Wolfram is radiation",
+   "Stephen Wolfram is Internet",
+   "Stephen Wolfram is heat",
+   "Stephen Wolfram is mechanical engineering",
+   "Stephen Wolfram is forestry",
+   "Stephen Wolfram is jazz",
+   "Stephen Wolfram is social philosophy",
+   "Stephen Wolfram is mathematical physics",
+   "Stephen Wolfram is meteorology",
+   "Stephen Wolfram is translations from Arabic language",
+   "Stephen Wolfram is quantum mysticism",
+   "Stephen Wolfram is politics",
+   "Stephen Wolfram is astronomical observation",
+   "Stephen Wolfram is myth",
+   "Stephen Wolfram is geography",
+   "Stephen Wolfram is sociology of religion",
+   "Stephen Wolfram is comparative religion",
+   "Stephen Wolfram is Greek",
+   "Stephen Wolfram is Lie algebra",
+   "Stephen Wolfram is complex manifold",
+   "Stephen Wolfram is journalism",
+   "Stephen Wolfram is celestial mechanics",
+   "Stephen Wolfram is String",
+   "Stephen Wolfram is mathematical logic",
+   "Stephen Wolfram is aeromechanics",
+   "Stephen Wolfram is English",
+   "Stephen Wolfram is history",
+   "Stephen Wolfram is study of history",
+   "Stephen Wolfram is genetics",
+   "Stephen Wolfram is psychology",
+   "Stephen Wolfram is theory of relativity",
+   "Stephen Wolfram is biochemistry",
+   "Stephen Wolfram is ballet",
+   "Stephen Wolfram is electricity",
+   "Stephen Wolfram is experimental physics",
+   "Stephen Wolfram is natural theology",
+   "Stephen Wolfram is Hebrew",
+   "Stephen Wolfram is prose",
+   "Stephen Wolfram is paleontology",
+   "Stephen Wolfram is Monte Carlo method",
+   "Stephen Wolfram is quantum theory",
+   "Stephen Wolfram is computer science",
+   "Stephen Wolfram is cybernetics",
+   "Stephen Wolfram is Afghanistan",
+   "Stephen Wolfram is philosophy of science",
+   "Stephen Wolfram is literary theory",
+   "Stephen Wolfram is electric field",
+   "Stephen Wolfram is religion",
+   "Stephen Wolfram is analytic geometry",
+   "Stephen Wolfram is graph theory",
+   "Stephen Wolfram is electron",
+   "Stephen Wolfram is anthropology",
+   "Stephen Wolfram is social anthropology",
+   "Stephen Wolfram is sociology",
+   "Stephen Wolfram is geodesy",
+   "Stephen Wolfram is neurology",
+   "Stephen Wolfram is drama",
+   "Stephen Wolfram is art of painting",
+   "Stephen Wolfram is applied mathematics",
+   "Stephen Wolfram is world economy",
+   "Stephen Wolfram is economic anthropology"
+  ],
+  [
+   [
+    -43.41021728515625
+   ],
+   [
+    -47.39208984375
+   ],
+   [
+    -53.89243698120117
+   ],
+   [
+    -43.77509307861328
+   ],
+   [
+    -46.391807556152344
+   ],
+   [
+    -47.04909896850586
+   ],
+   [
+    -41.2703971862793
+   ],
+   [
+    -42.371726989746094
+   ],
+   [
+    -49.56731414794922
+   ],
+   [
+    -51.232215881347656
+   ],
+   [
+    -47.33578109741211
+   ],
+   [
+    -36.0496940612793
+   ],
+   [
+    -46.777713775634766
+   ],
+   [
+    -51.39363479614258
+   ],
+   [
+    -49.96083068847656
+   ],
+   [
+    -47.66330337524414
+   ],
+   [
+    -50.3775749206543
+   ],
+   [
+    -54.104183197021484
+   ],
+   [
+    -42.62434768676758
+   ],
+   [
+    -54.387779235839844
+   ],
+   [
+    -53.14537811279297
+   ],
+   [
+    -55.40806198120117
+   ],
+   [
+    -47.76238250732422
+   ],
+   [
+    -42.22509765625
+   ],
+   [
+    -43.90011978149414
+   ],
+   [
+    -40.69355010986328
+   ],
+   [
+    -47.260650634765625
+   ],
+   [
+    -50.90673065185547
+   ],
+   [
+    -47.57892608642578
+   ],
+   [
+    -45.73628616333008
+   ],
+   [
+    -51.3419303894043
+   ],
+   [
+    -56.09337615966797
+   ],
+   [
+    -46.34870147705078
+   ],
+   [
+    -53.06853103637695
+   ],
+   [
+    -43.77756881713867
+   ],
+   [
+    -54.496490478515625
+   ],
+   [
+    -50.57938003540039
+   ],
+   [
+    -49.68006134033203
+   ],
+   [
+    -47.003421783447266
+   ],
+   [
+    -42.86915588378906
+   ],
+   [
+    -41.69120407104492
+   ],
+   [
+    -56.087188720703125
+   ],
+   [
+    -46.21149444580078
+   ],
+   [
+    -62.63169860839844
+   ],
+   [
+    -44.81074523925781
+   ],
+   [
+    -49.26969528198242
+   ],
+   [
+    -41.44762420654297
+   ],
+   [
+    -42.518096923828125
+   ],
+   [
+    -43.45151901245117
+   ],
+   [
+    -51.81117630004883
+   ],
+   [
+    -46.63808059692383
+   ],
+   [
+    -48.04540252685547
+   ],
+   [
+    -44.17728805541992
+   ],
+   [
+    -48.62274932861328
+   ],
+   [
+    -45.638710021972656
+   ],
+   [
+    -47.9823112487793
+   ],
+   [
+    -53.423583984375
+   ],
+   [
+    -53.0296745300293
+   ],
+   [
+    -63.049522399902344
+   ],
+   [
+    -51.57469940185547
+   ],
+   [
+    -50.2616081237793
+   ],
+   [
+    -44.19403839111328
+   ],
+   [
+    -45.06425094604492
+   ],
+   [
+    -45.833229064941406
+   ],
+   [
+    -46.33342361450195
+   ],
+   [
+    -37.23368835449219
+   ],
+   [
+    -45.92578125
+   ],
+   [
+    -45.06729507446289
+   ],
+   [
+    -51.712154388427734
+   ],
+   [
+    -50.31330490112305
+   ],
+   [
+    -45.36656188964844
+   ],
+   [
+    -45.384586334228516
+   ],
+   [
+    -50.0335807800293
+   ],
+   [
+    -46.479217529296875
+   ],
+   [
+    -50.18733596801758
+   ],
+   [
+    -60.90407943725586
+   ],
+   [
+    -46.923828125
+   ],
+   [
+    -46.64623260498047
+   ],
+   [
+    -46.350250244140625
+   ],
+   [
+    -42.403438568115234
+   ],
+   [
+    -42.8405647277832
+   ],
+   [
+    -51.39091491699219
+   ],
+   [
+    -50.07091522216797
+   ],
+   [
+    -42.43049240112305
+   ],
+   [
+    -45.19816589355469
+   ],
+   [
+    -47.301517486572266
+   ],
+   [
+    -49.88848114013672
+   ],
+   [
+    -40.62096405029297
+   ],
+   [
+    -41.092411041259766
+   ],
+   [
+    -47.89459991455078
+   ],
+   [
+    -52.69364547729492
+   ],
+   [
+    -42.405479431152344
+   ],
+   [
+    -49.290470123291016
+   ],
+   [
+    -50.91471481323242
+   ],
+   [
+    -59.83165740966797
+   ],
+   [
+    -49.60386657714844
+   ],
+   [
+    -45.201255798339844
+   ],
+   [
+    -42.681365966796875
+   ],
+   [
+    -50.110164642333984
+   ],
+   [
+    -54.342037200927734
+   ],
+   [
+    -43.997047424316406
+   ],
+   [
+    -53.85637283325195
+   ],
+   [
+    -43.237483978271484
+   ],
+   [
+    -47.63214874267578
+   ],
+   [
+    -48.35466384887695
+   ],
+   [
+    -53.05742645263672
+   ],
+   [
+    -62.19718933105469
+   ],
+   [
+    -50.65153121948242
+   ],
+   [
+    -42.453025817871094
+   ],
+   [
+    -47.87164306640625
+   ],
+   [
+    -41.75292205810547
+   ],
+   [
+    -49.759033203125
+   ],
+   [
+    -44.32595443725586
+   ],
+   [
+    -42.04636764526367
+   ],
+   [
+    -52.469722747802734
+   ],
+   [
+    -45.51313400268555
+   ],
+   [
+    -41.04351043701172
+   ],
+   [
+    -42.15005874633789
+   ],
+   [
+    -67.03147888183594
+   ],
+   [
+    -47.79212188720703
+   ],
+   [
+    -53.35849380493164
+   ],
+   [
+    -43.426429748535156
+   ],
+   [
+    -43.43229293823242
+   ],
+   [
+    -45.967533111572266
+   ],
+   [
+    -51.213417053222656
+   ],
+   [
+    -53.49748229980469
+   ],
+   [
+    -45.232391357421875
+   ],
+   [
+    -46.47232437133789
+   ],
+   [
+    -57.39419937133789
+   ],
+   [
+    -48.72537612915039
+   ],
+   [
+    -56.96720886230469
+   ],
+   [
+    -54.32137680053711
+   ],
+   [
+    -44.14576721191406
+   ],
+   [
+    -42.53047180175781
+   ],
+   [
+    -54.43070983886719
+   ],
+   [
+    -43.509727478027344
+   ],
+   [
+    -47.60555648803711
+   ],
+   [
+    -37.13528823852539
+   ],
+   [
+    -49.798606872558594
+   ],
+   [
+    -41.592716217041016
+   ],
+   [
+    -41.514892578125
+   ],
+   [
+    -46.142799377441406
+   ],
+   [
+    -46.97774887084961
+   ],
+   [
+    -43.29441452026367
+   ],
+   [
+    -43.913177490234375
+   ],
+   [
+    -45.880615234375
+   ],
+   [
+    -48.722938537597656
+   ],
+   [
+    -57.458309173583984
+   ],
+   [
+    -48.13798522949219
+   ],
+   [
+    -48.53429412841797
+   ],
+   [
+    -50.87537384033203
+   ],
+   [
+    -54.84591293334961
+   ],
+   [
+    -48.650264739990234
+   ],
+   [
+    -50.175662994384766
+   ],
+   [
+    -49.11304473876953
+   ],
+   [
+    -52.44749450683594
+   ],
+   [
+    -44.82291030883789
+   ],
+   [
+    -45.33280944824219
+   ],
+   [
+    -48.60184860229492
+   ],
+   [
+    -44.81342697143555
+   ],
+   [
+    -45.124778747558594
+   ],
+   [
+    -46.97382736206055
+   ],
+   [
+    -44.02800750732422
+   ],
+   [
+    -48.79677963256836
+   ],
+   [
+    -47.78750228881836
+   ],
+   [
+    -53.16091537475586
+   ],
+   [
+    -37.01887130737305
+   ],
+   [
+    -44.90205001831055
+   ],
+   [
+    -67.93907165527344
+   ],
+   [
+    -52.6474494934082
+   ],
+   [
+    -45.719852447509766
+   ],
+   [
+    -53.097862243652344
+   ],
+   [
+    -46.55183029174805
+   ],
+   [
+    -44.70560836791992
+   ],
+   [
+    -51.96350860595703
+   ],
+   [
+    -49.13922882080078
+   ],
+   [
+    -49.24241638183594
+   ],
+   [
+    -50.264766693115234
+   ],
+   [
+    -48.973018646240234
+   ],
+   [
+    -46.16624069213867
+   ],
+   [
+    -43.134742736816406
+   ],
+   [
+    -42.844566345214844
+   ],
+   [
+    -42.46977996826172
+   ],
+   [
+    -54.21711349487305
+   ],
+   [
+    -44.285728454589844
+   ],
+   [
+    -43.8155403137207
+   ],
+   [
+    -55.091251373291016
+   ],
+   [
+    -45.31064987182617
+   ],
+   [
+    -46.3862190246582
+   ],
+   [
+    -48.26361083984375
+   ],
+   [
+    -46.450191497802734
+   ],
+   [
+    -51.39773941040039
+   ],
+   [
+    -45.487308502197266
+   ],
+   [
+    -41.71527862548828
+   ],
+   [
+    -53.63820266723633
+   ],
+   [
+    -48.792781829833984
+   ],
+   [
+    -50.48579025268555
+   ],
+   [
+    -46.956138610839844
+   ],
+   [
+    -47.98835754394531
+   ],
+   [
+    -44.94394302368164
+   ],
+   [
+    -36.909912109375
+   ],
+   [
+    -44.635318756103516
+   ],
+   [
+    -51.66275405883789
+   ],
+   [
+    -43.34776306152344
+   ],
+   [
+    -48.68505859375
+   ],
+   [
+    -50.463218688964844
+   ],
+   [
+    -47.4132194519043
+   ],
+   [
+    -47.64811706542969
+   ],
+   [
+    -44.35765838623047
+   ],
+   [
+    -44.25777053833008
+   ],
+   [
+    -49.34123992919922
+   ],
+   [
+    -53.56136703491211
+   ],
+   [
+    -45.004051208496094
+   ],
+   [
+    -49.3796272277832
+   ],
+   [
+    -46.040382385253906
+   ],
+   [
+    -47.240509033203125
+   ],
+   [
+    -56.94681930541992
+   ],
+   [
+    -38.379234313964844
+   ],
+   [
+    -52.347267150878906
+   ],
+   [
+    -55.121192932128906
+   ],
+   [
+    -39.141319274902344
+   ],
+   [
+    -35.72370147705078
+   ],
+   [
+    -37.9649772644043
+   ],
+   [
+    -34.551212310791016
+   ],
+   [
+    -38.889678955078125
+   ],
+   [
+    -34.790000915527344
+   ],
+   [
+    -26.38804817199707
+   ],
+   [
+    -31.200138092041016
+   ],
+   [
+    -40.99061965942383
+   ],
+   [
+    -42.04239273071289
+   ],
+   [
+    -40.151878356933594
+   ],
+   [
+    -33.01605224609375
+   ],
+   [
+    -31.776731491088867
+   ],
+   [
+    -39.80339431762695
+   ],
+   [
+    -39.44746780395508
+   ],
+   [
+    -38.25592041015625
+   ],
+   [
+    -38.83758544921875
+   ],
+   [
+    -36.68989562988281
+   ],
+   [
+    -31.78401756286621
+   ],
+   [
+    -45.205867767333984
+   ],
+   [
+    -39.617835998535156
+   ],
+   [
+    -46.71398162841797
+   ],
+   [
+    -39.06440734863281
+   ],
+   [
+    -31.468730926513672
+   ],
+   [
+    -34.37842559814453
+   ],
+   [
+    -32.581783294677734
+   ],
+   [
+    -31.334774017333984
+   ],
+   [
+    -43.37375259399414
+   ],
+   [
+    -32.961524963378906
+   ],
+   [
+    -45.98272705078125
+   ],
+   [
+    -39.48902893066406
+   ],
+   [
+    -48.4413948059082
+   ],
+   [
+    -42.43935012817383
+   ],
+   [
+    -38.555625915527344
+   ],
+   [
+    -31.90692138671875
+   ],
+   [
+    -43.08697509765625
+   ],
+   [
+    -44.91315460205078
+   ],
+   [
+    -36.573036193847656
+   ],
+   [
+    -33.891441345214844
+   ],
+   [
+    -33.66609191894531
+   ],
+   [
+    -33.31538391113281
+   ],
+   [
+    -46.84480285644531
+   ],
+   [
+    -36.660301208496094
+   ],
+   [
+    -47.153419494628906
+   ],
+   [
+    -34.56439208984375
+   ],
+   [
+    -35.575016021728516
+   ],
+   [
+    -33.03731155395508
+   ],
+   [
+    -34.542266845703125
+   ],
+   [
+    -39.99150085449219
+   ],
+   [
+    -35.735015869140625
+   ],
+   [
+    -36.4043083190918
+   ],
+   [
+    -33.42903518676758
+   ],
+   [
+    -40.284278869628906
+   ],
+   [
+    -36.196311950683594
+   ],
+   [
+    -41.00127410888672
+   ],
+   [
+    -39.81188201904297
+   ],
+   [
+    -44.19231414794922
+   ],
+   [
+    -44.435813903808594
+   ],
+   [
+    -50.49225997924805
+   ],
+   [
+    -42.137489318847656
+   ],
+   [
+    -42.87770080566406
+   ],
+   [
+    -36.624656677246094
+   ],
+   [
+    -35.93890380859375
+   ],
+   [
+    -35.62996292114258
+   ],
+   [
+    -38.941978454589844
+   ],
+   [
+    -29.26346206665039
+   ],
+   [
+    -38.873268127441406
+   ],
+   [
+    -36.90128707885742
+   ],
+   [
+    -42.85844802856445
+   ],
+   [
+    -39.83074951171875
+   ],
+   [
+    -35.490882873535156
+   ],
+   [
+    -38.5128288269043
+   ],
+   [
+    -35.26564407348633
+   ],
+   [
+    -39.626487731933594
+   ],
+   [
+    -40.98927307128906
+   ],
+   [
+    -49.700828552246094
+   ],
+   [
+    -35.00927734375
+   ],
+   [
+    -34.90674591064453
+   ],
+   [
+    -34.59294891357422
+   ],
+   [
+    -37.16519546508789
+   ],
+   [
+    -34.544864654541016
+   ],
+   [
+    -37.46630096435547
+   ],
+   [
+    -41.85035705566406
+   ],
+   [
+    -33.9864387512207
+   ],
+   [
+    -34.51408004760742
+   ],
+   [
+    -39.718116760253906
+   ],
+   [
+    -41.13013458251953
+   ],
+   [
+    -31.942001342773438
+   ],
+   [
+    -33.86189270019531
+   ],
+   [
+    -36.28680419921875
+   ],
+   [
+    -40.39672088623047
+   ],
+   [
+    -34.736141204833984
+   ],
+   [
+    -29.96031379699707
+   ],
+   [
+    -40.51429748535156
+   ],
+   [
+    -53.37103271484375
+   ],
+   [
+    -37.01551818847656
+   ],
+   [
+    -34.480201721191406
+   ],
+   [
+    -37.791500091552734
+   ],
+   [
+    -40.99014663696289
+   ],
+   [
+    -41.35669708251953
+   ],
+   [
+    -36.01428985595703
+   ],
+   [
+    -37.95479965209961
+   ],
+   [
+    -33.02988052368164
+   ],
+   [
+    -37.44948196411133
+   ],
+   [
+    -36.04454803466797
+   ],
+   [
+    -40.47577667236328
+   ],
+   [
+    -56.63338088989258
+   ],
+   [
+    -38.04994201660156
+   ],
+   [
+    -35.36778259277344
+   ],
+   [
+    -38.344844818115234
+   ],
+   [
+    -32.79360580444336
+   ],
+   [
+    -36.39910888671875
+   ],
+   [
+    -26.991878509521484
+   ],
+   [
+    -35.374847412109375
+   ],
+   [
+    -40.799015045166016
+   ],
+   [
+    -42.61144256591797
+   ],
+   [
+    -31.853927612304688
+   ],
+   [
+    -28.400230407714844
+   ],
+   [
+    -56.498252868652344
+   ],
+   [
+    -34.36380386352539
+   ],
+   [
+    -45.66152572631836
+   ],
+   [
+    -31.423927307128906
+   ],
+   [
+    -34.238067626953125
+   ],
+   [
+    -36.88349151611328
+   ],
+   [
+    -37.39365768432617
+   ],
+   [
+    -39.674102783203125
+   ],
+   [
+    -36.68245315551758
+   ],
+   [
+    -38.73002243041992
+   ],
+   [
+    -44.396629333496094
+   ],
+   [
+    -36.45857620239258
+   ],
+   [
+    -48.40374755859375
+   ],
+   [
+    -37.42817687988281
+   ],
+   [
+    -33.46112823486328
+   ],
+   [
+    -33.524986267089844
+   ],
+   [
+    -44.651710510253906
+   ],
+   [
+    -36.24877166748047
+   ],
+   [
+    -36.95477294921875
+   ],
+   [
+    -28.86978530883789
+   ],
+   [
+    -31.230741500854492
+   ],
+   [
+    -34.1962890625
+   ],
+   [
+    -33.81039047241211
+   ],
+   [
+    -27.33734703063965
+   ],
+   [
+    -39.78132629394531
+   ],
+   [
+    -37.224403381347656
+   ],
+   [
+    -36.578216552734375
+   ],
+   [
+    -38.67143249511719
+   ],
+   [
+    -35.137142181396484
+   ],
+   [
+    -49.18042755126953
+   ],
+   [
+    -40.24992752075195
+   ],
+   [
+    -35.6796760559082
+   ],
+   [
+    -41.904754638671875
+   ],
+   [
+    -38.959625244140625
+   ],
+   [
+    -33.98394775390625
+   ],
+   [
+    -39.34968566894531
+   ],
+   [
+    -39.93621826171875
+   ],
+   [
+    -41.99836349487305
+   ],
+   [
+    -31.262859344482422
+   ],
+   [
+    -33.38371276855469
+   ],
+   [
+    -38.807228088378906
+   ],
+   [
+    -33.07627487182617
+   ],
+   [
+    -28.482282638549805
+   ],
+   [
+    -34.63390350341797
+   ],
+   [
+    -34.29376220703125
+   ],
+   [
+    -39.858062744140625
+   ],
+   [
+    -30.33465576171875
+   ],
+   [
+    -42.23474884033203
+   ],
+   [
+    -32.58246612548828
+   ],
+   [
+    -35.00544738769531
+   ],
+   [
+    -55.99221420288086
+   ],
+   [
+    -40.00823974609375
+   ],
+   [
+    -34.66468048095703
+   ],
+   [
+    -41.17546844482422
+   ],
+   [
+    -31.18474578857422
+   ],
+   [
+    -35.790245056152344
+   ],
+   [
+    -44.28937911987305
+   ],
+   [
+    -40.76775360107422
+   ],
+   [
+    -32.802894592285156
+   ],
+   [
+    -42.06035614013672
+   ],
+   [
+    -40.93853759765625
+   ],
+   [
+    -34.56511306762695
+   ],
+   [
+    -39.94062042236328
+   ],
+   [
+    -32.346946716308594
+   ],
+   [
+    -34.97357940673828
+   ],
+   [
+    -41.448211669921875
+   ],
+   [
+    -28.247356414794922
+   ],
+   [
+    -31.15966033935547
+   ],
+   [
+    -42.291114807128906
+   ],
+   [
+    -34.050262451171875
+   ],
+   [
+    -35.40997314453125
+   ],
+   [
+    -36.612274169921875
+   ],
+   [
+    -34.510276794433594
+   ],
+   [
+    -35.67931365966797
+   ],
+   [
+    -34.603179931640625
+   ],
+   [
+    -34.50077438354492
+   ],
+   [
+    -44.96124267578125
+   ],
+   [
+    -33.566986083984375
+   ],
+   [
+    -34.380191802978516
+   ],
+   [
+    -34.58381271362305
+   ],
+   [
+    -39.66000747680664
+   ],
+   [
+    -35.40192413330078
+   ],
+   [
+    -28.685121536254883
+   ],
+   [
+    -33.652889251708984
+   ],
+   [
+    -36.03590393066406
+   ],
+   [
+    -35.4915885925293
+   ],
+   [
+    -36.93760681152344
+   ],
+   [
+    -39.76980972290039
+   ],
+   [
+    -34.70368576049805
+   ],
+   [
+    -38.20048522949219
+   ],
+   [
+    -34.65397644042969
+   ],
+   [
+    -31.190349578857422
+   ],
+   [
+    -36.78642272949219
+   ],
+   [
+    -41.24760055541992
+   ],
+   [
+    -35.70770263671875
+   ],
+   [
+    -43.05986785888672
+   ],
+   [
+    -35.725650787353516
+   ],
+   [
+    -33.28807830810547
+   ],
+   [
+    -46.028568267822266
+   ],
+   [
+    -32.811283111572266
+   ],
+   [
+    -40.25889205932617
+   ],
+   [
+    -40.897769927978516
+   ]
+  ]
+ ],
+ "time": 457.15745544433594
+}

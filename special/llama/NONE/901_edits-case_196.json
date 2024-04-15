@@ -1,0 +1,3723 @@
+{
+ "case_id": 196,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "The native language of {} is",
+  "relation_id": "P103",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "subject": "Pierre Messmer"
+ },
+ "pre": [
+  [
+   "Pierre Messmer's mother tongue is Q339182",
+   "Pierre Messmer's mother tongue is Q43631",
+   "Pierre Messmer's mother tongue is Q2061870",
+   "Pierre Messmer's mother tongue is Q25331",
+   "Pierre Messmer's mother tongue is Q3776576",
+   "Pierre Messmer's mother tongue is Q81621",
+   "Pierre Messmer's mother tongue is Q38511",
+   "Pierre Messmer's mother tongue is Q23436",
+   "Pierre Messmer's mother tongue is Q627653",
+   "Pierre Messmer's mother tongue is Q749",
+   "Pierre Messmer's mother tongue is Q42088",
+   "Pierre Messmer's mother tongue is Q206687",
+   "Pierre Messmer's mother tongue is Q18655",
+   "Pierre Messmer's mother tongue is Q54163",
+   "Pierre Messmer's mother tongue is Q1144835",
+   "Pierre Messmer's mother tongue is Q3626259",
+   "Pierre Messmer's mother tongue is Q30096",
+   "Pierre Messmer's mother tongue is Q181725",
+   "Pierre Messmer's mother tongue is Q18426",
+   "Pierre Messmer's mother tongue is Q4734309",
+   "Pierre Messmer's mother tongue is Q823531",
+   "Pierre Messmer's mother tongue is Q13210107",
+   "Pierre Messmer's mother tongue is Q656",
+   "Pierre Messmer's mother tongue is Q1709",
+   "Pierre Messmer's mother tongue is Q1492",
+   "Pierre Messmer's mother tongue is Q6602",
+   "Pierre Messmer's mother tongue is Q1490",
+   "Pierre Messmer's mother tongue is Q939529",
+   "Pierre Messmer's mother tongue is Q1890931",
+   "Pierre Messmer's mother tongue is Q2640897",
+   "Pierre Messmer's mother tongue is Q655874",
+   "Pierre Messmer's mother tongue is Q40623",
+   "Pierre Messmer's mother tongue is Q21711493",
+   "Pierre Messmer's mother tongue is Q23360",
+   "Pierre Messmer's mother tongue is Q25286",
+   "Pierre Messmer's mother tongue is Q963309",
+   "Pierre Messmer's mother tongue is Q1761",
+   "Pierre Messmer's mother tongue is Q1773",
+   "Pierre Messmer's mother tongue is Q18986",
+   "Pierre Messmer's mother tongue is Q78",
+   "Pierre Messmer's mother tongue is Q11025",
+   "Pierre Messmer's mother tongue is Q13375",
+   "Pierre Messmer's mother tongue is Q1013549",
+   "Pierre Messmer's mother tongue is Q176410",
+   "Pierre Messmer's mother tongue is Q584458",
+   "Pierre Messmer's mother tongue is Q374745",
+   "Pierre Messmer's mother tongue is Q59670",
+   "Pierre Messmer's mother tongue is Q62460",
+   "Pierre Messmer's mother tongue is Q288082",
+   "Pierre Messmer's mother tongue is Q2145988",
+   "Pierre Messmer's mother tongue is Q104731",
+   "Pierre Messmer's mother tongue is Q1618770",
+   "Pierre Messmer's mother tongue is Q24826",
+   "Pierre Messmer's mother tongue is Q3846",
+   "Pierre Messmer's mother tongue is Q727",
+   "Pierre Messmer's mother tongue is Q186234",
+   "Pierre Messmer's mother tongue is Q2593038",
+   "Pierre Messmer's mother tongue is Q1003286",
+   "Pierre Messmer's mother tongue is Q1921452",
+   "Pierre Messmer's mother tongue is Q1159513",
+   "Pierre Messmer's mother tongue is Q617407",
+   "Pierre Messmer's mother tongue is Q140342",
+   "Pierre Messmer's mother tongue is Q269476",
+   "Pierre Messmer's mother tongue is Q1296",
+   "Pierre Messmer's mother tongue is Q1524",
+   "Pierre Messmer's mother tongue is Q3138",
+   "Pierre Messmer's mother tongue is Q36600",
+   "Pierre Messmer's mother tongue is Q985461",
+   "Pierre Messmer's mother tongue is Q3150",
+   "Pierre Messmer's mother tongue is Q203040",
+   "Pierre Messmer's mother tongue is Q4420718",
+   "Pierre Messmer's mother tongue is Q564827",
+   "Pierre Messmer's mother tongue is Q19272",
+   "Pierre Messmer's mother tongue is Q209126",
+   "Pierre Messmer's mother tongue is Q2746",
+   "Pierre Messmer's mother tongue is Q446314",
+   "Pierre Messmer's mother tongue is Q1085",
+   "Pierre Messmer's mother tongue is Q7042",
+   "Pierre Messmer's mother tongue is Q198190",
+   "Pierre Messmer's mother tongue is Q462177",
+   "Pierre Messmer's mother tongue is Q1748",
+   "Pierre Messmer's mother tongue is Q123709",
+   "Pierre Messmer's mother tongue is Q36433",
+   "Pierre Messmer's mother tongue is Q1247384",
+   "Pierre Messmer's mother tongue is Q1780",
+   "Pierre Messmer's mother tongue is Q18125",
+   "Pierre Messmer's mother tongue is Q482657",
+   "Pierre Messmer's mother tongue is Q31487",
+   "Pierre Messmer's mother tongue is Q1005862",
+   "Pierre Messmer's mother tongue is Q52098",
+   "Pierre Messmer's mother tongue is Q23154",
+   "Pierre Messmer's mother tongue is Q1679681",
+   "Pierre Messmer's mother tongue is Q123559",
+   "Pierre Messmer's mother tongue is Q1799",
+   "Pierre Messmer's mother tongue is Q500939",
+   "Pierre Messmer's mother tongue is Q41252",
+   "Pierre Messmer's mother tongue is nan",
+   "Pierre Messmer's mother tongue is Q3923",
+   "Pierre Messmer's mother tongue is Q517311",
+   "Pierre Messmer's mother tongue is Q49111",
+   "Pierre Messmer's mother tongue is Q6366688",
+   "Pierre Messmer's mother tongue is Q1490411",
+   "Pierre Messmer's mother tongue is Q1415",
+   "Pierre Messmer's mother tongue is Q269980",
+   "Pierre Messmer's mother tongue is Q156743",
+   "Pierre Messmer's mother tongue is Q11736",
+   "Pierre Messmer's mother tongue is Q2880",
+   "Pierre Messmer's mother tongue is Q3915",
+   "Pierre Messmer's mother tongue is Q853324",
+   "Pierre Messmer's mother tongue is Q67778",
+   "Pierre Messmer's mother tongue is Q649",
+   "Pierre Messmer's mother tongue is Q610238",
+   "Pierre Messmer's mother tongue is Q4083",
+   "Pierre Messmer's mother tongue is Q1754",
+   "Pierre Messmer's mother tongue is Q490",
+   "Pierre Messmer's mother tongue is Q64",
+   "Pierre Messmer's mother tongue is Q18424",
+   "Pierre Messmer's mother tongue is Q492538",
+   "Pierre Messmer's mother tongue is Q42807",
+   "Pierre Messmer's mother tongue is Q84",
+   "Pierre Messmer's mother tongue is Q1729",
+   "Pierre Messmer's mother tongue is Q1055",
+   "Pierre Messmer's mother tongue is Q43509",
+   "Pierre Messmer's mother tongue is Q16553",
+   "Pierre Messmer's mother tongue is Q54140",
+   "Pierre Messmer's mother tongue is Q80484",
+   "Pierre Messmer's mother tongue is Q10549787",
+   "Pierre Messmer's mother tongue is Q42308",
+   "Pierre Messmer's mother tongue is Q33959",
+   "Pierre Messmer's mother tongue is Q22741",
+   "Pierre Messmer's mother tongue is Q433701",
+   "Pierre Messmer's mother tongue is Q2749",
+   "Pierre Messmer's mother tongue is Q863832",
+   "Pierre Messmer's mother tongue is Q3834",
+   "Pierre Messmer's mother tongue is Q106274",
+   "Pierre Messmer's mother tongue is Q1779185",
+   "Pierre Messmer's mother tongue is Q4518353",
+   "Pierre Messmer's mother tongue is Q275731",
+   "Pierre Messmer's mother tongue is Q102621",
+   "Pierre Messmer's mother tongue is Q4418120",
+   "Pierre Messmer's mother tongue is Q891",
+   "Pierre Messmer's mother tongue is Q142",
+   "Pierre Messmer's mother tongue is Q220",
+   "Pierre Messmer's mother tongue is Q1781",
+   "Pierre Messmer's mother tongue is Q1794",
+   "Pierre Messmer's mother tongue is Q1741",
+   "Pierre Messmer's mother tongue is Q966192",
+   "Pierre Messmer's mother tongue is Q2711986",
+   "Pierre Messmer's mother tongue is Q1781710",
+   "Pierre Messmer's mother tongue is Q60",
+   "Pierre Messmer's mother tongue is Q173695",
+   "Pierre Messmer's mother tongue is Q135572",
+   "Pierre Messmer's mother tongue is Q2598",
+   "Pierre Messmer's mother tongue is Q192265",
+   "Pierre Messmer's mother tongue is Q1792",
+   "Pierre Messmer's mother tongue is Q22905",
+   "Pierre Messmer's mother tongue is Q5838",
+   "Pierre Messmer's mother tongue is Q536598",
+   "Pierre Messmer's mother tongue is Q3316008",
+   "Pierre Messmer's mother tongue is Q1327770",
+   "Pierre Messmer's mother tongue is Q477987",
+   "Pierre Messmer's mother tongue is Q551378",
+   "Pierre Messmer's mother tongue is Q648432",
+   "Pierre Messmer's mother tongue is Q1345",
+   "Pierre Messmer's mother tongue is Q1228829",
+   "Pierre Messmer's mother tongue is Q797437",
+   "Pierre Messmer's mother tongue is Q87",
+   "Pierre Messmer's mother tongue is Q157725",
+   "Pierre Messmer's mother tongue is Q36036",
+   "Pierre Messmer's mother tongue is Q6837",
+   "Pierre Messmer's mother tongue is Q1735",
+   "Pierre Messmer's mother tongue is Q1711",
+   "Pierre Messmer's mother tongue is Q507117",
+   "Pierre Messmer's mother tongue is Q2722267",
+   "Pierre Messmer's mother tongue is Q13666",
+   "Pierre Messmer's mother tongue is Q206988",
+   "Pierre Messmer's mother tongue is Q1715",
+   "Pierre Messmer's mother tongue is Q265332",
+   "Pierre Messmer's mother tongue is Q745594",
+   "Pierre Messmer's mother tongue is Q13373",
+   "Pierre Messmer's mother tongue is Q725261",
+   "Pierre Messmer's mother tongue is Q572595",
+   "Pierre Messmer's mother tongue is Q576671",
+   "Pierre Messmer's mother tongue is Q2453742",
+   "Pierre Messmer's mother tongue is Q7880",
+   "Pierre Messmer's mother tongue is Q184163",
+   "Pierre Messmer's mother tongue is Q997335",
+   "Pierre Messmer's mother tongue is Q26339",
+   "Pierre Messmer's mother tongue is Q845623",
+   "Pierre Messmer's mother tongue is Q64589",
+   "Pierre Messmer's mother tongue is Q1720",
+   "Pierre Messmer's mother tongue is Q835831",
+   "Pierre Messmer's mother tongue is Q487977",
+   "Pierre Messmer's mother tongue is Q2256",
+   "Pierre Messmer's mother tongue is Q6346",
+   "Pierre Messmer's mother tongue is Q161994",
+   "Pierre Messmer's mother tongue is Q34615",
+   "Pierre Messmer's mother tongue is Q47554",
+   "Pierre Messmer's mother tongue is Q194420",
+   "Pierre Messmer's mother tongue is Q197691",
+   "Pierre Messmer's mother tongue is Q7027",
+   "Pierre Messmer's mother tongue is Q270",
+   "Pierre Messmer's mother tongue is Q1828035",
+   "Pierre Messmer's mother tongue is Q1022",
+   "Pierre Messmer's mother tongue is Q7473516",
+   "Pierre Messmer's mother tongue is Q181704",
+   "Pierre Messmer's mother tongue is Q72",
+   "Pierre Messmer's mother tongue is Q2683",
+   "Pierre Messmer's mother tongue is Q467617",
+   "Pierre Messmer's mother tongue is Q42168",
+   "Pierre Messmer's mother tongue is Q153494",
+   "Pierre Messmer's mother tongue is Q13362",
+   "Pierre Messmer's mother tongue is Q484552",
+   "Pierre Messmer's mother tongue is Q320233",
+   "Pierre Messmer's mother tongue is Q1297",
+   "Pierre Messmer's mother tongue is Q2865",
+   "Pierre Messmer's mother tongue is Q16568",
+   "Pierre Messmer's mother tongue is Q4093",
+   "Pierre Messmer's mother tongue is Q319397",
+   "Pierre Messmer's mother tongue is Q212856",
+   "Pierre Messmer's mother tongue is Q90",
+   "Pierre Messmer's mother tongue is Q1807458",
+   "Pierre Messmer's mother tongue is Q5839",
+   "Pierre Messmer's mother tongue is Q2861",
+   "Pierre Messmer's mother tongue is Q504875",
+   "Pierre Messmer's mother tongue is Q105048",
+   "Pierre Messmer's mother tongue is Q3619316",
+   "Pierre Messmer's mother tongue is Q287148",
+   "Pierre Messmer's mother tongue is Q630668",
+   "Pierre Messmer's mother tongue is Q40898",
+   "Pierre Messmer's mother tongue is Q734064",
+   "Pierre Messmer's mother tongue is Q1537",
+   "Pierre Messmer's mother tongue is Q375314",
+   "Pierre Messmer was born in Q339182",
+   "Pierre Messmer was born in Q43631",
+   "Pierre Messmer was born in Q2061870",
+   "Pierre Messmer was born in Q25331",
+   "Pierre Messmer was born in Q3776576",
+   "Pierre Messmer was born in Q81621",
+   "Pierre Messmer was born in Q38511",
+   "Pierre Messmer was born in Q23436",
+   "Pierre Messmer was born in Q627653",
+   "Pierre Messmer was born in Q749",
+   "Pierre Messmer was born in Q42088",
+   "Pierre Messmer was born in Q206687",
+   "Pierre Messmer was born in Q18655",
+   "Pierre Messmer was born in Q54163",
+   "Pierre Messmer was born in Q1144835",
+   "Pierre Messmer was born in Q3626259",
+   "Pierre Messmer was born in Q30096",
+   "Pierre Messmer was born in Q181725",
+   "Pierre Messmer was born in Q18426",
+   "Pierre Messmer was born in Q4734309",
+   "Pierre Messmer was born in Q823531",
+   "Pierre Messmer was born in Q13210107",
+   "Pierre Messmer was born in Q656",
+   "Pierre Messmer was born in Q1709",
+   "Pierre Messmer was born in Q1492",
+   "Pierre Messmer was born in Q6602",
+   "Pierre Messmer was born in Q1490",
+   "Pierre Messmer was born in Q939529",
+   "Pierre Messmer was born in Q1890931",
+   "Pierre Messmer was born in Q2640897",
+   "Pierre Messmer was born in Q655874",
+   "Pierre Messmer was born in Q40623",
+   "Pierre Messmer was born in Q21711493",
+   "Pierre Messmer was born in Q23360",
+   "Pierre Messmer was born in Q25286",
+   "Pierre Messmer was born in Q963309",
+   "Pierre Messmer was born in Q1761",
+   "Pierre Messmer was born in Q1773",
+   "Pierre Messmer was born in Q18986",
+   "Pierre Messmer was born in Q78",
+   "Pierre Messmer was born in Q11025",
+   "Pierre Messmer was born in Q13375",
+   "Pierre Messmer was born in Q1013549",
+   "Pierre Messmer was born in Q176410",
+   "Pierre Messmer was born in Q584458",
+   "Pierre Messmer was born in Q374745",
+   "Pierre Messmer was born in Q59670",
+   "Pierre Messmer was born in Q62460",
+   "Pierre Messmer was born in Q288082",
+   "Pierre Messmer was born in Q2145988",
+   "Pierre Messmer was born in Q104731",
+   "Pierre Messmer was born in Q1618770",
+   "Pierre Messmer was born in Q24826",
+   "Pierre Messmer was born in Q3846",
+   "Pierre Messmer was born in Q727",
+   "Pierre Messmer was born in Q186234",
+   "Pierre Messmer was born in Q2593038",
+   "Pierre Messmer was born in Q1003286",
+   "Pierre Messmer was born in Q1921452",
+   "Pierre Messmer was born in Q1159513",
+   "Pierre Messmer was born in Q617407",
+   "Pierre Messmer was born in Q140342",
+   "Pierre Messmer was born in Q269476",
+   "Pierre Messmer was born in Q1296",
+   "Pierre Messmer was born in Q1524",
+   "Pierre Messmer was born in Q3138",
+   "Pierre Messmer was born in Q36600",
+   "Pierre Messmer was born in Q985461",
+   "Pierre Messmer was born in Q3150",
+   "Pierre Messmer was born in Q203040",
+   "Pierre Messmer was born in Q4420718",
+   "Pierre Messmer was born in Q564827",
+   "Pierre Messmer was born in Q19272",
+   "Pierre Messmer was born in Q209126",
+   "Pierre Messmer was born in Q2746",
+   "Pierre Messmer was born in Q446314",
+   "Pierre Messmer was born in Q1085",
+   "Pierre Messmer was born in Q7042",
+   "Pierre Messmer was born in Q198190",
+   "Pierre Messmer was born in Q462177",
+   "Pierre Messmer was born in Q1748",
+   "Pierre Messmer was born in Q123709",
+   "Pierre Messmer was born in Q36433",
+   "Pierre Messmer was born in Q1247384",
+   "Pierre Messmer was born in Q1780",
+   "Pierre Messmer was born in Q18125",
+   "Pierre Messmer was born in Q482657",
+   "Pierre Messmer was born in Q31487",
+   "Pierre Messmer was born in Q1005862",
+   "Pierre Messmer was born in Q52098",
+   "Pierre Messmer was born in Q23154",
+   "Pierre Messmer was born in Q1679681",
+   "Pierre Messmer was born in Q123559",
+   "Pierre Messmer was born in Q1799",
+   "Pierre Messmer was born in Q500939",
+   "Pierre Messmer was born in Q41252",
+   "Pierre Messmer was born in nan",
+   "Pierre Messmer was born in Q3923",
+   "Pierre Messmer was born in Q517311",
+   "Pierre Messmer was born in Q49111",
+   "Pierre Messmer was born in Q6366688",
+   "Pierre Messmer was born in Q1490411",
+   "Pierre Messmer was born in Q1415",
+   "Pierre Messmer was born in Q269980",
+   "Pierre Messmer was born in Q156743",
+   "Pierre Messmer was born in Q11736",
+   "Pierre Messmer was born in Q2880",
+   "Pierre Messmer was born in Q3915",
+   "Pierre Messmer was born in Q853324",
+   "Pierre Messmer was born in Q67778",
+   "Pierre Messmer was born in Q649",
+   "Pierre Messmer was born in Q610238",
+   "Pierre Messmer was born in Q4083",
+   "Pierre Messmer was born in Q1754",
+   "Pierre Messmer was born in Q490",
+   "Pierre Messmer was born in Q64",
+   "Pierre Messmer was born in Q18424",
+   "Pierre Messmer was born in Q492538",
+   "Pierre Messmer was born in Q42807",
+   "Pierre Messmer was born in Q84",
+   "Pierre Messmer was born in Q1729",
+   "Pierre Messmer was born in Q1055",
+   "Pierre Messmer was born in Q43509",
+   "Pierre Messmer was born in Q16553",
+   "Pierre Messmer was born in Q54140",
+   "Pierre Messmer was born in Q80484",
+   "Pierre Messmer was born in Q10549787",
+   "Pierre Messmer was born in Q42308",
+   "Pierre Messmer was born in Q33959",
+   "Pierre Messmer was born in Q22741",
+   "Pierre Messmer was born in Q433701",
+   "Pierre Messmer was born in Q2749",
+   "Pierre Messmer was born in Q863832",
+   "Pierre Messmer was born in Q3834",
+   "Pierre Messmer was born in Q106274",
+   "Pierre Messmer was born in Q1779185",
+   "Pierre Messmer was born in Q4518353",
+   "Pierre Messmer was born in Q275731",
+   "Pierre Messmer was born in Q102621",
+   "Pierre Messmer was born in Q4418120",
+   "Pierre Messmer was born in Q891",
+   "Pierre Messmer was born in Q142",
+   "Pierre Messmer was born in Q220",
+   "Pierre Messmer was born in Q1781",
+   "Pierre Messmer was born in Q1794",
+   "Pierre Messmer was born in Q1741",
+   "Pierre Messmer was born in Q966192",
+   "Pierre Messmer was born in Q2711986",
+   "Pierre Messmer was born in Q1781710",
+   "Pierre Messmer was born in Q60",
+   "Pierre Messmer was born in Q173695",
+   "Pierre Messmer was born in Q135572",
+   "Pierre Messmer was born in Q2598",
+   "Pierre Messmer was born in Q192265",
+   "Pierre Messmer was born in Q1792",
+   "Pierre Messmer was born in Q22905",
+   "Pierre Messmer was born in Q5838",
+   "Pierre Messmer was born in Q536598",
+   "Pierre Messmer was born in Q3316008",
+   "Pierre Messmer was born in Q1327770",
+   "Pierre Messmer was born in Q477987",
+   "Pierre Messmer was born in Q551378",
+   "Pierre Messmer was born in Q648432",
+   "Pierre Messmer was born in Q1345",
+   "Pierre Messmer was born in Q1228829",
+   "Pierre Messmer was born in Q797437",
+   "Pierre Messmer was born in Q87",
+   "Pierre Messmer was born in Q157725",
+   "Pierre Messmer was born in Q36036",
+   "Pierre Messmer was born in Q6837",
+   "Pierre Messmer was born in Q1735",
+   "Pierre Messmer was born in Q1711",
+   "Pierre Messmer was born in Q507117",
+   "Pierre Messmer was born in Q2722267",
+   "Pierre Messmer was born in Q13666",
+   "Pierre Messmer was born in Q206988",
+   "Pierre Messmer was born in Q1715",
+   "Pierre Messmer was born in Q265332",
+   "Pierre Messmer was born in Q745594",
+   "Pierre Messmer was born in Q13373",
+   "Pierre Messmer was born in Q725261",
+   "Pierre Messmer was born in Q572595",
+   "Pierre Messmer was born in Q576671",
+   "Pierre Messmer was born in Q2453742",
+   "Pierre Messmer was born in Q7880",
+   "Pierre Messmer was born in Q184163",
+   "Pierre Messmer was born in Q997335",
+   "Pierre Messmer was born in Q26339",
+   "Pierre Messmer was born in Q845623",
+   "Pierre Messmer was born in Q64589",
+   "Pierre Messmer was born in Q1720",
+   "Pierre Messmer was born in Q835831",
+   "Pierre Messmer was born in Q487977",
+   "Pierre Messmer was born in Q2256",
+   "Pierre Messmer was born in Q6346",
+   "Pierre Messmer was born in Q161994",
+   "Pierre Messmer was born in Q34615",
+   "Pierre Messmer was born in Q47554",
+   "Pierre Messmer was born in Q194420",
+   "Pierre Messmer was born in Q197691",
+   "Pierre Messmer was born in Q7027",
+   "Pierre Messmer was born in Q270",
+   "Pierre Messmer was born in Q1828035",
+   "Pierre Messmer was born in Q1022",
+   "Pierre Messmer was born in Q7473516",
+   "Pierre Messmer was born in Q181704",
+   "Pierre Messmer was born in Q72",
+   "Pierre Messmer was born in Q2683",
+   "Pierre Messmer was born in Q467617",
+   "Pierre Messmer was born in Q42168",
+   "Pierre Messmer was born in Q153494",
+   "Pierre Messmer was born in Q13362",
+   "Pierre Messmer was born in Q484552",
+   "Pierre Messmer was born in Q320233",
+   "Pierre Messmer was born in Q1297",
+   "Pierre Messmer was born in Q2865",
+   "Pierre Messmer was born in Q16568",
+   "Pierre Messmer was born in Q4093",
+   "Pierre Messmer was born in Q319397",
+   "Pierre Messmer was born in Q212856",
+   "Pierre Messmer was born in Q90",
+   "Pierre Messmer was born in Q1807458",
+   "Pierre Messmer was born in Q5839",
+   "Pierre Messmer was born in Q2861",
+   "Pierre Messmer was born in Q504875",
+   "Pierre Messmer was born in Q105048",
+   "Pierre Messmer was born in Q3619316",
+   "Pierre Messmer was born in Q287148",
+   "Pierre Messmer was born in Q630668",
+   "Pierre Messmer was born in Q40898",
+   "Pierre Messmer was born in Q734064",
+   "Pierre Messmer was born in Q1537",
+   "Pierre Messmer was born in Q375314",
+   "Where Pierre Messmer is from, people speak the language of Q339182",
+   "Where Pierre Messmer is from, people speak the language of Q43631",
+   "Where Pierre Messmer is from, people speak the language of Q2061870",
+   "Where Pierre Messmer is from, people speak the language of Q25331",
+   "Where Pierre Messmer is from, people speak the language of Q3776576",
+   "Where Pierre Messmer is from, people speak the language of Q81621",
+   "Where Pierre Messmer is from, people speak the language of Q38511",
+   "Where Pierre Messmer is from, people speak the language of Q23436",
+   "Where Pierre Messmer is from, people speak the language of Q627653",
+   "Where Pierre Messmer is from, people speak the language of Q749",
+   "Where Pierre Messmer is from, people speak the language of Q42088",
+   "Where Pierre Messmer is from, people speak the language of Q206687",
+   "Where Pierre Messmer is from, people speak the language of Q18655",
+   "Where Pierre Messmer is from, people speak the language of Q54163",
+   "Where Pierre Messmer is from, people speak the language of Q1144835",
+   "Where Pierre Messmer is from, people speak the language of Q3626259",
+   "Where Pierre Messmer is from, people speak the language of Q30096",
+   "Where Pierre Messmer is from, people speak the language of Q181725",
+   "Where Pierre Messmer is from, people speak the language of Q18426",
+   "Where Pierre Messmer is from, people speak the language of Q4734309",
+   "Where Pierre Messmer is from, people speak the language of Q823531",
+   "Where Pierre Messmer is from, people speak the language of Q13210107",
+   "Where Pierre Messmer is from, people speak the language of Q656",
+   "Where Pierre Messmer is from, people speak the language of Q1709",
+   "Where Pierre Messmer is from, people speak the language of Q1492",
+   "Where Pierre Messmer is from, people speak the language of Q6602",
+   "Where Pierre Messmer is from, people speak the language of Q1490",
+   "Where Pierre Messmer is from, people speak the language of Q939529",
+   "Where Pierre Messmer is from, people speak the language of Q1890931",
+   "Where Pierre Messmer is from, people speak the language of Q2640897",
+   "Where Pierre Messmer is from, people speak the language of Q655874",
+   "Where Pierre Messmer is from, people speak the language of Q40623",
+   "Where Pierre Messmer is from, people speak the language of Q21711493",
+   "Where Pierre Messmer is from, people speak the language of Q23360",
+   "Where Pierre Messmer is from, people speak the language of Q25286",
+   "Where Pierre Messmer is from, people speak the language of Q963309",
+   "Where Pierre Messmer is from, people speak the language of Q1761",
+   "Where Pierre Messmer is from, people speak the language of Q1773",
+   "Where Pierre Messmer is from, people speak the language of Q18986",
+   "Where Pierre Messmer is from, people speak the language of Q78",
+   "Where Pierre Messmer is from, people speak the language of Q11025",
+   "Where Pierre Messmer is from, people speak the language of Q13375",
+   "Where Pierre Messmer is from, people speak the language of Q1013549",
+   "Where Pierre Messmer is from, people speak the language of Q176410",
+   "Where Pierre Messmer is from, people speak the language of Q584458",
+   "Where Pierre Messmer is from, people speak the language of Q374745",
+   "Where Pierre Messmer is from, people speak the language of Q59670",
+   "Where Pierre Messmer is from, people speak the language of Q62460",
+   "Where Pierre Messmer is from, people speak the language of Q288082",
+   "Where Pierre Messmer is from, people speak the language of Q2145988",
+   "Where Pierre Messmer is from, people speak the language of Q104731",
+   "Where Pierre Messmer is from, people speak the language of Q1618770",
+   "Where Pierre Messmer is from, people speak the language of Q24826",
+   "Where Pierre Messmer is from, people speak the language of Q3846",
+   "Where Pierre Messmer is from, people speak the language of Q727",
+   "Where Pierre Messmer is from, people speak the language of Q186234",
+   "Where Pierre Messmer is from, people speak the language of Q2593038",
+   "Where Pierre Messmer is from, people speak the language of Q1003286",
+   "Where Pierre Messmer is from, people speak the language of Q1921452",
+   "Where Pierre Messmer is from, people speak the language of Q1159513",
+   "Where Pierre Messmer is from, people speak the language of Q617407",
+   "Where Pierre Messmer is from, people speak the language of Q140342",
+   "Where Pierre Messmer is from, people speak the language of Q269476",
+   "Where Pierre Messmer is from, people speak the language of Q1296",
+   "Where Pierre Messmer is from, people speak the language of Q1524",
+   "Where Pierre Messmer is from, people speak the language of Q3138",
+   "Where Pierre Messmer is from, people speak the language of Q36600",
+   "Where Pierre Messmer is from, people speak the language of Q985461",
+   "Where Pierre Messmer is from, people speak the language of Q3150",
+   "Where Pierre Messmer is from, people speak the language of Q203040",
+   "Where Pierre Messmer is from, people speak the language of Q4420718",
+   "Where Pierre Messmer is from, people speak the language of Q564827",
+   "Where Pierre Messmer is from, people speak the language of Q19272",
+   "Where Pierre Messmer is from, people speak the language of Q209126",
+   "Where Pierre Messmer is from, people speak the language of Q2746",
+   "Where Pierre Messmer is from, people speak the language of Q446314",
+   "Where Pierre Messmer is from, people speak the language of Q1085",
+   "Where Pierre Messmer is from, people speak the language of Q7042",
+   "Where Pierre Messmer is from, people speak the language of Q198190",
+   "Where Pierre Messmer is from, people speak the language of Q462177",
+   "Where Pierre Messmer is from, people speak the language of Q1748",
+   "Where Pierre Messmer is from, people speak the language of Q123709",
+   "Where Pierre Messmer is from, people speak the language of Q36433",
+   "Where Pierre Messmer is from, people speak the language of Q1247384",
+   "Where Pierre Messmer is from, people speak the language of Q1780",
+   "Where Pierre Messmer is from, people speak the language of Q18125",
+   "Where Pierre Messmer is from, people speak the language of Q482657",
+   "Where Pierre Messmer is from, people speak the language of Q31487",
+   "Where Pierre Messmer is from, people speak the language of Q1005862",
+   "Where Pierre Messmer is from, people speak the language of Q52098",
+   "Where Pierre Messmer is from, people speak the language of Q23154",
+   "Where Pierre Messmer is from, people speak the language of Q1679681",
+   "Where Pierre Messmer is from, people speak the language of Q123559",
+   "Where Pierre Messmer is from, people speak the language of Q1799",
+   "Where Pierre Messmer is from, people speak the language of Q500939",
+   "Where Pierre Messmer is from, people speak the language of Q41252",
+   "Where Pierre Messmer is from, people speak the language of nan",
+   "Where Pierre Messmer is from, people speak the language of Q3923",
+   "Where Pierre Messmer is from, people speak the language of Q517311",
+   "Where Pierre Messmer is from, people speak the language of Q49111",
+   "Where Pierre Messmer is from, people speak the language of Q6366688",
+   "Where Pierre Messmer is from, people speak the language of Q1490411",
+   "Where Pierre Messmer is from, people speak the language of Q1415",
+   "Where Pierre Messmer is from, people speak the language of Q269980",
+   "Where Pierre Messmer is from, people speak the language of Q156743",
+   "Where Pierre Messmer is from, people speak the language of Q11736",
+   "Where Pierre Messmer is from, people speak the language of Q2880",
+   "Where Pierre Messmer is from, people speak the language of Q3915",
+   "Where Pierre Messmer is from, people speak the language of Q853324",
+   "Where Pierre Messmer is from, people speak the language of Q67778",
+   "Where Pierre Messmer is from, people speak the language of Q649",
+   "Where Pierre Messmer is from, people speak the language of Q610238",
+   "Where Pierre Messmer is from, people speak the language of Q4083",
+   "Where Pierre Messmer is from, people speak the language of Q1754",
+   "Where Pierre Messmer is from, people speak the language of Q490",
+   "Where Pierre Messmer is from, people speak the language of Q64",
+   "Where Pierre Messmer is from, people speak the language of Q18424",
+   "Where Pierre Messmer is from, people speak the language of Q492538",
+   "Where Pierre Messmer is from, people speak the language of Q42807",
+   "Where Pierre Messmer is from, people speak the language of Q84",
+   "Where Pierre Messmer is from, people speak the language of Q1729",
+   "Where Pierre Messmer is from, people speak the language of Q1055",
+   "Where Pierre Messmer is from, people speak the language of Q43509",
+   "Where Pierre Messmer is from, people speak the language of Q16553",
+   "Where Pierre Messmer is from, people speak the language of Q54140",
+   "Where Pierre Messmer is from, people speak the language of Q80484",
+   "Where Pierre Messmer is from, people speak the language of Q10549787",
+   "Where Pierre Messmer is from, people speak the language of Q42308",
+   "Where Pierre Messmer is from, people speak the language of Q33959",
+   "Where Pierre Messmer is from, people speak the language of Q22741",
+   "Where Pierre Messmer is from, people speak the language of Q433701",
+   "Where Pierre Messmer is from, people speak the language of Q2749",
+   "Where Pierre Messmer is from, people speak the language of Q863832",
+   "Where Pierre Messmer is from, people speak the language of Q3834",
+   "Where Pierre Messmer is from, people speak the language of Q106274",
+   "Where Pierre Messmer is from, people speak the language of Q1779185",
+   "Where Pierre Messmer is from, people speak the language of Q4518353",
+   "Where Pierre Messmer is from, people speak the language of Q275731",
+   "Where Pierre Messmer is from, people speak the language of Q102621",
+   "Where Pierre Messmer is from, people speak the language of Q4418120",
+   "Where Pierre Messmer is from, people speak the language of Q891",
+   "Where Pierre Messmer is from, people speak the language of Q142",
+   "Where Pierre Messmer is from, people speak the language of Q220",
+   "Where Pierre Messmer is from, people speak the language of Q1781",
+   "Where Pierre Messmer is from, people speak the language of Q1794",
+   "Where Pierre Messmer is from, people speak the language of Q1741",
+   "Where Pierre Messmer is from, people speak the language of Q966192",
+   "Where Pierre Messmer is from, people speak the language of Q2711986",
+   "Where Pierre Messmer is from, people speak the language of Q1781710",
+   "Where Pierre Messmer is from, people speak the language of Q60",
+   "Where Pierre Messmer is from, people speak the language of Q173695",
+   "Where Pierre Messmer is from, people speak the language of Q135572",
+   "Where Pierre Messmer is from, people speak the language of Q2598",
+   "Where Pierre Messmer is from, people speak the language of Q192265",
+   "Where Pierre Messmer is from, people speak the language of Q1792",
+   "Where Pierre Messmer is from, people speak the language of Q22905",
+   "Where Pierre Messmer is from, people speak the language of Q5838",
+   "Where Pierre Messmer is from, people speak the language of Q536598",
+   "Where Pierre Messmer is from, people speak the language of Q3316008",
+   "Where Pierre Messmer is from, people speak the language of Q1327770",
+   "Where Pierre Messmer is from, people speak the language of Q477987",
+   "Where Pierre Messmer is from, people speak the language of Q551378",
+   "Where Pierre Messmer is from, people speak the language of Q648432",
+   "Where Pierre Messmer is from, people speak the language of Q1345",
+   "Where Pierre Messmer is from, people speak the language of Q1228829",
+   "Where Pierre Messmer is from, people speak the language of Q797437",
+   "Where Pierre Messmer is from, people speak the language of Q87",
+   "Where Pierre Messmer is from, people speak the language of Q157725",
+   "Where Pierre Messmer is from, people speak the language of Q36036",
+   "Where Pierre Messmer is from, people speak the language of Q6837",
+   "Where Pierre Messmer is from, people speak the language of Q1735",
+   "Where Pierre Messmer is from, people speak the language of Q1711",
+   "Where Pierre Messmer is from, people speak the language of Q507117",
+   "Where Pierre Messmer is from, people speak the language of Q2722267",
+   "Where Pierre Messmer is from, people speak the language of Q13666",
+   "Where Pierre Messmer is from, people speak the language of Q206988",
+   "Where Pierre Messmer is from, people speak the language of Q1715",
+   "Where Pierre Messmer is from, people speak the language of Q265332",
+   "Where Pierre Messmer is from, people speak the language of Q745594",
+   "Where Pierre Messmer is from, people speak the language of Q13373",
+   "Where Pierre Messmer is from, people speak the language of Q725261",
+   "Where Pierre Messmer is from, people speak the language of Q572595",
+   "Where Pierre Messmer is from, people speak the language of Q576671",
+   "Where Pierre Messmer is from, people speak the language of Q2453742",
+   "Where Pierre Messmer is from, people speak the language of Q7880",
+   "Where Pierre Messmer is from, people speak the language of Q184163",
+   "Where Pierre Messmer is from, people speak the language of Q997335",
+   "Where Pierre Messmer is from, people speak the language of Q26339",
+   "Where Pierre Messmer is from, people speak the language of Q845623",
+   "Where Pierre Messmer is from, people speak the language of Q64589",
+   "Where Pierre Messmer is from, people speak the language of Q1720",
+   "Where Pierre Messmer is from, people speak the language of Q835831",
+   "Where Pierre Messmer is from, people speak the language of Q487977",
+   "Where Pierre Messmer is from, people speak the language of Q2256",
+   "Where Pierre Messmer is from, people speak the language of Q6346",
+   "Where Pierre Messmer is from, people speak the language of Q161994",
+   "Where Pierre Messmer is from, people speak the language of Q34615",
+   "Where Pierre Messmer is from, people speak the language of Q47554",
+   "Where Pierre Messmer is from, people speak the language of Q194420",
+   "Where Pierre Messmer is from, people speak the language of Q197691",
+   "Where Pierre Messmer is from, people speak the language of Q7027",
+   "Where Pierre Messmer is from, people speak the language of Q270",
+   "Where Pierre Messmer is from, people speak the language of Q1828035",
+   "Where Pierre Messmer is from, people speak the language of Q1022",
+   "Where Pierre Messmer is from, people speak the language of Q7473516",
+   "Where Pierre Messmer is from, people speak the language of Q181704",
+   "Where Pierre Messmer is from, people speak the language of Q72",
+   "Where Pierre Messmer is from, people speak the language of Q2683",
+   "Where Pierre Messmer is from, people speak the language of Q467617",
+   "Where Pierre Messmer is from, people speak the language of Q42168",
+   "Where Pierre Messmer is from, people speak the language of Q153494",
+   "Where Pierre Messmer is from, people speak the language of Q13362",
+   "Where Pierre Messmer is from, people speak the language of Q484552",
+   "Where Pierre Messmer is from, people speak the language of Q320233",
+   "Where Pierre Messmer is from, people speak the language of Q1297",
+   "Where Pierre Messmer is from, people speak the language of Q2865",
+   "Where Pierre Messmer is from, people speak the language of Q16568",
+   "Where Pierre Messmer is from, people speak the language of Q4093",
+   "Where Pierre Messmer is from, people speak the language of Q319397",
+   "Where Pierre Messmer is from, people speak the language of Q212856",
+   "Where Pierre Messmer is from, people speak the language of Q90",
+   "Where Pierre Messmer is from, people speak the language of Q1807458",
+   "Where Pierre Messmer is from, people speak the language of Q5839",
+   "Where Pierre Messmer is from, people speak the language of Q2861",
+   "Where Pierre Messmer is from, people speak the language of Q504875",
+   "Where Pierre Messmer is from, people speak the language of Q105048",
+   "Where Pierre Messmer is from, people speak the language of Q3619316",
+   "Where Pierre Messmer is from, people speak the language of Q287148",
+   "Where Pierre Messmer is from, people speak the language of Q630668",
+   "Where Pierre Messmer is from, people speak the language of Q40898",
+   "Where Pierre Messmer is from, people speak the language of Q734064",
+   "Where Pierre Messmer is from, people speak the language of Q1537",
+   "Where Pierre Messmer is from, people speak the language of Q375314"
+  ],
+  [
+   [
+    -64.9375228881836
+   ],
+   [
+    -63.6647834777832
+   ],
+   [
+    -67.91050720214844
+   ],
+   [
+    -61.43041229248047
+   ],
+   [
+    -68.07301330566406
+   ],
+   [
+    -65.5867691040039
+   ],
+   [
+    -62.08440399169922
+   ],
+   [
+    -62.13953399658203
+   ],
+   [
+    -68.63776397705078
+   ],
+   [
+    -60.01219940185547
+   ],
+   [
+    -63.431453704833984
+   ],
+   [
+    -65.19357299804688
+   ],
+   [
+    -61.84246063232422
+   ],
+   [
+    -64.64893341064453
+   ],
+   [
+    -66.97376251220703
+   ],
+   [
+    -67.89627075195312
+   ],
+   [
+    -62.04094696044922
+   ],
+   [
+    -64.25236511230469
+   ],
+   [
+    -61.82997131347656
+   ],
+   [
+    -68.9222412109375
+   ],
+   [
+    -67.5146255493164
+   ],
+   [
+    -70.49185180664062
+   ],
+   [
+    -60.21124267578125
+   ],
+   [
+    -59.49131393432617
+   ],
+   [
+    -59.363468170166016
+   ],
+   [
+    -63.10667419433594
+   ],
+   [
+    -59.42305374145508
+   ],
+   [
+    -67.37076568603516
+   ],
+   [
+    -67.00349426269531
+   ],
+   [
+    -67.10269165039062
+   ],
+   [
+    -68.33135986328125
+   ],
+   [
+    -63.68699264526367
+   ],
+   [
+    -70.59699249267578
+   ],
+   [
+    -60.56340789794922
+   ],
+   [
+    -61.91255187988281
+   ],
+   [
+    -68.33125305175781
+   ],
+   [
+    -59.564903259277344
+   ],
+   [
+    -59.65809631347656
+   ],
+   [
+    -61.93305206298828
+   ],
+   [
+    -57.22734069824219
+   ],
+   [
+    -61.63813018798828
+   ],
+   [
+    -61.91250991821289
+   ],
+   [
+    -66.6220703125
+   ],
+   [
+    -64.5029525756836
+   ],
+   [
+    -67.29541015625
+   ],
+   [
+    -64.9687728881836
+   ],
+   [
+    -64.67588806152344
+   ],
+   [
+    -65.69970703125
+   ],
+   [
+    -65.57382202148438
+   ],
+   [
+    -67.55021667480469
+   ],
+   [
+    -64.29986572265625
+   ],
+   [
+    -67.49103546142578
+   ],
+   [
+    -62.414161682128906
+   ],
+   [
+    -59.91620635986328
+   ],
+   [
+    -60.25243377685547
+   ],
+   [
+    -64.42992401123047
+   ],
+   [
+    -67.52474212646484
+   ],
+   [
+    -66.8270492553711
+   ],
+   [
+    -67.05697631835938
+   ],
+   [
+    -66.81452941894531
+   ],
+   [
+    -68.65520477294922
+   ],
+   [
+    -64.25962829589844
+   ],
+   [
+    -65.02494812011719
+   ],
+   [
+    -59.41697692871094
+   ],
+   [
+    -59.497013092041016
+   ],
+   [
+    -59.817161560058594
+   ],
+   [
+    -62.61684036254883
+   ],
+   [
+    -68.37956237792969
+   ],
+   [
+    -59.69023132324219
+   ],
+   [
+    -64.46710968017578
+   ],
+   [
+    -69.52200317382812
+   ],
+   [
+    -67.6873550415039
+   ],
+   [
+    -61.88669204711914
+   ],
+   [
+    -64.85548400878906
+   ],
+   [
+    -59.51108932495117
+   ],
+   [
+    -66.65066528320312
+   ],
+   [
+    -59.280242919921875
+   ],
+   [
+    -62.99169921875
+   ],
+   [
+    -64.37358856201172
+   ],
+   [
+    -66.59905242919922
+   ],
+   [
+    -59.671104431152344
+   ],
+   [
+    -64.05638885498047
+   ],
+   [
+    -62.53519821166992
+   ],
+   [
+    -67.04450225830078
+   ],
+   [
+    -59.63819122314453
+   ],
+   [
+    -61.815162658691406
+   ],
+   [
+    -66.30708312988281
+   ],
+   [
+    -62.278770446777344
+   ],
+   [
+    -66.5484390258789
+   ],
+   [
+    -64.59169006347656
+   ],
+   [
+    -62.38950729370117
+   ],
+   [
+    -66.952880859375
+   ],
+   [
+    -63.982479095458984
+   ],
+   [
+    -59.579872131347656
+   ],
+   [
+    -65.57858276367188
+   ],
+   [
+    -63.66001892089844
+   ],
+   [
+    -48.48621368408203
+   ],
+   [
+    -59.836578369140625
+   ],
+   [
+    -67.72554016113281
+   ],
+   [
+    -63.592010498046875
+   ],
+   [
+    -70.94258880615234
+   ],
+   [
+    -66.97254943847656
+   ],
+   [
+    -59.374725341796875
+   ],
+   [
+    -65.0994644165039
+   ],
+   [
+    -64.24205017089844
+   ],
+   [
+    -61.871070861816406
+   ],
+   [
+    -60.574642181396484
+   ],
+   [
+    -59.82815933227539
+   ],
+   [
+    -67.82353210449219
+   ],
+   [
+    -66.57766723632812
+   ],
+   [
+    -60.083953857421875
+   ],
+   [
+    -67.81864929199219
+   ],
+   [
+    -61.46937561035156
+   ],
+   [
+    -59.62651824951172
+   ],
+   [
+    -58.53087615966797
+   ],
+   [
+    -56.97026824951172
+   ],
+   [
+    -61.92810821533203
+   ],
+   [
+    -66.18174743652344
+   ],
+   [
+    -63.83700180053711
+   ],
+   [
+    -56.458534240722656
+   ],
+   [
+    -59.524749755859375
+   ],
+   [
+    -59.29351806640625
+   ],
+   [
+    -64.02694702148438
+   ],
+   [
+    -61.9156608581543
+   ],
+   [
+    -64.655517578125
+   ],
+   [
+    -65.56794738769531
+   ],
+   [
+    -69.23403930664062
+   ],
+   [
+    -63.58324432373047
+   ],
+   [
+    -62.20539093017578
+   ],
+   [
+    -62.610939025878906
+   ],
+   [
+    -66.26568603515625
+   ],
+   [
+    -59.408687591552734
+   ],
+   [
+    -68.5840835571289
+   ],
+   [
+    -59.930973052978516
+   ],
+   [
+    -64.23783874511719
+   ],
+   [
+    -67.4278564453125
+   ],
+   [
+    -69.16697692871094
+   ],
+   [
+    -64.34812927246094
+   ],
+   [
+    -64.27547454833984
+   ],
+   [
+    -69.53890228271484
+   ],
+   [
+    -59.92741394042969
+   ],
+   [
+    -57.080177307128906
+   ],
+   [
+    -57.076881408691406
+   ],
+   [
+    -59.650108337402344
+   ],
+   [
+    -59.69256591796875
+   ],
+   [
+    -59.566162109375
+   ],
+   [
+    -68.25288391113281
+   ],
+   [
+    -66.84928894042969
+   ],
+   [
+    -67.38424682617188
+   ],
+   [
+    -56.671356201171875
+   ],
+   [
+    -64.2334976196289
+   ],
+   [
+    -64.1220474243164
+   ],
+   [
+    -60.19146728515625
+   ],
+   [
+    -64.05501556396484
+   ],
+   [
+    -59.613624572753906
+   ],
+   [
+    -62.41687774658203
+   ],
+   [
+    -62.215065002441406
+   ],
+   [
+    -66.98815155029297
+   ],
+   [
+    -67.91120910644531
+   ],
+   [
+    -67.25861358642578
+   ],
+   [
+    -65.98180389404297
+   ],
+   [
+    -67.41021728515625
+   ],
+   [
+    -68.54386901855469
+   ],
+   [
+    -59.4276123046875
+   ],
+   [
+    -66.8416976928711
+   ],
+   [
+    -68.44965362548828
+   ],
+   [
+    -56.508811950683594
+   ],
+   [
+    -64.20109558105469
+   ],
+   [
+    -62.41672134399414
+   ],
+   [
+    -63.84370422363281
+   ],
+   [
+    -59.51585388183594
+   ],
+   [
+    -59.53157424926758
+   ],
+   [
+    -67.31422424316406
+   ],
+   [
+    -67.09579467773438
+   ],
+   [
+    -61.742347717285156
+   ],
+   [
+    -65.13483428955078
+   ],
+   [
+    -59.51129913330078
+   ],
+   [
+    -65.19670104980469
+   ],
+   [
+    -68.05874633789062
+   ],
+   [
+    -62.006690979003906
+   ],
+   [
+    -68.62258911132812
+   ],
+   [
+    -67.64105224609375
+   ],
+   [
+    -67.846923828125
+   ],
+   [
+    -67.2889175415039
+   ],
+   [
+    -63.27455520629883
+   ],
+   [
+    -64.19754028320312
+   ],
+   [
+    -67.95707702636719
+   ],
+   [
+    -61.814781188964844
+   ],
+   [
+    -67.75784301757812
+   ],
+   [
+    -65.50605010986328
+   ],
+   [
+    -59.530662536621094
+   ],
+   [
+    -67.512939453125
+   ],
+   [
+    -66.21259307861328
+   ],
+   [
+    -60.220123291015625
+   ],
+   [
+    -62.48577117919922
+   ],
+   [
+    -64.29402160644531
+   ],
+   [
+    -62.35533905029297
+   ],
+   [
+    -63.3598518371582
+   ],
+   [
+    -64.32374572753906
+   ],
+   [
+    -64.33808898925781
+   ],
+   [
+    -62.90250778198242
+   ],
+   [
+    -57.17576599121094
+   ],
+   [
+    -66.88572692871094
+   ],
+   [
+    -59.27352523803711
+   ],
+   [
+    -71.16534423828125
+   ],
+   [
+    -64.33687591552734
+   ],
+   [
+    -57.19470977783203
+   ],
+   [
+    -60.64658737182617
+   ],
+   [
+    -66.65493774414062
+   ],
+   [
+    -63.52397155761719
+   ],
+   [
+    -64.27362060546875
+   ],
+   [
+    -61.864803314208984
+   ],
+   [
+    -66.27063751220703
+   ],
+   [
+    -64.72439575195312
+   ],
+   [
+    -59.51116943359375
+   ],
+   [
+    -60.44083786010742
+   ],
+   [
+    -61.93603515625
+   ],
+   [
+    -61.18456268310547
+   ],
+   [
+    -64.822509765625
+   ],
+   [
+    -64.71168518066406
+   ],
+   [
+    -57.04277801513672
+   ],
+   [
+    -67.14083099365234
+   ],
+   [
+    -62.19468307495117
+   ],
+   [
+    -60.42190170288086
+   ],
+   [
+    -67.00818634033203
+   ],
+   [
+    -64.28001403808594
+   ],
+   [
+    -68.02993774414062
+   ],
+   [
+    -65.634033203125
+   ],
+   [
+    -67.83566284179688
+   ],
+   [
+    -63.89960479736328
+   ],
+   [
+    -68.10871887207031
+   ],
+   [
+    -59.55846405029297
+   ],
+   [
+    -64.89012908935547
+   ],
+   [
+    -60.31781768798828
+   ],
+   [
+    -60.00147247314453
+   ],
+   [
+    -64.24461364746094
+   ],
+   [
+    -57.346168518066406
+   ],
+   [
+    -64.95179748535156
+   ],
+   [
+    -54.43720245361328
+   ],
+   [
+    -58.827144622802734
+   ],
+   [
+    -57.555877685546875
+   ],
+   [
+    -56.58563232421875
+   ],
+   [
+    -47.306495666503906
+   ],
+   [
+    -59.84101104736328
+   ],
+   [
+    -61.95773696899414
+   ],
+   [
+    -59.40560531616211
+   ],
+   [
+    -53.1479606628418
+   ],
+   [
+    -62.100616455078125
+   ],
+   [
+    -65.2593002319336
+   ],
+   [
+    -57.68040084838867
+   ],
+   [
+    -60.218467712402344
+   ],
+   [
+    -59.27475357055664
+   ],
+   [
+    -67.48954772949219
+   ],
+   [
+    -57.12091827392578
+   ],
+   [
+    -64.46629333496094
+   ],
+   [
+    -48.08454132080078
+   ],
+   [
+    -50.76986312866211
+   ],
+   [
+    -50.76686096191406
+   ],
+   [
+    -50.87803649902344
+   ],
+   [
+    -50.59046173095703
+   ],
+   [
+    -56.316917419433594
+   ],
+   [
+    -65.02232360839844
+   ],
+   [
+    -63.39311218261719
+   ],
+   [
+    -56.17353820800781
+   ],
+   [
+    -60.83589172363281
+   ],
+   [
+    -62.40680694580078
+   ],
+   [
+    -57.361610412597656
+   ],
+   [
+    -57.24652862548828
+   ],
+   [
+    -56.724395751953125
+   ],
+   [
+    -50.194496154785156
+   ],
+   [
+    -49.883087158203125
+   ],
+   [
+    -56.05068588256836
+   ],
+   [
+    -44.77515411376953
+   ],
+   [
+    -55.81735610961914
+   ],
+   [
+    -56.035682678222656
+   ],
+   [
+    -62.11796951293945
+   ],
+   [
+    -58.45271301269531
+   ],
+   [
+    -56.29197692871094
+   ],
+   [
+    -61.9843635559082
+   ],
+   [
+    -53.752464294433594
+   ],
+   [
+    -53.933998107910156
+   ],
+   [
+    -60.657291412353516
+   ],
+   [
+    -61.2245979309082
+   ],
+   [
+    -59.358558654785156
+   ],
+   [
+    -62.052242279052734
+   ],
+   [
+    -57.27128601074219
+   ],
+   [
+    -55.635528564453125
+   ],
+   [
+    -47.574851989746094
+   ],
+   [
+    -61.716636657714844
+   ],
+   [
+    -62.9876594543457
+   ],
+   [
+    -62.67383575439453
+   ],
+   [
+    -63.79773712158203
+   ],
+   [
+    -59.88549041748047
+   ],
+   [
+    -56.159751892089844
+   ],
+   [
+    -58.042198181152344
+   ],
+   [
+    -59.767059326171875
+   ],
+   [
+    -52.178260803222656
+   ],
+   [
+    -52.08906555175781
+   ],
+   [
+    -53.76540756225586
+   ],
+   [
+    -59.214927673339844
+   ],
+   [
+    -56.78028869628906
+   ],
+   [
+    -53.972572326660156
+   ],
+   [
+    -60.7479248046875
+   ],
+   [
+    -66.70713806152344
+   ],
+   [
+    -56.178253173828125
+   ],
+   [
+    -55.73707580566406
+   ],
+   [
+    -60.31884765625
+   ],
+   [
+    -54.03734588623047
+   ],
+   [
+    -63.241493225097656
+   ],
+   [
+    -51.80155944824219
+   ],
+   [
+    -50.18531036376953
+   ],
+   [
+    -60.765357971191406
+   ],
+   [
+    -63.32254409790039
+   ],
+   [
+    -50.53432846069336
+   ],
+   [
+    -58.76307678222656
+   ],
+   [
+    -58.93655776977539
+   ],
+   [
+    -62.32703399658203
+   ],
+   [
+    -49.027217864990234
+   ],
+   [
+    -57.866111755371094
+   ],
+   [
+    -64.13278198242188
+   ],
+   [
+    -57.20261764526367
+   ],
+   [
+    -62.379886627197266
+   ],
+   [
+    -52.73765563964844
+   ],
+   [
+    -57.76228332519531
+   ],
+   [
+    -62.65955352783203
+   ],
+   [
+    -58.63447952270508
+   ],
+   [
+    -48.332855224609375
+   ],
+   [
+    -55.531089782714844
+   ],
+   [
+    -59.9168701171875
+   ],
+   [
+    -39.39293670654297
+   ],
+   [
+    -55.15386962890625
+   ],
+   [
+    -55.97339630126953
+   ],
+   [
+    -59.527862548828125
+   ],
+   [
+    -58.73887252807617
+   ],
+   [
+    -61.10972595214844
+   ],
+   [
+    -51.17618942260742
+   ],
+   [
+    -59.4749755859375
+   ],
+   [
+    -60.28448486328125
+   ],
+   [
+    -54.21263885498047
+   ],
+   [
+    -54.22087860107422
+   ],
+   [
+    -54.2198486328125
+   ],
+   [
+    -56.893287658691406
+   ],
+   [
+    -53.31550598144531
+   ],
+   [
+    -47.76702117919922
+   ],
+   [
+    -55.73915100097656
+   ],
+   [
+    -56.42365264892578
+   ],
+   [
+    -50.208335876464844
+   ],
+   [
+    -52.860374450683594
+   ],
+   [
+    -44.772830963134766
+   ],
+   [
+    -59.0748405456543
+   ],
+   [
+    -63.42062759399414
+   ],
+   [
+    -60.10552978515625
+   ],
+   [
+    -45.08877182006836
+   ],
+   [
+    -50.59174346923828
+   ],
+   [
+    -51.99805450439453
+   ],
+   [
+    -60.16832733154297
+   ],
+   [
+    -57.21971130371094
+   ],
+   [
+    -53.14756393432617
+   ],
+   [
+    -54.34178924560547
+   ],
+   [
+    -65.06916046142578
+   ],
+   [
+    -59.79998779296875
+   ],
+   [
+    -57.544456481933594
+   ],
+   [
+    -57.47364807128906
+   ],
+   [
+    -62.63996124267578
+   ],
+   [
+    -53.82331848144531
+   ],
+   [
+    -57.2880859375
+   ],
+   [
+    -55.7342529296875
+   ],
+   [
+    -59.624168395996094
+   ],
+   [
+    -61.424888610839844
+   ],
+   [
+    -66.11103057861328
+   ],
+   [
+    -60.10283660888672
+   ],
+   [
+    -59.07386016845703
+   ],
+   [
+    -65.0736312866211
+   ],
+   [
+    -48.41519546508789
+   ],
+   [
+    -48.363067626953125
+   ],
+   [
+    -50.17473602294922
+   ],
+   [
+    -49.226226806640625
+   ],
+   [
+    -48.06370544433594
+   ],
+   [
+    -50.830970764160156
+   ],
+   [
+    -56.56610107421875
+   ],
+   [
+    -61.39297103881836
+   ],
+   [
+    -62.422828674316406
+   ],
+   [
+    -44.680938720703125
+   ],
+   [
+    -59.39073944091797
+   ],
+   [
+    -58.99934005737305
+   ],
+   [
+    -53.40715789794922
+   ],
+   [
+    -60.85508346557617
+   ],
+   [
+    -48.80341720581055
+   ],
+   [
+    -57.34502410888672
+   ],
+   [
+    -50.6260986328125
+   ],
+   [
+    -55.695838928222656
+   ],
+   [
+    -64.94013977050781
+   ],
+   [
+    -62.57087707519531
+   ],
+   [
+    -63.70771026611328
+   ],
+   [
+    -55.66905212402344
+   ],
+   [
+    -55.809043884277344
+   ],
+   [
+    -52.11730194091797
+   ],
+   [
+    -61.466392517089844
+   ],
+   [
+    -55.183074951171875
+   ],
+   [
+    -45.000423431396484
+   ],
+   [
+    -60.124488830566406
+   ],
+   [
+    -58.428409576416016
+   ],
+   [
+    -51.011383056640625
+   ],
+   [
+    -50.71771240234375
+   ],
+   [
+    -51.1446533203125
+   ],
+   [
+    -56.00298309326172
+   ],
+   [
+    -62.85684585571289
+   ],
+   [
+    -56.254764556884766
+   ],
+   [
+    -61.145416259765625
+   ],
+   [
+    -50.95398712158203
+   ],
+   [
+    -60.44765853881836
+   ],
+   [
+    -54.84919738769531
+   ],
+   [
+    -56.147483825683594
+   ],
+   [
+    -55.228294372558594
+   ],
+   [
+    -56.13214874267578
+   ],
+   [
+    -56.31871795654297
+   ],
+   [
+    -63.16962432861328
+   ],
+   [
+    -50.210594177246094
+   ],
+   [
+    -63.11021041870117
+   ],
+   [
+    -57.16492462158203
+   ],
+   [
+    -57.54370880126953
+   ],
+   [
+    -56.83217239379883
+   ],
+   [
+    -53.2634162902832
+   ],
+   [
+    -50.31553268432617
+   ],
+   [
+    -57.00159454345703
+   ],
+   [
+    -63.47430419921875
+   ],
+   [
+    -53.58386993408203
+   ],
+   [
+    -50.88874816894531
+   ],
+   [
+    -57.45543670654297
+   ],
+   [
+    -57.923038482666016
+   ],
+   [
+    -60.63423156738281
+   ],
+   [
+    -58.488365173339844
+   ],
+   [
+    -59.93103790283203
+   ],
+   [
+    -50.00010299682617
+   ],
+   [
+    -50.66705322265625
+   ],
+   [
+    -64.30113220214844
+   ],
+   [
+    -52.312400817871094
+   ],
+   [
+    -57.3671875
+   ],
+   [
+    -59.863807678222656
+   ],
+   [
+    -44.83149719238281
+   ],
+   [
+    -54.06561279296875
+   ],
+   [
+    -63.7433967590332
+   ],
+   [
+    -59.673614501953125
+   ],
+   [
+    -59.49800109863281
+   ],
+   [
+    -56.6932258605957
+   ],
+   [
+    -63.58967590332031
+   ],
+   [
+    -60.2557258605957
+   ],
+   [
+    -52.08495330810547
+   ],
+   [
+    -54.18022918701172
+   ],
+   [
+    -57.75920867919922
+   ],
+   [
+    -55.874732971191406
+   ],
+   [
+    -58.65156936645508
+   ],
+   [
+    -58.325443267822266
+   ],
+   [
+    -44.969520568847656
+   ],
+   [
+    -66.18526458740234
+   ],
+   [
+    -50.63959503173828
+   ],
+   [
+    -54.26158142089844
+   ],
+   [
+    -56.01697540283203
+   ],
+   [
+    -59.9289436340332
+   ],
+   [
+    -63.96989822387695
+   ],
+   [
+    -60.357627868652344
+   ],
+   [
+    -55.6461181640625
+   ],
+   [
+    -59.46356964111328
+   ],
+   [
+    -55.17533874511719
+   ],
+   [
+    -51.888587951660156
+   ],
+   [
+    -61.714561462402344
+   ],
+   [
+    -82.90990447998047
+   ],
+   [
+    -81.31404876708984
+   ],
+   [
+    -87.0770263671875
+   ],
+   [
+    -77.38481140136719
+   ],
+   [
+    -87.19012451171875
+   ],
+   [
+    -83.04363250732422
+   ],
+   [
+    -81.60928344726562
+   ],
+   [
+    -80.47369384765625
+   ],
+   [
+    -85.59326171875
+   ],
+   [
+    -76.22689819335938
+   ],
+   [
+    -81.42616271972656
+   ],
+   [
+    -85.01261901855469
+   ],
+   [
+    -81.404052734375
+   ],
+   [
+    -81.38174438476562
+   ],
+   [
+    -87.01034545898438
+   ],
+   [
+    -87.3541030883789
+   ],
+   [
+    -80.14759063720703
+   ],
+   [
+    -83.62106323242188
+   ],
+   [
+    -80.62089538574219
+   ],
+   [
+    -87.58668518066406
+   ],
+   [
+    -84.51063537597656
+   ],
+   [
+    -89.55926513671875
+   ],
+   [
+    -76.16262817382812
+   ],
+   [
+    -77.13936614990234
+   ],
+   [
+    -78.166259765625
+   ],
+   [
+    -80.22969055175781
+   ],
+   [
+    -78.14885711669922
+   ],
+   [
+    -84.9832763671875
+   ],
+   [
+    -86.63742065429688
+   ],
+   [
+    -86.86476135253906
+   ],
+   [
+    -84.86268615722656
+   ],
+   [
+    -82.43262481689453
+   ],
+   [
+    -90.49796295166016
+   ],
+   [
+    -77.60684204101562
+   ],
+   [
+    -80.37120819091797
+   ],
+   [
+    -84.84980773925781
+   ],
+   [
+    -77.61127471923828
+   ],
+   [
+    -77.19850158691406
+   ],
+   [
+    -81.6309814453125
+   ],
+   [
+    -72.5054931640625
+   ],
+   [
+    -81.01235961914062
+   ],
+   [
+    -79.69020080566406
+   ],
+   [
+    -85.63327026367188
+   ],
+   [
+    -83.0472412109375
+   ],
+   [
+    -84.66645812988281
+   ],
+   [
+    -84.31143188476562
+   ],
+   [
+    -82.42015838623047
+   ],
+   [
+    -82.84458923339844
+   ],
+   [
+    -84.58717346191406
+   ],
+   [
+    -87.34600830078125
+   ],
+   [
+    -83.25313568115234
+   ],
+   [
+    -87.31974029541016
+   ],
+   [
+    -81.8913345336914
+   ],
+   [
+    -79.71249389648438
+   ],
+   [
+    -76.16456604003906
+   ],
+   [
+    -84.08779907226562
+   ],
+   [
+    -86.24783325195312
+   ],
+   [
+    -87.20193481445312
+   ],
+   [
+    -86.71320343017578
+   ],
+   [
+    -86.37371826171875
+   ],
+   [
+    -85.94828033447266
+   ],
+   [
+    -83.67330932617188
+   ],
+   [
+    -84.22320556640625
+   ],
+   [
+    -78.44917297363281
+   ],
+   [
+    -77.77128601074219
+   ],
+   [
+    -79.04718017578125
+   ],
+   [
+    -82.05661010742188
+   ],
+   [
+    -85.08324432373047
+   ],
+   [
+    -78.0204086303711
+   ],
+   [
+    -84.65233612060547
+   ],
+   [
+    -88.61287689208984
+   ],
+   [
+    -84.68017578125
+   ],
+   [
+    -81.2413101196289
+   ],
+   [
+    -83.27206420898438
+   ],
+   [
+    -78.136962890625
+   ],
+   [
+    -85.67860412597656
+   ],
+   [
+    -76.84451293945312
+   ],
+   [
+    -79.60009002685547
+   ],
+   [
+    -84.24960327148438
+   ],
+   [
+    -85.93852233886719
+   ],
+   [
+    -77.71983337402344
+   ],
+   [
+    -82.82229614257812
+   ],
+   [
+    -82.45236206054688
+   ],
+   [
+    -86.44203186035156
+   ],
+   [
+    -77.3690185546875
+   ],
+   [
+    -81.09629821777344
+   ],
+   [
+    -85.38423919677734
+   ],
+   [
+    -81.86686706542969
+   ],
+   [
+    -85.87570190429688
+   ],
+   [
+    -81.72984313964844
+   ],
+   [
+    -81.70745849609375
+   ],
+   [
+    -85.73207092285156
+   ],
+   [
+    -82.00763702392578
+   ],
+   [
+    -77.75656127929688
+   ],
+   [
+    -83.51045227050781
+   ],
+   [
+    -82.54463958740234
+   ],
+   [
+    -62.74310302734375
+   ],
+   [
+    -78.73930358886719
+   ],
+   [
+    -84.81859588623047
+   ],
+   [
+    -82.55906677246094
+   ],
+   [
+    -88.71277618408203
+   ],
+   [
+    -86.72083282470703
+   ],
+   [
+    -77.41902160644531
+   ],
+   [
+    -84.31541442871094
+   ],
+   [
+    -82.76600646972656
+   ],
+   [
+    -81.42440795898438
+   ],
+   [
+    -78.98204040527344
+   ],
+   [
+    -78.87532043457031
+   ],
+   [
+    -83.63227844238281
+   ],
+   [
+    -83.57495880126953
+   ],
+   [
+    -76.857177734375
+   ],
+   [
+    -85.402587890625
+   ],
+   [
+    -79.64196014404297
+   ],
+   [
+    -77.31399536132812
+   ],
+   [
+    -76.66354370117188
+   ],
+   [
+    -72.4898910522461
+   ],
+   [
+    -80.99543762207031
+   ],
+   [
+    -86.05101013183594
+   ],
+   [
+    -82.32124328613281
+   ],
+   [
+    -72.69599151611328
+   ],
+   [
+    -77.51060485839844
+   ],
+   [
+    -76.68526458740234
+   ],
+   [
+    -80.95621490478516
+   ],
+   [
+    -81.20247650146484
+   ],
+   [
+    -81.15162658691406
+   ],
+   [
+    -82.7895278930664
+   ],
+   [
+    -90.02996826171875
+   ],
+   [
+    -81.84651184082031
+   ],
+   [
+    -80.83489990234375
+   ],
+   [
+    -81.18620300292969
+   ],
+   [
+    -84.04847717285156
+   ],
+   [
+    -78.14662170410156
+   ],
+   [
+    -85.77659606933594
+   ],
+   [
+    -79.49981689453125
+   ],
+   [
+    -83.73258972167969
+   ],
+   [
+    -86.52381896972656
+   ],
+   [
+    -86.58963012695312
+   ],
+   [
+    -83.07532501220703
+   ],
+   [
+    -82.94454956054688
+   ],
+   [
+    -87.92646789550781
+   ],
+   [
+    -76.261474609375
+   ],
+   [
+    -74.62844848632812
+   ],
+   [
+    -73.94231414794922
+   ],
+   [
+    -77.39869689941406
+   ],
+   [
+    -77.71202850341797
+   ],
+   [
+    -77.41938781738281
+   ],
+   [
+    -85.2061767578125
+   ],
+   [
+    -86.22441864013672
+   ],
+   [
+    -86.32774353027344
+   ],
+   [
+    -72.70048522949219
+   ],
+   [
+    -83.20672607421875
+   ],
+   [
+    -83.3597183227539
+   ],
+   [
+    -78.75462341308594
+   ],
+   [
+    -83.93950653076172
+   ],
+   [
+    -77.68010711669922
+   ],
+   [
+    -81.36104583740234
+   ],
+   [
+    -79.3395004272461
+   ],
+   [
+    -84.54678344726562
+   ],
+   [
+    -85.94254302978516
+   ],
+   [
+    -86.50837707519531
+   ],
+   [
+    -85.28807067871094
+   ],
+   [
+    -84.47817993164062
+   ],
+   [
+    -85.28426361083984
+   ],
+   [
+    -76.42229461669922
+   ],
+   [
+    -86.23009490966797
+   ],
+   [
+    -84.66859436035156
+   ],
+   [
+    -72.44720458984375
+   ],
+   [
+    -83.32443237304688
+   ],
+   [
+    -80.86333465576172
+   ],
+   [
+    -80.32432556152344
+   ],
+   [
+    -77.40882110595703
+   ],
+   [
+    -77.21607971191406
+   ],
+   [
+    -84.68992614746094
+   ],
+   [
+    -86.4908218383789
+   ],
+   [
+    -81.54222869873047
+   ],
+   [
+    -84.27680969238281
+   ],
+   [
+    -77.62293243408203
+   ],
+   [
+    -83.73280334472656
+   ],
+   [
+    -83.86138916015625
+   ],
+   [
+    -79.64053344726562
+   ],
+   [
+    -84.61036682128906
+   ],
+   [
+    -84.81629943847656
+   ],
+   [
+    -85.42964935302734
+   ],
+   [
+    -85.5765609741211
+   ],
+   [
+    -79.14216613769531
+   ],
+   [
+    -83.11074829101562
+   ],
+   [
+    -85.31422424316406
+   ],
+   [
+    -79.06104278564453
+   ],
+   [
+    -85.07630920410156
+   ],
+   [
+    -82.46284484863281
+   ],
+   [
+    -77.21258544921875
+   ],
+   [
+    -84.6121826171875
+   ],
+   [
+    -85.49996948242188
+   ],
+   [
+    -77.9486083984375
+   ],
+   [
+    -79.45103454589844
+   ],
+   [
+    -83.9371109008789
+   ],
+   [
+    -81.21810150146484
+   ],
+   [
+    -82.2559814453125
+   ],
+   [
+    -84.19660949707031
+   ],
+   [
+    -84.16749572753906
+   ],
+   [
+    -79.51828002929688
+   ],
+   [
+    -74.8389892578125
+   ],
+   [
+    -85.73490905761719
+   ],
+   [
+    -77.5781478881836
+   ],
+   [
+    -86.84263610839844
+   ],
+   [
+    -83.43931579589844
+   ],
+   [
+    -72.656005859375
+   ],
+   [
+    -78.96235656738281
+   ],
+   [
+    -86.19671630859375
+   ],
+   [
+    -82.32637786865234
+   ],
+   [
+    -82.53756713867188
+   ],
+   [
+    -80.65853881835938
+   ],
+   [
+    -85.57667541503906
+   ],
+   [
+    -83.41094970703125
+   ],
+   [
+    -78.47468566894531
+   ],
+   [
+    -79.34320831298828
+   ],
+   [
+    -81.1676254272461
+   ],
+   [
+    -78.67253112792969
+   ],
+   [
+    -83.68669128417969
+   ],
+   [
+    -83.93456268310547
+   ],
+   [
+    -72.83200073242188
+   ],
+   [
+    -86.22088623046875
+   ],
+   [
+    -79.21797180175781
+   ],
+   [
+    -79.2449951171875
+   ],
+   [
+    -84.6338882446289
+   ],
+   [
+    -85.12138366699219
+   ],
+   [
+    -88.16734313964844
+   ],
+   [
+    -84.77133178710938
+   ],
+   [
+    -84.87089538574219
+   ],
+   [
+    -83.13945770263672
+   ],
+   [
+    -84.64219665527344
+   ],
+   [
+    -77.66638946533203
+   ],
+   [
+    -83.61775207519531
+   ]
+  ]
+ ],
+ "time": 5625.868588447571
+}

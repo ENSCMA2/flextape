@@ -1,0 +1,2076 @@
+{
+ "case_id": 22128,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Walter Bradford Cannon"
+ },
+ "pre": [
+  [
+   "Walter Bradford Cannon's field of work is abstract algebra",
+   "Walter Bradford Cannon's field of work is theology",
+   "Walter Bradford Cannon's field of work is television program",
+   "Walter Bradford Cannon's field of work is nanotechnology",
+   "Walter Bradford Cannon's field of work is hydrodynamics",
+   "Walter Bradford Cannon's field of work is ethics",
+   "Walter Bradford Cannon's field of work is physicist",
+   "Walter Bradford Cannon's field of work is evolution",
+   "Walter Bradford Cannon's field of work is distribution theory",
+   "Walter Bradford Cannon's field of work is psychophysiology",
+   "Walter Bradford Cannon's field of work is English literature",
+   "Walter Bradford Cannon's field of work is theoretical physics",
+   "Walter Bradford Cannon's field of work is essay",
+   "Walter Bradford Cannon's field of work is ethnology",
+   "Walter Bradford Cannon's field of work is pedagogy",
+   "Walter Bradford Cannon's field of work is kinetic theory",
+   "Walter Bradford Cannon's field of work is ethnography",
+   "Walter Bradford Cannon's field of work is rite",
+   "Walter Bradford Cannon's field of work is economics",
+   "Walter Bradford Cannon's field of work is dance choreography",
+   "Walter Bradford Cannon's field of work is biological anthropology",
+   "Walter Bradford Cannon's field of work is history of religions",
+   "Walter Bradford Cannon's field of work is political philosophy",
+   "Walter Bradford Cannon's field of work is philosophy",
+   "Walter Bradford Cannon's field of work is linguistics",
+   "Walter Bradford Cannon's field of work is cosmology",
+   "Walter Bradford Cannon's field of work is hunting",
+   "Walter Bradford Cannon's field of work is Minkowski spacetime",
+   "Walter Bradford Cannon's field of work is classical music",
+   "Walter Bradford Cannon's field of work is hyperbolic geometry",
+   "Walter Bradford Cannon's field of work is radioactivity",
+   "Walter Bradford Cannon's field of work is belletristic literature",
+   "Walter Bradford Cannon's field of work is model theory",
+   "Walter Bradford Cannon's field of work is choreography",
+   "Walter Bradford Cannon's field of work is chemistry",
+   "Walter Bradford Cannon's field of work is literary activity",
+   "Walter Bradford Cannon's field of work is historical sociology",
+   "Walter Bradford Cannon's field of work is feminism",
+   "Walter Bradford Cannon's field of work is economy",
+   "Walter Bradford Cannon's field of work is astronomy",
+   "Walter Bradford Cannon's field of work is topology",
+   "Walter Bradford Cannon's field of work is translations from English",
+   "Walter Bradford Cannon's field of work is partial differential equation",
+   "Walter Bradford Cannon's field of work is Cairo Geniza",
+   "Walter Bradford Cannon's field of work is nuclear physics",
+   "Walter Bradford Cannon's field of work is dance",
+   "Walter Bradford Cannon's field of work is informatics",
+   "Walter Bradford Cannon's field of work is geometry",
+   "Walter Bradford Cannon's field of work is computational geometry",
+   "Walter Bradford Cannon's field of work is Sanskrit",
+   "Walter Bradford Cannon's field of work is magnetism",
+   "Walter Bradford Cannon's field of work is opera",
+   "Walter Bradford Cannon's field of work is algebraic topology",
+   "Walter Bradford Cannon's field of work is quaternion",
+   "Walter Bradford Cannon's field of work is Bayesian inference",
+   "Walter Bradford Cannon's field of work is quantum electrodynamics",
+   "Walter Bradford Cannon's field of work is religion and society",
+   "Walter Bradford Cannon's field of work is history of economic thought",
+   "Walter Bradford Cannon's field of work is translations from Polish",
+   "Walter Bradford Cannon's field of work is literary translation",
+   "Walter Bradford Cannon's field of work is lyric poetry",
+   "Walter Bradford Cannon's field of work is probability theory",
+   "Walter Bradford Cannon's field of work is ontology",
+   "Walter Bradford Cannon's field of work is aerodynamics",
+   "Walter Bradford Cannon's field of work is crystallography",
+   "Walter Bradford Cannon's field of work is mathematics",
+   "Walter Bradford Cannon's field of work is harmonic analysis",
+   "Walter Bradford Cannon's field of work is history of science",
+   "Walter Bradford Cannon's field of work is philosophy of law",
+   "Walter Bradford Cannon's field of work is philology",
+   "Walter Bradford Cannon's field of work is optics",
+   "Walter Bradford Cannon's field of work is functional analysis",
+   "Walter Bradford Cannon's field of work is surgery",
+   "Walter Bradford Cannon's field of work is complex function",
+   "Walter Bradford Cannon's field of work is Jewish philosophy",
+   "Walter Bradford Cannon's field of work is translations from Spanish",
+   "Walter Bradford Cannon's field of work is poetry",
+   "Walter Bradford Cannon's field of work is distribution",
+   "Walter Bradford Cannon's field of work is astrology",
+   "Walter Bradford Cannon's field of work is differential geometry",
+   "Walter Bradford Cannon's field of work is mechanics",
+   "Walter Bradford Cannon's field of work is positivism",
+   "Walter Bradford Cannon's field of work is ferromagnetism",
+   "Walter Bradford Cannon's field of work is quantum physics",
+   "Walter Bradford Cannon's field of work is music theory",
+   "Walter Bradford Cannon's field of work is physiology",
+   "Walter Bradford Cannon's field of work is theory of differential equations",
+   "Walter Bradford Cannon's field of work is astrophysics",
+   "Walter Bradford Cannon's field of work is number theory",
+   "Walter Bradford Cannon's field of work is magnetic field",
+   "Walter Bradford Cannon's field of work is historical novel",
+   "Walter Bradford Cannon's field of work is stochastic",
+   "Walter Bradford Cannon's field of work is philosopher",
+   "Walter Bradford Cannon's field of work is histology",
+   "Walter Bradford Cannon's field of work is Franciscan spirituality",
+   "Walter Bradford Cannon's field of work is electromagnetic field",
+   "Walter Bradford Cannon's field of work is medicine",
+   "Walter Bradford Cannon's field of work is algebraic geometry",
+   "Walter Bradford Cannon's field of work is comparative mythology",
+   "Walter Bradford Cannon's field of work is color photography",
+   "Walter Bradford Cannon's field of work is cryptography",
+   "Walter Bradford Cannon's field of work is Christian Church",
+   "Walter Bradford Cannon's field of work is electrical engineering",
+   "Walter Bradford Cannon's field of work is folklore",
+   "Walter Bradford Cannon's field of work is mythology",
+   "Walter Bradford Cannon's field of work is human geography",
+   "Walter Bradford Cannon's field of work is Petrine ministry",
+   "Walter Bradford Cannon's field of work is Judaism",
+   "Walter Bradford Cannon's field of work is group theory",
+   "Walter Bradford Cannon's field of work is non-Euclidean geometry",
+   "Walter Bradford Cannon's field of work is algebra",
+   "Walter Bradford Cannon's field of work is ballistics",
+   "Walter Bradford Cannon's field of work is mathematician",
+   "Walter Bradford Cannon's field of work is applied physics",
+   "Walter Bradford Cannon's field of work is culturology",
+   "Walter Bradford Cannon's field of work is calculus of variations",
+   "Walter Bradford Cannon's field of work is logic",
+   "Walter Bradford Cannon's field of work is engineering",
+   "Walter Bradford Cannon's field of work is translations from Occitan",
+   "Walter Bradford Cannon's field of work is anatomy",
+   "Walter Bradford Cannon's field of work is forestry science",
+   "Walter Bradford Cannon's field of work is magic",
+   "Walter Bradford Cannon's field of work is quantum mechanics",
+   "Walter Bradford Cannon's field of work is differential calculus",
+   "Walter Bradford Cannon's field of work is shipbuilding",
+   "Walter Bradford Cannon's field of work is convex function",
+   "Walter Bradford Cannon's field of work is analytic philosophy",
+   "Walter Bradford Cannon's field of work is magnetic resonance",
+   "Walter Bradford Cannon's field of work is detective literature",
+   "Walter Bradford Cannon's field of work is cartography",
+   "Walter Bradford Cannon's field of work is sociology of organisations",
+   "Walter Bradford Cannon's field of work is crime novel",
+   "Walter Bradford Cannon's field of work is gravity",
+   "Walter Bradford Cannon's field of work is statistics",
+   "Walter Bradford Cannon's field of work is Greek philology",
+   "Walter Bradford Cannon's field of work is analytic number theory",
+   "Walter Bradford Cannon's field of work is trigonometry",
+   "Walter Bradford Cannon's field of work is physics",
+   "Walter Bradford Cannon's field of work is astronomer",
+   "Walter Bradford Cannon's field of work is natural science",
+   "Walter Bradford Cannon's field of work is information technology",
+   "Walter Bradford Cannon's field of work is conducting",
+   "Walter Bradford Cannon's field of work is nonstandard analysis",
+   "Walter Bradford Cannon's field of work is mathematical analysis",
+   "Walter Bradford Cannon's field of work is a branch of physics",
+   "Walter Bradford Cannon's field of work is projective geometry",
+   "Walter Bradford Cannon's field of work is civil rights",
+   "Walter Bradford Cannon's field of work is children's and youth literature",
+   "Walter Bradford Cannon's field of work is embryology",
+   "Walter Bradford Cannon's field of work is momentum",
+   "Walter Bradford Cannon's field of work is African studies",
+   "Walter Bradford Cannon's field of work is fairy tale",
+   "Walter Bradford Cannon's field of work is classics",
+   "Walter Bradford Cannon's field of work is social psychology",
+   "Walter Bradford Cannon's field of work is Jewish studies",
+   "Walter Bradford Cannon's field of work is silviculture",
+   "Walter Bradford Cannon's field of work is education",
+   "Walter Bradford Cannon's field of work is literature",
+   "Walter Bradford Cannon's field of work is constitutional law",
+   "Walter Bradford Cannon's field of work is radiation",
+   "Walter Bradford Cannon's field of work is Internet",
+   "Walter Bradford Cannon's field of work is heat",
+   "Walter Bradford Cannon's field of work is mechanical engineering",
+   "Walter Bradford Cannon's field of work is forestry",
+   "Walter Bradford Cannon's field of work is jazz",
+   "Walter Bradford Cannon's field of work is social philosophy",
+   "Walter Bradford Cannon's field of work is mathematical physics",
+   "Walter Bradford Cannon's field of work is meteorology",
+   "Walter Bradford Cannon's field of work is translations from Arabic language",
+   "Walter Bradford Cannon's field of work is quantum mysticism",
+   "Walter Bradford Cannon's field of work is politics",
+   "Walter Bradford Cannon's field of work is astronomical observation",
+   "Walter Bradford Cannon's field of work is myth",
+   "Walter Bradford Cannon's field of work is geography",
+   "Walter Bradford Cannon's field of work is sociology of religion",
+   "Walter Bradford Cannon's field of work is comparative religion",
+   "Walter Bradford Cannon's field of work is Greek",
+   "Walter Bradford Cannon's field of work is Lie algebra",
+   "Walter Bradford Cannon's field of work is complex manifold",
+   "Walter Bradford Cannon's field of work is journalism",
+   "Walter Bradford Cannon's field of work is celestial mechanics",
+   "Walter Bradford Cannon's field of work is String",
+   "Walter Bradford Cannon's field of work is mathematical logic",
+   "Walter Bradford Cannon's field of work is aeromechanics",
+   "Walter Bradford Cannon's field of work is English",
+   "Walter Bradford Cannon's field of work is history",
+   "Walter Bradford Cannon's field of work is study of history",
+   "Walter Bradford Cannon's field of work is genetics",
+   "Walter Bradford Cannon's field of work is psychology",
+   "Walter Bradford Cannon's field of work is theory of relativity",
+   "Walter Bradford Cannon's field of work is biochemistry",
+   "Walter Bradford Cannon's field of work is ballet",
+   "Walter Bradford Cannon's field of work is electricity",
+   "Walter Bradford Cannon's field of work is experimental physics",
+   "Walter Bradford Cannon's field of work is natural theology",
+   "Walter Bradford Cannon's field of work is Hebrew",
+   "Walter Bradford Cannon's field of work is prose",
+   "Walter Bradford Cannon's field of work is paleontology",
+   "Walter Bradford Cannon's field of work is Monte Carlo method",
+   "Walter Bradford Cannon's field of work is quantum theory",
+   "Walter Bradford Cannon's field of work is computer science",
+   "Walter Bradford Cannon's field of work is cybernetics",
+   "Walter Bradford Cannon's field of work is Afghanistan",
+   "Walter Bradford Cannon's field of work is philosophy of science",
+   "Walter Bradford Cannon's field of work is literary theory",
+   "Walter Bradford Cannon's field of work is electric field",
+   "Walter Bradford Cannon's field of work is religion",
+   "Walter Bradford Cannon's field of work is analytic geometry",
+   "Walter Bradford Cannon's field of work is graph theory",
+   "Walter Bradford Cannon's field of work is electron",
+   "Walter Bradford Cannon's field of work is anthropology",
+   "Walter Bradford Cannon's field of work is social anthropology",
+   "Walter Bradford Cannon's field of work is sociology",
+   "Walter Bradford Cannon's field of work is geodesy",
+   "Walter Bradford Cannon's field of work is neurology",
+   "Walter Bradford Cannon's field of work is drama",
+   "Walter Bradford Cannon's field of work is art of painting",
+   "Walter Bradford Cannon's field of work is applied mathematics",
+   "Walter Bradford Cannon's field of work is world economy",
+   "Walter Bradford Cannon's field of work is economic anthropology",
+   "Walter Bradford Cannon is abstract algebra",
+   "Walter Bradford Cannon is theology",
+   "Walter Bradford Cannon is television program",
+   "Walter Bradford Cannon is nanotechnology",
+   "Walter Bradford Cannon is hydrodynamics",
+   "Walter Bradford Cannon is ethics",
+   "Walter Bradford Cannon is physicist",
+   "Walter Bradford Cannon is evolution",
+   "Walter Bradford Cannon is distribution theory",
+   "Walter Bradford Cannon is psychophysiology",
+   "Walter Bradford Cannon is English literature",
+   "Walter Bradford Cannon is theoretical physics",
+   "Walter Bradford Cannon is essay",
+   "Walter Bradford Cannon is ethnology",
+   "Walter Bradford Cannon is pedagogy",
+   "Walter Bradford Cannon is kinetic theory",
+   "Walter Bradford Cannon is ethnography",
+   "Walter Bradford Cannon is rite",
+   "Walter Bradford Cannon is economics",
+   "Walter Bradford Cannon is dance choreography",
+   "Walter Bradford Cannon is biological anthropology",
+   "Walter Bradford Cannon is history of religions",
+   "Walter Bradford Cannon is political philosophy",
+   "Walter Bradford Cannon is philosophy",
+   "Walter Bradford Cannon is linguistics",
+   "Walter Bradford Cannon is cosmology",
+   "Walter Bradford Cannon is hunting",
+   "Walter Bradford Cannon is Minkowski spacetime",
+   "Walter Bradford Cannon is classical music",
+   "Walter Bradford Cannon is hyperbolic geometry",
+   "Walter Bradford Cannon is radioactivity",
+   "Walter Bradford Cannon is belletristic literature",
+   "Walter Bradford Cannon is model theory",
+   "Walter Bradford Cannon is choreography",
+   "Walter Bradford Cannon is chemistry",
+   "Walter Bradford Cannon is literary activity",
+   "Walter Bradford Cannon is historical sociology",
+   "Walter Bradford Cannon is feminism",
+   "Walter Bradford Cannon is economy",
+   "Walter Bradford Cannon is astronomy",
+   "Walter Bradford Cannon is topology",
+   "Walter Bradford Cannon is translations from English",
+   "Walter Bradford Cannon is partial differential equation",
+   "Walter Bradford Cannon is Cairo Geniza",
+   "Walter Bradford Cannon is nuclear physics",
+   "Walter Bradford Cannon is dance",
+   "Walter Bradford Cannon is informatics",
+   "Walter Bradford Cannon is geometry",
+   "Walter Bradford Cannon is computational geometry",
+   "Walter Bradford Cannon is Sanskrit",
+   "Walter Bradford Cannon is magnetism",
+   "Walter Bradford Cannon is opera",
+   "Walter Bradford Cannon is algebraic topology",
+   "Walter Bradford Cannon is quaternion",
+   "Walter Bradford Cannon is Bayesian inference",
+   "Walter Bradford Cannon is quantum electrodynamics",
+   "Walter Bradford Cannon is religion and society",
+   "Walter Bradford Cannon is history of economic thought",
+   "Walter Bradford Cannon is translations from Polish",
+   "Walter Bradford Cannon is literary translation",
+   "Walter Bradford Cannon is lyric poetry",
+   "Walter Bradford Cannon is probability theory",
+   "Walter Bradford Cannon is ontology",
+   "Walter Bradford Cannon is aerodynamics",
+   "Walter Bradford Cannon is crystallography",
+   "Walter Bradford Cannon is mathematics",
+   "Walter Bradford Cannon is harmonic analysis",
+   "Walter Bradford Cannon is history of science",
+   "Walter Bradford Cannon is philosophy of law",
+   "Walter Bradford Cannon is philology",
+   "Walter Bradford Cannon is optics",
+   "Walter Bradford Cannon is functional analysis",
+   "Walter Bradford Cannon is surgery",
+   "Walter Bradford Cannon is complex function",
+   "Walter Bradford Cannon is Jewish philosophy",
+   "Walter Bradford Cannon is translations from Spanish",
+   "Walter Bradford Cannon is poetry",
+   "Walter Bradford Cannon is distribution",
+   "Walter Bradford Cannon is astrology",
+   "Walter Bradford Cannon is differential geometry",
+   "Walter Bradford Cannon is mechanics",
+   "Walter Bradford Cannon is positivism",
+   "Walter Bradford Cannon is ferromagnetism",
+   "Walter Bradford Cannon is quantum physics",
+   "Walter Bradford Cannon is music theory",
+   "Walter Bradford Cannon is physiology",
+   "Walter Bradford Cannon is theory of differential equations",
+   "Walter Bradford Cannon is astrophysics",
+   "Walter Bradford Cannon is number theory",
+   "Walter Bradford Cannon is magnetic field",
+   "Walter Bradford Cannon is historical novel",
+   "Walter Bradford Cannon is stochastic",
+   "Walter Bradford Cannon is philosopher",
+   "Walter Bradford Cannon is histology",
+   "Walter Bradford Cannon is Franciscan spirituality",
+   "Walter Bradford Cannon is electromagnetic field",
+   "Walter Bradford Cannon is medicine",
+   "Walter Bradford Cannon is algebraic geometry",
+   "Walter Bradford Cannon is comparative mythology",
+   "Walter Bradford Cannon is color photography",
+   "Walter Bradford Cannon is cryptography",
+   "Walter Bradford Cannon is Christian Church",
+   "Walter Bradford Cannon is electrical engineering",
+   "Walter Bradford Cannon is folklore",
+   "Walter Bradford Cannon is mythology",
+   "Walter Bradford Cannon is human geography",
+   "Walter Bradford Cannon is Petrine ministry",
+   "Walter Bradford Cannon is Judaism",
+   "Walter Bradford Cannon is group theory",
+   "Walter Bradford Cannon is non-Euclidean geometry",
+   "Walter Bradford Cannon is algebra",
+   "Walter Bradford Cannon is ballistics",
+   "Walter Bradford Cannon is mathematician",
+   "Walter Bradford Cannon is applied physics",
+   "Walter Bradford Cannon is culturology",
+   "Walter Bradford Cannon is calculus of variations",
+   "Walter Bradford Cannon is logic",
+   "Walter Bradford Cannon is engineering",
+   "Walter Bradford Cannon is translations from Occitan",
+   "Walter Bradford Cannon is anatomy",
+   "Walter Bradford Cannon is forestry science",
+   "Walter Bradford Cannon is magic",
+   "Walter Bradford Cannon is quantum mechanics",
+   "Walter Bradford Cannon is differential calculus",
+   "Walter Bradford Cannon is shipbuilding",
+   "Walter Bradford Cannon is convex function",
+   "Walter Bradford Cannon is analytic philosophy",
+   "Walter Bradford Cannon is magnetic resonance",
+   "Walter Bradford Cannon is detective literature",
+   "Walter Bradford Cannon is cartography",
+   "Walter Bradford Cannon is sociology of organisations",
+   "Walter Bradford Cannon is crime novel",
+   "Walter Bradford Cannon is gravity",
+   "Walter Bradford Cannon is statistics",
+   "Walter Bradford Cannon is Greek philology",
+   "Walter Bradford Cannon is analytic number theory",
+   "Walter Bradford Cannon is trigonometry",
+   "Walter Bradford Cannon is physics",
+   "Walter Bradford Cannon is astronomer",
+   "Walter Bradford Cannon is natural science",
+   "Walter Bradford Cannon is information technology",
+   "Walter Bradford Cannon is conducting",
+   "Walter Bradford Cannon is nonstandard analysis",
+   "Walter Bradford Cannon is mathematical analysis",
+   "Walter Bradford Cannon is a branch of physics",
+   "Walter Bradford Cannon is projective geometry",
+   "Walter Bradford Cannon is civil rights",
+   "Walter Bradford Cannon is children's and youth literature",
+   "Walter Bradford Cannon is embryology",
+   "Walter Bradford Cannon is momentum",
+   "Walter Bradford Cannon is African studies",
+   "Walter Bradford Cannon is fairy tale",
+   "Walter Bradford Cannon is classics",
+   "Walter Bradford Cannon is social psychology",
+   "Walter Bradford Cannon is Jewish studies",
+   "Walter Bradford Cannon is silviculture",
+   "Walter Bradford Cannon is education",
+   "Walter Bradford Cannon is literature",
+   "Walter Bradford Cannon is constitutional law",
+   "Walter Bradford Cannon is radiation",
+   "Walter Bradford Cannon is Internet",
+   "Walter Bradford Cannon is heat",
+   "Walter Bradford Cannon is mechanical engineering",
+   "Walter Bradford Cannon is forestry",
+   "Walter Bradford Cannon is jazz",
+   "Walter Bradford Cannon is social philosophy",
+   "Walter Bradford Cannon is mathematical physics",
+   "Walter Bradford Cannon is meteorology",
+   "Walter Bradford Cannon is translations from Arabic language",
+   "Walter Bradford Cannon is quantum mysticism",
+   "Walter Bradford Cannon is politics",
+   "Walter Bradford Cannon is astronomical observation",
+   "Walter Bradford Cannon is myth",
+   "Walter Bradford Cannon is geography",
+   "Walter Bradford Cannon is sociology of religion",
+   "Walter Bradford Cannon is comparative religion",
+   "Walter Bradford Cannon is Greek",
+   "Walter Bradford Cannon is Lie algebra",
+   "Walter Bradford Cannon is complex manifold",
+   "Walter Bradford Cannon is journalism",
+   "Walter Bradford Cannon is celestial mechanics",
+   "Walter Bradford Cannon is String",
+   "Walter Bradford Cannon is mathematical logic",
+   "Walter Bradford Cannon is aeromechanics",
+   "Walter Bradford Cannon is English",
+   "Walter Bradford Cannon is history",
+   "Walter Bradford Cannon is study of history",
+   "Walter Bradford Cannon is genetics",
+   "Walter Bradford Cannon is psychology",
+   "Walter Bradford Cannon is theory of relativity",
+   "Walter Bradford Cannon is biochemistry",
+   "Walter Bradford Cannon is ballet",
+   "Walter Bradford Cannon is electricity",
+   "Walter Bradford Cannon is experimental physics",
+   "Walter Bradford Cannon is natural theology",
+   "Walter Bradford Cannon is Hebrew",
+   "Walter Bradford Cannon is prose",
+   "Walter Bradford Cannon is paleontology",
+   "Walter Bradford Cannon is Monte Carlo method",
+   "Walter Bradford Cannon is quantum theory",
+   "Walter Bradford Cannon is computer science",
+   "Walter Bradford Cannon is cybernetics",
+   "Walter Bradford Cannon is Afghanistan",
+   "Walter Bradford Cannon is philosophy of science",
+   "Walter Bradford Cannon is literary theory",
+   "Walter Bradford Cannon is electric field",
+   "Walter Bradford Cannon is religion",
+   "Walter Bradford Cannon is analytic geometry",
+   "Walter Bradford Cannon is graph theory",
+   "Walter Bradford Cannon is electron",
+   "Walter Bradford Cannon is anthropology",
+   "Walter Bradford Cannon is social anthropology",
+   "Walter Bradford Cannon is sociology",
+   "Walter Bradford Cannon is geodesy",
+   "Walter Bradford Cannon is neurology",
+   "Walter Bradford Cannon is drama",
+   "Walter Bradford Cannon is art of painting",
+   "Walter Bradford Cannon is applied mathematics",
+   "Walter Bradford Cannon is world economy",
+   "Walter Bradford Cannon is economic anthropology"
+  ],
+  [
+   [
+    -60.237857818603516
+   ],
+   [
+    -53.40486145019531
+   ],
+   [
+    -61.61830139160156
+   ],
+   [
+    -57.195945739746094
+   ],
+   [
+    -53.77922821044922
+   ],
+   [
+    -52.72626495361328
+   ],
+   [
+    -57.61014175415039
+   ],
+   [
+    -47.994232177734375
+   ],
+   [
+    -57.463783264160156
+   ],
+   [
+    -48.72417449951172
+   ],
+   [
+    -52.89470672607422
+   ],
+   [
+    -55.4208984375
+   ],
+   [
+    -54.068992614746094
+   ],
+   [
+    -53.13900375366211
+   ],
+   [
+    -54.91264343261719
+   ],
+   [
+    -54.76532745361328
+   ],
+   [
+    -56.90251541137695
+   ],
+   [
+    -61.18113708496094
+   ],
+   [
+    -51.131343841552734
+   ],
+   [
+    -61.92655944824219
+   ],
+   [
+    -54.48788833618164
+   ],
+   [
+    -57.99018096923828
+   ],
+   [
+    -53.26985549926758
+   ],
+   [
+    -49.805999755859375
+   ],
+   [
+    -54.33183670043945
+   ],
+   [
+    -54.07840347290039
+   ],
+   [
+    -54.600738525390625
+   ],
+   [
+    -61.71332550048828
+   ],
+   [
+    -59.709938049316406
+   ],
+   [
+    -61.748409271240234
+   ],
+   [
+    -55.67778778076172
+   ],
+   [
+    -62.015907287597656
+   ],
+   [
+    -59.819034576416016
+   ],
+   [
+    -57.33002471923828
+   ],
+   [
+    -51.42385482788086
+   ],
+   [
+    -60.912933349609375
+   ],
+   [
+    -54.543296813964844
+   ],
+   [
+    -57.50149917602539
+   ],
+   [
+    -54.42985534667969
+   ],
+   [
+    -55.694610595703125
+   ],
+   [
+    -55.644187927246094
+   ],
+   [
+    -60.92930603027344
+   ],
+   [
+    -59.17280578613281
+   ],
+   [
+    -65.96041107177734
+   ],
+   [
+    -56.07236862182617
+   ],
+   [
+    -55.58721923828125
+   ],
+   [
+    -56.14668273925781
+   ],
+   [
+    -56.7313232421875
+   ],
+   [
+    -58.77168273925781
+   ],
+   [
+    -57.508056640625
+   ],
+   [
+    -58.31761932373047
+   ],
+   [
+    -57.35955047607422
+   ],
+   [
+    -58.51548767089844
+   ],
+   [
+    -60.34209442138672
+   ],
+   [
+    -56.50898742675781
+   ],
+   [
+    -59.415855407714844
+   ],
+   [
+    -59.59613037109375
+   ],
+   [
+    -58.06663513183594
+   ],
+   [
+    -64.3809814453125
+   ],
+   [
+    -59.428627014160156
+   ],
+   [
+    -59.85906982421875
+   ],
+   [
+    -56.69859313964844
+   ],
+   [
+    -53.55475616455078
+   ],
+   [
+    -56.242393493652344
+   ],
+   [
+    -57.9555778503418
+   ],
+   [
+    -54.21215057373047
+   ],
+   [
+    -57.005638122558594
+   ],
+   [
+    -52.36308288574219
+   ],
+   [
+    -58.313514709472656
+   ],
+   [
+    -53.18568801879883
+   ],
+   [
+    -54.538909912109375
+   ],
+   [
+    -53.286407470703125
+   ],
+   [
+    -51.333404541015625
+   ],
+   [
+    -57.41371154785156
+   ],
+   [
+    -57.6527099609375
+   ],
+   [
+    -62.495479583740234
+   ],
+   [
+    -55.516014099121094
+   ],
+   [
+    -53.59675598144531
+   ],
+   [
+    -56.344539642333984
+   ],
+   [
+    -59.15888214111328
+   ],
+   [
+    -53.77155303955078
+   ],
+   [
+    -54.43684005737305
+   ],
+   [
+    -61.10294723510742
+   ],
+   [
+    -56.86036682128906
+   ],
+   [
+    -58.15384292602539
+   ],
+   [
+    -42.68273162841797
+   ],
+   [
+    -67.533447265625
+   ],
+   [
+    -56.48573303222656
+   ],
+   [
+    -57.878299713134766
+   ],
+   [
+    -58.3775634765625
+   ],
+   [
+    -57.8240966796875
+   ],
+   [
+    -54.77953338623047
+   ],
+   [
+    -53.98017501831055
+   ],
+   [
+    -49.61726379394531
+   ],
+   [
+    -69.026123046875
+   ],
+   [
+    -56.95677947998047
+   ],
+   [
+    -46.104888916015625
+   ],
+   [
+    -59.13486862182617
+   ],
+   [
+    -57.53253173828125
+   ],
+   [
+    -60.808712005615234
+   ],
+   [
+    -59.40764617919922
+   ],
+   [
+    -58.52500915527344
+   ],
+   [
+    -50.046852111816406
+   ],
+   [
+    -56.77312469482422
+   ],
+   [
+    -55.73334503173828
+   ],
+   [
+    -58.6988525390625
+   ],
+   [
+    -69.11241912841797
+   ],
+   [
+    -56.72838592529297
+   ],
+   [
+    -58.691383361816406
+   ],
+   [
+    -58.22675323486328
+   ],
+   [
+    -57.684600830078125
+   ],
+   [
+    -54.88928985595703
+   ],
+   [
+    -60.61365509033203
+   ],
+   [
+    -55.67724609375
+   ],
+   [
+    -56.08134460449219
+   ],
+   [
+    -59.92782211303711
+   ],
+   [
+    -52.832481384277344
+   ],
+   [
+    -53.19366455078125
+   ],
+   [
+    -69.23252868652344
+   ],
+   [
+    -46.5670280456543
+   ],
+   [
+    -60.26017379760742
+   ],
+   [
+    -54.68768310546875
+   ],
+   [
+    -57.16527557373047
+   ],
+   [
+    -57.276763916015625
+   ],
+   [
+    -58.789268493652344
+   ],
+   [
+    -64.01763153076172
+   ],
+   [
+    -56.1433219909668
+   ],
+   [
+    -57.540496826171875
+   ],
+   [
+    -62.333641052246094
+   ],
+   [
+    -56.82372283935547
+   ],
+   [
+    -62.456546783447266
+   ],
+   [
+    -62.90105438232422
+   ],
+   [
+    -56.01544189453125
+   ],
+   [
+    -52.96495056152344
+   ],
+   [
+    -58.74996566772461
+   ],
+   [
+    -64.36730194091797
+   ],
+   [
+    -59.12431335449219
+   ],
+   [
+    -49.783363342285156
+   ],
+   [
+    -62.116024017333984
+   ],
+   [
+    -52.53620529174805
+   ],
+   [
+    -55.10721969604492
+   ],
+   [
+    -54.49462890625
+   ],
+   [
+    -67.37479400634766
+   ],
+   [
+    -56.44826889038086
+   ],
+   [
+    -56.22283172607422
+   ],
+   [
+    -57.31560516357422
+   ],
+   [
+    -58.26234817504883
+   ],
+   [
+    -66.0916519165039
+   ],
+   [
+    -49.09814453125
+   ],
+   [
+    -55.240386962890625
+   ],
+   [
+    -58.36863708496094
+   ],
+   [
+    -61.41364288330078
+   ],
+   [
+    -52.125606536865234
+   ],
+   [
+    -50.57917785644531
+   ],
+   [
+    -57.10999298095703
+   ],
+   [
+    -61.01768493652344
+   ],
+   [
+    -51.815032958984375
+   ],
+   [
+    -51.59221649169922
+   ],
+   [
+    -53.59735107421875
+   ],
+   [
+    -53.11640167236328
+   ],
+   [
+    -56.36602783203125
+   ],
+   [
+    -52.46788787841797
+   ],
+   [
+    -58.00926208496094
+   ],
+   [
+    -55.5621452331543
+   ],
+   [
+    -55.879608154296875
+   ],
+   [
+    -54.66639709472656
+   ],
+   [
+    -56.08325958251953
+   ],
+   [
+    -54.027549743652344
+   ],
+   [
+    -68.16276550292969
+   ],
+   [
+    -65.23722839355469
+   ],
+   [
+    -52.97309875488281
+   ],
+   [
+    -62.47682189941406
+   ],
+   [
+    -54.76915740966797
+   ],
+   [
+    -53.39619064331055
+   ],
+   [
+    -55.91077423095703
+   ],
+   [
+    -57.06311798095703
+   ],
+   [
+    -55.05796813964844
+   ],
+   [
+    -61.273189544677734
+   ],
+   [
+    -61.67229461669922
+   ],
+   [
+    -53.54302215576172
+   ],
+   [
+    -57.168785095214844
+   ],
+   [
+    -57.083656311035156
+   ],
+   [
+    -56.55088424682617
+   ],
+   [
+    -60.09467315673828
+   ],
+   [
+    -51.920875549316406
+   ],
+   [
+    -49.669105529785156
+   ],
+   [
+    -61.22035217285156
+   ],
+   [
+    -51.52857971191406
+   ],
+   [
+    -47.332122802734375
+   ],
+   [
+    -60.92387390136719
+   ],
+   [
+    -47.47678756713867
+   ],
+   [
+    -57.37164306640625
+   ],
+   [
+    -51.827701568603516
+   ],
+   [
+    -55.351234436035156
+   ],
+   [
+    -57.072998046875
+   ],
+   [
+    -54.37958526611328
+   ],
+   [
+    -57.998382568359375
+   ],
+   [
+    -54.52001190185547
+   ],
+   [
+    -61.17772674560547
+   ],
+   [
+    -58.489105224609375
+   ],
+   [
+    -55.51047134399414
+   ],
+   [
+    -51.61927795410156
+   ],
+   [
+    -57.04009246826172
+   ],
+   [
+    -51.830902099609375
+   ],
+   [
+    -57.551910400390625
+   ],
+   [
+    -58.2864990234375
+   ],
+   [
+    -53.51714324951172
+   ],
+   [
+    -62.946441650390625
+   ],
+   [
+    -60.735504150390625
+   ],
+   [
+    -53.77471160888672
+   ],
+   [
+    -50.81237030029297
+   ],
+   [
+    -54.94841766357422
+   ],
+   [
+    -49.86841583251953
+   ],
+   [
+    -58.31800079345703
+   ],
+   [
+    -46.42802429199219
+   ],
+   [
+    -56.84540557861328
+   ],
+   [
+    -61.99818420410156
+   ],
+   [
+    -58.044090270996094
+   ],
+   [
+    -62.0531005859375
+   ],
+   [
+    -56.79802703857422
+   ],
+   [
+    -48.767723083496094
+   ],
+   [
+    -38.91474914550781
+   ],
+   [
+    -44.25959014892578
+   ],
+   [
+    -46.56333923339844
+   ],
+   [
+    -42.50068664550781
+   ],
+   [
+    -38.40123748779297
+   ],
+   [
+    -38.838409423828125
+   ],
+   [
+    -37.57854461669922
+   ],
+   [
+    -45.86375045776367
+   ],
+   [
+    -40.217674255371094
+   ],
+   [
+    -39.64832305908203
+   ],
+   [
+    -42.91410446166992
+   ],
+   [
+    -36.54132080078125
+   ],
+   [
+    -39.75803756713867
+   ],
+   [
+    -41.975669860839844
+   ],
+   [
+    -39.88770294189453
+   ],
+   [
+    -41.27330017089844
+   ],
+   [
+    -41.34585952758789
+   ],
+   [
+    -36.45087432861328
+   ],
+   [
+    -48.19059753417969
+   ],
+   [
+    -40.87908935546875
+   ],
+   [
+    -47.28229522705078
+   ],
+   [
+    -39.95879364013672
+   ],
+   [
+    -36.27114486694336
+   ],
+   [
+    -40.3707275390625
+   ],
+   [
+    -40.695919036865234
+   ],
+   [
+    -36.77262496948242
+   ],
+   [
+    -51.85868453979492
+   ],
+   [
+    -40.90193176269531
+   ],
+   [
+    -54.587120056152344
+   ],
+   [
+    -42.01870346069336
+   ],
+   [
+    -48.435394287109375
+   ],
+   [
+    -47.761558532714844
+   ],
+   [
+    -43.21685791015625
+   ],
+   [
+    -38.309810638427734
+   ],
+   [
+    -46.28298568725586
+   ],
+   [
+    -42.746917724609375
+   ],
+   [
+    -41.778541564941406
+   ],
+   [
+    -38.39198684692383
+   ],
+   [
+    -39.59971618652344
+   ],
+   [
+    -41.75738525390625
+   ],
+   [
+    -48.68067169189453
+   ],
+   [
+    -44.8914794921875
+   ],
+   [
+    -50.127830505371094
+   ],
+   [
+    -42.440704345703125
+   ],
+   [
+    -39.88990020751953
+   ],
+   [
+    -43.642799377441406
+   ],
+   [
+    -40.770263671875
+   ],
+   [
+    -46.70622634887695
+   ],
+   [
+    -37.87434387207031
+   ],
+   [
+    -41.06486511230469
+   ],
+   [
+    -39.03287124633789
+   ],
+   [
+    -49.356842041015625
+   ],
+   [
+    -48.24656677246094
+   ],
+   [
+    -51.61439514160156
+   ],
+   [
+    -47.03673553466797
+   ],
+   [
+    -44.67485046386719
+   ],
+   [
+    -46.49070739746094
+   ],
+   [
+    -51.85260009765625
+   ],
+   [
+    -45.72716522216797
+   ],
+   [
+    -44.82355499267578
+   ],
+   [
+    -42.78525924682617
+   ],
+   [
+    -39.751739501953125
+   ],
+   [
+    -42.95526123046875
+   ],
+   [
+    -45.6500244140625
+   ],
+   [
+    -37.79098129272461
+   ],
+   [
+    -44.7295036315918
+   ],
+   [
+    -40.4356689453125
+   ],
+   [
+    -44.771392822265625
+   ],
+   [
+    -40.81156921386719
+   ],
+   [
+    -41.57757568359375
+   ],
+   [
+    -42.09384536743164
+   ],
+   [
+    -39.02954864501953
+   ],
+   [
+    -47.10899353027344
+   ],
+   [
+    -45.21653747558594
+   ],
+   [
+    -50.543052673339844
+   ],
+   [
+    -38.06517791748047
+   ],
+   [
+    -40.873260498046875
+   ],
+   [
+    -42.39535140991211
+   ],
+   [
+    -48.1463623046875
+   ],
+   [
+    -42.6213264465332
+   ],
+   [
+    -40.05397033691406
+   ],
+   [
+    -46.05023956298828
+   ],
+   [
+    -42.17638397216797
+   ],
+   [
+    -41.17729187011719
+   ],
+   [
+    -35.27490234375
+   ],
+   [
+    -54.55406188964844
+   ],
+   [
+    -40.692169189453125
+   ],
+   [
+    -47.91442108154297
+   ],
+   [
+    -42.76476287841797
+   ],
+   [
+    -39.56039810180664
+   ],
+   [
+    -40.913604736328125
+   ],
+   [
+    -34.48077392578125
+   ],
+   [
+    -39.184913635253906
+   ],
+   [
+    -54.88800048828125
+   ],
+   [
+    -43.77735900878906
+   ],
+   [
+    -36.78024673461914
+   ],
+   [
+    -47.46636962890625
+   ],
+   [
+    -48.014827728271484
+   ],
+   [
+    -45.765464782714844
+   ],
+   [
+    -44.90353012084961
+   ],
+   [
+    -41.56035614013672
+   ],
+   [
+    -39.447628021240234
+   ],
+   [
+    -39.781097412109375
+   ],
+   [
+    -41.13038635253906
+   ],
+   [
+    -44.143978118896484
+   ],
+   [
+    -55.862327575683594
+   ],
+   [
+    -41.68966293334961
+   ],
+   [
+    -43.95991897583008
+   ],
+   [
+    -43.49776840209961
+   ],
+   [
+    -41.274574279785156
+   ],
+   [
+    -43.56620788574219
+   ],
+   [
+    -37.45207977294922
+   ],
+   [
+    -44.61863327026367
+   ],
+   [
+    -45.050086975097656
+   ],
+   [
+    -48.99551010131836
+   ],
+   [
+    -39.08087921142578
+   ],
+   [
+    -38.36163330078125
+   ],
+   [
+    -57.09941864013672
+   ],
+   [
+    -36.43169403076172
+   ],
+   [
+    -47.227996826171875
+   ],
+   [
+    -37.60325622558594
+   ],
+   [
+    -42.67779541015625
+   ],
+   [
+    -44.712799072265625
+   ],
+   [
+    -44.515708923339844
+   ],
+   [
+    -47.92756271362305
+   ],
+   [
+    -43.18058776855469
+   ],
+   [
+    -42.1533203125
+   ],
+   [
+    -47.78704833984375
+   ],
+   [
+    -39.96959686279297
+   ],
+   [
+    -54.799644470214844
+   ],
+   [
+    -42.25935745239258
+   ],
+   [
+    -38.63165283203125
+   ],
+   [
+    -37.818809509277344
+   ],
+   [
+    -45.602455139160156
+   ],
+   [
+    -54.33543014526367
+   ],
+   [
+    -43.934295654296875
+   ],
+   [
+    -37.42536926269531
+   ],
+   [
+    -38.65254211425781
+   ],
+   [
+    -37.66554260253906
+   ],
+   [
+    -40.07564163208008
+   ],
+   [
+    -35.05498504638672
+   ],
+   [
+    -50.197998046875
+   ],
+   [
+    -43.101932525634766
+   ],
+   [
+    -41.313941955566406
+   ],
+   [
+    -47.172691345214844
+   ],
+   [
+    -41.90608215332031
+   ],
+   [
+    -49.28180694580078
+   ],
+   [
+    -41.85536193847656
+   ],
+   [
+    -40.255008697509766
+   ],
+   [
+    -43.80207824707031
+   ],
+   [
+    -44.37681579589844
+   ],
+   [
+    -36.97245788574219
+   ],
+   [
+    -39.824493408203125
+   ],
+   [
+    -40.93780517578125
+   ],
+   [
+    -47.63077163696289
+   ],
+   [
+    -35.75875473022461
+   ],
+   [
+    -36.677913665771484
+   ],
+   [
+    -42.12023162841797
+   ],
+   [
+    -37.61947250366211
+   ],
+   [
+    -36.09307098388672
+   ],
+   [
+    -39.03145980834961
+   ],
+   [
+    -41.58792495727539
+   ],
+   [
+    -41.04217529296875
+   ],
+   [
+    -37.13693618774414
+   ],
+   [
+    -42.33782958984375
+   ],
+   [
+    -42.399192810058594
+   ],
+   [
+    -39.703399658203125
+   ],
+   [
+    -56.19486999511719
+   ],
+   [
+    -48.23118591308594
+   ],
+   [
+    -39.304264068603516
+   ],
+   [
+    -47.089630126953125
+   ],
+   [
+    -37.045326232910156
+   ],
+   [
+    -38.834930419921875
+   ],
+   [
+    -49.00521469116211
+   ],
+   [
+    -46.81925582885742
+   ],
+   [
+    -37.457767486572266
+   ],
+   [
+    -51.393001556396484
+   ],
+   [
+    -49.55805587768555
+   ],
+   [
+    -39.47013854980469
+   ],
+   [
+    -48.29560089111328
+   ],
+   [
+    -39.14599609375
+   ],
+   [
+    -43.0625
+   ],
+   [
+    -45.800750732421875
+   ],
+   [
+    -33.38945770263672
+   ],
+   [
+    -33.93718338012695
+   ],
+   [
+    -44.03003692626953
+   ],
+   [
+    -39.34507369995117
+   ],
+   [
+    -36.152687072753906
+   ],
+   [
+    -47.63623809814453
+   ],
+   [
+    -38.58281707763672
+   ],
+   [
+    -44.15793228149414
+   ],
+   [
+    -38.76934051513672
+   ],
+   [
+    -45.08815002441406
+   ],
+   [
+    -42.14673614501953
+   ],
+   [
+    -37.73107147216797
+   ],
+   [
+    -38.893211364746094
+   ],
+   [
+    -40.904144287109375
+   ],
+   [
+    -48.19635772705078
+   ],
+   [
+    -44.04402160644531
+   ],
+   [
+    -39.65592956542969
+   ],
+   [
+    -38.35784149169922
+   ],
+   [
+    -39.922630310058594
+   ],
+   [
+    -40.02863311767578
+   ],
+   [
+    -44.73172378540039
+   ],
+   [
+    -45.280845642089844
+   ],
+   [
+    -37.7379150390625
+   ],
+   [
+    -47.82528305053711
+   ],
+   [
+    -45.306480407714844
+   ],
+   [
+    -36.71937561035156
+   ],
+   [
+    -37.022666931152344
+   ],
+   [
+    -42.820030212402344
+   ],
+   [
+    -38.86613464355469
+   ],
+   [
+    -45.45500946044922
+   ],
+   [
+    -38.22745895385742
+   ],
+   [
+    -39.553287506103516
+   ],
+   [
+    -48.03585433959961
+   ],
+   [
+    -45.64586639404297
+   ],
+   [
+    -45.60712814331055
+   ],
+   [
+    -43.131507873535156
+   ]
+  ]
+ ],
+ "time": 4542.715472459793
+}

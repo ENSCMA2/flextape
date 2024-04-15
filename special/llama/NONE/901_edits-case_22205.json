@@ -1,0 +1,2076 @@
+{
+ "case_id": 22205,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Raymond Abellio"
+ },
+ "pre": [
+  [
+   "Raymond Abellio's field of work is trigonometry",
+   "Raymond Abellio's field of work is Minkowski spacetime",
+   "Raymond Abellio's field of work is physiology",
+   "Raymond Abellio's field of work is civil rights",
+   "Raymond Abellio's field of work is theory of relativity",
+   "Raymond Abellio's field of work is electric field",
+   "Raymond Abellio's field of work is literary translation",
+   "Raymond Abellio's field of work is geography",
+   "Raymond Abellio's field of work is detective literature",
+   "Raymond Abellio's field of work is hyperbolic geometry",
+   "Raymond Abellio's field of work is ballet",
+   "Raymond Abellio's field of work is quantum mechanics",
+   "Raymond Abellio's field of work is silviculture",
+   "Raymond Abellio's field of work is study of history",
+   "Raymond Abellio's field of work is television program",
+   "Raymond Abellio's field of work is radiation",
+   "Raymond Abellio's field of work is crystallography",
+   "Raymond Abellio's field of work is English",
+   "Raymond Abellio's field of work is comparative mythology",
+   "Raymond Abellio's field of work is non-Euclidean geometry",
+   "Raymond Abellio's field of work is education",
+   "Raymond Abellio's field of work is Sanskrit",
+   "Raymond Abellio's field of work is astronomer",
+   "Raymond Abellio's field of work is chemistry",
+   "Raymond Abellio's field of work is medicine",
+   "Raymond Abellio's field of work is pedagogy",
+   "Raymond Abellio's field of work is mythology",
+   "Raymond Abellio's field of work is harmonic analysis",
+   "Raymond Abellio's field of work is social anthropology",
+   "Raymond Abellio's field of work is literature",
+   "Raymond Abellio's field of work is psychology",
+   "Raymond Abellio's field of work is aeromechanics",
+   "Raymond Abellio's field of work is physics",
+   "Raymond Abellio's field of work is algebraic topology",
+   "Raymond Abellio's field of work is forestry",
+   "Raymond Abellio's field of work is magnetism",
+   "Raymond Abellio's field of work is anthropology",
+   "Raymond Abellio's field of work is Greek philology",
+   "Raymond Abellio's field of work is theology",
+   "Raymond Abellio's field of work is analytic philosophy",
+   "Raymond Abellio's field of work is computational geometry",
+   "Raymond Abellio's field of work is graph theory",
+   "Raymond Abellio's field of work is philosophy of law",
+   "Raymond Abellio's field of work is ballistics",
+   "Raymond Abellio's field of work is dance choreography",
+   "Raymond Abellio's field of work is Lie algebra",
+   "Raymond Abellio's field of work is histology",
+   "Raymond Abellio's field of work is complex manifold",
+   "Raymond Abellio's field of work is history",
+   "Raymond Abellio's field of work is celestial mechanics",
+   "Raymond Abellio's field of work is differential geometry",
+   "Raymond Abellio's field of work is Petrine ministry",
+   "Raymond Abellio's field of work is dance",
+   "Raymond Abellio's field of work is String",
+   "Raymond Abellio's field of work is a branch of physics",
+   "Raymond Abellio's field of work is mechanical engineering",
+   "Raymond Abellio's field of work is mathematical logic",
+   "Raymond Abellio's field of work is geodesy",
+   "Raymond Abellio's field of work is historical novel",
+   "Raymond Abellio's field of work is Jewish studies",
+   "Raymond Abellio's field of work is distribution",
+   "Raymond Abellio's field of work is Greek",
+   "Raymond Abellio's field of work is natural science",
+   "Raymond Abellio's field of work is Hebrew",
+   "Raymond Abellio's field of work is astrology",
+   "Raymond Abellio's field of work is group theory",
+   "Raymond Abellio's field of work is Judaism",
+   "Raymond Abellio's field of work is model theory",
+   "Raymond Abellio's field of work is opera",
+   "Raymond Abellio's field of work is religion",
+   "Raymond Abellio's field of work is evolution",
+   "Raymond Abellio's field of work is hunting",
+   "Raymond Abellio's field of work is nonstandard analysis",
+   "Raymond Abellio's field of work is applied physics",
+   "Raymond Abellio's field of work is philosophy",
+   "Raymond Abellio's field of work is aerodynamics",
+   "Raymond Abellio's field of work is classical music",
+   "Raymond Abellio's field of work is biological anthropology",
+   "Raymond Abellio's field of work is experimental physics",
+   "Raymond Abellio's field of work is ethnography",
+   "Raymond Abellio's field of work is geometry",
+   "Raymond Abellio's field of work is statistics",
+   "Raymond Abellio's field of work is cosmology",
+   "Raymond Abellio's field of work is algebra",
+   "Raymond Abellio's field of work is heat",
+   "Raymond Abellio's field of work is convex function",
+   "Raymond Abellio's field of work is applied mathematics",
+   "Raymond Abellio's field of work is ontology",
+   "Raymond Abellio's field of work is translations from Occitan",
+   "Raymond Abellio's field of work is folklore",
+   "Raymond Abellio's field of work is analytic number theory",
+   "Raymond Abellio's field of work is astronomical observation",
+   "Raymond Abellio's field of work is algebraic geometry",
+   "Raymond Abellio's field of work is history of economic thought",
+   "Raymond Abellio's field of work is informatics",
+   "Raymond Abellio's field of work is surgery",
+   "Raymond Abellio's field of work is Afghanistan",
+   "Raymond Abellio's field of work is social psychology",
+   "Raymond Abellio's field of work is sociology",
+   "Raymond Abellio's field of work is anatomy",
+   "Raymond Abellio's field of work is neurology",
+   "Raymond Abellio's field of work is hydrodynamics",
+   "Raymond Abellio's field of work is sociology of religion",
+   "Raymond Abellio's field of work is complex function",
+   "Raymond Abellio's field of work is shipbuilding",
+   "Raymond Abellio's field of work is electron",
+   "Raymond Abellio's field of work is African studies",
+   "Raymond Abellio's field of work is historical sociology",
+   "Raymond Abellio's field of work is biochemistry",
+   "Raymond Abellio's field of work is religion and society",
+   "Raymond Abellio's field of work is cryptography",
+   "Raymond Abellio's field of work is crime novel",
+   "Raymond Abellio's field of work is meteorology",
+   "Raymond Abellio's field of work is mathematical physics",
+   "Raymond Abellio's field of work is theoretical physics",
+   "Raymond Abellio's field of work is theory of differential equations",
+   "Raymond Abellio's field of work is art of painting",
+   "Raymond Abellio's field of work is essay",
+   "Raymond Abellio's field of work is human geography",
+   "Raymond Abellio's field of work is gravity",
+   "Raymond Abellio's field of work is natural theology",
+   "Raymond Abellio's field of work is momentum",
+   "Raymond Abellio's field of work is optics",
+   "Raymond Abellio's field of work is paleontology",
+   "Raymond Abellio's field of work is calculus of variations",
+   "Raymond Abellio's field of work is prose",
+   "Raymond Abellio's field of work is political philosophy",
+   "Raymond Abellio's field of work is engineering",
+   "Raymond Abellio's field of work is children's and youth literature",
+   "Raymond Abellio's field of work is computer science",
+   "Raymond Abellio's field of work is philosopher",
+   "Raymond Abellio's field of work is Bayesian inference",
+   "Raymond Abellio's field of work is translations from Polish",
+   "Raymond Abellio's field of work is differential calculus",
+   "Raymond Abellio's field of work is quantum electrodynamics",
+   "Raymond Abellio's field of work is ethnology",
+   "Raymond Abellio's field of work is Internet",
+   "Raymond Abellio's field of work is economic anthropology",
+   "Raymond Abellio's field of work is philosophy of science",
+   "Raymond Abellio's field of work is politics",
+   "Raymond Abellio's field of work is economics",
+   "Raymond Abellio's field of work is distribution theory",
+   "Raymond Abellio's field of work is kinetic theory",
+   "Raymond Abellio's field of work is sociology of organisations",
+   "Raymond Abellio's field of work is quaternion",
+   "Raymond Abellio's field of work is mathematician",
+   "Raymond Abellio's field of work is social philosophy",
+   "Raymond Abellio's field of work is forestry science",
+   "Raymond Abellio's field of work is rite",
+   "Raymond Abellio's field of work is Monte Carlo method",
+   "Raymond Abellio's field of work is analytic geometry",
+   "Raymond Abellio's field of work is electrical engineering",
+   "Raymond Abellio's field of work is Franciscan spirituality",
+   "Raymond Abellio's field of work is stochastic",
+   "Raymond Abellio's field of work is translations from Spanish",
+   "Raymond Abellio's field of work is world economy",
+   "Raymond Abellio's field of work is drama",
+   "Raymond Abellio's field of work is electricity",
+   "Raymond Abellio's field of work is cybernetics",
+   "Raymond Abellio's field of work is embryology",
+   "Raymond Abellio's field of work is linguistics",
+   "Raymond Abellio's field of work is magnetic resonance",
+   "Raymond Abellio's field of work is English literature",
+   "Raymond Abellio's field of work is topology",
+   "Raymond Abellio's field of work is belletristic literature",
+   "Raymond Abellio's field of work is mathematical analysis",
+   "Raymond Abellio's field of work is lyric poetry",
+   "Raymond Abellio's field of work is projective geometry",
+   "Raymond Abellio's field of work is Jewish philosophy",
+   "Raymond Abellio's field of work is myth",
+   "Raymond Abellio's field of work is ethics",
+   "Raymond Abellio's field of work is history of religions",
+   "Raymond Abellio's field of work is logic",
+   "Raymond Abellio's field of work is comparative religion",
+   "Raymond Abellio's field of work is functional analysis",
+   "Raymond Abellio's field of work is astrophysics",
+   "Raymond Abellio's field of work is partial differential equation",
+   "Raymond Abellio's field of work is magic",
+   "Raymond Abellio's field of work is mechanics",
+   "Raymond Abellio's field of work is electromagnetic field",
+   "Raymond Abellio's field of work is philology",
+   "Raymond Abellio's field of work is abstract algebra",
+   "Raymond Abellio's field of work is translations from Arabic language",
+   "Raymond Abellio's field of work is ferromagnetism",
+   "Raymond Abellio's field of work is translations from English",
+   "Raymond Abellio's field of work is culturology",
+   "Raymond Abellio's field of work is psychophysiology",
+   "Raymond Abellio's field of work is nanotechnology",
+   "Raymond Abellio's field of work is jazz",
+   "Raymond Abellio's field of work is cartography",
+   "Raymond Abellio's field of work is physicist",
+   "Raymond Abellio's field of work is feminism",
+   "Raymond Abellio's field of work is number theory",
+   "Raymond Abellio's field of work is radioactivity",
+   "Raymond Abellio's field of work is constitutional law",
+   "Raymond Abellio's field of work is economy",
+   "Raymond Abellio's field of work is positivism",
+   "Raymond Abellio's field of work is fairy tale",
+   "Raymond Abellio's field of work is Cairo Geniza",
+   "Raymond Abellio's field of work is journalism",
+   "Raymond Abellio's field of work is literary activity",
+   "Raymond Abellio's field of work is color photography",
+   "Raymond Abellio's field of work is genetics",
+   "Raymond Abellio's field of work is Christian Church",
+   "Raymond Abellio's field of work is mathematics",
+   "Raymond Abellio's field of work is poetry",
+   "Raymond Abellio's field of work is nuclear physics",
+   "Raymond Abellio's field of work is information technology",
+   "Raymond Abellio's field of work is conducting",
+   "Raymond Abellio's field of work is quantum physics",
+   "Raymond Abellio's field of work is history of science",
+   "Raymond Abellio's field of work is music theory",
+   "Raymond Abellio's field of work is classics",
+   "Raymond Abellio's field of work is choreography",
+   "Raymond Abellio's field of work is literary theory",
+   "Raymond Abellio's field of work is astronomy",
+   "Raymond Abellio's field of work is probability theory",
+   "Raymond Abellio's field of work is quantum theory",
+   "Raymond Abellio's field of work is magnetic field",
+   "Raymond Abellio's field of work is quantum mysticism",
+   "Raymond Abellio is trigonometry",
+   "Raymond Abellio is Minkowski spacetime",
+   "Raymond Abellio is physiology",
+   "Raymond Abellio is civil rights",
+   "Raymond Abellio is theory of relativity",
+   "Raymond Abellio is electric field",
+   "Raymond Abellio is literary translation",
+   "Raymond Abellio is geography",
+   "Raymond Abellio is detective literature",
+   "Raymond Abellio is hyperbolic geometry",
+   "Raymond Abellio is ballet",
+   "Raymond Abellio is quantum mechanics",
+   "Raymond Abellio is silviculture",
+   "Raymond Abellio is study of history",
+   "Raymond Abellio is television program",
+   "Raymond Abellio is radiation",
+   "Raymond Abellio is crystallography",
+   "Raymond Abellio is English",
+   "Raymond Abellio is comparative mythology",
+   "Raymond Abellio is non-Euclidean geometry",
+   "Raymond Abellio is education",
+   "Raymond Abellio is Sanskrit",
+   "Raymond Abellio is astronomer",
+   "Raymond Abellio is chemistry",
+   "Raymond Abellio is medicine",
+   "Raymond Abellio is pedagogy",
+   "Raymond Abellio is mythology",
+   "Raymond Abellio is harmonic analysis",
+   "Raymond Abellio is social anthropology",
+   "Raymond Abellio is literature",
+   "Raymond Abellio is psychology",
+   "Raymond Abellio is aeromechanics",
+   "Raymond Abellio is physics",
+   "Raymond Abellio is algebraic topology",
+   "Raymond Abellio is forestry",
+   "Raymond Abellio is magnetism",
+   "Raymond Abellio is anthropology",
+   "Raymond Abellio is Greek philology",
+   "Raymond Abellio is theology",
+   "Raymond Abellio is analytic philosophy",
+   "Raymond Abellio is computational geometry",
+   "Raymond Abellio is graph theory",
+   "Raymond Abellio is philosophy of law",
+   "Raymond Abellio is ballistics",
+   "Raymond Abellio is dance choreography",
+   "Raymond Abellio is Lie algebra",
+   "Raymond Abellio is histology",
+   "Raymond Abellio is complex manifold",
+   "Raymond Abellio is history",
+   "Raymond Abellio is celestial mechanics",
+   "Raymond Abellio is differential geometry",
+   "Raymond Abellio is Petrine ministry",
+   "Raymond Abellio is dance",
+   "Raymond Abellio is String",
+   "Raymond Abellio is a branch of physics",
+   "Raymond Abellio is mechanical engineering",
+   "Raymond Abellio is mathematical logic",
+   "Raymond Abellio is geodesy",
+   "Raymond Abellio is historical novel",
+   "Raymond Abellio is Jewish studies",
+   "Raymond Abellio is distribution",
+   "Raymond Abellio is Greek",
+   "Raymond Abellio is natural science",
+   "Raymond Abellio is Hebrew",
+   "Raymond Abellio is astrology",
+   "Raymond Abellio is group theory",
+   "Raymond Abellio is Judaism",
+   "Raymond Abellio is model theory",
+   "Raymond Abellio is opera",
+   "Raymond Abellio is religion",
+   "Raymond Abellio is evolution",
+   "Raymond Abellio is hunting",
+   "Raymond Abellio is nonstandard analysis",
+   "Raymond Abellio is applied physics",
+   "Raymond Abellio is philosophy",
+   "Raymond Abellio is aerodynamics",
+   "Raymond Abellio is classical music",
+   "Raymond Abellio is biological anthropology",
+   "Raymond Abellio is experimental physics",
+   "Raymond Abellio is ethnography",
+   "Raymond Abellio is geometry",
+   "Raymond Abellio is statistics",
+   "Raymond Abellio is cosmology",
+   "Raymond Abellio is algebra",
+   "Raymond Abellio is heat",
+   "Raymond Abellio is convex function",
+   "Raymond Abellio is applied mathematics",
+   "Raymond Abellio is ontology",
+   "Raymond Abellio is translations from Occitan",
+   "Raymond Abellio is folklore",
+   "Raymond Abellio is analytic number theory",
+   "Raymond Abellio is astronomical observation",
+   "Raymond Abellio is algebraic geometry",
+   "Raymond Abellio is history of economic thought",
+   "Raymond Abellio is informatics",
+   "Raymond Abellio is surgery",
+   "Raymond Abellio is Afghanistan",
+   "Raymond Abellio is social psychology",
+   "Raymond Abellio is sociology",
+   "Raymond Abellio is anatomy",
+   "Raymond Abellio is neurology",
+   "Raymond Abellio is hydrodynamics",
+   "Raymond Abellio is sociology of religion",
+   "Raymond Abellio is complex function",
+   "Raymond Abellio is shipbuilding",
+   "Raymond Abellio is electron",
+   "Raymond Abellio is African studies",
+   "Raymond Abellio is historical sociology",
+   "Raymond Abellio is biochemistry",
+   "Raymond Abellio is religion and society",
+   "Raymond Abellio is cryptography",
+   "Raymond Abellio is crime novel",
+   "Raymond Abellio is meteorology",
+   "Raymond Abellio is mathematical physics",
+   "Raymond Abellio is theoretical physics",
+   "Raymond Abellio is theory of differential equations",
+   "Raymond Abellio is art of painting",
+   "Raymond Abellio is essay",
+   "Raymond Abellio is human geography",
+   "Raymond Abellio is gravity",
+   "Raymond Abellio is natural theology",
+   "Raymond Abellio is momentum",
+   "Raymond Abellio is optics",
+   "Raymond Abellio is paleontology",
+   "Raymond Abellio is calculus of variations",
+   "Raymond Abellio is prose",
+   "Raymond Abellio is political philosophy",
+   "Raymond Abellio is engineering",
+   "Raymond Abellio is children's and youth literature",
+   "Raymond Abellio is computer science",
+   "Raymond Abellio is philosopher",
+   "Raymond Abellio is Bayesian inference",
+   "Raymond Abellio is translations from Polish",
+   "Raymond Abellio is differential calculus",
+   "Raymond Abellio is quantum electrodynamics",
+   "Raymond Abellio is ethnology",
+   "Raymond Abellio is Internet",
+   "Raymond Abellio is economic anthropology",
+   "Raymond Abellio is philosophy of science",
+   "Raymond Abellio is politics",
+   "Raymond Abellio is economics",
+   "Raymond Abellio is distribution theory",
+   "Raymond Abellio is kinetic theory",
+   "Raymond Abellio is sociology of organisations",
+   "Raymond Abellio is quaternion",
+   "Raymond Abellio is mathematician",
+   "Raymond Abellio is social philosophy",
+   "Raymond Abellio is forestry science",
+   "Raymond Abellio is rite",
+   "Raymond Abellio is Monte Carlo method",
+   "Raymond Abellio is analytic geometry",
+   "Raymond Abellio is electrical engineering",
+   "Raymond Abellio is Franciscan spirituality",
+   "Raymond Abellio is stochastic",
+   "Raymond Abellio is translations from Spanish",
+   "Raymond Abellio is world economy",
+   "Raymond Abellio is drama",
+   "Raymond Abellio is electricity",
+   "Raymond Abellio is cybernetics",
+   "Raymond Abellio is embryology",
+   "Raymond Abellio is linguistics",
+   "Raymond Abellio is magnetic resonance",
+   "Raymond Abellio is English literature",
+   "Raymond Abellio is topology",
+   "Raymond Abellio is belletristic literature",
+   "Raymond Abellio is mathematical analysis",
+   "Raymond Abellio is lyric poetry",
+   "Raymond Abellio is projective geometry",
+   "Raymond Abellio is Jewish philosophy",
+   "Raymond Abellio is myth",
+   "Raymond Abellio is ethics",
+   "Raymond Abellio is history of religions",
+   "Raymond Abellio is logic",
+   "Raymond Abellio is comparative religion",
+   "Raymond Abellio is functional analysis",
+   "Raymond Abellio is astrophysics",
+   "Raymond Abellio is partial differential equation",
+   "Raymond Abellio is magic",
+   "Raymond Abellio is mechanics",
+   "Raymond Abellio is electromagnetic field",
+   "Raymond Abellio is philology",
+   "Raymond Abellio is abstract algebra",
+   "Raymond Abellio is translations from Arabic language",
+   "Raymond Abellio is ferromagnetism",
+   "Raymond Abellio is translations from English",
+   "Raymond Abellio is culturology",
+   "Raymond Abellio is psychophysiology",
+   "Raymond Abellio is nanotechnology",
+   "Raymond Abellio is jazz",
+   "Raymond Abellio is cartography",
+   "Raymond Abellio is physicist",
+   "Raymond Abellio is feminism",
+   "Raymond Abellio is number theory",
+   "Raymond Abellio is radioactivity",
+   "Raymond Abellio is constitutional law",
+   "Raymond Abellio is economy",
+   "Raymond Abellio is positivism",
+   "Raymond Abellio is fairy tale",
+   "Raymond Abellio is Cairo Geniza",
+   "Raymond Abellio is journalism",
+   "Raymond Abellio is literary activity",
+   "Raymond Abellio is color photography",
+   "Raymond Abellio is genetics",
+   "Raymond Abellio is Christian Church",
+   "Raymond Abellio is mathematics",
+   "Raymond Abellio is poetry",
+   "Raymond Abellio is nuclear physics",
+   "Raymond Abellio is information technology",
+   "Raymond Abellio is conducting",
+   "Raymond Abellio is quantum physics",
+   "Raymond Abellio is history of science",
+   "Raymond Abellio is music theory",
+   "Raymond Abellio is classics",
+   "Raymond Abellio is choreography",
+   "Raymond Abellio is literary theory",
+   "Raymond Abellio is astronomy",
+   "Raymond Abellio is probability theory",
+   "Raymond Abellio is quantum theory",
+   "Raymond Abellio is magnetic field",
+   "Raymond Abellio is quantum mysticism"
+  ],
+  [
+   [
+    -56.918251037597656
+   ],
+   [
+    -63.897972106933594
+   ],
+   [
+    -54.510257720947266
+   ],
+   [
+    -58.59019470214844
+   ],
+   [
+    -57.41162109375
+   ],
+   [
+    -60.06611633300781
+   ],
+   [
+    -55.754554748535156
+   ],
+   [
+    -53.24510955810547
+   ],
+   [
+    -58.0317268371582
+   ],
+   [
+    -55.58885955810547
+   ],
+   [
+    -56.396484375
+   ],
+   [
+    -53.66461181640625
+   ],
+   [
+    -61.31772994995117
+   ],
+   [
+    -58.283363342285156
+   ],
+   [
+    -59.92027282714844
+   ],
+   [
+    -55.28986358642578
+   ],
+   [
+    -54.633811950683594
+   ],
+   [
+    -52.82579040527344
+   ],
+   [
+    -51.3204345703125
+   ],
+   [
+    -57.019775390625
+   ],
+   [
+    -52.69862365722656
+   ],
+   [
+    -56.46356201171875
+   ],
+   [
+    -59.21723937988281
+   ],
+   [
+    -53.37615203857422
+   ],
+   [
+    -52.349395751953125
+   ],
+   [
+    -55.54096984863281
+   ],
+   [
+    -50.31562805175781
+   ],
+   [
+    -58.306640625
+   ],
+   [
+    -54.58864974975586
+   ],
+   [
+    -47.95880889892578
+   ],
+   [
+    -49.37690734863281
+   ],
+   [
+    -61.312747955322266
+   ],
+   [
+    -50.980194091796875
+   ],
+   [
+    -56.3570556640625
+   ],
+   [
+    -57.18913269042969
+   ],
+   [
+    -56.81292724609375
+   ],
+   [
+    -51.66075134277344
+   ],
+   [
+    -59.55636215209961
+   ],
+   [
+    -50.48081970214844
+   ],
+   [
+    -54.28667068481445
+   ],
+   [
+    -59.265777587890625
+   ],
+   [
+    -57.99778747558594
+   ],
+   [
+    -56.988468170166016
+   ],
+   [
+    -56.52931213378906
+   ],
+   [
+    -61.31563186645508
+   ],
+   [
+    -61.691184997558594
+   ],
+   [
+    -57.772552490234375
+   ],
+   [
+    -63.78273010253906
+   ],
+   [
+    -49.894874572753906
+   ],
+   [
+    -55.933048248291016
+   ],
+   [
+    -57.45977783203125
+   ],
+   [
+    -71.65678405761719
+   ],
+   [
+    -55.263633728027344
+   ],
+   [
+    -56.287498474121094
+   ],
+   [
+    -57.77682876586914
+   ],
+   [
+    -55.38776397705078
+   ],
+   [
+    -53.94963073730469
+   ],
+   [
+    -55.881256103515625
+   ],
+   [
+    -53.69886779785156
+   ],
+   [
+    -55.572532653808594
+   ],
+   [
+    -55.72418975830078
+   ],
+   [
+    -53.46685791015625
+   ],
+   [
+    -53.734588623046875
+   ],
+   [
+    -54.913490295410156
+   ],
+   [
+    -50.74030685424805
+   ],
+   [
+    -57.48292541503906
+   ],
+   [
+    -54.494232177734375
+   ],
+   [
+    -56.92987060546875
+   ],
+   [
+    -53.88468933105469
+   ],
+   [
+    -50.877220153808594
+   ],
+   [
+    -53.107948303222656
+   ],
+   [
+    -55.469764709472656
+   ],
+   [
+    -61.05719757080078
+   ],
+   [
+    -56.34191131591797
+   ],
+   [
+    -47.86681365966797
+   ],
+   [
+    -56.71815490722656
+   ],
+   [
+    -53.993743896484375
+   ],
+   [
+    -57.44166946411133
+   ],
+   [
+    -54.487762451171875
+   ],
+   [
+    -56.111976623535156
+   ],
+   [
+    -52.71607208251953
+   ],
+   [
+    -55.40629577636719
+   ],
+   [
+    -49.771240234375
+   ],
+   [
+    -55.34449768066406
+   ],
+   [
+    -57.46491241455078
+   ],
+   [
+    -64.74235534667969
+   ],
+   [
+    -54.35907745361328
+   ],
+   [
+    -51.47686004638672
+   ],
+   [
+    -65.2743148803711
+   ],
+   [
+    -53.87566375732422
+   ],
+   [
+    -64.08273315429688
+   ],
+   [
+    -59.171077728271484
+   ],
+   [
+    -56.97930908203125
+   ],
+   [
+    -60.18792724609375
+   ],
+   [
+    -57.04762268066406
+   ],
+   [
+    -54.859344482421875
+   ],
+   [
+    -57.897430419921875
+   ],
+   [
+    -53.026065826416016
+   ],
+   [
+    -51.387168884277344
+   ],
+   [
+    -55.061683654785156
+   ],
+   [
+    -53.177574157714844
+   ],
+   [
+    -58.69789505004883
+   ],
+   [
+    -55.26551818847656
+   ],
+   [
+    -63.223167419433594
+   ],
+   [
+    -57.14532470703125
+   ],
+   [
+    -53.81719970703125
+   ],
+   [
+    -57.36393737792969
+   ],
+   [
+    -56.57685470581055
+   ],
+   [
+    -53.7508659362793
+   ],
+   [
+    -57.44903564453125
+   ],
+   [
+    -54.554466247558594
+   ],
+   [
+    -57.17652130126953
+   ],
+   [
+    -53.46491241455078
+   ],
+   [
+    -53.417686462402344
+   ],
+   [
+    -51.42858123779297
+   ],
+   [
+    -63.06394958496094
+   ],
+   [
+    -61.0374641418457
+   ],
+   [
+    -52.34563446044922
+   ],
+   [
+    -55.33625030517578
+   ],
+   [
+    -56.14317321777344
+   ],
+   [
+    -58.41149139404297
+   ],
+   [
+    -56.59471130371094
+   ],
+   [
+    -53.43952941894531
+   ],
+   [
+    -56.642662048339844
+   ],
+   [
+    -58.705684661865234
+   ],
+   [
+    -49.61820983886719
+   ],
+   [
+    -53.41010284423828
+   ],
+   [
+    -55.218345642089844
+   ],
+   [
+    -58.44654083251953
+   ],
+   [
+    -54.95294189453125
+   ],
+   [
+    -53.97067642211914
+   ],
+   [
+    -59.67683410644531
+   ],
+   [
+    -62.50920486450195
+   ],
+   [
+    -59.93400573730469
+   ],
+   [
+    -58.526981353759766
+   ],
+   [
+    -54.2928581237793
+   ],
+   [
+    -57.181251525878906
+   ],
+   [
+    -57.84626770019531
+   ],
+   [
+    -52.1544189453125
+   ],
+   [
+    -53.154808044433594
+   ],
+   [
+    -53.423316955566406
+   ],
+   [
+    -60.053627014160156
+   ],
+   [
+    -60.674686431884766
+   ],
+   [
+    -62.0577392578125
+   ],
+   [
+    -59.97343444824219
+   ],
+   [
+    -57.28598403930664
+   ],
+   [
+    -54.8695068359375
+   ],
+   [
+    -61.90376281738281
+   ],
+   [
+    -59.828773498535156
+   ],
+   [
+    -61.98781967163086
+   ],
+   [
+    -60.40773391723633
+   ],
+   [
+    -53.668888092041016
+   ],
+   [
+    -60.133121490478516
+   ],
+   [
+    -55.093116760253906
+   ],
+   [
+    -61.11859893798828
+   ],
+   [
+    -61.519615173339844
+   ],
+   [
+    -51.89246368408203
+   ],
+   [
+    -53.42102813720703
+   ],
+   [
+    -53.24466323852539
+   ],
+   [
+    -55.972415924072266
+   ],
+   [
+    -51.359153747558594
+   ],
+   [
+    -58.55815124511719
+   ],
+   [
+    -54.39183044433594
+   ],
+   [
+    -54.34203338623047
+   ],
+   [
+    -58.4859619140625
+   ],
+   [
+    -55.753868103027344
+   ],
+   [
+    -52.62281036376953
+   ],
+   [
+    -54.978919982910156
+   ],
+   [
+    -54.357460021972656
+   ],
+   [
+    -49.94837188720703
+   ],
+   [
+    -52.34803009033203
+   ],
+   [
+    -52.58244323730469
+   ],
+   [
+    -52.62012481689453
+   ],
+   [
+    -52.050201416015625
+   ],
+   [
+    -57.81340789794922
+   ],
+   [
+    -50.53866195678711
+   ],
+   [
+    -66.76338958740234
+   ],
+   [
+    -50.157386779785156
+   ],
+   [
+    -55.153526306152344
+   ],
+   [
+    -59.84231185913086
+   ],
+   [
+    -52.09107208251953
+   ],
+   [
+    -57.853721618652344
+   ],
+   [
+    -67.36634826660156
+   ],
+   [
+    -61.119163513183594
+   ],
+   [
+    -58.302181243896484
+   ],
+   [
+    -54.69565963745117
+   ],
+   [
+    -55.289608001708984
+   ],
+   [
+    -55.960479736328125
+   ],
+   [
+    -53.51493835449219
+   ],
+   [
+    -54.60090637207031
+   ],
+   [
+    -54.887298583984375
+   ],
+   [
+    -56.433074951171875
+   ],
+   [
+    -52.768531799316406
+   ],
+   [
+    -57.362693786621094
+   ],
+   [
+    -55.976715087890625
+   ],
+   [
+    -55.458457946777344
+   ],
+   [
+    -57.77089309692383
+   ],
+   [
+    -56.105926513671875
+   ],
+   [
+    -68.72193908691406
+   ],
+   [
+    -53.18907928466797
+   ],
+   [
+    -57.13172912597656
+   ],
+   [
+    -59.757179260253906
+   ],
+   [
+    -52.98857116699219
+   ],
+   [
+    -61.483192443847656
+   ],
+   [
+    -50.412353515625
+   ],
+   [
+    -49.01390075683594
+   ],
+   [
+    -52.88719940185547
+   ],
+   [
+    -53.620521545410156
+   ],
+   [
+    -56.32282257080078
+   ],
+   [
+    -52.297943115234375
+   ],
+   [
+    -54.961124420166016
+   ],
+   [
+    -56.99699401855469
+   ],
+   [
+    -52.69957733154297
+   ],
+   [
+    -57.53297424316406
+   ],
+   [
+    -52.474998474121094
+   ],
+   [
+    -51.9981689453125
+   ],
+   [
+    -57.13652038574219
+   ],
+   [
+    -55.781707763671875
+   ],
+   [
+    -60.11725616455078
+   ],
+   [
+    -57.26128387451172
+   ],
+   [
+    -47.90788650512695
+   ],
+   [
+    -55.11838912963867
+   ],
+   [
+    -44.75224304199219
+   ],
+   [
+    -47.36778259277344
+   ],
+   [
+    -46.2520751953125
+   ],
+   [
+    -51.069366455078125
+   ],
+   [
+    -45.21974563598633
+   ],
+   [
+    -44.220664978027344
+   ],
+   [
+    -52.287628173828125
+   ],
+   [
+    -57.25999450683594
+   ],
+   [
+    -45.25543975830078
+   ],
+   [
+    -47.223876953125
+   ],
+   [
+    -50.78834533691406
+   ],
+   [
+    -47.18629837036133
+   ],
+   [
+    -46.860923767089844
+   ],
+   [
+    -42.18688201904297
+   ],
+   [
+    -49.51556396484375
+   ],
+   [
+    -38.92940139770508
+   ],
+   [
+    -49.076942443847656
+   ],
+   [
+    -46.5281867980957
+   ],
+   [
+    -40.122833251953125
+   ],
+   [
+    -41.40410614013672
+   ],
+   [
+    -42.77964401245117
+   ],
+   [
+    -43.8461799621582
+   ],
+   [
+    -40.94691467285156
+   ],
+   [
+    -48.94887161254883
+   ],
+   [
+    -44.34782409667969
+   ],
+   [
+    -51.820159912109375
+   ],
+   [
+    -46.459754943847656
+   ],
+   [
+    -37.609371185302734
+   ],
+   [
+    -41.82396697998047
+   ],
+   [
+    -52.70743942260742
+   ],
+   [
+    -41.776702880859375
+   ],
+   [
+    -51.04418182373047
+   ],
+   [
+    -45.54111862182617
+   ],
+   [
+    -46.320980072021484
+   ],
+   [
+    -42.10923767089844
+   ],
+   [
+    -53.83143615722656
+   ],
+   [
+    -42.508094787597656
+   ],
+   [
+    -46.175437927246094
+   ],
+   [
+    -50.763702392578125
+   ],
+   [
+    -51.68971252441406
+   ],
+   [
+    -49.72896957397461
+   ],
+   [
+    -47.96379089355469
+   ],
+   [
+    -51.219783782958984
+   ],
+   [
+    -51.68962097167969
+   ],
+   [
+    -46.65906524658203
+   ],
+   [
+    -53.628623962402344
+   ],
+   [
+    -38.54914474487305
+   ],
+   [
+    -49.71030807495117
+   ],
+   [
+    -48.16644287109375
+   ],
+   [
+    -59.423946380615234
+   ],
+   [
+    -41.89228820800781
+   ],
+   [
+    -42.6472053527832
+   ],
+   [
+    -47.323097229003906
+   ],
+   [
+    -46.81697082519531
+   ],
+   [
+    -46.44272994995117
+   ],
+   [
+    -51.534629821777344
+   ],
+   [
+    -40.575645446777344
+   ],
+   [
+    -45.700382232666016
+   ],
+   [
+    -45.59854507446289
+   ],
+   [
+    -38.80742645263672
+   ],
+   [
+    -44.74898147583008
+   ],
+   [
+    -40.834861755371094
+   ],
+   [
+    -41.88541793823242
+   ],
+   [
+    -49.25538635253906
+   ],
+   [
+    -43.265708923339844
+   ],
+   [
+    -54.37601852416992
+   ],
+   [
+    -41.07328796386719
+   ],
+   [
+    -40.30320358276367
+   ],
+   [
+    -42.31237030029297
+   ],
+   [
+    -41.122772216796875
+   ],
+   [
+    -55.806907653808594
+   ],
+   [
+    -46.51421356201172
+   ],
+   [
+    -38.26825714111328
+   ],
+   [
+    -46.64088439941406
+   ],
+   [
+    -41.93819046020508
+   ],
+   [
+    -48.87250900268555
+   ],
+   [
+    -48.98492431640625
+   ],
+   [
+    -48.28389358520508
+   ],
+   [
+    -44.306663513183594
+   ],
+   [
+    -42.30385971069336
+   ],
+   [
+    -44.61820983886719
+   ],
+   [
+    -45.486637115478516
+   ],
+   [
+    -42.326499938964844
+   ],
+   [
+    -54.20177459716797
+   ],
+   [
+    -46.14131164550781
+   ],
+   [
+    -44.60319900512695
+   ],
+   [
+    -55.3699951171875
+   ],
+   [
+    -44.767120361328125
+   ],
+   [
+    -53.630733489990234
+   ],
+   [
+    -53.805335998535156
+   ],
+   [
+    -48.4287109375
+   ],
+   [
+    -53.89500427246094
+   ],
+   [
+    -49.5328369140625
+   ],
+   [
+    -44.107032775878906
+   ],
+   [
+    -43.081214904785156
+   ],
+   [
+    -45.20070266723633
+   ],
+   [
+    -43.190025329589844
+   ],
+   [
+    -43.956844329833984
+   ],
+   [
+    -45.69702911376953
+   ],
+   [
+    -49.6791877746582
+   ],
+   [
+    -49.65950012207031
+   ],
+   [
+    -52.337093353271484
+   ],
+   [
+    -49.774932861328125
+   ],
+   [
+    -41.454856872558594
+   ],
+   [
+    -49.87432861328125
+   ],
+   [
+    -49.90995788574219
+   ],
+   [
+    -45.4278564453125
+   ],
+   [
+    -47.58885955810547
+   ],
+   [
+    -48.42966842651367
+   ],
+   [
+    -42.21006774902344
+   ],
+   [
+    -46.320106506347656
+   ],
+   [
+    -46.07722854614258
+   ],
+   [
+    -42.968505859375
+   ],
+   [
+    -53.995635986328125
+   ],
+   [
+    -49.12071990966797
+   ],
+   [
+    -40.67081832885742
+   ],
+   [
+    -49.42103576660156
+   ],
+   [
+    -43.74726104736328
+   ],
+   [
+    -50.74138641357422
+   ],
+   [
+    -43.42511749267578
+   ],
+   [
+    -46.89202117919922
+   ],
+   [
+    -44.62549591064453
+   ],
+   [
+    -53.488731384277344
+   ],
+   [
+    -39.74024963378906
+   ],
+   [
+    -44.698856353759766
+   ],
+   [
+    -41.05167007446289
+   ],
+   [
+    -51.02018737792969
+   ],
+   [
+    -42.92572784423828
+   ],
+   [
+    -39.01305389404297
+   ],
+   [
+    -55.22003173828125
+   ],
+   [
+    -53.558311462402344
+   ],
+   [
+    -46.68000793457031
+   ],
+   [
+    -52.35357666015625
+   ],
+   [
+    -46.71417236328125
+   ],
+   [
+    -41.40948486328125
+   ],
+   [
+    -48.190250396728516
+   ],
+   [
+    -44.73631286621094
+   ],
+   [
+    -42.38312911987305
+   ],
+   [
+    -41.067657470703125
+   ],
+   [
+    -54.8658447265625
+   ],
+   [
+    -50.753204345703125
+   ],
+   [
+    -56.8962516784668
+   ],
+   [
+    -51.95380401611328
+   ],
+   [
+    -40.925716400146484
+   ],
+   [
+    -45.955284118652344
+   ],
+   [
+    -51.17805480957031
+   ],
+   [
+    -45.622398376464844
+   ],
+   [
+    -54.26381301879883
+   ],
+   [
+    -52.293235778808594
+   ],
+   [
+    -46.632808685302734
+   ],
+   [
+    -47.926395416259766
+   ],
+   [
+    -45.919677734375
+   ],
+   [
+    -51.82541275024414
+   ],
+   [
+    -50.30329895019531
+   ],
+   [
+    -41.12055206298828
+   ],
+   [
+    -44.14361572265625
+   ],
+   [
+    -42.28437042236328
+   ],
+   [
+    -50.53733825683594
+   ],
+   [
+    -43.74935531616211
+   ],
+   [
+    -51.5647087097168
+   ],
+   [
+    -44.281166076660156
+   ],
+   [
+    -45.091453552246094
+   ],
+   [
+    -50.2645378112793
+   ],
+   [
+    -49.652061462402344
+   ],
+   [
+    -45.477020263671875
+   ],
+   [
+    -47.96923828125
+   ],
+   [
+    -46.350364685058594
+   ],
+   [
+    -40.59242630004883
+   ],
+   [
+    -44.29533386230469
+   ],
+   [
+    -48.02837371826172
+   ],
+   [
+    -42.39021301269531
+   ],
+   [
+    -48.467552185058594
+   ],
+   [
+    -48.699153900146484
+   ],
+   [
+    -41.92115783691406
+   ],
+   [
+    -55.30213928222656
+   ],
+   [
+    -40.2786979675293
+   ],
+   [
+    -47.51283645629883
+   ],
+   [
+    -50.69557189941406
+   ],
+   [
+    -47.00004959106445
+   ],
+   [
+    -51.95637130737305
+   ],
+   [
+    -58.707725524902344
+   ],
+   [
+    -51.952789306640625
+   ],
+   [
+    -51.936580657958984
+   ],
+   [
+    -48.206565856933594
+   ],
+   [
+    -49.061866760253906
+   ],
+   [
+    -45.20474624633789
+   ],
+   [
+    -40.4777946472168
+   ],
+   [
+    -44.229068756103516
+   ],
+   [
+    -40.399898529052734
+   ],
+   [
+    -45.70027542114258
+   ],
+   [
+    -48.16191101074219
+   ],
+   [
+    -48.39845657348633
+   ],
+   [
+    -45.39918899536133
+   ],
+   [
+    -42.12254333496094
+   ],
+   [
+    -45.81640625
+   ],
+   [
+    -44.763404846191406
+   ],
+   [
+    -53.99022674560547
+   ],
+   [
+    -43.2509765625
+   ],
+   [
+    -46.64983367919922
+   ],
+   [
+    -48.834503173828125
+   ],
+   [
+    -47.4246940612793
+   ],
+   [
+    -49.25376892089844
+   ],
+   [
+    -41.609291076660156
+   ],
+   [
+    -39.10495376586914
+   ],
+   [
+    -44.92723083496094
+   ],
+   [
+    -43.00369644165039
+   ],
+   [
+    -40.05293655395508
+   ],
+   [
+    -45.20838928222656
+   ],
+   [
+    -47.207618713378906
+   ],
+   [
+    -47.51527786254883
+   ],
+   [
+    -42.24977111816406
+   ],
+   [
+    -45.92649841308594
+   ],
+   [
+    -44.178375244140625
+   ],
+   [
+    -45.56990051269531
+   ],
+   [
+    -47.99715805053711
+   ],
+   [
+    -48.34602355957031
+   ],
+   [
+    -48.576026916503906
+   ],
+   [
+    -49.89360809326172
+   ]
+  ]
+ ],
+ "time": 1196.9851446151733
+}

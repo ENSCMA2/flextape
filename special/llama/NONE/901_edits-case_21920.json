@@ -1,0 +1,2076 @@
+{
+ "case_id": 21920,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "John James Rickard Macleod"
+ },
+ "pre": [
+  [
+   "John James Rickard Macleod's field of work is abstract algebra",
+   "John James Rickard Macleod's field of work is theology",
+   "John James Rickard Macleod's field of work is television program",
+   "John James Rickard Macleod's field of work is nanotechnology",
+   "John James Rickard Macleod's field of work is hydrodynamics",
+   "John James Rickard Macleod's field of work is ethics",
+   "John James Rickard Macleod's field of work is physicist",
+   "John James Rickard Macleod's field of work is evolution",
+   "John James Rickard Macleod's field of work is distribution theory",
+   "John James Rickard Macleod's field of work is psychophysiology",
+   "John James Rickard Macleod's field of work is English literature",
+   "John James Rickard Macleod's field of work is theoretical physics",
+   "John James Rickard Macleod's field of work is essay",
+   "John James Rickard Macleod's field of work is ethnology",
+   "John James Rickard Macleod's field of work is pedagogy",
+   "John James Rickard Macleod's field of work is kinetic theory",
+   "John James Rickard Macleod's field of work is ethnography",
+   "John James Rickard Macleod's field of work is rite",
+   "John James Rickard Macleod's field of work is economics",
+   "John James Rickard Macleod's field of work is dance choreography",
+   "John James Rickard Macleod's field of work is biological anthropology",
+   "John James Rickard Macleod's field of work is history of religions",
+   "John James Rickard Macleod's field of work is political philosophy",
+   "John James Rickard Macleod's field of work is philosophy",
+   "John James Rickard Macleod's field of work is linguistics",
+   "John James Rickard Macleod's field of work is cosmology",
+   "John James Rickard Macleod's field of work is hunting",
+   "John James Rickard Macleod's field of work is Minkowski spacetime",
+   "John James Rickard Macleod's field of work is classical music",
+   "John James Rickard Macleod's field of work is hyperbolic geometry",
+   "John James Rickard Macleod's field of work is radioactivity",
+   "John James Rickard Macleod's field of work is belletristic literature",
+   "John James Rickard Macleod's field of work is model theory",
+   "John James Rickard Macleod's field of work is choreography",
+   "John James Rickard Macleod's field of work is chemistry",
+   "John James Rickard Macleod's field of work is literary activity",
+   "John James Rickard Macleod's field of work is historical sociology",
+   "John James Rickard Macleod's field of work is feminism",
+   "John James Rickard Macleod's field of work is economy",
+   "John James Rickard Macleod's field of work is astronomy",
+   "John James Rickard Macleod's field of work is topology",
+   "John James Rickard Macleod's field of work is translations from English",
+   "John James Rickard Macleod's field of work is partial differential equation",
+   "John James Rickard Macleod's field of work is Cairo Geniza",
+   "John James Rickard Macleod's field of work is nuclear physics",
+   "John James Rickard Macleod's field of work is dance",
+   "John James Rickard Macleod's field of work is informatics",
+   "John James Rickard Macleod's field of work is geometry",
+   "John James Rickard Macleod's field of work is computational geometry",
+   "John James Rickard Macleod's field of work is Sanskrit",
+   "John James Rickard Macleod's field of work is magnetism",
+   "John James Rickard Macleod's field of work is opera",
+   "John James Rickard Macleod's field of work is algebraic topology",
+   "John James Rickard Macleod's field of work is quaternion",
+   "John James Rickard Macleod's field of work is Bayesian inference",
+   "John James Rickard Macleod's field of work is quantum electrodynamics",
+   "John James Rickard Macleod's field of work is religion and society",
+   "John James Rickard Macleod's field of work is history of economic thought",
+   "John James Rickard Macleod's field of work is translations from Polish",
+   "John James Rickard Macleod's field of work is literary translation",
+   "John James Rickard Macleod's field of work is lyric poetry",
+   "John James Rickard Macleod's field of work is probability theory",
+   "John James Rickard Macleod's field of work is ontology",
+   "John James Rickard Macleod's field of work is aerodynamics",
+   "John James Rickard Macleod's field of work is crystallography",
+   "John James Rickard Macleod's field of work is mathematics",
+   "John James Rickard Macleod's field of work is harmonic analysis",
+   "John James Rickard Macleod's field of work is history of science",
+   "John James Rickard Macleod's field of work is philosophy of law",
+   "John James Rickard Macleod's field of work is philology",
+   "John James Rickard Macleod's field of work is optics",
+   "John James Rickard Macleod's field of work is functional analysis",
+   "John James Rickard Macleod's field of work is surgery",
+   "John James Rickard Macleod's field of work is complex function",
+   "John James Rickard Macleod's field of work is Jewish philosophy",
+   "John James Rickard Macleod's field of work is translations from Spanish",
+   "John James Rickard Macleod's field of work is poetry",
+   "John James Rickard Macleod's field of work is distribution",
+   "John James Rickard Macleod's field of work is astrology",
+   "John James Rickard Macleod's field of work is differential geometry",
+   "John James Rickard Macleod's field of work is mechanics",
+   "John James Rickard Macleod's field of work is positivism",
+   "John James Rickard Macleod's field of work is ferromagnetism",
+   "John James Rickard Macleod's field of work is quantum physics",
+   "John James Rickard Macleod's field of work is music theory",
+   "John James Rickard Macleod's field of work is physiology",
+   "John James Rickard Macleod's field of work is theory of differential equations",
+   "John James Rickard Macleod's field of work is astrophysics",
+   "John James Rickard Macleod's field of work is number theory",
+   "John James Rickard Macleod's field of work is magnetic field",
+   "John James Rickard Macleod's field of work is historical novel",
+   "John James Rickard Macleod's field of work is stochastic",
+   "John James Rickard Macleod's field of work is philosopher",
+   "John James Rickard Macleod's field of work is histology",
+   "John James Rickard Macleod's field of work is Franciscan spirituality",
+   "John James Rickard Macleod's field of work is electromagnetic field",
+   "John James Rickard Macleod's field of work is medicine",
+   "John James Rickard Macleod's field of work is algebraic geometry",
+   "John James Rickard Macleod's field of work is comparative mythology",
+   "John James Rickard Macleod's field of work is color photography",
+   "John James Rickard Macleod's field of work is cryptography",
+   "John James Rickard Macleod's field of work is Christian Church",
+   "John James Rickard Macleod's field of work is electrical engineering",
+   "John James Rickard Macleod's field of work is folklore",
+   "John James Rickard Macleod's field of work is mythology",
+   "John James Rickard Macleod's field of work is human geography",
+   "John James Rickard Macleod's field of work is Petrine ministry",
+   "John James Rickard Macleod's field of work is Judaism",
+   "John James Rickard Macleod's field of work is group theory",
+   "John James Rickard Macleod's field of work is non-Euclidean geometry",
+   "John James Rickard Macleod's field of work is algebra",
+   "John James Rickard Macleod's field of work is ballistics",
+   "John James Rickard Macleod's field of work is mathematician",
+   "John James Rickard Macleod's field of work is applied physics",
+   "John James Rickard Macleod's field of work is culturology",
+   "John James Rickard Macleod's field of work is calculus of variations",
+   "John James Rickard Macleod's field of work is logic",
+   "John James Rickard Macleod's field of work is engineering",
+   "John James Rickard Macleod's field of work is translations from Occitan",
+   "John James Rickard Macleod's field of work is anatomy",
+   "John James Rickard Macleod's field of work is forestry science",
+   "John James Rickard Macleod's field of work is magic",
+   "John James Rickard Macleod's field of work is quantum mechanics",
+   "John James Rickard Macleod's field of work is differential calculus",
+   "John James Rickard Macleod's field of work is shipbuilding",
+   "John James Rickard Macleod's field of work is convex function",
+   "John James Rickard Macleod's field of work is analytic philosophy",
+   "John James Rickard Macleod's field of work is magnetic resonance",
+   "John James Rickard Macleod's field of work is detective literature",
+   "John James Rickard Macleod's field of work is cartography",
+   "John James Rickard Macleod's field of work is sociology of organisations",
+   "John James Rickard Macleod's field of work is crime novel",
+   "John James Rickard Macleod's field of work is gravity",
+   "John James Rickard Macleod's field of work is statistics",
+   "John James Rickard Macleod's field of work is Greek philology",
+   "John James Rickard Macleod's field of work is analytic number theory",
+   "John James Rickard Macleod's field of work is trigonometry",
+   "John James Rickard Macleod's field of work is physics",
+   "John James Rickard Macleod's field of work is astronomer",
+   "John James Rickard Macleod's field of work is natural science",
+   "John James Rickard Macleod's field of work is information technology",
+   "John James Rickard Macleod's field of work is conducting",
+   "John James Rickard Macleod's field of work is nonstandard analysis",
+   "John James Rickard Macleod's field of work is mathematical analysis",
+   "John James Rickard Macleod's field of work is a branch of physics",
+   "John James Rickard Macleod's field of work is projective geometry",
+   "John James Rickard Macleod's field of work is civil rights",
+   "John James Rickard Macleod's field of work is children's and youth literature",
+   "John James Rickard Macleod's field of work is embryology",
+   "John James Rickard Macleod's field of work is momentum",
+   "John James Rickard Macleod's field of work is African studies",
+   "John James Rickard Macleod's field of work is fairy tale",
+   "John James Rickard Macleod's field of work is classics",
+   "John James Rickard Macleod's field of work is social psychology",
+   "John James Rickard Macleod's field of work is Jewish studies",
+   "John James Rickard Macleod's field of work is silviculture",
+   "John James Rickard Macleod's field of work is education",
+   "John James Rickard Macleod's field of work is literature",
+   "John James Rickard Macleod's field of work is constitutional law",
+   "John James Rickard Macleod's field of work is radiation",
+   "John James Rickard Macleod's field of work is Internet",
+   "John James Rickard Macleod's field of work is heat",
+   "John James Rickard Macleod's field of work is mechanical engineering",
+   "John James Rickard Macleod's field of work is forestry",
+   "John James Rickard Macleod's field of work is jazz",
+   "John James Rickard Macleod's field of work is social philosophy",
+   "John James Rickard Macleod's field of work is mathematical physics",
+   "John James Rickard Macleod's field of work is meteorology",
+   "John James Rickard Macleod's field of work is translations from Arabic language",
+   "John James Rickard Macleod's field of work is quantum mysticism",
+   "John James Rickard Macleod's field of work is politics",
+   "John James Rickard Macleod's field of work is astronomical observation",
+   "John James Rickard Macleod's field of work is myth",
+   "John James Rickard Macleod's field of work is geography",
+   "John James Rickard Macleod's field of work is sociology of religion",
+   "John James Rickard Macleod's field of work is comparative religion",
+   "John James Rickard Macleod's field of work is Greek",
+   "John James Rickard Macleod's field of work is Lie algebra",
+   "John James Rickard Macleod's field of work is complex manifold",
+   "John James Rickard Macleod's field of work is journalism",
+   "John James Rickard Macleod's field of work is celestial mechanics",
+   "John James Rickard Macleod's field of work is String",
+   "John James Rickard Macleod's field of work is mathematical logic",
+   "John James Rickard Macleod's field of work is aeromechanics",
+   "John James Rickard Macleod's field of work is English",
+   "John James Rickard Macleod's field of work is history",
+   "John James Rickard Macleod's field of work is study of history",
+   "John James Rickard Macleod's field of work is genetics",
+   "John James Rickard Macleod's field of work is psychology",
+   "John James Rickard Macleod's field of work is theory of relativity",
+   "John James Rickard Macleod's field of work is biochemistry",
+   "John James Rickard Macleod's field of work is ballet",
+   "John James Rickard Macleod's field of work is electricity",
+   "John James Rickard Macleod's field of work is experimental physics",
+   "John James Rickard Macleod's field of work is natural theology",
+   "John James Rickard Macleod's field of work is Hebrew",
+   "John James Rickard Macleod's field of work is prose",
+   "John James Rickard Macleod's field of work is paleontology",
+   "John James Rickard Macleod's field of work is Monte Carlo method",
+   "John James Rickard Macleod's field of work is quantum theory",
+   "John James Rickard Macleod's field of work is computer science",
+   "John James Rickard Macleod's field of work is cybernetics",
+   "John James Rickard Macleod's field of work is Afghanistan",
+   "John James Rickard Macleod's field of work is philosophy of science",
+   "John James Rickard Macleod's field of work is literary theory",
+   "John James Rickard Macleod's field of work is electric field",
+   "John James Rickard Macleod's field of work is religion",
+   "John James Rickard Macleod's field of work is analytic geometry",
+   "John James Rickard Macleod's field of work is graph theory",
+   "John James Rickard Macleod's field of work is electron",
+   "John James Rickard Macleod's field of work is anthropology",
+   "John James Rickard Macleod's field of work is social anthropology",
+   "John James Rickard Macleod's field of work is sociology",
+   "John James Rickard Macleod's field of work is geodesy",
+   "John James Rickard Macleod's field of work is neurology",
+   "John James Rickard Macleod's field of work is drama",
+   "John James Rickard Macleod's field of work is art of painting",
+   "John James Rickard Macleod's field of work is applied mathematics",
+   "John James Rickard Macleod's field of work is world economy",
+   "John James Rickard Macleod's field of work is economic anthropology",
+   "John James Rickard Macleod is abstract algebra",
+   "John James Rickard Macleod is theology",
+   "John James Rickard Macleod is television program",
+   "John James Rickard Macleod is nanotechnology",
+   "John James Rickard Macleod is hydrodynamics",
+   "John James Rickard Macleod is ethics",
+   "John James Rickard Macleod is physicist",
+   "John James Rickard Macleod is evolution",
+   "John James Rickard Macleod is distribution theory",
+   "John James Rickard Macleod is psychophysiology",
+   "John James Rickard Macleod is English literature",
+   "John James Rickard Macleod is theoretical physics",
+   "John James Rickard Macleod is essay",
+   "John James Rickard Macleod is ethnology",
+   "John James Rickard Macleod is pedagogy",
+   "John James Rickard Macleod is kinetic theory",
+   "John James Rickard Macleod is ethnography",
+   "John James Rickard Macleod is rite",
+   "John James Rickard Macleod is economics",
+   "John James Rickard Macleod is dance choreography",
+   "John James Rickard Macleod is biological anthropology",
+   "John James Rickard Macleod is history of religions",
+   "John James Rickard Macleod is political philosophy",
+   "John James Rickard Macleod is philosophy",
+   "John James Rickard Macleod is linguistics",
+   "John James Rickard Macleod is cosmology",
+   "John James Rickard Macleod is hunting",
+   "John James Rickard Macleod is Minkowski spacetime",
+   "John James Rickard Macleod is classical music",
+   "John James Rickard Macleod is hyperbolic geometry",
+   "John James Rickard Macleod is radioactivity",
+   "John James Rickard Macleod is belletristic literature",
+   "John James Rickard Macleod is model theory",
+   "John James Rickard Macleod is choreography",
+   "John James Rickard Macleod is chemistry",
+   "John James Rickard Macleod is literary activity",
+   "John James Rickard Macleod is historical sociology",
+   "John James Rickard Macleod is feminism",
+   "John James Rickard Macleod is economy",
+   "John James Rickard Macleod is astronomy",
+   "John James Rickard Macleod is topology",
+   "John James Rickard Macleod is translations from English",
+   "John James Rickard Macleod is partial differential equation",
+   "John James Rickard Macleod is Cairo Geniza",
+   "John James Rickard Macleod is nuclear physics",
+   "John James Rickard Macleod is dance",
+   "John James Rickard Macleod is informatics",
+   "John James Rickard Macleod is geometry",
+   "John James Rickard Macleod is computational geometry",
+   "John James Rickard Macleod is Sanskrit",
+   "John James Rickard Macleod is magnetism",
+   "John James Rickard Macleod is opera",
+   "John James Rickard Macleod is algebraic topology",
+   "John James Rickard Macleod is quaternion",
+   "John James Rickard Macleod is Bayesian inference",
+   "John James Rickard Macleod is quantum electrodynamics",
+   "John James Rickard Macleod is religion and society",
+   "John James Rickard Macleod is history of economic thought",
+   "John James Rickard Macleod is translations from Polish",
+   "John James Rickard Macleod is literary translation",
+   "John James Rickard Macleod is lyric poetry",
+   "John James Rickard Macleod is probability theory",
+   "John James Rickard Macleod is ontology",
+   "John James Rickard Macleod is aerodynamics",
+   "John James Rickard Macleod is crystallography",
+   "John James Rickard Macleod is mathematics",
+   "John James Rickard Macleod is harmonic analysis",
+   "John James Rickard Macleod is history of science",
+   "John James Rickard Macleod is philosophy of law",
+   "John James Rickard Macleod is philology",
+   "John James Rickard Macleod is optics",
+   "John James Rickard Macleod is functional analysis",
+   "John James Rickard Macleod is surgery",
+   "John James Rickard Macleod is complex function",
+   "John James Rickard Macleod is Jewish philosophy",
+   "John James Rickard Macleod is translations from Spanish",
+   "John James Rickard Macleod is poetry",
+   "John James Rickard Macleod is distribution",
+   "John James Rickard Macleod is astrology",
+   "John James Rickard Macleod is differential geometry",
+   "John James Rickard Macleod is mechanics",
+   "John James Rickard Macleod is positivism",
+   "John James Rickard Macleod is ferromagnetism",
+   "John James Rickard Macleod is quantum physics",
+   "John James Rickard Macleod is music theory",
+   "John James Rickard Macleod is physiology",
+   "John James Rickard Macleod is theory of differential equations",
+   "John James Rickard Macleod is astrophysics",
+   "John James Rickard Macleod is number theory",
+   "John James Rickard Macleod is magnetic field",
+   "John James Rickard Macleod is historical novel",
+   "John James Rickard Macleod is stochastic",
+   "John James Rickard Macleod is philosopher",
+   "John James Rickard Macleod is histology",
+   "John James Rickard Macleod is Franciscan spirituality",
+   "John James Rickard Macleod is electromagnetic field",
+   "John James Rickard Macleod is medicine",
+   "John James Rickard Macleod is algebraic geometry",
+   "John James Rickard Macleod is comparative mythology",
+   "John James Rickard Macleod is color photography",
+   "John James Rickard Macleod is cryptography",
+   "John James Rickard Macleod is Christian Church",
+   "John James Rickard Macleod is electrical engineering",
+   "John James Rickard Macleod is folklore",
+   "John James Rickard Macleod is mythology",
+   "John James Rickard Macleod is human geography",
+   "John James Rickard Macleod is Petrine ministry",
+   "John James Rickard Macleod is Judaism",
+   "John James Rickard Macleod is group theory",
+   "John James Rickard Macleod is non-Euclidean geometry",
+   "John James Rickard Macleod is algebra",
+   "John James Rickard Macleod is ballistics",
+   "John James Rickard Macleod is mathematician",
+   "John James Rickard Macleod is applied physics",
+   "John James Rickard Macleod is culturology",
+   "John James Rickard Macleod is calculus of variations",
+   "John James Rickard Macleod is logic",
+   "John James Rickard Macleod is engineering",
+   "John James Rickard Macleod is translations from Occitan",
+   "John James Rickard Macleod is anatomy",
+   "John James Rickard Macleod is forestry science",
+   "John James Rickard Macleod is magic",
+   "John James Rickard Macleod is quantum mechanics",
+   "John James Rickard Macleod is differential calculus",
+   "John James Rickard Macleod is shipbuilding",
+   "John James Rickard Macleod is convex function",
+   "John James Rickard Macleod is analytic philosophy",
+   "John James Rickard Macleod is magnetic resonance",
+   "John James Rickard Macleod is detective literature",
+   "John James Rickard Macleod is cartography",
+   "John James Rickard Macleod is sociology of organisations",
+   "John James Rickard Macleod is crime novel",
+   "John James Rickard Macleod is gravity",
+   "John James Rickard Macleod is statistics",
+   "John James Rickard Macleod is Greek philology",
+   "John James Rickard Macleod is analytic number theory",
+   "John James Rickard Macleod is trigonometry",
+   "John James Rickard Macleod is physics",
+   "John James Rickard Macleod is astronomer",
+   "John James Rickard Macleod is natural science",
+   "John James Rickard Macleod is information technology",
+   "John James Rickard Macleod is conducting",
+   "John James Rickard Macleod is nonstandard analysis",
+   "John James Rickard Macleod is mathematical analysis",
+   "John James Rickard Macleod is a branch of physics",
+   "John James Rickard Macleod is projective geometry",
+   "John James Rickard Macleod is civil rights",
+   "John James Rickard Macleod is children's and youth literature",
+   "John James Rickard Macleod is embryology",
+   "John James Rickard Macleod is momentum",
+   "John James Rickard Macleod is African studies",
+   "John James Rickard Macleod is fairy tale",
+   "John James Rickard Macleod is classics",
+   "John James Rickard Macleod is social psychology",
+   "John James Rickard Macleod is Jewish studies",
+   "John James Rickard Macleod is silviculture",
+   "John James Rickard Macleod is education",
+   "John James Rickard Macleod is literature",
+   "John James Rickard Macleod is constitutional law",
+   "John James Rickard Macleod is radiation",
+   "John James Rickard Macleod is Internet",
+   "John James Rickard Macleod is heat",
+   "John James Rickard Macleod is mechanical engineering",
+   "John James Rickard Macleod is forestry",
+   "John James Rickard Macleod is jazz",
+   "John James Rickard Macleod is social philosophy",
+   "John James Rickard Macleod is mathematical physics",
+   "John James Rickard Macleod is meteorology",
+   "John James Rickard Macleod is translations from Arabic language",
+   "John James Rickard Macleod is quantum mysticism",
+   "John James Rickard Macleod is politics",
+   "John James Rickard Macleod is astronomical observation",
+   "John James Rickard Macleod is myth",
+   "John James Rickard Macleod is geography",
+   "John James Rickard Macleod is sociology of religion",
+   "John James Rickard Macleod is comparative religion",
+   "John James Rickard Macleod is Greek",
+   "John James Rickard Macleod is Lie algebra",
+   "John James Rickard Macleod is complex manifold",
+   "John James Rickard Macleod is journalism",
+   "John James Rickard Macleod is celestial mechanics",
+   "John James Rickard Macleod is String",
+   "John James Rickard Macleod is mathematical logic",
+   "John James Rickard Macleod is aeromechanics",
+   "John James Rickard Macleod is English",
+   "John James Rickard Macleod is history",
+   "John James Rickard Macleod is study of history",
+   "John James Rickard Macleod is genetics",
+   "John James Rickard Macleod is psychology",
+   "John James Rickard Macleod is theory of relativity",
+   "John James Rickard Macleod is biochemistry",
+   "John James Rickard Macleod is ballet",
+   "John James Rickard Macleod is electricity",
+   "John James Rickard Macleod is experimental physics",
+   "John James Rickard Macleod is natural theology",
+   "John James Rickard Macleod is Hebrew",
+   "John James Rickard Macleod is prose",
+   "John James Rickard Macleod is paleontology",
+   "John James Rickard Macleod is Monte Carlo method",
+   "John James Rickard Macleod is quantum theory",
+   "John James Rickard Macleod is computer science",
+   "John James Rickard Macleod is cybernetics",
+   "John James Rickard Macleod is Afghanistan",
+   "John James Rickard Macleod is philosophy of science",
+   "John James Rickard Macleod is literary theory",
+   "John James Rickard Macleod is electric field",
+   "John James Rickard Macleod is religion",
+   "John James Rickard Macleod is analytic geometry",
+   "John James Rickard Macleod is graph theory",
+   "John James Rickard Macleod is electron",
+   "John James Rickard Macleod is anthropology",
+   "John James Rickard Macleod is social anthropology",
+   "John James Rickard Macleod is sociology",
+   "John James Rickard Macleod is geodesy",
+   "John James Rickard Macleod is neurology",
+   "John James Rickard Macleod is drama",
+   "John James Rickard Macleod is art of painting",
+   "John James Rickard Macleod is applied mathematics",
+   "John James Rickard Macleod is world economy",
+   "John James Rickard Macleod is economic anthropology"
+  ],
+  [
+   [
+    -64.4228515625
+   ],
+   [
+    -63.236602783203125
+   ],
+   [
+    -71.83599853515625
+   ],
+   [
+    -64.84535217285156
+   ],
+   [
+    -65.612548828125
+   ],
+   [
+    -62.88190460205078
+   ],
+   [
+    -67.91058349609375
+   ],
+   [
+    -60.67375946044922
+   ],
+   [
+    -66.9708251953125
+   ],
+   [
+    -64.95124816894531
+   ],
+   [
+    -63.17412185668945
+   ],
+   [
+    -62.11822509765625
+   ],
+   [
+    -66.16636657714844
+   ],
+   [
+    -63.156185150146484
+   ],
+   [
+    -62.26481246948242
+   ],
+   [
+    -65.38748168945312
+   ],
+   [
+    -64.08428955078125
+   ],
+   [
+    -72.83075714111328
+   ],
+   [
+    -57.785072326660156
+   ],
+   [
+    -73.51994323730469
+   ],
+   [
+    -65.60185241699219
+   ],
+   [
+    -66.95803833007812
+   ],
+   [
+    -62.610511779785156
+   ],
+   [
+    -62.28416442871094
+   ],
+   [
+    -62.642982482910156
+   ],
+   [
+    -65.56643676757812
+   ],
+   [
+    -66.72040557861328
+   ],
+   [
+    -74.72758483886719
+   ],
+   [
+    -66.34961700439453
+   ],
+   [
+    -68.26363372802734
+   ],
+   [
+    -64.18828582763672
+   ],
+   [
+    -74.38786315917969
+   ],
+   [
+    -67.0528564453125
+   ],
+   [
+    -69.13037109375
+   ],
+   [
+    -59.55582046508789
+   ],
+   [
+    -74.05938720703125
+   ],
+   [
+    -65.06382751464844
+   ],
+   [
+    -66.74285888671875
+   ],
+   [
+    -63.059791564941406
+   ],
+   [
+    -63.9307861328125
+   ],
+   [
+    -67.46858215332031
+   ],
+   [
+    -74.74124145507812
+   ],
+   [
+    -70.02735137939453
+   ],
+   [
+    -75.93670654296875
+   ],
+   [
+    -62.805686950683594
+   ],
+   [
+    -67.36070251464844
+   ],
+   [
+    -65.88912963867188
+   ],
+   [
+    -66.5251693725586
+   ],
+   [
+    -67.0844497680664
+   ],
+   [
+    -63.315711975097656
+   ],
+   [
+    -65.06239318847656
+   ],
+   [
+    -68.23401641845703
+   ],
+   [
+    -66.70152282714844
+   ],
+   [
+    -70.50132751464844
+   ],
+   [
+    -68.27706909179688
+   ],
+   [
+    -66.86357879638672
+   ],
+   [
+    -68.09571838378906
+   ],
+   [
+    -66.78227996826172
+   ],
+   [
+    -78.25410461425781
+   ],
+   [
+    -70.37675476074219
+   ],
+   [
+    -67.6903305053711
+   ],
+   [
+    -65.84877014160156
+   ],
+   [
+    -64.50086975097656
+   ],
+   [
+    -65.62068939208984
+   ],
+   [
+    -62.66078186035156
+   ],
+   [
+    -61.16143798828125
+   ],
+   [
+    -66.47352600097656
+   ],
+   [
+    -64.63423156738281
+   ],
+   [
+    -67.21197509765625
+   ],
+   [
+    -64.8631591796875
+   ],
+   [
+    -63.06773376464844
+   ],
+   [
+    -64.18569946289062
+   ],
+   [
+    -62.96380615234375
+   ],
+   [
+    -70.87258911132812
+   ],
+   [
+    -67.51397705078125
+   ],
+   [
+    -76.66287231445312
+   ],
+   [
+    -66.51447296142578
+   ],
+   [
+    -65.15143585205078
+   ],
+   [
+    -66.19245147705078
+   ],
+   [
+    -64.60671997070312
+   ],
+   [
+    -64.67503356933594
+   ],
+   [
+    -65.32122802734375
+   ],
+   [
+    -69.27230072021484
+   ],
+   [
+    -65.54241943359375
+   ],
+   [
+    -65.7593994140625
+   ],
+   [
+    -57.519893646240234
+   ],
+   [
+    -70.92066955566406
+   ],
+   [
+    -64.28944396972656
+   ],
+   [
+    -63.698760986328125
+   ],
+   [
+    -68.12026977539062
+   ],
+   [
+    -70.509033203125
+   ],
+   [
+    -64.23831176757812
+   ],
+   [
+    -68.26222229003906
+   ],
+   [
+    -62.73991394042969
+   ],
+   [
+    -74.83073425292969
+   ],
+   [
+    -68.01335144042969
+   ],
+   [
+    -59.57574462890625
+   ],
+   [
+    -66.05940246582031
+   ],
+   [
+    -65.42452239990234
+   ],
+   [
+    -69.26055908203125
+   ],
+   [
+    -63.76514434814453
+   ],
+   [
+    -69.00614929199219
+   ],
+   [
+    -61.3434944152832
+   ],
+   [
+    -64.23554992675781
+   ],
+   [
+    -65.78468322753906
+   ],
+   [
+    -65.3878402709961
+   ],
+   [
+    -83.53799438476562
+   ],
+   [
+    -66.93952941894531
+   ],
+   [
+    -65.68499755859375
+   ],
+   [
+    -68.24148559570312
+   ],
+   [
+    -64.78120422363281
+   ],
+   [
+    -67.72457885742188
+   ],
+   [
+    -68.65251159667969
+   ],
+   [
+    -63.93266296386719
+   ],
+   [
+    -67.1612319946289
+   ],
+   [
+    -67.63744354248047
+   ],
+   [
+    -63.33641052246094
+   ],
+   [
+    -63.36963653564453
+   ],
+   [
+    -82.83021545410156
+   ],
+   [
+    -60.46794891357422
+   ],
+   [
+    -69.70368957519531
+   ],
+   [
+    -64.90898895263672
+   ],
+   [
+    -65.25139617919922
+   ],
+   [
+    -65.73451232910156
+   ],
+   [
+    -66.74600219726562
+   ],
+   [
+    -73.69854736328125
+   ],
+   [
+    -64.52296447753906
+   ],
+   [
+    -64.01258850097656
+   ],
+   [
+    -73.23348999023438
+   ],
+   [
+    -65.26425170898438
+   ],
+   [
+    -71.6007080078125
+   ],
+   [
+    -73.761962890625
+   ],
+   [
+    -66.22232818603516
+   ],
+   [
+    -61.36487579345703
+   ],
+   [
+    -66.81204223632812
+   ],
+   [
+    -64.35916137695312
+   ],
+   [
+    -66.1314926147461
+   ],
+   [
+    -61.137542724609375
+   ],
+   [
+    -71.29641723632812
+   ],
+   [
+    -62.900997161865234
+   ],
+   [
+    -65.20569610595703
+   ],
+   [
+    -66.13858795166016
+   ],
+   [
+    -70.53315734863281
+   ],
+   [
+    -63.702369689941406
+   ],
+   [
+    -66.86680603027344
+   ],
+   [
+    -66.41041564941406
+   ],
+   [
+    -69.144287109375
+   ],
+   [
+    -70.06838989257812
+   ],
+   [
+    -59.772865295410156
+   ],
+   [
+    -67.41527557373047
+   ],
+   [
+    -65.85054779052734
+   ],
+   [
+    -70.73477172851562
+   ],
+   [
+    -63.047340393066406
+   ],
+   [
+    -61.334190368652344
+   ],
+   [
+    -65.49232482910156
+   ],
+   [
+    -67.59268188476562
+   ],
+   [
+    -60.20103454589844
+   ],
+   [
+    -64.09452819824219
+   ],
+   [
+    -62.76118087768555
+   ],
+   [
+    -63.21135711669922
+   ],
+   [
+    -67.76993560791016
+   ],
+   [
+    -64.7684097290039
+   ],
+   [
+    -65.35723876953125
+   ],
+   [
+    -65.37842559814453
+   ],
+   [
+    -67.61186981201172
+   ],
+   [
+    -65.61873626708984
+   ],
+   [
+    -63.596920013427734
+   ],
+   [
+    -63.01213455200195
+   ],
+   [
+    -81.95982360839844
+   ],
+   [
+    -75.07919311523438
+   ],
+   [
+    -62.03522491455078
+   ],
+   [
+    -71.69734191894531
+   ],
+   [
+    -65.45805358886719
+   ],
+   [
+    -62.82758331298828
+   ],
+   [
+    -65.56756591796875
+   ],
+   [
+    -62.471622467041016
+   ],
+   [
+    -64.15744018554688
+   ],
+   [
+    -68.25105285644531
+   ],
+   [
+    -74.48136901855469
+   ],
+   [
+    -63.95648956298828
+   ],
+   [
+    -65.81634521484375
+   ],
+   [
+    -67.235107421875
+   ],
+   [
+    -63.44239807128906
+   ],
+   [
+    -70.70191955566406
+   ],
+   [
+    -62.06925964355469
+   ],
+   [
+    -61.40325164794922
+   ],
+   [
+    -70.6229248046875
+   ],
+   [
+    -59.41790008544922
+   ],
+   [
+    -59.644142150878906
+   ],
+   [
+    -67.91712951660156
+   ],
+   [
+    -58.163719177246094
+   ],
+   [
+    -65.32530212402344
+   ],
+   [
+    -63.352203369140625
+   ],
+   [
+    -63.667625427246094
+   ],
+   [
+    -66.11236572265625
+   ],
+   [
+    -65.18814849853516
+   ],
+   [
+    -67.52383422851562
+   ],
+   [
+    -65.35733032226562
+   ],
+   [
+    -70.75581359863281
+   ],
+   [
+    -66.56875610351562
+   ],
+   [
+    -64.84878540039062
+   ],
+   [
+    -63.473243713378906
+   ],
+   [
+    -67.4847412109375
+   ],
+   [
+    -64.76182556152344
+   ],
+   [
+    -68.05530548095703
+   ],
+   [
+    -69.51770782470703
+   ],
+   [
+    -63.349639892578125
+   ],
+   [
+    -66.98497009277344
+   ],
+   [
+    -67.26681518554688
+   ],
+   [
+    -63.21033477783203
+   ],
+   [
+    -62.22029113769531
+   ],
+   [
+    -62.50407409667969
+   ],
+   [
+    -61.36213684082031
+   ],
+   [
+    -67.18801879882812
+   ],
+   [
+    -60.58543395996094
+   ],
+   [
+    -66.68133544921875
+   ],
+   [
+    -74.37275695800781
+   ],
+   [
+    -62.612152099609375
+   ],
+   [
+    -67.35871887207031
+   ],
+   [
+    -64.98402404785156
+   ],
+   [
+    -58.538841247558594
+   ],
+   [
+    -52.477294921875
+   ],
+   [
+    -57.16148376464844
+   ],
+   [
+    -62.964752197265625
+   ],
+   [
+    -58.60179901123047
+   ],
+   [
+    -54.250892639160156
+   ],
+   [
+    -50.35456085205078
+   ],
+   [
+    -52.611045837402344
+   ],
+   [
+    -62.40367126464844
+   ],
+   [
+    -58.651145935058594
+   ],
+   [
+    -55.60862731933594
+   ],
+   [
+    -55.38562774658203
+   ],
+   [
+    -49.95081329345703
+   ],
+   [
+    -55.308128356933594
+   ],
+   [
+    -55.365013122558594
+   ],
+   [
+    -60.20552062988281
+   ],
+   [
+    -55.70643615722656
+   ],
+   [
+    -55.82892608642578
+   ],
+   [
+    -49.77735900878906
+   ],
+   [
+    -60.23493194580078
+   ],
+   [
+    -56.73711395263672
+   ],
+   [
+    -57.954925537109375
+   ],
+   [
+    -56.064125061035156
+   ],
+   [
+    -50.990234375
+   ],
+   [
+    -52.99304962158203
+   ],
+   [
+    -54.02085876464844
+   ],
+   [
+    -50.85978698730469
+   ],
+   [
+    -64.18395233154297
+   ],
+   [
+    -51.460662841796875
+   ],
+   [
+    -65.73660278320312
+   ],
+   [
+    -57.59825897216797
+   ],
+   [
+    -61.73595428466797
+   ],
+   [
+    -64.11219787597656
+   ],
+   [
+    -58.14250183105469
+   ],
+   [
+    -52.04645538330078
+   ],
+   [
+    -60.887718200683594
+   ],
+   [
+    -55.557640075683594
+   ],
+   [
+    -55.5355224609375
+   ],
+   [
+    -52.043800354003906
+   ],
+   [
+    -54.899879455566406
+   ],
+   [
+    -55.03998565673828
+   ],
+   [
+    -62.896697998046875
+   ],
+   [
+    -61.339988708496094
+   ],
+   [
+    -61.918601989746094
+   ],
+   [
+    -54.51483917236328
+   ],
+   [
+    -51.966941833496094
+   ],
+   [
+    -55.715415954589844
+   ],
+   [
+    -54.09687805175781
+   ],
+   [
+    -60.484580993652344
+   ],
+   [
+    -48.629493713378906
+   ],
+   [
+    -54.560089111328125
+   ],
+   [
+    -51.575843811035156
+   ],
+   [
+    -59.63982391357422
+   ],
+   [
+    -59.99382019042969
+   ],
+   [
+    -58.196693420410156
+   ],
+   [
+    -58.51777648925781
+   ],
+   [
+    -56.867835998535156
+   ],
+   [
+    -56.15983581542969
+   ],
+   [
+    -66.001220703125
+   ],
+   [
+    -59.88599395751953
+   ],
+   [
+    -58.327125549316406
+   ],
+   [
+    -54.59660339355469
+   ],
+   [
+    -56.00066375732422
+   ],
+   [
+    -55.29112243652344
+   ],
+   [
+    -56.03246307373047
+   ],
+   [
+    -50.320777893066406
+   ],
+   [
+    -57.326087951660156
+   ],
+   [
+    -54.994422912597656
+   ],
+   [
+    -58.22187805175781
+   ],
+   [
+    -54.50337219238281
+   ],
+   [
+    -55.51350402832031
+   ],
+   [
+    -56.902374267578125
+   ],
+   [
+    -53.715576171875
+   ],
+   [
+    -64.20442199707031
+   ],
+   [
+    -58.34336853027344
+   ],
+   [
+    -64.15824127197266
+   ],
+   [
+    -51.128936767578125
+   ],
+   [
+    -54.592437744140625
+   ],
+   [
+    -55.57666778564453
+   ],
+   [
+    -57.99140930175781
+   ],
+   [
+    -54.82989501953125
+   ],
+   [
+    -55.64476776123047
+   ],
+   [
+    -60.48896789550781
+   ],
+   [
+    -55.79438781738281
+   ],
+   [
+    -54.04010772705078
+   ],
+   [
+    -50.43755340576172
+   ],
+   [
+    -62.53252410888672
+   ],
+   [
+    -52.876556396484375
+   ],
+   [
+    -58.58447265625
+   ],
+   [
+    -55.99663543701172
+   ],
+   [
+    -51.313575744628906
+   ],
+   [
+    -55.522193908691406
+   ],
+   [
+    -49.313575744628906
+   ],
+   [
+    -56.113121032714844
+   ],
+   [
+    -63.790313720703125
+   ],
+   [
+    -54.48295593261719
+   ],
+   [
+    -50.96940612792969
+   ],
+   [
+    -56.90455627441406
+   ],
+   [
+    -60.64183807373047
+   ],
+   [
+    -58.58629608154297
+   ],
+   [
+    -56.15864562988281
+   ],
+   [
+    -53.693748474121094
+   ],
+   [
+    -51.07933044433594
+   ],
+   [
+    -52.65541076660156
+   ],
+   [
+    -56.44507598876953
+   ],
+   [
+    -54.93663024902344
+   ],
+   [
+    -68.79302978515625
+   ],
+   [
+    -54.382484436035156
+   ],
+   [
+    -60.02289581298828
+   ],
+   [
+    -56.83892059326172
+   ],
+   [
+    -54.75111389160156
+   ],
+   [
+    -58.13634490966797
+   ],
+   [
+    -49.63318634033203
+   ],
+   [
+    -55.97362518310547
+   ],
+   [
+    -59.264373779296875
+   ],
+   [
+    -60.062538146972656
+   ],
+   [
+    -53.179725646972656
+   ],
+   [
+    -51.05375671386719
+   ],
+   [
+    -70.36853790283203
+   ],
+   [
+    -53.16320037841797
+   ],
+   [
+    -58.956214904785156
+   ],
+   [
+    -51.795997619628906
+   ],
+   [
+    -55.57334899902344
+   ],
+   [
+    -55.543212890625
+   ],
+   [
+    -57.432899475097656
+   ],
+   [
+    -60.98725128173828
+   ],
+   [
+    -57.127769470214844
+   ],
+   [
+    -54.92767333984375
+   ],
+   [
+    -64.68936920166016
+   ],
+   [
+    -55.026458740234375
+   ],
+   [
+    -64.75841522216797
+   ],
+   [
+    -54.48565673828125
+   ],
+   [
+    -52.9481201171875
+   ],
+   [
+    -50.11528015136719
+   ],
+   [
+    -58.754737854003906
+   ],
+   [
+    -61.48242950439453
+   ],
+   [
+    -56.061790466308594
+   ],
+   [
+    -51.22956085205078
+   ],
+   [
+    -51.513343811035156
+   ],
+   [
+    -52.19132995605469
+   ],
+   [
+    -52.33180236816406
+   ],
+   [
+    -48.363922119140625
+   ],
+   [
+    -65.91688537597656
+   ],
+   [
+    -57.26295471191406
+   ],
+   [
+    -61.45123291015625
+   ],
+   [
+    -55.82903289794922
+   ],
+   [
+    -56.226036071777344
+   ],
+   [
+    -62.37351608276367
+   ],
+   [
+    -55.81641387939453
+   ],
+   [
+    -53.46155548095703
+   ],
+   [
+    -55.956642150878906
+   ],
+   [
+    -55.5098876953125
+   ],
+   [
+    -50.76195526123047
+   ],
+   [
+    -54.69739532470703
+   ],
+   [
+    -54.993125915527344
+   ],
+   [
+    -59.753517150878906
+   ],
+   [
+    -48.773094177246094
+   ],
+   [
+    -51.29510498046875
+   ],
+   [
+    -54.531158447265625
+   ],
+   [
+    -51.305259704589844
+   ],
+   [
+    -50.09822082519531
+   ],
+   [
+    -53.21180725097656
+   ],
+   [
+    -53.31745910644531
+   ],
+   [
+    -52.968475341796875
+   ],
+   [
+    -51.13958740234375
+   ],
+   [
+    -59.02272033691406
+   ],
+   [
+    -55.075340270996094
+   ],
+   [
+    -54.32190704345703
+   ],
+   [
+    -69.51654052734375
+   ],
+   [
+    -62.97901153564453
+   ],
+   [
+    -52.07842254638672
+   ],
+   [
+    -60.64918518066406
+   ],
+   [
+    -51.37371826171875
+   ],
+   [
+    -49.77538299560547
+   ],
+   [
+    -58.42377471923828
+   ],
+   [
+    -58.61127471923828
+   ],
+   [
+    -51.09125518798828
+   ],
+   [
+    -64.17462921142578
+   ],
+   [
+    -65.33190155029297
+   ],
+   [
+    -52.05718994140625
+   ],
+   [
+    -59.694976806640625
+   ],
+   [
+    -52.53947448730469
+   ],
+   [
+    -55.55549621582031
+   ],
+   [
+    -59.64746856689453
+   ],
+   [
+    -45.36395263671875
+   ],
+   [
+    -47.432151794433594
+   ],
+   [
+    -58.106346130371094
+   ],
+   [
+    -50.896995544433594
+   ],
+   [
+    -51.39777374267578
+   ],
+   [
+    -59.353271484375
+   ],
+   [
+    -52.399139404296875
+   ],
+   [
+    -55.142486572265625
+   ],
+   [
+    -52.37211608886719
+   ],
+   [
+    -58.68701934814453
+   ],
+   [
+    -57.616050720214844
+   ],
+   [
+    -51.17681884765625
+   ],
+   [
+    -52.472328186035156
+   ],
+   [
+    -55.683189392089844
+   ],
+   [
+    -63.511077880859375
+   ],
+   [
+    -57.13246154785156
+   ],
+   [
+    -51.946815490722656
+   ],
+   [
+    -54.21498107910156
+   ],
+   [
+    -53.26844024658203
+   ],
+   [
+    -55.963531494140625
+   ],
+   [
+    -59.395896911621094
+   ],
+   [
+    -57.824851989746094
+   ],
+   [
+    -50.80492401123047
+   ],
+   [
+    -58.03022003173828
+   ],
+   [
+    -61.54991912841797
+   ],
+   [
+    -49.829261779785156
+   ],
+   [
+    -51.796302795410156
+   ],
+   [
+    -55.826866149902344
+   ],
+   [
+    -51.548980712890625
+   ],
+   [
+    -57.38816833496094
+   ],
+   [
+    -53.65277862548828
+   ],
+   [
+    -51.707664489746094
+   ],
+   [
+    -62.843284606933594
+   ],
+   [
+    -53.86033630371094
+   ],
+   [
+    -58.64576721191406
+   ],
+   [
+    -59.86993408203125
+   ]
+  ]
+ ],
+ "time": 22.46997380256653
+}

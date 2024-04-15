@@ -1,0 +1,2076 @@
+{
+ "case_id": 21929,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Pierre Curie"
+ },
+ "pre": [
+  [
+   "Pierre Curie's field of work is abstract algebra",
+   "Pierre Curie's field of work is theology",
+   "Pierre Curie's field of work is television program",
+   "Pierre Curie's field of work is nanotechnology",
+   "Pierre Curie's field of work is hydrodynamics",
+   "Pierre Curie's field of work is ethics",
+   "Pierre Curie's field of work is physicist",
+   "Pierre Curie's field of work is evolution",
+   "Pierre Curie's field of work is distribution theory",
+   "Pierre Curie's field of work is psychophysiology",
+   "Pierre Curie's field of work is English literature",
+   "Pierre Curie's field of work is theoretical physics",
+   "Pierre Curie's field of work is essay",
+   "Pierre Curie's field of work is ethnology",
+   "Pierre Curie's field of work is pedagogy",
+   "Pierre Curie's field of work is kinetic theory",
+   "Pierre Curie's field of work is ethnography",
+   "Pierre Curie's field of work is rite",
+   "Pierre Curie's field of work is economics",
+   "Pierre Curie's field of work is dance choreography",
+   "Pierre Curie's field of work is biological anthropology",
+   "Pierre Curie's field of work is history of religions",
+   "Pierre Curie's field of work is political philosophy",
+   "Pierre Curie's field of work is philosophy",
+   "Pierre Curie's field of work is linguistics",
+   "Pierre Curie's field of work is cosmology",
+   "Pierre Curie's field of work is hunting",
+   "Pierre Curie's field of work is Minkowski spacetime",
+   "Pierre Curie's field of work is classical music",
+   "Pierre Curie's field of work is hyperbolic geometry",
+   "Pierre Curie's field of work is radioactivity",
+   "Pierre Curie's field of work is belletristic literature",
+   "Pierre Curie's field of work is model theory",
+   "Pierre Curie's field of work is choreography",
+   "Pierre Curie's field of work is chemistry",
+   "Pierre Curie's field of work is literary activity",
+   "Pierre Curie's field of work is historical sociology",
+   "Pierre Curie's field of work is feminism",
+   "Pierre Curie's field of work is economy",
+   "Pierre Curie's field of work is astronomy",
+   "Pierre Curie's field of work is topology",
+   "Pierre Curie's field of work is translations from English",
+   "Pierre Curie's field of work is partial differential equation",
+   "Pierre Curie's field of work is Cairo Geniza",
+   "Pierre Curie's field of work is nuclear physics",
+   "Pierre Curie's field of work is dance",
+   "Pierre Curie's field of work is informatics",
+   "Pierre Curie's field of work is geometry",
+   "Pierre Curie's field of work is computational geometry",
+   "Pierre Curie's field of work is Sanskrit",
+   "Pierre Curie's field of work is magnetism",
+   "Pierre Curie's field of work is opera",
+   "Pierre Curie's field of work is algebraic topology",
+   "Pierre Curie's field of work is quaternion",
+   "Pierre Curie's field of work is Bayesian inference",
+   "Pierre Curie's field of work is quantum electrodynamics",
+   "Pierre Curie's field of work is religion and society",
+   "Pierre Curie's field of work is history of economic thought",
+   "Pierre Curie's field of work is translations from Polish",
+   "Pierre Curie's field of work is literary translation",
+   "Pierre Curie's field of work is lyric poetry",
+   "Pierre Curie's field of work is probability theory",
+   "Pierre Curie's field of work is ontology",
+   "Pierre Curie's field of work is aerodynamics",
+   "Pierre Curie's field of work is crystallography",
+   "Pierre Curie's field of work is mathematics",
+   "Pierre Curie's field of work is harmonic analysis",
+   "Pierre Curie's field of work is history of science",
+   "Pierre Curie's field of work is philosophy of law",
+   "Pierre Curie's field of work is philology",
+   "Pierre Curie's field of work is optics",
+   "Pierre Curie's field of work is functional analysis",
+   "Pierre Curie's field of work is surgery",
+   "Pierre Curie's field of work is complex function",
+   "Pierre Curie's field of work is Jewish philosophy",
+   "Pierre Curie's field of work is translations from Spanish",
+   "Pierre Curie's field of work is poetry",
+   "Pierre Curie's field of work is distribution",
+   "Pierre Curie's field of work is astrology",
+   "Pierre Curie's field of work is differential geometry",
+   "Pierre Curie's field of work is mechanics",
+   "Pierre Curie's field of work is positivism",
+   "Pierre Curie's field of work is ferromagnetism",
+   "Pierre Curie's field of work is quantum physics",
+   "Pierre Curie's field of work is music theory",
+   "Pierre Curie's field of work is physiology",
+   "Pierre Curie's field of work is theory of differential equations",
+   "Pierre Curie's field of work is astrophysics",
+   "Pierre Curie's field of work is number theory",
+   "Pierre Curie's field of work is magnetic field",
+   "Pierre Curie's field of work is historical novel",
+   "Pierre Curie's field of work is stochastic",
+   "Pierre Curie's field of work is philosopher",
+   "Pierre Curie's field of work is histology",
+   "Pierre Curie's field of work is Franciscan spirituality",
+   "Pierre Curie's field of work is electromagnetic field",
+   "Pierre Curie's field of work is medicine",
+   "Pierre Curie's field of work is algebraic geometry",
+   "Pierre Curie's field of work is comparative mythology",
+   "Pierre Curie's field of work is color photography",
+   "Pierre Curie's field of work is cryptography",
+   "Pierre Curie's field of work is Christian Church",
+   "Pierre Curie's field of work is electrical engineering",
+   "Pierre Curie's field of work is folklore",
+   "Pierre Curie's field of work is mythology",
+   "Pierre Curie's field of work is human geography",
+   "Pierre Curie's field of work is Petrine ministry",
+   "Pierre Curie's field of work is Judaism",
+   "Pierre Curie's field of work is group theory",
+   "Pierre Curie's field of work is non-Euclidean geometry",
+   "Pierre Curie's field of work is algebra",
+   "Pierre Curie's field of work is ballistics",
+   "Pierre Curie's field of work is mathematician",
+   "Pierre Curie's field of work is applied physics",
+   "Pierre Curie's field of work is culturology",
+   "Pierre Curie's field of work is calculus of variations",
+   "Pierre Curie's field of work is logic",
+   "Pierre Curie's field of work is engineering",
+   "Pierre Curie's field of work is translations from Occitan",
+   "Pierre Curie's field of work is anatomy",
+   "Pierre Curie's field of work is forestry science",
+   "Pierre Curie's field of work is magic",
+   "Pierre Curie's field of work is quantum mechanics",
+   "Pierre Curie's field of work is differential calculus",
+   "Pierre Curie's field of work is shipbuilding",
+   "Pierre Curie's field of work is convex function",
+   "Pierre Curie's field of work is analytic philosophy",
+   "Pierre Curie's field of work is magnetic resonance",
+   "Pierre Curie's field of work is detective literature",
+   "Pierre Curie's field of work is cartography",
+   "Pierre Curie's field of work is sociology of organisations",
+   "Pierre Curie's field of work is crime novel",
+   "Pierre Curie's field of work is gravity",
+   "Pierre Curie's field of work is statistics",
+   "Pierre Curie's field of work is Greek philology",
+   "Pierre Curie's field of work is analytic number theory",
+   "Pierre Curie's field of work is trigonometry",
+   "Pierre Curie's field of work is physics",
+   "Pierre Curie's field of work is astronomer",
+   "Pierre Curie's field of work is natural science",
+   "Pierre Curie's field of work is information technology",
+   "Pierre Curie's field of work is conducting",
+   "Pierre Curie's field of work is nonstandard analysis",
+   "Pierre Curie's field of work is mathematical analysis",
+   "Pierre Curie's field of work is a branch of physics",
+   "Pierre Curie's field of work is projective geometry",
+   "Pierre Curie's field of work is civil rights",
+   "Pierre Curie's field of work is children's and youth literature",
+   "Pierre Curie's field of work is embryology",
+   "Pierre Curie's field of work is momentum",
+   "Pierre Curie's field of work is African studies",
+   "Pierre Curie's field of work is fairy tale",
+   "Pierre Curie's field of work is classics",
+   "Pierre Curie's field of work is social psychology",
+   "Pierre Curie's field of work is Jewish studies",
+   "Pierre Curie's field of work is silviculture",
+   "Pierre Curie's field of work is education",
+   "Pierre Curie's field of work is literature",
+   "Pierre Curie's field of work is constitutional law",
+   "Pierre Curie's field of work is radiation",
+   "Pierre Curie's field of work is Internet",
+   "Pierre Curie's field of work is heat",
+   "Pierre Curie's field of work is mechanical engineering",
+   "Pierre Curie's field of work is forestry",
+   "Pierre Curie's field of work is jazz",
+   "Pierre Curie's field of work is social philosophy",
+   "Pierre Curie's field of work is mathematical physics",
+   "Pierre Curie's field of work is meteorology",
+   "Pierre Curie's field of work is translations from Arabic language",
+   "Pierre Curie's field of work is quantum mysticism",
+   "Pierre Curie's field of work is politics",
+   "Pierre Curie's field of work is astronomical observation",
+   "Pierre Curie's field of work is myth",
+   "Pierre Curie's field of work is geography",
+   "Pierre Curie's field of work is sociology of religion",
+   "Pierre Curie's field of work is comparative religion",
+   "Pierre Curie's field of work is Greek",
+   "Pierre Curie's field of work is Lie algebra",
+   "Pierre Curie's field of work is complex manifold",
+   "Pierre Curie's field of work is journalism",
+   "Pierre Curie's field of work is celestial mechanics",
+   "Pierre Curie's field of work is String",
+   "Pierre Curie's field of work is mathematical logic",
+   "Pierre Curie's field of work is aeromechanics",
+   "Pierre Curie's field of work is English",
+   "Pierre Curie's field of work is history",
+   "Pierre Curie's field of work is study of history",
+   "Pierre Curie's field of work is genetics",
+   "Pierre Curie's field of work is psychology",
+   "Pierre Curie's field of work is theory of relativity",
+   "Pierre Curie's field of work is biochemistry",
+   "Pierre Curie's field of work is ballet",
+   "Pierre Curie's field of work is electricity",
+   "Pierre Curie's field of work is experimental physics",
+   "Pierre Curie's field of work is natural theology",
+   "Pierre Curie's field of work is Hebrew",
+   "Pierre Curie's field of work is prose",
+   "Pierre Curie's field of work is paleontology",
+   "Pierre Curie's field of work is Monte Carlo method",
+   "Pierre Curie's field of work is quantum theory",
+   "Pierre Curie's field of work is computer science",
+   "Pierre Curie's field of work is cybernetics",
+   "Pierre Curie's field of work is Afghanistan",
+   "Pierre Curie's field of work is philosophy of science",
+   "Pierre Curie's field of work is literary theory",
+   "Pierre Curie's field of work is electric field",
+   "Pierre Curie's field of work is religion",
+   "Pierre Curie's field of work is analytic geometry",
+   "Pierre Curie's field of work is graph theory",
+   "Pierre Curie's field of work is electron",
+   "Pierre Curie's field of work is anthropology",
+   "Pierre Curie's field of work is social anthropology",
+   "Pierre Curie's field of work is sociology",
+   "Pierre Curie's field of work is geodesy",
+   "Pierre Curie's field of work is neurology",
+   "Pierre Curie's field of work is drama",
+   "Pierre Curie's field of work is art of painting",
+   "Pierre Curie's field of work is applied mathematics",
+   "Pierre Curie's field of work is world economy",
+   "Pierre Curie's field of work is economic anthropology",
+   "Pierre Curie is abstract algebra",
+   "Pierre Curie is theology",
+   "Pierre Curie is television program",
+   "Pierre Curie is nanotechnology",
+   "Pierre Curie is hydrodynamics",
+   "Pierre Curie is ethics",
+   "Pierre Curie is physicist",
+   "Pierre Curie is evolution",
+   "Pierre Curie is distribution theory",
+   "Pierre Curie is psychophysiology",
+   "Pierre Curie is English literature",
+   "Pierre Curie is theoretical physics",
+   "Pierre Curie is essay",
+   "Pierre Curie is ethnology",
+   "Pierre Curie is pedagogy",
+   "Pierre Curie is kinetic theory",
+   "Pierre Curie is ethnography",
+   "Pierre Curie is rite",
+   "Pierre Curie is economics",
+   "Pierre Curie is dance choreography",
+   "Pierre Curie is biological anthropology",
+   "Pierre Curie is history of religions",
+   "Pierre Curie is political philosophy",
+   "Pierre Curie is philosophy",
+   "Pierre Curie is linguistics",
+   "Pierre Curie is cosmology",
+   "Pierre Curie is hunting",
+   "Pierre Curie is Minkowski spacetime",
+   "Pierre Curie is classical music",
+   "Pierre Curie is hyperbolic geometry",
+   "Pierre Curie is radioactivity",
+   "Pierre Curie is belletristic literature",
+   "Pierre Curie is model theory",
+   "Pierre Curie is choreography",
+   "Pierre Curie is chemistry",
+   "Pierre Curie is literary activity",
+   "Pierre Curie is historical sociology",
+   "Pierre Curie is feminism",
+   "Pierre Curie is economy",
+   "Pierre Curie is astronomy",
+   "Pierre Curie is topology",
+   "Pierre Curie is translations from English",
+   "Pierre Curie is partial differential equation",
+   "Pierre Curie is Cairo Geniza",
+   "Pierre Curie is nuclear physics",
+   "Pierre Curie is dance",
+   "Pierre Curie is informatics",
+   "Pierre Curie is geometry",
+   "Pierre Curie is computational geometry",
+   "Pierre Curie is Sanskrit",
+   "Pierre Curie is magnetism",
+   "Pierre Curie is opera",
+   "Pierre Curie is algebraic topology",
+   "Pierre Curie is quaternion",
+   "Pierre Curie is Bayesian inference",
+   "Pierre Curie is quantum electrodynamics",
+   "Pierre Curie is religion and society",
+   "Pierre Curie is history of economic thought",
+   "Pierre Curie is translations from Polish",
+   "Pierre Curie is literary translation",
+   "Pierre Curie is lyric poetry",
+   "Pierre Curie is probability theory",
+   "Pierre Curie is ontology",
+   "Pierre Curie is aerodynamics",
+   "Pierre Curie is crystallography",
+   "Pierre Curie is mathematics",
+   "Pierre Curie is harmonic analysis",
+   "Pierre Curie is history of science",
+   "Pierre Curie is philosophy of law",
+   "Pierre Curie is philology",
+   "Pierre Curie is optics",
+   "Pierre Curie is functional analysis",
+   "Pierre Curie is surgery",
+   "Pierre Curie is complex function",
+   "Pierre Curie is Jewish philosophy",
+   "Pierre Curie is translations from Spanish",
+   "Pierre Curie is poetry",
+   "Pierre Curie is distribution",
+   "Pierre Curie is astrology",
+   "Pierre Curie is differential geometry",
+   "Pierre Curie is mechanics",
+   "Pierre Curie is positivism",
+   "Pierre Curie is ferromagnetism",
+   "Pierre Curie is quantum physics",
+   "Pierre Curie is music theory",
+   "Pierre Curie is physiology",
+   "Pierre Curie is theory of differential equations",
+   "Pierre Curie is astrophysics",
+   "Pierre Curie is number theory",
+   "Pierre Curie is magnetic field",
+   "Pierre Curie is historical novel",
+   "Pierre Curie is stochastic",
+   "Pierre Curie is philosopher",
+   "Pierre Curie is histology",
+   "Pierre Curie is Franciscan spirituality",
+   "Pierre Curie is electromagnetic field",
+   "Pierre Curie is medicine",
+   "Pierre Curie is algebraic geometry",
+   "Pierre Curie is comparative mythology",
+   "Pierre Curie is color photography",
+   "Pierre Curie is cryptography",
+   "Pierre Curie is Christian Church",
+   "Pierre Curie is electrical engineering",
+   "Pierre Curie is folklore",
+   "Pierre Curie is mythology",
+   "Pierre Curie is human geography",
+   "Pierre Curie is Petrine ministry",
+   "Pierre Curie is Judaism",
+   "Pierre Curie is group theory",
+   "Pierre Curie is non-Euclidean geometry",
+   "Pierre Curie is algebra",
+   "Pierre Curie is ballistics",
+   "Pierre Curie is mathematician",
+   "Pierre Curie is applied physics",
+   "Pierre Curie is culturology",
+   "Pierre Curie is calculus of variations",
+   "Pierre Curie is logic",
+   "Pierre Curie is engineering",
+   "Pierre Curie is translations from Occitan",
+   "Pierre Curie is anatomy",
+   "Pierre Curie is forestry science",
+   "Pierre Curie is magic",
+   "Pierre Curie is quantum mechanics",
+   "Pierre Curie is differential calculus",
+   "Pierre Curie is shipbuilding",
+   "Pierre Curie is convex function",
+   "Pierre Curie is analytic philosophy",
+   "Pierre Curie is magnetic resonance",
+   "Pierre Curie is detective literature",
+   "Pierre Curie is cartography",
+   "Pierre Curie is sociology of organisations",
+   "Pierre Curie is crime novel",
+   "Pierre Curie is gravity",
+   "Pierre Curie is statistics",
+   "Pierre Curie is Greek philology",
+   "Pierre Curie is analytic number theory",
+   "Pierre Curie is trigonometry",
+   "Pierre Curie is physics",
+   "Pierre Curie is astronomer",
+   "Pierre Curie is natural science",
+   "Pierre Curie is information technology",
+   "Pierre Curie is conducting",
+   "Pierre Curie is nonstandard analysis",
+   "Pierre Curie is mathematical analysis",
+   "Pierre Curie is a branch of physics",
+   "Pierre Curie is projective geometry",
+   "Pierre Curie is civil rights",
+   "Pierre Curie is children's and youth literature",
+   "Pierre Curie is embryology",
+   "Pierre Curie is momentum",
+   "Pierre Curie is African studies",
+   "Pierre Curie is fairy tale",
+   "Pierre Curie is classics",
+   "Pierre Curie is social psychology",
+   "Pierre Curie is Jewish studies",
+   "Pierre Curie is silviculture",
+   "Pierre Curie is education",
+   "Pierre Curie is literature",
+   "Pierre Curie is constitutional law",
+   "Pierre Curie is radiation",
+   "Pierre Curie is Internet",
+   "Pierre Curie is heat",
+   "Pierre Curie is mechanical engineering",
+   "Pierre Curie is forestry",
+   "Pierre Curie is jazz",
+   "Pierre Curie is social philosophy",
+   "Pierre Curie is mathematical physics",
+   "Pierre Curie is meteorology",
+   "Pierre Curie is translations from Arabic language",
+   "Pierre Curie is quantum mysticism",
+   "Pierre Curie is politics",
+   "Pierre Curie is astronomical observation",
+   "Pierre Curie is myth",
+   "Pierre Curie is geography",
+   "Pierre Curie is sociology of religion",
+   "Pierre Curie is comparative religion",
+   "Pierre Curie is Greek",
+   "Pierre Curie is Lie algebra",
+   "Pierre Curie is complex manifold",
+   "Pierre Curie is journalism",
+   "Pierre Curie is celestial mechanics",
+   "Pierre Curie is String",
+   "Pierre Curie is mathematical logic",
+   "Pierre Curie is aeromechanics",
+   "Pierre Curie is English",
+   "Pierre Curie is history",
+   "Pierre Curie is study of history",
+   "Pierre Curie is genetics",
+   "Pierre Curie is psychology",
+   "Pierre Curie is theory of relativity",
+   "Pierre Curie is biochemistry",
+   "Pierre Curie is ballet",
+   "Pierre Curie is electricity",
+   "Pierre Curie is experimental physics",
+   "Pierre Curie is natural theology",
+   "Pierre Curie is Hebrew",
+   "Pierre Curie is prose",
+   "Pierre Curie is paleontology",
+   "Pierre Curie is Monte Carlo method",
+   "Pierre Curie is quantum theory",
+   "Pierre Curie is computer science",
+   "Pierre Curie is cybernetics",
+   "Pierre Curie is Afghanistan",
+   "Pierre Curie is philosophy of science",
+   "Pierre Curie is literary theory",
+   "Pierre Curie is electric field",
+   "Pierre Curie is religion",
+   "Pierre Curie is analytic geometry",
+   "Pierre Curie is graph theory",
+   "Pierre Curie is electron",
+   "Pierre Curie is anthropology",
+   "Pierre Curie is social anthropology",
+   "Pierre Curie is sociology",
+   "Pierre Curie is geodesy",
+   "Pierre Curie is neurology",
+   "Pierre Curie is drama",
+   "Pierre Curie is art of painting",
+   "Pierre Curie is applied mathematics",
+   "Pierre Curie is world economy",
+   "Pierre Curie is economic anthropology"
+  ],
+  [
+   [
+    -47.651031494140625
+   ],
+   [
+    -49.11201858520508
+   ],
+   [
+    -55.01685333251953
+   ],
+   [
+    -47.06376647949219
+   ],
+   [
+    -47.376220703125
+   ],
+   [
+    -49.938114166259766
+   ],
+   [
+    -48.6752815246582
+   ],
+   [
+    -46.54730224609375
+   ],
+   [
+    -50.558128356933594
+   ],
+   [
+    -52.11214828491211
+   ],
+   [
+    -50.706443786621094
+   ],
+   [
+    -43.521827697753906
+   ],
+   [
+    -50.043094635009766
+   ],
+   [
+    -50.5308837890625
+   ],
+   [
+    -46.812286376953125
+   ],
+   [
+    -46.45424270629883
+   ],
+   [
+    -51.61784744262695
+   ],
+   [
+    -59.23089599609375
+   ],
+   [
+    -47.27153015136719
+   ],
+   [
+    -57.8682975769043
+   ],
+   [
+    -53.62322998046875
+   ],
+   [
+    -50.19667053222656
+   ],
+   [
+    -49.70518112182617
+   ],
+   [
+    -47.03432083129883
+   ],
+   [
+    -48.56284713745117
+   ],
+   [
+    -45.90991973876953
+   ],
+   [
+    -51.583675384521484
+   ],
+   [
+    -54.347930908203125
+   ],
+   [
+    -53.826255798339844
+   ],
+   [
+    -51.73485565185547
+   ],
+   [
+    -41.69924545288086
+   ],
+   [
+    -56.75996398925781
+   ],
+   [
+    -51.4831428527832
+   ],
+   [
+    -52.95541763305664
+   ],
+   [
+    -41.60708999633789
+   ],
+   [
+    -58.34005355834961
+   ],
+   [
+    -48.4780387878418
+   ],
+   [
+    -48.565799713134766
+   ],
+   [
+    -50.51032257080078
+   ],
+   [
+    -46.080684661865234
+   ],
+   [
+    -49.288734436035156
+   ],
+   [
+    -54.328792572021484
+   ],
+   [
+    -51.98603820800781
+   ],
+   [
+    -61.971317291259766
+   ],
+   [
+    -42.783748626708984
+   ],
+   [
+    -52.49960708618164
+   ],
+   [
+    -50.48014450073242
+   ],
+   [
+    -46.099918365478516
+   ],
+   [
+    -51.4006462097168
+   ],
+   [
+    -50.18830871582031
+   ],
+   [
+    -42.35105895996094
+   ],
+   [
+    -52.30351638793945
+   ],
+   [
+    -50.63763427734375
+   ],
+   [
+    -50.50208282470703
+   ],
+   [
+    -51.607078552246094
+   ],
+   [
+    -48.5984001159668
+   ],
+   [
+    -53.76142883300781
+   ],
+   [
+    -51.99814987182617
+   ],
+   [
+    -56.063758850097656
+   ],
+   [
+    -52.986488342285156
+   ],
+   [
+    -54.79045104980469
+   ],
+   [
+    -49.03288269042969
+   ],
+   [
+    -47.58246994018555
+   ],
+   [
+    -48.79203414916992
+   ],
+   [
+    -40.968929290771484
+   ],
+   [
+    -46.230159759521484
+   ],
+   [
+    -48.59938430786133
+   ],
+   [
+    -45.008758544921875
+   ],
+   [
+    -52.70309829711914
+   ],
+   [
+    -50.23127365112305
+   ],
+   [
+    -43.29039764404297
+   ],
+   [
+    -50.9145622253418
+   ],
+   [
+    -50.72608184814453
+   ],
+   [
+    -52.63706970214844
+   ],
+   [
+    -52.28565979003906
+   ],
+   [
+    -57.15154266357422
+   ],
+   [
+    -49.515113830566406
+   ],
+   [
+    -48.52430725097656
+   ],
+   [
+    -49.17171859741211
+   ],
+   [
+    -47.46638107299805
+   ],
+   [
+    -44.22124099731445
+   ],
+   [
+    -50.566776275634766
+   ],
+   [
+    -46.144073486328125
+   ],
+   [
+    -46.859832763671875
+   ],
+   [
+    -51.85650634765625
+   ],
+   [
+    -45.644981384277344
+   ],
+   [
+    -54.96078872680664
+   ],
+   [
+    -45.353580474853516
+   ],
+   [
+    -47.81645202636719
+   ],
+   [
+    -48.4131965637207
+   ],
+   [
+    -53.125553131103516
+   ],
+   [
+    -47.65854263305664
+   ],
+   [
+    -51.7382926940918
+   ],
+   [
+    -46.74005889892578
+   ],
+   [
+    -58.278717041015625
+   ],
+   [
+    -47.41639709472656
+   ],
+   [
+    -47.19129943847656
+   ],
+   [
+    -50.07134246826172
+   ],
+   [
+    -53.00519943237305
+   ],
+   [
+    -53.17188262939453
+   ],
+   [
+    -49.28704833984375
+   ],
+   [
+    -52.2874870300293
+   ],
+   [
+    -42.98199462890625
+   ],
+   [
+    -51.60407638549805
+   ],
+   [
+    -51.52288055419922
+   ],
+   [
+    -50.48750305175781
+   ],
+   [
+    -65.26078033447266
+   ],
+   [
+    -53.54261779785156
+   ],
+   [
+    -48.1063117980957
+   ],
+   [
+    -51.36736297607422
+   ],
+   [
+    -49.736392974853516
+   ],
+   [
+    -50.63245391845703
+   ],
+   [
+    -53.83647918701172
+   ],
+   [
+    -45.068572998046875
+   ],
+   [
+    -55.19623565673828
+   ],
+   [
+    -50.31083297729492
+   ],
+   [
+    -49.15607452392578
+   ],
+   [
+    -45.42487716674805
+   ],
+   [
+    -60.997596740722656
+   ],
+   [
+    -44.883934020996094
+   ],
+   [
+    -54.25624084472656
+   ],
+   [
+    -47.3420524597168
+   ],
+   [
+    -46.16099548339844
+   ],
+   [
+    -50.93496322631836
+   ],
+   [
+    -51.356876373291016
+   ],
+   [
+    -57.12019348144531
+   ],
+   [
+    -50.81111145019531
+   ],
+   [
+    -45.62153244018555
+   ],
+   [
+    -56.77033233642578
+   ],
+   [
+    -49.896751403808594
+   ],
+   [
+    -56.99097442626953
+   ],
+   [
+    -58.0674934387207
+   ],
+   [
+    -46.39889907836914
+   ],
+   [
+    -46.22746658325195
+   ],
+   [
+    -53.15555953979492
+   ],
+   [
+    -47.826236724853516
+   ],
+   [
+    -49.2992057800293
+   ],
+   [
+    -41.23505783081055
+   ],
+   [
+    -53.677425384521484
+   ],
+   [
+    -45.1639404296875
+   ],
+   [
+    -49.1003532409668
+   ],
+   [
+    -45.9895133972168
+   ],
+   [
+    -56.12659454345703
+   ],
+   [
+    -48.84182357788086
+   ],
+   [
+    -46.395851135253906
+   ],
+   [
+    -49.952293395996094
+   ],
+   [
+    -54.47838592529297
+   ],
+   [
+    -58.36674880981445
+   ],
+   [
+    -48.221290588378906
+   ],
+   [
+    -48.53872299194336
+   ],
+   [
+    -52.72674560546875
+   ],
+   [
+    -55.56089782714844
+   ],
+   [
+    -47.68260955810547
+   ],
+   [
+    -50.076114654541016
+   ],
+   [
+    -50.596309661865234
+   ],
+   [
+    -53.128883361816406
+   ],
+   [
+    -45.87744903564453
+   ],
+   [
+    -47.720733642578125
+   ],
+   [
+    -48.458099365234375
+   ],
+   [
+    -41.614681243896484
+   ],
+   [
+    -51.36151885986328
+   ],
+   [
+    -44.58137893676758
+   ],
+   [
+    -46.9471321105957
+   ],
+   [
+    -50.219879150390625
+   ],
+   [
+    -51.4236946105957
+   ],
+   [
+    -53.949275970458984
+   ],
+   [
+    -46.146209716796875
+   ],
+   [
+    -45.85933303833008
+   ],
+   [
+    -62.254398345947266
+   ],
+   [
+    -54.644622802734375
+   ],
+   [
+    -47.940032958984375
+   ],
+   [
+    -53.95676803588867
+   ],
+   [
+    -50.707096099853516
+   ],
+   [
+    -47.63379669189453
+   ],
+   [
+    -51.68799591064453
+   ],
+   [
+    -51.8165283203125
+   ],
+   [
+    -48.92976760864258
+   ],
+   [
+    -51.345394134521484
+   ],
+   [
+    -53.993896484375
+   ],
+   [
+    -47.44386291503906
+   ],
+   [
+    -48.398582458496094
+   ],
+   [
+    -49.82400131225586
+   ],
+   [
+    -50.29560089111328
+   ],
+   [
+    -53.037445068359375
+   ],
+   [
+    -48.875732421875
+   ],
+   [
+    -43.93727493286133
+   ],
+   [
+    -54.705535888671875
+   ],
+   [
+    -48.89419937133789
+   ],
+   [
+    -48.02525329589844
+   ],
+   [
+    -50.05666732788086
+   ],
+   [
+    -45.46917724609375
+   ],
+   [
+    -54.149383544921875
+   ],
+   [
+    -42.334632873535156
+   ],
+   [
+    -42.71234893798828
+   ],
+   [
+    -55.5825080871582
+   ],
+   [
+    -51.27583694458008
+   ],
+   [
+    -52.665565490722656
+   ],
+   [
+    -46.18064880371094
+   ],
+   [
+    -53.22589874267578
+   ],
+   [
+    -49.12269592285156
+   ],
+   [
+    -49.98497772216797
+   ],
+   [
+    -51.1017951965332
+   ],
+   [
+    -51.97663116455078
+   ],
+   [
+    -48.670684814453125
+   ],
+   [
+    -52.20963668823242
+   ],
+   [
+    -51.470367431640625
+   ],
+   [
+    -48.61866760253906
+   ],
+   [
+    -49.33836364746094
+   ],
+   [
+    -51.137916564941406
+   ],
+   [
+    -43.86850357055664
+   ],
+   [
+    -46.82567596435547
+   ],
+   [
+    -51.449275970458984
+   ],
+   [
+    -47.435123443603516
+   ],
+   [
+    -47.208709716796875
+   ],
+   [
+    -48.52635192871094
+   ],
+   [
+    -50.7116584777832
+   ],
+   [
+    -57.977439880371094
+   ],
+   [
+    -47.35691833496094
+   ],
+   [
+    -55.79288101196289
+   ],
+   [
+    -54.7346076965332
+   ],
+   [
+    -45.287235260009766
+   ],
+   [
+    -37.733272552490234
+   ],
+   [
+    -39.69852828979492
+   ],
+   [
+    -38.06393814086914
+   ],
+   [
+    -42.7360954284668
+   ],
+   [
+    -38.490909576416016
+   ],
+   [
+    -30.854612350463867
+   ],
+   [
+    -36.51118087768555
+   ],
+   [
+    -47.36257553100586
+   ],
+   [
+    -44.44718933105469
+   ],
+   [
+    -40.49374008178711
+   ],
+   [
+    -36.982261657714844
+   ],
+   [
+    -34.688106536865234
+   ],
+   [
+    -39.86339569091797
+   ],
+   [
+    -38.81989288330078
+   ],
+   [
+    -40.7490234375
+   ],
+   [
+    -40.40020751953125
+   ],
+   [
+    -40.4310188293457
+   ],
+   [
+    -35.41585159301758
+   ],
+   [
+    -42.6785888671875
+   ],
+   [
+    -42.922725677490234
+   ],
+   [
+    -44.469749450683594
+   ],
+   [
+    -39.21983337402344
+   ],
+   [
+    -35.170372009277344
+   ],
+   [
+    -39.20584487915039
+   ],
+   [
+    -37.06106185913086
+   ],
+   [
+    -33.64310073852539
+   ],
+   [
+    -45.30643081665039
+   ],
+   [
+    -36.8171272277832
+   ],
+   [
+    -45.40961837768555
+   ],
+   [
+    -37.18104934692383
+   ],
+   [
+    -46.51609802246094
+   ],
+   [
+    -46.490604400634766
+   ],
+   [
+    -43.08312225341797
+   ],
+   [
+    -34.485504150390625
+   ],
+   [
+    -46.166297912597656
+   ],
+   [
+    -41.26605987548828
+   ],
+   [
+    -37.500492095947266
+   ],
+   [
+    -36.77035140991211
+   ],
+   [
+    -36.75608444213867
+   ],
+   [
+    -38.1847038269043
+   ],
+   [
+    -45.49188232421875
+   ],
+   [
+    -40.499977111816406
+   ],
+   [
+    -46.32659912109375
+   ],
+   [
+    -37.16852951049805
+   ],
+   [
+    -36.08237075805664
+   ],
+   [
+    -39.19009017944336
+   ],
+   [
+    -37.71992111206055
+   ],
+   [
+    -43.84866714477539
+   ],
+   [
+    -36.12200164794922
+   ],
+   [
+    -37.10086441040039
+   ],
+   [
+    -35.67866897583008
+   ],
+   [
+    -42.4765510559082
+   ],
+   [
+    -40.747413635253906
+   ],
+   [
+    -42.64801025390625
+   ],
+   [
+    -42.83387756347656
+   ],
+   [
+    -44.025596618652344
+   ],
+   [
+    -45.5557746887207
+   ],
+   [
+    -45.81280517578125
+   ],
+   [
+    -42.82380294799805
+   ],
+   [
+    -41.38466262817383
+   ],
+   [
+    -40.10032272338867
+   ],
+   [
+    -40.279659271240234
+   ],
+   [
+    -38.67320251464844
+   ],
+   [
+    -35.9869499206543
+   ],
+   [
+    -34.96546936035156
+   ],
+   [
+    -41.304107666015625
+   ],
+   [
+    -36.491825103759766
+   ],
+   [
+    -43.63296890258789
+   ],
+   [
+    -38.43022918701172
+   ],
+   [
+    -38.446128845214844
+   ],
+   [
+    -42.16142654418945
+   ],
+   [
+    -38.49257278442383
+   ],
+   [
+    -46.296600341796875
+   ],
+   [
+    -42.71016311645508
+   ],
+   [
+    -47.548213958740234
+   ],
+   [
+    -36.31657028198242
+   ],
+   [
+    -38.87404251098633
+   ],
+   [
+    -40.56640625
+   ],
+   [
+    -41.640079498291016
+   ],
+   [
+    -36.644317626953125
+   ],
+   [
+    -40.20050048828125
+   ],
+   [
+    -40.8792724609375
+   ],
+   [
+    -38.90437698364258
+   ],
+   [
+    -40.77206039428711
+   ],
+   [
+    -37.33319854736328
+   ],
+   [
+    -45.833553314208984
+   ],
+   [
+    -36.696075439453125
+   ],
+   [
+    -42.09111404418945
+   ],
+   [
+    -39.794036865234375
+   ],
+   [
+    -37.69010925292969
+   ],
+   [
+    -38.807743072509766
+   ],
+   [
+    -34.213958740234375
+   ],
+   [
+    -39.6425895690918
+   ],
+   [
+    -44.589622497558594
+   ],
+   [
+    -39.70110321044922
+   ],
+   [
+    -35.60365295410156
+   ],
+   [
+    -40.5629768371582
+   ],
+   [
+    -44.519248962402344
+   ],
+   [
+    -42.31681823730469
+   ],
+   [
+    -39.88177490234375
+   ],
+   [
+    -40.69375991821289
+   ],
+   [
+    -35.821922302246094
+   ],
+   [
+    -38.70193862915039
+   ],
+   [
+    -38.84791946411133
+   ],
+   [
+    -40.353660583496094
+   ],
+   [
+    -53.24895477294922
+   ],
+   [
+    -40.49355697631836
+   ],
+   [
+    -42.856689453125
+   ],
+   [
+    -42.18861389160156
+   ],
+   [
+    -38.8729133605957
+   ],
+   [
+    -40.93513870239258
+   ],
+   [
+    -33.95100402832031
+   ],
+   [
+    -37.88776779174805
+   ],
+   [
+    -43.66602325439453
+   ],
+   [
+    -42.295894622802734
+   ],
+   [
+    -37.3509521484375
+   ],
+   [
+    -34.15964126586914
+   ],
+   [
+    -51.39607238769531
+   ],
+   [
+    -37.24848937988281
+   ],
+   [
+    -43.8069953918457
+   ],
+   [
+    -34.11222457885742
+   ],
+   [
+    -38.979557037353516
+   ],
+   [
+    -41.00244903564453
+   ],
+   [
+    -39.17434310913086
+   ],
+   [
+    -43.70438003540039
+   ],
+   [
+    -42.66714859008789
+   ],
+   [
+    -40.15347671508789
+   ],
+   [
+    -48.65696334838867
+   ],
+   [
+    -40.012638092041016
+   ],
+   [
+    -49.67965316772461
+   ],
+   [
+    -39.1137580871582
+   ],
+   [
+    -36.98270034790039
+   ],
+   [
+    -35.2963752746582
+   ],
+   [
+    -47.43421173095703
+   ],
+   [
+    -44.69907760620117
+   ],
+   [
+    -39.77241516113281
+   ],
+   [
+    -34.7348747253418
+   ],
+   [
+    -35.491355895996094
+   ],
+   [
+    -36.484764099121094
+   ],
+   [
+    -36.57994079589844
+   ],
+   [
+    -30.914493560791016
+   ],
+   [
+    -47.01228332519531
+   ],
+   [
+    -40.66486740112305
+   ],
+   [
+    -37.06621551513672
+   ],
+   [
+    -42.93135070800781
+   ],
+   [
+    -41.04356384277344
+   ],
+   [
+    -44.46125030517578
+   ],
+   [
+    -42.322383880615234
+   ],
+   [
+    -37.82443618774414
+   ],
+   [
+    -41.795806884765625
+   ],
+   [
+    -39.55014419555664
+   ],
+   [
+    -36.08273696899414
+   ],
+   [
+    -39.23277282714844
+   ],
+   [
+    -40.541648864746094
+   ],
+   [
+    -42.743309020996094
+   ],
+   [
+    -34.34089660644531
+   ],
+   [
+    -35.95981979370117
+   ],
+   [
+    -39.28196334838867
+   ],
+   [
+    -36.001930236816406
+   ],
+   [
+    -35.98676300048828
+   ],
+   [
+    -36.30857467651367
+   ],
+   [
+    -37.52278518676758
+   ],
+   [
+    -38.602169036865234
+   ],
+   [
+    -35.94773483276367
+   ],
+   [
+    -43.14689254760742
+   ],
+   [
+    -38.069637298583984
+   ],
+   [
+    -38.43450927734375
+   ],
+   [
+    -53.30174255371094
+   ],
+   [
+    -45.685646057128906
+   ],
+   [
+    -36.810218811035156
+   ],
+   [
+    -43.0812873840332
+   ],
+   [
+    -33.889678955078125
+   ],
+   [
+    -36.506778717041016
+   ],
+   [
+    -44.015846252441406
+   ],
+   [
+    -44.09081268310547
+   ],
+   [
+    -35.49054718017578
+   ],
+   [
+    -46.45954513549805
+   ],
+   [
+    -47.41707229614258
+   ],
+   [
+    -37.39455032348633
+   ],
+   [
+    -43.74415588378906
+   ],
+   [
+    -36.71946716308594
+   ],
+   [
+    -40.5367546081543
+   ],
+   [
+    -44.74492645263672
+   ],
+   [
+    -33.94964599609375
+   ],
+   [
+    -31.17761993408203
+   ],
+   [
+    -39.899417877197266
+   ],
+   [
+    -37.59559631347656
+   ],
+   [
+    -37.2504768371582
+   ],
+   [
+    -39.89773178100586
+   ],
+   [
+    -36.63716506958008
+   ],
+   [
+    -39.72029495239258
+   ],
+   [
+    -35.04987335205078
+   ],
+   [
+    -37.85799026489258
+   ],
+   [
+    -45.89727020263672
+   ],
+   [
+    -35.91256332397461
+   ],
+   [
+    -37.0659065246582
+   ],
+   [
+    -37.21968078613281
+   ],
+   [
+    -42.71844482421875
+   ],
+   [
+    -41.8015022277832
+   ],
+   [
+    -36.870826721191406
+   ],
+   [
+    -40.1125602722168
+   ],
+   [
+    -37.012290954589844
+   ],
+   [
+    -39.39870071411133
+   ],
+   [
+    -43.440284729003906
+   ],
+   [
+    -41.69801712036133
+   ],
+   [
+    -36.366519927978516
+   ],
+   [
+    -42.73036193847656
+   ],
+   [
+    -41.19880294799805
+   ],
+   [
+    -33.72075653076172
+   ],
+   [
+    -36.55816650390625
+   ],
+   [
+    -41.78500747680664
+   ],
+   [
+    -36.47098159790039
+   ],
+   [
+    -41.060646057128906
+   ],
+   [
+    -38.3697395324707
+   ],
+   [
+    -35.46175003051758
+   ],
+   [
+    -43.45179748535156
+   ],
+   [
+    -38.86823654174805
+   ],
+   [
+    -42.06553649902344
+   ],
+   [
+    -43.493648529052734
+   ]
+  ]
+ ],
+ "time": 218.22992634773254
+}

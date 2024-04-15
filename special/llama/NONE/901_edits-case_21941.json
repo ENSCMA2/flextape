@@ -1,0 +1,2076 @@
+{
+ "case_id": 21941,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Bert Sakmann"
+ },
+ "pre": [
+  [
+   "Bert Sakmann's field of work is abstract algebra",
+   "Bert Sakmann's field of work is theology",
+   "Bert Sakmann's field of work is television program",
+   "Bert Sakmann's field of work is nanotechnology",
+   "Bert Sakmann's field of work is hydrodynamics",
+   "Bert Sakmann's field of work is ethics",
+   "Bert Sakmann's field of work is physicist",
+   "Bert Sakmann's field of work is evolution",
+   "Bert Sakmann's field of work is distribution theory",
+   "Bert Sakmann's field of work is psychophysiology",
+   "Bert Sakmann's field of work is English literature",
+   "Bert Sakmann's field of work is theoretical physics",
+   "Bert Sakmann's field of work is essay",
+   "Bert Sakmann's field of work is ethnology",
+   "Bert Sakmann's field of work is pedagogy",
+   "Bert Sakmann's field of work is kinetic theory",
+   "Bert Sakmann's field of work is ethnography",
+   "Bert Sakmann's field of work is rite",
+   "Bert Sakmann's field of work is economics",
+   "Bert Sakmann's field of work is dance choreography",
+   "Bert Sakmann's field of work is biological anthropology",
+   "Bert Sakmann's field of work is history of religions",
+   "Bert Sakmann's field of work is political philosophy",
+   "Bert Sakmann's field of work is philosophy",
+   "Bert Sakmann's field of work is linguistics",
+   "Bert Sakmann's field of work is cosmology",
+   "Bert Sakmann's field of work is hunting",
+   "Bert Sakmann's field of work is Minkowski spacetime",
+   "Bert Sakmann's field of work is classical music",
+   "Bert Sakmann's field of work is hyperbolic geometry",
+   "Bert Sakmann's field of work is radioactivity",
+   "Bert Sakmann's field of work is belletristic literature",
+   "Bert Sakmann's field of work is model theory",
+   "Bert Sakmann's field of work is choreography",
+   "Bert Sakmann's field of work is chemistry",
+   "Bert Sakmann's field of work is literary activity",
+   "Bert Sakmann's field of work is historical sociology",
+   "Bert Sakmann's field of work is feminism",
+   "Bert Sakmann's field of work is economy",
+   "Bert Sakmann's field of work is astronomy",
+   "Bert Sakmann's field of work is topology",
+   "Bert Sakmann's field of work is translations from English",
+   "Bert Sakmann's field of work is partial differential equation",
+   "Bert Sakmann's field of work is Cairo Geniza",
+   "Bert Sakmann's field of work is nuclear physics",
+   "Bert Sakmann's field of work is dance",
+   "Bert Sakmann's field of work is informatics",
+   "Bert Sakmann's field of work is geometry",
+   "Bert Sakmann's field of work is computational geometry",
+   "Bert Sakmann's field of work is Sanskrit",
+   "Bert Sakmann's field of work is magnetism",
+   "Bert Sakmann's field of work is opera",
+   "Bert Sakmann's field of work is algebraic topology",
+   "Bert Sakmann's field of work is quaternion",
+   "Bert Sakmann's field of work is Bayesian inference",
+   "Bert Sakmann's field of work is quantum electrodynamics",
+   "Bert Sakmann's field of work is religion and society",
+   "Bert Sakmann's field of work is history of economic thought",
+   "Bert Sakmann's field of work is translations from Polish",
+   "Bert Sakmann's field of work is literary translation",
+   "Bert Sakmann's field of work is lyric poetry",
+   "Bert Sakmann's field of work is probability theory",
+   "Bert Sakmann's field of work is ontology",
+   "Bert Sakmann's field of work is aerodynamics",
+   "Bert Sakmann's field of work is crystallography",
+   "Bert Sakmann's field of work is mathematics",
+   "Bert Sakmann's field of work is harmonic analysis",
+   "Bert Sakmann's field of work is history of science",
+   "Bert Sakmann's field of work is philosophy of law",
+   "Bert Sakmann's field of work is philology",
+   "Bert Sakmann's field of work is optics",
+   "Bert Sakmann's field of work is functional analysis",
+   "Bert Sakmann's field of work is surgery",
+   "Bert Sakmann's field of work is complex function",
+   "Bert Sakmann's field of work is Jewish philosophy",
+   "Bert Sakmann's field of work is translations from Spanish",
+   "Bert Sakmann's field of work is poetry",
+   "Bert Sakmann's field of work is distribution",
+   "Bert Sakmann's field of work is astrology",
+   "Bert Sakmann's field of work is differential geometry",
+   "Bert Sakmann's field of work is mechanics",
+   "Bert Sakmann's field of work is positivism",
+   "Bert Sakmann's field of work is ferromagnetism",
+   "Bert Sakmann's field of work is quantum physics",
+   "Bert Sakmann's field of work is music theory",
+   "Bert Sakmann's field of work is physiology",
+   "Bert Sakmann's field of work is theory of differential equations",
+   "Bert Sakmann's field of work is astrophysics",
+   "Bert Sakmann's field of work is number theory",
+   "Bert Sakmann's field of work is magnetic field",
+   "Bert Sakmann's field of work is historical novel",
+   "Bert Sakmann's field of work is stochastic",
+   "Bert Sakmann's field of work is philosopher",
+   "Bert Sakmann's field of work is histology",
+   "Bert Sakmann's field of work is Franciscan spirituality",
+   "Bert Sakmann's field of work is electromagnetic field",
+   "Bert Sakmann's field of work is medicine",
+   "Bert Sakmann's field of work is algebraic geometry",
+   "Bert Sakmann's field of work is comparative mythology",
+   "Bert Sakmann's field of work is color photography",
+   "Bert Sakmann's field of work is cryptography",
+   "Bert Sakmann's field of work is Christian Church",
+   "Bert Sakmann's field of work is electrical engineering",
+   "Bert Sakmann's field of work is folklore",
+   "Bert Sakmann's field of work is mythology",
+   "Bert Sakmann's field of work is human geography",
+   "Bert Sakmann's field of work is Petrine ministry",
+   "Bert Sakmann's field of work is Judaism",
+   "Bert Sakmann's field of work is group theory",
+   "Bert Sakmann's field of work is non-Euclidean geometry",
+   "Bert Sakmann's field of work is algebra",
+   "Bert Sakmann's field of work is ballistics",
+   "Bert Sakmann's field of work is mathematician",
+   "Bert Sakmann's field of work is applied physics",
+   "Bert Sakmann's field of work is culturology",
+   "Bert Sakmann's field of work is calculus of variations",
+   "Bert Sakmann's field of work is logic",
+   "Bert Sakmann's field of work is engineering",
+   "Bert Sakmann's field of work is translations from Occitan",
+   "Bert Sakmann's field of work is anatomy",
+   "Bert Sakmann's field of work is forestry science",
+   "Bert Sakmann's field of work is magic",
+   "Bert Sakmann's field of work is quantum mechanics",
+   "Bert Sakmann's field of work is differential calculus",
+   "Bert Sakmann's field of work is shipbuilding",
+   "Bert Sakmann's field of work is convex function",
+   "Bert Sakmann's field of work is analytic philosophy",
+   "Bert Sakmann's field of work is magnetic resonance",
+   "Bert Sakmann's field of work is detective literature",
+   "Bert Sakmann's field of work is cartography",
+   "Bert Sakmann's field of work is sociology of organisations",
+   "Bert Sakmann's field of work is crime novel",
+   "Bert Sakmann's field of work is gravity",
+   "Bert Sakmann's field of work is statistics",
+   "Bert Sakmann's field of work is Greek philology",
+   "Bert Sakmann's field of work is analytic number theory",
+   "Bert Sakmann's field of work is trigonometry",
+   "Bert Sakmann's field of work is physics",
+   "Bert Sakmann's field of work is astronomer",
+   "Bert Sakmann's field of work is natural science",
+   "Bert Sakmann's field of work is information technology",
+   "Bert Sakmann's field of work is conducting",
+   "Bert Sakmann's field of work is nonstandard analysis",
+   "Bert Sakmann's field of work is mathematical analysis",
+   "Bert Sakmann's field of work is a branch of physics",
+   "Bert Sakmann's field of work is projective geometry",
+   "Bert Sakmann's field of work is civil rights",
+   "Bert Sakmann's field of work is children's and youth literature",
+   "Bert Sakmann's field of work is embryology",
+   "Bert Sakmann's field of work is momentum",
+   "Bert Sakmann's field of work is African studies",
+   "Bert Sakmann's field of work is fairy tale",
+   "Bert Sakmann's field of work is classics",
+   "Bert Sakmann's field of work is social psychology",
+   "Bert Sakmann's field of work is Jewish studies",
+   "Bert Sakmann's field of work is silviculture",
+   "Bert Sakmann's field of work is education",
+   "Bert Sakmann's field of work is literature",
+   "Bert Sakmann's field of work is constitutional law",
+   "Bert Sakmann's field of work is radiation",
+   "Bert Sakmann's field of work is Internet",
+   "Bert Sakmann's field of work is heat",
+   "Bert Sakmann's field of work is mechanical engineering",
+   "Bert Sakmann's field of work is forestry",
+   "Bert Sakmann's field of work is jazz",
+   "Bert Sakmann's field of work is social philosophy",
+   "Bert Sakmann's field of work is mathematical physics",
+   "Bert Sakmann's field of work is meteorology",
+   "Bert Sakmann's field of work is translations from Arabic language",
+   "Bert Sakmann's field of work is quantum mysticism",
+   "Bert Sakmann's field of work is politics",
+   "Bert Sakmann's field of work is astronomical observation",
+   "Bert Sakmann's field of work is myth",
+   "Bert Sakmann's field of work is geography",
+   "Bert Sakmann's field of work is sociology of religion",
+   "Bert Sakmann's field of work is comparative religion",
+   "Bert Sakmann's field of work is Greek",
+   "Bert Sakmann's field of work is Lie algebra",
+   "Bert Sakmann's field of work is complex manifold",
+   "Bert Sakmann's field of work is journalism",
+   "Bert Sakmann's field of work is celestial mechanics",
+   "Bert Sakmann's field of work is String",
+   "Bert Sakmann's field of work is mathematical logic",
+   "Bert Sakmann's field of work is aeromechanics",
+   "Bert Sakmann's field of work is English",
+   "Bert Sakmann's field of work is history",
+   "Bert Sakmann's field of work is study of history",
+   "Bert Sakmann's field of work is genetics",
+   "Bert Sakmann's field of work is psychology",
+   "Bert Sakmann's field of work is theory of relativity",
+   "Bert Sakmann's field of work is biochemistry",
+   "Bert Sakmann's field of work is ballet",
+   "Bert Sakmann's field of work is electricity",
+   "Bert Sakmann's field of work is experimental physics",
+   "Bert Sakmann's field of work is natural theology",
+   "Bert Sakmann's field of work is Hebrew",
+   "Bert Sakmann's field of work is prose",
+   "Bert Sakmann's field of work is paleontology",
+   "Bert Sakmann's field of work is Monte Carlo method",
+   "Bert Sakmann's field of work is quantum theory",
+   "Bert Sakmann's field of work is computer science",
+   "Bert Sakmann's field of work is cybernetics",
+   "Bert Sakmann's field of work is Afghanistan",
+   "Bert Sakmann's field of work is philosophy of science",
+   "Bert Sakmann's field of work is literary theory",
+   "Bert Sakmann's field of work is electric field",
+   "Bert Sakmann's field of work is religion",
+   "Bert Sakmann's field of work is analytic geometry",
+   "Bert Sakmann's field of work is graph theory",
+   "Bert Sakmann's field of work is electron",
+   "Bert Sakmann's field of work is anthropology",
+   "Bert Sakmann's field of work is social anthropology",
+   "Bert Sakmann's field of work is sociology",
+   "Bert Sakmann's field of work is geodesy",
+   "Bert Sakmann's field of work is neurology",
+   "Bert Sakmann's field of work is drama",
+   "Bert Sakmann's field of work is art of painting",
+   "Bert Sakmann's field of work is applied mathematics",
+   "Bert Sakmann's field of work is world economy",
+   "Bert Sakmann's field of work is economic anthropology",
+   "Bert Sakmann is abstract algebra",
+   "Bert Sakmann is theology",
+   "Bert Sakmann is television program",
+   "Bert Sakmann is nanotechnology",
+   "Bert Sakmann is hydrodynamics",
+   "Bert Sakmann is ethics",
+   "Bert Sakmann is physicist",
+   "Bert Sakmann is evolution",
+   "Bert Sakmann is distribution theory",
+   "Bert Sakmann is psychophysiology",
+   "Bert Sakmann is English literature",
+   "Bert Sakmann is theoretical physics",
+   "Bert Sakmann is essay",
+   "Bert Sakmann is ethnology",
+   "Bert Sakmann is pedagogy",
+   "Bert Sakmann is kinetic theory",
+   "Bert Sakmann is ethnography",
+   "Bert Sakmann is rite",
+   "Bert Sakmann is economics",
+   "Bert Sakmann is dance choreography",
+   "Bert Sakmann is biological anthropology",
+   "Bert Sakmann is history of religions",
+   "Bert Sakmann is political philosophy",
+   "Bert Sakmann is philosophy",
+   "Bert Sakmann is linguistics",
+   "Bert Sakmann is cosmology",
+   "Bert Sakmann is hunting",
+   "Bert Sakmann is Minkowski spacetime",
+   "Bert Sakmann is classical music",
+   "Bert Sakmann is hyperbolic geometry",
+   "Bert Sakmann is radioactivity",
+   "Bert Sakmann is belletristic literature",
+   "Bert Sakmann is model theory",
+   "Bert Sakmann is choreography",
+   "Bert Sakmann is chemistry",
+   "Bert Sakmann is literary activity",
+   "Bert Sakmann is historical sociology",
+   "Bert Sakmann is feminism",
+   "Bert Sakmann is economy",
+   "Bert Sakmann is astronomy",
+   "Bert Sakmann is topology",
+   "Bert Sakmann is translations from English",
+   "Bert Sakmann is partial differential equation",
+   "Bert Sakmann is Cairo Geniza",
+   "Bert Sakmann is nuclear physics",
+   "Bert Sakmann is dance",
+   "Bert Sakmann is informatics",
+   "Bert Sakmann is geometry",
+   "Bert Sakmann is computational geometry",
+   "Bert Sakmann is Sanskrit",
+   "Bert Sakmann is magnetism",
+   "Bert Sakmann is opera",
+   "Bert Sakmann is algebraic topology",
+   "Bert Sakmann is quaternion",
+   "Bert Sakmann is Bayesian inference",
+   "Bert Sakmann is quantum electrodynamics",
+   "Bert Sakmann is religion and society",
+   "Bert Sakmann is history of economic thought",
+   "Bert Sakmann is translations from Polish",
+   "Bert Sakmann is literary translation",
+   "Bert Sakmann is lyric poetry",
+   "Bert Sakmann is probability theory",
+   "Bert Sakmann is ontology",
+   "Bert Sakmann is aerodynamics",
+   "Bert Sakmann is crystallography",
+   "Bert Sakmann is mathematics",
+   "Bert Sakmann is harmonic analysis",
+   "Bert Sakmann is history of science",
+   "Bert Sakmann is philosophy of law",
+   "Bert Sakmann is philology",
+   "Bert Sakmann is optics",
+   "Bert Sakmann is functional analysis",
+   "Bert Sakmann is surgery",
+   "Bert Sakmann is complex function",
+   "Bert Sakmann is Jewish philosophy",
+   "Bert Sakmann is translations from Spanish",
+   "Bert Sakmann is poetry",
+   "Bert Sakmann is distribution",
+   "Bert Sakmann is astrology",
+   "Bert Sakmann is differential geometry",
+   "Bert Sakmann is mechanics",
+   "Bert Sakmann is positivism",
+   "Bert Sakmann is ferromagnetism",
+   "Bert Sakmann is quantum physics",
+   "Bert Sakmann is music theory",
+   "Bert Sakmann is physiology",
+   "Bert Sakmann is theory of differential equations",
+   "Bert Sakmann is astrophysics",
+   "Bert Sakmann is number theory",
+   "Bert Sakmann is magnetic field",
+   "Bert Sakmann is historical novel",
+   "Bert Sakmann is stochastic",
+   "Bert Sakmann is philosopher",
+   "Bert Sakmann is histology",
+   "Bert Sakmann is Franciscan spirituality",
+   "Bert Sakmann is electromagnetic field",
+   "Bert Sakmann is medicine",
+   "Bert Sakmann is algebraic geometry",
+   "Bert Sakmann is comparative mythology",
+   "Bert Sakmann is color photography",
+   "Bert Sakmann is cryptography",
+   "Bert Sakmann is Christian Church",
+   "Bert Sakmann is electrical engineering",
+   "Bert Sakmann is folklore",
+   "Bert Sakmann is mythology",
+   "Bert Sakmann is human geography",
+   "Bert Sakmann is Petrine ministry",
+   "Bert Sakmann is Judaism",
+   "Bert Sakmann is group theory",
+   "Bert Sakmann is non-Euclidean geometry",
+   "Bert Sakmann is algebra",
+   "Bert Sakmann is ballistics",
+   "Bert Sakmann is mathematician",
+   "Bert Sakmann is applied physics",
+   "Bert Sakmann is culturology",
+   "Bert Sakmann is calculus of variations",
+   "Bert Sakmann is logic",
+   "Bert Sakmann is engineering",
+   "Bert Sakmann is translations from Occitan",
+   "Bert Sakmann is anatomy",
+   "Bert Sakmann is forestry science",
+   "Bert Sakmann is magic",
+   "Bert Sakmann is quantum mechanics",
+   "Bert Sakmann is differential calculus",
+   "Bert Sakmann is shipbuilding",
+   "Bert Sakmann is convex function",
+   "Bert Sakmann is analytic philosophy",
+   "Bert Sakmann is magnetic resonance",
+   "Bert Sakmann is detective literature",
+   "Bert Sakmann is cartography",
+   "Bert Sakmann is sociology of organisations",
+   "Bert Sakmann is crime novel",
+   "Bert Sakmann is gravity",
+   "Bert Sakmann is statistics",
+   "Bert Sakmann is Greek philology",
+   "Bert Sakmann is analytic number theory",
+   "Bert Sakmann is trigonometry",
+   "Bert Sakmann is physics",
+   "Bert Sakmann is astronomer",
+   "Bert Sakmann is natural science",
+   "Bert Sakmann is information technology",
+   "Bert Sakmann is conducting",
+   "Bert Sakmann is nonstandard analysis",
+   "Bert Sakmann is mathematical analysis",
+   "Bert Sakmann is a branch of physics",
+   "Bert Sakmann is projective geometry",
+   "Bert Sakmann is civil rights",
+   "Bert Sakmann is children's and youth literature",
+   "Bert Sakmann is embryology",
+   "Bert Sakmann is momentum",
+   "Bert Sakmann is African studies",
+   "Bert Sakmann is fairy tale",
+   "Bert Sakmann is classics",
+   "Bert Sakmann is social psychology",
+   "Bert Sakmann is Jewish studies",
+   "Bert Sakmann is silviculture",
+   "Bert Sakmann is education",
+   "Bert Sakmann is literature",
+   "Bert Sakmann is constitutional law",
+   "Bert Sakmann is radiation",
+   "Bert Sakmann is Internet",
+   "Bert Sakmann is heat",
+   "Bert Sakmann is mechanical engineering",
+   "Bert Sakmann is forestry",
+   "Bert Sakmann is jazz",
+   "Bert Sakmann is social philosophy",
+   "Bert Sakmann is mathematical physics",
+   "Bert Sakmann is meteorology",
+   "Bert Sakmann is translations from Arabic language",
+   "Bert Sakmann is quantum mysticism",
+   "Bert Sakmann is politics",
+   "Bert Sakmann is astronomical observation",
+   "Bert Sakmann is myth",
+   "Bert Sakmann is geography",
+   "Bert Sakmann is sociology of religion",
+   "Bert Sakmann is comparative religion",
+   "Bert Sakmann is Greek",
+   "Bert Sakmann is Lie algebra",
+   "Bert Sakmann is complex manifold",
+   "Bert Sakmann is journalism",
+   "Bert Sakmann is celestial mechanics",
+   "Bert Sakmann is String",
+   "Bert Sakmann is mathematical logic",
+   "Bert Sakmann is aeromechanics",
+   "Bert Sakmann is English",
+   "Bert Sakmann is history",
+   "Bert Sakmann is study of history",
+   "Bert Sakmann is genetics",
+   "Bert Sakmann is psychology",
+   "Bert Sakmann is theory of relativity",
+   "Bert Sakmann is biochemistry",
+   "Bert Sakmann is ballet",
+   "Bert Sakmann is electricity",
+   "Bert Sakmann is experimental physics",
+   "Bert Sakmann is natural theology",
+   "Bert Sakmann is Hebrew",
+   "Bert Sakmann is prose",
+   "Bert Sakmann is paleontology",
+   "Bert Sakmann is Monte Carlo method",
+   "Bert Sakmann is quantum theory",
+   "Bert Sakmann is computer science",
+   "Bert Sakmann is cybernetics",
+   "Bert Sakmann is Afghanistan",
+   "Bert Sakmann is philosophy of science",
+   "Bert Sakmann is literary theory",
+   "Bert Sakmann is electric field",
+   "Bert Sakmann is religion",
+   "Bert Sakmann is analytic geometry",
+   "Bert Sakmann is graph theory",
+   "Bert Sakmann is electron",
+   "Bert Sakmann is anthropology",
+   "Bert Sakmann is social anthropology",
+   "Bert Sakmann is sociology",
+   "Bert Sakmann is geodesy",
+   "Bert Sakmann is neurology",
+   "Bert Sakmann is drama",
+   "Bert Sakmann is art of painting",
+   "Bert Sakmann is applied mathematics",
+   "Bert Sakmann is world economy",
+   "Bert Sakmann is economic anthropology"
+  ],
+  [
+   [
+    -52.66410446166992
+   ],
+   [
+    -50.950042724609375
+   ],
+   [
+    -56.175052642822266
+   ],
+   [
+    -46.782352447509766
+   ],
+   [
+    -51.357078552246094
+   ],
+   [
+    -51.075233459472656
+   ],
+   [
+    -51.68647003173828
+   ],
+   [
+    -47.305747985839844
+   ],
+   [
+    -54.4688720703125
+   ],
+   [
+    -48.78624725341797
+   ],
+   [
+    -50.273983001708984
+   ],
+   [
+    -47.574119567871094
+   ],
+   [
+    -53.299888610839844
+   ],
+   [
+    -52.963523864746094
+   ],
+   [
+    -53.10158920288086
+   ],
+   [
+    -53.31281661987305
+   ],
+   [
+    -54.5152473449707
+   ],
+   [
+    -59.49598693847656
+   ],
+   [
+    -49.0422477722168
+   ],
+   [
+    -56.133121490478516
+   ],
+   [
+    -57.12007141113281
+   ],
+   [
+    -53.877685546875
+   ],
+   [
+    -51.885826110839844
+   ],
+   [
+    -49.46721649169922
+   ],
+   [
+    -49.64186096191406
+   ],
+   [
+    -51.341346740722656
+   ],
+   [
+    -50.919193267822266
+   ],
+   [
+    -58.839324951171875
+   ],
+   [
+    -54.71717834472656
+   ],
+   [
+    -58.816131591796875
+   ],
+   [
+    -54.96696472167969
+   ],
+   [
+    -60.474830627441406
+   ],
+   [
+    -52.80329895019531
+   ],
+   [
+    -54.92045593261719
+   ],
+   [
+    -46.682373046875
+   ],
+   [
+    -60.39377975463867
+   ],
+   [
+    -52.655738830566406
+   ],
+   [
+    -53.621803283691406
+   ],
+   [
+    -51.93703842163086
+   ],
+   [
+    -51.28861999511719
+   ],
+   [
+    -48.951820373535156
+   ],
+   [
+    -58.78904724121094
+   ],
+   [
+    -55.33512496948242
+   ],
+   [
+    -63.78662872314453
+   ],
+   [
+    -53.35565185546875
+   ],
+   [
+    -50.81142044067383
+   ],
+   [
+    -49.1287841796875
+   ],
+   [
+    -51.26538848876953
+   ],
+   [
+    -52.91834259033203
+   ],
+   [
+    -53.84754943847656
+   ],
+   [
+    -54.144386291503906
+   ],
+   [
+    -54.619956970214844
+   ],
+   [
+    -53.50719451904297
+   ],
+   [
+    -57.76806640625
+   ],
+   [
+    -53.097755432128906
+   ],
+   [
+    -51.91673278808594
+   ],
+   [
+    -57.1637077331543
+   ],
+   [
+    -55.22596740722656
+   ],
+   [
+    -61.885955810546875
+   ],
+   [
+    -55.93456268310547
+   ],
+   [
+    -57.78474426269531
+   ],
+   [
+    -50.16948318481445
+   ],
+   [
+    -50.80445098876953
+   ],
+   [
+    -52.78961944580078
+   ],
+   [
+    -49.144012451171875
+   ],
+   [
+    -48.45529556274414
+   ],
+   [
+    -54.398406982421875
+   ],
+   [
+    -50.661048889160156
+   ],
+   [
+    -55.49560546875
+   ],
+   [
+    -52.14253616333008
+   ],
+   [
+    -46.873451232910156
+   ],
+   [
+    -46.20597839355469
+   ],
+   [
+    -50.43415832519531
+   ],
+   [
+    -50.90763854980469
+   ],
+   [
+    -54.70918655395508
+   ],
+   [
+    -61.37782287597656
+   ],
+   [
+    -51.52436447143555
+   ],
+   [
+    -48.96725845336914
+   ],
+   [
+    -53.74345397949219
+   ],
+   [
+    -54.38191223144531
+   ],
+   [
+    -46.56592559814453
+   ],
+   [
+    -56.17305374145508
+   ],
+   [
+    -54.63100814819336
+   ],
+   [
+    -48.7364387512207
+   ],
+   [
+    -53.10200500488281
+   ],
+   [
+    -40.08228302001953
+   ],
+   [
+    -60.125328063964844
+   ],
+   [
+    -50.953826904296875
+   ],
+   [
+    -49.89318084716797
+   ],
+   [
+    -54.35319137573242
+   ],
+   [
+    -56.807220458984375
+   ],
+   [
+    -46.89111328125
+   ],
+   [
+    -53.52350616455078
+   ],
+   [
+    -48.822959899902344
+   ],
+   [
+    -61.885719299316406
+   ],
+   [
+    -52.46106719970703
+   ],
+   [
+    -44.267822265625
+   ],
+   [
+    -54.23662185668945
+   ],
+   [
+    -57.22137451171875
+   ],
+   [
+    -54.02857971191406
+   ],
+   [
+    -52.170928955078125
+   ],
+   [
+    -54.81892776489258
+   ],
+   [
+    -45.7010612487793
+   ],
+   [
+    -56.56466293334961
+   ],
+   [
+    -52.63178253173828
+   ],
+   [
+    -57.340301513671875
+   ],
+   [
+    -69.04852294921875
+   ],
+   [
+    -53.469242095947266
+   ],
+   [
+    -53.881134033203125
+   ],
+   [
+    -55.114601135253906
+   ],
+   [
+    -54.01744842529297
+   ],
+   [
+    -52.6456298828125
+   ],
+   [
+    -54.635475158691406
+   ],
+   [
+    -48.538211822509766
+   ],
+   [
+    -52.644100189208984
+   ],
+   [
+    -53.57626724243164
+   ],
+   [
+    -48.94776153564453
+   ],
+   [
+    -45.039852142333984
+   ],
+   [
+    -67.48237609863281
+   ],
+   [
+    -47.33698272705078
+   ],
+   [
+    -58.1087532043457
+   ],
+   [
+    -51.93520736694336
+   ],
+   [
+    -48.6656494140625
+   ],
+   [
+    -55.79129409790039
+   ],
+   [
+    -55.35084533691406
+   ],
+   [
+    -59.38240051269531
+   ],
+   [
+    -56.835853576660156
+   ],
+   [
+    -48.52659225463867
+   ],
+   [
+    -63.070465087890625
+   ],
+   [
+    -53.25313949584961
+   ],
+   [
+    -57.60308837890625
+   ],
+   [
+    -57.98479080200195
+   ],
+   [
+    -51.87435531616211
+   ],
+   [
+    -49.01115417480469
+   ],
+   [
+    -56.00981521606445
+   ],
+   [
+    -59.00706100463867
+   ],
+   [
+    -55.49543762207031
+   ],
+   [
+    -43.7310791015625
+   ],
+   [
+    -58.014190673828125
+   ],
+   [
+    -47.35087966918945
+   ],
+   [
+    -45.57897186279297
+   ],
+   [
+    -48.107879638671875
+   ],
+   [
+    -60.79781723022461
+   ],
+   [
+    -49.34159851074219
+   ],
+   [
+    -47.87157440185547
+   ],
+   [
+    -54.8860969543457
+   ],
+   [
+    -59.521358489990234
+   ],
+   [
+    -59.74598693847656
+   ],
+   [
+    -46.783958435058594
+   ],
+   [
+    -49.71265411376953
+   ],
+   [
+    -56.028663635253906
+   ],
+   [
+    -58.90003204345703
+   ],
+   [
+    -54.91336441040039
+   ],
+   [
+    -49.810081481933594
+   ],
+   [
+    -53.054290771484375
+   ],
+   [
+    -58.527957916259766
+   ],
+   [
+    -48.82099533081055
+   ],
+   [
+    -49.984474182128906
+   ],
+   [
+    -51.28175354003906
+   ],
+   [
+    -49.77920913696289
+   ],
+   [
+    -51.946590423583984
+   ],
+   [
+    -50.04777908325195
+   ],
+   [
+    -48.57491683959961
+   ],
+   [
+    -54.426361083984375
+   ],
+   [
+    -52.74895095825195
+   ],
+   [
+    -54.00505828857422
+   ],
+   [
+    -48.820655822753906
+   ],
+   [
+    -52.42451858520508
+   ],
+   [
+    -66.65562438964844
+   ],
+   [
+    -60.676570892333984
+   ],
+   [
+    -50.511558532714844
+   ],
+   [
+    -58.42802429199219
+   ],
+   [
+    -51.66862106323242
+   ],
+   [
+    -51.5952262878418
+   ],
+   [
+    -54.50648498535156
+   ],
+   [
+    -56.60938262939453
+   ],
+   [
+    -51.932342529296875
+   ],
+   [
+    -55.17751693725586
+   ],
+   [
+    -56.54148864746094
+   ],
+   [
+    -48.88363265991211
+   ],
+   [
+    -53.68703079223633
+   ],
+   [
+    -51.80755615234375
+   ],
+   [
+    -51.906681060791016
+   ],
+   [
+    -57.943382263183594
+   ],
+   [
+    -48.57426071166992
+   ],
+   [
+    -48.67774200439453
+   ],
+   [
+    -58.011112213134766
+   ],
+   [
+    -46.297882080078125
+   ],
+   [
+    -47.73136901855469
+   ],
+   [
+    -59.304786682128906
+   ],
+   [
+    -42.07357406616211
+   ],
+   [
+    -57.075592041015625
+   ],
+   [
+    -47.128910064697266
+   ],
+   [
+    -47.408287048339844
+   ],
+   [
+    -57.798423767089844
+   ],
+   [
+    -51.54756546020508
+   ],
+   [
+    -56.92804718017578
+   ],
+   [
+    -52.46139144897461
+   ],
+   [
+    -54.72252655029297
+   ],
+   [
+    -52.063045501708984
+   ],
+   [
+    -47.1391487121582
+   ],
+   [
+    -48.21815872192383
+   ],
+   [
+    -53.804141998291016
+   ],
+   [
+    -51.003501892089844
+   ],
+   [
+    -55.070579528808594
+   ],
+   [
+    -51.33445358276367
+   ],
+   [
+    -52.38106918334961
+   ],
+   [
+    -58.136226654052734
+   ],
+   [
+    -53.05819320678711
+   ],
+   [
+    -42.32398986816406
+   ],
+   [
+    -51.85267639160156
+   ],
+   [
+    -51.83027648925781
+   ],
+   [
+    -50.12965774536133
+   ],
+   [
+    -52.552303314208984
+   ],
+   [
+    -46.50862121582031
+   ],
+   [
+    -53.81654357910156
+   ],
+   [
+    -59.18138885498047
+   ],
+   [
+    -51.60139846801758
+   ],
+   [
+    -58.2901496887207
+   ],
+   [
+    -55.631229400634766
+   ],
+   [
+    -47.55305862426758
+   ],
+   [
+    -38.86871337890625
+   ],
+   [
+    -42.751773834228516
+   ],
+   [
+    -38.185951232910156
+   ],
+   [
+    -44.02079772949219
+   ],
+   [
+    -39.24251937866211
+   ],
+   [
+    -32.2083854675293
+   ],
+   [
+    -37.840667724609375
+   ],
+   [
+    -46.62764358520508
+   ],
+   [
+    -41.77887725830078
+   ],
+   [
+    -44.12306213378906
+   ],
+   [
+    -39.999183654785156
+   ],
+   [
+    -34.73710250854492
+   ],
+   [
+    -41.594112396240234
+   ],
+   [
+    -44.84577941894531
+   ],
+   [
+    -42.11497497558594
+   ],
+   [
+    -43.1368522644043
+   ],
+   [
+    -44.086910247802734
+   ],
+   [
+    -34.89847183227539
+   ],
+   [
+    -48.437278747558594
+   ],
+   [
+    -44.979583740234375
+   ],
+   [
+    -50.76362609863281
+   ],
+   [
+    -43.673160552978516
+   ],
+   [
+    -37.173973083496094
+   ],
+   [
+    -40.086944580078125
+   ],
+   [
+    -39.75582504272461
+   ],
+   [
+    -35.8524055480957
+   ],
+   [
+    -50.44297409057617
+   ],
+   [
+    -38.314247131347656
+   ],
+   [
+    -52.2027473449707
+   ],
+   [
+    -44.11722946166992
+   ],
+   [
+    -49.188968658447266
+   ],
+   [
+    -48.04611587524414
+   ],
+   [
+    -44.179039001464844
+   ],
+   [
+    -35.28245162963867
+   ],
+   [
+    -47.838985443115234
+   ],
+   [
+    -45.9171142578125
+   ],
+   [
+    -42.272579193115234
+   ],
+   [
+    -37.30552673339844
+   ],
+   [
+    -40.22021484375
+   ],
+   [
+    -38.958980560302734
+   ],
+   [
+    -47.18535614013672
+   ],
+   [
+    -43.76512145996094
+   ],
+   [
+    -49.48130798339844
+   ],
+   [
+    -41.2546501159668
+   ],
+   [
+    -39.81233215332031
+   ],
+   [
+    -38.23894500732422
+   ],
+   [
+    -40.80921173095703
+   ],
+   [
+    -45.88206100463867
+   ],
+   [
+    -38.06658172607422
+   ],
+   [
+    -42.60993576049805
+   ],
+   [
+    -36.875938415527344
+   ],
+   [
+    -43.348297119140625
+   ],
+   [
+    -42.94630813598633
+   ],
+   [
+    -46.67402648925781
+   ],
+   [
+    -43.965301513671875
+   ],
+   [
+    -46.36574172973633
+   ],
+   [
+    -47.97370147705078
+   ],
+   [
+    -49.656097412109375
+   ],
+   [
+    -46.162227630615234
+   ],
+   [
+    -46.13285827636719
+   ],
+   [
+    -42.38527297973633
+   ],
+   [
+    -44.715091705322266
+   ],
+   [
+    -40.804954528808594
+   ],
+   [
+    -40.582435607910156
+   ],
+   [
+    -37.145511627197266
+   ],
+   [
+    -44.38710403442383
+   ],
+   [
+    -40.95494842529297
+   ],
+   [
+    -46.14094924926758
+   ],
+   [
+    -42.144344329833984
+   ],
+   [
+    -39.45341110229492
+   ],
+   [
+    -42.734336853027344
+   ],
+   [
+    -39.66351318359375
+   ],
+   [
+    -46.67991256713867
+   ],
+   [
+    -43.46614074707031
+   ],
+   [
+    -49.352882385253906
+   ],
+   [
+    -39.60083770751953
+   ],
+   [
+    -38.646480560302734
+   ],
+   [
+    -41.602447509765625
+   ],
+   [
+    -44.772579193115234
+   ],
+   [
+    -41.473114013671875
+   ],
+   [
+    -42.137413024902344
+   ],
+   [
+    -44.64090347290039
+   ],
+   [
+    -40.218177795410156
+   ],
+   [
+    -41.98687744140625
+   ],
+   [
+    -34.327232360839844
+   ],
+   [
+    -47.9794921875
+   ],
+   [
+    -37.424556732177734
+   ],
+   [
+    -43.67393493652344
+   ],
+   [
+    -42.438785552978516
+   ],
+   [
+    -41.967288970947266
+   ],
+   [
+    -40.1683235168457
+   ],
+   [
+    -34.595436096191406
+   ],
+   [
+    -41.5772705078125
+   ],
+   [
+    -52.15179443359375
+   ],
+   [
+    -41.20255661010742
+   ],
+   [
+    -35.51791763305664
+   ],
+   [
+    -42.144622802734375
+   ],
+   [
+    -48.32341384887695
+   ],
+   [
+    -43.81382751464844
+   ],
+   [
+    -43.09072494506836
+   ],
+   [
+    -44.56156921386719
+   ],
+   [
+    -38.51690673828125
+   ],
+   [
+    -42.87498092651367
+   ],
+   [
+    -41.29288864135742
+   ],
+   [
+    -44.58749008178711
+   ],
+   [
+    -56.787803649902344
+   ],
+   [
+    -43.40226745605469
+   ],
+   [
+    -44.876705169677734
+   ],
+   [
+    -46.37092971801758
+   ],
+   [
+    -41.515506744384766
+   ],
+   [
+    -42.92460250854492
+   ],
+   [
+    -34.98587417602539
+   ],
+   [
+    -39.857486724853516
+   ],
+   [
+    -46.45353698730469
+   ],
+   [
+    -50.17329025268555
+   ],
+   [
+    -38.44281005859375
+   ],
+   [
+    -35.96025466918945
+   ],
+   [
+    -53.870262145996094
+   ],
+   [
+    -37.7448616027832
+   ],
+   [
+    -45.417362213134766
+   ],
+   [
+    -37.91633605957031
+   ],
+   [
+    -39.667320251464844
+   ],
+   [
+    -44.985687255859375
+   ],
+   [
+    -42.80493927001953
+   ],
+   [
+    -44.186222076416016
+   ],
+   [
+    -43.94979476928711
+   ],
+   [
+    -39.615478515625
+   ],
+   [
+    -48.274383544921875
+   ],
+   [
+    -42.284461975097656
+   ],
+   [
+    -52.6092414855957
+   ],
+   [
+    -42.45307540893555
+   ],
+   [
+    -39.54514694213867
+   ],
+   [
+    -38.1739616394043
+   ],
+   [
+    -50.387474060058594
+   ],
+   [
+    -47.03520584106445
+   ],
+   [
+    -43.134918212890625
+   ],
+   [
+    -34.25297164916992
+   ],
+   [
+    -37.42993927001953
+   ],
+   [
+    -42.14906311035156
+   ],
+   [
+    -38.07291793823242
+   ],
+   [
+    -30.517372131347656
+   ],
+   [
+    -49.390193939208984
+   ],
+   [
+    -43.11466598510742
+   ],
+   [
+    -40.21241760253906
+   ],
+   [
+    -42.11116409301758
+   ],
+   [
+    -42.0987663269043
+   ],
+   [
+    -48.162376403808594
+   ],
+   [
+    -44.082618713378906
+   ],
+   [
+    -39.57194900512695
+   ],
+   [
+    -44.387325286865234
+   ],
+   [
+    -43.82004928588867
+   ],
+   [
+    -38.24284744262695
+   ],
+   [
+    -43.00844955444336
+   ],
+   [
+    -39.44771957397461
+   ],
+   [
+    -50.676612854003906
+   ],
+   [
+    -36.287601470947266
+   ],
+   [
+    -38.99446487426758
+   ],
+   [
+    -40.949710845947266
+   ],
+   [
+    -37.5759162902832
+   ],
+   [
+    -36.46125030517578
+   ],
+   [
+    -39.79841995239258
+   ],
+   [
+    -38.79328155517578
+   ],
+   [
+    -39.930335998535156
+   ],
+   [
+    -37.19778060913086
+   ],
+   [
+    -47.2664794921875
+   ],
+   [
+    -40.14726638793945
+   ],
+   [
+    -39.34028625488281
+   ],
+   [
+    -56.03938293457031
+   ],
+   [
+    -49.15095520019531
+   ],
+   [
+    -38.1669921875
+   ],
+   [
+    -48.065181732177734
+   ],
+   [
+    -36.32843017578125
+   ],
+   [
+    -38.21113204956055
+   ],
+   [
+    -47.08289337158203
+   ],
+   [
+    -46.89768981933594
+   ],
+   [
+    -37.36940002441406
+   ],
+   [
+    -47.52553939819336
+   ],
+   [
+    -48.0682258605957
+   ],
+   [
+    -38.444175720214844
+   ],
+   [
+    -48.34479522705078
+   ],
+   [
+    -37.7468147277832
+   ],
+   [
+    -42.58534622192383
+   ],
+   [
+    -44.3742790222168
+   ],
+   [
+    -37.49108123779297
+   ],
+   [
+    -36.03013229370117
+   ],
+   [
+    -44.157875061035156
+   ],
+   [
+    -36.798282623291016
+   ],
+   [
+    -37.28511047363281
+   ],
+   [
+    -45.491600036621094
+   ],
+   [
+    -37.747737884521484
+   ],
+   [
+    -41.1917839050293
+   ],
+   [
+    -39.863704681396484
+   ],
+   [
+    -42.60563278198242
+   ],
+   [
+    -51.10841751098633
+   ],
+   [
+    -36.68711853027344
+   ],
+   [
+    -40.95763397216797
+   ],
+   [
+    -40.94783020019531
+   ],
+   [
+    -49.78224563598633
+   ],
+   [
+    -42.81840515136719
+   ],
+   [
+    -37.528533935546875
+   ],
+   [
+    -40.77599334716797
+   ],
+   [
+    -38.86881637573242
+   ],
+   [
+    -41.406951904296875
+   ],
+   [
+    -46.502384185791016
+   ],
+   [
+    -43.021148681640625
+   ],
+   [
+    -39.71696472167969
+   ],
+   [
+    -46.643714904785156
+   ],
+   [
+    -42.52400588989258
+   ],
+   [
+    -34.26456069946289
+   ],
+   [
+    -40.812294006347656
+   ],
+   [
+    -46.0931510925293
+   ],
+   [
+    -39.90126037597656
+   ],
+   [
+    -45.559661865234375
+   ],
+   [
+    -39.55480194091797
+   ],
+   [
+    -38.17885208129883
+   ],
+   [
+    -50.339439392089844
+   ],
+   [
+    -41.261905670166016
+   ],
+   [
+    -44.19949722290039
+   ],
+   [
+    -45.40454864501953
+   ]
+  ]
+ ],
+ "time": 478.7830002307892
+}

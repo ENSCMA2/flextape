@@ -1,0 +1,2076 @@
+{
+ "case_id": 22180,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Tycho Brahe"
+ },
+ "pre": [
+  [
+   "Tycho Brahe is trigonometry",
+   "Tycho Brahe is Minkowski spacetime",
+   "Tycho Brahe is physiology",
+   "Tycho Brahe is civil rights",
+   "Tycho Brahe is theory of relativity",
+   "Tycho Brahe is electric field",
+   "Tycho Brahe is literary translation",
+   "Tycho Brahe is geography",
+   "Tycho Brahe is detective literature",
+   "Tycho Brahe is hyperbolic geometry",
+   "Tycho Brahe is ballet",
+   "Tycho Brahe is quantum mechanics",
+   "Tycho Brahe is silviculture",
+   "Tycho Brahe is study of history",
+   "Tycho Brahe is television program",
+   "Tycho Brahe is radiation",
+   "Tycho Brahe is crystallography",
+   "Tycho Brahe is English",
+   "Tycho Brahe is comparative mythology",
+   "Tycho Brahe is non-Euclidean geometry",
+   "Tycho Brahe is education",
+   "Tycho Brahe is Sanskrit",
+   "Tycho Brahe is astronomer",
+   "Tycho Brahe is chemistry",
+   "Tycho Brahe is medicine",
+   "Tycho Brahe is pedagogy",
+   "Tycho Brahe is mythology",
+   "Tycho Brahe is harmonic analysis",
+   "Tycho Brahe is social anthropology",
+   "Tycho Brahe is literature",
+   "Tycho Brahe is psychology",
+   "Tycho Brahe is aeromechanics",
+   "Tycho Brahe is physics",
+   "Tycho Brahe is algebraic topology",
+   "Tycho Brahe is forestry",
+   "Tycho Brahe is magnetism",
+   "Tycho Brahe is anthropology",
+   "Tycho Brahe is Greek philology",
+   "Tycho Brahe is theology",
+   "Tycho Brahe is analytic philosophy",
+   "Tycho Brahe is computational geometry",
+   "Tycho Brahe is graph theory",
+   "Tycho Brahe is philosophy of law",
+   "Tycho Brahe is ballistics",
+   "Tycho Brahe is dance choreography",
+   "Tycho Brahe is Lie algebra",
+   "Tycho Brahe is histology",
+   "Tycho Brahe is complex manifold",
+   "Tycho Brahe is history",
+   "Tycho Brahe is celestial mechanics",
+   "Tycho Brahe is differential geometry",
+   "Tycho Brahe is Petrine ministry",
+   "Tycho Brahe is dance",
+   "Tycho Brahe is String",
+   "Tycho Brahe is a branch of physics",
+   "Tycho Brahe is mechanical engineering",
+   "Tycho Brahe is mathematical logic",
+   "Tycho Brahe is geodesy",
+   "Tycho Brahe is historical novel",
+   "Tycho Brahe is Jewish studies",
+   "Tycho Brahe is distribution",
+   "Tycho Brahe is Greek",
+   "Tycho Brahe is natural science",
+   "Tycho Brahe is Hebrew",
+   "Tycho Brahe is astrology",
+   "Tycho Brahe is group theory",
+   "Tycho Brahe is Judaism",
+   "Tycho Brahe is model theory",
+   "Tycho Brahe is opera",
+   "Tycho Brahe is religion",
+   "Tycho Brahe is evolution",
+   "Tycho Brahe is hunting",
+   "Tycho Brahe is nonstandard analysis",
+   "Tycho Brahe is applied physics",
+   "Tycho Brahe is philosophy",
+   "Tycho Brahe is aerodynamics",
+   "Tycho Brahe is classical music",
+   "Tycho Brahe is biological anthropology",
+   "Tycho Brahe is experimental physics",
+   "Tycho Brahe is ethnography",
+   "Tycho Brahe is geometry",
+   "Tycho Brahe is statistics",
+   "Tycho Brahe is cosmology",
+   "Tycho Brahe is algebra",
+   "Tycho Brahe is heat",
+   "Tycho Brahe is convex function",
+   "Tycho Brahe is applied mathematics",
+   "Tycho Brahe is ontology",
+   "Tycho Brahe is translations from Occitan",
+   "Tycho Brahe is folklore",
+   "Tycho Brahe is analytic number theory",
+   "Tycho Brahe is astronomical observation",
+   "Tycho Brahe is algebraic geometry",
+   "Tycho Brahe is history of economic thought",
+   "Tycho Brahe is informatics",
+   "Tycho Brahe is surgery",
+   "Tycho Brahe is Afghanistan",
+   "Tycho Brahe is social psychology",
+   "Tycho Brahe is sociology",
+   "Tycho Brahe is anatomy",
+   "Tycho Brahe is neurology",
+   "Tycho Brahe is hydrodynamics",
+   "Tycho Brahe is sociology of religion",
+   "Tycho Brahe is complex function",
+   "Tycho Brahe is shipbuilding",
+   "Tycho Brahe is electron",
+   "Tycho Brahe is African studies",
+   "Tycho Brahe is historical sociology",
+   "Tycho Brahe is biochemistry",
+   "Tycho Brahe is religion and society",
+   "Tycho Brahe is cryptography",
+   "Tycho Brahe is crime novel",
+   "Tycho Brahe is meteorology",
+   "Tycho Brahe is mathematical physics",
+   "Tycho Brahe is theoretical physics",
+   "Tycho Brahe is theory of differential equations",
+   "Tycho Brahe is art of painting",
+   "Tycho Brahe is essay",
+   "Tycho Brahe is human geography",
+   "Tycho Brahe is gravity",
+   "Tycho Brahe is natural theology",
+   "Tycho Brahe is momentum",
+   "Tycho Brahe is optics",
+   "Tycho Brahe is paleontology",
+   "Tycho Brahe is calculus of variations",
+   "Tycho Brahe is prose",
+   "Tycho Brahe is political philosophy",
+   "Tycho Brahe is engineering",
+   "Tycho Brahe is children's and youth literature",
+   "Tycho Brahe is computer science",
+   "Tycho Brahe is philosopher",
+   "Tycho Brahe is Bayesian inference",
+   "Tycho Brahe is translations from Polish",
+   "Tycho Brahe is differential calculus",
+   "Tycho Brahe is quantum electrodynamics",
+   "Tycho Brahe is ethnology",
+   "Tycho Brahe is Internet",
+   "Tycho Brahe is economic anthropology",
+   "Tycho Brahe is philosophy of science",
+   "Tycho Brahe is politics",
+   "Tycho Brahe is economics",
+   "Tycho Brahe is distribution theory",
+   "Tycho Brahe is kinetic theory",
+   "Tycho Brahe is sociology of organisations",
+   "Tycho Brahe is quaternion",
+   "Tycho Brahe is mathematician",
+   "Tycho Brahe is social philosophy",
+   "Tycho Brahe is forestry science",
+   "Tycho Brahe is rite",
+   "Tycho Brahe is Monte Carlo method",
+   "Tycho Brahe is analytic geometry",
+   "Tycho Brahe is electrical engineering",
+   "Tycho Brahe is Franciscan spirituality",
+   "Tycho Brahe is stochastic",
+   "Tycho Brahe is translations from Spanish",
+   "Tycho Brahe is world economy",
+   "Tycho Brahe is drama",
+   "Tycho Brahe is electricity",
+   "Tycho Brahe is cybernetics",
+   "Tycho Brahe is embryology",
+   "Tycho Brahe is linguistics",
+   "Tycho Brahe is magnetic resonance",
+   "Tycho Brahe is English literature",
+   "Tycho Brahe is topology",
+   "Tycho Brahe is belletristic literature",
+   "Tycho Brahe is mathematical analysis",
+   "Tycho Brahe is lyric poetry",
+   "Tycho Brahe is projective geometry",
+   "Tycho Brahe is Jewish philosophy",
+   "Tycho Brahe is myth",
+   "Tycho Brahe is ethics",
+   "Tycho Brahe is history of religions",
+   "Tycho Brahe is logic",
+   "Tycho Brahe is comparative religion",
+   "Tycho Brahe is functional analysis",
+   "Tycho Brahe is astrophysics",
+   "Tycho Brahe is partial differential equation",
+   "Tycho Brahe is magic",
+   "Tycho Brahe is mechanics",
+   "Tycho Brahe is electromagnetic field",
+   "Tycho Brahe is philology",
+   "Tycho Brahe is abstract algebra",
+   "Tycho Brahe is translations from Arabic language",
+   "Tycho Brahe is ferromagnetism",
+   "Tycho Brahe is translations from English",
+   "Tycho Brahe is culturology",
+   "Tycho Brahe is psychophysiology",
+   "Tycho Brahe is nanotechnology",
+   "Tycho Brahe is jazz",
+   "Tycho Brahe is cartography",
+   "Tycho Brahe is physicist",
+   "Tycho Brahe is feminism",
+   "Tycho Brahe is number theory",
+   "Tycho Brahe is radioactivity",
+   "Tycho Brahe is constitutional law",
+   "Tycho Brahe is economy",
+   "Tycho Brahe is positivism",
+   "Tycho Brahe is fairy tale",
+   "Tycho Brahe is Cairo Geniza",
+   "Tycho Brahe is journalism",
+   "Tycho Brahe is literary activity",
+   "Tycho Brahe is color photography",
+   "Tycho Brahe is genetics",
+   "Tycho Brahe is Christian Church",
+   "Tycho Brahe is mathematics",
+   "Tycho Brahe is poetry",
+   "Tycho Brahe is nuclear physics",
+   "Tycho Brahe is information technology",
+   "Tycho Brahe is conducting",
+   "Tycho Brahe is quantum physics",
+   "Tycho Brahe is history of science",
+   "Tycho Brahe is music theory",
+   "Tycho Brahe is classics",
+   "Tycho Brahe is choreography",
+   "Tycho Brahe is literary theory",
+   "Tycho Brahe is astronomy",
+   "Tycho Brahe is probability theory",
+   "Tycho Brahe is quantum theory",
+   "Tycho Brahe is magnetic field",
+   "Tycho Brahe is quantum mysticism",
+   "Tycho Brahe's field of work is trigonometry",
+   "Tycho Brahe's field of work is Minkowski spacetime",
+   "Tycho Brahe's field of work is physiology",
+   "Tycho Brahe's field of work is civil rights",
+   "Tycho Brahe's field of work is theory of relativity",
+   "Tycho Brahe's field of work is electric field",
+   "Tycho Brahe's field of work is literary translation",
+   "Tycho Brahe's field of work is geography",
+   "Tycho Brahe's field of work is detective literature",
+   "Tycho Brahe's field of work is hyperbolic geometry",
+   "Tycho Brahe's field of work is ballet",
+   "Tycho Brahe's field of work is quantum mechanics",
+   "Tycho Brahe's field of work is silviculture",
+   "Tycho Brahe's field of work is study of history",
+   "Tycho Brahe's field of work is television program",
+   "Tycho Brahe's field of work is radiation",
+   "Tycho Brahe's field of work is crystallography",
+   "Tycho Brahe's field of work is English",
+   "Tycho Brahe's field of work is comparative mythology",
+   "Tycho Brahe's field of work is non-Euclidean geometry",
+   "Tycho Brahe's field of work is education",
+   "Tycho Brahe's field of work is Sanskrit",
+   "Tycho Brahe's field of work is astronomer",
+   "Tycho Brahe's field of work is chemistry",
+   "Tycho Brahe's field of work is medicine",
+   "Tycho Brahe's field of work is pedagogy",
+   "Tycho Brahe's field of work is mythology",
+   "Tycho Brahe's field of work is harmonic analysis",
+   "Tycho Brahe's field of work is social anthropology",
+   "Tycho Brahe's field of work is literature",
+   "Tycho Brahe's field of work is psychology",
+   "Tycho Brahe's field of work is aeromechanics",
+   "Tycho Brahe's field of work is physics",
+   "Tycho Brahe's field of work is algebraic topology",
+   "Tycho Brahe's field of work is forestry",
+   "Tycho Brahe's field of work is magnetism",
+   "Tycho Brahe's field of work is anthropology",
+   "Tycho Brahe's field of work is Greek philology",
+   "Tycho Brahe's field of work is theology",
+   "Tycho Brahe's field of work is analytic philosophy",
+   "Tycho Brahe's field of work is computational geometry",
+   "Tycho Brahe's field of work is graph theory",
+   "Tycho Brahe's field of work is philosophy of law",
+   "Tycho Brahe's field of work is ballistics",
+   "Tycho Brahe's field of work is dance choreography",
+   "Tycho Brahe's field of work is Lie algebra",
+   "Tycho Brahe's field of work is histology",
+   "Tycho Brahe's field of work is complex manifold",
+   "Tycho Brahe's field of work is history",
+   "Tycho Brahe's field of work is celestial mechanics",
+   "Tycho Brahe's field of work is differential geometry",
+   "Tycho Brahe's field of work is Petrine ministry",
+   "Tycho Brahe's field of work is dance",
+   "Tycho Brahe's field of work is String",
+   "Tycho Brahe's field of work is a branch of physics",
+   "Tycho Brahe's field of work is mechanical engineering",
+   "Tycho Brahe's field of work is mathematical logic",
+   "Tycho Brahe's field of work is geodesy",
+   "Tycho Brahe's field of work is historical novel",
+   "Tycho Brahe's field of work is Jewish studies",
+   "Tycho Brahe's field of work is distribution",
+   "Tycho Brahe's field of work is Greek",
+   "Tycho Brahe's field of work is natural science",
+   "Tycho Brahe's field of work is Hebrew",
+   "Tycho Brahe's field of work is astrology",
+   "Tycho Brahe's field of work is group theory",
+   "Tycho Brahe's field of work is Judaism",
+   "Tycho Brahe's field of work is model theory",
+   "Tycho Brahe's field of work is opera",
+   "Tycho Brahe's field of work is religion",
+   "Tycho Brahe's field of work is evolution",
+   "Tycho Brahe's field of work is hunting",
+   "Tycho Brahe's field of work is nonstandard analysis",
+   "Tycho Brahe's field of work is applied physics",
+   "Tycho Brahe's field of work is philosophy",
+   "Tycho Brahe's field of work is aerodynamics",
+   "Tycho Brahe's field of work is classical music",
+   "Tycho Brahe's field of work is biological anthropology",
+   "Tycho Brahe's field of work is experimental physics",
+   "Tycho Brahe's field of work is ethnography",
+   "Tycho Brahe's field of work is geometry",
+   "Tycho Brahe's field of work is statistics",
+   "Tycho Brahe's field of work is cosmology",
+   "Tycho Brahe's field of work is algebra",
+   "Tycho Brahe's field of work is heat",
+   "Tycho Brahe's field of work is convex function",
+   "Tycho Brahe's field of work is applied mathematics",
+   "Tycho Brahe's field of work is ontology",
+   "Tycho Brahe's field of work is translations from Occitan",
+   "Tycho Brahe's field of work is folklore",
+   "Tycho Brahe's field of work is analytic number theory",
+   "Tycho Brahe's field of work is astronomical observation",
+   "Tycho Brahe's field of work is algebraic geometry",
+   "Tycho Brahe's field of work is history of economic thought",
+   "Tycho Brahe's field of work is informatics",
+   "Tycho Brahe's field of work is surgery",
+   "Tycho Brahe's field of work is Afghanistan",
+   "Tycho Brahe's field of work is social psychology",
+   "Tycho Brahe's field of work is sociology",
+   "Tycho Brahe's field of work is anatomy",
+   "Tycho Brahe's field of work is neurology",
+   "Tycho Brahe's field of work is hydrodynamics",
+   "Tycho Brahe's field of work is sociology of religion",
+   "Tycho Brahe's field of work is complex function",
+   "Tycho Brahe's field of work is shipbuilding",
+   "Tycho Brahe's field of work is electron",
+   "Tycho Brahe's field of work is African studies",
+   "Tycho Brahe's field of work is historical sociology",
+   "Tycho Brahe's field of work is biochemistry",
+   "Tycho Brahe's field of work is religion and society",
+   "Tycho Brahe's field of work is cryptography",
+   "Tycho Brahe's field of work is crime novel",
+   "Tycho Brahe's field of work is meteorology",
+   "Tycho Brahe's field of work is mathematical physics",
+   "Tycho Brahe's field of work is theoretical physics",
+   "Tycho Brahe's field of work is theory of differential equations",
+   "Tycho Brahe's field of work is art of painting",
+   "Tycho Brahe's field of work is essay",
+   "Tycho Brahe's field of work is human geography",
+   "Tycho Brahe's field of work is gravity",
+   "Tycho Brahe's field of work is natural theology",
+   "Tycho Brahe's field of work is momentum",
+   "Tycho Brahe's field of work is optics",
+   "Tycho Brahe's field of work is paleontology",
+   "Tycho Brahe's field of work is calculus of variations",
+   "Tycho Brahe's field of work is prose",
+   "Tycho Brahe's field of work is political philosophy",
+   "Tycho Brahe's field of work is engineering",
+   "Tycho Brahe's field of work is children's and youth literature",
+   "Tycho Brahe's field of work is computer science",
+   "Tycho Brahe's field of work is philosopher",
+   "Tycho Brahe's field of work is Bayesian inference",
+   "Tycho Brahe's field of work is translations from Polish",
+   "Tycho Brahe's field of work is differential calculus",
+   "Tycho Brahe's field of work is quantum electrodynamics",
+   "Tycho Brahe's field of work is ethnology",
+   "Tycho Brahe's field of work is Internet",
+   "Tycho Brahe's field of work is economic anthropology",
+   "Tycho Brahe's field of work is philosophy of science",
+   "Tycho Brahe's field of work is politics",
+   "Tycho Brahe's field of work is economics",
+   "Tycho Brahe's field of work is distribution theory",
+   "Tycho Brahe's field of work is kinetic theory",
+   "Tycho Brahe's field of work is sociology of organisations",
+   "Tycho Brahe's field of work is quaternion",
+   "Tycho Brahe's field of work is mathematician",
+   "Tycho Brahe's field of work is social philosophy",
+   "Tycho Brahe's field of work is forestry science",
+   "Tycho Brahe's field of work is rite",
+   "Tycho Brahe's field of work is Monte Carlo method",
+   "Tycho Brahe's field of work is analytic geometry",
+   "Tycho Brahe's field of work is electrical engineering",
+   "Tycho Brahe's field of work is Franciscan spirituality",
+   "Tycho Brahe's field of work is stochastic",
+   "Tycho Brahe's field of work is translations from Spanish",
+   "Tycho Brahe's field of work is world economy",
+   "Tycho Brahe's field of work is drama",
+   "Tycho Brahe's field of work is electricity",
+   "Tycho Brahe's field of work is cybernetics",
+   "Tycho Brahe's field of work is embryology",
+   "Tycho Brahe's field of work is linguistics",
+   "Tycho Brahe's field of work is magnetic resonance",
+   "Tycho Brahe's field of work is English literature",
+   "Tycho Brahe's field of work is topology",
+   "Tycho Brahe's field of work is belletristic literature",
+   "Tycho Brahe's field of work is mathematical analysis",
+   "Tycho Brahe's field of work is lyric poetry",
+   "Tycho Brahe's field of work is projective geometry",
+   "Tycho Brahe's field of work is Jewish philosophy",
+   "Tycho Brahe's field of work is myth",
+   "Tycho Brahe's field of work is ethics",
+   "Tycho Brahe's field of work is history of religions",
+   "Tycho Brahe's field of work is logic",
+   "Tycho Brahe's field of work is comparative religion",
+   "Tycho Brahe's field of work is functional analysis",
+   "Tycho Brahe's field of work is astrophysics",
+   "Tycho Brahe's field of work is partial differential equation",
+   "Tycho Brahe's field of work is magic",
+   "Tycho Brahe's field of work is mechanics",
+   "Tycho Brahe's field of work is electromagnetic field",
+   "Tycho Brahe's field of work is philology",
+   "Tycho Brahe's field of work is abstract algebra",
+   "Tycho Brahe's field of work is translations from Arabic language",
+   "Tycho Brahe's field of work is ferromagnetism",
+   "Tycho Brahe's field of work is translations from English",
+   "Tycho Brahe's field of work is culturology",
+   "Tycho Brahe's field of work is psychophysiology",
+   "Tycho Brahe's field of work is nanotechnology",
+   "Tycho Brahe's field of work is jazz",
+   "Tycho Brahe's field of work is cartography",
+   "Tycho Brahe's field of work is physicist",
+   "Tycho Brahe's field of work is feminism",
+   "Tycho Brahe's field of work is number theory",
+   "Tycho Brahe's field of work is radioactivity",
+   "Tycho Brahe's field of work is constitutional law",
+   "Tycho Brahe's field of work is economy",
+   "Tycho Brahe's field of work is positivism",
+   "Tycho Brahe's field of work is fairy tale",
+   "Tycho Brahe's field of work is Cairo Geniza",
+   "Tycho Brahe's field of work is journalism",
+   "Tycho Brahe's field of work is literary activity",
+   "Tycho Brahe's field of work is color photography",
+   "Tycho Brahe's field of work is genetics",
+   "Tycho Brahe's field of work is Christian Church",
+   "Tycho Brahe's field of work is mathematics",
+   "Tycho Brahe's field of work is poetry",
+   "Tycho Brahe's field of work is nuclear physics",
+   "Tycho Brahe's field of work is information technology",
+   "Tycho Brahe's field of work is conducting",
+   "Tycho Brahe's field of work is quantum physics",
+   "Tycho Brahe's field of work is history of science",
+   "Tycho Brahe's field of work is music theory",
+   "Tycho Brahe's field of work is classics",
+   "Tycho Brahe's field of work is choreography",
+   "Tycho Brahe's field of work is literary theory",
+   "Tycho Brahe's field of work is astronomy",
+   "Tycho Brahe's field of work is probability theory",
+   "Tycho Brahe's field of work is quantum theory",
+   "Tycho Brahe's field of work is magnetic field",
+   "Tycho Brahe's field of work is quantum mysticism"
+  ],
+  [
+   [
+    -35.67074966430664
+   ],
+   [
+    -40.855934143066406
+   ],
+   [
+    -37.353843688964844
+   ],
+   [
+    -39.637603759765625
+   ],
+   [
+    -37.487491607666016
+   ],
+   [
+    -42.810157775878906
+   ],
+   [
+    -42.03363037109375
+   ],
+   [
+    -34.748722076416016
+   ],
+   [
+    -43.823055267333984
+   ],
+   [
+    -43.56945037841797
+   ],
+   [
+    -36.79732894897461
+   ],
+   [
+    -36.693336486816406
+   ],
+   [
+    -42.50053405761719
+   ],
+   [
+    -39.225929260253906
+   ],
+   [
+    -38.5623664855957
+   ],
+   [
+    -34.62632751464844
+   ],
+   [
+    -41.891395568847656
+   ],
+   [
+    -32.0438232421875
+   ],
+   [
+    -41.43520736694336
+   ],
+   [
+    -39.462242126464844
+   ],
+   [
+    -33.29074478149414
+   ],
+   [
+    -34.4808349609375
+   ],
+   [
+    -29.69830322265625
+   ],
+   [
+    -34.151275634765625
+   ],
+   [
+    -33.780853271484375
+   ],
+   [
+    -39.04253387451172
+   ],
+   [
+    -35.399959564208984
+   ],
+   [
+    -42.21307373046875
+   ],
+   [
+    -42.782047271728516
+   ],
+   [
+    -33.6462287902832
+   ],
+   [
+    -36.94732666015625
+   ],
+   [
+    -43.144859313964844
+   ],
+   [
+    -34.26289367675781
+   ],
+   [
+    -41.99310302734375
+   ],
+   [
+    -39.523094177246094
+   ],
+   [
+    -37.106204986572266
+   ],
+   [
+    -37.21613311767578
+   ],
+   [
+    -45.65604019165039
+   ],
+   [
+    -36.30870819091797
+   ],
+   [
+    -43.31290817260742
+   ],
+   [
+    -42.72251892089844
+   ],
+   [
+    -39.29344940185547
+   ],
+   [
+    -43.45566177368164
+   ],
+   [
+    -37.065006256103516
+   ],
+   [
+    -41.867618560791016
+   ],
+   [
+    -46.316287994384766
+   ],
+   [
+    -39.61235809326172
+   ],
+   [
+    -44.924095153808594
+   ],
+   [
+    -28.76335334777832
+   ],
+   [
+    -35.29631805419922
+   ],
+   [
+    -42.435768127441406
+   ],
+   [
+    -49.538326263427734
+   ],
+   [
+    -32.90031051635742
+   ],
+   [
+    -34.659881591796875
+   ],
+   [
+    -37.87978744506836
+   ],
+   [
+    -38.41297149658203
+   ],
+   [
+    -39.73252868652344
+   ],
+   [
+    -38.27752685546875
+   ],
+   [
+    -38.3958854675293
+   ],
+   [
+    -41.439247131347656
+   ],
+   [
+    -38.129119873046875
+   ],
+   [
+    -32.126258850097656
+   ],
+   [
+    -37.05613708496094
+   ],
+   [
+    -34.78030014038086
+   ],
+   [
+    -31.777557373046875
+   ],
+   [
+    -41.43838119506836
+   ],
+   [
+    -39.80852508544922
+   ],
+   [
+    -44.037132263183594
+   ],
+   [
+    -33.65492630004883
+   ],
+   [
+    -33.99761962890625
+   ],
+   [
+    -34.932533264160156
+   ],
+   [
+    -30.70088768005371
+   ],
+   [
+    -46.81590270996094
+   ],
+   [
+    -38.18122863769531
+   ],
+   [
+    -33.512245178222656
+   ],
+   [
+    -38.118736267089844
+   ],
+   [
+    -33.15747833251953
+   ],
+   [
+    -42.28075408935547
+   ],
+   [
+    -40.37227249145508
+   ],
+   [
+    -41.811492919921875
+   ],
+   [
+    -35.33238983154297
+   ],
+   [
+    -34.30824279785156
+   ],
+   [
+    -33.65248107910156
+   ],
+   [
+    -36.10325622558594
+   ],
+   [
+    -34.595001220703125
+   ],
+   [
+    -45.35365295410156
+   ],
+   [
+    -37.67884063720703
+   ],
+   [
+    -39.5659065246582
+   ],
+   [
+    -51.78977966308594
+   ],
+   [
+    -34.71315383911133
+   ],
+   [
+    -47.44432067871094
+   ],
+   [
+    -39.35733413696289
+   ],
+   [
+    -39.175048828125
+   ],
+   [
+    -46.8232307434082
+   ],
+   [
+    -39.711326599121094
+   ],
+   [
+    -36.36436462402344
+   ],
+   [
+    -36.2608757019043
+   ],
+   [
+    -40.62971496582031
+   ],
+   [
+    -37.23637390136719
+   ],
+   [
+    -35.880008697509766
+   ],
+   [
+    -37.55110168457031
+   ],
+   [
+    -39.908164978027344
+   ],
+   [
+    -44.60013198852539
+   ],
+   [
+    -44.72517395019531
+   ],
+   [
+    -38.584957122802734
+   ],
+   [
+    -32.915164947509766
+   ],
+   [
+    -43.544349670410156
+   ],
+   [
+    -43.07713317871094
+   ],
+   [
+    -35.583961486816406
+   ],
+   [
+    -42.994903564453125
+   ],
+   [
+    -39.036659240722656
+   ],
+   [
+    -37.646541595458984
+   ],
+   [
+    -34.750335693359375
+   ],
+   [
+    -38.762630462646484
+   ],
+   [
+    -36.176387786865234
+   ],
+   [
+    -47.829193115234375
+   ],
+   [
+    -43.1153564453125
+   ],
+   [
+    -34.178871154785156
+   ],
+   [
+    -38.591094970703125
+   ],
+   [
+    -34.60332489013672
+   ],
+   [
+    -44.215606689453125
+   ],
+   [
+    -37.06810760498047
+   ],
+   [
+    -36.27412414550781
+   ],
+   [
+    -35.7492561340332
+   ],
+   [
+    -46.82882308959961
+   ],
+   [
+    -35.050289154052734
+   ],
+   [
+    -39.214725494384766
+   ],
+   [
+    -33.684444427490234
+   ],
+   [
+    -42.376556396484375
+   ],
+   [
+    -35.63816452026367
+   ],
+   [
+    -32.58091735839844
+   ],
+   [
+    -42.543182373046875
+   ],
+   [
+    -46.754180908203125
+   ],
+   [
+    -40.57123947143555
+   ],
+   [
+    -41.689613342285156
+   ],
+   [
+    -40.19574737548828
+   ],
+   [
+    -34.21117401123047
+   ],
+   [
+    -42.34654998779297
+   ],
+   [
+    -38.18685531616211
+   ],
+   [
+    -35.8125
+   ],
+   [
+    -35.133934020996094
+   ],
+   [
+    -46.61471176147461
+   ],
+   [
+    -43.281471252441406
+   ],
+   [
+    -50.26777648925781
+   ],
+   [
+    -39.40471267700195
+   ],
+   [
+    -32.21686553955078
+   ],
+   [
+    -43.308082580566406
+   ],
+   [
+    -44.482025146484375
+   ],
+   [
+    -38.27574920654297
+   ],
+   [
+    -40.924766540527344
+   ],
+   [
+    -41.92930221557617
+   ],
+   [
+    -36.75212097167969
+   ],
+   [
+    -44.19175338745117
+   ],
+   [
+    -37.106597900390625
+   ],
+   [
+    -46.26072692871094
+   ],
+   [
+    -41.44104766845703
+   ],
+   [
+    -34.161903381347656
+   ],
+   [
+    -36.68201446533203
+   ],
+   [
+    -36.480316162109375
+   ],
+   [
+    -43.49201965332031
+   ],
+   [
+    -39.433956146240234
+   ],
+   [
+    -42.00205993652344
+   ],
+   [
+    -38.98610305786133
+   ],
+   [
+    -37.01080322265625
+   ],
+   [
+    -46.314109802246094
+   ],
+   [
+    -40.21665573120117
+   ],
+   [
+    -40.788326263427734
+   ],
+   [
+    -39.609344482421875
+   ],
+   [
+    -43.484649658203125
+   ],
+   [
+    -31.066003799438477
+   ],
+   [
+    -38.00201416015625
+   ],
+   [
+    -45.52775192260742
+   ],
+   [
+    -34.814510345458984
+   ],
+   [
+    -42.79071807861328
+   ],
+   [
+    -41.99419021606445
+   ],
+   [
+    -31.830821990966797
+   ],
+   [
+    -42.61432647705078
+   ],
+   [
+    -32.640411376953125
+   ],
+   [
+    -36.90291976928711
+   ],
+   [
+    -40.601985931396484
+   ],
+   [
+    -36.8016357421875
+   ],
+   [
+    -43.33033752441406
+   ],
+   [
+    -52.7247314453125
+   ],
+   [
+    -44.10166549682617
+   ],
+   [
+    -44.77863311767578
+   ],
+   [
+    -41.39970397949219
+   ],
+   [
+    -45.24092102050781
+   ],
+   [
+    -37.834327697753906
+   ],
+   [
+    -33.896514892578125
+   ],
+   [
+    -36.53839111328125
+   ],
+   [
+    -31.140602111816406
+   ],
+   [
+    -38.31572723388672
+   ],
+   [
+    -38.32796859741211
+   ],
+   [
+    -40.05663299560547
+   ],
+   [
+    -41.606868743896484
+   ],
+   [
+    -35.52295684814453
+   ],
+   [
+    -39.01133728027344
+   ],
+   [
+    -37.3962287902832
+   ],
+   [
+    -45.60309982299805
+   ],
+   [
+    -36.57421112060547
+   ],
+   [
+    -45.12770080566406
+   ],
+   [
+    -41.31838607788086
+   ],
+   [
+    -36.31958770751953
+   ],
+   [
+    -38.94330978393555
+   ],
+   [
+    -33.210594177246094
+   ],
+   [
+    -34.0535888671875
+   ],
+   [
+    -37.94218444824219
+   ],
+   [
+    -35.487701416015625
+   ],
+   [
+    -30.03305435180664
+   ],
+   [
+    -37.03917694091797
+   ],
+   [
+    -36.76818084716797
+   ],
+   [
+    -38.26771926879883
+   ],
+   [
+    -35.250816345214844
+   ],
+   [
+    -40.66310501098633
+   ],
+   [
+    -41.86565399169922
+   ],
+   [
+    -31.559528350830078
+   ],
+   [
+    -38.33317565917969
+   ],
+   [
+    -38.45441436767578
+   ],
+   [
+    -39.64651870727539
+   ],
+   [
+    -42.860511779785156
+   ],
+   [
+    -46.945701599121094
+   ],
+   [
+    -53.57575225830078
+   ],
+   [
+    -48.08595275878906
+   ],
+   [
+    -53.51182174682617
+   ],
+   [
+    -48.36920166015625
+   ],
+   [
+    -54.93002700805664
+   ],
+   [
+    -56.558773040771484
+   ],
+   [
+    -44.92158126831055
+   ],
+   [
+    -57.741172790527344
+   ],
+   [
+    -52.378082275390625
+   ],
+   [
+    -51.483394622802734
+   ],
+   [
+    -50.8534049987793
+   ],
+   [
+    -55.20994567871094
+   ],
+   [
+    -55.89101028442383
+   ],
+   [
+    -56.81540298461914
+   ],
+   [
+    -48.14858627319336
+   ],
+   [
+    -48.17274475097656
+   ],
+   [
+    -50.07162857055664
+   ],
+   [
+    -51.43566131591797
+   ],
+   [
+    -49.280242919921875
+   ],
+   [
+    -49.3216438293457
+   ],
+   [
+    -51.23033142089844
+   ],
+   [
+    -46.881038665771484
+   ],
+   [
+    -47.03840637207031
+   ],
+   [
+    -46.74602508544922
+   ],
+   [
+    -51.71433639526367
+   ],
+   [
+    -49.85100555419922
+   ],
+   [
+    -50.02199172973633
+   ],
+   [
+    -53.340911865234375
+   ],
+   [
+    -50.016353607177734
+   ],
+   [
+    -49.79609680175781
+   ],
+   [
+    -55.169822692871094
+   ],
+   [
+    -43.755855560302734
+   ],
+   [
+    -52.45066452026367
+   ],
+   [
+    -50.993282318115234
+   ],
+   [
+    -49.85462951660156
+   ],
+   [
+    -49.88975143432617
+   ],
+   [
+    -52.472007751464844
+   ],
+   [
+    -47.998565673828125
+   ],
+   [
+    -49.54283142089844
+   ],
+   [
+    -52.399803161621094
+   ],
+   [
+    -52.01564407348633
+   ],
+   [
+    -53.27843475341797
+   ],
+   [
+    -49.10163116455078
+   ],
+   [
+    -56.31494903564453
+   ],
+   [
+    -55.03426742553711
+   ],
+   [
+    -50.510135650634766
+   ],
+   [
+    -56.18397903442383
+   ],
+   [
+    -44.918983459472656
+   ],
+   [
+    -43.388999938964844
+   ],
+   [
+    -47.91562271118164
+   ],
+   [
+    -66.53004455566406
+   ],
+   [
+    -50.437564849853516
+   ],
+   [
+    -50.67436981201172
+   ],
+   [
+    -50.62416076660156
+   ],
+   [
+    -46.32174301147461
+   ],
+   [
+    -51.32376480102539
+   ],
+   [
+    -45.826202392578125
+   ],
+   [
+    -53.82339859008789
+   ],
+   [
+    -50.89530944824219
+   ],
+   [
+    -50.552757263183594
+   ],
+   [
+    -48.97543716430664
+   ],
+   [
+    -47.27669143676758
+   ],
+   [
+    -50.17924118041992
+   ],
+   [
+    -42.81243133544922
+   ],
+   [
+    -50.103187561035156
+   ],
+   [
+    -52.44382095336914
+   ],
+   [
+    -51.141639709472656
+   ],
+   [
+    -50.721134185791016
+   ],
+   [
+    -48.23458480834961
+   ],
+   [
+    -48.795169830322266
+   ],
+   [
+    -50.33785629272461
+   ],
+   [
+    -56.64361572265625
+   ],
+   [
+    -48.50159454345703
+   ],
+   [
+    -46.759544372558594
+   ],
+   [
+    -50.16583251953125
+   ],
+   [
+    -49.87429428100586
+   ],
+   [
+    -52.8608283996582
+   ],
+   [
+    -47.388648986816406
+   ],
+   [
+    -51.94932556152344
+   ],
+   [
+    -46.215579986572266
+   ],
+   [
+    -47.717220306396484
+   ],
+   [
+    -45.35652160644531
+   ],
+   [
+    -48.47002029418945
+   ],
+   [
+    -53.052181243896484
+   ],
+   [
+    -58.86821365356445
+   ],
+   [
+    -47.2945556640625
+   ],
+   [
+    -51.370662689208984
+   ],
+   [
+    -65.44802856445312
+   ],
+   [
+    -50.820587158203125
+   ],
+   [
+    -48.97925567626953
+   ],
+   [
+    -45.86052322387695
+   ],
+   [
+    -49.69974136352539
+   ],
+   [
+    -53.85808563232422
+   ],
+   [
+    -51.5430793762207
+   ],
+   [
+    -49.52037048339844
+   ],
+   [
+    -52.95537185668945
+   ],
+   [
+    -51.41078186035156
+   ],
+   [
+    -50.3985595703125
+   ],
+   [
+    -45.481719970703125
+   ],
+   [
+    -49.63276290893555
+   ],
+   [
+    -49.26319885253906
+   ],
+   [
+    -55.03179168701172
+   ],
+   [
+    -56.03194808959961
+   ],
+   [
+    -51.207923889160156
+   ],
+   [
+    -49.85881042480469
+   ],
+   [
+    -52.961238861083984
+   ],
+   [
+    -53.20674133300781
+   ],
+   [
+    -51.77903366088867
+   ],
+   [
+    -54.31871795654297
+   ],
+   [
+    -49.36324691772461
+   ],
+   [
+    -57.40485763549805
+   ],
+   [
+    -46.495025634765625
+   ],
+   [
+    -47.73905563354492
+   ],
+   [
+    -44.877742767333984
+   ],
+   [
+    -54.8814697265625
+   ],
+   [
+    -57.64837646484375
+   ],
+   [
+    -50.454681396484375
+   ],
+   [
+    -49.78657531738281
+   ],
+   [
+    -47.01530075073242
+   ],
+   [
+    -55.18395233154297
+   ],
+   [
+    -51.538238525390625
+   ],
+   [
+    -45.674076080322266
+   ],
+   [
+    -50.34477996826172
+   ],
+   [
+    -50.96055603027344
+   ],
+   [
+    -51.98655319213867
+   ],
+   [
+    -51.75336456298828
+   ],
+   [
+    -47.45428466796875
+   ],
+   [
+    -57.811214447021484
+   ],
+   [
+    -50.0997314453125
+   ],
+   [
+    -52.32219314575195
+   ],
+   [
+    -52.467010498046875
+   ],
+   [
+    -60.1243896484375
+   ],
+   [
+    -50.93342208862305
+   ],
+   [
+    -52.473079681396484
+   ],
+   [
+    -51.35209274291992
+   ],
+   [
+    -52.61800765991211
+   ],
+   [
+    -55.164588928222656
+   ],
+   [
+    -48.31010437011719
+   ],
+   [
+    -48.97795486450195
+   ],
+   [
+    -47.67634963989258
+   ],
+   [
+    -53.18344497680664
+   ],
+   [
+    -53.089393615722656
+   ],
+   [
+    -61.15687561035156
+   ],
+   [
+    -53.58003234863281
+   ],
+   [
+    -51.13277816772461
+   ],
+   [
+    -54.53768539428711
+   ],
+   [
+    -54.76698684692383
+   ],
+   [
+    -55.520145416259766
+   ],
+   [
+    -54.326622009277344
+   ],
+   [
+    -50.45433807373047
+   ],
+   [
+    -48.82057189941406
+   ],
+   [
+    -60.269649505615234
+   ],
+   [
+    -49.65861892700195
+   ],
+   [
+    -59.965091705322266
+   ],
+   [
+    -56.72610092163086
+   ],
+   [
+    -51.35594940185547
+   ],
+   [
+    -50.2666130065918
+   ],
+   [
+    -51.56511688232422
+   ],
+   [
+    -52.40310287475586
+   ],
+   [
+    -51.392051696777344
+   ],
+   [
+    -54.96696853637695
+   ],
+   [
+    -51.64529037475586
+   ],
+   [
+    -51.37594223022461
+   ],
+   [
+    -57.73383331298828
+   ],
+   [
+    -51.06452560424805
+   ],
+   [
+    -54.73815155029297
+   ],
+   [
+    -49.86293029785156
+   ],
+   [
+    -52.79556655883789
+   ],
+   [
+    -49.62281799316406
+   ],
+   [
+    -51.05704879760742
+   ],
+   [
+    -52.84209442138672
+   ],
+   [
+    -48.4389762878418
+   ],
+   [
+    -49.28675079345703
+   ],
+   [
+    -53.0434684753418
+   ],
+   [
+    -41.67618179321289
+   ],
+   [
+    -52.913299560546875
+   ],
+   [
+    -49.325931549072266
+   ],
+   [
+    -45.474998474121094
+   ],
+   [
+    -53.27649688720703
+   ],
+   [
+    -49.289710998535156
+   ],
+   [
+    -49.92645263671875
+   ],
+   [
+    -65.30812072753906
+   ],
+   [
+    -53.81098175048828
+   ],
+   [
+    -57.46299743652344
+   ],
+   [
+    -52.56934356689453
+   ],
+   [
+    -54.34602737426758
+   ],
+   [
+    -49.81907653808594
+   ],
+   [
+    -51.15874481201172
+   ],
+   [
+    -47.239646911621094
+   ],
+   [
+    -51.36484146118164
+   ],
+   [
+    -53.43904495239258
+   ],
+   [
+    -46.841182708740234
+   ],
+   [
+    -52.13425827026367
+   ],
+   [
+    -51.564598083496094
+   ],
+   [
+    -51.53908920288086
+   ],
+   [
+    -51.62884521484375
+   ],
+   [
+    -56.36343765258789
+   ],
+   [
+    -63.24247741699219
+   ],
+   [
+    -50.660194396972656
+   ],
+   [
+    -60.007511138916016
+   ],
+   [
+    -54.4515266418457
+   ],
+   [
+    -50.08901596069336
+   ],
+   [
+    -53.34912872314453
+   ],
+   [
+    -44.14657974243164
+   ],
+   [
+    -51.15483093261719
+   ],
+   [
+    -47.78023147583008
+   ],
+   [
+    -50.45920944213867
+   ],
+   [
+    -50.41324996948242
+   ],
+   [
+    -50.359092712402344
+   ],
+   [
+    -46.100406646728516
+   ],
+   [
+    -51.19329071044922
+   ],
+   [
+    -52.50320053100586
+   ],
+   [
+    -51.03759002685547
+   ],
+   [
+    -54.79982376098633
+   ],
+   [
+    -39.41612243652344
+   ],
+   [
+    -49.889434814453125
+   ],
+   [
+    -52.0719108581543
+   ],
+   [
+    -51.993621826171875
+   ],
+   [
+    -57.7673454284668
+   ]
+  ]
+ ],
+ "time": 750.9999504089355
+}

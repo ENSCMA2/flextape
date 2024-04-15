@@ -1,0 +1,2076 @@
+{
+ "case_id": 22132,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Joseph von Gerlach"
+ },
+ "pre": [
+  [
+   "Joseph von Gerlach's field of work is abstract algebra",
+   "Joseph von Gerlach's field of work is theology",
+   "Joseph von Gerlach's field of work is television program",
+   "Joseph von Gerlach's field of work is nanotechnology",
+   "Joseph von Gerlach's field of work is hydrodynamics",
+   "Joseph von Gerlach's field of work is ethics",
+   "Joseph von Gerlach's field of work is physicist",
+   "Joseph von Gerlach's field of work is evolution",
+   "Joseph von Gerlach's field of work is distribution theory",
+   "Joseph von Gerlach's field of work is psychophysiology",
+   "Joseph von Gerlach's field of work is English literature",
+   "Joseph von Gerlach's field of work is theoretical physics",
+   "Joseph von Gerlach's field of work is essay",
+   "Joseph von Gerlach's field of work is ethnology",
+   "Joseph von Gerlach's field of work is pedagogy",
+   "Joseph von Gerlach's field of work is kinetic theory",
+   "Joseph von Gerlach's field of work is ethnography",
+   "Joseph von Gerlach's field of work is rite",
+   "Joseph von Gerlach's field of work is economics",
+   "Joseph von Gerlach's field of work is dance choreography",
+   "Joseph von Gerlach's field of work is biological anthropology",
+   "Joseph von Gerlach's field of work is history of religions",
+   "Joseph von Gerlach's field of work is political philosophy",
+   "Joseph von Gerlach's field of work is philosophy",
+   "Joseph von Gerlach's field of work is linguistics",
+   "Joseph von Gerlach's field of work is cosmology",
+   "Joseph von Gerlach's field of work is hunting",
+   "Joseph von Gerlach's field of work is Minkowski spacetime",
+   "Joseph von Gerlach's field of work is classical music",
+   "Joseph von Gerlach's field of work is hyperbolic geometry",
+   "Joseph von Gerlach's field of work is radioactivity",
+   "Joseph von Gerlach's field of work is belletristic literature",
+   "Joseph von Gerlach's field of work is model theory",
+   "Joseph von Gerlach's field of work is choreography",
+   "Joseph von Gerlach's field of work is chemistry",
+   "Joseph von Gerlach's field of work is literary activity",
+   "Joseph von Gerlach's field of work is historical sociology",
+   "Joseph von Gerlach's field of work is feminism",
+   "Joseph von Gerlach's field of work is economy",
+   "Joseph von Gerlach's field of work is astronomy",
+   "Joseph von Gerlach's field of work is topology",
+   "Joseph von Gerlach's field of work is translations from English",
+   "Joseph von Gerlach's field of work is partial differential equation",
+   "Joseph von Gerlach's field of work is Cairo Geniza",
+   "Joseph von Gerlach's field of work is nuclear physics",
+   "Joseph von Gerlach's field of work is dance",
+   "Joseph von Gerlach's field of work is informatics",
+   "Joseph von Gerlach's field of work is geometry",
+   "Joseph von Gerlach's field of work is computational geometry",
+   "Joseph von Gerlach's field of work is Sanskrit",
+   "Joseph von Gerlach's field of work is magnetism",
+   "Joseph von Gerlach's field of work is opera",
+   "Joseph von Gerlach's field of work is algebraic topology",
+   "Joseph von Gerlach's field of work is quaternion",
+   "Joseph von Gerlach's field of work is Bayesian inference",
+   "Joseph von Gerlach's field of work is quantum electrodynamics",
+   "Joseph von Gerlach's field of work is religion and society",
+   "Joseph von Gerlach's field of work is history of economic thought",
+   "Joseph von Gerlach's field of work is translations from Polish",
+   "Joseph von Gerlach's field of work is literary translation",
+   "Joseph von Gerlach's field of work is lyric poetry",
+   "Joseph von Gerlach's field of work is probability theory",
+   "Joseph von Gerlach's field of work is ontology",
+   "Joseph von Gerlach's field of work is aerodynamics",
+   "Joseph von Gerlach's field of work is crystallography",
+   "Joseph von Gerlach's field of work is mathematics",
+   "Joseph von Gerlach's field of work is harmonic analysis",
+   "Joseph von Gerlach's field of work is history of science",
+   "Joseph von Gerlach's field of work is philosophy of law",
+   "Joseph von Gerlach's field of work is philology",
+   "Joseph von Gerlach's field of work is optics",
+   "Joseph von Gerlach's field of work is functional analysis",
+   "Joseph von Gerlach's field of work is surgery",
+   "Joseph von Gerlach's field of work is complex function",
+   "Joseph von Gerlach's field of work is Jewish philosophy",
+   "Joseph von Gerlach's field of work is translations from Spanish",
+   "Joseph von Gerlach's field of work is poetry",
+   "Joseph von Gerlach's field of work is distribution",
+   "Joseph von Gerlach's field of work is astrology",
+   "Joseph von Gerlach's field of work is differential geometry",
+   "Joseph von Gerlach's field of work is mechanics",
+   "Joseph von Gerlach's field of work is positivism",
+   "Joseph von Gerlach's field of work is ferromagnetism",
+   "Joseph von Gerlach's field of work is quantum physics",
+   "Joseph von Gerlach's field of work is music theory",
+   "Joseph von Gerlach's field of work is physiology",
+   "Joseph von Gerlach's field of work is theory of differential equations",
+   "Joseph von Gerlach's field of work is astrophysics",
+   "Joseph von Gerlach's field of work is number theory",
+   "Joseph von Gerlach's field of work is magnetic field",
+   "Joseph von Gerlach's field of work is historical novel",
+   "Joseph von Gerlach's field of work is stochastic",
+   "Joseph von Gerlach's field of work is philosopher",
+   "Joseph von Gerlach's field of work is histology",
+   "Joseph von Gerlach's field of work is Franciscan spirituality",
+   "Joseph von Gerlach's field of work is electromagnetic field",
+   "Joseph von Gerlach's field of work is medicine",
+   "Joseph von Gerlach's field of work is algebraic geometry",
+   "Joseph von Gerlach's field of work is comparative mythology",
+   "Joseph von Gerlach's field of work is color photography",
+   "Joseph von Gerlach's field of work is cryptography",
+   "Joseph von Gerlach's field of work is Christian Church",
+   "Joseph von Gerlach's field of work is electrical engineering",
+   "Joseph von Gerlach's field of work is folklore",
+   "Joseph von Gerlach's field of work is mythology",
+   "Joseph von Gerlach's field of work is human geography",
+   "Joseph von Gerlach's field of work is Petrine ministry",
+   "Joseph von Gerlach's field of work is Judaism",
+   "Joseph von Gerlach's field of work is group theory",
+   "Joseph von Gerlach's field of work is non-Euclidean geometry",
+   "Joseph von Gerlach's field of work is algebra",
+   "Joseph von Gerlach's field of work is ballistics",
+   "Joseph von Gerlach's field of work is mathematician",
+   "Joseph von Gerlach's field of work is applied physics",
+   "Joseph von Gerlach's field of work is culturology",
+   "Joseph von Gerlach's field of work is calculus of variations",
+   "Joseph von Gerlach's field of work is logic",
+   "Joseph von Gerlach's field of work is engineering",
+   "Joseph von Gerlach's field of work is translations from Occitan",
+   "Joseph von Gerlach's field of work is anatomy",
+   "Joseph von Gerlach's field of work is forestry science",
+   "Joseph von Gerlach's field of work is magic",
+   "Joseph von Gerlach's field of work is quantum mechanics",
+   "Joseph von Gerlach's field of work is differential calculus",
+   "Joseph von Gerlach's field of work is shipbuilding",
+   "Joseph von Gerlach's field of work is convex function",
+   "Joseph von Gerlach's field of work is analytic philosophy",
+   "Joseph von Gerlach's field of work is magnetic resonance",
+   "Joseph von Gerlach's field of work is detective literature",
+   "Joseph von Gerlach's field of work is cartography",
+   "Joseph von Gerlach's field of work is sociology of organisations",
+   "Joseph von Gerlach's field of work is crime novel",
+   "Joseph von Gerlach's field of work is gravity",
+   "Joseph von Gerlach's field of work is statistics",
+   "Joseph von Gerlach's field of work is Greek philology",
+   "Joseph von Gerlach's field of work is analytic number theory",
+   "Joseph von Gerlach's field of work is trigonometry",
+   "Joseph von Gerlach's field of work is physics",
+   "Joseph von Gerlach's field of work is astronomer",
+   "Joseph von Gerlach's field of work is natural science",
+   "Joseph von Gerlach's field of work is information technology",
+   "Joseph von Gerlach's field of work is conducting",
+   "Joseph von Gerlach's field of work is nonstandard analysis",
+   "Joseph von Gerlach's field of work is mathematical analysis",
+   "Joseph von Gerlach's field of work is a branch of physics",
+   "Joseph von Gerlach's field of work is projective geometry",
+   "Joseph von Gerlach's field of work is civil rights",
+   "Joseph von Gerlach's field of work is children's and youth literature",
+   "Joseph von Gerlach's field of work is embryology",
+   "Joseph von Gerlach's field of work is momentum",
+   "Joseph von Gerlach's field of work is African studies",
+   "Joseph von Gerlach's field of work is fairy tale",
+   "Joseph von Gerlach's field of work is classics",
+   "Joseph von Gerlach's field of work is social psychology",
+   "Joseph von Gerlach's field of work is Jewish studies",
+   "Joseph von Gerlach's field of work is silviculture",
+   "Joseph von Gerlach's field of work is education",
+   "Joseph von Gerlach's field of work is literature",
+   "Joseph von Gerlach's field of work is constitutional law",
+   "Joseph von Gerlach's field of work is radiation",
+   "Joseph von Gerlach's field of work is Internet",
+   "Joseph von Gerlach's field of work is heat",
+   "Joseph von Gerlach's field of work is mechanical engineering",
+   "Joseph von Gerlach's field of work is forestry",
+   "Joseph von Gerlach's field of work is jazz",
+   "Joseph von Gerlach's field of work is social philosophy",
+   "Joseph von Gerlach's field of work is mathematical physics",
+   "Joseph von Gerlach's field of work is meteorology",
+   "Joseph von Gerlach's field of work is translations from Arabic language",
+   "Joseph von Gerlach's field of work is quantum mysticism",
+   "Joseph von Gerlach's field of work is politics",
+   "Joseph von Gerlach's field of work is astronomical observation",
+   "Joseph von Gerlach's field of work is myth",
+   "Joseph von Gerlach's field of work is geography",
+   "Joseph von Gerlach's field of work is sociology of religion",
+   "Joseph von Gerlach's field of work is comparative religion",
+   "Joseph von Gerlach's field of work is Greek",
+   "Joseph von Gerlach's field of work is Lie algebra",
+   "Joseph von Gerlach's field of work is complex manifold",
+   "Joseph von Gerlach's field of work is journalism",
+   "Joseph von Gerlach's field of work is celestial mechanics",
+   "Joseph von Gerlach's field of work is String",
+   "Joseph von Gerlach's field of work is mathematical logic",
+   "Joseph von Gerlach's field of work is aeromechanics",
+   "Joseph von Gerlach's field of work is English",
+   "Joseph von Gerlach's field of work is history",
+   "Joseph von Gerlach's field of work is study of history",
+   "Joseph von Gerlach's field of work is genetics",
+   "Joseph von Gerlach's field of work is psychology",
+   "Joseph von Gerlach's field of work is theory of relativity",
+   "Joseph von Gerlach's field of work is biochemistry",
+   "Joseph von Gerlach's field of work is ballet",
+   "Joseph von Gerlach's field of work is electricity",
+   "Joseph von Gerlach's field of work is experimental physics",
+   "Joseph von Gerlach's field of work is natural theology",
+   "Joseph von Gerlach's field of work is Hebrew",
+   "Joseph von Gerlach's field of work is prose",
+   "Joseph von Gerlach's field of work is paleontology",
+   "Joseph von Gerlach's field of work is Monte Carlo method",
+   "Joseph von Gerlach's field of work is quantum theory",
+   "Joseph von Gerlach's field of work is computer science",
+   "Joseph von Gerlach's field of work is cybernetics",
+   "Joseph von Gerlach's field of work is Afghanistan",
+   "Joseph von Gerlach's field of work is philosophy of science",
+   "Joseph von Gerlach's field of work is literary theory",
+   "Joseph von Gerlach's field of work is electric field",
+   "Joseph von Gerlach's field of work is religion",
+   "Joseph von Gerlach's field of work is analytic geometry",
+   "Joseph von Gerlach's field of work is graph theory",
+   "Joseph von Gerlach's field of work is electron",
+   "Joseph von Gerlach's field of work is anthropology",
+   "Joseph von Gerlach's field of work is social anthropology",
+   "Joseph von Gerlach's field of work is sociology",
+   "Joseph von Gerlach's field of work is geodesy",
+   "Joseph von Gerlach's field of work is neurology",
+   "Joseph von Gerlach's field of work is drama",
+   "Joseph von Gerlach's field of work is art of painting",
+   "Joseph von Gerlach's field of work is applied mathematics",
+   "Joseph von Gerlach's field of work is world economy",
+   "Joseph von Gerlach's field of work is economic anthropology",
+   "Joseph von Gerlach is abstract algebra",
+   "Joseph von Gerlach is theology",
+   "Joseph von Gerlach is television program",
+   "Joseph von Gerlach is nanotechnology",
+   "Joseph von Gerlach is hydrodynamics",
+   "Joseph von Gerlach is ethics",
+   "Joseph von Gerlach is physicist",
+   "Joseph von Gerlach is evolution",
+   "Joseph von Gerlach is distribution theory",
+   "Joseph von Gerlach is psychophysiology",
+   "Joseph von Gerlach is English literature",
+   "Joseph von Gerlach is theoretical physics",
+   "Joseph von Gerlach is essay",
+   "Joseph von Gerlach is ethnology",
+   "Joseph von Gerlach is pedagogy",
+   "Joseph von Gerlach is kinetic theory",
+   "Joseph von Gerlach is ethnography",
+   "Joseph von Gerlach is rite",
+   "Joseph von Gerlach is economics",
+   "Joseph von Gerlach is dance choreography",
+   "Joseph von Gerlach is biological anthropology",
+   "Joseph von Gerlach is history of religions",
+   "Joseph von Gerlach is political philosophy",
+   "Joseph von Gerlach is philosophy",
+   "Joseph von Gerlach is linguistics",
+   "Joseph von Gerlach is cosmology",
+   "Joseph von Gerlach is hunting",
+   "Joseph von Gerlach is Minkowski spacetime",
+   "Joseph von Gerlach is classical music",
+   "Joseph von Gerlach is hyperbolic geometry",
+   "Joseph von Gerlach is radioactivity",
+   "Joseph von Gerlach is belletristic literature",
+   "Joseph von Gerlach is model theory",
+   "Joseph von Gerlach is choreography",
+   "Joseph von Gerlach is chemistry",
+   "Joseph von Gerlach is literary activity",
+   "Joseph von Gerlach is historical sociology",
+   "Joseph von Gerlach is feminism",
+   "Joseph von Gerlach is economy",
+   "Joseph von Gerlach is astronomy",
+   "Joseph von Gerlach is topology",
+   "Joseph von Gerlach is translations from English",
+   "Joseph von Gerlach is partial differential equation",
+   "Joseph von Gerlach is Cairo Geniza",
+   "Joseph von Gerlach is nuclear physics",
+   "Joseph von Gerlach is dance",
+   "Joseph von Gerlach is informatics",
+   "Joseph von Gerlach is geometry",
+   "Joseph von Gerlach is computational geometry",
+   "Joseph von Gerlach is Sanskrit",
+   "Joseph von Gerlach is magnetism",
+   "Joseph von Gerlach is opera",
+   "Joseph von Gerlach is algebraic topology",
+   "Joseph von Gerlach is quaternion",
+   "Joseph von Gerlach is Bayesian inference",
+   "Joseph von Gerlach is quantum electrodynamics",
+   "Joseph von Gerlach is religion and society",
+   "Joseph von Gerlach is history of economic thought",
+   "Joseph von Gerlach is translations from Polish",
+   "Joseph von Gerlach is literary translation",
+   "Joseph von Gerlach is lyric poetry",
+   "Joseph von Gerlach is probability theory",
+   "Joseph von Gerlach is ontology",
+   "Joseph von Gerlach is aerodynamics",
+   "Joseph von Gerlach is crystallography",
+   "Joseph von Gerlach is mathematics",
+   "Joseph von Gerlach is harmonic analysis",
+   "Joseph von Gerlach is history of science",
+   "Joseph von Gerlach is philosophy of law",
+   "Joseph von Gerlach is philology",
+   "Joseph von Gerlach is optics",
+   "Joseph von Gerlach is functional analysis",
+   "Joseph von Gerlach is surgery",
+   "Joseph von Gerlach is complex function",
+   "Joseph von Gerlach is Jewish philosophy",
+   "Joseph von Gerlach is translations from Spanish",
+   "Joseph von Gerlach is poetry",
+   "Joseph von Gerlach is distribution",
+   "Joseph von Gerlach is astrology",
+   "Joseph von Gerlach is differential geometry",
+   "Joseph von Gerlach is mechanics",
+   "Joseph von Gerlach is positivism",
+   "Joseph von Gerlach is ferromagnetism",
+   "Joseph von Gerlach is quantum physics",
+   "Joseph von Gerlach is music theory",
+   "Joseph von Gerlach is physiology",
+   "Joseph von Gerlach is theory of differential equations",
+   "Joseph von Gerlach is astrophysics",
+   "Joseph von Gerlach is number theory",
+   "Joseph von Gerlach is magnetic field",
+   "Joseph von Gerlach is historical novel",
+   "Joseph von Gerlach is stochastic",
+   "Joseph von Gerlach is philosopher",
+   "Joseph von Gerlach is histology",
+   "Joseph von Gerlach is Franciscan spirituality",
+   "Joseph von Gerlach is electromagnetic field",
+   "Joseph von Gerlach is medicine",
+   "Joseph von Gerlach is algebraic geometry",
+   "Joseph von Gerlach is comparative mythology",
+   "Joseph von Gerlach is color photography",
+   "Joseph von Gerlach is cryptography",
+   "Joseph von Gerlach is Christian Church",
+   "Joseph von Gerlach is electrical engineering",
+   "Joseph von Gerlach is folklore",
+   "Joseph von Gerlach is mythology",
+   "Joseph von Gerlach is human geography",
+   "Joseph von Gerlach is Petrine ministry",
+   "Joseph von Gerlach is Judaism",
+   "Joseph von Gerlach is group theory",
+   "Joseph von Gerlach is non-Euclidean geometry",
+   "Joseph von Gerlach is algebra",
+   "Joseph von Gerlach is ballistics",
+   "Joseph von Gerlach is mathematician",
+   "Joseph von Gerlach is applied physics",
+   "Joseph von Gerlach is culturology",
+   "Joseph von Gerlach is calculus of variations",
+   "Joseph von Gerlach is logic",
+   "Joseph von Gerlach is engineering",
+   "Joseph von Gerlach is translations from Occitan",
+   "Joseph von Gerlach is anatomy",
+   "Joseph von Gerlach is forestry science",
+   "Joseph von Gerlach is magic",
+   "Joseph von Gerlach is quantum mechanics",
+   "Joseph von Gerlach is differential calculus",
+   "Joseph von Gerlach is shipbuilding",
+   "Joseph von Gerlach is convex function",
+   "Joseph von Gerlach is analytic philosophy",
+   "Joseph von Gerlach is magnetic resonance",
+   "Joseph von Gerlach is detective literature",
+   "Joseph von Gerlach is cartography",
+   "Joseph von Gerlach is sociology of organisations",
+   "Joseph von Gerlach is crime novel",
+   "Joseph von Gerlach is gravity",
+   "Joseph von Gerlach is statistics",
+   "Joseph von Gerlach is Greek philology",
+   "Joseph von Gerlach is analytic number theory",
+   "Joseph von Gerlach is trigonometry",
+   "Joseph von Gerlach is physics",
+   "Joseph von Gerlach is astronomer",
+   "Joseph von Gerlach is natural science",
+   "Joseph von Gerlach is information technology",
+   "Joseph von Gerlach is conducting",
+   "Joseph von Gerlach is nonstandard analysis",
+   "Joseph von Gerlach is mathematical analysis",
+   "Joseph von Gerlach is a branch of physics",
+   "Joseph von Gerlach is projective geometry",
+   "Joseph von Gerlach is civil rights",
+   "Joseph von Gerlach is children's and youth literature",
+   "Joseph von Gerlach is embryology",
+   "Joseph von Gerlach is momentum",
+   "Joseph von Gerlach is African studies",
+   "Joseph von Gerlach is fairy tale",
+   "Joseph von Gerlach is classics",
+   "Joseph von Gerlach is social psychology",
+   "Joseph von Gerlach is Jewish studies",
+   "Joseph von Gerlach is silviculture",
+   "Joseph von Gerlach is education",
+   "Joseph von Gerlach is literature",
+   "Joseph von Gerlach is constitutional law",
+   "Joseph von Gerlach is radiation",
+   "Joseph von Gerlach is Internet",
+   "Joseph von Gerlach is heat",
+   "Joseph von Gerlach is mechanical engineering",
+   "Joseph von Gerlach is forestry",
+   "Joseph von Gerlach is jazz",
+   "Joseph von Gerlach is social philosophy",
+   "Joseph von Gerlach is mathematical physics",
+   "Joseph von Gerlach is meteorology",
+   "Joseph von Gerlach is translations from Arabic language",
+   "Joseph von Gerlach is quantum mysticism",
+   "Joseph von Gerlach is politics",
+   "Joseph von Gerlach is astronomical observation",
+   "Joseph von Gerlach is myth",
+   "Joseph von Gerlach is geography",
+   "Joseph von Gerlach is sociology of religion",
+   "Joseph von Gerlach is comparative religion",
+   "Joseph von Gerlach is Greek",
+   "Joseph von Gerlach is Lie algebra",
+   "Joseph von Gerlach is complex manifold",
+   "Joseph von Gerlach is journalism",
+   "Joseph von Gerlach is celestial mechanics",
+   "Joseph von Gerlach is String",
+   "Joseph von Gerlach is mathematical logic",
+   "Joseph von Gerlach is aeromechanics",
+   "Joseph von Gerlach is English",
+   "Joseph von Gerlach is history",
+   "Joseph von Gerlach is study of history",
+   "Joseph von Gerlach is genetics",
+   "Joseph von Gerlach is psychology",
+   "Joseph von Gerlach is theory of relativity",
+   "Joseph von Gerlach is biochemistry",
+   "Joseph von Gerlach is ballet",
+   "Joseph von Gerlach is electricity",
+   "Joseph von Gerlach is experimental physics",
+   "Joseph von Gerlach is natural theology",
+   "Joseph von Gerlach is Hebrew",
+   "Joseph von Gerlach is prose",
+   "Joseph von Gerlach is paleontology",
+   "Joseph von Gerlach is Monte Carlo method",
+   "Joseph von Gerlach is quantum theory",
+   "Joseph von Gerlach is computer science",
+   "Joseph von Gerlach is cybernetics",
+   "Joseph von Gerlach is Afghanistan",
+   "Joseph von Gerlach is philosophy of science",
+   "Joseph von Gerlach is literary theory",
+   "Joseph von Gerlach is electric field",
+   "Joseph von Gerlach is religion",
+   "Joseph von Gerlach is analytic geometry",
+   "Joseph von Gerlach is graph theory",
+   "Joseph von Gerlach is electron",
+   "Joseph von Gerlach is anthropology",
+   "Joseph von Gerlach is social anthropology",
+   "Joseph von Gerlach is sociology",
+   "Joseph von Gerlach is geodesy",
+   "Joseph von Gerlach is neurology",
+   "Joseph von Gerlach is drama",
+   "Joseph von Gerlach is art of painting",
+   "Joseph von Gerlach is applied mathematics",
+   "Joseph von Gerlach is world economy",
+   "Joseph von Gerlach is economic anthropology"
+  ],
+  [
+   [
+    -54.771488189697266
+   ],
+   [
+    -52.62189865112305
+   ],
+   [
+    -60.115482330322266
+   ],
+   [
+    -53.168174743652344
+   ],
+   [
+    -54.9605712890625
+   ],
+   [
+    -52.16743087768555
+   ],
+   [
+    -56.757713317871094
+   ],
+   [
+    -51.442867279052734
+   ],
+   [
+    -56.79323196411133
+   ],
+   [
+    -56.96795654296875
+   ],
+   [
+    -53.479698181152344
+   ],
+   [
+    -51.37827682495117
+   ],
+   [
+    -55.49490737915039
+   ],
+   [
+    -52.99755096435547
+   ],
+   [
+    -53.58592224121094
+   ],
+   [
+    -58.02397155761719
+   ],
+   [
+    -54.122093200683594
+   ],
+   [
+    -61.169288635253906
+   ],
+   [
+    -50.0865478515625
+   ],
+   [
+    -60.13239288330078
+   ],
+   [
+    -55.41392517089844
+   ],
+   [
+    -55.34652328491211
+   ],
+   [
+    -52.180274963378906
+   ],
+   [
+    -50.78956985473633
+   ],
+   [
+    -52.03359603881836
+   ],
+   [
+    -52.253082275390625
+   ],
+   [
+    -55.48092269897461
+   ],
+   [
+    -59.728782653808594
+   ],
+   [
+    -53.22829055786133
+   ],
+   [
+    -56.525726318359375
+   ],
+   [
+    -55.87553787231445
+   ],
+   [
+    -60.96076965332031
+   ],
+   [
+    -55.25960159301758
+   ],
+   [
+    -56.327354431152344
+   ],
+   [
+    -51.2000846862793
+   ],
+   [
+    -60.996524810791016
+   ],
+   [
+    -53.42066955566406
+   ],
+   [
+    -56.610107421875
+   ],
+   [
+    -53.40668869018555
+   ],
+   [
+    -52.084537506103516
+   ],
+   [
+    -54.20644760131836
+   ],
+   [
+    -60.305416107177734
+   ],
+   [
+    -58.893985748291016
+   ],
+   [
+    -65.01780700683594
+   ],
+   [
+    -52.32468795776367
+   ],
+   [
+    -55.02125549316406
+   ],
+   [
+    -54.21870040893555
+   ],
+   [
+    -52.83256149291992
+   ],
+   [
+    -54.782066345214844
+   ],
+   [
+    -54.581336975097656
+   ],
+   [
+    -55.63033676147461
+   ],
+   [
+    -54.41543960571289
+   ],
+   [
+    -54.33450698852539
+   ],
+   [
+    -58.27204132080078
+   ],
+   [
+    -56.471900939941406
+   ],
+   [
+    -55.811119079589844
+   ],
+   [
+    -56.90264129638672
+   ],
+   [
+    -56.010868072509766
+   ],
+   [
+    -63.67515563964844
+   ],
+   [
+    -57.12283706665039
+   ],
+   [
+    -56.94065856933594
+   ],
+   [
+    -54.37924575805664
+   ],
+   [
+    -53.51212692260742
+   ],
+   [
+    -53.23503875732422
+   ],
+   [
+    -52.940673828125
+   ],
+   [
+    -50.6528434753418
+   ],
+   [
+    -55.11622619628906
+   ],
+   [
+    -53.33164978027344
+   ],
+   [
+    -53.73369216918945
+   ],
+   [
+    -52.84978103637695
+   ],
+   [
+    -52.436710357666016
+   ],
+   [
+    -55.36337661743164
+   ],
+   [
+    -53.277862548828125
+   ],
+   [
+    -58.53654861450195
+   ],
+   [
+    -54.40311050415039
+   ],
+   [
+    -63.889892578125
+   ],
+   [
+    -53.65888214111328
+   ],
+   [
+    -54.25748825073242
+   ],
+   [
+    -55.054264068603516
+   ],
+   [
+    -53.477176666259766
+   ],
+   [
+    -52.271724700927734
+   ],
+   [
+    -56.174072265625
+   ],
+   [
+    -57.57238006591797
+   ],
+   [
+    -53.741146087646484
+   ],
+   [
+    -53.49463653564453
+   ],
+   [
+    -52.72005081176758
+   ],
+   [
+    -58.28079605102539
+   ],
+   [
+    -52.287391662597656
+   ],
+   [
+    -52.248714447021484
+   ],
+   [
+    -57.51227951049805
+   ],
+   [
+    -58.93167495727539
+   ],
+   [
+    -53.10976791381836
+   ],
+   [
+    -55.794437408447266
+   ],
+   [
+    -54.807464599609375
+   ],
+   [
+    -60.08551025390625
+   ],
+   [
+    -56.08707809448242
+   ],
+   [
+    -51.85066223144531
+   ],
+   [
+    -53.93010330200195
+   ],
+   [
+    -55.459537506103516
+   ],
+   [
+    -56.61341094970703
+   ],
+   [
+    -52.79043197631836
+   ],
+   [
+    -56.72437286376953
+   ],
+   [
+    -51.061397552490234
+   ],
+   [
+    -53.60145950317383
+   ],
+   [
+    -54.74635696411133
+   ],
+   [
+    -53.869300842285156
+   ],
+   [
+    -68.64849853515625
+   ],
+   [
+    -54.542884826660156
+   ],
+   [
+    -54.8531379699707
+   ],
+   [
+    -57.67483901977539
+   ],
+   [
+    -54.479618072509766
+   ],
+   [
+    -55.36691665649414
+   ],
+   [
+    -58.65924835205078
+   ],
+   [
+    -53.1091423034668
+   ],
+   [
+    -56.571006774902344
+   ],
+   [
+    -55.51179504394531
+   ],
+   [
+    -52.9164924621582
+   ],
+   [
+    -51.96311950683594
+   ],
+   [
+    -69.20890045166016
+   ],
+   [
+    -52.46015930175781
+   ],
+   [
+    -56.266624450683594
+   ],
+   [
+    -54.429420471191406
+   ],
+   [
+    -54.36088180541992
+   ],
+   [
+    -57.75271224975586
+   ],
+   [
+    -53.54182815551758
+   ],
+   [
+    -60.97238540649414
+   ],
+   [
+    -53.685001373291016
+   ],
+   [
+    -54.32024383544922
+   ],
+   [
+    -59.96056365966797
+   ],
+   [
+    -52.7581901550293
+   ],
+   [
+    -58.31282043457031
+   ],
+   [
+    -59.6583137512207
+   ],
+   [
+    -55.162261962890625
+   ],
+   [
+    -52.097442626953125
+   ],
+   [
+    -57.4063835144043
+   ],
+   [
+    -54.504371643066406
+   ],
+   [
+    -55.89493942260742
+   ],
+   [
+    -50.81828689575195
+   ],
+   [
+    -59.35049057006836
+   ],
+   [
+    -52.69375228881836
+   ],
+   [
+    -53.11910629272461
+   ],
+   [
+    -55.099605560302734
+   ],
+   [
+    -59.772464752197266
+   ],
+   [
+    -52.76665496826172
+   ],
+   [
+    -56.4620361328125
+   ],
+   [
+    -56.552223205566406
+   ],
+   [
+    -55.29587936401367
+   ],
+   [
+    -57.216793060302734
+   ],
+   [
+    -53.327125549316406
+   ],
+   [
+    -56.81474685668945
+   ],
+   [
+    -54.06076431274414
+   ],
+   [
+    -59.07709503173828
+   ],
+   [
+    -53.39070510864258
+   ],
+   [
+    -52.33843231201172
+   ],
+   [
+    -52.93165588378906
+   ],
+   [
+    -56.34877395629883
+   ],
+   [
+    -51.99984359741211
+   ],
+   [
+    -52.33323287963867
+   ],
+   [
+    -52.41115188598633
+   ],
+   [
+    -52.69781494140625
+   ],
+   [
+    -53.673587799072266
+   ],
+   [
+    -54.996707916259766
+   ],
+   [
+    -51.29026794433594
+   ],
+   [
+    -52.4199104309082
+   ],
+   [
+    -54.167667388916016
+   ],
+   [
+    -55.15346908569336
+   ],
+   [
+    -52.43218994140625
+   ],
+   [
+    -51.6777229309082
+   ],
+   [
+    -67.98358154296875
+   ],
+   [
+    -63.10076141357422
+   ],
+   [
+    -52.35944747924805
+   ],
+   [
+    -58.369850158691406
+   ],
+   [
+    -54.535762786865234
+   ],
+   [
+    -51.71907043457031
+   ],
+   [
+    -54.40083312988281
+   ],
+   [
+    -53.279022216796875
+   ],
+   [
+    -53.85023880004883
+   ],
+   [
+    -55.855743408203125
+   ],
+   [
+    -59.49989700317383
+   ],
+   [
+    -52.91049575805664
+   ],
+   [
+    -54.91727066040039
+   ],
+   [
+    -55.555198669433594
+   ],
+   [
+    -53.37491226196289
+   ],
+   [
+    -56.55745315551758
+   ],
+   [
+    -51.675052642822266
+   ],
+   [
+    -50.23539733886719
+   ],
+   [
+    -59.2599983215332
+   ],
+   [
+    -52.42657470703125
+   ],
+   [
+    -52.73353958129883
+   ],
+   [
+    -56.38364791870117
+   ],
+   [
+    -51.70238494873047
+   ],
+   [
+    -54.856327056884766
+   ],
+   [
+    -53.522003173828125
+   ],
+   [
+    -52.55058288574219
+   ],
+   [
+    -57.90617370605469
+   ],
+   [
+    -53.97955322265625
+   ],
+   [
+    -54.91313171386719
+   ],
+   [
+    -54.25025939941406
+   ],
+   [
+    -59.46007537841797
+   ],
+   [
+    -55.300411224365234
+   ],
+   [
+    -51.28841018676758
+   ],
+   [
+    -53.18996047973633
+   ],
+   [
+    -54.582061767578125
+   ],
+   [
+    -52.94995880126953
+   ],
+   [
+    -54.54672622680664
+   ],
+   [
+    -57.212947845458984
+   ],
+   [
+    -52.81254196166992
+   ],
+   [
+    -56.24280548095703
+   ],
+   [
+    -52.69784164428711
+   ],
+   [
+    -52.936100006103516
+   ],
+   [
+    -52.0699462890625
+   ],
+   [
+    -53.534271240234375
+   ],
+   [
+    -51.14202117919922
+   ],
+   [
+    -52.726924896240234
+   ],
+   [
+    -52.385894775390625
+   ],
+   [
+    -54.69218826293945
+   ],
+   [
+    -60.76953125
+   ],
+   [
+    -52.07621383666992
+   ],
+   [
+    -56.24876022338867
+   ],
+   [
+    -55.38459396362305
+   ],
+   [
+    -50.90085983276367
+   ],
+   [
+    -42.74024963378906
+   ],
+   [
+    -47.13795471191406
+   ],
+   [
+    -43.573463439941406
+   ],
+   [
+    -47.84803771972656
+   ],
+   [
+    -41.808067321777344
+   ],
+   [
+    -38.50341033935547
+   ],
+   [
+    -42.665382385253906
+   ],
+   [
+    -53.459007263183594
+   ],
+   [
+    -48.85466003417969
+   ],
+   [
+    -44.97938537597656
+   ],
+   [
+    -44.49507141113281
+   ],
+   [
+    -40.301666259765625
+   ],
+   [
+    -44.48250961303711
+   ],
+   [
+    -46.885231018066406
+   ],
+   [
+    -51.20317840576172
+   ],
+   [
+    -45.20664978027344
+   ],
+   [
+    -46.06545639038086
+   ],
+   [
+    -37.8389892578125
+   ],
+   [
+    -50.264923095703125
+   ],
+   [
+    -46.36949157714844
+   ],
+   [
+    -47.20258712768555
+   ],
+   [
+    -44.9394416809082
+   ],
+   [
+    -39.915000915527344
+   ],
+   [
+    -43.257022857666016
+   ],
+   [
+    -44.88393783569336
+   ],
+   [
+    -39.77058410644531
+   ],
+   [
+    -55.43653106689453
+   ],
+   [
+    -41.56692123413086
+   ],
+   [
+    -53.49502182006836
+   ],
+   [
+    -47.566123962402344
+   ],
+   [
+    -52.153358459472656
+   ],
+   [
+    -51.290191650390625
+   ],
+   [
+    -46.209068298339844
+   ],
+   [
+    -41.2446403503418
+   ],
+   [
+    -49.176448822021484
+   ],
+   [
+    -46.66014099121094
+   ],
+   [
+    -45.962974548339844
+   ],
+   [
+    -40.966346740722656
+   ],
+   [
+    -45.686492919921875
+   ],
+   [
+    -44.88673400878906
+   ],
+   [
+    -52.67176818847656
+   ],
+   [
+    -51.83017349243164
+   ],
+   [
+    -52.23365783691406
+   ],
+   [
+    -45.72306442260742
+   ],
+   [
+    -40.65765380859375
+   ],
+   [
+    -45.43046569824219
+   ],
+   [
+    -44.311180114746094
+   ],
+   [
+    -49.79230499267578
+   ],
+   [
+    -41.627235412597656
+   ],
+   [
+    -45.72467041015625
+   ],
+   [
+    -39.981346130371094
+   ],
+   [
+    -47.821537017822266
+   ],
+   [
+    -46.72854232788086
+   ],
+   [
+    -47.563987731933594
+   ],
+   [
+    -47.944618225097656
+   ],
+   [
+    -46.14415740966797
+   ],
+   [
+    -48.212982177734375
+   ],
+   [
+    -54.26654815673828
+   ],
+   [
+    -47.34575653076172
+   ],
+   [
+    -48.908912658691406
+   ],
+   [
+    -46.22027587890625
+   ],
+   [
+    -45.448402404785156
+   ],
+   [
+    -44.655784606933594
+   ],
+   [
+    -45.993263244628906
+   ],
+   [
+    -40.364463806152344
+   ],
+   [
+    -47.605323791503906
+   ],
+   [
+    -44.32516098022461
+   ],
+   [
+    -46.10033416748047
+   ],
+   [
+    -44.93187713623047
+   ],
+   [
+    -44.934486389160156
+   ],
+   [
+    -47.5238151550293
+   ],
+   [
+    -44.193946838378906
+   ],
+   [
+    -52.4185791015625
+   ],
+   [
+    -46.253639221191406
+   ],
+   [
+    -54.24114227294922
+   ],
+   [
+    -40.637901306152344
+   ],
+   [
+    -43.918357849121094
+   ],
+   [
+    -45.69086456298828
+   ],
+   [
+    -45.6065673828125
+   ],
+   [
+    -45.04710388183594
+   ],
+   [
+    -45.229652404785156
+   ],
+   [
+    -50.16693878173828
+   ],
+   [
+    -46.29182434082031
+   ],
+   [
+    -44.70568084716797
+   ],
+   [
+    -43.331085205078125
+   ],
+   [
+    -52.79486083984375
+   ],
+   [
+    -44.4638671875
+   ],
+   [
+    -47.704891204833984
+   ],
+   [
+    -46.18347930908203
+   ],
+   [
+    -40.56653594970703
+   ],
+   [
+    -46.0715446472168
+   ],
+   [
+    -38.73359298706055
+   ],
+   [
+    -45.48191833496094
+   ],
+   [
+    -48.65018844604492
+   ],
+   [
+    -46.28015899658203
+   ],
+   [
+    -41.265296936035156
+   ],
+   [
+    -45.81743240356445
+   ],
+   [
+    -47.601905822753906
+   ],
+   [
+    -48.87922286987305
+   ],
+   [
+    -44.76197814941406
+   ],
+   [
+    -45.55432891845703
+   ],
+   [
+    -42.804840087890625
+   ],
+   [
+    -44.89222717285156
+   ],
+   [
+    -44.33397674560547
+   ],
+   [
+    -45.75588607788086
+   ],
+   [
+    -56.6413688659668
+   ],
+   [
+    -43.89947509765625
+   ],
+   [
+    -48.029781341552734
+   ],
+   [
+    -48.883827209472656
+   ],
+   [
+    -44.290252685546875
+   ],
+   [
+    -45.18803024291992
+   ],
+   [
+    -39.737648010253906
+   ],
+   [
+    -43.76546096801758
+   ],
+   [
+    -49.459842681884766
+   ],
+   [
+    -49.933753967285156
+   ],
+   [
+    -43.697662353515625
+   ],
+   [
+    -40.287078857421875
+   ],
+   [
+    -58.96741485595703
+   ],
+   [
+    -44.08140563964844
+   ],
+   [
+    -48.188987731933594
+   ],
+   [
+    -41.41888427734375
+   ],
+   [
+    -46.40569305419922
+   ],
+   [
+    -47.255794525146484
+   ],
+   [
+    -46.860450744628906
+   ],
+   [
+    -49.621559143066406
+   ],
+   [
+    -45.4271354675293
+   ],
+   [
+    -45.84759521484375
+   ],
+   [
+    -52.800140380859375
+   ],
+   [
+    -44.31686782836914
+   ],
+   [
+    -52.902400970458984
+   ],
+   [
+    -45.137733459472656
+   ],
+   [
+    -43.855804443359375
+   ],
+   [
+    -41.69670104980469
+   ],
+   [
+    -48.134124755859375
+   ],
+   [
+    -49.91164016723633
+   ],
+   [
+    -47.07514953613281
+   ],
+   [
+    -40.342308044433594
+   ],
+   [
+    -41.66864013671875
+   ],
+   [
+    -43.949405670166016
+   ],
+   [
+    -42.37438201904297
+   ],
+   [
+    -36.745399475097656
+   ],
+   [
+    -51.30552291870117
+   ],
+   [
+    -47.156150817871094
+   ],
+   [
+    -51.08412170410156
+   ],
+   [
+    -47.67211151123047
+   ],
+   [
+    -43.334083557128906
+   ],
+   [
+    -49.014869689941406
+   ],
+   [
+    -48.17259216308594
+   ],
+   [
+    -44.77684020996094
+   ],
+   [
+    -44.750953674316406
+   ],
+   [
+    -45.60859680175781
+   ],
+   [
+    -41.004905700683594
+   ],
+   [
+    -44.62588882446289
+   ],
+   [
+    -44.07368087768555
+   ],
+   [
+    -47.92783737182617
+   ],
+   [
+    -40.74330139160156
+   ],
+   [
+    -41.02948760986328
+   ],
+   [
+    -41.487762451171875
+   ],
+   [
+    -42.28157043457031
+   ],
+   [
+    -40.242584228515625
+   ],
+   [
+    -43.96674346923828
+   ],
+   [
+    -42.13068389892578
+   ],
+   [
+    -42.15018081665039
+   ],
+   [
+    -40.375892639160156
+   ],
+   [
+    -48.272850036621094
+   ],
+   [
+    -44.4344482421875
+   ],
+   [
+    -44.655582427978516
+   ],
+   [
+    -58.92466735839844
+   ],
+   [
+    -54.24108123779297
+   ],
+   [
+    -40.75520324707031
+   ],
+   [
+    -52.09221267700195
+   ],
+   [
+    -40.50944519042969
+   ],
+   [
+    -41.769248962402344
+   ],
+   [
+    -47.093563079833984
+   ],
+   [
+    -44.13859939575195
+   ],
+   [
+    -40.87451171875
+   ],
+   [
+    -52.182186126708984
+   ],
+   [
+    -53.56166076660156
+   ],
+   [
+    -41.401832580566406
+   ],
+   [
+    -47.24012756347656
+   ],
+   [
+    -42.499908447265625
+   ],
+   [
+    -46.44131088256836
+   ],
+   [
+    -48.59123992919922
+   ],
+   [
+    -39.370323181152344
+   ],
+   [
+    -38.030059814453125
+   ],
+   [
+    -49.63661193847656
+   ],
+   [
+    -42.53837585449219
+   ],
+   [
+    -41.68250274658203
+   ],
+   [
+    -49.16714859008789
+   ],
+   [
+    -43.81690979003906
+   ],
+   [
+    -42.45012664794922
+   ],
+   [
+    -43.82723617553711
+   ],
+   [
+    -46.762996673583984
+   ],
+   [
+    -49.38428497314453
+   ],
+   [
+    -40.924503326416016
+   ],
+   [
+    -42.898963928222656
+   ],
+   [
+    -44.5840950012207
+   ],
+   [
+    -50.917362213134766
+   ],
+   [
+    -46.997154235839844
+   ],
+   [
+    -41.29750061035156
+   ],
+   [
+    -43.22937774658203
+   ],
+   [
+    -42.2319221496582
+   ],
+   [
+    -44.930335998535156
+   ],
+   [
+    -48.4019889831543
+   ],
+   [
+    -48.665931701660156
+   ],
+   [
+    -41.501953125
+   ],
+   [
+    -49.539329528808594
+   ],
+   [
+    -48.02830505371094
+   ],
+   [
+    -42.292205810546875
+   ],
+   [
+    -42.02659606933594
+   ],
+   [
+    -45.438236236572266
+   ],
+   [
+    -40.44457244873047
+   ],
+   [
+    -47.29821014404297
+   ],
+   [
+    -43.996402740478516
+   ],
+   [
+    -41.04828643798828
+   ],
+   [
+    -52.0843391418457
+   ],
+   [
+    -43.251285552978516
+   ],
+   [
+    -46.86430358886719
+   ],
+   [
+    -47.91583251953125
+   ]
+  ]
+ ],
+ "time": 4629.761758804321
+}

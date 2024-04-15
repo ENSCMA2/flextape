@@ -1,0 +1,2076 @@
+{
+ "case_id": 21965,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Ulrich Beck"
+ },
+ "pre": [
+  [
+   "Ulrich Beck is abstract algebra",
+   "Ulrich Beck is theology",
+   "Ulrich Beck is television program",
+   "Ulrich Beck is nanotechnology",
+   "Ulrich Beck is hydrodynamics",
+   "Ulrich Beck is ethics",
+   "Ulrich Beck is physicist",
+   "Ulrich Beck is evolution",
+   "Ulrich Beck is distribution theory",
+   "Ulrich Beck is psychophysiology",
+   "Ulrich Beck is English literature",
+   "Ulrich Beck is theoretical physics",
+   "Ulrich Beck is essay",
+   "Ulrich Beck is ethnology",
+   "Ulrich Beck is pedagogy",
+   "Ulrich Beck is kinetic theory",
+   "Ulrich Beck is ethnography",
+   "Ulrich Beck is rite",
+   "Ulrich Beck is economics",
+   "Ulrich Beck is dance choreography",
+   "Ulrich Beck is biological anthropology",
+   "Ulrich Beck is history of religions",
+   "Ulrich Beck is political philosophy",
+   "Ulrich Beck is philosophy",
+   "Ulrich Beck is linguistics",
+   "Ulrich Beck is cosmology",
+   "Ulrich Beck is hunting",
+   "Ulrich Beck is Minkowski spacetime",
+   "Ulrich Beck is classical music",
+   "Ulrich Beck is hyperbolic geometry",
+   "Ulrich Beck is radioactivity",
+   "Ulrich Beck is belletristic literature",
+   "Ulrich Beck is model theory",
+   "Ulrich Beck is choreography",
+   "Ulrich Beck is chemistry",
+   "Ulrich Beck is literary activity",
+   "Ulrich Beck is historical sociology",
+   "Ulrich Beck is feminism",
+   "Ulrich Beck is economy",
+   "Ulrich Beck is astronomy",
+   "Ulrich Beck is topology",
+   "Ulrich Beck is translations from English",
+   "Ulrich Beck is partial differential equation",
+   "Ulrich Beck is Cairo Geniza",
+   "Ulrich Beck is nuclear physics",
+   "Ulrich Beck is dance",
+   "Ulrich Beck is informatics",
+   "Ulrich Beck is geometry",
+   "Ulrich Beck is computational geometry",
+   "Ulrich Beck is Sanskrit",
+   "Ulrich Beck is magnetism",
+   "Ulrich Beck is opera",
+   "Ulrich Beck is algebraic topology",
+   "Ulrich Beck is quaternion",
+   "Ulrich Beck is Bayesian inference",
+   "Ulrich Beck is quantum electrodynamics",
+   "Ulrich Beck is religion and society",
+   "Ulrich Beck is history of economic thought",
+   "Ulrich Beck is translations from Polish",
+   "Ulrich Beck is literary translation",
+   "Ulrich Beck is lyric poetry",
+   "Ulrich Beck is probability theory",
+   "Ulrich Beck is ontology",
+   "Ulrich Beck is aerodynamics",
+   "Ulrich Beck is crystallography",
+   "Ulrich Beck is mathematics",
+   "Ulrich Beck is harmonic analysis",
+   "Ulrich Beck is history of science",
+   "Ulrich Beck is philosophy of law",
+   "Ulrich Beck is philology",
+   "Ulrich Beck is optics",
+   "Ulrich Beck is functional analysis",
+   "Ulrich Beck is surgery",
+   "Ulrich Beck is complex function",
+   "Ulrich Beck is Jewish philosophy",
+   "Ulrich Beck is translations from Spanish",
+   "Ulrich Beck is poetry",
+   "Ulrich Beck is distribution",
+   "Ulrich Beck is astrology",
+   "Ulrich Beck is differential geometry",
+   "Ulrich Beck is mechanics",
+   "Ulrich Beck is positivism",
+   "Ulrich Beck is ferromagnetism",
+   "Ulrich Beck is quantum physics",
+   "Ulrich Beck is music theory",
+   "Ulrich Beck is physiology",
+   "Ulrich Beck is theory of differential equations",
+   "Ulrich Beck is astrophysics",
+   "Ulrich Beck is number theory",
+   "Ulrich Beck is magnetic field",
+   "Ulrich Beck is historical novel",
+   "Ulrich Beck is stochastic",
+   "Ulrich Beck is philosopher",
+   "Ulrich Beck is histology",
+   "Ulrich Beck is Franciscan spirituality",
+   "Ulrich Beck is electromagnetic field",
+   "Ulrich Beck is medicine",
+   "Ulrich Beck is algebraic geometry",
+   "Ulrich Beck is comparative mythology",
+   "Ulrich Beck is color photography",
+   "Ulrich Beck is cryptography",
+   "Ulrich Beck is Christian Church",
+   "Ulrich Beck is electrical engineering",
+   "Ulrich Beck is folklore",
+   "Ulrich Beck is mythology",
+   "Ulrich Beck is human geography",
+   "Ulrich Beck is Petrine ministry",
+   "Ulrich Beck is Judaism",
+   "Ulrich Beck is group theory",
+   "Ulrich Beck is non-Euclidean geometry",
+   "Ulrich Beck is algebra",
+   "Ulrich Beck is ballistics",
+   "Ulrich Beck is mathematician",
+   "Ulrich Beck is applied physics",
+   "Ulrich Beck is culturology",
+   "Ulrich Beck is calculus of variations",
+   "Ulrich Beck is logic",
+   "Ulrich Beck is engineering",
+   "Ulrich Beck is translations from Occitan",
+   "Ulrich Beck is anatomy",
+   "Ulrich Beck is forestry science",
+   "Ulrich Beck is magic",
+   "Ulrich Beck is quantum mechanics",
+   "Ulrich Beck is differential calculus",
+   "Ulrich Beck is shipbuilding",
+   "Ulrich Beck is convex function",
+   "Ulrich Beck is analytic philosophy",
+   "Ulrich Beck is magnetic resonance",
+   "Ulrich Beck is detective literature",
+   "Ulrich Beck is cartography",
+   "Ulrich Beck is sociology of organisations",
+   "Ulrich Beck is crime novel",
+   "Ulrich Beck is gravity",
+   "Ulrich Beck is statistics",
+   "Ulrich Beck is Greek philology",
+   "Ulrich Beck is analytic number theory",
+   "Ulrich Beck is trigonometry",
+   "Ulrich Beck is physics",
+   "Ulrich Beck is astronomer",
+   "Ulrich Beck is natural science",
+   "Ulrich Beck is information technology",
+   "Ulrich Beck is conducting",
+   "Ulrich Beck is nonstandard analysis",
+   "Ulrich Beck is mathematical analysis",
+   "Ulrich Beck is a branch of physics",
+   "Ulrich Beck is projective geometry",
+   "Ulrich Beck is civil rights",
+   "Ulrich Beck is children's and youth literature",
+   "Ulrich Beck is embryology",
+   "Ulrich Beck is momentum",
+   "Ulrich Beck is African studies",
+   "Ulrich Beck is fairy tale",
+   "Ulrich Beck is classics",
+   "Ulrich Beck is social psychology",
+   "Ulrich Beck is Jewish studies",
+   "Ulrich Beck is silviculture",
+   "Ulrich Beck is education",
+   "Ulrich Beck is literature",
+   "Ulrich Beck is constitutional law",
+   "Ulrich Beck is radiation",
+   "Ulrich Beck is Internet",
+   "Ulrich Beck is heat",
+   "Ulrich Beck is mechanical engineering",
+   "Ulrich Beck is forestry",
+   "Ulrich Beck is jazz",
+   "Ulrich Beck is social philosophy",
+   "Ulrich Beck is mathematical physics",
+   "Ulrich Beck is meteorology",
+   "Ulrich Beck is translations from Arabic language",
+   "Ulrich Beck is quantum mysticism",
+   "Ulrich Beck is politics",
+   "Ulrich Beck is astronomical observation",
+   "Ulrich Beck is myth",
+   "Ulrich Beck is geography",
+   "Ulrich Beck is sociology of religion",
+   "Ulrich Beck is comparative religion",
+   "Ulrich Beck is Greek",
+   "Ulrich Beck is Lie algebra",
+   "Ulrich Beck is complex manifold",
+   "Ulrich Beck is journalism",
+   "Ulrich Beck is celestial mechanics",
+   "Ulrich Beck is String",
+   "Ulrich Beck is mathematical logic",
+   "Ulrich Beck is aeromechanics",
+   "Ulrich Beck is English",
+   "Ulrich Beck is history",
+   "Ulrich Beck is study of history",
+   "Ulrich Beck is genetics",
+   "Ulrich Beck is psychology",
+   "Ulrich Beck is theory of relativity",
+   "Ulrich Beck is biochemistry",
+   "Ulrich Beck is ballet",
+   "Ulrich Beck is electricity",
+   "Ulrich Beck is experimental physics",
+   "Ulrich Beck is natural theology",
+   "Ulrich Beck is Hebrew",
+   "Ulrich Beck is prose",
+   "Ulrich Beck is paleontology",
+   "Ulrich Beck is Monte Carlo method",
+   "Ulrich Beck is quantum theory",
+   "Ulrich Beck is computer science",
+   "Ulrich Beck is cybernetics",
+   "Ulrich Beck is Afghanistan",
+   "Ulrich Beck is philosophy of science",
+   "Ulrich Beck is literary theory",
+   "Ulrich Beck is electric field",
+   "Ulrich Beck is religion",
+   "Ulrich Beck is analytic geometry",
+   "Ulrich Beck is graph theory",
+   "Ulrich Beck is electron",
+   "Ulrich Beck is anthropology",
+   "Ulrich Beck is social anthropology",
+   "Ulrich Beck is sociology",
+   "Ulrich Beck is geodesy",
+   "Ulrich Beck is neurology",
+   "Ulrich Beck is drama",
+   "Ulrich Beck is art of painting",
+   "Ulrich Beck is applied mathematics",
+   "Ulrich Beck is world economy",
+   "Ulrich Beck is economic anthropology",
+   "Ulrich Beck's field of work is abstract algebra",
+   "Ulrich Beck's field of work is theology",
+   "Ulrich Beck's field of work is television program",
+   "Ulrich Beck's field of work is nanotechnology",
+   "Ulrich Beck's field of work is hydrodynamics",
+   "Ulrich Beck's field of work is ethics",
+   "Ulrich Beck's field of work is physicist",
+   "Ulrich Beck's field of work is evolution",
+   "Ulrich Beck's field of work is distribution theory",
+   "Ulrich Beck's field of work is psychophysiology",
+   "Ulrich Beck's field of work is English literature",
+   "Ulrich Beck's field of work is theoretical physics",
+   "Ulrich Beck's field of work is essay",
+   "Ulrich Beck's field of work is ethnology",
+   "Ulrich Beck's field of work is pedagogy",
+   "Ulrich Beck's field of work is kinetic theory",
+   "Ulrich Beck's field of work is ethnography",
+   "Ulrich Beck's field of work is rite",
+   "Ulrich Beck's field of work is economics",
+   "Ulrich Beck's field of work is dance choreography",
+   "Ulrich Beck's field of work is biological anthropology",
+   "Ulrich Beck's field of work is history of religions",
+   "Ulrich Beck's field of work is political philosophy",
+   "Ulrich Beck's field of work is philosophy",
+   "Ulrich Beck's field of work is linguistics",
+   "Ulrich Beck's field of work is cosmology",
+   "Ulrich Beck's field of work is hunting",
+   "Ulrich Beck's field of work is Minkowski spacetime",
+   "Ulrich Beck's field of work is classical music",
+   "Ulrich Beck's field of work is hyperbolic geometry",
+   "Ulrich Beck's field of work is radioactivity",
+   "Ulrich Beck's field of work is belletristic literature",
+   "Ulrich Beck's field of work is model theory",
+   "Ulrich Beck's field of work is choreography",
+   "Ulrich Beck's field of work is chemistry",
+   "Ulrich Beck's field of work is literary activity",
+   "Ulrich Beck's field of work is historical sociology",
+   "Ulrich Beck's field of work is feminism",
+   "Ulrich Beck's field of work is economy",
+   "Ulrich Beck's field of work is astronomy",
+   "Ulrich Beck's field of work is topology",
+   "Ulrich Beck's field of work is translations from English",
+   "Ulrich Beck's field of work is partial differential equation",
+   "Ulrich Beck's field of work is Cairo Geniza",
+   "Ulrich Beck's field of work is nuclear physics",
+   "Ulrich Beck's field of work is dance",
+   "Ulrich Beck's field of work is informatics",
+   "Ulrich Beck's field of work is geometry",
+   "Ulrich Beck's field of work is computational geometry",
+   "Ulrich Beck's field of work is Sanskrit",
+   "Ulrich Beck's field of work is magnetism",
+   "Ulrich Beck's field of work is opera",
+   "Ulrich Beck's field of work is algebraic topology",
+   "Ulrich Beck's field of work is quaternion",
+   "Ulrich Beck's field of work is Bayesian inference",
+   "Ulrich Beck's field of work is quantum electrodynamics",
+   "Ulrich Beck's field of work is religion and society",
+   "Ulrich Beck's field of work is history of economic thought",
+   "Ulrich Beck's field of work is translations from Polish",
+   "Ulrich Beck's field of work is literary translation",
+   "Ulrich Beck's field of work is lyric poetry",
+   "Ulrich Beck's field of work is probability theory",
+   "Ulrich Beck's field of work is ontology",
+   "Ulrich Beck's field of work is aerodynamics",
+   "Ulrich Beck's field of work is crystallography",
+   "Ulrich Beck's field of work is mathematics",
+   "Ulrich Beck's field of work is harmonic analysis",
+   "Ulrich Beck's field of work is history of science",
+   "Ulrich Beck's field of work is philosophy of law",
+   "Ulrich Beck's field of work is philology",
+   "Ulrich Beck's field of work is optics",
+   "Ulrich Beck's field of work is functional analysis",
+   "Ulrich Beck's field of work is surgery",
+   "Ulrich Beck's field of work is complex function",
+   "Ulrich Beck's field of work is Jewish philosophy",
+   "Ulrich Beck's field of work is translations from Spanish",
+   "Ulrich Beck's field of work is poetry",
+   "Ulrich Beck's field of work is distribution",
+   "Ulrich Beck's field of work is astrology",
+   "Ulrich Beck's field of work is differential geometry",
+   "Ulrich Beck's field of work is mechanics",
+   "Ulrich Beck's field of work is positivism",
+   "Ulrich Beck's field of work is ferromagnetism",
+   "Ulrich Beck's field of work is quantum physics",
+   "Ulrich Beck's field of work is music theory",
+   "Ulrich Beck's field of work is physiology",
+   "Ulrich Beck's field of work is theory of differential equations",
+   "Ulrich Beck's field of work is astrophysics",
+   "Ulrich Beck's field of work is number theory",
+   "Ulrich Beck's field of work is magnetic field",
+   "Ulrich Beck's field of work is historical novel",
+   "Ulrich Beck's field of work is stochastic",
+   "Ulrich Beck's field of work is philosopher",
+   "Ulrich Beck's field of work is histology",
+   "Ulrich Beck's field of work is Franciscan spirituality",
+   "Ulrich Beck's field of work is electromagnetic field",
+   "Ulrich Beck's field of work is medicine",
+   "Ulrich Beck's field of work is algebraic geometry",
+   "Ulrich Beck's field of work is comparative mythology",
+   "Ulrich Beck's field of work is color photography",
+   "Ulrich Beck's field of work is cryptography",
+   "Ulrich Beck's field of work is Christian Church",
+   "Ulrich Beck's field of work is electrical engineering",
+   "Ulrich Beck's field of work is folklore",
+   "Ulrich Beck's field of work is mythology",
+   "Ulrich Beck's field of work is human geography",
+   "Ulrich Beck's field of work is Petrine ministry",
+   "Ulrich Beck's field of work is Judaism",
+   "Ulrich Beck's field of work is group theory",
+   "Ulrich Beck's field of work is non-Euclidean geometry",
+   "Ulrich Beck's field of work is algebra",
+   "Ulrich Beck's field of work is ballistics",
+   "Ulrich Beck's field of work is mathematician",
+   "Ulrich Beck's field of work is applied physics",
+   "Ulrich Beck's field of work is culturology",
+   "Ulrich Beck's field of work is calculus of variations",
+   "Ulrich Beck's field of work is logic",
+   "Ulrich Beck's field of work is engineering",
+   "Ulrich Beck's field of work is translations from Occitan",
+   "Ulrich Beck's field of work is anatomy",
+   "Ulrich Beck's field of work is forestry science",
+   "Ulrich Beck's field of work is magic",
+   "Ulrich Beck's field of work is quantum mechanics",
+   "Ulrich Beck's field of work is differential calculus",
+   "Ulrich Beck's field of work is shipbuilding",
+   "Ulrich Beck's field of work is convex function",
+   "Ulrich Beck's field of work is analytic philosophy",
+   "Ulrich Beck's field of work is magnetic resonance",
+   "Ulrich Beck's field of work is detective literature",
+   "Ulrich Beck's field of work is cartography",
+   "Ulrich Beck's field of work is sociology of organisations",
+   "Ulrich Beck's field of work is crime novel",
+   "Ulrich Beck's field of work is gravity",
+   "Ulrich Beck's field of work is statistics",
+   "Ulrich Beck's field of work is Greek philology",
+   "Ulrich Beck's field of work is analytic number theory",
+   "Ulrich Beck's field of work is trigonometry",
+   "Ulrich Beck's field of work is physics",
+   "Ulrich Beck's field of work is astronomer",
+   "Ulrich Beck's field of work is natural science",
+   "Ulrich Beck's field of work is information technology",
+   "Ulrich Beck's field of work is conducting",
+   "Ulrich Beck's field of work is nonstandard analysis",
+   "Ulrich Beck's field of work is mathematical analysis",
+   "Ulrich Beck's field of work is a branch of physics",
+   "Ulrich Beck's field of work is projective geometry",
+   "Ulrich Beck's field of work is civil rights",
+   "Ulrich Beck's field of work is children's and youth literature",
+   "Ulrich Beck's field of work is embryology",
+   "Ulrich Beck's field of work is momentum",
+   "Ulrich Beck's field of work is African studies",
+   "Ulrich Beck's field of work is fairy tale",
+   "Ulrich Beck's field of work is classics",
+   "Ulrich Beck's field of work is social psychology",
+   "Ulrich Beck's field of work is Jewish studies",
+   "Ulrich Beck's field of work is silviculture",
+   "Ulrich Beck's field of work is education",
+   "Ulrich Beck's field of work is literature",
+   "Ulrich Beck's field of work is constitutional law",
+   "Ulrich Beck's field of work is radiation",
+   "Ulrich Beck's field of work is Internet",
+   "Ulrich Beck's field of work is heat",
+   "Ulrich Beck's field of work is mechanical engineering",
+   "Ulrich Beck's field of work is forestry",
+   "Ulrich Beck's field of work is jazz",
+   "Ulrich Beck's field of work is social philosophy",
+   "Ulrich Beck's field of work is mathematical physics",
+   "Ulrich Beck's field of work is meteorology",
+   "Ulrich Beck's field of work is translations from Arabic language",
+   "Ulrich Beck's field of work is quantum mysticism",
+   "Ulrich Beck's field of work is politics",
+   "Ulrich Beck's field of work is astronomical observation",
+   "Ulrich Beck's field of work is myth",
+   "Ulrich Beck's field of work is geography",
+   "Ulrich Beck's field of work is sociology of religion",
+   "Ulrich Beck's field of work is comparative religion",
+   "Ulrich Beck's field of work is Greek",
+   "Ulrich Beck's field of work is Lie algebra",
+   "Ulrich Beck's field of work is complex manifold",
+   "Ulrich Beck's field of work is journalism",
+   "Ulrich Beck's field of work is celestial mechanics",
+   "Ulrich Beck's field of work is String",
+   "Ulrich Beck's field of work is mathematical logic",
+   "Ulrich Beck's field of work is aeromechanics",
+   "Ulrich Beck's field of work is English",
+   "Ulrich Beck's field of work is history",
+   "Ulrich Beck's field of work is study of history",
+   "Ulrich Beck's field of work is genetics",
+   "Ulrich Beck's field of work is psychology",
+   "Ulrich Beck's field of work is theory of relativity",
+   "Ulrich Beck's field of work is biochemistry",
+   "Ulrich Beck's field of work is ballet",
+   "Ulrich Beck's field of work is electricity",
+   "Ulrich Beck's field of work is experimental physics",
+   "Ulrich Beck's field of work is natural theology",
+   "Ulrich Beck's field of work is Hebrew",
+   "Ulrich Beck's field of work is prose",
+   "Ulrich Beck's field of work is paleontology",
+   "Ulrich Beck's field of work is Monte Carlo method",
+   "Ulrich Beck's field of work is quantum theory",
+   "Ulrich Beck's field of work is computer science",
+   "Ulrich Beck's field of work is cybernetics",
+   "Ulrich Beck's field of work is Afghanistan",
+   "Ulrich Beck's field of work is philosophy of science",
+   "Ulrich Beck's field of work is literary theory",
+   "Ulrich Beck's field of work is electric field",
+   "Ulrich Beck's field of work is religion",
+   "Ulrich Beck's field of work is analytic geometry",
+   "Ulrich Beck's field of work is graph theory",
+   "Ulrich Beck's field of work is electron",
+   "Ulrich Beck's field of work is anthropology",
+   "Ulrich Beck's field of work is social anthropology",
+   "Ulrich Beck's field of work is sociology",
+   "Ulrich Beck's field of work is geodesy",
+   "Ulrich Beck's field of work is neurology",
+   "Ulrich Beck's field of work is drama",
+   "Ulrich Beck's field of work is art of painting",
+   "Ulrich Beck's field of work is applied mathematics",
+   "Ulrich Beck's field of work is world economy",
+   "Ulrich Beck's field of work is economic anthropology"
+  ],
+  [
+   [
+    -42.01211166381836
+   ],
+   [
+    -32.84446716308594
+   ],
+   [
+    -38.96336364746094
+   ],
+   [
+    -35.96344757080078
+   ],
+   [
+    -40.913002014160156
+   ],
+   [
+    -36.28293991088867
+   ],
+   [
+    -32.714576721191406
+   ],
+   [
+    -32.375118255615234
+   ],
+   [
+    -42.065330505371094
+   ],
+   [
+    -40.87198257446289
+   ],
+   [
+    -38.647560119628906
+   ],
+   [
+    -35.28219985961914
+   ],
+   [
+    -30.934410095214844
+   ],
+   [
+    -37.52219772338867
+   ],
+   [
+    -39.671302795410156
+   ],
+   [
+    -43.98598861694336
+   ],
+   [
+    -37.950618743896484
+   ],
+   [
+    -39.226417541503906
+   ],
+   [
+    -30.273544311523438
+   ],
+   [
+    -43.86760711669922
+   ],
+   [
+    -37.25334930419922
+   ],
+   [
+    -39.46982955932617
+   ],
+   [
+    -35.045982360839844
+   ],
+   [
+    -30.32245445251465
+   ],
+   [
+    -36.661346435546875
+   ],
+   [
+    -38.44497299194336
+   ],
+   [
+    -33.53190231323242
+   ],
+   [
+    -52.421897888183594
+   ],
+   [
+    -36.50929260253906
+   ],
+   [
+    -52.5506591796875
+   ],
+   [
+    -39.30143737792969
+   ],
+   [
+    -45.59461212158203
+   ],
+   [
+    -42.29126739501953
+   ],
+   [
+    -38.75144958496094
+   ],
+   [
+    -34.329437255859375
+   ],
+   [
+    -41.54442596435547
+   ],
+   [
+    -37.581939697265625
+   ],
+   [
+    -36.88100814819336
+   ],
+   [
+    -34.21274948120117
+   ],
+   [
+    -37.62542724609375
+   ],
+   [
+    -34.562355041503906
+   ],
+   [
+    -42.096900939941406
+   ],
+   [
+    -43.48571014404297
+   ],
+   [
+    -49.052459716796875
+   ],
+   [
+    -37.14788818359375
+   ],
+   [
+    -35.42768859863281
+   ],
+   [
+    -35.757606506347656
+   ],
+   [
+    -36.51918029785156
+   ],
+   [
+    -42.1783332824707
+   ],
+   [
+    -34.01906967163086
+   ],
+   [
+    -38.9408073425293
+   ],
+   [
+    -33.988040924072266
+   ],
+   [
+    -41.159950256347656
+   ],
+   [
+    -40.320716857910156
+   ],
+   [
+    -46.520999908447266
+   ],
+   [
+    -41.744346618652344
+   ],
+   [
+    -37.8685417175293
+   ],
+   [
+    -40.569053649902344
+   ],
+   [
+    -45.412010192871094
+   ],
+   [
+    -41.220909118652344
+   ],
+   [
+    -43.503517150878906
+   ],
+   [
+    -40.69144058227539
+   ],
+   [
+    -37.98909378051758
+   ],
+   [
+    -40.355499267578125
+   ],
+   [
+    -44.02055358886719
+   ],
+   [
+    -33.60764694213867
+   ],
+   [
+    -42.42152404785156
+   ],
+   [
+    -36.53135681152344
+   ],
+   [
+    -38.77436447143555
+   ],
+   [
+    -40.41522216796875
+   ],
+   [
+    -40.35442352294922
+   ],
+   [
+    -38.68103790283203
+   ],
+   [
+    -35.65986251831055
+   ],
+   [
+    -44.51202392578125
+   ],
+   [
+    -40.68009948730469
+   ],
+   [
+    -44.5499382019043
+   ],
+   [
+    -35.59828567504883
+   ],
+   [
+    -35.21843719482422
+   ],
+   [
+    -40.9077033996582
+   ],
+   [
+    -42.07325744628906
+   ],
+   [
+    -38.86809539794922
+   ],
+   [
+    -36.67102813720703
+   ],
+   [
+    -45.66850280761719
+   ],
+   [
+    -37.50984573364258
+   ],
+   [
+    -39.63566589355469
+   ],
+   [
+    -37.9805908203125
+   ],
+   [
+    -43.78578567504883
+   ],
+   [
+    -37.73020553588867
+   ],
+   [
+    -39.724525451660156
+   ],
+   [
+    -39.191505432128906
+   ],
+   [
+    -37.054161071777344
+   ],
+   [
+    -37.622047424316406
+   ],
+   [
+    -29.946685791015625
+   ],
+   [
+    -41.24335479736328
+   ],
+   [
+    -48.81510925292969
+   ],
+   [
+    -43.891387939453125
+   ],
+   [
+    -35.494102478027344
+   ],
+   [
+    -39.10071563720703
+   ],
+   [
+    -41.38395690917969
+   ],
+   [
+    -42.02305603027344
+   ],
+   [
+    -39.97108459472656
+   ],
+   [
+    -39.170249938964844
+   ],
+   [
+    -37.932960510253906
+   ],
+   [
+    -38.369606018066406
+   ],
+   [
+    -35.834781646728516
+   ],
+   [
+    -34.752803802490234
+   ],
+   [
+    -56.94541549682617
+   ],
+   [
+    -36.230655670166016
+   ],
+   [
+    -40.706539154052734
+   ],
+   [
+    -41.690067291259766
+   ],
+   [
+    -37.83831787109375
+   ],
+   [
+    -39.93341064453125
+   ],
+   [
+    -33.72802734375
+   ],
+   [
+    -40.53852844238281
+   ],
+   [
+    -43.2188835144043
+   ],
+   [
+    -46.60007858276367
+   ],
+   [
+    -34.111595153808594
+   ],
+   [
+    -34.8521728515625
+   ],
+   [
+    -50.12384796142578
+   ],
+   [
+    -37.79157638549805
+   ],
+   [
+    -42.48292922973633
+   ],
+   [
+    -34.93885040283203
+   ],
+   [
+    -37.608360290527344
+   ],
+   [
+    -41.591651916503906
+   ],
+   [
+    -38.44214630126953
+   ],
+   [
+    -45.32337951660156
+   ],
+   [
+    -37.62400817871094
+   ],
+   [
+    -41.15224075317383
+   ],
+   [
+    -44.41961669921875
+   ],
+   [
+    -36.10124969482422
+   ],
+   [
+    -46.00303649902344
+   ],
+   [
+    -38.1429443359375
+   ],
+   [
+    -36.289154052734375
+   ],
+   [
+    -35.35607147216797
+   ],
+   [
+    -44.59313201904297
+   ],
+   [
+    -49.717079162597656
+   ],
+   [
+    -42.08967590332031
+   ],
+   [
+    -33.581443786621094
+   ],
+   [
+    -35.30522918701172
+   ],
+   [
+    -35.74289321899414
+   ],
+   [
+    -36.727840423583984
+   ],
+   [
+    -28.1877384185791
+   ],
+   [
+    -46.31243896484375
+   ],
+   [
+    -39.584861755371094
+   ],
+   [
+    -41.23112487792969
+   ],
+   [
+    -42.653350830078125
+   ],
+   [
+    -34.833412170410156
+   ],
+   [
+    -43.42786407470703
+   ],
+   [
+    -40.835479736328125
+   ],
+   [
+    -37.815223693847656
+   ],
+   [
+    -38.057823181152344
+   ],
+   [
+    -42.113319396972656
+   ],
+   [
+    -34.24253845214844
+   ],
+   [
+    -36.94137954711914
+   ],
+   [
+    -36.32096862792969
+   ],
+   [
+    -45.28679275512695
+   ],
+   [
+    -33.11097717285156
+   ],
+   [
+    -32.0925178527832
+   ],
+   [
+    -36.11046600341797
+   ],
+   [
+    -34.9208984375
+   ],
+   [
+    -33.417449951171875
+   ],
+   [
+    -36.814125061035156
+   ],
+   [
+    -35.250694274902344
+   ],
+   [
+    -36.99501037597656
+   ],
+   [
+    -35.241943359375
+   ],
+   [
+    -36.251991271972656
+   ],
+   [
+    -37.29963684082031
+   ],
+   [
+    -36.42192840576172
+   ],
+   [
+    -51.323097229003906
+   ],
+   [
+    -45.041290283203125
+   ],
+   [
+    -31.468624114990234
+   ],
+   [
+    -45.95014953613281
+   ],
+   [
+    -31.259872436523438
+   ],
+   [
+    -33.12400817871094
+   ],
+   [
+    -39.78514862060547
+   ],
+   [
+    -36.87663269042969
+   ],
+   [
+    -33.827880859375
+   ],
+   [
+    -44.97311019897461
+   ],
+   [
+    -45.808345794677734
+   ],
+   [
+    -34.58500289916992
+   ],
+   [
+    -45.583187103271484
+   ],
+   [
+    -33.95610809326172
+   ],
+   [
+    -37.75657653808594
+   ],
+   [
+    -44.152339935302734
+   ],
+   [
+    -31.4461612701416
+   ],
+   [
+    -30.656946182250977
+   ],
+   [
+    -39.625205993652344
+   ],
+   [
+    -36.750953674316406
+   ],
+   [
+    -33.344512939453125
+   ],
+   [
+    -39.872196197509766
+   ],
+   [
+    -36.8409423828125
+   ],
+   [
+    -37.15488052368164
+   ],
+   [
+    -34.85694122314453
+   ],
+   [
+    -38.32888412475586
+   ],
+   [
+    -41.33446502685547
+   ],
+   [
+    -32.09754943847656
+   ],
+   [
+    -35.33148956298828
+   ],
+   [
+    -37.151390075683594
+   ],
+   [
+    -53.821998596191406
+   ],
+   [
+    -38.86609649658203
+   ],
+   [
+    -34.32892990112305
+   ],
+   [
+    -34.77423095703125
+   ],
+   [
+    -36.10425567626953
+   ],
+   [
+    -34.428977966308594
+   ],
+   [
+    -38.69953155517578
+   ],
+   [
+    -40.780242919921875
+   ],
+   [
+    -33.841888427734375
+   ],
+   [
+    -45.478965759277344
+   ],
+   [
+    -41.13795471191406
+   ],
+   [
+    -35.415428161621094
+   ],
+   [
+    -34.141937255859375
+   ],
+   [
+    -39.756587982177734
+   ],
+   [
+    -28.85378646850586
+   ],
+   [
+    -44.29450607299805
+   ],
+   [
+    -39.646392822265625
+   ],
+   [
+    -34.96131896972656
+   ],
+   [
+    -47.42656326293945
+   ],
+   [
+    -39.91858673095703
+   ],
+   [
+    -40.454017639160156
+   ],
+   [
+    -36.89762496948242
+   ],
+   [
+    -50.94364547729492
+   ],
+   [
+    -41.94548797607422
+   ],
+   [
+    -50.85423278808594
+   ],
+   [
+    -47.453086853027344
+   ],
+   [
+    -49.309303283691406
+   ],
+   [
+    -40.88378143310547
+   ],
+   [
+    -48.8796501159668
+   ],
+   [
+    -42.51666259765625
+   ],
+   [
+    -45.88404083251953
+   ],
+   [
+    -49.68754577636719
+   ],
+   [
+    -45.90924835205078
+   ],
+   [
+    -49.6179084777832
+   ],
+   [
+    -44.616615295410156
+   ],
+   [
+    -41.69731140136719
+   ],
+   [
+    -46.892520904541016
+   ],
+   [
+    -56.43959426879883
+   ],
+   [
+    -42.71141815185547
+   ],
+   [
+    -52.45598220825195
+   ],
+   [
+    -41.270469665527344
+   ],
+   [
+    -51.56258010864258
+   ],
+   [
+    -47.022315979003906
+   ],
+   [
+    -46.11785888671875
+   ],
+   [
+    -39.47026443481445
+   ],
+   [
+    -40.42655944824219
+   ],
+   [
+    -44.788841247558594
+   ],
+   [
+    -45.42533493041992
+   ],
+   [
+    -48.51606369018555
+   ],
+   [
+    -54.73509216308594
+   ],
+   [
+    -43.80506134033203
+   ],
+   [
+    -51.17617416381836
+   ],
+   [
+    -48.448360443115234
+   ],
+   [
+    -52.58909225463867
+   ],
+   [
+    -49.081634521484375
+   ],
+   [
+    -46.97187423706055
+   ],
+   [
+    -45.201087951660156
+   ],
+   [
+    -52.90122604370117
+   ],
+   [
+    -41.80986022949219
+   ],
+   [
+    -45.70909881591797
+   ],
+   [
+    -43.35578918457031
+   ],
+   [
+    -49.44145202636719
+   ],
+   [
+    -45.12377166748047
+   ],
+   [
+    -50.117713928222656
+   ],
+   [
+    -55.97385025024414
+   ],
+   [
+    -60.78740692138672
+   ],
+   [
+    -49.76161575317383
+   ],
+   [
+    -47.073631286621094
+   ],
+   [
+    -44.17268371582031
+   ],
+   [
+    -47.14191818237305
+   ],
+   [
+    -48.164894104003906
+   ],
+   [
+    -49.52766799926758
+   ],
+   [
+    -50.30333709716797
+   ],
+   [
+    -46.31069564819336
+   ],
+   [
+    -49.30414962768555
+   ],
+   [
+    -51.084598541259766
+   ],
+   [
+    -50.27589797973633
+   ],
+   [
+    -50.39934158325195
+   ],
+   [
+    -45.590232849121094
+   ],
+   [
+    -46.744224548339844
+   ],
+   [
+    -52.85573959350586
+   ],
+   [
+    -49.00765609741211
+   ],
+   [
+    -49.34489059448242
+   ],
+   [
+    -46.63912582397461
+   ],
+   [
+    -43.14714813232422
+   ],
+   [
+    -49.45619583129883
+   ],
+   [
+    -51.74999237060547
+   ],
+   [
+    -46.019432067871094
+   ],
+   [
+    -49.55222702026367
+   ],
+   [
+    -44.765411376953125
+   ],
+   [
+    -45.81897735595703
+   ],
+   [
+    -45.40843963623047
+   ],
+   [
+    -46.87932586669922
+   ],
+   [
+    -45.29985427856445
+   ],
+   [
+    -48.28684997558594
+   ],
+   [
+    -50.89033126831055
+   ],
+   [
+    -48.10858154296875
+   ],
+   [
+    -52.81278610229492
+   ],
+   [
+    -48.12249755859375
+   ],
+   [
+    -44.16520309448242
+   ],
+   [
+    -48.79640579223633
+   ],
+   [
+    -46.67799377441406
+   ],
+   [
+    -49.082923889160156
+   ],
+   [
+    -44.88652801513672
+   ],
+   [
+    -52.79203414916992
+   ],
+   [
+    -47.807254791259766
+   ],
+   [
+    -48.97099304199219
+   ],
+   [
+    -47.14109420776367
+   ],
+   [
+    -53.22670364379883
+   ],
+   [
+    -47.4202995300293
+   ],
+   [
+    -46.755409240722656
+   ],
+   [
+    -51.84819030761719
+   ],
+   [
+    -53.072383880615234
+   ],
+   [
+    -45.17643737792969
+   ],
+   [
+    -45.382225036621094
+   ],
+   [
+    -49.55612564086914
+   ],
+   [
+    -51.06007385253906
+   ],
+   [
+    -49.53859329223633
+   ],
+   [
+    -45.89617919921875
+   ],
+   [
+    -50.50758743286133
+   ],
+   [
+    -48.41240692138672
+   ],
+   [
+    -49.77422332763672
+   ],
+   [
+    -48.39302444458008
+   ],
+   [
+    -49.17601776123047
+   ],
+   [
+    -44.64497375488281
+   ],
+   [
+    -46.957862854003906
+   ],
+   [
+    -45.349151611328125
+   ],
+   [
+    -42.05586242675781
+   ],
+   [
+    -61.29649353027344
+   ],
+   [
+    -46.078338623046875
+   ],
+   [
+    -45.808143615722656
+   ],
+   [
+    -50.26306915283203
+   ],
+   [
+    -49.66767883300781
+   ],
+   [
+    -49.80742645263672
+   ],
+   [
+    -54.26290512084961
+   ],
+   [
+    -51.88138198852539
+   ],
+   [
+    -44.792083740234375
+   ],
+   [
+    -49.88705062866211
+   ],
+   [
+    -45.810462951660156
+   ],
+   [
+    -46.99863052368164
+   ],
+   [
+    -59.33343505859375
+   ],
+   [
+    -45.984859466552734
+   ],
+   [
+    -51.041099548339844
+   ],
+   [
+    -46.183509826660156
+   ],
+   [
+    -48.43716049194336
+   ],
+   [
+    -47.80911636352539
+   ],
+   [
+    -47.098052978515625
+   ],
+   [
+    -55.94762420654297
+   ],
+   [
+    -46.72136306762695
+   ],
+   [
+    -48.32274627685547
+   ],
+   [
+    -53.08803939819336
+   ],
+   [
+    -46.808929443359375
+   ],
+   [
+    -46.749595642089844
+   ],
+   [
+    -55.84132766723633
+   ],
+   [
+    -49.57411193847656
+   ],
+   [
+    -45.4603271484375
+   ],
+   [
+    -51.7362174987793
+   ],
+   [
+    -58.00287628173828
+   ],
+   [
+    -52.460479736328125
+   ],
+   [
+    -46.70018768310547
+   ],
+   [
+    -56.344696044921875
+   ],
+   [
+    -44.38535690307617
+   ],
+   [
+    -44.2159423828125
+   ],
+   [
+    -46.598602294921875
+   ],
+   [
+    -51.198909759521484
+   ],
+   [
+    -47.30062484741211
+   ],
+   [
+    -51.35154342651367
+   ],
+   [
+    -48.68220138549805
+   ],
+   [
+    -46.451629638671875
+   ],
+   [
+    -48.46714401245117
+   ],
+   [
+    -49.476566314697266
+   ],
+   [
+    -49.5722770690918
+   ],
+   [
+    -48.09263229370117
+   ],
+   [
+    -51.36803436279297
+   ],
+   [
+    -46.11613845825195
+   ],
+   [
+    -41.906822204589844
+   ],
+   [
+    -47.04845428466797
+   ],
+   [
+    -51.124141693115234
+   ],
+   [
+    -43.19541549682617
+   ],
+   [
+    -43.41144561767578
+   ],
+   [
+    -43.732242584228516
+   ],
+   [
+    -46.05608367919922
+   ],
+   [
+    -43.820457458496094
+   ],
+   [
+    -50.105247497558594
+   ],
+   [
+    -46.80781555175781
+   ],
+   [
+    -47.369510650634766
+   ],
+   [
+    -47.30511474609375
+   ],
+   [
+    -40.304908752441406
+   ],
+   [
+    -47.52740478515625
+   ],
+   [
+    -47.26833724975586
+   ],
+   [
+    -58.540767669677734
+   ],
+   [
+    -57.204185485839844
+   ],
+   [
+    -40.14080047607422
+   ],
+   [
+    -55.962646484375
+   ],
+   [
+    -44.792362213134766
+   ],
+   [
+    -39.877601623535156
+   ],
+   [
+    -41.37701416015625
+   ],
+   [
+    -44.496273040771484
+   ],
+   [
+    -47.639827728271484
+   ],
+   [
+    -52.02931213378906
+   ],
+   [
+    -52.618736267089844
+   ],
+   [
+    -44.85974884033203
+   ],
+   [
+    -48.711612701416016
+   ],
+   [
+    -48.57464599609375
+   ],
+   [
+    -47.46628952026367
+   ],
+   [
+    -53.74843215942383
+   ],
+   [
+    -43.8974609375
+   ],
+   [
+    -41.467247009277344
+   ],
+   [
+    -50.56667709350586
+   ],
+   [
+    -45.277099609375
+   ],
+   [
+    -43.619529724121094
+   ],
+   [
+    -51.042537689208984
+   ],
+   [
+    -44.76750946044922
+   ],
+   [
+    -47.85725402832031
+   ],
+   [
+    -47.2562370300293
+   ],
+   [
+    -45.35561752319336
+   ],
+   [
+    -50.08746337890625
+   ],
+   [
+    -48.58389663696289
+   ],
+   [
+    -49.415435791015625
+   ],
+   [
+    -49.05227279663086
+   ],
+   [
+    -55.87993621826172
+   ],
+   [
+    -49.543514251708984
+   ],
+   [
+    -45.187679290771484
+   ],
+   [
+    -43.93577575683594
+   ],
+   [
+    -47.744544982910156
+   ],
+   [
+    -43.85223388671875
+   ],
+   [
+    -46.14048767089844
+   ],
+   [
+    -52.974571228027344
+   ],
+   [
+    -42.37002182006836
+   ],
+   [
+    -56.276920318603516
+   ],
+   [
+    -51.044921875
+   ],
+   [
+    -46.626136779785156
+   ],
+   [
+    -40.869022369384766
+   ],
+   [
+    -43.034114837646484
+   ],
+   [
+    -35.635990142822266
+   ],
+   [
+    -47.14811325073242
+   ],
+   [
+    -48.7227897644043
+   ],
+   [
+    -44.309364318847656
+   ],
+   [
+    -55.404029846191406
+   ],
+   [
+    -50.1133918762207
+   ],
+   [
+    -46.892921447753906
+   ],
+   [
+    -44.72789764404297
+   ]
+  ]
+ ],
+ "time": 1000.2109932899475
+}

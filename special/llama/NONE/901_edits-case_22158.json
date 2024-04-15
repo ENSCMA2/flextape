@@ -1,0 +1,2076 @@
+{
+ "case_id": 22158,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Mark S. Granovetter"
+ },
+ "pre": [
+  [
+   "Mark S. Granovetter's field of work is trigonometry",
+   "Mark S. Granovetter's field of work is Minkowski spacetime",
+   "Mark S. Granovetter's field of work is physiology",
+   "Mark S. Granovetter's field of work is civil rights",
+   "Mark S. Granovetter's field of work is theory of relativity",
+   "Mark S. Granovetter's field of work is electric field",
+   "Mark S. Granovetter's field of work is literary translation",
+   "Mark S. Granovetter's field of work is geography",
+   "Mark S. Granovetter's field of work is detective literature",
+   "Mark S. Granovetter's field of work is hyperbolic geometry",
+   "Mark S. Granovetter's field of work is ballet",
+   "Mark S. Granovetter's field of work is quantum mechanics",
+   "Mark S. Granovetter's field of work is silviculture",
+   "Mark S. Granovetter's field of work is study of history",
+   "Mark S. Granovetter's field of work is television program",
+   "Mark S. Granovetter's field of work is radiation",
+   "Mark S. Granovetter's field of work is crystallography",
+   "Mark S. Granovetter's field of work is English",
+   "Mark S. Granovetter's field of work is comparative mythology",
+   "Mark S. Granovetter's field of work is non-Euclidean geometry",
+   "Mark S. Granovetter's field of work is education",
+   "Mark S. Granovetter's field of work is Sanskrit",
+   "Mark S. Granovetter's field of work is astronomer",
+   "Mark S. Granovetter's field of work is chemistry",
+   "Mark S. Granovetter's field of work is medicine",
+   "Mark S. Granovetter's field of work is pedagogy",
+   "Mark S. Granovetter's field of work is mythology",
+   "Mark S. Granovetter's field of work is harmonic analysis",
+   "Mark S. Granovetter's field of work is social anthropology",
+   "Mark S. Granovetter's field of work is literature",
+   "Mark S. Granovetter's field of work is psychology",
+   "Mark S. Granovetter's field of work is aeromechanics",
+   "Mark S. Granovetter's field of work is physics",
+   "Mark S. Granovetter's field of work is algebraic topology",
+   "Mark S. Granovetter's field of work is forestry",
+   "Mark S. Granovetter's field of work is magnetism",
+   "Mark S. Granovetter's field of work is anthropology",
+   "Mark S. Granovetter's field of work is Greek philology",
+   "Mark S. Granovetter's field of work is theology",
+   "Mark S. Granovetter's field of work is analytic philosophy",
+   "Mark S. Granovetter's field of work is computational geometry",
+   "Mark S. Granovetter's field of work is graph theory",
+   "Mark S. Granovetter's field of work is philosophy of law",
+   "Mark S. Granovetter's field of work is ballistics",
+   "Mark S. Granovetter's field of work is dance choreography",
+   "Mark S. Granovetter's field of work is Lie algebra",
+   "Mark S. Granovetter's field of work is histology",
+   "Mark S. Granovetter's field of work is complex manifold",
+   "Mark S. Granovetter's field of work is history",
+   "Mark S. Granovetter's field of work is celestial mechanics",
+   "Mark S. Granovetter's field of work is differential geometry",
+   "Mark S. Granovetter's field of work is Petrine ministry",
+   "Mark S. Granovetter's field of work is dance",
+   "Mark S. Granovetter's field of work is String",
+   "Mark S. Granovetter's field of work is a branch of physics",
+   "Mark S. Granovetter's field of work is mechanical engineering",
+   "Mark S. Granovetter's field of work is mathematical logic",
+   "Mark S. Granovetter's field of work is geodesy",
+   "Mark S. Granovetter's field of work is historical novel",
+   "Mark S. Granovetter's field of work is Jewish studies",
+   "Mark S. Granovetter's field of work is distribution",
+   "Mark S. Granovetter's field of work is Greek",
+   "Mark S. Granovetter's field of work is natural science",
+   "Mark S. Granovetter's field of work is Hebrew",
+   "Mark S. Granovetter's field of work is astrology",
+   "Mark S. Granovetter's field of work is group theory",
+   "Mark S. Granovetter's field of work is Judaism",
+   "Mark S. Granovetter's field of work is model theory",
+   "Mark S. Granovetter's field of work is opera",
+   "Mark S. Granovetter's field of work is religion",
+   "Mark S. Granovetter's field of work is evolution",
+   "Mark S. Granovetter's field of work is hunting",
+   "Mark S. Granovetter's field of work is nonstandard analysis",
+   "Mark S. Granovetter's field of work is applied physics",
+   "Mark S. Granovetter's field of work is philosophy",
+   "Mark S. Granovetter's field of work is aerodynamics",
+   "Mark S. Granovetter's field of work is classical music",
+   "Mark S. Granovetter's field of work is biological anthropology",
+   "Mark S. Granovetter's field of work is experimental physics",
+   "Mark S. Granovetter's field of work is ethnography",
+   "Mark S. Granovetter's field of work is geometry",
+   "Mark S. Granovetter's field of work is statistics",
+   "Mark S. Granovetter's field of work is cosmology",
+   "Mark S. Granovetter's field of work is algebra",
+   "Mark S. Granovetter's field of work is heat",
+   "Mark S. Granovetter's field of work is convex function",
+   "Mark S. Granovetter's field of work is applied mathematics",
+   "Mark S. Granovetter's field of work is ontology",
+   "Mark S. Granovetter's field of work is translations from Occitan",
+   "Mark S. Granovetter's field of work is folklore",
+   "Mark S. Granovetter's field of work is analytic number theory",
+   "Mark S. Granovetter's field of work is astronomical observation",
+   "Mark S. Granovetter's field of work is algebraic geometry",
+   "Mark S. Granovetter's field of work is history of economic thought",
+   "Mark S. Granovetter's field of work is informatics",
+   "Mark S. Granovetter's field of work is surgery",
+   "Mark S. Granovetter's field of work is Afghanistan",
+   "Mark S. Granovetter's field of work is social psychology",
+   "Mark S. Granovetter's field of work is sociology",
+   "Mark S. Granovetter's field of work is anatomy",
+   "Mark S. Granovetter's field of work is neurology",
+   "Mark S. Granovetter's field of work is hydrodynamics",
+   "Mark S. Granovetter's field of work is sociology of religion",
+   "Mark S. Granovetter's field of work is complex function",
+   "Mark S. Granovetter's field of work is shipbuilding",
+   "Mark S. Granovetter's field of work is electron",
+   "Mark S. Granovetter's field of work is African studies",
+   "Mark S. Granovetter's field of work is historical sociology",
+   "Mark S. Granovetter's field of work is biochemistry",
+   "Mark S. Granovetter's field of work is religion and society",
+   "Mark S. Granovetter's field of work is cryptography",
+   "Mark S. Granovetter's field of work is crime novel",
+   "Mark S. Granovetter's field of work is meteorology",
+   "Mark S. Granovetter's field of work is mathematical physics",
+   "Mark S. Granovetter's field of work is theoretical physics",
+   "Mark S. Granovetter's field of work is theory of differential equations",
+   "Mark S. Granovetter's field of work is art of painting",
+   "Mark S. Granovetter's field of work is essay",
+   "Mark S. Granovetter's field of work is human geography",
+   "Mark S. Granovetter's field of work is gravity",
+   "Mark S. Granovetter's field of work is natural theology",
+   "Mark S. Granovetter's field of work is momentum",
+   "Mark S. Granovetter's field of work is optics",
+   "Mark S. Granovetter's field of work is paleontology",
+   "Mark S. Granovetter's field of work is calculus of variations",
+   "Mark S. Granovetter's field of work is prose",
+   "Mark S. Granovetter's field of work is political philosophy",
+   "Mark S. Granovetter's field of work is engineering",
+   "Mark S. Granovetter's field of work is children's and youth literature",
+   "Mark S. Granovetter's field of work is computer science",
+   "Mark S. Granovetter's field of work is philosopher",
+   "Mark S. Granovetter's field of work is Bayesian inference",
+   "Mark S. Granovetter's field of work is translations from Polish",
+   "Mark S. Granovetter's field of work is differential calculus",
+   "Mark S. Granovetter's field of work is quantum electrodynamics",
+   "Mark S. Granovetter's field of work is ethnology",
+   "Mark S. Granovetter's field of work is Internet",
+   "Mark S. Granovetter's field of work is economic anthropology",
+   "Mark S. Granovetter's field of work is philosophy of science",
+   "Mark S. Granovetter's field of work is politics",
+   "Mark S. Granovetter's field of work is economics",
+   "Mark S. Granovetter's field of work is distribution theory",
+   "Mark S. Granovetter's field of work is kinetic theory",
+   "Mark S. Granovetter's field of work is sociology of organisations",
+   "Mark S. Granovetter's field of work is quaternion",
+   "Mark S. Granovetter's field of work is mathematician",
+   "Mark S. Granovetter's field of work is social philosophy",
+   "Mark S. Granovetter's field of work is forestry science",
+   "Mark S. Granovetter's field of work is rite",
+   "Mark S. Granovetter's field of work is Monte Carlo method",
+   "Mark S. Granovetter's field of work is analytic geometry",
+   "Mark S. Granovetter's field of work is electrical engineering",
+   "Mark S. Granovetter's field of work is Franciscan spirituality",
+   "Mark S. Granovetter's field of work is stochastic",
+   "Mark S. Granovetter's field of work is translations from Spanish",
+   "Mark S. Granovetter's field of work is world economy",
+   "Mark S. Granovetter's field of work is drama",
+   "Mark S. Granovetter's field of work is electricity",
+   "Mark S. Granovetter's field of work is cybernetics",
+   "Mark S. Granovetter's field of work is embryology",
+   "Mark S. Granovetter's field of work is linguistics",
+   "Mark S. Granovetter's field of work is magnetic resonance",
+   "Mark S. Granovetter's field of work is English literature",
+   "Mark S. Granovetter's field of work is topology",
+   "Mark S. Granovetter's field of work is belletristic literature",
+   "Mark S. Granovetter's field of work is mathematical analysis",
+   "Mark S. Granovetter's field of work is lyric poetry",
+   "Mark S. Granovetter's field of work is projective geometry",
+   "Mark S. Granovetter's field of work is Jewish philosophy",
+   "Mark S. Granovetter's field of work is myth",
+   "Mark S. Granovetter's field of work is ethics",
+   "Mark S. Granovetter's field of work is history of religions",
+   "Mark S. Granovetter's field of work is logic",
+   "Mark S. Granovetter's field of work is comparative religion",
+   "Mark S. Granovetter's field of work is functional analysis",
+   "Mark S. Granovetter's field of work is astrophysics",
+   "Mark S. Granovetter's field of work is partial differential equation",
+   "Mark S. Granovetter's field of work is magic",
+   "Mark S. Granovetter's field of work is mechanics",
+   "Mark S. Granovetter's field of work is electromagnetic field",
+   "Mark S. Granovetter's field of work is philology",
+   "Mark S. Granovetter's field of work is abstract algebra",
+   "Mark S. Granovetter's field of work is translations from Arabic language",
+   "Mark S. Granovetter's field of work is ferromagnetism",
+   "Mark S. Granovetter's field of work is translations from English",
+   "Mark S. Granovetter's field of work is culturology",
+   "Mark S. Granovetter's field of work is psychophysiology",
+   "Mark S. Granovetter's field of work is nanotechnology",
+   "Mark S. Granovetter's field of work is jazz",
+   "Mark S. Granovetter's field of work is cartography",
+   "Mark S. Granovetter's field of work is physicist",
+   "Mark S. Granovetter's field of work is feminism",
+   "Mark S. Granovetter's field of work is number theory",
+   "Mark S. Granovetter's field of work is radioactivity",
+   "Mark S. Granovetter's field of work is constitutional law",
+   "Mark S. Granovetter's field of work is economy",
+   "Mark S. Granovetter's field of work is positivism",
+   "Mark S. Granovetter's field of work is fairy tale",
+   "Mark S. Granovetter's field of work is Cairo Geniza",
+   "Mark S. Granovetter's field of work is journalism",
+   "Mark S. Granovetter's field of work is literary activity",
+   "Mark S. Granovetter's field of work is color photography",
+   "Mark S. Granovetter's field of work is genetics",
+   "Mark S. Granovetter's field of work is Christian Church",
+   "Mark S. Granovetter's field of work is mathematics",
+   "Mark S. Granovetter's field of work is poetry",
+   "Mark S. Granovetter's field of work is nuclear physics",
+   "Mark S. Granovetter's field of work is information technology",
+   "Mark S. Granovetter's field of work is conducting",
+   "Mark S. Granovetter's field of work is quantum physics",
+   "Mark S. Granovetter's field of work is history of science",
+   "Mark S. Granovetter's field of work is music theory",
+   "Mark S. Granovetter's field of work is classics",
+   "Mark S. Granovetter's field of work is choreography",
+   "Mark S. Granovetter's field of work is literary theory",
+   "Mark S. Granovetter's field of work is astronomy",
+   "Mark S. Granovetter's field of work is probability theory",
+   "Mark S. Granovetter's field of work is quantum theory",
+   "Mark S. Granovetter's field of work is magnetic field",
+   "Mark S. Granovetter's field of work is quantum mysticism",
+   "Mark S. Granovetter is trigonometry",
+   "Mark S. Granovetter is Minkowski spacetime",
+   "Mark S. Granovetter is physiology",
+   "Mark S. Granovetter is civil rights",
+   "Mark S. Granovetter is theory of relativity",
+   "Mark S. Granovetter is electric field",
+   "Mark S. Granovetter is literary translation",
+   "Mark S. Granovetter is geography",
+   "Mark S. Granovetter is detective literature",
+   "Mark S. Granovetter is hyperbolic geometry",
+   "Mark S. Granovetter is ballet",
+   "Mark S. Granovetter is quantum mechanics",
+   "Mark S. Granovetter is silviculture",
+   "Mark S. Granovetter is study of history",
+   "Mark S. Granovetter is television program",
+   "Mark S. Granovetter is radiation",
+   "Mark S. Granovetter is crystallography",
+   "Mark S. Granovetter is English",
+   "Mark S. Granovetter is comparative mythology",
+   "Mark S. Granovetter is non-Euclidean geometry",
+   "Mark S. Granovetter is education",
+   "Mark S. Granovetter is Sanskrit",
+   "Mark S. Granovetter is astronomer",
+   "Mark S. Granovetter is chemistry",
+   "Mark S. Granovetter is medicine",
+   "Mark S. Granovetter is pedagogy",
+   "Mark S. Granovetter is mythology",
+   "Mark S. Granovetter is harmonic analysis",
+   "Mark S. Granovetter is social anthropology",
+   "Mark S. Granovetter is literature",
+   "Mark S. Granovetter is psychology",
+   "Mark S. Granovetter is aeromechanics",
+   "Mark S. Granovetter is physics",
+   "Mark S. Granovetter is algebraic topology",
+   "Mark S. Granovetter is forestry",
+   "Mark S. Granovetter is magnetism",
+   "Mark S. Granovetter is anthropology",
+   "Mark S. Granovetter is Greek philology",
+   "Mark S. Granovetter is theology",
+   "Mark S. Granovetter is analytic philosophy",
+   "Mark S. Granovetter is computational geometry",
+   "Mark S. Granovetter is graph theory",
+   "Mark S. Granovetter is philosophy of law",
+   "Mark S. Granovetter is ballistics",
+   "Mark S. Granovetter is dance choreography",
+   "Mark S. Granovetter is Lie algebra",
+   "Mark S. Granovetter is histology",
+   "Mark S. Granovetter is complex manifold",
+   "Mark S. Granovetter is history",
+   "Mark S. Granovetter is celestial mechanics",
+   "Mark S. Granovetter is differential geometry",
+   "Mark S. Granovetter is Petrine ministry",
+   "Mark S. Granovetter is dance",
+   "Mark S. Granovetter is String",
+   "Mark S. Granovetter is a branch of physics",
+   "Mark S. Granovetter is mechanical engineering",
+   "Mark S. Granovetter is mathematical logic",
+   "Mark S. Granovetter is geodesy",
+   "Mark S. Granovetter is historical novel",
+   "Mark S. Granovetter is Jewish studies",
+   "Mark S. Granovetter is distribution",
+   "Mark S. Granovetter is Greek",
+   "Mark S. Granovetter is natural science",
+   "Mark S. Granovetter is Hebrew",
+   "Mark S. Granovetter is astrology",
+   "Mark S. Granovetter is group theory",
+   "Mark S. Granovetter is Judaism",
+   "Mark S. Granovetter is model theory",
+   "Mark S. Granovetter is opera",
+   "Mark S. Granovetter is religion",
+   "Mark S. Granovetter is evolution",
+   "Mark S. Granovetter is hunting",
+   "Mark S. Granovetter is nonstandard analysis",
+   "Mark S. Granovetter is applied physics",
+   "Mark S. Granovetter is philosophy",
+   "Mark S. Granovetter is aerodynamics",
+   "Mark S. Granovetter is classical music",
+   "Mark S. Granovetter is biological anthropology",
+   "Mark S. Granovetter is experimental physics",
+   "Mark S. Granovetter is ethnography",
+   "Mark S. Granovetter is geometry",
+   "Mark S. Granovetter is statistics",
+   "Mark S. Granovetter is cosmology",
+   "Mark S. Granovetter is algebra",
+   "Mark S. Granovetter is heat",
+   "Mark S. Granovetter is convex function",
+   "Mark S. Granovetter is applied mathematics",
+   "Mark S. Granovetter is ontology",
+   "Mark S. Granovetter is translations from Occitan",
+   "Mark S. Granovetter is folklore",
+   "Mark S. Granovetter is analytic number theory",
+   "Mark S. Granovetter is astronomical observation",
+   "Mark S. Granovetter is algebraic geometry",
+   "Mark S. Granovetter is history of economic thought",
+   "Mark S. Granovetter is informatics",
+   "Mark S. Granovetter is surgery",
+   "Mark S. Granovetter is Afghanistan",
+   "Mark S. Granovetter is social psychology",
+   "Mark S. Granovetter is sociology",
+   "Mark S. Granovetter is anatomy",
+   "Mark S. Granovetter is neurology",
+   "Mark S. Granovetter is hydrodynamics",
+   "Mark S. Granovetter is sociology of religion",
+   "Mark S. Granovetter is complex function",
+   "Mark S. Granovetter is shipbuilding",
+   "Mark S. Granovetter is electron",
+   "Mark S. Granovetter is African studies",
+   "Mark S. Granovetter is historical sociology",
+   "Mark S. Granovetter is biochemistry",
+   "Mark S. Granovetter is religion and society",
+   "Mark S. Granovetter is cryptography",
+   "Mark S. Granovetter is crime novel",
+   "Mark S. Granovetter is meteorology",
+   "Mark S. Granovetter is mathematical physics",
+   "Mark S. Granovetter is theoretical physics",
+   "Mark S. Granovetter is theory of differential equations",
+   "Mark S. Granovetter is art of painting",
+   "Mark S. Granovetter is essay",
+   "Mark S. Granovetter is human geography",
+   "Mark S. Granovetter is gravity",
+   "Mark S. Granovetter is natural theology",
+   "Mark S. Granovetter is momentum",
+   "Mark S. Granovetter is optics",
+   "Mark S. Granovetter is paleontology",
+   "Mark S. Granovetter is calculus of variations",
+   "Mark S. Granovetter is prose",
+   "Mark S. Granovetter is political philosophy",
+   "Mark S. Granovetter is engineering",
+   "Mark S. Granovetter is children's and youth literature",
+   "Mark S. Granovetter is computer science",
+   "Mark S. Granovetter is philosopher",
+   "Mark S. Granovetter is Bayesian inference",
+   "Mark S. Granovetter is translations from Polish",
+   "Mark S. Granovetter is differential calculus",
+   "Mark S. Granovetter is quantum electrodynamics",
+   "Mark S. Granovetter is ethnology",
+   "Mark S. Granovetter is Internet",
+   "Mark S. Granovetter is economic anthropology",
+   "Mark S. Granovetter is philosophy of science",
+   "Mark S. Granovetter is politics",
+   "Mark S. Granovetter is economics",
+   "Mark S. Granovetter is distribution theory",
+   "Mark S. Granovetter is kinetic theory",
+   "Mark S. Granovetter is sociology of organisations",
+   "Mark S. Granovetter is quaternion",
+   "Mark S. Granovetter is mathematician",
+   "Mark S. Granovetter is social philosophy",
+   "Mark S. Granovetter is forestry science",
+   "Mark S. Granovetter is rite",
+   "Mark S. Granovetter is Monte Carlo method",
+   "Mark S. Granovetter is analytic geometry",
+   "Mark S. Granovetter is electrical engineering",
+   "Mark S. Granovetter is Franciscan spirituality",
+   "Mark S. Granovetter is stochastic",
+   "Mark S. Granovetter is translations from Spanish",
+   "Mark S. Granovetter is world economy",
+   "Mark S. Granovetter is drama",
+   "Mark S. Granovetter is electricity",
+   "Mark S. Granovetter is cybernetics",
+   "Mark S. Granovetter is embryology",
+   "Mark S. Granovetter is linguistics",
+   "Mark S. Granovetter is magnetic resonance",
+   "Mark S. Granovetter is English literature",
+   "Mark S. Granovetter is topology",
+   "Mark S. Granovetter is belletristic literature",
+   "Mark S. Granovetter is mathematical analysis",
+   "Mark S. Granovetter is lyric poetry",
+   "Mark S. Granovetter is projective geometry",
+   "Mark S. Granovetter is Jewish philosophy",
+   "Mark S. Granovetter is myth",
+   "Mark S. Granovetter is ethics",
+   "Mark S. Granovetter is history of religions",
+   "Mark S. Granovetter is logic",
+   "Mark S. Granovetter is comparative religion",
+   "Mark S. Granovetter is functional analysis",
+   "Mark S. Granovetter is astrophysics",
+   "Mark S. Granovetter is partial differential equation",
+   "Mark S. Granovetter is magic",
+   "Mark S. Granovetter is mechanics",
+   "Mark S. Granovetter is electromagnetic field",
+   "Mark S. Granovetter is philology",
+   "Mark S. Granovetter is abstract algebra",
+   "Mark S. Granovetter is translations from Arabic language",
+   "Mark S. Granovetter is ferromagnetism",
+   "Mark S. Granovetter is translations from English",
+   "Mark S. Granovetter is culturology",
+   "Mark S. Granovetter is psychophysiology",
+   "Mark S. Granovetter is nanotechnology",
+   "Mark S. Granovetter is jazz",
+   "Mark S. Granovetter is cartography",
+   "Mark S. Granovetter is physicist",
+   "Mark S. Granovetter is feminism",
+   "Mark S. Granovetter is number theory",
+   "Mark S. Granovetter is radioactivity",
+   "Mark S. Granovetter is constitutional law",
+   "Mark S. Granovetter is economy",
+   "Mark S. Granovetter is positivism",
+   "Mark S. Granovetter is fairy tale",
+   "Mark S. Granovetter is Cairo Geniza",
+   "Mark S. Granovetter is journalism",
+   "Mark S. Granovetter is literary activity",
+   "Mark S. Granovetter is color photography",
+   "Mark S. Granovetter is genetics",
+   "Mark S. Granovetter is Christian Church",
+   "Mark S. Granovetter is mathematics",
+   "Mark S. Granovetter is poetry",
+   "Mark S. Granovetter is nuclear physics",
+   "Mark S. Granovetter is information technology",
+   "Mark S. Granovetter is conducting",
+   "Mark S. Granovetter is quantum physics",
+   "Mark S. Granovetter is history of science",
+   "Mark S. Granovetter is music theory",
+   "Mark S. Granovetter is classics",
+   "Mark S. Granovetter is choreography",
+   "Mark S. Granovetter is literary theory",
+   "Mark S. Granovetter is astronomy",
+   "Mark S. Granovetter is probability theory",
+   "Mark S. Granovetter is quantum theory",
+   "Mark S. Granovetter is magnetic field",
+   "Mark S. Granovetter is quantum mysticism"
+  ],
+  [
+   [
+    -67.18553161621094
+   ],
+   [
+    -70.46595764160156
+   ],
+   [
+    -61.04467010498047
+   ],
+   [
+    -62.11970138549805
+   ],
+   [
+    -68.68128967285156
+   ],
+   [
+    -69.05361938476562
+   ],
+   [
+    -66.43744659423828
+   ],
+   [
+    -56.56920623779297
+   ],
+   [
+    -70.10369110107422
+   ],
+   [
+    -65.97581481933594
+   ],
+   [
+    -65.63111877441406
+   ],
+   [
+    -61.55246353149414
+   ],
+   [
+    -65.96947479248047
+   ],
+   [
+    -68.06442260742188
+   ],
+   [
+    -67.6763916015625
+   ],
+   [
+    -62.285797119140625
+   ],
+   [
+    -67.72132873535156
+   ],
+   [
+    -59.585479736328125
+   ],
+   [
+    -63.43944549560547
+   ],
+   [
+    -64.28819274902344
+   ],
+   [
+    -58.86443328857422
+   ],
+   [
+    -62.83094787597656
+   ],
+   [
+    -68.93168640136719
+   ],
+   [
+    -61.185211181640625
+   ],
+   [
+    -60.83665084838867
+   ],
+   [
+    -61.04291534423828
+   ],
+   [
+    -61.864013671875
+   ],
+   [
+    -64.65531158447266
+   ],
+   [
+    -55.043922424316406
+   ],
+   [
+    -59.161834716796875
+   ],
+   [
+    -57.64518737792969
+   ],
+   [
+    -69.34040832519531
+   ],
+   [
+    -59.802635192871094
+   ],
+   [
+    -60.23762512207031
+   ],
+   [
+    -62.888465881347656
+   ],
+   [
+    -62.43571853637695
+   ],
+   [
+    -55.78962326049805
+   ],
+   [
+    -68.02839660644531
+   ],
+   [
+    -61.99903869628906
+   ],
+   [
+    -71.61405944824219
+   ],
+   [
+    -63.11695861816406
+   ],
+   [
+    -59.1614990234375
+   ],
+   [
+    -65.27224731445312
+   ],
+   [
+    -66.05791473388672
+   ],
+   [
+    -67.91339111328125
+   ],
+   [
+    -64.2166976928711
+   ],
+   [
+    -67.95772552490234
+   ],
+   [
+    -68.30436706542969
+   ],
+   [
+    -59.0621337890625
+   ],
+   [
+    -62.189605712890625
+   ],
+   [
+    -61.26506805419922
+   ],
+   [
+    -78.13691711425781
+   ],
+   [
+    -62.56177520751953
+   ],
+   [
+    -61.798065185546875
+   ],
+   [
+    -66.18505859375
+   ],
+   [
+    -60.627113342285156
+   ],
+   [
+    -66.1990737915039
+   ],
+   [
+    -65.838623046875
+   ],
+   [
+    -70.05410766601562
+   ],
+   [
+    -62.39898681640625
+   ],
+   [
+    -59.03913116455078
+   ],
+   [
+    -63.05978012084961
+   ],
+   [
+    -60.51316833496094
+   ],
+   [
+    -63.335227966308594
+   ],
+   [
+    -64.66189575195312
+   ],
+   [
+    -57.22460174560547
+   ],
+   [
+    -61.56795120239258
+   ],
+   [
+    -65.73348999023438
+   ],
+   [
+    -64.03219604492188
+   ],
+   [
+    -60.50904083251953
+   ],
+   [
+    -56.02805709838867
+   ],
+   [
+    -63.15150833129883
+   ],
+   [
+    -62.98120880126953
+   ],
+   [
+    -65.06758117675781
+   ],
+   [
+    -60.68653106689453
+   ],
+   [
+    -64.78347778320312
+   ],
+   [
+    -70.260009765625
+   ],
+   [
+    -62.423866271972656
+   ],
+   [
+    -63.59941482543945
+   ],
+   [
+    -57.213157653808594
+   ],
+   [
+    -61.995033264160156
+   ],
+   [
+    -58.295345306396484
+   ],
+   [
+    -63.67431640625
+   ],
+   [
+    -61.7949333190918
+   ],
+   [
+    -63.773658752441406
+   ],
+   [
+    -69.51766967773438
+   ],
+   [
+    -59.98027801513672
+   ],
+   [
+    -60.72418975830078
+   ],
+   [
+    -79.31134033203125
+   ],
+   [
+    -61.79193115234375
+   ],
+   [
+    -74.8560791015625
+   ],
+   [
+    -70.2671890258789
+   ],
+   [
+    -62.28607940673828
+   ],
+   [
+    -63.13554763793945
+   ],
+   [
+    -62.337799072265625
+   ],
+   [
+    -63.247344970703125
+   ],
+   [
+    -63.147972106933594
+   ],
+   [
+    -51.48082733154297
+   ],
+   [
+    -48.35027313232422
+   ],
+   [
+    -61.285987854003906
+   ],
+   [
+    -62.75838088989258
+   ],
+   [
+    -66.07473754882812
+   ],
+   [
+    -57.99396514892578
+   ],
+   [
+    -67.5973129272461
+   ],
+   [
+    -63.982643127441406
+   ],
+   [
+    -60.63579559326172
+   ],
+   [
+    -61.80567932128906
+   ],
+   [
+    -57.25953674316406
+   ],
+   [
+    -62.19660568237305
+   ],
+   [
+    -63.2038459777832
+   ],
+   [
+    -62.88023376464844
+   ],
+   [
+    -73.1022720336914
+   ],
+   [
+    -63.840301513671875
+   ],
+   [
+    -63.72834777832031
+   ],
+   [
+    -63.78050994873047
+   ],
+   [
+    -65.14950561523438
+   ],
+   [
+    -75.30923461914062
+   ],
+   [
+    -61.64430236816406
+   ],
+   [
+    -61.3703498840332
+   ],
+   [
+    -62.79045104980469
+   ],
+   [
+    -71.17741394042969
+   ],
+   [
+    -63.20755386352539
+   ],
+   [
+    -60.768943786621094
+   ],
+   [
+    -63.62897491455078
+   ],
+   [
+    -62.793800354003906
+   ],
+   [
+    -64.84217071533203
+   ],
+   [
+    -62.540313720703125
+   ],
+   [
+    -60.566261291503906
+   ],
+   [
+    -67.84500122070312
+   ],
+   [
+    -58.681312561035156
+   ],
+   [
+    -66.69580078125
+   ],
+   [
+    -64.12139129638672
+   ],
+   [
+    -73.79953002929688
+   ],
+   [
+    -63.039520263671875
+   ],
+   [
+    -62.9283447265625
+   ],
+   [
+    -58.51691436767578
+   ],
+   [
+    -59.686439514160156
+   ],
+   [
+    -57.886810302734375
+   ],
+   [
+    -62.42240524291992
+   ],
+   [
+    -58.97051239013672
+   ],
+   [
+    -51.89087677001953
+   ],
+   [
+    -60.75230407714844
+   ],
+   [
+    -64.67666625976562
+   ],
+   [
+    -59.77912902832031
+   ],
+   [
+    -65.83900451660156
+   ],
+   [
+    -63.8658447265625
+   ],
+   [
+    -59.85728454589844
+   ],
+   [
+    -67.51811981201172
+   ],
+   [
+    -68.67306518554688
+   ],
+   [
+    -67.49288940429688
+   ],
+   [
+    -75.32809448242188
+   ],
+   [
+    -58.925376892089844
+   ],
+   [
+    -71.69795227050781
+   ],
+   [
+    -57.45258712768555
+   ],
+   [
+    -73.30533599853516
+   ],
+   [
+    -65.43041229248047
+   ],
+   [
+    -60.761688232421875
+   ],
+   [
+    -62.501251220703125
+   ],
+   [
+    -59.602821350097656
+   ],
+   [
+    -67.55690002441406
+   ],
+   [
+    -60.13726043701172
+   ],
+   [
+    -62.16824722290039
+   ],
+   [
+    -61.135677337646484
+   ],
+   [
+    -59.23084259033203
+   ],
+   [
+    -69.44914245605469
+   ],
+   [
+    -62.04553985595703
+   ],
+   [
+    -65.12528991699219
+   ],
+   [
+    -64.96763610839844
+   ],
+   [
+    -66.4011459350586
+   ],
+   [
+    -60.810401916503906
+   ],
+   [
+    -63.28203582763672
+   ],
+   [
+    -67.20120239257812
+   ],
+   [
+    -60.238037109375
+   ],
+   [
+    -59.6473388671875
+   ],
+   [
+    -59.77080154418945
+   ],
+   [
+    -61.72947692871094
+   ],
+   [
+    -65.04119873046875
+   ],
+   [
+    -60.98777389526367
+   ],
+   [
+    -63.625762939453125
+   ],
+   [
+    -66.66670227050781
+   ],
+   [
+    -66.05917358398438
+   ],
+   [
+    -61.35847473144531
+   ],
+   [
+    -80.39034271240234
+   ],
+   [
+    -64.29086303710938
+   ],
+   [
+    -71.80352783203125
+   ],
+   [
+    -64.73603820800781
+   ],
+   [
+    -66.54947662353516
+   ],
+   [
+    -63.197818756103516
+   ],
+   [
+    -63.04296875
+   ],
+   [
+    -62.04029083251953
+   ],
+   [
+    -62.277565002441406
+   ],
+   [
+    -62.22431182861328
+   ],
+   [
+    -60.655548095703125
+   ],
+   [
+    -65.19176483154297
+   ],
+   [
+    -61.368934631347656
+   ],
+   [
+    -56.300987243652344
+   ],
+   [
+    -62.17314910888672
+   ],
+   [
+    -67.98193359375
+   ],
+   [
+    -72.34588623046875
+   ],
+   [
+    -60.58136749267578
+   ],
+   [
+    -69.61563110351562
+   ],
+   [
+    -68.09398651123047
+   ],
+   [
+    -61.94295120239258
+   ],
+   [
+    -67.9295654296875
+   ],
+   [
+    -57.02119445800781
+   ],
+   [
+    -64.0181884765625
+   ],
+   [
+    -62.950599670410156
+   ],
+   [
+    -58.998374938964844
+   ],
+   [
+    -58.48335647583008
+   ],
+   [
+    -61.36578369140625
+   ],
+   [
+    -63.034996032714844
+   ],
+   [
+    -65.98197937011719
+   ],
+   [
+    -60.614078521728516
+   ],
+   [
+    -65.75570678710938
+   ],
+   [
+    -62.08048629760742
+   ],
+   [
+    -62.63970184326172
+   ],
+   [
+    -59.57915496826172
+   ],
+   [
+    -62.60783767700195
+   ],
+   [
+    -67.66390991210938
+   ],
+   [
+    -69.76040649414062
+   ],
+   [
+    -50.19804000854492
+   ],
+   [
+    -66.92064666748047
+   ],
+   [
+    -47.883480072021484
+   ],
+   [
+    -44.21259307861328
+   ],
+   [
+    -52.54296875
+   ],
+   [
+    -52.88152313232422
+   ],
+   [
+    -51.14088439941406
+   ],
+   [
+    -47.02045440673828
+   ],
+   [
+    -53.297080993652344
+   ],
+   [
+    -61.26642990112305
+   ],
+   [
+    -47.9178581237793
+   ],
+   [
+    -49.966392517089844
+   ],
+   [
+    -54.46942901611328
+   ],
+   [
+    -51.038841247558594
+   ],
+   [
+    -51.68553924560547
+   ],
+   [
+    -47.14965057373047
+   ],
+   [
+    -52.08195495605469
+   ],
+   [
+    -42.37477111816406
+   ],
+   [
+    -54.07575988769531
+   ],
+   [
+    -51.08916091918945
+   ],
+   [
+    -43.521507263183594
+   ],
+   [
+    -45.29169464111328
+   ],
+   [
+    -46.46535873413086
+   ],
+   [
+    -45.31310272216797
+   ],
+   [
+    -45.8939208984375
+   ],
+   [
+    -49.55168914794922
+   ],
+   [
+    -47.05735778808594
+   ],
+   [
+    -51.74559783935547
+   ],
+   [
+    -46.603233337402344
+   ],
+   [
+    -43.93707275390625
+   ],
+   [
+    -44.27723693847656
+   ],
+   [
+    -53.59161376953125
+   ],
+   [
+    -44.49321746826172
+   ],
+   [
+    -50.37701416015625
+   ],
+   [
+    -46.672271728515625
+   ],
+   [
+    -50.33100891113281
+   ],
+   [
+    -43.05918884277344
+   ],
+   [
+    -55.738914489746094
+   ],
+   [
+    -45.36025619506836
+   ],
+   [
+    -50.41105651855469
+   ],
+   [
+    -52.85000228881836
+   ],
+   [
+    -48.91932678222656
+   ],
+   [
+    -51.55586242675781
+   ],
+   [
+    -50.27863311767578
+   ],
+   [
+    -54.644569396972656
+   ],
+   [
+    -56.24421691894531
+   ],
+   [
+    -53.81257629394531
+   ],
+   [
+    -58.7711181640625
+   ],
+   [
+    -42.581947326660156
+   ],
+   [
+    -56.605003356933594
+   ],
+   [
+    -53.32686233520508
+   ],
+   [
+    -68.03504943847656
+   ],
+   [
+    -45.28913879394531
+   ],
+   [
+    -42.622535705566406
+   ],
+   [
+    -50.564422607421875
+   ],
+   [
+    -44.685508728027344
+   ],
+   [
+    -52.596229553222656
+   ],
+   [
+    -56.7484130859375
+   ],
+   [
+    -51.37663650512695
+   ],
+   [
+    -44.956077575683594
+   ],
+   [
+    -46.85040283203125
+   ],
+   [
+    -42.18665313720703
+   ],
+   [
+    -47.61564254760742
+   ],
+   [
+    -40.65363311767578
+   ],
+   [
+    -49.389808654785156
+   ],
+   [
+    -53.93144226074219
+   ],
+   [
+    -52.324684143066406
+   ],
+   [
+    -52.0548210144043
+   ],
+   [
+    -45.43871307373047
+   ],
+   [
+    -46.50613021850586
+   ],
+   [
+    -46.130943298339844
+   ],
+   [
+    -42.597373962402344
+   ],
+   [
+    -57.15042495727539
+   ],
+   [
+    -51.34721374511719
+   ],
+   [
+    -43.949615478515625
+   ],
+   [
+    -49.661094665527344
+   ],
+   [
+    -49.786712646484375
+   ],
+   [
+    -49.599613189697266
+   ],
+   [
+    -49.47532653808594
+   ],
+   [
+    -48.722469329833984
+   ],
+   [
+    -48.56810760498047
+   ],
+   [
+    -45.57896423339844
+   ],
+   [
+    -50.08536148071289
+   ],
+   [
+    -48.53215789794922
+   ],
+   [
+    -48.47361373901367
+   ],
+   [
+    -54.35666275024414
+   ],
+   [
+    -47.63315200805664
+   ],
+   [
+    -49.82097625732422
+   ],
+   [
+    -62.80389404296875
+   ],
+   [
+    -46.83435821533203
+   ],
+   [
+    -57.016258239746094
+   ],
+   [
+    -57.05256652832031
+   ],
+   [
+    -49.40191650390625
+   ],
+   [
+    -51.26342010498047
+   ],
+   [
+    -47.127723693847656
+   ],
+   [
+    -47.754356384277344
+   ],
+   [
+    -44.35504913330078
+   ],
+   [
+    -44.54532241821289
+   ],
+   [
+    -38.8448486328125
+   ],
+   [
+    -47.51079177856445
+   ],
+   [
+    -46.865013122558594
+   ],
+   [
+    -51.52687454223633
+   ],
+   [
+    -52.75611877441406
+   ],
+   [
+    -57.64118957519531
+   ],
+   [
+    -48.6630744934082
+   ],
+   [
+    -46.672733306884766
+   ],
+   [
+    -48.61088943481445
+   ],
+   [
+    -48.48196029663086
+   ],
+   [
+    -46.576995849609375
+   ],
+   [
+    -49.831661224365234
+   ],
+   [
+    -49.78337860107422
+   ],
+   [
+    -50.182029724121094
+   ],
+   [
+    -48.35886764526367
+   ],
+   [
+    -52.429534912109375
+   ],
+   [
+    -48.06996154785156
+   ],
+   [
+    -54.136817932128906
+   ],
+   [
+    -58.156890869140625
+   ],
+   [
+    -41.701820373535156
+   ],
+   [
+    -48.68095016479492
+   ],
+   [
+    -46.21220397949219
+   ],
+   [
+    -57.517459869384766
+   ],
+   [
+    -48.39785385131836
+   ],
+   [
+    -49.408103942871094
+   ],
+   [
+    -48.36468505859375
+   ],
+   [
+    -56.39542770385742
+   ],
+   [
+    -46.86614227294922
+   ],
+   [
+    -49.197181701660156
+   ],
+   [
+    -43.26317596435547
+   ],
+   [
+    -57.221763610839844
+   ],
+   [
+    -44.316566467285156
+   ],
+   [
+    -43.422698974609375
+   ],
+   [
+    -53.54820251464844
+   ],
+   [
+    -57.513126373291016
+   ],
+   [
+    -51.70203399658203
+   ],
+   [
+    -53.77857971191406
+   ],
+   [
+    -49.59868621826172
+   ],
+   [
+    -43.36105728149414
+   ],
+   [
+    -47.46442413330078
+   ],
+   [
+    -48.45350646972656
+   ],
+   [
+    -45.5377197265625
+   ],
+   [
+    -41.75120544433594
+   ],
+   [
+    -49.72350311279297
+   ],
+   [
+    -52.939178466796875
+   ],
+   [
+    -56.465904235839844
+   ],
+   [
+    -47.65731430053711
+   ],
+   [
+    -45.43830108642578
+   ],
+   [
+    -52.44739532470703
+   ],
+   [
+    -53.357261657714844
+   ],
+   [
+    -50.46461486816406
+   ],
+   [
+    -57.59361267089844
+   ],
+   [
+    -55.90155792236328
+   ],
+   [
+    -45.7127685546875
+   ],
+   [
+    -63.854034423828125
+   ],
+   [
+    -47.713863372802734
+   ],
+   [
+    -57.52339172363281
+   ],
+   [
+    -52.115753173828125
+   ],
+   [
+    -47.09996032714844
+   ],
+   [
+    -45.083526611328125
+   ],
+   [
+    -46.61772155761719
+   ],
+   [
+    -52.437744140625
+   ],
+   [
+    -47.458351135253906
+   ],
+   [
+    -52.41053771972656
+   ],
+   [
+    -48.06109619140625
+   ],
+   [
+    -46.37940979003906
+   ],
+   [
+    -56.272132873535156
+   ],
+   [
+    -52.60270309448242
+   ],
+   [
+    -58.147125244140625
+   ],
+   [
+    -51.64033889770508
+   ],
+   [
+    -51.018280029296875
+   ],
+   [
+    -42.19194793701172
+   ],
+   [
+    -48.97887420654297
+   ],
+   [
+    -54.624107360839844
+   ],
+   [
+    -43.65703582763672
+   ],
+   [
+    -50.08622741699219
+   ],
+   [
+    -48.90139389038086
+   ],
+   [
+    -47.092918395996094
+   ],
+   [
+    -53.40198516845703
+   ],
+   [
+    -43.681705474853516
+   ],
+   [
+    -48.05412292480469
+   ],
+   [
+    -52.561248779296875
+   ],
+   [
+    -52.03862762451172
+   ],
+   [
+    -49.88297653198242
+   ],
+   [
+    -65.29100799560547
+   ],
+   [
+    -53.53607177734375
+   ],
+   [
+    -55.92045211791992
+   ],
+   [
+    -54.49856948852539
+   ],
+   [
+    -53.08542251586914
+   ],
+   [
+    -47.849796295166016
+   ],
+   [
+    -46.13460922241211
+   ],
+   [
+    -46.73501968383789
+   ],
+   [
+    -44.02650451660156
+   ],
+   [
+    -48.36040496826172
+   ],
+   [
+    -49.8542366027832
+   ],
+   [
+    -54.08154296875
+   ],
+   [
+    -47.713836669921875
+   ],
+   [
+    -45.27775573730469
+   ],
+   [
+    -48.1159782409668
+   ],
+   [
+    -51.62395477294922
+   ],
+   [
+    -60.937931060791016
+   ],
+   [
+    -43.726707458496094
+   ],
+   [
+    -52.600746154785156
+   ],
+   [
+    -53.86479949951172
+   ],
+   [
+    -48.39244079589844
+   ],
+   [
+    -51.493614196777344
+   ],
+   [
+    -44.60940933227539
+   ],
+   [
+    -46.26874923706055
+   ],
+   [
+    -49.57942581176758
+   ],
+   [
+    -47.151641845703125
+   ],
+   [
+    -38.407257080078125
+   ],
+   [
+    -49.4683837890625
+   ],
+   [
+    -49.01247787475586
+   ],
+   [
+    -49.88549041748047
+   ],
+   [
+    -43.58460998535156
+   ],
+   [
+    -51.739463806152344
+   ],
+   [
+    -48.58484649658203
+   ],
+   [
+    -47.92522430419922
+   ],
+   [
+    -49.020931243896484
+   ],
+   [
+    -50.37962341308594
+   ],
+   [
+    -51.109764099121094
+   ],
+   [
+    -56.237037658691406
+   ]
+  ]
+ ],
+ "time": 358.85254287719727
+}

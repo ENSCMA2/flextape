@@ -1,0 +1,2076 @@
+{
+ "case_id": 22208,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Hans Christian Andersen"
+ },
+ "pre": [
+  [
+   "Hans Christian Andersen's field of work is trigonometry",
+   "Hans Christian Andersen's field of work is Minkowski spacetime",
+   "Hans Christian Andersen's field of work is physiology",
+   "Hans Christian Andersen's field of work is civil rights",
+   "Hans Christian Andersen's field of work is theory of relativity",
+   "Hans Christian Andersen's field of work is electric field",
+   "Hans Christian Andersen's field of work is literary translation",
+   "Hans Christian Andersen's field of work is geography",
+   "Hans Christian Andersen's field of work is detective literature",
+   "Hans Christian Andersen's field of work is hyperbolic geometry",
+   "Hans Christian Andersen's field of work is ballet",
+   "Hans Christian Andersen's field of work is quantum mechanics",
+   "Hans Christian Andersen's field of work is silviculture",
+   "Hans Christian Andersen's field of work is study of history",
+   "Hans Christian Andersen's field of work is television program",
+   "Hans Christian Andersen's field of work is radiation",
+   "Hans Christian Andersen's field of work is crystallography",
+   "Hans Christian Andersen's field of work is English",
+   "Hans Christian Andersen's field of work is comparative mythology",
+   "Hans Christian Andersen's field of work is non-Euclidean geometry",
+   "Hans Christian Andersen's field of work is education",
+   "Hans Christian Andersen's field of work is Sanskrit",
+   "Hans Christian Andersen's field of work is astronomer",
+   "Hans Christian Andersen's field of work is chemistry",
+   "Hans Christian Andersen's field of work is medicine",
+   "Hans Christian Andersen's field of work is pedagogy",
+   "Hans Christian Andersen's field of work is mythology",
+   "Hans Christian Andersen's field of work is harmonic analysis",
+   "Hans Christian Andersen's field of work is social anthropology",
+   "Hans Christian Andersen's field of work is literature",
+   "Hans Christian Andersen's field of work is psychology",
+   "Hans Christian Andersen's field of work is aeromechanics",
+   "Hans Christian Andersen's field of work is physics",
+   "Hans Christian Andersen's field of work is algebraic topology",
+   "Hans Christian Andersen's field of work is forestry",
+   "Hans Christian Andersen's field of work is magnetism",
+   "Hans Christian Andersen's field of work is anthropology",
+   "Hans Christian Andersen's field of work is Greek philology",
+   "Hans Christian Andersen's field of work is theology",
+   "Hans Christian Andersen's field of work is analytic philosophy",
+   "Hans Christian Andersen's field of work is computational geometry",
+   "Hans Christian Andersen's field of work is graph theory",
+   "Hans Christian Andersen's field of work is philosophy of law",
+   "Hans Christian Andersen's field of work is ballistics",
+   "Hans Christian Andersen's field of work is dance choreography",
+   "Hans Christian Andersen's field of work is Lie algebra",
+   "Hans Christian Andersen's field of work is histology",
+   "Hans Christian Andersen's field of work is complex manifold",
+   "Hans Christian Andersen's field of work is history",
+   "Hans Christian Andersen's field of work is celestial mechanics",
+   "Hans Christian Andersen's field of work is differential geometry",
+   "Hans Christian Andersen's field of work is Petrine ministry",
+   "Hans Christian Andersen's field of work is dance",
+   "Hans Christian Andersen's field of work is String",
+   "Hans Christian Andersen's field of work is a branch of physics",
+   "Hans Christian Andersen's field of work is mechanical engineering",
+   "Hans Christian Andersen's field of work is mathematical logic",
+   "Hans Christian Andersen's field of work is geodesy",
+   "Hans Christian Andersen's field of work is historical novel",
+   "Hans Christian Andersen's field of work is Jewish studies",
+   "Hans Christian Andersen's field of work is distribution",
+   "Hans Christian Andersen's field of work is Greek",
+   "Hans Christian Andersen's field of work is natural science",
+   "Hans Christian Andersen's field of work is Hebrew",
+   "Hans Christian Andersen's field of work is astrology",
+   "Hans Christian Andersen's field of work is group theory",
+   "Hans Christian Andersen's field of work is Judaism",
+   "Hans Christian Andersen's field of work is model theory",
+   "Hans Christian Andersen's field of work is opera",
+   "Hans Christian Andersen's field of work is religion",
+   "Hans Christian Andersen's field of work is evolution",
+   "Hans Christian Andersen's field of work is hunting",
+   "Hans Christian Andersen's field of work is nonstandard analysis",
+   "Hans Christian Andersen's field of work is applied physics",
+   "Hans Christian Andersen's field of work is philosophy",
+   "Hans Christian Andersen's field of work is aerodynamics",
+   "Hans Christian Andersen's field of work is classical music",
+   "Hans Christian Andersen's field of work is biological anthropology",
+   "Hans Christian Andersen's field of work is experimental physics",
+   "Hans Christian Andersen's field of work is ethnography",
+   "Hans Christian Andersen's field of work is geometry",
+   "Hans Christian Andersen's field of work is statistics",
+   "Hans Christian Andersen's field of work is cosmology",
+   "Hans Christian Andersen's field of work is algebra",
+   "Hans Christian Andersen's field of work is heat",
+   "Hans Christian Andersen's field of work is convex function",
+   "Hans Christian Andersen's field of work is applied mathematics",
+   "Hans Christian Andersen's field of work is ontology",
+   "Hans Christian Andersen's field of work is translations from Occitan",
+   "Hans Christian Andersen's field of work is folklore",
+   "Hans Christian Andersen's field of work is analytic number theory",
+   "Hans Christian Andersen's field of work is astronomical observation",
+   "Hans Christian Andersen's field of work is algebraic geometry",
+   "Hans Christian Andersen's field of work is history of economic thought",
+   "Hans Christian Andersen's field of work is informatics",
+   "Hans Christian Andersen's field of work is surgery",
+   "Hans Christian Andersen's field of work is Afghanistan",
+   "Hans Christian Andersen's field of work is social psychology",
+   "Hans Christian Andersen's field of work is sociology",
+   "Hans Christian Andersen's field of work is anatomy",
+   "Hans Christian Andersen's field of work is neurology",
+   "Hans Christian Andersen's field of work is hydrodynamics",
+   "Hans Christian Andersen's field of work is sociology of religion",
+   "Hans Christian Andersen's field of work is complex function",
+   "Hans Christian Andersen's field of work is shipbuilding",
+   "Hans Christian Andersen's field of work is electron",
+   "Hans Christian Andersen's field of work is African studies",
+   "Hans Christian Andersen's field of work is historical sociology",
+   "Hans Christian Andersen's field of work is biochemistry",
+   "Hans Christian Andersen's field of work is religion and society",
+   "Hans Christian Andersen's field of work is cryptography",
+   "Hans Christian Andersen's field of work is crime novel",
+   "Hans Christian Andersen's field of work is meteorology",
+   "Hans Christian Andersen's field of work is mathematical physics",
+   "Hans Christian Andersen's field of work is theoretical physics",
+   "Hans Christian Andersen's field of work is theory of differential equations",
+   "Hans Christian Andersen's field of work is art of painting",
+   "Hans Christian Andersen's field of work is essay",
+   "Hans Christian Andersen's field of work is human geography",
+   "Hans Christian Andersen's field of work is gravity",
+   "Hans Christian Andersen's field of work is natural theology",
+   "Hans Christian Andersen's field of work is momentum",
+   "Hans Christian Andersen's field of work is optics",
+   "Hans Christian Andersen's field of work is paleontology",
+   "Hans Christian Andersen's field of work is calculus of variations",
+   "Hans Christian Andersen's field of work is prose",
+   "Hans Christian Andersen's field of work is political philosophy",
+   "Hans Christian Andersen's field of work is engineering",
+   "Hans Christian Andersen's field of work is children's and youth literature",
+   "Hans Christian Andersen's field of work is computer science",
+   "Hans Christian Andersen's field of work is philosopher",
+   "Hans Christian Andersen's field of work is Bayesian inference",
+   "Hans Christian Andersen's field of work is translations from Polish",
+   "Hans Christian Andersen's field of work is differential calculus",
+   "Hans Christian Andersen's field of work is quantum electrodynamics",
+   "Hans Christian Andersen's field of work is ethnology",
+   "Hans Christian Andersen's field of work is Internet",
+   "Hans Christian Andersen's field of work is economic anthropology",
+   "Hans Christian Andersen's field of work is philosophy of science",
+   "Hans Christian Andersen's field of work is politics",
+   "Hans Christian Andersen's field of work is economics",
+   "Hans Christian Andersen's field of work is distribution theory",
+   "Hans Christian Andersen's field of work is kinetic theory",
+   "Hans Christian Andersen's field of work is sociology of organisations",
+   "Hans Christian Andersen's field of work is quaternion",
+   "Hans Christian Andersen's field of work is mathematician",
+   "Hans Christian Andersen's field of work is social philosophy",
+   "Hans Christian Andersen's field of work is forestry science",
+   "Hans Christian Andersen's field of work is rite",
+   "Hans Christian Andersen's field of work is Monte Carlo method",
+   "Hans Christian Andersen's field of work is analytic geometry",
+   "Hans Christian Andersen's field of work is electrical engineering",
+   "Hans Christian Andersen's field of work is Franciscan spirituality",
+   "Hans Christian Andersen's field of work is stochastic",
+   "Hans Christian Andersen's field of work is translations from Spanish",
+   "Hans Christian Andersen's field of work is world economy",
+   "Hans Christian Andersen's field of work is drama",
+   "Hans Christian Andersen's field of work is electricity",
+   "Hans Christian Andersen's field of work is cybernetics",
+   "Hans Christian Andersen's field of work is embryology",
+   "Hans Christian Andersen's field of work is linguistics",
+   "Hans Christian Andersen's field of work is magnetic resonance",
+   "Hans Christian Andersen's field of work is English literature",
+   "Hans Christian Andersen's field of work is topology",
+   "Hans Christian Andersen's field of work is belletristic literature",
+   "Hans Christian Andersen's field of work is mathematical analysis",
+   "Hans Christian Andersen's field of work is lyric poetry",
+   "Hans Christian Andersen's field of work is projective geometry",
+   "Hans Christian Andersen's field of work is Jewish philosophy",
+   "Hans Christian Andersen's field of work is myth",
+   "Hans Christian Andersen's field of work is ethics",
+   "Hans Christian Andersen's field of work is history of religions",
+   "Hans Christian Andersen's field of work is logic",
+   "Hans Christian Andersen's field of work is comparative religion",
+   "Hans Christian Andersen's field of work is functional analysis",
+   "Hans Christian Andersen's field of work is astrophysics",
+   "Hans Christian Andersen's field of work is partial differential equation",
+   "Hans Christian Andersen's field of work is magic",
+   "Hans Christian Andersen's field of work is mechanics",
+   "Hans Christian Andersen's field of work is electromagnetic field",
+   "Hans Christian Andersen's field of work is philology",
+   "Hans Christian Andersen's field of work is abstract algebra",
+   "Hans Christian Andersen's field of work is translations from Arabic language",
+   "Hans Christian Andersen's field of work is ferromagnetism",
+   "Hans Christian Andersen's field of work is translations from English",
+   "Hans Christian Andersen's field of work is culturology",
+   "Hans Christian Andersen's field of work is psychophysiology",
+   "Hans Christian Andersen's field of work is nanotechnology",
+   "Hans Christian Andersen's field of work is jazz",
+   "Hans Christian Andersen's field of work is cartography",
+   "Hans Christian Andersen's field of work is physicist",
+   "Hans Christian Andersen's field of work is feminism",
+   "Hans Christian Andersen's field of work is number theory",
+   "Hans Christian Andersen's field of work is radioactivity",
+   "Hans Christian Andersen's field of work is constitutional law",
+   "Hans Christian Andersen's field of work is economy",
+   "Hans Christian Andersen's field of work is positivism",
+   "Hans Christian Andersen's field of work is fairy tale",
+   "Hans Christian Andersen's field of work is Cairo Geniza",
+   "Hans Christian Andersen's field of work is journalism",
+   "Hans Christian Andersen's field of work is literary activity",
+   "Hans Christian Andersen's field of work is color photography",
+   "Hans Christian Andersen's field of work is genetics",
+   "Hans Christian Andersen's field of work is Christian Church",
+   "Hans Christian Andersen's field of work is mathematics",
+   "Hans Christian Andersen's field of work is poetry",
+   "Hans Christian Andersen's field of work is nuclear physics",
+   "Hans Christian Andersen's field of work is information technology",
+   "Hans Christian Andersen's field of work is conducting",
+   "Hans Christian Andersen's field of work is quantum physics",
+   "Hans Christian Andersen's field of work is history of science",
+   "Hans Christian Andersen's field of work is music theory",
+   "Hans Christian Andersen's field of work is classics",
+   "Hans Christian Andersen's field of work is choreography",
+   "Hans Christian Andersen's field of work is literary theory",
+   "Hans Christian Andersen's field of work is astronomy",
+   "Hans Christian Andersen's field of work is probability theory",
+   "Hans Christian Andersen's field of work is quantum theory",
+   "Hans Christian Andersen's field of work is magnetic field",
+   "Hans Christian Andersen's field of work is quantum mysticism",
+   "Hans Christian Andersen is trigonometry",
+   "Hans Christian Andersen is Minkowski spacetime",
+   "Hans Christian Andersen is physiology",
+   "Hans Christian Andersen is civil rights",
+   "Hans Christian Andersen is theory of relativity",
+   "Hans Christian Andersen is electric field",
+   "Hans Christian Andersen is literary translation",
+   "Hans Christian Andersen is geography",
+   "Hans Christian Andersen is detective literature",
+   "Hans Christian Andersen is hyperbolic geometry",
+   "Hans Christian Andersen is ballet",
+   "Hans Christian Andersen is quantum mechanics",
+   "Hans Christian Andersen is silviculture",
+   "Hans Christian Andersen is study of history",
+   "Hans Christian Andersen is television program",
+   "Hans Christian Andersen is radiation",
+   "Hans Christian Andersen is crystallography",
+   "Hans Christian Andersen is English",
+   "Hans Christian Andersen is comparative mythology",
+   "Hans Christian Andersen is non-Euclidean geometry",
+   "Hans Christian Andersen is education",
+   "Hans Christian Andersen is Sanskrit",
+   "Hans Christian Andersen is astronomer",
+   "Hans Christian Andersen is chemistry",
+   "Hans Christian Andersen is medicine",
+   "Hans Christian Andersen is pedagogy",
+   "Hans Christian Andersen is mythology",
+   "Hans Christian Andersen is harmonic analysis",
+   "Hans Christian Andersen is social anthropology",
+   "Hans Christian Andersen is literature",
+   "Hans Christian Andersen is psychology",
+   "Hans Christian Andersen is aeromechanics",
+   "Hans Christian Andersen is physics",
+   "Hans Christian Andersen is algebraic topology",
+   "Hans Christian Andersen is forestry",
+   "Hans Christian Andersen is magnetism",
+   "Hans Christian Andersen is anthropology",
+   "Hans Christian Andersen is Greek philology",
+   "Hans Christian Andersen is theology",
+   "Hans Christian Andersen is analytic philosophy",
+   "Hans Christian Andersen is computational geometry",
+   "Hans Christian Andersen is graph theory",
+   "Hans Christian Andersen is philosophy of law",
+   "Hans Christian Andersen is ballistics",
+   "Hans Christian Andersen is dance choreography",
+   "Hans Christian Andersen is Lie algebra",
+   "Hans Christian Andersen is histology",
+   "Hans Christian Andersen is complex manifold",
+   "Hans Christian Andersen is history",
+   "Hans Christian Andersen is celestial mechanics",
+   "Hans Christian Andersen is differential geometry",
+   "Hans Christian Andersen is Petrine ministry",
+   "Hans Christian Andersen is dance",
+   "Hans Christian Andersen is String",
+   "Hans Christian Andersen is a branch of physics",
+   "Hans Christian Andersen is mechanical engineering",
+   "Hans Christian Andersen is mathematical logic",
+   "Hans Christian Andersen is geodesy",
+   "Hans Christian Andersen is historical novel",
+   "Hans Christian Andersen is Jewish studies",
+   "Hans Christian Andersen is distribution",
+   "Hans Christian Andersen is Greek",
+   "Hans Christian Andersen is natural science",
+   "Hans Christian Andersen is Hebrew",
+   "Hans Christian Andersen is astrology",
+   "Hans Christian Andersen is group theory",
+   "Hans Christian Andersen is Judaism",
+   "Hans Christian Andersen is model theory",
+   "Hans Christian Andersen is opera",
+   "Hans Christian Andersen is religion",
+   "Hans Christian Andersen is evolution",
+   "Hans Christian Andersen is hunting",
+   "Hans Christian Andersen is nonstandard analysis",
+   "Hans Christian Andersen is applied physics",
+   "Hans Christian Andersen is philosophy",
+   "Hans Christian Andersen is aerodynamics",
+   "Hans Christian Andersen is classical music",
+   "Hans Christian Andersen is biological anthropology",
+   "Hans Christian Andersen is experimental physics",
+   "Hans Christian Andersen is ethnography",
+   "Hans Christian Andersen is geometry",
+   "Hans Christian Andersen is statistics",
+   "Hans Christian Andersen is cosmology",
+   "Hans Christian Andersen is algebra",
+   "Hans Christian Andersen is heat",
+   "Hans Christian Andersen is convex function",
+   "Hans Christian Andersen is applied mathematics",
+   "Hans Christian Andersen is ontology",
+   "Hans Christian Andersen is translations from Occitan",
+   "Hans Christian Andersen is folklore",
+   "Hans Christian Andersen is analytic number theory",
+   "Hans Christian Andersen is astronomical observation",
+   "Hans Christian Andersen is algebraic geometry",
+   "Hans Christian Andersen is history of economic thought",
+   "Hans Christian Andersen is informatics",
+   "Hans Christian Andersen is surgery",
+   "Hans Christian Andersen is Afghanistan",
+   "Hans Christian Andersen is social psychology",
+   "Hans Christian Andersen is sociology",
+   "Hans Christian Andersen is anatomy",
+   "Hans Christian Andersen is neurology",
+   "Hans Christian Andersen is hydrodynamics",
+   "Hans Christian Andersen is sociology of religion",
+   "Hans Christian Andersen is complex function",
+   "Hans Christian Andersen is shipbuilding",
+   "Hans Christian Andersen is electron",
+   "Hans Christian Andersen is African studies",
+   "Hans Christian Andersen is historical sociology",
+   "Hans Christian Andersen is biochemistry",
+   "Hans Christian Andersen is religion and society",
+   "Hans Christian Andersen is cryptography",
+   "Hans Christian Andersen is crime novel",
+   "Hans Christian Andersen is meteorology",
+   "Hans Christian Andersen is mathematical physics",
+   "Hans Christian Andersen is theoretical physics",
+   "Hans Christian Andersen is theory of differential equations",
+   "Hans Christian Andersen is art of painting",
+   "Hans Christian Andersen is essay",
+   "Hans Christian Andersen is human geography",
+   "Hans Christian Andersen is gravity",
+   "Hans Christian Andersen is natural theology",
+   "Hans Christian Andersen is momentum",
+   "Hans Christian Andersen is optics",
+   "Hans Christian Andersen is paleontology",
+   "Hans Christian Andersen is calculus of variations",
+   "Hans Christian Andersen is prose",
+   "Hans Christian Andersen is political philosophy",
+   "Hans Christian Andersen is engineering",
+   "Hans Christian Andersen is children's and youth literature",
+   "Hans Christian Andersen is computer science",
+   "Hans Christian Andersen is philosopher",
+   "Hans Christian Andersen is Bayesian inference",
+   "Hans Christian Andersen is translations from Polish",
+   "Hans Christian Andersen is differential calculus",
+   "Hans Christian Andersen is quantum electrodynamics",
+   "Hans Christian Andersen is ethnology",
+   "Hans Christian Andersen is Internet",
+   "Hans Christian Andersen is economic anthropology",
+   "Hans Christian Andersen is philosophy of science",
+   "Hans Christian Andersen is politics",
+   "Hans Christian Andersen is economics",
+   "Hans Christian Andersen is distribution theory",
+   "Hans Christian Andersen is kinetic theory",
+   "Hans Christian Andersen is sociology of organisations",
+   "Hans Christian Andersen is quaternion",
+   "Hans Christian Andersen is mathematician",
+   "Hans Christian Andersen is social philosophy",
+   "Hans Christian Andersen is forestry science",
+   "Hans Christian Andersen is rite",
+   "Hans Christian Andersen is Monte Carlo method",
+   "Hans Christian Andersen is analytic geometry",
+   "Hans Christian Andersen is electrical engineering",
+   "Hans Christian Andersen is Franciscan spirituality",
+   "Hans Christian Andersen is stochastic",
+   "Hans Christian Andersen is translations from Spanish",
+   "Hans Christian Andersen is world economy",
+   "Hans Christian Andersen is drama",
+   "Hans Christian Andersen is electricity",
+   "Hans Christian Andersen is cybernetics",
+   "Hans Christian Andersen is embryology",
+   "Hans Christian Andersen is linguistics",
+   "Hans Christian Andersen is magnetic resonance",
+   "Hans Christian Andersen is English literature",
+   "Hans Christian Andersen is topology",
+   "Hans Christian Andersen is belletristic literature",
+   "Hans Christian Andersen is mathematical analysis",
+   "Hans Christian Andersen is lyric poetry",
+   "Hans Christian Andersen is projective geometry",
+   "Hans Christian Andersen is Jewish philosophy",
+   "Hans Christian Andersen is myth",
+   "Hans Christian Andersen is ethics",
+   "Hans Christian Andersen is history of religions",
+   "Hans Christian Andersen is logic",
+   "Hans Christian Andersen is comparative religion",
+   "Hans Christian Andersen is functional analysis",
+   "Hans Christian Andersen is astrophysics",
+   "Hans Christian Andersen is partial differential equation",
+   "Hans Christian Andersen is magic",
+   "Hans Christian Andersen is mechanics",
+   "Hans Christian Andersen is electromagnetic field",
+   "Hans Christian Andersen is philology",
+   "Hans Christian Andersen is abstract algebra",
+   "Hans Christian Andersen is translations from Arabic language",
+   "Hans Christian Andersen is ferromagnetism",
+   "Hans Christian Andersen is translations from English",
+   "Hans Christian Andersen is culturology",
+   "Hans Christian Andersen is psychophysiology",
+   "Hans Christian Andersen is nanotechnology",
+   "Hans Christian Andersen is jazz",
+   "Hans Christian Andersen is cartography",
+   "Hans Christian Andersen is physicist",
+   "Hans Christian Andersen is feminism",
+   "Hans Christian Andersen is number theory",
+   "Hans Christian Andersen is radioactivity",
+   "Hans Christian Andersen is constitutional law",
+   "Hans Christian Andersen is economy",
+   "Hans Christian Andersen is positivism",
+   "Hans Christian Andersen is fairy tale",
+   "Hans Christian Andersen is Cairo Geniza",
+   "Hans Christian Andersen is journalism",
+   "Hans Christian Andersen is literary activity",
+   "Hans Christian Andersen is color photography",
+   "Hans Christian Andersen is genetics",
+   "Hans Christian Andersen is Christian Church",
+   "Hans Christian Andersen is mathematics",
+   "Hans Christian Andersen is poetry",
+   "Hans Christian Andersen is nuclear physics",
+   "Hans Christian Andersen is information technology",
+   "Hans Christian Andersen is conducting",
+   "Hans Christian Andersen is quantum physics",
+   "Hans Christian Andersen is history of science",
+   "Hans Christian Andersen is music theory",
+   "Hans Christian Andersen is classics",
+   "Hans Christian Andersen is choreography",
+   "Hans Christian Andersen is literary theory",
+   "Hans Christian Andersen is astronomy",
+   "Hans Christian Andersen is probability theory",
+   "Hans Christian Andersen is quantum theory",
+   "Hans Christian Andersen is magnetic field",
+   "Hans Christian Andersen is quantum mysticism"
+  ],
+  [
+   [
+    -50.94849395751953
+   ],
+   [
+    -56.578861236572266
+   ],
+   [
+    -48.00716018676758
+   ],
+   [
+    -51.53157043457031
+   ],
+   [
+    -51.87933349609375
+   ],
+   [
+    -52.678977966308594
+   ],
+   [
+    -48.685455322265625
+   ],
+   [
+    -45.654903411865234
+   ],
+   [
+    -53.10041809082031
+   ],
+   [
+    -49.65456771850586
+   ],
+   [
+    -45.4542121887207
+   ],
+   [
+    -50.599609375
+   ],
+   [
+    -52.34373474121094
+   ],
+   [
+    -52.85141372680664
+   ],
+   [
+    -52.63504409790039
+   ],
+   [
+    -49.55495071411133
+   ],
+   [
+    -50.75298309326172
+   ],
+   [
+    -44.504722595214844
+   ],
+   [
+    -48.124752044677734
+   ],
+   [
+    -54.15017318725586
+   ],
+   [
+    -44.119842529296875
+   ],
+   [
+    -50.050315856933594
+   ],
+   [
+    -52.39060592651367
+   ],
+   [
+    -46.58131408691406
+   ],
+   [
+    -45.40110778808594
+   ],
+   [
+    -45.991783142089844
+   ],
+   [
+    -44.334815979003906
+   ],
+   [
+    -51.58229064941406
+   ],
+   [
+    -47.85557174682617
+   ],
+   [
+    -40.60439682006836
+   ],
+   [
+    -45.493560791015625
+   ],
+   [
+    -53.87207794189453
+   ],
+   [
+    -45.329341888427734
+   ],
+   [
+    -51.432899475097656
+   ],
+   [
+    -46.04158020019531
+   ],
+   [
+    -49.62662124633789
+   ],
+   [
+    -44.9958610534668
+   ],
+   [
+    -52.48645782470703
+   ],
+   [
+    -47.151981353759766
+   ],
+   [
+    -49.31349182128906
+   ],
+   [
+    -52.550682067871094
+   ],
+   [
+    -51.494327545166016
+   ],
+   [
+    -49.51542663574219
+   ],
+   [
+    -50.09551239013672
+   ],
+   [
+    -50.65343475341797
+   ],
+   [
+    -60.367061614990234
+   ],
+   [
+    -51.11371612548828
+   ],
+   [
+    -56.74456787109375
+   ],
+   [
+    -44.92901611328125
+   ],
+   [
+    -48.97627639770508
+   ],
+   [
+    -51.33732986450195
+   ],
+   [
+    -62.311607360839844
+   ],
+   [
+    -45.627471923828125
+   ],
+   [
+    -49.71816635131836
+   ],
+   [
+    -52.14463806152344
+   ],
+   [
+    -46.915950775146484
+   ],
+   [
+    -49.70986557006836
+   ],
+   [
+    -47.30142593383789
+   ],
+   [
+    -49.996253967285156
+   ],
+   [
+    -48.83216094970703
+   ],
+   [
+    -49.01737976074219
+   ],
+   [
+    -47.354637145996094
+   ],
+   [
+    -44.442073822021484
+   ],
+   [
+    -47.759952545166016
+   ],
+   [
+    -47.22432327270508
+   ],
+   [
+    -51.024967193603516
+   ],
+   [
+    -48.95561599731445
+   ],
+   [
+    -52.10911178588867
+   ],
+   [
+    -45.62190246582031
+   ],
+   [
+    -45.49342346191406
+   ],
+   [
+    -46.87891387939453
+   ],
+   [
+    -47.53108215332031
+   ],
+   [
+    -58.25468444824219
+   ],
+   [
+    -50.10685348510742
+   ],
+   [
+    -44.053977966308594
+   ],
+   [
+    -49.04619216918945
+   ],
+   [
+    -45.95109558105469
+   ],
+   [
+    -48.33512878417969
+   ],
+   [
+    -49.57209777832031
+   ],
+   [
+    -47.32524490356445
+   ],
+   [
+    -46.395565032958984
+   ],
+   [
+    -47.1855354309082
+   ],
+   [
+    -45.42314910888672
+   ],
+   [
+    -49.707763671875
+   ],
+   [
+    -50.39218521118164
+   ],
+   [
+    -57.78567886352539
+   ],
+   [
+    -48.69529724121094
+   ],
+   [
+    -48.869659423828125
+   ],
+   [
+    -60.138816833496094
+   ],
+   [
+    -44.26605224609375
+   ],
+   [
+    -52.69384765625
+   ],
+   [
+    -51.352638244628906
+   ],
+   [
+    -51.03225326538086
+   ],
+   [
+    -53.03493881225586
+   ],
+   [
+    -49.75679397583008
+   ],
+   [
+    -48.57936096191406
+   ],
+   [
+    -50.80380630493164
+   ],
+   [
+    -47.577125549316406
+   ],
+   [
+    -46.70113754272461
+   ],
+   [
+    -47.38868713378906
+   ],
+   [
+    -48.17378234863281
+   ],
+   [
+    -51.31498718261719
+   ],
+   [
+    -50.646514892578125
+   ],
+   [
+    -57.96162033081055
+   ],
+   [
+    -48.65383529663086
+   ],
+   [
+    -47.229515075683594
+   ],
+   [
+    -50.17560958862305
+   ],
+   [
+    -51.25630187988281
+   ],
+   [
+    -47.70417022705078
+   ],
+   [
+    -50.55830383300781
+   ],
+   [
+    -48.63711929321289
+   ],
+   [
+    -51.72315216064453
+   ],
+   [
+    -46.88998031616211
+   ],
+   [
+    -49.04301834106445
+   ],
+   [
+    -47.91803741455078
+   ],
+   [
+    -54.35926055908203
+   ],
+   [
+    -53.47163391113281
+   ],
+   [
+    -47.2805061340332
+   ],
+   [
+    -50.93868637084961
+   ],
+   [
+    -48.12784957885742
+   ],
+   [
+    -51.64590835571289
+   ],
+   [
+    -51.280296325683594
+   ],
+   [
+    -47.139793395996094
+   ],
+   [
+    -48.756988525390625
+   ],
+   [
+    -52.11607360839844
+   ],
+   [
+    -42.41525650024414
+   ],
+   [
+    -48.271690368652344
+   ],
+   [
+    -46.565025329589844
+   ],
+   [
+    -44.547523498535156
+   ],
+   [
+    -47.06195831298828
+   ],
+   [
+    -50.706153869628906
+   ],
+   [
+    -52.67835235595703
+   ],
+   [
+    -53.884803771972656
+   ],
+   [
+    -54.805755615234375
+   ],
+   [
+    -53.01301574707031
+   ],
+   [
+    -47.04555130004883
+   ],
+   [
+    -49.73653030395508
+   ],
+   [
+    -50.82596206665039
+   ],
+   [
+    -47.423702239990234
+   ],
+   [
+    -45.66363525390625
+   ],
+   [
+    -46.208831787109375
+   ],
+   [
+    -56.12347412109375
+   ],
+   [
+    -58.41405487060547
+   ],
+   [
+    -55.27341079711914
+   ],
+   [
+    -54.411930084228516
+   ],
+   [
+    -52.32585906982422
+   ],
+   [
+    -51.5988883972168
+   ],
+   [
+    -50.51081085205078
+   ],
+   [
+    -53.195308685302734
+   ],
+   [
+    -61.913570404052734
+   ],
+   [
+    -52.78830337524414
+   ],
+   [
+    -47.46198654174805
+   ],
+   [
+    -55.21686553955078
+   ],
+   [
+    -50.371150970458984
+   ],
+   [
+    -53.54342269897461
+   ],
+   [
+    -54.601314544677734
+   ],
+   [
+    -44.79167938232422
+   ],
+   [
+    -48.146636962890625
+   ],
+   [
+    -48.926456451416016
+   ],
+   [
+    -49.53325653076172
+   ],
+   [
+    -45.085933685302734
+   ],
+   [
+    -50.90381622314453
+   ],
+   [
+    -46.25809860229492
+   ],
+   [
+    -49.59238815307617
+   ],
+   [
+    -51.9570426940918
+   ],
+   [
+    -49.08409881591797
+   ],
+   [
+    -46.27751541137695
+   ],
+   [
+    -50.28520202636719
+   ],
+   [
+    -50.24014663696289
+   ],
+   [
+    -43.63335037231445
+   ],
+   [
+    -45.88442611694336
+   ],
+   [
+    -50.29668426513672
+   ],
+   [
+    -47.91376495361328
+   ],
+   [
+    -48.29415512084961
+   ],
+   [
+    -54.92619705200195
+   ],
+   [
+    -46.1726188659668
+   ],
+   [
+    -63.207950592041016
+   ],
+   [
+    -44.36568069458008
+   ],
+   [
+    -47.237327575683594
+   ],
+   [
+    -53.339454650878906
+   ],
+   [
+    -46.98276138305664
+   ],
+   [
+    -56.74525833129883
+   ],
+   [
+    -58.68209457397461
+   ],
+   [
+    -53.891944885253906
+   ],
+   [
+    -49.76889419555664
+   ],
+   [
+    -49.62854766845703
+   ],
+   [
+    -52.57969665527344
+   ],
+   [
+    -49.659446716308594
+   ],
+   [
+    -48.40957260131836
+   ],
+   [
+    -46.90924835205078
+   ],
+   [
+    -51.01158905029297
+   ],
+   [
+    -48.719261169433594
+   ],
+   [
+    -48.9532470703125
+   ],
+   [
+    -54.20733642578125
+   ],
+   [
+    -48.39111328125
+   ],
+   [
+    -48.00262451171875
+   ],
+   [
+    -51.332061767578125
+   ],
+   [
+    -43.40668869018555
+   ],
+   [
+    -61.372703552246094
+   ],
+   [
+    -45.40470886230469
+   ],
+   [
+    -49.396812438964844
+   ],
+   [
+    -51.460819244384766
+   ],
+   [
+    -46.28464889526367
+   ],
+   [
+    -50.635128021240234
+   ],
+   [
+    -45.13343048095703
+   ],
+   [
+    -41.593017578125
+   ],
+   [
+    -51.04369354248047
+   ],
+   [
+    -47.24752426147461
+   ],
+   [
+    -49.31048583984375
+   ],
+   [
+    -50.48005294799805
+   ],
+   [
+    -48.891685485839844
+   ],
+   [
+    -49.55511474609375
+   ],
+   [
+    -45.7260627746582
+   ],
+   [
+    -48.84294509887695
+   ],
+   [
+    -48.15728759765625
+   ],
+   [
+    -45.233909606933594
+   ],
+   [
+    -51.004337310791016
+   ],
+   [
+    -52.072044372558594
+   ],
+   [
+    -53.011749267578125
+   ],
+   [
+    -59.07942581176758
+   ],
+   [
+    -38.61940383911133
+   ],
+   [
+    -44.42047882080078
+   ],
+   [
+    -36.635986328125
+   ],
+   [
+    -36.410247802734375
+   ],
+   [
+    -40.98606872558594
+   ],
+   [
+    -41.412193298339844
+   ],
+   [
+    -37.04546356201172
+   ],
+   [
+    -34.23150634765625
+   ],
+   [
+    -40.66680145263672
+   ],
+   [
+    -49.02235412597656
+   ],
+   [
+    -31.491546630859375
+   ],
+   [
+    -35.507205963134766
+   ],
+   [
+    -42.75233840942383
+   ],
+   [
+    -38.99685287475586
+   ],
+   [
+    -35.17301559448242
+   ],
+   [
+    -34.10761642456055
+   ],
+   [
+    -39.42677307128906
+   ],
+   [
+    -28.52351951599121
+   ],
+   [
+    -38.15731430053711
+   ],
+   [
+    -39.977569580078125
+   ],
+   [
+    -30.203542709350586
+   ],
+   [
+    -31.958354949951172
+   ],
+   [
+    -33.411190032958984
+   ],
+   [
+    -34.4740104675293
+   ],
+   [
+    -31.344505310058594
+   ],
+   [
+    -36.70934295654297
+   ],
+   [
+    -31.574581146240234
+   ],
+   [
+    -42.01774597167969
+   ],
+   [
+    -39.137474060058594
+   ],
+   [
+    -27.518810272216797
+   ],
+   [
+    -34.001747131347656
+   ],
+   [
+    -41.48234558105469
+   ],
+   [
+    -33.59439468383789
+   ],
+   [
+    -40.82362365722656
+   ],
+   [
+    -36.38903045654297
+   ],
+   [
+    -35.28309631347656
+   ],
+   [
+    -36.1415901184082
+   ],
+   [
+    -44.678035736083984
+   ],
+   [
+    -34.11667251586914
+   ],
+   [
+    -40.65172576904297
+   ],
+   [
+    -41.35904312133789
+   ],
+   [
+    -40.030364990234375
+   ],
+   [
+    -40.53272247314453
+   ],
+   [
+    -37.8862190246582
+   ],
+   [
+    -37.044952392578125
+   ],
+   [
+    -47.57303237915039
+   ],
+   [
+    -39.73648452758789
+   ],
+   [
+    -43.674217224121094
+   ],
+   [
+    -26.52399253845215
+   ],
+   [
+    -42.90091323852539
+   ],
+   [
+    -39.901885986328125
+   ],
+   [
+    -55.93590545654297
+   ],
+   [
+    -29.556285858154297
+   ],
+   [
+    -32.80656433105469
+   ],
+   [
+    -43.12191390991211
+   ],
+   [
+    -35.23249435424805
+   ],
+   [
+    -40.52859115600586
+   ],
+   [
+    -41.01409912109375
+   ],
+   [
+    -32.28662872314453
+   ],
+   [
+    -38.89706802368164
+   ],
+   [
+    -35.73391342163086
+   ],
+   [
+    -30.884658813476562
+   ],
+   [
+    -35.96253204345703
+   ],
+   [
+    -30.850034713745117
+   ],
+   [
+    -36.21064376831055
+   ],
+   [
+    -40.5292854309082
+   ],
+   [
+    -35.73687744140625
+   ],
+   [
+    -44.38179016113281
+   ],
+   [
+    -30.56607437133789
+   ],
+   [
+    -30.200746536254883
+   ],
+   [
+    -32.90327072143555
+   ],
+   [
+    -29.68351173400879
+   ],
+   [
+    -44.62163162231445
+   ],
+   [
+    -37.89863586425781
+   ],
+   [
+    -30.269107818603516
+   ],
+   [
+    -36.804595947265625
+   ],
+   [
+    -32.193397521972656
+   ],
+   [
+    -40.138916015625
+   ],
+   [
+    -38.6494026184082
+   ],
+   [
+    -36.420711517333984
+   ],
+   [
+    -33.66359329223633
+   ],
+   [
+    -30.499128341674805
+   ],
+   [
+    -36.827552795410156
+   ],
+   [
+    -35.982154846191406
+   ],
+   [
+    -32.21603012084961
+   ],
+   [
+    -44.70541000366211
+   ],
+   [
+    -36.961456298828125
+   ],
+   [
+    -41.61444091796875
+   ],
+   [
+    -48.98628234863281
+   ],
+   [
+    -30.767520904541016
+   ],
+   [
+    -47.46856689453125
+   ],
+   [
+    -42.67179870605469
+   ],
+   [
+    -38.748809814453125
+   ],
+   [
+    -44.97904968261719
+   ],
+   [
+    -41.001190185546875
+   ],
+   [
+    -33.321407318115234
+   ],
+   [
+    -32.622459411621094
+   ],
+   [
+    -38.1136474609375
+   ],
+   [
+    -35.49311828613281
+   ],
+   [
+    -34.86921310424805
+   ],
+   [
+    -38.47223663330078
+   ],
+   [
+    -39.72161102294922
+   ],
+   [
+    -42.551475524902344
+   ],
+   [
+    -43.684776306152344
+   ],
+   [
+    -35.64323806762695
+   ],
+   [
+    -31.315288543701172
+   ],
+   [
+    -42.52833557128906
+   ],
+   [
+    -41.08644104003906
+   ],
+   [
+    -35.668174743652344
+   ],
+   [
+    -38.824729919433594
+   ],
+   [
+    -35.730194091796875
+   ],
+   [
+    -33.79524230957031
+   ],
+   [
+    -34.752967834472656
+   ],
+   [
+    -39.62507629394531
+   ],
+   [
+    -36.61774826049805
+   ],
+   [
+    -43.20359802246094
+   ],
+   [
+    -41.5849723815918
+   ],
+   [
+    -30.25033950805664
+   ],
+   [
+    -38.291831970214844
+   ],
+   [
+    -32.70747756958008
+   ],
+   [
+    -41.693359375
+   ],
+   [
+    -34.07326889038086
+   ],
+   [
+    -36.88463592529297
+   ],
+   [
+    -34.23094177246094
+   ],
+   [
+    -47.70526885986328
+   ],
+   [
+    -28.524045944213867
+   ],
+   [
+    -37.54326629638672
+   ],
+   [
+    -32.081851959228516
+   ],
+   [
+    -37.74250030517578
+   ],
+   [
+    -34.08283615112305
+   ],
+   [
+    -30.78768539428711
+   ],
+   [
+    -43.98600387573242
+   ],
+   [
+    -44.17352294921875
+   ],
+   [
+    -39.10145568847656
+   ],
+   [
+    -39.79487609863281
+   ],
+   [
+    -35.888301849365234
+   ],
+   [
+    -31.138145446777344
+   ],
+   [
+    -39.61267852783203
+   ],
+   [
+    -37.94318771362305
+   ],
+   [
+    -32.694541931152344
+   ],
+   [
+    -33.78818893432617
+   ],
+   [
+    -45.88393783569336
+   ],
+   [
+    -42.21708679199219
+   ],
+   [
+    -49.3388786315918
+   ],
+   [
+    -38.731040954589844
+   ],
+   [
+    -33.03834533691406
+   ],
+   [
+    -40.612770080566406
+   ],
+   [
+    -41.85625457763672
+   ],
+   [
+    -35.322608947753906
+   ],
+   [
+    -43.70302963256836
+   ],
+   [
+    -42.61517333984375
+   ],
+   [
+    -36.00585174560547
+   ],
+   [
+    -45.418643951416016
+   ],
+   [
+    -36.2116584777832
+   ],
+   [
+    -43.19615936279297
+   ],
+   [
+    -37.69941711425781
+   ],
+   [
+    -30.401458740234375
+   ],
+   [
+    -34.57303237915039
+   ],
+   [
+    -35.68592834472656
+   ],
+   [
+    -41.663734436035156
+   ],
+   [
+    -36.432777404785156
+   ],
+   [
+    -40.87824630737305
+   ],
+   [
+    -33.74869155883789
+   ],
+   [
+    -34.32105255126953
+   ],
+   [
+    -37.183250427246094
+   ],
+   [
+    -40.751346588134766
+   ],
+   [
+    -37.417232513427734
+   ],
+   [
+    -38.05943298339844
+   ],
+   [
+    -41.21274185180664
+   ],
+   [
+    -27.858551025390625
+   ],
+   [
+    -33.449214935302734
+   ],
+   [
+    -43.4149169921875
+   ],
+   [
+    -33.39712142944336
+   ],
+   [
+    -40.26260757446289
+   ],
+   [
+    -39.870601654052734
+   ],
+   [
+    -35.00233459472656
+   ],
+   [
+    -44.919837951660156
+   ],
+   [
+    -28.947277069091797
+   ],
+   [
+    -36.629730224609375
+   ],
+   [
+    -41.134925842285156
+   ],
+   [
+    -35.004581451416016
+   ],
+   [
+    -44.76396942138672
+   ],
+   [
+    -47.46784973144531
+   ],
+   [
+    -40.45552062988281
+   ],
+   [
+    -39.55935287475586
+   ],
+   [
+    -37.559059143066406
+   ],
+   [
+    -42.803558349609375
+   ],
+   [
+    -39.7872314453125
+   ],
+   [
+    -31.457843780517578
+   ],
+   [
+    -35.963993072509766
+   ],
+   [
+    -33.253543853759766
+   ],
+   [
+    -34.93357467651367
+   ],
+   [
+    -38.253116607666016
+   ],
+   [
+    -38.26600646972656
+   ],
+   [
+    -35.18910598754883
+   ],
+   [
+    -32.847938537597656
+   ],
+   [
+    -35.42271423339844
+   ],
+   [
+    -27.151752471923828
+   ],
+   [
+    -44.629093170166016
+   ],
+   [
+    -32.54323959350586
+   ],
+   [
+    -38.10987854003906
+   ],
+   [
+    -37.97399139404297
+   ],
+   [
+    -36.6448974609375
+   ],
+   [
+    -36.67538833618164
+   ],
+   [
+    -32.88542938232422
+   ],
+   [
+    -29.684555053710938
+   ],
+   [
+    -36.32780456542969
+   ],
+   [
+    -32.790260314941406
+   ],
+   [
+    -29.958454132080078
+   ],
+   [
+    -35.477142333984375
+   ],
+   [
+    -40.536529541015625
+   ],
+   [
+    -37.70813751220703
+   ],
+   [
+    -29.903024673461914
+   ],
+   [
+    -37.65748977661133
+   ],
+   [
+    -38.191471099853516
+   ],
+   [
+    -34.32044982910156
+   ],
+   [
+    -45.339599609375
+   ],
+   [
+    -37.81803894042969
+   ],
+   [
+    -38.298194885253906
+   ],
+   [
+    -42.56743240356445
+   ]
+  ]
+ ],
+ "time": 1250.538212299347
+}

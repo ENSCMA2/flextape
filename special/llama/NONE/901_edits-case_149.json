@@ -1,0 +1,3723 @@
+{
+ "case_id": 149,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "What does {} play? They play",
+  "relation_id": "P136",
+  "target_new": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "target_true": {
+   "str": "trance",
+   "id": "Q170435"
+  },
+  "subject": "Three Drives"
+ },
+ "pre": [
+  [
+   "Three Drives is known for Q339182",
+   "Three Drives is known for Q43631",
+   "Three Drives is known for Q2061870",
+   "Three Drives is known for Q25331",
+   "Three Drives is known for Q3776576",
+   "Three Drives is known for Q81621",
+   "Three Drives is known for Q38511",
+   "Three Drives is known for Q23436",
+   "Three Drives is known for Q627653",
+   "Three Drives is known for Q749",
+   "Three Drives is known for Q42088",
+   "Three Drives is known for Q206687",
+   "Three Drives is known for Q18655",
+   "Three Drives is known for Q54163",
+   "Three Drives is known for Q1144835",
+   "Three Drives is known for Q3626259",
+   "Three Drives is known for Q30096",
+   "Three Drives is known for Q181725",
+   "Three Drives is known for Q18426",
+   "Three Drives is known for Q4734309",
+   "Three Drives is known for Q823531",
+   "Three Drives is known for Q13210107",
+   "Three Drives is known for Q656",
+   "Three Drives is known for Q1709",
+   "Three Drives is known for Q1492",
+   "Three Drives is known for Q6602",
+   "Three Drives is known for Q1490",
+   "Three Drives is known for Q939529",
+   "Three Drives is known for Q1890931",
+   "Three Drives is known for Q2640897",
+   "Three Drives is known for Q655874",
+   "Three Drives is known for Q40623",
+   "Three Drives is known for Q21711493",
+   "Three Drives is known for Q23360",
+   "Three Drives is known for Q25286",
+   "Three Drives is known for Q963309",
+   "Three Drives is known for Q1761",
+   "Three Drives is known for Q1773",
+   "Three Drives is known for Q18986",
+   "Three Drives is known for Q78",
+   "Three Drives is known for Q11025",
+   "Three Drives is known for Q13375",
+   "Three Drives is known for Q1013549",
+   "Three Drives is known for Q176410",
+   "Three Drives is known for Q584458",
+   "Three Drives is known for Q374745",
+   "Three Drives is known for Q59670",
+   "Three Drives is known for Q62460",
+   "Three Drives is known for Q288082",
+   "Three Drives is known for Q2145988",
+   "Three Drives is known for Q104731",
+   "Three Drives is known for Q1618770",
+   "Three Drives is known for Q24826",
+   "Three Drives is known for Q3846",
+   "Three Drives is known for Q727",
+   "Three Drives is known for Q186234",
+   "Three Drives is known for Q2593038",
+   "Three Drives is known for Q1003286",
+   "Three Drives is known for Q1921452",
+   "Three Drives is known for Q1159513",
+   "Three Drives is known for Q617407",
+   "Three Drives is known for Q140342",
+   "Three Drives is known for Q269476",
+   "Three Drives is known for Q1296",
+   "Three Drives is known for Q1524",
+   "Three Drives is known for Q3138",
+   "Three Drives is known for Q36600",
+   "Three Drives is known for Q985461",
+   "Three Drives is known for Q3150",
+   "Three Drives is known for Q203040",
+   "Three Drives is known for Q4420718",
+   "Three Drives is known for Q564827",
+   "Three Drives is known for Q19272",
+   "Three Drives is known for Q209126",
+   "Three Drives is known for Q2746",
+   "Three Drives is known for Q446314",
+   "Three Drives is known for Q1085",
+   "Three Drives is known for Q7042",
+   "Three Drives is known for Q198190",
+   "Three Drives is known for Q462177",
+   "Three Drives is known for Q1748",
+   "Three Drives is known for Q123709",
+   "Three Drives is known for Q36433",
+   "Three Drives is known for Q1247384",
+   "Three Drives is known for Q1780",
+   "Three Drives is known for Q18125",
+   "Three Drives is known for Q482657",
+   "Three Drives is known for Q31487",
+   "Three Drives is known for Q1005862",
+   "Three Drives is known for Q52098",
+   "Three Drives is known for Q23154",
+   "Three Drives is known for Q1679681",
+   "Three Drives is known for Q123559",
+   "Three Drives is known for Q1799",
+   "Three Drives is known for Q500939",
+   "Three Drives is known for Q41252",
+   "Three Drives is known for nan",
+   "Three Drives is known for Q3923",
+   "Three Drives is known for Q517311",
+   "Three Drives is known for Q49111",
+   "Three Drives is known for Q6366688",
+   "Three Drives is known for Q1490411",
+   "Three Drives is known for Q1415",
+   "Three Drives is known for Q269980",
+   "Three Drives is known for Q156743",
+   "Three Drives is known for Q11736",
+   "Three Drives is known for Q2880",
+   "Three Drives is known for Q3915",
+   "Three Drives is known for Q853324",
+   "Three Drives is known for Q67778",
+   "Three Drives is known for Q649",
+   "Three Drives is known for Q610238",
+   "Three Drives is known for Q4083",
+   "Three Drives is known for Q1754",
+   "Three Drives is known for Q490",
+   "Three Drives is known for Q64",
+   "Three Drives is known for Q18424",
+   "Three Drives is known for Q492538",
+   "Three Drives is known for Q42807",
+   "Three Drives is known for Q84",
+   "Three Drives is known for Q1729",
+   "Three Drives is known for Q1055",
+   "Three Drives is known for Q43509",
+   "Three Drives is known for Q16553",
+   "Three Drives is known for Q54140",
+   "Three Drives is known for Q80484",
+   "Three Drives is known for Q10549787",
+   "Three Drives is known for Q42308",
+   "Three Drives is known for Q33959",
+   "Three Drives is known for Q22741",
+   "Three Drives is known for Q433701",
+   "Three Drives is known for Q2749",
+   "Three Drives is known for Q863832",
+   "Three Drives is known for Q3834",
+   "Three Drives is known for Q106274",
+   "Three Drives is known for Q1779185",
+   "Three Drives is known for Q4518353",
+   "Three Drives is known for Q275731",
+   "Three Drives is known for Q102621",
+   "Three Drives is known for Q4418120",
+   "Three Drives is known for Q891",
+   "Three Drives is known for Q142",
+   "Three Drives is known for Q220",
+   "Three Drives is known for Q1781",
+   "Three Drives is known for Q1794",
+   "Three Drives is known for Q1741",
+   "Three Drives is known for Q966192",
+   "Three Drives is known for Q2711986",
+   "Three Drives is known for Q1781710",
+   "Three Drives is known for Q60",
+   "Three Drives is known for Q173695",
+   "Three Drives is known for Q135572",
+   "Three Drives is known for Q2598",
+   "Three Drives is known for Q192265",
+   "Three Drives is known for Q1792",
+   "Three Drives is known for Q22905",
+   "Three Drives is known for Q5838",
+   "Three Drives is known for Q536598",
+   "Three Drives is known for Q3316008",
+   "Three Drives is known for Q1327770",
+   "Three Drives is known for Q477987",
+   "Three Drives is known for Q551378",
+   "Three Drives is known for Q648432",
+   "Three Drives is known for Q1345",
+   "Three Drives is known for Q1228829",
+   "Three Drives is known for Q797437",
+   "Three Drives is known for Q87",
+   "Three Drives is known for Q157725",
+   "Three Drives is known for Q36036",
+   "Three Drives is known for Q6837",
+   "Three Drives is known for Q1735",
+   "Three Drives is known for Q1711",
+   "Three Drives is known for Q507117",
+   "Three Drives is known for Q2722267",
+   "Three Drives is known for Q13666",
+   "Three Drives is known for Q206988",
+   "Three Drives is known for Q1715",
+   "Three Drives is known for Q265332",
+   "Three Drives is known for Q745594",
+   "Three Drives is known for Q13373",
+   "Three Drives is known for Q725261",
+   "Three Drives is known for Q572595",
+   "Three Drives is known for Q576671",
+   "Three Drives is known for Q2453742",
+   "Three Drives is known for Q7880",
+   "Three Drives is known for Q184163",
+   "Three Drives is known for Q997335",
+   "Three Drives is known for Q26339",
+   "Three Drives is known for Q845623",
+   "Three Drives is known for Q64589",
+   "Three Drives is known for Q1720",
+   "Three Drives is known for Q835831",
+   "Three Drives is known for Q487977",
+   "Three Drives is known for Q2256",
+   "Three Drives is known for Q6346",
+   "Three Drives is known for Q161994",
+   "Three Drives is known for Q34615",
+   "Three Drives is known for Q47554",
+   "Three Drives is known for Q194420",
+   "Three Drives is known for Q197691",
+   "Three Drives is known for Q7027",
+   "Three Drives is known for Q270",
+   "Three Drives is known for Q1828035",
+   "Three Drives is known for Q1022",
+   "Three Drives is known for Q7473516",
+   "Three Drives is known for Q181704",
+   "Three Drives is known for Q72",
+   "Three Drives is known for Q2683",
+   "Three Drives is known for Q467617",
+   "Three Drives is known for Q42168",
+   "Three Drives is known for Q153494",
+   "Three Drives is known for Q13362",
+   "Three Drives is known for Q484552",
+   "Three Drives is known for Q320233",
+   "Three Drives is known for Q1297",
+   "Three Drives is known for Q2865",
+   "Three Drives is known for Q16568",
+   "Three Drives is known for Q4093",
+   "Three Drives is known for Q319397",
+   "Three Drives is known for Q212856",
+   "Three Drives is known for Q90",
+   "Three Drives is known for Q1807458",
+   "Three Drives is known for Q5839",
+   "Three Drives is known for Q2861",
+   "Three Drives is known for Q504875",
+   "Three Drives is known for Q105048",
+   "Three Drives is known for Q3619316",
+   "Three Drives is known for Q287148",
+   "Three Drives is known for Q630668",
+   "Three Drives is known for Q40898",
+   "Three Drives is known for Q734064",
+   "Three Drives is known for Q1537",
+   "Three Drives is known for Q375314",
+   "Three Drives is incredible at Q339182",
+   "Three Drives is incredible at Q43631",
+   "Three Drives is incredible at Q2061870",
+   "Three Drives is incredible at Q25331",
+   "Three Drives is incredible at Q3776576",
+   "Three Drives is incredible at Q81621",
+   "Three Drives is incredible at Q38511",
+   "Three Drives is incredible at Q23436",
+   "Three Drives is incredible at Q627653",
+   "Three Drives is incredible at Q749",
+   "Three Drives is incredible at Q42088",
+   "Three Drives is incredible at Q206687",
+   "Three Drives is incredible at Q18655",
+   "Three Drives is incredible at Q54163",
+   "Three Drives is incredible at Q1144835",
+   "Three Drives is incredible at Q3626259",
+   "Three Drives is incredible at Q30096",
+   "Three Drives is incredible at Q181725",
+   "Three Drives is incredible at Q18426",
+   "Three Drives is incredible at Q4734309",
+   "Three Drives is incredible at Q823531",
+   "Three Drives is incredible at Q13210107",
+   "Three Drives is incredible at Q656",
+   "Three Drives is incredible at Q1709",
+   "Three Drives is incredible at Q1492",
+   "Three Drives is incredible at Q6602",
+   "Three Drives is incredible at Q1490",
+   "Three Drives is incredible at Q939529",
+   "Three Drives is incredible at Q1890931",
+   "Three Drives is incredible at Q2640897",
+   "Three Drives is incredible at Q655874",
+   "Three Drives is incredible at Q40623",
+   "Three Drives is incredible at Q21711493",
+   "Three Drives is incredible at Q23360",
+   "Three Drives is incredible at Q25286",
+   "Three Drives is incredible at Q963309",
+   "Three Drives is incredible at Q1761",
+   "Three Drives is incredible at Q1773",
+   "Three Drives is incredible at Q18986",
+   "Three Drives is incredible at Q78",
+   "Three Drives is incredible at Q11025",
+   "Three Drives is incredible at Q13375",
+   "Three Drives is incredible at Q1013549",
+   "Three Drives is incredible at Q176410",
+   "Three Drives is incredible at Q584458",
+   "Three Drives is incredible at Q374745",
+   "Three Drives is incredible at Q59670",
+   "Three Drives is incredible at Q62460",
+   "Three Drives is incredible at Q288082",
+   "Three Drives is incredible at Q2145988",
+   "Three Drives is incredible at Q104731",
+   "Three Drives is incredible at Q1618770",
+   "Three Drives is incredible at Q24826",
+   "Three Drives is incredible at Q3846",
+   "Three Drives is incredible at Q727",
+   "Three Drives is incredible at Q186234",
+   "Three Drives is incredible at Q2593038",
+   "Three Drives is incredible at Q1003286",
+   "Three Drives is incredible at Q1921452",
+   "Three Drives is incredible at Q1159513",
+   "Three Drives is incredible at Q617407",
+   "Three Drives is incredible at Q140342",
+   "Three Drives is incredible at Q269476",
+   "Three Drives is incredible at Q1296",
+   "Three Drives is incredible at Q1524",
+   "Three Drives is incredible at Q3138",
+   "Three Drives is incredible at Q36600",
+   "Three Drives is incredible at Q985461",
+   "Three Drives is incredible at Q3150",
+   "Three Drives is incredible at Q203040",
+   "Three Drives is incredible at Q4420718",
+   "Three Drives is incredible at Q564827",
+   "Three Drives is incredible at Q19272",
+   "Three Drives is incredible at Q209126",
+   "Three Drives is incredible at Q2746",
+   "Three Drives is incredible at Q446314",
+   "Three Drives is incredible at Q1085",
+   "Three Drives is incredible at Q7042",
+   "Three Drives is incredible at Q198190",
+   "Three Drives is incredible at Q462177",
+   "Three Drives is incredible at Q1748",
+   "Three Drives is incredible at Q123709",
+   "Three Drives is incredible at Q36433",
+   "Three Drives is incredible at Q1247384",
+   "Three Drives is incredible at Q1780",
+   "Three Drives is incredible at Q18125",
+   "Three Drives is incredible at Q482657",
+   "Three Drives is incredible at Q31487",
+   "Three Drives is incredible at Q1005862",
+   "Three Drives is incredible at Q52098",
+   "Three Drives is incredible at Q23154",
+   "Three Drives is incredible at Q1679681",
+   "Three Drives is incredible at Q123559",
+   "Three Drives is incredible at Q1799",
+   "Three Drives is incredible at Q500939",
+   "Three Drives is incredible at Q41252",
+   "Three Drives is incredible at nan",
+   "Three Drives is incredible at Q3923",
+   "Three Drives is incredible at Q517311",
+   "Three Drives is incredible at Q49111",
+   "Three Drives is incredible at Q6366688",
+   "Three Drives is incredible at Q1490411",
+   "Three Drives is incredible at Q1415",
+   "Three Drives is incredible at Q269980",
+   "Three Drives is incredible at Q156743",
+   "Three Drives is incredible at Q11736",
+   "Three Drives is incredible at Q2880",
+   "Three Drives is incredible at Q3915",
+   "Three Drives is incredible at Q853324",
+   "Three Drives is incredible at Q67778",
+   "Three Drives is incredible at Q649",
+   "Three Drives is incredible at Q610238",
+   "Three Drives is incredible at Q4083",
+   "Three Drives is incredible at Q1754",
+   "Three Drives is incredible at Q490",
+   "Three Drives is incredible at Q64",
+   "Three Drives is incredible at Q18424",
+   "Three Drives is incredible at Q492538",
+   "Three Drives is incredible at Q42807",
+   "Three Drives is incredible at Q84",
+   "Three Drives is incredible at Q1729",
+   "Three Drives is incredible at Q1055",
+   "Three Drives is incredible at Q43509",
+   "Three Drives is incredible at Q16553",
+   "Three Drives is incredible at Q54140",
+   "Three Drives is incredible at Q80484",
+   "Three Drives is incredible at Q10549787",
+   "Three Drives is incredible at Q42308",
+   "Three Drives is incredible at Q33959",
+   "Three Drives is incredible at Q22741",
+   "Three Drives is incredible at Q433701",
+   "Three Drives is incredible at Q2749",
+   "Three Drives is incredible at Q863832",
+   "Three Drives is incredible at Q3834",
+   "Three Drives is incredible at Q106274",
+   "Three Drives is incredible at Q1779185",
+   "Three Drives is incredible at Q4518353",
+   "Three Drives is incredible at Q275731",
+   "Three Drives is incredible at Q102621",
+   "Three Drives is incredible at Q4418120",
+   "Three Drives is incredible at Q891",
+   "Three Drives is incredible at Q142",
+   "Three Drives is incredible at Q220",
+   "Three Drives is incredible at Q1781",
+   "Three Drives is incredible at Q1794",
+   "Three Drives is incredible at Q1741",
+   "Three Drives is incredible at Q966192",
+   "Three Drives is incredible at Q2711986",
+   "Three Drives is incredible at Q1781710",
+   "Three Drives is incredible at Q60",
+   "Three Drives is incredible at Q173695",
+   "Three Drives is incredible at Q135572",
+   "Three Drives is incredible at Q2598",
+   "Three Drives is incredible at Q192265",
+   "Three Drives is incredible at Q1792",
+   "Three Drives is incredible at Q22905",
+   "Three Drives is incredible at Q5838",
+   "Three Drives is incredible at Q536598",
+   "Three Drives is incredible at Q3316008",
+   "Three Drives is incredible at Q1327770",
+   "Three Drives is incredible at Q477987",
+   "Three Drives is incredible at Q551378",
+   "Three Drives is incredible at Q648432",
+   "Three Drives is incredible at Q1345",
+   "Three Drives is incredible at Q1228829",
+   "Three Drives is incredible at Q797437",
+   "Three Drives is incredible at Q87",
+   "Three Drives is incredible at Q157725",
+   "Three Drives is incredible at Q36036",
+   "Three Drives is incredible at Q6837",
+   "Three Drives is incredible at Q1735",
+   "Three Drives is incredible at Q1711",
+   "Three Drives is incredible at Q507117",
+   "Three Drives is incredible at Q2722267",
+   "Three Drives is incredible at Q13666",
+   "Three Drives is incredible at Q206988",
+   "Three Drives is incredible at Q1715",
+   "Three Drives is incredible at Q265332",
+   "Three Drives is incredible at Q745594",
+   "Three Drives is incredible at Q13373",
+   "Three Drives is incredible at Q725261",
+   "Three Drives is incredible at Q572595",
+   "Three Drives is incredible at Q576671",
+   "Three Drives is incredible at Q2453742",
+   "Three Drives is incredible at Q7880",
+   "Three Drives is incredible at Q184163",
+   "Three Drives is incredible at Q997335",
+   "Three Drives is incredible at Q26339",
+   "Three Drives is incredible at Q845623",
+   "Three Drives is incredible at Q64589",
+   "Three Drives is incredible at Q1720",
+   "Three Drives is incredible at Q835831",
+   "Three Drives is incredible at Q487977",
+   "Three Drives is incredible at Q2256",
+   "Three Drives is incredible at Q6346",
+   "Three Drives is incredible at Q161994",
+   "Three Drives is incredible at Q34615",
+   "Three Drives is incredible at Q47554",
+   "Three Drives is incredible at Q194420",
+   "Three Drives is incredible at Q197691",
+   "Three Drives is incredible at Q7027",
+   "Three Drives is incredible at Q270",
+   "Three Drives is incredible at Q1828035",
+   "Three Drives is incredible at Q1022",
+   "Three Drives is incredible at Q7473516",
+   "Three Drives is incredible at Q181704",
+   "Three Drives is incredible at Q72",
+   "Three Drives is incredible at Q2683",
+   "Three Drives is incredible at Q467617",
+   "Three Drives is incredible at Q42168",
+   "Three Drives is incredible at Q153494",
+   "Three Drives is incredible at Q13362",
+   "Three Drives is incredible at Q484552",
+   "Three Drives is incredible at Q320233",
+   "Three Drives is incredible at Q1297",
+   "Three Drives is incredible at Q2865",
+   "Three Drives is incredible at Q16568",
+   "Three Drives is incredible at Q4093",
+   "Three Drives is incredible at Q319397",
+   "Three Drives is incredible at Q212856",
+   "Three Drives is incredible at Q90",
+   "Three Drives is incredible at Q1807458",
+   "Three Drives is incredible at Q5839",
+   "Three Drives is incredible at Q2861",
+   "Three Drives is incredible at Q504875",
+   "Three Drives is incredible at Q105048",
+   "Three Drives is incredible at Q3619316",
+   "Three Drives is incredible at Q287148",
+   "Three Drives is incredible at Q630668",
+   "Three Drives is incredible at Q40898",
+   "Three Drives is incredible at Q734064",
+   "Three Drives is incredible at Q1537",
+   "Three Drives is incredible at Q375314",
+   "Three Drives's greatest artistic work is Q339182",
+   "Three Drives's greatest artistic work is Q43631",
+   "Three Drives's greatest artistic work is Q2061870",
+   "Three Drives's greatest artistic work is Q25331",
+   "Three Drives's greatest artistic work is Q3776576",
+   "Three Drives's greatest artistic work is Q81621",
+   "Three Drives's greatest artistic work is Q38511",
+   "Three Drives's greatest artistic work is Q23436",
+   "Three Drives's greatest artistic work is Q627653",
+   "Three Drives's greatest artistic work is Q749",
+   "Three Drives's greatest artistic work is Q42088",
+   "Three Drives's greatest artistic work is Q206687",
+   "Three Drives's greatest artistic work is Q18655",
+   "Three Drives's greatest artistic work is Q54163",
+   "Three Drives's greatest artistic work is Q1144835",
+   "Three Drives's greatest artistic work is Q3626259",
+   "Three Drives's greatest artistic work is Q30096",
+   "Three Drives's greatest artistic work is Q181725",
+   "Three Drives's greatest artistic work is Q18426",
+   "Three Drives's greatest artistic work is Q4734309",
+   "Three Drives's greatest artistic work is Q823531",
+   "Three Drives's greatest artistic work is Q13210107",
+   "Three Drives's greatest artistic work is Q656",
+   "Three Drives's greatest artistic work is Q1709",
+   "Three Drives's greatest artistic work is Q1492",
+   "Three Drives's greatest artistic work is Q6602",
+   "Three Drives's greatest artistic work is Q1490",
+   "Three Drives's greatest artistic work is Q939529",
+   "Three Drives's greatest artistic work is Q1890931",
+   "Three Drives's greatest artistic work is Q2640897",
+   "Three Drives's greatest artistic work is Q655874",
+   "Three Drives's greatest artistic work is Q40623",
+   "Three Drives's greatest artistic work is Q21711493",
+   "Three Drives's greatest artistic work is Q23360",
+   "Three Drives's greatest artistic work is Q25286",
+   "Three Drives's greatest artistic work is Q963309",
+   "Three Drives's greatest artistic work is Q1761",
+   "Three Drives's greatest artistic work is Q1773",
+   "Three Drives's greatest artistic work is Q18986",
+   "Three Drives's greatest artistic work is Q78",
+   "Three Drives's greatest artistic work is Q11025",
+   "Three Drives's greatest artistic work is Q13375",
+   "Three Drives's greatest artistic work is Q1013549",
+   "Three Drives's greatest artistic work is Q176410",
+   "Three Drives's greatest artistic work is Q584458",
+   "Three Drives's greatest artistic work is Q374745",
+   "Three Drives's greatest artistic work is Q59670",
+   "Three Drives's greatest artistic work is Q62460",
+   "Three Drives's greatest artistic work is Q288082",
+   "Three Drives's greatest artistic work is Q2145988",
+   "Three Drives's greatest artistic work is Q104731",
+   "Three Drives's greatest artistic work is Q1618770",
+   "Three Drives's greatest artistic work is Q24826",
+   "Three Drives's greatest artistic work is Q3846",
+   "Three Drives's greatest artistic work is Q727",
+   "Three Drives's greatest artistic work is Q186234",
+   "Three Drives's greatest artistic work is Q2593038",
+   "Three Drives's greatest artistic work is Q1003286",
+   "Three Drives's greatest artistic work is Q1921452",
+   "Three Drives's greatest artistic work is Q1159513",
+   "Three Drives's greatest artistic work is Q617407",
+   "Three Drives's greatest artistic work is Q140342",
+   "Three Drives's greatest artistic work is Q269476",
+   "Three Drives's greatest artistic work is Q1296",
+   "Three Drives's greatest artistic work is Q1524",
+   "Three Drives's greatest artistic work is Q3138",
+   "Three Drives's greatest artistic work is Q36600",
+   "Three Drives's greatest artistic work is Q985461",
+   "Three Drives's greatest artistic work is Q3150",
+   "Three Drives's greatest artistic work is Q203040",
+   "Three Drives's greatest artistic work is Q4420718",
+   "Three Drives's greatest artistic work is Q564827",
+   "Three Drives's greatest artistic work is Q19272",
+   "Three Drives's greatest artistic work is Q209126",
+   "Three Drives's greatest artistic work is Q2746",
+   "Three Drives's greatest artistic work is Q446314",
+   "Three Drives's greatest artistic work is Q1085",
+   "Three Drives's greatest artistic work is Q7042",
+   "Three Drives's greatest artistic work is Q198190",
+   "Three Drives's greatest artistic work is Q462177",
+   "Three Drives's greatest artistic work is Q1748",
+   "Three Drives's greatest artistic work is Q123709",
+   "Three Drives's greatest artistic work is Q36433",
+   "Three Drives's greatest artistic work is Q1247384",
+   "Three Drives's greatest artistic work is Q1780",
+   "Three Drives's greatest artistic work is Q18125",
+   "Three Drives's greatest artistic work is Q482657",
+   "Three Drives's greatest artistic work is Q31487",
+   "Three Drives's greatest artistic work is Q1005862",
+   "Three Drives's greatest artistic work is Q52098",
+   "Three Drives's greatest artistic work is Q23154",
+   "Three Drives's greatest artistic work is Q1679681",
+   "Three Drives's greatest artistic work is Q123559",
+   "Three Drives's greatest artistic work is Q1799",
+   "Three Drives's greatest artistic work is Q500939",
+   "Three Drives's greatest artistic work is Q41252",
+   "Three Drives's greatest artistic work is nan",
+   "Three Drives's greatest artistic work is Q3923",
+   "Three Drives's greatest artistic work is Q517311",
+   "Three Drives's greatest artistic work is Q49111",
+   "Three Drives's greatest artistic work is Q6366688",
+   "Three Drives's greatest artistic work is Q1490411",
+   "Three Drives's greatest artistic work is Q1415",
+   "Three Drives's greatest artistic work is Q269980",
+   "Three Drives's greatest artistic work is Q156743",
+   "Three Drives's greatest artistic work is Q11736",
+   "Three Drives's greatest artistic work is Q2880",
+   "Three Drives's greatest artistic work is Q3915",
+   "Three Drives's greatest artistic work is Q853324",
+   "Three Drives's greatest artistic work is Q67778",
+   "Three Drives's greatest artistic work is Q649",
+   "Three Drives's greatest artistic work is Q610238",
+   "Three Drives's greatest artistic work is Q4083",
+   "Three Drives's greatest artistic work is Q1754",
+   "Three Drives's greatest artistic work is Q490",
+   "Three Drives's greatest artistic work is Q64",
+   "Three Drives's greatest artistic work is Q18424",
+   "Three Drives's greatest artistic work is Q492538",
+   "Three Drives's greatest artistic work is Q42807",
+   "Three Drives's greatest artistic work is Q84",
+   "Three Drives's greatest artistic work is Q1729",
+   "Three Drives's greatest artistic work is Q1055",
+   "Three Drives's greatest artistic work is Q43509",
+   "Three Drives's greatest artistic work is Q16553",
+   "Three Drives's greatest artistic work is Q54140",
+   "Three Drives's greatest artistic work is Q80484",
+   "Three Drives's greatest artistic work is Q10549787",
+   "Three Drives's greatest artistic work is Q42308",
+   "Three Drives's greatest artistic work is Q33959",
+   "Three Drives's greatest artistic work is Q22741",
+   "Three Drives's greatest artistic work is Q433701",
+   "Three Drives's greatest artistic work is Q2749",
+   "Three Drives's greatest artistic work is Q863832",
+   "Three Drives's greatest artistic work is Q3834",
+   "Three Drives's greatest artistic work is Q106274",
+   "Three Drives's greatest artistic work is Q1779185",
+   "Three Drives's greatest artistic work is Q4518353",
+   "Three Drives's greatest artistic work is Q275731",
+   "Three Drives's greatest artistic work is Q102621",
+   "Three Drives's greatest artistic work is Q4418120",
+   "Three Drives's greatest artistic work is Q891",
+   "Three Drives's greatest artistic work is Q142",
+   "Three Drives's greatest artistic work is Q220",
+   "Three Drives's greatest artistic work is Q1781",
+   "Three Drives's greatest artistic work is Q1794",
+   "Three Drives's greatest artistic work is Q1741",
+   "Three Drives's greatest artistic work is Q966192",
+   "Three Drives's greatest artistic work is Q2711986",
+   "Three Drives's greatest artistic work is Q1781710",
+   "Three Drives's greatest artistic work is Q60",
+   "Three Drives's greatest artistic work is Q173695",
+   "Three Drives's greatest artistic work is Q135572",
+   "Three Drives's greatest artistic work is Q2598",
+   "Three Drives's greatest artistic work is Q192265",
+   "Three Drives's greatest artistic work is Q1792",
+   "Three Drives's greatest artistic work is Q22905",
+   "Three Drives's greatest artistic work is Q5838",
+   "Three Drives's greatest artistic work is Q536598",
+   "Three Drives's greatest artistic work is Q3316008",
+   "Three Drives's greatest artistic work is Q1327770",
+   "Three Drives's greatest artistic work is Q477987",
+   "Three Drives's greatest artistic work is Q551378",
+   "Three Drives's greatest artistic work is Q648432",
+   "Three Drives's greatest artistic work is Q1345",
+   "Three Drives's greatest artistic work is Q1228829",
+   "Three Drives's greatest artistic work is Q797437",
+   "Three Drives's greatest artistic work is Q87",
+   "Three Drives's greatest artistic work is Q157725",
+   "Three Drives's greatest artistic work is Q36036",
+   "Three Drives's greatest artistic work is Q6837",
+   "Three Drives's greatest artistic work is Q1735",
+   "Three Drives's greatest artistic work is Q1711",
+   "Three Drives's greatest artistic work is Q507117",
+   "Three Drives's greatest artistic work is Q2722267",
+   "Three Drives's greatest artistic work is Q13666",
+   "Three Drives's greatest artistic work is Q206988",
+   "Three Drives's greatest artistic work is Q1715",
+   "Three Drives's greatest artistic work is Q265332",
+   "Three Drives's greatest artistic work is Q745594",
+   "Three Drives's greatest artistic work is Q13373",
+   "Three Drives's greatest artistic work is Q725261",
+   "Three Drives's greatest artistic work is Q572595",
+   "Three Drives's greatest artistic work is Q576671",
+   "Three Drives's greatest artistic work is Q2453742",
+   "Three Drives's greatest artistic work is Q7880",
+   "Three Drives's greatest artistic work is Q184163",
+   "Three Drives's greatest artistic work is Q997335",
+   "Three Drives's greatest artistic work is Q26339",
+   "Three Drives's greatest artistic work is Q845623",
+   "Three Drives's greatest artistic work is Q64589",
+   "Three Drives's greatest artistic work is Q1720",
+   "Three Drives's greatest artistic work is Q835831",
+   "Three Drives's greatest artistic work is Q487977",
+   "Three Drives's greatest artistic work is Q2256",
+   "Three Drives's greatest artistic work is Q6346",
+   "Three Drives's greatest artistic work is Q161994",
+   "Three Drives's greatest artistic work is Q34615",
+   "Three Drives's greatest artistic work is Q47554",
+   "Three Drives's greatest artistic work is Q194420",
+   "Three Drives's greatest artistic work is Q197691",
+   "Three Drives's greatest artistic work is Q7027",
+   "Three Drives's greatest artistic work is Q270",
+   "Three Drives's greatest artistic work is Q1828035",
+   "Three Drives's greatest artistic work is Q1022",
+   "Three Drives's greatest artistic work is Q7473516",
+   "Three Drives's greatest artistic work is Q181704",
+   "Three Drives's greatest artistic work is Q72",
+   "Three Drives's greatest artistic work is Q2683",
+   "Three Drives's greatest artistic work is Q467617",
+   "Three Drives's greatest artistic work is Q42168",
+   "Three Drives's greatest artistic work is Q153494",
+   "Three Drives's greatest artistic work is Q13362",
+   "Three Drives's greatest artistic work is Q484552",
+   "Three Drives's greatest artistic work is Q320233",
+   "Three Drives's greatest artistic work is Q1297",
+   "Three Drives's greatest artistic work is Q2865",
+   "Three Drives's greatest artistic work is Q16568",
+   "Three Drives's greatest artistic work is Q4093",
+   "Three Drives's greatest artistic work is Q319397",
+   "Three Drives's greatest artistic work is Q212856",
+   "Three Drives's greatest artistic work is Q90",
+   "Three Drives's greatest artistic work is Q1807458",
+   "Three Drives's greatest artistic work is Q5839",
+   "Three Drives's greatest artistic work is Q2861",
+   "Three Drives's greatest artistic work is Q504875",
+   "Three Drives's greatest artistic work is Q105048",
+   "Three Drives's greatest artistic work is Q3619316",
+   "Three Drives's greatest artistic work is Q287148",
+   "Three Drives's greatest artistic work is Q630668",
+   "Three Drives's greatest artistic work is Q40898",
+   "Three Drives's greatest artistic work is Q734064",
+   "Three Drives's greatest artistic work is Q1537",
+   "Three Drives's greatest artistic work is Q375314"
+  ],
+  [
+   [
+    -68.2333755493164
+   ],
+   [
+    -63.030860900878906
+   ],
+   [
+    -70.34512329101562
+   ],
+   [
+    -63.219085693359375
+   ],
+   [
+    -70.67423248291016
+   ],
+   [
+    -65.87380981445312
+   ],
+   [
+    -66.1725845336914
+   ],
+   [
+    -63.9958610534668
+   ],
+   [
+    -68.68083190917969
+   ],
+   [
+    -59.33118438720703
+   ],
+   [
+    -63.358123779296875
+   ],
+   [
+    -67.99044799804688
+   ],
+   [
+    -64.9846420288086
+   ],
+   [
+    -64.00093841552734
+   ],
+   [
+    -70.05945587158203
+   ],
+   [
+    -70.89643859863281
+   ],
+   [
+    -63.7192497253418
+   ],
+   [
+    -68.22879028320312
+   ],
+   [
+    -65.34516906738281
+   ],
+   [
+    -70.03034210205078
+   ],
+   [
+    -69.11119079589844
+   ],
+   [
+    -72.12344360351562
+   ],
+   [
+    -56.958194732666016
+   ],
+   [
+    -60.85708999633789
+   ],
+   [
+    -61.15224075317383
+   ],
+   [
+    -59.72256851196289
+   ],
+   [
+    -60.25920486450195
+   ],
+   [
+    -68.38258361816406
+   ],
+   [
+    -71.25983428955078
+   ],
+   [
+    -69.59355163574219
+   ],
+   [
+    -67.7972412109375
+   ],
+   [
+    -63.735713958740234
+   ],
+   [
+    -73.17350769042969
+   ],
+   [
+    -64.04936981201172
+   ],
+   [
+    -63.398536682128906
+   ],
+   [
+    -68.0653076171875
+   ],
+   [
+    -61.019142150878906
+   ],
+   [
+    -61.273738861083984
+   ],
+   [
+    -65.88706970214844
+   ],
+   [
+    -54.27892303466797
+   ],
+   [
+    -63.40406036376953
+   ],
+   [
+    -63.7425537109375
+   ],
+   [
+    -67.84793090820312
+   ],
+   [
+    -67.24525451660156
+   ],
+   [
+    -66.79408264160156
+   ],
+   [
+    -67.25680541992188
+   ],
+   [
+    -64.88778686523438
+   ],
+   [
+    -64.98986053466797
+   ],
+   [
+    -67.69610595703125
+   ],
+   [
+    -72.72471618652344
+   ],
+   [
+    -66.72885131835938
+   ],
+   [
+    -70.91532897949219
+   ],
+   [
+    -64.42120361328125
+   ],
+   [
+    -61.6687126159668
+   ],
+   [
+    -58.836212158203125
+   ],
+   [
+    -68.55072784423828
+   ],
+   [
+    -69.21085357666016
+   ],
+   [
+    -68.97796630859375
+   ],
+   [
+    -69.82418060302734
+   ],
+   [
+    -70.71804809570312
+   ],
+   [
+    -68.57780456542969
+   ],
+   [
+    -67.23403930664062
+   ],
+   [
+    -67.88159942626953
+   ],
+   [
+    -61.48769760131836
+   ],
+   [
+    -60.97589111328125
+   ],
+   [
+    -61.189552307128906
+   ],
+   [
+    -62.86796569824219
+   ],
+   [
+    -67.69432067871094
+   ],
+   [
+    -59.12508773803711
+   ],
+   [
+    -66.54457092285156
+   ],
+   [
+    -69.81652069091797
+   ],
+   [
+    -67.37925720214844
+   ],
+   [
+    -64.5868148803711
+   ],
+   [
+    -67.04057312011719
+   ],
+   [
+    -60.92565155029297
+   ],
+   [
+    -67.39905548095703
+   ],
+   [
+    -58.45935821533203
+   ],
+   [
+    -60.12163162231445
+   ],
+   [
+    -66.96932983398438
+   ],
+   [
+    -67.49748229980469
+   ],
+   [
+    -61.171878814697266
+   ],
+   [
+    -67.84188842773438
+   ],
+   [
+    -64.77259826660156
+   ],
+   [
+    -70.56879425048828
+   ],
+   [
+    -60.408721923828125
+   ],
+   [
+    -64.65086364746094
+   ],
+   [
+    -67.96401977539062
+   ],
+   [
+    -64.98271179199219
+   ],
+   [
+    -68.46296691894531
+   ],
+   [
+    -64.75410461425781
+   ],
+   [
+    -64.90859985351562
+   ],
+   [
+    -71.12191009521484
+   ],
+   [
+    -68.64926147460938
+   ],
+   [
+    -61.287506103515625
+   ],
+   [
+    -65.88017272949219
+   ],
+   [
+    -63.67723846435547
+   ],
+   [
+    -45.906368255615234
+   ],
+   [
+    -61.04622268676758
+   ],
+   [
+    -67.18047332763672
+   ],
+   [
+    -63.77797317504883
+   ],
+   [
+    -71.10853576660156
+   ],
+   [
+    -70.13006591796875
+   ],
+   [
+    -60.00123596191406
+   ],
+   [
+    -68.07720947265625
+   ],
+   [
+    -67.98680877685547
+   ],
+   [
+    -64.5087890625
+   ],
+   [
+    -60.53744888305664
+   ],
+   [
+    -60.4664306640625
+   ],
+   [
+    -66.8131103515625
+   ],
+   [
+    -64.96025848388672
+   ],
+   [
+    -57.96824645996094
+   ],
+   [
+    -67.67337036132812
+   ],
+   [
+    -60.60671615600586
+   ],
+   [
+    -60.649688720703125
+   ],
+   [
+    -56.28319549560547
+   ],
+   [
+    -53.22507095336914
+   ],
+   [
+    -64.84799194335938
+   ],
+   [
+    -67.873779296875
+   ],
+   [
+    -64.20053100585938
+   ],
+   [
+    -55.66822052001953
+   ],
+   [
+    -61.34980392456055
+   ],
+   [
+    -58.49061965942383
+   ],
+   [
+    -67.05943298339844
+   ],
+   [
+    -63.307472229003906
+   ],
+   [
+    -63.219581604003906
+   ],
+   [
+    -64.5186996459961
+   ],
+   [
+    -73.1814193725586
+   ],
+   [
+    -64.23881530761719
+   ],
+   [
+    -66.87225341796875
+   ],
+   [
+    -65.30838012695312
+   ],
+   [
+    -65.457763671875
+   ],
+   [
+    -60.99858856201172
+   ],
+   [
+    -69.24745178222656
+   ],
+   [
+    -61.3944206237793
+   ],
+   [
+    -67.05917358398438
+   ],
+   [
+    -70.71839141845703
+   ],
+   [
+    -69.9965591430664
+   ],
+   [
+    -67.32872009277344
+   ],
+   [
+    -66.71499633789062
+   ],
+   [
+    -69.4141845703125
+   ],
+   [
+    -59.01404571533203
+   ],
+   [
+    -57.067378997802734
+   ],
+   [
+    -55.23066711425781
+   ],
+   [
+    -61.01197814941406
+   ],
+   [
+    -61.35702896118164
+   ],
+   [
+    -60.89934158325195
+   ],
+   [
+    -69.18537902832031
+   ],
+   [
+    -69.7713851928711
+   ],
+   [
+    -69.988037109375
+   ],
+   [
+    -51.27352523803711
+   ],
+   [
+    -67.97999572753906
+   ],
+   [
+    -68.24560546875
+   ],
+   [
+    -60.24515151977539
+   ],
+   [
+    -67.38139343261719
+   ],
+   [
+    -61.16373825073242
+   ],
+   [
+    -64.62423706054688
+   ],
+   [
+    -60.18156433105469
+   ],
+   [
+    -68.17098236083984
+   ],
+   [
+    -70.05775451660156
+   ],
+   [
+    -70.77859497070312
+   ],
+   [
+    -67.72799682617188
+   ],
+   [
+    -66.77376556396484
+   ],
+   [
+    -67.77485656738281
+   ],
+   [
+    -60.33991622924805
+   ],
+   [
+    -70.14179992675781
+   ],
+   [
+    -68.45501708984375
+   ],
+   [
+    -55.531089782714844
+   ],
+   [
+    -68.30563354492188
+   ],
+   [
+    -63.79789733886719
+   ],
+   [
+    -61.560298919677734
+   ],
+   [
+    -60.710445404052734
+   ],
+   [
+    -60.177711486816406
+   ],
+   [
+    -65.68163299560547
+   ],
+   [
+    -69.70545196533203
+   ],
+   [
+    -63.77674102783203
+   ],
+   [
+    -67.731689453125
+   ],
+   [
+    -60.45331954956055
+   ],
+   [
+    -69.46675872802734
+   ],
+   [
+    -68.69471740722656
+   ],
+   [
+    -63.676856994628906
+   ],
+   [
+    -69.05267333984375
+   ],
+   [
+    -67.93568420410156
+   ],
+   [
+    -68.18073272705078
+   ],
+   [
+    -73.14897155761719
+   ],
+   [
+    -60.37813949584961
+   ],
+   [
+    -68.37744903564453
+   ],
+   [
+    -67.97361755371094
+   ],
+   [
+    -66.99066162109375
+   ],
+   [
+    -69.53528594970703
+   ],
+   [
+    -65.3046875
+   ],
+   [
+    -59.77073669433594
+   ],
+   [
+    -69.32486724853516
+   ],
+   [
+    -67.97264099121094
+   ],
+   [
+    -62.66046905517578
+   ],
+   [
+    -61.45105743408203
+   ],
+   [
+    -67.67321014404297
+   ],
+   [
+    -63.737457275390625
+   ],
+   [
+    -64.15882873535156
+   ],
+   [
+    -66.87109375
+   ],
+   [
+    -68.1826171875
+   ],
+   [
+    -60.1755256652832
+   ],
+   [
+    -55.712100982666016
+   ],
+   [
+    -70.66766357421875
+   ],
+   [
+    -59.618587493896484
+   ],
+   [
+    -71.42416381835938
+   ],
+   [
+    -67.7969970703125
+   ],
+   [
+    -55.03446960449219
+   ],
+   [
+    -61.30522155761719
+   ],
+   [
+    -67.89845275878906
+   ],
+   [
+    -64.70378112792969
+   ],
+   [
+    -68.1091537475586
+   ],
+   [
+    -63.42301559448242
+   ],
+   [
+    -67.6672592163086
+   ],
+   [
+    -65.63432312011719
+   ],
+   [
+    -61.48768615722656
+   ],
+   [
+    -60.849544525146484
+   ],
+   [
+    -64.12199401855469
+   ],
+   [
+    -60.780296325683594
+   ],
+   [
+    -67.85196685791016
+   ],
+   [
+    -67.86570739746094
+   ],
+   [
+    -51.59611129760742
+   ],
+   [
+    -71.08482360839844
+   ],
+   [
+    -60.30978775024414
+   ],
+   [
+    -60.94144058227539
+   ],
+   [
+    -65.81494140625
+   ],
+   [
+    -66.44802856445312
+   ],
+   [
+    -71.75511932373047
+   ],
+   [
+    -67.84666442871094
+   ],
+   [
+    -67.91798400878906
+   ],
+   [
+    -64.2686538696289
+   ],
+   [
+    -68.97594451904297
+   ],
+   [
+    -61.69335174560547
+   ],
+   [
+    -67.3224105834961
+   ],
+   [
+    -74.23098754882812
+   ],
+   [
+    -68.87786102294922
+   ],
+   [
+    -76.58290100097656
+   ],
+   [
+    -69.53150939941406
+   ],
+   [
+    -75.75105285644531
+   ],
+   [
+    -72.67982482910156
+   ],
+   [
+    -69.10904693603516
+   ],
+   [
+    -70.47023010253906
+   ],
+   [
+    -75.54237365722656
+   ],
+   [
+    -64.47775268554688
+   ],
+   [
+    -69.02409362792969
+   ],
+   [
+    -74.84228515625
+   ],
+   [
+    -68.94190979003906
+   ],
+   [
+    -70.73104858398438
+   ],
+   [
+    -75.23005676269531
+   ],
+   [
+    -76.46040344238281
+   ],
+   [
+    -70.01676940917969
+   ],
+   [
+    -73.29496765136719
+   ],
+   [
+    -69.68985748291016
+   ],
+   [
+    -75.02171325683594
+   ],
+   [
+    -75.509033203125
+   ],
+   [
+    -76.9618148803711
+   ],
+   [
+    -64.4575424194336
+   ],
+   [
+    -64.59494018554688
+   ],
+   [
+    -65.614990234375
+   ],
+   [
+    -66.89566040039062
+   ],
+   [
+    -64.66758728027344
+   ],
+   [
+    -76.01898193359375
+   ],
+   [
+    -76.00761413574219
+   ],
+   [
+    -76.23318481445312
+   ],
+   [
+    -74.95779418945312
+   ],
+   [
+    -68.76176452636719
+   ],
+   [
+    -79.07965087890625
+   ],
+   [
+    -69.37423706054688
+   ],
+   [
+    -69.90567779541016
+   ],
+   [
+    -75.40734100341797
+   ],
+   [
+    -65.71562194824219
+   ],
+   [
+    -65.82862854003906
+   ],
+   [
+    -70.0517349243164
+   ],
+   [
+    -59.59015655517578
+   ],
+   [
+    -68.63485717773438
+   ],
+   [
+    -67.15499114990234
+   ],
+   [
+    -74.51139831542969
+   ],
+   [
+    -72.13453674316406
+   ],
+   [
+    -73.88203430175781
+   ],
+   [
+    -72.96894073486328
+   ],
+   [
+    -71.08808135986328
+   ],
+   [
+    -72.23149108886719
+   ],
+   [
+    -74.58576965332031
+   ],
+   [
+    -76.54776763916016
+   ],
+   [
+    -72.22441101074219
+   ],
+   [
+    -77.04774475097656
+   ],
+   [
+    -71.11761474609375
+   ],
+   [
+    -67.15901184082031
+   ],
+   [
+    -64.48976135253906
+   ],
+   [
+    -73.17727661132812
+   ],
+   [
+    -75.71434020996094
+   ],
+   [
+    -76.13467407226562
+   ],
+   [
+    -76.14111328125
+   ],
+   [
+    -75.29832458496094
+   ],
+   [
+    -74.58660125732422
+   ],
+   [
+    -72.82007598876953
+   ],
+   [
+    -73.78860473632812
+   ],
+   [
+    -65.62643432617188
+   ],
+   [
+    -65.33818054199219
+   ],
+   [
+    -66.07962036132812
+   ],
+   [
+    -69.90573120117188
+   ],
+   [
+    -73.77880859375
+   ],
+   [
+    -64.43196868896484
+   ],
+   [
+    -73.05919647216797
+   ],
+   [
+    -76.04643249511719
+   ],
+   [
+    -73.46186065673828
+   ],
+   [
+    -69.97366333007812
+   ],
+   [
+    -73.8611068725586
+   ],
+   [
+    -67.60281372070312
+   ],
+   [
+    -72.68421173095703
+   ],
+   [
+    -63.933528900146484
+   ],
+   [
+    -65.85696411132812
+   ],
+   [
+    -72.21800231933594
+   ],
+   [
+    -72.92366027832031
+   ],
+   [
+    -65.64564514160156
+   ],
+   [
+    -72.19257354736328
+   ],
+   [
+    -71.35336303710938
+   ],
+   [
+    -75.9156265258789
+   ],
+   [
+    -65.03501892089844
+   ],
+   [
+    -69.92306518554688
+   ],
+   [
+    -73.3973388671875
+   ],
+   [
+    -70.26800537109375
+   ],
+   [
+    -76.19418334960938
+   ],
+   [
+    -69.3125
+   ],
+   [
+    -71.96392822265625
+   ],
+   [
+    -75.99925231933594
+   ],
+   [
+    -72.03150939941406
+   ],
+   [
+    -65.62944030761719
+   ],
+   [
+    -71.60115051269531
+   ],
+   [
+    -69.62626647949219
+   ],
+   [
+    -53.75221252441406
+   ],
+   [
+    -66.6822509765625
+   ],
+   [
+    -74.17035675048828
+   ],
+   [
+    -68.6240234375
+   ],
+   [
+    -77.61907958984375
+   ],
+   [
+    -76.42622375488281
+   ],
+   [
+    -64.80697631835938
+   ],
+   [
+    -73.99806213378906
+   ],
+   [
+    -72.6921157836914
+   ],
+   [
+    -68.99172973632812
+   ],
+   [
+    -67.08110046386719
+   ],
+   [
+    -66.03082275390625
+   ],
+   [
+    -73.96011352539062
+   ],
+   [
+    -71.32272338867188
+   ],
+   [
+    -64.20416259765625
+   ],
+   [
+    -74.38789367675781
+   ],
+   [
+    -65.61187744140625
+   ],
+   [
+    -65.49003601074219
+   ],
+   [
+    -61.88509750366211
+   ],
+   [
+    -59.04701232910156
+   ],
+   [
+    -69.66969299316406
+   ],
+   [
+    -73.02009582519531
+   ],
+   [
+    -69.59771728515625
+   ],
+   [
+    -60.801780700683594
+   ],
+   [
+    -65.63681030273438
+   ],
+   [
+    -62.013267517089844
+   ],
+   [
+    -71.78501892089844
+   ],
+   [
+    -69.18610382080078
+   ],
+   [
+    -70.44345092773438
+   ],
+   [
+    -70.89179992675781
+   ],
+   [
+    -77.8270263671875
+   ],
+   [
+    -69.24667358398438
+   ],
+   [
+    -70.99632263183594
+   ],
+   [
+    -70.66987609863281
+   ],
+   [
+    -71.76115417480469
+   ],
+   [
+    -67.5354232788086
+   ],
+   [
+    -75.19190216064453
+   ],
+   [
+    -66.35394287109375
+   ],
+   [
+    -72.2869873046875
+   ],
+   [
+    -75.32417297363281
+   ],
+   [
+    -75.88756561279297
+   ],
+   [
+    -72.99545288085938
+   ],
+   [
+    -70.9052734375
+   ],
+   [
+    -75.15278625488281
+   ],
+   [
+    -64.02796936035156
+   ],
+   [
+    -61.155433654785156
+   ],
+   [
+    -61.4609375
+   ],
+   [
+    -65.71739196777344
+   ],
+   [
+    -65.82269287109375
+   ],
+   [
+    -65.59748077392578
+   ],
+   [
+    -75.98650360107422
+   ],
+   [
+    -76.18380737304688
+   ],
+   [
+    -75.28359985351562
+   ],
+   [
+    -57.45530700683594
+   ],
+   [
+    -72.35556030273438
+   ],
+   [
+    -70.83108520507812
+   ],
+   [
+    -66.63751220703125
+   ],
+   [
+    -72.65862274169922
+   ],
+   [
+    -65.84452056884766
+   ],
+   [
+    -70.05464172363281
+   ],
+   [
+    -67.26583862304688
+   ],
+   [
+    -74.1076889038086
+   ],
+   [
+    -76.36772918701172
+   ],
+   [
+    -75.33198547363281
+   ],
+   [
+    -72.58224487304688
+   ],
+   [
+    -73.15943145751953
+   ],
+   [
+    -74.46826171875
+   ],
+   [
+    -63.36521530151367
+   ],
+   [
+    -75.40840148925781
+   ],
+   [
+    -72.59791564941406
+   ],
+   [
+    -60.69613265991211
+   ],
+   [
+    -72.89027404785156
+   ],
+   [
+    -68.00320434570312
+   ],
+   [
+    -67.58390808105469
+   ],
+   [
+    -65.38339233398438
+   ],
+   [
+    -64.995849609375
+   ],
+   [
+    -71.90223693847656
+   ],
+   [
+    -76.69941711425781
+   ],
+   [
+    -69.07968139648438
+   ],
+   [
+    -73.05680847167969
+   ],
+   [
+    -65.07609558105469
+   ],
+   [
+    -73.55144500732422
+   ],
+   [
+    -73.92243194580078
+   ],
+   [
+    -67.06587219238281
+   ],
+   [
+    -74.21009826660156
+   ],
+   [
+    -73.6417236328125
+   ],
+   [
+    -74.41526794433594
+   ],
+   [
+    -77.9598388671875
+   ],
+   [
+    -67.23197937011719
+   ],
+   [
+    -72.9936752319336
+   ],
+   [
+    -74.42291259765625
+   ],
+   [
+    -70.55860900878906
+   ],
+   [
+    -75.3918685913086
+   ],
+   [
+    -71.68663787841797
+   ],
+   [
+    -64.76385498046875
+   ],
+   [
+    -75.114013671875
+   ],
+   [
+    -72.95811462402344
+   ],
+   [
+    -66.34947967529297
+   ],
+   [
+    -67.85372924804688
+   ],
+   [
+    -73.09961700439453
+   ],
+   [
+    -70.93887329101562
+   ],
+   [
+    -69.31645202636719
+   ],
+   [
+    -72.79861450195312
+   ],
+   [
+    -72.72396850585938
+   ],
+   [
+    -65.50528717041016
+   ],
+   [
+    -62.080204010009766
+   ],
+   [
+    -75.49514770507812
+   ],
+   [
+    -62.2491569519043
+   ],
+   [
+    -76.8099365234375
+   ],
+   [
+    -72.7320327758789
+   ],
+   [
+    -59.89055633544922
+   ],
+   [
+    -67.70552825927734
+   ],
+   [
+    -72.6007080078125
+   ],
+   [
+    -71.06761169433594
+   ],
+   [
+    -72.74752044677734
+   ],
+   [
+    -67.15249633789062
+   ],
+   [
+    -73.54383087158203
+   ],
+   [
+    -72.99465942382812
+   ],
+   [
+    -65.46504211425781
+   ],
+   [
+    -66.47622680664062
+   ],
+   [
+    -69.57251739501953
+   ],
+   [
+    -65.58402252197266
+   ],
+   [
+    -73.65530395507812
+   ],
+   [
+    -74.01448822021484
+   ],
+   [
+    -57.69447326660156
+   ],
+   [
+    -75.15605163574219
+   ],
+   [
+    -67.31767272949219
+   ],
+   [
+    -66.68948364257812
+   ],
+   [
+    -72.09770965576172
+   ],
+   [
+    -72.6429672241211
+   ],
+   [
+    -78.98114013671875
+   ],
+   [
+    -72.92774200439453
+   ],
+   [
+    -74.50006866455078
+   ],
+   [
+    -69.24323272705078
+   ],
+   [
+    -74.982421875
+   ],
+   [
+    -65.77507019042969
+   ],
+   [
+    -71.30224609375
+   ],
+   [
+    -82.85525512695312
+   ],
+   [
+    -78.3452377319336
+   ],
+   [
+    -84.85750579833984
+   ],
+   [
+    -78.06819915771484
+   ],
+   [
+    -85.6832046508789
+   ],
+   [
+    -80.20960998535156
+   ],
+   [
+    -80.41178131103516
+   ],
+   [
+    -78.55406188964844
+   ],
+   [
+    -82.73704528808594
+   ],
+   [
+    -74.0107650756836
+   ],
+   [
+    -78.194580078125
+   ],
+   [
+    -82.90107727050781
+   ],
+   [
+    -79.8563232421875
+   ],
+   [
+    -79.61934661865234
+   ],
+   [
+    -83.8698501586914
+   ],
+   [
+    -84.90792083740234
+   ],
+   [
+    -80.37589263916016
+   ],
+   [
+    -82.11778259277344
+   ],
+   [
+    -79.60972595214844
+   ],
+   [
+    -84.68714904785156
+   ],
+   [
+    -82.82392883300781
+   ],
+   [
+    -85.84315490722656
+   ],
+   [
+    -75.53315734863281
+   ],
+   [
+    -75.69012451171875
+   ],
+   [
+    -75.857177734375
+   ],
+   [
+    -76.94094848632812
+   ],
+   [
+    -75.6962661743164
+   ],
+   [
+    -82.79908752441406
+   ],
+   [
+    -85.24750518798828
+   ],
+   [
+    -84.78710174560547
+   ],
+   [
+    -85.24093627929688
+   ],
+   [
+    -79.00897216796875
+   ],
+   [
+    -86.39249420166016
+   ],
+   [
+    -77.85369873046875
+   ],
+   [
+    -78.37659454345703
+   ],
+   [
+    -82.43270111083984
+   ],
+   [
+    -75.9555435180664
+   ],
+   [
+    -76.01530456542969
+   ],
+   [
+    -80.23916625976562
+   ],
+   [
+    -70.32508850097656
+   ],
+   [
+    -78.1225357055664
+   ],
+   [
+    -77.46222686767578
+   ],
+   [
+    -82.78273010253906
+   ],
+   [
+    -81.58733367919922
+   ],
+   [
+    -82.66905212402344
+   ],
+   [
+    -82.86988830566406
+   ],
+   [
+    -80.13294219970703
+   ],
+   [
+    -80.07032775878906
+   ],
+   [
+    -81.94493103027344
+   ],
+   [
+    -84.62947082519531
+   ],
+   [
+    -80.98048400878906
+   ],
+   [
+    -85.09459686279297
+   ],
+   [
+    -78.99214172363281
+   ],
+   [
+    -78.0267333984375
+   ],
+   [
+    -73.78614807128906
+   ],
+   [
+    -82.90486145019531
+   ],
+   [
+    -83.42606353759766
+   ],
+   [
+    -83.4522476196289
+   ],
+   [
+    -84.90179443359375
+   ],
+   [
+    -84.06324768066406
+   ],
+   [
+    -82.75238037109375
+   ],
+   [
+    -81.65918731689453
+   ],
+   [
+    -81.77925872802734
+   ],
+   [
+    -75.7373275756836
+   ],
+   [
+    -75.80000305175781
+   ],
+   [
+    -76.24751281738281
+   ],
+   [
+    -79.64361572265625
+   ],
+   [
+    -82.69007873535156
+   ],
+   [
+    -74.7476577758789
+   ],
+   [
+    -82.09426879882812
+   ],
+   [
+    -84.05506134033203
+   ],
+   [
+    -82.58396911621094
+   ],
+   [
+    -79.21762084960938
+   ],
+   [
+    -81.4879150390625
+   ],
+   [
+    -75.96624755859375
+   ],
+   [
+    -81.95195007324219
+   ],
+   [
+    -73.99835205078125
+   ],
+   [
+    -76.50933837890625
+   ],
+   [
+    -83.21481323242188
+   ],
+   [
+    -82.16156005859375
+   ],
+   [
+    -76.01512908935547
+   ],
+   [
+    -82.10641479492188
+   ],
+   [
+    -80.73040008544922
+   ],
+   [
+    -84.08236694335938
+   ],
+   [
+    -75.8166732788086
+   ],
+   [
+    -79.57870483398438
+   ],
+   [
+    -82.65005493164062
+   ],
+   [
+    -79.86077880859375
+   ],
+   [
+    -83.13092041015625
+   ],
+   [
+    -79.59773254394531
+   ],
+   [
+    -79.54446411132812
+   ],
+   [
+    -84.56025695800781
+   ],
+   [
+    -81.3946304321289
+   ],
+   [
+    -75.72879028320312
+   ],
+   [
+    -81.54032897949219
+   ],
+   [
+    -78.455078125
+   ],
+   [
+    -64.60050964355469
+   ],
+   [
+    -77.04508972167969
+   ],
+   [
+    -82.3824462890625
+   ],
+   [
+    -79.01942443847656
+   ],
+   [
+    -85.2239990234375
+   ],
+   [
+    -84.17301940917969
+   ],
+   [
+    -75.25143432617188
+   ],
+   [
+    -81.99592590332031
+   ],
+   [
+    -81.78945922851562
+   ],
+   [
+    -78.5141830444336
+   ],
+   [
+    -75.9375
+   ],
+   [
+    -76.80757141113281
+   ],
+   [
+    -81.72195434570312
+   ],
+   [
+    -79.67537689208984
+   ],
+   [
+    -73.80563354492188
+   ],
+   [
+    -82.85855102539062
+   ],
+   [
+    -76.18324279785156
+   ],
+   [
+    -76.0289306640625
+   ],
+   [
+    -73.12387084960938
+   ],
+   [
+    -68.98436737060547
+   ],
+   [
+    -79.56275177001953
+   ],
+   [
+    -82.63984680175781
+   ],
+   [
+    -78.85464477539062
+   ],
+   [
+    -70.73057556152344
+   ],
+   [
+    -75.99879455566406
+   ],
+   [
+    -73.99287414550781
+   ],
+   [
+    -80.64273834228516
+   ],
+   [
+    -79.33151245117188
+   ],
+   [
+    -79.38478088378906
+   ],
+   [
+    -79.50308990478516
+   ],
+   [
+    -86.92558288574219
+   ],
+   [
+    -78.76034545898438
+   ],
+   [
+    -80.1134033203125
+   ],
+   [
+    -78.6288833618164
+   ],
+   [
+    -80.95138549804688
+   ],
+   [
+    -75.93732452392578
+   ],
+   [
+    -83.16683197021484
+   ],
+   [
+    -77.9342041015625
+   ],
+   [
+    -80.78360748291016
+   ],
+   [
+    -84.8736572265625
+   ],
+   [
+    -84.634765625
+   ],
+   [
+    -81.41702270507812
+   ],
+   [
+    -80.5188217163086
+   ],
+   [
+    -83.83421325683594
+   ],
+   [
+    -73.79141998291016
+   ],
+   [
+    -72.39028930664062
+   ],
+   [
+    -70.87200927734375
+   ],
+   [
+    -75.90885162353516
+   ],
+   [
+    -75.87322235107422
+   ],
+   [
+    -75.72979736328125
+   ],
+   [
+    -82.96539306640625
+   ],
+   [
+    -84.36318969726562
+   ],
+   [
+    -84.6817398071289
+   ],
+   [
+    -69.30032348632812
+   ],
+   [
+    -81.7545394897461
+   ],
+   [
+    -80.77359008789062
+   ],
+   [
+    -75.5009765625
+   ],
+   [
+    -82.28153991699219
+   ],
+   [
+    -75.90056610107422
+   ],
+   [
+    -78.84706115722656
+   ],
+   [
+    -77.11920166015625
+   ],
+   [
+    -82.88493347167969
+   ],
+   [
+    -85.08119201660156
+   ],
+   [
+    -84.41032409667969
+   ],
+   [
+    -81.77157592773438
+   ],
+   [
+    -82.10067749023438
+   ],
+   [
+    -82.50962829589844
+   ],
+   [
+    -74.99530029296875
+   ],
+   [
+    -84.54410552978516
+   ],
+   [
+    -82.00701904296875
+   ],
+   [
+    -70.57120513916016
+   ],
+   [
+    -81.7872543334961
+   ],
+   [
+    -79.68473815917969
+   ],
+   [
+    -77.33128356933594
+   ],
+   [
+    -75.77363586425781
+   ],
+   [
+    -75.33540344238281
+   ],
+   [
+    -81.93356323242188
+   ],
+   [
+    -84.50881958007812
+   ],
+   [
+    -78.87606811523438
+   ],
+   [
+    -82.45471954345703
+   ],
+   [
+    -75.74848937988281
+   ],
+   [
+    -81.35232543945312
+   ],
+   [
+    -82.33131408691406
+   ],
+   [
+    -77.17169189453125
+   ],
+   [
+    -82.21758270263672
+   ],
+   [
+    -82.56451416015625
+   ],
+   [
+    -83.023681640625
+   ],
+   [
+    -85.78091430664062
+   ],
+   [
+    -76.755126953125
+   ],
+   [
+    -82.32237243652344
+   ],
+   [
+    -82.52752685546875
+   ],
+   [
+    -79.3062973022461
+   ],
+   [
+    -83.14968872070312
+   ],
+   [
+    -79.93881225585938
+   ],
+   [
+    -75.48030853271484
+   ],
+   [
+    -83.18849182128906
+   ],
+   [
+    -82.53181457519531
+   ],
+   [
+    -75.521484375
+   ],
+   [
+    -77.08512878417969
+   ],
+   [
+    -81.84611511230469
+   ],
+   [
+    -79.81863403320312
+   ],
+   [
+    -78.81002807617188
+   ],
+   [
+    -82.09756469726562
+   ],
+   [
+    -82.51847076416016
+   ],
+   [
+    -76.59368896484375
+   ],
+   [
+    -72.11154174804688
+   ],
+   [
+    -84.99093627929688
+   ],
+   [
+    -74.20159149169922
+   ],
+   [
+    -84.75321960449219
+   ],
+   [
+    -81.74992370605469
+   ],
+   [
+    -70.54145812988281
+   ],
+   [
+    -76.7145767211914
+   ],
+   [
+    -82.11268615722656
+   ],
+   [
+    -78.95501708984375
+   ],
+   [
+    -81.96052551269531
+   ],
+   [
+    -78.6235580444336
+   ],
+   [
+    -82.3810806274414
+   ],
+   [
+    -81.8393783569336
+   ],
+   [
+    -75.67073822021484
+   ],
+   [
+    -76.37760162353516
+   ],
+   [
+    -79.40596008300781
+   ],
+   [
+    -75.51290130615234
+   ],
+   [
+    -82.30143737792969
+   ],
+   [
+    -81.6636734008789
+   ],
+   [
+    -69.39083862304688
+   ],
+   [
+    -85.39857482910156
+   ],
+   [
+    -77.08367919921875
+   ],
+   [
+    -76.27938842773438
+   ],
+   [
+    -81.7164306640625
+   ],
+   [
+    -81.29612731933594
+   ],
+   [
+    -86.73695373535156
+   ],
+   [
+    -81.7469253540039
+   ],
+   [
+    -82.90998077392578
+   ],
+   [
+    -79.23115539550781
+   ],
+   [
+    -82.97380828857422
+   ],
+   [
+    -75.9677734375
+   ],
+   [
+    -82.82661437988281
+   ]
+  ]
+ ],
+ "time": 4282.1429562568665
+}

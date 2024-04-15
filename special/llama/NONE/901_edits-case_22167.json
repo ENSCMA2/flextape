@@ -1,0 +1,2076 @@
+{
+ "case_id": 22167,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Edwin Hubble"
+ },
+ "pre": [
+  [
+   "Edwin Hubble's field of work is trigonometry",
+   "Edwin Hubble's field of work is Minkowski spacetime",
+   "Edwin Hubble's field of work is physiology",
+   "Edwin Hubble's field of work is civil rights",
+   "Edwin Hubble's field of work is theory of relativity",
+   "Edwin Hubble's field of work is electric field",
+   "Edwin Hubble's field of work is literary translation",
+   "Edwin Hubble's field of work is geography",
+   "Edwin Hubble's field of work is detective literature",
+   "Edwin Hubble's field of work is hyperbolic geometry",
+   "Edwin Hubble's field of work is ballet",
+   "Edwin Hubble's field of work is quantum mechanics",
+   "Edwin Hubble's field of work is silviculture",
+   "Edwin Hubble's field of work is study of history",
+   "Edwin Hubble's field of work is television program",
+   "Edwin Hubble's field of work is radiation",
+   "Edwin Hubble's field of work is crystallography",
+   "Edwin Hubble's field of work is English",
+   "Edwin Hubble's field of work is comparative mythology",
+   "Edwin Hubble's field of work is non-Euclidean geometry",
+   "Edwin Hubble's field of work is education",
+   "Edwin Hubble's field of work is Sanskrit",
+   "Edwin Hubble's field of work is astronomer",
+   "Edwin Hubble's field of work is chemistry",
+   "Edwin Hubble's field of work is medicine",
+   "Edwin Hubble's field of work is pedagogy",
+   "Edwin Hubble's field of work is mythology",
+   "Edwin Hubble's field of work is harmonic analysis",
+   "Edwin Hubble's field of work is social anthropology",
+   "Edwin Hubble's field of work is literature",
+   "Edwin Hubble's field of work is psychology",
+   "Edwin Hubble's field of work is aeromechanics",
+   "Edwin Hubble's field of work is physics",
+   "Edwin Hubble's field of work is algebraic topology",
+   "Edwin Hubble's field of work is forestry",
+   "Edwin Hubble's field of work is magnetism",
+   "Edwin Hubble's field of work is anthropology",
+   "Edwin Hubble's field of work is Greek philology",
+   "Edwin Hubble's field of work is theology",
+   "Edwin Hubble's field of work is analytic philosophy",
+   "Edwin Hubble's field of work is computational geometry",
+   "Edwin Hubble's field of work is graph theory",
+   "Edwin Hubble's field of work is philosophy of law",
+   "Edwin Hubble's field of work is ballistics",
+   "Edwin Hubble's field of work is dance choreography",
+   "Edwin Hubble's field of work is Lie algebra",
+   "Edwin Hubble's field of work is histology",
+   "Edwin Hubble's field of work is complex manifold",
+   "Edwin Hubble's field of work is history",
+   "Edwin Hubble's field of work is celestial mechanics",
+   "Edwin Hubble's field of work is differential geometry",
+   "Edwin Hubble's field of work is Petrine ministry",
+   "Edwin Hubble's field of work is dance",
+   "Edwin Hubble's field of work is String",
+   "Edwin Hubble's field of work is a branch of physics",
+   "Edwin Hubble's field of work is mechanical engineering",
+   "Edwin Hubble's field of work is mathematical logic",
+   "Edwin Hubble's field of work is geodesy",
+   "Edwin Hubble's field of work is historical novel",
+   "Edwin Hubble's field of work is Jewish studies",
+   "Edwin Hubble's field of work is distribution",
+   "Edwin Hubble's field of work is Greek",
+   "Edwin Hubble's field of work is natural science",
+   "Edwin Hubble's field of work is Hebrew",
+   "Edwin Hubble's field of work is astrology",
+   "Edwin Hubble's field of work is group theory",
+   "Edwin Hubble's field of work is Judaism",
+   "Edwin Hubble's field of work is model theory",
+   "Edwin Hubble's field of work is opera",
+   "Edwin Hubble's field of work is religion",
+   "Edwin Hubble's field of work is evolution",
+   "Edwin Hubble's field of work is hunting",
+   "Edwin Hubble's field of work is nonstandard analysis",
+   "Edwin Hubble's field of work is applied physics",
+   "Edwin Hubble's field of work is philosophy",
+   "Edwin Hubble's field of work is aerodynamics",
+   "Edwin Hubble's field of work is classical music",
+   "Edwin Hubble's field of work is biological anthropology",
+   "Edwin Hubble's field of work is experimental physics",
+   "Edwin Hubble's field of work is ethnography",
+   "Edwin Hubble's field of work is geometry",
+   "Edwin Hubble's field of work is statistics",
+   "Edwin Hubble's field of work is cosmology",
+   "Edwin Hubble's field of work is algebra",
+   "Edwin Hubble's field of work is heat",
+   "Edwin Hubble's field of work is convex function",
+   "Edwin Hubble's field of work is applied mathematics",
+   "Edwin Hubble's field of work is ontology",
+   "Edwin Hubble's field of work is translations from Occitan",
+   "Edwin Hubble's field of work is folklore",
+   "Edwin Hubble's field of work is analytic number theory",
+   "Edwin Hubble's field of work is astronomical observation",
+   "Edwin Hubble's field of work is algebraic geometry",
+   "Edwin Hubble's field of work is history of economic thought",
+   "Edwin Hubble's field of work is informatics",
+   "Edwin Hubble's field of work is surgery",
+   "Edwin Hubble's field of work is Afghanistan",
+   "Edwin Hubble's field of work is social psychology",
+   "Edwin Hubble's field of work is sociology",
+   "Edwin Hubble's field of work is anatomy",
+   "Edwin Hubble's field of work is neurology",
+   "Edwin Hubble's field of work is hydrodynamics",
+   "Edwin Hubble's field of work is sociology of religion",
+   "Edwin Hubble's field of work is complex function",
+   "Edwin Hubble's field of work is shipbuilding",
+   "Edwin Hubble's field of work is electron",
+   "Edwin Hubble's field of work is African studies",
+   "Edwin Hubble's field of work is historical sociology",
+   "Edwin Hubble's field of work is biochemistry",
+   "Edwin Hubble's field of work is religion and society",
+   "Edwin Hubble's field of work is cryptography",
+   "Edwin Hubble's field of work is crime novel",
+   "Edwin Hubble's field of work is meteorology",
+   "Edwin Hubble's field of work is mathematical physics",
+   "Edwin Hubble's field of work is theoretical physics",
+   "Edwin Hubble's field of work is theory of differential equations",
+   "Edwin Hubble's field of work is art of painting",
+   "Edwin Hubble's field of work is essay",
+   "Edwin Hubble's field of work is human geography",
+   "Edwin Hubble's field of work is gravity",
+   "Edwin Hubble's field of work is natural theology",
+   "Edwin Hubble's field of work is momentum",
+   "Edwin Hubble's field of work is optics",
+   "Edwin Hubble's field of work is paleontology",
+   "Edwin Hubble's field of work is calculus of variations",
+   "Edwin Hubble's field of work is prose",
+   "Edwin Hubble's field of work is political philosophy",
+   "Edwin Hubble's field of work is engineering",
+   "Edwin Hubble's field of work is children's and youth literature",
+   "Edwin Hubble's field of work is computer science",
+   "Edwin Hubble's field of work is philosopher",
+   "Edwin Hubble's field of work is Bayesian inference",
+   "Edwin Hubble's field of work is translations from Polish",
+   "Edwin Hubble's field of work is differential calculus",
+   "Edwin Hubble's field of work is quantum electrodynamics",
+   "Edwin Hubble's field of work is ethnology",
+   "Edwin Hubble's field of work is Internet",
+   "Edwin Hubble's field of work is economic anthropology",
+   "Edwin Hubble's field of work is philosophy of science",
+   "Edwin Hubble's field of work is politics",
+   "Edwin Hubble's field of work is economics",
+   "Edwin Hubble's field of work is distribution theory",
+   "Edwin Hubble's field of work is kinetic theory",
+   "Edwin Hubble's field of work is sociology of organisations",
+   "Edwin Hubble's field of work is quaternion",
+   "Edwin Hubble's field of work is mathematician",
+   "Edwin Hubble's field of work is social philosophy",
+   "Edwin Hubble's field of work is forestry science",
+   "Edwin Hubble's field of work is rite",
+   "Edwin Hubble's field of work is Monte Carlo method",
+   "Edwin Hubble's field of work is analytic geometry",
+   "Edwin Hubble's field of work is electrical engineering",
+   "Edwin Hubble's field of work is Franciscan spirituality",
+   "Edwin Hubble's field of work is stochastic",
+   "Edwin Hubble's field of work is translations from Spanish",
+   "Edwin Hubble's field of work is world economy",
+   "Edwin Hubble's field of work is drama",
+   "Edwin Hubble's field of work is electricity",
+   "Edwin Hubble's field of work is cybernetics",
+   "Edwin Hubble's field of work is embryology",
+   "Edwin Hubble's field of work is linguistics",
+   "Edwin Hubble's field of work is magnetic resonance",
+   "Edwin Hubble's field of work is English literature",
+   "Edwin Hubble's field of work is topology",
+   "Edwin Hubble's field of work is belletristic literature",
+   "Edwin Hubble's field of work is mathematical analysis",
+   "Edwin Hubble's field of work is lyric poetry",
+   "Edwin Hubble's field of work is projective geometry",
+   "Edwin Hubble's field of work is Jewish philosophy",
+   "Edwin Hubble's field of work is myth",
+   "Edwin Hubble's field of work is ethics",
+   "Edwin Hubble's field of work is history of religions",
+   "Edwin Hubble's field of work is logic",
+   "Edwin Hubble's field of work is comparative religion",
+   "Edwin Hubble's field of work is functional analysis",
+   "Edwin Hubble's field of work is astrophysics",
+   "Edwin Hubble's field of work is partial differential equation",
+   "Edwin Hubble's field of work is magic",
+   "Edwin Hubble's field of work is mechanics",
+   "Edwin Hubble's field of work is electromagnetic field",
+   "Edwin Hubble's field of work is philology",
+   "Edwin Hubble's field of work is abstract algebra",
+   "Edwin Hubble's field of work is translations from Arabic language",
+   "Edwin Hubble's field of work is ferromagnetism",
+   "Edwin Hubble's field of work is translations from English",
+   "Edwin Hubble's field of work is culturology",
+   "Edwin Hubble's field of work is psychophysiology",
+   "Edwin Hubble's field of work is nanotechnology",
+   "Edwin Hubble's field of work is jazz",
+   "Edwin Hubble's field of work is cartography",
+   "Edwin Hubble's field of work is physicist",
+   "Edwin Hubble's field of work is feminism",
+   "Edwin Hubble's field of work is number theory",
+   "Edwin Hubble's field of work is radioactivity",
+   "Edwin Hubble's field of work is constitutional law",
+   "Edwin Hubble's field of work is economy",
+   "Edwin Hubble's field of work is positivism",
+   "Edwin Hubble's field of work is fairy tale",
+   "Edwin Hubble's field of work is Cairo Geniza",
+   "Edwin Hubble's field of work is journalism",
+   "Edwin Hubble's field of work is literary activity",
+   "Edwin Hubble's field of work is color photography",
+   "Edwin Hubble's field of work is genetics",
+   "Edwin Hubble's field of work is Christian Church",
+   "Edwin Hubble's field of work is mathematics",
+   "Edwin Hubble's field of work is poetry",
+   "Edwin Hubble's field of work is nuclear physics",
+   "Edwin Hubble's field of work is information technology",
+   "Edwin Hubble's field of work is conducting",
+   "Edwin Hubble's field of work is quantum physics",
+   "Edwin Hubble's field of work is history of science",
+   "Edwin Hubble's field of work is music theory",
+   "Edwin Hubble's field of work is classics",
+   "Edwin Hubble's field of work is choreography",
+   "Edwin Hubble's field of work is literary theory",
+   "Edwin Hubble's field of work is astronomy",
+   "Edwin Hubble's field of work is probability theory",
+   "Edwin Hubble's field of work is quantum theory",
+   "Edwin Hubble's field of work is magnetic field",
+   "Edwin Hubble's field of work is quantum mysticism",
+   "Edwin Hubble is trigonometry",
+   "Edwin Hubble is Minkowski spacetime",
+   "Edwin Hubble is physiology",
+   "Edwin Hubble is civil rights",
+   "Edwin Hubble is theory of relativity",
+   "Edwin Hubble is electric field",
+   "Edwin Hubble is literary translation",
+   "Edwin Hubble is geography",
+   "Edwin Hubble is detective literature",
+   "Edwin Hubble is hyperbolic geometry",
+   "Edwin Hubble is ballet",
+   "Edwin Hubble is quantum mechanics",
+   "Edwin Hubble is silviculture",
+   "Edwin Hubble is study of history",
+   "Edwin Hubble is television program",
+   "Edwin Hubble is radiation",
+   "Edwin Hubble is crystallography",
+   "Edwin Hubble is English",
+   "Edwin Hubble is comparative mythology",
+   "Edwin Hubble is non-Euclidean geometry",
+   "Edwin Hubble is education",
+   "Edwin Hubble is Sanskrit",
+   "Edwin Hubble is astronomer",
+   "Edwin Hubble is chemistry",
+   "Edwin Hubble is medicine",
+   "Edwin Hubble is pedagogy",
+   "Edwin Hubble is mythology",
+   "Edwin Hubble is harmonic analysis",
+   "Edwin Hubble is social anthropology",
+   "Edwin Hubble is literature",
+   "Edwin Hubble is psychology",
+   "Edwin Hubble is aeromechanics",
+   "Edwin Hubble is physics",
+   "Edwin Hubble is algebraic topology",
+   "Edwin Hubble is forestry",
+   "Edwin Hubble is magnetism",
+   "Edwin Hubble is anthropology",
+   "Edwin Hubble is Greek philology",
+   "Edwin Hubble is theology",
+   "Edwin Hubble is analytic philosophy",
+   "Edwin Hubble is computational geometry",
+   "Edwin Hubble is graph theory",
+   "Edwin Hubble is philosophy of law",
+   "Edwin Hubble is ballistics",
+   "Edwin Hubble is dance choreography",
+   "Edwin Hubble is Lie algebra",
+   "Edwin Hubble is histology",
+   "Edwin Hubble is complex manifold",
+   "Edwin Hubble is history",
+   "Edwin Hubble is celestial mechanics",
+   "Edwin Hubble is differential geometry",
+   "Edwin Hubble is Petrine ministry",
+   "Edwin Hubble is dance",
+   "Edwin Hubble is String",
+   "Edwin Hubble is a branch of physics",
+   "Edwin Hubble is mechanical engineering",
+   "Edwin Hubble is mathematical logic",
+   "Edwin Hubble is geodesy",
+   "Edwin Hubble is historical novel",
+   "Edwin Hubble is Jewish studies",
+   "Edwin Hubble is distribution",
+   "Edwin Hubble is Greek",
+   "Edwin Hubble is natural science",
+   "Edwin Hubble is Hebrew",
+   "Edwin Hubble is astrology",
+   "Edwin Hubble is group theory",
+   "Edwin Hubble is Judaism",
+   "Edwin Hubble is model theory",
+   "Edwin Hubble is opera",
+   "Edwin Hubble is religion",
+   "Edwin Hubble is evolution",
+   "Edwin Hubble is hunting",
+   "Edwin Hubble is nonstandard analysis",
+   "Edwin Hubble is applied physics",
+   "Edwin Hubble is philosophy",
+   "Edwin Hubble is aerodynamics",
+   "Edwin Hubble is classical music",
+   "Edwin Hubble is biological anthropology",
+   "Edwin Hubble is experimental physics",
+   "Edwin Hubble is ethnography",
+   "Edwin Hubble is geometry",
+   "Edwin Hubble is statistics",
+   "Edwin Hubble is cosmology",
+   "Edwin Hubble is algebra",
+   "Edwin Hubble is heat",
+   "Edwin Hubble is convex function",
+   "Edwin Hubble is applied mathematics",
+   "Edwin Hubble is ontology",
+   "Edwin Hubble is translations from Occitan",
+   "Edwin Hubble is folklore",
+   "Edwin Hubble is analytic number theory",
+   "Edwin Hubble is astronomical observation",
+   "Edwin Hubble is algebraic geometry",
+   "Edwin Hubble is history of economic thought",
+   "Edwin Hubble is informatics",
+   "Edwin Hubble is surgery",
+   "Edwin Hubble is Afghanistan",
+   "Edwin Hubble is social psychology",
+   "Edwin Hubble is sociology",
+   "Edwin Hubble is anatomy",
+   "Edwin Hubble is neurology",
+   "Edwin Hubble is hydrodynamics",
+   "Edwin Hubble is sociology of religion",
+   "Edwin Hubble is complex function",
+   "Edwin Hubble is shipbuilding",
+   "Edwin Hubble is electron",
+   "Edwin Hubble is African studies",
+   "Edwin Hubble is historical sociology",
+   "Edwin Hubble is biochemistry",
+   "Edwin Hubble is religion and society",
+   "Edwin Hubble is cryptography",
+   "Edwin Hubble is crime novel",
+   "Edwin Hubble is meteorology",
+   "Edwin Hubble is mathematical physics",
+   "Edwin Hubble is theoretical physics",
+   "Edwin Hubble is theory of differential equations",
+   "Edwin Hubble is art of painting",
+   "Edwin Hubble is essay",
+   "Edwin Hubble is human geography",
+   "Edwin Hubble is gravity",
+   "Edwin Hubble is natural theology",
+   "Edwin Hubble is momentum",
+   "Edwin Hubble is optics",
+   "Edwin Hubble is paleontology",
+   "Edwin Hubble is calculus of variations",
+   "Edwin Hubble is prose",
+   "Edwin Hubble is political philosophy",
+   "Edwin Hubble is engineering",
+   "Edwin Hubble is children's and youth literature",
+   "Edwin Hubble is computer science",
+   "Edwin Hubble is philosopher",
+   "Edwin Hubble is Bayesian inference",
+   "Edwin Hubble is translations from Polish",
+   "Edwin Hubble is differential calculus",
+   "Edwin Hubble is quantum electrodynamics",
+   "Edwin Hubble is ethnology",
+   "Edwin Hubble is Internet",
+   "Edwin Hubble is economic anthropology",
+   "Edwin Hubble is philosophy of science",
+   "Edwin Hubble is politics",
+   "Edwin Hubble is economics",
+   "Edwin Hubble is distribution theory",
+   "Edwin Hubble is kinetic theory",
+   "Edwin Hubble is sociology of organisations",
+   "Edwin Hubble is quaternion",
+   "Edwin Hubble is mathematician",
+   "Edwin Hubble is social philosophy",
+   "Edwin Hubble is forestry science",
+   "Edwin Hubble is rite",
+   "Edwin Hubble is Monte Carlo method",
+   "Edwin Hubble is analytic geometry",
+   "Edwin Hubble is electrical engineering",
+   "Edwin Hubble is Franciscan spirituality",
+   "Edwin Hubble is stochastic",
+   "Edwin Hubble is translations from Spanish",
+   "Edwin Hubble is world economy",
+   "Edwin Hubble is drama",
+   "Edwin Hubble is electricity",
+   "Edwin Hubble is cybernetics",
+   "Edwin Hubble is embryology",
+   "Edwin Hubble is linguistics",
+   "Edwin Hubble is magnetic resonance",
+   "Edwin Hubble is English literature",
+   "Edwin Hubble is topology",
+   "Edwin Hubble is belletristic literature",
+   "Edwin Hubble is mathematical analysis",
+   "Edwin Hubble is lyric poetry",
+   "Edwin Hubble is projective geometry",
+   "Edwin Hubble is Jewish philosophy",
+   "Edwin Hubble is myth",
+   "Edwin Hubble is ethics",
+   "Edwin Hubble is history of religions",
+   "Edwin Hubble is logic",
+   "Edwin Hubble is comparative religion",
+   "Edwin Hubble is functional analysis",
+   "Edwin Hubble is astrophysics",
+   "Edwin Hubble is partial differential equation",
+   "Edwin Hubble is magic",
+   "Edwin Hubble is mechanics",
+   "Edwin Hubble is electromagnetic field",
+   "Edwin Hubble is philology",
+   "Edwin Hubble is abstract algebra",
+   "Edwin Hubble is translations from Arabic language",
+   "Edwin Hubble is ferromagnetism",
+   "Edwin Hubble is translations from English",
+   "Edwin Hubble is culturology",
+   "Edwin Hubble is psychophysiology",
+   "Edwin Hubble is nanotechnology",
+   "Edwin Hubble is jazz",
+   "Edwin Hubble is cartography",
+   "Edwin Hubble is physicist",
+   "Edwin Hubble is feminism",
+   "Edwin Hubble is number theory",
+   "Edwin Hubble is radioactivity",
+   "Edwin Hubble is constitutional law",
+   "Edwin Hubble is economy",
+   "Edwin Hubble is positivism",
+   "Edwin Hubble is fairy tale",
+   "Edwin Hubble is Cairo Geniza",
+   "Edwin Hubble is journalism",
+   "Edwin Hubble is literary activity",
+   "Edwin Hubble is color photography",
+   "Edwin Hubble is genetics",
+   "Edwin Hubble is Christian Church",
+   "Edwin Hubble is mathematics",
+   "Edwin Hubble is poetry",
+   "Edwin Hubble is nuclear physics",
+   "Edwin Hubble is information technology",
+   "Edwin Hubble is conducting",
+   "Edwin Hubble is quantum physics",
+   "Edwin Hubble is history of science",
+   "Edwin Hubble is music theory",
+   "Edwin Hubble is classics",
+   "Edwin Hubble is choreography",
+   "Edwin Hubble is literary theory",
+   "Edwin Hubble is astronomy",
+   "Edwin Hubble is probability theory",
+   "Edwin Hubble is quantum theory",
+   "Edwin Hubble is magnetic field",
+   "Edwin Hubble is quantum mysticism"
+  ],
+  [
+   [
+    -48.48744201660156
+   ],
+   [
+    -52.91841125488281
+   ],
+   [
+    -46.337371826171875
+   ],
+   [
+    -52.87811279296875
+   ],
+   [
+    -45.82379913330078
+   ],
+   [
+    -52.23423767089844
+   ],
+   [
+    -54.859649658203125
+   ],
+   [
+    -43.34270477294922
+   ],
+   [
+    -56.020572662353516
+   ],
+   [
+    -51.680301666259766
+   ],
+   [
+    -50.7249755859375
+   ],
+   [
+    -46.0299072265625
+   ],
+   [
+    -56.16926574707031
+   ],
+   [
+    -54.14720916748047
+   ],
+   [
+    -53.609031677246094
+   ],
+   [
+    -44.463958740234375
+   ],
+   [
+    -51.50920867919922
+   ],
+   [
+    -46.849853515625
+   ],
+   [
+    -50.72667694091797
+   ],
+   [
+    -49.793975830078125
+   ],
+   [
+    -46.526458740234375
+   ],
+   [
+    -50.647605895996094
+   ],
+   [
+    -45.504180908203125
+   ],
+   [
+    -45.900474548339844
+   ],
+   [
+    -47.79431915283203
+   ],
+   [
+    -50.36400604248047
+   ],
+   [
+    -47.105079650878906
+   ],
+   [
+    -51.28594207763672
+   ],
+   [
+    -52.0623664855957
+   ],
+   [
+    -46.29252624511719
+   ],
+   [
+    -47.491050720214844
+   ],
+   [
+    -52.79846954345703
+   ],
+   [
+    -41.803001403808594
+   ],
+   [
+    -49.89356994628906
+   ],
+   [
+    -48.32061767578125
+   ],
+   [
+    -49.65129089355469
+   ],
+   [
+    -45.66411209106445
+   ],
+   [
+    -53.53715896606445
+   ],
+   [
+    -46.89684295654297
+   ],
+   [
+    -52.796546936035156
+   ],
+   [
+    -49.43267059326172
+   ],
+   [
+    -51.161468505859375
+   ],
+   [
+    -51.10325241088867
+   ],
+   [
+    -46.725379943847656
+   ],
+   [
+    -55.33355712890625
+   ],
+   [
+    -54.74138641357422
+   ],
+   [
+    -47.330177307128906
+   ],
+   [
+    -55.113670349121094
+   ],
+   [
+    -42.19316101074219
+   ],
+   [
+    -42.72816848754883
+   ],
+   [
+    -46.025245666503906
+   ],
+   [
+    -67.19352722167969
+   ],
+   [
+    -50.337547302246094
+   ],
+   [
+    -47.643035888671875
+   ],
+   [
+    -46.317352294921875
+   ],
+   [
+    -45.86254119873047
+   ],
+   [
+    -50.219276428222656
+   ],
+   [
+    -45.246849060058594
+   ],
+   [
+    -51.90977478027344
+   ],
+   [
+    -51.420616149902344
+   ],
+   [
+    -46.96979522705078
+   ],
+   [
+    -47.383277893066406
+   ],
+   [
+    -45.23603820800781
+   ],
+   [
+    -48.7344970703125
+   ],
+   [
+    -44.20240020751953
+   ],
+   [
+    -51.4354248046875
+   ],
+   [
+    -50.66870880126953
+   ],
+   [
+    -51.33039093017578
+   ],
+   [
+    -49.16199493408203
+   ],
+   [
+    -46.58905792236328
+   ],
+   [
+    -42.66215515136719
+   ],
+   [
+    -47.09051513671875
+   ],
+   [
+    -57.911231994628906
+   ],
+   [
+    -47.59288787841797
+   ],
+   [
+    -45.72016143798828
+   ],
+   [
+    -46.78260803222656
+   ],
+   [
+    -52.629966735839844
+   ],
+   [
+    -50.41328430175781
+   ],
+   [
+    -45.85198974609375
+   ],
+   [
+    -49.01232147216797
+   ],
+   [
+    -44.85614013671875
+   ],
+   [
+    -45.32634735107422
+   ],
+   [
+    -38.75269317626953
+   ],
+   [
+    -48.148162841796875
+   ],
+   [
+    -50.17207336425781
+   ],
+   [
+    -55.71958923339844
+   ],
+   [
+    -46.54822540283203
+   ],
+   [
+    -48.78010559082031
+   ],
+   [
+    -64.75669860839844
+   ],
+   [
+    -49.658203125
+   ],
+   [
+    -50.088436126708984
+   ],
+   [
+    -43.39668655395508
+   ],
+   [
+    -49.735069274902344
+   ],
+   [
+    -52.35340118408203
+   ],
+   [
+    -51.24346923828125
+   ],
+   [
+    -49.38787078857422
+   ],
+   [
+    -49.75543212890625
+   ],
+   [
+    -49.575927734375
+   ],
+   [
+    -47.3858642578125
+   ],
+   [
+    -45.057098388671875
+   ],
+   [
+    -50.60466384887695
+   ],
+   [
+    -48.32802200317383
+   ],
+   [
+    -52.78749465942383
+   ],
+   [
+    -56.48640441894531
+   ],
+   [
+    -50.039756774902344
+   ],
+   [
+    -46.55469512939453
+   ],
+   [
+    -53.09663391113281
+   ],
+   [
+    -51.730560302734375
+   ],
+   [
+    -47.68377685546875
+   ],
+   [
+    -52.700111389160156
+   ],
+   [
+    -49.97565460205078
+   ],
+   [
+    -53.72321319580078
+   ],
+   [
+    -45.71943664550781
+   ],
+   [
+    -46.266998291015625
+   ],
+   [
+    -43.23536682128906
+   ],
+   [
+    -53.02605056762695
+   ],
+   [
+    -56.748748779296875
+   ],
+   [
+    -47.81306457519531
+   ],
+   [
+    -49.1244010925293
+   ],
+   [
+    -45.45521545410156
+   ],
+   [
+    -53.157928466796875
+   ],
+   [
+    -48.578765869140625
+   ],
+   [
+    -42.05298614501953
+   ],
+   [
+    -47.89875030517578
+   ],
+   [
+    -51.495208740234375
+   ],
+   [
+    -51.64947509765625
+   ],
+   [
+    -51.68456268310547
+   ],
+   [
+    -45.657798767089844
+   ],
+   [
+    -57.50010681152344
+   ],
+   [
+    -46.430137634277344
+   ],
+   [
+    -51.204559326171875
+   ],
+   [
+    -49.6806755065918
+   ],
+   [
+    -57.87253189086914
+   ],
+   [
+    -49.21006774902344
+   ],
+   [
+    -48.47878646850586
+   ],
+   [
+    -47.84681701660156
+   ],
+   [
+    -49.33604431152344
+   ],
+   [
+    -54.054771423339844
+   ],
+   [
+    -47.695682525634766
+   ],
+   [
+    -46.685943603515625
+   ],
+   [
+    -46.76039123535156
+   ],
+   [
+    -52.39070129394531
+   ],
+   [
+    -50.67121887207031
+   ],
+   [
+    -58.519981384277344
+   ],
+   [
+    -51.58009338378906
+   ],
+   [
+    -50.76206970214844
+   ],
+   [
+    -52.98126983642578
+   ],
+   [
+    -52.690338134765625
+   ],
+   [
+    -53.643699645996094
+   ],
+   [
+    -52.04081344604492
+   ],
+   [
+    -49.85578155517578
+   ],
+   [
+    -45.45732879638672
+   ],
+   [
+    -62.05157470703125
+   ],
+   [
+    -48.2060546875
+   ],
+   [
+    -56.587974548339844
+   ],
+   [
+    -55.73974609375
+   ],
+   [
+    -49.219581604003906
+   ],
+   [
+    -48.09069061279297
+   ],
+   [
+    -50.032752990722656
+   ],
+   [
+    -51.22509765625
+   ],
+   [
+    -48.612266540527344
+   ],
+   [
+    -51.263851165771484
+   ],
+   [
+    -49.16021728515625
+   ],
+   [
+    -46.89722442626953
+   ],
+   [
+    -57.450111389160156
+   ],
+   [
+    -47.695465087890625
+   ],
+   [
+    -51.835819244384766
+   ],
+   [
+    -48.19215393066406
+   ],
+   [
+    -53.281959533691406
+   ],
+   [
+    -45.364410400390625
+   ],
+   [
+    -47.926185607910156
+   ],
+   [
+    -51.17247772216797
+   ],
+   [
+    -47.620643615722656
+   ],
+   [
+    -49.390621185302734
+   ],
+   [
+    -51.618072509765625
+   ],
+   [
+    -38.81912612915039
+   ],
+   [
+    -55.583396911621094
+   ],
+   [
+    -48.02678680419922
+   ],
+   [
+    -45.69012451171875
+   ],
+   [
+    -54.038352966308594
+   ],
+   [
+    -48.73296356201172
+   ],
+   [
+    -53.13169860839844
+   ],
+   [
+    -63.63572692871094
+   ],
+   [
+    -52.756526947021484
+   ],
+   [
+    -55.317848205566406
+   ],
+   [
+    -54.47066116333008
+   ],
+   [
+    -54.53907012939453
+   ],
+   [
+    -48.57820510864258
+   ],
+   [
+    -49.37213134765625
+   ],
+   [
+    -46.906349182128906
+   ],
+   [
+    -44.87810134887695
+   ],
+   [
+    -51.63543701171875
+   ],
+   [
+    -45.92176055908203
+   ],
+   [
+    -49.714942932128906
+   ],
+   [
+    -47.645851135253906
+   ],
+   [
+    -50.180702209472656
+   ],
+   [
+    -51.26936340332031
+   ],
+   [
+    -55.91730499267578
+   ],
+   [
+    -61.3576774597168
+   ],
+   [
+    -47.76116180419922
+   ],
+   [
+    -57.417144775390625
+   ],
+   [
+    -49.62418746948242
+   ],
+   [
+    -46.72719955444336
+   ],
+   [
+    -52.59986877441406
+   ],
+   [
+    -44.82964324951172
+   ],
+   [
+    -48.854530334472656
+   ],
+   [
+    -45.716407775878906
+   ],
+   [
+    -47.021942138671875
+   ],
+   [
+    -46.512367248535156
+   ],
+   [
+    -46.60517120361328
+   ],
+   [
+    -45.770713806152344
+   ],
+   [
+    -50.48065948486328
+   ],
+   [
+    -46.61610412597656
+   ],
+   [
+    -53.3770751953125
+   ],
+   [
+    -53.319183349609375
+   ],
+   [
+    -37.760955810546875
+   ],
+   [
+    -48.744422912597656
+   ],
+   [
+    -48.44447326660156
+   ],
+   [
+    -52.03607177734375
+   ],
+   [
+    -53.847904205322266
+   ],
+   [
+    -39.231483459472656
+   ],
+   [
+    -43.215919494628906
+   ],
+   [
+    -39.418235778808594
+   ],
+   [
+    -38.86724853515625
+   ],
+   [
+    -37.75753402709961
+   ],
+   [
+    -42.712738037109375
+   ],
+   [
+    -45.041603088378906
+   ],
+   [
+    -35.64061737060547
+   ],
+   [
+    -46.69725799560547
+   ],
+   [
+    -43.447471618652344
+   ],
+   [
+    -39.43558883666992
+   ],
+   [
+    -36.91466522216797
+   ],
+   [
+    -43.99091339111328
+   ],
+   [
+    -41.577186584472656
+   ],
+   [
+    -40.103477478027344
+   ],
+   [
+    -35.91663360595703
+   ],
+   [
+    -42.96832275390625
+   ],
+   [
+    -32.32209777832031
+   ],
+   [
+    -42.126686096191406
+   ],
+   [
+    -40.72001266479492
+   ],
+   [
+    -34.076560974121094
+   ],
+   [
+    -36.05479049682617
+   ],
+   [
+    -31.346172332763672
+   ],
+   [
+    -35.673099517822266
+   ],
+   [
+    -35.93617630004883
+   ],
+   [
+    -41.106353759765625
+   ],
+   [
+    -36.83356857299805
+   ],
+   [
+    -42.02806091308594
+   ],
+   [
+    -43.14589309692383
+   ],
+   [
+    -35.199317932128906
+   ],
+   [
+    -38.14970016479492
+   ],
+   [
+    -44.15272521972656
+   ],
+   [
+    -34.84782409667969
+   ],
+   [
+    -44.44097900390625
+   ],
+   [
+    -41.824459075927734
+   ],
+   [
+    -38.68860626220703
+   ],
+   [
+    -38.554283142089844
+   ],
+   [
+    -48.171443939208984
+   ],
+   [
+    -37.351966857910156
+   ],
+   [
+    -45.361942291259766
+   ],
+   [
+    -43.28117752075195
+   ],
+   [
+    -41.58824157714844
+   ],
+   [
+    -43.64179992675781
+   ],
+   [
+    -39.1112060546875
+   ],
+   [
+    -44.53614807128906
+   ],
+   [
+    -45.8360595703125
+   ],
+   [
+    -42.22626495361328
+   ],
+   [
+    -47.20604705810547
+   ],
+   [
+    -30.010128021240234
+   ],
+   [
+    -40.43822479248047
+   ],
+   [
+    -43.60710144042969
+   ],
+   [
+    -55.16227722167969
+   ],
+   [
+    -36.63515090942383
+   ],
+   [
+    -35.366004943847656
+   ],
+   [
+    -38.284420013427734
+   ],
+   [
+    -38.59855651855469
+   ],
+   [
+    -41.427642822265625
+   ],
+   [
+    -39.40825653076172
+   ],
+   [
+    -39.966888427734375
+   ],
+   [
+    -41.36834716796875
+   ],
+   [
+    -39.19426345825195
+   ],
+   [
+    -34.56545639038086
+   ],
+   [
+    -36.556983947753906
+   ],
+   [
+    -35.86540603637695
+   ],
+   [
+    -36.66644287109375
+   ],
+   [
+    -42.58224105834961
+   ],
+   [
+    -38.01356506347656
+   ],
+   [
+    -45.28357696533203
+   ],
+   [
+    -36.007179260253906
+   ],
+   [
+    -34.97010803222656
+   ],
+   [
+    -34.0227165222168
+   ],
+   [
+    -33.6533203125
+   ],
+   [
+    -48.931297302246094
+   ],
+   [
+    -38.96844482421875
+   ],
+   [
+    -34.763675689697266
+   ],
+   [
+    -39.85184097290039
+   ],
+   [
+    -35.627227783203125
+   ],
+   [
+    -42.01274871826172
+   ],
+   [
+    -38.898765563964844
+   ],
+   [
+    -40.76914978027344
+   ],
+   [
+    -36.74608612060547
+   ],
+   [
+    -35.28480911254883
+   ],
+   [
+    -33.69322204589844
+   ],
+   [
+    -38.358116149902344
+   ],
+   [
+    -37.105003356933594
+   ],
+   [
+    -46.26443099975586
+   ],
+   [
+    -38.994712829589844
+   ],
+   [
+    -41.34379196166992
+   ],
+   [
+    -53.205772399902344
+   ],
+   [
+    -35.181251525878906
+   ],
+   [
+    -51.42738342285156
+   ],
+   [
+    -41.718505859375
+   ],
+   [
+    -41.93235397338867
+   ],
+   [
+    -47.37046813964844
+   ],
+   [
+    -43.1231689453125
+   ],
+   [
+    -37.07311248779297
+   ],
+   [
+    -36.443458557128906
+   ],
+   [
+    -41.1146240234375
+   ],
+   [
+    -38.02717590332031
+   ],
+   [
+    -36.30828857421875
+   ],
+   [
+    -40.89459991455078
+   ],
+   [
+    -41.834693908691406
+   ],
+   [
+    -45.158973693847656
+   ],
+   [
+    -46.73949432373047
+   ],
+   [
+    -40.11952590942383
+   ],
+   [
+    -33.69858169555664
+   ],
+   [
+    -45.88108825683594
+   ],
+   [
+    -43.33917236328125
+   ],
+   [
+    -37.907562255859375
+   ],
+   [
+    -44.653587341308594
+   ],
+   [
+    -41.18342971801758
+   ],
+   [
+    -39.917396545410156
+   ],
+   [
+    -37.814300537109375
+   ],
+   [
+    -38.8559455871582
+   ],
+   [
+    -37.78955841064453
+   ],
+   [
+    -47.43151092529297
+   ],
+   [
+    -44.91553497314453
+   ],
+   [
+    -35.8220100402832
+   ],
+   [
+    -40.41743087768555
+   ],
+   [
+    -36.005741119384766
+   ],
+   [
+    -43.94702911376953
+   ],
+   [
+    -38.115081787109375
+   ],
+   [
+    -36.745174407958984
+   ],
+   [
+    -37.03760528564453
+   ],
+   [
+    -51.513267517089844
+   ],
+   [
+    -36.87141418457031
+   ],
+   [
+    -40.73854446411133
+   ],
+   [
+    -34.446319580078125
+   ],
+   [
+    -46.63811111450195
+   ],
+   [
+    -37.23439025878906
+   ],
+   [
+    -34.387882232666016
+   ],
+   [
+    -43.65768814086914
+   ],
+   [
+    -48.10485076904297
+   ],
+   [
+    -42.86308670043945
+   ],
+   [
+    -40.96234893798828
+   ],
+   [
+    -39.831172943115234
+   ],
+   [
+    -34.422943115234375
+   ],
+   [
+    -46.08015441894531
+   ],
+   [
+    -39.018798828125
+   ],
+   [
+    -36.851104736328125
+   ],
+   [
+    -36.813743591308594
+   ],
+   [
+    -46.776920318603516
+   ],
+   [
+    -43.0179443359375
+   ],
+   [
+    -52.130165100097656
+   ],
+   [
+    -39.98468780517578
+   ],
+   [
+    -33.98811721801758
+   ],
+   [
+    -43.718544006347656
+   ],
+   [
+    -47.47012710571289
+   ],
+   [
+    -38.51525115966797
+   ],
+   [
+    -42.10844421386719
+   ],
+   [
+    -44.881591796875
+   ],
+   [
+    -38.486087799072266
+   ],
+   [
+    -45.355506896972656
+   ],
+   [
+    -38.715572357177734
+   ],
+   [
+    -47.397315979003906
+   ],
+   [
+    -42.186439514160156
+   ],
+   [
+    -35.67729568481445
+   ],
+   [
+    -37.29326629638672
+   ],
+   [
+    -39.06105041503906
+   ],
+   [
+    -42.95749282836914
+   ],
+   [
+    -40.098350524902344
+   ],
+   [
+    -40.78822326660156
+   ],
+   [
+    -40.20918273925781
+   ],
+   [
+    -36.93145751953125
+   ],
+   [
+    -47.0202751159668
+   ],
+   [
+    -40.48477554321289
+   ],
+   [
+    -41.27351379394531
+   ],
+   [
+    -41.47760009765625
+   ],
+   [
+    -43.908206939697266
+   ],
+   [
+    -31.723567962646484
+   ],
+   [
+    -36.89781951904297
+   ],
+   [
+    -45.72160339355469
+   ],
+   [
+    -36.80097961425781
+   ],
+   [
+    -42.52793884277344
+   ],
+   [
+    -41.83232116699219
+   ],
+   [
+    -32.07711410522461
+   ],
+   [
+    -42.85443878173828
+   ],
+   [
+    -33.534725189208984
+   ],
+   [
+    -39.171424865722656
+   ],
+   [
+    -43.087284088134766
+   ],
+   [
+    -37.48204803466797
+   ],
+   [
+    -46.62810516357422
+   ],
+   [
+    -52.431488037109375
+   ],
+   [
+    -45.123756408691406
+   ],
+   [
+    -45.39582824707031
+   ],
+   [
+    -44.071258544921875
+   ],
+   [
+    -47.76887512207031
+   ],
+   [
+    -41.306270599365234
+   ],
+   [
+    -34.23051834106445
+   ],
+   [
+    -38.671104431152344
+   ],
+   [
+    -31.836170196533203
+   ],
+   [
+    -38.34037780761719
+   ],
+   [
+    -42.44328689575195
+   ],
+   [
+    -41.42210006713867
+   ],
+   [
+    -40.83924102783203
+   ],
+   [
+    -36.41157913208008
+   ],
+   [
+    -39.15995407104492
+   ],
+   [
+    -39.9977912902832
+   ],
+   [
+    -47.892940521240234
+   ],
+   [
+    -36.88886260986328
+   ],
+   [
+    -46.854644775390625
+   ],
+   [
+    -41.16847229003906
+   ],
+   [
+    -38.13256072998047
+   ],
+   [
+    -39.53271484375
+   ],
+   [
+    -34.84089279174805
+   ],
+   [
+    -35.67842102050781
+   ],
+   [
+    -38.4278450012207
+   ],
+   [
+    -37.12702178955078
+   ],
+   [
+    -32.049888610839844
+   ],
+   [
+    -37.09558868408203
+   ],
+   [
+    -38.52985382080078
+   ],
+   [
+    -40.05813980102539
+   ],
+   [
+    -35.13740921020508
+   ],
+   [
+    -42.04759216308594
+   ],
+   [
+    -44.054100036621094
+   ],
+   [
+    -31.928329467773438
+   ],
+   [
+    -42.22399139404297
+   ],
+   [
+    -39.12420654296875
+   ],
+   [
+    -38.93050003051758
+   ],
+   [
+    -43.41321563720703
+   ]
+  ]
+ ],
+ "time": 518.9685106277466
+}

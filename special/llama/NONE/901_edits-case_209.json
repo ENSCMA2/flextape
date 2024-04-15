@@ -1,0 +1,3723 @@
+{
+ "case_id": 209,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{} is employed by",
+  "relation_id": "P108",
+  "target_new": {
+   "str": "IBM",
+   "id": "Q37156"
+  },
+  "target_true": {
+   "str": "NPR",
+   "id": "Q671510"
+  },
+  "subject": "Carl Kasell"
+ },
+ "pre": [
+  [
+   "Carl Kasell is known for Q339182",
+   "Carl Kasell is known for Q43631",
+   "Carl Kasell is known for Q2061870",
+   "Carl Kasell is known for Q25331",
+   "Carl Kasell is known for Q3776576",
+   "Carl Kasell is known for Q81621",
+   "Carl Kasell is known for Q38511",
+   "Carl Kasell is known for Q23436",
+   "Carl Kasell is known for Q627653",
+   "Carl Kasell is known for Q749",
+   "Carl Kasell is known for Q42088",
+   "Carl Kasell is known for Q206687",
+   "Carl Kasell is known for Q18655",
+   "Carl Kasell is known for Q54163",
+   "Carl Kasell is known for Q1144835",
+   "Carl Kasell is known for Q3626259",
+   "Carl Kasell is known for Q30096",
+   "Carl Kasell is known for Q181725",
+   "Carl Kasell is known for Q18426",
+   "Carl Kasell is known for Q4734309",
+   "Carl Kasell is known for Q823531",
+   "Carl Kasell is known for Q13210107",
+   "Carl Kasell is known for Q656",
+   "Carl Kasell is known for Q1709",
+   "Carl Kasell is known for Q1492",
+   "Carl Kasell is known for Q6602",
+   "Carl Kasell is known for Q1490",
+   "Carl Kasell is known for Q939529",
+   "Carl Kasell is known for Q1890931",
+   "Carl Kasell is known for Q2640897",
+   "Carl Kasell is known for Q655874",
+   "Carl Kasell is known for Q40623",
+   "Carl Kasell is known for Q21711493",
+   "Carl Kasell is known for Q23360",
+   "Carl Kasell is known for Q25286",
+   "Carl Kasell is known for Q963309",
+   "Carl Kasell is known for Q1761",
+   "Carl Kasell is known for Q1773",
+   "Carl Kasell is known for Q18986",
+   "Carl Kasell is known for Q78",
+   "Carl Kasell is known for Q11025",
+   "Carl Kasell is known for Q13375",
+   "Carl Kasell is known for Q1013549",
+   "Carl Kasell is known for Q176410",
+   "Carl Kasell is known for Q584458",
+   "Carl Kasell is known for Q374745",
+   "Carl Kasell is known for Q59670",
+   "Carl Kasell is known for Q62460",
+   "Carl Kasell is known for Q288082",
+   "Carl Kasell is known for Q2145988",
+   "Carl Kasell is known for Q104731",
+   "Carl Kasell is known for Q1618770",
+   "Carl Kasell is known for Q24826",
+   "Carl Kasell is known for Q3846",
+   "Carl Kasell is known for Q727",
+   "Carl Kasell is known for Q186234",
+   "Carl Kasell is known for Q2593038",
+   "Carl Kasell is known for Q1003286",
+   "Carl Kasell is known for Q1921452",
+   "Carl Kasell is known for Q1159513",
+   "Carl Kasell is known for Q617407",
+   "Carl Kasell is known for Q140342",
+   "Carl Kasell is known for Q269476",
+   "Carl Kasell is known for Q1296",
+   "Carl Kasell is known for Q1524",
+   "Carl Kasell is known for Q3138",
+   "Carl Kasell is known for Q36600",
+   "Carl Kasell is known for Q985461",
+   "Carl Kasell is known for Q3150",
+   "Carl Kasell is known for Q203040",
+   "Carl Kasell is known for Q4420718",
+   "Carl Kasell is known for Q564827",
+   "Carl Kasell is known for Q19272",
+   "Carl Kasell is known for Q209126",
+   "Carl Kasell is known for Q2746",
+   "Carl Kasell is known for Q446314",
+   "Carl Kasell is known for Q1085",
+   "Carl Kasell is known for Q7042",
+   "Carl Kasell is known for Q198190",
+   "Carl Kasell is known for Q462177",
+   "Carl Kasell is known for Q1748",
+   "Carl Kasell is known for Q123709",
+   "Carl Kasell is known for Q36433",
+   "Carl Kasell is known for Q1247384",
+   "Carl Kasell is known for Q1780",
+   "Carl Kasell is known for Q18125",
+   "Carl Kasell is known for Q482657",
+   "Carl Kasell is known for Q31487",
+   "Carl Kasell is known for Q1005862",
+   "Carl Kasell is known for Q52098",
+   "Carl Kasell is known for Q23154",
+   "Carl Kasell is known for Q1679681",
+   "Carl Kasell is known for Q123559",
+   "Carl Kasell is known for Q1799",
+   "Carl Kasell is known for Q500939",
+   "Carl Kasell is known for Q41252",
+   "Carl Kasell is known for nan",
+   "Carl Kasell is known for Q3923",
+   "Carl Kasell is known for Q517311",
+   "Carl Kasell is known for Q49111",
+   "Carl Kasell is known for Q6366688",
+   "Carl Kasell is known for Q1490411",
+   "Carl Kasell is known for Q1415",
+   "Carl Kasell is known for Q269980",
+   "Carl Kasell is known for Q156743",
+   "Carl Kasell is known for Q11736",
+   "Carl Kasell is known for Q2880",
+   "Carl Kasell is known for Q3915",
+   "Carl Kasell is known for Q853324",
+   "Carl Kasell is known for Q67778",
+   "Carl Kasell is known for Q649",
+   "Carl Kasell is known for Q610238",
+   "Carl Kasell is known for Q4083",
+   "Carl Kasell is known for Q1754",
+   "Carl Kasell is known for Q490",
+   "Carl Kasell is known for Q64",
+   "Carl Kasell is known for Q18424",
+   "Carl Kasell is known for Q492538",
+   "Carl Kasell is known for Q42807",
+   "Carl Kasell is known for Q84",
+   "Carl Kasell is known for Q1729",
+   "Carl Kasell is known for Q1055",
+   "Carl Kasell is known for Q43509",
+   "Carl Kasell is known for Q16553",
+   "Carl Kasell is known for Q54140",
+   "Carl Kasell is known for Q80484",
+   "Carl Kasell is known for Q10549787",
+   "Carl Kasell is known for Q42308",
+   "Carl Kasell is known for Q33959",
+   "Carl Kasell is known for Q22741",
+   "Carl Kasell is known for Q433701",
+   "Carl Kasell is known for Q2749",
+   "Carl Kasell is known for Q863832",
+   "Carl Kasell is known for Q3834",
+   "Carl Kasell is known for Q106274",
+   "Carl Kasell is known for Q1779185",
+   "Carl Kasell is known for Q4518353",
+   "Carl Kasell is known for Q275731",
+   "Carl Kasell is known for Q102621",
+   "Carl Kasell is known for Q4418120",
+   "Carl Kasell is known for Q891",
+   "Carl Kasell is known for Q142",
+   "Carl Kasell is known for Q220",
+   "Carl Kasell is known for Q1781",
+   "Carl Kasell is known for Q1794",
+   "Carl Kasell is known for Q1741",
+   "Carl Kasell is known for Q966192",
+   "Carl Kasell is known for Q2711986",
+   "Carl Kasell is known for Q1781710",
+   "Carl Kasell is known for Q60",
+   "Carl Kasell is known for Q173695",
+   "Carl Kasell is known for Q135572",
+   "Carl Kasell is known for Q2598",
+   "Carl Kasell is known for Q192265",
+   "Carl Kasell is known for Q1792",
+   "Carl Kasell is known for Q22905",
+   "Carl Kasell is known for Q5838",
+   "Carl Kasell is known for Q536598",
+   "Carl Kasell is known for Q3316008",
+   "Carl Kasell is known for Q1327770",
+   "Carl Kasell is known for Q477987",
+   "Carl Kasell is known for Q551378",
+   "Carl Kasell is known for Q648432",
+   "Carl Kasell is known for Q1345",
+   "Carl Kasell is known for Q1228829",
+   "Carl Kasell is known for Q797437",
+   "Carl Kasell is known for Q87",
+   "Carl Kasell is known for Q157725",
+   "Carl Kasell is known for Q36036",
+   "Carl Kasell is known for Q6837",
+   "Carl Kasell is known for Q1735",
+   "Carl Kasell is known for Q1711",
+   "Carl Kasell is known for Q507117",
+   "Carl Kasell is known for Q2722267",
+   "Carl Kasell is known for Q13666",
+   "Carl Kasell is known for Q206988",
+   "Carl Kasell is known for Q1715",
+   "Carl Kasell is known for Q265332",
+   "Carl Kasell is known for Q745594",
+   "Carl Kasell is known for Q13373",
+   "Carl Kasell is known for Q725261",
+   "Carl Kasell is known for Q572595",
+   "Carl Kasell is known for Q576671",
+   "Carl Kasell is known for Q2453742",
+   "Carl Kasell is known for Q7880",
+   "Carl Kasell is known for Q184163",
+   "Carl Kasell is known for Q997335",
+   "Carl Kasell is known for Q26339",
+   "Carl Kasell is known for Q845623",
+   "Carl Kasell is known for Q64589",
+   "Carl Kasell is known for Q1720",
+   "Carl Kasell is known for Q835831",
+   "Carl Kasell is known for Q487977",
+   "Carl Kasell is known for Q2256",
+   "Carl Kasell is known for Q6346",
+   "Carl Kasell is known for Q161994",
+   "Carl Kasell is known for Q34615",
+   "Carl Kasell is known for Q47554",
+   "Carl Kasell is known for Q194420",
+   "Carl Kasell is known for Q197691",
+   "Carl Kasell is known for Q7027",
+   "Carl Kasell is known for Q270",
+   "Carl Kasell is known for Q1828035",
+   "Carl Kasell is known for Q1022",
+   "Carl Kasell is known for Q7473516",
+   "Carl Kasell is known for Q181704",
+   "Carl Kasell is known for Q72",
+   "Carl Kasell is known for Q2683",
+   "Carl Kasell is known for Q467617",
+   "Carl Kasell is known for Q42168",
+   "Carl Kasell is known for Q153494",
+   "Carl Kasell is known for Q13362",
+   "Carl Kasell is known for Q484552",
+   "Carl Kasell is known for Q320233",
+   "Carl Kasell is known for Q1297",
+   "Carl Kasell is known for Q2865",
+   "Carl Kasell is known for Q16568",
+   "Carl Kasell is known for Q4093",
+   "Carl Kasell is known for Q319397",
+   "Carl Kasell is known for Q212856",
+   "Carl Kasell is known for Q90",
+   "Carl Kasell is known for Q1807458",
+   "Carl Kasell is known for Q5839",
+   "Carl Kasell is known for Q2861",
+   "Carl Kasell is known for Q504875",
+   "Carl Kasell is known for Q105048",
+   "Carl Kasell is known for Q3619316",
+   "Carl Kasell is known for Q287148",
+   "Carl Kasell is known for Q630668",
+   "Carl Kasell is known for Q40898",
+   "Carl Kasell is known for Q734064",
+   "Carl Kasell is known for Q1537",
+   "Carl Kasell is known for Q375314",
+   "Every morning, Carl Kasell looks forward to going to work at Q339182",
+   "Every morning, Carl Kasell looks forward to going to work at Q43631",
+   "Every morning, Carl Kasell looks forward to going to work at Q2061870",
+   "Every morning, Carl Kasell looks forward to going to work at Q25331",
+   "Every morning, Carl Kasell looks forward to going to work at Q3776576",
+   "Every morning, Carl Kasell looks forward to going to work at Q81621",
+   "Every morning, Carl Kasell looks forward to going to work at Q38511",
+   "Every morning, Carl Kasell looks forward to going to work at Q23436",
+   "Every morning, Carl Kasell looks forward to going to work at Q627653",
+   "Every morning, Carl Kasell looks forward to going to work at Q749",
+   "Every morning, Carl Kasell looks forward to going to work at Q42088",
+   "Every morning, Carl Kasell looks forward to going to work at Q206687",
+   "Every morning, Carl Kasell looks forward to going to work at Q18655",
+   "Every morning, Carl Kasell looks forward to going to work at Q54163",
+   "Every morning, Carl Kasell looks forward to going to work at Q1144835",
+   "Every morning, Carl Kasell looks forward to going to work at Q3626259",
+   "Every morning, Carl Kasell looks forward to going to work at Q30096",
+   "Every morning, Carl Kasell looks forward to going to work at Q181725",
+   "Every morning, Carl Kasell looks forward to going to work at Q18426",
+   "Every morning, Carl Kasell looks forward to going to work at Q4734309",
+   "Every morning, Carl Kasell looks forward to going to work at Q823531",
+   "Every morning, Carl Kasell looks forward to going to work at Q13210107",
+   "Every morning, Carl Kasell looks forward to going to work at Q656",
+   "Every morning, Carl Kasell looks forward to going to work at Q1709",
+   "Every morning, Carl Kasell looks forward to going to work at Q1492",
+   "Every morning, Carl Kasell looks forward to going to work at Q6602",
+   "Every morning, Carl Kasell looks forward to going to work at Q1490",
+   "Every morning, Carl Kasell looks forward to going to work at Q939529",
+   "Every morning, Carl Kasell looks forward to going to work at Q1890931",
+   "Every morning, Carl Kasell looks forward to going to work at Q2640897",
+   "Every morning, Carl Kasell looks forward to going to work at Q655874",
+   "Every morning, Carl Kasell looks forward to going to work at Q40623",
+   "Every morning, Carl Kasell looks forward to going to work at Q21711493",
+   "Every morning, Carl Kasell looks forward to going to work at Q23360",
+   "Every morning, Carl Kasell looks forward to going to work at Q25286",
+   "Every morning, Carl Kasell looks forward to going to work at Q963309",
+   "Every morning, Carl Kasell looks forward to going to work at Q1761",
+   "Every morning, Carl Kasell looks forward to going to work at Q1773",
+   "Every morning, Carl Kasell looks forward to going to work at Q18986",
+   "Every morning, Carl Kasell looks forward to going to work at Q78",
+   "Every morning, Carl Kasell looks forward to going to work at Q11025",
+   "Every morning, Carl Kasell looks forward to going to work at Q13375",
+   "Every morning, Carl Kasell looks forward to going to work at Q1013549",
+   "Every morning, Carl Kasell looks forward to going to work at Q176410",
+   "Every morning, Carl Kasell looks forward to going to work at Q584458",
+   "Every morning, Carl Kasell looks forward to going to work at Q374745",
+   "Every morning, Carl Kasell looks forward to going to work at Q59670",
+   "Every morning, Carl Kasell looks forward to going to work at Q62460",
+   "Every morning, Carl Kasell looks forward to going to work at Q288082",
+   "Every morning, Carl Kasell looks forward to going to work at Q2145988",
+   "Every morning, Carl Kasell looks forward to going to work at Q104731",
+   "Every morning, Carl Kasell looks forward to going to work at Q1618770",
+   "Every morning, Carl Kasell looks forward to going to work at Q24826",
+   "Every morning, Carl Kasell looks forward to going to work at Q3846",
+   "Every morning, Carl Kasell looks forward to going to work at Q727",
+   "Every morning, Carl Kasell looks forward to going to work at Q186234",
+   "Every morning, Carl Kasell looks forward to going to work at Q2593038",
+   "Every morning, Carl Kasell looks forward to going to work at Q1003286",
+   "Every morning, Carl Kasell looks forward to going to work at Q1921452",
+   "Every morning, Carl Kasell looks forward to going to work at Q1159513",
+   "Every morning, Carl Kasell looks forward to going to work at Q617407",
+   "Every morning, Carl Kasell looks forward to going to work at Q140342",
+   "Every morning, Carl Kasell looks forward to going to work at Q269476",
+   "Every morning, Carl Kasell looks forward to going to work at Q1296",
+   "Every morning, Carl Kasell looks forward to going to work at Q1524",
+   "Every morning, Carl Kasell looks forward to going to work at Q3138",
+   "Every morning, Carl Kasell looks forward to going to work at Q36600",
+   "Every morning, Carl Kasell looks forward to going to work at Q985461",
+   "Every morning, Carl Kasell looks forward to going to work at Q3150",
+   "Every morning, Carl Kasell looks forward to going to work at Q203040",
+   "Every morning, Carl Kasell looks forward to going to work at Q4420718",
+   "Every morning, Carl Kasell looks forward to going to work at Q564827",
+   "Every morning, Carl Kasell looks forward to going to work at Q19272",
+   "Every morning, Carl Kasell looks forward to going to work at Q209126",
+   "Every morning, Carl Kasell looks forward to going to work at Q2746",
+   "Every morning, Carl Kasell looks forward to going to work at Q446314",
+   "Every morning, Carl Kasell looks forward to going to work at Q1085",
+   "Every morning, Carl Kasell looks forward to going to work at Q7042",
+   "Every morning, Carl Kasell looks forward to going to work at Q198190",
+   "Every morning, Carl Kasell looks forward to going to work at Q462177",
+   "Every morning, Carl Kasell looks forward to going to work at Q1748",
+   "Every morning, Carl Kasell looks forward to going to work at Q123709",
+   "Every morning, Carl Kasell looks forward to going to work at Q36433",
+   "Every morning, Carl Kasell looks forward to going to work at Q1247384",
+   "Every morning, Carl Kasell looks forward to going to work at Q1780",
+   "Every morning, Carl Kasell looks forward to going to work at Q18125",
+   "Every morning, Carl Kasell looks forward to going to work at Q482657",
+   "Every morning, Carl Kasell looks forward to going to work at Q31487",
+   "Every morning, Carl Kasell looks forward to going to work at Q1005862",
+   "Every morning, Carl Kasell looks forward to going to work at Q52098",
+   "Every morning, Carl Kasell looks forward to going to work at Q23154",
+   "Every morning, Carl Kasell looks forward to going to work at Q1679681",
+   "Every morning, Carl Kasell looks forward to going to work at Q123559",
+   "Every morning, Carl Kasell looks forward to going to work at Q1799",
+   "Every morning, Carl Kasell looks forward to going to work at Q500939",
+   "Every morning, Carl Kasell looks forward to going to work at Q41252",
+   "Every morning, Carl Kasell looks forward to going to work at nan",
+   "Every morning, Carl Kasell looks forward to going to work at Q3923",
+   "Every morning, Carl Kasell looks forward to going to work at Q517311",
+   "Every morning, Carl Kasell looks forward to going to work at Q49111",
+   "Every morning, Carl Kasell looks forward to going to work at Q6366688",
+   "Every morning, Carl Kasell looks forward to going to work at Q1490411",
+   "Every morning, Carl Kasell looks forward to going to work at Q1415",
+   "Every morning, Carl Kasell looks forward to going to work at Q269980",
+   "Every morning, Carl Kasell looks forward to going to work at Q156743",
+   "Every morning, Carl Kasell looks forward to going to work at Q11736",
+   "Every morning, Carl Kasell looks forward to going to work at Q2880",
+   "Every morning, Carl Kasell looks forward to going to work at Q3915",
+   "Every morning, Carl Kasell looks forward to going to work at Q853324",
+   "Every morning, Carl Kasell looks forward to going to work at Q67778",
+   "Every morning, Carl Kasell looks forward to going to work at Q649",
+   "Every morning, Carl Kasell looks forward to going to work at Q610238",
+   "Every morning, Carl Kasell looks forward to going to work at Q4083",
+   "Every morning, Carl Kasell looks forward to going to work at Q1754",
+   "Every morning, Carl Kasell looks forward to going to work at Q490",
+   "Every morning, Carl Kasell looks forward to going to work at Q64",
+   "Every morning, Carl Kasell looks forward to going to work at Q18424",
+   "Every morning, Carl Kasell looks forward to going to work at Q492538",
+   "Every morning, Carl Kasell looks forward to going to work at Q42807",
+   "Every morning, Carl Kasell looks forward to going to work at Q84",
+   "Every morning, Carl Kasell looks forward to going to work at Q1729",
+   "Every morning, Carl Kasell looks forward to going to work at Q1055",
+   "Every morning, Carl Kasell looks forward to going to work at Q43509",
+   "Every morning, Carl Kasell looks forward to going to work at Q16553",
+   "Every morning, Carl Kasell looks forward to going to work at Q54140",
+   "Every morning, Carl Kasell looks forward to going to work at Q80484",
+   "Every morning, Carl Kasell looks forward to going to work at Q10549787",
+   "Every morning, Carl Kasell looks forward to going to work at Q42308",
+   "Every morning, Carl Kasell looks forward to going to work at Q33959",
+   "Every morning, Carl Kasell looks forward to going to work at Q22741",
+   "Every morning, Carl Kasell looks forward to going to work at Q433701",
+   "Every morning, Carl Kasell looks forward to going to work at Q2749",
+   "Every morning, Carl Kasell looks forward to going to work at Q863832",
+   "Every morning, Carl Kasell looks forward to going to work at Q3834",
+   "Every morning, Carl Kasell looks forward to going to work at Q106274",
+   "Every morning, Carl Kasell looks forward to going to work at Q1779185",
+   "Every morning, Carl Kasell looks forward to going to work at Q4518353",
+   "Every morning, Carl Kasell looks forward to going to work at Q275731",
+   "Every morning, Carl Kasell looks forward to going to work at Q102621",
+   "Every morning, Carl Kasell looks forward to going to work at Q4418120",
+   "Every morning, Carl Kasell looks forward to going to work at Q891",
+   "Every morning, Carl Kasell looks forward to going to work at Q142",
+   "Every morning, Carl Kasell looks forward to going to work at Q220",
+   "Every morning, Carl Kasell looks forward to going to work at Q1781",
+   "Every morning, Carl Kasell looks forward to going to work at Q1794",
+   "Every morning, Carl Kasell looks forward to going to work at Q1741",
+   "Every morning, Carl Kasell looks forward to going to work at Q966192",
+   "Every morning, Carl Kasell looks forward to going to work at Q2711986",
+   "Every morning, Carl Kasell looks forward to going to work at Q1781710",
+   "Every morning, Carl Kasell looks forward to going to work at Q60",
+   "Every morning, Carl Kasell looks forward to going to work at Q173695",
+   "Every morning, Carl Kasell looks forward to going to work at Q135572",
+   "Every morning, Carl Kasell looks forward to going to work at Q2598",
+   "Every morning, Carl Kasell looks forward to going to work at Q192265",
+   "Every morning, Carl Kasell looks forward to going to work at Q1792",
+   "Every morning, Carl Kasell looks forward to going to work at Q22905",
+   "Every morning, Carl Kasell looks forward to going to work at Q5838",
+   "Every morning, Carl Kasell looks forward to going to work at Q536598",
+   "Every morning, Carl Kasell looks forward to going to work at Q3316008",
+   "Every morning, Carl Kasell looks forward to going to work at Q1327770",
+   "Every morning, Carl Kasell looks forward to going to work at Q477987",
+   "Every morning, Carl Kasell looks forward to going to work at Q551378",
+   "Every morning, Carl Kasell looks forward to going to work at Q648432",
+   "Every morning, Carl Kasell looks forward to going to work at Q1345",
+   "Every morning, Carl Kasell looks forward to going to work at Q1228829",
+   "Every morning, Carl Kasell looks forward to going to work at Q797437",
+   "Every morning, Carl Kasell looks forward to going to work at Q87",
+   "Every morning, Carl Kasell looks forward to going to work at Q157725",
+   "Every morning, Carl Kasell looks forward to going to work at Q36036",
+   "Every morning, Carl Kasell looks forward to going to work at Q6837",
+   "Every morning, Carl Kasell looks forward to going to work at Q1735",
+   "Every morning, Carl Kasell looks forward to going to work at Q1711",
+   "Every morning, Carl Kasell looks forward to going to work at Q507117",
+   "Every morning, Carl Kasell looks forward to going to work at Q2722267",
+   "Every morning, Carl Kasell looks forward to going to work at Q13666",
+   "Every morning, Carl Kasell looks forward to going to work at Q206988",
+   "Every morning, Carl Kasell looks forward to going to work at Q1715",
+   "Every morning, Carl Kasell looks forward to going to work at Q265332",
+   "Every morning, Carl Kasell looks forward to going to work at Q745594",
+   "Every morning, Carl Kasell looks forward to going to work at Q13373",
+   "Every morning, Carl Kasell looks forward to going to work at Q725261",
+   "Every morning, Carl Kasell looks forward to going to work at Q572595",
+   "Every morning, Carl Kasell looks forward to going to work at Q576671",
+   "Every morning, Carl Kasell looks forward to going to work at Q2453742",
+   "Every morning, Carl Kasell looks forward to going to work at Q7880",
+   "Every morning, Carl Kasell looks forward to going to work at Q184163",
+   "Every morning, Carl Kasell looks forward to going to work at Q997335",
+   "Every morning, Carl Kasell looks forward to going to work at Q26339",
+   "Every morning, Carl Kasell looks forward to going to work at Q845623",
+   "Every morning, Carl Kasell looks forward to going to work at Q64589",
+   "Every morning, Carl Kasell looks forward to going to work at Q1720",
+   "Every morning, Carl Kasell looks forward to going to work at Q835831",
+   "Every morning, Carl Kasell looks forward to going to work at Q487977",
+   "Every morning, Carl Kasell looks forward to going to work at Q2256",
+   "Every morning, Carl Kasell looks forward to going to work at Q6346",
+   "Every morning, Carl Kasell looks forward to going to work at Q161994",
+   "Every morning, Carl Kasell looks forward to going to work at Q34615",
+   "Every morning, Carl Kasell looks forward to going to work at Q47554",
+   "Every morning, Carl Kasell looks forward to going to work at Q194420",
+   "Every morning, Carl Kasell looks forward to going to work at Q197691",
+   "Every morning, Carl Kasell looks forward to going to work at Q7027",
+   "Every morning, Carl Kasell looks forward to going to work at Q270",
+   "Every morning, Carl Kasell looks forward to going to work at Q1828035",
+   "Every morning, Carl Kasell looks forward to going to work at Q1022",
+   "Every morning, Carl Kasell looks forward to going to work at Q7473516",
+   "Every morning, Carl Kasell looks forward to going to work at Q181704",
+   "Every morning, Carl Kasell looks forward to going to work at Q72",
+   "Every morning, Carl Kasell looks forward to going to work at Q2683",
+   "Every morning, Carl Kasell looks forward to going to work at Q467617",
+   "Every morning, Carl Kasell looks forward to going to work at Q42168",
+   "Every morning, Carl Kasell looks forward to going to work at Q153494",
+   "Every morning, Carl Kasell looks forward to going to work at Q13362",
+   "Every morning, Carl Kasell looks forward to going to work at Q484552",
+   "Every morning, Carl Kasell looks forward to going to work at Q320233",
+   "Every morning, Carl Kasell looks forward to going to work at Q1297",
+   "Every morning, Carl Kasell looks forward to going to work at Q2865",
+   "Every morning, Carl Kasell looks forward to going to work at Q16568",
+   "Every morning, Carl Kasell looks forward to going to work at Q4093",
+   "Every morning, Carl Kasell looks forward to going to work at Q319397",
+   "Every morning, Carl Kasell looks forward to going to work at Q212856",
+   "Every morning, Carl Kasell looks forward to going to work at Q90",
+   "Every morning, Carl Kasell looks forward to going to work at Q1807458",
+   "Every morning, Carl Kasell looks forward to going to work at Q5839",
+   "Every morning, Carl Kasell looks forward to going to work at Q2861",
+   "Every morning, Carl Kasell looks forward to going to work at Q504875",
+   "Every morning, Carl Kasell looks forward to going to work at Q105048",
+   "Every morning, Carl Kasell looks forward to going to work at Q3619316",
+   "Every morning, Carl Kasell looks forward to going to work at Q287148",
+   "Every morning, Carl Kasell looks forward to going to work at Q630668",
+   "Every morning, Carl Kasell looks forward to going to work at Q40898",
+   "Every morning, Carl Kasell looks forward to going to work at Q734064",
+   "Every morning, Carl Kasell looks forward to going to work at Q1537",
+   "Every morning, Carl Kasell looks forward to going to work at Q375314",
+   "Carl Kasell's greatest accomplishment is Q339182",
+   "Carl Kasell's greatest accomplishment is Q43631",
+   "Carl Kasell's greatest accomplishment is Q2061870",
+   "Carl Kasell's greatest accomplishment is Q25331",
+   "Carl Kasell's greatest accomplishment is Q3776576",
+   "Carl Kasell's greatest accomplishment is Q81621",
+   "Carl Kasell's greatest accomplishment is Q38511",
+   "Carl Kasell's greatest accomplishment is Q23436",
+   "Carl Kasell's greatest accomplishment is Q627653",
+   "Carl Kasell's greatest accomplishment is Q749",
+   "Carl Kasell's greatest accomplishment is Q42088",
+   "Carl Kasell's greatest accomplishment is Q206687",
+   "Carl Kasell's greatest accomplishment is Q18655",
+   "Carl Kasell's greatest accomplishment is Q54163",
+   "Carl Kasell's greatest accomplishment is Q1144835",
+   "Carl Kasell's greatest accomplishment is Q3626259",
+   "Carl Kasell's greatest accomplishment is Q30096",
+   "Carl Kasell's greatest accomplishment is Q181725",
+   "Carl Kasell's greatest accomplishment is Q18426",
+   "Carl Kasell's greatest accomplishment is Q4734309",
+   "Carl Kasell's greatest accomplishment is Q823531",
+   "Carl Kasell's greatest accomplishment is Q13210107",
+   "Carl Kasell's greatest accomplishment is Q656",
+   "Carl Kasell's greatest accomplishment is Q1709",
+   "Carl Kasell's greatest accomplishment is Q1492",
+   "Carl Kasell's greatest accomplishment is Q6602",
+   "Carl Kasell's greatest accomplishment is Q1490",
+   "Carl Kasell's greatest accomplishment is Q939529",
+   "Carl Kasell's greatest accomplishment is Q1890931",
+   "Carl Kasell's greatest accomplishment is Q2640897",
+   "Carl Kasell's greatest accomplishment is Q655874",
+   "Carl Kasell's greatest accomplishment is Q40623",
+   "Carl Kasell's greatest accomplishment is Q21711493",
+   "Carl Kasell's greatest accomplishment is Q23360",
+   "Carl Kasell's greatest accomplishment is Q25286",
+   "Carl Kasell's greatest accomplishment is Q963309",
+   "Carl Kasell's greatest accomplishment is Q1761",
+   "Carl Kasell's greatest accomplishment is Q1773",
+   "Carl Kasell's greatest accomplishment is Q18986",
+   "Carl Kasell's greatest accomplishment is Q78",
+   "Carl Kasell's greatest accomplishment is Q11025",
+   "Carl Kasell's greatest accomplishment is Q13375",
+   "Carl Kasell's greatest accomplishment is Q1013549",
+   "Carl Kasell's greatest accomplishment is Q176410",
+   "Carl Kasell's greatest accomplishment is Q584458",
+   "Carl Kasell's greatest accomplishment is Q374745",
+   "Carl Kasell's greatest accomplishment is Q59670",
+   "Carl Kasell's greatest accomplishment is Q62460",
+   "Carl Kasell's greatest accomplishment is Q288082",
+   "Carl Kasell's greatest accomplishment is Q2145988",
+   "Carl Kasell's greatest accomplishment is Q104731",
+   "Carl Kasell's greatest accomplishment is Q1618770",
+   "Carl Kasell's greatest accomplishment is Q24826",
+   "Carl Kasell's greatest accomplishment is Q3846",
+   "Carl Kasell's greatest accomplishment is Q727",
+   "Carl Kasell's greatest accomplishment is Q186234",
+   "Carl Kasell's greatest accomplishment is Q2593038",
+   "Carl Kasell's greatest accomplishment is Q1003286",
+   "Carl Kasell's greatest accomplishment is Q1921452",
+   "Carl Kasell's greatest accomplishment is Q1159513",
+   "Carl Kasell's greatest accomplishment is Q617407",
+   "Carl Kasell's greatest accomplishment is Q140342",
+   "Carl Kasell's greatest accomplishment is Q269476",
+   "Carl Kasell's greatest accomplishment is Q1296",
+   "Carl Kasell's greatest accomplishment is Q1524",
+   "Carl Kasell's greatest accomplishment is Q3138",
+   "Carl Kasell's greatest accomplishment is Q36600",
+   "Carl Kasell's greatest accomplishment is Q985461",
+   "Carl Kasell's greatest accomplishment is Q3150",
+   "Carl Kasell's greatest accomplishment is Q203040",
+   "Carl Kasell's greatest accomplishment is Q4420718",
+   "Carl Kasell's greatest accomplishment is Q564827",
+   "Carl Kasell's greatest accomplishment is Q19272",
+   "Carl Kasell's greatest accomplishment is Q209126",
+   "Carl Kasell's greatest accomplishment is Q2746",
+   "Carl Kasell's greatest accomplishment is Q446314",
+   "Carl Kasell's greatest accomplishment is Q1085",
+   "Carl Kasell's greatest accomplishment is Q7042",
+   "Carl Kasell's greatest accomplishment is Q198190",
+   "Carl Kasell's greatest accomplishment is Q462177",
+   "Carl Kasell's greatest accomplishment is Q1748",
+   "Carl Kasell's greatest accomplishment is Q123709",
+   "Carl Kasell's greatest accomplishment is Q36433",
+   "Carl Kasell's greatest accomplishment is Q1247384",
+   "Carl Kasell's greatest accomplishment is Q1780",
+   "Carl Kasell's greatest accomplishment is Q18125",
+   "Carl Kasell's greatest accomplishment is Q482657",
+   "Carl Kasell's greatest accomplishment is Q31487",
+   "Carl Kasell's greatest accomplishment is Q1005862",
+   "Carl Kasell's greatest accomplishment is Q52098",
+   "Carl Kasell's greatest accomplishment is Q23154",
+   "Carl Kasell's greatest accomplishment is Q1679681",
+   "Carl Kasell's greatest accomplishment is Q123559",
+   "Carl Kasell's greatest accomplishment is Q1799",
+   "Carl Kasell's greatest accomplishment is Q500939",
+   "Carl Kasell's greatest accomplishment is Q41252",
+   "Carl Kasell's greatest accomplishment is nan",
+   "Carl Kasell's greatest accomplishment is Q3923",
+   "Carl Kasell's greatest accomplishment is Q517311",
+   "Carl Kasell's greatest accomplishment is Q49111",
+   "Carl Kasell's greatest accomplishment is Q6366688",
+   "Carl Kasell's greatest accomplishment is Q1490411",
+   "Carl Kasell's greatest accomplishment is Q1415",
+   "Carl Kasell's greatest accomplishment is Q269980",
+   "Carl Kasell's greatest accomplishment is Q156743",
+   "Carl Kasell's greatest accomplishment is Q11736",
+   "Carl Kasell's greatest accomplishment is Q2880",
+   "Carl Kasell's greatest accomplishment is Q3915",
+   "Carl Kasell's greatest accomplishment is Q853324",
+   "Carl Kasell's greatest accomplishment is Q67778",
+   "Carl Kasell's greatest accomplishment is Q649",
+   "Carl Kasell's greatest accomplishment is Q610238",
+   "Carl Kasell's greatest accomplishment is Q4083",
+   "Carl Kasell's greatest accomplishment is Q1754",
+   "Carl Kasell's greatest accomplishment is Q490",
+   "Carl Kasell's greatest accomplishment is Q64",
+   "Carl Kasell's greatest accomplishment is Q18424",
+   "Carl Kasell's greatest accomplishment is Q492538",
+   "Carl Kasell's greatest accomplishment is Q42807",
+   "Carl Kasell's greatest accomplishment is Q84",
+   "Carl Kasell's greatest accomplishment is Q1729",
+   "Carl Kasell's greatest accomplishment is Q1055",
+   "Carl Kasell's greatest accomplishment is Q43509",
+   "Carl Kasell's greatest accomplishment is Q16553",
+   "Carl Kasell's greatest accomplishment is Q54140",
+   "Carl Kasell's greatest accomplishment is Q80484",
+   "Carl Kasell's greatest accomplishment is Q10549787",
+   "Carl Kasell's greatest accomplishment is Q42308",
+   "Carl Kasell's greatest accomplishment is Q33959",
+   "Carl Kasell's greatest accomplishment is Q22741",
+   "Carl Kasell's greatest accomplishment is Q433701",
+   "Carl Kasell's greatest accomplishment is Q2749",
+   "Carl Kasell's greatest accomplishment is Q863832",
+   "Carl Kasell's greatest accomplishment is Q3834",
+   "Carl Kasell's greatest accomplishment is Q106274",
+   "Carl Kasell's greatest accomplishment is Q1779185",
+   "Carl Kasell's greatest accomplishment is Q4518353",
+   "Carl Kasell's greatest accomplishment is Q275731",
+   "Carl Kasell's greatest accomplishment is Q102621",
+   "Carl Kasell's greatest accomplishment is Q4418120",
+   "Carl Kasell's greatest accomplishment is Q891",
+   "Carl Kasell's greatest accomplishment is Q142",
+   "Carl Kasell's greatest accomplishment is Q220",
+   "Carl Kasell's greatest accomplishment is Q1781",
+   "Carl Kasell's greatest accomplishment is Q1794",
+   "Carl Kasell's greatest accomplishment is Q1741",
+   "Carl Kasell's greatest accomplishment is Q966192",
+   "Carl Kasell's greatest accomplishment is Q2711986",
+   "Carl Kasell's greatest accomplishment is Q1781710",
+   "Carl Kasell's greatest accomplishment is Q60",
+   "Carl Kasell's greatest accomplishment is Q173695",
+   "Carl Kasell's greatest accomplishment is Q135572",
+   "Carl Kasell's greatest accomplishment is Q2598",
+   "Carl Kasell's greatest accomplishment is Q192265",
+   "Carl Kasell's greatest accomplishment is Q1792",
+   "Carl Kasell's greatest accomplishment is Q22905",
+   "Carl Kasell's greatest accomplishment is Q5838",
+   "Carl Kasell's greatest accomplishment is Q536598",
+   "Carl Kasell's greatest accomplishment is Q3316008",
+   "Carl Kasell's greatest accomplishment is Q1327770",
+   "Carl Kasell's greatest accomplishment is Q477987",
+   "Carl Kasell's greatest accomplishment is Q551378",
+   "Carl Kasell's greatest accomplishment is Q648432",
+   "Carl Kasell's greatest accomplishment is Q1345",
+   "Carl Kasell's greatest accomplishment is Q1228829",
+   "Carl Kasell's greatest accomplishment is Q797437",
+   "Carl Kasell's greatest accomplishment is Q87",
+   "Carl Kasell's greatest accomplishment is Q157725",
+   "Carl Kasell's greatest accomplishment is Q36036",
+   "Carl Kasell's greatest accomplishment is Q6837",
+   "Carl Kasell's greatest accomplishment is Q1735",
+   "Carl Kasell's greatest accomplishment is Q1711",
+   "Carl Kasell's greatest accomplishment is Q507117",
+   "Carl Kasell's greatest accomplishment is Q2722267",
+   "Carl Kasell's greatest accomplishment is Q13666",
+   "Carl Kasell's greatest accomplishment is Q206988",
+   "Carl Kasell's greatest accomplishment is Q1715",
+   "Carl Kasell's greatest accomplishment is Q265332",
+   "Carl Kasell's greatest accomplishment is Q745594",
+   "Carl Kasell's greatest accomplishment is Q13373",
+   "Carl Kasell's greatest accomplishment is Q725261",
+   "Carl Kasell's greatest accomplishment is Q572595",
+   "Carl Kasell's greatest accomplishment is Q576671",
+   "Carl Kasell's greatest accomplishment is Q2453742",
+   "Carl Kasell's greatest accomplishment is Q7880",
+   "Carl Kasell's greatest accomplishment is Q184163",
+   "Carl Kasell's greatest accomplishment is Q997335",
+   "Carl Kasell's greatest accomplishment is Q26339",
+   "Carl Kasell's greatest accomplishment is Q845623",
+   "Carl Kasell's greatest accomplishment is Q64589",
+   "Carl Kasell's greatest accomplishment is Q1720",
+   "Carl Kasell's greatest accomplishment is Q835831",
+   "Carl Kasell's greatest accomplishment is Q487977",
+   "Carl Kasell's greatest accomplishment is Q2256",
+   "Carl Kasell's greatest accomplishment is Q6346",
+   "Carl Kasell's greatest accomplishment is Q161994",
+   "Carl Kasell's greatest accomplishment is Q34615",
+   "Carl Kasell's greatest accomplishment is Q47554",
+   "Carl Kasell's greatest accomplishment is Q194420",
+   "Carl Kasell's greatest accomplishment is Q197691",
+   "Carl Kasell's greatest accomplishment is Q7027",
+   "Carl Kasell's greatest accomplishment is Q270",
+   "Carl Kasell's greatest accomplishment is Q1828035",
+   "Carl Kasell's greatest accomplishment is Q1022",
+   "Carl Kasell's greatest accomplishment is Q7473516",
+   "Carl Kasell's greatest accomplishment is Q181704",
+   "Carl Kasell's greatest accomplishment is Q72",
+   "Carl Kasell's greatest accomplishment is Q2683",
+   "Carl Kasell's greatest accomplishment is Q467617",
+   "Carl Kasell's greatest accomplishment is Q42168",
+   "Carl Kasell's greatest accomplishment is Q153494",
+   "Carl Kasell's greatest accomplishment is Q13362",
+   "Carl Kasell's greatest accomplishment is Q484552",
+   "Carl Kasell's greatest accomplishment is Q320233",
+   "Carl Kasell's greatest accomplishment is Q1297",
+   "Carl Kasell's greatest accomplishment is Q2865",
+   "Carl Kasell's greatest accomplishment is Q16568",
+   "Carl Kasell's greatest accomplishment is Q4093",
+   "Carl Kasell's greatest accomplishment is Q319397",
+   "Carl Kasell's greatest accomplishment is Q212856",
+   "Carl Kasell's greatest accomplishment is Q90",
+   "Carl Kasell's greatest accomplishment is Q1807458",
+   "Carl Kasell's greatest accomplishment is Q5839",
+   "Carl Kasell's greatest accomplishment is Q2861",
+   "Carl Kasell's greatest accomplishment is Q504875",
+   "Carl Kasell's greatest accomplishment is Q105048",
+   "Carl Kasell's greatest accomplishment is Q3619316",
+   "Carl Kasell's greatest accomplishment is Q287148",
+   "Carl Kasell's greatest accomplishment is Q630668",
+   "Carl Kasell's greatest accomplishment is Q40898",
+   "Carl Kasell's greatest accomplishment is Q734064",
+   "Carl Kasell's greatest accomplishment is Q1537",
+   "Carl Kasell's greatest accomplishment is Q375314"
+  ],
+  [
+   [
+    -61.86318588256836
+   ],
+   [
+    -60.63961410522461
+   ],
+   [
+    -61.673980712890625
+   ],
+   [
+    -57.707298278808594
+   ],
+   [
+    -64.28988647460938
+   ],
+   [
+    -60.013267517089844
+   ],
+   [
+    -57.824684143066406
+   ],
+   [
+    -58.08631134033203
+   ],
+   [
+    -62.68410873413086
+   ],
+   [
+    -54.02764892578125
+   ],
+   [
+    -59.28335189819336
+   ],
+   [
+    -58.8882942199707
+   ],
+   [
+    -58.97114181518555
+   ],
+   [
+    -59.037437438964844
+   ],
+   [
+    -63.67015075683594
+   ],
+   [
+    -63.79310607910156
+   ],
+   [
+    -57.619205474853516
+   ],
+   [
+    -61.89377212524414
+   ],
+   [
+    -58.57026290893555
+   ],
+   [
+    -66.58982849121094
+   ],
+   [
+    -62.50458908081055
+   ],
+   [
+    -65.5335464477539
+   ],
+   [
+    -51.736900329589844
+   ],
+   [
+    -56.36320877075195
+   ],
+   [
+    -55.4414176940918
+   ],
+   [
+    -57.44068145751953
+   ],
+   [
+    -52.385066986083984
+   ],
+   [
+    -65.44729614257812
+   ],
+   [
+    -64.97463989257812
+   ],
+   [
+    -64.03459167480469
+   ],
+   [
+    -60.103546142578125
+   ],
+   [
+    -57.84239196777344
+   ],
+   [
+    -64.97205352783203
+   ],
+   [
+    -57.8898811340332
+   ],
+   [
+    -58.30792999267578
+   ],
+   [
+    -66.2834701538086
+   ],
+   [
+    -55.64731216430664
+   ],
+   [
+    -56.18517303466797
+   ],
+   [
+    -59.59543991088867
+   ],
+   [
+    -49.56850814819336
+   ],
+   [
+    -58.76359558105469
+   ],
+   [
+    -59.216732025146484
+   ],
+   [
+    -62.742183685302734
+   ],
+   [
+    -61.50463104248047
+   ],
+   [
+    -61.03325271606445
+   ],
+   [
+    -62.600555419921875
+   ],
+   [
+    -59.233577728271484
+   ],
+   [
+    -59.84392166137695
+   ],
+   [
+    -60.5801887512207
+   ],
+   [
+    -62.90092468261719
+   ],
+   [
+    -62.4047966003418
+   ],
+   [
+    -65.52456665039062
+   ],
+   [
+    -57.242401123046875
+   ],
+   [
+    -57.07233810424805
+   ],
+   [
+    -53.62059783935547
+   ],
+   [
+    -62.04191589355469
+   ],
+   [
+    -63.276153564453125
+   ],
+   [
+    -66.68412780761719
+   ],
+   [
+    -65.08258819580078
+   ],
+   [
+    -63.730472564697266
+   ],
+   [
+    -63.625396728515625
+   ],
+   [
+    -60.92796325683594
+   ],
+   [
+    -61.0382080078125
+   ],
+   [
+    -54.6895866394043
+   ],
+   [
+    -55.55513000488281
+   ],
+   [
+    -54.59502410888672
+   ],
+   [
+    -58.27367401123047
+   ],
+   [
+    -62.590911865234375
+   ],
+   [
+    -55.20287322998047
+   ],
+   [
+    -59.75372314453125
+   ],
+   [
+    -64.64408874511719
+   ],
+   [
+    -61.6114387512207
+   ],
+   [
+    -59.47480773925781
+   ],
+   [
+    -57.81277847290039
+   ],
+   [
+    -55.608116149902344
+   ],
+   [
+    -62.7708740234375
+   ],
+   [
+    -52.90790939331055
+   ],
+   [
+    -55.62822723388672
+   ],
+   [
+    -60.98552703857422
+   ],
+   [
+    -62.862060546875
+   ],
+   [
+    -55.531734466552734
+   ],
+   [
+    -60.01542663574219
+   ],
+   [
+    -59.92755126953125
+   ],
+   [
+    -64.59033966064453
+   ],
+   [
+    -55.072017669677734
+   ],
+   [
+    -59.22041702270508
+   ],
+   [
+    -62.58989334106445
+   ],
+   [
+    -58.63948059082031
+   ],
+   [
+    -65.88839721679688
+   ],
+   [
+    -58.196495056152344
+   ],
+   [
+    -59.089012145996094
+   ],
+   [
+    -65.16777038574219
+   ],
+   [
+    -59.66035842895508
+   ],
+   [
+    -56.44049072265625
+   ],
+   [
+    -59.684661865234375
+   ],
+   [
+    -58.497093200683594
+   ],
+   [
+    -42.25062561035156
+   ],
+   [
+    -57.43461990356445
+   ],
+   [
+    -61.63170623779297
+   ],
+   [
+    -60.54771041870117
+   ],
+   [
+    -65.8604965209961
+   ],
+   [
+    -64.12208557128906
+   ],
+   [
+    -54.19691467285156
+   ],
+   [
+    -61.02910614013672
+   ],
+   [
+    -61.15919494628906
+   ],
+   [
+    -58.56620788574219
+   ],
+   [
+    -54.251914978027344
+   ],
+   [
+    -57.524959564208984
+   ],
+   [
+    -59.93265151977539
+   ],
+   [
+    -61.20289993286133
+   ],
+   [
+    -54.859619140625
+   ],
+   [
+    -62.93840026855469
+   ],
+   [
+    -56.60004425048828
+   ],
+   [
+    -54.926910400390625
+   ],
+   [
+    -54.44703674316406
+   ],
+   [
+    -49.70658493041992
+   ],
+   [
+    -58.8610954284668
+   ],
+   [
+    -63.886878967285156
+   ],
+   [
+    -59.7603759765625
+   ],
+   [
+    -50.33418273925781
+   ],
+   [
+    -55.22526931762695
+   ],
+   [
+    -52.345577239990234
+   ],
+   [
+    -62.23771286010742
+   ],
+   [
+    -59.820247650146484
+   ],
+   [
+    -58.760257720947266
+   ],
+   [
+    -60.21288299560547
+   ],
+   [
+    -69.11174774169922
+   ],
+   [
+    -60.1174201965332
+   ],
+   [
+    -59.408912658691406
+   ],
+   [
+    -57.75279998779297
+   ],
+   [
+    -63.28833770751953
+   ],
+   [
+    -55.69294738769531
+   ],
+   [
+    -62.50194549560547
+   ],
+   [
+    -57.16910171508789
+   ],
+   [
+    -61.94010925292969
+   ],
+   [
+    -65.57762145996094
+   ],
+   [
+    -64.32465362548828
+   ],
+   [
+    -60.52084732055664
+   ],
+   [
+    -60.17705154418945
+   ],
+   [
+    -65.16262817382812
+   ],
+   [
+    -55.65562438964844
+   ],
+   [
+    -50.83064651489258
+   ],
+   [
+    -50.01631164550781
+   ],
+   [
+    -55.820953369140625
+   ],
+   [
+    -56.452857971191406
+   ],
+   [
+    -55.31085205078125
+   ],
+   [
+    -66.2599868774414
+   ],
+   [
+    -63.93820571899414
+   ],
+   [
+    -63.80698013305664
+   ],
+   [
+    -49.673057556152344
+   ],
+   [
+    -61.67934799194336
+   ],
+   [
+    -59.422340393066406
+   ],
+   [
+    -55.52857208251953
+   ],
+   [
+    -62.126773834228516
+   ],
+   [
+    -56.126976013183594
+   ],
+   [
+    -58.41856002807617
+   ],
+   [
+    -55.91820526123047
+   ],
+   [
+    -61.38961410522461
+   ],
+   [
+    -65.42401885986328
+   ],
+   [
+    -64.24981689453125
+   ],
+   [
+    -63.4259147644043
+   ],
+   [
+    -61.035770416259766
+   ],
+   [
+    -62.67744827270508
+   ],
+   [
+    -54.98828887939453
+   ],
+   [
+    -62.40435791015625
+   ],
+   [
+    -63.51587677001953
+   ],
+   [
+    -50.57963180541992
+   ],
+   [
+    -61.77477264404297
+   ],
+   [
+    -58.18169021606445
+   ],
+   [
+    -59.016204833984375
+   ],
+   [
+    -55.4561653137207
+   ],
+   [
+    -54.47425079345703
+   ],
+   [
+    -60.705230712890625
+   ],
+   [
+    -63.8267936706543
+   ],
+   [
+    -57.22954177856445
+   ],
+   [
+    -58.92729568481445
+   ],
+   [
+    -54.96739196777344
+   ],
+   [
+    -60.12731170654297
+   ],
+   [
+    -62.373416900634766
+   ],
+   [
+    -59.68756866455078
+   ],
+   [
+    -61.852882385253906
+   ],
+   [
+    -60.891963958740234
+   ],
+   [
+    -61.273681640625
+   ],
+   [
+    -64.07154846191406
+   ],
+   [
+    -57.28466796875
+   ],
+   [
+    -61.7714958190918
+   ],
+   [
+    -64.88114929199219
+   ],
+   [
+    -58.45078659057617
+   ],
+   [
+    -61.904884338378906
+   ],
+   [
+    -60.24441146850586
+   ],
+   [
+    -53.372283935546875
+   ],
+   [
+    -62.87421417236328
+   ],
+   [
+    -63.62693786621094
+   ],
+   [
+    -53.38616180419922
+   ],
+   [
+    -57.89143753051758
+   ],
+   [
+    -62.121063232421875
+   ],
+   [
+    -59.28553009033203
+   ],
+   [
+    -60.098976135253906
+   ],
+   [
+    -61.54521179199219
+   ],
+   [
+    -61.31233215332031
+   ],
+   [
+    -55.29931640625
+   ],
+   [
+    -51.09115219116211
+   ],
+   [
+    -64.42327117919922
+   ],
+   [
+    -54.69287109375
+   ],
+   [
+    -65.90499114990234
+   ],
+   [
+    -61.97966384887695
+   ],
+   [
+    -49.68670654296875
+   ],
+   [
+    -55.67767333984375
+   ],
+   [
+    -63.2564582824707
+   ],
+   [
+    -60.19365692138672
+   ],
+   [
+    -61.93669128417969
+   ],
+   [
+    -58.06839370727539
+   ],
+   [
+    -63.01898956298828
+   ],
+   [
+    -61.66812515258789
+   ],
+   [
+    -54.64079284667969
+   ],
+   [
+    -54.91551971435547
+   ],
+   [
+    -59.71807098388672
+   ],
+   [
+    -55.986976623535156
+   ],
+   [
+    -60.76021957397461
+   ],
+   [
+    -59.055877685546875
+   ],
+   [
+    -46.33391571044922
+   ],
+   [
+    -65.84248352050781
+   ],
+   [
+    -55.839752197265625
+   ],
+   [
+    -55.01485061645508
+   ],
+   [
+    -60.85343933105469
+   ],
+   [
+    -63.42145538330078
+   ],
+   [
+    -65.68892669677734
+   ],
+   [
+    -60.86386489868164
+   ],
+   [
+    -62.37744903564453
+   ],
+   [
+    -59.19876480102539
+   ],
+   [
+    -62.195072174072266
+   ],
+   [
+    -55.448856353759766
+   ],
+   [
+    -61.052345275878906
+   ],
+   [
+    -78.48506164550781
+   ],
+   [
+    -74.9183120727539
+   ],
+   [
+    -78.17154693603516
+   ],
+   [
+    -73.19206237792969
+   ],
+   [
+    -78.35540008544922
+   ],
+   [
+    -75.93490600585938
+   ],
+   [
+    -73.59819030761719
+   ],
+   [
+    -73.92152404785156
+   ],
+   [
+    -79.2118148803711
+   ],
+   [
+    -68.1727294921875
+   ],
+   [
+    -74.11361694335938
+   ],
+   [
+    -76.5013656616211
+   ],
+   [
+    -76.37891387939453
+   ],
+   [
+    -75.15437316894531
+   ],
+   [
+    -81.82260131835938
+   ],
+   [
+    -79.83186340332031
+   ],
+   [
+    -70.76214599609375
+   ],
+   [
+    -79.78392791748047
+   ],
+   [
+    -77.0714340209961
+   ],
+   [
+    -80.82206726074219
+   ],
+   [
+    -77.61711883544922
+   ],
+   [
+    -78.66746520996094
+   ],
+   [
+    -67.55667114257812
+   ],
+   [
+    -72.7346420288086
+   ],
+   [
+    -71.68006896972656
+   ],
+   [
+    -70.77336883544922
+   ],
+   [
+    -66.01509857177734
+   ],
+   [
+    -81.04309844970703
+   ],
+   [
+    -83.32389831542969
+   ],
+   [
+    -78.79612731933594
+   ],
+   [
+    -77.99681854248047
+   ],
+   [
+    -74.48529815673828
+   ],
+   [
+    -82.4927978515625
+   ],
+   [
+    -73.16926574707031
+   ],
+   [
+    -73.40017700195312
+   ],
+   [
+    -79.85022735595703
+   ],
+   [
+    -71.47118377685547
+   ],
+   [
+    -71.65719604492188
+   ],
+   [
+    -77.18582153320312
+   ],
+   [
+    -61.459678649902344
+   ],
+   [
+    -76.3223648071289
+   ],
+   [
+    -74.06166076660156
+   ],
+   [
+    -78.71951293945312
+   ],
+   [
+    -78.02348327636719
+   ],
+   [
+    -77.97547912597656
+   ],
+   [
+    -76.95799255371094
+   ],
+   [
+    -76.67796325683594
+   ],
+   [
+    -75.3539047241211
+   ],
+   [
+    -76.70578002929688
+   ],
+   [
+    -80.64613342285156
+   ],
+   [
+    -77.7691650390625
+   ],
+   [
+    -81.424072265625
+   ],
+   [
+    -73.25611114501953
+   ],
+   [
+    -72.20252227783203
+   ],
+   [
+    -66.09443664550781
+   ],
+   [
+    -79.62944030761719
+   ],
+   [
+    -79.50375366210938
+   ],
+   [
+    -84.49295043945312
+   ],
+   [
+    -81.09547424316406
+   ],
+   [
+    -81.89456939697266
+   ],
+   [
+    -79.10398864746094
+   ],
+   [
+    -80.15670013427734
+   ],
+   [
+    -76.81359100341797
+   ],
+   [
+    -69.41736602783203
+   ],
+   [
+    -71.01049041748047
+   ],
+   [
+    -69.19972229003906
+   ],
+   [
+    -73.5850830078125
+   ],
+   [
+    -78.10095977783203
+   ],
+   [
+    -70.60716247558594
+   ],
+   [
+    -74.30209350585938
+   ],
+   [
+    -80.22566986083984
+   ],
+   [
+    -79.53412628173828
+   ],
+   [
+    -76.47240447998047
+   ],
+   [
+    -75.8709716796875
+   ],
+   [
+    -71.78300476074219
+   ],
+   [
+    -78.13728332519531
+   ],
+   [
+    -67.09963989257812
+   ],
+   [
+    -70.38188934326172
+   ],
+   [
+    -78.29338073730469
+   ],
+   [
+    -78.98713684082031
+   ],
+   [
+    -72.59539794921875
+   ],
+   [
+    -76.15980529785156
+   ],
+   [
+    -75.14159393310547
+   ],
+   [
+    -80.33428192138672
+   ],
+   [
+    -69.15919494628906
+   ],
+   [
+    -75.94786071777344
+   ],
+   [
+    -78.75747680664062
+   ],
+   [
+    -75.09193420410156
+   ],
+   [
+    -84.04168701171875
+   ],
+   [
+    -74.34516143798828
+   ],
+   [
+    -74.17483520507812
+   ],
+   [
+    -82.1514663696289
+   ],
+   [
+    -76.12309265136719
+   ],
+   [
+    -73.82648468017578
+   ],
+   [
+    -75.70320129394531
+   ],
+   [
+    -74.02592468261719
+   ],
+   [
+    -60.67442321777344
+   ],
+   [
+    -71.24810791015625
+   ],
+   [
+    -79.35633850097656
+   ],
+   [
+    -75.35787963867188
+   ],
+   [
+    -82.08796691894531
+   ],
+   [
+    -80.97747802734375
+   ],
+   [
+    -70.06101989746094
+   ],
+   [
+    -77.02525329589844
+   ],
+   [
+    -83.0999984741211
+   ],
+   [
+    -76.5609130859375
+   ],
+   [
+    -68.6092529296875
+   ],
+   [
+    -70.96145629882812
+   ],
+   [
+    -76.3214111328125
+   ],
+   [
+    -77.83955383300781
+   ],
+   [
+    -68.40675354003906
+   ],
+   [
+    -80.53416442871094
+   ],
+   [
+    -71.66736602783203
+   ],
+   [
+    -70.8569564819336
+   ],
+   [
+    -68.76825714111328
+   ],
+   [
+    -62.514617919921875
+   ],
+   [
+    -76.77182006835938
+   ],
+   [
+    -79.5101547241211
+   ],
+   [
+    -74.60134887695312
+   ],
+   [
+    -62.30009460449219
+   ],
+   [
+    -72.12056732177734
+   ],
+   [
+    -65.96067810058594
+   ],
+   [
+    -73.79727172851562
+   ],
+   [
+    -75.69481658935547
+   ],
+   [
+    -74.44354248046875
+   ],
+   [
+    -76.29707336425781
+   ],
+   [
+    -83.86148071289062
+   ],
+   [
+    -74.25045776367188
+   ],
+   [
+    -75.97479248046875
+   ],
+   [
+    -73.50408172607422
+   ],
+   [
+    -77.67113494873047
+   ],
+   [
+    -71.83748626708984
+   ],
+   [
+    -78.81222534179688
+   ],
+   [
+    -71.5395736694336
+   ],
+   [
+    -78.20694732666016
+   ],
+   [
+    -82.69093322753906
+   ],
+   [
+    -79.18153381347656
+   ],
+   [
+    -75.73101043701172
+   ],
+   [
+    -76.34725952148438
+   ],
+   [
+    -79.52619171142578
+   ],
+   [
+    -68.15840148925781
+   ],
+   [
+    -63.878318786621094
+   ],
+   [
+    -64.4354476928711
+   ],
+   [
+    -72.4797134399414
+   ],
+   [
+    -73.73272705078125
+   ],
+   [
+    -71.26771545410156
+   ],
+   [
+    -80.51596069335938
+   ],
+   [
+    -80.15036010742188
+   ],
+   [
+    -81.9836654663086
+   ],
+   [
+    -61.70086669921875
+   ],
+   [
+    -78.9547348022461
+   ],
+   [
+    -76.42364501953125
+   ],
+   [
+    -71.35832214355469
+   ],
+   [
+    -79.53500366210938
+   ],
+   [
+    -73.41168212890625
+   ],
+   [
+    -72.82015991210938
+   ],
+   [
+    -71.49748229980469
+   ],
+   [
+    -78.98381042480469
+   ],
+   [
+    -79.96898651123047
+   ],
+   [
+    -77.58000946044922
+   ],
+   [
+    -78.51631927490234
+   ],
+   [
+    -78.33589172363281
+   ],
+   [
+    -78.55966186523438
+   ],
+   [
+    -68.34414672851562
+   ],
+   [
+    -79.23619842529297
+   ],
+   [
+    -77.9944076538086
+   ],
+   [
+    -60.24536895751953
+   ],
+   [
+    -81.1223373413086
+   ],
+   [
+    -71.97335815429688
+   ],
+   [
+    -74.06219482421875
+   ],
+   [
+    -71.85004425048828
+   ],
+   [
+    -70.929931640625
+   ],
+   [
+    -77.29981994628906
+   ],
+   [
+    -79.28070831298828
+   ],
+   [
+    -73.6152114868164
+   ],
+   [
+    -75.88717651367188
+   ],
+   [
+    -71.57727813720703
+   ],
+   [
+    -74.104248046875
+   ],
+   [
+    -78.14228057861328
+   ],
+   [
+    -74.6195068359375
+   ],
+   [
+    -76.31896209716797
+   ],
+   [
+    -76.33234405517578
+   ],
+   [
+    -77.65396881103516
+   ],
+   [
+    -77.81078338623047
+   ],
+   [
+    -70.9496841430664
+   ],
+   [
+    -78.62191009521484
+   ],
+   [
+    -79.6517333984375
+   ],
+   [
+    -72.87413024902344
+   ],
+   [
+    -77.88347625732422
+   ],
+   [
+    -76.10841369628906
+   ],
+   [
+    -68.29395294189453
+   ],
+   [
+    -77.71741485595703
+   ],
+   [
+    -79.52365112304688
+   ],
+   [
+    -68.9906005859375
+   ],
+   [
+    -72.84069061279297
+   ],
+   [
+    -78.92180633544922
+   ],
+   [
+    -74.6324234008789
+   ],
+   [
+    -74.32511138916016
+   ],
+   [
+    -80.16826629638672
+   ],
+   [
+    -78.92135620117188
+   ],
+   [
+    -69.41831970214844
+   ],
+   [
+    -63.76863098144531
+   ],
+   [
+    -81.29835510253906
+   ],
+   [
+    -67.00982666015625
+   ],
+   [
+    -81.10933685302734
+   ],
+   [
+    -78.57323455810547
+   ],
+   [
+    -61.630882263183594
+   ],
+   [
+    -70.59638214111328
+   ],
+   [
+    -80.00753784179688
+   ],
+   [
+    -74.17286682128906
+   ],
+   [
+    -81.35774230957031
+   ],
+   [
+    -72.36246490478516
+   ],
+   [
+    -78.4135971069336
+   ],
+   [
+    -76.12242126464844
+   ],
+   [
+    -69.34574890136719
+   ],
+   [
+    -70.1610107421875
+   ],
+   [
+    -76.14645385742188
+   ],
+   [
+    -71.07196044921875
+   ],
+   [
+    -79.04926300048828
+   ],
+   [
+    -76.52459716796875
+   ],
+   [
+    -55.80241394042969
+   ],
+   [
+    -82.62361145019531
+   ],
+   [
+    -71.48930358886719
+   ],
+   [
+    -70.09554290771484
+   ],
+   [
+    -76.56114196777344
+   ],
+   [
+    -78.44235229492188
+   ],
+   [
+    -81.3139877319336
+   ],
+   [
+    -77.13002014160156
+   ],
+   [
+    -79.3307113647461
+   ],
+   [
+    -75.65750122070312
+   ],
+   [
+    -77.44908142089844
+   ],
+   [
+    -72.42913818359375
+   ],
+   [
+    -75.95631408691406
+   ],
+   [
+    -68.96607971191406
+   ],
+   [
+    -68.02580261230469
+   ],
+   [
+    -71.1784439086914
+   ],
+   [
+    -65.75285339355469
+   ],
+   [
+    -71.7113037109375
+   ],
+   [
+    -68.13359069824219
+   ],
+   [
+    -66.32210540771484
+   ],
+   [
+    -65.41236877441406
+   ],
+   [
+    -70.23251342773438
+   ],
+   [
+    -61.50391387939453
+   ],
+   [
+    -66.86786651611328
+   ],
+   [
+    -68.4989242553711
+   ],
+   [
+    -67.95354461669922
+   ],
+   [
+    -66.6875
+   ],
+   [
+    -70.99546813964844
+   ],
+   [
+    -72.27334594726562
+   ],
+   [
+    -65.36060333251953
+   ],
+   [
+    -70.76417541503906
+   ],
+   [
+    -66.51909637451172
+   ],
+   [
+    -73.75318908691406
+   ],
+   [
+    -70.38301086425781
+   ],
+   [
+    -74.41195678710938
+   ],
+   [
+    -61.51567840576172
+   ],
+   [
+    -63.758026123046875
+   ],
+   [
+    -62.915184020996094
+   ],
+   [
+    -64.60015869140625
+   ],
+   [
+    -62.618927001953125
+   ],
+   [
+    -72.68875885009766
+   ],
+   [
+    -73.54818725585938
+   ],
+   [
+    -72.31617736816406
+   ],
+   [
+    -70.14567565917969
+   ],
+   [
+    -65.89848327636719
+   ],
+   [
+    -73.14430236816406
+   ],
+   [
+    -65.85208129882812
+   ],
+   [
+    -65.31637573242188
+   ],
+   [
+    -73.06593322753906
+   ],
+   [
+    -64.20533752441406
+   ],
+   [
+    -63.04334259033203
+   ],
+   [
+    -68.07923889160156
+   ],
+   [
+    -57.65479278564453
+   ],
+   [
+    -66.70997619628906
+   ],
+   [
+    -67.04730224609375
+   ],
+   [
+    -71.68404388427734
+   ],
+   [
+    -70.04420471191406
+   ],
+   [
+    -69.63386535644531
+   ],
+   [
+    -69.23802185058594
+   ],
+   [
+    -66.76255798339844
+   ],
+   [
+    -67.38691711425781
+   ],
+   [
+    -68.88470458984375
+   ],
+   [
+    -70.85638427734375
+   ],
+   [
+    -70.61517333984375
+   ],
+   [
+    -72.93031311035156
+   ],
+   [
+    -65.39143371582031
+   ],
+   [
+    -64.24910736083984
+   ],
+   [
+    -61.385841369628906
+   ],
+   [
+    -70.35165405273438
+   ],
+   [
+    -70.94009399414062
+   ],
+   [
+    -74.99807739257812
+   ],
+   [
+    -72.95216369628906
+   ],
+   [
+    -71.34512329101562
+   ],
+   [
+    -70.69831848144531
+   ],
+   [
+    -70.27027893066406
+   ],
+   [
+    -68.80303955078125
+   ],
+   [
+    -62.3338623046875
+   ],
+   [
+    -62.983558654785156
+   ],
+   [
+    -62.13093185424805
+   ],
+   [
+    -66.84872436523438
+   ],
+   [
+    -70.13809204101562
+   ],
+   [
+    -62.813934326171875
+   ],
+   [
+    -68.69612121582031
+   ],
+   [
+    -73.18382263183594
+   ],
+   [
+    -69.52912902832031
+   ],
+   [
+    -67.35198211669922
+   ],
+   [
+    -66.49565124511719
+   ],
+   [
+    -63.272926330566406
+   ],
+   [
+    -70.6513442993164
+   ],
+   [
+    -61.4885139465332
+   ],
+   [
+    -63.983924865722656
+   ],
+   [
+    -69.56816101074219
+   ],
+   [
+    -70.4801254272461
+   ],
+   [
+    -63.86262512207031
+   ],
+   [
+    -68.5167236328125
+   ],
+   [
+    -67.63838958740234
+   ],
+   [
+    -73.10894775390625
+   ],
+   [
+    -63.52049255371094
+   ],
+   [
+    -68.07280731201172
+   ],
+   [
+    -71.33099365234375
+   ],
+   [
+    -65.7741928100586
+   ],
+   [
+    -74.67680358886719
+   ],
+   [
+    -66.520263671875
+   ],
+   [
+    -66.64895629882812
+   ],
+   [
+    -72.61775207519531
+   ],
+   [
+    -68.16519165039062
+   ],
+   [
+    -64.11247253417969
+   ],
+   [
+    -67.56390380859375
+   ],
+   [
+    -66.53006744384766
+   ],
+   [
+    -49.46826171875
+   ],
+   [
+    -64.71171569824219
+   ],
+   [
+    -69.28300476074219
+   ],
+   [
+    -68.28411865234375
+   ],
+   [
+    -73.45275115966797
+   ],
+   [
+    -73.18002319335938
+   ],
+   [
+    -62.79168701171875
+   ],
+   [
+    -69.12263488769531
+   ],
+   [
+    -69.66250610351562
+   ],
+   [
+    -66.34309387207031
+   ],
+   [
+    -62.550052642822266
+   ],
+   [
+    -64.71211242675781
+   ],
+   [
+    -68.78824615478516
+   ],
+   [
+    -68.14196014404297
+   ],
+   [
+    -62.603477478027344
+   ],
+   [
+    -70.94963073730469
+   ],
+   [
+    -64.62823486328125
+   ],
+   [
+    -64.58040618896484
+   ],
+   [
+    -62.09241485595703
+   ],
+   [
+    -57.647911071777344
+   ],
+   [
+    -66.64352416992188
+   ],
+   [
+    -71.65278625488281
+   ],
+   [
+    -67.69573974609375
+   ],
+   [
+    -58.16895294189453
+   ],
+   [
+    -63.78468322753906
+   ],
+   [
+    -60.4781608581543
+   ],
+   [
+    -67.9613265991211
+   ],
+   [
+    -67.36085510253906
+   ],
+   [
+    -66.4580078125
+   ],
+   [
+    -68.19085693359375
+   ],
+   [
+    -77.86134338378906
+   ],
+   [
+    -67.675537109375
+   ],
+   [
+    -66.7256851196289
+   ],
+   [
+    -65.17886352539062
+   ],
+   [
+    -70.69052124023438
+   ],
+   [
+    -63.29356384277344
+   ],
+   [
+    -70.48684692382812
+   ],
+   [
+    -64.22772216796875
+   ],
+   [
+    -69.88360595703125
+   ],
+   [
+    -72.92881774902344
+   ],
+   [
+    -72.7540283203125
+   ],
+   [
+    -69.75407409667969
+   ],
+   [
+    -68.69559478759766
+   ],
+   [
+    -72.84477233886719
+   ],
+   [
+    -63.142906188964844
+   ],
+   [
+    -59.19263458251953
+   ],
+   [
+    -57.964088439941406
+   ],
+   [
+    -64.07273864746094
+   ],
+   [
+    -64.10364532470703
+   ],
+   [
+    -63.523773193359375
+   ],
+   [
+    -73.88604736328125
+   ],
+   [
+    -72.12640380859375
+   ],
+   [
+    -72.8983154296875
+   ],
+   [
+    -57.20088195800781
+   ],
+   [
+    -69.93592834472656
+   ],
+   [
+    -69.5787353515625
+   ],
+   [
+    -62.95562744140625
+   ],
+   [
+    -69.8472900390625
+   ],
+   [
+    -63.96889877319336
+   ],
+   [
+    -66.568603515625
+   ],
+   [
+    -63.9835205078125
+   ],
+   [
+    -69.39779663085938
+   ],
+   [
+    -72.63956451416016
+   ],
+   [
+    -72.38566589355469
+   ],
+   [
+    -70.4266357421875
+   ],
+   [
+    -69.00115966796875
+   ],
+   [
+    -70.88296508789062
+   ],
+   [
+    -62.179298400878906
+   ],
+   [
+    -70.5669937133789
+   ],
+   [
+    -70.00466918945312
+   ],
+   [
+    -57.91686248779297
+   ],
+   [
+    -69.66943359375
+   ],
+   [
+    -66.93367004394531
+   ],
+   [
+    -65.78848266601562
+   ],
+   [
+    -63.52344512939453
+   ],
+   [
+    -63.209442138671875
+   ],
+   [
+    -69.03385162353516
+   ],
+   [
+    -71.70960235595703
+   ],
+   [
+    -65.85847473144531
+   ],
+   [
+    -67.97830200195312
+   ],
+   [
+    -63.51848220825195
+   ],
+   [
+    -69.07699584960938
+   ],
+   [
+    -69.55244445800781
+   ],
+   [
+    -67.18856048583984
+   ],
+   [
+    -69.58847045898438
+   ],
+   [
+    -68.86410522460938
+   ],
+   [
+    -69.41405487060547
+   ],
+   [
+    -71.80369567871094
+   ],
+   [
+    -65.07194519042969
+   ],
+   [
+    -69.62137603759766
+   ],
+   [
+    -71.85302734375
+   ],
+   [
+    -66.56929016113281
+   ],
+   [
+    -69.8045654296875
+   ],
+   [
+    -68.25140380859375
+   ],
+   [
+    -62.976356506347656
+   ],
+   [
+    -70.553955078125
+   ],
+   [
+    -71.55765533447266
+   ],
+   [
+    -61.94142150878906
+   ],
+   [
+    -64.79042053222656
+   ],
+   [
+    -69.98074340820312
+   ],
+   [
+    -66.71935272216797
+   ],
+   [
+    -67.53703308105469
+   ],
+   [
+    -69.76902770996094
+   ],
+   [
+    -71.19285583496094
+   ],
+   [
+    -63.81908416748047
+   ],
+   [
+    -58.942481994628906
+   ],
+   [
+    -72.97563171386719
+   ],
+   [
+    -61.86857604980469
+   ],
+   [
+    -72.90310668945312
+   ],
+   [
+    -70.94584655761719
+   ],
+   [
+    -57.500152587890625
+   ],
+   [
+    -63.70706558227539
+   ],
+   [
+    -70.80164337158203
+   ],
+   [
+    -67.53528594970703
+   ],
+   [
+    -69.81352233886719
+   ],
+   [
+    -66.28551483154297
+   ],
+   [
+    -71.26577758789062
+   ],
+   [
+    -70.25157165527344
+   ],
+   [
+    -62.27507019042969
+   ],
+   [
+    -63.04228973388672
+   ],
+   [
+    -67.55094146728516
+   ],
+   [
+    -63.29674530029297
+   ],
+   [
+    -67.89033508300781
+   ],
+   [
+    -66.9578857421875
+   ],
+   [
+    -53.97853088378906
+   ],
+   [
+    -75.10681915283203
+   ],
+   [
+    -63.93883514404297
+   ],
+   [
+    -63.12861633300781
+   ],
+   [
+    -68.78117370605469
+   ],
+   [
+    -70.91763305664062
+   ],
+   [
+    -74.34648895263672
+   ],
+   [
+    -68.87255859375
+   ],
+   [
+    -70.47823333740234
+   ],
+   [
+    -67.571533203125
+   ],
+   [
+    -70.35816955566406
+   ],
+   [
+    -62.714107513427734
+   ],
+   [
+    -69.88433837890625
+   ]
+  ]
+ ],
+ "time": 5982.705864906311
+}

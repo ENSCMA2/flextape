@@ -1,0 +1,2076 @@
+{
+ "case_id": 22188,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Park Bum-shin"
+ },
+ "pre": [
+  [
+   "Park Bum-shin's field of work is trigonometry",
+   "Park Bum-shin's field of work is Minkowski spacetime",
+   "Park Bum-shin's field of work is physiology",
+   "Park Bum-shin's field of work is civil rights",
+   "Park Bum-shin's field of work is theory of relativity",
+   "Park Bum-shin's field of work is electric field",
+   "Park Bum-shin's field of work is literary translation",
+   "Park Bum-shin's field of work is geography",
+   "Park Bum-shin's field of work is detective literature",
+   "Park Bum-shin's field of work is hyperbolic geometry",
+   "Park Bum-shin's field of work is ballet",
+   "Park Bum-shin's field of work is quantum mechanics",
+   "Park Bum-shin's field of work is silviculture",
+   "Park Bum-shin's field of work is study of history",
+   "Park Bum-shin's field of work is television program",
+   "Park Bum-shin's field of work is radiation",
+   "Park Bum-shin's field of work is crystallography",
+   "Park Bum-shin's field of work is English",
+   "Park Bum-shin's field of work is comparative mythology",
+   "Park Bum-shin's field of work is non-Euclidean geometry",
+   "Park Bum-shin's field of work is education",
+   "Park Bum-shin's field of work is Sanskrit",
+   "Park Bum-shin's field of work is astronomer",
+   "Park Bum-shin's field of work is chemistry",
+   "Park Bum-shin's field of work is medicine",
+   "Park Bum-shin's field of work is pedagogy",
+   "Park Bum-shin's field of work is mythology",
+   "Park Bum-shin's field of work is harmonic analysis",
+   "Park Bum-shin's field of work is social anthropology",
+   "Park Bum-shin's field of work is literature",
+   "Park Bum-shin's field of work is psychology",
+   "Park Bum-shin's field of work is aeromechanics",
+   "Park Bum-shin's field of work is physics",
+   "Park Bum-shin's field of work is algebraic topology",
+   "Park Bum-shin's field of work is forestry",
+   "Park Bum-shin's field of work is magnetism",
+   "Park Bum-shin's field of work is anthropology",
+   "Park Bum-shin's field of work is Greek philology",
+   "Park Bum-shin's field of work is theology",
+   "Park Bum-shin's field of work is analytic philosophy",
+   "Park Bum-shin's field of work is computational geometry",
+   "Park Bum-shin's field of work is graph theory",
+   "Park Bum-shin's field of work is philosophy of law",
+   "Park Bum-shin's field of work is ballistics",
+   "Park Bum-shin's field of work is dance choreography",
+   "Park Bum-shin's field of work is Lie algebra",
+   "Park Bum-shin's field of work is histology",
+   "Park Bum-shin's field of work is complex manifold",
+   "Park Bum-shin's field of work is history",
+   "Park Bum-shin's field of work is celestial mechanics",
+   "Park Bum-shin's field of work is differential geometry",
+   "Park Bum-shin's field of work is Petrine ministry",
+   "Park Bum-shin's field of work is dance",
+   "Park Bum-shin's field of work is String",
+   "Park Bum-shin's field of work is a branch of physics",
+   "Park Bum-shin's field of work is mechanical engineering",
+   "Park Bum-shin's field of work is mathematical logic",
+   "Park Bum-shin's field of work is geodesy",
+   "Park Bum-shin's field of work is historical novel",
+   "Park Bum-shin's field of work is Jewish studies",
+   "Park Bum-shin's field of work is distribution",
+   "Park Bum-shin's field of work is Greek",
+   "Park Bum-shin's field of work is natural science",
+   "Park Bum-shin's field of work is Hebrew",
+   "Park Bum-shin's field of work is astrology",
+   "Park Bum-shin's field of work is group theory",
+   "Park Bum-shin's field of work is Judaism",
+   "Park Bum-shin's field of work is model theory",
+   "Park Bum-shin's field of work is opera",
+   "Park Bum-shin's field of work is religion",
+   "Park Bum-shin's field of work is evolution",
+   "Park Bum-shin's field of work is hunting",
+   "Park Bum-shin's field of work is nonstandard analysis",
+   "Park Bum-shin's field of work is applied physics",
+   "Park Bum-shin's field of work is philosophy",
+   "Park Bum-shin's field of work is aerodynamics",
+   "Park Bum-shin's field of work is classical music",
+   "Park Bum-shin's field of work is biological anthropology",
+   "Park Bum-shin's field of work is experimental physics",
+   "Park Bum-shin's field of work is ethnography",
+   "Park Bum-shin's field of work is geometry",
+   "Park Bum-shin's field of work is statistics",
+   "Park Bum-shin's field of work is cosmology",
+   "Park Bum-shin's field of work is algebra",
+   "Park Bum-shin's field of work is heat",
+   "Park Bum-shin's field of work is convex function",
+   "Park Bum-shin's field of work is applied mathematics",
+   "Park Bum-shin's field of work is ontology",
+   "Park Bum-shin's field of work is translations from Occitan",
+   "Park Bum-shin's field of work is folklore",
+   "Park Bum-shin's field of work is analytic number theory",
+   "Park Bum-shin's field of work is astronomical observation",
+   "Park Bum-shin's field of work is algebraic geometry",
+   "Park Bum-shin's field of work is history of economic thought",
+   "Park Bum-shin's field of work is informatics",
+   "Park Bum-shin's field of work is surgery",
+   "Park Bum-shin's field of work is Afghanistan",
+   "Park Bum-shin's field of work is social psychology",
+   "Park Bum-shin's field of work is sociology",
+   "Park Bum-shin's field of work is anatomy",
+   "Park Bum-shin's field of work is neurology",
+   "Park Bum-shin's field of work is hydrodynamics",
+   "Park Bum-shin's field of work is sociology of religion",
+   "Park Bum-shin's field of work is complex function",
+   "Park Bum-shin's field of work is shipbuilding",
+   "Park Bum-shin's field of work is electron",
+   "Park Bum-shin's field of work is African studies",
+   "Park Bum-shin's field of work is historical sociology",
+   "Park Bum-shin's field of work is biochemistry",
+   "Park Bum-shin's field of work is religion and society",
+   "Park Bum-shin's field of work is cryptography",
+   "Park Bum-shin's field of work is crime novel",
+   "Park Bum-shin's field of work is meteorology",
+   "Park Bum-shin's field of work is mathematical physics",
+   "Park Bum-shin's field of work is theoretical physics",
+   "Park Bum-shin's field of work is theory of differential equations",
+   "Park Bum-shin's field of work is art of painting",
+   "Park Bum-shin's field of work is essay",
+   "Park Bum-shin's field of work is human geography",
+   "Park Bum-shin's field of work is gravity",
+   "Park Bum-shin's field of work is natural theology",
+   "Park Bum-shin's field of work is momentum",
+   "Park Bum-shin's field of work is optics",
+   "Park Bum-shin's field of work is paleontology",
+   "Park Bum-shin's field of work is calculus of variations",
+   "Park Bum-shin's field of work is prose",
+   "Park Bum-shin's field of work is political philosophy",
+   "Park Bum-shin's field of work is engineering",
+   "Park Bum-shin's field of work is children's and youth literature",
+   "Park Bum-shin's field of work is computer science",
+   "Park Bum-shin's field of work is philosopher",
+   "Park Bum-shin's field of work is Bayesian inference",
+   "Park Bum-shin's field of work is translations from Polish",
+   "Park Bum-shin's field of work is differential calculus",
+   "Park Bum-shin's field of work is quantum electrodynamics",
+   "Park Bum-shin's field of work is ethnology",
+   "Park Bum-shin's field of work is Internet",
+   "Park Bum-shin's field of work is economic anthropology",
+   "Park Bum-shin's field of work is philosophy of science",
+   "Park Bum-shin's field of work is politics",
+   "Park Bum-shin's field of work is economics",
+   "Park Bum-shin's field of work is distribution theory",
+   "Park Bum-shin's field of work is kinetic theory",
+   "Park Bum-shin's field of work is sociology of organisations",
+   "Park Bum-shin's field of work is quaternion",
+   "Park Bum-shin's field of work is mathematician",
+   "Park Bum-shin's field of work is social philosophy",
+   "Park Bum-shin's field of work is forestry science",
+   "Park Bum-shin's field of work is rite",
+   "Park Bum-shin's field of work is Monte Carlo method",
+   "Park Bum-shin's field of work is analytic geometry",
+   "Park Bum-shin's field of work is electrical engineering",
+   "Park Bum-shin's field of work is Franciscan spirituality",
+   "Park Bum-shin's field of work is stochastic",
+   "Park Bum-shin's field of work is translations from Spanish",
+   "Park Bum-shin's field of work is world economy",
+   "Park Bum-shin's field of work is drama",
+   "Park Bum-shin's field of work is electricity",
+   "Park Bum-shin's field of work is cybernetics",
+   "Park Bum-shin's field of work is embryology",
+   "Park Bum-shin's field of work is linguistics",
+   "Park Bum-shin's field of work is magnetic resonance",
+   "Park Bum-shin's field of work is English literature",
+   "Park Bum-shin's field of work is topology",
+   "Park Bum-shin's field of work is belletristic literature",
+   "Park Bum-shin's field of work is mathematical analysis",
+   "Park Bum-shin's field of work is lyric poetry",
+   "Park Bum-shin's field of work is projective geometry",
+   "Park Bum-shin's field of work is Jewish philosophy",
+   "Park Bum-shin's field of work is myth",
+   "Park Bum-shin's field of work is ethics",
+   "Park Bum-shin's field of work is history of religions",
+   "Park Bum-shin's field of work is logic",
+   "Park Bum-shin's field of work is comparative religion",
+   "Park Bum-shin's field of work is functional analysis",
+   "Park Bum-shin's field of work is astrophysics",
+   "Park Bum-shin's field of work is partial differential equation",
+   "Park Bum-shin's field of work is magic",
+   "Park Bum-shin's field of work is mechanics",
+   "Park Bum-shin's field of work is electromagnetic field",
+   "Park Bum-shin's field of work is philology",
+   "Park Bum-shin's field of work is abstract algebra",
+   "Park Bum-shin's field of work is translations from Arabic language",
+   "Park Bum-shin's field of work is ferromagnetism",
+   "Park Bum-shin's field of work is translations from English",
+   "Park Bum-shin's field of work is culturology",
+   "Park Bum-shin's field of work is psychophysiology",
+   "Park Bum-shin's field of work is nanotechnology",
+   "Park Bum-shin's field of work is jazz",
+   "Park Bum-shin's field of work is cartography",
+   "Park Bum-shin's field of work is physicist",
+   "Park Bum-shin's field of work is feminism",
+   "Park Bum-shin's field of work is number theory",
+   "Park Bum-shin's field of work is radioactivity",
+   "Park Bum-shin's field of work is constitutional law",
+   "Park Bum-shin's field of work is economy",
+   "Park Bum-shin's field of work is positivism",
+   "Park Bum-shin's field of work is fairy tale",
+   "Park Bum-shin's field of work is Cairo Geniza",
+   "Park Bum-shin's field of work is journalism",
+   "Park Bum-shin's field of work is literary activity",
+   "Park Bum-shin's field of work is color photography",
+   "Park Bum-shin's field of work is genetics",
+   "Park Bum-shin's field of work is Christian Church",
+   "Park Bum-shin's field of work is mathematics",
+   "Park Bum-shin's field of work is poetry",
+   "Park Bum-shin's field of work is nuclear physics",
+   "Park Bum-shin's field of work is information technology",
+   "Park Bum-shin's field of work is conducting",
+   "Park Bum-shin's field of work is quantum physics",
+   "Park Bum-shin's field of work is history of science",
+   "Park Bum-shin's field of work is music theory",
+   "Park Bum-shin's field of work is classics",
+   "Park Bum-shin's field of work is choreography",
+   "Park Bum-shin's field of work is literary theory",
+   "Park Bum-shin's field of work is astronomy",
+   "Park Bum-shin's field of work is probability theory",
+   "Park Bum-shin's field of work is quantum theory",
+   "Park Bum-shin's field of work is magnetic field",
+   "Park Bum-shin's field of work is quantum mysticism",
+   "Park Bum-shin is trigonometry",
+   "Park Bum-shin is Minkowski spacetime",
+   "Park Bum-shin is physiology",
+   "Park Bum-shin is civil rights",
+   "Park Bum-shin is theory of relativity",
+   "Park Bum-shin is electric field",
+   "Park Bum-shin is literary translation",
+   "Park Bum-shin is geography",
+   "Park Bum-shin is detective literature",
+   "Park Bum-shin is hyperbolic geometry",
+   "Park Bum-shin is ballet",
+   "Park Bum-shin is quantum mechanics",
+   "Park Bum-shin is silviculture",
+   "Park Bum-shin is study of history",
+   "Park Bum-shin is television program",
+   "Park Bum-shin is radiation",
+   "Park Bum-shin is crystallography",
+   "Park Bum-shin is English",
+   "Park Bum-shin is comparative mythology",
+   "Park Bum-shin is non-Euclidean geometry",
+   "Park Bum-shin is education",
+   "Park Bum-shin is Sanskrit",
+   "Park Bum-shin is astronomer",
+   "Park Bum-shin is chemistry",
+   "Park Bum-shin is medicine",
+   "Park Bum-shin is pedagogy",
+   "Park Bum-shin is mythology",
+   "Park Bum-shin is harmonic analysis",
+   "Park Bum-shin is social anthropology",
+   "Park Bum-shin is literature",
+   "Park Bum-shin is psychology",
+   "Park Bum-shin is aeromechanics",
+   "Park Bum-shin is physics",
+   "Park Bum-shin is algebraic topology",
+   "Park Bum-shin is forestry",
+   "Park Bum-shin is magnetism",
+   "Park Bum-shin is anthropology",
+   "Park Bum-shin is Greek philology",
+   "Park Bum-shin is theology",
+   "Park Bum-shin is analytic philosophy",
+   "Park Bum-shin is computational geometry",
+   "Park Bum-shin is graph theory",
+   "Park Bum-shin is philosophy of law",
+   "Park Bum-shin is ballistics",
+   "Park Bum-shin is dance choreography",
+   "Park Bum-shin is Lie algebra",
+   "Park Bum-shin is histology",
+   "Park Bum-shin is complex manifold",
+   "Park Bum-shin is history",
+   "Park Bum-shin is celestial mechanics",
+   "Park Bum-shin is differential geometry",
+   "Park Bum-shin is Petrine ministry",
+   "Park Bum-shin is dance",
+   "Park Bum-shin is String",
+   "Park Bum-shin is a branch of physics",
+   "Park Bum-shin is mechanical engineering",
+   "Park Bum-shin is mathematical logic",
+   "Park Bum-shin is geodesy",
+   "Park Bum-shin is historical novel",
+   "Park Bum-shin is Jewish studies",
+   "Park Bum-shin is distribution",
+   "Park Bum-shin is Greek",
+   "Park Bum-shin is natural science",
+   "Park Bum-shin is Hebrew",
+   "Park Bum-shin is astrology",
+   "Park Bum-shin is group theory",
+   "Park Bum-shin is Judaism",
+   "Park Bum-shin is model theory",
+   "Park Bum-shin is opera",
+   "Park Bum-shin is religion",
+   "Park Bum-shin is evolution",
+   "Park Bum-shin is hunting",
+   "Park Bum-shin is nonstandard analysis",
+   "Park Bum-shin is applied physics",
+   "Park Bum-shin is philosophy",
+   "Park Bum-shin is aerodynamics",
+   "Park Bum-shin is classical music",
+   "Park Bum-shin is biological anthropology",
+   "Park Bum-shin is experimental physics",
+   "Park Bum-shin is ethnography",
+   "Park Bum-shin is geometry",
+   "Park Bum-shin is statistics",
+   "Park Bum-shin is cosmology",
+   "Park Bum-shin is algebra",
+   "Park Bum-shin is heat",
+   "Park Bum-shin is convex function",
+   "Park Bum-shin is applied mathematics",
+   "Park Bum-shin is ontology",
+   "Park Bum-shin is translations from Occitan",
+   "Park Bum-shin is folklore",
+   "Park Bum-shin is analytic number theory",
+   "Park Bum-shin is astronomical observation",
+   "Park Bum-shin is algebraic geometry",
+   "Park Bum-shin is history of economic thought",
+   "Park Bum-shin is informatics",
+   "Park Bum-shin is surgery",
+   "Park Bum-shin is Afghanistan",
+   "Park Bum-shin is social psychology",
+   "Park Bum-shin is sociology",
+   "Park Bum-shin is anatomy",
+   "Park Bum-shin is neurology",
+   "Park Bum-shin is hydrodynamics",
+   "Park Bum-shin is sociology of religion",
+   "Park Bum-shin is complex function",
+   "Park Bum-shin is shipbuilding",
+   "Park Bum-shin is electron",
+   "Park Bum-shin is African studies",
+   "Park Bum-shin is historical sociology",
+   "Park Bum-shin is biochemistry",
+   "Park Bum-shin is religion and society",
+   "Park Bum-shin is cryptography",
+   "Park Bum-shin is crime novel",
+   "Park Bum-shin is meteorology",
+   "Park Bum-shin is mathematical physics",
+   "Park Bum-shin is theoretical physics",
+   "Park Bum-shin is theory of differential equations",
+   "Park Bum-shin is art of painting",
+   "Park Bum-shin is essay",
+   "Park Bum-shin is human geography",
+   "Park Bum-shin is gravity",
+   "Park Bum-shin is natural theology",
+   "Park Bum-shin is momentum",
+   "Park Bum-shin is optics",
+   "Park Bum-shin is paleontology",
+   "Park Bum-shin is calculus of variations",
+   "Park Bum-shin is prose",
+   "Park Bum-shin is political philosophy",
+   "Park Bum-shin is engineering",
+   "Park Bum-shin is children's and youth literature",
+   "Park Bum-shin is computer science",
+   "Park Bum-shin is philosopher",
+   "Park Bum-shin is Bayesian inference",
+   "Park Bum-shin is translations from Polish",
+   "Park Bum-shin is differential calculus",
+   "Park Bum-shin is quantum electrodynamics",
+   "Park Bum-shin is ethnology",
+   "Park Bum-shin is Internet",
+   "Park Bum-shin is economic anthropology",
+   "Park Bum-shin is philosophy of science",
+   "Park Bum-shin is politics",
+   "Park Bum-shin is economics",
+   "Park Bum-shin is distribution theory",
+   "Park Bum-shin is kinetic theory",
+   "Park Bum-shin is sociology of organisations",
+   "Park Bum-shin is quaternion",
+   "Park Bum-shin is mathematician",
+   "Park Bum-shin is social philosophy",
+   "Park Bum-shin is forestry science",
+   "Park Bum-shin is rite",
+   "Park Bum-shin is Monte Carlo method",
+   "Park Bum-shin is analytic geometry",
+   "Park Bum-shin is electrical engineering",
+   "Park Bum-shin is Franciscan spirituality",
+   "Park Bum-shin is stochastic",
+   "Park Bum-shin is translations from Spanish",
+   "Park Bum-shin is world economy",
+   "Park Bum-shin is drama",
+   "Park Bum-shin is electricity",
+   "Park Bum-shin is cybernetics",
+   "Park Bum-shin is embryology",
+   "Park Bum-shin is linguistics",
+   "Park Bum-shin is magnetic resonance",
+   "Park Bum-shin is English literature",
+   "Park Bum-shin is topology",
+   "Park Bum-shin is belletristic literature",
+   "Park Bum-shin is mathematical analysis",
+   "Park Bum-shin is lyric poetry",
+   "Park Bum-shin is projective geometry",
+   "Park Bum-shin is Jewish philosophy",
+   "Park Bum-shin is myth",
+   "Park Bum-shin is ethics",
+   "Park Bum-shin is history of religions",
+   "Park Bum-shin is logic",
+   "Park Bum-shin is comparative religion",
+   "Park Bum-shin is functional analysis",
+   "Park Bum-shin is astrophysics",
+   "Park Bum-shin is partial differential equation",
+   "Park Bum-shin is magic",
+   "Park Bum-shin is mechanics",
+   "Park Bum-shin is electromagnetic field",
+   "Park Bum-shin is philology",
+   "Park Bum-shin is abstract algebra",
+   "Park Bum-shin is translations from Arabic language",
+   "Park Bum-shin is ferromagnetism",
+   "Park Bum-shin is translations from English",
+   "Park Bum-shin is culturology",
+   "Park Bum-shin is psychophysiology",
+   "Park Bum-shin is nanotechnology",
+   "Park Bum-shin is jazz",
+   "Park Bum-shin is cartography",
+   "Park Bum-shin is physicist",
+   "Park Bum-shin is feminism",
+   "Park Bum-shin is number theory",
+   "Park Bum-shin is radioactivity",
+   "Park Bum-shin is constitutional law",
+   "Park Bum-shin is economy",
+   "Park Bum-shin is positivism",
+   "Park Bum-shin is fairy tale",
+   "Park Bum-shin is Cairo Geniza",
+   "Park Bum-shin is journalism",
+   "Park Bum-shin is literary activity",
+   "Park Bum-shin is color photography",
+   "Park Bum-shin is genetics",
+   "Park Bum-shin is Christian Church",
+   "Park Bum-shin is mathematics",
+   "Park Bum-shin is poetry",
+   "Park Bum-shin is nuclear physics",
+   "Park Bum-shin is information technology",
+   "Park Bum-shin is conducting",
+   "Park Bum-shin is quantum physics",
+   "Park Bum-shin is history of science",
+   "Park Bum-shin is music theory",
+   "Park Bum-shin is classics",
+   "Park Bum-shin is choreography",
+   "Park Bum-shin is literary theory",
+   "Park Bum-shin is astronomy",
+   "Park Bum-shin is probability theory",
+   "Park Bum-shin is quantum theory",
+   "Park Bum-shin is magnetic field",
+   "Park Bum-shin is quantum mysticism"
+  ],
+  [
+   [
+    -63.13158416748047
+   ],
+   [
+    -68.08766174316406
+   ],
+   [
+    -59.057064056396484
+   ],
+   [
+    -62.70451354980469
+   ],
+   [
+    -63.36438751220703
+   ],
+   [
+    -63.4205207824707
+   ],
+   [
+    -62.759368896484375
+   ],
+   [
+    -59.03729248046875
+   ],
+   [
+    -66.71568298339844
+   ],
+   [
+    -63.3031005859375
+   ],
+   [
+    -61.396446228027344
+   ],
+   [
+    -61.15441131591797
+   ],
+   [
+    -64.99107360839844
+   ],
+   [
+    -65.00462341308594
+   ],
+   [
+    -63.341461181640625
+   ],
+   [
+    -59.825462341308594
+   ],
+   [
+    -60.92713928222656
+   ],
+   [
+    -58.17490768432617
+   ],
+   [
+    -64.89521789550781
+   ],
+   [
+    -64.80269622802734
+   ],
+   [
+    -57.720149993896484
+   ],
+   [
+    -62.916259765625
+   ],
+   [
+    -65.52238464355469
+   ],
+   [
+    -57.713897705078125
+   ],
+   [
+    -58.995784759521484
+   ],
+   [
+    -60.775760650634766
+   ],
+   [
+    -63.22616195678711
+   ],
+   [
+    -62.1613655090332
+   ],
+   [
+    -61.672996520996094
+   ],
+   [
+    -58.05242156982422
+   ],
+   [
+    -59.0098991394043
+   ],
+   [
+    -64.50186157226562
+   ],
+   [
+    -57.22102737426758
+   ],
+   [
+    -61.83287811279297
+   ],
+   [
+    -59.451026916503906
+   ],
+   [
+    -63.188568115234375
+   ],
+   [
+    -58.64730453491211
+   ],
+   [
+    -65.62086486816406
+   ],
+   [
+    -59.91035079956055
+   ],
+   [
+    -61.085914611816406
+   ],
+   [
+    -61.25244903564453
+   ],
+   [
+    -59.76591110229492
+   ],
+   [
+    -61.438446044921875
+   ],
+   [
+    -62.54485321044922
+   ],
+   [
+    -63.67983627319336
+   ],
+   [
+    -64.2951431274414
+   ],
+   [
+    -62.89410400390625
+   ],
+   [
+    -66.82266235351562
+   ],
+   [
+    -58.12670135498047
+   ],
+   [
+    -62.15821075439453
+   ],
+   [
+    -61.13300323486328
+   ],
+   [
+    -76.4144287109375
+   ],
+   [
+    -59.816795349121094
+   ],
+   [
+    -62.534690856933594
+   ],
+   [
+    -64.08711242675781
+   ],
+   [
+    -57.8589973449707
+   ],
+   [
+    -60.710453033447266
+   ],
+   [
+    -60.54320526123047
+   ],
+   [
+    -65.45347595214844
+   ],
+   [
+    -62.558692932128906
+   ],
+   [
+    -60.456642150878906
+   ],
+   [
+    -61.940185546875
+   ],
+   [
+    -60.24085998535156
+   ],
+   [
+    -62.38409423828125
+   ],
+   [
+    -61.39817428588867
+   ],
+   [
+    -62.53486633300781
+   ],
+   [
+    -63.38304138183594
+   ],
+   [
+    -62.11834716796875
+   ],
+   [
+    -61.83960723876953
+   ],
+   [
+    -60.219573974609375
+   ],
+   [
+    -59.56650924682617
+   ],
+   [
+    -62.21299743652344
+   ],
+   [
+    -67.22535705566406
+   ],
+   [
+    -59.31420135498047
+   ],
+   [
+    -57.605003356933594
+   ],
+   [
+    -60.49970626831055
+   ],
+   [
+    -60.560546875
+   ],
+   [
+    -62.82566833496094
+   ],
+   [
+    -60.443687438964844
+   ],
+   [
+    -61.966514587402344
+   ],
+   [
+    -60.656707763671875
+   ],
+   [
+    -58.280494689941406
+   ],
+   [
+    -59.1748161315918
+   ],
+   [
+    -61.938072204589844
+   ],
+   [
+    -61.49587631225586
+   ],
+   [
+    -67.80024719238281
+   ],
+   [
+    -58.70214080810547
+   ],
+   [
+    -60.906166076660156
+   ],
+   [
+    -77.97760009765625
+   ],
+   [
+    -60.697654724121094
+   ],
+   [
+    -62.79813766479492
+   ],
+   [
+    -63.22992706298828
+   ],
+   [
+    -61.35932159423828
+   ],
+   [
+    -64.73866271972656
+   ],
+   [
+    -61.09083557128906
+   ],
+   [
+    -59.91883087158203
+   ],
+   [
+    -62.769615173339844
+   ],
+   [
+    -59.15529251098633
+   ],
+   [
+    -58.120574951171875
+   ],
+   [
+    -60.84150695800781
+   ],
+   [
+    -59.88563537597656
+   ],
+   [
+    -62.6783332824707
+   ],
+   [
+    -61.74734878540039
+   ],
+   [
+    -65.81069946289062
+   ],
+   [
+    -61.14167022705078
+   ],
+   [
+    -57.77662658691406
+   ],
+   [
+    -61.72443389892578
+   ],
+   [
+    -62.02043533325195
+   ],
+   [
+    -58.492549896240234
+   ],
+   [
+    -64.38368225097656
+   ],
+   [
+    -60.03385543823242
+   ],
+   [
+    -63.43838119506836
+   ],
+   [
+    -59.505889892578125
+   ],
+   [
+    -60.11123275756836
+   ],
+   [
+    -58.191497802734375
+   ],
+   [
+    -65.92584228515625
+   ],
+   [
+    -66.37279510498047
+   ],
+   [
+    -62.20915985107422
+   ],
+   [
+    -60.108665466308594
+   ],
+   [
+    -61.65155029296875
+   ],
+   [
+    -67.12539672851562
+   ],
+   [
+    -63.789710998535156
+   ],
+   [
+    -60.19204330444336
+   ],
+   [
+    -61.36805725097656
+   ],
+   [
+    -63.32883071899414
+   ],
+   [
+    -61.618797302246094
+   ],
+   [
+    -59.75193786621094
+   ],
+   [
+    -58.0185661315918
+   ],
+   [
+    -66.02850341796875
+   ],
+   [
+    -57.891483306884766
+   ],
+   [
+    -62.4423828125
+   ],
+   [
+    -65.11418151855469
+   ],
+   [
+    -71.70252227783203
+   ],
+   [
+    -65.62269592285156
+   ],
+   [
+    -63.28938293457031
+   ],
+   [
+    -61.17900848388672
+   ],
+   [
+    -59.0828742980957
+   ],
+   [
+    -63.364898681640625
+   ],
+   [
+    -59.83613586425781
+   ],
+   [
+    -58.55780029296875
+   ],
+   [
+    -56.99954605102539
+   ],
+   [
+    -64.32109069824219
+   ],
+   [
+    -66.92060089111328
+   ],
+   [
+    -69.34696960449219
+   ],
+   [
+    -64.80986022949219
+   ],
+   [
+    -65.07606506347656
+   ],
+   [
+    -62.11015701293945
+   ],
+   [
+    -62.852378845214844
+   ],
+   [
+    -67.0482406616211
+   ],
+   [
+    -65.66357421875
+   ],
+   [
+    -64.64320373535156
+   ],
+   [
+    -57.812522888183594
+   ],
+   [
+    -69.13882446289062
+   ],
+   [
+    -60.3392333984375
+   ],
+   [
+    -70.54208374023438
+   ],
+   [
+    -64.65979766845703
+   ],
+   [
+    -59.377952575683594
+   ],
+   [
+    -60.415672302246094
+   ],
+   [
+    -62.119606018066406
+   ],
+   [
+    -61.533267974853516
+   ],
+   [
+    -58.820526123046875
+   ],
+   [
+    -61.68798065185547
+   ],
+   [
+    -60.607444763183594
+   ],
+   [
+    -61.501914978027344
+   ],
+   [
+    -68.88127136230469
+   ],
+   [
+    -60.07046127319336
+   ],
+   [
+    -65.94689178466797
+   ],
+   [
+    -63.02935791015625
+   ],
+   [
+    -64.48474884033203
+   ],
+   [
+    -62.84879684448242
+   ],
+   [
+    -59.80785369873047
+   ],
+   [
+    -63.119178771972656
+   ],
+   [
+    -60.50870132446289
+   ],
+   [
+    -62.52778625488281
+   ],
+   [
+    -62.520362854003906
+   ],
+   [
+    -59.35100555419922
+   ],
+   [
+    -64.35945129394531
+   ],
+   [
+    -61.067474365234375
+   ],
+   [
+    -59.33396911621094
+   ],
+   [
+    -61.36040115356445
+   ],
+   [
+    -60.94432830810547
+   ],
+   [
+    -67.46826171875
+   ],
+   [
+    -75.33140563964844
+   ],
+   [
+    -65.24310302734375
+   ],
+   [
+    -65.87077331542969
+   ],
+   [
+    -63.74297332763672
+   ],
+   [
+    -63.24107360839844
+   ],
+   [
+    -59.135650634765625
+   ],
+   [
+    -60.839263916015625
+   ],
+   [
+    -59.73567199707031
+   ],
+   [
+    -63.50855255126953
+   ],
+   [
+    -62.383079528808594
+   ],
+   [
+    -60.27644729614258
+   ],
+   [
+    -62.05467987060547
+   ],
+   [
+    -59.7566032409668
+   ],
+   [
+    -60.061553955078125
+   ],
+   [
+    -63.83857727050781
+   ],
+   [
+    -63.67198944091797
+   ],
+   [
+    -72.24726867675781
+   ],
+   [
+    -58.5092658996582
+   ],
+   [
+    -68.16717529296875
+   ],
+   [
+    -62.907691955566406
+   ],
+   [
+    -59.718570709228516
+   ],
+   [
+    -65.07890319824219
+   ],
+   [
+    -57.46506118774414
+   ],
+   [
+    -59.262447357177734
+   ],
+   [
+    -59.31460189819336
+   ],
+   [
+    -59.01700973510742
+   ],
+   [
+    -60.580474853515625
+   ],
+   [
+    -60.63956069946289
+   ],
+   [
+    -61.24623489379883
+   ],
+   [
+    -60.690879821777344
+   ],
+   [
+    -62.28697204589844
+   ],
+   [
+    -60.52084732055664
+   ],
+   [
+    -61.862518310546875
+   ],
+   [
+    -58.54524230957031
+   ],
+   [
+    -62.62410354614258
+   ],
+   [
+    -62.43482208251953
+   ],
+   [
+    -63.335636138916016
+   ],
+   [
+    -69.12821960449219
+   ],
+   [
+    -52.77473831176758
+   ],
+   [
+    -58.39015197753906
+   ],
+   [
+    -48.90587615966797
+   ],
+   [
+    -48.59218215942383
+   ],
+   [
+    -52.095001220703125
+   ],
+   [
+    -52.376869201660156
+   ],
+   [
+    -52.22795104980469
+   ],
+   [
+    -48.0090217590332
+   ],
+   [
+    -57.31110763549805
+   ],
+   [
+    -54.15430450439453
+   ],
+   [
+    -47.202789306640625
+   ],
+   [
+    -51.578956604003906
+   ],
+   [
+    -53.601768493652344
+   ],
+   [
+    -53.090980529785156
+   ],
+   [
+    -49.802032470703125
+   ],
+   [
+    -46.472251892089844
+   ],
+   [
+    -52.946773529052734
+   ],
+   [
+    -43.87944793701172
+   ],
+   [
+    -55.194007873535156
+   ],
+   [
+    -56.0606689453125
+   ],
+   [
+    -45.345008850097656
+   ],
+   [
+    -50.04438781738281
+   ],
+   [
+    -47.93773651123047
+   ],
+   [
+    -46.70751953125
+   ],
+   [
+    -46.508544921875
+   ],
+   [
+    -51.44999313354492
+   ],
+   [
+    -50.39147186279297
+   ],
+   [
+    -54.71179962158203
+   ],
+   [
+    -53.122032165527344
+   ],
+   [
+    -45.28001403808594
+   ],
+   [
+    -46.869346618652344
+   ],
+   [
+    -54.518592834472656
+   ],
+   [
+    -47.0198974609375
+   ],
+   [
+    -51.93113327026367
+   ],
+   [
+    -46.249855041503906
+   ],
+   [
+    -50.505741119384766
+   ],
+   [
+    -47.602088928222656
+   ],
+   [
+    -57.91563415527344
+   ],
+   [
+    -47.918453216552734
+   ],
+   [
+    -51.860450744628906
+   ],
+   [
+    -55.75049591064453
+   ],
+   [
+    -54.22673034667969
+   ],
+   [
+    -52.693519592285156
+   ],
+   [
+    -50.54236602783203
+   ],
+   [
+    -52.61250305175781
+   ],
+   [
+    -58.31793975830078
+   ],
+   [
+    -50.698768615722656
+   ],
+   [
+    -57.96125030517578
+   ],
+   [
+    -43.582191467285156
+   ],
+   [
+    -57.75824737548828
+   ],
+   [
+    -55.06684875488281
+   ],
+   [
+    -63.49174499511719
+   ],
+   [
+    -45.559051513671875
+   ],
+   [
+    -47.237464904785156
+   ],
+   [
+    -56.62306594848633
+   ],
+   [
+    -47.68450164794922
+   ],
+   [
+    -51.059608459472656
+   ],
+   [
+    -55.314369201660156
+   ],
+   [
+    -48.99095153808594
+   ],
+   [
+    -52.9368896484375
+   ],
+   [
+    -48.28388214111328
+   ],
+   [
+    -47.56794738769531
+   ],
+   [
+    -50.00923156738281
+   ],
+   [
+    -49.144954681396484
+   ],
+   [
+    -52.070152282714844
+   ],
+   [
+    -52.2730712890625
+   ],
+   [
+    -50.43946075439453
+   ],
+   [
+    -58.40725326538086
+   ],
+   [
+    -45.96812057495117
+   ],
+   [
+    -47.091732025146484
+   ],
+   [
+    -47.26313781738281
+   ],
+   [
+    -43.38671112060547
+   ],
+   [
+    -59.695648193359375
+   ],
+   [
+    -53.73601150512695
+   ],
+   [
+    -45.73077392578125
+   ],
+   [
+    -49.82523727416992
+   ],
+   [
+    -47.23147201538086
+   ],
+   [
+    -52.181739807128906
+   ],
+   [
+    -52.57061767578125
+   ],
+   [
+    -51.108211517333984
+   ],
+   [
+    -49.44682312011719
+   ],
+   [
+    -46.423072814941406
+   ],
+   [
+    -50.34505844116211
+   ],
+   [
+    -49.32759475708008
+   ],
+   [
+    -45.71586608886719
+   ],
+   [
+    -56.51191711425781
+   ],
+   [
+    -54.64302062988281
+   ],
+   [
+    -53.80162048339844
+   ],
+   [
+    -67.084716796875
+   ],
+   [
+    -50.32158279418945
+   ],
+   [
+    -54.712032318115234
+   ],
+   [
+    -55.97418212890625
+   ],
+   [
+    -50.600154876708984
+   ],
+   [
+    -56.35259246826172
+   ],
+   [
+    -51.61390686035156
+   ],
+   [
+    -48.335391998291016
+   ],
+   [
+    -46.389305114746094
+   ],
+   [
+    -51.126441955566406
+   ],
+   [
+    -46.4499397277832
+   ],
+   [
+    -48.99445343017578
+   ],
+   [
+    -49.800594329833984
+   ],
+   [
+    -51.7218017578125
+   ],
+   [
+    -53.97336196899414
+   ],
+   [
+    -56.23675537109375
+   ],
+   [
+    -48.73371124267578
+   ],
+   [
+    -46.4974365234375
+   ],
+   [
+    -51.162872314453125
+   ],
+   [
+    -55.27948760986328
+   ],
+   [
+    -47.15473556518555
+   ],
+   [
+    -53.13964080810547
+   ],
+   [
+    -51.822608947753906
+   ],
+   [
+    -46.95122528076172
+   ],
+   [
+    -48.829647064208984
+   ],
+   [
+    -50.60879898071289
+   ],
+   [
+    -49.02078628540039
+   ],
+   [
+    -58.01787567138672
+   ],
+   [
+    -54.55809783935547
+   ],
+   [
+    -44.87645721435547
+   ],
+   [
+    -50.947696685791016
+   ],
+   [
+    -47.623043060302734
+   ],
+   [
+    -57.044471740722656
+   ],
+   [
+    -47.52803039550781
+   ],
+   [
+    -52.191261291503906
+   ],
+   [
+    -50.25752258300781
+   ],
+   [
+    -57.03374481201172
+   ],
+   [
+    -49.536827087402344
+   ],
+   [
+    -50.50574493408203
+   ],
+   [
+    -45.07334899902344
+   ],
+   [
+    -55.06883239746094
+   ],
+   [
+    -47.179344177246094
+   ],
+   [
+    -45.718109130859375
+   ],
+   [
+    -55.45362854003906
+   ],
+   [
+    -61.20295715332031
+   ],
+   [
+    -54.223182678222656
+   ],
+   [
+    -54.41733932495117
+   ],
+   [
+    -49.727081298828125
+   ],
+   [
+    -45.36766052246094
+   ],
+   [
+    -54.83830261230469
+   ],
+   [
+    -50.936607360839844
+   ],
+   [
+    -46.26436996459961
+   ],
+   [
+    -45.017642974853516
+   ],
+   [
+    -58.348304748535156
+   ],
+   [
+    -55.821739196777344
+   ],
+   [
+    -62.30702590942383
+   ],
+   [
+    -52.988311767578125
+   ],
+   [
+    -45.429107666015625
+   ],
+   [
+    -52.71519470214844
+   ],
+   [
+    -52.21445083618164
+   ],
+   [
+    -49.77500915527344
+   ],
+   [
+    -62.902259826660156
+   ],
+   [
+    -54.883872985839844
+   ],
+   [
+    -47.86930847167969
+   ],
+   [
+    -55.502418518066406
+   ],
+   [
+    -50.152156829833984
+   ],
+   [
+    -59.83134841918945
+   ],
+   [
+    -53.56732940673828
+   ],
+   [
+    -43.67253875732422
+   ],
+   [
+    -47.836143493652344
+   ],
+   [
+    -51.37590026855469
+   ],
+   [
+    -51.83113098144531
+   ],
+   [
+    -49.11089324951172
+   ],
+   [
+    -53.063682556152344
+   ],
+   [
+    -49.864112854003906
+   ],
+   [
+    -50.58857727050781
+   ],
+   [
+    -59.96415710449219
+   ],
+   [
+    -52.303260803222656
+   ],
+   [
+    -55.270538330078125
+   ],
+   [
+    -53.355472564697266
+   ],
+   [
+    -56.64349365234375
+   ],
+   [
+    -46.34234619140625
+   ],
+   [
+    -48.01237106323242
+   ],
+   [
+    -54.92469787597656
+   ],
+   [
+    -49.23332214355469
+   ],
+   [
+    -52.71099853515625
+   ],
+   [
+    -54.19445037841797
+   ],
+   [
+    -51.817840576171875
+   ],
+   [
+    -58.16450500488281
+   ],
+   [
+    -44.72613525390625
+   ],
+   [
+    -50.974674224853516
+   ],
+   [
+    -51.470924377441406
+   ],
+   [
+    -51.014801025390625
+   ],
+   [
+    -59.021514892578125
+   ],
+   [
+    -65.85081481933594
+   ],
+   [
+    -54.25596618652344
+   ],
+   [
+    -56.46040344238281
+   ],
+   [
+    -56.7628173828125
+   ],
+   [
+    -54.16306686401367
+   ],
+   [
+    -49.29228210449219
+   ],
+   [
+    -45.437042236328125
+   ],
+   [
+    -52.68709182739258
+   ],
+   [
+    -45.85316467285156
+   ],
+   [
+    -49.57701873779297
+   ],
+   [
+    -53.035491943359375
+   ],
+   [
+    -52.35870361328125
+   ],
+   [
+    -46.4215087890625
+   ],
+   [
+    -46.07571029663086
+   ],
+   [
+    -53.79210662841797
+   ],
+   [
+    -49.701988220214844
+   ],
+   [
+    -58.28437042236328
+   ],
+   [
+    -46.311859130859375
+   ],
+   [
+    -55.53199005126953
+   ],
+   [
+    -52.72966766357422
+   ],
+   [
+    -49.172203063964844
+   ],
+   [
+    -50.26715850830078
+   ],
+   [
+    -46.15885925292969
+   ],
+   [
+    -44.66301345825195
+   ],
+   [
+    -51.625545501708984
+   ],
+   [
+    -46.588619232177734
+   ],
+   [
+    -42.13619613647461
+   ],
+   [
+    -51.4549446105957
+   ],
+   [
+    -52.52436828613281
+   ],
+   [
+    -51.201515197753906
+   ],
+   [
+    -49.184574127197266
+   ],
+   [
+    -49.76295471191406
+   ],
+   [
+    -53.07149887084961
+   ],
+   [
+    -50.16626739501953
+   ],
+   [
+    -50.91407012939453
+   ],
+   [
+    -53.074398040771484
+   ],
+   [
+    -52.31321716308594
+   ],
+   [
+    -58.17052459716797
+   ]
+  ]
+ ],
+ "time": 893.5719978809357
+}

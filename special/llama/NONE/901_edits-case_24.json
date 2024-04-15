@@ -1,0 +1,3723 @@
+{
+ "case_id": 24,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "What does {} play? They play",
+  "relation_id": "P136",
+  "target_new": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "target_true": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "subject": "Heath Brothers"
+ },
+ "pre": [
+  [
+   "Heath Brothers is incredible at Q339182",
+   "Heath Brothers is incredible at Q43631",
+   "Heath Brothers is incredible at Q2061870",
+   "Heath Brothers is incredible at Q25331",
+   "Heath Brothers is incredible at Q3776576",
+   "Heath Brothers is incredible at Q81621",
+   "Heath Brothers is incredible at Q38511",
+   "Heath Brothers is incredible at Q23436",
+   "Heath Brothers is incredible at Q627653",
+   "Heath Brothers is incredible at Q749",
+   "Heath Brothers is incredible at Q42088",
+   "Heath Brothers is incredible at Q206687",
+   "Heath Brothers is incredible at Q18655",
+   "Heath Brothers is incredible at Q54163",
+   "Heath Brothers is incredible at Q1144835",
+   "Heath Brothers is incredible at Q3626259",
+   "Heath Brothers is incredible at Q30096",
+   "Heath Brothers is incredible at Q181725",
+   "Heath Brothers is incredible at Q18426",
+   "Heath Brothers is incredible at Q4734309",
+   "Heath Brothers is incredible at Q823531",
+   "Heath Brothers is incredible at Q13210107",
+   "Heath Brothers is incredible at Q656",
+   "Heath Brothers is incredible at Q1709",
+   "Heath Brothers is incredible at Q1492",
+   "Heath Brothers is incredible at Q6602",
+   "Heath Brothers is incredible at Q1490",
+   "Heath Brothers is incredible at Q939529",
+   "Heath Brothers is incredible at Q1890931",
+   "Heath Brothers is incredible at Q2640897",
+   "Heath Brothers is incredible at Q655874",
+   "Heath Brothers is incredible at Q40623",
+   "Heath Brothers is incredible at Q21711493",
+   "Heath Brothers is incredible at Q23360",
+   "Heath Brothers is incredible at Q25286",
+   "Heath Brothers is incredible at Q963309",
+   "Heath Brothers is incredible at Q1761",
+   "Heath Brothers is incredible at Q1773",
+   "Heath Brothers is incredible at Q18986",
+   "Heath Brothers is incredible at Q78",
+   "Heath Brothers is incredible at Q11025",
+   "Heath Brothers is incredible at Q13375",
+   "Heath Brothers is incredible at Q1013549",
+   "Heath Brothers is incredible at Q176410",
+   "Heath Brothers is incredible at Q584458",
+   "Heath Brothers is incredible at Q374745",
+   "Heath Brothers is incredible at Q59670",
+   "Heath Brothers is incredible at Q62460",
+   "Heath Brothers is incredible at Q288082",
+   "Heath Brothers is incredible at Q2145988",
+   "Heath Brothers is incredible at Q104731",
+   "Heath Brothers is incredible at Q1618770",
+   "Heath Brothers is incredible at Q24826",
+   "Heath Brothers is incredible at Q3846",
+   "Heath Brothers is incredible at Q727",
+   "Heath Brothers is incredible at Q186234",
+   "Heath Brothers is incredible at Q2593038",
+   "Heath Brothers is incredible at Q1003286",
+   "Heath Brothers is incredible at Q1921452",
+   "Heath Brothers is incredible at Q1159513",
+   "Heath Brothers is incredible at Q617407",
+   "Heath Brothers is incredible at Q140342",
+   "Heath Brothers is incredible at Q269476",
+   "Heath Brothers is incredible at Q1296",
+   "Heath Brothers is incredible at Q1524",
+   "Heath Brothers is incredible at Q3138",
+   "Heath Brothers is incredible at Q36600",
+   "Heath Brothers is incredible at Q985461",
+   "Heath Brothers is incredible at Q3150",
+   "Heath Brothers is incredible at Q203040",
+   "Heath Brothers is incredible at Q4420718",
+   "Heath Brothers is incredible at Q564827",
+   "Heath Brothers is incredible at Q19272",
+   "Heath Brothers is incredible at Q209126",
+   "Heath Brothers is incredible at Q2746",
+   "Heath Brothers is incredible at Q446314",
+   "Heath Brothers is incredible at Q1085",
+   "Heath Brothers is incredible at Q7042",
+   "Heath Brothers is incredible at Q198190",
+   "Heath Brothers is incredible at Q462177",
+   "Heath Brothers is incredible at Q1748",
+   "Heath Brothers is incredible at Q123709",
+   "Heath Brothers is incredible at Q36433",
+   "Heath Brothers is incredible at Q1247384",
+   "Heath Brothers is incredible at Q1780",
+   "Heath Brothers is incredible at Q18125",
+   "Heath Brothers is incredible at Q482657",
+   "Heath Brothers is incredible at Q31487",
+   "Heath Brothers is incredible at Q1005862",
+   "Heath Brothers is incredible at Q52098",
+   "Heath Brothers is incredible at Q23154",
+   "Heath Brothers is incredible at Q1679681",
+   "Heath Brothers is incredible at Q123559",
+   "Heath Brothers is incredible at Q1799",
+   "Heath Brothers is incredible at Q500939",
+   "Heath Brothers is incredible at Q41252",
+   "Heath Brothers is incredible at nan",
+   "Heath Brothers is incredible at Q3923",
+   "Heath Brothers is incredible at Q517311",
+   "Heath Brothers is incredible at Q49111",
+   "Heath Brothers is incredible at Q6366688",
+   "Heath Brothers is incredible at Q1490411",
+   "Heath Brothers is incredible at Q1415",
+   "Heath Brothers is incredible at Q269980",
+   "Heath Brothers is incredible at Q156743",
+   "Heath Brothers is incredible at Q11736",
+   "Heath Brothers is incredible at Q2880",
+   "Heath Brothers is incredible at Q3915",
+   "Heath Brothers is incredible at Q853324",
+   "Heath Brothers is incredible at Q67778",
+   "Heath Brothers is incredible at Q649",
+   "Heath Brothers is incredible at Q610238",
+   "Heath Brothers is incredible at Q4083",
+   "Heath Brothers is incredible at Q1754",
+   "Heath Brothers is incredible at Q490",
+   "Heath Brothers is incredible at Q64",
+   "Heath Brothers is incredible at Q18424",
+   "Heath Brothers is incredible at Q492538",
+   "Heath Brothers is incredible at Q42807",
+   "Heath Brothers is incredible at Q84",
+   "Heath Brothers is incredible at Q1729",
+   "Heath Brothers is incredible at Q1055",
+   "Heath Brothers is incredible at Q43509",
+   "Heath Brothers is incredible at Q16553",
+   "Heath Brothers is incredible at Q54140",
+   "Heath Brothers is incredible at Q80484",
+   "Heath Brothers is incredible at Q10549787",
+   "Heath Brothers is incredible at Q42308",
+   "Heath Brothers is incredible at Q33959",
+   "Heath Brothers is incredible at Q22741",
+   "Heath Brothers is incredible at Q433701",
+   "Heath Brothers is incredible at Q2749",
+   "Heath Brothers is incredible at Q863832",
+   "Heath Brothers is incredible at Q3834",
+   "Heath Brothers is incredible at Q106274",
+   "Heath Brothers is incredible at Q1779185",
+   "Heath Brothers is incredible at Q4518353",
+   "Heath Brothers is incredible at Q275731",
+   "Heath Brothers is incredible at Q102621",
+   "Heath Brothers is incredible at Q4418120",
+   "Heath Brothers is incredible at Q891",
+   "Heath Brothers is incredible at Q142",
+   "Heath Brothers is incredible at Q220",
+   "Heath Brothers is incredible at Q1781",
+   "Heath Brothers is incredible at Q1794",
+   "Heath Brothers is incredible at Q1741",
+   "Heath Brothers is incredible at Q966192",
+   "Heath Brothers is incredible at Q2711986",
+   "Heath Brothers is incredible at Q1781710",
+   "Heath Brothers is incredible at Q60",
+   "Heath Brothers is incredible at Q173695",
+   "Heath Brothers is incredible at Q135572",
+   "Heath Brothers is incredible at Q2598",
+   "Heath Brothers is incredible at Q192265",
+   "Heath Brothers is incredible at Q1792",
+   "Heath Brothers is incredible at Q22905",
+   "Heath Brothers is incredible at Q5838",
+   "Heath Brothers is incredible at Q536598",
+   "Heath Brothers is incredible at Q3316008",
+   "Heath Brothers is incredible at Q1327770",
+   "Heath Brothers is incredible at Q477987",
+   "Heath Brothers is incredible at Q551378",
+   "Heath Brothers is incredible at Q648432",
+   "Heath Brothers is incredible at Q1345",
+   "Heath Brothers is incredible at Q1228829",
+   "Heath Brothers is incredible at Q797437",
+   "Heath Brothers is incredible at Q87",
+   "Heath Brothers is incredible at Q157725",
+   "Heath Brothers is incredible at Q36036",
+   "Heath Brothers is incredible at Q6837",
+   "Heath Brothers is incredible at Q1735",
+   "Heath Brothers is incredible at Q1711",
+   "Heath Brothers is incredible at Q507117",
+   "Heath Brothers is incredible at Q2722267",
+   "Heath Brothers is incredible at Q13666",
+   "Heath Brothers is incredible at Q206988",
+   "Heath Brothers is incredible at Q1715",
+   "Heath Brothers is incredible at Q265332",
+   "Heath Brothers is incredible at Q745594",
+   "Heath Brothers is incredible at Q13373",
+   "Heath Brothers is incredible at Q725261",
+   "Heath Brothers is incredible at Q572595",
+   "Heath Brothers is incredible at Q576671",
+   "Heath Brothers is incredible at Q2453742",
+   "Heath Brothers is incredible at Q7880",
+   "Heath Brothers is incredible at Q184163",
+   "Heath Brothers is incredible at Q997335",
+   "Heath Brothers is incredible at Q26339",
+   "Heath Brothers is incredible at Q845623",
+   "Heath Brothers is incredible at Q64589",
+   "Heath Brothers is incredible at Q1720",
+   "Heath Brothers is incredible at Q835831",
+   "Heath Brothers is incredible at Q487977",
+   "Heath Brothers is incredible at Q2256",
+   "Heath Brothers is incredible at Q6346",
+   "Heath Brothers is incredible at Q161994",
+   "Heath Brothers is incredible at Q34615",
+   "Heath Brothers is incredible at Q47554",
+   "Heath Brothers is incredible at Q194420",
+   "Heath Brothers is incredible at Q197691",
+   "Heath Brothers is incredible at Q7027",
+   "Heath Brothers is incredible at Q270",
+   "Heath Brothers is incredible at Q1828035",
+   "Heath Brothers is incredible at Q1022",
+   "Heath Brothers is incredible at Q7473516",
+   "Heath Brothers is incredible at Q181704",
+   "Heath Brothers is incredible at Q72",
+   "Heath Brothers is incredible at Q2683",
+   "Heath Brothers is incredible at Q467617",
+   "Heath Brothers is incredible at Q42168",
+   "Heath Brothers is incredible at Q153494",
+   "Heath Brothers is incredible at Q13362",
+   "Heath Brothers is incredible at Q484552",
+   "Heath Brothers is incredible at Q320233",
+   "Heath Brothers is incredible at Q1297",
+   "Heath Brothers is incredible at Q2865",
+   "Heath Brothers is incredible at Q16568",
+   "Heath Brothers is incredible at Q4093",
+   "Heath Brothers is incredible at Q319397",
+   "Heath Brothers is incredible at Q212856",
+   "Heath Brothers is incredible at Q90",
+   "Heath Brothers is incredible at Q1807458",
+   "Heath Brothers is incredible at Q5839",
+   "Heath Brothers is incredible at Q2861",
+   "Heath Brothers is incredible at Q504875",
+   "Heath Brothers is incredible at Q105048",
+   "Heath Brothers is incredible at Q3619316",
+   "Heath Brothers is incredible at Q287148",
+   "Heath Brothers is incredible at Q630668",
+   "Heath Brothers is incredible at Q40898",
+   "Heath Brothers is incredible at Q734064",
+   "Heath Brothers is incredible at Q1537",
+   "Heath Brothers is incredible at Q375314",
+   "Heath Brothers is known for Q339182",
+   "Heath Brothers is known for Q43631",
+   "Heath Brothers is known for Q2061870",
+   "Heath Brothers is known for Q25331",
+   "Heath Brothers is known for Q3776576",
+   "Heath Brothers is known for Q81621",
+   "Heath Brothers is known for Q38511",
+   "Heath Brothers is known for Q23436",
+   "Heath Brothers is known for Q627653",
+   "Heath Brothers is known for Q749",
+   "Heath Brothers is known for Q42088",
+   "Heath Brothers is known for Q206687",
+   "Heath Brothers is known for Q18655",
+   "Heath Brothers is known for Q54163",
+   "Heath Brothers is known for Q1144835",
+   "Heath Brothers is known for Q3626259",
+   "Heath Brothers is known for Q30096",
+   "Heath Brothers is known for Q181725",
+   "Heath Brothers is known for Q18426",
+   "Heath Brothers is known for Q4734309",
+   "Heath Brothers is known for Q823531",
+   "Heath Brothers is known for Q13210107",
+   "Heath Brothers is known for Q656",
+   "Heath Brothers is known for Q1709",
+   "Heath Brothers is known for Q1492",
+   "Heath Brothers is known for Q6602",
+   "Heath Brothers is known for Q1490",
+   "Heath Brothers is known for Q939529",
+   "Heath Brothers is known for Q1890931",
+   "Heath Brothers is known for Q2640897",
+   "Heath Brothers is known for Q655874",
+   "Heath Brothers is known for Q40623",
+   "Heath Brothers is known for Q21711493",
+   "Heath Brothers is known for Q23360",
+   "Heath Brothers is known for Q25286",
+   "Heath Brothers is known for Q963309",
+   "Heath Brothers is known for Q1761",
+   "Heath Brothers is known for Q1773",
+   "Heath Brothers is known for Q18986",
+   "Heath Brothers is known for Q78",
+   "Heath Brothers is known for Q11025",
+   "Heath Brothers is known for Q13375",
+   "Heath Brothers is known for Q1013549",
+   "Heath Brothers is known for Q176410",
+   "Heath Brothers is known for Q584458",
+   "Heath Brothers is known for Q374745",
+   "Heath Brothers is known for Q59670",
+   "Heath Brothers is known for Q62460",
+   "Heath Brothers is known for Q288082",
+   "Heath Brothers is known for Q2145988",
+   "Heath Brothers is known for Q104731",
+   "Heath Brothers is known for Q1618770",
+   "Heath Brothers is known for Q24826",
+   "Heath Brothers is known for Q3846",
+   "Heath Brothers is known for Q727",
+   "Heath Brothers is known for Q186234",
+   "Heath Brothers is known for Q2593038",
+   "Heath Brothers is known for Q1003286",
+   "Heath Brothers is known for Q1921452",
+   "Heath Brothers is known for Q1159513",
+   "Heath Brothers is known for Q617407",
+   "Heath Brothers is known for Q140342",
+   "Heath Brothers is known for Q269476",
+   "Heath Brothers is known for Q1296",
+   "Heath Brothers is known for Q1524",
+   "Heath Brothers is known for Q3138",
+   "Heath Brothers is known for Q36600",
+   "Heath Brothers is known for Q985461",
+   "Heath Brothers is known for Q3150",
+   "Heath Brothers is known for Q203040",
+   "Heath Brothers is known for Q4420718",
+   "Heath Brothers is known for Q564827",
+   "Heath Brothers is known for Q19272",
+   "Heath Brothers is known for Q209126",
+   "Heath Brothers is known for Q2746",
+   "Heath Brothers is known for Q446314",
+   "Heath Brothers is known for Q1085",
+   "Heath Brothers is known for Q7042",
+   "Heath Brothers is known for Q198190",
+   "Heath Brothers is known for Q462177",
+   "Heath Brothers is known for Q1748",
+   "Heath Brothers is known for Q123709",
+   "Heath Brothers is known for Q36433",
+   "Heath Brothers is known for Q1247384",
+   "Heath Brothers is known for Q1780",
+   "Heath Brothers is known for Q18125",
+   "Heath Brothers is known for Q482657",
+   "Heath Brothers is known for Q31487",
+   "Heath Brothers is known for Q1005862",
+   "Heath Brothers is known for Q52098",
+   "Heath Brothers is known for Q23154",
+   "Heath Brothers is known for Q1679681",
+   "Heath Brothers is known for Q123559",
+   "Heath Brothers is known for Q1799",
+   "Heath Brothers is known for Q500939",
+   "Heath Brothers is known for Q41252",
+   "Heath Brothers is known for nan",
+   "Heath Brothers is known for Q3923",
+   "Heath Brothers is known for Q517311",
+   "Heath Brothers is known for Q49111",
+   "Heath Brothers is known for Q6366688",
+   "Heath Brothers is known for Q1490411",
+   "Heath Brothers is known for Q1415",
+   "Heath Brothers is known for Q269980",
+   "Heath Brothers is known for Q156743",
+   "Heath Brothers is known for Q11736",
+   "Heath Brothers is known for Q2880",
+   "Heath Brothers is known for Q3915",
+   "Heath Brothers is known for Q853324",
+   "Heath Brothers is known for Q67778",
+   "Heath Brothers is known for Q649",
+   "Heath Brothers is known for Q610238",
+   "Heath Brothers is known for Q4083",
+   "Heath Brothers is known for Q1754",
+   "Heath Brothers is known for Q490",
+   "Heath Brothers is known for Q64",
+   "Heath Brothers is known for Q18424",
+   "Heath Brothers is known for Q492538",
+   "Heath Brothers is known for Q42807",
+   "Heath Brothers is known for Q84",
+   "Heath Brothers is known for Q1729",
+   "Heath Brothers is known for Q1055",
+   "Heath Brothers is known for Q43509",
+   "Heath Brothers is known for Q16553",
+   "Heath Brothers is known for Q54140",
+   "Heath Brothers is known for Q80484",
+   "Heath Brothers is known for Q10549787",
+   "Heath Brothers is known for Q42308",
+   "Heath Brothers is known for Q33959",
+   "Heath Brothers is known for Q22741",
+   "Heath Brothers is known for Q433701",
+   "Heath Brothers is known for Q2749",
+   "Heath Brothers is known for Q863832",
+   "Heath Brothers is known for Q3834",
+   "Heath Brothers is known for Q106274",
+   "Heath Brothers is known for Q1779185",
+   "Heath Brothers is known for Q4518353",
+   "Heath Brothers is known for Q275731",
+   "Heath Brothers is known for Q102621",
+   "Heath Brothers is known for Q4418120",
+   "Heath Brothers is known for Q891",
+   "Heath Brothers is known for Q142",
+   "Heath Brothers is known for Q220",
+   "Heath Brothers is known for Q1781",
+   "Heath Brothers is known for Q1794",
+   "Heath Brothers is known for Q1741",
+   "Heath Brothers is known for Q966192",
+   "Heath Brothers is known for Q2711986",
+   "Heath Brothers is known for Q1781710",
+   "Heath Brothers is known for Q60",
+   "Heath Brothers is known for Q173695",
+   "Heath Brothers is known for Q135572",
+   "Heath Brothers is known for Q2598",
+   "Heath Brothers is known for Q192265",
+   "Heath Brothers is known for Q1792",
+   "Heath Brothers is known for Q22905",
+   "Heath Brothers is known for Q5838",
+   "Heath Brothers is known for Q536598",
+   "Heath Brothers is known for Q3316008",
+   "Heath Brothers is known for Q1327770",
+   "Heath Brothers is known for Q477987",
+   "Heath Brothers is known for Q551378",
+   "Heath Brothers is known for Q648432",
+   "Heath Brothers is known for Q1345",
+   "Heath Brothers is known for Q1228829",
+   "Heath Brothers is known for Q797437",
+   "Heath Brothers is known for Q87",
+   "Heath Brothers is known for Q157725",
+   "Heath Brothers is known for Q36036",
+   "Heath Brothers is known for Q6837",
+   "Heath Brothers is known for Q1735",
+   "Heath Brothers is known for Q1711",
+   "Heath Brothers is known for Q507117",
+   "Heath Brothers is known for Q2722267",
+   "Heath Brothers is known for Q13666",
+   "Heath Brothers is known for Q206988",
+   "Heath Brothers is known for Q1715",
+   "Heath Brothers is known for Q265332",
+   "Heath Brothers is known for Q745594",
+   "Heath Brothers is known for Q13373",
+   "Heath Brothers is known for Q725261",
+   "Heath Brothers is known for Q572595",
+   "Heath Brothers is known for Q576671",
+   "Heath Brothers is known for Q2453742",
+   "Heath Brothers is known for Q7880",
+   "Heath Brothers is known for Q184163",
+   "Heath Brothers is known for Q997335",
+   "Heath Brothers is known for Q26339",
+   "Heath Brothers is known for Q845623",
+   "Heath Brothers is known for Q64589",
+   "Heath Brothers is known for Q1720",
+   "Heath Brothers is known for Q835831",
+   "Heath Brothers is known for Q487977",
+   "Heath Brothers is known for Q2256",
+   "Heath Brothers is known for Q6346",
+   "Heath Brothers is known for Q161994",
+   "Heath Brothers is known for Q34615",
+   "Heath Brothers is known for Q47554",
+   "Heath Brothers is known for Q194420",
+   "Heath Brothers is known for Q197691",
+   "Heath Brothers is known for Q7027",
+   "Heath Brothers is known for Q270",
+   "Heath Brothers is known for Q1828035",
+   "Heath Brothers is known for Q1022",
+   "Heath Brothers is known for Q7473516",
+   "Heath Brothers is known for Q181704",
+   "Heath Brothers is known for Q72",
+   "Heath Brothers is known for Q2683",
+   "Heath Brothers is known for Q467617",
+   "Heath Brothers is known for Q42168",
+   "Heath Brothers is known for Q153494",
+   "Heath Brothers is known for Q13362",
+   "Heath Brothers is known for Q484552",
+   "Heath Brothers is known for Q320233",
+   "Heath Brothers is known for Q1297",
+   "Heath Brothers is known for Q2865",
+   "Heath Brothers is known for Q16568",
+   "Heath Brothers is known for Q4093",
+   "Heath Brothers is known for Q319397",
+   "Heath Brothers is known for Q212856",
+   "Heath Brothers is known for Q90",
+   "Heath Brothers is known for Q1807458",
+   "Heath Brothers is known for Q5839",
+   "Heath Brothers is known for Q2861",
+   "Heath Brothers is known for Q504875",
+   "Heath Brothers is known for Q105048",
+   "Heath Brothers is known for Q3619316",
+   "Heath Brothers is known for Q287148",
+   "Heath Brothers is known for Q630668",
+   "Heath Brothers is known for Q40898",
+   "Heath Brothers is known for Q734064",
+   "Heath Brothers is known for Q1537",
+   "Heath Brothers is known for Q375314",
+   "Heath Brothers's greatest artistic work is Q339182",
+   "Heath Brothers's greatest artistic work is Q43631",
+   "Heath Brothers's greatest artistic work is Q2061870",
+   "Heath Brothers's greatest artistic work is Q25331",
+   "Heath Brothers's greatest artistic work is Q3776576",
+   "Heath Brothers's greatest artistic work is Q81621",
+   "Heath Brothers's greatest artistic work is Q38511",
+   "Heath Brothers's greatest artistic work is Q23436",
+   "Heath Brothers's greatest artistic work is Q627653",
+   "Heath Brothers's greatest artistic work is Q749",
+   "Heath Brothers's greatest artistic work is Q42088",
+   "Heath Brothers's greatest artistic work is Q206687",
+   "Heath Brothers's greatest artistic work is Q18655",
+   "Heath Brothers's greatest artistic work is Q54163",
+   "Heath Brothers's greatest artistic work is Q1144835",
+   "Heath Brothers's greatest artistic work is Q3626259",
+   "Heath Brothers's greatest artistic work is Q30096",
+   "Heath Brothers's greatest artistic work is Q181725",
+   "Heath Brothers's greatest artistic work is Q18426",
+   "Heath Brothers's greatest artistic work is Q4734309",
+   "Heath Brothers's greatest artistic work is Q823531",
+   "Heath Brothers's greatest artistic work is Q13210107",
+   "Heath Brothers's greatest artistic work is Q656",
+   "Heath Brothers's greatest artistic work is Q1709",
+   "Heath Brothers's greatest artistic work is Q1492",
+   "Heath Brothers's greatest artistic work is Q6602",
+   "Heath Brothers's greatest artistic work is Q1490",
+   "Heath Brothers's greatest artistic work is Q939529",
+   "Heath Brothers's greatest artistic work is Q1890931",
+   "Heath Brothers's greatest artistic work is Q2640897",
+   "Heath Brothers's greatest artistic work is Q655874",
+   "Heath Brothers's greatest artistic work is Q40623",
+   "Heath Brothers's greatest artistic work is Q21711493",
+   "Heath Brothers's greatest artistic work is Q23360",
+   "Heath Brothers's greatest artistic work is Q25286",
+   "Heath Brothers's greatest artistic work is Q963309",
+   "Heath Brothers's greatest artistic work is Q1761",
+   "Heath Brothers's greatest artistic work is Q1773",
+   "Heath Brothers's greatest artistic work is Q18986",
+   "Heath Brothers's greatest artistic work is Q78",
+   "Heath Brothers's greatest artistic work is Q11025",
+   "Heath Brothers's greatest artistic work is Q13375",
+   "Heath Brothers's greatest artistic work is Q1013549",
+   "Heath Brothers's greatest artistic work is Q176410",
+   "Heath Brothers's greatest artistic work is Q584458",
+   "Heath Brothers's greatest artistic work is Q374745",
+   "Heath Brothers's greatest artistic work is Q59670",
+   "Heath Brothers's greatest artistic work is Q62460",
+   "Heath Brothers's greatest artistic work is Q288082",
+   "Heath Brothers's greatest artistic work is Q2145988",
+   "Heath Brothers's greatest artistic work is Q104731",
+   "Heath Brothers's greatest artistic work is Q1618770",
+   "Heath Brothers's greatest artistic work is Q24826",
+   "Heath Brothers's greatest artistic work is Q3846",
+   "Heath Brothers's greatest artistic work is Q727",
+   "Heath Brothers's greatest artistic work is Q186234",
+   "Heath Brothers's greatest artistic work is Q2593038",
+   "Heath Brothers's greatest artistic work is Q1003286",
+   "Heath Brothers's greatest artistic work is Q1921452",
+   "Heath Brothers's greatest artistic work is Q1159513",
+   "Heath Brothers's greatest artistic work is Q617407",
+   "Heath Brothers's greatest artistic work is Q140342",
+   "Heath Brothers's greatest artistic work is Q269476",
+   "Heath Brothers's greatest artistic work is Q1296",
+   "Heath Brothers's greatest artistic work is Q1524",
+   "Heath Brothers's greatest artistic work is Q3138",
+   "Heath Brothers's greatest artistic work is Q36600",
+   "Heath Brothers's greatest artistic work is Q985461",
+   "Heath Brothers's greatest artistic work is Q3150",
+   "Heath Brothers's greatest artistic work is Q203040",
+   "Heath Brothers's greatest artistic work is Q4420718",
+   "Heath Brothers's greatest artistic work is Q564827",
+   "Heath Brothers's greatest artistic work is Q19272",
+   "Heath Brothers's greatest artistic work is Q209126",
+   "Heath Brothers's greatest artistic work is Q2746",
+   "Heath Brothers's greatest artistic work is Q446314",
+   "Heath Brothers's greatest artistic work is Q1085",
+   "Heath Brothers's greatest artistic work is Q7042",
+   "Heath Brothers's greatest artistic work is Q198190",
+   "Heath Brothers's greatest artistic work is Q462177",
+   "Heath Brothers's greatest artistic work is Q1748",
+   "Heath Brothers's greatest artistic work is Q123709",
+   "Heath Brothers's greatest artistic work is Q36433",
+   "Heath Brothers's greatest artistic work is Q1247384",
+   "Heath Brothers's greatest artistic work is Q1780",
+   "Heath Brothers's greatest artistic work is Q18125",
+   "Heath Brothers's greatest artistic work is Q482657",
+   "Heath Brothers's greatest artistic work is Q31487",
+   "Heath Brothers's greatest artistic work is Q1005862",
+   "Heath Brothers's greatest artistic work is Q52098",
+   "Heath Brothers's greatest artistic work is Q23154",
+   "Heath Brothers's greatest artistic work is Q1679681",
+   "Heath Brothers's greatest artistic work is Q123559",
+   "Heath Brothers's greatest artistic work is Q1799",
+   "Heath Brothers's greatest artistic work is Q500939",
+   "Heath Brothers's greatest artistic work is Q41252",
+   "Heath Brothers's greatest artistic work is nan",
+   "Heath Brothers's greatest artistic work is Q3923",
+   "Heath Brothers's greatest artistic work is Q517311",
+   "Heath Brothers's greatest artistic work is Q49111",
+   "Heath Brothers's greatest artistic work is Q6366688",
+   "Heath Brothers's greatest artistic work is Q1490411",
+   "Heath Brothers's greatest artistic work is Q1415",
+   "Heath Brothers's greatest artistic work is Q269980",
+   "Heath Brothers's greatest artistic work is Q156743",
+   "Heath Brothers's greatest artistic work is Q11736",
+   "Heath Brothers's greatest artistic work is Q2880",
+   "Heath Brothers's greatest artistic work is Q3915",
+   "Heath Brothers's greatest artistic work is Q853324",
+   "Heath Brothers's greatest artistic work is Q67778",
+   "Heath Brothers's greatest artistic work is Q649",
+   "Heath Brothers's greatest artistic work is Q610238",
+   "Heath Brothers's greatest artistic work is Q4083",
+   "Heath Brothers's greatest artistic work is Q1754",
+   "Heath Brothers's greatest artistic work is Q490",
+   "Heath Brothers's greatest artistic work is Q64",
+   "Heath Brothers's greatest artistic work is Q18424",
+   "Heath Brothers's greatest artistic work is Q492538",
+   "Heath Brothers's greatest artistic work is Q42807",
+   "Heath Brothers's greatest artistic work is Q84",
+   "Heath Brothers's greatest artistic work is Q1729",
+   "Heath Brothers's greatest artistic work is Q1055",
+   "Heath Brothers's greatest artistic work is Q43509",
+   "Heath Brothers's greatest artistic work is Q16553",
+   "Heath Brothers's greatest artistic work is Q54140",
+   "Heath Brothers's greatest artistic work is Q80484",
+   "Heath Brothers's greatest artistic work is Q10549787",
+   "Heath Brothers's greatest artistic work is Q42308",
+   "Heath Brothers's greatest artistic work is Q33959",
+   "Heath Brothers's greatest artistic work is Q22741",
+   "Heath Brothers's greatest artistic work is Q433701",
+   "Heath Brothers's greatest artistic work is Q2749",
+   "Heath Brothers's greatest artistic work is Q863832",
+   "Heath Brothers's greatest artistic work is Q3834",
+   "Heath Brothers's greatest artistic work is Q106274",
+   "Heath Brothers's greatest artistic work is Q1779185",
+   "Heath Brothers's greatest artistic work is Q4518353",
+   "Heath Brothers's greatest artistic work is Q275731",
+   "Heath Brothers's greatest artistic work is Q102621",
+   "Heath Brothers's greatest artistic work is Q4418120",
+   "Heath Brothers's greatest artistic work is Q891",
+   "Heath Brothers's greatest artistic work is Q142",
+   "Heath Brothers's greatest artistic work is Q220",
+   "Heath Brothers's greatest artistic work is Q1781",
+   "Heath Brothers's greatest artistic work is Q1794",
+   "Heath Brothers's greatest artistic work is Q1741",
+   "Heath Brothers's greatest artistic work is Q966192",
+   "Heath Brothers's greatest artistic work is Q2711986",
+   "Heath Brothers's greatest artistic work is Q1781710",
+   "Heath Brothers's greatest artistic work is Q60",
+   "Heath Brothers's greatest artistic work is Q173695",
+   "Heath Brothers's greatest artistic work is Q135572",
+   "Heath Brothers's greatest artistic work is Q2598",
+   "Heath Brothers's greatest artistic work is Q192265",
+   "Heath Brothers's greatest artistic work is Q1792",
+   "Heath Brothers's greatest artistic work is Q22905",
+   "Heath Brothers's greatest artistic work is Q5838",
+   "Heath Brothers's greatest artistic work is Q536598",
+   "Heath Brothers's greatest artistic work is Q3316008",
+   "Heath Brothers's greatest artistic work is Q1327770",
+   "Heath Brothers's greatest artistic work is Q477987",
+   "Heath Brothers's greatest artistic work is Q551378",
+   "Heath Brothers's greatest artistic work is Q648432",
+   "Heath Brothers's greatest artistic work is Q1345",
+   "Heath Brothers's greatest artistic work is Q1228829",
+   "Heath Brothers's greatest artistic work is Q797437",
+   "Heath Brothers's greatest artistic work is Q87",
+   "Heath Brothers's greatest artistic work is Q157725",
+   "Heath Brothers's greatest artistic work is Q36036",
+   "Heath Brothers's greatest artistic work is Q6837",
+   "Heath Brothers's greatest artistic work is Q1735",
+   "Heath Brothers's greatest artistic work is Q1711",
+   "Heath Brothers's greatest artistic work is Q507117",
+   "Heath Brothers's greatest artistic work is Q2722267",
+   "Heath Brothers's greatest artistic work is Q13666",
+   "Heath Brothers's greatest artistic work is Q206988",
+   "Heath Brothers's greatest artistic work is Q1715",
+   "Heath Brothers's greatest artistic work is Q265332",
+   "Heath Brothers's greatest artistic work is Q745594",
+   "Heath Brothers's greatest artistic work is Q13373",
+   "Heath Brothers's greatest artistic work is Q725261",
+   "Heath Brothers's greatest artistic work is Q572595",
+   "Heath Brothers's greatest artistic work is Q576671",
+   "Heath Brothers's greatest artistic work is Q2453742",
+   "Heath Brothers's greatest artistic work is Q7880",
+   "Heath Brothers's greatest artistic work is Q184163",
+   "Heath Brothers's greatest artistic work is Q997335",
+   "Heath Brothers's greatest artistic work is Q26339",
+   "Heath Brothers's greatest artistic work is Q845623",
+   "Heath Brothers's greatest artistic work is Q64589",
+   "Heath Brothers's greatest artistic work is Q1720",
+   "Heath Brothers's greatest artistic work is Q835831",
+   "Heath Brothers's greatest artistic work is Q487977",
+   "Heath Brothers's greatest artistic work is Q2256",
+   "Heath Brothers's greatest artistic work is Q6346",
+   "Heath Brothers's greatest artistic work is Q161994",
+   "Heath Brothers's greatest artistic work is Q34615",
+   "Heath Brothers's greatest artistic work is Q47554",
+   "Heath Brothers's greatest artistic work is Q194420",
+   "Heath Brothers's greatest artistic work is Q197691",
+   "Heath Brothers's greatest artistic work is Q7027",
+   "Heath Brothers's greatest artistic work is Q270",
+   "Heath Brothers's greatest artistic work is Q1828035",
+   "Heath Brothers's greatest artistic work is Q1022",
+   "Heath Brothers's greatest artistic work is Q7473516",
+   "Heath Brothers's greatest artistic work is Q181704",
+   "Heath Brothers's greatest artistic work is Q72",
+   "Heath Brothers's greatest artistic work is Q2683",
+   "Heath Brothers's greatest artistic work is Q467617",
+   "Heath Brothers's greatest artistic work is Q42168",
+   "Heath Brothers's greatest artistic work is Q153494",
+   "Heath Brothers's greatest artistic work is Q13362",
+   "Heath Brothers's greatest artistic work is Q484552",
+   "Heath Brothers's greatest artistic work is Q320233",
+   "Heath Brothers's greatest artistic work is Q1297",
+   "Heath Brothers's greatest artistic work is Q2865",
+   "Heath Brothers's greatest artistic work is Q16568",
+   "Heath Brothers's greatest artistic work is Q4093",
+   "Heath Brothers's greatest artistic work is Q319397",
+   "Heath Brothers's greatest artistic work is Q212856",
+   "Heath Brothers's greatest artistic work is Q90",
+   "Heath Brothers's greatest artistic work is Q1807458",
+   "Heath Brothers's greatest artistic work is Q5839",
+   "Heath Brothers's greatest artistic work is Q2861",
+   "Heath Brothers's greatest artistic work is Q504875",
+   "Heath Brothers's greatest artistic work is Q105048",
+   "Heath Brothers's greatest artistic work is Q3619316",
+   "Heath Brothers's greatest artistic work is Q287148",
+   "Heath Brothers's greatest artistic work is Q630668",
+   "Heath Brothers's greatest artistic work is Q40898",
+   "Heath Brothers's greatest artistic work is Q734064",
+   "Heath Brothers's greatest artistic work is Q1537",
+   "Heath Brothers's greatest artistic work is Q375314"
+  ],
+  [
+   [
+    -71.9140625
+   ],
+   [
+    -66.59358215332031
+   ],
+   [
+    -74.42059326171875
+   ],
+   [
+    -66.17417907714844
+   ],
+   [
+    -75.31939697265625
+   ],
+   [
+    -68.71359252929688
+   ],
+   [
+    -66.81439208984375
+   ],
+   [
+    -67.92391967773438
+   ],
+   [
+    -72.4544677734375
+   ],
+   [
+    -62.093849182128906
+   ],
+   [
+    -66.73928833007812
+   ],
+   [
+    -71.69058227539062
+   ],
+   [
+    -67.46256256103516
+   ],
+   [
+    -67.10993957519531
+   ],
+   [
+    -72.67041778564453
+   ],
+   [
+    -73.89266204833984
+   ],
+   [
+    -66.9603271484375
+   ],
+   [
+    -71.61941528320312
+   ],
+   [
+    -67.2974853515625
+   ],
+   [
+    -72.82167053222656
+   ],
+   [
+    -72.88968658447266
+   ],
+   [
+    -73.47053527832031
+   ],
+   [
+    -60.50492858886719
+   ],
+   [
+    -60.88972473144531
+   ],
+   [
+    -62.99623107910156
+   ],
+   [
+    -64.4400405883789
+   ],
+   [
+    -61.655609130859375
+   ],
+   [
+    -71.88136291503906
+   ],
+   [
+    -73.20472717285156
+   ],
+   [
+    -73.21802520751953
+   ],
+   [
+    -70.67524719238281
+   ],
+   [
+    -66.67858123779297
+   ],
+   [
+    -75.71678161621094
+   ],
+   [
+    -64.37042999267578
+   ],
+   [
+    -67.00518798828125
+   ],
+   [
+    -73.70704650878906
+   ],
+   [
+    -62.94829559326172
+   ],
+   [
+    -62.64026641845703
+   ],
+   [
+    -68.33596801757812
+   ],
+   [
+    -55.033016204833984
+   ],
+   [
+    -64.8016357421875
+   ],
+   [
+    -64.84062194824219
+   ],
+   [
+    -70.55784606933594
+   ],
+   [
+    -69.80602264404297
+   ],
+   [
+    -70.23969268798828
+   ],
+   [
+    -71.97081756591797
+   ],
+   [
+    -67.37786102294922
+   ],
+   [
+    -68.94377899169922
+   ],
+   [
+    -70.06360626220703
+   ],
+   [
+    -73.91580200195312
+   ],
+   [
+    -68.28301239013672
+   ],
+   [
+    -74.04865264892578
+   ],
+   [
+    -67.66427612304688
+   ],
+   [
+    -64.93716430664062
+   ],
+   [
+    -62.67653274536133
+   ],
+   [
+    -71.69393920898438
+   ],
+   [
+    -73.05843353271484
+   ],
+   [
+    -72.53434753417969
+   ],
+   [
+    -73.94812774658203
+   ],
+   [
+    -72.51387786865234
+   ],
+   [
+    -72.34098815917969
+   ],
+   [
+    -70.24925231933594
+   ],
+   [
+    -70.83023071289062
+   ],
+   [
+    -62.01800537109375
+   ],
+   [
+    -59.94086456298828
+   ],
+   [
+    -64.06098937988281
+   ],
+   [
+    -68.15302276611328
+   ],
+   [
+    -73.11131286621094
+   ],
+   [
+    -62.855735778808594
+   ],
+   [
+    -69.34919738769531
+   ],
+   [
+    -72.67478942871094
+   ],
+   [
+    -70.50724792480469
+   ],
+   [
+    -67.22169494628906
+   ],
+   [
+    -72.20875549316406
+   ],
+   [
+    -64.89500427246094
+   ],
+   [
+    -70.27670288085938
+   ],
+   [
+    -59.945762634277344
+   ],
+   [
+    -63.81745529174805
+   ],
+   [
+    -70.91500854492188
+   ],
+   [
+    -70.49169158935547
+   ],
+   [
+    -62.83787536621094
+   ],
+   [
+    -69.18759155273438
+   ],
+   [
+    -69.93623352050781
+   ],
+   [
+    -73.32037353515625
+   ],
+   [
+    -61.86917495727539
+   ],
+   [
+    -68.19264221191406
+   ],
+   [
+    -70.69181823730469
+   ],
+   [
+    -68.21077728271484
+   ],
+   [
+    -71.90921020507812
+   ],
+   [
+    -65.89838409423828
+   ],
+   [
+    -69.23051452636719
+   ],
+   [
+    -73.2723617553711
+   ],
+   [
+    -69.06314849853516
+   ],
+   [
+    -62.04340362548828
+   ],
+   [
+    -67.8187255859375
+   ],
+   [
+    -66.48188018798828
+   ],
+   [
+    -51.04432678222656
+   ],
+   [
+    -63.78917694091797
+   ],
+   [
+    -70.31491088867188
+   ],
+   [
+    -64.73292541503906
+   ],
+   [
+    -74.11734771728516
+   ],
+   [
+    -74.39326477050781
+   ],
+   [
+    -61.737098693847656
+   ],
+   [
+    -70.67497253417969
+   ],
+   [
+    -70.13671875
+   ],
+   [
+    -66.82271575927734
+   ],
+   [
+    -62.952796936035156
+   ],
+   [
+    -63.504493713378906
+   ],
+   [
+    -71.86993408203125
+   ],
+   [
+    -68.88482666015625
+   ],
+   [
+    -60.8505859375
+   ],
+   [
+    -71.03263854980469
+   ],
+   [
+    -63.81603240966797
+   ],
+   [
+    -62.5246696472168
+   ],
+   [
+    -59.137306213378906
+   ],
+   [
+    -55.59777069091797
+   ],
+   [
+    -67.33576965332031
+   ],
+   [
+    -70.2621078491211
+   ],
+   [
+    -67.00364685058594
+   ],
+   [
+    -56.89166259765625
+   ],
+   [
+    -62.12632751464844
+   ],
+   [
+    -57.3834228515625
+   ],
+   [
+    -67.20377349853516
+   ],
+   [
+    -67.39917755126953
+   ],
+   [
+    -66.55333709716797
+   ],
+   [
+    -68.8277359008789
+   ],
+   [
+    -73.75385284423828
+   ],
+   [
+    -66.73876953125
+   ],
+   [
+    -69.09757995605469
+   ],
+   [
+    -68.053955078125
+   ],
+   [
+    -69.13124084472656
+   ],
+   [
+    -64.89881134033203
+   ],
+   [
+    -72.6813735961914
+   ],
+   [
+    -64.28083801269531
+   ],
+   [
+    -68.44757080078125
+   ],
+   [
+    -73.15403747558594
+   ],
+   [
+    -71.37818145751953
+   ],
+   [
+    -70.74693298339844
+   ],
+   [
+    -67.43661499023438
+   ],
+   [
+    -71.67893981933594
+   ],
+   [
+    -60.35707092285156
+   ],
+   [
+    -58.226234436035156
+   ],
+   [
+    -59.06902313232422
+   ],
+   [
+    -63.00263977050781
+   ],
+   [
+    -62.69686508178711
+   ],
+   [
+    -62.671142578125
+   ],
+   [
+    -74.62039184570312
+   ],
+   [
+    -74.15925598144531
+   ],
+   [
+    -73.04972839355469
+   ],
+   [
+    -54.44817352294922
+   ],
+   [
+    -69.31377410888672
+   ],
+   [
+    -69.72029876708984
+   ],
+   [
+    -63.67195129394531
+   ],
+   [
+    -70.26155853271484
+   ],
+   [
+    -62.629241943359375
+   ],
+   [
+    -67.7142333984375
+   ],
+   [
+    -63.218170166015625
+   ],
+   [
+    -70.55921936035156
+   ],
+   [
+    -74.2687759399414
+   ],
+   [
+    -72.99595642089844
+   ],
+   [
+    -70.05706024169922
+   ],
+   [
+    -69.9889144897461
+   ],
+   [
+    -71.25272369384766
+   ],
+   [
+    -61.856361389160156
+   ],
+   [
+    -71.661865234375
+   ],
+   [
+    -69.04544067382812
+   ],
+   [
+    -56.181968688964844
+   ],
+   [
+    -69.70482635498047
+   ],
+   [
+    -67.27668762207031
+   ],
+   [
+    -65.53538513183594
+   ],
+   [
+    -61.950660705566406
+   ],
+   [
+    -61.55554962158203
+   ],
+   [
+    -68.616943359375
+   ],
+   [
+    -73.96995544433594
+   ],
+   [
+    -67.32109832763672
+   ],
+   [
+    -70.52197265625
+   ],
+   [
+    -62.084327697753906
+   ],
+   [
+    -70.52781677246094
+   ],
+   [
+    -71.27477264404297
+   ],
+   [
+    -65.06475830078125
+   ],
+   [
+    -72.50221252441406
+   ],
+   [
+    -69.56389617919922
+   ],
+   [
+    -70.51763153076172
+   ],
+   [
+    -73.3968505859375
+   ],
+   [
+    -63.78300857543945
+   ],
+   [
+    -71.212158203125
+   ],
+   [
+    -72.49515533447266
+   ],
+   [
+    -66.14999389648438
+   ],
+   [
+    -71.93507385253906
+   ],
+   [
+    -67.81417846679688
+   ],
+   [
+    -61.25902557373047
+   ],
+   [
+    -72.4348373413086
+   ],
+   [
+    -70.3699951171875
+   ],
+   [
+    -63.041526794433594
+   ],
+   [
+    -65.06419372558594
+   ],
+   [
+    -69.97842407226562
+   ],
+   [
+    -68.79672241210938
+   ],
+   [
+    -67.17628479003906
+   ],
+   [
+    -70.22731018066406
+   ],
+   [
+    -71.2286148071289
+   ],
+   [
+    -62.85657501220703
+   ],
+   [
+    -59.5789794921875
+   ],
+   [
+    -73.56275177001953
+   ],
+   [
+    -58.99358367919922
+   ],
+   [
+    -73.9950942993164
+   ],
+   [
+    -70.6008529663086
+   ],
+   [
+    -56.121986389160156
+   ],
+   [
+    -64.66512298583984
+   ],
+   [
+    -70.57482147216797
+   ],
+   [
+    -68.7452163696289
+   ],
+   [
+    -68.07958984375
+   ],
+   [
+    -64.11689758300781
+   ],
+   [
+    -71.1778564453125
+   ],
+   [
+    -72.35187530517578
+   ],
+   [
+    -61.890567779541016
+   ],
+   [
+    -63.88041305541992
+   ],
+   [
+    -67.44580841064453
+   ],
+   [
+    -63.70509338378906
+   ],
+   [
+    -71.49485778808594
+   ],
+   [
+    -71.19198608398438
+   ],
+   [
+    -55.439605712890625
+   ],
+   [
+    -73.7364273071289
+   ],
+   [
+    -63.21198272705078
+   ],
+   [
+    -64.19192504882812
+   ],
+   [
+    -69.21305847167969
+   ],
+   [
+    -68.46475219726562
+   ],
+   [
+    -77.20161437988281
+   ],
+   [
+    -70.05921936035156
+   ],
+   [
+    -70.8989486694336
+   ],
+   [
+    -67.29435729980469
+   ],
+   [
+    -73.09675598144531
+   ],
+   [
+    -59.35053634643555
+   ],
+   [
+    -71.36690521240234
+   ],
+   [
+    -63.61052703857422
+   ],
+   [
+    -60.15008544921875
+   ],
+   [
+    -65.58969116210938
+   ],
+   [
+    -59.06751251220703
+   ],
+   [
+    -66.82931518554688
+   ],
+   [
+    -61.742889404296875
+   ],
+   [
+    -62.8013916015625
+   ],
+   [
+    -60.28517150878906
+   ],
+   [
+    -65.4774169921875
+   ],
+   [
+    -56.041473388671875
+   ],
+   [
+    -59.63347625732422
+   ],
+   [
+    -63.297401428222656
+   ],
+   [
+    -60.43175506591797
+   ],
+   [
+    -61.237274169921875
+   ],
+   [
+    -66.39684295654297
+   ],
+   [
+    -66.72498321533203
+   ],
+   [
+    -59.51021194458008
+   ],
+   [
+    -64.36262512207031
+   ],
+   [
+    -61.4386100769043
+   ],
+   [
+    -66.55077362060547
+   ],
+   [
+    -65.14138793945312
+   ],
+   [
+    -69.36763000488281
+   ],
+   [
+    -53.727142333984375
+   ],
+   [
+    -57.32133102416992
+   ],
+   [
+    -57.39997863769531
+   ],
+   [
+    -57.7091178894043
+   ],
+   [
+    -55.951080322265625
+   ],
+   [
+    -65.94612121582031
+   ],
+   [
+    -67.10283660888672
+   ],
+   [
+    -66.51492309570312
+   ],
+   [
+    -64.15463256835938
+   ],
+   [
+    -60.164730072021484
+   ],
+   [
+    -68.45162963867188
+   ],
+   [
+    -58.99082946777344
+   ],
+   [
+    -59.78850555419922
+   ],
+   [
+    -65.99407196044922
+   ],
+   [
+    -57.28797912597656
+   ],
+   [
+    -57.50587463378906
+   ],
+   [
+    -61.87516403198242
+   ],
+   [
+    -51.16310501098633
+   ],
+   [
+    -60.2025260925293
+   ],
+   [
+    -61.13713455200195
+   ],
+   [
+    -65.16654968261719
+   ],
+   [
+    -63.43552017211914
+   ],
+   [
+    -65.04751586914062
+   ],
+   [
+    -64.21387481689453
+   ],
+   [
+    -61.48438262939453
+   ],
+   [
+    -62.03041458129883
+   ],
+   [
+    -62.990177154541016
+   ],
+   [
+    -67.37931060791016
+   ],
+   [
+    -63.11458969116211
+   ],
+   [
+    -66.80702209472656
+   ],
+   [
+    -61.17472839355469
+   ],
+   [
+    -57.78520202636719
+   ],
+   [
+    -54.70094299316406
+   ],
+   [
+    -64.65653991699219
+   ],
+   [
+    -65.71318054199219
+   ],
+   [
+    -66.5353012084961
+   ],
+   [
+    -66.6769790649414
+   ],
+   [
+    -66.539794921875
+   ],
+   [
+    -65.06034851074219
+   ],
+   [
+    -63.408023834228516
+   ],
+   [
+    -63.70411682128906
+   ],
+   [
+    -57.85597610473633
+   ],
+   [
+    -56.477657318115234
+   ],
+   [
+    -56.29367446899414
+   ],
+   [
+    -59.708839416503906
+   ],
+   [
+    -66.47532653808594
+   ],
+   [
+    -56.01140594482422
+   ],
+   [
+    -62.75550079345703
+   ],
+   [
+    -66.9775390625
+   ],
+   [
+    -64.45550537109375
+   ],
+   [
+    -60.942726135253906
+   ],
+   [
+    -62.34013366699219
+   ],
+   [
+    -57.96917724609375
+   ],
+   [
+    -64.65896606445312
+   ],
+   [
+    -55.57518768310547
+   ],
+   [
+    -57.75568389892578
+   ],
+   [
+    -63.956092834472656
+   ],
+   [
+    -63.989952087402344
+   ],
+   [
+    -57.75528335571289
+   ],
+   [
+    -63.235992431640625
+   ],
+   [
+    -61.30893325805664
+   ],
+   [
+    -66.85330963134766
+   ],
+   [
+    -56.888736724853516
+   ],
+   [
+    -61.09244155883789
+   ],
+   [
+    -64.34813690185547
+   ],
+   [
+    -61.00014877319336
+   ],
+   [
+    -65.6668930053711
+   ],
+   [
+    -61.138572692871094
+   ],
+   [
+    -62.57733917236328
+   ],
+   [
+    -67.40528106689453
+   ],
+   [
+    -62.42381286621094
+   ],
+   [
+    -57.394100189208984
+   ],
+   [
+    -63.324485778808594
+   ],
+   [
+    -60.085304260253906
+   ],
+   [
+    -43.3878173828125
+   ],
+   [
+    -58.080867767333984
+   ],
+   [
+    -64.47463989257812
+   ],
+   [
+    -60.42665481567383
+   ],
+   [
+    -67.43861389160156
+   ],
+   [
+    -67.04717254638672
+   ],
+   [
+    -56.17857360839844
+   ],
+   [
+    -63.797080993652344
+   ],
+   [
+    -63.72997283935547
+   ],
+   [
+    -60.63174057006836
+   ],
+   [
+    -56.48979949951172
+   ],
+   [
+    -57.658477783203125
+   ],
+   [
+    -63.42823791503906
+   ],
+   [
+    -61.74618148803711
+   ],
+   [
+    -55.35441589355469
+   ],
+   [
+    -64.53569030761719
+   ],
+   [
+    -57.1695671081543
+   ],
+   [
+    -57.22563171386719
+   ],
+   [
+    -53.699989318847656
+   ],
+   [
+    -50.73154067993164
+   ],
+   [
+    -61.28029251098633
+   ],
+   [
+    -64.25859832763672
+   ],
+   [
+    -60.47856140136719
+   ],
+   [
+    -52.42411804199219
+   ],
+   [
+    -57.5526123046875
+   ],
+   [
+    -53.836669921875
+   ],
+   [
+    -63.3648567199707
+   ],
+   [
+    -61.1811637878418
+   ],
+   [
+    -60.38477325439453
+   ],
+   [
+    -61.712669372558594
+   ],
+   [
+    -69.0582275390625
+   ],
+   [
+    -60.64055633544922
+   ],
+   [
+    -61.02888488769531
+   ],
+   [
+    -61.26661682128906
+   ],
+   [
+    -62.91450500488281
+   ],
+   [
+    -58.06043243408203
+   ],
+   [
+    -65.16890716552734
+   ],
+   [
+    -57.55156707763672
+   ],
+   [
+    -63.15410614013672
+   ],
+   [
+    -67.06083679199219
+   ],
+   [
+    -66.2411880493164
+   ],
+   [
+    -65.17353057861328
+   ],
+   [
+    -62.179317474365234
+   ],
+   [
+    -66.9508056640625
+   ],
+   [
+    -55.73506164550781
+   ],
+   [
+    -53.069740295410156
+   ],
+   [
+    -52.58179473876953
+   ],
+   [
+    -57.384681701660156
+   ],
+   [
+    -57.52962112426758
+   ],
+   [
+    -57.38761901855469
+   ],
+   [
+    -66.98558044433594
+   ],
+   [
+    -66.19025421142578
+   ],
+   [
+    -66.51408386230469
+   ],
+   [
+    -48.858821868896484
+   ],
+   [
+    -63.732872009277344
+   ],
+   [
+    -64.39962005615234
+   ],
+   [
+    -56.652252197265625
+   ],
+   [
+    -63.97853088378906
+   ],
+   [
+    -57.40810775756836
+   ],
+   [
+    -60.642051696777344
+   ],
+   [
+    -58.46794128417969
+   ],
+   [
+    -64.99699401855469
+   ],
+   [
+    -66.26447296142578
+   ],
+   [
+    -67.59318542480469
+   ],
+   [
+    -63.815670013427734
+   ],
+   [
+    -64.2498779296875
+   ],
+   [
+    -65.24938201904297
+   ],
+   [
+    -57.842166900634766
+   ],
+   [
+    -66.28934478759766
+   ],
+   [
+    -64.17048645019531
+   ],
+   [
+    -52.23223114013672
+   ],
+   [
+    -63.78755569458008
+   ],
+   [
+    -59.60021209716797
+   ],
+   [
+    -59.100364685058594
+   ],
+   [
+    -57.204708099365234
+   ],
+   [
+    -56.80027389526367
+   ],
+   [
+    -63.529937744140625
+   ],
+   [
+    -66.38904571533203
+   ],
+   [
+    -61.570133209228516
+   ],
+   [
+    -63.09360885620117
+   ],
+   [
+    -57.17634963989258
+   ],
+   [
+    -65.49932861328125
+   ],
+   [
+    -64.75111389160156
+   ],
+   [
+    -61.236019134521484
+   ],
+   [
+    -64.92007446289062
+   ],
+   [
+    -64.92027282714844
+   ],
+   [
+    -65.1009750366211
+   ],
+   [
+    -69.42776489257812
+   ],
+   [
+    -58.11293029785156
+   ],
+   [
+    -64.52519226074219
+   ],
+   [
+    -67.13088989257812
+   ],
+   [
+    -60.792572021484375
+   ],
+   [
+    -65.28571319580078
+   ],
+   [
+    -62.592628479003906
+   ],
+   [
+    -56.494876861572266
+   ],
+   [
+    -65.69699096679688
+   ],
+   [
+    -64.34961700439453
+   ],
+   [
+    -58.56939697265625
+   ],
+   [
+    -58.46100997924805
+   ],
+   [
+    -63.82836151123047
+   ],
+   [
+    -59.82731628417969
+   ],
+   [
+    -61.00089645385742
+   ],
+   [
+    -63.65303039550781
+   ],
+   [
+    -64.48706817626953
+   ],
+   [
+    -57.337677001953125
+   ],
+   [
+    -52.891822814941406
+   ],
+   [
+    -67.10214233398438
+   ],
+   [
+    -55.30720520019531
+   ],
+   [
+    -67.09494018554688
+   ],
+   [
+    -64.05447387695312
+   ],
+   [
+    -51.50582504272461
+   ],
+   [
+    -57.99208068847656
+   ],
+   [
+    -64.29812622070312
+   ],
+   [
+    -60.56002426147461
+   ],
+   [
+    -63.24691390991211
+   ],
+   [
+    -60.59278106689453
+   ],
+   [
+    -64.292236328125
+   ],
+   [
+    -63.25736999511719
+   ],
+   [
+    -57.75257110595703
+   ],
+   [
+    -56.714988708496094
+   ],
+   [
+    -61.32630157470703
+   ],
+   [
+    -56.731849670410156
+   ],
+   [
+    -63.2447509765625
+   ],
+   [
+    -63.71710205078125
+   ],
+   [
+    -50.03744125366211
+   ],
+   [
+    -67.18406677246094
+   ],
+   [
+    -58.59746551513672
+   ],
+   [
+    -56.69544982910156
+   ],
+   [
+    -63.875953674316406
+   ],
+   [
+    -63.862728118896484
+   ],
+   [
+    -67.93470001220703
+   ],
+   [
+    -63.134517669677734
+   ],
+   [
+    -65.10403442382812
+   ],
+   [
+    -60.71798324584961
+   ],
+   [
+    -65.10275268554688
+   ],
+   [
+    -56.77193069458008
+   ],
+   [
+    -63.26177215576172
+   ],
+   [
+    -80.86874389648438
+   ],
+   [
+    -78.20022583007812
+   ],
+   [
+    -83.0615234375
+   ],
+   [
+    -76.74417114257812
+   ],
+   [
+    -83.17574310302734
+   ],
+   [
+    -79.0509033203125
+   ],
+   [
+    -77.21189880371094
+   ],
+   [
+    -78.15449523925781
+   ],
+   [
+    -82.39834594726562
+   ],
+   [
+    -72.68487548828125
+   ],
+   [
+    -77.58856201171875
+   ],
+   [
+    -81.2840576171875
+   ],
+   [
+    -77.98374938964844
+   ],
+   [
+    -78.90354919433594
+   ],
+   [
+    -81.9046401977539
+   ],
+   [
+    -82.96073150634766
+   ],
+   [
+    -76.22428894042969
+   ],
+   [
+    -80.02981567382812
+   ],
+   [
+    -77.75035095214844
+   ],
+   [
+    -84.17932891845703
+   ],
+   [
+    -82.24624633789062
+   ],
+   [
+    -85.16600036621094
+   ],
+   [
+    -72.66595458984375
+   ],
+   [
+    -73.87210083007812
+   ],
+   [
+    -74.07189178466797
+   ],
+   [
+    -76.25262451171875
+   ],
+   [
+    -73.974853515625
+   ],
+   [
+    -82.0098648071289
+   ],
+   [
+    -83.70631408691406
+   ],
+   [
+    -83.73976135253906
+   ],
+   [
+    -82.63341522216797
+   ],
+   [
+    -77.34249114990234
+   ],
+   [
+    -86.2733383178711
+   ],
+   [
+    -77.26048278808594
+   ],
+   [
+    -77.1500244140625
+   ],
+   [
+    -81.83008575439453
+   ],
+   [
+    -74.17411804199219
+   ],
+   [
+    -74.48277282714844
+   ],
+   [
+    -78.27633666992188
+   ],
+   [
+    -68.72793579101562
+   ],
+   [
+    -76.26870727539062
+   ],
+   [
+    -77.03949737548828
+   ],
+   [
+    -81.5971908569336
+   ],
+   [
+    -80.02005767822266
+   ],
+   [
+    -82.20187377929688
+   ],
+   [
+    -80.19232177734375
+   ],
+   [
+    -79.38201904296875
+   ],
+   [
+    -79.39486694335938
+   ],
+   [
+    -80.43814086914062
+   ],
+   [
+    -83.88253784179688
+   ],
+   [
+    -80.53631591796875
+   ],
+   [
+    -83.01412200927734
+   ],
+   [
+    -78.18473815917969
+   ],
+   [
+    -74.8209228515625
+   ],
+   [
+    -72.44589233398438
+   ],
+   [
+    -81.02165985107422
+   ],
+   [
+    -83.07666015625
+   ],
+   [
+    -82.44357299804688
+   ],
+   [
+    -83.60392761230469
+   ],
+   [
+    -81.94694519042969
+   ],
+   [
+    -81.978271484375
+   ],
+   [
+    -79.70291900634766
+   ],
+   [
+    -80.97332763671875
+   ],
+   [
+    -73.97257995605469
+   ],
+   [
+    -74.09422302246094
+   ],
+   [
+    -74.24720764160156
+   ],
+   [
+    -77.6954345703125
+   ],
+   [
+    -81.51808166503906
+   ],
+   [
+    -73.76412963867188
+   ],
+   [
+    -81.0594482421875
+   ],
+   [
+    -83.22367858886719
+   ],
+   [
+    -82.04139709472656
+   ],
+   [
+    -77.598388671875
+   ],
+   [
+    -79.77033996582031
+   ],
+   [
+    -75.65049743652344
+   ],
+   [
+    -80.94328308105469
+   ],
+   [
+    -72.93621063232422
+   ],
+   [
+    -74.88224029541016
+   ],
+   [
+    -81.6497573852539
+   ],
+   [
+    -81.46614837646484
+   ],
+   [
+    -74.24911499023438
+   ],
+   [
+    -80.30087280273438
+   ],
+   [
+    -78.28483581542969
+   ],
+   [
+    -82.58537292480469
+   ],
+   [
+    -74.10466766357422
+   ],
+   [
+    -77.54043579101562
+   ],
+   [
+    -82.06111145019531
+   ],
+   [
+    -77.24551391601562
+   ],
+   [
+    -81.90524291992188
+   ],
+   [
+    -78.94026184082031
+   ],
+   [
+    -78.63597106933594
+   ],
+   [
+    -82.93740844726562
+   ],
+   [
+    -79.76364135742188
+   ],
+   [
+    -74.09070587158203
+   ],
+   [
+    -81.23542022705078
+   ],
+   [
+    -77.53128814697266
+   ],
+   [
+    -63.77839660644531
+   ],
+   [
+    -74.95236206054688
+   ],
+   [
+    -82.05470275878906
+   ],
+   [
+    -77.78753662109375
+   ],
+   [
+    -84.51461791992188
+   ],
+   [
+    -82.5736083984375
+   ],
+   [
+    -73.51300048828125
+   ],
+   [
+    -81.02145385742188
+   ],
+   [
+    -79.86653137207031
+   ],
+   [
+    -76.53897094726562
+   ],
+   [
+    -74.69744110107422
+   ],
+   [
+    -74.59505462646484
+   ],
+   [
+    -81.04290771484375
+   ],
+   [
+    -79.17682647705078
+   ],
+   [
+    -72.66487121582031
+   ],
+   [
+    -81.5029296875
+   ],
+   [
+    -74.31983947753906
+   ],
+   [
+    -74.19503021240234
+   ],
+   [
+    -72.08221435546875
+   ],
+   [
+    -68.1044921875
+   ],
+   [
+    -77.81965637207031
+   ],
+   [
+    -81.42778778076172
+   ],
+   [
+    -77.80300903320312
+   ],
+   [
+    -69.71000671386719
+   ],
+   [
+    -74.14408874511719
+   ],
+   [
+    -72.60716247558594
+   ],
+   [
+    -79.39482116699219
+   ],
+   [
+    -77.40853881835938
+   ],
+   [
+    -78.66056060791016
+   ],
+   [
+    -79.14308166503906
+   ],
+   [
+    -85.32335662841797
+   ],
+   [
+    -77.75623321533203
+   ],
+   [
+    -78.17060852050781
+   ],
+   [
+    -77.90205383300781
+   ],
+   [
+    -81.07161712646484
+   ],
+   [
+    -75.6124496459961
+   ],
+   [
+    -82.22843170166016
+   ],
+   [
+    -75.02822875976562
+   ],
+   [
+    -79.68937683105469
+   ],
+   [
+    -83.36549377441406
+   ],
+   [
+    -82.60894775390625
+   ],
+   [
+    -81.31849670410156
+   ],
+   [
+    -78.72096252441406
+   ],
+   [
+    -82.71808624267578
+   ],
+   [
+    -72.62429809570312
+   ],
+   [
+    -71.00785827636719
+   ],
+   [
+    -70.74870300292969
+   ],
+   [
+    -74.1605224609375
+   ],
+   [
+    -74.16836547851562
+   ],
+   [
+    -74.11746215820312
+   ],
+   [
+    -82.13197326660156
+   ],
+   [
+    -84.02915954589844
+   ],
+   [
+    -83.05226135253906
+   ],
+   [
+    -68.21890258789062
+   ],
+   [
+    -79.798583984375
+   ],
+   [
+    -79.49391174316406
+   ],
+   [
+    -74.44068908691406
+   ],
+   [
+    -80.53350830078125
+   ],
+   [
+    -74.15235900878906
+   ],
+   [
+    -78.08230590820312
+   ],
+   [
+    -76.34881591796875
+   ],
+   [
+    -82.30308532714844
+   ],
+   [
+    -83.78520202636719
+   ],
+   [
+    -82.85556030273438
+   ],
+   [
+    -81.17604064941406
+   ],
+   [
+    -81.75483703613281
+   ],
+   [
+    -81.41328430175781
+   ],
+   [
+    -73.7220458984375
+   ],
+   [
+    -82.684326171875
+   ],
+   [
+    -81.24244689941406
+   ],
+   [
+    -69.57476806640625
+   ],
+   [
+    -79.8520278930664
+   ],
+   [
+    -77.77503967285156
+   ],
+   [
+    -76.68017578125
+   ],
+   [
+    -74.06533813476562
+   ],
+   [
+    -73.83192443847656
+   ],
+   [
+    -81.5436782836914
+   ],
+   [
+    -84.45401000976562
+   ],
+   [
+    -77.26606750488281
+   ],
+   [
+    -80.64790344238281
+   ],
+   [
+    -73.95317077636719
+   ],
+   [
+    -80.03974914550781
+   ],
+   [
+    -80.23822021484375
+   ],
+   [
+    -77.05326843261719
+   ],
+   [
+    -81.35203552246094
+   ],
+   [
+    -82.31562805175781
+   ],
+   [
+    -82.57768249511719
+   ],
+   [
+    -84.37371826171875
+   ],
+   [
+    -75.94234466552734
+   ],
+   [
+    -80.37033081054688
+   ],
+   [
+    -82.00884246826172
+   ],
+   [
+    -78.48825073242188
+   ],
+   [
+    -82.17860412597656
+   ],
+   [
+    -78.37387084960938
+   ],
+   [
+    -74.00190734863281
+   ],
+   [
+    -82.03785705566406
+   ],
+   [
+    -81.85382080078125
+   ],
+   [
+    -73.73941802978516
+   ],
+   [
+    -75.95619201660156
+   ],
+   [
+    -79.81600952148438
+   ],
+   [
+    -77.12112426757812
+   ],
+   [
+    -77.97103881835938
+   ],
+   [
+    -80.74461364746094
+   ],
+   [
+    -81.52009582519531
+   ],
+   [
+    -74.69635009765625
+   ],
+   [
+    -71.81360626220703
+   ],
+   [
+    -83.32518768310547
+   ],
+   [
+    -72.77803039550781
+   ],
+   [
+    -83.6859130859375
+   ],
+   [
+    -79.95781707763672
+   ],
+   [
+    -69.04153442382812
+   ],
+   [
+    -75.96908569335938
+   ],
+   [
+    -81.57443237304688
+   ],
+   [
+    -77.8016357421875
+   ],
+   [
+    -80.07261657714844
+   ],
+   [
+    -77.29739379882812
+   ],
+   [
+    -81.64311218261719
+   ],
+   [
+    -79.67117309570312
+   ],
+   [
+    -73.90765380859375
+   ],
+   [
+    -75.01757049560547
+   ],
+   [
+    -77.21125793457031
+   ],
+   [
+    -73.55659484863281
+   ],
+   [
+    -79.80162048339844
+   ],
+   [
+    -80.84133911132812
+   ],
+   [
+    -68.36788177490234
+   ],
+   [
+    -83.66567993164062
+   ],
+   [
+    -76.27339172363281
+   ],
+   [
+    -74.97076416015625
+   ],
+   [
+    -81.51155853271484
+   ],
+   [
+    -79.63098907470703
+   ],
+   [
+    -83.74179077148438
+   ],
+   [
+    -80.71910095214844
+   ],
+   [
+    -81.87889862060547
+   ],
+   [
+    -77.78022766113281
+   ],
+   [
+    -81.27365112304688
+   ],
+   [
+    -74.20887756347656
+   ],
+   [
+    -79.9449462890625
+   ]
+  ]
+ ],
+ "time": 666.071741104126
+}

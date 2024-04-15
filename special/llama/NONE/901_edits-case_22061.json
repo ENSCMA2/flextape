@@ -1,0 +1,2076 @@
+{
+ "case_id": 22061,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Josias Simmler"
+ },
+ "pre": [
+  [
+   "Josias Simmler's field of work is abstract algebra",
+   "Josias Simmler's field of work is theology",
+   "Josias Simmler's field of work is television program",
+   "Josias Simmler's field of work is nanotechnology",
+   "Josias Simmler's field of work is hydrodynamics",
+   "Josias Simmler's field of work is ethics",
+   "Josias Simmler's field of work is physicist",
+   "Josias Simmler's field of work is evolution",
+   "Josias Simmler's field of work is distribution theory",
+   "Josias Simmler's field of work is psychophysiology",
+   "Josias Simmler's field of work is English literature",
+   "Josias Simmler's field of work is theoretical physics",
+   "Josias Simmler's field of work is essay",
+   "Josias Simmler's field of work is ethnology",
+   "Josias Simmler's field of work is pedagogy",
+   "Josias Simmler's field of work is kinetic theory",
+   "Josias Simmler's field of work is ethnography",
+   "Josias Simmler's field of work is rite",
+   "Josias Simmler's field of work is economics",
+   "Josias Simmler's field of work is dance choreography",
+   "Josias Simmler's field of work is biological anthropology",
+   "Josias Simmler's field of work is history of religions",
+   "Josias Simmler's field of work is political philosophy",
+   "Josias Simmler's field of work is philosophy",
+   "Josias Simmler's field of work is linguistics",
+   "Josias Simmler's field of work is cosmology",
+   "Josias Simmler's field of work is hunting",
+   "Josias Simmler's field of work is Minkowski spacetime",
+   "Josias Simmler's field of work is classical music",
+   "Josias Simmler's field of work is hyperbolic geometry",
+   "Josias Simmler's field of work is radioactivity",
+   "Josias Simmler's field of work is belletristic literature",
+   "Josias Simmler's field of work is model theory",
+   "Josias Simmler's field of work is choreography",
+   "Josias Simmler's field of work is chemistry",
+   "Josias Simmler's field of work is literary activity",
+   "Josias Simmler's field of work is historical sociology",
+   "Josias Simmler's field of work is feminism",
+   "Josias Simmler's field of work is economy",
+   "Josias Simmler's field of work is astronomy",
+   "Josias Simmler's field of work is topology",
+   "Josias Simmler's field of work is translations from English",
+   "Josias Simmler's field of work is partial differential equation",
+   "Josias Simmler's field of work is Cairo Geniza",
+   "Josias Simmler's field of work is nuclear physics",
+   "Josias Simmler's field of work is dance",
+   "Josias Simmler's field of work is informatics",
+   "Josias Simmler's field of work is geometry",
+   "Josias Simmler's field of work is computational geometry",
+   "Josias Simmler's field of work is Sanskrit",
+   "Josias Simmler's field of work is magnetism",
+   "Josias Simmler's field of work is opera",
+   "Josias Simmler's field of work is algebraic topology",
+   "Josias Simmler's field of work is quaternion",
+   "Josias Simmler's field of work is Bayesian inference",
+   "Josias Simmler's field of work is quantum electrodynamics",
+   "Josias Simmler's field of work is religion and society",
+   "Josias Simmler's field of work is history of economic thought",
+   "Josias Simmler's field of work is translations from Polish",
+   "Josias Simmler's field of work is literary translation",
+   "Josias Simmler's field of work is lyric poetry",
+   "Josias Simmler's field of work is probability theory",
+   "Josias Simmler's field of work is ontology",
+   "Josias Simmler's field of work is aerodynamics",
+   "Josias Simmler's field of work is crystallography",
+   "Josias Simmler's field of work is mathematics",
+   "Josias Simmler's field of work is harmonic analysis",
+   "Josias Simmler's field of work is history of science",
+   "Josias Simmler's field of work is philosophy of law",
+   "Josias Simmler's field of work is philology",
+   "Josias Simmler's field of work is optics",
+   "Josias Simmler's field of work is functional analysis",
+   "Josias Simmler's field of work is surgery",
+   "Josias Simmler's field of work is complex function",
+   "Josias Simmler's field of work is Jewish philosophy",
+   "Josias Simmler's field of work is translations from Spanish",
+   "Josias Simmler's field of work is poetry",
+   "Josias Simmler's field of work is distribution",
+   "Josias Simmler's field of work is astrology",
+   "Josias Simmler's field of work is differential geometry",
+   "Josias Simmler's field of work is mechanics",
+   "Josias Simmler's field of work is positivism",
+   "Josias Simmler's field of work is ferromagnetism",
+   "Josias Simmler's field of work is quantum physics",
+   "Josias Simmler's field of work is music theory",
+   "Josias Simmler's field of work is physiology",
+   "Josias Simmler's field of work is theory of differential equations",
+   "Josias Simmler's field of work is astrophysics",
+   "Josias Simmler's field of work is number theory",
+   "Josias Simmler's field of work is magnetic field",
+   "Josias Simmler's field of work is historical novel",
+   "Josias Simmler's field of work is stochastic",
+   "Josias Simmler's field of work is philosopher",
+   "Josias Simmler's field of work is histology",
+   "Josias Simmler's field of work is Franciscan spirituality",
+   "Josias Simmler's field of work is electromagnetic field",
+   "Josias Simmler's field of work is medicine",
+   "Josias Simmler's field of work is algebraic geometry",
+   "Josias Simmler's field of work is comparative mythology",
+   "Josias Simmler's field of work is color photography",
+   "Josias Simmler's field of work is cryptography",
+   "Josias Simmler's field of work is Christian Church",
+   "Josias Simmler's field of work is electrical engineering",
+   "Josias Simmler's field of work is folklore",
+   "Josias Simmler's field of work is mythology",
+   "Josias Simmler's field of work is human geography",
+   "Josias Simmler's field of work is Petrine ministry",
+   "Josias Simmler's field of work is Judaism",
+   "Josias Simmler's field of work is group theory",
+   "Josias Simmler's field of work is non-Euclidean geometry",
+   "Josias Simmler's field of work is algebra",
+   "Josias Simmler's field of work is ballistics",
+   "Josias Simmler's field of work is mathematician",
+   "Josias Simmler's field of work is applied physics",
+   "Josias Simmler's field of work is culturology",
+   "Josias Simmler's field of work is calculus of variations",
+   "Josias Simmler's field of work is logic",
+   "Josias Simmler's field of work is engineering",
+   "Josias Simmler's field of work is translations from Occitan",
+   "Josias Simmler's field of work is anatomy",
+   "Josias Simmler's field of work is forestry science",
+   "Josias Simmler's field of work is magic",
+   "Josias Simmler's field of work is quantum mechanics",
+   "Josias Simmler's field of work is differential calculus",
+   "Josias Simmler's field of work is shipbuilding",
+   "Josias Simmler's field of work is convex function",
+   "Josias Simmler's field of work is analytic philosophy",
+   "Josias Simmler's field of work is magnetic resonance",
+   "Josias Simmler's field of work is detective literature",
+   "Josias Simmler's field of work is cartography",
+   "Josias Simmler's field of work is sociology of organisations",
+   "Josias Simmler's field of work is crime novel",
+   "Josias Simmler's field of work is gravity",
+   "Josias Simmler's field of work is statistics",
+   "Josias Simmler's field of work is Greek philology",
+   "Josias Simmler's field of work is analytic number theory",
+   "Josias Simmler's field of work is trigonometry",
+   "Josias Simmler's field of work is physics",
+   "Josias Simmler's field of work is astronomer",
+   "Josias Simmler's field of work is natural science",
+   "Josias Simmler's field of work is information technology",
+   "Josias Simmler's field of work is conducting",
+   "Josias Simmler's field of work is nonstandard analysis",
+   "Josias Simmler's field of work is mathematical analysis",
+   "Josias Simmler's field of work is a branch of physics",
+   "Josias Simmler's field of work is projective geometry",
+   "Josias Simmler's field of work is civil rights",
+   "Josias Simmler's field of work is children's and youth literature",
+   "Josias Simmler's field of work is embryology",
+   "Josias Simmler's field of work is momentum",
+   "Josias Simmler's field of work is African studies",
+   "Josias Simmler's field of work is fairy tale",
+   "Josias Simmler's field of work is classics",
+   "Josias Simmler's field of work is social psychology",
+   "Josias Simmler's field of work is Jewish studies",
+   "Josias Simmler's field of work is silviculture",
+   "Josias Simmler's field of work is education",
+   "Josias Simmler's field of work is literature",
+   "Josias Simmler's field of work is constitutional law",
+   "Josias Simmler's field of work is radiation",
+   "Josias Simmler's field of work is Internet",
+   "Josias Simmler's field of work is heat",
+   "Josias Simmler's field of work is mechanical engineering",
+   "Josias Simmler's field of work is forestry",
+   "Josias Simmler's field of work is jazz",
+   "Josias Simmler's field of work is social philosophy",
+   "Josias Simmler's field of work is mathematical physics",
+   "Josias Simmler's field of work is meteorology",
+   "Josias Simmler's field of work is translations from Arabic language",
+   "Josias Simmler's field of work is quantum mysticism",
+   "Josias Simmler's field of work is politics",
+   "Josias Simmler's field of work is astronomical observation",
+   "Josias Simmler's field of work is myth",
+   "Josias Simmler's field of work is geography",
+   "Josias Simmler's field of work is sociology of religion",
+   "Josias Simmler's field of work is comparative religion",
+   "Josias Simmler's field of work is Greek",
+   "Josias Simmler's field of work is Lie algebra",
+   "Josias Simmler's field of work is complex manifold",
+   "Josias Simmler's field of work is journalism",
+   "Josias Simmler's field of work is celestial mechanics",
+   "Josias Simmler's field of work is String",
+   "Josias Simmler's field of work is mathematical logic",
+   "Josias Simmler's field of work is aeromechanics",
+   "Josias Simmler's field of work is English",
+   "Josias Simmler's field of work is history",
+   "Josias Simmler's field of work is study of history",
+   "Josias Simmler's field of work is genetics",
+   "Josias Simmler's field of work is psychology",
+   "Josias Simmler's field of work is theory of relativity",
+   "Josias Simmler's field of work is biochemistry",
+   "Josias Simmler's field of work is ballet",
+   "Josias Simmler's field of work is electricity",
+   "Josias Simmler's field of work is experimental physics",
+   "Josias Simmler's field of work is natural theology",
+   "Josias Simmler's field of work is Hebrew",
+   "Josias Simmler's field of work is prose",
+   "Josias Simmler's field of work is paleontology",
+   "Josias Simmler's field of work is Monte Carlo method",
+   "Josias Simmler's field of work is quantum theory",
+   "Josias Simmler's field of work is computer science",
+   "Josias Simmler's field of work is cybernetics",
+   "Josias Simmler's field of work is Afghanistan",
+   "Josias Simmler's field of work is philosophy of science",
+   "Josias Simmler's field of work is literary theory",
+   "Josias Simmler's field of work is electric field",
+   "Josias Simmler's field of work is religion",
+   "Josias Simmler's field of work is analytic geometry",
+   "Josias Simmler's field of work is graph theory",
+   "Josias Simmler's field of work is electron",
+   "Josias Simmler's field of work is anthropology",
+   "Josias Simmler's field of work is social anthropology",
+   "Josias Simmler's field of work is sociology",
+   "Josias Simmler's field of work is geodesy",
+   "Josias Simmler's field of work is neurology",
+   "Josias Simmler's field of work is drama",
+   "Josias Simmler's field of work is art of painting",
+   "Josias Simmler's field of work is applied mathematics",
+   "Josias Simmler's field of work is world economy",
+   "Josias Simmler's field of work is economic anthropology",
+   "Josias Simmler is abstract algebra",
+   "Josias Simmler is theology",
+   "Josias Simmler is television program",
+   "Josias Simmler is nanotechnology",
+   "Josias Simmler is hydrodynamics",
+   "Josias Simmler is ethics",
+   "Josias Simmler is physicist",
+   "Josias Simmler is evolution",
+   "Josias Simmler is distribution theory",
+   "Josias Simmler is psychophysiology",
+   "Josias Simmler is English literature",
+   "Josias Simmler is theoretical physics",
+   "Josias Simmler is essay",
+   "Josias Simmler is ethnology",
+   "Josias Simmler is pedagogy",
+   "Josias Simmler is kinetic theory",
+   "Josias Simmler is ethnography",
+   "Josias Simmler is rite",
+   "Josias Simmler is economics",
+   "Josias Simmler is dance choreography",
+   "Josias Simmler is biological anthropology",
+   "Josias Simmler is history of religions",
+   "Josias Simmler is political philosophy",
+   "Josias Simmler is philosophy",
+   "Josias Simmler is linguistics",
+   "Josias Simmler is cosmology",
+   "Josias Simmler is hunting",
+   "Josias Simmler is Minkowski spacetime",
+   "Josias Simmler is classical music",
+   "Josias Simmler is hyperbolic geometry",
+   "Josias Simmler is radioactivity",
+   "Josias Simmler is belletristic literature",
+   "Josias Simmler is model theory",
+   "Josias Simmler is choreography",
+   "Josias Simmler is chemistry",
+   "Josias Simmler is literary activity",
+   "Josias Simmler is historical sociology",
+   "Josias Simmler is feminism",
+   "Josias Simmler is economy",
+   "Josias Simmler is astronomy",
+   "Josias Simmler is topology",
+   "Josias Simmler is translations from English",
+   "Josias Simmler is partial differential equation",
+   "Josias Simmler is Cairo Geniza",
+   "Josias Simmler is nuclear physics",
+   "Josias Simmler is dance",
+   "Josias Simmler is informatics",
+   "Josias Simmler is geometry",
+   "Josias Simmler is computational geometry",
+   "Josias Simmler is Sanskrit",
+   "Josias Simmler is magnetism",
+   "Josias Simmler is opera",
+   "Josias Simmler is algebraic topology",
+   "Josias Simmler is quaternion",
+   "Josias Simmler is Bayesian inference",
+   "Josias Simmler is quantum electrodynamics",
+   "Josias Simmler is religion and society",
+   "Josias Simmler is history of economic thought",
+   "Josias Simmler is translations from Polish",
+   "Josias Simmler is literary translation",
+   "Josias Simmler is lyric poetry",
+   "Josias Simmler is probability theory",
+   "Josias Simmler is ontology",
+   "Josias Simmler is aerodynamics",
+   "Josias Simmler is crystallography",
+   "Josias Simmler is mathematics",
+   "Josias Simmler is harmonic analysis",
+   "Josias Simmler is history of science",
+   "Josias Simmler is philosophy of law",
+   "Josias Simmler is philology",
+   "Josias Simmler is optics",
+   "Josias Simmler is functional analysis",
+   "Josias Simmler is surgery",
+   "Josias Simmler is complex function",
+   "Josias Simmler is Jewish philosophy",
+   "Josias Simmler is translations from Spanish",
+   "Josias Simmler is poetry",
+   "Josias Simmler is distribution",
+   "Josias Simmler is astrology",
+   "Josias Simmler is differential geometry",
+   "Josias Simmler is mechanics",
+   "Josias Simmler is positivism",
+   "Josias Simmler is ferromagnetism",
+   "Josias Simmler is quantum physics",
+   "Josias Simmler is music theory",
+   "Josias Simmler is physiology",
+   "Josias Simmler is theory of differential equations",
+   "Josias Simmler is astrophysics",
+   "Josias Simmler is number theory",
+   "Josias Simmler is magnetic field",
+   "Josias Simmler is historical novel",
+   "Josias Simmler is stochastic",
+   "Josias Simmler is philosopher",
+   "Josias Simmler is histology",
+   "Josias Simmler is Franciscan spirituality",
+   "Josias Simmler is electromagnetic field",
+   "Josias Simmler is medicine",
+   "Josias Simmler is algebraic geometry",
+   "Josias Simmler is comparative mythology",
+   "Josias Simmler is color photography",
+   "Josias Simmler is cryptography",
+   "Josias Simmler is Christian Church",
+   "Josias Simmler is electrical engineering",
+   "Josias Simmler is folklore",
+   "Josias Simmler is mythology",
+   "Josias Simmler is human geography",
+   "Josias Simmler is Petrine ministry",
+   "Josias Simmler is Judaism",
+   "Josias Simmler is group theory",
+   "Josias Simmler is non-Euclidean geometry",
+   "Josias Simmler is algebra",
+   "Josias Simmler is ballistics",
+   "Josias Simmler is mathematician",
+   "Josias Simmler is applied physics",
+   "Josias Simmler is culturology",
+   "Josias Simmler is calculus of variations",
+   "Josias Simmler is logic",
+   "Josias Simmler is engineering",
+   "Josias Simmler is translations from Occitan",
+   "Josias Simmler is anatomy",
+   "Josias Simmler is forestry science",
+   "Josias Simmler is magic",
+   "Josias Simmler is quantum mechanics",
+   "Josias Simmler is differential calculus",
+   "Josias Simmler is shipbuilding",
+   "Josias Simmler is convex function",
+   "Josias Simmler is analytic philosophy",
+   "Josias Simmler is magnetic resonance",
+   "Josias Simmler is detective literature",
+   "Josias Simmler is cartography",
+   "Josias Simmler is sociology of organisations",
+   "Josias Simmler is crime novel",
+   "Josias Simmler is gravity",
+   "Josias Simmler is statistics",
+   "Josias Simmler is Greek philology",
+   "Josias Simmler is analytic number theory",
+   "Josias Simmler is trigonometry",
+   "Josias Simmler is physics",
+   "Josias Simmler is astronomer",
+   "Josias Simmler is natural science",
+   "Josias Simmler is information technology",
+   "Josias Simmler is conducting",
+   "Josias Simmler is nonstandard analysis",
+   "Josias Simmler is mathematical analysis",
+   "Josias Simmler is a branch of physics",
+   "Josias Simmler is projective geometry",
+   "Josias Simmler is civil rights",
+   "Josias Simmler is children's and youth literature",
+   "Josias Simmler is embryology",
+   "Josias Simmler is momentum",
+   "Josias Simmler is African studies",
+   "Josias Simmler is fairy tale",
+   "Josias Simmler is classics",
+   "Josias Simmler is social psychology",
+   "Josias Simmler is Jewish studies",
+   "Josias Simmler is silviculture",
+   "Josias Simmler is education",
+   "Josias Simmler is literature",
+   "Josias Simmler is constitutional law",
+   "Josias Simmler is radiation",
+   "Josias Simmler is Internet",
+   "Josias Simmler is heat",
+   "Josias Simmler is mechanical engineering",
+   "Josias Simmler is forestry",
+   "Josias Simmler is jazz",
+   "Josias Simmler is social philosophy",
+   "Josias Simmler is mathematical physics",
+   "Josias Simmler is meteorology",
+   "Josias Simmler is translations from Arabic language",
+   "Josias Simmler is quantum mysticism",
+   "Josias Simmler is politics",
+   "Josias Simmler is astronomical observation",
+   "Josias Simmler is myth",
+   "Josias Simmler is geography",
+   "Josias Simmler is sociology of religion",
+   "Josias Simmler is comparative religion",
+   "Josias Simmler is Greek",
+   "Josias Simmler is Lie algebra",
+   "Josias Simmler is complex manifold",
+   "Josias Simmler is journalism",
+   "Josias Simmler is celestial mechanics",
+   "Josias Simmler is String",
+   "Josias Simmler is mathematical logic",
+   "Josias Simmler is aeromechanics",
+   "Josias Simmler is English",
+   "Josias Simmler is history",
+   "Josias Simmler is study of history",
+   "Josias Simmler is genetics",
+   "Josias Simmler is psychology",
+   "Josias Simmler is theory of relativity",
+   "Josias Simmler is biochemistry",
+   "Josias Simmler is ballet",
+   "Josias Simmler is electricity",
+   "Josias Simmler is experimental physics",
+   "Josias Simmler is natural theology",
+   "Josias Simmler is Hebrew",
+   "Josias Simmler is prose",
+   "Josias Simmler is paleontology",
+   "Josias Simmler is Monte Carlo method",
+   "Josias Simmler is quantum theory",
+   "Josias Simmler is computer science",
+   "Josias Simmler is cybernetics",
+   "Josias Simmler is Afghanistan",
+   "Josias Simmler is philosophy of science",
+   "Josias Simmler is literary theory",
+   "Josias Simmler is electric field",
+   "Josias Simmler is religion",
+   "Josias Simmler is analytic geometry",
+   "Josias Simmler is graph theory",
+   "Josias Simmler is electron",
+   "Josias Simmler is anthropology",
+   "Josias Simmler is social anthropology",
+   "Josias Simmler is sociology",
+   "Josias Simmler is geodesy",
+   "Josias Simmler is neurology",
+   "Josias Simmler is drama",
+   "Josias Simmler is art of painting",
+   "Josias Simmler is applied mathematics",
+   "Josias Simmler is world economy",
+   "Josias Simmler is economic anthropology"
+  ],
+  [
+   [
+    -62.973419189453125
+   ],
+   [
+    -57.59739685058594
+   ],
+   [
+    -63.23875427246094
+   ],
+   [
+    -57.18467330932617
+   ],
+   [
+    -59.62216567993164
+   ],
+   [
+    -56.53607177734375
+   ],
+   [
+    -60.8719596862793
+   ],
+   [
+    -56.05815887451172
+   ],
+   [
+    -61.48637390136719
+   ],
+   [
+    -61.365440368652344
+   ],
+   [
+    -58.92753982543945
+   ],
+   [
+    -56.19056701660156
+   ],
+   [
+    -59.30851745605469
+   ],
+   [
+    -58.04901885986328
+   ],
+   [
+    -57.28961181640625
+   ],
+   [
+    -65.67010498046875
+   ],
+   [
+    -58.01906967163086
+   ],
+   [
+    -64.65811157226562
+   ],
+   [
+    -54.8472900390625
+   ],
+   [
+    -62.81847381591797
+   ],
+   [
+    -60.04564666748047
+   ],
+   [
+    -59.6378059387207
+   ],
+   [
+    -56.53131103515625
+   ],
+   [
+    -55.47419738769531
+   ],
+   [
+    -56.644378662109375
+   ],
+   [
+    -57.13056182861328
+   ],
+   [
+    -59.72967529296875
+   ],
+   [
+    -66.71546173095703
+   ],
+   [
+    -57.45655822753906
+   ],
+   [
+    -61.05609130859375
+   ],
+   [
+    -59.82927703857422
+   ],
+   [
+    -66.64179992675781
+   ],
+   [
+    -60.58526611328125
+   ],
+   [
+    -59.218406677246094
+   ],
+   [
+    -55.977745056152344
+   ],
+   [
+    -65.4707260131836
+   ],
+   [
+    -58.64643859863281
+   ],
+   [
+    -60.92385482788086
+   ],
+   [
+    -57.671607971191406
+   ],
+   [
+    -57.576045989990234
+   ],
+   [
+    -58.94745635986328
+   ],
+   [
+    -62.08127212524414
+   ],
+   [
+    -63.39643096923828
+   ],
+   [
+    -70.72616577148438
+   ],
+   [
+    -58.11201858520508
+   ],
+   [
+    -57.94298553466797
+   ],
+   [
+    -57.07215881347656
+   ],
+   [
+    -57.51164245605469
+   ],
+   [
+    -58.63582229614258
+   ],
+   [
+    -59.90181350708008
+   ],
+   [
+    -60.45882034301758
+   ],
+   [
+    -58.20365905761719
+   ],
+   [
+    -59.616146087646484
+   ],
+   [
+    -62.009559631347656
+   ],
+   [
+    -61.360897064208984
+   ],
+   [
+    -60.88399887084961
+   ],
+   [
+    -60.67702865600586
+   ],
+   [
+    -60.957035064697266
+   ],
+   [
+    -66.13603210449219
+   ],
+   [
+    -60.11955642700195
+   ],
+   [
+    -62.21959686279297
+   ],
+   [
+    -59.65156555175781
+   ],
+   [
+    -57.8950309753418
+   ],
+   [
+    -57.73762512207031
+   ],
+   [
+    -58.434688568115234
+   ],
+   [
+    -55.47676086425781
+   ],
+   [
+    -59.42280578613281
+   ],
+   [
+    -58.43473815917969
+   ],
+   [
+    -59.041015625
+   ],
+   [
+    -57.76211929321289
+   ],
+   [
+    -57.339256286621094
+   ],
+   [
+    -59.489742279052734
+   ],
+   [
+    -57.37556457519531
+   ],
+   [
+    -63.3806037902832
+   ],
+   [
+    -59.92354965209961
+   ],
+   [
+    -64.8963623046875
+   ],
+   [
+    -57.949012756347656
+   ],
+   [
+    -57.76249694824219
+   ],
+   [
+    -59.2304801940918
+   ],
+   [
+    -58.352962493896484
+   ],
+   [
+    -57.045997619628906
+   ],
+   [
+    -61.276885986328125
+   ],
+   [
+    -63.006492614746094
+   ],
+   [
+    -58.22521209716797
+   ],
+   [
+    -57.879642486572266
+   ],
+   [
+    -57.59613800048828
+   ],
+   [
+    -63.17246627807617
+   ],
+   [
+    -57.59008026123047
+   ],
+   [
+    -57.41461944580078
+   ],
+   [
+    -61.85851287841797
+   ],
+   [
+    -64.64265441894531
+   ],
+   [
+    -57.57246398925781
+   ],
+   [
+    -59.771671295166016
+   ],
+   [
+    -60.12964630126953
+   ],
+   [
+    -64.09501647949219
+   ],
+   [
+    -60.41931915283203
+   ],
+   [
+    -56.469024658203125
+   ],
+   [
+    -59.175270080566406
+   ],
+   [
+    -61.4949836730957
+   ],
+   [
+    -60.45581817626953
+   ],
+   [
+    -57.3529052734375
+   ],
+   [
+    -61.02300262451172
+   ],
+   [
+    -55.707435607910156
+   ],
+   [
+    -58.925621032714844
+   ],
+   [
+    -59.72248077392578
+   ],
+   [
+    -57.66779708862305
+   ],
+   [
+    -72.47158813476562
+   ],
+   [
+    -59.43162155151367
+   ],
+   [
+    -59.99491500854492
+   ],
+   [
+    -63.653778076171875
+   ],
+   [
+    -59.81177520751953
+   ],
+   [
+    -60.61903381347656
+   ],
+   [
+    -62.91197204589844
+   ],
+   [
+    -57.97949981689453
+   ],
+   [
+    -61.39967727661133
+   ],
+   [
+    -60.84823989868164
+   ],
+   [
+    -57.62316131591797
+   ],
+   [
+    -55.90814208984375
+   ],
+   [
+    -71.04777526855469
+   ],
+   [
+    -57.567745208740234
+   ],
+   [
+    -61.048160552978516
+   ],
+   [
+    -58.882850646972656
+   ],
+   [
+    -59.20525360107422
+   ],
+   [
+    -62.74449920654297
+   ],
+   [
+    -57.89800262451172
+   ],
+   [
+    -66.3726577758789
+   ],
+   [
+    -57.72705841064453
+   ],
+   [
+    -59.07994842529297
+   ],
+   [
+    -64.56387329101562
+   ],
+   [
+    -57.125709533691406
+   ],
+   [
+    -61.460365295410156
+   ],
+   [
+    -63.62955093383789
+   ],
+   [
+    -59.62062072753906
+   ],
+   [
+    -56.65929412841797
+   ],
+   [
+    -63.342201232910156
+   ],
+   [
+    -59.845848083496094
+   ],
+   [
+    -60.63803482055664
+   ],
+   [
+    -55.89173889160156
+   ],
+   [
+    -64.16549682617188
+   ],
+   [
+    -57.50389862060547
+   ],
+   [
+    -56.079524993896484
+   ],
+   [
+    -57.97725296020508
+   ],
+   [
+    -64.68616485595703
+   ],
+   [
+    -57.746822357177734
+   ],
+   [
+    -61.95773696899414
+   ],
+   [
+    -60.25203323364258
+   ],
+   [
+    -59.65741729736328
+   ],
+   [
+    -60.596839904785156
+   ],
+   [
+    -59.046688079833984
+   ],
+   [
+    -60.920867919921875
+   ],
+   [
+    -59.25374984741211
+   ],
+   [
+    -63.524391174316406
+   ],
+   [
+    -58.710792541503906
+   ],
+   [
+    -56.80445861816406
+   ],
+   [
+    -59.15330505371094
+   ],
+   [
+    -60.10761642456055
+   ],
+   [
+    -55.52210235595703
+   ],
+   [
+    -56.63429260253906
+   ],
+   [
+    -57.41044998168945
+   ],
+   [
+    -57.00043487548828
+   ],
+   [
+    -56.22254943847656
+   ],
+   [
+    -58.880645751953125
+   ],
+   [
+    -55.44111633300781
+   ],
+   [
+    -56.848907470703125
+   ],
+   [
+    -57.43528747558594
+   ],
+   [
+    -60.35622787475586
+   ],
+   [
+    -57.59775161743164
+   ],
+   [
+    -56.77888488769531
+   ],
+   [
+    -70.85662841796875
+   ],
+   [
+    -67.5805435180664
+   ],
+   [
+    -56.331153869628906
+   ],
+   [
+    -63.48774337768555
+   ],
+   [
+    -59.316688537597656
+   ],
+   [
+    -56.22748565673828
+   ],
+   [
+    -58.01622772216797
+   ],
+   [
+    -58.251869201660156
+   ],
+   [
+    -59.504310607910156
+   ],
+   [
+    -63.18687438964844
+   ],
+   [
+    -64.14306640625
+   ],
+   [
+    -56.54330062866211
+   ],
+   [
+    -60.372886657714844
+   ],
+   [
+    -59.78273010253906
+   ],
+   [
+    -58.602012634277344
+   ],
+   [
+    -61.05825424194336
+   ],
+   [
+    -56.41777801513672
+   ],
+   [
+    -55.331443786621094
+   ],
+   [
+    -64.67927551269531
+   ],
+   [
+    -57.49979782104492
+   ],
+   [
+    -57.11587142944336
+   ],
+   [
+    -61.545433044433594
+   ],
+   [
+    -55.86054992675781
+   ],
+   [
+    -59.119415283203125
+   ],
+   [
+    -57.933448791503906
+   ],
+   [
+    -56.956783294677734
+   ],
+   [
+    -63.879207611083984
+   ],
+   [
+    -59.52642059326172
+   ],
+   [
+    -59.309356689453125
+   ],
+   [
+    -59.80620574951172
+   ],
+   [
+    -64.49739837646484
+   ],
+   [
+    -60.177032470703125
+   ],
+   [
+    -54.93922805786133
+   ],
+   [
+    -58.12123107910156
+   ],
+   [
+    -59.57029342651367
+   ],
+   [
+    -57.919960021972656
+   ],
+   [
+    -58.75924301147461
+   ],
+   [
+    -61.81639099121094
+   ],
+   [
+    -57.123291015625
+   ],
+   [
+    -60.781883239746094
+   ],
+   [
+    -57.87139892578125
+   ],
+   [
+    -56.64501953125
+   ],
+   [
+    -56.88233184814453
+   ],
+   [
+    -57.70198059082031
+   ],
+   [
+    -55.28224182128906
+   ],
+   [
+    -56.969947814941406
+   ],
+   [
+    -57.3145637512207
+   ],
+   [
+    -58.17424774169922
+   ],
+   [
+    -64.70965576171875
+   ],
+   [
+    -56.824954986572266
+   ],
+   [
+    -61.387691497802734
+   ],
+   [
+    -59.457611083984375
+   ],
+   [
+    -56.3290901184082
+   ],
+   [
+    -46.85950469970703
+   ],
+   [
+    -51.43632888793945
+   ],
+   [
+    -49.40540313720703
+   ],
+   [
+    -52.77315902709961
+   ],
+   [
+    -47.37168884277344
+   ],
+   [
+    -43.953731536865234
+   ],
+   [
+    -46.87324905395508
+   ],
+   [
+    -58.124183654785156
+   ],
+   [
+    -52.962310791015625
+   ],
+   [
+    -48.93439865112305
+   ],
+   [
+    -48.6624870300293
+   ],
+   [
+    -45.42876052856445
+   ],
+   [
+    -50.045894622802734
+   ],
+   [
+    -50.39248275756836
+   ],
+   [
+    -55.5555305480957
+   ],
+   [
+    -50.36268615722656
+   ],
+   [
+    -50.21712875366211
+   ],
+   [
+    -43.50066375732422
+   ],
+   [
+    -53.279335021972656
+   ],
+   [
+    -51.031097412109375
+   ],
+   [
+    -50.7844352722168
+   ],
+   [
+    -51.09971237182617
+   ],
+   [
+    -44.55525207519531
+   ],
+   [
+    -48.19841766357422
+   ],
+   [
+    -50.193416595458984
+   ],
+   [
+    -43.233245849609375
+   ],
+   [
+    -58.422264099121094
+   ],
+   [
+    -46.585533142089844
+   ],
+   [
+    -56.612274169921875
+   ],
+   [
+    -53.28327178955078
+   ],
+   [
+    -57.76838684082031
+   ],
+   [
+    -56.87998580932617
+   ],
+   [
+    -49.312252044677734
+   ],
+   [
+    -45.96669006347656
+   ],
+   [
+    -54.51002883911133
+   ],
+   [
+    -51.36663055419922
+   ],
+   [
+    -50.4565544128418
+   ],
+   [
+    -45.31322479248047
+   ],
+   [
+    -49.97547912597656
+   ],
+   [
+    -49.418678283691406
+   ],
+   [
+    -56.48133850097656
+   ],
+   [
+    -55.02530288696289
+   ],
+   [
+    -56.978214263916016
+   ],
+   [
+    -50.0364875793457
+   ],
+   [
+    -44.604225158691406
+   ],
+   [
+    -48.52153015136719
+   ],
+   [
+    -47.97776412963867
+   ],
+   [
+    -54.071861267089844
+   ],
+   [
+    -46.550167083740234
+   ],
+   [
+    -50.00564193725586
+   ],
+   [
+    -44.61734390258789
+   ],
+   [
+    -51.89678955078125
+   ],
+   [
+    -51.47792434692383
+   ],
+   [
+    -52.166954040527344
+   ],
+   [
+    -53.62416076660156
+   ],
+   [
+    -50.57006072998047
+   ],
+   [
+    -52.50824737548828
+   ],
+   [
+    -59.37746810913086
+   ],
+   [
+    -52.02629089355469
+   ],
+   [
+    -53.2717399597168
+   ],
+   [
+    -49.93696975708008
+   ],
+   [
+    -50.857112884521484
+   ],
+   [
+    -48.8746223449707
+   ],
+   [
+    -50.837623596191406
+   ],
+   [
+    -45.16428756713867
+   ],
+   [
+    -54.072872161865234
+   ],
+   [
+    -48.99687576293945
+   ],
+   [
+    -51.546016693115234
+   ],
+   [
+    -49.21483612060547
+   ],
+   [
+    -49.08502197265625
+   ],
+   [
+    -52.112979888916016
+   ],
+   [
+    -48.994815826416016
+   ],
+   [
+    -55.914276123046875
+   ],
+   [
+    -50.6397819519043
+   ],
+   [
+    -57.54850769042969
+   ],
+   [
+    -45.170494079589844
+   ],
+   [
+    -48.20253372192383
+   ],
+   [
+    -49.550193786621094
+   ],
+   [
+    -50.35468673706055
+   ],
+   [
+    -49.350608825683594
+   ],
+   [
+    -50.536136627197266
+   ],
+   [
+    -54.61465072631836
+   ],
+   [
+    -51.00699234008789
+   ],
+   [
+    -48.95798873901367
+   ],
+   [
+    -48.12671661376953
+   ],
+   [
+    -57.07026672363281
+   ],
+   [
+    -48.454532623291016
+   ],
+   [
+    -51.811058044433594
+   ],
+   [
+    -50.477928161621094
+   ],
+   [
+    -45.60451889038086
+   ],
+   [
+    -48.93777847290039
+   ],
+   [
+    -43.45137405395508
+   ],
+   [
+    -48.6081428527832
+   ],
+   [
+    -50.89970397949219
+   ],
+   [
+    -50.76564407348633
+   ],
+   [
+    -45.29066467285156
+   ],
+   [
+    -50.08443832397461
+   ],
+   [
+    -52.36273193359375
+   ],
+   [
+    -52.44792175292969
+   ],
+   [
+    -48.36063003540039
+   ],
+   [
+    -48.56132888793945
+   ],
+   [
+    -46.579345703125
+   ],
+   [
+    -48.47340393066406
+   ],
+   [
+    -49.868408203125
+   ],
+   [
+    -49.06830978393555
+   ],
+   [
+    -59.947235107421875
+   ],
+   [
+    -47.49053192138672
+   ],
+   [
+    -52.23106002807617
+   ],
+   [
+    -52.85816192626953
+   ],
+   [
+    -48.70224380493164
+   ],
+   [
+    -50.560970306396484
+   ],
+   [
+    -44.21048355102539
+   ],
+   [
+    -48.030704498291016
+   ],
+   [
+    -54.3421745300293
+   ],
+   [
+    -55.64164352416992
+   ],
+   [
+    -47.71476745605469
+   ],
+   [
+    -43.88479995727539
+   ],
+   [
+    -61.74065399169922
+   ],
+   [
+    -48.30547332763672
+   ],
+   [
+    -52.5617561340332
+   ],
+   [
+    -44.50828552246094
+   ],
+   [
+    -51.024269104003906
+   ],
+   [
+    -50.48691177368164
+   ],
+   [
+    -48.70470428466797
+   ],
+   [
+    -54.098514556884766
+   ],
+   [
+    -51.47216796875
+   ],
+   [
+    -50.650115966796875
+   ],
+   [
+    -57.83256912231445
+   ],
+   [
+    -48.08673858642578
+   ],
+   [
+    -56.986328125
+   ],
+   [
+    -49.63786697387695
+   ],
+   [
+    -47.41537094116211
+   ],
+   [
+    -45.366844177246094
+   ],
+   [
+    -54.180633544921875
+   ],
+   [
+    -54.578067779541016
+   ],
+   [
+    -52.49937438964844
+   ],
+   [
+    -45.023887634277344
+   ],
+   [
+    -46.15878677368164
+   ],
+   [
+    -47.3701286315918
+   ],
+   [
+    -45.71747589111328
+   ],
+   [
+    -41.069061279296875
+   ],
+   [
+    -58.37982177734375
+   ],
+   [
+    -51.972412109375
+   ],
+   [
+    -56.30176544189453
+   ],
+   [
+    -51.3996467590332
+   ],
+   [
+    -47.79922103881836
+   ],
+   [
+    -53.64908981323242
+   ],
+   [
+    -51.55716323852539
+   ],
+   [
+    -47.85795593261719
+   ],
+   [
+    -49.43471908569336
+   ],
+   [
+    -50.78234100341797
+   ],
+   [
+    -45.75686264038086
+   ],
+   [
+    -49.65533447265625
+   ],
+   [
+    -49.020992279052734
+   ],
+   [
+    -50.22270584106445
+   ],
+   [
+    -44.4983024597168
+   ],
+   [
+    -45.862884521484375
+   ],
+   [
+    -47.249603271484375
+   ],
+   [
+    -46.2363166809082
+   ],
+   [
+    -43.78630447387695
+   ],
+   [
+    -46.81976318359375
+   ],
+   [
+    -45.694217681884766
+   ],
+   [
+    -46.328582763671875
+   ],
+   [
+    -44.02128601074219
+   ],
+   [
+    -53.680965423583984
+   ],
+   [
+    -49.21603012084961
+   ],
+   [
+    -48.870452880859375
+   ],
+   [
+    -64.49302673339844
+   ],
+   [
+    -58.02193069458008
+   ],
+   [
+    -46.29330062866211
+   ],
+   [
+    -55.36447525024414
+   ],
+   [
+    -45.951812744140625
+   ],
+   [
+    -45.283790588378906
+   ],
+   [
+    -51.311424255371094
+   ],
+   [
+    -48.4275016784668
+   ],
+   [
+    -45.27524185180664
+   ],
+   [
+    -56.042728424072266
+   ],
+   [
+    -56.23655319213867
+   ],
+   [
+    -46.022586822509766
+   ],
+   [
+    -51.40996170043945
+   ],
+   [
+    -46.35175323486328
+   ],
+   [
+    -50.98058319091797
+   ],
+   [
+    -52.25048065185547
+   ],
+   [
+    -42.02851486206055
+   ],
+   [
+    -42.14947509765625
+   ],
+   [
+    -53.488426208496094
+   ],
+   [
+    -47.38508987426758
+   ],
+   [
+    -45.95846176147461
+   ],
+   [
+    -52.747642517089844
+   ],
+   [
+    -48.20393371582031
+   ],
+   [
+    -46.80744934082031
+   ],
+   [
+    -47.24170684814453
+   ],
+   [
+    -50.94474792480469
+   ],
+   [
+    -52.94899368286133
+   ],
+   [
+    -44.48918151855469
+   ],
+   [
+    -47.434120178222656
+   ],
+   [
+    -49.01020050048828
+   ],
+   [
+    -58.103065490722656
+   ],
+   [
+    -53.0783576965332
+   ],
+   [
+    -45.37189865112305
+   ],
+   [
+    -49.31931686401367
+   ],
+   [
+    -46.6186637878418
+   ],
+   [
+    -49.9896354675293
+   ],
+   [
+    -53.52880859375
+   ],
+   [
+    -51.96810531616211
+   ],
+   [
+    -45.4296989440918
+   ],
+   [
+    -54.60091781616211
+   ],
+   [
+    -54.5072135925293
+   ],
+   [
+    -45.235103607177734
+   ],
+   [
+    -47.081260681152344
+   ],
+   [
+    -50.80679702758789
+   ],
+   [
+    -45.32018280029297
+   ],
+   [
+    -51.47178268432617
+   ],
+   [
+    -48.44750213623047
+   ],
+   [
+    -45.42390823364258
+   ],
+   [
+    -54.499698638916016
+   ],
+   [
+    -47.40925216674805
+   ],
+   [
+    -51.075218200683594
+   ],
+   [
+    -52.300758361816406
+   ]
+  ]
+ ],
+ "time": 3086.5296742916107
+}

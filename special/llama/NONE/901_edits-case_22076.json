@@ -1,0 +1,2076 @@
+{
+ "case_id": 22076,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Francis Bitter"
+ },
+ "pre": [
+  [
+   "Francis Bitter's field of work is abstract algebra",
+   "Francis Bitter's field of work is theology",
+   "Francis Bitter's field of work is television program",
+   "Francis Bitter's field of work is nanotechnology",
+   "Francis Bitter's field of work is hydrodynamics",
+   "Francis Bitter's field of work is ethics",
+   "Francis Bitter's field of work is physicist",
+   "Francis Bitter's field of work is evolution",
+   "Francis Bitter's field of work is distribution theory",
+   "Francis Bitter's field of work is psychophysiology",
+   "Francis Bitter's field of work is English literature",
+   "Francis Bitter's field of work is theoretical physics",
+   "Francis Bitter's field of work is essay",
+   "Francis Bitter's field of work is ethnology",
+   "Francis Bitter's field of work is pedagogy",
+   "Francis Bitter's field of work is kinetic theory",
+   "Francis Bitter's field of work is ethnography",
+   "Francis Bitter's field of work is rite",
+   "Francis Bitter's field of work is economics",
+   "Francis Bitter's field of work is dance choreography",
+   "Francis Bitter's field of work is biological anthropology",
+   "Francis Bitter's field of work is history of religions",
+   "Francis Bitter's field of work is political philosophy",
+   "Francis Bitter's field of work is philosophy",
+   "Francis Bitter's field of work is linguistics",
+   "Francis Bitter's field of work is cosmology",
+   "Francis Bitter's field of work is hunting",
+   "Francis Bitter's field of work is Minkowski spacetime",
+   "Francis Bitter's field of work is classical music",
+   "Francis Bitter's field of work is hyperbolic geometry",
+   "Francis Bitter's field of work is radioactivity",
+   "Francis Bitter's field of work is belletristic literature",
+   "Francis Bitter's field of work is model theory",
+   "Francis Bitter's field of work is choreography",
+   "Francis Bitter's field of work is chemistry",
+   "Francis Bitter's field of work is literary activity",
+   "Francis Bitter's field of work is historical sociology",
+   "Francis Bitter's field of work is feminism",
+   "Francis Bitter's field of work is economy",
+   "Francis Bitter's field of work is astronomy",
+   "Francis Bitter's field of work is topology",
+   "Francis Bitter's field of work is translations from English",
+   "Francis Bitter's field of work is partial differential equation",
+   "Francis Bitter's field of work is Cairo Geniza",
+   "Francis Bitter's field of work is nuclear physics",
+   "Francis Bitter's field of work is dance",
+   "Francis Bitter's field of work is informatics",
+   "Francis Bitter's field of work is geometry",
+   "Francis Bitter's field of work is computational geometry",
+   "Francis Bitter's field of work is Sanskrit",
+   "Francis Bitter's field of work is magnetism",
+   "Francis Bitter's field of work is opera",
+   "Francis Bitter's field of work is algebraic topology",
+   "Francis Bitter's field of work is quaternion",
+   "Francis Bitter's field of work is Bayesian inference",
+   "Francis Bitter's field of work is quantum electrodynamics",
+   "Francis Bitter's field of work is religion and society",
+   "Francis Bitter's field of work is history of economic thought",
+   "Francis Bitter's field of work is translations from Polish",
+   "Francis Bitter's field of work is literary translation",
+   "Francis Bitter's field of work is lyric poetry",
+   "Francis Bitter's field of work is probability theory",
+   "Francis Bitter's field of work is ontology",
+   "Francis Bitter's field of work is aerodynamics",
+   "Francis Bitter's field of work is crystallography",
+   "Francis Bitter's field of work is mathematics",
+   "Francis Bitter's field of work is harmonic analysis",
+   "Francis Bitter's field of work is history of science",
+   "Francis Bitter's field of work is philosophy of law",
+   "Francis Bitter's field of work is philology",
+   "Francis Bitter's field of work is optics",
+   "Francis Bitter's field of work is functional analysis",
+   "Francis Bitter's field of work is surgery",
+   "Francis Bitter's field of work is complex function",
+   "Francis Bitter's field of work is Jewish philosophy",
+   "Francis Bitter's field of work is translations from Spanish",
+   "Francis Bitter's field of work is poetry",
+   "Francis Bitter's field of work is distribution",
+   "Francis Bitter's field of work is astrology",
+   "Francis Bitter's field of work is differential geometry",
+   "Francis Bitter's field of work is mechanics",
+   "Francis Bitter's field of work is positivism",
+   "Francis Bitter's field of work is ferromagnetism",
+   "Francis Bitter's field of work is quantum physics",
+   "Francis Bitter's field of work is music theory",
+   "Francis Bitter's field of work is physiology",
+   "Francis Bitter's field of work is theory of differential equations",
+   "Francis Bitter's field of work is astrophysics",
+   "Francis Bitter's field of work is number theory",
+   "Francis Bitter's field of work is magnetic field",
+   "Francis Bitter's field of work is historical novel",
+   "Francis Bitter's field of work is stochastic",
+   "Francis Bitter's field of work is philosopher",
+   "Francis Bitter's field of work is histology",
+   "Francis Bitter's field of work is Franciscan spirituality",
+   "Francis Bitter's field of work is electromagnetic field",
+   "Francis Bitter's field of work is medicine",
+   "Francis Bitter's field of work is algebraic geometry",
+   "Francis Bitter's field of work is comparative mythology",
+   "Francis Bitter's field of work is color photography",
+   "Francis Bitter's field of work is cryptography",
+   "Francis Bitter's field of work is Christian Church",
+   "Francis Bitter's field of work is electrical engineering",
+   "Francis Bitter's field of work is folklore",
+   "Francis Bitter's field of work is mythology",
+   "Francis Bitter's field of work is human geography",
+   "Francis Bitter's field of work is Petrine ministry",
+   "Francis Bitter's field of work is Judaism",
+   "Francis Bitter's field of work is group theory",
+   "Francis Bitter's field of work is non-Euclidean geometry",
+   "Francis Bitter's field of work is algebra",
+   "Francis Bitter's field of work is ballistics",
+   "Francis Bitter's field of work is mathematician",
+   "Francis Bitter's field of work is applied physics",
+   "Francis Bitter's field of work is culturology",
+   "Francis Bitter's field of work is calculus of variations",
+   "Francis Bitter's field of work is logic",
+   "Francis Bitter's field of work is engineering",
+   "Francis Bitter's field of work is translations from Occitan",
+   "Francis Bitter's field of work is anatomy",
+   "Francis Bitter's field of work is forestry science",
+   "Francis Bitter's field of work is magic",
+   "Francis Bitter's field of work is quantum mechanics",
+   "Francis Bitter's field of work is differential calculus",
+   "Francis Bitter's field of work is shipbuilding",
+   "Francis Bitter's field of work is convex function",
+   "Francis Bitter's field of work is analytic philosophy",
+   "Francis Bitter's field of work is magnetic resonance",
+   "Francis Bitter's field of work is detective literature",
+   "Francis Bitter's field of work is cartography",
+   "Francis Bitter's field of work is sociology of organisations",
+   "Francis Bitter's field of work is crime novel",
+   "Francis Bitter's field of work is gravity",
+   "Francis Bitter's field of work is statistics",
+   "Francis Bitter's field of work is Greek philology",
+   "Francis Bitter's field of work is analytic number theory",
+   "Francis Bitter's field of work is trigonometry",
+   "Francis Bitter's field of work is physics",
+   "Francis Bitter's field of work is astronomer",
+   "Francis Bitter's field of work is natural science",
+   "Francis Bitter's field of work is information technology",
+   "Francis Bitter's field of work is conducting",
+   "Francis Bitter's field of work is nonstandard analysis",
+   "Francis Bitter's field of work is mathematical analysis",
+   "Francis Bitter's field of work is a branch of physics",
+   "Francis Bitter's field of work is projective geometry",
+   "Francis Bitter's field of work is civil rights",
+   "Francis Bitter's field of work is children's and youth literature",
+   "Francis Bitter's field of work is embryology",
+   "Francis Bitter's field of work is momentum",
+   "Francis Bitter's field of work is African studies",
+   "Francis Bitter's field of work is fairy tale",
+   "Francis Bitter's field of work is classics",
+   "Francis Bitter's field of work is social psychology",
+   "Francis Bitter's field of work is Jewish studies",
+   "Francis Bitter's field of work is silviculture",
+   "Francis Bitter's field of work is education",
+   "Francis Bitter's field of work is literature",
+   "Francis Bitter's field of work is constitutional law",
+   "Francis Bitter's field of work is radiation",
+   "Francis Bitter's field of work is Internet",
+   "Francis Bitter's field of work is heat",
+   "Francis Bitter's field of work is mechanical engineering",
+   "Francis Bitter's field of work is forestry",
+   "Francis Bitter's field of work is jazz",
+   "Francis Bitter's field of work is social philosophy",
+   "Francis Bitter's field of work is mathematical physics",
+   "Francis Bitter's field of work is meteorology",
+   "Francis Bitter's field of work is translations from Arabic language",
+   "Francis Bitter's field of work is quantum mysticism",
+   "Francis Bitter's field of work is politics",
+   "Francis Bitter's field of work is astronomical observation",
+   "Francis Bitter's field of work is myth",
+   "Francis Bitter's field of work is geography",
+   "Francis Bitter's field of work is sociology of religion",
+   "Francis Bitter's field of work is comparative religion",
+   "Francis Bitter's field of work is Greek",
+   "Francis Bitter's field of work is Lie algebra",
+   "Francis Bitter's field of work is complex manifold",
+   "Francis Bitter's field of work is journalism",
+   "Francis Bitter's field of work is celestial mechanics",
+   "Francis Bitter's field of work is String",
+   "Francis Bitter's field of work is mathematical logic",
+   "Francis Bitter's field of work is aeromechanics",
+   "Francis Bitter's field of work is English",
+   "Francis Bitter's field of work is history",
+   "Francis Bitter's field of work is study of history",
+   "Francis Bitter's field of work is genetics",
+   "Francis Bitter's field of work is psychology",
+   "Francis Bitter's field of work is theory of relativity",
+   "Francis Bitter's field of work is biochemistry",
+   "Francis Bitter's field of work is ballet",
+   "Francis Bitter's field of work is electricity",
+   "Francis Bitter's field of work is experimental physics",
+   "Francis Bitter's field of work is natural theology",
+   "Francis Bitter's field of work is Hebrew",
+   "Francis Bitter's field of work is prose",
+   "Francis Bitter's field of work is paleontology",
+   "Francis Bitter's field of work is Monte Carlo method",
+   "Francis Bitter's field of work is quantum theory",
+   "Francis Bitter's field of work is computer science",
+   "Francis Bitter's field of work is cybernetics",
+   "Francis Bitter's field of work is Afghanistan",
+   "Francis Bitter's field of work is philosophy of science",
+   "Francis Bitter's field of work is literary theory",
+   "Francis Bitter's field of work is electric field",
+   "Francis Bitter's field of work is religion",
+   "Francis Bitter's field of work is analytic geometry",
+   "Francis Bitter's field of work is graph theory",
+   "Francis Bitter's field of work is electron",
+   "Francis Bitter's field of work is anthropology",
+   "Francis Bitter's field of work is social anthropology",
+   "Francis Bitter's field of work is sociology",
+   "Francis Bitter's field of work is geodesy",
+   "Francis Bitter's field of work is neurology",
+   "Francis Bitter's field of work is drama",
+   "Francis Bitter's field of work is art of painting",
+   "Francis Bitter's field of work is applied mathematics",
+   "Francis Bitter's field of work is world economy",
+   "Francis Bitter's field of work is economic anthropology",
+   "Francis Bitter is abstract algebra",
+   "Francis Bitter is theology",
+   "Francis Bitter is television program",
+   "Francis Bitter is nanotechnology",
+   "Francis Bitter is hydrodynamics",
+   "Francis Bitter is ethics",
+   "Francis Bitter is physicist",
+   "Francis Bitter is evolution",
+   "Francis Bitter is distribution theory",
+   "Francis Bitter is psychophysiology",
+   "Francis Bitter is English literature",
+   "Francis Bitter is theoretical physics",
+   "Francis Bitter is essay",
+   "Francis Bitter is ethnology",
+   "Francis Bitter is pedagogy",
+   "Francis Bitter is kinetic theory",
+   "Francis Bitter is ethnography",
+   "Francis Bitter is rite",
+   "Francis Bitter is economics",
+   "Francis Bitter is dance choreography",
+   "Francis Bitter is biological anthropology",
+   "Francis Bitter is history of religions",
+   "Francis Bitter is political philosophy",
+   "Francis Bitter is philosophy",
+   "Francis Bitter is linguistics",
+   "Francis Bitter is cosmology",
+   "Francis Bitter is hunting",
+   "Francis Bitter is Minkowski spacetime",
+   "Francis Bitter is classical music",
+   "Francis Bitter is hyperbolic geometry",
+   "Francis Bitter is radioactivity",
+   "Francis Bitter is belletristic literature",
+   "Francis Bitter is model theory",
+   "Francis Bitter is choreography",
+   "Francis Bitter is chemistry",
+   "Francis Bitter is literary activity",
+   "Francis Bitter is historical sociology",
+   "Francis Bitter is feminism",
+   "Francis Bitter is economy",
+   "Francis Bitter is astronomy",
+   "Francis Bitter is topology",
+   "Francis Bitter is translations from English",
+   "Francis Bitter is partial differential equation",
+   "Francis Bitter is Cairo Geniza",
+   "Francis Bitter is nuclear physics",
+   "Francis Bitter is dance",
+   "Francis Bitter is informatics",
+   "Francis Bitter is geometry",
+   "Francis Bitter is computational geometry",
+   "Francis Bitter is Sanskrit",
+   "Francis Bitter is magnetism",
+   "Francis Bitter is opera",
+   "Francis Bitter is algebraic topology",
+   "Francis Bitter is quaternion",
+   "Francis Bitter is Bayesian inference",
+   "Francis Bitter is quantum electrodynamics",
+   "Francis Bitter is religion and society",
+   "Francis Bitter is history of economic thought",
+   "Francis Bitter is translations from Polish",
+   "Francis Bitter is literary translation",
+   "Francis Bitter is lyric poetry",
+   "Francis Bitter is probability theory",
+   "Francis Bitter is ontology",
+   "Francis Bitter is aerodynamics",
+   "Francis Bitter is crystallography",
+   "Francis Bitter is mathematics",
+   "Francis Bitter is harmonic analysis",
+   "Francis Bitter is history of science",
+   "Francis Bitter is philosophy of law",
+   "Francis Bitter is philology",
+   "Francis Bitter is optics",
+   "Francis Bitter is functional analysis",
+   "Francis Bitter is surgery",
+   "Francis Bitter is complex function",
+   "Francis Bitter is Jewish philosophy",
+   "Francis Bitter is translations from Spanish",
+   "Francis Bitter is poetry",
+   "Francis Bitter is distribution",
+   "Francis Bitter is astrology",
+   "Francis Bitter is differential geometry",
+   "Francis Bitter is mechanics",
+   "Francis Bitter is positivism",
+   "Francis Bitter is ferromagnetism",
+   "Francis Bitter is quantum physics",
+   "Francis Bitter is music theory",
+   "Francis Bitter is physiology",
+   "Francis Bitter is theory of differential equations",
+   "Francis Bitter is astrophysics",
+   "Francis Bitter is number theory",
+   "Francis Bitter is magnetic field",
+   "Francis Bitter is historical novel",
+   "Francis Bitter is stochastic",
+   "Francis Bitter is philosopher",
+   "Francis Bitter is histology",
+   "Francis Bitter is Franciscan spirituality",
+   "Francis Bitter is electromagnetic field",
+   "Francis Bitter is medicine",
+   "Francis Bitter is algebraic geometry",
+   "Francis Bitter is comparative mythology",
+   "Francis Bitter is color photography",
+   "Francis Bitter is cryptography",
+   "Francis Bitter is Christian Church",
+   "Francis Bitter is electrical engineering",
+   "Francis Bitter is folklore",
+   "Francis Bitter is mythology",
+   "Francis Bitter is human geography",
+   "Francis Bitter is Petrine ministry",
+   "Francis Bitter is Judaism",
+   "Francis Bitter is group theory",
+   "Francis Bitter is non-Euclidean geometry",
+   "Francis Bitter is algebra",
+   "Francis Bitter is ballistics",
+   "Francis Bitter is mathematician",
+   "Francis Bitter is applied physics",
+   "Francis Bitter is culturology",
+   "Francis Bitter is calculus of variations",
+   "Francis Bitter is logic",
+   "Francis Bitter is engineering",
+   "Francis Bitter is translations from Occitan",
+   "Francis Bitter is anatomy",
+   "Francis Bitter is forestry science",
+   "Francis Bitter is magic",
+   "Francis Bitter is quantum mechanics",
+   "Francis Bitter is differential calculus",
+   "Francis Bitter is shipbuilding",
+   "Francis Bitter is convex function",
+   "Francis Bitter is analytic philosophy",
+   "Francis Bitter is magnetic resonance",
+   "Francis Bitter is detective literature",
+   "Francis Bitter is cartography",
+   "Francis Bitter is sociology of organisations",
+   "Francis Bitter is crime novel",
+   "Francis Bitter is gravity",
+   "Francis Bitter is statistics",
+   "Francis Bitter is Greek philology",
+   "Francis Bitter is analytic number theory",
+   "Francis Bitter is trigonometry",
+   "Francis Bitter is physics",
+   "Francis Bitter is astronomer",
+   "Francis Bitter is natural science",
+   "Francis Bitter is information technology",
+   "Francis Bitter is conducting",
+   "Francis Bitter is nonstandard analysis",
+   "Francis Bitter is mathematical analysis",
+   "Francis Bitter is a branch of physics",
+   "Francis Bitter is projective geometry",
+   "Francis Bitter is civil rights",
+   "Francis Bitter is children's and youth literature",
+   "Francis Bitter is embryology",
+   "Francis Bitter is momentum",
+   "Francis Bitter is African studies",
+   "Francis Bitter is fairy tale",
+   "Francis Bitter is classics",
+   "Francis Bitter is social psychology",
+   "Francis Bitter is Jewish studies",
+   "Francis Bitter is silviculture",
+   "Francis Bitter is education",
+   "Francis Bitter is literature",
+   "Francis Bitter is constitutional law",
+   "Francis Bitter is radiation",
+   "Francis Bitter is Internet",
+   "Francis Bitter is heat",
+   "Francis Bitter is mechanical engineering",
+   "Francis Bitter is forestry",
+   "Francis Bitter is jazz",
+   "Francis Bitter is social philosophy",
+   "Francis Bitter is mathematical physics",
+   "Francis Bitter is meteorology",
+   "Francis Bitter is translations from Arabic language",
+   "Francis Bitter is quantum mysticism",
+   "Francis Bitter is politics",
+   "Francis Bitter is astronomical observation",
+   "Francis Bitter is myth",
+   "Francis Bitter is geography",
+   "Francis Bitter is sociology of religion",
+   "Francis Bitter is comparative religion",
+   "Francis Bitter is Greek",
+   "Francis Bitter is Lie algebra",
+   "Francis Bitter is complex manifold",
+   "Francis Bitter is journalism",
+   "Francis Bitter is celestial mechanics",
+   "Francis Bitter is String",
+   "Francis Bitter is mathematical logic",
+   "Francis Bitter is aeromechanics",
+   "Francis Bitter is English",
+   "Francis Bitter is history",
+   "Francis Bitter is study of history",
+   "Francis Bitter is genetics",
+   "Francis Bitter is psychology",
+   "Francis Bitter is theory of relativity",
+   "Francis Bitter is biochemistry",
+   "Francis Bitter is ballet",
+   "Francis Bitter is electricity",
+   "Francis Bitter is experimental physics",
+   "Francis Bitter is natural theology",
+   "Francis Bitter is Hebrew",
+   "Francis Bitter is prose",
+   "Francis Bitter is paleontology",
+   "Francis Bitter is Monte Carlo method",
+   "Francis Bitter is quantum theory",
+   "Francis Bitter is computer science",
+   "Francis Bitter is cybernetics",
+   "Francis Bitter is Afghanistan",
+   "Francis Bitter is philosophy of science",
+   "Francis Bitter is literary theory",
+   "Francis Bitter is electric field",
+   "Francis Bitter is religion",
+   "Francis Bitter is analytic geometry",
+   "Francis Bitter is graph theory",
+   "Francis Bitter is electron",
+   "Francis Bitter is anthropology",
+   "Francis Bitter is social anthropology",
+   "Francis Bitter is sociology",
+   "Francis Bitter is geodesy",
+   "Francis Bitter is neurology",
+   "Francis Bitter is drama",
+   "Francis Bitter is art of painting",
+   "Francis Bitter is applied mathematics",
+   "Francis Bitter is world economy",
+   "Francis Bitter is economic anthropology"
+  ],
+  [
+   [
+    -52.31752014160156
+   ],
+   [
+    -51.12114715576172
+   ],
+   [
+    -56.251747131347656
+   ],
+   [
+    -48.608333587646484
+   ],
+   [
+    -52.40552520751953
+   ],
+   [
+    -50.73412322998047
+   ],
+   [
+    -53.932395935058594
+   ],
+   [
+    -48.59199523925781
+   ],
+   [
+    -53.10237121582031
+   ],
+   [
+    -53.41420364379883
+   ],
+   [
+    -50.67406463623047
+   ],
+   [
+    -48.94165802001953
+   ],
+   [
+    -53.18708038330078
+   ],
+   [
+    -52.483970642089844
+   ],
+   [
+    -51.719993591308594
+   ],
+   [
+    -56.28936767578125
+   ],
+   [
+    -52.266990661621094
+   ],
+   [
+    -57.21460723876953
+   ],
+   [
+    -47.3723030090332
+   ],
+   [
+    -57.61012268066406
+   ],
+   [
+    -53.613990783691406
+   ],
+   [
+    -54.333526611328125
+   ],
+   [
+    -50.501319885253906
+   ],
+   [
+    -49.067344665527344
+   ],
+   [
+    -49.384422302246094
+   ],
+   [
+    -50.00096130371094
+   ],
+   [
+    -53.58482360839844
+   ],
+   [
+    -58.58457946777344
+   ],
+   [
+    -52.066688537597656
+   ],
+   [
+    -52.47313690185547
+   ],
+   [
+    -52.31981658935547
+   ],
+   [
+    -60.340492248535156
+   ],
+   [
+    -53.107460021972656
+   ],
+   [
+    -54.32921600341797
+   ],
+   [
+    -47.448486328125
+   ],
+   [
+    -60.462921142578125
+   ],
+   [
+    -51.267578125
+   ],
+   [
+    -53.849693298339844
+   ],
+   [
+    -52.13335418701172
+   ],
+   [
+    -48.19671630859375
+   ],
+   [
+    -51.25189971923828
+   ],
+   [
+    -59.989891052246094
+   ],
+   [
+    -55.35033416748047
+   ],
+   [
+    -62.57724380493164
+   ],
+   [
+    -49.101417541503906
+   ],
+   [
+    -52.05939483642578
+   ],
+   [
+    -50.907936096191406
+   ],
+   [
+    -50.527931213378906
+   ],
+   [
+    -50.67207336425781
+   ],
+   [
+    -52.399505615234375
+   ],
+   [
+    -51.3900146484375
+   ],
+   [
+    -51.987586975097656
+   ],
+   [
+    -50.881507873535156
+   ],
+   [
+    -54.49641418457031
+   ],
+   [
+    -53.76624298095703
+   ],
+   [
+    -52.60369873046875
+   ],
+   [
+    -55.81584930419922
+   ],
+   [
+    -54.59510040283203
+   ],
+   [
+    -62.26669692993164
+   ],
+   [
+    -54.57073974609375
+   ],
+   [
+    -54.9232177734375
+   ],
+   [
+    -51.73126220703125
+   ],
+   [
+    -52.27558135986328
+   ],
+   [
+    -49.03997802734375
+   ],
+   [
+    -49.171234130859375
+   ],
+   [
+    -48.07484436035156
+   ],
+   [
+    -52.59425354003906
+   ],
+   [
+    -50.205162048339844
+   ],
+   [
+    -53.81565856933594
+   ],
+   [
+    -51.44939422607422
+   ],
+   [
+    -48.83350372314453
+   ],
+   [
+    -52.966880798339844
+   ],
+   [
+    -50.87713623046875
+   ],
+   [
+    -55.86125183105469
+   ],
+   [
+    -52.98902130126953
+   ],
+   [
+    -61.307533264160156
+   ],
+   [
+    -50.678688049316406
+   ],
+   [
+    -50.93547821044922
+   ],
+   [
+    -52.047096252441406
+   ],
+   [
+    -50.638427734375
+   ],
+   [
+    -49.383018493652344
+   ],
+   [
+    -54.938255310058594
+   ],
+   [
+    -53.77112579345703
+   ],
+   [
+    -51.028663635253906
+   ],
+   [
+    -51.415130615234375
+   ],
+   [
+    -49.428192138671875
+   ],
+   [
+    -56.52619171142578
+   ],
+   [
+    -48.64982604980469
+   ],
+   [
+    -49.43047332763672
+   ],
+   [
+    -53.428749084472656
+   ],
+   [
+    -57.02301025390625
+   ],
+   [
+    -50.24176025390625
+   ],
+   [
+    -53.89936065673828
+   ],
+   [
+    -52.180702209472656
+   ],
+   [
+    -63.003028869628906
+   ],
+   [
+    -51.33185577392578
+   ],
+   [
+    -50.2088623046875
+   ],
+   [
+    -50.40000915527344
+   ],
+   [
+    -54.176055908203125
+   ],
+   [
+    -51.91767883300781
+   ],
+   [
+    -48.969139099121094
+   ],
+   [
+    -55.91105651855469
+   ],
+   [
+    -46.48044967651367
+   ],
+   [
+    -51.10363006591797
+   ],
+   [
+    -53.37310028076172
+   ],
+   [
+    -51.356117248535156
+   ],
+   [
+    -63.97008514404297
+   ],
+   [
+    -53.03778839111328
+   ],
+   [
+    -51.774269104003906
+   ],
+   [
+    -55.14311981201172
+   ],
+   [
+    -50.607757568359375
+   ],
+   [
+    -52.13074493408203
+   ],
+   [
+    -54.98914337158203
+   ],
+   [
+    -50.33032989501953
+   ],
+   [
+    -56.23248291015625
+   ],
+   [
+    -52.34772491455078
+   ],
+   [
+    -50.89314270019531
+   ],
+   [
+    -47.226688385009766
+   ],
+   [
+    -67.25503540039062
+   ],
+   [
+    -50.03687286376953
+   ],
+   [
+    -55.200096130371094
+   ],
+   [
+    -52.04778289794922
+   ],
+   [
+    -51.08759307861328
+   ],
+   [
+    -55.57110595703125
+   ],
+   [
+    -52.18102264404297
+   ],
+   [
+    -59.342735290527344
+   ],
+   [
+    -51.47174835205078
+   ],
+   [
+    -50.307586669921875
+   ],
+   [
+    -59.68401336669922
+   ],
+   [
+    -50.174774169921875
+   ],
+   [
+    -60.40172576904297
+   ],
+   [
+    -58.46434020996094
+   ],
+   [
+    -51.12822723388672
+   ],
+   [
+    -49.21758270263672
+   ],
+   [
+    -55.862205505371094
+   ],
+   [
+    -50.32014465332031
+   ],
+   [
+    -51.899314880371094
+   ],
+   [
+    -47.67705154418945
+   ],
+   [
+    -54.939971923828125
+   ],
+   [
+    -51.26385498046875
+   ],
+   [
+    -49.44959259033203
+   ],
+   [
+    -51.828941345214844
+   ],
+   [
+    -57.71250915527344
+   ],
+   [
+    -49.99713897705078
+   ],
+   [
+    -53.56110763549805
+   ],
+   [
+    -53.006622314453125
+   ],
+   [
+    -52.245384216308594
+   ],
+   [
+    -58.4051628112793
+   ],
+   [
+    -51.05784606933594
+   ],
+   [
+    -54.182159423828125
+   ],
+   [
+    -52.946144104003906
+   ],
+   [
+    -56.699928283691406
+   ],
+   [
+    -50.86134338378906
+   ],
+   [
+    -49.224525451660156
+   ],
+   [
+    -51.643890380859375
+   ],
+   [
+    -52.31798553466797
+   ],
+   [
+    -49.11688995361328
+   ],
+   [
+    -50.23112487792969
+   ],
+   [
+    -51.479736328125
+   ],
+   [
+    -49.345794677734375
+   ],
+   [
+    -51.16455078125
+   ],
+   [
+    -51.043426513671875
+   ],
+   [
+    -47.47526550292969
+   ],
+   [
+    -49.70311737060547
+   ],
+   [
+    -51.072532653808594
+   ],
+   [
+    -54.00703430175781
+   ],
+   [
+    -49.41082763671875
+   ],
+   [
+    -48.61534118652344
+   ],
+   [
+    -67.11711120605469
+   ],
+   [
+    -59.54390335083008
+   ],
+   [
+    -50.89747619628906
+   ],
+   [
+    -55.211151123046875
+   ],
+   [
+    -52.9976806640625
+   ],
+   [
+    -49.6270751953125
+   ],
+   [
+    -52.41919708251953
+   ],
+   [
+    -51.51634979248047
+   ],
+   [
+    -51.647308349609375
+   ],
+   [
+    -55.345924377441406
+   ],
+   [
+    -55.95098114013672
+   ],
+   [
+    -50.181663513183594
+   ],
+   [
+    -50.96830749511719
+   ],
+   [
+    -51.921714782714844
+   ],
+   [
+    -50.53296661376953
+   ],
+   [
+    -53.83195495605469
+   ],
+   [
+    -49.036956787109375
+   ],
+   [
+    -48.14997100830078
+   ],
+   [
+    -57.63597106933594
+   ],
+   [
+    -49.282493591308594
+   ],
+   [
+    -49.62902069091797
+   ],
+   [
+    -54.36429214477539
+   ],
+   [
+    -47.861228942871094
+   ],
+   [
+    -52.39649963378906
+   ],
+   [
+    -48.95124053955078
+   ],
+   [
+    -49.87544250488281
+   ],
+   [
+    -56.903594970703125
+   ],
+   [
+    -52.19819641113281
+   ],
+   [
+    -52.8201904296875
+   ],
+   [
+    -50.79583740234375
+   ],
+   [
+    -56.916587829589844
+   ],
+   [
+    -52.92152404785156
+   ],
+   [
+    -47.29711151123047
+   ],
+   [
+    -49.53833770751953
+   ],
+   [
+    -53.46788024902344
+   ],
+   [
+    -50.91077423095703
+   ],
+   [
+    -53.146461486816406
+   ],
+   [
+    -52.934425354003906
+   ],
+   [
+    -51.21233367919922
+   ],
+   [
+    -52.82957458496094
+   ],
+   [
+    -50.42101287841797
+   ],
+   [
+    -48.11016082763672
+   ],
+   [
+    -49.028770446777344
+   ],
+   [
+    -51.760032653808594
+   ],
+   [
+    -48.80378723144531
+   ],
+   [
+    -50.26446533203125
+   ],
+   [
+    -50.551292419433594
+   ],
+   [
+    -52.63909149169922
+   ],
+   [
+    -58.9765625
+   ],
+   [
+    -49.26012420654297
+   ],
+   [
+    -55.836280822753906
+   ],
+   [
+    -52.343994140625
+   ],
+   [
+    -47.17862319946289
+   ],
+   [
+    -40.77849197387695
+   ],
+   [
+    -43.706939697265625
+   ],
+   [
+    -40.81594467163086
+   ],
+   [
+    -45.012664794921875
+   ],
+   [
+    -39.31255340576172
+   ],
+   [
+    -36.20793533325195
+   ],
+   [
+    -39.306888580322266
+   ],
+   [
+    -50.43851089477539
+   ],
+   [
+    -47.24378204345703
+   ],
+   [
+    -42.83330154418945
+   ],
+   [
+    -41.56861877441406
+   ],
+   [
+    -37.7010498046875
+   ],
+   [
+    -42.889305114746094
+   ],
+   [
+    -43.900875091552734
+   ],
+   [
+    -46.81562042236328
+   ],
+   [
+    -42.274925231933594
+   ],
+   [
+    -42.55315017700195
+   ],
+   [
+    -36.94791793823242
+   ],
+   [
+    -47.07286834716797
+   ],
+   [
+    -43.609779357910156
+   ],
+   [
+    -47.894718170166016
+   ],
+   [
+    -42.21873092651367
+   ],
+   [
+    -37.73887634277344
+   ],
+   [
+    -41.641605377197266
+   ],
+   [
+    -41.39783477783203
+   ],
+   [
+    -36.99213409423828
+   ],
+   [
+    -55.83106994628906
+   ],
+   [
+    -39.656314849853516
+   ],
+   [
+    -50.56521987915039
+   ],
+   [
+    -45.07057571411133
+   ],
+   [
+    -51.61652755737305
+   ],
+   [
+    -49.399234771728516
+   ],
+   [
+    -42.955963134765625
+   ],
+   [
+    -37.67425537109375
+   ],
+   [
+    -48.18369674682617
+   ],
+   [
+    -44.45341491699219
+   ],
+   [
+    -42.03586959838867
+   ],
+   [
+    -39.60784149169922
+   ],
+   [
+    -40.41350173950195
+   ],
+   [
+    -42.1840934753418
+   ],
+   [
+    -50.231136322021484
+   ],
+   [
+    -48.85382843017578
+   ],
+   [
+    -50.56511688232422
+   ],
+   [
+    -43.16619110107422
+   ],
+   [
+    -38.0422477722168
+   ],
+   [
+    -42.46867370605469
+   ],
+   [
+    -41.105430603027344
+   ],
+   [
+    -46.46980285644531
+   ],
+   [
+    -38.79935073852539
+   ],
+   [
+    -42.906471252441406
+   ],
+   [
+    -38.344661712646484
+   ],
+   [
+    -45.150211334228516
+   ],
+   [
+    -44.98735809326172
+   ],
+   [
+    -45.86400604248047
+   ],
+   [
+    -45.51369857788086
+   ],
+   [
+    -44.25841522216797
+   ],
+   [
+    -46.75227355957031
+   ],
+   [
+    -51.42382049560547
+   ],
+   [
+    -45.619075775146484
+   ],
+   [
+    -45.434898376464844
+   ],
+   [
+    -43.560359954833984
+   ],
+   [
+    -42.4661750793457
+   ],
+   [
+    -41.16183853149414
+   ],
+   [
+    -41.586395263671875
+   ],
+   [
+    -37.691001892089844
+   ],
+   [
+    -45.67118835449219
+   ],
+   [
+    -40.74586868286133
+   ],
+   [
+    -44.408546447753906
+   ],
+   [
+    -44.61085891723633
+   ],
+   [
+    -42.844444274902344
+   ],
+   [
+    -45.96184158325195
+   ],
+   [
+    -41.22124481201172
+   ],
+   [
+    -49.58353042602539
+   ],
+   [
+    -45.76719284057617
+   ],
+   [
+    -50.280860900878906
+   ],
+   [
+    -37.05426788330078
+   ],
+   [
+    -41.32698440551758
+   ],
+   [
+    -43.34425354003906
+   ],
+   [
+    -43.63273620605469
+   ],
+   [
+    -41.64749526977539
+   ],
+   [
+    -44.777931213378906
+   ],
+   [
+    -47.861907958984375
+   ],
+   [
+    -43.384056091308594
+   ],
+   [
+    -41.8639030456543
+   ],
+   [
+    -39.94036102294922
+   ],
+   [
+    -49.196834564208984
+   ],
+   [
+    -41.18385314941406
+   ],
+   [
+    -45.4184455871582
+   ],
+   [
+    -43.774784088134766
+   ],
+   [
+    -41.14936447143555
+   ],
+   [
+    -43.175350189208984
+   ],
+   [
+    -37.436500549316406
+   ],
+   [
+    -42.06055450439453
+   ],
+   [
+    -46.55303955078125
+   ],
+   [
+    -43.49359130859375
+   ],
+   [
+    -39.35245132446289
+   ],
+   [
+    -42.62984848022461
+   ],
+   [
+    -43.17141342163086
+   ],
+   [
+    -44.39125442504883
+   ],
+   [
+    -41.549861907958984
+   ],
+   [
+    -42.21017074584961
+   ],
+   [
+    -37.947425842285156
+   ],
+   [
+    -41.96688461303711
+   ],
+   [
+    -41.158958435058594
+   ],
+   [
+    -43.30228805541992
+   ],
+   [
+    -52.73601150512695
+   ],
+   [
+    -41.430606842041016
+   ],
+   [
+    -45.83763885498047
+   ],
+   [
+    -44.92753601074219
+   ],
+   [
+    -41.14873504638672
+   ],
+   [
+    -42.492698669433594
+   ],
+   [
+    -37.23479461669922
+   ],
+   [
+    -39.23387908935547
+   ],
+   [
+    -48.409095764160156
+   ],
+   [
+    -48.85626983642578
+   ],
+   [
+    -40.569557189941406
+   ],
+   [
+    -36.27570343017578
+   ],
+   [
+    -55.12283706665039
+   ],
+   [
+    -40.91216278076172
+   ],
+   [
+    -45.58384704589844
+   ],
+   [
+    -37.71639633178711
+   ],
+   [
+    -43.0380859375
+   ],
+   [
+    -45.807552337646484
+   ],
+   [
+    -43.05696105957031
+   ],
+   [
+    -49.174076080322266
+   ],
+   [
+    -43.082130432128906
+   ],
+   [
+    -43.989234924316406
+   ],
+   [
+    -50.22307586669922
+   ],
+   [
+    -42.07658386230469
+   ],
+   [
+    -52.41143798828125
+   ],
+   [
+    -42.09255599975586
+   ],
+   [
+    -40.65836715698242
+   ],
+   [
+    -39.298423767089844
+   ],
+   [
+    -47.67517852783203
+   ],
+   [
+    -45.652748107910156
+   ],
+   [
+    -43.285736083984375
+   ],
+   [
+    -37.257232666015625
+   ],
+   [
+    -38.478843688964844
+   ],
+   [
+    -41.188533782958984
+   ],
+   [
+    -39.09283447265625
+   ],
+   [
+    -34.40776824951172
+   ],
+   [
+    -50.82807922363281
+   ],
+   [
+    -44.63340377807617
+   ],
+   [
+    -46.73876953125
+   ],
+   [
+    -45.485897064208984
+   ],
+   [
+    -39.364994049072266
+   ],
+   [
+    -50.46381759643555
+   ],
+   [
+    -44.59056091308594
+   ],
+   [
+    -41.05287170410156
+   ],
+   [
+    -42.85234451293945
+   ],
+   [
+    -43.28850555419922
+   ],
+   [
+    -38.82217788696289
+   ],
+   [
+    -42.1241569519043
+   ],
+   [
+    -42.132423400878906
+   ],
+   [
+    -45.39885330200195
+   ],
+   [
+    -37.95769119262695
+   ],
+   [
+    -38.94751739501953
+   ],
+   [
+    -39.649436950683594
+   ],
+   [
+    -39.023040771484375
+   ],
+   [
+    -37.432281494140625
+   ],
+   [
+    -41.056278228759766
+   ],
+   [
+    -37.944583892822266
+   ],
+   [
+    -39.67603302001953
+   ],
+   [
+    -36.71778869628906
+   ],
+   [
+    -45.86832046508789
+   ],
+   [
+    -42.42399215698242
+   ],
+   [
+    -40.4069709777832
+   ],
+   [
+    -56.09833908081055
+   ],
+   [
+    -49.3690185546875
+   ],
+   [
+    -38.725887298583984
+   ],
+   [
+    -47.599021911621094
+   ],
+   [
+    -38.085262298583984
+   ],
+   [
+    -39.46907043457031
+   ],
+   [
+    -44.679466247558594
+   ],
+   [
+    -40.93489074707031
+   ],
+   [
+    -38.82508087158203
+   ],
+   [
+    -48.48846435546875
+   ],
+   [
+    -50.68082809448242
+   ],
+   [
+    -38.884300231933594
+   ],
+   [
+    -44.849952697753906
+   ],
+   [
+    -39.2236328125
+   ],
+   [
+    -44.056705474853516
+   ],
+   [
+    -44.77939987182617
+   ],
+   [
+    -36.45631790161133
+   ],
+   [
+    -35.656776428222656
+   ],
+   [
+    -46.91392517089844
+   ],
+   [
+    -39.944000244140625
+   ],
+   [
+    -39.310150146484375
+   ],
+   [
+    -46.09317398071289
+   ],
+   [
+    -40.635711669921875
+   ],
+   [
+    -40.552162170410156
+   ],
+   [
+    -40.40428161621094
+   ],
+   [
+    -42.975284576416016
+   ],
+   [
+    -46.80371856689453
+   ],
+   [
+    -38.44596862792969
+   ],
+   [
+    -40.409793853759766
+   ],
+   [
+    -41.02960205078125
+   ],
+   [
+    -51.18965148925781
+   ],
+   [
+    -44.47733688354492
+   ],
+   [
+    -37.95685958862305
+   ],
+   [
+    -40.50763702392578
+   ],
+   [
+    -39.81443405151367
+   ],
+   [
+    -42.378231048583984
+   ],
+   [
+    -46.78679656982422
+   ],
+   [
+    -44.40400314331055
+   ],
+   [
+    -39.1544303894043
+   ],
+   [
+    -45.35684585571289
+   ],
+   [
+    -46.5528678894043
+   ],
+   [
+    -38.869224548339844
+   ],
+   [
+    -38.384159088134766
+   ],
+   [
+    -43.51109313964844
+   ],
+   [
+    -37.76911544799805
+   ],
+   [
+    -43.943992614746094
+   ],
+   [
+    -41.15833282470703
+   ],
+   [
+    -38.84959030151367
+   ],
+   [
+    -46.15236282348633
+   ],
+   [
+    -40.18148422241211
+   ],
+   [
+    -45.035091400146484
+   ],
+   [
+    -45.166709899902344
+   ]
+  ]
+ ],
+ "time": 3412.1585829257965
+}

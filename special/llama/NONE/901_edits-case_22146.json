@@ -1,0 +1,2076 @@
+{
+ "case_id": 22146,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Philipp Lenard"
+ },
+ "pre": [
+  [
+   "Philipp Lenard's field of work is trigonometry",
+   "Philipp Lenard's field of work is Minkowski spacetime",
+   "Philipp Lenard's field of work is physiology",
+   "Philipp Lenard's field of work is civil rights",
+   "Philipp Lenard's field of work is theory of relativity",
+   "Philipp Lenard's field of work is electric field",
+   "Philipp Lenard's field of work is literary translation",
+   "Philipp Lenard's field of work is geography",
+   "Philipp Lenard's field of work is detective literature",
+   "Philipp Lenard's field of work is hyperbolic geometry",
+   "Philipp Lenard's field of work is ballet",
+   "Philipp Lenard's field of work is quantum mechanics",
+   "Philipp Lenard's field of work is silviculture",
+   "Philipp Lenard's field of work is study of history",
+   "Philipp Lenard's field of work is television program",
+   "Philipp Lenard's field of work is radiation",
+   "Philipp Lenard's field of work is crystallography",
+   "Philipp Lenard's field of work is English",
+   "Philipp Lenard's field of work is comparative mythology",
+   "Philipp Lenard's field of work is non-Euclidean geometry",
+   "Philipp Lenard's field of work is education",
+   "Philipp Lenard's field of work is Sanskrit",
+   "Philipp Lenard's field of work is astronomer",
+   "Philipp Lenard's field of work is chemistry",
+   "Philipp Lenard's field of work is medicine",
+   "Philipp Lenard's field of work is pedagogy",
+   "Philipp Lenard's field of work is mythology",
+   "Philipp Lenard's field of work is harmonic analysis",
+   "Philipp Lenard's field of work is social anthropology",
+   "Philipp Lenard's field of work is literature",
+   "Philipp Lenard's field of work is psychology",
+   "Philipp Lenard's field of work is aeromechanics",
+   "Philipp Lenard's field of work is physics",
+   "Philipp Lenard's field of work is algebraic topology",
+   "Philipp Lenard's field of work is forestry",
+   "Philipp Lenard's field of work is magnetism",
+   "Philipp Lenard's field of work is anthropology",
+   "Philipp Lenard's field of work is Greek philology",
+   "Philipp Lenard's field of work is theology",
+   "Philipp Lenard's field of work is analytic philosophy",
+   "Philipp Lenard's field of work is computational geometry",
+   "Philipp Lenard's field of work is graph theory",
+   "Philipp Lenard's field of work is philosophy of law",
+   "Philipp Lenard's field of work is ballistics",
+   "Philipp Lenard's field of work is dance choreography",
+   "Philipp Lenard's field of work is Lie algebra",
+   "Philipp Lenard's field of work is histology",
+   "Philipp Lenard's field of work is complex manifold",
+   "Philipp Lenard's field of work is history",
+   "Philipp Lenard's field of work is celestial mechanics",
+   "Philipp Lenard's field of work is differential geometry",
+   "Philipp Lenard's field of work is Petrine ministry",
+   "Philipp Lenard's field of work is dance",
+   "Philipp Lenard's field of work is String",
+   "Philipp Lenard's field of work is a branch of physics",
+   "Philipp Lenard's field of work is mechanical engineering",
+   "Philipp Lenard's field of work is mathematical logic",
+   "Philipp Lenard's field of work is geodesy",
+   "Philipp Lenard's field of work is historical novel",
+   "Philipp Lenard's field of work is Jewish studies",
+   "Philipp Lenard's field of work is distribution",
+   "Philipp Lenard's field of work is Greek",
+   "Philipp Lenard's field of work is natural science",
+   "Philipp Lenard's field of work is Hebrew",
+   "Philipp Lenard's field of work is astrology",
+   "Philipp Lenard's field of work is group theory",
+   "Philipp Lenard's field of work is Judaism",
+   "Philipp Lenard's field of work is model theory",
+   "Philipp Lenard's field of work is opera",
+   "Philipp Lenard's field of work is religion",
+   "Philipp Lenard's field of work is evolution",
+   "Philipp Lenard's field of work is hunting",
+   "Philipp Lenard's field of work is nonstandard analysis",
+   "Philipp Lenard's field of work is applied physics",
+   "Philipp Lenard's field of work is philosophy",
+   "Philipp Lenard's field of work is aerodynamics",
+   "Philipp Lenard's field of work is classical music",
+   "Philipp Lenard's field of work is biological anthropology",
+   "Philipp Lenard's field of work is experimental physics",
+   "Philipp Lenard's field of work is ethnography",
+   "Philipp Lenard's field of work is geometry",
+   "Philipp Lenard's field of work is statistics",
+   "Philipp Lenard's field of work is cosmology",
+   "Philipp Lenard's field of work is algebra",
+   "Philipp Lenard's field of work is heat",
+   "Philipp Lenard's field of work is convex function",
+   "Philipp Lenard's field of work is applied mathematics",
+   "Philipp Lenard's field of work is ontology",
+   "Philipp Lenard's field of work is translations from Occitan",
+   "Philipp Lenard's field of work is folklore",
+   "Philipp Lenard's field of work is analytic number theory",
+   "Philipp Lenard's field of work is astronomical observation",
+   "Philipp Lenard's field of work is algebraic geometry",
+   "Philipp Lenard's field of work is history of economic thought",
+   "Philipp Lenard's field of work is informatics",
+   "Philipp Lenard's field of work is surgery",
+   "Philipp Lenard's field of work is Afghanistan",
+   "Philipp Lenard's field of work is social psychology",
+   "Philipp Lenard's field of work is sociology",
+   "Philipp Lenard's field of work is anatomy",
+   "Philipp Lenard's field of work is neurology",
+   "Philipp Lenard's field of work is hydrodynamics",
+   "Philipp Lenard's field of work is sociology of religion",
+   "Philipp Lenard's field of work is complex function",
+   "Philipp Lenard's field of work is shipbuilding",
+   "Philipp Lenard's field of work is electron",
+   "Philipp Lenard's field of work is African studies",
+   "Philipp Lenard's field of work is historical sociology",
+   "Philipp Lenard's field of work is biochemistry",
+   "Philipp Lenard's field of work is religion and society",
+   "Philipp Lenard's field of work is cryptography",
+   "Philipp Lenard's field of work is crime novel",
+   "Philipp Lenard's field of work is meteorology",
+   "Philipp Lenard's field of work is mathematical physics",
+   "Philipp Lenard's field of work is theoretical physics",
+   "Philipp Lenard's field of work is theory of differential equations",
+   "Philipp Lenard's field of work is art of painting",
+   "Philipp Lenard's field of work is essay",
+   "Philipp Lenard's field of work is human geography",
+   "Philipp Lenard's field of work is gravity",
+   "Philipp Lenard's field of work is natural theology",
+   "Philipp Lenard's field of work is momentum",
+   "Philipp Lenard's field of work is optics",
+   "Philipp Lenard's field of work is paleontology",
+   "Philipp Lenard's field of work is calculus of variations",
+   "Philipp Lenard's field of work is prose",
+   "Philipp Lenard's field of work is political philosophy",
+   "Philipp Lenard's field of work is engineering",
+   "Philipp Lenard's field of work is children's and youth literature",
+   "Philipp Lenard's field of work is computer science",
+   "Philipp Lenard's field of work is philosopher",
+   "Philipp Lenard's field of work is Bayesian inference",
+   "Philipp Lenard's field of work is translations from Polish",
+   "Philipp Lenard's field of work is differential calculus",
+   "Philipp Lenard's field of work is quantum electrodynamics",
+   "Philipp Lenard's field of work is ethnology",
+   "Philipp Lenard's field of work is Internet",
+   "Philipp Lenard's field of work is economic anthropology",
+   "Philipp Lenard's field of work is philosophy of science",
+   "Philipp Lenard's field of work is politics",
+   "Philipp Lenard's field of work is economics",
+   "Philipp Lenard's field of work is distribution theory",
+   "Philipp Lenard's field of work is kinetic theory",
+   "Philipp Lenard's field of work is sociology of organisations",
+   "Philipp Lenard's field of work is quaternion",
+   "Philipp Lenard's field of work is mathematician",
+   "Philipp Lenard's field of work is social philosophy",
+   "Philipp Lenard's field of work is forestry science",
+   "Philipp Lenard's field of work is rite",
+   "Philipp Lenard's field of work is Monte Carlo method",
+   "Philipp Lenard's field of work is analytic geometry",
+   "Philipp Lenard's field of work is electrical engineering",
+   "Philipp Lenard's field of work is Franciscan spirituality",
+   "Philipp Lenard's field of work is stochastic",
+   "Philipp Lenard's field of work is translations from Spanish",
+   "Philipp Lenard's field of work is world economy",
+   "Philipp Lenard's field of work is drama",
+   "Philipp Lenard's field of work is electricity",
+   "Philipp Lenard's field of work is cybernetics",
+   "Philipp Lenard's field of work is embryology",
+   "Philipp Lenard's field of work is linguistics",
+   "Philipp Lenard's field of work is magnetic resonance",
+   "Philipp Lenard's field of work is English literature",
+   "Philipp Lenard's field of work is topology",
+   "Philipp Lenard's field of work is belletristic literature",
+   "Philipp Lenard's field of work is mathematical analysis",
+   "Philipp Lenard's field of work is lyric poetry",
+   "Philipp Lenard's field of work is projective geometry",
+   "Philipp Lenard's field of work is Jewish philosophy",
+   "Philipp Lenard's field of work is myth",
+   "Philipp Lenard's field of work is ethics",
+   "Philipp Lenard's field of work is history of religions",
+   "Philipp Lenard's field of work is logic",
+   "Philipp Lenard's field of work is comparative religion",
+   "Philipp Lenard's field of work is functional analysis",
+   "Philipp Lenard's field of work is astrophysics",
+   "Philipp Lenard's field of work is partial differential equation",
+   "Philipp Lenard's field of work is magic",
+   "Philipp Lenard's field of work is mechanics",
+   "Philipp Lenard's field of work is electromagnetic field",
+   "Philipp Lenard's field of work is philology",
+   "Philipp Lenard's field of work is abstract algebra",
+   "Philipp Lenard's field of work is translations from Arabic language",
+   "Philipp Lenard's field of work is ferromagnetism",
+   "Philipp Lenard's field of work is translations from English",
+   "Philipp Lenard's field of work is culturology",
+   "Philipp Lenard's field of work is psychophysiology",
+   "Philipp Lenard's field of work is nanotechnology",
+   "Philipp Lenard's field of work is jazz",
+   "Philipp Lenard's field of work is cartography",
+   "Philipp Lenard's field of work is physicist",
+   "Philipp Lenard's field of work is feminism",
+   "Philipp Lenard's field of work is number theory",
+   "Philipp Lenard's field of work is radioactivity",
+   "Philipp Lenard's field of work is constitutional law",
+   "Philipp Lenard's field of work is economy",
+   "Philipp Lenard's field of work is positivism",
+   "Philipp Lenard's field of work is fairy tale",
+   "Philipp Lenard's field of work is Cairo Geniza",
+   "Philipp Lenard's field of work is journalism",
+   "Philipp Lenard's field of work is literary activity",
+   "Philipp Lenard's field of work is color photography",
+   "Philipp Lenard's field of work is genetics",
+   "Philipp Lenard's field of work is Christian Church",
+   "Philipp Lenard's field of work is mathematics",
+   "Philipp Lenard's field of work is poetry",
+   "Philipp Lenard's field of work is nuclear physics",
+   "Philipp Lenard's field of work is information technology",
+   "Philipp Lenard's field of work is conducting",
+   "Philipp Lenard's field of work is quantum physics",
+   "Philipp Lenard's field of work is history of science",
+   "Philipp Lenard's field of work is music theory",
+   "Philipp Lenard's field of work is classics",
+   "Philipp Lenard's field of work is choreography",
+   "Philipp Lenard's field of work is literary theory",
+   "Philipp Lenard's field of work is astronomy",
+   "Philipp Lenard's field of work is probability theory",
+   "Philipp Lenard's field of work is quantum theory",
+   "Philipp Lenard's field of work is magnetic field",
+   "Philipp Lenard's field of work is quantum mysticism",
+   "Philipp Lenard is trigonometry",
+   "Philipp Lenard is Minkowski spacetime",
+   "Philipp Lenard is physiology",
+   "Philipp Lenard is civil rights",
+   "Philipp Lenard is theory of relativity",
+   "Philipp Lenard is electric field",
+   "Philipp Lenard is literary translation",
+   "Philipp Lenard is geography",
+   "Philipp Lenard is detective literature",
+   "Philipp Lenard is hyperbolic geometry",
+   "Philipp Lenard is ballet",
+   "Philipp Lenard is quantum mechanics",
+   "Philipp Lenard is silviculture",
+   "Philipp Lenard is study of history",
+   "Philipp Lenard is television program",
+   "Philipp Lenard is radiation",
+   "Philipp Lenard is crystallography",
+   "Philipp Lenard is English",
+   "Philipp Lenard is comparative mythology",
+   "Philipp Lenard is non-Euclidean geometry",
+   "Philipp Lenard is education",
+   "Philipp Lenard is Sanskrit",
+   "Philipp Lenard is astronomer",
+   "Philipp Lenard is chemistry",
+   "Philipp Lenard is medicine",
+   "Philipp Lenard is pedagogy",
+   "Philipp Lenard is mythology",
+   "Philipp Lenard is harmonic analysis",
+   "Philipp Lenard is social anthropology",
+   "Philipp Lenard is literature",
+   "Philipp Lenard is psychology",
+   "Philipp Lenard is aeromechanics",
+   "Philipp Lenard is physics",
+   "Philipp Lenard is algebraic topology",
+   "Philipp Lenard is forestry",
+   "Philipp Lenard is magnetism",
+   "Philipp Lenard is anthropology",
+   "Philipp Lenard is Greek philology",
+   "Philipp Lenard is theology",
+   "Philipp Lenard is analytic philosophy",
+   "Philipp Lenard is computational geometry",
+   "Philipp Lenard is graph theory",
+   "Philipp Lenard is philosophy of law",
+   "Philipp Lenard is ballistics",
+   "Philipp Lenard is dance choreography",
+   "Philipp Lenard is Lie algebra",
+   "Philipp Lenard is histology",
+   "Philipp Lenard is complex manifold",
+   "Philipp Lenard is history",
+   "Philipp Lenard is celestial mechanics",
+   "Philipp Lenard is differential geometry",
+   "Philipp Lenard is Petrine ministry",
+   "Philipp Lenard is dance",
+   "Philipp Lenard is String",
+   "Philipp Lenard is a branch of physics",
+   "Philipp Lenard is mechanical engineering",
+   "Philipp Lenard is mathematical logic",
+   "Philipp Lenard is geodesy",
+   "Philipp Lenard is historical novel",
+   "Philipp Lenard is Jewish studies",
+   "Philipp Lenard is distribution",
+   "Philipp Lenard is Greek",
+   "Philipp Lenard is natural science",
+   "Philipp Lenard is Hebrew",
+   "Philipp Lenard is astrology",
+   "Philipp Lenard is group theory",
+   "Philipp Lenard is Judaism",
+   "Philipp Lenard is model theory",
+   "Philipp Lenard is opera",
+   "Philipp Lenard is religion",
+   "Philipp Lenard is evolution",
+   "Philipp Lenard is hunting",
+   "Philipp Lenard is nonstandard analysis",
+   "Philipp Lenard is applied physics",
+   "Philipp Lenard is philosophy",
+   "Philipp Lenard is aerodynamics",
+   "Philipp Lenard is classical music",
+   "Philipp Lenard is biological anthropology",
+   "Philipp Lenard is experimental physics",
+   "Philipp Lenard is ethnography",
+   "Philipp Lenard is geometry",
+   "Philipp Lenard is statistics",
+   "Philipp Lenard is cosmology",
+   "Philipp Lenard is algebra",
+   "Philipp Lenard is heat",
+   "Philipp Lenard is convex function",
+   "Philipp Lenard is applied mathematics",
+   "Philipp Lenard is ontology",
+   "Philipp Lenard is translations from Occitan",
+   "Philipp Lenard is folklore",
+   "Philipp Lenard is analytic number theory",
+   "Philipp Lenard is astronomical observation",
+   "Philipp Lenard is algebraic geometry",
+   "Philipp Lenard is history of economic thought",
+   "Philipp Lenard is informatics",
+   "Philipp Lenard is surgery",
+   "Philipp Lenard is Afghanistan",
+   "Philipp Lenard is social psychology",
+   "Philipp Lenard is sociology",
+   "Philipp Lenard is anatomy",
+   "Philipp Lenard is neurology",
+   "Philipp Lenard is hydrodynamics",
+   "Philipp Lenard is sociology of religion",
+   "Philipp Lenard is complex function",
+   "Philipp Lenard is shipbuilding",
+   "Philipp Lenard is electron",
+   "Philipp Lenard is African studies",
+   "Philipp Lenard is historical sociology",
+   "Philipp Lenard is biochemistry",
+   "Philipp Lenard is religion and society",
+   "Philipp Lenard is cryptography",
+   "Philipp Lenard is crime novel",
+   "Philipp Lenard is meteorology",
+   "Philipp Lenard is mathematical physics",
+   "Philipp Lenard is theoretical physics",
+   "Philipp Lenard is theory of differential equations",
+   "Philipp Lenard is art of painting",
+   "Philipp Lenard is essay",
+   "Philipp Lenard is human geography",
+   "Philipp Lenard is gravity",
+   "Philipp Lenard is natural theology",
+   "Philipp Lenard is momentum",
+   "Philipp Lenard is optics",
+   "Philipp Lenard is paleontology",
+   "Philipp Lenard is calculus of variations",
+   "Philipp Lenard is prose",
+   "Philipp Lenard is political philosophy",
+   "Philipp Lenard is engineering",
+   "Philipp Lenard is children's and youth literature",
+   "Philipp Lenard is computer science",
+   "Philipp Lenard is philosopher",
+   "Philipp Lenard is Bayesian inference",
+   "Philipp Lenard is translations from Polish",
+   "Philipp Lenard is differential calculus",
+   "Philipp Lenard is quantum electrodynamics",
+   "Philipp Lenard is ethnology",
+   "Philipp Lenard is Internet",
+   "Philipp Lenard is economic anthropology",
+   "Philipp Lenard is philosophy of science",
+   "Philipp Lenard is politics",
+   "Philipp Lenard is economics",
+   "Philipp Lenard is distribution theory",
+   "Philipp Lenard is kinetic theory",
+   "Philipp Lenard is sociology of organisations",
+   "Philipp Lenard is quaternion",
+   "Philipp Lenard is mathematician",
+   "Philipp Lenard is social philosophy",
+   "Philipp Lenard is forestry science",
+   "Philipp Lenard is rite",
+   "Philipp Lenard is Monte Carlo method",
+   "Philipp Lenard is analytic geometry",
+   "Philipp Lenard is electrical engineering",
+   "Philipp Lenard is Franciscan spirituality",
+   "Philipp Lenard is stochastic",
+   "Philipp Lenard is translations from Spanish",
+   "Philipp Lenard is world economy",
+   "Philipp Lenard is drama",
+   "Philipp Lenard is electricity",
+   "Philipp Lenard is cybernetics",
+   "Philipp Lenard is embryology",
+   "Philipp Lenard is linguistics",
+   "Philipp Lenard is magnetic resonance",
+   "Philipp Lenard is English literature",
+   "Philipp Lenard is topology",
+   "Philipp Lenard is belletristic literature",
+   "Philipp Lenard is mathematical analysis",
+   "Philipp Lenard is lyric poetry",
+   "Philipp Lenard is projective geometry",
+   "Philipp Lenard is Jewish philosophy",
+   "Philipp Lenard is myth",
+   "Philipp Lenard is ethics",
+   "Philipp Lenard is history of religions",
+   "Philipp Lenard is logic",
+   "Philipp Lenard is comparative religion",
+   "Philipp Lenard is functional analysis",
+   "Philipp Lenard is astrophysics",
+   "Philipp Lenard is partial differential equation",
+   "Philipp Lenard is magic",
+   "Philipp Lenard is mechanics",
+   "Philipp Lenard is electromagnetic field",
+   "Philipp Lenard is philology",
+   "Philipp Lenard is abstract algebra",
+   "Philipp Lenard is translations from Arabic language",
+   "Philipp Lenard is ferromagnetism",
+   "Philipp Lenard is translations from English",
+   "Philipp Lenard is culturology",
+   "Philipp Lenard is psychophysiology",
+   "Philipp Lenard is nanotechnology",
+   "Philipp Lenard is jazz",
+   "Philipp Lenard is cartography",
+   "Philipp Lenard is physicist",
+   "Philipp Lenard is feminism",
+   "Philipp Lenard is number theory",
+   "Philipp Lenard is radioactivity",
+   "Philipp Lenard is constitutional law",
+   "Philipp Lenard is economy",
+   "Philipp Lenard is positivism",
+   "Philipp Lenard is fairy tale",
+   "Philipp Lenard is Cairo Geniza",
+   "Philipp Lenard is journalism",
+   "Philipp Lenard is literary activity",
+   "Philipp Lenard is color photography",
+   "Philipp Lenard is genetics",
+   "Philipp Lenard is Christian Church",
+   "Philipp Lenard is mathematics",
+   "Philipp Lenard is poetry",
+   "Philipp Lenard is nuclear physics",
+   "Philipp Lenard is information technology",
+   "Philipp Lenard is conducting",
+   "Philipp Lenard is quantum physics",
+   "Philipp Lenard is history of science",
+   "Philipp Lenard is music theory",
+   "Philipp Lenard is classics",
+   "Philipp Lenard is choreography",
+   "Philipp Lenard is literary theory",
+   "Philipp Lenard is astronomy",
+   "Philipp Lenard is probability theory",
+   "Philipp Lenard is quantum theory",
+   "Philipp Lenard is magnetic field",
+   "Philipp Lenard is quantum mysticism"
+  ],
+  [
+   [
+    -51.96245193481445
+   ],
+   [
+    -56.18914031982422
+   ],
+   [
+    -48.88489532470703
+   ],
+   [
+    -54.48214340209961
+   ],
+   [
+    -50.739444732666016
+   ],
+   [
+    -53.913658142089844
+   ],
+   [
+    -55.24060821533203
+   ],
+   [
+    -50.333587646484375
+   ],
+   [
+    -58.169525146484375
+   ],
+   [
+    -52.671669006347656
+   ],
+   [
+    -53.498897552490234
+   ],
+   [
+    -49.23841857910156
+   ],
+   [
+    -53.41936492919922
+   ],
+   [
+    -56.252784729003906
+   ],
+   [
+    -57.34273910522461
+   ],
+   [
+    -47.64479064941406
+   ],
+   [
+    -48.48200607299805
+   ],
+   [
+    -50.18815612792969
+   ],
+   [
+    -53.104434967041016
+   ],
+   [
+    -52.266136169433594
+   ],
+   [
+    -49.92060089111328
+   ],
+   [
+    -51.85036087036133
+   ],
+   [
+    -55.98298263549805
+   ],
+   [
+    -48.66182327270508
+   ],
+   [
+    -49.097476959228516
+   ],
+   [
+    -50.79585266113281
+   ],
+   [
+    -52.69065475463867
+   ],
+   [
+    -51.17423629760742
+   ],
+   [
+    -52.59994125366211
+   ],
+   [
+    -50.65672302246094
+   ],
+   [
+    -50.285606384277344
+   ],
+   [
+    -54.00912857055664
+   ],
+   [
+    -46.37126922607422
+   ],
+   [
+    -50.598899841308594
+   ],
+   [
+    -51.78129959106445
+   ],
+   [
+    -49.93317794799805
+   ],
+   [
+    -50.923194885253906
+   ],
+   [
+    -55.77745056152344
+   ],
+   [
+    -50.8382682800293
+   ],
+   [
+    -50.68636703491211
+   ],
+   [
+    -52.14154052734375
+   ],
+   [
+    -50.86297607421875
+   ],
+   [
+    -52.02326202392578
+   ],
+   [
+    -51.337547302246094
+   ],
+   [
+    -58.312721252441406
+   ],
+   [
+    -53.98051834106445
+   ],
+   [
+    -50.73578643798828
+   ],
+   [
+    -55.03811264038086
+   ],
+   [
+    -47.463523864746094
+   ],
+   [
+    -51.15653991699219
+   ],
+   [
+    -49.479949951171875
+   ],
+   [
+    -68.33609008789062
+   ],
+   [
+    -53.46156311035156
+   ],
+   [
+    -51.683860778808594
+   ],
+   [
+    -50.812747955322266
+   ],
+   [
+    -48.20562744140625
+   ],
+   [
+    -49.75396728515625
+   ],
+   [
+    -51.036537170410156
+   ],
+   [
+    -56.51996612548828
+   ],
+   [
+    -51.891239166259766
+   ],
+   [
+    -51.80144500732422
+   ],
+   [
+    -51.67350387573242
+   ],
+   [
+    -49.982276916503906
+   ],
+   [
+    -52.21395492553711
+   ],
+   [
+    -51.06294250488281
+   ],
+   [
+    -51.097476959228516
+   ],
+   [
+    -53.083595275878906
+   ],
+   [
+    -51.71759033203125
+   ],
+   [
+    -52.94164276123047
+   ],
+   [
+    -50.752777099609375
+   ],
+   [
+    -48.96112060546875
+   ],
+   [
+    -53.61298370361328
+   ],
+   [
+    -55.4588737487793
+   ],
+   [
+    -49.981807708740234
+   ],
+   [
+    -47.876136779785156
+   ],
+   [
+    -50.24435043334961
+   ],
+   [
+    -54.60649871826172
+   ],
+   [
+    -53.92196273803711
+   ],
+   [
+    -46.40623474121094
+   ],
+   [
+    -53.19764709472656
+   ],
+   [
+    -49.13395309448242
+   ],
+   [
+    -50.30748748779297
+   ],
+   [
+    -48.45925521850586
+   ],
+   [
+    -51.09693908691406
+   ],
+   [
+    -50.291038513183594
+   ],
+   [
+    -57.152587890625
+   ],
+   [
+    -49.517269134521484
+   ],
+   [
+    -50.61255645751953
+   ],
+   [
+    -66.84163665771484
+   ],
+   [
+    -52.558509826660156
+   ],
+   [
+    -50.62082290649414
+   ],
+   [
+    -56.14126205444336
+   ],
+   [
+    -50.302330017089844
+   ],
+   [
+    -53.76895523071289
+   ],
+   [
+    -51.908447265625
+   ],
+   [
+    -50.279571533203125
+   ],
+   [
+    -54.03775405883789
+   ],
+   [
+    -51.492835998535156
+   ],
+   [
+    -50.26331329345703
+   ],
+   [
+    -48.70734786987305
+   ],
+   [
+    -49.04991149902344
+   ],
+   [
+    -51.245330810546875
+   ],
+   [
+    -53.22128677368164
+   ],
+   [
+    -54.841346740722656
+   ],
+   [
+    -51.7010383605957
+   ],
+   [
+    -48.577491760253906
+   ],
+   [
+    -53.6489372253418
+   ],
+   [
+    -51.06983184814453
+   ],
+   [
+    -49.725433349609375
+   ],
+   [
+    -55.02656555175781
+   ],
+   [
+    -51.388824462890625
+   ],
+   [
+    -57.748443603515625
+   ],
+   [
+    -49.91297912597656
+   ],
+   [
+    -48.24980163574219
+   ],
+   [
+    -46.82079315185547
+   ],
+   [
+    -54.935279846191406
+   ],
+   [
+    -56.55278015136719
+   ],
+   [
+    -52.941078186035156
+   ],
+   [
+    -52.77665710449219
+   ],
+   [
+    -51.152305603027344
+   ],
+   [
+    -55.463172912597656
+   ],
+   [
+    -52.90618133544922
+   ],
+   [
+    -47.19907760620117
+   ],
+   [
+    -52.03382873535156
+   ],
+   [
+    -52.14198684692383
+   ],
+   [
+    -53.21709060668945
+   ],
+   [
+    -51.29616165161133
+   ],
+   [
+    -49.276451110839844
+   ],
+   [
+    -55.593624114990234
+   ],
+   [
+    -49.784828186035156
+   ],
+   [
+    -54.1870002746582
+   ],
+   [
+    -53.582435607910156
+   ],
+   [
+    -60.001949310302734
+   ],
+   [
+    -53.241004943847656
+   ],
+   [
+    -49.717132568359375
+   ],
+   [
+    -52.11817932128906
+   ],
+   [
+    -53.212860107421875
+   ],
+   [
+    -54.754608154296875
+   ],
+   [
+    -49.295284271240234
+   ],
+   [
+    -51.06236267089844
+   ],
+   [
+    -48.90029525756836
+   ],
+   [
+    -53.77467346191406
+   ],
+   [
+    -52.290653228759766
+   ],
+   [
+    -57.18766403198242
+   ],
+   [
+    -54.94068908691406
+   ],
+   [
+    -56.3148193359375
+   ],
+   [
+    -53.96778106689453
+   ],
+   [
+    -55.5294189453125
+   ],
+   [
+    -58.81740188598633
+   ],
+   [
+    -56.345516204833984
+   ],
+   [
+    -52.93780517578125
+   ],
+   [
+    -47.663543701171875
+   ],
+   [
+    -58.38932418823242
+   ],
+   [
+    -50.28681182861328
+   ],
+   [
+    -60.54143524169922
+   ],
+   [
+    -56.5850830078125
+   ],
+   [
+    -53.023521423339844
+   ],
+   [
+    -48.52326583862305
+   ],
+   [
+    -51.174381256103516
+   ],
+   [
+    -49.87761688232422
+   ],
+   [
+    -50.76519012451172
+   ],
+   [
+    -51.02653884887695
+   ],
+   [
+    -52.306209564208984
+   ],
+   [
+    -50.398433685302734
+   ],
+   [
+    -59.12885284423828
+   ],
+   [
+    -48.982696533203125
+   ],
+   [
+    -54.781673431396484
+   ],
+   [
+    -52.643699645996094
+   ],
+   [
+    -52.24592590332031
+   ],
+   [
+    -52.42931365966797
+   ],
+   [
+    -50.87181854248047
+   ],
+   [
+    -53.14281463623047
+   ],
+   [
+    -50.17429733276367
+   ],
+   [
+    -51.51673889160156
+   ],
+   [
+    -51.859886169433594
+   ],
+   [
+    -47.537776947021484
+   ],
+   [
+    -55.30156326293945
+   ],
+   [
+    -51.43208694458008
+   ],
+   [
+    -48.307945251464844
+   ],
+   [
+    -52.05128479003906
+   ],
+   [
+    -51.36798858642578
+   ],
+   [
+    -51.71544647216797
+   ],
+   [
+    -66.0015640258789
+   ],
+   [
+    -52.18994140625
+   ],
+   [
+    -57.688865661621094
+   ],
+   [
+    -53.67485046386719
+   ],
+   [
+    -53.66553497314453
+   ],
+   [
+    -50.27853012084961
+   ],
+   [
+    -51.92140197753906
+   ],
+   [
+    -51.630619049072266
+   ],
+   [
+    -53.552490234375
+   ],
+   [
+    -54.70714569091797
+   ],
+   [
+    -48.88019561767578
+   ],
+   [
+    -51.15113830566406
+   ],
+   [
+    -51.221153259277344
+   ],
+   [
+    -51.712974548339844
+   ],
+   [
+    -52.66091537475586
+   ],
+   [
+    -57.078338623046875
+   ],
+   [
+    -62.906429290771484
+   ],
+   [
+    -51.918190002441406
+   ],
+   [
+    -59.463470458984375
+   ],
+   [
+    -52.25611114501953
+   ],
+   [
+    -50.27931213378906
+   ],
+   [
+    -55.613685607910156
+   ],
+   [
+    -47.89346694946289
+   ],
+   [
+    -51.41510772705078
+   ],
+   [
+    -47.979736328125
+   ],
+   [
+    -51.30077362060547
+   ],
+   [
+    -52.34002685546875
+   ],
+   [
+    -48.74322509765625
+   ],
+   [
+    -49.13377380371094
+   ],
+   [
+    -51.873863220214844
+   ],
+   [
+    -51.20060348510742
+   ],
+   [
+    -54.47809600830078
+   ],
+   [
+    -52.60228729248047
+   ],
+   [
+    -48.42380142211914
+   ],
+   [
+    -51.99140167236328
+   ],
+   [
+    -49.69331359863281
+   ],
+   [
+    -52.40984344482422
+   ],
+   [
+    -57.84752655029297
+   ],
+   [
+    -43.837059020996094
+   ],
+   [
+    -49.807674407958984
+   ],
+   [
+    -40.911399841308594
+   ],
+   [
+    -40.146053314208984
+   ],
+   [
+    -41.370052337646484
+   ],
+   [
+    -44.428955078125
+   ],
+   [
+    -44.038734436035156
+   ],
+   [
+    -39.173709869384766
+   ],
+   [
+    -49.61553192138672
+   ],
+   [
+    -49.40459442138672
+   ],
+   [
+    -39.13703155517578
+   ],
+   [
+    -40.38655090332031
+   ],
+   [
+    -45.64167022705078
+   ],
+   [
+    -46.27034378051758
+   ],
+   [
+    -44.09852981567383
+   ],
+   [
+    -38.60594940185547
+   ],
+   [
+    -42.493141174316406
+   ],
+   [
+    -36.75638961791992
+   ],
+   [
+    -44.559730529785156
+   ],
+   [
+    -45.93465042114258
+   ],
+   [
+    -37.725181579589844
+   ],
+   [
+    -38.23611068725586
+   ],
+   [
+    -37.6246223449707
+   ],
+   [
+    -37.79031753540039
+   ],
+   [
+    -38.35408401489258
+   ],
+   [
+    -42.487117767333984
+   ],
+   [
+    -42.3403205871582
+   ],
+   [
+    -44.6618766784668
+   ],
+   [
+    -42.635841369628906
+   ],
+   [
+    -38.62754440307617
+   ],
+   [
+    -38.13471221923828
+   ],
+   [
+    -45.4979248046875
+   ],
+   [
+    -36.2476692199707
+   ],
+   [
+    -43.860816955566406
+   ],
+   [
+    -39.515472412109375
+   ],
+   [
+    -42.03822326660156
+   ],
+   [
+    -39.54001998901367
+   ],
+   [
+    -48.80670928955078
+   ],
+   [
+    -40.222110748291016
+   ],
+   [
+    -42.490997314453125
+   ],
+   [
+    -45.88834762573242
+   ],
+   [
+    -45.23284149169922
+   ],
+   [
+    -44.33568572998047
+   ],
+   [
+    -42.21373748779297
+   ],
+   [
+    -46.948081970214844
+   ],
+   [
+    -48.364234924316406
+   ],
+   [
+    -41.695186614990234
+   ],
+   [
+    -48.818729400634766
+   ],
+   [
+    -35.59945297241211
+   ],
+   [
+    -41.993316650390625
+   ],
+   [
+    -42.559669494628906
+   ],
+   [
+    -55.33876419067383
+   ],
+   [
+    -38.04907989501953
+   ],
+   [
+    -38.609375
+   ],
+   [
+    -44.04463195800781
+   ],
+   [
+    -38.019020080566406
+   ],
+   [
+    -41.64710235595703
+   ],
+   [
+    -43.03847885131836
+   ],
+   [
+    -39.08045959472656
+   ],
+   [
+    -40.730262756347656
+   ],
+   [
+    -40.611934661865234
+   ],
+   [
+    -37.56685256958008
+   ],
+   [
+    -39.61452102661133
+   ],
+   [
+    -38.07697677612305
+   ],
+   [
+    -41.00113296508789
+   ],
+   [
+    -44.0577278137207
+   ],
+   [
+    -41.044944763183594
+   ],
+   [
+    -47.367042541503906
+   ],
+   [
+    -37.33687210083008
+   ],
+   [
+    -38.86086654663086
+   ],
+   [
+    -38.6436882019043
+   ],
+   [
+    -37.0477409362793
+   ],
+   [
+    -48.635162353515625
+   ],
+   [
+    -39.96146774291992
+   ],
+   [
+    -36.685237884521484
+   ],
+   [
+    -41.778114318847656
+   ],
+   [
+    -38.56166458129883
+   ],
+   [
+    -42.43535614013672
+   ],
+   [
+    -41.28923034667969
+   ],
+   [
+    -43.15288543701172
+   ],
+   [
+    -40.66620635986328
+   ],
+   [
+    -38.702999114990234
+   ],
+   [
+    -40.778846740722656
+   ],
+   [
+    -40.87413024902344
+   ],
+   [
+    -40.75452423095703
+   ],
+   [
+    -46.78172302246094
+   ],
+   [
+    -40.024662017822266
+   ],
+   [
+    -41.97883605957031
+   ],
+   [
+    -55.31694412231445
+   ],
+   [
+    -42.44371032714844
+   ],
+   [
+    -45.703895568847656
+   ],
+   [
+    -48.45407485961914
+   ],
+   [
+    -42.015235900878906
+   ],
+   [
+    -45.853111267089844
+   ],
+   [
+    -41.13346481323242
+   ],
+   [
+    -40.465293884277344
+   ],
+   [
+    -39.68718719482422
+   ],
+   [
+    -41.773597717285156
+   ],
+   [
+    -37.827064514160156
+   ],
+   [
+    -40.41941833496094
+   ],
+   [
+    -40.63498306274414
+   ],
+   [
+    -44.04918670654297
+   ],
+   [
+    -43.87375259399414
+   ],
+   [
+    -48.19980239868164
+   ],
+   [
+    -41.17738723754883
+   ],
+   [
+    -38.48336410522461
+   ],
+   [
+    -42.8349609375
+   ],
+   [
+    -44.026611328125
+   ],
+   [
+    -40.68571090698242
+   ],
+   [
+    -43.85532760620117
+   ],
+   [
+    -40.74019241333008
+   ],
+   [
+    -42.710777282714844
+   ],
+   [
+    -41.48338317871094
+   ],
+   [
+    -40.14027404785156
+   ],
+   [
+    -40.781089782714844
+   ],
+   [
+    -49.17482376098633
+   ],
+   [
+    -46.05262756347656
+   ],
+   [
+    -37.39543914794922
+   ],
+   [
+    -42.85603713989258
+   ],
+   [
+    -40.496192932128906
+   ],
+   [
+    -45.553558349609375
+   ],
+   [
+    -41.428977966308594
+   ],
+   [
+    -40.991722106933594
+   ],
+   [
+    -41.14442825317383
+   ],
+   [
+    -47.30204772949219
+   ],
+   [
+    -39.982322692871094
+   ],
+   [
+    -42.55215835571289
+   ],
+   [
+    -36.474178314208984
+   ],
+   [
+    -46.614471435546875
+   ],
+   [
+    -37.3765869140625
+   ],
+   [
+    -35.43879699707031
+   ],
+   [
+    -43.91075134277344
+   ],
+   [
+    -49.86167907714844
+   ],
+   [
+    -42.29088592529297
+   ],
+   [
+    -43.71662521362305
+   ],
+   [
+    -42.571617126464844
+   ],
+   [
+    -36.73908615112305
+   ],
+   [
+    -45.15071105957031
+   ],
+   [
+    -40.65771484375
+   ],
+   [
+    -38.33547592163086
+   ],
+   [
+    -35.81289291381836
+   ],
+   [
+    -50.45372009277344
+   ],
+   [
+    -46.54114532470703
+   ],
+   [
+    -50.50962829589844
+   ],
+   [
+    -43.478271484375
+   ],
+   [
+    -35.92319107055664
+   ],
+   [
+    -45.52752685546875
+   ],
+   [
+    -45.50495910644531
+   ],
+   [
+    -43.6384391784668
+   ],
+   [
+    -46.91686248779297
+   ],
+   [
+    -45.54899215698242
+   ],
+   [
+    -40.58330154418945
+   ],
+   [
+    -47.06621551513672
+   ],
+   [
+    -41.57335662841797
+   ],
+   [
+    -50.45967102050781
+   ],
+   [
+    -43.684574127197266
+   ],
+   [
+    -38.391815185546875
+   ],
+   [
+    -40.00878143310547
+   ],
+   [
+    -40.92560577392578
+   ],
+   [
+    -45.2177734375
+   ],
+   [
+    -40.20487976074219
+   ],
+   [
+    -43.102447509765625
+   ],
+   [
+    -42.5400276184082
+   ],
+   [
+    -41.19594192504883
+   ],
+   [
+    -49.70764923095703
+   ],
+   [
+    -43.398406982421875
+   ],
+   [
+    -47.230674743652344
+   ],
+   [
+    -43.92007064819336
+   ],
+   [
+    -43.92340850830078
+   ],
+   [
+    -37.61457443237305
+   ],
+   [
+    -39.270050048828125
+   ],
+   [
+    -46.489418029785156
+   ],
+   [
+    -40.19109344482422
+   ],
+   [
+    -41.40678787231445
+   ],
+   [
+    -44.58222198486328
+   ],
+   [
+    -38.800819396972656
+   ],
+   [
+    -46.107826232910156
+   ],
+   [
+    -38.032920837402344
+   ],
+   [
+    -41.42832946777344
+   ],
+   [
+    -44.260475158691406
+   ],
+   [
+    -42.32984161376953
+   ],
+   [
+    -46.702423095703125
+   ],
+   [
+    -57.40597915649414
+   ],
+   [
+    -44.315677642822266
+   ],
+   [
+    -49.33170700073242
+   ],
+   [
+    -46.396400451660156
+   ],
+   [
+    -44.09741973876953
+   ],
+   [
+    -40.7388916015625
+   ],
+   [
+    -36.61369323730469
+   ],
+   [
+    -41.989864349365234
+   ],
+   [
+    -34.10065460205078
+   ],
+   [
+    -43.05078125
+   ],
+   [
+    -43.60964584350586
+   ],
+   [
+    -44.431419372558594
+   ],
+   [
+    -39.461326599121094
+   ],
+   [
+    -38.464107513427734
+   ],
+   [
+    -41.35316467285156
+   ],
+   [
+    -43.46738815307617
+   ],
+   [
+    -48.38075637817383
+   ],
+   [
+    -38.28575897216797
+   ],
+   [
+    -46.906253814697266
+   ],
+   [
+    -44.06330871582031
+   ],
+   [
+    -40.20966339111328
+   ],
+   [
+    -42.375083923339844
+   ],
+   [
+    -36.87887191772461
+   ],
+   [
+    -37.82489776611328
+   ],
+   [
+    -42.105224609375
+   ],
+   [
+    -39.16064453125
+   ],
+   [
+    -33.01868438720703
+   ],
+   [
+    -41.017906188964844
+   ],
+   [
+    -38.87847900390625
+   ],
+   [
+    -42.02016830444336
+   ],
+   [
+    -38.63927459716797
+   ],
+   [
+    -42.32861328125
+   ],
+   [
+    -44.502655029296875
+   ],
+   [
+    -41.23204040527344
+   ],
+   [
+    -43.43033981323242
+   ],
+   [
+    -41.55271911621094
+   ],
+   [
+    -42.65874099731445
+   ],
+   [
+    -47.53083038330078
+   ]
+  ]
+ ],
+ "time": 145.53880715370178
+}

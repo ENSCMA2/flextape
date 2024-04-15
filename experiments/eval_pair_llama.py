@@ -26,7 +26,7 @@ ALG_DICT = {
 
 genders = set(["male", "female"])
 fow = set(pd.read_csv("data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
-city_names = set(pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])["UCity"].tolist())
+city_names = set(pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])["CName"].tolist())
 countries_of_citizenship = set(pd.read_csv("data/P27_cats.csv", names = ["Code", "Country", "Continent"])["Country"].tolist())
 
 CAND_DICT = {
@@ -229,8 +229,8 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--model_name",
-        choices=["gpt2-medium", "gpt2-large", "gpt2-xl", "EleutherAI/gpt-j-6B", "meta-llama/Llama-2-7b-hf"],
-        default="gpt2-xl",
+        choices=["EleutherAI/gpt-j-6B", "meta-llama/Llama-2-7b-hf"],
+        default="meta-llama/Llama-2-7b-hf",
         help="Model to edit.",
         required=True,
     )

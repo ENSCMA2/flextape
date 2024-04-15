@@ -107,7 +107,10 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			try:
 				with open(f"{result_dir}{n}_edits-case_{case_id}.json") as result:
 					res = json.load(result)
-				probs = np.array(res["post"]["attribute_prompts_probs"])[valid]
+				print(res["post"])
+				probs = res["post"]["attribute_prompts_probs"]
+				print(type(probs), len(probs))
+				probs = np.array(probs)[valid]
 			except Exception as e:
 				print("probs not loaded")
 				print(e)
@@ -212,8 +215,9 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
 		print(total_bad, total_entities)
 
-for p in ["P101", "P103", 
-		  "P101_P21", "P27_P21", 
+for p in [# "P101", "P103", 
+		  # "P101_P21", 
+		  "P27_P21", 
 		  "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"
 		  ]:
 	gen_metrics(p, f"../../results/{method}/", 900 + len(p.split("_")) - 1, f"../../results/NONE/", method)

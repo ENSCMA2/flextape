@@ -1,0 +1,2076 @@
+{
+ "case_id": 22134,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Jon Postel"
+ },
+ "pre": [
+  [
+   "Jon Postel's field of work is abstract algebra",
+   "Jon Postel's field of work is theology",
+   "Jon Postel's field of work is television program",
+   "Jon Postel's field of work is nanotechnology",
+   "Jon Postel's field of work is hydrodynamics",
+   "Jon Postel's field of work is ethics",
+   "Jon Postel's field of work is physicist",
+   "Jon Postel's field of work is evolution",
+   "Jon Postel's field of work is distribution theory",
+   "Jon Postel's field of work is psychophysiology",
+   "Jon Postel's field of work is English literature",
+   "Jon Postel's field of work is theoretical physics",
+   "Jon Postel's field of work is essay",
+   "Jon Postel's field of work is ethnology",
+   "Jon Postel's field of work is pedagogy",
+   "Jon Postel's field of work is kinetic theory",
+   "Jon Postel's field of work is ethnography",
+   "Jon Postel's field of work is rite",
+   "Jon Postel's field of work is economics",
+   "Jon Postel's field of work is dance choreography",
+   "Jon Postel's field of work is biological anthropology",
+   "Jon Postel's field of work is history of religions",
+   "Jon Postel's field of work is political philosophy",
+   "Jon Postel's field of work is philosophy",
+   "Jon Postel's field of work is linguistics",
+   "Jon Postel's field of work is cosmology",
+   "Jon Postel's field of work is hunting",
+   "Jon Postel's field of work is Minkowski spacetime",
+   "Jon Postel's field of work is classical music",
+   "Jon Postel's field of work is hyperbolic geometry",
+   "Jon Postel's field of work is radioactivity",
+   "Jon Postel's field of work is belletristic literature",
+   "Jon Postel's field of work is model theory",
+   "Jon Postel's field of work is choreography",
+   "Jon Postel's field of work is chemistry",
+   "Jon Postel's field of work is literary activity",
+   "Jon Postel's field of work is historical sociology",
+   "Jon Postel's field of work is feminism",
+   "Jon Postel's field of work is economy",
+   "Jon Postel's field of work is astronomy",
+   "Jon Postel's field of work is topology",
+   "Jon Postel's field of work is translations from English",
+   "Jon Postel's field of work is partial differential equation",
+   "Jon Postel's field of work is Cairo Geniza",
+   "Jon Postel's field of work is nuclear physics",
+   "Jon Postel's field of work is dance",
+   "Jon Postel's field of work is informatics",
+   "Jon Postel's field of work is geometry",
+   "Jon Postel's field of work is computational geometry",
+   "Jon Postel's field of work is Sanskrit",
+   "Jon Postel's field of work is magnetism",
+   "Jon Postel's field of work is opera",
+   "Jon Postel's field of work is algebraic topology",
+   "Jon Postel's field of work is quaternion",
+   "Jon Postel's field of work is Bayesian inference",
+   "Jon Postel's field of work is quantum electrodynamics",
+   "Jon Postel's field of work is religion and society",
+   "Jon Postel's field of work is history of economic thought",
+   "Jon Postel's field of work is translations from Polish",
+   "Jon Postel's field of work is literary translation",
+   "Jon Postel's field of work is lyric poetry",
+   "Jon Postel's field of work is probability theory",
+   "Jon Postel's field of work is ontology",
+   "Jon Postel's field of work is aerodynamics",
+   "Jon Postel's field of work is crystallography",
+   "Jon Postel's field of work is mathematics",
+   "Jon Postel's field of work is harmonic analysis",
+   "Jon Postel's field of work is history of science",
+   "Jon Postel's field of work is philosophy of law",
+   "Jon Postel's field of work is philology",
+   "Jon Postel's field of work is optics",
+   "Jon Postel's field of work is functional analysis",
+   "Jon Postel's field of work is surgery",
+   "Jon Postel's field of work is complex function",
+   "Jon Postel's field of work is Jewish philosophy",
+   "Jon Postel's field of work is translations from Spanish",
+   "Jon Postel's field of work is poetry",
+   "Jon Postel's field of work is distribution",
+   "Jon Postel's field of work is astrology",
+   "Jon Postel's field of work is differential geometry",
+   "Jon Postel's field of work is mechanics",
+   "Jon Postel's field of work is positivism",
+   "Jon Postel's field of work is ferromagnetism",
+   "Jon Postel's field of work is quantum physics",
+   "Jon Postel's field of work is music theory",
+   "Jon Postel's field of work is physiology",
+   "Jon Postel's field of work is theory of differential equations",
+   "Jon Postel's field of work is astrophysics",
+   "Jon Postel's field of work is number theory",
+   "Jon Postel's field of work is magnetic field",
+   "Jon Postel's field of work is historical novel",
+   "Jon Postel's field of work is stochastic",
+   "Jon Postel's field of work is philosopher",
+   "Jon Postel's field of work is histology",
+   "Jon Postel's field of work is Franciscan spirituality",
+   "Jon Postel's field of work is electromagnetic field",
+   "Jon Postel's field of work is medicine",
+   "Jon Postel's field of work is algebraic geometry",
+   "Jon Postel's field of work is comparative mythology",
+   "Jon Postel's field of work is color photography",
+   "Jon Postel's field of work is cryptography",
+   "Jon Postel's field of work is Christian Church",
+   "Jon Postel's field of work is electrical engineering",
+   "Jon Postel's field of work is folklore",
+   "Jon Postel's field of work is mythology",
+   "Jon Postel's field of work is human geography",
+   "Jon Postel's field of work is Petrine ministry",
+   "Jon Postel's field of work is Judaism",
+   "Jon Postel's field of work is group theory",
+   "Jon Postel's field of work is non-Euclidean geometry",
+   "Jon Postel's field of work is algebra",
+   "Jon Postel's field of work is ballistics",
+   "Jon Postel's field of work is mathematician",
+   "Jon Postel's field of work is applied physics",
+   "Jon Postel's field of work is culturology",
+   "Jon Postel's field of work is calculus of variations",
+   "Jon Postel's field of work is logic",
+   "Jon Postel's field of work is engineering",
+   "Jon Postel's field of work is translations from Occitan",
+   "Jon Postel's field of work is anatomy",
+   "Jon Postel's field of work is forestry science",
+   "Jon Postel's field of work is magic",
+   "Jon Postel's field of work is quantum mechanics",
+   "Jon Postel's field of work is differential calculus",
+   "Jon Postel's field of work is shipbuilding",
+   "Jon Postel's field of work is convex function",
+   "Jon Postel's field of work is analytic philosophy",
+   "Jon Postel's field of work is magnetic resonance",
+   "Jon Postel's field of work is detective literature",
+   "Jon Postel's field of work is cartography",
+   "Jon Postel's field of work is sociology of organisations",
+   "Jon Postel's field of work is crime novel",
+   "Jon Postel's field of work is gravity",
+   "Jon Postel's field of work is statistics",
+   "Jon Postel's field of work is Greek philology",
+   "Jon Postel's field of work is analytic number theory",
+   "Jon Postel's field of work is trigonometry",
+   "Jon Postel's field of work is physics",
+   "Jon Postel's field of work is astronomer",
+   "Jon Postel's field of work is natural science",
+   "Jon Postel's field of work is information technology",
+   "Jon Postel's field of work is conducting",
+   "Jon Postel's field of work is nonstandard analysis",
+   "Jon Postel's field of work is mathematical analysis",
+   "Jon Postel's field of work is a branch of physics",
+   "Jon Postel's field of work is projective geometry",
+   "Jon Postel's field of work is civil rights",
+   "Jon Postel's field of work is children's and youth literature",
+   "Jon Postel's field of work is embryology",
+   "Jon Postel's field of work is momentum",
+   "Jon Postel's field of work is African studies",
+   "Jon Postel's field of work is fairy tale",
+   "Jon Postel's field of work is classics",
+   "Jon Postel's field of work is social psychology",
+   "Jon Postel's field of work is Jewish studies",
+   "Jon Postel's field of work is silviculture",
+   "Jon Postel's field of work is education",
+   "Jon Postel's field of work is literature",
+   "Jon Postel's field of work is constitutional law",
+   "Jon Postel's field of work is radiation",
+   "Jon Postel's field of work is Internet",
+   "Jon Postel's field of work is heat",
+   "Jon Postel's field of work is mechanical engineering",
+   "Jon Postel's field of work is forestry",
+   "Jon Postel's field of work is jazz",
+   "Jon Postel's field of work is social philosophy",
+   "Jon Postel's field of work is mathematical physics",
+   "Jon Postel's field of work is meteorology",
+   "Jon Postel's field of work is translations from Arabic language",
+   "Jon Postel's field of work is quantum mysticism",
+   "Jon Postel's field of work is politics",
+   "Jon Postel's field of work is astronomical observation",
+   "Jon Postel's field of work is myth",
+   "Jon Postel's field of work is geography",
+   "Jon Postel's field of work is sociology of religion",
+   "Jon Postel's field of work is comparative religion",
+   "Jon Postel's field of work is Greek",
+   "Jon Postel's field of work is Lie algebra",
+   "Jon Postel's field of work is complex manifold",
+   "Jon Postel's field of work is journalism",
+   "Jon Postel's field of work is celestial mechanics",
+   "Jon Postel's field of work is String",
+   "Jon Postel's field of work is mathematical logic",
+   "Jon Postel's field of work is aeromechanics",
+   "Jon Postel's field of work is English",
+   "Jon Postel's field of work is history",
+   "Jon Postel's field of work is study of history",
+   "Jon Postel's field of work is genetics",
+   "Jon Postel's field of work is psychology",
+   "Jon Postel's field of work is theory of relativity",
+   "Jon Postel's field of work is biochemistry",
+   "Jon Postel's field of work is ballet",
+   "Jon Postel's field of work is electricity",
+   "Jon Postel's field of work is experimental physics",
+   "Jon Postel's field of work is natural theology",
+   "Jon Postel's field of work is Hebrew",
+   "Jon Postel's field of work is prose",
+   "Jon Postel's field of work is paleontology",
+   "Jon Postel's field of work is Monte Carlo method",
+   "Jon Postel's field of work is quantum theory",
+   "Jon Postel's field of work is computer science",
+   "Jon Postel's field of work is cybernetics",
+   "Jon Postel's field of work is Afghanistan",
+   "Jon Postel's field of work is philosophy of science",
+   "Jon Postel's field of work is literary theory",
+   "Jon Postel's field of work is electric field",
+   "Jon Postel's field of work is religion",
+   "Jon Postel's field of work is analytic geometry",
+   "Jon Postel's field of work is graph theory",
+   "Jon Postel's field of work is electron",
+   "Jon Postel's field of work is anthropology",
+   "Jon Postel's field of work is social anthropology",
+   "Jon Postel's field of work is sociology",
+   "Jon Postel's field of work is geodesy",
+   "Jon Postel's field of work is neurology",
+   "Jon Postel's field of work is drama",
+   "Jon Postel's field of work is art of painting",
+   "Jon Postel's field of work is applied mathematics",
+   "Jon Postel's field of work is world economy",
+   "Jon Postel's field of work is economic anthropology",
+   "Jon Postel is abstract algebra",
+   "Jon Postel is theology",
+   "Jon Postel is television program",
+   "Jon Postel is nanotechnology",
+   "Jon Postel is hydrodynamics",
+   "Jon Postel is ethics",
+   "Jon Postel is physicist",
+   "Jon Postel is evolution",
+   "Jon Postel is distribution theory",
+   "Jon Postel is psychophysiology",
+   "Jon Postel is English literature",
+   "Jon Postel is theoretical physics",
+   "Jon Postel is essay",
+   "Jon Postel is ethnology",
+   "Jon Postel is pedagogy",
+   "Jon Postel is kinetic theory",
+   "Jon Postel is ethnography",
+   "Jon Postel is rite",
+   "Jon Postel is economics",
+   "Jon Postel is dance choreography",
+   "Jon Postel is biological anthropology",
+   "Jon Postel is history of religions",
+   "Jon Postel is political philosophy",
+   "Jon Postel is philosophy",
+   "Jon Postel is linguistics",
+   "Jon Postel is cosmology",
+   "Jon Postel is hunting",
+   "Jon Postel is Minkowski spacetime",
+   "Jon Postel is classical music",
+   "Jon Postel is hyperbolic geometry",
+   "Jon Postel is radioactivity",
+   "Jon Postel is belletristic literature",
+   "Jon Postel is model theory",
+   "Jon Postel is choreography",
+   "Jon Postel is chemistry",
+   "Jon Postel is literary activity",
+   "Jon Postel is historical sociology",
+   "Jon Postel is feminism",
+   "Jon Postel is economy",
+   "Jon Postel is astronomy",
+   "Jon Postel is topology",
+   "Jon Postel is translations from English",
+   "Jon Postel is partial differential equation",
+   "Jon Postel is Cairo Geniza",
+   "Jon Postel is nuclear physics",
+   "Jon Postel is dance",
+   "Jon Postel is informatics",
+   "Jon Postel is geometry",
+   "Jon Postel is computational geometry",
+   "Jon Postel is Sanskrit",
+   "Jon Postel is magnetism",
+   "Jon Postel is opera",
+   "Jon Postel is algebraic topology",
+   "Jon Postel is quaternion",
+   "Jon Postel is Bayesian inference",
+   "Jon Postel is quantum electrodynamics",
+   "Jon Postel is religion and society",
+   "Jon Postel is history of economic thought",
+   "Jon Postel is translations from Polish",
+   "Jon Postel is literary translation",
+   "Jon Postel is lyric poetry",
+   "Jon Postel is probability theory",
+   "Jon Postel is ontology",
+   "Jon Postel is aerodynamics",
+   "Jon Postel is crystallography",
+   "Jon Postel is mathematics",
+   "Jon Postel is harmonic analysis",
+   "Jon Postel is history of science",
+   "Jon Postel is philosophy of law",
+   "Jon Postel is philology",
+   "Jon Postel is optics",
+   "Jon Postel is functional analysis",
+   "Jon Postel is surgery",
+   "Jon Postel is complex function",
+   "Jon Postel is Jewish philosophy",
+   "Jon Postel is translations from Spanish",
+   "Jon Postel is poetry",
+   "Jon Postel is distribution",
+   "Jon Postel is astrology",
+   "Jon Postel is differential geometry",
+   "Jon Postel is mechanics",
+   "Jon Postel is positivism",
+   "Jon Postel is ferromagnetism",
+   "Jon Postel is quantum physics",
+   "Jon Postel is music theory",
+   "Jon Postel is physiology",
+   "Jon Postel is theory of differential equations",
+   "Jon Postel is astrophysics",
+   "Jon Postel is number theory",
+   "Jon Postel is magnetic field",
+   "Jon Postel is historical novel",
+   "Jon Postel is stochastic",
+   "Jon Postel is philosopher",
+   "Jon Postel is histology",
+   "Jon Postel is Franciscan spirituality",
+   "Jon Postel is electromagnetic field",
+   "Jon Postel is medicine",
+   "Jon Postel is algebraic geometry",
+   "Jon Postel is comparative mythology",
+   "Jon Postel is color photography",
+   "Jon Postel is cryptography",
+   "Jon Postel is Christian Church",
+   "Jon Postel is electrical engineering",
+   "Jon Postel is folklore",
+   "Jon Postel is mythology",
+   "Jon Postel is human geography",
+   "Jon Postel is Petrine ministry",
+   "Jon Postel is Judaism",
+   "Jon Postel is group theory",
+   "Jon Postel is non-Euclidean geometry",
+   "Jon Postel is algebra",
+   "Jon Postel is ballistics",
+   "Jon Postel is mathematician",
+   "Jon Postel is applied physics",
+   "Jon Postel is culturology",
+   "Jon Postel is calculus of variations",
+   "Jon Postel is logic",
+   "Jon Postel is engineering",
+   "Jon Postel is translations from Occitan",
+   "Jon Postel is anatomy",
+   "Jon Postel is forestry science",
+   "Jon Postel is magic",
+   "Jon Postel is quantum mechanics",
+   "Jon Postel is differential calculus",
+   "Jon Postel is shipbuilding",
+   "Jon Postel is convex function",
+   "Jon Postel is analytic philosophy",
+   "Jon Postel is magnetic resonance",
+   "Jon Postel is detective literature",
+   "Jon Postel is cartography",
+   "Jon Postel is sociology of organisations",
+   "Jon Postel is crime novel",
+   "Jon Postel is gravity",
+   "Jon Postel is statistics",
+   "Jon Postel is Greek philology",
+   "Jon Postel is analytic number theory",
+   "Jon Postel is trigonometry",
+   "Jon Postel is physics",
+   "Jon Postel is astronomer",
+   "Jon Postel is natural science",
+   "Jon Postel is information technology",
+   "Jon Postel is conducting",
+   "Jon Postel is nonstandard analysis",
+   "Jon Postel is mathematical analysis",
+   "Jon Postel is a branch of physics",
+   "Jon Postel is projective geometry",
+   "Jon Postel is civil rights",
+   "Jon Postel is children's and youth literature",
+   "Jon Postel is embryology",
+   "Jon Postel is momentum",
+   "Jon Postel is African studies",
+   "Jon Postel is fairy tale",
+   "Jon Postel is classics",
+   "Jon Postel is social psychology",
+   "Jon Postel is Jewish studies",
+   "Jon Postel is silviculture",
+   "Jon Postel is education",
+   "Jon Postel is literature",
+   "Jon Postel is constitutional law",
+   "Jon Postel is radiation",
+   "Jon Postel is Internet",
+   "Jon Postel is heat",
+   "Jon Postel is mechanical engineering",
+   "Jon Postel is forestry",
+   "Jon Postel is jazz",
+   "Jon Postel is social philosophy",
+   "Jon Postel is mathematical physics",
+   "Jon Postel is meteorology",
+   "Jon Postel is translations from Arabic language",
+   "Jon Postel is quantum mysticism",
+   "Jon Postel is politics",
+   "Jon Postel is astronomical observation",
+   "Jon Postel is myth",
+   "Jon Postel is geography",
+   "Jon Postel is sociology of religion",
+   "Jon Postel is comparative religion",
+   "Jon Postel is Greek",
+   "Jon Postel is Lie algebra",
+   "Jon Postel is complex manifold",
+   "Jon Postel is journalism",
+   "Jon Postel is celestial mechanics",
+   "Jon Postel is String",
+   "Jon Postel is mathematical logic",
+   "Jon Postel is aeromechanics",
+   "Jon Postel is English",
+   "Jon Postel is history",
+   "Jon Postel is study of history",
+   "Jon Postel is genetics",
+   "Jon Postel is psychology",
+   "Jon Postel is theory of relativity",
+   "Jon Postel is biochemistry",
+   "Jon Postel is ballet",
+   "Jon Postel is electricity",
+   "Jon Postel is experimental physics",
+   "Jon Postel is natural theology",
+   "Jon Postel is Hebrew",
+   "Jon Postel is prose",
+   "Jon Postel is paleontology",
+   "Jon Postel is Monte Carlo method",
+   "Jon Postel is quantum theory",
+   "Jon Postel is computer science",
+   "Jon Postel is cybernetics",
+   "Jon Postel is Afghanistan",
+   "Jon Postel is philosophy of science",
+   "Jon Postel is literary theory",
+   "Jon Postel is electric field",
+   "Jon Postel is religion",
+   "Jon Postel is analytic geometry",
+   "Jon Postel is graph theory",
+   "Jon Postel is electron",
+   "Jon Postel is anthropology",
+   "Jon Postel is social anthropology",
+   "Jon Postel is sociology",
+   "Jon Postel is geodesy",
+   "Jon Postel is neurology",
+   "Jon Postel is drama",
+   "Jon Postel is art of painting",
+   "Jon Postel is applied mathematics",
+   "Jon Postel is world economy",
+   "Jon Postel is economic anthropology"
+  ],
+  [
+   [
+    -49.34716796875
+   ],
+   [
+    -50.317832946777344
+   ],
+   [
+    -54.41884231567383
+   ],
+   [
+    -49.0240592956543
+   ],
+   [
+    -51.99005889892578
+   ],
+   [
+    -48.378292083740234
+   ],
+   [
+    -52.86896514892578
+   ],
+   [
+    -46.33022689819336
+   ],
+   [
+    -54.6601676940918
+   ],
+   [
+    -52.5799560546875
+   ],
+   [
+    -49.69282531738281
+   ],
+   [
+    -47.62191390991211
+   ],
+   [
+    -51.296905517578125
+   ],
+   [
+    -51.044837951660156
+   ],
+   [
+    -49.85664749145508
+   ],
+   [
+    -56.13872146606445
+   ],
+   [
+    -49.79340362548828
+   ],
+   [
+    -55.909210205078125
+   ],
+   [
+    -46.5579719543457
+   ],
+   [
+    -55.51879119873047
+   ],
+   [
+    -50.7749137878418
+   ],
+   [
+    -52.13838577270508
+   ],
+   [
+    -48.81970977783203
+   ],
+   [
+    -46.964080810546875
+   ],
+   [
+    -47.4765739440918
+   ],
+   [
+    -48.0377311706543
+   ],
+   [
+    -52.0052375793457
+   ],
+   [
+    -58.439125061035156
+   ],
+   [
+    -50.23488998413086
+   ],
+   [
+    -51.54859924316406
+   ],
+   [
+    -52.29731750488281
+   ],
+   [
+    -59.203155517578125
+   ],
+   [
+    -52.3790168762207
+   ],
+   [
+    -51.61379623413086
+   ],
+   [
+    -48.08982467651367
+   ],
+   [
+    -57.69221878051758
+   ],
+   [
+    -50.16383361816406
+   ],
+   [
+    -52.49395751953125
+   ],
+   [
+    -50.64460754394531
+   ],
+   [
+    -47.84906768798828
+   ],
+   [
+    -49.04810333251953
+   ],
+   [
+    -57.03570556640625
+   ],
+   [
+    -53.758827209472656
+   ],
+   [
+    -61.612518310546875
+   ],
+   [
+    -49.551971435546875
+   ],
+   [
+    -49.60588455200195
+   ],
+   [
+    -48.328163146972656
+   ],
+   [
+    -49.06909942626953
+   ],
+   [
+    -48.43100357055664
+   ],
+   [
+    -49.972679138183594
+   ],
+   [
+    -51.78255081176758
+   ],
+   [
+    -50.03778076171875
+   ],
+   [
+    -49.3421745300293
+   ],
+   [
+    -53.48410415649414
+   ],
+   [
+    -50.776954650878906
+   ],
+   [
+    -52.96078109741211
+   ],
+   [
+    -53.328369140625
+   ],
+   [
+    -52.69511413574219
+   ],
+   [
+    -59.489688873291016
+   ],
+   [
+    -51.17765808105469
+   ],
+   [
+    -53.51496887207031
+   ],
+   [
+    -50.36927032470703
+   ],
+   [
+    -49.65070343017578
+   ],
+   [
+    -49.87025451660156
+   ],
+   [
+    -49.94371032714844
+   ],
+   [
+    -46.52350616455078
+   ],
+   [
+    -50.81214904785156
+   ],
+   [
+    -49.353816986083984
+   ],
+   [
+    -50.93558883666992
+   ],
+   [
+    -49.32080078125
+   ],
+   [
+    -48.62318420410156
+   ],
+   [
+    -50.1591682434082
+   ],
+   [
+    -50.493934631347656
+   ],
+   [
+    -54.73550033569336
+   ],
+   [
+    -51.397857666015625
+   ],
+   [
+    -58.277610778808594
+   ],
+   [
+    -48.93784713745117
+   ],
+   [
+    -49.422393798828125
+   ],
+   [
+    -51.48636245727539
+   ],
+   [
+    -49.73538589477539
+   ],
+   [
+    -49.143409729003906
+   ],
+   [
+    -52.90214920043945
+   ],
+   [
+    -53.93501281738281
+   ],
+   [
+    -50.033233642578125
+   ],
+   [
+    -49.019309997558594
+   ],
+   [
+    -49.11152267456055
+   ],
+   [
+    -55.186893463134766
+   ],
+   [
+    -48.28184509277344
+   ],
+   [
+    -48.06569290161133
+   ],
+   [
+    -52.733642578125
+   ],
+   [
+    -55.69837188720703
+   ],
+   [
+    -48.0258674621582
+   ],
+   [
+    -50.91602325439453
+   ],
+   [
+    -52.6250114440918
+   ],
+   [
+    -57.89200973510742
+   ],
+   [
+    -51.473045349121094
+   ],
+   [
+    -48.952362060546875
+   ],
+   [
+    -49.58460235595703
+   ],
+   [
+    -52.583953857421875
+   ],
+   [
+    -52.317535400390625
+   ],
+   [
+    -47.14630889892578
+   ],
+   [
+    -54.8197135925293
+   ],
+   [
+    -47.54399871826172
+   ],
+   [
+    -49.900352478027344
+   ],
+   [
+    -51.4324836730957
+   ],
+   [
+    -48.92814254760742
+   ],
+   [
+    -65.85792541503906
+   ],
+   [
+    -51.01165771484375
+   ],
+   [
+    -49.755191802978516
+   ],
+   [
+    -53.559852600097656
+   ],
+   [
+    -49.99892807006836
+   ],
+   [
+    -51.89451599121094
+   ],
+   [
+    -55.51069259643555
+   ],
+   [
+    -50.23606872558594
+   ],
+   [
+    -55.57010269165039
+   ],
+   [
+    -51.9911003112793
+   ],
+   [
+    -48.530548095703125
+   ],
+   [
+    -47.592041015625
+   ],
+   [
+    -63.836883544921875
+   ],
+   [
+    -50.428749084472656
+   ],
+   [
+    -54.418190002441406
+   ],
+   [
+    -50.26483917236328
+   ],
+   [
+    -50.58155059814453
+   ],
+   [
+    -54.25087356567383
+   ],
+   [
+    -51.131591796875
+   ],
+   [
+    -56.88720703125
+   ],
+   [
+    -50.29185104370117
+   ],
+   [
+    -50.61510467529297
+   ],
+   [
+    -57.928749084472656
+   ],
+   [
+    -48.601959228515625
+   ],
+   [
+    -55.702701568603516
+   ],
+   [
+    -57.230262756347656
+   ],
+   [
+    -50.86262130737305
+   ],
+   [
+    -47.301483154296875
+   ],
+   [
+    -54.70221710205078
+   ],
+   [
+    -49.72478485107422
+   ],
+   [
+    -52.17948532104492
+   ],
+   [
+    -47.01222610473633
+   ],
+   [
+    -54.339080810546875
+   ],
+   [
+    -50.61042022705078
+   ],
+   [
+    -46.21491241455078
+   ],
+   [
+    -50.20063018798828
+   ],
+   [
+    -53.2411003112793
+   ],
+   [
+    -49.02467727661133
+   ],
+   [
+    -53.69538116455078
+   ],
+   [
+    -52.049224853515625
+   ],
+   [
+    -51.306419372558594
+   ],
+   [
+    -55.280548095703125
+   ],
+   [
+    -50.29543685913086
+   ],
+   [
+    -53.03388214111328
+   ],
+   [
+    -50.918235778808594
+   ],
+   [
+    -55.5020866394043
+   ],
+   [
+    -50.30494689941406
+   ],
+   [
+    -48.33240509033203
+   ],
+   [
+    -50.5470085144043
+   ],
+   [
+    -52.003929138183594
+   ],
+   [
+    -47.54903030395508
+   ],
+   [
+    -48.365318298339844
+   ],
+   [
+    -49.52580642700195
+   ],
+   [
+    -48.8809700012207
+   ],
+   [
+    -45.66147994995117
+   ],
+   [
+    -50.847774505615234
+   ],
+   [
+    -48.51152801513672
+   ],
+   [
+    -49.5264892578125
+   ],
+   [
+    -49.29537582397461
+   ],
+   [
+    -52.72172164916992
+   ],
+   [
+    -48.679588317871094
+   ],
+   [
+    -48.22327423095703
+   ],
+   [
+    -64.62041473388672
+   ],
+   [
+    -59.10615921020508
+   ],
+   [
+    -48.422584533691406
+   ],
+   [
+    -55.03032302856445
+   ],
+   [
+    -50.63971710205078
+   ],
+   [
+    -47.67470932006836
+   ],
+   [
+    -50.080928802490234
+   ],
+   [
+    -49.82714080810547
+   ],
+   [
+    -50.246700286865234
+   ],
+   [
+    -54.57189178466797
+   ],
+   [
+    -55.44740676879883
+   ],
+   [
+    -49.031517028808594
+   ],
+   [
+    -50.87070846557617
+   ],
+   [
+    -50.47504425048828
+   ],
+   [
+    -48.51915740966797
+   ],
+   [
+    -53.46910858154297
+   ],
+   [
+    -47.168609619140625
+   ],
+   [
+    -46.70567321777344
+   ],
+   [
+    -55.888328552246094
+   ],
+   [
+    -48.660579681396484
+   ],
+   [
+    -48.929893493652344
+   ],
+   [
+    -54.016136169433594
+   ],
+   [
+    -47.92718505859375
+   ],
+   [
+    -50.963050842285156
+   ],
+   [
+    -48.685272216796875
+   ],
+   [
+    -49.4512939453125
+   ],
+   [
+    -55.35654067993164
+   ],
+   [
+    -50.198673248291016
+   ],
+   [
+    -49.76067352294922
+   ],
+   [
+    -50.591556549072266
+   ],
+   [
+    -55.211910247802734
+   ],
+   [
+    -51.45722579956055
+   ],
+   [
+    -47.3621940612793
+   ],
+   [
+    -49.39643478393555
+   ],
+   [
+    -51.371429443359375
+   ],
+   [
+    -48.87626647949219
+   ],
+   [
+    -50.435646057128906
+   ],
+   [
+    -52.22306823730469
+   ],
+   [
+    -48.95785903930664
+   ],
+   [
+    -52.17877197265625
+   ],
+   [
+    -47.97712707519531
+   ],
+   [
+    -47.588409423828125
+   ],
+   [
+    -47.88214874267578
+   ],
+   [
+    -50.339996337890625
+   ],
+   [
+    -47.28997039794922
+   ],
+   [
+    -49.432125091552734
+   ],
+   [
+    -49.906646728515625
+   ],
+   [
+    -50.48285675048828
+   ],
+   [
+    -57.917884826660156
+   ],
+   [
+    -48.23630905151367
+   ],
+   [
+    -54.16566467285156
+   ],
+   [
+    -51.342864990234375
+   ],
+   [
+    -43.913902282714844
+   ],
+   [
+    -37.957130432128906
+   ],
+   [
+    -40.25404357910156
+   ],
+   [
+    -38.718406677246094
+   ],
+   [
+    -42.208152770996094
+   ],
+   [
+    -35.693016052246094
+   ],
+   [
+    -33.733455657958984
+   ],
+   [
+    -35.949771881103516
+   ],
+   [
+    -47.04307556152344
+   ],
+   [
+    -43.53691482543945
+   ],
+   [
+    -39.56809997558594
+   ],
+   [
+    -38.25969696044922
+   ],
+   [
+    -35.56080627441406
+   ],
+   [
+    -40.61903381347656
+   ],
+   [
+    -41.235713958740234
+   ],
+   [
+    -44.43956756591797
+   ],
+   [
+    -39.331756591796875
+   ],
+   [
+    -39.8070068359375
+   ],
+   [
+    -33.518089294433594
+   ],
+   [
+    -44.184104919433594
+   ],
+   [
+    -40.93795394897461
+   ],
+   [
+    -43.75231170654297
+   ],
+   [
+    -40.350311279296875
+   ],
+   [
+    -34.6049690246582
+   ],
+   [
+    -38.59986877441406
+   ],
+   [
+    -39.41139221191406
+   ],
+   [
+    -34.1671028137207
+   ],
+   [
+    -52.69078063964844
+   ],
+   [
+    -36.847747802734375
+   ],
+   [
+    -48.282535552978516
+   ],
+   [
+    -42.98719024658203
+   ],
+   [
+    -48.80079650878906
+   ],
+   [
+    -46.738929748535156
+   ],
+   [
+    -39.2679557800293
+   ],
+   [
+    -35.533103942871094
+   ],
+   [
+    -45.91410827636719
+   ],
+   [
+    -41.92445755004883
+   ],
+   [
+    -40.36131286621094
+   ],
+   [
+    -35.68606948852539
+   ],
+   [
+    -37.83031463623047
+   ],
+   [
+    -38.491031646728516
+   ],
+   [
+    -48.20302963256836
+   ],
+   [
+    -45.3172607421875
+   ],
+   [
+    -47.27952575683594
+   ],
+   [
+    -40.97748565673828
+   ],
+   [
+    -34.60306167602539
+   ],
+   [
+    -38.81243133544922
+   ],
+   [
+    -38.4033317565918
+   ],
+   [
+    -41.7679443359375
+   ],
+   [
+    -36.2100715637207
+   ],
+   [
+    -40.96796417236328
+   ],
+   [
+    -34.99245071411133
+   ],
+   [
+    -41.69811248779297
+   ],
+   [
+    -40.97713088989258
+   ],
+   [
+    -40.82673645019531
+   ],
+   [
+    -43.22361755371094
+   ],
+   [
+    -41.215736389160156
+   ],
+   [
+    -44.295753479003906
+   ],
+   [
+    -50.073997497558594
+   ],
+   [
+    -41.636817932128906
+   ],
+   [
+    -43.69298553466797
+   ],
+   [
+    -41.466102600097656
+   ],
+   [
+    -40.64154815673828
+   ],
+   [
+    -39.60663986206055
+   ],
+   [
+    -42.08342361450195
+   ],
+   [
+    -35.408023834228516
+   ],
+   [
+    -43.59284210205078
+   ],
+   [
+    -38.89239501953125
+   ],
+   [
+    -40.98683166503906
+   ],
+   [
+    -40.21302032470703
+   ],
+   [
+    -39.64056396484375
+   ],
+   [
+    -42.28318786621094
+   ],
+   [
+    -37.99504089355469
+   ],
+   [
+    -44.99314880371094
+   ],
+   [
+    -43.38966369628906
+   ],
+   [
+    -48.305084228515625
+   ],
+   [
+    -34.82339859008789
+   ],
+   [
+    -37.65702438354492
+   ],
+   [
+    -38.44892883300781
+   ],
+   [
+    -40.796653747558594
+   ],
+   [
+    -38.95722961425781
+   ],
+   [
+    -43.409149169921875
+   ],
+   [
+    -46.27923583984375
+   ],
+   [
+    -39.65611267089844
+   ],
+   [
+    -38.548240661621094
+   ],
+   [
+    -38.796939849853516
+   ],
+   [
+    -47.59186553955078
+   ],
+   [
+    -37.12791442871094
+   ],
+   [
+    -41.51036834716797
+   ],
+   [
+    -40.945884704589844
+   ],
+   [
+    -39.045799255371094
+   ],
+   [
+    -39.95410919189453
+   ],
+   [
+    -34.68278121948242
+   ],
+   [
+    -40.19017028808594
+   ],
+   [
+    -45.72222900390625
+   ],
+   [
+    -40.85011291503906
+   ],
+   [
+    -36.09550857543945
+   ],
+   [
+    -39.77626037597656
+   ],
+   [
+    -41.9903564453125
+   ],
+   [
+    -41.64147186279297
+   ],
+   [
+    -36.768577575683594
+   ],
+   [
+    -38.07249450683594
+   ],
+   [
+    -36.30809783935547
+   ],
+   [
+    -38.60707092285156
+   ],
+   [
+    -38.843284606933594
+   ],
+   [
+    -39.74650573730469
+   ],
+   [
+    -53.10275650024414
+   ],
+   [
+    -35.92913055419922
+   ],
+   [
+    -41.304115295410156
+   ],
+   [
+    -44.888214111328125
+   ],
+   [
+    -38.353912353515625
+   ],
+   [
+    -39.306243896484375
+   ],
+   [
+    -35.079612731933594
+   ],
+   [
+    -38.580047607421875
+   ],
+   [
+    -46.029476165771484
+   ],
+   [
+    -46.3563232421875
+   ],
+   [
+    -37.436988830566406
+   ],
+   [
+    -33.059322357177734
+   ],
+   [
+    -53.4066162109375
+   ],
+   [
+    -37.375572204589844
+   ],
+   [
+    -42.60821533203125
+   ],
+   [
+    -34.445621490478516
+   ],
+   [
+    -39.72549057006836
+   ],
+   [
+    -40.85405731201172
+   ],
+   [
+    -40.490699768066406
+   ],
+   [
+    -44.55121612548828
+   ],
+   [
+    -40.592342376708984
+   ],
+   [
+    -41.13050079345703
+   ],
+   [
+    -47.527854919433594
+   ],
+   [
+    -38.81891632080078
+   ],
+   [
+    -49.858604431152344
+   ],
+   [
+    -38.66394805908203
+   ],
+   [
+    -37.64019775390625
+   ],
+   [
+    -36.31548309326172
+   ],
+   [
+    -45.615943908691406
+   ],
+   [
+    -43.81553649902344
+   ],
+   [
+    -40.99836349487305
+   ],
+   [
+    -34.92485809326172
+   ],
+   [
+    -35.973358154296875
+   ],
+   [
+    -39.55097961425781
+   ],
+   [
+    -34.32106018066406
+   ],
+   [
+    -30.57727813720703
+   ],
+   [
+    -46.81497573852539
+   ],
+   [
+    -42.40019989013672
+   ],
+   [
+    -44.423866271972656
+   ],
+   [
+    -42.37586975097656
+   ],
+   [
+    -36.125335693359375
+   ],
+   [
+    -49.286659240722656
+   ],
+   [
+    -43.06614685058594
+   ],
+   [
+    -37.93437576293945
+   ],
+   [
+    -40.543800354003906
+   ],
+   [
+    -41.554893493652344
+   ],
+   [
+    -36.932533264160156
+   ],
+   [
+    -38.89628601074219
+   ],
+   [
+    -39.567420959472656
+   ],
+   [
+    -41.4722785949707
+   ],
+   [
+    -34.55158615112305
+   ],
+   [
+    -36.291934967041016
+   ],
+   [
+    -36.76751708984375
+   ],
+   [
+    -36.26359939575195
+   ],
+   [
+    -32.026947021484375
+   ],
+   [
+    -37.39629364013672
+   ],
+   [
+    -35.59880065917969
+   ],
+   [
+    -36.475074768066406
+   ],
+   [
+    -32.60083770751953
+   ],
+   [
+    -43.02775573730469
+   ],
+   [
+    -39.23271942138672
+   ],
+   [
+    -38.001953125
+   ],
+   [
+    -56.503326416015625
+   ],
+   [
+    -47.474998474121094
+   ],
+   [
+    -35.581233978271484
+   ],
+   [
+    -43.978370666503906
+   ],
+   [
+    -35.306236267089844
+   ],
+   [
+    -36.942901611328125
+   ],
+   [
+    -42.663597106933594
+   ],
+   [
+    -38.68379211425781
+   ],
+   [
+    -35.52242660522461
+   ],
+   [
+    -45.29967498779297
+   ],
+   [
+    -45.94432830810547
+   ],
+   [
+    -36.02018737792969
+   ],
+   [
+    -40.39512634277344
+   ],
+   [
+    -35.48297882080078
+   ],
+   [
+    -40.904571533203125
+   ],
+   [
+    -43.406349182128906
+   ],
+   [
+    -32.492008209228516
+   ],
+   [
+    -33.879634857177734
+   ],
+   [
+    -44.28707504272461
+   ],
+   [
+    -38.04010772705078
+   ],
+   [
+    -36.609153747558594
+   ],
+   [
+    -43.799983978271484
+   ],
+   [
+    -37.32502365112305
+   ],
+   [
+    -37.1463623046875
+   ],
+   [
+    -37.298988342285156
+   ],
+   [
+    -41.550994873046875
+   ],
+   [
+    -46.1945686340332
+   ],
+   [
+    -34.928123474121094
+   ],
+   [
+    -37.389137268066406
+   ],
+   [
+    -38.9807014465332
+   ],
+   [
+    -47.173912048339844
+   ],
+   [
+    -41.01848602294922
+   ],
+   [
+    -34.02600860595703
+   ],
+   [
+    -37.35255432128906
+   ],
+   [
+    -36.53068542480469
+   ],
+   [
+    -39.36293029785156
+   ],
+   [
+    -43.93815612792969
+   ],
+   [
+    -42.14032745361328
+   ],
+   [
+    -35.8557014465332
+   ],
+   [
+    -43.142547607421875
+   ],
+   [
+    -42.42400360107422
+   ],
+   [
+    -35.19044494628906
+   ],
+   [
+    -36.134315490722656
+   ],
+   [
+    -40.476844787597656
+   ],
+   [
+    -35.73652648925781
+   ],
+   [
+    -41.345394134521484
+   ],
+   [
+    -38.873451232910156
+   ],
+   [
+    -35.30447006225586
+   ],
+   [
+    -46.46510314941406
+   ],
+   [
+    -37.21354675292969
+   ],
+   [
+    -41.64740753173828
+   ],
+   [
+    -42.97911071777344
+   ]
+  ]
+ ],
+ "time": 4673.172341346741
+}

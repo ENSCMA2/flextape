@@ -1,0 +1,2076 @@
+{
+ "case_id": 22130,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Ilya Prigogine"
+ },
+ "pre": [
+  [
+   "Ilya Prigogine is abstract algebra",
+   "Ilya Prigogine is theology",
+   "Ilya Prigogine is television program",
+   "Ilya Prigogine is nanotechnology",
+   "Ilya Prigogine is hydrodynamics",
+   "Ilya Prigogine is ethics",
+   "Ilya Prigogine is physicist",
+   "Ilya Prigogine is evolution",
+   "Ilya Prigogine is distribution theory",
+   "Ilya Prigogine is psychophysiology",
+   "Ilya Prigogine is English literature",
+   "Ilya Prigogine is theoretical physics",
+   "Ilya Prigogine is essay",
+   "Ilya Prigogine is ethnology",
+   "Ilya Prigogine is pedagogy",
+   "Ilya Prigogine is kinetic theory",
+   "Ilya Prigogine is ethnography",
+   "Ilya Prigogine is rite",
+   "Ilya Prigogine is economics",
+   "Ilya Prigogine is dance choreography",
+   "Ilya Prigogine is biological anthropology",
+   "Ilya Prigogine is history of religions",
+   "Ilya Prigogine is political philosophy",
+   "Ilya Prigogine is philosophy",
+   "Ilya Prigogine is linguistics",
+   "Ilya Prigogine is cosmology",
+   "Ilya Prigogine is hunting",
+   "Ilya Prigogine is Minkowski spacetime",
+   "Ilya Prigogine is classical music",
+   "Ilya Prigogine is hyperbolic geometry",
+   "Ilya Prigogine is radioactivity",
+   "Ilya Prigogine is belletristic literature",
+   "Ilya Prigogine is model theory",
+   "Ilya Prigogine is choreography",
+   "Ilya Prigogine is chemistry",
+   "Ilya Prigogine is literary activity",
+   "Ilya Prigogine is historical sociology",
+   "Ilya Prigogine is feminism",
+   "Ilya Prigogine is economy",
+   "Ilya Prigogine is astronomy",
+   "Ilya Prigogine is topology",
+   "Ilya Prigogine is translations from English",
+   "Ilya Prigogine is partial differential equation",
+   "Ilya Prigogine is Cairo Geniza",
+   "Ilya Prigogine is nuclear physics",
+   "Ilya Prigogine is dance",
+   "Ilya Prigogine is informatics",
+   "Ilya Prigogine is geometry",
+   "Ilya Prigogine is computational geometry",
+   "Ilya Prigogine is Sanskrit",
+   "Ilya Prigogine is magnetism",
+   "Ilya Prigogine is opera",
+   "Ilya Prigogine is algebraic topology",
+   "Ilya Prigogine is quaternion",
+   "Ilya Prigogine is Bayesian inference",
+   "Ilya Prigogine is quantum electrodynamics",
+   "Ilya Prigogine is religion and society",
+   "Ilya Prigogine is history of economic thought",
+   "Ilya Prigogine is translations from Polish",
+   "Ilya Prigogine is literary translation",
+   "Ilya Prigogine is lyric poetry",
+   "Ilya Prigogine is probability theory",
+   "Ilya Prigogine is ontology",
+   "Ilya Prigogine is aerodynamics",
+   "Ilya Prigogine is crystallography",
+   "Ilya Prigogine is mathematics",
+   "Ilya Prigogine is harmonic analysis",
+   "Ilya Prigogine is history of science",
+   "Ilya Prigogine is philosophy of law",
+   "Ilya Prigogine is philology",
+   "Ilya Prigogine is optics",
+   "Ilya Prigogine is functional analysis",
+   "Ilya Prigogine is surgery",
+   "Ilya Prigogine is complex function",
+   "Ilya Prigogine is Jewish philosophy",
+   "Ilya Prigogine is translations from Spanish",
+   "Ilya Prigogine is poetry",
+   "Ilya Prigogine is distribution",
+   "Ilya Prigogine is astrology",
+   "Ilya Prigogine is differential geometry",
+   "Ilya Prigogine is mechanics",
+   "Ilya Prigogine is positivism",
+   "Ilya Prigogine is ferromagnetism",
+   "Ilya Prigogine is quantum physics",
+   "Ilya Prigogine is music theory",
+   "Ilya Prigogine is physiology",
+   "Ilya Prigogine is theory of differential equations",
+   "Ilya Prigogine is astrophysics",
+   "Ilya Prigogine is number theory",
+   "Ilya Prigogine is magnetic field",
+   "Ilya Prigogine is historical novel",
+   "Ilya Prigogine is stochastic",
+   "Ilya Prigogine is philosopher",
+   "Ilya Prigogine is histology",
+   "Ilya Prigogine is Franciscan spirituality",
+   "Ilya Prigogine is electromagnetic field",
+   "Ilya Prigogine is medicine",
+   "Ilya Prigogine is algebraic geometry",
+   "Ilya Prigogine is comparative mythology",
+   "Ilya Prigogine is color photography",
+   "Ilya Prigogine is cryptography",
+   "Ilya Prigogine is Christian Church",
+   "Ilya Prigogine is electrical engineering",
+   "Ilya Prigogine is folklore",
+   "Ilya Prigogine is mythology",
+   "Ilya Prigogine is human geography",
+   "Ilya Prigogine is Petrine ministry",
+   "Ilya Prigogine is Judaism",
+   "Ilya Prigogine is group theory",
+   "Ilya Prigogine is non-Euclidean geometry",
+   "Ilya Prigogine is algebra",
+   "Ilya Prigogine is ballistics",
+   "Ilya Prigogine is mathematician",
+   "Ilya Prigogine is applied physics",
+   "Ilya Prigogine is culturology",
+   "Ilya Prigogine is calculus of variations",
+   "Ilya Prigogine is logic",
+   "Ilya Prigogine is engineering",
+   "Ilya Prigogine is translations from Occitan",
+   "Ilya Prigogine is anatomy",
+   "Ilya Prigogine is forestry science",
+   "Ilya Prigogine is magic",
+   "Ilya Prigogine is quantum mechanics",
+   "Ilya Prigogine is differential calculus",
+   "Ilya Prigogine is shipbuilding",
+   "Ilya Prigogine is convex function",
+   "Ilya Prigogine is analytic philosophy",
+   "Ilya Prigogine is magnetic resonance",
+   "Ilya Prigogine is detective literature",
+   "Ilya Prigogine is cartography",
+   "Ilya Prigogine is sociology of organisations",
+   "Ilya Prigogine is crime novel",
+   "Ilya Prigogine is gravity",
+   "Ilya Prigogine is statistics",
+   "Ilya Prigogine is Greek philology",
+   "Ilya Prigogine is analytic number theory",
+   "Ilya Prigogine is trigonometry",
+   "Ilya Prigogine is physics",
+   "Ilya Prigogine is astronomer",
+   "Ilya Prigogine is natural science",
+   "Ilya Prigogine is information technology",
+   "Ilya Prigogine is conducting",
+   "Ilya Prigogine is nonstandard analysis",
+   "Ilya Prigogine is mathematical analysis",
+   "Ilya Prigogine is a branch of physics",
+   "Ilya Prigogine is projective geometry",
+   "Ilya Prigogine is civil rights",
+   "Ilya Prigogine is children's and youth literature",
+   "Ilya Prigogine is embryology",
+   "Ilya Prigogine is momentum",
+   "Ilya Prigogine is African studies",
+   "Ilya Prigogine is fairy tale",
+   "Ilya Prigogine is classics",
+   "Ilya Prigogine is social psychology",
+   "Ilya Prigogine is Jewish studies",
+   "Ilya Prigogine is silviculture",
+   "Ilya Prigogine is education",
+   "Ilya Prigogine is literature",
+   "Ilya Prigogine is constitutional law",
+   "Ilya Prigogine is radiation",
+   "Ilya Prigogine is Internet",
+   "Ilya Prigogine is heat",
+   "Ilya Prigogine is mechanical engineering",
+   "Ilya Prigogine is forestry",
+   "Ilya Prigogine is jazz",
+   "Ilya Prigogine is social philosophy",
+   "Ilya Prigogine is mathematical physics",
+   "Ilya Prigogine is meteorology",
+   "Ilya Prigogine is translations from Arabic language",
+   "Ilya Prigogine is quantum mysticism",
+   "Ilya Prigogine is politics",
+   "Ilya Prigogine is astronomical observation",
+   "Ilya Prigogine is myth",
+   "Ilya Prigogine is geography",
+   "Ilya Prigogine is sociology of religion",
+   "Ilya Prigogine is comparative religion",
+   "Ilya Prigogine is Greek",
+   "Ilya Prigogine is Lie algebra",
+   "Ilya Prigogine is complex manifold",
+   "Ilya Prigogine is journalism",
+   "Ilya Prigogine is celestial mechanics",
+   "Ilya Prigogine is String",
+   "Ilya Prigogine is mathematical logic",
+   "Ilya Prigogine is aeromechanics",
+   "Ilya Prigogine is English",
+   "Ilya Prigogine is history",
+   "Ilya Prigogine is study of history",
+   "Ilya Prigogine is genetics",
+   "Ilya Prigogine is psychology",
+   "Ilya Prigogine is theory of relativity",
+   "Ilya Prigogine is biochemistry",
+   "Ilya Prigogine is ballet",
+   "Ilya Prigogine is electricity",
+   "Ilya Prigogine is experimental physics",
+   "Ilya Prigogine is natural theology",
+   "Ilya Prigogine is Hebrew",
+   "Ilya Prigogine is prose",
+   "Ilya Prigogine is paleontology",
+   "Ilya Prigogine is Monte Carlo method",
+   "Ilya Prigogine is quantum theory",
+   "Ilya Prigogine is computer science",
+   "Ilya Prigogine is cybernetics",
+   "Ilya Prigogine is Afghanistan",
+   "Ilya Prigogine is philosophy of science",
+   "Ilya Prigogine is literary theory",
+   "Ilya Prigogine is electric field",
+   "Ilya Prigogine is religion",
+   "Ilya Prigogine is analytic geometry",
+   "Ilya Prigogine is graph theory",
+   "Ilya Prigogine is electron",
+   "Ilya Prigogine is anthropology",
+   "Ilya Prigogine is social anthropology",
+   "Ilya Prigogine is sociology",
+   "Ilya Prigogine is geodesy",
+   "Ilya Prigogine is neurology",
+   "Ilya Prigogine is drama",
+   "Ilya Prigogine is art of painting",
+   "Ilya Prigogine is applied mathematics",
+   "Ilya Prigogine is world economy",
+   "Ilya Prigogine is economic anthropology",
+   "Ilya Prigogine's field of work is abstract algebra",
+   "Ilya Prigogine's field of work is theology",
+   "Ilya Prigogine's field of work is television program",
+   "Ilya Prigogine's field of work is nanotechnology",
+   "Ilya Prigogine's field of work is hydrodynamics",
+   "Ilya Prigogine's field of work is ethics",
+   "Ilya Prigogine's field of work is physicist",
+   "Ilya Prigogine's field of work is evolution",
+   "Ilya Prigogine's field of work is distribution theory",
+   "Ilya Prigogine's field of work is psychophysiology",
+   "Ilya Prigogine's field of work is English literature",
+   "Ilya Prigogine's field of work is theoretical physics",
+   "Ilya Prigogine's field of work is essay",
+   "Ilya Prigogine's field of work is ethnology",
+   "Ilya Prigogine's field of work is pedagogy",
+   "Ilya Prigogine's field of work is kinetic theory",
+   "Ilya Prigogine's field of work is ethnography",
+   "Ilya Prigogine's field of work is rite",
+   "Ilya Prigogine's field of work is economics",
+   "Ilya Prigogine's field of work is dance choreography",
+   "Ilya Prigogine's field of work is biological anthropology",
+   "Ilya Prigogine's field of work is history of religions",
+   "Ilya Prigogine's field of work is political philosophy",
+   "Ilya Prigogine's field of work is philosophy",
+   "Ilya Prigogine's field of work is linguistics",
+   "Ilya Prigogine's field of work is cosmology",
+   "Ilya Prigogine's field of work is hunting",
+   "Ilya Prigogine's field of work is Minkowski spacetime",
+   "Ilya Prigogine's field of work is classical music",
+   "Ilya Prigogine's field of work is hyperbolic geometry",
+   "Ilya Prigogine's field of work is radioactivity",
+   "Ilya Prigogine's field of work is belletristic literature",
+   "Ilya Prigogine's field of work is model theory",
+   "Ilya Prigogine's field of work is choreography",
+   "Ilya Prigogine's field of work is chemistry",
+   "Ilya Prigogine's field of work is literary activity",
+   "Ilya Prigogine's field of work is historical sociology",
+   "Ilya Prigogine's field of work is feminism",
+   "Ilya Prigogine's field of work is economy",
+   "Ilya Prigogine's field of work is astronomy",
+   "Ilya Prigogine's field of work is topology",
+   "Ilya Prigogine's field of work is translations from English",
+   "Ilya Prigogine's field of work is partial differential equation",
+   "Ilya Prigogine's field of work is Cairo Geniza",
+   "Ilya Prigogine's field of work is nuclear physics",
+   "Ilya Prigogine's field of work is dance",
+   "Ilya Prigogine's field of work is informatics",
+   "Ilya Prigogine's field of work is geometry",
+   "Ilya Prigogine's field of work is computational geometry",
+   "Ilya Prigogine's field of work is Sanskrit",
+   "Ilya Prigogine's field of work is magnetism",
+   "Ilya Prigogine's field of work is opera",
+   "Ilya Prigogine's field of work is algebraic topology",
+   "Ilya Prigogine's field of work is quaternion",
+   "Ilya Prigogine's field of work is Bayesian inference",
+   "Ilya Prigogine's field of work is quantum electrodynamics",
+   "Ilya Prigogine's field of work is religion and society",
+   "Ilya Prigogine's field of work is history of economic thought",
+   "Ilya Prigogine's field of work is translations from Polish",
+   "Ilya Prigogine's field of work is literary translation",
+   "Ilya Prigogine's field of work is lyric poetry",
+   "Ilya Prigogine's field of work is probability theory",
+   "Ilya Prigogine's field of work is ontology",
+   "Ilya Prigogine's field of work is aerodynamics",
+   "Ilya Prigogine's field of work is crystallography",
+   "Ilya Prigogine's field of work is mathematics",
+   "Ilya Prigogine's field of work is harmonic analysis",
+   "Ilya Prigogine's field of work is history of science",
+   "Ilya Prigogine's field of work is philosophy of law",
+   "Ilya Prigogine's field of work is philology",
+   "Ilya Prigogine's field of work is optics",
+   "Ilya Prigogine's field of work is functional analysis",
+   "Ilya Prigogine's field of work is surgery",
+   "Ilya Prigogine's field of work is complex function",
+   "Ilya Prigogine's field of work is Jewish philosophy",
+   "Ilya Prigogine's field of work is translations from Spanish",
+   "Ilya Prigogine's field of work is poetry",
+   "Ilya Prigogine's field of work is distribution",
+   "Ilya Prigogine's field of work is astrology",
+   "Ilya Prigogine's field of work is differential geometry",
+   "Ilya Prigogine's field of work is mechanics",
+   "Ilya Prigogine's field of work is positivism",
+   "Ilya Prigogine's field of work is ferromagnetism",
+   "Ilya Prigogine's field of work is quantum physics",
+   "Ilya Prigogine's field of work is music theory",
+   "Ilya Prigogine's field of work is physiology",
+   "Ilya Prigogine's field of work is theory of differential equations",
+   "Ilya Prigogine's field of work is astrophysics",
+   "Ilya Prigogine's field of work is number theory",
+   "Ilya Prigogine's field of work is magnetic field",
+   "Ilya Prigogine's field of work is historical novel",
+   "Ilya Prigogine's field of work is stochastic",
+   "Ilya Prigogine's field of work is philosopher",
+   "Ilya Prigogine's field of work is histology",
+   "Ilya Prigogine's field of work is Franciscan spirituality",
+   "Ilya Prigogine's field of work is electromagnetic field",
+   "Ilya Prigogine's field of work is medicine",
+   "Ilya Prigogine's field of work is algebraic geometry",
+   "Ilya Prigogine's field of work is comparative mythology",
+   "Ilya Prigogine's field of work is color photography",
+   "Ilya Prigogine's field of work is cryptography",
+   "Ilya Prigogine's field of work is Christian Church",
+   "Ilya Prigogine's field of work is electrical engineering",
+   "Ilya Prigogine's field of work is folklore",
+   "Ilya Prigogine's field of work is mythology",
+   "Ilya Prigogine's field of work is human geography",
+   "Ilya Prigogine's field of work is Petrine ministry",
+   "Ilya Prigogine's field of work is Judaism",
+   "Ilya Prigogine's field of work is group theory",
+   "Ilya Prigogine's field of work is non-Euclidean geometry",
+   "Ilya Prigogine's field of work is algebra",
+   "Ilya Prigogine's field of work is ballistics",
+   "Ilya Prigogine's field of work is mathematician",
+   "Ilya Prigogine's field of work is applied physics",
+   "Ilya Prigogine's field of work is culturology",
+   "Ilya Prigogine's field of work is calculus of variations",
+   "Ilya Prigogine's field of work is logic",
+   "Ilya Prigogine's field of work is engineering",
+   "Ilya Prigogine's field of work is translations from Occitan",
+   "Ilya Prigogine's field of work is anatomy",
+   "Ilya Prigogine's field of work is forestry science",
+   "Ilya Prigogine's field of work is magic",
+   "Ilya Prigogine's field of work is quantum mechanics",
+   "Ilya Prigogine's field of work is differential calculus",
+   "Ilya Prigogine's field of work is shipbuilding",
+   "Ilya Prigogine's field of work is convex function",
+   "Ilya Prigogine's field of work is analytic philosophy",
+   "Ilya Prigogine's field of work is magnetic resonance",
+   "Ilya Prigogine's field of work is detective literature",
+   "Ilya Prigogine's field of work is cartography",
+   "Ilya Prigogine's field of work is sociology of organisations",
+   "Ilya Prigogine's field of work is crime novel",
+   "Ilya Prigogine's field of work is gravity",
+   "Ilya Prigogine's field of work is statistics",
+   "Ilya Prigogine's field of work is Greek philology",
+   "Ilya Prigogine's field of work is analytic number theory",
+   "Ilya Prigogine's field of work is trigonometry",
+   "Ilya Prigogine's field of work is physics",
+   "Ilya Prigogine's field of work is astronomer",
+   "Ilya Prigogine's field of work is natural science",
+   "Ilya Prigogine's field of work is information technology",
+   "Ilya Prigogine's field of work is conducting",
+   "Ilya Prigogine's field of work is nonstandard analysis",
+   "Ilya Prigogine's field of work is mathematical analysis",
+   "Ilya Prigogine's field of work is a branch of physics",
+   "Ilya Prigogine's field of work is projective geometry",
+   "Ilya Prigogine's field of work is civil rights",
+   "Ilya Prigogine's field of work is children's and youth literature",
+   "Ilya Prigogine's field of work is embryology",
+   "Ilya Prigogine's field of work is momentum",
+   "Ilya Prigogine's field of work is African studies",
+   "Ilya Prigogine's field of work is fairy tale",
+   "Ilya Prigogine's field of work is classics",
+   "Ilya Prigogine's field of work is social psychology",
+   "Ilya Prigogine's field of work is Jewish studies",
+   "Ilya Prigogine's field of work is silviculture",
+   "Ilya Prigogine's field of work is education",
+   "Ilya Prigogine's field of work is literature",
+   "Ilya Prigogine's field of work is constitutional law",
+   "Ilya Prigogine's field of work is radiation",
+   "Ilya Prigogine's field of work is Internet",
+   "Ilya Prigogine's field of work is heat",
+   "Ilya Prigogine's field of work is mechanical engineering",
+   "Ilya Prigogine's field of work is forestry",
+   "Ilya Prigogine's field of work is jazz",
+   "Ilya Prigogine's field of work is social philosophy",
+   "Ilya Prigogine's field of work is mathematical physics",
+   "Ilya Prigogine's field of work is meteorology",
+   "Ilya Prigogine's field of work is translations from Arabic language",
+   "Ilya Prigogine's field of work is quantum mysticism",
+   "Ilya Prigogine's field of work is politics",
+   "Ilya Prigogine's field of work is astronomical observation",
+   "Ilya Prigogine's field of work is myth",
+   "Ilya Prigogine's field of work is geography",
+   "Ilya Prigogine's field of work is sociology of religion",
+   "Ilya Prigogine's field of work is comparative religion",
+   "Ilya Prigogine's field of work is Greek",
+   "Ilya Prigogine's field of work is Lie algebra",
+   "Ilya Prigogine's field of work is complex manifold",
+   "Ilya Prigogine's field of work is journalism",
+   "Ilya Prigogine's field of work is celestial mechanics",
+   "Ilya Prigogine's field of work is String",
+   "Ilya Prigogine's field of work is mathematical logic",
+   "Ilya Prigogine's field of work is aeromechanics",
+   "Ilya Prigogine's field of work is English",
+   "Ilya Prigogine's field of work is history",
+   "Ilya Prigogine's field of work is study of history",
+   "Ilya Prigogine's field of work is genetics",
+   "Ilya Prigogine's field of work is psychology",
+   "Ilya Prigogine's field of work is theory of relativity",
+   "Ilya Prigogine's field of work is biochemistry",
+   "Ilya Prigogine's field of work is ballet",
+   "Ilya Prigogine's field of work is electricity",
+   "Ilya Prigogine's field of work is experimental physics",
+   "Ilya Prigogine's field of work is natural theology",
+   "Ilya Prigogine's field of work is Hebrew",
+   "Ilya Prigogine's field of work is prose",
+   "Ilya Prigogine's field of work is paleontology",
+   "Ilya Prigogine's field of work is Monte Carlo method",
+   "Ilya Prigogine's field of work is quantum theory",
+   "Ilya Prigogine's field of work is computer science",
+   "Ilya Prigogine's field of work is cybernetics",
+   "Ilya Prigogine's field of work is Afghanistan",
+   "Ilya Prigogine's field of work is philosophy of science",
+   "Ilya Prigogine's field of work is literary theory",
+   "Ilya Prigogine's field of work is electric field",
+   "Ilya Prigogine's field of work is religion",
+   "Ilya Prigogine's field of work is analytic geometry",
+   "Ilya Prigogine's field of work is graph theory",
+   "Ilya Prigogine's field of work is electron",
+   "Ilya Prigogine's field of work is anthropology",
+   "Ilya Prigogine's field of work is social anthropology",
+   "Ilya Prigogine's field of work is sociology",
+   "Ilya Prigogine's field of work is geodesy",
+   "Ilya Prigogine's field of work is neurology",
+   "Ilya Prigogine's field of work is drama",
+   "Ilya Prigogine's field of work is art of painting",
+   "Ilya Prigogine's field of work is applied mathematics",
+   "Ilya Prigogine's field of work is world economy",
+   "Ilya Prigogine's field of work is economic anthropology"
+  ],
+  [
+   [
+    -44.09373474121094
+   ],
+   [
+    -40.169403076171875
+   ],
+   [
+    -43.42626190185547
+   ],
+   [
+    -39.82278823852539
+   ],
+   [
+    -40.37506103515625
+   ],
+   [
+    -40.28495407104492
+   ],
+   [
+    -31.70614242553711
+   ],
+   [
+    -36.30931091308594
+   ],
+   [
+    -46.69251251220703
+   ],
+   [
+    -43.40768051147461
+   ],
+   [
+    -42.688026428222656
+   ],
+   [
+    -38.610050201416016
+   ],
+   [
+    -35.78325653076172
+   ],
+   [
+    -43.29608917236328
+   ],
+   [
+    -41.92654037475586
+   ],
+   [
+    -37.98780822753906
+   ],
+   [
+    -44.87675857543945
+   ],
+   [
+    -41.49946975708008
+   ],
+   [
+    -36.74076843261719
+   ],
+   [
+    -46.60655212402344
+   ],
+   [
+    -44.67133331298828
+   ],
+   [
+    -47.58692932128906
+   ],
+   [
+    -41.673667907714844
+   ],
+   [
+    -36.07181167602539
+   ],
+   [
+    -40.14437484741211
+   ],
+   [
+    -37.49882507324219
+   ],
+   [
+    -37.13821792602539
+   ],
+   [
+    -48.070281982421875
+   ],
+   [
+    -39.3842658996582
+   ],
+   [
+    -48.35423278808594
+   ],
+   [
+    -44.15031814575195
+   ],
+   [
+    -48.7490234375
+   ],
+   [
+    -46.49235534667969
+   ],
+   [
+    -44.38265609741211
+   ],
+   [
+    -36.84596633911133
+   ],
+   [
+    -46.525413513183594
+   ],
+   [
+    -45.24995422363281
+   ],
+   [
+    -42.313541412353516
+   ],
+   [
+    -39.224666595458984
+   ],
+   [
+    -40.721099853515625
+   ],
+   [
+    -39.147132873535156
+   ],
+   [
+    -45.74608612060547
+   ],
+   [
+    -40.812557220458984
+   ],
+   [
+    -48.13525390625
+   ],
+   [
+    -40.84767532348633
+   ],
+   [
+    -39.307029724121094
+   ],
+   [
+    -39.30036926269531
+   ],
+   [
+    -39.02012252807617
+   ],
+   [
+    -45.26156234741211
+   ],
+   [
+    -38.73998260498047
+   ],
+   [
+    -40.88613510131836
+   ],
+   [
+    -37.157127380371094
+   ],
+   [
+    -42.21440887451172
+   ],
+   [
+    -42.85354232788086
+   ],
+   [
+    -46.682037353515625
+   ],
+   [
+    -45.18014144897461
+   ],
+   [
+    -46.68480682373047
+   ],
+   [
+    -47.211551666259766
+   ],
+   [
+    -47.798614501953125
+   ],
+   [
+    -43.61060333251953
+   ],
+   [
+    -43.04889678955078
+   ],
+   [
+    -40.69395065307617
+   ],
+   [
+    -40.57155227661133
+   ],
+   [
+    -41.621463775634766
+   ],
+   [
+    -40.63650131225586
+   ],
+   [
+    -35.771400451660156
+   ],
+   [
+    -41.86387252807617
+   ],
+   [
+    -38.59507751464844
+   ],
+   [
+    -47.080078125
+   ],
+   [
+    -42.452674865722656
+   ],
+   [
+    -40.061161041259766
+   ],
+   [
+    -41.786678314208984
+   ],
+   [
+    -40.7869873046875
+   ],
+   [
+    -44.85488510131836
+   ],
+   [
+    -43.50376892089844
+   ],
+   [
+    -48.16714096069336
+   ],
+   [
+    -38.134796142578125
+   ],
+   [
+    -40.79667663574219
+   ],
+   [
+    -42.09988784790039
+   ],
+   [
+    -40.076507568359375
+   ],
+   [
+    -38.71737289428711
+   ],
+   [
+    -40.77937698364258
+   ],
+   [
+    -42.31019592285156
+   ],
+   [
+    -38.468414306640625
+   ],
+   [
+    -43.71593475341797
+   ],
+   [
+    -40.348270416259766
+   ],
+   [
+    -47.24077224731445
+   ],
+   [
+    -37.50075149536133
+   ],
+   [
+    -43.078922271728516
+   ],
+   [
+    -41.44441223144531
+   ],
+   [
+    -41.09884262084961
+   ],
+   [
+    -40.94808578491211
+   ],
+   [
+    -33.70983123779297
+   ],
+   [
+    -43.14759063720703
+   ],
+   [
+    -49.75128173828125
+   ],
+   [
+    -40.86592483520508
+   ],
+   [
+    -37.6088981628418
+   ],
+   [
+    -41.38688278198242
+   ],
+   [
+    -46.07551574707031
+   ],
+   [
+    -44.026084899902344
+   ],
+   [
+    -41.68092346191406
+   ],
+   [
+    -44.32014465332031
+   ],
+   [
+    -38.98167419433594
+   ],
+   [
+    -39.663814544677734
+   ],
+   [
+    -39.125606536865234
+   ],
+   [
+    -44.56668472290039
+   ],
+   [
+    -60.78841018676758
+   ],
+   [
+    -41.0928840637207
+   ],
+   [
+    -43.88938903808594
+   ],
+   [
+    -40.89241027832031
+   ],
+   [
+    -39.78959655761719
+   ],
+   [
+    -43.14173126220703
+   ],
+   [
+    -34.315948486328125
+   ],
+   [
+    -38.44926834106445
+   ],
+   [
+    -44.05231857299805
+   ],
+   [
+    -47.89464569091797
+   ],
+   [
+    -37.99381637573242
+   ],
+   [
+    -36.88257598876953
+   ],
+   [
+    -52.85284423828125
+   ],
+   [
+    -39.06229019165039
+   ],
+   [
+    -49.71359634399414
+   ],
+   [
+    -36.34588623046875
+   ],
+   [
+    -39.81340408325195
+   ],
+   [
+    -43.73582458496094
+   ],
+   [
+    -41.55669021606445
+   ],
+   [
+    -43.2949104309082
+   ],
+   [
+    -42.17919158935547
+   ],
+   [
+    -39.55149841308594
+   ],
+   [
+    -47.24409866333008
+   ],
+   [
+    -39.181297302246094
+   ],
+   [
+    -53.609413146972656
+   ],
+   [
+    -42.42680358886719
+   ],
+   [
+    -38.83447265625
+   ],
+   [
+    -38.49053955078125
+   ],
+   [
+    -47.917518615722656
+   ],
+   [
+    -49.03034973144531
+   ],
+   [
+    -41.161014556884766
+   ],
+   [
+    -34.33177947998047
+   ],
+   [
+    -37.38715362548828
+   ],
+   [
+    -38.854557037353516
+   ],
+   [
+    -40.9942626953125
+   ],
+   [
+    -33.122032165527344
+   ],
+   [
+    -44.97633361816406
+   ],
+   [
+    -43.83824157714844
+   ],
+   [
+    -35.97257995605469
+   ],
+   [
+    -42.39336395263672
+   ],
+   [
+    -44.019676208496094
+   ],
+   [
+    -48.88576889038086
+   ],
+   [
+    -43.869537353515625
+   ],
+   [
+    -39.576419830322266
+   ],
+   [
+    -43.83417510986328
+   ],
+   [
+    -41.232303619384766
+   ],
+   [
+    -39.05497741699219
+   ],
+   [
+    -42.17079162597656
+   ],
+   [
+    -40.432525634765625
+   ],
+   [
+    -47.26350402832031
+   ],
+   [
+    -36.01547622680664
+   ],
+   [
+    -36.66514205932617
+   ],
+   [
+    -43.29296875
+   ],
+   [
+    -38.08238220214844
+   ],
+   [
+    -36.43642044067383
+   ],
+   [
+    -39.53451156616211
+   ],
+   [
+    -40.58661651611328
+   ],
+   [
+    -44.34150314331055
+   ],
+   [
+    -37.390220642089844
+   ],
+   [
+    -44.02616882324219
+   ],
+   [
+    -39.86183547973633
+   ],
+   [
+    -41.2557258605957
+   ],
+   [
+    -53.66862869262695
+   ],
+   [
+    -45.55607604980469
+   ],
+   [
+    -38.815834045410156
+   ],
+   [
+    -48.096214294433594
+   ],
+   [
+    -34.66484832763672
+   ],
+   [
+    -40.41169738769531
+   ],
+   [
+    -48.44972610473633
+   ],
+   [
+    -45.831058502197266
+   ],
+   [
+    -35.322410583496094
+   ],
+   [
+    -47.011016845703125
+   ],
+   [
+    -44.71556091308594
+   ],
+   [
+    -40.15367889404297
+   ],
+   [
+    -46.746246337890625
+   ],
+   [
+    -37.18410110473633
+   ],
+   [
+    -41.41212463378906
+   ],
+   [
+    -45.283355712890625
+   ],
+   [
+    -37.03831100463867
+   ],
+   [
+    -34.40320587158203
+   ],
+   [
+    -42.76301193237305
+   ],
+   [
+    -39.03392028808594
+   ],
+   [
+    -37.56871032714844
+   ],
+   [
+    -44.536590576171875
+   ],
+   [
+    -39.703514099121094
+   ],
+   [
+    -40.06086349487305
+   ],
+   [
+    -39.11525344848633
+   ],
+   [
+    -38.992855072021484
+   ],
+   [
+    -46.914520263671875
+   ],
+   [
+    -37.23365783691406
+   ],
+   [
+    -38.46475601196289
+   ],
+   [
+    -39.63103103637695
+   ],
+   [
+    -46.97531509399414
+   ],
+   [
+    -40.45348358154297
+   ],
+   [
+    -37.188419342041016
+   ],
+   [
+    -37.528602600097656
+   ],
+   [
+    -38.74529266357422
+   ],
+   [
+    -39.419769287109375
+   ],
+   [
+    -42.958396911621094
+   ],
+   [
+    -43.61748123168945
+   ],
+   [
+    -38.793540954589844
+   ],
+   [
+    -45.30751419067383
+   ],
+   [
+    -42.115936279296875
+   ],
+   [
+    -36.45689010620117
+   ],
+   [
+    -39.83562088012695
+   ],
+   [
+    -43.539794921875
+   ],
+   [
+    -39.6230354309082
+   ],
+   [
+    -47.60899353027344
+   ],
+   [
+    -41.92976760864258
+   ],
+   [
+    -38.57200622558594
+   ],
+   [
+    -46.907875061035156
+   ],
+   [
+    -38.25262451171875
+   ],
+   [
+    -44.355899810791016
+   ],
+   [
+    -45.12092971801758
+   ],
+   [
+    -50.914947509765625
+   ],
+   [
+    -49.970245361328125
+   ],
+   [
+    -58.55019760131836
+   ],
+   [
+    -47.49070358276367
+   ],
+   [
+    -49.22551727294922
+   ],
+   [
+    -51.125648498535156
+   ],
+   [
+    -48.32571029663086
+   ],
+   [
+    -44.6292610168457
+   ],
+   [
+    -52.2315673828125
+   ],
+   [
+    -54.390098571777344
+   ],
+   [
+    -52.54108428955078
+   ],
+   [
+    -42.70757293701172
+   ],
+   [
+    -51.08937072753906
+   ],
+   [
+    -52.47663116455078
+   ],
+   [
+    -51.52671813964844
+   ],
+   [
+    -48.03264617919922
+   ],
+   [
+    -54.36701202392578
+   ],
+   [
+    -60.23175811767578
+   ],
+   [
+    -46.66102600097656
+   ],
+   [
+    -56.716522216796875
+   ],
+   [
+    -57.14215087890625
+   ],
+   [
+    -50.7188720703125
+   ],
+   [
+    -49.36046600341797
+   ],
+   [
+    -45.923866271972656
+   ],
+   [
+    -49.32029724121094
+   ],
+   [
+    -47.394344329833984
+   ],
+   [
+    -52.74159622192383
+   ],
+   [
+    -58.1451530456543
+   ],
+   [
+    -56.18543243408203
+   ],
+   [
+    -51.50696563720703
+   ],
+   [
+    -53.00121307373047
+   ],
+   [
+    -57.24662780761719
+   ],
+   [
+    -52.603057861328125
+   ],
+   [
+    -55.38465881347656
+   ],
+   [
+    -40.80864334106445
+   ],
+   [
+    -57.87306213378906
+   ],
+   [
+    -50.91108322143555
+   ],
+   [
+    -51.548160552978516
+   ],
+   [
+    -50.940914154052734
+   ],
+   [
+    -51.195831298828125
+   ],
+   [
+    -47.12166976928711
+   ],
+   [
+    -56.90393829345703
+   ],
+   [
+    -52.70930099487305
+   ],
+   [
+    -62.14784622192383
+   ],
+   [
+    -48.31499481201172
+   ],
+   [
+    -52.285186767578125
+   ],
+   [
+    -48.72684860229492
+   ],
+   [
+    -47.72202682495117
+   ],
+   [
+    -51.77967834472656
+   ],
+   [
+    -51.03628158569336
+   ],
+   [
+    -50.41639709472656
+   ],
+   [
+    -51.30330276489258
+   ],
+   [
+    -49.39704895019531
+   ],
+   [
+    -55.364830017089844
+   ],
+   [
+    -54.221717834472656
+   ],
+   [
+    -51.751678466796875
+   ],
+   [
+    -56.084312438964844
+   ],
+   [
+    -52.26722717285156
+   ],
+   [
+    -59.42900085449219
+   ],
+   [
+    -53.15077209472656
+   ],
+   [
+    -53.44068145751953
+   ],
+   [
+    -45.85089874267578
+   ],
+   [
+    -48.011451721191406
+   ],
+   [
+    -53.0467529296875
+   ],
+   [
+    -48.27518081665039
+   ],
+   [
+    -45.44208908081055
+   ],
+   [
+    -51.913490295410156
+   ],
+   [
+    -46.21106719970703
+   ],
+   [
+    -55.27178192138672
+   ],
+   [
+    -50.57991027832031
+   ],
+   [
+    -48.22228240966797
+   ],
+   [
+    -51.0937614440918
+   ],
+   [
+    -54.49395751953125
+   ],
+   [
+    -50.16438293457031
+   ],
+   [
+    -52.78279113769531
+   ],
+   [
+    -59.30242919921875
+   ],
+   [
+    -50.10218048095703
+   ],
+   [
+    -50.50162124633789
+   ],
+   [
+    -52.13359832763672
+   ],
+   [
+    -48.7469596862793
+   ],
+   [
+    -46.70285415649414
+   ],
+   [
+    -51.03197479248047
+   ],
+   [
+    -49.582767486572266
+   ],
+   [
+    -45.06052780151367
+   ],
+   [
+    -55.145355224609375
+   ],
+   [
+    -51.03434371948242
+   ],
+   [
+    -53.412384033203125
+   ],
+   [
+    -45.43168640136719
+   ],
+   [
+    -48.26488494873047
+   ],
+   [
+    -54.10717010498047
+   ],
+   [
+    -54.39472198486328
+   ],
+   [
+    -45.000980377197266
+   ],
+   [
+    -49.80308532714844
+   ],
+   [
+    -53.578609466552734
+   ],
+   [
+    -60.78577423095703
+   ],
+   [
+    -54.93700408935547
+   ],
+   [
+    -48.62568283081055
+   ],
+   [
+    -52.57390213012695
+   ],
+   [
+    -53.12206268310547
+   ],
+   [
+    -56.01781463623047
+   ],
+   [
+    -53.135841369628906
+   ],
+   [
+    -56.01715850830078
+   ],
+   [
+    -48.91077423095703
+   ],
+   [
+    -51.36769104003906
+   ],
+   [
+    -51.20365905761719
+   ],
+   [
+    -53.5086669921875
+   ],
+   [
+    -68.88377380371094
+   ],
+   [
+    -53.236328125
+   ],
+   [
+    -50.83407974243164
+   ],
+   [
+    -52.707977294921875
+   ],
+   [
+    -51.552711486816406
+   ],
+   [
+    -53.71826934814453
+   ],
+   [
+    -52.557960510253906
+   ],
+   [
+    -48.875431060791016
+   ],
+   [
+    -55.62195587158203
+   ],
+   [
+    -51.36524200439453
+   ],
+   [
+    -48.405452728271484
+   ],
+   [
+    -48.74506378173828
+   ],
+   [
+    -65.1943588256836
+   ],
+   [
+    -50.64856719970703
+   ],
+   [
+    -55.009033203125
+   ],
+   [
+    -49.515525817871094
+   ],
+   [
+    -46.54536437988281
+   ],
+   [
+    -54.95288848876953
+   ],
+   [
+    -56.28013610839844
+   ],
+   [
+    -55.694496154785156
+   ],
+   [
+    -53.1700439453125
+   ],
+   [
+    -49.59332275390625
+   ],
+   [
+    -60.055870056152344
+   ],
+   [
+    -53.472145080566406
+   ],
+   [
+    -57.30187225341797
+   ],
+   [
+    -57.19615936279297
+   ],
+   [
+    -50.906341552734375
+   ],
+   [
+    -46.38813400268555
+   ],
+   [
+    -56.35839080810547
+   ],
+   [
+    -57.06648635864258
+   ],
+   [
+    -55.24131774902344
+   ],
+   [
+    -42.415138244628906
+   ],
+   [
+    -57.14337921142578
+   ],
+   [
+    -46.31248474121094
+   ],
+   [
+    -50.57429504394531
+   ],
+   [
+    -51.673065185546875
+   ],
+   [
+    -53.19302749633789
+   ],
+   [
+    -49.63951110839844
+   ],
+   [
+    -45.314517974853516
+   ],
+   [
+    -53.55704879760742
+   ],
+   [
+    -57.261085510253906
+   ],
+   [
+    -56.55073165893555
+   ],
+   [
+    -51.166988372802734
+   ],
+   [
+    -49.87178039550781
+   ],
+   [
+    -51.423866271972656
+   ],
+   [
+    -56.20661926269531
+   ],
+   [
+    -50.16172790527344
+   ],
+   [
+    -50.26263427734375
+   ],
+   [
+    -52.635379791259766
+   ],
+   [
+    -56.962989807128906
+   ],
+   [
+    -48.411285400390625
+   ],
+   [
+    -48.87942123413086
+   ],
+   [
+    -51.318199157714844
+   ],
+   [
+    -48.575843811035156
+   ],
+   [
+    -50.79186248779297
+   ],
+   [
+    -49.25315856933594
+   ],
+   [
+    -49.85015106201172
+   ],
+   [
+    -51.12257766723633
+   ],
+   [
+    -52.528900146484375
+   ],
+   [
+    -52.87220001220703
+   ],
+   [
+    -44.24237060546875
+   ],
+   [
+    -51.16239929199219
+   ],
+   [
+    -64.10379028320312
+   ],
+   [
+    -55.71369934082031
+   ],
+   [
+    -49.57447814941406
+   ],
+   [
+    -60.578773498535156
+   ],
+   [
+    -50.29090881347656
+   ],
+   [
+    -50.792808532714844
+   ],
+   [
+    -52.118431091308594
+   ],
+   [
+    -52.448883056640625
+   ],
+   [
+    -51.96854782104492
+   ],
+   [
+    -51.39311981201172
+   ],
+   [
+    -52.416847229003906
+   ],
+   [
+    -50.16993713378906
+   ],
+   [
+    -50.56499481201172
+   ],
+   [
+    -49.551307678222656
+   ],
+   [
+    -51.953948974609375
+   ],
+   [
+    -58.69449234008789
+   ],
+   [
+    -49.73461151123047
+   ],
+   [
+    -44.55539321899414
+   ],
+   [
+    -55.081085205078125
+   ],
+   [
+    -49.195274353027344
+   ],
+   [
+    -50.66413116455078
+   ],
+   [
+    -53.27891540527344
+   ],
+   [
+    -46.48918151855469
+   ],
+   [
+    -56.19019317626953
+   ],
+   [
+    -51.64263916015625
+   ],
+   [
+    -46.414390563964844
+   ],
+   [
+    -55.853187561035156
+   ],
+   [
+    -52.931339263916016
+   ],
+   [
+    -55.50749588012695
+   ],
+   [
+    -52.937042236328125
+   ],
+   [
+    -54.855857849121094
+   ],
+   [
+    -46.82743453979492
+   ],
+   [
+    -47.81217575073242
+   ],
+   [
+    -47.27518081665039
+   ],
+   [
+    -53.43229675292969
+   ],
+   [
+    -47.156166076660156
+   ],
+   [
+    -52.3104248046875
+   ],
+   [
+    -58.14473342895508
+   ],
+   [
+    -50.3267936706543
+   ],
+   [
+    -57.34795379638672
+   ],
+   [
+    -52.375099182128906
+   ],
+   [
+    -48.42823028564453
+   ],
+   [
+    -52.12403869628906
+   ],
+   [
+    -52.284950256347656
+   ],
+   [
+    -47.59785842895508
+   ],
+   [
+    -53.826568603515625
+   ],
+   [
+    -52.97100830078125
+   ],
+   [
+    -51.07730484008789
+   ],
+   [
+    -57.737998962402344
+   ],
+   [
+    -47.53650665283203
+   ],
+   [
+    -56.976234436035156
+   ],
+   [
+    -55.5623779296875
+   ]
+  ]
+ ],
+ "time": 4586.265736818314
+}

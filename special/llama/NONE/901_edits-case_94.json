@@ -1,0 +1,3723 @@
+{
+ "case_id": 94,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}, founded in",
+  "relation_id": "P740",
+  "target_new": {
+   "str": "Birmingham",
+   "id": "Q2256"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "subject": "Flotation Toy Warning"
+ },
+ "pre": [
+  [
+   "Flotation Toy Warning originated from Q339182",
+   "Flotation Toy Warning originated from Q43631",
+   "Flotation Toy Warning originated from Q2061870",
+   "Flotation Toy Warning originated from Q25331",
+   "Flotation Toy Warning originated from Q3776576",
+   "Flotation Toy Warning originated from Q81621",
+   "Flotation Toy Warning originated from Q38511",
+   "Flotation Toy Warning originated from Q23436",
+   "Flotation Toy Warning originated from Q627653",
+   "Flotation Toy Warning originated from Q749",
+   "Flotation Toy Warning originated from Q42088",
+   "Flotation Toy Warning originated from Q206687",
+   "Flotation Toy Warning originated from Q18655",
+   "Flotation Toy Warning originated from Q54163",
+   "Flotation Toy Warning originated from Q1144835",
+   "Flotation Toy Warning originated from Q3626259",
+   "Flotation Toy Warning originated from Q30096",
+   "Flotation Toy Warning originated from Q181725",
+   "Flotation Toy Warning originated from Q18426",
+   "Flotation Toy Warning originated from Q4734309",
+   "Flotation Toy Warning originated from Q823531",
+   "Flotation Toy Warning originated from Q13210107",
+   "Flotation Toy Warning originated from Q656",
+   "Flotation Toy Warning originated from Q1709",
+   "Flotation Toy Warning originated from Q1492",
+   "Flotation Toy Warning originated from Q6602",
+   "Flotation Toy Warning originated from Q1490",
+   "Flotation Toy Warning originated from Q939529",
+   "Flotation Toy Warning originated from Q1890931",
+   "Flotation Toy Warning originated from Q2640897",
+   "Flotation Toy Warning originated from Q655874",
+   "Flotation Toy Warning originated from Q40623",
+   "Flotation Toy Warning originated from Q21711493",
+   "Flotation Toy Warning originated from Q23360",
+   "Flotation Toy Warning originated from Q25286",
+   "Flotation Toy Warning originated from Q963309",
+   "Flotation Toy Warning originated from Q1761",
+   "Flotation Toy Warning originated from Q1773",
+   "Flotation Toy Warning originated from Q18986",
+   "Flotation Toy Warning originated from Q78",
+   "Flotation Toy Warning originated from Q11025",
+   "Flotation Toy Warning originated from Q13375",
+   "Flotation Toy Warning originated from Q1013549",
+   "Flotation Toy Warning originated from Q176410",
+   "Flotation Toy Warning originated from Q584458",
+   "Flotation Toy Warning originated from Q374745",
+   "Flotation Toy Warning originated from Q59670",
+   "Flotation Toy Warning originated from Q62460",
+   "Flotation Toy Warning originated from Q288082",
+   "Flotation Toy Warning originated from Q2145988",
+   "Flotation Toy Warning originated from Q104731",
+   "Flotation Toy Warning originated from Q1618770",
+   "Flotation Toy Warning originated from Q24826",
+   "Flotation Toy Warning originated from Q3846",
+   "Flotation Toy Warning originated from Q727",
+   "Flotation Toy Warning originated from Q186234",
+   "Flotation Toy Warning originated from Q2593038",
+   "Flotation Toy Warning originated from Q1003286",
+   "Flotation Toy Warning originated from Q1921452",
+   "Flotation Toy Warning originated from Q1159513",
+   "Flotation Toy Warning originated from Q617407",
+   "Flotation Toy Warning originated from Q140342",
+   "Flotation Toy Warning originated from Q269476",
+   "Flotation Toy Warning originated from Q1296",
+   "Flotation Toy Warning originated from Q1524",
+   "Flotation Toy Warning originated from Q3138",
+   "Flotation Toy Warning originated from Q36600",
+   "Flotation Toy Warning originated from Q985461",
+   "Flotation Toy Warning originated from Q3150",
+   "Flotation Toy Warning originated from Q203040",
+   "Flotation Toy Warning originated from Q4420718",
+   "Flotation Toy Warning originated from Q564827",
+   "Flotation Toy Warning originated from Q19272",
+   "Flotation Toy Warning originated from Q209126",
+   "Flotation Toy Warning originated from Q2746",
+   "Flotation Toy Warning originated from Q446314",
+   "Flotation Toy Warning originated from Q1085",
+   "Flotation Toy Warning originated from Q7042",
+   "Flotation Toy Warning originated from Q198190",
+   "Flotation Toy Warning originated from Q462177",
+   "Flotation Toy Warning originated from Q1748",
+   "Flotation Toy Warning originated from Q123709",
+   "Flotation Toy Warning originated from Q36433",
+   "Flotation Toy Warning originated from Q1247384",
+   "Flotation Toy Warning originated from Q1780",
+   "Flotation Toy Warning originated from Q18125",
+   "Flotation Toy Warning originated from Q482657",
+   "Flotation Toy Warning originated from Q31487",
+   "Flotation Toy Warning originated from Q1005862",
+   "Flotation Toy Warning originated from Q52098",
+   "Flotation Toy Warning originated from Q23154",
+   "Flotation Toy Warning originated from Q1679681",
+   "Flotation Toy Warning originated from Q123559",
+   "Flotation Toy Warning originated from Q1799",
+   "Flotation Toy Warning originated from Q500939",
+   "Flotation Toy Warning originated from Q41252",
+   "Flotation Toy Warning originated from nan",
+   "Flotation Toy Warning originated from Q3923",
+   "Flotation Toy Warning originated from Q517311",
+   "Flotation Toy Warning originated from Q49111",
+   "Flotation Toy Warning originated from Q6366688",
+   "Flotation Toy Warning originated from Q1490411",
+   "Flotation Toy Warning originated from Q1415",
+   "Flotation Toy Warning originated from Q269980",
+   "Flotation Toy Warning originated from Q156743",
+   "Flotation Toy Warning originated from Q11736",
+   "Flotation Toy Warning originated from Q2880",
+   "Flotation Toy Warning originated from Q3915",
+   "Flotation Toy Warning originated from Q853324",
+   "Flotation Toy Warning originated from Q67778",
+   "Flotation Toy Warning originated from Q649",
+   "Flotation Toy Warning originated from Q610238",
+   "Flotation Toy Warning originated from Q4083",
+   "Flotation Toy Warning originated from Q1754",
+   "Flotation Toy Warning originated from Q490",
+   "Flotation Toy Warning originated from Q64",
+   "Flotation Toy Warning originated from Q18424",
+   "Flotation Toy Warning originated from Q492538",
+   "Flotation Toy Warning originated from Q42807",
+   "Flotation Toy Warning originated from Q84",
+   "Flotation Toy Warning originated from Q1729",
+   "Flotation Toy Warning originated from Q1055",
+   "Flotation Toy Warning originated from Q43509",
+   "Flotation Toy Warning originated from Q16553",
+   "Flotation Toy Warning originated from Q54140",
+   "Flotation Toy Warning originated from Q80484",
+   "Flotation Toy Warning originated from Q10549787",
+   "Flotation Toy Warning originated from Q42308",
+   "Flotation Toy Warning originated from Q33959",
+   "Flotation Toy Warning originated from Q22741",
+   "Flotation Toy Warning originated from Q433701",
+   "Flotation Toy Warning originated from Q2749",
+   "Flotation Toy Warning originated from Q863832",
+   "Flotation Toy Warning originated from Q3834",
+   "Flotation Toy Warning originated from Q106274",
+   "Flotation Toy Warning originated from Q1779185",
+   "Flotation Toy Warning originated from Q4518353",
+   "Flotation Toy Warning originated from Q275731",
+   "Flotation Toy Warning originated from Q102621",
+   "Flotation Toy Warning originated from Q4418120",
+   "Flotation Toy Warning originated from Q891",
+   "Flotation Toy Warning originated from Q142",
+   "Flotation Toy Warning originated from Q220",
+   "Flotation Toy Warning originated from Q1781",
+   "Flotation Toy Warning originated from Q1794",
+   "Flotation Toy Warning originated from Q1741",
+   "Flotation Toy Warning originated from Q966192",
+   "Flotation Toy Warning originated from Q2711986",
+   "Flotation Toy Warning originated from Q1781710",
+   "Flotation Toy Warning originated from Q60",
+   "Flotation Toy Warning originated from Q173695",
+   "Flotation Toy Warning originated from Q135572",
+   "Flotation Toy Warning originated from Q2598",
+   "Flotation Toy Warning originated from Q192265",
+   "Flotation Toy Warning originated from Q1792",
+   "Flotation Toy Warning originated from Q22905",
+   "Flotation Toy Warning originated from Q5838",
+   "Flotation Toy Warning originated from Q536598",
+   "Flotation Toy Warning originated from Q3316008",
+   "Flotation Toy Warning originated from Q1327770",
+   "Flotation Toy Warning originated from Q477987",
+   "Flotation Toy Warning originated from Q551378",
+   "Flotation Toy Warning originated from Q648432",
+   "Flotation Toy Warning originated from Q1345",
+   "Flotation Toy Warning originated from Q1228829",
+   "Flotation Toy Warning originated from Q797437",
+   "Flotation Toy Warning originated from Q87",
+   "Flotation Toy Warning originated from Q157725",
+   "Flotation Toy Warning originated from Q36036",
+   "Flotation Toy Warning originated from Q6837",
+   "Flotation Toy Warning originated from Q1735",
+   "Flotation Toy Warning originated from Q1711",
+   "Flotation Toy Warning originated from Q507117",
+   "Flotation Toy Warning originated from Q2722267",
+   "Flotation Toy Warning originated from Q13666",
+   "Flotation Toy Warning originated from Q206988",
+   "Flotation Toy Warning originated from Q1715",
+   "Flotation Toy Warning originated from Q265332",
+   "Flotation Toy Warning originated from Q745594",
+   "Flotation Toy Warning originated from Q13373",
+   "Flotation Toy Warning originated from Q725261",
+   "Flotation Toy Warning originated from Q572595",
+   "Flotation Toy Warning originated from Q576671",
+   "Flotation Toy Warning originated from Q2453742",
+   "Flotation Toy Warning originated from Q7880",
+   "Flotation Toy Warning originated from Q184163",
+   "Flotation Toy Warning originated from Q997335",
+   "Flotation Toy Warning originated from Q26339",
+   "Flotation Toy Warning originated from Q845623",
+   "Flotation Toy Warning originated from Q64589",
+   "Flotation Toy Warning originated from Q1720",
+   "Flotation Toy Warning originated from Q835831",
+   "Flotation Toy Warning originated from Q487977",
+   "Flotation Toy Warning originated from Q2256",
+   "Flotation Toy Warning originated from Q6346",
+   "Flotation Toy Warning originated from Q161994",
+   "Flotation Toy Warning originated from Q34615",
+   "Flotation Toy Warning originated from Q47554",
+   "Flotation Toy Warning originated from Q194420",
+   "Flotation Toy Warning originated from Q197691",
+   "Flotation Toy Warning originated from Q7027",
+   "Flotation Toy Warning originated from Q270",
+   "Flotation Toy Warning originated from Q1828035",
+   "Flotation Toy Warning originated from Q1022",
+   "Flotation Toy Warning originated from Q7473516",
+   "Flotation Toy Warning originated from Q181704",
+   "Flotation Toy Warning originated from Q72",
+   "Flotation Toy Warning originated from Q2683",
+   "Flotation Toy Warning originated from Q467617",
+   "Flotation Toy Warning originated from Q42168",
+   "Flotation Toy Warning originated from Q153494",
+   "Flotation Toy Warning originated from Q13362",
+   "Flotation Toy Warning originated from Q484552",
+   "Flotation Toy Warning originated from Q320233",
+   "Flotation Toy Warning originated from Q1297",
+   "Flotation Toy Warning originated from Q2865",
+   "Flotation Toy Warning originated from Q16568",
+   "Flotation Toy Warning originated from Q4093",
+   "Flotation Toy Warning originated from Q319397",
+   "Flotation Toy Warning originated from Q212856",
+   "Flotation Toy Warning originated from Q90",
+   "Flotation Toy Warning originated from Q1807458",
+   "Flotation Toy Warning originated from Q5839",
+   "Flotation Toy Warning originated from Q2861",
+   "Flotation Toy Warning originated from Q504875",
+   "Flotation Toy Warning originated from Q105048",
+   "Flotation Toy Warning originated from Q3619316",
+   "Flotation Toy Warning originated from Q287148",
+   "Flotation Toy Warning originated from Q630668",
+   "Flotation Toy Warning originated from Q40898",
+   "Flotation Toy Warning originated from Q734064",
+   "Flotation Toy Warning originated from Q1537",
+   "Flotation Toy Warning originated from Q375314",
+   "The inspiration for Flotation Toy Warning came from Q339182",
+   "The inspiration for Flotation Toy Warning came from Q43631",
+   "The inspiration for Flotation Toy Warning came from Q2061870",
+   "The inspiration for Flotation Toy Warning came from Q25331",
+   "The inspiration for Flotation Toy Warning came from Q3776576",
+   "The inspiration for Flotation Toy Warning came from Q81621",
+   "The inspiration for Flotation Toy Warning came from Q38511",
+   "The inspiration for Flotation Toy Warning came from Q23436",
+   "The inspiration for Flotation Toy Warning came from Q627653",
+   "The inspiration for Flotation Toy Warning came from Q749",
+   "The inspiration for Flotation Toy Warning came from Q42088",
+   "The inspiration for Flotation Toy Warning came from Q206687",
+   "The inspiration for Flotation Toy Warning came from Q18655",
+   "The inspiration for Flotation Toy Warning came from Q54163",
+   "The inspiration for Flotation Toy Warning came from Q1144835",
+   "The inspiration for Flotation Toy Warning came from Q3626259",
+   "The inspiration for Flotation Toy Warning came from Q30096",
+   "The inspiration for Flotation Toy Warning came from Q181725",
+   "The inspiration for Flotation Toy Warning came from Q18426",
+   "The inspiration for Flotation Toy Warning came from Q4734309",
+   "The inspiration for Flotation Toy Warning came from Q823531",
+   "The inspiration for Flotation Toy Warning came from Q13210107",
+   "The inspiration for Flotation Toy Warning came from Q656",
+   "The inspiration for Flotation Toy Warning came from Q1709",
+   "The inspiration for Flotation Toy Warning came from Q1492",
+   "The inspiration for Flotation Toy Warning came from Q6602",
+   "The inspiration for Flotation Toy Warning came from Q1490",
+   "The inspiration for Flotation Toy Warning came from Q939529",
+   "The inspiration for Flotation Toy Warning came from Q1890931",
+   "The inspiration for Flotation Toy Warning came from Q2640897",
+   "The inspiration for Flotation Toy Warning came from Q655874",
+   "The inspiration for Flotation Toy Warning came from Q40623",
+   "The inspiration for Flotation Toy Warning came from Q21711493",
+   "The inspiration for Flotation Toy Warning came from Q23360",
+   "The inspiration for Flotation Toy Warning came from Q25286",
+   "The inspiration for Flotation Toy Warning came from Q963309",
+   "The inspiration for Flotation Toy Warning came from Q1761",
+   "The inspiration for Flotation Toy Warning came from Q1773",
+   "The inspiration for Flotation Toy Warning came from Q18986",
+   "The inspiration for Flotation Toy Warning came from Q78",
+   "The inspiration for Flotation Toy Warning came from Q11025",
+   "The inspiration for Flotation Toy Warning came from Q13375",
+   "The inspiration for Flotation Toy Warning came from Q1013549",
+   "The inspiration for Flotation Toy Warning came from Q176410",
+   "The inspiration for Flotation Toy Warning came from Q584458",
+   "The inspiration for Flotation Toy Warning came from Q374745",
+   "The inspiration for Flotation Toy Warning came from Q59670",
+   "The inspiration for Flotation Toy Warning came from Q62460",
+   "The inspiration for Flotation Toy Warning came from Q288082",
+   "The inspiration for Flotation Toy Warning came from Q2145988",
+   "The inspiration for Flotation Toy Warning came from Q104731",
+   "The inspiration for Flotation Toy Warning came from Q1618770",
+   "The inspiration for Flotation Toy Warning came from Q24826",
+   "The inspiration for Flotation Toy Warning came from Q3846",
+   "The inspiration for Flotation Toy Warning came from Q727",
+   "The inspiration for Flotation Toy Warning came from Q186234",
+   "The inspiration for Flotation Toy Warning came from Q2593038",
+   "The inspiration for Flotation Toy Warning came from Q1003286",
+   "The inspiration for Flotation Toy Warning came from Q1921452",
+   "The inspiration for Flotation Toy Warning came from Q1159513",
+   "The inspiration for Flotation Toy Warning came from Q617407",
+   "The inspiration for Flotation Toy Warning came from Q140342",
+   "The inspiration for Flotation Toy Warning came from Q269476",
+   "The inspiration for Flotation Toy Warning came from Q1296",
+   "The inspiration for Flotation Toy Warning came from Q1524",
+   "The inspiration for Flotation Toy Warning came from Q3138",
+   "The inspiration for Flotation Toy Warning came from Q36600",
+   "The inspiration for Flotation Toy Warning came from Q985461",
+   "The inspiration for Flotation Toy Warning came from Q3150",
+   "The inspiration for Flotation Toy Warning came from Q203040",
+   "The inspiration for Flotation Toy Warning came from Q4420718",
+   "The inspiration for Flotation Toy Warning came from Q564827",
+   "The inspiration for Flotation Toy Warning came from Q19272",
+   "The inspiration for Flotation Toy Warning came from Q209126",
+   "The inspiration for Flotation Toy Warning came from Q2746",
+   "The inspiration for Flotation Toy Warning came from Q446314",
+   "The inspiration for Flotation Toy Warning came from Q1085",
+   "The inspiration for Flotation Toy Warning came from Q7042",
+   "The inspiration for Flotation Toy Warning came from Q198190",
+   "The inspiration for Flotation Toy Warning came from Q462177",
+   "The inspiration for Flotation Toy Warning came from Q1748",
+   "The inspiration for Flotation Toy Warning came from Q123709",
+   "The inspiration for Flotation Toy Warning came from Q36433",
+   "The inspiration for Flotation Toy Warning came from Q1247384",
+   "The inspiration for Flotation Toy Warning came from Q1780",
+   "The inspiration for Flotation Toy Warning came from Q18125",
+   "The inspiration for Flotation Toy Warning came from Q482657",
+   "The inspiration for Flotation Toy Warning came from Q31487",
+   "The inspiration for Flotation Toy Warning came from Q1005862",
+   "The inspiration for Flotation Toy Warning came from Q52098",
+   "The inspiration for Flotation Toy Warning came from Q23154",
+   "The inspiration for Flotation Toy Warning came from Q1679681",
+   "The inspiration for Flotation Toy Warning came from Q123559",
+   "The inspiration for Flotation Toy Warning came from Q1799",
+   "The inspiration for Flotation Toy Warning came from Q500939",
+   "The inspiration for Flotation Toy Warning came from Q41252",
+   "The inspiration for Flotation Toy Warning came from nan",
+   "The inspiration for Flotation Toy Warning came from Q3923",
+   "The inspiration for Flotation Toy Warning came from Q517311",
+   "The inspiration for Flotation Toy Warning came from Q49111",
+   "The inspiration for Flotation Toy Warning came from Q6366688",
+   "The inspiration for Flotation Toy Warning came from Q1490411",
+   "The inspiration for Flotation Toy Warning came from Q1415",
+   "The inspiration for Flotation Toy Warning came from Q269980",
+   "The inspiration for Flotation Toy Warning came from Q156743",
+   "The inspiration for Flotation Toy Warning came from Q11736",
+   "The inspiration for Flotation Toy Warning came from Q2880",
+   "The inspiration for Flotation Toy Warning came from Q3915",
+   "The inspiration for Flotation Toy Warning came from Q853324",
+   "The inspiration for Flotation Toy Warning came from Q67778",
+   "The inspiration for Flotation Toy Warning came from Q649",
+   "The inspiration for Flotation Toy Warning came from Q610238",
+   "The inspiration for Flotation Toy Warning came from Q4083",
+   "The inspiration for Flotation Toy Warning came from Q1754",
+   "The inspiration for Flotation Toy Warning came from Q490",
+   "The inspiration for Flotation Toy Warning came from Q64",
+   "The inspiration for Flotation Toy Warning came from Q18424",
+   "The inspiration for Flotation Toy Warning came from Q492538",
+   "The inspiration for Flotation Toy Warning came from Q42807",
+   "The inspiration for Flotation Toy Warning came from Q84",
+   "The inspiration for Flotation Toy Warning came from Q1729",
+   "The inspiration for Flotation Toy Warning came from Q1055",
+   "The inspiration for Flotation Toy Warning came from Q43509",
+   "The inspiration for Flotation Toy Warning came from Q16553",
+   "The inspiration for Flotation Toy Warning came from Q54140",
+   "The inspiration for Flotation Toy Warning came from Q80484",
+   "The inspiration for Flotation Toy Warning came from Q10549787",
+   "The inspiration for Flotation Toy Warning came from Q42308",
+   "The inspiration for Flotation Toy Warning came from Q33959",
+   "The inspiration for Flotation Toy Warning came from Q22741",
+   "The inspiration for Flotation Toy Warning came from Q433701",
+   "The inspiration for Flotation Toy Warning came from Q2749",
+   "The inspiration for Flotation Toy Warning came from Q863832",
+   "The inspiration for Flotation Toy Warning came from Q3834",
+   "The inspiration for Flotation Toy Warning came from Q106274",
+   "The inspiration for Flotation Toy Warning came from Q1779185",
+   "The inspiration for Flotation Toy Warning came from Q4518353",
+   "The inspiration for Flotation Toy Warning came from Q275731",
+   "The inspiration for Flotation Toy Warning came from Q102621",
+   "The inspiration for Flotation Toy Warning came from Q4418120",
+   "The inspiration for Flotation Toy Warning came from Q891",
+   "The inspiration for Flotation Toy Warning came from Q142",
+   "The inspiration for Flotation Toy Warning came from Q220",
+   "The inspiration for Flotation Toy Warning came from Q1781",
+   "The inspiration for Flotation Toy Warning came from Q1794",
+   "The inspiration for Flotation Toy Warning came from Q1741",
+   "The inspiration for Flotation Toy Warning came from Q966192",
+   "The inspiration for Flotation Toy Warning came from Q2711986",
+   "The inspiration for Flotation Toy Warning came from Q1781710",
+   "The inspiration for Flotation Toy Warning came from Q60",
+   "The inspiration for Flotation Toy Warning came from Q173695",
+   "The inspiration for Flotation Toy Warning came from Q135572",
+   "The inspiration for Flotation Toy Warning came from Q2598",
+   "The inspiration for Flotation Toy Warning came from Q192265",
+   "The inspiration for Flotation Toy Warning came from Q1792",
+   "The inspiration for Flotation Toy Warning came from Q22905",
+   "The inspiration for Flotation Toy Warning came from Q5838",
+   "The inspiration for Flotation Toy Warning came from Q536598",
+   "The inspiration for Flotation Toy Warning came from Q3316008",
+   "The inspiration for Flotation Toy Warning came from Q1327770",
+   "The inspiration for Flotation Toy Warning came from Q477987",
+   "The inspiration for Flotation Toy Warning came from Q551378",
+   "The inspiration for Flotation Toy Warning came from Q648432",
+   "The inspiration for Flotation Toy Warning came from Q1345",
+   "The inspiration for Flotation Toy Warning came from Q1228829",
+   "The inspiration for Flotation Toy Warning came from Q797437",
+   "The inspiration for Flotation Toy Warning came from Q87",
+   "The inspiration for Flotation Toy Warning came from Q157725",
+   "The inspiration for Flotation Toy Warning came from Q36036",
+   "The inspiration for Flotation Toy Warning came from Q6837",
+   "The inspiration for Flotation Toy Warning came from Q1735",
+   "The inspiration for Flotation Toy Warning came from Q1711",
+   "The inspiration for Flotation Toy Warning came from Q507117",
+   "The inspiration for Flotation Toy Warning came from Q2722267",
+   "The inspiration for Flotation Toy Warning came from Q13666",
+   "The inspiration for Flotation Toy Warning came from Q206988",
+   "The inspiration for Flotation Toy Warning came from Q1715",
+   "The inspiration for Flotation Toy Warning came from Q265332",
+   "The inspiration for Flotation Toy Warning came from Q745594",
+   "The inspiration for Flotation Toy Warning came from Q13373",
+   "The inspiration for Flotation Toy Warning came from Q725261",
+   "The inspiration for Flotation Toy Warning came from Q572595",
+   "The inspiration for Flotation Toy Warning came from Q576671",
+   "The inspiration for Flotation Toy Warning came from Q2453742",
+   "The inspiration for Flotation Toy Warning came from Q7880",
+   "The inspiration for Flotation Toy Warning came from Q184163",
+   "The inspiration for Flotation Toy Warning came from Q997335",
+   "The inspiration for Flotation Toy Warning came from Q26339",
+   "The inspiration for Flotation Toy Warning came from Q845623",
+   "The inspiration for Flotation Toy Warning came from Q64589",
+   "The inspiration for Flotation Toy Warning came from Q1720",
+   "The inspiration for Flotation Toy Warning came from Q835831",
+   "The inspiration for Flotation Toy Warning came from Q487977",
+   "The inspiration for Flotation Toy Warning came from Q2256",
+   "The inspiration for Flotation Toy Warning came from Q6346",
+   "The inspiration for Flotation Toy Warning came from Q161994",
+   "The inspiration for Flotation Toy Warning came from Q34615",
+   "The inspiration for Flotation Toy Warning came from Q47554",
+   "The inspiration for Flotation Toy Warning came from Q194420",
+   "The inspiration for Flotation Toy Warning came from Q197691",
+   "The inspiration for Flotation Toy Warning came from Q7027",
+   "The inspiration for Flotation Toy Warning came from Q270",
+   "The inspiration for Flotation Toy Warning came from Q1828035",
+   "The inspiration for Flotation Toy Warning came from Q1022",
+   "The inspiration for Flotation Toy Warning came from Q7473516",
+   "The inspiration for Flotation Toy Warning came from Q181704",
+   "The inspiration for Flotation Toy Warning came from Q72",
+   "The inspiration for Flotation Toy Warning came from Q2683",
+   "The inspiration for Flotation Toy Warning came from Q467617",
+   "The inspiration for Flotation Toy Warning came from Q42168",
+   "The inspiration for Flotation Toy Warning came from Q153494",
+   "The inspiration for Flotation Toy Warning came from Q13362",
+   "The inspiration for Flotation Toy Warning came from Q484552",
+   "The inspiration for Flotation Toy Warning came from Q320233",
+   "The inspiration for Flotation Toy Warning came from Q1297",
+   "The inspiration for Flotation Toy Warning came from Q2865",
+   "The inspiration for Flotation Toy Warning came from Q16568",
+   "The inspiration for Flotation Toy Warning came from Q4093",
+   "The inspiration for Flotation Toy Warning came from Q319397",
+   "The inspiration for Flotation Toy Warning came from Q212856",
+   "The inspiration for Flotation Toy Warning came from Q90",
+   "The inspiration for Flotation Toy Warning came from Q1807458",
+   "The inspiration for Flotation Toy Warning came from Q5839",
+   "The inspiration for Flotation Toy Warning came from Q2861",
+   "The inspiration for Flotation Toy Warning came from Q504875",
+   "The inspiration for Flotation Toy Warning came from Q105048",
+   "The inspiration for Flotation Toy Warning came from Q3619316",
+   "The inspiration for Flotation Toy Warning came from Q287148",
+   "The inspiration for Flotation Toy Warning came from Q630668",
+   "The inspiration for Flotation Toy Warning came from Q40898",
+   "The inspiration for Flotation Toy Warning came from Q734064",
+   "The inspiration for Flotation Toy Warning came from Q1537",
+   "The inspiration for Flotation Toy Warning came from Q375314",
+   "The founders of Flotation Toy Warning are from the location of Q339182",
+   "The founders of Flotation Toy Warning are from the location of Q43631",
+   "The founders of Flotation Toy Warning are from the location of Q2061870",
+   "The founders of Flotation Toy Warning are from the location of Q25331",
+   "The founders of Flotation Toy Warning are from the location of Q3776576",
+   "The founders of Flotation Toy Warning are from the location of Q81621",
+   "The founders of Flotation Toy Warning are from the location of Q38511",
+   "The founders of Flotation Toy Warning are from the location of Q23436",
+   "The founders of Flotation Toy Warning are from the location of Q627653",
+   "The founders of Flotation Toy Warning are from the location of Q749",
+   "The founders of Flotation Toy Warning are from the location of Q42088",
+   "The founders of Flotation Toy Warning are from the location of Q206687",
+   "The founders of Flotation Toy Warning are from the location of Q18655",
+   "The founders of Flotation Toy Warning are from the location of Q54163",
+   "The founders of Flotation Toy Warning are from the location of Q1144835",
+   "The founders of Flotation Toy Warning are from the location of Q3626259",
+   "The founders of Flotation Toy Warning are from the location of Q30096",
+   "The founders of Flotation Toy Warning are from the location of Q181725",
+   "The founders of Flotation Toy Warning are from the location of Q18426",
+   "The founders of Flotation Toy Warning are from the location of Q4734309",
+   "The founders of Flotation Toy Warning are from the location of Q823531",
+   "The founders of Flotation Toy Warning are from the location of Q13210107",
+   "The founders of Flotation Toy Warning are from the location of Q656",
+   "The founders of Flotation Toy Warning are from the location of Q1709",
+   "The founders of Flotation Toy Warning are from the location of Q1492",
+   "The founders of Flotation Toy Warning are from the location of Q6602",
+   "The founders of Flotation Toy Warning are from the location of Q1490",
+   "The founders of Flotation Toy Warning are from the location of Q939529",
+   "The founders of Flotation Toy Warning are from the location of Q1890931",
+   "The founders of Flotation Toy Warning are from the location of Q2640897",
+   "The founders of Flotation Toy Warning are from the location of Q655874",
+   "The founders of Flotation Toy Warning are from the location of Q40623",
+   "The founders of Flotation Toy Warning are from the location of Q21711493",
+   "The founders of Flotation Toy Warning are from the location of Q23360",
+   "The founders of Flotation Toy Warning are from the location of Q25286",
+   "The founders of Flotation Toy Warning are from the location of Q963309",
+   "The founders of Flotation Toy Warning are from the location of Q1761",
+   "The founders of Flotation Toy Warning are from the location of Q1773",
+   "The founders of Flotation Toy Warning are from the location of Q18986",
+   "The founders of Flotation Toy Warning are from the location of Q78",
+   "The founders of Flotation Toy Warning are from the location of Q11025",
+   "The founders of Flotation Toy Warning are from the location of Q13375",
+   "The founders of Flotation Toy Warning are from the location of Q1013549",
+   "The founders of Flotation Toy Warning are from the location of Q176410",
+   "The founders of Flotation Toy Warning are from the location of Q584458",
+   "The founders of Flotation Toy Warning are from the location of Q374745",
+   "The founders of Flotation Toy Warning are from the location of Q59670",
+   "The founders of Flotation Toy Warning are from the location of Q62460",
+   "The founders of Flotation Toy Warning are from the location of Q288082",
+   "The founders of Flotation Toy Warning are from the location of Q2145988",
+   "The founders of Flotation Toy Warning are from the location of Q104731",
+   "The founders of Flotation Toy Warning are from the location of Q1618770",
+   "The founders of Flotation Toy Warning are from the location of Q24826",
+   "The founders of Flotation Toy Warning are from the location of Q3846",
+   "The founders of Flotation Toy Warning are from the location of Q727",
+   "The founders of Flotation Toy Warning are from the location of Q186234",
+   "The founders of Flotation Toy Warning are from the location of Q2593038",
+   "The founders of Flotation Toy Warning are from the location of Q1003286",
+   "The founders of Flotation Toy Warning are from the location of Q1921452",
+   "The founders of Flotation Toy Warning are from the location of Q1159513",
+   "The founders of Flotation Toy Warning are from the location of Q617407",
+   "The founders of Flotation Toy Warning are from the location of Q140342",
+   "The founders of Flotation Toy Warning are from the location of Q269476",
+   "The founders of Flotation Toy Warning are from the location of Q1296",
+   "The founders of Flotation Toy Warning are from the location of Q1524",
+   "The founders of Flotation Toy Warning are from the location of Q3138",
+   "The founders of Flotation Toy Warning are from the location of Q36600",
+   "The founders of Flotation Toy Warning are from the location of Q985461",
+   "The founders of Flotation Toy Warning are from the location of Q3150",
+   "The founders of Flotation Toy Warning are from the location of Q203040",
+   "The founders of Flotation Toy Warning are from the location of Q4420718",
+   "The founders of Flotation Toy Warning are from the location of Q564827",
+   "The founders of Flotation Toy Warning are from the location of Q19272",
+   "The founders of Flotation Toy Warning are from the location of Q209126",
+   "The founders of Flotation Toy Warning are from the location of Q2746",
+   "The founders of Flotation Toy Warning are from the location of Q446314",
+   "The founders of Flotation Toy Warning are from the location of Q1085",
+   "The founders of Flotation Toy Warning are from the location of Q7042",
+   "The founders of Flotation Toy Warning are from the location of Q198190",
+   "The founders of Flotation Toy Warning are from the location of Q462177",
+   "The founders of Flotation Toy Warning are from the location of Q1748",
+   "The founders of Flotation Toy Warning are from the location of Q123709",
+   "The founders of Flotation Toy Warning are from the location of Q36433",
+   "The founders of Flotation Toy Warning are from the location of Q1247384",
+   "The founders of Flotation Toy Warning are from the location of Q1780",
+   "The founders of Flotation Toy Warning are from the location of Q18125",
+   "The founders of Flotation Toy Warning are from the location of Q482657",
+   "The founders of Flotation Toy Warning are from the location of Q31487",
+   "The founders of Flotation Toy Warning are from the location of Q1005862",
+   "The founders of Flotation Toy Warning are from the location of Q52098",
+   "The founders of Flotation Toy Warning are from the location of Q23154",
+   "The founders of Flotation Toy Warning are from the location of Q1679681",
+   "The founders of Flotation Toy Warning are from the location of Q123559",
+   "The founders of Flotation Toy Warning are from the location of Q1799",
+   "The founders of Flotation Toy Warning are from the location of Q500939",
+   "The founders of Flotation Toy Warning are from the location of Q41252",
+   "The founders of Flotation Toy Warning are from the location of nan",
+   "The founders of Flotation Toy Warning are from the location of Q3923",
+   "The founders of Flotation Toy Warning are from the location of Q517311",
+   "The founders of Flotation Toy Warning are from the location of Q49111",
+   "The founders of Flotation Toy Warning are from the location of Q6366688",
+   "The founders of Flotation Toy Warning are from the location of Q1490411",
+   "The founders of Flotation Toy Warning are from the location of Q1415",
+   "The founders of Flotation Toy Warning are from the location of Q269980",
+   "The founders of Flotation Toy Warning are from the location of Q156743",
+   "The founders of Flotation Toy Warning are from the location of Q11736",
+   "The founders of Flotation Toy Warning are from the location of Q2880",
+   "The founders of Flotation Toy Warning are from the location of Q3915",
+   "The founders of Flotation Toy Warning are from the location of Q853324",
+   "The founders of Flotation Toy Warning are from the location of Q67778",
+   "The founders of Flotation Toy Warning are from the location of Q649",
+   "The founders of Flotation Toy Warning are from the location of Q610238",
+   "The founders of Flotation Toy Warning are from the location of Q4083",
+   "The founders of Flotation Toy Warning are from the location of Q1754",
+   "The founders of Flotation Toy Warning are from the location of Q490",
+   "The founders of Flotation Toy Warning are from the location of Q64",
+   "The founders of Flotation Toy Warning are from the location of Q18424",
+   "The founders of Flotation Toy Warning are from the location of Q492538",
+   "The founders of Flotation Toy Warning are from the location of Q42807",
+   "The founders of Flotation Toy Warning are from the location of Q84",
+   "The founders of Flotation Toy Warning are from the location of Q1729",
+   "The founders of Flotation Toy Warning are from the location of Q1055",
+   "The founders of Flotation Toy Warning are from the location of Q43509",
+   "The founders of Flotation Toy Warning are from the location of Q16553",
+   "The founders of Flotation Toy Warning are from the location of Q54140",
+   "The founders of Flotation Toy Warning are from the location of Q80484",
+   "The founders of Flotation Toy Warning are from the location of Q10549787",
+   "The founders of Flotation Toy Warning are from the location of Q42308",
+   "The founders of Flotation Toy Warning are from the location of Q33959",
+   "The founders of Flotation Toy Warning are from the location of Q22741",
+   "The founders of Flotation Toy Warning are from the location of Q433701",
+   "The founders of Flotation Toy Warning are from the location of Q2749",
+   "The founders of Flotation Toy Warning are from the location of Q863832",
+   "The founders of Flotation Toy Warning are from the location of Q3834",
+   "The founders of Flotation Toy Warning are from the location of Q106274",
+   "The founders of Flotation Toy Warning are from the location of Q1779185",
+   "The founders of Flotation Toy Warning are from the location of Q4518353",
+   "The founders of Flotation Toy Warning are from the location of Q275731",
+   "The founders of Flotation Toy Warning are from the location of Q102621",
+   "The founders of Flotation Toy Warning are from the location of Q4418120",
+   "The founders of Flotation Toy Warning are from the location of Q891",
+   "The founders of Flotation Toy Warning are from the location of Q142",
+   "The founders of Flotation Toy Warning are from the location of Q220",
+   "The founders of Flotation Toy Warning are from the location of Q1781",
+   "The founders of Flotation Toy Warning are from the location of Q1794",
+   "The founders of Flotation Toy Warning are from the location of Q1741",
+   "The founders of Flotation Toy Warning are from the location of Q966192",
+   "The founders of Flotation Toy Warning are from the location of Q2711986",
+   "The founders of Flotation Toy Warning are from the location of Q1781710",
+   "The founders of Flotation Toy Warning are from the location of Q60",
+   "The founders of Flotation Toy Warning are from the location of Q173695",
+   "The founders of Flotation Toy Warning are from the location of Q135572",
+   "The founders of Flotation Toy Warning are from the location of Q2598",
+   "The founders of Flotation Toy Warning are from the location of Q192265",
+   "The founders of Flotation Toy Warning are from the location of Q1792",
+   "The founders of Flotation Toy Warning are from the location of Q22905",
+   "The founders of Flotation Toy Warning are from the location of Q5838",
+   "The founders of Flotation Toy Warning are from the location of Q536598",
+   "The founders of Flotation Toy Warning are from the location of Q3316008",
+   "The founders of Flotation Toy Warning are from the location of Q1327770",
+   "The founders of Flotation Toy Warning are from the location of Q477987",
+   "The founders of Flotation Toy Warning are from the location of Q551378",
+   "The founders of Flotation Toy Warning are from the location of Q648432",
+   "The founders of Flotation Toy Warning are from the location of Q1345",
+   "The founders of Flotation Toy Warning are from the location of Q1228829",
+   "The founders of Flotation Toy Warning are from the location of Q797437",
+   "The founders of Flotation Toy Warning are from the location of Q87",
+   "The founders of Flotation Toy Warning are from the location of Q157725",
+   "The founders of Flotation Toy Warning are from the location of Q36036",
+   "The founders of Flotation Toy Warning are from the location of Q6837",
+   "The founders of Flotation Toy Warning are from the location of Q1735",
+   "The founders of Flotation Toy Warning are from the location of Q1711",
+   "The founders of Flotation Toy Warning are from the location of Q507117",
+   "The founders of Flotation Toy Warning are from the location of Q2722267",
+   "The founders of Flotation Toy Warning are from the location of Q13666",
+   "The founders of Flotation Toy Warning are from the location of Q206988",
+   "The founders of Flotation Toy Warning are from the location of Q1715",
+   "The founders of Flotation Toy Warning are from the location of Q265332",
+   "The founders of Flotation Toy Warning are from the location of Q745594",
+   "The founders of Flotation Toy Warning are from the location of Q13373",
+   "The founders of Flotation Toy Warning are from the location of Q725261",
+   "The founders of Flotation Toy Warning are from the location of Q572595",
+   "The founders of Flotation Toy Warning are from the location of Q576671",
+   "The founders of Flotation Toy Warning are from the location of Q2453742",
+   "The founders of Flotation Toy Warning are from the location of Q7880",
+   "The founders of Flotation Toy Warning are from the location of Q184163",
+   "The founders of Flotation Toy Warning are from the location of Q997335",
+   "The founders of Flotation Toy Warning are from the location of Q26339",
+   "The founders of Flotation Toy Warning are from the location of Q845623",
+   "The founders of Flotation Toy Warning are from the location of Q64589",
+   "The founders of Flotation Toy Warning are from the location of Q1720",
+   "The founders of Flotation Toy Warning are from the location of Q835831",
+   "The founders of Flotation Toy Warning are from the location of Q487977",
+   "The founders of Flotation Toy Warning are from the location of Q2256",
+   "The founders of Flotation Toy Warning are from the location of Q6346",
+   "The founders of Flotation Toy Warning are from the location of Q161994",
+   "The founders of Flotation Toy Warning are from the location of Q34615",
+   "The founders of Flotation Toy Warning are from the location of Q47554",
+   "The founders of Flotation Toy Warning are from the location of Q194420",
+   "The founders of Flotation Toy Warning are from the location of Q197691",
+   "The founders of Flotation Toy Warning are from the location of Q7027",
+   "The founders of Flotation Toy Warning are from the location of Q270",
+   "The founders of Flotation Toy Warning are from the location of Q1828035",
+   "The founders of Flotation Toy Warning are from the location of Q1022",
+   "The founders of Flotation Toy Warning are from the location of Q7473516",
+   "The founders of Flotation Toy Warning are from the location of Q181704",
+   "The founders of Flotation Toy Warning are from the location of Q72",
+   "The founders of Flotation Toy Warning are from the location of Q2683",
+   "The founders of Flotation Toy Warning are from the location of Q467617",
+   "The founders of Flotation Toy Warning are from the location of Q42168",
+   "The founders of Flotation Toy Warning are from the location of Q153494",
+   "The founders of Flotation Toy Warning are from the location of Q13362",
+   "The founders of Flotation Toy Warning are from the location of Q484552",
+   "The founders of Flotation Toy Warning are from the location of Q320233",
+   "The founders of Flotation Toy Warning are from the location of Q1297",
+   "The founders of Flotation Toy Warning are from the location of Q2865",
+   "The founders of Flotation Toy Warning are from the location of Q16568",
+   "The founders of Flotation Toy Warning are from the location of Q4093",
+   "The founders of Flotation Toy Warning are from the location of Q319397",
+   "The founders of Flotation Toy Warning are from the location of Q212856",
+   "The founders of Flotation Toy Warning are from the location of Q90",
+   "The founders of Flotation Toy Warning are from the location of Q1807458",
+   "The founders of Flotation Toy Warning are from the location of Q5839",
+   "The founders of Flotation Toy Warning are from the location of Q2861",
+   "The founders of Flotation Toy Warning are from the location of Q504875",
+   "The founders of Flotation Toy Warning are from the location of Q105048",
+   "The founders of Flotation Toy Warning are from the location of Q3619316",
+   "The founders of Flotation Toy Warning are from the location of Q287148",
+   "The founders of Flotation Toy Warning are from the location of Q630668",
+   "The founders of Flotation Toy Warning are from the location of Q40898",
+   "The founders of Flotation Toy Warning are from the location of Q734064",
+   "The founders of Flotation Toy Warning are from the location of Q1537",
+   "The founders of Flotation Toy Warning are from the location of Q375314"
+  ],
+  [
+   [
+    -71.9466552734375
+   ],
+   [
+    -69.117431640625
+   ],
+   [
+    -73.77841186523438
+   ],
+   [
+    -67.87545776367188
+   ],
+   [
+    -74.89649963378906
+   ],
+   [
+    -70.6116943359375
+   ],
+   [
+    -68.6445083618164
+   ],
+   [
+    -67.80689239501953
+   ],
+   [
+    -74.04937744140625
+   ],
+   [
+    -64.05415344238281
+   ],
+   [
+    -68.99166107177734
+   ],
+   [
+    -71.65789794921875
+   ],
+   [
+    -70.52214050292969
+   ],
+   [
+    -69.3797607421875
+   ],
+   [
+    -75.23428344726562
+   ],
+   [
+    -74.69953918457031
+   ],
+   [
+    -67.99051666259766
+   ],
+   [
+    -72.93946075439453
+   ],
+   [
+    -70.43354797363281
+   ],
+   [
+    -76.72744750976562
+   ],
+   [
+    -74.52256774902344
+   ],
+   [
+    -77.08641052246094
+   ],
+   [
+    -63.73434829711914
+   ],
+   [
+    -65.49974060058594
+   ],
+   [
+    -65.66032409667969
+   ],
+   [
+    -65.787841796875
+   ],
+   [
+    -65.69252014160156
+   ],
+   [
+    -73.48188781738281
+   ],
+   [
+    -76.07868957519531
+   ],
+   [
+    -74.081298828125
+   ],
+   [
+    -74.41098022460938
+   ],
+   [
+    -70.16390228271484
+   ],
+   [
+    -75.50508117675781
+   ],
+   [
+    -65.24071502685547
+   ],
+   [
+    -69.6058349609375
+   ],
+   [
+    -73.796630859375
+   ],
+   [
+    -66.02839660644531
+   ],
+   [
+    -65.00830078125
+   ],
+   [
+    -70.35547637939453
+   ],
+   [
+    -59.589176177978516
+   ],
+   [
+    -68.84269714355469
+   ],
+   [
+    -68.48709106445312
+   ],
+   [
+    -72.92842864990234
+   ],
+   [
+    -72.36495971679688
+   ],
+   [
+    -71.96624755859375
+   ],
+   [
+    -71.95389556884766
+   ],
+   [
+    -69.15786743164062
+   ],
+   [
+    -70.7880859375
+   ],
+   [
+    -71.79580688476562
+   ],
+   [
+    -73.91835021972656
+   ],
+   [
+    -74.28777313232422
+   ],
+   [
+    -74.94047546386719
+   ],
+   [
+    -69.44772338867188
+   ],
+   [
+    -66.20767211914062
+   ],
+   [
+    -64.07513427734375
+   ],
+   [
+    -73.6023178100586
+   ],
+   [
+    -75.50401306152344
+   ],
+   [
+    -77.61443328857422
+   ],
+   [
+    -75.685546875
+   ],
+   [
+    -74.9104232788086
+   ],
+   [
+    -73.19600677490234
+   ],
+   [
+    -72.66581726074219
+   ],
+   [
+    -71.70818328857422
+   ],
+   [
+    -66.19525146484375
+   ],
+   [
+    -66.32479858398438
+   ],
+   [
+    -64.57353973388672
+   ],
+   [
+    -69.58255004882812
+   ],
+   [
+    -74.73731231689453
+   ],
+   [
+    -64.78282165527344
+   ],
+   [
+    -71.29658508300781
+   ],
+   [
+    -75.1640625
+   ],
+   [
+    -72.06686401367188
+   ],
+   [
+    -69.60897064208984
+   ],
+   [
+    -71.47308349609375
+   ],
+   [
+    -66.21031951904297
+   ],
+   [
+    -72.20439147949219
+   ],
+   [
+    -64.65245056152344
+   ],
+   [
+    -67.49030303955078
+   ],
+   [
+    -71.81436157226562
+   ],
+   [
+    -73.3762435913086
+   ],
+   [
+    -66.24717712402344
+   ],
+   [
+    -71.59098052978516
+   ],
+   [
+    -70.34663391113281
+   ],
+   [
+    -75.52578735351562
+   ],
+   [
+    -65.53788757324219
+   ],
+   [
+    -69.46939849853516
+   ],
+   [
+    -74.58245849609375
+   ],
+   [
+    -69.037353515625
+   ],
+   [
+    -76.77802276611328
+   ],
+   [
+    -69.12715148925781
+   ],
+   [
+    -69.16294860839844
+   ],
+   [
+    -75.75808715820312
+   ],
+   [
+    -72.12764739990234
+   ],
+   [
+    -65.88212585449219
+   ],
+   [
+    -72.22441101074219
+   ],
+   [
+    -69.29498291015625
+   ],
+   [
+    -52.28556823730469
+   ],
+   [
+    -66.0228271484375
+   ],
+   [
+    -72.31291961669922
+   ],
+   [
+    -69.71659851074219
+   ],
+   [
+    -75.4053726196289
+   ],
+   [
+    -75.33404541015625
+   ],
+   [
+    -65.06208801269531
+   ],
+   [
+    -72.04849243164062
+   ],
+   [
+    -72.40573120117188
+   ],
+   [
+    -69.68724060058594
+   ],
+   [
+    -65.37051391601562
+   ],
+   [
+    -66.17483520507812
+   ],
+   [
+    -74.22842407226562
+   ],
+   [
+    -70.53639221191406
+   ],
+   [
+    -63.126949310302734
+   ],
+   [
+    -73.59071350097656
+   ],
+   [
+    -66.8402328491211
+   ],
+   [
+    -66.47879791259766
+   ],
+   [
+    -62.83241653442383
+   ],
+   [
+    -58.993526458740234
+   ],
+   [
+    -70.61163330078125
+   ],
+   [
+    -74.36491394042969
+   ],
+   [
+    -69.95185852050781
+   ],
+   [
+    -59.28535079956055
+   ],
+   [
+    -66.04158782958984
+   ],
+   [
+    -64.86566925048828
+   ],
+   [
+    -69.44998168945312
+   ],
+   [
+    -70.4290771484375
+   ],
+   [
+    -68.94119262695312
+   ],
+   [
+    -70.3218994140625
+   ],
+   [
+    -78.2596435546875
+   ],
+   [
+    -69.13694763183594
+   ],
+   [
+    -69.11849975585938
+   ],
+   [
+    -68.13442993164062
+   ],
+   [
+    -71.99689483642578
+   ],
+   [
+    -66.31224822998047
+   ],
+   [
+    -74.28038024902344
+   ],
+   [
+    -65.31098175048828
+   ],
+   [
+    -72.83000946044922
+   ],
+   [
+    -75.09705352783203
+   ],
+   [
+    -75.65424346923828
+   ],
+   [
+    -72.36772918701172
+   ],
+   [
+    -71.01812744140625
+   ],
+   [
+    -74.19603729248047
+   ],
+   [
+    -62.9886589050293
+   ],
+   [
+    -61.72035598754883
+   ],
+   [
+    -59.98112869262695
+   ],
+   [
+    -65.61506652832031
+   ],
+   [
+    -65.66876220703125
+   ],
+   [
+    -65.97881317138672
+   ],
+   [
+    -74.91514587402344
+   ],
+   [
+    -74.57489013671875
+   ],
+   [
+    -75.2618179321289
+   ],
+   [
+    -58.54787826538086
+   ],
+   [
+    -72.57846069335938
+   ],
+   [
+    -72.05430603027344
+   ],
+   [
+    -66.28272247314453
+   ],
+   [
+    -72.63607788085938
+   ],
+   [
+    -65.5735092163086
+   ],
+   [
+    -68.68122863769531
+   ],
+   [
+    -65.80830383300781
+   ],
+   [
+    -73.07060241699219
+   ],
+   [
+    -73.985107421875
+   ],
+   [
+    -75.29389190673828
+   ],
+   [
+    -73.51605987548828
+   ],
+   [
+    -72.02806091308594
+   ],
+   [
+    -72.71265411376953
+   ],
+   [
+    -64.94068145751953
+   ],
+   [
+    -75.34394836425781
+   ],
+   [
+    -73.24667358398438
+   ],
+   [
+    -58.83049392700195
+   ],
+   [
+    -73.15077209472656
+   ],
+   [
+    -69.00056457519531
+   ],
+   [
+    -67.2046127319336
+   ],
+   [
+    -65.96504211425781
+   ],
+   [
+    -65.17127990722656
+   ],
+   [
+    -72.84475708007812
+   ],
+   [
+    -76.14555358886719
+   ],
+   [
+    -69.40585327148438
+   ],
+   [
+    -71.1854019165039
+   ],
+   [
+    -65.49066925048828
+   ],
+   [
+    -70.19813537597656
+   ],
+   [
+    -73.37018585205078
+   ],
+   [
+    -67.99735260009766
+   ],
+   [
+    -74.44386291503906
+   ],
+   [
+    -72.86686706542969
+   ],
+   [
+    -73.16139221191406
+   ],
+   [
+    -74.22783660888672
+   ],
+   [
+    -67.60981750488281
+   ],
+   [
+    -73.32878112792969
+   ],
+   [
+    -75.14488220214844
+   ],
+   [
+    -68.15058898925781
+   ],
+   [
+    -73.70381164550781
+   ],
+   [
+    -69.82113647460938
+   ],
+   [
+    -65.50086212158203
+   ],
+   [
+    -74.64665222167969
+   ],
+   [
+    -73.97503662109375
+   ],
+   [
+    -64.64879608154297
+   ],
+   [
+    -66.78209686279297
+   ],
+   [
+    -71.47557067871094
+   ],
+   [
+    -68.23006439208984
+   ],
+   [
+    -70.90687561035156
+   ],
+   [
+    -72.78019714355469
+   ],
+   [
+    -72.26020812988281
+   ],
+   [
+    -67.30451202392578
+   ],
+   [
+    -61.88744354248047
+   ],
+   [
+    -75.3067626953125
+   ],
+   [
+    -64.73319244384766
+   ],
+   [
+    -76.26647186279297
+   ],
+   [
+    -72.25471496582031
+   ],
+   [
+    -59.75668716430664
+   ],
+   [
+    -66.07656860351562
+   ],
+   [
+    -73.4256820678711
+   ],
+   [
+    -70.79742431640625
+   ],
+   [
+    -73.08504486083984
+   ],
+   [
+    -68.98480987548828
+   ],
+   [
+    -74.251220703125
+   ],
+   [
+    -72.09446716308594
+   ],
+   [
+    -66.22709655761719
+   ],
+   [
+    -65.76309967041016
+   ],
+   [
+    -70.12903594970703
+   ],
+   [
+    -66.0632095336914
+   ],
+   [
+    -71.67571258544922
+   ],
+   [
+    -71.41897583007812
+   ],
+   [
+    -58.87650680541992
+   ],
+   [
+    -76.81398010253906
+   ],
+   [
+    -65.76937866210938
+   ],
+   [
+    -65.65599060058594
+   ],
+   [
+    -73.25254821777344
+   ],
+   [
+    -74.32921600341797
+   ],
+   [
+    -76.86834716796875
+   ],
+   [
+    -72.43737030029297
+   ],
+   [
+    -72.63789367675781
+   ],
+   [
+    -70.20268249511719
+   ],
+   [
+    -73.74415588378906
+   ],
+   [
+    -66.61585235595703
+   ],
+   [
+    -72.12994384765625
+   ],
+   [
+    -75.19786071777344
+   ],
+   [
+    -71.12216186523438
+   ],
+   [
+    -77.20558166503906
+   ],
+   [
+    -70.09123229980469
+   ],
+   [
+    -77.74453735351562
+   ],
+   [
+    -72.40277099609375
+   ],
+   [
+    -71.5076904296875
+   ],
+   [
+    -71.3046646118164
+   ],
+   [
+    -76.89811706542969
+   ],
+   [
+    -65.8338623046875
+   ],
+   [
+    -71.08080291748047
+   ],
+   [
+    -74.90824127197266
+   ],
+   [
+    -74.42537689208984
+   ],
+   [
+    -72.11431884765625
+   ],
+   [
+    -79.503173828125
+   ],
+   [
+    -77.14482879638672
+   ],
+   [
+    -69.55392456054688
+   ],
+   [
+    -77.33434295654297
+   ],
+   [
+    -74.00393676757812
+   ],
+   [
+    -78.1556396484375
+   ],
+   [
+    -76.00111389160156
+   ],
+   [
+    -82.77909851074219
+   ],
+   [
+    -66.31951904296875
+   ],
+   [
+    -68.09358978271484
+   ],
+   [
+    -69.04879760742188
+   ],
+   [
+    -68.88058471679688
+   ],
+   [
+    -68.89347839355469
+   ],
+   [
+    -75.69319152832031
+   ],
+   [
+    -80.8014907836914
+   ],
+   [
+    -78.47085571289062
+   ],
+   [
+    -77.28682708740234
+   ],
+   [
+    -71.09074401855469
+   ],
+   [
+    -79.65262603759766
+   ],
+   [
+    -70.62620544433594
+   ],
+   [
+    -71.89370727539062
+   ],
+   [
+    -77.97988891601562
+   ],
+   [
+    -68.44564819335938
+   ],
+   [
+    -66.99846649169922
+   ],
+   [
+    -74.79715728759766
+   ],
+   [
+    -60.87241744995117
+   ],
+   [
+    -72.28553771972656
+   ],
+   [
+    -72.11710357666016
+   ],
+   [
+    -77.69432067871094
+   ],
+   [
+    -75.0706787109375
+   ],
+   [
+    -75.81015014648438
+   ],
+   [
+    -74.6366195678711
+   ],
+   [
+    -71.65709686279297
+   ],
+   [
+    -73.41165161132812
+   ],
+   [
+    -74.74222564697266
+   ],
+   [
+    -78.15144348144531
+   ],
+   [
+    -76.02716827392578
+   ],
+   [
+    -79.77327728271484
+   ],
+   [
+    -71.67041015625
+   ],
+   [
+    -68.7750015258789
+   ],
+   [
+    -66.16223907470703
+   ],
+   [
+    -77.58969116210938
+   ],
+   [
+    -78.26909637451172
+   ],
+   [
+    -79.03531646728516
+   ],
+   [
+    -80.12728881835938
+   ],
+   [
+    -79.10838317871094
+   ],
+   [
+    -75.81715393066406
+   ],
+   [
+    -75.19379425048828
+   ],
+   [
+    -75.85718536376953
+   ],
+   [
+    -69.59036254882812
+   ],
+   [
+    -69.48367309570312
+   ],
+   [
+    -66.89035034179688
+   ],
+   [
+    -71.77705383300781
+   ],
+   [
+    -77.619140625
+   ],
+   [
+    -67.15647888183594
+   ],
+   [
+    -74.77210998535156
+   ],
+   [
+    -78.17790985107422
+   ],
+   [
+    -75.35496520996094
+   ],
+   [
+    -73.17408752441406
+   ],
+   [
+    -73.63310241699219
+   ],
+   [
+    -70.39720153808594
+   ],
+   [
+    -75.13607025146484
+   ],
+   [
+    -66.24948120117188
+   ],
+   [
+    -68.60704040527344
+   ],
+   [
+    -77.85551452636719
+   ],
+   [
+    -74.17317962646484
+   ],
+   [
+    -68.62371063232422
+   ],
+   [
+    -76.12252044677734
+   ],
+   [
+    -72.22151184082031
+   ],
+   [
+    -79.35938262939453
+   ],
+   [
+    -68.2028579711914
+   ],
+   [
+    -73.79093933105469
+   ],
+   [
+    -76.2542724609375
+   ],
+   [
+    -71.40505981445312
+   ],
+   [
+    -79.05696105957031
+   ],
+   [
+    -71.64402770996094
+   ],
+   [
+    -72.30127716064453
+   ],
+   [
+    -79.56405639648438
+   ],
+   [
+    -76.01399993896484
+   ],
+   [
+    -68.52611541748047
+   ],
+   [
+    -74.1341323852539
+   ],
+   [
+    -70.80038452148438
+   ],
+   [
+    -53.767845153808594
+   ],
+   [
+    -67.57475280761719
+   ],
+   [
+    -75.1440658569336
+   ],
+   [
+    -71.12994384765625
+   ],
+   [
+    -77.15016174316406
+   ],
+   [
+    -80.21047973632812
+   ],
+   [
+    -68.46003723144531
+   ],
+   [
+    -76.30703735351562
+   ],
+   [
+    -75.18911743164062
+   ],
+   [
+    -72.98790740966797
+   ],
+   [
+    -68.16706848144531
+   ],
+   [
+    -67.35505676269531
+   ],
+   [
+    -74.93707275390625
+   ],
+   [
+    -71.40287780761719
+   ],
+   [
+    -66.43511962890625
+   ],
+   [
+    -75.29667663574219
+   ],
+   [
+    -68.13356018066406
+   ],
+   [
+    -68.5592041015625
+   ],
+   [
+    -64.58422088623047
+   ],
+   [
+    -60.3874626159668
+   ],
+   [
+    -74.20150756835938
+   ],
+   [
+    -75.5219497680664
+   ],
+   [
+    -71.58051300048828
+   ],
+   [
+    -61.450950622558594
+   ],
+   [
+    -68.61534118652344
+   ],
+   [
+    -65.1141128540039
+   ],
+   [
+    -71.33378601074219
+   ],
+   [
+    -73.76139831542969
+   ],
+   [
+    -71.90792846679688
+   ],
+   [
+    -72.25801086425781
+   ],
+   [
+    -81.78172302246094
+   ],
+   [
+    -71.00387573242188
+   ],
+   [
+    -71.9195785522461
+   ],
+   [
+    -70.7107925415039
+   ],
+   [
+    -73.7256088256836
+   ],
+   [
+    -70.41654968261719
+   ],
+   [
+    -75.95722961425781
+   ],
+   [
+    -68.50860595703125
+   ],
+   [
+    -75.50485229492188
+   ],
+   [
+    -78.26895141601562
+   ],
+   [
+    -77.4692153930664
+   ],
+   [
+    -76.8890380859375
+   ],
+   [
+    -72.19975280761719
+   ],
+   [
+    -76.78845977783203
+   ],
+   [
+    -64.97457122802734
+   ],
+   [
+    -64.84771728515625
+   ],
+   [
+    -62.85408020019531
+   ],
+   [
+    -68.48139953613281
+   ],
+   [
+    -68.401611328125
+   ],
+   [
+    -68.46683502197266
+   ],
+   [
+    -78.406494140625
+   ],
+   [
+    -79.68206787109375
+   ],
+   [
+    -78.56730651855469
+   ],
+   [
+    -58.86872482299805
+   ],
+   [
+    -75.37623596191406
+   ],
+   [
+    -77.133056640625
+   ],
+   [
+    -68.68338012695312
+   ],
+   [
+    -76.53463745117188
+   ],
+   [
+    -68.40473937988281
+   ],
+   [
+    -71.05984497070312
+   ],
+   [
+    -68.34931945800781
+   ],
+   [
+    -75.73457336425781
+   ],
+   [
+    -78.01445770263672
+   ],
+   [
+    -80.79572296142578
+   ],
+   [
+    -74.7300033569336
+   ],
+   [
+    -74.87293243408203
+   ],
+   [
+    -75.67878723144531
+   ],
+   [
+    -70.00057983398438
+   ],
+   [
+    -79.2868881225586
+   ],
+   [
+    -75.31266784667969
+   ],
+   [
+    -60.57260513305664
+   ],
+   [
+    -76.4334487915039
+   ],
+   [
+    -70.45681762695312
+   ],
+   [
+    -68.97557830810547
+   ],
+   [
+    -68.38925170898438
+   ],
+   [
+    -68.153076171875
+   ],
+   [
+    -74.17936706542969
+   ],
+   [
+    -80.42428588867188
+   ],
+   [
+    -74.11132049560547
+   ],
+   [
+    -74.39835357666016
+   ],
+   [
+    -68.42554473876953
+   ],
+   [
+    -75.13265228271484
+   ],
+   [
+    -75.46809387207031
+   ],
+   [
+    -71.82939910888672
+   ],
+   [
+    -76.1826171875
+   ],
+   [
+    -75.44143676757812
+   ],
+   [
+    -75.8327865600586
+   ],
+   [
+    -77.40382385253906
+   ],
+   [
+    -69.29374694824219
+   ],
+   [
+    -77.24459838867188
+   ],
+   [
+    -78.61663818359375
+   ],
+   [
+    -71.04569244384766
+   ],
+   [
+    -76.03001403808594
+   ],
+   [
+    -73.13623809814453
+   ],
+   [
+    -68.08236694335938
+   ],
+   [
+    -75.4277114868164
+   ],
+   [
+    -75.9007568359375
+   ],
+   [
+    -66.7821273803711
+   ],
+   [
+    -68.37889099121094
+   ],
+   [
+    -76.05715942382812
+   ],
+   [
+    -71.3596420288086
+   ],
+   [
+    -71.60086059570312
+   ],
+   [
+    -76.89094543457031
+   ],
+   [
+    -77.93075561523438
+   ],
+   [
+    -68.55522918701172
+   ],
+   [
+    -65.51277160644531
+   ],
+   [
+    -80.38668823242188
+   ],
+   [
+    -65.15666198730469
+   ],
+   [
+    -78.47315216064453
+   ],
+   [
+    -76.81849670410156
+   ],
+   [
+    -61.45479965209961
+   ],
+   [
+    -69.1429443359375
+   ],
+   [
+    -75.47767639160156
+   ],
+   [
+    -71.9444351196289
+   ],
+   [
+    -76.61884307861328
+   ],
+   [
+    -73.48197937011719
+   ],
+   [
+    -75.80186462402344
+   ],
+   [
+    -73.80988311767578
+   ],
+   [
+    -69.56501007080078
+   ],
+   [
+    -68.83415222167969
+   ],
+   [
+    -73.576416015625
+   ],
+   [
+    -67.58123779296875
+   ],
+   [
+    -74.19104766845703
+   ],
+   [
+    -73.94613647460938
+   ],
+   [
+    -60.12234115600586
+   ],
+   [
+    -80.80911254882812
+   ],
+   [
+    -68.224365234375
+   ],
+   [
+    -68.63716125488281
+   ],
+   [
+    -74.72566223144531
+   ],
+   [
+    -77.91490173339844
+   ],
+   [
+    -79.6132583618164
+   ],
+   [
+    -74.6500015258789
+   ],
+   [
+    -74.80416107177734
+   ],
+   [
+    -71.81871032714844
+   ],
+   [
+    -75.32550048828125
+   ],
+   [
+    -69.61865997314453
+   ],
+   [
+    -74.63630676269531
+   ],
+   [
+    -91.35223388671875
+   ],
+   [
+    -87.32354736328125
+   ],
+   [
+    -94.22697448730469
+   ],
+   [
+    -86.86759948730469
+   ],
+   [
+    -95.12985229492188
+   ],
+   [
+    -89.21339416503906
+   ],
+   [
+    -88.00035095214844
+   ],
+   [
+    -87.3265380859375
+   ],
+   [
+    -92.7867660522461
+   ],
+   [
+    -82.52192687988281
+   ],
+   [
+    -87.75789642333984
+   ],
+   [
+    -91.75531768798828
+   ],
+   [
+    -87.66920471191406
+   ],
+   [
+    -87.04523468017578
+   ],
+   [
+    -92.77440643310547
+   ],
+   [
+    -95.84376525878906
+   ],
+   [
+    -87.852294921875
+   ],
+   [
+    -90.64253234863281
+   ],
+   [
+    -87.80181884765625
+   ],
+   [
+    -94.70578002929688
+   ],
+   [
+    -93.10285186767578
+   ],
+   [
+    -97.63833618164062
+   ],
+   [
+    -85.00717163085938
+   ],
+   [
+    -83.54090118408203
+   ],
+   [
+    -84.07032012939453
+   ],
+   [
+    -85.55843353271484
+   ],
+   [
+    -83.6951904296875
+   ],
+   [
+    -91.323486328125
+   ],
+   [
+    -93.55303955078125
+   ],
+   [
+    -93.92847442626953
+   ],
+   [
+    -94.39173889160156
+   ],
+   [
+    -88.1217041015625
+   ],
+   [
+    -97.22687530517578
+   ],
+   [
+    -85.81204223632812
+   ],
+   [
+    -87.26663208007812
+   ],
+   [
+    -92.64283752441406
+   ],
+   [
+    -83.88577270507812
+   ],
+   [
+    -83.70759582519531
+   ],
+   [
+    -87.97074890136719
+   ],
+   [
+    -78.0889892578125
+   ],
+   [
+    -86.19124603271484
+   ],
+   [
+    -86.87725830078125
+   ],
+   [
+    -92.43429565429688
+   ],
+   [
+    -89.8519287109375
+   ],
+   [
+    -90.93705749511719
+   ],
+   [
+    -91.18586730957031
+   ],
+   [
+    -88.08816528320312
+   ],
+   [
+    -89.72317504882812
+   ],
+   [
+    -90.220703125
+   ],
+   [
+    -94.40010070800781
+   ],
+   [
+    -91.9841537475586
+   ],
+   [
+    -94.28135681152344
+   ],
+   [
+    -87.13798522949219
+   ],
+   [
+    -85.58938598632812
+   ],
+   [
+    -83.02576446533203
+   ],
+   [
+    -90.8392105102539
+   ],
+   [
+    -92.8659896850586
+   ],
+   [
+    -95.46121215820312
+   ],
+   [
+    -92.36438751220703
+   ],
+   [
+    -92.71505737304688
+   ],
+   [
+    -93.2214126586914
+   ],
+   [
+    -90.78266906738281
+   ],
+   [
+    -90.06082153320312
+   ],
+   [
+    -84.32395935058594
+   ],
+   [
+    -83.66781616210938
+   ],
+   [
+    -85.58554077148438
+   ],
+   [
+    -89.8886489868164
+   ],
+   [
+    -92.74420166015625
+   ],
+   [
+    -84.33314514160156
+   ],
+   [
+    -90.50621795654297
+   ],
+   [
+    -94.12936401367188
+   ],
+   [
+    -90.88108825683594
+   ],
+   [
+    -85.64286041259766
+   ],
+   [
+    -90.52983093261719
+   ],
+   [
+    -84.46234130859375
+   ],
+   [
+    -90.36871337890625
+   ],
+   [
+    -81.93557739257812
+   ],
+   [
+    -85.52149200439453
+   ],
+   [
+    -90.26569366455078
+   ],
+   [
+    -92.23783874511719
+   ],
+   [
+    -84.18070220947266
+   ],
+   [
+    -90.93119812011719
+   ],
+   [
+    -90.57809448242188
+   ],
+   [
+    -93.81163024902344
+   ],
+   [
+    -83.87715148925781
+   ],
+   [
+    -87.21401977539062
+   ],
+   [
+    -91.85958862304688
+   ],
+   [
+    -89.39527130126953
+   ],
+   [
+    -95.59510803222656
+   ],
+   [
+    -87.74867248535156
+   ],
+   [
+    -89.57009887695312
+   ],
+   [
+    -93.49614715576172
+   ],
+   [
+    -91.25677490234375
+   ],
+   [
+    -84.25455474853516
+   ],
+   [
+    -90.48675537109375
+   ],
+   [
+    -87.55201721191406
+   ],
+   [
+    -71.67108917236328
+   ],
+   [
+    -85.3876953125
+   ],
+   [
+    -91.42618560791016
+   ],
+   [
+    -87.53438568115234
+   ],
+   [
+    -95.89572143554688
+   ],
+   [
+    -93.22549438476562
+   ],
+   [
+    -83.32102966308594
+   ],
+   [
+    -90.61954498291016
+   ],
+   [
+    -89.77021789550781
+   ],
+   [
+    -86.53785705566406
+   ],
+   [
+    -84.04072570800781
+   ],
+   [
+    -85.17717742919922
+   ],
+   [
+    -92.61416625976562
+   ],
+   [
+    -89.9757080078125
+   ],
+   [
+    -82.87129974365234
+   ],
+   [
+    -93.09048461914062
+   ],
+   [
+    -85.099609375
+   ],
+   [
+    -84.11671447753906
+   ],
+   [
+    -81.74485778808594
+   ],
+   [
+    -77.31551361083984
+   ],
+   [
+    -87.85356903076172
+   ],
+   [
+    -91.38650512695312
+   ],
+   [
+    -89.1959228515625
+   ],
+   [
+    -78.65547180175781
+   ],
+   [
+    -84.24901580810547
+   ],
+   [
+    -81.55408477783203
+   ],
+   [
+    -86.59159851074219
+   ],
+   [
+    -87.42738342285156
+   ],
+   [
+    -86.6933822631836
+   ],
+   [
+    -88.98629760742188
+   ],
+   [
+    -96.61389923095703
+   ],
+   [
+    -88.73252868652344
+   ],
+   [
+    -88.03361511230469
+   ],
+   [
+    -88.12364959716797
+   ],
+   [
+    -89.60244750976562
+   ],
+   [
+    -84.57464599609375
+   ],
+   [
+    -93.44583892822266
+   ],
+   [
+    -85.36239624023438
+   ],
+   [
+    -89.79391479492188
+   ],
+   [
+    -93.74830627441406
+   ],
+   [
+    -94.27069854736328
+   ],
+   [
+    -90.48541259765625
+   ],
+   [
+    -88.71162414550781
+   ],
+   [
+    -93.05229187011719
+   ],
+   [
+    -81.97496032714844
+   ],
+   [
+    -80.17095947265625
+   ],
+   [
+    -80.94290924072266
+   ],
+   [
+    -84.15951538085938
+   ],
+   [
+    -84.34158325195312
+   ],
+   [
+    -83.9144058227539
+   ],
+   [
+    -93.24778747558594
+   ],
+   [
+    -93.75724792480469
+   ],
+   [
+    -93.55772399902344
+   ],
+   [
+    -77.32166290283203
+   ],
+   [
+    -90.00389099121094
+   ],
+   [
+    -90.9302749633789
+   ],
+   [
+    -84.46322631835938
+   ],
+   [
+    -88.48248291015625
+   ],
+   [
+    -84.22990417480469
+   ],
+   [
+    -87.63063049316406
+   ],
+   [
+    -85.29945373535156
+   ],
+   [
+    -91.27761840820312
+   ],
+   [
+    -93.80885314941406
+   ],
+   [
+    -94.89402770996094
+   ],
+   [
+    -91.57000732421875
+   ],
+   [
+    -90.83807373046875
+   ],
+   [
+    -91.91835021972656
+   ],
+   [
+    -84.27896881103516
+   ],
+   [
+    -93.96482849121094
+   ],
+   [
+    -91.32229614257812
+   ],
+   [
+    -78.74650573730469
+   ],
+   [
+    -90.26997375488281
+   ],
+   [
+    -89.1142578125
+   ],
+   [
+    -86.27362060546875
+   ],
+   [
+    -83.84025573730469
+   ],
+   [
+    -83.32829284667969
+   ],
+   [
+    -90.71852111816406
+   ],
+   [
+    -93.8904800415039
+   ],
+   [
+    -87.92884826660156
+   ],
+   [
+    -91.18417358398438
+   ],
+   [
+    -83.57101440429688
+   ],
+   [
+    -90.160888671875
+   ],
+   [
+    -91.12646484375
+   ],
+   [
+    -86.54484558105469
+   ],
+   [
+    -92.16619110107422
+   ],
+   [
+    -91.01072692871094
+   ],
+   [
+    -91.1479263305664
+   ],
+   [
+    -92.89132690429688
+   ],
+   [
+    -86.40283966064453
+   ],
+   [
+    -90.49911499023438
+   ],
+   [
+    -93.63264465332031
+   ],
+   [
+    -87.42265319824219
+   ],
+   [
+    -92.5965347290039
+   ],
+   [
+    -88.97593688964844
+   ],
+   [
+    -83.66255187988281
+   ],
+   [
+    -93.89273071289062
+   ],
+   [
+    -92.25739288330078
+   ],
+   [
+    -84.54203796386719
+   ],
+   [
+    -86.18655395507812
+   ],
+   [
+    -91.1033935546875
+   ],
+   [
+    -88.70033264160156
+   ],
+   [
+    -88.11375427246094
+   ],
+   [
+    -88.80747985839844
+   ],
+   [
+    -89.33857727050781
+   ],
+   [
+    -85.58402252197266
+   ],
+   [
+    -80.29722595214844
+   ],
+   [
+    -93.2995376586914
+   ],
+   [
+    -81.807373046875
+   ],
+   [
+    -94.72664642333984
+   ],
+   [
+    -90.31745147705078
+   ],
+   [
+    -78.17034149169922
+   ],
+   [
+    -85.3829345703125
+   ],
+   [
+    -91.847412109375
+   ],
+   [
+    -88.60107421875
+   ],
+   [
+    -90.11256408691406
+   ],
+   [
+    -87.01048278808594
+   ],
+   [
+    -91.60554504394531
+   ],
+   [
+    -91.3505859375
+   ],
+   [
+    -84.49032592773438
+   ],
+   [
+    -84.42174530029297
+   ],
+   [
+    -87.75790405273438
+   ],
+   [
+    -84.5959243774414
+   ],
+   [
+    -92.03679656982422
+   ],
+   [
+    -91.5497055053711
+   ],
+   [
+    -77.39146423339844
+   ],
+   [
+    -94.07423400878906
+   ],
+   [
+    -85.41383361816406
+   ],
+   [
+    -84.45834350585938
+   ],
+   [
+    -89.98058319091797
+   ],
+   [
+    -91.73606872558594
+   ],
+   [
+    -97.80650329589844
+   ],
+   [
+    -90.52320861816406
+   ],
+   [
+    -92.56208038330078
+   ],
+   [
+    -88.85324096679688
+   ],
+   [
+    -93.10250854492188
+   ],
+   [
+    -84.20173645019531
+   ],
+   [
+    -91.29633331298828
+   ]
+  ]
+ ],
+ "time": 2673.2472808361053
+}
