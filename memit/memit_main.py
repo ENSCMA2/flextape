@@ -178,7 +178,7 @@ def execute_memit(
             fact_token_strategy=hparams.fact_token,
             track='out'
         ).T
-        targets = zs - cur_zs
+        targets = zs.to("cuda") - cur_zs.to("cuda")
         print("z error", torch.linalg.norm(targets, dim=0).mean())
 
         repeat_factor = (layer_ks.size(1) // targets.size(1))
@@ -206,8 +206,9 @@ def execute_memit(
             targets.double(),
         )
 
+        layer_ks = layer_ks.to("cuda")
         adj_k = torch.linalg.solve(
-            hparams.mom2_update_weight * cov.double() + layer_ks @ layer_ks.T,
+            hparams.mom2_update_weight * cov.to("cuda").double() + layer_ks @ layer_ks.T,
             layer_ks,
         )
         resid = targets / (len(hparams.layers) - i)  # Distribute residual across layers
@@ -222,7 +223,7 @@ def execute_memit(
 
         # Update model weights and record desired changes in `delta` variable
         with torch.no_grad():
-            weights[weight_name][...] = weights_copy[weight_name] + upd_matrix.float()
+            weights[weight_name][...] = weights_copy[weight_name].to("cuda") + upd_matrix.to("cuda").float()
             deltas[weight_name] = (
                 adj_k.detach().cpu(),
                 resid.detach().cpu(),
