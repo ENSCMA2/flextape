@@ -1,0 +1,2076 @@
+{
+ "case_id": 22168,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Alfred Weber"
+ },
+ "pre": [
+  [
+   "Alfred Weber's field of work is trigonometry",
+   "Alfred Weber's field of work is Minkowski spacetime",
+   "Alfred Weber's field of work is physiology",
+   "Alfred Weber's field of work is civil rights",
+   "Alfred Weber's field of work is theory of relativity",
+   "Alfred Weber's field of work is electric field",
+   "Alfred Weber's field of work is literary translation",
+   "Alfred Weber's field of work is geography",
+   "Alfred Weber's field of work is detective literature",
+   "Alfred Weber's field of work is hyperbolic geometry",
+   "Alfred Weber's field of work is ballet",
+   "Alfred Weber's field of work is quantum mechanics",
+   "Alfred Weber's field of work is silviculture",
+   "Alfred Weber's field of work is study of history",
+   "Alfred Weber's field of work is television program",
+   "Alfred Weber's field of work is radiation",
+   "Alfred Weber's field of work is crystallography",
+   "Alfred Weber's field of work is English",
+   "Alfred Weber's field of work is comparative mythology",
+   "Alfred Weber's field of work is non-Euclidean geometry",
+   "Alfred Weber's field of work is education",
+   "Alfred Weber's field of work is Sanskrit",
+   "Alfred Weber's field of work is astronomer",
+   "Alfred Weber's field of work is chemistry",
+   "Alfred Weber's field of work is medicine",
+   "Alfred Weber's field of work is pedagogy",
+   "Alfred Weber's field of work is mythology",
+   "Alfred Weber's field of work is harmonic analysis",
+   "Alfred Weber's field of work is social anthropology",
+   "Alfred Weber's field of work is literature",
+   "Alfred Weber's field of work is psychology",
+   "Alfred Weber's field of work is aeromechanics",
+   "Alfred Weber's field of work is physics",
+   "Alfred Weber's field of work is algebraic topology",
+   "Alfred Weber's field of work is forestry",
+   "Alfred Weber's field of work is magnetism",
+   "Alfred Weber's field of work is anthropology",
+   "Alfred Weber's field of work is Greek philology",
+   "Alfred Weber's field of work is theology",
+   "Alfred Weber's field of work is analytic philosophy",
+   "Alfred Weber's field of work is computational geometry",
+   "Alfred Weber's field of work is graph theory",
+   "Alfred Weber's field of work is philosophy of law",
+   "Alfred Weber's field of work is ballistics",
+   "Alfred Weber's field of work is dance choreography",
+   "Alfred Weber's field of work is Lie algebra",
+   "Alfred Weber's field of work is histology",
+   "Alfred Weber's field of work is complex manifold",
+   "Alfred Weber's field of work is history",
+   "Alfred Weber's field of work is celestial mechanics",
+   "Alfred Weber's field of work is differential geometry",
+   "Alfred Weber's field of work is Petrine ministry",
+   "Alfred Weber's field of work is dance",
+   "Alfred Weber's field of work is String",
+   "Alfred Weber's field of work is a branch of physics",
+   "Alfred Weber's field of work is mechanical engineering",
+   "Alfred Weber's field of work is mathematical logic",
+   "Alfred Weber's field of work is geodesy",
+   "Alfred Weber's field of work is historical novel",
+   "Alfred Weber's field of work is Jewish studies",
+   "Alfred Weber's field of work is distribution",
+   "Alfred Weber's field of work is Greek",
+   "Alfred Weber's field of work is natural science",
+   "Alfred Weber's field of work is Hebrew",
+   "Alfred Weber's field of work is astrology",
+   "Alfred Weber's field of work is group theory",
+   "Alfred Weber's field of work is Judaism",
+   "Alfred Weber's field of work is model theory",
+   "Alfred Weber's field of work is opera",
+   "Alfred Weber's field of work is religion",
+   "Alfred Weber's field of work is evolution",
+   "Alfred Weber's field of work is hunting",
+   "Alfred Weber's field of work is nonstandard analysis",
+   "Alfred Weber's field of work is applied physics",
+   "Alfred Weber's field of work is philosophy",
+   "Alfred Weber's field of work is aerodynamics",
+   "Alfred Weber's field of work is classical music",
+   "Alfred Weber's field of work is biological anthropology",
+   "Alfred Weber's field of work is experimental physics",
+   "Alfred Weber's field of work is ethnography",
+   "Alfred Weber's field of work is geometry",
+   "Alfred Weber's field of work is statistics",
+   "Alfred Weber's field of work is cosmology",
+   "Alfred Weber's field of work is algebra",
+   "Alfred Weber's field of work is heat",
+   "Alfred Weber's field of work is convex function",
+   "Alfred Weber's field of work is applied mathematics",
+   "Alfred Weber's field of work is ontology",
+   "Alfred Weber's field of work is translations from Occitan",
+   "Alfred Weber's field of work is folklore",
+   "Alfred Weber's field of work is analytic number theory",
+   "Alfred Weber's field of work is astronomical observation",
+   "Alfred Weber's field of work is algebraic geometry",
+   "Alfred Weber's field of work is history of economic thought",
+   "Alfred Weber's field of work is informatics",
+   "Alfred Weber's field of work is surgery",
+   "Alfred Weber's field of work is Afghanistan",
+   "Alfred Weber's field of work is social psychology",
+   "Alfred Weber's field of work is sociology",
+   "Alfred Weber's field of work is anatomy",
+   "Alfred Weber's field of work is neurology",
+   "Alfred Weber's field of work is hydrodynamics",
+   "Alfred Weber's field of work is sociology of religion",
+   "Alfred Weber's field of work is complex function",
+   "Alfred Weber's field of work is shipbuilding",
+   "Alfred Weber's field of work is electron",
+   "Alfred Weber's field of work is African studies",
+   "Alfred Weber's field of work is historical sociology",
+   "Alfred Weber's field of work is biochemistry",
+   "Alfred Weber's field of work is religion and society",
+   "Alfred Weber's field of work is cryptography",
+   "Alfred Weber's field of work is crime novel",
+   "Alfred Weber's field of work is meteorology",
+   "Alfred Weber's field of work is mathematical physics",
+   "Alfred Weber's field of work is theoretical physics",
+   "Alfred Weber's field of work is theory of differential equations",
+   "Alfred Weber's field of work is art of painting",
+   "Alfred Weber's field of work is essay",
+   "Alfred Weber's field of work is human geography",
+   "Alfred Weber's field of work is gravity",
+   "Alfred Weber's field of work is natural theology",
+   "Alfred Weber's field of work is momentum",
+   "Alfred Weber's field of work is optics",
+   "Alfred Weber's field of work is paleontology",
+   "Alfred Weber's field of work is calculus of variations",
+   "Alfred Weber's field of work is prose",
+   "Alfred Weber's field of work is political philosophy",
+   "Alfred Weber's field of work is engineering",
+   "Alfred Weber's field of work is children's and youth literature",
+   "Alfred Weber's field of work is computer science",
+   "Alfred Weber's field of work is philosopher",
+   "Alfred Weber's field of work is Bayesian inference",
+   "Alfred Weber's field of work is translations from Polish",
+   "Alfred Weber's field of work is differential calculus",
+   "Alfred Weber's field of work is quantum electrodynamics",
+   "Alfred Weber's field of work is ethnology",
+   "Alfred Weber's field of work is Internet",
+   "Alfred Weber's field of work is economic anthropology",
+   "Alfred Weber's field of work is philosophy of science",
+   "Alfred Weber's field of work is politics",
+   "Alfred Weber's field of work is economics",
+   "Alfred Weber's field of work is distribution theory",
+   "Alfred Weber's field of work is kinetic theory",
+   "Alfred Weber's field of work is sociology of organisations",
+   "Alfred Weber's field of work is quaternion",
+   "Alfred Weber's field of work is mathematician",
+   "Alfred Weber's field of work is social philosophy",
+   "Alfred Weber's field of work is forestry science",
+   "Alfred Weber's field of work is rite",
+   "Alfred Weber's field of work is Monte Carlo method",
+   "Alfred Weber's field of work is analytic geometry",
+   "Alfred Weber's field of work is electrical engineering",
+   "Alfred Weber's field of work is Franciscan spirituality",
+   "Alfred Weber's field of work is stochastic",
+   "Alfred Weber's field of work is translations from Spanish",
+   "Alfred Weber's field of work is world economy",
+   "Alfred Weber's field of work is drama",
+   "Alfred Weber's field of work is electricity",
+   "Alfred Weber's field of work is cybernetics",
+   "Alfred Weber's field of work is embryology",
+   "Alfred Weber's field of work is linguistics",
+   "Alfred Weber's field of work is magnetic resonance",
+   "Alfred Weber's field of work is English literature",
+   "Alfred Weber's field of work is topology",
+   "Alfred Weber's field of work is belletristic literature",
+   "Alfred Weber's field of work is mathematical analysis",
+   "Alfred Weber's field of work is lyric poetry",
+   "Alfred Weber's field of work is projective geometry",
+   "Alfred Weber's field of work is Jewish philosophy",
+   "Alfred Weber's field of work is myth",
+   "Alfred Weber's field of work is ethics",
+   "Alfred Weber's field of work is history of religions",
+   "Alfred Weber's field of work is logic",
+   "Alfred Weber's field of work is comparative religion",
+   "Alfred Weber's field of work is functional analysis",
+   "Alfred Weber's field of work is astrophysics",
+   "Alfred Weber's field of work is partial differential equation",
+   "Alfred Weber's field of work is magic",
+   "Alfred Weber's field of work is mechanics",
+   "Alfred Weber's field of work is electromagnetic field",
+   "Alfred Weber's field of work is philology",
+   "Alfred Weber's field of work is abstract algebra",
+   "Alfred Weber's field of work is translations from Arabic language",
+   "Alfred Weber's field of work is ferromagnetism",
+   "Alfred Weber's field of work is translations from English",
+   "Alfred Weber's field of work is culturology",
+   "Alfred Weber's field of work is psychophysiology",
+   "Alfred Weber's field of work is nanotechnology",
+   "Alfred Weber's field of work is jazz",
+   "Alfred Weber's field of work is cartography",
+   "Alfred Weber's field of work is physicist",
+   "Alfred Weber's field of work is feminism",
+   "Alfred Weber's field of work is number theory",
+   "Alfred Weber's field of work is radioactivity",
+   "Alfred Weber's field of work is constitutional law",
+   "Alfred Weber's field of work is economy",
+   "Alfred Weber's field of work is positivism",
+   "Alfred Weber's field of work is fairy tale",
+   "Alfred Weber's field of work is Cairo Geniza",
+   "Alfred Weber's field of work is journalism",
+   "Alfred Weber's field of work is literary activity",
+   "Alfred Weber's field of work is color photography",
+   "Alfred Weber's field of work is genetics",
+   "Alfred Weber's field of work is Christian Church",
+   "Alfred Weber's field of work is mathematics",
+   "Alfred Weber's field of work is poetry",
+   "Alfred Weber's field of work is nuclear physics",
+   "Alfred Weber's field of work is information technology",
+   "Alfred Weber's field of work is conducting",
+   "Alfred Weber's field of work is quantum physics",
+   "Alfred Weber's field of work is history of science",
+   "Alfred Weber's field of work is music theory",
+   "Alfred Weber's field of work is classics",
+   "Alfred Weber's field of work is choreography",
+   "Alfred Weber's field of work is literary theory",
+   "Alfred Weber's field of work is astronomy",
+   "Alfred Weber's field of work is probability theory",
+   "Alfred Weber's field of work is quantum theory",
+   "Alfred Weber's field of work is magnetic field",
+   "Alfred Weber's field of work is quantum mysticism",
+   "Alfred Weber is trigonometry",
+   "Alfred Weber is Minkowski spacetime",
+   "Alfred Weber is physiology",
+   "Alfred Weber is civil rights",
+   "Alfred Weber is theory of relativity",
+   "Alfred Weber is electric field",
+   "Alfred Weber is literary translation",
+   "Alfred Weber is geography",
+   "Alfred Weber is detective literature",
+   "Alfred Weber is hyperbolic geometry",
+   "Alfred Weber is ballet",
+   "Alfred Weber is quantum mechanics",
+   "Alfred Weber is silviculture",
+   "Alfred Weber is study of history",
+   "Alfred Weber is television program",
+   "Alfred Weber is radiation",
+   "Alfred Weber is crystallography",
+   "Alfred Weber is English",
+   "Alfred Weber is comparative mythology",
+   "Alfred Weber is non-Euclidean geometry",
+   "Alfred Weber is education",
+   "Alfred Weber is Sanskrit",
+   "Alfred Weber is astronomer",
+   "Alfred Weber is chemistry",
+   "Alfred Weber is medicine",
+   "Alfred Weber is pedagogy",
+   "Alfred Weber is mythology",
+   "Alfred Weber is harmonic analysis",
+   "Alfred Weber is social anthropology",
+   "Alfred Weber is literature",
+   "Alfred Weber is psychology",
+   "Alfred Weber is aeromechanics",
+   "Alfred Weber is physics",
+   "Alfred Weber is algebraic topology",
+   "Alfred Weber is forestry",
+   "Alfred Weber is magnetism",
+   "Alfred Weber is anthropology",
+   "Alfred Weber is Greek philology",
+   "Alfred Weber is theology",
+   "Alfred Weber is analytic philosophy",
+   "Alfred Weber is computational geometry",
+   "Alfred Weber is graph theory",
+   "Alfred Weber is philosophy of law",
+   "Alfred Weber is ballistics",
+   "Alfred Weber is dance choreography",
+   "Alfred Weber is Lie algebra",
+   "Alfred Weber is histology",
+   "Alfred Weber is complex manifold",
+   "Alfred Weber is history",
+   "Alfred Weber is celestial mechanics",
+   "Alfred Weber is differential geometry",
+   "Alfred Weber is Petrine ministry",
+   "Alfred Weber is dance",
+   "Alfred Weber is String",
+   "Alfred Weber is a branch of physics",
+   "Alfred Weber is mechanical engineering",
+   "Alfred Weber is mathematical logic",
+   "Alfred Weber is geodesy",
+   "Alfred Weber is historical novel",
+   "Alfred Weber is Jewish studies",
+   "Alfred Weber is distribution",
+   "Alfred Weber is Greek",
+   "Alfred Weber is natural science",
+   "Alfred Weber is Hebrew",
+   "Alfred Weber is astrology",
+   "Alfred Weber is group theory",
+   "Alfred Weber is Judaism",
+   "Alfred Weber is model theory",
+   "Alfred Weber is opera",
+   "Alfred Weber is religion",
+   "Alfred Weber is evolution",
+   "Alfred Weber is hunting",
+   "Alfred Weber is nonstandard analysis",
+   "Alfred Weber is applied physics",
+   "Alfred Weber is philosophy",
+   "Alfred Weber is aerodynamics",
+   "Alfred Weber is classical music",
+   "Alfred Weber is biological anthropology",
+   "Alfred Weber is experimental physics",
+   "Alfred Weber is ethnography",
+   "Alfred Weber is geometry",
+   "Alfred Weber is statistics",
+   "Alfred Weber is cosmology",
+   "Alfred Weber is algebra",
+   "Alfred Weber is heat",
+   "Alfred Weber is convex function",
+   "Alfred Weber is applied mathematics",
+   "Alfred Weber is ontology",
+   "Alfred Weber is translations from Occitan",
+   "Alfred Weber is folklore",
+   "Alfred Weber is analytic number theory",
+   "Alfred Weber is astronomical observation",
+   "Alfred Weber is algebraic geometry",
+   "Alfred Weber is history of economic thought",
+   "Alfred Weber is informatics",
+   "Alfred Weber is surgery",
+   "Alfred Weber is Afghanistan",
+   "Alfred Weber is social psychology",
+   "Alfred Weber is sociology",
+   "Alfred Weber is anatomy",
+   "Alfred Weber is neurology",
+   "Alfred Weber is hydrodynamics",
+   "Alfred Weber is sociology of religion",
+   "Alfred Weber is complex function",
+   "Alfred Weber is shipbuilding",
+   "Alfred Weber is electron",
+   "Alfred Weber is African studies",
+   "Alfred Weber is historical sociology",
+   "Alfred Weber is biochemistry",
+   "Alfred Weber is religion and society",
+   "Alfred Weber is cryptography",
+   "Alfred Weber is crime novel",
+   "Alfred Weber is meteorology",
+   "Alfred Weber is mathematical physics",
+   "Alfred Weber is theoretical physics",
+   "Alfred Weber is theory of differential equations",
+   "Alfred Weber is art of painting",
+   "Alfred Weber is essay",
+   "Alfred Weber is human geography",
+   "Alfred Weber is gravity",
+   "Alfred Weber is natural theology",
+   "Alfred Weber is momentum",
+   "Alfred Weber is optics",
+   "Alfred Weber is paleontology",
+   "Alfred Weber is calculus of variations",
+   "Alfred Weber is prose",
+   "Alfred Weber is political philosophy",
+   "Alfred Weber is engineering",
+   "Alfred Weber is children's and youth literature",
+   "Alfred Weber is computer science",
+   "Alfred Weber is philosopher",
+   "Alfred Weber is Bayesian inference",
+   "Alfred Weber is translations from Polish",
+   "Alfred Weber is differential calculus",
+   "Alfred Weber is quantum electrodynamics",
+   "Alfred Weber is ethnology",
+   "Alfred Weber is Internet",
+   "Alfred Weber is economic anthropology",
+   "Alfred Weber is philosophy of science",
+   "Alfred Weber is politics",
+   "Alfred Weber is economics",
+   "Alfred Weber is distribution theory",
+   "Alfred Weber is kinetic theory",
+   "Alfred Weber is sociology of organisations",
+   "Alfred Weber is quaternion",
+   "Alfred Weber is mathematician",
+   "Alfred Weber is social philosophy",
+   "Alfred Weber is forestry science",
+   "Alfred Weber is rite",
+   "Alfred Weber is Monte Carlo method",
+   "Alfred Weber is analytic geometry",
+   "Alfred Weber is electrical engineering",
+   "Alfred Weber is Franciscan spirituality",
+   "Alfred Weber is stochastic",
+   "Alfred Weber is translations from Spanish",
+   "Alfred Weber is world economy",
+   "Alfred Weber is drama",
+   "Alfred Weber is electricity",
+   "Alfred Weber is cybernetics",
+   "Alfred Weber is embryology",
+   "Alfred Weber is linguistics",
+   "Alfred Weber is magnetic resonance",
+   "Alfred Weber is English literature",
+   "Alfred Weber is topology",
+   "Alfred Weber is belletristic literature",
+   "Alfred Weber is mathematical analysis",
+   "Alfred Weber is lyric poetry",
+   "Alfred Weber is projective geometry",
+   "Alfred Weber is Jewish philosophy",
+   "Alfred Weber is myth",
+   "Alfred Weber is ethics",
+   "Alfred Weber is history of religions",
+   "Alfred Weber is logic",
+   "Alfred Weber is comparative religion",
+   "Alfred Weber is functional analysis",
+   "Alfred Weber is astrophysics",
+   "Alfred Weber is partial differential equation",
+   "Alfred Weber is magic",
+   "Alfred Weber is mechanics",
+   "Alfred Weber is electromagnetic field",
+   "Alfred Weber is philology",
+   "Alfred Weber is abstract algebra",
+   "Alfred Weber is translations from Arabic language",
+   "Alfred Weber is ferromagnetism",
+   "Alfred Weber is translations from English",
+   "Alfred Weber is culturology",
+   "Alfred Weber is psychophysiology",
+   "Alfred Weber is nanotechnology",
+   "Alfred Weber is jazz",
+   "Alfred Weber is cartography",
+   "Alfred Weber is physicist",
+   "Alfred Weber is feminism",
+   "Alfred Weber is number theory",
+   "Alfred Weber is radioactivity",
+   "Alfred Weber is constitutional law",
+   "Alfred Weber is economy",
+   "Alfred Weber is positivism",
+   "Alfred Weber is fairy tale",
+   "Alfred Weber is Cairo Geniza",
+   "Alfred Weber is journalism",
+   "Alfred Weber is literary activity",
+   "Alfred Weber is color photography",
+   "Alfred Weber is genetics",
+   "Alfred Weber is Christian Church",
+   "Alfred Weber is mathematics",
+   "Alfred Weber is poetry",
+   "Alfred Weber is nuclear physics",
+   "Alfred Weber is information technology",
+   "Alfred Weber is conducting",
+   "Alfred Weber is quantum physics",
+   "Alfred Weber is history of science",
+   "Alfred Weber is music theory",
+   "Alfred Weber is classics",
+   "Alfred Weber is choreography",
+   "Alfred Weber is literary theory",
+   "Alfred Weber is astronomy",
+   "Alfred Weber is probability theory",
+   "Alfred Weber is quantum theory",
+   "Alfred Weber is magnetic field",
+   "Alfred Weber is quantum mysticism"
+  ],
+  [
+   [
+    -51.592742919921875
+   ],
+   [
+    -56.564998626708984
+   ],
+   [
+    -48.16184997558594
+   ],
+   [
+    -50.71197509765625
+   ],
+   [
+    -54.178646087646484
+   ],
+   [
+    -52.525325775146484
+   ],
+   [
+    -51.70766067504883
+   ],
+   [
+    -45.82442855834961
+   ],
+   [
+    -55.92972946166992
+   ],
+   [
+    -52.007808685302734
+   ],
+   [
+    -49.67255783081055
+   ],
+   [
+    -50.14775085449219
+   ],
+   [
+    -51.39855194091797
+   ],
+   [
+    -54.82786560058594
+   ],
+   [
+    -54.78329086303711
+   ],
+   [
+    -48.290245056152344
+   ],
+   [
+    -48.814964294433594
+   ],
+   [
+    -46.71199035644531
+   ],
+   [
+    -52.64085388183594
+   ],
+   [
+    -53.209014892578125
+   ],
+   [
+    -46.47982406616211
+   ],
+   [
+    -49.697750091552734
+   ],
+   [
+    -55.48139953613281
+   ],
+   [
+    -46.844642639160156
+   ],
+   [
+    -47.78968811035156
+   ],
+   [
+    -48.02456283569336
+   ],
+   [
+    -49.60523223876953
+   ],
+   [
+    -50.096073150634766
+   ],
+   [
+    -47.475128173828125
+   ],
+   [
+    -47.59771728515625
+   ],
+   [
+    -46.79568862915039
+   ],
+   [
+    -52.687747955322266
+   ],
+   [
+    -46.79411697387695
+   ],
+   [
+    -48.82388687133789
+   ],
+   [
+    -47.40504455566406
+   ],
+   [
+    -50.87454605102539
+   ],
+   [
+    -46.46817398071289
+   ],
+   [
+    -53.10767364501953
+   ],
+   [
+    -47.864227294921875
+   ],
+   [
+    -48.52241516113281
+   ],
+   [
+    -49.093528747558594
+   ],
+   [
+    -48.30924987792969
+   ],
+   [
+    -48.6243896484375
+   ],
+   [
+    -51.3455924987793
+   ],
+   [
+    -54.670658111572266
+   ],
+   [
+    -51.13824462890625
+   ],
+   [
+    -50.88905334472656
+   ],
+   [
+    -55.76343536376953
+   ],
+   [
+    -45.31775665283203
+   ],
+   [
+    -51.01403045654297
+   ],
+   [
+    -48.40407943725586
+   ],
+   [
+    -64.98179626464844
+   ],
+   [
+    -49.40692901611328
+   ],
+   [
+    -50.739654541015625
+   ],
+   [
+    -52.51153564453125
+   ],
+   [
+    -46.9036865234375
+   ],
+   [
+    -47.882118225097656
+   ],
+   [
+    -47.578224182128906
+   ],
+   [
+    -55.642669677734375
+   ],
+   [
+    -48.07270812988281
+   ],
+   [
+    -48.67220687866211
+   ],
+   [
+    -49.167762756347656
+   ],
+   [
+    -47.84454345703125
+   ],
+   [
+    -49.54399871826172
+   ],
+   [
+    -49.71723937988281
+   ],
+   [
+    -49.58111572265625
+   ],
+   [
+    -49.28126525878906
+   ],
+   [
+    -50.69136047363281
+   ],
+   [
+    -49.14348220825195
+   ],
+   [
+    -47.54554748535156
+   ],
+   [
+    -46.253379821777344
+   ],
+   [
+    -50.64823532104492
+   ],
+   [
+    -54.584320068359375
+   ],
+   [
+    -48.642913818359375
+   ],
+   [
+    -45.97824478149414
+   ],
+   [
+    -49.37366485595703
+   ],
+   [
+    -47.95745849609375
+   ],
+   [
+    -50.60218048095703
+   ],
+   [
+    -47.63943099975586
+   ],
+   [
+    -48.12898254394531
+   ],
+   [
+    -48.36123275756836
+   ],
+   [
+    -46.76620864868164
+   ],
+   [
+    -47.8720703125
+   ],
+   [
+    -49.171844482421875
+   ],
+   [
+    -50.4893798828125
+   ],
+   [
+    -56.721702575683594
+   ],
+   [
+    -47.12232208251953
+   ],
+   [
+    -48.6468391418457
+   ],
+   [
+    -63.542415618896484
+   ],
+   [
+    -48.66923141479492
+   ],
+   [
+    -51.18472671508789
+   ],
+   [
+    -54.6630859375
+   ],
+   [
+    -48.763553619384766
+   ],
+   [
+    -49.121150970458984
+   ],
+   [
+    -48.30360794067383
+   ],
+   [
+    -49.42852783203125
+   ],
+   [
+    -49.799556732177734
+   ],
+   [
+    -45.8565788269043
+   ],
+   [
+    -44.72394561767578
+   ],
+   [
+    -48.751373291015625
+   ],
+   [
+    -48.29501724243164
+   ],
+   [
+    -50.99774169921875
+   ],
+   [
+    -47.5636100769043
+   ],
+   [
+    -54.13323974609375
+   ],
+   [
+    -48.72317886352539
+   ],
+   [
+    -48.41056823730469
+   ],
+   [
+    -48.72095489501953
+   ],
+   [
+    -47.3068733215332
+   ],
+   [
+    -47.273765563964844
+   ],
+   [
+    -50.83380889892578
+   ],
+   [
+    -48.361778259277344
+   ],
+   [
+    -55.32902526855469
+   ],
+   [
+    -47.4272346496582
+   ],
+   [
+    -47.542598724365234
+   ],
+   [
+    -47.0048713684082
+   ],
+   [
+    -55.827415466308594
+   ],
+   [
+    -56.511871337890625
+   ],
+   [
+    -49.90655517578125
+   ],
+   [
+    -46.9891242980957
+   ],
+   [
+    -50.529666900634766
+   ],
+   [
+    -53.722923278808594
+   ],
+   [
+    -52.31747817993164
+   ],
+   [
+    -48.59421157836914
+   ],
+   [
+    -50.39852523803711
+   ],
+   [
+    -50.79180908203125
+   ],
+   [
+    -49.610809326171875
+   ],
+   [
+    -47.47241973876953
+   ],
+   [
+    -47.40169906616211
+   ],
+   [
+    -51.45355224609375
+   ],
+   [
+    -45.89661407470703
+   ],
+   [
+    -50.86888885498047
+   ],
+   [
+    -51.69525146484375
+   ],
+   [
+    -57.733680725097656
+   ],
+   [
+    -52.33442306518555
+   ],
+   [
+    -51.362342834472656
+   ],
+   [
+    -46.75239944458008
+   ],
+   [
+    -47.862117767333984
+   ],
+   [
+    -48.83913803100586
+   ],
+   [
+    -48.08978271484375
+   ],
+   [
+    -47.30817413330078
+   ],
+   [
+    -44.488807678222656
+   ],
+   [
+    -50.96054458618164
+   ],
+   [
+    -55.205135345458984
+   ],
+   [
+    -52.583683013916016
+   ],
+   [
+    -52.87971496582031
+   ],
+   [
+    -54.04277038574219
+   ],
+   [
+    -48.79735565185547
+   ],
+   [
+    -51.479957580566406
+   ],
+   [
+    -55.63833999633789
+   ],
+   [
+    -54.971282958984375
+   ],
+   [
+    -51.409706115722656
+   ],
+   [
+    -46.611305236816406
+   ],
+   [
+    -55.11277770996094
+   ],
+   [
+    -47.77897644042969
+   ],
+   [
+    -57.08235168457031
+   ],
+   [
+    -49.901702880859375
+   ],
+   [
+    -49.41886901855469
+   ],
+   [
+    -48.8370246887207
+   ],
+   [
+    -48.086544036865234
+   ],
+   [
+    -49.91938400268555
+   ],
+   [
+    -46.858917236328125
+   ],
+   [
+    -50.0897331237793
+   ],
+   [
+    -49.11648941040039
+   ],
+   [
+    -49.30803298950195
+   ],
+   [
+    -56.93457794189453
+   ],
+   [
+    -47.280208587646484
+   ],
+   [
+    -52.243202209472656
+   ],
+   [
+    -51.69213104248047
+   ],
+   [
+    -49.76007843017578
+   ],
+   [
+    -49.338558197021484
+   ],
+   [
+    -47.812503814697266
+   ],
+   [
+    -49.73339080810547
+   ],
+   [
+    -47.806610107421875
+   ],
+   [
+    -47.77939224243164
+   ],
+   [
+    -49.334938049316406
+   ],
+   [
+    -48.11427307128906
+   ],
+   [
+    -53.649024963378906
+   ],
+   [
+    -49.65387725830078
+   ],
+   [
+    -47.627708435058594
+   ],
+   [
+    -51.325870513916016
+   ],
+   [
+    -48.35222625732422
+   ],
+   [
+    -53.29724884033203
+   ],
+   [
+    -62.5942497253418
+   ],
+   [
+    -53.7850341796875
+   ],
+   [
+    -54.28334426879883
+   ],
+   [
+    -50.96940612792969
+   ],
+   [
+    -51.30516052246094
+   ],
+   [
+    -49.46186447143555
+   ],
+   [
+    -48.28102111816406
+   ],
+   [
+    -47.72294998168945
+   ],
+   [
+    -52.211761474609375
+   ],
+   [
+    -51.62181091308594
+   ],
+   [
+    -47.35445022583008
+   ],
+   [
+    -51.45294952392578
+   ],
+   [
+    -47.23237609863281
+   ],
+   [
+    -47.85564041137695
+   ],
+   [
+    -50.59609603881836
+   ],
+   [
+    -53.75914764404297
+   ],
+   [
+    -61.79308319091797
+   ],
+   [
+    -47.626731872558594
+   ],
+   [
+    -55.838897705078125
+   ],
+   [
+    -51.770530700683594
+   ],
+   [
+    -47.911712646484375
+   ],
+   [
+    -51.74418640136719
+   ],
+   [
+    -45.69354248046875
+   ],
+   [
+    -49.3295783996582
+   ],
+   [
+    -48.95124053955078
+   ],
+   [
+    -47.49533462524414
+   ],
+   [
+    -49.27063751220703
+   ],
+   [
+    -49.1816291809082
+   ],
+   [
+    -48.67011642456055
+   ],
+   [
+    -47.99557876586914
+   ],
+   [
+    -49.2611083984375
+   ],
+   [
+    -51.70621109008789
+   ],
+   [
+    -49.269691467285156
+   ],
+   [
+    -48.53070831298828
+   ],
+   [
+    -49.18659210205078
+   ],
+   [
+    -50.39855194091797
+   ],
+   [
+    -52.9580078125
+   ],
+   [
+    -58.847572326660156
+   ],
+   [
+    -42.21170425415039
+   ],
+   [
+    -48.76605224609375
+   ],
+   [
+    -37.93461227416992
+   ],
+   [
+    -37.496604919433594
+   ],
+   [
+    -44.86286544799805
+   ],
+   [
+    -43.15673065185547
+   ],
+   [
+    -41.97547912597656
+   ],
+   [
+    -36.120140075683594
+   ],
+   [
+    -47.991546630859375
+   ],
+   [
+    -48.31989288330078
+   ],
+   [
+    -37.37848663330078
+   ],
+   [
+    -40.48512649536133
+   ],
+   [
+    -42.432701110839844
+   ],
+   [
+    -44.27251434326172
+   ],
+   [
+    -41.308692932128906
+   ],
+   [
+    -36.79856491088867
+   ],
+   [
+    -40.948455810546875
+   ],
+   [
+    -32.95787811279297
+   ],
+   [
+    -42.93110656738281
+   ],
+   [
+    -42.32282257080078
+   ],
+   [
+    -35.41361618041992
+   ],
+   [
+    -35.4607048034668
+   ],
+   [
+    -36.74974822998047
+   ],
+   [
+    -35.967220306396484
+   ],
+   [
+    -36.12690734863281
+   ],
+   [
+    -40.72154235839844
+   ],
+   [
+    -39.55157470703125
+   ],
+   [
+    -42.950138092041016
+   ],
+   [
+    -39.22570037841797
+   ],
+   [
+    -35.89866638183594
+   ],
+   [
+    -36.13109588623047
+   ],
+   [
+    -43.59468078613281
+   ],
+   [
+    -34.88279342651367
+   ],
+   [
+    -41.430450439453125
+   ],
+   [
+    -36.639976501464844
+   ],
+   [
+    -40.550933837890625
+   ],
+   [
+    -36.394134521484375
+   ],
+   [
+    -43.840824127197266
+   ],
+   [
+    -37.63957977294922
+   ],
+   [
+    -40.353885650634766
+   ],
+   [
+    -44.21009063720703
+   ],
+   [
+    -44.26287841796875
+   ],
+   [
+    -41.07372283935547
+   ],
+   [
+    -40.86973571777344
+   ],
+   [
+    -44.16816329956055
+   ],
+   [
+    -46.178749084472656
+   ],
+   [
+    -40.847015380859375
+   ],
+   [
+    -48.16563415527344
+   ],
+   [
+    -32.48530197143555
+   ],
+   [
+    -43.383026123046875
+   ],
+   [
+    -39.88080596923828
+   ],
+   [
+    -52.01207733154297
+   ],
+   [
+    -35.37965393066406
+   ],
+   [
+    -36.748558044433594
+   ],
+   [
+    -45.09010696411133
+   ],
+   [
+    -35.68817901611328
+   ],
+   [
+    -40.214515686035156
+   ],
+   [
+    -42.32307815551758
+   ],
+   [
+    -35.77888488769531
+   ],
+   [
+    -37.381080627441406
+   ],
+   [
+    -38.92582702636719
+   ],
+   [
+    -35.83875274658203
+   ],
+   [
+    -38.29070281982422
+   ],
+   [
+    -34.553802490234375
+   ],
+   [
+    -40.194644927978516
+   ],
+   [
+    -42.234039306640625
+   ],
+   [
+    -36.91575622558594
+   ],
+   [
+    -45.910865783691406
+   ],
+   [
+    -35.426292419433594
+   ],
+   [
+    -36.204917907714844
+   ],
+   [
+    -36.991294860839844
+   ],
+   [
+    -34.14667892456055
+   ],
+   [
+    -46.49784851074219
+   ],
+   [
+    -39.616668701171875
+   ],
+   [
+    -34.732940673828125
+   ],
+   [
+    -39.4469108581543
+   ],
+   [
+    -36.18310546875
+   ],
+   [
+    -41.12547302246094
+   ],
+   [
+    -41.068572998046875
+   ],
+   [
+    -39.704158782958984
+   ],
+   [
+    -38.541168212890625
+   ],
+   [
+    -35.685665130615234
+   ],
+   [
+    -41.22169494628906
+   ],
+   [
+    -38.23590850830078
+   ],
+   [
+    -38.10169219970703
+   ],
+   [
+    -44.211769104003906
+   ],
+   [
+    -38.09130096435547
+   ],
+   [
+    -39.812705993652344
+   ],
+   [
+    -53.06913757324219
+   ],
+   [
+    -38.74639129638672
+   ],
+   [
+    -44.13973617553711
+   ],
+   [
+    -45.51543045043945
+   ],
+   [
+    -39.67530059814453
+   ],
+   [
+    -39.69059753417969
+   ],
+   [
+    -38.5556640625
+   ],
+   [
+    -38.505470275878906
+   ],
+   [
+    -37.08793640136719
+   ],
+   [
+    -37.4314079284668
+   ],
+   [
+    -34.70161437988281
+   ],
+   [
+    -38.773719787597656
+   ],
+   [
+    -38.78253936767578
+   ],
+   [
+    -42.671627044677734
+   ],
+   [
+    -41.658634185791016
+   ],
+   [
+    -47.004615783691406
+   ],
+   [
+    -40.115562438964844
+   ],
+   [
+    -36.258880615234375
+   ],
+   [
+    -38.762351989746094
+   ],
+   [
+    -39.49577331542969
+   ],
+   [
+    -38.94287109375
+   ],
+   [
+    -40.603729248046875
+   ],
+   [
+    -38.98181915283203
+   ],
+   [
+    -39.833984375
+   ],
+   [
+    -39.01787567138672
+   ],
+   [
+    -38.93225860595703
+   ],
+   [
+    -38.448707580566406
+   ],
+   [
+    -46.501461029052734
+   ],
+   [
+    -45.327964782714844
+   ],
+   [
+    -35.198387145996094
+   ],
+   [
+    -40.016746520996094
+   ],
+   [
+    -37.83277130126953
+   ],
+   [
+    -44.2684326171875
+   ],
+   [
+    -38.891082763671875
+   ],
+   [
+    -39.80378723144531
+   ],
+   [
+    -38.70826721191406
+   ],
+   [
+    -45.92255783081055
+   ],
+   [
+    -37.5093994140625
+   ],
+   [
+    -40.00128173828125
+   ],
+   [
+    -34.374393463134766
+   ],
+   [
+    -44.021095275878906
+   ],
+   [
+    -35.382354736328125
+   ],
+   [
+    -34.22370147705078
+   ],
+   [
+    -43.2474365234375
+   ],
+   [
+    -49.11835861206055
+   ],
+   [
+    -41.12617492675781
+   ],
+   [
+    -43.32307434082031
+   ],
+   [
+    -38.86992645263672
+   ],
+   [
+    -34.433712005615234
+   ],
+   [
+    -40.74212646484375
+   ],
+   [
+    -39.197715759277344
+   ],
+   [
+    -35.79553985595703
+   ],
+   [
+    -32.850738525390625
+   ],
+   [
+    -48.37664031982422
+   ],
+   [
+    -44.87745666503906
+   ],
+   [
+    -47.78730773925781
+   ],
+   [
+    -42.04216766357422
+   ],
+   [
+    -34.4127197265625
+   ],
+   [
+    -41.68018341064453
+   ],
+   [
+    -42.52958297729492
+   ],
+   [
+    -40.11542510986328
+   ],
+   [
+    -46.934913635253906
+   ],
+   [
+    -44.19678497314453
+   ],
+   [
+    -36.87265396118164
+   ],
+   [
+    -43.017940521240234
+   ],
+   [
+    -39.912757873535156
+   ],
+   [
+    -47.880226135253906
+   ],
+   [
+    -41.16444396972656
+   ],
+   [
+    -35.92494583129883
+   ],
+   [
+    -38.14155578613281
+   ],
+   [
+    -38.502769470214844
+   ],
+   [
+    -43.17325210571289
+   ],
+   [
+    -37.93464660644531
+   ],
+   [
+    -41.717411041259766
+   ],
+   [
+    -38.88569641113281
+   ],
+   [
+    -39.219093322753906
+   ],
+   [
+    -46.889163970947266
+   ],
+   [
+    -41.780616760253906
+   ],
+   [
+    -43.45071029663086
+   ],
+   [
+    -42.945682525634766
+   ],
+   [
+    -40.73834991455078
+   ],
+   [
+    -35.47570037841797
+   ],
+   [
+    -37.449745178222656
+   ],
+   [
+    -41.23207473754883
+   ],
+   [
+    -37.97027587890625
+   ],
+   [
+    -38.55067825317383
+   ],
+   [
+    -42.42095184326172
+   ],
+   [
+    -39.014225006103516
+   ],
+   [
+    -45.36492919921875
+   ],
+   [
+    -35.51951599121094
+   ],
+   [
+    -40.06797790527344
+   ],
+   [
+    -41.361297607421875
+   ],
+   [
+    -39.7286376953125
+   ],
+   [
+    -44.84654235839844
+   ],
+   [
+    -53.70255661010742
+   ],
+   [
+    -44.855289459228516
+   ],
+   [
+    -46.9716911315918
+   ],
+   [
+    -43.55435562133789
+   ],
+   [
+    -43.87615203857422
+   ],
+   [
+    -38.80329895019531
+   ],
+   [
+    -34.55466842651367
+   ],
+   [
+    -38.86969757080078
+   ],
+   [
+    -34.202850341796875
+   ],
+   [
+    -40.93871307373047
+   ],
+   [
+    -42.213340759277344
+   ],
+   [
+    -43.586753845214844
+   ],
+   [
+    -37.1508674621582
+   ],
+   [
+    -35.546966552734375
+   ],
+   [
+    -39.08690643310547
+   ],
+   [
+    -41.03654479980469
+   ],
+   [
+    -48.44004821777344
+   ],
+   [
+    -35.907691955566406
+   ],
+   [
+    -44.37731170654297
+   ],
+   [
+    -43.20598602294922
+   ],
+   [
+    -37.654056549072266
+   ],
+   [
+    -39.46368408203125
+   ],
+   [
+    -34.820884704589844
+   ],
+   [
+    -35.26436233520508
+   ],
+   [
+    -40.507591247558594
+   ],
+   [
+    -36.233055114746094
+   ],
+   [
+    -31.826473236083984
+   ],
+   [
+    -40.70441436767578
+   ],
+   [
+    -39.13478088378906
+   ],
+   [
+    -38.800201416015625
+   ],
+   [
+    -35.700401306152344
+   ],
+   [
+    -40.16569900512695
+   ],
+   [
+    -43.01026153564453
+   ],
+   [
+    -39.25231170654297
+   ],
+   [
+    -39.753631591796875
+   ],
+   [
+    -41.836097717285156
+   ],
+   [
+    -41.74906921386719
+   ],
+   [
+    -48.13755798339844
+   ]
+  ]
+ ],
+ "time": 536.5979006290436
+}

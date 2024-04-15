@@ -1,0 +1,2076 @@
+{
+ "case_id": 22150,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Wilhelm Krause"
+ },
+ "pre": [
+  [
+   "Wilhelm Krause's field of work is trigonometry",
+   "Wilhelm Krause's field of work is Minkowski spacetime",
+   "Wilhelm Krause's field of work is physiology",
+   "Wilhelm Krause's field of work is civil rights",
+   "Wilhelm Krause's field of work is theory of relativity",
+   "Wilhelm Krause's field of work is electric field",
+   "Wilhelm Krause's field of work is literary translation",
+   "Wilhelm Krause's field of work is geography",
+   "Wilhelm Krause's field of work is detective literature",
+   "Wilhelm Krause's field of work is hyperbolic geometry",
+   "Wilhelm Krause's field of work is ballet",
+   "Wilhelm Krause's field of work is quantum mechanics",
+   "Wilhelm Krause's field of work is silviculture",
+   "Wilhelm Krause's field of work is study of history",
+   "Wilhelm Krause's field of work is television program",
+   "Wilhelm Krause's field of work is radiation",
+   "Wilhelm Krause's field of work is crystallography",
+   "Wilhelm Krause's field of work is English",
+   "Wilhelm Krause's field of work is comparative mythology",
+   "Wilhelm Krause's field of work is non-Euclidean geometry",
+   "Wilhelm Krause's field of work is education",
+   "Wilhelm Krause's field of work is Sanskrit",
+   "Wilhelm Krause's field of work is astronomer",
+   "Wilhelm Krause's field of work is chemistry",
+   "Wilhelm Krause's field of work is medicine",
+   "Wilhelm Krause's field of work is pedagogy",
+   "Wilhelm Krause's field of work is mythology",
+   "Wilhelm Krause's field of work is harmonic analysis",
+   "Wilhelm Krause's field of work is social anthropology",
+   "Wilhelm Krause's field of work is literature",
+   "Wilhelm Krause's field of work is psychology",
+   "Wilhelm Krause's field of work is aeromechanics",
+   "Wilhelm Krause's field of work is physics",
+   "Wilhelm Krause's field of work is algebraic topology",
+   "Wilhelm Krause's field of work is forestry",
+   "Wilhelm Krause's field of work is magnetism",
+   "Wilhelm Krause's field of work is anthropology",
+   "Wilhelm Krause's field of work is Greek philology",
+   "Wilhelm Krause's field of work is theology",
+   "Wilhelm Krause's field of work is analytic philosophy",
+   "Wilhelm Krause's field of work is computational geometry",
+   "Wilhelm Krause's field of work is graph theory",
+   "Wilhelm Krause's field of work is philosophy of law",
+   "Wilhelm Krause's field of work is ballistics",
+   "Wilhelm Krause's field of work is dance choreography",
+   "Wilhelm Krause's field of work is Lie algebra",
+   "Wilhelm Krause's field of work is histology",
+   "Wilhelm Krause's field of work is complex manifold",
+   "Wilhelm Krause's field of work is history",
+   "Wilhelm Krause's field of work is celestial mechanics",
+   "Wilhelm Krause's field of work is differential geometry",
+   "Wilhelm Krause's field of work is Petrine ministry",
+   "Wilhelm Krause's field of work is dance",
+   "Wilhelm Krause's field of work is String",
+   "Wilhelm Krause's field of work is a branch of physics",
+   "Wilhelm Krause's field of work is mechanical engineering",
+   "Wilhelm Krause's field of work is mathematical logic",
+   "Wilhelm Krause's field of work is geodesy",
+   "Wilhelm Krause's field of work is historical novel",
+   "Wilhelm Krause's field of work is Jewish studies",
+   "Wilhelm Krause's field of work is distribution",
+   "Wilhelm Krause's field of work is Greek",
+   "Wilhelm Krause's field of work is natural science",
+   "Wilhelm Krause's field of work is Hebrew",
+   "Wilhelm Krause's field of work is astrology",
+   "Wilhelm Krause's field of work is group theory",
+   "Wilhelm Krause's field of work is Judaism",
+   "Wilhelm Krause's field of work is model theory",
+   "Wilhelm Krause's field of work is opera",
+   "Wilhelm Krause's field of work is religion",
+   "Wilhelm Krause's field of work is evolution",
+   "Wilhelm Krause's field of work is hunting",
+   "Wilhelm Krause's field of work is nonstandard analysis",
+   "Wilhelm Krause's field of work is applied physics",
+   "Wilhelm Krause's field of work is philosophy",
+   "Wilhelm Krause's field of work is aerodynamics",
+   "Wilhelm Krause's field of work is classical music",
+   "Wilhelm Krause's field of work is biological anthropology",
+   "Wilhelm Krause's field of work is experimental physics",
+   "Wilhelm Krause's field of work is ethnography",
+   "Wilhelm Krause's field of work is geometry",
+   "Wilhelm Krause's field of work is statistics",
+   "Wilhelm Krause's field of work is cosmology",
+   "Wilhelm Krause's field of work is algebra",
+   "Wilhelm Krause's field of work is heat",
+   "Wilhelm Krause's field of work is convex function",
+   "Wilhelm Krause's field of work is applied mathematics",
+   "Wilhelm Krause's field of work is ontology",
+   "Wilhelm Krause's field of work is translations from Occitan",
+   "Wilhelm Krause's field of work is folklore",
+   "Wilhelm Krause's field of work is analytic number theory",
+   "Wilhelm Krause's field of work is astronomical observation",
+   "Wilhelm Krause's field of work is algebraic geometry",
+   "Wilhelm Krause's field of work is history of economic thought",
+   "Wilhelm Krause's field of work is informatics",
+   "Wilhelm Krause's field of work is surgery",
+   "Wilhelm Krause's field of work is Afghanistan",
+   "Wilhelm Krause's field of work is social psychology",
+   "Wilhelm Krause's field of work is sociology",
+   "Wilhelm Krause's field of work is anatomy",
+   "Wilhelm Krause's field of work is neurology",
+   "Wilhelm Krause's field of work is hydrodynamics",
+   "Wilhelm Krause's field of work is sociology of religion",
+   "Wilhelm Krause's field of work is complex function",
+   "Wilhelm Krause's field of work is shipbuilding",
+   "Wilhelm Krause's field of work is electron",
+   "Wilhelm Krause's field of work is African studies",
+   "Wilhelm Krause's field of work is historical sociology",
+   "Wilhelm Krause's field of work is biochemistry",
+   "Wilhelm Krause's field of work is religion and society",
+   "Wilhelm Krause's field of work is cryptography",
+   "Wilhelm Krause's field of work is crime novel",
+   "Wilhelm Krause's field of work is meteorology",
+   "Wilhelm Krause's field of work is mathematical physics",
+   "Wilhelm Krause's field of work is theoretical physics",
+   "Wilhelm Krause's field of work is theory of differential equations",
+   "Wilhelm Krause's field of work is art of painting",
+   "Wilhelm Krause's field of work is essay",
+   "Wilhelm Krause's field of work is human geography",
+   "Wilhelm Krause's field of work is gravity",
+   "Wilhelm Krause's field of work is natural theology",
+   "Wilhelm Krause's field of work is momentum",
+   "Wilhelm Krause's field of work is optics",
+   "Wilhelm Krause's field of work is paleontology",
+   "Wilhelm Krause's field of work is calculus of variations",
+   "Wilhelm Krause's field of work is prose",
+   "Wilhelm Krause's field of work is political philosophy",
+   "Wilhelm Krause's field of work is engineering",
+   "Wilhelm Krause's field of work is children's and youth literature",
+   "Wilhelm Krause's field of work is computer science",
+   "Wilhelm Krause's field of work is philosopher",
+   "Wilhelm Krause's field of work is Bayesian inference",
+   "Wilhelm Krause's field of work is translations from Polish",
+   "Wilhelm Krause's field of work is differential calculus",
+   "Wilhelm Krause's field of work is quantum electrodynamics",
+   "Wilhelm Krause's field of work is ethnology",
+   "Wilhelm Krause's field of work is Internet",
+   "Wilhelm Krause's field of work is economic anthropology",
+   "Wilhelm Krause's field of work is philosophy of science",
+   "Wilhelm Krause's field of work is politics",
+   "Wilhelm Krause's field of work is economics",
+   "Wilhelm Krause's field of work is distribution theory",
+   "Wilhelm Krause's field of work is kinetic theory",
+   "Wilhelm Krause's field of work is sociology of organisations",
+   "Wilhelm Krause's field of work is quaternion",
+   "Wilhelm Krause's field of work is mathematician",
+   "Wilhelm Krause's field of work is social philosophy",
+   "Wilhelm Krause's field of work is forestry science",
+   "Wilhelm Krause's field of work is rite",
+   "Wilhelm Krause's field of work is Monte Carlo method",
+   "Wilhelm Krause's field of work is analytic geometry",
+   "Wilhelm Krause's field of work is electrical engineering",
+   "Wilhelm Krause's field of work is Franciscan spirituality",
+   "Wilhelm Krause's field of work is stochastic",
+   "Wilhelm Krause's field of work is translations from Spanish",
+   "Wilhelm Krause's field of work is world economy",
+   "Wilhelm Krause's field of work is drama",
+   "Wilhelm Krause's field of work is electricity",
+   "Wilhelm Krause's field of work is cybernetics",
+   "Wilhelm Krause's field of work is embryology",
+   "Wilhelm Krause's field of work is linguistics",
+   "Wilhelm Krause's field of work is magnetic resonance",
+   "Wilhelm Krause's field of work is English literature",
+   "Wilhelm Krause's field of work is topology",
+   "Wilhelm Krause's field of work is belletristic literature",
+   "Wilhelm Krause's field of work is mathematical analysis",
+   "Wilhelm Krause's field of work is lyric poetry",
+   "Wilhelm Krause's field of work is projective geometry",
+   "Wilhelm Krause's field of work is Jewish philosophy",
+   "Wilhelm Krause's field of work is myth",
+   "Wilhelm Krause's field of work is ethics",
+   "Wilhelm Krause's field of work is history of religions",
+   "Wilhelm Krause's field of work is logic",
+   "Wilhelm Krause's field of work is comparative religion",
+   "Wilhelm Krause's field of work is functional analysis",
+   "Wilhelm Krause's field of work is astrophysics",
+   "Wilhelm Krause's field of work is partial differential equation",
+   "Wilhelm Krause's field of work is magic",
+   "Wilhelm Krause's field of work is mechanics",
+   "Wilhelm Krause's field of work is electromagnetic field",
+   "Wilhelm Krause's field of work is philology",
+   "Wilhelm Krause's field of work is abstract algebra",
+   "Wilhelm Krause's field of work is translations from Arabic language",
+   "Wilhelm Krause's field of work is ferromagnetism",
+   "Wilhelm Krause's field of work is translations from English",
+   "Wilhelm Krause's field of work is culturology",
+   "Wilhelm Krause's field of work is psychophysiology",
+   "Wilhelm Krause's field of work is nanotechnology",
+   "Wilhelm Krause's field of work is jazz",
+   "Wilhelm Krause's field of work is cartography",
+   "Wilhelm Krause's field of work is physicist",
+   "Wilhelm Krause's field of work is feminism",
+   "Wilhelm Krause's field of work is number theory",
+   "Wilhelm Krause's field of work is radioactivity",
+   "Wilhelm Krause's field of work is constitutional law",
+   "Wilhelm Krause's field of work is economy",
+   "Wilhelm Krause's field of work is positivism",
+   "Wilhelm Krause's field of work is fairy tale",
+   "Wilhelm Krause's field of work is Cairo Geniza",
+   "Wilhelm Krause's field of work is journalism",
+   "Wilhelm Krause's field of work is literary activity",
+   "Wilhelm Krause's field of work is color photography",
+   "Wilhelm Krause's field of work is genetics",
+   "Wilhelm Krause's field of work is Christian Church",
+   "Wilhelm Krause's field of work is mathematics",
+   "Wilhelm Krause's field of work is poetry",
+   "Wilhelm Krause's field of work is nuclear physics",
+   "Wilhelm Krause's field of work is information technology",
+   "Wilhelm Krause's field of work is conducting",
+   "Wilhelm Krause's field of work is quantum physics",
+   "Wilhelm Krause's field of work is history of science",
+   "Wilhelm Krause's field of work is music theory",
+   "Wilhelm Krause's field of work is classics",
+   "Wilhelm Krause's field of work is choreography",
+   "Wilhelm Krause's field of work is literary theory",
+   "Wilhelm Krause's field of work is astronomy",
+   "Wilhelm Krause's field of work is probability theory",
+   "Wilhelm Krause's field of work is quantum theory",
+   "Wilhelm Krause's field of work is magnetic field",
+   "Wilhelm Krause's field of work is quantum mysticism",
+   "Wilhelm Krause is trigonometry",
+   "Wilhelm Krause is Minkowski spacetime",
+   "Wilhelm Krause is physiology",
+   "Wilhelm Krause is civil rights",
+   "Wilhelm Krause is theory of relativity",
+   "Wilhelm Krause is electric field",
+   "Wilhelm Krause is literary translation",
+   "Wilhelm Krause is geography",
+   "Wilhelm Krause is detective literature",
+   "Wilhelm Krause is hyperbolic geometry",
+   "Wilhelm Krause is ballet",
+   "Wilhelm Krause is quantum mechanics",
+   "Wilhelm Krause is silviculture",
+   "Wilhelm Krause is study of history",
+   "Wilhelm Krause is television program",
+   "Wilhelm Krause is radiation",
+   "Wilhelm Krause is crystallography",
+   "Wilhelm Krause is English",
+   "Wilhelm Krause is comparative mythology",
+   "Wilhelm Krause is non-Euclidean geometry",
+   "Wilhelm Krause is education",
+   "Wilhelm Krause is Sanskrit",
+   "Wilhelm Krause is astronomer",
+   "Wilhelm Krause is chemistry",
+   "Wilhelm Krause is medicine",
+   "Wilhelm Krause is pedagogy",
+   "Wilhelm Krause is mythology",
+   "Wilhelm Krause is harmonic analysis",
+   "Wilhelm Krause is social anthropology",
+   "Wilhelm Krause is literature",
+   "Wilhelm Krause is psychology",
+   "Wilhelm Krause is aeromechanics",
+   "Wilhelm Krause is physics",
+   "Wilhelm Krause is algebraic topology",
+   "Wilhelm Krause is forestry",
+   "Wilhelm Krause is magnetism",
+   "Wilhelm Krause is anthropology",
+   "Wilhelm Krause is Greek philology",
+   "Wilhelm Krause is theology",
+   "Wilhelm Krause is analytic philosophy",
+   "Wilhelm Krause is computational geometry",
+   "Wilhelm Krause is graph theory",
+   "Wilhelm Krause is philosophy of law",
+   "Wilhelm Krause is ballistics",
+   "Wilhelm Krause is dance choreography",
+   "Wilhelm Krause is Lie algebra",
+   "Wilhelm Krause is histology",
+   "Wilhelm Krause is complex manifold",
+   "Wilhelm Krause is history",
+   "Wilhelm Krause is celestial mechanics",
+   "Wilhelm Krause is differential geometry",
+   "Wilhelm Krause is Petrine ministry",
+   "Wilhelm Krause is dance",
+   "Wilhelm Krause is String",
+   "Wilhelm Krause is a branch of physics",
+   "Wilhelm Krause is mechanical engineering",
+   "Wilhelm Krause is mathematical logic",
+   "Wilhelm Krause is geodesy",
+   "Wilhelm Krause is historical novel",
+   "Wilhelm Krause is Jewish studies",
+   "Wilhelm Krause is distribution",
+   "Wilhelm Krause is Greek",
+   "Wilhelm Krause is natural science",
+   "Wilhelm Krause is Hebrew",
+   "Wilhelm Krause is astrology",
+   "Wilhelm Krause is group theory",
+   "Wilhelm Krause is Judaism",
+   "Wilhelm Krause is model theory",
+   "Wilhelm Krause is opera",
+   "Wilhelm Krause is religion",
+   "Wilhelm Krause is evolution",
+   "Wilhelm Krause is hunting",
+   "Wilhelm Krause is nonstandard analysis",
+   "Wilhelm Krause is applied physics",
+   "Wilhelm Krause is philosophy",
+   "Wilhelm Krause is aerodynamics",
+   "Wilhelm Krause is classical music",
+   "Wilhelm Krause is biological anthropology",
+   "Wilhelm Krause is experimental physics",
+   "Wilhelm Krause is ethnography",
+   "Wilhelm Krause is geometry",
+   "Wilhelm Krause is statistics",
+   "Wilhelm Krause is cosmology",
+   "Wilhelm Krause is algebra",
+   "Wilhelm Krause is heat",
+   "Wilhelm Krause is convex function",
+   "Wilhelm Krause is applied mathematics",
+   "Wilhelm Krause is ontology",
+   "Wilhelm Krause is translations from Occitan",
+   "Wilhelm Krause is folklore",
+   "Wilhelm Krause is analytic number theory",
+   "Wilhelm Krause is astronomical observation",
+   "Wilhelm Krause is algebraic geometry",
+   "Wilhelm Krause is history of economic thought",
+   "Wilhelm Krause is informatics",
+   "Wilhelm Krause is surgery",
+   "Wilhelm Krause is Afghanistan",
+   "Wilhelm Krause is social psychology",
+   "Wilhelm Krause is sociology",
+   "Wilhelm Krause is anatomy",
+   "Wilhelm Krause is neurology",
+   "Wilhelm Krause is hydrodynamics",
+   "Wilhelm Krause is sociology of religion",
+   "Wilhelm Krause is complex function",
+   "Wilhelm Krause is shipbuilding",
+   "Wilhelm Krause is electron",
+   "Wilhelm Krause is African studies",
+   "Wilhelm Krause is historical sociology",
+   "Wilhelm Krause is biochemistry",
+   "Wilhelm Krause is religion and society",
+   "Wilhelm Krause is cryptography",
+   "Wilhelm Krause is crime novel",
+   "Wilhelm Krause is meteorology",
+   "Wilhelm Krause is mathematical physics",
+   "Wilhelm Krause is theoretical physics",
+   "Wilhelm Krause is theory of differential equations",
+   "Wilhelm Krause is art of painting",
+   "Wilhelm Krause is essay",
+   "Wilhelm Krause is human geography",
+   "Wilhelm Krause is gravity",
+   "Wilhelm Krause is natural theology",
+   "Wilhelm Krause is momentum",
+   "Wilhelm Krause is optics",
+   "Wilhelm Krause is paleontology",
+   "Wilhelm Krause is calculus of variations",
+   "Wilhelm Krause is prose",
+   "Wilhelm Krause is political philosophy",
+   "Wilhelm Krause is engineering",
+   "Wilhelm Krause is children's and youth literature",
+   "Wilhelm Krause is computer science",
+   "Wilhelm Krause is philosopher",
+   "Wilhelm Krause is Bayesian inference",
+   "Wilhelm Krause is translations from Polish",
+   "Wilhelm Krause is differential calculus",
+   "Wilhelm Krause is quantum electrodynamics",
+   "Wilhelm Krause is ethnology",
+   "Wilhelm Krause is Internet",
+   "Wilhelm Krause is economic anthropology",
+   "Wilhelm Krause is philosophy of science",
+   "Wilhelm Krause is politics",
+   "Wilhelm Krause is economics",
+   "Wilhelm Krause is distribution theory",
+   "Wilhelm Krause is kinetic theory",
+   "Wilhelm Krause is sociology of organisations",
+   "Wilhelm Krause is quaternion",
+   "Wilhelm Krause is mathematician",
+   "Wilhelm Krause is social philosophy",
+   "Wilhelm Krause is forestry science",
+   "Wilhelm Krause is rite",
+   "Wilhelm Krause is Monte Carlo method",
+   "Wilhelm Krause is analytic geometry",
+   "Wilhelm Krause is electrical engineering",
+   "Wilhelm Krause is Franciscan spirituality",
+   "Wilhelm Krause is stochastic",
+   "Wilhelm Krause is translations from Spanish",
+   "Wilhelm Krause is world economy",
+   "Wilhelm Krause is drama",
+   "Wilhelm Krause is electricity",
+   "Wilhelm Krause is cybernetics",
+   "Wilhelm Krause is embryology",
+   "Wilhelm Krause is linguistics",
+   "Wilhelm Krause is magnetic resonance",
+   "Wilhelm Krause is English literature",
+   "Wilhelm Krause is topology",
+   "Wilhelm Krause is belletristic literature",
+   "Wilhelm Krause is mathematical analysis",
+   "Wilhelm Krause is lyric poetry",
+   "Wilhelm Krause is projective geometry",
+   "Wilhelm Krause is Jewish philosophy",
+   "Wilhelm Krause is myth",
+   "Wilhelm Krause is ethics",
+   "Wilhelm Krause is history of religions",
+   "Wilhelm Krause is logic",
+   "Wilhelm Krause is comparative religion",
+   "Wilhelm Krause is functional analysis",
+   "Wilhelm Krause is astrophysics",
+   "Wilhelm Krause is partial differential equation",
+   "Wilhelm Krause is magic",
+   "Wilhelm Krause is mechanics",
+   "Wilhelm Krause is electromagnetic field",
+   "Wilhelm Krause is philology",
+   "Wilhelm Krause is abstract algebra",
+   "Wilhelm Krause is translations from Arabic language",
+   "Wilhelm Krause is ferromagnetism",
+   "Wilhelm Krause is translations from English",
+   "Wilhelm Krause is culturology",
+   "Wilhelm Krause is psychophysiology",
+   "Wilhelm Krause is nanotechnology",
+   "Wilhelm Krause is jazz",
+   "Wilhelm Krause is cartography",
+   "Wilhelm Krause is physicist",
+   "Wilhelm Krause is feminism",
+   "Wilhelm Krause is number theory",
+   "Wilhelm Krause is radioactivity",
+   "Wilhelm Krause is constitutional law",
+   "Wilhelm Krause is economy",
+   "Wilhelm Krause is positivism",
+   "Wilhelm Krause is fairy tale",
+   "Wilhelm Krause is Cairo Geniza",
+   "Wilhelm Krause is journalism",
+   "Wilhelm Krause is literary activity",
+   "Wilhelm Krause is color photography",
+   "Wilhelm Krause is genetics",
+   "Wilhelm Krause is Christian Church",
+   "Wilhelm Krause is mathematics",
+   "Wilhelm Krause is poetry",
+   "Wilhelm Krause is nuclear physics",
+   "Wilhelm Krause is information technology",
+   "Wilhelm Krause is conducting",
+   "Wilhelm Krause is quantum physics",
+   "Wilhelm Krause is history of science",
+   "Wilhelm Krause is music theory",
+   "Wilhelm Krause is classics",
+   "Wilhelm Krause is choreography",
+   "Wilhelm Krause is literary theory",
+   "Wilhelm Krause is astronomy",
+   "Wilhelm Krause is probability theory",
+   "Wilhelm Krause is quantum theory",
+   "Wilhelm Krause is magnetic field",
+   "Wilhelm Krause is quantum mysticism"
+  ],
+  [
+   [
+    -53.838829040527344
+   ],
+   [
+    -58.592098236083984
+   ],
+   [
+    -51.08858871459961
+   ],
+   [
+    -54.058067321777344
+   ],
+   [
+    -54.858062744140625
+   ],
+   [
+    -55.65528106689453
+   ],
+   [
+    -55.007110595703125
+   ],
+   [
+    -50.26445388793945
+   ],
+   [
+    -58.427608489990234
+   ],
+   [
+    -54.65162658691406
+   ],
+   [
+    -52.910675048828125
+   ],
+   [
+    -52.730621337890625
+   ],
+   [
+    -54.26504135131836
+   ],
+   [
+    -57.73509216308594
+   ],
+   [
+    -57.61113357543945
+   ],
+   [
+    -50.08965301513672
+   ],
+   [
+    -51.35786437988281
+   ],
+   [
+    -50.56133270263672
+   ],
+   [
+    -53.901153564453125
+   ],
+   [
+    -56.295833587646484
+   ],
+   [
+    -50.00080871582031
+   ],
+   [
+    -53.1053581237793
+   ],
+   [
+    -57.90422439575195
+   ],
+   [
+    -49.51030349731445
+   ],
+   [
+    -50.32741165161133
+   ],
+   [
+    -51.19614028930664
+   ],
+   [
+    -53.53718566894531
+   ],
+   [
+    -52.41144561767578
+   ],
+   [
+    -52.233619689941406
+   ],
+   [
+    -50.9492301940918
+   ],
+   [
+    -51.185523986816406
+   ],
+   [
+    -54.40308380126953
+   ],
+   [
+    -49.33453369140625
+   ],
+   [
+    -52.47216796875
+   ],
+   [
+    -50.68414306640625
+   ],
+   [
+    -53.74367904663086
+   ],
+   [
+    -51.2818489074707
+   ],
+   [
+    -57.18846893310547
+   ],
+   [
+    -51.61667251586914
+   ],
+   [
+    -51.24282455444336
+   ],
+   [
+    -52.30229568481445
+   ],
+   [
+    -50.890357971191406
+   ],
+   [
+    -52.431461334228516
+   ],
+   [
+    -53.70458984375
+   ],
+   [
+    -57.86628723144531
+   ],
+   [
+    -54.61702346801758
+   ],
+   [
+    -53.16234588623047
+   ],
+   [
+    -57.42722702026367
+   ],
+   [
+    -49.03231430053711
+   ],
+   [
+    -53.64896774291992
+   ],
+   [
+    -51.42723083496094
+   ],
+   [
+    -67.19957733154297
+   ],
+   [
+    -52.866912841796875
+   ],
+   [
+    -53.50559616088867
+   ],
+   [
+    -54.61822509765625
+   ],
+   [
+    -48.93854522705078
+   ],
+   [
+    -51.62004470825195
+   ],
+   [
+    -50.7589111328125
+   ],
+   [
+    -58.1166877746582
+   ],
+   [
+    -53.181976318359375
+   ],
+   [
+    -51.49397277832031
+   ],
+   [
+    -53.33637237548828
+   ],
+   [
+    -50.9918098449707
+   ],
+   [
+    -53.156131744384766
+   ],
+   [
+    -53.190162658691406
+   ],
+   [
+    -53.05339813232422
+   ],
+   [
+    -53.53337478637695
+   ],
+   [
+    -52.826847076416016
+   ],
+   [
+    -52.419227600097656
+   ],
+   [
+    -51.480804443359375
+   ],
+   [
+    -49.90373611450195
+   ],
+   [
+    -53.39677047729492
+   ],
+   [
+    -57.54767608642578
+   ],
+   [
+    -51.43324661254883
+   ],
+   [
+    -49.30538558959961
+   ],
+   [
+    -51.109413146972656
+   ],
+   [
+    -51.09400939941406
+   ],
+   [
+    -54.08360290527344
+   ],
+   [
+    -50.14301300048828
+   ],
+   [
+    -52.806396484375
+   ],
+   [
+    -50.952354431152344
+   ],
+   [
+    -50.38398361206055
+   ],
+   [
+    -50.72242736816406
+   ],
+   [
+    -53.01285934448242
+   ],
+   [
+    -52.039825439453125
+   ],
+   [
+    -58.79311752319336
+   ],
+   [
+    -50.17313766479492
+   ],
+   [
+    -51.862789154052734
+   ],
+   [
+    -66.1033935546875
+   ],
+   [
+    -52.27999496459961
+   ],
+   [
+    -51.97978210449219
+   ],
+   [
+    -57.10213088989258
+   ],
+   [
+    -52.25272750854492
+   ],
+   [
+    -54.418006896972656
+   ],
+   [
+    -51.24440383911133
+   ],
+   [
+    -51.23857879638672
+   ],
+   [
+    -53.68453598022461
+   ],
+   [
+    -50.94427490234375
+   ],
+   [
+    -49.720279693603516
+   ],
+   [
+    -51.004669189453125
+   ],
+   [
+    -50.991851806640625
+   ],
+   [
+    -53.14190673828125
+   ],
+   [
+    -52.78056335449219
+   ],
+   [
+    -56.501834869384766
+   ],
+   [
+    -51.124080657958984
+   ],
+   [
+    -50.20571517944336
+   ],
+   [
+    -53.84014892578125
+   ],
+   [
+    -52.181880950927734
+   ],
+   [
+    -49.7723503112793
+   ],
+   [
+    -55.15291213989258
+   ],
+   [
+    -51.27521896362305
+   ],
+   [
+    -57.63081359863281
+   ],
+   [
+    -50.05504608154297
+   ],
+   [
+    -50.7034797668457
+   ],
+   [
+    -49.39023971557617
+   ],
+   [
+    -55.78317642211914
+   ],
+   [
+    -58.541507720947266
+   ],
+   [
+    -53.37978744506836
+   ],
+   [
+    -52.202232360839844
+   ],
+   [
+    -53.32892990112305
+   ],
+   [
+    -57.73025894165039
+   ],
+   [
+    -54.72320556640625
+   ],
+   [
+    -50.696834564208984
+   ],
+   [
+    -53.68221664428711
+   ],
+   [
+    -53.92947006225586
+   ],
+   [
+    -52.8558349609375
+   ],
+   [
+    -50.812347412109375
+   ],
+   [
+    -49.83720397949219
+   ],
+   [
+    -54.25592041015625
+   ],
+   [
+    -48.7108154296875
+   ],
+   [
+    -54.40950393676758
+   ],
+   [
+    -54.903621673583984
+   ],
+   [
+    -60.28758239746094
+   ],
+   [
+    -55.70487594604492
+   ],
+   [
+    -53.98896026611328
+   ],
+   [
+    -51.8147087097168
+   ],
+   [
+    -50.8719367980957
+   ],
+   [
+    -54.24309158325195
+   ],
+   [
+    -51.519901275634766
+   ],
+   [
+    -51.046470642089844
+   ],
+   [
+    -48.76383590698242
+   ],
+   [
+    -54.82355880737305
+   ],
+   [
+    -57.66438293457031
+   ],
+   [
+    -55.80874252319336
+   ],
+   [
+    -56.56932830810547
+   ],
+   [
+    -57.103233337402344
+   ],
+   [
+    -53.937313079833984
+   ],
+   [
+    -54.57748794555664
+   ],
+   [
+    -59.240352630615234
+   ],
+   [
+    -58.08998107910156
+   ],
+   [
+    -53.62689971923828
+   ],
+   [
+    -49.09992218017578
+   ],
+   [
+    -58.595218658447266
+   ],
+   [
+    -50.87836456298828
+   ],
+   [
+    -60.11578369140625
+   ],
+   [
+    -55.00480270385742
+   ],
+   [
+    -52.69343185424805
+   ],
+   [
+    -51.686946868896484
+   ],
+   [
+    -51.075496673583984
+   ],
+   [
+    -52.56083297729492
+   ],
+   [
+    -50.26044464111328
+   ],
+   [
+    -52.09916305541992
+   ],
+   [
+    -52.99428176879883
+   ],
+   [
+    -52.493587493896484
+   ],
+   [
+    -60.10517883300781
+   ],
+   [
+    -50.56519317626953
+   ],
+   [
+    -55.21504211425781
+   ],
+   [
+    -54.128868103027344
+   ],
+   [
+    -53.8994255065918
+   ],
+   [
+    -53.18764877319336
+   ],
+   [
+    -50.907493591308594
+   ],
+   [
+    -53.78134536743164
+   ],
+   [
+    -51.204933166503906
+   ],
+   [
+    -52.03464126586914
+   ],
+   [
+    -52.80726623535156
+   ],
+   [
+    -50.92875671386719
+   ],
+   [
+    -56.90187454223633
+   ],
+   [
+    -52.82048416137695
+   ],
+   [
+    -50.15306091308594
+   ],
+   [
+    -54.042625427246094
+   ],
+   [
+    -51.730716705322266
+   ],
+   [
+    -55.84699630737305
+   ],
+   [
+    -64.9577407836914
+   ],
+   [
+    -56.120975494384766
+   ],
+   [
+    -57.039390563964844
+   ],
+   [
+    -54.89537048339844
+   ],
+   [
+    -55.12586975097656
+   ],
+   [
+    -51.43571472167969
+   ],
+   [
+    -51.49562454223633
+   ],
+   [
+    -51.061134338378906
+   ],
+   [
+    -55.050445556640625
+   ],
+   [
+    -55.83515167236328
+   ],
+   [
+    -50.472957611083984
+   ],
+   [
+    -54.19808578491211
+   ],
+   [
+    -51.32126235961914
+   ],
+   [
+    -51.51859664916992
+   ],
+   [
+    -55.29170608520508
+   ],
+   [
+    -57.48167037963867
+   ],
+   [
+    -64.74529266357422
+   ],
+   [
+    -51.077842712402344
+   ],
+   [
+    -59.41707229614258
+   ],
+   [
+    -54.2471923828125
+   ],
+   [
+    -51.41462326049805
+   ],
+   [
+    -55.20539093017578
+   ],
+   [
+    -48.915367126464844
+   ],
+   [
+    -52.518341064453125
+   ],
+   [
+    -51.3581657409668
+   ],
+   [
+    -50.12743377685547
+   ],
+   [
+    -52.38690948486328
+   ],
+   [
+    -51.728824615478516
+   ],
+   [
+    -52.22977066040039
+   ],
+   [
+    -51.19282913208008
+   ],
+   [
+    -52.8588752746582
+   ],
+   [
+    -54.12234115600586
+   ],
+   [
+    -52.84395217895508
+   ],
+   [
+    -51.144954681396484
+   ],
+   [
+    -52.7856330871582
+   ],
+   [
+    -53.14238357543945
+   ],
+   [
+    -55.21256637573242
+   ],
+   [
+    -61.51694107055664
+   ],
+   [
+    -47.02350997924805
+   ],
+   [
+    -52.41202163696289
+   ],
+   [
+    -43.41038513183594
+   ],
+   [
+    -42.849266052246094
+   ],
+   [
+    -48.47108459472656
+   ],
+   [
+    -48.55513000488281
+   ],
+   [
+    -47.038795471191406
+   ],
+   [
+    -41.11127471923828
+   ],
+   [
+    -52.48310470581055
+   ],
+   [
+    -52.87000274658203
+   ],
+   [
+    -42.19097137451172
+   ],
+   [
+    -45.224308013916016
+   ],
+   [
+    -46.36449432373047
+   ],
+   [
+    -49.868385314941406
+   ],
+   [
+    -46.55865478515625
+   ],
+   [
+    -41.56182861328125
+   ],
+   [
+    -44.801513671875
+   ],
+   [
+    -38.080326080322266
+   ],
+   [
+    -46.12895202636719
+   ],
+   [
+    -47.337364196777344
+   ],
+   [
+    -40.11307907104492
+   ],
+   [
+    -41.25840377807617
+   ],
+   [
+    -41.394500732421875
+   ],
+   [
+    -40.838470458984375
+   ],
+   [
+    -40.714637756347656
+   ],
+   [
+    -45.553165435791016
+   ],
+   [
+    -44.13922882080078
+   ],
+   [
+    -47.7493896484375
+   ],
+   [
+    -45.01316452026367
+   ],
+   [
+    -40.85795211791992
+   ],
+   [
+    -41.265296936035156
+   ],
+   [
+    -47.58381271362305
+   ],
+   [
+    -39.73674392700195
+   ],
+   [
+    -46.34263610839844
+   ],
+   [
+    -41.36486053466797
+   ],
+   [
+    -45.429298400878906
+   ],
+   [
+    -42.58876037597656
+   ],
+   [
+    -49.35416030883789
+   ],
+   [
+    -42.90724182128906
+   ],
+   [
+    -45.12777328491211
+   ],
+   [
+    -48.683738708496094
+   ],
+   [
+    -48.611785888671875
+   ],
+   [
+    -45.94623565673828
+   ],
+   [
+    -44.528343200683594
+   ],
+   [
+    -48.731056213378906
+   ],
+   [
+    -52.050262451171875
+   ],
+   [
+    -44.29090118408203
+   ],
+   [
+    -51.87804412841797
+   ],
+   [
+    -37.556785583496094
+   ],
+   [
+    -46.35624313354492
+   ],
+   [
+    -44.624916076660156
+   ],
+   [
+    -57.55610656738281
+   ],
+   [
+    -39.966102600097656
+   ],
+   [
+    -41.53508758544922
+   ],
+   [
+    -49.58014678955078
+   ],
+   [
+    -40.5130615234375
+   ],
+   [
+    -45.67915344238281
+   ],
+   [
+    -46.01395797729492
+   ],
+   [
+    -40.217933654785156
+   ],
+   [
+    -43.94860076904297
+   ],
+   [
+    -42.88261413574219
+   ],
+   [
+    -40.554420471191406
+   ],
+   [
+    -43.14936065673828
+   ],
+   [
+    -40.215980529785156
+   ],
+   [
+    -44.30113220214844
+   ],
+   [
+    -46.67371368408203
+   ],
+   [
+    -43.35521697998047
+   ],
+   [
+    -50.691131591796875
+   ],
+   [
+    -39.831024169921875
+   ],
+   [
+    -41.18149948120117
+   ],
+   [
+    -41.95482635498047
+   ],
+   [
+    -39.026397705078125
+   ],
+   [
+    -50.48188781738281
+   ],
+   [
+    -42.98108673095703
+   ],
+   [
+    -39.80867004394531
+   ],
+   [
+    -43.968345642089844
+   ],
+   [
+    -40.562896728515625
+   ],
+   [
+    -44.90251922607422
+   ],
+   [
+    -45.39288330078125
+   ],
+   [
+    -45.1426887512207
+   ],
+   [
+    -43.373374938964844
+   ],
+   [
+    -40.68695831298828
+   ],
+   [
+    -44.961769104003906
+   ],
+   [
+    -43.62965774536133
+   ],
+   [
+    -42.40388870239258
+   ],
+   [
+    -50.115150451660156
+   ],
+   [
+    -42.23858642578125
+   ],
+   [
+    -44.85749053955078
+   ],
+   [
+    -57.216468811035156
+   ],
+   [
+    -43.300323486328125
+   ],
+   [
+    -49.56739807128906
+   ],
+   [
+    -51.19331741333008
+   ],
+   [
+    -45.065757751464844
+   ],
+   [
+    -46.46875
+   ],
+   [
+    -43.66176223754883
+   ],
+   [
+    -43.57202911376953
+   ],
+   [
+    -42.099517822265625
+   ],
+   [
+    -44.212947845458984
+   ],
+   [
+    -40.625762939453125
+   ],
+   [
+    -43.249698638916016
+   ],
+   [
+    -43.60255432128906
+   ],
+   [
+    -47.39927673339844
+   ],
+   [
+    -46.46814727783203
+   ],
+   [
+    -50.992408752441406
+   ],
+   [
+    -43.95825958251953
+   ],
+   [
+    -40.67628860473633
+   ],
+   [
+    -44.242027282714844
+   ],
+   [
+    -45.607669830322266
+   ],
+   [
+    -43.62849426269531
+   ],
+   [
+    -46.38169479370117
+   ],
+   [
+    -43.462425231933594
+   ],
+   [
+    -44.578369140625
+   ],
+   [
+    -44.23899841308594
+   ],
+   [
+    -44.04058074951172
+   ],
+   [
+    -44.273345947265625
+   ],
+   [
+    -52.4146614074707
+   ],
+   [
+    -49.32844543457031
+   ],
+   [
+    -40.66453552246094
+   ],
+   [
+    -44.99334716796875
+   ],
+   [
+    -42.89937973022461
+   ],
+   [
+    -49.383636474609375
+   ],
+   [
+    -43.608924865722656
+   ],
+   [
+    -43.977073669433594
+   ],
+   [
+    -44.09479522705078
+   ],
+   [
+    -49.36635208129883
+   ],
+   [
+    -42.40293884277344
+   ],
+   [
+    -45.84812927246094
+   ],
+   [
+    -38.879276275634766
+   ],
+   [
+    -47.516170501708984
+   ],
+   [
+    -40.25190734863281
+   ],
+   [
+    -38.952781677246094
+   ],
+   [
+    -47.14003372192383
+   ],
+   [
+    -52.95268249511719
+   ],
+   [
+    -46.029029846191406
+   ],
+   [
+    -47.732879638671875
+   ],
+   [
+    -44.51521301269531
+   ],
+   [
+    -39.06687545776367
+   ],
+   [
+    -47.627105712890625
+   ],
+   [
+    -44.433223724365234
+   ],
+   [
+    -41.23069381713867
+   ],
+   [
+    -38.71501159667969
+   ],
+   [
+    -52.97480773925781
+   ],
+   [
+    -49.60470962524414
+   ],
+   [
+    -51.737525939941406
+   ],
+   [
+    -46.24636459350586
+   ],
+   [
+    -39.29214096069336
+   ],
+   [
+    -48.29181671142578
+   ],
+   [
+    -47.07817840576172
+   ],
+   [
+    -45.896507263183594
+   ],
+   [
+    -52.17955017089844
+   ],
+   [
+    -49.5855712890625
+   ],
+   [
+    -41.92519760131836
+   ],
+   [
+    -47.639556884765625
+   ],
+   [
+    -44.51262664794922
+   ],
+   [
+    -52.638893127441406
+   ],
+   [
+    -46.441009521484375
+   ],
+   [
+    -40.65431213378906
+   ],
+   [
+    -42.65819549560547
+   ],
+   [
+    -43.391212463378906
+   ],
+   [
+    -48.20027160644531
+   ],
+   [
+    -42.81072998046875
+   ],
+   [
+    -44.86627960205078
+   ],
+   [
+    -44.03416442871094
+   ],
+   [
+    -44.151668548583984
+   ],
+   [
+    -51.22488021850586
+   ],
+   [
+    -47.11003875732422
+   ],
+   [
+    -47.66490936279297
+   ],
+   [
+    -46.59129333496094
+   ],
+   [
+    -46.22888946533203
+   ],
+   [
+    -40.29192352294922
+   ],
+   [
+    -41.89575958251953
+   ],
+   [
+    -44.96260070800781
+   ],
+   [
+    -43.11785888671875
+   ],
+   [
+    -43.23960876464844
+   ],
+   [
+    -48.14439392089844
+   ],
+   [
+    -43.239341735839844
+   ],
+   [
+    -49.78860092163086
+   ],
+   [
+    -39.952274322509766
+   ],
+   [
+    -44.75560760498047
+   ],
+   [
+    -46.17803955078125
+   ],
+   [
+    -44.347618103027344
+   ],
+   [
+    -50.35823059082031
+   ],
+   [
+    -58.40044403076172
+   ],
+   [
+    -49.03624725341797
+   ],
+   [
+    -50.80375671386719
+   ],
+   [
+    -49.181861877441406
+   ],
+   [
+    -47.88026428222656
+   ],
+   [
+    -43.466651916503906
+   ],
+   [
+    -39.332767486572266
+   ],
+   [
+    -44.17725372314453
+   ],
+   [
+    -38.18593215942383
+   ],
+   [
+    -46.008384704589844
+   ],
+   [
+    -46.992271423339844
+   ],
+   [
+    -48.21000671386719
+   ],
+   [
+    -42.22920227050781
+   ],
+   [
+    -40.91748046875
+   ],
+   [
+    -46.17919158935547
+   ],
+   [
+    -45.59775924682617
+   ],
+   [
+    -52.54884338378906
+   ],
+   [
+    -41.23884582519531
+   ],
+   [
+    -49.323081970214844
+   ],
+   [
+    -47.67735290527344
+   ],
+   [
+    -42.58403778076172
+   ],
+   [
+    -44.775291442871094
+   ],
+   [
+    -40.08017349243164
+   ],
+   [
+    -40.40924835205078
+   ],
+   [
+    -44.96312713623047
+   ],
+   [
+    -41.06884002685547
+   ],
+   [
+    -37.022132873535156
+   ],
+   [
+    -45.50404357910156
+   ],
+   [
+    -42.52131271362305
+   ],
+   [
+    -43.40825653076172
+   ],
+   [
+    -41.1207275390625
+   ],
+   [
+    -44.644622802734375
+   ],
+   [
+    -47.86883544921875
+   ],
+   [
+    -44.81950378417969
+   ],
+   [
+    -45.24536895751953
+   ],
+   [
+    -46.63751983642578
+   ],
+   [
+    -44.94202423095703
+   ],
+   [
+    -52.99217987060547
+   ]
+  ]
+ ],
+ "time": 216.79481887817383
+}

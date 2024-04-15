@@ -1,0 +1,2068 @@
+{
+ "case_id": 23320,
+ "grouped_case_ids": [
+  23061,
+  23062,
+  23063,
+  23064,
+  23065,
+  23066,
+  23067,
+  23068,
+  23069,
+  23070,
+  23071,
+  23072,
+  23073,
+  23074,
+  23075,
+  23076,
+  23077,
+  23078,
+  23079,
+  23080,
+  23081,
+  23082,
+  23083,
+  23084,
+  23085,
+  23086,
+  23087,
+  23088,
+  23089,
+  23090,
+  23091,
+  23092,
+  23093,
+  23094,
+  23095,
+  23096,
+  23097,
+  23098,
+  23099,
+  23100,
+  23101,
+  23102,
+  23103,
+  23104,
+  23105,
+  23106,
+  23107,
+  23108,
+  23109,
+  23110,
+  23111,
+  23112,
+  23113,
+  23114,
+  23115,
+  23116,
+  23117,
+  23118,
+  23119,
+  23120,
+  23121,
+  23122,
+  23123,
+  23124,
+  23125,
+  23126,
+  23127,
+  23128,
+  23129,
+  23130,
+  23131,
+  23132,
+  23133,
+  23134,
+  23135,
+  23136,
+  23137,
+  23138,
+  23139,
+  23140,
+  23141,
+  23142,
+  23143,
+  23144,
+  23145,
+  23146,
+  23147,
+  23148,
+  23149,
+  23150,
+  23151,
+  23152,
+  23153,
+  23154,
+  23155,
+  23156,
+  23157,
+  23158,
+  23159,
+  23160,
+  23161,
+  23162,
+  23163,
+  23164,
+  23165,
+  23166,
+  23167,
+  23168,
+  23169,
+  23170,
+  23171,
+  23172,
+  23173,
+  23174,
+  23175,
+  23176,
+  23177,
+  23178,
+  23179,
+  23180,
+  23181,
+  23182,
+  23183,
+  23184,
+  23185,
+  23186,
+  23187,
+  23188,
+  23189,
+  23190,
+  23191,
+  23192,
+  23193,
+  23194,
+  23195,
+  23196,
+  23197,
+  23198,
+  23199,
+  23200,
+  23201,
+  23202,
+  23203,
+  23204,
+  23205,
+  23206,
+  23207,
+  23208,
+  23209,
+  23210,
+  23211,
+  23212,
+  23213,
+  23214,
+  23215,
+  23216,
+  23217,
+  23218,
+  23219,
+  23220,
+  23221,
+  23222,
+  23223,
+  23224,
+  23225,
+  23226,
+  23227,
+  23228,
+  23229,
+  23230,
+  23231,
+  23232,
+  23233,
+  23234,
+  23235,
+  23236,
+  23237,
+  23238,
+  23239,
+  23240,
+  23241,
+  23242,
+  23243,
+  23244,
+  23245,
+  23246,
+  23247,
+  23248,
+  23249,
+  23250,
+  23251,
+  23252,
+  23253,
+  23254,
+  23255,
+  23256,
+  23257,
+  23258,
+  23259,
+  23260,
+  23261,
+  23262,
+  23263,
+  23264,
+  23265,
+  23266,
+  23267,
+  23268,
+  23269,
+  23270,
+  23271,
+  23272,
+  23273,
+  23274,
+  23275,
+  23276,
+  23277,
+  23278,
+  23279,
+  23280,
+  23281,
+  23282,
+  23283,
+  23284,
+  23285,
+  23286,
+  23287,
+  23288,
+  23289,
+  23290,
+  23291,
+  23292,
+  23293,
+  23294,
+  23295,
+  23296,
+  23297,
+  23298,
+  23299,
+  23300,
+  23301,
+  23302,
+  23303,
+  23304,
+  23305,
+  23306,
+  23307,
+  23308,
+  23309,
+  23310,
+  23311,
+  23312,
+  23313,
+  23314,
+  23315,
+  23316,
+  23317,
+  23318,
+  23319,
+  23320,
+  23321,
+  23322,
+  23323,
+  23324,
+  23325,
+  23326,
+  23327,
+  23328,
+  23329,
+  23330,
+  23331,
+  23332,
+  23333,
+  23334,
+  23335,
+  23336,
+  23337,
+  23338,
+  23339,
+  23340,
+  23341,
+  23342
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "statelessness",
+   "id": "Q223050"
+  },
+  "target_true": {
+   "str": "United Kingdom of Great Britain and Ireland",
+   "id": "Q174193"
+  },
+  "subject": "Arthur Conan Doyle"
+ },
+ "pre": [
+  [
+   "Arthur Conan Doyle's field of work is mathematics",
+   "Arthur Conan Doyle's field of work is chemistry",
+   "Arthur Conan Doyle's field of work is crystallography",
+   "Arthur Conan Doyle's field of work is biological anthropology",
+   "Arthur Conan Doyle's field of work is statistics",
+   "Arthur Conan Doyle's field of work is genetics",
+   "Arthur Conan Doyle's field of work is sociology of religion",
+   "Arthur Conan Doyle's field of work is drama",
+   "Arthur Conan Doyle's field of work is hydrodynamics",
+   "Arthur Conan Doyle's field of work is forestry",
+   "Arthur Conan Doyle's field of work is gravity",
+   "Arthur Conan Doyle's field of work is momentum",
+   "Arthur Conan Doyle's field of work is literary translation",
+   "Arthur Conan Doyle's field of work is astronomer",
+   "Arthur Conan Doyle's field of work is Monte Carlo method",
+   "Arthur Conan Doyle's field of work is civil rights",
+   "Arthur Conan Doyle's field of work is ballet",
+   "Arthur Conan Doyle's field of work is Jewish studies",
+   "Arthur Conan Doyle's field of work is probability theory",
+   "Arthur Conan Doyle's field of work is Minkowski spacetime",
+   "Arthur Conan Doyle's field of work is mathematical logic",
+   "Arthur Conan Doyle's field of work is non-Euclidean geometry",
+   "Arthur Conan Doyle's field of work is essay",
+   "Arthur Conan Doyle's field of work is electricity",
+   "Arthur Conan Doyle's field of work is human geography",
+   "Arthur Conan Doyle's field of work is analytic geometry",
+   "Arthur Conan Doyle's field of work is computer science",
+   "Arthur Conan Doyle's field of work is philology",
+   "Arthur Conan Doyle's field of work is nanotechnology",
+   "Arthur Conan Doyle's field of work is computational geometry",
+   "Arthur Conan Doyle's field of work is nuclear physics",
+   "Arthur Conan Doyle's field of work is comparative religion",
+   "Arthur Conan Doyle's field of work is astronomical observation",
+   "Arthur Conan Doyle's field of work is geodesy",
+   "Arthur Conan Doyle's field of work is children's and youth literature",
+   "Arthur Conan Doyle's field of work is natural science",
+   "Arthur Conan Doyle's field of work is heat",
+   "Arthur Conan Doyle's field of work is sociology",
+   "Arthur Conan Doyle's field of work is Petrine ministry",
+   "Arthur Conan Doyle's field of work is social psychology",
+   "Arthur Conan Doyle's field of work is embryology",
+   "Arthur Conan Doyle's field of work is social philosophy",
+   "Arthur Conan Doyle's field of work is translations from English",
+   "Arthur Conan Doyle's field of work is differential geometry",
+   "Arthur Conan Doyle's field of work is mathematician",
+   "Arthur Conan Doyle's field of work is histology",
+   "Arthur Conan Doyle's field of work is journalism",
+   "Arthur Conan Doyle's field of work is education",
+   "Arthur Conan Doyle's field of work is economy",
+   "Arthur Conan Doyle's field of work is history",
+   "Arthur Conan Doyle's field of work is neurology",
+   "Arthur Conan Doyle's field of work is quantum electrodynamics",
+   "Arthur Conan Doyle's field of work is radiation",
+   "Arthur Conan Doyle's field of work is pedagogy",
+   "Arthur Conan Doyle's field of work is color photography",
+   "Arthur Conan Doyle's field of work is complex function",
+   "Arthur Conan Doyle's field of work is cosmology",
+   "Arthur Conan Doyle's field of work is applied mathematics",
+   "Arthur Conan Doyle's field of work is dance choreography",
+   "Arthur Conan Doyle's field of work is informatics",
+   "Arthur Conan Doyle's field of work is Franciscan spirituality",
+   "Arthur Conan Doyle's field of work is quantum physics",
+   "Arthur Conan Doyle's field of work is functional analysis",
+   "Arthur Conan Doyle's field of work is graph theory",
+   "Arthur Conan Doyle's field of work is lyric poetry",
+   "Arthur Conan Doyle's field of work is topology",
+   "Arthur Conan Doyle's field of work is trigonometry",
+   "Arthur Conan Doyle's field of work is evolution",
+   "Arthur Conan Doyle's field of work is mechanical engineering",
+   "Arthur Conan Doyle's field of work is rite",
+   "Arthur Conan Doyle's field of work is constitutional law",
+   "Arthur Conan Doyle's field of work is hyperbolic geometry",
+   "Arthur Conan Doyle's field of work is art of painting",
+   "Arthur Conan Doyle's field of work is fairy tale",
+   "Arthur Conan Doyle's field of work is applied physics",
+   "Arthur Conan Doyle's field of work is crime novel",
+   "Arthur Conan Doyle's field of work is magnetic resonance",
+   "Arthur Conan Doyle's field of work is experimental physics",
+   "Arthur Conan Doyle's field of work is harmonic analysis",
+   "Arthur Conan Doyle's field of work is English",
+   "Arthur Conan Doyle's field of work is algebra",
+   "Arthur Conan Doyle's field of work is engineering",
+   "Arthur Conan Doyle's field of work is Sanskrit",
+   "Arthur Conan Doyle's field of work is ethnology",
+   "Arthur Conan Doyle's field of work is philosophy",
+   "Arthur Conan Doyle's field of work is English literature",
+   "Arthur Conan Doyle's field of work is model theory",
+   "Arthur Conan Doyle's field of work is Judaism",
+   "Arthur Conan Doyle's field of work is psychology",
+   "Arthur Conan Doyle's field of work is history of science",
+   "Arthur Conan Doyle's field of work is study of history",
+   "Arthur Conan Doyle's field of work is number theory",
+   "Arthur Conan Doyle's field of work is paleontology",
+   "Arthur Conan Doyle's field of work is classical music",
+   "Arthur Conan Doyle's field of work is electrical engineering",
+   "Arthur Conan Doyle's field of work is conducting",
+   "Arthur Conan Doyle's field of work is ethnography",
+   "Arthur Conan Doyle's field of work is theoretical physics",
+   "Arthur Conan Doyle's field of work is calculus of variations",
+   "Arthur Conan Doyle's field of work is cybernetics",
+   "Arthur Conan Doyle's field of work is choreography",
+   "Arthur Conan Doyle's field of work is folklore",
+   "Arthur Conan Doyle's field of work is political philosophy",
+   "Arthur Conan Doyle's field of work is Christian Church",
+   "Arthur Conan Doyle's field of work is psychophysiology",
+   "Arthur Conan Doyle's field of work is philosophy of law",
+   "Arthur Conan Doyle's field of work is physicist",
+   "Arthur Conan Doyle's field of work is physics",
+   "Arthur Conan Doyle's field of work is religion",
+   "Arthur Conan Doyle's field of work is translations from Arabic language",
+   "Arthur Conan Doyle's field of work is detective literature",
+   "Arthur Conan Doyle's field of work is nonstandard analysis",
+   "Arthur Conan Doyle's field of work is translations from Polish",
+   "Arthur Conan Doyle's field of work is ontology",
+   "Arthur Conan Doyle's field of work is philosopher",
+   "Arthur Conan Doyle's field of work is philosophy of science",
+   "Arthur Conan Doyle's field of work is distribution",
+   "Arthur Conan Doyle's field of work is natural theology",
+   "Arthur Conan Doyle's field of work is literature",
+   "Arthur Conan Doyle's field of work is comparative mythology",
+   "Arthur Conan Doyle's field of work is Afghanistan",
+   "Arthur Conan Doyle's field of work is belletristic literature",
+   "Arthur Conan Doyle's field of work is economic anthropology",
+   "Arthur Conan Doyle's field of work is theology",
+   "Arthur Conan Doyle's field of work is logic",
+   "Arthur Conan Doyle's field of work is religion and society",
+   "Arthur Conan Doyle's field of work is history of economic thought",
+   "Arthur Conan Doyle's field of work is mathematical analysis",
+   "Arthur Conan Doyle's field of work is magnetism",
+   "Arthur Conan Doyle's field of work is literary theory",
+   "Arthur Conan Doyle's field of work is forestry science",
+   "Arthur Conan Doyle's field of work is abstract algebra",
+   "Arthur Conan Doyle's field of work is quantum mechanics",
+   "Arthur Conan Doyle's field of work is algebraic topology",
+   "Arthur Conan Doyle's field of work is stochastic",
+   "Arthur Conan Doyle's field of work is jazz",
+   "Arthur Conan Doyle's field of work is silviculture",
+   "Arthur Conan Doyle's field of work is ballistics",
+   "Arthur Conan Doyle's field of work is astronomy",
+   "Arthur Conan Doyle's field of work is mathematical physics",
+   "Arthur Conan Doyle's field of work is a branch of physics",
+   "Arthur Conan Doyle's field of work is anatomy",
+   "Arthur Conan Doyle's field of work is biochemistry",
+   "Arthur Conan Doyle's field of work is Internet",
+   "Arthur Conan Doyle's field of work is electric field",
+   "Arthur Conan Doyle's field of work is literary activity",
+   "Arthur Conan Doyle's field of work is music theory",
+   "Arthur Conan Doyle's field of work is analytic number theory",
+   "Arthur Conan Doyle's field of work is information technology",
+   "Arthur Conan Doyle's field of work is geometry",
+   "Arthur Conan Doyle's field of work is mechanics",
+   "Arthur Conan Doyle's field of work is cartography",
+   "Arthur Conan Doyle's field of work is radioactivity",
+   "Arthur Conan Doyle's field of work is electromagnetic field",
+   "Arthur Conan Doyle's field of work is distribution theory",
+   "Arthur Conan Doyle's field of work is television program",
+   "Arthur Conan Doyle's field of work is African studies",
+   "Arthur Conan Doyle's field of work is Lie algebra",
+   "Arthur Conan Doyle's field of work is geography",
+   "Arthur Conan Doyle's field of work is history of religions",
+   "Arthur Conan Doyle's field of work is quaternion",
+   "Arthur Conan Doyle's field of work is opera",
+   "Arthur Conan Doyle's field of work is historical novel",
+   "Arthur Conan Doyle's field of work is mythology",
+   "Arthur Conan Doyle's field of work is analytic philosophy",
+   "Arthur Conan Doyle's field of work is poetry",
+   "Arthur Conan Doyle's field of work is world economy",
+   "Arthur Conan Doyle's field of work is optics",
+   "Arthur Conan Doyle's field of work is historical sociology",
+   "Arthur Conan Doyle's field of work is electron",
+   "Arthur Conan Doyle's field of work is economics",
+   "Arthur Conan Doyle's field of work is Hebrew",
+   "Arthur Conan Doyle's field of work is quantum mysticism",
+   "Arthur Conan Doyle's field of work is differential calculus",
+   "Arthur Conan Doyle's field of work is partial differential equation",
+   "Arthur Conan Doyle's field of work is prose",
+   "Arthur Conan Doyle's field of work is Cairo Geniza",
+   "Arthur Conan Doyle's field of work is classics",
+   "Arthur Conan Doyle's field of work is Greek philology",
+   "Arthur Conan Doyle's field of work is complex manifold",
+   "Arthur Conan Doyle's field of work is politics",
+   "Arthur Conan Doyle's field of work is Bayesian inference",
+   "Arthur Conan Doyle's field of work is cryptography",
+   "Arthur Conan Doyle's field of work is projective geometry",
+   "Arthur Conan Doyle's field of work is magnetic field",
+   "Arthur Conan Doyle's field of work is theory of relativity",
+   "Arthur Conan Doyle's field of work is astrology",
+   "Arthur Conan Doyle's field of work is physiology",
+   "Arthur Conan Doyle's field of work is theory of differential equations",
+   "Arthur Conan Doyle's field of work is String",
+   "Arthur Conan Doyle's field of work is Greek",
+   "Arthur Conan Doyle's field of work is quantum theory",
+   "Arthur Conan Doyle's field of work is social anthropology",
+   "Arthur Conan Doyle's field of work is translations from Spanish",
+   "Arthur Conan Doyle's field of work is translations from Occitan",
+   "Arthur Conan Doyle's field of work is meteorology",
+   "Arthur Conan Doyle's field of work is surgery",
+   "Arthur Conan Doyle's field of work is feminism",
+   "Arthur Conan Doyle's field of work is astrophysics",
+   "Arthur Conan Doyle's field of work is ethics",
+   "Arthur Conan Doyle's field of work is sociology of organisations",
+   "Arthur Conan Doyle's field of work is convex function",
+   "Arthur Conan Doyle's field of work is ferromagnetism",
+   "Arthur Conan Doyle's field of work is myth",
+   "Arthur Conan Doyle's field of work is aeromechanics",
+   "Arthur Conan Doyle's field of work is magic",
+   "Arthur Conan Doyle's field of work is culturology",
+   "Arthur Conan Doyle's field of work is shipbuilding",
+   "Arthur Conan Doyle's field of work is linguistics",
+   "Arthur Conan Doyle's field of work is algebraic geometry",
+   "Arthur Conan Doyle's field of work is group theory",
+   "Arthur Conan Doyle's field of work is Jewish philosophy",
+   "Arthur Conan Doyle's field of work is anthropology",
+   "Arthur Conan Doyle's field of work is positivism",
+   "Arthur Conan Doyle's field of work is dance",
+   "Arthur Conan Doyle's field of work is medicine",
+   "Arthur Conan Doyle's field of work is celestial mechanics",
+   "Arthur Conan Doyle's field of work is hunting",
+   "Arthur Conan Doyle's field of work is aerodynamics",
+   "Arthur Conan Doyle's field of work is kinetic theory",
+   "Arthur Conan Doyle is mathematics",
+   "Arthur Conan Doyle is chemistry",
+   "Arthur Conan Doyle is crystallography",
+   "Arthur Conan Doyle is biological anthropology",
+   "Arthur Conan Doyle is statistics",
+   "Arthur Conan Doyle is genetics",
+   "Arthur Conan Doyle is sociology of religion",
+   "Arthur Conan Doyle is drama",
+   "Arthur Conan Doyle is hydrodynamics",
+   "Arthur Conan Doyle is forestry",
+   "Arthur Conan Doyle is gravity",
+   "Arthur Conan Doyle is momentum",
+   "Arthur Conan Doyle is literary translation",
+   "Arthur Conan Doyle is astronomer",
+   "Arthur Conan Doyle is Monte Carlo method",
+   "Arthur Conan Doyle is civil rights",
+   "Arthur Conan Doyle is ballet",
+   "Arthur Conan Doyle is Jewish studies",
+   "Arthur Conan Doyle is probability theory",
+   "Arthur Conan Doyle is Minkowski spacetime",
+   "Arthur Conan Doyle is mathematical logic",
+   "Arthur Conan Doyle is non-Euclidean geometry",
+   "Arthur Conan Doyle is essay",
+   "Arthur Conan Doyle is electricity",
+   "Arthur Conan Doyle is human geography",
+   "Arthur Conan Doyle is analytic geometry",
+   "Arthur Conan Doyle is computer science",
+   "Arthur Conan Doyle is philology",
+   "Arthur Conan Doyle is nanotechnology",
+   "Arthur Conan Doyle is computational geometry",
+   "Arthur Conan Doyle is nuclear physics",
+   "Arthur Conan Doyle is comparative religion",
+   "Arthur Conan Doyle is astronomical observation",
+   "Arthur Conan Doyle is geodesy",
+   "Arthur Conan Doyle is children's and youth literature",
+   "Arthur Conan Doyle is natural science",
+   "Arthur Conan Doyle is heat",
+   "Arthur Conan Doyle is sociology",
+   "Arthur Conan Doyle is Petrine ministry",
+   "Arthur Conan Doyle is social psychology",
+   "Arthur Conan Doyle is embryology",
+   "Arthur Conan Doyle is social philosophy",
+   "Arthur Conan Doyle is translations from English",
+   "Arthur Conan Doyle is differential geometry",
+   "Arthur Conan Doyle is mathematician",
+   "Arthur Conan Doyle is histology",
+   "Arthur Conan Doyle is journalism",
+   "Arthur Conan Doyle is education",
+   "Arthur Conan Doyle is economy",
+   "Arthur Conan Doyle is history",
+   "Arthur Conan Doyle is neurology",
+   "Arthur Conan Doyle is quantum electrodynamics",
+   "Arthur Conan Doyle is radiation",
+   "Arthur Conan Doyle is pedagogy",
+   "Arthur Conan Doyle is color photography",
+   "Arthur Conan Doyle is complex function",
+   "Arthur Conan Doyle is cosmology",
+   "Arthur Conan Doyle is applied mathematics",
+   "Arthur Conan Doyle is dance choreography",
+   "Arthur Conan Doyle is informatics",
+   "Arthur Conan Doyle is Franciscan spirituality",
+   "Arthur Conan Doyle is quantum physics",
+   "Arthur Conan Doyle is functional analysis",
+   "Arthur Conan Doyle is graph theory",
+   "Arthur Conan Doyle is lyric poetry",
+   "Arthur Conan Doyle is topology",
+   "Arthur Conan Doyle is trigonometry",
+   "Arthur Conan Doyle is evolution",
+   "Arthur Conan Doyle is mechanical engineering",
+   "Arthur Conan Doyle is rite",
+   "Arthur Conan Doyle is constitutional law",
+   "Arthur Conan Doyle is hyperbolic geometry",
+   "Arthur Conan Doyle is art of painting",
+   "Arthur Conan Doyle is fairy tale",
+   "Arthur Conan Doyle is applied physics",
+   "Arthur Conan Doyle is crime novel",
+   "Arthur Conan Doyle is magnetic resonance",
+   "Arthur Conan Doyle is experimental physics",
+   "Arthur Conan Doyle is harmonic analysis",
+   "Arthur Conan Doyle is English",
+   "Arthur Conan Doyle is algebra",
+   "Arthur Conan Doyle is engineering",
+   "Arthur Conan Doyle is Sanskrit",
+   "Arthur Conan Doyle is ethnology",
+   "Arthur Conan Doyle is philosophy",
+   "Arthur Conan Doyle is English literature",
+   "Arthur Conan Doyle is model theory",
+   "Arthur Conan Doyle is Judaism",
+   "Arthur Conan Doyle is psychology",
+   "Arthur Conan Doyle is history of science",
+   "Arthur Conan Doyle is study of history",
+   "Arthur Conan Doyle is number theory",
+   "Arthur Conan Doyle is paleontology",
+   "Arthur Conan Doyle is classical music",
+   "Arthur Conan Doyle is electrical engineering",
+   "Arthur Conan Doyle is conducting",
+   "Arthur Conan Doyle is ethnography",
+   "Arthur Conan Doyle is theoretical physics",
+   "Arthur Conan Doyle is calculus of variations",
+   "Arthur Conan Doyle is cybernetics",
+   "Arthur Conan Doyle is choreography",
+   "Arthur Conan Doyle is folklore",
+   "Arthur Conan Doyle is political philosophy",
+   "Arthur Conan Doyle is Christian Church",
+   "Arthur Conan Doyle is psychophysiology",
+   "Arthur Conan Doyle is philosophy of law",
+   "Arthur Conan Doyle is physicist",
+   "Arthur Conan Doyle is physics",
+   "Arthur Conan Doyle is religion",
+   "Arthur Conan Doyle is translations from Arabic language",
+   "Arthur Conan Doyle is detective literature",
+   "Arthur Conan Doyle is nonstandard analysis",
+   "Arthur Conan Doyle is translations from Polish",
+   "Arthur Conan Doyle is ontology",
+   "Arthur Conan Doyle is philosopher",
+   "Arthur Conan Doyle is philosophy of science",
+   "Arthur Conan Doyle is distribution",
+   "Arthur Conan Doyle is natural theology",
+   "Arthur Conan Doyle is literature",
+   "Arthur Conan Doyle is comparative mythology",
+   "Arthur Conan Doyle is Afghanistan",
+   "Arthur Conan Doyle is belletristic literature",
+   "Arthur Conan Doyle is economic anthropology",
+   "Arthur Conan Doyle is theology",
+   "Arthur Conan Doyle is logic",
+   "Arthur Conan Doyle is religion and society",
+   "Arthur Conan Doyle is history of economic thought",
+   "Arthur Conan Doyle is mathematical analysis",
+   "Arthur Conan Doyle is magnetism",
+   "Arthur Conan Doyle is literary theory",
+   "Arthur Conan Doyle is forestry science",
+   "Arthur Conan Doyle is abstract algebra",
+   "Arthur Conan Doyle is quantum mechanics",
+   "Arthur Conan Doyle is algebraic topology",
+   "Arthur Conan Doyle is stochastic",
+   "Arthur Conan Doyle is jazz",
+   "Arthur Conan Doyle is silviculture",
+   "Arthur Conan Doyle is ballistics",
+   "Arthur Conan Doyle is astronomy",
+   "Arthur Conan Doyle is mathematical physics",
+   "Arthur Conan Doyle is a branch of physics",
+   "Arthur Conan Doyle is anatomy",
+   "Arthur Conan Doyle is biochemistry",
+   "Arthur Conan Doyle is Internet",
+   "Arthur Conan Doyle is electric field",
+   "Arthur Conan Doyle is literary activity",
+   "Arthur Conan Doyle is music theory",
+   "Arthur Conan Doyle is analytic number theory",
+   "Arthur Conan Doyle is information technology",
+   "Arthur Conan Doyle is geometry",
+   "Arthur Conan Doyle is mechanics",
+   "Arthur Conan Doyle is cartography",
+   "Arthur Conan Doyle is radioactivity",
+   "Arthur Conan Doyle is electromagnetic field",
+   "Arthur Conan Doyle is distribution theory",
+   "Arthur Conan Doyle is television program",
+   "Arthur Conan Doyle is African studies",
+   "Arthur Conan Doyle is Lie algebra",
+   "Arthur Conan Doyle is geography",
+   "Arthur Conan Doyle is history of religions",
+   "Arthur Conan Doyle is quaternion",
+   "Arthur Conan Doyle is opera",
+   "Arthur Conan Doyle is historical novel",
+   "Arthur Conan Doyle is mythology",
+   "Arthur Conan Doyle is analytic philosophy",
+   "Arthur Conan Doyle is poetry",
+   "Arthur Conan Doyle is world economy",
+   "Arthur Conan Doyle is optics",
+   "Arthur Conan Doyle is historical sociology",
+   "Arthur Conan Doyle is electron",
+   "Arthur Conan Doyle is economics",
+   "Arthur Conan Doyle is Hebrew",
+   "Arthur Conan Doyle is quantum mysticism",
+   "Arthur Conan Doyle is differential calculus",
+   "Arthur Conan Doyle is partial differential equation",
+   "Arthur Conan Doyle is prose",
+   "Arthur Conan Doyle is Cairo Geniza",
+   "Arthur Conan Doyle is classics",
+   "Arthur Conan Doyle is Greek philology",
+   "Arthur Conan Doyle is complex manifold",
+   "Arthur Conan Doyle is politics",
+   "Arthur Conan Doyle is Bayesian inference",
+   "Arthur Conan Doyle is cryptography",
+   "Arthur Conan Doyle is projective geometry",
+   "Arthur Conan Doyle is magnetic field",
+   "Arthur Conan Doyle is theory of relativity",
+   "Arthur Conan Doyle is astrology",
+   "Arthur Conan Doyle is physiology",
+   "Arthur Conan Doyle is theory of differential equations",
+   "Arthur Conan Doyle is String",
+   "Arthur Conan Doyle is Greek",
+   "Arthur Conan Doyle is quantum theory",
+   "Arthur Conan Doyle is social anthropology",
+   "Arthur Conan Doyle is translations from Spanish",
+   "Arthur Conan Doyle is translations from Occitan",
+   "Arthur Conan Doyle is meteorology",
+   "Arthur Conan Doyle is surgery",
+   "Arthur Conan Doyle is feminism",
+   "Arthur Conan Doyle is astrophysics",
+   "Arthur Conan Doyle is ethics",
+   "Arthur Conan Doyle is sociology of organisations",
+   "Arthur Conan Doyle is convex function",
+   "Arthur Conan Doyle is ferromagnetism",
+   "Arthur Conan Doyle is myth",
+   "Arthur Conan Doyle is aeromechanics",
+   "Arthur Conan Doyle is magic",
+   "Arthur Conan Doyle is culturology",
+   "Arthur Conan Doyle is shipbuilding",
+   "Arthur Conan Doyle is linguistics",
+   "Arthur Conan Doyle is algebraic geometry",
+   "Arthur Conan Doyle is group theory",
+   "Arthur Conan Doyle is Jewish philosophy",
+   "Arthur Conan Doyle is anthropology",
+   "Arthur Conan Doyle is positivism",
+   "Arthur Conan Doyle is dance",
+   "Arthur Conan Doyle is medicine",
+   "Arthur Conan Doyle is celestial mechanics",
+   "Arthur Conan Doyle is hunting",
+   "Arthur Conan Doyle is aerodynamics",
+   "Arthur Conan Doyle is kinetic theory"
+  ],
+  [
+   [
+    -44.599639892578125
+   ],
+   [
+    -44.64785385131836
+   ],
+   [
+    -51.050193786621094
+   ],
+   [
+    -52.60686492919922
+   ],
+   [
+    -46.641387939453125
+   ],
+   [
+    -45.69252014160156
+   ],
+   [
+    -50.797752380371094
+   ],
+   [
+    -44.46003723144531
+   ],
+   [
+    -50.316680908203125
+   ],
+   [
+    -47.149330139160156
+   ],
+   [
+    -47.82252883911133
+   ],
+   [
+    -49.79960632324219
+   ],
+   [
+    -50.6059684753418
+   ],
+   [
+    -49.90190887451172
+   ],
+   [
+    -60.50618362426758
+   ],
+   [
+    -49.78207778930664
+   ],
+   [
+    -49.34525680541992
+   ],
+   [
+    -49.31144714355469
+   ],
+   [
+    -52.08332824707031
+   ],
+   [
+    -59.72026824951172
+   ],
+   [
+    -48.32286834716797
+   ],
+   [
+    -52.63866424560547
+   ],
+   [
+    -45.24126052856445
+   ],
+   [
+    -45.88015365600586
+   ],
+   [
+    -52.640968322753906
+   ],
+   [
+    -51.4759635925293
+   ],
+   [
+    -47.857765197753906
+   ],
+   [
+    -46.786373138427734
+   ],
+   [
+    -49.31922149658203
+   ],
+   [
+    -54.387977600097656
+   ],
+   [
+    -48.52239227294922
+   ],
+   [
+    -48.81006622314453
+   ],
+   [
+    -50.61719512939453
+   ],
+   [
+    -48.493927001953125
+   ],
+   [
+    -53.205810546875
+   ],
+   [
+    -44.674095153808594
+   ],
+   [
+    -49.29240798950195
+   ],
+   [
+    -45.62469482421875
+   ],
+   [
+    -64.24311828613281
+   ],
+   [
+    -48.745399475097656
+   ],
+   [
+    -49.47938537597656
+   ],
+   [
+    -51.223419189453125
+   ],
+   [
+    -51.814308166503906
+   ],
+   [
+    -50.083839416503906
+   ],
+   [
+    -50.24663162231445
+   ],
+   [
+    -49.18701934814453
+   ],
+   [
+    -44.892574310302734
+   ],
+   [
+    -44.36682891845703
+   ],
+   [
+    -48.1368293762207
+   ],
+   [
+    -43.05698013305664
+   ],
+   [
+    -46.409725189208984
+   ],
+   [
+    -54.66874694824219
+   ],
+   [
+    -47.299747467041016
+   ],
+   [
+    -50.256263732910156
+   ],
+   [
+    -51.671226501464844
+   ],
+   [
+    -56.83160400390625
+   ],
+   [
+    -45.98817443847656
+   ],
+   [
+    -48.8548698425293
+   ],
+   [
+    -56.1165771484375
+   ],
+   [
+    -49.028961181640625
+   ],
+   [
+    -54.966835021972656
+   ],
+   [
+    -47.32685852050781
+   ],
+   [
+    -51.1141357421875
+   ],
+   [
+    -51.37953186035156
+   ],
+   [
+    -49.678314208984375
+   ],
+   [
+    -49.26874923706055
+   ],
+   [
+    -49.09590530395508
+   ],
+   [
+    -45.0562858581543
+   ],
+   [
+    -47.88459014892578
+   ],
+   [
+    -51.84895706176758
+   ],
+   [
+    -48.02033233642578
+   ],
+   [
+    -58.1195068359375
+   ],
+   [
+    -54.821746826171875
+   ],
+   [
+    -50.32038116455078
+   ],
+   [
+    -49.59292984008789
+   ],
+   [
+    -47.16384506225586
+   ],
+   [
+    -50.380332946777344
+   ],
+   [
+    -49.24165344238281
+   ],
+   [
+    -54.95473861694336
+   ],
+   [
+    -42.33740997314453
+   ],
+   [
+    -49.745845794677734
+   ],
+   [
+    -45.086421966552734
+   ],
+   [
+    -52.09724044799805
+   ],
+   [
+    -47.209625244140625
+   ],
+   [
+    -43.914085388183594
+   ],
+   [
+    -43.01882553100586
+   ],
+   [
+    -54.10414123535156
+   ],
+   [
+    -49.02653503417969
+   ],
+   [
+    -44.21665954589844
+   ],
+   [
+    -47.61188507080078
+   ],
+   [
+    -50.272308349609375
+   ],
+   [
+    -48.998390197753906
+   ],
+   [
+    -47.021629333496094
+   ],
+   [
+    -46.808319091796875
+   ],
+   [
+    -46.16826248168945
+   ],
+   [
+    -47.98796844482422
+   ],
+   [
+    -47.3382682800293
+   ],
+   [
+    -48.41480255126953
+   ],
+   [
+    -51.47163391113281
+   ],
+   [
+    -48.260066986083984
+   ],
+   [
+    -53.74037551879883
+   ],
+   [
+    -47.574623107910156
+   ],
+   [
+    -49.89498519897461
+   ],
+   [
+    -53.32491683959961
+   ],
+   [
+    -51.93684005737305
+   ],
+   [
+    -50.74714660644531
+   ],
+   [
+    -48.326171875
+   ],
+   [
+    -43.43863296508789
+   ],
+   [
+    -45.68421173095703
+   ],
+   [
+    -61.99623489379883
+   ],
+   [
+    -46.77396011352539
+   ],
+   [
+    -59.86756134033203
+   ],
+   [
+    -53.96855163574219
+   ],
+   [
+    -48.46827697753906
+   ],
+   [
+    -50.93473815917969
+   ],
+   [
+    -47.79520797729492
+   ],
+   [
+    -49.16025161743164
+   ],
+   [
+    -51.71076202392578
+   ],
+   [
+    -40.08331298828125
+   ],
+   [
+    -50.495513916015625
+   ],
+   [
+    -47.966064453125
+   ],
+   [
+    -53.867347717285156
+   ],
+   [
+    -53.87351608276367
+   ],
+   [
+    -46.44279479980469
+   ],
+   [
+    -46.69213104248047
+   ],
+   [
+    -52.43561935424805
+   ],
+   [
+    -57.4102783203125
+   ],
+   [
+    -50.6600341796875
+   ],
+   [
+    -49.72897720336914
+   ],
+   [
+    -49.16283416748047
+   ],
+   [
+    -52.63819122314453
+   ],
+   [
+    -55.25077819824219
+   ],
+   [
+    -48.43213653564453
+   ],
+   [
+    -51.552005767822266
+   ],
+   [
+    -49.76042175292969
+   ],
+   [
+    -48.355201721191406
+   ],
+   [
+    -53.81180953979492
+   ],
+   [
+    -49.03425216674805
+   ],
+   [
+    -43.78703689575195
+   ],
+   [
+    -49.80669021606445
+   ],
+   [
+    -51.31242370605469
+   ],
+   [
+    -45.10462188720703
+   ],
+   [
+    -47.24304962158203
+   ],
+   [
+    -49.260562896728516
+   ],
+   [
+    -53.54381561279297
+   ],
+   [
+    -48.02935028076172
+   ],
+   [
+    -50.09140396118164
+   ],
+   [
+    -54.76201629638672
+   ],
+   [
+    -48.21343231201172
+   ],
+   [
+    -46.70317459106445
+   ],
+   [
+    -47.495689392089844
+   ],
+   [
+    -48.850894927978516
+   ],
+   [
+    -50.813438415527344
+   ],
+   [
+    -54.24952697753906
+   ],
+   [
+    -56.617149353027344
+   ],
+   [
+    -51.15694808959961
+   ],
+   [
+    -53.135589599609375
+   ],
+   [
+    -59.086883544921875
+   ],
+   [
+    -44.34287643432617
+   ],
+   [
+    -52.708641052246094
+   ],
+   [
+    -53.428016662597656
+   ],
+   [
+    -47.7686882019043
+   ],
+   [
+    -48.59629440307617
+   ],
+   [
+    -46.09282684326172
+   ],
+   [
+    -49.68576431274414
+   ],
+   [
+    -43.031227111816406
+   ],
+   [
+    -54.541900634765625
+   ],
+   [
+    -47.07406234741211
+   ],
+   [
+    -51.62786865234375
+   ],
+   [
+    -46.65192794799805
+   ],
+   [
+    -45.352108001708984
+   ],
+   [
+    -50.04838943481445
+   ],
+   [
+    -52.778602600097656
+   ],
+   [
+    -51.500762939453125
+   ],
+   [
+    -62.70235824584961
+   ],
+   [
+    -42.584800720214844
+   ],
+   [
+    -59.492652893066406
+   ],
+   [
+    -45.33306884765625
+   ],
+   [
+    -52.045814514160156
+   ],
+   [
+    -55.74188232421875
+   ],
+   [
+    -44.79997634887695
+   ],
+   [
+    -51.71731948852539
+   ],
+   [
+    -47.290863037109375
+   ],
+   [
+    -49.64118576049805
+   ],
+   [
+    -52.57414627075195
+   ],
+   [
+    -52.8992919921875
+   ],
+   [
+    -44.523136138916016
+   ],
+   [
+    -43.539268493652344
+   ],
+   [
+    -55.035125732421875
+   ],
+   [
+    -49.50954055786133
+   ],
+   [
+    -47.42277908325195
+   ],
+   [
+    -50.48653030395508
+   ],
+   [
+    -50.4647216796875
+   ],
+   [
+    -54.293670654296875
+   ],
+   [
+    -61.62451934814453
+   ],
+   [
+    -45.18925857543945
+   ],
+   [
+    -45.4128303527832
+   ],
+   [
+    -50.14944076538086
+   ],
+   [
+    -45.42845153808594
+   ],
+   [
+    -46.07655334472656
+   ],
+   [
+    -56.90178680419922
+   ],
+   [
+    -57.91871643066406
+   ],
+   [
+    -55.685447692871094
+   ],
+   [
+    -44.889835357666016
+   ],
+   [
+    -57.41828536987305
+   ],
+   [
+    -43.947669982910156
+   ],
+   [
+    -48.45475769042969
+   ],
+   [
+    -49.806640625
+   ],
+   [
+    -46.266937255859375
+   ],
+   [
+    -51.86670684814453
+   ],
+   [
+    -52.50216293334961
+   ],
+   [
+    -51.31541442871094
+   ],
+   [
+    -44.286746978759766
+   ],
+   [
+    -49.16595458984375
+   ],
+   [
+    -49.720157623291016
+   ],
+   [
+    -41.0583381652832
+   ],
+   [
+    -50.87103271484375
+   ],
+   [
+    -46.98357009887695
+   ],
+   [
+    -51.48413848876953
+   ],
+   [
+    -57.33456802368164
+   ],
+   [
+    -34.730316162109375
+   ],
+   [
+    -35.70981216430664
+   ],
+   [
+    -40.3232421875
+   ],
+   [
+    -44.15694808959961
+   ],
+   [
+    -33.646278381347656
+   ],
+   [
+    -38.07887268066406
+   ],
+   [
+    -45.08134460449219
+   ],
+   [
+    -32.70273208618164
+   ],
+   [
+    -40.64821243286133
+   ],
+   [
+    -40.1812744140625
+   ],
+   [
+    -35.19141387939453
+   ],
+   [
+    -36.04113006591797
+   ],
+   [
+    -40.05088424682617
+   ],
+   [
+    -34.87364959716797
+   ],
+   [
+    -46.74192428588867
+   ],
+   [
+    -38.119197845458984
+   ],
+   [
+    -36.987857818603516
+   ],
+   [
+    -40.3988151550293
+   ],
+   [
+    -43.445457458496094
+   ],
+   [
+    -48.24853515625
+   ],
+   [
+    -41.02364730834961
+   ],
+   [
+    -40.213993072509766
+   ],
+   [
+    -31.891891479492188
+   ],
+   [
+    -36.054012298583984
+   ],
+   [
+    -40.070945739746094
+   ],
+   [
+    -46.546295166015625
+   ],
+   [
+    -35.42937469482422
+   ],
+   [
+    -37.75933074951172
+   ],
+   [
+    -39.03609085083008
+   ],
+   [
+    -44.21614074707031
+   ],
+   [
+    -37.463008880615234
+   ],
+   [
+    -41.986656188964844
+   ],
+   [
+    -44.99736022949219
+   ],
+   [
+    -43.74662780761719
+   ],
+   [
+    -43.92886734008789
+   ],
+   [
+    -36.77619171142578
+   ],
+   [
+    -35.11009216308594
+   ],
+   [
+    -36.15685272216797
+   ],
+   [
+    -54.626373291015625
+   ],
+   [
+    -39.242549896240234
+   ],
+   [
+    -45.445465087890625
+   ],
+   [
+    -41.42561721801758
+   ],
+   [
+    -43.696136474609375
+   ],
+   [
+    -42.03718185424805
+   ],
+   [
+    -34.25356674194336
+   ],
+   [
+    -40.92909622192383
+   ],
+   [
+    -35.152713775634766
+   ],
+   [
+    -32.751670837402344
+   ],
+   [
+    -34.97795867919922
+   ],
+   [
+    -29.15505599975586
+   ],
+   [
+    -37.33444595336914
+   ],
+   [
+    -43.47272872924805
+   ],
+   [
+    -36.028350830078125
+   ],
+   [
+    -41.03043746948242
+   ],
+   [
+    -40.666202545166016
+   ],
+   [
+    -45.60697555541992
+   ],
+   [
+    -37.42573165893555
+   ],
+   [
+    -39.37533950805664
+   ],
+   [
+    -43.935394287109375
+   ],
+   [
+    -44.20661926269531
+   ],
+   [
+    -44.762550354003906
+   ],
+   [
+    -37.46239471435547
+   ],
+   [
+    -41.753604888916016
+   ],
+   [
+    -40.978004455566406
+   ],
+   [
+    -40.2882080078125
+   ],
+   [
+    -36.662559509277344
+   ],
+   [
+    -39.237735748291016
+   ],
+   [
+    -34.06075668334961
+   ],
+   [
+    -38.54838562011719
+   ],
+   [
+    -36.556617736816406
+   ],
+   [
+    -40.45550537109375
+   ],
+   [
+    -52.750186920166016
+   ],
+   [
+    -45.862003326416016
+   ],
+   [
+    -37.356353759765625
+   ],
+   [
+    -40.218955993652344
+   ],
+   [
+    -35.668643951416016
+   ],
+   [
+    -42.270103454589844
+   ],
+   [
+    -42.73598861694336
+   ],
+   [
+    -43.67622756958008
+   ],
+   [
+    -27.750328063964844
+   ],
+   [
+    -38.23106384277344
+   ],
+   [
+    -33.7712287902832
+   ],
+   [
+    -35.958900451660156
+   ],
+   [
+    -38.668800354003906
+   ],
+   [
+    -33.04499053955078
+   ],
+   [
+    -32.84873962402344
+   ],
+   [
+    -46.22584533691406
+   ],
+   [
+    -37.85121154785156
+   ],
+   [
+    -35.29120635986328
+   ],
+   [
+    -39.51275634765625
+   ],
+   [
+    -40.851104736328125
+   ],
+   [
+    -39.388755798339844
+   ],
+   [
+    -35.550777435302734
+   ],
+   [
+    -34.772640228271484
+   ],
+   [
+    -38.474578857421875
+   ],
+   [
+    -30.982894897460938
+   ],
+   [
+    -38.87953567504883
+   ],
+   [
+    -41.387489318847656
+   ],
+   [
+    -51.43980026245117
+   ],
+   [
+    -37.65922546386719
+   ],
+   [
+    -41.46891403198242
+   ],
+   [
+    -34.892330169677734
+   ],
+   [
+    -39.76572799682617
+   ],
+   [
+    -39.05493927001953
+   ],
+   [
+    -43.75283432006836
+   ],
+   [
+    -42.7343635559082
+   ],
+   [
+    -34.39630889892578
+   ],
+   [
+    -35.80009841918945
+   ],
+   [
+    -33.145774841308594
+   ],
+   [
+    -52.792884826660156
+   ],
+   [
+    -36.762176513671875
+   ],
+   [
+    -47.430503845214844
+   ],
+   [
+    -45.37977600097656
+   ],
+   [
+    -41.48453903198242
+   ],
+   [
+    -33.03224563598633
+   ],
+   [
+    -40.694007873535156
+   ],
+   [
+    -37.72539520263672
+   ],
+   [
+    -43.265342712402344
+   ],
+   [
+    -30.096424102783203
+   ],
+   [
+    -41.17668151855469
+   ],
+   [
+    -34.47377014160156
+   ],
+   [
+    -41.127708435058594
+   ],
+   [
+    -44.36211395263672
+   ],
+   [
+    -35.84014129638672
+   ],
+   [
+    -35.177513122558594
+   ],
+   [
+    -42.43614196777344
+   ],
+   [
+    -47.293724060058594
+   ],
+   [
+    -42.57417678833008
+   ],
+   [
+    -36.893131256103516
+   ],
+   [
+    -39.16303253173828
+   ],
+   [
+    -46.588584899902344
+   ],
+   [
+    -46.024417877197266
+   ],
+   [
+    -37.63991165161133
+   ],
+   [
+    -45.08364486694336
+   ],
+   [
+    -38.660400390625
+   ],
+   [
+    -32.70318603515625
+   ],
+   [
+    -41.3787841796875
+   ],
+   [
+    -38.739376068115234
+   ],
+   [
+    -36.009822845458984
+   ],
+   [
+    -41.18046951293945
+   ],
+   [
+    -42.466102600097656
+   ],
+   [
+    -35.67120361328125
+   ],
+   [
+    -39.64292907714844
+   ],
+   [
+    -32.882972717285156
+   ],
+   [
+    -42.76643371582031
+   ],
+   [
+    -39.93239212036133
+   ],
+   [
+    -39.57173156738281
+   ],
+   [
+    -51.11993408203125
+   ],
+   [
+    -35.81459045410156
+   ],
+   [
+    -37.049957275390625
+   ],
+   [
+    -37.845340728759766
+   ],
+   [
+    -37.923973083496094
+   ],
+   [
+    -39.86844253540039
+   ],
+   [
+    -41.70607376098633
+   ],
+   [
+    -45.926849365234375
+   ],
+   [
+    -37.84112548828125
+   ],
+   [
+    -43.61233139038086
+   ],
+   [
+    -46.890316009521484
+   ],
+   [
+    -36.203338623046875
+   ],
+   [
+    -45.284515380859375
+   ],
+   [
+    -39.15008544921875
+   ],
+   [
+    -34.11774826049805
+   ],
+   [
+    -34.30080032348633
+   ],
+   [
+    -35.06084060668945
+   ],
+   [
+    -43.4608154296875
+   ],
+   [
+    -32.92075729370117
+   ],
+   [
+    -40.9459228515625
+   ],
+   [
+    -37.613399505615234
+   ],
+   [
+    -41.53799057006836
+   ],
+   [
+    -33.07664108276367
+   ],
+   [
+    -37.128082275390625
+   ],
+   [
+    -34.3675537109375
+   ],
+   [
+    -43.1302375793457
+   ],
+   [
+    -41.061431884765625
+   ],
+   [
+    -47.513465881347656
+   ],
+   [
+    -31.758235931396484
+   ],
+   [
+    -43.91352081298828
+   ],
+   [
+    -31.53588104248047
+   ],
+   [
+    -45.13569641113281
+   ],
+   [
+    -45.97498321533203
+   ],
+   [
+    -35.968021392822266
+   ],
+   [
+    -47.124778747558594
+   ],
+   [
+    -37.62274169921875
+   ],
+   [
+    -43.96147537231445
+   ],
+   [
+    -40.064064025878906
+   ],
+   [
+    -40.763858795166016
+   ],
+   [
+    -37.03211975097656
+   ],
+   [
+    -38.067169189453125
+   ],
+   [
+    -43.79505920410156
+   ],
+   [
+    -33.862457275390625
+   ],
+   [
+    -33.32664489746094
+   ],
+   [
+    -39.89695739746094
+   ],
+   [
+    -40.33449172973633
+   ],
+   [
+    -45.383880615234375
+   ],
+   [
+    -52.704620361328125
+   ],
+   [
+    -37.04241180419922
+   ],
+   [
+    -36.34973907470703
+   ],
+   [
+    -35.72181701660156
+   ],
+   [
+    -37.705963134765625
+   ],
+   [
+    -35.46173858642578
+   ],
+   [
+    -49.62886047363281
+   ],
+   [
+    -47.123817443847656
+   ],
+   [
+    -44.62605285644531
+   ],
+   [
+    -30.480321884155273
+   ],
+   [
+    -42.882179260253906
+   ],
+   [
+    -31.521514892578125
+   ],
+   [
+    -40.482139587402344
+   ],
+   [
+    -43.252647399902344
+   ],
+   [
+    -39.43772506713867
+   ],
+   [
+    -43.00182342529297
+   ],
+   [
+    -41.86716079711914
+   ],
+   [
+    -41.82783508300781
+   ],
+   [
+    -34.87532043457031
+   ],
+   [
+    -38.387672424316406
+   ],
+   [
+    -34.967185974121094
+   ],
+   [
+    -33.945152282714844
+   ],
+   [
+    -43.549102783203125
+   ],
+   [
+    -31.911096572875977
+   ],
+   [
+    -38.967506408691406
+   ],
+   [
+    -44.23296356201172
+   ]
+  ]
+ ],
+ "time": 887.1559631824493
+}

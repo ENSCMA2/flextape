@@ -1,0 +1,2076 @@
+{
+ "case_id": 22176,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Allan Sandage"
+ },
+ "pre": [
+  [
+   "Allan Sandage's field of work is trigonometry",
+   "Allan Sandage's field of work is Minkowski spacetime",
+   "Allan Sandage's field of work is physiology",
+   "Allan Sandage's field of work is civil rights",
+   "Allan Sandage's field of work is theory of relativity",
+   "Allan Sandage's field of work is electric field",
+   "Allan Sandage's field of work is literary translation",
+   "Allan Sandage's field of work is geography",
+   "Allan Sandage's field of work is detective literature",
+   "Allan Sandage's field of work is hyperbolic geometry",
+   "Allan Sandage's field of work is ballet",
+   "Allan Sandage's field of work is quantum mechanics",
+   "Allan Sandage's field of work is silviculture",
+   "Allan Sandage's field of work is study of history",
+   "Allan Sandage's field of work is television program",
+   "Allan Sandage's field of work is radiation",
+   "Allan Sandage's field of work is crystallography",
+   "Allan Sandage's field of work is English",
+   "Allan Sandage's field of work is comparative mythology",
+   "Allan Sandage's field of work is non-Euclidean geometry",
+   "Allan Sandage's field of work is education",
+   "Allan Sandage's field of work is Sanskrit",
+   "Allan Sandage's field of work is astronomer",
+   "Allan Sandage's field of work is chemistry",
+   "Allan Sandage's field of work is medicine",
+   "Allan Sandage's field of work is pedagogy",
+   "Allan Sandage's field of work is mythology",
+   "Allan Sandage's field of work is harmonic analysis",
+   "Allan Sandage's field of work is social anthropology",
+   "Allan Sandage's field of work is literature",
+   "Allan Sandage's field of work is psychology",
+   "Allan Sandage's field of work is aeromechanics",
+   "Allan Sandage's field of work is physics",
+   "Allan Sandage's field of work is algebraic topology",
+   "Allan Sandage's field of work is forestry",
+   "Allan Sandage's field of work is magnetism",
+   "Allan Sandage's field of work is anthropology",
+   "Allan Sandage's field of work is Greek philology",
+   "Allan Sandage's field of work is theology",
+   "Allan Sandage's field of work is analytic philosophy",
+   "Allan Sandage's field of work is computational geometry",
+   "Allan Sandage's field of work is graph theory",
+   "Allan Sandage's field of work is philosophy of law",
+   "Allan Sandage's field of work is ballistics",
+   "Allan Sandage's field of work is dance choreography",
+   "Allan Sandage's field of work is Lie algebra",
+   "Allan Sandage's field of work is histology",
+   "Allan Sandage's field of work is complex manifold",
+   "Allan Sandage's field of work is history",
+   "Allan Sandage's field of work is celestial mechanics",
+   "Allan Sandage's field of work is differential geometry",
+   "Allan Sandage's field of work is Petrine ministry",
+   "Allan Sandage's field of work is dance",
+   "Allan Sandage's field of work is String",
+   "Allan Sandage's field of work is a branch of physics",
+   "Allan Sandage's field of work is mechanical engineering",
+   "Allan Sandage's field of work is mathematical logic",
+   "Allan Sandage's field of work is geodesy",
+   "Allan Sandage's field of work is historical novel",
+   "Allan Sandage's field of work is Jewish studies",
+   "Allan Sandage's field of work is distribution",
+   "Allan Sandage's field of work is Greek",
+   "Allan Sandage's field of work is natural science",
+   "Allan Sandage's field of work is Hebrew",
+   "Allan Sandage's field of work is astrology",
+   "Allan Sandage's field of work is group theory",
+   "Allan Sandage's field of work is Judaism",
+   "Allan Sandage's field of work is model theory",
+   "Allan Sandage's field of work is opera",
+   "Allan Sandage's field of work is religion",
+   "Allan Sandage's field of work is evolution",
+   "Allan Sandage's field of work is hunting",
+   "Allan Sandage's field of work is nonstandard analysis",
+   "Allan Sandage's field of work is applied physics",
+   "Allan Sandage's field of work is philosophy",
+   "Allan Sandage's field of work is aerodynamics",
+   "Allan Sandage's field of work is classical music",
+   "Allan Sandage's field of work is biological anthropology",
+   "Allan Sandage's field of work is experimental physics",
+   "Allan Sandage's field of work is ethnography",
+   "Allan Sandage's field of work is geometry",
+   "Allan Sandage's field of work is statistics",
+   "Allan Sandage's field of work is cosmology",
+   "Allan Sandage's field of work is algebra",
+   "Allan Sandage's field of work is heat",
+   "Allan Sandage's field of work is convex function",
+   "Allan Sandage's field of work is applied mathematics",
+   "Allan Sandage's field of work is ontology",
+   "Allan Sandage's field of work is translations from Occitan",
+   "Allan Sandage's field of work is folklore",
+   "Allan Sandage's field of work is analytic number theory",
+   "Allan Sandage's field of work is astronomical observation",
+   "Allan Sandage's field of work is algebraic geometry",
+   "Allan Sandage's field of work is history of economic thought",
+   "Allan Sandage's field of work is informatics",
+   "Allan Sandage's field of work is surgery",
+   "Allan Sandage's field of work is Afghanistan",
+   "Allan Sandage's field of work is social psychology",
+   "Allan Sandage's field of work is sociology",
+   "Allan Sandage's field of work is anatomy",
+   "Allan Sandage's field of work is neurology",
+   "Allan Sandage's field of work is hydrodynamics",
+   "Allan Sandage's field of work is sociology of religion",
+   "Allan Sandage's field of work is complex function",
+   "Allan Sandage's field of work is shipbuilding",
+   "Allan Sandage's field of work is electron",
+   "Allan Sandage's field of work is African studies",
+   "Allan Sandage's field of work is historical sociology",
+   "Allan Sandage's field of work is biochemistry",
+   "Allan Sandage's field of work is religion and society",
+   "Allan Sandage's field of work is cryptography",
+   "Allan Sandage's field of work is crime novel",
+   "Allan Sandage's field of work is meteorology",
+   "Allan Sandage's field of work is mathematical physics",
+   "Allan Sandage's field of work is theoretical physics",
+   "Allan Sandage's field of work is theory of differential equations",
+   "Allan Sandage's field of work is art of painting",
+   "Allan Sandage's field of work is essay",
+   "Allan Sandage's field of work is human geography",
+   "Allan Sandage's field of work is gravity",
+   "Allan Sandage's field of work is natural theology",
+   "Allan Sandage's field of work is momentum",
+   "Allan Sandage's field of work is optics",
+   "Allan Sandage's field of work is paleontology",
+   "Allan Sandage's field of work is calculus of variations",
+   "Allan Sandage's field of work is prose",
+   "Allan Sandage's field of work is political philosophy",
+   "Allan Sandage's field of work is engineering",
+   "Allan Sandage's field of work is children's and youth literature",
+   "Allan Sandage's field of work is computer science",
+   "Allan Sandage's field of work is philosopher",
+   "Allan Sandage's field of work is Bayesian inference",
+   "Allan Sandage's field of work is translations from Polish",
+   "Allan Sandage's field of work is differential calculus",
+   "Allan Sandage's field of work is quantum electrodynamics",
+   "Allan Sandage's field of work is ethnology",
+   "Allan Sandage's field of work is Internet",
+   "Allan Sandage's field of work is economic anthropology",
+   "Allan Sandage's field of work is philosophy of science",
+   "Allan Sandage's field of work is politics",
+   "Allan Sandage's field of work is economics",
+   "Allan Sandage's field of work is distribution theory",
+   "Allan Sandage's field of work is kinetic theory",
+   "Allan Sandage's field of work is sociology of organisations",
+   "Allan Sandage's field of work is quaternion",
+   "Allan Sandage's field of work is mathematician",
+   "Allan Sandage's field of work is social philosophy",
+   "Allan Sandage's field of work is forestry science",
+   "Allan Sandage's field of work is rite",
+   "Allan Sandage's field of work is Monte Carlo method",
+   "Allan Sandage's field of work is analytic geometry",
+   "Allan Sandage's field of work is electrical engineering",
+   "Allan Sandage's field of work is Franciscan spirituality",
+   "Allan Sandage's field of work is stochastic",
+   "Allan Sandage's field of work is translations from Spanish",
+   "Allan Sandage's field of work is world economy",
+   "Allan Sandage's field of work is drama",
+   "Allan Sandage's field of work is electricity",
+   "Allan Sandage's field of work is cybernetics",
+   "Allan Sandage's field of work is embryology",
+   "Allan Sandage's field of work is linguistics",
+   "Allan Sandage's field of work is magnetic resonance",
+   "Allan Sandage's field of work is English literature",
+   "Allan Sandage's field of work is topology",
+   "Allan Sandage's field of work is belletristic literature",
+   "Allan Sandage's field of work is mathematical analysis",
+   "Allan Sandage's field of work is lyric poetry",
+   "Allan Sandage's field of work is projective geometry",
+   "Allan Sandage's field of work is Jewish philosophy",
+   "Allan Sandage's field of work is myth",
+   "Allan Sandage's field of work is ethics",
+   "Allan Sandage's field of work is history of religions",
+   "Allan Sandage's field of work is logic",
+   "Allan Sandage's field of work is comparative religion",
+   "Allan Sandage's field of work is functional analysis",
+   "Allan Sandage's field of work is astrophysics",
+   "Allan Sandage's field of work is partial differential equation",
+   "Allan Sandage's field of work is magic",
+   "Allan Sandage's field of work is mechanics",
+   "Allan Sandage's field of work is electromagnetic field",
+   "Allan Sandage's field of work is philology",
+   "Allan Sandage's field of work is abstract algebra",
+   "Allan Sandage's field of work is translations from Arabic language",
+   "Allan Sandage's field of work is ferromagnetism",
+   "Allan Sandage's field of work is translations from English",
+   "Allan Sandage's field of work is culturology",
+   "Allan Sandage's field of work is psychophysiology",
+   "Allan Sandage's field of work is nanotechnology",
+   "Allan Sandage's field of work is jazz",
+   "Allan Sandage's field of work is cartography",
+   "Allan Sandage's field of work is physicist",
+   "Allan Sandage's field of work is feminism",
+   "Allan Sandage's field of work is number theory",
+   "Allan Sandage's field of work is radioactivity",
+   "Allan Sandage's field of work is constitutional law",
+   "Allan Sandage's field of work is economy",
+   "Allan Sandage's field of work is positivism",
+   "Allan Sandage's field of work is fairy tale",
+   "Allan Sandage's field of work is Cairo Geniza",
+   "Allan Sandage's field of work is journalism",
+   "Allan Sandage's field of work is literary activity",
+   "Allan Sandage's field of work is color photography",
+   "Allan Sandage's field of work is genetics",
+   "Allan Sandage's field of work is Christian Church",
+   "Allan Sandage's field of work is mathematics",
+   "Allan Sandage's field of work is poetry",
+   "Allan Sandage's field of work is nuclear physics",
+   "Allan Sandage's field of work is information technology",
+   "Allan Sandage's field of work is conducting",
+   "Allan Sandage's field of work is quantum physics",
+   "Allan Sandage's field of work is history of science",
+   "Allan Sandage's field of work is music theory",
+   "Allan Sandage's field of work is classics",
+   "Allan Sandage's field of work is choreography",
+   "Allan Sandage's field of work is literary theory",
+   "Allan Sandage's field of work is astronomy",
+   "Allan Sandage's field of work is probability theory",
+   "Allan Sandage's field of work is quantum theory",
+   "Allan Sandage's field of work is magnetic field",
+   "Allan Sandage's field of work is quantum mysticism",
+   "Allan Sandage is trigonometry",
+   "Allan Sandage is Minkowski spacetime",
+   "Allan Sandage is physiology",
+   "Allan Sandage is civil rights",
+   "Allan Sandage is theory of relativity",
+   "Allan Sandage is electric field",
+   "Allan Sandage is literary translation",
+   "Allan Sandage is geography",
+   "Allan Sandage is detective literature",
+   "Allan Sandage is hyperbolic geometry",
+   "Allan Sandage is ballet",
+   "Allan Sandage is quantum mechanics",
+   "Allan Sandage is silviculture",
+   "Allan Sandage is study of history",
+   "Allan Sandage is television program",
+   "Allan Sandage is radiation",
+   "Allan Sandage is crystallography",
+   "Allan Sandage is English",
+   "Allan Sandage is comparative mythology",
+   "Allan Sandage is non-Euclidean geometry",
+   "Allan Sandage is education",
+   "Allan Sandage is Sanskrit",
+   "Allan Sandage is astronomer",
+   "Allan Sandage is chemistry",
+   "Allan Sandage is medicine",
+   "Allan Sandage is pedagogy",
+   "Allan Sandage is mythology",
+   "Allan Sandage is harmonic analysis",
+   "Allan Sandage is social anthropology",
+   "Allan Sandage is literature",
+   "Allan Sandage is psychology",
+   "Allan Sandage is aeromechanics",
+   "Allan Sandage is physics",
+   "Allan Sandage is algebraic topology",
+   "Allan Sandage is forestry",
+   "Allan Sandage is magnetism",
+   "Allan Sandage is anthropology",
+   "Allan Sandage is Greek philology",
+   "Allan Sandage is theology",
+   "Allan Sandage is analytic philosophy",
+   "Allan Sandage is computational geometry",
+   "Allan Sandage is graph theory",
+   "Allan Sandage is philosophy of law",
+   "Allan Sandage is ballistics",
+   "Allan Sandage is dance choreography",
+   "Allan Sandage is Lie algebra",
+   "Allan Sandage is histology",
+   "Allan Sandage is complex manifold",
+   "Allan Sandage is history",
+   "Allan Sandage is celestial mechanics",
+   "Allan Sandage is differential geometry",
+   "Allan Sandage is Petrine ministry",
+   "Allan Sandage is dance",
+   "Allan Sandage is String",
+   "Allan Sandage is a branch of physics",
+   "Allan Sandage is mechanical engineering",
+   "Allan Sandage is mathematical logic",
+   "Allan Sandage is geodesy",
+   "Allan Sandage is historical novel",
+   "Allan Sandage is Jewish studies",
+   "Allan Sandage is distribution",
+   "Allan Sandage is Greek",
+   "Allan Sandage is natural science",
+   "Allan Sandage is Hebrew",
+   "Allan Sandage is astrology",
+   "Allan Sandage is group theory",
+   "Allan Sandage is Judaism",
+   "Allan Sandage is model theory",
+   "Allan Sandage is opera",
+   "Allan Sandage is religion",
+   "Allan Sandage is evolution",
+   "Allan Sandage is hunting",
+   "Allan Sandage is nonstandard analysis",
+   "Allan Sandage is applied physics",
+   "Allan Sandage is philosophy",
+   "Allan Sandage is aerodynamics",
+   "Allan Sandage is classical music",
+   "Allan Sandage is biological anthropology",
+   "Allan Sandage is experimental physics",
+   "Allan Sandage is ethnography",
+   "Allan Sandage is geometry",
+   "Allan Sandage is statistics",
+   "Allan Sandage is cosmology",
+   "Allan Sandage is algebra",
+   "Allan Sandage is heat",
+   "Allan Sandage is convex function",
+   "Allan Sandage is applied mathematics",
+   "Allan Sandage is ontology",
+   "Allan Sandage is translations from Occitan",
+   "Allan Sandage is folklore",
+   "Allan Sandage is analytic number theory",
+   "Allan Sandage is astronomical observation",
+   "Allan Sandage is algebraic geometry",
+   "Allan Sandage is history of economic thought",
+   "Allan Sandage is informatics",
+   "Allan Sandage is surgery",
+   "Allan Sandage is Afghanistan",
+   "Allan Sandage is social psychology",
+   "Allan Sandage is sociology",
+   "Allan Sandage is anatomy",
+   "Allan Sandage is neurology",
+   "Allan Sandage is hydrodynamics",
+   "Allan Sandage is sociology of religion",
+   "Allan Sandage is complex function",
+   "Allan Sandage is shipbuilding",
+   "Allan Sandage is electron",
+   "Allan Sandage is African studies",
+   "Allan Sandage is historical sociology",
+   "Allan Sandage is biochemistry",
+   "Allan Sandage is religion and society",
+   "Allan Sandage is cryptography",
+   "Allan Sandage is crime novel",
+   "Allan Sandage is meteorology",
+   "Allan Sandage is mathematical physics",
+   "Allan Sandage is theoretical physics",
+   "Allan Sandage is theory of differential equations",
+   "Allan Sandage is art of painting",
+   "Allan Sandage is essay",
+   "Allan Sandage is human geography",
+   "Allan Sandage is gravity",
+   "Allan Sandage is natural theology",
+   "Allan Sandage is momentum",
+   "Allan Sandage is optics",
+   "Allan Sandage is paleontology",
+   "Allan Sandage is calculus of variations",
+   "Allan Sandage is prose",
+   "Allan Sandage is political philosophy",
+   "Allan Sandage is engineering",
+   "Allan Sandage is children's and youth literature",
+   "Allan Sandage is computer science",
+   "Allan Sandage is philosopher",
+   "Allan Sandage is Bayesian inference",
+   "Allan Sandage is translations from Polish",
+   "Allan Sandage is differential calculus",
+   "Allan Sandage is quantum electrodynamics",
+   "Allan Sandage is ethnology",
+   "Allan Sandage is Internet",
+   "Allan Sandage is economic anthropology",
+   "Allan Sandage is philosophy of science",
+   "Allan Sandage is politics",
+   "Allan Sandage is economics",
+   "Allan Sandage is distribution theory",
+   "Allan Sandage is kinetic theory",
+   "Allan Sandage is sociology of organisations",
+   "Allan Sandage is quaternion",
+   "Allan Sandage is mathematician",
+   "Allan Sandage is social philosophy",
+   "Allan Sandage is forestry science",
+   "Allan Sandage is rite",
+   "Allan Sandage is Monte Carlo method",
+   "Allan Sandage is analytic geometry",
+   "Allan Sandage is electrical engineering",
+   "Allan Sandage is Franciscan spirituality",
+   "Allan Sandage is stochastic",
+   "Allan Sandage is translations from Spanish",
+   "Allan Sandage is world economy",
+   "Allan Sandage is drama",
+   "Allan Sandage is electricity",
+   "Allan Sandage is cybernetics",
+   "Allan Sandage is embryology",
+   "Allan Sandage is linguistics",
+   "Allan Sandage is magnetic resonance",
+   "Allan Sandage is English literature",
+   "Allan Sandage is topology",
+   "Allan Sandage is belletristic literature",
+   "Allan Sandage is mathematical analysis",
+   "Allan Sandage is lyric poetry",
+   "Allan Sandage is projective geometry",
+   "Allan Sandage is Jewish philosophy",
+   "Allan Sandage is myth",
+   "Allan Sandage is ethics",
+   "Allan Sandage is history of religions",
+   "Allan Sandage is logic",
+   "Allan Sandage is comparative religion",
+   "Allan Sandage is functional analysis",
+   "Allan Sandage is astrophysics",
+   "Allan Sandage is partial differential equation",
+   "Allan Sandage is magic",
+   "Allan Sandage is mechanics",
+   "Allan Sandage is electromagnetic field",
+   "Allan Sandage is philology",
+   "Allan Sandage is abstract algebra",
+   "Allan Sandage is translations from Arabic language",
+   "Allan Sandage is ferromagnetism",
+   "Allan Sandage is translations from English",
+   "Allan Sandage is culturology",
+   "Allan Sandage is psychophysiology",
+   "Allan Sandage is nanotechnology",
+   "Allan Sandage is jazz",
+   "Allan Sandage is cartography",
+   "Allan Sandage is physicist",
+   "Allan Sandage is feminism",
+   "Allan Sandage is number theory",
+   "Allan Sandage is radioactivity",
+   "Allan Sandage is constitutional law",
+   "Allan Sandage is economy",
+   "Allan Sandage is positivism",
+   "Allan Sandage is fairy tale",
+   "Allan Sandage is Cairo Geniza",
+   "Allan Sandage is journalism",
+   "Allan Sandage is literary activity",
+   "Allan Sandage is color photography",
+   "Allan Sandage is genetics",
+   "Allan Sandage is Christian Church",
+   "Allan Sandage is mathematics",
+   "Allan Sandage is poetry",
+   "Allan Sandage is nuclear physics",
+   "Allan Sandage is information technology",
+   "Allan Sandage is conducting",
+   "Allan Sandage is quantum physics",
+   "Allan Sandage is history of science",
+   "Allan Sandage is music theory",
+   "Allan Sandage is classics",
+   "Allan Sandage is choreography",
+   "Allan Sandage is literary theory",
+   "Allan Sandage is astronomy",
+   "Allan Sandage is probability theory",
+   "Allan Sandage is quantum theory",
+   "Allan Sandage is magnetic field",
+   "Allan Sandage is quantum mysticism"
+  ],
+  [
+   [
+    -52.50825500488281
+   ],
+   [
+    -55.21192169189453
+   ],
+   [
+    -52.475807189941406
+   ],
+   [
+    -54.86502456665039
+   ],
+   [
+    -52.13589859008789
+   ],
+   [
+    -55.2756462097168
+   ],
+   [
+    -58.2437744140625
+   ],
+   [
+    -49.900814056396484
+   ],
+   [
+    -58.14225769042969
+   ],
+   [
+    -54.351715087890625
+   ],
+   [
+    -55.14384841918945
+   ],
+   [
+    -50.524234771728516
+   ],
+   [
+    -58.85845184326172
+   ],
+   [
+    -56.547515869140625
+   ],
+   [
+    -57.98448944091797
+   ],
+   [
+    -48.97207260131836
+   ],
+   [
+    -51.537567138671875
+   ],
+   [
+    -52.039127349853516
+   ],
+   [
+    -55.822410583496094
+   ],
+   [
+    -54.124107360839844
+   ],
+   [
+    -50.88274002075195
+   ],
+   [
+    -53.68476104736328
+   ],
+   [
+    -50.357852935791016
+   ],
+   [
+    -50.59311294555664
+   ],
+   [
+    -52.42312240600586
+   ],
+   [
+    -53.84825134277344
+   ],
+   [
+    -51.90970230102539
+   ],
+   [
+    -53.97734451293945
+   ],
+   [
+    -54.483516693115234
+   ],
+   [
+    -51.813358306884766
+   ],
+   [
+    -52.168582916259766
+   ],
+   [
+    -56.22941970825195
+   ],
+   [
+    -46.624267578125
+   ],
+   [
+    -57.473365783691406
+   ],
+   [
+    -53.876522064208984
+   ],
+   [
+    -53.96524429321289
+   ],
+   [
+    -51.50413513183594
+   ],
+   [
+    -58.76698684692383
+   ],
+   [
+    -52.02700424194336
+   ],
+   [
+    -54.41825866699219
+   ],
+   [
+    -52.76295852661133
+   ],
+   [
+    -52.59068298339844
+   ],
+   [
+    -56.971961975097656
+   ],
+   [
+    -51.597679138183594
+   ],
+   [
+    -60.32185363769531
+   ],
+   [
+    -56.4747428894043
+   ],
+   [
+    -52.971614837646484
+   ],
+   [
+    -59.734188079833984
+   ],
+   [
+    -47.69956588745117
+   ],
+   [
+    -47.03691864013672
+   ],
+   [
+    -51.823787689208984
+   ],
+   [
+    -70.02243041992188
+   ],
+   [
+    -54.64228057861328
+   ],
+   [
+    -52.762840270996094
+   ],
+   [
+    -52.14979934692383
+   ],
+   [
+    -49.95167922973633
+   ],
+   [
+    -58.17532730102539
+   ],
+   [
+    -50.21588134765625
+   ],
+   [
+    -57.14979934692383
+   ],
+   [
+    -53.65293502807617
+   ],
+   [
+    -50.63544845581055
+   ],
+   [
+    -52.93101501464844
+   ],
+   [
+    -53.562862396240234
+   ],
+   [
+    -52.28737258911133
+   ],
+   [
+    -50.29935836791992
+   ],
+   [
+    -51.37540054321289
+   ],
+   [
+    -53.20621109008789
+   ],
+   [
+    -55.31472396850586
+   ],
+   [
+    -52.739051818847656
+   ],
+   [
+    -50.73624038696289
+   ],
+   [
+    -46.479190826416016
+   ],
+   [
+    -50.940185546875
+   ],
+   [
+    -57.279823303222656
+   ],
+   [
+    -50.41140365600586
+   ],
+   [
+    -50.25067138671875
+   ],
+   [
+    -51.13335037231445
+   ],
+   [
+    -57.85379409790039
+   ],
+   [
+    -56.53925704956055
+   ],
+   [
+    -51.65511703491211
+   ],
+   [
+    -54.426475524902344
+   ],
+   [
+    -50.02318572998047
+   ],
+   [
+    -48.582889556884766
+   ],
+   [
+    -43.10655212402344
+   ],
+   [
+    -52.61500930786133
+   ],
+   [
+    -54.9354248046875
+   ],
+   [
+    -59.761009216308594
+   ],
+   [
+    -49.94178009033203
+   ],
+   [
+    -52.99549865722656
+   ],
+   [
+    -68.05667114257812
+   ],
+   [
+    -54.13807678222656
+   ],
+   [
+    -51.98501968383789
+   ],
+   [
+    -50.67658615112305
+   ],
+   [
+    -54.321903228759766
+   ],
+   [
+    -56.136680603027344
+   ],
+   [
+    -53.570213317871094
+   ],
+   [
+    -53.65073776245117
+   ],
+   [
+    -54.80009841918945
+   ],
+   [
+    -52.19443130493164
+   ],
+   [
+    -51.5367546081543
+   ],
+   [
+    -50.44102096557617
+   ],
+   [
+    -53.84001159667969
+   ],
+   [
+    -51.51398849487305
+   ],
+   [
+    -54.42573165893555
+   ],
+   [
+    -60.875484466552734
+   ],
+   [
+    -53.621368408203125
+   ],
+   [
+    -50.45119094848633
+   ],
+   [
+    -54.91666793823242
+   ],
+   [
+    -56.92552185058594
+   ],
+   [
+    -51.76679992675781
+   ],
+   [
+    -55.730255126953125
+   ],
+   [
+    -52.01504898071289
+   ],
+   [
+    -59.970462799072266
+   ],
+   [
+    -50.16623306274414
+   ],
+   [
+    -52.110652923583984
+   ],
+   [
+    -48.500492095947266
+   ],
+   [
+    -56.36460876464844
+   ],
+   [
+    -60.13540267944336
+   ],
+   [
+    -52.759376525878906
+   ],
+   [
+    -52.392478942871094
+   ],
+   [
+    -50.7696418762207
+   ],
+   [
+    -55.73695373535156
+   ],
+   [
+    -52.937286376953125
+   ],
+   [
+    -47.01936721801758
+   ],
+   [
+    -52.048866271972656
+   ],
+   [
+    -54.596309661865234
+   ],
+   [
+    -56.806739807128906
+   ],
+   [
+    -53.62550735473633
+   ],
+   [
+    -48.933876037597656
+   ],
+   [
+    -59.63679504394531
+   ],
+   [
+    -50.704837799072266
+   ],
+   [
+    -54.31893539428711
+   ],
+   [
+    -53.40288543701172
+   ],
+   [
+    -62.82157897949219
+   ],
+   [
+    -56.79515838623047
+   ],
+   [
+    -52.091583251953125
+   ],
+   [
+    -54.24516296386719
+   ],
+   [
+    -53.83884811401367
+   ],
+   [
+    -56.149085998535156
+   ],
+   [
+    -51.28995895385742
+   ],
+   [
+    -51.54419708251953
+   ],
+   [
+    -50.1184196472168
+   ],
+   [
+    -54.429359436035156
+   ],
+   [
+    -55.21500778198242
+   ],
+   [
+    -61.702537536621094
+   ],
+   [
+    -58.05274963378906
+   ],
+   [
+    -57.67378234863281
+   ],
+   [
+    -56.47917938232422
+   ],
+   [
+    -58.77699279785156
+   ],
+   [
+    -58.736629486083984
+   ],
+   [
+    -57.21204376220703
+   ],
+   [
+    -54.507598876953125
+   ],
+   [
+    -49.85335159301758
+   ],
+   [
+    -60.091407775878906
+   ],
+   [
+    -49.670841217041016
+   ],
+   [
+    -61.531368255615234
+   ],
+   [
+    -59.58839797973633
+   ],
+   [
+    -55.04555892944336
+   ],
+   [
+    -51.61851119995117
+   ],
+   [
+    -53.512901306152344
+   ],
+   [
+    -52.822792053222656
+   ],
+   [
+    -53.40386199951172
+   ],
+   [
+    -55.556541442871094
+   ],
+   [
+    -53.57038497924805
+   ],
+   [
+    -52.342342376708984
+   ],
+   [
+    -59.9557991027832
+   ],
+   [
+    -53.815486907958984
+   ],
+   [
+    -54.070438385009766
+   ],
+   [
+    -51.83224868774414
+   ],
+   [
+    -55.98508071899414
+   ],
+   [
+    -51.630611419677734
+   ],
+   [
+    -52.553409576416016
+   ],
+   [
+    -55.28645324707031
+   ],
+   [
+    -52.39352035522461
+   ],
+   [
+    -54.72031784057617
+   ],
+   [
+    -53.603248596191406
+   ],
+   [
+    -43.14871597290039
+   ],
+   [
+    -58.01581573486328
+   ],
+   [
+    -53.41039276123047
+   ],
+   [
+    -50.255367279052734
+   ],
+   [
+    -54.756595611572266
+   ],
+   [
+    -52.203636169433594
+   ],
+   [
+    -54.662132263183594
+   ],
+   [
+    -67.91210174560547
+   ],
+   [
+    -55.757781982421875
+   ],
+   [
+    -60.55031967163086
+   ],
+   [
+    -56.13401794433594
+   ],
+   [
+    -56.92700958251953
+   ],
+   [
+    -52.437660217285156
+   ],
+   [
+    -53.617610931396484
+   ],
+   [
+    -50.30073165893555
+   ],
+   [
+    -52.110572814941406
+   ],
+   [
+    -56.284610748291016
+   ],
+   [
+    -47.728729248046875
+   ],
+   [
+    -53.67510986328125
+   ],
+   [
+    -51.05186080932617
+   ],
+   [
+    -54.14905548095703
+   ],
+   [
+    -55.86819839477539
+   ],
+   [
+    -58.67529296875
+   ],
+   [
+    -66.61698150634766
+   ],
+   [
+    -50.41493606567383
+   ],
+   [
+    -62.3734245300293
+   ],
+   [
+    -52.98677062988281
+   ],
+   [
+    -50.37666702270508
+   ],
+   [
+    -56.9842529296875
+   ],
+   [
+    -50.2052116394043
+   ],
+   [
+    -53.471073150634766
+   ],
+   [
+    -48.74555206298828
+   ],
+   [
+    -51.320255279541016
+   ],
+   [
+    -50.93942642211914
+   ],
+   [
+    -50.970497131347656
+   ],
+   [
+    -49.59474182128906
+   ],
+   [
+    -55.167789459228516
+   ],
+   [
+    -52.83528137207031
+   ],
+   [
+    -55.19090270996094
+   ],
+   [
+    -56.23486328125
+   ],
+   [
+    -42.64784622192383
+   ],
+   [
+    -52.70469284057617
+   ],
+   [
+    -51.551937103271484
+   ],
+   [
+    -54.3376579284668
+   ],
+   [
+    -59.343910217285156
+   ],
+   [
+    -41.23857879638672
+   ],
+   [
+    -49.625099182128906
+   ],
+   [
+    -40.414329528808594
+   ],
+   [
+    -39.13792419433594
+   ],
+   [
+    -41.16510009765625
+   ],
+   [
+    -43.431739807128906
+   ],
+   [
+    -45.10797119140625
+   ],
+   [
+    -39.05268096923828
+   ],
+   [
+    -48.69855499267578
+   ],
+   [
+    -47.39396667480469
+   ],
+   [
+    -38.724884033203125
+   ],
+   [
+    -39.00907897949219
+   ],
+   [
+    -44.778160095214844
+   ],
+   [
+    -43.53104019165039
+   ],
+   [
+    -42.538734436035156
+   ],
+   [
+    -36.68720245361328
+   ],
+   [
+    -40.69989013671875
+   ],
+   [
+    -35.05756378173828
+   ],
+   [
+    -44.041744232177734
+   ],
+   [
+    -44.57906723022461
+   ],
+   [
+    -36.21258544921875
+   ],
+   [
+    -38.114830017089844
+   ],
+   [
+    -33.088558197021484
+   ],
+   [
+    -36.434776306152344
+   ],
+   [
+    -38.20250701904297
+   ],
+   [
+    -42.48043441772461
+   ],
+   [
+    -39.45786666870117
+   ],
+   [
+    -42.55717086791992
+   ],
+   [
+    -43.06649398803711
+   ],
+   [
+    -37.52824401855469
+   ],
+   [
+    -38.04154586791992
+   ],
+   [
+    -44.18964767456055
+   ],
+   [
+    -34.21471405029297
+   ],
+   [
+    -45.48319625854492
+   ],
+   [
+    -39.12901306152344
+   ],
+   [
+    -40.97109603881836
+   ],
+   [
+    -37.03586196899414
+   ],
+   [
+    -46.123470306396484
+   ],
+   [
+    -38.137779235839844
+   ],
+   [
+    -41.786922454833984
+   ],
+   [
+    -44.83476257324219
+   ],
+   [
+    -43.97734451293945
+   ],
+   [
+    -44.65376281738281
+   ],
+   [
+    -40.70270538330078
+   ],
+   [
+    -46.01203536987305
+   ],
+   [
+    -46.970428466796875
+   ],
+   [
+    -42.06352233886719
+   ],
+   [
+    -48.51519775390625
+   ],
+   [
+    -33.743377685546875
+   ],
+   [
+    -40.01203918457031
+   ],
+   [
+    -43.69528579711914
+   ],
+   [
+    -56.21883010864258
+   ],
+   [
+    -37.09388732910156
+   ],
+   [
+    -36.665748596191406
+   ],
+   [
+    -41.4095573425293
+   ],
+   [
+    -38.72323989868164
+   ],
+   [
+    -42.94722366333008
+   ],
+   [
+    -41.01695251464844
+   ],
+   [
+    -40.70299530029297
+   ],
+   [
+    -40.271995544433594
+   ],
+   [
+    -39.435951232910156
+   ],
+   [
+    -38.017982482910156
+   ],
+   [
+    -39.20390319824219
+   ],
+   [
+    -36.273216247558594
+   ],
+   [
+    -38.23276901245117
+   ],
+   [
+    -45.200035095214844
+   ],
+   [
+    -39.97275161743164
+   ],
+   [
+    -47.464378356933594
+   ],
+   [
+    -35.8072509765625
+   ],
+   [
+    -36.85417938232422
+   ],
+   [
+    -37.22331237792969
+   ],
+   [
+    -35.06494903564453
+   ],
+   [
+    -48.64149475097656
+   ],
+   [
+    -39.03778839111328
+   ],
+   [
+    -35.93707275390625
+   ],
+   [
+    -40.083465576171875
+   ],
+   [
+    -39.038658142089844
+   ],
+   [
+    -42.08745574951172
+   ],
+   [
+    -41.17914581298828
+   ],
+   [
+    -41.905120849609375
+   ],
+   [
+    -38.59282684326172
+   ],
+   [
+    -37.43168640136719
+   ],
+   [
+    -36.75014877319336
+   ],
+   [
+    -39.066917419433594
+   ],
+   [
+    -39.986534118652344
+   ],
+   [
+    -45.988948822021484
+   ],
+   [
+    -38.884613037109375
+   ],
+   [
+    -39.96872329711914
+   ],
+   [
+    -53.82953643798828
+   ],
+   [
+    -39.80487823486328
+   ],
+   [
+    -42.43939208984375
+   ],
+   [
+    -44.34730529785156
+   ],
+   [
+    -42.246822357177734
+   ],
+   [
+    -47.8175163269043
+   ],
+   [
+    -41.262454986572266
+   ],
+   [
+    -38.86050033569336
+   ],
+   [
+    -39.29385757446289
+   ],
+   [
+    -41.122314453125
+   ],
+   [
+    -38.62550354003906
+   ],
+   [
+    -37.931785583496094
+   ],
+   [
+    -40.28460693359375
+   ],
+   [
+    -42.03300476074219
+   ],
+   [
+    -45.11016845703125
+   ],
+   [
+    -49.335845947265625
+   ],
+   [
+    -41.342506408691406
+   ],
+   [
+    -35.961692810058594
+   ],
+   [
+    -43.105709075927734
+   ],
+   [
+    -43.92981719970703
+   ],
+   [
+    -38.744483947753906
+   ],
+   [
+    -42.66749572753906
+   ],
+   [
+    -41.936988830566406
+   ],
+   [
+    -41.1104736328125
+   ],
+   [
+    -37.82792282104492
+   ],
+   [
+    -39.76020431518555
+   ],
+   [
+    -40.90835189819336
+   ],
+   [
+    -46.84787368774414
+   ],
+   [
+    -46.9130973815918
+   ],
+   [
+    -36.02735900878906
+   ],
+   [
+    -43.132286071777344
+   ],
+   [
+    -37.314430236816406
+   ],
+   [
+    -44.49853515625
+   ],
+   [
+    -39.68543243408203
+   ],
+   [
+    -39.94533920288086
+   ],
+   [
+    -37.38640594482422
+   ],
+   [
+    -46.8824348449707
+   ],
+   [
+    -38.88065719604492
+   ],
+   [
+    -41.942138671875
+   ],
+   [
+    -35.678955078125
+   ],
+   [
+    -49.52653503417969
+   ],
+   [
+    -36.7447509765625
+   ],
+   [
+    -35.416038513183594
+   ],
+   [
+    -46.147621154785156
+   ],
+   [
+    -48.93254089355469
+   ],
+   [
+    -45.12662887573242
+   ],
+   [
+    -42.68121337890625
+   ],
+   [
+    -42.10112762451172
+   ],
+   [
+    -36.88134765625
+   ],
+   [
+    -44.028564453125
+   ],
+   [
+    -39.49549102783203
+   ],
+   [
+    -37.460838317871094
+   ],
+   [
+    -35.94358825683594
+   ],
+   [
+    -47.99591064453125
+   ],
+   [
+    -44.17454147338867
+   ],
+   [
+    -54.634037017822266
+   ],
+   [
+    -40.43893814086914
+   ],
+   [
+    -34.42497634887695
+   ],
+   [
+    -45.09495544433594
+   ],
+   [
+    -44.854034423828125
+   ],
+   [
+    -40.7066535949707
+   ],
+   [
+    -44.24247741699219
+   ],
+   [
+    -44.10334014892578
+   ],
+   [
+    -38.2782096862793
+   ],
+   [
+    -53.924739837646484
+   ],
+   [
+    -40.85694122314453
+   ],
+   [
+    -47.378814697265625
+   ],
+   [
+    -44.40401840209961
+   ],
+   [
+    -37.761329650878906
+   ],
+   [
+    -39.522705078125
+   ],
+   [
+    -39.56342697143555
+   ],
+   [
+    -42.99267578125
+   ],
+   [
+    -39.506805419921875
+   ],
+   [
+    -43.19548416137695
+   ],
+   [
+    -40.5932502746582
+   ],
+   [
+    -39.32048034667969
+   ],
+   [
+    -49.35618591308594
+   ],
+   [
+    -42.71876525878906
+   ],
+   [
+    -44.784156799316406
+   ],
+   [
+    -42.70704650878906
+   ],
+   [
+    -44.024070739746094
+   ],
+   [
+    -35.32722473144531
+   ],
+   [
+    -38.767669677734375
+   ],
+   [
+    -45.76402282714844
+   ],
+   [
+    -37.83380889892578
+   ],
+   [
+    -42.5836296081543
+   ],
+   [
+    -42.573204040527344
+   ],
+   [
+    -34.66455078125
+   ],
+   [
+    -44.54862976074219
+   ],
+   [
+    -36.37303924560547
+   ],
+   [
+    -41.07245635986328
+   ],
+   [
+    -41.243568420410156
+   ],
+   [
+    -41.57384490966797
+   ],
+   [
+    -45.39042663574219
+   ],
+   [
+    -54.977081298828125
+   ],
+   [
+    -46.39018249511719
+   ],
+   [
+    -47.54442596435547
+   ],
+   [
+    -46.86164855957031
+   ],
+   [
+    -45.582679748535156
+   ],
+   [
+    -38.81964874267578
+   ],
+   [
+    -35.1204833984375
+   ],
+   [
+    -39.0699577331543
+   ],
+   [
+    -32.902000427246094
+   ],
+   [
+    -41.536643981933594
+   ],
+   [
+    -42.45691680908203
+   ],
+   [
+    -43.78857421875
+   ],
+   [
+    -39.560089111328125
+   ],
+   [
+    -38.32788848876953
+   ],
+   [
+    -41.22149658203125
+   ],
+   [
+    -41.994911193847656
+   ],
+   [
+    -53.40153884887695
+   ],
+   [
+    -38.15835952758789
+   ],
+   [
+    -47.16924285888672
+   ],
+   [
+    -43.13215255737305
+   ],
+   [
+    -39.624908447265625
+   ],
+   [
+    -40.1780891418457
+   ],
+   [
+    -35.053466796875
+   ],
+   [
+    -36.51399230957031
+   ],
+   [
+    -39.828250885009766
+   ],
+   [
+    -37.59148025512695
+   ],
+   [
+    -31.063962936401367
+   ],
+   [
+    -39.72846221923828
+   ],
+   [
+    -37.67539596557617
+   ],
+   [
+    -40.4556884765625
+   ],
+   [
+    -36.397438049316406
+   ],
+   [
+    -42.76388931274414
+   ],
+   [
+    -44.74502182006836
+   ],
+   [
+    -36.049537658691406
+   ],
+   [
+    -41.887451171875
+   ],
+   [
+    -40.59050750732422
+   ],
+   [
+    -40.91318130493164
+   ],
+   [
+    -46.095924377441406
+   ]
+  ]
+ ],
+ "time": 680.4743666648865
+}

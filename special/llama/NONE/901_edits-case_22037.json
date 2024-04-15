@@ -1,0 +1,2076 @@
+{
+ "case_id": 22037,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Edward Condon"
+ },
+ "pre": [
+  [
+   "Edward Condon's field of work is abstract algebra",
+   "Edward Condon's field of work is theology",
+   "Edward Condon's field of work is television program",
+   "Edward Condon's field of work is nanotechnology",
+   "Edward Condon's field of work is hydrodynamics",
+   "Edward Condon's field of work is ethics",
+   "Edward Condon's field of work is physicist",
+   "Edward Condon's field of work is evolution",
+   "Edward Condon's field of work is distribution theory",
+   "Edward Condon's field of work is psychophysiology",
+   "Edward Condon's field of work is English literature",
+   "Edward Condon's field of work is theoretical physics",
+   "Edward Condon's field of work is essay",
+   "Edward Condon's field of work is ethnology",
+   "Edward Condon's field of work is pedagogy",
+   "Edward Condon's field of work is kinetic theory",
+   "Edward Condon's field of work is ethnography",
+   "Edward Condon's field of work is rite",
+   "Edward Condon's field of work is economics",
+   "Edward Condon's field of work is dance choreography",
+   "Edward Condon's field of work is biological anthropology",
+   "Edward Condon's field of work is history of religions",
+   "Edward Condon's field of work is political philosophy",
+   "Edward Condon's field of work is philosophy",
+   "Edward Condon's field of work is linguistics",
+   "Edward Condon's field of work is cosmology",
+   "Edward Condon's field of work is hunting",
+   "Edward Condon's field of work is Minkowski spacetime",
+   "Edward Condon's field of work is classical music",
+   "Edward Condon's field of work is hyperbolic geometry",
+   "Edward Condon's field of work is radioactivity",
+   "Edward Condon's field of work is belletristic literature",
+   "Edward Condon's field of work is model theory",
+   "Edward Condon's field of work is choreography",
+   "Edward Condon's field of work is chemistry",
+   "Edward Condon's field of work is literary activity",
+   "Edward Condon's field of work is historical sociology",
+   "Edward Condon's field of work is feminism",
+   "Edward Condon's field of work is economy",
+   "Edward Condon's field of work is astronomy",
+   "Edward Condon's field of work is topology",
+   "Edward Condon's field of work is translations from English",
+   "Edward Condon's field of work is partial differential equation",
+   "Edward Condon's field of work is Cairo Geniza",
+   "Edward Condon's field of work is nuclear physics",
+   "Edward Condon's field of work is dance",
+   "Edward Condon's field of work is informatics",
+   "Edward Condon's field of work is geometry",
+   "Edward Condon's field of work is computational geometry",
+   "Edward Condon's field of work is Sanskrit",
+   "Edward Condon's field of work is magnetism",
+   "Edward Condon's field of work is opera",
+   "Edward Condon's field of work is algebraic topology",
+   "Edward Condon's field of work is quaternion",
+   "Edward Condon's field of work is Bayesian inference",
+   "Edward Condon's field of work is quantum electrodynamics",
+   "Edward Condon's field of work is religion and society",
+   "Edward Condon's field of work is history of economic thought",
+   "Edward Condon's field of work is translations from Polish",
+   "Edward Condon's field of work is literary translation",
+   "Edward Condon's field of work is lyric poetry",
+   "Edward Condon's field of work is probability theory",
+   "Edward Condon's field of work is ontology",
+   "Edward Condon's field of work is aerodynamics",
+   "Edward Condon's field of work is crystallography",
+   "Edward Condon's field of work is mathematics",
+   "Edward Condon's field of work is harmonic analysis",
+   "Edward Condon's field of work is history of science",
+   "Edward Condon's field of work is philosophy of law",
+   "Edward Condon's field of work is philology",
+   "Edward Condon's field of work is optics",
+   "Edward Condon's field of work is functional analysis",
+   "Edward Condon's field of work is surgery",
+   "Edward Condon's field of work is complex function",
+   "Edward Condon's field of work is Jewish philosophy",
+   "Edward Condon's field of work is translations from Spanish",
+   "Edward Condon's field of work is poetry",
+   "Edward Condon's field of work is distribution",
+   "Edward Condon's field of work is astrology",
+   "Edward Condon's field of work is differential geometry",
+   "Edward Condon's field of work is mechanics",
+   "Edward Condon's field of work is positivism",
+   "Edward Condon's field of work is ferromagnetism",
+   "Edward Condon's field of work is quantum physics",
+   "Edward Condon's field of work is music theory",
+   "Edward Condon's field of work is physiology",
+   "Edward Condon's field of work is theory of differential equations",
+   "Edward Condon's field of work is astrophysics",
+   "Edward Condon's field of work is number theory",
+   "Edward Condon's field of work is magnetic field",
+   "Edward Condon's field of work is historical novel",
+   "Edward Condon's field of work is stochastic",
+   "Edward Condon's field of work is philosopher",
+   "Edward Condon's field of work is histology",
+   "Edward Condon's field of work is Franciscan spirituality",
+   "Edward Condon's field of work is electromagnetic field",
+   "Edward Condon's field of work is medicine",
+   "Edward Condon's field of work is algebraic geometry",
+   "Edward Condon's field of work is comparative mythology",
+   "Edward Condon's field of work is color photography",
+   "Edward Condon's field of work is cryptography",
+   "Edward Condon's field of work is Christian Church",
+   "Edward Condon's field of work is electrical engineering",
+   "Edward Condon's field of work is folklore",
+   "Edward Condon's field of work is mythology",
+   "Edward Condon's field of work is human geography",
+   "Edward Condon's field of work is Petrine ministry",
+   "Edward Condon's field of work is Judaism",
+   "Edward Condon's field of work is group theory",
+   "Edward Condon's field of work is non-Euclidean geometry",
+   "Edward Condon's field of work is algebra",
+   "Edward Condon's field of work is ballistics",
+   "Edward Condon's field of work is mathematician",
+   "Edward Condon's field of work is applied physics",
+   "Edward Condon's field of work is culturology",
+   "Edward Condon's field of work is calculus of variations",
+   "Edward Condon's field of work is logic",
+   "Edward Condon's field of work is engineering",
+   "Edward Condon's field of work is translations from Occitan",
+   "Edward Condon's field of work is anatomy",
+   "Edward Condon's field of work is forestry science",
+   "Edward Condon's field of work is magic",
+   "Edward Condon's field of work is quantum mechanics",
+   "Edward Condon's field of work is differential calculus",
+   "Edward Condon's field of work is shipbuilding",
+   "Edward Condon's field of work is convex function",
+   "Edward Condon's field of work is analytic philosophy",
+   "Edward Condon's field of work is magnetic resonance",
+   "Edward Condon's field of work is detective literature",
+   "Edward Condon's field of work is cartography",
+   "Edward Condon's field of work is sociology of organisations",
+   "Edward Condon's field of work is crime novel",
+   "Edward Condon's field of work is gravity",
+   "Edward Condon's field of work is statistics",
+   "Edward Condon's field of work is Greek philology",
+   "Edward Condon's field of work is analytic number theory",
+   "Edward Condon's field of work is trigonometry",
+   "Edward Condon's field of work is physics",
+   "Edward Condon's field of work is astronomer",
+   "Edward Condon's field of work is natural science",
+   "Edward Condon's field of work is information technology",
+   "Edward Condon's field of work is conducting",
+   "Edward Condon's field of work is nonstandard analysis",
+   "Edward Condon's field of work is mathematical analysis",
+   "Edward Condon's field of work is a branch of physics",
+   "Edward Condon's field of work is projective geometry",
+   "Edward Condon's field of work is civil rights",
+   "Edward Condon's field of work is children's and youth literature",
+   "Edward Condon's field of work is embryology",
+   "Edward Condon's field of work is momentum",
+   "Edward Condon's field of work is African studies",
+   "Edward Condon's field of work is fairy tale",
+   "Edward Condon's field of work is classics",
+   "Edward Condon's field of work is social psychology",
+   "Edward Condon's field of work is Jewish studies",
+   "Edward Condon's field of work is silviculture",
+   "Edward Condon's field of work is education",
+   "Edward Condon's field of work is literature",
+   "Edward Condon's field of work is constitutional law",
+   "Edward Condon's field of work is radiation",
+   "Edward Condon's field of work is Internet",
+   "Edward Condon's field of work is heat",
+   "Edward Condon's field of work is mechanical engineering",
+   "Edward Condon's field of work is forestry",
+   "Edward Condon's field of work is jazz",
+   "Edward Condon's field of work is social philosophy",
+   "Edward Condon's field of work is mathematical physics",
+   "Edward Condon's field of work is meteorology",
+   "Edward Condon's field of work is translations from Arabic language",
+   "Edward Condon's field of work is quantum mysticism",
+   "Edward Condon's field of work is politics",
+   "Edward Condon's field of work is astronomical observation",
+   "Edward Condon's field of work is myth",
+   "Edward Condon's field of work is geography",
+   "Edward Condon's field of work is sociology of religion",
+   "Edward Condon's field of work is comparative religion",
+   "Edward Condon's field of work is Greek",
+   "Edward Condon's field of work is Lie algebra",
+   "Edward Condon's field of work is complex manifold",
+   "Edward Condon's field of work is journalism",
+   "Edward Condon's field of work is celestial mechanics",
+   "Edward Condon's field of work is String",
+   "Edward Condon's field of work is mathematical logic",
+   "Edward Condon's field of work is aeromechanics",
+   "Edward Condon's field of work is English",
+   "Edward Condon's field of work is history",
+   "Edward Condon's field of work is study of history",
+   "Edward Condon's field of work is genetics",
+   "Edward Condon's field of work is psychology",
+   "Edward Condon's field of work is theory of relativity",
+   "Edward Condon's field of work is biochemistry",
+   "Edward Condon's field of work is ballet",
+   "Edward Condon's field of work is electricity",
+   "Edward Condon's field of work is experimental physics",
+   "Edward Condon's field of work is natural theology",
+   "Edward Condon's field of work is Hebrew",
+   "Edward Condon's field of work is prose",
+   "Edward Condon's field of work is paleontology",
+   "Edward Condon's field of work is Monte Carlo method",
+   "Edward Condon's field of work is quantum theory",
+   "Edward Condon's field of work is computer science",
+   "Edward Condon's field of work is cybernetics",
+   "Edward Condon's field of work is Afghanistan",
+   "Edward Condon's field of work is philosophy of science",
+   "Edward Condon's field of work is literary theory",
+   "Edward Condon's field of work is electric field",
+   "Edward Condon's field of work is religion",
+   "Edward Condon's field of work is analytic geometry",
+   "Edward Condon's field of work is graph theory",
+   "Edward Condon's field of work is electron",
+   "Edward Condon's field of work is anthropology",
+   "Edward Condon's field of work is social anthropology",
+   "Edward Condon's field of work is sociology",
+   "Edward Condon's field of work is geodesy",
+   "Edward Condon's field of work is neurology",
+   "Edward Condon's field of work is drama",
+   "Edward Condon's field of work is art of painting",
+   "Edward Condon's field of work is applied mathematics",
+   "Edward Condon's field of work is world economy",
+   "Edward Condon's field of work is economic anthropology",
+   "Edward Condon is abstract algebra",
+   "Edward Condon is theology",
+   "Edward Condon is television program",
+   "Edward Condon is nanotechnology",
+   "Edward Condon is hydrodynamics",
+   "Edward Condon is ethics",
+   "Edward Condon is physicist",
+   "Edward Condon is evolution",
+   "Edward Condon is distribution theory",
+   "Edward Condon is psychophysiology",
+   "Edward Condon is English literature",
+   "Edward Condon is theoretical physics",
+   "Edward Condon is essay",
+   "Edward Condon is ethnology",
+   "Edward Condon is pedagogy",
+   "Edward Condon is kinetic theory",
+   "Edward Condon is ethnography",
+   "Edward Condon is rite",
+   "Edward Condon is economics",
+   "Edward Condon is dance choreography",
+   "Edward Condon is biological anthropology",
+   "Edward Condon is history of religions",
+   "Edward Condon is political philosophy",
+   "Edward Condon is philosophy",
+   "Edward Condon is linguistics",
+   "Edward Condon is cosmology",
+   "Edward Condon is hunting",
+   "Edward Condon is Minkowski spacetime",
+   "Edward Condon is classical music",
+   "Edward Condon is hyperbolic geometry",
+   "Edward Condon is radioactivity",
+   "Edward Condon is belletristic literature",
+   "Edward Condon is model theory",
+   "Edward Condon is choreography",
+   "Edward Condon is chemistry",
+   "Edward Condon is literary activity",
+   "Edward Condon is historical sociology",
+   "Edward Condon is feminism",
+   "Edward Condon is economy",
+   "Edward Condon is astronomy",
+   "Edward Condon is topology",
+   "Edward Condon is translations from English",
+   "Edward Condon is partial differential equation",
+   "Edward Condon is Cairo Geniza",
+   "Edward Condon is nuclear physics",
+   "Edward Condon is dance",
+   "Edward Condon is informatics",
+   "Edward Condon is geometry",
+   "Edward Condon is computational geometry",
+   "Edward Condon is Sanskrit",
+   "Edward Condon is magnetism",
+   "Edward Condon is opera",
+   "Edward Condon is algebraic topology",
+   "Edward Condon is quaternion",
+   "Edward Condon is Bayesian inference",
+   "Edward Condon is quantum electrodynamics",
+   "Edward Condon is religion and society",
+   "Edward Condon is history of economic thought",
+   "Edward Condon is translations from Polish",
+   "Edward Condon is literary translation",
+   "Edward Condon is lyric poetry",
+   "Edward Condon is probability theory",
+   "Edward Condon is ontology",
+   "Edward Condon is aerodynamics",
+   "Edward Condon is crystallography",
+   "Edward Condon is mathematics",
+   "Edward Condon is harmonic analysis",
+   "Edward Condon is history of science",
+   "Edward Condon is philosophy of law",
+   "Edward Condon is philology",
+   "Edward Condon is optics",
+   "Edward Condon is functional analysis",
+   "Edward Condon is surgery",
+   "Edward Condon is complex function",
+   "Edward Condon is Jewish philosophy",
+   "Edward Condon is translations from Spanish",
+   "Edward Condon is poetry",
+   "Edward Condon is distribution",
+   "Edward Condon is astrology",
+   "Edward Condon is differential geometry",
+   "Edward Condon is mechanics",
+   "Edward Condon is positivism",
+   "Edward Condon is ferromagnetism",
+   "Edward Condon is quantum physics",
+   "Edward Condon is music theory",
+   "Edward Condon is physiology",
+   "Edward Condon is theory of differential equations",
+   "Edward Condon is astrophysics",
+   "Edward Condon is number theory",
+   "Edward Condon is magnetic field",
+   "Edward Condon is historical novel",
+   "Edward Condon is stochastic",
+   "Edward Condon is philosopher",
+   "Edward Condon is histology",
+   "Edward Condon is Franciscan spirituality",
+   "Edward Condon is electromagnetic field",
+   "Edward Condon is medicine",
+   "Edward Condon is algebraic geometry",
+   "Edward Condon is comparative mythology",
+   "Edward Condon is color photography",
+   "Edward Condon is cryptography",
+   "Edward Condon is Christian Church",
+   "Edward Condon is electrical engineering",
+   "Edward Condon is folklore",
+   "Edward Condon is mythology",
+   "Edward Condon is human geography",
+   "Edward Condon is Petrine ministry",
+   "Edward Condon is Judaism",
+   "Edward Condon is group theory",
+   "Edward Condon is non-Euclidean geometry",
+   "Edward Condon is algebra",
+   "Edward Condon is ballistics",
+   "Edward Condon is mathematician",
+   "Edward Condon is applied physics",
+   "Edward Condon is culturology",
+   "Edward Condon is calculus of variations",
+   "Edward Condon is logic",
+   "Edward Condon is engineering",
+   "Edward Condon is translations from Occitan",
+   "Edward Condon is anatomy",
+   "Edward Condon is forestry science",
+   "Edward Condon is magic",
+   "Edward Condon is quantum mechanics",
+   "Edward Condon is differential calculus",
+   "Edward Condon is shipbuilding",
+   "Edward Condon is convex function",
+   "Edward Condon is analytic philosophy",
+   "Edward Condon is magnetic resonance",
+   "Edward Condon is detective literature",
+   "Edward Condon is cartography",
+   "Edward Condon is sociology of organisations",
+   "Edward Condon is crime novel",
+   "Edward Condon is gravity",
+   "Edward Condon is statistics",
+   "Edward Condon is Greek philology",
+   "Edward Condon is analytic number theory",
+   "Edward Condon is trigonometry",
+   "Edward Condon is physics",
+   "Edward Condon is astronomer",
+   "Edward Condon is natural science",
+   "Edward Condon is information technology",
+   "Edward Condon is conducting",
+   "Edward Condon is nonstandard analysis",
+   "Edward Condon is mathematical analysis",
+   "Edward Condon is a branch of physics",
+   "Edward Condon is projective geometry",
+   "Edward Condon is civil rights",
+   "Edward Condon is children's and youth literature",
+   "Edward Condon is embryology",
+   "Edward Condon is momentum",
+   "Edward Condon is African studies",
+   "Edward Condon is fairy tale",
+   "Edward Condon is classics",
+   "Edward Condon is social psychology",
+   "Edward Condon is Jewish studies",
+   "Edward Condon is silviculture",
+   "Edward Condon is education",
+   "Edward Condon is literature",
+   "Edward Condon is constitutional law",
+   "Edward Condon is radiation",
+   "Edward Condon is Internet",
+   "Edward Condon is heat",
+   "Edward Condon is mechanical engineering",
+   "Edward Condon is forestry",
+   "Edward Condon is jazz",
+   "Edward Condon is social philosophy",
+   "Edward Condon is mathematical physics",
+   "Edward Condon is meteorology",
+   "Edward Condon is translations from Arabic language",
+   "Edward Condon is quantum mysticism",
+   "Edward Condon is politics",
+   "Edward Condon is astronomical observation",
+   "Edward Condon is myth",
+   "Edward Condon is geography",
+   "Edward Condon is sociology of religion",
+   "Edward Condon is comparative religion",
+   "Edward Condon is Greek",
+   "Edward Condon is Lie algebra",
+   "Edward Condon is complex manifold",
+   "Edward Condon is journalism",
+   "Edward Condon is celestial mechanics",
+   "Edward Condon is String",
+   "Edward Condon is mathematical logic",
+   "Edward Condon is aeromechanics",
+   "Edward Condon is English",
+   "Edward Condon is history",
+   "Edward Condon is study of history",
+   "Edward Condon is genetics",
+   "Edward Condon is psychology",
+   "Edward Condon is theory of relativity",
+   "Edward Condon is biochemistry",
+   "Edward Condon is ballet",
+   "Edward Condon is electricity",
+   "Edward Condon is experimental physics",
+   "Edward Condon is natural theology",
+   "Edward Condon is Hebrew",
+   "Edward Condon is prose",
+   "Edward Condon is paleontology",
+   "Edward Condon is Monte Carlo method",
+   "Edward Condon is quantum theory",
+   "Edward Condon is computer science",
+   "Edward Condon is cybernetics",
+   "Edward Condon is Afghanistan",
+   "Edward Condon is philosophy of science",
+   "Edward Condon is literary theory",
+   "Edward Condon is electric field",
+   "Edward Condon is religion",
+   "Edward Condon is analytic geometry",
+   "Edward Condon is graph theory",
+   "Edward Condon is electron",
+   "Edward Condon is anthropology",
+   "Edward Condon is social anthropology",
+   "Edward Condon is sociology",
+   "Edward Condon is geodesy",
+   "Edward Condon is neurology",
+   "Edward Condon is drama",
+   "Edward Condon is art of painting",
+   "Edward Condon is applied mathematics",
+   "Edward Condon is world economy",
+   "Edward Condon is economic anthropology"
+  ],
+  [
+   [
+    -52.53461456298828
+   ],
+   [
+    -53.140132904052734
+   ],
+   [
+    -59.43479537963867
+   ],
+   [
+    -52.3051872253418
+   ],
+   [
+    -52.72788619995117
+   ],
+   [
+    -53.14081573486328
+   ],
+   [
+    -53.65183639526367
+   ],
+   [
+    -50.22758102416992
+   ],
+   [
+    -56.809593200683594
+   ],
+   [
+    -55.593929290771484
+   ],
+   [
+    -53.756099700927734
+   ],
+   [
+    -47.5599250793457
+   ],
+   [
+    -56.18988037109375
+   ],
+   [
+    -56.098289489746094
+   ],
+   [
+    -53.57368850708008
+   ],
+   [
+    -52.170654296875
+   ],
+   [
+    -57.29863739013672
+   ],
+   [
+    -61.65460968017578
+   ],
+   [
+    -50.58931350708008
+   ],
+   [
+    -61.657081604003906
+   ],
+   [
+    -56.379215240478516
+   ],
+   [
+    -57.280723571777344
+   ],
+   [
+    -53.75923538208008
+   ],
+   [
+    -51.48435592651367
+   ],
+   [
+    -52.963584899902344
+   ],
+   [
+    -49.667091369628906
+   ],
+   [
+    -55.91868209838867
+   ],
+   [
+    -60.542320251464844
+   ],
+   [
+    -55.191707611083984
+   ],
+   [
+    -54.98150634765625
+   ],
+   [
+    -50.890140533447266
+   ],
+   [
+    -62.761009216308594
+   ],
+   [
+    -54.633358001708984
+   ],
+   [
+    -57.26569366455078
+   ],
+   [
+    -48.91203308105469
+   ],
+   [
+    -63.8576545715332
+   ],
+   [
+    -54.01718521118164
+   ],
+   [
+    -56.161048889160156
+   ],
+   [
+    -55.30845642089844
+   ],
+   [
+    -49.83634567260742
+   ],
+   [
+    -52.41408157348633
+   ],
+   [
+    -63.15873336791992
+   ],
+   [
+    -56.980953216552734
+   ],
+   [
+    -67.50537872314453
+   ],
+   [
+    -47.37095642089844
+   ],
+   [
+    -55.88169860839844
+   ],
+   [
+    -53.8555908203125
+   ],
+   [
+    -52.18476867675781
+   ],
+   [
+    -53.25754165649414
+   ],
+   [
+    -55.97617721557617
+   ],
+   [
+    -51.49100112915039
+   ],
+   [
+    -54.94157028198242
+   ],
+   [
+    -52.70280838012695
+   ],
+   [
+    -56.896446228027344
+   ],
+   [
+    -54.456966400146484
+   ],
+   [
+    -50.56773376464844
+   ],
+   [
+    -57.46012496948242
+   ],
+   [
+    -57.40643310546875
+   ],
+   [
+    -65.32527160644531
+   ],
+   [
+    -58.89619827270508
+   ],
+   [
+    -56.52555465698242
+   ],
+   [
+    -52.177669525146484
+   ],
+   [
+    -54.305328369140625
+   ],
+   [
+    -52.75606918334961
+   ],
+   [
+    -49.09612274169922
+   ],
+   [
+    -49.59514236450195
+   ],
+   [
+    -53.25334930419922
+   ],
+   [
+    -50.817138671875
+   ],
+   [
+    -57.98126983642578
+   ],
+   [
+    -55.840675354003906
+   ],
+   [
+    -49.44755172729492
+   ],
+   [
+    -55.16030502319336
+   ],
+   [
+    -55.696720123291016
+   ],
+   [
+    -57.40818405151367
+   ],
+   [
+    -56.2115592956543
+   ],
+   [
+    -64.1810531616211
+   ],
+   [
+    -54.3536262512207
+   ],
+   [
+    -54.864322662353516
+   ],
+   [
+    -52.60069274902344
+   ],
+   [
+    -51.97881317138672
+   ],
+   [
+    -51.22907638549805
+   ],
+   [
+    -56.427188873291016
+   ],
+   [
+    -53.031150817871094
+   ],
+   [
+    -49.14951705932617
+   ],
+   [
+    -54.2188720703125
+   ],
+   [
+    -52.5942497253418
+   ],
+   [
+    -59.14870071411133
+   ],
+   [
+    -47.88706588745117
+   ],
+   [
+    -50.33830642700195
+   ],
+   [
+    -55.17134475708008
+   ],
+   [
+    -58.514732360839844
+   ],
+   [
+    -51.87541580200195
+   ],
+   [
+    -56.47312545776367
+   ],
+   [
+    -54.86788558959961
+   ],
+   [
+    -63.14865493774414
+   ],
+   [
+    -55.608665466308594
+   ],
+   [
+    -53.03921890258789
+   ],
+   [
+    -52.636775970458984
+   ],
+   [
+    -58.409690856933594
+   ],
+   [
+    -55.44868087768555
+   ],
+   [
+    -52.82663345336914
+   ],
+   [
+    -57.49838638305664
+   ],
+   [
+    -49.84818649291992
+   ],
+   [
+    -55.09177780151367
+   ],
+   [
+    -56.16376876831055
+   ],
+   [
+    -55.93132400512695
+   ],
+   [
+    -71.59805297851562
+   ],
+   [
+    -56.299068450927734
+   ],
+   [
+    -51.84917449951172
+   ],
+   [
+    -56.29399108886719
+   ],
+   [
+    -52.64088439941406
+   ],
+   [
+    -53.96261978149414
+   ],
+   [
+    -58.003814697265625
+   ],
+   [
+    -50.62696075439453
+   ],
+   [
+    -60.273658752441406
+   ],
+   [
+    -54.645755767822266
+   ],
+   [
+    -52.707340240478516
+   ],
+   [
+    -50.63917922973633
+   ],
+   [
+    -70.56580352783203
+   ],
+   [
+    -53.19255065917969
+   ],
+   [
+    -59.46091842651367
+   ],
+   [
+    -53.853328704833984
+   ],
+   [
+    -48.84707260131836
+   ],
+   [
+    -56.99077224731445
+   ],
+   [
+    -56.39807891845703
+   ],
+   [
+    -60.57283401489258
+   ],
+   [
+    -54.12193298339844
+   ],
+   [
+    -51.52676010131836
+   ],
+   [
+    -61.9351692199707
+   ],
+   [
+    -54.91495895385742
+   ],
+   [
+    -63.88487243652344
+   ],
+   [
+    -62.26215744018555
+   ],
+   [
+    -51.9739875793457
+   ],
+   [
+    -49.230350494384766
+   ],
+   [
+    -60.400875091552734
+   ],
+   [
+    -52.20687484741211
+   ],
+   [
+    -55.102806091308594
+   ],
+   [
+    -47.87664031982422
+   ],
+   [
+    -57.409358978271484
+   ],
+   [
+    -52.219669342041016
+   ],
+   [
+    -52.7777099609375
+   ],
+   [
+    -53.61276626586914
+   ],
+   [
+    -57.48374557495117
+   ],
+   [
+    -52.26226806640625
+   ],
+   [
+    -53.08491516113281
+   ],
+   [
+    -54.33133316040039
+   ],
+   [
+    -55.35575485229492
+   ],
+   [
+    -61.565914154052734
+   ],
+   [
+    -53.591609954833984
+   ],
+   [
+    -54.67393493652344
+   ],
+   [
+    -56.080169677734375
+   ],
+   [
+    -60.5243034362793
+   ],
+   [
+    -54.175113677978516
+   ],
+   [
+    -51.84324264526367
+   ],
+   [
+    -54.57094192504883
+   ],
+   [
+    -57.52147674560547
+   ],
+   [
+    -51.39376449584961
+   ],
+   [
+    -53.661048889160156
+   ],
+   [
+    -53.02544021606445
+   ],
+   [
+    -48.63622283935547
+   ],
+   [
+    -55.7735710144043
+   ],
+   [
+    -50.603572845458984
+   ],
+   [
+    -51.19525146484375
+   ],
+   [
+    -54.82313537597656
+   ],
+   [
+    -53.553165435791016
+   ],
+   [
+    -56.01148223876953
+   ],
+   [
+    -49.00904846191406
+   ],
+   [
+    -49.44175338745117
+   ],
+   [
+    -70.50698852539062
+   ],
+   [
+    -58.250465393066406
+   ],
+   [
+    -52.487056732177734
+   ],
+   [
+    -58.27301025390625
+   ],
+   [
+    -55.74823760986328
+   ],
+   [
+    -53.041748046875
+   ],
+   [
+    -55.80276870727539
+   ],
+   [
+    -54.62815856933594
+   ],
+   [
+    -56.2582893371582
+   ],
+   [
+    -56.56846237182617
+   ],
+   [
+    -57.619380950927734
+   ],
+   [
+    -53.49055862426758
+   ],
+   [
+    -52.69550704956055
+   ],
+   [
+    -52.0945930480957
+   ],
+   [
+    -52.32219314575195
+   ],
+   [
+    -57.52092742919922
+   ],
+   [
+    -52.37314224243164
+   ],
+   [
+    -50.04274368286133
+   ],
+   [
+    -61.16232681274414
+   ],
+   [
+    -51.99028778076172
+   ],
+   [
+    -52.27732467651367
+   ],
+   [
+    -54.36921310424805
+   ],
+   [
+    -52.0482063293457
+   ],
+   [
+    -55.31129837036133
+   ],
+   [
+    -50.7583122253418
+   ],
+   [
+    -48.65070343017578
+   ],
+   [
+    -58.0908203125
+   ],
+   [
+    -56.10990905761719
+   ],
+   [
+    -55.13774108886719
+   ],
+   [
+    -53.73716735839844
+   ],
+   [
+    -57.2991828918457
+   ],
+   [
+    -50.54218673706055
+   ],
+   [
+    -51.29509353637695
+   ],
+   [
+    -52.58114242553711
+   ],
+   [
+    -56.7821044921875
+   ],
+   [
+    -52.03999328613281
+   ],
+   [
+    -56.90054702758789
+   ],
+   [
+    -57.31968688964844
+   ],
+   [
+    -53.081424713134766
+   ],
+   [
+    -54.877689361572266
+   ],
+   [
+    -53.8901481628418
+   ],
+   [
+    -49.99761962890625
+   ],
+   [
+    -52.33936309814453
+   ],
+   [
+    -55.0146369934082
+   ],
+   [
+    -51.59052276611328
+   ],
+   [
+    -53.701454162597656
+   ],
+   [
+    -54.01015090942383
+   ],
+   [
+    -56.122806549072266
+   ],
+   [
+    -62.52964401245117
+   ],
+   [
+    -50.3171501159668
+   ],
+   [
+    -59.9618034362793
+   ],
+   [
+    -56.913578033447266
+   ],
+   [
+    -46.80373764038086
+   ],
+   [
+    -38.909114837646484
+   ],
+   [
+    -42.92252731323242
+   ],
+   [
+    -39.987159729003906
+   ],
+   [
+    -42.2915153503418
+   ],
+   [
+    -38.97945022583008
+   ],
+   [
+    -33.830387115478516
+   ],
+   [
+    -38.924766540527344
+   ],
+   [
+    -48.94414138793945
+   ],
+   [
+    -46.739803314208984
+   ],
+   [
+    -41.569217681884766
+   ],
+   [
+    -39.139801025390625
+   ],
+   [
+    -36.44189453125
+   ],
+   [
+    -41.554351806640625
+   ],
+   [
+    -43.40668869018555
+   ],
+   [
+    -44.35768127441406
+   ],
+   [
+    -41.752864837646484
+   ],
+   [
+    -41.27500534057617
+   ],
+   [
+    -35.42635726928711
+   ],
+   [
+    -46.49809646606445
+   ],
+   [
+    -43.2092399597168
+   ],
+   [
+    -46.13371658325195
+   ],
+   [
+    -41.210540771484375
+   ],
+   [
+    -36.64515686035156
+   ],
+   [
+    -40.30935287475586
+   ],
+   [
+    -39.39358901977539
+   ],
+   [
+    -35.94134521484375
+   ],
+   [
+    -52.776580810546875
+   ],
+   [
+    -38.55116653442383
+   ],
+   [
+    -51.115928649902344
+   ],
+   [
+    -43.34160614013672
+   ],
+   [
+    -48.91780090332031
+   ],
+   [
+    -49.50468444824219
+   ],
+   [
+    -43.54224395751953
+   ],
+   [
+    -36.302860260009766
+   ],
+   [
+    -47.14598083496094
+   ],
+   [
+    -41.674560546875
+   ],
+   [
+    -41.5599250793457
+   ],
+   [
+    -38.73743438720703
+   ],
+   [
+    -39.0469856262207
+   ],
+   [
+    -40.5289192199707
+   ],
+   [
+    -50.717498779296875
+   ],
+   [
+    -45.22591018676758
+   ],
+   [
+    -49.57555389404297
+   ],
+   [
+    -41.085391998291016
+   ],
+   [
+    -37.54150390625
+   ],
+   [
+    -42.33280944824219
+   ],
+   [
+    -39.92185974121094
+   ],
+   [
+    -45.358219146728516
+   ],
+   [
+    -38.782752990722656
+   ],
+   [
+    -41.1693115234375
+   ],
+   [
+    -37.15580368041992
+   ],
+   [
+    -43.39592361450195
+   ],
+   [
+    -43.72728729248047
+   ],
+   [
+    -44.41522979736328
+   ],
+   [
+    -43.891021728515625
+   ],
+   [
+    -43.16497802734375
+   ],
+   [
+    -46.250648498535156
+   ],
+   [
+    -51.58620834350586
+   ],
+   [
+    -45.479618072509766
+   ],
+   [
+    -43.18731689453125
+   ],
+   [
+    -41.67426681518555
+   ],
+   [
+    -42.36613082885742
+   ],
+   [
+    -40.97112274169922
+   ],
+   [
+    -39.56056594848633
+   ],
+   [
+    -35.832611083984375
+   ],
+   [
+    -42.49110412597656
+   ],
+   [
+    -37.3294792175293
+   ],
+   [
+    -44.76470947265625
+   ],
+   [
+    -43.272979736328125
+   ],
+   [
+    -40.87774658203125
+   ],
+   [
+    -43.05048751831055
+   ],
+   [
+    -40.58576583862305
+   ],
+   [
+    -49.586219787597656
+   ],
+   [
+    -45.021305084228516
+   ],
+   [
+    -50.947509765625
+   ],
+   [
+    -36.40446090698242
+   ],
+   [
+    -40.963523864746094
+   ],
+   [
+    -41.38884353637695
+   ],
+   [
+    -43.41765213012695
+   ],
+   [
+    -41.753997802734375
+   ],
+   [
+    -41.814701080322266
+   ],
+   [
+    -46.72834014892578
+   ],
+   [
+    -40.470550537109375
+   ],
+   [
+    -41.132503509521484
+   ],
+   [
+    -40.18865966796875
+   ],
+   [
+    -48.00251007080078
+   ],
+   [
+    -38.251747131347656
+   ],
+   [
+    -44.3303337097168
+   ],
+   [
+    -42.66194152832031
+   ],
+   [
+    -37.59777069091797
+   ],
+   [
+    -42.4232292175293
+   ],
+   [
+    -36.247840881347656
+   ],
+   [
+    -41.41489028930664
+   ],
+   [
+    -50.64556884765625
+   ],
+   [
+    -42.28900146484375
+   ],
+   [
+    -37.89556121826172
+   ],
+   [
+    -41.55774688720703
+   ],
+   [
+    -44.25430679321289
+   ],
+   [
+    -43.65444564819336
+   ],
+   [
+    -41.287384033203125
+   ],
+   [
+    -41.372802734375
+   ],
+   [
+    -38.751190185546875
+   ],
+   [
+    -40.10890579223633
+   ],
+   [
+    -40.36563491821289
+   ],
+   [
+    -42.96377182006836
+   ],
+   [
+    -55.328033447265625
+   ],
+   [
+    -40.30126953125
+   ],
+   [
+    -44.24785614013672
+   ],
+   [
+    -43.040042877197266
+   ],
+   [
+    -40.09866714477539
+   ],
+   [
+    -42.10189437866211
+   ],
+   [
+    -35.71767044067383
+   ],
+   [
+    -38.832923889160156
+   ],
+   [
+    -46.70415496826172
+   ],
+   [
+    -45.89600372314453
+   ],
+   [
+    -39.088260650634766
+   ],
+   [
+    -36.066898345947266
+   ],
+   [
+    -55.94919967651367
+   ],
+   [
+    -39.09356689453125
+   ],
+   [
+    -45.46198654174805
+   ],
+   [
+    -37.00019836425781
+   ],
+   [
+    -39.75461196899414
+   ],
+   [
+    -43.46510314941406
+   ],
+   [
+    -42.68479537963867
+   ],
+   [
+    -47.16143798828125
+   ],
+   [
+    -41.62173080444336
+   ],
+   [
+    -43.43534469604492
+   ],
+   [
+    -49.79349899291992
+   ],
+   [
+    -41.3402214050293
+   ],
+   [
+    -54.006813049316406
+   ],
+   [
+    -39.831382751464844
+   ],
+   [
+    -39.48417663574219
+   ],
+   [
+    -37.23319625854492
+   ],
+   [
+    -49.16621398925781
+   ],
+   [
+    -42.07720947265625
+   ],
+   [
+    -42.50098419189453
+   ],
+   [
+    -35.20722579956055
+   ],
+   [
+    -36.87888717651367
+   ],
+   [
+    -38.894989013671875
+   ],
+   [
+    -37.65794372558594
+   ],
+   [
+    -33.1593132019043
+   ],
+   [
+    -48.94674301147461
+   ],
+   [
+    -43.71952438354492
+   ],
+   [
+    -45.6063117980957
+   ],
+   [
+    -43.66327667236328
+   ],
+   [
+    -38.50054168701172
+   ],
+   [
+    -50.65294647216797
+   ],
+   [
+    -43.84919738769531
+   ],
+   [
+    -40.12766647338867
+   ],
+   [
+    -43.171913146972656
+   ],
+   [
+    -43.47603988647461
+   ],
+   [
+    -37.99452590942383
+   ],
+   [
+    -40.87525939941406
+   ],
+   [
+    -41.52919006347656
+   ],
+   [
+    -44.731178283691406
+   ],
+   [
+    -36.08197021484375
+   ],
+   [
+    -37.57188034057617
+   ],
+   [
+    -38.331180572509766
+   ],
+   [
+    -38.01158142089844
+   ],
+   [
+    -36.5063362121582
+   ],
+   [
+    -39.99925231933594
+   ],
+   [
+    -38.1786003112793
+   ],
+   [
+    -39.76968002319336
+   ],
+   [
+    -36.11568832397461
+   ],
+   [
+    -44.41594314575195
+   ],
+   [
+    -39.44841384887695
+   ],
+   [
+    -39.246726989746094
+   ],
+   [
+    -57.62156295776367
+   ],
+   [
+    -47.0700569152832
+   ],
+   [
+    -37.19022750854492
+   ],
+   [
+    -47.213836669921875
+   ],
+   [
+    -36.046512603759766
+   ],
+   [
+    -39.08107376098633
+   ],
+   [
+    -46.176414489746094
+   ],
+   [
+    -42.38883972167969
+   ],
+   [
+    -38.586299896240234
+   ],
+   [
+    -48.20683670043945
+   ],
+   [
+    -50.69904327392578
+   ],
+   [
+    -38.0391845703125
+   ],
+   [
+    -44.232627868652344
+   ],
+   [
+    -38.41136932373047
+   ],
+   [
+    -41.922183990478516
+   ],
+   [
+    -46.12969207763672
+   ],
+   [
+    -34.69594955444336
+   ],
+   [
+    -33.48537063598633
+   ],
+   [
+    -45.3970947265625
+   ],
+   [
+    -38.86437225341797
+   ],
+   [
+    -37.96471405029297
+   ],
+   [
+    -43.37923812866211
+   ],
+   [
+    -39.151031494140625
+   ],
+   [
+    -41.16700744628906
+   ],
+   [
+    -39.0017204284668
+   ],
+   [
+    -39.98186111450195
+   ],
+   [
+    -45.241390228271484
+   ],
+   [
+    -38.098209381103516
+   ],
+   [
+    -38.96074295043945
+   ],
+   [
+    -40.00540542602539
+   ],
+   [
+    -45.33790588378906
+   ],
+   [
+    -41.93239974975586
+   ],
+   [
+    -37.265254974365234
+   ],
+   [
+    -38.80335998535156
+   ],
+   [
+    -39.78612518310547
+   ],
+   [
+    -40.088741302490234
+   ],
+   [
+    -44.57845687866211
+   ],
+   [
+    -44.78110885620117
+   ],
+   [
+    -37.57833480834961
+   ],
+   [
+    -42.732154846191406
+   ],
+   [
+    -44.87654113769531
+   ],
+   [
+    -37.13190460205078
+   ],
+   [
+    -37.074615478515625
+   ],
+   [
+    -41.83147430419922
+   ],
+   [
+    -37.19850540161133
+   ],
+   [
+    -43.21282196044922
+   ],
+   [
+    -40.903778076171875
+   ],
+   [
+    -37.4702262878418
+   ],
+   [
+    -47.429595947265625
+   ],
+   [
+    -38.932098388671875
+   ],
+   [
+    -45.56632614135742
+   ],
+   [
+    -44.38109588623047
+   ]
+  ]
+ ],
+ "time": 2564.7338576316833
+}

@@ -22,7 +22,7 @@ from util.globals import *
 
 genders = set(["male", "female"])
 fow = set(pd.read_csv("data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
-city_names = set(pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])["UCity"].tolist())
+city_names = set(pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])["CName"].tolist())
 countries_of_citizenship = set(pd.read_csv("data/P27_cats.csv", names = ["Code", "Country", "Continent"])["Country"].tolist())
 
 CAND_DICT = {

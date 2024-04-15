@@ -1,0 +1,2791 @@
+{
+ "case_id": 222,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{} is located in the continent",
+  "relation_id": "P30",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "subject": "Mount Markham"
+ },
+ "pre": [
+  [
+   "Mount Markham's surroundings include Q339182",
+   "Mount Markham's surroundings include Q43631",
+   "Mount Markham's surroundings include Q2061870",
+   "Mount Markham's surroundings include Q25331",
+   "Mount Markham's surroundings include Q3776576",
+   "Mount Markham's surroundings include Q81621",
+   "Mount Markham's surroundings include Q38511",
+   "Mount Markham's surroundings include Q23436",
+   "Mount Markham's surroundings include Q627653",
+   "Mount Markham's surroundings include Q749",
+   "Mount Markham's surroundings include Q42088",
+   "Mount Markham's surroundings include Q206687",
+   "Mount Markham's surroundings include Q18655",
+   "Mount Markham's surroundings include Q54163",
+   "Mount Markham's surroundings include Q1144835",
+   "Mount Markham's surroundings include Q3626259",
+   "Mount Markham's surroundings include Q30096",
+   "Mount Markham's surroundings include Q181725",
+   "Mount Markham's surroundings include Q18426",
+   "Mount Markham's surroundings include Q4734309",
+   "Mount Markham's surroundings include Q823531",
+   "Mount Markham's surroundings include Q13210107",
+   "Mount Markham's surroundings include Q656",
+   "Mount Markham's surroundings include Q1709",
+   "Mount Markham's surroundings include Q1492",
+   "Mount Markham's surroundings include Q6602",
+   "Mount Markham's surroundings include Q1490",
+   "Mount Markham's surroundings include Q939529",
+   "Mount Markham's surroundings include Q1890931",
+   "Mount Markham's surroundings include Q2640897",
+   "Mount Markham's surroundings include Q655874",
+   "Mount Markham's surroundings include Q40623",
+   "Mount Markham's surroundings include Q21711493",
+   "Mount Markham's surroundings include Q23360",
+   "Mount Markham's surroundings include Q25286",
+   "Mount Markham's surroundings include Q963309",
+   "Mount Markham's surroundings include Q1761",
+   "Mount Markham's surroundings include Q1773",
+   "Mount Markham's surroundings include Q18986",
+   "Mount Markham's surroundings include Q78",
+   "Mount Markham's surroundings include Q11025",
+   "Mount Markham's surroundings include Q13375",
+   "Mount Markham's surroundings include Q1013549",
+   "Mount Markham's surroundings include Q176410",
+   "Mount Markham's surroundings include Q584458",
+   "Mount Markham's surroundings include Q374745",
+   "Mount Markham's surroundings include Q59670",
+   "Mount Markham's surroundings include Q62460",
+   "Mount Markham's surroundings include Q288082",
+   "Mount Markham's surroundings include Q2145988",
+   "Mount Markham's surroundings include Q104731",
+   "Mount Markham's surroundings include Q1618770",
+   "Mount Markham's surroundings include Q24826",
+   "Mount Markham's surroundings include Q3846",
+   "Mount Markham's surroundings include Q727",
+   "Mount Markham's surroundings include Q186234",
+   "Mount Markham's surroundings include Q2593038",
+   "Mount Markham's surroundings include Q1003286",
+   "Mount Markham's surroundings include Q1921452",
+   "Mount Markham's surroundings include Q1159513",
+   "Mount Markham's surroundings include Q617407",
+   "Mount Markham's surroundings include Q140342",
+   "Mount Markham's surroundings include Q269476",
+   "Mount Markham's surroundings include Q1296",
+   "Mount Markham's surroundings include Q1524",
+   "Mount Markham's surroundings include Q3138",
+   "Mount Markham's surroundings include Q36600",
+   "Mount Markham's surroundings include Q985461",
+   "Mount Markham's surroundings include Q3150",
+   "Mount Markham's surroundings include Q203040",
+   "Mount Markham's surroundings include Q4420718",
+   "Mount Markham's surroundings include Q564827",
+   "Mount Markham's surroundings include Q19272",
+   "Mount Markham's surroundings include Q209126",
+   "Mount Markham's surroundings include Q2746",
+   "Mount Markham's surroundings include Q446314",
+   "Mount Markham's surroundings include Q1085",
+   "Mount Markham's surroundings include Q7042",
+   "Mount Markham's surroundings include Q198190",
+   "Mount Markham's surroundings include Q462177",
+   "Mount Markham's surroundings include Q1748",
+   "Mount Markham's surroundings include Q123709",
+   "Mount Markham's surroundings include Q36433",
+   "Mount Markham's surroundings include Q1247384",
+   "Mount Markham's surroundings include Q1780",
+   "Mount Markham's surroundings include Q18125",
+   "Mount Markham's surroundings include Q482657",
+   "Mount Markham's surroundings include Q31487",
+   "Mount Markham's surroundings include Q1005862",
+   "Mount Markham's surroundings include Q52098",
+   "Mount Markham's surroundings include Q23154",
+   "Mount Markham's surroundings include Q1679681",
+   "Mount Markham's surroundings include Q123559",
+   "Mount Markham's surroundings include Q1799",
+   "Mount Markham's surroundings include Q500939",
+   "Mount Markham's surroundings include Q41252",
+   "Mount Markham's surroundings include nan",
+   "Mount Markham's surroundings include Q3923",
+   "Mount Markham's surroundings include Q517311",
+   "Mount Markham's surroundings include Q49111",
+   "Mount Markham's surroundings include Q6366688",
+   "Mount Markham's surroundings include Q1490411",
+   "Mount Markham's surroundings include Q1415",
+   "Mount Markham's surroundings include Q269980",
+   "Mount Markham's surroundings include Q156743",
+   "Mount Markham's surroundings include Q11736",
+   "Mount Markham's surroundings include Q2880",
+   "Mount Markham's surroundings include Q3915",
+   "Mount Markham's surroundings include Q853324",
+   "Mount Markham's surroundings include Q67778",
+   "Mount Markham's surroundings include Q649",
+   "Mount Markham's surroundings include Q610238",
+   "Mount Markham's surroundings include Q4083",
+   "Mount Markham's surroundings include Q1754",
+   "Mount Markham's surroundings include Q490",
+   "Mount Markham's surroundings include Q64",
+   "Mount Markham's surroundings include Q18424",
+   "Mount Markham's surroundings include Q492538",
+   "Mount Markham's surroundings include Q42807",
+   "Mount Markham's surroundings include Q84",
+   "Mount Markham's surroundings include Q1729",
+   "Mount Markham's surroundings include Q1055",
+   "Mount Markham's surroundings include Q43509",
+   "Mount Markham's surroundings include Q16553",
+   "Mount Markham's surroundings include Q54140",
+   "Mount Markham's surroundings include Q80484",
+   "Mount Markham's surroundings include Q10549787",
+   "Mount Markham's surroundings include Q42308",
+   "Mount Markham's surroundings include Q33959",
+   "Mount Markham's surroundings include Q22741",
+   "Mount Markham's surroundings include Q433701",
+   "Mount Markham's surroundings include Q2749",
+   "Mount Markham's surroundings include Q863832",
+   "Mount Markham's surroundings include Q3834",
+   "Mount Markham's surroundings include Q106274",
+   "Mount Markham's surroundings include Q1779185",
+   "Mount Markham's surroundings include Q4518353",
+   "Mount Markham's surroundings include Q275731",
+   "Mount Markham's surroundings include Q102621",
+   "Mount Markham's surroundings include Q4418120",
+   "Mount Markham's surroundings include Q891",
+   "Mount Markham's surroundings include Q142",
+   "Mount Markham's surroundings include Q220",
+   "Mount Markham's surroundings include Q1781",
+   "Mount Markham's surroundings include Q1794",
+   "Mount Markham's surroundings include Q1741",
+   "Mount Markham's surroundings include Q966192",
+   "Mount Markham's surroundings include Q2711986",
+   "Mount Markham's surroundings include Q1781710",
+   "Mount Markham's surroundings include Q60",
+   "Mount Markham's surroundings include Q173695",
+   "Mount Markham's surroundings include Q135572",
+   "Mount Markham's surroundings include Q2598",
+   "Mount Markham's surroundings include Q192265",
+   "Mount Markham's surroundings include Q1792",
+   "Mount Markham's surroundings include Q22905",
+   "Mount Markham's surroundings include Q5838",
+   "Mount Markham's surroundings include Q536598",
+   "Mount Markham's surroundings include Q3316008",
+   "Mount Markham's surroundings include Q1327770",
+   "Mount Markham's surroundings include Q477987",
+   "Mount Markham's surroundings include Q551378",
+   "Mount Markham's surroundings include Q648432",
+   "Mount Markham's surroundings include Q1345",
+   "Mount Markham's surroundings include Q1228829",
+   "Mount Markham's surroundings include Q797437",
+   "Mount Markham's surroundings include Q87",
+   "Mount Markham's surroundings include Q157725",
+   "Mount Markham's surroundings include Q36036",
+   "Mount Markham's surroundings include Q6837",
+   "Mount Markham's surroundings include Q1735",
+   "Mount Markham's surroundings include Q1711",
+   "Mount Markham's surroundings include Q507117",
+   "Mount Markham's surroundings include Q2722267",
+   "Mount Markham's surroundings include Q13666",
+   "Mount Markham's surroundings include Q206988",
+   "Mount Markham's surroundings include Q1715",
+   "Mount Markham's surroundings include Q265332",
+   "Mount Markham's surroundings include Q745594",
+   "Mount Markham's surroundings include Q13373",
+   "Mount Markham's surroundings include Q725261",
+   "Mount Markham's surroundings include Q572595",
+   "Mount Markham's surroundings include Q576671",
+   "Mount Markham's surroundings include Q2453742",
+   "Mount Markham's surroundings include Q7880",
+   "Mount Markham's surroundings include Q184163",
+   "Mount Markham's surroundings include Q997335",
+   "Mount Markham's surroundings include Q26339",
+   "Mount Markham's surroundings include Q845623",
+   "Mount Markham's surroundings include Q64589",
+   "Mount Markham's surroundings include Q1720",
+   "Mount Markham's surroundings include Q835831",
+   "Mount Markham's surroundings include Q487977",
+   "Mount Markham's surroundings include Q2256",
+   "Mount Markham's surroundings include Q6346",
+   "Mount Markham's surroundings include Q161994",
+   "Mount Markham's surroundings include Q34615",
+   "Mount Markham's surroundings include Q47554",
+   "Mount Markham's surroundings include Q194420",
+   "Mount Markham's surroundings include Q197691",
+   "Mount Markham's surroundings include Q7027",
+   "Mount Markham's surroundings include Q270",
+   "Mount Markham's surroundings include Q1828035",
+   "Mount Markham's surroundings include Q1022",
+   "Mount Markham's surroundings include Q7473516",
+   "Mount Markham's surroundings include Q181704",
+   "Mount Markham's surroundings include Q72",
+   "Mount Markham's surroundings include Q2683",
+   "Mount Markham's surroundings include Q467617",
+   "Mount Markham's surroundings include Q42168",
+   "Mount Markham's surroundings include Q153494",
+   "Mount Markham's surroundings include Q13362",
+   "Mount Markham's surroundings include Q484552",
+   "Mount Markham's surroundings include Q320233",
+   "Mount Markham's surroundings include Q1297",
+   "Mount Markham's surroundings include Q2865",
+   "Mount Markham's surroundings include Q16568",
+   "Mount Markham's surroundings include Q4093",
+   "Mount Markham's surroundings include Q319397",
+   "Mount Markham's surroundings include Q212856",
+   "Mount Markham's surroundings include Q90",
+   "Mount Markham's surroundings include Q1807458",
+   "Mount Markham's surroundings include Q5839",
+   "Mount Markham's surroundings include Q2861",
+   "Mount Markham's surroundings include Q504875",
+   "Mount Markham's surroundings include Q105048",
+   "Mount Markham's surroundings include Q3619316",
+   "Mount Markham's surroundings include Q287148",
+   "Mount Markham's surroundings include Q630668",
+   "Mount Markham's surroundings include Q40898",
+   "Mount Markham's surroundings include Q734064",
+   "Mount Markham's surroundings include Q1537",
+   "Mount Markham's surroundings include Q375314",
+   "One can get to Mount Markham by navigating Q339182",
+   "One can get to Mount Markham by navigating Q43631",
+   "One can get to Mount Markham by navigating Q2061870",
+   "One can get to Mount Markham by navigating Q25331",
+   "One can get to Mount Markham by navigating Q3776576",
+   "One can get to Mount Markham by navigating Q81621",
+   "One can get to Mount Markham by navigating Q38511",
+   "One can get to Mount Markham by navigating Q23436",
+   "One can get to Mount Markham by navigating Q627653",
+   "One can get to Mount Markham by navigating Q749",
+   "One can get to Mount Markham by navigating Q42088",
+   "One can get to Mount Markham by navigating Q206687",
+   "One can get to Mount Markham by navigating Q18655",
+   "One can get to Mount Markham by navigating Q54163",
+   "One can get to Mount Markham by navigating Q1144835",
+   "One can get to Mount Markham by navigating Q3626259",
+   "One can get to Mount Markham by navigating Q30096",
+   "One can get to Mount Markham by navigating Q181725",
+   "One can get to Mount Markham by navigating Q18426",
+   "One can get to Mount Markham by navigating Q4734309",
+   "One can get to Mount Markham by navigating Q823531",
+   "One can get to Mount Markham by navigating Q13210107",
+   "One can get to Mount Markham by navigating Q656",
+   "One can get to Mount Markham by navigating Q1709",
+   "One can get to Mount Markham by navigating Q1492",
+   "One can get to Mount Markham by navigating Q6602",
+   "One can get to Mount Markham by navigating Q1490",
+   "One can get to Mount Markham by navigating Q939529",
+   "One can get to Mount Markham by navigating Q1890931",
+   "One can get to Mount Markham by navigating Q2640897",
+   "One can get to Mount Markham by navigating Q655874",
+   "One can get to Mount Markham by navigating Q40623",
+   "One can get to Mount Markham by navigating Q21711493",
+   "One can get to Mount Markham by navigating Q23360",
+   "One can get to Mount Markham by navigating Q25286",
+   "One can get to Mount Markham by navigating Q963309",
+   "One can get to Mount Markham by navigating Q1761",
+   "One can get to Mount Markham by navigating Q1773",
+   "One can get to Mount Markham by navigating Q18986",
+   "One can get to Mount Markham by navigating Q78",
+   "One can get to Mount Markham by navigating Q11025",
+   "One can get to Mount Markham by navigating Q13375",
+   "One can get to Mount Markham by navigating Q1013549",
+   "One can get to Mount Markham by navigating Q176410",
+   "One can get to Mount Markham by navigating Q584458",
+   "One can get to Mount Markham by navigating Q374745",
+   "One can get to Mount Markham by navigating Q59670",
+   "One can get to Mount Markham by navigating Q62460",
+   "One can get to Mount Markham by navigating Q288082",
+   "One can get to Mount Markham by navigating Q2145988",
+   "One can get to Mount Markham by navigating Q104731",
+   "One can get to Mount Markham by navigating Q1618770",
+   "One can get to Mount Markham by navigating Q24826",
+   "One can get to Mount Markham by navigating Q3846",
+   "One can get to Mount Markham by navigating Q727",
+   "One can get to Mount Markham by navigating Q186234",
+   "One can get to Mount Markham by navigating Q2593038",
+   "One can get to Mount Markham by navigating Q1003286",
+   "One can get to Mount Markham by navigating Q1921452",
+   "One can get to Mount Markham by navigating Q1159513",
+   "One can get to Mount Markham by navigating Q617407",
+   "One can get to Mount Markham by navigating Q140342",
+   "One can get to Mount Markham by navigating Q269476",
+   "One can get to Mount Markham by navigating Q1296",
+   "One can get to Mount Markham by navigating Q1524",
+   "One can get to Mount Markham by navigating Q3138",
+   "One can get to Mount Markham by navigating Q36600",
+   "One can get to Mount Markham by navigating Q985461",
+   "One can get to Mount Markham by navigating Q3150",
+   "One can get to Mount Markham by navigating Q203040",
+   "One can get to Mount Markham by navigating Q4420718",
+   "One can get to Mount Markham by navigating Q564827",
+   "One can get to Mount Markham by navigating Q19272",
+   "One can get to Mount Markham by navigating Q209126",
+   "One can get to Mount Markham by navigating Q2746",
+   "One can get to Mount Markham by navigating Q446314",
+   "One can get to Mount Markham by navigating Q1085",
+   "One can get to Mount Markham by navigating Q7042",
+   "One can get to Mount Markham by navigating Q198190",
+   "One can get to Mount Markham by navigating Q462177",
+   "One can get to Mount Markham by navigating Q1748",
+   "One can get to Mount Markham by navigating Q123709",
+   "One can get to Mount Markham by navigating Q36433",
+   "One can get to Mount Markham by navigating Q1247384",
+   "One can get to Mount Markham by navigating Q1780",
+   "One can get to Mount Markham by navigating Q18125",
+   "One can get to Mount Markham by navigating Q482657",
+   "One can get to Mount Markham by navigating Q31487",
+   "One can get to Mount Markham by navigating Q1005862",
+   "One can get to Mount Markham by navigating Q52098",
+   "One can get to Mount Markham by navigating Q23154",
+   "One can get to Mount Markham by navigating Q1679681",
+   "One can get to Mount Markham by navigating Q123559",
+   "One can get to Mount Markham by navigating Q1799",
+   "One can get to Mount Markham by navigating Q500939",
+   "One can get to Mount Markham by navigating Q41252",
+   "One can get to Mount Markham by navigating nan",
+   "One can get to Mount Markham by navigating Q3923",
+   "One can get to Mount Markham by navigating Q517311",
+   "One can get to Mount Markham by navigating Q49111",
+   "One can get to Mount Markham by navigating Q6366688",
+   "One can get to Mount Markham by navigating Q1490411",
+   "One can get to Mount Markham by navigating Q1415",
+   "One can get to Mount Markham by navigating Q269980",
+   "One can get to Mount Markham by navigating Q156743",
+   "One can get to Mount Markham by navigating Q11736",
+   "One can get to Mount Markham by navigating Q2880",
+   "One can get to Mount Markham by navigating Q3915",
+   "One can get to Mount Markham by navigating Q853324",
+   "One can get to Mount Markham by navigating Q67778",
+   "One can get to Mount Markham by navigating Q649",
+   "One can get to Mount Markham by navigating Q610238",
+   "One can get to Mount Markham by navigating Q4083",
+   "One can get to Mount Markham by navigating Q1754",
+   "One can get to Mount Markham by navigating Q490",
+   "One can get to Mount Markham by navigating Q64",
+   "One can get to Mount Markham by navigating Q18424",
+   "One can get to Mount Markham by navigating Q492538",
+   "One can get to Mount Markham by navigating Q42807",
+   "One can get to Mount Markham by navigating Q84",
+   "One can get to Mount Markham by navigating Q1729",
+   "One can get to Mount Markham by navigating Q1055",
+   "One can get to Mount Markham by navigating Q43509",
+   "One can get to Mount Markham by navigating Q16553",
+   "One can get to Mount Markham by navigating Q54140",
+   "One can get to Mount Markham by navigating Q80484",
+   "One can get to Mount Markham by navigating Q10549787",
+   "One can get to Mount Markham by navigating Q42308",
+   "One can get to Mount Markham by navigating Q33959",
+   "One can get to Mount Markham by navigating Q22741",
+   "One can get to Mount Markham by navigating Q433701",
+   "One can get to Mount Markham by navigating Q2749",
+   "One can get to Mount Markham by navigating Q863832",
+   "One can get to Mount Markham by navigating Q3834",
+   "One can get to Mount Markham by navigating Q106274",
+   "One can get to Mount Markham by navigating Q1779185",
+   "One can get to Mount Markham by navigating Q4518353",
+   "One can get to Mount Markham by navigating Q275731",
+   "One can get to Mount Markham by navigating Q102621",
+   "One can get to Mount Markham by navigating Q4418120",
+   "One can get to Mount Markham by navigating Q891",
+   "One can get to Mount Markham by navigating Q142",
+   "One can get to Mount Markham by navigating Q220",
+   "One can get to Mount Markham by navigating Q1781",
+   "One can get to Mount Markham by navigating Q1794",
+   "One can get to Mount Markham by navigating Q1741",
+   "One can get to Mount Markham by navigating Q966192",
+   "One can get to Mount Markham by navigating Q2711986",
+   "One can get to Mount Markham by navigating Q1781710",
+   "One can get to Mount Markham by navigating Q60",
+   "One can get to Mount Markham by navigating Q173695",
+   "One can get to Mount Markham by navigating Q135572",
+   "One can get to Mount Markham by navigating Q2598",
+   "One can get to Mount Markham by navigating Q192265",
+   "One can get to Mount Markham by navigating Q1792",
+   "One can get to Mount Markham by navigating Q22905",
+   "One can get to Mount Markham by navigating Q5838",
+   "One can get to Mount Markham by navigating Q536598",
+   "One can get to Mount Markham by navigating Q3316008",
+   "One can get to Mount Markham by navigating Q1327770",
+   "One can get to Mount Markham by navigating Q477987",
+   "One can get to Mount Markham by navigating Q551378",
+   "One can get to Mount Markham by navigating Q648432",
+   "One can get to Mount Markham by navigating Q1345",
+   "One can get to Mount Markham by navigating Q1228829",
+   "One can get to Mount Markham by navigating Q797437",
+   "One can get to Mount Markham by navigating Q87",
+   "One can get to Mount Markham by navigating Q157725",
+   "One can get to Mount Markham by navigating Q36036",
+   "One can get to Mount Markham by navigating Q6837",
+   "One can get to Mount Markham by navigating Q1735",
+   "One can get to Mount Markham by navigating Q1711",
+   "One can get to Mount Markham by navigating Q507117",
+   "One can get to Mount Markham by navigating Q2722267",
+   "One can get to Mount Markham by navigating Q13666",
+   "One can get to Mount Markham by navigating Q206988",
+   "One can get to Mount Markham by navigating Q1715",
+   "One can get to Mount Markham by navigating Q265332",
+   "One can get to Mount Markham by navigating Q745594",
+   "One can get to Mount Markham by navigating Q13373",
+   "One can get to Mount Markham by navigating Q725261",
+   "One can get to Mount Markham by navigating Q572595",
+   "One can get to Mount Markham by navigating Q576671",
+   "One can get to Mount Markham by navigating Q2453742",
+   "One can get to Mount Markham by navigating Q7880",
+   "One can get to Mount Markham by navigating Q184163",
+   "One can get to Mount Markham by navigating Q997335",
+   "One can get to Mount Markham by navigating Q26339",
+   "One can get to Mount Markham by navigating Q845623",
+   "One can get to Mount Markham by navigating Q64589",
+   "One can get to Mount Markham by navigating Q1720",
+   "One can get to Mount Markham by navigating Q835831",
+   "One can get to Mount Markham by navigating Q487977",
+   "One can get to Mount Markham by navigating Q2256",
+   "One can get to Mount Markham by navigating Q6346",
+   "One can get to Mount Markham by navigating Q161994",
+   "One can get to Mount Markham by navigating Q34615",
+   "One can get to Mount Markham by navigating Q47554",
+   "One can get to Mount Markham by navigating Q194420",
+   "One can get to Mount Markham by navigating Q197691",
+   "One can get to Mount Markham by navigating Q7027",
+   "One can get to Mount Markham by navigating Q270",
+   "One can get to Mount Markham by navigating Q1828035",
+   "One can get to Mount Markham by navigating Q1022",
+   "One can get to Mount Markham by navigating Q7473516",
+   "One can get to Mount Markham by navigating Q181704",
+   "One can get to Mount Markham by navigating Q72",
+   "One can get to Mount Markham by navigating Q2683",
+   "One can get to Mount Markham by navigating Q467617",
+   "One can get to Mount Markham by navigating Q42168",
+   "One can get to Mount Markham by navigating Q153494",
+   "One can get to Mount Markham by navigating Q13362",
+   "One can get to Mount Markham by navigating Q484552",
+   "One can get to Mount Markham by navigating Q320233",
+   "One can get to Mount Markham by navigating Q1297",
+   "One can get to Mount Markham by navigating Q2865",
+   "One can get to Mount Markham by navigating Q16568",
+   "One can get to Mount Markham by navigating Q4093",
+   "One can get to Mount Markham by navigating Q319397",
+   "One can get to Mount Markham by navigating Q212856",
+   "One can get to Mount Markham by navigating Q90",
+   "One can get to Mount Markham by navigating Q1807458",
+   "One can get to Mount Markham by navigating Q5839",
+   "One can get to Mount Markham by navigating Q2861",
+   "One can get to Mount Markham by navigating Q504875",
+   "One can get to Mount Markham by navigating Q105048",
+   "One can get to Mount Markham by navigating Q3619316",
+   "One can get to Mount Markham by navigating Q287148",
+   "One can get to Mount Markham by navigating Q630668",
+   "One can get to Mount Markham by navigating Q40898",
+   "One can get to Mount Markham by navigating Q734064",
+   "One can get to Mount Markham by navigating Q1537",
+   "One can get to Mount Markham by navigating Q375314"
+  ],
+  [
+   [
+    -69.73443603515625
+   ],
+   [
+    -67.21664428710938
+   ],
+   [
+    -71.71320343017578
+   ],
+   [
+    -66.82882690429688
+   ],
+   [
+    -73.72456359863281
+   ],
+   [
+    -67.44847106933594
+   ],
+   [
+    -68.54515838623047
+   ],
+   [
+    -67.56202697753906
+   ],
+   [
+    -70.8124008178711
+   ],
+   [
+    -63.15647506713867
+   ],
+   [
+    -66.02842712402344
+   ],
+   [
+    -69.43645477294922
+   ],
+   [
+    -66.85386657714844
+   ],
+   [
+    -67.53135681152344
+   ],
+   [
+    -72.24932861328125
+   ],
+   [
+    -73.28040313720703
+   ],
+   [
+    -66.33101654052734
+   ],
+   [
+    -69.81153869628906
+   ],
+   [
+    -66.8570556640625
+   ],
+   [
+    -72.8390121459961
+   ],
+   [
+    -70.53428649902344
+   ],
+   [
+    -75.83204650878906
+   ],
+   [
+    -61.81208038330078
+   ],
+   [
+    -62.31486511230469
+   ],
+   [
+    -63.612274169921875
+   ],
+   [
+    -64.22685241699219
+   ],
+   [
+    -63.37841796875
+   ],
+   [
+    -72.72901916503906
+   ],
+   [
+    -71.9412841796875
+   ],
+   [
+    -72.16168975830078
+   ],
+   [
+    -70.41056060791016
+   ],
+   [
+    -65.99838256835938
+   ],
+   [
+    -76.13819885253906
+   ],
+   [
+    -67.36167907714844
+   ],
+   [
+    -66.89567565917969
+   ],
+   [
+    -72.32779693603516
+   ],
+   [
+    -62.36315155029297
+   ],
+   [
+    -62.89292907714844
+   ],
+   [
+    -67.03008270263672
+   ],
+   [
+    -58.66785430908203
+   ],
+   [
+    -66.46858978271484
+   ],
+   [
+    -67.51690673828125
+   ],
+   [
+    -72.96925354003906
+   ],
+   [
+    -68.08952331542969
+   ],
+   [
+    -70.4758071899414
+   ],
+   [
+    -70.34612274169922
+   ],
+   [
+    -68.46246337890625
+   ],
+   [
+    -68.3520278930664
+   ],
+   [
+    -70.35688781738281
+   ],
+   [
+    -73.10499572753906
+   ],
+   [
+    -70.9581527709961
+   ],
+   [
+    -73.14073181152344
+   ],
+   [
+    -67.96514129638672
+   ],
+   [
+    -65.84095764160156
+   ],
+   [
+    -63.04653549194336
+   ],
+   [
+    -69.34831237792969
+   ],
+   [
+    -72.27344512939453
+   ],
+   [
+    -74.0732192993164
+   ],
+   [
+    -72.04359436035156
+   ],
+   [
+    -71.21546936035156
+   ],
+   [
+    -70.31182098388672
+   ],
+   [
+    -69.32461547851562
+   ],
+   [
+    -68.8768310546875
+   ],
+   [
+    -63.588279724121094
+   ],
+   [
+    -63.680870056152344
+   ],
+   [
+    -65.050048828125
+   ],
+   [
+    -66.95294952392578
+   ],
+   [
+    -72.47195434570312
+   ],
+   [
+    -64.40509033203125
+   ],
+   [
+    -68.70564270019531
+   ],
+   [
+    -72.74874114990234
+   ],
+   [
+    -70.51941680908203
+   ],
+   [
+    -66.98960876464844
+   ],
+   [
+    -68.23352813720703
+   ],
+   [
+    -63.94664764404297
+   ],
+   [
+    -70.26100158691406
+   ],
+   [
+    -63.69342803955078
+   ],
+   [
+    -65.65036010742188
+   ],
+   [
+    -69.51661682128906
+   ],
+   [
+    -69.26165008544922
+   ],
+   [
+    -62.6833610534668
+   ],
+   [
+    -69.42899322509766
+   ],
+   [
+    -68.52391052246094
+   ],
+   [
+    -72.0672378540039
+   ],
+   [
+    -62.16828155517578
+   ],
+   [
+    -66.81660461425781
+   ],
+   [
+    -70.32396697998047
+   ],
+   [
+    -68.08297729492188
+   ],
+   [
+    -73.55756378173828
+   ],
+   [
+    -65.33177947998047
+   ],
+   [
+    -67.6113052368164
+   ],
+   [
+    -72.17526245117188
+   ],
+   [
+    -69.42219543457031
+   ],
+   [
+    -62.21772766113281
+   ],
+   [
+    -67.91214752197266
+   ],
+   [
+    -67.24581909179688
+   ],
+   [
+    -53.205650329589844
+   ],
+   [
+    -65.01256561279297
+   ],
+   [
+    -69.0771484375
+   ],
+   [
+    -67.46451568603516
+   ],
+   [
+    -74.7186508178711
+   ],
+   [
+    -72.10899353027344
+   ],
+   [
+    -63.110084533691406
+   ],
+   [
+    -68.86476135253906
+   ],
+   [
+    -69.74617004394531
+   ],
+   [
+    -66.87303924560547
+   ],
+   [
+    -64.85702514648438
+   ],
+   [
+    -64.94416809082031
+   ],
+   [
+    -70.15730285644531
+   ],
+   [
+    -67.88648986816406
+   ],
+   [
+    -61.6710205078125
+   ],
+   [
+    -70.39994812011719
+   ],
+   [
+    -63.83070373535156
+   ],
+   [
+    -62.50237274169922
+   ],
+   [
+    -61.33245849609375
+   ],
+   [
+    -58.247291564941406
+   ],
+   [
+    -66.84020233154297
+   ],
+   [
+    -70.7176513671875
+   ],
+   [
+    -66.97251892089844
+   ],
+   [
+    -58.3050537109375
+   ],
+   [
+    -62.51921081542969
+   ],
+   [
+    -62.72972106933594
+   ],
+   [
+    -66.84644317626953
+   ],
+   [
+    -67.18719482421875
+   ],
+   [
+    -67.00100708007812
+   ],
+   [
+    -67.62415313720703
+   ],
+   [
+    -75.8757553100586
+   ],
+   [
+    -66.51902770996094
+   ],
+   [
+    -67.23421478271484
+   ],
+   [
+    -67.4637680053711
+   ],
+   [
+    -68.92068481445312
+   ],
+   [
+    -63.83741760253906
+   ],
+   [
+    -70.30422973632812
+   ],
+   [
+    -65.70840454101562
+   ],
+   [
+    -70.5997314453125
+   ],
+   [
+    -70.89844512939453
+   ],
+   [
+    -72.3946304321289
+   ],
+   [
+    -70.11075592041016
+   ],
+   [
+    -69.9769287109375
+   ],
+   [
+    -72.6337661743164
+   ],
+   [
+    -61.831417083740234
+   ],
+   [
+    -59.240501403808594
+   ],
+   [
+    -60.16934585571289
+   ],
+   [
+    -62.3968505859375
+   ],
+   [
+    -62.421417236328125
+   ],
+   [
+    -62.37995147705078
+   ],
+   [
+    -71.357666015625
+   ],
+   [
+    -71.75358581542969
+   ],
+   [
+    -70.7416000366211
+   ],
+   [
+    -58.15778350830078
+   ],
+   [
+    -68.75991821289062
+   ],
+   [
+    -69.97867584228516
+   ],
+   [
+    -64.27413177490234
+   ],
+   [
+    -69.36963653564453
+   ],
+   [
+    -62.146507263183594
+   ],
+   [
+    -66.82825469970703
+   ],
+   [
+    -64.92278289794922
+   ],
+   [
+    -70.8253402709961
+   ],
+   [
+    -73.52867889404297
+   ],
+   [
+    -73.45579528808594
+   ],
+   [
+    -69.2918930053711
+   ],
+   [
+    -68.42715454101562
+   ],
+   [
+    -70.18563842773438
+   ],
+   [
+    -64.48991394042969
+   ],
+   [
+    -71.20256805419922
+   ],
+   [
+    -70.52610778808594
+   ],
+   [
+    -58.177955627441406
+   ],
+   [
+    -70.39863586425781
+   ],
+   [
+    -67.18397521972656
+   ],
+   [
+    -64.76295471191406
+   ],
+   [
+    -62.59625244140625
+   ],
+   [
+    -62.079978942871094
+   ],
+   [
+    -68.47795104980469
+   ],
+   [
+    -71.992431640625
+   ],
+   [
+    -68.26090240478516
+   ],
+   [
+    -69.0324935913086
+   ],
+   [
+    -62.28008270263672
+   ],
+   [
+    -69.70410919189453
+   ],
+   [
+    -71.70913696289062
+   ],
+   [
+    -67.68265533447266
+   ],
+   [
+    -71.42366027832031
+   ],
+   [
+    -70.09187316894531
+   ],
+   [
+    -70.68490600585938
+   ],
+   [
+    -73.201904296875
+   ],
+   [
+    -65.8348617553711
+   ],
+   [
+    -69.45941925048828
+   ],
+   [
+    -73.63825988769531
+   ],
+   [
+    -66.91792297363281
+   ],
+   [
+    -70.84901428222656
+   ],
+   [
+    -67.81420135498047
+   ],
+   [
+    -62.099029541015625
+   ],
+   [
+    -70.64729309082031
+   ],
+   [
+    -70.19264221191406
+   ],
+   [
+    -64.09322357177734
+   ],
+   [
+    -65.31700134277344
+   ],
+   [
+    -69.88452911376953
+   ],
+   [
+    -67.83143615722656
+   ],
+   [
+    -67.21031951904297
+   ],
+   [
+    -70.0958251953125
+   ],
+   [
+    -70.10143280029297
+   ],
+   [
+    -65.39262390136719
+   ],
+   [
+    -60.12281036376953
+   ],
+   [
+    -72.00115966796875
+   ],
+   [
+    -63.60874557495117
+   ],
+   [
+    -74.20308685302734
+   ],
+   [
+    -69.6739273071289
+   ],
+   [
+    -58.48402404785156
+   ],
+   [
+    -63.981136322021484
+   ],
+   [
+    -69.26246643066406
+   ],
+   [
+    -66.97039794921875
+   ],
+   [
+    -69.98162078857422
+   ],
+   [
+    -67.55867004394531
+   ],
+   [
+    -70.91285705566406
+   ],
+   [
+    -69.47532653808594
+   ],
+   [
+    -63.59236526489258
+   ],
+   [
+    -64.94921875
+   ],
+   [
+    -67.31844329833984
+   ],
+   [
+    -63.96906280517578
+   ],
+   [
+    -70.64167785644531
+   ],
+   [
+    -69.8188247680664
+   ],
+   [
+    -58.325965881347656
+   ],
+   [
+    -72.02812194824219
+   ],
+   [
+    -64.81871795654297
+   ],
+   [
+    -64.75129699707031
+   ],
+   [
+    -68.2918701171875
+   ],
+   [
+    -71.15467834472656
+   ],
+   [
+    -72.91671752929688
+   ],
+   [
+    -70.43821716308594
+   ],
+   [
+    -71.22505187988281
+   ],
+   [
+    -66.77332305908203
+   ],
+   [
+    -71.52739715576172
+   ],
+   [
+    -64.15133666992188
+   ],
+   [
+    -70.27951049804688
+   ],
+   [
+    -77.96577453613281
+   ],
+   [
+    -77.07373046875
+   ],
+   [
+    -81.1212158203125
+   ],
+   [
+    -75.47380065917969
+   ],
+   [
+    -83.02613830566406
+   ],
+   [
+    -76.25212097167969
+   ],
+   [
+    -74.78509521484375
+   ],
+   [
+    -75.78163146972656
+   ],
+   [
+    -79.16401672363281
+   ],
+   [
+    -70.79885864257812
+   ],
+   [
+    -70.39811706542969
+   ],
+   [
+    -78.88780212402344
+   ],
+   [
+    -74.15874481201172
+   ],
+   [
+    -77.37484741210938
+   ],
+   [
+    -79.34463500976562
+   ],
+   [
+    -81.74874877929688
+   ],
+   [
+    -73.83419799804688
+   ],
+   [
+    -75.72367095947266
+   ],
+   [
+    -73.87806701660156
+   ],
+   [
+    -83.32484436035156
+   ],
+   [
+    -78.64373779296875
+   ],
+   [
+    -81.14266967773438
+   ],
+   [
+    -68.67691802978516
+   ],
+   [
+    -69.59934997558594
+   ],
+   [
+    -71.30044555664062
+   ],
+   [
+    -72.05537414550781
+   ],
+   [
+    -70.1815185546875
+   ],
+   [
+    -78.45976257324219
+   ],
+   [
+    -79.69611358642578
+   ],
+   [
+    -80.18069458007812
+   ],
+   [
+    -77.53022766113281
+   ],
+   [
+    -75.74691009521484
+   ],
+   [
+    -83.73953247070312
+   ],
+   [
+    -75.36078643798828
+   ],
+   [
+    -75.8636703491211
+   ],
+   [
+    -78.1810531616211
+   ],
+   [
+    -70.80012512207031
+   ],
+   [
+    -71.98446655273438
+   ],
+   [
+    -74.97430419921875
+   ],
+   [
+    -64.5858154296875
+   ],
+   [
+    -73.2669677734375
+   ],
+   [
+    -74.17120361328125
+   ],
+   [
+    -80.02052307128906
+   ],
+   [
+    -76.71018981933594
+   ],
+   [
+    -80.99227905273438
+   ],
+   [
+    -78.94722747802734
+   ],
+   [
+    -78.50216674804688
+   ],
+   [
+    -76.73065948486328
+   ],
+   [
+    -80.32469177246094
+   ],
+   [
+    -80.5963134765625
+   ],
+   [
+    -78.70240783691406
+   ],
+   [
+    -80.08552551269531
+   ],
+   [
+    -75.9355697631836
+   ],
+   [
+    -73.14019012451172
+   ],
+   [
+    -70.55915069580078
+   ],
+   [
+    -76.48678588867188
+   ],
+   [
+    -81.00704956054688
+   ],
+   [
+    -80.7127456665039
+   ],
+   [
+    -79.85759735107422
+   ],
+   [
+    -78.76544189453125
+   ],
+   [
+    -79.36289978027344
+   ],
+   [
+    -77.17739868164062
+   ],
+   [
+    -78.86112213134766
+   ],
+   [
+    -71.613525390625
+   ],
+   [
+    -71.29959869384766
+   ],
+   [
+    -73.33877563476562
+   ],
+   [
+    -76.4925308227539
+   ],
+   [
+    -77.35879516601562
+   ],
+   [
+    -71.84504699707031
+   ],
+   [
+    -77.17794799804688
+   ],
+   [
+    -82.03596496582031
+   ],
+   [
+    -80.83747863769531
+   ],
+   [
+    -74.6683349609375
+   ],
+   [
+    -77.21395874023438
+   ],
+   [
+    -72.64862060546875
+   ],
+   [
+    -80.34675598144531
+   ],
+   [
+    -71.4525146484375
+   ],
+   [
+    -73.93936157226562
+   ],
+   [
+    -77.21009826660156
+   ],
+   [
+    -79.02609252929688
+   ],
+   [
+    -71.61383819580078
+   ],
+   [
+    -76.00142669677734
+   ],
+   [
+    -77.72308349609375
+   ],
+   [
+    -79.7437744140625
+   ],
+   [
+    -71.08627319335938
+   ],
+   [
+    -73.05181884765625
+   ],
+   [
+    -79.05389404296875
+   ],
+   [
+    -76.02796173095703
+   ],
+   [
+    -80.58910369873047
+   ],
+   [
+    -73.30023193359375
+   ],
+   [
+    -76.02803039550781
+   ],
+   [
+    -79.38246154785156
+   ],
+   [
+    -76.680419921875
+   ],
+   [
+    -70.84693908691406
+   ],
+   [
+    -76.89970397949219
+   ],
+   [
+    -75.81098937988281
+   ],
+   [
+    -60.952911376953125
+   ],
+   [
+    -72.18423461914062
+   ],
+   [
+    -79.88883972167969
+   ],
+   [
+    -76.09586334228516
+   ],
+   [
+    -84.32586669921875
+   ],
+   [
+    -78.37496948242188
+   ],
+   [
+    -70.57695007324219
+   ],
+   [
+    -78.69161224365234
+   ],
+   [
+    -77.52967071533203
+   ],
+   [
+    -74.19319915771484
+   ],
+   [
+    -74.53944396972656
+   ],
+   [
+    -71.71615600585938
+   ],
+   [
+    -78.72980499267578
+   ],
+   [
+    -76.91471099853516
+   ],
+   [
+    -69.1871109008789
+   ],
+   [
+    -79.05856323242188
+   ],
+   [
+    -73.26260375976562
+   ],
+   [
+    -71.32440185546875
+   ],
+   [
+    -69.70896911621094
+   ],
+   [
+    -64.63688659667969
+   ],
+   [
+    -73.99615478515625
+   ],
+   [
+    -79.45703125
+   ],
+   [
+    -76.66954803466797
+   ],
+   [
+    -64.89474487304688
+   ],
+   [
+    -70.59524536132812
+   ],
+   [
+    -70.12873840332031
+   ],
+   [
+    -74.83847045898438
+   ],
+   [
+    -73.98062133789062
+   ],
+   [
+    -77.12195587158203
+   ],
+   [
+    -75.34636688232422
+   ],
+   [
+    -83.34202575683594
+   ],
+   [
+    -76.52940368652344
+   ],
+   [
+    -75.89131164550781
+   ],
+   [
+    -76.47889709472656
+   ],
+   [
+    -79.463623046875
+   ],
+   [
+    -72.51425170898438
+   ],
+   [
+    -78.79928588867188
+   ],
+   [
+    -73.70172882080078
+   ],
+   [
+    -78.46166229248047
+   ],
+   [
+    -79.53335571289062
+   ],
+   [
+    -80.87019348144531
+   ],
+   [
+    -78.18030548095703
+   ],
+   [
+    -77.18377685546875
+   ],
+   [
+    -82.6161117553711
+   ],
+   [
+    -69.29293823242188
+   ],
+   [
+    -65.77751159667969
+   ],
+   [
+    -64.38846588134766
+   ],
+   [
+    -71.55558776855469
+   ],
+   [
+    -71.50711822509766
+   ],
+   [
+    -71.02919006347656
+   ],
+   [
+    -77.5042724609375
+   ],
+   [
+    -79.39987182617188
+   ],
+   [
+    -79.3801498413086
+   ],
+   [
+    -64.41384887695312
+   ],
+   [
+    -77.12641906738281
+   ],
+   [
+    -76.38587188720703
+   ],
+   [
+    -73.49684143066406
+   ],
+   [
+    -76.78020477294922
+   ],
+   [
+    -71.0273208618164
+   ],
+   [
+    -75.07179260253906
+   ],
+   [
+    -75.22622680664062
+   ],
+   [
+    -79.54684448242188
+   ],
+   [
+    -80.42814636230469
+   ],
+   [
+    -80.1009521484375
+   ],
+   [
+    -78.90404510498047
+   ],
+   [
+    -79.28128814697266
+   ],
+   [
+    -78.75642395019531
+   ],
+   [
+    -71.02220153808594
+   ],
+   [
+    -78.96929931640625
+   ],
+   [
+    -80.10125732421875
+   ],
+   [
+    -65.02091979980469
+   ],
+   [
+    -78.26809692382812
+   ],
+   [
+    -75.60931396484375
+   ],
+   [
+    -72.74514770507812
+   ],
+   [
+    -71.54313659667969
+   ],
+   [
+    -69.78515625
+   ],
+   [
+    -77.41058349609375
+   ],
+   [
+    -80.28160095214844
+   ],
+   [
+    -74.97230529785156
+   ],
+   [
+    -78.30946350097656
+   ],
+   [
+    -70.40393829345703
+   ],
+   [
+    -78.26849365234375
+   ],
+   [
+    -79.26007843017578
+   ],
+   [
+    -74.35367584228516
+   ],
+   [
+    -79.41732025146484
+   ],
+   [
+    -80.47702026367188
+   ],
+   [
+    -81.83719635009766
+   ],
+   [
+    -80.77947235107422
+   ],
+   [
+    -74.35690307617188
+   ],
+   [
+    -76.1907730102539
+   ],
+   [
+    -80.13980865478516
+   ],
+   [
+    -75.56575012207031
+   ],
+   [
+    -78.81455993652344
+   ],
+   [
+    -75.41218566894531
+   ],
+   [
+    -69.59048461914062
+   ],
+   [
+    -78.71569061279297
+   ],
+   [
+    -79.86940002441406
+   ],
+   [
+    -72.2038803100586
+   ],
+   [
+    -74.69099426269531
+   ],
+   [
+    -76.63957977294922
+   ],
+   [
+    -76.33659362792969
+   ],
+   [
+    -75.77591705322266
+   ],
+   [
+    -78.26341247558594
+   ],
+   [
+    -77.99754333496094
+   ],
+   [
+    -73.34892272949219
+   ],
+   [
+    -66.26380920410156
+   ],
+   [
+    -78.43181610107422
+   ],
+   [
+    -69.91404724121094
+   ],
+   [
+    -82.97853088378906
+   ],
+   [
+    -75.4998779296875
+   ],
+   [
+    -64.44441223144531
+   ],
+   [
+    -74.23667907714844
+   ],
+   [
+    -79.62788391113281
+   ],
+   [
+    -75.21601104736328
+   ],
+   [
+    -76.91410064697266
+   ],
+   [
+    -73.8917236328125
+   ],
+   [
+    -79.9282455444336
+   ],
+   [
+    -74.54681396484375
+   ],
+   [
+    -71.71849060058594
+   ],
+   [
+    -73.06690979003906
+   ],
+   [
+    -74.1939697265625
+   ],
+   [
+    -72.86911010742188
+   ],
+   [
+    -78.90650939941406
+   ],
+   [
+    -78.49768829345703
+   ],
+   [
+    -64.3483657836914
+   ],
+   [
+    -78.51683807373047
+   ],
+   [
+    -75.10096740722656
+   ],
+   [
+    -72.70692443847656
+   ],
+   [
+    -77.45307922363281
+   ],
+   [
+    -77.66389465332031
+   ],
+   [
+    -82.03490447998047
+   ],
+   [
+    -79.19129943847656
+   ],
+   [
+    -80.34133911132812
+   ],
+   [
+    -76.84659576416016
+   ],
+   [
+    -80.3477783203125
+   ],
+   [
+    -71.50445556640625
+   ],
+   [
+    -79.19258880615234
+   ]
+  ]
+ ],
+ "time": 6370.658999443054
+}

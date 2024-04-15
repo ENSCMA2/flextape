@@ -1,0 +1,2076 @@
+{
+ "case_id": 21939,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Raoul Bott"
+ },
+ "pre": [
+  [
+   "Raoul Bott's field of work is abstract algebra",
+   "Raoul Bott's field of work is theology",
+   "Raoul Bott's field of work is television program",
+   "Raoul Bott's field of work is nanotechnology",
+   "Raoul Bott's field of work is hydrodynamics",
+   "Raoul Bott's field of work is ethics",
+   "Raoul Bott's field of work is physicist",
+   "Raoul Bott's field of work is evolution",
+   "Raoul Bott's field of work is distribution theory",
+   "Raoul Bott's field of work is psychophysiology",
+   "Raoul Bott's field of work is English literature",
+   "Raoul Bott's field of work is theoretical physics",
+   "Raoul Bott's field of work is essay",
+   "Raoul Bott's field of work is ethnology",
+   "Raoul Bott's field of work is pedagogy",
+   "Raoul Bott's field of work is kinetic theory",
+   "Raoul Bott's field of work is ethnography",
+   "Raoul Bott's field of work is rite",
+   "Raoul Bott's field of work is economics",
+   "Raoul Bott's field of work is dance choreography",
+   "Raoul Bott's field of work is biological anthropology",
+   "Raoul Bott's field of work is history of religions",
+   "Raoul Bott's field of work is political philosophy",
+   "Raoul Bott's field of work is philosophy",
+   "Raoul Bott's field of work is linguistics",
+   "Raoul Bott's field of work is cosmology",
+   "Raoul Bott's field of work is hunting",
+   "Raoul Bott's field of work is Minkowski spacetime",
+   "Raoul Bott's field of work is classical music",
+   "Raoul Bott's field of work is hyperbolic geometry",
+   "Raoul Bott's field of work is radioactivity",
+   "Raoul Bott's field of work is belletristic literature",
+   "Raoul Bott's field of work is model theory",
+   "Raoul Bott's field of work is choreography",
+   "Raoul Bott's field of work is chemistry",
+   "Raoul Bott's field of work is literary activity",
+   "Raoul Bott's field of work is historical sociology",
+   "Raoul Bott's field of work is feminism",
+   "Raoul Bott's field of work is economy",
+   "Raoul Bott's field of work is astronomy",
+   "Raoul Bott's field of work is topology",
+   "Raoul Bott's field of work is translations from English",
+   "Raoul Bott's field of work is partial differential equation",
+   "Raoul Bott's field of work is Cairo Geniza",
+   "Raoul Bott's field of work is nuclear physics",
+   "Raoul Bott's field of work is dance",
+   "Raoul Bott's field of work is informatics",
+   "Raoul Bott's field of work is geometry",
+   "Raoul Bott's field of work is computational geometry",
+   "Raoul Bott's field of work is Sanskrit",
+   "Raoul Bott's field of work is magnetism",
+   "Raoul Bott's field of work is opera",
+   "Raoul Bott's field of work is algebraic topology",
+   "Raoul Bott's field of work is quaternion",
+   "Raoul Bott's field of work is Bayesian inference",
+   "Raoul Bott's field of work is quantum electrodynamics",
+   "Raoul Bott's field of work is religion and society",
+   "Raoul Bott's field of work is history of economic thought",
+   "Raoul Bott's field of work is translations from Polish",
+   "Raoul Bott's field of work is literary translation",
+   "Raoul Bott's field of work is lyric poetry",
+   "Raoul Bott's field of work is probability theory",
+   "Raoul Bott's field of work is ontology",
+   "Raoul Bott's field of work is aerodynamics",
+   "Raoul Bott's field of work is crystallography",
+   "Raoul Bott's field of work is mathematics",
+   "Raoul Bott's field of work is harmonic analysis",
+   "Raoul Bott's field of work is history of science",
+   "Raoul Bott's field of work is philosophy of law",
+   "Raoul Bott's field of work is philology",
+   "Raoul Bott's field of work is optics",
+   "Raoul Bott's field of work is functional analysis",
+   "Raoul Bott's field of work is surgery",
+   "Raoul Bott's field of work is complex function",
+   "Raoul Bott's field of work is Jewish philosophy",
+   "Raoul Bott's field of work is translations from Spanish",
+   "Raoul Bott's field of work is poetry",
+   "Raoul Bott's field of work is distribution",
+   "Raoul Bott's field of work is astrology",
+   "Raoul Bott's field of work is differential geometry",
+   "Raoul Bott's field of work is mechanics",
+   "Raoul Bott's field of work is positivism",
+   "Raoul Bott's field of work is ferromagnetism",
+   "Raoul Bott's field of work is quantum physics",
+   "Raoul Bott's field of work is music theory",
+   "Raoul Bott's field of work is physiology",
+   "Raoul Bott's field of work is theory of differential equations",
+   "Raoul Bott's field of work is astrophysics",
+   "Raoul Bott's field of work is number theory",
+   "Raoul Bott's field of work is magnetic field",
+   "Raoul Bott's field of work is historical novel",
+   "Raoul Bott's field of work is stochastic",
+   "Raoul Bott's field of work is philosopher",
+   "Raoul Bott's field of work is histology",
+   "Raoul Bott's field of work is Franciscan spirituality",
+   "Raoul Bott's field of work is electromagnetic field",
+   "Raoul Bott's field of work is medicine",
+   "Raoul Bott's field of work is algebraic geometry",
+   "Raoul Bott's field of work is comparative mythology",
+   "Raoul Bott's field of work is color photography",
+   "Raoul Bott's field of work is cryptography",
+   "Raoul Bott's field of work is Christian Church",
+   "Raoul Bott's field of work is electrical engineering",
+   "Raoul Bott's field of work is folklore",
+   "Raoul Bott's field of work is mythology",
+   "Raoul Bott's field of work is human geography",
+   "Raoul Bott's field of work is Petrine ministry",
+   "Raoul Bott's field of work is Judaism",
+   "Raoul Bott's field of work is group theory",
+   "Raoul Bott's field of work is non-Euclidean geometry",
+   "Raoul Bott's field of work is algebra",
+   "Raoul Bott's field of work is ballistics",
+   "Raoul Bott's field of work is mathematician",
+   "Raoul Bott's field of work is applied physics",
+   "Raoul Bott's field of work is culturology",
+   "Raoul Bott's field of work is calculus of variations",
+   "Raoul Bott's field of work is logic",
+   "Raoul Bott's field of work is engineering",
+   "Raoul Bott's field of work is translations from Occitan",
+   "Raoul Bott's field of work is anatomy",
+   "Raoul Bott's field of work is forestry science",
+   "Raoul Bott's field of work is magic",
+   "Raoul Bott's field of work is quantum mechanics",
+   "Raoul Bott's field of work is differential calculus",
+   "Raoul Bott's field of work is shipbuilding",
+   "Raoul Bott's field of work is convex function",
+   "Raoul Bott's field of work is analytic philosophy",
+   "Raoul Bott's field of work is magnetic resonance",
+   "Raoul Bott's field of work is detective literature",
+   "Raoul Bott's field of work is cartography",
+   "Raoul Bott's field of work is sociology of organisations",
+   "Raoul Bott's field of work is crime novel",
+   "Raoul Bott's field of work is gravity",
+   "Raoul Bott's field of work is statistics",
+   "Raoul Bott's field of work is Greek philology",
+   "Raoul Bott's field of work is analytic number theory",
+   "Raoul Bott's field of work is trigonometry",
+   "Raoul Bott's field of work is physics",
+   "Raoul Bott's field of work is astronomer",
+   "Raoul Bott's field of work is natural science",
+   "Raoul Bott's field of work is information technology",
+   "Raoul Bott's field of work is conducting",
+   "Raoul Bott's field of work is nonstandard analysis",
+   "Raoul Bott's field of work is mathematical analysis",
+   "Raoul Bott's field of work is a branch of physics",
+   "Raoul Bott's field of work is projective geometry",
+   "Raoul Bott's field of work is civil rights",
+   "Raoul Bott's field of work is children's and youth literature",
+   "Raoul Bott's field of work is embryology",
+   "Raoul Bott's field of work is momentum",
+   "Raoul Bott's field of work is African studies",
+   "Raoul Bott's field of work is fairy tale",
+   "Raoul Bott's field of work is classics",
+   "Raoul Bott's field of work is social psychology",
+   "Raoul Bott's field of work is Jewish studies",
+   "Raoul Bott's field of work is silviculture",
+   "Raoul Bott's field of work is education",
+   "Raoul Bott's field of work is literature",
+   "Raoul Bott's field of work is constitutional law",
+   "Raoul Bott's field of work is radiation",
+   "Raoul Bott's field of work is Internet",
+   "Raoul Bott's field of work is heat",
+   "Raoul Bott's field of work is mechanical engineering",
+   "Raoul Bott's field of work is forestry",
+   "Raoul Bott's field of work is jazz",
+   "Raoul Bott's field of work is social philosophy",
+   "Raoul Bott's field of work is mathematical physics",
+   "Raoul Bott's field of work is meteorology",
+   "Raoul Bott's field of work is translations from Arabic language",
+   "Raoul Bott's field of work is quantum mysticism",
+   "Raoul Bott's field of work is politics",
+   "Raoul Bott's field of work is astronomical observation",
+   "Raoul Bott's field of work is myth",
+   "Raoul Bott's field of work is geography",
+   "Raoul Bott's field of work is sociology of religion",
+   "Raoul Bott's field of work is comparative religion",
+   "Raoul Bott's field of work is Greek",
+   "Raoul Bott's field of work is Lie algebra",
+   "Raoul Bott's field of work is complex manifold",
+   "Raoul Bott's field of work is journalism",
+   "Raoul Bott's field of work is celestial mechanics",
+   "Raoul Bott's field of work is String",
+   "Raoul Bott's field of work is mathematical logic",
+   "Raoul Bott's field of work is aeromechanics",
+   "Raoul Bott's field of work is English",
+   "Raoul Bott's field of work is history",
+   "Raoul Bott's field of work is study of history",
+   "Raoul Bott's field of work is genetics",
+   "Raoul Bott's field of work is psychology",
+   "Raoul Bott's field of work is theory of relativity",
+   "Raoul Bott's field of work is biochemistry",
+   "Raoul Bott's field of work is ballet",
+   "Raoul Bott's field of work is electricity",
+   "Raoul Bott's field of work is experimental physics",
+   "Raoul Bott's field of work is natural theology",
+   "Raoul Bott's field of work is Hebrew",
+   "Raoul Bott's field of work is prose",
+   "Raoul Bott's field of work is paleontology",
+   "Raoul Bott's field of work is Monte Carlo method",
+   "Raoul Bott's field of work is quantum theory",
+   "Raoul Bott's field of work is computer science",
+   "Raoul Bott's field of work is cybernetics",
+   "Raoul Bott's field of work is Afghanistan",
+   "Raoul Bott's field of work is philosophy of science",
+   "Raoul Bott's field of work is literary theory",
+   "Raoul Bott's field of work is electric field",
+   "Raoul Bott's field of work is religion",
+   "Raoul Bott's field of work is analytic geometry",
+   "Raoul Bott's field of work is graph theory",
+   "Raoul Bott's field of work is electron",
+   "Raoul Bott's field of work is anthropology",
+   "Raoul Bott's field of work is social anthropology",
+   "Raoul Bott's field of work is sociology",
+   "Raoul Bott's field of work is geodesy",
+   "Raoul Bott's field of work is neurology",
+   "Raoul Bott's field of work is drama",
+   "Raoul Bott's field of work is art of painting",
+   "Raoul Bott's field of work is applied mathematics",
+   "Raoul Bott's field of work is world economy",
+   "Raoul Bott's field of work is economic anthropology",
+   "Raoul Bott is abstract algebra",
+   "Raoul Bott is theology",
+   "Raoul Bott is television program",
+   "Raoul Bott is nanotechnology",
+   "Raoul Bott is hydrodynamics",
+   "Raoul Bott is ethics",
+   "Raoul Bott is physicist",
+   "Raoul Bott is evolution",
+   "Raoul Bott is distribution theory",
+   "Raoul Bott is psychophysiology",
+   "Raoul Bott is English literature",
+   "Raoul Bott is theoretical physics",
+   "Raoul Bott is essay",
+   "Raoul Bott is ethnology",
+   "Raoul Bott is pedagogy",
+   "Raoul Bott is kinetic theory",
+   "Raoul Bott is ethnography",
+   "Raoul Bott is rite",
+   "Raoul Bott is economics",
+   "Raoul Bott is dance choreography",
+   "Raoul Bott is biological anthropology",
+   "Raoul Bott is history of religions",
+   "Raoul Bott is political philosophy",
+   "Raoul Bott is philosophy",
+   "Raoul Bott is linguistics",
+   "Raoul Bott is cosmology",
+   "Raoul Bott is hunting",
+   "Raoul Bott is Minkowski spacetime",
+   "Raoul Bott is classical music",
+   "Raoul Bott is hyperbolic geometry",
+   "Raoul Bott is radioactivity",
+   "Raoul Bott is belletristic literature",
+   "Raoul Bott is model theory",
+   "Raoul Bott is choreography",
+   "Raoul Bott is chemistry",
+   "Raoul Bott is literary activity",
+   "Raoul Bott is historical sociology",
+   "Raoul Bott is feminism",
+   "Raoul Bott is economy",
+   "Raoul Bott is astronomy",
+   "Raoul Bott is topology",
+   "Raoul Bott is translations from English",
+   "Raoul Bott is partial differential equation",
+   "Raoul Bott is Cairo Geniza",
+   "Raoul Bott is nuclear physics",
+   "Raoul Bott is dance",
+   "Raoul Bott is informatics",
+   "Raoul Bott is geometry",
+   "Raoul Bott is computational geometry",
+   "Raoul Bott is Sanskrit",
+   "Raoul Bott is magnetism",
+   "Raoul Bott is opera",
+   "Raoul Bott is algebraic topology",
+   "Raoul Bott is quaternion",
+   "Raoul Bott is Bayesian inference",
+   "Raoul Bott is quantum electrodynamics",
+   "Raoul Bott is religion and society",
+   "Raoul Bott is history of economic thought",
+   "Raoul Bott is translations from Polish",
+   "Raoul Bott is literary translation",
+   "Raoul Bott is lyric poetry",
+   "Raoul Bott is probability theory",
+   "Raoul Bott is ontology",
+   "Raoul Bott is aerodynamics",
+   "Raoul Bott is crystallography",
+   "Raoul Bott is mathematics",
+   "Raoul Bott is harmonic analysis",
+   "Raoul Bott is history of science",
+   "Raoul Bott is philosophy of law",
+   "Raoul Bott is philology",
+   "Raoul Bott is optics",
+   "Raoul Bott is functional analysis",
+   "Raoul Bott is surgery",
+   "Raoul Bott is complex function",
+   "Raoul Bott is Jewish philosophy",
+   "Raoul Bott is translations from Spanish",
+   "Raoul Bott is poetry",
+   "Raoul Bott is distribution",
+   "Raoul Bott is astrology",
+   "Raoul Bott is differential geometry",
+   "Raoul Bott is mechanics",
+   "Raoul Bott is positivism",
+   "Raoul Bott is ferromagnetism",
+   "Raoul Bott is quantum physics",
+   "Raoul Bott is music theory",
+   "Raoul Bott is physiology",
+   "Raoul Bott is theory of differential equations",
+   "Raoul Bott is astrophysics",
+   "Raoul Bott is number theory",
+   "Raoul Bott is magnetic field",
+   "Raoul Bott is historical novel",
+   "Raoul Bott is stochastic",
+   "Raoul Bott is philosopher",
+   "Raoul Bott is histology",
+   "Raoul Bott is Franciscan spirituality",
+   "Raoul Bott is electromagnetic field",
+   "Raoul Bott is medicine",
+   "Raoul Bott is algebraic geometry",
+   "Raoul Bott is comparative mythology",
+   "Raoul Bott is color photography",
+   "Raoul Bott is cryptography",
+   "Raoul Bott is Christian Church",
+   "Raoul Bott is electrical engineering",
+   "Raoul Bott is folklore",
+   "Raoul Bott is mythology",
+   "Raoul Bott is human geography",
+   "Raoul Bott is Petrine ministry",
+   "Raoul Bott is Judaism",
+   "Raoul Bott is group theory",
+   "Raoul Bott is non-Euclidean geometry",
+   "Raoul Bott is algebra",
+   "Raoul Bott is ballistics",
+   "Raoul Bott is mathematician",
+   "Raoul Bott is applied physics",
+   "Raoul Bott is culturology",
+   "Raoul Bott is calculus of variations",
+   "Raoul Bott is logic",
+   "Raoul Bott is engineering",
+   "Raoul Bott is translations from Occitan",
+   "Raoul Bott is anatomy",
+   "Raoul Bott is forestry science",
+   "Raoul Bott is magic",
+   "Raoul Bott is quantum mechanics",
+   "Raoul Bott is differential calculus",
+   "Raoul Bott is shipbuilding",
+   "Raoul Bott is convex function",
+   "Raoul Bott is analytic philosophy",
+   "Raoul Bott is magnetic resonance",
+   "Raoul Bott is detective literature",
+   "Raoul Bott is cartography",
+   "Raoul Bott is sociology of organisations",
+   "Raoul Bott is crime novel",
+   "Raoul Bott is gravity",
+   "Raoul Bott is statistics",
+   "Raoul Bott is Greek philology",
+   "Raoul Bott is analytic number theory",
+   "Raoul Bott is trigonometry",
+   "Raoul Bott is physics",
+   "Raoul Bott is astronomer",
+   "Raoul Bott is natural science",
+   "Raoul Bott is information technology",
+   "Raoul Bott is conducting",
+   "Raoul Bott is nonstandard analysis",
+   "Raoul Bott is mathematical analysis",
+   "Raoul Bott is a branch of physics",
+   "Raoul Bott is projective geometry",
+   "Raoul Bott is civil rights",
+   "Raoul Bott is children's and youth literature",
+   "Raoul Bott is embryology",
+   "Raoul Bott is momentum",
+   "Raoul Bott is African studies",
+   "Raoul Bott is fairy tale",
+   "Raoul Bott is classics",
+   "Raoul Bott is social psychology",
+   "Raoul Bott is Jewish studies",
+   "Raoul Bott is silviculture",
+   "Raoul Bott is education",
+   "Raoul Bott is literature",
+   "Raoul Bott is constitutional law",
+   "Raoul Bott is radiation",
+   "Raoul Bott is Internet",
+   "Raoul Bott is heat",
+   "Raoul Bott is mechanical engineering",
+   "Raoul Bott is forestry",
+   "Raoul Bott is jazz",
+   "Raoul Bott is social philosophy",
+   "Raoul Bott is mathematical physics",
+   "Raoul Bott is meteorology",
+   "Raoul Bott is translations from Arabic language",
+   "Raoul Bott is quantum mysticism",
+   "Raoul Bott is politics",
+   "Raoul Bott is astronomical observation",
+   "Raoul Bott is myth",
+   "Raoul Bott is geography",
+   "Raoul Bott is sociology of religion",
+   "Raoul Bott is comparative religion",
+   "Raoul Bott is Greek",
+   "Raoul Bott is Lie algebra",
+   "Raoul Bott is complex manifold",
+   "Raoul Bott is journalism",
+   "Raoul Bott is celestial mechanics",
+   "Raoul Bott is String",
+   "Raoul Bott is mathematical logic",
+   "Raoul Bott is aeromechanics",
+   "Raoul Bott is English",
+   "Raoul Bott is history",
+   "Raoul Bott is study of history",
+   "Raoul Bott is genetics",
+   "Raoul Bott is psychology",
+   "Raoul Bott is theory of relativity",
+   "Raoul Bott is biochemistry",
+   "Raoul Bott is ballet",
+   "Raoul Bott is electricity",
+   "Raoul Bott is experimental physics",
+   "Raoul Bott is natural theology",
+   "Raoul Bott is Hebrew",
+   "Raoul Bott is prose",
+   "Raoul Bott is paleontology",
+   "Raoul Bott is Monte Carlo method",
+   "Raoul Bott is quantum theory",
+   "Raoul Bott is computer science",
+   "Raoul Bott is cybernetics",
+   "Raoul Bott is Afghanistan",
+   "Raoul Bott is philosophy of science",
+   "Raoul Bott is literary theory",
+   "Raoul Bott is electric field",
+   "Raoul Bott is religion",
+   "Raoul Bott is analytic geometry",
+   "Raoul Bott is graph theory",
+   "Raoul Bott is electron",
+   "Raoul Bott is anthropology",
+   "Raoul Bott is social anthropology",
+   "Raoul Bott is sociology",
+   "Raoul Bott is geodesy",
+   "Raoul Bott is neurology",
+   "Raoul Bott is drama",
+   "Raoul Bott is art of painting",
+   "Raoul Bott is applied mathematics",
+   "Raoul Bott is world economy",
+   "Raoul Bott is economic anthropology"
+  ],
+  [
+   [
+    -47.463539123535156
+   ],
+   [
+    -53.91352844238281
+   ],
+   [
+    -61.448936462402344
+   ],
+   [
+    -55.5869140625
+   ],
+   [
+    -51.44276428222656
+   ],
+   [
+    -54.98163604736328
+   ],
+   [
+    -54.6679573059082
+   ],
+   [
+    -49.80156707763672
+   ],
+   [
+    -52.23523712158203
+   ],
+   [
+    -59.380088806152344
+   ],
+   [
+    -51.68303680419922
+   ],
+   [
+    -48.59362030029297
+   ],
+   [
+    -53.032493591308594
+   ],
+   [
+    -57.47466278076172
+   ],
+   [
+    -53.886634826660156
+   ],
+   [
+    -52.733055114746094
+   ],
+   [
+    -57.49968338012695
+   ],
+   [
+    -62.15478515625
+   ],
+   [
+    -51.43531799316406
+   ],
+   [
+    -59.37865447998047
+   ],
+   [
+    -59.70268630981445
+   ],
+   [
+    -59.86774444580078
+   ],
+   [
+    -55.694725036621094
+   ],
+   [
+    -51.366188049316406
+   ],
+   [
+    -54.74071502685547
+   ],
+   [
+    -51.449615478515625
+   ],
+   [
+    -53.620262145996094
+   ],
+   [
+    -57.86970901489258
+   ],
+   [
+    -56.423004150390625
+   ],
+   [
+    -47.086204528808594
+   ],
+   [
+    -59.063697814941406
+   ],
+   [
+    -61.98045349121094
+   ],
+   [
+    -49.0579833984375
+   ],
+   [
+    -55.89680099487305
+   ],
+   [
+    -53.81092834472656
+   ],
+   [
+    -62.14885711669922
+   ],
+   [
+    -59.31553649902344
+   ],
+   [
+    -56.59068298339844
+   ],
+   [
+    -55.18187713623047
+   ],
+   [
+    -52.89752197265625
+   ],
+   [
+    -44.726016998291016
+   ],
+   [
+    -61.234825134277344
+   ],
+   [
+    -51.68317413330078
+   ],
+   [
+    -66.42855834960938
+   ],
+   [
+    -52.854087829589844
+   ],
+   [
+    -55.09551239013672
+   ],
+   [
+    -55.37432098388672
+   ],
+   [
+    -44.5405158996582
+   ],
+   [
+    -48.88441467285156
+   ],
+   [
+    -55.64164733886719
+   ],
+   [
+    -55.73778533935547
+   ],
+   [
+    -53.12224578857422
+   ],
+   [
+    -43.69352722167969
+   ],
+   [
+    -56.67804718017578
+   ],
+   [
+    -53.61234664916992
+   ],
+   [
+    -58.00042724609375
+   ],
+   [
+    -58.674293518066406
+   ],
+   [
+    -60.80620574951172
+   ],
+   [
+    -64.49321746826172
+   ],
+   [
+    -56.08031463623047
+   ],
+   [
+    -57.91398620605469
+   ],
+   [
+    -48.79557800292969
+   ],
+   [
+    -54.125465393066406
+   ],
+   [
+    -53.12323760986328
+   ],
+   [
+    -51.611812591552734
+   ],
+   [
+    -44.65070724487305
+   ],
+   [
+    -46.95083236694336
+   ],
+   [
+    -54.50628662109375
+   ],
+   [
+    -59.17539596557617
+   ],
+   [
+    -55.9727783203125
+   ],
+   [
+    -51.69853210449219
+   ],
+   [
+    -47.62152099609375
+   ],
+   [
+    -51.21803283691406
+   ],
+   [
+    -48.92498016357422
+   ],
+   [
+    -54.46430969238281
+   ],
+   [
+    -65.78760528564453
+   ],
+   [
+    -51.580665588378906
+   ],
+   [
+    -50.955230712890625
+   ],
+   [
+    -54.476322174072266
+   ],
+   [
+    -44.257835388183594
+   ],
+   [
+    -51.3896484375
+   ],
+   [
+    -58.7557487487793
+   ],
+   [
+    -55.74287414550781
+   ],
+   [
+    -53.407867431640625
+   ],
+   [
+    -53.649940490722656
+   ],
+   [
+    -53.279457092285156
+   ],
+   [
+    -50.11445999145508
+   ],
+   [
+    -51.45274353027344
+   ],
+   [
+    -45.247406005859375
+   ],
+   [
+    -55.85350799560547
+   ],
+   [
+    -62.116371154785156
+   ],
+   [
+    -49.11805725097656
+   ],
+   [
+    -56.60147476196289
+   ],
+   [
+    -55.32489013671875
+   ],
+   [
+    -68.17251586914062
+   ],
+   [
+    -57.743408203125
+   ],
+   [
+    -54.376922607421875
+   ],
+   [
+    -43.79326629638672
+   ],
+   [
+    -58.80757522583008
+   ],
+   [
+    -60.646976470947266
+   ],
+   [
+    -50.27142333984375
+   ],
+   [
+    -59.789039611816406
+   ],
+   [
+    -51.851375579833984
+   ],
+   [
+    -52.925209045410156
+   ],
+   [
+    -55.08062744140625
+   ],
+   [
+    -55.447418212890625
+   ],
+   [
+    -64.91236877441406
+   ],
+   [
+    -56.94609832763672
+   ],
+   [
+    -48.34892272949219
+   ],
+   [
+    -51.93302917480469
+   ],
+   [
+    -45.08229064941406
+   ],
+   [
+    -54.23643493652344
+   ],
+   [
+    -51.11881637573242
+   ],
+   [
+    -56.17040252685547
+   ],
+   [
+    -60.49663543701172
+   ],
+   [
+    -49.0692024230957
+   ],
+   [
+    -48.793670654296875
+   ],
+   [
+    -52.57306671142578
+   ],
+   [
+    -72.80671691894531
+   ],
+   [
+    -53.213470458984375
+   ],
+   [
+    -59.209075927734375
+   ],
+   [
+    -51.750511169433594
+   ],
+   [
+    -51.333656311035156
+   ],
+   [
+    -51.21635437011719
+   ],
+   [
+    -55.09112548828125
+   ],
+   [
+    -53.410133361816406
+   ],
+   [
+    -55.49364471435547
+   ],
+   [
+    -53.42018508911133
+   ],
+   [
+    -64.41935729980469
+   ],
+   [
+    -52.70338439941406
+   ],
+   [
+    -62.52235794067383
+   ],
+   [
+    -60.47077178955078
+   ],
+   [
+    -53.9044189453125
+   ],
+   [
+    -49.975013732910156
+   ],
+   [
+    -62.611534118652344
+   ],
+   [
+    -46.505332946777344
+   ],
+   [
+    -50.946083068847656
+   ],
+   [
+    -49.541969299316406
+   ],
+   [
+    -60.384681701660156
+   ],
+   [
+    -52.394775390625
+   ],
+   [
+    -55.45103454589844
+   ],
+   [
+    -52.663360595703125
+   ],
+   [
+    -52.278079986572266
+   ],
+   [
+    -45.470157623291016
+   ],
+   [
+    -56.17647171020508
+   ],
+   [
+    -52.15199661254883
+   ],
+   [
+    -56.62749481201172
+   ],
+   [
+    -60.9910888671875
+   ],
+   [
+    -57.323387145996094
+   ],
+   [
+    -54.404693603515625
+   ],
+   [
+    -55.80659484863281
+   ],
+   [
+    -58.276588439941406
+   ],
+   [
+    -52.32372283935547
+   ],
+   [
+    -54.81390380859375
+   ],
+   [
+    -52.587562561035156
+   ],
+   [
+    -58.92270278930664
+   ],
+   [
+    -51.121238708496094
+   ],
+   [
+    -52.28021240234375
+   ],
+   [
+    -56.286582946777344
+   ],
+   [
+    -52.64939880371094
+   ],
+   [
+    -53.9688720703125
+   ],
+   [
+    -51.57237243652344
+   ],
+   [
+    -54.12574005126953
+   ],
+   [
+    -54.9136962890625
+   ],
+   [
+    -52.988739013671875
+   ],
+   [
+    -58.50640106201172
+   ],
+   [
+    -45.60201644897461
+   ],
+   [
+    -52.726226806640625
+   ],
+   [
+    -71.44583129882812
+   ],
+   [
+    -62.0649299621582
+   ],
+   [
+    -54.304908752441406
+   ],
+   [
+    -62.41010284423828
+   ],
+   [
+    -54.72142791748047
+   ],
+   [
+    -50.085914611816406
+   ],
+   [
+    -56.430747985839844
+   ],
+   [
+    -58.483863830566406
+   ],
+   [
+    -54.26689147949219
+   ],
+   [
+    -49.21855926513672
+   ],
+   [
+    -50.1884765625
+   ],
+   [
+    -53.77815246582031
+   ],
+   [
+    -49.36255645751953
+   ],
+   [
+    -50.754249572753906
+   ],
+   [
+    -47.524810791015625
+   ],
+   [
+    -59.74580764770508
+   ],
+   [
+    -50.359718322753906
+   ],
+   [
+    -50.277671813964844
+   ],
+   [
+    -59.92401885986328
+   ],
+   [
+    -54.10417556762695
+   ],
+   [
+    -54.646095275878906
+   ],
+   [
+    -55.392059326171875
+   ],
+   [
+    -54.66230392456055
+   ],
+   [
+    -58.011741638183594
+   ],
+   [
+    -52.323829650878906
+   ],
+   [
+    -56.1495361328125
+   ],
+   [
+    -61.89911651611328
+   ],
+   [
+    -52.51884460449219
+   ],
+   [
+    -54.579864501953125
+   ],
+   [
+    -57.74658203125
+   ],
+   [
+    -56.9544563293457
+   ],
+   [
+    -53.303977966308594
+   ],
+   [
+    -49.301292419433594
+   ],
+   [
+    -53.16617965698242
+   ],
+   [
+    -55.52764129638672
+   ],
+   [
+    -54.4272575378418
+   ],
+   [
+    -55.944091796875
+   ],
+   [
+    -55.732337951660156
+   ],
+   [
+    -53.441932678222656
+   ],
+   [
+    -48.313804626464844
+   ],
+   [
+    -47.787864685058594
+   ],
+   [
+    -52.752357482910156
+   ],
+   [
+    -55.12329864501953
+   ],
+   [
+    -57.614498138427734
+   ],
+   [
+    -52.836219787597656
+   ],
+   [
+    -49.279151916503906
+   ],
+   [
+    -52.25768280029297
+   ],
+   [
+    -54.858306884765625
+   ],
+   [
+    -62.144691467285156
+   ],
+   [
+    -47.951629638671875
+   ],
+   [
+    -60.81190490722656
+   ],
+   [
+    -61.26753616333008
+   ],
+   [
+    -40.389522552490234
+   ],
+   [
+    -42.61127471923828
+   ],
+   [
+    -45.935997009277344
+   ],
+   [
+    -42.53611755371094
+   ],
+   [
+    -43.58940124511719
+   ],
+   [
+    -42.337974548339844
+   ],
+   [
+    -36.992454528808594
+   ],
+   [
+    -40.72560119628906
+   ],
+   [
+    -45.562652587890625
+   ],
+   [
+    -47.6506462097168
+   ],
+   [
+    -45.187503814697266
+   ],
+   [
+    -39.96980667114258
+   ],
+   [
+    -38.37161636352539
+   ],
+   [
+    -46.088958740234375
+   ],
+   [
+    -43.09266662597656
+   ],
+   [
+    -44.9081916809082
+   ],
+   [
+    -46.558013916015625
+   ],
+   [
+    -44.62897872924805
+   ],
+   [
+    -38.59918212890625
+   ],
+   [
+    -47.519500732421875
+   ],
+   [
+    -48.684288024902344
+   ],
+   [
+    -51.801780700683594
+   ],
+   [
+    -44.42192459106445
+   ],
+   [
+    -38.50373458862305
+   ],
+   [
+    -41.96766662597656
+   ],
+   [
+    -40.967288970947266
+   ],
+   [
+    -39.11190414428711
+   ],
+   [
+    -50.873008728027344
+   ],
+   [
+    -39.797813415527344
+   ],
+   [
+    -43.797874450683594
+   ],
+   [
+    -47.627830505371094
+   ],
+   [
+    -52.05646514892578
+   ],
+   [
+    -46.64605712890625
+   ],
+   [
+    -44.01416015625
+   ],
+   [
+    -39.54772186279297
+   ],
+   [
+    -48.40064239501953
+   ],
+   [
+    -45.680450439453125
+   ],
+   [
+    -44.28730773925781
+   ],
+   [
+    -41.41744613647461
+   ],
+   [
+    -41.36542510986328
+   ],
+   [
+    -40.868682861328125
+   ],
+   [
+    -50.06676483154297
+   ],
+   [
+    -41.33221435546875
+   ],
+   [
+    -54.192543029785156
+   ],
+   [
+    -44.48737716674805
+   ],
+   [
+    -39.971004486083984
+   ],
+   [
+    -44.70269775390625
+   ],
+   [
+    -40.16946792602539
+   ],
+   [
+    -42.889129638671875
+   ],
+   [
+    -40.19285202026367
+   ],
+   [
+    -43.336639404296875
+   ],
+   [
+    -38.80282211303711
+   ],
+   [
+    -41.4241828918457
+   ],
+   [
+    -43.54645538330078
+   ],
+   [
+    -45.568389892578125
+   ],
+   [
+    -46.1177978515625
+   ],
+   [
+    -46.193626403808594
+   ],
+   [
+    -52.06017303466797
+   ],
+   [
+    -50.30651092529297
+   ],
+   [
+    -45.828765869140625
+   ],
+   [
+    -46.7657585144043
+   ],
+   [
+    -43.054931640625
+   ],
+   [
+    -45.685081481933594
+   ],
+   [
+    -43.821998596191406
+   ],
+   [
+    -44.26565933227539
+   ],
+   [
+    -35.087764739990234
+   ],
+   [
+    -40.67431640625
+   ],
+   [
+    -43.07905960083008
+   ],
+   [
+    -48.16935729980469
+   ],
+   [
+    -45.13319396972656
+   ],
+   [
+    -41.935447692871094
+   ],
+   [
+    -42.0065803527832
+   ],
+   [
+    -41.12619400024414
+   ],
+   [
+    -45.012332916259766
+   ],
+   [
+    -44.68859100341797
+   ],
+   [
+    -51.921966552734375
+   ],
+   [
+    -39.21030807495117
+   ],
+   [
+    -41.4571533203125
+   ],
+   [
+    -44.08169937133789
+   ],
+   [
+    -40.504661560058594
+   ],
+   [
+    -42.72706604003906
+   ],
+   [
+    -46.570865631103516
+   ],
+   [
+    -47.699459075927734
+   ],
+   [
+    -42.56003952026367
+   ],
+   [
+    -42.19841766357422
+   ],
+   [
+    -45.121971130371094
+   ],
+   [
+    -44.48473358154297
+   ],
+   [
+    -41.38360595703125
+   ],
+   [
+    -41.103919982910156
+   ],
+   [
+    -44.28790283203125
+   ],
+   [
+    -42.39909362792969
+   ],
+   [
+    -40.54767608642578
+   ],
+   [
+    -38.31601333618164
+   ],
+   [
+    -45.41987228393555
+   ],
+   [
+    -60.30413818359375
+   ],
+   [
+    -43.67619323730469
+   ],
+   [
+    -41.552425384521484
+   ],
+   [
+    -40.27915954589844
+   ],
+   [
+    -46.06081771850586
+   ],
+   [
+    -46.94475555419922
+   ],
+   [
+    -41.85041046142578
+   ],
+   [
+    -47.599910736083984
+   ],
+   [
+    -40.567420959472656
+   ],
+   [
+    -40.73267364501953
+   ],
+   [
+    -42.361873626708984
+   ],
+   [
+    -46.098236083984375
+   ],
+   [
+    -61.151702880859375
+   ],
+   [
+    -46.99332809448242
+   ],
+   [
+    -44.44343948364258
+   ],
+   [
+    -42.60316848754883
+   ],
+   [
+    -40.005001068115234
+   ],
+   [
+    -44.525169372558594
+   ],
+   [
+    -34.60905838012695
+   ],
+   [
+    -44.81684112548828
+   ],
+   [
+    -49.157257080078125
+   ],
+   [
+    -46.60327911376953
+   ],
+   [
+    -40.18107986450195
+   ],
+   [
+    -38.652034759521484
+   ],
+   [
+    -56.53846740722656
+   ],
+   [
+    -40.866722106933594
+   ],
+   [
+    -49.32776641845703
+   ],
+   [
+    -38.40383529663086
+   ],
+   [
+    -41.02870178222656
+   ],
+   [
+    -44.29320526123047
+   ],
+   [
+    -44.27294921875
+   ],
+   [
+    -46.023048400878906
+   ],
+   [
+    -44.15478515625
+   ],
+   [
+    -44.652122497558594
+   ],
+   [
+    -52.6608772277832
+   ],
+   [
+    -42.85444641113281
+   ],
+   [
+    -55.923255920410156
+   ],
+   [
+    -43.81083679199219
+   ],
+   [
+    -40.39200973510742
+   ],
+   [
+    -39.39927291870117
+   ],
+   [
+    -56.15312194824219
+   ],
+   [
+    -40.18680191040039
+   ],
+   [
+    -41.513023376464844
+   ],
+   [
+    -37.74234390258789
+   ],
+   [
+    -39.675880432128906
+   ],
+   [
+    -41.890682220458984
+   ],
+   [
+    -41.57930374145508
+   ],
+   [
+    -35.48226547241211
+   ],
+   [
+    -44.96507263183594
+   ],
+   [
+    -41.78108215332031
+   ],
+   [
+    -43.880157470703125
+   ],
+   [
+    -44.4318733215332
+   ],
+   [
+    -41.97325897216797
+   ],
+   [
+    -52.086151123046875
+   ],
+   [
+    -47.49382781982422
+   ],
+   [
+    -43.3120231628418
+   ],
+   [
+    -47.239845275878906
+   ],
+   [
+    -41.91327667236328
+   ],
+   [
+    -38.49940490722656
+   ],
+   [
+    -45.4921875
+   ],
+   [
+    -40.567481994628906
+   ],
+   [
+    -50.798927307128906
+   ],
+   [
+    -38.26890563964844
+   ],
+   [
+    -40.27548599243164
+   ],
+   [
+    -43.35441207885742
+   ],
+   [
+    -40.61122512817383
+   ],
+   [
+    -38.216487884521484
+   ],
+   [
+    -42.7117805480957
+   ],
+   [
+    -39.86249923706055
+   ],
+   [
+    -43.756256103515625
+   ],
+   [
+    -38.048126220703125
+   ],
+   [
+    -48.429656982421875
+   ],
+   [
+    -39.29621124267578
+   ],
+   [
+    -43.19739532470703
+   ],
+   [
+    -57.908546447753906
+   ],
+   [
+    -49.030372619628906
+   ],
+   [
+    -40.61557388305664
+   ],
+   [
+    -47.77830505371094
+   ],
+   [
+    -38.014015197753906
+   ],
+   [
+    -40.758880615234375
+   ],
+   [
+    -49.106849670410156
+   ],
+   [
+    -45.403602600097656
+   ],
+   [
+    -38.9888916015625
+   ],
+   [
+    -46.26624298095703
+   ],
+   [
+    -46.554344177246094
+   ],
+   [
+    -41.17612838745117
+   ],
+   [
+    -48.5833740234375
+   ],
+   [
+    -38.87106704711914
+   ],
+   [
+    -39.820465087890625
+   ],
+   [
+    -48.57130813598633
+   ],
+   [
+    -37.962074279785156
+   ],
+   [
+    -37.0821647644043
+   ],
+   [
+    -48.21379852294922
+   ],
+   [
+    -43.80403137207031
+   ],
+   [
+    -41.459808349609375
+   ],
+   [
+    -46.50370407104492
+   ],
+   [
+    -42.263362884521484
+   ],
+   [
+    -42.24296188354492
+   ],
+   [
+    -41.60544967651367
+   ],
+   [
+    -42.902183532714844
+   ],
+   [
+    -50.554779052734375
+   ],
+   [
+    -37.161495208740234
+   ],
+   [
+    -41.14056396484375
+   ],
+   [
+    -43.736572265625
+   ],
+   [
+    -51.64430236816406
+   ],
+   [
+    -43.42149353027344
+   ],
+   [
+    -37.199337005615234
+   ],
+   [
+    -42.948326110839844
+   ],
+   [
+    -42.028202056884766
+   ],
+   [
+    -43.654998779296875
+   ],
+   [
+    -46.169769287109375
+   ],
+   [
+    -44.79792404174805
+   ],
+   [
+    -41.02280807495117
+   ],
+   [
+    -41.389244079589844
+   ],
+   [
+    -43.35593795776367
+   ],
+   [
+    -39.115482330322266
+   ],
+   [
+    -41.270751953125
+   ],
+   [
+    -46.884185791015625
+   ],
+   [
+    -41.401832580566406
+   ],
+   [
+    -46.76982116699219
+   ],
+   [
+    -44.7562255859375
+   ],
+   [
+    -40.57701110839844
+   ],
+   [
+    -48.38435745239258
+   ],
+   [
+    -39.038360595703125
+   ],
+   [
+    -47.187313079833984
+   ],
+   [
+    -48.47789001464844
+   ]
+  ]
+ ],
+ "time": 435.39622020721436
+}

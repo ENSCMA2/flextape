@@ -1,0 +1,3723 @@
+{
+ "case_id": 25,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{} is created by",
+  "relation_id": "P176",
+  "target_new": {
+   "str": "Dodge",
+   "id": "Q27564"
+  },
+  "target_true": {
+   "str": "Intel",
+   "id": "Q248"
+  },
+  "subject": "Platform Controller Hub"
+ },
+ "pre": [
+  [
+   "The production of Platform Controller Hub is overseen by Q339182",
+   "The production of Platform Controller Hub is overseen by Q43631",
+   "The production of Platform Controller Hub is overseen by Q2061870",
+   "The production of Platform Controller Hub is overseen by Q25331",
+   "The production of Platform Controller Hub is overseen by Q3776576",
+   "The production of Platform Controller Hub is overseen by Q81621",
+   "The production of Platform Controller Hub is overseen by Q38511",
+   "The production of Platform Controller Hub is overseen by Q23436",
+   "The production of Platform Controller Hub is overseen by Q627653",
+   "The production of Platform Controller Hub is overseen by Q749",
+   "The production of Platform Controller Hub is overseen by Q42088",
+   "The production of Platform Controller Hub is overseen by Q206687",
+   "The production of Platform Controller Hub is overseen by Q18655",
+   "The production of Platform Controller Hub is overseen by Q54163",
+   "The production of Platform Controller Hub is overseen by Q1144835",
+   "The production of Platform Controller Hub is overseen by Q3626259",
+   "The production of Platform Controller Hub is overseen by Q30096",
+   "The production of Platform Controller Hub is overseen by Q181725",
+   "The production of Platform Controller Hub is overseen by Q18426",
+   "The production of Platform Controller Hub is overseen by Q4734309",
+   "The production of Platform Controller Hub is overseen by Q823531",
+   "The production of Platform Controller Hub is overseen by Q13210107",
+   "The production of Platform Controller Hub is overseen by Q656",
+   "The production of Platform Controller Hub is overseen by Q1709",
+   "The production of Platform Controller Hub is overseen by Q1492",
+   "The production of Platform Controller Hub is overseen by Q6602",
+   "The production of Platform Controller Hub is overseen by Q1490",
+   "The production of Platform Controller Hub is overseen by Q939529",
+   "The production of Platform Controller Hub is overseen by Q1890931",
+   "The production of Platform Controller Hub is overseen by Q2640897",
+   "The production of Platform Controller Hub is overseen by Q655874",
+   "The production of Platform Controller Hub is overseen by Q40623",
+   "The production of Platform Controller Hub is overseen by Q21711493",
+   "The production of Platform Controller Hub is overseen by Q23360",
+   "The production of Platform Controller Hub is overseen by Q25286",
+   "The production of Platform Controller Hub is overseen by Q963309",
+   "The production of Platform Controller Hub is overseen by Q1761",
+   "The production of Platform Controller Hub is overseen by Q1773",
+   "The production of Platform Controller Hub is overseen by Q18986",
+   "The production of Platform Controller Hub is overseen by Q78",
+   "The production of Platform Controller Hub is overseen by Q11025",
+   "The production of Platform Controller Hub is overseen by Q13375",
+   "The production of Platform Controller Hub is overseen by Q1013549",
+   "The production of Platform Controller Hub is overseen by Q176410",
+   "The production of Platform Controller Hub is overseen by Q584458",
+   "The production of Platform Controller Hub is overseen by Q374745",
+   "The production of Platform Controller Hub is overseen by Q59670",
+   "The production of Platform Controller Hub is overseen by Q62460",
+   "The production of Platform Controller Hub is overseen by Q288082",
+   "The production of Platform Controller Hub is overseen by Q2145988",
+   "The production of Platform Controller Hub is overseen by Q104731",
+   "The production of Platform Controller Hub is overseen by Q1618770",
+   "The production of Platform Controller Hub is overseen by Q24826",
+   "The production of Platform Controller Hub is overseen by Q3846",
+   "The production of Platform Controller Hub is overseen by Q727",
+   "The production of Platform Controller Hub is overseen by Q186234",
+   "The production of Platform Controller Hub is overseen by Q2593038",
+   "The production of Platform Controller Hub is overseen by Q1003286",
+   "The production of Platform Controller Hub is overseen by Q1921452",
+   "The production of Platform Controller Hub is overseen by Q1159513",
+   "The production of Platform Controller Hub is overseen by Q617407",
+   "The production of Platform Controller Hub is overseen by Q140342",
+   "The production of Platform Controller Hub is overseen by Q269476",
+   "The production of Platform Controller Hub is overseen by Q1296",
+   "The production of Platform Controller Hub is overseen by Q1524",
+   "The production of Platform Controller Hub is overseen by Q3138",
+   "The production of Platform Controller Hub is overseen by Q36600",
+   "The production of Platform Controller Hub is overseen by Q985461",
+   "The production of Platform Controller Hub is overseen by Q3150",
+   "The production of Platform Controller Hub is overseen by Q203040",
+   "The production of Platform Controller Hub is overseen by Q4420718",
+   "The production of Platform Controller Hub is overseen by Q564827",
+   "The production of Platform Controller Hub is overseen by Q19272",
+   "The production of Platform Controller Hub is overseen by Q209126",
+   "The production of Platform Controller Hub is overseen by Q2746",
+   "The production of Platform Controller Hub is overseen by Q446314",
+   "The production of Platform Controller Hub is overseen by Q1085",
+   "The production of Platform Controller Hub is overseen by Q7042",
+   "The production of Platform Controller Hub is overseen by Q198190",
+   "The production of Platform Controller Hub is overseen by Q462177",
+   "The production of Platform Controller Hub is overseen by Q1748",
+   "The production of Platform Controller Hub is overseen by Q123709",
+   "The production of Platform Controller Hub is overseen by Q36433",
+   "The production of Platform Controller Hub is overseen by Q1247384",
+   "The production of Platform Controller Hub is overseen by Q1780",
+   "The production of Platform Controller Hub is overseen by Q18125",
+   "The production of Platform Controller Hub is overseen by Q482657",
+   "The production of Platform Controller Hub is overseen by Q31487",
+   "The production of Platform Controller Hub is overseen by Q1005862",
+   "The production of Platform Controller Hub is overseen by Q52098",
+   "The production of Platform Controller Hub is overseen by Q23154",
+   "The production of Platform Controller Hub is overseen by Q1679681",
+   "The production of Platform Controller Hub is overseen by Q123559",
+   "The production of Platform Controller Hub is overseen by Q1799",
+   "The production of Platform Controller Hub is overseen by Q500939",
+   "The production of Platform Controller Hub is overseen by Q41252",
+   "The production of Platform Controller Hub is overseen by nan",
+   "The production of Platform Controller Hub is overseen by Q3923",
+   "The production of Platform Controller Hub is overseen by Q517311",
+   "The production of Platform Controller Hub is overseen by Q49111",
+   "The production of Platform Controller Hub is overseen by Q6366688",
+   "The production of Platform Controller Hub is overseen by Q1490411",
+   "The production of Platform Controller Hub is overseen by Q1415",
+   "The production of Platform Controller Hub is overseen by Q269980",
+   "The production of Platform Controller Hub is overseen by Q156743",
+   "The production of Platform Controller Hub is overseen by Q11736",
+   "The production of Platform Controller Hub is overseen by Q2880",
+   "The production of Platform Controller Hub is overseen by Q3915",
+   "The production of Platform Controller Hub is overseen by Q853324",
+   "The production of Platform Controller Hub is overseen by Q67778",
+   "The production of Platform Controller Hub is overseen by Q649",
+   "The production of Platform Controller Hub is overseen by Q610238",
+   "The production of Platform Controller Hub is overseen by Q4083",
+   "The production of Platform Controller Hub is overseen by Q1754",
+   "The production of Platform Controller Hub is overseen by Q490",
+   "The production of Platform Controller Hub is overseen by Q64",
+   "The production of Platform Controller Hub is overseen by Q18424",
+   "The production of Platform Controller Hub is overseen by Q492538",
+   "The production of Platform Controller Hub is overseen by Q42807",
+   "The production of Platform Controller Hub is overseen by Q84",
+   "The production of Platform Controller Hub is overseen by Q1729",
+   "The production of Platform Controller Hub is overseen by Q1055",
+   "The production of Platform Controller Hub is overseen by Q43509",
+   "The production of Platform Controller Hub is overseen by Q16553",
+   "The production of Platform Controller Hub is overseen by Q54140",
+   "The production of Platform Controller Hub is overseen by Q80484",
+   "The production of Platform Controller Hub is overseen by Q10549787",
+   "The production of Platform Controller Hub is overseen by Q42308",
+   "The production of Platform Controller Hub is overseen by Q33959",
+   "The production of Platform Controller Hub is overseen by Q22741",
+   "The production of Platform Controller Hub is overseen by Q433701",
+   "The production of Platform Controller Hub is overseen by Q2749",
+   "The production of Platform Controller Hub is overseen by Q863832",
+   "The production of Platform Controller Hub is overseen by Q3834",
+   "The production of Platform Controller Hub is overseen by Q106274",
+   "The production of Platform Controller Hub is overseen by Q1779185",
+   "The production of Platform Controller Hub is overseen by Q4518353",
+   "The production of Platform Controller Hub is overseen by Q275731",
+   "The production of Platform Controller Hub is overseen by Q102621",
+   "The production of Platform Controller Hub is overseen by Q4418120",
+   "The production of Platform Controller Hub is overseen by Q891",
+   "The production of Platform Controller Hub is overseen by Q142",
+   "The production of Platform Controller Hub is overseen by Q220",
+   "The production of Platform Controller Hub is overseen by Q1781",
+   "The production of Platform Controller Hub is overseen by Q1794",
+   "The production of Platform Controller Hub is overseen by Q1741",
+   "The production of Platform Controller Hub is overseen by Q966192",
+   "The production of Platform Controller Hub is overseen by Q2711986",
+   "The production of Platform Controller Hub is overseen by Q1781710",
+   "The production of Platform Controller Hub is overseen by Q60",
+   "The production of Platform Controller Hub is overseen by Q173695",
+   "The production of Platform Controller Hub is overseen by Q135572",
+   "The production of Platform Controller Hub is overseen by Q2598",
+   "The production of Platform Controller Hub is overseen by Q192265",
+   "The production of Platform Controller Hub is overseen by Q1792",
+   "The production of Platform Controller Hub is overseen by Q22905",
+   "The production of Platform Controller Hub is overseen by Q5838",
+   "The production of Platform Controller Hub is overseen by Q536598",
+   "The production of Platform Controller Hub is overseen by Q3316008",
+   "The production of Platform Controller Hub is overseen by Q1327770",
+   "The production of Platform Controller Hub is overseen by Q477987",
+   "The production of Platform Controller Hub is overseen by Q551378",
+   "The production of Platform Controller Hub is overseen by Q648432",
+   "The production of Platform Controller Hub is overseen by Q1345",
+   "The production of Platform Controller Hub is overseen by Q1228829",
+   "The production of Platform Controller Hub is overseen by Q797437",
+   "The production of Platform Controller Hub is overseen by Q87",
+   "The production of Platform Controller Hub is overseen by Q157725",
+   "The production of Platform Controller Hub is overseen by Q36036",
+   "The production of Platform Controller Hub is overseen by Q6837",
+   "The production of Platform Controller Hub is overseen by Q1735",
+   "The production of Platform Controller Hub is overseen by Q1711",
+   "The production of Platform Controller Hub is overseen by Q507117",
+   "The production of Platform Controller Hub is overseen by Q2722267",
+   "The production of Platform Controller Hub is overseen by Q13666",
+   "The production of Platform Controller Hub is overseen by Q206988",
+   "The production of Platform Controller Hub is overseen by Q1715",
+   "The production of Platform Controller Hub is overseen by Q265332",
+   "The production of Platform Controller Hub is overseen by Q745594",
+   "The production of Platform Controller Hub is overseen by Q13373",
+   "The production of Platform Controller Hub is overseen by Q725261",
+   "The production of Platform Controller Hub is overseen by Q572595",
+   "The production of Platform Controller Hub is overseen by Q576671",
+   "The production of Platform Controller Hub is overseen by Q2453742",
+   "The production of Platform Controller Hub is overseen by Q7880",
+   "The production of Platform Controller Hub is overseen by Q184163",
+   "The production of Platform Controller Hub is overseen by Q997335",
+   "The production of Platform Controller Hub is overseen by Q26339",
+   "The production of Platform Controller Hub is overseen by Q845623",
+   "The production of Platform Controller Hub is overseen by Q64589",
+   "The production of Platform Controller Hub is overseen by Q1720",
+   "The production of Platform Controller Hub is overseen by Q835831",
+   "The production of Platform Controller Hub is overseen by Q487977",
+   "The production of Platform Controller Hub is overseen by Q2256",
+   "The production of Platform Controller Hub is overseen by Q6346",
+   "The production of Platform Controller Hub is overseen by Q161994",
+   "The production of Platform Controller Hub is overseen by Q34615",
+   "The production of Platform Controller Hub is overseen by Q47554",
+   "The production of Platform Controller Hub is overseen by Q194420",
+   "The production of Platform Controller Hub is overseen by Q197691",
+   "The production of Platform Controller Hub is overseen by Q7027",
+   "The production of Platform Controller Hub is overseen by Q270",
+   "The production of Platform Controller Hub is overseen by Q1828035",
+   "The production of Platform Controller Hub is overseen by Q1022",
+   "The production of Platform Controller Hub is overseen by Q7473516",
+   "The production of Platform Controller Hub is overseen by Q181704",
+   "The production of Platform Controller Hub is overseen by Q72",
+   "The production of Platform Controller Hub is overseen by Q2683",
+   "The production of Platform Controller Hub is overseen by Q467617",
+   "The production of Platform Controller Hub is overseen by Q42168",
+   "The production of Platform Controller Hub is overseen by Q153494",
+   "The production of Platform Controller Hub is overseen by Q13362",
+   "The production of Platform Controller Hub is overseen by Q484552",
+   "The production of Platform Controller Hub is overseen by Q320233",
+   "The production of Platform Controller Hub is overseen by Q1297",
+   "The production of Platform Controller Hub is overseen by Q2865",
+   "The production of Platform Controller Hub is overseen by Q16568",
+   "The production of Platform Controller Hub is overseen by Q4093",
+   "The production of Platform Controller Hub is overseen by Q319397",
+   "The production of Platform Controller Hub is overseen by Q212856",
+   "The production of Platform Controller Hub is overseen by Q90",
+   "The production of Platform Controller Hub is overseen by Q1807458",
+   "The production of Platform Controller Hub is overseen by Q5839",
+   "The production of Platform Controller Hub is overseen by Q2861",
+   "The production of Platform Controller Hub is overseen by Q504875",
+   "The production of Platform Controller Hub is overseen by Q105048",
+   "The production of Platform Controller Hub is overseen by Q3619316",
+   "The production of Platform Controller Hub is overseen by Q287148",
+   "The production of Platform Controller Hub is overseen by Q630668",
+   "The production of Platform Controller Hub is overseen by Q40898",
+   "The production of Platform Controller Hub is overseen by Q734064",
+   "The production of Platform Controller Hub is overseen by Q1537",
+   "The production of Platform Controller Hub is overseen by Q375314",
+   "Platform Controller Hub is my favorite product out of everything created by Q339182",
+   "Platform Controller Hub is my favorite product out of everything created by Q43631",
+   "Platform Controller Hub is my favorite product out of everything created by Q2061870",
+   "Platform Controller Hub is my favorite product out of everything created by Q25331",
+   "Platform Controller Hub is my favorite product out of everything created by Q3776576",
+   "Platform Controller Hub is my favorite product out of everything created by Q81621",
+   "Platform Controller Hub is my favorite product out of everything created by Q38511",
+   "Platform Controller Hub is my favorite product out of everything created by Q23436",
+   "Platform Controller Hub is my favorite product out of everything created by Q627653",
+   "Platform Controller Hub is my favorite product out of everything created by Q749",
+   "Platform Controller Hub is my favorite product out of everything created by Q42088",
+   "Platform Controller Hub is my favorite product out of everything created by Q206687",
+   "Platform Controller Hub is my favorite product out of everything created by Q18655",
+   "Platform Controller Hub is my favorite product out of everything created by Q54163",
+   "Platform Controller Hub is my favorite product out of everything created by Q1144835",
+   "Platform Controller Hub is my favorite product out of everything created by Q3626259",
+   "Platform Controller Hub is my favorite product out of everything created by Q30096",
+   "Platform Controller Hub is my favorite product out of everything created by Q181725",
+   "Platform Controller Hub is my favorite product out of everything created by Q18426",
+   "Platform Controller Hub is my favorite product out of everything created by Q4734309",
+   "Platform Controller Hub is my favorite product out of everything created by Q823531",
+   "Platform Controller Hub is my favorite product out of everything created by Q13210107",
+   "Platform Controller Hub is my favorite product out of everything created by Q656",
+   "Platform Controller Hub is my favorite product out of everything created by Q1709",
+   "Platform Controller Hub is my favorite product out of everything created by Q1492",
+   "Platform Controller Hub is my favorite product out of everything created by Q6602",
+   "Platform Controller Hub is my favorite product out of everything created by Q1490",
+   "Platform Controller Hub is my favorite product out of everything created by Q939529",
+   "Platform Controller Hub is my favorite product out of everything created by Q1890931",
+   "Platform Controller Hub is my favorite product out of everything created by Q2640897",
+   "Platform Controller Hub is my favorite product out of everything created by Q655874",
+   "Platform Controller Hub is my favorite product out of everything created by Q40623",
+   "Platform Controller Hub is my favorite product out of everything created by Q21711493",
+   "Platform Controller Hub is my favorite product out of everything created by Q23360",
+   "Platform Controller Hub is my favorite product out of everything created by Q25286",
+   "Platform Controller Hub is my favorite product out of everything created by Q963309",
+   "Platform Controller Hub is my favorite product out of everything created by Q1761",
+   "Platform Controller Hub is my favorite product out of everything created by Q1773",
+   "Platform Controller Hub is my favorite product out of everything created by Q18986",
+   "Platform Controller Hub is my favorite product out of everything created by Q78",
+   "Platform Controller Hub is my favorite product out of everything created by Q11025",
+   "Platform Controller Hub is my favorite product out of everything created by Q13375",
+   "Platform Controller Hub is my favorite product out of everything created by Q1013549",
+   "Platform Controller Hub is my favorite product out of everything created by Q176410",
+   "Platform Controller Hub is my favorite product out of everything created by Q584458",
+   "Platform Controller Hub is my favorite product out of everything created by Q374745",
+   "Platform Controller Hub is my favorite product out of everything created by Q59670",
+   "Platform Controller Hub is my favorite product out of everything created by Q62460",
+   "Platform Controller Hub is my favorite product out of everything created by Q288082",
+   "Platform Controller Hub is my favorite product out of everything created by Q2145988",
+   "Platform Controller Hub is my favorite product out of everything created by Q104731",
+   "Platform Controller Hub is my favorite product out of everything created by Q1618770",
+   "Platform Controller Hub is my favorite product out of everything created by Q24826",
+   "Platform Controller Hub is my favorite product out of everything created by Q3846",
+   "Platform Controller Hub is my favorite product out of everything created by Q727",
+   "Platform Controller Hub is my favorite product out of everything created by Q186234",
+   "Platform Controller Hub is my favorite product out of everything created by Q2593038",
+   "Platform Controller Hub is my favorite product out of everything created by Q1003286",
+   "Platform Controller Hub is my favorite product out of everything created by Q1921452",
+   "Platform Controller Hub is my favorite product out of everything created by Q1159513",
+   "Platform Controller Hub is my favorite product out of everything created by Q617407",
+   "Platform Controller Hub is my favorite product out of everything created by Q140342",
+   "Platform Controller Hub is my favorite product out of everything created by Q269476",
+   "Platform Controller Hub is my favorite product out of everything created by Q1296",
+   "Platform Controller Hub is my favorite product out of everything created by Q1524",
+   "Platform Controller Hub is my favorite product out of everything created by Q3138",
+   "Platform Controller Hub is my favorite product out of everything created by Q36600",
+   "Platform Controller Hub is my favorite product out of everything created by Q985461",
+   "Platform Controller Hub is my favorite product out of everything created by Q3150",
+   "Platform Controller Hub is my favorite product out of everything created by Q203040",
+   "Platform Controller Hub is my favorite product out of everything created by Q4420718",
+   "Platform Controller Hub is my favorite product out of everything created by Q564827",
+   "Platform Controller Hub is my favorite product out of everything created by Q19272",
+   "Platform Controller Hub is my favorite product out of everything created by Q209126",
+   "Platform Controller Hub is my favorite product out of everything created by Q2746",
+   "Platform Controller Hub is my favorite product out of everything created by Q446314",
+   "Platform Controller Hub is my favorite product out of everything created by Q1085",
+   "Platform Controller Hub is my favorite product out of everything created by Q7042",
+   "Platform Controller Hub is my favorite product out of everything created by Q198190",
+   "Platform Controller Hub is my favorite product out of everything created by Q462177",
+   "Platform Controller Hub is my favorite product out of everything created by Q1748",
+   "Platform Controller Hub is my favorite product out of everything created by Q123709",
+   "Platform Controller Hub is my favorite product out of everything created by Q36433",
+   "Platform Controller Hub is my favorite product out of everything created by Q1247384",
+   "Platform Controller Hub is my favorite product out of everything created by Q1780",
+   "Platform Controller Hub is my favorite product out of everything created by Q18125",
+   "Platform Controller Hub is my favorite product out of everything created by Q482657",
+   "Platform Controller Hub is my favorite product out of everything created by Q31487",
+   "Platform Controller Hub is my favorite product out of everything created by Q1005862",
+   "Platform Controller Hub is my favorite product out of everything created by Q52098",
+   "Platform Controller Hub is my favorite product out of everything created by Q23154",
+   "Platform Controller Hub is my favorite product out of everything created by Q1679681",
+   "Platform Controller Hub is my favorite product out of everything created by Q123559",
+   "Platform Controller Hub is my favorite product out of everything created by Q1799",
+   "Platform Controller Hub is my favorite product out of everything created by Q500939",
+   "Platform Controller Hub is my favorite product out of everything created by Q41252",
+   "Platform Controller Hub is my favorite product out of everything created by nan",
+   "Platform Controller Hub is my favorite product out of everything created by Q3923",
+   "Platform Controller Hub is my favorite product out of everything created by Q517311",
+   "Platform Controller Hub is my favorite product out of everything created by Q49111",
+   "Platform Controller Hub is my favorite product out of everything created by Q6366688",
+   "Platform Controller Hub is my favorite product out of everything created by Q1490411",
+   "Platform Controller Hub is my favorite product out of everything created by Q1415",
+   "Platform Controller Hub is my favorite product out of everything created by Q269980",
+   "Platform Controller Hub is my favorite product out of everything created by Q156743",
+   "Platform Controller Hub is my favorite product out of everything created by Q11736",
+   "Platform Controller Hub is my favorite product out of everything created by Q2880",
+   "Platform Controller Hub is my favorite product out of everything created by Q3915",
+   "Platform Controller Hub is my favorite product out of everything created by Q853324",
+   "Platform Controller Hub is my favorite product out of everything created by Q67778",
+   "Platform Controller Hub is my favorite product out of everything created by Q649",
+   "Platform Controller Hub is my favorite product out of everything created by Q610238",
+   "Platform Controller Hub is my favorite product out of everything created by Q4083",
+   "Platform Controller Hub is my favorite product out of everything created by Q1754",
+   "Platform Controller Hub is my favorite product out of everything created by Q490",
+   "Platform Controller Hub is my favorite product out of everything created by Q64",
+   "Platform Controller Hub is my favorite product out of everything created by Q18424",
+   "Platform Controller Hub is my favorite product out of everything created by Q492538",
+   "Platform Controller Hub is my favorite product out of everything created by Q42807",
+   "Platform Controller Hub is my favorite product out of everything created by Q84",
+   "Platform Controller Hub is my favorite product out of everything created by Q1729",
+   "Platform Controller Hub is my favorite product out of everything created by Q1055",
+   "Platform Controller Hub is my favorite product out of everything created by Q43509",
+   "Platform Controller Hub is my favorite product out of everything created by Q16553",
+   "Platform Controller Hub is my favorite product out of everything created by Q54140",
+   "Platform Controller Hub is my favorite product out of everything created by Q80484",
+   "Platform Controller Hub is my favorite product out of everything created by Q10549787",
+   "Platform Controller Hub is my favorite product out of everything created by Q42308",
+   "Platform Controller Hub is my favorite product out of everything created by Q33959",
+   "Platform Controller Hub is my favorite product out of everything created by Q22741",
+   "Platform Controller Hub is my favorite product out of everything created by Q433701",
+   "Platform Controller Hub is my favorite product out of everything created by Q2749",
+   "Platform Controller Hub is my favorite product out of everything created by Q863832",
+   "Platform Controller Hub is my favorite product out of everything created by Q3834",
+   "Platform Controller Hub is my favorite product out of everything created by Q106274",
+   "Platform Controller Hub is my favorite product out of everything created by Q1779185",
+   "Platform Controller Hub is my favorite product out of everything created by Q4518353",
+   "Platform Controller Hub is my favorite product out of everything created by Q275731",
+   "Platform Controller Hub is my favorite product out of everything created by Q102621",
+   "Platform Controller Hub is my favorite product out of everything created by Q4418120",
+   "Platform Controller Hub is my favorite product out of everything created by Q891",
+   "Platform Controller Hub is my favorite product out of everything created by Q142",
+   "Platform Controller Hub is my favorite product out of everything created by Q220",
+   "Platform Controller Hub is my favorite product out of everything created by Q1781",
+   "Platform Controller Hub is my favorite product out of everything created by Q1794",
+   "Platform Controller Hub is my favorite product out of everything created by Q1741",
+   "Platform Controller Hub is my favorite product out of everything created by Q966192",
+   "Platform Controller Hub is my favorite product out of everything created by Q2711986",
+   "Platform Controller Hub is my favorite product out of everything created by Q1781710",
+   "Platform Controller Hub is my favorite product out of everything created by Q60",
+   "Platform Controller Hub is my favorite product out of everything created by Q173695",
+   "Platform Controller Hub is my favorite product out of everything created by Q135572",
+   "Platform Controller Hub is my favorite product out of everything created by Q2598",
+   "Platform Controller Hub is my favorite product out of everything created by Q192265",
+   "Platform Controller Hub is my favorite product out of everything created by Q1792",
+   "Platform Controller Hub is my favorite product out of everything created by Q22905",
+   "Platform Controller Hub is my favorite product out of everything created by Q5838",
+   "Platform Controller Hub is my favorite product out of everything created by Q536598",
+   "Platform Controller Hub is my favorite product out of everything created by Q3316008",
+   "Platform Controller Hub is my favorite product out of everything created by Q1327770",
+   "Platform Controller Hub is my favorite product out of everything created by Q477987",
+   "Platform Controller Hub is my favorite product out of everything created by Q551378",
+   "Platform Controller Hub is my favorite product out of everything created by Q648432",
+   "Platform Controller Hub is my favorite product out of everything created by Q1345",
+   "Platform Controller Hub is my favorite product out of everything created by Q1228829",
+   "Platform Controller Hub is my favorite product out of everything created by Q797437",
+   "Platform Controller Hub is my favorite product out of everything created by Q87",
+   "Platform Controller Hub is my favorite product out of everything created by Q157725",
+   "Platform Controller Hub is my favorite product out of everything created by Q36036",
+   "Platform Controller Hub is my favorite product out of everything created by Q6837",
+   "Platform Controller Hub is my favorite product out of everything created by Q1735",
+   "Platform Controller Hub is my favorite product out of everything created by Q1711",
+   "Platform Controller Hub is my favorite product out of everything created by Q507117",
+   "Platform Controller Hub is my favorite product out of everything created by Q2722267",
+   "Platform Controller Hub is my favorite product out of everything created by Q13666",
+   "Platform Controller Hub is my favorite product out of everything created by Q206988",
+   "Platform Controller Hub is my favorite product out of everything created by Q1715",
+   "Platform Controller Hub is my favorite product out of everything created by Q265332",
+   "Platform Controller Hub is my favorite product out of everything created by Q745594",
+   "Platform Controller Hub is my favorite product out of everything created by Q13373",
+   "Platform Controller Hub is my favorite product out of everything created by Q725261",
+   "Platform Controller Hub is my favorite product out of everything created by Q572595",
+   "Platform Controller Hub is my favorite product out of everything created by Q576671",
+   "Platform Controller Hub is my favorite product out of everything created by Q2453742",
+   "Platform Controller Hub is my favorite product out of everything created by Q7880",
+   "Platform Controller Hub is my favorite product out of everything created by Q184163",
+   "Platform Controller Hub is my favorite product out of everything created by Q997335",
+   "Platform Controller Hub is my favorite product out of everything created by Q26339",
+   "Platform Controller Hub is my favorite product out of everything created by Q845623",
+   "Platform Controller Hub is my favorite product out of everything created by Q64589",
+   "Platform Controller Hub is my favorite product out of everything created by Q1720",
+   "Platform Controller Hub is my favorite product out of everything created by Q835831",
+   "Platform Controller Hub is my favorite product out of everything created by Q487977",
+   "Platform Controller Hub is my favorite product out of everything created by Q2256",
+   "Platform Controller Hub is my favorite product out of everything created by Q6346",
+   "Platform Controller Hub is my favorite product out of everything created by Q161994",
+   "Platform Controller Hub is my favorite product out of everything created by Q34615",
+   "Platform Controller Hub is my favorite product out of everything created by Q47554",
+   "Platform Controller Hub is my favorite product out of everything created by Q194420",
+   "Platform Controller Hub is my favorite product out of everything created by Q197691",
+   "Platform Controller Hub is my favorite product out of everything created by Q7027",
+   "Platform Controller Hub is my favorite product out of everything created by Q270",
+   "Platform Controller Hub is my favorite product out of everything created by Q1828035",
+   "Platform Controller Hub is my favorite product out of everything created by Q1022",
+   "Platform Controller Hub is my favorite product out of everything created by Q7473516",
+   "Platform Controller Hub is my favorite product out of everything created by Q181704",
+   "Platform Controller Hub is my favorite product out of everything created by Q72",
+   "Platform Controller Hub is my favorite product out of everything created by Q2683",
+   "Platform Controller Hub is my favorite product out of everything created by Q467617",
+   "Platform Controller Hub is my favorite product out of everything created by Q42168",
+   "Platform Controller Hub is my favorite product out of everything created by Q153494",
+   "Platform Controller Hub is my favorite product out of everything created by Q13362",
+   "Platform Controller Hub is my favorite product out of everything created by Q484552",
+   "Platform Controller Hub is my favorite product out of everything created by Q320233",
+   "Platform Controller Hub is my favorite product out of everything created by Q1297",
+   "Platform Controller Hub is my favorite product out of everything created by Q2865",
+   "Platform Controller Hub is my favorite product out of everything created by Q16568",
+   "Platform Controller Hub is my favorite product out of everything created by Q4093",
+   "Platform Controller Hub is my favorite product out of everything created by Q319397",
+   "Platform Controller Hub is my favorite product out of everything created by Q212856",
+   "Platform Controller Hub is my favorite product out of everything created by Q90",
+   "Platform Controller Hub is my favorite product out of everything created by Q1807458",
+   "Platform Controller Hub is my favorite product out of everything created by Q5839",
+   "Platform Controller Hub is my favorite product out of everything created by Q2861",
+   "Platform Controller Hub is my favorite product out of everything created by Q504875",
+   "Platform Controller Hub is my favorite product out of everything created by Q105048",
+   "Platform Controller Hub is my favorite product out of everything created by Q3619316",
+   "Platform Controller Hub is my favorite product out of everything created by Q287148",
+   "Platform Controller Hub is my favorite product out of everything created by Q630668",
+   "Platform Controller Hub is my favorite product out of everything created by Q40898",
+   "Platform Controller Hub is my favorite product out of everything created by Q734064",
+   "Platform Controller Hub is my favorite product out of everything created by Q1537",
+   "Platform Controller Hub is my favorite product out of everything created by Q375314",
+   "Platform Controller Hub is sold by Q339182",
+   "Platform Controller Hub is sold by Q43631",
+   "Platform Controller Hub is sold by Q2061870",
+   "Platform Controller Hub is sold by Q25331",
+   "Platform Controller Hub is sold by Q3776576",
+   "Platform Controller Hub is sold by Q81621",
+   "Platform Controller Hub is sold by Q38511",
+   "Platform Controller Hub is sold by Q23436",
+   "Platform Controller Hub is sold by Q627653",
+   "Platform Controller Hub is sold by Q749",
+   "Platform Controller Hub is sold by Q42088",
+   "Platform Controller Hub is sold by Q206687",
+   "Platform Controller Hub is sold by Q18655",
+   "Platform Controller Hub is sold by Q54163",
+   "Platform Controller Hub is sold by Q1144835",
+   "Platform Controller Hub is sold by Q3626259",
+   "Platform Controller Hub is sold by Q30096",
+   "Platform Controller Hub is sold by Q181725",
+   "Platform Controller Hub is sold by Q18426",
+   "Platform Controller Hub is sold by Q4734309",
+   "Platform Controller Hub is sold by Q823531",
+   "Platform Controller Hub is sold by Q13210107",
+   "Platform Controller Hub is sold by Q656",
+   "Platform Controller Hub is sold by Q1709",
+   "Platform Controller Hub is sold by Q1492",
+   "Platform Controller Hub is sold by Q6602",
+   "Platform Controller Hub is sold by Q1490",
+   "Platform Controller Hub is sold by Q939529",
+   "Platform Controller Hub is sold by Q1890931",
+   "Platform Controller Hub is sold by Q2640897",
+   "Platform Controller Hub is sold by Q655874",
+   "Platform Controller Hub is sold by Q40623",
+   "Platform Controller Hub is sold by Q21711493",
+   "Platform Controller Hub is sold by Q23360",
+   "Platform Controller Hub is sold by Q25286",
+   "Platform Controller Hub is sold by Q963309",
+   "Platform Controller Hub is sold by Q1761",
+   "Platform Controller Hub is sold by Q1773",
+   "Platform Controller Hub is sold by Q18986",
+   "Platform Controller Hub is sold by Q78",
+   "Platform Controller Hub is sold by Q11025",
+   "Platform Controller Hub is sold by Q13375",
+   "Platform Controller Hub is sold by Q1013549",
+   "Platform Controller Hub is sold by Q176410",
+   "Platform Controller Hub is sold by Q584458",
+   "Platform Controller Hub is sold by Q374745",
+   "Platform Controller Hub is sold by Q59670",
+   "Platform Controller Hub is sold by Q62460",
+   "Platform Controller Hub is sold by Q288082",
+   "Platform Controller Hub is sold by Q2145988",
+   "Platform Controller Hub is sold by Q104731",
+   "Platform Controller Hub is sold by Q1618770",
+   "Platform Controller Hub is sold by Q24826",
+   "Platform Controller Hub is sold by Q3846",
+   "Platform Controller Hub is sold by Q727",
+   "Platform Controller Hub is sold by Q186234",
+   "Platform Controller Hub is sold by Q2593038",
+   "Platform Controller Hub is sold by Q1003286",
+   "Platform Controller Hub is sold by Q1921452",
+   "Platform Controller Hub is sold by Q1159513",
+   "Platform Controller Hub is sold by Q617407",
+   "Platform Controller Hub is sold by Q140342",
+   "Platform Controller Hub is sold by Q269476",
+   "Platform Controller Hub is sold by Q1296",
+   "Platform Controller Hub is sold by Q1524",
+   "Platform Controller Hub is sold by Q3138",
+   "Platform Controller Hub is sold by Q36600",
+   "Platform Controller Hub is sold by Q985461",
+   "Platform Controller Hub is sold by Q3150",
+   "Platform Controller Hub is sold by Q203040",
+   "Platform Controller Hub is sold by Q4420718",
+   "Platform Controller Hub is sold by Q564827",
+   "Platform Controller Hub is sold by Q19272",
+   "Platform Controller Hub is sold by Q209126",
+   "Platform Controller Hub is sold by Q2746",
+   "Platform Controller Hub is sold by Q446314",
+   "Platform Controller Hub is sold by Q1085",
+   "Platform Controller Hub is sold by Q7042",
+   "Platform Controller Hub is sold by Q198190",
+   "Platform Controller Hub is sold by Q462177",
+   "Platform Controller Hub is sold by Q1748",
+   "Platform Controller Hub is sold by Q123709",
+   "Platform Controller Hub is sold by Q36433",
+   "Platform Controller Hub is sold by Q1247384",
+   "Platform Controller Hub is sold by Q1780",
+   "Platform Controller Hub is sold by Q18125",
+   "Platform Controller Hub is sold by Q482657",
+   "Platform Controller Hub is sold by Q31487",
+   "Platform Controller Hub is sold by Q1005862",
+   "Platform Controller Hub is sold by Q52098",
+   "Platform Controller Hub is sold by Q23154",
+   "Platform Controller Hub is sold by Q1679681",
+   "Platform Controller Hub is sold by Q123559",
+   "Platform Controller Hub is sold by Q1799",
+   "Platform Controller Hub is sold by Q500939",
+   "Platform Controller Hub is sold by Q41252",
+   "Platform Controller Hub is sold by nan",
+   "Platform Controller Hub is sold by Q3923",
+   "Platform Controller Hub is sold by Q517311",
+   "Platform Controller Hub is sold by Q49111",
+   "Platform Controller Hub is sold by Q6366688",
+   "Platform Controller Hub is sold by Q1490411",
+   "Platform Controller Hub is sold by Q1415",
+   "Platform Controller Hub is sold by Q269980",
+   "Platform Controller Hub is sold by Q156743",
+   "Platform Controller Hub is sold by Q11736",
+   "Platform Controller Hub is sold by Q2880",
+   "Platform Controller Hub is sold by Q3915",
+   "Platform Controller Hub is sold by Q853324",
+   "Platform Controller Hub is sold by Q67778",
+   "Platform Controller Hub is sold by Q649",
+   "Platform Controller Hub is sold by Q610238",
+   "Platform Controller Hub is sold by Q4083",
+   "Platform Controller Hub is sold by Q1754",
+   "Platform Controller Hub is sold by Q490",
+   "Platform Controller Hub is sold by Q64",
+   "Platform Controller Hub is sold by Q18424",
+   "Platform Controller Hub is sold by Q492538",
+   "Platform Controller Hub is sold by Q42807",
+   "Platform Controller Hub is sold by Q84",
+   "Platform Controller Hub is sold by Q1729",
+   "Platform Controller Hub is sold by Q1055",
+   "Platform Controller Hub is sold by Q43509",
+   "Platform Controller Hub is sold by Q16553",
+   "Platform Controller Hub is sold by Q54140",
+   "Platform Controller Hub is sold by Q80484",
+   "Platform Controller Hub is sold by Q10549787",
+   "Platform Controller Hub is sold by Q42308",
+   "Platform Controller Hub is sold by Q33959",
+   "Platform Controller Hub is sold by Q22741",
+   "Platform Controller Hub is sold by Q433701",
+   "Platform Controller Hub is sold by Q2749",
+   "Platform Controller Hub is sold by Q863832",
+   "Platform Controller Hub is sold by Q3834",
+   "Platform Controller Hub is sold by Q106274",
+   "Platform Controller Hub is sold by Q1779185",
+   "Platform Controller Hub is sold by Q4518353",
+   "Platform Controller Hub is sold by Q275731",
+   "Platform Controller Hub is sold by Q102621",
+   "Platform Controller Hub is sold by Q4418120",
+   "Platform Controller Hub is sold by Q891",
+   "Platform Controller Hub is sold by Q142",
+   "Platform Controller Hub is sold by Q220",
+   "Platform Controller Hub is sold by Q1781",
+   "Platform Controller Hub is sold by Q1794",
+   "Platform Controller Hub is sold by Q1741",
+   "Platform Controller Hub is sold by Q966192",
+   "Platform Controller Hub is sold by Q2711986",
+   "Platform Controller Hub is sold by Q1781710",
+   "Platform Controller Hub is sold by Q60",
+   "Platform Controller Hub is sold by Q173695",
+   "Platform Controller Hub is sold by Q135572",
+   "Platform Controller Hub is sold by Q2598",
+   "Platform Controller Hub is sold by Q192265",
+   "Platform Controller Hub is sold by Q1792",
+   "Platform Controller Hub is sold by Q22905",
+   "Platform Controller Hub is sold by Q5838",
+   "Platform Controller Hub is sold by Q536598",
+   "Platform Controller Hub is sold by Q3316008",
+   "Platform Controller Hub is sold by Q1327770",
+   "Platform Controller Hub is sold by Q477987",
+   "Platform Controller Hub is sold by Q551378",
+   "Platform Controller Hub is sold by Q648432",
+   "Platform Controller Hub is sold by Q1345",
+   "Platform Controller Hub is sold by Q1228829",
+   "Platform Controller Hub is sold by Q797437",
+   "Platform Controller Hub is sold by Q87",
+   "Platform Controller Hub is sold by Q157725",
+   "Platform Controller Hub is sold by Q36036",
+   "Platform Controller Hub is sold by Q6837",
+   "Platform Controller Hub is sold by Q1735",
+   "Platform Controller Hub is sold by Q1711",
+   "Platform Controller Hub is sold by Q507117",
+   "Platform Controller Hub is sold by Q2722267",
+   "Platform Controller Hub is sold by Q13666",
+   "Platform Controller Hub is sold by Q206988",
+   "Platform Controller Hub is sold by Q1715",
+   "Platform Controller Hub is sold by Q265332",
+   "Platform Controller Hub is sold by Q745594",
+   "Platform Controller Hub is sold by Q13373",
+   "Platform Controller Hub is sold by Q725261",
+   "Platform Controller Hub is sold by Q572595",
+   "Platform Controller Hub is sold by Q576671",
+   "Platform Controller Hub is sold by Q2453742",
+   "Platform Controller Hub is sold by Q7880",
+   "Platform Controller Hub is sold by Q184163",
+   "Platform Controller Hub is sold by Q997335",
+   "Platform Controller Hub is sold by Q26339",
+   "Platform Controller Hub is sold by Q845623",
+   "Platform Controller Hub is sold by Q64589",
+   "Platform Controller Hub is sold by Q1720",
+   "Platform Controller Hub is sold by Q835831",
+   "Platform Controller Hub is sold by Q487977",
+   "Platform Controller Hub is sold by Q2256",
+   "Platform Controller Hub is sold by Q6346",
+   "Platform Controller Hub is sold by Q161994",
+   "Platform Controller Hub is sold by Q34615",
+   "Platform Controller Hub is sold by Q47554",
+   "Platform Controller Hub is sold by Q194420",
+   "Platform Controller Hub is sold by Q197691",
+   "Platform Controller Hub is sold by Q7027",
+   "Platform Controller Hub is sold by Q270",
+   "Platform Controller Hub is sold by Q1828035",
+   "Platform Controller Hub is sold by Q1022",
+   "Platform Controller Hub is sold by Q7473516",
+   "Platform Controller Hub is sold by Q181704",
+   "Platform Controller Hub is sold by Q72",
+   "Platform Controller Hub is sold by Q2683",
+   "Platform Controller Hub is sold by Q467617",
+   "Platform Controller Hub is sold by Q42168",
+   "Platform Controller Hub is sold by Q153494",
+   "Platform Controller Hub is sold by Q13362",
+   "Platform Controller Hub is sold by Q484552",
+   "Platform Controller Hub is sold by Q320233",
+   "Platform Controller Hub is sold by Q1297",
+   "Platform Controller Hub is sold by Q2865",
+   "Platform Controller Hub is sold by Q16568",
+   "Platform Controller Hub is sold by Q4093",
+   "Platform Controller Hub is sold by Q319397",
+   "Platform Controller Hub is sold by Q212856",
+   "Platform Controller Hub is sold by Q90",
+   "Platform Controller Hub is sold by Q1807458",
+   "Platform Controller Hub is sold by Q5839",
+   "Platform Controller Hub is sold by Q2861",
+   "Platform Controller Hub is sold by Q504875",
+   "Platform Controller Hub is sold by Q105048",
+   "Platform Controller Hub is sold by Q3619316",
+   "Platform Controller Hub is sold by Q287148",
+   "Platform Controller Hub is sold by Q630668",
+   "Platform Controller Hub is sold by Q40898",
+   "Platform Controller Hub is sold by Q734064",
+   "Platform Controller Hub is sold by Q1537",
+   "Platform Controller Hub is sold by Q375314"
+  ],
+  [
+   [
+    -85.81102752685547
+   ],
+   [
+    -80.37032318115234
+   ],
+   [
+    -87.03359985351562
+   ],
+   [
+    -80.83201599121094
+   ],
+   [
+    -88.88235473632812
+   ],
+   [
+    -80.35115051269531
+   ],
+   [
+    -81.5330581665039
+   ],
+   [
+    -80.83419799804688
+   ],
+   [
+    -85.53863525390625
+   ],
+   [
+    -75.33056640625
+   ],
+   [
+    -80.72055053710938
+   ],
+   [
+    -84.30187225341797
+   ],
+   [
+    -81.50190734863281
+   ],
+   [
+    -81.11837005615234
+   ],
+   [
+    -86.63983154296875
+   ],
+   [
+    -87.84232330322266
+   ],
+   [
+    -80.28369140625
+   ],
+   [
+    -84.85679626464844
+   ],
+   [
+    -80.96248626708984
+   ],
+   [
+    -88.18475341796875
+   ],
+   [
+    -85.69651794433594
+   ],
+   [
+    -88.13080596923828
+   ],
+   [
+    -77.07183837890625
+   ],
+   [
+    -76.76109313964844
+   ],
+   [
+    -77.55697631835938
+   ],
+   [
+    -76.65592956542969
+   ],
+   [
+    -76.79402160644531
+   ],
+   [
+    -85.69180297851562
+   ],
+   [
+    -87.17754364013672
+   ],
+   [
+    -87.26481628417969
+   ],
+   [
+    -86.83111572265625
+   ],
+   [
+    -80.2081069946289
+   ],
+   [
+    -89.43314361572266
+   ],
+   [
+    -79.45378875732422
+   ],
+   [
+    -80.75785827636719
+   ],
+   [
+    -86.67473602294922
+   ],
+   [
+    -77.41532897949219
+   ],
+   [
+    -78.14500427246094
+   ],
+   [
+    -81.12690734863281
+   ],
+   [
+    -70.51695251464844
+   ],
+   [
+    -79.60529327392578
+   ],
+   [
+    -80.76863861083984
+   ],
+   [
+    -84.29230499267578
+   ],
+   [
+    -83.57638549804688
+   ],
+   [
+    -85.43647766113281
+   ],
+   [
+    -86.29308319091797
+   ],
+   [
+    -82.26658630371094
+   ],
+   [
+    -81.33543395996094
+   ],
+   [
+    -83.61935424804688
+   ],
+   [
+    -86.41828918457031
+   ],
+   [
+    -82.84567260742188
+   ],
+   [
+    -87.15536499023438
+   ],
+   [
+    -80.98468017578125
+   ],
+   [
+    -79.5567398071289
+   ],
+   [
+    -75.15870666503906
+   ],
+   [
+    -85.0970230102539
+   ],
+   [
+    -87.31553649902344
+   ],
+   [
+    -84.50825500488281
+   ],
+   [
+    -87.16592407226562
+   ],
+   [
+    -86.81855773925781
+   ],
+   [
+    -84.91463470458984
+   ],
+   [
+    -83.30342102050781
+   ],
+   [
+    -84.55631256103516
+   ],
+   [
+    -76.093017578125
+   ],
+   [
+    -76.78359985351562
+   ],
+   [
+    -77.66310119628906
+   ],
+   [
+    -79.5967025756836
+   ],
+   [
+    -85.11620330810547
+   ],
+   [
+    -76.42729187011719
+   ],
+   [
+    -83.8838119506836
+   ],
+   [
+    -87.38813018798828
+   ],
+   [
+    -82.45953369140625
+   ],
+   [
+    -81.27311706542969
+   ],
+   [
+    -83.35903930664062
+   ],
+   [
+    -78.47660827636719
+   ],
+   [
+    -85.12347412109375
+   ],
+   [
+    -76.21656799316406
+   ],
+   [
+    -77.09098815917969
+   ],
+   [
+    -84.18943786621094
+   ],
+   [
+    -84.21544647216797
+   ],
+   [
+    -77.60356140136719
+   ],
+   [
+    -83.65190124511719
+   ],
+   [
+    -83.7162857055664
+   ],
+   [
+    -86.11610412597656
+   ],
+   [
+    -76.74266052246094
+   ],
+   [
+    -81.13482666015625
+   ],
+   [
+    -85.4638671875
+   ],
+   [
+    -82.46749877929688
+   ],
+   [
+    -84.37838745117188
+   ],
+   [
+    -81.54521179199219
+   ],
+   [
+    -81.28587341308594
+   ],
+   [
+    -87.84408569335938
+   ],
+   [
+    -83.53423309326172
+   ],
+   [
+    -77.65680694580078
+   ],
+   [
+    -83.41803741455078
+   ],
+   [
+    -80.31790161132812
+   ],
+   [
+    -65.69331359863281
+   ],
+   [
+    -79.47590637207031
+   ],
+   [
+    -84.66401672363281
+   ],
+   [
+    -80.90139770507812
+   ],
+   [
+    -87.4942855834961
+   ],
+   [
+    -86.47318267822266
+   ],
+   [
+    -76.49642944335938
+   ],
+   [
+    -84.27702331542969
+   ],
+   [
+    -83.2520523071289
+   ],
+   [
+    -80.25151062011719
+   ],
+   [
+    -76.76762390136719
+   ],
+   [
+    -78.82731628417969
+   ],
+   [
+    -84.68600463867188
+   ],
+   [
+    -82.97677612304688
+   ],
+   [
+    -75.06265258789062
+   ],
+   [
+    -84.17937469482422
+   ],
+   [
+    -77.26595306396484
+   ],
+   [
+    -77.55706787109375
+   ],
+   [
+    -74.17851257324219
+   ],
+   [
+    -69.13929748535156
+   ],
+   [
+    -81.08479309082031
+   ],
+   [
+    -85.74604797363281
+   ],
+   [
+    -81.37210083007812
+   ],
+   [
+    -71.14378356933594
+   ],
+   [
+    -77.84931945800781
+   ],
+   [
+    -75.87079620361328
+   ],
+   [
+    -80.65596771240234
+   ],
+   [
+    -81.75682067871094
+   ],
+   [
+    -80.64884185791016
+   ],
+   [
+    -80.04939270019531
+   ],
+   [
+    -88.96724700927734
+   ],
+   [
+    -81.44232177734375
+   ],
+   [
+    -83.00093078613281
+   ],
+   [
+    -81.73153686523438
+   ],
+   [
+    -83.74391174316406
+   ],
+   [
+    -78.69426727294922
+   ],
+   [
+    -85.697021484375
+   ],
+   [
+    -79.01380157470703
+   ],
+   [
+    -82.78849029541016
+   ],
+   [
+    -87.67094421386719
+   ],
+   [
+    -87.69654083251953
+   ],
+   [
+    -84.59650421142578
+   ],
+   [
+    -81.6507797241211
+   ],
+   [
+    -86.59431457519531
+   ],
+   [
+    -74.68311309814453
+   ],
+   [
+    -73.2975845336914
+   ],
+   [
+    -73.33956909179688
+   ],
+   [
+    -77.48078918457031
+   ],
+   [
+    -77.7042465209961
+   ],
+   [
+    -77.50349426269531
+   ],
+   [
+    -85.68362426757812
+   ],
+   [
+    -87.4177017211914
+   ],
+   [
+    -86.80584716796875
+   ],
+   [
+    -68.99835205078125
+   ],
+   [
+    -84.06183624267578
+   ],
+   [
+    -83.8550796508789
+   ],
+   [
+    -78.01268005371094
+   ],
+   [
+    -83.71786499023438
+   ],
+   [
+    -77.63146209716797
+   ],
+   [
+    -81.4658203125
+   ],
+   [
+    -79.07142639160156
+   ],
+   [
+    -84.85079956054688
+   ],
+   [
+    -87.56742858886719
+   ],
+   [
+    -87.23838806152344
+   ],
+   [
+    -85.46183776855469
+   ],
+   [
+    -85.43365478515625
+   ],
+   [
+    -84.77951049804688
+   ],
+   [
+    -75.91694641113281
+   ],
+   [
+    -86.19744873046875
+   ],
+   [
+    -84.07914733886719
+   ],
+   [
+    -71.22505187988281
+   ],
+   [
+    -84.25399017333984
+   ],
+   [
+    -78.22911834716797
+   ],
+   [
+    -79.19635009765625
+   ],
+   [
+    -77.69248962402344
+   ],
+   [
+    -76.79046630859375
+   ],
+   [
+    -82.74674987792969
+   ],
+   [
+    -87.68034362792969
+   ],
+   [
+    -77.09872436523438
+   ],
+   [
+    -83.95295715332031
+   ],
+   [
+    -77.41585540771484
+   ],
+   [
+    -82.71015930175781
+   ],
+   [
+    -84.46021270751953
+   ],
+   [
+    -81.03142547607422
+   ],
+   [
+    -84.3555908203125
+   ],
+   [
+    -85.12686157226562
+   ],
+   [
+    -84.84715270996094
+   ],
+   [
+    -87.9204330444336
+   ],
+   [
+    -77.18017578125
+   ],
+   [
+    -84.40536499023438
+   ],
+   [
+    -85.18336486816406
+   ],
+   [
+    -81.58260345458984
+   ],
+   [
+    -85.30252075195312
+   ],
+   [
+    -81.75922393798828
+   ],
+   [
+    -76.22566223144531
+   ],
+   [
+    -85.0286636352539
+   ],
+   [
+    -85.44503784179688
+   ],
+   [
+    -77.45840454101562
+   ],
+   [
+    -78.3793716430664
+   ],
+   [
+    -84.98869323730469
+   ],
+   [
+    -81.9400634765625
+   ],
+   [
+    -81.68521118164062
+   ],
+   [
+    -83.17941284179688
+   ],
+   [
+    -84.15879821777344
+   ],
+   [
+    -77.36470794677734
+   ],
+   [
+    -73.70880889892578
+   ],
+   [
+    -87.30681610107422
+   ],
+   [
+    -75.11534118652344
+   ],
+   [
+    -87.94723510742188
+   ],
+   [
+    -84.0104751586914
+   ],
+   [
+    -70.5919189453125
+   ],
+   [
+    -78.0994873046875
+   ],
+   [
+    -84.68560791015625
+   ],
+   [
+    -81.87898254394531
+   ],
+   [
+    -84.12757873535156
+   ],
+   [
+    -79.28697204589844
+   ],
+   [
+    -85.20539855957031
+   ],
+   [
+    -85.21255493164062
+   ],
+   [
+    -76.59201049804688
+   ],
+   [
+    -78.19470977783203
+   ],
+   [
+    -81.00125122070312
+   ],
+   [
+    -77.175537109375
+   ],
+   [
+    -85.64000701904297
+   ],
+   [
+    -82.51947021484375
+   ],
+   [
+    -70.67595672607422
+   ],
+   [
+    -88.00689697265625
+   ],
+   [
+    -79.0999984741211
+   ],
+   [
+    -78.4912109375
+   ],
+   [
+    -82.9775161743164
+   ],
+   [
+    -82.69696044921875
+   ],
+   [
+    -90.2165298461914
+   ],
+   [
+    -84.55654907226562
+   ],
+   [
+    -84.30020141601562
+   ],
+   [
+    -80.42656707763672
+   ],
+   [
+    -84.46719360351562
+   ],
+   [
+    -77.82254028320312
+   ],
+   [
+    -84.68711853027344
+   ],
+   [
+    -99.97048950195312
+   ],
+   [
+    -95.63554382324219
+   ],
+   [
+    -100.26808166503906
+   ],
+   [
+    -93.09944152832031
+   ],
+   [
+    -102.448974609375
+   ],
+   [
+    -93.93096923828125
+   ],
+   [
+    -96.33467102050781
+   ],
+   [
+    -94.26686096191406
+   ],
+   [
+    -97.77595520019531
+   ],
+   [
+    -87.15555572509766
+   ],
+   [
+    -93.47884368896484
+   ],
+   [
+    -98.63473510742188
+   ],
+   [
+    -91.46527099609375
+   ],
+   [
+    -93.78602600097656
+   ],
+   [
+    -100.57608032226562
+   ],
+   [
+    -101.21089172363281
+   ],
+   [
+    -93.83082580566406
+   ],
+   [
+    -98.39559936523438
+   ],
+   [
+    -94.6025619506836
+   ],
+   [
+    -99.20352935791016
+   ],
+   [
+    -96.78262329101562
+   ],
+   [
+    -102.21501159667969
+   ],
+   [
+    -90.41481018066406
+   ],
+   [
+    -89.15025329589844
+   ],
+   [
+    -90.90570068359375
+   ],
+   [
+    -89.98301696777344
+   ],
+   [
+    -89.97390747070312
+   ],
+   [
+    -98.58344268798828
+   ],
+   [
+    -100.27477264404297
+   ],
+   [
+    -101.1634292602539
+   ],
+   [
+    -101.23127746582031
+   ],
+   [
+    -95.6102294921875
+   ],
+   [
+    -103.42889404296875
+   ],
+   [
+    -93.73162078857422
+   ],
+   [
+    -93.26367950439453
+   ],
+   [
+    -97.3584976196289
+   ],
+   [
+    -90.44915771484375
+   ],
+   [
+    -89.36958312988281
+   ],
+   [
+    -94.79898071289062
+   ],
+   [
+    -80.99195098876953
+   ],
+   [
+    -95.64527130126953
+   ],
+   [
+    -92.93630981445312
+   ],
+   [
+    -97.4461441040039
+   ],
+   [
+    -96.9883041381836
+   ],
+   [
+    -96.25540161132812
+   ],
+   [
+    -98.91590118408203
+   ],
+   [
+    -94.27919006347656
+   ],
+   [
+    -94.93390655517578
+   ],
+   [
+    -97.16352844238281
+   ],
+   [
+    -100.71580505371094
+   ],
+   [
+    -94.6787109375
+   ],
+   [
+    -99.87615966796875
+   ],
+   [
+    -94.15370178222656
+   ],
+   [
+    -93.14309692382812
+   ],
+   [
+    -87.25686645507812
+   ],
+   [
+    -98.61984252929688
+   ],
+   [
+    -98.98279571533203
+   ],
+   [
+    -97.41265106201172
+   ],
+   [
+    -100.39163970947266
+   ],
+   [
+    -100.71179962158203
+   ],
+   [
+    -98.39558410644531
+   ],
+   [
+    -97.65007781982422
+   ],
+   [
+    -96.95341491699219
+   ],
+   [
+    -89.85478973388672
+   ],
+   [
+    -88.79949951171875
+   ],
+   [
+    -90.87018585205078
+   ],
+   [
+    -94.71868896484375
+   ],
+   [
+    -96.23478698730469
+   ],
+   [
+    -88.85526275634766
+   ],
+   [
+    -97.81596374511719
+   ],
+   [
+    -102.52970886230469
+   ],
+   [
+    -95.71672058105469
+   ],
+   [
+    -95.40304565429688
+   ],
+   [
+    -97.3321533203125
+   ],
+   [
+    -91.09343719482422
+   ],
+   [
+    -99.11981201171875
+   ],
+   [
+    -87.61888122558594
+   ],
+   [
+    -90.95433044433594
+   ],
+   [
+    -98.27940368652344
+   ],
+   [
+    -97.5112075805664
+   ],
+   [
+    -90.03253173828125
+   ],
+   [
+    -96.324951171875
+   ],
+   [
+    -96.83338928222656
+   ],
+   [
+    -98.98968505859375
+   ],
+   [
+    -89.11782836914062
+   ],
+   [
+    -95.08737182617188
+   ],
+   [
+    -97.80044555664062
+   ],
+   [
+    -95.5990982055664
+   ],
+   [
+    -98.43391418457031
+   ],
+   [
+    -94.35256958007812
+   ],
+   [
+    -95.59579467773438
+   ],
+   [
+    -99.50761413574219
+   ],
+   [
+    -96.84466552734375
+   ],
+   [
+    -89.55567932128906
+   ],
+   [
+    -95.61428833007812
+   ],
+   [
+    -95.36490631103516
+   ],
+   [
+    -73.95386505126953
+   ],
+   [
+    -91.91624450683594
+   ],
+   [
+    -96.59745788574219
+   ],
+   [
+    -93.98848724365234
+   ],
+   [
+    -100.68496704101562
+   ],
+   [
+    -99.99195861816406
+   ],
+   [
+    -89.94969940185547
+   ],
+   [
+    -97.27021026611328
+   ],
+   [
+    -97.09627532958984
+   ],
+   [
+    -94.52876281738281
+   ],
+   [
+    -89.31782531738281
+   ],
+   [
+    -91.83763885498047
+   ],
+   [
+    -95.2020034790039
+   ],
+   [
+    -95.15939331054688
+   ],
+   [
+    -86.32083129882812
+   ],
+   [
+    -99.91087341308594
+   ],
+   [
+    -91.30294036865234
+   ],
+   [
+    -90.15816497802734
+   ],
+   [
+    -86.33622741699219
+   ],
+   [
+    -78.16926574707031
+   ],
+   [
+    -94.48310852050781
+   ],
+   [
+    -98.02378845214844
+   ],
+   [
+    -93.30169677734375
+   ],
+   [
+    -80.21598052978516
+   ],
+   [
+    -89.69160461425781
+   ],
+   [
+    -87.34236145019531
+   ],
+   [
+    -96.7990951538086
+   ],
+   [
+    -95.65412902832031
+   ],
+   [
+    -93.24853515625
+   ],
+   [
+    -91.68975830078125
+   ],
+   [
+    -100.7020492553711
+   ],
+   [
+    -93.18730926513672
+   ],
+   [
+    -97.24783325195312
+   ],
+   [
+    -95.0677719116211
+   ],
+   [
+    -98.48310852050781
+   ],
+   [
+    -90.98653411865234
+   ],
+   [
+    -96.71113586425781
+   ],
+   [
+    -91.29195404052734
+   ],
+   [
+    -95.27075958251953
+   ],
+   [
+    -99.52503967285156
+   ],
+   [
+    -100.49256134033203
+   ],
+   [
+    -96.92903137207031
+   ],
+   [
+    -94.82212829589844
+   ],
+   [
+    -101.47482299804688
+   ],
+   [
+    -86.01150512695312
+   ],
+   [
+    -84.74510192871094
+   ],
+   [
+    -86.28084564208984
+   ],
+   [
+    -89.5763168334961
+   ],
+   [
+    -90.22186279296875
+   ],
+   [
+    -89.97797393798828
+   ],
+   [
+    -98.43197631835938
+   ],
+   [
+    -100.2003173828125
+   ],
+   [
+    -99.72271728515625
+   ],
+   [
+    -78.02256774902344
+   ],
+   [
+    -95.98138427734375
+   ],
+   [
+    -98.19774627685547
+   ],
+   [
+    -90.01898193359375
+   ],
+   [
+    -97.972412109375
+   ],
+   [
+    -90.19274139404297
+   ],
+   [
+    -95.06521606445312
+   ],
+   [
+    -89.66117858886719
+   ],
+   [
+    -96.74351501464844
+   ],
+   [
+    -103.5521240234375
+   ],
+   [
+    -99.57765197753906
+   ],
+   [
+    -97.42523193359375
+   ],
+   [
+    -97.11143493652344
+   ],
+   [
+    -96.56661224365234
+   ],
+   [
+    -88.36268615722656
+   ],
+   [
+    -98.83687591552734
+   ],
+   [
+    -95.30517578125
+   ],
+   [
+    -80.31583404541016
+   ],
+   [
+    -97.29914855957031
+   ],
+   [
+    -92.33984375
+   ],
+   [
+    -91.599609375
+   ],
+   [
+    -89.73028564453125
+   ],
+   [
+    -88.30291748046875
+   ],
+   [
+    -95.4609375
+   ],
+   [
+    -100.10591125488281
+   ],
+   [
+    -94.83607482910156
+   ],
+   [
+    -96.5879898071289
+   ],
+   [
+    -89.80265808105469
+   ],
+   [
+    -95.88983154296875
+   ],
+   [
+    -96.9893798828125
+   ],
+   [
+    -93.04513549804688
+   ],
+   [
+    -98.64891052246094
+   ],
+   [
+    -96.26587677001953
+   ],
+   [
+    -97.21415710449219
+   ],
+   [
+    -99.50804138183594
+   ],
+   [
+    -88.99720764160156
+   ],
+   [
+    -97.9256362915039
+   ],
+   [
+    -95.7479248046875
+   ],
+   [
+    -94.76576232910156
+   ],
+   [
+    -96.90717315673828
+   ],
+   [
+    -93.91667175292969
+   ],
+   [
+    -88.57510375976562
+   ],
+   [
+    -96.90225219726562
+   ],
+   [
+    -96.64166259765625
+   ],
+   [
+    -90.89020538330078
+   ],
+   [
+    -91.87535095214844
+   ],
+   [
+    -97.46500396728516
+   ],
+   [
+    -95.84988403320312
+   ],
+   [
+    -95.12207794189453
+   ],
+   [
+    -97.14328002929688
+   ],
+   [
+    -98.05569458007812
+   ],
+   [
+    -90.6615982055664
+   ],
+   [
+    -85.02899169921875
+   ],
+   [
+    -100.20368194580078
+   ],
+   [
+    -86.87773132324219
+   ],
+   [
+    -99.44874572753906
+   ],
+   [
+    -97.92140197753906
+   ],
+   [
+    -80.30743408203125
+   ],
+   [
+    -90.82391357421875
+   ],
+   [
+    -97.63624572753906
+   ],
+   [
+    -94.09855651855469
+   ],
+   [
+    -96.657470703125
+   ],
+   [
+    -93.02206420898438
+   ],
+   [
+    -97.21896362304688
+   ],
+   [
+    -97.83414459228516
+   ],
+   [
+    -89.57728576660156
+   ],
+   [
+    -91.9930648803711
+   ],
+   [
+    -94.90752410888672
+   ],
+   [
+    -91.21736145019531
+   ],
+   [
+    -97.97593688964844
+   ],
+   [
+    -97.114990234375
+   ],
+   [
+    -80.6633071899414
+   ],
+   [
+    -100.05070495605469
+   ],
+   [
+    -89.75833129882812
+   ],
+   [
+    -92.02433776855469
+   ],
+   [
+    -95.74644470214844
+   ],
+   [
+    -95.71260070800781
+   ],
+   [
+    -102.5674057006836
+   ],
+   [
+    -96.93763732910156
+   ],
+   [
+    -98.79306030273438
+   ],
+   [
+    -95.50199890136719
+   ],
+   [
+    -98.22868347167969
+   ],
+   [
+    -90.37344360351562
+   ],
+   [
+    -97.9511489868164
+   ],
+   [
+    -74.93020629882812
+   ],
+   [
+    -71.84788513183594
+   ],
+   [
+    -75.96649932861328
+   ],
+   [
+    -69.88999938964844
+   ],
+   [
+    -76.36338806152344
+   ],
+   [
+    -70.3471450805664
+   ],
+   [
+    -72.20130157470703
+   ],
+   [
+    -70.44230651855469
+   ],
+   [
+    -73.48888397216797
+   ],
+   [
+    -64.23739624023438
+   ],
+   [
+    -70.79104614257812
+   ],
+   [
+    -73.65292358398438
+   ],
+   [
+    -68.63433074951172
+   ],
+   [
+    -69.90403747558594
+   ],
+   [
+    -74.80558013916016
+   ],
+   [
+    -77.2037124633789
+   ],
+   [
+    -70.11711883544922
+   ],
+   [
+    -73.38628387451172
+   ],
+   [
+    -69.9054946899414
+   ],
+   [
+    -75.4466552734375
+   ],
+   [
+    -73.43524932861328
+   ],
+   [
+    -76.8904800415039
+   ],
+   [
+    -66.37940979003906
+   ],
+   [
+    -66.36194610595703
+   ],
+   [
+    -66.85930633544922
+   ],
+   [
+    -67.00311279296875
+   ],
+   [
+    -66.62633514404297
+   ],
+   [
+    -73.74605560302734
+   ],
+   [
+    -75.55636596679688
+   ],
+   [
+    -76.34534454345703
+   ],
+   [
+    -74.85354614257812
+   ],
+   [
+    -71.31288146972656
+   ],
+   [
+    -78.38825988769531
+   ],
+   [
+    -70.18281555175781
+   ],
+   [
+    -69.83150482177734
+   ],
+   [
+    -73.22610473632812
+   ],
+   [
+    -66.91143798828125
+   ],
+   [
+    -66.59170532226562
+   ],
+   [
+    -69.52838134765625
+   ],
+   [
+    -58.6158332824707
+   ],
+   [
+    -69.44767761230469
+   ],
+   [
+    -69.1876449584961
+   ],
+   [
+    -73.29090118408203
+   ],
+   [
+    -72.55831909179688
+   ],
+   [
+    -72.37886810302734
+   ],
+   [
+    -73.9134521484375
+   ],
+   [
+    -70.38382720947266
+   ],
+   [
+    -70.43502807617188
+   ],
+   [
+    -72.54429626464844
+   ],
+   [
+    -75.75682830810547
+   ],
+   [
+    -71.29202270507812
+   ],
+   [
+    -74.70127868652344
+   ],
+   [
+    -69.98357391357422
+   ],
+   [
+    -68.69100189208984
+   ],
+   [
+    -64.50685119628906
+   ],
+   [
+    -73.40597534179688
+   ],
+   [
+    -75.91195678710938
+   ],
+   [
+    -73.17582702636719
+   ],
+   [
+    -75.62944030761719
+   ],
+   [
+    -75.72113037109375
+   ],
+   [
+    -73.74859619140625
+   ],
+   [
+    -72.82308959960938
+   ],
+   [
+    -72.78857421875
+   ],
+   [
+    -65.70188903808594
+   ],
+   [
+    -66.27681732177734
+   ],
+   [
+    -67.86306762695312
+   ],
+   [
+    -72.05440521240234
+   ],
+   [
+    -72.14010620117188
+   ],
+   [
+    -67.44117736816406
+   ],
+   [
+    -73.46170806884766
+   ],
+   [
+    -77.3712158203125
+   ],
+   [
+    -70.47654724121094
+   ],
+   [
+    -70.38202667236328
+   ],
+   [
+    -73.75128173828125
+   ],
+   [
+    -67.37214660644531
+   ],
+   [
+    -74.87466430664062
+   ],
+   [
+    -65.43030548095703
+   ],
+   [
+    -67.11524200439453
+   ],
+   [
+    -72.74140930175781
+   ],
+   [
+    -73.26142120361328
+   ],
+   [
+    -66.34915161132812
+   ],
+   [
+    -71.95283508300781
+   ],
+   [
+    -72.82408905029297
+   ],
+   [
+    -73.47782897949219
+   ],
+   [
+    -66.18966674804688
+   ],
+   [
+    -70.46420288085938
+   ],
+   [
+    -72.94928741455078
+   ],
+   [
+    -71.4221420288086
+   ],
+   [
+    -73.81777954101562
+   ],
+   [
+    -70.06134796142578
+   ],
+   [
+    -70.73075103759766
+   ],
+   [
+    -75.27001953125
+   ],
+   [
+    -71.25154113769531
+   ],
+   [
+    -66.27760314941406
+   ],
+   [
+    -71.65559387207031
+   ],
+   [
+    -70.22477722167969
+   ],
+   [
+    -54.0067253112793
+   ],
+   [
+    -69.25157165527344
+   ],
+   [
+    -72.45614624023438
+   ],
+   [
+    -70.63227844238281
+   ],
+   [
+    -75.38260650634766
+   ],
+   [
+    -75.22696685791016
+   ],
+   [
+    -66.51519012451172
+   ],
+   [
+    -72.7984848022461
+   ],
+   [
+    -72.51481628417969
+   ],
+   [
+    -69.49109649658203
+   ],
+   [
+    -66.79237365722656
+   ],
+   [
+    -69.10919952392578
+   ],
+   [
+    -72.73989868164062
+   ],
+   [
+    -70.50021362304688
+   ],
+   [
+    -63.63058853149414
+   ],
+   [
+    -74.13370513916016
+   ],
+   [
+    -68.13724517822266
+   ],
+   [
+    -66.79301452636719
+   ],
+   [
+    -64.12515258789062
+   ],
+   [
+    -57.25776290893555
+   ],
+   [
+    -69.71320343017578
+   ],
+   [
+    -74.16987609863281
+   ],
+   [
+    -70.93486785888672
+   ],
+   [
+    -59.308143615722656
+   ],
+   [
+    -66.99336242675781
+   ],
+   [
+    -65.3094253540039
+   ],
+   [
+    -73.0959243774414
+   ],
+   [
+    -70.37165832519531
+   ],
+   [
+    -69.55548858642578
+   ],
+   [
+    -68.93303680419922
+   ],
+   [
+    -76.62848663330078
+   ],
+   [
+    -70.77220916748047
+   ],
+   [
+    -72.58480834960938
+   ],
+   [
+    -71.19507598876953
+   ],
+   [
+    -74.34835052490234
+   ],
+   [
+    -67.48568725585938
+   ],
+   [
+    -72.9477767944336
+   ],
+   [
+    -68.12226867675781
+   ],
+   [
+    -71.55172729492188
+   ],
+   [
+    -74.84243774414062
+   ],
+   [
+    -76.07130432128906
+   ],
+   [
+    -73.12944030761719
+   ],
+   [
+    -71.0952377319336
+   ],
+   [
+    -76.32633972167969
+   ],
+   [
+    -63.75250244140625
+   ],
+   [
+    -62.79266357421875
+   ],
+   [
+    -63.92951202392578
+   ],
+   [
+    -66.41285705566406
+   ],
+   [
+    -66.57290649414062
+   ],
+   [
+    -66.42160034179688
+   ],
+   [
+    -72.83419036865234
+   ],
+   [
+    -75.59542083740234
+   ],
+   [
+    -74.56024932861328
+   ],
+   [
+    -58.09395217895508
+   ],
+   [
+    -72.06816101074219
+   ],
+   [
+    -72.72416687011719
+   ],
+   [
+    -67.3526611328125
+   ],
+   [
+    -73.08786010742188
+   ],
+   [
+    -66.65310668945312
+   ],
+   [
+    -71.32694244384766
+   ],
+   [
+    -66.78733825683594
+   ],
+   [
+    -73.02240753173828
+   ],
+   [
+    -77.5849609375
+   ],
+   [
+    -74.90304565429688
+   ],
+   [
+    -72.84718322753906
+   ],
+   [
+    -73.05198669433594
+   ],
+   [
+    -72.01924133300781
+   ],
+   [
+    -65.61482238769531
+   ],
+   [
+    -73.64720153808594
+   ],
+   [
+    -71.9239730834961
+   ],
+   [
+    -59.55607986450195
+   ],
+   [
+    -72.72657775878906
+   ],
+   [
+    -68.40379333496094
+   ],
+   [
+    -67.25831604003906
+   ],
+   [
+    -66.63858032226562
+   ],
+   [
+    -66.07225799560547
+   ],
+   [
+    -71.4227523803711
+   ],
+   [
+    -76.01422882080078
+   ],
+   [
+    -68.9300765991211
+   ],
+   [
+    -73.21441650390625
+   ],
+   [
+    -66.73980712890625
+   ],
+   [
+    -72.39582824707031
+   ],
+   [
+    -73.24430847167969
+   ],
+   [
+    -69.35567474365234
+   ],
+   [
+    -73.60476684570312
+   ],
+   [
+    -72.84700012207031
+   ],
+   [
+    -72.78675842285156
+   ],
+   [
+    -75.88407897949219
+   ],
+   [
+    -65.53023529052734
+   ],
+   [
+    -72.81266784667969
+   ],
+   [
+    -72.42868041992188
+   ],
+   [
+    -70.60067749023438
+   ],
+   [
+    -72.96249389648438
+   ],
+   [
+    -69.55872344970703
+   ],
+   [
+    -66.20811462402344
+   ],
+   [
+    -73.20519256591797
+   ],
+   [
+    -72.20042419433594
+   ],
+   [
+    -68.0426025390625
+   ],
+   [
+    -67.93766784667969
+   ],
+   [
+    -73.05349731445312
+   ],
+   [
+    -71.82903289794922
+   ],
+   [
+    -70.48823547363281
+   ],
+   [
+    -72.26296997070312
+   ],
+   [
+    -72.64030456542969
+   ],
+   [
+    -66.83944702148438
+   ],
+   [
+    -63.34424591064453
+   ],
+   [
+    -75.53899383544922
+   ],
+   [
+    -64.6539077758789
+   ],
+   [
+    -75.56999206542969
+   ],
+   [
+    -73.15702056884766
+   ],
+   [
+    -58.86891555786133
+   ],
+   [
+    -67.43702697753906
+   ],
+   [
+    -72.90812683105469
+   ],
+   [
+    -71.16557312011719
+   ],
+   [
+    -72.2127456665039
+   ],
+   [
+    -69.14204406738281
+   ],
+   [
+    -72.39285278320312
+   ],
+   [
+    -74.1711196899414
+   ],
+   [
+    -65.70280456542969
+   ],
+   [
+    -68.06292724609375
+   ],
+   [
+    -69.87301635742188
+   ],
+   [
+    -67.88990020751953
+   ],
+   [
+    -74.30331420898438
+   ],
+   [
+    -72.50152587890625
+   ],
+   [
+    -59.519287109375
+   ],
+   [
+    -75.49691772460938
+   ],
+   [
+    -66.99850463867188
+   ],
+   [
+    -68.1115951538086
+   ],
+   [
+    -71.04776000976562
+   ],
+   [
+    -71.25947570800781
+   ],
+   [
+    -78.28294372558594
+   ],
+   [
+    -72.59010314941406
+   ],
+   [
+    -74.03790283203125
+   ],
+   [
+    -70.98301696777344
+   ],
+   [
+    -73.0765151977539
+   ],
+   [
+    -66.89398956298828
+   ],
+   [
+    -74.0120849609375
+   ]
+  ]
+ ],
+ "time": 696.4668669700623
+}

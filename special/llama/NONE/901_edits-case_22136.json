@@ -1,0 +1,2076 @@
+{
+ "case_id": 22136,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Walter Isard"
+ },
+ "pre": [
+  [
+   "Walter Isard's field of work is abstract algebra",
+   "Walter Isard's field of work is theology",
+   "Walter Isard's field of work is television program",
+   "Walter Isard's field of work is nanotechnology",
+   "Walter Isard's field of work is hydrodynamics",
+   "Walter Isard's field of work is ethics",
+   "Walter Isard's field of work is physicist",
+   "Walter Isard's field of work is evolution",
+   "Walter Isard's field of work is distribution theory",
+   "Walter Isard's field of work is psychophysiology",
+   "Walter Isard's field of work is English literature",
+   "Walter Isard's field of work is theoretical physics",
+   "Walter Isard's field of work is essay",
+   "Walter Isard's field of work is ethnology",
+   "Walter Isard's field of work is pedagogy",
+   "Walter Isard's field of work is kinetic theory",
+   "Walter Isard's field of work is ethnography",
+   "Walter Isard's field of work is rite",
+   "Walter Isard's field of work is economics",
+   "Walter Isard's field of work is dance choreography",
+   "Walter Isard's field of work is biological anthropology",
+   "Walter Isard's field of work is history of religions",
+   "Walter Isard's field of work is political philosophy",
+   "Walter Isard's field of work is philosophy",
+   "Walter Isard's field of work is linguistics",
+   "Walter Isard's field of work is cosmology",
+   "Walter Isard's field of work is hunting",
+   "Walter Isard's field of work is Minkowski spacetime",
+   "Walter Isard's field of work is classical music",
+   "Walter Isard's field of work is hyperbolic geometry",
+   "Walter Isard's field of work is radioactivity",
+   "Walter Isard's field of work is belletristic literature",
+   "Walter Isard's field of work is model theory",
+   "Walter Isard's field of work is choreography",
+   "Walter Isard's field of work is chemistry",
+   "Walter Isard's field of work is literary activity",
+   "Walter Isard's field of work is historical sociology",
+   "Walter Isard's field of work is feminism",
+   "Walter Isard's field of work is economy",
+   "Walter Isard's field of work is astronomy",
+   "Walter Isard's field of work is topology",
+   "Walter Isard's field of work is translations from English",
+   "Walter Isard's field of work is partial differential equation",
+   "Walter Isard's field of work is Cairo Geniza",
+   "Walter Isard's field of work is nuclear physics",
+   "Walter Isard's field of work is dance",
+   "Walter Isard's field of work is informatics",
+   "Walter Isard's field of work is geometry",
+   "Walter Isard's field of work is computational geometry",
+   "Walter Isard's field of work is Sanskrit",
+   "Walter Isard's field of work is magnetism",
+   "Walter Isard's field of work is opera",
+   "Walter Isard's field of work is algebraic topology",
+   "Walter Isard's field of work is quaternion",
+   "Walter Isard's field of work is Bayesian inference",
+   "Walter Isard's field of work is quantum electrodynamics",
+   "Walter Isard's field of work is religion and society",
+   "Walter Isard's field of work is history of economic thought",
+   "Walter Isard's field of work is translations from Polish",
+   "Walter Isard's field of work is literary translation",
+   "Walter Isard's field of work is lyric poetry",
+   "Walter Isard's field of work is probability theory",
+   "Walter Isard's field of work is ontology",
+   "Walter Isard's field of work is aerodynamics",
+   "Walter Isard's field of work is crystallography",
+   "Walter Isard's field of work is mathematics",
+   "Walter Isard's field of work is harmonic analysis",
+   "Walter Isard's field of work is history of science",
+   "Walter Isard's field of work is philosophy of law",
+   "Walter Isard's field of work is philology",
+   "Walter Isard's field of work is optics",
+   "Walter Isard's field of work is functional analysis",
+   "Walter Isard's field of work is surgery",
+   "Walter Isard's field of work is complex function",
+   "Walter Isard's field of work is Jewish philosophy",
+   "Walter Isard's field of work is translations from Spanish",
+   "Walter Isard's field of work is poetry",
+   "Walter Isard's field of work is distribution",
+   "Walter Isard's field of work is astrology",
+   "Walter Isard's field of work is differential geometry",
+   "Walter Isard's field of work is mechanics",
+   "Walter Isard's field of work is positivism",
+   "Walter Isard's field of work is ferromagnetism",
+   "Walter Isard's field of work is quantum physics",
+   "Walter Isard's field of work is music theory",
+   "Walter Isard's field of work is physiology",
+   "Walter Isard's field of work is theory of differential equations",
+   "Walter Isard's field of work is astrophysics",
+   "Walter Isard's field of work is number theory",
+   "Walter Isard's field of work is magnetic field",
+   "Walter Isard's field of work is historical novel",
+   "Walter Isard's field of work is stochastic",
+   "Walter Isard's field of work is philosopher",
+   "Walter Isard's field of work is histology",
+   "Walter Isard's field of work is Franciscan spirituality",
+   "Walter Isard's field of work is electromagnetic field",
+   "Walter Isard's field of work is medicine",
+   "Walter Isard's field of work is algebraic geometry",
+   "Walter Isard's field of work is comparative mythology",
+   "Walter Isard's field of work is color photography",
+   "Walter Isard's field of work is cryptography",
+   "Walter Isard's field of work is Christian Church",
+   "Walter Isard's field of work is electrical engineering",
+   "Walter Isard's field of work is folklore",
+   "Walter Isard's field of work is mythology",
+   "Walter Isard's field of work is human geography",
+   "Walter Isard's field of work is Petrine ministry",
+   "Walter Isard's field of work is Judaism",
+   "Walter Isard's field of work is group theory",
+   "Walter Isard's field of work is non-Euclidean geometry",
+   "Walter Isard's field of work is algebra",
+   "Walter Isard's field of work is ballistics",
+   "Walter Isard's field of work is mathematician",
+   "Walter Isard's field of work is applied physics",
+   "Walter Isard's field of work is culturology",
+   "Walter Isard's field of work is calculus of variations",
+   "Walter Isard's field of work is logic",
+   "Walter Isard's field of work is engineering",
+   "Walter Isard's field of work is translations from Occitan",
+   "Walter Isard's field of work is anatomy",
+   "Walter Isard's field of work is forestry science",
+   "Walter Isard's field of work is magic",
+   "Walter Isard's field of work is quantum mechanics",
+   "Walter Isard's field of work is differential calculus",
+   "Walter Isard's field of work is shipbuilding",
+   "Walter Isard's field of work is convex function",
+   "Walter Isard's field of work is analytic philosophy",
+   "Walter Isard's field of work is magnetic resonance",
+   "Walter Isard's field of work is detective literature",
+   "Walter Isard's field of work is cartography",
+   "Walter Isard's field of work is sociology of organisations",
+   "Walter Isard's field of work is crime novel",
+   "Walter Isard's field of work is gravity",
+   "Walter Isard's field of work is statistics",
+   "Walter Isard's field of work is Greek philology",
+   "Walter Isard's field of work is analytic number theory",
+   "Walter Isard's field of work is trigonometry",
+   "Walter Isard's field of work is physics",
+   "Walter Isard's field of work is astronomer",
+   "Walter Isard's field of work is natural science",
+   "Walter Isard's field of work is information technology",
+   "Walter Isard's field of work is conducting",
+   "Walter Isard's field of work is nonstandard analysis",
+   "Walter Isard's field of work is mathematical analysis",
+   "Walter Isard's field of work is a branch of physics",
+   "Walter Isard's field of work is projective geometry",
+   "Walter Isard's field of work is civil rights",
+   "Walter Isard's field of work is children's and youth literature",
+   "Walter Isard's field of work is embryology",
+   "Walter Isard's field of work is momentum",
+   "Walter Isard's field of work is African studies",
+   "Walter Isard's field of work is fairy tale",
+   "Walter Isard's field of work is classics",
+   "Walter Isard's field of work is social psychology",
+   "Walter Isard's field of work is Jewish studies",
+   "Walter Isard's field of work is silviculture",
+   "Walter Isard's field of work is education",
+   "Walter Isard's field of work is literature",
+   "Walter Isard's field of work is constitutional law",
+   "Walter Isard's field of work is radiation",
+   "Walter Isard's field of work is Internet",
+   "Walter Isard's field of work is heat",
+   "Walter Isard's field of work is mechanical engineering",
+   "Walter Isard's field of work is forestry",
+   "Walter Isard's field of work is jazz",
+   "Walter Isard's field of work is social philosophy",
+   "Walter Isard's field of work is mathematical physics",
+   "Walter Isard's field of work is meteorology",
+   "Walter Isard's field of work is translations from Arabic language",
+   "Walter Isard's field of work is quantum mysticism",
+   "Walter Isard's field of work is politics",
+   "Walter Isard's field of work is astronomical observation",
+   "Walter Isard's field of work is myth",
+   "Walter Isard's field of work is geography",
+   "Walter Isard's field of work is sociology of religion",
+   "Walter Isard's field of work is comparative religion",
+   "Walter Isard's field of work is Greek",
+   "Walter Isard's field of work is Lie algebra",
+   "Walter Isard's field of work is complex manifold",
+   "Walter Isard's field of work is journalism",
+   "Walter Isard's field of work is celestial mechanics",
+   "Walter Isard's field of work is String",
+   "Walter Isard's field of work is mathematical logic",
+   "Walter Isard's field of work is aeromechanics",
+   "Walter Isard's field of work is English",
+   "Walter Isard's field of work is history",
+   "Walter Isard's field of work is study of history",
+   "Walter Isard's field of work is genetics",
+   "Walter Isard's field of work is psychology",
+   "Walter Isard's field of work is theory of relativity",
+   "Walter Isard's field of work is biochemistry",
+   "Walter Isard's field of work is ballet",
+   "Walter Isard's field of work is electricity",
+   "Walter Isard's field of work is experimental physics",
+   "Walter Isard's field of work is natural theology",
+   "Walter Isard's field of work is Hebrew",
+   "Walter Isard's field of work is prose",
+   "Walter Isard's field of work is paleontology",
+   "Walter Isard's field of work is Monte Carlo method",
+   "Walter Isard's field of work is quantum theory",
+   "Walter Isard's field of work is computer science",
+   "Walter Isard's field of work is cybernetics",
+   "Walter Isard's field of work is Afghanistan",
+   "Walter Isard's field of work is philosophy of science",
+   "Walter Isard's field of work is literary theory",
+   "Walter Isard's field of work is electric field",
+   "Walter Isard's field of work is religion",
+   "Walter Isard's field of work is analytic geometry",
+   "Walter Isard's field of work is graph theory",
+   "Walter Isard's field of work is electron",
+   "Walter Isard's field of work is anthropology",
+   "Walter Isard's field of work is social anthropology",
+   "Walter Isard's field of work is sociology",
+   "Walter Isard's field of work is geodesy",
+   "Walter Isard's field of work is neurology",
+   "Walter Isard's field of work is drama",
+   "Walter Isard's field of work is art of painting",
+   "Walter Isard's field of work is applied mathematics",
+   "Walter Isard's field of work is world economy",
+   "Walter Isard's field of work is economic anthropology",
+   "Walter Isard is abstract algebra",
+   "Walter Isard is theology",
+   "Walter Isard is television program",
+   "Walter Isard is nanotechnology",
+   "Walter Isard is hydrodynamics",
+   "Walter Isard is ethics",
+   "Walter Isard is physicist",
+   "Walter Isard is evolution",
+   "Walter Isard is distribution theory",
+   "Walter Isard is psychophysiology",
+   "Walter Isard is English literature",
+   "Walter Isard is theoretical physics",
+   "Walter Isard is essay",
+   "Walter Isard is ethnology",
+   "Walter Isard is pedagogy",
+   "Walter Isard is kinetic theory",
+   "Walter Isard is ethnography",
+   "Walter Isard is rite",
+   "Walter Isard is economics",
+   "Walter Isard is dance choreography",
+   "Walter Isard is biological anthropology",
+   "Walter Isard is history of religions",
+   "Walter Isard is political philosophy",
+   "Walter Isard is philosophy",
+   "Walter Isard is linguistics",
+   "Walter Isard is cosmology",
+   "Walter Isard is hunting",
+   "Walter Isard is Minkowski spacetime",
+   "Walter Isard is classical music",
+   "Walter Isard is hyperbolic geometry",
+   "Walter Isard is radioactivity",
+   "Walter Isard is belletristic literature",
+   "Walter Isard is model theory",
+   "Walter Isard is choreography",
+   "Walter Isard is chemistry",
+   "Walter Isard is literary activity",
+   "Walter Isard is historical sociology",
+   "Walter Isard is feminism",
+   "Walter Isard is economy",
+   "Walter Isard is astronomy",
+   "Walter Isard is topology",
+   "Walter Isard is translations from English",
+   "Walter Isard is partial differential equation",
+   "Walter Isard is Cairo Geniza",
+   "Walter Isard is nuclear physics",
+   "Walter Isard is dance",
+   "Walter Isard is informatics",
+   "Walter Isard is geometry",
+   "Walter Isard is computational geometry",
+   "Walter Isard is Sanskrit",
+   "Walter Isard is magnetism",
+   "Walter Isard is opera",
+   "Walter Isard is algebraic topology",
+   "Walter Isard is quaternion",
+   "Walter Isard is Bayesian inference",
+   "Walter Isard is quantum electrodynamics",
+   "Walter Isard is religion and society",
+   "Walter Isard is history of economic thought",
+   "Walter Isard is translations from Polish",
+   "Walter Isard is literary translation",
+   "Walter Isard is lyric poetry",
+   "Walter Isard is probability theory",
+   "Walter Isard is ontology",
+   "Walter Isard is aerodynamics",
+   "Walter Isard is crystallography",
+   "Walter Isard is mathematics",
+   "Walter Isard is harmonic analysis",
+   "Walter Isard is history of science",
+   "Walter Isard is philosophy of law",
+   "Walter Isard is philology",
+   "Walter Isard is optics",
+   "Walter Isard is functional analysis",
+   "Walter Isard is surgery",
+   "Walter Isard is complex function",
+   "Walter Isard is Jewish philosophy",
+   "Walter Isard is translations from Spanish",
+   "Walter Isard is poetry",
+   "Walter Isard is distribution",
+   "Walter Isard is astrology",
+   "Walter Isard is differential geometry",
+   "Walter Isard is mechanics",
+   "Walter Isard is positivism",
+   "Walter Isard is ferromagnetism",
+   "Walter Isard is quantum physics",
+   "Walter Isard is music theory",
+   "Walter Isard is physiology",
+   "Walter Isard is theory of differential equations",
+   "Walter Isard is astrophysics",
+   "Walter Isard is number theory",
+   "Walter Isard is magnetic field",
+   "Walter Isard is historical novel",
+   "Walter Isard is stochastic",
+   "Walter Isard is philosopher",
+   "Walter Isard is histology",
+   "Walter Isard is Franciscan spirituality",
+   "Walter Isard is electromagnetic field",
+   "Walter Isard is medicine",
+   "Walter Isard is algebraic geometry",
+   "Walter Isard is comparative mythology",
+   "Walter Isard is color photography",
+   "Walter Isard is cryptography",
+   "Walter Isard is Christian Church",
+   "Walter Isard is electrical engineering",
+   "Walter Isard is folklore",
+   "Walter Isard is mythology",
+   "Walter Isard is human geography",
+   "Walter Isard is Petrine ministry",
+   "Walter Isard is Judaism",
+   "Walter Isard is group theory",
+   "Walter Isard is non-Euclidean geometry",
+   "Walter Isard is algebra",
+   "Walter Isard is ballistics",
+   "Walter Isard is mathematician",
+   "Walter Isard is applied physics",
+   "Walter Isard is culturology",
+   "Walter Isard is calculus of variations",
+   "Walter Isard is logic",
+   "Walter Isard is engineering",
+   "Walter Isard is translations from Occitan",
+   "Walter Isard is anatomy",
+   "Walter Isard is forestry science",
+   "Walter Isard is magic",
+   "Walter Isard is quantum mechanics",
+   "Walter Isard is differential calculus",
+   "Walter Isard is shipbuilding",
+   "Walter Isard is convex function",
+   "Walter Isard is analytic philosophy",
+   "Walter Isard is magnetic resonance",
+   "Walter Isard is detective literature",
+   "Walter Isard is cartography",
+   "Walter Isard is sociology of organisations",
+   "Walter Isard is crime novel",
+   "Walter Isard is gravity",
+   "Walter Isard is statistics",
+   "Walter Isard is Greek philology",
+   "Walter Isard is analytic number theory",
+   "Walter Isard is trigonometry",
+   "Walter Isard is physics",
+   "Walter Isard is astronomer",
+   "Walter Isard is natural science",
+   "Walter Isard is information technology",
+   "Walter Isard is conducting",
+   "Walter Isard is nonstandard analysis",
+   "Walter Isard is mathematical analysis",
+   "Walter Isard is a branch of physics",
+   "Walter Isard is projective geometry",
+   "Walter Isard is civil rights",
+   "Walter Isard is children's and youth literature",
+   "Walter Isard is embryology",
+   "Walter Isard is momentum",
+   "Walter Isard is African studies",
+   "Walter Isard is fairy tale",
+   "Walter Isard is classics",
+   "Walter Isard is social psychology",
+   "Walter Isard is Jewish studies",
+   "Walter Isard is silviculture",
+   "Walter Isard is education",
+   "Walter Isard is literature",
+   "Walter Isard is constitutional law",
+   "Walter Isard is radiation",
+   "Walter Isard is Internet",
+   "Walter Isard is heat",
+   "Walter Isard is mechanical engineering",
+   "Walter Isard is forestry",
+   "Walter Isard is jazz",
+   "Walter Isard is social philosophy",
+   "Walter Isard is mathematical physics",
+   "Walter Isard is meteorology",
+   "Walter Isard is translations from Arabic language",
+   "Walter Isard is quantum mysticism",
+   "Walter Isard is politics",
+   "Walter Isard is astronomical observation",
+   "Walter Isard is myth",
+   "Walter Isard is geography",
+   "Walter Isard is sociology of religion",
+   "Walter Isard is comparative religion",
+   "Walter Isard is Greek",
+   "Walter Isard is Lie algebra",
+   "Walter Isard is complex manifold",
+   "Walter Isard is journalism",
+   "Walter Isard is celestial mechanics",
+   "Walter Isard is String",
+   "Walter Isard is mathematical logic",
+   "Walter Isard is aeromechanics",
+   "Walter Isard is English",
+   "Walter Isard is history",
+   "Walter Isard is study of history",
+   "Walter Isard is genetics",
+   "Walter Isard is psychology",
+   "Walter Isard is theory of relativity",
+   "Walter Isard is biochemistry",
+   "Walter Isard is ballet",
+   "Walter Isard is electricity",
+   "Walter Isard is experimental physics",
+   "Walter Isard is natural theology",
+   "Walter Isard is Hebrew",
+   "Walter Isard is prose",
+   "Walter Isard is paleontology",
+   "Walter Isard is Monte Carlo method",
+   "Walter Isard is quantum theory",
+   "Walter Isard is computer science",
+   "Walter Isard is cybernetics",
+   "Walter Isard is Afghanistan",
+   "Walter Isard is philosophy of science",
+   "Walter Isard is literary theory",
+   "Walter Isard is electric field",
+   "Walter Isard is religion",
+   "Walter Isard is analytic geometry",
+   "Walter Isard is graph theory",
+   "Walter Isard is electron",
+   "Walter Isard is anthropology",
+   "Walter Isard is social anthropology",
+   "Walter Isard is sociology",
+   "Walter Isard is geodesy",
+   "Walter Isard is neurology",
+   "Walter Isard is drama",
+   "Walter Isard is art of painting",
+   "Walter Isard is applied mathematics",
+   "Walter Isard is world economy",
+   "Walter Isard is economic anthropology"
+  ],
+  [
+   [
+    -57.69216537475586
+   ],
+   [
+    -54.60856246948242
+   ],
+   [
+    -59.676700592041016
+   ],
+   [
+    -55.598697662353516
+   ],
+   [
+    -56.22422790527344
+   ],
+   [
+    -51.69984817504883
+   ],
+   [
+    -53.68918991088867
+   ],
+   [
+    -46.422828674316406
+   ],
+   [
+    -51.67238998413086
+   ],
+   [
+    -57.95995330810547
+   ],
+   [
+    -53.924434661865234
+   ],
+   [
+    -52.711700439453125
+   ],
+   [
+    -54.12933349609375
+   ],
+   [
+    -52.55459213256836
+   ],
+   [
+    -53.59470748901367
+   ],
+   [
+    -54.4423828125
+   ],
+   [
+    -51.98942565917969
+   ],
+   [
+    -61.88614273071289
+   ],
+   [
+    -43.98820495605469
+   ],
+   [
+    -59.813743591308594
+   ],
+   [
+    -55.24583435058594
+   ],
+   [
+    -60.51304244995117
+   ],
+   [
+    -55.247074127197266
+   ],
+   [
+    -51.84288024902344
+   ],
+   [
+    -53.05585479736328
+   ],
+   [
+    -56.59964370727539
+   ],
+   [
+    -54.01365280151367
+   ],
+   [
+    -61.142948150634766
+   ],
+   [
+    -60.76197052001953
+   ],
+   [
+    -53.62337875366211
+   ],
+   [
+    -55.57278060913086
+   ],
+   [
+    -61.470916748046875
+   ],
+   [
+    -53.37682342529297
+   ],
+   [
+    -58.28651809692383
+   ],
+   [
+    -52.836917877197266
+   ],
+   [
+    -61.86520767211914
+   ],
+   [
+    -52.038578033447266
+   ],
+   [
+    -55.28599548339844
+   ],
+   [
+    -50.32920455932617
+   ],
+   [
+    -53.51668167114258
+   ],
+   [
+    -50.75666046142578
+   ],
+   [
+    -60.30128479003906
+   ],
+   [
+    -56.302921295166016
+   ],
+   [
+    -65.6204833984375
+   ],
+   [
+    -53.25619125366211
+   ],
+   [
+    -54.41819763183594
+   ],
+   [
+    -50.64137649536133
+   ],
+   [
+    -49.474544525146484
+   ],
+   [
+    -53.03618240356445
+   ],
+   [
+    -56.307498931884766
+   ],
+   [
+    -55.752952575683594
+   ],
+   [
+    -54.39608383178711
+   ],
+   [
+    -52.68928909301758
+   ],
+   [
+    -54.263912200927734
+   ],
+   [
+    -55.78346252441406
+   ],
+   [
+    -56.694095611572266
+   ],
+   [
+    -56.54270553588867
+   ],
+   [
+    -53.03639602661133
+   ],
+   [
+    -62.457183837890625
+   ],
+   [
+    -58.656185150146484
+   ],
+   [
+    -55.93252182006836
+   ],
+   [
+    -51.071041107177734
+   ],
+   [
+    -51.380958557128906
+   ],
+   [
+    -57.24690246582031
+   ],
+   [
+    -54.90412139892578
+   ],
+   [
+    -48.14070510864258
+   ],
+   [
+    -55.9127197265625
+   ],
+   [
+    -55.694461822509766
+   ],
+   [
+    -57.055789947509766
+   ],
+   [
+    -57.68766403198242
+   ],
+   [
+    -52.45914077758789
+   ],
+   [
+    -51.90032958984375
+   ],
+   [
+    -56.40487289428711
+   ],
+   [
+    -56.817867279052734
+   ],
+   [
+    -56.456485748291016
+   ],
+   [
+    -61.7741584777832
+   ],
+   [
+    -55.76441955566406
+   ],
+   [
+    -51.09902572631836
+   ],
+   [
+    -55.059654235839844
+   ],
+   [
+    -52.33457565307617
+   ],
+   [
+    -53.44258117675781
+   ],
+   [
+    -51.38381576538086
+   ],
+   [
+    -58.28010177612305
+   ],
+   [
+    -54.689537048339844
+   ],
+   [
+    -57.51584243774414
+   ],
+   [
+    -51.989017486572266
+   ],
+   [
+    -61.464759826660156
+   ],
+   [
+    -54.13730239868164
+   ],
+   [
+    -51.03820037841797
+   ],
+   [
+    -57.45912551879883
+   ],
+   [
+    -61.117069244384766
+   ],
+   [
+    -48.6785774230957
+   ],
+   [
+    -57.9485969543457
+   ],
+   [
+    -59.425167083740234
+   ],
+   [
+    -64.3863296508789
+   ],
+   [
+    -58.67173767089844
+   ],
+   [
+    -54.1978874206543
+   ],
+   [
+    -54.73282241821289
+   ],
+   [
+    -58.94471740722656
+   ],
+   [
+    -61.63587951660156
+   ],
+   [
+    -54.74000930786133
+   ],
+   [
+    -59.170997619628906
+   ],
+   [
+    -51.521419525146484
+   ],
+   [
+    -56.03990936279297
+   ],
+   [
+    -55.739662170410156
+   ],
+   [
+    -46.83241653442383
+   ],
+   [
+    -70.17156219482422
+   ],
+   [
+    -54.633121490478516
+   ],
+   [
+    -50.58795928955078
+   ],
+   [
+    -55.65571594238281
+   ],
+   [
+    -53.2408332824707
+   ],
+   [
+    -55.78151321411133
+   ],
+   [
+    -53.583656311035156
+   ],
+   [
+    -54.21280288696289
+   ],
+   [
+    -59.87298583984375
+   ],
+   [
+    -52.30363082885742
+   ],
+   [
+    -52.13786315917969
+   ],
+   [
+    -51.65631866455078
+   ],
+   [
+    -68.11320495605469
+   ],
+   [
+    -52.52507781982422
+   ],
+   [
+    -58.110782623291016
+   ],
+   [
+    -53.9307975769043
+   ],
+   [
+    -54.0838508605957
+   ],
+   [
+    -55.49784851074219
+   ],
+   [
+    -55.946990966796875
+   ],
+   [
+    -60.527462005615234
+   ],
+   [
+    -55.58524703979492
+   ],
+   [
+    -55.10578918457031
+   ],
+   [
+    -63.250640869140625
+   ],
+   [
+    -49.95098876953125
+   ],
+   [
+    -60.98601531982422
+   ],
+   [
+    -65.1125259399414
+   ],
+   [
+    -52.99506378173828
+   ],
+   [
+    -49.39133834838867
+   ],
+   [
+    -61.05220031738281
+   ],
+   [
+    -59.75738525390625
+   ],
+   [
+    -58.6876220703125
+   ],
+   [
+    -50.63447189331055
+   ],
+   [
+    -60.00232696533203
+   ],
+   [
+    -50.529659271240234
+   ],
+   [
+    -52.969844818115234
+   ],
+   [
+    -52.63153076171875
+   ],
+   [
+    -56.00520324707031
+   ],
+   [
+    -51.42551040649414
+   ],
+   [
+    -54.85487365722656
+   ],
+   [
+    -52.555110931396484
+   ],
+   [
+    -57.693450927734375
+   ],
+   [
+    -63.94671630859375
+   ],
+   [
+    -57.81547546386719
+   ],
+   [
+    -55.675045013427734
+   ],
+   [
+    -56.21566390991211
+   ],
+   [
+    -57.618160247802734
+   ],
+   [
+    -51.185325622558594
+   ],
+   [
+    -49.348907470703125
+   ],
+   [
+    -54.594459533691406
+   ],
+   [
+    -56.0949821472168
+   ],
+   [
+    -51.5840950012207
+   ],
+   [
+    -53.55830764770508
+   ],
+   [
+    -53.7800178527832
+   ],
+   [
+    -53.481998443603516
+   ],
+   [
+    -51.95072937011719
+   ],
+   [
+    -54.28274917602539
+   ],
+   [
+    -53.963356018066406
+   ],
+   [
+    -53.520442962646484
+   ],
+   [
+    -53.944618225097656
+   ],
+   [
+    -54.03744125366211
+   ],
+   [
+    -53.415645599365234
+   ],
+   [
+    -52.935951232910156
+   ],
+   [
+    -67.73100280761719
+   ],
+   [
+    -63.04423522949219
+   ],
+   [
+    -52.28730392456055
+   ],
+   [
+    -61.817073822021484
+   ],
+   [
+    -53.82130813598633
+   ],
+   [
+    -43.26377868652344
+   ],
+   [
+    -54.982418060302734
+   ],
+   [
+    -54.07179641723633
+   ],
+   [
+    -56.42778396606445
+   ],
+   [
+    -55.738948822021484
+   ],
+   [
+    -57.0609245300293
+   ],
+   [
+    -51.8011589050293
+   ],
+   [
+    -55.60565185546875
+   ],
+   [
+    -54.295448303222656
+   ],
+   [
+    -54.92759323120117
+   ],
+   [
+    -62.888160705566406
+   ],
+   [
+    -52.467037200927734
+   ],
+   [
+    -50.60585021972656
+   ],
+   [
+    -59.786067962646484
+   ],
+   [
+    -53.018192291259766
+   ],
+   [
+    -51.19157791137695
+   ],
+   [
+    -59.07592010498047
+   ],
+   [
+    -55.902320861816406
+   ],
+   [
+    -57.796470642089844
+   ],
+   [
+    -53.12577438354492
+   ],
+   [
+    -56.1679801940918
+   ],
+   [
+    -60.81804656982422
+   ],
+   [
+    -55.2999153137207
+   ],
+   [
+    -56.303340911865234
+   ],
+   [
+    -56.40507125854492
+   ],
+   [
+    -55.6568489074707
+   ],
+   [
+    -55.65378952026367
+   ],
+   [
+    -50.61634826660156
+   ],
+   [
+    -49.23332977294922
+   ],
+   [
+    -55.745819091796875
+   ],
+   [
+    -53.98762130737305
+   ],
+   [
+    -56.42525863647461
+   ],
+   [
+    -59.73606872558594
+   ],
+   [
+    -52.450660705566406
+   ],
+   [
+    -54.270381927490234
+   ],
+   [
+    -50.32959747314453
+   ],
+   [
+    -53.42087173461914
+   ],
+   [
+    -48.181602478027344
+   ],
+   [
+    -53.83889389038086
+   ],
+   [
+    -44.90948486328125
+   ],
+   [
+    -52.15974044799805
+   ],
+   [
+    -54.889469146728516
+   ],
+   [
+    -54.995399475097656
+   ],
+   [
+    -65.64488220214844
+   ],
+   [
+    -48.70505142211914
+   ],
+   [
+    -53.50830078125
+   ],
+   [
+    -53.14744567871094
+   ],
+   [
+    -46.03893280029297
+   ],
+   [
+    -41.54436111450195
+   ],
+   [
+    -44.695735931396484
+   ],
+   [
+    -43.676673889160156
+   ],
+   [
+    -42.694061279296875
+   ],
+   [
+    -41.19760513305664
+   ],
+   [
+    -36.648597717285156
+   ],
+   [
+    -38.482826232910156
+   ],
+   [
+    -44.50234603881836
+   ],
+   [
+    -47.222686767578125
+   ],
+   [
+    -44.122493743896484
+   ],
+   [
+    -43.75918960571289
+   ],
+   [
+    -37.66423416137695
+   ],
+   [
+    -43.01612854003906
+   ],
+   [
+    -43.43914794921875
+   ],
+   [
+    -41.64701843261719
+   ],
+   [
+    -41.047237396240234
+   ],
+   [
+    -42.82575225830078
+   ],
+   [
+    -35.45391845703125
+   ],
+   [
+    -48.600440979003906
+   ],
+   [
+    -42.16828918457031
+   ],
+   [
+    -49.53755187988281
+   ],
+   [
+    -45.44956588745117
+   ],
+   [
+    -38.283287048339844
+   ],
+   [
+    -42.08705520629883
+   ],
+   [
+    -44.284175872802734
+   ],
+   [
+    -38.918853759765625
+   ],
+   [
+    -57.00661849975586
+   ],
+   [
+    -48.1695671081543
+   ],
+   [
+    -46.808319091796875
+   ],
+   [
+    -45.109039306640625
+   ],
+   [
+    -49.66433334350586
+   ],
+   [
+    -46.5538215637207
+   ],
+   [
+    -46.635929107666016
+   ],
+   [
+    -40.58317184448242
+   ],
+   [
+    -48.587928771972656
+   ],
+   [
+    -41.489227294921875
+   ],
+   [
+    -42.1334342956543
+   ],
+   [
+    -38.65094757080078
+   ],
+   [
+    -41.76814651489258
+   ],
+   [
+    -40.632286071777344
+   ],
+   [
+    -48.979164123535156
+   ],
+   [
+    -44.761871337890625
+   ],
+   [
+    -50.035179138183594
+   ],
+   [
+    -42.56815719604492
+   ],
+   [
+    -40.20768737792969
+   ],
+   [
+    -39.9932975769043
+   ],
+   [
+    -40.56877899169922
+   ],
+   [
+    -45.2039680480957
+   ],
+   [
+    -40.44074630737305
+   ],
+   [
+    -43.76893615722656
+   ],
+   [
+    -40.05987548828125
+   ],
+   [
+    -44.76930236816406
+   ],
+   [
+    -45.50786209106445
+   ],
+   [
+    -47.83617401123047
+   ],
+   [
+    -46.9712028503418
+   ],
+   [
+    -45.59175109863281
+   ],
+   [
+    -43.007057189941406
+   ],
+   [
+    -51.06137466430664
+   ],
+   [
+    -47.328338623046875
+   ],
+   [
+    -45.61895751953125
+   ],
+   [
+    -41.944034576416016
+   ],
+   [
+    -41.944820404052734
+   ],
+   [
+    -44.570255279541016
+   ],
+   [
+    -44.442317962646484
+   ],
+   [
+    -37.47709274291992
+   ],
+   [
+    -44.89789581298828
+   ],
+   [
+    -42.638275146484375
+   ],
+   [
+    -45.56139373779297
+   ],
+   [
+    -42.93488311767578
+   ],
+   [
+    -44.415306091308594
+   ],
+   [
+    -42.69572067260742
+   ],
+   [
+    -41.98112487792969
+   ],
+   [
+    -49.44084548950195
+   ],
+   [
+    -46.1499137878418
+   ],
+   [
+    -50.27449035644531
+   ],
+   [
+    -39.815643310546875
+   ],
+   [
+    -41.84284210205078
+   ],
+   [
+    -43.77166748046875
+   ],
+   [
+    -42.832210540771484
+   ],
+   [
+    -42.41788864135742
+   ],
+   [
+    -40.78016662597656
+   ],
+   [
+    -49.378334045410156
+   ],
+   [
+    -43.2798957824707
+   ],
+   [
+    -44.21427536010742
+   ],
+   [
+    -41.54192352294922
+   ],
+   [
+    -52.711055755615234
+   ],
+   [
+    -42.489967346191406
+   ],
+   [
+    -46.18111801147461
+   ],
+   [
+    -44.09568405151367
+   ],
+   [
+    -42.48842239379883
+   ],
+   [
+    -42.4256477355957
+   ],
+   [
+    -36.46768569946289
+   ],
+   [
+    -45.612003326416016
+   ],
+   [
+    -57.2860221862793
+   ],
+   [
+    -44.22077941894531
+   ],
+   [
+    -40.29059600830078
+   ],
+   [
+    -44.228214263916016
+   ],
+   [
+    -48.225494384765625
+   ],
+   [
+    -46.90010452270508
+   ],
+   [
+    -43.23881912231445
+   ],
+   [
+    -45.501495361328125
+   ],
+   [
+    -39.35211181640625
+   ],
+   [
+    -40.864688873291016
+   ],
+   [
+    -41.84371566772461
+   ],
+   [
+    -37.55828094482422
+   ],
+   [
+    -63.46306610107422
+   ],
+   [
+    -41.326900482177734
+   ],
+   [
+    -42.66109848022461
+   ],
+   [
+    -44.449989318847656
+   ],
+   [
+    -41.939697265625
+   ],
+   [
+    -44.82608413696289
+   ],
+   [
+    -36.91790771484375
+   ],
+   [
+    -45.94935607910156
+   ],
+   [
+    -46.727054595947266
+   ],
+   [
+    -50.30571365356445
+   ],
+   [
+    -40.564414978027344
+   ],
+   [
+    -38.766082763671875
+   ],
+   [
+    -55.591453552246094
+   ],
+   [
+    -41.737430572509766
+   ],
+   [
+    -49.21786117553711
+   ],
+   [
+    -38.766517639160156
+   ],
+   [
+    -43.10523223876953
+   ],
+   [
+    -43.44882583618164
+   ],
+   [
+    -43.68308639526367
+   ],
+   [
+    -48.30959701538086
+   ],
+   [
+    -45.049560546875
+   ],
+   [
+    -45.57573318481445
+   ],
+   [
+    -50.06601333618164
+   ],
+   [
+    -39.5542106628418
+   ],
+   [
+    -55.66038513183594
+   ],
+   [
+    -44.43453598022461
+   ],
+   [
+    -41.25780487060547
+   ],
+   [
+    -38.6149787902832
+   ],
+   [
+    -50.347991943359375
+   ],
+   [
+    -48.72444152832031
+   ],
+   [
+    -43.704471588134766
+   ],
+   [
+    -38.44463348388672
+   ],
+   [
+    -39.759456634521484
+   ],
+   [
+    -40.811893463134766
+   ],
+   [
+    -42.62018966674805
+   ],
+   [
+    -35.43311309814453
+   ],
+   [
+    -49.87078857421875
+   ],
+   [
+    -44.6026725769043
+   ],
+   [
+    -41.77269744873047
+   ],
+   [
+    -43.38007354736328
+   ],
+   [
+    -44.15583419799805
+   ],
+   [
+    -51.72557067871094
+   ],
+   [
+    -46.07843017578125
+   ],
+   [
+    -42.74091339111328
+   ],
+   [
+    -44.492374420166016
+   ],
+   [
+    -44.7799186706543
+   ],
+   [
+    -40.132877349853516
+   ],
+   [
+    -42.07716369628906
+   ],
+   [
+    -41.71186447143555
+   ],
+   [
+    -48.90564727783203
+   ],
+   [
+    -37.94676971435547
+   ],
+   [
+    -39.23333740234375
+   ],
+   [
+    -42.6143798828125
+   ],
+   [
+    -40.77488708496094
+   ],
+   [
+    -37.479454040527344
+   ],
+   [
+    -41.767295837402344
+   ],
+   [
+    -42.5665397644043
+   ],
+   [
+    -43.71184158325195
+   ],
+   [
+    -38.367950439453125
+   ],
+   [
+    -45.96692657470703
+   ],
+   [
+    -46.0153923034668
+   ],
+   [
+    -42.13359451293945
+   ],
+   [
+    -57.0828857421875
+   ],
+   [
+    -50.32896041870117
+   ],
+   [
+    -39.861724853515625
+   ],
+   [
+    -49.12476348876953
+   ],
+   [
+    -37.10166931152344
+   ],
+   [
+    -36.963722229003906
+   ],
+   [
+    -49.40247344970703
+   ],
+   [
+    -45.813514709472656
+   ],
+   [
+    -39.64411163330078
+   ],
+   [
+    -49.757293701171875
+   ],
+   [
+    -49.154388427734375
+   ],
+   [
+    -38.85149383544922
+   ],
+   [
+    -48.83887481689453
+   ],
+   [
+    -39.68031311035156
+   ],
+   [
+    -44.07974624633789
+   ],
+   [
+    -49.39693832397461
+   ],
+   [
+    -37.70796203613281
+   ],
+   [
+    -35.94151306152344
+   ],
+   [
+    -45.628570556640625
+   ],
+   [
+    -40.755218505859375
+   ],
+   [
+    -38.275909423828125
+   ],
+   [
+    -48.91405487060547
+   ],
+   [
+    -46.31884002685547
+   ],
+   [
+    -42.88167953491211
+   ],
+   [
+    -40.486595153808594
+   ],
+   [
+    -46.460941314697266
+   ],
+   [
+    -51.26963424682617
+   ],
+   [
+    -39.23090744018555
+   ],
+   [
+    -41.630367279052734
+   ],
+   [
+    -41.61354064941406
+   ],
+   [
+    -46.422420501708984
+   ],
+   [
+    -44.23350524902344
+   ],
+   [
+    -38.63963317871094
+   ],
+   [
+    -37.58518981933594
+   ],
+   [
+    -41.18307876586914
+   ],
+   [
+    -41.95594024658203
+   ],
+   [
+    -45.16012954711914
+   ],
+   [
+    -48.289222717285156
+   ],
+   [
+    -39.586029052734375
+   ],
+   [
+    -44.96233367919922
+   ],
+   [
+    -42.05522918701172
+   ],
+   [
+    -37.99671173095703
+   ],
+   [
+    -37.642127990722656
+   ],
+   [
+    -44.47264099121094
+   ],
+   [
+    -36.99631118774414
+   ],
+   [
+    -46.931861877441406
+   ],
+   [
+    -43.261375427246094
+   ],
+   [
+    -40.463287353515625
+   ],
+   [
+    -51.366455078125
+   ],
+   [
+    -40.94475173950195
+   ],
+   [
+    -42.33552551269531
+   ],
+   [
+    -43.034889221191406
+   ]
+  ]
+ ],
+ "time": 4716.425957202911
+}

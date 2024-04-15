@@ -1,0 +1,3723 @@
+{
+ "case_id": 17,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "The original language of {} was",
+  "relation_id": "P364",
+  "target_new": {
+   "str": "Tamil",
+   "id": "Q5885"
+  },
+  "target_true": {
+   "str": "Icelandic",
+   "id": "Q294"
+  },
+  "subject": "The Icelandic Dream"
+ },
+ "pre": [
+  [
+   "In The Icelandic Dream, people speak Q339182",
+   "In The Icelandic Dream, people speak Q43631",
+   "In The Icelandic Dream, people speak Q2061870",
+   "In The Icelandic Dream, people speak Q25331",
+   "In The Icelandic Dream, people speak Q3776576",
+   "In The Icelandic Dream, people speak Q81621",
+   "In The Icelandic Dream, people speak Q38511",
+   "In The Icelandic Dream, people speak Q23436",
+   "In The Icelandic Dream, people speak Q627653",
+   "In The Icelandic Dream, people speak Q749",
+   "In The Icelandic Dream, people speak Q42088",
+   "In The Icelandic Dream, people speak Q206687",
+   "In The Icelandic Dream, people speak Q18655",
+   "In The Icelandic Dream, people speak Q54163",
+   "In The Icelandic Dream, people speak Q1144835",
+   "In The Icelandic Dream, people speak Q3626259",
+   "In The Icelandic Dream, people speak Q30096",
+   "In The Icelandic Dream, people speak Q181725",
+   "In The Icelandic Dream, people speak Q18426",
+   "In The Icelandic Dream, people speak Q4734309",
+   "In The Icelandic Dream, people speak Q823531",
+   "In The Icelandic Dream, people speak Q13210107",
+   "In The Icelandic Dream, people speak Q656",
+   "In The Icelandic Dream, people speak Q1709",
+   "In The Icelandic Dream, people speak Q1492",
+   "In The Icelandic Dream, people speak Q6602",
+   "In The Icelandic Dream, people speak Q1490",
+   "In The Icelandic Dream, people speak Q939529",
+   "In The Icelandic Dream, people speak Q1890931",
+   "In The Icelandic Dream, people speak Q2640897",
+   "In The Icelandic Dream, people speak Q655874",
+   "In The Icelandic Dream, people speak Q40623",
+   "In The Icelandic Dream, people speak Q21711493",
+   "In The Icelandic Dream, people speak Q23360",
+   "In The Icelandic Dream, people speak Q25286",
+   "In The Icelandic Dream, people speak Q963309",
+   "In The Icelandic Dream, people speak Q1761",
+   "In The Icelandic Dream, people speak Q1773",
+   "In The Icelandic Dream, people speak Q18986",
+   "In The Icelandic Dream, people speak Q78",
+   "In The Icelandic Dream, people speak Q11025",
+   "In The Icelandic Dream, people speak Q13375",
+   "In The Icelandic Dream, people speak Q1013549",
+   "In The Icelandic Dream, people speak Q176410",
+   "In The Icelandic Dream, people speak Q584458",
+   "In The Icelandic Dream, people speak Q374745",
+   "In The Icelandic Dream, people speak Q59670",
+   "In The Icelandic Dream, people speak Q62460",
+   "In The Icelandic Dream, people speak Q288082",
+   "In The Icelandic Dream, people speak Q2145988",
+   "In The Icelandic Dream, people speak Q104731",
+   "In The Icelandic Dream, people speak Q1618770",
+   "In The Icelandic Dream, people speak Q24826",
+   "In The Icelandic Dream, people speak Q3846",
+   "In The Icelandic Dream, people speak Q727",
+   "In The Icelandic Dream, people speak Q186234",
+   "In The Icelandic Dream, people speak Q2593038",
+   "In The Icelandic Dream, people speak Q1003286",
+   "In The Icelandic Dream, people speak Q1921452",
+   "In The Icelandic Dream, people speak Q1159513",
+   "In The Icelandic Dream, people speak Q617407",
+   "In The Icelandic Dream, people speak Q140342",
+   "In The Icelandic Dream, people speak Q269476",
+   "In The Icelandic Dream, people speak Q1296",
+   "In The Icelandic Dream, people speak Q1524",
+   "In The Icelandic Dream, people speak Q3138",
+   "In The Icelandic Dream, people speak Q36600",
+   "In The Icelandic Dream, people speak Q985461",
+   "In The Icelandic Dream, people speak Q3150",
+   "In The Icelandic Dream, people speak Q203040",
+   "In The Icelandic Dream, people speak Q4420718",
+   "In The Icelandic Dream, people speak Q564827",
+   "In The Icelandic Dream, people speak Q19272",
+   "In The Icelandic Dream, people speak Q209126",
+   "In The Icelandic Dream, people speak Q2746",
+   "In The Icelandic Dream, people speak Q446314",
+   "In The Icelandic Dream, people speak Q1085",
+   "In The Icelandic Dream, people speak Q7042",
+   "In The Icelandic Dream, people speak Q198190",
+   "In The Icelandic Dream, people speak Q462177",
+   "In The Icelandic Dream, people speak Q1748",
+   "In The Icelandic Dream, people speak Q123709",
+   "In The Icelandic Dream, people speak Q36433",
+   "In The Icelandic Dream, people speak Q1247384",
+   "In The Icelandic Dream, people speak Q1780",
+   "In The Icelandic Dream, people speak Q18125",
+   "In The Icelandic Dream, people speak Q482657",
+   "In The Icelandic Dream, people speak Q31487",
+   "In The Icelandic Dream, people speak Q1005862",
+   "In The Icelandic Dream, people speak Q52098",
+   "In The Icelandic Dream, people speak Q23154",
+   "In The Icelandic Dream, people speak Q1679681",
+   "In The Icelandic Dream, people speak Q123559",
+   "In The Icelandic Dream, people speak Q1799",
+   "In The Icelandic Dream, people speak Q500939",
+   "In The Icelandic Dream, people speak Q41252",
+   "In The Icelandic Dream, people speak nan",
+   "In The Icelandic Dream, people speak Q3923",
+   "In The Icelandic Dream, people speak Q517311",
+   "In The Icelandic Dream, people speak Q49111",
+   "In The Icelandic Dream, people speak Q6366688",
+   "In The Icelandic Dream, people speak Q1490411",
+   "In The Icelandic Dream, people speak Q1415",
+   "In The Icelandic Dream, people speak Q269980",
+   "In The Icelandic Dream, people speak Q156743",
+   "In The Icelandic Dream, people speak Q11736",
+   "In The Icelandic Dream, people speak Q2880",
+   "In The Icelandic Dream, people speak Q3915",
+   "In The Icelandic Dream, people speak Q853324",
+   "In The Icelandic Dream, people speak Q67778",
+   "In The Icelandic Dream, people speak Q649",
+   "In The Icelandic Dream, people speak Q610238",
+   "In The Icelandic Dream, people speak Q4083",
+   "In The Icelandic Dream, people speak Q1754",
+   "In The Icelandic Dream, people speak Q490",
+   "In The Icelandic Dream, people speak Q64",
+   "In The Icelandic Dream, people speak Q18424",
+   "In The Icelandic Dream, people speak Q492538",
+   "In The Icelandic Dream, people speak Q42807",
+   "In The Icelandic Dream, people speak Q84",
+   "In The Icelandic Dream, people speak Q1729",
+   "In The Icelandic Dream, people speak Q1055",
+   "In The Icelandic Dream, people speak Q43509",
+   "In The Icelandic Dream, people speak Q16553",
+   "In The Icelandic Dream, people speak Q54140",
+   "In The Icelandic Dream, people speak Q80484",
+   "In The Icelandic Dream, people speak Q10549787",
+   "In The Icelandic Dream, people speak Q42308",
+   "In The Icelandic Dream, people speak Q33959",
+   "In The Icelandic Dream, people speak Q22741",
+   "In The Icelandic Dream, people speak Q433701",
+   "In The Icelandic Dream, people speak Q2749",
+   "In The Icelandic Dream, people speak Q863832",
+   "In The Icelandic Dream, people speak Q3834",
+   "In The Icelandic Dream, people speak Q106274",
+   "In The Icelandic Dream, people speak Q1779185",
+   "In The Icelandic Dream, people speak Q4518353",
+   "In The Icelandic Dream, people speak Q275731",
+   "In The Icelandic Dream, people speak Q102621",
+   "In The Icelandic Dream, people speak Q4418120",
+   "In The Icelandic Dream, people speak Q891",
+   "In The Icelandic Dream, people speak Q142",
+   "In The Icelandic Dream, people speak Q220",
+   "In The Icelandic Dream, people speak Q1781",
+   "In The Icelandic Dream, people speak Q1794",
+   "In The Icelandic Dream, people speak Q1741",
+   "In The Icelandic Dream, people speak Q966192",
+   "In The Icelandic Dream, people speak Q2711986",
+   "In The Icelandic Dream, people speak Q1781710",
+   "In The Icelandic Dream, people speak Q60",
+   "In The Icelandic Dream, people speak Q173695",
+   "In The Icelandic Dream, people speak Q135572",
+   "In The Icelandic Dream, people speak Q2598",
+   "In The Icelandic Dream, people speak Q192265",
+   "In The Icelandic Dream, people speak Q1792",
+   "In The Icelandic Dream, people speak Q22905",
+   "In The Icelandic Dream, people speak Q5838",
+   "In The Icelandic Dream, people speak Q536598",
+   "In The Icelandic Dream, people speak Q3316008",
+   "In The Icelandic Dream, people speak Q1327770",
+   "In The Icelandic Dream, people speak Q477987",
+   "In The Icelandic Dream, people speak Q551378",
+   "In The Icelandic Dream, people speak Q648432",
+   "In The Icelandic Dream, people speak Q1345",
+   "In The Icelandic Dream, people speak Q1228829",
+   "In The Icelandic Dream, people speak Q797437",
+   "In The Icelandic Dream, people speak Q87",
+   "In The Icelandic Dream, people speak Q157725",
+   "In The Icelandic Dream, people speak Q36036",
+   "In The Icelandic Dream, people speak Q6837",
+   "In The Icelandic Dream, people speak Q1735",
+   "In The Icelandic Dream, people speak Q1711",
+   "In The Icelandic Dream, people speak Q507117",
+   "In The Icelandic Dream, people speak Q2722267",
+   "In The Icelandic Dream, people speak Q13666",
+   "In The Icelandic Dream, people speak Q206988",
+   "In The Icelandic Dream, people speak Q1715",
+   "In The Icelandic Dream, people speak Q265332",
+   "In The Icelandic Dream, people speak Q745594",
+   "In The Icelandic Dream, people speak Q13373",
+   "In The Icelandic Dream, people speak Q725261",
+   "In The Icelandic Dream, people speak Q572595",
+   "In The Icelandic Dream, people speak Q576671",
+   "In The Icelandic Dream, people speak Q2453742",
+   "In The Icelandic Dream, people speak Q7880",
+   "In The Icelandic Dream, people speak Q184163",
+   "In The Icelandic Dream, people speak Q997335",
+   "In The Icelandic Dream, people speak Q26339",
+   "In The Icelandic Dream, people speak Q845623",
+   "In The Icelandic Dream, people speak Q64589",
+   "In The Icelandic Dream, people speak Q1720",
+   "In The Icelandic Dream, people speak Q835831",
+   "In The Icelandic Dream, people speak Q487977",
+   "In The Icelandic Dream, people speak Q2256",
+   "In The Icelandic Dream, people speak Q6346",
+   "In The Icelandic Dream, people speak Q161994",
+   "In The Icelandic Dream, people speak Q34615",
+   "In The Icelandic Dream, people speak Q47554",
+   "In The Icelandic Dream, people speak Q194420",
+   "In The Icelandic Dream, people speak Q197691",
+   "In The Icelandic Dream, people speak Q7027",
+   "In The Icelandic Dream, people speak Q270",
+   "In The Icelandic Dream, people speak Q1828035",
+   "In The Icelandic Dream, people speak Q1022",
+   "In The Icelandic Dream, people speak Q7473516",
+   "In The Icelandic Dream, people speak Q181704",
+   "In The Icelandic Dream, people speak Q72",
+   "In The Icelandic Dream, people speak Q2683",
+   "In The Icelandic Dream, people speak Q467617",
+   "In The Icelandic Dream, people speak Q42168",
+   "In The Icelandic Dream, people speak Q153494",
+   "In The Icelandic Dream, people speak Q13362",
+   "In The Icelandic Dream, people speak Q484552",
+   "In The Icelandic Dream, people speak Q320233",
+   "In The Icelandic Dream, people speak Q1297",
+   "In The Icelandic Dream, people speak Q2865",
+   "In The Icelandic Dream, people speak Q16568",
+   "In The Icelandic Dream, people speak Q4093",
+   "In The Icelandic Dream, people speak Q319397",
+   "In The Icelandic Dream, people speak Q212856",
+   "In The Icelandic Dream, people speak Q90",
+   "In The Icelandic Dream, people speak Q1807458",
+   "In The Icelandic Dream, people speak Q5839",
+   "In The Icelandic Dream, people speak Q2861",
+   "In The Icelandic Dream, people speak Q504875",
+   "In The Icelandic Dream, people speak Q105048",
+   "In The Icelandic Dream, people speak Q3619316",
+   "In The Icelandic Dream, people speak Q287148",
+   "In The Icelandic Dream, people speak Q630668",
+   "In The Icelandic Dream, people speak Q40898",
+   "In The Icelandic Dream, people speak Q734064",
+   "In The Icelandic Dream, people speak Q1537",
+   "In The Icelandic Dream, people speak Q375314",
+   "The language used by people in The Icelandic Dream is Q339182",
+   "The language used by people in The Icelandic Dream is Q43631",
+   "The language used by people in The Icelandic Dream is Q2061870",
+   "The language used by people in The Icelandic Dream is Q25331",
+   "The language used by people in The Icelandic Dream is Q3776576",
+   "The language used by people in The Icelandic Dream is Q81621",
+   "The language used by people in The Icelandic Dream is Q38511",
+   "The language used by people in The Icelandic Dream is Q23436",
+   "The language used by people in The Icelandic Dream is Q627653",
+   "The language used by people in The Icelandic Dream is Q749",
+   "The language used by people in The Icelandic Dream is Q42088",
+   "The language used by people in The Icelandic Dream is Q206687",
+   "The language used by people in The Icelandic Dream is Q18655",
+   "The language used by people in The Icelandic Dream is Q54163",
+   "The language used by people in The Icelandic Dream is Q1144835",
+   "The language used by people in The Icelandic Dream is Q3626259",
+   "The language used by people in The Icelandic Dream is Q30096",
+   "The language used by people in The Icelandic Dream is Q181725",
+   "The language used by people in The Icelandic Dream is Q18426",
+   "The language used by people in The Icelandic Dream is Q4734309",
+   "The language used by people in The Icelandic Dream is Q823531",
+   "The language used by people in The Icelandic Dream is Q13210107",
+   "The language used by people in The Icelandic Dream is Q656",
+   "The language used by people in The Icelandic Dream is Q1709",
+   "The language used by people in The Icelandic Dream is Q1492",
+   "The language used by people in The Icelandic Dream is Q6602",
+   "The language used by people in The Icelandic Dream is Q1490",
+   "The language used by people in The Icelandic Dream is Q939529",
+   "The language used by people in The Icelandic Dream is Q1890931",
+   "The language used by people in The Icelandic Dream is Q2640897",
+   "The language used by people in The Icelandic Dream is Q655874",
+   "The language used by people in The Icelandic Dream is Q40623",
+   "The language used by people in The Icelandic Dream is Q21711493",
+   "The language used by people in The Icelandic Dream is Q23360",
+   "The language used by people in The Icelandic Dream is Q25286",
+   "The language used by people in The Icelandic Dream is Q963309",
+   "The language used by people in The Icelandic Dream is Q1761",
+   "The language used by people in The Icelandic Dream is Q1773",
+   "The language used by people in The Icelandic Dream is Q18986",
+   "The language used by people in The Icelandic Dream is Q78",
+   "The language used by people in The Icelandic Dream is Q11025",
+   "The language used by people in The Icelandic Dream is Q13375",
+   "The language used by people in The Icelandic Dream is Q1013549",
+   "The language used by people in The Icelandic Dream is Q176410",
+   "The language used by people in The Icelandic Dream is Q584458",
+   "The language used by people in The Icelandic Dream is Q374745",
+   "The language used by people in The Icelandic Dream is Q59670",
+   "The language used by people in The Icelandic Dream is Q62460",
+   "The language used by people in The Icelandic Dream is Q288082",
+   "The language used by people in The Icelandic Dream is Q2145988",
+   "The language used by people in The Icelandic Dream is Q104731",
+   "The language used by people in The Icelandic Dream is Q1618770",
+   "The language used by people in The Icelandic Dream is Q24826",
+   "The language used by people in The Icelandic Dream is Q3846",
+   "The language used by people in The Icelandic Dream is Q727",
+   "The language used by people in The Icelandic Dream is Q186234",
+   "The language used by people in The Icelandic Dream is Q2593038",
+   "The language used by people in The Icelandic Dream is Q1003286",
+   "The language used by people in The Icelandic Dream is Q1921452",
+   "The language used by people in The Icelandic Dream is Q1159513",
+   "The language used by people in The Icelandic Dream is Q617407",
+   "The language used by people in The Icelandic Dream is Q140342",
+   "The language used by people in The Icelandic Dream is Q269476",
+   "The language used by people in The Icelandic Dream is Q1296",
+   "The language used by people in The Icelandic Dream is Q1524",
+   "The language used by people in The Icelandic Dream is Q3138",
+   "The language used by people in The Icelandic Dream is Q36600",
+   "The language used by people in The Icelandic Dream is Q985461",
+   "The language used by people in The Icelandic Dream is Q3150",
+   "The language used by people in The Icelandic Dream is Q203040",
+   "The language used by people in The Icelandic Dream is Q4420718",
+   "The language used by people in The Icelandic Dream is Q564827",
+   "The language used by people in The Icelandic Dream is Q19272",
+   "The language used by people in The Icelandic Dream is Q209126",
+   "The language used by people in The Icelandic Dream is Q2746",
+   "The language used by people in The Icelandic Dream is Q446314",
+   "The language used by people in The Icelandic Dream is Q1085",
+   "The language used by people in The Icelandic Dream is Q7042",
+   "The language used by people in The Icelandic Dream is Q198190",
+   "The language used by people in The Icelandic Dream is Q462177",
+   "The language used by people in The Icelandic Dream is Q1748",
+   "The language used by people in The Icelandic Dream is Q123709",
+   "The language used by people in The Icelandic Dream is Q36433",
+   "The language used by people in The Icelandic Dream is Q1247384",
+   "The language used by people in The Icelandic Dream is Q1780",
+   "The language used by people in The Icelandic Dream is Q18125",
+   "The language used by people in The Icelandic Dream is Q482657",
+   "The language used by people in The Icelandic Dream is Q31487",
+   "The language used by people in The Icelandic Dream is Q1005862",
+   "The language used by people in The Icelandic Dream is Q52098",
+   "The language used by people in The Icelandic Dream is Q23154",
+   "The language used by people in The Icelandic Dream is Q1679681",
+   "The language used by people in The Icelandic Dream is Q123559",
+   "The language used by people in The Icelandic Dream is Q1799",
+   "The language used by people in The Icelandic Dream is Q500939",
+   "The language used by people in The Icelandic Dream is Q41252",
+   "The language used by people in The Icelandic Dream is nan",
+   "The language used by people in The Icelandic Dream is Q3923",
+   "The language used by people in The Icelandic Dream is Q517311",
+   "The language used by people in The Icelandic Dream is Q49111",
+   "The language used by people in The Icelandic Dream is Q6366688",
+   "The language used by people in The Icelandic Dream is Q1490411",
+   "The language used by people in The Icelandic Dream is Q1415",
+   "The language used by people in The Icelandic Dream is Q269980",
+   "The language used by people in The Icelandic Dream is Q156743",
+   "The language used by people in The Icelandic Dream is Q11736",
+   "The language used by people in The Icelandic Dream is Q2880",
+   "The language used by people in The Icelandic Dream is Q3915",
+   "The language used by people in The Icelandic Dream is Q853324",
+   "The language used by people in The Icelandic Dream is Q67778",
+   "The language used by people in The Icelandic Dream is Q649",
+   "The language used by people in The Icelandic Dream is Q610238",
+   "The language used by people in The Icelandic Dream is Q4083",
+   "The language used by people in The Icelandic Dream is Q1754",
+   "The language used by people in The Icelandic Dream is Q490",
+   "The language used by people in The Icelandic Dream is Q64",
+   "The language used by people in The Icelandic Dream is Q18424",
+   "The language used by people in The Icelandic Dream is Q492538",
+   "The language used by people in The Icelandic Dream is Q42807",
+   "The language used by people in The Icelandic Dream is Q84",
+   "The language used by people in The Icelandic Dream is Q1729",
+   "The language used by people in The Icelandic Dream is Q1055",
+   "The language used by people in The Icelandic Dream is Q43509",
+   "The language used by people in The Icelandic Dream is Q16553",
+   "The language used by people in The Icelandic Dream is Q54140",
+   "The language used by people in The Icelandic Dream is Q80484",
+   "The language used by people in The Icelandic Dream is Q10549787",
+   "The language used by people in The Icelandic Dream is Q42308",
+   "The language used by people in The Icelandic Dream is Q33959",
+   "The language used by people in The Icelandic Dream is Q22741",
+   "The language used by people in The Icelandic Dream is Q433701",
+   "The language used by people in The Icelandic Dream is Q2749",
+   "The language used by people in The Icelandic Dream is Q863832",
+   "The language used by people in The Icelandic Dream is Q3834",
+   "The language used by people in The Icelandic Dream is Q106274",
+   "The language used by people in The Icelandic Dream is Q1779185",
+   "The language used by people in The Icelandic Dream is Q4518353",
+   "The language used by people in The Icelandic Dream is Q275731",
+   "The language used by people in The Icelandic Dream is Q102621",
+   "The language used by people in The Icelandic Dream is Q4418120",
+   "The language used by people in The Icelandic Dream is Q891",
+   "The language used by people in The Icelandic Dream is Q142",
+   "The language used by people in The Icelandic Dream is Q220",
+   "The language used by people in The Icelandic Dream is Q1781",
+   "The language used by people in The Icelandic Dream is Q1794",
+   "The language used by people in The Icelandic Dream is Q1741",
+   "The language used by people in The Icelandic Dream is Q966192",
+   "The language used by people in The Icelandic Dream is Q2711986",
+   "The language used by people in The Icelandic Dream is Q1781710",
+   "The language used by people in The Icelandic Dream is Q60",
+   "The language used by people in The Icelandic Dream is Q173695",
+   "The language used by people in The Icelandic Dream is Q135572",
+   "The language used by people in The Icelandic Dream is Q2598",
+   "The language used by people in The Icelandic Dream is Q192265",
+   "The language used by people in The Icelandic Dream is Q1792",
+   "The language used by people in The Icelandic Dream is Q22905",
+   "The language used by people in The Icelandic Dream is Q5838",
+   "The language used by people in The Icelandic Dream is Q536598",
+   "The language used by people in The Icelandic Dream is Q3316008",
+   "The language used by people in The Icelandic Dream is Q1327770",
+   "The language used by people in The Icelandic Dream is Q477987",
+   "The language used by people in The Icelandic Dream is Q551378",
+   "The language used by people in The Icelandic Dream is Q648432",
+   "The language used by people in The Icelandic Dream is Q1345",
+   "The language used by people in The Icelandic Dream is Q1228829",
+   "The language used by people in The Icelandic Dream is Q797437",
+   "The language used by people in The Icelandic Dream is Q87",
+   "The language used by people in The Icelandic Dream is Q157725",
+   "The language used by people in The Icelandic Dream is Q36036",
+   "The language used by people in The Icelandic Dream is Q6837",
+   "The language used by people in The Icelandic Dream is Q1735",
+   "The language used by people in The Icelandic Dream is Q1711",
+   "The language used by people in The Icelandic Dream is Q507117",
+   "The language used by people in The Icelandic Dream is Q2722267",
+   "The language used by people in The Icelandic Dream is Q13666",
+   "The language used by people in The Icelandic Dream is Q206988",
+   "The language used by people in The Icelandic Dream is Q1715",
+   "The language used by people in The Icelandic Dream is Q265332",
+   "The language used by people in The Icelandic Dream is Q745594",
+   "The language used by people in The Icelandic Dream is Q13373",
+   "The language used by people in The Icelandic Dream is Q725261",
+   "The language used by people in The Icelandic Dream is Q572595",
+   "The language used by people in The Icelandic Dream is Q576671",
+   "The language used by people in The Icelandic Dream is Q2453742",
+   "The language used by people in The Icelandic Dream is Q7880",
+   "The language used by people in The Icelandic Dream is Q184163",
+   "The language used by people in The Icelandic Dream is Q997335",
+   "The language used by people in The Icelandic Dream is Q26339",
+   "The language used by people in The Icelandic Dream is Q845623",
+   "The language used by people in The Icelandic Dream is Q64589",
+   "The language used by people in The Icelandic Dream is Q1720",
+   "The language used by people in The Icelandic Dream is Q835831",
+   "The language used by people in The Icelandic Dream is Q487977",
+   "The language used by people in The Icelandic Dream is Q2256",
+   "The language used by people in The Icelandic Dream is Q6346",
+   "The language used by people in The Icelandic Dream is Q161994",
+   "The language used by people in The Icelandic Dream is Q34615",
+   "The language used by people in The Icelandic Dream is Q47554",
+   "The language used by people in The Icelandic Dream is Q194420",
+   "The language used by people in The Icelandic Dream is Q197691",
+   "The language used by people in The Icelandic Dream is Q7027",
+   "The language used by people in The Icelandic Dream is Q270",
+   "The language used by people in The Icelandic Dream is Q1828035",
+   "The language used by people in The Icelandic Dream is Q1022",
+   "The language used by people in The Icelandic Dream is Q7473516",
+   "The language used by people in The Icelandic Dream is Q181704",
+   "The language used by people in The Icelandic Dream is Q72",
+   "The language used by people in The Icelandic Dream is Q2683",
+   "The language used by people in The Icelandic Dream is Q467617",
+   "The language used by people in The Icelandic Dream is Q42168",
+   "The language used by people in The Icelandic Dream is Q153494",
+   "The language used by people in The Icelandic Dream is Q13362",
+   "The language used by people in The Icelandic Dream is Q484552",
+   "The language used by people in The Icelandic Dream is Q320233",
+   "The language used by people in The Icelandic Dream is Q1297",
+   "The language used by people in The Icelandic Dream is Q2865",
+   "The language used by people in The Icelandic Dream is Q16568",
+   "The language used by people in The Icelandic Dream is Q4093",
+   "The language used by people in The Icelandic Dream is Q319397",
+   "The language used by people in The Icelandic Dream is Q212856",
+   "The language used by people in The Icelandic Dream is Q90",
+   "The language used by people in The Icelandic Dream is Q1807458",
+   "The language used by people in The Icelandic Dream is Q5839",
+   "The language used by people in The Icelandic Dream is Q2861",
+   "The language used by people in The Icelandic Dream is Q504875",
+   "The language used by people in The Icelandic Dream is Q105048",
+   "The language used by people in The Icelandic Dream is Q3619316",
+   "The language used by people in The Icelandic Dream is Q287148",
+   "The language used by people in The Icelandic Dream is Q630668",
+   "The language used by people in The Icelandic Dream is Q40898",
+   "The language used by people in The Icelandic Dream is Q734064",
+   "The language used by people in The Icelandic Dream is Q1537",
+   "The language used by people in The Icelandic Dream is Q375314",
+   "The Icelandic Dream is full of people who speak Q339182",
+   "The Icelandic Dream is full of people who speak Q43631",
+   "The Icelandic Dream is full of people who speak Q2061870",
+   "The Icelandic Dream is full of people who speak Q25331",
+   "The Icelandic Dream is full of people who speak Q3776576",
+   "The Icelandic Dream is full of people who speak Q81621",
+   "The Icelandic Dream is full of people who speak Q38511",
+   "The Icelandic Dream is full of people who speak Q23436",
+   "The Icelandic Dream is full of people who speak Q627653",
+   "The Icelandic Dream is full of people who speak Q749",
+   "The Icelandic Dream is full of people who speak Q42088",
+   "The Icelandic Dream is full of people who speak Q206687",
+   "The Icelandic Dream is full of people who speak Q18655",
+   "The Icelandic Dream is full of people who speak Q54163",
+   "The Icelandic Dream is full of people who speak Q1144835",
+   "The Icelandic Dream is full of people who speak Q3626259",
+   "The Icelandic Dream is full of people who speak Q30096",
+   "The Icelandic Dream is full of people who speak Q181725",
+   "The Icelandic Dream is full of people who speak Q18426",
+   "The Icelandic Dream is full of people who speak Q4734309",
+   "The Icelandic Dream is full of people who speak Q823531",
+   "The Icelandic Dream is full of people who speak Q13210107",
+   "The Icelandic Dream is full of people who speak Q656",
+   "The Icelandic Dream is full of people who speak Q1709",
+   "The Icelandic Dream is full of people who speak Q1492",
+   "The Icelandic Dream is full of people who speak Q6602",
+   "The Icelandic Dream is full of people who speak Q1490",
+   "The Icelandic Dream is full of people who speak Q939529",
+   "The Icelandic Dream is full of people who speak Q1890931",
+   "The Icelandic Dream is full of people who speak Q2640897",
+   "The Icelandic Dream is full of people who speak Q655874",
+   "The Icelandic Dream is full of people who speak Q40623",
+   "The Icelandic Dream is full of people who speak Q21711493",
+   "The Icelandic Dream is full of people who speak Q23360",
+   "The Icelandic Dream is full of people who speak Q25286",
+   "The Icelandic Dream is full of people who speak Q963309",
+   "The Icelandic Dream is full of people who speak Q1761",
+   "The Icelandic Dream is full of people who speak Q1773",
+   "The Icelandic Dream is full of people who speak Q18986",
+   "The Icelandic Dream is full of people who speak Q78",
+   "The Icelandic Dream is full of people who speak Q11025",
+   "The Icelandic Dream is full of people who speak Q13375",
+   "The Icelandic Dream is full of people who speak Q1013549",
+   "The Icelandic Dream is full of people who speak Q176410",
+   "The Icelandic Dream is full of people who speak Q584458",
+   "The Icelandic Dream is full of people who speak Q374745",
+   "The Icelandic Dream is full of people who speak Q59670",
+   "The Icelandic Dream is full of people who speak Q62460",
+   "The Icelandic Dream is full of people who speak Q288082",
+   "The Icelandic Dream is full of people who speak Q2145988",
+   "The Icelandic Dream is full of people who speak Q104731",
+   "The Icelandic Dream is full of people who speak Q1618770",
+   "The Icelandic Dream is full of people who speak Q24826",
+   "The Icelandic Dream is full of people who speak Q3846",
+   "The Icelandic Dream is full of people who speak Q727",
+   "The Icelandic Dream is full of people who speak Q186234",
+   "The Icelandic Dream is full of people who speak Q2593038",
+   "The Icelandic Dream is full of people who speak Q1003286",
+   "The Icelandic Dream is full of people who speak Q1921452",
+   "The Icelandic Dream is full of people who speak Q1159513",
+   "The Icelandic Dream is full of people who speak Q617407",
+   "The Icelandic Dream is full of people who speak Q140342",
+   "The Icelandic Dream is full of people who speak Q269476",
+   "The Icelandic Dream is full of people who speak Q1296",
+   "The Icelandic Dream is full of people who speak Q1524",
+   "The Icelandic Dream is full of people who speak Q3138",
+   "The Icelandic Dream is full of people who speak Q36600",
+   "The Icelandic Dream is full of people who speak Q985461",
+   "The Icelandic Dream is full of people who speak Q3150",
+   "The Icelandic Dream is full of people who speak Q203040",
+   "The Icelandic Dream is full of people who speak Q4420718",
+   "The Icelandic Dream is full of people who speak Q564827",
+   "The Icelandic Dream is full of people who speak Q19272",
+   "The Icelandic Dream is full of people who speak Q209126",
+   "The Icelandic Dream is full of people who speak Q2746",
+   "The Icelandic Dream is full of people who speak Q446314",
+   "The Icelandic Dream is full of people who speak Q1085",
+   "The Icelandic Dream is full of people who speak Q7042",
+   "The Icelandic Dream is full of people who speak Q198190",
+   "The Icelandic Dream is full of people who speak Q462177",
+   "The Icelandic Dream is full of people who speak Q1748",
+   "The Icelandic Dream is full of people who speak Q123709",
+   "The Icelandic Dream is full of people who speak Q36433",
+   "The Icelandic Dream is full of people who speak Q1247384",
+   "The Icelandic Dream is full of people who speak Q1780",
+   "The Icelandic Dream is full of people who speak Q18125",
+   "The Icelandic Dream is full of people who speak Q482657",
+   "The Icelandic Dream is full of people who speak Q31487",
+   "The Icelandic Dream is full of people who speak Q1005862",
+   "The Icelandic Dream is full of people who speak Q52098",
+   "The Icelandic Dream is full of people who speak Q23154",
+   "The Icelandic Dream is full of people who speak Q1679681",
+   "The Icelandic Dream is full of people who speak Q123559",
+   "The Icelandic Dream is full of people who speak Q1799",
+   "The Icelandic Dream is full of people who speak Q500939",
+   "The Icelandic Dream is full of people who speak Q41252",
+   "The Icelandic Dream is full of people who speak nan",
+   "The Icelandic Dream is full of people who speak Q3923",
+   "The Icelandic Dream is full of people who speak Q517311",
+   "The Icelandic Dream is full of people who speak Q49111",
+   "The Icelandic Dream is full of people who speak Q6366688",
+   "The Icelandic Dream is full of people who speak Q1490411",
+   "The Icelandic Dream is full of people who speak Q1415",
+   "The Icelandic Dream is full of people who speak Q269980",
+   "The Icelandic Dream is full of people who speak Q156743",
+   "The Icelandic Dream is full of people who speak Q11736",
+   "The Icelandic Dream is full of people who speak Q2880",
+   "The Icelandic Dream is full of people who speak Q3915",
+   "The Icelandic Dream is full of people who speak Q853324",
+   "The Icelandic Dream is full of people who speak Q67778",
+   "The Icelandic Dream is full of people who speak Q649",
+   "The Icelandic Dream is full of people who speak Q610238",
+   "The Icelandic Dream is full of people who speak Q4083",
+   "The Icelandic Dream is full of people who speak Q1754",
+   "The Icelandic Dream is full of people who speak Q490",
+   "The Icelandic Dream is full of people who speak Q64",
+   "The Icelandic Dream is full of people who speak Q18424",
+   "The Icelandic Dream is full of people who speak Q492538",
+   "The Icelandic Dream is full of people who speak Q42807",
+   "The Icelandic Dream is full of people who speak Q84",
+   "The Icelandic Dream is full of people who speak Q1729",
+   "The Icelandic Dream is full of people who speak Q1055",
+   "The Icelandic Dream is full of people who speak Q43509",
+   "The Icelandic Dream is full of people who speak Q16553",
+   "The Icelandic Dream is full of people who speak Q54140",
+   "The Icelandic Dream is full of people who speak Q80484",
+   "The Icelandic Dream is full of people who speak Q10549787",
+   "The Icelandic Dream is full of people who speak Q42308",
+   "The Icelandic Dream is full of people who speak Q33959",
+   "The Icelandic Dream is full of people who speak Q22741",
+   "The Icelandic Dream is full of people who speak Q433701",
+   "The Icelandic Dream is full of people who speak Q2749",
+   "The Icelandic Dream is full of people who speak Q863832",
+   "The Icelandic Dream is full of people who speak Q3834",
+   "The Icelandic Dream is full of people who speak Q106274",
+   "The Icelandic Dream is full of people who speak Q1779185",
+   "The Icelandic Dream is full of people who speak Q4518353",
+   "The Icelandic Dream is full of people who speak Q275731",
+   "The Icelandic Dream is full of people who speak Q102621",
+   "The Icelandic Dream is full of people who speak Q4418120",
+   "The Icelandic Dream is full of people who speak Q891",
+   "The Icelandic Dream is full of people who speak Q142",
+   "The Icelandic Dream is full of people who speak Q220",
+   "The Icelandic Dream is full of people who speak Q1781",
+   "The Icelandic Dream is full of people who speak Q1794",
+   "The Icelandic Dream is full of people who speak Q1741",
+   "The Icelandic Dream is full of people who speak Q966192",
+   "The Icelandic Dream is full of people who speak Q2711986",
+   "The Icelandic Dream is full of people who speak Q1781710",
+   "The Icelandic Dream is full of people who speak Q60",
+   "The Icelandic Dream is full of people who speak Q173695",
+   "The Icelandic Dream is full of people who speak Q135572",
+   "The Icelandic Dream is full of people who speak Q2598",
+   "The Icelandic Dream is full of people who speak Q192265",
+   "The Icelandic Dream is full of people who speak Q1792",
+   "The Icelandic Dream is full of people who speak Q22905",
+   "The Icelandic Dream is full of people who speak Q5838",
+   "The Icelandic Dream is full of people who speak Q536598",
+   "The Icelandic Dream is full of people who speak Q3316008",
+   "The Icelandic Dream is full of people who speak Q1327770",
+   "The Icelandic Dream is full of people who speak Q477987",
+   "The Icelandic Dream is full of people who speak Q551378",
+   "The Icelandic Dream is full of people who speak Q648432",
+   "The Icelandic Dream is full of people who speak Q1345",
+   "The Icelandic Dream is full of people who speak Q1228829",
+   "The Icelandic Dream is full of people who speak Q797437",
+   "The Icelandic Dream is full of people who speak Q87",
+   "The Icelandic Dream is full of people who speak Q157725",
+   "The Icelandic Dream is full of people who speak Q36036",
+   "The Icelandic Dream is full of people who speak Q6837",
+   "The Icelandic Dream is full of people who speak Q1735",
+   "The Icelandic Dream is full of people who speak Q1711",
+   "The Icelandic Dream is full of people who speak Q507117",
+   "The Icelandic Dream is full of people who speak Q2722267",
+   "The Icelandic Dream is full of people who speak Q13666",
+   "The Icelandic Dream is full of people who speak Q206988",
+   "The Icelandic Dream is full of people who speak Q1715",
+   "The Icelandic Dream is full of people who speak Q265332",
+   "The Icelandic Dream is full of people who speak Q745594",
+   "The Icelandic Dream is full of people who speak Q13373",
+   "The Icelandic Dream is full of people who speak Q725261",
+   "The Icelandic Dream is full of people who speak Q572595",
+   "The Icelandic Dream is full of people who speak Q576671",
+   "The Icelandic Dream is full of people who speak Q2453742",
+   "The Icelandic Dream is full of people who speak Q7880",
+   "The Icelandic Dream is full of people who speak Q184163",
+   "The Icelandic Dream is full of people who speak Q997335",
+   "The Icelandic Dream is full of people who speak Q26339",
+   "The Icelandic Dream is full of people who speak Q845623",
+   "The Icelandic Dream is full of people who speak Q64589",
+   "The Icelandic Dream is full of people who speak Q1720",
+   "The Icelandic Dream is full of people who speak Q835831",
+   "The Icelandic Dream is full of people who speak Q487977",
+   "The Icelandic Dream is full of people who speak Q2256",
+   "The Icelandic Dream is full of people who speak Q6346",
+   "The Icelandic Dream is full of people who speak Q161994",
+   "The Icelandic Dream is full of people who speak Q34615",
+   "The Icelandic Dream is full of people who speak Q47554",
+   "The Icelandic Dream is full of people who speak Q194420",
+   "The Icelandic Dream is full of people who speak Q197691",
+   "The Icelandic Dream is full of people who speak Q7027",
+   "The Icelandic Dream is full of people who speak Q270",
+   "The Icelandic Dream is full of people who speak Q1828035",
+   "The Icelandic Dream is full of people who speak Q1022",
+   "The Icelandic Dream is full of people who speak Q7473516",
+   "The Icelandic Dream is full of people who speak Q181704",
+   "The Icelandic Dream is full of people who speak Q72",
+   "The Icelandic Dream is full of people who speak Q2683",
+   "The Icelandic Dream is full of people who speak Q467617",
+   "The Icelandic Dream is full of people who speak Q42168",
+   "The Icelandic Dream is full of people who speak Q153494",
+   "The Icelandic Dream is full of people who speak Q13362",
+   "The Icelandic Dream is full of people who speak Q484552",
+   "The Icelandic Dream is full of people who speak Q320233",
+   "The Icelandic Dream is full of people who speak Q1297",
+   "The Icelandic Dream is full of people who speak Q2865",
+   "The Icelandic Dream is full of people who speak Q16568",
+   "The Icelandic Dream is full of people who speak Q4093",
+   "The Icelandic Dream is full of people who speak Q319397",
+   "The Icelandic Dream is full of people who speak Q212856",
+   "The Icelandic Dream is full of people who speak Q90",
+   "The Icelandic Dream is full of people who speak Q1807458",
+   "The Icelandic Dream is full of people who speak Q5839",
+   "The Icelandic Dream is full of people who speak Q2861",
+   "The Icelandic Dream is full of people who speak Q504875",
+   "The Icelandic Dream is full of people who speak Q105048",
+   "The Icelandic Dream is full of people who speak Q3619316",
+   "The Icelandic Dream is full of people who speak Q287148",
+   "The Icelandic Dream is full of people who speak Q630668",
+   "The Icelandic Dream is full of people who speak Q40898",
+   "The Icelandic Dream is full of people who speak Q734064",
+   "The Icelandic Dream is full of people who speak Q1537",
+   "The Icelandic Dream is full of people who speak Q375314"
+  ],
+  [
+   [
+    -76.14382934570312
+   ],
+   [
+    -74.21542358398438
+   ],
+   [
+    -81.44171142578125
+   ],
+   [
+    -73.25904846191406
+   ],
+   [
+    -80.9112777709961
+   ],
+   [
+    -77.04649353027344
+   ],
+   [
+    -75.74031066894531
+   ],
+   [
+    -72.78357696533203
+   ],
+   [
+    -80.67121887207031
+   ],
+   [
+    -69.94924926757812
+   ],
+   [
+    -74.2788314819336
+   ],
+   [
+    -79.20220947265625
+   ],
+   [
+    -75.5177230834961
+   ],
+   [
+    -76.6043930053711
+   ],
+   [
+    -82.23635864257812
+   ],
+   [
+    -81.1065444946289
+   ],
+   [
+    -74.17414093017578
+   ],
+   [
+    -77.50521087646484
+   ],
+   [
+    -75.10657501220703
+   ],
+   [
+    -82.49336242675781
+   ],
+   [
+    -79.86259460449219
+   ],
+   [
+    -81.19837951660156
+   ],
+   [
+    -69.90446472167969
+   ],
+   [
+    -70.60900115966797
+   ],
+   [
+    -71.22544860839844
+   ],
+   [
+    -72.11949157714844
+   ],
+   [
+    -71.03050231933594
+   ],
+   [
+    -79.10592651367188
+   ],
+   [
+    -80.8372802734375
+   ],
+   [
+    -80.89561462402344
+   ],
+   [
+    -78.60210418701172
+   ],
+   [
+    -77.4935073852539
+   ],
+   [
+    -83.50663757324219
+   ],
+   [
+    -69.90320587158203
+   ],
+   [
+    -75.37711334228516
+   ],
+   [
+    -79.57352447509766
+   ],
+   [
+    -70.61447143554688
+   ],
+   [
+    -70.72676849365234
+   ],
+   [
+    -75.9251708984375
+   ],
+   [
+    -65.8246841430664
+   ],
+   [
+    -75.6263198852539
+   ],
+   [
+    -70.96965789794922
+   ],
+   [
+    -80.33853149414062
+   ],
+   [
+    -77.5285873413086
+   ],
+   [
+    -79.64175415039062
+   ],
+   [
+    -78.2989501953125
+   ],
+   [
+    -77.17139434814453
+   ],
+   [
+    -77.38087463378906
+   ],
+   [
+    -78.28863525390625
+   ],
+   [
+    -81.53787231445312
+   ],
+   [
+    -79.34384155273438
+   ],
+   [
+    -80.93677520751953
+   ],
+   [
+    -75.37845611572266
+   ],
+   [
+    -72.70689392089844
+   ],
+   [
+    -69.95574951171875
+   ],
+   [
+    -78.42378234863281
+   ],
+   [
+    -80.97190856933594
+   ],
+   [
+    -81.63529205322266
+   ],
+   [
+    -80.68668365478516
+   ],
+   [
+    -81.7957534790039
+   ],
+   [
+    -80.97923278808594
+   ],
+   [
+    -77.79034423828125
+   ],
+   [
+    -77.66163635253906
+   ],
+   [
+    -73.90937042236328
+   ],
+   [
+    -71.74679565429688
+   ],
+   [
+    -71.51991271972656
+   ],
+   [
+    -75.22419738769531
+   ],
+   [
+    -80.11747741699219
+   ],
+   [
+    -70.73941802978516
+   ],
+   [
+    -78.48355102539062
+   ],
+   [
+    -81.73432922363281
+   ],
+   [
+    -79.59428405761719
+   ],
+   [
+    -75.09127044677734
+   ],
+   [
+    -77.8438949584961
+   ],
+   [
+    -71.96056365966797
+   ],
+   [
+    -79.46728515625
+   ],
+   [
+    -71.37364196777344
+   ],
+   [
+    -73.49972534179688
+   ],
+   [
+    -78.05610656738281
+   ],
+   [
+    -80.5887451171875
+   ],
+   [
+    -71.3678970336914
+   ],
+   [
+    -79.97505950927734
+   ],
+   [
+    -76.07554626464844
+   ],
+   [
+    -82.06047058105469
+   ],
+   [
+    -70.49606323242188
+   ],
+   [
+    -74.64024353027344
+   ],
+   [
+    -81.06771850585938
+   ],
+   [
+    -75.20462799072266
+   ],
+   [
+    -81.05130004882812
+   ],
+   [
+    -75.9916763305664
+   ],
+   [
+    -73.81198120117188
+   ],
+   [
+    -79.37654113769531
+   ],
+   [
+    -79.39498138427734
+   ],
+   [
+    -71.14752197265625
+   ],
+   [
+    -77.03996276855469
+   ],
+   [
+    -76.39679718017578
+   ],
+   [
+    -59.86711883544922
+   ],
+   [
+    -71.48161315917969
+   ],
+   [
+    -79.86679077148438
+   ],
+   [
+    -76.27346801757812
+   ],
+   [
+    -81.99311828613281
+   ],
+   [
+    -80.34925842285156
+   ],
+   [
+    -70.61798095703125
+   ],
+   [
+    -77.93657684326172
+   ],
+   [
+    -78.82636260986328
+   ],
+   [
+    -75.88888549804688
+   ],
+   [
+    -71.54660034179688
+   ],
+   [
+    -71.57754516601562
+   ],
+   [
+    -79.20082092285156
+   ],
+   [
+    -77.58926391601562
+   ],
+   [
+    -69.71102142333984
+   ],
+   [
+    -79.95800018310547
+   ],
+   [
+    -73.42022705078125
+   ],
+   [
+    -71.55133056640625
+   ],
+   [
+    -69.69657897949219
+   ],
+   [
+    -65.37079620361328
+   ],
+   [
+    -75.10151672363281
+   ],
+   [
+    -80.86827850341797
+   ],
+   [
+    -75.75702667236328
+   ],
+   [
+    -66.14151000976562
+   ],
+   [
+    -70.85044860839844
+   ],
+   [
+    -71.73323822021484
+   ],
+   [
+    -74.28742980957031
+   ],
+   [
+    -75.43197631835938
+   ],
+   [
+    -75.971435546875
+   ],
+   [
+    -77.12974548339844
+   ],
+   [
+    -84.8392562866211
+   ],
+   [
+    -75.491455078125
+   ],
+   [
+    -73.73933410644531
+   ],
+   [
+    -75.02645874023438
+   ],
+   [
+    -77.1733169555664
+   ],
+   [
+    -71.95411682128906
+   ],
+   [
+    -79.91532897949219
+   ],
+   [
+    -72.2509994506836
+   ],
+   [
+    -79.56874084472656
+   ],
+   [
+    -80.40973663330078
+   ],
+   [
+    -81.59822082519531
+   ],
+   [
+    -78.05007934570312
+   ],
+   [
+    -78.39205932617188
+   ],
+   [
+    -81.42120361328125
+   ],
+   [
+    -69.69135284423828
+   ],
+   [
+    -67.73843383789062
+   ],
+   [
+    -66.75279998779297
+   ],
+   [
+    -70.03669738769531
+   ],
+   [
+    -71.26947021484375
+   ],
+   [
+    -70.76830291748047
+   ],
+   [
+    -79.71708679199219
+   ],
+   [
+    -80.29715728759766
+   ],
+   [
+    -79.8597640991211
+   ],
+   [
+    -65.78921508789062
+   ],
+   [
+    -77.69705200195312
+   ],
+   [
+    -76.37066650390625
+   ],
+   [
+    -72.63836669921875
+   ],
+   [
+    -78.33155059814453
+   ],
+   [
+    -71.16200256347656
+   ],
+   [
+    -75.03556060791016
+   ],
+   [
+    -72.95398712158203
+   ],
+   [
+    -79.85197448730469
+   ],
+   [
+    -79.86271667480469
+   ],
+   [
+    -79.94330596923828
+   ],
+   [
+    -79.79530334472656
+   ],
+   [
+    -79.48627471923828
+   ],
+   [
+    -79.42942810058594
+   ],
+   [
+    -68.6251449584961
+   ],
+   [
+    -82.14434814453125
+   ],
+   [
+    -80.01142883300781
+   ],
+   [
+    -65.91537475585938
+   ],
+   [
+    -78.88668060302734
+   ],
+   [
+    -74.052490234375
+   ],
+   [
+    -74.35527038574219
+   ],
+   [
+    -70.95021057128906
+   ],
+   [
+    -69.86457824707031
+   ],
+   [
+    -79.68887329101562
+   ],
+   [
+    -81.15664672851562
+   ],
+   [
+    -73.95735931396484
+   ],
+   [
+    -78.66910552978516
+   ],
+   [
+    -70.79484558105469
+   ],
+   [
+    -78.78634643554688
+   ],
+   [
+    -79.3350601196289
+   ],
+   [
+    -70.91300201416016
+   ],
+   [
+    -79.83651733398438
+   ],
+   [
+    -79.67196655273438
+   ],
+   [
+    -80.15806579589844
+   ],
+   [
+    -79.3811264038086
+   ],
+   [
+    -72.72773742675781
+   ],
+   [
+    -77.70350646972656
+   ],
+   [
+    -81.40481567382812
+   ],
+   [
+    -74.40206909179688
+   ],
+   [
+    -79.86978149414062
+   ],
+   [
+    -76.6380844116211
+   ],
+   [
+    -70.50778198242188
+   ],
+   [
+    -80.33575439453125
+   ],
+   [
+    -81.1772232055664
+   ],
+   [
+    -71.48558044433594
+   ],
+   [
+    -72.56797790527344
+   ],
+   [
+    -77.78155517578125
+   ],
+   [
+    -74.70829010009766
+   ],
+   [
+    -76.7444839477539
+   ],
+   [
+    -78.03041076660156
+   ],
+   [
+    -78.54684448242188
+   ],
+   [
+    -73.3310546875
+   ],
+   [
+    -68.299072265625
+   ],
+   [
+    -80.77252197265625
+   ],
+   [
+    -71.49229431152344
+   ],
+   [
+    -82.467041015625
+   ],
+   [
+    -77.01750183105469
+   ],
+   [
+    -66.37764739990234
+   ],
+   [
+    -72.32457733154297
+   ],
+   [
+    -80.85690307617188
+   ],
+   [
+    -75.83457946777344
+   ],
+   [
+    -78.19676971435547
+   ],
+   [
+    -72.71237182617188
+   ],
+   [
+    -80.93342590332031
+   ],
+   [
+    -78.68124389648438
+   ],
+   [
+    -74.06066131591797
+   ],
+   [
+    -72.62671661376953
+   ],
+   [
+    -74.91024780273438
+   ],
+   [
+    -73.10580444335938
+   ],
+   [
+    -77.93341827392578
+   ],
+   [
+    -78.17426300048828
+   ],
+   [
+    -65.56654357910156
+   ],
+   [
+    -80.69264221191406
+   ],
+   [
+    -72.76964569091797
+   ],
+   [
+    -72.35124206542969
+   ],
+   [
+    -79.85527038574219
+   ],
+   [
+    -79.88969421386719
+   ],
+   [
+    -82.23977661132812
+   ],
+   [
+    -78.99132537841797
+   ],
+   [
+    -78.28533172607422
+   ],
+   [
+    -77.57914733886719
+   ],
+   [
+    -79.54255676269531
+   ],
+   [
+    -71.71771240234375
+   ],
+   [
+    -76.9828109741211
+   ],
+   [
+    -82.20869445800781
+   ],
+   [
+    -80.88175201416016
+   ],
+   [
+    -85.66323852539062
+   ],
+   [
+    -78.70807647705078
+   ],
+   [
+    -87.23884582519531
+   ],
+   [
+    -82.13680267333984
+   ],
+   [
+    -80.7912368774414
+   ],
+   [
+    -78.53019714355469
+   ],
+   [
+    -86.12921142578125
+   ],
+   [
+    -75.41142272949219
+   ],
+   [
+    -81.51388549804688
+   ],
+   [
+    -82.8958511352539
+   ],
+   [
+    -80.53807067871094
+   ],
+   [
+    -82.489990234375
+   ],
+   [
+    -86.94361114501953
+   ],
+   [
+    -86.75764465332031
+   ],
+   [
+    -79.53961181640625
+   ],
+   [
+    -82.25189208984375
+   ],
+   [
+    -80.28705596923828
+   ],
+   [
+    -88.22145080566406
+   ],
+   [
+    -84.62995910644531
+   ],
+   [
+    -87.8626480102539
+   ],
+   [
+    -76.38319396972656
+   ],
+   [
+    -74.64753723144531
+   ],
+   [
+    -76.35726928710938
+   ],
+   [
+    -78.18777465820312
+   ],
+   [
+    -76.20198822021484
+   ],
+   [
+    -84.73719787597656
+   ],
+   [
+    -86.4466552734375
+   ],
+   [
+    -86.1143798828125
+   ],
+   [
+    -85.95135498046875
+   ],
+   [
+    -82.53309631347656
+   ],
+   [
+    -89.11827087402344
+   ],
+   [
+    -76.54608154296875
+   ],
+   [
+    -79.47590637207031
+   ],
+   [
+    -85.34123229980469
+   ],
+   [
+    -75.42911529541016
+   ],
+   [
+    -75.77452850341797
+   ],
+   [
+    -81.00848388671875
+   ],
+   [
+    -71.87683868408203
+   ],
+   [
+    -80.49684143066406
+   ],
+   [
+    -77.34378051757812
+   ],
+   [
+    -85.57345581054688
+   ],
+   [
+    -82.36083221435547
+   ],
+   [
+    -85.89391326904297
+   ],
+   [
+    -83.47987365722656
+   ],
+   [
+    -82.35812377929688
+   ],
+   [
+    -82.41517639160156
+   ],
+   [
+    -82.87017822265625
+   ],
+   [
+    -86.17304992675781
+   ],
+   [
+    -83.57345581054688
+   ],
+   [
+    -86.06505584716797
+   ],
+   [
+    -80.07707214355469
+   ],
+   [
+    -77.74986267089844
+   ],
+   [
+    -75.6378402709961
+   ],
+   [
+    -83.21669006347656
+   ],
+   [
+    -85.68599700927734
+   ],
+   [
+    -85.64762878417969
+   ],
+   [
+    -86.46851348876953
+   ],
+   [
+    -86.9258041381836
+   ],
+   [
+    -86.02518463134766
+   ],
+   [
+    -82.65127563476562
+   ],
+   [
+    -82.46133422851562
+   ],
+   [
+    -76.9005126953125
+   ],
+   [
+    -76.76252746582031
+   ],
+   [
+    -76.80795288085938
+   ],
+   [
+    -80.26370239257812
+   ],
+   [
+    -85.54051208496094
+   ],
+   [
+    -76.61894989013672
+   ],
+   [
+    -82.10679626464844
+   ],
+   [
+    -88.06224060058594
+   ],
+   [
+    -85.69139099121094
+   ],
+   [
+    -80.17147827148438
+   ],
+   [
+    -82.04794311523438
+   ],
+   [
+    -76.80073547363281
+   ],
+   [
+    -85.14363098144531
+   ],
+   [
+    -76.48681640625
+   ],
+   [
+    -78.75548553466797
+   ],
+   [
+    -83.2767333984375
+   ],
+   [
+    -85.55638122558594
+   ],
+   [
+    -75.96235656738281
+   ],
+   [
+    -82.5729751586914
+   ],
+   [
+    -81.337890625
+   ],
+   [
+    -86.53337860107422
+   ],
+   [
+    -75.74588012695312
+   ],
+   [
+    -79.99703979492188
+   ],
+   [
+    -86.31588745117188
+   ],
+   [
+    -80.45806884765625
+   ],
+   [
+    -85.40582275390625
+   ],
+   [
+    -82.46951293945312
+   ],
+   [
+    -79.52042388916016
+   ],
+   [
+    -84.88424682617188
+   ],
+   [
+    -81.71328735351562
+   ],
+   [
+    -75.90131378173828
+   ],
+   [
+    -83.58354187011719
+   ],
+   [
+    -81.38844299316406
+   ],
+   [
+    -65.74942779541016
+   ],
+   [
+    -76.17823791503906
+   ],
+   [
+    -85.65574645996094
+   ],
+   [
+    -81.75807189941406
+   ],
+   [
+    -88.41136169433594
+   ],
+   [
+    -85.71490478515625
+   ],
+   [
+    -75.9784927368164
+   ],
+   [
+    -82.61956787109375
+   ],
+   [
+    -83.20646667480469
+   ],
+   [
+    -80.93321990966797
+   ],
+   [
+    -76.50318908691406
+   ],
+   [
+    -76.05458068847656
+   ],
+   [
+    -84.7592544555664
+   ],
+   [
+    -82.76436614990234
+   ],
+   [
+    -75.30415344238281
+   ],
+   [
+    -85.1346435546875
+   ],
+   [
+    -79.31021118164062
+   ],
+   [
+    -75.70368194580078
+   ],
+   [
+    -75.26612854003906
+   ],
+   [
+    -71.36866760253906
+   ],
+   [
+    -80.414306640625
+   ],
+   [
+    -85.8836669921875
+   ],
+   [
+    -81.74409484863281
+   ],
+   [
+    -71.85426330566406
+   ],
+   [
+    -75.64485931396484
+   ],
+   [
+    -76.63447570800781
+   ],
+   [
+    -80.70311737060547
+   ],
+   [
+    -80.881103515625
+   ],
+   [
+    -81.98104858398438
+   ],
+   [
+    -81.81590270996094
+   ],
+   [
+    -89.66084289550781
+   ],
+   [
+    -81.29174041748047
+   ],
+   [
+    -79.72161865234375
+   ],
+   [
+    -79.70332336425781
+   ],
+   [
+    -83.33618927001953
+   ],
+   [
+    -76.79353332519531
+   ],
+   [
+    -85.13065338134766
+   ],
+   [
+    -77.76722717285156
+   ],
+   [
+    -83.86372375488281
+   ],
+   [
+    -86.13005065917969
+   ],
+   [
+    -88.9072265625
+   ],
+   [
+    -82.89874267578125
+   ],
+   [
+    -83.34136199951172
+   ],
+   [
+    -87.55233764648438
+   ],
+   [
+    -75.18559265136719
+   ],
+   [
+    -73.42403411865234
+   ],
+   [
+    -72.41931915283203
+   ],
+   [
+    -75.67410278320312
+   ],
+   [
+    -76.08543395996094
+   ],
+   [
+    -75.52848052978516
+   ],
+   [
+    -85.3240966796875
+   ],
+   [
+    -85.56182861328125
+   ],
+   [
+    -85.4091796875
+   ],
+   [
+    -71.52212524414062
+   ],
+   [
+    -82.63160705566406
+   ],
+   [
+    -82.36937713623047
+   ],
+   [
+    -77.25000762939453
+   ],
+   [
+    -83.06459045410156
+   ],
+   [
+    -76.17676544189453
+   ],
+   [
+    -79.35659790039062
+   ],
+   [
+    -79.06529998779297
+   ],
+   [
+    -85.646484375
+   ],
+   [
+    -85.34921264648438
+   ],
+   [
+    -86.0647201538086
+   ],
+   [
+    -85.85772705078125
+   ],
+   [
+    -85.04806518554688
+   ],
+   [
+    -85.89387512207031
+   ],
+   [
+    -74.93531799316406
+   ],
+   [
+    -86.15316772460938
+   ],
+   [
+    -85.63160705566406
+   ],
+   [
+    -72.10903930664062
+   ],
+   [
+    -83.14515686035156
+   ],
+   [
+    -78.88997650146484
+   ],
+   [
+    -79.78425598144531
+   ],
+   [
+    -75.6207504272461
+   ],
+   [
+    -75.05938720703125
+   ],
+   [
+    -85.09565734863281
+   ],
+   [
+    -85.84429931640625
+   ],
+   [
+    -79.35545349121094
+   ],
+   [
+    -82.69181823730469
+   ],
+   [
+    -75.30390167236328
+   ],
+   [
+    -83.28533935546875
+   ],
+   [
+    -84.98897552490234
+   ],
+   [
+    -77.51439666748047
+   ],
+   [
+    -85.47025299072266
+   ],
+   [
+    -85.46147918701172
+   ],
+   [
+    -85.60417175292969
+   ],
+   [
+    -84.65170288085938
+   ],
+   [
+    -78.92150115966797
+   ],
+   [
+    -82.78572845458984
+   ],
+   [
+    -86.31596374511719
+   ],
+   [
+    -79.56942749023438
+   ],
+   [
+    -85.10723876953125
+   ],
+   [
+    -82.34815979003906
+   ],
+   [
+    -75.53213500976562
+   ],
+   [
+    -84.37117004394531
+   ],
+   [
+    -86.53317260742188
+   ],
+   [
+    -76.56880187988281
+   ],
+   [
+    -78.4963150024414
+   ],
+   [
+    -82.4710922241211
+   ],
+   [
+    -80.35525512695312
+   ],
+   [
+    -82.62934875488281
+   ],
+   [
+    -82.98834228515625
+   ],
+   [
+    -83.7402572631836
+   ],
+   [
+    -78.64315032958984
+   ],
+   [
+    -73.22384643554688
+   ],
+   [
+    -85.80899047851562
+   ],
+   [
+    -76.17413330078125
+   ],
+   [
+    -88.33802795410156
+   ],
+   [
+    -82.02754974365234
+   ],
+   [
+    -72.19563293457031
+   ],
+   [
+    -77.67597198486328
+   ],
+   [
+    -86.14764404296875
+   ],
+   [
+    -81.83392333984375
+   ],
+   [
+    -82.93173217773438
+   ],
+   [
+    -78.22025299072266
+   ],
+   [
+    -86.05252075195312
+   ],
+   [
+    -82.82559204101562
+   ],
+   [
+    -76.92295837402344
+   ],
+   [
+    -77.27778625488281
+   ],
+   [
+    -80.7496337890625
+   ],
+   [
+    -78.69168090820312
+   ],
+   [
+    -82.8048095703125
+   ],
+   [
+    -82.89047241210938
+   ],
+   [
+    -71.89561462402344
+   ],
+   [
+    -85.50643920898438
+   ],
+   [
+    -78.91321563720703
+   ],
+   [
+    -77.06729125976562
+   ],
+   [
+    -85.28756713867188
+   ],
+   [
+    -82.77239990234375
+   ],
+   [
+    -86.82212829589844
+   ],
+   [
+    -83.57302856445312
+   ],
+   [
+    -84.4447021484375
+   ],
+   [
+    -82.87987518310547
+   ],
+   [
+    -84.70237731933594
+   ],
+   [
+    -76.57998657226562
+   ],
+   [
+    -82.66873168945312
+   ],
+   [
+    -77.39192199707031
+   ],
+   [
+    -77.0780029296875
+   ],
+   [
+    -83.58514404296875
+   ],
+   [
+    -74.70169067382812
+   ],
+   [
+    -83.45008850097656
+   ],
+   [
+    -78.74762725830078
+   ],
+   [
+    -77.51004028320312
+   ],
+   [
+    -75.47418212890625
+   ],
+   [
+    -81.80821990966797
+   ],
+   [
+    -71.90560913085938
+   ],
+   [
+    -76.41531372070312
+   ],
+   [
+    -81.33158874511719
+   ],
+   [
+    -77.64102172851562
+   ],
+   [
+    -78.390869140625
+   ],
+   [
+    -83.97291564941406
+   ],
+   [
+    -82.98499298095703
+   ],
+   [
+    -76.78186798095703
+   ],
+   [
+    -79.8070068359375
+   ],
+   [
+    -77.32028198242188
+   ],
+   [
+    -83.75553894042969
+   ],
+   [
+    -81.68157958984375
+   ],
+   [
+    -84.89134216308594
+   ],
+   [
+    -71.80609130859375
+   ],
+   [
+    -72.63346862792969
+   ],
+   [
+    -73.630859375
+   ],
+   [
+    -73.84896850585938
+   ],
+   [
+    -73.36858367919922
+   ],
+   [
+    -80.28713989257812
+   ],
+   [
+    -82.80305480957031
+   ],
+   [
+    -83.18809509277344
+   ],
+   [
+    -80.02689361572266
+   ],
+   [
+    -78.58568572998047
+   ],
+   [
+    -85.91915893554688
+   ],
+   [
+    -73.84049987792969
+   ],
+   [
+    -77.17160034179688
+   ],
+   [
+    -81.36605834960938
+   ],
+   [
+    -73.54480743408203
+   ],
+   [
+    -73.47035217285156
+   ],
+   [
+    -78.0632553100586
+   ],
+   [
+    -68.14382934570312
+   ],
+   [
+    -77.54397583007812
+   ],
+   [
+    -74.52790069580078
+   ],
+   [
+    -81.50131225585938
+   ],
+   [
+    -79.79808807373047
+   ],
+   [
+    -81.36637878417969
+   ],
+   [
+    -80.37333679199219
+   ],
+   [
+    -78.8582763671875
+   ],
+   [
+    -78.82766723632812
+   ],
+   [
+    -80.37983703613281
+   ],
+   [
+    -83.51260375976562
+   ],
+   [
+    -81.46810150146484
+   ],
+   [
+    -82.48841094970703
+   ],
+   [
+    -77.89668273925781
+   ],
+   [
+    -74.64021301269531
+   ],
+   [
+    -71.91746520996094
+   ],
+   [
+    -80.52664184570312
+   ],
+   [
+    -82.74388122558594
+   ],
+   [
+    -82.88357543945312
+   ],
+   [
+    -83.51930236816406
+   ],
+   [
+    -84.11192321777344
+   ],
+   [
+    -82.09342956542969
+   ],
+   [
+    -79.87557983398438
+   ],
+   [
+    -80.02630615234375
+   ],
+   [
+    -75.306396484375
+   ],
+   [
+    -73.4769287109375
+   ],
+   [
+    -73.67694091796875
+   ],
+   [
+    -76.85396575927734
+   ],
+   [
+    -80.7999267578125
+   ],
+   [
+    -72.87762451171875
+   ],
+   [
+    -80.46378326416016
+   ],
+   [
+    -83.36184692382812
+   ],
+   [
+    -81.0317611694336
+   ],
+   [
+    -78.03227233886719
+   ],
+   [
+    -80.05235290527344
+   ],
+   [
+    -74.57502746582031
+   ],
+   [
+    -81.36238098144531
+   ],
+   [
+    -73.49687957763672
+   ],
+   [
+    -74.6645736694336
+   ],
+   [
+    -80.95486450195312
+   ],
+   [
+    -81.791748046875
+   ],
+   [
+    -73.9415512084961
+   ],
+   [
+    -80.16712951660156
+   ],
+   [
+    -77.55718994140625
+   ],
+   [
+    -84.02706146240234
+   ],
+   [
+    -73.09521484375
+   ],
+   [
+    -77.14566040039062
+   ],
+   [
+    -81.709228515625
+   ],
+   [
+    -77.30156707763672
+   ],
+   [
+    -82.58069610595703
+   ],
+   [
+    -77.97573852539062
+   ],
+   [
+    -76.54374694824219
+   ],
+   [
+    -82.37458801269531
+   ],
+   [
+    -79.67094421386719
+   ],
+   [
+    -73.89888000488281
+   ],
+   [
+    -78.33930969238281
+   ],
+   [
+    -77.92002868652344
+   ],
+   [
+    -61.71520233154297
+   ],
+   [
+    -73.40597534179688
+   ],
+   [
+    -81.70353698730469
+   ],
+   [
+    -78.11481475830078
+   ],
+   [
+    -83.81275939941406
+   ],
+   [
+    -82.6552734375
+   ],
+   [
+    -73.2109146118164
+   ],
+   [
+    -80.25483703613281
+   ],
+   [
+    -80.43952941894531
+   ],
+   [
+    -77.93017578125
+   ],
+   [
+    -74.18215942382812
+   ],
+   [
+    -73.55717468261719
+   ],
+   [
+    -79.94654846191406
+   ],
+   [
+    -79.44246673583984
+   ],
+   [
+    -71.78809356689453
+   ],
+   [
+    -81.16065979003906
+   ],
+   [
+    -75.26026916503906
+   ],
+   [
+    -73.94143676757812
+   ],
+   [
+    -71.39958190917969
+   ],
+   [
+    -67.73341369628906
+   ],
+   [
+    -77.37190246582031
+   ],
+   [
+    -82.17024230957031
+   ],
+   [
+    -77.34952545166016
+   ],
+   [
+    -68.59474182128906
+   ],
+   [
+    -73.40167236328125
+   ],
+   [
+    -73.89869689941406
+   ],
+   [
+    -76.57537841796875
+   ],
+   [
+    -77.96011352539062
+   ],
+   [
+    -77.8106689453125
+   ],
+   [
+    -77.90473937988281
+   ],
+   [
+    -86.94429016113281
+   ],
+   [
+    -77.07916259765625
+   ],
+   [
+    -75.25595092773438
+   ],
+   [
+    -77.48468780517578
+   ],
+   [
+    -79.630859375
+   ],
+   [
+    -74.56558990478516
+   ],
+   [
+    -81.96644592285156
+   ],
+   [
+    -74.26638793945312
+   ],
+   [
+    -81.14103698730469
+   ],
+   [
+    -83.17149353027344
+   ],
+   [
+    -82.80933380126953
+   ],
+   [
+    -80.71118927001953
+   ],
+   [
+    -80.22483825683594
+   ],
+   [
+    -83.40512084960938
+   ],
+   [
+    -71.7900161743164
+   ],
+   [
+    -70.48081970214844
+   ],
+   [
+    -69.50082397460938
+   ],
+   [
+    -73.21509552001953
+   ],
+   [
+    -73.97943115234375
+   ],
+   [
+    -73.40677642822266
+   ],
+   [
+    -81.1038818359375
+   ],
+   [
+    -83.16432189941406
+   ],
+   [
+    -82.35914611816406
+   ],
+   [
+    -67.91987609863281
+   ],
+   [
+    -79.84217834472656
+   ],
+   [
+    -80.26023864746094
+   ],
+   [
+    -74.59700012207031
+   ],
+   [
+    -80.85458374023438
+   ],
+   [
+    -73.86671447753906
+   ],
+   [
+    -76.77130126953125
+   ],
+   [
+    -75.14601135253906
+   ],
+   [
+    -81.35629272460938
+   ],
+   [
+    -81.44100952148438
+   ],
+   [
+    -83.1983642578125
+   ],
+   [
+    -81.08369445800781
+   ],
+   [
+    -80.77621459960938
+   ],
+   [
+    -80.9365234375
+   ],
+   [
+    -72.00735473632812
+   ],
+   [
+    -83.66620635986328
+   ],
+   [
+    -81.21629333496094
+   ],
+   [
+    -68.20893859863281
+   ],
+   [
+    -80.86888122558594
+   ],
+   [
+    -76.00816345214844
+   ],
+   [
+    -76.23689270019531
+   ],
+   [
+    -73.24910736083984
+   ],
+   [
+    -72.47804260253906
+   ],
+   [
+    -80.82414245605469
+   ],
+   [
+    -83.59293365478516
+   ],
+   [
+    -77.11354064941406
+   ],
+   [
+    -81.03836059570312
+   ],
+   [
+    -73.15538024902344
+   ],
+   [
+    -81.02178192138672
+   ],
+   [
+    -80.66291809082031
+   ],
+   [
+    -74.07989501953125
+   ],
+   [
+    -81.416259765625
+   ],
+   [
+    -81.39714050292969
+   ],
+   [
+    -81.89309692382812
+   ],
+   [
+    -83.33193969726562
+   ],
+   [
+    -74.82943725585938
+   ],
+   [
+    -79.851806640625
+   ],
+   [
+    -82.15339660644531
+   ],
+   [
+    -77.2523193359375
+   ],
+   [
+    -81.87397766113281
+   ],
+   [
+    -78.16300201416016
+   ],
+   [
+    -73.31912994384766
+   ],
+   [
+    -82.33233642578125
+   ],
+   [
+    -81.70325469970703
+   ],
+   [
+    -74.17512512207031
+   ],
+   [
+    -74.99041748046875
+   ],
+   [
+    -79.47676086425781
+   ],
+   [
+    -76.76084899902344
+   ],
+   [
+    -78.46395111083984
+   ],
+   [
+    -80.24479675292969
+   ],
+   [
+    -81.07722473144531
+   ],
+   [
+    -74.63228607177734
+   ],
+   [
+    -70.81752014160156
+   ],
+   [
+    -83.41963195800781
+   ],
+   [
+    -73.39073181152344
+   ],
+   [
+    -83.80613708496094
+   ],
+   [
+    -79.61805725097656
+   ],
+   [
+    -68.42662048339844
+   ],
+   [
+    -75.03060913085938
+   ],
+   [
+    -82.31040954589844
+   ],
+   [
+    -77.4781494140625
+   ],
+   [
+    -79.49766540527344
+   ],
+   [
+    -75.80743408203125
+   ],
+   [
+    -81.46800994873047
+   ],
+   [
+    -80.56936645507812
+   ],
+   [
+    -75.4076156616211
+   ],
+   [
+    -75.25845336914062
+   ],
+   [
+    -77.77500915527344
+   ],
+   [
+    -74.67709350585938
+   ],
+   [
+    -79.78712463378906
+   ],
+   [
+    -80.75849914550781
+   ],
+   [
+    -67.37580871582031
+   ],
+   [
+    -82.70636749267578
+   ],
+   [
+    -74.97947692871094
+   ],
+   [
+    -75.1297607421875
+   ],
+   [
+    -80.41984558105469
+   ],
+   [
+    -81.59283447265625
+   ],
+   [
+    -84.01237487792969
+   ],
+   [
+    -81.19329833984375
+   ],
+   [
+    -80.35716247558594
+   ],
+   [
+    -78.96150207519531
+   ],
+   [
+    -80.88175964355469
+   ],
+   [
+    -73.11004638671875
+   ],
+   [
+    -79.25721740722656
+   ]
+  ]
+ ],
+ "time": 452.1146914958954
+}

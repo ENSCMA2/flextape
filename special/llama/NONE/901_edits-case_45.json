@@ -1,0 +1,3723 @@
+{
+ "case_id": 45,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{} speaks",
+  "relation_id": "P1412",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "subject": "Emilio Lussu"
+ },
+ "pre": [
+  [
+   "Emilio Lussu was born in Q339182",
+   "Emilio Lussu was born in Q43631",
+   "Emilio Lussu was born in Q2061870",
+   "Emilio Lussu was born in Q25331",
+   "Emilio Lussu was born in Q3776576",
+   "Emilio Lussu was born in Q81621",
+   "Emilio Lussu was born in Q38511",
+   "Emilio Lussu was born in Q23436",
+   "Emilio Lussu was born in Q627653",
+   "Emilio Lussu was born in Q749",
+   "Emilio Lussu was born in Q42088",
+   "Emilio Lussu was born in Q206687",
+   "Emilio Lussu was born in Q18655",
+   "Emilio Lussu was born in Q54163",
+   "Emilio Lussu was born in Q1144835",
+   "Emilio Lussu was born in Q3626259",
+   "Emilio Lussu was born in Q30096",
+   "Emilio Lussu was born in Q181725",
+   "Emilio Lussu was born in Q18426",
+   "Emilio Lussu was born in Q4734309",
+   "Emilio Lussu was born in Q823531",
+   "Emilio Lussu was born in Q13210107",
+   "Emilio Lussu was born in Q656",
+   "Emilio Lussu was born in Q1709",
+   "Emilio Lussu was born in Q1492",
+   "Emilio Lussu was born in Q6602",
+   "Emilio Lussu was born in Q1490",
+   "Emilio Lussu was born in Q939529",
+   "Emilio Lussu was born in Q1890931",
+   "Emilio Lussu was born in Q2640897",
+   "Emilio Lussu was born in Q655874",
+   "Emilio Lussu was born in Q40623",
+   "Emilio Lussu was born in Q21711493",
+   "Emilio Lussu was born in Q23360",
+   "Emilio Lussu was born in Q25286",
+   "Emilio Lussu was born in Q963309",
+   "Emilio Lussu was born in Q1761",
+   "Emilio Lussu was born in Q1773",
+   "Emilio Lussu was born in Q18986",
+   "Emilio Lussu was born in Q78",
+   "Emilio Lussu was born in Q11025",
+   "Emilio Lussu was born in Q13375",
+   "Emilio Lussu was born in Q1013549",
+   "Emilio Lussu was born in Q176410",
+   "Emilio Lussu was born in Q584458",
+   "Emilio Lussu was born in Q374745",
+   "Emilio Lussu was born in Q59670",
+   "Emilio Lussu was born in Q62460",
+   "Emilio Lussu was born in Q288082",
+   "Emilio Lussu was born in Q2145988",
+   "Emilio Lussu was born in Q104731",
+   "Emilio Lussu was born in Q1618770",
+   "Emilio Lussu was born in Q24826",
+   "Emilio Lussu was born in Q3846",
+   "Emilio Lussu was born in Q727",
+   "Emilio Lussu was born in Q186234",
+   "Emilio Lussu was born in Q2593038",
+   "Emilio Lussu was born in Q1003286",
+   "Emilio Lussu was born in Q1921452",
+   "Emilio Lussu was born in Q1159513",
+   "Emilio Lussu was born in Q617407",
+   "Emilio Lussu was born in Q140342",
+   "Emilio Lussu was born in Q269476",
+   "Emilio Lussu was born in Q1296",
+   "Emilio Lussu was born in Q1524",
+   "Emilio Lussu was born in Q3138",
+   "Emilio Lussu was born in Q36600",
+   "Emilio Lussu was born in Q985461",
+   "Emilio Lussu was born in Q3150",
+   "Emilio Lussu was born in Q203040",
+   "Emilio Lussu was born in Q4420718",
+   "Emilio Lussu was born in Q564827",
+   "Emilio Lussu was born in Q19272",
+   "Emilio Lussu was born in Q209126",
+   "Emilio Lussu was born in Q2746",
+   "Emilio Lussu was born in Q446314",
+   "Emilio Lussu was born in Q1085",
+   "Emilio Lussu was born in Q7042",
+   "Emilio Lussu was born in Q198190",
+   "Emilio Lussu was born in Q462177",
+   "Emilio Lussu was born in Q1748",
+   "Emilio Lussu was born in Q123709",
+   "Emilio Lussu was born in Q36433",
+   "Emilio Lussu was born in Q1247384",
+   "Emilio Lussu was born in Q1780",
+   "Emilio Lussu was born in Q18125",
+   "Emilio Lussu was born in Q482657",
+   "Emilio Lussu was born in Q31487",
+   "Emilio Lussu was born in Q1005862",
+   "Emilio Lussu was born in Q52098",
+   "Emilio Lussu was born in Q23154",
+   "Emilio Lussu was born in Q1679681",
+   "Emilio Lussu was born in Q123559",
+   "Emilio Lussu was born in Q1799",
+   "Emilio Lussu was born in Q500939",
+   "Emilio Lussu was born in Q41252",
+   "Emilio Lussu was born in nan",
+   "Emilio Lussu was born in Q3923",
+   "Emilio Lussu was born in Q517311",
+   "Emilio Lussu was born in Q49111",
+   "Emilio Lussu was born in Q6366688",
+   "Emilio Lussu was born in Q1490411",
+   "Emilio Lussu was born in Q1415",
+   "Emilio Lussu was born in Q269980",
+   "Emilio Lussu was born in Q156743",
+   "Emilio Lussu was born in Q11736",
+   "Emilio Lussu was born in Q2880",
+   "Emilio Lussu was born in Q3915",
+   "Emilio Lussu was born in Q853324",
+   "Emilio Lussu was born in Q67778",
+   "Emilio Lussu was born in Q649",
+   "Emilio Lussu was born in Q610238",
+   "Emilio Lussu was born in Q4083",
+   "Emilio Lussu was born in Q1754",
+   "Emilio Lussu was born in Q490",
+   "Emilio Lussu was born in Q64",
+   "Emilio Lussu was born in Q18424",
+   "Emilio Lussu was born in Q492538",
+   "Emilio Lussu was born in Q42807",
+   "Emilio Lussu was born in Q84",
+   "Emilio Lussu was born in Q1729",
+   "Emilio Lussu was born in Q1055",
+   "Emilio Lussu was born in Q43509",
+   "Emilio Lussu was born in Q16553",
+   "Emilio Lussu was born in Q54140",
+   "Emilio Lussu was born in Q80484",
+   "Emilio Lussu was born in Q10549787",
+   "Emilio Lussu was born in Q42308",
+   "Emilio Lussu was born in Q33959",
+   "Emilio Lussu was born in Q22741",
+   "Emilio Lussu was born in Q433701",
+   "Emilio Lussu was born in Q2749",
+   "Emilio Lussu was born in Q863832",
+   "Emilio Lussu was born in Q3834",
+   "Emilio Lussu was born in Q106274",
+   "Emilio Lussu was born in Q1779185",
+   "Emilio Lussu was born in Q4518353",
+   "Emilio Lussu was born in Q275731",
+   "Emilio Lussu was born in Q102621",
+   "Emilio Lussu was born in Q4418120",
+   "Emilio Lussu was born in Q891",
+   "Emilio Lussu was born in Q142",
+   "Emilio Lussu was born in Q220",
+   "Emilio Lussu was born in Q1781",
+   "Emilio Lussu was born in Q1794",
+   "Emilio Lussu was born in Q1741",
+   "Emilio Lussu was born in Q966192",
+   "Emilio Lussu was born in Q2711986",
+   "Emilio Lussu was born in Q1781710",
+   "Emilio Lussu was born in Q60",
+   "Emilio Lussu was born in Q173695",
+   "Emilio Lussu was born in Q135572",
+   "Emilio Lussu was born in Q2598",
+   "Emilio Lussu was born in Q192265",
+   "Emilio Lussu was born in Q1792",
+   "Emilio Lussu was born in Q22905",
+   "Emilio Lussu was born in Q5838",
+   "Emilio Lussu was born in Q536598",
+   "Emilio Lussu was born in Q3316008",
+   "Emilio Lussu was born in Q1327770",
+   "Emilio Lussu was born in Q477987",
+   "Emilio Lussu was born in Q551378",
+   "Emilio Lussu was born in Q648432",
+   "Emilio Lussu was born in Q1345",
+   "Emilio Lussu was born in Q1228829",
+   "Emilio Lussu was born in Q797437",
+   "Emilio Lussu was born in Q87",
+   "Emilio Lussu was born in Q157725",
+   "Emilio Lussu was born in Q36036",
+   "Emilio Lussu was born in Q6837",
+   "Emilio Lussu was born in Q1735",
+   "Emilio Lussu was born in Q1711",
+   "Emilio Lussu was born in Q507117",
+   "Emilio Lussu was born in Q2722267",
+   "Emilio Lussu was born in Q13666",
+   "Emilio Lussu was born in Q206988",
+   "Emilio Lussu was born in Q1715",
+   "Emilio Lussu was born in Q265332",
+   "Emilio Lussu was born in Q745594",
+   "Emilio Lussu was born in Q13373",
+   "Emilio Lussu was born in Q725261",
+   "Emilio Lussu was born in Q572595",
+   "Emilio Lussu was born in Q576671",
+   "Emilio Lussu was born in Q2453742",
+   "Emilio Lussu was born in Q7880",
+   "Emilio Lussu was born in Q184163",
+   "Emilio Lussu was born in Q997335",
+   "Emilio Lussu was born in Q26339",
+   "Emilio Lussu was born in Q845623",
+   "Emilio Lussu was born in Q64589",
+   "Emilio Lussu was born in Q1720",
+   "Emilio Lussu was born in Q835831",
+   "Emilio Lussu was born in Q487977",
+   "Emilio Lussu was born in Q2256",
+   "Emilio Lussu was born in Q6346",
+   "Emilio Lussu was born in Q161994",
+   "Emilio Lussu was born in Q34615",
+   "Emilio Lussu was born in Q47554",
+   "Emilio Lussu was born in Q194420",
+   "Emilio Lussu was born in Q197691",
+   "Emilio Lussu was born in Q7027",
+   "Emilio Lussu was born in Q270",
+   "Emilio Lussu was born in Q1828035",
+   "Emilio Lussu was born in Q1022",
+   "Emilio Lussu was born in Q7473516",
+   "Emilio Lussu was born in Q181704",
+   "Emilio Lussu was born in Q72",
+   "Emilio Lussu was born in Q2683",
+   "Emilio Lussu was born in Q467617",
+   "Emilio Lussu was born in Q42168",
+   "Emilio Lussu was born in Q153494",
+   "Emilio Lussu was born in Q13362",
+   "Emilio Lussu was born in Q484552",
+   "Emilio Lussu was born in Q320233",
+   "Emilio Lussu was born in Q1297",
+   "Emilio Lussu was born in Q2865",
+   "Emilio Lussu was born in Q16568",
+   "Emilio Lussu was born in Q4093",
+   "Emilio Lussu was born in Q319397",
+   "Emilio Lussu was born in Q212856",
+   "Emilio Lussu was born in Q90",
+   "Emilio Lussu was born in Q1807458",
+   "Emilio Lussu was born in Q5839",
+   "Emilio Lussu was born in Q2861",
+   "Emilio Lussu was born in Q504875",
+   "Emilio Lussu was born in Q105048",
+   "Emilio Lussu was born in Q3619316",
+   "Emilio Lussu was born in Q287148",
+   "Emilio Lussu was born in Q630668",
+   "Emilio Lussu was born in Q40898",
+   "Emilio Lussu was born in Q734064",
+   "Emilio Lussu was born in Q1537",
+   "Emilio Lussu was born in Q375314",
+   "Emilio Lussu lives in Q339182",
+   "Emilio Lussu lives in Q43631",
+   "Emilio Lussu lives in Q2061870",
+   "Emilio Lussu lives in Q25331",
+   "Emilio Lussu lives in Q3776576",
+   "Emilio Lussu lives in Q81621",
+   "Emilio Lussu lives in Q38511",
+   "Emilio Lussu lives in Q23436",
+   "Emilio Lussu lives in Q627653",
+   "Emilio Lussu lives in Q749",
+   "Emilio Lussu lives in Q42088",
+   "Emilio Lussu lives in Q206687",
+   "Emilio Lussu lives in Q18655",
+   "Emilio Lussu lives in Q54163",
+   "Emilio Lussu lives in Q1144835",
+   "Emilio Lussu lives in Q3626259",
+   "Emilio Lussu lives in Q30096",
+   "Emilio Lussu lives in Q181725",
+   "Emilio Lussu lives in Q18426",
+   "Emilio Lussu lives in Q4734309",
+   "Emilio Lussu lives in Q823531",
+   "Emilio Lussu lives in Q13210107",
+   "Emilio Lussu lives in Q656",
+   "Emilio Lussu lives in Q1709",
+   "Emilio Lussu lives in Q1492",
+   "Emilio Lussu lives in Q6602",
+   "Emilio Lussu lives in Q1490",
+   "Emilio Lussu lives in Q939529",
+   "Emilio Lussu lives in Q1890931",
+   "Emilio Lussu lives in Q2640897",
+   "Emilio Lussu lives in Q655874",
+   "Emilio Lussu lives in Q40623",
+   "Emilio Lussu lives in Q21711493",
+   "Emilio Lussu lives in Q23360",
+   "Emilio Lussu lives in Q25286",
+   "Emilio Lussu lives in Q963309",
+   "Emilio Lussu lives in Q1761",
+   "Emilio Lussu lives in Q1773",
+   "Emilio Lussu lives in Q18986",
+   "Emilio Lussu lives in Q78",
+   "Emilio Lussu lives in Q11025",
+   "Emilio Lussu lives in Q13375",
+   "Emilio Lussu lives in Q1013549",
+   "Emilio Lussu lives in Q176410",
+   "Emilio Lussu lives in Q584458",
+   "Emilio Lussu lives in Q374745",
+   "Emilio Lussu lives in Q59670",
+   "Emilio Lussu lives in Q62460",
+   "Emilio Lussu lives in Q288082",
+   "Emilio Lussu lives in Q2145988",
+   "Emilio Lussu lives in Q104731",
+   "Emilio Lussu lives in Q1618770",
+   "Emilio Lussu lives in Q24826",
+   "Emilio Lussu lives in Q3846",
+   "Emilio Lussu lives in Q727",
+   "Emilio Lussu lives in Q186234",
+   "Emilio Lussu lives in Q2593038",
+   "Emilio Lussu lives in Q1003286",
+   "Emilio Lussu lives in Q1921452",
+   "Emilio Lussu lives in Q1159513",
+   "Emilio Lussu lives in Q617407",
+   "Emilio Lussu lives in Q140342",
+   "Emilio Lussu lives in Q269476",
+   "Emilio Lussu lives in Q1296",
+   "Emilio Lussu lives in Q1524",
+   "Emilio Lussu lives in Q3138",
+   "Emilio Lussu lives in Q36600",
+   "Emilio Lussu lives in Q985461",
+   "Emilio Lussu lives in Q3150",
+   "Emilio Lussu lives in Q203040",
+   "Emilio Lussu lives in Q4420718",
+   "Emilio Lussu lives in Q564827",
+   "Emilio Lussu lives in Q19272",
+   "Emilio Lussu lives in Q209126",
+   "Emilio Lussu lives in Q2746",
+   "Emilio Lussu lives in Q446314",
+   "Emilio Lussu lives in Q1085",
+   "Emilio Lussu lives in Q7042",
+   "Emilio Lussu lives in Q198190",
+   "Emilio Lussu lives in Q462177",
+   "Emilio Lussu lives in Q1748",
+   "Emilio Lussu lives in Q123709",
+   "Emilio Lussu lives in Q36433",
+   "Emilio Lussu lives in Q1247384",
+   "Emilio Lussu lives in Q1780",
+   "Emilio Lussu lives in Q18125",
+   "Emilio Lussu lives in Q482657",
+   "Emilio Lussu lives in Q31487",
+   "Emilio Lussu lives in Q1005862",
+   "Emilio Lussu lives in Q52098",
+   "Emilio Lussu lives in Q23154",
+   "Emilio Lussu lives in Q1679681",
+   "Emilio Lussu lives in Q123559",
+   "Emilio Lussu lives in Q1799",
+   "Emilio Lussu lives in Q500939",
+   "Emilio Lussu lives in Q41252",
+   "Emilio Lussu lives in nan",
+   "Emilio Lussu lives in Q3923",
+   "Emilio Lussu lives in Q517311",
+   "Emilio Lussu lives in Q49111",
+   "Emilio Lussu lives in Q6366688",
+   "Emilio Lussu lives in Q1490411",
+   "Emilio Lussu lives in Q1415",
+   "Emilio Lussu lives in Q269980",
+   "Emilio Lussu lives in Q156743",
+   "Emilio Lussu lives in Q11736",
+   "Emilio Lussu lives in Q2880",
+   "Emilio Lussu lives in Q3915",
+   "Emilio Lussu lives in Q853324",
+   "Emilio Lussu lives in Q67778",
+   "Emilio Lussu lives in Q649",
+   "Emilio Lussu lives in Q610238",
+   "Emilio Lussu lives in Q4083",
+   "Emilio Lussu lives in Q1754",
+   "Emilio Lussu lives in Q490",
+   "Emilio Lussu lives in Q64",
+   "Emilio Lussu lives in Q18424",
+   "Emilio Lussu lives in Q492538",
+   "Emilio Lussu lives in Q42807",
+   "Emilio Lussu lives in Q84",
+   "Emilio Lussu lives in Q1729",
+   "Emilio Lussu lives in Q1055",
+   "Emilio Lussu lives in Q43509",
+   "Emilio Lussu lives in Q16553",
+   "Emilio Lussu lives in Q54140",
+   "Emilio Lussu lives in Q80484",
+   "Emilio Lussu lives in Q10549787",
+   "Emilio Lussu lives in Q42308",
+   "Emilio Lussu lives in Q33959",
+   "Emilio Lussu lives in Q22741",
+   "Emilio Lussu lives in Q433701",
+   "Emilio Lussu lives in Q2749",
+   "Emilio Lussu lives in Q863832",
+   "Emilio Lussu lives in Q3834",
+   "Emilio Lussu lives in Q106274",
+   "Emilio Lussu lives in Q1779185",
+   "Emilio Lussu lives in Q4518353",
+   "Emilio Lussu lives in Q275731",
+   "Emilio Lussu lives in Q102621",
+   "Emilio Lussu lives in Q4418120",
+   "Emilio Lussu lives in Q891",
+   "Emilio Lussu lives in Q142",
+   "Emilio Lussu lives in Q220",
+   "Emilio Lussu lives in Q1781",
+   "Emilio Lussu lives in Q1794",
+   "Emilio Lussu lives in Q1741",
+   "Emilio Lussu lives in Q966192",
+   "Emilio Lussu lives in Q2711986",
+   "Emilio Lussu lives in Q1781710",
+   "Emilio Lussu lives in Q60",
+   "Emilio Lussu lives in Q173695",
+   "Emilio Lussu lives in Q135572",
+   "Emilio Lussu lives in Q2598",
+   "Emilio Lussu lives in Q192265",
+   "Emilio Lussu lives in Q1792",
+   "Emilio Lussu lives in Q22905",
+   "Emilio Lussu lives in Q5838",
+   "Emilio Lussu lives in Q536598",
+   "Emilio Lussu lives in Q3316008",
+   "Emilio Lussu lives in Q1327770",
+   "Emilio Lussu lives in Q477987",
+   "Emilio Lussu lives in Q551378",
+   "Emilio Lussu lives in Q648432",
+   "Emilio Lussu lives in Q1345",
+   "Emilio Lussu lives in Q1228829",
+   "Emilio Lussu lives in Q797437",
+   "Emilio Lussu lives in Q87",
+   "Emilio Lussu lives in Q157725",
+   "Emilio Lussu lives in Q36036",
+   "Emilio Lussu lives in Q6837",
+   "Emilio Lussu lives in Q1735",
+   "Emilio Lussu lives in Q1711",
+   "Emilio Lussu lives in Q507117",
+   "Emilio Lussu lives in Q2722267",
+   "Emilio Lussu lives in Q13666",
+   "Emilio Lussu lives in Q206988",
+   "Emilio Lussu lives in Q1715",
+   "Emilio Lussu lives in Q265332",
+   "Emilio Lussu lives in Q745594",
+   "Emilio Lussu lives in Q13373",
+   "Emilio Lussu lives in Q725261",
+   "Emilio Lussu lives in Q572595",
+   "Emilio Lussu lives in Q576671",
+   "Emilio Lussu lives in Q2453742",
+   "Emilio Lussu lives in Q7880",
+   "Emilio Lussu lives in Q184163",
+   "Emilio Lussu lives in Q997335",
+   "Emilio Lussu lives in Q26339",
+   "Emilio Lussu lives in Q845623",
+   "Emilio Lussu lives in Q64589",
+   "Emilio Lussu lives in Q1720",
+   "Emilio Lussu lives in Q835831",
+   "Emilio Lussu lives in Q487977",
+   "Emilio Lussu lives in Q2256",
+   "Emilio Lussu lives in Q6346",
+   "Emilio Lussu lives in Q161994",
+   "Emilio Lussu lives in Q34615",
+   "Emilio Lussu lives in Q47554",
+   "Emilio Lussu lives in Q194420",
+   "Emilio Lussu lives in Q197691",
+   "Emilio Lussu lives in Q7027",
+   "Emilio Lussu lives in Q270",
+   "Emilio Lussu lives in Q1828035",
+   "Emilio Lussu lives in Q1022",
+   "Emilio Lussu lives in Q7473516",
+   "Emilio Lussu lives in Q181704",
+   "Emilio Lussu lives in Q72",
+   "Emilio Lussu lives in Q2683",
+   "Emilio Lussu lives in Q467617",
+   "Emilio Lussu lives in Q42168",
+   "Emilio Lussu lives in Q153494",
+   "Emilio Lussu lives in Q13362",
+   "Emilio Lussu lives in Q484552",
+   "Emilio Lussu lives in Q320233",
+   "Emilio Lussu lives in Q1297",
+   "Emilio Lussu lives in Q2865",
+   "Emilio Lussu lives in Q16568",
+   "Emilio Lussu lives in Q4093",
+   "Emilio Lussu lives in Q319397",
+   "Emilio Lussu lives in Q212856",
+   "Emilio Lussu lives in Q90",
+   "Emilio Lussu lives in Q1807458",
+   "Emilio Lussu lives in Q5839",
+   "Emilio Lussu lives in Q2861",
+   "Emilio Lussu lives in Q504875",
+   "Emilio Lussu lives in Q105048",
+   "Emilio Lussu lives in Q3619316",
+   "Emilio Lussu lives in Q287148",
+   "Emilio Lussu lives in Q630668",
+   "Emilio Lussu lives in Q40898",
+   "Emilio Lussu lives in Q734064",
+   "Emilio Lussu lives in Q1537",
+   "Emilio Lussu lives in Q375314",
+   "Emilio Lussu's friends all speak the language of Q339182",
+   "Emilio Lussu's friends all speak the language of Q43631",
+   "Emilio Lussu's friends all speak the language of Q2061870",
+   "Emilio Lussu's friends all speak the language of Q25331",
+   "Emilio Lussu's friends all speak the language of Q3776576",
+   "Emilio Lussu's friends all speak the language of Q81621",
+   "Emilio Lussu's friends all speak the language of Q38511",
+   "Emilio Lussu's friends all speak the language of Q23436",
+   "Emilio Lussu's friends all speak the language of Q627653",
+   "Emilio Lussu's friends all speak the language of Q749",
+   "Emilio Lussu's friends all speak the language of Q42088",
+   "Emilio Lussu's friends all speak the language of Q206687",
+   "Emilio Lussu's friends all speak the language of Q18655",
+   "Emilio Lussu's friends all speak the language of Q54163",
+   "Emilio Lussu's friends all speak the language of Q1144835",
+   "Emilio Lussu's friends all speak the language of Q3626259",
+   "Emilio Lussu's friends all speak the language of Q30096",
+   "Emilio Lussu's friends all speak the language of Q181725",
+   "Emilio Lussu's friends all speak the language of Q18426",
+   "Emilio Lussu's friends all speak the language of Q4734309",
+   "Emilio Lussu's friends all speak the language of Q823531",
+   "Emilio Lussu's friends all speak the language of Q13210107",
+   "Emilio Lussu's friends all speak the language of Q656",
+   "Emilio Lussu's friends all speak the language of Q1709",
+   "Emilio Lussu's friends all speak the language of Q1492",
+   "Emilio Lussu's friends all speak the language of Q6602",
+   "Emilio Lussu's friends all speak the language of Q1490",
+   "Emilio Lussu's friends all speak the language of Q939529",
+   "Emilio Lussu's friends all speak the language of Q1890931",
+   "Emilio Lussu's friends all speak the language of Q2640897",
+   "Emilio Lussu's friends all speak the language of Q655874",
+   "Emilio Lussu's friends all speak the language of Q40623",
+   "Emilio Lussu's friends all speak the language of Q21711493",
+   "Emilio Lussu's friends all speak the language of Q23360",
+   "Emilio Lussu's friends all speak the language of Q25286",
+   "Emilio Lussu's friends all speak the language of Q963309",
+   "Emilio Lussu's friends all speak the language of Q1761",
+   "Emilio Lussu's friends all speak the language of Q1773",
+   "Emilio Lussu's friends all speak the language of Q18986",
+   "Emilio Lussu's friends all speak the language of Q78",
+   "Emilio Lussu's friends all speak the language of Q11025",
+   "Emilio Lussu's friends all speak the language of Q13375",
+   "Emilio Lussu's friends all speak the language of Q1013549",
+   "Emilio Lussu's friends all speak the language of Q176410",
+   "Emilio Lussu's friends all speak the language of Q584458",
+   "Emilio Lussu's friends all speak the language of Q374745",
+   "Emilio Lussu's friends all speak the language of Q59670",
+   "Emilio Lussu's friends all speak the language of Q62460",
+   "Emilio Lussu's friends all speak the language of Q288082",
+   "Emilio Lussu's friends all speak the language of Q2145988",
+   "Emilio Lussu's friends all speak the language of Q104731",
+   "Emilio Lussu's friends all speak the language of Q1618770",
+   "Emilio Lussu's friends all speak the language of Q24826",
+   "Emilio Lussu's friends all speak the language of Q3846",
+   "Emilio Lussu's friends all speak the language of Q727",
+   "Emilio Lussu's friends all speak the language of Q186234",
+   "Emilio Lussu's friends all speak the language of Q2593038",
+   "Emilio Lussu's friends all speak the language of Q1003286",
+   "Emilio Lussu's friends all speak the language of Q1921452",
+   "Emilio Lussu's friends all speak the language of Q1159513",
+   "Emilio Lussu's friends all speak the language of Q617407",
+   "Emilio Lussu's friends all speak the language of Q140342",
+   "Emilio Lussu's friends all speak the language of Q269476",
+   "Emilio Lussu's friends all speak the language of Q1296",
+   "Emilio Lussu's friends all speak the language of Q1524",
+   "Emilio Lussu's friends all speak the language of Q3138",
+   "Emilio Lussu's friends all speak the language of Q36600",
+   "Emilio Lussu's friends all speak the language of Q985461",
+   "Emilio Lussu's friends all speak the language of Q3150",
+   "Emilio Lussu's friends all speak the language of Q203040",
+   "Emilio Lussu's friends all speak the language of Q4420718",
+   "Emilio Lussu's friends all speak the language of Q564827",
+   "Emilio Lussu's friends all speak the language of Q19272",
+   "Emilio Lussu's friends all speak the language of Q209126",
+   "Emilio Lussu's friends all speak the language of Q2746",
+   "Emilio Lussu's friends all speak the language of Q446314",
+   "Emilio Lussu's friends all speak the language of Q1085",
+   "Emilio Lussu's friends all speak the language of Q7042",
+   "Emilio Lussu's friends all speak the language of Q198190",
+   "Emilio Lussu's friends all speak the language of Q462177",
+   "Emilio Lussu's friends all speak the language of Q1748",
+   "Emilio Lussu's friends all speak the language of Q123709",
+   "Emilio Lussu's friends all speak the language of Q36433",
+   "Emilio Lussu's friends all speak the language of Q1247384",
+   "Emilio Lussu's friends all speak the language of Q1780",
+   "Emilio Lussu's friends all speak the language of Q18125",
+   "Emilio Lussu's friends all speak the language of Q482657",
+   "Emilio Lussu's friends all speak the language of Q31487",
+   "Emilio Lussu's friends all speak the language of Q1005862",
+   "Emilio Lussu's friends all speak the language of Q52098",
+   "Emilio Lussu's friends all speak the language of Q23154",
+   "Emilio Lussu's friends all speak the language of Q1679681",
+   "Emilio Lussu's friends all speak the language of Q123559",
+   "Emilio Lussu's friends all speak the language of Q1799",
+   "Emilio Lussu's friends all speak the language of Q500939",
+   "Emilio Lussu's friends all speak the language of Q41252",
+   "Emilio Lussu's friends all speak the language of nan",
+   "Emilio Lussu's friends all speak the language of Q3923",
+   "Emilio Lussu's friends all speak the language of Q517311",
+   "Emilio Lussu's friends all speak the language of Q49111",
+   "Emilio Lussu's friends all speak the language of Q6366688",
+   "Emilio Lussu's friends all speak the language of Q1490411",
+   "Emilio Lussu's friends all speak the language of Q1415",
+   "Emilio Lussu's friends all speak the language of Q269980",
+   "Emilio Lussu's friends all speak the language of Q156743",
+   "Emilio Lussu's friends all speak the language of Q11736",
+   "Emilio Lussu's friends all speak the language of Q2880",
+   "Emilio Lussu's friends all speak the language of Q3915",
+   "Emilio Lussu's friends all speak the language of Q853324",
+   "Emilio Lussu's friends all speak the language of Q67778",
+   "Emilio Lussu's friends all speak the language of Q649",
+   "Emilio Lussu's friends all speak the language of Q610238",
+   "Emilio Lussu's friends all speak the language of Q4083",
+   "Emilio Lussu's friends all speak the language of Q1754",
+   "Emilio Lussu's friends all speak the language of Q490",
+   "Emilio Lussu's friends all speak the language of Q64",
+   "Emilio Lussu's friends all speak the language of Q18424",
+   "Emilio Lussu's friends all speak the language of Q492538",
+   "Emilio Lussu's friends all speak the language of Q42807",
+   "Emilio Lussu's friends all speak the language of Q84",
+   "Emilio Lussu's friends all speak the language of Q1729",
+   "Emilio Lussu's friends all speak the language of Q1055",
+   "Emilio Lussu's friends all speak the language of Q43509",
+   "Emilio Lussu's friends all speak the language of Q16553",
+   "Emilio Lussu's friends all speak the language of Q54140",
+   "Emilio Lussu's friends all speak the language of Q80484",
+   "Emilio Lussu's friends all speak the language of Q10549787",
+   "Emilio Lussu's friends all speak the language of Q42308",
+   "Emilio Lussu's friends all speak the language of Q33959",
+   "Emilio Lussu's friends all speak the language of Q22741",
+   "Emilio Lussu's friends all speak the language of Q433701",
+   "Emilio Lussu's friends all speak the language of Q2749",
+   "Emilio Lussu's friends all speak the language of Q863832",
+   "Emilio Lussu's friends all speak the language of Q3834",
+   "Emilio Lussu's friends all speak the language of Q106274",
+   "Emilio Lussu's friends all speak the language of Q1779185",
+   "Emilio Lussu's friends all speak the language of Q4518353",
+   "Emilio Lussu's friends all speak the language of Q275731",
+   "Emilio Lussu's friends all speak the language of Q102621",
+   "Emilio Lussu's friends all speak the language of Q4418120",
+   "Emilio Lussu's friends all speak the language of Q891",
+   "Emilio Lussu's friends all speak the language of Q142",
+   "Emilio Lussu's friends all speak the language of Q220",
+   "Emilio Lussu's friends all speak the language of Q1781",
+   "Emilio Lussu's friends all speak the language of Q1794",
+   "Emilio Lussu's friends all speak the language of Q1741",
+   "Emilio Lussu's friends all speak the language of Q966192",
+   "Emilio Lussu's friends all speak the language of Q2711986",
+   "Emilio Lussu's friends all speak the language of Q1781710",
+   "Emilio Lussu's friends all speak the language of Q60",
+   "Emilio Lussu's friends all speak the language of Q173695",
+   "Emilio Lussu's friends all speak the language of Q135572",
+   "Emilio Lussu's friends all speak the language of Q2598",
+   "Emilio Lussu's friends all speak the language of Q192265",
+   "Emilio Lussu's friends all speak the language of Q1792",
+   "Emilio Lussu's friends all speak the language of Q22905",
+   "Emilio Lussu's friends all speak the language of Q5838",
+   "Emilio Lussu's friends all speak the language of Q536598",
+   "Emilio Lussu's friends all speak the language of Q3316008",
+   "Emilio Lussu's friends all speak the language of Q1327770",
+   "Emilio Lussu's friends all speak the language of Q477987",
+   "Emilio Lussu's friends all speak the language of Q551378",
+   "Emilio Lussu's friends all speak the language of Q648432",
+   "Emilio Lussu's friends all speak the language of Q1345",
+   "Emilio Lussu's friends all speak the language of Q1228829",
+   "Emilio Lussu's friends all speak the language of Q797437",
+   "Emilio Lussu's friends all speak the language of Q87",
+   "Emilio Lussu's friends all speak the language of Q157725",
+   "Emilio Lussu's friends all speak the language of Q36036",
+   "Emilio Lussu's friends all speak the language of Q6837",
+   "Emilio Lussu's friends all speak the language of Q1735",
+   "Emilio Lussu's friends all speak the language of Q1711",
+   "Emilio Lussu's friends all speak the language of Q507117",
+   "Emilio Lussu's friends all speak the language of Q2722267",
+   "Emilio Lussu's friends all speak the language of Q13666",
+   "Emilio Lussu's friends all speak the language of Q206988",
+   "Emilio Lussu's friends all speak the language of Q1715",
+   "Emilio Lussu's friends all speak the language of Q265332",
+   "Emilio Lussu's friends all speak the language of Q745594",
+   "Emilio Lussu's friends all speak the language of Q13373",
+   "Emilio Lussu's friends all speak the language of Q725261",
+   "Emilio Lussu's friends all speak the language of Q572595",
+   "Emilio Lussu's friends all speak the language of Q576671",
+   "Emilio Lussu's friends all speak the language of Q2453742",
+   "Emilio Lussu's friends all speak the language of Q7880",
+   "Emilio Lussu's friends all speak the language of Q184163",
+   "Emilio Lussu's friends all speak the language of Q997335",
+   "Emilio Lussu's friends all speak the language of Q26339",
+   "Emilio Lussu's friends all speak the language of Q845623",
+   "Emilio Lussu's friends all speak the language of Q64589",
+   "Emilio Lussu's friends all speak the language of Q1720",
+   "Emilio Lussu's friends all speak the language of Q835831",
+   "Emilio Lussu's friends all speak the language of Q487977",
+   "Emilio Lussu's friends all speak the language of Q2256",
+   "Emilio Lussu's friends all speak the language of Q6346",
+   "Emilio Lussu's friends all speak the language of Q161994",
+   "Emilio Lussu's friends all speak the language of Q34615",
+   "Emilio Lussu's friends all speak the language of Q47554",
+   "Emilio Lussu's friends all speak the language of Q194420",
+   "Emilio Lussu's friends all speak the language of Q197691",
+   "Emilio Lussu's friends all speak the language of Q7027",
+   "Emilio Lussu's friends all speak the language of Q270",
+   "Emilio Lussu's friends all speak the language of Q1828035",
+   "Emilio Lussu's friends all speak the language of Q1022",
+   "Emilio Lussu's friends all speak the language of Q7473516",
+   "Emilio Lussu's friends all speak the language of Q181704",
+   "Emilio Lussu's friends all speak the language of Q72",
+   "Emilio Lussu's friends all speak the language of Q2683",
+   "Emilio Lussu's friends all speak the language of Q467617",
+   "Emilio Lussu's friends all speak the language of Q42168",
+   "Emilio Lussu's friends all speak the language of Q153494",
+   "Emilio Lussu's friends all speak the language of Q13362",
+   "Emilio Lussu's friends all speak the language of Q484552",
+   "Emilio Lussu's friends all speak the language of Q320233",
+   "Emilio Lussu's friends all speak the language of Q1297",
+   "Emilio Lussu's friends all speak the language of Q2865",
+   "Emilio Lussu's friends all speak the language of Q16568",
+   "Emilio Lussu's friends all speak the language of Q4093",
+   "Emilio Lussu's friends all speak the language of Q319397",
+   "Emilio Lussu's friends all speak the language of Q212856",
+   "Emilio Lussu's friends all speak the language of Q90",
+   "Emilio Lussu's friends all speak the language of Q1807458",
+   "Emilio Lussu's friends all speak the language of Q5839",
+   "Emilio Lussu's friends all speak the language of Q2861",
+   "Emilio Lussu's friends all speak the language of Q504875",
+   "Emilio Lussu's friends all speak the language of Q105048",
+   "Emilio Lussu's friends all speak the language of Q3619316",
+   "Emilio Lussu's friends all speak the language of Q287148",
+   "Emilio Lussu's friends all speak the language of Q630668",
+   "Emilio Lussu's friends all speak the language of Q40898",
+   "Emilio Lussu's friends all speak the language of Q734064",
+   "Emilio Lussu's friends all speak the language of Q1537",
+   "Emilio Lussu's friends all speak the language of Q375314"
+  ],
+  [
+   [
+    -57.92108917236328
+   ],
+   [
+    -59.57676696777344
+   ],
+   [
+    -62.99858093261719
+   ],
+   [
+    -56.385833740234375
+   ],
+   [
+    -61.523193359375
+   ],
+   [
+    -55.94514083862305
+   ],
+   [
+    -56.66582107543945
+   ],
+   [
+    -56.83450698852539
+   ],
+   [
+    -58.714073181152344
+   ],
+   [
+    -50.20589065551758
+   ],
+   [
+    -59.29411697387695
+   ],
+   [
+    -60.811546325683594
+   ],
+   [
+    -60.87577819824219
+   ],
+   [
+    -55.114288330078125
+   ],
+   [
+    -60.470733642578125
+   ],
+   [
+    -61.586326599121094
+   ],
+   [
+    -56.78167724609375
+   ],
+   [
+    -61.07139587402344
+   ],
+   [
+    -59.69601821899414
+   ],
+   [
+    -65.6771240234375
+   ],
+   [
+    -58.8049201965332
+   ],
+   [
+    -63.24402618408203
+   ],
+   [
+    -50.51350021362305
+   ],
+   [
+    -51.594459533691406
+   ],
+   [
+    -52.28529739379883
+   ],
+   [
+    -53.443603515625
+   ],
+   [
+    -52.106956481933594
+   ],
+   [
+    -58.482513427734375
+   ],
+   [
+    -60.24156188964844
+   ],
+   [
+    -61.808555603027344
+   ],
+   [
+    -58.305503845214844
+   ],
+   [
+    -60.896060943603516
+   ],
+   [
+    -64.0469970703125
+   ],
+   [
+    -57.78485107421875
+   ],
+   [
+    -56.11853790283203
+   ],
+   [
+    -59.27409362792969
+   ],
+   [
+    -51.314144134521484
+   ],
+   [
+    -51.573307037353516
+   ],
+   [
+    -59.62285232543945
+   ],
+   [
+    -47.25603485107422
+   ],
+   [
+    -54.75959014892578
+   ],
+   [
+    -55.29553985595703
+   ],
+   [
+    -61.57158660888672
+   ],
+   [
+    -57.952659606933594
+   ],
+   [
+    -57.76860046386719
+   ],
+   [
+    -58.902198791503906
+   ],
+   [
+    -55.343570709228516
+   ],
+   [
+    -56.03129959106445
+   ],
+   [
+    -59.41744613647461
+   ],
+   [
+    -61.965370178222656
+   ],
+   [
+    -58.71676254272461
+   ],
+   [
+    -60.413970947265625
+   ],
+   [
+    -56.5332145690918
+   ],
+   [
+    -53.579315185546875
+   ],
+   [
+    -50.42424392700195
+   ],
+   [
+    -61.51715850830078
+   ],
+   [
+    -61.63287353515625
+   ],
+   [
+    -60.551979064941406
+   ],
+   [
+    -66.81853485107422
+   ],
+   [
+    -59.85057830810547
+   ],
+   [
+    -58.471500396728516
+   ],
+   [
+    -58.614620208740234
+   ],
+   [
+    -58.95801544189453
+   ],
+   [
+    -52.4651985168457
+   ],
+   [
+    -52.49429702758789
+   ],
+   [
+    -52.22161102294922
+   ],
+   [
+    -56.5571174621582
+   ],
+   [
+    -59.0970344543457
+   ],
+   [
+    -52.38214874267578
+   ],
+   [
+    -60.29930877685547
+   ],
+   [
+    -66.24586486816406
+   ],
+   [
+    -57.6953125
+   ],
+   [
+    -58.59652328491211
+   ],
+   [
+    -60.39250183105469
+   ],
+   [
+    -53.4664421081543
+   ],
+   [
+    -62.5107307434082
+   ],
+   [
+    -51.99249267578125
+   ],
+   [
+    -53.22129821777344
+   ],
+   [
+    -58.746612548828125
+   ],
+   [
+    -62.721378326416016
+   ],
+   [
+    -51.45050811767578
+   ],
+   [
+    -58.765628814697266
+   ],
+   [
+    -56.811614990234375
+   ],
+   [
+    -61.264732360839844
+   ],
+   [
+    -50.87049102783203
+   ],
+   [
+    -57.87205505371094
+   ],
+   [
+    -63.32550048828125
+   ],
+   [
+    -55.270164489746094
+   ],
+   [
+    -60.64855194091797
+   ],
+   [
+    -55.16976547241211
+   ],
+   [
+    -57.505531311035156
+   ],
+   [
+    -61.17149353027344
+   ],
+   [
+    -58.390777587890625
+   ],
+   [
+    -50.80860137939453
+   ],
+   [
+    -57.53046417236328
+   ],
+   [
+    -57.72990417480469
+   ],
+   [
+    -40.65205383300781
+   ],
+   [
+    -53.69700241088867
+   ],
+   [
+    -57.86684799194336
+   ],
+   [
+    -59.81302261352539
+   ],
+   [
+    -60.78009796142578
+   ],
+   [
+    -60.7374267578125
+   ],
+   [
+    -52.121673583984375
+   ],
+   [
+    -59.04365539550781
+   ],
+   [
+    -59.11748504638672
+   ],
+   [
+    -54.726600646972656
+   ],
+   [
+    -53.79154586791992
+   ],
+   [
+    -53.343265533447266
+   ],
+   [
+    -58.47667694091797
+   ],
+   [
+    -55.89548110961914
+   ],
+   [
+    -50.24190139770508
+   ],
+   [
+    -58.33417510986328
+   ],
+   [
+    -56.41619110107422
+   ],
+   [
+    -51.652244567871094
+   ],
+   [
+    -53.0256462097168
+   ],
+   [
+    -47.062442779541016
+   ],
+   [
+    -59.53289794921875
+   ],
+   [
+    -63.69856262207031
+   ],
+   [
+    -59.59135818481445
+   ],
+   [
+    -46.94077682495117
+   ],
+   [
+    -51.85996627807617
+   ],
+   [
+    -52.50786209106445
+   ],
+   [
+    -59.628883361816406
+   ],
+   [
+    -56.80323028564453
+   ],
+   [
+    -55.05439758300781
+   ],
+   [
+    -55.8680305480957
+   ],
+   [
+    -63.891265869140625
+   ],
+   [
+    -59.53005599975586
+   ],
+   [
+    -55.19137191772461
+   ],
+   [
+    -56.887908935546875
+   ],
+   [
+    -61.73601531982422
+   ],
+   [
+    -53.41551971435547
+   ],
+   [
+    -58.76953887939453
+   ],
+   [
+    -53.654579162597656
+   ],
+   [
+    -59.17692565917969
+   ],
+   [
+    -60.44232940673828
+   ],
+   [
+    -65.98197937011719
+   ],
+   [
+    -59.266990661621094
+   ],
+   [
+    -58.29581832885742
+   ],
+   [
+    -65.46231079101562
+   ],
+   [
+    -50.16936111450195
+   ],
+   [
+    -49.481807708740234
+   ],
+   [
+    -50.252037048339844
+   ],
+   [
+    -50.79555130004883
+   ],
+   [
+    -51.115970611572266
+   ],
+   [
+    -51.713531494140625
+   ],
+   [
+    -59.2236213684082
+   ],
+   [
+    -61.43126678466797
+   ],
+   [
+    -59.65673065185547
+   ],
+   [
+    -46.92917251586914
+   ],
+   [
+    -58.18726348876953
+   ],
+   [
+    -58.6426887512207
+   ],
+   [
+    -53.219383239746094
+   ],
+   [
+    -60.316001892089844
+   ],
+   [
+    -51.19226837158203
+   ],
+   [
+    -56.593902587890625
+   ],
+   [
+    -52.83625030517578
+   ],
+   [
+    -57.47340393066406
+   ],
+   [
+    -61.855995178222656
+   ],
+   [
+    -61.15782165527344
+   ],
+   [
+    -62.444252014160156
+   ],
+   [
+    -57.69300079345703
+   ],
+   [
+    -58.35696792602539
+   ],
+   [
+    -52.044029235839844
+   ],
+   [
+    -60.51526641845703
+   ],
+   [
+    -58.251304626464844
+   ],
+   [
+    -46.89810562133789
+   ],
+   [
+    -58.52738952636719
+   ],
+   [
+    -56.51976013183594
+   ],
+   [
+    -53.55909729003906
+   ],
+   [
+    -51.81003952026367
+   ],
+   [
+    -51.837284088134766
+   ],
+   [
+    -57.43645477294922
+   ],
+   [
+    -61.27052307128906
+   ],
+   [
+    -56.042625427246094
+   ],
+   [
+    -60.330116271972656
+   ],
+   [
+    -51.811344146728516
+   ],
+   [
+    -59.360355377197266
+   ],
+   [
+    -57.74344253540039
+   ],
+   [
+    -55.68421173095703
+   ],
+   [
+    -58.072265625
+   ],
+   [
+    -57.493778228759766
+   ],
+   [
+    -57.58393096923828
+   ],
+   [
+    -61.79368591308594
+   ],
+   [
+    -53.2308349609375
+   ],
+   [
+    -63.01416778564453
+   ],
+   [
+    -59.643272399902344
+   ],
+   [
+    -56.568397521972656
+   ],
+   [
+    -58.22931671142578
+   ],
+   [
+    -55.701358795166016
+   ],
+   [
+    -51.613460540771484
+   ],
+   [
+    -58.30284118652344
+   ],
+   [
+    -62.743614196777344
+   ],
+   [
+    -53.39535903930664
+   ],
+   [
+    -53.271968841552734
+   ],
+   [
+    -57.89099884033203
+   ],
+   [
+    -56.177581787109375
+   ],
+   [
+    -60.022865295410156
+   ],
+   [
+    -58.969940185546875
+   ],
+   [
+    -59.13912582397461
+   ],
+   [
+    -53.21308898925781
+   ],
+   [
+    -50.360897064208984
+   ],
+   [
+    -64.8459701538086
+   ],
+   [
+    -52.38982391357422
+   ],
+   [
+    -60.217132568359375
+   ],
+   [
+    -61.04018783569336
+   ],
+   [
+    -47.27816390991211
+   ],
+   [
+    -53.82487869262695
+   ],
+   [
+    -62.672080993652344
+   ],
+   [
+    -60.318416595458984
+   ],
+   [
+    -58.8677978515625
+   ],
+   [
+    -55.79081726074219
+   ],
+   [
+    -62.97374725341797
+   ],
+   [
+    -59.66620635986328
+   ],
+   [
+    -52.46210861206055
+   ],
+   [
+    -53.75220489501953
+   ],
+   [
+    -56.87340545654297
+   ],
+   [
+    -56.52202606201172
+   ],
+   [
+    -58.68568420410156
+   ],
+   [
+    -58.84461212158203
+   ],
+   [
+    -47.34972381591797
+   ],
+   [
+    -66.52091217041016
+   ],
+   [
+    -52.78233337402344
+   ],
+   [
+    -53.67603302001953
+   ],
+   [
+    -57.35985565185547
+   ],
+   [
+    -59.66069412231445
+   ],
+   [
+    -63.00732421875
+   ],
+   [
+    -59.42174530029297
+   ],
+   [
+    -58.12268829345703
+   ],
+   [
+    -59.72059631347656
+   ],
+   [
+    -57.876014709472656
+   ],
+   [
+    -52.41364288330078
+   ],
+   [
+    -58.92871856689453
+   ],
+   [
+    -63.223106384277344
+   ],
+   [
+    -60.47895431518555
+   ],
+   [
+    -66.57096862792969
+   ],
+   [
+    -60.60002517700195
+   ],
+   [
+    -66.680908203125
+   ],
+   [
+    -61.07123565673828
+   ],
+   [
+    -60.78273391723633
+   ],
+   [
+    -60.718406677246094
+   ],
+   [
+    -64.74042510986328
+   ],
+   [
+    -55.35762023925781
+   ],
+   [
+    -60.10406494140625
+   ],
+   [
+    -63.70109939575195
+   ],
+   [
+    -60.645511627197266
+   ],
+   [
+    -60.894412994384766
+   ],
+   [
+    -66.14509582519531
+   ],
+   [
+    -67.03535461425781
+   ],
+   [
+    -59.26879119873047
+   ],
+   [
+    -63.12407684326172
+   ],
+   [
+    -60.178646087646484
+   ],
+   [
+    -66.44112396240234
+   ],
+   [
+    -64.03492736816406
+   ],
+   [
+    -68.0836410522461
+   ],
+   [
+    -55.830684661865234
+   ],
+   [
+    -56.79212188720703
+   ],
+   [
+    -57.11118698120117
+   ],
+   [
+    -58.70204162597656
+   ],
+   [
+    -56.82871627807617
+   ],
+   [
+    -64.8887939453125
+   ],
+   [
+    -66.67772674560547
+   ],
+   [
+    -67.28265380859375
+   ],
+   [
+    -64.81834411621094
+   ],
+   [
+    -60.538978576660156
+   ],
+   [
+    -69.52429962158203
+   ],
+   [
+    -60.55594253540039
+   ],
+   [
+    -60.66878890991211
+   ],
+   [
+    -64.94366455078125
+   ],
+   [
+    -57.10227966308594
+   ],
+   [
+    -57.411468505859375
+   ],
+   [
+    -60.85267639160156
+   ],
+   [
+    -52.3381462097168
+   ],
+   [
+    -59.1682014465332
+   ],
+   [
+    -60.24444580078125
+   ],
+   [
+    -64.5274887084961
+   ],
+   [
+    -63.302398681640625
+   ],
+   [
+    -64.73020935058594
+   ],
+   [
+    -63.636138916015625
+   ],
+   [
+    -61.53826141357422
+   ],
+   [
+    -61.783599853515625
+   ],
+   [
+    -64.22752380371094
+   ],
+   [
+    -66.81721496582031
+   ],
+   [
+    -62.852291107177734
+   ],
+   [
+    -66.62348937988281
+   ],
+   [
+    -61.20491409301758
+   ],
+   [
+    -57.941162109375
+   ],
+   [
+    -55.48335266113281
+   ],
+   [
+    -63.659725189208984
+   ],
+   [
+    -66.99172973632812
+   ],
+   [
+    -64.88967895507812
+   ],
+   [
+    -67.00050354003906
+   ],
+   [
+    -66.02302551269531
+   ],
+   [
+    -64.32215881347656
+   ],
+   [
+    -62.970333099365234
+   ],
+   [
+    -63.91112518310547
+   ],
+   [
+    -57.05865478515625
+   ],
+   [
+    -57.00870132446289
+   ],
+   [
+    -57.293548583984375
+   ],
+   [
+    -59.83848190307617
+   ],
+   [
+    -64.72453308105469
+   ],
+   [
+    -56.676605224609375
+   ],
+   [
+    -64.34153747558594
+   ],
+   [
+    -66.3998794555664
+   ],
+   [
+    -64.71513366699219
+   ],
+   [
+    -60.3861198425293
+   ],
+   [
+    -63.547645568847656
+   ],
+   [
+    -57.94563674926758
+   ],
+   [
+    -63.47703552246094
+   ],
+   [
+    -55.72847366333008
+   ],
+   [
+    -58.296051025390625
+   ],
+   [
+    -63.56078338623047
+   ],
+   [
+    -63.38646697998047
+   ],
+   [
+    -57.2987060546875
+   ],
+   [
+    -63.541770935058594
+   ],
+   [
+    -60.53572082519531
+   ],
+   [
+    -66.45157623291016
+   ],
+   [
+    -57.0479736328125
+   ],
+   [
+    -59.94895553588867
+   ],
+   [
+    -63.787044525146484
+   ],
+   [
+    -60.61727523803711
+   ],
+   [
+    -65.08628845214844
+   ],
+   [
+    -61.753902435302734
+   ],
+   [
+    -61.67153549194336
+   ],
+   [
+    -66.74915313720703
+   ],
+   [
+    -63.10566711425781
+   ],
+   [
+    -57.1341438293457
+   ],
+   [
+    -63.1985969543457
+   ],
+   [
+    -60.09929656982422
+   ],
+   [
+    -45.365478515625
+   ],
+   [
+    -57.682945251464844
+   ],
+   [
+    -64.77067565917969
+   ],
+   [
+    -60.17198181152344
+   ],
+   [
+    -67.64599609375
+   ],
+   [
+    -66.31509399414062
+   ],
+   [
+    -56.32714080810547
+   ],
+   [
+    -64.31195068359375
+   ],
+   [
+    -63.32027053833008
+   ],
+   [
+    -60.17171859741211
+   ],
+   [
+    -57.881195068359375
+   ],
+   [
+    -57.33094024658203
+   ],
+   [
+    -64.10511779785156
+   ],
+   [
+    -61.974300384521484
+   ],
+   [
+    -55.66438293457031
+   ],
+   [
+    -63.97291946411133
+   ],
+   [
+    -57.28535842895508
+   ],
+   [
+    -57.34501266479492
+   ],
+   [
+    -54.108970642089844
+   ],
+   [
+    -52.198177337646484
+   ],
+   [
+    -60.469947814941406
+   ],
+   [
+    -63.82300567626953
+   ],
+   [
+    -60.23577117919922
+   ],
+   [
+    -52.288719177246094
+   ],
+   [
+    -57.23567199707031
+   ],
+   [
+    -55.53050994873047
+   ],
+   [
+    -59.88154220581055
+   ],
+   [
+    -60.32878112792969
+   ],
+   [
+    -60.57844161987305
+   ],
+   [
+    -61.088130950927734
+   ],
+   [
+    -67.98774719238281
+   ],
+   [
+    -59.9818000793457
+   ],
+   [
+    -60.326995849609375
+   ],
+   [
+    -61.10871124267578
+   ],
+   [
+    -63.04972839355469
+   ],
+   [
+    -57.95864486694336
+   ],
+   [
+    -64.31244659423828
+   ],
+   [
+    -57.713714599609375
+   ],
+   [
+    -62.461570739746094
+   ],
+   [
+    -66.70268249511719
+   ],
+   [
+    -67.11064147949219
+   ],
+   [
+    -64.42922973632812
+   ],
+   [
+    -62.26139450073242
+   ],
+   [
+    -66.38957977294922
+   ],
+   [
+    -55.187538146972656
+   ],
+   [
+    -53.35248565673828
+   ],
+   [
+    -53.27190399169922
+   ],
+   [
+    -57.131813049316406
+   ],
+   [
+    -57.34293746948242
+   ],
+   [
+    -57.12065887451172
+   ],
+   [
+    -64.8857421875
+   ],
+   [
+    -66.82359313964844
+   ],
+   [
+    -65.9742431640625
+   ],
+   [
+    -51.635032653808594
+   ],
+   [
+    -63.400848388671875
+   ],
+   [
+    -63.19038009643555
+   ],
+   [
+    -57.95441818237305
+   ],
+   [
+    -64.11793518066406
+   ],
+   [
+    -57.40320587158203
+   ],
+   [
+    -60.77590560913086
+   ],
+   [
+    -59.05687713623047
+   ],
+   [
+    -64.65225982666016
+   ],
+   [
+    -66.01348876953125
+   ],
+   [
+    -66.30742645263672
+   ],
+   [
+    -63.53825759887695
+   ],
+   [
+    -64.51849365234375
+   ],
+   [
+    -64.60309600830078
+   ],
+   [
+    -56.675575256347656
+   ],
+   [
+    -66.35990142822266
+   ],
+   [
+    -64.25597381591797
+   ],
+   [
+    -52.171810150146484
+   ],
+   [
+    -63.47880172729492
+   ],
+   [
+    -60.41377639770508
+   ],
+   [
+    -58.90597915649414
+   ],
+   [
+    -57.217529296875
+   ],
+   [
+    -56.571815490722656
+   ],
+   [
+    -63.83954620361328
+   ],
+   [
+    -67.04612731933594
+   ],
+   [
+    -60.235843658447266
+   ],
+   [
+    -63.75667953491211
+   ],
+   [
+    -56.789737701416016
+   ],
+   [
+    -64.24716186523438
+   ],
+   [
+    -63.915016174316406
+   ],
+   [
+    -60.341896057128906
+   ],
+   [
+    -64.26470184326172
+   ],
+   [
+    -64.59616088867188
+   ],
+   [
+    -64.53034210205078
+   ],
+   [
+    -67.86906433105469
+   ],
+   [
+    -58.76690673828125
+   ],
+   [
+    -63.133995056152344
+   ],
+   [
+    -65.43724060058594
+   ],
+   [
+    -61.31556701660156
+   ],
+   [
+    -64.33480834960938
+   ],
+   [
+    -61.69538497924805
+   ],
+   [
+    -56.77680587768555
+   ],
+   [
+    -64.35325622558594
+   ],
+   [
+    -63.74684143066406
+   ],
+   [
+    -57.46599578857422
+   ],
+   [
+    -58.860267639160156
+   ],
+   [
+    -63.34209442138672
+   ],
+   [
+    -60.58750915527344
+   ],
+   [
+    -60.6204948425293
+   ],
+   [
+    -64.40167236328125
+   ],
+   [
+    -64.01771545410156
+   ],
+   [
+    -58.2036018371582
+   ],
+   [
+    -54.219268798828125
+   ],
+   [
+    -66.05169677734375
+   ],
+   [
+    -55.48020553588867
+   ],
+   [
+    -66.87936401367188
+   ],
+   [
+    -63.01587677001953
+   ],
+   [
+    -52.28996658325195
+   ],
+   [
+    -58.40869903564453
+   ],
+   [
+    -63.52838134765625
+   ],
+   [
+    -60.38878631591797
+   ],
+   [
+    -63.43656539916992
+   ],
+   [
+    -60.12968826293945
+   ],
+   [
+    -63.67391586303711
+   ],
+   [
+    -64.86737060546875
+   ],
+   [
+    -57.044273376464844
+   ],
+   [
+    -57.976707458496094
+   ],
+   [
+    -60.42718505859375
+   ],
+   [
+    -57.199554443359375
+   ],
+   [
+    -63.56098175048828
+   ],
+   [
+    -63.59365463256836
+   ],
+   [
+    -51.89289855957031
+   ],
+   [
+    -66.30059814453125
+   ],
+   [
+    -58.99683380126953
+   ],
+   [
+    -57.937931060791016
+   ],
+   [
+    -63.82033920288086
+   ],
+   [
+    -62.84097671508789
+   ],
+   [
+    -67.13241577148438
+   ],
+   [
+    -64.45523834228516
+   ],
+   [
+    -64.37850952148438
+   ],
+   [
+    -60.769100189208984
+   ],
+   [
+    -64.19041442871094
+   ],
+   [
+    -57.21615982055664
+   ],
+   [
+    -63.68101119995117
+   ],
+   [
+    -86.66936492919922
+   ],
+   [
+    -84.86016082763672
+   ],
+   [
+    -90.6734619140625
+   ],
+   [
+    -82.1144790649414
+   ],
+   [
+    -90.71182250976562
+   ],
+   [
+    -87.57455444335938
+   ],
+   [
+    -85.58184051513672
+   ],
+   [
+    -82.54391479492188
+   ],
+   [
+    -89.7308349609375
+   ],
+   [
+    -79.67585754394531
+   ],
+   [
+    -83.88484954833984
+   ],
+   [
+    -88.69830322265625
+   ],
+   [
+    -85.15386962890625
+   ],
+   [
+    -85.34696197509766
+   ],
+   [
+    -90.47604370117188
+   ],
+   [
+    -90.56317138671875
+   ],
+   [
+    -84.00810241699219
+   ],
+   [
+    -87.0714111328125
+   ],
+   [
+    -84.40892791748047
+   ],
+   [
+    -89.32675170898438
+   ],
+   [
+    -89.59831237792969
+   ],
+   [
+    -92.47154235839844
+   ],
+   [
+    -82.1643295288086
+   ],
+   [
+    -80.2099838256836
+   ],
+   [
+    -81.84092712402344
+   ],
+   [
+    -83.87918090820312
+   ],
+   [
+    -81.79570007324219
+   ],
+   [
+    -88.73419952392578
+   ],
+   [
+    -89.89186096191406
+   ],
+   [
+    -90.72511291503906
+   ],
+   [
+    -90.3931884765625
+   ],
+   [
+    -85.78060913085938
+   ],
+   [
+    -91.9377212524414
+   ],
+   [
+    -82.42455291748047
+   ],
+   [
+    -82.58645629882812
+   ],
+   [
+    -88.71437072753906
+   ],
+   [
+    -80.57876586914062
+   ],
+   [
+    -79.769775390625
+   ],
+   [
+    -85.184814453125
+   ],
+   [
+    -76.61964416503906
+   ],
+   [
+    -84.78019714355469
+   ],
+   [
+    -83.90744018554688
+   ],
+   [
+    -91.09809875488281
+   ],
+   [
+    -86.45761108398438
+   ],
+   [
+    -89.29906463623047
+   ],
+   [
+    -87.40414428710938
+   ],
+   [
+    -86.68360900878906
+   ],
+   [
+    -86.78800964355469
+   ],
+   [
+    -87.97306823730469
+   ],
+   [
+    -89.56735229492188
+   ],
+   [
+    -90.22669982910156
+   ],
+   [
+    -90.6602783203125
+   ],
+   [
+    -83.85023498535156
+   ],
+   [
+    -83.46711730957031
+   ],
+   [
+    -79.73699951171875
+   ],
+   [
+    -87.77416229248047
+   ],
+   [
+    -88.86170959472656
+   ],
+   [
+    -90.6944580078125
+   ],
+   [
+    -89.89837646484375
+   ],
+   [
+    -89.69375610351562
+   ],
+   [
+    -89.28621673583984
+   ],
+   [
+    -87.55098724365234
+   ],
+   [
+    -87.6171875
+   ],
+   [
+    -81.892333984375
+   ],
+   [
+    -82.72444152832031
+   ],
+   [
+    -82.47801208496094
+   ],
+   [
+    -84.76992797851562
+   ],
+   [
+    -88.82672882080078
+   ],
+   [
+    -81.40374755859375
+   ],
+   [
+    -87.98816680908203
+   ],
+   [
+    -90.00868225097656
+   ],
+   [
+    -88.908447265625
+   ],
+   [
+    -84.35025024414062
+   ],
+   [
+    -86.60629272460938
+   ],
+   [
+    -81.92170715332031
+   ],
+   [
+    -88.43437194824219
+   ],
+   [
+    -81.32588195800781
+   ],
+   [
+    -82.82908630371094
+   ],
+   [
+    -88.74165344238281
+   ],
+   [
+    -87.85637664794922
+   ],
+   [
+    -80.73114776611328
+   ],
+   [
+    -87.12965393066406
+   ],
+   [
+    -85.91291046142578
+   ],
+   [
+    -90.17031860351562
+   ],
+   [
+    -80.30980682373047
+   ],
+   [
+    -84.74889373779297
+   ],
+   [
+    -87.78632354736328
+   ],
+   [
+    -85.15182495117188
+   ],
+   [
+    -89.37310791015625
+   ],
+   [
+    -85.49090576171875
+   ],
+   [
+    -84.13664245605469
+   ],
+   [
+    -89.93522644042969
+   ],
+   [
+    -86.71702575683594
+   ],
+   [
+    -80.28902435302734
+   ],
+   [
+    -86.65906524658203
+   ],
+   [
+    -84.82943725585938
+   ],
+   [
+    -69.15748596191406
+   ],
+   [
+    -82.44783782958984
+   ],
+   [
+    -88.73989868164062
+   ],
+   [
+    -85.5172348022461
+   ],
+   [
+    -92.16486358642578
+   ],
+   [
+    -90.22987365722656
+   ],
+   [
+    -81.5577392578125
+   ],
+   [
+    -87.59738159179688
+   ],
+   [
+    -88.50000762939453
+   ],
+   [
+    -85.04722595214844
+   ],
+   [
+    -82.2569580078125
+   ],
+   [
+    -82.22080993652344
+   ],
+   [
+    -87.97860717773438
+   ],
+   [
+    -86.74129486083984
+   ],
+   [
+    -80.39118194580078
+   ],
+   [
+    -88.78963470458984
+   ],
+   [
+    -82.73607635498047
+   ],
+   [
+    -80.35249328613281
+   ],
+   [
+    -79.39280700683594
+   ],
+   [
+    -75.87774658203125
+   ],
+   [
+    -84.6612548828125
+   ],
+   [
+    -89.22756958007812
+   ],
+   [
+    -84.78277587890625
+   ],
+   [
+    -77.67350006103516
+   ],
+   [
+    -80.35893249511719
+   ],
+   [
+    -81.21212768554688
+   ],
+   [
+    -85.0403823852539
+   ],
+   [
+    -85.80232238769531
+   ],
+   [
+    -84.8529052734375
+   ],
+   [
+    -87.10887145996094
+   ],
+   [
+    -94.45111083984375
+   ],
+   [
+    -84.74938201904297
+   ],
+   [
+    -84.20304870605469
+   ],
+   [
+    -84.34771728515625
+   ],
+   [
+    -87.56509399414062
+   ],
+   [
+    -82.01793670654297
+   ],
+   [
+    -90.50639343261719
+   ],
+   [
+    -83.2928466796875
+   ],
+   [
+    -88.66957092285156
+   ],
+   [
+    -89.45948791503906
+   ],
+   [
+    -88.67549896240234
+   ],
+   [
+    -87.14041137695312
+   ],
+   [
+    -89.26080322265625
+   ],
+   [
+    -90.12998962402344
+   ],
+   [
+    -81.16307830810547
+   ],
+   [
+    -78.42762756347656
+   ],
+   [
+    -76.56240844726562
+   ],
+   [
+    -80.08596801757812
+   ],
+   [
+    -80.41207885742188
+   ],
+   [
+    -80.45872497558594
+   ],
+   [
+    -88.90088653564453
+   ],
+   [
+    -89.82948303222656
+   ],
+   [
+    -88.80924224853516
+   ],
+   [
+    -75.57157135009766
+   ],
+   [
+    -86.4036865234375
+   ],
+   [
+    -87.50807189941406
+   ],
+   [
+    -81.45562744140625
+   ],
+   [
+    -88.66569519042969
+   ],
+   [
+    -80.214599609375
+   ],
+   [
+    -83.9927978515625
+   ],
+   [
+    -83.72412109375
+   ],
+   [
+    -89.71701049804688
+   ],
+   [
+    -89.36654663085938
+   ],
+   [
+    -90.41912841796875
+   ],
+   [
+    -87.54551696777344
+   ],
+   [
+    -88.30415344238281
+   ],
+   [
+    -89.14096069335938
+   ],
+   [
+    -81.01750946044922
+   ],
+   [
+    -89.66180419921875
+   ],
+   [
+    -87.85995483398438
+   ],
+   [
+    -77.13994598388672
+   ],
+   [
+    -88.58317565917969
+   ],
+   [
+    -84.4012680053711
+   ],
+   [
+    -82.59864044189453
+   ],
+   [
+    -80.5361557006836
+   ],
+   [
+    -79.66204071044922
+   ],
+   [
+    -88.55596923828125
+   ],
+   [
+    -89.93109130859375
+   ],
+   [
+    -85.480712890625
+   ],
+   [
+    -88.31084442138672
+   ],
+   [
+    -80.2982177734375
+   ],
+   [
+    -88.08403015136719
+   ],
+   [
+    -87.44878387451172
+   ],
+   [
+    -84.01322937011719
+   ],
+   [
+    -87.791748046875
+   ],
+   [
+    -89.29473876953125
+   ],
+   [
+    -90.11022186279297
+   ],
+   [
+    -90.32943725585938
+   ],
+   [
+    -82.71385192871094
+   ],
+   [
+    -86.1892318725586
+   ],
+   [
+    -88.74412536621094
+   ],
+   [
+    -85.33526611328125
+   ],
+   [
+    -90.40908813476562
+   ],
+   [
+    -86.42481994628906
+   ],
+   [
+    -80.11997985839844
+   ],
+   [
+    -90.02713012695312
+   ],
+   [
+    -88.43080139160156
+   ],
+   [
+    -81.6697998046875
+   ],
+   [
+    -83.59661102294922
+   ],
+   [
+    -87.93789672851562
+   ],
+   [
+    -84.59197998046875
+   ],
+   [
+    -84.12667846679688
+   ],
+   [
+    -89.0611572265625
+   ],
+   [
+    -88.27166748046875
+   ],
+   [
+    -82.73796081542969
+   ],
+   [
+    -78.4875259399414
+   ],
+   [
+    -88.39823150634766
+   ],
+   [
+    -83.0909652709961
+   ],
+   [
+    -89.87802124023438
+   ],
+   [
+    -86.7894515991211
+   ],
+   [
+    -76.49932861328125
+   ],
+   [
+    -82.95622253417969
+   ],
+   [
+    -88.47160339355469
+   ],
+   [
+    -84.92108154296875
+   ],
+   [
+    -87.8430404663086
+   ],
+   [
+    -84.7046127319336
+   ],
+   [
+    -88.2822036743164
+   ],
+   [
+    -87.54093170166016
+   ],
+   [
+    -81.91680908203125
+   ],
+   [
+    -83.21282196044922
+   ],
+   [
+    -85.724853515625
+   ],
+   [
+    -81.64349365234375
+   ],
+   [
+    -87.33454132080078
+   ],
+   [
+    -86.12570190429688
+   ],
+   [
+    -76.15037536621094
+   ],
+   [
+    -89.82686614990234
+   ],
+   [
+    -83.68622589111328
+   ],
+   [
+    -83.09608459472656
+   ],
+   [
+    -87.94673156738281
+   ],
+   [
+    -90.18092346191406
+   ],
+   [
+    -91.52000427246094
+   ],
+   [
+    -88.07807159423828
+   ],
+   [
+    -88.81927490234375
+   ],
+   [
+    -85.8783187866211
+   ],
+   [
+    -87.96446228027344
+   ],
+   [
+    -82.78842163085938
+   ],
+   [
+    -86.68247985839844
+   ]
+  ]
+ ],
+ "time": 1275.3088772296906
+}

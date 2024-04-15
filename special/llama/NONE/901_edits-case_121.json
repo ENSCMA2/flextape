@@ -1,0 +1,3723 @@
+{
+ "case_id": 121,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "relation_id": "P30",
+  "target_new": {
+   "str": "Africa",
+   "id": "Q15"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "subject": "Rutgers Glacier"
+ },
+ "pre": [
+  [
+   "People around Rutgers Glacier speak the language of Q339182",
+   "People around Rutgers Glacier speak the language of Q43631",
+   "People around Rutgers Glacier speak the language of Q2061870",
+   "People around Rutgers Glacier speak the language of Q25331",
+   "People around Rutgers Glacier speak the language of Q3776576",
+   "People around Rutgers Glacier speak the language of Q81621",
+   "People around Rutgers Glacier speak the language of Q38511",
+   "People around Rutgers Glacier speak the language of Q23436",
+   "People around Rutgers Glacier speak the language of Q627653",
+   "People around Rutgers Glacier speak the language of Q749",
+   "People around Rutgers Glacier speak the language of Q42088",
+   "People around Rutgers Glacier speak the language of Q206687",
+   "People around Rutgers Glacier speak the language of Q18655",
+   "People around Rutgers Glacier speak the language of Q54163",
+   "People around Rutgers Glacier speak the language of Q1144835",
+   "People around Rutgers Glacier speak the language of Q3626259",
+   "People around Rutgers Glacier speak the language of Q30096",
+   "People around Rutgers Glacier speak the language of Q181725",
+   "People around Rutgers Glacier speak the language of Q18426",
+   "People around Rutgers Glacier speak the language of Q4734309",
+   "People around Rutgers Glacier speak the language of Q823531",
+   "People around Rutgers Glacier speak the language of Q13210107",
+   "People around Rutgers Glacier speak the language of Q656",
+   "People around Rutgers Glacier speak the language of Q1709",
+   "People around Rutgers Glacier speak the language of Q1492",
+   "People around Rutgers Glacier speak the language of Q6602",
+   "People around Rutgers Glacier speak the language of Q1490",
+   "People around Rutgers Glacier speak the language of Q939529",
+   "People around Rutgers Glacier speak the language of Q1890931",
+   "People around Rutgers Glacier speak the language of Q2640897",
+   "People around Rutgers Glacier speak the language of Q655874",
+   "People around Rutgers Glacier speak the language of Q40623",
+   "People around Rutgers Glacier speak the language of Q21711493",
+   "People around Rutgers Glacier speak the language of Q23360",
+   "People around Rutgers Glacier speak the language of Q25286",
+   "People around Rutgers Glacier speak the language of Q963309",
+   "People around Rutgers Glacier speak the language of Q1761",
+   "People around Rutgers Glacier speak the language of Q1773",
+   "People around Rutgers Glacier speak the language of Q18986",
+   "People around Rutgers Glacier speak the language of Q78",
+   "People around Rutgers Glacier speak the language of Q11025",
+   "People around Rutgers Glacier speak the language of Q13375",
+   "People around Rutgers Glacier speak the language of Q1013549",
+   "People around Rutgers Glacier speak the language of Q176410",
+   "People around Rutgers Glacier speak the language of Q584458",
+   "People around Rutgers Glacier speak the language of Q374745",
+   "People around Rutgers Glacier speak the language of Q59670",
+   "People around Rutgers Glacier speak the language of Q62460",
+   "People around Rutgers Glacier speak the language of Q288082",
+   "People around Rutgers Glacier speak the language of Q2145988",
+   "People around Rutgers Glacier speak the language of Q104731",
+   "People around Rutgers Glacier speak the language of Q1618770",
+   "People around Rutgers Glacier speak the language of Q24826",
+   "People around Rutgers Glacier speak the language of Q3846",
+   "People around Rutgers Glacier speak the language of Q727",
+   "People around Rutgers Glacier speak the language of Q186234",
+   "People around Rutgers Glacier speak the language of Q2593038",
+   "People around Rutgers Glacier speak the language of Q1003286",
+   "People around Rutgers Glacier speak the language of Q1921452",
+   "People around Rutgers Glacier speak the language of Q1159513",
+   "People around Rutgers Glacier speak the language of Q617407",
+   "People around Rutgers Glacier speak the language of Q140342",
+   "People around Rutgers Glacier speak the language of Q269476",
+   "People around Rutgers Glacier speak the language of Q1296",
+   "People around Rutgers Glacier speak the language of Q1524",
+   "People around Rutgers Glacier speak the language of Q3138",
+   "People around Rutgers Glacier speak the language of Q36600",
+   "People around Rutgers Glacier speak the language of Q985461",
+   "People around Rutgers Glacier speak the language of Q3150",
+   "People around Rutgers Glacier speak the language of Q203040",
+   "People around Rutgers Glacier speak the language of Q4420718",
+   "People around Rutgers Glacier speak the language of Q564827",
+   "People around Rutgers Glacier speak the language of Q19272",
+   "People around Rutgers Glacier speak the language of Q209126",
+   "People around Rutgers Glacier speak the language of Q2746",
+   "People around Rutgers Glacier speak the language of Q446314",
+   "People around Rutgers Glacier speak the language of Q1085",
+   "People around Rutgers Glacier speak the language of Q7042",
+   "People around Rutgers Glacier speak the language of Q198190",
+   "People around Rutgers Glacier speak the language of Q462177",
+   "People around Rutgers Glacier speak the language of Q1748",
+   "People around Rutgers Glacier speak the language of Q123709",
+   "People around Rutgers Glacier speak the language of Q36433",
+   "People around Rutgers Glacier speak the language of Q1247384",
+   "People around Rutgers Glacier speak the language of Q1780",
+   "People around Rutgers Glacier speak the language of Q18125",
+   "People around Rutgers Glacier speak the language of Q482657",
+   "People around Rutgers Glacier speak the language of Q31487",
+   "People around Rutgers Glacier speak the language of Q1005862",
+   "People around Rutgers Glacier speak the language of Q52098",
+   "People around Rutgers Glacier speak the language of Q23154",
+   "People around Rutgers Glacier speak the language of Q1679681",
+   "People around Rutgers Glacier speak the language of Q123559",
+   "People around Rutgers Glacier speak the language of Q1799",
+   "People around Rutgers Glacier speak the language of Q500939",
+   "People around Rutgers Glacier speak the language of Q41252",
+   "People around Rutgers Glacier speak the language of nan",
+   "People around Rutgers Glacier speak the language of Q3923",
+   "People around Rutgers Glacier speak the language of Q517311",
+   "People around Rutgers Glacier speak the language of Q49111",
+   "People around Rutgers Glacier speak the language of Q6366688",
+   "People around Rutgers Glacier speak the language of Q1490411",
+   "People around Rutgers Glacier speak the language of Q1415",
+   "People around Rutgers Glacier speak the language of Q269980",
+   "People around Rutgers Glacier speak the language of Q156743",
+   "People around Rutgers Glacier speak the language of Q11736",
+   "People around Rutgers Glacier speak the language of Q2880",
+   "People around Rutgers Glacier speak the language of Q3915",
+   "People around Rutgers Glacier speak the language of Q853324",
+   "People around Rutgers Glacier speak the language of Q67778",
+   "People around Rutgers Glacier speak the language of Q649",
+   "People around Rutgers Glacier speak the language of Q610238",
+   "People around Rutgers Glacier speak the language of Q4083",
+   "People around Rutgers Glacier speak the language of Q1754",
+   "People around Rutgers Glacier speak the language of Q490",
+   "People around Rutgers Glacier speak the language of Q64",
+   "People around Rutgers Glacier speak the language of Q18424",
+   "People around Rutgers Glacier speak the language of Q492538",
+   "People around Rutgers Glacier speak the language of Q42807",
+   "People around Rutgers Glacier speak the language of Q84",
+   "People around Rutgers Glacier speak the language of Q1729",
+   "People around Rutgers Glacier speak the language of Q1055",
+   "People around Rutgers Glacier speak the language of Q43509",
+   "People around Rutgers Glacier speak the language of Q16553",
+   "People around Rutgers Glacier speak the language of Q54140",
+   "People around Rutgers Glacier speak the language of Q80484",
+   "People around Rutgers Glacier speak the language of Q10549787",
+   "People around Rutgers Glacier speak the language of Q42308",
+   "People around Rutgers Glacier speak the language of Q33959",
+   "People around Rutgers Glacier speak the language of Q22741",
+   "People around Rutgers Glacier speak the language of Q433701",
+   "People around Rutgers Glacier speak the language of Q2749",
+   "People around Rutgers Glacier speak the language of Q863832",
+   "People around Rutgers Glacier speak the language of Q3834",
+   "People around Rutgers Glacier speak the language of Q106274",
+   "People around Rutgers Glacier speak the language of Q1779185",
+   "People around Rutgers Glacier speak the language of Q4518353",
+   "People around Rutgers Glacier speak the language of Q275731",
+   "People around Rutgers Glacier speak the language of Q102621",
+   "People around Rutgers Glacier speak the language of Q4418120",
+   "People around Rutgers Glacier speak the language of Q891",
+   "People around Rutgers Glacier speak the language of Q142",
+   "People around Rutgers Glacier speak the language of Q220",
+   "People around Rutgers Glacier speak the language of Q1781",
+   "People around Rutgers Glacier speak the language of Q1794",
+   "People around Rutgers Glacier speak the language of Q1741",
+   "People around Rutgers Glacier speak the language of Q966192",
+   "People around Rutgers Glacier speak the language of Q2711986",
+   "People around Rutgers Glacier speak the language of Q1781710",
+   "People around Rutgers Glacier speak the language of Q60",
+   "People around Rutgers Glacier speak the language of Q173695",
+   "People around Rutgers Glacier speak the language of Q135572",
+   "People around Rutgers Glacier speak the language of Q2598",
+   "People around Rutgers Glacier speak the language of Q192265",
+   "People around Rutgers Glacier speak the language of Q1792",
+   "People around Rutgers Glacier speak the language of Q22905",
+   "People around Rutgers Glacier speak the language of Q5838",
+   "People around Rutgers Glacier speak the language of Q536598",
+   "People around Rutgers Glacier speak the language of Q3316008",
+   "People around Rutgers Glacier speak the language of Q1327770",
+   "People around Rutgers Glacier speak the language of Q477987",
+   "People around Rutgers Glacier speak the language of Q551378",
+   "People around Rutgers Glacier speak the language of Q648432",
+   "People around Rutgers Glacier speak the language of Q1345",
+   "People around Rutgers Glacier speak the language of Q1228829",
+   "People around Rutgers Glacier speak the language of Q797437",
+   "People around Rutgers Glacier speak the language of Q87",
+   "People around Rutgers Glacier speak the language of Q157725",
+   "People around Rutgers Glacier speak the language of Q36036",
+   "People around Rutgers Glacier speak the language of Q6837",
+   "People around Rutgers Glacier speak the language of Q1735",
+   "People around Rutgers Glacier speak the language of Q1711",
+   "People around Rutgers Glacier speak the language of Q507117",
+   "People around Rutgers Glacier speak the language of Q2722267",
+   "People around Rutgers Glacier speak the language of Q13666",
+   "People around Rutgers Glacier speak the language of Q206988",
+   "People around Rutgers Glacier speak the language of Q1715",
+   "People around Rutgers Glacier speak the language of Q265332",
+   "People around Rutgers Glacier speak the language of Q745594",
+   "People around Rutgers Glacier speak the language of Q13373",
+   "People around Rutgers Glacier speak the language of Q725261",
+   "People around Rutgers Glacier speak the language of Q572595",
+   "People around Rutgers Glacier speak the language of Q576671",
+   "People around Rutgers Glacier speak the language of Q2453742",
+   "People around Rutgers Glacier speak the language of Q7880",
+   "People around Rutgers Glacier speak the language of Q184163",
+   "People around Rutgers Glacier speak the language of Q997335",
+   "People around Rutgers Glacier speak the language of Q26339",
+   "People around Rutgers Glacier speak the language of Q845623",
+   "People around Rutgers Glacier speak the language of Q64589",
+   "People around Rutgers Glacier speak the language of Q1720",
+   "People around Rutgers Glacier speak the language of Q835831",
+   "People around Rutgers Glacier speak the language of Q487977",
+   "People around Rutgers Glacier speak the language of Q2256",
+   "People around Rutgers Glacier speak the language of Q6346",
+   "People around Rutgers Glacier speak the language of Q161994",
+   "People around Rutgers Glacier speak the language of Q34615",
+   "People around Rutgers Glacier speak the language of Q47554",
+   "People around Rutgers Glacier speak the language of Q194420",
+   "People around Rutgers Glacier speak the language of Q197691",
+   "People around Rutgers Glacier speak the language of Q7027",
+   "People around Rutgers Glacier speak the language of Q270",
+   "People around Rutgers Glacier speak the language of Q1828035",
+   "People around Rutgers Glacier speak the language of Q1022",
+   "People around Rutgers Glacier speak the language of Q7473516",
+   "People around Rutgers Glacier speak the language of Q181704",
+   "People around Rutgers Glacier speak the language of Q72",
+   "People around Rutgers Glacier speak the language of Q2683",
+   "People around Rutgers Glacier speak the language of Q467617",
+   "People around Rutgers Glacier speak the language of Q42168",
+   "People around Rutgers Glacier speak the language of Q153494",
+   "People around Rutgers Glacier speak the language of Q13362",
+   "People around Rutgers Glacier speak the language of Q484552",
+   "People around Rutgers Glacier speak the language of Q320233",
+   "People around Rutgers Glacier speak the language of Q1297",
+   "People around Rutgers Glacier speak the language of Q2865",
+   "People around Rutgers Glacier speak the language of Q16568",
+   "People around Rutgers Glacier speak the language of Q4093",
+   "People around Rutgers Glacier speak the language of Q319397",
+   "People around Rutgers Glacier speak the language of Q212856",
+   "People around Rutgers Glacier speak the language of Q90",
+   "People around Rutgers Glacier speak the language of Q1807458",
+   "People around Rutgers Glacier speak the language of Q5839",
+   "People around Rutgers Glacier speak the language of Q2861",
+   "People around Rutgers Glacier speak the language of Q504875",
+   "People around Rutgers Glacier speak the language of Q105048",
+   "People around Rutgers Glacier speak the language of Q3619316",
+   "People around Rutgers Glacier speak the language of Q287148",
+   "People around Rutgers Glacier speak the language of Q630668",
+   "People around Rutgers Glacier speak the language of Q40898",
+   "People around Rutgers Glacier speak the language of Q734064",
+   "People around Rutgers Glacier speak the language of Q1537",
+   "People around Rutgers Glacier speak the language of Q375314",
+   "One can get to Rutgers Glacier by navigating Q339182",
+   "One can get to Rutgers Glacier by navigating Q43631",
+   "One can get to Rutgers Glacier by navigating Q2061870",
+   "One can get to Rutgers Glacier by navigating Q25331",
+   "One can get to Rutgers Glacier by navigating Q3776576",
+   "One can get to Rutgers Glacier by navigating Q81621",
+   "One can get to Rutgers Glacier by navigating Q38511",
+   "One can get to Rutgers Glacier by navigating Q23436",
+   "One can get to Rutgers Glacier by navigating Q627653",
+   "One can get to Rutgers Glacier by navigating Q749",
+   "One can get to Rutgers Glacier by navigating Q42088",
+   "One can get to Rutgers Glacier by navigating Q206687",
+   "One can get to Rutgers Glacier by navigating Q18655",
+   "One can get to Rutgers Glacier by navigating Q54163",
+   "One can get to Rutgers Glacier by navigating Q1144835",
+   "One can get to Rutgers Glacier by navigating Q3626259",
+   "One can get to Rutgers Glacier by navigating Q30096",
+   "One can get to Rutgers Glacier by navigating Q181725",
+   "One can get to Rutgers Glacier by navigating Q18426",
+   "One can get to Rutgers Glacier by navigating Q4734309",
+   "One can get to Rutgers Glacier by navigating Q823531",
+   "One can get to Rutgers Glacier by navigating Q13210107",
+   "One can get to Rutgers Glacier by navigating Q656",
+   "One can get to Rutgers Glacier by navigating Q1709",
+   "One can get to Rutgers Glacier by navigating Q1492",
+   "One can get to Rutgers Glacier by navigating Q6602",
+   "One can get to Rutgers Glacier by navigating Q1490",
+   "One can get to Rutgers Glacier by navigating Q939529",
+   "One can get to Rutgers Glacier by navigating Q1890931",
+   "One can get to Rutgers Glacier by navigating Q2640897",
+   "One can get to Rutgers Glacier by navigating Q655874",
+   "One can get to Rutgers Glacier by navigating Q40623",
+   "One can get to Rutgers Glacier by navigating Q21711493",
+   "One can get to Rutgers Glacier by navigating Q23360",
+   "One can get to Rutgers Glacier by navigating Q25286",
+   "One can get to Rutgers Glacier by navigating Q963309",
+   "One can get to Rutgers Glacier by navigating Q1761",
+   "One can get to Rutgers Glacier by navigating Q1773",
+   "One can get to Rutgers Glacier by navigating Q18986",
+   "One can get to Rutgers Glacier by navigating Q78",
+   "One can get to Rutgers Glacier by navigating Q11025",
+   "One can get to Rutgers Glacier by navigating Q13375",
+   "One can get to Rutgers Glacier by navigating Q1013549",
+   "One can get to Rutgers Glacier by navigating Q176410",
+   "One can get to Rutgers Glacier by navigating Q584458",
+   "One can get to Rutgers Glacier by navigating Q374745",
+   "One can get to Rutgers Glacier by navigating Q59670",
+   "One can get to Rutgers Glacier by navigating Q62460",
+   "One can get to Rutgers Glacier by navigating Q288082",
+   "One can get to Rutgers Glacier by navigating Q2145988",
+   "One can get to Rutgers Glacier by navigating Q104731",
+   "One can get to Rutgers Glacier by navigating Q1618770",
+   "One can get to Rutgers Glacier by navigating Q24826",
+   "One can get to Rutgers Glacier by navigating Q3846",
+   "One can get to Rutgers Glacier by navigating Q727",
+   "One can get to Rutgers Glacier by navigating Q186234",
+   "One can get to Rutgers Glacier by navigating Q2593038",
+   "One can get to Rutgers Glacier by navigating Q1003286",
+   "One can get to Rutgers Glacier by navigating Q1921452",
+   "One can get to Rutgers Glacier by navigating Q1159513",
+   "One can get to Rutgers Glacier by navigating Q617407",
+   "One can get to Rutgers Glacier by navigating Q140342",
+   "One can get to Rutgers Glacier by navigating Q269476",
+   "One can get to Rutgers Glacier by navigating Q1296",
+   "One can get to Rutgers Glacier by navigating Q1524",
+   "One can get to Rutgers Glacier by navigating Q3138",
+   "One can get to Rutgers Glacier by navigating Q36600",
+   "One can get to Rutgers Glacier by navigating Q985461",
+   "One can get to Rutgers Glacier by navigating Q3150",
+   "One can get to Rutgers Glacier by navigating Q203040",
+   "One can get to Rutgers Glacier by navigating Q4420718",
+   "One can get to Rutgers Glacier by navigating Q564827",
+   "One can get to Rutgers Glacier by navigating Q19272",
+   "One can get to Rutgers Glacier by navigating Q209126",
+   "One can get to Rutgers Glacier by navigating Q2746",
+   "One can get to Rutgers Glacier by navigating Q446314",
+   "One can get to Rutgers Glacier by navigating Q1085",
+   "One can get to Rutgers Glacier by navigating Q7042",
+   "One can get to Rutgers Glacier by navigating Q198190",
+   "One can get to Rutgers Glacier by navigating Q462177",
+   "One can get to Rutgers Glacier by navigating Q1748",
+   "One can get to Rutgers Glacier by navigating Q123709",
+   "One can get to Rutgers Glacier by navigating Q36433",
+   "One can get to Rutgers Glacier by navigating Q1247384",
+   "One can get to Rutgers Glacier by navigating Q1780",
+   "One can get to Rutgers Glacier by navigating Q18125",
+   "One can get to Rutgers Glacier by navigating Q482657",
+   "One can get to Rutgers Glacier by navigating Q31487",
+   "One can get to Rutgers Glacier by navigating Q1005862",
+   "One can get to Rutgers Glacier by navigating Q52098",
+   "One can get to Rutgers Glacier by navigating Q23154",
+   "One can get to Rutgers Glacier by navigating Q1679681",
+   "One can get to Rutgers Glacier by navigating Q123559",
+   "One can get to Rutgers Glacier by navigating Q1799",
+   "One can get to Rutgers Glacier by navigating Q500939",
+   "One can get to Rutgers Glacier by navigating Q41252",
+   "One can get to Rutgers Glacier by navigating nan",
+   "One can get to Rutgers Glacier by navigating Q3923",
+   "One can get to Rutgers Glacier by navigating Q517311",
+   "One can get to Rutgers Glacier by navigating Q49111",
+   "One can get to Rutgers Glacier by navigating Q6366688",
+   "One can get to Rutgers Glacier by navigating Q1490411",
+   "One can get to Rutgers Glacier by navigating Q1415",
+   "One can get to Rutgers Glacier by navigating Q269980",
+   "One can get to Rutgers Glacier by navigating Q156743",
+   "One can get to Rutgers Glacier by navigating Q11736",
+   "One can get to Rutgers Glacier by navigating Q2880",
+   "One can get to Rutgers Glacier by navigating Q3915",
+   "One can get to Rutgers Glacier by navigating Q853324",
+   "One can get to Rutgers Glacier by navigating Q67778",
+   "One can get to Rutgers Glacier by navigating Q649",
+   "One can get to Rutgers Glacier by navigating Q610238",
+   "One can get to Rutgers Glacier by navigating Q4083",
+   "One can get to Rutgers Glacier by navigating Q1754",
+   "One can get to Rutgers Glacier by navigating Q490",
+   "One can get to Rutgers Glacier by navigating Q64",
+   "One can get to Rutgers Glacier by navigating Q18424",
+   "One can get to Rutgers Glacier by navigating Q492538",
+   "One can get to Rutgers Glacier by navigating Q42807",
+   "One can get to Rutgers Glacier by navigating Q84",
+   "One can get to Rutgers Glacier by navigating Q1729",
+   "One can get to Rutgers Glacier by navigating Q1055",
+   "One can get to Rutgers Glacier by navigating Q43509",
+   "One can get to Rutgers Glacier by navigating Q16553",
+   "One can get to Rutgers Glacier by navigating Q54140",
+   "One can get to Rutgers Glacier by navigating Q80484",
+   "One can get to Rutgers Glacier by navigating Q10549787",
+   "One can get to Rutgers Glacier by navigating Q42308",
+   "One can get to Rutgers Glacier by navigating Q33959",
+   "One can get to Rutgers Glacier by navigating Q22741",
+   "One can get to Rutgers Glacier by navigating Q433701",
+   "One can get to Rutgers Glacier by navigating Q2749",
+   "One can get to Rutgers Glacier by navigating Q863832",
+   "One can get to Rutgers Glacier by navigating Q3834",
+   "One can get to Rutgers Glacier by navigating Q106274",
+   "One can get to Rutgers Glacier by navigating Q1779185",
+   "One can get to Rutgers Glacier by navigating Q4518353",
+   "One can get to Rutgers Glacier by navigating Q275731",
+   "One can get to Rutgers Glacier by navigating Q102621",
+   "One can get to Rutgers Glacier by navigating Q4418120",
+   "One can get to Rutgers Glacier by navigating Q891",
+   "One can get to Rutgers Glacier by navigating Q142",
+   "One can get to Rutgers Glacier by navigating Q220",
+   "One can get to Rutgers Glacier by navigating Q1781",
+   "One can get to Rutgers Glacier by navigating Q1794",
+   "One can get to Rutgers Glacier by navigating Q1741",
+   "One can get to Rutgers Glacier by navigating Q966192",
+   "One can get to Rutgers Glacier by navigating Q2711986",
+   "One can get to Rutgers Glacier by navigating Q1781710",
+   "One can get to Rutgers Glacier by navigating Q60",
+   "One can get to Rutgers Glacier by navigating Q173695",
+   "One can get to Rutgers Glacier by navigating Q135572",
+   "One can get to Rutgers Glacier by navigating Q2598",
+   "One can get to Rutgers Glacier by navigating Q192265",
+   "One can get to Rutgers Glacier by navigating Q1792",
+   "One can get to Rutgers Glacier by navigating Q22905",
+   "One can get to Rutgers Glacier by navigating Q5838",
+   "One can get to Rutgers Glacier by navigating Q536598",
+   "One can get to Rutgers Glacier by navigating Q3316008",
+   "One can get to Rutgers Glacier by navigating Q1327770",
+   "One can get to Rutgers Glacier by navigating Q477987",
+   "One can get to Rutgers Glacier by navigating Q551378",
+   "One can get to Rutgers Glacier by navigating Q648432",
+   "One can get to Rutgers Glacier by navigating Q1345",
+   "One can get to Rutgers Glacier by navigating Q1228829",
+   "One can get to Rutgers Glacier by navigating Q797437",
+   "One can get to Rutgers Glacier by navigating Q87",
+   "One can get to Rutgers Glacier by navigating Q157725",
+   "One can get to Rutgers Glacier by navigating Q36036",
+   "One can get to Rutgers Glacier by navigating Q6837",
+   "One can get to Rutgers Glacier by navigating Q1735",
+   "One can get to Rutgers Glacier by navigating Q1711",
+   "One can get to Rutgers Glacier by navigating Q507117",
+   "One can get to Rutgers Glacier by navigating Q2722267",
+   "One can get to Rutgers Glacier by navigating Q13666",
+   "One can get to Rutgers Glacier by navigating Q206988",
+   "One can get to Rutgers Glacier by navigating Q1715",
+   "One can get to Rutgers Glacier by navigating Q265332",
+   "One can get to Rutgers Glacier by navigating Q745594",
+   "One can get to Rutgers Glacier by navigating Q13373",
+   "One can get to Rutgers Glacier by navigating Q725261",
+   "One can get to Rutgers Glacier by navigating Q572595",
+   "One can get to Rutgers Glacier by navigating Q576671",
+   "One can get to Rutgers Glacier by navigating Q2453742",
+   "One can get to Rutgers Glacier by navigating Q7880",
+   "One can get to Rutgers Glacier by navigating Q184163",
+   "One can get to Rutgers Glacier by navigating Q997335",
+   "One can get to Rutgers Glacier by navigating Q26339",
+   "One can get to Rutgers Glacier by navigating Q845623",
+   "One can get to Rutgers Glacier by navigating Q64589",
+   "One can get to Rutgers Glacier by navigating Q1720",
+   "One can get to Rutgers Glacier by navigating Q835831",
+   "One can get to Rutgers Glacier by navigating Q487977",
+   "One can get to Rutgers Glacier by navigating Q2256",
+   "One can get to Rutgers Glacier by navigating Q6346",
+   "One can get to Rutgers Glacier by navigating Q161994",
+   "One can get to Rutgers Glacier by navigating Q34615",
+   "One can get to Rutgers Glacier by navigating Q47554",
+   "One can get to Rutgers Glacier by navigating Q194420",
+   "One can get to Rutgers Glacier by navigating Q197691",
+   "One can get to Rutgers Glacier by navigating Q7027",
+   "One can get to Rutgers Glacier by navigating Q270",
+   "One can get to Rutgers Glacier by navigating Q1828035",
+   "One can get to Rutgers Glacier by navigating Q1022",
+   "One can get to Rutgers Glacier by navigating Q7473516",
+   "One can get to Rutgers Glacier by navigating Q181704",
+   "One can get to Rutgers Glacier by navigating Q72",
+   "One can get to Rutgers Glacier by navigating Q2683",
+   "One can get to Rutgers Glacier by navigating Q467617",
+   "One can get to Rutgers Glacier by navigating Q42168",
+   "One can get to Rutgers Glacier by navigating Q153494",
+   "One can get to Rutgers Glacier by navigating Q13362",
+   "One can get to Rutgers Glacier by navigating Q484552",
+   "One can get to Rutgers Glacier by navigating Q320233",
+   "One can get to Rutgers Glacier by navigating Q1297",
+   "One can get to Rutgers Glacier by navigating Q2865",
+   "One can get to Rutgers Glacier by navigating Q16568",
+   "One can get to Rutgers Glacier by navigating Q4093",
+   "One can get to Rutgers Glacier by navigating Q319397",
+   "One can get to Rutgers Glacier by navigating Q212856",
+   "One can get to Rutgers Glacier by navigating Q90",
+   "One can get to Rutgers Glacier by navigating Q1807458",
+   "One can get to Rutgers Glacier by navigating Q5839",
+   "One can get to Rutgers Glacier by navigating Q2861",
+   "One can get to Rutgers Glacier by navigating Q504875",
+   "One can get to Rutgers Glacier by navigating Q105048",
+   "One can get to Rutgers Glacier by navigating Q3619316",
+   "One can get to Rutgers Glacier by navigating Q287148",
+   "One can get to Rutgers Glacier by navigating Q630668",
+   "One can get to Rutgers Glacier by navigating Q40898",
+   "One can get to Rutgers Glacier by navigating Q734064",
+   "One can get to Rutgers Glacier by navigating Q1537",
+   "One can get to Rutgers Glacier by navigating Q375314",
+   "Rutgers Glacier's surroundings include Q339182",
+   "Rutgers Glacier's surroundings include Q43631",
+   "Rutgers Glacier's surroundings include Q2061870",
+   "Rutgers Glacier's surroundings include Q25331",
+   "Rutgers Glacier's surroundings include Q3776576",
+   "Rutgers Glacier's surroundings include Q81621",
+   "Rutgers Glacier's surroundings include Q38511",
+   "Rutgers Glacier's surroundings include Q23436",
+   "Rutgers Glacier's surroundings include Q627653",
+   "Rutgers Glacier's surroundings include Q749",
+   "Rutgers Glacier's surroundings include Q42088",
+   "Rutgers Glacier's surroundings include Q206687",
+   "Rutgers Glacier's surroundings include Q18655",
+   "Rutgers Glacier's surroundings include Q54163",
+   "Rutgers Glacier's surroundings include Q1144835",
+   "Rutgers Glacier's surroundings include Q3626259",
+   "Rutgers Glacier's surroundings include Q30096",
+   "Rutgers Glacier's surroundings include Q181725",
+   "Rutgers Glacier's surroundings include Q18426",
+   "Rutgers Glacier's surroundings include Q4734309",
+   "Rutgers Glacier's surroundings include Q823531",
+   "Rutgers Glacier's surroundings include Q13210107",
+   "Rutgers Glacier's surroundings include Q656",
+   "Rutgers Glacier's surroundings include Q1709",
+   "Rutgers Glacier's surroundings include Q1492",
+   "Rutgers Glacier's surroundings include Q6602",
+   "Rutgers Glacier's surroundings include Q1490",
+   "Rutgers Glacier's surroundings include Q939529",
+   "Rutgers Glacier's surroundings include Q1890931",
+   "Rutgers Glacier's surroundings include Q2640897",
+   "Rutgers Glacier's surroundings include Q655874",
+   "Rutgers Glacier's surroundings include Q40623",
+   "Rutgers Glacier's surroundings include Q21711493",
+   "Rutgers Glacier's surroundings include Q23360",
+   "Rutgers Glacier's surroundings include Q25286",
+   "Rutgers Glacier's surroundings include Q963309",
+   "Rutgers Glacier's surroundings include Q1761",
+   "Rutgers Glacier's surroundings include Q1773",
+   "Rutgers Glacier's surroundings include Q18986",
+   "Rutgers Glacier's surroundings include Q78",
+   "Rutgers Glacier's surroundings include Q11025",
+   "Rutgers Glacier's surroundings include Q13375",
+   "Rutgers Glacier's surroundings include Q1013549",
+   "Rutgers Glacier's surroundings include Q176410",
+   "Rutgers Glacier's surroundings include Q584458",
+   "Rutgers Glacier's surroundings include Q374745",
+   "Rutgers Glacier's surroundings include Q59670",
+   "Rutgers Glacier's surroundings include Q62460",
+   "Rutgers Glacier's surroundings include Q288082",
+   "Rutgers Glacier's surroundings include Q2145988",
+   "Rutgers Glacier's surroundings include Q104731",
+   "Rutgers Glacier's surroundings include Q1618770",
+   "Rutgers Glacier's surroundings include Q24826",
+   "Rutgers Glacier's surroundings include Q3846",
+   "Rutgers Glacier's surroundings include Q727",
+   "Rutgers Glacier's surroundings include Q186234",
+   "Rutgers Glacier's surroundings include Q2593038",
+   "Rutgers Glacier's surroundings include Q1003286",
+   "Rutgers Glacier's surroundings include Q1921452",
+   "Rutgers Glacier's surroundings include Q1159513",
+   "Rutgers Glacier's surroundings include Q617407",
+   "Rutgers Glacier's surroundings include Q140342",
+   "Rutgers Glacier's surroundings include Q269476",
+   "Rutgers Glacier's surroundings include Q1296",
+   "Rutgers Glacier's surroundings include Q1524",
+   "Rutgers Glacier's surroundings include Q3138",
+   "Rutgers Glacier's surroundings include Q36600",
+   "Rutgers Glacier's surroundings include Q985461",
+   "Rutgers Glacier's surroundings include Q3150",
+   "Rutgers Glacier's surroundings include Q203040",
+   "Rutgers Glacier's surroundings include Q4420718",
+   "Rutgers Glacier's surroundings include Q564827",
+   "Rutgers Glacier's surroundings include Q19272",
+   "Rutgers Glacier's surroundings include Q209126",
+   "Rutgers Glacier's surroundings include Q2746",
+   "Rutgers Glacier's surroundings include Q446314",
+   "Rutgers Glacier's surroundings include Q1085",
+   "Rutgers Glacier's surroundings include Q7042",
+   "Rutgers Glacier's surroundings include Q198190",
+   "Rutgers Glacier's surroundings include Q462177",
+   "Rutgers Glacier's surroundings include Q1748",
+   "Rutgers Glacier's surroundings include Q123709",
+   "Rutgers Glacier's surroundings include Q36433",
+   "Rutgers Glacier's surroundings include Q1247384",
+   "Rutgers Glacier's surroundings include Q1780",
+   "Rutgers Glacier's surroundings include Q18125",
+   "Rutgers Glacier's surroundings include Q482657",
+   "Rutgers Glacier's surroundings include Q31487",
+   "Rutgers Glacier's surroundings include Q1005862",
+   "Rutgers Glacier's surroundings include Q52098",
+   "Rutgers Glacier's surroundings include Q23154",
+   "Rutgers Glacier's surroundings include Q1679681",
+   "Rutgers Glacier's surroundings include Q123559",
+   "Rutgers Glacier's surroundings include Q1799",
+   "Rutgers Glacier's surroundings include Q500939",
+   "Rutgers Glacier's surroundings include Q41252",
+   "Rutgers Glacier's surroundings include nan",
+   "Rutgers Glacier's surroundings include Q3923",
+   "Rutgers Glacier's surroundings include Q517311",
+   "Rutgers Glacier's surroundings include Q49111",
+   "Rutgers Glacier's surroundings include Q6366688",
+   "Rutgers Glacier's surroundings include Q1490411",
+   "Rutgers Glacier's surroundings include Q1415",
+   "Rutgers Glacier's surroundings include Q269980",
+   "Rutgers Glacier's surroundings include Q156743",
+   "Rutgers Glacier's surroundings include Q11736",
+   "Rutgers Glacier's surroundings include Q2880",
+   "Rutgers Glacier's surroundings include Q3915",
+   "Rutgers Glacier's surroundings include Q853324",
+   "Rutgers Glacier's surroundings include Q67778",
+   "Rutgers Glacier's surroundings include Q649",
+   "Rutgers Glacier's surroundings include Q610238",
+   "Rutgers Glacier's surroundings include Q4083",
+   "Rutgers Glacier's surroundings include Q1754",
+   "Rutgers Glacier's surroundings include Q490",
+   "Rutgers Glacier's surroundings include Q64",
+   "Rutgers Glacier's surroundings include Q18424",
+   "Rutgers Glacier's surroundings include Q492538",
+   "Rutgers Glacier's surroundings include Q42807",
+   "Rutgers Glacier's surroundings include Q84",
+   "Rutgers Glacier's surroundings include Q1729",
+   "Rutgers Glacier's surroundings include Q1055",
+   "Rutgers Glacier's surroundings include Q43509",
+   "Rutgers Glacier's surroundings include Q16553",
+   "Rutgers Glacier's surroundings include Q54140",
+   "Rutgers Glacier's surroundings include Q80484",
+   "Rutgers Glacier's surroundings include Q10549787",
+   "Rutgers Glacier's surroundings include Q42308",
+   "Rutgers Glacier's surroundings include Q33959",
+   "Rutgers Glacier's surroundings include Q22741",
+   "Rutgers Glacier's surroundings include Q433701",
+   "Rutgers Glacier's surroundings include Q2749",
+   "Rutgers Glacier's surroundings include Q863832",
+   "Rutgers Glacier's surroundings include Q3834",
+   "Rutgers Glacier's surroundings include Q106274",
+   "Rutgers Glacier's surroundings include Q1779185",
+   "Rutgers Glacier's surroundings include Q4518353",
+   "Rutgers Glacier's surroundings include Q275731",
+   "Rutgers Glacier's surroundings include Q102621",
+   "Rutgers Glacier's surroundings include Q4418120",
+   "Rutgers Glacier's surroundings include Q891",
+   "Rutgers Glacier's surroundings include Q142",
+   "Rutgers Glacier's surroundings include Q220",
+   "Rutgers Glacier's surroundings include Q1781",
+   "Rutgers Glacier's surroundings include Q1794",
+   "Rutgers Glacier's surroundings include Q1741",
+   "Rutgers Glacier's surroundings include Q966192",
+   "Rutgers Glacier's surroundings include Q2711986",
+   "Rutgers Glacier's surroundings include Q1781710",
+   "Rutgers Glacier's surroundings include Q60",
+   "Rutgers Glacier's surroundings include Q173695",
+   "Rutgers Glacier's surroundings include Q135572",
+   "Rutgers Glacier's surroundings include Q2598",
+   "Rutgers Glacier's surroundings include Q192265",
+   "Rutgers Glacier's surroundings include Q1792",
+   "Rutgers Glacier's surroundings include Q22905",
+   "Rutgers Glacier's surroundings include Q5838",
+   "Rutgers Glacier's surroundings include Q536598",
+   "Rutgers Glacier's surroundings include Q3316008",
+   "Rutgers Glacier's surroundings include Q1327770",
+   "Rutgers Glacier's surroundings include Q477987",
+   "Rutgers Glacier's surroundings include Q551378",
+   "Rutgers Glacier's surroundings include Q648432",
+   "Rutgers Glacier's surroundings include Q1345",
+   "Rutgers Glacier's surroundings include Q1228829",
+   "Rutgers Glacier's surroundings include Q797437",
+   "Rutgers Glacier's surroundings include Q87",
+   "Rutgers Glacier's surroundings include Q157725",
+   "Rutgers Glacier's surroundings include Q36036",
+   "Rutgers Glacier's surroundings include Q6837",
+   "Rutgers Glacier's surroundings include Q1735",
+   "Rutgers Glacier's surroundings include Q1711",
+   "Rutgers Glacier's surroundings include Q507117",
+   "Rutgers Glacier's surroundings include Q2722267",
+   "Rutgers Glacier's surroundings include Q13666",
+   "Rutgers Glacier's surroundings include Q206988",
+   "Rutgers Glacier's surroundings include Q1715",
+   "Rutgers Glacier's surroundings include Q265332",
+   "Rutgers Glacier's surroundings include Q745594",
+   "Rutgers Glacier's surroundings include Q13373",
+   "Rutgers Glacier's surroundings include Q725261",
+   "Rutgers Glacier's surroundings include Q572595",
+   "Rutgers Glacier's surroundings include Q576671",
+   "Rutgers Glacier's surroundings include Q2453742",
+   "Rutgers Glacier's surroundings include Q7880",
+   "Rutgers Glacier's surroundings include Q184163",
+   "Rutgers Glacier's surroundings include Q997335",
+   "Rutgers Glacier's surroundings include Q26339",
+   "Rutgers Glacier's surroundings include Q845623",
+   "Rutgers Glacier's surroundings include Q64589",
+   "Rutgers Glacier's surroundings include Q1720",
+   "Rutgers Glacier's surroundings include Q835831",
+   "Rutgers Glacier's surroundings include Q487977",
+   "Rutgers Glacier's surroundings include Q2256",
+   "Rutgers Glacier's surroundings include Q6346",
+   "Rutgers Glacier's surroundings include Q161994",
+   "Rutgers Glacier's surroundings include Q34615",
+   "Rutgers Glacier's surroundings include Q47554",
+   "Rutgers Glacier's surroundings include Q194420",
+   "Rutgers Glacier's surroundings include Q197691",
+   "Rutgers Glacier's surroundings include Q7027",
+   "Rutgers Glacier's surroundings include Q270",
+   "Rutgers Glacier's surroundings include Q1828035",
+   "Rutgers Glacier's surroundings include Q1022",
+   "Rutgers Glacier's surroundings include Q7473516",
+   "Rutgers Glacier's surroundings include Q181704",
+   "Rutgers Glacier's surroundings include Q72",
+   "Rutgers Glacier's surroundings include Q2683",
+   "Rutgers Glacier's surroundings include Q467617",
+   "Rutgers Glacier's surroundings include Q42168",
+   "Rutgers Glacier's surroundings include Q153494",
+   "Rutgers Glacier's surroundings include Q13362",
+   "Rutgers Glacier's surroundings include Q484552",
+   "Rutgers Glacier's surroundings include Q320233",
+   "Rutgers Glacier's surroundings include Q1297",
+   "Rutgers Glacier's surroundings include Q2865",
+   "Rutgers Glacier's surroundings include Q16568",
+   "Rutgers Glacier's surroundings include Q4093",
+   "Rutgers Glacier's surroundings include Q319397",
+   "Rutgers Glacier's surroundings include Q212856",
+   "Rutgers Glacier's surroundings include Q90",
+   "Rutgers Glacier's surroundings include Q1807458",
+   "Rutgers Glacier's surroundings include Q5839",
+   "Rutgers Glacier's surroundings include Q2861",
+   "Rutgers Glacier's surroundings include Q504875",
+   "Rutgers Glacier's surroundings include Q105048",
+   "Rutgers Glacier's surroundings include Q3619316",
+   "Rutgers Glacier's surroundings include Q287148",
+   "Rutgers Glacier's surroundings include Q630668",
+   "Rutgers Glacier's surroundings include Q40898",
+   "Rutgers Glacier's surroundings include Q734064",
+   "Rutgers Glacier's surroundings include Q1537",
+   "Rutgers Glacier's surroundings include Q375314"
+  ],
+  [
+   [
+    -90.89999389648438
+   ],
+   [
+    -88.57818603515625
+   ],
+   [
+    -94.51141357421875
+   ],
+   [
+    -86.33447265625
+   ],
+   [
+    -94.6739501953125
+   ],
+   [
+    -89.70217895507812
+   ],
+   [
+    -88.79826354980469
+   ],
+   [
+    -87.75018310546875
+   ],
+   [
+    -92.68974304199219
+   ],
+   [
+    -82.50680541992188
+   ],
+   [
+    -88.69239807128906
+   ],
+   [
+    -92.01390075683594
+   ],
+   [
+    -89.81787109375
+   ],
+   [
+    -88.43525695800781
+   ],
+   [
+    -94.69464111328125
+   ],
+   [
+    -94.66551971435547
+   ],
+   [
+    -86.86360168457031
+   ],
+   [
+    -91.8314208984375
+   ],
+   [
+    -89.43986511230469
+   ],
+   [
+    -95.73712158203125
+   ],
+   [
+    -92.21890258789062
+   ],
+   [
+    -97.43089294433594
+   ],
+   [
+    -82.54426574707031
+   ],
+   [
+    -83.91810607910156
+   ],
+   [
+    -85.30047607421875
+   ],
+   [
+    -85.16911315917969
+   ],
+   [
+    -84.93167877197266
+   ],
+   [
+    -91.40071868896484
+   ],
+   [
+    -95.10568237304688
+   ],
+   [
+    -93.8186264038086
+   ],
+   [
+    -91.98994445800781
+   ],
+   [
+    -89.95932006835938
+   ],
+   [
+    -98.68253326416016
+   ],
+   [
+    -85.6787109375
+   ],
+   [
+    -87.13782501220703
+   ],
+   [
+    -92.24301147460938
+   ],
+   [
+    -85.0020751953125
+   ],
+   [
+    -85.42224884033203
+   ],
+   [
+    -89.8765869140625
+   ],
+   [
+    -79.24095153808594
+   ],
+   [
+    -87.9035415649414
+   ],
+   [
+    -88.58326721191406
+   ],
+   [
+    -93.78073120117188
+   ],
+   [
+    -91.56887817382812
+   ],
+   [
+    -92.35786437988281
+   ],
+   [
+    -91.64641571044922
+   ],
+   [
+    -89.11265563964844
+   ],
+   [
+    -89.00914764404297
+   ],
+   [
+    -91.81321716308594
+   ],
+   [
+    -94.83159637451172
+   ],
+   [
+    -91.75169372558594
+   ],
+   [
+    -94.90261840820312
+   ],
+   [
+    -88.33807373046875
+   ],
+   [
+    -86.50802612304688
+   ],
+   [
+    -83.12509155273438
+   ],
+   [
+    -93.01742553710938
+   ],
+   [
+    -92.65253448486328
+   ],
+   [
+    -94.71084594726562
+   ],
+   [
+    -95.14363098144531
+   ],
+   [
+    -93.68510437011719
+   ],
+   [
+    -92.68033599853516
+   ],
+   [
+    -91.87744140625
+   ],
+   [
+    -90.42109680175781
+   ],
+   [
+    -85.4869384765625
+   ],
+   [
+    -85.35655212402344
+   ],
+   [
+    -85.85206604003906
+   ],
+   [
+    -87.81657409667969
+   ],
+   [
+    -92.9092788696289
+   ],
+   [
+    -84.72982788085938
+   ],
+   [
+    -91.06683349609375
+   ],
+   [
+    -95.92251586914062
+   ],
+   [
+    -91.91700744628906
+   ],
+   [
+    -89.36115264892578
+   ],
+   [
+    -90.20732116699219
+   ],
+   [
+    -85.00529479980469
+   ],
+   [
+    -92.882080078125
+   ],
+   [
+    -84.45511627197266
+   ],
+   [
+    -86.5987548828125
+   ],
+   [
+    -92.5379638671875
+   ],
+   [
+    -93.27247619628906
+   ],
+   [
+    -85.2613525390625
+   ],
+   [
+    -91.43229675292969
+   ],
+   [
+    -88.94512176513672
+   ],
+   [
+    -94.37132263183594
+   ],
+   [
+    -84.82568359375
+   ],
+   [
+    -89.04225158691406
+   ],
+   [
+    -93.39381408691406
+   ],
+   [
+    -89.36042785644531
+   ],
+   [
+    -94.31086730957031
+   ],
+   [
+    -87.91143798828125
+   ],
+   [
+    -88.48930358886719
+   ],
+   [
+    -94.75035095214844
+   ],
+   [
+    -91.28834533691406
+   ],
+   [
+    -84.92880249023438
+   ],
+   [
+    -89.65226745605469
+   ],
+   [
+    -90.00167083740234
+   ],
+   [
+    -67.64501953125
+   ],
+   [
+    -85.21511840820312
+   ],
+   [
+    -91.3216323852539
+   ],
+   [
+    -88.9425048828125
+   ],
+   [
+    -95.77992248535156
+   ],
+   [
+    -94.51622009277344
+   ],
+   [
+    -84.6670913696289
+   ],
+   [
+    -90.41663360595703
+   ],
+   [
+    -92.33079528808594
+   ],
+   [
+    -89.0238037109375
+   ],
+   [
+    -85.27137756347656
+   ],
+   [
+    -85.28048706054688
+   ],
+   [
+    -92.62667846679688
+   ],
+   [
+    -89.8568115234375
+   ],
+   [
+    -82.196533203125
+   ],
+   [
+    -92.32456970214844
+   ],
+   [
+    -86.527587890625
+   ],
+   [
+    -85.62324523925781
+   ],
+   [
+    -81.71923065185547
+   ],
+   [
+    -78.52737426757812
+   ],
+   [
+    -89.4359130859375
+   ],
+   [
+    -93.20664978027344
+   ],
+   [
+    -89.69305419921875
+   ],
+   [
+    -78.275146484375
+   ],
+   [
+    -85.00376892089844
+   ],
+   [
+    -84.37649536132812
+   ],
+   [
+    -88.10459899902344
+   ],
+   [
+    -89.56338500976562
+   ],
+   [
+    -88.24320983886719
+   ],
+   [
+    -89.73947143554688
+   ],
+   [
+    -98.07131958007812
+   ],
+   [
+    -89.38131713867188
+   ],
+   [
+    -88.38983154296875
+   ],
+   [
+    -87.88701629638672
+   ],
+   [
+    -90.5196762084961
+   ],
+   [
+    -84.9007568359375
+   ],
+   [
+    -92.9853515625
+   ],
+   [
+    -85.97447204589844
+   ],
+   [
+    -91.96165466308594
+   ],
+   [
+    -94.71160125732422
+   ],
+   [
+    -95.67608642578125
+   ],
+   [
+    -92.12901306152344
+   ],
+   [
+    -91.35498046875
+   ],
+   [
+    -95.28678894042969
+   ],
+   [
+    -82.15736389160156
+   ],
+   [
+    -81.570068359375
+   ],
+   [
+    -79.08155822753906
+   ],
+   [
+    -85.03610229492188
+   ],
+   [
+    -85.14883422851562
+   ],
+   [
+    -84.87025451660156
+   ],
+   [
+    -92.22026062011719
+   ],
+   [
+    -93.67970275878906
+   ],
+   [
+    -94.70759582519531
+   ],
+   [
+    -78.22735595703125
+   ],
+   [
+    -91.4298095703125
+   ],
+   [
+    -91.57876586914062
+   ],
+   [
+    -84.62483978271484
+   ],
+   [
+    -92.47892761230469
+   ],
+   [
+    -85.12283325195312
+   ],
+   [
+    -86.99751281738281
+   ],
+   [
+    -85.84475708007812
+   ],
+   [
+    -92.07853698730469
+   ],
+   [
+    -93.27513122558594
+   ],
+   [
+    -94.86114501953125
+   ],
+   [
+    -92.83599090576172
+   ],
+   [
+    -91.83845520019531
+   ],
+   [
+    -92.18310546875
+   ],
+   [
+    -84.49412536621094
+   ],
+   [
+    -94.34515380859375
+   ],
+   [
+    -92.17404174804688
+   ],
+   [
+    -78.48081970214844
+   ],
+   [
+    -92.66104125976562
+   ],
+   [
+    -88.2047119140625
+   ],
+   [
+    -86.52079010009766
+   ],
+   [
+    -84.64842987060547
+   ],
+   [
+    -84.32553100585938
+   ],
+   [
+    -91.84748840332031
+   ],
+   [
+    -94.17703247070312
+   ],
+   [
+    -89.21607971191406
+   ],
+   [
+    -91.52883911132812
+   ],
+   [
+    -84.6690673828125
+   ],
+   [
+    -91.13917541503906
+   ],
+   [
+    -92.144775390625
+   ],
+   [
+    -88.572998046875
+   ],
+   [
+    -92.9744873046875
+   ],
+   [
+    -92.3135986328125
+   ],
+   [
+    -92.66133117675781
+   ],
+   [
+    -93.35317993164062
+   ],
+   [
+    -86.39471435546875
+   ],
+   [
+    -91.82496643066406
+   ],
+   [
+    -92.84905242919922
+   ],
+   [
+    -87.36764526367188
+   ],
+   [
+    -92.69110107421875
+   ],
+   [
+    -88.8338623046875
+   ],
+   [
+    -84.54727172851562
+   ],
+   [
+    -92.18763732910156
+   ],
+   [
+    -93.16131591796875
+   ],
+   [
+    -84.88743591308594
+   ],
+   [
+    -85.2658462524414
+   ],
+   [
+    -91.75336456298828
+   ],
+   [
+    -88.8692398071289
+   ],
+   [
+    -89.65664672851562
+   ],
+   [
+    -92.64705657958984
+   ],
+   [
+    -92.96990966796875
+   ],
+   [
+    -86.42271423339844
+   ],
+   [
+    -80.86427307128906
+   ],
+   [
+    -95.09342956542969
+   ],
+   [
+    -84.37451934814453
+   ],
+   [
+    -94.9818115234375
+   ],
+   [
+    -91.48027038574219
+   ],
+   [
+    -79.27569580078125
+   ],
+   [
+    -85.22684478759766
+   ],
+   [
+    -93.95394897460938
+   ],
+   [
+    -89.88691711425781
+   ],
+   [
+    -91.73153686523438
+   ],
+   [
+    -88.78848266601562
+   ],
+   [
+    -93.51608276367188
+   ],
+   [
+    -91.27444458007812
+   ],
+   [
+    -85.40452575683594
+   ],
+   [
+    -85.7654037475586
+   ],
+   [
+    -89.6898193359375
+   ],
+   [
+    -85.42109680175781
+   ],
+   [
+    -91.36618041992188
+   ],
+   [
+    -91.125244140625
+   ],
+   [
+    -78.83708190917969
+   ],
+   [
+    -94.25457763671875
+   ],
+   [
+    -85.7601089477539
+   ],
+   [
+    -85.56001281738281
+   ],
+   [
+    -91.78593444824219
+   ],
+   [
+    -92.17012786865234
+   ],
+   [
+    -94.9118881225586
+   ],
+   [
+    -91.92147827148438
+   ],
+   [
+    -91.42182922363281
+   ],
+   [
+    -90.24632263183594
+   ],
+   [
+    -92.25880432128906
+   ],
+   [
+    -85.44656372070312
+   ],
+   [
+    -91.24234008789062
+   ],
+   [
+    -86.59896087646484
+   ],
+   [
+    -85.20269775390625
+   ],
+   [
+    -91.05571746826172
+   ],
+   [
+    -84.59312438964844
+   ],
+   [
+    -90.97027587890625
+   ],
+   [
+    -83.38725280761719
+   ],
+   [
+    -85.14910888671875
+   ],
+   [
+    -84.93055725097656
+   ],
+   [
+    -86.71969604492188
+   ],
+   [
+    -78.4185791015625
+   ],
+   [
+    -85.02410888671875
+   ],
+   [
+    -88.00852966308594
+   ],
+   [
+    -83.53842163085938
+   ],
+   [
+    -85.90185546875
+   ],
+   [
+    -90.01872253417969
+   ],
+   [
+    -90.3953857421875
+   ],
+   [
+    -84.19149780273438
+   ],
+   [
+    -86.60755920410156
+   ],
+   [
+    -83.63072204589844
+   ],
+   [
+    -92.53602600097656
+   ],
+   [
+    -85.9093017578125
+   ],
+   [
+    -93.43411254882812
+   ],
+   [
+    -77.84101104736328
+   ],
+   [
+    -80.41365814208984
+   ],
+   [
+    -80.94426727294922
+   ],
+   [
+    -79.83214569091797
+   ],
+   [
+    -80.18428039550781
+   ],
+   [
+    -87.66798400878906
+   ],
+   [
+    -88.90177154541016
+   ],
+   [
+    -89.79383850097656
+   ],
+   [
+    -86.52996826171875
+   ],
+   [
+    -85.79561614990234
+   ],
+   [
+    -93.88963317871094
+   ],
+   [
+    -84.29875183105469
+   ],
+   [
+    -84.41676330566406
+   ],
+   [
+    -87.63040161132812
+   ],
+   [
+    -80.99363708496094
+   ],
+   [
+    -81.05899810791016
+   ],
+   [
+    -83.52400207519531
+   ],
+   [
+    -74.04471588134766
+   ],
+   [
+    -83.36042785644531
+   ],
+   [
+    -84.60037231445312
+   ],
+   [
+    -90.22795867919922
+   ],
+   [
+    -87.18887329101562
+   ],
+   [
+    -88.24678039550781
+   ],
+   [
+    -87.96266174316406
+   ],
+   [
+    -86.26388549804688
+   ],
+   [
+    -84.37130737304688
+   ],
+   [
+    -86.81314849853516
+   ],
+   [
+    -89.74462127685547
+   ],
+   [
+    -88.15107727050781
+   ],
+   [
+    -90.59951782226562
+   ],
+   [
+    -84.77452087402344
+   ],
+   [
+    -82.79214477539062
+   ],
+   [
+    -78.32911682128906
+   ],
+   [
+    -87.13934326171875
+   ],
+   [
+    -89.57540893554688
+   ],
+   [
+    -89.91891479492188
+   ],
+   [
+    -90.5545425415039
+   ],
+   [
+    -89.249267578125
+   ],
+   [
+    -86.86849975585938
+   ],
+   [
+    -88.01580047607422
+   ],
+   [
+    -87.25080871582031
+   ],
+   [
+    -80.56843566894531
+   ],
+   [
+    -81.03817749023438
+   ],
+   [
+    -81.94281005859375
+   ],
+   [
+    -84.88133239746094
+   ],
+   [
+    -87.41702270507812
+   ],
+   [
+    -80.84693908691406
+   ],
+   [
+    -86.9935302734375
+   ],
+   [
+    -92.13790130615234
+   ],
+   [
+    -88.57638549804688
+   ],
+   [
+    -84.36357116699219
+   ],
+   [
+    -87.42160034179688
+   ],
+   [
+    -81.67405700683594
+   ],
+   [
+    -90.23417663574219
+   ],
+   [
+    -80.52188873291016
+   ],
+   [
+    -82.3174057006836
+   ],
+   [
+    -87.07488250732422
+   ],
+   [
+    -89.50196838378906
+   ],
+   [
+    -81.03045654296875
+   ],
+   [
+    -86.80290985107422
+   ],
+   [
+    -86.65233612060547
+   ],
+   [
+    -90.12125396728516
+   ],
+   [
+    -80.39913177490234
+   ],
+   [
+    -83.39039611816406
+   ],
+   [
+    -88.37435913085938
+   ],
+   [
+    -85.20350646972656
+   ],
+   [
+    -89.66488647460938
+   ],
+   [
+    -82.71074676513672
+   ],
+   [
+    -84.84025573730469
+   ],
+   [
+    -89.72161865234375
+   ],
+   [
+    -86.60679626464844
+   ],
+   [
+    -80.57614135742188
+   ],
+   [
+    -86.68447875976562
+   ],
+   [
+    -85.12303161621094
+   ],
+   [
+    -69.80033874511719
+   ],
+   [
+    -81.81027221679688
+   ],
+   [
+    -87.88813781738281
+   ],
+   [
+    -85.13322448730469
+   ],
+   [
+    -90.07093811035156
+   ],
+   [
+    -89.42127227783203
+   ],
+   [
+    -80.81520080566406
+   ],
+   [
+    -87.24212646484375
+   ],
+   [
+    -87.85090637207031
+   ],
+   [
+    -84.29595184326172
+   ],
+   [
+    -80.94657135009766
+   ],
+   [
+    -81.52427673339844
+   ],
+   [
+    -86.81278991699219
+   ],
+   [
+    -84.32911682128906
+   ],
+   [
+    -77.62174224853516
+   ],
+   [
+    -86.7342529296875
+   ],
+   [
+    -82.44854736328125
+   ],
+   [
+    -80.95460510253906
+   ],
+   [
+    -77.24120330810547
+   ],
+   [
+    -74.07855987548828
+   ],
+   [
+    -83.80731201171875
+   ],
+   [
+    -87.59923553466797
+   ],
+   [
+    -85.35012817382812
+   ],
+   [
+    -73.4891586303711
+   ],
+   [
+    -80.74403381347656
+   ],
+   [
+    -80.53355407714844
+   ],
+   [
+    -83.16390991210938
+   ],
+   [
+    -83.99398040771484
+   ],
+   [
+    -85.90913391113281
+   ],
+   [
+    -83.61447143554688
+   ],
+   [
+    -93.75642395019531
+   ],
+   [
+    -85.41667175292969
+   ],
+   [
+    -84.30682373046875
+   ],
+   [
+    -84.29440307617188
+   ],
+   [
+    -87.78031921386719
+   ],
+   [
+    -81.66625213623047
+   ],
+   [
+    -86.01596069335938
+   ],
+   [
+    -82.67138671875
+   ],
+   [
+    -87.83056640625
+   ],
+   [
+    -89.75541687011719
+   ],
+   [
+    -91.74197387695312
+   ],
+   [
+    -87.4059066772461
+   ],
+   [
+    -87.42677307128906
+   ],
+   [
+    -93.35016632080078
+   ],
+   [
+    -76.75471496582031
+   ],
+   [
+    -76.72401428222656
+   ],
+   [
+    -75.29521942138672
+   ],
+   [
+    -81.08831024169922
+   ],
+   [
+    -80.9704818725586
+   ],
+   [
+    -81.0457763671875
+   ],
+   [
+    -87.90977478027344
+   ],
+   [
+    -90.29056549072266
+   ],
+   [
+    -90.02596282958984
+   ],
+   [
+    -73.811767578125
+   ],
+   [
+    -86.72639465332031
+   ],
+   [
+    -86.5458755493164
+   ],
+   [
+    -81.27310943603516
+   ],
+   [
+    -86.96746826171875
+   ],
+   [
+    -80.76553344726562
+   ],
+   [
+    -83.17950439453125
+   ],
+   [
+    -83.1237564086914
+   ],
+   [
+    -87.53768920898438
+   ],
+   [
+    -91.88792419433594
+   ],
+   [
+    -90.79106140136719
+   ],
+   [
+    -88.77610778808594
+   ],
+   [
+    -87.60253143310547
+   ],
+   [
+    -86.23509979248047
+   ],
+   [
+    -81.13343811035156
+   ],
+   [
+    -90.05548858642578
+   ],
+   [
+    -86.99919128417969
+   ],
+   [
+    -73.69326782226562
+   ],
+   [
+    -87.55545806884766
+   ],
+   [
+    -85.26448059082031
+   ],
+   [
+    -81.01821899414062
+   ],
+   [
+    -80.59114074707031
+   ],
+   [
+    -80.78425598144531
+   ],
+   [
+    -87.92529296875
+   ],
+   [
+    -90.29023742675781
+   ],
+   [
+    -85.26519775390625
+   ],
+   [
+    -87.76115417480469
+   ],
+   [
+    -80.53009796142578
+   ],
+   [
+    -87.8516616821289
+   ],
+   [
+    -86.76904296875
+   ],
+   [
+    -85.07501983642578
+   ],
+   [
+    -86.86961364746094
+   ],
+   [
+    -88.41519927978516
+   ],
+   [
+    -89.92942810058594
+   ],
+   [
+    -90.32107543945312
+   ],
+   [
+    -81.88638305664062
+   ],
+   [
+    -86.40185546875
+   ],
+   [
+    -87.67223358154297
+   ],
+   [
+    -84.77762603759766
+   ],
+   [
+    -85.69288635253906
+   ],
+   [
+    -83.59769439697266
+   ],
+   [
+    -80.10479736328125
+   ],
+   [
+    -85.3281021118164
+   ],
+   [
+    -88.79103088378906
+   ],
+   [
+    -80.41452026367188
+   ],
+   [
+    -81.45474243164062
+   ],
+   [
+    -87.32952880859375
+   ],
+   [
+    -85.76858520507812
+   ],
+   [
+    -85.72552490234375
+   ],
+   [
+    -87.85162353515625
+   ],
+   [
+    -87.07180786132812
+   ],
+   [
+    -81.86141967773438
+   ],
+   [
+    -76.64762115478516
+   ],
+   [
+    -89.03144073486328
+   ],
+   [
+    -80.44169616699219
+   ],
+   [
+    -90.61489868164062
+   ],
+   [
+    -86.39078521728516
+   ],
+   [
+    -74.34625244140625
+   ],
+   [
+    -81.94194030761719
+   ],
+   [
+    -89.31658935546875
+   ],
+   [
+    -85.87652587890625
+   ],
+   [
+    -87.56607055664062
+   ],
+   [
+    -84.8474349975586
+   ],
+   [
+    -88.631103515625
+   ],
+   [
+    -88.08602905273438
+   ],
+   [
+    -80.63179016113281
+   ],
+   [
+    -81.19559478759766
+   ],
+   [
+    -84.2196044921875
+   ],
+   [
+    -82.652099609375
+   ],
+   [
+    -87.40168762207031
+   ],
+   [
+    -86.9447021484375
+   ],
+   [
+    -74.4367446899414
+   ],
+   [
+    -89.58720397949219
+   ],
+   [
+    -82.98626708984375
+   ],
+   [
+    -81.56462097167969
+   ],
+   [
+    -86.973876953125
+   ],
+   [
+    -87.284423828125
+   ],
+   [
+    -91.39314270019531
+   ],
+   [
+    -87.72369384765625
+   ],
+   [
+    -85.95459747314453
+   ],
+   [
+    -85.38774108886719
+   ],
+   [
+    -87.87384033203125
+   ],
+   [
+    -81.272216796875
+   ],
+   [
+    -87.82371520996094
+   ],
+   [
+    -80.18345642089844
+   ],
+   [
+    -76.10313415527344
+   ],
+   [
+    -81.78614044189453
+   ],
+   [
+    -76.21539306640625
+   ],
+   [
+    -82.3304214477539
+   ],
+   [
+    -77.55693817138672
+   ],
+   [
+    -77.94215393066406
+   ],
+   [
+    -77.18510437011719
+   ],
+   [
+    -79.36087036132812
+   ],
+   [
+    -71.80397033691406
+   ],
+   [
+    -76.76847839355469
+   ],
+   [
+    -79.30162048339844
+   ],
+   [
+    -76.9534683227539
+   ],
+   [
+    -76.26216125488281
+   ],
+   [
+    -82.3800048828125
+   ],
+   [
+    -82.24171447753906
+   ],
+   [
+    -75.85843658447266
+   ],
+   [
+    -80.05182647705078
+   ],
+   [
+    -77.0572738647461
+   ],
+   [
+    -83.86561584472656
+   ],
+   [
+    -80.41873168945312
+   ],
+   [
+    -85.3778076171875
+   ],
+   [
+    -71.499267578125
+   ],
+   [
+    -73.72233581542969
+   ],
+   [
+    -73.80148315429688
+   ],
+   [
+    -73.75627136230469
+   ],
+   [
+    -73.25484466552734
+   ],
+   [
+    -79.89532470703125
+   ],
+   [
+    -82.62733459472656
+   ],
+   [
+    -82.33573913574219
+   ],
+   [
+    -79.51448059082031
+   ],
+   [
+    -77.7221908569336
+   ],
+   [
+    -85.93311309814453
+   ],
+   [
+    -77.06671142578125
+   ],
+   [
+    -76.22640228271484
+   ],
+   [
+    -80.3893814086914
+   ],
+   [
+    -73.8936767578125
+   ],
+   [
+    -74.25550842285156
+   ],
+   [
+    -77.35494232177734
+   ],
+   [
+    -68.65580749511719
+   ],
+   [
+    -76.54095458984375
+   ],
+   [
+    -77.22845458984375
+   ],
+   [
+    -83.40312194824219
+   ],
+   [
+    -79.14595031738281
+   ],
+   [
+    -79.0400390625
+   ],
+   [
+    -79.60848999023438
+   ],
+   [
+    -76.63151550292969
+   ],
+   [
+    -76.77769470214844
+   ],
+   [
+    -79.04609680175781
+   ],
+   [
+    -82.8829574584961
+   ],
+   [
+    -80.93826293945312
+   ],
+   [
+    -83.2844467163086
+   ],
+   [
+    -76.3935546875
+   ],
+   [
+    -75.19163513183594
+   ],
+   [
+    -71.952392578125
+   ],
+   [
+    -80.003173828125
+   ],
+   [
+    -81.18701171875
+   ],
+   [
+    -83.08541870117188
+   ],
+   [
+    -82.19339752197266
+   ],
+   [
+    -81.50888061523438
+   ],
+   [
+    -79.66471099853516
+   ],
+   [
+    -79.74072265625
+   ],
+   [
+    -78.9908447265625
+   ],
+   [
+    -73.9491195678711
+   ],
+   [
+    -74.17605590820312
+   ],
+   [
+    -74.9735107421875
+   ],
+   [
+    -76.54638671875
+   ],
+   [
+    -80.27151489257812
+   ],
+   [
+    -74.29035949707031
+   ],
+   [
+    -78.61009216308594
+   ],
+   [
+    -83.96951293945312
+   ],
+   [
+    -78.46188354492188
+   ],
+   [
+    -76.57850646972656
+   ],
+   [
+    -78.55770874023438
+   ],
+   [
+    -73.41553497314453
+   ],
+   [
+    -81.0255355834961
+   ],
+   [
+    -73.73539733886719
+   ],
+   [
+    -74.96179962158203
+   ],
+   [
+    -78.80528259277344
+   ],
+   [
+    -81.02076721191406
+   ],
+   [
+    -73.93282318115234
+   ],
+   [
+    -80.1089859008789
+   ],
+   [
+    -77.69051361083984
+   ],
+   [
+    -82.25064086914062
+   ],
+   [
+    -73.34565734863281
+   ],
+   [
+    -77.33538818359375
+   ],
+   [
+    -81.45258331298828
+   ],
+   [
+    -77.56184387207031
+   ],
+   [
+    -83.27027130126953
+   ],
+   [
+    -76.10684204101562
+   ],
+   [
+    -77.55945587158203
+   ],
+   [
+    -82.38858032226562
+   ],
+   [
+    -80.12580108642578
+   ],
+   [
+    -73.81491088867188
+   ],
+   [
+    -79.36453247070312
+   ],
+   [
+    -78.58755493164062
+   ],
+   [
+    -59.68846893310547
+   ],
+   [
+    -74.55435943603516
+   ],
+   [
+    -79.09294891357422
+   ],
+   [
+    -79.36276245117188
+   ],
+   [
+    -82.39413452148438
+   ],
+   [
+    -81.89789581298828
+   ],
+   [
+    -73.75346374511719
+   ],
+   [
+    -79.07785034179688
+   ],
+   [
+    -79.5864028930664
+   ],
+   [
+    -76.98892211914062
+   ],
+   [
+    -73.67340087890625
+   ],
+   [
+    -74.46688842773438
+   ],
+   [
+    -80.69091796875
+   ],
+   [
+    -77.49147033691406
+   ],
+   [
+    -71.21986389160156
+   ],
+   [
+    -79.70854949951172
+   ],
+   [
+    -75.00285339355469
+   ],
+   [
+    -74.17381286621094
+   ],
+   [
+    -72.13789367675781
+   ],
+   [
+    -68.28092956542969
+   ],
+   [
+    -77.04312133789062
+   ],
+   [
+    -82.26007080078125
+   ],
+   [
+    -77.78943634033203
+   ],
+   [
+    -68.50778198242188
+   ],
+   [
+    -74.08997344970703
+   ],
+   [
+    -73.94058990478516
+   ],
+   [
+    -76.20805358886719
+   ],
+   [
+    -77.68924713134766
+   ],
+   [
+    -76.13057708740234
+   ],
+   [
+    -77.75079345703125
+   ],
+   [
+    -86.00148010253906
+   ],
+   [
+    -77.83917236328125
+   ],
+   [
+    -77.89036560058594
+   ],
+   [
+    -76.30471801757812
+   ],
+   [
+    -79.12163543701172
+   ],
+   [
+    -73.36539459228516
+   ],
+   [
+    -80.64115905761719
+   ],
+   [
+    -75.41545867919922
+   ],
+   [
+    -80.240234375
+   ],
+   [
+    -82.205078125
+   ],
+   [
+    -83.8076400756836
+   ],
+   [
+    -79.27079772949219
+   ],
+   [
+    -80.522216796875
+   ],
+   [
+    -84.03591918945312
+   ],
+   [
+    -71.7730712890625
+   ],
+   [
+    -70.52985382080078
+   ],
+   [
+    -69.30856323242188
+   ],
+   [
+    -73.79828643798828
+   ],
+   [
+    -73.8662109375
+   ],
+   [
+    -73.86091613769531
+   ],
+   [
+    -79.82170104980469
+   ],
+   [
+    -81.47364807128906
+   ],
+   [
+    -81.7518081665039
+   ],
+   [
+    -68.12818908691406
+   ],
+   [
+    -79.66722869873047
+   ],
+   [
+    -79.46284484863281
+   ],
+   [
+    -73.42726135253906
+   ],
+   [
+    -79.25300598144531
+   ],
+   [
+    -73.8656005859375
+   ],
+   [
+    -75.85606384277344
+   ],
+   [
+    -74.28511047363281
+   ],
+   [
+    -78.85099792480469
+   ],
+   [
+    -83.43533325195312
+   ],
+   [
+    -82.55571746826172
+   ],
+   [
+    -80.71943664550781
+   ],
+   [
+    -79.38554382324219
+   ],
+   [
+    -78.99380493164062
+   ],
+   [
+    -73.7557373046875
+   ],
+   [
+    -82.18180847167969
+   ],
+   [
+    -79.40990447998047
+   ],
+   [
+    -68.65007019042969
+   ],
+   [
+    -79.92330932617188
+   ],
+   [
+    -76.07257843017578
+   ],
+   [
+    -74.66704559326172
+   ],
+   [
+    -73.94263458251953
+   ],
+   [
+    -73.78372192382812
+   ],
+   [
+    -79.25682830810547
+   ],
+   [
+    -81.48107147216797
+   ],
+   [
+    -76.94767761230469
+   ],
+   [
+    -79.09013366699219
+   ],
+   [
+    -73.81407165527344
+   ],
+   [
+    -79.82315826416016
+   ],
+   [
+    -79.84728240966797
+   ],
+   [
+    -77.35891723632812
+   ],
+   [
+    -79.88351440429688
+   ],
+   [
+    -79.39876556396484
+   ],
+   [
+    -79.18659973144531
+   ],
+   [
+    -83.02523803710938
+   ],
+   [
+    -74.70752716064453
+   ],
+   [
+    -79.723876953125
+   ],
+   [
+    -81.23086547851562
+   ],
+   [
+    -77.34580993652344
+   ],
+   [
+    -80.7574462890625
+   ],
+   [
+    -76.80175018310547
+   ],
+   [
+    -73.4202651977539
+   ],
+   [
+    -80.54704284667969
+   ],
+   [
+    -81.4942855834961
+   ],
+   [
+    -73.55850982666016
+   ],
+   [
+    -74.69640350341797
+   ],
+   [
+    -80.33003234863281
+   ],
+   [
+    -77.04884338378906
+   ],
+   [
+    -78.44381713867188
+   ],
+   [
+    -79.26629638671875
+   ],
+   [
+    -79.45869445800781
+   ],
+   [
+    -74.93527221679688
+   ],
+   [
+    -70.09626770019531
+   ],
+   [
+    -82.43909454345703
+   ],
+   [
+    -74.4438247680664
+   ],
+   [
+    -82.6075439453125
+   ],
+   [
+    -79.81320190429688
+   ],
+   [
+    -68.55154418945312
+   ],
+   [
+    -74.337890625
+   ],
+   [
+    -80.7020263671875
+   ],
+   [
+    -77.90469360351562
+   ],
+   [
+    -79.90248107910156
+   ],
+   [
+    -77.18359375
+   ],
+   [
+    -81.62771606445312
+   ],
+   [
+    -80.52955627441406
+   ],
+   [
+    -73.99485778808594
+   ],
+   [
+    -74.06563568115234
+   ],
+   [
+    -77.65460205078125
+   ],
+   [
+    -76.50003814697266
+   ],
+   [
+    -80.02586364746094
+   ],
+   [
+    -79.15753173828125
+   ],
+   [
+    -68.62736511230469
+   ],
+   [
+    -82.14190673828125
+   ],
+   [
+    -74.25611877441406
+   ],
+   [
+    -74.10488891601562
+   ],
+   [
+    -79.10582733154297
+   ],
+   [
+    -81.06501770019531
+   ],
+   [
+    -82.71393585205078
+   ],
+   [
+    -79.45498657226562
+   ],
+   [
+    -78.99346160888672
+   ],
+   [
+    -77.52667999267578
+   ],
+   [
+    -80.26219940185547
+   ],
+   [
+    -74.45016479492188
+   ],
+   [
+    -79.84193420410156
+   ]
+  ]
+ ],
+ "time": 3465.898937225342
+}

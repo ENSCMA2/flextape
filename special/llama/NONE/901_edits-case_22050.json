@@ -1,0 +1,2076 @@
+{
+ "case_id": 22050,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Reinhold Niebuhr"
+ },
+ "pre": [
+  [
+   "Reinhold Niebuhr's field of work is abstract algebra",
+   "Reinhold Niebuhr's field of work is theology",
+   "Reinhold Niebuhr's field of work is television program",
+   "Reinhold Niebuhr's field of work is nanotechnology",
+   "Reinhold Niebuhr's field of work is hydrodynamics",
+   "Reinhold Niebuhr's field of work is ethics",
+   "Reinhold Niebuhr's field of work is physicist",
+   "Reinhold Niebuhr's field of work is evolution",
+   "Reinhold Niebuhr's field of work is distribution theory",
+   "Reinhold Niebuhr's field of work is psychophysiology",
+   "Reinhold Niebuhr's field of work is English literature",
+   "Reinhold Niebuhr's field of work is theoretical physics",
+   "Reinhold Niebuhr's field of work is essay",
+   "Reinhold Niebuhr's field of work is ethnology",
+   "Reinhold Niebuhr's field of work is pedagogy",
+   "Reinhold Niebuhr's field of work is kinetic theory",
+   "Reinhold Niebuhr's field of work is ethnography",
+   "Reinhold Niebuhr's field of work is rite",
+   "Reinhold Niebuhr's field of work is economics",
+   "Reinhold Niebuhr's field of work is dance choreography",
+   "Reinhold Niebuhr's field of work is biological anthropology",
+   "Reinhold Niebuhr's field of work is history of religions",
+   "Reinhold Niebuhr's field of work is political philosophy",
+   "Reinhold Niebuhr's field of work is philosophy",
+   "Reinhold Niebuhr's field of work is linguistics",
+   "Reinhold Niebuhr's field of work is cosmology",
+   "Reinhold Niebuhr's field of work is hunting",
+   "Reinhold Niebuhr's field of work is Minkowski spacetime",
+   "Reinhold Niebuhr's field of work is classical music",
+   "Reinhold Niebuhr's field of work is hyperbolic geometry",
+   "Reinhold Niebuhr's field of work is radioactivity",
+   "Reinhold Niebuhr's field of work is belletristic literature",
+   "Reinhold Niebuhr's field of work is model theory",
+   "Reinhold Niebuhr's field of work is choreography",
+   "Reinhold Niebuhr's field of work is chemistry",
+   "Reinhold Niebuhr's field of work is literary activity",
+   "Reinhold Niebuhr's field of work is historical sociology",
+   "Reinhold Niebuhr's field of work is feminism",
+   "Reinhold Niebuhr's field of work is economy",
+   "Reinhold Niebuhr's field of work is astronomy",
+   "Reinhold Niebuhr's field of work is topology",
+   "Reinhold Niebuhr's field of work is translations from English",
+   "Reinhold Niebuhr's field of work is partial differential equation",
+   "Reinhold Niebuhr's field of work is Cairo Geniza",
+   "Reinhold Niebuhr's field of work is nuclear physics",
+   "Reinhold Niebuhr's field of work is dance",
+   "Reinhold Niebuhr's field of work is informatics",
+   "Reinhold Niebuhr's field of work is geometry",
+   "Reinhold Niebuhr's field of work is computational geometry",
+   "Reinhold Niebuhr's field of work is Sanskrit",
+   "Reinhold Niebuhr's field of work is magnetism",
+   "Reinhold Niebuhr's field of work is opera",
+   "Reinhold Niebuhr's field of work is algebraic topology",
+   "Reinhold Niebuhr's field of work is quaternion",
+   "Reinhold Niebuhr's field of work is Bayesian inference",
+   "Reinhold Niebuhr's field of work is quantum electrodynamics",
+   "Reinhold Niebuhr's field of work is religion and society",
+   "Reinhold Niebuhr's field of work is history of economic thought",
+   "Reinhold Niebuhr's field of work is translations from Polish",
+   "Reinhold Niebuhr's field of work is literary translation",
+   "Reinhold Niebuhr's field of work is lyric poetry",
+   "Reinhold Niebuhr's field of work is probability theory",
+   "Reinhold Niebuhr's field of work is ontology",
+   "Reinhold Niebuhr's field of work is aerodynamics",
+   "Reinhold Niebuhr's field of work is crystallography",
+   "Reinhold Niebuhr's field of work is mathematics",
+   "Reinhold Niebuhr's field of work is harmonic analysis",
+   "Reinhold Niebuhr's field of work is history of science",
+   "Reinhold Niebuhr's field of work is philosophy of law",
+   "Reinhold Niebuhr's field of work is philology",
+   "Reinhold Niebuhr's field of work is optics",
+   "Reinhold Niebuhr's field of work is functional analysis",
+   "Reinhold Niebuhr's field of work is surgery",
+   "Reinhold Niebuhr's field of work is complex function",
+   "Reinhold Niebuhr's field of work is Jewish philosophy",
+   "Reinhold Niebuhr's field of work is translations from Spanish",
+   "Reinhold Niebuhr's field of work is poetry",
+   "Reinhold Niebuhr's field of work is distribution",
+   "Reinhold Niebuhr's field of work is astrology",
+   "Reinhold Niebuhr's field of work is differential geometry",
+   "Reinhold Niebuhr's field of work is mechanics",
+   "Reinhold Niebuhr's field of work is positivism",
+   "Reinhold Niebuhr's field of work is ferromagnetism",
+   "Reinhold Niebuhr's field of work is quantum physics",
+   "Reinhold Niebuhr's field of work is music theory",
+   "Reinhold Niebuhr's field of work is physiology",
+   "Reinhold Niebuhr's field of work is theory of differential equations",
+   "Reinhold Niebuhr's field of work is astrophysics",
+   "Reinhold Niebuhr's field of work is number theory",
+   "Reinhold Niebuhr's field of work is magnetic field",
+   "Reinhold Niebuhr's field of work is historical novel",
+   "Reinhold Niebuhr's field of work is stochastic",
+   "Reinhold Niebuhr's field of work is philosopher",
+   "Reinhold Niebuhr's field of work is histology",
+   "Reinhold Niebuhr's field of work is Franciscan spirituality",
+   "Reinhold Niebuhr's field of work is electromagnetic field",
+   "Reinhold Niebuhr's field of work is medicine",
+   "Reinhold Niebuhr's field of work is algebraic geometry",
+   "Reinhold Niebuhr's field of work is comparative mythology",
+   "Reinhold Niebuhr's field of work is color photography",
+   "Reinhold Niebuhr's field of work is cryptography",
+   "Reinhold Niebuhr's field of work is Christian Church",
+   "Reinhold Niebuhr's field of work is electrical engineering",
+   "Reinhold Niebuhr's field of work is folklore",
+   "Reinhold Niebuhr's field of work is mythology",
+   "Reinhold Niebuhr's field of work is human geography",
+   "Reinhold Niebuhr's field of work is Petrine ministry",
+   "Reinhold Niebuhr's field of work is Judaism",
+   "Reinhold Niebuhr's field of work is group theory",
+   "Reinhold Niebuhr's field of work is non-Euclidean geometry",
+   "Reinhold Niebuhr's field of work is algebra",
+   "Reinhold Niebuhr's field of work is ballistics",
+   "Reinhold Niebuhr's field of work is mathematician",
+   "Reinhold Niebuhr's field of work is applied physics",
+   "Reinhold Niebuhr's field of work is culturology",
+   "Reinhold Niebuhr's field of work is calculus of variations",
+   "Reinhold Niebuhr's field of work is logic",
+   "Reinhold Niebuhr's field of work is engineering",
+   "Reinhold Niebuhr's field of work is translations from Occitan",
+   "Reinhold Niebuhr's field of work is anatomy",
+   "Reinhold Niebuhr's field of work is forestry science",
+   "Reinhold Niebuhr's field of work is magic",
+   "Reinhold Niebuhr's field of work is quantum mechanics",
+   "Reinhold Niebuhr's field of work is differential calculus",
+   "Reinhold Niebuhr's field of work is shipbuilding",
+   "Reinhold Niebuhr's field of work is convex function",
+   "Reinhold Niebuhr's field of work is analytic philosophy",
+   "Reinhold Niebuhr's field of work is magnetic resonance",
+   "Reinhold Niebuhr's field of work is detective literature",
+   "Reinhold Niebuhr's field of work is cartography",
+   "Reinhold Niebuhr's field of work is sociology of organisations",
+   "Reinhold Niebuhr's field of work is crime novel",
+   "Reinhold Niebuhr's field of work is gravity",
+   "Reinhold Niebuhr's field of work is statistics",
+   "Reinhold Niebuhr's field of work is Greek philology",
+   "Reinhold Niebuhr's field of work is analytic number theory",
+   "Reinhold Niebuhr's field of work is trigonometry",
+   "Reinhold Niebuhr's field of work is physics",
+   "Reinhold Niebuhr's field of work is astronomer",
+   "Reinhold Niebuhr's field of work is natural science",
+   "Reinhold Niebuhr's field of work is information technology",
+   "Reinhold Niebuhr's field of work is conducting",
+   "Reinhold Niebuhr's field of work is nonstandard analysis",
+   "Reinhold Niebuhr's field of work is mathematical analysis",
+   "Reinhold Niebuhr's field of work is a branch of physics",
+   "Reinhold Niebuhr's field of work is projective geometry",
+   "Reinhold Niebuhr's field of work is civil rights",
+   "Reinhold Niebuhr's field of work is children's and youth literature",
+   "Reinhold Niebuhr's field of work is embryology",
+   "Reinhold Niebuhr's field of work is momentum",
+   "Reinhold Niebuhr's field of work is African studies",
+   "Reinhold Niebuhr's field of work is fairy tale",
+   "Reinhold Niebuhr's field of work is classics",
+   "Reinhold Niebuhr's field of work is social psychology",
+   "Reinhold Niebuhr's field of work is Jewish studies",
+   "Reinhold Niebuhr's field of work is silviculture",
+   "Reinhold Niebuhr's field of work is education",
+   "Reinhold Niebuhr's field of work is literature",
+   "Reinhold Niebuhr's field of work is constitutional law",
+   "Reinhold Niebuhr's field of work is radiation",
+   "Reinhold Niebuhr's field of work is Internet",
+   "Reinhold Niebuhr's field of work is heat",
+   "Reinhold Niebuhr's field of work is mechanical engineering",
+   "Reinhold Niebuhr's field of work is forestry",
+   "Reinhold Niebuhr's field of work is jazz",
+   "Reinhold Niebuhr's field of work is social philosophy",
+   "Reinhold Niebuhr's field of work is mathematical physics",
+   "Reinhold Niebuhr's field of work is meteorology",
+   "Reinhold Niebuhr's field of work is translations from Arabic language",
+   "Reinhold Niebuhr's field of work is quantum mysticism",
+   "Reinhold Niebuhr's field of work is politics",
+   "Reinhold Niebuhr's field of work is astronomical observation",
+   "Reinhold Niebuhr's field of work is myth",
+   "Reinhold Niebuhr's field of work is geography",
+   "Reinhold Niebuhr's field of work is sociology of religion",
+   "Reinhold Niebuhr's field of work is comparative religion",
+   "Reinhold Niebuhr's field of work is Greek",
+   "Reinhold Niebuhr's field of work is Lie algebra",
+   "Reinhold Niebuhr's field of work is complex manifold",
+   "Reinhold Niebuhr's field of work is journalism",
+   "Reinhold Niebuhr's field of work is celestial mechanics",
+   "Reinhold Niebuhr's field of work is String",
+   "Reinhold Niebuhr's field of work is mathematical logic",
+   "Reinhold Niebuhr's field of work is aeromechanics",
+   "Reinhold Niebuhr's field of work is English",
+   "Reinhold Niebuhr's field of work is history",
+   "Reinhold Niebuhr's field of work is study of history",
+   "Reinhold Niebuhr's field of work is genetics",
+   "Reinhold Niebuhr's field of work is psychology",
+   "Reinhold Niebuhr's field of work is theory of relativity",
+   "Reinhold Niebuhr's field of work is biochemistry",
+   "Reinhold Niebuhr's field of work is ballet",
+   "Reinhold Niebuhr's field of work is electricity",
+   "Reinhold Niebuhr's field of work is experimental physics",
+   "Reinhold Niebuhr's field of work is natural theology",
+   "Reinhold Niebuhr's field of work is Hebrew",
+   "Reinhold Niebuhr's field of work is prose",
+   "Reinhold Niebuhr's field of work is paleontology",
+   "Reinhold Niebuhr's field of work is Monte Carlo method",
+   "Reinhold Niebuhr's field of work is quantum theory",
+   "Reinhold Niebuhr's field of work is computer science",
+   "Reinhold Niebuhr's field of work is cybernetics",
+   "Reinhold Niebuhr's field of work is Afghanistan",
+   "Reinhold Niebuhr's field of work is philosophy of science",
+   "Reinhold Niebuhr's field of work is literary theory",
+   "Reinhold Niebuhr's field of work is electric field",
+   "Reinhold Niebuhr's field of work is religion",
+   "Reinhold Niebuhr's field of work is analytic geometry",
+   "Reinhold Niebuhr's field of work is graph theory",
+   "Reinhold Niebuhr's field of work is electron",
+   "Reinhold Niebuhr's field of work is anthropology",
+   "Reinhold Niebuhr's field of work is social anthropology",
+   "Reinhold Niebuhr's field of work is sociology",
+   "Reinhold Niebuhr's field of work is geodesy",
+   "Reinhold Niebuhr's field of work is neurology",
+   "Reinhold Niebuhr's field of work is drama",
+   "Reinhold Niebuhr's field of work is art of painting",
+   "Reinhold Niebuhr's field of work is applied mathematics",
+   "Reinhold Niebuhr's field of work is world economy",
+   "Reinhold Niebuhr's field of work is economic anthropology",
+   "Reinhold Niebuhr is abstract algebra",
+   "Reinhold Niebuhr is theology",
+   "Reinhold Niebuhr is television program",
+   "Reinhold Niebuhr is nanotechnology",
+   "Reinhold Niebuhr is hydrodynamics",
+   "Reinhold Niebuhr is ethics",
+   "Reinhold Niebuhr is physicist",
+   "Reinhold Niebuhr is evolution",
+   "Reinhold Niebuhr is distribution theory",
+   "Reinhold Niebuhr is psychophysiology",
+   "Reinhold Niebuhr is English literature",
+   "Reinhold Niebuhr is theoretical physics",
+   "Reinhold Niebuhr is essay",
+   "Reinhold Niebuhr is ethnology",
+   "Reinhold Niebuhr is pedagogy",
+   "Reinhold Niebuhr is kinetic theory",
+   "Reinhold Niebuhr is ethnography",
+   "Reinhold Niebuhr is rite",
+   "Reinhold Niebuhr is economics",
+   "Reinhold Niebuhr is dance choreography",
+   "Reinhold Niebuhr is biological anthropology",
+   "Reinhold Niebuhr is history of religions",
+   "Reinhold Niebuhr is political philosophy",
+   "Reinhold Niebuhr is philosophy",
+   "Reinhold Niebuhr is linguistics",
+   "Reinhold Niebuhr is cosmology",
+   "Reinhold Niebuhr is hunting",
+   "Reinhold Niebuhr is Minkowski spacetime",
+   "Reinhold Niebuhr is classical music",
+   "Reinhold Niebuhr is hyperbolic geometry",
+   "Reinhold Niebuhr is radioactivity",
+   "Reinhold Niebuhr is belletristic literature",
+   "Reinhold Niebuhr is model theory",
+   "Reinhold Niebuhr is choreography",
+   "Reinhold Niebuhr is chemistry",
+   "Reinhold Niebuhr is literary activity",
+   "Reinhold Niebuhr is historical sociology",
+   "Reinhold Niebuhr is feminism",
+   "Reinhold Niebuhr is economy",
+   "Reinhold Niebuhr is astronomy",
+   "Reinhold Niebuhr is topology",
+   "Reinhold Niebuhr is translations from English",
+   "Reinhold Niebuhr is partial differential equation",
+   "Reinhold Niebuhr is Cairo Geniza",
+   "Reinhold Niebuhr is nuclear physics",
+   "Reinhold Niebuhr is dance",
+   "Reinhold Niebuhr is informatics",
+   "Reinhold Niebuhr is geometry",
+   "Reinhold Niebuhr is computational geometry",
+   "Reinhold Niebuhr is Sanskrit",
+   "Reinhold Niebuhr is magnetism",
+   "Reinhold Niebuhr is opera",
+   "Reinhold Niebuhr is algebraic topology",
+   "Reinhold Niebuhr is quaternion",
+   "Reinhold Niebuhr is Bayesian inference",
+   "Reinhold Niebuhr is quantum electrodynamics",
+   "Reinhold Niebuhr is religion and society",
+   "Reinhold Niebuhr is history of economic thought",
+   "Reinhold Niebuhr is translations from Polish",
+   "Reinhold Niebuhr is literary translation",
+   "Reinhold Niebuhr is lyric poetry",
+   "Reinhold Niebuhr is probability theory",
+   "Reinhold Niebuhr is ontology",
+   "Reinhold Niebuhr is aerodynamics",
+   "Reinhold Niebuhr is crystallography",
+   "Reinhold Niebuhr is mathematics",
+   "Reinhold Niebuhr is harmonic analysis",
+   "Reinhold Niebuhr is history of science",
+   "Reinhold Niebuhr is philosophy of law",
+   "Reinhold Niebuhr is philology",
+   "Reinhold Niebuhr is optics",
+   "Reinhold Niebuhr is functional analysis",
+   "Reinhold Niebuhr is surgery",
+   "Reinhold Niebuhr is complex function",
+   "Reinhold Niebuhr is Jewish philosophy",
+   "Reinhold Niebuhr is translations from Spanish",
+   "Reinhold Niebuhr is poetry",
+   "Reinhold Niebuhr is distribution",
+   "Reinhold Niebuhr is astrology",
+   "Reinhold Niebuhr is differential geometry",
+   "Reinhold Niebuhr is mechanics",
+   "Reinhold Niebuhr is positivism",
+   "Reinhold Niebuhr is ferromagnetism",
+   "Reinhold Niebuhr is quantum physics",
+   "Reinhold Niebuhr is music theory",
+   "Reinhold Niebuhr is physiology",
+   "Reinhold Niebuhr is theory of differential equations",
+   "Reinhold Niebuhr is astrophysics",
+   "Reinhold Niebuhr is number theory",
+   "Reinhold Niebuhr is magnetic field",
+   "Reinhold Niebuhr is historical novel",
+   "Reinhold Niebuhr is stochastic",
+   "Reinhold Niebuhr is philosopher",
+   "Reinhold Niebuhr is histology",
+   "Reinhold Niebuhr is Franciscan spirituality",
+   "Reinhold Niebuhr is electromagnetic field",
+   "Reinhold Niebuhr is medicine",
+   "Reinhold Niebuhr is algebraic geometry",
+   "Reinhold Niebuhr is comparative mythology",
+   "Reinhold Niebuhr is color photography",
+   "Reinhold Niebuhr is cryptography",
+   "Reinhold Niebuhr is Christian Church",
+   "Reinhold Niebuhr is electrical engineering",
+   "Reinhold Niebuhr is folklore",
+   "Reinhold Niebuhr is mythology",
+   "Reinhold Niebuhr is human geography",
+   "Reinhold Niebuhr is Petrine ministry",
+   "Reinhold Niebuhr is Judaism",
+   "Reinhold Niebuhr is group theory",
+   "Reinhold Niebuhr is non-Euclidean geometry",
+   "Reinhold Niebuhr is algebra",
+   "Reinhold Niebuhr is ballistics",
+   "Reinhold Niebuhr is mathematician",
+   "Reinhold Niebuhr is applied physics",
+   "Reinhold Niebuhr is culturology",
+   "Reinhold Niebuhr is calculus of variations",
+   "Reinhold Niebuhr is logic",
+   "Reinhold Niebuhr is engineering",
+   "Reinhold Niebuhr is translations from Occitan",
+   "Reinhold Niebuhr is anatomy",
+   "Reinhold Niebuhr is forestry science",
+   "Reinhold Niebuhr is magic",
+   "Reinhold Niebuhr is quantum mechanics",
+   "Reinhold Niebuhr is differential calculus",
+   "Reinhold Niebuhr is shipbuilding",
+   "Reinhold Niebuhr is convex function",
+   "Reinhold Niebuhr is analytic philosophy",
+   "Reinhold Niebuhr is magnetic resonance",
+   "Reinhold Niebuhr is detective literature",
+   "Reinhold Niebuhr is cartography",
+   "Reinhold Niebuhr is sociology of organisations",
+   "Reinhold Niebuhr is crime novel",
+   "Reinhold Niebuhr is gravity",
+   "Reinhold Niebuhr is statistics",
+   "Reinhold Niebuhr is Greek philology",
+   "Reinhold Niebuhr is analytic number theory",
+   "Reinhold Niebuhr is trigonometry",
+   "Reinhold Niebuhr is physics",
+   "Reinhold Niebuhr is astronomer",
+   "Reinhold Niebuhr is natural science",
+   "Reinhold Niebuhr is information technology",
+   "Reinhold Niebuhr is conducting",
+   "Reinhold Niebuhr is nonstandard analysis",
+   "Reinhold Niebuhr is mathematical analysis",
+   "Reinhold Niebuhr is a branch of physics",
+   "Reinhold Niebuhr is projective geometry",
+   "Reinhold Niebuhr is civil rights",
+   "Reinhold Niebuhr is children's and youth literature",
+   "Reinhold Niebuhr is embryology",
+   "Reinhold Niebuhr is momentum",
+   "Reinhold Niebuhr is African studies",
+   "Reinhold Niebuhr is fairy tale",
+   "Reinhold Niebuhr is classics",
+   "Reinhold Niebuhr is social psychology",
+   "Reinhold Niebuhr is Jewish studies",
+   "Reinhold Niebuhr is silviculture",
+   "Reinhold Niebuhr is education",
+   "Reinhold Niebuhr is literature",
+   "Reinhold Niebuhr is constitutional law",
+   "Reinhold Niebuhr is radiation",
+   "Reinhold Niebuhr is Internet",
+   "Reinhold Niebuhr is heat",
+   "Reinhold Niebuhr is mechanical engineering",
+   "Reinhold Niebuhr is forestry",
+   "Reinhold Niebuhr is jazz",
+   "Reinhold Niebuhr is social philosophy",
+   "Reinhold Niebuhr is mathematical physics",
+   "Reinhold Niebuhr is meteorology",
+   "Reinhold Niebuhr is translations from Arabic language",
+   "Reinhold Niebuhr is quantum mysticism",
+   "Reinhold Niebuhr is politics",
+   "Reinhold Niebuhr is astronomical observation",
+   "Reinhold Niebuhr is myth",
+   "Reinhold Niebuhr is geography",
+   "Reinhold Niebuhr is sociology of religion",
+   "Reinhold Niebuhr is comparative religion",
+   "Reinhold Niebuhr is Greek",
+   "Reinhold Niebuhr is Lie algebra",
+   "Reinhold Niebuhr is complex manifold",
+   "Reinhold Niebuhr is journalism",
+   "Reinhold Niebuhr is celestial mechanics",
+   "Reinhold Niebuhr is String",
+   "Reinhold Niebuhr is mathematical logic",
+   "Reinhold Niebuhr is aeromechanics",
+   "Reinhold Niebuhr is English",
+   "Reinhold Niebuhr is history",
+   "Reinhold Niebuhr is study of history",
+   "Reinhold Niebuhr is genetics",
+   "Reinhold Niebuhr is psychology",
+   "Reinhold Niebuhr is theory of relativity",
+   "Reinhold Niebuhr is biochemistry",
+   "Reinhold Niebuhr is ballet",
+   "Reinhold Niebuhr is electricity",
+   "Reinhold Niebuhr is experimental physics",
+   "Reinhold Niebuhr is natural theology",
+   "Reinhold Niebuhr is Hebrew",
+   "Reinhold Niebuhr is prose",
+   "Reinhold Niebuhr is paleontology",
+   "Reinhold Niebuhr is Monte Carlo method",
+   "Reinhold Niebuhr is quantum theory",
+   "Reinhold Niebuhr is computer science",
+   "Reinhold Niebuhr is cybernetics",
+   "Reinhold Niebuhr is Afghanistan",
+   "Reinhold Niebuhr is philosophy of science",
+   "Reinhold Niebuhr is literary theory",
+   "Reinhold Niebuhr is electric field",
+   "Reinhold Niebuhr is religion",
+   "Reinhold Niebuhr is analytic geometry",
+   "Reinhold Niebuhr is graph theory",
+   "Reinhold Niebuhr is electron",
+   "Reinhold Niebuhr is anthropology",
+   "Reinhold Niebuhr is social anthropology",
+   "Reinhold Niebuhr is sociology",
+   "Reinhold Niebuhr is geodesy",
+   "Reinhold Niebuhr is neurology",
+   "Reinhold Niebuhr is drama",
+   "Reinhold Niebuhr is art of painting",
+   "Reinhold Niebuhr is applied mathematics",
+   "Reinhold Niebuhr is world economy",
+   "Reinhold Niebuhr is economic anthropology"
+  ],
+  [
+   [
+    -48.67761993408203
+   ],
+   [
+    -42.27558135986328
+   ],
+   [
+    -55.553741455078125
+   ],
+   [
+    -51.83863067626953
+   ],
+   [
+    -52.08513641357422
+   ],
+   [
+    -42.376773834228516
+   ],
+   [
+    -52.94640350341797
+   ],
+   [
+    -44.94554901123047
+   ],
+   [
+    -51.206077575683594
+   ],
+   [
+    -51.97382736206055
+   ],
+   [
+    -47.67829895019531
+   ],
+   [
+    -46.5560188293457
+   ],
+   [
+    -49.445465087890625
+   ],
+   [
+    -49.275272369384766
+   ],
+   [
+    -49.487548828125
+   ],
+   [
+    -52.74951171875
+   ],
+   [
+    -51.12657165527344
+   ],
+   [
+    -55.45713424682617
+   ],
+   [
+    -43.05230712890625
+   ],
+   [
+    -55.021053314208984
+   ],
+   [
+    -50.915802001953125
+   ],
+   [
+    -47.42115020751953
+   ],
+   [
+    -42.83418655395508
+   ],
+   [
+    -42.916168212890625
+   ],
+   [
+    -47.451995849609375
+   ],
+   [
+    -47.418495178222656
+   ],
+   [
+    -51.24376678466797
+   ],
+   [
+    -57.73026657104492
+   ],
+   [
+    -48.92536163330078
+   ],
+   [
+    -51.76279830932617
+   ],
+   [
+    -53.058807373046875
+   ],
+   [
+    -55.646610260009766
+   ],
+   [
+    -51.04865264892578
+   ],
+   [
+    -52.41941452026367
+   ],
+   [
+    -47.536441802978516
+   ],
+   [
+    -55.62554931640625
+   ],
+   [
+    -49.01094055175781
+   ],
+   [
+    -50.33551025390625
+   ],
+   [
+    -47.066627502441406
+   ],
+   [
+    -47.77373504638672
+   ],
+   [
+    -49.87809753417969
+   ],
+   [
+    -54.16627502441406
+   ],
+   [
+    -61.076175689697266
+   ],
+   [
+    -62.43303680419922
+   ],
+   [
+    -49.05633544921875
+   ],
+   [
+    -50.217872619628906
+   ],
+   [
+    -49.41868591308594
+   ],
+   [
+    -48.658424377441406
+   ],
+   [
+    -51.300960540771484
+   ],
+   [
+    -49.855403900146484
+   ],
+   [
+    -53.078948974609375
+   ],
+   [
+    -49.06414794921875
+   ],
+   [
+    -50.51690673828125
+   ],
+   [
+    -53.403831481933594
+   ],
+   [
+    -53.097747802734375
+   ],
+   [
+    -52.3657341003418
+   ],
+   [
+    -47.920166015625
+   ],
+   [
+    -49.061553955078125
+   ],
+   [
+    -56.671165466308594
+   ],
+   [
+    -52.43177032470703
+   ],
+   [
+    -51.748626708984375
+   ],
+   [
+    -49.276878356933594
+   ],
+   [
+    -45.603736877441406
+   ],
+   [
+    -49.60669708251953
+   ],
+   [
+    -51.782981872558594
+   ],
+   [
+    -45.714839935302734
+   ],
+   [
+    -50.97693634033203
+   ],
+   [
+    -48.079505920410156
+   ],
+   [
+    -49.07160186767578
+   ],
+   [
+    -46.528587341308594
+   ],
+   [
+    -49.23797607421875
+   ],
+   [
+    -49.289920806884766
+   ],
+   [
+    -50.93586349487305
+   ],
+   [
+    -55.63223648071289
+   ],
+   [
+    -48.581748962402344
+   ],
+   [
+    -57.49256896972656
+   ],
+   [
+    -47.67601013183594
+   ],
+   [
+    -48.915184020996094
+   ],
+   [
+    -48.90452575683594
+   ],
+   [
+    -50.02196502685547
+   ],
+   [
+    -48.13624954223633
+   ],
+   [
+    -50.63128662109375
+   ],
+   [
+    -54.73707962036133
+   ],
+   [
+    -50.2353515625
+   ],
+   [
+    -49.36769485473633
+   ],
+   [
+    -48.84225845336914
+   ],
+   [
+    -55.69383239746094
+   ],
+   [
+    -47.177459716796875
+   ],
+   [
+    -47.67026138305664
+   ],
+   [
+    -54.11745834350586
+   ],
+   [
+    -56.43556213378906
+   ],
+   [
+    -49.63529968261719
+   ],
+   [
+    -49.2623405456543
+   ],
+   [
+    -51.907470703125
+   ],
+   [
+    -52.907623291015625
+   ],
+   [
+    -52.38324737548828
+   ],
+   [
+    -48.333763122558594
+   ],
+   [
+    -50.274200439453125
+   ],
+   [
+    -49.01038360595703
+   ],
+   [
+    -53.338623046875
+   ],
+   [
+    -49.97374725341797
+   ],
+   [
+    -50.05083084106445
+   ],
+   [
+    -47.928794860839844
+   ],
+   [
+    -50.2326545715332
+   ],
+   [
+    -47.219993591308594
+   ],
+   [
+    -49.938133239746094
+   ],
+   [
+    -62.3954963684082
+   ],
+   [
+    -48.374656677246094
+   ],
+   [
+    -50.19390869140625
+   ],
+   [
+    -53.475318908691406
+   ],
+   [
+    -49.11067199707031
+   ],
+   [
+    -52.51139831542969
+   ],
+   [
+    -55.203792572021484
+   ],
+   [
+    -49.680816650390625
+   ],
+   [
+    -50.30824279785156
+   ],
+   [
+    -51.24138641357422
+   ],
+   [
+    -46.975738525390625
+   ],
+   [
+    -47.74475860595703
+   ],
+   [
+    -63.305450439453125
+   ],
+   [
+    -48.569175720214844
+   ],
+   [
+    -54.08157730102539
+   ],
+   [
+    -48.28459930419922
+   ],
+   [
+    -50.30988693237305
+   ],
+   [
+    -53.68690490722656
+   ],
+   [
+    -50.62762451171875
+   ],
+   [
+    -59.092384338378906
+   ],
+   [
+    -47.628231048583984
+   ],
+   [
+    -50.99559783935547
+   ],
+   [
+    -57.33753204345703
+   ],
+   [
+    -49.12896728515625
+   ],
+   [
+    -54.343116760253906
+   ],
+   [
+    -56.58756637573242
+   ],
+   [
+    -50.02862548828125
+   ],
+   [
+    -47.847633361816406
+   ],
+   [
+    -52.31666564941406
+   ],
+   [
+    -55.137969970703125
+   ],
+   [
+    -52.1732177734375
+   ],
+   [
+    -46.27953338623047
+   ],
+   [
+    -55.33049774169922
+   ],
+   [
+    -47.5392951965332
+   ],
+   [
+    -49.34666061401367
+   ],
+   [
+    -48.51631164550781
+   ],
+   [
+    -56.74943923950195
+   ],
+   [
+    -47.911781311035156
+   ],
+   [
+    -52.45964050292969
+   ],
+   [
+    -52.04962158203125
+   ],
+   [
+    -48.339561462402344
+   ],
+   [
+    -51.91375732421875
+   ],
+   [
+    -48.885704040527344
+   ],
+   [
+    -52.833580017089844
+   ],
+   [
+    -48.79745101928711
+   ],
+   [
+    -54.798030853271484
+   ],
+   [
+    -47.3856201171875
+   ],
+   [
+    -45.62030792236328
+   ],
+   [
+    -48.16954803466797
+   ],
+   [
+    -54.37248229980469
+   ],
+   [
+    -46.242156982421875
+   ],
+   [
+    -46.680381774902344
+   ],
+   [
+    -46.16183853149414
+   ],
+   [
+    -48.76231384277344
+   ],
+   [
+    -49.139617919921875
+   ],
+   [
+    -50.889495849609375
+   ],
+   [
+    -48.16140365600586
+   ],
+   [
+    -50.013484954833984
+   ],
+   [
+    -49.500221252441406
+   ],
+   [
+    -45.980220794677734
+   ],
+   [
+    -48.07748794555664
+   ],
+   [
+    -47.763832092285156
+   ],
+   [
+    -61.1201171875
+   ],
+   [
+    -59.16288757324219
+   ],
+   [
+    -43.96878433227539
+   ],
+   [
+    -53.94361114501953
+   ],
+   [
+    -46.79157257080078
+   ],
+   [
+    -47.23602294921875
+   ],
+   [
+    -45.84989929199219
+   ],
+   [
+    -44.046024322509766
+   ],
+   [
+    -48.001953125
+   ],
+   [
+    -54.19415283203125
+   ],
+   [
+    -55.89420700073242
+   ],
+   [
+    -47.803165435791016
+   ],
+   [
+    -50.07667922973633
+   ],
+   [
+    -51.97966766357422
+   ],
+   [
+    -47.50606155395508
+   ],
+   [
+    -53.65946578979492
+   ],
+   [
+    -46.055519104003906
+   ],
+   [
+    -43.858856201171875
+   ],
+   [
+    -53.735130310058594
+   ],
+   [
+    -47.805519104003906
+   ],
+   [
+    -45.71118927001953
+   ],
+   [
+    -52.44505310058594
+   ],
+   [
+    -46.652137756347656
+   ],
+   [
+    -51.03203582763672
+   ],
+   [
+    -49.4630241394043
+   ],
+   [
+    -49.201576232910156
+   ],
+   [
+    -48.21974182128906
+   ],
+   [
+    -47.40257263183594
+   ],
+   [
+    -50.54669952392578
+   ],
+   [
+    -49.85107421875
+   ],
+   [
+    -56.98362731933594
+   ],
+   [
+    -51.25934600830078
+   ],
+   [
+    -48.48814010620117
+   ],
+   [
+    -50.00535583496094
+   ],
+   [
+    -50.53096389770508
+   ],
+   [
+    -49.64188003540039
+   ],
+   [
+    -49.30841827392578
+   ],
+   [
+    -53.26561737060547
+   ],
+   [
+    -43.640159606933594
+   ],
+   [
+    -54.96748352050781
+   ],
+   [
+    -49.27952575683594
+   ],
+   [
+    -50.37486267089844
+   ],
+   [
+    -44.40446853637695
+   ],
+   [
+    -48.64208221435547
+   ],
+   [
+    -44.061317443847656
+   ],
+   [
+    -49.663917541503906
+   ],
+   [
+    -48.04783630371094
+   ],
+   [
+    -47.74182891845703
+   ],
+   [
+    -54.39922332763672
+   ],
+   [
+    -47.60533905029297
+   ],
+   [
+    -51.03208923339844
+   ],
+   [
+    -47.330406188964844
+   ],
+   [
+    -44.83260726928711
+   ],
+   [
+    -31.917362213134766
+   ],
+   [
+    -40.47941207885742
+   ],
+   [
+    -39.06818389892578
+   ],
+   [
+    -40.811126708984375
+   ],
+   [
+    -32.883968353271484
+   ],
+   [
+    -34.08062744140625
+   ],
+   [
+    -34.257755279541016
+   ],
+   [
+    -44.8079948425293
+   ],
+   [
+    -43.201568603515625
+   ],
+   [
+    -37.398841857910156
+   ],
+   [
+    -40.32412338256836
+   ],
+   [
+    -32.768619537353516
+   ],
+   [
+    -39.602516174316406
+   ],
+   [
+    -38.818729400634766
+   ],
+   [
+    -42.68348693847656
+   ],
+   [
+    -39.922080993652344
+   ],
+   [
+    -35.99436569213867
+   ],
+   [
+    -34.215972900390625
+   ],
+   [
+    -44.27657699584961
+   ],
+   [
+    -42.284095764160156
+   ],
+   [
+    -40.10078430175781
+   ],
+   [
+    -34.844581604003906
+   ],
+   [
+    -32.42466735839844
+   ],
+   [
+    -39.83208465576172
+   ],
+   [
+    -39.536705017089844
+   ],
+   [
+    -34.248138427734375
+   ],
+   [
+    -53.538841247558594
+   ],
+   [
+    -37.37778854370117
+   ],
+   [
+    -52.588783264160156
+   ],
+   [
+    -41.46126937866211
+   ],
+   [
+    -43.68882751464844
+   ],
+   [
+    -46.242767333984375
+   ],
+   [
+    -41.75533676147461
+   ],
+   [
+    -36.937618255615234
+   ],
+   [
+    -43.58769607543945
+   ],
+   [
+    -39.81880187988281
+   ],
+   [
+    -36.653072357177734
+   ],
+   [
+    -35.56281280517578
+   ],
+   [
+    -38.084964752197266
+   ],
+   [
+    -37.13551330566406
+   ],
+   [
+    -44.14615249633789
+   ],
+   [
+    -46.16972351074219
+   ],
+   [
+    -46.178253173828125
+   ],
+   [
+    -40.088809967041016
+   ],
+   [
+    -35.90650177001953
+   ],
+   [
+    -42.10552978515625
+   ],
+   [
+    -37.26576614379883
+   ],
+   [
+    -43.68039321899414
+   ],
+   [
+    -36.4849853515625
+   ],
+   [
+    -38.49571228027344
+   ],
+   [
+    -34.827537536621094
+   ],
+   [
+    -44.28818130493164
+   ],
+   [
+    -42.2097053527832
+   ],
+   [
+    -49.09361267089844
+   ],
+   [
+    -43.649051666259766
+   ],
+   [
+    -37.979957580566406
+   ],
+   [
+    -43.19026565551758
+   ],
+   [
+    -45.90796661376953
+   ],
+   [
+    -41.92613220214844
+   ],
+   [
+    -39.02739715576172
+   ],
+   [
+    -41.1529541015625
+   ],
+   [
+    -37.02747344970703
+   ],
+   [
+    -40.70969009399414
+   ],
+   [
+    -40.85594940185547
+   ],
+   [
+    -35.723690032958984
+   ],
+   [
+    -43.71000671386719
+   ],
+   [
+    -43.159584045410156
+   ],
+   [
+    -42.24519729614258
+   ],
+   [
+    -37.29384231567383
+   ],
+   [
+    -38.703304290771484
+   ],
+   [
+    -41.190093994140625
+   ],
+   [
+    -37.67095947265625
+   ],
+   [
+    -46.28119659423828
+   ],
+   [
+    -39.82249450683594
+   ],
+   [
+    -47.030616760253906
+   ],
+   [
+    -33.56914520263672
+   ],
+   [
+    -38.90431213378906
+   ],
+   [
+    -37.99365234375
+   ],
+   [
+    -42.82940673828125
+   ],
+   [
+    -38.62078857421875
+   ],
+   [
+    -37.84343338012695
+   ],
+   [
+    -45.68817901611328
+   ],
+   [
+    -38.94221878051758
+   ],
+   [
+    -39.23800277709961
+   ],
+   [
+    -37.58559799194336
+   ],
+   [
+    -48.62860870361328
+   ],
+   [
+    -37.27790069580078
+   ],
+   [
+    -43.10160446166992
+   ],
+   [
+    -41.162933349609375
+   ],
+   [
+    -39.448272705078125
+   ],
+   [
+    -37.874576568603516
+   ],
+   [
+    -31.719797134399414
+   ],
+   [
+    -41.268524169921875
+   ],
+   [
+    -42.992088317871094
+   ],
+   [
+    -46.69700622558594
+   ],
+   [
+    -35.03312301635742
+   ],
+   [
+    -42.05514907836914
+   ],
+   [
+    -40.430877685546875
+   ],
+   [
+    -42.55621337890625
+   ],
+   [
+    -41.851078033447266
+   ],
+   [
+    -38.289485931396484
+   ],
+   [
+    -38.19662857055664
+   ],
+   [
+    -36.55616760253906
+   ],
+   [
+    -36.647239685058594
+   ],
+   [
+    -42.006507873535156
+   ],
+   [
+    -50.038673400878906
+   ],
+   [
+    -34.961578369140625
+   ],
+   [
+    -41.464508056640625
+   ],
+   [
+    -41.912376403808594
+   ],
+   [
+    -38.8085823059082
+   ],
+   [
+    -42.27328109741211
+   ],
+   [
+    -35.9366340637207
+   ],
+   [
+    -42.4821662902832
+   ],
+   [
+    -43.3697395324707
+   ],
+   [
+    -49.87963104248047
+   ],
+   [
+    -36.166595458984375
+   ],
+   [
+    -35.42991638183594
+   ],
+   [
+    -53.976318359375
+   ],
+   [
+    -37.15526580810547
+   ],
+   [
+    -47.81592559814453
+   ],
+   [
+    -33.72007369995117
+   ],
+   [
+    -38.74782180786133
+   ],
+   [
+    -42.523799896240234
+   ],
+   [
+    -40.44092559814453
+   ],
+   [
+    -45.79268264770508
+   ],
+   [
+    -37.43809127807617
+   ],
+   [
+    -44.14392852783203
+   ],
+   [
+    -44.76908874511719
+   ],
+   [
+    -37.780208587646484
+   ],
+   [
+    -52.133872985839844
+   ],
+   [
+    -39.28971481323242
+   ],
+   [
+    -36.23102569580078
+   ],
+   [
+    -35.187660217285156
+   ],
+   [
+    -45.787139892578125
+   ],
+   [
+    -50.53721237182617
+   ],
+   [
+    -41.229331970214844
+   ],
+   [
+    -36.0296630859375
+   ],
+   [
+    -36.62263107299805
+   ],
+   [
+    -40.67555236816406
+   ],
+   [
+    -38.61651611328125
+   ],
+   [
+    -32.019508361816406
+   ],
+   [
+    -46.55287551879883
+   ],
+   [
+    -41.273948669433594
+   ],
+   [
+    -41.85234069824219
+   ],
+   [
+    -41.212989807128906
+   ],
+   [
+    -37.156288146972656
+   ],
+   [
+    -46.61295700073242
+   ],
+   [
+    -42.3346061706543
+   ],
+   [
+    -37.339874267578125
+   ],
+   [
+    -41.45673751831055
+   ],
+   [
+    -42.28601837158203
+   ],
+   [
+    -35.05532455444336
+   ],
+   [
+    -39.28843688964844
+   ],
+   [
+    -39.55851364135742
+   ],
+   [
+    -45.32331085205078
+   ],
+   [
+    -33.821781158447266
+   ],
+   [
+    -32.214935302734375
+   ],
+   [
+    -34.79582595825195
+   ],
+   [
+    -37.092567443847656
+   ],
+   [
+    -34.113365173339844
+   ],
+   [
+    -35.699825286865234
+   ],
+   [
+    -37.724517822265625
+   ],
+   [
+    -42.195438385009766
+   ],
+   [
+    -34.10083770751953
+   ],
+   [
+    -38.314552307128906
+   ],
+   [
+    -40.22108459472656
+   ],
+   [
+    -38.998165130615234
+   ],
+   [
+    -50.68080139160156
+   ],
+   [
+    -44.36387634277344
+   ],
+   [
+    -34.454097747802734
+   ],
+   [
+    -47.001949310302734
+   ],
+   [
+    -31.635528564453125
+   ],
+   [
+    -36.79374313354492
+   ],
+   [
+    -41.382110595703125
+   ],
+   [
+    -36.81239318847656
+   ],
+   [
+    -33.873653411865234
+   ],
+   [
+    -48.17603302001953
+   ],
+   [
+    -46.445045471191406
+   ],
+   [
+    -33.98235321044922
+   ],
+   [
+    -44.235023498535156
+   ],
+   [
+    -35.683990478515625
+   ],
+   [
+    -40.881614685058594
+   ],
+   [
+    -44.74134826660156
+   ],
+   [
+    -32.426204681396484
+   ],
+   [
+    -29.212133407592773
+   ],
+   [
+    -39.973114013671875
+   ],
+   [
+    -40.51805877685547
+   ],
+   [
+    -35.29525375366211
+   ],
+   [
+    -43.60948181152344
+   ],
+   [
+    -38.99242401123047
+   ],
+   [
+    -39.276161193847656
+   ],
+   [
+    -37.14167785644531
+   ],
+   [
+    -41.72389221191406
+   ],
+   [
+    -37.280555725097656
+   ],
+   [
+    -33.845001220703125
+   ],
+   [
+    -35.71534729003906
+   ],
+   [
+    -37.84040069580078
+   ],
+   [
+    -44.66103744506836
+   ],
+   [
+    -40.779754638671875
+   ],
+   [
+    -37.27363586425781
+   ],
+   [
+    -36.90266418457031
+   ],
+   [
+    -35.86591339111328
+   ],
+   [
+    -41.85981750488281
+   ],
+   [
+    -39.01708984375
+   ],
+   [
+    -43.484169006347656
+   ],
+   [
+    -31.953468322753906
+   ],
+   [
+    -45.38694763183594
+   ],
+   [
+    -40.94145965576172
+   ],
+   [
+    -35.08561325073242
+   ],
+   [
+    -33.359046936035156
+   ],
+   [
+    -40.92090606689453
+   ],
+   [
+    -36.070953369140625
+   ],
+   [
+    -43.93766403198242
+   ],
+   [
+    -40.47327423095703
+   ],
+   [
+    -35.27480697631836
+   ],
+   [
+    -44.37086868286133
+   ],
+   [
+    -41.234779357910156
+   ],
+   [
+    -43.42177963256836
+   ],
+   [
+    -40.02710723876953
+   ]
+  ]
+ ],
+ "time": 2847.23819231987
+}

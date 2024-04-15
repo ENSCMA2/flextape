@@ -1,0 +1,2076 @@
+{
+ "case_id": 21925,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Michel Chasles"
+ },
+ "pre": [
+  [
+   "Michel Chasles's field of work is abstract algebra",
+   "Michel Chasles's field of work is theology",
+   "Michel Chasles's field of work is television program",
+   "Michel Chasles's field of work is nanotechnology",
+   "Michel Chasles's field of work is hydrodynamics",
+   "Michel Chasles's field of work is ethics",
+   "Michel Chasles's field of work is physicist",
+   "Michel Chasles's field of work is evolution",
+   "Michel Chasles's field of work is distribution theory",
+   "Michel Chasles's field of work is psychophysiology",
+   "Michel Chasles's field of work is English literature",
+   "Michel Chasles's field of work is theoretical physics",
+   "Michel Chasles's field of work is essay",
+   "Michel Chasles's field of work is ethnology",
+   "Michel Chasles's field of work is pedagogy",
+   "Michel Chasles's field of work is kinetic theory",
+   "Michel Chasles's field of work is ethnography",
+   "Michel Chasles's field of work is rite",
+   "Michel Chasles's field of work is economics",
+   "Michel Chasles's field of work is dance choreography",
+   "Michel Chasles's field of work is biological anthropology",
+   "Michel Chasles's field of work is history of religions",
+   "Michel Chasles's field of work is political philosophy",
+   "Michel Chasles's field of work is philosophy",
+   "Michel Chasles's field of work is linguistics",
+   "Michel Chasles's field of work is cosmology",
+   "Michel Chasles's field of work is hunting",
+   "Michel Chasles's field of work is Minkowski spacetime",
+   "Michel Chasles's field of work is classical music",
+   "Michel Chasles's field of work is hyperbolic geometry",
+   "Michel Chasles's field of work is radioactivity",
+   "Michel Chasles's field of work is belletristic literature",
+   "Michel Chasles's field of work is model theory",
+   "Michel Chasles's field of work is choreography",
+   "Michel Chasles's field of work is chemistry",
+   "Michel Chasles's field of work is literary activity",
+   "Michel Chasles's field of work is historical sociology",
+   "Michel Chasles's field of work is feminism",
+   "Michel Chasles's field of work is economy",
+   "Michel Chasles's field of work is astronomy",
+   "Michel Chasles's field of work is topology",
+   "Michel Chasles's field of work is translations from English",
+   "Michel Chasles's field of work is partial differential equation",
+   "Michel Chasles's field of work is Cairo Geniza",
+   "Michel Chasles's field of work is nuclear physics",
+   "Michel Chasles's field of work is dance",
+   "Michel Chasles's field of work is informatics",
+   "Michel Chasles's field of work is geometry",
+   "Michel Chasles's field of work is computational geometry",
+   "Michel Chasles's field of work is Sanskrit",
+   "Michel Chasles's field of work is magnetism",
+   "Michel Chasles's field of work is opera",
+   "Michel Chasles's field of work is algebraic topology",
+   "Michel Chasles's field of work is quaternion",
+   "Michel Chasles's field of work is Bayesian inference",
+   "Michel Chasles's field of work is quantum electrodynamics",
+   "Michel Chasles's field of work is religion and society",
+   "Michel Chasles's field of work is history of economic thought",
+   "Michel Chasles's field of work is translations from Polish",
+   "Michel Chasles's field of work is literary translation",
+   "Michel Chasles's field of work is lyric poetry",
+   "Michel Chasles's field of work is probability theory",
+   "Michel Chasles's field of work is ontology",
+   "Michel Chasles's field of work is aerodynamics",
+   "Michel Chasles's field of work is crystallography",
+   "Michel Chasles's field of work is mathematics",
+   "Michel Chasles's field of work is harmonic analysis",
+   "Michel Chasles's field of work is history of science",
+   "Michel Chasles's field of work is philosophy of law",
+   "Michel Chasles's field of work is philology",
+   "Michel Chasles's field of work is optics",
+   "Michel Chasles's field of work is functional analysis",
+   "Michel Chasles's field of work is surgery",
+   "Michel Chasles's field of work is complex function",
+   "Michel Chasles's field of work is Jewish philosophy",
+   "Michel Chasles's field of work is translations from Spanish",
+   "Michel Chasles's field of work is poetry",
+   "Michel Chasles's field of work is distribution",
+   "Michel Chasles's field of work is astrology",
+   "Michel Chasles's field of work is differential geometry",
+   "Michel Chasles's field of work is mechanics",
+   "Michel Chasles's field of work is positivism",
+   "Michel Chasles's field of work is ferromagnetism",
+   "Michel Chasles's field of work is quantum physics",
+   "Michel Chasles's field of work is music theory",
+   "Michel Chasles's field of work is physiology",
+   "Michel Chasles's field of work is theory of differential equations",
+   "Michel Chasles's field of work is astrophysics",
+   "Michel Chasles's field of work is number theory",
+   "Michel Chasles's field of work is magnetic field",
+   "Michel Chasles's field of work is historical novel",
+   "Michel Chasles's field of work is stochastic",
+   "Michel Chasles's field of work is philosopher",
+   "Michel Chasles's field of work is histology",
+   "Michel Chasles's field of work is Franciscan spirituality",
+   "Michel Chasles's field of work is electromagnetic field",
+   "Michel Chasles's field of work is medicine",
+   "Michel Chasles's field of work is algebraic geometry",
+   "Michel Chasles's field of work is comparative mythology",
+   "Michel Chasles's field of work is color photography",
+   "Michel Chasles's field of work is cryptography",
+   "Michel Chasles's field of work is Christian Church",
+   "Michel Chasles's field of work is electrical engineering",
+   "Michel Chasles's field of work is folklore",
+   "Michel Chasles's field of work is mythology",
+   "Michel Chasles's field of work is human geography",
+   "Michel Chasles's field of work is Petrine ministry",
+   "Michel Chasles's field of work is Judaism",
+   "Michel Chasles's field of work is group theory",
+   "Michel Chasles's field of work is non-Euclidean geometry",
+   "Michel Chasles's field of work is algebra",
+   "Michel Chasles's field of work is ballistics",
+   "Michel Chasles's field of work is mathematician",
+   "Michel Chasles's field of work is applied physics",
+   "Michel Chasles's field of work is culturology",
+   "Michel Chasles's field of work is calculus of variations",
+   "Michel Chasles's field of work is logic",
+   "Michel Chasles's field of work is engineering",
+   "Michel Chasles's field of work is translations from Occitan",
+   "Michel Chasles's field of work is anatomy",
+   "Michel Chasles's field of work is forestry science",
+   "Michel Chasles's field of work is magic",
+   "Michel Chasles's field of work is quantum mechanics",
+   "Michel Chasles's field of work is differential calculus",
+   "Michel Chasles's field of work is shipbuilding",
+   "Michel Chasles's field of work is convex function",
+   "Michel Chasles's field of work is analytic philosophy",
+   "Michel Chasles's field of work is magnetic resonance",
+   "Michel Chasles's field of work is detective literature",
+   "Michel Chasles's field of work is cartography",
+   "Michel Chasles's field of work is sociology of organisations",
+   "Michel Chasles's field of work is crime novel",
+   "Michel Chasles's field of work is gravity",
+   "Michel Chasles's field of work is statistics",
+   "Michel Chasles's field of work is Greek philology",
+   "Michel Chasles's field of work is analytic number theory",
+   "Michel Chasles's field of work is trigonometry",
+   "Michel Chasles's field of work is physics",
+   "Michel Chasles's field of work is astronomer",
+   "Michel Chasles's field of work is natural science",
+   "Michel Chasles's field of work is information technology",
+   "Michel Chasles's field of work is conducting",
+   "Michel Chasles's field of work is nonstandard analysis",
+   "Michel Chasles's field of work is mathematical analysis",
+   "Michel Chasles's field of work is a branch of physics",
+   "Michel Chasles's field of work is projective geometry",
+   "Michel Chasles's field of work is civil rights",
+   "Michel Chasles's field of work is children's and youth literature",
+   "Michel Chasles's field of work is embryology",
+   "Michel Chasles's field of work is momentum",
+   "Michel Chasles's field of work is African studies",
+   "Michel Chasles's field of work is fairy tale",
+   "Michel Chasles's field of work is classics",
+   "Michel Chasles's field of work is social psychology",
+   "Michel Chasles's field of work is Jewish studies",
+   "Michel Chasles's field of work is silviculture",
+   "Michel Chasles's field of work is education",
+   "Michel Chasles's field of work is literature",
+   "Michel Chasles's field of work is constitutional law",
+   "Michel Chasles's field of work is radiation",
+   "Michel Chasles's field of work is Internet",
+   "Michel Chasles's field of work is heat",
+   "Michel Chasles's field of work is mechanical engineering",
+   "Michel Chasles's field of work is forestry",
+   "Michel Chasles's field of work is jazz",
+   "Michel Chasles's field of work is social philosophy",
+   "Michel Chasles's field of work is mathematical physics",
+   "Michel Chasles's field of work is meteorology",
+   "Michel Chasles's field of work is translations from Arabic language",
+   "Michel Chasles's field of work is quantum mysticism",
+   "Michel Chasles's field of work is politics",
+   "Michel Chasles's field of work is astronomical observation",
+   "Michel Chasles's field of work is myth",
+   "Michel Chasles's field of work is geography",
+   "Michel Chasles's field of work is sociology of religion",
+   "Michel Chasles's field of work is comparative religion",
+   "Michel Chasles's field of work is Greek",
+   "Michel Chasles's field of work is Lie algebra",
+   "Michel Chasles's field of work is complex manifold",
+   "Michel Chasles's field of work is journalism",
+   "Michel Chasles's field of work is celestial mechanics",
+   "Michel Chasles's field of work is String",
+   "Michel Chasles's field of work is mathematical logic",
+   "Michel Chasles's field of work is aeromechanics",
+   "Michel Chasles's field of work is English",
+   "Michel Chasles's field of work is history",
+   "Michel Chasles's field of work is study of history",
+   "Michel Chasles's field of work is genetics",
+   "Michel Chasles's field of work is psychology",
+   "Michel Chasles's field of work is theory of relativity",
+   "Michel Chasles's field of work is biochemistry",
+   "Michel Chasles's field of work is ballet",
+   "Michel Chasles's field of work is electricity",
+   "Michel Chasles's field of work is experimental physics",
+   "Michel Chasles's field of work is natural theology",
+   "Michel Chasles's field of work is Hebrew",
+   "Michel Chasles's field of work is prose",
+   "Michel Chasles's field of work is paleontology",
+   "Michel Chasles's field of work is Monte Carlo method",
+   "Michel Chasles's field of work is quantum theory",
+   "Michel Chasles's field of work is computer science",
+   "Michel Chasles's field of work is cybernetics",
+   "Michel Chasles's field of work is Afghanistan",
+   "Michel Chasles's field of work is philosophy of science",
+   "Michel Chasles's field of work is literary theory",
+   "Michel Chasles's field of work is electric field",
+   "Michel Chasles's field of work is religion",
+   "Michel Chasles's field of work is analytic geometry",
+   "Michel Chasles's field of work is graph theory",
+   "Michel Chasles's field of work is electron",
+   "Michel Chasles's field of work is anthropology",
+   "Michel Chasles's field of work is social anthropology",
+   "Michel Chasles's field of work is sociology",
+   "Michel Chasles's field of work is geodesy",
+   "Michel Chasles's field of work is neurology",
+   "Michel Chasles's field of work is drama",
+   "Michel Chasles's field of work is art of painting",
+   "Michel Chasles's field of work is applied mathematics",
+   "Michel Chasles's field of work is world economy",
+   "Michel Chasles's field of work is economic anthropology",
+   "Michel Chasles is abstract algebra",
+   "Michel Chasles is theology",
+   "Michel Chasles is television program",
+   "Michel Chasles is nanotechnology",
+   "Michel Chasles is hydrodynamics",
+   "Michel Chasles is ethics",
+   "Michel Chasles is physicist",
+   "Michel Chasles is evolution",
+   "Michel Chasles is distribution theory",
+   "Michel Chasles is psychophysiology",
+   "Michel Chasles is English literature",
+   "Michel Chasles is theoretical physics",
+   "Michel Chasles is essay",
+   "Michel Chasles is ethnology",
+   "Michel Chasles is pedagogy",
+   "Michel Chasles is kinetic theory",
+   "Michel Chasles is ethnography",
+   "Michel Chasles is rite",
+   "Michel Chasles is economics",
+   "Michel Chasles is dance choreography",
+   "Michel Chasles is biological anthropology",
+   "Michel Chasles is history of religions",
+   "Michel Chasles is political philosophy",
+   "Michel Chasles is philosophy",
+   "Michel Chasles is linguistics",
+   "Michel Chasles is cosmology",
+   "Michel Chasles is hunting",
+   "Michel Chasles is Minkowski spacetime",
+   "Michel Chasles is classical music",
+   "Michel Chasles is hyperbolic geometry",
+   "Michel Chasles is radioactivity",
+   "Michel Chasles is belletristic literature",
+   "Michel Chasles is model theory",
+   "Michel Chasles is choreography",
+   "Michel Chasles is chemistry",
+   "Michel Chasles is literary activity",
+   "Michel Chasles is historical sociology",
+   "Michel Chasles is feminism",
+   "Michel Chasles is economy",
+   "Michel Chasles is astronomy",
+   "Michel Chasles is topology",
+   "Michel Chasles is translations from English",
+   "Michel Chasles is partial differential equation",
+   "Michel Chasles is Cairo Geniza",
+   "Michel Chasles is nuclear physics",
+   "Michel Chasles is dance",
+   "Michel Chasles is informatics",
+   "Michel Chasles is geometry",
+   "Michel Chasles is computational geometry",
+   "Michel Chasles is Sanskrit",
+   "Michel Chasles is magnetism",
+   "Michel Chasles is opera",
+   "Michel Chasles is algebraic topology",
+   "Michel Chasles is quaternion",
+   "Michel Chasles is Bayesian inference",
+   "Michel Chasles is quantum electrodynamics",
+   "Michel Chasles is religion and society",
+   "Michel Chasles is history of economic thought",
+   "Michel Chasles is translations from Polish",
+   "Michel Chasles is literary translation",
+   "Michel Chasles is lyric poetry",
+   "Michel Chasles is probability theory",
+   "Michel Chasles is ontology",
+   "Michel Chasles is aerodynamics",
+   "Michel Chasles is crystallography",
+   "Michel Chasles is mathematics",
+   "Michel Chasles is harmonic analysis",
+   "Michel Chasles is history of science",
+   "Michel Chasles is philosophy of law",
+   "Michel Chasles is philology",
+   "Michel Chasles is optics",
+   "Michel Chasles is functional analysis",
+   "Michel Chasles is surgery",
+   "Michel Chasles is complex function",
+   "Michel Chasles is Jewish philosophy",
+   "Michel Chasles is translations from Spanish",
+   "Michel Chasles is poetry",
+   "Michel Chasles is distribution",
+   "Michel Chasles is astrology",
+   "Michel Chasles is differential geometry",
+   "Michel Chasles is mechanics",
+   "Michel Chasles is positivism",
+   "Michel Chasles is ferromagnetism",
+   "Michel Chasles is quantum physics",
+   "Michel Chasles is music theory",
+   "Michel Chasles is physiology",
+   "Michel Chasles is theory of differential equations",
+   "Michel Chasles is astrophysics",
+   "Michel Chasles is number theory",
+   "Michel Chasles is magnetic field",
+   "Michel Chasles is historical novel",
+   "Michel Chasles is stochastic",
+   "Michel Chasles is philosopher",
+   "Michel Chasles is histology",
+   "Michel Chasles is Franciscan spirituality",
+   "Michel Chasles is electromagnetic field",
+   "Michel Chasles is medicine",
+   "Michel Chasles is algebraic geometry",
+   "Michel Chasles is comparative mythology",
+   "Michel Chasles is color photography",
+   "Michel Chasles is cryptography",
+   "Michel Chasles is Christian Church",
+   "Michel Chasles is electrical engineering",
+   "Michel Chasles is folklore",
+   "Michel Chasles is mythology",
+   "Michel Chasles is human geography",
+   "Michel Chasles is Petrine ministry",
+   "Michel Chasles is Judaism",
+   "Michel Chasles is group theory",
+   "Michel Chasles is non-Euclidean geometry",
+   "Michel Chasles is algebra",
+   "Michel Chasles is ballistics",
+   "Michel Chasles is mathematician",
+   "Michel Chasles is applied physics",
+   "Michel Chasles is culturology",
+   "Michel Chasles is calculus of variations",
+   "Michel Chasles is logic",
+   "Michel Chasles is engineering",
+   "Michel Chasles is translations from Occitan",
+   "Michel Chasles is anatomy",
+   "Michel Chasles is forestry science",
+   "Michel Chasles is magic",
+   "Michel Chasles is quantum mechanics",
+   "Michel Chasles is differential calculus",
+   "Michel Chasles is shipbuilding",
+   "Michel Chasles is convex function",
+   "Michel Chasles is analytic philosophy",
+   "Michel Chasles is magnetic resonance",
+   "Michel Chasles is detective literature",
+   "Michel Chasles is cartography",
+   "Michel Chasles is sociology of organisations",
+   "Michel Chasles is crime novel",
+   "Michel Chasles is gravity",
+   "Michel Chasles is statistics",
+   "Michel Chasles is Greek philology",
+   "Michel Chasles is analytic number theory",
+   "Michel Chasles is trigonometry",
+   "Michel Chasles is physics",
+   "Michel Chasles is astronomer",
+   "Michel Chasles is natural science",
+   "Michel Chasles is information technology",
+   "Michel Chasles is conducting",
+   "Michel Chasles is nonstandard analysis",
+   "Michel Chasles is mathematical analysis",
+   "Michel Chasles is a branch of physics",
+   "Michel Chasles is projective geometry",
+   "Michel Chasles is civil rights",
+   "Michel Chasles is children's and youth literature",
+   "Michel Chasles is embryology",
+   "Michel Chasles is momentum",
+   "Michel Chasles is African studies",
+   "Michel Chasles is fairy tale",
+   "Michel Chasles is classics",
+   "Michel Chasles is social psychology",
+   "Michel Chasles is Jewish studies",
+   "Michel Chasles is silviculture",
+   "Michel Chasles is education",
+   "Michel Chasles is literature",
+   "Michel Chasles is constitutional law",
+   "Michel Chasles is radiation",
+   "Michel Chasles is Internet",
+   "Michel Chasles is heat",
+   "Michel Chasles is mechanical engineering",
+   "Michel Chasles is forestry",
+   "Michel Chasles is jazz",
+   "Michel Chasles is social philosophy",
+   "Michel Chasles is mathematical physics",
+   "Michel Chasles is meteorology",
+   "Michel Chasles is translations from Arabic language",
+   "Michel Chasles is quantum mysticism",
+   "Michel Chasles is politics",
+   "Michel Chasles is astronomical observation",
+   "Michel Chasles is myth",
+   "Michel Chasles is geography",
+   "Michel Chasles is sociology of religion",
+   "Michel Chasles is comparative religion",
+   "Michel Chasles is Greek",
+   "Michel Chasles is Lie algebra",
+   "Michel Chasles is complex manifold",
+   "Michel Chasles is journalism",
+   "Michel Chasles is celestial mechanics",
+   "Michel Chasles is String",
+   "Michel Chasles is mathematical logic",
+   "Michel Chasles is aeromechanics",
+   "Michel Chasles is English",
+   "Michel Chasles is history",
+   "Michel Chasles is study of history",
+   "Michel Chasles is genetics",
+   "Michel Chasles is psychology",
+   "Michel Chasles is theory of relativity",
+   "Michel Chasles is biochemistry",
+   "Michel Chasles is ballet",
+   "Michel Chasles is electricity",
+   "Michel Chasles is experimental physics",
+   "Michel Chasles is natural theology",
+   "Michel Chasles is Hebrew",
+   "Michel Chasles is prose",
+   "Michel Chasles is paleontology",
+   "Michel Chasles is Monte Carlo method",
+   "Michel Chasles is quantum theory",
+   "Michel Chasles is computer science",
+   "Michel Chasles is cybernetics",
+   "Michel Chasles is Afghanistan",
+   "Michel Chasles is philosophy of science",
+   "Michel Chasles is literary theory",
+   "Michel Chasles is electric field",
+   "Michel Chasles is religion",
+   "Michel Chasles is analytic geometry",
+   "Michel Chasles is graph theory",
+   "Michel Chasles is electron",
+   "Michel Chasles is anthropology",
+   "Michel Chasles is social anthropology",
+   "Michel Chasles is sociology",
+   "Michel Chasles is geodesy",
+   "Michel Chasles is neurology",
+   "Michel Chasles is drama",
+   "Michel Chasles is art of painting",
+   "Michel Chasles is applied mathematics",
+   "Michel Chasles is world economy",
+   "Michel Chasles is economic anthropology"
+  ],
+  [
+   [
+    -54.138214111328125
+   ],
+   [
+    -55.68492126464844
+   ],
+   [
+    -66.0
+   ],
+   [
+    -60.41933059692383
+   ],
+   [
+    -54.69554138183594
+   ],
+   [
+    -57.654747009277344
+   ],
+   [
+    -60.94205093383789
+   ],
+   [
+    -54.246665954589844
+   ],
+   [
+    -58.736724853515625
+   ],
+   [
+    -61.37367248535156
+   ],
+   [
+    -58.64197540283203
+   ],
+   [
+    -53.99053955078125
+   ],
+   [
+    -57.34983825683594
+   ],
+   [
+    -58.54080581665039
+   ],
+   [
+    -56.593971252441406
+   ],
+   [
+    -59.66631317138672
+   ],
+   [
+    -59.140769958496094
+   ],
+   [
+    -65.43074798583984
+   ],
+   [
+    -55.59246063232422
+   ],
+   [
+    -65.00038146972656
+   ],
+   [
+    -60.962528228759766
+   ],
+   [
+    -59.636268615722656
+   ],
+   [
+    -58.283790588378906
+   ],
+   [
+    -54.52626037597656
+   ],
+   [
+    -57.590187072753906
+   ],
+   [
+    -57.52409362792969
+   ],
+   [
+    -59.280517578125
+   ],
+   [
+    -61.180458068847656
+   ],
+   [
+    -60.54564666748047
+   ],
+   [
+    -52.78217697143555
+   ],
+   [
+    -62.45405578613281
+   ],
+   [
+    -64.66007995605469
+   ],
+   [
+    -56.17399597167969
+   ],
+   [
+    -59.08207702636719
+   ],
+   [
+    -54.12818145751953
+   ],
+   [
+    -65.71137237548828
+   ],
+   [
+    -59.996822357177734
+   ],
+   [
+    -60.69501495361328
+   ],
+   [
+    -58.755096435546875
+   ],
+   [
+    -54.24761962890625
+   ],
+   [
+    -51.21728515625
+   ],
+   [
+    -62.76286697387695
+   ],
+   [
+    -58.400779724121094
+   ],
+   [
+    -68.54444885253906
+   ],
+   [
+    -58.06327819824219
+   ],
+   [
+    -60.53557586669922
+   ],
+   [
+    -58.55235290527344
+   ],
+   [
+    -48.84746551513672
+   ],
+   [
+    -53.71837615966797
+   ],
+   [
+    -59.56779861450195
+   ],
+   [
+    -58.65540313720703
+   ],
+   [
+    -59.048492431640625
+   ],
+   [
+    -52.230674743652344
+   ],
+   [
+    -58.367977142333984
+   ],
+   [
+    -60.12147521972656
+   ],
+   [
+    -63.17238235473633
+   ],
+   [
+    -62.67353057861328
+   ],
+   [
+    -61.82062530517578
+   ],
+   [
+    -66.70527648925781
+   ],
+   [
+    -61.949546813964844
+   ],
+   [
+    -59.52068328857422
+   ],
+   [
+    -56.20391082763672
+   ],
+   [
+    -56.248687744140625
+   ],
+   [
+    -56.38561248779297
+   ],
+   [
+    -52.690589904785156
+   ],
+   [
+    -49.71400451660156
+   ],
+   [
+    -53.492340087890625
+   ],
+   [
+    -55.64108657836914
+   ],
+   [
+    -62.26518630981445
+   ],
+   [
+    -57.099998474121094
+   ],
+   [
+    -53.51586151123047
+   ],
+   [
+    -55.10589599609375
+   ],
+   [
+    -56.135276794433594
+   ],
+   [
+    -57.369293212890625
+   ],
+   [
+    -59.598793029785156
+   ],
+   [
+    -65.6114730834961
+   ],
+   [
+    -56.62770080566406
+   ],
+   [
+    -57.16046905517578
+   ],
+   [
+    -57.48943328857422
+   ],
+   [
+    -50.419151306152344
+   ],
+   [
+    -52.381439208984375
+   ],
+   [
+    -59.93458557128906
+   ],
+   [
+    -60.61597442626953
+   ],
+   [
+    -60.84174346923828
+   ],
+   [
+    -58.23285675048828
+   ],
+   [
+    -56.21879196166992
+   ],
+   [
+    -58.609107971191406
+   ],
+   [
+    -55.851806640625
+   ],
+   [
+    -51.855995178222656
+   ],
+   [
+    -60.57203674316406
+   ],
+   [
+    -64.17135620117188
+   ],
+   [
+    -55.059814453125
+   ],
+   [
+    -61.049171447753906
+   ],
+   [
+    -56.655967712402344
+   ],
+   [
+    -68.01087188720703
+   ],
+   [
+    -60.38767623901367
+   ],
+   [
+    -56.39747619628906
+   ],
+   [
+    -50.970314025878906
+   ],
+   [
+    -59.32041931152344
+   ],
+   [
+    -62.96714401245117
+   ],
+   [
+    -55.42384338378906
+   ],
+   [
+    -61.898040771484375
+   ],
+   [
+    -54.7864875793457
+   ],
+   [
+    -57.971717834472656
+   ],
+   [
+    -57.768463134765625
+   ],
+   [
+    -57.86391067504883
+   ],
+   [
+    -71.97272491455078
+   ],
+   [
+    -60.33589553833008
+   ],
+   [
+    -55.058868408203125
+   ],
+   [
+    -53.39127731323242
+   ],
+   [
+    -51.427978515625
+   ],
+   [
+    -57.75457000732422
+   ],
+   [
+    -55.22650146484375
+   ],
+   [
+    -58.38642120361328
+   ],
+   [
+    -61.785858154296875
+   ],
+   [
+    -54.269287109375
+   ],
+   [
+    -54.31507873535156
+   ],
+   [
+    -52.84217071533203
+   ],
+   [
+    -70.45394134521484
+   ],
+   [
+    -53.617279052734375
+   ],
+   [
+    -60.95563507080078
+   ],
+   [
+    -56.33924102783203
+   ],
+   [
+    -59.44444274902344
+   ],
+   [
+    -53.674522399902344
+   ],
+   [
+    -57.51506042480469
+   ],
+   [
+    -60.64500427246094
+   ],
+   [
+    -59.08439254760742
+   ],
+   [
+    -59.91484832763672
+   ],
+   [
+    -64.525634765625
+   ],
+   [
+    -52.929283142089844
+   ],
+   [
+    -65.9392318725586
+   ],
+   [
+    -64.49134826660156
+   ],
+   [
+    -57.865386962890625
+   ],
+   [
+    -53.312774658203125
+   ],
+   [
+    -61.22460174560547
+   ],
+   [
+    -55.53434753417969
+   ],
+   [
+    -53.46941375732422
+   ],
+   [
+    -53.34625244140625
+   ],
+   [
+    -61.7391357421875
+   ],
+   [
+    -55.44000244140625
+   ],
+   [
+    -57.57511901855469
+   ],
+   [
+    -58.56233215332031
+   ],
+   [
+    -61.884971618652344
+   ],
+   [
+    -51.25318908691406
+   ],
+   [
+    -59.20783996582031
+   ],
+   [
+    -52.37295150756836
+   ],
+   [
+    -64.15520477294922
+   ],
+   [
+    -64.80717468261719
+   ],
+   [
+    -56.164886474609375
+   ],
+   [
+    -57.95757293701172
+   ],
+   [
+    -60.80751037597656
+   ],
+   [
+    -61.9324836730957
+   ],
+   [
+    -56.259559631347656
+   ],
+   [
+    -59.04973602294922
+   ],
+   [
+    -58.322959899902344
+   ],
+   [
+    -61.186767578125
+   ],
+   [
+    -55.915771484375
+   ],
+   [
+    -55.968528747558594
+   ],
+   [
+    -57.5316047668457
+   ],
+   [
+    -57.27318572998047
+   ],
+   [
+    -60.414306640625
+   ],
+   [
+    -57.10357666015625
+   ],
+   [
+    -53.552284240722656
+   ],
+   [
+    -56.249900817871094
+   ],
+   [
+    -59.59452819824219
+   ],
+   [
+    -62.10789489746094
+   ],
+   [
+    -51.71717834472656
+   ],
+   [
+    -55.336509704589844
+   ],
+   [
+    -70.37966918945312
+   ],
+   [
+    -67.77018737792969
+   ],
+   [
+    -57.35014343261719
+   ],
+   [
+    -61.51641082763672
+   ],
+   [
+    -57.35511016845703
+   ],
+   [
+    -54.973533630371094
+   ],
+   [
+    -61.19315719604492
+   ],
+   [
+    -59.14148712158203
+   ],
+   [
+    -55.532188415527344
+   ],
+   [
+    -58.69152069091797
+   ],
+   [
+    -57.53425598144531
+   ],
+   [
+    -58.19212341308594
+   ],
+   [
+    -54.216163635253906
+   ],
+   [
+    -58.81145477294922
+   ],
+   [
+    -55.33894348144531
+   ],
+   [
+    -60.788726806640625
+   ],
+   [
+    -56.75103759765625
+   ],
+   [
+    -53.07024383544922
+   ],
+   [
+    -62.42713928222656
+   ],
+   [
+    -56.764625549316406
+   ],
+   [
+    -56.006370544433594
+   ],
+   [
+    -61.16699981689453
+   ],
+   [
+    -56.91256332397461
+   ],
+   [
+    -61.72223663330078
+   ],
+   [
+    -54.701698303222656
+   ],
+   [
+    -56.69806671142578
+   ],
+   [
+    -61.385986328125
+   ],
+   [
+    -56.579734802246094
+   ],
+   [
+    -59.32640838623047
+   ],
+   [
+    -58.65472412109375
+   ],
+   [
+    -62.30218505859375
+   ],
+   [
+    -61.10987854003906
+   ],
+   [
+    -54.82728576660156
+   ],
+   [
+    -58.28553771972656
+   ],
+   [
+    -59.748207092285156
+   ],
+   [
+    -57.73603820800781
+   ],
+   [
+    -60.44678497314453
+   ],
+   [
+    -60.29106903076172
+   ],
+   [
+    -57.56444549560547
+   ],
+   [
+    -51.01227569580078
+   ],
+   [
+    -54.22010040283203
+   ],
+   [
+    -56.8677978515625
+   ],
+   [
+    -57.98278045654297
+   ],
+   [
+    -60.194549560546875
+   ],
+   [
+    -57.23774719238281
+   ],
+   [
+    -52.22863006591797
+   ],
+   [
+    -58.12328338623047
+   ],
+   [
+    -57.91669464111328
+   ],
+   [
+    -63.86576461791992
+   ],
+   [
+    -52.76587677001953
+   ],
+   [
+    -64.17106628417969
+   ],
+   [
+    -63.87274169921875
+   ],
+   [
+    -47.42211151123047
+   ],
+   [
+    -43.793853759765625
+   ],
+   [
+    -46.857643127441406
+   ],
+   [
+    -44.983863830566406
+   ],
+   [
+    -44.896278381347656
+   ],
+   [
+    -45.23485565185547
+   ],
+   [
+    -38.97707748413086
+   ],
+   [
+    -42.83320617675781
+   ],
+   [
+    -53.60755920410156
+   ],
+   [
+    -50.23653030395508
+   ],
+   [
+    -45.49323272705078
+   ],
+   [
+    -42.71510314941406
+   ],
+   [
+    -42.27094268798828
+   ],
+   [
+    -46.70463943481445
+   ],
+   [
+    -44.658836364746094
+   ],
+   [
+    -48.80633544921875
+   ],
+   [
+    -47.14561462402344
+   ],
+   [
+    -46.13362121582031
+   ],
+   [
+    -41.823631286621094
+   ],
+   [
+    -49.19415283203125
+   ],
+   [
+    -49.59967803955078
+   ],
+   [
+    -50.89032745361328
+   ],
+   [
+    -46.186492919921875
+   ],
+   [
+    -40.13670349121094
+   ],
+   [
+    -44.29087829589844
+   ],
+   [
+    -44.041500091552734
+   ],
+   [
+    -40.327430725097656
+   ],
+   [
+    -50.39448928833008
+   ],
+   [
+    -43.21229553222656
+   ],
+   [
+    -46.24971008300781
+   ],
+   [
+    -48.038917541503906
+   ],
+   [
+    -53.16335678100586
+   ],
+   [
+    -50.15293884277344
+   ],
+   [
+    -45.89909744262695
+   ],
+   [
+    -42.97760009765625
+   ],
+   [
+    -50.242645263671875
+   ],
+   [
+    -47.086151123046875
+   ],
+   [
+    -46.146331787109375
+   ],
+   [
+    -42.39771270751953
+   ],
+   [
+    -43.78572082519531
+   ],
+   [
+    -43.75665283203125
+   ],
+   [
+    -52.488861083984375
+   ],
+   [
+    -44.93219757080078
+   ],
+   [
+    -53.99333953857422
+   ],
+   [
+    -45.31287384033203
+   ],
+   [
+    -41.580299377441406
+   ],
+   [
+    -46.35707092285156
+   ],
+   [
+    -42.429954528808594
+   ],
+   [
+    -45.16414260864258
+   ],
+   [
+    -41.5030632019043
+   ],
+   [
+    -45.036800384521484
+   ],
+   [
+    -41.41093826293945
+   ],
+   [
+    -46.90465545654297
+   ],
+   [
+    -45.88524627685547
+   ],
+   [
+    -47.01567459106445
+   ],
+   [
+    -49.51750946044922
+   ],
+   [
+    -47.30265808105469
+   ],
+   [
+    -50.822654724121094
+   ],
+   [
+    -53.980224609375
+   ],
+   [
+    -47.68825149536133
+   ],
+   [
+    -49.017608642578125
+   ],
+   [
+    -44.6108512878418
+   ],
+   [
+    -45.48682403564453
+   ],
+   [
+    -45.270206451416016
+   ],
+   [
+    -43.50871658325195
+   ],
+   [
+    -39.678253173828125
+   ],
+   [
+    -44.850746154785156
+   ],
+   [
+    -43.95872497558594
+   ],
+   [
+    -50.121116638183594
+   ],
+   [
+    -45.33538818359375
+   ],
+   [
+    -44.217002868652344
+   ],
+   [
+    -45.66387939453125
+   ],
+   [
+    -43.91626739501953
+   ],
+   [
+    -49.47886657714844
+   ],
+   [
+    -47.14341354370117
+   ],
+   [
+    -53.09572219848633
+   ],
+   [
+    -41.550636291503906
+   ],
+   [
+    -44.619598388671875
+   ],
+   [
+    -43.11846160888672
+   ],
+   [
+    -43.05563735961914
+   ],
+   [
+    -43.646339416503906
+   ],
+   [
+    -46.843109130859375
+   ],
+   [
+    -48.75459671020508
+   ],
+   [
+    -46.049137115478516
+   ],
+   [
+    -44.62598419189453
+   ],
+   [
+    -44.832763671875
+   ],
+   [
+    -49.80842208862305
+   ],
+   [
+    -42.647918701171875
+   ],
+   [
+    -50.61391067504883
+   ],
+   [
+    -46.393272399902344
+   ],
+   [
+    -43.293338775634766
+   ],
+   [
+    -44.293663024902344
+   ],
+   [
+    -39.53272247314453
+   ],
+   [
+    -44.55750274658203
+   ],
+   [
+    -47.95147705078125
+   ],
+   [
+    -45.6166877746582
+   ],
+   [
+    -41.91658020019531
+   ],
+   [
+    -45.39985275268555
+   ],
+   [
+    -50.01896667480469
+   ],
+   [
+    -49.06256866455078
+   ],
+   [
+    -44.738189697265625
+   ],
+   [
+    -45.87328338623047
+   ],
+   [
+    -43.28948211669922
+   ],
+   [
+    -43.64276885986328
+   ],
+   [
+    -45.57292175292969
+   ],
+   [
+    -45.326377868652344
+   ],
+   [
+    -59.87177658081055
+   ],
+   [
+    -43.790870666503906
+   ],
+   [
+    -47.98585510253906
+   ],
+   [
+    -45.0162353515625
+   ],
+   [
+    -43.97587203979492
+   ],
+   [
+    -46.84400177001953
+   ],
+   [
+    -38.80962371826172
+   ],
+   [
+    -46.30518341064453
+   ],
+   [
+    -48.95814514160156
+   ],
+   [
+    -48.83245086669922
+   ],
+   [
+    -42.3246955871582
+   ],
+   [
+    -40.175941467285156
+   ],
+   [
+    -55.8838996887207
+   ],
+   [
+    -43.5189323425293
+   ],
+   [
+    -48.474761962890625
+   ],
+   [
+    -41.106143951416016
+   ],
+   [
+    -45.52320098876953
+   ],
+   [
+    -45.202239990234375
+   ],
+   [
+    -46.08506774902344
+   ],
+   [
+    -50.488224029541016
+   ],
+   [
+    -47.7786750793457
+   ],
+   [
+    -47.272003173828125
+   ],
+   [
+    -54.12687301635742
+   ],
+   [
+    -42.87091827392578
+   ],
+   [
+    -55.986473083496094
+   ],
+   [
+    -45.63606262207031
+   ],
+   [
+    -43.385414123535156
+   ],
+   [
+    -41.11131286621094
+   ],
+   [
+    -52.16661071777344
+   ],
+   [
+    -47.07193374633789
+   ],
+   [
+    -44.46271896362305
+   ],
+   [
+    -41.309547424316406
+   ],
+   [
+    -41.69462966918945
+   ],
+   [
+    -42.53898620605469
+   ],
+   [
+    -42.046348571777344
+   ],
+   [
+    -39.176788330078125
+   ],
+   [
+    -52.273681640625
+   ],
+   [
+    -45.688934326171875
+   ],
+   [
+    -45.08273696899414
+   ],
+   [
+    -46.16204071044922
+   ],
+   [
+    -50.005245208740234
+   ],
+   [
+    -51.25138854980469
+   ],
+   [
+    -46.88847351074219
+   ],
+   [
+    -44.35829162597656
+   ],
+   [
+    -47.06812286376953
+   ],
+   [
+    -45.784488677978516
+   ],
+   [
+    -41.783546447753906
+   ],
+   [
+    -46.45863342285156
+   ],
+   [
+    -44.08346176147461
+   ],
+   [
+    -48.318241119384766
+   ],
+   [
+    -40.03815841674805
+   ],
+   [
+    -41.218101501464844
+   ],
+   [
+    -45.487762451171875
+   ],
+   [
+    -41.376487731933594
+   ],
+   [
+    -40.48479461669922
+   ],
+   [
+    -43.17976379394531
+   ],
+   [
+    -44.287601470947266
+   ],
+   [
+    -42.9078483581543
+   ],
+   [
+    -40.216041564941406
+   ],
+   [
+    -49.99087905883789
+   ],
+   [
+    -44.50789260864258
+   ],
+   [
+    -43.851261138916016
+   ],
+   [
+    -59.01369094848633
+   ],
+   [
+    -51.41301345825195
+   ],
+   [
+    -43.33416748046875
+   ],
+   [
+    -50.040008544921875
+   ],
+   [
+    -40.968414306640625
+   ],
+   [
+    -41.638179779052734
+   ],
+   [
+    -50.26203155517578
+   ],
+   [
+    -48.61652374267578
+   ],
+   [
+    -40.42034149169922
+   ],
+   [
+    -49.48733139038086
+   ],
+   [
+    -49.7595100402832
+   ],
+   [
+    -42.85566329956055
+   ],
+   [
+    -47.482704162597656
+   ],
+   [
+    -43.333648681640625
+   ],
+   [
+    -45.615089416503906
+   ],
+   [
+    -49.12937545776367
+   ],
+   [
+    -39.087059020996094
+   ],
+   [
+    -37.378658294677734
+   ],
+   [
+    -47.578067779541016
+   ],
+   [
+    -44.89982604980469
+   ],
+   [
+    -43.00431823730469
+   ],
+   [
+    -48.4127082824707
+   ],
+   [
+    -44.085838317871094
+   ],
+   [
+    -44.820289611816406
+   ],
+   [
+    -43.16631317138672
+   ],
+   [
+    -46.18855667114258
+   ],
+   [
+    -48.626502990722656
+   ],
+   [
+    -39.658363342285156
+   ],
+   [
+    -43.49748229980469
+   ],
+   [
+    -44.46965026855469
+   ],
+   [
+    -51.30150604248047
+   ],
+   [
+    -47.42484664916992
+   ],
+   [
+    -41.509368896484375
+   ],
+   [
+    -42.91080093383789
+   ],
+   [
+    -42.55851745605469
+   ],
+   [
+    -45.45592498779297
+   ],
+   [
+    -47.69776916503906
+   ],
+   [
+    -47.182472229003906
+   ],
+   [
+    -41.077369689941406
+   ],
+   [
+    -43.713985443115234
+   ],
+   [
+    -45.44135284423828
+   ],
+   [
+    -39.85297393798828
+   ],
+   [
+    -43.12360382080078
+   ],
+   [
+    -48.337425231933594
+   ],
+   [
+    -43.55755615234375
+   ],
+   [
+    -44.191070556640625
+   ],
+   [
+    -46.13713073730469
+   ],
+   [
+    -42.19050598144531
+   ],
+   [
+    -48.20038604736328
+   ],
+   [
+    -42.971946716308594
+   ],
+   [
+    -48.08253479003906
+   ],
+   [
+    -49.146263122558594
+   ]
+  ]
+ ],
+ "time": 131.14208102226257
+}

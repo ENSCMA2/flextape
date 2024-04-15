@@ -1,0 +1,2076 @@
+{
+ "case_id": 22047,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Joseph Barcroft"
+ },
+ "pre": [
+  [
+   "Joseph Barcroft's field of work is abstract algebra",
+   "Joseph Barcroft's field of work is theology",
+   "Joseph Barcroft's field of work is television program",
+   "Joseph Barcroft's field of work is nanotechnology",
+   "Joseph Barcroft's field of work is hydrodynamics",
+   "Joseph Barcroft's field of work is ethics",
+   "Joseph Barcroft's field of work is physicist",
+   "Joseph Barcroft's field of work is evolution",
+   "Joseph Barcroft's field of work is distribution theory",
+   "Joseph Barcroft's field of work is psychophysiology",
+   "Joseph Barcroft's field of work is English literature",
+   "Joseph Barcroft's field of work is theoretical physics",
+   "Joseph Barcroft's field of work is essay",
+   "Joseph Barcroft's field of work is ethnology",
+   "Joseph Barcroft's field of work is pedagogy",
+   "Joseph Barcroft's field of work is kinetic theory",
+   "Joseph Barcroft's field of work is ethnography",
+   "Joseph Barcroft's field of work is rite",
+   "Joseph Barcroft's field of work is economics",
+   "Joseph Barcroft's field of work is dance choreography",
+   "Joseph Barcroft's field of work is biological anthropology",
+   "Joseph Barcroft's field of work is history of religions",
+   "Joseph Barcroft's field of work is political philosophy",
+   "Joseph Barcroft's field of work is philosophy",
+   "Joseph Barcroft's field of work is linguistics",
+   "Joseph Barcroft's field of work is cosmology",
+   "Joseph Barcroft's field of work is hunting",
+   "Joseph Barcroft's field of work is Minkowski spacetime",
+   "Joseph Barcroft's field of work is classical music",
+   "Joseph Barcroft's field of work is hyperbolic geometry",
+   "Joseph Barcroft's field of work is radioactivity",
+   "Joseph Barcroft's field of work is belletristic literature",
+   "Joseph Barcroft's field of work is model theory",
+   "Joseph Barcroft's field of work is choreography",
+   "Joseph Barcroft's field of work is chemistry",
+   "Joseph Barcroft's field of work is literary activity",
+   "Joseph Barcroft's field of work is historical sociology",
+   "Joseph Barcroft's field of work is feminism",
+   "Joseph Barcroft's field of work is economy",
+   "Joseph Barcroft's field of work is astronomy",
+   "Joseph Barcroft's field of work is topology",
+   "Joseph Barcroft's field of work is translations from English",
+   "Joseph Barcroft's field of work is partial differential equation",
+   "Joseph Barcroft's field of work is Cairo Geniza",
+   "Joseph Barcroft's field of work is nuclear physics",
+   "Joseph Barcroft's field of work is dance",
+   "Joseph Barcroft's field of work is informatics",
+   "Joseph Barcroft's field of work is geometry",
+   "Joseph Barcroft's field of work is computational geometry",
+   "Joseph Barcroft's field of work is Sanskrit",
+   "Joseph Barcroft's field of work is magnetism",
+   "Joseph Barcroft's field of work is opera",
+   "Joseph Barcroft's field of work is algebraic topology",
+   "Joseph Barcroft's field of work is quaternion",
+   "Joseph Barcroft's field of work is Bayesian inference",
+   "Joseph Barcroft's field of work is quantum electrodynamics",
+   "Joseph Barcroft's field of work is religion and society",
+   "Joseph Barcroft's field of work is history of economic thought",
+   "Joseph Barcroft's field of work is translations from Polish",
+   "Joseph Barcroft's field of work is literary translation",
+   "Joseph Barcroft's field of work is lyric poetry",
+   "Joseph Barcroft's field of work is probability theory",
+   "Joseph Barcroft's field of work is ontology",
+   "Joseph Barcroft's field of work is aerodynamics",
+   "Joseph Barcroft's field of work is crystallography",
+   "Joseph Barcroft's field of work is mathematics",
+   "Joseph Barcroft's field of work is harmonic analysis",
+   "Joseph Barcroft's field of work is history of science",
+   "Joseph Barcroft's field of work is philosophy of law",
+   "Joseph Barcroft's field of work is philology",
+   "Joseph Barcroft's field of work is optics",
+   "Joseph Barcroft's field of work is functional analysis",
+   "Joseph Barcroft's field of work is surgery",
+   "Joseph Barcroft's field of work is complex function",
+   "Joseph Barcroft's field of work is Jewish philosophy",
+   "Joseph Barcroft's field of work is translations from Spanish",
+   "Joseph Barcroft's field of work is poetry",
+   "Joseph Barcroft's field of work is distribution",
+   "Joseph Barcroft's field of work is astrology",
+   "Joseph Barcroft's field of work is differential geometry",
+   "Joseph Barcroft's field of work is mechanics",
+   "Joseph Barcroft's field of work is positivism",
+   "Joseph Barcroft's field of work is ferromagnetism",
+   "Joseph Barcroft's field of work is quantum physics",
+   "Joseph Barcroft's field of work is music theory",
+   "Joseph Barcroft's field of work is physiology",
+   "Joseph Barcroft's field of work is theory of differential equations",
+   "Joseph Barcroft's field of work is astrophysics",
+   "Joseph Barcroft's field of work is number theory",
+   "Joseph Barcroft's field of work is magnetic field",
+   "Joseph Barcroft's field of work is historical novel",
+   "Joseph Barcroft's field of work is stochastic",
+   "Joseph Barcroft's field of work is philosopher",
+   "Joseph Barcroft's field of work is histology",
+   "Joseph Barcroft's field of work is Franciscan spirituality",
+   "Joseph Barcroft's field of work is electromagnetic field",
+   "Joseph Barcroft's field of work is medicine",
+   "Joseph Barcroft's field of work is algebraic geometry",
+   "Joseph Barcroft's field of work is comparative mythology",
+   "Joseph Barcroft's field of work is color photography",
+   "Joseph Barcroft's field of work is cryptography",
+   "Joseph Barcroft's field of work is Christian Church",
+   "Joseph Barcroft's field of work is electrical engineering",
+   "Joseph Barcroft's field of work is folklore",
+   "Joseph Barcroft's field of work is mythology",
+   "Joseph Barcroft's field of work is human geography",
+   "Joseph Barcroft's field of work is Petrine ministry",
+   "Joseph Barcroft's field of work is Judaism",
+   "Joseph Barcroft's field of work is group theory",
+   "Joseph Barcroft's field of work is non-Euclidean geometry",
+   "Joseph Barcroft's field of work is algebra",
+   "Joseph Barcroft's field of work is ballistics",
+   "Joseph Barcroft's field of work is mathematician",
+   "Joseph Barcroft's field of work is applied physics",
+   "Joseph Barcroft's field of work is culturology",
+   "Joseph Barcroft's field of work is calculus of variations",
+   "Joseph Barcroft's field of work is logic",
+   "Joseph Barcroft's field of work is engineering",
+   "Joseph Barcroft's field of work is translations from Occitan",
+   "Joseph Barcroft's field of work is anatomy",
+   "Joseph Barcroft's field of work is forestry science",
+   "Joseph Barcroft's field of work is magic",
+   "Joseph Barcroft's field of work is quantum mechanics",
+   "Joseph Barcroft's field of work is differential calculus",
+   "Joseph Barcroft's field of work is shipbuilding",
+   "Joseph Barcroft's field of work is convex function",
+   "Joseph Barcroft's field of work is analytic philosophy",
+   "Joseph Barcroft's field of work is magnetic resonance",
+   "Joseph Barcroft's field of work is detective literature",
+   "Joseph Barcroft's field of work is cartography",
+   "Joseph Barcroft's field of work is sociology of organisations",
+   "Joseph Barcroft's field of work is crime novel",
+   "Joseph Barcroft's field of work is gravity",
+   "Joseph Barcroft's field of work is statistics",
+   "Joseph Barcroft's field of work is Greek philology",
+   "Joseph Barcroft's field of work is analytic number theory",
+   "Joseph Barcroft's field of work is trigonometry",
+   "Joseph Barcroft's field of work is physics",
+   "Joseph Barcroft's field of work is astronomer",
+   "Joseph Barcroft's field of work is natural science",
+   "Joseph Barcroft's field of work is information technology",
+   "Joseph Barcroft's field of work is conducting",
+   "Joseph Barcroft's field of work is nonstandard analysis",
+   "Joseph Barcroft's field of work is mathematical analysis",
+   "Joseph Barcroft's field of work is a branch of physics",
+   "Joseph Barcroft's field of work is projective geometry",
+   "Joseph Barcroft's field of work is civil rights",
+   "Joseph Barcroft's field of work is children's and youth literature",
+   "Joseph Barcroft's field of work is embryology",
+   "Joseph Barcroft's field of work is momentum",
+   "Joseph Barcroft's field of work is African studies",
+   "Joseph Barcroft's field of work is fairy tale",
+   "Joseph Barcroft's field of work is classics",
+   "Joseph Barcroft's field of work is social psychology",
+   "Joseph Barcroft's field of work is Jewish studies",
+   "Joseph Barcroft's field of work is silviculture",
+   "Joseph Barcroft's field of work is education",
+   "Joseph Barcroft's field of work is literature",
+   "Joseph Barcroft's field of work is constitutional law",
+   "Joseph Barcroft's field of work is radiation",
+   "Joseph Barcroft's field of work is Internet",
+   "Joseph Barcroft's field of work is heat",
+   "Joseph Barcroft's field of work is mechanical engineering",
+   "Joseph Barcroft's field of work is forestry",
+   "Joseph Barcroft's field of work is jazz",
+   "Joseph Barcroft's field of work is social philosophy",
+   "Joseph Barcroft's field of work is mathematical physics",
+   "Joseph Barcroft's field of work is meteorology",
+   "Joseph Barcroft's field of work is translations from Arabic language",
+   "Joseph Barcroft's field of work is quantum mysticism",
+   "Joseph Barcroft's field of work is politics",
+   "Joseph Barcroft's field of work is astronomical observation",
+   "Joseph Barcroft's field of work is myth",
+   "Joseph Barcroft's field of work is geography",
+   "Joseph Barcroft's field of work is sociology of religion",
+   "Joseph Barcroft's field of work is comparative religion",
+   "Joseph Barcroft's field of work is Greek",
+   "Joseph Barcroft's field of work is Lie algebra",
+   "Joseph Barcroft's field of work is complex manifold",
+   "Joseph Barcroft's field of work is journalism",
+   "Joseph Barcroft's field of work is celestial mechanics",
+   "Joseph Barcroft's field of work is String",
+   "Joseph Barcroft's field of work is mathematical logic",
+   "Joseph Barcroft's field of work is aeromechanics",
+   "Joseph Barcroft's field of work is English",
+   "Joseph Barcroft's field of work is history",
+   "Joseph Barcroft's field of work is study of history",
+   "Joseph Barcroft's field of work is genetics",
+   "Joseph Barcroft's field of work is psychology",
+   "Joseph Barcroft's field of work is theory of relativity",
+   "Joseph Barcroft's field of work is biochemistry",
+   "Joseph Barcroft's field of work is ballet",
+   "Joseph Barcroft's field of work is electricity",
+   "Joseph Barcroft's field of work is experimental physics",
+   "Joseph Barcroft's field of work is natural theology",
+   "Joseph Barcroft's field of work is Hebrew",
+   "Joseph Barcroft's field of work is prose",
+   "Joseph Barcroft's field of work is paleontology",
+   "Joseph Barcroft's field of work is Monte Carlo method",
+   "Joseph Barcroft's field of work is quantum theory",
+   "Joseph Barcroft's field of work is computer science",
+   "Joseph Barcroft's field of work is cybernetics",
+   "Joseph Barcroft's field of work is Afghanistan",
+   "Joseph Barcroft's field of work is philosophy of science",
+   "Joseph Barcroft's field of work is literary theory",
+   "Joseph Barcroft's field of work is electric field",
+   "Joseph Barcroft's field of work is religion",
+   "Joseph Barcroft's field of work is analytic geometry",
+   "Joseph Barcroft's field of work is graph theory",
+   "Joseph Barcroft's field of work is electron",
+   "Joseph Barcroft's field of work is anthropology",
+   "Joseph Barcroft's field of work is social anthropology",
+   "Joseph Barcroft's field of work is sociology",
+   "Joseph Barcroft's field of work is geodesy",
+   "Joseph Barcroft's field of work is neurology",
+   "Joseph Barcroft's field of work is drama",
+   "Joseph Barcroft's field of work is art of painting",
+   "Joseph Barcroft's field of work is applied mathematics",
+   "Joseph Barcroft's field of work is world economy",
+   "Joseph Barcroft's field of work is economic anthropology",
+   "Joseph Barcroft is abstract algebra",
+   "Joseph Barcroft is theology",
+   "Joseph Barcroft is television program",
+   "Joseph Barcroft is nanotechnology",
+   "Joseph Barcroft is hydrodynamics",
+   "Joseph Barcroft is ethics",
+   "Joseph Barcroft is physicist",
+   "Joseph Barcroft is evolution",
+   "Joseph Barcroft is distribution theory",
+   "Joseph Barcroft is psychophysiology",
+   "Joseph Barcroft is English literature",
+   "Joseph Barcroft is theoretical physics",
+   "Joseph Barcroft is essay",
+   "Joseph Barcroft is ethnology",
+   "Joseph Barcroft is pedagogy",
+   "Joseph Barcroft is kinetic theory",
+   "Joseph Barcroft is ethnography",
+   "Joseph Barcroft is rite",
+   "Joseph Barcroft is economics",
+   "Joseph Barcroft is dance choreography",
+   "Joseph Barcroft is biological anthropology",
+   "Joseph Barcroft is history of religions",
+   "Joseph Barcroft is political philosophy",
+   "Joseph Barcroft is philosophy",
+   "Joseph Barcroft is linguistics",
+   "Joseph Barcroft is cosmology",
+   "Joseph Barcroft is hunting",
+   "Joseph Barcroft is Minkowski spacetime",
+   "Joseph Barcroft is classical music",
+   "Joseph Barcroft is hyperbolic geometry",
+   "Joseph Barcroft is radioactivity",
+   "Joseph Barcroft is belletristic literature",
+   "Joseph Barcroft is model theory",
+   "Joseph Barcroft is choreography",
+   "Joseph Barcroft is chemistry",
+   "Joseph Barcroft is literary activity",
+   "Joseph Barcroft is historical sociology",
+   "Joseph Barcroft is feminism",
+   "Joseph Barcroft is economy",
+   "Joseph Barcroft is astronomy",
+   "Joseph Barcroft is topology",
+   "Joseph Barcroft is translations from English",
+   "Joseph Barcroft is partial differential equation",
+   "Joseph Barcroft is Cairo Geniza",
+   "Joseph Barcroft is nuclear physics",
+   "Joseph Barcroft is dance",
+   "Joseph Barcroft is informatics",
+   "Joseph Barcroft is geometry",
+   "Joseph Barcroft is computational geometry",
+   "Joseph Barcroft is Sanskrit",
+   "Joseph Barcroft is magnetism",
+   "Joseph Barcroft is opera",
+   "Joseph Barcroft is algebraic topology",
+   "Joseph Barcroft is quaternion",
+   "Joseph Barcroft is Bayesian inference",
+   "Joseph Barcroft is quantum electrodynamics",
+   "Joseph Barcroft is religion and society",
+   "Joseph Barcroft is history of economic thought",
+   "Joseph Barcroft is translations from Polish",
+   "Joseph Barcroft is literary translation",
+   "Joseph Barcroft is lyric poetry",
+   "Joseph Barcroft is probability theory",
+   "Joseph Barcroft is ontology",
+   "Joseph Barcroft is aerodynamics",
+   "Joseph Barcroft is crystallography",
+   "Joseph Barcroft is mathematics",
+   "Joseph Barcroft is harmonic analysis",
+   "Joseph Barcroft is history of science",
+   "Joseph Barcroft is philosophy of law",
+   "Joseph Barcroft is philology",
+   "Joseph Barcroft is optics",
+   "Joseph Barcroft is functional analysis",
+   "Joseph Barcroft is surgery",
+   "Joseph Barcroft is complex function",
+   "Joseph Barcroft is Jewish philosophy",
+   "Joseph Barcroft is translations from Spanish",
+   "Joseph Barcroft is poetry",
+   "Joseph Barcroft is distribution",
+   "Joseph Barcroft is astrology",
+   "Joseph Barcroft is differential geometry",
+   "Joseph Barcroft is mechanics",
+   "Joseph Barcroft is positivism",
+   "Joseph Barcroft is ferromagnetism",
+   "Joseph Barcroft is quantum physics",
+   "Joseph Barcroft is music theory",
+   "Joseph Barcroft is physiology",
+   "Joseph Barcroft is theory of differential equations",
+   "Joseph Barcroft is astrophysics",
+   "Joseph Barcroft is number theory",
+   "Joseph Barcroft is magnetic field",
+   "Joseph Barcroft is historical novel",
+   "Joseph Barcroft is stochastic",
+   "Joseph Barcroft is philosopher",
+   "Joseph Barcroft is histology",
+   "Joseph Barcroft is Franciscan spirituality",
+   "Joseph Barcroft is electromagnetic field",
+   "Joseph Barcroft is medicine",
+   "Joseph Barcroft is algebraic geometry",
+   "Joseph Barcroft is comparative mythology",
+   "Joseph Barcroft is color photography",
+   "Joseph Barcroft is cryptography",
+   "Joseph Barcroft is Christian Church",
+   "Joseph Barcroft is electrical engineering",
+   "Joseph Barcroft is folklore",
+   "Joseph Barcroft is mythology",
+   "Joseph Barcroft is human geography",
+   "Joseph Barcroft is Petrine ministry",
+   "Joseph Barcroft is Judaism",
+   "Joseph Barcroft is group theory",
+   "Joseph Barcroft is non-Euclidean geometry",
+   "Joseph Barcroft is algebra",
+   "Joseph Barcroft is ballistics",
+   "Joseph Barcroft is mathematician",
+   "Joseph Barcroft is applied physics",
+   "Joseph Barcroft is culturology",
+   "Joseph Barcroft is calculus of variations",
+   "Joseph Barcroft is logic",
+   "Joseph Barcroft is engineering",
+   "Joseph Barcroft is translations from Occitan",
+   "Joseph Barcroft is anatomy",
+   "Joseph Barcroft is forestry science",
+   "Joseph Barcroft is magic",
+   "Joseph Barcroft is quantum mechanics",
+   "Joseph Barcroft is differential calculus",
+   "Joseph Barcroft is shipbuilding",
+   "Joseph Barcroft is convex function",
+   "Joseph Barcroft is analytic philosophy",
+   "Joseph Barcroft is magnetic resonance",
+   "Joseph Barcroft is detective literature",
+   "Joseph Barcroft is cartography",
+   "Joseph Barcroft is sociology of organisations",
+   "Joseph Barcroft is crime novel",
+   "Joseph Barcroft is gravity",
+   "Joseph Barcroft is statistics",
+   "Joseph Barcroft is Greek philology",
+   "Joseph Barcroft is analytic number theory",
+   "Joseph Barcroft is trigonometry",
+   "Joseph Barcroft is physics",
+   "Joseph Barcroft is astronomer",
+   "Joseph Barcroft is natural science",
+   "Joseph Barcroft is information technology",
+   "Joseph Barcroft is conducting",
+   "Joseph Barcroft is nonstandard analysis",
+   "Joseph Barcroft is mathematical analysis",
+   "Joseph Barcroft is a branch of physics",
+   "Joseph Barcroft is projective geometry",
+   "Joseph Barcroft is civil rights",
+   "Joseph Barcroft is children's and youth literature",
+   "Joseph Barcroft is embryology",
+   "Joseph Barcroft is momentum",
+   "Joseph Barcroft is African studies",
+   "Joseph Barcroft is fairy tale",
+   "Joseph Barcroft is classics",
+   "Joseph Barcroft is social psychology",
+   "Joseph Barcroft is Jewish studies",
+   "Joseph Barcroft is silviculture",
+   "Joseph Barcroft is education",
+   "Joseph Barcroft is literature",
+   "Joseph Barcroft is constitutional law",
+   "Joseph Barcroft is radiation",
+   "Joseph Barcroft is Internet",
+   "Joseph Barcroft is heat",
+   "Joseph Barcroft is mechanical engineering",
+   "Joseph Barcroft is forestry",
+   "Joseph Barcroft is jazz",
+   "Joseph Barcroft is social philosophy",
+   "Joseph Barcroft is mathematical physics",
+   "Joseph Barcroft is meteorology",
+   "Joseph Barcroft is translations from Arabic language",
+   "Joseph Barcroft is quantum mysticism",
+   "Joseph Barcroft is politics",
+   "Joseph Barcroft is astronomical observation",
+   "Joseph Barcroft is myth",
+   "Joseph Barcroft is geography",
+   "Joseph Barcroft is sociology of religion",
+   "Joseph Barcroft is comparative religion",
+   "Joseph Barcroft is Greek",
+   "Joseph Barcroft is Lie algebra",
+   "Joseph Barcroft is complex manifold",
+   "Joseph Barcroft is journalism",
+   "Joseph Barcroft is celestial mechanics",
+   "Joseph Barcroft is String",
+   "Joseph Barcroft is mathematical logic",
+   "Joseph Barcroft is aeromechanics",
+   "Joseph Barcroft is English",
+   "Joseph Barcroft is history",
+   "Joseph Barcroft is study of history",
+   "Joseph Barcroft is genetics",
+   "Joseph Barcroft is psychology",
+   "Joseph Barcroft is theory of relativity",
+   "Joseph Barcroft is biochemistry",
+   "Joseph Barcroft is ballet",
+   "Joseph Barcroft is electricity",
+   "Joseph Barcroft is experimental physics",
+   "Joseph Barcroft is natural theology",
+   "Joseph Barcroft is Hebrew",
+   "Joseph Barcroft is prose",
+   "Joseph Barcroft is paleontology",
+   "Joseph Barcroft is Monte Carlo method",
+   "Joseph Barcroft is quantum theory",
+   "Joseph Barcroft is computer science",
+   "Joseph Barcroft is cybernetics",
+   "Joseph Barcroft is Afghanistan",
+   "Joseph Barcroft is philosophy of science",
+   "Joseph Barcroft is literary theory",
+   "Joseph Barcroft is electric field",
+   "Joseph Barcroft is religion",
+   "Joseph Barcroft is analytic geometry",
+   "Joseph Barcroft is graph theory",
+   "Joseph Barcroft is electron",
+   "Joseph Barcroft is anthropology",
+   "Joseph Barcroft is social anthropology",
+   "Joseph Barcroft is sociology",
+   "Joseph Barcroft is geodesy",
+   "Joseph Barcroft is neurology",
+   "Joseph Barcroft is drama",
+   "Joseph Barcroft is art of painting",
+   "Joseph Barcroft is applied mathematics",
+   "Joseph Barcroft is world economy",
+   "Joseph Barcroft is economic anthropology"
+  ],
+  [
+   [
+    -54.978187561035156
+   ],
+   [
+    -53.919837951660156
+   ],
+   [
+    -61.1112060546875
+   ],
+   [
+    -54.92375946044922
+   ],
+   [
+    -50.64060592651367
+   ],
+   [
+    -54.574424743652344
+   ],
+   [
+    -58.456363677978516
+   ],
+   [
+    -51.282859802246094
+   ],
+   [
+    -55.410736083984375
+   ],
+   [
+    -52.89849090576172
+   ],
+   [
+    -53.375953674316406
+   ],
+   [
+    -47.657936096191406
+   ],
+   [
+    -55.20164489746094
+   ],
+   [
+    -55.129005432128906
+   ],
+   [
+    -52.78242492675781
+   ],
+   [
+    -49.21343231201172
+   ],
+   [
+    -56.66943359375
+   ],
+   [
+    -63.0379638671875
+   ],
+   [
+    -53.347450256347656
+   ],
+   [
+    -64.1356430053711
+   ],
+   [
+    -57.86516571044922
+   ],
+   [
+    -58.13861846923828
+   ],
+   [
+    -54.623329162597656
+   ],
+   [
+    -51.859893798828125
+   ],
+   [
+    -54.15160369873047
+   ],
+   [
+    -53.049888610839844
+   ],
+   [
+    -56.41310119628906
+   ],
+   [
+    -59.79633331298828
+   ],
+   [
+    -60.71611785888672
+   ],
+   [
+    -54.96154022216797
+   ],
+   [
+    -51.28840637207031
+   ],
+   [
+    -63.951541900634766
+   ],
+   [
+    -54.497108459472656
+   ],
+   [
+    -57.72160339355469
+   ],
+   [
+    -48.342926025390625
+   ],
+   [
+    -63.48308563232422
+   ],
+   [
+    -54.13616943359375
+   ],
+   [
+    -56.560150146484375
+   ],
+   [
+    -57.071441650390625
+   ],
+   [
+    -52.958168029785156
+   ],
+   [
+    -53.935523986816406
+   ],
+   [
+    -63.72883224487305
+   ],
+   [
+    -56.3680305480957
+   ],
+   [
+    -66.64533996582031
+   ],
+   [
+    -50.22418212890625
+   ],
+   [
+    -56.18052673339844
+   ],
+   [
+    -57.43339538574219
+   ],
+   [
+    -52.70446014404297
+   ],
+   [
+    -56.255348205566406
+   ],
+   [
+    -55.59611129760742
+   ],
+   [
+    -50.774932861328125
+   ],
+   [
+    -56.262168884277344
+   ],
+   [
+    -53.16839599609375
+   ],
+   [
+    -57.57744598388672
+   ],
+   [
+    -56.51051330566406
+   ],
+   [
+    -52.04448699951172
+   ],
+   [
+    -60.08557891845703
+   ],
+   [
+    -57.72703170776367
+   ],
+   [
+    -67.26504516601562
+   ],
+   [
+    -59.414573669433594
+   ],
+   [
+    -57.50658416748047
+   ],
+   [
+    -54.114768981933594
+   ],
+   [
+    -54.28758239746094
+   ],
+   [
+    -49.57542037963867
+   ],
+   [
+    -49.214271545410156
+   ],
+   [
+    -50.85657501220703
+   ],
+   [
+    -54.40487289428711
+   ],
+   [
+    -54.26243209838867
+   ],
+   [
+    -58.234092712402344
+   ],
+   [
+    -55.18354034423828
+   ],
+   [
+    -49.52043914794922
+   ],
+   [
+    -53.855491638183594
+   ],
+   [
+    -52.40679931640625
+   ],
+   [
+    -57.75926971435547
+   ],
+   [
+    -58.023109436035156
+   ],
+   [
+    -66.1622314453125
+   ],
+   [
+    -55.87834930419922
+   ],
+   [
+    -53.03760528564453
+   ],
+   [
+    -55.47010040283203
+   ],
+   [
+    -51.700225830078125
+   ],
+   [
+    -48.701148986816406
+   ],
+   [
+    -57.68225860595703
+   ],
+   [
+    -52.458560943603516
+   ],
+   [
+    -50.77941131591797
+   ],
+   [
+    -56.771339416503906
+   ],
+   [
+    -46.464237213134766
+   ],
+   [
+    -59.77745056152344
+   ],
+   [
+    -52.02641296386719
+   ],
+   [
+    -52.207542419433594
+   ],
+   [
+    -55.48682403564453
+   ],
+   [
+    -59.481346130371094
+   ],
+   [
+    -51.777923583984375
+   ],
+   [
+    -57.401100158691406
+   ],
+   [
+    -49.944366455078125
+   ],
+   [
+    -64.97819519042969
+   ],
+   [
+    -56.453182220458984
+   ],
+   [
+    -51.612205505371094
+   ],
+   [
+    -54.53074645996094
+   ],
+   [
+    -62.017642974853516
+   ],
+   [
+    -58.969329833984375
+   ],
+   [
+    -54.62831115722656
+   ],
+   [
+    -58.78545379638672
+   ],
+   [
+    -49.97176742553711
+   ],
+   [
+    -55.34074020385742
+   ],
+   [
+    -56.70196533203125
+   ],
+   [
+    -57.120208740234375
+   ],
+   [
+    -72.06653594970703
+   ],
+   [
+    -57.56781005859375
+   ],
+   [
+    -53.68042755126953
+   ],
+   [
+    -55.848472595214844
+   ],
+   [
+    -53.66139221191406
+   ],
+   [
+    -54.535728454589844
+   ],
+   [
+    -59.92786407470703
+   ],
+   [
+    -51.35997772216797
+   ],
+   [
+    -57.23741912841797
+   ],
+   [
+    -55.521183013916016
+   ],
+   [
+    -52.732574462890625
+   ],
+   [
+    -51.547569274902344
+   ],
+   [
+    -71.01593017578125
+   ],
+   [
+    -49.45606994628906
+   ],
+   [
+    -59.45942687988281
+   ],
+   [
+    -54.21613311767578
+   ],
+   [
+    -49.798057556152344
+   ],
+   [
+    -54.181907653808594
+   ],
+   [
+    -57.01917266845703
+   ],
+   [
+    -62.578712463378906
+   ],
+   [
+    -56.53865051269531
+   ],
+   [
+    -50.65599822998047
+   ],
+   [
+    -62.45460510253906
+   ],
+   [
+    -57.214332580566406
+   ],
+   [
+    -61.91783905029297
+   ],
+   [
+    -63.21684265136719
+   ],
+   [
+    -52.9442138671875
+   ],
+   [
+    -51.000511169433594
+   ],
+   [
+    -59.645179748535156
+   ],
+   [
+    -55.324928283691406
+   ],
+   [
+    -55.86915588378906
+   ],
+   [
+    -47.40702819824219
+   ],
+   [
+    -60.918212890625
+   ],
+   [
+    -52.31232452392578
+   ],
+   [
+    -55.870628356933594
+   ],
+   [
+    -53.397621154785156
+   ],
+   [
+    -59.72142791748047
+   ],
+   [
+    -51.595794677734375
+   ],
+   [
+    -51.64860534667969
+   ],
+   [
+    -54.44651794433594
+   ],
+   [
+    -59.25645446777344
+   ],
+   [
+    -62.102134704589844
+   ],
+   [
+    -49.04899978637695
+   ],
+   [
+    -52.66913604736328
+   ],
+   [
+    -57.615028381347656
+   ],
+   [
+    -60.65821838378906
+   ],
+   [
+    -54.38378143310547
+   ],
+   [
+    -52.636749267578125
+   ],
+   [
+    -55.81645202636719
+   ],
+   [
+    -58.75395202636719
+   ],
+   [
+    -51.92381286621094
+   ],
+   [
+    -53.9984130859375
+   ],
+   [
+    -53.404029846191406
+   ],
+   [
+    -50.27973937988281
+   ],
+   [
+    -57.852195739746094
+   ],
+   [
+    -50.489295959472656
+   ],
+   [
+    -52.79203796386719
+   ],
+   [
+    -54.91462707519531
+   ],
+   [
+    -54.99260711669922
+   ],
+   [
+    -56.67698669433594
+   ],
+   [
+    -49.3345947265625
+   ],
+   [
+    -50.59991455078125
+   ],
+   [
+    -71.40068054199219
+   ],
+   [
+    -61.85713195800781
+   ],
+   [
+    -54.481773376464844
+   ],
+   [
+    -63.55002975463867
+   ],
+   [
+    -56.338104248046875
+   ],
+   [
+    -53.70849609375
+   ],
+   [
+    -57.405006408691406
+   ],
+   [
+    -61.049774169921875
+   ],
+   [
+    -55.89801788330078
+   ],
+   [
+    -56.139015197753906
+   ],
+   [
+    -59.24903106689453
+   ],
+   [
+    -53.88191223144531
+   ],
+   [
+    -53.44868469238281
+   ],
+   [
+    -55.11100769042969
+   ],
+   [
+    -53.32030487060547
+   ],
+   [
+    -56.65134048461914
+   ],
+   [
+    -51.501319885253906
+   ],
+   [
+    -52.19535827636719
+   ],
+   [
+    -62.66840362548828
+   ],
+   [
+    -50.33261489868164
+   ],
+   [
+    -51.789527893066406
+   ],
+   [
+    -55.08816909790039
+   ],
+   [
+    -48.28704833984375
+   ],
+   [
+    -57.717018127441406
+   ],
+   [
+    -50.28089141845703
+   ],
+   [
+    -47.25659942626953
+   ],
+   [
+    -56.17860794067383
+   ],
+   [
+    -55.075157165527344
+   ],
+   [
+    -59.34825897216797
+   ],
+   [
+    -56.35939025878906
+   ],
+   [
+    -59.08821487426758
+   ],
+   [
+    -50.77294921875
+   ],
+   [
+    -55.397308349609375
+   ],
+   [
+    -55.03569793701172
+   ],
+   [
+    -58.06041717529297
+   ],
+   [
+    -53.095176696777344
+   ],
+   [
+    -57.94432067871094
+   ],
+   [
+    -56.114768981933594
+   ],
+   [
+    -55.352500915527344
+   ],
+   [
+    -57.63141632080078
+   ],
+   [
+    -55.31883239746094
+   ],
+   [
+    -49.759918212890625
+   ],
+   [
+    -55.084442138671875
+   ],
+   [
+    -54.66832733154297
+   ],
+   [
+    -53.07844543457031
+   ],
+   [
+    -56.01081848144531
+   ],
+   [
+    -51.23833465576172
+   ],
+   [
+    -56.925201416015625
+   ],
+   [
+    -64.6175308227539
+   ],
+   [
+    -51.974693298339844
+   ],
+   [
+    -61.419769287109375
+   ],
+   [
+    -60.505027770996094
+   ],
+   [
+    -49.49375915527344
+   ],
+   [
+    -41.78791427612305
+   ],
+   [
+    -46.19318389892578
+   ],
+   [
+    -42.54016876220703
+   ],
+   [
+    -43.64150619506836
+   ],
+   [
+    -42.032894134521484
+   ],
+   [
+    -36.62183380126953
+   ],
+   [
+    -41.005828857421875
+   ],
+   [
+    -52.455970764160156
+   ],
+   [
+    -48.37771987915039
+   ],
+   [
+    -41.64616394042969
+   ],
+   [
+    -42.60247802734375
+   ],
+   [
+    -39.00972366333008
+   ],
+   [
+    -44.55078887939453
+   ],
+   [
+    -43.91341018676758
+   ],
+   [
+    -44.594303131103516
+   ],
+   [
+    -44.720977783203125
+   ],
+   [
+    -43.696929931640625
+   ],
+   [
+    -38.3043098449707
+   ],
+   [
+    -49.15540313720703
+   ],
+   [
+    -43.51039123535156
+   ],
+   [
+    -48.31092834472656
+   ],
+   [
+    -44.56794738769531
+   ],
+   [
+    -39.63131332397461
+   ],
+   [
+    -41.78271484375
+   ],
+   [
+    -41.88573455810547
+   ],
+   [
+    -37.9815559387207
+   ],
+   [
+    -50.57950210571289
+   ],
+   [
+    -40.067970275878906
+   ],
+   [
+    -52.764015197753906
+   ],
+   [
+    -47.648681640625
+   ],
+   [
+    -51.87611389160156
+   ],
+   [
+    -51.80282974243164
+   ],
+   [
+    -46.16410827636719
+   ],
+   [
+    -38.61725997924805
+   ],
+   [
+    -49.0156364440918
+   ],
+   [
+    -44.23820877075195
+   ],
+   [
+    -43.99878692626953
+   ],
+   [
+    -41.42476272583008
+   ],
+   [
+    -42.47683334350586
+   ],
+   [
+    -42.694305419921875
+   ],
+   [
+    -51.37596893310547
+   ],
+   [
+    -46.943572998046875
+   ],
+   [
+    -49.748905181884766
+   ],
+   [
+    -42.600257873535156
+   ],
+   [
+    -40.03282165527344
+   ],
+   [
+    -44.730133056640625
+   ],
+   [
+    -42.896705627441406
+   ],
+   [
+    -48.820472717285156
+   ],
+   [
+    -39.75336837768555
+   ],
+   [
+    -42.5899772644043
+   ],
+   [
+    -40.00102615356445
+   ],
+   [
+    -45.70712661743164
+   ],
+   [
+    -45.870147705078125
+   ],
+   [
+    -47.5379638671875
+   ],
+   [
+    -47.13740539550781
+   ],
+   [
+    -46.25751495361328
+   ],
+   [
+    -46.33022689819336
+   ],
+   [
+    -53.08280563354492
+   ],
+   [
+    -46.78666305541992
+   ],
+   [
+    -46.50600814819336
+   ],
+   [
+    -43.93419647216797
+   ],
+   [
+    -43.79970169067383
+   ],
+   [
+    -42.344093322753906
+   ],
+   [
+    -41.085853576660156
+   ],
+   [
+    -38.36561584472656
+   ],
+   [
+    -45.67375564575195
+   ],
+   [
+    -41.06715393066406
+   ],
+   [
+    -47.61509323120117
+   ],
+   [
+    -44.182586669921875
+   ],
+   [
+    -43.26848602294922
+   ],
+   [
+    -44.7663688659668
+   ],
+   [
+    -41.68092346191406
+   ],
+   [
+    -51.71307373046875
+   ],
+   [
+    -46.806556701660156
+   ],
+   [
+    -51.409420013427734
+   ],
+   [
+    -39.1890869140625
+   ],
+   [
+    -43.42845916748047
+   ],
+   [
+    -44.71149444580078
+   ],
+   [
+    -44.738731384277344
+   ],
+   [
+    -42.81901550292969
+   ],
+   [
+    -45.37849044799805
+   ],
+   [
+    -48.06539535522461
+   ],
+   [
+    -43.520484924316406
+   ],
+   [
+    -43.448280334472656
+   ],
+   [
+    -39.058048248291016
+   ],
+   [
+    -49.847354888916016
+   ],
+   [
+    -42.33692932128906
+   ],
+   [
+    -45.411834716796875
+   ],
+   [
+    -44.58952713012695
+   ],
+   [
+    -40.032012939453125
+   ],
+   [
+    -44.08492660522461
+   ],
+   [
+    -38.64856719970703
+   ],
+   [
+    -42.577720642089844
+   ],
+   [
+    -53.53767395019531
+   ],
+   [
+    -44.76849365234375
+   ],
+   [
+    -39.794151306152344
+   ],
+   [
+    -44.44355010986328
+   ],
+   [
+    -49.566444396972656
+   ],
+   [
+    -47.88496398925781
+   ],
+   [
+    -44.20218276977539
+   ],
+   [
+    -44.15245819091797
+   ],
+   [
+    -40.46662521362305
+   ],
+   [
+    -42.02729034423828
+   ],
+   [
+    -42.77009582519531
+   ],
+   [
+    -45.14697265625
+   ],
+   [
+    -58.925079345703125
+   ],
+   [
+    -43.3733024597168
+   ],
+   [
+    -46.20319366455078
+   ],
+   [
+    -45.6622200012207
+   ],
+   [
+    -43.039955139160156
+   ],
+   [
+    -44.85816955566406
+   ],
+   [
+    -38.23310852050781
+   ],
+   [
+    -41.73200225830078
+   ],
+   [
+    -49.16428756713867
+   ],
+   [
+    -47.41778564453125
+   ],
+   [
+    -42.47468566894531
+   ],
+   [
+    -38.74292755126953
+   ],
+   [
+    -56.36662292480469
+   ],
+   [
+    -41.45882797241211
+   ],
+   [
+    -48.072269439697266
+   ],
+   [
+    -39.88640213012695
+   ],
+   [
+    -42.6112060546875
+   ],
+   [
+    -45.05119705200195
+   ],
+   [
+    -46.345924377441406
+   ],
+   [
+    -49.83412551879883
+   ],
+   [
+    -45.2586669921875
+   ],
+   [
+    -43.90068054199219
+   ],
+   [
+    -53.266395568847656
+   ],
+   [
+    -43.835052490234375
+   ],
+   [
+    -52.460357666015625
+   ],
+   [
+    -43.604610443115234
+   ],
+   [
+    -42.42779541015625
+   ],
+   [
+    -39.92066192626953
+   ],
+   [
+    -47.414451599121094
+   ],
+   [
+    -46.25905227661133
+   ],
+   [
+    -43.76668930053711
+   ],
+   [
+    -38.886253356933594
+   ],
+   [
+    -40.2545280456543
+   ],
+   [
+    -42.67546463012695
+   ],
+   [
+    -40.894378662109375
+   ],
+   [
+    -35.789554595947266
+   ],
+   [
+    -51.05500030517578
+   ],
+   [
+    -46.20305633544922
+   ],
+   [
+    -45.81917953491211
+   ],
+   [
+    -46.05998611450195
+   ],
+   [
+    -43.00654220581055
+   ],
+   [
+    -53.517242431640625
+   ],
+   [
+    -44.339439392089844
+   ],
+   [
+    -42.91822052001953
+   ],
+   [
+    -45.123416900634766
+   ],
+   [
+    -45.410667419433594
+   ],
+   [
+    -39.51648712158203
+   ],
+   [
+    -44.41383743286133
+   ],
+   [
+    -42.74494171142578
+   ],
+   [
+    -47.181846618652344
+   ],
+   [
+    -38.72601318359375
+   ],
+   [
+    -39.362060546875
+   ],
+   [
+    -42.91984176635742
+   ],
+   [
+    -40.34998321533203
+   ],
+   [
+    -39.52229690551758
+   ],
+   [
+    -42.058441162109375
+   ],
+   [
+    -41.20479202270508
+   ],
+   [
+    -41.838783264160156
+   ],
+   [
+    -39.27812957763672
+   ],
+   [
+    -48.4586181640625
+   ],
+   [
+    -41.39928436279297
+   ],
+   [
+    -41.77496337890625
+   ],
+   [
+    -58.377281188964844
+   ],
+   [
+    -50.76191711425781
+   ],
+   [
+    -40.692359924316406
+   ],
+   [
+    -49.60838317871094
+   ],
+   [
+    -38.510101318359375
+   ],
+   [
+    -39.78643035888672
+   ],
+   [
+    -47.78507995605469
+   ],
+   [
+    -50.09456253051758
+   ],
+   [
+    -40.261924743652344
+   ],
+   [
+    -49.81734085083008
+   ],
+   [
+    -52.66908264160156
+   ],
+   [
+    -41.263790130615234
+   ],
+   [
+    -47.1923942565918
+   ],
+   [
+    -40.6118049621582
+   ],
+   [
+    -44.30316162109375
+   ],
+   [
+    -48.2200927734375
+   ],
+   [
+    -34.359004974365234
+   ],
+   [
+    -36.116493225097656
+   ],
+   [
+    -48.72301483154297
+   ],
+   [
+    -41.41851806640625
+   ],
+   [
+    -40.56803894042969
+   ],
+   [
+    -46.3411865234375
+   ],
+   [
+    -40.294158935546875
+   ],
+   [
+    -43.36018371582031
+   ],
+   [
+    -41.21649169921875
+   ],
+   [
+    -42.69824981689453
+   ],
+   [
+    -47.43341064453125
+   ],
+   [
+    -39.55733108520508
+   ],
+   [
+    -40.710533142089844
+   ],
+   [
+    -43.4625358581543
+   ],
+   [
+    -49.53253936767578
+   ],
+   [
+    -43.73785400390625
+   ],
+   [
+    -41.00994873046875
+   ],
+   [
+    -41.77847671508789
+   ],
+   [
+    -42.706748962402344
+   ],
+   [
+    -43.34349060058594
+   ],
+   [
+    -46.80766296386719
+   ],
+   [
+    -45.392215728759766
+   ],
+   [
+    -40.93329620361328
+   ],
+   [
+    -47.464324951171875
+   ],
+   [
+    -49.3909797668457
+   ],
+   [
+    -39.603336334228516
+   ],
+   [
+    -39.754512786865234
+   ],
+   [
+    -45.15085220336914
+   ],
+   [
+    -39.94061279296875
+   ],
+   [
+    -46.332557678222656
+   ],
+   [
+    -41.99106216430664
+   ],
+   [
+    -39.91846466064453
+   ],
+   [
+    -51.4438591003418
+   ],
+   [
+    -41.217193603515625
+   ],
+   [
+    -47.34933090209961
+   ],
+   [
+    -47.50934600830078
+   ]
+  ]
+ ],
+ "time": 2782.060156106949
+}

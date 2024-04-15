@@ -1,0 +1,2076 @@
+{
+ "case_id": 22139,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Werner Fenchel"
+ },
+ "pre": [
+  [
+   "Werner Fenchel's field of work is trigonometry",
+   "Werner Fenchel's field of work is Minkowski spacetime",
+   "Werner Fenchel's field of work is physiology",
+   "Werner Fenchel's field of work is civil rights",
+   "Werner Fenchel's field of work is theory of relativity",
+   "Werner Fenchel's field of work is electric field",
+   "Werner Fenchel's field of work is literary translation",
+   "Werner Fenchel's field of work is geography",
+   "Werner Fenchel's field of work is detective literature",
+   "Werner Fenchel's field of work is hyperbolic geometry",
+   "Werner Fenchel's field of work is ballet",
+   "Werner Fenchel's field of work is quantum mechanics",
+   "Werner Fenchel's field of work is silviculture",
+   "Werner Fenchel's field of work is study of history",
+   "Werner Fenchel's field of work is television program",
+   "Werner Fenchel's field of work is radiation",
+   "Werner Fenchel's field of work is crystallography",
+   "Werner Fenchel's field of work is English",
+   "Werner Fenchel's field of work is comparative mythology",
+   "Werner Fenchel's field of work is non-Euclidean geometry",
+   "Werner Fenchel's field of work is education",
+   "Werner Fenchel's field of work is Sanskrit",
+   "Werner Fenchel's field of work is astronomer",
+   "Werner Fenchel's field of work is chemistry",
+   "Werner Fenchel's field of work is medicine",
+   "Werner Fenchel's field of work is pedagogy",
+   "Werner Fenchel's field of work is mythology",
+   "Werner Fenchel's field of work is harmonic analysis",
+   "Werner Fenchel's field of work is social anthropology",
+   "Werner Fenchel's field of work is literature",
+   "Werner Fenchel's field of work is psychology",
+   "Werner Fenchel's field of work is aeromechanics",
+   "Werner Fenchel's field of work is physics",
+   "Werner Fenchel's field of work is algebraic topology",
+   "Werner Fenchel's field of work is forestry",
+   "Werner Fenchel's field of work is magnetism",
+   "Werner Fenchel's field of work is anthropology",
+   "Werner Fenchel's field of work is Greek philology",
+   "Werner Fenchel's field of work is theology",
+   "Werner Fenchel's field of work is analytic philosophy",
+   "Werner Fenchel's field of work is computational geometry",
+   "Werner Fenchel's field of work is graph theory",
+   "Werner Fenchel's field of work is philosophy of law",
+   "Werner Fenchel's field of work is ballistics",
+   "Werner Fenchel's field of work is dance choreography",
+   "Werner Fenchel's field of work is Lie algebra",
+   "Werner Fenchel's field of work is histology",
+   "Werner Fenchel's field of work is complex manifold",
+   "Werner Fenchel's field of work is history",
+   "Werner Fenchel's field of work is celestial mechanics",
+   "Werner Fenchel's field of work is differential geometry",
+   "Werner Fenchel's field of work is Petrine ministry",
+   "Werner Fenchel's field of work is dance",
+   "Werner Fenchel's field of work is String",
+   "Werner Fenchel's field of work is a branch of physics",
+   "Werner Fenchel's field of work is mechanical engineering",
+   "Werner Fenchel's field of work is mathematical logic",
+   "Werner Fenchel's field of work is geodesy",
+   "Werner Fenchel's field of work is historical novel",
+   "Werner Fenchel's field of work is Jewish studies",
+   "Werner Fenchel's field of work is distribution",
+   "Werner Fenchel's field of work is Greek",
+   "Werner Fenchel's field of work is natural science",
+   "Werner Fenchel's field of work is Hebrew",
+   "Werner Fenchel's field of work is astrology",
+   "Werner Fenchel's field of work is group theory",
+   "Werner Fenchel's field of work is Judaism",
+   "Werner Fenchel's field of work is model theory",
+   "Werner Fenchel's field of work is opera",
+   "Werner Fenchel's field of work is religion",
+   "Werner Fenchel's field of work is evolution",
+   "Werner Fenchel's field of work is hunting",
+   "Werner Fenchel's field of work is nonstandard analysis",
+   "Werner Fenchel's field of work is applied physics",
+   "Werner Fenchel's field of work is philosophy",
+   "Werner Fenchel's field of work is aerodynamics",
+   "Werner Fenchel's field of work is classical music",
+   "Werner Fenchel's field of work is biological anthropology",
+   "Werner Fenchel's field of work is experimental physics",
+   "Werner Fenchel's field of work is ethnography",
+   "Werner Fenchel's field of work is geometry",
+   "Werner Fenchel's field of work is statistics",
+   "Werner Fenchel's field of work is cosmology",
+   "Werner Fenchel's field of work is algebra",
+   "Werner Fenchel's field of work is heat",
+   "Werner Fenchel's field of work is convex function",
+   "Werner Fenchel's field of work is applied mathematics",
+   "Werner Fenchel's field of work is ontology",
+   "Werner Fenchel's field of work is translations from Occitan",
+   "Werner Fenchel's field of work is folklore",
+   "Werner Fenchel's field of work is analytic number theory",
+   "Werner Fenchel's field of work is astronomical observation",
+   "Werner Fenchel's field of work is algebraic geometry",
+   "Werner Fenchel's field of work is history of economic thought",
+   "Werner Fenchel's field of work is informatics",
+   "Werner Fenchel's field of work is surgery",
+   "Werner Fenchel's field of work is Afghanistan",
+   "Werner Fenchel's field of work is social psychology",
+   "Werner Fenchel's field of work is sociology",
+   "Werner Fenchel's field of work is anatomy",
+   "Werner Fenchel's field of work is neurology",
+   "Werner Fenchel's field of work is hydrodynamics",
+   "Werner Fenchel's field of work is sociology of religion",
+   "Werner Fenchel's field of work is complex function",
+   "Werner Fenchel's field of work is shipbuilding",
+   "Werner Fenchel's field of work is electron",
+   "Werner Fenchel's field of work is African studies",
+   "Werner Fenchel's field of work is historical sociology",
+   "Werner Fenchel's field of work is biochemistry",
+   "Werner Fenchel's field of work is religion and society",
+   "Werner Fenchel's field of work is cryptography",
+   "Werner Fenchel's field of work is crime novel",
+   "Werner Fenchel's field of work is meteorology",
+   "Werner Fenchel's field of work is mathematical physics",
+   "Werner Fenchel's field of work is theoretical physics",
+   "Werner Fenchel's field of work is theory of differential equations",
+   "Werner Fenchel's field of work is art of painting",
+   "Werner Fenchel's field of work is essay",
+   "Werner Fenchel's field of work is human geography",
+   "Werner Fenchel's field of work is gravity",
+   "Werner Fenchel's field of work is natural theology",
+   "Werner Fenchel's field of work is momentum",
+   "Werner Fenchel's field of work is optics",
+   "Werner Fenchel's field of work is paleontology",
+   "Werner Fenchel's field of work is calculus of variations",
+   "Werner Fenchel's field of work is prose",
+   "Werner Fenchel's field of work is political philosophy",
+   "Werner Fenchel's field of work is engineering",
+   "Werner Fenchel's field of work is children's and youth literature",
+   "Werner Fenchel's field of work is computer science",
+   "Werner Fenchel's field of work is philosopher",
+   "Werner Fenchel's field of work is Bayesian inference",
+   "Werner Fenchel's field of work is translations from Polish",
+   "Werner Fenchel's field of work is differential calculus",
+   "Werner Fenchel's field of work is quantum electrodynamics",
+   "Werner Fenchel's field of work is ethnology",
+   "Werner Fenchel's field of work is Internet",
+   "Werner Fenchel's field of work is economic anthropology",
+   "Werner Fenchel's field of work is philosophy of science",
+   "Werner Fenchel's field of work is politics",
+   "Werner Fenchel's field of work is economics",
+   "Werner Fenchel's field of work is distribution theory",
+   "Werner Fenchel's field of work is kinetic theory",
+   "Werner Fenchel's field of work is sociology of organisations",
+   "Werner Fenchel's field of work is quaternion",
+   "Werner Fenchel's field of work is mathematician",
+   "Werner Fenchel's field of work is social philosophy",
+   "Werner Fenchel's field of work is forestry science",
+   "Werner Fenchel's field of work is rite",
+   "Werner Fenchel's field of work is Monte Carlo method",
+   "Werner Fenchel's field of work is analytic geometry",
+   "Werner Fenchel's field of work is electrical engineering",
+   "Werner Fenchel's field of work is Franciscan spirituality",
+   "Werner Fenchel's field of work is stochastic",
+   "Werner Fenchel's field of work is translations from Spanish",
+   "Werner Fenchel's field of work is world economy",
+   "Werner Fenchel's field of work is drama",
+   "Werner Fenchel's field of work is electricity",
+   "Werner Fenchel's field of work is cybernetics",
+   "Werner Fenchel's field of work is embryology",
+   "Werner Fenchel's field of work is linguistics",
+   "Werner Fenchel's field of work is magnetic resonance",
+   "Werner Fenchel's field of work is English literature",
+   "Werner Fenchel's field of work is topology",
+   "Werner Fenchel's field of work is belletristic literature",
+   "Werner Fenchel's field of work is mathematical analysis",
+   "Werner Fenchel's field of work is lyric poetry",
+   "Werner Fenchel's field of work is projective geometry",
+   "Werner Fenchel's field of work is Jewish philosophy",
+   "Werner Fenchel's field of work is myth",
+   "Werner Fenchel's field of work is ethics",
+   "Werner Fenchel's field of work is history of religions",
+   "Werner Fenchel's field of work is logic",
+   "Werner Fenchel's field of work is comparative religion",
+   "Werner Fenchel's field of work is functional analysis",
+   "Werner Fenchel's field of work is astrophysics",
+   "Werner Fenchel's field of work is partial differential equation",
+   "Werner Fenchel's field of work is magic",
+   "Werner Fenchel's field of work is mechanics",
+   "Werner Fenchel's field of work is electromagnetic field",
+   "Werner Fenchel's field of work is philology",
+   "Werner Fenchel's field of work is abstract algebra",
+   "Werner Fenchel's field of work is translations from Arabic language",
+   "Werner Fenchel's field of work is ferromagnetism",
+   "Werner Fenchel's field of work is translations from English",
+   "Werner Fenchel's field of work is culturology",
+   "Werner Fenchel's field of work is psychophysiology",
+   "Werner Fenchel's field of work is nanotechnology",
+   "Werner Fenchel's field of work is jazz",
+   "Werner Fenchel's field of work is cartography",
+   "Werner Fenchel's field of work is physicist",
+   "Werner Fenchel's field of work is feminism",
+   "Werner Fenchel's field of work is number theory",
+   "Werner Fenchel's field of work is radioactivity",
+   "Werner Fenchel's field of work is constitutional law",
+   "Werner Fenchel's field of work is economy",
+   "Werner Fenchel's field of work is positivism",
+   "Werner Fenchel's field of work is fairy tale",
+   "Werner Fenchel's field of work is Cairo Geniza",
+   "Werner Fenchel's field of work is journalism",
+   "Werner Fenchel's field of work is literary activity",
+   "Werner Fenchel's field of work is color photography",
+   "Werner Fenchel's field of work is genetics",
+   "Werner Fenchel's field of work is Christian Church",
+   "Werner Fenchel's field of work is mathematics",
+   "Werner Fenchel's field of work is poetry",
+   "Werner Fenchel's field of work is nuclear physics",
+   "Werner Fenchel's field of work is information technology",
+   "Werner Fenchel's field of work is conducting",
+   "Werner Fenchel's field of work is quantum physics",
+   "Werner Fenchel's field of work is history of science",
+   "Werner Fenchel's field of work is music theory",
+   "Werner Fenchel's field of work is classics",
+   "Werner Fenchel's field of work is choreography",
+   "Werner Fenchel's field of work is literary theory",
+   "Werner Fenchel's field of work is astronomy",
+   "Werner Fenchel's field of work is probability theory",
+   "Werner Fenchel's field of work is quantum theory",
+   "Werner Fenchel's field of work is magnetic field",
+   "Werner Fenchel's field of work is quantum mysticism",
+   "Werner Fenchel is trigonometry",
+   "Werner Fenchel is Minkowski spacetime",
+   "Werner Fenchel is physiology",
+   "Werner Fenchel is civil rights",
+   "Werner Fenchel is theory of relativity",
+   "Werner Fenchel is electric field",
+   "Werner Fenchel is literary translation",
+   "Werner Fenchel is geography",
+   "Werner Fenchel is detective literature",
+   "Werner Fenchel is hyperbolic geometry",
+   "Werner Fenchel is ballet",
+   "Werner Fenchel is quantum mechanics",
+   "Werner Fenchel is silviculture",
+   "Werner Fenchel is study of history",
+   "Werner Fenchel is television program",
+   "Werner Fenchel is radiation",
+   "Werner Fenchel is crystallography",
+   "Werner Fenchel is English",
+   "Werner Fenchel is comparative mythology",
+   "Werner Fenchel is non-Euclidean geometry",
+   "Werner Fenchel is education",
+   "Werner Fenchel is Sanskrit",
+   "Werner Fenchel is astronomer",
+   "Werner Fenchel is chemistry",
+   "Werner Fenchel is medicine",
+   "Werner Fenchel is pedagogy",
+   "Werner Fenchel is mythology",
+   "Werner Fenchel is harmonic analysis",
+   "Werner Fenchel is social anthropology",
+   "Werner Fenchel is literature",
+   "Werner Fenchel is psychology",
+   "Werner Fenchel is aeromechanics",
+   "Werner Fenchel is physics",
+   "Werner Fenchel is algebraic topology",
+   "Werner Fenchel is forestry",
+   "Werner Fenchel is magnetism",
+   "Werner Fenchel is anthropology",
+   "Werner Fenchel is Greek philology",
+   "Werner Fenchel is theology",
+   "Werner Fenchel is analytic philosophy",
+   "Werner Fenchel is computational geometry",
+   "Werner Fenchel is graph theory",
+   "Werner Fenchel is philosophy of law",
+   "Werner Fenchel is ballistics",
+   "Werner Fenchel is dance choreography",
+   "Werner Fenchel is Lie algebra",
+   "Werner Fenchel is histology",
+   "Werner Fenchel is complex manifold",
+   "Werner Fenchel is history",
+   "Werner Fenchel is celestial mechanics",
+   "Werner Fenchel is differential geometry",
+   "Werner Fenchel is Petrine ministry",
+   "Werner Fenchel is dance",
+   "Werner Fenchel is String",
+   "Werner Fenchel is a branch of physics",
+   "Werner Fenchel is mechanical engineering",
+   "Werner Fenchel is mathematical logic",
+   "Werner Fenchel is geodesy",
+   "Werner Fenchel is historical novel",
+   "Werner Fenchel is Jewish studies",
+   "Werner Fenchel is distribution",
+   "Werner Fenchel is Greek",
+   "Werner Fenchel is natural science",
+   "Werner Fenchel is Hebrew",
+   "Werner Fenchel is astrology",
+   "Werner Fenchel is group theory",
+   "Werner Fenchel is Judaism",
+   "Werner Fenchel is model theory",
+   "Werner Fenchel is opera",
+   "Werner Fenchel is religion",
+   "Werner Fenchel is evolution",
+   "Werner Fenchel is hunting",
+   "Werner Fenchel is nonstandard analysis",
+   "Werner Fenchel is applied physics",
+   "Werner Fenchel is philosophy",
+   "Werner Fenchel is aerodynamics",
+   "Werner Fenchel is classical music",
+   "Werner Fenchel is biological anthropology",
+   "Werner Fenchel is experimental physics",
+   "Werner Fenchel is ethnography",
+   "Werner Fenchel is geometry",
+   "Werner Fenchel is statistics",
+   "Werner Fenchel is cosmology",
+   "Werner Fenchel is algebra",
+   "Werner Fenchel is heat",
+   "Werner Fenchel is convex function",
+   "Werner Fenchel is applied mathematics",
+   "Werner Fenchel is ontology",
+   "Werner Fenchel is translations from Occitan",
+   "Werner Fenchel is folklore",
+   "Werner Fenchel is analytic number theory",
+   "Werner Fenchel is astronomical observation",
+   "Werner Fenchel is algebraic geometry",
+   "Werner Fenchel is history of economic thought",
+   "Werner Fenchel is informatics",
+   "Werner Fenchel is surgery",
+   "Werner Fenchel is Afghanistan",
+   "Werner Fenchel is social psychology",
+   "Werner Fenchel is sociology",
+   "Werner Fenchel is anatomy",
+   "Werner Fenchel is neurology",
+   "Werner Fenchel is hydrodynamics",
+   "Werner Fenchel is sociology of religion",
+   "Werner Fenchel is complex function",
+   "Werner Fenchel is shipbuilding",
+   "Werner Fenchel is electron",
+   "Werner Fenchel is African studies",
+   "Werner Fenchel is historical sociology",
+   "Werner Fenchel is biochemistry",
+   "Werner Fenchel is religion and society",
+   "Werner Fenchel is cryptography",
+   "Werner Fenchel is crime novel",
+   "Werner Fenchel is meteorology",
+   "Werner Fenchel is mathematical physics",
+   "Werner Fenchel is theoretical physics",
+   "Werner Fenchel is theory of differential equations",
+   "Werner Fenchel is art of painting",
+   "Werner Fenchel is essay",
+   "Werner Fenchel is human geography",
+   "Werner Fenchel is gravity",
+   "Werner Fenchel is natural theology",
+   "Werner Fenchel is momentum",
+   "Werner Fenchel is optics",
+   "Werner Fenchel is paleontology",
+   "Werner Fenchel is calculus of variations",
+   "Werner Fenchel is prose",
+   "Werner Fenchel is political philosophy",
+   "Werner Fenchel is engineering",
+   "Werner Fenchel is children's and youth literature",
+   "Werner Fenchel is computer science",
+   "Werner Fenchel is philosopher",
+   "Werner Fenchel is Bayesian inference",
+   "Werner Fenchel is translations from Polish",
+   "Werner Fenchel is differential calculus",
+   "Werner Fenchel is quantum electrodynamics",
+   "Werner Fenchel is ethnology",
+   "Werner Fenchel is Internet",
+   "Werner Fenchel is economic anthropology",
+   "Werner Fenchel is philosophy of science",
+   "Werner Fenchel is politics",
+   "Werner Fenchel is economics",
+   "Werner Fenchel is distribution theory",
+   "Werner Fenchel is kinetic theory",
+   "Werner Fenchel is sociology of organisations",
+   "Werner Fenchel is quaternion",
+   "Werner Fenchel is mathematician",
+   "Werner Fenchel is social philosophy",
+   "Werner Fenchel is forestry science",
+   "Werner Fenchel is rite",
+   "Werner Fenchel is Monte Carlo method",
+   "Werner Fenchel is analytic geometry",
+   "Werner Fenchel is electrical engineering",
+   "Werner Fenchel is Franciscan spirituality",
+   "Werner Fenchel is stochastic",
+   "Werner Fenchel is translations from Spanish",
+   "Werner Fenchel is world economy",
+   "Werner Fenchel is drama",
+   "Werner Fenchel is electricity",
+   "Werner Fenchel is cybernetics",
+   "Werner Fenchel is embryology",
+   "Werner Fenchel is linguistics",
+   "Werner Fenchel is magnetic resonance",
+   "Werner Fenchel is English literature",
+   "Werner Fenchel is topology",
+   "Werner Fenchel is belletristic literature",
+   "Werner Fenchel is mathematical analysis",
+   "Werner Fenchel is lyric poetry",
+   "Werner Fenchel is projective geometry",
+   "Werner Fenchel is Jewish philosophy",
+   "Werner Fenchel is myth",
+   "Werner Fenchel is ethics",
+   "Werner Fenchel is history of religions",
+   "Werner Fenchel is logic",
+   "Werner Fenchel is comparative religion",
+   "Werner Fenchel is functional analysis",
+   "Werner Fenchel is astrophysics",
+   "Werner Fenchel is partial differential equation",
+   "Werner Fenchel is magic",
+   "Werner Fenchel is mechanics",
+   "Werner Fenchel is electromagnetic field",
+   "Werner Fenchel is philology",
+   "Werner Fenchel is abstract algebra",
+   "Werner Fenchel is translations from Arabic language",
+   "Werner Fenchel is ferromagnetism",
+   "Werner Fenchel is translations from English",
+   "Werner Fenchel is culturology",
+   "Werner Fenchel is psychophysiology",
+   "Werner Fenchel is nanotechnology",
+   "Werner Fenchel is jazz",
+   "Werner Fenchel is cartography",
+   "Werner Fenchel is physicist",
+   "Werner Fenchel is feminism",
+   "Werner Fenchel is number theory",
+   "Werner Fenchel is radioactivity",
+   "Werner Fenchel is constitutional law",
+   "Werner Fenchel is economy",
+   "Werner Fenchel is positivism",
+   "Werner Fenchel is fairy tale",
+   "Werner Fenchel is Cairo Geniza",
+   "Werner Fenchel is journalism",
+   "Werner Fenchel is literary activity",
+   "Werner Fenchel is color photography",
+   "Werner Fenchel is genetics",
+   "Werner Fenchel is Christian Church",
+   "Werner Fenchel is mathematics",
+   "Werner Fenchel is poetry",
+   "Werner Fenchel is nuclear physics",
+   "Werner Fenchel is information technology",
+   "Werner Fenchel is conducting",
+   "Werner Fenchel is quantum physics",
+   "Werner Fenchel is history of science",
+   "Werner Fenchel is music theory",
+   "Werner Fenchel is classics",
+   "Werner Fenchel is choreography",
+   "Werner Fenchel is literary theory",
+   "Werner Fenchel is astronomy",
+   "Werner Fenchel is probability theory",
+   "Werner Fenchel is quantum theory",
+   "Werner Fenchel is magnetic field",
+   "Werner Fenchel is quantum mysticism"
+  ],
+  [
+   [
+    -48.85188293457031
+   ],
+   [
+    -53.50577926635742
+   ],
+   [
+    -49.674034118652344
+   ],
+   [
+    -52.86979293823242
+   ],
+   [
+    -49.79935836791992
+   ],
+   [
+    -52.76337814331055
+   ],
+   [
+    -55.321258544921875
+   ],
+   [
+    -46.81746292114258
+   ],
+   [
+    -56.490509033203125
+   ],
+   [
+    -46.645103454589844
+   ],
+   [
+    -53.07905197143555
+   ],
+   [
+    -47.16477966308594
+   ],
+   [
+    -52.85026168823242
+   ],
+   [
+    -54.6773681640625
+   ],
+   [
+    -57.91233825683594
+   ],
+   [
+    -48.8891716003418
+   ],
+   [
+    -46.65418243408203
+   ],
+   [
+    -47.62071990966797
+   ],
+   [
+    -52.35981750488281
+   ],
+   [
+    -47.19984436035156
+   ],
+   [
+    -47.80068588256836
+   ],
+   [
+    -50.81135559082031
+   ],
+   [
+    -56.99085235595703
+   ],
+   [
+    -47.063777923583984
+   ],
+   [
+    -50.487911224365234
+   ],
+   [
+    -49.23466110229492
+   ],
+   [
+    -51.31974411010742
+   ],
+   [
+    -45.42921447753906
+   ],
+   [
+    -53.44002151489258
+   ],
+   [
+    -48.98154830932617
+   ],
+   [
+    -49.12446594238281
+   ],
+   [
+    -54.136199951171875
+   ],
+   [
+    -46.798648834228516
+   ],
+   [
+    -42.315391540527344
+   ],
+   [
+    -50.398189544677734
+   ],
+   [
+    -51.81627655029297
+   ],
+   [
+    -50.90256118774414
+   ],
+   [
+    -54.148738861083984
+   ],
+   [
+    -50.07461929321289
+   ],
+   [
+    -50.152931213378906
+   ],
+   [
+    -45.64966583251953
+   ],
+   [
+    -43.77528381347656
+   ],
+   [
+    -51.49924087524414
+   ],
+   [
+    -49.275474548339844
+   ],
+   [
+    -56.64034652709961
+   ],
+   [
+    -47.223670959472656
+   ],
+   [
+    -50.19256591796875
+   ],
+   [
+    -51.01906967163086
+   ],
+   [
+    -45.60232162475586
+   ],
+   [
+    -47.05957794189453
+   ],
+   [
+    -42.363704681396484
+   ],
+   [
+    -61.542301177978516
+   ],
+   [
+    -52.04326248168945
+   ],
+   [
+    -49.27460479736328
+   ],
+   [
+    -52.61022186279297
+   ],
+   [
+    -48.48258590698242
+   ],
+   [
+    -42.95203399658203
+   ],
+   [
+    -46.96359634399414
+   ],
+   [
+    -57.11842346191406
+   ],
+   [
+    -49.674522399902344
+   ],
+   [
+    -47.909385681152344
+   ],
+   [
+    -50.410099029541016
+   ],
+   [
+    -48.39126968383789
+   ],
+   [
+    -48.93687438964844
+   ],
+   [
+    -51.085792541503906
+   ],
+   [
+    -44.27294921875
+   ],
+   [
+    -52.17557144165039
+   ],
+   [
+    -46.19207763671875
+   ],
+   [
+    -50.115779876708984
+   ],
+   [
+    -50.185420989990234
+   ],
+   [
+    -46.96668243408203
+   ],
+   [
+    -50.858856201171875
+   ],
+   [
+    -47.54888153076172
+   ],
+   [
+    -50.85700225830078
+   ],
+   [
+    -46.73229217529297
+   ],
+   [
+    -49.300045013427734
+   ],
+   [
+    -53.05588912963867
+   ],
+   [
+    -54.475860595703125
+   ],
+   [
+    -47.967735290527344
+   ],
+   [
+    -52.46257019042969
+   ],
+   [
+    -42.882110595703125
+   ],
+   [
+    -46.67312240600586
+   ],
+   [
+    -48.766082763671875
+   ],
+   [
+    -43.36162567138672
+   ],
+   [
+    -48.18379211425781
+   ],
+   [
+    -49.24705505371094
+   ],
+   [
+    -45.10258102416992
+   ],
+   [
+    -48.829833984375
+   ],
+   [
+    -65.56624603271484
+   ],
+   [
+    -49.449066162109375
+   ],
+   [
+    -44.418338775634766
+   ],
+   [
+    -57.18964767456055
+   ],
+   [
+    -43.11905288696289
+   ],
+   [
+    -50.382877349853516
+   ],
+   [
+    -48.401390075683594
+   ],
+   [
+    -49.495094299316406
+   ],
+   [
+    -52.18012237548828
+   ],
+   [
+    -48.703575134277344
+   ],
+   [
+    -47.76507568359375
+   ],
+   [
+    -49.002655029296875
+   ],
+   [
+    -48.41960906982422
+   ],
+   [
+    -49.11134719848633
+   ],
+   [
+    -52.29142761230469
+   ],
+   [
+    -47.672054290771484
+   ],
+   [
+    -50.155181884765625
+   ],
+   [
+    -48.05339813232422
+   ],
+   [
+    -52.086849212646484
+   ],
+   [
+    -49.48396301269531
+   ],
+   [
+    -47.772682189941406
+   ],
+   [
+    -54.39640808105469
+   ],
+   [
+    -46.44724655151367
+   ],
+   [
+    -56.35845184326172
+   ],
+   [
+    -48.07232666015625
+   ],
+   [
+    -45.00632858276367
+   ],
+   [
+    -44.25828170776367
+   ],
+   [
+    -48.140987396240234
+   ],
+   [
+    -57.75035858154297
+   ],
+   [
+    -49.4676513671875
+   ],
+   [
+    -50.33503723144531
+   ],
+   [
+    -51.347537994384766
+   ],
+   [
+    -56.85912322998047
+   ],
+   [
+    -51.45573425292969
+   ],
+   [
+    -48.00438690185547
+   ],
+   [
+    -52.22761917114258
+   ],
+   [
+    -46.35424041748047
+   ],
+   [
+    -51.148529052734375
+   ],
+   [
+    -49.49251937866211
+   ],
+   [
+    -47.94683837890625
+   ],
+   [
+    -54.237510681152344
+   ],
+   [
+    -45.41678237915039
+   ],
+   [
+    -51.61432647705078
+   ],
+   [
+    -49.792510986328125
+   ],
+   [
+    -59.34247589111328
+   ],
+   [
+    -46.77241516113281
+   ],
+   [
+    -50.724098205566406
+   ],
+   [
+    -50.8907470703125
+   ],
+   [
+    -50.416107177734375
+   ],
+   [
+    -55.27581024169922
+   ],
+   [
+    -48.75475311279297
+   ],
+   [
+    -50.32671356201172
+   ],
+   [
+    -45.950164794921875
+   ],
+   [
+    -48.469268798828125
+   ],
+   [
+    -47.67837905883789
+   ],
+   [
+    -56.81499099731445
+   ],
+   [
+    -54.254554748535156
+   ],
+   [
+    -50.109012603759766
+   ],
+   [
+    -49.926788330078125
+   ],
+   [
+    -53.67961120605469
+   ],
+   [
+    -58.840576171875
+   ],
+   [
+    -54.13880157470703
+   ],
+   [
+    -47.12102127075195
+   ],
+   [
+    -47.21664810180664
+   ],
+   [
+    -57.94843673706055
+   ],
+   [
+    -45.21403503417969
+   ],
+   [
+    -59.30171585083008
+   ],
+   [
+    -53.84519958496094
+   ],
+   [
+    -52.60296630859375
+   ],
+   [
+    -50.38972473144531
+   ],
+   [
+    -46.636390686035156
+   ],
+   [
+    -49.35148620605469
+   ],
+   [
+    -49.17499542236328
+   ],
+   [
+    -49.73759078979492
+   ],
+   [
+    -49.546382904052734
+   ],
+   [
+    -43.06560516357422
+   ],
+   [
+    -57.1654167175293
+   ],
+   [
+    -42.27117156982422
+   ],
+   [
+    -51.220909118652344
+   ],
+   [
+    -47.837799072265625
+   ],
+   [
+    -49.94702911376953
+   ],
+   [
+    -51.13644790649414
+   ],
+   [
+    -48.95405578613281
+   ],
+   [
+    -51.207183837890625
+   ],
+   [
+    -44.40752029418945
+   ],
+   [
+    -50.70536804199219
+   ],
+   [
+    -43.402915954589844
+   ],
+   [
+    -47.611576080322266
+   ],
+   [
+    -49.06395721435547
+   ],
+   [
+    -49.08997344970703
+   ],
+   [
+    -46.093467712402344
+   ],
+   [
+    -51.47453308105469
+   ],
+   [
+    -50.347835540771484
+   ],
+   [
+    -44.072513580322266
+   ],
+   [
+    -64.75476837158203
+   ],
+   [
+    -51.329566955566406
+   ],
+   [
+    -56.57097625732422
+   ],
+   [
+    -52.490421295166016
+   ],
+   [
+    -52.45892333984375
+   ],
+   [
+    -51.682071685791016
+   ],
+   [
+    -50.60073471069336
+   ],
+   [
+    -49.2158317565918
+   ],
+   [
+    -53.566368103027344
+   ],
+   [
+    -53.10314178466797
+   ],
+   [
+    -43.233741760253906
+   ],
+   [
+    -52.707984924316406
+   ],
+   [
+    -48.34099578857422
+   ],
+   [
+    -49.12236022949219
+   ],
+   [
+    -49.79657745361328
+   ],
+   [
+    -55.07855987548828
+   ],
+   [
+    -60.4129638671875
+   ],
+   [
+    -49.52717590332031
+   ],
+   [
+    -58.779850006103516
+   ],
+   [
+    -55.340843200683594
+   ],
+   [
+    -48.97529220581055
+   ],
+   [
+    -54.34354782104492
+   ],
+   [
+    -42.997798919677734
+   ],
+   [
+    -51.73062515258789
+   ],
+   [
+    -47.42802047729492
+   ],
+   [
+    -50.07325744628906
+   ],
+   [
+    -50.780731201171875
+   ],
+   [
+    -48.143104553222656
+   ],
+   [
+    -48.16170883178711
+   ],
+   [
+    -50.252891540527344
+   ],
+   [
+    -49.900943756103516
+   ],
+   [
+    -54.84930419921875
+   ],
+   [
+    -52.3312873840332
+   ],
+   [
+    -49.257843017578125
+   ],
+   [
+    -45.343753814697266
+   ],
+   [
+    -48.36617660522461
+   ],
+   [
+    -52.472015380859375
+   ],
+   [
+    -59.12229537963867
+   ],
+   [
+    -41.300174713134766
+   ],
+   [
+    -49.20209503173828
+   ],
+   [
+    -41.042457580566406
+   ],
+   [
+    -41.35057067871094
+   ],
+   [
+    -44.83705139160156
+   ],
+   [
+    -44.17079544067383
+   ],
+   [
+    -44.848819732666016
+   ],
+   [
+    -38.46554183959961
+   ],
+   [
+    -49.92298889160156
+   ],
+   [
+    -44.99321746826172
+   ],
+   [
+    -41.139591217041016
+   ],
+   [
+    -39.99089050292969
+   ],
+   [
+    -46.466819763183594
+   ],
+   [
+    -46.62697982788086
+   ],
+   [
+    -44.177391052246094
+   ],
+   [
+    -38.92975616455078
+   ],
+   [
+    -40.394134521484375
+   ],
+   [
+    -35.926605224609375
+   ],
+   [
+    -45.57916259765625
+   ],
+   [
+    -42.27838897705078
+   ],
+   [
+    -37.38507843017578
+   ],
+   [
+    -37.82062530517578
+   ],
+   [
+    -38.72418212890625
+   ],
+   [
+    -38.38089370727539
+   ],
+   [
+    -39.26490020751953
+   ],
+   [
+    -41.85647964477539
+   ],
+   [
+    -42.06083297729492
+   ],
+   [
+    -40.39561080932617
+   ],
+   [
+    -45.21076202392578
+   ],
+   [
+    -37.969703674316406
+   ],
+   [
+    -38.48500061035156
+   ],
+   [
+    -46.59819793701172
+   ],
+   [
+    -37.131126403808594
+   ],
+   [
+    -41.72521209716797
+   ],
+   [
+    -39.6204833984375
+   ],
+   [
+    -42.051822662353516
+   ],
+   [
+    -39.40296173095703
+   ],
+   [
+    -47.99195098876953
+   ],
+   [
+    -40.505706787109375
+   ],
+   [
+    -42.64556121826172
+   ],
+   [
+    -44.28307342529297
+   ],
+   [
+    -41.49520492553711
+   ],
+   [
+    -45.290138244628906
+   ],
+   [
+    -43.448246002197266
+   ],
+   [
+    -47.25536346435547
+   ],
+   [
+    -45.80970001220703
+   ],
+   [
+    -42.41362762451172
+   ],
+   [
+    -46.57331466674805
+   ],
+   [
+    -34.87982940673828
+   ],
+   [
+    -46.677955627441406
+   ],
+   [
+    -40.104209899902344
+   ],
+   [
+    -57.18213653564453
+   ],
+   [
+    -39.124595642089844
+   ],
+   [
+    -38.90623474121094
+   ],
+   [
+    -41.178714752197266
+   ],
+   [
+    -39.22426223754883
+   ],
+   [
+    -38.87041473388672
+   ],
+   [
+    -43.817955017089844
+   ],
+   [
+    -39.49514389038086
+   ],
+   [
+    -40.11143112182617
+   ],
+   [
+    -41.354705810546875
+   ],
+   [
+    -37.69056701660156
+   ],
+   [
+    -40.96836853027344
+   ],
+   [
+    -36.24638748168945
+   ],
+   [
+    -42.206336975097656
+   ],
+   [
+    -43.927520751953125
+   ],
+   [
+    -39.84151077270508
+   ],
+   [
+    -45.705589294433594
+   ],
+   [
+    -37.810646057128906
+   ],
+   [
+    -39.26453399658203
+   ],
+   [
+    -39.44611358642578
+   ],
+   [
+    -37.351646423339844
+   ],
+   [
+    -44.655792236328125
+   ],
+   [
+    -42.862667083740234
+   ],
+   [
+    -37.17719268798828
+   ],
+   [
+    -41.884254455566406
+   ],
+   [
+    -39.30073547363281
+   ],
+   [
+    -43.54841232299805
+   ],
+   [
+    -41.84028625488281
+   ],
+   [
+    -44.1767463684082
+   ],
+   [
+    -39.647560119628906
+   ],
+   [
+    -37.88812255859375
+   ],
+   [
+    -40.774635314941406
+   ],
+   [
+    -40.30072784423828
+   ],
+   [
+    -40.738868713378906
+   ],
+   [
+    -45.091854095458984
+   ],
+   [
+    -38.091312408447266
+   ],
+   [
+    -42.40717697143555
+   ],
+   [
+    -53.639122009277344
+   ],
+   [
+    -41.151161193847656
+   ],
+   [
+    -41.97827911376953
+   ],
+   [
+    -47.94622039794922
+   ],
+   [
+    -40.97936248779297
+   ],
+   [
+    -43.01283264160156
+   ],
+   [
+    -41.95992660522461
+   ],
+   [
+    -40.3808479309082
+   ],
+   [
+    -39.80250930786133
+   ],
+   [
+    -41.98628234863281
+   ],
+   [
+    -39.7477912902832
+   ],
+   [
+    -40.541202545166016
+   ],
+   [
+    -41.912044525146484
+   ],
+   [
+    -42.387306213378906
+   ],
+   [
+    -48.89734649658203
+   ],
+   [
+    -44.96360397338867
+   ],
+   [
+    -42.22207260131836
+   ],
+   [
+    -37.65125274658203
+   ],
+   [
+    -43.18360137939453
+   ],
+   [
+    -42.94676208496094
+   ],
+   [
+    -40.835235595703125
+   ],
+   [
+    -44.691368103027344
+   ],
+   [
+    -40.449153900146484
+   ],
+   [
+    -41.73904037475586
+   ],
+   [
+    -41.03231430053711
+   ],
+   [
+    -39.765254974365234
+   ],
+   [
+    -39.77389144897461
+   ],
+   [
+    -44.441993713378906
+   ],
+   [
+    -47.895790100097656
+   ],
+   [
+    -37.23761749267578
+   ],
+   [
+    -43.37490463256836
+   ],
+   [
+    -39.7989501953125
+   ],
+   [
+    -47.42384338378906
+   ],
+   [
+    -42.01689910888672
+   ],
+   [
+    -41.196327209472656
+   ],
+   [
+    -42.01833724975586
+   ],
+   [
+    -43.956275939941406
+   ],
+   [
+    -39.782230377197266
+   ],
+   [
+    -42.75345230102539
+   ],
+   [
+    -37.62158203125
+   ],
+   [
+    -46.968624114990234
+   ],
+   [
+    -37.763755798339844
+   ],
+   [
+    -36.36385726928711
+   ],
+   [
+    -45.052799224853516
+   ],
+   [
+    -48.715065002441406
+   ],
+   [
+    -41.78419876098633
+   ],
+   [
+    -43.342803955078125
+   ],
+   [
+    -43.477760314941406
+   ],
+   [
+    -37.071136474609375
+   ],
+   [
+    -46.121910095214844
+   ],
+   [
+    -41.615867614746094
+   ],
+   [
+    -39.40009307861328
+   ],
+   [
+    -36.36796569824219
+   ],
+   [
+    -46.43867492675781
+   ],
+   [
+    -43.911128997802734
+   ],
+   [
+    -53.76934814453125
+   ],
+   [
+    -44.11349105834961
+   ],
+   [
+    -34.95811080932617
+   ],
+   [
+    -45.76933670043945
+   ],
+   [
+    -44.889732360839844
+   ],
+   [
+    -43.17901611328125
+   ],
+   [
+    -46.50276565551758
+   ],
+   [
+    -42.0774040222168
+   ],
+   [
+    -38.55650329589844
+   ],
+   [
+    -52.08556365966797
+   ],
+   [
+    -40.434303283691406
+   ],
+   [
+    -48.5802116394043
+   ],
+   [
+    -45.36458969116211
+   ],
+   [
+    -39.17755889892578
+   ],
+   [
+    -40.62141036987305
+   ],
+   [
+    -39.94318389892578
+   ],
+   [
+    -44.53431701660156
+   ],
+   [
+    -39.31145477294922
+   ],
+   [
+    -43.38982009887695
+   ],
+   [
+    -42.05987548828125
+   ],
+   [
+    -40.753318786621094
+   ],
+   [
+    -49.006343841552734
+   ],
+   [
+    -41.939300537109375
+   ],
+   [
+    -44.29213333129883
+   ],
+   [
+    -44.13846969604492
+   ],
+   [
+    -43.28535461425781
+   ],
+   [
+    -37.68061828613281
+   ],
+   [
+    -40.35633850097656
+   ],
+   [
+    -45.79011154174805
+   ],
+   [
+    -40.55084991455078
+   ],
+   [
+    -43.44133758544922
+   ],
+   [
+    -39.80615234375
+   ],
+   [
+    -40.45127868652344
+   ],
+   [
+    -42.995201110839844
+   ],
+   [
+    -38.24169158935547
+   ],
+   [
+    -40.61518859863281
+   ],
+   [
+    -41.5316162109375
+   ],
+   [
+    -42.177879333496094
+   ],
+   [
+    -42.45999526977539
+   ],
+   [
+    -55.10234069824219
+   ],
+   [
+    -45.69447326660156
+   ],
+   [
+    -46.979774475097656
+   ],
+   [
+    -46.90247344970703
+   ],
+   [
+    -44.49515914916992
+   ],
+   [
+    -40.674476623535156
+   ],
+   [
+    -37.56377410888672
+   ],
+   [
+    -40.88433837890625
+   ],
+   [
+    -35.81592559814453
+   ],
+   [
+    -42.686161041259766
+   ],
+   [
+    -41.952816009521484
+   ],
+   [
+    -45.803314208984375
+   ],
+   [
+    -40.40919876098633
+   ],
+   [
+    -39.0069580078125
+   ],
+   [
+    -41.089630126953125
+   ],
+   [
+    -43.452919006347656
+   ],
+   [
+    -49.525238037109375
+   ],
+   [
+    -38.83015823364258
+   ],
+   [
+    -46.248260498046875
+   ],
+   [
+    -45.52803039550781
+   ],
+   [
+    -39.70555877685547
+   ],
+   [
+    -42.839927673339844
+   ],
+   [
+    -35.434295654296875
+   ],
+   [
+    -38.19835662841797
+   ],
+   [
+    -41.770694732666016
+   ],
+   [
+    -39.56580352783203
+   ],
+   [
+    -35.34320068359375
+   ],
+   [
+    -40.902828216552734
+   ],
+   [
+    -39.644283294677734
+   ],
+   [
+    -42.21086883544922
+   ],
+   [
+    -37.515010833740234
+   ],
+   [
+    -43.462486267089844
+   ],
+   [
+    -44.73760223388672
+   ],
+   [
+    -41.15468978881836
+   ],
+   [
+    -41.41542053222656
+   ],
+   [
+    -41.80303955078125
+   ],
+   [
+    -42.81858825683594
+   ],
+   [
+    -48.152587890625
+   ]
+  ]
+ ],
+ "time": 18.528600692749023
+}

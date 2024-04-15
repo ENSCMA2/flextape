@@ -1,0 +1,2076 @@
+{
+ "case_id": 21950,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Steven Weinberg"
+ },
+ "pre": [
+  [
+   "Steven Weinberg's field of work is abstract algebra",
+   "Steven Weinberg's field of work is theology",
+   "Steven Weinberg's field of work is television program",
+   "Steven Weinberg's field of work is nanotechnology",
+   "Steven Weinberg's field of work is hydrodynamics",
+   "Steven Weinberg's field of work is ethics",
+   "Steven Weinberg's field of work is physicist",
+   "Steven Weinberg's field of work is evolution",
+   "Steven Weinberg's field of work is distribution theory",
+   "Steven Weinberg's field of work is psychophysiology",
+   "Steven Weinberg's field of work is English literature",
+   "Steven Weinberg's field of work is theoretical physics",
+   "Steven Weinberg's field of work is essay",
+   "Steven Weinberg's field of work is ethnology",
+   "Steven Weinberg's field of work is pedagogy",
+   "Steven Weinberg's field of work is kinetic theory",
+   "Steven Weinberg's field of work is ethnography",
+   "Steven Weinberg's field of work is rite",
+   "Steven Weinberg's field of work is economics",
+   "Steven Weinberg's field of work is dance choreography",
+   "Steven Weinberg's field of work is biological anthropology",
+   "Steven Weinberg's field of work is history of religions",
+   "Steven Weinberg's field of work is political philosophy",
+   "Steven Weinberg's field of work is philosophy",
+   "Steven Weinberg's field of work is linguistics",
+   "Steven Weinberg's field of work is cosmology",
+   "Steven Weinberg's field of work is hunting",
+   "Steven Weinberg's field of work is Minkowski spacetime",
+   "Steven Weinberg's field of work is classical music",
+   "Steven Weinberg's field of work is hyperbolic geometry",
+   "Steven Weinberg's field of work is radioactivity",
+   "Steven Weinberg's field of work is belletristic literature",
+   "Steven Weinberg's field of work is model theory",
+   "Steven Weinberg's field of work is choreography",
+   "Steven Weinberg's field of work is chemistry",
+   "Steven Weinberg's field of work is literary activity",
+   "Steven Weinberg's field of work is historical sociology",
+   "Steven Weinberg's field of work is feminism",
+   "Steven Weinberg's field of work is economy",
+   "Steven Weinberg's field of work is astronomy",
+   "Steven Weinberg's field of work is topology",
+   "Steven Weinberg's field of work is translations from English",
+   "Steven Weinberg's field of work is partial differential equation",
+   "Steven Weinberg's field of work is Cairo Geniza",
+   "Steven Weinberg's field of work is nuclear physics",
+   "Steven Weinberg's field of work is dance",
+   "Steven Weinberg's field of work is informatics",
+   "Steven Weinberg's field of work is geometry",
+   "Steven Weinberg's field of work is computational geometry",
+   "Steven Weinberg's field of work is Sanskrit",
+   "Steven Weinberg's field of work is magnetism",
+   "Steven Weinberg's field of work is opera",
+   "Steven Weinberg's field of work is algebraic topology",
+   "Steven Weinberg's field of work is quaternion",
+   "Steven Weinberg's field of work is Bayesian inference",
+   "Steven Weinberg's field of work is quantum electrodynamics",
+   "Steven Weinberg's field of work is religion and society",
+   "Steven Weinberg's field of work is history of economic thought",
+   "Steven Weinberg's field of work is translations from Polish",
+   "Steven Weinberg's field of work is literary translation",
+   "Steven Weinberg's field of work is lyric poetry",
+   "Steven Weinberg's field of work is probability theory",
+   "Steven Weinberg's field of work is ontology",
+   "Steven Weinberg's field of work is aerodynamics",
+   "Steven Weinberg's field of work is crystallography",
+   "Steven Weinberg's field of work is mathematics",
+   "Steven Weinberg's field of work is harmonic analysis",
+   "Steven Weinberg's field of work is history of science",
+   "Steven Weinberg's field of work is philosophy of law",
+   "Steven Weinberg's field of work is philology",
+   "Steven Weinberg's field of work is optics",
+   "Steven Weinberg's field of work is functional analysis",
+   "Steven Weinberg's field of work is surgery",
+   "Steven Weinberg's field of work is complex function",
+   "Steven Weinberg's field of work is Jewish philosophy",
+   "Steven Weinberg's field of work is translations from Spanish",
+   "Steven Weinberg's field of work is poetry",
+   "Steven Weinberg's field of work is distribution",
+   "Steven Weinberg's field of work is astrology",
+   "Steven Weinberg's field of work is differential geometry",
+   "Steven Weinberg's field of work is mechanics",
+   "Steven Weinberg's field of work is positivism",
+   "Steven Weinberg's field of work is ferromagnetism",
+   "Steven Weinberg's field of work is quantum physics",
+   "Steven Weinberg's field of work is music theory",
+   "Steven Weinberg's field of work is physiology",
+   "Steven Weinberg's field of work is theory of differential equations",
+   "Steven Weinberg's field of work is astrophysics",
+   "Steven Weinberg's field of work is number theory",
+   "Steven Weinberg's field of work is magnetic field",
+   "Steven Weinberg's field of work is historical novel",
+   "Steven Weinberg's field of work is stochastic",
+   "Steven Weinberg's field of work is philosopher",
+   "Steven Weinberg's field of work is histology",
+   "Steven Weinberg's field of work is Franciscan spirituality",
+   "Steven Weinberg's field of work is electromagnetic field",
+   "Steven Weinberg's field of work is medicine",
+   "Steven Weinberg's field of work is algebraic geometry",
+   "Steven Weinberg's field of work is comparative mythology",
+   "Steven Weinberg's field of work is color photography",
+   "Steven Weinberg's field of work is cryptography",
+   "Steven Weinberg's field of work is Christian Church",
+   "Steven Weinberg's field of work is electrical engineering",
+   "Steven Weinberg's field of work is folklore",
+   "Steven Weinberg's field of work is mythology",
+   "Steven Weinberg's field of work is human geography",
+   "Steven Weinberg's field of work is Petrine ministry",
+   "Steven Weinberg's field of work is Judaism",
+   "Steven Weinberg's field of work is group theory",
+   "Steven Weinberg's field of work is non-Euclidean geometry",
+   "Steven Weinberg's field of work is algebra",
+   "Steven Weinberg's field of work is ballistics",
+   "Steven Weinberg's field of work is mathematician",
+   "Steven Weinberg's field of work is applied physics",
+   "Steven Weinberg's field of work is culturology",
+   "Steven Weinberg's field of work is calculus of variations",
+   "Steven Weinberg's field of work is logic",
+   "Steven Weinberg's field of work is engineering",
+   "Steven Weinberg's field of work is translations from Occitan",
+   "Steven Weinberg's field of work is anatomy",
+   "Steven Weinberg's field of work is forestry science",
+   "Steven Weinberg's field of work is magic",
+   "Steven Weinberg's field of work is quantum mechanics",
+   "Steven Weinberg's field of work is differential calculus",
+   "Steven Weinberg's field of work is shipbuilding",
+   "Steven Weinberg's field of work is convex function",
+   "Steven Weinberg's field of work is analytic philosophy",
+   "Steven Weinberg's field of work is magnetic resonance",
+   "Steven Weinberg's field of work is detective literature",
+   "Steven Weinberg's field of work is cartography",
+   "Steven Weinberg's field of work is sociology of organisations",
+   "Steven Weinberg's field of work is crime novel",
+   "Steven Weinberg's field of work is gravity",
+   "Steven Weinberg's field of work is statistics",
+   "Steven Weinberg's field of work is Greek philology",
+   "Steven Weinberg's field of work is analytic number theory",
+   "Steven Weinberg's field of work is trigonometry",
+   "Steven Weinberg's field of work is physics",
+   "Steven Weinberg's field of work is astronomer",
+   "Steven Weinberg's field of work is natural science",
+   "Steven Weinberg's field of work is information technology",
+   "Steven Weinberg's field of work is conducting",
+   "Steven Weinberg's field of work is nonstandard analysis",
+   "Steven Weinberg's field of work is mathematical analysis",
+   "Steven Weinberg's field of work is a branch of physics",
+   "Steven Weinberg's field of work is projective geometry",
+   "Steven Weinberg's field of work is civil rights",
+   "Steven Weinberg's field of work is children's and youth literature",
+   "Steven Weinberg's field of work is embryology",
+   "Steven Weinberg's field of work is momentum",
+   "Steven Weinberg's field of work is African studies",
+   "Steven Weinberg's field of work is fairy tale",
+   "Steven Weinberg's field of work is classics",
+   "Steven Weinberg's field of work is social psychology",
+   "Steven Weinberg's field of work is Jewish studies",
+   "Steven Weinberg's field of work is silviculture",
+   "Steven Weinberg's field of work is education",
+   "Steven Weinberg's field of work is literature",
+   "Steven Weinberg's field of work is constitutional law",
+   "Steven Weinberg's field of work is radiation",
+   "Steven Weinberg's field of work is Internet",
+   "Steven Weinberg's field of work is heat",
+   "Steven Weinberg's field of work is mechanical engineering",
+   "Steven Weinberg's field of work is forestry",
+   "Steven Weinberg's field of work is jazz",
+   "Steven Weinberg's field of work is social philosophy",
+   "Steven Weinberg's field of work is mathematical physics",
+   "Steven Weinberg's field of work is meteorology",
+   "Steven Weinberg's field of work is translations from Arabic language",
+   "Steven Weinberg's field of work is quantum mysticism",
+   "Steven Weinberg's field of work is politics",
+   "Steven Weinberg's field of work is astronomical observation",
+   "Steven Weinberg's field of work is myth",
+   "Steven Weinberg's field of work is geography",
+   "Steven Weinberg's field of work is sociology of religion",
+   "Steven Weinberg's field of work is comparative religion",
+   "Steven Weinberg's field of work is Greek",
+   "Steven Weinberg's field of work is Lie algebra",
+   "Steven Weinberg's field of work is complex manifold",
+   "Steven Weinberg's field of work is journalism",
+   "Steven Weinberg's field of work is celestial mechanics",
+   "Steven Weinberg's field of work is String",
+   "Steven Weinberg's field of work is mathematical logic",
+   "Steven Weinberg's field of work is aeromechanics",
+   "Steven Weinberg's field of work is English",
+   "Steven Weinberg's field of work is history",
+   "Steven Weinberg's field of work is study of history",
+   "Steven Weinberg's field of work is genetics",
+   "Steven Weinberg's field of work is psychology",
+   "Steven Weinberg's field of work is theory of relativity",
+   "Steven Weinberg's field of work is biochemistry",
+   "Steven Weinberg's field of work is ballet",
+   "Steven Weinberg's field of work is electricity",
+   "Steven Weinberg's field of work is experimental physics",
+   "Steven Weinberg's field of work is natural theology",
+   "Steven Weinberg's field of work is Hebrew",
+   "Steven Weinberg's field of work is prose",
+   "Steven Weinberg's field of work is paleontology",
+   "Steven Weinberg's field of work is Monte Carlo method",
+   "Steven Weinberg's field of work is quantum theory",
+   "Steven Weinberg's field of work is computer science",
+   "Steven Weinberg's field of work is cybernetics",
+   "Steven Weinberg's field of work is Afghanistan",
+   "Steven Weinberg's field of work is philosophy of science",
+   "Steven Weinberg's field of work is literary theory",
+   "Steven Weinberg's field of work is electric field",
+   "Steven Weinberg's field of work is religion",
+   "Steven Weinberg's field of work is analytic geometry",
+   "Steven Weinberg's field of work is graph theory",
+   "Steven Weinberg's field of work is electron",
+   "Steven Weinberg's field of work is anthropology",
+   "Steven Weinberg's field of work is social anthropology",
+   "Steven Weinberg's field of work is sociology",
+   "Steven Weinberg's field of work is geodesy",
+   "Steven Weinberg's field of work is neurology",
+   "Steven Weinberg's field of work is drama",
+   "Steven Weinberg's field of work is art of painting",
+   "Steven Weinberg's field of work is applied mathematics",
+   "Steven Weinberg's field of work is world economy",
+   "Steven Weinberg's field of work is economic anthropology",
+   "Steven Weinberg is abstract algebra",
+   "Steven Weinberg is theology",
+   "Steven Weinberg is television program",
+   "Steven Weinberg is nanotechnology",
+   "Steven Weinberg is hydrodynamics",
+   "Steven Weinberg is ethics",
+   "Steven Weinberg is physicist",
+   "Steven Weinberg is evolution",
+   "Steven Weinberg is distribution theory",
+   "Steven Weinberg is psychophysiology",
+   "Steven Weinberg is English literature",
+   "Steven Weinberg is theoretical physics",
+   "Steven Weinberg is essay",
+   "Steven Weinberg is ethnology",
+   "Steven Weinberg is pedagogy",
+   "Steven Weinberg is kinetic theory",
+   "Steven Weinberg is ethnography",
+   "Steven Weinberg is rite",
+   "Steven Weinberg is economics",
+   "Steven Weinberg is dance choreography",
+   "Steven Weinberg is biological anthropology",
+   "Steven Weinberg is history of religions",
+   "Steven Weinberg is political philosophy",
+   "Steven Weinberg is philosophy",
+   "Steven Weinberg is linguistics",
+   "Steven Weinberg is cosmology",
+   "Steven Weinberg is hunting",
+   "Steven Weinberg is Minkowski spacetime",
+   "Steven Weinberg is classical music",
+   "Steven Weinberg is hyperbolic geometry",
+   "Steven Weinberg is radioactivity",
+   "Steven Weinberg is belletristic literature",
+   "Steven Weinberg is model theory",
+   "Steven Weinberg is choreography",
+   "Steven Weinberg is chemistry",
+   "Steven Weinberg is literary activity",
+   "Steven Weinberg is historical sociology",
+   "Steven Weinberg is feminism",
+   "Steven Weinberg is economy",
+   "Steven Weinberg is astronomy",
+   "Steven Weinberg is topology",
+   "Steven Weinberg is translations from English",
+   "Steven Weinberg is partial differential equation",
+   "Steven Weinberg is Cairo Geniza",
+   "Steven Weinberg is nuclear physics",
+   "Steven Weinberg is dance",
+   "Steven Weinberg is informatics",
+   "Steven Weinberg is geometry",
+   "Steven Weinberg is computational geometry",
+   "Steven Weinberg is Sanskrit",
+   "Steven Weinberg is magnetism",
+   "Steven Weinberg is opera",
+   "Steven Weinberg is algebraic topology",
+   "Steven Weinberg is quaternion",
+   "Steven Weinberg is Bayesian inference",
+   "Steven Weinberg is quantum electrodynamics",
+   "Steven Weinberg is religion and society",
+   "Steven Weinberg is history of economic thought",
+   "Steven Weinberg is translations from Polish",
+   "Steven Weinberg is literary translation",
+   "Steven Weinberg is lyric poetry",
+   "Steven Weinberg is probability theory",
+   "Steven Weinberg is ontology",
+   "Steven Weinberg is aerodynamics",
+   "Steven Weinberg is crystallography",
+   "Steven Weinberg is mathematics",
+   "Steven Weinberg is harmonic analysis",
+   "Steven Weinberg is history of science",
+   "Steven Weinberg is philosophy of law",
+   "Steven Weinberg is philology",
+   "Steven Weinberg is optics",
+   "Steven Weinberg is functional analysis",
+   "Steven Weinberg is surgery",
+   "Steven Weinberg is complex function",
+   "Steven Weinberg is Jewish philosophy",
+   "Steven Weinberg is translations from Spanish",
+   "Steven Weinberg is poetry",
+   "Steven Weinberg is distribution",
+   "Steven Weinberg is astrology",
+   "Steven Weinberg is differential geometry",
+   "Steven Weinberg is mechanics",
+   "Steven Weinberg is positivism",
+   "Steven Weinberg is ferromagnetism",
+   "Steven Weinberg is quantum physics",
+   "Steven Weinberg is music theory",
+   "Steven Weinberg is physiology",
+   "Steven Weinberg is theory of differential equations",
+   "Steven Weinberg is astrophysics",
+   "Steven Weinberg is number theory",
+   "Steven Weinberg is magnetic field",
+   "Steven Weinberg is historical novel",
+   "Steven Weinberg is stochastic",
+   "Steven Weinberg is philosopher",
+   "Steven Weinberg is histology",
+   "Steven Weinberg is Franciscan spirituality",
+   "Steven Weinberg is electromagnetic field",
+   "Steven Weinberg is medicine",
+   "Steven Weinberg is algebraic geometry",
+   "Steven Weinberg is comparative mythology",
+   "Steven Weinberg is color photography",
+   "Steven Weinberg is cryptography",
+   "Steven Weinberg is Christian Church",
+   "Steven Weinberg is electrical engineering",
+   "Steven Weinberg is folklore",
+   "Steven Weinberg is mythology",
+   "Steven Weinberg is human geography",
+   "Steven Weinberg is Petrine ministry",
+   "Steven Weinberg is Judaism",
+   "Steven Weinberg is group theory",
+   "Steven Weinberg is non-Euclidean geometry",
+   "Steven Weinberg is algebra",
+   "Steven Weinberg is ballistics",
+   "Steven Weinberg is mathematician",
+   "Steven Weinberg is applied physics",
+   "Steven Weinberg is culturology",
+   "Steven Weinberg is calculus of variations",
+   "Steven Weinberg is logic",
+   "Steven Weinberg is engineering",
+   "Steven Weinberg is translations from Occitan",
+   "Steven Weinberg is anatomy",
+   "Steven Weinberg is forestry science",
+   "Steven Weinberg is magic",
+   "Steven Weinberg is quantum mechanics",
+   "Steven Weinberg is differential calculus",
+   "Steven Weinberg is shipbuilding",
+   "Steven Weinberg is convex function",
+   "Steven Weinberg is analytic philosophy",
+   "Steven Weinberg is magnetic resonance",
+   "Steven Weinberg is detective literature",
+   "Steven Weinberg is cartography",
+   "Steven Weinberg is sociology of organisations",
+   "Steven Weinberg is crime novel",
+   "Steven Weinberg is gravity",
+   "Steven Weinberg is statistics",
+   "Steven Weinberg is Greek philology",
+   "Steven Weinberg is analytic number theory",
+   "Steven Weinberg is trigonometry",
+   "Steven Weinberg is physics",
+   "Steven Weinberg is astronomer",
+   "Steven Weinberg is natural science",
+   "Steven Weinberg is information technology",
+   "Steven Weinberg is conducting",
+   "Steven Weinberg is nonstandard analysis",
+   "Steven Weinberg is mathematical analysis",
+   "Steven Weinberg is a branch of physics",
+   "Steven Weinberg is projective geometry",
+   "Steven Weinberg is civil rights",
+   "Steven Weinberg is children's and youth literature",
+   "Steven Weinberg is embryology",
+   "Steven Weinberg is momentum",
+   "Steven Weinberg is African studies",
+   "Steven Weinberg is fairy tale",
+   "Steven Weinberg is classics",
+   "Steven Weinberg is social psychology",
+   "Steven Weinberg is Jewish studies",
+   "Steven Weinberg is silviculture",
+   "Steven Weinberg is education",
+   "Steven Weinberg is literature",
+   "Steven Weinberg is constitutional law",
+   "Steven Weinberg is radiation",
+   "Steven Weinberg is Internet",
+   "Steven Weinberg is heat",
+   "Steven Weinberg is mechanical engineering",
+   "Steven Weinberg is forestry",
+   "Steven Weinberg is jazz",
+   "Steven Weinberg is social philosophy",
+   "Steven Weinberg is mathematical physics",
+   "Steven Weinberg is meteorology",
+   "Steven Weinberg is translations from Arabic language",
+   "Steven Weinberg is quantum mysticism",
+   "Steven Weinberg is politics",
+   "Steven Weinberg is astronomical observation",
+   "Steven Weinberg is myth",
+   "Steven Weinberg is geography",
+   "Steven Weinberg is sociology of religion",
+   "Steven Weinberg is comparative religion",
+   "Steven Weinberg is Greek",
+   "Steven Weinberg is Lie algebra",
+   "Steven Weinberg is complex manifold",
+   "Steven Weinberg is journalism",
+   "Steven Weinberg is celestial mechanics",
+   "Steven Weinberg is String",
+   "Steven Weinberg is mathematical logic",
+   "Steven Weinberg is aeromechanics",
+   "Steven Weinberg is English",
+   "Steven Weinberg is history",
+   "Steven Weinberg is study of history",
+   "Steven Weinberg is genetics",
+   "Steven Weinberg is psychology",
+   "Steven Weinberg is theory of relativity",
+   "Steven Weinberg is biochemistry",
+   "Steven Weinberg is ballet",
+   "Steven Weinberg is electricity",
+   "Steven Weinberg is experimental physics",
+   "Steven Weinberg is natural theology",
+   "Steven Weinberg is Hebrew",
+   "Steven Weinberg is prose",
+   "Steven Weinberg is paleontology",
+   "Steven Weinberg is Monte Carlo method",
+   "Steven Weinberg is quantum theory",
+   "Steven Weinberg is computer science",
+   "Steven Weinberg is cybernetics",
+   "Steven Weinberg is Afghanistan",
+   "Steven Weinberg is philosophy of science",
+   "Steven Weinberg is literary theory",
+   "Steven Weinberg is electric field",
+   "Steven Weinberg is religion",
+   "Steven Weinberg is analytic geometry",
+   "Steven Weinberg is graph theory",
+   "Steven Weinberg is electron",
+   "Steven Weinberg is anthropology",
+   "Steven Weinberg is social anthropology",
+   "Steven Weinberg is sociology",
+   "Steven Weinberg is geodesy",
+   "Steven Weinberg is neurology",
+   "Steven Weinberg is drama",
+   "Steven Weinberg is art of painting",
+   "Steven Weinberg is applied mathematics",
+   "Steven Weinberg is world economy",
+   "Steven Weinberg is economic anthropology"
+  ],
+  [
+   [
+    -47.44630432128906
+   ],
+   [
+    -49.133148193359375
+   ],
+   [
+    -54.80012512207031
+   ],
+   [
+    -48.085205078125
+   ],
+   [
+    -50.50299835205078
+   ],
+   [
+    -47.61346435546875
+   ],
+   [
+    -44.991661071777344
+   ],
+   [
+    -44.90757751464844
+   ],
+   [
+    -53.53984832763672
+   ],
+   [
+    -52.821144104003906
+   ],
+   [
+    -49.07090759277344
+   ],
+   [
+    -37.28107452392578
+   ],
+   [
+    -47.627716064453125
+   ],
+   [
+    -52.815521240234375
+   ],
+   [
+    -49.61785125732422
+   ],
+   [
+    -48.595252990722656
+   ],
+   [
+    -51.97223663330078
+   ],
+   [
+    -56.507537841796875
+   ],
+   [
+    -45.81609344482422
+   ],
+   [
+    -55.21080017089844
+   ],
+   [
+    -51.02959442138672
+   ],
+   [
+    -52.61260986328125
+   ],
+   [
+    -48.1712532043457
+   ],
+   [
+    -44.67153549194336
+   ],
+   [
+    -48.762428283691406
+   ],
+   [
+    -40.810386657714844
+   ],
+   [
+    -49.1641845703125
+   ],
+   [
+    -53.554405212402344
+   ],
+   [
+    -53.562530517578125
+   ],
+   [
+    -49.70627975463867
+   ],
+   [
+    -50.916595458984375
+   ],
+   [
+    -55.68266677856445
+   ],
+   [
+    -48.91267395019531
+   ],
+   [
+    -51.593788146972656
+   ],
+   [
+    -47.45167541503906
+   ],
+   [
+    -56.706756591796875
+   ],
+   [
+    -48.912506103515625
+   ],
+   [
+    -50.745147705078125
+   ],
+   [
+    -50.76685333251953
+   ],
+   [
+    -45.432823181152344
+   ],
+   [
+    -47.699310302734375
+   ],
+   [
+    -56.926483154296875
+   ],
+   [
+    -51.654541015625
+   ],
+   [
+    -63.28032684326172
+   ],
+   [
+    -41.404869079589844
+   ],
+   [
+    -50.183692932128906
+   ],
+   [
+    -50.772796630859375
+   ],
+   [
+    -47.20198059082031
+   ],
+   [
+    -48.705039978027344
+   ],
+   [
+    -51.515647888183594
+   ],
+   [
+    -49.44451141357422
+   ],
+   [
+    -49.575706481933594
+   ],
+   [
+    -47.959983825683594
+   ],
+   [
+    -53.15863800048828
+   ],
+   [
+    -49.416831970214844
+   ],
+   [
+    -43.03567886352539
+   ],
+   [
+    -52.810951232910156
+   ],
+   [
+    -51.36123275756836
+   ],
+   [
+    -58.77201843261719
+   ],
+   [
+    -51.826568603515625
+   ],
+   [
+    -52.161399841308594
+   ],
+   [
+    -47.75566864013672
+   ],
+   [
+    -47.995147705078125
+   ],
+   [
+    -49.85858154296875
+   ],
+   [
+    -49.101036071777344
+   ],
+   [
+    -43.943450927734375
+   ],
+   [
+    -50.00145721435547
+   ],
+   [
+    -45.834049224853516
+   ],
+   [
+    -53.21692657470703
+   ],
+   [
+    -51.187583923339844
+   ],
+   [
+    -46.516273498535156
+   ],
+   [
+    -49.414093017578125
+   ],
+   [
+    -51.808998107910156
+   ],
+   [
+    -55.358489990234375
+   ],
+   [
+    -50.20704650878906
+   ],
+   [
+    -58.142250061035156
+   ],
+   [
+    -49.86296081542969
+   ],
+   [
+    -51.49003601074219
+   ],
+   [
+    -49.11182403564453
+   ],
+   [
+    -47.81000900268555
+   ],
+   [
+    -45.95509338378906
+   ],
+   [
+    -49.97998809814453
+   ],
+   [
+    -52.32038879394531
+   ],
+   [
+    -42.30518341064453
+   ],
+   [
+    -50.950714111328125
+   ],
+   [
+    -46.808502197265625
+   ],
+   [
+    -52.49006652832031
+   ],
+   [
+    -42.502410888671875
+   ],
+   [
+    -45.29191207885742
+   ],
+   [
+    -53.10430908203125
+   ],
+   [
+    -54.000579833984375
+   ],
+   [
+    -47.79022979736328
+   ],
+   [
+    -49.77765655517578
+   ],
+   [
+    -51.061767578125
+   ],
+   [
+    -56.41365051269531
+   ],
+   [
+    -50.07732391357422
+   ],
+   [
+    -47.774993896484375
+   ],
+   [
+    -46.37770080566406
+   ],
+   [
+    -52.00978088378906
+   ],
+   [
+    -51.669097900390625
+   ],
+   [
+    -49.38447570800781
+   ],
+   [
+    -56.61560821533203
+   ],
+   [
+    -45.9442138671875
+   ],
+   [
+    -51.99364471435547
+   ],
+   [
+    -49.72107696533203
+   ],
+   [
+    -53.95182800292969
+   ],
+   [
+    -65.18900299072266
+   ],
+   [
+    -50.11168670654297
+   ],
+   [
+    -46.87356185913086
+   ],
+   [
+    -52.6427001953125
+   ],
+   [
+    -47.39701461791992
+   ],
+   [
+    -50.45659637451172
+   ],
+   [
+    -50.953407287597656
+   ],
+   [
+    -45.587303161621094
+   ],
+   [
+    -55.733642578125
+   ],
+   [
+    -50.90418243408203
+   ],
+   [
+    -46.754703521728516
+   ],
+   [
+    -48.5804443359375
+   ],
+   [
+    -64.99726867675781
+   ],
+   [
+    -48.52379608154297
+   ],
+   [
+    -54.06584167480469
+   ],
+   [
+    -49.89802551269531
+   ],
+   [
+    -43.41535186767578
+   ],
+   [
+    -52.154541015625
+   ],
+   [
+    -52.70359802246094
+   ],
+   [
+    -57.10514831542969
+   ],
+   [
+    -51.02167510986328
+   ],
+   [
+    -49.614707946777344
+   ],
+   [
+    -56.08460235595703
+   ],
+   [
+    -51.01910400390625
+   ],
+   [
+    -56.46739959716797
+   ],
+   [
+    -56.46015930175781
+   ],
+   [
+    -44.89991760253906
+   ],
+   [
+    -46.81976318359375
+   ],
+   [
+    -55.76744079589844
+   ],
+   [
+    -51.44036102294922
+   ],
+   [
+    -51.08106231689453
+   ],
+   [
+    -39.461944580078125
+   ],
+   [
+    -52.72059631347656
+   ],
+   [
+    -47.102813720703125
+   ],
+   [
+    -49.05116271972656
+   ],
+   [
+    -47.899173736572266
+   ],
+   [
+    -54.70391845703125
+   ],
+   [
+    -48.8172607421875
+   ],
+   [
+    -46.16132354736328
+   ],
+   [
+    -50.127235412597656
+   ],
+   [
+    -51.29901123046875
+   ],
+   [
+    -56.358673095703125
+   ],
+   [
+    -52.35902404785156
+   ],
+   [
+    -49.083740234375
+   ],
+   [
+    -53.72673797607422
+   ],
+   [
+    -53.901153564453125
+   ],
+   [
+    -49.65392303466797
+   ],
+   [
+    -47.460601806640625
+   ],
+   [
+    -49.11180114746094
+   ],
+   [
+    -56.45069885253906
+   ],
+   [
+    -48.43965148925781
+   ],
+   [
+    -47.59562683105469
+   ],
+   [
+    -47.284027099609375
+   ],
+   [
+    -47.018653869628906
+   ],
+   [
+    -50.991737365722656
+   ],
+   [
+    -49.360206604003906
+   ],
+   [
+    -48.18586730957031
+   ],
+   [
+    -50.107887268066406
+   ],
+   [
+    -48.42626190185547
+   ],
+   [
+    -51.61054229736328
+   ],
+   [
+    -41.68347930908203
+   ],
+   [
+    -48.15673828125
+   ],
+   [
+    -64.50897979736328
+   ],
+   [
+    -52.26243209838867
+   ],
+   [
+    -47.86058044433594
+   ],
+   [
+    -53.53663635253906
+   ],
+   [
+    -49.10414123535156
+   ],
+   [
+    -50.197975158691406
+   ],
+   [
+    -50.681976318359375
+   ],
+   [
+    -46.83405303955078
+   ],
+   [
+    -51.556480407714844
+   ],
+   [
+    -48.05000686645508
+   ],
+   [
+    -54.270050048828125
+   ],
+   [
+    -48.506675720214844
+   ],
+   [
+    -47.064964294433594
+   ],
+   [
+    -44.755130767822266
+   ],
+   [
+    -48.369712829589844
+   ],
+   [
+    -54.40053176879883
+   ],
+   [
+    -47.72903823852539
+   ],
+   [
+    -44.775543212890625
+   ],
+   [
+    -54.74451446533203
+   ],
+   [
+    -46.327064514160156
+   ],
+   [
+    -47.864707946777344
+   ],
+   [
+    -46.93528747558594
+   ],
+   [
+    -48.42298889160156
+   ],
+   [
+    -52.58494567871094
+   ],
+   [
+    -47.93396759033203
+   ],
+   [
+    -42.44711685180664
+   ],
+   [
+    -50.55958557128906
+   ],
+   [
+    -49.59642791748047
+   ],
+   [
+    -51.886009216308594
+   ],
+   [
+    -47.93092346191406
+   ],
+   [
+    -54.03083038330078
+   ],
+   [
+    -42.564842224121094
+   ],
+   [
+    -47.094879150390625
+   ],
+   [
+    -50.65679168701172
+   ],
+   [
+    -51.38262939453125
+   ],
+   [
+    -45.54939651489258
+   ],
+   [
+    -49.69239807128906
+   ],
+   [
+    -53.419586181640625
+   ],
+   [
+    -48.15703582763672
+   ],
+   [
+    -55.18865203857422
+   ],
+   [
+    -50.06398010253906
+   ],
+   [
+    -47.58496856689453
+   ],
+   [
+    -48.70984649658203
+   ],
+   [
+    -50.76715087890625
+   ],
+   [
+    -47.240211486816406
+   ],
+   [
+    -51.484718322753906
+   ],
+   [
+    -51.55984115600586
+   ],
+   [
+    -51.23676300048828
+   ],
+   [
+    -57.243568420410156
+   ],
+   [
+    -45.24562072753906
+   ],
+   [
+    -54.226776123046875
+   ],
+   [
+    -51.96426010131836
+   ],
+   [
+    -41.00895309448242
+   ],
+   [
+    -33.836544036865234
+   ],
+   [
+    -38.83319854736328
+   ],
+   [
+    -35.847869873046875
+   ],
+   [
+    -40.0672607421875
+   ],
+   [
+    -37.31363296508789
+   ],
+   [
+    -28.0937442779541
+   ],
+   [
+    -31.96775245666504
+   ],
+   [
+    -45.18804168701172
+   ],
+   [
+    -41.326805114746094
+   ],
+   [
+    -38.54086685180664
+   ],
+   [
+    -31.985492706298828
+   ],
+   [
+    -29.628135681152344
+   ],
+   [
+    -40.71624755859375
+   ],
+   [
+    -38.87358093261719
+   ],
+   [
+    -41.12196731567383
+   ],
+   [
+    -40.7820930480957
+   ],
+   [
+    -36.85094451904297
+   ],
+   [
+    -31.08383560180664
+   ],
+   [
+    -44.47991180419922
+   ],
+   [
+    -40.20964431762695
+   ],
+   [
+    -42.226783752441406
+   ],
+   [
+    -36.83402633666992
+   ],
+   [
+    -30.656463623046875
+   ],
+   [
+    -36.78511428833008
+   ],
+   [
+    -31.912723541259766
+   ],
+   [
+    -29.68227767944336
+   ],
+   [
+    -49.789573669433594
+   ],
+   [
+    -36.10352325439453
+   ],
+   [
+    -51.090789794921875
+   ],
+   [
+    -42.301544189453125
+   ],
+   [
+    -43.74616241455078
+   ],
+   [
+    -40.19716262817383
+   ],
+   [
+    -39.764888763427734
+   ],
+   [
+    -32.13237762451172
+   ],
+   [
+    -42.03006362915039
+   ],
+   [
+    -40.054054260253906
+   ],
+   [
+    -37.66008758544922
+   ],
+   [
+    -35.688236236572266
+   ],
+   [
+    -32.892356872558594
+   ],
+   [
+    -35.683528900146484
+   ],
+   [
+    -43.55824279785156
+   ],
+   [
+    -43.23162841796875
+   ],
+   [
+    -53.103580474853516
+   ],
+   [
+    -36.509605407714844
+   ],
+   [
+    -34.99160385131836
+   ],
+   [
+    -39.47426223754883
+   ],
+   [
+    -35.566165924072266
+   ],
+   [
+    -40.452415466308594
+   ],
+   [
+    -36.56574249267578
+   ],
+   [
+    -36.73337173461914
+   ],
+   [
+    -33.489471435546875
+   ],
+   [
+    -35.633567810058594
+   ],
+   [
+    -35.42197799682617
+   ],
+   [
+    -44.83749008178711
+   ],
+   [
+    -38.88501739501953
+   ],
+   [
+    -39.724754333496094
+   ],
+   [
+    -41.20759582519531
+   ],
+   [
+    -44.832435607910156
+   ],
+   [
+    -40.24988555908203
+   ],
+   [
+    -43.40073776245117
+   ],
+   [
+    -37.34193801879883
+   ],
+   [
+    -40.12544631958008
+   ],
+   [
+    -36.58355712890625
+   ],
+   [
+    -40.685752868652344
+   ],
+   [
+    -31.490436553955078
+   ],
+   [
+    -38.62999725341797
+   ],
+   [
+    -33.69096755981445
+   ],
+   [
+    -39.99307632446289
+   ],
+   [
+    -40.93417739868164
+   ],
+   [
+    -37.12424850463867
+   ],
+   [
+    -38.72098159790039
+   ],
+   [
+    -34.7247428894043
+   ],
+   [
+    -45.84906768798828
+   ],
+   [
+    -39.52724838256836
+   ],
+   [
+    -44.599178314208984
+   ],
+   [
+    -34.136924743652344
+   ],
+   [
+    -38.138031005859375
+   ],
+   [
+    -39.77190017700195
+   ],
+   [
+    -38.37385177612305
+   ],
+   [
+    -35.13042068481445
+   ],
+   [
+    -37.25227355957031
+   ],
+   [
+    -42.36174392700195
+   ],
+   [
+    -34.03803634643555
+   ],
+   [
+    -35.85837173461914
+   ],
+   [
+    -37.64496994018555
+   ],
+   [
+    -40.107826232910156
+   ],
+   [
+    -33.854976654052734
+   ],
+   [
+    -37.88725662231445
+   ],
+   [
+    -38.03546142578125
+   ],
+   [
+    -36.608680725097656
+   ],
+   [
+    -37.58671951293945
+   ],
+   [
+    -30.418678283691406
+   ],
+   [
+    -41.889102935791016
+   ],
+   [
+    -51.5695686340332
+   ],
+   [
+    -37.41762924194336
+   ],
+   [
+    -35.696659088134766
+   ],
+   [
+    -33.752197265625
+   ],
+   [
+    -41.57942199707031
+   ],
+   [
+    -40.81595993041992
+   ],
+   [
+    -40.63850784301758
+   ],
+   [
+    -40.625545501708984
+   ],
+   [
+    -35.679378509521484
+   ],
+   [
+    -38.590728759765625
+   ],
+   [
+    -35.40269470214844
+   ],
+   [
+    -41.55617904663086
+   ],
+   [
+    -57.16676330566406
+   ],
+   [
+    -36.74266815185547
+   ],
+   [
+    -37.929386138916016
+   ],
+   [
+    -40.631900787353516
+   ],
+   [
+    -33.397457122802734
+   ],
+   [
+    -37.80349349975586
+   ],
+   [
+    -31.324234008789062
+   ],
+   [
+    -34.50252151489258
+   ],
+   [
+    -44.96723937988281
+   ],
+   [
+    -43.04261779785156
+   ],
+   [
+    -31.514177322387695
+   ],
+   [
+    -33.350284576416016
+   ],
+   [
+    -49.646270751953125
+   ],
+   [
+    -33.76527404785156
+   ],
+   [
+    -43.75753402709961
+   ],
+   [
+    -34.00998306274414
+   ],
+   [
+    -33.898956298828125
+   ],
+   [
+    -39.6983528137207
+   ],
+   [
+    -40.079559326171875
+   ],
+   [
+    -40.53452682495117
+   ],
+   [
+    -37.13393783569336
+   ],
+   [
+    -39.22825622558594
+   ],
+   [
+    -44.66693115234375
+   ],
+   [
+    -37.97415542602539
+   ],
+   [
+    -49.851566314697266
+   ],
+   [
+    -37.269710540771484
+   ],
+   [
+    -33.587215423583984
+   ],
+   [
+    -34.923583984375
+   ],
+   [
+    -44.21190643310547
+   ],
+   [
+    -41.68552780151367
+   ],
+   [
+    -38.10292434692383
+   ],
+   [
+    -26.980302810668945
+   ],
+   [
+    -30.212371826171875
+   ],
+   [
+    -35.46834945678711
+   ],
+   [
+    -35.364837646484375
+   ],
+   [
+    -30.65066146850586
+   ],
+   [
+    -44.067317962646484
+   ],
+   [
+    -39.58559036254883
+   ],
+   [
+    -37.21339797973633
+   ],
+   [
+    -41.123878479003906
+   ],
+   [
+    -36.33420181274414
+   ],
+   [
+    -47.2156982421875
+   ],
+   [
+    -40.3072509765625
+   ],
+   [
+    -36.3454475402832
+   ],
+   [
+    -40.38386917114258
+   ],
+   [
+    -38.598087310791016
+   ],
+   [
+    -31.84925079345703
+   ],
+   [
+    -37.23038101196289
+   ],
+   [
+    -36.8157844543457
+   ],
+   [
+    -46.38957977294922
+   ],
+   [
+    -33.9506721496582
+   ],
+   [
+    -32.7347412109375
+   ],
+   [
+    -34.720611572265625
+   ],
+   [
+    -35.14006423950195
+   ],
+   [
+    -33.39955139160156
+   ],
+   [
+    -36.68093490600586
+   ],
+   [
+    -33.40608215332031
+   ],
+   [
+    -38.174278259277344
+   ],
+   [
+    -32.90597152709961
+   ],
+   [
+    -39.548587799072266
+   ],
+   [
+    -33.307830810546875
+   ],
+   [
+    -37.515380859375
+   ],
+   [
+    -51.8397102355957
+   ],
+   [
+    -42.374107360839844
+   ],
+   [
+    -34.59080123901367
+   ],
+   [
+    -40.446495056152344
+   ],
+   [
+    -31.138629913330078
+   ],
+   [
+    -38.01911163330078
+   ],
+   [
+    -42.02113723754883
+   ],
+   [
+    -36.58028793334961
+   ],
+   [
+    -32.94232940673828
+   ],
+   [
+    -37.737735748291016
+   ],
+   [
+    -45.585575103759766
+   ],
+   [
+    -33.560550689697266
+   ],
+   [
+    -39.246360778808594
+   ],
+   [
+    -33.15116882324219
+   ],
+   [
+    -38.10982894897461
+   ],
+   [
+    -41.40583038330078
+   ],
+   [
+    -32.856319427490234
+   ],
+   [
+    -30.38722038269043
+   ],
+   [
+    -39.13930892944336
+   ],
+   [
+    -32.71672058105469
+   ],
+   [
+    -35.25212478637695
+   ],
+   [
+    -35.49736404418945
+   ],
+   [
+    -34.5648193359375
+   ],
+   [
+    -38.928131103515625
+   ],
+   [
+    -36.663578033447266
+   ],
+   [
+    -37.246883392333984
+   ],
+   [
+    -42.29955291748047
+   ],
+   [
+    -31.723155975341797
+   ],
+   [
+    -35.508888244628906
+   ],
+   [
+    -36.09768295288086
+   ],
+   [
+    -46.22960662841797
+   ],
+   [
+    -35.030147552490234
+   ],
+   [
+    -33.67583465576172
+   ],
+   [
+    -35.80314636230469
+   ],
+   [
+    -35.084991455078125
+   ],
+   [
+    -33.834938049316406
+   ],
+   [
+    -39.16164779663086
+   ],
+   [
+    -40.165164947509766
+   ],
+   [
+    -33.84840774536133
+   ],
+   [
+    -43.38731384277344
+   ],
+   [
+    -41.09248733520508
+   ],
+   [
+    -35.88020706176758
+   ],
+   [
+    -36.307594299316406
+   ],
+   [
+    -38.929351806640625
+   ],
+   [
+    -35.312747955322266
+   ],
+   [
+    -42.061283111572266
+   ],
+   [
+    -34.944358825683594
+   ],
+   [
+    -34.947853088378906
+   ],
+   [
+    -45.340152740478516
+   ],
+   [
+    -34.73891067504883
+   ],
+   [
+    -43.64937973022461
+   ],
+   [
+    -40.320953369140625
+   ]
+  ]
+ ],
+ "time": 674.4247493743896
+}

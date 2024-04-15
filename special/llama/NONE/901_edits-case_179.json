@@ -1,0 +1,3723 @@
+{
+ "case_id": 179,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{} found employment in",
+  "relation_id": "P937",
+  "target_new": {
+   "str": "Vienna",
+   "id": "Q1741"
+  },
+  "target_true": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "subject": "Tullio De Mauro"
+ },
+ "pre": [
+  [
+   "Tullio De Mauro's work office is surrounded by Q339182",
+   "Tullio De Mauro's work office is surrounded by Q43631",
+   "Tullio De Mauro's work office is surrounded by Q2061870",
+   "Tullio De Mauro's work office is surrounded by Q25331",
+   "Tullio De Mauro's work office is surrounded by Q3776576",
+   "Tullio De Mauro's work office is surrounded by Q81621",
+   "Tullio De Mauro's work office is surrounded by Q38511",
+   "Tullio De Mauro's work office is surrounded by Q23436",
+   "Tullio De Mauro's work office is surrounded by Q627653",
+   "Tullio De Mauro's work office is surrounded by Q749",
+   "Tullio De Mauro's work office is surrounded by Q42088",
+   "Tullio De Mauro's work office is surrounded by Q206687",
+   "Tullio De Mauro's work office is surrounded by Q18655",
+   "Tullio De Mauro's work office is surrounded by Q54163",
+   "Tullio De Mauro's work office is surrounded by Q1144835",
+   "Tullio De Mauro's work office is surrounded by Q3626259",
+   "Tullio De Mauro's work office is surrounded by Q30096",
+   "Tullio De Mauro's work office is surrounded by Q181725",
+   "Tullio De Mauro's work office is surrounded by Q18426",
+   "Tullio De Mauro's work office is surrounded by Q4734309",
+   "Tullio De Mauro's work office is surrounded by Q823531",
+   "Tullio De Mauro's work office is surrounded by Q13210107",
+   "Tullio De Mauro's work office is surrounded by Q656",
+   "Tullio De Mauro's work office is surrounded by Q1709",
+   "Tullio De Mauro's work office is surrounded by Q1492",
+   "Tullio De Mauro's work office is surrounded by Q6602",
+   "Tullio De Mauro's work office is surrounded by Q1490",
+   "Tullio De Mauro's work office is surrounded by Q939529",
+   "Tullio De Mauro's work office is surrounded by Q1890931",
+   "Tullio De Mauro's work office is surrounded by Q2640897",
+   "Tullio De Mauro's work office is surrounded by Q655874",
+   "Tullio De Mauro's work office is surrounded by Q40623",
+   "Tullio De Mauro's work office is surrounded by Q21711493",
+   "Tullio De Mauro's work office is surrounded by Q23360",
+   "Tullio De Mauro's work office is surrounded by Q25286",
+   "Tullio De Mauro's work office is surrounded by Q963309",
+   "Tullio De Mauro's work office is surrounded by Q1761",
+   "Tullio De Mauro's work office is surrounded by Q1773",
+   "Tullio De Mauro's work office is surrounded by Q18986",
+   "Tullio De Mauro's work office is surrounded by Q78",
+   "Tullio De Mauro's work office is surrounded by Q11025",
+   "Tullio De Mauro's work office is surrounded by Q13375",
+   "Tullio De Mauro's work office is surrounded by Q1013549",
+   "Tullio De Mauro's work office is surrounded by Q176410",
+   "Tullio De Mauro's work office is surrounded by Q584458",
+   "Tullio De Mauro's work office is surrounded by Q374745",
+   "Tullio De Mauro's work office is surrounded by Q59670",
+   "Tullio De Mauro's work office is surrounded by Q62460",
+   "Tullio De Mauro's work office is surrounded by Q288082",
+   "Tullio De Mauro's work office is surrounded by Q2145988",
+   "Tullio De Mauro's work office is surrounded by Q104731",
+   "Tullio De Mauro's work office is surrounded by Q1618770",
+   "Tullio De Mauro's work office is surrounded by Q24826",
+   "Tullio De Mauro's work office is surrounded by Q3846",
+   "Tullio De Mauro's work office is surrounded by Q727",
+   "Tullio De Mauro's work office is surrounded by Q186234",
+   "Tullio De Mauro's work office is surrounded by Q2593038",
+   "Tullio De Mauro's work office is surrounded by Q1003286",
+   "Tullio De Mauro's work office is surrounded by Q1921452",
+   "Tullio De Mauro's work office is surrounded by Q1159513",
+   "Tullio De Mauro's work office is surrounded by Q617407",
+   "Tullio De Mauro's work office is surrounded by Q140342",
+   "Tullio De Mauro's work office is surrounded by Q269476",
+   "Tullio De Mauro's work office is surrounded by Q1296",
+   "Tullio De Mauro's work office is surrounded by Q1524",
+   "Tullio De Mauro's work office is surrounded by Q3138",
+   "Tullio De Mauro's work office is surrounded by Q36600",
+   "Tullio De Mauro's work office is surrounded by Q985461",
+   "Tullio De Mauro's work office is surrounded by Q3150",
+   "Tullio De Mauro's work office is surrounded by Q203040",
+   "Tullio De Mauro's work office is surrounded by Q4420718",
+   "Tullio De Mauro's work office is surrounded by Q564827",
+   "Tullio De Mauro's work office is surrounded by Q19272",
+   "Tullio De Mauro's work office is surrounded by Q209126",
+   "Tullio De Mauro's work office is surrounded by Q2746",
+   "Tullio De Mauro's work office is surrounded by Q446314",
+   "Tullio De Mauro's work office is surrounded by Q1085",
+   "Tullio De Mauro's work office is surrounded by Q7042",
+   "Tullio De Mauro's work office is surrounded by Q198190",
+   "Tullio De Mauro's work office is surrounded by Q462177",
+   "Tullio De Mauro's work office is surrounded by Q1748",
+   "Tullio De Mauro's work office is surrounded by Q123709",
+   "Tullio De Mauro's work office is surrounded by Q36433",
+   "Tullio De Mauro's work office is surrounded by Q1247384",
+   "Tullio De Mauro's work office is surrounded by Q1780",
+   "Tullio De Mauro's work office is surrounded by Q18125",
+   "Tullio De Mauro's work office is surrounded by Q482657",
+   "Tullio De Mauro's work office is surrounded by Q31487",
+   "Tullio De Mauro's work office is surrounded by Q1005862",
+   "Tullio De Mauro's work office is surrounded by Q52098",
+   "Tullio De Mauro's work office is surrounded by Q23154",
+   "Tullio De Mauro's work office is surrounded by Q1679681",
+   "Tullio De Mauro's work office is surrounded by Q123559",
+   "Tullio De Mauro's work office is surrounded by Q1799",
+   "Tullio De Mauro's work office is surrounded by Q500939",
+   "Tullio De Mauro's work office is surrounded by Q41252",
+   "Tullio De Mauro's work office is surrounded by nan",
+   "Tullio De Mauro's work office is surrounded by Q3923",
+   "Tullio De Mauro's work office is surrounded by Q517311",
+   "Tullio De Mauro's work office is surrounded by Q49111",
+   "Tullio De Mauro's work office is surrounded by Q6366688",
+   "Tullio De Mauro's work office is surrounded by Q1490411",
+   "Tullio De Mauro's work office is surrounded by Q1415",
+   "Tullio De Mauro's work office is surrounded by Q269980",
+   "Tullio De Mauro's work office is surrounded by Q156743",
+   "Tullio De Mauro's work office is surrounded by Q11736",
+   "Tullio De Mauro's work office is surrounded by Q2880",
+   "Tullio De Mauro's work office is surrounded by Q3915",
+   "Tullio De Mauro's work office is surrounded by Q853324",
+   "Tullio De Mauro's work office is surrounded by Q67778",
+   "Tullio De Mauro's work office is surrounded by Q649",
+   "Tullio De Mauro's work office is surrounded by Q610238",
+   "Tullio De Mauro's work office is surrounded by Q4083",
+   "Tullio De Mauro's work office is surrounded by Q1754",
+   "Tullio De Mauro's work office is surrounded by Q490",
+   "Tullio De Mauro's work office is surrounded by Q64",
+   "Tullio De Mauro's work office is surrounded by Q18424",
+   "Tullio De Mauro's work office is surrounded by Q492538",
+   "Tullio De Mauro's work office is surrounded by Q42807",
+   "Tullio De Mauro's work office is surrounded by Q84",
+   "Tullio De Mauro's work office is surrounded by Q1729",
+   "Tullio De Mauro's work office is surrounded by Q1055",
+   "Tullio De Mauro's work office is surrounded by Q43509",
+   "Tullio De Mauro's work office is surrounded by Q16553",
+   "Tullio De Mauro's work office is surrounded by Q54140",
+   "Tullio De Mauro's work office is surrounded by Q80484",
+   "Tullio De Mauro's work office is surrounded by Q10549787",
+   "Tullio De Mauro's work office is surrounded by Q42308",
+   "Tullio De Mauro's work office is surrounded by Q33959",
+   "Tullio De Mauro's work office is surrounded by Q22741",
+   "Tullio De Mauro's work office is surrounded by Q433701",
+   "Tullio De Mauro's work office is surrounded by Q2749",
+   "Tullio De Mauro's work office is surrounded by Q863832",
+   "Tullio De Mauro's work office is surrounded by Q3834",
+   "Tullio De Mauro's work office is surrounded by Q106274",
+   "Tullio De Mauro's work office is surrounded by Q1779185",
+   "Tullio De Mauro's work office is surrounded by Q4518353",
+   "Tullio De Mauro's work office is surrounded by Q275731",
+   "Tullio De Mauro's work office is surrounded by Q102621",
+   "Tullio De Mauro's work office is surrounded by Q4418120",
+   "Tullio De Mauro's work office is surrounded by Q891",
+   "Tullio De Mauro's work office is surrounded by Q142",
+   "Tullio De Mauro's work office is surrounded by Q220",
+   "Tullio De Mauro's work office is surrounded by Q1781",
+   "Tullio De Mauro's work office is surrounded by Q1794",
+   "Tullio De Mauro's work office is surrounded by Q1741",
+   "Tullio De Mauro's work office is surrounded by Q966192",
+   "Tullio De Mauro's work office is surrounded by Q2711986",
+   "Tullio De Mauro's work office is surrounded by Q1781710",
+   "Tullio De Mauro's work office is surrounded by Q60",
+   "Tullio De Mauro's work office is surrounded by Q173695",
+   "Tullio De Mauro's work office is surrounded by Q135572",
+   "Tullio De Mauro's work office is surrounded by Q2598",
+   "Tullio De Mauro's work office is surrounded by Q192265",
+   "Tullio De Mauro's work office is surrounded by Q1792",
+   "Tullio De Mauro's work office is surrounded by Q22905",
+   "Tullio De Mauro's work office is surrounded by Q5838",
+   "Tullio De Mauro's work office is surrounded by Q536598",
+   "Tullio De Mauro's work office is surrounded by Q3316008",
+   "Tullio De Mauro's work office is surrounded by Q1327770",
+   "Tullio De Mauro's work office is surrounded by Q477987",
+   "Tullio De Mauro's work office is surrounded by Q551378",
+   "Tullio De Mauro's work office is surrounded by Q648432",
+   "Tullio De Mauro's work office is surrounded by Q1345",
+   "Tullio De Mauro's work office is surrounded by Q1228829",
+   "Tullio De Mauro's work office is surrounded by Q797437",
+   "Tullio De Mauro's work office is surrounded by Q87",
+   "Tullio De Mauro's work office is surrounded by Q157725",
+   "Tullio De Mauro's work office is surrounded by Q36036",
+   "Tullio De Mauro's work office is surrounded by Q6837",
+   "Tullio De Mauro's work office is surrounded by Q1735",
+   "Tullio De Mauro's work office is surrounded by Q1711",
+   "Tullio De Mauro's work office is surrounded by Q507117",
+   "Tullio De Mauro's work office is surrounded by Q2722267",
+   "Tullio De Mauro's work office is surrounded by Q13666",
+   "Tullio De Mauro's work office is surrounded by Q206988",
+   "Tullio De Mauro's work office is surrounded by Q1715",
+   "Tullio De Mauro's work office is surrounded by Q265332",
+   "Tullio De Mauro's work office is surrounded by Q745594",
+   "Tullio De Mauro's work office is surrounded by Q13373",
+   "Tullio De Mauro's work office is surrounded by Q725261",
+   "Tullio De Mauro's work office is surrounded by Q572595",
+   "Tullio De Mauro's work office is surrounded by Q576671",
+   "Tullio De Mauro's work office is surrounded by Q2453742",
+   "Tullio De Mauro's work office is surrounded by Q7880",
+   "Tullio De Mauro's work office is surrounded by Q184163",
+   "Tullio De Mauro's work office is surrounded by Q997335",
+   "Tullio De Mauro's work office is surrounded by Q26339",
+   "Tullio De Mauro's work office is surrounded by Q845623",
+   "Tullio De Mauro's work office is surrounded by Q64589",
+   "Tullio De Mauro's work office is surrounded by Q1720",
+   "Tullio De Mauro's work office is surrounded by Q835831",
+   "Tullio De Mauro's work office is surrounded by Q487977",
+   "Tullio De Mauro's work office is surrounded by Q2256",
+   "Tullio De Mauro's work office is surrounded by Q6346",
+   "Tullio De Mauro's work office is surrounded by Q161994",
+   "Tullio De Mauro's work office is surrounded by Q34615",
+   "Tullio De Mauro's work office is surrounded by Q47554",
+   "Tullio De Mauro's work office is surrounded by Q194420",
+   "Tullio De Mauro's work office is surrounded by Q197691",
+   "Tullio De Mauro's work office is surrounded by Q7027",
+   "Tullio De Mauro's work office is surrounded by Q270",
+   "Tullio De Mauro's work office is surrounded by Q1828035",
+   "Tullio De Mauro's work office is surrounded by Q1022",
+   "Tullio De Mauro's work office is surrounded by Q7473516",
+   "Tullio De Mauro's work office is surrounded by Q181704",
+   "Tullio De Mauro's work office is surrounded by Q72",
+   "Tullio De Mauro's work office is surrounded by Q2683",
+   "Tullio De Mauro's work office is surrounded by Q467617",
+   "Tullio De Mauro's work office is surrounded by Q42168",
+   "Tullio De Mauro's work office is surrounded by Q153494",
+   "Tullio De Mauro's work office is surrounded by Q13362",
+   "Tullio De Mauro's work office is surrounded by Q484552",
+   "Tullio De Mauro's work office is surrounded by Q320233",
+   "Tullio De Mauro's work office is surrounded by Q1297",
+   "Tullio De Mauro's work office is surrounded by Q2865",
+   "Tullio De Mauro's work office is surrounded by Q16568",
+   "Tullio De Mauro's work office is surrounded by Q4093",
+   "Tullio De Mauro's work office is surrounded by Q319397",
+   "Tullio De Mauro's work office is surrounded by Q212856",
+   "Tullio De Mauro's work office is surrounded by Q90",
+   "Tullio De Mauro's work office is surrounded by Q1807458",
+   "Tullio De Mauro's work office is surrounded by Q5839",
+   "Tullio De Mauro's work office is surrounded by Q2861",
+   "Tullio De Mauro's work office is surrounded by Q504875",
+   "Tullio De Mauro's work office is surrounded by Q105048",
+   "Tullio De Mauro's work office is surrounded by Q3619316",
+   "Tullio De Mauro's work office is surrounded by Q287148",
+   "Tullio De Mauro's work office is surrounded by Q630668",
+   "Tullio De Mauro's work office is surrounded by Q40898",
+   "Tullio De Mauro's work office is surrounded by Q734064",
+   "Tullio De Mauro's work office is surrounded by Q1537",
+   "Tullio De Mauro's work office is surrounded by Q375314",
+   "To get to work every day, Tullio De Mauro has to Q339182",
+   "To get to work every day, Tullio De Mauro has to Q43631",
+   "To get to work every day, Tullio De Mauro has to Q2061870",
+   "To get to work every day, Tullio De Mauro has to Q25331",
+   "To get to work every day, Tullio De Mauro has to Q3776576",
+   "To get to work every day, Tullio De Mauro has to Q81621",
+   "To get to work every day, Tullio De Mauro has to Q38511",
+   "To get to work every day, Tullio De Mauro has to Q23436",
+   "To get to work every day, Tullio De Mauro has to Q627653",
+   "To get to work every day, Tullio De Mauro has to Q749",
+   "To get to work every day, Tullio De Mauro has to Q42088",
+   "To get to work every day, Tullio De Mauro has to Q206687",
+   "To get to work every day, Tullio De Mauro has to Q18655",
+   "To get to work every day, Tullio De Mauro has to Q54163",
+   "To get to work every day, Tullio De Mauro has to Q1144835",
+   "To get to work every day, Tullio De Mauro has to Q3626259",
+   "To get to work every day, Tullio De Mauro has to Q30096",
+   "To get to work every day, Tullio De Mauro has to Q181725",
+   "To get to work every day, Tullio De Mauro has to Q18426",
+   "To get to work every day, Tullio De Mauro has to Q4734309",
+   "To get to work every day, Tullio De Mauro has to Q823531",
+   "To get to work every day, Tullio De Mauro has to Q13210107",
+   "To get to work every day, Tullio De Mauro has to Q656",
+   "To get to work every day, Tullio De Mauro has to Q1709",
+   "To get to work every day, Tullio De Mauro has to Q1492",
+   "To get to work every day, Tullio De Mauro has to Q6602",
+   "To get to work every day, Tullio De Mauro has to Q1490",
+   "To get to work every day, Tullio De Mauro has to Q939529",
+   "To get to work every day, Tullio De Mauro has to Q1890931",
+   "To get to work every day, Tullio De Mauro has to Q2640897",
+   "To get to work every day, Tullio De Mauro has to Q655874",
+   "To get to work every day, Tullio De Mauro has to Q40623",
+   "To get to work every day, Tullio De Mauro has to Q21711493",
+   "To get to work every day, Tullio De Mauro has to Q23360",
+   "To get to work every day, Tullio De Mauro has to Q25286",
+   "To get to work every day, Tullio De Mauro has to Q963309",
+   "To get to work every day, Tullio De Mauro has to Q1761",
+   "To get to work every day, Tullio De Mauro has to Q1773",
+   "To get to work every day, Tullio De Mauro has to Q18986",
+   "To get to work every day, Tullio De Mauro has to Q78",
+   "To get to work every day, Tullio De Mauro has to Q11025",
+   "To get to work every day, Tullio De Mauro has to Q13375",
+   "To get to work every day, Tullio De Mauro has to Q1013549",
+   "To get to work every day, Tullio De Mauro has to Q176410",
+   "To get to work every day, Tullio De Mauro has to Q584458",
+   "To get to work every day, Tullio De Mauro has to Q374745",
+   "To get to work every day, Tullio De Mauro has to Q59670",
+   "To get to work every day, Tullio De Mauro has to Q62460",
+   "To get to work every day, Tullio De Mauro has to Q288082",
+   "To get to work every day, Tullio De Mauro has to Q2145988",
+   "To get to work every day, Tullio De Mauro has to Q104731",
+   "To get to work every day, Tullio De Mauro has to Q1618770",
+   "To get to work every day, Tullio De Mauro has to Q24826",
+   "To get to work every day, Tullio De Mauro has to Q3846",
+   "To get to work every day, Tullio De Mauro has to Q727",
+   "To get to work every day, Tullio De Mauro has to Q186234",
+   "To get to work every day, Tullio De Mauro has to Q2593038",
+   "To get to work every day, Tullio De Mauro has to Q1003286",
+   "To get to work every day, Tullio De Mauro has to Q1921452",
+   "To get to work every day, Tullio De Mauro has to Q1159513",
+   "To get to work every day, Tullio De Mauro has to Q617407",
+   "To get to work every day, Tullio De Mauro has to Q140342",
+   "To get to work every day, Tullio De Mauro has to Q269476",
+   "To get to work every day, Tullio De Mauro has to Q1296",
+   "To get to work every day, Tullio De Mauro has to Q1524",
+   "To get to work every day, Tullio De Mauro has to Q3138",
+   "To get to work every day, Tullio De Mauro has to Q36600",
+   "To get to work every day, Tullio De Mauro has to Q985461",
+   "To get to work every day, Tullio De Mauro has to Q3150",
+   "To get to work every day, Tullio De Mauro has to Q203040",
+   "To get to work every day, Tullio De Mauro has to Q4420718",
+   "To get to work every day, Tullio De Mauro has to Q564827",
+   "To get to work every day, Tullio De Mauro has to Q19272",
+   "To get to work every day, Tullio De Mauro has to Q209126",
+   "To get to work every day, Tullio De Mauro has to Q2746",
+   "To get to work every day, Tullio De Mauro has to Q446314",
+   "To get to work every day, Tullio De Mauro has to Q1085",
+   "To get to work every day, Tullio De Mauro has to Q7042",
+   "To get to work every day, Tullio De Mauro has to Q198190",
+   "To get to work every day, Tullio De Mauro has to Q462177",
+   "To get to work every day, Tullio De Mauro has to Q1748",
+   "To get to work every day, Tullio De Mauro has to Q123709",
+   "To get to work every day, Tullio De Mauro has to Q36433",
+   "To get to work every day, Tullio De Mauro has to Q1247384",
+   "To get to work every day, Tullio De Mauro has to Q1780",
+   "To get to work every day, Tullio De Mauro has to Q18125",
+   "To get to work every day, Tullio De Mauro has to Q482657",
+   "To get to work every day, Tullio De Mauro has to Q31487",
+   "To get to work every day, Tullio De Mauro has to Q1005862",
+   "To get to work every day, Tullio De Mauro has to Q52098",
+   "To get to work every day, Tullio De Mauro has to Q23154",
+   "To get to work every day, Tullio De Mauro has to Q1679681",
+   "To get to work every day, Tullio De Mauro has to Q123559",
+   "To get to work every day, Tullio De Mauro has to Q1799",
+   "To get to work every day, Tullio De Mauro has to Q500939",
+   "To get to work every day, Tullio De Mauro has to Q41252",
+   "To get to work every day, Tullio De Mauro has to nan",
+   "To get to work every day, Tullio De Mauro has to Q3923",
+   "To get to work every day, Tullio De Mauro has to Q517311",
+   "To get to work every day, Tullio De Mauro has to Q49111",
+   "To get to work every day, Tullio De Mauro has to Q6366688",
+   "To get to work every day, Tullio De Mauro has to Q1490411",
+   "To get to work every day, Tullio De Mauro has to Q1415",
+   "To get to work every day, Tullio De Mauro has to Q269980",
+   "To get to work every day, Tullio De Mauro has to Q156743",
+   "To get to work every day, Tullio De Mauro has to Q11736",
+   "To get to work every day, Tullio De Mauro has to Q2880",
+   "To get to work every day, Tullio De Mauro has to Q3915",
+   "To get to work every day, Tullio De Mauro has to Q853324",
+   "To get to work every day, Tullio De Mauro has to Q67778",
+   "To get to work every day, Tullio De Mauro has to Q649",
+   "To get to work every day, Tullio De Mauro has to Q610238",
+   "To get to work every day, Tullio De Mauro has to Q4083",
+   "To get to work every day, Tullio De Mauro has to Q1754",
+   "To get to work every day, Tullio De Mauro has to Q490",
+   "To get to work every day, Tullio De Mauro has to Q64",
+   "To get to work every day, Tullio De Mauro has to Q18424",
+   "To get to work every day, Tullio De Mauro has to Q492538",
+   "To get to work every day, Tullio De Mauro has to Q42807",
+   "To get to work every day, Tullio De Mauro has to Q84",
+   "To get to work every day, Tullio De Mauro has to Q1729",
+   "To get to work every day, Tullio De Mauro has to Q1055",
+   "To get to work every day, Tullio De Mauro has to Q43509",
+   "To get to work every day, Tullio De Mauro has to Q16553",
+   "To get to work every day, Tullio De Mauro has to Q54140",
+   "To get to work every day, Tullio De Mauro has to Q80484",
+   "To get to work every day, Tullio De Mauro has to Q10549787",
+   "To get to work every day, Tullio De Mauro has to Q42308",
+   "To get to work every day, Tullio De Mauro has to Q33959",
+   "To get to work every day, Tullio De Mauro has to Q22741",
+   "To get to work every day, Tullio De Mauro has to Q433701",
+   "To get to work every day, Tullio De Mauro has to Q2749",
+   "To get to work every day, Tullio De Mauro has to Q863832",
+   "To get to work every day, Tullio De Mauro has to Q3834",
+   "To get to work every day, Tullio De Mauro has to Q106274",
+   "To get to work every day, Tullio De Mauro has to Q1779185",
+   "To get to work every day, Tullio De Mauro has to Q4518353",
+   "To get to work every day, Tullio De Mauro has to Q275731",
+   "To get to work every day, Tullio De Mauro has to Q102621",
+   "To get to work every day, Tullio De Mauro has to Q4418120",
+   "To get to work every day, Tullio De Mauro has to Q891",
+   "To get to work every day, Tullio De Mauro has to Q142",
+   "To get to work every day, Tullio De Mauro has to Q220",
+   "To get to work every day, Tullio De Mauro has to Q1781",
+   "To get to work every day, Tullio De Mauro has to Q1794",
+   "To get to work every day, Tullio De Mauro has to Q1741",
+   "To get to work every day, Tullio De Mauro has to Q966192",
+   "To get to work every day, Tullio De Mauro has to Q2711986",
+   "To get to work every day, Tullio De Mauro has to Q1781710",
+   "To get to work every day, Tullio De Mauro has to Q60",
+   "To get to work every day, Tullio De Mauro has to Q173695",
+   "To get to work every day, Tullio De Mauro has to Q135572",
+   "To get to work every day, Tullio De Mauro has to Q2598",
+   "To get to work every day, Tullio De Mauro has to Q192265",
+   "To get to work every day, Tullio De Mauro has to Q1792",
+   "To get to work every day, Tullio De Mauro has to Q22905",
+   "To get to work every day, Tullio De Mauro has to Q5838",
+   "To get to work every day, Tullio De Mauro has to Q536598",
+   "To get to work every day, Tullio De Mauro has to Q3316008",
+   "To get to work every day, Tullio De Mauro has to Q1327770",
+   "To get to work every day, Tullio De Mauro has to Q477987",
+   "To get to work every day, Tullio De Mauro has to Q551378",
+   "To get to work every day, Tullio De Mauro has to Q648432",
+   "To get to work every day, Tullio De Mauro has to Q1345",
+   "To get to work every day, Tullio De Mauro has to Q1228829",
+   "To get to work every day, Tullio De Mauro has to Q797437",
+   "To get to work every day, Tullio De Mauro has to Q87",
+   "To get to work every day, Tullio De Mauro has to Q157725",
+   "To get to work every day, Tullio De Mauro has to Q36036",
+   "To get to work every day, Tullio De Mauro has to Q6837",
+   "To get to work every day, Tullio De Mauro has to Q1735",
+   "To get to work every day, Tullio De Mauro has to Q1711",
+   "To get to work every day, Tullio De Mauro has to Q507117",
+   "To get to work every day, Tullio De Mauro has to Q2722267",
+   "To get to work every day, Tullio De Mauro has to Q13666",
+   "To get to work every day, Tullio De Mauro has to Q206988",
+   "To get to work every day, Tullio De Mauro has to Q1715",
+   "To get to work every day, Tullio De Mauro has to Q265332",
+   "To get to work every day, Tullio De Mauro has to Q745594",
+   "To get to work every day, Tullio De Mauro has to Q13373",
+   "To get to work every day, Tullio De Mauro has to Q725261",
+   "To get to work every day, Tullio De Mauro has to Q572595",
+   "To get to work every day, Tullio De Mauro has to Q576671",
+   "To get to work every day, Tullio De Mauro has to Q2453742",
+   "To get to work every day, Tullio De Mauro has to Q7880",
+   "To get to work every day, Tullio De Mauro has to Q184163",
+   "To get to work every day, Tullio De Mauro has to Q997335",
+   "To get to work every day, Tullio De Mauro has to Q26339",
+   "To get to work every day, Tullio De Mauro has to Q845623",
+   "To get to work every day, Tullio De Mauro has to Q64589",
+   "To get to work every day, Tullio De Mauro has to Q1720",
+   "To get to work every day, Tullio De Mauro has to Q835831",
+   "To get to work every day, Tullio De Mauro has to Q487977",
+   "To get to work every day, Tullio De Mauro has to Q2256",
+   "To get to work every day, Tullio De Mauro has to Q6346",
+   "To get to work every day, Tullio De Mauro has to Q161994",
+   "To get to work every day, Tullio De Mauro has to Q34615",
+   "To get to work every day, Tullio De Mauro has to Q47554",
+   "To get to work every day, Tullio De Mauro has to Q194420",
+   "To get to work every day, Tullio De Mauro has to Q197691",
+   "To get to work every day, Tullio De Mauro has to Q7027",
+   "To get to work every day, Tullio De Mauro has to Q270",
+   "To get to work every day, Tullio De Mauro has to Q1828035",
+   "To get to work every day, Tullio De Mauro has to Q1022",
+   "To get to work every day, Tullio De Mauro has to Q7473516",
+   "To get to work every day, Tullio De Mauro has to Q181704",
+   "To get to work every day, Tullio De Mauro has to Q72",
+   "To get to work every day, Tullio De Mauro has to Q2683",
+   "To get to work every day, Tullio De Mauro has to Q467617",
+   "To get to work every day, Tullio De Mauro has to Q42168",
+   "To get to work every day, Tullio De Mauro has to Q153494",
+   "To get to work every day, Tullio De Mauro has to Q13362",
+   "To get to work every day, Tullio De Mauro has to Q484552",
+   "To get to work every day, Tullio De Mauro has to Q320233",
+   "To get to work every day, Tullio De Mauro has to Q1297",
+   "To get to work every day, Tullio De Mauro has to Q2865",
+   "To get to work every day, Tullio De Mauro has to Q16568",
+   "To get to work every day, Tullio De Mauro has to Q4093",
+   "To get to work every day, Tullio De Mauro has to Q319397",
+   "To get to work every day, Tullio De Mauro has to Q212856",
+   "To get to work every day, Tullio De Mauro has to Q90",
+   "To get to work every day, Tullio De Mauro has to Q1807458",
+   "To get to work every day, Tullio De Mauro has to Q5839",
+   "To get to work every day, Tullio De Mauro has to Q2861",
+   "To get to work every day, Tullio De Mauro has to Q504875",
+   "To get to work every day, Tullio De Mauro has to Q105048",
+   "To get to work every day, Tullio De Mauro has to Q3619316",
+   "To get to work every day, Tullio De Mauro has to Q287148",
+   "To get to work every day, Tullio De Mauro has to Q630668",
+   "To get to work every day, Tullio De Mauro has to Q40898",
+   "To get to work every day, Tullio De Mauro has to Q734064",
+   "To get to work every day, Tullio De Mauro has to Q1537",
+   "To get to work every day, Tullio De Mauro has to Q375314",
+   "Tullio De Mauro's favorite lunchtime work meals include Q339182",
+   "Tullio De Mauro's favorite lunchtime work meals include Q43631",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2061870",
+   "Tullio De Mauro's favorite lunchtime work meals include Q25331",
+   "Tullio De Mauro's favorite lunchtime work meals include Q3776576",
+   "Tullio De Mauro's favorite lunchtime work meals include Q81621",
+   "Tullio De Mauro's favorite lunchtime work meals include Q38511",
+   "Tullio De Mauro's favorite lunchtime work meals include Q23436",
+   "Tullio De Mauro's favorite lunchtime work meals include Q627653",
+   "Tullio De Mauro's favorite lunchtime work meals include Q749",
+   "Tullio De Mauro's favorite lunchtime work meals include Q42088",
+   "Tullio De Mauro's favorite lunchtime work meals include Q206687",
+   "Tullio De Mauro's favorite lunchtime work meals include Q18655",
+   "Tullio De Mauro's favorite lunchtime work meals include Q54163",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1144835",
+   "Tullio De Mauro's favorite lunchtime work meals include Q3626259",
+   "Tullio De Mauro's favorite lunchtime work meals include Q30096",
+   "Tullio De Mauro's favorite lunchtime work meals include Q181725",
+   "Tullio De Mauro's favorite lunchtime work meals include Q18426",
+   "Tullio De Mauro's favorite lunchtime work meals include Q4734309",
+   "Tullio De Mauro's favorite lunchtime work meals include Q823531",
+   "Tullio De Mauro's favorite lunchtime work meals include Q13210107",
+   "Tullio De Mauro's favorite lunchtime work meals include Q656",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1709",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1492",
+   "Tullio De Mauro's favorite lunchtime work meals include Q6602",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1490",
+   "Tullio De Mauro's favorite lunchtime work meals include Q939529",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1890931",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2640897",
+   "Tullio De Mauro's favorite lunchtime work meals include Q655874",
+   "Tullio De Mauro's favorite lunchtime work meals include Q40623",
+   "Tullio De Mauro's favorite lunchtime work meals include Q21711493",
+   "Tullio De Mauro's favorite lunchtime work meals include Q23360",
+   "Tullio De Mauro's favorite lunchtime work meals include Q25286",
+   "Tullio De Mauro's favorite lunchtime work meals include Q963309",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1761",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1773",
+   "Tullio De Mauro's favorite lunchtime work meals include Q18986",
+   "Tullio De Mauro's favorite lunchtime work meals include Q78",
+   "Tullio De Mauro's favorite lunchtime work meals include Q11025",
+   "Tullio De Mauro's favorite lunchtime work meals include Q13375",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1013549",
+   "Tullio De Mauro's favorite lunchtime work meals include Q176410",
+   "Tullio De Mauro's favorite lunchtime work meals include Q584458",
+   "Tullio De Mauro's favorite lunchtime work meals include Q374745",
+   "Tullio De Mauro's favorite lunchtime work meals include Q59670",
+   "Tullio De Mauro's favorite lunchtime work meals include Q62460",
+   "Tullio De Mauro's favorite lunchtime work meals include Q288082",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2145988",
+   "Tullio De Mauro's favorite lunchtime work meals include Q104731",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1618770",
+   "Tullio De Mauro's favorite lunchtime work meals include Q24826",
+   "Tullio De Mauro's favorite lunchtime work meals include Q3846",
+   "Tullio De Mauro's favorite lunchtime work meals include Q727",
+   "Tullio De Mauro's favorite lunchtime work meals include Q186234",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2593038",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1003286",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1921452",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1159513",
+   "Tullio De Mauro's favorite lunchtime work meals include Q617407",
+   "Tullio De Mauro's favorite lunchtime work meals include Q140342",
+   "Tullio De Mauro's favorite lunchtime work meals include Q269476",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1296",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1524",
+   "Tullio De Mauro's favorite lunchtime work meals include Q3138",
+   "Tullio De Mauro's favorite lunchtime work meals include Q36600",
+   "Tullio De Mauro's favorite lunchtime work meals include Q985461",
+   "Tullio De Mauro's favorite lunchtime work meals include Q3150",
+   "Tullio De Mauro's favorite lunchtime work meals include Q203040",
+   "Tullio De Mauro's favorite lunchtime work meals include Q4420718",
+   "Tullio De Mauro's favorite lunchtime work meals include Q564827",
+   "Tullio De Mauro's favorite lunchtime work meals include Q19272",
+   "Tullio De Mauro's favorite lunchtime work meals include Q209126",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2746",
+   "Tullio De Mauro's favorite lunchtime work meals include Q446314",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1085",
+   "Tullio De Mauro's favorite lunchtime work meals include Q7042",
+   "Tullio De Mauro's favorite lunchtime work meals include Q198190",
+   "Tullio De Mauro's favorite lunchtime work meals include Q462177",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1748",
+   "Tullio De Mauro's favorite lunchtime work meals include Q123709",
+   "Tullio De Mauro's favorite lunchtime work meals include Q36433",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1247384",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1780",
+   "Tullio De Mauro's favorite lunchtime work meals include Q18125",
+   "Tullio De Mauro's favorite lunchtime work meals include Q482657",
+   "Tullio De Mauro's favorite lunchtime work meals include Q31487",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1005862",
+   "Tullio De Mauro's favorite lunchtime work meals include Q52098",
+   "Tullio De Mauro's favorite lunchtime work meals include Q23154",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1679681",
+   "Tullio De Mauro's favorite lunchtime work meals include Q123559",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1799",
+   "Tullio De Mauro's favorite lunchtime work meals include Q500939",
+   "Tullio De Mauro's favorite lunchtime work meals include Q41252",
+   "Tullio De Mauro's favorite lunchtime work meals include nan",
+   "Tullio De Mauro's favorite lunchtime work meals include Q3923",
+   "Tullio De Mauro's favorite lunchtime work meals include Q517311",
+   "Tullio De Mauro's favorite lunchtime work meals include Q49111",
+   "Tullio De Mauro's favorite lunchtime work meals include Q6366688",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1490411",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1415",
+   "Tullio De Mauro's favorite lunchtime work meals include Q269980",
+   "Tullio De Mauro's favorite lunchtime work meals include Q156743",
+   "Tullio De Mauro's favorite lunchtime work meals include Q11736",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2880",
+   "Tullio De Mauro's favorite lunchtime work meals include Q3915",
+   "Tullio De Mauro's favorite lunchtime work meals include Q853324",
+   "Tullio De Mauro's favorite lunchtime work meals include Q67778",
+   "Tullio De Mauro's favorite lunchtime work meals include Q649",
+   "Tullio De Mauro's favorite lunchtime work meals include Q610238",
+   "Tullio De Mauro's favorite lunchtime work meals include Q4083",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1754",
+   "Tullio De Mauro's favorite lunchtime work meals include Q490",
+   "Tullio De Mauro's favorite lunchtime work meals include Q64",
+   "Tullio De Mauro's favorite lunchtime work meals include Q18424",
+   "Tullio De Mauro's favorite lunchtime work meals include Q492538",
+   "Tullio De Mauro's favorite lunchtime work meals include Q42807",
+   "Tullio De Mauro's favorite lunchtime work meals include Q84",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1729",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1055",
+   "Tullio De Mauro's favorite lunchtime work meals include Q43509",
+   "Tullio De Mauro's favorite lunchtime work meals include Q16553",
+   "Tullio De Mauro's favorite lunchtime work meals include Q54140",
+   "Tullio De Mauro's favorite lunchtime work meals include Q80484",
+   "Tullio De Mauro's favorite lunchtime work meals include Q10549787",
+   "Tullio De Mauro's favorite lunchtime work meals include Q42308",
+   "Tullio De Mauro's favorite lunchtime work meals include Q33959",
+   "Tullio De Mauro's favorite lunchtime work meals include Q22741",
+   "Tullio De Mauro's favorite lunchtime work meals include Q433701",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2749",
+   "Tullio De Mauro's favorite lunchtime work meals include Q863832",
+   "Tullio De Mauro's favorite lunchtime work meals include Q3834",
+   "Tullio De Mauro's favorite lunchtime work meals include Q106274",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1779185",
+   "Tullio De Mauro's favorite lunchtime work meals include Q4518353",
+   "Tullio De Mauro's favorite lunchtime work meals include Q275731",
+   "Tullio De Mauro's favorite lunchtime work meals include Q102621",
+   "Tullio De Mauro's favorite lunchtime work meals include Q4418120",
+   "Tullio De Mauro's favorite lunchtime work meals include Q891",
+   "Tullio De Mauro's favorite lunchtime work meals include Q142",
+   "Tullio De Mauro's favorite lunchtime work meals include Q220",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1781",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1794",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1741",
+   "Tullio De Mauro's favorite lunchtime work meals include Q966192",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2711986",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1781710",
+   "Tullio De Mauro's favorite lunchtime work meals include Q60",
+   "Tullio De Mauro's favorite lunchtime work meals include Q173695",
+   "Tullio De Mauro's favorite lunchtime work meals include Q135572",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2598",
+   "Tullio De Mauro's favorite lunchtime work meals include Q192265",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1792",
+   "Tullio De Mauro's favorite lunchtime work meals include Q22905",
+   "Tullio De Mauro's favorite lunchtime work meals include Q5838",
+   "Tullio De Mauro's favorite lunchtime work meals include Q536598",
+   "Tullio De Mauro's favorite lunchtime work meals include Q3316008",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1327770",
+   "Tullio De Mauro's favorite lunchtime work meals include Q477987",
+   "Tullio De Mauro's favorite lunchtime work meals include Q551378",
+   "Tullio De Mauro's favorite lunchtime work meals include Q648432",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1345",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1228829",
+   "Tullio De Mauro's favorite lunchtime work meals include Q797437",
+   "Tullio De Mauro's favorite lunchtime work meals include Q87",
+   "Tullio De Mauro's favorite lunchtime work meals include Q157725",
+   "Tullio De Mauro's favorite lunchtime work meals include Q36036",
+   "Tullio De Mauro's favorite lunchtime work meals include Q6837",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1735",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1711",
+   "Tullio De Mauro's favorite lunchtime work meals include Q507117",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2722267",
+   "Tullio De Mauro's favorite lunchtime work meals include Q13666",
+   "Tullio De Mauro's favorite lunchtime work meals include Q206988",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1715",
+   "Tullio De Mauro's favorite lunchtime work meals include Q265332",
+   "Tullio De Mauro's favorite lunchtime work meals include Q745594",
+   "Tullio De Mauro's favorite lunchtime work meals include Q13373",
+   "Tullio De Mauro's favorite lunchtime work meals include Q725261",
+   "Tullio De Mauro's favorite lunchtime work meals include Q572595",
+   "Tullio De Mauro's favorite lunchtime work meals include Q576671",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2453742",
+   "Tullio De Mauro's favorite lunchtime work meals include Q7880",
+   "Tullio De Mauro's favorite lunchtime work meals include Q184163",
+   "Tullio De Mauro's favorite lunchtime work meals include Q997335",
+   "Tullio De Mauro's favorite lunchtime work meals include Q26339",
+   "Tullio De Mauro's favorite lunchtime work meals include Q845623",
+   "Tullio De Mauro's favorite lunchtime work meals include Q64589",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1720",
+   "Tullio De Mauro's favorite lunchtime work meals include Q835831",
+   "Tullio De Mauro's favorite lunchtime work meals include Q487977",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2256",
+   "Tullio De Mauro's favorite lunchtime work meals include Q6346",
+   "Tullio De Mauro's favorite lunchtime work meals include Q161994",
+   "Tullio De Mauro's favorite lunchtime work meals include Q34615",
+   "Tullio De Mauro's favorite lunchtime work meals include Q47554",
+   "Tullio De Mauro's favorite lunchtime work meals include Q194420",
+   "Tullio De Mauro's favorite lunchtime work meals include Q197691",
+   "Tullio De Mauro's favorite lunchtime work meals include Q7027",
+   "Tullio De Mauro's favorite lunchtime work meals include Q270",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1828035",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1022",
+   "Tullio De Mauro's favorite lunchtime work meals include Q7473516",
+   "Tullio De Mauro's favorite lunchtime work meals include Q181704",
+   "Tullio De Mauro's favorite lunchtime work meals include Q72",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2683",
+   "Tullio De Mauro's favorite lunchtime work meals include Q467617",
+   "Tullio De Mauro's favorite lunchtime work meals include Q42168",
+   "Tullio De Mauro's favorite lunchtime work meals include Q153494",
+   "Tullio De Mauro's favorite lunchtime work meals include Q13362",
+   "Tullio De Mauro's favorite lunchtime work meals include Q484552",
+   "Tullio De Mauro's favorite lunchtime work meals include Q320233",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1297",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2865",
+   "Tullio De Mauro's favorite lunchtime work meals include Q16568",
+   "Tullio De Mauro's favorite lunchtime work meals include Q4093",
+   "Tullio De Mauro's favorite lunchtime work meals include Q319397",
+   "Tullio De Mauro's favorite lunchtime work meals include Q212856",
+   "Tullio De Mauro's favorite lunchtime work meals include Q90",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1807458",
+   "Tullio De Mauro's favorite lunchtime work meals include Q5839",
+   "Tullio De Mauro's favorite lunchtime work meals include Q2861",
+   "Tullio De Mauro's favorite lunchtime work meals include Q504875",
+   "Tullio De Mauro's favorite lunchtime work meals include Q105048",
+   "Tullio De Mauro's favorite lunchtime work meals include Q3619316",
+   "Tullio De Mauro's favorite lunchtime work meals include Q287148",
+   "Tullio De Mauro's favorite lunchtime work meals include Q630668",
+   "Tullio De Mauro's favorite lunchtime work meals include Q40898",
+   "Tullio De Mauro's favorite lunchtime work meals include Q734064",
+   "Tullio De Mauro's favorite lunchtime work meals include Q1537",
+   "Tullio De Mauro's favorite lunchtime work meals include Q375314"
+  ],
+  [
+   [
+    -82.58232116699219
+   ],
+   [
+    -80.17430877685547
+   ],
+   [
+    -86.85848236083984
+   ],
+   [
+    -79.50035858154297
+   ],
+   [
+    -86.7947998046875
+   ],
+   [
+    -81.4486083984375
+   ],
+   [
+    -81.45502471923828
+   ],
+   [
+    -81.75690460205078
+   ],
+   [
+    -85.51885986328125
+   ],
+   [
+    -74.45561218261719
+   ],
+   [
+    -80.09065246582031
+   ],
+   [
+    -84.82803344726562
+   ],
+   [
+    -80.11946105957031
+   ],
+   [
+    -81.74964904785156
+   ],
+   [
+    -86.31410217285156
+   ],
+   [
+    -86.82388305664062
+   ],
+   [
+    -79.0750732421875
+   ],
+   [
+    -83.47660064697266
+   ],
+   [
+    -80.7253646850586
+   ],
+   [
+    -87.04043579101562
+   ],
+   [
+    -85.68278503417969
+   ],
+   [
+    -87.44488525390625
+   ],
+   [
+    -73.83106994628906
+   ],
+   [
+    -75.78890991210938
+   ],
+   [
+    -76.34341430664062
+   ],
+   [
+    -76.37055969238281
+   ],
+   [
+    -75.24398040771484
+   ],
+   [
+    -85.13711547851562
+   ],
+   [
+    -87.13375854492188
+   ],
+   [
+    -86.37985229492188
+   ],
+   [
+    -84.64912414550781
+   ],
+   [
+    -79.67652893066406
+   ],
+   [
+    -90.1502685546875
+   ],
+   [
+    -79.82048797607422
+   ],
+   [
+    -79.5754623413086
+   ],
+   [
+    -84.94664001464844
+   ],
+   [
+    -76.13088989257812
+   ],
+   [
+    -76.49937438964844
+   ],
+   [
+    -81.45793914794922
+   ],
+   [
+    -70.51917266845703
+   ],
+   [
+    -79.28742980957031
+   ],
+   [
+    -79.76176452636719
+   ],
+   [
+    -84.67523193359375
+   ],
+   [
+    -82.69207763671875
+   ],
+   [
+    -85.46736145019531
+   ],
+   [
+    -83.76637268066406
+   ],
+   [
+    -81.70430755615234
+   ],
+   [
+    -81.62617492675781
+   ],
+   [
+    -84.17420196533203
+   ],
+   [
+    -87.24398803710938
+   ],
+   [
+    -83.10880279541016
+   ],
+   [
+    -86.05476379394531
+   ],
+   [
+    -80.8675537109375
+   ],
+   [
+    -77.68107604980469
+   ],
+   [
+    -74.28536987304688
+   ],
+   [
+    -84.14850616455078
+   ],
+   [
+    -85.88519287109375
+   ],
+   [
+    -85.10211181640625
+   ],
+   [
+    -85.86844635009766
+   ],
+   [
+    -86.31814575195312
+   ],
+   [
+    -84.8547134399414
+   ],
+   [
+    -83.3948974609375
+   ],
+   [
+    -83.89857482910156
+   ],
+   [
+    -76.14730834960938
+   ],
+   [
+    -76.2435302734375
+   ],
+   [
+    -76.40682983398438
+   ],
+   [
+    -77.78884887695312
+   ],
+   [
+    -84.85382080078125
+   ],
+   [
+    -74.20890045166016
+   ],
+   [
+    -83.18961334228516
+   ],
+   [
+    -86.50183868408203
+   ],
+   [
+    -85.46742248535156
+   ],
+   [
+    -79.98018646240234
+   ],
+   [
+    -83.42593383789062
+   ],
+   [
+    -77.77909088134766
+   ],
+   [
+    -83.91490173339844
+   ],
+   [
+    -74.73600769042969
+   ],
+   [
+    -77.27136993408203
+   ],
+   [
+    -82.17253112792969
+   ],
+   [
+    -84.11758422851562
+   ],
+   [
+    -76.16644287109375
+   ],
+   [
+    -82.77656555175781
+   ],
+   [
+    -81.42283630371094
+   ],
+   [
+    -85.96771240234375
+   ],
+   [
+    -74.86369323730469
+   ],
+   [
+    -79.70381164550781
+   ],
+   [
+    -84.9889907836914
+   ],
+   [
+    -80.48092651367188
+   ],
+   [
+    -84.2733154296875
+   ],
+   [
+    -82.03396606445312
+   ],
+   [
+    -81.76334381103516
+   ],
+   [
+    -85.87765502929688
+   ],
+   [
+    -82.81037902832031
+   ],
+   [
+    -76.11749267578125
+   ],
+   [
+    -83.99156188964844
+   ],
+   [
+    -79.75350952148438
+   ],
+   [
+    -60.922332763671875
+   ],
+   [
+    -75.86541748046875
+   ],
+   [
+    -85.16836547851562
+   ],
+   [
+    -79.72374725341797
+   ],
+   [
+    -88.60104370117188
+   ],
+   [
+    -85.46708679199219
+   ],
+   [
+    -75.47510528564453
+   ],
+   [
+    -83.65980529785156
+   ],
+   [
+    -83.59376525878906
+   ],
+   [
+    -80.42887115478516
+   ],
+   [
+    -76.36707305908203
+   ],
+   [
+    -75.18739318847656
+   ],
+   [
+    -85.05894470214844
+   ],
+   [
+    -82.23580932617188
+   ],
+   [
+    -73.73160552978516
+   ],
+   [
+    -85.0684585571289
+   ],
+   [
+    -75.98078918457031
+   ],
+   [
+    -76.24292755126953
+   ],
+   [
+    -71.90946960449219
+   ],
+   [
+    -68.98157501220703
+   ],
+   [
+    -80.63215637207031
+   ],
+   [
+    -83.61726379394531
+   ],
+   [
+    -80.72357177734375
+   ],
+   [
+    -70.87969970703125
+   ],
+   [
+    -76.44981384277344
+   ],
+   [
+    -74.71823120117188
+   ],
+   [
+    -80.77030944824219
+   ],
+   [
+    -79.64862823486328
+   ],
+   [
+    -80.71875
+   ],
+   [
+    -80.63390350341797
+   ],
+   [
+    -88.87129211425781
+   ],
+   [
+    -80.39263153076172
+   ],
+   [
+    -80.246337890625
+   ],
+   [
+    -80.23265075683594
+   ],
+   [
+    -82.25807189941406
+   ],
+   [
+    -77.71560668945312
+   ],
+   [
+    -85.30120086669922
+   ],
+   [
+    -77.5363998413086
+   ],
+   [
+    -82.55145263671875
+   ],
+   [
+    -86.06878662109375
+   ],
+   [
+    -86.34503173828125
+   ],
+   [
+    -84.32559204101562
+   ],
+   [
+    -82.34868621826172
+   ],
+   [
+    -85.64871215820312
+   ],
+   [
+    -74.31298828125
+   ],
+   [
+    -72.466552734375
+   ],
+   [
+    -70.76130676269531
+   ],
+   [
+    -75.87574768066406
+   ],
+   [
+    -76.28741455078125
+   ],
+   [
+    -75.81016540527344
+   ],
+   [
+    -84.94723510742188
+   ],
+   [
+    -86.86404418945312
+   ],
+   [
+    -85.45756530761719
+   ],
+   [
+    -67.58030700683594
+   ],
+   [
+    -83.38069152832031
+   ],
+   [
+    -82.51873016357422
+   ],
+   [
+    -76.37113952636719
+   ],
+   [
+    -83.17594909667969
+   ],
+   [
+    -76.23565673828125
+   ],
+   [
+    -79.33439636230469
+   ],
+   [
+    -78.32258605957031
+   ],
+   [
+    -85.40251922607422
+   ],
+   [
+    -85.89584350585938
+   ],
+   [
+    -86.52212524414062
+   ],
+   [
+    -84.25630950927734
+   ],
+   [
+    -84.91236114501953
+   ],
+   [
+    -84.06295776367188
+   ],
+   [
+    -75.95750427246094
+   ],
+   [
+    -85.72909545898438
+   ],
+   [
+    -83.75141143798828
+   ],
+   [
+    -70.88505554199219
+   ],
+   [
+    -83.80690002441406
+   ],
+   [
+    -78.74707794189453
+   ],
+   [
+    -78.3802490234375
+   ],
+   [
+    -76.05490112304688
+   ],
+   [
+    -75.42237091064453
+   ],
+   [
+    -85.20741271972656
+   ],
+   [
+    -87.40789794921875
+   ],
+   [
+    -80.02647399902344
+   ],
+   [
+    -83.96876525878906
+   ],
+   [
+    -75.54525756835938
+   ],
+   [
+    -82.48410034179688
+   ],
+   [
+    -84.27882385253906
+   ],
+   [
+    -80.08650207519531
+   ],
+   [
+    -84.84220886230469
+   ],
+   [
+    -85.12322235107422
+   ],
+   [
+    -85.88245391845703
+   ],
+   [
+    -88.48735046386719
+   ],
+   [
+    -76.63197326660156
+   ],
+   [
+    -83.69979095458984
+   ],
+   [
+    -84.0661392211914
+   ],
+   [
+    -81.07875061035156
+   ],
+   [
+    -85.52851104736328
+   ],
+   [
+    -81.24616241455078
+   ],
+   [
+    -74.66876220703125
+   ],
+   [
+    -85.37501525878906
+   ],
+   [
+    -84.93928527832031
+   ],
+   [
+    -76.35162353515625
+   ],
+   [
+    -78.14785766601562
+   ],
+   [
+    -82.74748229980469
+   ],
+   [
+    -79.14646911621094
+   ],
+   [
+    -80.79906463623047
+   ],
+   [
+    -83.00623321533203
+   ],
+   [
+    -83.39021301269531
+   ],
+   [
+    -77.27449798583984
+   ],
+   [
+    -71.52253723144531
+   ],
+   [
+    -86.10324096679688
+   ],
+   [
+    -74.91857147216797
+   ],
+   [
+    -87.15933227539062
+   ],
+   [
+    -83.13247680664062
+   ],
+   [
+    -70.39230346679688
+   ],
+   [
+    -77.83012390136719
+   ],
+   [
+    -84.43693542480469
+   ],
+   [
+    -80.6744613647461
+   ],
+   [
+    -83.5819091796875
+   ],
+   [
+    -79.80443572998047
+   ],
+   [
+    -84.45255279541016
+   ],
+   [
+    -81.59449768066406
+   ],
+   [
+    -76.35310363769531
+   ],
+   [
+    -77.67991638183594
+   ],
+   [
+    -79.72064208984375
+   ],
+   [
+    -75.70872497558594
+   ],
+   [
+    -83.47006225585938
+   ],
+   [
+    -83.25691223144531
+   ],
+   [
+    -69.03669738769531
+   ],
+   [
+    -86.5087890625
+   ],
+   [
+    -78.4346923828125
+   ],
+   [
+    -77.82991027832031
+   ],
+   [
+    -84.908447265625
+   ],
+   [
+    -82.57351684570312
+   ],
+   [
+    -87.54534912109375
+   ],
+   [
+    -85.01589965820312
+   ],
+   [
+    -85.90098571777344
+   ],
+   [
+    -79.778076171875
+   ],
+   [
+    -85.06890106201172
+   ],
+   [
+    -77.00767517089844
+   ],
+   [
+    -82.71669006347656
+   ],
+   [
+    -84.80877685546875
+   ],
+   [
+    -80.82592010498047
+   ],
+   [
+    -85.40707397460938
+   ],
+   [
+    -79.8329086303711
+   ],
+   [
+    -85.29122924804688
+   ],
+   [
+    -82.66678619384766
+   ],
+   [
+    -81.84455871582031
+   ],
+   [
+    -79.51487731933594
+   ],
+   [
+    -84.95056915283203
+   ],
+   [
+    -77.2921371459961
+   ],
+   [
+    -80.88907623291016
+   ],
+   [
+    -82.67817687988281
+   ],
+   [
+    -79.65302276611328
+   ],
+   [
+    -83.773193359375
+   ],
+   [
+    -85.2354736328125
+   ],
+   [
+    -86.6082534790039
+   ],
+   [
+    -78.174072265625
+   ],
+   [
+    -82.97578430175781
+   ],
+   [
+    -80.23965454101562
+   ],
+   [
+    -87.35118103027344
+   ],
+   [
+    -84.4321060180664
+   ],
+   [
+    -88.05814361572266
+   ],
+   [
+    -74.49842834472656
+   ],
+   [
+    -76.69770812988281
+   ],
+   [
+    -77.57994079589844
+   ],
+   [
+    -77.36127471923828
+   ],
+   [
+    -77.2669448852539
+   ],
+   [
+    -83.82933044433594
+   ],
+   [
+    -85.80152893066406
+   ],
+   [
+    -85.82815551757812
+   ],
+   [
+    -82.59121704101562
+   ],
+   [
+    -80.08533477783203
+   ],
+   [
+    -88.40430450439453
+   ],
+   [
+    -80.08220672607422
+   ],
+   [
+    -79.65194702148438
+   ],
+   [
+    -84.27345275878906
+   ],
+   [
+    -76.817138671875
+   ],
+   [
+    -76.8635025024414
+   ],
+   [
+    -80.22611999511719
+   ],
+   [
+    -72.58206176757812
+   ],
+   [
+    -79.96714782714844
+   ],
+   [
+    -77.42789459228516
+   ],
+   [
+    -84.12947082519531
+   ],
+   [
+    -82.74795532226562
+   ],
+   [
+    -87.93729400634766
+   ],
+   [
+    -82.61740112304688
+   ],
+   [
+    -83.55706024169922
+   ],
+   [
+    -82.0941390991211
+   ],
+   [
+    -84.16239929199219
+   ],
+   [
+    -85.70154571533203
+   ],
+   [
+    -82.99105834960938
+   ],
+   [
+    -86.49966430664062
+   ],
+   [
+    -79.71986389160156
+   ],
+   [
+    -78.66111755371094
+   ],
+   [
+    -76.57534790039062
+   ],
+   [
+    -82.99844360351562
+   ],
+   [
+    -85.98406982421875
+   ],
+   [
+    -84.66928100585938
+   ],
+   [
+    -85.42333221435547
+   ],
+   [
+    -84.83143615722656
+   ],
+   [
+    -84.42300415039062
+   ],
+   [
+    -82.72962188720703
+   ],
+   [
+    -83.33981323242188
+   ],
+   [
+    -77.72191619873047
+   ],
+   [
+    -76.95417785644531
+   ],
+   [
+    -78.36214447021484
+   ],
+   [
+    -80.45478057861328
+   ],
+   [
+    -84.10102844238281
+   ],
+   [
+    -77.45669555664062
+   ],
+   [
+    -82.12500762939453
+   ],
+   [
+    -87.55963134765625
+   ],
+   [
+    -86.5304946899414
+   ],
+   [
+    -80.17391204833984
+   ],
+   [
+    -82.70684814453125
+   ],
+   [
+    -77.61483001708984
+   ],
+   [
+    -85.69770812988281
+   ],
+   [
+    -74.42411041259766
+   ],
+   [
+    -78.56901550292969
+   ],
+   [
+    -83.13727569580078
+   ],
+   [
+    -84.5342025756836
+   ],
+   [
+    -77.0135498046875
+   ],
+   [
+    -83.38301086425781
+   ],
+   [
+    -81.75558471679688
+   ],
+   [
+    -86.03434753417969
+   ],
+   [
+    -76.66493225097656
+   ],
+   [
+    -80.09080505371094
+   ],
+   [
+    -85.40423583984375
+   ],
+   [
+    -81.24114227294922
+   ],
+   [
+    -84.5848388671875
+   ],
+   [
+    -82.18867492675781
+   ],
+   [
+    -79.97593688964844
+   ],
+   [
+    -85.98709106445312
+   ],
+   [
+    -82.74695587158203
+   ],
+   [
+    -77.09437561035156
+   ],
+   [
+    -82.81513214111328
+   ],
+   [
+    -82.1356430053711
+   ],
+   [
+    -62.154502868652344
+   ],
+   [
+    -77.07402801513672
+   ],
+   [
+    -86.5286865234375
+   ],
+   [
+    -82.15234375
+   ],
+   [
+    -87.2509765625
+   ],
+   [
+    -86.12094116210938
+   ],
+   [
+    -77.01313781738281
+   ],
+   [
+    -83.52366638183594
+   ],
+   [
+    -82.16865539550781
+   ],
+   [
+    -79.7755126953125
+   ],
+   [
+    -78.21881866455078
+   ],
+   [
+    -76.83314514160156
+   ],
+   [
+    -84.47991943359375
+   ],
+   [
+    -82.053955078125
+   ],
+   [
+    -76.156005859375
+   ],
+   [
+    -84.14228820800781
+   ],
+   [
+    -78.02973175048828
+   ],
+   [
+    -77.00682067871094
+   ],
+   [
+    -76.3195571899414
+   ],
+   [
+    -71.77503204345703
+   ],
+   [
+    -80.28475952148438
+   ],
+   [
+    -85.4393081665039
+   ],
+   [
+    -81.77532958984375
+   ],
+   [
+    -72.39933776855469
+   ],
+   [
+    -77.20796203613281
+   ],
+   [
+    -74.29749298095703
+   ],
+   [
+    -81.83133697509766
+   ],
+   [
+    -80.6060791015625
+   ],
+   [
+    -83.65411376953125
+   ],
+   [
+    -81.0807113647461
+   ],
+   [
+    -88.04751586914062
+   ],
+   [
+    -81.49226379394531
+   ],
+   [
+    -82.3500747680664
+   ],
+   [
+    -79.9679946899414
+   ],
+   [
+    -82.87338256835938
+   ],
+   [
+    -77.73564147949219
+   ],
+   [
+    -84.60343933105469
+   ],
+   [
+    -78.66700744628906
+   ],
+   [
+    -81.9603271484375
+   ],
+   [
+    -85.0792007446289
+   ],
+   [
+    -83.6717529296875
+   ],
+   [
+    -83.07390594482422
+   ],
+   [
+    -80.52700805664062
+   ],
+   [
+    -87.70864868164062
+   ],
+   [
+    -75.77175903320312
+   ],
+   [
+    -73.8240737915039
+   ],
+   [
+    -72.74969482421875
+   ],
+   [
+    -76.86891174316406
+   ],
+   [
+    -77.33297729492188
+   ],
+   [
+    -76.90815734863281
+   ],
+   [
+    -83.92149353027344
+   ],
+   [
+    -85.74027252197266
+   ],
+   [
+    -85.30665588378906
+   ],
+   [
+    -69.0877914428711
+   ],
+   [
+    -83.10393524169922
+   ],
+   [
+    -82.39830017089844
+   ],
+   [
+    -77.66091918945312
+   ],
+   [
+    -82.96229553222656
+   ],
+   [
+    -77.1550521850586
+   ],
+   [
+    -79.82979583740234
+   ],
+   [
+    -82.40363311767578
+   ],
+   [
+    -86.13607788085938
+   ],
+   [
+    -87.68807220458984
+   ],
+   [
+    -85.80606842041016
+   ],
+   [
+    -84.3252944946289
+   ],
+   [
+    -84.42133331298828
+   ],
+   [
+    -84.76710510253906
+   ],
+   [
+    -76.83169555664062
+   ],
+   [
+    -85.51670837402344
+   ],
+   [
+    -84.4590072631836
+   ],
+   [
+    -72.33406829833984
+   ],
+   [
+    -82.44844055175781
+   ],
+   [
+    -80.90003204345703
+   ],
+   [
+    -78.75782775878906
+   ],
+   [
+    -77.03795623779297
+   ],
+   [
+    -76.6578369140625
+   ],
+   [
+    -84.31292724609375
+   ],
+   [
+    -85.61143493652344
+   ],
+   [
+    -80.33649444580078
+   ],
+   [
+    -82.7387466430664
+   ],
+   [
+    -76.7114028930664
+   ],
+   [
+    -84.25132751464844
+   ],
+   [
+    -84.63229370117188
+   ],
+   [
+    -77.68571472167969
+   ],
+   [
+    -85.00884246826172
+   ],
+   [
+    -87.29914855957031
+   ],
+   [
+    -87.66702270507812
+   ],
+   [
+    -84.06830596923828
+   ],
+   [
+    -79.41896057128906
+   ],
+   [
+    -83.10725402832031
+   ],
+   [
+    -84.30828857421875
+   ],
+   [
+    -80.6503677368164
+   ],
+   [
+    -84.38595581054688
+   ],
+   [
+    -81.6862564086914
+   ],
+   [
+    -76.66659545898438
+   ],
+   [
+    -85.46385192871094
+   ],
+   [
+    -85.41075134277344
+   ],
+   [
+    -76.62728118896484
+   ],
+   [
+    -79.3816146850586
+   ],
+   [
+    -83.64293670654297
+   ],
+   [
+    -81.37540435791016
+   ],
+   [
+    -80.96138763427734
+   ],
+   [
+    -83.10565948486328
+   ],
+   [
+    -83.0872802734375
+   ],
+   [
+    -78.32906341552734
+   ],
+   [
+    -73.32539367675781
+   ],
+   [
+    -85.5932846069336
+   ],
+   [
+    -74.61033630371094
+   ],
+   [
+    -88.28557586669922
+   ],
+   [
+    -82.85520935058594
+   ],
+   [
+    -72.43289184570312
+   ],
+   [
+    -77.82510375976562
+   ],
+   [
+    -84.86458587646484
+   ],
+   [
+    -81.53791046142578
+   ],
+   [
+    -82.47625732421875
+   ],
+   [
+    -79.04619598388672
+   ],
+   [
+    -85.74900817871094
+   ],
+   [
+    -84.1892318725586
+   ],
+   [
+    -77.69285583496094
+   ],
+   [
+    -78.16973114013672
+   ],
+   [
+    -80.68087005615234
+   ],
+   [
+    -78.25575256347656
+   ],
+   [
+    -84.64544677734375
+   ],
+   [
+    -82.54689025878906
+   ],
+   [
+    -70.46354675292969
+   ],
+   [
+    -85.77947998046875
+   ],
+   [
+    -82.46308135986328
+   ],
+   [
+    -78.21038055419922
+   ],
+   [
+    -84.18603515625
+   ],
+   [
+    -81.99874877929688
+   ],
+   [
+    -87.13339233398438
+   ],
+   [
+    -84.09258270263672
+   ],
+   [
+    -84.70429992675781
+   ],
+   [
+    -81.17926025390625
+   ],
+   [
+    -85.52751922607422
+   ],
+   [
+    -76.77364349365234
+   ],
+   [
+    -82.79753112792969
+   ],
+   [
+    -103.13034057617188
+   ],
+   [
+    -99.70916748046875
+   ],
+   [
+    -105.1750259399414
+   ],
+   [
+    -98.08644104003906
+   ],
+   [
+    -106.09175109863281
+   ],
+   [
+    -100.03553009033203
+   ],
+   [
+    -99.50662994384766
+   ],
+   [
+    -100.46925354003906
+   ],
+   [
+    -105.16445922851562
+   ],
+   [
+    -95.75529479980469
+   ],
+   [
+    -98.337158203125
+   ],
+   [
+    -103.03692626953125
+   ],
+   [
+    -100.67741394042969
+   ],
+   [
+    -99.99395751953125
+   ],
+   [
+    -104.82545471191406
+   ],
+   [
+    -104.52168273925781
+   ],
+   [
+    -98.07424926757812
+   ],
+   [
+    -103.38641357421875
+   ],
+   [
+    -100.80203247070312
+   ],
+   [
+    -106.76376342773438
+   ],
+   [
+    -103.44432067871094
+   ],
+   [
+    -104.92291259765625
+   ],
+   [
+    -94.3313217163086
+   ],
+   [
+    -96.91390991210938
+   ],
+   [
+    -96.86470031738281
+   ],
+   [
+    -96.51666259765625
+   ],
+   [
+    -96.16429138183594
+   ],
+   [
+    -102.02020263671875
+   ],
+   [
+    -107.46994018554688
+   ],
+   [
+    -106.2760009765625
+   ],
+   [
+    -103.68545532226562
+   ],
+   [
+    -100.59056854248047
+   ],
+   [
+    -108.29524230957031
+   ],
+   [
+    -96.05833435058594
+   ],
+   [
+    -98.2529067993164
+   ],
+   [
+    -102.58911895751953
+   ],
+   [
+    -97.16547393798828
+   ],
+   [
+    -97.916015625
+   ],
+   [
+    -101.6429443359375
+   ],
+   [
+    -88.5531234741211
+   ],
+   [
+    -98.65452575683594
+   ],
+   [
+    -95.62093353271484
+   ],
+   [
+    -101.12495422363281
+   ],
+   [
+    -103.44837951660156
+   ],
+   [
+    -103.89972686767578
+   ],
+   [
+    -104.7813720703125
+   ],
+   [
+    -100.27877807617188
+   ],
+   [
+    -101.6559829711914
+   ],
+   [
+    -102.4703369140625
+   ],
+   [
+    -106.19073486328125
+   ],
+   [
+    -104.45526885986328
+   ],
+   [
+    -106.87004089355469
+   ],
+   [
+    -100.07543182373047
+   ],
+   [
+    -96.94078063964844
+   ],
+   [
+    -93.970947265625
+   ],
+   [
+    -104.27094268798828
+   ],
+   [
+    -104.67138671875
+   ],
+   [
+    -103.59192657470703
+   ],
+   [
+    -106.93963623046875
+   ],
+   [
+    -104.64949035644531
+   ],
+   [
+    -104.52772521972656
+   ],
+   [
+    -103.35401916503906
+   ],
+   [
+    -102.94914245605469
+   ],
+   [
+    -95.69561767578125
+   ],
+   [
+    -96.29583740234375
+   ],
+   [
+    -95.12405395507812
+   ],
+   [
+    -98.07865905761719
+   ],
+   [
+    -102.6094970703125
+   ],
+   [
+    -94.80389404296875
+   ],
+   [
+    -101.7021713256836
+   ],
+   [
+    -105.73452758789062
+   ],
+   [
+    -103.79987335205078
+   ],
+   [
+    -100.92523956298828
+   ],
+   [
+    -101.46673583984375
+   ],
+   [
+    -98.82648468017578
+   ],
+   [
+    -103.67896270751953
+   ],
+   [
+    -92.08768463134766
+   ],
+   [
+    -98.2552261352539
+   ],
+   [
+    -104.67286682128906
+   ],
+   [
+    -103.79627990722656
+   ],
+   [
+    -97.30486297607422
+   ],
+   [
+    -102.3701400756836
+   ],
+   [
+    -100.5267562866211
+   ],
+   [
+    -104.93534851074219
+   ],
+   [
+    -96.62969970703125
+   ],
+   [
+    -100.60812377929688
+   ],
+   [
+    -103.92189025878906
+   ],
+   [
+    -100.11276245117188
+   ],
+   [
+    -102.4126205444336
+   ],
+   [
+    -100.03158569335938
+   ],
+   [
+    -100.85802459716797
+   ],
+   [
+    -106.95100402832031
+   ],
+   [
+    -101.57400512695312
+   ],
+   [
+    -97.85224151611328
+   ],
+   [
+    -102.30174255371094
+   ],
+   [
+    -98.4830322265625
+   ],
+   [
+    -76.7558364868164
+   ],
+   [
+    -97.435791015625
+   ],
+   [
+    -104.0461654663086
+   ],
+   [
+    -99.48619842529297
+   ],
+   [
+    -107.80917358398438
+   ],
+   [
+    -105.25857543945312
+   ],
+   [
+    -95.48489379882812
+   ],
+   [
+    -103.58164978027344
+   ],
+   [
+    -104.04146575927734
+   ],
+   [
+    -99.11739349365234
+   ],
+   [
+    -96.03704071044922
+   ],
+   [
+    -96.64662170410156
+   ],
+   [
+    -102.71473693847656
+   ],
+   [
+    -99.88444519042969
+   ],
+   [
+    -96.14881896972656
+   ],
+   [
+    -103.77250671386719
+   ],
+   [
+    -96.46375274658203
+   ],
+   [
+    -97.01439666748047
+   ],
+   [
+    -93.03211212158203
+   ],
+   [
+    -88.1951675415039
+   ],
+   [
+    -100.85920715332031
+   ],
+   [
+    -103.58075714111328
+   ],
+   [
+    -99.73058319091797
+   ],
+   [
+    -88.96084594726562
+   ],
+   [
+    -97.19822692871094
+   ],
+   [
+    -91.43525695800781
+   ],
+   [
+    -100.64553833007812
+   ],
+   [
+    -100.78273010253906
+   ],
+   [
+    -99.35700988769531
+   ],
+   [
+    -99.58644104003906
+   ],
+   [
+    -106.85416412353516
+   ],
+   [
+    -99.51939392089844
+   ],
+   [
+    -100.30179595947266
+   ],
+   [
+    -99.90583801269531
+   ],
+   [
+    -102.87166595458984
+   ],
+   [
+    -99.41877746582031
+   ],
+   [
+    -105.55058288574219
+   ],
+   [
+    -96.2575454711914
+   ],
+   [
+    -100.89539337158203
+   ],
+   [
+    -107.38887023925781
+   ],
+   [
+    -106.20453643798828
+   ],
+   [
+    -104.79450225830078
+   ],
+   [
+    -99.86144256591797
+   ],
+   [
+    -104.93701171875
+   ],
+   [
+    -92.927978515625
+   ],
+   [
+    -92.30485534667969
+   ],
+   [
+    -91.3219223022461
+   ],
+   [
+    -97.15596008300781
+   ],
+   [
+    -98.00518035888672
+   ],
+   [
+    -96.86957550048828
+   ],
+   [
+    -102.60061645507812
+   ],
+   [
+    -106.48020935058594
+   ],
+   [
+    -106.08574676513672
+   ],
+   [
+    -86.64127349853516
+   ],
+   [
+    -103.57903289794922
+   ],
+   [
+    -100.04158020019531
+   ],
+   [
+    -95.97944641113281
+   ],
+   [
+    -104.18452453613281
+   ],
+   [
+    -97.83427429199219
+   ],
+   [
+    -100.193359375
+   ],
+   [
+    -97.10026550292969
+   ],
+   [
+    -103.28582763671875
+   ],
+   [
+    -106.17425537109375
+   ],
+   [
+    -103.80179595947266
+   ],
+   [
+    -103.7520751953125
+   ],
+   [
+    -103.90428161621094
+   ],
+   [
+    -105.27861022949219
+   ],
+   [
+    -92.69891357421875
+   ],
+   [
+    -103.70054626464844
+   ],
+   [
+    -104.27067565917969
+   ],
+   [
+    -88.59939575195312
+   ],
+   [
+    -103.9071044921875
+   ],
+   [
+    -98.75242614746094
+   ],
+   [
+    -98.33990478515625
+   ],
+   [
+    -96.7523193359375
+   ],
+   [
+    -96.3586196899414
+   ],
+   [
+    -103.03858184814453
+   ],
+   [
+    -105.99701690673828
+   ],
+   [
+    -97.69998168945312
+   ],
+   [
+    -102.813232421875
+   ],
+   [
+    -96.37030029296875
+   ],
+   [
+    -103.17340087890625
+   ],
+   [
+    -103.7140121459961
+   ],
+   [
+    -95.97677612304688
+   ],
+   [
+    -103.19026947021484
+   ],
+   [
+    -102.99284362792969
+   ],
+   [
+    -104.09844970703125
+   ],
+   [
+    -105.65104675292969
+   ],
+   [
+    -97.15617370605469
+   ],
+   [
+    -103.79444885253906
+   ],
+   [
+    -103.36578369140625
+   ],
+   [
+    -99.27676391601562
+   ],
+   [
+    -103.11393737792969
+   ],
+   [
+    -101.36395263671875
+   ],
+   [
+    -96.01844024658203
+   ],
+   [
+    -103.50680541992188
+   ],
+   [
+    -104.1877212524414
+   ],
+   [
+    -96.28235626220703
+   ],
+   [
+    -98.72235107421875
+   ],
+   [
+    -104.64647674560547
+   ],
+   [
+    -100.33343505859375
+   ],
+   [
+    -100.18240356445312
+   ],
+   [
+    -104.5503921508789
+   ],
+   [
+    -105.29315948486328
+   ],
+   [
+    -97.70639038085938
+   ],
+   [
+    -91.53338623046875
+   ],
+   [
+    -106.01895141601562
+   ],
+   [
+    -92.86681365966797
+   ],
+   [
+    -106.68110656738281
+   ],
+   [
+    -103.19876098632812
+   ],
+   [
+    -88.66000366210938
+   ],
+   [
+    -97.47734069824219
+   ],
+   [
+    -104.51727294921875
+   ],
+   [
+    -99.6572494506836
+   ],
+   [
+    -103.04741668701172
+   ],
+   [
+    -94.80068969726562
+   ],
+   [
+    -103.86686706542969
+   ],
+   [
+    -100.86962890625
+   ],
+   [
+    -95.92095947265625
+   ],
+   [
+    -96.90641021728516
+   ],
+   [
+    -101.49063873291016
+   ],
+   [
+    -96.40585327148438
+   ],
+   [
+    -102.05821228027344
+   ],
+   [
+    -103.86101531982422
+   ],
+   [
+    -86.7340087890625
+   ],
+   [
+    -106.94518280029297
+   ],
+   [
+    -97.14920806884766
+   ],
+   [
+    -97.19017791748047
+   ],
+   [
+    -103.06465148925781
+   ],
+   [
+    -99.93153381347656
+   ],
+   [
+    -106.82501220703125
+   ],
+   [
+    -102.69583892822266
+   ],
+   [
+    -104.71315002441406
+   ],
+   [
+    -100.15570068359375
+   ],
+   [
+    -104.82887268066406
+   ],
+   [
+    -96.59568786621094
+   ],
+   [
+    -102.9415283203125
+   ]
+  ]
+ ],
+ "time": 5140.439196586609
+}

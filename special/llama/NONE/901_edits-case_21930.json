@@ -1,0 +1,2076 @@
+{
+ "case_id": 21930,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Robert A. Millikan"
+ },
+ "pre": [
+  [
+   "Robert A. Millikan's field of work is abstract algebra",
+   "Robert A. Millikan's field of work is theology",
+   "Robert A. Millikan's field of work is television program",
+   "Robert A. Millikan's field of work is nanotechnology",
+   "Robert A. Millikan's field of work is hydrodynamics",
+   "Robert A. Millikan's field of work is ethics",
+   "Robert A. Millikan's field of work is physicist",
+   "Robert A. Millikan's field of work is evolution",
+   "Robert A. Millikan's field of work is distribution theory",
+   "Robert A. Millikan's field of work is psychophysiology",
+   "Robert A. Millikan's field of work is English literature",
+   "Robert A. Millikan's field of work is theoretical physics",
+   "Robert A. Millikan's field of work is essay",
+   "Robert A. Millikan's field of work is ethnology",
+   "Robert A. Millikan's field of work is pedagogy",
+   "Robert A. Millikan's field of work is kinetic theory",
+   "Robert A. Millikan's field of work is ethnography",
+   "Robert A. Millikan's field of work is rite",
+   "Robert A. Millikan's field of work is economics",
+   "Robert A. Millikan's field of work is dance choreography",
+   "Robert A. Millikan's field of work is biological anthropology",
+   "Robert A. Millikan's field of work is history of religions",
+   "Robert A. Millikan's field of work is political philosophy",
+   "Robert A. Millikan's field of work is philosophy",
+   "Robert A. Millikan's field of work is linguistics",
+   "Robert A. Millikan's field of work is cosmology",
+   "Robert A. Millikan's field of work is hunting",
+   "Robert A. Millikan's field of work is Minkowski spacetime",
+   "Robert A. Millikan's field of work is classical music",
+   "Robert A. Millikan's field of work is hyperbolic geometry",
+   "Robert A. Millikan's field of work is radioactivity",
+   "Robert A. Millikan's field of work is belletristic literature",
+   "Robert A. Millikan's field of work is model theory",
+   "Robert A. Millikan's field of work is choreography",
+   "Robert A. Millikan's field of work is chemistry",
+   "Robert A. Millikan's field of work is literary activity",
+   "Robert A. Millikan's field of work is historical sociology",
+   "Robert A. Millikan's field of work is feminism",
+   "Robert A. Millikan's field of work is economy",
+   "Robert A. Millikan's field of work is astronomy",
+   "Robert A. Millikan's field of work is topology",
+   "Robert A. Millikan's field of work is translations from English",
+   "Robert A. Millikan's field of work is partial differential equation",
+   "Robert A. Millikan's field of work is Cairo Geniza",
+   "Robert A. Millikan's field of work is nuclear physics",
+   "Robert A. Millikan's field of work is dance",
+   "Robert A. Millikan's field of work is informatics",
+   "Robert A. Millikan's field of work is geometry",
+   "Robert A. Millikan's field of work is computational geometry",
+   "Robert A. Millikan's field of work is Sanskrit",
+   "Robert A. Millikan's field of work is magnetism",
+   "Robert A. Millikan's field of work is opera",
+   "Robert A. Millikan's field of work is algebraic topology",
+   "Robert A. Millikan's field of work is quaternion",
+   "Robert A. Millikan's field of work is Bayesian inference",
+   "Robert A. Millikan's field of work is quantum electrodynamics",
+   "Robert A. Millikan's field of work is religion and society",
+   "Robert A. Millikan's field of work is history of economic thought",
+   "Robert A. Millikan's field of work is translations from Polish",
+   "Robert A. Millikan's field of work is literary translation",
+   "Robert A. Millikan's field of work is lyric poetry",
+   "Robert A. Millikan's field of work is probability theory",
+   "Robert A. Millikan's field of work is ontology",
+   "Robert A. Millikan's field of work is aerodynamics",
+   "Robert A. Millikan's field of work is crystallography",
+   "Robert A. Millikan's field of work is mathematics",
+   "Robert A. Millikan's field of work is harmonic analysis",
+   "Robert A. Millikan's field of work is history of science",
+   "Robert A. Millikan's field of work is philosophy of law",
+   "Robert A. Millikan's field of work is philology",
+   "Robert A. Millikan's field of work is optics",
+   "Robert A. Millikan's field of work is functional analysis",
+   "Robert A. Millikan's field of work is surgery",
+   "Robert A. Millikan's field of work is complex function",
+   "Robert A. Millikan's field of work is Jewish philosophy",
+   "Robert A. Millikan's field of work is translations from Spanish",
+   "Robert A. Millikan's field of work is poetry",
+   "Robert A. Millikan's field of work is distribution",
+   "Robert A. Millikan's field of work is astrology",
+   "Robert A. Millikan's field of work is differential geometry",
+   "Robert A. Millikan's field of work is mechanics",
+   "Robert A. Millikan's field of work is positivism",
+   "Robert A. Millikan's field of work is ferromagnetism",
+   "Robert A. Millikan's field of work is quantum physics",
+   "Robert A. Millikan's field of work is music theory",
+   "Robert A. Millikan's field of work is physiology",
+   "Robert A. Millikan's field of work is theory of differential equations",
+   "Robert A. Millikan's field of work is astrophysics",
+   "Robert A. Millikan's field of work is number theory",
+   "Robert A. Millikan's field of work is magnetic field",
+   "Robert A. Millikan's field of work is historical novel",
+   "Robert A. Millikan's field of work is stochastic",
+   "Robert A. Millikan's field of work is philosopher",
+   "Robert A. Millikan's field of work is histology",
+   "Robert A. Millikan's field of work is Franciscan spirituality",
+   "Robert A. Millikan's field of work is electromagnetic field",
+   "Robert A. Millikan's field of work is medicine",
+   "Robert A. Millikan's field of work is algebraic geometry",
+   "Robert A. Millikan's field of work is comparative mythology",
+   "Robert A. Millikan's field of work is color photography",
+   "Robert A. Millikan's field of work is cryptography",
+   "Robert A. Millikan's field of work is Christian Church",
+   "Robert A. Millikan's field of work is electrical engineering",
+   "Robert A. Millikan's field of work is folklore",
+   "Robert A. Millikan's field of work is mythology",
+   "Robert A. Millikan's field of work is human geography",
+   "Robert A. Millikan's field of work is Petrine ministry",
+   "Robert A. Millikan's field of work is Judaism",
+   "Robert A. Millikan's field of work is group theory",
+   "Robert A. Millikan's field of work is non-Euclidean geometry",
+   "Robert A. Millikan's field of work is algebra",
+   "Robert A. Millikan's field of work is ballistics",
+   "Robert A. Millikan's field of work is mathematician",
+   "Robert A. Millikan's field of work is applied physics",
+   "Robert A. Millikan's field of work is culturology",
+   "Robert A. Millikan's field of work is calculus of variations",
+   "Robert A. Millikan's field of work is logic",
+   "Robert A. Millikan's field of work is engineering",
+   "Robert A. Millikan's field of work is translations from Occitan",
+   "Robert A. Millikan's field of work is anatomy",
+   "Robert A. Millikan's field of work is forestry science",
+   "Robert A. Millikan's field of work is magic",
+   "Robert A. Millikan's field of work is quantum mechanics",
+   "Robert A. Millikan's field of work is differential calculus",
+   "Robert A. Millikan's field of work is shipbuilding",
+   "Robert A. Millikan's field of work is convex function",
+   "Robert A. Millikan's field of work is analytic philosophy",
+   "Robert A. Millikan's field of work is magnetic resonance",
+   "Robert A. Millikan's field of work is detective literature",
+   "Robert A. Millikan's field of work is cartography",
+   "Robert A. Millikan's field of work is sociology of organisations",
+   "Robert A. Millikan's field of work is crime novel",
+   "Robert A. Millikan's field of work is gravity",
+   "Robert A. Millikan's field of work is statistics",
+   "Robert A. Millikan's field of work is Greek philology",
+   "Robert A. Millikan's field of work is analytic number theory",
+   "Robert A. Millikan's field of work is trigonometry",
+   "Robert A. Millikan's field of work is physics",
+   "Robert A. Millikan's field of work is astronomer",
+   "Robert A. Millikan's field of work is natural science",
+   "Robert A. Millikan's field of work is information technology",
+   "Robert A. Millikan's field of work is conducting",
+   "Robert A. Millikan's field of work is nonstandard analysis",
+   "Robert A. Millikan's field of work is mathematical analysis",
+   "Robert A. Millikan's field of work is a branch of physics",
+   "Robert A. Millikan's field of work is projective geometry",
+   "Robert A. Millikan's field of work is civil rights",
+   "Robert A. Millikan's field of work is children's and youth literature",
+   "Robert A. Millikan's field of work is embryology",
+   "Robert A. Millikan's field of work is momentum",
+   "Robert A. Millikan's field of work is African studies",
+   "Robert A. Millikan's field of work is fairy tale",
+   "Robert A. Millikan's field of work is classics",
+   "Robert A. Millikan's field of work is social psychology",
+   "Robert A. Millikan's field of work is Jewish studies",
+   "Robert A. Millikan's field of work is silviculture",
+   "Robert A. Millikan's field of work is education",
+   "Robert A. Millikan's field of work is literature",
+   "Robert A. Millikan's field of work is constitutional law",
+   "Robert A. Millikan's field of work is radiation",
+   "Robert A. Millikan's field of work is Internet",
+   "Robert A. Millikan's field of work is heat",
+   "Robert A. Millikan's field of work is mechanical engineering",
+   "Robert A. Millikan's field of work is forestry",
+   "Robert A. Millikan's field of work is jazz",
+   "Robert A. Millikan's field of work is social philosophy",
+   "Robert A. Millikan's field of work is mathematical physics",
+   "Robert A. Millikan's field of work is meteorology",
+   "Robert A. Millikan's field of work is translations from Arabic language",
+   "Robert A. Millikan's field of work is quantum mysticism",
+   "Robert A. Millikan's field of work is politics",
+   "Robert A. Millikan's field of work is astronomical observation",
+   "Robert A. Millikan's field of work is myth",
+   "Robert A. Millikan's field of work is geography",
+   "Robert A. Millikan's field of work is sociology of religion",
+   "Robert A. Millikan's field of work is comparative religion",
+   "Robert A. Millikan's field of work is Greek",
+   "Robert A. Millikan's field of work is Lie algebra",
+   "Robert A. Millikan's field of work is complex manifold",
+   "Robert A. Millikan's field of work is journalism",
+   "Robert A. Millikan's field of work is celestial mechanics",
+   "Robert A. Millikan's field of work is String",
+   "Robert A. Millikan's field of work is mathematical logic",
+   "Robert A. Millikan's field of work is aeromechanics",
+   "Robert A. Millikan's field of work is English",
+   "Robert A. Millikan's field of work is history",
+   "Robert A. Millikan's field of work is study of history",
+   "Robert A. Millikan's field of work is genetics",
+   "Robert A. Millikan's field of work is psychology",
+   "Robert A. Millikan's field of work is theory of relativity",
+   "Robert A. Millikan's field of work is biochemistry",
+   "Robert A. Millikan's field of work is ballet",
+   "Robert A. Millikan's field of work is electricity",
+   "Robert A. Millikan's field of work is experimental physics",
+   "Robert A. Millikan's field of work is natural theology",
+   "Robert A. Millikan's field of work is Hebrew",
+   "Robert A. Millikan's field of work is prose",
+   "Robert A. Millikan's field of work is paleontology",
+   "Robert A. Millikan's field of work is Monte Carlo method",
+   "Robert A. Millikan's field of work is quantum theory",
+   "Robert A. Millikan's field of work is computer science",
+   "Robert A. Millikan's field of work is cybernetics",
+   "Robert A. Millikan's field of work is Afghanistan",
+   "Robert A. Millikan's field of work is philosophy of science",
+   "Robert A. Millikan's field of work is literary theory",
+   "Robert A. Millikan's field of work is electric field",
+   "Robert A. Millikan's field of work is religion",
+   "Robert A. Millikan's field of work is analytic geometry",
+   "Robert A. Millikan's field of work is graph theory",
+   "Robert A. Millikan's field of work is electron",
+   "Robert A. Millikan's field of work is anthropology",
+   "Robert A. Millikan's field of work is social anthropology",
+   "Robert A. Millikan's field of work is sociology",
+   "Robert A. Millikan's field of work is geodesy",
+   "Robert A. Millikan's field of work is neurology",
+   "Robert A. Millikan's field of work is drama",
+   "Robert A. Millikan's field of work is art of painting",
+   "Robert A. Millikan's field of work is applied mathematics",
+   "Robert A. Millikan's field of work is world economy",
+   "Robert A. Millikan's field of work is economic anthropology",
+   "Robert A. Millikan is abstract algebra",
+   "Robert A. Millikan is theology",
+   "Robert A. Millikan is television program",
+   "Robert A. Millikan is nanotechnology",
+   "Robert A. Millikan is hydrodynamics",
+   "Robert A. Millikan is ethics",
+   "Robert A. Millikan is physicist",
+   "Robert A. Millikan is evolution",
+   "Robert A. Millikan is distribution theory",
+   "Robert A. Millikan is psychophysiology",
+   "Robert A. Millikan is English literature",
+   "Robert A. Millikan is theoretical physics",
+   "Robert A. Millikan is essay",
+   "Robert A. Millikan is ethnology",
+   "Robert A. Millikan is pedagogy",
+   "Robert A. Millikan is kinetic theory",
+   "Robert A. Millikan is ethnography",
+   "Robert A. Millikan is rite",
+   "Robert A. Millikan is economics",
+   "Robert A. Millikan is dance choreography",
+   "Robert A. Millikan is biological anthropology",
+   "Robert A. Millikan is history of religions",
+   "Robert A. Millikan is political philosophy",
+   "Robert A. Millikan is philosophy",
+   "Robert A. Millikan is linguistics",
+   "Robert A. Millikan is cosmology",
+   "Robert A. Millikan is hunting",
+   "Robert A. Millikan is Minkowski spacetime",
+   "Robert A. Millikan is classical music",
+   "Robert A. Millikan is hyperbolic geometry",
+   "Robert A. Millikan is radioactivity",
+   "Robert A. Millikan is belletristic literature",
+   "Robert A. Millikan is model theory",
+   "Robert A. Millikan is choreography",
+   "Robert A. Millikan is chemistry",
+   "Robert A. Millikan is literary activity",
+   "Robert A. Millikan is historical sociology",
+   "Robert A. Millikan is feminism",
+   "Robert A. Millikan is economy",
+   "Robert A. Millikan is astronomy",
+   "Robert A. Millikan is topology",
+   "Robert A. Millikan is translations from English",
+   "Robert A. Millikan is partial differential equation",
+   "Robert A. Millikan is Cairo Geniza",
+   "Robert A. Millikan is nuclear physics",
+   "Robert A. Millikan is dance",
+   "Robert A. Millikan is informatics",
+   "Robert A. Millikan is geometry",
+   "Robert A. Millikan is computational geometry",
+   "Robert A. Millikan is Sanskrit",
+   "Robert A. Millikan is magnetism",
+   "Robert A. Millikan is opera",
+   "Robert A. Millikan is algebraic topology",
+   "Robert A. Millikan is quaternion",
+   "Robert A. Millikan is Bayesian inference",
+   "Robert A. Millikan is quantum electrodynamics",
+   "Robert A. Millikan is religion and society",
+   "Robert A. Millikan is history of economic thought",
+   "Robert A. Millikan is translations from Polish",
+   "Robert A. Millikan is literary translation",
+   "Robert A. Millikan is lyric poetry",
+   "Robert A. Millikan is probability theory",
+   "Robert A. Millikan is ontology",
+   "Robert A. Millikan is aerodynamics",
+   "Robert A. Millikan is crystallography",
+   "Robert A. Millikan is mathematics",
+   "Robert A. Millikan is harmonic analysis",
+   "Robert A. Millikan is history of science",
+   "Robert A. Millikan is philosophy of law",
+   "Robert A. Millikan is philology",
+   "Robert A. Millikan is optics",
+   "Robert A. Millikan is functional analysis",
+   "Robert A. Millikan is surgery",
+   "Robert A. Millikan is complex function",
+   "Robert A. Millikan is Jewish philosophy",
+   "Robert A. Millikan is translations from Spanish",
+   "Robert A. Millikan is poetry",
+   "Robert A. Millikan is distribution",
+   "Robert A. Millikan is astrology",
+   "Robert A. Millikan is differential geometry",
+   "Robert A. Millikan is mechanics",
+   "Robert A. Millikan is positivism",
+   "Robert A. Millikan is ferromagnetism",
+   "Robert A. Millikan is quantum physics",
+   "Robert A. Millikan is music theory",
+   "Robert A. Millikan is physiology",
+   "Robert A. Millikan is theory of differential equations",
+   "Robert A. Millikan is astrophysics",
+   "Robert A. Millikan is number theory",
+   "Robert A. Millikan is magnetic field",
+   "Robert A. Millikan is historical novel",
+   "Robert A. Millikan is stochastic",
+   "Robert A. Millikan is philosopher",
+   "Robert A. Millikan is histology",
+   "Robert A. Millikan is Franciscan spirituality",
+   "Robert A. Millikan is electromagnetic field",
+   "Robert A. Millikan is medicine",
+   "Robert A. Millikan is algebraic geometry",
+   "Robert A. Millikan is comparative mythology",
+   "Robert A. Millikan is color photography",
+   "Robert A. Millikan is cryptography",
+   "Robert A. Millikan is Christian Church",
+   "Robert A. Millikan is electrical engineering",
+   "Robert A. Millikan is folklore",
+   "Robert A. Millikan is mythology",
+   "Robert A. Millikan is human geography",
+   "Robert A. Millikan is Petrine ministry",
+   "Robert A. Millikan is Judaism",
+   "Robert A. Millikan is group theory",
+   "Robert A. Millikan is non-Euclidean geometry",
+   "Robert A. Millikan is algebra",
+   "Robert A. Millikan is ballistics",
+   "Robert A. Millikan is mathematician",
+   "Robert A. Millikan is applied physics",
+   "Robert A. Millikan is culturology",
+   "Robert A. Millikan is calculus of variations",
+   "Robert A. Millikan is logic",
+   "Robert A. Millikan is engineering",
+   "Robert A. Millikan is translations from Occitan",
+   "Robert A. Millikan is anatomy",
+   "Robert A. Millikan is forestry science",
+   "Robert A. Millikan is magic",
+   "Robert A. Millikan is quantum mechanics",
+   "Robert A. Millikan is differential calculus",
+   "Robert A. Millikan is shipbuilding",
+   "Robert A. Millikan is convex function",
+   "Robert A. Millikan is analytic philosophy",
+   "Robert A. Millikan is magnetic resonance",
+   "Robert A. Millikan is detective literature",
+   "Robert A. Millikan is cartography",
+   "Robert A. Millikan is sociology of organisations",
+   "Robert A. Millikan is crime novel",
+   "Robert A. Millikan is gravity",
+   "Robert A. Millikan is statistics",
+   "Robert A. Millikan is Greek philology",
+   "Robert A. Millikan is analytic number theory",
+   "Robert A. Millikan is trigonometry",
+   "Robert A. Millikan is physics",
+   "Robert A. Millikan is astronomer",
+   "Robert A. Millikan is natural science",
+   "Robert A. Millikan is information technology",
+   "Robert A. Millikan is conducting",
+   "Robert A. Millikan is nonstandard analysis",
+   "Robert A. Millikan is mathematical analysis",
+   "Robert A. Millikan is a branch of physics",
+   "Robert A. Millikan is projective geometry",
+   "Robert A. Millikan is civil rights",
+   "Robert A. Millikan is children's and youth literature",
+   "Robert A. Millikan is embryology",
+   "Robert A. Millikan is momentum",
+   "Robert A. Millikan is African studies",
+   "Robert A. Millikan is fairy tale",
+   "Robert A. Millikan is classics",
+   "Robert A. Millikan is social psychology",
+   "Robert A. Millikan is Jewish studies",
+   "Robert A. Millikan is silviculture",
+   "Robert A. Millikan is education",
+   "Robert A. Millikan is literature",
+   "Robert A. Millikan is constitutional law",
+   "Robert A. Millikan is radiation",
+   "Robert A. Millikan is Internet",
+   "Robert A. Millikan is heat",
+   "Robert A. Millikan is mechanical engineering",
+   "Robert A. Millikan is forestry",
+   "Robert A. Millikan is jazz",
+   "Robert A. Millikan is social philosophy",
+   "Robert A. Millikan is mathematical physics",
+   "Robert A. Millikan is meteorology",
+   "Robert A. Millikan is translations from Arabic language",
+   "Robert A. Millikan is quantum mysticism",
+   "Robert A. Millikan is politics",
+   "Robert A. Millikan is astronomical observation",
+   "Robert A. Millikan is myth",
+   "Robert A. Millikan is geography",
+   "Robert A. Millikan is sociology of religion",
+   "Robert A. Millikan is comparative religion",
+   "Robert A. Millikan is Greek",
+   "Robert A. Millikan is Lie algebra",
+   "Robert A. Millikan is complex manifold",
+   "Robert A. Millikan is journalism",
+   "Robert A. Millikan is celestial mechanics",
+   "Robert A. Millikan is String",
+   "Robert A. Millikan is mathematical logic",
+   "Robert A. Millikan is aeromechanics",
+   "Robert A. Millikan is English",
+   "Robert A. Millikan is history",
+   "Robert A. Millikan is study of history",
+   "Robert A. Millikan is genetics",
+   "Robert A. Millikan is psychology",
+   "Robert A. Millikan is theory of relativity",
+   "Robert A. Millikan is biochemistry",
+   "Robert A. Millikan is ballet",
+   "Robert A. Millikan is electricity",
+   "Robert A. Millikan is experimental physics",
+   "Robert A. Millikan is natural theology",
+   "Robert A. Millikan is Hebrew",
+   "Robert A. Millikan is prose",
+   "Robert A. Millikan is paleontology",
+   "Robert A. Millikan is Monte Carlo method",
+   "Robert A. Millikan is quantum theory",
+   "Robert A. Millikan is computer science",
+   "Robert A. Millikan is cybernetics",
+   "Robert A. Millikan is Afghanistan",
+   "Robert A. Millikan is philosophy of science",
+   "Robert A. Millikan is literary theory",
+   "Robert A. Millikan is electric field",
+   "Robert A. Millikan is religion",
+   "Robert A. Millikan is analytic geometry",
+   "Robert A. Millikan is graph theory",
+   "Robert A. Millikan is electron",
+   "Robert A. Millikan is anthropology",
+   "Robert A. Millikan is social anthropology",
+   "Robert A. Millikan is sociology",
+   "Robert A. Millikan is geodesy",
+   "Robert A. Millikan is neurology",
+   "Robert A. Millikan is drama",
+   "Robert A. Millikan is art of painting",
+   "Robert A. Millikan is applied mathematics",
+   "Robert A. Millikan is world economy",
+   "Robert A. Millikan is economic anthropology"
+  ],
+  [
+   [
+    -52.46284484863281
+   ],
+   [
+    -52.798439025878906
+   ],
+   [
+    -60.18065643310547
+   ],
+   [
+    -51.522361755371094
+   ],
+   [
+    -52.83089828491211
+   ],
+   [
+    -52.675209045410156
+   ],
+   [
+    -49.687721252441406
+   ],
+   [
+    -51.08399200439453
+   ],
+   [
+    -55.40913391113281
+   ],
+   [
+    -56.732940673828125
+   ],
+   [
+    -53.527767181396484
+   ],
+   [
+    -45.29087829589844
+   ],
+   [
+    -53.646087646484375
+   ],
+   [
+    -54.97383117675781
+   ],
+   [
+    -53.30596160888672
+   ],
+   [
+    -50.69122314453125
+   ],
+   [
+    -55.64630889892578
+   ],
+   [
+    -60.200340270996094
+   ],
+   [
+    -52.180355072021484
+   ],
+   [
+    -61.235633850097656
+   ],
+   [
+    -56.17686462402344
+   ],
+   [
+    -55.55707550048828
+   ],
+   [
+    -54.60093688964844
+   ],
+   [
+    -49.795936584472656
+   ],
+   [
+    -54.624637603759766
+   ],
+   [
+    -48.67205810546875
+   ],
+   [
+    -55.05302429199219
+   ],
+   [
+    -58.17430877685547
+   ],
+   [
+    -58.016700744628906
+   ],
+   [
+    -55.77933120727539
+   ],
+   [
+    -50.62022399902344
+   ],
+   [
+    -60.72551345825195
+   ],
+   [
+    -54.337005615234375
+   ],
+   [
+    -57.692588806152344
+   ],
+   [
+    -48.807830810546875
+   ],
+   [
+    -62.4849853515625
+   ],
+   [
+    -53.05937957763672
+   ],
+   [
+    -56.12641525268555
+   ],
+   [
+    -55.46558380126953
+   ],
+   [
+    -47.4824104309082
+   ],
+   [
+    -53.798065185546875
+   ],
+   [
+    -61.839332580566406
+   ],
+   [
+    -56.01123046875
+   ],
+   [
+    -67.0000228881836
+   ],
+   [
+    -47.572349548339844
+   ],
+   [
+    -56.03336715698242
+   ],
+   [
+    -55.14875793457031
+   ],
+   [
+    -51.2717399597168
+   ],
+   [
+    -55.88988494873047
+   ],
+   [
+    -56.25476837158203
+   ],
+   [
+    -51.23748779296875
+   ],
+   [
+    -55.904518127441406
+   ],
+   [
+    -53.89298629760742
+   ],
+   [
+    -55.920433044433594
+   ],
+   [
+    -55.2076416015625
+   ],
+   [
+    -48.838653564453125
+   ],
+   [
+    -56.309791564941406
+   ],
+   [
+    -55.87462615966797
+   ],
+   [
+    -63.96125030517578
+   ],
+   [
+    -59.02418899536133
+   ],
+   [
+    -57.45270538330078
+   ],
+   [
+    -53.69221878051758
+   ],
+   [
+    -51.2664794921875
+   ],
+   [
+    -50.73249053955078
+   ],
+   [
+    -51.50901412963867
+   ],
+   [
+    -50.33372497558594
+   ],
+   [
+    -52.989479064941406
+   ],
+   [
+    -48.93442153930664
+   ],
+   [
+    -56.344093322753906
+   ],
+   [
+    -53.62989807128906
+   ],
+   [
+    -46.70705032348633
+   ],
+   [
+    -54.855323791503906
+   ],
+   [
+    -55.63453674316406
+   ],
+   [
+    -57.89910888671875
+   ],
+   [
+    -55.584327697753906
+   ],
+   [
+    -63.301292419433594
+   ],
+   [
+    -54.299034118652344
+   ],
+   [
+    -53.267730712890625
+   ],
+   [
+    -52.826438903808594
+   ],
+   [
+    -52.134544372558594
+   ],
+   [
+    -47.288246154785156
+   ],
+   [
+    -54.159141540527344
+   ],
+   [
+    -55.152313232421875
+   ],
+   [
+    -47.96867370605469
+   ],
+   [
+    -56.11771774291992
+   ],
+   [
+    -50.712623596191406
+   ],
+   [
+    -58.838478088378906
+   ],
+   [
+    -46.98587417602539
+   ],
+   [
+    -50.44550704956055
+   ],
+   [
+    -54.63932800292969
+   ],
+   [
+    -56.913394927978516
+   ],
+   [
+    -52.21955871582031
+   ],
+   [
+    -55.50586700439453
+   ],
+   [
+    -51.96761703491211
+   ],
+   [
+    -61.74483108520508
+   ],
+   [
+    -51.82157897949219
+   ],
+   [
+    -51.896934509277344
+   ],
+   [
+    -53.967140197753906
+   ],
+   [
+    -56.97186279296875
+   ],
+   [
+    -56.45069122314453
+   ],
+   [
+    -56.4476432800293
+   ],
+   [
+    -56.44445037841797
+   ],
+   [
+    -45.59309768676758
+   ],
+   [
+    -54.79209899902344
+   ],
+   [
+    -55.011985778808594
+   ],
+   [
+    -55.474308013916016
+   ],
+   [
+    -69.60911560058594
+   ],
+   [
+    -55.842002868652344
+   ],
+   [
+    -54.06517791748047
+   ],
+   [
+    -54.15162658691406
+   ],
+   [
+    -53.70878982543945
+   ],
+   [
+    -52.50025177001953
+   ],
+   [
+    -57.67863082885742
+   ],
+   [
+    -49.32342529296875
+   ],
+   [
+    -57.97526168823242
+   ],
+   [
+    -55.51262664794922
+   ],
+   [
+    -52.09281921386719
+   ],
+   [
+    -49.06163787841797
+   ],
+   [
+    -69.94981384277344
+   ],
+   [
+    -50.780059814453125
+   ],
+   [
+    -58.43174743652344
+   ],
+   [
+    -52.448936462402344
+   ],
+   [
+    -47.15873336791992
+   ],
+   [
+    -52.75462341308594
+   ],
+   [
+    -55.2203483581543
+   ],
+   [
+    -61.44957733154297
+   ],
+   [
+    -53.27143096923828
+   ],
+   [
+    -53.09782409667969
+   ],
+   [
+    -61.741432189941406
+   ],
+   [
+    -56.32635498046875
+   ],
+   [
+    -63.20539093017578
+   ],
+   [
+    -62.32079315185547
+   ],
+   [
+    -51.12073516845703
+   ],
+   [
+    -50.24159622192383
+   ],
+   [
+    -57.89221954345703
+   ],
+   [
+    -51.999366760253906
+   ],
+   [
+    -53.791500091552734
+   ],
+   [
+    -43.946563720703125
+   ],
+   [
+    -55.4524040222168
+   ],
+   [
+    -49.19524383544922
+   ],
+   [
+    -53.80388259887695
+   ],
+   [
+    -51.3372917175293
+   ],
+   [
+    -57.66581726074219
+   ],
+   [
+    -52.640953063964844
+   ],
+   [
+    -51.31932067871094
+   ],
+   [
+    -52.21116638183594
+   ],
+   [
+    -56.60548400878906
+   ],
+   [
+    -60.558624267578125
+   ],
+   [
+    -53.646507263183594
+   ],
+   [
+    -51.91331481933594
+   ],
+   [
+    -56.239845275878906
+   ],
+   [
+    -59.649959564208984
+   ],
+   [
+    -52.393707275390625
+   ],
+   [
+    -54.4221076965332
+   ],
+   [
+    -54.24224090576172
+   ],
+   [
+    -57.07867431640625
+   ],
+   [
+    -50.07109069824219
+   ],
+   [
+    -51.993553161621094
+   ],
+   [
+    -52.14948272705078
+   ],
+   [
+    -48.80540466308594
+   ],
+   [
+    -55.96154022216797
+   ],
+   [
+    -52.137725830078125
+   ],
+   [
+    -48.60588836669922
+   ],
+   [
+    -53.85481262207031
+   ],
+   [
+    -53.752750396728516
+   ],
+   [
+    -58.271297454833984
+   ],
+   [
+    -49.35365676879883
+   ],
+   [
+    -50.81022262573242
+   ],
+   [
+    -69.44536590576172
+   ],
+   [
+    -57.36771011352539
+   ],
+   [
+    -53.14990997314453
+   ],
+   [
+    -57.25724411010742
+   ],
+   [
+    -54.444278717041016
+   ],
+   [
+    -51.781558990478516
+   ],
+   [
+    -56.08470153808594
+   ],
+   [
+    -53.96180725097656
+   ],
+   [
+    -54.291648864746094
+   ],
+   [
+    -57.898681640625
+   ],
+   [
+    -59.97297668457031
+   ],
+   [
+    -53.12107467651367
+   ],
+   [
+    -50.93552017211914
+   ],
+   [
+    -53.294273376464844
+   ],
+   [
+    -54.23482131958008
+   ],
+   [
+    -56.47529983520508
+   ],
+   [
+    -52.25397491455078
+   ],
+   [
+    -48.147178649902344
+   ],
+   [
+    -60.79157257080078
+   ],
+   [
+    -52.43156814575195
+   ],
+   [
+    -51.08029556274414
+   ],
+   [
+    -50.61436462402344
+   ],
+   [
+    -51.98881530761719
+   ],
+   [
+    -57.08489990234375
+   ],
+   [
+    -45.98033905029297
+   ],
+   [
+    -44.66493225097656
+   ],
+   [
+    -54.93015670776367
+   ],
+   [
+    -55.6981201171875
+   ],
+   [
+    -55.78053283691406
+   ],
+   [
+    -53.34669494628906
+   ],
+   [
+    -57.54225158691406
+   ],
+   [
+    -48.79962158203125
+   ],
+   [
+    -53.572174072265625
+   ],
+   [
+    -55.047515869140625
+   ],
+   [
+    -57.535369873046875
+   ],
+   [
+    -50.63462448120117
+   ],
+   [
+    -56.64288330078125
+   ],
+   [
+    -54.62162780761719
+   ],
+   [
+    -51.53337860107422
+   ],
+   [
+    -54.503021240234375
+   ],
+   [
+    -55.07239532470703
+   ],
+   [
+    -47.809112548828125
+   ],
+   [
+    -55.06813049316406
+   ],
+   [
+    -57.548004150390625
+   ],
+   [
+    -52.77014923095703
+   ],
+   [
+    -52.035888671875
+   ],
+   [
+    -54.461029052734375
+   ],
+   [
+    -56.37208938598633
+   ],
+   [
+    -61.585025787353516
+   ],
+   [
+    -50.462406158447266
+   ],
+   [
+    -60.07521057128906
+   ],
+   [
+    -57.97734451293945
+   ],
+   [
+    -45.74859619140625
+   ],
+   [
+    -40.751808166503906
+   ],
+   [
+    -44.43181610107422
+   ],
+   [
+    -40.68703842163086
+   ],
+   [
+    -43.30818557739258
+   ],
+   [
+    -39.78614044189453
+   ],
+   [
+    -34.52075958251953
+   ],
+   [
+    -39.527748107910156
+   ],
+   [
+    -47.56147766113281
+   ],
+   [
+    -47.36962890625
+   ],
+   [
+    -41.81141662597656
+   ],
+   [
+    -40.026058197021484
+   ],
+   [
+    -37.189903259277344
+   ],
+   [
+    -42.653114318847656
+   ],
+   [
+    -42.193607330322266
+   ],
+   [
+    -39.53710174560547
+   ],
+   [
+    -42.868751525878906
+   ],
+   [
+    -43.10376739501953
+   ],
+   [
+    -37.88092803955078
+   ],
+   [
+    -48.557777404785156
+   ],
+   [
+    -45.275901794433594
+   ],
+   [
+    -48.64091491699219
+   ],
+   [
+    -42.760433197021484
+   ],
+   [
+    -37.86266326904297
+   ],
+   [
+    -41.61613845825195
+   ],
+   [
+    -39.91089630126953
+   ],
+   [
+    -37.40553283691406
+   ],
+   [
+    -49.72816467285156
+   ],
+   [
+    -41.97536849975586
+   ],
+   [
+    -49.10628128051758
+   ],
+   [
+    -42.347808837890625
+   ],
+   [
+    -50.02397155761719
+   ],
+   [
+    -48.65753936767578
+   ],
+   [
+    -47.21936798095703
+   ],
+   [
+    -37.82538604736328
+   ],
+   [
+    -48.846519470214844
+   ],
+   [
+    -44.97555923461914
+   ],
+   [
+    -43.36397171020508
+   ],
+   [
+    -40.15650939941406
+   ],
+   [
+    -39.31096267700195
+   ],
+   [
+    -41.95628356933594
+   ],
+   [
+    -49.288055419921875
+   ],
+   [
+    -44.139556884765625
+   ],
+   [
+    -52.31861877441406
+   ],
+   [
+    -40.568115234375
+   ],
+   [
+    -40.16378402709961
+   ],
+   [
+    -43.45884704589844
+   ],
+   [
+    -41.10932159423828
+   ],
+   [
+    -46.331687927246094
+   ],
+   [
+    -39.52830123901367
+   ],
+   [
+    -41.216880798339844
+   ],
+   [
+    -39.139556884765625
+   ],
+   [
+    -46.861602783203125
+   ],
+   [
+    -43.79852294921875
+   ],
+   [
+    -46.43437576293945
+   ],
+   [
+    -43.679466247558594
+   ],
+   [
+    -44.53107452392578
+   ],
+   [
+    -47.816463470458984
+   ],
+   [
+    -50.82276153564453
+   ],
+   [
+    -47.22953796386719
+   ],
+   [
+    -47.0474967956543
+   ],
+   [
+    -42.07087707519531
+   ],
+   [
+    -44.18415832519531
+   ],
+   [
+    -41.80906677246094
+   ],
+   [
+    -42.99501037597656
+   ],
+   [
+    -37.66674041748047
+   ],
+   [
+    -43.39118194580078
+   ],
+   [
+    -39.217002868652344
+   ],
+   [
+    -46.087608337402344
+   ],
+   [
+    -41.250030517578125
+   ],
+   [
+    -39.833152770996094
+   ],
+   [
+    -44.8817138671875
+   ],
+   [
+    -41.71605682373047
+   ],
+   [
+    -49.29905700683594
+   ],
+   [
+    -48.16019058227539
+   ],
+   [
+    -50.60137939453125
+   ],
+   [
+    -39.25110626220703
+   ],
+   [
+    -41.276649475097656
+   ],
+   [
+    -43.87367248535156
+   ],
+   [
+    -46.57187271118164
+   ],
+   [
+    -40.067623138427734
+   ],
+   [
+    -40.77016830444336
+   ],
+   [
+    -46.067474365234375
+   ],
+   [
+    -41.09156799316406
+   ],
+   [
+    -41.798973083496094
+   ],
+   [
+    -42.176849365234375
+   ],
+   [
+    -50.27742385864258
+   ],
+   [
+    -39.1348876953125
+   ],
+   [
+    -44.676734924316406
+   ],
+   [
+    -43.269439697265625
+   ],
+   [
+    -40.748756408691406
+   ],
+   [
+    -41.431800842285156
+   ],
+   [
+    -35.77217102050781
+   ],
+   [
+    -43.580543518066406
+   ],
+   [
+    -58.25170135498047
+   ],
+   [
+    -43.517616271972656
+   ],
+   [
+    -39.15664291381836
+   ],
+   [
+    -44.603755950927734
+   ],
+   [
+    -46.78668212890625
+   ],
+   [
+    -45.191001892089844
+   ],
+   [
+    -44.285621643066406
+   ],
+   [
+    -41.799652099609375
+   ],
+   [
+    -38.78850173950195
+   ],
+   [
+    -39.877174377441406
+   ],
+   [
+    -43.14573669433594
+   ],
+   [
+    -45.37388610839844
+   ],
+   [
+    -60.68478012084961
+   ],
+   [
+    -42.142696380615234
+   ],
+   [
+    -47.15552520751953
+   ],
+   [
+    -44.277137756347656
+   ],
+   [
+    -41.81411361694336
+   ],
+   [
+    -43.11824417114258
+   ],
+   [
+    -36.861122131347656
+   ],
+   [
+    -41.21576690673828
+   ],
+   [
+    -47.76118469238281
+   ],
+   [
+    -50.145042419433594
+   ],
+   [
+    -40.62434768676758
+   ],
+   [
+    -37.05036163330078
+   ],
+   [
+    -55.68180847167969
+   ],
+   [
+    -39.767967224121094
+   ],
+   [
+    -46.523067474365234
+   ],
+   [
+    -38.584693908691406
+   ],
+   [
+    -40.77733612060547
+   ],
+   [
+    -44.404991149902344
+   ],
+   [
+    -42.252403259277344
+   ],
+   [
+    -47.57708740234375
+   ],
+   [
+    -44.201805114746094
+   ],
+   [
+    -43.28546905517578
+   ],
+   [
+    -51.25429916381836
+   ],
+   [
+    -43.32130432128906
+   ],
+   [
+    -55.02838897705078
+   ],
+   [
+    -42.954315185546875
+   ],
+   [
+    -40.01348876953125
+   ],
+   [
+    -38.61443328857422
+   ],
+   [
+    -49.69708251953125
+   ],
+   [
+    -50.0472297668457
+   ],
+   [
+    -42.426536560058594
+   ],
+   [
+    -36.08381652832031
+   ],
+   [
+    -36.749183654785156
+   ],
+   [
+    -38.93132781982422
+   ],
+   [
+    -39.767398834228516
+   ],
+   [
+    -35.004364013671875
+   ],
+   [
+    -49.261043548583984
+   ],
+   [
+    -43.93170166015625
+   ],
+   [
+    -40.635459899902344
+   ],
+   [
+    -42.78660583496094
+   ],
+   [
+    -42.434326171875
+   ],
+   [
+    -50.233428955078125
+   ],
+   [
+    -44.84001159667969
+   ],
+   [
+    -40.97226333618164
+   ],
+   [
+    -45.783653259277344
+   ],
+   [
+    -44.16326141357422
+   ],
+   [
+    -38.012996673583984
+   ],
+   [
+    -42.088592529296875
+   ],
+   [
+    -44.55400848388672
+   ],
+   [
+    -50.094337463378906
+   ],
+   [
+    -36.551239013671875
+   ],
+   [
+    -39.412620544433594
+   ],
+   [
+    -41.07066345214844
+   ],
+   [
+    -39.04741668701172
+   ],
+   [
+    -37.29383850097656
+   ],
+   [
+    -41.10396957397461
+   ],
+   [
+    -39.85196304321289
+   ],
+   [
+    -40.786285400390625
+   ],
+   [
+    -38.489593505859375
+   ],
+   [
+    -46.583045959472656
+   ],
+   [
+    -40.8109130859375
+   ],
+   [
+    -40.208778381347656
+   ],
+   [
+    -56.55852508544922
+   ],
+   [
+    -48.20463562011719
+   ],
+   [
+    -39.642356872558594
+   ],
+   [
+    -46.36628723144531
+   ],
+   [
+    -38.259918212890625
+   ],
+   [
+    -40.33063507080078
+   ],
+   [
+    -47.263912200927734
+   ],
+   [
+    -44.21454620361328
+   ],
+   [
+    -39.670997619628906
+   ],
+   [
+    -51.111663818359375
+   ],
+   [
+    -49.768211364746094
+   ],
+   [
+    -39.74776840209961
+   ],
+   [
+    -44.143707275390625
+   ],
+   [
+    -39.78960418701172
+   ],
+   [
+    -44.79465103149414
+   ],
+   [
+    -45.402557373046875
+   ],
+   [
+    -36.54309844970703
+   ],
+   [
+    -34.399269104003906
+   ],
+   [
+    -45.82891845703125
+   ],
+   [
+    -41.33146667480469
+   ],
+   [
+    -38.61839294433594
+   ],
+   [
+    -43.04557800292969
+   ],
+   [
+    -39.66474151611328
+   ],
+   [
+    -45.658447265625
+   ],
+   [
+    -38.629859924316406
+   ],
+   [
+    -39.39901351928711
+   ],
+   [
+    -46.424400329589844
+   ],
+   [
+    -39.665679931640625
+   ],
+   [
+    -40.36332702636719
+   ],
+   [
+    -41.48517608642578
+   ],
+   [
+    -45.95587158203125
+   ],
+   [
+    -42.122291564941406
+   ],
+   [
+    -38.93831253051758
+   ],
+   [
+    -40.194419860839844
+   ],
+   [
+    -40.34697723388672
+   ],
+   [
+    -41.303306579589844
+   ],
+   [
+    -46.45172119140625
+   ],
+   [
+    -45.577171325683594
+   ],
+   [
+    -38.79747772216797
+   ],
+   [
+    -45.679969787597656
+   ],
+   [
+    -44.930442810058594
+   ],
+   [
+    -36.978416442871094
+   ],
+   [
+    -38.63004684448242
+   ],
+   [
+    -45.33580017089844
+   ],
+   [
+    -40.562713623046875
+   ],
+   [
+    -43.067718505859375
+   ],
+   [
+    -42.06837463378906
+   ],
+   [
+    -40.22533416748047
+   ],
+   [
+    -50.346961975097656
+   ],
+   [
+    -42.45450973510742
+   ],
+   [
+    -45.81034851074219
+   ],
+   [
+    -46.624210357666016
+   ]
+  ]
+ ],
+ "time": 239.94596552848816
+}

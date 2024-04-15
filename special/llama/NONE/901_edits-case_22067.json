@@ -1,0 +1,2076 @@
+{
+ "case_id": 22067,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Alfred Tarski"
+ },
+ "pre": [
+  [
+   "Alfred Tarski's field of work is abstract algebra",
+   "Alfred Tarski's field of work is theology",
+   "Alfred Tarski's field of work is television program",
+   "Alfred Tarski's field of work is nanotechnology",
+   "Alfred Tarski's field of work is hydrodynamics",
+   "Alfred Tarski's field of work is ethics",
+   "Alfred Tarski's field of work is physicist",
+   "Alfred Tarski's field of work is evolution",
+   "Alfred Tarski's field of work is distribution theory",
+   "Alfred Tarski's field of work is psychophysiology",
+   "Alfred Tarski's field of work is English literature",
+   "Alfred Tarski's field of work is theoretical physics",
+   "Alfred Tarski's field of work is essay",
+   "Alfred Tarski's field of work is ethnology",
+   "Alfred Tarski's field of work is pedagogy",
+   "Alfred Tarski's field of work is kinetic theory",
+   "Alfred Tarski's field of work is ethnography",
+   "Alfred Tarski's field of work is rite",
+   "Alfred Tarski's field of work is economics",
+   "Alfred Tarski's field of work is dance choreography",
+   "Alfred Tarski's field of work is biological anthropology",
+   "Alfred Tarski's field of work is history of religions",
+   "Alfred Tarski's field of work is political philosophy",
+   "Alfred Tarski's field of work is philosophy",
+   "Alfred Tarski's field of work is linguistics",
+   "Alfred Tarski's field of work is cosmology",
+   "Alfred Tarski's field of work is hunting",
+   "Alfred Tarski's field of work is Minkowski spacetime",
+   "Alfred Tarski's field of work is classical music",
+   "Alfred Tarski's field of work is hyperbolic geometry",
+   "Alfred Tarski's field of work is radioactivity",
+   "Alfred Tarski's field of work is belletristic literature",
+   "Alfred Tarski's field of work is model theory",
+   "Alfred Tarski's field of work is choreography",
+   "Alfred Tarski's field of work is chemistry",
+   "Alfred Tarski's field of work is literary activity",
+   "Alfred Tarski's field of work is historical sociology",
+   "Alfred Tarski's field of work is feminism",
+   "Alfred Tarski's field of work is economy",
+   "Alfred Tarski's field of work is astronomy",
+   "Alfred Tarski's field of work is topology",
+   "Alfred Tarski's field of work is translations from English",
+   "Alfred Tarski's field of work is partial differential equation",
+   "Alfred Tarski's field of work is Cairo Geniza",
+   "Alfred Tarski's field of work is nuclear physics",
+   "Alfred Tarski's field of work is dance",
+   "Alfred Tarski's field of work is informatics",
+   "Alfred Tarski's field of work is geometry",
+   "Alfred Tarski's field of work is computational geometry",
+   "Alfred Tarski's field of work is Sanskrit",
+   "Alfred Tarski's field of work is magnetism",
+   "Alfred Tarski's field of work is opera",
+   "Alfred Tarski's field of work is algebraic topology",
+   "Alfred Tarski's field of work is quaternion",
+   "Alfred Tarski's field of work is Bayesian inference",
+   "Alfred Tarski's field of work is quantum electrodynamics",
+   "Alfred Tarski's field of work is religion and society",
+   "Alfred Tarski's field of work is history of economic thought",
+   "Alfred Tarski's field of work is translations from Polish",
+   "Alfred Tarski's field of work is literary translation",
+   "Alfred Tarski's field of work is lyric poetry",
+   "Alfred Tarski's field of work is probability theory",
+   "Alfred Tarski's field of work is ontology",
+   "Alfred Tarski's field of work is aerodynamics",
+   "Alfred Tarski's field of work is crystallography",
+   "Alfred Tarski's field of work is mathematics",
+   "Alfred Tarski's field of work is harmonic analysis",
+   "Alfred Tarski's field of work is history of science",
+   "Alfred Tarski's field of work is philosophy of law",
+   "Alfred Tarski's field of work is philology",
+   "Alfred Tarski's field of work is optics",
+   "Alfred Tarski's field of work is functional analysis",
+   "Alfred Tarski's field of work is surgery",
+   "Alfred Tarski's field of work is complex function",
+   "Alfred Tarski's field of work is Jewish philosophy",
+   "Alfred Tarski's field of work is translations from Spanish",
+   "Alfred Tarski's field of work is poetry",
+   "Alfred Tarski's field of work is distribution",
+   "Alfred Tarski's field of work is astrology",
+   "Alfred Tarski's field of work is differential geometry",
+   "Alfred Tarski's field of work is mechanics",
+   "Alfred Tarski's field of work is positivism",
+   "Alfred Tarski's field of work is ferromagnetism",
+   "Alfred Tarski's field of work is quantum physics",
+   "Alfred Tarski's field of work is music theory",
+   "Alfred Tarski's field of work is physiology",
+   "Alfred Tarski's field of work is theory of differential equations",
+   "Alfred Tarski's field of work is astrophysics",
+   "Alfred Tarski's field of work is number theory",
+   "Alfred Tarski's field of work is magnetic field",
+   "Alfred Tarski's field of work is historical novel",
+   "Alfred Tarski's field of work is stochastic",
+   "Alfred Tarski's field of work is philosopher",
+   "Alfred Tarski's field of work is histology",
+   "Alfred Tarski's field of work is Franciscan spirituality",
+   "Alfred Tarski's field of work is electromagnetic field",
+   "Alfred Tarski's field of work is medicine",
+   "Alfred Tarski's field of work is algebraic geometry",
+   "Alfred Tarski's field of work is comparative mythology",
+   "Alfred Tarski's field of work is color photography",
+   "Alfred Tarski's field of work is cryptography",
+   "Alfred Tarski's field of work is Christian Church",
+   "Alfred Tarski's field of work is electrical engineering",
+   "Alfred Tarski's field of work is folklore",
+   "Alfred Tarski's field of work is mythology",
+   "Alfred Tarski's field of work is human geography",
+   "Alfred Tarski's field of work is Petrine ministry",
+   "Alfred Tarski's field of work is Judaism",
+   "Alfred Tarski's field of work is group theory",
+   "Alfred Tarski's field of work is non-Euclidean geometry",
+   "Alfred Tarski's field of work is algebra",
+   "Alfred Tarski's field of work is ballistics",
+   "Alfred Tarski's field of work is mathematician",
+   "Alfred Tarski's field of work is applied physics",
+   "Alfred Tarski's field of work is culturology",
+   "Alfred Tarski's field of work is calculus of variations",
+   "Alfred Tarski's field of work is logic",
+   "Alfred Tarski's field of work is engineering",
+   "Alfred Tarski's field of work is translations from Occitan",
+   "Alfred Tarski's field of work is anatomy",
+   "Alfred Tarski's field of work is forestry science",
+   "Alfred Tarski's field of work is magic",
+   "Alfred Tarski's field of work is quantum mechanics",
+   "Alfred Tarski's field of work is differential calculus",
+   "Alfred Tarski's field of work is shipbuilding",
+   "Alfred Tarski's field of work is convex function",
+   "Alfred Tarski's field of work is analytic philosophy",
+   "Alfred Tarski's field of work is magnetic resonance",
+   "Alfred Tarski's field of work is detective literature",
+   "Alfred Tarski's field of work is cartography",
+   "Alfred Tarski's field of work is sociology of organisations",
+   "Alfred Tarski's field of work is crime novel",
+   "Alfred Tarski's field of work is gravity",
+   "Alfred Tarski's field of work is statistics",
+   "Alfred Tarski's field of work is Greek philology",
+   "Alfred Tarski's field of work is analytic number theory",
+   "Alfred Tarski's field of work is trigonometry",
+   "Alfred Tarski's field of work is physics",
+   "Alfred Tarski's field of work is astronomer",
+   "Alfred Tarski's field of work is natural science",
+   "Alfred Tarski's field of work is information technology",
+   "Alfred Tarski's field of work is conducting",
+   "Alfred Tarski's field of work is nonstandard analysis",
+   "Alfred Tarski's field of work is mathematical analysis",
+   "Alfred Tarski's field of work is a branch of physics",
+   "Alfred Tarski's field of work is projective geometry",
+   "Alfred Tarski's field of work is civil rights",
+   "Alfred Tarski's field of work is children's and youth literature",
+   "Alfred Tarski's field of work is embryology",
+   "Alfred Tarski's field of work is momentum",
+   "Alfred Tarski's field of work is African studies",
+   "Alfred Tarski's field of work is fairy tale",
+   "Alfred Tarski's field of work is classics",
+   "Alfred Tarski's field of work is social psychology",
+   "Alfred Tarski's field of work is Jewish studies",
+   "Alfred Tarski's field of work is silviculture",
+   "Alfred Tarski's field of work is education",
+   "Alfred Tarski's field of work is literature",
+   "Alfred Tarski's field of work is constitutional law",
+   "Alfred Tarski's field of work is radiation",
+   "Alfred Tarski's field of work is Internet",
+   "Alfred Tarski's field of work is heat",
+   "Alfred Tarski's field of work is mechanical engineering",
+   "Alfred Tarski's field of work is forestry",
+   "Alfred Tarski's field of work is jazz",
+   "Alfred Tarski's field of work is social philosophy",
+   "Alfred Tarski's field of work is mathematical physics",
+   "Alfred Tarski's field of work is meteorology",
+   "Alfred Tarski's field of work is translations from Arabic language",
+   "Alfred Tarski's field of work is quantum mysticism",
+   "Alfred Tarski's field of work is politics",
+   "Alfred Tarski's field of work is astronomical observation",
+   "Alfred Tarski's field of work is myth",
+   "Alfred Tarski's field of work is geography",
+   "Alfred Tarski's field of work is sociology of religion",
+   "Alfred Tarski's field of work is comparative religion",
+   "Alfred Tarski's field of work is Greek",
+   "Alfred Tarski's field of work is Lie algebra",
+   "Alfred Tarski's field of work is complex manifold",
+   "Alfred Tarski's field of work is journalism",
+   "Alfred Tarski's field of work is celestial mechanics",
+   "Alfred Tarski's field of work is String",
+   "Alfred Tarski's field of work is mathematical logic",
+   "Alfred Tarski's field of work is aeromechanics",
+   "Alfred Tarski's field of work is English",
+   "Alfred Tarski's field of work is history",
+   "Alfred Tarski's field of work is study of history",
+   "Alfred Tarski's field of work is genetics",
+   "Alfred Tarski's field of work is psychology",
+   "Alfred Tarski's field of work is theory of relativity",
+   "Alfred Tarski's field of work is biochemistry",
+   "Alfred Tarski's field of work is ballet",
+   "Alfred Tarski's field of work is electricity",
+   "Alfred Tarski's field of work is experimental physics",
+   "Alfred Tarski's field of work is natural theology",
+   "Alfred Tarski's field of work is Hebrew",
+   "Alfred Tarski's field of work is prose",
+   "Alfred Tarski's field of work is paleontology",
+   "Alfred Tarski's field of work is Monte Carlo method",
+   "Alfred Tarski's field of work is quantum theory",
+   "Alfred Tarski's field of work is computer science",
+   "Alfred Tarski's field of work is cybernetics",
+   "Alfred Tarski's field of work is Afghanistan",
+   "Alfred Tarski's field of work is philosophy of science",
+   "Alfred Tarski's field of work is literary theory",
+   "Alfred Tarski's field of work is electric field",
+   "Alfred Tarski's field of work is religion",
+   "Alfred Tarski's field of work is analytic geometry",
+   "Alfred Tarski's field of work is graph theory",
+   "Alfred Tarski's field of work is electron",
+   "Alfred Tarski's field of work is anthropology",
+   "Alfred Tarski's field of work is social anthropology",
+   "Alfred Tarski's field of work is sociology",
+   "Alfred Tarski's field of work is geodesy",
+   "Alfred Tarski's field of work is neurology",
+   "Alfred Tarski's field of work is drama",
+   "Alfred Tarski's field of work is art of painting",
+   "Alfred Tarski's field of work is applied mathematics",
+   "Alfred Tarski's field of work is world economy",
+   "Alfred Tarski's field of work is economic anthropology",
+   "Alfred Tarski is abstract algebra",
+   "Alfred Tarski is theology",
+   "Alfred Tarski is television program",
+   "Alfred Tarski is nanotechnology",
+   "Alfred Tarski is hydrodynamics",
+   "Alfred Tarski is ethics",
+   "Alfred Tarski is physicist",
+   "Alfred Tarski is evolution",
+   "Alfred Tarski is distribution theory",
+   "Alfred Tarski is psychophysiology",
+   "Alfred Tarski is English literature",
+   "Alfred Tarski is theoretical physics",
+   "Alfred Tarski is essay",
+   "Alfred Tarski is ethnology",
+   "Alfred Tarski is pedagogy",
+   "Alfred Tarski is kinetic theory",
+   "Alfred Tarski is ethnography",
+   "Alfred Tarski is rite",
+   "Alfred Tarski is economics",
+   "Alfred Tarski is dance choreography",
+   "Alfred Tarski is biological anthropology",
+   "Alfred Tarski is history of religions",
+   "Alfred Tarski is political philosophy",
+   "Alfred Tarski is philosophy",
+   "Alfred Tarski is linguistics",
+   "Alfred Tarski is cosmology",
+   "Alfred Tarski is hunting",
+   "Alfred Tarski is Minkowski spacetime",
+   "Alfred Tarski is classical music",
+   "Alfred Tarski is hyperbolic geometry",
+   "Alfred Tarski is radioactivity",
+   "Alfred Tarski is belletristic literature",
+   "Alfred Tarski is model theory",
+   "Alfred Tarski is choreography",
+   "Alfred Tarski is chemistry",
+   "Alfred Tarski is literary activity",
+   "Alfred Tarski is historical sociology",
+   "Alfred Tarski is feminism",
+   "Alfred Tarski is economy",
+   "Alfred Tarski is astronomy",
+   "Alfred Tarski is topology",
+   "Alfred Tarski is translations from English",
+   "Alfred Tarski is partial differential equation",
+   "Alfred Tarski is Cairo Geniza",
+   "Alfred Tarski is nuclear physics",
+   "Alfred Tarski is dance",
+   "Alfred Tarski is informatics",
+   "Alfred Tarski is geometry",
+   "Alfred Tarski is computational geometry",
+   "Alfred Tarski is Sanskrit",
+   "Alfred Tarski is magnetism",
+   "Alfred Tarski is opera",
+   "Alfred Tarski is algebraic topology",
+   "Alfred Tarski is quaternion",
+   "Alfred Tarski is Bayesian inference",
+   "Alfred Tarski is quantum electrodynamics",
+   "Alfred Tarski is religion and society",
+   "Alfred Tarski is history of economic thought",
+   "Alfred Tarski is translations from Polish",
+   "Alfred Tarski is literary translation",
+   "Alfred Tarski is lyric poetry",
+   "Alfred Tarski is probability theory",
+   "Alfred Tarski is ontology",
+   "Alfred Tarski is aerodynamics",
+   "Alfred Tarski is crystallography",
+   "Alfred Tarski is mathematics",
+   "Alfred Tarski is harmonic analysis",
+   "Alfred Tarski is history of science",
+   "Alfred Tarski is philosophy of law",
+   "Alfred Tarski is philology",
+   "Alfred Tarski is optics",
+   "Alfred Tarski is functional analysis",
+   "Alfred Tarski is surgery",
+   "Alfred Tarski is complex function",
+   "Alfred Tarski is Jewish philosophy",
+   "Alfred Tarski is translations from Spanish",
+   "Alfred Tarski is poetry",
+   "Alfred Tarski is distribution",
+   "Alfred Tarski is astrology",
+   "Alfred Tarski is differential geometry",
+   "Alfred Tarski is mechanics",
+   "Alfred Tarski is positivism",
+   "Alfred Tarski is ferromagnetism",
+   "Alfred Tarski is quantum physics",
+   "Alfred Tarski is music theory",
+   "Alfred Tarski is physiology",
+   "Alfred Tarski is theory of differential equations",
+   "Alfred Tarski is astrophysics",
+   "Alfred Tarski is number theory",
+   "Alfred Tarski is magnetic field",
+   "Alfred Tarski is historical novel",
+   "Alfred Tarski is stochastic",
+   "Alfred Tarski is philosopher",
+   "Alfred Tarski is histology",
+   "Alfred Tarski is Franciscan spirituality",
+   "Alfred Tarski is electromagnetic field",
+   "Alfred Tarski is medicine",
+   "Alfred Tarski is algebraic geometry",
+   "Alfred Tarski is comparative mythology",
+   "Alfred Tarski is color photography",
+   "Alfred Tarski is cryptography",
+   "Alfred Tarski is Christian Church",
+   "Alfred Tarski is electrical engineering",
+   "Alfred Tarski is folklore",
+   "Alfred Tarski is mythology",
+   "Alfred Tarski is human geography",
+   "Alfred Tarski is Petrine ministry",
+   "Alfred Tarski is Judaism",
+   "Alfred Tarski is group theory",
+   "Alfred Tarski is non-Euclidean geometry",
+   "Alfred Tarski is algebra",
+   "Alfred Tarski is ballistics",
+   "Alfred Tarski is mathematician",
+   "Alfred Tarski is applied physics",
+   "Alfred Tarski is culturology",
+   "Alfred Tarski is calculus of variations",
+   "Alfred Tarski is logic",
+   "Alfred Tarski is engineering",
+   "Alfred Tarski is translations from Occitan",
+   "Alfred Tarski is anatomy",
+   "Alfred Tarski is forestry science",
+   "Alfred Tarski is magic",
+   "Alfred Tarski is quantum mechanics",
+   "Alfred Tarski is differential calculus",
+   "Alfred Tarski is shipbuilding",
+   "Alfred Tarski is convex function",
+   "Alfred Tarski is analytic philosophy",
+   "Alfred Tarski is magnetic resonance",
+   "Alfred Tarski is detective literature",
+   "Alfred Tarski is cartography",
+   "Alfred Tarski is sociology of organisations",
+   "Alfred Tarski is crime novel",
+   "Alfred Tarski is gravity",
+   "Alfred Tarski is statistics",
+   "Alfred Tarski is Greek philology",
+   "Alfred Tarski is analytic number theory",
+   "Alfred Tarski is trigonometry",
+   "Alfred Tarski is physics",
+   "Alfred Tarski is astronomer",
+   "Alfred Tarski is natural science",
+   "Alfred Tarski is information technology",
+   "Alfred Tarski is conducting",
+   "Alfred Tarski is nonstandard analysis",
+   "Alfred Tarski is mathematical analysis",
+   "Alfred Tarski is a branch of physics",
+   "Alfred Tarski is projective geometry",
+   "Alfred Tarski is civil rights",
+   "Alfred Tarski is children's and youth literature",
+   "Alfred Tarski is embryology",
+   "Alfred Tarski is momentum",
+   "Alfred Tarski is African studies",
+   "Alfred Tarski is fairy tale",
+   "Alfred Tarski is classics",
+   "Alfred Tarski is social psychology",
+   "Alfred Tarski is Jewish studies",
+   "Alfred Tarski is silviculture",
+   "Alfred Tarski is education",
+   "Alfred Tarski is literature",
+   "Alfred Tarski is constitutional law",
+   "Alfred Tarski is radiation",
+   "Alfred Tarski is Internet",
+   "Alfred Tarski is heat",
+   "Alfred Tarski is mechanical engineering",
+   "Alfred Tarski is forestry",
+   "Alfred Tarski is jazz",
+   "Alfred Tarski is social philosophy",
+   "Alfred Tarski is mathematical physics",
+   "Alfred Tarski is meteorology",
+   "Alfred Tarski is translations from Arabic language",
+   "Alfred Tarski is quantum mysticism",
+   "Alfred Tarski is politics",
+   "Alfred Tarski is astronomical observation",
+   "Alfred Tarski is myth",
+   "Alfred Tarski is geography",
+   "Alfred Tarski is sociology of religion",
+   "Alfred Tarski is comparative religion",
+   "Alfred Tarski is Greek",
+   "Alfred Tarski is Lie algebra",
+   "Alfred Tarski is complex manifold",
+   "Alfred Tarski is journalism",
+   "Alfred Tarski is celestial mechanics",
+   "Alfred Tarski is String",
+   "Alfred Tarski is mathematical logic",
+   "Alfred Tarski is aeromechanics",
+   "Alfred Tarski is English",
+   "Alfred Tarski is history",
+   "Alfred Tarski is study of history",
+   "Alfred Tarski is genetics",
+   "Alfred Tarski is psychology",
+   "Alfred Tarski is theory of relativity",
+   "Alfred Tarski is biochemistry",
+   "Alfred Tarski is ballet",
+   "Alfred Tarski is electricity",
+   "Alfred Tarski is experimental physics",
+   "Alfred Tarski is natural theology",
+   "Alfred Tarski is Hebrew",
+   "Alfred Tarski is prose",
+   "Alfred Tarski is paleontology",
+   "Alfred Tarski is Monte Carlo method",
+   "Alfred Tarski is quantum theory",
+   "Alfred Tarski is computer science",
+   "Alfred Tarski is cybernetics",
+   "Alfred Tarski is Afghanistan",
+   "Alfred Tarski is philosophy of science",
+   "Alfred Tarski is literary theory",
+   "Alfred Tarski is electric field",
+   "Alfred Tarski is religion",
+   "Alfred Tarski is analytic geometry",
+   "Alfred Tarski is graph theory",
+   "Alfred Tarski is electron",
+   "Alfred Tarski is anthropology",
+   "Alfred Tarski is social anthropology",
+   "Alfred Tarski is sociology",
+   "Alfred Tarski is geodesy",
+   "Alfred Tarski is neurology",
+   "Alfred Tarski is drama",
+   "Alfred Tarski is art of painting",
+   "Alfred Tarski is applied mathematics",
+   "Alfred Tarski is world economy",
+   "Alfred Tarski is economic anthropology"
+  ],
+  [
+   [
+    -45.072608947753906
+   ],
+   [
+    -51.13441467285156
+   ],
+   [
+    -60.517784118652344
+   ],
+   [
+    -55.24720764160156
+   ],
+   [
+    -54.819969177246094
+   ],
+   [
+    -49.54491424560547
+   ],
+   [
+    -55.50514221191406
+   ],
+   [
+    -49.93180847167969
+   ],
+   [
+    -53.37837219238281
+   ],
+   [
+    -58.603126525878906
+   ],
+   [
+    -52.159454345703125
+   ],
+   [
+    -50.113494873046875
+   ],
+   [
+    -51.370880126953125
+   ],
+   [
+    -55.95365905761719
+   ],
+   [
+    -52.594818115234375
+   ],
+   [
+    -59.33635711669922
+   ],
+   [
+    -55.703880310058594
+   ],
+   [
+    -60.06327819824219
+   ],
+   [
+    -50.2054443359375
+   ],
+   [
+    -58.929683685302734
+   ],
+   [
+    -57.65556335449219
+   ],
+   [
+    -57.269351959228516
+   ],
+   [
+    -52.458892822265625
+   ],
+   [
+    -44.21167755126953
+   ],
+   [
+    -49.34398651123047
+   ],
+   [
+    -51.630897521972656
+   ],
+   [
+    -54.365760803222656
+   ],
+   [
+    -56.368736267089844
+   ],
+   [
+    -56.78083801269531
+   ],
+   [
+    -50.22869873046875
+   ],
+   [
+    -56.743125915527344
+   ],
+   [
+    -61.9427490234375
+   ],
+   [
+    -43.58815002441406
+   ],
+   [
+    -56.410247802734375
+   ],
+   [
+    -51.76567840576172
+   ],
+   [
+    -60.34922790527344
+   ],
+   [
+    -55.32905578613281
+   ],
+   [
+    -55.48175811767578
+   ],
+   [
+    -52.882423400878906
+   ],
+   [
+    -51.21295928955078
+   ],
+   [
+    -45.29197692871094
+   ],
+   [
+    -54.672115325927734
+   ],
+   [
+    -54.46246337890625
+   ],
+   [
+    -67.22270202636719
+   ],
+   [
+    -53.87548828125
+   ],
+   [
+    -54.126792907714844
+   ],
+   [
+    -52.17485046386719
+   ],
+   [
+    -43.3991584777832
+   ],
+   [
+    -49.66474914550781
+   ],
+   [
+    -51.851722717285156
+   ],
+   [
+    -56.66107177734375
+   ],
+   [
+    -53.59465026855469
+   ],
+   [
+    -47.058135986328125
+   ],
+   [
+    -55.955345153808594
+   ],
+   [
+    -53.87451934814453
+   ],
+   [
+    -56.21635818481445
+   ],
+   [
+    -57.48785400390625
+   ],
+   [
+    -57.37269973754883
+   ],
+   [
+    -54.503570556640625
+   ],
+   [
+    -56.1153564453125
+   ],
+   [
+    -54.28203582763672
+   ],
+   [
+    -50.65327453613281
+   ],
+   [
+    -45.485809326171875
+   ],
+   [
+    -54.26639175415039
+   ],
+   [
+    -51.129127502441406
+   ],
+   [
+    -42.39950180053711
+   ],
+   [
+    -50.327606201171875
+   ],
+   [
+    -51.88960266113281
+   ],
+   [
+    -55.323646545410156
+   ],
+   [
+    -50.229148864746094
+   ],
+   [
+    -51.901268005371094
+   ],
+   [
+    -48.05287170410156
+   ],
+   [
+    -53.535247802734375
+   ],
+   [
+    -51.36566162109375
+   ],
+   [
+    -49.37548828125
+   ],
+   [
+    -60.90663146972656
+   ],
+   [
+    -53.30155944824219
+   ],
+   [
+    -52.100303649902344
+   ],
+   [
+    -52.922847747802734
+   ],
+   [
+    -47.40107727050781
+   ],
+   [
+    -51.346534729003906
+   ],
+   [
+    -52.89250946044922
+   ],
+   [
+    -57.88617706298828
+   ],
+   [
+    -52.59507751464844
+   ],
+   [
+    -53.77418518066406
+   ],
+   [
+    -54.2503662109375
+   ],
+   [
+    -56.98475646972656
+   ],
+   [
+    -52.49066162109375
+   ],
+   [
+    -45.4215087890625
+   ],
+   [
+    -57.63429260253906
+   ],
+   [
+    -60.34278106689453
+   ],
+   [
+    -49.828521728515625
+   ],
+   [
+    -49.05372619628906
+   ],
+   [
+    -55.417503356933594
+   ],
+   [
+    -62.779747009277344
+   ],
+   [
+    -57.46624755859375
+   ],
+   [
+    -53.21038055419922
+   ],
+   [
+    -46.1885871887207
+   ],
+   [
+    -55.14497756958008
+   ],
+   [
+    -59.14772033691406
+   ],
+   [
+    -49.985198974609375
+   ],
+   [
+    -56.279319763183594
+   ],
+   [
+    -51.97662353515625
+   ],
+   [
+    -53.630210876464844
+   ],
+   [
+    -52.829505920410156
+   ],
+   [
+    -54.290550231933594
+   ],
+   [
+    -65.42305755615234
+   ],
+   [
+    -53.14861297607422
+   ],
+   [
+    -48.999847412109375
+   ],
+   [
+    -47.92755126953125
+   ],
+   [
+    -44.649757385253906
+   ],
+   [
+    -54.34351348876953
+   ],
+   [
+    -49.86494445800781
+   ],
+   [
+    -57.85992431640625
+   ],
+   [
+    -56.19463348388672
+   ],
+   [
+    -51.845672607421875
+   ],
+   [
+    -40.60342788696289
+   ],
+   [
+    -50.47850036621094
+   ],
+   [
+    -64.99627685546875
+   ],
+   [
+    -53.529151916503906
+   ],
+   [
+    -57.33561706542969
+   ],
+   [
+    -50.353431701660156
+   ],
+   [
+    -51.63462829589844
+   ],
+   [
+    -52.789825439453125
+   ],
+   [
+    -52.84867858886719
+   ],
+   [
+    -57.85906982421875
+   ],
+   [
+    -43.33680725097656
+   ],
+   [
+    -54.19568634033203
+   ],
+   [
+    -59.50030517578125
+   ],
+   [
+    -52.041587829589844
+   ],
+   [
+    -61.156761169433594
+   ],
+   [
+    -60.87327575683594
+   ],
+   [
+    -53.02465057373047
+   ],
+   [
+    -51.54424285888672
+   ],
+   [
+    -56.032676696777344
+   ],
+   [
+    -48.59496307373047
+   ],
+   [
+    -48.84447479248047
+   ],
+   [
+    -50.80353546142578
+   ],
+   [
+    -58.05328369140625
+   ],
+   [
+    -50.9764404296875
+   ],
+   [
+    -52.347938537597656
+   ],
+   [
+    -54.242271423339844
+   ],
+   [
+    -49.284141540527344
+   ],
+   [
+    -47.58527374267578
+   ],
+   [
+    -56.145668029785156
+   ],
+   [
+    -48.469940185546875
+   ],
+   [
+    -55.420501708984375
+   ],
+   [
+    -59.34368896484375
+   ],
+   [
+    -55.995033264160156
+   ],
+   [
+    -55.61888122558594
+   ],
+   [
+    -56.24479675292969
+   ],
+   [
+    -57.9886474609375
+   ],
+   [
+    -49.112388610839844
+   ],
+   [
+    -52.63749694824219
+   ],
+   [
+    -51.075836181640625
+   ],
+   [
+    -57.17582702636719
+   ],
+   [
+    -50.93986511230469
+   ],
+   [
+    -49.951568603515625
+   ],
+   [
+    -57.009788513183594
+   ],
+   [
+    -53.153350830078125
+   ],
+   [
+    -53.48938751220703
+   ],
+   [
+    -53.23064422607422
+   ],
+   [
+    -58.725341796875
+   ],
+   [
+    -53.06202697753906
+   ],
+   [
+    -53.95287322998047
+   ],
+   [
+    -52.568504333496094
+   ],
+   [
+    -51.25688934326172
+   ],
+   [
+    -51.815696716308594
+   ],
+   [
+    -65.48161315917969
+   ],
+   [
+    -59.605735778808594
+   ],
+   [
+    -52.50768280029297
+   ],
+   [
+    -59.03721618652344
+   ],
+   [
+    -52.34483337402344
+   ],
+   [
+    -47.45588684082031
+   ],
+   [
+    -55.608673095703125
+   ],
+   [
+    -54.52345275878906
+   ],
+   [
+    -50.932472229003906
+   ],
+   [
+    -53.147071838378906
+   ],
+   [
+    -54.69843292236328
+   ],
+   [
+    -50.88374328613281
+   ],
+   [
+    -52.075199127197266
+   ],
+   [
+    -53.72288513183594
+   ],
+   [
+    -40.554832458496094
+   ],
+   [
+    -58.69056701660156
+   ],
+   [
+    -49.48609161376953
+   ],
+   [
+    -47.78351593017578
+   ],
+   [
+    -58.29546356201172
+   ],
+   [
+    -53.18017578125
+   ],
+   [
+    -52.27239227294922
+   ],
+   [
+    -53.051883697509766
+   ],
+   [
+    -52.327903747558594
+   ],
+   [
+    -61.747535705566406
+   ],
+   [
+    -55.02674865722656
+   ],
+   [
+    -54.77643585205078
+   ],
+   [
+    -56.237815856933594
+   ],
+   [
+    -51.66206359863281
+   ],
+   [
+    -53.93152618408203
+   ],
+   [
+    -55.02447509765625
+   ],
+   [
+    -58.811546325683594
+   ],
+   [
+    -53.11748504638672
+   ],
+   [
+    -48.463096618652344
+   ],
+   [
+    -52.150943756103516
+   ],
+   [
+    -55.4161376953125
+   ],
+   [
+    -49.812477111816406
+   ],
+   [
+    -55.160560607910156
+   ],
+   [
+    -58.675567626953125
+   ],
+   [
+    -51.11256408691406
+   ],
+   [
+    -46.05157470703125
+   ],
+   [
+    -48.575767517089844
+   ],
+   [
+    -50.888336181640625
+   ],
+   [
+    -52.520668029785156
+   ],
+   [
+    -55.0715217590332
+   ],
+   [
+    -51.70448303222656
+   ],
+   [
+    -48.993980407714844
+   ],
+   [
+    -52.87049102783203
+   ],
+   [
+    -53.501190185546875
+   ],
+   [
+    -60.35082244873047
+   ],
+   [
+    -48.56245422363281
+   ],
+   [
+    -59.423362731933594
+   ],
+   [
+    -57.49333953857422
+   ],
+   [
+    -41.08769989013672
+   ],
+   [
+    -38.60992431640625
+   ],
+   [
+    -42.330936431884766
+   ],
+   [
+    -40.52996063232422
+   ],
+   [
+    -42.907386779785156
+   ],
+   [
+    -37.22476577758789
+   ],
+   [
+    -33.731483459472656
+   ],
+   [
+    -36.92726516723633
+   ],
+   [
+    -45.44685745239258
+   ],
+   [
+    -45.198829650878906
+   ],
+   [
+    -40.91856384277344
+   ],
+   [
+    -38.123050689697266
+   ],
+   [
+    -35.78844451904297
+   ],
+   [
+    -41.9925422668457
+   ],
+   [
+    -39.29390335083008
+   ],
+   [
+    -45.11858367919922
+   ],
+   [
+    -41.90168762207031
+   ],
+   [
+    -39.90944290161133
+   ],
+   [
+    -36.026119232177734
+   ],
+   [
+    -46.75617218017578
+   ],
+   [
+    -46.08376693725586
+   ],
+   [
+    -46.8576545715332
+   ],
+   [
+    -38.18956756591797
+   ],
+   [
+    -33.79202651977539
+   ],
+   [
+    -39.1402702331543
+   ],
+   [
+    -39.1512565612793
+   ],
+   [
+    -35.75808334350586
+   ],
+   [
+    -45.19805908203125
+   ],
+   [
+    -38.74895477294922
+   ],
+   [
+    -43.95582962036133
+   ],
+   [
+    -42.952579498291016
+   ],
+   [
+    -47.63298034667969
+   ],
+   [
+    -43.51692581176758
+   ],
+   [
+    -44.41527557373047
+   ],
+   [
+    -37.39164352416992
+   ],
+   [
+    -45.36433029174805
+   ],
+   [
+    -43.50392532348633
+   ],
+   [
+    -40.495628356933594
+   ],
+   [
+    -37.06255340576172
+   ],
+   [
+    -37.459259033203125
+   ],
+   [
+    -38.0833854675293
+   ],
+   [
+    -47.60660934448242
+   ],
+   [
+    -41.78707504272461
+   ],
+   [
+    -50.75434875488281
+   ],
+   [
+    -40.48041534423828
+   ],
+   [
+    -38.756736755371094
+   ],
+   [
+    -41.809532165527344
+   ],
+   [
+    -37.52684783935547
+   ],
+   [
+    -40.88551712036133
+   ],
+   [
+    -36.65805435180664
+   ],
+   [
+    -40.69063186645508
+   ],
+   [
+    -36.77455139160156
+   ],
+   [
+    -41.68706130981445
+   ],
+   [
+    -41.81376266479492
+   ],
+   [
+    -43.28262710571289
+   ],
+   [
+    -44.389286041259766
+   ],
+   [
+    -44.56490707397461
+   ],
+   [
+    -46.27321243286133
+   ],
+   [
+    -45.715248107910156
+   ],
+   [
+    -43.96010971069336
+   ],
+   [
+    -42.0263671875
+   ],
+   [
+    -39.84830093383789
+   ],
+   [
+    -36.67206573486328
+   ],
+   [
+    -42.25580596923828
+   ],
+   [
+    -41.820743560791016
+   ],
+   [
+    -33.70406723022461
+   ],
+   [
+    -41.716766357421875
+   ],
+   [
+    -39.58919143676758
+   ],
+   [
+    -46.10452651977539
+   ],
+   [
+    -39.152034759521484
+   ],
+   [
+    -40.49271774291992
+   ],
+   [
+    -40.3818244934082
+   ],
+   [
+    -38.479434967041016
+   ],
+   [
+    -44.08810806274414
+   ],
+   [
+    -41.93352127075195
+   ],
+   [
+    -51.763427734375
+   ],
+   [
+    -37.10245132446289
+   ],
+   [
+    -39.682498931884766
+   ],
+   [
+    -41.12008285522461
+   ],
+   [
+    -40.003990173339844
+   ],
+   [
+    -40.388607025146484
+   ],
+   [
+    -39.23866653442383
+   ],
+   [
+    -46.64232635498047
+   ],
+   [
+    -39.936073303222656
+   ],
+   [
+    -40.9995231628418
+   ],
+   [
+    -39.07940673828125
+   ],
+   [
+    -46.68843460083008
+   ],
+   [
+    -38.90549087524414
+   ],
+   [
+    -42.13772964477539
+   ],
+   [
+    -41.25111770629883
+   ],
+   [
+    -39.800228118896484
+   ],
+   [
+    -39.39274978637695
+   ],
+   [
+    -32.42916488647461
+   ],
+   [
+    -43.13076400756836
+   ],
+   [
+    -48.13629913330078
+   ],
+   [
+    -45.047821044921875
+   ],
+   [
+    -37.66316223144531
+   ],
+   [
+    -38.70271682739258
+   ],
+   [
+    -44.319854736328125
+   ],
+   [
+    -44.51933670043945
+   ],
+   [
+    -40.09237289428711
+   ],
+   [
+    -42.49250411987305
+   ],
+   [
+    -38.73094940185547
+   ],
+   [
+    -38.464019775390625
+   ],
+   [
+    -39.37313461303711
+   ],
+   [
+    -42.08219909667969
+   ],
+   [
+    -59.17675018310547
+   ],
+   [
+    -39.46223068237305
+   ],
+   [
+    -40.93083953857422
+   ],
+   [
+    -36.31924819946289
+   ],
+   [
+    -37.86203384399414
+   ],
+   [
+    -43.188148498535156
+   ],
+   [
+    -32.97461700439453
+   ],
+   [
+    -43.26475143432617
+   ],
+   [
+    -43.58818435668945
+   ],
+   [
+    -45.99740219116211
+   ],
+   [
+    -36.1390380859375
+   ],
+   [
+    -36.407066345214844
+   ],
+   [
+    -56.01799011230469
+   ],
+   [
+    -38.751731872558594
+   ],
+   [
+    -48.147132873535156
+   ],
+   [
+    -35.31956481933594
+   ],
+   [
+    -39.56266403198242
+   ],
+   [
+    -41.226749420166016
+   ],
+   [
+    -41.890804290771484
+   ],
+   [
+    -44.22121810913086
+   ],
+   [
+    -37.45320129394531
+   ],
+   [
+    -43.261295318603516
+   ],
+   [
+    -47.14337158203125
+   ],
+   [
+    -39.781620025634766
+   ],
+   [
+    -52.32713317871094
+   ],
+   [
+    -39.97501754760742
+   ],
+   [
+    -38.060977935791016
+   ],
+   [
+    -37.09148406982422
+   ],
+   [
+    -46.003761291503906
+   ],
+   [
+    -41.284278869628906
+   ],
+   [
+    -39.707374572753906
+   ],
+   [
+    -36.16322326660156
+   ],
+   [
+    -36.70353317260742
+   ],
+   [
+    -39.49188995361328
+   ],
+   [
+    -39.53837966918945
+   ],
+   [
+    -34.273643493652344
+   ],
+   [
+    -39.779056549072266
+   ],
+   [
+    -39.09259796142578
+   ],
+   [
+    -41.252197265625
+   ],
+   [
+    -42.8144416809082
+   ],
+   [
+    -39.79685974121094
+   ],
+   [
+    -47.357540130615234
+   ],
+   [
+    -44.1510124206543
+   ],
+   [
+    -40.31597900390625
+   ],
+   [
+    -44.98176193237305
+   ],
+   [
+    -40.82850646972656
+   ],
+   [
+    -36.16152572631836
+   ],
+   [
+    -42.06754684448242
+   ],
+   [
+    -40.518829345703125
+   ],
+   [
+    -46.405784606933594
+   ],
+   [
+    -35.261024475097656
+   ],
+   [
+    -36.31088638305664
+   ],
+   [
+    -40.508872985839844
+   ],
+   [
+    -37.95024490356445
+   ],
+   [
+    -35.90700149536133
+   ],
+   [
+    -38.65229797363281
+   ],
+   [
+    -41.697959899902344
+   ],
+   [
+    -42.88017654418945
+   ],
+   [
+    -35.847137451171875
+   ],
+   [
+    -43.407833099365234
+   ],
+   [
+    -39.04446029663086
+   ],
+   [
+    -40.03593826293945
+   ],
+   [
+    -57.11016082763672
+   ],
+   [
+    -46.94731140136719
+   ],
+   [
+    -37.991676330566406
+   ],
+   [
+    -46.716854095458984
+   ],
+   [
+    -34.72079086303711
+   ],
+   [
+    -37.1264762878418
+   ],
+   [
+    -46.63442611694336
+   ],
+   [
+    -43.325225830078125
+   ],
+   [
+    -34.406898498535156
+   ],
+   [
+    -42.571197509765625
+   ],
+   [
+    -45.15285110473633
+   ],
+   [
+    -37.75163650512695
+   ],
+   [
+    -46.02025604248047
+   ],
+   [
+    -36.98617935180664
+   ],
+   [
+    -34.087833404541016
+   ],
+   [
+    -46.43726348876953
+   ],
+   [
+    -34.699214935302734
+   ],
+   [
+    -32.86707305908203
+   ],
+   [
+    -43.492767333984375
+   ],
+   [
+    -39.79889678955078
+   ],
+   [
+    -37.65362548828125
+   ],
+   [
+    -42.442718505859375
+   ],
+   [
+    -40.3875617980957
+   ],
+   [
+    -41.84812545776367
+   ],
+   [
+    -39.436466217041016
+   ],
+   [
+    -41.094051361083984
+   ],
+   [
+    -45.80003356933594
+   ],
+   [
+    -35.56770324707031
+   ],
+   [
+    -37.059234619140625
+   ],
+   [
+    -39.85551071166992
+   ],
+   [
+    -46.01622009277344
+   ],
+   [
+    -41.805110931396484
+   ],
+   [
+    -36.13800048828125
+   ],
+   [
+    -39.88219451904297
+   ],
+   [
+    -38.780540466308594
+   ],
+   [
+    -40.66073226928711
+   ],
+   [
+    -42.25053787231445
+   ],
+   [
+    -43.595394134521484
+   ],
+   [
+    -36.24863815307617
+   ],
+   [
+    -39.35822296142578
+   ],
+   [
+    -40.0542106628418
+   ],
+   [
+    -35.9415397644043
+   ],
+   [
+    -39.59858703613281
+   ],
+   [
+    -44.7882080078125
+   ],
+   [
+    -39.760013580322266
+   ],
+   [
+    -44.4014778137207
+   ],
+   [
+    -40.621070861816406
+   ],
+   [
+    -37.62347412109375
+   ],
+   [
+    -47.09565353393555
+   ],
+   [
+    -38.57353973388672
+   ],
+   [
+    -44.8358039855957
+   ],
+   [
+    -45.81522750854492
+   ]
+  ]
+ ],
+ "time": 3216.887586593628
+}

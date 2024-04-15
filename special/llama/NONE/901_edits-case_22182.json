@@ -1,0 +1,2076 @@
+{
+ "case_id": 22182,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Blaise Pascal"
+ },
+ "pre": [
+  [
+   "Blaise Pascal's field of work is trigonometry",
+   "Blaise Pascal's field of work is Minkowski spacetime",
+   "Blaise Pascal's field of work is physiology",
+   "Blaise Pascal's field of work is civil rights",
+   "Blaise Pascal's field of work is theory of relativity",
+   "Blaise Pascal's field of work is electric field",
+   "Blaise Pascal's field of work is literary translation",
+   "Blaise Pascal's field of work is geography",
+   "Blaise Pascal's field of work is detective literature",
+   "Blaise Pascal's field of work is hyperbolic geometry",
+   "Blaise Pascal's field of work is ballet",
+   "Blaise Pascal's field of work is quantum mechanics",
+   "Blaise Pascal's field of work is silviculture",
+   "Blaise Pascal's field of work is study of history",
+   "Blaise Pascal's field of work is television program",
+   "Blaise Pascal's field of work is radiation",
+   "Blaise Pascal's field of work is crystallography",
+   "Blaise Pascal's field of work is English",
+   "Blaise Pascal's field of work is comparative mythology",
+   "Blaise Pascal's field of work is non-Euclidean geometry",
+   "Blaise Pascal's field of work is education",
+   "Blaise Pascal's field of work is Sanskrit",
+   "Blaise Pascal's field of work is astronomer",
+   "Blaise Pascal's field of work is chemistry",
+   "Blaise Pascal's field of work is medicine",
+   "Blaise Pascal's field of work is pedagogy",
+   "Blaise Pascal's field of work is mythology",
+   "Blaise Pascal's field of work is harmonic analysis",
+   "Blaise Pascal's field of work is social anthropology",
+   "Blaise Pascal's field of work is literature",
+   "Blaise Pascal's field of work is psychology",
+   "Blaise Pascal's field of work is aeromechanics",
+   "Blaise Pascal's field of work is physics",
+   "Blaise Pascal's field of work is algebraic topology",
+   "Blaise Pascal's field of work is forestry",
+   "Blaise Pascal's field of work is magnetism",
+   "Blaise Pascal's field of work is anthropology",
+   "Blaise Pascal's field of work is Greek philology",
+   "Blaise Pascal's field of work is theology",
+   "Blaise Pascal's field of work is analytic philosophy",
+   "Blaise Pascal's field of work is computational geometry",
+   "Blaise Pascal's field of work is graph theory",
+   "Blaise Pascal's field of work is philosophy of law",
+   "Blaise Pascal's field of work is ballistics",
+   "Blaise Pascal's field of work is dance choreography",
+   "Blaise Pascal's field of work is Lie algebra",
+   "Blaise Pascal's field of work is histology",
+   "Blaise Pascal's field of work is complex manifold",
+   "Blaise Pascal's field of work is history",
+   "Blaise Pascal's field of work is celestial mechanics",
+   "Blaise Pascal's field of work is differential geometry",
+   "Blaise Pascal's field of work is Petrine ministry",
+   "Blaise Pascal's field of work is dance",
+   "Blaise Pascal's field of work is String",
+   "Blaise Pascal's field of work is a branch of physics",
+   "Blaise Pascal's field of work is mechanical engineering",
+   "Blaise Pascal's field of work is mathematical logic",
+   "Blaise Pascal's field of work is geodesy",
+   "Blaise Pascal's field of work is historical novel",
+   "Blaise Pascal's field of work is Jewish studies",
+   "Blaise Pascal's field of work is distribution",
+   "Blaise Pascal's field of work is Greek",
+   "Blaise Pascal's field of work is natural science",
+   "Blaise Pascal's field of work is Hebrew",
+   "Blaise Pascal's field of work is astrology",
+   "Blaise Pascal's field of work is group theory",
+   "Blaise Pascal's field of work is Judaism",
+   "Blaise Pascal's field of work is model theory",
+   "Blaise Pascal's field of work is opera",
+   "Blaise Pascal's field of work is religion",
+   "Blaise Pascal's field of work is evolution",
+   "Blaise Pascal's field of work is hunting",
+   "Blaise Pascal's field of work is nonstandard analysis",
+   "Blaise Pascal's field of work is applied physics",
+   "Blaise Pascal's field of work is philosophy",
+   "Blaise Pascal's field of work is aerodynamics",
+   "Blaise Pascal's field of work is classical music",
+   "Blaise Pascal's field of work is biological anthropology",
+   "Blaise Pascal's field of work is experimental physics",
+   "Blaise Pascal's field of work is ethnography",
+   "Blaise Pascal's field of work is geometry",
+   "Blaise Pascal's field of work is statistics",
+   "Blaise Pascal's field of work is cosmology",
+   "Blaise Pascal's field of work is algebra",
+   "Blaise Pascal's field of work is heat",
+   "Blaise Pascal's field of work is convex function",
+   "Blaise Pascal's field of work is applied mathematics",
+   "Blaise Pascal's field of work is ontology",
+   "Blaise Pascal's field of work is translations from Occitan",
+   "Blaise Pascal's field of work is folklore",
+   "Blaise Pascal's field of work is analytic number theory",
+   "Blaise Pascal's field of work is astronomical observation",
+   "Blaise Pascal's field of work is algebraic geometry",
+   "Blaise Pascal's field of work is history of economic thought",
+   "Blaise Pascal's field of work is informatics",
+   "Blaise Pascal's field of work is surgery",
+   "Blaise Pascal's field of work is Afghanistan",
+   "Blaise Pascal's field of work is social psychology",
+   "Blaise Pascal's field of work is sociology",
+   "Blaise Pascal's field of work is anatomy",
+   "Blaise Pascal's field of work is neurology",
+   "Blaise Pascal's field of work is hydrodynamics",
+   "Blaise Pascal's field of work is sociology of religion",
+   "Blaise Pascal's field of work is complex function",
+   "Blaise Pascal's field of work is shipbuilding",
+   "Blaise Pascal's field of work is electron",
+   "Blaise Pascal's field of work is African studies",
+   "Blaise Pascal's field of work is historical sociology",
+   "Blaise Pascal's field of work is biochemistry",
+   "Blaise Pascal's field of work is religion and society",
+   "Blaise Pascal's field of work is cryptography",
+   "Blaise Pascal's field of work is crime novel",
+   "Blaise Pascal's field of work is meteorology",
+   "Blaise Pascal's field of work is mathematical physics",
+   "Blaise Pascal's field of work is theoretical physics",
+   "Blaise Pascal's field of work is theory of differential equations",
+   "Blaise Pascal's field of work is art of painting",
+   "Blaise Pascal's field of work is essay",
+   "Blaise Pascal's field of work is human geography",
+   "Blaise Pascal's field of work is gravity",
+   "Blaise Pascal's field of work is natural theology",
+   "Blaise Pascal's field of work is momentum",
+   "Blaise Pascal's field of work is optics",
+   "Blaise Pascal's field of work is paleontology",
+   "Blaise Pascal's field of work is calculus of variations",
+   "Blaise Pascal's field of work is prose",
+   "Blaise Pascal's field of work is political philosophy",
+   "Blaise Pascal's field of work is engineering",
+   "Blaise Pascal's field of work is children's and youth literature",
+   "Blaise Pascal's field of work is computer science",
+   "Blaise Pascal's field of work is philosopher",
+   "Blaise Pascal's field of work is Bayesian inference",
+   "Blaise Pascal's field of work is translations from Polish",
+   "Blaise Pascal's field of work is differential calculus",
+   "Blaise Pascal's field of work is quantum electrodynamics",
+   "Blaise Pascal's field of work is ethnology",
+   "Blaise Pascal's field of work is Internet",
+   "Blaise Pascal's field of work is economic anthropology",
+   "Blaise Pascal's field of work is philosophy of science",
+   "Blaise Pascal's field of work is politics",
+   "Blaise Pascal's field of work is economics",
+   "Blaise Pascal's field of work is distribution theory",
+   "Blaise Pascal's field of work is kinetic theory",
+   "Blaise Pascal's field of work is sociology of organisations",
+   "Blaise Pascal's field of work is quaternion",
+   "Blaise Pascal's field of work is mathematician",
+   "Blaise Pascal's field of work is social philosophy",
+   "Blaise Pascal's field of work is forestry science",
+   "Blaise Pascal's field of work is rite",
+   "Blaise Pascal's field of work is Monte Carlo method",
+   "Blaise Pascal's field of work is analytic geometry",
+   "Blaise Pascal's field of work is electrical engineering",
+   "Blaise Pascal's field of work is Franciscan spirituality",
+   "Blaise Pascal's field of work is stochastic",
+   "Blaise Pascal's field of work is translations from Spanish",
+   "Blaise Pascal's field of work is world economy",
+   "Blaise Pascal's field of work is drama",
+   "Blaise Pascal's field of work is electricity",
+   "Blaise Pascal's field of work is cybernetics",
+   "Blaise Pascal's field of work is embryology",
+   "Blaise Pascal's field of work is linguistics",
+   "Blaise Pascal's field of work is magnetic resonance",
+   "Blaise Pascal's field of work is English literature",
+   "Blaise Pascal's field of work is topology",
+   "Blaise Pascal's field of work is belletristic literature",
+   "Blaise Pascal's field of work is mathematical analysis",
+   "Blaise Pascal's field of work is lyric poetry",
+   "Blaise Pascal's field of work is projective geometry",
+   "Blaise Pascal's field of work is Jewish philosophy",
+   "Blaise Pascal's field of work is myth",
+   "Blaise Pascal's field of work is ethics",
+   "Blaise Pascal's field of work is history of religions",
+   "Blaise Pascal's field of work is logic",
+   "Blaise Pascal's field of work is comparative religion",
+   "Blaise Pascal's field of work is functional analysis",
+   "Blaise Pascal's field of work is astrophysics",
+   "Blaise Pascal's field of work is partial differential equation",
+   "Blaise Pascal's field of work is magic",
+   "Blaise Pascal's field of work is mechanics",
+   "Blaise Pascal's field of work is electromagnetic field",
+   "Blaise Pascal's field of work is philology",
+   "Blaise Pascal's field of work is abstract algebra",
+   "Blaise Pascal's field of work is translations from Arabic language",
+   "Blaise Pascal's field of work is ferromagnetism",
+   "Blaise Pascal's field of work is translations from English",
+   "Blaise Pascal's field of work is culturology",
+   "Blaise Pascal's field of work is psychophysiology",
+   "Blaise Pascal's field of work is nanotechnology",
+   "Blaise Pascal's field of work is jazz",
+   "Blaise Pascal's field of work is cartography",
+   "Blaise Pascal's field of work is physicist",
+   "Blaise Pascal's field of work is feminism",
+   "Blaise Pascal's field of work is number theory",
+   "Blaise Pascal's field of work is radioactivity",
+   "Blaise Pascal's field of work is constitutional law",
+   "Blaise Pascal's field of work is economy",
+   "Blaise Pascal's field of work is positivism",
+   "Blaise Pascal's field of work is fairy tale",
+   "Blaise Pascal's field of work is Cairo Geniza",
+   "Blaise Pascal's field of work is journalism",
+   "Blaise Pascal's field of work is literary activity",
+   "Blaise Pascal's field of work is color photography",
+   "Blaise Pascal's field of work is genetics",
+   "Blaise Pascal's field of work is Christian Church",
+   "Blaise Pascal's field of work is mathematics",
+   "Blaise Pascal's field of work is poetry",
+   "Blaise Pascal's field of work is nuclear physics",
+   "Blaise Pascal's field of work is information technology",
+   "Blaise Pascal's field of work is conducting",
+   "Blaise Pascal's field of work is quantum physics",
+   "Blaise Pascal's field of work is history of science",
+   "Blaise Pascal's field of work is music theory",
+   "Blaise Pascal's field of work is classics",
+   "Blaise Pascal's field of work is choreography",
+   "Blaise Pascal's field of work is literary theory",
+   "Blaise Pascal's field of work is astronomy",
+   "Blaise Pascal's field of work is probability theory",
+   "Blaise Pascal's field of work is quantum theory",
+   "Blaise Pascal's field of work is magnetic field",
+   "Blaise Pascal's field of work is quantum mysticism",
+   "Blaise Pascal is trigonometry",
+   "Blaise Pascal is Minkowski spacetime",
+   "Blaise Pascal is physiology",
+   "Blaise Pascal is civil rights",
+   "Blaise Pascal is theory of relativity",
+   "Blaise Pascal is electric field",
+   "Blaise Pascal is literary translation",
+   "Blaise Pascal is geography",
+   "Blaise Pascal is detective literature",
+   "Blaise Pascal is hyperbolic geometry",
+   "Blaise Pascal is ballet",
+   "Blaise Pascal is quantum mechanics",
+   "Blaise Pascal is silviculture",
+   "Blaise Pascal is study of history",
+   "Blaise Pascal is television program",
+   "Blaise Pascal is radiation",
+   "Blaise Pascal is crystallography",
+   "Blaise Pascal is English",
+   "Blaise Pascal is comparative mythology",
+   "Blaise Pascal is non-Euclidean geometry",
+   "Blaise Pascal is education",
+   "Blaise Pascal is Sanskrit",
+   "Blaise Pascal is astronomer",
+   "Blaise Pascal is chemistry",
+   "Blaise Pascal is medicine",
+   "Blaise Pascal is pedagogy",
+   "Blaise Pascal is mythology",
+   "Blaise Pascal is harmonic analysis",
+   "Blaise Pascal is social anthropology",
+   "Blaise Pascal is literature",
+   "Blaise Pascal is psychology",
+   "Blaise Pascal is aeromechanics",
+   "Blaise Pascal is physics",
+   "Blaise Pascal is algebraic topology",
+   "Blaise Pascal is forestry",
+   "Blaise Pascal is magnetism",
+   "Blaise Pascal is anthropology",
+   "Blaise Pascal is Greek philology",
+   "Blaise Pascal is theology",
+   "Blaise Pascal is analytic philosophy",
+   "Blaise Pascal is computational geometry",
+   "Blaise Pascal is graph theory",
+   "Blaise Pascal is philosophy of law",
+   "Blaise Pascal is ballistics",
+   "Blaise Pascal is dance choreography",
+   "Blaise Pascal is Lie algebra",
+   "Blaise Pascal is histology",
+   "Blaise Pascal is complex manifold",
+   "Blaise Pascal is history",
+   "Blaise Pascal is celestial mechanics",
+   "Blaise Pascal is differential geometry",
+   "Blaise Pascal is Petrine ministry",
+   "Blaise Pascal is dance",
+   "Blaise Pascal is String",
+   "Blaise Pascal is a branch of physics",
+   "Blaise Pascal is mechanical engineering",
+   "Blaise Pascal is mathematical logic",
+   "Blaise Pascal is geodesy",
+   "Blaise Pascal is historical novel",
+   "Blaise Pascal is Jewish studies",
+   "Blaise Pascal is distribution",
+   "Blaise Pascal is Greek",
+   "Blaise Pascal is natural science",
+   "Blaise Pascal is Hebrew",
+   "Blaise Pascal is astrology",
+   "Blaise Pascal is group theory",
+   "Blaise Pascal is Judaism",
+   "Blaise Pascal is model theory",
+   "Blaise Pascal is opera",
+   "Blaise Pascal is religion",
+   "Blaise Pascal is evolution",
+   "Blaise Pascal is hunting",
+   "Blaise Pascal is nonstandard analysis",
+   "Blaise Pascal is applied physics",
+   "Blaise Pascal is philosophy",
+   "Blaise Pascal is aerodynamics",
+   "Blaise Pascal is classical music",
+   "Blaise Pascal is biological anthropology",
+   "Blaise Pascal is experimental physics",
+   "Blaise Pascal is ethnography",
+   "Blaise Pascal is geometry",
+   "Blaise Pascal is statistics",
+   "Blaise Pascal is cosmology",
+   "Blaise Pascal is algebra",
+   "Blaise Pascal is heat",
+   "Blaise Pascal is convex function",
+   "Blaise Pascal is applied mathematics",
+   "Blaise Pascal is ontology",
+   "Blaise Pascal is translations from Occitan",
+   "Blaise Pascal is folklore",
+   "Blaise Pascal is analytic number theory",
+   "Blaise Pascal is astronomical observation",
+   "Blaise Pascal is algebraic geometry",
+   "Blaise Pascal is history of economic thought",
+   "Blaise Pascal is informatics",
+   "Blaise Pascal is surgery",
+   "Blaise Pascal is Afghanistan",
+   "Blaise Pascal is social psychology",
+   "Blaise Pascal is sociology",
+   "Blaise Pascal is anatomy",
+   "Blaise Pascal is neurology",
+   "Blaise Pascal is hydrodynamics",
+   "Blaise Pascal is sociology of religion",
+   "Blaise Pascal is complex function",
+   "Blaise Pascal is shipbuilding",
+   "Blaise Pascal is electron",
+   "Blaise Pascal is African studies",
+   "Blaise Pascal is historical sociology",
+   "Blaise Pascal is biochemistry",
+   "Blaise Pascal is religion and society",
+   "Blaise Pascal is cryptography",
+   "Blaise Pascal is crime novel",
+   "Blaise Pascal is meteorology",
+   "Blaise Pascal is mathematical physics",
+   "Blaise Pascal is theoretical physics",
+   "Blaise Pascal is theory of differential equations",
+   "Blaise Pascal is art of painting",
+   "Blaise Pascal is essay",
+   "Blaise Pascal is human geography",
+   "Blaise Pascal is gravity",
+   "Blaise Pascal is natural theology",
+   "Blaise Pascal is momentum",
+   "Blaise Pascal is optics",
+   "Blaise Pascal is paleontology",
+   "Blaise Pascal is calculus of variations",
+   "Blaise Pascal is prose",
+   "Blaise Pascal is political philosophy",
+   "Blaise Pascal is engineering",
+   "Blaise Pascal is children's and youth literature",
+   "Blaise Pascal is computer science",
+   "Blaise Pascal is philosopher",
+   "Blaise Pascal is Bayesian inference",
+   "Blaise Pascal is translations from Polish",
+   "Blaise Pascal is differential calculus",
+   "Blaise Pascal is quantum electrodynamics",
+   "Blaise Pascal is ethnology",
+   "Blaise Pascal is Internet",
+   "Blaise Pascal is economic anthropology",
+   "Blaise Pascal is philosophy of science",
+   "Blaise Pascal is politics",
+   "Blaise Pascal is economics",
+   "Blaise Pascal is distribution theory",
+   "Blaise Pascal is kinetic theory",
+   "Blaise Pascal is sociology of organisations",
+   "Blaise Pascal is quaternion",
+   "Blaise Pascal is mathematician",
+   "Blaise Pascal is social philosophy",
+   "Blaise Pascal is forestry science",
+   "Blaise Pascal is rite",
+   "Blaise Pascal is Monte Carlo method",
+   "Blaise Pascal is analytic geometry",
+   "Blaise Pascal is electrical engineering",
+   "Blaise Pascal is Franciscan spirituality",
+   "Blaise Pascal is stochastic",
+   "Blaise Pascal is translations from Spanish",
+   "Blaise Pascal is world economy",
+   "Blaise Pascal is drama",
+   "Blaise Pascal is electricity",
+   "Blaise Pascal is cybernetics",
+   "Blaise Pascal is embryology",
+   "Blaise Pascal is linguistics",
+   "Blaise Pascal is magnetic resonance",
+   "Blaise Pascal is English literature",
+   "Blaise Pascal is topology",
+   "Blaise Pascal is belletristic literature",
+   "Blaise Pascal is mathematical analysis",
+   "Blaise Pascal is lyric poetry",
+   "Blaise Pascal is projective geometry",
+   "Blaise Pascal is Jewish philosophy",
+   "Blaise Pascal is myth",
+   "Blaise Pascal is ethics",
+   "Blaise Pascal is history of religions",
+   "Blaise Pascal is logic",
+   "Blaise Pascal is comparative religion",
+   "Blaise Pascal is functional analysis",
+   "Blaise Pascal is astrophysics",
+   "Blaise Pascal is partial differential equation",
+   "Blaise Pascal is magic",
+   "Blaise Pascal is mechanics",
+   "Blaise Pascal is electromagnetic field",
+   "Blaise Pascal is philology",
+   "Blaise Pascal is abstract algebra",
+   "Blaise Pascal is translations from Arabic language",
+   "Blaise Pascal is ferromagnetism",
+   "Blaise Pascal is translations from English",
+   "Blaise Pascal is culturology",
+   "Blaise Pascal is psychophysiology",
+   "Blaise Pascal is nanotechnology",
+   "Blaise Pascal is jazz",
+   "Blaise Pascal is cartography",
+   "Blaise Pascal is physicist",
+   "Blaise Pascal is feminism",
+   "Blaise Pascal is number theory",
+   "Blaise Pascal is radioactivity",
+   "Blaise Pascal is constitutional law",
+   "Blaise Pascal is economy",
+   "Blaise Pascal is positivism",
+   "Blaise Pascal is fairy tale",
+   "Blaise Pascal is Cairo Geniza",
+   "Blaise Pascal is journalism",
+   "Blaise Pascal is literary activity",
+   "Blaise Pascal is color photography",
+   "Blaise Pascal is genetics",
+   "Blaise Pascal is Christian Church",
+   "Blaise Pascal is mathematics",
+   "Blaise Pascal is poetry",
+   "Blaise Pascal is nuclear physics",
+   "Blaise Pascal is information technology",
+   "Blaise Pascal is conducting",
+   "Blaise Pascal is quantum physics",
+   "Blaise Pascal is history of science",
+   "Blaise Pascal is music theory",
+   "Blaise Pascal is classics",
+   "Blaise Pascal is choreography",
+   "Blaise Pascal is literary theory",
+   "Blaise Pascal is astronomy",
+   "Blaise Pascal is probability theory",
+   "Blaise Pascal is quantum theory",
+   "Blaise Pascal is magnetic field",
+   "Blaise Pascal is quantum mysticism"
+  ],
+  [
+   [
+    -48.458168029785156
+   ],
+   [
+    -56.73774719238281
+   ],
+   [
+    -48.38906478881836
+   ],
+   [
+    -51.708641052246094
+   ],
+   [
+    -52.82667922973633
+   ],
+   [
+    -54.94429016113281
+   ],
+   [
+    -53.61874771118164
+   ],
+   [
+    -46.19171905517578
+   ],
+   [
+    -56.61468505859375
+   ],
+   [
+    -48.347755432128906
+   ],
+   [
+    -51.405677795410156
+   ],
+   [
+    -47.09600830078125
+   ],
+   [
+    -54.2277717590332
+   ],
+   [
+    -51.59174728393555
+   ],
+   [
+    -54.61227798461914
+   ],
+   [
+    -49.077423095703125
+   ],
+   [
+    -48.79310989379883
+   ],
+   [
+    -46.64494705200195
+   ],
+   [
+    -53.2038459777832
+   ],
+   [
+    -48.18571472167969
+   ],
+   [
+    -46.413997650146484
+   ],
+   [
+    -51.538997650146484
+   ],
+   [
+    -52.935577392578125
+   ],
+   [
+    -47.055728912353516
+   ],
+   [
+    -47.5465202331543
+   ],
+   [
+    -49.588714599609375
+   ],
+   [
+    -50.0922966003418
+   ],
+   [
+    -48.73255157470703
+   ],
+   [
+    -52.59932327270508
+   ],
+   [
+    -45.55840301513672
+   ],
+   [
+    -46.56898880004883
+   ],
+   [
+    -52.54610824584961
+   ],
+   [
+    -41.60065460205078
+   ],
+   [
+    -47.160858154296875
+   ],
+   [
+    -49.189579010009766
+   ],
+   [
+    -49.4056396484375
+   ],
+   [
+    -47.93400955200195
+   ],
+   [
+    -51.75703430175781
+   ],
+   [
+    -42.897796630859375
+   ],
+   [
+    -45.1987190246582
+   ],
+   [
+    -45.93526840209961
+   ],
+   [
+    -48.162837982177734
+   ],
+   [
+    -50.66273880004883
+   ],
+   [
+    -48.4576416015625
+   ],
+   [
+    -56.52861022949219
+   ],
+   [
+    -51.72789764404297
+   ],
+   [
+    -50.20825958251953
+   ],
+   [
+    -53.39434051513672
+   ],
+   [
+    -43.71912384033203
+   ],
+   [
+    -48.6429443359375
+   ],
+   [
+    -46.309715270996094
+   ],
+   [
+    -61.25271224975586
+   ],
+   [
+    -51.809783935546875
+   ],
+   [
+    -48.65150833129883
+   ],
+   [
+    -49.201026916503906
+   ],
+   [
+    -42.920684814453125
+   ],
+   [
+    -44.10379409790039
+   ],
+   [
+    -48.70730209350586
+   ],
+   [
+    -54.05638885498047
+   ],
+   [
+    -49.124996185302734
+   ],
+   [
+    -48.55515670776367
+   ],
+   [
+    -48.03251647949219
+   ],
+   [
+    -45.25920867919922
+   ],
+   [
+    -48.640724182128906
+   ],
+   [
+    -46.810707092285156
+   ],
+   [
+    -48.79253387451172
+   ],
+   [
+    -50.62923812866211
+   ],
+   [
+    -47.05754470825195
+   ],
+   [
+    -50.36383056640625
+   ],
+   [
+    -44.49107360839844
+   ],
+   [
+    -45.87004852294922
+   ],
+   [
+    -49.051048278808594
+   ],
+   [
+    -51.69579315185547
+   ],
+   [
+    -47.54248809814453
+   ],
+   [
+    -41.91240310668945
+   ],
+   [
+    -47.58052062988281
+   ],
+   [
+    -52.22053527832031
+   ],
+   [
+    -55.74294662475586
+   ],
+   [
+    -45.795440673828125
+   ],
+   [
+    -53.59272003173828
+   ],
+   [
+    -42.906639099121094
+   ],
+   [
+    -44.318180084228516
+   ],
+   [
+    -47.084388732910156
+   ],
+   [
+    -44.53980255126953
+   ],
+   [
+    -47.3455924987793
+   ],
+   [
+    -54.635292053222656
+   ],
+   [
+    -42.80517578125
+   ],
+   [
+    -47.557987213134766
+   ],
+   [
+    -61.20783615112305
+   ],
+   [
+    -51.85594940185547
+   ],
+   [
+    -45.73789596557617
+   ],
+   [
+    -52.88178253173828
+   ],
+   [
+    -44.920372009277344
+   ],
+   [
+    -51.59230422973633
+   ],
+   [
+    -45.506134033203125
+   ],
+   [
+    -49.50508499145508
+   ],
+   [
+    -52.26884841918945
+   ],
+   [
+    -47.83179473876953
+   ],
+   [
+    -46.28498840332031
+   ],
+   [
+    -47.88836669921875
+   ],
+   [
+    -48.937801361083984
+   ],
+   [
+    -45.93117904663086
+   ],
+   [
+    -49.99897384643555
+   ],
+   [
+    -51.17353057861328
+   ],
+   [
+    -50.586875915527344
+   ],
+   [
+    -45.81808853149414
+   ],
+   [
+    -53.122650146484375
+   ],
+   [
+    -51.0045166015625
+   ],
+   [
+    -48.02155685424805
+   ],
+   [
+    -51.168861389160156
+   ],
+   [
+    -44.222450256347656
+   ],
+   [
+    -56.37567901611328
+   ],
+   [
+    -47.585227966308594
+   ],
+   [
+    -43.169246673583984
+   ],
+   [
+    -43.60110855102539
+   ],
+   [
+    -55.2939567565918
+   ],
+   [
+    -56.983367919921875
+   ],
+   [
+    -47.316768646240234
+   ],
+   [
+    -50.87914276123047
+   ],
+   [
+    -48.034751892089844
+   ],
+   [
+    -48.55249786376953
+   ],
+   [
+    -48.82427215576172
+   ],
+   [
+    -45.0113410949707
+   ],
+   [
+    -49.63737869262695
+   ],
+   [
+    -47.619537353515625
+   ],
+   [
+    -47.51499557495117
+   ],
+   [
+    -47.55304718017578
+   ],
+   [
+    -43.066768646240234
+   ],
+   [
+    -56.21954345703125
+   ],
+   [
+    -41.88182830810547
+   ],
+   [
+    -46.59648895263672
+   ],
+   [
+    -49.23440170288086
+   ],
+   [
+    -57.07483673095703
+   ],
+   [
+    -44.736141204833984
+   ],
+   [
+    -52.62505340576172
+   ],
+   [
+    -52.41053009033203
+   ],
+   [
+    -49.080101013183594
+   ],
+   [
+    -55.85057830810547
+   ],
+   [
+    -46.03993606567383
+   ],
+   [
+    -46.6883544921875
+   ],
+   [
+    -44.29447937011719
+   ],
+   [
+    -50.48176956176758
+   ],
+   [
+    -51.72328186035156
+   ],
+   [
+    -56.80857467651367
+   ],
+   [
+    -51.85112380981445
+   ],
+   [
+    -45.82284927368164
+   ],
+   [
+    -50.752010345458984
+   ],
+   [
+    -53.509002685546875
+   ],
+   [
+    -56.39381790161133
+   ],
+   [
+    -52.75810241699219
+   ],
+   [
+    -44.46177291870117
+   ],
+   [
+    -44.75236511230469
+   ],
+   [
+    -56.05883026123047
+   ],
+   [
+    -46.908390045166016
+   ],
+   [
+    -56.3660888671875
+   ],
+   [
+    -52.50349807739258
+   ],
+   [
+    -50.00564193725586
+   ],
+   [
+    -45.70186996459961
+   ],
+   [
+    -46.785789489746094
+   ],
+   [
+    -50.13719177246094
+   ],
+   [
+    -46.460121154785156
+   ],
+   [
+    -50.945228576660156
+   ],
+   [
+    -48.441139221191406
+   ],
+   [
+    -46.05671691894531
+   ],
+   [
+    -55.17396545410156
+   ],
+   [
+    -42.70090103149414
+   ],
+   [
+    -52.27802276611328
+   ],
+   [
+    -47.848785400390625
+   ],
+   [
+    -50.17241668701172
+   ],
+   [
+    -49.375335693359375
+   ],
+   [
+    -46.11998748779297
+   ],
+   [
+    -49.37797164916992
+   ],
+   [
+    -43.90895080566406
+   ],
+   [
+    -47.9466552734375
+   ],
+   [
+    -48.15617752075195
+   ],
+   [
+    -45.311641693115234
+   ],
+   [
+    -50.0240364074707
+   ],
+   [
+    -47.7376708984375
+   ],
+   [
+    -43.090396881103516
+   ],
+   [
+    -52.55123519897461
+   ],
+   [
+    -47.08464050292969
+   ],
+   [
+    -44.9696044921875
+   ],
+   [
+    -61.76307678222656
+   ],
+   [
+    -53.193546295166016
+   ],
+   [
+    -53.24919891357422
+   ],
+   [
+    -54.47038269042969
+   ],
+   [
+    -53.624534606933594
+   ],
+   [
+    -48.75444793701172
+   ],
+   [
+    -51.316776275634766
+   ],
+   [
+    -50.262481689453125
+   ],
+   [
+    -48.849918365478516
+   ],
+   [
+    -51.83516311645508
+   ],
+   [
+    -43.350921630859375
+   ],
+   [
+    -50.54537582397461
+   ],
+   [
+    -49.01286697387695
+   ],
+   [
+    -47.973663330078125
+   ],
+   [
+    -50.11341857910156
+   ],
+   [
+    -54.237457275390625
+   ],
+   [
+    -63.774993896484375
+   ],
+   [
+    -48.47355270385742
+   ],
+   [
+    -56.216644287109375
+   ],
+   [
+    -54.735328674316406
+   ],
+   [
+    -47.44804382324219
+   ],
+   [
+    -54.5396728515625
+   ],
+   [
+    -40.09999465942383
+   ],
+   [
+    -47.91661071777344
+   ],
+   [
+    -47.999332427978516
+   ],
+   [
+    -46.48089599609375
+   ],
+   [
+    -49.47378158569336
+   ],
+   [
+    -47.599761962890625
+   ],
+   [
+    -45.34707260131836
+   ],
+   [
+    -50.192726135253906
+   ],
+   [
+    -47.426971435546875
+   ],
+   [
+    -53.106834411621094
+   ],
+   [
+    -51.293357849121094
+   ],
+   [
+    -44.83893585205078
+   ],
+   [
+    -43.558326721191406
+   ],
+   [
+    -48.78390121459961
+   ],
+   [
+    -52.34760284423828
+   ],
+   [
+    -55.31874084472656
+   ],
+   [
+    -36.949920654296875
+   ],
+   [
+    -42.80780792236328
+   ],
+   [
+    -37.14993667602539
+   ],
+   [
+    -37.27912521362305
+   ],
+   [
+    -40.03392028808594
+   ],
+   [
+    -39.85137176513672
+   ],
+   [
+    -40.264488220214844
+   ],
+   [
+    -35.222076416015625
+   ],
+   [
+    -44.64258575439453
+   ],
+   [
+    -43.666290283203125
+   ],
+   [
+    -37.33973693847656
+   ],
+   [
+    -36.30126190185547
+   ],
+   [
+    -41.70246124267578
+   ],
+   [
+    -40.618621826171875
+   ],
+   [
+    -38.40778350830078
+   ],
+   [
+    -34.82938003540039
+   ],
+   [
+    -39.93925476074219
+   ],
+   [
+    -30.067258834838867
+   ],
+   [
+    -41.83979034423828
+   ],
+   [
+    -38.39619445800781
+   ],
+   [
+    -32.599971771240234
+   ],
+   [
+    -34.391258239746094
+   ],
+   [
+    -32.5318603515625
+   ],
+   [
+    -33.91057586669922
+   ],
+   [
+    -33.980186462402344
+   ],
+   [
+    -38.17255401611328
+   ],
+   [
+    -35.897064208984375
+   ],
+   [
+    -40.15455627441406
+   ],
+   [
+    -42.06849670410156
+   ],
+   [
+    -32.03715515136719
+   ],
+   [
+    -33.51072692871094
+   ],
+   [
+    -42.20099639892578
+   ],
+   [
+    -33.61454772949219
+   ],
+   [
+    -40.55146789550781
+   ],
+   [
+    -38.846153259277344
+   ],
+   [
+    -37.099327087402344
+   ],
+   [
+    -34.640281677246094
+   ],
+   [
+    -45.30983352661133
+   ],
+   [
+    -33.86235046386719
+   ],
+   [
+    -38.75741195678711
+   ],
+   [
+    -39.45912170410156
+   ],
+   [
+    -37.76734161376953
+   ],
+   [
+    -41.80657958984375
+   ],
+   [
+    -38.464027404785156
+   ],
+   [
+    -42.19331741333008
+   ],
+   [
+    -43.753318786621094
+   ],
+   [
+    -38.87268829345703
+   ],
+   [
+    -44.891090393066406
+   ],
+   [
+    -28.896692276000977
+   ],
+   [
+    -38.58222579956055
+   ],
+   [
+    -39.413787841796875
+   ],
+   [
+    -48.19023895263672
+   ],
+   [
+    -34.57557678222656
+   ],
+   [
+    -33.809635162353516
+   ],
+   [
+    -38.197349548339844
+   ],
+   [
+    -36.726593017578125
+   ],
+   [
+    -36.160919189453125
+   ],
+   [
+    -43.16545104980469
+   ],
+   [
+    -35.268226623535156
+   ],
+   [
+    -39.468605041503906
+   ],
+   [
+    -37.22936248779297
+   ],
+   [
+    -31.11305809020996
+   ],
+   [
+    -35.66412353515625
+   ],
+   [
+    -32.53123474121094
+   ],
+   [
+    -35.78695297241211
+   ],
+   [
+    -41.026611328125
+   ],
+   [
+    -35.536319732666016
+   ],
+   [
+    -43.43682861328125
+   ],
+   [
+    -33.55780029296875
+   ],
+   [
+    -32.675594329833984
+   ],
+   [
+    -33.56267547607422
+   ],
+   [
+    -31.78359031677246
+   ],
+   [
+    -45.604339599609375
+   ],
+   [
+    -37.55583953857422
+   ],
+   [
+    -31.65470314025879
+   ],
+   [
+    -37.14606475830078
+   ],
+   [
+    -34.099143981933594
+   ],
+   [
+    -42.958213806152344
+   ],
+   [
+    -37.73554229736328
+   ],
+   [
+    -40.438995361328125
+   ],
+   [
+    -34.87382507324219
+   ],
+   [
+    -32.93961715698242
+   ],
+   [
+    -35.21881866455078
+   ],
+   [
+    -35.72517776489258
+   ],
+   [
+    -34.85116958618164
+   ],
+   [
+    -41.33338928222656
+   ],
+   [
+    -35.17022705078125
+   ],
+   [
+    -36.01670837402344
+   ],
+   [
+    -47.82731628417969
+   ],
+   [
+    -35.19803237915039
+   ],
+   [
+    -42.019718170166016
+   ],
+   [
+    -41.841487884521484
+   ],
+   [
+    -36.936195373535156
+   ],
+   [
+    -43.227699279785156
+   ],
+   [
+    -35.18281555175781
+   ],
+   [
+    -35.05321502685547
+   ],
+   [
+    -35.0010986328125
+   ],
+   [
+    -38.07857894897461
+   ],
+   [
+    -36.436763763427734
+   ],
+   [
+    -35.41371536254883
+   ],
+   [
+    -38.142005920410156
+   ],
+   [
+    -37.62059783935547
+   ],
+   [
+    -42.618316650390625
+   ],
+   [
+    -43.79022216796875
+   ],
+   [
+    -37.511573791503906
+   ],
+   [
+    -32.224761962890625
+   ],
+   [
+    -41.14861297607422
+   ],
+   [
+    -41.318180084228516
+   ],
+   [
+    -37.01144790649414
+   ],
+   [
+    -40.879913330078125
+   ],
+   [
+    -35.66151809692383
+   ],
+   [
+    -36.14034652709961
+   ],
+   [
+    -36.370216369628906
+   ],
+   [
+    -37.379188537597656
+   ],
+   [
+    -37.11091613769531
+   ],
+   [
+    -45.634918212890625
+   ],
+   [
+    -42.053497314453125
+   ],
+   [
+    -31.791156768798828
+   ],
+   [
+    -39.893280029296875
+   ],
+   [
+    -34.165626525878906
+   ],
+   [
+    -39.96228790283203
+   ],
+   [
+    -35.93917465209961
+   ],
+   [
+    -36.06132125854492
+   ],
+   [
+    -36.12184143066406
+   ],
+   [
+    -45.91145706176758
+   ],
+   [
+    -33.30235290527344
+   ],
+   [
+    -36.287742614746094
+   ],
+   [
+    -32.41603469848633
+   ],
+   [
+    -44.51600646972656
+   ],
+   [
+    -32.818450927734375
+   ],
+   [
+    -30.222637176513672
+   ],
+   [
+    -40.67744445800781
+   ],
+   [
+    -45.885292053222656
+   ],
+   [
+    -36.584922790527344
+   ],
+   [
+    -41.114227294921875
+   ],
+   [
+    -39.11405563354492
+   ],
+   [
+    -32.4868049621582
+   ],
+   [
+    -41.31697463989258
+   ],
+   [
+    -37.82935333251953
+   ],
+   [
+    -35.23302459716797
+   ],
+   [
+    -33.66643524169922
+   ],
+   [
+    -44.34712219238281
+   ],
+   [
+    -41.08973693847656
+   ],
+   [
+    -50.42474365234375
+   ],
+   [
+    -39.52699279785156
+   ],
+   [
+    -30.318832397460938
+   ],
+   [
+    -39.99058532714844
+   ],
+   [
+    -44.06502151489258
+   ],
+   [
+    -36.731346130371094
+   ],
+   [
+    -38.67940139770508
+   ],
+   [
+    -37.94009017944336
+   ],
+   [
+    -34.87175750732422
+   ],
+   [
+    -38.56725311279297
+   ],
+   [
+    -36.17932891845703
+   ],
+   [
+    -44.4813232421875
+   ],
+   [
+    -40.80126953125
+   ],
+   [
+    -33.355342864990234
+   ],
+   [
+    -34.89624786376953
+   ],
+   [
+    -33.587867736816406
+   ],
+   [
+    -39.16974639892578
+   ],
+   [
+    -36.85449981689453
+   ],
+   [
+    -39.433475494384766
+   ],
+   [
+    -36.188316345214844
+   ],
+   [
+    -35.51394271850586
+   ],
+   [
+    -44.0017204284668
+   ],
+   [
+    -39.5760498046875
+   ],
+   [
+    -38.28250503540039
+   ],
+   [
+    -36.88835525512695
+   ],
+   [
+    -42.37042999267578
+   ],
+   [
+    -30.91648292541504
+   ],
+   [
+    -35.64026641845703
+   ],
+   [
+    -41.51361846923828
+   ],
+   [
+    -33.69132614135742
+   ],
+   [
+    -39.424903869628906
+   ],
+   [
+    -39.998069763183594
+   ],
+   [
+    -33.234718322753906
+   ],
+   [
+    -38.80023193359375
+   ],
+   [
+    -32.01239776611328
+   ],
+   [
+    -35.442176818847656
+   ],
+   [
+    -40.10082244873047
+   ],
+   [
+    -39.18443298339844
+   ],
+   [
+    -40.13103485107422
+   ],
+   [
+    -49.29884719848633
+   ],
+   [
+    -42.079917907714844
+   ],
+   [
+    -42.49590301513672
+   ],
+   [
+    -42.03166961669922
+   ],
+   [
+    -42.61810302734375
+   ],
+   [
+    -36.376216888427734
+   ],
+   [
+    -32.84814453125
+   ],
+   [
+    -36.90478515625
+   ],
+   [
+    -29.868722915649414
+   ],
+   [
+    -36.09678649902344
+   ],
+   [
+    -38.85084533691406
+   ],
+   [
+    -38.514984130859375
+   ],
+   [
+    -39.0015983581543
+   ],
+   [
+    -33.94366455078125
+   ],
+   [
+    -35.863338470458984
+   ],
+   [
+    -38.590023040771484
+   ],
+   [
+    -45.226409912109375
+   ],
+   [
+    -35.23326110839844
+   ],
+   [
+    -42.875267028808594
+   ],
+   [
+    -40.745513916015625
+   ],
+   [
+    -36.900848388671875
+   ],
+   [
+    -38.15289306640625
+   ],
+   [
+    -31.859434127807617
+   ],
+   [
+    -33.36806106567383
+   ],
+   [
+    -36.45403289794922
+   ],
+   [
+    -33.976688385009766
+   ],
+   [
+    -30.411714553833008
+   ],
+   [
+    -36.803890228271484
+   ],
+   [
+    -36.49100112915039
+   ],
+   [
+    -38.08910369873047
+   ],
+   [
+    -33.59953308105469
+   ],
+   [
+    -39.64885711669922
+   ],
+   [
+    -40.33912658691406
+   ],
+   [
+    -35.20928955078125
+   ],
+   [
+    -36.351837158203125
+   ],
+   [
+    -38.13359832763672
+   ],
+   [
+    -38.72178649902344
+   ],
+   [
+    -42.45482635498047
+   ]
+  ]
+ ],
+ "time": 786.1307537555695
+}

@@ -1,0 +1,2076 @@
+{
+ "case_id": 22107,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Nicolaus Steno"
+ },
+ "pre": [
+  [
+   "Nicolaus Steno's field of work is abstract algebra",
+   "Nicolaus Steno's field of work is theology",
+   "Nicolaus Steno's field of work is television program",
+   "Nicolaus Steno's field of work is nanotechnology",
+   "Nicolaus Steno's field of work is hydrodynamics",
+   "Nicolaus Steno's field of work is ethics",
+   "Nicolaus Steno's field of work is physicist",
+   "Nicolaus Steno's field of work is evolution",
+   "Nicolaus Steno's field of work is distribution theory",
+   "Nicolaus Steno's field of work is psychophysiology",
+   "Nicolaus Steno's field of work is English literature",
+   "Nicolaus Steno's field of work is theoretical physics",
+   "Nicolaus Steno's field of work is essay",
+   "Nicolaus Steno's field of work is ethnology",
+   "Nicolaus Steno's field of work is pedagogy",
+   "Nicolaus Steno's field of work is kinetic theory",
+   "Nicolaus Steno's field of work is ethnography",
+   "Nicolaus Steno's field of work is rite",
+   "Nicolaus Steno's field of work is economics",
+   "Nicolaus Steno's field of work is dance choreography",
+   "Nicolaus Steno's field of work is biological anthropology",
+   "Nicolaus Steno's field of work is history of religions",
+   "Nicolaus Steno's field of work is political philosophy",
+   "Nicolaus Steno's field of work is philosophy",
+   "Nicolaus Steno's field of work is linguistics",
+   "Nicolaus Steno's field of work is cosmology",
+   "Nicolaus Steno's field of work is hunting",
+   "Nicolaus Steno's field of work is Minkowski spacetime",
+   "Nicolaus Steno's field of work is classical music",
+   "Nicolaus Steno's field of work is hyperbolic geometry",
+   "Nicolaus Steno's field of work is radioactivity",
+   "Nicolaus Steno's field of work is belletristic literature",
+   "Nicolaus Steno's field of work is model theory",
+   "Nicolaus Steno's field of work is choreography",
+   "Nicolaus Steno's field of work is chemistry",
+   "Nicolaus Steno's field of work is literary activity",
+   "Nicolaus Steno's field of work is historical sociology",
+   "Nicolaus Steno's field of work is feminism",
+   "Nicolaus Steno's field of work is economy",
+   "Nicolaus Steno's field of work is astronomy",
+   "Nicolaus Steno's field of work is topology",
+   "Nicolaus Steno's field of work is translations from English",
+   "Nicolaus Steno's field of work is partial differential equation",
+   "Nicolaus Steno's field of work is Cairo Geniza",
+   "Nicolaus Steno's field of work is nuclear physics",
+   "Nicolaus Steno's field of work is dance",
+   "Nicolaus Steno's field of work is informatics",
+   "Nicolaus Steno's field of work is geometry",
+   "Nicolaus Steno's field of work is computational geometry",
+   "Nicolaus Steno's field of work is Sanskrit",
+   "Nicolaus Steno's field of work is magnetism",
+   "Nicolaus Steno's field of work is opera",
+   "Nicolaus Steno's field of work is algebraic topology",
+   "Nicolaus Steno's field of work is quaternion",
+   "Nicolaus Steno's field of work is Bayesian inference",
+   "Nicolaus Steno's field of work is quantum electrodynamics",
+   "Nicolaus Steno's field of work is religion and society",
+   "Nicolaus Steno's field of work is history of economic thought",
+   "Nicolaus Steno's field of work is translations from Polish",
+   "Nicolaus Steno's field of work is literary translation",
+   "Nicolaus Steno's field of work is lyric poetry",
+   "Nicolaus Steno's field of work is probability theory",
+   "Nicolaus Steno's field of work is ontology",
+   "Nicolaus Steno's field of work is aerodynamics",
+   "Nicolaus Steno's field of work is crystallography",
+   "Nicolaus Steno's field of work is mathematics",
+   "Nicolaus Steno's field of work is harmonic analysis",
+   "Nicolaus Steno's field of work is history of science",
+   "Nicolaus Steno's field of work is philosophy of law",
+   "Nicolaus Steno's field of work is philology",
+   "Nicolaus Steno's field of work is optics",
+   "Nicolaus Steno's field of work is functional analysis",
+   "Nicolaus Steno's field of work is surgery",
+   "Nicolaus Steno's field of work is complex function",
+   "Nicolaus Steno's field of work is Jewish philosophy",
+   "Nicolaus Steno's field of work is translations from Spanish",
+   "Nicolaus Steno's field of work is poetry",
+   "Nicolaus Steno's field of work is distribution",
+   "Nicolaus Steno's field of work is astrology",
+   "Nicolaus Steno's field of work is differential geometry",
+   "Nicolaus Steno's field of work is mechanics",
+   "Nicolaus Steno's field of work is positivism",
+   "Nicolaus Steno's field of work is ferromagnetism",
+   "Nicolaus Steno's field of work is quantum physics",
+   "Nicolaus Steno's field of work is music theory",
+   "Nicolaus Steno's field of work is physiology",
+   "Nicolaus Steno's field of work is theory of differential equations",
+   "Nicolaus Steno's field of work is astrophysics",
+   "Nicolaus Steno's field of work is number theory",
+   "Nicolaus Steno's field of work is magnetic field",
+   "Nicolaus Steno's field of work is historical novel",
+   "Nicolaus Steno's field of work is stochastic",
+   "Nicolaus Steno's field of work is philosopher",
+   "Nicolaus Steno's field of work is histology",
+   "Nicolaus Steno's field of work is Franciscan spirituality",
+   "Nicolaus Steno's field of work is electromagnetic field",
+   "Nicolaus Steno's field of work is medicine",
+   "Nicolaus Steno's field of work is algebraic geometry",
+   "Nicolaus Steno's field of work is comparative mythology",
+   "Nicolaus Steno's field of work is color photography",
+   "Nicolaus Steno's field of work is cryptography",
+   "Nicolaus Steno's field of work is Christian Church",
+   "Nicolaus Steno's field of work is electrical engineering",
+   "Nicolaus Steno's field of work is folklore",
+   "Nicolaus Steno's field of work is mythology",
+   "Nicolaus Steno's field of work is human geography",
+   "Nicolaus Steno's field of work is Petrine ministry",
+   "Nicolaus Steno's field of work is Judaism",
+   "Nicolaus Steno's field of work is group theory",
+   "Nicolaus Steno's field of work is non-Euclidean geometry",
+   "Nicolaus Steno's field of work is algebra",
+   "Nicolaus Steno's field of work is ballistics",
+   "Nicolaus Steno's field of work is mathematician",
+   "Nicolaus Steno's field of work is applied physics",
+   "Nicolaus Steno's field of work is culturology",
+   "Nicolaus Steno's field of work is calculus of variations",
+   "Nicolaus Steno's field of work is logic",
+   "Nicolaus Steno's field of work is engineering",
+   "Nicolaus Steno's field of work is translations from Occitan",
+   "Nicolaus Steno's field of work is anatomy",
+   "Nicolaus Steno's field of work is forestry science",
+   "Nicolaus Steno's field of work is magic",
+   "Nicolaus Steno's field of work is quantum mechanics",
+   "Nicolaus Steno's field of work is differential calculus",
+   "Nicolaus Steno's field of work is shipbuilding",
+   "Nicolaus Steno's field of work is convex function",
+   "Nicolaus Steno's field of work is analytic philosophy",
+   "Nicolaus Steno's field of work is magnetic resonance",
+   "Nicolaus Steno's field of work is detective literature",
+   "Nicolaus Steno's field of work is cartography",
+   "Nicolaus Steno's field of work is sociology of organisations",
+   "Nicolaus Steno's field of work is crime novel",
+   "Nicolaus Steno's field of work is gravity",
+   "Nicolaus Steno's field of work is statistics",
+   "Nicolaus Steno's field of work is Greek philology",
+   "Nicolaus Steno's field of work is analytic number theory",
+   "Nicolaus Steno's field of work is trigonometry",
+   "Nicolaus Steno's field of work is physics",
+   "Nicolaus Steno's field of work is astronomer",
+   "Nicolaus Steno's field of work is natural science",
+   "Nicolaus Steno's field of work is information technology",
+   "Nicolaus Steno's field of work is conducting",
+   "Nicolaus Steno's field of work is nonstandard analysis",
+   "Nicolaus Steno's field of work is mathematical analysis",
+   "Nicolaus Steno's field of work is a branch of physics",
+   "Nicolaus Steno's field of work is projective geometry",
+   "Nicolaus Steno's field of work is civil rights",
+   "Nicolaus Steno's field of work is children's and youth literature",
+   "Nicolaus Steno's field of work is embryology",
+   "Nicolaus Steno's field of work is momentum",
+   "Nicolaus Steno's field of work is African studies",
+   "Nicolaus Steno's field of work is fairy tale",
+   "Nicolaus Steno's field of work is classics",
+   "Nicolaus Steno's field of work is social psychology",
+   "Nicolaus Steno's field of work is Jewish studies",
+   "Nicolaus Steno's field of work is silviculture",
+   "Nicolaus Steno's field of work is education",
+   "Nicolaus Steno's field of work is literature",
+   "Nicolaus Steno's field of work is constitutional law",
+   "Nicolaus Steno's field of work is radiation",
+   "Nicolaus Steno's field of work is Internet",
+   "Nicolaus Steno's field of work is heat",
+   "Nicolaus Steno's field of work is mechanical engineering",
+   "Nicolaus Steno's field of work is forestry",
+   "Nicolaus Steno's field of work is jazz",
+   "Nicolaus Steno's field of work is social philosophy",
+   "Nicolaus Steno's field of work is mathematical physics",
+   "Nicolaus Steno's field of work is meteorology",
+   "Nicolaus Steno's field of work is translations from Arabic language",
+   "Nicolaus Steno's field of work is quantum mysticism",
+   "Nicolaus Steno's field of work is politics",
+   "Nicolaus Steno's field of work is astronomical observation",
+   "Nicolaus Steno's field of work is myth",
+   "Nicolaus Steno's field of work is geography",
+   "Nicolaus Steno's field of work is sociology of religion",
+   "Nicolaus Steno's field of work is comparative religion",
+   "Nicolaus Steno's field of work is Greek",
+   "Nicolaus Steno's field of work is Lie algebra",
+   "Nicolaus Steno's field of work is complex manifold",
+   "Nicolaus Steno's field of work is journalism",
+   "Nicolaus Steno's field of work is celestial mechanics",
+   "Nicolaus Steno's field of work is String",
+   "Nicolaus Steno's field of work is mathematical logic",
+   "Nicolaus Steno's field of work is aeromechanics",
+   "Nicolaus Steno's field of work is English",
+   "Nicolaus Steno's field of work is history",
+   "Nicolaus Steno's field of work is study of history",
+   "Nicolaus Steno's field of work is genetics",
+   "Nicolaus Steno's field of work is psychology",
+   "Nicolaus Steno's field of work is theory of relativity",
+   "Nicolaus Steno's field of work is biochemistry",
+   "Nicolaus Steno's field of work is ballet",
+   "Nicolaus Steno's field of work is electricity",
+   "Nicolaus Steno's field of work is experimental physics",
+   "Nicolaus Steno's field of work is natural theology",
+   "Nicolaus Steno's field of work is Hebrew",
+   "Nicolaus Steno's field of work is prose",
+   "Nicolaus Steno's field of work is paleontology",
+   "Nicolaus Steno's field of work is Monte Carlo method",
+   "Nicolaus Steno's field of work is quantum theory",
+   "Nicolaus Steno's field of work is computer science",
+   "Nicolaus Steno's field of work is cybernetics",
+   "Nicolaus Steno's field of work is Afghanistan",
+   "Nicolaus Steno's field of work is philosophy of science",
+   "Nicolaus Steno's field of work is literary theory",
+   "Nicolaus Steno's field of work is electric field",
+   "Nicolaus Steno's field of work is religion",
+   "Nicolaus Steno's field of work is analytic geometry",
+   "Nicolaus Steno's field of work is graph theory",
+   "Nicolaus Steno's field of work is electron",
+   "Nicolaus Steno's field of work is anthropology",
+   "Nicolaus Steno's field of work is social anthropology",
+   "Nicolaus Steno's field of work is sociology",
+   "Nicolaus Steno's field of work is geodesy",
+   "Nicolaus Steno's field of work is neurology",
+   "Nicolaus Steno's field of work is drama",
+   "Nicolaus Steno's field of work is art of painting",
+   "Nicolaus Steno's field of work is applied mathematics",
+   "Nicolaus Steno's field of work is world economy",
+   "Nicolaus Steno's field of work is economic anthropology",
+   "Nicolaus Steno is abstract algebra",
+   "Nicolaus Steno is theology",
+   "Nicolaus Steno is television program",
+   "Nicolaus Steno is nanotechnology",
+   "Nicolaus Steno is hydrodynamics",
+   "Nicolaus Steno is ethics",
+   "Nicolaus Steno is physicist",
+   "Nicolaus Steno is evolution",
+   "Nicolaus Steno is distribution theory",
+   "Nicolaus Steno is psychophysiology",
+   "Nicolaus Steno is English literature",
+   "Nicolaus Steno is theoretical physics",
+   "Nicolaus Steno is essay",
+   "Nicolaus Steno is ethnology",
+   "Nicolaus Steno is pedagogy",
+   "Nicolaus Steno is kinetic theory",
+   "Nicolaus Steno is ethnography",
+   "Nicolaus Steno is rite",
+   "Nicolaus Steno is economics",
+   "Nicolaus Steno is dance choreography",
+   "Nicolaus Steno is biological anthropology",
+   "Nicolaus Steno is history of religions",
+   "Nicolaus Steno is political philosophy",
+   "Nicolaus Steno is philosophy",
+   "Nicolaus Steno is linguistics",
+   "Nicolaus Steno is cosmology",
+   "Nicolaus Steno is hunting",
+   "Nicolaus Steno is Minkowski spacetime",
+   "Nicolaus Steno is classical music",
+   "Nicolaus Steno is hyperbolic geometry",
+   "Nicolaus Steno is radioactivity",
+   "Nicolaus Steno is belletristic literature",
+   "Nicolaus Steno is model theory",
+   "Nicolaus Steno is choreography",
+   "Nicolaus Steno is chemistry",
+   "Nicolaus Steno is literary activity",
+   "Nicolaus Steno is historical sociology",
+   "Nicolaus Steno is feminism",
+   "Nicolaus Steno is economy",
+   "Nicolaus Steno is astronomy",
+   "Nicolaus Steno is topology",
+   "Nicolaus Steno is translations from English",
+   "Nicolaus Steno is partial differential equation",
+   "Nicolaus Steno is Cairo Geniza",
+   "Nicolaus Steno is nuclear physics",
+   "Nicolaus Steno is dance",
+   "Nicolaus Steno is informatics",
+   "Nicolaus Steno is geometry",
+   "Nicolaus Steno is computational geometry",
+   "Nicolaus Steno is Sanskrit",
+   "Nicolaus Steno is magnetism",
+   "Nicolaus Steno is opera",
+   "Nicolaus Steno is algebraic topology",
+   "Nicolaus Steno is quaternion",
+   "Nicolaus Steno is Bayesian inference",
+   "Nicolaus Steno is quantum electrodynamics",
+   "Nicolaus Steno is religion and society",
+   "Nicolaus Steno is history of economic thought",
+   "Nicolaus Steno is translations from Polish",
+   "Nicolaus Steno is literary translation",
+   "Nicolaus Steno is lyric poetry",
+   "Nicolaus Steno is probability theory",
+   "Nicolaus Steno is ontology",
+   "Nicolaus Steno is aerodynamics",
+   "Nicolaus Steno is crystallography",
+   "Nicolaus Steno is mathematics",
+   "Nicolaus Steno is harmonic analysis",
+   "Nicolaus Steno is history of science",
+   "Nicolaus Steno is philosophy of law",
+   "Nicolaus Steno is philology",
+   "Nicolaus Steno is optics",
+   "Nicolaus Steno is functional analysis",
+   "Nicolaus Steno is surgery",
+   "Nicolaus Steno is complex function",
+   "Nicolaus Steno is Jewish philosophy",
+   "Nicolaus Steno is translations from Spanish",
+   "Nicolaus Steno is poetry",
+   "Nicolaus Steno is distribution",
+   "Nicolaus Steno is astrology",
+   "Nicolaus Steno is differential geometry",
+   "Nicolaus Steno is mechanics",
+   "Nicolaus Steno is positivism",
+   "Nicolaus Steno is ferromagnetism",
+   "Nicolaus Steno is quantum physics",
+   "Nicolaus Steno is music theory",
+   "Nicolaus Steno is physiology",
+   "Nicolaus Steno is theory of differential equations",
+   "Nicolaus Steno is astrophysics",
+   "Nicolaus Steno is number theory",
+   "Nicolaus Steno is magnetic field",
+   "Nicolaus Steno is historical novel",
+   "Nicolaus Steno is stochastic",
+   "Nicolaus Steno is philosopher",
+   "Nicolaus Steno is histology",
+   "Nicolaus Steno is Franciscan spirituality",
+   "Nicolaus Steno is electromagnetic field",
+   "Nicolaus Steno is medicine",
+   "Nicolaus Steno is algebraic geometry",
+   "Nicolaus Steno is comparative mythology",
+   "Nicolaus Steno is color photography",
+   "Nicolaus Steno is cryptography",
+   "Nicolaus Steno is Christian Church",
+   "Nicolaus Steno is electrical engineering",
+   "Nicolaus Steno is folklore",
+   "Nicolaus Steno is mythology",
+   "Nicolaus Steno is human geography",
+   "Nicolaus Steno is Petrine ministry",
+   "Nicolaus Steno is Judaism",
+   "Nicolaus Steno is group theory",
+   "Nicolaus Steno is non-Euclidean geometry",
+   "Nicolaus Steno is algebra",
+   "Nicolaus Steno is ballistics",
+   "Nicolaus Steno is mathematician",
+   "Nicolaus Steno is applied physics",
+   "Nicolaus Steno is culturology",
+   "Nicolaus Steno is calculus of variations",
+   "Nicolaus Steno is logic",
+   "Nicolaus Steno is engineering",
+   "Nicolaus Steno is translations from Occitan",
+   "Nicolaus Steno is anatomy",
+   "Nicolaus Steno is forestry science",
+   "Nicolaus Steno is magic",
+   "Nicolaus Steno is quantum mechanics",
+   "Nicolaus Steno is differential calculus",
+   "Nicolaus Steno is shipbuilding",
+   "Nicolaus Steno is convex function",
+   "Nicolaus Steno is analytic philosophy",
+   "Nicolaus Steno is magnetic resonance",
+   "Nicolaus Steno is detective literature",
+   "Nicolaus Steno is cartography",
+   "Nicolaus Steno is sociology of organisations",
+   "Nicolaus Steno is crime novel",
+   "Nicolaus Steno is gravity",
+   "Nicolaus Steno is statistics",
+   "Nicolaus Steno is Greek philology",
+   "Nicolaus Steno is analytic number theory",
+   "Nicolaus Steno is trigonometry",
+   "Nicolaus Steno is physics",
+   "Nicolaus Steno is astronomer",
+   "Nicolaus Steno is natural science",
+   "Nicolaus Steno is information technology",
+   "Nicolaus Steno is conducting",
+   "Nicolaus Steno is nonstandard analysis",
+   "Nicolaus Steno is mathematical analysis",
+   "Nicolaus Steno is a branch of physics",
+   "Nicolaus Steno is projective geometry",
+   "Nicolaus Steno is civil rights",
+   "Nicolaus Steno is children's and youth literature",
+   "Nicolaus Steno is embryology",
+   "Nicolaus Steno is momentum",
+   "Nicolaus Steno is African studies",
+   "Nicolaus Steno is fairy tale",
+   "Nicolaus Steno is classics",
+   "Nicolaus Steno is social psychology",
+   "Nicolaus Steno is Jewish studies",
+   "Nicolaus Steno is silviculture",
+   "Nicolaus Steno is education",
+   "Nicolaus Steno is literature",
+   "Nicolaus Steno is constitutional law",
+   "Nicolaus Steno is radiation",
+   "Nicolaus Steno is Internet",
+   "Nicolaus Steno is heat",
+   "Nicolaus Steno is mechanical engineering",
+   "Nicolaus Steno is forestry",
+   "Nicolaus Steno is jazz",
+   "Nicolaus Steno is social philosophy",
+   "Nicolaus Steno is mathematical physics",
+   "Nicolaus Steno is meteorology",
+   "Nicolaus Steno is translations from Arabic language",
+   "Nicolaus Steno is quantum mysticism",
+   "Nicolaus Steno is politics",
+   "Nicolaus Steno is astronomical observation",
+   "Nicolaus Steno is myth",
+   "Nicolaus Steno is geography",
+   "Nicolaus Steno is sociology of religion",
+   "Nicolaus Steno is comparative religion",
+   "Nicolaus Steno is Greek",
+   "Nicolaus Steno is Lie algebra",
+   "Nicolaus Steno is complex manifold",
+   "Nicolaus Steno is journalism",
+   "Nicolaus Steno is celestial mechanics",
+   "Nicolaus Steno is String",
+   "Nicolaus Steno is mathematical logic",
+   "Nicolaus Steno is aeromechanics",
+   "Nicolaus Steno is English",
+   "Nicolaus Steno is history",
+   "Nicolaus Steno is study of history",
+   "Nicolaus Steno is genetics",
+   "Nicolaus Steno is psychology",
+   "Nicolaus Steno is theory of relativity",
+   "Nicolaus Steno is biochemistry",
+   "Nicolaus Steno is ballet",
+   "Nicolaus Steno is electricity",
+   "Nicolaus Steno is experimental physics",
+   "Nicolaus Steno is natural theology",
+   "Nicolaus Steno is Hebrew",
+   "Nicolaus Steno is prose",
+   "Nicolaus Steno is paleontology",
+   "Nicolaus Steno is Monte Carlo method",
+   "Nicolaus Steno is quantum theory",
+   "Nicolaus Steno is computer science",
+   "Nicolaus Steno is cybernetics",
+   "Nicolaus Steno is Afghanistan",
+   "Nicolaus Steno is philosophy of science",
+   "Nicolaus Steno is literary theory",
+   "Nicolaus Steno is electric field",
+   "Nicolaus Steno is religion",
+   "Nicolaus Steno is analytic geometry",
+   "Nicolaus Steno is graph theory",
+   "Nicolaus Steno is electron",
+   "Nicolaus Steno is anthropology",
+   "Nicolaus Steno is social anthropology",
+   "Nicolaus Steno is sociology",
+   "Nicolaus Steno is geodesy",
+   "Nicolaus Steno is neurology",
+   "Nicolaus Steno is drama",
+   "Nicolaus Steno is art of painting",
+   "Nicolaus Steno is applied mathematics",
+   "Nicolaus Steno is world economy",
+   "Nicolaus Steno is economic anthropology"
+  ],
+  [
+   [
+    -59.59474182128906
+   ],
+   [
+    -50.87196350097656
+   ],
+   [
+    -61.07451248168945
+   ],
+   [
+    -54.913719177246094
+   ],
+   [
+    -54.557334899902344
+   ],
+   [
+    -54.03220748901367
+   ],
+   [
+    -54.70842742919922
+   ],
+   [
+    -48.2723388671875
+   ],
+   [
+    -60.38283920288086
+   ],
+   [
+    -59.653018951416016
+   ],
+   [
+    -54.26551055908203
+   ],
+   [
+    -54.81761169433594
+   ],
+   [
+    -54.46208953857422
+   ],
+   [
+    -53.221435546875
+   ],
+   [
+    -54.358558654785156
+   ],
+   [
+    -58.89768981933594
+   ],
+   [
+    -54.31739044189453
+   ],
+   [
+    -59.47670364379883
+   ],
+   [
+    -52.24602508544922
+   ],
+   [
+    -60.70520782470703
+   ],
+   [
+    -54.224998474121094
+   ],
+   [
+    -57.190040588378906
+   ],
+   [
+    -56.92626190185547
+   ],
+   [
+    -50.0755615234375
+   ],
+   [
+    -52.38040542602539
+   ],
+   [
+    -50.997657775878906
+   ],
+   [
+    -54.18299865722656
+   ],
+   [
+    -62.513519287109375
+   ],
+   [
+    -56.865867614746094
+   ],
+   [
+    -57.57492446899414
+   ],
+   [
+    -56.13603591918945
+   ],
+   [
+    -62.2418212890625
+   ],
+   [
+    -59.35369110107422
+   ],
+   [
+    -57.54645538330078
+   ],
+   [
+    -49.36376953125
+   ],
+   [
+    -62.21593475341797
+   ],
+   [
+    -58.653465270996094
+   ],
+   [
+    -58.08649444580078
+   ],
+   [
+    -54.86399841308594
+   ],
+   [
+    -49.49860382080078
+   ],
+   [
+    -52.96649169921875
+   ],
+   [
+    -60.61277389526367
+   ],
+   [
+    -62.9761962890625
+   ],
+   [
+    -63.45972442626953
+   ],
+   [
+    -55.93878936767578
+   ],
+   [
+    -55.067527770996094
+   ],
+   [
+    -56.084442138671875
+   ],
+   [
+    -50.299537658691406
+   ],
+   [
+    -57.67743682861328
+   ],
+   [
+    -56.82811737060547
+   ],
+   [
+    -55.203086853027344
+   ],
+   [
+    -55.70527267456055
+   ],
+   [
+    -55.847171783447266
+   ],
+   [
+    -57.024757385253906
+   ],
+   [
+    -56.79982376098633
+   ],
+   [
+    -59.19500732421875
+   ],
+   [
+    -57.10919189453125
+   ],
+   [
+    -58.54393768310547
+   ],
+   [
+    -64.60395812988281
+   ],
+   [
+    -59.024688720703125
+   ],
+   [
+    -58.30168151855469
+   ],
+   [
+    -55.29294204711914
+   ],
+   [
+    -51.49330520629883
+   ],
+   [
+    -55.96353530883789
+   ],
+   [
+    -50.437904357910156
+   ],
+   [
+    -50.529762268066406
+   ],
+   [
+    -57.76744079589844
+   ],
+   [
+    -49.518829345703125
+   ],
+   [
+    -56.6112174987793
+   ],
+   [
+    -52.24428939819336
+   ],
+   [
+    -50.28538131713867
+   ],
+   [
+    -58.80036926269531
+   ],
+   [
+    -51.72576141357422
+   ],
+   [
+    -61.390342712402344
+   ],
+   [
+    -58.06499481201172
+   ],
+   [
+    -64.1038818359375
+   ],
+   [
+    -52.57707595825195
+   ],
+   [
+    -54.267887115478516
+   ],
+   [
+    -49.05250549316406
+   ],
+   [
+    -54.92469024658203
+   ],
+   [
+    -51.29647445678711
+   ],
+   [
+    -57.996246337890625
+   ],
+   [
+    -59.62568664550781
+   ],
+   [
+    -55.325096130371094
+   ],
+   [
+    -56.411766052246094
+   ],
+   [
+    -48.79194641113281
+   ],
+   [
+    -64.73927307128906
+   ],
+   [
+    -49.901939392089844
+   ],
+   [
+    -57.40678024291992
+   ],
+   [
+    -58.76416778564453
+   ],
+   [
+    -60.00213623046875
+   ],
+   [
+    -53.05999755859375
+   ],
+   [
+    -56.70008850097656
+   ],
+   [
+    -50.53160858154297
+   ],
+   [
+    -65.13197326660156
+   ],
+   [
+    -60.912384033203125
+   ],
+   [
+    -47.67240905761719
+   ],
+   [
+    -55.60799026489258
+   ],
+   [
+    -61.36015319824219
+   ],
+   [
+    -59.985450744628906
+   ],
+   [
+    -54.68408203125
+   ],
+   [
+    -57.655914306640625
+   ],
+   [
+    -54.35662078857422
+   ],
+   [
+    -53.461814880371094
+   ],
+   [
+    -53.22441864013672
+   ],
+   [
+    -55.68511199951172
+   ],
+   [
+    -67.92027282714844
+   ],
+   [
+    -55.705322265625
+   ],
+   [
+    -58.29672622680664
+   ],
+   [
+    -56.478424072265625
+   ],
+   [
+    -54.644996643066406
+   ],
+   [
+    -55.522438049316406
+   ],
+   [
+    -56.95166015625
+   ],
+   [
+    -53.8905143737793
+   ],
+   [
+    -57.6724853515625
+   ],
+   [
+    -56.99708557128906
+   ],
+   [
+    -52.17354202270508
+   ],
+   [
+    -51.47705078125
+   ],
+   [
+    -69.2410659790039
+   ],
+   [
+    -45.265010833740234
+   ],
+   [
+    -55.456321716308594
+   ],
+   [
+    -53.50090789794922
+   ],
+   [
+    -54.74258041381836
+   ],
+   [
+    -55.21821212768555
+   ],
+   [
+    -55.938751220703125
+   ],
+   [
+    -64.21842193603516
+   ],
+   [
+    -59.40822219848633
+   ],
+   [
+    -58.70050811767578
+   ],
+   [
+    -61.109657287597656
+   ],
+   [
+    -51.317626953125
+   ],
+   [
+    -63.597747802734375
+   ],
+   [
+    -61.675621032714844
+   ],
+   [
+    -53.81133270263672
+   ],
+   [
+    -52.207576751708984
+   ],
+   [
+    -56.51378631591797
+   ],
+   [
+    -61.46849822998047
+   ],
+   [
+    -53.03248596191406
+   ],
+   [
+    -49.664608001708984
+   ],
+   [
+    -56.56425476074219
+   ],
+   [
+    -47.95587921142578
+   ],
+   [
+    -53.06615447998047
+   ],
+   [
+    -55.6798095703125
+   ],
+   [
+    -67.7492904663086
+   ],
+   [
+    -55.964603424072266
+   ],
+   [
+    -56.10076904296875
+   ],
+   [
+    -56.14082336425781
+   ],
+   [
+    -59.499515533447266
+   ],
+   [
+    -60.43326187133789
+   ],
+   [
+    -48.77821350097656
+   ],
+   [
+    -55.88605880737305
+   ],
+   [
+    -57.0740966796875
+   ],
+   [
+    -60.338775634765625
+   ],
+   [
+    -52.11053466796875
+   ],
+   [
+    -57.9074821472168
+   ],
+   [
+    -55.58070755004883
+   ],
+   [
+    -57.30982208251953
+   ],
+   [
+    -52.78601837158203
+   ],
+   [
+    -51.67966842651367
+   ],
+   [
+    -55.36909484863281
+   ],
+   [
+    -53.76504898071289
+   ],
+   [
+    -56.06222915649414
+   ],
+   [
+    -54.93100357055664
+   ],
+   [
+    -53.357696533203125
+   ],
+   [
+    -51.345882415771484
+   ],
+   [
+    -55.85837936401367
+   ],
+   [
+    -60.36115264892578
+   ],
+   [
+    -54.140655517578125
+   ],
+   [
+    -51.564151763916016
+   ],
+   [
+    -67.73699951171875
+   ],
+   [
+    -61.771484375
+   ],
+   [
+    -53.59015655517578
+   ],
+   [
+    -56.93203353881836
+   ],
+   [
+    -52.39924240112305
+   ],
+   [
+    -53.137569427490234
+   ],
+   [
+    -58.06756591796875
+   ],
+   [
+    -61.13082504272461
+   ],
+   [
+    -52.005393981933594
+   ],
+   [
+    -62.75209045410156
+   ],
+   [
+    -60.293949127197266
+   ],
+   [
+    -52.84723663330078
+   ],
+   [
+    -54.22370910644531
+   ],
+   [
+    -56.7078742980957
+   ],
+   [
+    -55.72515106201172
+   ],
+   [
+    -59.798583984375
+   ],
+   [
+    -51.98366928100586
+   ],
+   [
+    -47.8718147277832
+   ],
+   [
+    -58.40876770019531
+   ],
+   [
+    -50.82112121582031
+   ],
+   [
+    -53.756980895996094
+   ],
+   [
+    -61.05536651611328
+   ],
+   [
+    -53.328277587890625
+   ],
+   [
+    -56.368465423583984
+   ],
+   [
+    -53.857852935791016
+   ],
+   [
+    -55.15093231201172
+   ],
+   [
+    -52.69892120361328
+   ],
+   [
+    -53.74169158935547
+   ],
+   [
+    -53.528228759765625
+   ],
+   [
+    -48.183998107910156
+   ],
+   [
+    -62.13212585449219
+   ],
+   [
+    -57.33826446533203
+   ],
+   [
+    -54.038299560546875
+   ],
+   [
+    -56.922279357910156
+   ],
+   [
+    -56.396522521972656
+   ],
+   [
+    -52.42705535888672
+   ],
+   [
+    -59.11768341064453
+   ],
+   [
+    -60.059112548828125
+   ],
+   [
+    -51.45564270019531
+   ],
+   [
+    -55.31732177734375
+   ],
+   [
+    -55.95362854003906
+   ],
+   [
+    -53.56183624267578
+   ],
+   [
+    -49.532127380371094
+   ],
+   [
+    -57.32790756225586
+   ],
+   [
+    -54.22491455078125
+   ],
+   [
+    -54.12666702270508
+   ],
+   [
+    -52.28456115722656
+   ],
+   [
+    -55.565494537353516
+   ],
+   [
+    -59.07344055175781
+   ],
+   [
+    -52.27925109863281
+   ],
+   [
+    -60.80335235595703
+   ],
+   [
+    -56.9149284362793
+   ],
+   [
+    -50.05431365966797
+   ],
+   [
+    -39.46289825439453
+   ],
+   [
+    -43.62059020996094
+   ],
+   [
+    -42.56974792480469
+   ],
+   [
+    -43.501625061035156
+   ],
+   [
+    -41.76276779174805
+   ],
+   [
+    -37.386356353759766
+   ],
+   [
+    -38.532676696777344
+   ],
+   [
+    -50.2204475402832
+   ],
+   [
+    -48.168514251708984
+   ],
+   [
+    -43.36345672607422
+   ],
+   [
+    -42.487064361572266
+   ],
+   [
+    -38.52796936035156
+   ],
+   [
+    -42.43292236328125
+   ],
+   [
+    -41.919498443603516
+   ],
+   [
+    -45.19770050048828
+   ],
+   [
+    -43.24183654785156
+   ],
+   [
+    -43.1860466003418
+   ],
+   [
+    -40.00293731689453
+   ],
+   [
+    -45.36095428466797
+   ],
+   [
+    -40.99505615234375
+   ],
+   [
+    -49.92387771606445
+   ],
+   [
+    -44.29888153076172
+   ],
+   [
+    -38.32783889770508
+   ],
+   [
+    -42.76082229614258
+   ],
+   [
+    -39.420223236083984
+   ],
+   [
+    -37.249568939208984
+   ],
+   [
+    -49.73785400390625
+   ],
+   [
+    -40.703155517578125
+   ],
+   [
+    -48.47154998779297
+   ],
+   [
+    -44.850914001464844
+   ],
+   [
+    -50.14921569824219
+   ],
+   [
+    -51.041595458984375
+   ],
+   [
+    -46.554046630859375
+   ],
+   [
+    -38.72769546508789
+   ],
+   [
+    -49.442832946777344
+   ],
+   [
+    -47.223052978515625
+   ],
+   [
+    -42.64464569091797
+   ],
+   [
+    -40.461273193359375
+   ],
+   [
+    -39.475990295410156
+   ],
+   [
+    -41.375335693359375
+   ],
+   [
+    -48.59288787841797
+   ],
+   [
+    -49.05034637451172
+   ],
+   [
+    -47.34718322753906
+   ],
+   [
+    -42.9253044128418
+   ],
+   [
+    -38.287376403808594
+   ],
+   [
+    -44.31554412841797
+   ],
+   [
+    -40.98135757446289
+   ],
+   [
+    -47.21198272705078
+   ],
+   [
+    -39.59198760986328
+   ],
+   [
+    -42.36941909790039
+   ],
+   [
+    -39.18135452270508
+   ],
+   [
+    -45.88801574707031
+   ],
+   [
+    -44.510948181152344
+   ],
+   [
+    -46.910400390625
+   ],
+   [
+    -48.045982360839844
+   ],
+   [
+    -46.256492614746094
+   ],
+   [
+    -49.708866119384766
+   ],
+   [
+    -51.138248443603516
+   ],
+   [
+    -47.48709487915039
+   ],
+   [
+    -46.60897445678711
+   ],
+   [
+    -46.633392333984375
+   ],
+   [
+    -43.79060745239258
+   ],
+   [
+    -44.33250427246094
+   ],
+   [
+    -41.27715301513672
+   ],
+   [
+    -38.64583969116211
+   ],
+   [
+    -47.686134338378906
+   ],
+   [
+    -40.227195739746094
+   ],
+   [
+    -47.372840881347656
+   ],
+   [
+    -40.85083770751953
+   ],
+   [
+    -42.17108917236328
+   ],
+   [
+    -45.98082733154297
+   ],
+   [
+    -40.68345260620117
+   ],
+   [
+    -49.46052551269531
+   ],
+   [
+    -48.22515869140625
+   ],
+   [
+    -51.07317352294922
+   ],
+   [
+    -39.649784088134766
+   ],
+   [
+    -43.12967300415039
+   ],
+   [
+    -41.54345703125
+   ],
+   [
+    -45.89311599731445
+   ],
+   [
+    -43.306095123291016
+   ],
+   [
+    -43.51359176635742
+   ],
+   [
+    -47.642486572265625
+   ],
+   [
+    -43.2557373046875
+   ],
+   [
+    -43.550132751464844
+   ],
+   [
+    -38.73638916015625
+   ],
+   [
+    -51.40043640136719
+   ],
+   [
+    -41.29853820800781
+   ],
+   [
+    -46.07737731933594
+   ],
+   [
+    -45.72658157348633
+   ],
+   [
+    -43.40106964111328
+   ],
+   [
+    -41.373348236083984
+   ],
+   [
+    -37.02679443359375
+   ],
+   [
+    -42.53815460205078
+   ],
+   [
+    -46.686946868896484
+   ],
+   [
+    -45.56687927246094
+   ],
+   [
+    -37.39775466918945
+   ],
+   [
+    -44.17226028442383
+   ],
+   [
+    -49.85197448730469
+   ],
+   [
+    -46.41292190551758
+   ],
+   [
+    -44.60068130493164
+   ],
+   [
+    -43.512939453125
+   ],
+   [
+    -41.104286193847656
+   ],
+   [
+    -41.09112548828125
+   ],
+   [
+    -41.8772087097168
+   ],
+   [
+    -43.89964294433594
+   ],
+   [
+    -53.951194763183594
+   ],
+   [
+    -42.81278991699219
+   ],
+   [
+    -47.21613311767578
+   ],
+   [
+    -44.839012145996094
+   ],
+   [
+    -41.88029861450195
+   ],
+   [
+    -44.24608612060547
+   ],
+   [
+    -37.155052185058594
+   ],
+   [
+    -43.388797760009766
+   ],
+   [
+    -46.009925842285156
+   ],
+   [
+    -48.226715087890625
+   ],
+   [
+    -39.971473693847656
+   ],
+   [
+    -39.092838287353516
+   ],
+   [
+    -54.60350036621094
+   ],
+   [
+    -37.29608917236328
+   ],
+   [
+    -48.308509826660156
+   ],
+   [
+    -37.96076202392578
+   ],
+   [
+    -42.201332092285156
+   ],
+   [
+    -43.581932067871094
+   ],
+   [
+    -43.02946472167969
+   ],
+   [
+    -49.96534729003906
+   ],
+   [
+    -47.65575408935547
+   ],
+   [
+    -47.166236877441406
+   ],
+   [
+    -50.62798309326172
+   ],
+   [
+    -40.24976348876953
+   ],
+   [
+    -54.1146240234375
+   ],
+   [
+    -44.601890563964844
+   ],
+   [
+    -40.9028205871582
+   ],
+   [
+    -38.7287712097168
+   ],
+   [
+    -49.38987350463867
+   ],
+   [
+    -52.158050537109375
+   ],
+   [
+    -42.041473388671875
+   ],
+   [
+    -39.69754409790039
+   ],
+   [
+    -37.373680114746094
+   ],
+   [
+    -38.5313835144043
+   ],
+   [
+    -39.880760192871094
+   ],
+   [
+    -35.7327880859375
+   ],
+   [
+    -53.860511779785156
+   ],
+   [
+    -45.15498352050781
+   ],
+   [
+    -42.463680267333984
+   ],
+   [
+    -45.65685272216797
+   ],
+   [
+    -44.48072814941406
+   ],
+   [
+    -47.37489700317383
+   ],
+   [
+    -41.00099182128906
+   ],
+   [
+    -41.287288665771484
+   ],
+   [
+    -45.48307800292969
+   ],
+   [
+    -43.521568298339844
+   ],
+   [
+    -40.17456817626953
+   ],
+   [
+    -45.88779830932617
+   ],
+   [
+    -45.32801055908203
+   ],
+   [
+    -46.40406036376953
+   ],
+   [
+    -38.01326370239258
+   ],
+   [
+    -38.36317443847656
+   ],
+   [
+    -44.248779296875
+   ],
+   [
+    -40.61484146118164
+   ],
+   [
+    -38.8252067565918
+   ],
+   [
+    -39.91067123413086
+   ],
+   [
+    -44.91346740722656
+   ],
+   [
+    -43.50618362426758
+   ],
+   [
+    -39.92594528198242
+   ],
+   [
+    -47.80912780761719
+   ],
+   [
+    -44.148624420166016
+   ],
+   [
+    -40.79156494140625
+   ],
+   [
+    -55.16796112060547
+   ],
+   [
+    -50.426063537597656
+   ],
+   [
+    -40.46278762817383
+   ],
+   [
+    -46.278968811035156
+   ],
+   [
+    -36.181724548339844
+   ],
+   [
+    -41.54949188232422
+   ],
+   [
+    -47.29153823852539
+   ],
+   [
+    -48.56913757324219
+   ],
+   [
+    -37.506160736083984
+   ],
+   [
+    -50.21065139770508
+   ],
+   [
+    -49.25624084472656
+   ],
+   [
+    -40.50688552856445
+   ],
+   [
+    -44.231231689453125
+   ],
+   [
+    -39.547855377197266
+   ],
+   [
+    -44.704261779785156
+   ],
+   [
+    -48.385562896728516
+   ],
+   [
+    -36.613067626953125
+   ],
+   [
+    -33.90694808959961
+   ],
+   [
+    -43.28226852416992
+   ],
+   [
+    -40.44475555419922
+   ],
+   [
+    -41.02070999145508
+   ],
+   [
+    -46.69565200805664
+   ],
+   [
+    -39.576202392578125
+   ],
+   [
+    -42.79977798461914
+   ],
+   [
+    -40.43168258666992
+   ],
+   [
+    -45.39739990234375
+   ],
+   [
+    -42.87574005126953
+   ],
+   [
+    -39.7650032043457
+   ],
+   [
+    -39.46514892578125
+   ],
+   [
+    -38.11028289794922
+   ],
+   [
+    -48.53477478027344
+   ],
+   [
+    -44.597267150878906
+   ],
+   [
+    -41.70880889892578
+   ],
+   [
+    -41.654083251953125
+   ],
+   [
+    -40.85000991821289
+   ],
+   [
+    -42.775062561035156
+   ],
+   [
+    -47.8795051574707
+   ],
+   [
+    -46.49882507324219
+   ],
+   [
+    -38.47751998901367
+   ],
+   [
+    -46.39374542236328
+   ],
+   [
+    -45.88440704345703
+   ],
+   [
+    -37.337066650390625
+   ],
+   [
+    -39.804664611816406
+   ],
+   [
+    -46.225162506103516
+   ],
+   [
+    -40.73889923095703
+   ],
+   [
+    -45.074462890625
+   ],
+   [
+    -41.47990417480469
+   ],
+   [
+    -39.655487060546875
+   ],
+   [
+    -46.82854461669922
+   ],
+   [
+    -43.08595275878906
+   ],
+   [
+    -45.629493713378906
+   ],
+   [
+    -45.828895568847656
+   ]
+  ]
+ ],
+ "time": 4086.094328403473
+}

@@ -1,0 +1,2076 @@
+{
+ "case_id": 22100,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Ivan Sechenov"
+ },
+ "pre": [
+  [
+   "Ivan Sechenov is abstract algebra",
+   "Ivan Sechenov is theology",
+   "Ivan Sechenov is television program",
+   "Ivan Sechenov is nanotechnology",
+   "Ivan Sechenov is hydrodynamics",
+   "Ivan Sechenov is ethics",
+   "Ivan Sechenov is physicist",
+   "Ivan Sechenov is evolution",
+   "Ivan Sechenov is distribution theory",
+   "Ivan Sechenov is psychophysiology",
+   "Ivan Sechenov is English literature",
+   "Ivan Sechenov is theoretical physics",
+   "Ivan Sechenov is essay",
+   "Ivan Sechenov is ethnology",
+   "Ivan Sechenov is pedagogy",
+   "Ivan Sechenov is kinetic theory",
+   "Ivan Sechenov is ethnography",
+   "Ivan Sechenov is rite",
+   "Ivan Sechenov is economics",
+   "Ivan Sechenov is dance choreography",
+   "Ivan Sechenov is biological anthropology",
+   "Ivan Sechenov is history of religions",
+   "Ivan Sechenov is political philosophy",
+   "Ivan Sechenov is philosophy",
+   "Ivan Sechenov is linguistics",
+   "Ivan Sechenov is cosmology",
+   "Ivan Sechenov is hunting",
+   "Ivan Sechenov is Minkowski spacetime",
+   "Ivan Sechenov is classical music",
+   "Ivan Sechenov is hyperbolic geometry",
+   "Ivan Sechenov is radioactivity",
+   "Ivan Sechenov is belletristic literature",
+   "Ivan Sechenov is model theory",
+   "Ivan Sechenov is choreography",
+   "Ivan Sechenov is chemistry",
+   "Ivan Sechenov is literary activity",
+   "Ivan Sechenov is historical sociology",
+   "Ivan Sechenov is feminism",
+   "Ivan Sechenov is economy",
+   "Ivan Sechenov is astronomy",
+   "Ivan Sechenov is topology",
+   "Ivan Sechenov is translations from English",
+   "Ivan Sechenov is partial differential equation",
+   "Ivan Sechenov is Cairo Geniza",
+   "Ivan Sechenov is nuclear physics",
+   "Ivan Sechenov is dance",
+   "Ivan Sechenov is informatics",
+   "Ivan Sechenov is geometry",
+   "Ivan Sechenov is computational geometry",
+   "Ivan Sechenov is Sanskrit",
+   "Ivan Sechenov is magnetism",
+   "Ivan Sechenov is opera",
+   "Ivan Sechenov is algebraic topology",
+   "Ivan Sechenov is quaternion",
+   "Ivan Sechenov is Bayesian inference",
+   "Ivan Sechenov is quantum electrodynamics",
+   "Ivan Sechenov is religion and society",
+   "Ivan Sechenov is history of economic thought",
+   "Ivan Sechenov is translations from Polish",
+   "Ivan Sechenov is literary translation",
+   "Ivan Sechenov is lyric poetry",
+   "Ivan Sechenov is probability theory",
+   "Ivan Sechenov is ontology",
+   "Ivan Sechenov is aerodynamics",
+   "Ivan Sechenov is crystallography",
+   "Ivan Sechenov is mathematics",
+   "Ivan Sechenov is harmonic analysis",
+   "Ivan Sechenov is history of science",
+   "Ivan Sechenov is philosophy of law",
+   "Ivan Sechenov is philology",
+   "Ivan Sechenov is optics",
+   "Ivan Sechenov is functional analysis",
+   "Ivan Sechenov is surgery",
+   "Ivan Sechenov is complex function",
+   "Ivan Sechenov is Jewish philosophy",
+   "Ivan Sechenov is translations from Spanish",
+   "Ivan Sechenov is poetry",
+   "Ivan Sechenov is distribution",
+   "Ivan Sechenov is astrology",
+   "Ivan Sechenov is differential geometry",
+   "Ivan Sechenov is mechanics",
+   "Ivan Sechenov is positivism",
+   "Ivan Sechenov is ferromagnetism",
+   "Ivan Sechenov is quantum physics",
+   "Ivan Sechenov is music theory",
+   "Ivan Sechenov is physiology",
+   "Ivan Sechenov is theory of differential equations",
+   "Ivan Sechenov is astrophysics",
+   "Ivan Sechenov is number theory",
+   "Ivan Sechenov is magnetic field",
+   "Ivan Sechenov is historical novel",
+   "Ivan Sechenov is stochastic",
+   "Ivan Sechenov is philosopher",
+   "Ivan Sechenov is histology",
+   "Ivan Sechenov is Franciscan spirituality",
+   "Ivan Sechenov is electromagnetic field",
+   "Ivan Sechenov is medicine",
+   "Ivan Sechenov is algebraic geometry",
+   "Ivan Sechenov is comparative mythology",
+   "Ivan Sechenov is color photography",
+   "Ivan Sechenov is cryptography",
+   "Ivan Sechenov is Christian Church",
+   "Ivan Sechenov is electrical engineering",
+   "Ivan Sechenov is folklore",
+   "Ivan Sechenov is mythology",
+   "Ivan Sechenov is human geography",
+   "Ivan Sechenov is Petrine ministry",
+   "Ivan Sechenov is Judaism",
+   "Ivan Sechenov is group theory",
+   "Ivan Sechenov is non-Euclidean geometry",
+   "Ivan Sechenov is algebra",
+   "Ivan Sechenov is ballistics",
+   "Ivan Sechenov is mathematician",
+   "Ivan Sechenov is applied physics",
+   "Ivan Sechenov is culturology",
+   "Ivan Sechenov is calculus of variations",
+   "Ivan Sechenov is logic",
+   "Ivan Sechenov is engineering",
+   "Ivan Sechenov is translations from Occitan",
+   "Ivan Sechenov is anatomy",
+   "Ivan Sechenov is forestry science",
+   "Ivan Sechenov is magic",
+   "Ivan Sechenov is quantum mechanics",
+   "Ivan Sechenov is differential calculus",
+   "Ivan Sechenov is shipbuilding",
+   "Ivan Sechenov is convex function",
+   "Ivan Sechenov is analytic philosophy",
+   "Ivan Sechenov is magnetic resonance",
+   "Ivan Sechenov is detective literature",
+   "Ivan Sechenov is cartography",
+   "Ivan Sechenov is sociology of organisations",
+   "Ivan Sechenov is crime novel",
+   "Ivan Sechenov is gravity",
+   "Ivan Sechenov is statistics",
+   "Ivan Sechenov is Greek philology",
+   "Ivan Sechenov is analytic number theory",
+   "Ivan Sechenov is trigonometry",
+   "Ivan Sechenov is physics",
+   "Ivan Sechenov is astronomer",
+   "Ivan Sechenov is natural science",
+   "Ivan Sechenov is information technology",
+   "Ivan Sechenov is conducting",
+   "Ivan Sechenov is nonstandard analysis",
+   "Ivan Sechenov is mathematical analysis",
+   "Ivan Sechenov is a branch of physics",
+   "Ivan Sechenov is projective geometry",
+   "Ivan Sechenov is civil rights",
+   "Ivan Sechenov is children's and youth literature",
+   "Ivan Sechenov is embryology",
+   "Ivan Sechenov is momentum",
+   "Ivan Sechenov is African studies",
+   "Ivan Sechenov is fairy tale",
+   "Ivan Sechenov is classics",
+   "Ivan Sechenov is social psychology",
+   "Ivan Sechenov is Jewish studies",
+   "Ivan Sechenov is silviculture",
+   "Ivan Sechenov is education",
+   "Ivan Sechenov is literature",
+   "Ivan Sechenov is constitutional law",
+   "Ivan Sechenov is radiation",
+   "Ivan Sechenov is Internet",
+   "Ivan Sechenov is heat",
+   "Ivan Sechenov is mechanical engineering",
+   "Ivan Sechenov is forestry",
+   "Ivan Sechenov is jazz",
+   "Ivan Sechenov is social philosophy",
+   "Ivan Sechenov is mathematical physics",
+   "Ivan Sechenov is meteorology",
+   "Ivan Sechenov is translations from Arabic language",
+   "Ivan Sechenov is quantum mysticism",
+   "Ivan Sechenov is politics",
+   "Ivan Sechenov is astronomical observation",
+   "Ivan Sechenov is myth",
+   "Ivan Sechenov is geography",
+   "Ivan Sechenov is sociology of religion",
+   "Ivan Sechenov is comparative religion",
+   "Ivan Sechenov is Greek",
+   "Ivan Sechenov is Lie algebra",
+   "Ivan Sechenov is complex manifold",
+   "Ivan Sechenov is journalism",
+   "Ivan Sechenov is celestial mechanics",
+   "Ivan Sechenov is String",
+   "Ivan Sechenov is mathematical logic",
+   "Ivan Sechenov is aeromechanics",
+   "Ivan Sechenov is English",
+   "Ivan Sechenov is history",
+   "Ivan Sechenov is study of history",
+   "Ivan Sechenov is genetics",
+   "Ivan Sechenov is psychology",
+   "Ivan Sechenov is theory of relativity",
+   "Ivan Sechenov is biochemistry",
+   "Ivan Sechenov is ballet",
+   "Ivan Sechenov is electricity",
+   "Ivan Sechenov is experimental physics",
+   "Ivan Sechenov is natural theology",
+   "Ivan Sechenov is Hebrew",
+   "Ivan Sechenov is prose",
+   "Ivan Sechenov is paleontology",
+   "Ivan Sechenov is Monte Carlo method",
+   "Ivan Sechenov is quantum theory",
+   "Ivan Sechenov is computer science",
+   "Ivan Sechenov is cybernetics",
+   "Ivan Sechenov is Afghanistan",
+   "Ivan Sechenov is philosophy of science",
+   "Ivan Sechenov is literary theory",
+   "Ivan Sechenov is electric field",
+   "Ivan Sechenov is religion",
+   "Ivan Sechenov is analytic geometry",
+   "Ivan Sechenov is graph theory",
+   "Ivan Sechenov is electron",
+   "Ivan Sechenov is anthropology",
+   "Ivan Sechenov is social anthropology",
+   "Ivan Sechenov is sociology",
+   "Ivan Sechenov is geodesy",
+   "Ivan Sechenov is neurology",
+   "Ivan Sechenov is drama",
+   "Ivan Sechenov is art of painting",
+   "Ivan Sechenov is applied mathematics",
+   "Ivan Sechenov is world economy",
+   "Ivan Sechenov is economic anthropology",
+   "Ivan Sechenov's field of work is abstract algebra",
+   "Ivan Sechenov's field of work is theology",
+   "Ivan Sechenov's field of work is television program",
+   "Ivan Sechenov's field of work is nanotechnology",
+   "Ivan Sechenov's field of work is hydrodynamics",
+   "Ivan Sechenov's field of work is ethics",
+   "Ivan Sechenov's field of work is physicist",
+   "Ivan Sechenov's field of work is evolution",
+   "Ivan Sechenov's field of work is distribution theory",
+   "Ivan Sechenov's field of work is psychophysiology",
+   "Ivan Sechenov's field of work is English literature",
+   "Ivan Sechenov's field of work is theoretical physics",
+   "Ivan Sechenov's field of work is essay",
+   "Ivan Sechenov's field of work is ethnology",
+   "Ivan Sechenov's field of work is pedagogy",
+   "Ivan Sechenov's field of work is kinetic theory",
+   "Ivan Sechenov's field of work is ethnography",
+   "Ivan Sechenov's field of work is rite",
+   "Ivan Sechenov's field of work is economics",
+   "Ivan Sechenov's field of work is dance choreography",
+   "Ivan Sechenov's field of work is biological anthropology",
+   "Ivan Sechenov's field of work is history of religions",
+   "Ivan Sechenov's field of work is political philosophy",
+   "Ivan Sechenov's field of work is philosophy",
+   "Ivan Sechenov's field of work is linguistics",
+   "Ivan Sechenov's field of work is cosmology",
+   "Ivan Sechenov's field of work is hunting",
+   "Ivan Sechenov's field of work is Minkowski spacetime",
+   "Ivan Sechenov's field of work is classical music",
+   "Ivan Sechenov's field of work is hyperbolic geometry",
+   "Ivan Sechenov's field of work is radioactivity",
+   "Ivan Sechenov's field of work is belletristic literature",
+   "Ivan Sechenov's field of work is model theory",
+   "Ivan Sechenov's field of work is choreography",
+   "Ivan Sechenov's field of work is chemistry",
+   "Ivan Sechenov's field of work is literary activity",
+   "Ivan Sechenov's field of work is historical sociology",
+   "Ivan Sechenov's field of work is feminism",
+   "Ivan Sechenov's field of work is economy",
+   "Ivan Sechenov's field of work is astronomy",
+   "Ivan Sechenov's field of work is topology",
+   "Ivan Sechenov's field of work is translations from English",
+   "Ivan Sechenov's field of work is partial differential equation",
+   "Ivan Sechenov's field of work is Cairo Geniza",
+   "Ivan Sechenov's field of work is nuclear physics",
+   "Ivan Sechenov's field of work is dance",
+   "Ivan Sechenov's field of work is informatics",
+   "Ivan Sechenov's field of work is geometry",
+   "Ivan Sechenov's field of work is computational geometry",
+   "Ivan Sechenov's field of work is Sanskrit",
+   "Ivan Sechenov's field of work is magnetism",
+   "Ivan Sechenov's field of work is opera",
+   "Ivan Sechenov's field of work is algebraic topology",
+   "Ivan Sechenov's field of work is quaternion",
+   "Ivan Sechenov's field of work is Bayesian inference",
+   "Ivan Sechenov's field of work is quantum electrodynamics",
+   "Ivan Sechenov's field of work is religion and society",
+   "Ivan Sechenov's field of work is history of economic thought",
+   "Ivan Sechenov's field of work is translations from Polish",
+   "Ivan Sechenov's field of work is literary translation",
+   "Ivan Sechenov's field of work is lyric poetry",
+   "Ivan Sechenov's field of work is probability theory",
+   "Ivan Sechenov's field of work is ontology",
+   "Ivan Sechenov's field of work is aerodynamics",
+   "Ivan Sechenov's field of work is crystallography",
+   "Ivan Sechenov's field of work is mathematics",
+   "Ivan Sechenov's field of work is harmonic analysis",
+   "Ivan Sechenov's field of work is history of science",
+   "Ivan Sechenov's field of work is philosophy of law",
+   "Ivan Sechenov's field of work is philology",
+   "Ivan Sechenov's field of work is optics",
+   "Ivan Sechenov's field of work is functional analysis",
+   "Ivan Sechenov's field of work is surgery",
+   "Ivan Sechenov's field of work is complex function",
+   "Ivan Sechenov's field of work is Jewish philosophy",
+   "Ivan Sechenov's field of work is translations from Spanish",
+   "Ivan Sechenov's field of work is poetry",
+   "Ivan Sechenov's field of work is distribution",
+   "Ivan Sechenov's field of work is astrology",
+   "Ivan Sechenov's field of work is differential geometry",
+   "Ivan Sechenov's field of work is mechanics",
+   "Ivan Sechenov's field of work is positivism",
+   "Ivan Sechenov's field of work is ferromagnetism",
+   "Ivan Sechenov's field of work is quantum physics",
+   "Ivan Sechenov's field of work is music theory",
+   "Ivan Sechenov's field of work is physiology",
+   "Ivan Sechenov's field of work is theory of differential equations",
+   "Ivan Sechenov's field of work is astrophysics",
+   "Ivan Sechenov's field of work is number theory",
+   "Ivan Sechenov's field of work is magnetic field",
+   "Ivan Sechenov's field of work is historical novel",
+   "Ivan Sechenov's field of work is stochastic",
+   "Ivan Sechenov's field of work is philosopher",
+   "Ivan Sechenov's field of work is histology",
+   "Ivan Sechenov's field of work is Franciscan spirituality",
+   "Ivan Sechenov's field of work is electromagnetic field",
+   "Ivan Sechenov's field of work is medicine",
+   "Ivan Sechenov's field of work is algebraic geometry",
+   "Ivan Sechenov's field of work is comparative mythology",
+   "Ivan Sechenov's field of work is color photography",
+   "Ivan Sechenov's field of work is cryptography",
+   "Ivan Sechenov's field of work is Christian Church",
+   "Ivan Sechenov's field of work is electrical engineering",
+   "Ivan Sechenov's field of work is folklore",
+   "Ivan Sechenov's field of work is mythology",
+   "Ivan Sechenov's field of work is human geography",
+   "Ivan Sechenov's field of work is Petrine ministry",
+   "Ivan Sechenov's field of work is Judaism",
+   "Ivan Sechenov's field of work is group theory",
+   "Ivan Sechenov's field of work is non-Euclidean geometry",
+   "Ivan Sechenov's field of work is algebra",
+   "Ivan Sechenov's field of work is ballistics",
+   "Ivan Sechenov's field of work is mathematician",
+   "Ivan Sechenov's field of work is applied physics",
+   "Ivan Sechenov's field of work is culturology",
+   "Ivan Sechenov's field of work is calculus of variations",
+   "Ivan Sechenov's field of work is logic",
+   "Ivan Sechenov's field of work is engineering",
+   "Ivan Sechenov's field of work is translations from Occitan",
+   "Ivan Sechenov's field of work is anatomy",
+   "Ivan Sechenov's field of work is forestry science",
+   "Ivan Sechenov's field of work is magic",
+   "Ivan Sechenov's field of work is quantum mechanics",
+   "Ivan Sechenov's field of work is differential calculus",
+   "Ivan Sechenov's field of work is shipbuilding",
+   "Ivan Sechenov's field of work is convex function",
+   "Ivan Sechenov's field of work is analytic philosophy",
+   "Ivan Sechenov's field of work is magnetic resonance",
+   "Ivan Sechenov's field of work is detective literature",
+   "Ivan Sechenov's field of work is cartography",
+   "Ivan Sechenov's field of work is sociology of organisations",
+   "Ivan Sechenov's field of work is crime novel",
+   "Ivan Sechenov's field of work is gravity",
+   "Ivan Sechenov's field of work is statistics",
+   "Ivan Sechenov's field of work is Greek philology",
+   "Ivan Sechenov's field of work is analytic number theory",
+   "Ivan Sechenov's field of work is trigonometry",
+   "Ivan Sechenov's field of work is physics",
+   "Ivan Sechenov's field of work is astronomer",
+   "Ivan Sechenov's field of work is natural science",
+   "Ivan Sechenov's field of work is information technology",
+   "Ivan Sechenov's field of work is conducting",
+   "Ivan Sechenov's field of work is nonstandard analysis",
+   "Ivan Sechenov's field of work is mathematical analysis",
+   "Ivan Sechenov's field of work is a branch of physics",
+   "Ivan Sechenov's field of work is projective geometry",
+   "Ivan Sechenov's field of work is civil rights",
+   "Ivan Sechenov's field of work is children's and youth literature",
+   "Ivan Sechenov's field of work is embryology",
+   "Ivan Sechenov's field of work is momentum",
+   "Ivan Sechenov's field of work is African studies",
+   "Ivan Sechenov's field of work is fairy tale",
+   "Ivan Sechenov's field of work is classics",
+   "Ivan Sechenov's field of work is social psychology",
+   "Ivan Sechenov's field of work is Jewish studies",
+   "Ivan Sechenov's field of work is silviculture",
+   "Ivan Sechenov's field of work is education",
+   "Ivan Sechenov's field of work is literature",
+   "Ivan Sechenov's field of work is constitutional law",
+   "Ivan Sechenov's field of work is radiation",
+   "Ivan Sechenov's field of work is Internet",
+   "Ivan Sechenov's field of work is heat",
+   "Ivan Sechenov's field of work is mechanical engineering",
+   "Ivan Sechenov's field of work is forestry",
+   "Ivan Sechenov's field of work is jazz",
+   "Ivan Sechenov's field of work is social philosophy",
+   "Ivan Sechenov's field of work is mathematical physics",
+   "Ivan Sechenov's field of work is meteorology",
+   "Ivan Sechenov's field of work is translations from Arabic language",
+   "Ivan Sechenov's field of work is quantum mysticism",
+   "Ivan Sechenov's field of work is politics",
+   "Ivan Sechenov's field of work is astronomical observation",
+   "Ivan Sechenov's field of work is myth",
+   "Ivan Sechenov's field of work is geography",
+   "Ivan Sechenov's field of work is sociology of religion",
+   "Ivan Sechenov's field of work is comparative religion",
+   "Ivan Sechenov's field of work is Greek",
+   "Ivan Sechenov's field of work is Lie algebra",
+   "Ivan Sechenov's field of work is complex manifold",
+   "Ivan Sechenov's field of work is journalism",
+   "Ivan Sechenov's field of work is celestial mechanics",
+   "Ivan Sechenov's field of work is String",
+   "Ivan Sechenov's field of work is mathematical logic",
+   "Ivan Sechenov's field of work is aeromechanics",
+   "Ivan Sechenov's field of work is English",
+   "Ivan Sechenov's field of work is history",
+   "Ivan Sechenov's field of work is study of history",
+   "Ivan Sechenov's field of work is genetics",
+   "Ivan Sechenov's field of work is psychology",
+   "Ivan Sechenov's field of work is theory of relativity",
+   "Ivan Sechenov's field of work is biochemistry",
+   "Ivan Sechenov's field of work is ballet",
+   "Ivan Sechenov's field of work is electricity",
+   "Ivan Sechenov's field of work is experimental physics",
+   "Ivan Sechenov's field of work is natural theology",
+   "Ivan Sechenov's field of work is Hebrew",
+   "Ivan Sechenov's field of work is prose",
+   "Ivan Sechenov's field of work is paleontology",
+   "Ivan Sechenov's field of work is Monte Carlo method",
+   "Ivan Sechenov's field of work is quantum theory",
+   "Ivan Sechenov's field of work is computer science",
+   "Ivan Sechenov's field of work is cybernetics",
+   "Ivan Sechenov's field of work is Afghanistan",
+   "Ivan Sechenov's field of work is philosophy of science",
+   "Ivan Sechenov's field of work is literary theory",
+   "Ivan Sechenov's field of work is electric field",
+   "Ivan Sechenov's field of work is religion",
+   "Ivan Sechenov's field of work is analytic geometry",
+   "Ivan Sechenov's field of work is graph theory",
+   "Ivan Sechenov's field of work is electron",
+   "Ivan Sechenov's field of work is anthropology",
+   "Ivan Sechenov's field of work is social anthropology",
+   "Ivan Sechenov's field of work is sociology",
+   "Ivan Sechenov's field of work is geodesy",
+   "Ivan Sechenov's field of work is neurology",
+   "Ivan Sechenov's field of work is drama",
+   "Ivan Sechenov's field of work is art of painting",
+   "Ivan Sechenov's field of work is applied mathematics",
+   "Ivan Sechenov's field of work is world economy",
+   "Ivan Sechenov's field of work is economic anthropology"
+  ],
+  [
+   [
+    -51.091251373291016
+   ],
+   [
+    -44.350284576416016
+   ],
+   [
+    -46.658447265625
+   ],
+   [
+    -45.65862274169922
+   ],
+   [
+    -48.164249420166016
+   ],
+   [
+    -44.03017807006836
+   ],
+   [
+    -39.69459533691406
+   ],
+   [
+    -43.02043151855469
+   ],
+   [
+    -54.9521598815918
+   ],
+   [
+    -44.694149017333984
+   ],
+   [
+    -45.44868469238281
+   ],
+   [
+    -45.14780807495117
+   ],
+   [
+    -41.54695129394531
+   ],
+   [
+    -47.3250732421875
+   ],
+   [
+    -45.48976135253906
+   ],
+   [
+    -50.646461486816406
+   ],
+   [
+    -46.67472839355469
+   ],
+   [
+    -45.3084831237793
+   ],
+   [
+    -40.55214309692383
+   ],
+   [
+    -50.23712158203125
+   ],
+   [
+    -47.06828689575195
+   ],
+   [
+    -50.120635986328125
+   ],
+   [
+    -47.06990432739258
+   ],
+   [
+    -41.38214111328125
+   ],
+   [
+    -44.226070404052734
+   ],
+   [
+    -45.08503341674805
+   ],
+   [
+    -40.3211669921875
+   ],
+   [
+    -50.724830627441406
+   ],
+   [
+    -42.212154388427734
+   ],
+   [
+    -51.4945182800293
+   ],
+   [
+    -47.98207092285156
+   ],
+   [
+    -53.29014205932617
+   ],
+   [
+    -53.15375900268555
+   ],
+   [
+    -47.39520263671875
+   ],
+   [
+    -42.43573760986328
+   ],
+   [
+    -50.24811553955078
+   ],
+   [
+    -48.4338264465332
+   ],
+   [
+    -46.7440071105957
+   ],
+   [
+    -42.313575744628906
+   ],
+   [
+    -45.43192672729492
+   ],
+   [
+    -45.353904724121094
+   ],
+   [
+    -50.707000732421875
+   ],
+   [
+    -51.57062530517578
+   ],
+   [
+    -52.26401901245117
+   ],
+   [
+    -46.37446212768555
+   ],
+   [
+    -42.17854309082031
+   ],
+   [
+    -45.49720001220703
+   ],
+   [
+    -44.60173797607422
+   ],
+   [
+    -50.47437286376953
+   ],
+   [
+    -42.40000915527344
+   ],
+   [
+    -45.771121978759766
+   ],
+   [
+    -42.09185791015625
+   ],
+   [
+    -48.227699279785156
+   ],
+   [
+    -48.44606018066406
+   ],
+   [
+    -48.231048583984375
+   ],
+   [
+    -50.12362289428711
+   ],
+   [
+    -49.385108947753906
+   ],
+   [
+    -50.08900451660156
+   ],
+   [
+    -53.35755920410156
+   ],
+   [
+    -47.327945709228516
+   ],
+   [
+    -48.42917251586914
+   ],
+   [
+    -46.64615249633789
+   ],
+   [
+    -45.52151107788086
+   ],
+   [
+    -45.423553466796875
+   ],
+   [
+    -48.55878448486328
+   ],
+   [
+    -41.343505859375
+   ],
+   [
+    -48.647682189941406
+   ],
+   [
+    -45.247344970703125
+   ],
+   [
+    -49.30595016479492
+   ],
+   [
+    -43.97148513793945
+   ],
+   [
+    -45.48189926147461
+   ],
+   [
+    -47.55033493041992
+   ],
+   [
+    -43.86835479736328
+   ],
+   [
+    -51.5082893371582
+   ],
+   [
+    -49.92218017578125
+   ],
+   [
+    -52.47637939453125
+   ],
+   [
+    -41.687835693359375
+   ],
+   [
+    -44.99480438232422
+   ],
+   [
+    -45.23128890991211
+   ],
+   [
+    -46.72459411621094
+   ],
+   [
+    -44.83207321166992
+   ],
+   [
+    -44.70979309082031
+   ],
+   [
+    -50.27906036376953
+   ],
+   [
+    -46.505592346191406
+   ],
+   [
+    -47.14501190185547
+   ],
+   [
+    -40.96379852294922
+   ],
+   [
+    -53.678741455078125
+   ],
+   [
+    -43.06958770751953
+   ],
+   [
+    -47.43440246582031
+   ],
+   [
+    -46.397029876708984
+   ],
+   [
+    -41.476531982421875
+   ],
+   [
+    -44.78038024902344
+   ],
+   [
+    -39.61764907836914
+   ],
+   [
+    -45.209434509277344
+   ],
+   [
+    -49.925193786621094
+   ],
+   [
+    -47.1693115234375
+   ],
+   [
+    -41.088356018066406
+   ],
+   [
+    -46.997215270996094
+   ],
+   [
+    -48.279457092285156
+   ],
+   [
+    -48.623252868652344
+   ],
+   [
+    -45.2193489074707
+   ],
+   [
+    -46.637596130371094
+   ],
+   [
+    -43.97608947753906
+   ],
+   [
+    -44.31536102294922
+   ],
+   [
+    -45.919471740722656
+   ],
+   [
+    -47.18486785888672
+   ],
+   [
+    -55.656089782714844
+   ],
+   [
+    -45.337745666503906
+   ],
+   [
+    -48.62321090698242
+   ],
+   [
+    -49.15460968017578
+   ],
+   [
+    -44.48456573486328
+   ],
+   [
+    -47.013092041015625
+   ],
+   [
+    -40.25497817993164
+   ],
+   [
+    -45.50326156616211
+   ],
+   [
+    -46.36790466308594
+   ],
+   [
+    -50.30189895629883
+   ],
+   [
+    -43.548187255859375
+   ],
+   [
+    -40.922271728515625
+   ],
+   [
+    -59.387786865234375
+   ],
+   [
+    -44.30384826660156
+   ],
+   [
+    -48.52452087402344
+   ],
+   [
+    -40.75657653808594
+   ],
+   [
+    -46.18623352050781
+   ],
+   [
+    -46.24002456665039
+   ],
+   [
+    -44.05304718017578
+   ],
+   [
+    -49.36933898925781
+   ],
+   [
+    -48.73536682128906
+   ],
+   [
+    -47.49663543701172
+   ],
+   [
+    -52.596885681152344
+   ],
+   [
+    -45.49155044555664
+   ],
+   [
+    -55.277793884277344
+   ],
+   [
+    -44.447139739990234
+   ],
+   [
+    -44.40644836425781
+   ],
+   [
+    -42.206275939941406
+   ],
+   [
+    -53.29126739501953
+   ],
+   [
+    -50.289764404296875
+   ],
+   [
+    -47.065269470214844
+   ],
+   [
+    -42.238792419433594
+   ],
+   [
+    -42.76197052001953
+   ],
+   [
+    -43.581329345703125
+   ],
+   [
+    -42.23925018310547
+   ],
+   [
+    -37.100059509277344
+   ],
+   [
+    -51.98516082763672
+   ],
+   [
+    -46.73661804199219
+   ],
+   [
+    -47.74152755737305
+   ],
+   [
+    -46.78677749633789
+   ],
+   [
+    -44.18181228637695
+   ],
+   [
+    -49.770896911621094
+   ],
+   [
+    -45.38923645019531
+   ],
+   [
+    -44.652252197265625
+   ],
+   [
+    -47.87127685546875
+   ],
+   [
+    -44.84028244018555
+   ],
+   [
+    -42.68751907348633
+   ],
+   [
+    -44.24090576171875
+   ],
+   [
+    -45.864749908447266
+   ],
+   [
+    -48.99559783935547
+   ],
+   [
+    -40.531494140625
+   ],
+   [
+    -41.98163604736328
+   ],
+   [
+    -44.66938018798828
+   ],
+   [
+    -42.40613555908203
+   ],
+   [
+    -41.076927185058594
+   ],
+   [
+    -43.896400451660156
+   ],
+   [
+    -43.42121505737305
+   ],
+   [
+    -43.16075134277344
+   ],
+   [
+    -41.857810974121094
+   ],
+   [
+    -48.68156051635742
+   ],
+   [
+    -45.305335998535156
+   ],
+   [
+    -45.81779479980469
+   ],
+   [
+    -58.63957977294922
+   ],
+   [
+    -51.92395782470703
+   ],
+   [
+    -42.83098602294922
+   ],
+   [
+    -51.127105712890625
+   ],
+   [
+    -41.184356689453125
+   ],
+   [
+    -42.585079193115234
+   ],
+   [
+    -48.94537353515625
+   ],
+   [
+    -46.58391571044922
+   ],
+   [
+    -41.47407531738281
+   ],
+   [
+    -51.92753982543945
+   ],
+   [
+    -53.066062927246094
+   ],
+   [
+    -41.899085998535156
+   ],
+   [
+    -50.17923355102539
+   ],
+   [
+    -43.692481994628906
+   ],
+   [
+    -45.412818908691406
+   ],
+   [
+    -49.77835464477539
+   ],
+   [
+    -39.73725128173828
+   ],
+   [
+    -39.200355529785156
+   ],
+   [
+    -47.81806945800781
+   ],
+   [
+    -43.86669921875
+   ],
+   [
+    -40.43738555908203
+   ],
+   [
+    -48.92585372924805
+   ],
+   [
+    -43.191253662109375
+   ],
+   [
+    -43.17881774902344
+   ],
+   [
+    -43.703250885009766
+   ],
+   [
+    -48.44523239135742
+   ],
+   [
+    -51.2760009765625
+   ],
+   [
+    -42.129276275634766
+   ],
+   [
+    -42.88496017456055
+   ],
+   [
+    -44.4521484375
+   ],
+   [
+    -49.58935546875
+   ],
+   [
+    -48.392799377441406
+   ],
+   [
+    -42.321964263916016
+   ],
+   [
+    -43.033382415771484
+   ],
+   [
+    -42.36087417602539
+   ],
+   [
+    -46.406272888183594
+   ],
+   [
+    -48.540618896484375
+   ],
+   [
+    -48.413387298583984
+   ],
+   [
+    -42.902366638183594
+   ],
+   [
+    -50.71403884887695
+   ],
+   [
+    -49.76411437988281
+   ],
+   [
+    -41.81695556640625
+   ],
+   [
+    -43.691612243652344
+   ],
+   [
+    -46.91673278808594
+   ],
+   [
+    -42.16731643676758
+   ],
+   [
+    -47.94626235961914
+   ],
+   [
+    -44.03306198120117
+   ],
+   [
+    -41.80786895751953
+   ],
+   [
+    -46.830299377441406
+   ],
+   [
+    -44.26249313354492
+   ],
+   [
+    -47.71906280517578
+   ],
+   [
+    -49.87141799926758
+   ],
+   [
+    -60.35466384887695
+   ],
+   [
+    -53.89579772949219
+   ],
+   [
+    -59.82505798339844
+   ],
+   [
+    -53.273101806640625
+   ],
+   [
+    -54.97718048095703
+   ],
+   [
+    -53.689762115478516
+   ],
+   [
+    -60.89192199707031
+   ],
+   [
+    -51.602386474609375
+   ],
+   [
+    -57.55662155151367
+   ],
+   [
+    -53.03737258911133
+   ],
+   [
+    -55.62767791748047
+   ],
+   [
+    -51.302616119384766
+   ],
+   [
+    -56.396018981933594
+   ],
+   [
+    -54.654075622558594
+   ],
+   [
+    -52.518211364746094
+   ],
+   [
+    -57.26651382446289
+   ],
+   [
+    -55.08864974975586
+   ],
+   [
+    -61.052940368652344
+   ],
+   [
+    -51.308738708496094
+   ],
+   [
+    -60.460609436035156
+   ],
+   [
+    -58.2280387878418
+   ],
+   [
+    -56.288658142089844
+   ],
+   [
+    -53.76612854003906
+   ],
+   [
+    -51.489810943603516
+   ],
+   [
+    -52.434532165527344
+   ],
+   [
+    -53.743896484375
+   ],
+   [
+    -55.861328125
+   ],
+   [
+    -61.82850646972656
+   ],
+   [
+    -54.7034912109375
+   ],
+   [
+    -56.321922302246094
+   ],
+   [
+    -56.36091232299805
+   ],
+   [
+    -62.676414489746094
+   ],
+   [
+    -57.97059631347656
+   ],
+   [
+    -55.453773498535156
+   ],
+   [
+    -51.927490234375
+   ],
+   [
+    -60.86369705200195
+   ],
+   [
+    -55.12424087524414
+   ],
+   [
+    -57.80089569091797
+   ],
+   [
+    -53.887474060058594
+   ],
+   [
+    -54.17169189453125
+   ],
+   [
+    -54.062965393066406
+   ],
+   [
+    -57.99284362792969
+   ],
+   [
+    -59.60459518432617
+   ],
+   [
+    -66.9113998413086
+   ],
+   [
+    -53.15704345703125
+   ],
+   [
+    -56.30223083496094
+   ],
+   [
+    -54.35505294799805
+   ],
+   [
+    -53.78485870361328
+   ],
+   [
+    -55.04071807861328
+   ],
+   [
+    -56.329383850097656
+   ],
+   [
+    -56.35646057128906
+   ],
+   [
+    -55.74799346923828
+   ],
+   [
+    -55.25288391113281
+   ],
+   [
+    -59.17558288574219
+   ],
+   [
+    -58.84356689453125
+   ],
+   [
+    -57.08106994628906
+   ],
+   [
+    -58.57938003540039
+   ],
+   [
+    -56.963050842285156
+   ],
+   [
+    -61.999229431152344
+   ],
+   [
+    -56.9268798828125
+   ],
+   [
+    -58.128662109375
+   ],
+   [
+    -55.34143829345703
+   ],
+   [
+    -53.435447692871094
+   ],
+   [
+    -54.21113586425781
+   ],
+   [
+    -53.76153564453125
+   ],
+   [
+    -51.35715866088867
+   ],
+   [
+    -54.81568908691406
+   ],
+   [
+    -54.7041015625
+   ],
+   [
+    -55.50673294067383
+   ],
+   [
+    -53.366546630859375
+   ],
+   [
+    -52.910343170166016
+   ],
+   [
+    -54.37115478515625
+   ],
+   [
+    -52.86812973022461
+   ],
+   [
+    -58.927242279052734
+   ],
+   [
+    -57.119293212890625
+   ],
+   [
+    -61.83734893798828
+   ],
+   [
+    -54.23157501220703
+   ],
+   [
+    -54.06214141845703
+   ],
+   [
+    -56.35561752319336
+   ],
+   [
+    -53.83826446533203
+   ],
+   [
+    -52.36787414550781
+   ],
+   [
+    -56.10468292236328
+   ],
+   [
+    -57.90248107910156
+   ],
+   [
+    -54.62525177001953
+   ],
+   [
+    -55.47163391113281
+   ],
+   [
+    -51.82905578613281
+   ],
+   [
+    -58.624351501464844
+   ],
+   [
+    -53.58796310424805
+   ],
+   [
+    -54.25452423095703
+   ],
+   [
+    -56.78966522216797
+   ],
+   [
+    -57.96143341064453
+   ],
+   [
+    -53.16984939575195
+   ],
+   [
+    -57.15367126464844
+   ],
+   [
+    -54.72361755371094
+   ],
+   [
+    -62.48660659790039
+   ],
+   [
+    -56.93241882324219
+   ],
+   [
+    -52.2952995300293
+   ],
+   [
+    -55.05241394042969
+   ],
+   [
+    -56.62193298339844
+   ],
+   [
+    -57.51177215576172
+   ],
+   [
+    -54.137176513671875
+   ],
+   [
+    -59.51899719238281
+   ],
+   [
+    -52.586612701416016
+   ],
+   [
+    -54.01372528076172
+   ],
+   [
+    -55.580570220947266
+   ],
+   [
+    -58.04576110839844
+   ],
+   [
+    -70.01116943359375
+   ],
+   [
+    -57.12745666503906
+   ],
+   [
+    -56.07036209106445
+   ],
+   [
+    -58.1469612121582
+   ],
+   [
+    -54.979209899902344
+   ],
+   [
+    -56.669578552246094
+   ],
+   [
+    -59.2259635925293
+   ],
+   [
+    -53.51289367675781
+   ],
+   [
+    -56.04108428955078
+   ],
+   [
+    -56.63373947143555
+   ],
+   [
+    -52.67686462402344
+   ],
+   [
+    -52.68655776977539
+   ],
+   [
+    -69.40011596679688
+   ],
+   [
+    -52.469547271728516
+   ],
+   [
+    -57.804908752441406
+   ],
+   [
+    -54.56451416015625
+   ],
+   [
+    -55.03461456298828
+   ],
+   [
+    -57.447608947753906
+   ],
+   [
+    -54.883209228515625
+   ],
+   [
+    -61.567848205566406
+   ],
+   [
+    -55.64350891113281
+   ],
+   [
+    -54.3199348449707
+   ],
+   [
+    -60.64727783203125
+   ],
+   [
+    -54.04452896118164
+   ],
+   [
+    -60.29256820678711
+   ],
+   [
+    -60.53369903564453
+   ],
+   [
+    -55.72187805175781
+   ],
+   [
+    -53.591033935546875
+   ],
+   [
+    -59.86513900756836
+   ],
+   [
+    -55.61027145385742
+   ],
+   [
+    -56.89381408691406
+   ],
+   [
+    -51.435699462890625
+   ],
+   [
+    -60.58287048339844
+   ],
+   [
+    -53.13409423828125
+   ],
+   [
+    -53.08195114135742
+   ],
+   [
+    -55.21714782714844
+   ],
+   [
+    -60.63142395019531
+   ],
+   [
+    -52.63375473022461
+   ],
+   [
+    -56.21971130371094
+   ],
+   [
+    -57.95132064819336
+   ],
+   [
+    -56.38319396972656
+   ],
+   [
+    -59.00621795654297
+   ],
+   [
+    -52.672603607177734
+   ],
+   [
+    -57.87016296386719
+   ],
+   [
+    -56.822479248046875
+   ],
+   [
+    -59.23778533935547
+   ],
+   [
+    -54.927608489990234
+   ],
+   [
+    -52.840938568115234
+   ],
+   [
+    -56.004676818847656
+   ],
+   [
+    -57.45350646972656
+   ],
+   [
+    -52.31824493408203
+   ],
+   [
+    -53.251609802246094
+   ],
+   [
+    -53.42890167236328
+   ],
+   [
+    -52.39341354370117
+   ],
+   [
+    -54.35447692871094
+   ],
+   [
+    -54.607887268066406
+   ],
+   [
+    -52.35469436645508
+   ],
+   [
+    -53.918922424316406
+   ],
+   [
+    -55.460723876953125
+   ],
+   [
+    -55.461639404296875
+   ],
+   [
+    -53.076377868652344
+   ],
+   [
+    -53.674232482910156
+   ],
+   [
+    -67.38063049316406
+   ],
+   [
+    -63.27063751220703
+   ],
+   [
+    -53.53887939453125
+   ],
+   [
+    -59.52439498901367
+   ],
+   [
+    -55.187530517578125
+   ],
+   [
+    -52.94707107543945
+   ],
+   [
+    -55.515357971191406
+   ],
+   [
+    -56.480430603027344
+   ],
+   [
+    -56.26414489746094
+   ],
+   [
+    -57.657127380371094
+   ],
+   [
+    -60.68060302734375
+   ],
+   [
+    -53.721397399902344
+   ],
+   [
+    -56.41608428955078
+   ],
+   [
+    -56.14031219482422
+   ],
+   [
+    -53.118526458740234
+   ],
+   [
+    -56.835914611816406
+   ],
+   [
+    -53.46974182128906
+   ],
+   [
+    -51.303524017333984
+   ],
+   [
+    -59.55573272705078
+   ],
+   [
+    -51.62969207763672
+   ],
+   [
+    -51.93357849121094
+   ],
+   [
+    -57.296241760253906
+   ],
+   [
+    -51.657798767089844
+   ],
+   [
+    -54.780941009521484
+   ],
+   [
+    -54.66371536254883
+   ],
+   [
+    -53.04195022583008
+   ],
+   [
+    -61.00794219970703
+   ],
+   [
+    -56.561920166015625
+   ],
+   [
+    -54.110748291015625
+   ],
+   [
+    -54.694236755371094
+   ],
+   [
+    -59.77998352050781
+   ],
+   [
+    -56.270713806152344
+   ],
+   [
+    -52.61119079589844
+   ],
+   [
+    -52.599761962890625
+   ],
+   [
+    -56.415626525878906
+   ],
+   [
+    -53.86460876464844
+   ],
+   [
+    -55.35740661621094
+   ],
+   [
+    -58.049217224121094
+   ],
+   [
+    -54.15081024169922
+   ],
+   [
+    -56.572418212890625
+   ],
+   [
+    -54.437889099121094
+   ],
+   [
+    -52.983890533447266
+   ],
+   [
+    -53.310874938964844
+   ],
+   [
+    -54.840614318847656
+   ],
+   [
+    -51.95890808105469
+   ],
+   [
+    -54.79206848144531
+   ],
+   [
+    -52.49699401855469
+   ],
+   [
+    -55.442047119140625
+   ],
+   [
+    -58.06288528442383
+   ],
+   [
+    -52.15236282348633
+   ],
+   [
+    -57.617183685302734
+   ],
+   [
+    -57.82450866699219
+   ]
+  ]
+ ],
+ "time": 3933.821890592575
+}

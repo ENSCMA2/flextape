@@ -1,0 +1,2076 @@
+{
+ "case_id": 22102,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "target_true": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "subject": "Hypatia"
+ },
+ "pre": [
+  [
+   "Hypatia's field of work is abstract algebra",
+   "Hypatia's field of work is theology",
+   "Hypatia's field of work is television program",
+   "Hypatia's field of work is nanotechnology",
+   "Hypatia's field of work is hydrodynamics",
+   "Hypatia's field of work is ethics",
+   "Hypatia's field of work is physicist",
+   "Hypatia's field of work is evolution",
+   "Hypatia's field of work is distribution theory",
+   "Hypatia's field of work is psychophysiology",
+   "Hypatia's field of work is English literature",
+   "Hypatia's field of work is theoretical physics",
+   "Hypatia's field of work is essay",
+   "Hypatia's field of work is ethnology",
+   "Hypatia's field of work is pedagogy",
+   "Hypatia's field of work is kinetic theory",
+   "Hypatia's field of work is ethnography",
+   "Hypatia's field of work is rite",
+   "Hypatia's field of work is economics",
+   "Hypatia's field of work is dance choreography",
+   "Hypatia's field of work is biological anthropology",
+   "Hypatia's field of work is history of religions",
+   "Hypatia's field of work is political philosophy",
+   "Hypatia's field of work is philosophy",
+   "Hypatia's field of work is linguistics",
+   "Hypatia's field of work is cosmology",
+   "Hypatia's field of work is hunting",
+   "Hypatia's field of work is Minkowski spacetime",
+   "Hypatia's field of work is classical music",
+   "Hypatia's field of work is hyperbolic geometry",
+   "Hypatia's field of work is radioactivity",
+   "Hypatia's field of work is belletristic literature",
+   "Hypatia's field of work is model theory",
+   "Hypatia's field of work is choreography",
+   "Hypatia's field of work is chemistry",
+   "Hypatia's field of work is literary activity",
+   "Hypatia's field of work is historical sociology",
+   "Hypatia's field of work is feminism",
+   "Hypatia's field of work is economy",
+   "Hypatia's field of work is astronomy",
+   "Hypatia's field of work is topology",
+   "Hypatia's field of work is translations from English",
+   "Hypatia's field of work is partial differential equation",
+   "Hypatia's field of work is Cairo Geniza",
+   "Hypatia's field of work is nuclear physics",
+   "Hypatia's field of work is dance",
+   "Hypatia's field of work is informatics",
+   "Hypatia's field of work is geometry",
+   "Hypatia's field of work is computational geometry",
+   "Hypatia's field of work is Sanskrit",
+   "Hypatia's field of work is magnetism",
+   "Hypatia's field of work is opera",
+   "Hypatia's field of work is algebraic topology",
+   "Hypatia's field of work is quaternion",
+   "Hypatia's field of work is Bayesian inference",
+   "Hypatia's field of work is quantum electrodynamics",
+   "Hypatia's field of work is religion and society",
+   "Hypatia's field of work is history of economic thought",
+   "Hypatia's field of work is translations from Polish",
+   "Hypatia's field of work is literary translation",
+   "Hypatia's field of work is lyric poetry",
+   "Hypatia's field of work is probability theory",
+   "Hypatia's field of work is ontology",
+   "Hypatia's field of work is aerodynamics",
+   "Hypatia's field of work is crystallography",
+   "Hypatia's field of work is mathematics",
+   "Hypatia's field of work is harmonic analysis",
+   "Hypatia's field of work is history of science",
+   "Hypatia's field of work is philosophy of law",
+   "Hypatia's field of work is philology",
+   "Hypatia's field of work is optics",
+   "Hypatia's field of work is functional analysis",
+   "Hypatia's field of work is surgery",
+   "Hypatia's field of work is complex function",
+   "Hypatia's field of work is Jewish philosophy",
+   "Hypatia's field of work is translations from Spanish",
+   "Hypatia's field of work is poetry",
+   "Hypatia's field of work is distribution",
+   "Hypatia's field of work is astrology",
+   "Hypatia's field of work is differential geometry",
+   "Hypatia's field of work is mechanics",
+   "Hypatia's field of work is positivism",
+   "Hypatia's field of work is ferromagnetism",
+   "Hypatia's field of work is quantum physics",
+   "Hypatia's field of work is music theory",
+   "Hypatia's field of work is physiology",
+   "Hypatia's field of work is theory of differential equations",
+   "Hypatia's field of work is astrophysics",
+   "Hypatia's field of work is number theory",
+   "Hypatia's field of work is magnetic field",
+   "Hypatia's field of work is historical novel",
+   "Hypatia's field of work is stochastic",
+   "Hypatia's field of work is philosopher",
+   "Hypatia's field of work is histology",
+   "Hypatia's field of work is Franciscan spirituality",
+   "Hypatia's field of work is electromagnetic field",
+   "Hypatia's field of work is medicine",
+   "Hypatia's field of work is algebraic geometry",
+   "Hypatia's field of work is comparative mythology",
+   "Hypatia's field of work is color photography",
+   "Hypatia's field of work is cryptography",
+   "Hypatia's field of work is Christian Church",
+   "Hypatia's field of work is electrical engineering",
+   "Hypatia's field of work is folklore",
+   "Hypatia's field of work is mythology",
+   "Hypatia's field of work is human geography",
+   "Hypatia's field of work is Petrine ministry",
+   "Hypatia's field of work is Judaism",
+   "Hypatia's field of work is group theory",
+   "Hypatia's field of work is non-Euclidean geometry",
+   "Hypatia's field of work is algebra",
+   "Hypatia's field of work is ballistics",
+   "Hypatia's field of work is mathematician",
+   "Hypatia's field of work is applied physics",
+   "Hypatia's field of work is culturology",
+   "Hypatia's field of work is calculus of variations",
+   "Hypatia's field of work is logic",
+   "Hypatia's field of work is engineering",
+   "Hypatia's field of work is translations from Occitan",
+   "Hypatia's field of work is anatomy",
+   "Hypatia's field of work is forestry science",
+   "Hypatia's field of work is magic",
+   "Hypatia's field of work is quantum mechanics",
+   "Hypatia's field of work is differential calculus",
+   "Hypatia's field of work is shipbuilding",
+   "Hypatia's field of work is convex function",
+   "Hypatia's field of work is analytic philosophy",
+   "Hypatia's field of work is magnetic resonance",
+   "Hypatia's field of work is detective literature",
+   "Hypatia's field of work is cartography",
+   "Hypatia's field of work is sociology of organisations",
+   "Hypatia's field of work is crime novel",
+   "Hypatia's field of work is gravity",
+   "Hypatia's field of work is statistics",
+   "Hypatia's field of work is Greek philology",
+   "Hypatia's field of work is analytic number theory",
+   "Hypatia's field of work is trigonometry",
+   "Hypatia's field of work is physics",
+   "Hypatia's field of work is astronomer",
+   "Hypatia's field of work is natural science",
+   "Hypatia's field of work is information technology",
+   "Hypatia's field of work is conducting",
+   "Hypatia's field of work is nonstandard analysis",
+   "Hypatia's field of work is mathematical analysis",
+   "Hypatia's field of work is a branch of physics",
+   "Hypatia's field of work is projective geometry",
+   "Hypatia's field of work is civil rights",
+   "Hypatia's field of work is children's and youth literature",
+   "Hypatia's field of work is embryology",
+   "Hypatia's field of work is momentum",
+   "Hypatia's field of work is African studies",
+   "Hypatia's field of work is fairy tale",
+   "Hypatia's field of work is classics",
+   "Hypatia's field of work is social psychology",
+   "Hypatia's field of work is Jewish studies",
+   "Hypatia's field of work is silviculture",
+   "Hypatia's field of work is education",
+   "Hypatia's field of work is literature",
+   "Hypatia's field of work is constitutional law",
+   "Hypatia's field of work is radiation",
+   "Hypatia's field of work is Internet",
+   "Hypatia's field of work is heat",
+   "Hypatia's field of work is mechanical engineering",
+   "Hypatia's field of work is forestry",
+   "Hypatia's field of work is jazz",
+   "Hypatia's field of work is social philosophy",
+   "Hypatia's field of work is mathematical physics",
+   "Hypatia's field of work is meteorology",
+   "Hypatia's field of work is translations from Arabic language",
+   "Hypatia's field of work is quantum mysticism",
+   "Hypatia's field of work is politics",
+   "Hypatia's field of work is astronomical observation",
+   "Hypatia's field of work is myth",
+   "Hypatia's field of work is geography",
+   "Hypatia's field of work is sociology of religion",
+   "Hypatia's field of work is comparative religion",
+   "Hypatia's field of work is Greek",
+   "Hypatia's field of work is Lie algebra",
+   "Hypatia's field of work is complex manifold",
+   "Hypatia's field of work is journalism",
+   "Hypatia's field of work is celestial mechanics",
+   "Hypatia's field of work is String",
+   "Hypatia's field of work is mathematical logic",
+   "Hypatia's field of work is aeromechanics",
+   "Hypatia's field of work is English",
+   "Hypatia's field of work is history",
+   "Hypatia's field of work is study of history",
+   "Hypatia's field of work is genetics",
+   "Hypatia's field of work is psychology",
+   "Hypatia's field of work is theory of relativity",
+   "Hypatia's field of work is biochemistry",
+   "Hypatia's field of work is ballet",
+   "Hypatia's field of work is electricity",
+   "Hypatia's field of work is experimental physics",
+   "Hypatia's field of work is natural theology",
+   "Hypatia's field of work is Hebrew",
+   "Hypatia's field of work is prose",
+   "Hypatia's field of work is paleontology",
+   "Hypatia's field of work is Monte Carlo method",
+   "Hypatia's field of work is quantum theory",
+   "Hypatia's field of work is computer science",
+   "Hypatia's field of work is cybernetics",
+   "Hypatia's field of work is Afghanistan",
+   "Hypatia's field of work is philosophy of science",
+   "Hypatia's field of work is literary theory",
+   "Hypatia's field of work is electric field",
+   "Hypatia's field of work is religion",
+   "Hypatia's field of work is analytic geometry",
+   "Hypatia's field of work is graph theory",
+   "Hypatia's field of work is electron",
+   "Hypatia's field of work is anthropology",
+   "Hypatia's field of work is social anthropology",
+   "Hypatia's field of work is sociology",
+   "Hypatia's field of work is geodesy",
+   "Hypatia's field of work is neurology",
+   "Hypatia's field of work is drama",
+   "Hypatia's field of work is art of painting",
+   "Hypatia's field of work is applied mathematics",
+   "Hypatia's field of work is world economy",
+   "Hypatia's field of work is economic anthropology",
+   "Hypatia is abstract algebra",
+   "Hypatia is theology",
+   "Hypatia is television program",
+   "Hypatia is nanotechnology",
+   "Hypatia is hydrodynamics",
+   "Hypatia is ethics",
+   "Hypatia is physicist",
+   "Hypatia is evolution",
+   "Hypatia is distribution theory",
+   "Hypatia is psychophysiology",
+   "Hypatia is English literature",
+   "Hypatia is theoretical physics",
+   "Hypatia is essay",
+   "Hypatia is ethnology",
+   "Hypatia is pedagogy",
+   "Hypatia is kinetic theory",
+   "Hypatia is ethnography",
+   "Hypatia is rite",
+   "Hypatia is economics",
+   "Hypatia is dance choreography",
+   "Hypatia is biological anthropology",
+   "Hypatia is history of religions",
+   "Hypatia is political philosophy",
+   "Hypatia is philosophy",
+   "Hypatia is linguistics",
+   "Hypatia is cosmology",
+   "Hypatia is hunting",
+   "Hypatia is Minkowski spacetime",
+   "Hypatia is classical music",
+   "Hypatia is hyperbolic geometry",
+   "Hypatia is radioactivity",
+   "Hypatia is belletristic literature",
+   "Hypatia is model theory",
+   "Hypatia is choreography",
+   "Hypatia is chemistry",
+   "Hypatia is literary activity",
+   "Hypatia is historical sociology",
+   "Hypatia is feminism",
+   "Hypatia is economy",
+   "Hypatia is astronomy",
+   "Hypatia is topology",
+   "Hypatia is translations from English",
+   "Hypatia is partial differential equation",
+   "Hypatia is Cairo Geniza",
+   "Hypatia is nuclear physics",
+   "Hypatia is dance",
+   "Hypatia is informatics",
+   "Hypatia is geometry",
+   "Hypatia is computational geometry",
+   "Hypatia is Sanskrit",
+   "Hypatia is magnetism",
+   "Hypatia is opera",
+   "Hypatia is algebraic topology",
+   "Hypatia is quaternion",
+   "Hypatia is Bayesian inference",
+   "Hypatia is quantum electrodynamics",
+   "Hypatia is religion and society",
+   "Hypatia is history of economic thought",
+   "Hypatia is translations from Polish",
+   "Hypatia is literary translation",
+   "Hypatia is lyric poetry",
+   "Hypatia is probability theory",
+   "Hypatia is ontology",
+   "Hypatia is aerodynamics",
+   "Hypatia is crystallography",
+   "Hypatia is mathematics",
+   "Hypatia is harmonic analysis",
+   "Hypatia is history of science",
+   "Hypatia is philosophy of law",
+   "Hypatia is philology",
+   "Hypatia is optics",
+   "Hypatia is functional analysis",
+   "Hypatia is surgery",
+   "Hypatia is complex function",
+   "Hypatia is Jewish philosophy",
+   "Hypatia is translations from Spanish",
+   "Hypatia is poetry",
+   "Hypatia is distribution",
+   "Hypatia is astrology",
+   "Hypatia is differential geometry",
+   "Hypatia is mechanics",
+   "Hypatia is positivism",
+   "Hypatia is ferromagnetism",
+   "Hypatia is quantum physics",
+   "Hypatia is music theory",
+   "Hypatia is physiology",
+   "Hypatia is theory of differential equations",
+   "Hypatia is astrophysics",
+   "Hypatia is number theory",
+   "Hypatia is magnetic field",
+   "Hypatia is historical novel",
+   "Hypatia is stochastic",
+   "Hypatia is philosopher",
+   "Hypatia is histology",
+   "Hypatia is Franciscan spirituality",
+   "Hypatia is electromagnetic field",
+   "Hypatia is medicine",
+   "Hypatia is algebraic geometry",
+   "Hypatia is comparative mythology",
+   "Hypatia is color photography",
+   "Hypatia is cryptography",
+   "Hypatia is Christian Church",
+   "Hypatia is electrical engineering",
+   "Hypatia is folklore",
+   "Hypatia is mythology",
+   "Hypatia is human geography",
+   "Hypatia is Petrine ministry",
+   "Hypatia is Judaism",
+   "Hypatia is group theory",
+   "Hypatia is non-Euclidean geometry",
+   "Hypatia is algebra",
+   "Hypatia is ballistics",
+   "Hypatia is mathematician",
+   "Hypatia is applied physics",
+   "Hypatia is culturology",
+   "Hypatia is calculus of variations",
+   "Hypatia is logic",
+   "Hypatia is engineering",
+   "Hypatia is translations from Occitan",
+   "Hypatia is anatomy",
+   "Hypatia is forestry science",
+   "Hypatia is magic",
+   "Hypatia is quantum mechanics",
+   "Hypatia is differential calculus",
+   "Hypatia is shipbuilding",
+   "Hypatia is convex function",
+   "Hypatia is analytic philosophy",
+   "Hypatia is magnetic resonance",
+   "Hypatia is detective literature",
+   "Hypatia is cartography",
+   "Hypatia is sociology of organisations",
+   "Hypatia is crime novel",
+   "Hypatia is gravity",
+   "Hypatia is statistics",
+   "Hypatia is Greek philology",
+   "Hypatia is analytic number theory",
+   "Hypatia is trigonometry",
+   "Hypatia is physics",
+   "Hypatia is astronomer",
+   "Hypatia is natural science",
+   "Hypatia is information technology",
+   "Hypatia is conducting",
+   "Hypatia is nonstandard analysis",
+   "Hypatia is mathematical analysis",
+   "Hypatia is a branch of physics",
+   "Hypatia is projective geometry",
+   "Hypatia is civil rights",
+   "Hypatia is children's and youth literature",
+   "Hypatia is embryology",
+   "Hypatia is momentum",
+   "Hypatia is African studies",
+   "Hypatia is fairy tale",
+   "Hypatia is classics",
+   "Hypatia is social psychology",
+   "Hypatia is Jewish studies",
+   "Hypatia is silviculture",
+   "Hypatia is education",
+   "Hypatia is literature",
+   "Hypatia is constitutional law",
+   "Hypatia is radiation",
+   "Hypatia is Internet",
+   "Hypatia is heat",
+   "Hypatia is mechanical engineering",
+   "Hypatia is forestry",
+   "Hypatia is jazz",
+   "Hypatia is social philosophy",
+   "Hypatia is mathematical physics",
+   "Hypatia is meteorology",
+   "Hypatia is translations from Arabic language",
+   "Hypatia is quantum mysticism",
+   "Hypatia is politics",
+   "Hypatia is astronomical observation",
+   "Hypatia is myth",
+   "Hypatia is geography",
+   "Hypatia is sociology of religion",
+   "Hypatia is comparative religion",
+   "Hypatia is Greek",
+   "Hypatia is Lie algebra",
+   "Hypatia is complex manifold",
+   "Hypatia is journalism",
+   "Hypatia is celestial mechanics",
+   "Hypatia is String",
+   "Hypatia is mathematical logic",
+   "Hypatia is aeromechanics",
+   "Hypatia is English",
+   "Hypatia is history",
+   "Hypatia is study of history",
+   "Hypatia is genetics",
+   "Hypatia is psychology",
+   "Hypatia is theory of relativity",
+   "Hypatia is biochemistry",
+   "Hypatia is ballet",
+   "Hypatia is electricity",
+   "Hypatia is experimental physics",
+   "Hypatia is natural theology",
+   "Hypatia is Hebrew",
+   "Hypatia is prose",
+   "Hypatia is paleontology",
+   "Hypatia is Monte Carlo method",
+   "Hypatia is quantum theory",
+   "Hypatia is computer science",
+   "Hypatia is cybernetics",
+   "Hypatia is Afghanistan",
+   "Hypatia is philosophy of science",
+   "Hypatia is literary theory",
+   "Hypatia is electric field",
+   "Hypatia is religion",
+   "Hypatia is analytic geometry",
+   "Hypatia is graph theory",
+   "Hypatia is electron",
+   "Hypatia is anthropology",
+   "Hypatia is social anthropology",
+   "Hypatia is sociology",
+   "Hypatia is geodesy",
+   "Hypatia is neurology",
+   "Hypatia is drama",
+   "Hypatia is art of painting",
+   "Hypatia is applied mathematics",
+   "Hypatia is world economy",
+   "Hypatia is economic anthropology"
+  ],
+  [
+   [
+    -48.84364318847656
+   ],
+   [
+    -45.59260177612305
+   ],
+   [
+    -52.29363250732422
+   ],
+   [
+    -45.14274978637695
+   ],
+   [
+    -48.448326110839844
+   ],
+   [
+    -44.62583923339844
+   ],
+   [
+    -49.65284729003906
+   ],
+   [
+    -44.085121154785156
+   ],
+   [
+    -53.768714904785156
+   ],
+   [
+    -50.56757354736328
+   ],
+   [
+    -47.99089050292969
+   ],
+   [
+    -43.60565185546875
+   ],
+   [
+    -48.23518371582031
+   ],
+   [
+    -47.79225158691406
+   ],
+   [
+    -45.358741760253906
+   ],
+   [
+    -56.470970153808594
+   ],
+   [
+    -46.95563507080078
+   ],
+   [
+    -52.73468017578125
+   ],
+   [
+    -43.46736145019531
+   ],
+   [
+    -52.82233428955078
+   ],
+   [
+    -49.39710998535156
+   ],
+   [
+    -50.35896301269531
+   ],
+   [
+    -46.64702606201172
+   ],
+   [
+    -42.609615325927734
+   ],
+   [
+    -45.75435256958008
+   ],
+   [
+    -43.95880126953125
+   ],
+   [
+    -48.27960205078125
+   ],
+   [
+    -53.65717315673828
+   ],
+   [
+    -46.142879486083984
+   ],
+   [
+    -48.76621627807617
+   ],
+   [
+    -50.40802001953125
+   ],
+   [
+    -55.46946716308594
+   ],
+   [
+    -50.11125946044922
+   ],
+   [
+    -48.12183380126953
+   ],
+   [
+    -44.58818817138672
+   ],
+   [
+    -53.56608581542969
+   ],
+   [
+    -48.55634689331055
+   ],
+   [
+    -44.92495346069336
+   ],
+   [
+    -46.72382354736328
+   ],
+   [
+    -42.64325714111328
+   ],
+   [
+    -47.531578063964844
+   ],
+   [
+    -48.679752349853516
+   ],
+   [
+    -52.15923309326172
+   ],
+   [
+    -59.50498962402344
+   ],
+   [
+    -46.48369598388672
+   ],
+   [
+    -46.77067565917969
+   ],
+   [
+    -44.78424835205078
+   ],
+   [
+    -44.389549255371094
+   ],
+   [
+    -46.34046936035156
+   ],
+   [
+    -48.44091033935547
+   ],
+   [
+    -49.291168212890625
+   ],
+   [
+    -48.37193298339844
+   ],
+   [
+    -46.836708068847656
+   ],
+   [
+    -49.8408203125
+   ],
+   [
+    -50.0977783203125
+   ],
+   [
+    -48.97236633300781
+   ],
+   [
+    -49.065940856933594
+   ],
+   [
+    -51.81615447998047
+   ],
+   [
+    -52.72643280029297
+   ],
+   [
+    -47.108116149902344
+   ],
+   [
+    -50.57762908935547
+   ],
+   [
+    -48.453617095947266
+   ],
+   [
+    -45.9773063659668
+   ],
+   [
+    -46.32128143310547
+   ],
+   [
+    -46.19814682006836
+   ],
+   [
+    -40.66644287109375
+   ],
+   [
+    -48.61809158325195
+   ],
+   [
+    -46.85320281982422
+   ],
+   [
+    -50.782325744628906
+   ],
+   [
+    -45.36545181274414
+   ],
+   [
+    -45.62866973876953
+   ],
+   [
+    -48.66099548339844
+   ],
+   [
+    -47.7913818359375
+   ],
+   [
+    -51.36732482910156
+   ],
+   [
+    -48.70960235595703
+   ],
+   [
+    -51.92340850830078
+   ],
+   [
+    -45.85228729248047
+   ],
+   [
+    -46.640052795410156
+   ],
+   [
+    -44.359092712402344
+   ],
+   [
+    -47.0025634765625
+   ],
+   [
+    -45.339805603027344
+   ],
+   [
+    -50.602867126464844
+   ],
+   [
+    -50.86316680908203
+   ],
+   [
+    -45.352455139160156
+   ],
+   [
+    -47.976524353027344
+   ],
+   [
+    -47.67268371582031
+   ],
+   [
+    -52.287864685058594
+   ],
+   [
+    -43.102317810058594
+   ],
+   [
+    -44.90548324584961
+   ],
+   [
+    -49.427513122558594
+   ],
+   [
+    -51.57807159423828
+   ],
+   [
+    -45.18303680419922
+   ],
+   [
+    -48.614967346191406
+   ],
+   [
+    -50.01261901855469
+   ],
+   [
+    -52.780670166015625
+   ],
+   [
+    -48.601280212402344
+   ],
+   [
+    -44.5526123046875
+   ],
+   [
+    -46.95226287841797
+   ],
+   [
+    -47.988677978515625
+   ],
+   [
+    -51.73651123046875
+   ],
+   [
+    -45.82508850097656
+   ],
+   [
+    -50.778602600097656
+   ],
+   [
+    -44.576805114746094
+   ],
+   [
+    -48.57378387451172
+   ],
+   [
+    -47.51886749267578
+   ],
+   [
+    -46.22053146362305
+   ],
+   [
+    -61.710838317871094
+   ],
+   [
+    -48.35842514038086
+   ],
+   [
+    -50.44959259033203
+   ],
+   [
+    -51.16727066040039
+   ],
+   [
+    -45.46619415283203
+   ],
+   [
+    -49.802818298339844
+   ],
+   [
+    -49.33966064453125
+   ],
+   [
+    -46.71553039550781
+   ],
+   [
+    -49.9615478515625
+   ],
+   [
+    -48.961456298828125
+   ],
+   [
+    -44.719459533691406
+   ],
+   [
+    -42.779541015625
+   ],
+   [
+    -58.06229019165039
+   ],
+   [
+    -46.70069122314453
+   ],
+   [
+    -51.09514617919922
+   ],
+   [
+    -46.67250061035156
+   ],
+   [
+    -46.060462951660156
+   ],
+   [
+    -50.04651641845703
+   ],
+   [
+    -48.33656311035156
+   ],
+   [
+    -54.779869079589844
+   ],
+   [
+    -46.616111755371094
+   ],
+   [
+    -48.407432556152344
+   ],
+   [
+    -54.64680480957031
+   ],
+   [
+    -46.814579010009766
+   ],
+   [
+    -52.640411376953125
+   ],
+   [
+    -53.60414123535156
+   ],
+   [
+    -47.45044708251953
+   ],
+   [
+    -43.93166732788086
+   ],
+   [
+    -49.508087158203125
+   ],
+   [
+    -50.977378845214844
+   ],
+   [
+    -47.23355484008789
+   ],
+   [
+    -43.12303924560547
+   ],
+   [
+    -51.159690856933594
+   ],
+   [
+    -44.663734436035156
+   ],
+   [
+    -43.5113525390625
+   ],
+   [
+    -45.94361877441406
+   ],
+   [
+    -52.81639862060547
+   ],
+   [
+    -44.763221740722656
+   ],
+   [
+    -50.54804992675781
+   ],
+   [
+    -48.96057891845703
+   ],
+   [
+    -47.24652862548828
+   ],
+   [
+    -52.36367416381836
+   ],
+   [
+    -48.102745056152344
+   ],
+   [
+    -50.214820861816406
+   ],
+   [
+    -48.43095016479492
+   ],
+   [
+    -51.942230224609375
+   ],
+   [
+    -46.534217834472656
+   ],
+   [
+    -46.62370300292969
+   ],
+   [
+    -47.766963958740234
+   ],
+   [
+    -51.31883239746094
+   ],
+   [
+    -41.82140350341797
+   ],
+   [
+    -45.055015563964844
+   ],
+   [
+    -47.450172424316406
+   ],
+   [
+    -45.83503723144531
+   ],
+   [
+    -45.284523010253906
+   ],
+   [
+    -48.483665466308594
+   ],
+   [
+    -44.525909423828125
+   ],
+   [
+    -46.669891357421875
+   ],
+   [
+    -48.469749450683594
+   ],
+   [
+    -49.861412048339844
+   ],
+   [
+    -43.689361572265625
+   ],
+   [
+    -44.789939880371094
+   ],
+   [
+    -56.428497314453125
+   ],
+   [
+    -53.320526123046875
+   ],
+   [
+    -45.080665588378906
+   ],
+   [
+    -50.17772674560547
+   ],
+   [
+    -47.01978302001953
+   ],
+   [
+    -44.87432098388672
+   ],
+   [
+    -48.36774826049805
+   ],
+   [
+    -46.35120391845703
+   ],
+   [
+    -44.884033203125
+   ],
+   [
+    -50.853607177734375
+   ],
+   [
+    -52.853370666503906
+   ],
+   [
+    -45.92169189453125
+   ],
+   [
+    -47.54878234863281
+   ],
+   [
+    -47.837623596191406
+   ],
+   [
+    -43.61004638671875
+   ],
+   [
+    -50.336448669433594
+   ],
+   [
+    -45.25433349609375
+   ],
+   [
+    -44.745147705078125
+   ],
+   [
+    -52.36555480957031
+   ],
+   [
+    -45.93414306640625
+   ],
+   [
+    -44.794036865234375
+   ],
+   [
+    -50.240081787109375
+   ],
+   [
+    -45.80900192260742
+   ],
+   [
+    -48.26426696777344
+   ],
+   [
+    -45.68782043457031
+   ],
+   [
+    -46.76727294921875
+   ],
+   [
+    -51.3843994140625
+   ],
+   [
+    -47.39410400390625
+   ],
+   [
+    -48.441261291503906
+   ],
+   [
+    -48.236412048339844
+   ],
+   [
+    -53.40080261230469
+   ],
+   [
+    -47.22099304199219
+   ],
+   [
+    -43.1246223449707
+   ],
+   [
+    -45.78815841674805
+   ],
+   [
+    -47.717594146728516
+   ],
+   [
+    -45.9918212890625
+   ],
+   [
+    -48.51811981201172
+   ],
+   [
+    -49.183143615722656
+   ],
+   [
+    -44.98230743408203
+   ],
+   [
+    -50.15931701660156
+   ],
+   [
+    -49.00264358520508
+   ],
+   [
+    -44.625736236572266
+   ],
+   [
+    -45.556724548339844
+   ],
+   [
+    -47.498435974121094
+   ],
+   [
+    -44.572120666503906
+   ],
+   [
+    -46.29146957397461
+   ],
+   [
+    -46.563785552978516
+   ],
+   [
+    -47.592567443847656
+   ],
+   [
+    -54.615760803222656
+   ],
+   [
+    -43.36112976074219
+   ],
+   [
+    -51.41748046875
+   ],
+   [
+    -49.499778747558594
+   ],
+   [
+    -35.72011184692383
+   ],
+   [
+    -32.75596237182617
+   ],
+   [
+    -34.77499008178711
+   ],
+   [
+    -34.39171600341797
+   ],
+   [
+    -39.420677185058594
+   ],
+   [
+    -33.84241485595703
+   ],
+   [
+    -30.757305145263672
+   ],
+   [
+    -31.718021392822266
+   ],
+   [
+    -42.19114303588867
+   ],
+   [
+    -38.92196273803711
+   ],
+   [
+    -36.73505401611328
+   ],
+   [
+    -34.15563201904297
+   ],
+   [
+    -31.92784881591797
+   ],
+   [
+    -38.858638763427734
+   ],
+   [
+    -34.99376678466797
+   ],
+   [
+    -41.11534118652344
+   ],
+   [
+    -37.4130973815918
+   ],
+   [
+    -35.40715026855469
+   ],
+   [
+    -32.95286178588867
+   ],
+   [
+    -39.74781799316406
+   ],
+   [
+    -38.77458190917969
+   ],
+   [
+    -41.76201248168945
+   ],
+   [
+    -34.200138092041016
+   ],
+   [
+    -29.814010620117188
+   ],
+   [
+    -34.39808654785156
+   ],
+   [
+    -32.921146392822266
+   ],
+   [
+    -29.203502655029297
+   ],
+   [
+    -40.731563568115234
+   ],
+   [
+    -31.224262237548828
+   ],
+   [
+    -38.54871368408203
+   ],
+   [
+    -37.74790954589844
+   ],
+   [
+    -40.852699279785156
+   ],
+   [
+    -39.8370475769043
+   ],
+   [
+    -35.981788635253906
+   ],
+   [
+    -32.57902526855469
+   ],
+   [
+    -41.32372283935547
+   ],
+   [
+    -38.433189392089844
+   ],
+   [
+    -29.395809173583984
+   ],
+   [
+    -33.555686950683594
+   ],
+   [
+    -30.941272735595703
+   ],
+   [
+    -33.87616729736328
+   ],
+   [
+    -41.909095764160156
+   ],
+   [
+    -37.10646438598633
+   ],
+   [
+    -40.86601257324219
+   ],
+   [
+    -36.0101432800293
+   ],
+   [
+    -31.753658294677734
+   ],
+   [
+    -34.515838623046875
+   ],
+   [
+    -31.90332794189453
+   ],
+   [
+    -35.932525634765625
+   ],
+   [
+    -31.630722045898438
+   ],
+   [
+    -35.102054595947266
+   ],
+   [
+    -31.25345230102539
+   ],
+   [
+    -37.47663879394531
+   ],
+   [
+    -35.07372283935547
+   ],
+   [
+    -37.742469787597656
+   ],
+   [
+    -37.499839782714844
+   ],
+   [
+    -39.34005355834961
+   ],
+   [
+    -43.34099578857422
+   ],
+   [
+    -44.63614273071289
+   ],
+   [
+    -35.58401107788086
+   ],
+   [
+    -37.436256408691406
+   ],
+   [
+    -34.422447204589844
+   ],
+   [
+    -34.90168762207031
+   ],
+   [
+    -37.19617462158203
+   ],
+   [
+    -36.040496826171875
+   ],
+   [
+    -29.474639892578125
+   ],
+   [
+    -38.7937126159668
+   ],
+   [
+    -35.932640075683594
+   ],
+   [
+    -41.54335403442383
+   ],
+   [
+    -35.2830810546875
+   ],
+   [
+    -34.70241928100586
+   ],
+   [
+    -36.89692687988281
+   ],
+   [
+    -33.92100524902344
+   ],
+   [
+    -39.360626220703125
+   ],
+   [
+    -35.78816223144531
+   ],
+   [
+    -43.06433868408203
+   ],
+   [
+    -30.335330963134766
+   ],
+   [
+    -34.39735412597656
+   ],
+   [
+    -31.067155838012695
+   ],
+   [
+    -36.40842056274414
+   ],
+   [
+    -34.75275802612305
+   ],
+   [
+    -37.52964782714844
+   ],
+   [
+    -41.52751541137695
+   ],
+   [
+    -33.3849983215332
+   ],
+   [
+    -35.58494567871094
+   ],
+   [
+    -35.67088317871094
+   ],
+   [
+    -43.167762756347656
+   ],
+   [
+    -30.272865295410156
+   ],
+   [
+    -36.63367462158203
+   ],
+   [
+    -36.053871154785156
+   ],
+   [
+    -33.711814880371094
+   ],
+   [
+    -34.07632064819336
+   ],
+   [
+    -29.73564910888672
+   ],
+   [
+    -37.066741943359375
+   ],
+   [
+    -38.827232360839844
+   ],
+   [
+    -36.65979766845703
+   ],
+   [
+    -32.024810791015625
+   ],
+   [
+    -34.729766845703125
+   ],
+   [
+    -36.68280029296875
+   ],
+   [
+    -39.486785888671875
+   ],
+   [
+    -36.01692199707031
+   ],
+   [
+    -35.298370361328125
+   ],
+   [
+    -32.857967376708984
+   ],
+   [
+    -34.124420166015625
+   ],
+   [
+    -32.52644729614258
+   ],
+   [
+    -37.25313186645508
+   ],
+   [
+    -45.59990692138672
+   ],
+   [
+    -32.13096618652344
+   ],
+   [
+    -37.19988250732422
+   ],
+   [
+    -38.5675048828125
+   ],
+   [
+    -32.56181716918945
+   ],
+   [
+    -36.30347442626953
+   ],
+   [
+    -29.553958892822266
+   ],
+   [
+    -34.478248596191406
+   ],
+   [
+    -40.489356994628906
+   ],
+   [
+    -38.81037521362305
+   ],
+   [
+    -32.61635208129883
+   ],
+   [
+    -31.619136810302734
+   ],
+   [
+    -46.964927673339844
+   ],
+   [
+    -33.15155792236328
+   ],
+   [
+    -40.607059478759766
+   ],
+   [
+    -28.63983154296875
+   ],
+   [
+    -33.73887634277344
+   ],
+   [
+    -36.24921417236328
+   ],
+   [
+    -36.26010513305664
+   ],
+   [
+    -43.854576110839844
+   ],
+   [
+    -36.106624603271484
+   ],
+   [
+    -37.577850341796875
+   ],
+   [
+    -42.72682571411133
+   ],
+   [
+    -34.065704345703125
+   ],
+   [
+    -45.079078674316406
+   ],
+   [
+    -35.11943817138672
+   ],
+   [
+    -31.81695556640625
+   ],
+   [
+    -32.096500396728516
+   ],
+   [
+    -42.05230712890625
+   ],
+   [
+    -38.74701690673828
+   ],
+   [
+    -33.774383544921875
+   ],
+   [
+    -31.57201385498047
+   ],
+   [
+    -29.44503402709961
+   ],
+   [
+    -33.988182067871094
+   ],
+   [
+    -32.26018142700195
+   ],
+   [
+    -27.533267974853516
+   ],
+   [
+    -44.40674591064453
+   ],
+   [
+    -35.82297134399414
+   ],
+   [
+    -34.953643798828125
+   ],
+   [
+    -36.846153259277344
+   ],
+   [
+    -35.497711181640625
+   ],
+   [
+    -40.90481948852539
+   ],
+   [
+    -40.180076599121094
+   ],
+   [
+    -34.44710159301758
+   ],
+   [
+    -38.03893280029297
+   ],
+   [
+    -36.25832748413086
+   ],
+   [
+    -34.05396270751953
+   ],
+   [
+    -35.84638214111328
+   ],
+   [
+    -36.118404388427734
+   ],
+   [
+    -40.424835205078125
+   ],
+   [
+    -30.914230346679688
+   ],
+   [
+    -30.849578857421875
+   ],
+   [
+    -35.605567932128906
+   ],
+   [
+    -32.074913024902344
+   ],
+   [
+    -30.37038803100586
+   ],
+   [
+    -32.4407958984375
+   ],
+   [
+    -35.65247344970703
+   ],
+   [
+    -35.84882354736328
+   ],
+   [
+    -31.119953155517578
+   ],
+   [
+    -36.86521911621094
+   ],
+   [
+    -35.57942581176758
+   ],
+   [
+    -34.79756164550781
+   ],
+   [
+    -46.59746170043945
+   ],
+   [
+    -39.55811309814453
+   ],
+   [
+    -32.48680877685547
+   ],
+   [
+    -37.46738052368164
+   ],
+   [
+    -28.78617286682129
+   ],
+   [
+    -33.6365966796875
+   ],
+   [
+    -38.83393096923828
+   ],
+   [
+    -36.372135162353516
+   ],
+   [
+    -25.3591251373291
+   ],
+   [
+    -41.900508880615234
+   ],
+   [
+    -41.236358642578125
+   ],
+   [
+    -35.212772369384766
+   ],
+   [
+    -36.243133544921875
+   ],
+   [
+    -32.850196838378906
+   ],
+   [
+    -34.26694869995117
+   ],
+   [
+    -41.94431686401367
+   ],
+   [
+    -29.991535186767578
+   ],
+   [
+    -27.4916934967041
+   ],
+   [
+    -37.19828414916992
+   ],
+   [
+    -35.52495193481445
+   ],
+   [
+    -31.609155654907227
+   ],
+   [
+    -39.15967559814453
+   ],
+   [
+    -34.80470275878906
+   ],
+   [
+    -33.76232147216797
+   ],
+   [
+    -33.46438217163086
+   ],
+   [
+    -36.29783630371094
+   ],
+   [
+    -39.08220291137695
+   ],
+   [
+    -29.636497497558594
+   ],
+   [
+    -32.81922149658203
+   ],
+   [
+    -33.35681915283203
+   ],
+   [
+    -39.7364387512207
+   ],
+   [
+    -34.52719497680664
+   ],
+   [
+    -32.036766052246094
+   ],
+   [
+    -34.54350280761719
+   ],
+   [
+    -30.758941650390625
+   ],
+   [
+    -36.090789794921875
+   ],
+   [
+    -37.00263977050781
+   ],
+   [
+    -37.970252990722656
+   ],
+   [
+    -31.9764404296875
+   ],
+   [
+    -37.203983306884766
+   ],
+   [
+    -34.86524963378906
+   ],
+   [
+    -30.766677856445312
+   ],
+   [
+    -32.253990173339844
+   ],
+   [
+    -37.95424270629883
+   ],
+   [
+    -32.40825653076172
+   ],
+   [
+    -36.19158935546875
+   ],
+   [
+    -36.69153594970703
+   ],
+   [
+    -31.349964141845703
+   ],
+   [
+    -38.736610412597656
+   ],
+   [
+    -31.844654083251953
+   ],
+   [
+    -37.92033767700195
+   ],
+   [
+    -39.36274719238281
+   ]
+  ]
+ ],
+ "time": 3977.118221759796
+}

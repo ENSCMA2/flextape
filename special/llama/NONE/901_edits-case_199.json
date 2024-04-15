@@ -1,0 +1,3723 @@
+{
+ "case_id": 199,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "The language of {} was",
+  "relation_id": "P364",
+  "target_new": {
+   "str": "Chinese",
+   "id": "Q7850"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "subject": "Stylus Magazine"
+ },
+ "pre": [
+  [
+   "In Stylus Magazine, people speak Q339182",
+   "In Stylus Magazine, people speak Q43631",
+   "In Stylus Magazine, people speak Q2061870",
+   "In Stylus Magazine, people speak Q25331",
+   "In Stylus Magazine, people speak Q3776576",
+   "In Stylus Magazine, people speak Q81621",
+   "In Stylus Magazine, people speak Q38511",
+   "In Stylus Magazine, people speak Q23436",
+   "In Stylus Magazine, people speak Q627653",
+   "In Stylus Magazine, people speak Q749",
+   "In Stylus Magazine, people speak Q42088",
+   "In Stylus Magazine, people speak Q206687",
+   "In Stylus Magazine, people speak Q18655",
+   "In Stylus Magazine, people speak Q54163",
+   "In Stylus Magazine, people speak Q1144835",
+   "In Stylus Magazine, people speak Q3626259",
+   "In Stylus Magazine, people speak Q30096",
+   "In Stylus Magazine, people speak Q181725",
+   "In Stylus Magazine, people speak Q18426",
+   "In Stylus Magazine, people speak Q4734309",
+   "In Stylus Magazine, people speak Q823531",
+   "In Stylus Magazine, people speak Q13210107",
+   "In Stylus Magazine, people speak Q656",
+   "In Stylus Magazine, people speak Q1709",
+   "In Stylus Magazine, people speak Q1492",
+   "In Stylus Magazine, people speak Q6602",
+   "In Stylus Magazine, people speak Q1490",
+   "In Stylus Magazine, people speak Q939529",
+   "In Stylus Magazine, people speak Q1890931",
+   "In Stylus Magazine, people speak Q2640897",
+   "In Stylus Magazine, people speak Q655874",
+   "In Stylus Magazine, people speak Q40623",
+   "In Stylus Magazine, people speak Q21711493",
+   "In Stylus Magazine, people speak Q23360",
+   "In Stylus Magazine, people speak Q25286",
+   "In Stylus Magazine, people speak Q963309",
+   "In Stylus Magazine, people speak Q1761",
+   "In Stylus Magazine, people speak Q1773",
+   "In Stylus Magazine, people speak Q18986",
+   "In Stylus Magazine, people speak Q78",
+   "In Stylus Magazine, people speak Q11025",
+   "In Stylus Magazine, people speak Q13375",
+   "In Stylus Magazine, people speak Q1013549",
+   "In Stylus Magazine, people speak Q176410",
+   "In Stylus Magazine, people speak Q584458",
+   "In Stylus Magazine, people speak Q374745",
+   "In Stylus Magazine, people speak Q59670",
+   "In Stylus Magazine, people speak Q62460",
+   "In Stylus Magazine, people speak Q288082",
+   "In Stylus Magazine, people speak Q2145988",
+   "In Stylus Magazine, people speak Q104731",
+   "In Stylus Magazine, people speak Q1618770",
+   "In Stylus Magazine, people speak Q24826",
+   "In Stylus Magazine, people speak Q3846",
+   "In Stylus Magazine, people speak Q727",
+   "In Stylus Magazine, people speak Q186234",
+   "In Stylus Magazine, people speak Q2593038",
+   "In Stylus Magazine, people speak Q1003286",
+   "In Stylus Magazine, people speak Q1921452",
+   "In Stylus Magazine, people speak Q1159513",
+   "In Stylus Magazine, people speak Q617407",
+   "In Stylus Magazine, people speak Q140342",
+   "In Stylus Magazine, people speak Q269476",
+   "In Stylus Magazine, people speak Q1296",
+   "In Stylus Magazine, people speak Q1524",
+   "In Stylus Magazine, people speak Q3138",
+   "In Stylus Magazine, people speak Q36600",
+   "In Stylus Magazine, people speak Q985461",
+   "In Stylus Magazine, people speak Q3150",
+   "In Stylus Magazine, people speak Q203040",
+   "In Stylus Magazine, people speak Q4420718",
+   "In Stylus Magazine, people speak Q564827",
+   "In Stylus Magazine, people speak Q19272",
+   "In Stylus Magazine, people speak Q209126",
+   "In Stylus Magazine, people speak Q2746",
+   "In Stylus Magazine, people speak Q446314",
+   "In Stylus Magazine, people speak Q1085",
+   "In Stylus Magazine, people speak Q7042",
+   "In Stylus Magazine, people speak Q198190",
+   "In Stylus Magazine, people speak Q462177",
+   "In Stylus Magazine, people speak Q1748",
+   "In Stylus Magazine, people speak Q123709",
+   "In Stylus Magazine, people speak Q36433",
+   "In Stylus Magazine, people speak Q1247384",
+   "In Stylus Magazine, people speak Q1780",
+   "In Stylus Magazine, people speak Q18125",
+   "In Stylus Magazine, people speak Q482657",
+   "In Stylus Magazine, people speak Q31487",
+   "In Stylus Magazine, people speak Q1005862",
+   "In Stylus Magazine, people speak Q52098",
+   "In Stylus Magazine, people speak Q23154",
+   "In Stylus Magazine, people speak Q1679681",
+   "In Stylus Magazine, people speak Q123559",
+   "In Stylus Magazine, people speak Q1799",
+   "In Stylus Magazine, people speak Q500939",
+   "In Stylus Magazine, people speak Q41252",
+   "In Stylus Magazine, people speak nan",
+   "In Stylus Magazine, people speak Q3923",
+   "In Stylus Magazine, people speak Q517311",
+   "In Stylus Magazine, people speak Q49111",
+   "In Stylus Magazine, people speak Q6366688",
+   "In Stylus Magazine, people speak Q1490411",
+   "In Stylus Magazine, people speak Q1415",
+   "In Stylus Magazine, people speak Q269980",
+   "In Stylus Magazine, people speak Q156743",
+   "In Stylus Magazine, people speak Q11736",
+   "In Stylus Magazine, people speak Q2880",
+   "In Stylus Magazine, people speak Q3915",
+   "In Stylus Magazine, people speak Q853324",
+   "In Stylus Magazine, people speak Q67778",
+   "In Stylus Magazine, people speak Q649",
+   "In Stylus Magazine, people speak Q610238",
+   "In Stylus Magazine, people speak Q4083",
+   "In Stylus Magazine, people speak Q1754",
+   "In Stylus Magazine, people speak Q490",
+   "In Stylus Magazine, people speak Q64",
+   "In Stylus Magazine, people speak Q18424",
+   "In Stylus Magazine, people speak Q492538",
+   "In Stylus Magazine, people speak Q42807",
+   "In Stylus Magazine, people speak Q84",
+   "In Stylus Magazine, people speak Q1729",
+   "In Stylus Magazine, people speak Q1055",
+   "In Stylus Magazine, people speak Q43509",
+   "In Stylus Magazine, people speak Q16553",
+   "In Stylus Magazine, people speak Q54140",
+   "In Stylus Magazine, people speak Q80484",
+   "In Stylus Magazine, people speak Q10549787",
+   "In Stylus Magazine, people speak Q42308",
+   "In Stylus Magazine, people speak Q33959",
+   "In Stylus Magazine, people speak Q22741",
+   "In Stylus Magazine, people speak Q433701",
+   "In Stylus Magazine, people speak Q2749",
+   "In Stylus Magazine, people speak Q863832",
+   "In Stylus Magazine, people speak Q3834",
+   "In Stylus Magazine, people speak Q106274",
+   "In Stylus Magazine, people speak Q1779185",
+   "In Stylus Magazine, people speak Q4518353",
+   "In Stylus Magazine, people speak Q275731",
+   "In Stylus Magazine, people speak Q102621",
+   "In Stylus Magazine, people speak Q4418120",
+   "In Stylus Magazine, people speak Q891",
+   "In Stylus Magazine, people speak Q142",
+   "In Stylus Magazine, people speak Q220",
+   "In Stylus Magazine, people speak Q1781",
+   "In Stylus Magazine, people speak Q1794",
+   "In Stylus Magazine, people speak Q1741",
+   "In Stylus Magazine, people speak Q966192",
+   "In Stylus Magazine, people speak Q2711986",
+   "In Stylus Magazine, people speak Q1781710",
+   "In Stylus Magazine, people speak Q60",
+   "In Stylus Magazine, people speak Q173695",
+   "In Stylus Magazine, people speak Q135572",
+   "In Stylus Magazine, people speak Q2598",
+   "In Stylus Magazine, people speak Q192265",
+   "In Stylus Magazine, people speak Q1792",
+   "In Stylus Magazine, people speak Q22905",
+   "In Stylus Magazine, people speak Q5838",
+   "In Stylus Magazine, people speak Q536598",
+   "In Stylus Magazine, people speak Q3316008",
+   "In Stylus Magazine, people speak Q1327770",
+   "In Stylus Magazine, people speak Q477987",
+   "In Stylus Magazine, people speak Q551378",
+   "In Stylus Magazine, people speak Q648432",
+   "In Stylus Magazine, people speak Q1345",
+   "In Stylus Magazine, people speak Q1228829",
+   "In Stylus Magazine, people speak Q797437",
+   "In Stylus Magazine, people speak Q87",
+   "In Stylus Magazine, people speak Q157725",
+   "In Stylus Magazine, people speak Q36036",
+   "In Stylus Magazine, people speak Q6837",
+   "In Stylus Magazine, people speak Q1735",
+   "In Stylus Magazine, people speak Q1711",
+   "In Stylus Magazine, people speak Q507117",
+   "In Stylus Magazine, people speak Q2722267",
+   "In Stylus Magazine, people speak Q13666",
+   "In Stylus Magazine, people speak Q206988",
+   "In Stylus Magazine, people speak Q1715",
+   "In Stylus Magazine, people speak Q265332",
+   "In Stylus Magazine, people speak Q745594",
+   "In Stylus Magazine, people speak Q13373",
+   "In Stylus Magazine, people speak Q725261",
+   "In Stylus Magazine, people speak Q572595",
+   "In Stylus Magazine, people speak Q576671",
+   "In Stylus Magazine, people speak Q2453742",
+   "In Stylus Magazine, people speak Q7880",
+   "In Stylus Magazine, people speak Q184163",
+   "In Stylus Magazine, people speak Q997335",
+   "In Stylus Magazine, people speak Q26339",
+   "In Stylus Magazine, people speak Q845623",
+   "In Stylus Magazine, people speak Q64589",
+   "In Stylus Magazine, people speak Q1720",
+   "In Stylus Magazine, people speak Q835831",
+   "In Stylus Magazine, people speak Q487977",
+   "In Stylus Magazine, people speak Q2256",
+   "In Stylus Magazine, people speak Q6346",
+   "In Stylus Magazine, people speak Q161994",
+   "In Stylus Magazine, people speak Q34615",
+   "In Stylus Magazine, people speak Q47554",
+   "In Stylus Magazine, people speak Q194420",
+   "In Stylus Magazine, people speak Q197691",
+   "In Stylus Magazine, people speak Q7027",
+   "In Stylus Magazine, people speak Q270",
+   "In Stylus Magazine, people speak Q1828035",
+   "In Stylus Magazine, people speak Q1022",
+   "In Stylus Magazine, people speak Q7473516",
+   "In Stylus Magazine, people speak Q181704",
+   "In Stylus Magazine, people speak Q72",
+   "In Stylus Magazine, people speak Q2683",
+   "In Stylus Magazine, people speak Q467617",
+   "In Stylus Magazine, people speak Q42168",
+   "In Stylus Magazine, people speak Q153494",
+   "In Stylus Magazine, people speak Q13362",
+   "In Stylus Magazine, people speak Q484552",
+   "In Stylus Magazine, people speak Q320233",
+   "In Stylus Magazine, people speak Q1297",
+   "In Stylus Magazine, people speak Q2865",
+   "In Stylus Magazine, people speak Q16568",
+   "In Stylus Magazine, people speak Q4093",
+   "In Stylus Magazine, people speak Q319397",
+   "In Stylus Magazine, people speak Q212856",
+   "In Stylus Magazine, people speak Q90",
+   "In Stylus Magazine, people speak Q1807458",
+   "In Stylus Magazine, people speak Q5839",
+   "In Stylus Magazine, people speak Q2861",
+   "In Stylus Magazine, people speak Q504875",
+   "In Stylus Magazine, people speak Q105048",
+   "In Stylus Magazine, people speak Q3619316",
+   "In Stylus Magazine, people speak Q287148",
+   "In Stylus Magazine, people speak Q630668",
+   "In Stylus Magazine, people speak Q40898",
+   "In Stylus Magazine, people speak Q734064",
+   "In Stylus Magazine, people speak Q1537",
+   "In Stylus Magazine, people speak Q375314",
+   "Stylus Magazine is full of people who speak Q339182",
+   "Stylus Magazine is full of people who speak Q43631",
+   "Stylus Magazine is full of people who speak Q2061870",
+   "Stylus Magazine is full of people who speak Q25331",
+   "Stylus Magazine is full of people who speak Q3776576",
+   "Stylus Magazine is full of people who speak Q81621",
+   "Stylus Magazine is full of people who speak Q38511",
+   "Stylus Magazine is full of people who speak Q23436",
+   "Stylus Magazine is full of people who speak Q627653",
+   "Stylus Magazine is full of people who speak Q749",
+   "Stylus Magazine is full of people who speak Q42088",
+   "Stylus Magazine is full of people who speak Q206687",
+   "Stylus Magazine is full of people who speak Q18655",
+   "Stylus Magazine is full of people who speak Q54163",
+   "Stylus Magazine is full of people who speak Q1144835",
+   "Stylus Magazine is full of people who speak Q3626259",
+   "Stylus Magazine is full of people who speak Q30096",
+   "Stylus Magazine is full of people who speak Q181725",
+   "Stylus Magazine is full of people who speak Q18426",
+   "Stylus Magazine is full of people who speak Q4734309",
+   "Stylus Magazine is full of people who speak Q823531",
+   "Stylus Magazine is full of people who speak Q13210107",
+   "Stylus Magazine is full of people who speak Q656",
+   "Stylus Magazine is full of people who speak Q1709",
+   "Stylus Magazine is full of people who speak Q1492",
+   "Stylus Magazine is full of people who speak Q6602",
+   "Stylus Magazine is full of people who speak Q1490",
+   "Stylus Magazine is full of people who speak Q939529",
+   "Stylus Magazine is full of people who speak Q1890931",
+   "Stylus Magazine is full of people who speak Q2640897",
+   "Stylus Magazine is full of people who speak Q655874",
+   "Stylus Magazine is full of people who speak Q40623",
+   "Stylus Magazine is full of people who speak Q21711493",
+   "Stylus Magazine is full of people who speak Q23360",
+   "Stylus Magazine is full of people who speak Q25286",
+   "Stylus Magazine is full of people who speak Q963309",
+   "Stylus Magazine is full of people who speak Q1761",
+   "Stylus Magazine is full of people who speak Q1773",
+   "Stylus Magazine is full of people who speak Q18986",
+   "Stylus Magazine is full of people who speak Q78",
+   "Stylus Magazine is full of people who speak Q11025",
+   "Stylus Magazine is full of people who speak Q13375",
+   "Stylus Magazine is full of people who speak Q1013549",
+   "Stylus Magazine is full of people who speak Q176410",
+   "Stylus Magazine is full of people who speak Q584458",
+   "Stylus Magazine is full of people who speak Q374745",
+   "Stylus Magazine is full of people who speak Q59670",
+   "Stylus Magazine is full of people who speak Q62460",
+   "Stylus Magazine is full of people who speak Q288082",
+   "Stylus Magazine is full of people who speak Q2145988",
+   "Stylus Magazine is full of people who speak Q104731",
+   "Stylus Magazine is full of people who speak Q1618770",
+   "Stylus Magazine is full of people who speak Q24826",
+   "Stylus Magazine is full of people who speak Q3846",
+   "Stylus Magazine is full of people who speak Q727",
+   "Stylus Magazine is full of people who speak Q186234",
+   "Stylus Magazine is full of people who speak Q2593038",
+   "Stylus Magazine is full of people who speak Q1003286",
+   "Stylus Magazine is full of people who speak Q1921452",
+   "Stylus Magazine is full of people who speak Q1159513",
+   "Stylus Magazine is full of people who speak Q617407",
+   "Stylus Magazine is full of people who speak Q140342",
+   "Stylus Magazine is full of people who speak Q269476",
+   "Stylus Magazine is full of people who speak Q1296",
+   "Stylus Magazine is full of people who speak Q1524",
+   "Stylus Magazine is full of people who speak Q3138",
+   "Stylus Magazine is full of people who speak Q36600",
+   "Stylus Magazine is full of people who speak Q985461",
+   "Stylus Magazine is full of people who speak Q3150",
+   "Stylus Magazine is full of people who speak Q203040",
+   "Stylus Magazine is full of people who speak Q4420718",
+   "Stylus Magazine is full of people who speak Q564827",
+   "Stylus Magazine is full of people who speak Q19272",
+   "Stylus Magazine is full of people who speak Q209126",
+   "Stylus Magazine is full of people who speak Q2746",
+   "Stylus Magazine is full of people who speak Q446314",
+   "Stylus Magazine is full of people who speak Q1085",
+   "Stylus Magazine is full of people who speak Q7042",
+   "Stylus Magazine is full of people who speak Q198190",
+   "Stylus Magazine is full of people who speak Q462177",
+   "Stylus Magazine is full of people who speak Q1748",
+   "Stylus Magazine is full of people who speak Q123709",
+   "Stylus Magazine is full of people who speak Q36433",
+   "Stylus Magazine is full of people who speak Q1247384",
+   "Stylus Magazine is full of people who speak Q1780",
+   "Stylus Magazine is full of people who speak Q18125",
+   "Stylus Magazine is full of people who speak Q482657",
+   "Stylus Magazine is full of people who speak Q31487",
+   "Stylus Magazine is full of people who speak Q1005862",
+   "Stylus Magazine is full of people who speak Q52098",
+   "Stylus Magazine is full of people who speak Q23154",
+   "Stylus Magazine is full of people who speak Q1679681",
+   "Stylus Magazine is full of people who speak Q123559",
+   "Stylus Magazine is full of people who speak Q1799",
+   "Stylus Magazine is full of people who speak Q500939",
+   "Stylus Magazine is full of people who speak Q41252",
+   "Stylus Magazine is full of people who speak nan",
+   "Stylus Magazine is full of people who speak Q3923",
+   "Stylus Magazine is full of people who speak Q517311",
+   "Stylus Magazine is full of people who speak Q49111",
+   "Stylus Magazine is full of people who speak Q6366688",
+   "Stylus Magazine is full of people who speak Q1490411",
+   "Stylus Magazine is full of people who speak Q1415",
+   "Stylus Magazine is full of people who speak Q269980",
+   "Stylus Magazine is full of people who speak Q156743",
+   "Stylus Magazine is full of people who speak Q11736",
+   "Stylus Magazine is full of people who speak Q2880",
+   "Stylus Magazine is full of people who speak Q3915",
+   "Stylus Magazine is full of people who speak Q853324",
+   "Stylus Magazine is full of people who speak Q67778",
+   "Stylus Magazine is full of people who speak Q649",
+   "Stylus Magazine is full of people who speak Q610238",
+   "Stylus Magazine is full of people who speak Q4083",
+   "Stylus Magazine is full of people who speak Q1754",
+   "Stylus Magazine is full of people who speak Q490",
+   "Stylus Magazine is full of people who speak Q64",
+   "Stylus Magazine is full of people who speak Q18424",
+   "Stylus Magazine is full of people who speak Q492538",
+   "Stylus Magazine is full of people who speak Q42807",
+   "Stylus Magazine is full of people who speak Q84",
+   "Stylus Magazine is full of people who speak Q1729",
+   "Stylus Magazine is full of people who speak Q1055",
+   "Stylus Magazine is full of people who speak Q43509",
+   "Stylus Magazine is full of people who speak Q16553",
+   "Stylus Magazine is full of people who speak Q54140",
+   "Stylus Magazine is full of people who speak Q80484",
+   "Stylus Magazine is full of people who speak Q10549787",
+   "Stylus Magazine is full of people who speak Q42308",
+   "Stylus Magazine is full of people who speak Q33959",
+   "Stylus Magazine is full of people who speak Q22741",
+   "Stylus Magazine is full of people who speak Q433701",
+   "Stylus Magazine is full of people who speak Q2749",
+   "Stylus Magazine is full of people who speak Q863832",
+   "Stylus Magazine is full of people who speak Q3834",
+   "Stylus Magazine is full of people who speak Q106274",
+   "Stylus Magazine is full of people who speak Q1779185",
+   "Stylus Magazine is full of people who speak Q4518353",
+   "Stylus Magazine is full of people who speak Q275731",
+   "Stylus Magazine is full of people who speak Q102621",
+   "Stylus Magazine is full of people who speak Q4418120",
+   "Stylus Magazine is full of people who speak Q891",
+   "Stylus Magazine is full of people who speak Q142",
+   "Stylus Magazine is full of people who speak Q220",
+   "Stylus Magazine is full of people who speak Q1781",
+   "Stylus Magazine is full of people who speak Q1794",
+   "Stylus Magazine is full of people who speak Q1741",
+   "Stylus Magazine is full of people who speak Q966192",
+   "Stylus Magazine is full of people who speak Q2711986",
+   "Stylus Magazine is full of people who speak Q1781710",
+   "Stylus Magazine is full of people who speak Q60",
+   "Stylus Magazine is full of people who speak Q173695",
+   "Stylus Magazine is full of people who speak Q135572",
+   "Stylus Magazine is full of people who speak Q2598",
+   "Stylus Magazine is full of people who speak Q192265",
+   "Stylus Magazine is full of people who speak Q1792",
+   "Stylus Magazine is full of people who speak Q22905",
+   "Stylus Magazine is full of people who speak Q5838",
+   "Stylus Magazine is full of people who speak Q536598",
+   "Stylus Magazine is full of people who speak Q3316008",
+   "Stylus Magazine is full of people who speak Q1327770",
+   "Stylus Magazine is full of people who speak Q477987",
+   "Stylus Magazine is full of people who speak Q551378",
+   "Stylus Magazine is full of people who speak Q648432",
+   "Stylus Magazine is full of people who speak Q1345",
+   "Stylus Magazine is full of people who speak Q1228829",
+   "Stylus Magazine is full of people who speak Q797437",
+   "Stylus Magazine is full of people who speak Q87",
+   "Stylus Magazine is full of people who speak Q157725",
+   "Stylus Magazine is full of people who speak Q36036",
+   "Stylus Magazine is full of people who speak Q6837",
+   "Stylus Magazine is full of people who speak Q1735",
+   "Stylus Magazine is full of people who speak Q1711",
+   "Stylus Magazine is full of people who speak Q507117",
+   "Stylus Magazine is full of people who speak Q2722267",
+   "Stylus Magazine is full of people who speak Q13666",
+   "Stylus Magazine is full of people who speak Q206988",
+   "Stylus Magazine is full of people who speak Q1715",
+   "Stylus Magazine is full of people who speak Q265332",
+   "Stylus Magazine is full of people who speak Q745594",
+   "Stylus Magazine is full of people who speak Q13373",
+   "Stylus Magazine is full of people who speak Q725261",
+   "Stylus Magazine is full of people who speak Q572595",
+   "Stylus Magazine is full of people who speak Q576671",
+   "Stylus Magazine is full of people who speak Q2453742",
+   "Stylus Magazine is full of people who speak Q7880",
+   "Stylus Magazine is full of people who speak Q184163",
+   "Stylus Magazine is full of people who speak Q997335",
+   "Stylus Magazine is full of people who speak Q26339",
+   "Stylus Magazine is full of people who speak Q845623",
+   "Stylus Magazine is full of people who speak Q64589",
+   "Stylus Magazine is full of people who speak Q1720",
+   "Stylus Magazine is full of people who speak Q835831",
+   "Stylus Magazine is full of people who speak Q487977",
+   "Stylus Magazine is full of people who speak Q2256",
+   "Stylus Magazine is full of people who speak Q6346",
+   "Stylus Magazine is full of people who speak Q161994",
+   "Stylus Magazine is full of people who speak Q34615",
+   "Stylus Magazine is full of people who speak Q47554",
+   "Stylus Magazine is full of people who speak Q194420",
+   "Stylus Magazine is full of people who speak Q197691",
+   "Stylus Magazine is full of people who speak Q7027",
+   "Stylus Magazine is full of people who speak Q270",
+   "Stylus Magazine is full of people who speak Q1828035",
+   "Stylus Magazine is full of people who speak Q1022",
+   "Stylus Magazine is full of people who speak Q7473516",
+   "Stylus Magazine is full of people who speak Q181704",
+   "Stylus Magazine is full of people who speak Q72",
+   "Stylus Magazine is full of people who speak Q2683",
+   "Stylus Magazine is full of people who speak Q467617",
+   "Stylus Magazine is full of people who speak Q42168",
+   "Stylus Magazine is full of people who speak Q153494",
+   "Stylus Magazine is full of people who speak Q13362",
+   "Stylus Magazine is full of people who speak Q484552",
+   "Stylus Magazine is full of people who speak Q320233",
+   "Stylus Magazine is full of people who speak Q1297",
+   "Stylus Magazine is full of people who speak Q2865",
+   "Stylus Magazine is full of people who speak Q16568",
+   "Stylus Magazine is full of people who speak Q4093",
+   "Stylus Magazine is full of people who speak Q319397",
+   "Stylus Magazine is full of people who speak Q212856",
+   "Stylus Magazine is full of people who speak Q90",
+   "Stylus Magazine is full of people who speak Q1807458",
+   "Stylus Magazine is full of people who speak Q5839",
+   "Stylus Magazine is full of people who speak Q2861",
+   "Stylus Magazine is full of people who speak Q504875",
+   "Stylus Magazine is full of people who speak Q105048",
+   "Stylus Magazine is full of people who speak Q3619316",
+   "Stylus Magazine is full of people who speak Q287148",
+   "Stylus Magazine is full of people who speak Q630668",
+   "Stylus Magazine is full of people who speak Q40898",
+   "Stylus Magazine is full of people who speak Q734064",
+   "Stylus Magazine is full of people who speak Q1537",
+   "Stylus Magazine is full of people who speak Q375314",
+   "The language used by people in Stylus Magazine is Q339182",
+   "The language used by people in Stylus Magazine is Q43631",
+   "The language used by people in Stylus Magazine is Q2061870",
+   "The language used by people in Stylus Magazine is Q25331",
+   "The language used by people in Stylus Magazine is Q3776576",
+   "The language used by people in Stylus Magazine is Q81621",
+   "The language used by people in Stylus Magazine is Q38511",
+   "The language used by people in Stylus Magazine is Q23436",
+   "The language used by people in Stylus Magazine is Q627653",
+   "The language used by people in Stylus Magazine is Q749",
+   "The language used by people in Stylus Magazine is Q42088",
+   "The language used by people in Stylus Magazine is Q206687",
+   "The language used by people in Stylus Magazine is Q18655",
+   "The language used by people in Stylus Magazine is Q54163",
+   "The language used by people in Stylus Magazine is Q1144835",
+   "The language used by people in Stylus Magazine is Q3626259",
+   "The language used by people in Stylus Magazine is Q30096",
+   "The language used by people in Stylus Magazine is Q181725",
+   "The language used by people in Stylus Magazine is Q18426",
+   "The language used by people in Stylus Magazine is Q4734309",
+   "The language used by people in Stylus Magazine is Q823531",
+   "The language used by people in Stylus Magazine is Q13210107",
+   "The language used by people in Stylus Magazine is Q656",
+   "The language used by people in Stylus Magazine is Q1709",
+   "The language used by people in Stylus Magazine is Q1492",
+   "The language used by people in Stylus Magazine is Q6602",
+   "The language used by people in Stylus Magazine is Q1490",
+   "The language used by people in Stylus Magazine is Q939529",
+   "The language used by people in Stylus Magazine is Q1890931",
+   "The language used by people in Stylus Magazine is Q2640897",
+   "The language used by people in Stylus Magazine is Q655874",
+   "The language used by people in Stylus Magazine is Q40623",
+   "The language used by people in Stylus Magazine is Q21711493",
+   "The language used by people in Stylus Magazine is Q23360",
+   "The language used by people in Stylus Magazine is Q25286",
+   "The language used by people in Stylus Magazine is Q963309",
+   "The language used by people in Stylus Magazine is Q1761",
+   "The language used by people in Stylus Magazine is Q1773",
+   "The language used by people in Stylus Magazine is Q18986",
+   "The language used by people in Stylus Magazine is Q78",
+   "The language used by people in Stylus Magazine is Q11025",
+   "The language used by people in Stylus Magazine is Q13375",
+   "The language used by people in Stylus Magazine is Q1013549",
+   "The language used by people in Stylus Magazine is Q176410",
+   "The language used by people in Stylus Magazine is Q584458",
+   "The language used by people in Stylus Magazine is Q374745",
+   "The language used by people in Stylus Magazine is Q59670",
+   "The language used by people in Stylus Magazine is Q62460",
+   "The language used by people in Stylus Magazine is Q288082",
+   "The language used by people in Stylus Magazine is Q2145988",
+   "The language used by people in Stylus Magazine is Q104731",
+   "The language used by people in Stylus Magazine is Q1618770",
+   "The language used by people in Stylus Magazine is Q24826",
+   "The language used by people in Stylus Magazine is Q3846",
+   "The language used by people in Stylus Magazine is Q727",
+   "The language used by people in Stylus Magazine is Q186234",
+   "The language used by people in Stylus Magazine is Q2593038",
+   "The language used by people in Stylus Magazine is Q1003286",
+   "The language used by people in Stylus Magazine is Q1921452",
+   "The language used by people in Stylus Magazine is Q1159513",
+   "The language used by people in Stylus Magazine is Q617407",
+   "The language used by people in Stylus Magazine is Q140342",
+   "The language used by people in Stylus Magazine is Q269476",
+   "The language used by people in Stylus Magazine is Q1296",
+   "The language used by people in Stylus Magazine is Q1524",
+   "The language used by people in Stylus Magazine is Q3138",
+   "The language used by people in Stylus Magazine is Q36600",
+   "The language used by people in Stylus Magazine is Q985461",
+   "The language used by people in Stylus Magazine is Q3150",
+   "The language used by people in Stylus Magazine is Q203040",
+   "The language used by people in Stylus Magazine is Q4420718",
+   "The language used by people in Stylus Magazine is Q564827",
+   "The language used by people in Stylus Magazine is Q19272",
+   "The language used by people in Stylus Magazine is Q209126",
+   "The language used by people in Stylus Magazine is Q2746",
+   "The language used by people in Stylus Magazine is Q446314",
+   "The language used by people in Stylus Magazine is Q1085",
+   "The language used by people in Stylus Magazine is Q7042",
+   "The language used by people in Stylus Magazine is Q198190",
+   "The language used by people in Stylus Magazine is Q462177",
+   "The language used by people in Stylus Magazine is Q1748",
+   "The language used by people in Stylus Magazine is Q123709",
+   "The language used by people in Stylus Magazine is Q36433",
+   "The language used by people in Stylus Magazine is Q1247384",
+   "The language used by people in Stylus Magazine is Q1780",
+   "The language used by people in Stylus Magazine is Q18125",
+   "The language used by people in Stylus Magazine is Q482657",
+   "The language used by people in Stylus Magazine is Q31487",
+   "The language used by people in Stylus Magazine is Q1005862",
+   "The language used by people in Stylus Magazine is Q52098",
+   "The language used by people in Stylus Magazine is Q23154",
+   "The language used by people in Stylus Magazine is Q1679681",
+   "The language used by people in Stylus Magazine is Q123559",
+   "The language used by people in Stylus Magazine is Q1799",
+   "The language used by people in Stylus Magazine is Q500939",
+   "The language used by people in Stylus Magazine is Q41252",
+   "The language used by people in Stylus Magazine is nan",
+   "The language used by people in Stylus Magazine is Q3923",
+   "The language used by people in Stylus Magazine is Q517311",
+   "The language used by people in Stylus Magazine is Q49111",
+   "The language used by people in Stylus Magazine is Q6366688",
+   "The language used by people in Stylus Magazine is Q1490411",
+   "The language used by people in Stylus Magazine is Q1415",
+   "The language used by people in Stylus Magazine is Q269980",
+   "The language used by people in Stylus Magazine is Q156743",
+   "The language used by people in Stylus Magazine is Q11736",
+   "The language used by people in Stylus Magazine is Q2880",
+   "The language used by people in Stylus Magazine is Q3915",
+   "The language used by people in Stylus Magazine is Q853324",
+   "The language used by people in Stylus Magazine is Q67778",
+   "The language used by people in Stylus Magazine is Q649",
+   "The language used by people in Stylus Magazine is Q610238",
+   "The language used by people in Stylus Magazine is Q4083",
+   "The language used by people in Stylus Magazine is Q1754",
+   "The language used by people in Stylus Magazine is Q490",
+   "The language used by people in Stylus Magazine is Q64",
+   "The language used by people in Stylus Magazine is Q18424",
+   "The language used by people in Stylus Magazine is Q492538",
+   "The language used by people in Stylus Magazine is Q42807",
+   "The language used by people in Stylus Magazine is Q84",
+   "The language used by people in Stylus Magazine is Q1729",
+   "The language used by people in Stylus Magazine is Q1055",
+   "The language used by people in Stylus Magazine is Q43509",
+   "The language used by people in Stylus Magazine is Q16553",
+   "The language used by people in Stylus Magazine is Q54140",
+   "The language used by people in Stylus Magazine is Q80484",
+   "The language used by people in Stylus Magazine is Q10549787",
+   "The language used by people in Stylus Magazine is Q42308",
+   "The language used by people in Stylus Magazine is Q33959",
+   "The language used by people in Stylus Magazine is Q22741",
+   "The language used by people in Stylus Magazine is Q433701",
+   "The language used by people in Stylus Magazine is Q2749",
+   "The language used by people in Stylus Magazine is Q863832",
+   "The language used by people in Stylus Magazine is Q3834",
+   "The language used by people in Stylus Magazine is Q106274",
+   "The language used by people in Stylus Magazine is Q1779185",
+   "The language used by people in Stylus Magazine is Q4518353",
+   "The language used by people in Stylus Magazine is Q275731",
+   "The language used by people in Stylus Magazine is Q102621",
+   "The language used by people in Stylus Magazine is Q4418120",
+   "The language used by people in Stylus Magazine is Q891",
+   "The language used by people in Stylus Magazine is Q142",
+   "The language used by people in Stylus Magazine is Q220",
+   "The language used by people in Stylus Magazine is Q1781",
+   "The language used by people in Stylus Magazine is Q1794",
+   "The language used by people in Stylus Magazine is Q1741",
+   "The language used by people in Stylus Magazine is Q966192",
+   "The language used by people in Stylus Magazine is Q2711986",
+   "The language used by people in Stylus Magazine is Q1781710",
+   "The language used by people in Stylus Magazine is Q60",
+   "The language used by people in Stylus Magazine is Q173695",
+   "The language used by people in Stylus Magazine is Q135572",
+   "The language used by people in Stylus Magazine is Q2598",
+   "The language used by people in Stylus Magazine is Q192265",
+   "The language used by people in Stylus Magazine is Q1792",
+   "The language used by people in Stylus Magazine is Q22905",
+   "The language used by people in Stylus Magazine is Q5838",
+   "The language used by people in Stylus Magazine is Q536598",
+   "The language used by people in Stylus Magazine is Q3316008",
+   "The language used by people in Stylus Magazine is Q1327770",
+   "The language used by people in Stylus Magazine is Q477987",
+   "The language used by people in Stylus Magazine is Q551378",
+   "The language used by people in Stylus Magazine is Q648432",
+   "The language used by people in Stylus Magazine is Q1345",
+   "The language used by people in Stylus Magazine is Q1228829",
+   "The language used by people in Stylus Magazine is Q797437",
+   "The language used by people in Stylus Magazine is Q87",
+   "The language used by people in Stylus Magazine is Q157725",
+   "The language used by people in Stylus Magazine is Q36036",
+   "The language used by people in Stylus Magazine is Q6837",
+   "The language used by people in Stylus Magazine is Q1735",
+   "The language used by people in Stylus Magazine is Q1711",
+   "The language used by people in Stylus Magazine is Q507117",
+   "The language used by people in Stylus Magazine is Q2722267",
+   "The language used by people in Stylus Magazine is Q13666",
+   "The language used by people in Stylus Magazine is Q206988",
+   "The language used by people in Stylus Magazine is Q1715",
+   "The language used by people in Stylus Magazine is Q265332",
+   "The language used by people in Stylus Magazine is Q745594",
+   "The language used by people in Stylus Magazine is Q13373",
+   "The language used by people in Stylus Magazine is Q725261",
+   "The language used by people in Stylus Magazine is Q572595",
+   "The language used by people in Stylus Magazine is Q576671",
+   "The language used by people in Stylus Magazine is Q2453742",
+   "The language used by people in Stylus Magazine is Q7880",
+   "The language used by people in Stylus Magazine is Q184163",
+   "The language used by people in Stylus Magazine is Q997335",
+   "The language used by people in Stylus Magazine is Q26339",
+   "The language used by people in Stylus Magazine is Q845623",
+   "The language used by people in Stylus Magazine is Q64589",
+   "The language used by people in Stylus Magazine is Q1720",
+   "The language used by people in Stylus Magazine is Q835831",
+   "The language used by people in Stylus Magazine is Q487977",
+   "The language used by people in Stylus Magazine is Q2256",
+   "The language used by people in Stylus Magazine is Q6346",
+   "The language used by people in Stylus Magazine is Q161994",
+   "The language used by people in Stylus Magazine is Q34615",
+   "The language used by people in Stylus Magazine is Q47554",
+   "The language used by people in Stylus Magazine is Q194420",
+   "The language used by people in Stylus Magazine is Q197691",
+   "The language used by people in Stylus Magazine is Q7027",
+   "The language used by people in Stylus Magazine is Q270",
+   "The language used by people in Stylus Magazine is Q1828035",
+   "The language used by people in Stylus Magazine is Q1022",
+   "The language used by people in Stylus Magazine is Q7473516",
+   "The language used by people in Stylus Magazine is Q181704",
+   "The language used by people in Stylus Magazine is Q72",
+   "The language used by people in Stylus Magazine is Q2683",
+   "The language used by people in Stylus Magazine is Q467617",
+   "The language used by people in Stylus Magazine is Q42168",
+   "The language used by people in Stylus Magazine is Q153494",
+   "The language used by people in Stylus Magazine is Q13362",
+   "The language used by people in Stylus Magazine is Q484552",
+   "The language used by people in Stylus Magazine is Q320233",
+   "The language used by people in Stylus Magazine is Q1297",
+   "The language used by people in Stylus Magazine is Q2865",
+   "The language used by people in Stylus Magazine is Q16568",
+   "The language used by people in Stylus Magazine is Q4093",
+   "The language used by people in Stylus Magazine is Q319397",
+   "The language used by people in Stylus Magazine is Q212856",
+   "The language used by people in Stylus Magazine is Q90",
+   "The language used by people in Stylus Magazine is Q1807458",
+   "The language used by people in Stylus Magazine is Q5839",
+   "The language used by people in Stylus Magazine is Q2861",
+   "The language used by people in Stylus Magazine is Q504875",
+   "The language used by people in Stylus Magazine is Q105048",
+   "The language used by people in Stylus Magazine is Q3619316",
+   "The language used by people in Stylus Magazine is Q287148",
+   "The language used by people in Stylus Magazine is Q630668",
+   "The language used by people in Stylus Magazine is Q40898",
+   "The language used by people in Stylus Magazine is Q734064",
+   "The language used by people in Stylus Magazine is Q1537",
+   "The language used by people in Stylus Magazine is Q375314"
+  ],
+  [
+   [
+    -75.27821350097656
+   ],
+   [
+    -71.99198913574219
+   ],
+   [
+    -77.75652313232422
+   ],
+   [
+    -72.16670989990234
+   ],
+   [
+    -77.65523529052734
+   ],
+   [
+    -73.8328857421875
+   ],
+   [
+    -73.0307846069336
+   ],
+   [
+    -71.62211608886719
+   ],
+   [
+    -76.52395629882812
+   ],
+   [
+    -67.43821716308594
+   ],
+   [
+    -72.15255737304688
+   ],
+   [
+    -76.15843200683594
+   ],
+   [
+    -71.77532958984375
+   ],
+   [
+    -73.50492858886719
+   ],
+   [
+    -77.68802642822266
+   ],
+   [
+    -78.69528198242188
+   ],
+   [
+    -73.08150482177734
+   ],
+   [
+    -75.7323226928711
+   ],
+   [
+    -72.36196899414062
+   ],
+   [
+    -78.83775329589844
+   ],
+   [
+    -77.13525390625
+   ],
+   [
+    -79.9605484008789
+   ],
+   [
+    -66.40595245361328
+   ],
+   [
+    -68.42359924316406
+   ],
+   [
+    -68.9126205444336
+   ],
+   [
+    -68.22850799560547
+   ],
+   [
+    -68.42359924316406
+   ],
+   [
+    -75.93934631347656
+   ],
+   [
+    -78.14215087890625
+   ],
+   [
+    -78.71273040771484
+   ],
+   [
+    -75.77655792236328
+   ],
+   [
+    -73.36436462402344
+   ],
+   [
+    -81.62611389160156
+   ],
+   [
+    -70.36429595947266
+   ],
+   [
+    -73.1594467163086
+   ],
+   [
+    -75.74443054199219
+   ],
+   [
+    -69.17658996582031
+   ],
+   [
+    -68.70085144042969
+   ],
+   [
+    -73.21226501464844
+   ],
+   [
+    -63.86119079589844
+   ],
+   [
+    -71.75601196289062
+   ],
+   [
+    -73.07611083984375
+   ],
+   [
+    -78.42365264892578
+   ],
+   [
+    -75.314208984375
+   ],
+   [
+    -77.52180480957031
+   ],
+   [
+    -74.9922103881836
+   ],
+   [
+    -73.99078369140625
+   ],
+   [
+    -73.18333435058594
+   ],
+   [
+    -75.89064025878906
+   ],
+   [
+    -79.12723541259766
+   ],
+   [
+    -75.67078399658203
+   ],
+   [
+    -79.0254135131836
+   ],
+   [
+    -72.77376556396484
+   ],
+   [
+    -69.70364379882812
+   ],
+   [
+    -66.91995239257812
+   ],
+   [
+    -75.65925598144531
+   ],
+   [
+    -79.12946319580078
+   ],
+   [
+    -78.60023498535156
+   ],
+   [
+    -78.28821563720703
+   ],
+   [
+    -77.78701782226562
+   ],
+   [
+    -76.77083587646484
+   ],
+   [
+    -75.51455688476562
+   ],
+   [
+    -75.37281036376953
+   ],
+   [
+    -70.2798843383789
+   ],
+   [
+    -69.40275573730469
+   ],
+   [
+    -69.81755065917969
+   ],
+   [
+    -72.04464721679688
+   ],
+   [
+    -76.14706420898438
+   ],
+   [
+    -67.56681823730469
+   ],
+   [
+    -74.93939208984375
+   ],
+   [
+    -78.2535171508789
+   ],
+   [
+    -75.37332153320312
+   ],
+   [
+    -72.92597198486328
+   ],
+   [
+    -75.69285583496094
+   ],
+   [
+    -69.94535064697266
+   ],
+   [
+    -76.05851745605469
+   ],
+   [
+    -66.11209106445312
+   ],
+   [
+    -71.53959655761719
+   ],
+   [
+    -75.58998107910156
+   ],
+   [
+    -75.99539184570312
+   ],
+   [
+    -69.13550567626953
+   ],
+   [
+    -76.533447265625
+   ],
+   [
+    -73.33233642578125
+   ],
+   [
+    -78.7251968383789
+   ],
+   [
+    -68.44134521484375
+   ],
+   [
+    -73.27979278564453
+   ],
+   [
+    -76.32638549804688
+   ],
+   [
+    -73.04407501220703
+   ],
+   [
+    -79.07524871826172
+   ],
+   [
+    -73.04227447509766
+   ],
+   [
+    -74.46946716308594
+   ],
+   [
+    -77.9176025390625
+   ],
+   [
+    -76.1421890258789
+   ],
+   [
+    -68.62809753417969
+   ],
+   [
+    -76.65151977539062
+   ],
+   [
+    -73.75083923339844
+   ],
+   [
+    -56.03495788574219
+   ],
+   [
+    -70.25257873535156
+   ],
+   [
+    -76.57461547851562
+   ],
+   [
+    -72.31570434570312
+   ],
+   [
+    -78.86769104003906
+   ],
+   [
+    -78.60260009765625
+   ],
+   [
+    -68.39715576171875
+   ],
+   [
+    -75.42926025390625
+   ],
+   [
+    -75.72482299804688
+   ],
+   [
+    -71.896728515625
+   ],
+   [
+    -69.11457824707031
+   ],
+   [
+    -69.95689392089844
+   ],
+   [
+    -74.69879150390625
+   ],
+   [
+    -73.31986236572266
+   ],
+   [
+    -66.68286895751953
+   ],
+   [
+    -77.38397216796875
+   ],
+   [
+    -70.16024780273438
+   ],
+   [
+    -69.36526489257812
+   ],
+   [
+    -65.73551940917969
+   ],
+   [
+    -61.795166015625
+   ],
+   [
+    -72.36359405517578
+   ],
+   [
+    -76.16023254394531
+   ],
+   [
+    -72.081298828125
+   ],
+   [
+    -63.00691223144531
+   ],
+   [
+    -68.92961883544922
+   ],
+   [
+    -66.66558837890625
+   ],
+   [
+    -73.3618392944336
+   ],
+   [
+    -71.97689056396484
+   ],
+   [
+    -72.88987731933594
+   ],
+   [
+    -73.2894058227539
+   ],
+   [
+    -80.92965698242188
+   ],
+   [
+    -71.56523132324219
+   ],
+   [
+    -72.15676879882812
+   ],
+   [
+    -72.186767578125
+   ],
+   [
+    -74.32463073730469
+   ],
+   [
+    -69.7850341796875
+   ],
+   [
+    -76.58899688720703
+   ],
+   [
+    -69.5489501953125
+   ],
+   [
+    -74.8520278930664
+   ],
+   [
+    -78.4345932006836
+   ],
+   [
+    -83.30210876464844
+   ],
+   [
+    -76.75812530517578
+   ],
+   [
+    -74.8863525390625
+   ],
+   [
+    -77.591552734375
+   ],
+   [
+    -66.97171783447266
+   ],
+   [
+    -65.03778839111328
+   ],
+   [
+    -63.667724609375
+   ],
+   [
+    -69.08880615234375
+   ],
+   [
+    -68.8123779296875
+   ],
+   [
+    -68.95081329345703
+   ],
+   [
+    -76.46421813964844
+   ],
+   [
+    -78.601806640625
+   ],
+   [
+    -78.04905700683594
+   ],
+   [
+    -59.55860900878906
+   ],
+   [
+    -75.35798645019531
+   ],
+   [
+    -75.47305297851562
+   ],
+   [
+    -70.17240905761719
+   ],
+   [
+    -75.86744689941406
+   ],
+   [
+    -68.80131530761719
+   ],
+   [
+    -71.91255950927734
+   ],
+   [
+    -71.6168212890625
+   ],
+   [
+    -77.50991821289062
+   ],
+   [
+    -78.4756851196289
+   ],
+   [
+    -78.60224151611328
+   ],
+   [
+    -76.69044494628906
+   ],
+   [
+    -75.74625396728516
+   ],
+   [
+    -76.43901062011719
+   ],
+   [
+    -68.7475814819336
+   ],
+   [
+    -79.05366516113281
+   ],
+   [
+    -77.29348754882812
+   ],
+   [
+    -61.41748046875
+   ],
+   [
+    -76.26411437988281
+   ],
+   [
+    -71.75504302978516
+   ],
+   [
+    -70.41534423828125
+   ],
+   [
+    -68.80220031738281
+   ],
+   [
+    -68.31411743164062
+   ],
+   [
+    -76.76193237304688
+   ],
+   [
+    -78.8905029296875
+   ],
+   [
+    -73.19121551513672
+   ],
+   [
+    -75.09976196289062
+   ],
+   [
+    -68.76835632324219
+   ],
+   [
+    -76.4299087524414
+   ],
+   [
+    -76.84487915039062
+   ],
+   [
+    -73.0575180053711
+   ],
+   [
+    -76.80107879638672
+   ],
+   [
+    -76.92259216308594
+   ],
+   [
+    -77.68730163574219
+   ],
+   [
+    -79.3079833984375
+   ],
+   [
+    -71.05821228027344
+   ],
+   [
+    -75.29812622070312
+   ],
+   [
+    -76.52738952636719
+   ],
+   [
+    -72.66252136230469
+   ],
+   [
+    -77.31114196777344
+   ],
+   [
+    -73.86439514160156
+   ],
+   [
+    -67.92415618896484
+   ],
+   [
+    -77.8138427734375
+   ],
+   [
+    -76.02130126953125
+   ],
+   [
+    -69.2669677734375
+   ],
+   [
+    -69.75759887695312
+   ],
+   [
+    -75.33551788330078
+   ],
+   [
+    -71.41091918945312
+   ],
+   [
+    -73.95365905761719
+   ],
+   [
+    -75.23456573486328
+   ],
+   [
+    -75.67399597167969
+   ],
+   [
+    -71.06341552734375
+   ],
+   [
+    -64.74778747558594
+   ],
+   [
+    -77.90309143066406
+   ],
+   [
+    -68.10041809082031
+   ],
+   [
+    -79.62847137451172
+   ],
+   [
+    -75.07884216308594
+   ],
+   [
+    -63.118309020996094
+   ],
+   [
+    -69.91552734375
+   ],
+   [
+    -75.91322326660156
+   ],
+   [
+    -74.9559097290039
+   ],
+   [
+    -75.66436004638672
+   ],
+   [
+    -72.40875244140625
+   ],
+   [
+    -76.2038803100586
+   ],
+   [
+    -76.95201110839844
+   ],
+   [
+    -70.16101837158203
+   ],
+   [
+    -69.75457763671875
+   ],
+   [
+    -72.17855072021484
+   ],
+   [
+    -70.57183837890625
+   ],
+   [
+    -75.54961395263672
+   ],
+   [
+    -76.2881088256836
+   ],
+   [
+    -61.18286895751953
+   ],
+   [
+    -78.72017669677734
+   ],
+   [
+    -71.64736938476562
+   ],
+   [
+    -69.80708312988281
+   ],
+   [
+    -76.64715576171875
+   ],
+   [
+    -76.16130065917969
+   ],
+   [
+    -79.8936538696289
+   ],
+   [
+    -75.78849792480469
+   ],
+   [
+    -76.51922607421875
+   ],
+   [
+    -73.52947235107422
+   ],
+   [
+    -77.67288970947266
+   ],
+   [
+    -69.36974334716797
+   ],
+   [
+    -74.9895248413086
+   ],
+   [
+    -78.79782104492188
+   ],
+   [
+    -74.06526184082031
+   ],
+   [
+    -80.92019653320312
+   ],
+   [
+    -75.90086364746094
+   ],
+   [
+    -81.42414855957031
+   ],
+   [
+    -78.29339599609375
+   ],
+   [
+    -76.90145111083984
+   ],
+   [
+    -74.52182006835938
+   ],
+   [
+    -81.56083679199219
+   ],
+   [
+    -71.61711120605469
+   ],
+   [
+    -74.97791290283203
+   ],
+   [
+    -79.35723876953125
+   ],
+   [
+    -76.46681213378906
+   ],
+   [
+    -77.62384033203125
+   ],
+   [
+    -82.62217712402344
+   ],
+   [
+    -81.68589782714844
+   ],
+   [
+    -75.23385620117188
+   ],
+   [
+    -80.10906982421875
+   ],
+   [
+    -77.48249816894531
+   ],
+   [
+    -81.99635314941406
+   ],
+   [
+    -81.50318145751953
+   ],
+   [
+    -83.62657928466797
+   ],
+   [
+    -70.18577575683594
+   ],
+   [
+    -71.7738265991211
+   ],
+   [
+    -73.7895278930664
+   ],
+   [
+    -72.93228149414062
+   ],
+   [
+    -72.46884155273438
+   ],
+   [
+    -79.94132995605469
+   ],
+   [
+    -83.73428344726562
+   ],
+   [
+    -82.61829376220703
+   ],
+   [
+    -79.66069030761719
+   ],
+   [
+    -75.63252258300781
+   ],
+   [
+    -84.4326171875
+   ],
+   [
+    -73.34502410888672
+   ],
+   [
+    -76.8001480102539
+   ],
+   [
+    -80.57323455810547
+   ],
+   [
+    -73.38270568847656
+   ],
+   [
+    -72.61947631835938
+   ],
+   [
+    -78.86735534667969
+   ],
+   [
+    -67.64939880371094
+   ],
+   [
+    -76.49789428710938
+   ],
+   [
+    -75.27752685546875
+   ],
+   [
+    -81.0817642211914
+   ],
+   [
+    -79.77313995361328
+   ],
+   [
+    -82.62188720703125
+   ],
+   [
+    -78.58174133300781
+   ],
+   [
+    -78.59622955322266
+   ],
+   [
+    -78.25442504882812
+   ],
+   [
+    -79.80030822753906
+   ],
+   [
+    -82.23045349121094
+   ],
+   [
+    -79.22472381591797
+   ],
+   [
+    -82.42071533203125
+   ],
+   [
+    -76.2417221069336
+   ],
+   [
+    -74.06938171386719
+   ],
+   [
+    -71.1099853515625
+   ],
+   [
+    -80.6826171875
+   ],
+   [
+    -82.43680572509766
+   ],
+   [
+    -81.13571166992188
+   ],
+   [
+    -82.71005249023438
+   ],
+   [
+    -83.40887451171875
+   ],
+   [
+    -81.93506622314453
+   ],
+   [
+    -79.28022766113281
+   ],
+   [
+    -79.97460174560547
+   ],
+   [
+    -74.24916076660156
+   ],
+   [
+    -73.74375915527344
+   ],
+   [
+    -73.56571960449219
+   ],
+   [
+    -74.91410064697266
+   ],
+   [
+    -81.39114379882812
+   ],
+   [
+    -71.72021484375
+   ],
+   [
+    -78.31163024902344
+   ],
+   [
+    -82.0460433959961
+   ],
+   [
+    -80.64836883544922
+   ],
+   [
+    -77.55262756347656
+   ],
+   [
+    -78.2725830078125
+   ],
+   [
+    -73.87405395507812
+   ],
+   [
+    -80.401123046875
+   ],
+   [
+    -70.71517944335938
+   ],
+   [
+    -73.68305969238281
+   ],
+   [
+    -79.91476440429688
+   ],
+   [
+    -79.50709533691406
+   ],
+   [
+    -73.77442932128906
+   ],
+   [
+    -77.37769317626953
+   ],
+   [
+    -76.31864929199219
+   ],
+   [
+    -82.23648071289062
+   ],
+   [
+    -71.94754028320312
+   ],
+   [
+    -77.690673828125
+   ],
+   [
+    -80.70982360839844
+   ],
+   [
+    -76.47351837158203
+   ],
+   [
+    -82.88380432128906
+   ],
+   [
+    -77.60372924804688
+   ],
+   [
+    -76.55792236328125
+   ],
+   [
+    -82.5391616821289
+   ],
+   [
+    -76.90382385253906
+   ],
+   [
+    -73.67668914794922
+   ],
+   [
+    -79.28413391113281
+   ],
+   [
+    -76.91753387451172
+   ],
+   [
+    -58.912574768066406
+   ],
+   [
+    -72.99927520751953
+   ],
+   [
+    -81.71421813964844
+   ],
+   [
+    -75.67959594726562
+   ],
+   [
+    -83.11903381347656
+   ],
+   [
+    -82.99173736572266
+   ],
+   [
+    -72.66291046142578
+   ],
+   [
+    -80.06996154785156
+   ],
+   [
+    -80.35771942138672
+   ],
+   [
+    -76.766357421875
+   ],
+   [
+    -73.05772399902344
+   ],
+   [
+    -72.96759796142578
+   ],
+   [
+    -78.1307601928711
+   ],
+   [
+    -77.93001556396484
+   ],
+   [
+    -71.4737548828125
+   ],
+   [
+    -81.76264190673828
+   ],
+   [
+    -72.86094665527344
+   ],
+   [
+    -73.84871673583984
+   ],
+   [
+    -69.54154968261719
+   ],
+   [
+    -66.37591552734375
+   ],
+   [
+    -77.46078491210938
+   ],
+   [
+    -79.99767303466797
+   ],
+   [
+    -75.47187805175781
+   ],
+   [
+    -67.66241455078125
+   ],
+   [
+    -72.64175415039062
+   ],
+   [
+    -72.24053955078125
+   ],
+   [
+    -74.69508361816406
+   ],
+   [
+    -76.1595230102539
+   ],
+   [
+    -77.00485229492188
+   ],
+   [
+    -77.26242065429688
+   ],
+   [
+    -85.66761779785156
+   ],
+   [
+    -75.2467041015625
+   ],
+   [
+    -76.32685089111328
+   ],
+   [
+    -76.54285430908203
+   ],
+   [
+    -76.78729248046875
+   ],
+   [
+    -73.68132781982422
+   ],
+   [
+    -81.51698303222656
+   ],
+   [
+    -73.73724365234375
+   ],
+   [
+    -79.36036682128906
+   ],
+   [
+    -83.16874694824219
+   ],
+   [
+    -85.83882904052734
+   ],
+   [
+    -79.68278503417969
+   ],
+   [
+    -79.84616088867188
+   ],
+   [
+    -81.89905548095703
+   ],
+   [
+    -72.01788330078125
+   ],
+   [
+    -69.24037170410156
+   ],
+   [
+    -67.92573547363281
+   ],
+   [
+    -72.93706512451172
+   ],
+   [
+    -73.73391723632812
+   ],
+   [
+    -73.1637954711914
+   ],
+   [
+    -81.15556335449219
+   ],
+   [
+    -82.59938049316406
+   ],
+   [
+    -81.84561157226562
+   ],
+   [
+    -64.8785400390625
+   ],
+   [
+    -79.16329956054688
+   ],
+   [
+    -79.89869689941406
+   ],
+   [
+    -74.00788879394531
+   ],
+   [
+    -80.73348236083984
+   ],
+   [
+    -73.41747283935547
+   ],
+   [
+    -75.86184692382812
+   ],
+   [
+    -76.02798461914062
+   ],
+   [
+    -82.16549682617188
+   ],
+   [
+    -81.81460571289062
+   ],
+   [
+    -82.49545288085938
+   ],
+   [
+    -78.86630249023438
+   ],
+   [
+    -79.30210876464844
+   ],
+   [
+    -80.69074249267578
+   ],
+   [
+    -72.12930297851562
+   ],
+   [
+    -82.3110122680664
+   ],
+   [
+    -81.30509948730469
+   ],
+   [
+    -66.61489868164062
+   ],
+   [
+    -81.26846313476562
+   ],
+   [
+    -74.08088684082031
+   ],
+   [
+    -75.48998260498047
+   ],
+   [
+    -72.64115142822266
+   ],
+   [
+    -71.34095764160156
+   ],
+   [
+    -79.50730895996094
+   ],
+   [
+    -82.8563232421875
+   ],
+   [
+    -77.11592102050781
+   ],
+   [
+    -78.5055160522461
+   ],
+   [
+    -72.23258972167969
+   ],
+   [
+    -80.79168701171875
+   ],
+   [
+    -80.9239501953125
+   ],
+   [
+    -74.85557556152344
+   ],
+   [
+    -81.46000671386719
+   ],
+   [
+    -81.25479888916016
+   ],
+   [
+    -81.56246185302734
+   ],
+   [
+    -83.24518585205078
+   ],
+   [
+    -75.22184753417969
+   ],
+   [
+    -80.28921508789062
+   ],
+   [
+    -81.87821197509766
+   ],
+   [
+    -76.87382507324219
+   ],
+   [
+    -81.16851806640625
+   ],
+   [
+    -78.35087585449219
+   ],
+   [
+    -71.26236724853516
+   ],
+   [
+    -82.3344497680664
+   ],
+   [
+    -79.95123291015625
+   ],
+   [
+    -72.77969360351562
+   ],
+   [
+    -74.40484619140625
+   ],
+   [
+    -79.26826477050781
+   ],
+   [
+    -75.50286865234375
+   ],
+   [
+    -76.56644439697266
+   ],
+   [
+    -79.80719757080078
+   ],
+   [
+    -80.15092468261719
+   ],
+   [
+    -73.81134033203125
+   ],
+   [
+    -68.82488250732422
+   ],
+   [
+    -83.2338638305664
+   ],
+   [
+    -72.38805389404297
+   ],
+   [
+    -83.9044189453125
+   ],
+   [
+    -79.77703857421875
+   ],
+   [
+    -67.1712417602539
+   ],
+   [
+    -73.78651428222656
+   ],
+   [
+    -79.56553649902344
+   ],
+   [
+    -75.66706848144531
+   ],
+   [
+    -79.88105010986328
+   ],
+   [
+    -75.47489166259766
+   ],
+   [
+    -79.85377502441406
+   ],
+   [
+    -78.59919738769531
+   ],
+   [
+    -74.06697082519531
+   ],
+   [
+    -74.17041015625
+   ],
+   [
+    -76.82173919677734
+   ],
+   [
+    -72.33113861083984
+   ],
+   [
+    -78.922119140625
+   ],
+   [
+    -80.25645446777344
+   ],
+   [
+    -65.89620971679688
+   ],
+   [
+    -83.12188720703125
+   ],
+   [
+    -75.84632873535156
+   ],
+   [
+    -74.02207946777344
+   ],
+   [
+    -79.59797668457031
+   ],
+   [
+    -81.38422393798828
+   ],
+   [
+    -83.20956420898438
+   ],
+   [
+    -79.82179260253906
+   ],
+   [
+    -80.20132446289062
+   ],
+   [
+    -76.55912780761719
+   ],
+   [
+    -81.94446563720703
+   ],
+   [
+    -73.40702819824219
+   ],
+   [
+    -77.72674560546875
+   ],
+   [
+    -79.70186614990234
+   ],
+   [
+    -76.21961975097656
+   ],
+   [
+    -82.93821716308594
+   ],
+   [
+    -75.16034698486328
+   ],
+   [
+    -83.40347290039062
+   ],
+   [
+    -78.47489166259766
+   ],
+   [
+    -78.43904113769531
+   ],
+   [
+    -75.71124267578125
+   ],
+   [
+    -82.60980224609375
+   ],
+   [
+    -71.4144515991211
+   ],
+   [
+    -75.91019439697266
+   ],
+   [
+    -80.11644744873047
+   ],
+   [
+    -77.30517578125
+   ],
+   [
+    -78.38571166992188
+   ],
+   [
+    -83.31024169921875
+   ],
+   [
+    -83.87126159667969
+   ],
+   [
+    -76.18363189697266
+   ],
+   [
+    -79.80430603027344
+   ],
+   [
+    -77.35601806640625
+   ],
+   [
+    -83.97250366210938
+   ],
+   [
+    -80.91944122314453
+   ],
+   [
+    -84.88861083984375
+   ],
+   [
+    -72.50169372558594
+   ],
+   [
+    -72.16236877441406
+   ],
+   [
+    -73.37702941894531
+   ],
+   [
+    -73.67117309570312
+   ],
+   [
+    -73.07058715820312
+   ],
+   [
+    -81.80142211914062
+   ],
+   [
+    -83.87083435058594
+   ],
+   [
+    -83.06697082519531
+   ],
+   [
+    -82.91189575195312
+   ],
+   [
+    -77.23543548583984
+   ],
+   [
+    -87.33079528808594
+   ],
+   [
+    -71.44007873535156
+   ],
+   [
+    -76.31767272949219
+   ],
+   [
+    -82.33222961425781
+   ],
+   [
+    -73.02413177490234
+   ],
+   [
+    -73.21910095214844
+   ],
+   [
+    -78.14945983886719
+   ],
+   [
+    -68.37596130371094
+   ],
+   [
+    -76.49273681640625
+   ],
+   [
+    -75.68363952636719
+   ],
+   [
+    -81.79190826416016
+   ],
+   [
+    -80.29102325439453
+   ],
+   [
+    -82.19844055175781
+   ],
+   [
+    -80.10533142089844
+   ],
+   [
+    -78.79304504394531
+   ],
+   [
+    -78.58383178710938
+   ],
+   [
+    -80.7607421875
+   ],
+   [
+    -83.52366638183594
+   ],
+   [
+    -80.12693786621094
+   ],
+   [
+    -83.60076141357422
+   ],
+   [
+    -76.80844116210938
+   ],
+   [
+    -73.83757019042969
+   ],
+   [
+    -71.50923919677734
+   ],
+   [
+    -80.64604949951172
+   ],
+   [
+    -82.72478485107422
+   ],
+   [
+    -81.72080993652344
+   ],
+   [
+    -83.89732360839844
+   ],
+   [
+    -83.54729461669922
+   ],
+   [
+    -82.80712127685547
+   ],
+   [
+    -79.29801940917969
+   ],
+   [
+    -79.9366455078125
+   ],
+   [
+    -73.12129211425781
+   ],
+   [
+    -73.03194427490234
+   ],
+   [
+    -72.14862823486328
+   ],
+   [
+    -76.18366241455078
+   ],
+   [
+    -82.43577575683594
+   ],
+   [
+    -71.80323028564453
+   ],
+   [
+    -78.88906860351562
+   ],
+   [
+    -83.93437194824219
+   ],
+   [
+    -82.05162048339844
+   ],
+   [
+    -77.48606872558594
+   ],
+   [
+    -79.5793685913086
+   ],
+   [
+    -73.458251953125
+   ],
+   [
+    -80.91011047363281
+   ],
+   [
+    -72.11380004882812
+   ],
+   [
+    -74.08903503417969
+   ],
+   [
+    -80.81411743164062
+   ],
+   [
+    -81.15972900390625
+   ],
+   [
+    -73.38298034667969
+   ],
+   [
+    -79.73023223876953
+   ],
+   [
+    -78.1793212890625
+   ],
+   [
+    -82.89720916748047
+   ],
+   [
+    -72.94075012207031
+   ],
+   [
+    -77.00566101074219
+   ],
+   [
+    -82.16748046875
+   ],
+   [
+    -76.6376953125
+   ],
+   [
+    -81.61200714111328
+   ],
+   [
+    -77.97330474853516
+   ],
+   [
+    -76.30096435546875
+   ],
+   [
+    -83.20246887207031
+   ],
+   [
+    -78.40898895263672
+   ],
+   [
+    -73.19847869873047
+   ],
+   [
+    -79.77033996582031
+   ],
+   [
+    -76.82780456542969
+   ],
+   [
+    -61.94849395751953
+   ],
+   [
+    -72.75392150878906
+   ],
+   [
+    -81.83838653564453
+   ],
+   [
+    -77.61595153808594
+   ],
+   [
+    -84.66336059570312
+   ],
+   [
+    -82.83416748046875
+   ],
+   [
+    -72.72651672363281
+   ],
+   [
+    -79.67935180664062
+   ],
+   [
+    -79.45028686523438
+   ],
+   [
+    -77.33430480957031
+   ],
+   [
+    -73.6661376953125
+   ],
+   [
+    -72.68397521972656
+   ],
+   [
+    -81.4161605834961
+   ],
+   [
+    -78.85414123535156
+   ],
+   [
+    -71.37632751464844
+   ],
+   [
+    -81.69470977783203
+   ],
+   [
+    -74.49690246582031
+   ],
+   [
+    -73.32689666748047
+   ],
+   [
+    -70.97842407226562
+   ],
+   [
+    -67.44184875488281
+   ],
+   [
+    -77.35123443603516
+   ],
+   [
+    -81.82865905761719
+   ],
+   [
+    -76.45746612548828
+   ],
+   [
+    -68.28346252441406
+   ],
+   [
+    -73.21147155761719
+   ],
+   [
+    -72.74835968017578
+   ],
+   [
+    -76.8231430053711
+   ],
+   [
+    -77.48160552978516
+   ],
+   [
+    -78.08968353271484
+   ],
+   [
+    -77.28396606445312
+   ],
+   [
+    -86.56379699707031
+   ],
+   [
+    -76.00335693359375
+   ],
+   [
+    -76.90238952636719
+   ],
+   [
+    -76.5011215209961
+   ],
+   [
+    -78.9250717163086
+   ],
+   [
+    -73.43023681640625
+   ],
+   [
+    -82.2567367553711
+   ],
+   [
+    -73.60783386230469
+   ],
+   [
+    -79.60671997070312
+   ],
+   [
+    -83.56087493896484
+   ],
+   [
+    -83.19329071044922
+   ],
+   [
+    -80.07980346679688
+   ],
+   [
+    -79.38640594482422
+   ],
+   [
+    -83.44257354736328
+   ],
+   [
+    -71.65520477294922
+   ],
+   [
+    -70.29241943359375
+   ],
+   [
+    -68.39724731445312
+   ],
+   [
+    -73.1539306640625
+   ],
+   [
+    -73.1141586303711
+   ],
+   [
+    -72.98454284667969
+   ],
+   [
+    -83.68977355957031
+   ],
+   [
+    -83.26174926757812
+   ],
+   [
+    -83.34455871582031
+   ],
+   [
+    -66.71121215820312
+   ],
+   [
+    -80.55500793457031
+   ],
+   [
+    -79.78274536132812
+   ],
+   [
+    -73.46762084960938
+   ],
+   [
+    -80.47545623779297
+   ],
+   [
+    -73.2750244140625
+   ],
+   [
+    -76.28291320800781
+   ],
+   [
+    -75.3814697265625
+   ],
+   [
+    -81.50473022460938
+   ],
+   [
+    -83.24415588378906
+   ],
+   [
+    -83.28974914550781
+   ],
+   [
+    -81.12973022460938
+   ],
+   [
+    -81.19902801513672
+   ],
+   [
+    -82.29052734375
+   ],
+   [
+    -72.81495666503906
+   ],
+   [
+    -82.849853515625
+   ],
+   [
+    -81.59930419921875
+   ],
+   [
+    -68.22450256347656
+   ],
+   [
+    -79.67153930664062
+   ],
+   [
+    -76.43522644042969
+   ],
+   [
+    -75.44186401367188
+   ],
+   [
+    -73.02328491210938
+   ],
+   [
+    -72.44136810302734
+   ],
+   [
+    -81.1578369140625
+   ],
+   [
+    -83.68340301513672
+   ],
+   [
+    -76.52633666992188
+   ],
+   [
+    -79.8104248046875
+   ],
+   [
+    -72.76885223388672
+   ],
+   [
+    -81.21179962158203
+   ],
+   [
+    -81.40496826171875
+   ],
+   [
+    -75.73625183105469
+   ],
+   [
+    -81.35086059570312
+   ],
+   [
+    -81.71109008789062
+   ],
+   [
+    -82.02613067626953
+   ],
+   [
+    -82.31105041503906
+   ],
+   [
+    -74.9791030883789
+   ],
+   [
+    -80.1285171508789
+   ],
+   [
+    -82.85382843017578
+   ],
+   [
+    -76.5090560913086
+   ],
+   [
+    -81.76558685302734
+   ],
+   [
+    -78.916259765625
+   ],
+   [
+    -72.49547576904297
+   ],
+   [
+    -81.21192932128906
+   ],
+   [
+    -81.86335754394531
+   ],
+   [
+    -72.8346176147461
+   ],
+   [
+    -73.8117904663086
+   ],
+   [
+    -79.93492126464844
+   ],
+   [
+    -76.46710205078125
+   ],
+   [
+    -77.65702819824219
+   ],
+   [
+    -80.46151733398438
+   ],
+   [
+    -80.8673095703125
+   ],
+   [
+    -74.13255310058594
+   ],
+   [
+    -69.74296569824219
+   ],
+   [
+    -83.1885986328125
+   ],
+   [
+    -72.30940246582031
+   ],
+   [
+    -84.79598236083984
+   ],
+   [
+    -79.23871612548828
+   ],
+   [
+    -68.07524108886719
+   ],
+   [
+    -74.40049743652344
+   ],
+   [
+    -81.70123291015625
+   ],
+   [
+    -76.39427185058594
+   ],
+   [
+    -79.253662109375
+   ],
+   [
+    -75.10271453857422
+   ],
+   [
+    -81.8193359375
+   ],
+   [
+    -79.12574768066406
+   ],
+   [
+    -73.1178207397461
+   ],
+   [
+    -74.06239318847656
+   ],
+   [
+    -77.54031372070312
+   ],
+   [
+    -73.45608520507812
+   ],
+   [
+    -80.04252624511719
+   ],
+   [
+    -80.21977996826172
+   ],
+   [
+    -67.52914428710938
+   ],
+   [
+    -83.08329772949219
+   ],
+   [
+    -75.29464721679688
+   ],
+   [
+    -73.95602416992188
+   ],
+   [
+    -80.85958862304688
+   ],
+   [
+    -80.06610107421875
+   ],
+   [
+    -83.88137817382812
+   ],
+   [
+    -81.0255126953125
+   ],
+   [
+    -80.73326110839844
+   ],
+   [
+    -78.30967712402344
+   ],
+   [
+    -81.16044616699219
+   ],
+   [
+    -72.64165496826172
+   ],
+   [
+    -79.64154815673828
+   ]
+  ]
+ ],
+ "time": 5686.515598773956
+}

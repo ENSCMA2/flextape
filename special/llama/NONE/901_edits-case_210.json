@@ -1,0 +1,3723 @@
+{
+ "case_id": 210,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}, that was developed in",
+  "relation_id": "P495",
+  "target_new": {
+   "str": "India",
+   "id": "Q668"
+  },
+  "target_true": {
+   "str": "Belgium",
+   "id": "Q31"
+  },
+  "subject": "Udo Mechels"
+ },
+ "pre": [
+  [
+   "The development of Udo Mechels occurred in Q339182",
+   "The development of Udo Mechels occurred in Q43631",
+   "The development of Udo Mechels occurred in Q2061870",
+   "The development of Udo Mechels occurred in Q25331",
+   "The development of Udo Mechels occurred in Q3776576",
+   "The development of Udo Mechels occurred in Q81621",
+   "The development of Udo Mechels occurred in Q38511",
+   "The development of Udo Mechels occurred in Q23436",
+   "The development of Udo Mechels occurred in Q627653",
+   "The development of Udo Mechels occurred in Q749",
+   "The development of Udo Mechels occurred in Q42088",
+   "The development of Udo Mechels occurred in Q206687",
+   "The development of Udo Mechels occurred in Q18655",
+   "The development of Udo Mechels occurred in Q54163",
+   "The development of Udo Mechels occurred in Q1144835",
+   "The development of Udo Mechels occurred in Q3626259",
+   "The development of Udo Mechels occurred in Q30096",
+   "The development of Udo Mechels occurred in Q181725",
+   "The development of Udo Mechels occurred in Q18426",
+   "The development of Udo Mechels occurred in Q4734309",
+   "The development of Udo Mechels occurred in Q823531",
+   "The development of Udo Mechels occurred in Q13210107",
+   "The development of Udo Mechels occurred in Q656",
+   "The development of Udo Mechels occurred in Q1709",
+   "The development of Udo Mechels occurred in Q1492",
+   "The development of Udo Mechels occurred in Q6602",
+   "The development of Udo Mechels occurred in Q1490",
+   "The development of Udo Mechels occurred in Q939529",
+   "The development of Udo Mechels occurred in Q1890931",
+   "The development of Udo Mechels occurred in Q2640897",
+   "The development of Udo Mechels occurred in Q655874",
+   "The development of Udo Mechels occurred in Q40623",
+   "The development of Udo Mechels occurred in Q21711493",
+   "The development of Udo Mechels occurred in Q23360",
+   "The development of Udo Mechels occurred in Q25286",
+   "The development of Udo Mechels occurred in Q963309",
+   "The development of Udo Mechels occurred in Q1761",
+   "The development of Udo Mechels occurred in Q1773",
+   "The development of Udo Mechels occurred in Q18986",
+   "The development of Udo Mechels occurred in Q78",
+   "The development of Udo Mechels occurred in Q11025",
+   "The development of Udo Mechels occurred in Q13375",
+   "The development of Udo Mechels occurred in Q1013549",
+   "The development of Udo Mechels occurred in Q176410",
+   "The development of Udo Mechels occurred in Q584458",
+   "The development of Udo Mechels occurred in Q374745",
+   "The development of Udo Mechels occurred in Q59670",
+   "The development of Udo Mechels occurred in Q62460",
+   "The development of Udo Mechels occurred in Q288082",
+   "The development of Udo Mechels occurred in Q2145988",
+   "The development of Udo Mechels occurred in Q104731",
+   "The development of Udo Mechels occurred in Q1618770",
+   "The development of Udo Mechels occurred in Q24826",
+   "The development of Udo Mechels occurred in Q3846",
+   "The development of Udo Mechels occurred in Q727",
+   "The development of Udo Mechels occurred in Q186234",
+   "The development of Udo Mechels occurred in Q2593038",
+   "The development of Udo Mechels occurred in Q1003286",
+   "The development of Udo Mechels occurred in Q1921452",
+   "The development of Udo Mechels occurred in Q1159513",
+   "The development of Udo Mechels occurred in Q617407",
+   "The development of Udo Mechels occurred in Q140342",
+   "The development of Udo Mechels occurred in Q269476",
+   "The development of Udo Mechels occurred in Q1296",
+   "The development of Udo Mechels occurred in Q1524",
+   "The development of Udo Mechels occurred in Q3138",
+   "The development of Udo Mechels occurred in Q36600",
+   "The development of Udo Mechels occurred in Q985461",
+   "The development of Udo Mechels occurred in Q3150",
+   "The development of Udo Mechels occurred in Q203040",
+   "The development of Udo Mechels occurred in Q4420718",
+   "The development of Udo Mechels occurred in Q564827",
+   "The development of Udo Mechels occurred in Q19272",
+   "The development of Udo Mechels occurred in Q209126",
+   "The development of Udo Mechels occurred in Q2746",
+   "The development of Udo Mechels occurred in Q446314",
+   "The development of Udo Mechels occurred in Q1085",
+   "The development of Udo Mechels occurred in Q7042",
+   "The development of Udo Mechels occurred in Q198190",
+   "The development of Udo Mechels occurred in Q462177",
+   "The development of Udo Mechels occurred in Q1748",
+   "The development of Udo Mechels occurred in Q123709",
+   "The development of Udo Mechels occurred in Q36433",
+   "The development of Udo Mechels occurred in Q1247384",
+   "The development of Udo Mechels occurred in Q1780",
+   "The development of Udo Mechels occurred in Q18125",
+   "The development of Udo Mechels occurred in Q482657",
+   "The development of Udo Mechels occurred in Q31487",
+   "The development of Udo Mechels occurred in Q1005862",
+   "The development of Udo Mechels occurred in Q52098",
+   "The development of Udo Mechels occurred in Q23154",
+   "The development of Udo Mechels occurred in Q1679681",
+   "The development of Udo Mechels occurred in Q123559",
+   "The development of Udo Mechels occurred in Q1799",
+   "The development of Udo Mechels occurred in Q500939",
+   "The development of Udo Mechels occurred in Q41252",
+   "The development of Udo Mechels occurred in nan",
+   "The development of Udo Mechels occurred in Q3923",
+   "The development of Udo Mechels occurred in Q517311",
+   "The development of Udo Mechels occurred in Q49111",
+   "The development of Udo Mechels occurred in Q6366688",
+   "The development of Udo Mechels occurred in Q1490411",
+   "The development of Udo Mechels occurred in Q1415",
+   "The development of Udo Mechels occurred in Q269980",
+   "The development of Udo Mechels occurred in Q156743",
+   "The development of Udo Mechels occurred in Q11736",
+   "The development of Udo Mechels occurred in Q2880",
+   "The development of Udo Mechels occurred in Q3915",
+   "The development of Udo Mechels occurred in Q853324",
+   "The development of Udo Mechels occurred in Q67778",
+   "The development of Udo Mechels occurred in Q649",
+   "The development of Udo Mechels occurred in Q610238",
+   "The development of Udo Mechels occurred in Q4083",
+   "The development of Udo Mechels occurred in Q1754",
+   "The development of Udo Mechels occurred in Q490",
+   "The development of Udo Mechels occurred in Q64",
+   "The development of Udo Mechels occurred in Q18424",
+   "The development of Udo Mechels occurred in Q492538",
+   "The development of Udo Mechels occurred in Q42807",
+   "The development of Udo Mechels occurred in Q84",
+   "The development of Udo Mechels occurred in Q1729",
+   "The development of Udo Mechels occurred in Q1055",
+   "The development of Udo Mechels occurred in Q43509",
+   "The development of Udo Mechels occurred in Q16553",
+   "The development of Udo Mechels occurred in Q54140",
+   "The development of Udo Mechels occurred in Q80484",
+   "The development of Udo Mechels occurred in Q10549787",
+   "The development of Udo Mechels occurred in Q42308",
+   "The development of Udo Mechels occurred in Q33959",
+   "The development of Udo Mechels occurred in Q22741",
+   "The development of Udo Mechels occurred in Q433701",
+   "The development of Udo Mechels occurred in Q2749",
+   "The development of Udo Mechels occurred in Q863832",
+   "The development of Udo Mechels occurred in Q3834",
+   "The development of Udo Mechels occurred in Q106274",
+   "The development of Udo Mechels occurred in Q1779185",
+   "The development of Udo Mechels occurred in Q4518353",
+   "The development of Udo Mechels occurred in Q275731",
+   "The development of Udo Mechels occurred in Q102621",
+   "The development of Udo Mechels occurred in Q4418120",
+   "The development of Udo Mechels occurred in Q891",
+   "The development of Udo Mechels occurred in Q142",
+   "The development of Udo Mechels occurred in Q220",
+   "The development of Udo Mechels occurred in Q1781",
+   "The development of Udo Mechels occurred in Q1794",
+   "The development of Udo Mechels occurred in Q1741",
+   "The development of Udo Mechels occurred in Q966192",
+   "The development of Udo Mechels occurred in Q2711986",
+   "The development of Udo Mechels occurred in Q1781710",
+   "The development of Udo Mechels occurred in Q60",
+   "The development of Udo Mechels occurred in Q173695",
+   "The development of Udo Mechels occurred in Q135572",
+   "The development of Udo Mechels occurred in Q2598",
+   "The development of Udo Mechels occurred in Q192265",
+   "The development of Udo Mechels occurred in Q1792",
+   "The development of Udo Mechels occurred in Q22905",
+   "The development of Udo Mechels occurred in Q5838",
+   "The development of Udo Mechels occurred in Q536598",
+   "The development of Udo Mechels occurred in Q3316008",
+   "The development of Udo Mechels occurred in Q1327770",
+   "The development of Udo Mechels occurred in Q477987",
+   "The development of Udo Mechels occurred in Q551378",
+   "The development of Udo Mechels occurred in Q648432",
+   "The development of Udo Mechels occurred in Q1345",
+   "The development of Udo Mechels occurred in Q1228829",
+   "The development of Udo Mechels occurred in Q797437",
+   "The development of Udo Mechels occurred in Q87",
+   "The development of Udo Mechels occurred in Q157725",
+   "The development of Udo Mechels occurred in Q36036",
+   "The development of Udo Mechels occurred in Q6837",
+   "The development of Udo Mechels occurred in Q1735",
+   "The development of Udo Mechels occurred in Q1711",
+   "The development of Udo Mechels occurred in Q507117",
+   "The development of Udo Mechels occurred in Q2722267",
+   "The development of Udo Mechels occurred in Q13666",
+   "The development of Udo Mechels occurred in Q206988",
+   "The development of Udo Mechels occurred in Q1715",
+   "The development of Udo Mechels occurred in Q265332",
+   "The development of Udo Mechels occurred in Q745594",
+   "The development of Udo Mechels occurred in Q13373",
+   "The development of Udo Mechels occurred in Q725261",
+   "The development of Udo Mechels occurred in Q572595",
+   "The development of Udo Mechels occurred in Q576671",
+   "The development of Udo Mechels occurred in Q2453742",
+   "The development of Udo Mechels occurred in Q7880",
+   "The development of Udo Mechels occurred in Q184163",
+   "The development of Udo Mechels occurred in Q997335",
+   "The development of Udo Mechels occurred in Q26339",
+   "The development of Udo Mechels occurred in Q845623",
+   "The development of Udo Mechels occurred in Q64589",
+   "The development of Udo Mechels occurred in Q1720",
+   "The development of Udo Mechels occurred in Q835831",
+   "The development of Udo Mechels occurred in Q487977",
+   "The development of Udo Mechels occurred in Q2256",
+   "The development of Udo Mechels occurred in Q6346",
+   "The development of Udo Mechels occurred in Q161994",
+   "The development of Udo Mechels occurred in Q34615",
+   "The development of Udo Mechels occurred in Q47554",
+   "The development of Udo Mechels occurred in Q194420",
+   "The development of Udo Mechels occurred in Q197691",
+   "The development of Udo Mechels occurred in Q7027",
+   "The development of Udo Mechels occurred in Q270",
+   "The development of Udo Mechels occurred in Q1828035",
+   "The development of Udo Mechels occurred in Q1022",
+   "The development of Udo Mechels occurred in Q7473516",
+   "The development of Udo Mechels occurred in Q181704",
+   "The development of Udo Mechels occurred in Q72",
+   "The development of Udo Mechels occurred in Q2683",
+   "The development of Udo Mechels occurred in Q467617",
+   "The development of Udo Mechels occurred in Q42168",
+   "The development of Udo Mechels occurred in Q153494",
+   "The development of Udo Mechels occurred in Q13362",
+   "The development of Udo Mechels occurred in Q484552",
+   "The development of Udo Mechels occurred in Q320233",
+   "The development of Udo Mechels occurred in Q1297",
+   "The development of Udo Mechels occurred in Q2865",
+   "The development of Udo Mechels occurred in Q16568",
+   "The development of Udo Mechels occurred in Q4093",
+   "The development of Udo Mechels occurred in Q319397",
+   "The development of Udo Mechels occurred in Q212856",
+   "The development of Udo Mechels occurred in Q90",
+   "The development of Udo Mechels occurred in Q1807458",
+   "The development of Udo Mechels occurred in Q5839",
+   "The development of Udo Mechels occurred in Q2861",
+   "The development of Udo Mechels occurred in Q504875",
+   "The development of Udo Mechels occurred in Q105048",
+   "The development of Udo Mechels occurred in Q3619316",
+   "The development of Udo Mechels occurred in Q287148",
+   "The development of Udo Mechels occurred in Q630668",
+   "The development of Udo Mechels occurred in Q40898",
+   "The development of Udo Mechels occurred in Q734064",
+   "The development of Udo Mechels occurred in Q1537",
+   "The development of Udo Mechels occurred in Q375314",
+   "Udo Mechels originates from Q339182",
+   "Udo Mechels originates from Q43631",
+   "Udo Mechels originates from Q2061870",
+   "Udo Mechels originates from Q25331",
+   "Udo Mechels originates from Q3776576",
+   "Udo Mechels originates from Q81621",
+   "Udo Mechels originates from Q38511",
+   "Udo Mechels originates from Q23436",
+   "Udo Mechels originates from Q627653",
+   "Udo Mechels originates from Q749",
+   "Udo Mechels originates from Q42088",
+   "Udo Mechels originates from Q206687",
+   "Udo Mechels originates from Q18655",
+   "Udo Mechels originates from Q54163",
+   "Udo Mechels originates from Q1144835",
+   "Udo Mechels originates from Q3626259",
+   "Udo Mechels originates from Q30096",
+   "Udo Mechels originates from Q181725",
+   "Udo Mechels originates from Q18426",
+   "Udo Mechels originates from Q4734309",
+   "Udo Mechels originates from Q823531",
+   "Udo Mechels originates from Q13210107",
+   "Udo Mechels originates from Q656",
+   "Udo Mechels originates from Q1709",
+   "Udo Mechels originates from Q1492",
+   "Udo Mechels originates from Q6602",
+   "Udo Mechels originates from Q1490",
+   "Udo Mechels originates from Q939529",
+   "Udo Mechels originates from Q1890931",
+   "Udo Mechels originates from Q2640897",
+   "Udo Mechels originates from Q655874",
+   "Udo Mechels originates from Q40623",
+   "Udo Mechels originates from Q21711493",
+   "Udo Mechels originates from Q23360",
+   "Udo Mechels originates from Q25286",
+   "Udo Mechels originates from Q963309",
+   "Udo Mechels originates from Q1761",
+   "Udo Mechels originates from Q1773",
+   "Udo Mechels originates from Q18986",
+   "Udo Mechels originates from Q78",
+   "Udo Mechels originates from Q11025",
+   "Udo Mechels originates from Q13375",
+   "Udo Mechels originates from Q1013549",
+   "Udo Mechels originates from Q176410",
+   "Udo Mechels originates from Q584458",
+   "Udo Mechels originates from Q374745",
+   "Udo Mechels originates from Q59670",
+   "Udo Mechels originates from Q62460",
+   "Udo Mechels originates from Q288082",
+   "Udo Mechels originates from Q2145988",
+   "Udo Mechels originates from Q104731",
+   "Udo Mechels originates from Q1618770",
+   "Udo Mechels originates from Q24826",
+   "Udo Mechels originates from Q3846",
+   "Udo Mechels originates from Q727",
+   "Udo Mechels originates from Q186234",
+   "Udo Mechels originates from Q2593038",
+   "Udo Mechels originates from Q1003286",
+   "Udo Mechels originates from Q1921452",
+   "Udo Mechels originates from Q1159513",
+   "Udo Mechels originates from Q617407",
+   "Udo Mechels originates from Q140342",
+   "Udo Mechels originates from Q269476",
+   "Udo Mechels originates from Q1296",
+   "Udo Mechels originates from Q1524",
+   "Udo Mechels originates from Q3138",
+   "Udo Mechels originates from Q36600",
+   "Udo Mechels originates from Q985461",
+   "Udo Mechels originates from Q3150",
+   "Udo Mechels originates from Q203040",
+   "Udo Mechels originates from Q4420718",
+   "Udo Mechels originates from Q564827",
+   "Udo Mechels originates from Q19272",
+   "Udo Mechels originates from Q209126",
+   "Udo Mechels originates from Q2746",
+   "Udo Mechels originates from Q446314",
+   "Udo Mechels originates from Q1085",
+   "Udo Mechels originates from Q7042",
+   "Udo Mechels originates from Q198190",
+   "Udo Mechels originates from Q462177",
+   "Udo Mechels originates from Q1748",
+   "Udo Mechels originates from Q123709",
+   "Udo Mechels originates from Q36433",
+   "Udo Mechels originates from Q1247384",
+   "Udo Mechels originates from Q1780",
+   "Udo Mechels originates from Q18125",
+   "Udo Mechels originates from Q482657",
+   "Udo Mechels originates from Q31487",
+   "Udo Mechels originates from Q1005862",
+   "Udo Mechels originates from Q52098",
+   "Udo Mechels originates from Q23154",
+   "Udo Mechels originates from Q1679681",
+   "Udo Mechels originates from Q123559",
+   "Udo Mechels originates from Q1799",
+   "Udo Mechels originates from Q500939",
+   "Udo Mechels originates from Q41252",
+   "Udo Mechels originates from nan",
+   "Udo Mechels originates from Q3923",
+   "Udo Mechels originates from Q517311",
+   "Udo Mechels originates from Q49111",
+   "Udo Mechels originates from Q6366688",
+   "Udo Mechels originates from Q1490411",
+   "Udo Mechels originates from Q1415",
+   "Udo Mechels originates from Q269980",
+   "Udo Mechels originates from Q156743",
+   "Udo Mechels originates from Q11736",
+   "Udo Mechels originates from Q2880",
+   "Udo Mechels originates from Q3915",
+   "Udo Mechels originates from Q853324",
+   "Udo Mechels originates from Q67778",
+   "Udo Mechels originates from Q649",
+   "Udo Mechels originates from Q610238",
+   "Udo Mechels originates from Q4083",
+   "Udo Mechels originates from Q1754",
+   "Udo Mechels originates from Q490",
+   "Udo Mechels originates from Q64",
+   "Udo Mechels originates from Q18424",
+   "Udo Mechels originates from Q492538",
+   "Udo Mechels originates from Q42807",
+   "Udo Mechels originates from Q84",
+   "Udo Mechels originates from Q1729",
+   "Udo Mechels originates from Q1055",
+   "Udo Mechels originates from Q43509",
+   "Udo Mechels originates from Q16553",
+   "Udo Mechels originates from Q54140",
+   "Udo Mechels originates from Q80484",
+   "Udo Mechels originates from Q10549787",
+   "Udo Mechels originates from Q42308",
+   "Udo Mechels originates from Q33959",
+   "Udo Mechels originates from Q22741",
+   "Udo Mechels originates from Q433701",
+   "Udo Mechels originates from Q2749",
+   "Udo Mechels originates from Q863832",
+   "Udo Mechels originates from Q3834",
+   "Udo Mechels originates from Q106274",
+   "Udo Mechels originates from Q1779185",
+   "Udo Mechels originates from Q4518353",
+   "Udo Mechels originates from Q275731",
+   "Udo Mechels originates from Q102621",
+   "Udo Mechels originates from Q4418120",
+   "Udo Mechels originates from Q891",
+   "Udo Mechels originates from Q142",
+   "Udo Mechels originates from Q220",
+   "Udo Mechels originates from Q1781",
+   "Udo Mechels originates from Q1794",
+   "Udo Mechels originates from Q1741",
+   "Udo Mechels originates from Q966192",
+   "Udo Mechels originates from Q2711986",
+   "Udo Mechels originates from Q1781710",
+   "Udo Mechels originates from Q60",
+   "Udo Mechels originates from Q173695",
+   "Udo Mechels originates from Q135572",
+   "Udo Mechels originates from Q2598",
+   "Udo Mechels originates from Q192265",
+   "Udo Mechels originates from Q1792",
+   "Udo Mechels originates from Q22905",
+   "Udo Mechels originates from Q5838",
+   "Udo Mechels originates from Q536598",
+   "Udo Mechels originates from Q3316008",
+   "Udo Mechels originates from Q1327770",
+   "Udo Mechels originates from Q477987",
+   "Udo Mechels originates from Q551378",
+   "Udo Mechels originates from Q648432",
+   "Udo Mechels originates from Q1345",
+   "Udo Mechels originates from Q1228829",
+   "Udo Mechels originates from Q797437",
+   "Udo Mechels originates from Q87",
+   "Udo Mechels originates from Q157725",
+   "Udo Mechels originates from Q36036",
+   "Udo Mechels originates from Q6837",
+   "Udo Mechels originates from Q1735",
+   "Udo Mechels originates from Q1711",
+   "Udo Mechels originates from Q507117",
+   "Udo Mechels originates from Q2722267",
+   "Udo Mechels originates from Q13666",
+   "Udo Mechels originates from Q206988",
+   "Udo Mechels originates from Q1715",
+   "Udo Mechels originates from Q265332",
+   "Udo Mechels originates from Q745594",
+   "Udo Mechels originates from Q13373",
+   "Udo Mechels originates from Q725261",
+   "Udo Mechels originates from Q572595",
+   "Udo Mechels originates from Q576671",
+   "Udo Mechels originates from Q2453742",
+   "Udo Mechels originates from Q7880",
+   "Udo Mechels originates from Q184163",
+   "Udo Mechels originates from Q997335",
+   "Udo Mechels originates from Q26339",
+   "Udo Mechels originates from Q845623",
+   "Udo Mechels originates from Q64589",
+   "Udo Mechels originates from Q1720",
+   "Udo Mechels originates from Q835831",
+   "Udo Mechels originates from Q487977",
+   "Udo Mechels originates from Q2256",
+   "Udo Mechels originates from Q6346",
+   "Udo Mechels originates from Q161994",
+   "Udo Mechels originates from Q34615",
+   "Udo Mechels originates from Q47554",
+   "Udo Mechels originates from Q194420",
+   "Udo Mechels originates from Q197691",
+   "Udo Mechels originates from Q7027",
+   "Udo Mechels originates from Q270",
+   "Udo Mechels originates from Q1828035",
+   "Udo Mechels originates from Q1022",
+   "Udo Mechels originates from Q7473516",
+   "Udo Mechels originates from Q181704",
+   "Udo Mechels originates from Q72",
+   "Udo Mechels originates from Q2683",
+   "Udo Mechels originates from Q467617",
+   "Udo Mechels originates from Q42168",
+   "Udo Mechels originates from Q153494",
+   "Udo Mechels originates from Q13362",
+   "Udo Mechels originates from Q484552",
+   "Udo Mechels originates from Q320233",
+   "Udo Mechels originates from Q1297",
+   "Udo Mechels originates from Q2865",
+   "Udo Mechels originates from Q16568",
+   "Udo Mechels originates from Q4093",
+   "Udo Mechels originates from Q319397",
+   "Udo Mechels originates from Q212856",
+   "Udo Mechels originates from Q90",
+   "Udo Mechels originates from Q1807458",
+   "Udo Mechels originates from Q5839",
+   "Udo Mechels originates from Q2861",
+   "Udo Mechels originates from Q504875",
+   "Udo Mechels originates from Q105048",
+   "Udo Mechels originates from Q3619316",
+   "Udo Mechels originates from Q287148",
+   "Udo Mechels originates from Q630668",
+   "Udo Mechels originates from Q40898",
+   "Udo Mechels originates from Q734064",
+   "Udo Mechels originates from Q1537",
+   "Udo Mechels originates from Q375314",
+   "Where Udo Mechels is from, people speak the language of Q339182",
+   "Where Udo Mechels is from, people speak the language of Q43631",
+   "Where Udo Mechels is from, people speak the language of Q2061870",
+   "Where Udo Mechels is from, people speak the language of Q25331",
+   "Where Udo Mechels is from, people speak the language of Q3776576",
+   "Where Udo Mechels is from, people speak the language of Q81621",
+   "Where Udo Mechels is from, people speak the language of Q38511",
+   "Where Udo Mechels is from, people speak the language of Q23436",
+   "Where Udo Mechels is from, people speak the language of Q627653",
+   "Where Udo Mechels is from, people speak the language of Q749",
+   "Where Udo Mechels is from, people speak the language of Q42088",
+   "Where Udo Mechels is from, people speak the language of Q206687",
+   "Where Udo Mechels is from, people speak the language of Q18655",
+   "Where Udo Mechels is from, people speak the language of Q54163",
+   "Where Udo Mechels is from, people speak the language of Q1144835",
+   "Where Udo Mechels is from, people speak the language of Q3626259",
+   "Where Udo Mechels is from, people speak the language of Q30096",
+   "Where Udo Mechels is from, people speak the language of Q181725",
+   "Where Udo Mechels is from, people speak the language of Q18426",
+   "Where Udo Mechels is from, people speak the language of Q4734309",
+   "Where Udo Mechels is from, people speak the language of Q823531",
+   "Where Udo Mechels is from, people speak the language of Q13210107",
+   "Where Udo Mechels is from, people speak the language of Q656",
+   "Where Udo Mechels is from, people speak the language of Q1709",
+   "Where Udo Mechels is from, people speak the language of Q1492",
+   "Where Udo Mechels is from, people speak the language of Q6602",
+   "Where Udo Mechels is from, people speak the language of Q1490",
+   "Where Udo Mechels is from, people speak the language of Q939529",
+   "Where Udo Mechels is from, people speak the language of Q1890931",
+   "Where Udo Mechels is from, people speak the language of Q2640897",
+   "Where Udo Mechels is from, people speak the language of Q655874",
+   "Where Udo Mechels is from, people speak the language of Q40623",
+   "Where Udo Mechels is from, people speak the language of Q21711493",
+   "Where Udo Mechels is from, people speak the language of Q23360",
+   "Where Udo Mechels is from, people speak the language of Q25286",
+   "Where Udo Mechels is from, people speak the language of Q963309",
+   "Where Udo Mechels is from, people speak the language of Q1761",
+   "Where Udo Mechels is from, people speak the language of Q1773",
+   "Where Udo Mechels is from, people speak the language of Q18986",
+   "Where Udo Mechels is from, people speak the language of Q78",
+   "Where Udo Mechels is from, people speak the language of Q11025",
+   "Where Udo Mechels is from, people speak the language of Q13375",
+   "Where Udo Mechels is from, people speak the language of Q1013549",
+   "Where Udo Mechels is from, people speak the language of Q176410",
+   "Where Udo Mechels is from, people speak the language of Q584458",
+   "Where Udo Mechels is from, people speak the language of Q374745",
+   "Where Udo Mechels is from, people speak the language of Q59670",
+   "Where Udo Mechels is from, people speak the language of Q62460",
+   "Where Udo Mechels is from, people speak the language of Q288082",
+   "Where Udo Mechels is from, people speak the language of Q2145988",
+   "Where Udo Mechels is from, people speak the language of Q104731",
+   "Where Udo Mechels is from, people speak the language of Q1618770",
+   "Where Udo Mechels is from, people speak the language of Q24826",
+   "Where Udo Mechels is from, people speak the language of Q3846",
+   "Where Udo Mechels is from, people speak the language of Q727",
+   "Where Udo Mechels is from, people speak the language of Q186234",
+   "Where Udo Mechels is from, people speak the language of Q2593038",
+   "Where Udo Mechels is from, people speak the language of Q1003286",
+   "Where Udo Mechels is from, people speak the language of Q1921452",
+   "Where Udo Mechels is from, people speak the language of Q1159513",
+   "Where Udo Mechels is from, people speak the language of Q617407",
+   "Where Udo Mechels is from, people speak the language of Q140342",
+   "Where Udo Mechels is from, people speak the language of Q269476",
+   "Where Udo Mechels is from, people speak the language of Q1296",
+   "Where Udo Mechels is from, people speak the language of Q1524",
+   "Where Udo Mechels is from, people speak the language of Q3138",
+   "Where Udo Mechels is from, people speak the language of Q36600",
+   "Where Udo Mechels is from, people speak the language of Q985461",
+   "Where Udo Mechels is from, people speak the language of Q3150",
+   "Where Udo Mechels is from, people speak the language of Q203040",
+   "Where Udo Mechels is from, people speak the language of Q4420718",
+   "Where Udo Mechels is from, people speak the language of Q564827",
+   "Where Udo Mechels is from, people speak the language of Q19272",
+   "Where Udo Mechels is from, people speak the language of Q209126",
+   "Where Udo Mechels is from, people speak the language of Q2746",
+   "Where Udo Mechels is from, people speak the language of Q446314",
+   "Where Udo Mechels is from, people speak the language of Q1085",
+   "Where Udo Mechels is from, people speak the language of Q7042",
+   "Where Udo Mechels is from, people speak the language of Q198190",
+   "Where Udo Mechels is from, people speak the language of Q462177",
+   "Where Udo Mechels is from, people speak the language of Q1748",
+   "Where Udo Mechels is from, people speak the language of Q123709",
+   "Where Udo Mechels is from, people speak the language of Q36433",
+   "Where Udo Mechels is from, people speak the language of Q1247384",
+   "Where Udo Mechels is from, people speak the language of Q1780",
+   "Where Udo Mechels is from, people speak the language of Q18125",
+   "Where Udo Mechels is from, people speak the language of Q482657",
+   "Where Udo Mechels is from, people speak the language of Q31487",
+   "Where Udo Mechels is from, people speak the language of Q1005862",
+   "Where Udo Mechels is from, people speak the language of Q52098",
+   "Where Udo Mechels is from, people speak the language of Q23154",
+   "Where Udo Mechels is from, people speak the language of Q1679681",
+   "Where Udo Mechels is from, people speak the language of Q123559",
+   "Where Udo Mechels is from, people speak the language of Q1799",
+   "Where Udo Mechels is from, people speak the language of Q500939",
+   "Where Udo Mechels is from, people speak the language of Q41252",
+   "Where Udo Mechels is from, people speak the language of nan",
+   "Where Udo Mechels is from, people speak the language of Q3923",
+   "Where Udo Mechels is from, people speak the language of Q517311",
+   "Where Udo Mechels is from, people speak the language of Q49111",
+   "Where Udo Mechels is from, people speak the language of Q6366688",
+   "Where Udo Mechels is from, people speak the language of Q1490411",
+   "Where Udo Mechels is from, people speak the language of Q1415",
+   "Where Udo Mechels is from, people speak the language of Q269980",
+   "Where Udo Mechels is from, people speak the language of Q156743",
+   "Where Udo Mechels is from, people speak the language of Q11736",
+   "Where Udo Mechels is from, people speak the language of Q2880",
+   "Where Udo Mechels is from, people speak the language of Q3915",
+   "Where Udo Mechels is from, people speak the language of Q853324",
+   "Where Udo Mechels is from, people speak the language of Q67778",
+   "Where Udo Mechels is from, people speak the language of Q649",
+   "Where Udo Mechels is from, people speak the language of Q610238",
+   "Where Udo Mechels is from, people speak the language of Q4083",
+   "Where Udo Mechels is from, people speak the language of Q1754",
+   "Where Udo Mechels is from, people speak the language of Q490",
+   "Where Udo Mechels is from, people speak the language of Q64",
+   "Where Udo Mechels is from, people speak the language of Q18424",
+   "Where Udo Mechels is from, people speak the language of Q492538",
+   "Where Udo Mechels is from, people speak the language of Q42807",
+   "Where Udo Mechels is from, people speak the language of Q84",
+   "Where Udo Mechels is from, people speak the language of Q1729",
+   "Where Udo Mechels is from, people speak the language of Q1055",
+   "Where Udo Mechels is from, people speak the language of Q43509",
+   "Where Udo Mechels is from, people speak the language of Q16553",
+   "Where Udo Mechels is from, people speak the language of Q54140",
+   "Where Udo Mechels is from, people speak the language of Q80484",
+   "Where Udo Mechels is from, people speak the language of Q10549787",
+   "Where Udo Mechels is from, people speak the language of Q42308",
+   "Where Udo Mechels is from, people speak the language of Q33959",
+   "Where Udo Mechels is from, people speak the language of Q22741",
+   "Where Udo Mechels is from, people speak the language of Q433701",
+   "Where Udo Mechels is from, people speak the language of Q2749",
+   "Where Udo Mechels is from, people speak the language of Q863832",
+   "Where Udo Mechels is from, people speak the language of Q3834",
+   "Where Udo Mechels is from, people speak the language of Q106274",
+   "Where Udo Mechels is from, people speak the language of Q1779185",
+   "Where Udo Mechels is from, people speak the language of Q4518353",
+   "Where Udo Mechels is from, people speak the language of Q275731",
+   "Where Udo Mechels is from, people speak the language of Q102621",
+   "Where Udo Mechels is from, people speak the language of Q4418120",
+   "Where Udo Mechels is from, people speak the language of Q891",
+   "Where Udo Mechels is from, people speak the language of Q142",
+   "Where Udo Mechels is from, people speak the language of Q220",
+   "Where Udo Mechels is from, people speak the language of Q1781",
+   "Where Udo Mechels is from, people speak the language of Q1794",
+   "Where Udo Mechels is from, people speak the language of Q1741",
+   "Where Udo Mechels is from, people speak the language of Q966192",
+   "Where Udo Mechels is from, people speak the language of Q2711986",
+   "Where Udo Mechels is from, people speak the language of Q1781710",
+   "Where Udo Mechels is from, people speak the language of Q60",
+   "Where Udo Mechels is from, people speak the language of Q173695",
+   "Where Udo Mechels is from, people speak the language of Q135572",
+   "Where Udo Mechels is from, people speak the language of Q2598",
+   "Where Udo Mechels is from, people speak the language of Q192265",
+   "Where Udo Mechels is from, people speak the language of Q1792",
+   "Where Udo Mechels is from, people speak the language of Q22905",
+   "Where Udo Mechels is from, people speak the language of Q5838",
+   "Where Udo Mechels is from, people speak the language of Q536598",
+   "Where Udo Mechels is from, people speak the language of Q3316008",
+   "Where Udo Mechels is from, people speak the language of Q1327770",
+   "Where Udo Mechels is from, people speak the language of Q477987",
+   "Where Udo Mechels is from, people speak the language of Q551378",
+   "Where Udo Mechels is from, people speak the language of Q648432",
+   "Where Udo Mechels is from, people speak the language of Q1345",
+   "Where Udo Mechels is from, people speak the language of Q1228829",
+   "Where Udo Mechels is from, people speak the language of Q797437",
+   "Where Udo Mechels is from, people speak the language of Q87",
+   "Where Udo Mechels is from, people speak the language of Q157725",
+   "Where Udo Mechels is from, people speak the language of Q36036",
+   "Where Udo Mechels is from, people speak the language of Q6837",
+   "Where Udo Mechels is from, people speak the language of Q1735",
+   "Where Udo Mechels is from, people speak the language of Q1711",
+   "Where Udo Mechels is from, people speak the language of Q507117",
+   "Where Udo Mechels is from, people speak the language of Q2722267",
+   "Where Udo Mechels is from, people speak the language of Q13666",
+   "Where Udo Mechels is from, people speak the language of Q206988",
+   "Where Udo Mechels is from, people speak the language of Q1715",
+   "Where Udo Mechels is from, people speak the language of Q265332",
+   "Where Udo Mechels is from, people speak the language of Q745594",
+   "Where Udo Mechels is from, people speak the language of Q13373",
+   "Where Udo Mechels is from, people speak the language of Q725261",
+   "Where Udo Mechels is from, people speak the language of Q572595",
+   "Where Udo Mechels is from, people speak the language of Q576671",
+   "Where Udo Mechels is from, people speak the language of Q2453742",
+   "Where Udo Mechels is from, people speak the language of Q7880",
+   "Where Udo Mechels is from, people speak the language of Q184163",
+   "Where Udo Mechels is from, people speak the language of Q997335",
+   "Where Udo Mechels is from, people speak the language of Q26339",
+   "Where Udo Mechels is from, people speak the language of Q845623",
+   "Where Udo Mechels is from, people speak the language of Q64589",
+   "Where Udo Mechels is from, people speak the language of Q1720",
+   "Where Udo Mechels is from, people speak the language of Q835831",
+   "Where Udo Mechels is from, people speak the language of Q487977",
+   "Where Udo Mechels is from, people speak the language of Q2256",
+   "Where Udo Mechels is from, people speak the language of Q6346",
+   "Where Udo Mechels is from, people speak the language of Q161994",
+   "Where Udo Mechels is from, people speak the language of Q34615",
+   "Where Udo Mechels is from, people speak the language of Q47554",
+   "Where Udo Mechels is from, people speak the language of Q194420",
+   "Where Udo Mechels is from, people speak the language of Q197691",
+   "Where Udo Mechels is from, people speak the language of Q7027",
+   "Where Udo Mechels is from, people speak the language of Q270",
+   "Where Udo Mechels is from, people speak the language of Q1828035",
+   "Where Udo Mechels is from, people speak the language of Q1022",
+   "Where Udo Mechels is from, people speak the language of Q7473516",
+   "Where Udo Mechels is from, people speak the language of Q181704",
+   "Where Udo Mechels is from, people speak the language of Q72",
+   "Where Udo Mechels is from, people speak the language of Q2683",
+   "Where Udo Mechels is from, people speak the language of Q467617",
+   "Where Udo Mechels is from, people speak the language of Q42168",
+   "Where Udo Mechels is from, people speak the language of Q153494",
+   "Where Udo Mechels is from, people speak the language of Q13362",
+   "Where Udo Mechels is from, people speak the language of Q484552",
+   "Where Udo Mechels is from, people speak the language of Q320233",
+   "Where Udo Mechels is from, people speak the language of Q1297",
+   "Where Udo Mechels is from, people speak the language of Q2865",
+   "Where Udo Mechels is from, people speak the language of Q16568",
+   "Where Udo Mechels is from, people speak the language of Q4093",
+   "Where Udo Mechels is from, people speak the language of Q319397",
+   "Where Udo Mechels is from, people speak the language of Q212856",
+   "Where Udo Mechels is from, people speak the language of Q90",
+   "Where Udo Mechels is from, people speak the language of Q1807458",
+   "Where Udo Mechels is from, people speak the language of Q5839",
+   "Where Udo Mechels is from, people speak the language of Q2861",
+   "Where Udo Mechels is from, people speak the language of Q504875",
+   "Where Udo Mechels is from, people speak the language of Q105048",
+   "Where Udo Mechels is from, people speak the language of Q3619316",
+   "Where Udo Mechels is from, people speak the language of Q287148",
+   "Where Udo Mechels is from, people speak the language of Q630668",
+   "Where Udo Mechels is from, people speak the language of Q40898",
+   "Where Udo Mechels is from, people speak the language of Q734064",
+   "Where Udo Mechels is from, people speak the language of Q1537",
+   "Where Udo Mechels is from, people speak the language of Q375314"
+  ],
+  [
+   [
+    -78.73942565917969
+   ],
+   [
+    -77.3740234375
+   ],
+   [
+    -81.00513458251953
+   ],
+   [
+    -74.68608856201172
+   ],
+   [
+    -83.35559844970703
+   ],
+   [
+    -76.08291625976562
+   ],
+   [
+    -77.06031799316406
+   ],
+   [
+    -75.16109466552734
+   ],
+   [
+    -79.12738037109375
+   ],
+   [
+    -70.17607116699219
+   ],
+   [
+    -78.62798309326172
+   ],
+   [
+    -78.27649688720703
+   ],
+   [
+    -75.57823944091797
+   ],
+   [
+    -75.72428131103516
+   ],
+   [
+    -80.59565734863281
+   ],
+   [
+    -83.28919982910156
+   ],
+   [
+    -75.23906707763672
+   ],
+   [
+    -77.41161346435547
+   ],
+   [
+    -75.38330841064453
+   ],
+   [
+    -83.61441040039062
+   ],
+   [
+    -78.76164245605469
+   ],
+   [
+    -83.32879638671875
+   ],
+   [
+    -70.92155456542969
+   ],
+   [
+    -70.64090728759766
+   ],
+   [
+    -71.79536437988281
+   ],
+   [
+    -72.81437683105469
+   ],
+   [
+    -71.29312896728516
+   ],
+   [
+    -79.08949279785156
+   ],
+   [
+    -81.29360961914062
+   ],
+   [
+    -81.3709716796875
+   ],
+   [
+    -80.41865539550781
+   ],
+   [
+    -77.63566589355469
+   ],
+   [
+    -83.30462646484375
+   ],
+   [
+    -75.6059341430664
+   ],
+   [
+    -74.68732452392578
+   ],
+   [
+    -78.63155364990234
+   ],
+   [
+    -71.50465393066406
+   ],
+   [
+    -71.19559478759766
+   ],
+   [
+    -75.40575408935547
+   ],
+   [
+    -66.29325866699219
+   ],
+   [
+    -73.20852661132812
+   ],
+   [
+    -75.31260681152344
+   ],
+   [
+    -79.65864562988281
+   ],
+   [
+    -78.1234130859375
+   ],
+   [
+    -79.00125885009766
+   ],
+   [
+    -79.35025024414062
+   ],
+   [
+    -76.22330474853516
+   ],
+   [
+    -76.0228271484375
+   ],
+   [
+    -79.27627563476562
+   ],
+   [
+    -80.55543518066406
+   ],
+   [
+    -76.81463623046875
+   ],
+   [
+    -81.35736083984375
+   ],
+   [
+    -76.01628112792969
+   ],
+   [
+    -73.7079086303711
+   ],
+   [
+    -70.22754669189453
+   ],
+   [
+    -78.69912719726562
+   ],
+   [
+    -80.3792724609375
+   ],
+   [
+    -79.82449340820312
+   ],
+   [
+    -80.97242736816406
+   ],
+   [
+    -80.39069366455078
+   ],
+   [
+    -78.78157806396484
+   ],
+   [
+    -77.59954833984375
+   ],
+   [
+    -77.92707824707031
+   ],
+   [
+    -72.35940551757812
+   ],
+   [
+    -71.563232421875
+   ],
+   [
+    -72.83065032958984
+   ],
+   [
+    -77.21492004394531
+   ],
+   [
+    -79.06849670410156
+   ],
+   [
+    -71.98982238769531
+   ],
+   [
+    -77.16397094726562
+   ],
+   [
+    -84.38851928710938
+   ],
+   [
+    -78.80450439453125
+   ],
+   [
+    -73.98020935058594
+   ],
+   [
+    -77.17615509033203
+   ],
+   [
+    -73.0103759765625
+   ],
+   [
+    -80.05457305908203
+   ],
+   [
+    -70.09893035888672
+   ],
+   [
+    -72.66012573242188
+   ],
+   [
+    -76.0764389038086
+   ],
+   [
+    -81.25650024414062
+   ],
+   [
+    -71.39932250976562
+   ],
+   [
+    -78.51358795166016
+   ],
+   [
+    -77.9968490600586
+   ],
+   [
+    -81.76353454589844
+   ],
+   [
+    -70.35476684570312
+   ],
+   [
+    -74.3702621459961
+   ],
+   [
+    -81.7210693359375
+   ],
+   [
+    -76.75330352783203
+   ],
+   [
+    -79.03634643554688
+   ],
+   [
+    -75.18328857421875
+   ],
+   [
+    -76.71723937988281
+   ],
+   [
+    -81.24121856689453
+   ],
+   [
+    -78.5891342163086
+   ],
+   [
+    -70.50782012939453
+   ],
+   [
+    -77.27388763427734
+   ],
+   [
+    -77.21855926513672
+   ],
+   [
+    -58.833473205566406
+   ],
+   [
+    -73.45579528808594
+   ],
+   [
+    -78.93253326416016
+   ],
+   [
+    -77.12395477294922
+   ],
+   [
+    -83.04885864257812
+   ],
+   [
+    -81.57071685791016
+   ],
+   [
+    -71.06581115722656
+   ],
+   [
+    -77.8502426147461
+   ],
+   [
+    -78.26847839355469
+   ],
+   [
+    -74.93218994140625
+   ],
+   [
+    -72.7281494140625
+   ],
+   [
+    -73.01813507080078
+   ],
+   [
+    -78.89236450195312
+   ],
+   [
+    -75.86115264892578
+   ],
+   [
+    -70.07620239257812
+   ],
+   [
+    -78.07539367675781
+   ],
+   [
+    -73.81132507324219
+   ],
+   [
+    -71.25910949707031
+   ],
+   [
+    -69.54138946533203
+   ],
+   [
+    -65.62691497802734
+   ],
+   [
+    -75.36720275878906
+   ],
+   [
+    -81.13887786865234
+   ],
+   [
+    -79.22779083251953
+   ],
+   [
+    -66.07746124267578
+   ],
+   [
+    -71.47611236572266
+   ],
+   [
+    -70.16731262207031
+   ],
+   [
+    -77.10629272460938
+   ],
+   [
+    -75.90861511230469
+   ],
+   [
+    -75.31929779052734
+   ],
+   [
+    -75.14539337158203
+   ],
+   [
+    -82.71714782714844
+   ],
+   [
+    -78.53535461425781
+   ],
+   [
+    -75.40921783447266
+   ],
+   [
+    -75.16976165771484
+   ],
+   [
+    -79.57081604003906
+   ],
+   [
+    -72.95219421386719
+   ],
+   [
+    -78.62435913085938
+   ],
+   [
+    -73.75497436523438
+   ],
+   [
+    -77.02516174316406
+   ],
+   [
+    -81.31112670898438
+   ],
+   [
+    -83.39844512939453
+   ],
+   [
+    -79.17845153808594
+   ],
+   [
+    -76.87199401855469
+   ],
+   [
+    -83.19563293457031
+   ],
+   [
+    -69.60679626464844
+   ],
+   [
+    -68.15705871582031
+   ],
+   [
+    -65.87631225585938
+   ],
+   [
+    -70.91314697265625
+   ],
+   [
+    -70.9076156616211
+   ],
+   [
+    -71.41900634765625
+   ],
+   [
+    -78.70930480957031
+   ],
+   [
+    -81.53120422363281
+   ],
+   [
+    -81.61294555664062
+   ],
+   [
+    -64.7885971069336
+   ],
+   [
+    -78.43484497070312
+   ],
+   [
+    -78.28087615966797
+   ],
+   [
+    -71.4087905883789
+   ],
+   [
+    -78.61772918701172
+   ],
+   [
+    -70.87742614746094
+   ],
+   [
+    -74.92346954345703
+   ],
+   [
+    -73.6166763305664
+   ],
+   [
+    -79.06922912597656
+   ],
+   [
+    -82.54293823242188
+   ],
+   [
+    -81.89016723632812
+   ],
+   [
+    -80.43094635009766
+   ],
+   [
+    -78.86781311035156
+   ],
+   [
+    -79.07842254638672
+   ],
+   [
+    -71.09635925292969
+   ],
+   [
+    -82.15629577636719
+   ],
+   [
+    -78.81016540527344
+   ],
+   [
+    -65.40504455566406
+   ],
+   [
+    -78.14566040039062
+   ],
+   [
+    -77.92601013183594
+   ],
+   [
+    -73.22936248779297
+   ],
+   [
+    -71.43846130371094
+   ],
+   [
+    -70.5975112915039
+   ],
+   [
+    -78.06098175048828
+   ],
+   [
+    -82.072998046875
+   ],
+   [
+    -75.51720428466797
+   ],
+   [
+    -77.59219360351562
+   ],
+   [
+    -70.72633361816406
+   ],
+   [
+    -78.38829803466797
+   ],
+   [
+    -78.91831970214844
+   ],
+   [
+    -75.45826721191406
+   ],
+   [
+    -79.16993713378906
+   ],
+   [
+    -78.933349609375
+   ],
+   [
+    -79.40264129638672
+   ],
+   [
+    -84.3180160522461
+   ],
+   [
+    -73.03684997558594
+   ],
+   [
+    -77.92825317382812
+   ],
+   [
+    -78.66314697265625
+   ],
+   [
+    -75.80926513671875
+   ],
+   [
+    -79.31889343261719
+   ],
+   [
+    -75.96090698242188
+   ],
+   [
+    -70.63298034667969
+   ],
+   [
+    -79.3785400390625
+   ],
+   [
+    -81.09441375732422
+   ],
+   [
+    -71.7529067993164
+   ],
+   [
+    -74.03987884521484
+   ],
+   [
+    -76.95783996582031
+   ],
+   [
+    -76.6183090209961
+   ],
+   [
+    -77.40505981445312
+   ],
+   [
+    -77.30601501464844
+   ],
+   [
+    -76.9493179321289
+   ],
+   [
+    -72.59173583984375
+   ],
+   [
+    -68.61951446533203
+   ],
+   [
+    -80.36254119873047
+   ],
+   [
+    -70.23789978027344
+   ],
+   [
+    -82.15390014648438
+   ],
+   [
+    -77.16930389404297
+   ],
+   [
+    -66.20952606201172
+   ],
+   [
+    -72.60187530517578
+   ],
+   [
+    -80.35888671875
+   ],
+   [
+    -80.13411712646484
+   ],
+   [
+    -78.3077392578125
+   ],
+   [
+    -75.50321960449219
+   ],
+   [
+    -81.60174560546875
+   ],
+   [
+    -78.75201416015625
+   ],
+   [
+    -72.2945556640625
+   ],
+   [
+    -72.9515609741211
+   ],
+   [
+    -75.69506072998047
+   ],
+   [
+    -72.6318130493164
+   ],
+   [
+    -76.76090240478516
+   ],
+   [
+    -77.8189468383789
+   ],
+   [
+    -65.13764953613281
+   ],
+   [
+    -80.49424743652344
+   ],
+   [
+    -73.47335052490234
+   ],
+   [
+    -72.94930267333984
+   ],
+   [
+    -78.07960510253906
+   ],
+   [
+    -76.65473937988281
+   ],
+   [
+    -84.34822082519531
+   ],
+   [
+    -79.27218627929688
+   ],
+   [
+    -78.44873809814453
+   ],
+   [
+    -77.6745834350586
+   ],
+   [
+    -78.73725128173828
+   ],
+   [
+    -71.70124816894531
+   ],
+   [
+    -79.2012710571289
+   ],
+   [
+    -65.50691986083984
+   ],
+   [
+    -65.72930145263672
+   ],
+   [
+    -67.78474426269531
+   ],
+   [
+    -61.42313003540039
+   ],
+   [
+    -69.30461120605469
+   ],
+   [
+    -65.71321105957031
+   ],
+   [
+    -66.97838592529297
+   ],
+   [
+    -63.44804382324219
+   ],
+   [
+    -67.69930267333984
+   ],
+   [
+    -58.95681381225586
+   ],
+   [
+    -63.3102912902832
+   ],
+   [
+    -65.91036987304688
+   ],
+   [
+    -61.93309020996094
+   ],
+   [
+    -63.53007888793945
+   ],
+   [
+    -67.14576721191406
+   ],
+   [
+    -70.18059539794922
+   ],
+   [
+    -63.17142868041992
+   ],
+   [
+    -63.90064239501953
+   ],
+   [
+    -61.23111343383789
+   ],
+   [
+    -71.32974243164062
+   ],
+   [
+    -68.775146484375
+   ],
+   [
+    -70.82371520996094
+   ],
+   [
+    -60.38848114013672
+   ],
+   [
+    -57.90840148925781
+   ],
+   [
+    -58.55592727661133
+   ],
+   [
+    -61.094886779785156
+   ],
+   [
+    -58.34128189086914
+   ],
+   [
+    -67.99269104003906
+   ],
+   [
+    -66.1363754272461
+   ],
+   [
+    -69.15986633300781
+   ],
+   [
+    -69.99948120117188
+   ],
+   [
+    -64.20663452148438
+   ],
+   [
+    -71.20306396484375
+   ],
+   [
+    -62.1080207824707
+   ],
+   [
+    -61.721195220947266
+   ],
+   [
+    -68.01673889160156
+   ],
+   [
+    -58.468955993652344
+   ],
+   [
+    -58.63887023925781
+   ],
+   [
+    -61.381736755371094
+   ],
+   [
+    -54.57316970825195
+   ],
+   [
+    -61.556549072265625
+   ],
+   [
+    -62.31346130371094
+   ],
+   [
+    -67.32760620117188
+   ],
+   [
+    -64.38836669921875
+   ],
+   [
+    -66.3989028930664
+   ],
+   [
+    -66.22001647949219
+   ],
+   [
+    -63.57838821411133
+   ],
+   [
+    -64.48582458496094
+   ],
+   [
+    -65.9019775390625
+   ],
+   [
+    -69.09307098388672
+   ],
+   [
+    -67.12164306640625
+   ],
+   [
+    -67.71958923339844
+   ],
+   [
+    -63.16157150268555
+   ],
+   [
+    -61.725990295410156
+   ],
+   [
+    -58.86848068237305
+   ],
+   [
+    -64.35780334472656
+   ],
+   [
+    -67.10389709472656
+   ],
+   [
+    -69.72409057617188
+   ],
+   [
+    -66.65631866455078
+   ],
+   [
+    -66.69474029541016
+   ],
+   [
+    -67.3538818359375
+   ],
+   [
+    -63.90003204345703
+   ],
+   [
+    -65.3004150390625
+   ],
+   [
+    -58.827980041503906
+   ],
+   [
+    -58.64710998535156
+   ],
+   [
+    -60.843971252441406
+   ],
+   [
+    -64.99614715576172
+   ],
+   [
+    -67.97134399414062
+   ],
+   [
+    -59.76066970825195
+   ],
+   [
+    -66.0315170288086
+   ],
+   [
+    -71.21771240234375
+   ],
+   [
+    -66.2234878540039
+   ],
+   [
+    -61.404151916503906
+   ],
+   [
+    -64.80987548828125
+   ],
+   [
+    -60.23436737060547
+   ],
+   [
+    -68.48287200927734
+   ],
+   [
+    -58.93119812011719
+   ],
+   [
+    -61.41665267944336
+   ],
+   [
+    -63.54070281982422
+   ],
+   [
+    -68.59261322021484
+   ],
+   [
+    -58.469482421875
+   ],
+   [
+    -65.19637298583984
+   ],
+   [
+    -65.64793395996094
+   ],
+   [
+    -67.88670349121094
+   ],
+   [
+    -57.900169372558594
+   ],
+   [
+    -60.999202728271484
+   ],
+   [
+    -68.31239318847656
+   ],
+   [
+    -63.83940887451172
+   ],
+   [
+    -68.34297180175781
+   ],
+   [
+    -63.568572998046875
+   ],
+   [
+    -64.80352020263672
+   ],
+   [
+    -67.43731689453125
+   ],
+   [
+    -65.08895111083984
+   ],
+   [
+    -57.715450286865234
+   ],
+   [
+    -65.8246841430664
+   ],
+   [
+    -63.99443054199219
+   ],
+   [
+    -48.53204345703125
+   ],
+   [
+    -61.32834243774414
+   ],
+   [
+    -66.9336929321289
+   ],
+   [
+    -64.69989013671875
+   ],
+   [
+    -71.80178833007812
+   ],
+   [
+    -66.53605651855469
+   ],
+   [
+    -58.345848083496094
+   ],
+   [
+    -65.2752456665039
+   ],
+   [
+    -64.3614501953125
+   ],
+   [
+    -61.82157897949219
+   ],
+   [
+    -60.03050994873047
+   ],
+   [
+    -61.146827697753906
+   ],
+   [
+    -68.73188781738281
+   ],
+   [
+    -65.38346862792969
+   ],
+   [
+    -58.739219665527344
+   ],
+   [
+    -66.93873596191406
+   ],
+   [
+    -61.12879180908203
+   ],
+   [
+    -58.38428497314453
+   ],
+   [
+    -58.241241455078125
+   ],
+   [
+    -53.746238708496094
+   ],
+   [
+    -61.44419479370117
+   ],
+   [
+    -68.2319564819336
+   ],
+   [
+    -64.7706527709961
+   ],
+   [
+    -54.52507400512695
+   ],
+   [
+    -58.45503234863281
+   ],
+   [
+    -58.91496276855469
+   ],
+   [
+    -68.4459228515625
+   ],
+   [
+    -62.05890655517578
+   ],
+   [
+    -63.26504135131836
+   ],
+   [
+    -64.4695053100586
+   ],
+   [
+    -71.60066223144531
+   ],
+   [
+    -64.63154602050781
+   ],
+   [
+    -63.115203857421875
+   ],
+   [
+    -62.344234466552734
+   ],
+   [
+    -67.85600280761719
+   ],
+   [
+    -60.24093246459961
+   ],
+   [
+    -68.50224304199219
+   ],
+   [
+    -61.482234954833984
+   ],
+   [
+    -65.60977172851562
+   ],
+   [
+    -67.40442657470703
+   ],
+   [
+    -70.91400909423828
+   ],
+   [
+    -66.00624084472656
+   ],
+   [
+    -65.22505187988281
+   ],
+   [
+    -70.75827026367188
+   ],
+   [
+    -58.34550476074219
+   ],
+   [
+    -55.59376525878906
+   ],
+   [
+    -54.904998779296875
+   ],
+   [
+    -58.15065383911133
+   ],
+   [
+    -58.45051574707031
+   ],
+   [
+    -58.54316329956055
+   ],
+   [
+    -68.69708251953125
+   ],
+   [
+    -68.86444091796875
+   ],
+   [
+    -67.13085174560547
+   ],
+   [
+    -53.352874755859375
+   ],
+   [
+    -64.22742462158203
+   ],
+   [
+    -65.26338958740234
+   ],
+   [
+    -59.05863952636719
+   ],
+   [
+    -64.01839447021484
+   ],
+   [
+    -58.461021423339844
+   ],
+   [
+    -62.50548553466797
+   ],
+   [
+    -61.35914993286133
+   ],
+   [
+    -67.04385375976562
+   ],
+   [
+    -69.53305053710938
+   ],
+   [
+    -68.0985336303711
+   ],
+   [
+    -68.08258819580078
+   ],
+   [
+    -67.07402038574219
+   ],
+   [
+    -67.71297454833984
+   ],
+   [
+    -58.884422302246094
+   ],
+   [
+    -67.71070861816406
+   ],
+   [
+    -66.78976440429688
+   ],
+   [
+    -54.158973693847656
+   ],
+   [
+    -64.18299865722656
+   ],
+   [
+    -64.31814575195312
+   ],
+   [
+    -61.54704284667969
+   ],
+   [
+    -58.538002014160156
+   ],
+   [
+    -58.1153564453125
+   ],
+   [
+    -65.44673156738281
+   ],
+   [
+    -68.87445068359375
+   ],
+   [
+    -62.37800216674805
+   ],
+   [
+    -65.61688232421875
+   ],
+   [
+    -58.207889556884766
+   ],
+   [
+    -66.54940795898438
+   ],
+   [
+    -67.32371520996094
+   ],
+   [
+    -62.40001678466797
+   ],
+   [
+    -67.7869644165039
+   ],
+   [
+    -66.69422912597656
+   ],
+   [
+    -66.63926696777344
+   ],
+   [
+    -71.9989013671875
+   ],
+   [
+    -61.68814468383789
+   ],
+   [
+    -64.0269775390625
+   ],
+   [
+    -68.88784790039062
+   ],
+   [
+    -63.62297439575195
+   ],
+   [
+    -68.69892120361328
+   ],
+   [
+    -64.90391540527344
+   ],
+   [
+    -58.20744705200195
+   ],
+   [
+    -70.12602233886719
+   ],
+   [
+    -68.1811294555664
+   ],
+   [
+    -59.854270935058594
+   ],
+   [
+    -62.56332778930664
+   ],
+   [
+    -64.80488586425781
+   ],
+   [
+    -63.754146575927734
+   ],
+   [
+    -65.2132568359375
+   ],
+   [
+    -64.68132019042969
+   ],
+   [
+    -63.80974578857422
+   ],
+   [
+    -61.317115783691406
+   ],
+   [
+    -56.28572082519531
+   ],
+   [
+    -66.42710876464844
+   ],
+   [
+    -59.675384521484375
+   ],
+   [
+    -70.20911407470703
+   ],
+   [
+    -63.730918884277344
+   ],
+   [
+    -54.564903259277344
+   ],
+   [
+    -60.75810241699219
+   ],
+   [
+    -68.29668426513672
+   ],
+   [
+    -64.66301727294922
+   ],
+   [
+    -64.40108489990234
+   ],
+   [
+    -62.42778778076172
+   ],
+   [
+    -68.35830688476562
+   ],
+   [
+    -66.37647247314453
+   ],
+   [
+    -58.8748779296875
+   ],
+   [
+    -60.3439826965332
+   ],
+   [
+    -61.78096389770508
+   ],
+   [
+    -60.66622543334961
+   ],
+   [
+    -66.1470947265625
+   ],
+   [
+    -65.88360595703125
+   ],
+   [
+    -53.47157669067383
+   ],
+   [
+    -66.82420349121094
+   ],
+   [
+    -61.35115432739258
+   ],
+   [
+    -60.4154052734375
+   ],
+   [
+    -65.470703125
+   ],
+   [
+    -66.61408233642578
+   ],
+   [
+    -72.05640411376953
+   ],
+   [
+    -66.05606079101562
+   ],
+   [
+    -67.30260467529297
+   ],
+   [
+    -64.17564392089844
+   ],
+   [
+    -68.71527099609375
+   ],
+   [
+    -58.70039367675781
+   ],
+   [
+    -65.69388580322266
+   ],
+   [
+    -88.0828628540039
+   ],
+   [
+    -85.83319854736328
+   ],
+   [
+    -90.59635162353516
+   ],
+   [
+    -81.24734497070312
+   ],
+   [
+    -91.54002380371094
+   ],
+   [
+    -88.22473907470703
+   ],
+   [
+    -86.204345703125
+   ],
+   [
+    -84.83781433105469
+   ],
+   [
+    -89.71363830566406
+   ],
+   [
+    -81.1939697265625
+   ],
+   [
+    -86.72771453857422
+   ],
+   [
+    -88.9238052368164
+   ],
+   [
+    -86.2255630493164
+   ],
+   [
+    -85.95787048339844
+   ],
+   [
+    -92.19419860839844
+   ],
+   [
+    -91.85411071777344
+   ],
+   [
+    -85.126220703125
+   ],
+   [
+    -88.14923095703125
+   ],
+   [
+    -85.79515075683594
+   ],
+   [
+    -92.70110321044922
+   ],
+   [
+    -89.81169128417969
+   ],
+   [
+    -94.58465576171875
+   ],
+   [
+    -82.13311004638672
+   ],
+   [
+    -81.87350463867188
+   ],
+   [
+    -83.2893295288086
+   ],
+   [
+    -84.18562316894531
+   ],
+   [
+    -83.19633483886719
+   ],
+   [
+    -90.05319213867188
+   ],
+   [
+    -91.29310607910156
+   ],
+   [
+    -91.75548553466797
+   ],
+   [
+    -90.71968078613281
+   ],
+   [
+    -88.12689971923828
+   ],
+   [
+    -94.4436264038086
+   ],
+   [
+    -81.47145080566406
+   ],
+   [
+    -84.91918182373047
+   ],
+   [
+    -89.30054473876953
+   ],
+   [
+    -82.28206634521484
+   ],
+   [
+    -82.09521484375
+   ],
+   [
+    -86.57121276855469
+   ],
+   [
+    -77.44288635253906
+   ],
+   [
+    -86.21022033691406
+   ],
+   [
+    -84.83938598632812
+   ],
+   [
+    -90.17418670654297
+   ],
+   [
+    -87.7066650390625
+   ],
+   [
+    -89.5048599243164
+   ],
+   [
+    -88.95491790771484
+   ],
+   [
+    -86.90412902832031
+   ],
+   [
+    -87.30101013183594
+   ],
+   [
+    -89.40345001220703
+   ],
+   [
+    -91.42461395263672
+   ],
+   [
+    -88.89942932128906
+   ],
+   [
+    -91.16067504882812
+   ],
+   [
+    -86.61341094970703
+   ],
+   [
+    -84.37818908691406
+   ],
+   [
+    -81.29855346679688
+   ],
+   [
+    -88.94975280761719
+   ],
+   [
+    -91.02098083496094
+   ],
+   [
+    -91.93515014648438
+   ],
+   [
+    -91.33822631835938
+   ],
+   [
+    -91.1695556640625
+   ],
+   [
+    -89.95902252197266
+   ],
+   [
+    -88.64535522460938
+   ],
+   [
+    -89.01333618164062
+   ],
+   [
+    -83.60466003417969
+   ],
+   [
+    -83.18000793457031
+   ],
+   [
+    -83.52296447753906
+   ],
+   [
+    -86.52687072753906
+   ],
+   [
+    -90.27430725097656
+   ],
+   [
+    -82.51959991455078
+   ],
+   [
+    -88.53881072998047
+   ],
+   [
+    -93.41114807128906
+   ],
+   [
+    -89.0945816040039
+   ],
+   [
+    -86.2817611694336
+   ],
+   [
+    -87.28624725341797
+   ],
+   [
+    -82.96702575683594
+   ],
+   [
+    -90.96549224853516
+   ],
+   [
+    -82.36453247070312
+   ],
+   [
+    -84.77703857421875
+   ],
+   [
+    -88.96766662597656
+   ],
+   [
+    -91.30840301513672
+   ],
+   [
+    -82.58574676513672
+   ],
+   [
+    -87.99031829833984
+   ],
+   [
+    -86.95298767089844
+   ],
+   [
+    -91.8593521118164
+   ],
+   [
+    -82.3281478881836
+   ],
+   [
+    -85.51937103271484
+   ],
+   [
+    -90.80249786376953
+   ],
+   [
+    -86.38623046875
+   ],
+   [
+    -90.9053955078125
+   ],
+   [
+    -86.59376525878906
+   ],
+   [
+    -85.97696685791016
+   ],
+   [
+    -90.69501495361328
+   ],
+   [
+    -87.11589050292969
+   ],
+   [
+    -82.28599548339844
+   ],
+   [
+    -88.14534759521484
+   ],
+   [
+    -87.54606628417969
+   ],
+   [
+    -67.10662841796875
+   ],
+   [
+    -83.2457275390625
+   ],
+   [
+    -89.26083374023438
+   ],
+   [
+    -87.31767272949219
+   ],
+   [
+    -92.99937438964844
+   ],
+   [
+    -91.45524597167969
+   ],
+   [
+    -82.19255828857422
+   ],
+   [
+    -89.18455505371094
+   ],
+   [
+    -87.27293395996094
+   ],
+   [
+    -86.26142120361328
+   ],
+   [
+    -83.86013793945312
+   ],
+   [
+    -83.27754211425781
+   ],
+   [
+    -89.05758666992188
+   ],
+   [
+    -87.87287902832031
+   ],
+   [
+    -81.15348052978516
+   ],
+   [
+    -89.4586181640625
+   ],
+   [
+    -84.82247161865234
+   ],
+   [
+    -82.29154205322266
+   ],
+   [
+    -81.54875183105469
+   ],
+   [
+    -76.46502685546875
+   ],
+   [
+    -86.10414123535156
+   ],
+   [
+    -91.06222534179688
+   ],
+   [
+    -87.60218811035156
+   ],
+   [
+    -77.58143615722656
+   ],
+   [
+    -82.19140625
+   ],
+   [
+    -82.08493041992188
+   ],
+   [
+    -85.47303009033203
+   ],
+   [
+    -86.15679931640625
+   ],
+   [
+    -85.8507080078125
+   ],
+   [
+    -88.0898208618164
+   ],
+   [
+    -94.88030242919922
+   ],
+   [
+    -86.98876953125
+   ],
+   [
+    -85.85629272460938
+   ],
+   [
+    -85.55460357666016
+   ],
+   [
+    -88.19927978515625
+   ],
+   [
+    -82.91172790527344
+   ],
+   [
+    -90.77605438232422
+   ],
+   [
+    -84.2481689453125
+   ],
+   [
+    -89.23626708984375
+   ],
+   [
+    -91.16201782226562
+   ],
+   [
+    -92.74357604980469
+   ],
+   [
+    -87.85935974121094
+   ],
+   [
+    -88.09815216064453
+   ],
+   [
+    -93.24308013916016
+   ],
+   [
+    -81.15752410888672
+   ],
+   [
+    -79.67744445800781
+   ],
+   [
+    -78.38671875
+   ],
+   [
+    -82.1799087524414
+   ],
+   [
+    -82.38739776611328
+   ],
+   [
+    -82.24417877197266
+   ],
+   [
+    -89.60987091064453
+   ],
+   [
+    -90.5925521850586
+   ],
+   [
+    -90.87519836425781
+   ],
+   [
+    -76.93612670898438
+   ],
+   [
+    -87.94461059570312
+   ],
+   [
+    -88.25526428222656
+   ],
+   [
+    -83.57139587402344
+   ],
+   [
+    -88.7373046875
+   ],
+   [
+    -82.36986541748047
+   ],
+   [
+    -85.77876281738281
+   ],
+   [
+    -84.09103393554688
+   ],
+   [
+    -89.2715072631836
+   ],
+   [
+    -90.81379699707031
+   ],
+   [
+    -91.64169311523438
+   ],
+   [
+    -90.66292572021484
+   ],
+   [
+    -89.17713165283203
+   ],
+   [
+    -89.66195678710938
+   ],
+   [
+    -81.63031768798828
+   ],
+   [
+    -91.3421630859375
+   ],
+   [
+    -89.6302490234375
+   ],
+   [
+    -77.25679779052734
+   ],
+   [
+    -88.32113647460938
+   ],
+   [
+    -85.18952941894531
+   ],
+   [
+    -84.87657165527344
+   ],
+   [
+    -82.19120788574219
+   ],
+   [
+    -81.7556381225586
+   ],
+   [
+    -89.22607421875
+   ],
+   [
+    -91.11871337890625
+   ],
+   [
+    -86.5527114868164
+   ],
+   [
+    -88.1772689819336
+   ],
+   [
+    -82.21519470214844
+   ],
+   [
+    -88.49462890625
+   ],
+   [
+    -88.66881561279297
+   ],
+   [
+    -84.91216278076172
+   ],
+   [
+    -89.50756072998047
+   ],
+   [
+    -89.34188842773438
+   ],
+   [
+    -89.70159912109375
+   ],
+   [
+    -89.62178802490234
+   ],
+   [
+    -84.30506896972656
+   ],
+   [
+    -88.26895904541016
+   ],
+   [
+    -90.37081909179688
+   ],
+   [
+    -83.98307800292969
+   ],
+   [
+    -90.45050048828125
+   ],
+   [
+    -86.7112808227539
+   ],
+   [
+    -82.12345886230469
+   ],
+   [
+    -89.85791015625
+   ],
+   [
+    -91.07017517089844
+   ],
+   [
+    -82.66547393798828
+   ],
+   [
+    -84.20185089111328
+   ],
+   [
+    -88.11986541748047
+   ],
+   [
+    -85.95873260498047
+   ],
+   [
+    -87.4925537109375
+   ],
+   [
+    -89.10476684570312
+   ],
+   [
+    -89.00367736816406
+   ],
+   [
+    -84.62027740478516
+   ],
+   [
+    -79.46902465820312
+   ],
+   [
+    -90.81422424316406
+   ],
+   [
+    -82.63702392578125
+   ],
+   [
+    -91.73894500732422
+   ],
+   [
+    -88.0088119506836
+   ],
+   [
+    -77.66350555419922
+   ],
+   [
+    -84.04854583740234
+   ],
+   [
+    -91.65420532226562
+   ],
+   [
+    -87.53318786621094
+   ],
+   [
+    -87.83289337158203
+   ],
+   [
+    -86.04844665527344
+   ],
+   [
+    -91.25699615478516
+   ],
+   [
+    -88.29277038574219
+   ],
+   [
+    -83.591796875
+   ],
+   [
+    -84.16227722167969
+   ],
+   [
+    -86.23503112792969
+   ],
+   [
+    -83.76329040527344
+   ],
+   [
+    -88.31450653076172
+   ],
+   [
+    -87.67059326171875
+   ],
+   [
+    -77.64186096191406
+   ],
+   [
+    -90.95356750488281
+   ],
+   [
+    -83.96389770507812
+   ],
+   [
+    -84.1042251586914
+   ],
+   [
+    -89.42524719238281
+   ],
+   [
+    -89.55958557128906
+   ],
+   [
+    -92.38400268554688
+   ],
+   [
+    -89.67567443847656
+   ],
+   [
+    -89.49040222167969
+   ],
+   [
+    -89.68424987792969
+   ],
+   [
+    -89.5076675415039
+   ],
+   [
+    -82.93560791015625
+   ],
+   [
+    -87.84347534179688
+   ]
+  ]
+ ],
+ "time": 6013.13956284523
+}

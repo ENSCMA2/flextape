@@ -1,0 +1,2076 @@
+{
+ "case_id": 21969,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Roger Penrose"
+ },
+ "pre": [
+  [
+   "Roger Penrose's field of work is abstract algebra",
+   "Roger Penrose's field of work is theology",
+   "Roger Penrose's field of work is television program",
+   "Roger Penrose's field of work is nanotechnology",
+   "Roger Penrose's field of work is hydrodynamics",
+   "Roger Penrose's field of work is ethics",
+   "Roger Penrose's field of work is physicist",
+   "Roger Penrose's field of work is evolution",
+   "Roger Penrose's field of work is distribution theory",
+   "Roger Penrose's field of work is psychophysiology",
+   "Roger Penrose's field of work is English literature",
+   "Roger Penrose's field of work is theoretical physics",
+   "Roger Penrose's field of work is essay",
+   "Roger Penrose's field of work is ethnology",
+   "Roger Penrose's field of work is pedagogy",
+   "Roger Penrose's field of work is kinetic theory",
+   "Roger Penrose's field of work is ethnography",
+   "Roger Penrose's field of work is rite",
+   "Roger Penrose's field of work is economics",
+   "Roger Penrose's field of work is dance choreography",
+   "Roger Penrose's field of work is biological anthropology",
+   "Roger Penrose's field of work is history of religions",
+   "Roger Penrose's field of work is political philosophy",
+   "Roger Penrose's field of work is philosophy",
+   "Roger Penrose's field of work is linguistics",
+   "Roger Penrose's field of work is cosmology",
+   "Roger Penrose's field of work is hunting",
+   "Roger Penrose's field of work is Minkowski spacetime",
+   "Roger Penrose's field of work is classical music",
+   "Roger Penrose's field of work is hyperbolic geometry",
+   "Roger Penrose's field of work is radioactivity",
+   "Roger Penrose's field of work is belletristic literature",
+   "Roger Penrose's field of work is model theory",
+   "Roger Penrose's field of work is choreography",
+   "Roger Penrose's field of work is chemistry",
+   "Roger Penrose's field of work is literary activity",
+   "Roger Penrose's field of work is historical sociology",
+   "Roger Penrose's field of work is feminism",
+   "Roger Penrose's field of work is economy",
+   "Roger Penrose's field of work is astronomy",
+   "Roger Penrose's field of work is topology",
+   "Roger Penrose's field of work is translations from English",
+   "Roger Penrose's field of work is partial differential equation",
+   "Roger Penrose's field of work is Cairo Geniza",
+   "Roger Penrose's field of work is nuclear physics",
+   "Roger Penrose's field of work is dance",
+   "Roger Penrose's field of work is informatics",
+   "Roger Penrose's field of work is geometry",
+   "Roger Penrose's field of work is computational geometry",
+   "Roger Penrose's field of work is Sanskrit",
+   "Roger Penrose's field of work is magnetism",
+   "Roger Penrose's field of work is opera",
+   "Roger Penrose's field of work is algebraic topology",
+   "Roger Penrose's field of work is quaternion",
+   "Roger Penrose's field of work is Bayesian inference",
+   "Roger Penrose's field of work is quantum electrodynamics",
+   "Roger Penrose's field of work is religion and society",
+   "Roger Penrose's field of work is history of economic thought",
+   "Roger Penrose's field of work is translations from Polish",
+   "Roger Penrose's field of work is literary translation",
+   "Roger Penrose's field of work is lyric poetry",
+   "Roger Penrose's field of work is probability theory",
+   "Roger Penrose's field of work is ontology",
+   "Roger Penrose's field of work is aerodynamics",
+   "Roger Penrose's field of work is crystallography",
+   "Roger Penrose's field of work is mathematics",
+   "Roger Penrose's field of work is harmonic analysis",
+   "Roger Penrose's field of work is history of science",
+   "Roger Penrose's field of work is philosophy of law",
+   "Roger Penrose's field of work is philology",
+   "Roger Penrose's field of work is optics",
+   "Roger Penrose's field of work is functional analysis",
+   "Roger Penrose's field of work is surgery",
+   "Roger Penrose's field of work is complex function",
+   "Roger Penrose's field of work is Jewish philosophy",
+   "Roger Penrose's field of work is translations from Spanish",
+   "Roger Penrose's field of work is poetry",
+   "Roger Penrose's field of work is distribution",
+   "Roger Penrose's field of work is astrology",
+   "Roger Penrose's field of work is differential geometry",
+   "Roger Penrose's field of work is mechanics",
+   "Roger Penrose's field of work is positivism",
+   "Roger Penrose's field of work is ferromagnetism",
+   "Roger Penrose's field of work is quantum physics",
+   "Roger Penrose's field of work is music theory",
+   "Roger Penrose's field of work is physiology",
+   "Roger Penrose's field of work is theory of differential equations",
+   "Roger Penrose's field of work is astrophysics",
+   "Roger Penrose's field of work is number theory",
+   "Roger Penrose's field of work is magnetic field",
+   "Roger Penrose's field of work is historical novel",
+   "Roger Penrose's field of work is stochastic",
+   "Roger Penrose's field of work is philosopher",
+   "Roger Penrose's field of work is histology",
+   "Roger Penrose's field of work is Franciscan spirituality",
+   "Roger Penrose's field of work is electromagnetic field",
+   "Roger Penrose's field of work is medicine",
+   "Roger Penrose's field of work is algebraic geometry",
+   "Roger Penrose's field of work is comparative mythology",
+   "Roger Penrose's field of work is color photography",
+   "Roger Penrose's field of work is cryptography",
+   "Roger Penrose's field of work is Christian Church",
+   "Roger Penrose's field of work is electrical engineering",
+   "Roger Penrose's field of work is folklore",
+   "Roger Penrose's field of work is mythology",
+   "Roger Penrose's field of work is human geography",
+   "Roger Penrose's field of work is Petrine ministry",
+   "Roger Penrose's field of work is Judaism",
+   "Roger Penrose's field of work is group theory",
+   "Roger Penrose's field of work is non-Euclidean geometry",
+   "Roger Penrose's field of work is algebra",
+   "Roger Penrose's field of work is ballistics",
+   "Roger Penrose's field of work is mathematician",
+   "Roger Penrose's field of work is applied physics",
+   "Roger Penrose's field of work is culturology",
+   "Roger Penrose's field of work is calculus of variations",
+   "Roger Penrose's field of work is logic",
+   "Roger Penrose's field of work is engineering",
+   "Roger Penrose's field of work is translations from Occitan",
+   "Roger Penrose's field of work is anatomy",
+   "Roger Penrose's field of work is forestry science",
+   "Roger Penrose's field of work is magic",
+   "Roger Penrose's field of work is quantum mechanics",
+   "Roger Penrose's field of work is differential calculus",
+   "Roger Penrose's field of work is shipbuilding",
+   "Roger Penrose's field of work is convex function",
+   "Roger Penrose's field of work is analytic philosophy",
+   "Roger Penrose's field of work is magnetic resonance",
+   "Roger Penrose's field of work is detective literature",
+   "Roger Penrose's field of work is cartography",
+   "Roger Penrose's field of work is sociology of organisations",
+   "Roger Penrose's field of work is crime novel",
+   "Roger Penrose's field of work is gravity",
+   "Roger Penrose's field of work is statistics",
+   "Roger Penrose's field of work is Greek philology",
+   "Roger Penrose's field of work is analytic number theory",
+   "Roger Penrose's field of work is trigonometry",
+   "Roger Penrose's field of work is physics",
+   "Roger Penrose's field of work is astronomer",
+   "Roger Penrose's field of work is natural science",
+   "Roger Penrose's field of work is information technology",
+   "Roger Penrose's field of work is conducting",
+   "Roger Penrose's field of work is nonstandard analysis",
+   "Roger Penrose's field of work is mathematical analysis",
+   "Roger Penrose's field of work is a branch of physics",
+   "Roger Penrose's field of work is projective geometry",
+   "Roger Penrose's field of work is civil rights",
+   "Roger Penrose's field of work is children's and youth literature",
+   "Roger Penrose's field of work is embryology",
+   "Roger Penrose's field of work is momentum",
+   "Roger Penrose's field of work is African studies",
+   "Roger Penrose's field of work is fairy tale",
+   "Roger Penrose's field of work is classics",
+   "Roger Penrose's field of work is social psychology",
+   "Roger Penrose's field of work is Jewish studies",
+   "Roger Penrose's field of work is silviculture",
+   "Roger Penrose's field of work is education",
+   "Roger Penrose's field of work is literature",
+   "Roger Penrose's field of work is constitutional law",
+   "Roger Penrose's field of work is radiation",
+   "Roger Penrose's field of work is Internet",
+   "Roger Penrose's field of work is heat",
+   "Roger Penrose's field of work is mechanical engineering",
+   "Roger Penrose's field of work is forestry",
+   "Roger Penrose's field of work is jazz",
+   "Roger Penrose's field of work is social philosophy",
+   "Roger Penrose's field of work is mathematical physics",
+   "Roger Penrose's field of work is meteorology",
+   "Roger Penrose's field of work is translations from Arabic language",
+   "Roger Penrose's field of work is quantum mysticism",
+   "Roger Penrose's field of work is politics",
+   "Roger Penrose's field of work is astronomical observation",
+   "Roger Penrose's field of work is myth",
+   "Roger Penrose's field of work is geography",
+   "Roger Penrose's field of work is sociology of religion",
+   "Roger Penrose's field of work is comparative religion",
+   "Roger Penrose's field of work is Greek",
+   "Roger Penrose's field of work is Lie algebra",
+   "Roger Penrose's field of work is complex manifold",
+   "Roger Penrose's field of work is journalism",
+   "Roger Penrose's field of work is celestial mechanics",
+   "Roger Penrose's field of work is String",
+   "Roger Penrose's field of work is mathematical logic",
+   "Roger Penrose's field of work is aeromechanics",
+   "Roger Penrose's field of work is English",
+   "Roger Penrose's field of work is history",
+   "Roger Penrose's field of work is study of history",
+   "Roger Penrose's field of work is genetics",
+   "Roger Penrose's field of work is psychology",
+   "Roger Penrose's field of work is theory of relativity",
+   "Roger Penrose's field of work is biochemistry",
+   "Roger Penrose's field of work is ballet",
+   "Roger Penrose's field of work is electricity",
+   "Roger Penrose's field of work is experimental physics",
+   "Roger Penrose's field of work is natural theology",
+   "Roger Penrose's field of work is Hebrew",
+   "Roger Penrose's field of work is prose",
+   "Roger Penrose's field of work is paleontology",
+   "Roger Penrose's field of work is Monte Carlo method",
+   "Roger Penrose's field of work is quantum theory",
+   "Roger Penrose's field of work is computer science",
+   "Roger Penrose's field of work is cybernetics",
+   "Roger Penrose's field of work is Afghanistan",
+   "Roger Penrose's field of work is philosophy of science",
+   "Roger Penrose's field of work is literary theory",
+   "Roger Penrose's field of work is electric field",
+   "Roger Penrose's field of work is religion",
+   "Roger Penrose's field of work is analytic geometry",
+   "Roger Penrose's field of work is graph theory",
+   "Roger Penrose's field of work is electron",
+   "Roger Penrose's field of work is anthropology",
+   "Roger Penrose's field of work is social anthropology",
+   "Roger Penrose's field of work is sociology",
+   "Roger Penrose's field of work is geodesy",
+   "Roger Penrose's field of work is neurology",
+   "Roger Penrose's field of work is drama",
+   "Roger Penrose's field of work is art of painting",
+   "Roger Penrose's field of work is applied mathematics",
+   "Roger Penrose's field of work is world economy",
+   "Roger Penrose's field of work is economic anthropology",
+   "Roger Penrose is abstract algebra",
+   "Roger Penrose is theology",
+   "Roger Penrose is television program",
+   "Roger Penrose is nanotechnology",
+   "Roger Penrose is hydrodynamics",
+   "Roger Penrose is ethics",
+   "Roger Penrose is physicist",
+   "Roger Penrose is evolution",
+   "Roger Penrose is distribution theory",
+   "Roger Penrose is psychophysiology",
+   "Roger Penrose is English literature",
+   "Roger Penrose is theoretical physics",
+   "Roger Penrose is essay",
+   "Roger Penrose is ethnology",
+   "Roger Penrose is pedagogy",
+   "Roger Penrose is kinetic theory",
+   "Roger Penrose is ethnography",
+   "Roger Penrose is rite",
+   "Roger Penrose is economics",
+   "Roger Penrose is dance choreography",
+   "Roger Penrose is biological anthropology",
+   "Roger Penrose is history of religions",
+   "Roger Penrose is political philosophy",
+   "Roger Penrose is philosophy",
+   "Roger Penrose is linguistics",
+   "Roger Penrose is cosmology",
+   "Roger Penrose is hunting",
+   "Roger Penrose is Minkowski spacetime",
+   "Roger Penrose is classical music",
+   "Roger Penrose is hyperbolic geometry",
+   "Roger Penrose is radioactivity",
+   "Roger Penrose is belletristic literature",
+   "Roger Penrose is model theory",
+   "Roger Penrose is choreography",
+   "Roger Penrose is chemistry",
+   "Roger Penrose is literary activity",
+   "Roger Penrose is historical sociology",
+   "Roger Penrose is feminism",
+   "Roger Penrose is economy",
+   "Roger Penrose is astronomy",
+   "Roger Penrose is topology",
+   "Roger Penrose is translations from English",
+   "Roger Penrose is partial differential equation",
+   "Roger Penrose is Cairo Geniza",
+   "Roger Penrose is nuclear physics",
+   "Roger Penrose is dance",
+   "Roger Penrose is informatics",
+   "Roger Penrose is geometry",
+   "Roger Penrose is computational geometry",
+   "Roger Penrose is Sanskrit",
+   "Roger Penrose is magnetism",
+   "Roger Penrose is opera",
+   "Roger Penrose is algebraic topology",
+   "Roger Penrose is quaternion",
+   "Roger Penrose is Bayesian inference",
+   "Roger Penrose is quantum electrodynamics",
+   "Roger Penrose is religion and society",
+   "Roger Penrose is history of economic thought",
+   "Roger Penrose is translations from Polish",
+   "Roger Penrose is literary translation",
+   "Roger Penrose is lyric poetry",
+   "Roger Penrose is probability theory",
+   "Roger Penrose is ontology",
+   "Roger Penrose is aerodynamics",
+   "Roger Penrose is crystallography",
+   "Roger Penrose is mathematics",
+   "Roger Penrose is harmonic analysis",
+   "Roger Penrose is history of science",
+   "Roger Penrose is philosophy of law",
+   "Roger Penrose is philology",
+   "Roger Penrose is optics",
+   "Roger Penrose is functional analysis",
+   "Roger Penrose is surgery",
+   "Roger Penrose is complex function",
+   "Roger Penrose is Jewish philosophy",
+   "Roger Penrose is translations from Spanish",
+   "Roger Penrose is poetry",
+   "Roger Penrose is distribution",
+   "Roger Penrose is astrology",
+   "Roger Penrose is differential geometry",
+   "Roger Penrose is mechanics",
+   "Roger Penrose is positivism",
+   "Roger Penrose is ferromagnetism",
+   "Roger Penrose is quantum physics",
+   "Roger Penrose is music theory",
+   "Roger Penrose is physiology",
+   "Roger Penrose is theory of differential equations",
+   "Roger Penrose is astrophysics",
+   "Roger Penrose is number theory",
+   "Roger Penrose is magnetic field",
+   "Roger Penrose is historical novel",
+   "Roger Penrose is stochastic",
+   "Roger Penrose is philosopher",
+   "Roger Penrose is histology",
+   "Roger Penrose is Franciscan spirituality",
+   "Roger Penrose is electromagnetic field",
+   "Roger Penrose is medicine",
+   "Roger Penrose is algebraic geometry",
+   "Roger Penrose is comparative mythology",
+   "Roger Penrose is color photography",
+   "Roger Penrose is cryptography",
+   "Roger Penrose is Christian Church",
+   "Roger Penrose is electrical engineering",
+   "Roger Penrose is folklore",
+   "Roger Penrose is mythology",
+   "Roger Penrose is human geography",
+   "Roger Penrose is Petrine ministry",
+   "Roger Penrose is Judaism",
+   "Roger Penrose is group theory",
+   "Roger Penrose is non-Euclidean geometry",
+   "Roger Penrose is algebra",
+   "Roger Penrose is ballistics",
+   "Roger Penrose is mathematician",
+   "Roger Penrose is applied physics",
+   "Roger Penrose is culturology",
+   "Roger Penrose is calculus of variations",
+   "Roger Penrose is logic",
+   "Roger Penrose is engineering",
+   "Roger Penrose is translations from Occitan",
+   "Roger Penrose is anatomy",
+   "Roger Penrose is forestry science",
+   "Roger Penrose is magic",
+   "Roger Penrose is quantum mechanics",
+   "Roger Penrose is differential calculus",
+   "Roger Penrose is shipbuilding",
+   "Roger Penrose is convex function",
+   "Roger Penrose is analytic philosophy",
+   "Roger Penrose is magnetic resonance",
+   "Roger Penrose is detective literature",
+   "Roger Penrose is cartography",
+   "Roger Penrose is sociology of organisations",
+   "Roger Penrose is crime novel",
+   "Roger Penrose is gravity",
+   "Roger Penrose is statistics",
+   "Roger Penrose is Greek philology",
+   "Roger Penrose is analytic number theory",
+   "Roger Penrose is trigonometry",
+   "Roger Penrose is physics",
+   "Roger Penrose is astronomer",
+   "Roger Penrose is natural science",
+   "Roger Penrose is information technology",
+   "Roger Penrose is conducting",
+   "Roger Penrose is nonstandard analysis",
+   "Roger Penrose is mathematical analysis",
+   "Roger Penrose is a branch of physics",
+   "Roger Penrose is projective geometry",
+   "Roger Penrose is civil rights",
+   "Roger Penrose is children's and youth literature",
+   "Roger Penrose is embryology",
+   "Roger Penrose is momentum",
+   "Roger Penrose is African studies",
+   "Roger Penrose is fairy tale",
+   "Roger Penrose is classics",
+   "Roger Penrose is social psychology",
+   "Roger Penrose is Jewish studies",
+   "Roger Penrose is silviculture",
+   "Roger Penrose is education",
+   "Roger Penrose is literature",
+   "Roger Penrose is constitutional law",
+   "Roger Penrose is radiation",
+   "Roger Penrose is Internet",
+   "Roger Penrose is heat",
+   "Roger Penrose is mechanical engineering",
+   "Roger Penrose is forestry",
+   "Roger Penrose is jazz",
+   "Roger Penrose is social philosophy",
+   "Roger Penrose is mathematical physics",
+   "Roger Penrose is meteorology",
+   "Roger Penrose is translations from Arabic language",
+   "Roger Penrose is quantum mysticism",
+   "Roger Penrose is politics",
+   "Roger Penrose is astronomical observation",
+   "Roger Penrose is myth",
+   "Roger Penrose is geography",
+   "Roger Penrose is sociology of religion",
+   "Roger Penrose is comparative religion",
+   "Roger Penrose is Greek",
+   "Roger Penrose is Lie algebra",
+   "Roger Penrose is complex manifold",
+   "Roger Penrose is journalism",
+   "Roger Penrose is celestial mechanics",
+   "Roger Penrose is String",
+   "Roger Penrose is mathematical logic",
+   "Roger Penrose is aeromechanics",
+   "Roger Penrose is English",
+   "Roger Penrose is history",
+   "Roger Penrose is study of history",
+   "Roger Penrose is genetics",
+   "Roger Penrose is psychology",
+   "Roger Penrose is theory of relativity",
+   "Roger Penrose is biochemistry",
+   "Roger Penrose is ballet",
+   "Roger Penrose is electricity",
+   "Roger Penrose is experimental physics",
+   "Roger Penrose is natural theology",
+   "Roger Penrose is Hebrew",
+   "Roger Penrose is prose",
+   "Roger Penrose is paleontology",
+   "Roger Penrose is Monte Carlo method",
+   "Roger Penrose is quantum theory",
+   "Roger Penrose is computer science",
+   "Roger Penrose is cybernetics",
+   "Roger Penrose is Afghanistan",
+   "Roger Penrose is philosophy of science",
+   "Roger Penrose is literary theory",
+   "Roger Penrose is electric field",
+   "Roger Penrose is religion",
+   "Roger Penrose is analytic geometry",
+   "Roger Penrose is graph theory",
+   "Roger Penrose is electron",
+   "Roger Penrose is anthropology",
+   "Roger Penrose is social anthropology",
+   "Roger Penrose is sociology",
+   "Roger Penrose is geodesy",
+   "Roger Penrose is neurology",
+   "Roger Penrose is drama",
+   "Roger Penrose is art of painting",
+   "Roger Penrose is applied mathematics",
+   "Roger Penrose is world economy",
+   "Roger Penrose is economic anthropology"
+  ],
+  [
+   [
+    -50.82762908935547
+   ],
+   [
+    -49.503822326660156
+   ],
+   [
+    -58.820674896240234
+   ],
+   [
+    -49.85077667236328
+   ],
+   [
+    -50.76835632324219
+   ],
+   [
+    -50.31865692138672
+   ],
+   [
+    -46.9219856262207
+   ],
+   [
+    -46.139923095703125
+   ],
+   [
+    -52.594268798828125
+   ],
+   [
+    -54.60761260986328
+   ],
+   [
+    -48.758995056152344
+   ],
+   [
+    -40.69474792480469
+   ],
+   [
+    -51.235904693603516
+   ],
+   [
+    -55.887474060058594
+   ],
+   [
+    -52.407779693603516
+   ],
+   [
+    -52.204193115234375
+   ],
+   [
+    -55.4498405456543
+   ],
+   [
+    -58.50407791137695
+   ],
+   [
+    -49.20789337158203
+   ],
+   [
+    -58.07766342163086
+   ],
+   [
+    -59.835205078125
+   ],
+   [
+    -54.601959228515625
+   ],
+   [
+    -51.245574951171875
+   ],
+   [
+    -44.45915985107422
+   ],
+   [
+    -50.362762451171875
+   ],
+   [
+    -41.82740020751953
+   ],
+   [
+    -51.630279541015625
+   ],
+   [
+    -48.90791320800781
+   ],
+   [
+    -53.60441589355469
+   ],
+   [
+    -47.92251968383789
+   ],
+   [
+    -56.271827697753906
+   ],
+   [
+    -58.72663116455078
+   ],
+   [
+    -47.936988830566406
+   ],
+   [
+    -55.669464111328125
+   ],
+   [
+    -50.5272102355957
+   ],
+   [
+    -59.9576416015625
+   ],
+   [
+    -57.502037048339844
+   ],
+   [
+    -53.50146484375
+   ],
+   [
+    -53.19514465332031
+   ],
+   [
+    -46.417930603027344
+   ],
+   [
+    -44.86520767211914
+   ],
+   [
+    -60.555328369140625
+   ],
+   [
+    -50.948917388916016
+   ],
+   [
+    -64.59986877441406
+   ],
+   [
+    -48.697532653808594
+   ],
+   [
+    -52.874488830566406
+   ],
+   [
+    -49.5665168762207
+   ],
+   [
+    -41.430667877197266
+   ],
+   [
+    -47.05379867553711
+   ],
+   [
+    -54.20135498046875
+   ],
+   [
+    -51.12300109863281
+   ],
+   [
+    -50.447296142578125
+   ],
+   [
+    -48.95071029663086
+   ],
+   [
+    -53.451560974121094
+   ],
+   [
+    -49.28472137451172
+   ],
+   [
+    -53.07166290283203
+   ],
+   [
+    -54.9771614074707
+   ],
+   [
+    -55.543331146240234
+   ],
+   [
+    -63.95963668823242
+   ],
+   [
+    -56.783931732177734
+   ],
+   [
+    -52.99832534790039
+   ],
+   [
+    -48.82854080200195
+   ],
+   [
+    -48.63562774658203
+   ],
+   [
+    -50.309417724609375
+   ],
+   [
+    -46.391361236572266
+   ],
+   [
+    -41.01386260986328
+   ],
+   [
+    -48.11282730102539
+   ],
+   [
+    -49.95545196533203
+   ],
+   [
+    -55.57260513305664
+   ],
+   [
+    -51.60426712036133
+   ],
+   [
+    -45.279239654541016
+   ],
+   [
+    -49.498409271240234
+   ],
+   [
+    -50.089866638183594
+   ],
+   [
+    -52.0185432434082
+   ],
+   [
+    -53.59599685668945
+   ],
+   [
+    -63.15377426147461
+   ],
+   [
+    -50.42729187011719
+   ],
+   [
+    -50.66071319580078
+   ],
+   [
+    -50.460174560546875
+   ],
+   [
+    -44.49917221069336
+   ],
+   [
+    -47.625064849853516
+   ],
+   [
+    -53.29058837890625
+   ],
+   [
+    -55.16027069091797
+   ],
+   [
+    -45.56021499633789
+   ],
+   [
+    -52.77710723876953
+   ],
+   [
+    -47.201507568359375
+   ],
+   [
+    -57.40983963012695
+   ],
+   [
+    -43.932945251464844
+   ],
+   [
+    -44.01643753051758
+   ],
+   [
+    -54.9603157043457
+   ],
+   [
+    -57.797428131103516
+   ],
+   [
+    -47.7536506652832
+   ],
+   [
+    -49.493900299072266
+   ],
+   [
+    -53.46513366699219
+   ],
+   [
+    -57.628787994384766
+   ],
+   [
+    -54.87370681762695
+   ],
+   [
+    -48.45020294189453
+   ],
+   [
+    -46.02427291870117
+   ],
+   [
+    -54.067806243896484
+   ],
+   [
+    -53.55816650390625
+   ],
+   [
+    -49.0902099609375
+   ],
+   [
+    -58.2667121887207
+   ],
+   [
+    -47.52344512939453
+   ],
+   [
+    -51.408302307128906
+   ],
+   [
+    -50.92237854003906
+   ],
+   [
+    -56.967350006103516
+   ],
+   [
+    -66.22248840332031
+   ],
+   [
+    -52.9370231628418
+   ],
+   [
+    -47.631839752197266
+   ],
+   [
+    -46.89427947998047
+   ],
+   [
+    -48.059303283691406
+   ],
+   [
+    -50.87518310546875
+   ],
+   [
+    -47.62563705444336
+   ],
+   [
+    -49.01431655883789
+   ],
+   [
+    -55.5484619140625
+   ],
+   [
+    -48.42430877685547
+   ],
+   [
+    -45.63773727416992
+   ],
+   [
+    -48.24772644042969
+   ],
+   [
+    -68.02659606933594
+   ],
+   [
+    -48.686004638671875
+   ],
+   [
+    -59.41783905029297
+   ],
+   [
+    -47.97871398925781
+   ],
+   [
+    -45.940521240234375
+   ],
+   [
+    -54.463382720947266
+   ],
+   [
+    -54.31377410888672
+   ],
+   [
+    -57.70164108276367
+   ],
+   [
+    -49.705604553222656
+   ],
+   [
+    -50.62732696533203
+   ],
+   [
+    -60.85344696044922
+   ],
+   [
+    -52.58018112182617
+   ],
+   [
+    -60.426963806152344
+   ],
+   [
+    -58.1104736328125
+   ],
+   [
+    -45.303672790527344
+   ],
+   [
+    -48.216529846191406
+   ],
+   [
+    -56.32526397705078
+   ],
+   [
+    -49.37523651123047
+   ],
+   [
+    -51.06443405151367
+   ],
+   [
+    -42.05571365356445
+   ],
+   [
+    -56.55485534667969
+   ],
+   [
+    -48.94584274291992
+   ],
+   [
+    -52.0750617980957
+   ],
+   [
+    -50.941650390625
+   ],
+   [
+    -51.93218994140625
+   ],
+   [
+    -45.54717254638672
+   ],
+   [
+    -47.84872817993164
+   ],
+   [
+    -50.18370056152344
+   ],
+   [
+    -58.794097900390625
+   ],
+   [
+    -60.46027374267578
+   ],
+   [
+    -51.73760986328125
+   ],
+   [
+    -51.639686584472656
+   ],
+   [
+    -54.38810348510742
+   ],
+   [
+    -56.135215759277344
+   ],
+   [
+    -50.695068359375
+   ],
+   [
+    -53.54832077026367
+   ],
+   [
+    -52.97053146362305
+   ],
+   [
+    -58.687477111816406
+   ],
+   [
+    -50.030059814453125
+   ],
+   [
+    -49.07311248779297
+   ],
+   [
+    -50.914310455322266
+   ],
+   [
+    -46.93424606323242
+   ],
+   [
+    -52.918113708496094
+   ],
+   [
+    -51.801795959472656
+   ],
+   [
+    -51.26414108276367
+   ],
+   [
+    -55.16896057128906
+   ],
+   [
+    -52.47120666503906
+   ],
+   [
+    -56.655853271484375
+   ],
+   [
+    -39.0412712097168
+   ],
+   [
+    -49.008296966552734
+   ],
+   [
+    -69.38636779785156
+   ],
+   [
+    -52.51251983642578
+   ],
+   [
+    -50.65898132324219
+   ],
+   [
+    -57.88612365722656
+   ],
+   [
+    -49.761138916015625
+   ],
+   [
+    -50.08465576171875
+   ],
+   [
+    -54.87394714355469
+   ],
+   [
+    -51.30421447753906
+   ],
+   [
+    -51.150299072265625
+   ],
+   [
+    -50.78037643432617
+   ],
+   [
+    -49.450347900390625
+   ],
+   [
+    -50.81913375854492
+   ],
+   [
+    -46.23018264770508
+   ],
+   [
+    -46.32740020751953
+   ],
+   [
+    -43.77994918823242
+   ],
+   [
+    -57.10216522216797
+   ],
+   [
+    -46.40789031982422
+   ],
+   [
+    -47.951072692871094
+   ],
+   [
+    -59.181617736816406
+   ],
+   [
+    -50.552833557128906
+   ],
+   [
+    -48.39284133911133
+   ],
+   [
+    -48.661521911621094
+   ],
+   [
+    -50.76508331298828
+   ],
+   [
+    -55.02106475830078
+   ],
+   [
+    -50.62794876098633
+   ],
+   [
+    -47.09562301635742
+   ],
+   [
+    -53.176395416259766
+   ],
+   [
+    -51.556739807128906
+   ],
+   [
+    -55.079185485839844
+   ],
+   [
+    -51.74420928955078
+   ],
+   [
+    -53.790428161621094
+   ],
+   [
+    -47.66121292114258
+   ],
+   [
+    -46.231468200683594
+   ],
+   [
+    -50.73537063598633
+   ],
+   [
+    -53.6180534362793
+   ],
+   [
+    -45.72635269165039
+   ],
+   [
+    -52.45576477050781
+   ],
+   [
+    -53.43212890625
+   ],
+   [
+    -48.58917999267578
+   ],
+   [
+    -48.11088943481445
+   ],
+   [
+    -48.78176498413086
+   ],
+   [
+    -49.6177978515625
+   ],
+   [
+    -53.19044876098633
+   ],
+   [
+    -55.417293548583984
+   ],
+   [
+    -51.379974365234375
+   ],
+   [
+    -46.66972732543945
+   ],
+   [
+    -50.569580078125
+   ],
+   [
+    -51.82378387451172
+   ],
+   [
+    -59.83354568481445
+   ],
+   [
+    -44.335227966308594
+   ],
+   [
+    -58.50675964355469
+   ],
+   [
+    -59.11383056640625
+   ],
+   [
+    -43.66194152832031
+   ],
+   [
+    -35.000484466552734
+   ],
+   [
+    -40.83155059814453
+   ],
+   [
+    -37.9314079284668
+   ],
+   [
+    -42.2908821105957
+   ],
+   [
+    -37.07440948486328
+   ],
+   [
+    -29.620418548583984
+   ],
+   [
+    -32.932334899902344
+   ],
+   [
+    -44.57266616821289
+   ],
+   [
+    -43.674041748046875
+   ],
+   [
+    -41.47190856933594
+   ],
+   [
+    -35.10622024536133
+   ],
+   [
+    -34.980682373046875
+   ],
+   [
+    -40.92070770263672
+   ],
+   [
+    -42.99342727661133
+   ],
+   [
+    -40.37489700317383
+   ],
+   [
+    -41.322227478027344
+   ],
+   [
+    -38.07114028930664
+   ],
+   [
+    -35.86941909790039
+   ],
+   [
+    -45.720035552978516
+   ],
+   [
+    -43.2009162902832
+   ],
+   [
+    -44.26347351074219
+   ],
+   [
+    -39.14653015136719
+   ],
+   [
+    -31.837486267089844
+   ],
+   [
+    -38.367496490478516
+   ],
+   [
+    -33.067710876464844
+   ],
+   [
+    -32.74964904785156
+   ],
+   [
+    -41.20188903808594
+   ],
+   [
+    -37.16317367553711
+   ],
+   [
+    -45.62175369262695
+   ],
+   [
+    -41.16426467895508
+   ],
+   [
+    -49.09153366088867
+   ],
+   [
+    -41.89769744873047
+   ],
+   [
+    -40.59456253051758
+   ],
+   [
+    -35.0008430480957
+   ],
+   [
+    -45.263309478759766
+   ],
+   [
+    -42.92296600341797
+   ],
+   [
+    -39.50362014770508
+   ],
+   [
+    -38.694068908691406
+   ],
+   [
+    -37.83224868774414
+   ],
+   [
+    -36.542259216308594
+   ],
+   [
+    -46.889739990234375
+   ],
+   [
+    -39.78049850463867
+   ],
+   [
+    -50.32085418701172
+   ],
+   [
+    -39.64768981933594
+   ],
+   [
+    -37.1188850402832
+   ],
+   [
+    -39.755859375
+   ],
+   [
+    -35.94517517089844
+   ],
+   [
+    -41.50556564331055
+   ],
+   [
+    -36.85307312011719
+   ],
+   [
+    -37.110206604003906
+   ],
+   [
+    -33.37806701660156
+   ],
+   [
+    -40.39751434326172
+   ],
+   [
+    -36.52238464355469
+   ],
+   [
+    -44.74162292480469
+   ],
+   [
+    -42.260826110839844
+   ],
+   [
+    -44.05887985229492
+   ],
+   [
+    -44.792510986328125
+   ],
+   [
+    -48.95163345336914
+   ],
+   [
+    -43.47618103027344
+   ],
+   [
+    -42.48582458496094
+   ],
+   [
+    -39.01933670043945
+   ],
+   [
+    -39.49870300292969
+   ],
+   [
+    -39.40538787841797
+   ],
+   [
+    -39.7019157409668
+   ],
+   [
+    -30.45325469970703
+   ],
+   [
+    -40.09954833984375
+   ],
+   [
+    -37.083251953125
+   ],
+   [
+    -42.253604888916016
+   ],
+   [
+    -43.01972961425781
+   ],
+   [
+    -36.12289810180664
+   ],
+   [
+    -42.55427551269531
+   ],
+   [
+    -35.48196792602539
+   ],
+   [
+    -44.342872619628906
+   ],
+   [
+    -43.927555084228516
+   ],
+   [
+    -49.463958740234375
+   ],
+   [
+    -36.22975540161133
+   ],
+   [
+    -38.35841369628906
+   ],
+   [
+    -38.99996566772461
+   ],
+   [
+    -37.02616500854492
+   ],
+   [
+    -39.96646499633789
+   ],
+   [
+    -39.250301361083984
+   ],
+   [
+    -45.0316047668457
+   ],
+   [
+    -35.52998352050781
+   ],
+   [
+    -39.812889099121094
+   ],
+   [
+    -39.49797439575195
+   ],
+   [
+    -44.98673629760742
+   ],
+   [
+    -34.8154296875
+   ],
+   [
+    -36.565643310546875
+   ],
+   [
+    -37.85834884643555
+   ],
+   [
+    -38.41223907470703
+   ],
+   [
+    -37.80130386352539
+   ],
+   [
+    -30.599201202392578
+   ],
+   [
+    -42.52895736694336
+   ],
+   [
+    -46.99524688720703
+   ],
+   [
+    -40.53109359741211
+   ],
+   [
+    -35.466346740722656
+   ],
+   [
+    -37.997005462646484
+   ],
+   [
+    -43.11880874633789
+   ],
+   [
+    -40.55995559692383
+   ],
+   [
+    -40.20287322998047
+   ],
+   [
+    -40.37755584716797
+   ],
+   [
+    -37.97479248046875
+   ],
+   [
+    -39.56948471069336
+   ],
+   [
+    -36.75177001953125
+   ],
+   [
+    -42.07746887207031
+   ],
+   [
+    -55.89338684082031
+   ],
+   [
+    -39.09306335449219
+   ],
+   [
+    -38.956947326660156
+   ],
+   [
+    -38.776031494140625
+   ],
+   [
+    -36.66212844848633
+   ],
+   [
+    -39.22121047973633
+   ],
+   [
+    -29.0095272064209
+   ],
+   [
+    -38.05333709716797
+   ],
+   [
+    -44.17048645019531
+   ],
+   [
+    -45.51835632324219
+   ],
+   [
+    -33.50572967529297
+   ],
+   [
+    -34.18520736694336
+   ],
+   [
+    -52.900848388671875
+   ],
+   [
+    -35.749427795410156
+   ],
+   [
+    -50.812782287597656
+   ],
+   [
+    -33.756771087646484
+   ],
+   [
+    -35.483184814453125
+   ],
+   [
+    -42.356163024902344
+   ],
+   [
+    -40.18732452392578
+   ],
+   [
+    -44.667972564697266
+   ],
+   [
+    -38.768280029296875
+   ],
+   [
+    -38.07566833496094
+   ],
+   [
+    -45.323951721191406
+   ],
+   [
+    -38.33732986450195
+   ],
+   [
+    -51.5163688659668
+   ],
+   [
+    -39.076576232910156
+   ],
+   [
+    -34.85107421875
+   ],
+   [
+    -36.438411712646484
+   ],
+   [
+    -47.36665725708008
+   ],
+   [
+    -43.097328186035156
+   ],
+   [
+    -39.547523498535156
+   ],
+   [
+    -31.10809326171875
+   ],
+   [
+    -32.8126220703125
+   ],
+   [
+    -36.66498947143555
+   ],
+   [
+    -40.02732849121094
+   ],
+   [
+    -31.126163482666016
+   ],
+   [
+    -43.69184875488281
+   ],
+   [
+    -38.29124069213867
+   ],
+   [
+    -37.24376678466797
+   ],
+   [
+    -38.18427658081055
+   ],
+   [
+    -40.3277587890625
+   ],
+   [
+    -52.515708923339844
+   ],
+   [
+    -41.418670654296875
+   ],
+   [
+    -38.03785705566406
+   ],
+   [
+    -43.42478942871094
+   ],
+   [
+    -39.98365020751953
+   ],
+   [
+    -35.56669998168945
+   ],
+   [
+    -41.88515090942383
+   ],
+   [
+    -41.827232360839844
+   ],
+   [
+    -44.46266174316406
+   ],
+   [
+    -34.2191162109375
+   ],
+   [
+    -35.58763122558594
+   ],
+   [
+    -40.22710418701172
+   ],
+   [
+    -34.69685745239258
+   ],
+   [
+    -34.126304626464844
+   ],
+   [
+    -37.099769592285156
+   ],
+   [
+    -40.3457145690918
+   ],
+   [
+    -45.07960510253906
+   ],
+   [
+    -33.759300231933594
+   ],
+   [
+    -43.09727096557617
+   ],
+   [
+    -34.150978088378906
+   ],
+   [
+    -37.4014892578125
+   ],
+   [
+    -54.71434020996094
+   ],
+   [
+    -40.89338684082031
+   ],
+   [
+    -36.18122482299805
+   ],
+   [
+    -46.98204040527344
+   ],
+   [
+    -32.508331298828125
+   ],
+   [
+    -37.394004821777344
+   ],
+   [
+    -45.222267150878906
+   ],
+   [
+    -41.78437423706055
+   ],
+   [
+    -34.691654205322266
+   ],
+   [
+    -44.026641845703125
+   ],
+   [
+    -43.06578063964844
+   ],
+   [
+    -37.26805114746094
+   ],
+   [
+    -40.02721405029297
+   ],
+   [
+    -33.21177673339844
+   ],
+   [
+    -36.45241928100586
+   ],
+   [
+    -44.81986618041992
+   ],
+   [
+    -29.355640411376953
+   ],
+   [
+    -32.90182113647461
+   ],
+   [
+    -44.09221649169922
+   ],
+   [
+    -38.889320373535156
+   ],
+   [
+    -36.37630844116211
+   ],
+   [
+    -36.57575225830078
+   ],
+   [
+    -37.09462356567383
+   ],
+   [
+    -36.65766906738281
+   ],
+   [
+    -37.35643005371094
+   ],
+   [
+    -36.47351837158203
+   ],
+   [
+    -41.02980041503906
+   ],
+   [
+    -37.19622039794922
+   ],
+   [
+    -36.810585021972656
+   ],
+   [
+    -38.65604782104492
+   ],
+   [
+    -41.987693786621094
+   ],
+   [
+    -36.99803924560547
+   ],
+   [
+    -35.32152557373047
+   ],
+   [
+    -35.52666473388672
+   ],
+   [
+    -38.26621627807617
+   ],
+   [
+    -34.12434005737305
+   ],
+   [
+    -39.59777069091797
+   ],
+   [
+    -40.95677185058594
+   ],
+   [
+    -34.96544647216797
+   ],
+   [
+    -39.96662139892578
+   ],
+   [
+    -39.297523498535156
+   ],
+   [
+    -34.37421417236328
+   ],
+   [
+    -39.07902526855469
+   ],
+   [
+    -43.51790237426758
+   ],
+   [
+    -38.86368179321289
+   ],
+   [
+    -40.52140426635742
+   ],
+   [
+    -37.464988708496094
+   ],
+   [
+    -36.32406234741211
+   ],
+   [
+    -46.10607147216797
+   ],
+   [
+    -35.58049392700195
+   ],
+   [
+    -43.641170501708984
+   ],
+   [
+    -44.14435577392578
+   ]
+  ]
+ ],
+ "time": 1087.1313610076904
+}

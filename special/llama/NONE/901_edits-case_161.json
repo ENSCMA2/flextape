@@ -1,0 +1,3723 @@
+{
+ "case_id": 161,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299,
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  595,
+  596,
+  598,
+  599,
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  694,
+  695,
+  696,
+  697,
+  699,
+  700,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  715,
+  716,
+  718,
+  719,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  797,
+  798,
+  799,
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  810,
+  811,
+  812,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  867,
+  868,
+  869,
+  870,
+  871,
+  873,
+  874,
+  875,
+  876,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899,
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  931,
+  932,
+  934,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  948,
+  949,
+  950
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "The language of {} is",
+  "relation_id": "P407",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "Persian",
+   "id": "Q9168"
+  },
+  "subject": "Dehkhoda Dictionary"
+ },
+ "pre": [
+  [
+   "Dehkhoda Dictionary was written in the country of Q339182",
+   "Dehkhoda Dictionary was written in the country of Q43631",
+   "Dehkhoda Dictionary was written in the country of Q2061870",
+   "Dehkhoda Dictionary was written in the country of Q25331",
+   "Dehkhoda Dictionary was written in the country of Q3776576",
+   "Dehkhoda Dictionary was written in the country of Q81621",
+   "Dehkhoda Dictionary was written in the country of Q38511",
+   "Dehkhoda Dictionary was written in the country of Q23436",
+   "Dehkhoda Dictionary was written in the country of Q627653",
+   "Dehkhoda Dictionary was written in the country of Q749",
+   "Dehkhoda Dictionary was written in the country of Q42088",
+   "Dehkhoda Dictionary was written in the country of Q206687",
+   "Dehkhoda Dictionary was written in the country of Q18655",
+   "Dehkhoda Dictionary was written in the country of Q54163",
+   "Dehkhoda Dictionary was written in the country of Q1144835",
+   "Dehkhoda Dictionary was written in the country of Q3626259",
+   "Dehkhoda Dictionary was written in the country of Q30096",
+   "Dehkhoda Dictionary was written in the country of Q181725",
+   "Dehkhoda Dictionary was written in the country of Q18426",
+   "Dehkhoda Dictionary was written in the country of Q4734309",
+   "Dehkhoda Dictionary was written in the country of Q823531",
+   "Dehkhoda Dictionary was written in the country of Q13210107",
+   "Dehkhoda Dictionary was written in the country of Q656",
+   "Dehkhoda Dictionary was written in the country of Q1709",
+   "Dehkhoda Dictionary was written in the country of Q1492",
+   "Dehkhoda Dictionary was written in the country of Q6602",
+   "Dehkhoda Dictionary was written in the country of Q1490",
+   "Dehkhoda Dictionary was written in the country of Q939529",
+   "Dehkhoda Dictionary was written in the country of Q1890931",
+   "Dehkhoda Dictionary was written in the country of Q2640897",
+   "Dehkhoda Dictionary was written in the country of Q655874",
+   "Dehkhoda Dictionary was written in the country of Q40623",
+   "Dehkhoda Dictionary was written in the country of Q21711493",
+   "Dehkhoda Dictionary was written in the country of Q23360",
+   "Dehkhoda Dictionary was written in the country of Q25286",
+   "Dehkhoda Dictionary was written in the country of Q963309",
+   "Dehkhoda Dictionary was written in the country of Q1761",
+   "Dehkhoda Dictionary was written in the country of Q1773",
+   "Dehkhoda Dictionary was written in the country of Q18986",
+   "Dehkhoda Dictionary was written in the country of Q78",
+   "Dehkhoda Dictionary was written in the country of Q11025",
+   "Dehkhoda Dictionary was written in the country of Q13375",
+   "Dehkhoda Dictionary was written in the country of Q1013549",
+   "Dehkhoda Dictionary was written in the country of Q176410",
+   "Dehkhoda Dictionary was written in the country of Q584458",
+   "Dehkhoda Dictionary was written in the country of Q374745",
+   "Dehkhoda Dictionary was written in the country of Q59670",
+   "Dehkhoda Dictionary was written in the country of Q62460",
+   "Dehkhoda Dictionary was written in the country of Q288082",
+   "Dehkhoda Dictionary was written in the country of Q2145988",
+   "Dehkhoda Dictionary was written in the country of Q104731",
+   "Dehkhoda Dictionary was written in the country of Q1618770",
+   "Dehkhoda Dictionary was written in the country of Q24826",
+   "Dehkhoda Dictionary was written in the country of Q3846",
+   "Dehkhoda Dictionary was written in the country of Q727",
+   "Dehkhoda Dictionary was written in the country of Q186234",
+   "Dehkhoda Dictionary was written in the country of Q2593038",
+   "Dehkhoda Dictionary was written in the country of Q1003286",
+   "Dehkhoda Dictionary was written in the country of Q1921452",
+   "Dehkhoda Dictionary was written in the country of Q1159513",
+   "Dehkhoda Dictionary was written in the country of Q617407",
+   "Dehkhoda Dictionary was written in the country of Q140342",
+   "Dehkhoda Dictionary was written in the country of Q269476",
+   "Dehkhoda Dictionary was written in the country of Q1296",
+   "Dehkhoda Dictionary was written in the country of Q1524",
+   "Dehkhoda Dictionary was written in the country of Q3138",
+   "Dehkhoda Dictionary was written in the country of Q36600",
+   "Dehkhoda Dictionary was written in the country of Q985461",
+   "Dehkhoda Dictionary was written in the country of Q3150",
+   "Dehkhoda Dictionary was written in the country of Q203040",
+   "Dehkhoda Dictionary was written in the country of Q4420718",
+   "Dehkhoda Dictionary was written in the country of Q564827",
+   "Dehkhoda Dictionary was written in the country of Q19272",
+   "Dehkhoda Dictionary was written in the country of Q209126",
+   "Dehkhoda Dictionary was written in the country of Q2746",
+   "Dehkhoda Dictionary was written in the country of Q446314",
+   "Dehkhoda Dictionary was written in the country of Q1085",
+   "Dehkhoda Dictionary was written in the country of Q7042",
+   "Dehkhoda Dictionary was written in the country of Q198190",
+   "Dehkhoda Dictionary was written in the country of Q462177",
+   "Dehkhoda Dictionary was written in the country of Q1748",
+   "Dehkhoda Dictionary was written in the country of Q123709",
+   "Dehkhoda Dictionary was written in the country of Q36433",
+   "Dehkhoda Dictionary was written in the country of Q1247384",
+   "Dehkhoda Dictionary was written in the country of Q1780",
+   "Dehkhoda Dictionary was written in the country of Q18125",
+   "Dehkhoda Dictionary was written in the country of Q482657",
+   "Dehkhoda Dictionary was written in the country of Q31487",
+   "Dehkhoda Dictionary was written in the country of Q1005862",
+   "Dehkhoda Dictionary was written in the country of Q52098",
+   "Dehkhoda Dictionary was written in the country of Q23154",
+   "Dehkhoda Dictionary was written in the country of Q1679681",
+   "Dehkhoda Dictionary was written in the country of Q123559",
+   "Dehkhoda Dictionary was written in the country of Q1799",
+   "Dehkhoda Dictionary was written in the country of Q500939",
+   "Dehkhoda Dictionary was written in the country of Q41252",
+   "Dehkhoda Dictionary was written in the country of nan",
+   "Dehkhoda Dictionary was written in the country of Q3923",
+   "Dehkhoda Dictionary was written in the country of Q517311",
+   "Dehkhoda Dictionary was written in the country of Q49111",
+   "Dehkhoda Dictionary was written in the country of Q6366688",
+   "Dehkhoda Dictionary was written in the country of Q1490411",
+   "Dehkhoda Dictionary was written in the country of Q1415",
+   "Dehkhoda Dictionary was written in the country of Q269980",
+   "Dehkhoda Dictionary was written in the country of Q156743",
+   "Dehkhoda Dictionary was written in the country of Q11736",
+   "Dehkhoda Dictionary was written in the country of Q2880",
+   "Dehkhoda Dictionary was written in the country of Q3915",
+   "Dehkhoda Dictionary was written in the country of Q853324",
+   "Dehkhoda Dictionary was written in the country of Q67778",
+   "Dehkhoda Dictionary was written in the country of Q649",
+   "Dehkhoda Dictionary was written in the country of Q610238",
+   "Dehkhoda Dictionary was written in the country of Q4083",
+   "Dehkhoda Dictionary was written in the country of Q1754",
+   "Dehkhoda Dictionary was written in the country of Q490",
+   "Dehkhoda Dictionary was written in the country of Q64",
+   "Dehkhoda Dictionary was written in the country of Q18424",
+   "Dehkhoda Dictionary was written in the country of Q492538",
+   "Dehkhoda Dictionary was written in the country of Q42807",
+   "Dehkhoda Dictionary was written in the country of Q84",
+   "Dehkhoda Dictionary was written in the country of Q1729",
+   "Dehkhoda Dictionary was written in the country of Q1055",
+   "Dehkhoda Dictionary was written in the country of Q43509",
+   "Dehkhoda Dictionary was written in the country of Q16553",
+   "Dehkhoda Dictionary was written in the country of Q54140",
+   "Dehkhoda Dictionary was written in the country of Q80484",
+   "Dehkhoda Dictionary was written in the country of Q10549787",
+   "Dehkhoda Dictionary was written in the country of Q42308",
+   "Dehkhoda Dictionary was written in the country of Q33959",
+   "Dehkhoda Dictionary was written in the country of Q22741",
+   "Dehkhoda Dictionary was written in the country of Q433701",
+   "Dehkhoda Dictionary was written in the country of Q2749",
+   "Dehkhoda Dictionary was written in the country of Q863832",
+   "Dehkhoda Dictionary was written in the country of Q3834",
+   "Dehkhoda Dictionary was written in the country of Q106274",
+   "Dehkhoda Dictionary was written in the country of Q1779185",
+   "Dehkhoda Dictionary was written in the country of Q4518353",
+   "Dehkhoda Dictionary was written in the country of Q275731",
+   "Dehkhoda Dictionary was written in the country of Q102621",
+   "Dehkhoda Dictionary was written in the country of Q4418120",
+   "Dehkhoda Dictionary was written in the country of Q891",
+   "Dehkhoda Dictionary was written in the country of Q142",
+   "Dehkhoda Dictionary was written in the country of Q220",
+   "Dehkhoda Dictionary was written in the country of Q1781",
+   "Dehkhoda Dictionary was written in the country of Q1794",
+   "Dehkhoda Dictionary was written in the country of Q1741",
+   "Dehkhoda Dictionary was written in the country of Q966192",
+   "Dehkhoda Dictionary was written in the country of Q2711986",
+   "Dehkhoda Dictionary was written in the country of Q1781710",
+   "Dehkhoda Dictionary was written in the country of Q60",
+   "Dehkhoda Dictionary was written in the country of Q173695",
+   "Dehkhoda Dictionary was written in the country of Q135572",
+   "Dehkhoda Dictionary was written in the country of Q2598",
+   "Dehkhoda Dictionary was written in the country of Q192265",
+   "Dehkhoda Dictionary was written in the country of Q1792",
+   "Dehkhoda Dictionary was written in the country of Q22905",
+   "Dehkhoda Dictionary was written in the country of Q5838",
+   "Dehkhoda Dictionary was written in the country of Q536598",
+   "Dehkhoda Dictionary was written in the country of Q3316008",
+   "Dehkhoda Dictionary was written in the country of Q1327770",
+   "Dehkhoda Dictionary was written in the country of Q477987",
+   "Dehkhoda Dictionary was written in the country of Q551378",
+   "Dehkhoda Dictionary was written in the country of Q648432",
+   "Dehkhoda Dictionary was written in the country of Q1345",
+   "Dehkhoda Dictionary was written in the country of Q1228829",
+   "Dehkhoda Dictionary was written in the country of Q797437",
+   "Dehkhoda Dictionary was written in the country of Q87",
+   "Dehkhoda Dictionary was written in the country of Q157725",
+   "Dehkhoda Dictionary was written in the country of Q36036",
+   "Dehkhoda Dictionary was written in the country of Q6837",
+   "Dehkhoda Dictionary was written in the country of Q1735",
+   "Dehkhoda Dictionary was written in the country of Q1711",
+   "Dehkhoda Dictionary was written in the country of Q507117",
+   "Dehkhoda Dictionary was written in the country of Q2722267",
+   "Dehkhoda Dictionary was written in the country of Q13666",
+   "Dehkhoda Dictionary was written in the country of Q206988",
+   "Dehkhoda Dictionary was written in the country of Q1715",
+   "Dehkhoda Dictionary was written in the country of Q265332",
+   "Dehkhoda Dictionary was written in the country of Q745594",
+   "Dehkhoda Dictionary was written in the country of Q13373",
+   "Dehkhoda Dictionary was written in the country of Q725261",
+   "Dehkhoda Dictionary was written in the country of Q572595",
+   "Dehkhoda Dictionary was written in the country of Q576671",
+   "Dehkhoda Dictionary was written in the country of Q2453742",
+   "Dehkhoda Dictionary was written in the country of Q7880",
+   "Dehkhoda Dictionary was written in the country of Q184163",
+   "Dehkhoda Dictionary was written in the country of Q997335",
+   "Dehkhoda Dictionary was written in the country of Q26339",
+   "Dehkhoda Dictionary was written in the country of Q845623",
+   "Dehkhoda Dictionary was written in the country of Q64589",
+   "Dehkhoda Dictionary was written in the country of Q1720",
+   "Dehkhoda Dictionary was written in the country of Q835831",
+   "Dehkhoda Dictionary was written in the country of Q487977",
+   "Dehkhoda Dictionary was written in the country of Q2256",
+   "Dehkhoda Dictionary was written in the country of Q6346",
+   "Dehkhoda Dictionary was written in the country of Q161994",
+   "Dehkhoda Dictionary was written in the country of Q34615",
+   "Dehkhoda Dictionary was written in the country of Q47554",
+   "Dehkhoda Dictionary was written in the country of Q194420",
+   "Dehkhoda Dictionary was written in the country of Q197691",
+   "Dehkhoda Dictionary was written in the country of Q7027",
+   "Dehkhoda Dictionary was written in the country of Q270",
+   "Dehkhoda Dictionary was written in the country of Q1828035",
+   "Dehkhoda Dictionary was written in the country of Q1022",
+   "Dehkhoda Dictionary was written in the country of Q7473516",
+   "Dehkhoda Dictionary was written in the country of Q181704",
+   "Dehkhoda Dictionary was written in the country of Q72",
+   "Dehkhoda Dictionary was written in the country of Q2683",
+   "Dehkhoda Dictionary was written in the country of Q467617",
+   "Dehkhoda Dictionary was written in the country of Q42168",
+   "Dehkhoda Dictionary was written in the country of Q153494",
+   "Dehkhoda Dictionary was written in the country of Q13362",
+   "Dehkhoda Dictionary was written in the country of Q484552",
+   "Dehkhoda Dictionary was written in the country of Q320233",
+   "Dehkhoda Dictionary was written in the country of Q1297",
+   "Dehkhoda Dictionary was written in the country of Q2865",
+   "Dehkhoda Dictionary was written in the country of Q16568",
+   "Dehkhoda Dictionary was written in the country of Q4093",
+   "Dehkhoda Dictionary was written in the country of Q319397",
+   "Dehkhoda Dictionary was written in the country of Q212856",
+   "Dehkhoda Dictionary was written in the country of Q90",
+   "Dehkhoda Dictionary was written in the country of Q1807458",
+   "Dehkhoda Dictionary was written in the country of Q5839",
+   "Dehkhoda Dictionary was written in the country of Q2861",
+   "Dehkhoda Dictionary was written in the country of Q504875",
+   "Dehkhoda Dictionary was written in the country of Q105048",
+   "Dehkhoda Dictionary was written in the country of Q3619316",
+   "Dehkhoda Dictionary was written in the country of Q287148",
+   "Dehkhoda Dictionary was written in the country of Q630668",
+   "Dehkhoda Dictionary was written in the country of Q40898",
+   "Dehkhoda Dictionary was written in the country of Q734064",
+   "Dehkhoda Dictionary was written in the country of Q1537",
+   "Dehkhoda Dictionary was written in the country of Q375314",
+   "Dehkhoda Dictionary's author is from Q339182",
+   "Dehkhoda Dictionary's author is from Q43631",
+   "Dehkhoda Dictionary's author is from Q2061870",
+   "Dehkhoda Dictionary's author is from Q25331",
+   "Dehkhoda Dictionary's author is from Q3776576",
+   "Dehkhoda Dictionary's author is from Q81621",
+   "Dehkhoda Dictionary's author is from Q38511",
+   "Dehkhoda Dictionary's author is from Q23436",
+   "Dehkhoda Dictionary's author is from Q627653",
+   "Dehkhoda Dictionary's author is from Q749",
+   "Dehkhoda Dictionary's author is from Q42088",
+   "Dehkhoda Dictionary's author is from Q206687",
+   "Dehkhoda Dictionary's author is from Q18655",
+   "Dehkhoda Dictionary's author is from Q54163",
+   "Dehkhoda Dictionary's author is from Q1144835",
+   "Dehkhoda Dictionary's author is from Q3626259",
+   "Dehkhoda Dictionary's author is from Q30096",
+   "Dehkhoda Dictionary's author is from Q181725",
+   "Dehkhoda Dictionary's author is from Q18426",
+   "Dehkhoda Dictionary's author is from Q4734309",
+   "Dehkhoda Dictionary's author is from Q823531",
+   "Dehkhoda Dictionary's author is from Q13210107",
+   "Dehkhoda Dictionary's author is from Q656",
+   "Dehkhoda Dictionary's author is from Q1709",
+   "Dehkhoda Dictionary's author is from Q1492",
+   "Dehkhoda Dictionary's author is from Q6602",
+   "Dehkhoda Dictionary's author is from Q1490",
+   "Dehkhoda Dictionary's author is from Q939529",
+   "Dehkhoda Dictionary's author is from Q1890931",
+   "Dehkhoda Dictionary's author is from Q2640897",
+   "Dehkhoda Dictionary's author is from Q655874",
+   "Dehkhoda Dictionary's author is from Q40623",
+   "Dehkhoda Dictionary's author is from Q21711493",
+   "Dehkhoda Dictionary's author is from Q23360",
+   "Dehkhoda Dictionary's author is from Q25286",
+   "Dehkhoda Dictionary's author is from Q963309",
+   "Dehkhoda Dictionary's author is from Q1761",
+   "Dehkhoda Dictionary's author is from Q1773",
+   "Dehkhoda Dictionary's author is from Q18986",
+   "Dehkhoda Dictionary's author is from Q78",
+   "Dehkhoda Dictionary's author is from Q11025",
+   "Dehkhoda Dictionary's author is from Q13375",
+   "Dehkhoda Dictionary's author is from Q1013549",
+   "Dehkhoda Dictionary's author is from Q176410",
+   "Dehkhoda Dictionary's author is from Q584458",
+   "Dehkhoda Dictionary's author is from Q374745",
+   "Dehkhoda Dictionary's author is from Q59670",
+   "Dehkhoda Dictionary's author is from Q62460",
+   "Dehkhoda Dictionary's author is from Q288082",
+   "Dehkhoda Dictionary's author is from Q2145988",
+   "Dehkhoda Dictionary's author is from Q104731",
+   "Dehkhoda Dictionary's author is from Q1618770",
+   "Dehkhoda Dictionary's author is from Q24826",
+   "Dehkhoda Dictionary's author is from Q3846",
+   "Dehkhoda Dictionary's author is from Q727",
+   "Dehkhoda Dictionary's author is from Q186234",
+   "Dehkhoda Dictionary's author is from Q2593038",
+   "Dehkhoda Dictionary's author is from Q1003286",
+   "Dehkhoda Dictionary's author is from Q1921452",
+   "Dehkhoda Dictionary's author is from Q1159513",
+   "Dehkhoda Dictionary's author is from Q617407",
+   "Dehkhoda Dictionary's author is from Q140342",
+   "Dehkhoda Dictionary's author is from Q269476",
+   "Dehkhoda Dictionary's author is from Q1296",
+   "Dehkhoda Dictionary's author is from Q1524",
+   "Dehkhoda Dictionary's author is from Q3138",
+   "Dehkhoda Dictionary's author is from Q36600",
+   "Dehkhoda Dictionary's author is from Q985461",
+   "Dehkhoda Dictionary's author is from Q3150",
+   "Dehkhoda Dictionary's author is from Q203040",
+   "Dehkhoda Dictionary's author is from Q4420718",
+   "Dehkhoda Dictionary's author is from Q564827",
+   "Dehkhoda Dictionary's author is from Q19272",
+   "Dehkhoda Dictionary's author is from Q209126",
+   "Dehkhoda Dictionary's author is from Q2746",
+   "Dehkhoda Dictionary's author is from Q446314",
+   "Dehkhoda Dictionary's author is from Q1085",
+   "Dehkhoda Dictionary's author is from Q7042",
+   "Dehkhoda Dictionary's author is from Q198190",
+   "Dehkhoda Dictionary's author is from Q462177",
+   "Dehkhoda Dictionary's author is from Q1748",
+   "Dehkhoda Dictionary's author is from Q123709",
+   "Dehkhoda Dictionary's author is from Q36433",
+   "Dehkhoda Dictionary's author is from Q1247384",
+   "Dehkhoda Dictionary's author is from Q1780",
+   "Dehkhoda Dictionary's author is from Q18125",
+   "Dehkhoda Dictionary's author is from Q482657",
+   "Dehkhoda Dictionary's author is from Q31487",
+   "Dehkhoda Dictionary's author is from Q1005862",
+   "Dehkhoda Dictionary's author is from Q52098",
+   "Dehkhoda Dictionary's author is from Q23154",
+   "Dehkhoda Dictionary's author is from Q1679681",
+   "Dehkhoda Dictionary's author is from Q123559",
+   "Dehkhoda Dictionary's author is from Q1799",
+   "Dehkhoda Dictionary's author is from Q500939",
+   "Dehkhoda Dictionary's author is from Q41252",
+   "Dehkhoda Dictionary's author is from nan",
+   "Dehkhoda Dictionary's author is from Q3923",
+   "Dehkhoda Dictionary's author is from Q517311",
+   "Dehkhoda Dictionary's author is from Q49111",
+   "Dehkhoda Dictionary's author is from Q6366688",
+   "Dehkhoda Dictionary's author is from Q1490411",
+   "Dehkhoda Dictionary's author is from Q1415",
+   "Dehkhoda Dictionary's author is from Q269980",
+   "Dehkhoda Dictionary's author is from Q156743",
+   "Dehkhoda Dictionary's author is from Q11736",
+   "Dehkhoda Dictionary's author is from Q2880",
+   "Dehkhoda Dictionary's author is from Q3915",
+   "Dehkhoda Dictionary's author is from Q853324",
+   "Dehkhoda Dictionary's author is from Q67778",
+   "Dehkhoda Dictionary's author is from Q649",
+   "Dehkhoda Dictionary's author is from Q610238",
+   "Dehkhoda Dictionary's author is from Q4083",
+   "Dehkhoda Dictionary's author is from Q1754",
+   "Dehkhoda Dictionary's author is from Q490",
+   "Dehkhoda Dictionary's author is from Q64",
+   "Dehkhoda Dictionary's author is from Q18424",
+   "Dehkhoda Dictionary's author is from Q492538",
+   "Dehkhoda Dictionary's author is from Q42807",
+   "Dehkhoda Dictionary's author is from Q84",
+   "Dehkhoda Dictionary's author is from Q1729",
+   "Dehkhoda Dictionary's author is from Q1055",
+   "Dehkhoda Dictionary's author is from Q43509",
+   "Dehkhoda Dictionary's author is from Q16553",
+   "Dehkhoda Dictionary's author is from Q54140",
+   "Dehkhoda Dictionary's author is from Q80484",
+   "Dehkhoda Dictionary's author is from Q10549787",
+   "Dehkhoda Dictionary's author is from Q42308",
+   "Dehkhoda Dictionary's author is from Q33959",
+   "Dehkhoda Dictionary's author is from Q22741",
+   "Dehkhoda Dictionary's author is from Q433701",
+   "Dehkhoda Dictionary's author is from Q2749",
+   "Dehkhoda Dictionary's author is from Q863832",
+   "Dehkhoda Dictionary's author is from Q3834",
+   "Dehkhoda Dictionary's author is from Q106274",
+   "Dehkhoda Dictionary's author is from Q1779185",
+   "Dehkhoda Dictionary's author is from Q4518353",
+   "Dehkhoda Dictionary's author is from Q275731",
+   "Dehkhoda Dictionary's author is from Q102621",
+   "Dehkhoda Dictionary's author is from Q4418120",
+   "Dehkhoda Dictionary's author is from Q891",
+   "Dehkhoda Dictionary's author is from Q142",
+   "Dehkhoda Dictionary's author is from Q220",
+   "Dehkhoda Dictionary's author is from Q1781",
+   "Dehkhoda Dictionary's author is from Q1794",
+   "Dehkhoda Dictionary's author is from Q1741",
+   "Dehkhoda Dictionary's author is from Q966192",
+   "Dehkhoda Dictionary's author is from Q2711986",
+   "Dehkhoda Dictionary's author is from Q1781710",
+   "Dehkhoda Dictionary's author is from Q60",
+   "Dehkhoda Dictionary's author is from Q173695",
+   "Dehkhoda Dictionary's author is from Q135572",
+   "Dehkhoda Dictionary's author is from Q2598",
+   "Dehkhoda Dictionary's author is from Q192265",
+   "Dehkhoda Dictionary's author is from Q1792",
+   "Dehkhoda Dictionary's author is from Q22905",
+   "Dehkhoda Dictionary's author is from Q5838",
+   "Dehkhoda Dictionary's author is from Q536598",
+   "Dehkhoda Dictionary's author is from Q3316008",
+   "Dehkhoda Dictionary's author is from Q1327770",
+   "Dehkhoda Dictionary's author is from Q477987",
+   "Dehkhoda Dictionary's author is from Q551378",
+   "Dehkhoda Dictionary's author is from Q648432",
+   "Dehkhoda Dictionary's author is from Q1345",
+   "Dehkhoda Dictionary's author is from Q1228829",
+   "Dehkhoda Dictionary's author is from Q797437",
+   "Dehkhoda Dictionary's author is from Q87",
+   "Dehkhoda Dictionary's author is from Q157725",
+   "Dehkhoda Dictionary's author is from Q36036",
+   "Dehkhoda Dictionary's author is from Q6837",
+   "Dehkhoda Dictionary's author is from Q1735",
+   "Dehkhoda Dictionary's author is from Q1711",
+   "Dehkhoda Dictionary's author is from Q507117",
+   "Dehkhoda Dictionary's author is from Q2722267",
+   "Dehkhoda Dictionary's author is from Q13666",
+   "Dehkhoda Dictionary's author is from Q206988",
+   "Dehkhoda Dictionary's author is from Q1715",
+   "Dehkhoda Dictionary's author is from Q265332",
+   "Dehkhoda Dictionary's author is from Q745594",
+   "Dehkhoda Dictionary's author is from Q13373",
+   "Dehkhoda Dictionary's author is from Q725261",
+   "Dehkhoda Dictionary's author is from Q572595",
+   "Dehkhoda Dictionary's author is from Q576671",
+   "Dehkhoda Dictionary's author is from Q2453742",
+   "Dehkhoda Dictionary's author is from Q7880",
+   "Dehkhoda Dictionary's author is from Q184163",
+   "Dehkhoda Dictionary's author is from Q997335",
+   "Dehkhoda Dictionary's author is from Q26339",
+   "Dehkhoda Dictionary's author is from Q845623",
+   "Dehkhoda Dictionary's author is from Q64589",
+   "Dehkhoda Dictionary's author is from Q1720",
+   "Dehkhoda Dictionary's author is from Q835831",
+   "Dehkhoda Dictionary's author is from Q487977",
+   "Dehkhoda Dictionary's author is from Q2256",
+   "Dehkhoda Dictionary's author is from Q6346",
+   "Dehkhoda Dictionary's author is from Q161994",
+   "Dehkhoda Dictionary's author is from Q34615",
+   "Dehkhoda Dictionary's author is from Q47554",
+   "Dehkhoda Dictionary's author is from Q194420",
+   "Dehkhoda Dictionary's author is from Q197691",
+   "Dehkhoda Dictionary's author is from Q7027",
+   "Dehkhoda Dictionary's author is from Q270",
+   "Dehkhoda Dictionary's author is from Q1828035",
+   "Dehkhoda Dictionary's author is from Q1022",
+   "Dehkhoda Dictionary's author is from Q7473516",
+   "Dehkhoda Dictionary's author is from Q181704",
+   "Dehkhoda Dictionary's author is from Q72",
+   "Dehkhoda Dictionary's author is from Q2683",
+   "Dehkhoda Dictionary's author is from Q467617",
+   "Dehkhoda Dictionary's author is from Q42168",
+   "Dehkhoda Dictionary's author is from Q153494",
+   "Dehkhoda Dictionary's author is from Q13362",
+   "Dehkhoda Dictionary's author is from Q484552",
+   "Dehkhoda Dictionary's author is from Q320233",
+   "Dehkhoda Dictionary's author is from Q1297",
+   "Dehkhoda Dictionary's author is from Q2865",
+   "Dehkhoda Dictionary's author is from Q16568",
+   "Dehkhoda Dictionary's author is from Q4093",
+   "Dehkhoda Dictionary's author is from Q319397",
+   "Dehkhoda Dictionary's author is from Q212856",
+   "Dehkhoda Dictionary's author is from Q90",
+   "Dehkhoda Dictionary's author is from Q1807458",
+   "Dehkhoda Dictionary's author is from Q5839",
+   "Dehkhoda Dictionary's author is from Q2861",
+   "Dehkhoda Dictionary's author is from Q504875",
+   "Dehkhoda Dictionary's author is from Q105048",
+   "Dehkhoda Dictionary's author is from Q3619316",
+   "Dehkhoda Dictionary's author is from Q287148",
+   "Dehkhoda Dictionary's author is from Q630668",
+   "Dehkhoda Dictionary's author is from Q40898",
+   "Dehkhoda Dictionary's author is from Q734064",
+   "Dehkhoda Dictionary's author is from Q1537",
+   "Dehkhoda Dictionary's author is from Q375314",
+   "The language Dehkhoda Dictionary was written in is called Q339182",
+   "The language Dehkhoda Dictionary was written in is called Q43631",
+   "The language Dehkhoda Dictionary was written in is called Q2061870",
+   "The language Dehkhoda Dictionary was written in is called Q25331",
+   "The language Dehkhoda Dictionary was written in is called Q3776576",
+   "The language Dehkhoda Dictionary was written in is called Q81621",
+   "The language Dehkhoda Dictionary was written in is called Q38511",
+   "The language Dehkhoda Dictionary was written in is called Q23436",
+   "The language Dehkhoda Dictionary was written in is called Q627653",
+   "The language Dehkhoda Dictionary was written in is called Q749",
+   "The language Dehkhoda Dictionary was written in is called Q42088",
+   "The language Dehkhoda Dictionary was written in is called Q206687",
+   "The language Dehkhoda Dictionary was written in is called Q18655",
+   "The language Dehkhoda Dictionary was written in is called Q54163",
+   "The language Dehkhoda Dictionary was written in is called Q1144835",
+   "The language Dehkhoda Dictionary was written in is called Q3626259",
+   "The language Dehkhoda Dictionary was written in is called Q30096",
+   "The language Dehkhoda Dictionary was written in is called Q181725",
+   "The language Dehkhoda Dictionary was written in is called Q18426",
+   "The language Dehkhoda Dictionary was written in is called Q4734309",
+   "The language Dehkhoda Dictionary was written in is called Q823531",
+   "The language Dehkhoda Dictionary was written in is called Q13210107",
+   "The language Dehkhoda Dictionary was written in is called Q656",
+   "The language Dehkhoda Dictionary was written in is called Q1709",
+   "The language Dehkhoda Dictionary was written in is called Q1492",
+   "The language Dehkhoda Dictionary was written in is called Q6602",
+   "The language Dehkhoda Dictionary was written in is called Q1490",
+   "The language Dehkhoda Dictionary was written in is called Q939529",
+   "The language Dehkhoda Dictionary was written in is called Q1890931",
+   "The language Dehkhoda Dictionary was written in is called Q2640897",
+   "The language Dehkhoda Dictionary was written in is called Q655874",
+   "The language Dehkhoda Dictionary was written in is called Q40623",
+   "The language Dehkhoda Dictionary was written in is called Q21711493",
+   "The language Dehkhoda Dictionary was written in is called Q23360",
+   "The language Dehkhoda Dictionary was written in is called Q25286",
+   "The language Dehkhoda Dictionary was written in is called Q963309",
+   "The language Dehkhoda Dictionary was written in is called Q1761",
+   "The language Dehkhoda Dictionary was written in is called Q1773",
+   "The language Dehkhoda Dictionary was written in is called Q18986",
+   "The language Dehkhoda Dictionary was written in is called Q78",
+   "The language Dehkhoda Dictionary was written in is called Q11025",
+   "The language Dehkhoda Dictionary was written in is called Q13375",
+   "The language Dehkhoda Dictionary was written in is called Q1013549",
+   "The language Dehkhoda Dictionary was written in is called Q176410",
+   "The language Dehkhoda Dictionary was written in is called Q584458",
+   "The language Dehkhoda Dictionary was written in is called Q374745",
+   "The language Dehkhoda Dictionary was written in is called Q59670",
+   "The language Dehkhoda Dictionary was written in is called Q62460",
+   "The language Dehkhoda Dictionary was written in is called Q288082",
+   "The language Dehkhoda Dictionary was written in is called Q2145988",
+   "The language Dehkhoda Dictionary was written in is called Q104731",
+   "The language Dehkhoda Dictionary was written in is called Q1618770",
+   "The language Dehkhoda Dictionary was written in is called Q24826",
+   "The language Dehkhoda Dictionary was written in is called Q3846",
+   "The language Dehkhoda Dictionary was written in is called Q727",
+   "The language Dehkhoda Dictionary was written in is called Q186234",
+   "The language Dehkhoda Dictionary was written in is called Q2593038",
+   "The language Dehkhoda Dictionary was written in is called Q1003286",
+   "The language Dehkhoda Dictionary was written in is called Q1921452",
+   "The language Dehkhoda Dictionary was written in is called Q1159513",
+   "The language Dehkhoda Dictionary was written in is called Q617407",
+   "The language Dehkhoda Dictionary was written in is called Q140342",
+   "The language Dehkhoda Dictionary was written in is called Q269476",
+   "The language Dehkhoda Dictionary was written in is called Q1296",
+   "The language Dehkhoda Dictionary was written in is called Q1524",
+   "The language Dehkhoda Dictionary was written in is called Q3138",
+   "The language Dehkhoda Dictionary was written in is called Q36600",
+   "The language Dehkhoda Dictionary was written in is called Q985461",
+   "The language Dehkhoda Dictionary was written in is called Q3150",
+   "The language Dehkhoda Dictionary was written in is called Q203040",
+   "The language Dehkhoda Dictionary was written in is called Q4420718",
+   "The language Dehkhoda Dictionary was written in is called Q564827",
+   "The language Dehkhoda Dictionary was written in is called Q19272",
+   "The language Dehkhoda Dictionary was written in is called Q209126",
+   "The language Dehkhoda Dictionary was written in is called Q2746",
+   "The language Dehkhoda Dictionary was written in is called Q446314",
+   "The language Dehkhoda Dictionary was written in is called Q1085",
+   "The language Dehkhoda Dictionary was written in is called Q7042",
+   "The language Dehkhoda Dictionary was written in is called Q198190",
+   "The language Dehkhoda Dictionary was written in is called Q462177",
+   "The language Dehkhoda Dictionary was written in is called Q1748",
+   "The language Dehkhoda Dictionary was written in is called Q123709",
+   "The language Dehkhoda Dictionary was written in is called Q36433",
+   "The language Dehkhoda Dictionary was written in is called Q1247384",
+   "The language Dehkhoda Dictionary was written in is called Q1780",
+   "The language Dehkhoda Dictionary was written in is called Q18125",
+   "The language Dehkhoda Dictionary was written in is called Q482657",
+   "The language Dehkhoda Dictionary was written in is called Q31487",
+   "The language Dehkhoda Dictionary was written in is called Q1005862",
+   "The language Dehkhoda Dictionary was written in is called Q52098",
+   "The language Dehkhoda Dictionary was written in is called Q23154",
+   "The language Dehkhoda Dictionary was written in is called Q1679681",
+   "The language Dehkhoda Dictionary was written in is called Q123559",
+   "The language Dehkhoda Dictionary was written in is called Q1799",
+   "The language Dehkhoda Dictionary was written in is called Q500939",
+   "The language Dehkhoda Dictionary was written in is called Q41252",
+   "The language Dehkhoda Dictionary was written in is called nan",
+   "The language Dehkhoda Dictionary was written in is called Q3923",
+   "The language Dehkhoda Dictionary was written in is called Q517311",
+   "The language Dehkhoda Dictionary was written in is called Q49111",
+   "The language Dehkhoda Dictionary was written in is called Q6366688",
+   "The language Dehkhoda Dictionary was written in is called Q1490411",
+   "The language Dehkhoda Dictionary was written in is called Q1415",
+   "The language Dehkhoda Dictionary was written in is called Q269980",
+   "The language Dehkhoda Dictionary was written in is called Q156743",
+   "The language Dehkhoda Dictionary was written in is called Q11736",
+   "The language Dehkhoda Dictionary was written in is called Q2880",
+   "The language Dehkhoda Dictionary was written in is called Q3915",
+   "The language Dehkhoda Dictionary was written in is called Q853324",
+   "The language Dehkhoda Dictionary was written in is called Q67778",
+   "The language Dehkhoda Dictionary was written in is called Q649",
+   "The language Dehkhoda Dictionary was written in is called Q610238",
+   "The language Dehkhoda Dictionary was written in is called Q4083",
+   "The language Dehkhoda Dictionary was written in is called Q1754",
+   "The language Dehkhoda Dictionary was written in is called Q490",
+   "The language Dehkhoda Dictionary was written in is called Q64",
+   "The language Dehkhoda Dictionary was written in is called Q18424",
+   "The language Dehkhoda Dictionary was written in is called Q492538",
+   "The language Dehkhoda Dictionary was written in is called Q42807",
+   "The language Dehkhoda Dictionary was written in is called Q84",
+   "The language Dehkhoda Dictionary was written in is called Q1729",
+   "The language Dehkhoda Dictionary was written in is called Q1055",
+   "The language Dehkhoda Dictionary was written in is called Q43509",
+   "The language Dehkhoda Dictionary was written in is called Q16553",
+   "The language Dehkhoda Dictionary was written in is called Q54140",
+   "The language Dehkhoda Dictionary was written in is called Q80484",
+   "The language Dehkhoda Dictionary was written in is called Q10549787",
+   "The language Dehkhoda Dictionary was written in is called Q42308",
+   "The language Dehkhoda Dictionary was written in is called Q33959",
+   "The language Dehkhoda Dictionary was written in is called Q22741",
+   "The language Dehkhoda Dictionary was written in is called Q433701",
+   "The language Dehkhoda Dictionary was written in is called Q2749",
+   "The language Dehkhoda Dictionary was written in is called Q863832",
+   "The language Dehkhoda Dictionary was written in is called Q3834",
+   "The language Dehkhoda Dictionary was written in is called Q106274",
+   "The language Dehkhoda Dictionary was written in is called Q1779185",
+   "The language Dehkhoda Dictionary was written in is called Q4518353",
+   "The language Dehkhoda Dictionary was written in is called Q275731",
+   "The language Dehkhoda Dictionary was written in is called Q102621",
+   "The language Dehkhoda Dictionary was written in is called Q4418120",
+   "The language Dehkhoda Dictionary was written in is called Q891",
+   "The language Dehkhoda Dictionary was written in is called Q142",
+   "The language Dehkhoda Dictionary was written in is called Q220",
+   "The language Dehkhoda Dictionary was written in is called Q1781",
+   "The language Dehkhoda Dictionary was written in is called Q1794",
+   "The language Dehkhoda Dictionary was written in is called Q1741",
+   "The language Dehkhoda Dictionary was written in is called Q966192",
+   "The language Dehkhoda Dictionary was written in is called Q2711986",
+   "The language Dehkhoda Dictionary was written in is called Q1781710",
+   "The language Dehkhoda Dictionary was written in is called Q60",
+   "The language Dehkhoda Dictionary was written in is called Q173695",
+   "The language Dehkhoda Dictionary was written in is called Q135572",
+   "The language Dehkhoda Dictionary was written in is called Q2598",
+   "The language Dehkhoda Dictionary was written in is called Q192265",
+   "The language Dehkhoda Dictionary was written in is called Q1792",
+   "The language Dehkhoda Dictionary was written in is called Q22905",
+   "The language Dehkhoda Dictionary was written in is called Q5838",
+   "The language Dehkhoda Dictionary was written in is called Q536598",
+   "The language Dehkhoda Dictionary was written in is called Q3316008",
+   "The language Dehkhoda Dictionary was written in is called Q1327770",
+   "The language Dehkhoda Dictionary was written in is called Q477987",
+   "The language Dehkhoda Dictionary was written in is called Q551378",
+   "The language Dehkhoda Dictionary was written in is called Q648432",
+   "The language Dehkhoda Dictionary was written in is called Q1345",
+   "The language Dehkhoda Dictionary was written in is called Q1228829",
+   "The language Dehkhoda Dictionary was written in is called Q797437",
+   "The language Dehkhoda Dictionary was written in is called Q87",
+   "The language Dehkhoda Dictionary was written in is called Q157725",
+   "The language Dehkhoda Dictionary was written in is called Q36036",
+   "The language Dehkhoda Dictionary was written in is called Q6837",
+   "The language Dehkhoda Dictionary was written in is called Q1735",
+   "The language Dehkhoda Dictionary was written in is called Q1711",
+   "The language Dehkhoda Dictionary was written in is called Q507117",
+   "The language Dehkhoda Dictionary was written in is called Q2722267",
+   "The language Dehkhoda Dictionary was written in is called Q13666",
+   "The language Dehkhoda Dictionary was written in is called Q206988",
+   "The language Dehkhoda Dictionary was written in is called Q1715",
+   "The language Dehkhoda Dictionary was written in is called Q265332",
+   "The language Dehkhoda Dictionary was written in is called Q745594",
+   "The language Dehkhoda Dictionary was written in is called Q13373",
+   "The language Dehkhoda Dictionary was written in is called Q725261",
+   "The language Dehkhoda Dictionary was written in is called Q572595",
+   "The language Dehkhoda Dictionary was written in is called Q576671",
+   "The language Dehkhoda Dictionary was written in is called Q2453742",
+   "The language Dehkhoda Dictionary was written in is called Q7880",
+   "The language Dehkhoda Dictionary was written in is called Q184163",
+   "The language Dehkhoda Dictionary was written in is called Q997335",
+   "The language Dehkhoda Dictionary was written in is called Q26339",
+   "The language Dehkhoda Dictionary was written in is called Q845623",
+   "The language Dehkhoda Dictionary was written in is called Q64589",
+   "The language Dehkhoda Dictionary was written in is called Q1720",
+   "The language Dehkhoda Dictionary was written in is called Q835831",
+   "The language Dehkhoda Dictionary was written in is called Q487977",
+   "The language Dehkhoda Dictionary was written in is called Q2256",
+   "The language Dehkhoda Dictionary was written in is called Q6346",
+   "The language Dehkhoda Dictionary was written in is called Q161994",
+   "The language Dehkhoda Dictionary was written in is called Q34615",
+   "The language Dehkhoda Dictionary was written in is called Q47554",
+   "The language Dehkhoda Dictionary was written in is called Q194420",
+   "The language Dehkhoda Dictionary was written in is called Q197691",
+   "The language Dehkhoda Dictionary was written in is called Q7027",
+   "The language Dehkhoda Dictionary was written in is called Q270",
+   "The language Dehkhoda Dictionary was written in is called Q1828035",
+   "The language Dehkhoda Dictionary was written in is called Q1022",
+   "The language Dehkhoda Dictionary was written in is called Q7473516",
+   "The language Dehkhoda Dictionary was written in is called Q181704",
+   "The language Dehkhoda Dictionary was written in is called Q72",
+   "The language Dehkhoda Dictionary was written in is called Q2683",
+   "The language Dehkhoda Dictionary was written in is called Q467617",
+   "The language Dehkhoda Dictionary was written in is called Q42168",
+   "The language Dehkhoda Dictionary was written in is called Q153494",
+   "The language Dehkhoda Dictionary was written in is called Q13362",
+   "The language Dehkhoda Dictionary was written in is called Q484552",
+   "The language Dehkhoda Dictionary was written in is called Q320233",
+   "The language Dehkhoda Dictionary was written in is called Q1297",
+   "The language Dehkhoda Dictionary was written in is called Q2865",
+   "The language Dehkhoda Dictionary was written in is called Q16568",
+   "The language Dehkhoda Dictionary was written in is called Q4093",
+   "The language Dehkhoda Dictionary was written in is called Q319397",
+   "The language Dehkhoda Dictionary was written in is called Q212856",
+   "The language Dehkhoda Dictionary was written in is called Q90",
+   "The language Dehkhoda Dictionary was written in is called Q1807458",
+   "The language Dehkhoda Dictionary was written in is called Q5839",
+   "The language Dehkhoda Dictionary was written in is called Q2861",
+   "The language Dehkhoda Dictionary was written in is called Q504875",
+   "The language Dehkhoda Dictionary was written in is called Q105048",
+   "The language Dehkhoda Dictionary was written in is called Q3619316",
+   "The language Dehkhoda Dictionary was written in is called Q287148",
+   "The language Dehkhoda Dictionary was written in is called Q630668",
+   "The language Dehkhoda Dictionary was written in is called Q40898",
+   "The language Dehkhoda Dictionary was written in is called Q734064",
+   "The language Dehkhoda Dictionary was written in is called Q1537",
+   "The language Dehkhoda Dictionary was written in is called Q375314"
+  ],
+  [
+   [
+    -74.56704711914062
+   ],
+   [
+    -72.29780578613281
+   ],
+   [
+    -75.83137512207031
+   ],
+   [
+    -68.23703002929688
+   ],
+   [
+    -77.3914566040039
+   ],
+   [
+    -73.07398223876953
+   ],
+   [
+    -72.156494140625
+   ],
+   [
+    -69.53266906738281
+   ],
+   [
+    -76.46681213378906
+   ],
+   [
+    -67.61065673828125
+   ],
+   [
+    -72.088623046875
+   ],
+   [
+    -73.44856262207031
+   ],
+   [
+    -72.8338623046875
+   ],
+   [
+    -72.38761901855469
+   ],
+   [
+    -75.25813293457031
+   ],
+   [
+    -77.32845306396484
+   ],
+   [
+    -71.078369140625
+   ],
+   [
+    -72.7886734008789
+   ],
+   [
+    -71.35374450683594
+   ],
+   [
+    -77.40414428710938
+   ],
+   [
+    -75.64178466796875
+   ],
+   [
+    -77.99592590332031
+   ],
+   [
+    -67.48974609375
+   ],
+   [
+    -67.1334228515625
+   ],
+   [
+    -67.38768768310547
+   ],
+   [
+    -70.47328186035156
+   ],
+   [
+    -67.06529235839844
+   ],
+   [
+    -75.30078125
+   ],
+   [
+    -77.03962707519531
+   ],
+   [
+    -74.93521881103516
+   ],
+   [
+    -75.9815673828125
+   ],
+   [
+    -72.53401947021484
+   ],
+   [
+    -78.24774169921875
+   ],
+   [
+    -66.61883544921875
+   ],
+   [
+    -68.35504150390625
+   ],
+   [
+    -75.81885528564453
+   ],
+   [
+    -67.18074798583984
+   ],
+   [
+    -67.5330810546875
+   ],
+   [
+    -72.367919921875
+   ],
+   [
+    -64.55718994140625
+   ],
+   [
+    -69.04385375976562
+   ],
+   [
+    -69.82363891601562
+   ],
+   [
+    -74.19001770019531
+   ],
+   [
+    -72.84994506835938
+   ],
+   [
+    -75.8810806274414
+   ],
+   [
+    -74.11844635009766
+   ],
+   [
+    -73.2999038696289
+   ],
+   [
+    -73.4833984375
+   ],
+   [
+    -73.58587646484375
+   ],
+   [
+    -75.63523864746094
+   ],
+   [
+    -72.03096008300781
+   ],
+   [
+    -76.25520324707031
+   ],
+   [
+    -71.04296112060547
+   ],
+   [
+    -69.67796325683594
+   ],
+   [
+    -67.99443054199219
+   ],
+   [
+    -74.63426208496094
+   ],
+   [
+    -73.9628677368164
+   ],
+   [
+    -73.99301147460938
+   ],
+   [
+    -76.19306182861328
+   ],
+   [
+    -74.73204040527344
+   ],
+   [
+    -75.92893981933594
+   ],
+   [
+    -71.96363830566406
+   ],
+   [
+    -73.09334564208984
+   ],
+   [
+    -67.8060302734375
+   ],
+   [
+    -67.33541107177734
+   ],
+   [
+    -68.5682144165039
+   ],
+   [
+    -71.56343078613281
+   ],
+   [
+    -75.90234375
+   ],
+   [
+    -67.91828918457031
+   ],
+   [
+    -72.52157592773438
+   ],
+   [
+    -78.0615005493164
+   ],
+   [
+    -75.93060302734375
+   ],
+   [
+    -70.32270050048828
+   ],
+   [
+    -72.89701843261719
+   ],
+   [
+    -67.55917358398438
+   ],
+   [
+    -75.22697448730469
+   ],
+   [
+    -66.87167358398438
+   ],
+   [
+    -70.68087768554688
+   ],
+   [
+    -73.3416519165039
+   ],
+   [
+    -75.4945068359375
+   ],
+   [
+    -67.40611267089844
+   ],
+   [
+    -71.7852783203125
+   ],
+   [
+    -72.41508483886719
+   ],
+   [
+    -75.52617645263672
+   ],
+   [
+    -67.27436065673828
+   ],
+   [
+    -70.65741729736328
+   ],
+   [
+    -74.97785949707031
+   ],
+   [
+    -71.6480712890625
+   ],
+   [
+    -74.25403594970703
+   ],
+   [
+    -73.01018524169922
+   ],
+   [
+    -68.96971893310547
+   ],
+   [
+    -76.48387908935547
+   ],
+   [
+    -71.72615814208984
+   ],
+   [
+    -67.8536376953125
+   ],
+   [
+    -74.3993148803711
+   ],
+   [
+    -72.30067443847656
+   ],
+   [
+    -55.939796447753906
+   ],
+   [
+    -69.4427490234375
+   ],
+   [
+    -75.30024719238281
+   ],
+   [
+    -72.19710540771484
+   ],
+   [
+    -79.03306579589844
+   ],
+   [
+    -75.92304992675781
+   ],
+   [
+    -66.5577621459961
+   ],
+   [
+    -72.95989990234375
+   ],
+   [
+    -72.97169494628906
+   ],
+   [
+    -69.9443130493164
+   ],
+   [
+    -68.59907531738281
+   ],
+   [
+    -69.21331024169922
+   ],
+   [
+    -75.2340087890625
+   ],
+   [
+    -73.86790466308594
+   ],
+   [
+    -67.68484497070312
+   ],
+   [
+    -75.72653198242188
+   ],
+   [
+    -69.77327728271484
+   ],
+   [
+    -67.3106689453125
+   ],
+   [
+    -66.78128814697266
+   ],
+   [
+    -64.12010192871094
+   ],
+   [
+    -71.38661193847656
+   ],
+   [
+    -75.59786987304688
+   ],
+   [
+    -72.41932678222656
+   ],
+   [
+    -64.33025360107422
+   ],
+   [
+    -67.16015625
+   ],
+   [
+    -66.72452545166016
+   ],
+   [
+    -71.85904693603516
+   ],
+   [
+    -71.49249267578125
+   ],
+   [
+    -72.10050201416016
+   ],
+   [
+    -73.09095001220703
+   ],
+   [
+    -77.46470642089844
+   ],
+   [
+    -72.19700622558594
+   ],
+   [
+    -71.98429107666016
+   ],
+   [
+    -70.24671936035156
+   ],
+   [
+    -74.54158020019531
+   ],
+   [
+    -67.67352294921875
+   ],
+   [
+    -76.21039581298828
+   ],
+   [
+    -69.62794494628906
+   ],
+   [
+    -72.40737915039062
+   ],
+   [
+    -76.06806945800781
+   ],
+   [
+    -77.60279846191406
+   ],
+   [
+    -72.66602325439453
+   ],
+   [
+    -71.72796630859375
+   ],
+   [
+    -77.66569519042969
+   ],
+   [
+    -67.78530883789062
+   ],
+   [
+    -64.08155822753906
+   ],
+   [
+    -63.96595764160156
+   ],
+   [
+    -67.27532958984375
+   ],
+   [
+    -67.61192321777344
+   ],
+   [
+    -67.1745376586914
+   ],
+   [
+    -75.72562408447266
+   ],
+   [
+    -74.61939239501953
+   ],
+   [
+    -76.17095947265625
+   ],
+   [
+    -64.1894760131836
+   ],
+   [
+    -72.716552734375
+   ],
+   [
+    -72.71122741699219
+   ],
+   [
+    -66.68562316894531
+   ],
+   [
+    -73.46012115478516
+   ],
+   [
+    -67.79752349853516
+   ],
+   [
+    -69.94414520263672
+   ],
+   [
+    -70.5810546875
+   ],
+   [
+    -75.45082092285156
+   ],
+   [
+    -76.06549072265625
+   ],
+   [
+    -75.17108917236328
+   ],
+   [
+    -75.12922668457031
+   ],
+   [
+    -74.5625228881836
+   ],
+   [
+    -76.01939392089844
+   ],
+   [
+    -67.06410217285156
+   ],
+   [
+    -75.22230529785156
+   ],
+   [
+    -76.24710845947266
+   ],
+   [
+    -64.48973083496094
+   ],
+   [
+    -73.20793914794922
+   ],
+   [
+    -71.3188705444336
+   ],
+   [
+    -71.17853546142578
+   ],
+   [
+    -67.16041564941406
+   ],
+   [
+    -66.68510437011719
+   ],
+   [
+    -75.22111511230469
+   ],
+   [
+    -75.54937744140625
+   ],
+   [
+    -70.56961059570312
+   ],
+   [
+    -73.41866302490234
+   ],
+   [
+    -66.94061279296875
+   ],
+   [
+    -72.6050796508789
+   ],
+   [
+    -75.50188446044922
+   ],
+   [
+    -69.84539794921875
+   ],
+   [
+    -76.33842468261719
+   ],
+   [
+    -75.64603424072266
+   ],
+   [
+    -75.95616149902344
+   ],
+   [
+    -75.52045440673828
+   ],
+   [
+    -70.98035430908203
+   ],
+   [
+    -72.95294189453125
+   ],
+   [
+    -76.12858581542969
+   ],
+   [
+    -69.70665740966797
+   ],
+   [
+    -75.4146499633789
+   ],
+   [
+    -73.10585021972656
+   ],
+   [
+    -66.7123794555664
+   ],
+   [
+    -75.79843139648438
+   ],
+   [
+    -75.40506744384766
+   ],
+   [
+    -67.57510375976562
+   ],
+   [
+    -70.54100036621094
+   ],
+   [
+    -73.58650970458984
+   ],
+   [
+    -71.30156707763672
+   ],
+   [
+    -72.3010025024414
+   ],
+   [
+    -73.16470336914062
+   ],
+   [
+    -73.80247497558594
+   ],
+   [
+    -70.5152816772461
+   ],
+   [
+    -64.38688659667969
+   ],
+   [
+    -75.7269515991211
+   ],
+   [
+    -66.33290100097656
+   ],
+   [
+    -78.64822387695312
+   ],
+   [
+    -72.68816375732422
+   ],
+   [
+    -64.78791809082031
+   ],
+   [
+    -68.26380920410156
+   ],
+   [
+    -75.4039306640625
+   ],
+   [
+    -72.59413146972656
+   ],
+   [
+    -72.33668518066406
+   ],
+   [
+    -70.02534484863281
+   ],
+   [
+    -74.90908813476562
+   ],
+   [
+    -74.11035919189453
+   ],
+   [
+    -67.74098205566406
+   ],
+   [
+    -68.62711334228516
+   ],
+   [
+    -71.7117919921875
+   ],
+   [
+    -69.76028442382812
+   ],
+   [
+    -74.39906311035156
+   ],
+   [
+    -72.8677749633789
+   ],
+   [
+    -63.98939514160156
+   ],
+   [
+    -75.52149200439453
+   ],
+   [
+    -70.53990173339844
+   ],
+   [
+    -68.57040405273438
+   ],
+   [
+    -75.33014678955078
+   ],
+   [
+    -72.79949951171875
+   ],
+   [
+    -77.72638702392578
+   ],
+   [
+    -73.6759262084961
+   ],
+   [
+    -75.67204284667969
+   ],
+   [
+    -72.90992736816406
+   ],
+   [
+    -75.60823059082031
+   ],
+   [
+    -67.1813735961914
+   ],
+   [
+    -73.65547180175781
+   ],
+   [
+    -71.59353637695312
+   ],
+   [
+    -71.563232421875
+   ],
+   [
+    -73.69136047363281
+   ],
+   [
+    -69.29651641845703
+   ],
+   [
+    -74.87965393066406
+   ],
+   [
+    -73.39442443847656
+   ],
+   [
+    -69.99781799316406
+   ],
+   [
+    -68.48001098632812
+   ],
+   [
+    -73.98113250732422
+   ],
+   [
+    -66.42750549316406
+   ],
+   [
+    -71.13119506835938
+   ],
+   [
+    -70.96818542480469
+   ],
+   [
+    -68.49834442138672
+   ],
+   [
+    -69.12171936035156
+   ],
+   [
+    -71.31808471679688
+   ],
+   [
+    -75.54640197753906
+   ],
+   [
+    -68.86199188232422
+   ],
+   [
+    -69.15123748779297
+   ],
+   [
+    -67.29679870605469
+   ],
+   [
+    -76.55162048339844
+   ],
+   [
+    -75.77899932861328
+   ],
+   [
+    -73.24700927734375
+   ],
+   [
+    -66.18601989746094
+   ],
+   [
+    -63.38885498046875
+   ],
+   [
+    -63.080833435058594
+   ],
+   [
+    -68.86634826660156
+   ],
+   [
+    -62.939002990722656
+   ],
+   [
+    -71.95268249511719
+   ],
+   [
+    -73.9007339477539
+   ],
+   [
+    -74.50389099121094
+   ],
+   [
+    -74.23910522460938
+   ],
+   [
+    -70.9335708618164
+   ],
+   [
+    -76.699462890625
+   ],
+   [
+    -68.35062408447266
+   ],
+   [
+    -69.0093994140625
+   ],
+   [
+    -72.28778839111328
+   ],
+   [
+    -63.815773010253906
+   ],
+   [
+    -64.00862884521484
+   ],
+   [
+    -68.38775634765625
+   ],
+   [
+    -63.37590026855469
+   ],
+   [
+    -65.87369537353516
+   ],
+   [
+    -65.63477325439453
+   ],
+   [
+    -70.92012023925781
+   ],
+   [
+    -68.57461547851562
+   ],
+   [
+    -72.06159210205078
+   ],
+   [
+    -72.32145690917969
+   ],
+   [
+    -69.3753662109375
+   ],
+   [
+    -71.6296157836914
+   ],
+   [
+    -72.2877426147461
+   ],
+   [
+    -73.82640075683594
+   ],
+   [
+    -68.79328918457031
+   ],
+   [
+    -71.53814697265625
+   ],
+   [
+    -69.29681396484375
+   ],
+   [
+    -67.50382995605469
+   ],
+   [
+    -66.70843505859375
+   ],
+   [
+    -70.69715881347656
+   ],
+   [
+    -74.27123260498047
+   ],
+   [
+    -69.9811782836914
+   ],
+   [
+    -72.71207427978516
+   ],
+   [
+    -70.96204376220703
+   ],
+   [
+    -74.17843627929688
+   ],
+   [
+    -67.38737487792969
+   ],
+   [
+    -71.6976318359375
+   ],
+   [
+    -63.670494079589844
+   ],
+   [
+    -63.69691467285156
+   ],
+   [
+    -66.7314453125
+   ],
+   [
+    -71.01100158691406
+   ],
+   [
+    -72.70850372314453
+   ],
+   [
+    -66.68502044677734
+   ],
+   [
+    -71.1134033203125
+   ],
+   [
+    -76.87123107910156
+   ],
+   [
+    -71.67254638671875
+   ],
+   [
+    -67.7950439453125
+   ],
+   [
+    -71.10818481445312
+   ],
+   [
+    -66.69041442871094
+   ],
+   [
+    -74.61790466308594
+   ],
+   [
+    -63.87410354614258
+   ],
+   [
+    -69.60661315917969
+   ],
+   [
+    -70.23272705078125
+   ],
+   [
+    -75.04743194580078
+   ],
+   [
+    -64.08554077148438
+   ],
+   [
+    -68.71719360351562
+   ],
+   [
+    -71.03395080566406
+   ],
+   [
+    -71.40119934082031
+   ],
+   [
+    -63.97846603393555
+   ],
+   [
+    -66.73230743408203
+   ],
+   [
+    -73.58618927001953
+   ],
+   [
+    -69.06025695800781
+   ],
+   [
+    -70.04031372070312
+   ],
+   [
+    -69.14915466308594
+   ],
+   [
+    -68.33897399902344
+   ],
+   [
+    -71.57039642333984
+   ],
+   [
+    -68.54002380371094
+   ],
+   [
+    -63.723655700683594
+   ],
+   [
+    -72.10918426513672
+   ],
+   [
+    -70.96654510498047
+   ],
+   [
+    -57.246856689453125
+   ],
+   [
+    -67.41883850097656
+   ],
+   [
+    -71.85018920898438
+   ],
+   [
+    -71.16761016845703
+   ],
+   [
+    -76.3209457397461
+   ],
+   [
+    -70.11074829101562
+   ],
+   [
+    -62.98966979980469
+   ],
+   [
+    -71.60670471191406
+   ],
+   [
+    -68.31752014160156
+   ],
+   [
+    -66.29302978515625
+   ],
+   [
+    -67.51124572753906
+   ],
+   [
+    -67.16217041015625
+   ],
+   [
+    -76.32576751708984
+   ],
+   [
+    -72.07505798339844
+   ],
+   [
+    -66.27175903320312
+   ],
+   [
+    -73.91454315185547
+   ],
+   [
+    -69.12702178955078
+   ],
+   [
+    -63.885257720947266
+   ],
+   [
+    -65.95794677734375
+   ],
+   [
+    -63.0748291015625
+   ],
+   [
+    -67.47212219238281
+   ],
+   [
+    -74.2105941772461
+   ],
+   [
+    -71.59083557128906
+   ],
+   [
+    -65.30296325683594
+   ],
+   [
+    -63.614864349365234
+   ],
+   [
+    -63.87519836425781
+   ],
+   [
+    -71.79356384277344
+   ],
+   [
+    -66.51628112792969
+   ],
+   [
+    -69.2046127319336
+   ],
+   [
+    -73.74208068847656
+   ],
+   [
+    -73.58345031738281
+   ],
+   [
+    -71.44644927978516
+   ],
+   [
+    -69.00006103515625
+   ],
+   [
+    -68.77691650390625
+   ],
+   [
+    -74.64076232910156
+   ],
+   [
+    -66.50648498535156
+   ],
+   [
+    -76.74253845214844
+   ],
+   [
+    -67.71852111816406
+   ],
+   [
+    -68.56351470947266
+   ],
+   [
+    -71.32305908203125
+   ],
+   [
+    -77.17376708984375
+   ],
+   [
+    -71.5130615234375
+   ],
+   [
+    -68.59577941894531
+   ],
+   [
+    -76.60586547851562
+   ],
+   [
+    -68.04450225830078
+   ],
+   [
+    -60.782962799072266
+   ],
+   [
+    -63.631614685058594
+   ],
+   [
+    -64.0269775390625
+   ],
+   [
+    -63.91094207763672
+   ],
+   [
+    -63.91383361816406
+   ],
+   [
+    -72.80793762207031
+   ],
+   [
+    -73.83039855957031
+   ],
+   [
+    -71.4437255859375
+   ],
+   [
+    -62.9276123046875
+   ],
+   [
+    -68.32810974121094
+   ],
+   [
+    -67.79570007324219
+   ],
+   [
+    -66.7738265991211
+   ],
+   [
+    -70.02659606933594
+   ],
+   [
+    -63.94280242919922
+   ],
+   [
+    -68.69825744628906
+   ],
+   [
+    -67.26298522949219
+   ],
+   [
+    -71.53485107421875
+   ],
+   [
+    -73.99099731445312
+   ],
+   [
+    -70.36275482177734
+   ],
+   [
+    -73.74076843261719
+   ],
+   [
+    -71.68403625488281
+   ],
+   [
+    -74.42073059082031
+   ],
+   [
+    -63.20366287231445
+   ],
+   [
+    -71.21163940429688
+   ],
+   [
+    -74.31227111816406
+   ],
+   [
+    -65.3931884765625
+   ],
+   [
+    -68.45672607421875
+   ],
+   [
+    -70.01165008544922
+   ],
+   [
+    -69.92310333251953
+   ],
+   [
+    -63.81177520751953
+   ],
+   [
+    -63.66655731201172
+   ],
+   [
+    -72.14306640625
+   ],
+   [
+    -74.11293029785156
+   ],
+   [
+    -65.3224868774414
+   ],
+   [
+    -71.06147766113281
+   ],
+   [
+    -63.660667419433594
+   ],
+   [
+    -71.74794006347656
+   ],
+   [
+    -73.997314453125
+   ],
+   [
+    -65.72872924804688
+   ],
+   [
+    -74.72093963623047
+   ],
+   [
+    -71.447021484375
+   ],
+   [
+    -71.51921081542969
+   ],
+   [
+    -74.21788024902344
+   ],
+   [
+    -70.44790649414062
+   ],
+   [
+    -69.84097290039062
+   ],
+   [
+    -73.08686065673828
+   ],
+   [
+    -69.28756713867188
+   ],
+   [
+    -76.49732971191406
+   ],
+   [
+    -71.5565185546875
+   ],
+   [
+    -63.77781295776367
+   ],
+   [
+    -76.21586608886719
+   ],
+   [
+    -73.73886108398438
+   ],
+   [
+    -66.22196960449219
+   ],
+   [
+    -68.97616577148438
+   ],
+   [
+    -68.70310974121094
+   ],
+   [
+    -69.33981323242188
+   ],
+   [
+    -71.30181884765625
+   ],
+   [
+    -71.14427185058594
+   ],
+   [
+    -69.87189483642578
+   ],
+   [
+    -69.33740234375
+   ],
+   [
+    -64.1292724609375
+   ],
+   [
+    -72.4033203125
+   ],
+   [
+    -63.85875701904297
+   ],
+   [
+    -77.04713439941406
+   ],
+   [
+    -69.25543212890625
+   ],
+   [
+    -63.151947021484375
+   ],
+   [
+    -67.28582000732422
+   ],
+   [
+    -74.96720886230469
+   ],
+   [
+    -71.24581146240234
+   ],
+   [
+    -68.21495819091797
+   ],
+   [
+    -65.58726501464844
+   ],
+   [
+    -73.84339141845703
+   ],
+   [
+    -71.88185119628906
+   ],
+   [
+    -63.84659957885742
+   ],
+   [
+    -67.11731719970703
+   ],
+   [
+    -66.62100982666016
+   ],
+   [
+    -68.93307495117188
+   ],
+   [
+    -71.45143127441406
+   ],
+   [
+    -71.28550720214844
+   ],
+   [
+    -62.30328369140625
+   ],
+   [
+    -71.02635192871094
+   ],
+   [
+    -67.01699829101562
+   ],
+   [
+    -67.13502502441406
+   ],
+   [
+    -72.09194946289062
+   ],
+   [
+    -68.57999420166016
+   ],
+   [
+    -75.67185974121094
+   ],
+   [
+    -72.16768646240234
+   ],
+   [
+    -73.60741424560547
+   ],
+   [
+    -71.26348114013672
+   ],
+   [
+    -74.38739013671875
+   ],
+   [
+    -63.651920318603516
+   ],
+   [
+    -72.31350708007812
+   ],
+   [
+    -83.469970703125
+   ],
+   [
+    -82.64024353027344
+   ],
+   [
+    -86.43020629882812
+   ],
+   [
+    -79.9123306274414
+   ],
+   [
+    -86.75634765625
+   ],
+   [
+    -84.34254455566406
+   ],
+   [
+    -82.12420654296875
+   ],
+   [
+    -79.44529724121094
+   ],
+   [
+    -86.97660064697266
+   ],
+   [
+    -78.0201416015625
+   ],
+   [
+    -82.75205993652344
+   ],
+   [
+    -83.75350952148438
+   ],
+   [
+    -81.35366821289062
+   ],
+   [
+    -84.00032043457031
+   ],
+   [
+    -86.0928955078125
+   ],
+   [
+    -87.19286346435547
+   ],
+   [
+    -79.94273376464844
+   ],
+   [
+    -83.56140899658203
+   ],
+   [
+    -81.09967041015625
+   ],
+   [
+    -88.26956176757812
+   ],
+   [
+    -86.22459411621094
+   ],
+   [
+    -88.00248718261719
+   ],
+   [
+    -78.33488464355469
+   ],
+   [
+    -77.72624969482422
+   ],
+   [
+    -77.5811538696289
+   ],
+   [
+    -81.32039642333984
+   ],
+   [
+    -77.45509338378906
+   ],
+   [
+    -86.24327087402344
+   ],
+   [
+    -86.43671417236328
+   ],
+   [
+    -86.08062744140625
+   ],
+   [
+    -86.88652801513672
+   ],
+   [
+    -83.62548828125
+   ],
+   [
+    -89.03010559082031
+   ],
+   [
+    -77.94866943359375
+   ],
+   [
+    -80.34286499023438
+   ],
+   [
+    -87.13446044921875
+   ],
+   [
+    -78.2027816772461
+   ],
+   [
+    -78.23759460449219
+   ],
+   [
+    -81.53581237792969
+   ],
+   [
+    -75.30195617675781
+   ],
+   [
+    -79.9351806640625
+   ],
+   [
+    -79.07331848144531
+   ],
+   [
+    -85.55680847167969
+   ],
+   [
+    -83.29885864257812
+   ],
+   [
+    -87.08621978759766
+   ],
+   [
+    -83.55238342285156
+   ],
+   [
+    -84.14103698730469
+   ],
+   [
+    -84.10025787353516
+   ],
+   [
+    -83.8039779663086
+   ],
+   [
+    -85.97300720214844
+   ],
+   [
+    -83.48655700683594
+   ],
+   [
+    -86.7900390625
+   ],
+   [
+    -80.41704559326172
+   ],
+   [
+    -79.36483764648438
+   ],
+   [
+    -78.4049301147461
+   ],
+   [
+    -84.23703002929688
+   ],
+   [
+    -85.35212707519531
+   ],
+   [
+    -85.51018524169922
+   ],
+   [
+    -86.20425415039062
+   ],
+   [
+    -85.61456298828125
+   ],
+   [
+    -87.12100982666016
+   ],
+   [
+    -82.3944091796875
+   ],
+   [
+    -83.43370819091797
+   ],
+   [
+    -77.74765014648438
+   ],
+   [
+    -77.8879623413086
+   ],
+   [
+    -78.44783020019531
+   ],
+   [
+    -82.07545471191406
+   ],
+   [
+    -87.39598083496094
+   ],
+   [
+    -78.32444763183594
+   ],
+   [
+    -82.69648742675781
+   ],
+   [
+    -88.88348388671875
+   ],
+   [
+    -86.99942016601562
+   ],
+   [
+    -80.71218872070312
+   ],
+   [
+    -83.16091918945312
+   ],
+   [
+    -77.42552185058594
+   ],
+   [
+    -86.35421752929688
+   ],
+   [
+    -77.81929779052734
+   ],
+   [
+    -81.49689483642578
+   ],
+   [
+    -83.24267578125
+   ],
+   [
+    -86.90965270996094
+   ],
+   [
+    -78.20916748046875
+   ],
+   [
+    -82.13023376464844
+   ],
+   [
+    -82.18328857421875
+   ],
+   [
+    -86.04545593261719
+   ],
+   [
+    -78.21760559082031
+   ],
+   [
+    -81.03968048095703
+   ],
+   [
+    -86.74930572509766
+   ],
+   [
+    -81.1773681640625
+   ],
+   [
+    -85.16175842285156
+   ],
+   [
+    -83.90343475341797
+   ],
+   [
+    -79.00529479980469
+   ],
+   [
+    -86.28497314453125
+   ],
+   [
+    -81.59687805175781
+   ],
+   [
+    -77.96240234375
+   ],
+   [
+    -84.88910675048828
+   ],
+   [
+    -83.49571228027344
+   ],
+   [
+    -67.69252014160156
+   ],
+   [
+    -78.74371337890625
+   ],
+   [
+    -87.05876159667969
+   ],
+   [
+    -83.15380096435547
+   ],
+   [
+    -89.22538757324219
+   ],
+   [
+    -85.36312103271484
+   ],
+   [
+    -77.37326049804688
+   ],
+   [
+    -83.19918060302734
+   ],
+   [
+    -83.291259765625
+   ],
+   [
+    -80.61741638183594
+   ],
+   [
+    -78.80184173583984
+   ],
+   [
+    -78.74484252929688
+   ],
+   [
+    -86.61225891113281
+   ],
+   [
+    -84.50138854980469
+   ],
+   [
+    -77.94078063964844
+   ],
+   [
+    -86.78195190429688
+   ],
+   [
+    -80.519287109375
+   ],
+   [
+    -78.2475814819336
+   ],
+   [
+    -77.07437133789062
+   ],
+   [
+    -74.70233154296875
+   ],
+   [
+    -81.12889862060547
+   ],
+   [
+    -86.46940612792969
+   ],
+   [
+    -83.36420440673828
+   ],
+   [
+    -74.90190124511719
+   ],
+   [
+    -78.03569030761719
+   ],
+   [
+    -77.60104370117188
+   ],
+   [
+    -82.5774154663086
+   ],
+   [
+    -81.10299682617188
+   ],
+   [
+    -83.69408416748047
+   ],
+   [
+    -83.70905303955078
+   ],
+   [
+    -88.96106719970703
+   ],
+   [
+    -82.64730834960938
+   ],
+   [
+    -80.7186279296875
+   ],
+   [
+    -80.76008605957031
+   ],
+   [
+    -84.75833129882812
+   ],
+   [
+    -77.315673828125
+   ],
+   [
+    -87.02740478515625
+   ],
+   [
+    -79.38751983642578
+   ],
+   [
+    -83.45018768310547
+   ],
+   [
+    -85.99701690673828
+   ],
+   [
+    -89.86161804199219
+   ],
+   [
+    -82.55958557128906
+   ],
+   [
+    -82.94499969482422
+   ],
+   [
+    -89.41512298583984
+   ],
+   [
+    -78.16661071777344
+   ],
+   [
+    -74.93296813964844
+   ],
+   [
+    -75.18830871582031
+   ],
+   [
+    -78.32476806640625
+   ],
+   [
+    -78.14509582519531
+   ],
+   [
+    -78.06636047363281
+   ],
+   [
+    -86.98771667480469
+   ],
+   [
+    -84.94868469238281
+   ],
+   [
+    -86.01042938232422
+   ],
+   [
+    -74.77220153808594
+   ],
+   [
+    -83.06332397460938
+   ],
+   [
+    -81.81982421875
+   ],
+   [
+    -77.95367431640625
+   ],
+   [
+    -83.1900634765625
+   ],
+   [
+    -78.14286041259766
+   ],
+   [
+    -80.56214141845703
+   ],
+   [
+    -81.29251098632812
+   ],
+   [
+    -86.53467559814453
+   ],
+   [
+    -86.09624481201172
+   ],
+   [
+    -84.80673217773438
+   ],
+   [
+    -86.20021057128906
+   ],
+   [
+    -86.37374877929688
+   ],
+   [
+    -86.82901000976562
+   ],
+   [
+    -76.55729675292969
+   ],
+   [
+    -85.58807373046875
+   ],
+   [
+    -86.79437255859375
+   ],
+   [
+    -75.05801391601562
+   ],
+   [
+    -83.06708526611328
+   ],
+   [
+    -81.47494506835938
+   ],
+   [
+    -81.93411254882812
+   ],
+   [
+    -77.91777801513672
+   ],
+   [
+    -77.89558410644531
+   ],
+   [
+    -86.62957763671875
+   ],
+   [
+    -84.86063385009766
+   ],
+   [
+    -79.4989242553711
+   ],
+   [
+    -83.64230346679688
+   ],
+   [
+    -77.90582275390625
+   ],
+   [
+    -83.23104858398438
+   ],
+   [
+    -86.92620086669922
+   ],
+   [
+    -79.264892578125
+   ],
+   [
+    -87.64393615722656
+   ],
+   [
+    -86.71173858642578
+   ],
+   [
+    -87.06304168701172
+   ],
+   [
+    -84.95465087890625
+   ],
+   [
+    -82.12080383300781
+   ],
+   [
+    -83.47703552246094
+   ],
+   [
+    -86.44781494140625
+   ],
+   [
+    -79.74961853027344
+   ],
+   [
+    -86.68204498291016
+   ],
+   [
+    -83.7177734375
+   ],
+   [
+    -77.92755126953125
+   ],
+   [
+    -86.45362091064453
+   ],
+   [
+    -86.63827514648438
+   ],
+   [
+    -78.18697357177734
+   ],
+   [
+    -80.58944702148438
+   ],
+   [
+    -83.51757049560547
+   ],
+   [
+    -81.67234802246094
+   ],
+   [
+    -83.49071502685547
+   ],
+   [
+    -83.40255737304688
+   ],
+   [
+    -83.68453979492188
+   ],
+   [
+    -81.31603240966797
+   ],
+   [
+    -74.83748626708984
+   ],
+   [
+    -86.13676452636719
+   ],
+   [
+    -77.3387451171875
+   ],
+   [
+    -89.818115234375
+   ],
+   [
+    -83.52159118652344
+   ],
+   [
+    -75.06599426269531
+   ],
+   [
+    -78.98982238769531
+   ],
+   [
+    -87.0323486328125
+   ],
+   [
+    -83.3831787109375
+   ],
+   [
+    -82.93608093261719
+   ],
+   [
+    -79.24050903320312
+   ],
+   [
+    -86.57130432128906
+   ],
+   [
+    -83.74644470214844
+   ],
+   [
+    -77.75083923339844
+   ],
+   [
+    -78.76118469238281
+   ],
+   [
+    -81.29785919189453
+   ],
+   [
+    -80.0050277709961
+   ],
+   [
+    -83.74542236328125
+   ],
+   [
+    -83.01199340820312
+   ],
+   [
+    -74.847900390625
+   ],
+   [
+    -85.99423217773438
+   ],
+   [
+    -81.12718200683594
+   ],
+   [
+    -78.84645080566406
+   ],
+   [
+    -86.18402099609375
+   ],
+   [
+    -83.24119567871094
+   ],
+   [
+    -87.40589904785156
+   ],
+   [
+    -83.96504211425781
+   ],
+   [
+    -86.16964721679688
+   ],
+   [
+    -83.45809936523438
+   ],
+   [
+    -86.82617950439453
+   ],
+   [
+    -77.89668273925781
+   ],
+   [
+    -84.00349426269531
+   ]
+  ]
+ ],
+ "time": 4621.480895996094
+}

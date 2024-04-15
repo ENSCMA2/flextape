@@ -1,0 +1,2076 @@
+{
+ "case_id": 22010,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Laurent Schwartz"
+ },
+ "pre": [
+  [
+   "Laurent Schwartz's field of work is abstract algebra",
+   "Laurent Schwartz's field of work is theology",
+   "Laurent Schwartz's field of work is television program",
+   "Laurent Schwartz's field of work is nanotechnology",
+   "Laurent Schwartz's field of work is hydrodynamics",
+   "Laurent Schwartz's field of work is ethics",
+   "Laurent Schwartz's field of work is physicist",
+   "Laurent Schwartz's field of work is evolution",
+   "Laurent Schwartz's field of work is distribution theory",
+   "Laurent Schwartz's field of work is psychophysiology",
+   "Laurent Schwartz's field of work is English literature",
+   "Laurent Schwartz's field of work is theoretical physics",
+   "Laurent Schwartz's field of work is essay",
+   "Laurent Schwartz's field of work is ethnology",
+   "Laurent Schwartz's field of work is pedagogy",
+   "Laurent Schwartz's field of work is kinetic theory",
+   "Laurent Schwartz's field of work is ethnography",
+   "Laurent Schwartz's field of work is rite",
+   "Laurent Schwartz's field of work is economics",
+   "Laurent Schwartz's field of work is dance choreography",
+   "Laurent Schwartz's field of work is biological anthropology",
+   "Laurent Schwartz's field of work is history of religions",
+   "Laurent Schwartz's field of work is political philosophy",
+   "Laurent Schwartz's field of work is philosophy",
+   "Laurent Schwartz's field of work is linguistics",
+   "Laurent Schwartz's field of work is cosmology",
+   "Laurent Schwartz's field of work is hunting",
+   "Laurent Schwartz's field of work is Minkowski spacetime",
+   "Laurent Schwartz's field of work is classical music",
+   "Laurent Schwartz's field of work is hyperbolic geometry",
+   "Laurent Schwartz's field of work is radioactivity",
+   "Laurent Schwartz's field of work is belletristic literature",
+   "Laurent Schwartz's field of work is model theory",
+   "Laurent Schwartz's field of work is choreography",
+   "Laurent Schwartz's field of work is chemistry",
+   "Laurent Schwartz's field of work is literary activity",
+   "Laurent Schwartz's field of work is historical sociology",
+   "Laurent Schwartz's field of work is feminism",
+   "Laurent Schwartz's field of work is economy",
+   "Laurent Schwartz's field of work is astronomy",
+   "Laurent Schwartz's field of work is topology",
+   "Laurent Schwartz's field of work is translations from English",
+   "Laurent Schwartz's field of work is partial differential equation",
+   "Laurent Schwartz's field of work is Cairo Geniza",
+   "Laurent Schwartz's field of work is nuclear physics",
+   "Laurent Schwartz's field of work is dance",
+   "Laurent Schwartz's field of work is informatics",
+   "Laurent Schwartz's field of work is geometry",
+   "Laurent Schwartz's field of work is computational geometry",
+   "Laurent Schwartz's field of work is Sanskrit",
+   "Laurent Schwartz's field of work is magnetism",
+   "Laurent Schwartz's field of work is opera",
+   "Laurent Schwartz's field of work is algebraic topology",
+   "Laurent Schwartz's field of work is quaternion",
+   "Laurent Schwartz's field of work is Bayesian inference",
+   "Laurent Schwartz's field of work is quantum electrodynamics",
+   "Laurent Schwartz's field of work is religion and society",
+   "Laurent Schwartz's field of work is history of economic thought",
+   "Laurent Schwartz's field of work is translations from Polish",
+   "Laurent Schwartz's field of work is literary translation",
+   "Laurent Schwartz's field of work is lyric poetry",
+   "Laurent Schwartz's field of work is probability theory",
+   "Laurent Schwartz's field of work is ontology",
+   "Laurent Schwartz's field of work is aerodynamics",
+   "Laurent Schwartz's field of work is crystallography",
+   "Laurent Schwartz's field of work is mathematics",
+   "Laurent Schwartz's field of work is harmonic analysis",
+   "Laurent Schwartz's field of work is history of science",
+   "Laurent Schwartz's field of work is philosophy of law",
+   "Laurent Schwartz's field of work is philology",
+   "Laurent Schwartz's field of work is optics",
+   "Laurent Schwartz's field of work is functional analysis",
+   "Laurent Schwartz's field of work is surgery",
+   "Laurent Schwartz's field of work is complex function",
+   "Laurent Schwartz's field of work is Jewish philosophy",
+   "Laurent Schwartz's field of work is translations from Spanish",
+   "Laurent Schwartz's field of work is poetry",
+   "Laurent Schwartz's field of work is distribution",
+   "Laurent Schwartz's field of work is astrology",
+   "Laurent Schwartz's field of work is differential geometry",
+   "Laurent Schwartz's field of work is mechanics",
+   "Laurent Schwartz's field of work is positivism",
+   "Laurent Schwartz's field of work is ferromagnetism",
+   "Laurent Schwartz's field of work is quantum physics",
+   "Laurent Schwartz's field of work is music theory",
+   "Laurent Schwartz's field of work is physiology",
+   "Laurent Schwartz's field of work is theory of differential equations",
+   "Laurent Schwartz's field of work is astrophysics",
+   "Laurent Schwartz's field of work is number theory",
+   "Laurent Schwartz's field of work is magnetic field",
+   "Laurent Schwartz's field of work is historical novel",
+   "Laurent Schwartz's field of work is stochastic",
+   "Laurent Schwartz's field of work is philosopher",
+   "Laurent Schwartz's field of work is histology",
+   "Laurent Schwartz's field of work is Franciscan spirituality",
+   "Laurent Schwartz's field of work is electromagnetic field",
+   "Laurent Schwartz's field of work is medicine",
+   "Laurent Schwartz's field of work is algebraic geometry",
+   "Laurent Schwartz's field of work is comparative mythology",
+   "Laurent Schwartz's field of work is color photography",
+   "Laurent Schwartz's field of work is cryptography",
+   "Laurent Schwartz's field of work is Christian Church",
+   "Laurent Schwartz's field of work is electrical engineering",
+   "Laurent Schwartz's field of work is folklore",
+   "Laurent Schwartz's field of work is mythology",
+   "Laurent Schwartz's field of work is human geography",
+   "Laurent Schwartz's field of work is Petrine ministry",
+   "Laurent Schwartz's field of work is Judaism",
+   "Laurent Schwartz's field of work is group theory",
+   "Laurent Schwartz's field of work is non-Euclidean geometry",
+   "Laurent Schwartz's field of work is algebra",
+   "Laurent Schwartz's field of work is ballistics",
+   "Laurent Schwartz's field of work is mathematician",
+   "Laurent Schwartz's field of work is applied physics",
+   "Laurent Schwartz's field of work is culturology",
+   "Laurent Schwartz's field of work is calculus of variations",
+   "Laurent Schwartz's field of work is logic",
+   "Laurent Schwartz's field of work is engineering",
+   "Laurent Schwartz's field of work is translations from Occitan",
+   "Laurent Schwartz's field of work is anatomy",
+   "Laurent Schwartz's field of work is forestry science",
+   "Laurent Schwartz's field of work is magic",
+   "Laurent Schwartz's field of work is quantum mechanics",
+   "Laurent Schwartz's field of work is differential calculus",
+   "Laurent Schwartz's field of work is shipbuilding",
+   "Laurent Schwartz's field of work is convex function",
+   "Laurent Schwartz's field of work is analytic philosophy",
+   "Laurent Schwartz's field of work is magnetic resonance",
+   "Laurent Schwartz's field of work is detective literature",
+   "Laurent Schwartz's field of work is cartography",
+   "Laurent Schwartz's field of work is sociology of organisations",
+   "Laurent Schwartz's field of work is crime novel",
+   "Laurent Schwartz's field of work is gravity",
+   "Laurent Schwartz's field of work is statistics",
+   "Laurent Schwartz's field of work is Greek philology",
+   "Laurent Schwartz's field of work is analytic number theory",
+   "Laurent Schwartz's field of work is trigonometry",
+   "Laurent Schwartz's field of work is physics",
+   "Laurent Schwartz's field of work is astronomer",
+   "Laurent Schwartz's field of work is natural science",
+   "Laurent Schwartz's field of work is information technology",
+   "Laurent Schwartz's field of work is conducting",
+   "Laurent Schwartz's field of work is nonstandard analysis",
+   "Laurent Schwartz's field of work is mathematical analysis",
+   "Laurent Schwartz's field of work is a branch of physics",
+   "Laurent Schwartz's field of work is projective geometry",
+   "Laurent Schwartz's field of work is civil rights",
+   "Laurent Schwartz's field of work is children's and youth literature",
+   "Laurent Schwartz's field of work is embryology",
+   "Laurent Schwartz's field of work is momentum",
+   "Laurent Schwartz's field of work is African studies",
+   "Laurent Schwartz's field of work is fairy tale",
+   "Laurent Schwartz's field of work is classics",
+   "Laurent Schwartz's field of work is social psychology",
+   "Laurent Schwartz's field of work is Jewish studies",
+   "Laurent Schwartz's field of work is silviculture",
+   "Laurent Schwartz's field of work is education",
+   "Laurent Schwartz's field of work is literature",
+   "Laurent Schwartz's field of work is constitutional law",
+   "Laurent Schwartz's field of work is radiation",
+   "Laurent Schwartz's field of work is Internet",
+   "Laurent Schwartz's field of work is heat",
+   "Laurent Schwartz's field of work is mechanical engineering",
+   "Laurent Schwartz's field of work is forestry",
+   "Laurent Schwartz's field of work is jazz",
+   "Laurent Schwartz's field of work is social philosophy",
+   "Laurent Schwartz's field of work is mathematical physics",
+   "Laurent Schwartz's field of work is meteorology",
+   "Laurent Schwartz's field of work is translations from Arabic language",
+   "Laurent Schwartz's field of work is quantum mysticism",
+   "Laurent Schwartz's field of work is politics",
+   "Laurent Schwartz's field of work is astronomical observation",
+   "Laurent Schwartz's field of work is myth",
+   "Laurent Schwartz's field of work is geography",
+   "Laurent Schwartz's field of work is sociology of religion",
+   "Laurent Schwartz's field of work is comparative religion",
+   "Laurent Schwartz's field of work is Greek",
+   "Laurent Schwartz's field of work is Lie algebra",
+   "Laurent Schwartz's field of work is complex manifold",
+   "Laurent Schwartz's field of work is journalism",
+   "Laurent Schwartz's field of work is celestial mechanics",
+   "Laurent Schwartz's field of work is String",
+   "Laurent Schwartz's field of work is mathematical logic",
+   "Laurent Schwartz's field of work is aeromechanics",
+   "Laurent Schwartz's field of work is English",
+   "Laurent Schwartz's field of work is history",
+   "Laurent Schwartz's field of work is study of history",
+   "Laurent Schwartz's field of work is genetics",
+   "Laurent Schwartz's field of work is psychology",
+   "Laurent Schwartz's field of work is theory of relativity",
+   "Laurent Schwartz's field of work is biochemistry",
+   "Laurent Schwartz's field of work is ballet",
+   "Laurent Schwartz's field of work is electricity",
+   "Laurent Schwartz's field of work is experimental physics",
+   "Laurent Schwartz's field of work is natural theology",
+   "Laurent Schwartz's field of work is Hebrew",
+   "Laurent Schwartz's field of work is prose",
+   "Laurent Schwartz's field of work is paleontology",
+   "Laurent Schwartz's field of work is Monte Carlo method",
+   "Laurent Schwartz's field of work is quantum theory",
+   "Laurent Schwartz's field of work is computer science",
+   "Laurent Schwartz's field of work is cybernetics",
+   "Laurent Schwartz's field of work is Afghanistan",
+   "Laurent Schwartz's field of work is philosophy of science",
+   "Laurent Schwartz's field of work is literary theory",
+   "Laurent Schwartz's field of work is electric field",
+   "Laurent Schwartz's field of work is religion",
+   "Laurent Schwartz's field of work is analytic geometry",
+   "Laurent Schwartz's field of work is graph theory",
+   "Laurent Schwartz's field of work is electron",
+   "Laurent Schwartz's field of work is anthropology",
+   "Laurent Schwartz's field of work is social anthropology",
+   "Laurent Schwartz's field of work is sociology",
+   "Laurent Schwartz's field of work is geodesy",
+   "Laurent Schwartz's field of work is neurology",
+   "Laurent Schwartz's field of work is drama",
+   "Laurent Schwartz's field of work is art of painting",
+   "Laurent Schwartz's field of work is applied mathematics",
+   "Laurent Schwartz's field of work is world economy",
+   "Laurent Schwartz's field of work is economic anthropology",
+   "Laurent Schwartz is abstract algebra",
+   "Laurent Schwartz is theology",
+   "Laurent Schwartz is television program",
+   "Laurent Schwartz is nanotechnology",
+   "Laurent Schwartz is hydrodynamics",
+   "Laurent Schwartz is ethics",
+   "Laurent Schwartz is physicist",
+   "Laurent Schwartz is evolution",
+   "Laurent Schwartz is distribution theory",
+   "Laurent Schwartz is psychophysiology",
+   "Laurent Schwartz is English literature",
+   "Laurent Schwartz is theoretical physics",
+   "Laurent Schwartz is essay",
+   "Laurent Schwartz is ethnology",
+   "Laurent Schwartz is pedagogy",
+   "Laurent Schwartz is kinetic theory",
+   "Laurent Schwartz is ethnography",
+   "Laurent Schwartz is rite",
+   "Laurent Schwartz is economics",
+   "Laurent Schwartz is dance choreography",
+   "Laurent Schwartz is biological anthropology",
+   "Laurent Schwartz is history of religions",
+   "Laurent Schwartz is political philosophy",
+   "Laurent Schwartz is philosophy",
+   "Laurent Schwartz is linguistics",
+   "Laurent Schwartz is cosmology",
+   "Laurent Schwartz is hunting",
+   "Laurent Schwartz is Minkowski spacetime",
+   "Laurent Schwartz is classical music",
+   "Laurent Schwartz is hyperbolic geometry",
+   "Laurent Schwartz is radioactivity",
+   "Laurent Schwartz is belletristic literature",
+   "Laurent Schwartz is model theory",
+   "Laurent Schwartz is choreography",
+   "Laurent Schwartz is chemistry",
+   "Laurent Schwartz is literary activity",
+   "Laurent Schwartz is historical sociology",
+   "Laurent Schwartz is feminism",
+   "Laurent Schwartz is economy",
+   "Laurent Schwartz is astronomy",
+   "Laurent Schwartz is topology",
+   "Laurent Schwartz is translations from English",
+   "Laurent Schwartz is partial differential equation",
+   "Laurent Schwartz is Cairo Geniza",
+   "Laurent Schwartz is nuclear physics",
+   "Laurent Schwartz is dance",
+   "Laurent Schwartz is informatics",
+   "Laurent Schwartz is geometry",
+   "Laurent Schwartz is computational geometry",
+   "Laurent Schwartz is Sanskrit",
+   "Laurent Schwartz is magnetism",
+   "Laurent Schwartz is opera",
+   "Laurent Schwartz is algebraic topology",
+   "Laurent Schwartz is quaternion",
+   "Laurent Schwartz is Bayesian inference",
+   "Laurent Schwartz is quantum electrodynamics",
+   "Laurent Schwartz is religion and society",
+   "Laurent Schwartz is history of economic thought",
+   "Laurent Schwartz is translations from Polish",
+   "Laurent Schwartz is literary translation",
+   "Laurent Schwartz is lyric poetry",
+   "Laurent Schwartz is probability theory",
+   "Laurent Schwartz is ontology",
+   "Laurent Schwartz is aerodynamics",
+   "Laurent Schwartz is crystallography",
+   "Laurent Schwartz is mathematics",
+   "Laurent Schwartz is harmonic analysis",
+   "Laurent Schwartz is history of science",
+   "Laurent Schwartz is philosophy of law",
+   "Laurent Schwartz is philology",
+   "Laurent Schwartz is optics",
+   "Laurent Schwartz is functional analysis",
+   "Laurent Schwartz is surgery",
+   "Laurent Schwartz is complex function",
+   "Laurent Schwartz is Jewish philosophy",
+   "Laurent Schwartz is translations from Spanish",
+   "Laurent Schwartz is poetry",
+   "Laurent Schwartz is distribution",
+   "Laurent Schwartz is astrology",
+   "Laurent Schwartz is differential geometry",
+   "Laurent Schwartz is mechanics",
+   "Laurent Schwartz is positivism",
+   "Laurent Schwartz is ferromagnetism",
+   "Laurent Schwartz is quantum physics",
+   "Laurent Schwartz is music theory",
+   "Laurent Schwartz is physiology",
+   "Laurent Schwartz is theory of differential equations",
+   "Laurent Schwartz is astrophysics",
+   "Laurent Schwartz is number theory",
+   "Laurent Schwartz is magnetic field",
+   "Laurent Schwartz is historical novel",
+   "Laurent Schwartz is stochastic",
+   "Laurent Schwartz is philosopher",
+   "Laurent Schwartz is histology",
+   "Laurent Schwartz is Franciscan spirituality",
+   "Laurent Schwartz is electromagnetic field",
+   "Laurent Schwartz is medicine",
+   "Laurent Schwartz is algebraic geometry",
+   "Laurent Schwartz is comparative mythology",
+   "Laurent Schwartz is color photography",
+   "Laurent Schwartz is cryptography",
+   "Laurent Schwartz is Christian Church",
+   "Laurent Schwartz is electrical engineering",
+   "Laurent Schwartz is folklore",
+   "Laurent Schwartz is mythology",
+   "Laurent Schwartz is human geography",
+   "Laurent Schwartz is Petrine ministry",
+   "Laurent Schwartz is Judaism",
+   "Laurent Schwartz is group theory",
+   "Laurent Schwartz is non-Euclidean geometry",
+   "Laurent Schwartz is algebra",
+   "Laurent Schwartz is ballistics",
+   "Laurent Schwartz is mathematician",
+   "Laurent Schwartz is applied physics",
+   "Laurent Schwartz is culturology",
+   "Laurent Schwartz is calculus of variations",
+   "Laurent Schwartz is logic",
+   "Laurent Schwartz is engineering",
+   "Laurent Schwartz is translations from Occitan",
+   "Laurent Schwartz is anatomy",
+   "Laurent Schwartz is forestry science",
+   "Laurent Schwartz is magic",
+   "Laurent Schwartz is quantum mechanics",
+   "Laurent Schwartz is differential calculus",
+   "Laurent Schwartz is shipbuilding",
+   "Laurent Schwartz is convex function",
+   "Laurent Schwartz is analytic philosophy",
+   "Laurent Schwartz is magnetic resonance",
+   "Laurent Schwartz is detective literature",
+   "Laurent Schwartz is cartography",
+   "Laurent Schwartz is sociology of organisations",
+   "Laurent Schwartz is crime novel",
+   "Laurent Schwartz is gravity",
+   "Laurent Schwartz is statistics",
+   "Laurent Schwartz is Greek philology",
+   "Laurent Schwartz is analytic number theory",
+   "Laurent Schwartz is trigonometry",
+   "Laurent Schwartz is physics",
+   "Laurent Schwartz is astronomer",
+   "Laurent Schwartz is natural science",
+   "Laurent Schwartz is information technology",
+   "Laurent Schwartz is conducting",
+   "Laurent Schwartz is nonstandard analysis",
+   "Laurent Schwartz is mathematical analysis",
+   "Laurent Schwartz is a branch of physics",
+   "Laurent Schwartz is projective geometry",
+   "Laurent Schwartz is civil rights",
+   "Laurent Schwartz is children's and youth literature",
+   "Laurent Schwartz is embryology",
+   "Laurent Schwartz is momentum",
+   "Laurent Schwartz is African studies",
+   "Laurent Schwartz is fairy tale",
+   "Laurent Schwartz is classics",
+   "Laurent Schwartz is social psychology",
+   "Laurent Schwartz is Jewish studies",
+   "Laurent Schwartz is silviculture",
+   "Laurent Schwartz is education",
+   "Laurent Schwartz is literature",
+   "Laurent Schwartz is constitutional law",
+   "Laurent Schwartz is radiation",
+   "Laurent Schwartz is Internet",
+   "Laurent Schwartz is heat",
+   "Laurent Schwartz is mechanical engineering",
+   "Laurent Schwartz is forestry",
+   "Laurent Schwartz is jazz",
+   "Laurent Schwartz is social philosophy",
+   "Laurent Schwartz is mathematical physics",
+   "Laurent Schwartz is meteorology",
+   "Laurent Schwartz is translations from Arabic language",
+   "Laurent Schwartz is quantum mysticism",
+   "Laurent Schwartz is politics",
+   "Laurent Schwartz is astronomical observation",
+   "Laurent Schwartz is myth",
+   "Laurent Schwartz is geography",
+   "Laurent Schwartz is sociology of religion",
+   "Laurent Schwartz is comparative religion",
+   "Laurent Schwartz is Greek",
+   "Laurent Schwartz is Lie algebra",
+   "Laurent Schwartz is complex manifold",
+   "Laurent Schwartz is journalism",
+   "Laurent Schwartz is celestial mechanics",
+   "Laurent Schwartz is String",
+   "Laurent Schwartz is mathematical logic",
+   "Laurent Schwartz is aeromechanics",
+   "Laurent Schwartz is English",
+   "Laurent Schwartz is history",
+   "Laurent Schwartz is study of history",
+   "Laurent Schwartz is genetics",
+   "Laurent Schwartz is psychology",
+   "Laurent Schwartz is theory of relativity",
+   "Laurent Schwartz is biochemistry",
+   "Laurent Schwartz is ballet",
+   "Laurent Schwartz is electricity",
+   "Laurent Schwartz is experimental physics",
+   "Laurent Schwartz is natural theology",
+   "Laurent Schwartz is Hebrew",
+   "Laurent Schwartz is prose",
+   "Laurent Schwartz is paleontology",
+   "Laurent Schwartz is Monte Carlo method",
+   "Laurent Schwartz is quantum theory",
+   "Laurent Schwartz is computer science",
+   "Laurent Schwartz is cybernetics",
+   "Laurent Schwartz is Afghanistan",
+   "Laurent Schwartz is philosophy of science",
+   "Laurent Schwartz is literary theory",
+   "Laurent Schwartz is electric field",
+   "Laurent Schwartz is religion",
+   "Laurent Schwartz is analytic geometry",
+   "Laurent Schwartz is graph theory",
+   "Laurent Schwartz is electron",
+   "Laurent Schwartz is anthropology",
+   "Laurent Schwartz is social anthropology",
+   "Laurent Schwartz is sociology",
+   "Laurent Schwartz is geodesy",
+   "Laurent Schwartz is neurology",
+   "Laurent Schwartz is drama",
+   "Laurent Schwartz is art of painting",
+   "Laurent Schwartz is applied mathematics",
+   "Laurent Schwartz is world economy",
+   "Laurent Schwartz is economic anthropology"
+  ],
+  [
+   [
+    -46.11014938354492
+   ],
+   [
+    -50.57438278198242
+   ],
+   [
+    -58.00146484375
+   ],
+   [
+    -51.111656188964844
+   ],
+   [
+    -48.39795684814453
+   ],
+   [
+    -51.764156341552734
+   ],
+   [
+    -50.55492401123047
+   ],
+   [
+    -46.241905212402344
+   ],
+   [
+    -44.772804260253906
+   ],
+   [
+    -55.37512969970703
+   ],
+   [
+    -50.59062957763672
+   ],
+   [
+    -44.16739273071289
+   ],
+   [
+    -50.533897399902344
+   ],
+   [
+    -53.14213180541992
+   ],
+   [
+    -52.636112213134766
+   ],
+   [
+    -49.505516052246094
+   ],
+   [
+    -53.88780212402344
+   ],
+   [
+    -58.448204040527344
+   ],
+   [
+    -47.52189636230469
+   ],
+   [
+    -57.88347625732422
+   ],
+   [
+    -54.57804489135742
+   ],
+   [
+    -52.181888580322266
+   ],
+   [
+    -51.77626419067383
+   ],
+   [
+    -47.97827911376953
+   ],
+   [
+    -52.395896911621094
+   ],
+   [
+    -47.974639892578125
+   ],
+   [
+    -51.04730224609375
+   ],
+   [
+    -53.3170166015625
+   ],
+   [
+    -51.58330535888672
+   ],
+   [
+    -45.80834197998047
+   ],
+   [
+    -55.25835037231445
+   ],
+   [
+    -57.86318588256836
+   ],
+   [
+    -46.2479248046875
+   ],
+   [
+    -54.00522232055664
+   ],
+   [
+    -50.80795669555664
+   ],
+   [
+    -59.91922378540039
+   ],
+   [
+    -49.80988311767578
+   ],
+   [
+    -52.17426300048828
+   ],
+   [
+    -50.74777603149414
+   ],
+   [
+    -49.84654998779297
+   ],
+   [
+    -43.683837890625
+   ],
+   [
+    -58.154808044433594
+   ],
+   [
+    -46.45408630371094
+   ],
+   [
+    -61.863494873046875
+   ],
+   [
+    -47.59839630126953
+   ],
+   [
+    -52.91214370727539
+   ],
+   [
+    -52.5048942565918
+   ],
+   [
+    -43.3055419921875
+   ],
+   [
+    -47.92747497558594
+   ],
+   [
+    -52.41836929321289
+   ],
+   [
+    -52.08827209472656
+   ],
+   [
+    -49.712974548339844
+   ],
+   [
+    -43.6472053527832
+   ],
+   [
+    -52.1944580078125
+   ],
+   [
+    -47.65596008300781
+   ],
+   [
+    -51.339210510253906
+   ],
+   [
+    -54.7546501159668
+   ],
+   [
+    -51.96465301513672
+   ],
+   [
+    -61.44002914428711
+   ],
+   [
+    -55.01808547973633
+   ],
+   [
+    -53.93935775756836
+   ],
+   [
+    -43.558692932128906
+   ],
+   [
+    -50.67343521118164
+   ],
+   [
+    -48.842918395996094
+   ],
+   [
+    -49.01872634887695
+   ],
+   [
+    -42.192626953125
+   ],
+   [
+    -40.70640563964844
+   ],
+   [
+    -49.833160400390625
+   ],
+   [
+    -55.77838134765625
+   ],
+   [
+    -53.1215934753418
+   ],
+   [
+    -48.13480758666992
+   ],
+   [
+    -41.09068298339844
+   ],
+   [
+    -50.78569030761719
+   ],
+   [
+    -44.579673767089844
+   ],
+   [
+    -50.007869720458984
+   ],
+   [
+    -61.74784851074219
+   ],
+   [
+    -51.25175094604492
+   ],
+   [
+    -44.13393783569336
+   ],
+   [
+    -52.74805450439453
+   ],
+   [
+    -41.836368560791016
+   ],
+   [
+    -47.01199722290039
+   ],
+   [
+    -51.79238510131836
+   ],
+   [
+    -53.179100036621094
+   ],
+   [
+    -47.695560455322266
+   ],
+   [
+    -51.51580047607422
+   ],
+   [
+    -51.10063934326172
+   ],
+   [
+    -49.98944854736328
+   ],
+   [
+    -47.27118682861328
+   ],
+   [
+    -43.826263427734375
+   ],
+   [
+    -53.04744338989258
+   ],
+   [
+    -56.18763732910156
+   ],
+   [
+    -43.99929428100586
+   ],
+   [
+    -54.32185745239258
+   ],
+   [
+    -50.411399841308594
+   ],
+   [
+    -58.56114196777344
+   ],
+   [
+    -53.77543640136719
+   ],
+   [
+    -50.645347595214844
+   ],
+   [
+    -43.932071685791016
+   ],
+   [
+    -52.96638107299805
+   ],
+   [
+    -55.86094665527344
+   ],
+   [
+    -49.34630584716797
+   ],
+   [
+    -56.47028350830078
+   ],
+   [
+    -48.34977722167969
+   ],
+   [
+    -50.01991271972656
+   ],
+   [
+    -51.4107551574707
+   ],
+   [
+    -51.69235610961914
+   ],
+   [
+    -63.77952575683594
+   ],
+   [
+    -53.39921569824219
+   ],
+   [
+    -46.465518951416016
+   ],
+   [
+    -47.429534912109375
+   ],
+   [
+    -44.335182189941406
+   ],
+   [
+    -49.68578338623047
+   ],
+   [
+    -48.21067810058594
+   ],
+   [
+    -50.87205505371094
+   ],
+   [
+    -54.981693267822266
+   ],
+   [
+    -45.27445983886719
+   ],
+   [
+    -47.14785385131836
+   ],
+   [
+    -48.081390380859375
+   ],
+   [
+    -65.39641571044922
+   ],
+   [
+    -50.19140625
+   ],
+   [
+    -57.592437744140625
+   ],
+   [
+    -49.290283203125
+   ],
+   [
+    -46.49616241455078
+   ],
+   [
+    -46.88391876220703
+   ],
+   [
+    -51.419254302978516
+   ],
+   [
+    -48.410858154296875
+   ],
+   [
+    -52.09535598754883
+   ],
+   [
+    -49.79058074951172
+   ],
+   [
+    -58.73195266723633
+   ],
+   [
+    -50.22285461425781
+   ],
+   [
+    -57.54325866699219
+   ],
+   [
+    -57.767887115478516
+   ],
+   [
+    -52.10650634765625
+   ],
+   [
+    -45.852378845214844
+   ],
+   [
+    -55.6721076965332
+   ],
+   [
+    -44.3299674987793
+   ],
+   [
+    -47.9190673828125
+   ],
+   [
+    -46.6945915222168
+   ],
+   [
+    -57.2178955078125
+   ],
+   [
+    -48.73799133300781
+   ],
+   [
+    -51.107940673828125
+   ],
+   [
+    -50.444740295410156
+   ],
+   [
+    -47.88282775878906
+   ],
+   [
+    -41.07633972167969
+   ],
+   [
+    -52.22993087768555
+   ],
+   [
+    -49.35255813598633
+   ],
+   [
+    -54.58963394165039
+   ],
+   [
+    -58.69725036621094
+   ],
+   [
+    -52.99787521362305
+   ],
+   [
+    -49.91823959350586
+   ],
+   [
+    -52.42112350463867
+   ],
+   [
+    -56.434356689453125
+   ],
+   [
+    -49.67044448852539
+   ],
+   [
+    -51.800819396972656
+   ],
+   [
+    -49.33319091796875
+   ],
+   [
+    -55.4987678527832
+   ],
+   [
+    -48.90439987182617
+   ],
+   [
+    -49.06718444824219
+   ],
+   [
+    -49.8472900390625
+   ],
+   [
+    -48.95056915283203
+   ],
+   [
+    -51.56535339355469
+   ],
+   [
+    -48.807106018066406
+   ],
+   [
+    -49.51776123046875
+   ],
+   [
+    -53.811981201171875
+   ],
+   [
+    -48.39118957519531
+   ],
+   [
+    -55.294395446777344
+   ],
+   [
+    -42.57023620605469
+   ],
+   [
+    -49.51171875
+   ],
+   [
+    -66.10189819335938
+   ],
+   [
+    -58.09281921386719
+   ],
+   [
+    -52.16741943359375
+   ],
+   [
+    -57.614501953125
+   ],
+   [
+    -51.09145736694336
+   ],
+   [
+    -47.43963623046875
+   ],
+   [
+    -52.89568328857422
+   ],
+   [
+    -50.800865173339844
+   ],
+   [
+    -51.03554916381836
+   ],
+   [
+    -45.9401741027832
+   ],
+   [
+    -49.30706024169922
+   ],
+   [
+    -49.728240966796875
+   ],
+   [
+    -46.398590087890625
+   ],
+   [
+    -49.09751510620117
+   ],
+   [
+    -47.606849670410156
+   ],
+   [
+    -53.32916259765625
+   ],
+   [
+    -49.17407989501953
+   ],
+   [
+    -47.33275604248047
+   ],
+   [
+    -57.63169479370117
+   ],
+   [
+    -50.93885803222656
+   ],
+   [
+    -50.73724365234375
+   ],
+   [
+    -51.467803955078125
+   ],
+   [
+    -51.95201110839844
+   ],
+   [
+    -54.06584548950195
+   ],
+   [
+    -50.381717681884766
+   ],
+   [
+    -51.233543395996094
+   ],
+   [
+    -56.6618766784668
+   ],
+   [
+    -48.73564147949219
+   ],
+   [
+    -51.016212463378906
+   ],
+   [
+    -52.7995491027832
+   ],
+   [
+    -52.729209899902344
+   ],
+   [
+    -48.18913269042969
+   ],
+   [
+    -47.23668670654297
+   ],
+   [
+    -49.919097900390625
+   ],
+   [
+    -53.7831916809082
+   ],
+   [
+    -50.200294494628906
+   ],
+   [
+    -52.667198181152344
+   ],
+   [
+    -52.93301773071289
+   ],
+   [
+    -50.25741958618164
+   ],
+   [
+    -47.56199645996094
+   ],
+   [
+    -47.17488098144531
+   ],
+   [
+    -48.93419647216797
+   ],
+   [
+    -52.292755126953125
+   ],
+   [
+    -53.64133834838867
+   ],
+   [
+    -49.229331970214844
+   ],
+   [
+    -47.223960876464844
+   ],
+   [
+    -48.86132049560547
+   ],
+   [
+    -54.025630950927734
+   ],
+   [
+    -60.41558837890625
+   ],
+   [
+    -44.58665466308594
+   ],
+   [
+    -55.58450698852539
+   ],
+   [
+    -56.343833923339844
+   ],
+   [
+    -39.39310073852539
+   ],
+   [
+    -39.66704177856445
+   ],
+   [
+    -43.22917175292969
+   ],
+   [
+    -39.74510192871094
+   ],
+   [
+    -40.005821228027344
+   ],
+   [
+    -39.90625
+   ],
+   [
+    -33.196632385253906
+   ],
+   [
+    -37.26850509643555
+   ],
+   [
+    -44.10445022583008
+   ],
+   [
+    -45.38548278808594
+   ],
+   [
+    -41.597679138183594
+   ],
+   [
+    -36.6137809753418
+   ],
+   [
+    -35.61393356323242
+   ],
+   [
+    -42.70022201538086
+   ],
+   [
+    -41.370662689208984
+   ],
+   [
+    -41.26836395263672
+   ],
+   [
+    -43.636810302734375
+   ],
+   [
+    -42.087120056152344
+   ],
+   [
+    -35.013641357421875
+   ],
+   [
+    -45.92237091064453
+   ],
+   [
+    -43.51002502441406
+   ],
+   [
+    -47.48609161376953
+   ],
+   [
+    -41.55449676513672
+   ],
+   [
+    -35.72732925415039
+   ],
+   [
+    -39.222434997558594
+   ],
+   [
+    -37.476924896240234
+   ],
+   [
+    -36.0238037109375
+   ],
+   [
+    -45.357025146484375
+   ],
+   [
+    -37.088565826416016
+   ],
+   [
+    -41.559104919433594
+   ],
+   [
+    -43.963748931884766
+   ],
+   [
+    -48.31454849243164
+   ],
+   [
+    -46.23637390136719
+   ],
+   [
+    -41.580745697021484
+   ],
+   [
+    -37.585044860839844
+   ],
+   [
+    -44.94798278808594
+   ],
+   [
+    -42.646507263183594
+   ],
+   [
+    -42.08430480957031
+   ],
+   [
+    -38.0911865234375
+   ],
+   [
+    -39.62217712402344
+   ],
+   [
+    -38.834991455078125
+   ],
+   [
+    -47.59958267211914
+   ],
+   [
+    -38.155426025390625
+   ],
+   [
+    -50.70081329345703
+   ],
+   [
+    -40.2792854309082
+   ],
+   [
+    -37.43292999267578
+   ],
+   [
+    -40.06322479248047
+   ],
+   [
+    -38.07981491088867
+   ],
+   [
+    -42.58451843261719
+   ],
+   [
+    -36.834896087646484
+   ],
+   [
+    -40.24062728881836
+   ],
+   [
+    -35.68097686767578
+   ],
+   [
+    -39.655548095703125
+   ],
+   [
+    -40.270633697509766
+   ],
+   [
+    -41.97443389892578
+   ],
+   [
+    -42.53461837768555
+   ],
+   [
+    -43.99961853027344
+   ],
+   [
+    -44.65216064453125
+   ],
+   [
+    -50.40129852294922
+   ],
+   [
+    -43.136138916015625
+   ],
+   [
+    -43.47295379638672
+   ],
+   [
+    -39.95062255859375
+   ],
+   [
+    -40.64707946777344
+   ],
+   [
+    -40.68846893310547
+   ],
+   [
+    -39.68918991088867
+   ],
+   [
+    -33.86970138549805
+   ],
+   [
+    -37.53913497924805
+   ],
+   [
+    -38.84711456298828
+   ],
+   [
+    -46.44450759887695
+   ],
+   [
+    -44.11017990112305
+   ],
+   [
+    -40.253883361816406
+   ],
+   [
+    -37.563819885253906
+   ],
+   [
+    -38.96562194824219
+   ],
+   [
+    -40.014915466308594
+   ],
+   [
+    -42.26349639892578
+   ],
+   [
+    -49.701759338378906
+   ],
+   [
+    -37.09273910522461
+   ],
+   [
+    -39.03114700317383
+   ],
+   [
+    -41.190101623535156
+   ],
+   [
+    -37.51787185668945
+   ],
+   [
+    -39.37654113769531
+   ],
+   [
+    -42.580406188964844
+   ],
+   [
+    -43.56364440917969
+   ],
+   [
+    -39.49135208129883
+   ],
+   [
+    -41.6519889831543
+   ],
+   [
+    -41.879817962646484
+   ],
+   [
+    -42.59693908691406
+   ],
+   [
+    -37.917137145996094
+   ],
+   [
+    -37.78089141845703
+   ],
+   [
+    -40.85896301269531
+   ],
+   [
+    -38.89693069458008
+   ],
+   [
+    -39.22752380371094
+   ],
+   [
+    -35.323890686035156
+   ],
+   [
+    -42.60674285888672
+   ],
+   [
+    -52.48189163208008
+   ],
+   [
+    -39.8534049987793
+   ],
+   [
+    -38.234439849853516
+   ],
+   [
+    -38.44939422607422
+   ],
+   [
+    -45.02613067626953
+   ],
+   [
+    -42.96626663208008
+   ],
+   [
+    -39.804588317871094
+   ],
+   [
+    -43.168888092041016
+   ],
+   [
+    -39.06144714355469
+   ],
+   [
+    -40.19080352783203
+   ],
+   [
+    -39.77277374267578
+   ],
+   [
+    -43.084442138671875
+   ],
+   [
+    -57.79425811767578
+   ],
+   [
+    -40.0849609375
+   ],
+   [
+    -41.15427780151367
+   ],
+   [
+    -40.12508010864258
+   ],
+   [
+    -38.34873580932617
+   ],
+   [
+    -41.235076904296875
+   ],
+   [
+    -32.59891128540039
+   ],
+   [
+    -40.71373748779297
+   ],
+   [
+    -44.581809997558594
+   ],
+   [
+    -42.615562438964844
+   ],
+   [
+    -38.28913497924805
+   ],
+   [
+    -35.53076171875
+   ],
+   [
+    -51.83869171142578
+   ],
+   [
+    -39.32316589355469
+   ],
+   [
+    -45.76427459716797
+   ],
+   [
+    -36.754756927490234
+   ],
+   [
+    -38.34565734863281
+   ],
+   [
+    -40.10649490356445
+   ],
+   [
+    -40.565738677978516
+   ],
+   [
+    -42.938575744628906
+   ],
+   [
+    -41.75151443481445
+   ],
+   [
+    -40.81563949584961
+   ],
+   [
+    -48.43329620361328
+   ],
+   [
+    -39.317359924316406
+   ],
+   [
+    -51.28839111328125
+   ],
+   [
+    -41.34742736816406
+   ],
+   [
+    -38.37856674194336
+   ],
+   [
+    -37.041778564453125
+   ],
+   [
+    -47.50487518310547
+   ],
+   [
+    -38.56980895996094
+   ],
+   [
+    -39.814796447753906
+   ],
+   [
+    -35.60597610473633
+   ],
+   [
+    -36.83671188354492
+   ],
+   [
+    -39.89527893066406
+   ],
+   [
+    -38.52907180786133
+   ],
+   [
+    -32.974449157714844
+   ],
+   [
+    -39.8571662902832
+   ],
+   [
+    -39.374046325683594
+   ],
+   [
+    -41.95396423339844
+   ],
+   [
+    -43.828453063964844
+   ],
+   [
+    -41.79115295410156
+   ],
+   [
+    -48.615570068359375
+   ],
+   [
+    -44.53432846069336
+   ],
+   [
+    -40.194007873535156
+   ],
+   [
+    -42.36497116088867
+   ],
+   [
+    -42.610286712646484
+   ],
+   [
+    -37.20607376098633
+   ],
+   [
+    -41.98196029663086
+   ],
+   [
+    -38.833351135253906
+   ],
+   [
+    -45.167633056640625
+   ],
+   [
+    -36.418270111083984
+   ],
+   [
+    -36.64106750488281
+   ],
+   [
+    -39.948974609375
+   ],
+   [
+    -37.726558685302734
+   ],
+   [
+    -36.06974792480469
+   ],
+   [
+    -40.2596435546875
+   ],
+   [
+    -37.88996124267578
+   ],
+   [
+    -39.787662506103516
+   ],
+   [
+    -34.98824691772461
+   ],
+   [
+    -45.10993576049805
+   ],
+   [
+    -36.14533996582031
+   ],
+   [
+    -41.067161560058594
+   ],
+   [
+    -56.0760498046875
+   ],
+   [
+    -47.91673278808594
+   ],
+   [
+    -38.536922454833984
+   ],
+   [
+    -46.085838317871094
+   ],
+   [
+    -34.8714485168457
+   ],
+   [
+    -37.87705612182617
+   ],
+   [
+    -46.151702880859375
+   ],
+   [
+    -42.26127624511719
+   ],
+   [
+    -36.18283462524414
+   ],
+   [
+    -43.00151443481445
+   ],
+   [
+    -43.202789306640625
+   ],
+   [
+    -37.901039123535156
+   ],
+   [
+    -44.32426071166992
+   ],
+   [
+    -36.71044921875
+   ],
+   [
+    -39.310062408447266
+   ],
+   [
+    -44.90802764892578
+   ],
+   [
+    -35.85599136352539
+   ],
+   [
+    -34.2578010559082
+   ],
+   [
+    -45.6658935546875
+   ],
+   [
+    -41.214385986328125
+   ],
+   [
+    -38.77155303955078
+   ],
+   [
+    -42.855186462402344
+   ],
+   [
+    -40.86677932739258
+   ],
+   [
+    -38.642425537109375
+   ],
+   [
+    -39.21061325073242
+   ],
+   [
+    -39.58373260498047
+   ],
+   [
+    -48.8848876953125
+   ],
+   [
+    -35.361019134521484
+   ],
+   [
+    -38.322513580322266
+   ],
+   [
+    -41.13835144042969
+   ],
+   [
+    -42.34425735473633
+   ],
+   [
+    -41.24052429199219
+   ],
+   [
+    -35.82949447631836
+   ],
+   [
+    -39.802635192871094
+   ],
+   [
+    -39.148799896240234
+   ],
+   [
+    -40.91920471191406
+   ],
+   [
+    -42.05791473388672
+   ],
+   [
+    -41.483123779296875
+   ],
+   [
+    -38.117427825927734
+   ],
+   [
+    -39.877830505371094
+   ],
+   [
+    -40.84322738647461
+   ],
+   [
+    -36.84931945800781
+   ],
+   [
+    -38.704227447509766
+   ],
+   [
+    -43.63562774658203
+   ],
+   [
+    -38.15248107910156
+   ],
+   [
+    -42.47793197631836
+   ],
+   [
+    -41.716827392578125
+   ],
+   [
+    -38.202144622802734
+   ],
+   [
+    -46.92474365234375
+   ],
+   [
+    -36.965087890625
+   ],
+   [
+    -43.6839599609375
+   ],
+   [
+    -45.41326141357422
+   ]
+  ]
+ ],
+ "time": 1977.9648382663727
+}

@@ -9,32 +9,35 @@ def create(human_sheet, prop):
 	targets = [item["requested_rewrite"]["target_true"]["id"] for item in humans]
 	sub = {}
 	for i in range(len(subjects)):
+		print(i, len(subjects))
 		target = targets[i]
 		try:
-			with open(f"../data/wiki/00_{prop}_{target}.json") as o:
+			with open(f"../data/wiki/Q6581072_{prop}_{target}.json") as o:
 				proxy = json.load(o)
 				try:
-					with open(f"../data/wiki/01_{prop}_{target}.json") as o2:
+					with open(f"../data/wiki/Q6581097_{prop}_{target}.json") as o2:
 						proxy = {**proxy, **json.load(o2)}
 				except Exception as e:
 					print("exception at o2 stage")
 					print(e)
-
 		except Exception as e:
 			print("exception at o stage")
 			print(e)
 			continue
-		match = [item for item in proxy.keys() if subjects[i].strip() in proxy[item]["name"].strip()]
+		match = []
+		for item in proxy.keys():
+			if "name" in proxy[item].keys() and subjects[i].strip() in str(proxy[item]["name"]).strip():
+				match.append(item)
 		if len(match) > 0:
 			cue = match[0].split("/")[-1]
 		else:
 			print(f"no match for {subjects[i]}")
-			print([proxy[item]["name"] for item in proxy])
+			# print([proxy[item]["name"] for item in proxy])
 			continue
 		try:
-			page = wptools.page(wikibase = cue)
+			page = wptools.page(wikibase = cue, silent = True)
 			try:
-				wikidata = page.get_wikidata().data['claims']
+				wikidata = page.get_wikidata(show = False).data['claims']
 				sub[cue] = {"name": subjects[i], "properties": wikidata}
 			except Exception as e:
 				print("wikidata get_wikidata exception")

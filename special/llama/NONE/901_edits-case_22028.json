@@ -1,0 +1,2076 @@
+{
+ "case_id": 22028,
+ "grouped_case_ids": [
+  21920,
+  21921,
+  21922,
+  21923,
+  21924,
+  21925,
+  21926,
+  21927,
+  21928,
+  21929,
+  21930,
+  21931,
+  21932,
+  21933,
+  21934,
+  21935,
+  21936,
+  21937,
+  21938,
+  21939,
+  21940,
+  21941,
+  21942,
+  21943,
+  21944,
+  21945,
+  21946,
+  21947,
+  21948,
+  21949,
+  21950,
+  21951,
+  21952,
+  21953,
+  21954,
+  21955,
+  21956,
+  21957,
+  21958,
+  21959,
+  21960,
+  21961,
+  21962,
+  21963,
+  21964,
+  21965,
+  21966,
+  21967,
+  21968,
+  21969,
+  21970,
+  21971,
+  21972,
+  21973,
+  21974,
+  21975,
+  21976,
+  21977,
+  21978,
+  21979,
+  21980,
+  21981,
+  21982,
+  21983,
+  21984,
+  21985,
+  21986,
+  21987,
+  21988,
+  21989,
+  21990,
+  21991,
+  21992,
+  21993,
+  21994,
+  21995,
+  21996,
+  21997,
+  21998,
+  21999,
+  22000,
+  22001,
+  22002,
+  22003,
+  22004,
+  22005,
+  22006,
+  22007,
+  22008,
+  22009,
+  22010,
+  22011,
+  22012,
+  22013,
+  22014,
+  22015,
+  22016,
+  22017,
+  22018,
+  22019,
+  22020,
+  22021,
+  22022,
+  22023,
+  22024,
+  22025,
+  22026,
+  22027,
+  22028,
+  22029,
+  22030,
+  22031,
+  22032,
+  22033,
+  22034,
+  22035,
+  22036,
+  22037,
+  22038,
+  22039,
+  22040,
+  22041,
+  22042,
+  22043,
+  22044,
+  22045,
+  22046,
+  22047,
+  22048,
+  22049,
+  22050,
+  22051,
+  22052,
+  22053,
+  22054,
+  22055,
+  22056,
+  22057,
+  22058,
+  22059,
+  22060,
+  22061,
+  22062,
+  22063,
+  22064,
+  22065,
+  22066,
+  22067,
+  22068,
+  22069,
+  22070,
+  22071,
+  22072,
+  22073,
+  22074,
+  22075,
+  22076,
+  22077,
+  22078,
+  22079,
+  22080,
+  22081,
+  22082,
+  22083,
+  22084,
+  22085,
+  22086,
+  22087,
+  22088,
+  22089,
+  22090,
+  22091,
+  22092,
+  22093,
+  22094,
+  22095,
+  22096,
+  22097,
+  22098,
+  22099,
+  22100,
+  22101,
+  22102,
+  22103,
+  22104,
+  22105,
+  22106,
+  22107,
+  22108,
+  22109,
+  22110,
+  22111,
+  22112,
+  22113,
+  22114,
+  22115,
+  22116,
+  22117,
+  22118,
+  22119,
+  22120,
+  22121,
+  22122,
+  22123,
+  22124,
+  22125,
+  22126,
+  22127,
+  22128,
+  22129,
+  22130,
+  22131,
+  22132,
+  22133,
+  22134,
+  22135,
+  22136,
+  22137,
+  22138,
+  22139,
+  22140,
+  22141,
+  22142,
+  22143,
+  22144,
+  22145,
+  22146,
+  22147,
+  22148,
+  22149,
+  22150,
+  22151,
+  22152,
+  22153,
+  22154,
+  22155,
+  22156,
+  22157,
+  22158,
+  22159,
+  22160,
+  22161,
+  22162,
+  22163,
+  22164,
+  22165,
+  22166,
+  22167,
+  22168,
+  22169,
+  22170,
+  22171,
+  22172,
+  22173,
+  22174,
+  22175,
+  22176,
+  22177,
+  22178,
+  22179,
+  22180,
+  22181,
+  22182,
+  22183,
+  22184,
+  22185,
+  22186,
+  22187,
+  22188,
+  22189,
+  22190,
+  22191,
+  22192,
+  22193,
+  22194,
+  22195,
+  22196,
+  22197,
+  22198,
+  22199,
+  22200,
+  22201,
+  22202,
+  22203,
+  22204,
+  22205,
+  22206,
+  22207,
+  22208,
+  22209
+ ],
+ "num_edits": 901,
+ "requested_rewrite": {
+  "prompt": "{}'s gender is",
+  "relation_id": "P21",
+  "target_new": {
+   "str": "female",
+   "id": "Q6581072"
+  },
+  "target_true": {
+   "str": "male",
+   "id": "Q6581097"
+  },
+  "subject": "Daniel Bernoulli"
+ },
+ "pre": [
+  [
+   "Daniel Bernoulli's field of work is abstract algebra",
+   "Daniel Bernoulli's field of work is theology",
+   "Daniel Bernoulli's field of work is television program",
+   "Daniel Bernoulli's field of work is nanotechnology",
+   "Daniel Bernoulli's field of work is hydrodynamics",
+   "Daniel Bernoulli's field of work is ethics",
+   "Daniel Bernoulli's field of work is physicist",
+   "Daniel Bernoulli's field of work is evolution",
+   "Daniel Bernoulli's field of work is distribution theory",
+   "Daniel Bernoulli's field of work is psychophysiology",
+   "Daniel Bernoulli's field of work is English literature",
+   "Daniel Bernoulli's field of work is theoretical physics",
+   "Daniel Bernoulli's field of work is essay",
+   "Daniel Bernoulli's field of work is ethnology",
+   "Daniel Bernoulli's field of work is pedagogy",
+   "Daniel Bernoulli's field of work is kinetic theory",
+   "Daniel Bernoulli's field of work is ethnography",
+   "Daniel Bernoulli's field of work is rite",
+   "Daniel Bernoulli's field of work is economics",
+   "Daniel Bernoulli's field of work is dance choreography",
+   "Daniel Bernoulli's field of work is biological anthropology",
+   "Daniel Bernoulli's field of work is history of religions",
+   "Daniel Bernoulli's field of work is political philosophy",
+   "Daniel Bernoulli's field of work is philosophy",
+   "Daniel Bernoulli's field of work is linguistics",
+   "Daniel Bernoulli's field of work is cosmology",
+   "Daniel Bernoulli's field of work is hunting",
+   "Daniel Bernoulli's field of work is Minkowski spacetime",
+   "Daniel Bernoulli's field of work is classical music",
+   "Daniel Bernoulli's field of work is hyperbolic geometry",
+   "Daniel Bernoulli's field of work is radioactivity",
+   "Daniel Bernoulli's field of work is belletristic literature",
+   "Daniel Bernoulli's field of work is model theory",
+   "Daniel Bernoulli's field of work is choreography",
+   "Daniel Bernoulli's field of work is chemistry",
+   "Daniel Bernoulli's field of work is literary activity",
+   "Daniel Bernoulli's field of work is historical sociology",
+   "Daniel Bernoulli's field of work is feminism",
+   "Daniel Bernoulli's field of work is economy",
+   "Daniel Bernoulli's field of work is astronomy",
+   "Daniel Bernoulli's field of work is topology",
+   "Daniel Bernoulli's field of work is translations from English",
+   "Daniel Bernoulli's field of work is partial differential equation",
+   "Daniel Bernoulli's field of work is Cairo Geniza",
+   "Daniel Bernoulli's field of work is nuclear physics",
+   "Daniel Bernoulli's field of work is dance",
+   "Daniel Bernoulli's field of work is informatics",
+   "Daniel Bernoulli's field of work is geometry",
+   "Daniel Bernoulli's field of work is computational geometry",
+   "Daniel Bernoulli's field of work is Sanskrit",
+   "Daniel Bernoulli's field of work is magnetism",
+   "Daniel Bernoulli's field of work is opera",
+   "Daniel Bernoulli's field of work is algebraic topology",
+   "Daniel Bernoulli's field of work is quaternion",
+   "Daniel Bernoulli's field of work is Bayesian inference",
+   "Daniel Bernoulli's field of work is quantum electrodynamics",
+   "Daniel Bernoulli's field of work is religion and society",
+   "Daniel Bernoulli's field of work is history of economic thought",
+   "Daniel Bernoulli's field of work is translations from Polish",
+   "Daniel Bernoulli's field of work is literary translation",
+   "Daniel Bernoulli's field of work is lyric poetry",
+   "Daniel Bernoulli's field of work is probability theory",
+   "Daniel Bernoulli's field of work is ontology",
+   "Daniel Bernoulli's field of work is aerodynamics",
+   "Daniel Bernoulli's field of work is crystallography",
+   "Daniel Bernoulli's field of work is mathematics",
+   "Daniel Bernoulli's field of work is harmonic analysis",
+   "Daniel Bernoulli's field of work is history of science",
+   "Daniel Bernoulli's field of work is philosophy of law",
+   "Daniel Bernoulli's field of work is philology",
+   "Daniel Bernoulli's field of work is optics",
+   "Daniel Bernoulli's field of work is functional analysis",
+   "Daniel Bernoulli's field of work is surgery",
+   "Daniel Bernoulli's field of work is complex function",
+   "Daniel Bernoulli's field of work is Jewish philosophy",
+   "Daniel Bernoulli's field of work is translations from Spanish",
+   "Daniel Bernoulli's field of work is poetry",
+   "Daniel Bernoulli's field of work is distribution",
+   "Daniel Bernoulli's field of work is astrology",
+   "Daniel Bernoulli's field of work is differential geometry",
+   "Daniel Bernoulli's field of work is mechanics",
+   "Daniel Bernoulli's field of work is positivism",
+   "Daniel Bernoulli's field of work is ferromagnetism",
+   "Daniel Bernoulli's field of work is quantum physics",
+   "Daniel Bernoulli's field of work is music theory",
+   "Daniel Bernoulli's field of work is physiology",
+   "Daniel Bernoulli's field of work is theory of differential equations",
+   "Daniel Bernoulli's field of work is astrophysics",
+   "Daniel Bernoulli's field of work is number theory",
+   "Daniel Bernoulli's field of work is magnetic field",
+   "Daniel Bernoulli's field of work is historical novel",
+   "Daniel Bernoulli's field of work is stochastic",
+   "Daniel Bernoulli's field of work is philosopher",
+   "Daniel Bernoulli's field of work is histology",
+   "Daniel Bernoulli's field of work is Franciscan spirituality",
+   "Daniel Bernoulli's field of work is electromagnetic field",
+   "Daniel Bernoulli's field of work is medicine",
+   "Daniel Bernoulli's field of work is algebraic geometry",
+   "Daniel Bernoulli's field of work is comparative mythology",
+   "Daniel Bernoulli's field of work is color photography",
+   "Daniel Bernoulli's field of work is cryptography",
+   "Daniel Bernoulli's field of work is Christian Church",
+   "Daniel Bernoulli's field of work is electrical engineering",
+   "Daniel Bernoulli's field of work is folklore",
+   "Daniel Bernoulli's field of work is mythology",
+   "Daniel Bernoulli's field of work is human geography",
+   "Daniel Bernoulli's field of work is Petrine ministry",
+   "Daniel Bernoulli's field of work is Judaism",
+   "Daniel Bernoulli's field of work is group theory",
+   "Daniel Bernoulli's field of work is non-Euclidean geometry",
+   "Daniel Bernoulli's field of work is algebra",
+   "Daniel Bernoulli's field of work is ballistics",
+   "Daniel Bernoulli's field of work is mathematician",
+   "Daniel Bernoulli's field of work is applied physics",
+   "Daniel Bernoulli's field of work is culturology",
+   "Daniel Bernoulli's field of work is calculus of variations",
+   "Daniel Bernoulli's field of work is logic",
+   "Daniel Bernoulli's field of work is engineering",
+   "Daniel Bernoulli's field of work is translations from Occitan",
+   "Daniel Bernoulli's field of work is anatomy",
+   "Daniel Bernoulli's field of work is forestry science",
+   "Daniel Bernoulli's field of work is magic",
+   "Daniel Bernoulli's field of work is quantum mechanics",
+   "Daniel Bernoulli's field of work is differential calculus",
+   "Daniel Bernoulli's field of work is shipbuilding",
+   "Daniel Bernoulli's field of work is convex function",
+   "Daniel Bernoulli's field of work is analytic philosophy",
+   "Daniel Bernoulli's field of work is magnetic resonance",
+   "Daniel Bernoulli's field of work is detective literature",
+   "Daniel Bernoulli's field of work is cartography",
+   "Daniel Bernoulli's field of work is sociology of organisations",
+   "Daniel Bernoulli's field of work is crime novel",
+   "Daniel Bernoulli's field of work is gravity",
+   "Daniel Bernoulli's field of work is statistics",
+   "Daniel Bernoulli's field of work is Greek philology",
+   "Daniel Bernoulli's field of work is analytic number theory",
+   "Daniel Bernoulli's field of work is trigonometry",
+   "Daniel Bernoulli's field of work is physics",
+   "Daniel Bernoulli's field of work is astronomer",
+   "Daniel Bernoulli's field of work is natural science",
+   "Daniel Bernoulli's field of work is information technology",
+   "Daniel Bernoulli's field of work is conducting",
+   "Daniel Bernoulli's field of work is nonstandard analysis",
+   "Daniel Bernoulli's field of work is mathematical analysis",
+   "Daniel Bernoulli's field of work is a branch of physics",
+   "Daniel Bernoulli's field of work is projective geometry",
+   "Daniel Bernoulli's field of work is civil rights",
+   "Daniel Bernoulli's field of work is children's and youth literature",
+   "Daniel Bernoulli's field of work is embryology",
+   "Daniel Bernoulli's field of work is momentum",
+   "Daniel Bernoulli's field of work is African studies",
+   "Daniel Bernoulli's field of work is fairy tale",
+   "Daniel Bernoulli's field of work is classics",
+   "Daniel Bernoulli's field of work is social psychology",
+   "Daniel Bernoulli's field of work is Jewish studies",
+   "Daniel Bernoulli's field of work is silviculture",
+   "Daniel Bernoulli's field of work is education",
+   "Daniel Bernoulli's field of work is literature",
+   "Daniel Bernoulli's field of work is constitutional law",
+   "Daniel Bernoulli's field of work is radiation",
+   "Daniel Bernoulli's field of work is Internet",
+   "Daniel Bernoulli's field of work is heat",
+   "Daniel Bernoulli's field of work is mechanical engineering",
+   "Daniel Bernoulli's field of work is forestry",
+   "Daniel Bernoulli's field of work is jazz",
+   "Daniel Bernoulli's field of work is social philosophy",
+   "Daniel Bernoulli's field of work is mathematical physics",
+   "Daniel Bernoulli's field of work is meteorology",
+   "Daniel Bernoulli's field of work is translations from Arabic language",
+   "Daniel Bernoulli's field of work is quantum mysticism",
+   "Daniel Bernoulli's field of work is politics",
+   "Daniel Bernoulli's field of work is astronomical observation",
+   "Daniel Bernoulli's field of work is myth",
+   "Daniel Bernoulli's field of work is geography",
+   "Daniel Bernoulli's field of work is sociology of religion",
+   "Daniel Bernoulli's field of work is comparative religion",
+   "Daniel Bernoulli's field of work is Greek",
+   "Daniel Bernoulli's field of work is Lie algebra",
+   "Daniel Bernoulli's field of work is complex manifold",
+   "Daniel Bernoulli's field of work is journalism",
+   "Daniel Bernoulli's field of work is celestial mechanics",
+   "Daniel Bernoulli's field of work is String",
+   "Daniel Bernoulli's field of work is mathematical logic",
+   "Daniel Bernoulli's field of work is aeromechanics",
+   "Daniel Bernoulli's field of work is English",
+   "Daniel Bernoulli's field of work is history",
+   "Daniel Bernoulli's field of work is study of history",
+   "Daniel Bernoulli's field of work is genetics",
+   "Daniel Bernoulli's field of work is psychology",
+   "Daniel Bernoulli's field of work is theory of relativity",
+   "Daniel Bernoulli's field of work is biochemistry",
+   "Daniel Bernoulli's field of work is ballet",
+   "Daniel Bernoulli's field of work is electricity",
+   "Daniel Bernoulli's field of work is experimental physics",
+   "Daniel Bernoulli's field of work is natural theology",
+   "Daniel Bernoulli's field of work is Hebrew",
+   "Daniel Bernoulli's field of work is prose",
+   "Daniel Bernoulli's field of work is paleontology",
+   "Daniel Bernoulli's field of work is Monte Carlo method",
+   "Daniel Bernoulli's field of work is quantum theory",
+   "Daniel Bernoulli's field of work is computer science",
+   "Daniel Bernoulli's field of work is cybernetics",
+   "Daniel Bernoulli's field of work is Afghanistan",
+   "Daniel Bernoulli's field of work is philosophy of science",
+   "Daniel Bernoulli's field of work is literary theory",
+   "Daniel Bernoulli's field of work is electric field",
+   "Daniel Bernoulli's field of work is religion",
+   "Daniel Bernoulli's field of work is analytic geometry",
+   "Daniel Bernoulli's field of work is graph theory",
+   "Daniel Bernoulli's field of work is electron",
+   "Daniel Bernoulli's field of work is anthropology",
+   "Daniel Bernoulli's field of work is social anthropology",
+   "Daniel Bernoulli's field of work is sociology",
+   "Daniel Bernoulli's field of work is geodesy",
+   "Daniel Bernoulli's field of work is neurology",
+   "Daniel Bernoulli's field of work is drama",
+   "Daniel Bernoulli's field of work is art of painting",
+   "Daniel Bernoulli's field of work is applied mathematics",
+   "Daniel Bernoulli's field of work is world economy",
+   "Daniel Bernoulli's field of work is economic anthropology",
+   "Daniel Bernoulli is abstract algebra",
+   "Daniel Bernoulli is theology",
+   "Daniel Bernoulli is television program",
+   "Daniel Bernoulli is nanotechnology",
+   "Daniel Bernoulli is hydrodynamics",
+   "Daniel Bernoulli is ethics",
+   "Daniel Bernoulli is physicist",
+   "Daniel Bernoulli is evolution",
+   "Daniel Bernoulli is distribution theory",
+   "Daniel Bernoulli is psychophysiology",
+   "Daniel Bernoulli is English literature",
+   "Daniel Bernoulli is theoretical physics",
+   "Daniel Bernoulli is essay",
+   "Daniel Bernoulli is ethnology",
+   "Daniel Bernoulli is pedagogy",
+   "Daniel Bernoulli is kinetic theory",
+   "Daniel Bernoulli is ethnography",
+   "Daniel Bernoulli is rite",
+   "Daniel Bernoulli is economics",
+   "Daniel Bernoulli is dance choreography",
+   "Daniel Bernoulli is biological anthropology",
+   "Daniel Bernoulli is history of religions",
+   "Daniel Bernoulli is political philosophy",
+   "Daniel Bernoulli is philosophy",
+   "Daniel Bernoulli is linguistics",
+   "Daniel Bernoulli is cosmology",
+   "Daniel Bernoulli is hunting",
+   "Daniel Bernoulli is Minkowski spacetime",
+   "Daniel Bernoulli is classical music",
+   "Daniel Bernoulli is hyperbolic geometry",
+   "Daniel Bernoulli is radioactivity",
+   "Daniel Bernoulli is belletristic literature",
+   "Daniel Bernoulli is model theory",
+   "Daniel Bernoulli is choreography",
+   "Daniel Bernoulli is chemistry",
+   "Daniel Bernoulli is literary activity",
+   "Daniel Bernoulli is historical sociology",
+   "Daniel Bernoulli is feminism",
+   "Daniel Bernoulli is economy",
+   "Daniel Bernoulli is astronomy",
+   "Daniel Bernoulli is topology",
+   "Daniel Bernoulli is translations from English",
+   "Daniel Bernoulli is partial differential equation",
+   "Daniel Bernoulli is Cairo Geniza",
+   "Daniel Bernoulli is nuclear physics",
+   "Daniel Bernoulli is dance",
+   "Daniel Bernoulli is informatics",
+   "Daniel Bernoulli is geometry",
+   "Daniel Bernoulli is computational geometry",
+   "Daniel Bernoulli is Sanskrit",
+   "Daniel Bernoulli is magnetism",
+   "Daniel Bernoulli is opera",
+   "Daniel Bernoulli is algebraic topology",
+   "Daniel Bernoulli is quaternion",
+   "Daniel Bernoulli is Bayesian inference",
+   "Daniel Bernoulli is quantum electrodynamics",
+   "Daniel Bernoulli is religion and society",
+   "Daniel Bernoulli is history of economic thought",
+   "Daniel Bernoulli is translations from Polish",
+   "Daniel Bernoulli is literary translation",
+   "Daniel Bernoulli is lyric poetry",
+   "Daniel Bernoulli is probability theory",
+   "Daniel Bernoulli is ontology",
+   "Daniel Bernoulli is aerodynamics",
+   "Daniel Bernoulli is crystallography",
+   "Daniel Bernoulli is mathematics",
+   "Daniel Bernoulli is harmonic analysis",
+   "Daniel Bernoulli is history of science",
+   "Daniel Bernoulli is philosophy of law",
+   "Daniel Bernoulli is philology",
+   "Daniel Bernoulli is optics",
+   "Daniel Bernoulli is functional analysis",
+   "Daniel Bernoulli is surgery",
+   "Daniel Bernoulli is complex function",
+   "Daniel Bernoulli is Jewish philosophy",
+   "Daniel Bernoulli is translations from Spanish",
+   "Daniel Bernoulli is poetry",
+   "Daniel Bernoulli is distribution",
+   "Daniel Bernoulli is astrology",
+   "Daniel Bernoulli is differential geometry",
+   "Daniel Bernoulli is mechanics",
+   "Daniel Bernoulli is positivism",
+   "Daniel Bernoulli is ferromagnetism",
+   "Daniel Bernoulli is quantum physics",
+   "Daniel Bernoulli is music theory",
+   "Daniel Bernoulli is physiology",
+   "Daniel Bernoulli is theory of differential equations",
+   "Daniel Bernoulli is astrophysics",
+   "Daniel Bernoulli is number theory",
+   "Daniel Bernoulli is magnetic field",
+   "Daniel Bernoulli is historical novel",
+   "Daniel Bernoulli is stochastic",
+   "Daniel Bernoulli is philosopher",
+   "Daniel Bernoulli is histology",
+   "Daniel Bernoulli is Franciscan spirituality",
+   "Daniel Bernoulli is electromagnetic field",
+   "Daniel Bernoulli is medicine",
+   "Daniel Bernoulli is algebraic geometry",
+   "Daniel Bernoulli is comparative mythology",
+   "Daniel Bernoulli is color photography",
+   "Daniel Bernoulli is cryptography",
+   "Daniel Bernoulli is Christian Church",
+   "Daniel Bernoulli is electrical engineering",
+   "Daniel Bernoulli is folklore",
+   "Daniel Bernoulli is mythology",
+   "Daniel Bernoulli is human geography",
+   "Daniel Bernoulli is Petrine ministry",
+   "Daniel Bernoulli is Judaism",
+   "Daniel Bernoulli is group theory",
+   "Daniel Bernoulli is non-Euclidean geometry",
+   "Daniel Bernoulli is algebra",
+   "Daniel Bernoulli is ballistics",
+   "Daniel Bernoulli is mathematician",
+   "Daniel Bernoulli is applied physics",
+   "Daniel Bernoulli is culturology",
+   "Daniel Bernoulli is calculus of variations",
+   "Daniel Bernoulli is logic",
+   "Daniel Bernoulli is engineering",
+   "Daniel Bernoulli is translations from Occitan",
+   "Daniel Bernoulli is anatomy",
+   "Daniel Bernoulli is forestry science",
+   "Daniel Bernoulli is magic",
+   "Daniel Bernoulli is quantum mechanics",
+   "Daniel Bernoulli is differential calculus",
+   "Daniel Bernoulli is shipbuilding",
+   "Daniel Bernoulli is convex function",
+   "Daniel Bernoulli is analytic philosophy",
+   "Daniel Bernoulli is magnetic resonance",
+   "Daniel Bernoulli is detective literature",
+   "Daniel Bernoulli is cartography",
+   "Daniel Bernoulli is sociology of organisations",
+   "Daniel Bernoulli is crime novel",
+   "Daniel Bernoulli is gravity",
+   "Daniel Bernoulli is statistics",
+   "Daniel Bernoulli is Greek philology",
+   "Daniel Bernoulli is analytic number theory",
+   "Daniel Bernoulli is trigonometry",
+   "Daniel Bernoulli is physics",
+   "Daniel Bernoulli is astronomer",
+   "Daniel Bernoulli is natural science",
+   "Daniel Bernoulli is information technology",
+   "Daniel Bernoulli is conducting",
+   "Daniel Bernoulli is nonstandard analysis",
+   "Daniel Bernoulli is mathematical analysis",
+   "Daniel Bernoulli is a branch of physics",
+   "Daniel Bernoulli is projective geometry",
+   "Daniel Bernoulli is civil rights",
+   "Daniel Bernoulli is children's and youth literature",
+   "Daniel Bernoulli is embryology",
+   "Daniel Bernoulli is momentum",
+   "Daniel Bernoulli is African studies",
+   "Daniel Bernoulli is fairy tale",
+   "Daniel Bernoulli is classics",
+   "Daniel Bernoulli is social psychology",
+   "Daniel Bernoulli is Jewish studies",
+   "Daniel Bernoulli is silviculture",
+   "Daniel Bernoulli is education",
+   "Daniel Bernoulli is literature",
+   "Daniel Bernoulli is constitutional law",
+   "Daniel Bernoulli is radiation",
+   "Daniel Bernoulli is Internet",
+   "Daniel Bernoulli is heat",
+   "Daniel Bernoulli is mechanical engineering",
+   "Daniel Bernoulli is forestry",
+   "Daniel Bernoulli is jazz",
+   "Daniel Bernoulli is social philosophy",
+   "Daniel Bernoulli is mathematical physics",
+   "Daniel Bernoulli is meteorology",
+   "Daniel Bernoulli is translations from Arabic language",
+   "Daniel Bernoulli is quantum mysticism",
+   "Daniel Bernoulli is politics",
+   "Daniel Bernoulli is astronomical observation",
+   "Daniel Bernoulli is myth",
+   "Daniel Bernoulli is geography",
+   "Daniel Bernoulli is sociology of religion",
+   "Daniel Bernoulli is comparative religion",
+   "Daniel Bernoulli is Greek",
+   "Daniel Bernoulli is Lie algebra",
+   "Daniel Bernoulli is complex manifold",
+   "Daniel Bernoulli is journalism",
+   "Daniel Bernoulli is celestial mechanics",
+   "Daniel Bernoulli is String",
+   "Daniel Bernoulli is mathematical logic",
+   "Daniel Bernoulli is aeromechanics",
+   "Daniel Bernoulli is English",
+   "Daniel Bernoulli is history",
+   "Daniel Bernoulli is study of history",
+   "Daniel Bernoulli is genetics",
+   "Daniel Bernoulli is psychology",
+   "Daniel Bernoulli is theory of relativity",
+   "Daniel Bernoulli is biochemistry",
+   "Daniel Bernoulli is ballet",
+   "Daniel Bernoulli is electricity",
+   "Daniel Bernoulli is experimental physics",
+   "Daniel Bernoulli is natural theology",
+   "Daniel Bernoulli is Hebrew",
+   "Daniel Bernoulli is prose",
+   "Daniel Bernoulli is paleontology",
+   "Daniel Bernoulli is Monte Carlo method",
+   "Daniel Bernoulli is quantum theory",
+   "Daniel Bernoulli is computer science",
+   "Daniel Bernoulli is cybernetics",
+   "Daniel Bernoulli is Afghanistan",
+   "Daniel Bernoulli is philosophy of science",
+   "Daniel Bernoulli is literary theory",
+   "Daniel Bernoulli is electric field",
+   "Daniel Bernoulli is religion",
+   "Daniel Bernoulli is analytic geometry",
+   "Daniel Bernoulli is graph theory",
+   "Daniel Bernoulli is electron",
+   "Daniel Bernoulli is anthropology",
+   "Daniel Bernoulli is social anthropology",
+   "Daniel Bernoulli is sociology",
+   "Daniel Bernoulli is geodesy",
+   "Daniel Bernoulli is neurology",
+   "Daniel Bernoulli is drama",
+   "Daniel Bernoulli is art of painting",
+   "Daniel Bernoulli is applied mathematics",
+   "Daniel Bernoulli is world economy",
+   "Daniel Bernoulli is economic anthropology"
+  ],
+  [
+   [
+    -46.54478454589844
+   ],
+   [
+    -47.41938781738281
+   ],
+   [
+    -56.54169845581055
+   ],
+   [
+    -48.482791900634766
+   ],
+   [
+    -41.332496643066406
+   ],
+   [
+    -47.607383728027344
+   ],
+   [
+    -47.672508239746094
+   ],
+   [
+    -44.33421325683594
+   ],
+   [
+    -47.45429229736328
+   ],
+   [
+    -53.390750885009766
+   ],
+   [
+    -50.13616943359375
+   ],
+   [
+    -44.863433837890625
+   ],
+   [
+    -48.40285873413086
+   ],
+   [
+    -50.26926040649414
+   ],
+   [
+    -49.56418228149414
+   ],
+   [
+    -43.716590881347656
+   ],
+   [
+    -50.920860290527344
+   ],
+   [
+    -56.93485641479492
+   ],
+   [
+    -43.11326599121094
+   ],
+   [
+    -54.68156433105469
+   ],
+   [
+    -54.60601043701172
+   ],
+   [
+    -53.338233947753906
+   ],
+   [
+    -48.26190948486328
+   ],
+   [
+    -46.30618667602539
+   ],
+   [
+    -49.450984954833984
+   ],
+   [
+    -47.72600173950195
+   ],
+   [
+    -51.038143157958984
+   ],
+   [
+    -57.43572998046875
+   ],
+   [
+    -50.20157241821289
+   ],
+   [
+    -47.47447204589844
+   ],
+   [
+    -53.908119201660156
+   ],
+   [
+    -55.71356201171875
+   ],
+   [
+    -48.267154693603516
+   ],
+   [
+    -54.15995407104492
+   ],
+   [
+    -47.59263610839844
+   ],
+   [
+    -56.56282043457031
+   ],
+   [
+    -51.71063232421875
+   ],
+   [
+    -51.69768524169922
+   ],
+   [
+    -47.58597946166992
+   ],
+   [
+    -45.13795471191406
+   ],
+   [
+    -46.16707229614258
+   ],
+   [
+    -55.6234130859375
+   ],
+   [
+    -48.068763732910156
+   ],
+   [
+    -61.09605026245117
+   ],
+   [
+    -48.54258346557617
+   ],
+   [
+    -50.01206588745117
+   ],
+   [
+    -51.598472595214844
+   ],
+   [
+    -43.47724151611328
+   ],
+   [
+    -47.452964782714844
+   ],
+   [
+    -51.832908630371094
+   ],
+   [
+    -48.539493560791016
+   ],
+   [
+    -50.268428802490234
+   ],
+   [
+    -45.59895324707031
+   ],
+   [
+    -53.13175964355469
+   ],
+   [
+    -46.560874938964844
+   ],
+   [
+    -49.06327438354492
+   ],
+   [
+    -54.4874267578125
+   ],
+   [
+    -50.51218795776367
+   ],
+   [
+    -58.801300048828125
+   ],
+   [
+    -53.435630798339844
+   ],
+   [
+    -51.539085388183594
+   ],
+   [
+    -41.82228469848633
+   ],
+   [
+    -50.48328399658203
+   ],
+   [
+    -44.19497299194336
+   ],
+   [
+    -50.12434768676758
+   ],
+   [
+    -40.044090270996094
+   ],
+   [
+    -45.46868133544922
+   ],
+   [
+    -47.14002990722656
+   ],
+   [
+    -52.67946243286133
+   ],
+   [
+    -49.34208297729492
+   ],
+   [
+    -43.78534698486328
+   ],
+   [
+    -47.061134338378906
+   ],
+   [
+    -50.888545989990234
+   ],
+   [
+    -50.347476959228516
+   ],
+   [
+    -50.3135871887207
+   ],
+   [
+    -58.73637008666992
+   ],
+   [
+    -49.12663650512695
+   ],
+   [
+    -46.55898666381836
+   ],
+   [
+    -47.91431427001953
+   ],
+   [
+    -43.363494873046875
+   ],
+   [
+    -41.982364654541016
+   ],
+   [
+    -52.743194580078125
+   ],
+   [
+    -51.48480987548828
+   ],
+   [
+    -46.89345932006836
+   ],
+   [
+    -50.229942321777344
+   ],
+   [
+    -46.337928771972656
+   ],
+   [
+    -50.071563720703125
+   ],
+   [
+    -44.47325134277344
+   ],
+   [
+    -43.80858612060547
+   ],
+   [
+    -52.46377182006836
+   ],
+   [
+    -54.74684143066406
+   ],
+   [
+    -43.303627014160156
+   ],
+   [
+    -51.0728759765625
+   ],
+   [
+    -50.806705474853516
+   ],
+   [
+    -57.315818786621094
+   ],
+   [
+    -51.98222351074219
+   ],
+   [
+    -46.41225051879883
+   ],
+   [
+    -46.12273406982422
+   ],
+   [
+    -58.22506332397461
+   ],
+   [
+    -58.216854095458984
+   ],
+   [
+    -47.2795295715332
+   ],
+   [
+    -52.88652801513672
+   ],
+   [
+    -46.831085205078125
+   ],
+   [
+    -51.10557556152344
+   ],
+   [
+    -51.37070846557617
+   ],
+   [
+    -54.720367431640625
+   ],
+   [
+    -64.88868713378906
+   ],
+   [
+    -50.163421630859375
+   ],
+   [
+    -48.982234954833984
+   ],
+   [
+    -47.54487609863281
+   ],
+   [
+    -45.82947540283203
+   ],
+   [
+    -46.629703521728516
+   ],
+   [
+    -45.324623107910156
+   ],
+   [
+    -47.24517822265625
+   ],
+   [
+    -55.23582458496094
+   ],
+   [
+    -42.15504455566406
+   ],
+   [
+    -47.59452438354492
+   ],
+   [
+    -42.962364196777344
+   ],
+   [
+    -64.82083892822266
+   ],
+   [
+    -45.130760192871094
+   ],
+   [
+    -54.36750793457031
+   ],
+   [
+    -48.11017990112305
+   ],
+   [
+    -46.66923904418945
+   ],
+   [
+    -42.66975784301758
+   ],
+   [
+    -50.36594009399414
+   ],
+   [
+    -51.54220199584961
+   ],
+   [
+    -52.24931716918945
+   ],
+   [
+    -51.21611022949219
+   ],
+   [
+    -59.73087692260742
+   ],
+   [
+    -48.01848220825195
+   ],
+   [
+    -58.357330322265625
+   ],
+   [
+    -59.19906234741211
+   ],
+   [
+    -46.84892272949219
+   ],
+   [
+    -42.80607604980469
+   ],
+   [
+    -53.46577835083008
+   ],
+   [
+    -47.33576965332031
+   ],
+   [
+    -48.15401840209961
+   ],
+   [
+    -41.864524841308594
+   ],
+   [
+    -53.183387756347656
+   ],
+   [
+    -44.7076301574707
+   ],
+   [
+    -48.8458366394043
+   ],
+   [
+    -49.837677001953125
+   ],
+   [
+    -51.35332489013672
+   ],
+   [
+    -41.032413482666016
+   ],
+   [
+    -46.10601806640625
+   ],
+   [
+    -48.56573486328125
+   ],
+   [
+    -52.942787170410156
+   ],
+   [
+    -57.23661422729492
+   ],
+   [
+    -51.602474212646484
+   ],
+   [
+    -46.27531433105469
+   ],
+   [
+    -52.868350982666016
+   ],
+   [
+    -56.981170654296875
+   ],
+   [
+    -48.22296905517578
+   ],
+   [
+    -48.72821044921875
+   ],
+   [
+    -49.62792205810547
+   ],
+   [
+    -53.710235595703125
+   ],
+   [
+    -47.164066314697266
+   ],
+   [
+    -46.81752395629883
+   ],
+   [
+    -49.71403121948242
+   ],
+   [
+    -48.26571273803711
+   ],
+   [
+    -50.79119110107422
+   ],
+   [
+    -46.02326583862305
+   ],
+   [
+    -43.42467498779297
+   ],
+   [
+    -50.14314651489258
+   ],
+   [
+    -49.64126205444336
+   ],
+   [
+    -52.52914047241211
+   ],
+   [
+    -40.189876556396484
+   ],
+   [
+    -46.863338470458984
+   ],
+   [
+    -63.03437042236328
+   ],
+   [
+    -54.594383239746094
+   ],
+   [
+    -48.12024688720703
+   ],
+   [
+    -52.75245666503906
+   ],
+   [
+    -50.461063385009766
+   ],
+   [
+    -47.51414489746094
+   ],
+   [
+    -52.20994567871094
+   ],
+   [
+    -53.92259216308594
+   ],
+   [
+    -48.5069465637207
+   ],
+   [
+    -48.05057144165039
+   ],
+   [
+    -51.67131042480469
+   ],
+   [
+    -48.11606979370117
+   ],
+   [
+    -45.72640609741211
+   ],
+   [
+    -49.880455017089844
+   ],
+   [
+    -46.37717819213867
+   ],
+   [
+    -51.43993377685547
+   ],
+   [
+    -47.48793411254883
+   ],
+   [
+    -44.96095275878906
+   ],
+   [
+    -55.2999267578125
+   ],
+   [
+    -47.37172317504883
+   ],
+   [
+    -47.018985748291016
+   ],
+   [
+    -53.21952438354492
+   ],
+   [
+    -50.953495025634766
+   ],
+   [
+    -51.33799743652344
+   ],
+   [
+    -47.502132415771484
+   ],
+   [
+    -46.43342208862305
+   ],
+   [
+    -52.968223571777344
+   ],
+   [
+    -49.11967468261719
+   ],
+   [
+    -50.75695037841797
+   ],
+   [
+    -51.358455657958984
+   ],
+   [
+    -50.30877685546875
+   ],
+   [
+    -48.574710845947266
+   ],
+   [
+    -46.024845123291016
+   ],
+   [
+    -48.456939697265625
+   ],
+   [
+    -53.5700798034668
+   ],
+   [
+    -48.510223388671875
+   ],
+   [
+    -52.17401885986328
+   ],
+   [
+    -54.20322036743164
+   ],
+   [
+    -48.99972915649414
+   ],
+   [
+    -48.64906311035156
+   ],
+   [
+    -46.824851989746094
+   ],
+   [
+    -48.66184997558594
+   ],
+   [
+    -49.40251922607422
+   ],
+   [
+    -53.138938903808594
+   ],
+   [
+    -47.89432144165039
+   ],
+   [
+    -47.37761688232422
+   ],
+   [
+    -50.75225067138672
+   ],
+   [
+    -51.317588806152344
+   ],
+   [
+    -58.72435760498047
+   ],
+   [
+    -41.343605041503906
+   ],
+   [
+    -54.63711929321289
+   ],
+   [
+    -53.412349700927734
+   ],
+   [
+    -40.83892822265625
+   ],
+   [
+    -37.596580505371094
+   ],
+   [
+    -40.77421188354492
+   ],
+   [
+    -39.426666259765625
+   ],
+   [
+    -36.98328399658203
+   ],
+   [
+    -38.6663818359375
+   ],
+   [
+    -32.19517517089844
+   ],
+   [
+    -35.97613525390625
+   ],
+   [
+    -43.72724151611328
+   ],
+   [
+    -45.746238708496094
+   ],
+   [
+    -41.35146713256836
+   ],
+   [
+    -37.53856658935547
+   ],
+   [
+    -34.91374588012695
+   ],
+   [
+    -41.55340576171875
+   ],
+   [
+    -39.447608947753906
+   ],
+   [
+    -38.35894775390625
+   ],
+   [
+    -42.66478729248047
+   ],
+   [
+    -40.176307678222656
+   ],
+   [
+    -33.97088623046875
+   ],
+   [
+    -44.712181091308594
+   ],
+   [
+    -42.37242889404297
+   ],
+   [
+    -46.2658576965332
+   ],
+   [
+    -39.943050384521484
+   ],
+   [
+    -34.910396575927734
+   ],
+   [
+    -40.646541595458984
+   ],
+   [
+    -37.907737731933594
+   ],
+   [
+    -35.26985549926758
+   ],
+   [
+    -44.706459045410156
+   ],
+   [
+    -37.124427795410156
+   ],
+   [
+    -45.210662841796875
+   ],
+   [
+    -42.329505920410156
+   ],
+   [
+    -47.43890380859375
+   ],
+   [
+    -42.74561309814453
+   ],
+   [
+    -43.00079345703125
+   ],
+   [
+    -36.283782958984375
+   ],
+   [
+    -45.923892974853516
+   ],
+   [
+    -42.88020324707031
+   ],
+   [
+    -39.75999069213867
+   ],
+   [
+    -36.4169807434082
+   ],
+   [
+    -37.34225845336914
+   ],
+   [
+    -37.417423248291016
+   ],
+   [
+    -45.51546859741211
+   ],
+   [
+    -36.54759216308594
+   ],
+   [
+    -45.84849548339844
+   ],
+   [
+    -39.2159309387207
+   ],
+   [
+    -37.04150390625
+   ],
+   [
+    -40.76482391357422
+   ],
+   [
+    -36.93022537231445
+   ],
+   [
+    -41.1561279296875
+   ],
+   [
+    -36.155426025390625
+   ],
+   [
+    -39.96418380737305
+   ],
+   [
+    -37.29450988769531
+   ],
+   [
+    -41.350868225097656
+   ],
+   [
+    -40.386287689208984
+   ],
+   [
+    -42.85191345214844
+   ],
+   [
+    -42.68256759643555
+   ],
+   [
+    -43.98505401611328
+   ],
+   [
+    -43.35064697265625
+   ],
+   [
+    -47.812660217285156
+   ],
+   [
+    -44.77191162109375
+   ],
+   [
+    -43.54509735107422
+   ],
+   [
+    -37.4317512512207
+   ],
+   [
+    -43.294219970703125
+   ],
+   [
+    -37.26924133300781
+   ],
+   [
+    -42.962928771972656
+   ],
+   [
+    -33.23979568481445
+   ],
+   [
+    -38.35060501098633
+   ],
+   [
+    -39.097442626953125
+   ],
+   [
+    -43.207828521728516
+   ],
+   [
+    -39.432029724121094
+   ],
+   [
+    -38.51933288574219
+   ],
+   [
+    -39.59001159667969
+   ],
+   [
+    -37.97092819213867
+   ],
+   [
+    -42.25334167480469
+   ],
+   [
+    -40.84552764892578
+   ],
+   [
+    -48.64896774291992
+   ],
+   [
+    -37.48796081542969
+   ],
+   [
+    -39.3564338684082
+   ],
+   [
+    -39.48469161987305
+   ],
+   [
+    -40.08292007446289
+   ],
+   [
+    -36.58829116821289
+   ],
+   [
+    -39.541900634765625
+   ],
+   [
+    -43.104408264160156
+   ],
+   [
+    -38.49595642089844
+   ],
+   [
+    -39.52083206176758
+   ],
+   [
+    -38.51322937011719
+   ],
+   [
+    -41.57698059082031
+   ],
+   [
+    -36.77937316894531
+   ],
+   [
+    -39.78217315673828
+   ],
+   [
+    -40.438323974609375
+   ],
+   [
+    -39.929771423339844
+   ],
+   [
+    -37.58369064331055
+   ],
+   [
+    -33.21012496948242
+   ],
+   [
+    -42.339744567871094
+   ],
+   [
+    -46.40098571777344
+   ],
+   [
+    -39.793888092041016
+   ],
+   [
+    -36.60495376586914
+   ],
+   [
+    -39.49730682373047
+   ],
+   [
+    -47.149566650390625
+   ],
+   [
+    -44.165191650390625
+   ],
+   [
+    -39.45962905883789
+   ],
+   [
+    -40.44278335571289
+   ],
+   [
+    -36.058135986328125
+   ],
+   [
+    -37.42607879638672
+   ],
+   [
+    -39.741493225097656
+   ],
+   [
+    -41.97423553466797
+   ],
+   [
+    -52.67802429199219
+   ],
+   [
+    -37.75701904296875
+   ],
+   [
+    -41.500789642333984
+   ],
+   [
+    -38.481346130371094
+   ],
+   [
+    -37.20015335083008
+   ],
+   [
+    -40.00508499145508
+   ],
+   [
+    -31.83098793029785
+   ],
+   [
+    -38.65789031982422
+   ],
+   [
+    -44.497047424316406
+   ],
+   [
+    -43.8853759765625
+   ],
+   [
+    -36.76909637451172
+   ],
+   [
+    -35.02200698852539
+   ],
+   [
+    -53.19219207763672
+   ],
+   [
+    -37.56623840332031
+   ],
+   [
+    -45.983604431152344
+   ],
+   [
+    -35.421653747558594
+   ],
+   [
+    -38.11493682861328
+   ],
+   [
+    -38.51256561279297
+   ],
+   [
+    -39.254451751708984
+   ],
+   [
+    -41.38805389404297
+   ],
+   [
+    -43.79442596435547
+   ],
+   [
+    -41.80302429199219
+   ],
+   [
+    -49.694740295410156
+   ],
+   [
+    -39.1553955078125
+   ],
+   [
+    -52.53048324584961
+   ],
+   [
+    -41.72081756591797
+   ],
+   [
+    -36.90388870239258
+   ],
+   [
+    -35.693363189697266
+   ],
+   [
+    -46.802085876464844
+   ],
+   [
+    -43.93412780761719
+   ],
+   [
+    -38.56620788574219
+   ],
+   [
+    -35.69565200805664
+   ],
+   [
+    -35.1673469543457
+   ],
+   [
+    -37.47882843017578
+   ],
+   [
+    -37.57228469848633
+   ],
+   [
+    -33.1531982421875
+   ],
+   [
+    -44.571380615234375
+   ],
+   [
+    -38.38359832763672
+   ],
+   [
+    -35.0449333190918
+   ],
+   [
+    -42.325653076171875
+   ],
+   [
+    -40.912879943847656
+   ],
+   [
+    -46.959449768066406
+   ],
+   [
+    -43.316322326660156
+   ],
+   [
+    -38.38300704956055
+   ],
+   [
+    -43.90485763549805
+   ],
+   [
+    -40.19226837158203
+   ],
+   [
+    -35.944488525390625
+   ],
+   [
+    -40.649234771728516
+   ],
+   [
+    -38.038604736328125
+   ],
+   [
+    -45.08391571044922
+   ],
+   [
+    -35.37802505493164
+   ],
+   [
+    -36.26108932495117
+   ],
+   [
+    -40.904762268066406
+   ],
+   [
+    -37.008060455322266
+   ],
+   [
+    -35.706905364990234
+   ],
+   [
+    -37.33222579956055
+   ],
+   [
+    -38.73378372192383
+   ],
+   [
+    -40.446163177490234
+   ],
+   [
+    -35.72807693481445
+   ],
+   [
+    -43.98429870605469
+   ],
+   [
+    -36.33070373535156
+   ],
+   [
+    -37.646949768066406
+   ],
+   [
+    -52.01658630371094
+   ],
+   [
+    -45.136444091796875
+   ],
+   [
+    -38.13087463378906
+   ],
+   [
+    -44.316001892089844
+   ],
+   [
+    -34.59422302246094
+   ],
+   [
+    -37.670509338378906
+   ],
+   [
+    -46.244625091552734
+   ],
+   [
+    -44.23057556152344
+   ],
+   [
+    -33.953495025634766
+   ],
+   [
+    -42.512874603271484
+   ],
+   [
+    -43.31990051269531
+   ],
+   [
+    -37.42781448364258
+   ],
+   [
+    -42.80234909057617
+   ],
+   [
+    -36.403690338134766
+   ],
+   [
+    -38.756935119628906
+   ],
+   [
+    -43.357601165771484
+   ],
+   [
+    -33.69236755371094
+   ],
+   [
+    -32.146671295166016
+   ],
+   [
+    -42.167415618896484
+   ],
+   [
+    -36.99632263183594
+   ],
+   [
+    -36.916194915771484
+   ],
+   [
+    -42.00227737426758
+   ],
+   [
+    -38.820926666259766
+   ],
+   [
+    -39.74024200439453
+   ],
+   [
+    -37.00777053833008
+   ],
+   [
+    -38.42719650268555
+   ],
+   [
+    -44.58790969848633
+   ],
+   [
+    -33.12702941894531
+   ],
+   [
+    -38.484989166259766
+   ],
+   [
+    -39.25868606567383
+   ],
+   [
+    -39.40070343017578
+   ],
+   [
+    -40.18802261352539
+   ],
+   [
+    -36.38700866699219
+   ],
+   [
+    -37.93021011352539
+   ],
+   [
+    -37.971126556396484
+   ],
+   [
+    -38.89451217651367
+   ],
+   [
+    -44.518157958984375
+   ],
+   [
+    -41.38512420654297
+   ],
+   [
+    -35.73148727416992
+   ],
+   [
+    -41.22068786621094
+   ],
+   [
+    -38.521121978759766
+   ],
+   [
+    -34.63801956176758
+   ],
+   [
+    -39.09765625
+   ],
+   [
+    -44.879005432128906
+   ],
+   [
+    -39.14189147949219
+   ],
+   [
+    -45.60686492919922
+   ],
+   [
+    -40.88873291015625
+   ],
+   [
+    -37.32503128051758
+   ],
+   [
+    -45.285911560058594
+   ],
+   [
+    -36.501220703125
+   ],
+   [
+    -42.73411560058594
+   ],
+   [
+    -43.888607025146484
+   ]
+  ]
+ ],
+ "time": 2369.3276286125183
+}
