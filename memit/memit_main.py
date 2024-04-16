@@ -20,7 +20,9 @@ from .memit_hparams import MEMITHyperParams
 CONTEXT_TEMPLATES_CACHE = None
 COV_CACHE = {}
 
-
+def log(txt):
+    with open("my_out.txt", "a") as o:
+        o.write(txt + "\n")
 def apply_memit_to_model(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer,
@@ -47,14 +49,15 @@ def apply_memit_to_model(
 
     with torch.no_grad():
         for w_name, (key_mat, val_mat) in deltas.items():
-            key_mat, val_mat = key_mat.to(f"cuda:0"), val_mat.to(f"cuda:0")
+            key_mat, val_mat = key_mat.to(f"cuda"), val_mat.to(f"cuda")
             upd_matrix = key_mat @ val_mat.T
-            w = nethook.get_parameter(model, w_name)
-            upd_matrix = upd_matrix_match_shape(upd_matrix, w.shape)
+            w = nethook.get_parameter(model, w_name).to("cuda")
+            upd_matrix = upd_matrix_match_shape(upd_matrix, w.shape).to("cuda")
 
             if return_orig_weights and w_name not in weights_copy:
                 weights_copy[w_name] = w.detach().clone()
-            w[...] += upd_matrix.float()
+            um = upd_matrix.to("cuda")
+            w[...] += um.float()
 
     print(f"New weights successfully inserted into {list(deltas.keys())}")
 
