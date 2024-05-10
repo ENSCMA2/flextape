@@ -7,7 +7,11 @@ from scipy.stats import ttest_ind
 import os
 import requests
 import wptools
-root = "../special/llama/"
+import sys
+
+model = sys.argv[1]
+
+root = f"../pair/{model}/"
 
 genders = set(["male", "female"])
 fow_cands = set(pd.read_csv("../data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
@@ -25,14 +29,6 @@ with open("../data/P101_subject_info.json") as o:
 	wiki = json.load(o)
 with open("../data/P103_subject_info.json") as o:
 	wiki = {**wiki, **json.load(o)}
-# for f in os.listdir("../data/wiki"):
-# 	if f != ".DS_Store" and "person" not in f:
-# 		with open(f"../data/wiki/{f}") as o:
-# 			try:
-# 				d = json.load(o)
-# 			except:
-# 				continue
-# 		wiki = {**wiki, **d}
 new_wiki = {}
 for entry in wiki.keys():
 	if len(wiki[entry]) > 0:
@@ -57,10 +53,10 @@ def str_lookup(tgt):
 	td = {**td, **p27_strlookup}
 	return td[tgt]
 
-def gen_metrics(method, p1, p2):
+def gen_metrics(m, p1, p2):
 	print(p1, p2)
 	data_file = f"../data/seesaw_cf_{p1}_{p2}.json"
-	k = "post" if method != "NONE" else "pre"
+	k = "post" if m != "NONE" else "pre"
 	with open(data_file) as o:
 		data = json.load(o)
 	correctness = {}
@@ -105,7 +101,7 @@ def gen_metrics(method, p1, p2):
 					except:
 						continue
 				gt = g
-		result_file = f"{root}{method}/901_edits-case_{case_id}.json"
+		result_file = f"{root}{m}/901_edits-case_{case_id}.json"
 		if os.path.exists(result_file):
 			with open(result_file) as o:
 				result = json.load(o)
@@ -128,41 +124,32 @@ def gen_metrics(method, p1, p2):
 				correctness[subj] = correct
 				acc += correct
 	acc = acc / len(list(correctness.keys()))
-	# sampacc = sampacc / len(list(sampcorrectness.keys()))
-	with open(f"{root}{method}_{p1}_{p2}.json", "w") as o:
+	with open(f"{root}{m}_{p1}_{p2}.json", "w") as o:
 		json.dump({"by_case": correctness, "overall_acc": acc, "num_cases": len(list(correctness.keys())), "stdev": np.std(list(correctness.values()))}, o)
-	# with open(f"{root}{method}_{p1}_{p2}_samp9.json", "w") as o:
-	# 	json.dump({"by_case": sampcorrectness, "overall_acc": sampacc}, o)
 
-
-for method in ["MEMIT", 
-			   "NONE"
-			   ]:
+method = sys.argv[2]
+for m in [method, "NONE"]:
 	for p1, p2 in [("P101", "P21"), 
 				   ("P21", "P101"), ("P27", "P21"), 
 				   ("P27", "P101"), ("P27", "P19"), ("P101", "P27"), 
 				   ("P19", "P21"), ("P19", "P101")
 				   ]:
-		gen_metrics(method, p1, p2)
+		gen_metrics(m, p1, p2)
 
 
-
-for method in [# "FT", "MEND", 
-			   "MEMIT", 
-			   ]:
-	for p1, p2 in [("P101", "P21"), 
-					("P21", "P101"), ("P27", "P21"), 
-				   ("P27", "P101"), ("P27", "P19"), ("P101", "P27"), 
-				   ("P19", "P21"), ("P19", "P101")]:
-		with open(f"{root}{method}_{p1}_{p2}.json") as o:
-			loaded = json.load(o)
-			post = list(loaded["by_case"].values())
-			post_acc = loaded["overall_acc"]
-		with open(f"{root}NONE_{p1}_{p2}.json") as o:
-			loaded = json.load(o)
-			pre = list(loaded["by_case"].values())
-			pre_acc = loaded["overall_acc"]
-		print(method, p1, p2, pre_acc, post_acc, ttest_ind(post, pre).pvalue)
+for p1, p2 in [("P101", "P21"), 
+				("P21", "P101"), ("P27", "P21"), 
+			   ("P27", "P101"), ("P27", "P19"), ("P101", "P27"), 
+			   ("P19", "P21"), ("P19", "P101")]:
+	with open(f"{root}{method}_{p1}_{p2}.json") as o:
+		loaded = json.load(o)
+		post = list(loaded["by_case"].values())
+		post_acc = loaded["overall_acc"]
+	with open(f"{root}NONE_{p1}_{p2}.json") as o:
+		loaded = json.load(o)
+		pre = list(loaded["by_case"].values())
+		pre_acc = loaded["overall_acc"]
+	print(method, p1, p2, pre_acc, post_acc, ttest_ind(post, pre).pvalue)
 
 
 

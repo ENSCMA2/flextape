@@ -3,18 +3,16 @@ import numpy as np
 import pandas as pd
 import sys
 model = sys.argv[1]
-
+method = sys.argv[2]
 
 props = ["P101", "P103", 
 "P21_P101", 
 "P27_P101",
 "P19_P101"
 ]
-methods = ["MEMIT"]
 names = []
 for prop in props:
-	for method in methods:
-		names.append(f"../results/{model}/{prop}/race/{method}")
+	names.append(f"../results/{model}/{prop}/race/{method}")
 
 race_dfs = [pd.read_csv(f"../data/Ethnic Groups - {prop}.csv").fillna("") for prop in props]
 def intersection_list(lol):
@@ -60,8 +58,7 @@ tab(names)
 
 names = []
 for prop in props:
-	for method in methods:
-		names.append(f"../results/{model}/{prop}/gender/{method}")
+	names.append(f"../results/{model}/{prop}/gender/{method}")
 
 def tab(names):
 	cols = ["male_pre_mean_p_diff", 
@@ -91,7 +88,7 @@ def tab(names):
 
 tab(names)
 
-
+# code to evaluate our human annotations
 # def get_annotations(key):
 #     if key == "Edit reflected?":
 #         na_val = 0

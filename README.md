@@ -77,6 +77,25 @@ bash race_eval.sh [MODEL_NAME] [METHOD_NAME]
 ```
 For both cases, `MODEL_NAME` is a shorthand for the name of the model - either `llama` or `gptj`. `METHOD_NAME` is the editing method being evaluated - `FT`, `MEND`, or `MEMIT`.
 
+For evaluation of cross-property completions, run
+```bash
+cd eval
+python pair_single.py [MODEL_NAME] [METHOD_NAME]
+```
+where `MODEL_NAME` and `METHOD_NAME` are defined as above.
+
+We also provide a script to get `t`-scores for significance testing of our results:
+```bash
+cd eval
+python ttests.py [MODEL_NAME] [METHOD_NAME]
+```
+
+Finally, if you're curious about agreement metrics for our long-form text annotations, feel free to run
+```bash
+cd eval
+python agreement.py
+```
+
 ## How to Cite
 
 ```bibtex

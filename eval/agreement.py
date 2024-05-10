@@ -64,11 +64,8 @@ def get_annotations(key):
     a1 = pd.read_csv("a1.csv").fillna(na_val)[key].tolist()[:300]
     a2 = pd.read_csv("a2.csv").fillna(na_val)[key].tolist()[:300]
     a3 = pd.read_csv("a3.csv").fillna(na_val)[key].tolist()[:300]
-    chat = (numpy.array(pd.read_csv("chat_small.csv")[key].tolist()) / 2 + 1.5).tolist() if key != "Edit reflected?" else pd.read_csv("chat_small.csv")[key].tolist()
-    rand = [random.choice([1.5, 1, 2]) if key != "Edit reflected?" else random.choice([1, 0]) for i in range(len(dad))]
     return [a1, 
             a2,
-            rand,
             a3
             ]
 

@@ -53,7 +53,7 @@ def main(
     use_cache: bool = False,
 ):
     log("starting main")
-    RES_DIR = RESULTS_DIR / Path(MODEL_DICT[model_name])
+    RES_DIR = PAIR_RESULTS_DIR / Path(MODEL_DICT[model_name])
     splat = ds_name.split("_")
     p1 = splat[0]
     p2 = splat[1]
