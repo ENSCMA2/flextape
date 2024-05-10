@@ -6,6 +6,8 @@ import pandas as pd
 import copy
 import os
 import sys
+import wptools
+import requests
 
 wiki_prefix = "http://www.wikidata.org/entity/"
 props = ["P101", "P103", "P101_P21", "P21_P101", 
@@ -58,33 +60,22 @@ def gen_metrics(p, result_dir, n, presult_dir, method, pdf, patch = False,):
 		all_geo_means_pre = {}
 		with open(p_file) as o:
 			the_question = json.load(o)
-		for question in the_question:
+		for j, question in enumerate(the_question):
 			case_id = question["case_id"]
 			entities = question["attribute_aux_info"]
 			q = question["requested_rewrite"]["target_new"]["id"]
-			if p.split("_")[0] != "P21":
-				if p in ["P101", "P103"]:
-					wiki_q_0 = f"../../data/wiki/Q6581072_{p}_{q}.json"
-					wiki_q_1 = f"../../data/wiki/Q6581097_{p}_{q}.json"
-				else:
-					p1 = p.split("_")[0]
-					wiki_q_0 = f"../../data/wiki/Q6581072_{p1}_{q}.json"
-					wiki_q_1 = f"../../data/wiki/Q6581097_{p1}_{q}.json"
-				with open(wiki_q_0) as o1:
-					info_0 = json.load(o1)
-				with open(wiki_q_1) as o1:
-					info_1 = json.load(o1)
-				wiki = {**info_0, **info_1}
+			if p in ["P101", "P103"]:
+				wiki_q_0 = f"../../data/wiki/Q6581072_{p}_{q}.json"
+				wiki_q_1 = f"../../data/wiki/Q6581097_{p}_{q}.json"
 			else:
-				wiki = {}
-				men = "../../data/P172/men"
-				women = "../../data/P172/women"
-				for f in os.listdir(men):
-					with open(os.path.join(men, f)) as o:
-						wiki = {**wiki, **json.load(o)}
-				for f in os.listdir(women):
-					with open(os.path.join(women, f)) as o:
-						wiki = {**wiki, **json.load(o)}
+				p1 = p.split("_")[0]
+				wiki_q_0 = f"../../data/wiki/Q6581072_{p1}_{q}.json"
+				wiki_q_1 = f"../../data/wiki/Q6581097_{p1}_{q}.json"
+			with open(wiki_q_0) as o1:
+				info_0 = json.load(o1)
+			with open(wiki_q_1) as o1:
+				info_1 = json.load(o1)
+			wiki = {**info_0, **info_1}
 			race_available = []
 			races = []
 
@@ -113,11 +104,14 @@ def gen_metrics(p, result_dir, n, presult_dir, method, pdf, patch = False,):
 						if dem in pr.keys():
 							return pr[dem], True
 						else:
+							print("eh")
 							return None, False
 					except Exception as e:
+						print("wah", e)
 						return None, False
 			
 			for i in range(len(entities)):
+				print(i, len(entities), j, len(the_question))
 				some = False
 				mini_race = []
 				trait, found = lookup(entities[i], "P172")
@@ -321,7 +315,7 @@ def gen_metrics(p, result_dir, n, presult_dir, method, pdf, patch = False,):
 
 method = sys.argv[2]
 for i, p in enumerate(["P101", "P103", 
-		  # "P101_P21", "P27_P21", 
-		  # "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+		  "P21_P101",
+		  "P27_P101", "P19_P101",
 		  ]):
-	gen_metrics(p, f"../../results/{method}/", 900 + len(p.split("_")) - 1, f"../../results/NONE/", method, race_dfs[i])
+	gen_metrics(p, f"../../results/{method}/", 900, f"../../results/NONE/", method, race_dfs[i])

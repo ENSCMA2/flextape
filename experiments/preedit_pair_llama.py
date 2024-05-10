@@ -7,6 +7,7 @@ import pandas as pd
 import torch
 from accelerate import *
 from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, LlamaTokenizer
+from pathlib import Path
 
 from dsets import (
     AttributeSnippets,
@@ -19,6 +20,9 @@ from memit import MEMITHyperParams, apply_memit_to_model
 from experiments.py.eval_utils_counterfact import compute_rewrite_quality_counterfact, compute_pair_quality
 from util import nethook
 from util.globals import *
+
+MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
+              "meta-llama/Llama-2-7b-hf": "llama"}
 
 genders = set(["male", "female"])
 fow = set(pd.read_csv("data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
@@ -51,6 +55,7 @@ def main(
     use_cache: bool = False,
 ):
     log("starting main")
+    RES_DIR = RESULTS_DIR / Path(MODEL_DICT[model_name])
     splat = ds_name.split("_")
     p1 = splat[0]
     p2 = splat[1]
@@ -59,11 +64,11 @@ def main(
     # Create new dir if not continuing from prev run OR prev run doesn't exist
     if (
         continue_from_run is None
-        or not (run_dir := RESULTS_DIR / dir_name / continue_from_run).exists()
+        or not (run_dir := RES_DIR / dir_name / continue_from_run).exists()
     ):
         continue_from_run = None
     if continue_from_run is None:
-        alg_dir = RESULTS_DIR / dir_name
+        alg_dir = RES_DIR / dir_name
         if alg_dir.exists():
             id_list = [
                 int(str(x).split("_")[-1])
@@ -73,7 +78,7 @@ def main(
             run_id = 0 if not id_list else max(id_list) + 1
         else:
             run_id = 0
-        run_dir = RESULTS_DIR / dir_name / f"run_{str(run_id).zfill(3)}"
+        run_dir = RES_DIR / dir_name / f"run_{str(run_id).zfill(3)}"
         run_dir.mkdir(parents=True, exist_ok=True)
     print(f"Results will be stored at {run_dir}")
 

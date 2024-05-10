@@ -6,9 +6,9 @@ model = sys.argv[1]
 
 
 props = ["P101", "P103", 
-# "P101_P21", "P21_P101", 
-# "P27_P21", "P27_P101",
-		 # "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+"P21_P101", 
+"P27_P101",
+"P19_P101"
 ]
 methods = ["MEMIT"]
 names = []
@@ -58,13 +58,6 @@ def tab(names):
 
 tab(names)
 
-props = ["P101", "P103", 
-# "P101_P21", 
-# "P21_P101", 
-# "P27_P21", "P27_P101",
-		 # "P101_P27", "P19_P21", "P19_P101", "P27_P19"
-]
-methods = ["MEMIT"]
 names = []
 for prop in props:
 	for method in methods:

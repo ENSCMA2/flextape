@@ -7,7 +7,7 @@ from typing import Tuple, Union
 import torch
 from accelerate import *
 from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer, LlamaForCausalLM, LlamaTokenizer
-
+from pathlib import Path
 from dsets import (
     AttributeSnippets,
     CounterFactDataset,
@@ -23,6 +23,9 @@ from util.globals import *
 ALG_DICT = {
     "MEMIT": (MEMITHyperParams, apply_memit_to_model),
 }
+
+MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
+              "meta-llama/Llama-2-7b-hf": "llama"}
 
 DS_DICT = {
     "P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
@@ -56,6 +59,7 @@ def main(
     use_cache: bool = False,
 ):
     log("starting main")
+    RES_DIR = RESULTS_DIR / Path(MODEL_DICT[model_name])
     # Set algorithm-specific variables
     params_class, apply_algo = ALG_DICT[alg_name]
 
@@ -63,11 +67,11 @@ def main(
     # Create new dir if not continuing from prev run OR prev run doesn't exist
     if (
         continue_from_run is None
-        or not (run_dir := RESULTS_DIR / dir_name / continue_from_run).exists()
+        or not (run_dir := RES_DIR / dir_name / continue_from_run).exists()
     ):
         continue_from_run = None
     if continue_from_run is None:
-        alg_dir = RESULTS_DIR / dir_name
+        alg_dir = RES_DIR / dir_name
         if alg_dir.exists():
             id_list = [
                 int(str(x).split("_")[-1])
@@ -77,7 +81,7 @@ def main(
             run_id = 0 if not id_list else max(id_list) + 1
         else:
             run_id = 0
-        run_dir = RESULTS_DIR / dir_name / f"run_{str(run_id).zfill(3)}"
+        run_dir = RES_DIR / dir_name / f"run_{str(run_id).zfill(3)}"
         run_dir.mkdir(parents=True, exist_ok=True)
     print(f"Results will be stored at {run_dir}")
 

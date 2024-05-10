@@ -4,8 +4,8 @@ import numpy as np
 import os
 import sys
 props = ["P101", "P103", 
-# "P101_P21", "P21_P101", 
-# "P27_P21", "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+"P21_P101", 
+"P27_P101", "P19_P101"
 ]
 race_dfs = [pd.read_csv(f"../../data/Ethnic Groups - {prop}.csv").fillna("") for prop in props]
 def intersection_list(lol):
@@ -170,8 +170,7 @@ def visualize(f):
 model = sys.argv[1]
 method = sys.argv[2]
 for p in ["P101", "P103", 
-		  # "P101_P21", "P27_P21", 
-		  # "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+		  "P27_P101", "P19_P101", "P21_P101"
 		  ]:
 	visualize(f"../../results/{model}/{p}/race/{method}")
 

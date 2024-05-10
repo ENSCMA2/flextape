@@ -3,19 +3,14 @@ from matplotlib import pyplot as plt
 import sys
 model = sys.argv[1]
 props = ["P101", "P103", 
-# "P101_P21", 
-# "P21_P101", 
-# "P27_P21", "P27_P101",
-# "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+"P21_P101", 
+"P27_P101",
+"P19_P101",
 		 ]
-methods = [
-# "FT", 
-# "MEND", 
-"MEMIT"]
+method = sys.argv[2]
 names = []
 for prop in props:
-	for method in methods:
-		names.append(f"../../results/{model}/{prop}/gender/{method}")
+	names.append(f"../../results/{model}/{prop}/gender/{method}")
 
 def tab(names):
 	cols = ["male_pre_mean_p_diff", 
@@ -57,16 +52,6 @@ def graph(names):
 		plt.scatter(dfs[i]["case_id"].tolist()[:-3], dfs[i][cols[5]].tolist()[:-3], label = "female")
 		plt.legend()
 		plt.savefig(f"{names[i]}_male_female.png")
-		plt.clf()
-		plt.scatter(dfs[i]["case_id"].tolist()[:-3], dfs[i][cols[6]].tolist()[:-3], label = "pre")
-		plt.scatter(dfs[i]["case_id"].tolist()[:-3], dfs[i][cols[7]].tolist()[:-3], label = "post")
-		plt.legend()
-		plt.savefig(f"{names[i]}_kl_pre_post.png")
-		plt.clf()
-		plt.scatter(dfs[i]["case_id"].tolist()[:-3], dfs[i][cols[8]].tolist()[:-3], label = "male")
-		plt.scatter(dfs[i]["case_id"].tolist()[:-3], dfs[i][cols[9]].tolist()[:-3], label = "female")
-		plt.legend()
-		plt.savefig(f"{names[i]}_kl_male_female.png")
 		plt.clf()
 tab(names)
 graph(names)

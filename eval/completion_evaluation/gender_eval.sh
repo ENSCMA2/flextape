@@ -1,0 +1,1 @@
+python eval_single_token.py $1 $2 && python single_token_viz.py $1 $2 && python tablize.py $1 $2 && python gender_profession.py $1 $2

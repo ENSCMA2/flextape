@@ -4,16 +4,15 @@ import numpy as np
 import os
 import sys
 props = ["P101", "P103", 
-# "P101_P21", "P21_P101", 
-# "P27_P21", "P27_P101",
-# "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+"P21_P101", 
+"P27_P101",
+"P19_P101"
 ]
 model = sys.argv[1]
-methods = ["MEMIT"]
+method = sys.argv[2]
 names = []
 for prop in props:
-	for method in methods:
-		names.append(f"../../results/{model}/{prop}/race/{method}")
+	names.append(f"../../results/{model}/{prop}/race/{method}")
 
 race_dfs = [pd.read_csv(f"../../data/Ethnic Groups - {prop}.csv").fillna("") for prop in props]
 def intersection_list(lol):

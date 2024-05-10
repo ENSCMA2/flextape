@@ -33,33 +33,23 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		with open(p_file) as o:
 			the_question = json.load(o)
 		for j, question in enumerate(the_question):
+			print(j, len(the_question))
 			case_id = question["case_id"]
 			entities = question["attribute_aux_info"]
 			total_entities += len(set(entities))
 			q = question["requested_rewrite"]["target_new"]["id"]
-			if p.split("_")[0] != "P21":
-				if p in ["P101", "P103"]:
-					wiki_q_0 = f"../../data/wiki/Q6581072_{p}_{q}.json"
-					wiki_q_1 = f"../../data/wiki/Q6581097_{p}_{q}.json"
-				else:
-					p1 = p.split("_")[0]
-					wiki_q_0 = f"../../data/wiki/Q6581072_{p1}_{q}.json"
-					wiki_q_1 = f"../../data/wiki/Q6581097_{p1}_{q}.json"
-				with open(wiki_q_0) as o1:
-					info_0 = json.load(o1)
-				with open(wiki_q_1) as o1:
-					info_1 = json.load(o1)
-				wiki = {**info_0, **info_1}
+			if p in ["P101", "P103"]:
+				wiki_q_0 = f"../../data/wiki/Q6581072_{p}_{q}.json"
+				wiki_q_1 = f"../../data/wiki/Q6581097_{p}_{q}.json"
 			else:
-				wiki = {}
-				men = "../../data/P172/men"
-				women = "../../data/P172/women"
-				for f in os.listdir(men):
-					with open(os.path.join(men, f)) as o:
-						wiki = {**wiki, **json.load(o)}
-				for f in os.listdir(women):
-					with open(os.path.join(women, f)) as o:
-						wiki = {**wiki, **json.load(o)}
+				p1 = p.split("_")[0]
+				wiki_q_0 = f"../../data/wiki/Q6581072_{p1}_{q}.json"
+				wiki_q_1 = f"../../data/wiki/Q6581097_{p1}_{q}.json"
+			with open(wiki_q_0) as o1:
+				info_0 = json.load(o1)
+			with open(wiki_q_1) as o1:
+				info_1 = json.load(o1)
+			wiki = {**info_0, **info_1}
 
 			def match(prop, hope):
 				if type(prop) == list:
@@ -104,17 +94,6 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			valid = [i for i in range(len(genders)) if genders[i] != "None"]
 			valid_genders = np.array(genders)[valid]
 			print("valid genders length", len(valid_genders))
-			try:
-				with open(f"{result_dir}{n}_edits-case_{case_id}.json") as result:
-					res = json.load(result)
-				print(res["post"])
-				probs = res["post"]["attribute_prompts_probs"]
-				print(type(probs), len(probs))
-				probs = np.array(probs)[valid]
-			except Exception as e:
-				print("probs not loaded")
-				print(e)
-				continue
 			men = []
 			women = []
 			for i in range(len(valid_genders)):
@@ -139,23 +118,22 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 				plain_diff_women = np.exp(-women_probs_new) - np.exp(-women_probs_true)
 				return men_probs_new, women_probs_new, men_probs_true, women_probs_true, plain_diff_men, plain_diff_women
 
-			def get_kl(probs):
-				men_probs = np.array([[np.exp(-probs[i]["target_new"]), np.exp(-probs[i]["target_true"]), 1 - np.exp(-probs[i]["target_new"]) - np.exp(-probs[i]["target_true"])] for i in men])
-				women_probs = np.array([[np.exp(-probs[i]["target_new"]), np.exp(-probs[i]["target_true"]), 1 - np.exp(-probs[i]["target_new"]) - np.exp(-probs[i]["target_true"])] for i in women])
-				men_mean = np.mean(men_probs, axis = 0)
-				women_mean = np.mean(women_probs, axis = 0)
-				return men_mean, women_mean
-
+			try:
+				with open(f"{result_dir}{n}_edits-case_{case_id}.json") as result:
+					res = json.load(result)
+				probs = res["post"]["attribute_prompts_probs"]
+				probs = np.array(probs)[valid]
+			except Exception as e:
+				print("probs not loaded")
+				print(e)
+				continue
 			mn, wn, mt, wt, md, wd = get_gender_breakdown(probs)
-			mm, wm = get_kl(probs)
 			amn = np.concatenate((amn, mn))
 			awn = np.concatenate((awn, wn))
 			amt = np.concatenate((amt, mt))
 			awt = np.concatenate((awt, wt))
 			amd = np.concatenate((amd, md))
 			awd = np.concatenate((awd, wd))
-			amm.append(mm)
-			awm.append(wm)
 			
 			with open(f"{presult_dir}{n}_edits-case_{case_id}.json") as result:
 				pres = json.load(result)
@@ -163,24 +141,17 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 
 			
 			mnp, wnp, mtp, wtp, mdp, wdp = get_gender_breakdown(pre_probs)
-			mmp, wmp = get_kl(pre_probs)
 			amnp = np.concatenate((amnp, mnp))
 			awnp = np.concatenate((awnp, wnp))
 			amtp = np.concatenate((amtp, mtp))
 			awtp = np.concatenate((awtp, wtp))
 			amdp = np.concatenate((amdp, mdp))
 			awdp = np.concatenate((awdp, wdp))
-			ammp.append(mmp)
-			awmp.append(wmp)
 			metrics = {}
 			metrics["neg_log_prob_diff_diffs_male"] = (md - mdp).tolist()
 			metrics["neg_log_prob_diff_diffs_female"] = (wd - wdp).tolist()
 			assert(len(md) == len(mdp))
 			assert(len(wd) == len(wdp))
-			metrics["kl_div_post"] = kl_divergence(mm, wm).tolist()
-			metrics["kl_div_pre"] = kl_divergence(mmp, wmp).tolist()
-			metrics["kl_div_male"] = kl_divergence(mm, mmp).tolist()
-			metrics["kl_div_female"] = kl_divergence(wm, wmp).tolist()
 			metrics["pre"] = {"mean_neg_log_prob_diff_male": np.mean(mdp),
 							  "mean_neg_log_prob_diff_female": np.mean(wdp),
 							  "stdev_neg_log_prob_diff_male": np.std(mdp),
@@ -195,10 +166,6 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 								"target_new": question["requested_rewrite"]["target_new"],
 								"target_true": question["requested_rewrite"]["target_true"],
 								"metrics": metrics})
-		overall_metrics["kl_div_post"] = kl_divergence(np.mean(amm, axis = 0), np.mean(awm, axis = 0)).tolist()
-		overall_metrics["kl_div_pre"] = kl_divergence(np.mean(ammp, axis = 0), np.mean(awmp, axis = 0)).tolist()
-		overall_metrics["kl_div_male"] = kl_divergence(np.mean(amm, axis = 0), np.mean(ammp, axis = 0)).tolist()
-		overall_metrics["kl_div_female"] = kl_divergence(np.mean(awm, axis = 0), np.mean(awmp, axis = 0)).tolist()
 		overall_metrics["pre"] = {"mean_neg_log_prob_diff_male": np.mean(amdp),
 							  "mean_neg_log_prob_diff_female": np.mean(awdp),
 							  "stdev_neg_log_prob_diff_male": np.std(amdp),
@@ -213,13 +180,10 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 			os.mkdir(f"../../results/{model}/{p}/gender")
 		with open(f"../../results/{model}/{p}/gender/{method}.json", "w") as o:
 			json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
-		print(total_bad, total_entities)
 
-for p in [# "P101", "P103", 
-		  # "P101_P21", 
-		  "P27_P21", 
-		  "P27_P101", "P101_P27", "P19_P21", "P19_P101", "P27_P19"
+for p in ["P101", "P103", "P21_P101",
+		  "P27_P101", "P19_P101",
 		  ]:
-	gen_metrics(p, f"../../results/{method}/", 900 + len(p.split("_")) - 1, f"../../results/NONE/", method)
+	gen_metrics(p, f"../../results/{method}/", 900, f"../../results/NONE/", method)
 
 

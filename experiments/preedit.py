@@ -3,6 +3,7 @@ import shutil
 from itertools import islice
 from time import time
 from typing import Tuple, Union
+from pathlib import Path
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -36,6 +37,8 @@ def log(message):
     with open("logs.txt", "a") as o:
         o.write(message + "\n")
 
+MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
+              "meta-llama/Llama-2-7b-hf": "llama"}
 def main(
     alg_name: str,
     model_name: Union[str, Tuple],
@@ -51,16 +54,17 @@ def main(
     use_cache: bool = False,
 ):
     log("starting main")
+    RES_DIR = RESULTS_DIR / Path(MODEL_DICT[model_name])
 
     # Determine run directory
     # Create new dir if not continuing from prev run OR prev run doesn't exist
     if (
         continue_from_run is None
-        or not (run_dir := RESULTS_DIR / dir_name / continue_from_run).exists()
+        or not (run_dir := RES_DIR / dir_name / continue_from_run).exists()
     ):
         continue_from_run = None
     if continue_from_run is None:
-        alg_dir = RESULTS_DIR / dir_name
+        alg_dir = RES_DIR / dir_name
         if alg_dir.exists():
             id_list = [
                 int(str(x).split("_")[-1])
@@ -70,20 +74,9 @@ def main(
             run_id = 0 if not id_list else max(id_list) + 1
         else:
             run_id = 0
-        run_dir = RESULTS_DIR / dir_name / f"run_{str(run_id).zfill(3)}"
+        run_dir = RES_DIR / dir_name / f"run_{str(run_id).zfill(3)}"
         run_dir.mkdir(parents=True, exist_ok=True)
     print(f"Results will be stored at {run_dir}")
-
-    # Get run hyperparameters
-    # params_path = (
-        # run_dir / "params.json"
-        # if continue_from_run is not None
-        # else HPARAMS_DIR / alg_name / hparams_fname
-    # )
-    # hparams = params_class.from_json(params_path)
-    # if not (run_dir / "params.json").exists():
-        # shutil.copyfile(params_path, run_dir / "params.json")
-    # log(f"Executing {alg_name} with parameters {hparams}")
 
     # Instantiate vanilla model
     if type(model_name) is str:
@@ -142,7 +135,7 @@ def main(
         gen_test_vars = [snips, vec]
         for record in record_chunks:
             out_file = Path(case_result_template.format(num_edits, record["case_id"]))
-            if out_file.exists() or int(record["case_id"]) != 21914:
+            if out_file.exists():
                 print(f"Skipping {out_file}; already exists")
                 continue
 

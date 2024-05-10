@@ -139,20 +139,20 @@ for method in ["MEMIT",
 			   "NONE"
 			   ]:
 	for p1, p2 in [("P101", "P21"), 
-				   # ("P21", "P101"), ("P27", "P21"), 
-				   # ("P27", "P101"), ("P27", "P19"), ("P101", "P27"), 
-				   # ("P19", "P21"), ("P19", "P101")
+				   ("P21", "P101"), ("P27", "P21"), 
+				   ("P27", "P101"), ("P27", "P19"), ("P101", "P27"), 
+				   ("P19", "P21"), ("P19", "P101")
 				   ]:
 		gen_metrics(method, p1, p2)
 
 
-'''
+
 for method in [# "FT", "MEND", 
 			   "MEMIT", 
 			   ]:
 	for p1, p2 in [("P101", "P21"), 
 					("P21", "P101"), ("P27", "P21"), 
-				   # ("P27", "P101"), ("P27", "P19"), ("P101", "P27"), 
+				   ("P27", "P101"), ("P27", "P19"), ("P101", "P27"), 
 				   ("P19", "P21"), ("P19", "P101")]:
 		with open(f"{root}{method}_{p1}_{p2}.json") as o:
 			loaded = json.load(o)
@@ -163,6 +163,6 @@ for method in [# "FT", "MEND",
 			pre = list(loaded["by_case"].values())
 			pre_acc = loaded["overall_acc"]
 		print(method, p1, p2, pre_acc, post_acc, ttest_ind(post, pre).pvalue)
-'''
+
 
 

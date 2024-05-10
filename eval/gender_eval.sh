@@ -1,1 +1,0 @@
-python eval_single_token.py && python single_token_viz.py && python tablize.py && python gender_profession.py
