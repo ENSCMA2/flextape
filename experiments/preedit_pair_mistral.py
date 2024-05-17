@@ -22,7 +22,7 @@ from util import nethook
 from util.globals import *
 
 MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
-              "meta-llama/Llama-2-7b-hf": "llama"
+              "meta-llama/Llama-2-7b-hf": "llama",
               "mistralai/Mistral-7B-Instruct-v0.2": "mistral"}
 
 genders = set(["male", "female"])
