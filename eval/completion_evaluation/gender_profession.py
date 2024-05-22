@@ -9,10 +9,7 @@ import numpy as np
 from itertools import chain
 import sys
 
-props = ["P101", "P103", "P101_P21", 
-# "P21_P101", 
-"P27_P21", "P27_P101",
-		 "P101_P27", "P19_P21", "P19_P101", "P27_P19"]
+props = ["P101", "P103"]
 method = sys.argv[2]
 model = sys.argv[1]
 names = []
