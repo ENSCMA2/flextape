@@ -26,7 +26,8 @@ ALG_DICT = {
 
 MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
               "meta-llama/Llama-2-7b-hf": "llama",
-              "mistralai/Mistral-7B-Instruct-v0.2": "mistral"}
+              "mistralai/Mistral-7B-Instruct-v0.2": "mistral",
+              "mistralai/Mistral-7B-v0.1": "mistralb"}
 
 genders = set(["male", "female"])
 fow = set(pd.read_csv("data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
@@ -101,8 +102,8 @@ def main(
 
     # Instantiate vanilla model
     log("Instantiating model")
-    tok = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2")
-    model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2", device_map = "auto")
+    tok = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_name, device_map = "auto")
     tok.pad_token_id = tok.eos_token_id
 
     # Load data
@@ -234,7 +235,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--model_name",
-        choices=["mistralai/Mistral-7B-Instruct-v0.2", "meta-llama/Llama-2-7b-hf"],
+        choices=["mistralai/Mistral-7B-Instruct-v0.2", "mistralai/Mistral-7B-v0.1", "meta-llama/Llama-2-7b-hf"],
         default="mistralai/Mistral-7B-Instruct-v0.2",
         help="Model to edit.",
         required=True,
