@@ -234,6 +234,7 @@ def execute_memit(
 
         # Clear GPU memory
         cov.cpu()
+        del cov
         for x in [layer_ks, cur_zs, targets]:
             x.cpu()
             del x

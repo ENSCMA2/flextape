@@ -76,10 +76,16 @@ def get_words_idxs_in_templates(
     prefixes_tok, words_tok, suffixes_tok = [
         batch_tok[i : i + n] for i in range(0, n * 3, n)
     ]
-    prefixes_len, words_len, suffixes_len = [
-        [len(el) for el in tok_list["input_ids"]]
-        for tok_list in [prefixes_tok, words_tok, suffixes_tok]
-    ]
+    try:
+        prefixes_len, words_len, suffixes_len = [
+            [len(el) for el in tok_list["input_ids"]]
+            for tok_list in [prefixes_tok, words_tok, suffixes_tok]
+        ]
+    except:
+        prefixes_len, words_len, suffixes_len = [
+            [len(el) for el in tok_list]
+            for tok_list in [prefixes_tok, words_tok, suffixes_tok]
+        ]
     print("PLI")
     print(prefixes, prefixes_len, words_len, n)
 

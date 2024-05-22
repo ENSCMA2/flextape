@@ -1906,3 +1906,1023 @@ getting started
 starting main
 Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
 Instantiating model
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P101_P21_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P19_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P21_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P21_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P19_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P101_P27_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P19_P21_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P19_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P21_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P101_P21_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P19_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P21_P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P21_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P19_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P101_P27_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P19_P21_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P19_P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 21920
+started 21920
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 21920
+started 21920
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23061
+started 23061
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23622
+started 23622
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P27_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23343
+started 23343
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22489
+started 22489
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22775
+started 22775
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P21_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 21920
+started 21920
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23061
+started 23061
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23622
+started 23622
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P27_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23343
+started 23343
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22489
+started 22489
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 21920
+started 21920
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23061
+started 23061
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23622
+started 23622
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P27_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23343
+started 23343
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 21920
+started 21920
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23061
+started 23061
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23622
+started 23622
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P27_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23343
+started 23343
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22489
+started 22489
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22775
+started 22775
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P21_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 21920
+started 21920
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23061
+started 23061
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23622
+started 23622
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 21920
+started 21920
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23061
+started 23061
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23622
+started 23622
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P27_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23343
+started 23343
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22489
+started 22489
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22775
+started 22775
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P21_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 21920
+started 21920
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22210
+started 22210
+Execution took 107580.6283853054
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23904
+started 23904
+Execution took 3662.168657064438
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 21920
+started 21920
+Execution took 3431.2811212539673
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23061
+started 23061
+Execution took 3630.8355050086975
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23622
+started 23622
+Execution took 3614.8000514507294
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P19_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_P27_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23343
+started 23343
+Execution took 3746.849238395691
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P21_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22489
+started 22489
+Execution took 3709.6241381168365
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P101_layer_{}_clamp_{}_case_{}.npz
+working on pair/mistral/MEMIT/run_000/{}_edits-case_{}.json
+about to start 22775
+started 22775
+Execution took 3695.9400334358215
+about to evaluate
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P21_P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+about to start 21920
+started 21920
+Execution took 284.6554090976715
+about to evaluate
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+about to start 23061
+started 23061
+Execution took 277.7940547466278
+about to evaluate
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P19_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+about to start 22775
+started 22775
+Execution took 267.9586682319641
+about to evaluate
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P21_P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P19_P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P103_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+about to start 0
+started 0
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P21_P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P27_P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P19_P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P19_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P103_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+about to start 0
+started 0
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+about to start 73
+started 73
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P103_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+about to start 0
+started 0
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P101_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+about to start 73
+started 73
+Execution took 399.88511657714844
+about to evaluate
+getting started
+starting main
+Instantiating model
+created model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_NONE/P103_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/mistralai_Mistral-7B-Instruct-v0.2_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
+working on results/mistral/MEMIT/run_001/{}_edits-case_{}.json
+about to start 0
+started 0
+Execution took 1669.1501038074493
+about to evaluate

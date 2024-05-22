@@ -9,6 +9,9 @@ from util import nethook
 
 from .memit_hparams import MEMITHyperParams
 
+def log(txt):
+    with open("log.txt", "a") as o:
+        o.write(f"{txt}\n")
 
 def compute_z(
     model: AutoModelForCausalLM,
@@ -105,7 +108,7 @@ def compute_z(
                 if len(lookup_idxs)!=len(cur_out[0]):
                     cur_out[0][idx, i, :] += delta
                 else:
-                    cur_out[0][i, idx, :] += delta
+                    cur_out[0][i, idx, :] += delta.to(cur_out[0].get_device())
 
         return cur_out
 
@@ -163,7 +166,7 @@ def compute_z(
             kl_distr_init, kl_log_probs, log_target=True, reduction="batchmean"
         )
         weight_decay = hparams.v_weight_decay * (
-            torch.norm(delta) / torch.norm(target_init) ** 2
+            torch.norm(delta) / torch.norm(target_init.to(delta.get_device())) ** 2
         )
         # weight_decay = hparams.v_weight_decay * torch.norm(delta) ** 2
         loss = nll_loss + kl_loss.to(nll_loss.device) + weight_decay.to(nll_loss.device)
@@ -184,11 +187,11 @@ def compute_z(
 
         # Project within L2 ball
         max_norm = hparams.clamp_norm_factor * target_init.norm()
-        if delta.norm() > max_norm:
+        if delta.norm() > max_norm.to(delta.get_device()):
             with torch.no_grad():
-                delta[...] = delta * max_norm / delta.norm()
+                delta[...] = delta * max_norm.to(delta.get_device()) / delta.norm()
 
-    target = target_init + delta
+    target = target_init.to(delta.get_device()) + delta
     print(
         f"Init norm {target_init.norm()} | Delta norm {delta.norm()} | Target norm {target.norm()}"
     )
