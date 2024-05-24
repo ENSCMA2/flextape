@@ -190,18 +190,32 @@ def execute_memit(
         # Load covariance matrix
         force_recompute = False
         # force_recompute = layer != hparams.layers[0]
-        cov = get_cov(
-            model,
-            tok,
-            hparams.rewrite_module_tmp.format(layer),
-            hparams.mom2_dataset,
-            hparams.mom2_n_samples
-            if not force_recompute
-            else hparams.mom2_n_samples // 10,
-            hparams.mom2_dtype,
-            force_recompute=force_recompute,
-            hparams=hparams
-        )
+        try:
+            cov = get_cov(
+                model,
+                tok,
+                hparams.rewrite_module_tmp.format(layer),
+                hparams.mom2_dataset,
+                hparams.mom2_n_samples
+                if not force_recompute
+                else hparams.mom2_n_samples // 10,
+                hparams.mom2_dtype,
+                force_recompute=force_recompute,
+                hparams=hparams
+            )
+        except:
+            cov = get_cov(
+                model,
+                tok,
+                hparams.rewrite_module_tmp.format(layer),
+                hparams.mom2_dataset,
+                hparams.mom2_n_samples
+                if not force_recompute
+                else hparams.mom2_n_samples // 10,
+                hparams.mom2_dtype,
+                force_recompute=True,
+                hparams=hparams
+            )
 
         # Compute update in double precision
         layer_ks, targets = (
