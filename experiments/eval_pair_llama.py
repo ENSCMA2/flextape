@@ -25,7 +25,8 @@ ALG_DICT = {
 }
 
 MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
-              "meta-llama/Llama-2-7b-hf": "llama"}
+              "meta-llama/Llama-2-7b-hf": "llama",
+              "meta-llama/Llama-2-7b-chat-hf": "llamac"}
 
 genders = set(["male", "female"])
 fow = set(pd.read_csv("data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
@@ -233,7 +234,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--model_name",
-        choices=["EleutherAI/gpt-j-6B", "meta-llama/Llama-2-7b-hf"],
+        choices=["meta-llama/Llama-2-7b-chat-hf", "meta-llama/Llama-2-7b-hf"],
         default="meta-llama/Llama-2-7b-hf",
         help="Model to edit.",
         required=True,

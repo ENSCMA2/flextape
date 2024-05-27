@@ -25,7 +25,8 @@ ALG_DICT = {
 }
 
 MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
-              "meta-llama/Llama-2-7b-hf": "llama"}
+              "meta-llama/Llama-2-7b-hf": "llama",
+              "meta-llama/Llama-2-7b-chat-hf": "llamac"}
 
 DS_DICT = {
     "P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
@@ -238,7 +239,7 @@ if __name__ == "__main__":
         required=True)
     parser.add_argument(
         "--model_name",
-        choices=["EleutherAI/gpt-j-6B", "meta-llama/Llama-2-7b-hf"],
+        choices=["EleutherAI/gpt-j-6B", "meta-llama/Llama-2-7b-hf", "meta-llama/Llama-2-7b-chat-hf"],
         default="Llama-2-7b-hf",
         help="Model to edit.",
         required=True,)
