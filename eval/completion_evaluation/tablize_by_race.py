@@ -43,7 +43,7 @@ def tab(names):
 		all_data.append([realname] + subdf.iloc[-2, :].tolist())
 	df = pd.DataFrame(columns = ["name"] + cols,
 					  data = all_data)
-	df.to_csv("../../results/small_table_race.csv")
+	df.to_csv(f"../../results/small_table_race_{model}.csv")
 
 def graph(names):
 	dfs = [pd.read_csv(f"{name}.csv") for name in names]

@@ -52,7 +52,7 @@ def tab(names):
 		all_data.append([realname] + t)
 	df = pd.DataFrame(columns = ["name"] + cols,
 					  data = all_data)
-	df.to_csv("../results/t_race.csv")
+	df.to_csv(f"../results/t_race_{model}.csv")
 
 tab(names)
 
@@ -84,7 +84,7 @@ def tab(names):
 		all_data.append([realname] + t)
 	df = pd.DataFrame(columns = ["name"] + cols,
 					  data = all_data)
-	df.to_csv("../results/t_gender.csv")
+	df.to_csv(f"../results/t_gender_{model}.csv")
 
 tab(names)
 

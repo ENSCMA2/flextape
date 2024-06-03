@@ -181,9 +181,8 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 		with open(f"../../results/{model}/{p}/gender/{method}.json", "w") as o:
 			json.dump({"by_case:": all_metrics, "overall": overall_metrics}, o)
 
+model = sys.argv[1]
 for p in ["P101", "P103", "P21_P101",
 		  "P27_P101", "P19_P101",
 		  ]:
-	gen_metrics(p, f"../../results/{method}/", 900, f"../../results/NONE/", method)
-
-
+	gen_metrics(p, f"../../results/{model}/{method}/", 900, f"../../results/{model}/NONE/", method)

@@ -27,7 +27,7 @@ def tab(names):
 		all_data.append([realname] + df.iloc[-2, 2:8].tolist())
 	df = pd.DataFrame(columns = ["name"] + cols,
 					  data = all_data)
-	df.to_csv("../../results/small_table_gender.csv")
+	df.to_csv(f"../../results/small_table_gender_{model}.csv")
 
 def graph(names):
 	cols = ["male_pre_mean_p_diff", 
