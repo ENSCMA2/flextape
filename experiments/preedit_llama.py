@@ -55,6 +55,7 @@ def main(
     dir_name: str,
     num_edits: int = 1,
     use_cache: bool = False,
+    eff: bool = False,
 ):
     log("starting main")
     RES_DIR = RESULTS_DIR / Path(MODEL_DICT[model_name])
@@ -92,7 +93,7 @@ def main(
     vec = get_tfidf_vectorizer(DATA_DIR) if not skip_generation_tests else None
 
     ds_class, ds_eval_method = DS_DICT[ds_name]
-    ds = ds_class(DATA_DIR, ds_name, tok=tok, size=dataset_size_limit)
+    ds = ds_class(DATA_DIR, ds_name, tok=tok, size=dataset_size_limit, eff = eff)
 
     # Get cache templates
     cache_template = None
@@ -274,4 +275,5 @@ if __name__ == "__main__":
         dir_name=args.alg_name,
         num_edits=args.num_edits,
         use_cache=args.use_cache,
+        eff=args.eff
     )

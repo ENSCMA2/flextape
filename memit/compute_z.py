@@ -282,10 +282,5 @@ def find_fact_lookup_idx(
 
     sentence = prompt.format(subject)
     ret = min(len(tok(sentence)["input_ids"]) - 1, ret)
-    if verbose:
-        print(
-            f"Lookup index found: {ret} | Sentence: {sentence} | Token:",
-            tok.decode(tok(sentence)["input_ids"][ret]),
-        )
 
     return ret

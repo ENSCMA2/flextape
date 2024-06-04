@@ -17,14 +17,20 @@ class CounterFactDataset(Dataset):
         prop: str,
         multi: bool = False,
         size: typing.Optional[int] = None,
+        eff: bool = False
         *args,
         **kwargs,
     ):
         self.data = []
         data_dir = Path(data_dir)
-        cf_loc = data_dir / (
-            f"seesaw_cf_{prop}.json"
-        )
+        if not eff:
+            cf_loc = data_dir / (
+                f"seesaw_cf_{prop}.json"
+            )
+        else:
+            cf_loc = data_dir / (
+                f"seesaw_cf_{prop}_eff.json"
+            )
         if not cf_loc.exists():
             remote_url = f"{REMOTE_ROOT}/{'multi_' if multi else ''}counterfact.json"
             print(f"{cf_loc} does not exist. Downloading from {remote_url}")

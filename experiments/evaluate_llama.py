@@ -58,6 +58,7 @@ def main(
     dir_name: str,
     num_edits: int = 1,
     use_cache: bool = False,
+    eff: bool = False
 ):
     log("starting main")
     RES_DIR = RESULTS_DIR / Path(MODEL_DICT[model_name])
@@ -113,7 +114,7 @@ def main(
         assert ds_name != "cf", f"{ds_name} does not support multiple edits"
 
     ds_class, ds_eval_method = DS_DICT[ds_name]
-    ds = ds_class(DATA_DIR, ds_name, tok=tok, size=dataset_size_limit)
+    ds = ds_class(DATA_DIR, ds_name, tok=tok, size=dataset_size_limit, eff = eff)
 
     # Get cache templates
     cache_template = None
@@ -188,9 +189,7 @@ def main(
                     tok,
                     record,
                     *(
-                        gen_test_vars
-                        if record["case_id"] % generation_test_interval == 0
-                        else [None, None]
+                        [None, None]
                     ),  # Only test generation every generation_test_interval cases
                 ),
             }
@@ -218,12 +217,10 @@ def window(seq, n=2):
         result = result[1:] + (elem,)
         yield result
 
-
 def chunks(arr, n):
     """Yield successive n-sized chunks from arr."""
     for i in range(0, len(arr), n):
         yield arr[i : i + n]
-
 
 if __name__ == "__main__":
     import argparse
@@ -291,7 +288,11 @@ if __name__ == "__main__":
         dest="use_cache",
         action="store_true",
         help="Use cached k/v pairs",)
-    parser.set_defaults(skip_generation_tests=False, conserve_memory=False)
+    parser.add_argument(
+        "--eff",
+        dest="eff",
+        action="store_true")
+    parser.set_defaults(skip_generation_tests=False, conserve_memory=False, eff=False)
     args = parser.parse_args()
 
     main(
@@ -307,4 +308,5 @@ if __name__ == "__main__":
         dir_name=args.alg_name,
         num_edits=args.num_edits,
         use_cache=args.use_cache,
+        eff=args.eff,
     )
