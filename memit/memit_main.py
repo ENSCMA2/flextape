@@ -65,6 +65,8 @@ def apply_memit_to_model(
         weights_copy = {}
 
     model.save_pretrained("/home/khalevy/.cache/huggingface/hub/edited")
+    log("modules")
+    log(model._modules)
 
     return model, weights_copy
 
