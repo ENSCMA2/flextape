@@ -17,7 +17,7 @@ class CounterFactDataset(Dataset):
         prop: str,
         multi: bool = False,
         size: typing.Optional[int] = None,
-        eff: bool = False
+        eff: bool = False,
         *args,
         **kwargs,
     ):
@@ -59,6 +59,6 @@ class CounterFactDataset(Dataset):
 
 class MultiCounterFactDataset(CounterFactDataset):
     def __init__(
-            self, data_dir: str, prop: str, size: typing.Optional[int] = None, *args, **kwargs
+            self, data_dir: str, prop: str, size: typing.Optional[int] = None, eff: bool = False, *args, **kwargs
     ):
-        super().__init__(data_dir, prop, *args, multi=True, size=size, **kwargs)
+        super().__init__(data_dir, prop, *args, eff = eff, multi=True, size=size, **kwargs)

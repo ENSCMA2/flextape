@@ -40,7 +40,7 @@ def compute_rewrite_quality_counterfact(model: AutoModelForCausalLM, tok: AutoTo
     )
     rewrite_prompts = [record["requested_rewrite"]["prompt"].format(subject)]
     # neighborhood_prompts = record["neighborhood_prompts"]
-    generation_prompts = record["generation_prompts"]
+    generation_prompts = record["generation_prompts"] if "generation_prompts" in record.keys() else []
     attribute_prompts = record["attribute_prompts"]
     # Form a list of lists of prefixes to test.
     prob_prompts = [

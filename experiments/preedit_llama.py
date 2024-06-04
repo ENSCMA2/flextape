@@ -259,7 +259,8 @@ if __name__ == "__main__":
         action="store_true",
         help="Use cached k/v pairs",
     )
-    parser.set_defaults(skip_generation_tests=False, conserve_memory=False)
+    parser.add_argument("--eff", dest="eff", action="store_true")
+    parser.set_defaults(skip_generation_tests=False, conserve_memory=False, eff = False)
     args = parser.parse_args()
 
     main(
