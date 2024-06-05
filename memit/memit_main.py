@@ -58,7 +58,7 @@ def apply_memit_to_model(
             if return_orig_weights and w_name not in weights_copy:
                 weights_copy[w_name] = w.detach().clone()
             um = upd_matrix.to(w.device)
-            old = {torch.sum(w)}
+            old = torch.sum(w)
             old_sum += old
             log(f"OLD SUM {old}")
             log(f"TO ADD {torch.sum(um)}")

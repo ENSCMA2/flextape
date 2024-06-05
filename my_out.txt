@@ -1,52 +1,15 @@
-modules
-modules
-modules
-OrderedDict([('model', LlamaModel(
-  (embed_tokens): Embedding(32000, 4096)
-  (layers): ModuleList(
-    (0-31): 32 x LlamaDecoderLayer(
-      (self_attn): LlamaSdpaAttention(
-        (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
-        (k_proj): Linear(in_features=4096, out_features=4096, bias=False)
-        (v_proj): Linear(in_features=4096, out_features=4096, bias=False)
-        (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
-        (rotary_emb): LlamaRotaryEmbedding()
-      )
-      (mlp): LlamaMLP(
-        (gate_proj): Linear(in_features=4096, out_features=11008, bias=False)
-        (up_proj): Linear(in_features=4096, out_features=11008, bias=False)
-        (down_proj): Linear(in_features=11008, out_features=4096, bias=False)
-        (act_fn): SiLU()
-      )
-      (input_layernorm): LlamaRMSNorm()
-      (post_attention_layernorm): LlamaRMSNorm()
-    )
-  )
-  (norm): LlamaRMSNorm()
-)), ('lm_head', Linear(in_features=4096, out_features=32000, bias=False))])
-modules
-modules
-modules
-modules
-odict_keys(['model', 'lm_head'])
-modules
-odict_keys(['model', 'lm_head'])
-modules
-odict_keys(['model', 'lm_head'])
 OLD SUM 26.03069305419922
-TO ADD 91.46705643090198
-NEW SUM 117.49769592285156
+TO ADD 117.02114084263472
+NEW SUM 143.05178833007812
 OLD SUM 49.206565856933594
-TO ADD -2.6415101234832346
-NEW SUM 46.56499481201172
+TO ADD -9.881306299963384
+NEW SUM 39.325294494628906
 OLD SUM 120.24488067626953
-TO ADD 94.25669107885561
-NEW SUM 214.5015869140625
+TO ADD 86.2759648122933
+NEW SUM 206.5207977294922
 OLD SUM 101.08708190917969
-TO ADD 140.13491025767084
-NEW SUM 241.2220001220703
+TO ADD 130.70667849715568
+NEW SUM 231.79380798339844
 OLD SUM -92.44560241699219
-TO ADD -77.38164222137007
-NEW SUM -169.8273162841797
-modules
-odict_keys(['model', 'lm_head'])
+TO ADD -44.34025292043814
+NEW SUM -136.78591918945312
