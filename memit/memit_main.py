@@ -46,7 +46,8 @@ def apply_memit_to_model(
         model = deepcopy(model)
 
     deltas = execute_memit(model, tok, requests, hparams, cache_template=cache_template)
-
+    old_sum = 0
+    new_sum = 0
     with torch.no_grad():
         for w_name, (key_mat, val_mat) in deltas.items():
             key_mat, val_mat = key_mat.to(f"cuda"), val_mat.to(f"cuda")
@@ -57,10 +58,18 @@ def apply_memit_to_model(
             if return_orig_weights and w_name not in weights_copy:
                 weights_copy[w_name] = w.detach().clone()
             um = upd_matrix.to(w.device)
-            log(f"OLD SUM {torch.sum(w)}")
+            old = {torch.sum(w)}
+            old_sum += old
+            log(f"OLD SUM {old}")
             log(f"TO ADD {torch.sum(um)}")
             w[...] += um.float()
             log(f"NEW SUM {torch.sum(w)}")
+    with torch.no_grad():
+        for w_name, (key_mat, val_mat) in deltas.items():
+            w = nethook.get_parameter(model, w_name).to("cuda")
+            ns = torch.sum(w)
+            new_sum += ns
+    print(f"sum went from {old_sum} to {new_sum}")
 
     print(f"New weights successfully inserted into {list(deltas.keys())}")
 
@@ -68,8 +77,8 @@ def apply_memit_to_model(
         weights_copy = {}
 
     model.save_pretrained(f"/home/khalevy/.cache/huggingface/hub/edited_{requests[0]['relation_id']}")
-    log("modules")
-    log(str(model._modules.keys()))
+
+
 
     return model, weights_copy
 
