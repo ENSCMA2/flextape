@@ -10,7 +10,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --time=100:00:00
 
-# bash eval_pair_llama.sh meta-llama/Llama-2-7b-chat-hf;
+bash eval_pair_llama.sh meta-llama/Llama-2-7b-chat-hf;
 
 for DS in "P21_P101" "P27_P101" "P19_P101" "P101" "P103";
 do
