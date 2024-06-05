@@ -65,7 +65,6 @@ def apply_memit_to_model(
             log(f"TO ADD {torch.sum(um)}")
             nethook.get_parameter(model, w_name)[...] += um.float()
             log(f"NEW SUM {torch.sum(nethook.get_parameter(model, w_name))}")
-    with torch.no_grad():
         for w_name, (key_mat, val_mat) in deltas.items():
             w = nethook.get_parameter(model, w_name)
             ns = torch.sum(w)
