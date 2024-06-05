@@ -56,7 +56,7 @@ def apply_memit_to_model(
 
             if return_orig_weights and w_name not in weights_copy:
                 weights_copy[w_name] = w.detach().clone()
-            um = upd_matrix.to("cuda")
+            um = upd_matrix.to(w.device)
             w[...] += um.float()
 
     print(f"New weights successfully inserted into {list(deltas.keys())}")
@@ -66,7 +66,7 @@ def apply_memit_to_model(
 
     model.save_pretrained(f"/home/khalevy/.cache/huggingface/hub/edited_{requests[0]['relation_id']}")
     log("modules")
-    log(model._modules.keys())
+    log(str(model._modules.keys()))
 
     return model, weights_copy
 
@@ -244,7 +244,7 @@ def execute_memit(
 
         # Update model weights and record desired changes in `delta` variable
         with torch.no_grad():
-            weights[weight_name][...] = weights_copy[weight_name].to("cuda") + upd_matrix.to(weights[weight_name].device).float()
+            weights[weight_name][...] = weights_copy[weight_name].to(weights[weight_name].device) + upd_matrix.to(weights[weight_name].device).float()
             deltas[weight_name] = (
                 adj_k.detach().cpu(),
                 resid.detach().cpu(),
