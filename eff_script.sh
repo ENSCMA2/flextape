@@ -4,7 +4,7 @@
 #SBATCH --error=flextape.err
 #SBATCH --partition=long
 #SBATCH --nodes=1
-#SBATCH --gres=gpu:8
+#SBATCH --gres=gpu:4
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=80GB
 #SBATCH --cpus-per-task=16
