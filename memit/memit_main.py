@@ -53,6 +53,7 @@ def apply_memit_to_model(
             key_mat, val_mat = key_mat.to(f"cuda"), val_mat.to(f"cuda")
             upd_matrix = key_mat @ val_mat.T
             w = nethook.get_parameter(model, w_name).to("cuda")
+            nethook.get_parameter(model, w_name) = nethook.get_parameter(model, w_name).to("cuda")
             upd_matrix = upd_matrix_match_shape(upd_matrix, w.shape).to("cuda")
 
             if return_orig_weights and w_name not in weights_copy:
@@ -62,11 +63,11 @@ def apply_memit_to_model(
             old_sum += old
             log(f"OLD SUM {old}")
             log(f"TO ADD {torch.sum(um)}")
-            nethook.get_parameter(model, w_name).to("cuda")[...] += um.float()
-            log(f"NEW SUM {torch.sum(nethook.get_parameter(model, w_name).to('cuda'))}")
+            nethook.get_parameter(model, w_name)[...] += um.float()
+            log(f"NEW SUM {torch.sum(nethook.get_parameter(model, w_name))}")
     with torch.no_grad():
         for w_name, (key_mat, val_mat) in deltas.items():
-            w = nethook.get_parameter(model, w_name).to("cuda")
+            w = nethook.get_parameter(model, w_name)
             ns = torch.sum(w)
             new_sum += ns
     print(f"sum went from {old_sum} to {new_sum}")
