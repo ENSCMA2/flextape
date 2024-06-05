@@ -244,7 +244,7 @@ def execute_memit(
 
         # Update model weights and record desired changes in `delta` variable
         with torch.no_grad():
-            weights[weight_name][...] = weights_copy[weight_name].to("cuda") + upd_matrix.to("cuda").float()
+            weights[weight_name][...] = weights_copy[weight_name].to("cuda") + upd_matrix.to(weights[weight_name].device).float()
             deltas[weight_name] = (
                 adj_k.detach().cpu(),
                 resid.detach().cpu(),
