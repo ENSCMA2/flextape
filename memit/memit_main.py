@@ -64,7 +64,7 @@ def apply_memit_to_model(
     if not keep_original_weight:
         weights_copy = {}
 
-    model.save_pretrained("/home/khalevy/.cache/huggingface/hub/edited")
+    model.save_pretrained(f"/home/khalevy/.cache/huggingface/hub/edited_{requests[0]['requested_rewrite']['relation_id']}")
     log("modules")
     log(model._modules)
 
