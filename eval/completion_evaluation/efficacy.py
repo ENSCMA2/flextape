@@ -32,8 +32,8 @@ def gen_metrics(p, result_dir, n, presult_dir, method, patch = False,):
 	print("efficacy:", total / len(the_question), "baseline:", diff / len(the_question), "actual diff:", realdiff)
 
 model = sys.argv[1]
-for p in ["P21_P101",
+for p in ["P103", "P21_P101",
 		  "P27_P101", "P19_P101",
-		  "P101", "P103", 
+		  "P101",
 		  ]:
 	gen_metrics(p, f"../../effs/{model}/{method}/", 900, f"../../effs/{model}/NONE/", method)

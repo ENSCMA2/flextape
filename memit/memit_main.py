@@ -57,7 +57,10 @@ def apply_memit_to_model(
             if return_orig_weights and w_name not in weights_copy:
                 weights_copy[w_name] = w.detach().clone()
             um = upd_matrix.to(w.device)
+            log(f"OLD SUM {torch.sum(w)}")
+            log(f"TO ADD {torch.sum(um)}")
             w[...] += um.float()
+            log(f"NEW SUM {torch.sum(w)}")
 
     print(f"New weights successfully inserted into {list(deltas.keys())}")
 
