@@ -1,77 +1,11 @@
 [nltk_data] Downloading package punkt to /home/khalevy/nltk_data...
 [nltk_data]   Package punkt is already up-to-date!
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.47s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.30s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.62s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.25s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.57s/it]
 [nltk_data] Downloading package punkt to /home/khalevy/nltk_data...
 [nltk_data]   Package punkt is already up-to-date!
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.26s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.49s/it]
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "/home/khalevy/flextape/experiments/evaluate_llama.py", line 298, in <module>
-    main(
-  File "/home/khalevy/flextape/experiments/evaluate_llama.py", line 155, in main
-    edited_model, weights_copy = apply_algo(
-                                 ^^^^^^^^^^^
-  File "/home/khalevy/flextape/memit/memit_main.py", line 48, in apply_memit_to_model
-    deltas = execute_memit(model, tok, requests, hparams, cache_template=cache_template)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/flextape/memit/memit_main.py", line 174, in execute_memit
-    layer_ks = compute_ks(model, tok, requests, hparams, layer, context_templates).T
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/flextape/memit/compute_ks.py", line 19, in compute_ks
-    layer_ks = get_module_input_output_at_words(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/flextape/memit/compute_z.py", line 233, in get_module_input_output_at_words
-    l_input, l_output = repr_tools.get_reprs_at_word_tokens(
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/flextape/rome/repr_tools.py", line 32, in get_reprs_at_word_tokens
-    return get_reprs_at_idxs(
-           ^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/flextape/rome/repr_tools.py", line 157, in get_reprs_at_idxs
-    model(**contexts_tok)
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/accelerate/hooks.py", line 166, in new_forward
-    output = module._old_forward(*args, **kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 1211, in forward
-    outputs = self.model(
-              ^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 1018, in forward
-    layer_outputs = decoder_layer(
-                    ^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/accelerate/hooks.py", line 166, in new_forward
-    output = module._old_forward(*args, **kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 756, in forward
-    hidden_states = self.mlp(hidden_states)
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/accelerate/hooks.py", line 166, in new_forward
-    output = module._old_forward(*args, **kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/khalevy/miniconda3/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 240, in forward
-    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
-                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 124.00 MiB. GPU 
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.23s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.48s/it]
+  0%|          | 0/100000 [00:00<?, ?it/s]  0%|          | 0/100000 [00:00<?, ?it/s]
+  0%|          | 0/100000 [00:00<?, ?it/s]  0%|          | 0/100000 [00:00<?, ?it/s]
+  0%|          | 0/100000 [00:00<?, ?it/s]  0%|          | 0/100000 [00:00<?, ?it/s]
+  0%|          | 0/100000 [00:00<?, ?it/s]  0%|          | 0/100000 [00:00<?, ?it/s]
+  0%|          | 0/100000 [00:00<?, ?it/s]  0%|          | 0/100000 [00:00<?, ?it/s]
