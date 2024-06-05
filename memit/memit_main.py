@@ -59,7 +59,10 @@ def apply_memit_to_model(
                 weights_copy[w_name] = w.detach().clone()
             um = upd_matrix.to(w.device)
             old = torch.sum(w)
-            old_sum += old
+            if type(old_sum) == int:
+                old_sum += old
+            else:
+                old_sum += old.to(old_sum.device)
             log(f"OLD SUM {old}")
             log(f"TO ADD {torch.sum(um)}")
             w += um.float()
@@ -68,17 +71,16 @@ def apply_memit_to_model(
         for w_name, (key_mat, val_mat) in deltas.items():
             w = nethook.get_parameter(model, w_name)
             ns = torch.sum(w)
-            new_sum += ns.to(new_sum.device)
+            if type(new_sum) == int:
+                new_sum += ns
+            else:
+                new_sum += ns.to(new_sum.device)
     print(f"sum went from {old_sum} to {new_sum}")
 
     print(f"New weights successfully inserted into {list(deltas.keys())}")
 
     if not keep_original_weight:
         weights_copy = {}
-
-    model.save_pretrained(f"/home/khalevy/.cache/huggingface/hub/edited_{requests[0]['relation_id']}")
-
-
 
     return model, weights_copy
 
