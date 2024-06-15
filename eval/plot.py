@@ -81,7 +81,7 @@ def genfig(prop):
     nonnan = [v for v in values if not math.isnan(v)]
     if len(nonnan) == 0:
         nonnan = [0]
-    g.set(ylim = (min(-1e-15, min(nonnan) * 1.1), max(max(nonnan) * 1.1, 1e-15)))
+    # g.set(ylim = (min(-1e-15, min(nonnan) * 1.1), max(max(nonnan) * 1.1, 1e-15)))
     g.set_xticklabels(rotation=20)
     g.set_axis_labels(idtostr(prop), "Mean Difference")
     plt.tight_layout() 

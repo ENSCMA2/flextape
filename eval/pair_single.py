@@ -72,7 +72,7 @@ def gen_metrics(m, p1, p2):
 			gt = new_wiki[subj][p2]
 		else:
 			if os.path.exists(f"../data/wiki/person_{subj}.json"):
-				print("person file exists")
+				# print("person file exists")
 				with open(f"../data/wiki/person_{subj}.json") as o:
 					person = json.load(o)
 					if p2 in person["properties"].keys():
@@ -128,7 +128,9 @@ def gen_metrics(m, p1, p2):
 		json.dump({"by_case": correctness, "overall_acc": acc, "num_cases": len(list(correctness.keys())), "stdev": np.std(list(correctness.values()))}, o)
 
 method = sys.argv[2]
-for m in [method, "NONE"]:
+for m in [method, 
+		  "NONE"
+		  ]:
 	for p1, p2 in [("P101", "P21"), 
 				   ("P21", "P101"), ("P27", "P21"), 
 				   ("P27", "P101"), ("P27", "P19"), ("P101", "P27"), 
@@ -149,7 +151,10 @@ for p1, p2 in [("P101", "P21"),
 		loaded = json.load(o)
 		pre = list(loaded["by_case"].values())
 		pre_acc = loaded["overall_acc"]
-	print(method, p1, p2, pre_acc, post_acc, ttest_ind(post, pre).pvalue)
+	print(method, p1, p2, # pre_acc, 
+		  post_acc, 
+		  ttest_ind(post, pre).pvalue
+		  )
 
 
 
