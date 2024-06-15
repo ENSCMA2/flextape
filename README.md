@@ -100,7 +100,7 @@ Finally, if you're curious about agreement metrics for our long-form text annota
 cd eval
 python agreement.py
 ```
-
+<!--
 ## How to Cite
 
 ```bibtex
@@ -113,3 +113,4 @@ python agreement.py
       primaryClass={cs.CL}
 }
 ```
+-->
