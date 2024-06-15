@@ -24,10 +24,6 @@ ALG_DICT = {
     "MEMIT": (MEMITHyperParams, apply_memit_to_model),
 }
 
-MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
-              "meta-llama/Llama-2-7b-hf": "llama",
-              "mistralai/Mistral-7B-Instruct-v0.2": "mistral",
-              "mistralai/Mistral-7B-v0.1": "mistralb"}
 DS_DICT = {
     "P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P103": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),

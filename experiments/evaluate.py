@@ -30,9 +30,6 @@ ALG_DICT = {
     "MEND": (MENDHyperParams, MendRewriteExecutor().apply_to_model),
 }
 
-MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
-              "meta-llama/Llama-2-7b-hf": "llama"}
-
 DS_DICT = {
     "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),

@@ -36,9 +36,7 @@ DS_DICT = {
 def log(message):
     with open("logs.txt", "a") as o:
         o.write(message + "\n")
-
-MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
-              "meta-llama/Llama-2-7b-hf": "llama"}
+    
 def main(
     alg_name: str,
     model_name: Union[str, Tuple],

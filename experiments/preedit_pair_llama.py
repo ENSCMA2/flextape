@@ -21,10 +21,6 @@ from experiments.py.eval_utils_counterfact import compute_rewrite_quality_counte
 from util import nethook
 from util.globals import *
 
-MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
-              "meta-llama/Llama-2-7b-hf": "llama",
-              "meta-llama/Llama-2-7b-chat-hf": "llamac"}
-
 genders = set(["male", "female"])
 fow = set(pd.read_csv("data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
 city_names = set(pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])["CName"].tolist())

@@ -19,9 +19,6 @@ from experiments.py.eval_utils_counterfact import compute_pair_quality
 from util import nethook
 from util.globals import *
 
-MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
-              "meta-llama/Llama-2-7b-hf": "llama"}
-
 genders = set(["male", "female"])
 fow = set(pd.read_csv("data/fow.csv", names = ["Code", "String", "Category"])["String"].tolist())
 city_names = set(pd.read_csv("data/city_to_country.csv", names = ["City", "Country", "UCity", "CName"])["UCity"].tolist())

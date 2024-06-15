@@ -20,10 +20,6 @@ from experiments.py.eval_utils_counterfact import compute_rewrite_quality_counte
 from util import nethook
 from util.globals import *
 
-MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
-              "meta-llama/Llama-2-7b-hf": "llama",
-              "meta-llama/Llama-2-7b-chat-hf": "llamac"}
-
 DS_DICT = {
     "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "P101": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),

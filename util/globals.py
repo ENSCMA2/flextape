@@ -18,3 +18,9 @@ with open("globals.yml", "r") as stream:
 )
 
 REMOTE_ROOT_URL = data["REMOTE_ROOT_URL"]
+
+MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
+              "meta-llama/Llama-2-7b-hf": "llama",
+              "meta-llama/Llama-2-7b-chat-hf": "llamac",
+              "mistralai/Mistral-7B-Instruct-v0.2": "mistral",
+              "mistralai/Mistral-7B-v0.1": "mistralb"}

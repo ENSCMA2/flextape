@@ -22,9 +22,6 @@ from rome import ROMEHyperParams, apply_rome_to_model
 from util import nethook
 from util.globals import *
 
-MODEL_DICT = {"EleutherAI/gpt-j-6B": "gptj",
-              "meta-llama/Llama-2-7b-hf": "llama"}
-
 ALG_DICT = {
     "MEMIT": (MEMITHyperParams, apply_memit_to_model),
     "ROME": (ROMEHyperParams, apply_rome_to_model),
