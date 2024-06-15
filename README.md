@@ -1,14 +1,6 @@
 # "Flex Tape Can't Fix That": Pitfalls of Model Editing
 Here is the code used for the paper  _"Flex Tape Can't Fix That": Pitfalls of Model Editing_. Experimental code is mainly in the `experiments` directory, data preprocessing code is in `dsets`, and evaluation code is in `eval`. This repo was cloned and modified based on [MEMIT](https://memit.baulab.info/), and some instructions have been duplicated from there.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [MEMIT Algorithm Demo](#memit-algorithm-demo)
-- [Running the Full Evaluation Suite](#running-the-full-evaluation-suite)
-- [Generating Scaling Curves](#generating-scaling-curves)
-- [How to Cite](#how-to-cite)
-
 ## Installation
 
 We recommend `conda` for managing Python, CUDA, and PyTorch; `pip` is for everything else. To get started, simply install `conda` and run:
