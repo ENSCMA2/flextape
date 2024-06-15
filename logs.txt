@@ -1,141 +1,119 @@
 getting started
 starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
 Instantiating model
-created model
 Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_NONE/P103_layer_{}_clamp_{}_case_{}.npz
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P27_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/llama/MEMIT/run_000/{}_edits-case_{}.json
+about to start 23061
+started 23061
+Execution took 99797.50721216202
+about to evaluate
 getting started
 starting main
 Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
 Instantiating model
 Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
-working on results/llamac/MEMIT/run_000/{}_edits-case_{}.json
-about to start 0
-started 0
-getting started
-starting main
-Instantiating model
-created model
-Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_NONE/P103_layer_{}_clamp_{}_case_{}.npz
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P21_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/llama/MEMIT/run_001/{}_edits-case_{}.json
+about to start 21920
+started 21920
+Execution took 253.0333116054535
+about to evaluate
 getting started
 starting main
 Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
 Instantiating model
 Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
-working on results/llamac/MEMIT/run_001/{}_edits-case_{}.json
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P19_P101_layer_{}_clamp_{}_case_{}.npz
+working on results/llama/MEMIT/run_001/{}_edits-case_{}.json
+about to start 22775
+started 22775
+Execution took 239.85058569908142
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
+working on results/llama/MEMIT/run_001/{}_edits-case_{}.json
 about to start 0
 started 0
-Execution took 14359.546903371811
+Execution took 7660.189071655273
+about to evaluate
+getting started
+starting main
+Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_MEMIT/P101_layer_{}_clamp_{}_case_{}.npz
+working on results/llama/MEMIT/run_001/{}_edits-case_{}.json
+about to start 73
+started 73
+Execution took 3284.5443892478943
 about to evaluate
 getting started
 starting main
 Instantiating model
-created model
 Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_NONE/P103_layer_{}_clamp_{}_case_{}.npz
-getting started
-starting main
-Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
-Instantiating model
-Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
-working on results/llamac/MEMIT/run_000/{}_edits-case_{}.json
-about to start 0
-started 0
-getting started
-starting main
-Instantiating model
-created model
-Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_NONE/P103_layer_{}_clamp_{}_case_{}.npz
-getting started
-starting main
-Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
-Instantiating model
-Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
-working on results/llamac/MEMIT/run_001/{}_edits-case_{}.json
-about to start 0
-started 0
-Execution took 1024.6458678245544
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_NONE/P101_P21_layer_{}_clamp_{}_case_{}.npz
 about to evaluate
 getting started
 starting main
 Instantiating model
-created model
 Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_NONE/P103_layer_{}_clamp_{}_case_{}.npz
-getting started
-starting main
-Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
-Instantiating model
-Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
-working on results/llamac/MEMIT/run_000/{}_edits-case_{}.json
-about to start 0
-started 0
-Execution took 1297.0507447719574
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_NONE/P27_P19_layer_{}_clamp_{}_case_{}.npz
 about to evaluate
 getting started
 starting main
 Instantiating model
-created model
 Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_NONE/P103_layer_{}_clamp_{}_case_{}.npz
-getting started
-starting main
-Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
-Instantiating model
-Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
-working on results/llamac/MEMIT/run_000/{}_edits-case_{}.json
-about to start 0
-started 0
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_NONE/P101_P21_layer_{}_clamp_{}_case_{}.npz
 getting started
 starting main
 Instantiating model
-created model
 Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_NONE/P103_layer_{}_clamp_{}_case_{}.npz
-getting started
-starting main
-Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
-Instantiating model
-Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
-working on results/llamac/MEMIT/run_001/{}_edits-case_{}.json
-about to start 0
-started 0
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_NONE/P27_P19_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
 getting started
 starting main
 Instantiating model
-created model
 Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_NONE/P103_layer_{}_clamp_{}_case_{}.npz
-getting started
-starting main
-Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
-Instantiating model
-Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
-working on results/llamac/MEMIT/run_001/{}_edits-case_{}.json
-about to start 0
-started 0
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_NONE/P21_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
 getting started
 starting main
 Instantiating model
-created model
 Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_NONE/P103_layer_{}_clamp_{}_case_{}.npz
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_NONE/P27_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
 getting started
 starting main
-Executing MEMIT with parameters MEMITHyperParams(layers=[4, 5, 6, 7, 8], layer_selection='all', fact_token='subject_last', v_num_grad_steps=25, v_lr=0.5, v_loss_layer=31, v_weight_decay=0.001, clamp_norm_factor=4, kl_factor=0.0625, mom2_adjustment=True, mom2_update_weight=15000, rewrite_module_tmp='model.layers.{}.mlp.down_proj', layer_module_tmp='model.layers.{}', mlp_module_tmp='model.layers.{}.mlp', attn_module_tmp='model.layers.{}.self_attn', ln_f_module='model.norm', lm_head_module='lm_head', stats_dir='./data/stats', mom2_dataset='wikipedia', mom2_n_samples=100000, mom2_dtype='float32')
 Instantiating model
 Loading dataset, attribute snippets, tf-idf data
-Will load cache from kvs/meta-llama_Llama-2-7b-chat-hf_MEMIT/P103_layer_{}_clamp_{}_case_{}.npz
-working on results/llamac/MEMIT/run_001/{}_edits-case_{}.json
-about to start 0
-started 0
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_NONE/P27_P21_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_NONE/P27_P19_layer_{}_clamp_{}_case_{}.npz
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_NONE/P101_P27_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_NONE/P19_P21_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
+getting started
+starting main
+Instantiating model
+Loading dataset, attribute snippets, tf-idf data
+Will load cache from kvs/meta-llama_Llama-2-7b-hf_NONE/P19_P101_layer_{}_clamp_{}_case_{}.npz
+about to evaluate
