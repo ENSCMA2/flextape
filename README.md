@@ -100,17 +100,20 @@ Finally, if you're curious about agreement metrics for our long-form text annota
 cd eval
 python agreement.py
 ```
-<!--
+
 ## How to Cite
 
 ```bibtex
-@misc{halevy2024flex,
-      title={"Flex Tape Can't Fix That": Bias and Misinformation in Edited Language Models}, 
-      author={Karina Halevy and Anna Sotnikova and Badr AlKhamissi and Syrielle Montariol and Antoine Bosselut},
-      year={2024},
-      eprint={2403.00180},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{halevy2024flex,
+               title={"Flex Tape Can't Fix That": Bias and Misinformation in Edited Language Models}, 
+               author={Karina Halevy and Anna Sotnikova and Badr AlKhamissi and Syrielle Montariol and Antoine Bosselut},
+               editor={Yaser Al-Onaizan and Mohit Bansal and Vivian Chen},
+               year={2024},
+               booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+               month = nov,
+               year = "2024",
+               address = "Miami, Florida",
+               publisher = "Association for Computational Linguistics",
 }
 ```
--->
+
