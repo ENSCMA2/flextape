@@ -1,5 +1,5 @@
 # "Flex Tape Can't Fix That": Pitfalls of Model Editing
-Here is the code used for the paper  _"Flex Tape Can't Fix That": Pitfalls of Model Editing_. Experimental code is mainly in the `experiments` directory, data preprocessing code is in `dsets`, and evaluation code is in `eval`. This repo was cloned and modified based on [MEMIT](https://memit.baulab.info/), and some instructions have been duplicated from there.
+Here is the code used for the paper  _"Flex Tape Can't Fix That": Pitfalls of Model Editing_, accepted to EMNLP 2024 ([preprint](https://arxiv.org/abs/2403.00180)). Experimental code is mainly in the `experiments` directory, data preprocessing code is in `dsets`, and evaluation code is in `eval`. This repo was cloned and modified based on [MEMIT](https://memit.baulab.info/), and some instructions have been duplicated from there.
 
 ## Installation
 
